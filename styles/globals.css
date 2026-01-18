@@ -230,4 +230,99 @@ nav {
     text-align: center;
   }
 }
+/* =========================
+   Mobile Balance — Global (All Pages)
+   ========================= */
+@media (max-width: 768px) {
+  /* 1) 全ページ：中央寄せを解除して読み物を左寄せへ */
+  main {
+    max-width: 100%;
+    margin: 0;
+    padding: 72px 20px;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.15;
+    margin: 0 0 1rem;
+  }
+
+  p {
+    font-size: 1.02rem;
+    line-height: 1.85;
+    max-width: 100%;
+    margin: 0 0 1.35rem;
+  }
+
+  /* 2) ナビ：スマホUIとして自然なピル型 + 横スクロール */
+  nav {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 0 8px;
+  }
+
+  nav a {
+    border-bottom: 0;
+    padding: 10px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+
+  /* 3) Heroは“象徴”として中央に固定（他ページは左寄せのまま） */
+  .hero-content {
+    text-align: center;
+    padding: 92px 18px 70px;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* 4) 数式：中央下で痕跡として整える */
+  .hero-formula {
+    left: 50%;
+    right: auto;
+    bottom: 18px;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 0.82rem;
+    opacity: 0.22;
+  }
+
+  /* 5) About / Papers 等のセクション余白も統一 */
+  .about {
+    padding: 92px 20px;
+  }
+
+  .about-inner {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .about h1 {
+    font-size: 2.1rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .about p {
+    max-width: 100%;
+  }
+
+  /* 6) Archive (papers) などで “← Back” が中央に寄らないように */
+  a {
+    word-break: break-word;
+  }
+}
 
