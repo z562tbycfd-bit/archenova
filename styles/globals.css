@@ -1,6 +1,150 @@
-/* ArcheNova global styles */
+/* ArcheNova Global Style */
+
+:root {
+  --bg: #0b0b0c;
+  --fg: #f5f5f5;
+  --muted: #9aa0a6;
+  --accent: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Inter",
+               "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--fg);
+  text-decoration: none;
+  border-bottom: 1px solid var(--muted);
+}
+
+a:hover {
+  border-bottom-color: var(--fg);
+}
+
+main {
+  max-width: 860px;
+  padding: 120px 32px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 720px;
+}
+
+nav {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.95rem;
+}
+/* =========================
+   ArcheNova Hero Section
+   ========================= */
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("/images/IMG_9390.jpeg"); /* ←ここ重要 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 140px 32px;
+}
+
+.hero h1 {
+  font-size: 3.6rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #cfcfcf;
+  max-width: 720px;
+}
+/* =========================
+   ArcheNova Formula Overlay
+   ========================= */
+
+.hero-formula {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.18);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  font-family: "Times New Roman", serif;
+  z-index: 2;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .hero-formula {
+    font-size: 0.85rem;
+    bottom: 20px;
+    right: 20px;
+    left: auto;
+    transform: none;
+  }
+}
+
+/* =========================
+   About Page
+   ========================= */
+
+.about {
+  background: #0b0b0c;
+  padding: 140px 32px;
+}
+
+.about-inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  font-size: 2.6rem;
+  margin-bottom: 2.5rem;
+}
+
+.about p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #cfcfcf;
+  max-width: 760px;
+  margin-bottom: 1.6rem;
 }

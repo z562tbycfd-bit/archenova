@@ -2,22 +2,33 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main style={{ padding: 24, fontFamily: "system-ui" }}>
-      <h1>ArcheNova</h1>
+    <section className="hero">
+      {/* メインコンテンツ */}
+      <div className="hero-content">
+        <h1>ArcheNova</h1>
 
-      <p>Engineering irreversibility into knowledge and infrastructure.</p>
+        <p>
+          Engineering irreversibility into knowledge, energy,
+          and infrastructure.
+        </p>
 
-      <p>
-        <Link href="/log">Log</Link> ・{" "}
-        <Link href="/papers">Archive</Link> ・{" "}
-        <a
-          href="https://x.com/ArcheNova_X"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Contact on X
-        </a>
-      </p>
-    </main>
+        <nav>
+          <Link href="/about">About</Link>
+          <Link href="/papers">Archive</Link>
+          <a
+            href="https://x.com/ArcheNova_X"
+            target="_blank"
+            rel="noreferrer"
+          >
+            X
+          </a>
+        </nav>
+      </div>
+
+      {/* 数式オーバーレイ */}
+      <div className="hero-formula">
+        G<sub>μν</sub> = 8πG T<sub>μν</sub>
+      </div>
+    </section>
   );
 }
