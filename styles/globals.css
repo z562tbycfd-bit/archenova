@@ -63,7 +63,7 @@ nav {
 .hero {
   position: relative;
   min-height: 100vh;
-  background-image: url("/images/IMG_9390.jpeg"); /* ←ここ重要 */
+  background-image: url("/images/IMG_9379.jpeg"); /* ←ここ重要 */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
