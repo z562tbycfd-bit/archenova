@@ -148,3 +148,21 @@ nav {
   max-width: 760px;
   margin-bottom: 1.6rem;
 }
+/* =========================
+   Mobile Hero Image Override
+   ========================= */
+@media (max-width: 768px) {
+  .hero {
+    background-image: url("/images/IMG_9844.jpeg");
+    background-size: cover;
+    background-position: center top;
+  }
+
+  .hero::after {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .hero-content {
+    padding: 110px 20px;
+  }
+}
