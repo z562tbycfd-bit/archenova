@@ -166,4 +166,68 @@ nav {
     padding: 110px 20px;
   }
 }
+/* =========================
+   Mobile Layout Balance (Global)
+   ========================= */
+@media (max-width: 768px) {
+  /* 文章は左寄せが基本：可読性を上げる */
+  main {
+    padding: 72px 20px;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.02rem;
+    line-height: 1.85;
+    max-width: 100%;
+  }
+
+  /* ナビ：横スクロールの1列にして崩れないように */
+  nav {
+    margin-top: 1.6rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 6px;
+  }
+
+  nav a {
+    border-bottom: 0;
+    padding: 10px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+
+  /* Heroだけは“象徴”として中央に置く */
+  .hero-content {
+    text-align: center;
+    padding: 92px 18px 70px;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* 数式は中央下で“痕跡”として残す */
+  .hero-formula {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}
 
