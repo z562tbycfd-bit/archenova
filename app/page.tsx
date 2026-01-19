@@ -8,8 +8,7 @@ export default function Home() {
         <h1>ArcheNova</h1>
 
         <p>
-          Engineering irreversibility into knowledge, energy,
-          and infrastructure.
+        What ArcheNova addresses is not ideas or predictions, but the initial conditions(Arche) that generate irreversible outcomes, and their continuous renewal(Nova).
         </p>
       </div>
 
