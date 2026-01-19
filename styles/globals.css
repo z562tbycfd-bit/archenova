@@ -613,16 +613,6 @@ nav {
   transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
 }
 
-/* タイトル＋サブを擬似的に出す（重み） */
-.hero-links a::after {
-  content: "Enter";
-  display: block;
-  margin-top: 8px;
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.55);
-  letter-spacing: 0.06em;
-}
-
 /* 入口に触れた時の“わずかな重力” */
 .hero-links a:hover {
   transform: translateY(-1px);
@@ -647,4 +637,3 @@ nav {
     padding: 18px 16px;
   }
 }
-
