@@ -1,8 +1,9 @@
 import "../styles/globals.css";
+import Menu from "./components/Menu";
 
 export const metadata = {
   title: "ArcheNova",
-  description: "Engineering irreversibility into knowledge and infrastructure.",
+  description: "What ArcheNova addresses is not ideas or predictions, but the initial conditions(Arche) that generate irreversible outcomes, and their continuous renewal(Nova).",
 };
 
 export default function RootLayout({
@@ -12,7 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>
+        <header className="site-header">
+          <Menu />
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
