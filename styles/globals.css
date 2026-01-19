@@ -439,4 +439,212 @@ nav {
     right: 14px;
   }
 }
+/* =========================
+   HOME — Scrollable Hero
+   ========================= */
+
+.hero-scroll {
+  min-height: 100vh;
+  padding-bottom: 120px;
+}
+
+/* タイトル */
+.hero-title {
+  font-size: 3.2rem;
+  margin-bottom: 1.2rem;
+}
+
+/* 一行ステートメント（最重要） */
+.hero-statement {
+  font-size: 1.35rem;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 720px;
+  margin-bottom: 2rem;
+}
+
+/* 補足定義 */
+.hero-definition {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.65);
+  max-width: 720px;
+}
+
+/* 数式ブロック */
+.hero-symbol {
+  margin-top: 96px;
+  text-align: center;
+}
+
+.hero-formula {
+  font-family: "Times New Roman", serif;
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.25);
+  margin-bottom: 0.75rem;
+}
+
+.hero-formula-note {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* 下層導線 */
+.hero-links {
+  margin-top: 96px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.hero-links a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  padding-bottom: 2px;
+}
+
+/* スマホ最適化 */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .hero-statement {
+    font-size: 1.1rem;
+  }
+
+  .hero-symbol {
+    margin-top: 72px;
+  }
+
+  .hero-links {
+    margin-top: 72px;
+  }
+}
+/* =========================
+   Manifesto
+   ========================= */
+.manifesto {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 120px 32px;
+}
+
+.manifesto-head h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.manifesto-lead {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 1.05rem;
+  line-height: 1.9;
+  max-width: 760px;
+}
+
+.manifesto-block {
+  margin-top: 64px;
+}
+
+.manifesto-block h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 16px;
+}
+
+.manifesto-block ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.manifesto-block li {
+  padding: 14px 14px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.7;
+}
+
+.manifesto-block li strong {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.manifesto-block p {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.9;
+  max-width: 760px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .manifesto {
+    padding: 92px 20px;
+  }
+  .manifesto-head h1 {
+    font-size: 2.2rem;
+  }
+}
+/* =========================
+   HOME Gate Links (Manifesto / Framework)
+   ========================= */
+
+.hero-links {
+  margin-top: 96px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  align-items: stretch;
+}
+
+/* “入口”カード */
+.hero-links a {
+  border-bottom: 0;
+  padding: 18px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: rgba(255, 255, 255, 0.92);
+  display: block;
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+/* タイトル＋サブを擬似的に出す（重み） */
+.hero-links a::after {
+  content: "Enter";
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.06em;
+}
+
+/* 入口に触れた時の“わずかな重力” */
+.hero-links a:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.28);
+  background: rgba(0, 0, 0, 0.48);
+}
+
+/* クリック時 */
+.hero-links a:active {
+  transform: translateY(0px);
+}
+
+/* スマホ：縦並びで“二つの門”にする */
+@media (max-width: 768px) {
+  .hero-links {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 72px;
+  }
+
+  .hero-links a {
+    padding: 18px 16px;
+  }
+}
 
