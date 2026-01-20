@@ -74,6 +74,7 @@ nav {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.55);
+  pointer-events: none; /* ★これを追加 */
 }
 
 .hero-content {
@@ -495,6 +496,8 @@ nav {
   margin-top: 96px;
   display: flex;
   gap: 1.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-links a {
