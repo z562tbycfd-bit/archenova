@@ -628,9 +628,10 @@ nav {
 .hero-links {
   margin-top: 96px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr); /* ← ここが重要 */
   gap: 14px;
-  align-items: stretch;
+  position: relative;
+  z-index: 2;
 }
 
 /* “入口”カード */
@@ -788,5 +789,176 @@ nav {
   }
   .fw-footnote {
     text-align: left;
+  }
+}
+/* =========================
+   HOME Gate: 3 columns on desktop
+   ========================= */
+.hero-links {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 768px) {
+  .hero-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   Domains
+   ========================= */
+.domains {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 120px 32px;
+}
+
+.domains-head h1 {
+  font-size: 2.8rem;
+  margin: 0 0 1.2rem;
+}
+
+.domains-lead {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 1.05rem;
+  line-height: 1.9;
+  max-width: 860px;
+}
+
+.domains-grid {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.domain-card {
+  border-bottom: 0;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.32);
+  padding: 18px 18px 16px;
+  display: block;
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.domain-card:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.46);
+}
+
+.domain-title {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
+
+.domain-def {
+  color: rgba(255, 255, 255, 0.66);
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.domain-rep {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .domains {
+    padding: 92px 20px;
+  }
+  .domains-head h1 {
+    font-size: 2.2rem;
+  }
+  .domains-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   Domain detail page
+   ========================= */
+.domain {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 120px 32px;
+}
+
+.domain-top {
+  margin-bottom: 18px;
+}
+
+.domain-back {
+  border-bottom: 0;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.domain-back:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.domain-head h1 {
+  font-size: 2.8rem;
+  margin: 0 0 1.2rem;
+}
+
+.domain-def2 {
+  color: rgba(255, 255, 255, 0.68);
+  line-height: 1.9;
+  max-width: 860px;
+}
+
+.domain-block {
+  margin-top: 56px;
+}
+
+.domain-block h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.domain-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.domain-item {
+  padding: 14px 14px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.domain-item-title {
+  color: rgba(255, 255, 255, 0.92);
+  margin-bottom: 6px;
+}
+
+.domain-item-note {
+  color: rgba(255, 255, 255, 0.62);
+  line-height: 1.7;
+}
+
+.domain-note {
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.9;
+  max-width: 860px;
+}
+
+@media (max-width: 768px) {
+  .domain {
+    padding: 92px 20px;
+  }
+  .domain-head h1 {
+    font-size: 2.2rem;
   }
 }

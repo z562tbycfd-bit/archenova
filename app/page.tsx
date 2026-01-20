@@ -31,9 +31,10 @@ export default function Home() {
 
       {/* ④ HOME下部の専用導線（ここが唯一の入口） */}
       <div className="hero-links">
-        <Link href="/manifesto">Manifesto</Link>
-        <Link href="/framework">Framework</Link>
-      </div>
+  <Link href="/manifesto">Manifesto</Link>
+  <Link href="/framework">Framework</Link>
+  <Link href="/domains">Domains</Link>
+</div>
     </section>
   );
 }
