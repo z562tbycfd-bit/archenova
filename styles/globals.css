@@ -1095,34 +1095,48 @@ nav {
   }
 }
 /* =========================
-   Research / Papers overflow fix (Desktop)
+   Research / Papers typography fix (Readable)
    ========================= */
 
-/* カード内のテキストは必ず折り返す */
-.rp-card,
+/* カード全体：自然な改行を基本に */
+.rp-card {
+  overflow: hidden;
+}
+
+/* タイトル・本文は単語単位で改行 */
 .rp-title,
 .rp-v,
 .rp-note,
 .rp-domain {
-  overflow-wrap: anywhere;   /* 最優先：どんな長文も折り返す */
-  word-break: break-word;    /* 念のため */
+  word-break: normal;        /* 単語は壊さない */
+  overflow-wrap: break-word; /* はみ出す時だけ分割 */
+  hyphens: auto;             /* 英語の自然なハイフネーション */
+  line-height: 1.75;
 }
 
-/* リンクや code も枠内に収める */
-.rp-links a,
-.rp-note code {
-  overflow-wrap: anywhere;
-  word-break: break-word;
+/* 本文の読みやすさを強化 */
+.rp-v {
+  max-width: 100%;
+  font-size: 0.95rem;
 }
 
-/* 2カラムの右側が極端に狭くならないようにする（Desktopの安定化） */
+/* 左ラベル（Question 等）は短く固定 */
+.rp-k {
+  white-space: nowrap;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+}
+
+/* Gridの右側が潰れないように */
 @media (min-width: 769px) {
   .rp-row {
-    grid-template-columns: 180px minmax(0, 1fr); /* ←minmax(0,1fr)が重要 */
+    grid-template-columns: 180px minmax(0, 1fr);
   }
 }
 
-/* もしどこかに nowrap が入っていた場合の保険 */
-.rp-card * {
-  white-space: normal;
+/* リンク・codeだけは安全策 */
+.rp-links a,
+.rp-note code {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
