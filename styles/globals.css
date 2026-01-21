@@ -628,7 +628,7 @@ nav {
 .hero-links {
   margin-top: 96px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* ← ここが重要 */
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); /* ★固定列をやめる */
   gap: 14px;
   position: relative;
   z-index: 2;
@@ -965,72 +965,132 @@ nav {
 /* =========================
    Research / Papers
    ========================= */
-
-.research {
+.rp {
   max-width: 980px;
   margin: 0 auto;
   padding: 120px 32px;
 }
 
-.research-head h1 {
+.rp-head h1 {
   font-size: 2.8rem;
-  margin-bottom: 1.2rem;
+  margin: 0 0 1.2rem;
 }
 
-.research-lead {
+.rp-lead {
   color: rgba(255, 255, 255, 0.68);
   font-size: 1.05rem;
   line-height: 1.9;
-  max-width: 860px;
+  max-width: 880px;
 }
 
-.research-list {
+.rp-section {
   margin-top: 64px;
 }
 
-.research-item {
-  padding: 22px 22px 20px;
-  margin-bottom: 18px;
+.rp-h2 {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.rp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 14px;
+}
+
+.rp-card {
   border-radius: 18px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   background: rgba(0, 0, 0, 0.32);
+  padding: 18px 18px 16px;
 }
 
-.research-title {
-  font-size: 1.2rem;
+.rp-top {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.rp-badge {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.rp-domain {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.rp-title {
+  font-size: 1.15rem;
   color: rgba(255, 255, 255, 0.95);
-  margin-bottom: 10px;
+  line-height: 1.5;
+  margin: 0 0 14px;
 }
 
-.research-statement {
+.rp-summary {
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+  padding-top: 14px;
+}
+
+.rp-row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.rp-row:last-child {
+  border-bottom: 0;
+}
+
+.rp-k {
+  font-size: 0.82rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.rp-v {
   color: rgba(255, 255, 255, 0.72);
-  line-height: 1.8;
-  margin-bottom: 14px;
-  max-width: 860px;
+  line-height: 1.75;
 }
 
-.research-meta {
+.rp-links {
+  margin-top: 14px;
   display: flex;
   gap: 14px;
-  align-items: center;
 }
 
-.research-meta a {
+.rp-links a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.35);
   padding-bottom: 2px;
 }
 
-.research-note {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.45);
+.rp-note {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.8;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
-  .research {
+  .rp {
     padding: 92px 20px;
   }
-  .research-head h1 {
+  .rp-head h1 {
     font-size: 2.2rem;
+  }
+  .rp-row {
+    grid-template-columns: 1fr;
   }
 }
