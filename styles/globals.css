@@ -1175,3 +1175,130 @@ nav {
     grid-template-columns: 180px minmax(0, 1fr);
   }
 }
+/* =========================
+   Projects
+   ========================= */
+.projects {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 120px 32px;
+}
+
+.projects-head h1 {
+  font-size: 2.8rem;
+  margin: 0 0 1.2rem;
+}
+
+.projects-lead {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 1.05rem;
+  line-height: 1.9;
+  max-width: 880px;
+}
+
+.pj-grid {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 14px;
+}
+
+.pj-card {
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.32);
+  padding: 18px 18px 16px;
+}
+
+.pj-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.pj-id {
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.pj-badge {
+  font-size: 0.78rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.78);
+}
+
+/* フェーズごとの微差（色指定は避けつつ濃淡で区別） */
+.pj-concept { background: rgba(255, 255, 255, 0.03); }
+.pj-prototype { background: rgba(255, 255, 255, 0.05); }
+.pj-deployment { background: rgba(255, 255, 255, 0.07); }
+
+.pj-title {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 0 0 14px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.pj-block {
+  margin-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+  padding-top: 14px;
+}
+
+.pj-k {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 10px;
+}
+
+.pj-v {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.8;
+  overflow-wrap: break-word;
+}
+
+.pj-scale {
+  display: grid;
+  gap: 10px;
+}
+
+.pj-scale-row {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.pj-skey {
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+.pj-sval {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.7;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 92px 20px;
+  }
+  .projects-head h1 {
+    font-size: 2.2rem;
+  }
+  .pj-scale-row {
+    grid-template-columns: 1fr;
+  }
+}

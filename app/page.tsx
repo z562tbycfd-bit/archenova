@@ -35,6 +35,7 @@ export default function Home() {
   <Link href="/framework">Framework</Link>
   <Link href="/domains">Domains</Link>
   <Link href="/research">Research / Papers</Link>
+  <Link href="/projects">Projects</Link>
 </div>
     </section>
   );
