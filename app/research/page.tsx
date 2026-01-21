@@ -205,10 +205,6 @@ export default function ResearchPage() {
             <Card key={e.title} e={e} />
           ))}
         </div>
-
-        <p className="rp-note">
-          PDF links assume files are placed under <code>public/files/</code> (e.g. <code>public/files/example.pdf</code> → <code>/files/example.pdf</code>).
-        </p>
       </section>
     </main>
   );
