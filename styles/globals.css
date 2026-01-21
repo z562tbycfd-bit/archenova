@@ -1140,3 +1140,89 @@ nav {
   overflow-wrap: break-word;
   word-break: break-word;
 }
+/* =========================
+   Research / Papers (Fix overlap + Wide cards on Desktop)
+   ========================= */
+
+/* 文字が重なる系の事故を止める：安全なタイポ固定 */
+.rp-card,
+.rp-card * {
+  line-height: 1.75;
+  letter-spacing: normal;
+  white-space: normal;
+  hyphens: none;              /* ★重なり原因になりがちなので無効化 */
+  text-rendering: geometricPrecision;
+}
+
+/* 本文は自然折り返し */
+.rp-title,
+.rp-v,
+.rp-note,
+.rp-domain {
+  word-break: normal;
+  overflow-wrap: break-word;  /* はみ出す時だけ分割 */
+}
+
+/* Gridの右カラムが潰れて崩れるのを防ぐ */
+.rp-row {
+  grid-template-columns: 180px minmax(0, 1fr);
+}
+
+/* =========================
+   Desktop: カードを横長2カラムにする
+   ========================= */
+@media (min-width: 900px) {
+  /* カード全体を2カラム化 */
+  .rp-card {
+    display: grid;
+    grid-template-columns: 320px minmax(0, 1fr); /* 左：タイトル/属性 右：要約 */
+    gap: 18px;
+    align-items: start;
+  }
+
+  /* 上部（Badge/Domain）とタイトルを左に寄せる */
+  .rp-top {
+    grid-column: 1;
+    margin-bottom: 10px;
+  }
+
+  .rp-title {
+    grid-column: 1;
+    margin: 0 0 0; /* タイトル下の余白を詰める */
+    font-size: 1.15rem;
+    line-height: 1.45; /* タイトルだけ少し締める */
+  }
+
+  /* 要約ブロックは右へ */
+  .rp-summary {
+    grid-column: 2;
+    border-top: 0;       /* 右側なので境界線を消す */
+    padding-top: 0;
+  }
+
+  /* リンクは右下へ */
+  .rp-links {
+    grid-column: 2;
+    margin-top: 12px;
+    justify-content: flex-start;
+  }
+
+  /* 3行要約を読みやすく：行の区切りだけ軽く */
+  .rp-row {
+    grid-template-columns: 200px minmax(0, 1fr);
+    padding: 8px 0;
+  }
+}
+
+/* =========================
+   Tablet以下：従来の縦型に戻す（安全）
+   ========================= */
+@media (max-width: 899px) {
+  .rp-card {
+    display: block;
+  }
+  .rp-summary {
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    padding-top: 14px;
+  }
+}
