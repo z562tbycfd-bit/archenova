@@ -34,6 +34,7 @@ export default function Home() {
   <Link href="/manifesto">Manifesto</Link>
   <Link href="/framework">Framework</Link>
   <Link href="/domains">Domains</Link>
+  <Link href="/research">Research / Papers</Link>
 </div>
     </section>
   );

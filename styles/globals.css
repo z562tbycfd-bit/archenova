@@ -962,3 +962,75 @@ nav {
     font-size: 2.2rem;
   }
 }
+/* =========================
+   Research / Papers
+   ========================= */
+
+.research {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 120px 32px;
+}
+
+.research-head h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.research-lead {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 1.05rem;
+  line-height: 1.9;
+  max-width: 860px;
+}
+
+.research-list {
+  margin-top: 64px;
+}
+
+.research-item {
+  padding: 22px 22px 20px;
+  margin-bottom: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.32);
+}
+
+.research-title {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 10px;
+}
+
+.research-statement {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.8;
+  margin-bottom: 14px;
+  max-width: 860px;
+}
+
+.research-meta {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.research-meta a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  padding-bottom: 2px;
+}
+
+.research-note {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .research {
+    padding: 92px 20px;
+  }
+  .research-head h1 {
+    font-size: 2.2rem;
+  }
+}
