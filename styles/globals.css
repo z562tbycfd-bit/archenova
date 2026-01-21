@@ -1140,3 +1140,38 @@ nav {
   overflow-wrap: break-word;
   word-break: break-word;
 }
+/* =========================
+   Research / Papers — overlap fix (safe)
+   ========================= */
+
+.rp .rp-card,
+.rp .rp-card * {
+  line-height: 1.75 !important;   /* 重なりの主因を止める */
+  white-space: normal !important; /* 変な nowrap を無効化 */
+  letter-spacing: normal !important;
+  hyphens: none !important;       /* 不自然な改行/重なり防止 */
+}
+
+.rp .rp-title {
+  line-height: 1.45 !important;   /* タイトルだけ少し締める */
+}
+
+.rp .rp-summary {
+  margin-top: 12px;               /* 余白を確保して重なりを避ける */
+}
+
+.rp .rp-row {
+  padding: 10px 0;                /* 行間を確保 */
+}
+
+.rp .rp-k,
+.rp .rp-v {
+  display: block;                 /* 行内崩れによる重なり回避 */
+}
+
+/* 右側カラムが潰れて文字がめり込むのを防ぐ（gridの安全策） */
+@media (min-width: 769px) {
+  .rp .rp-row {
+    grid-template-columns: 180px minmax(0, 1fr);
+  }
+}
