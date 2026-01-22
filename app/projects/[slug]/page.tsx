@@ -19,7 +19,7 @@ type ProjectDetail = {
   };
   realityConnection: {
     whatIsFixedNow: string[];
-    evidenceArtifacts: string[]; // later: PDFs, specs, drawings
+    evidenceArtifacts: string[];
     phaseGate: Record<Phase, string[]>;
   };
 };
@@ -28,41 +28,41 @@ const PROJECTS: Record<string, ProjectDetail> = {
   "project-001": {
     id: "Project 001",
     slug: "project-001",
-    title: "Underground Long-Duration Energy Storage",
+    title: "Fundamental Physics — Ambiguity Elimination Experiments",
     phase: "Concept",
     fixedIrreversibleCondition:
-      "Once embedded underground, the system must remain safe-by-design without continuous intervention; abandonment is structurally disallowed.",
+      "Measurements must remove interpretive freedom entirely; outcomes force ontology rather than admit tunable explanations.",
     targetScale: {
-      years: "30–100+ years",
-      generations: "1–3 generations",
-      capital: "Infrastructure-grade (locked capital, low reversibility)",
+      years: "5–20+ years",
+      generations: "1 generation",
+      capital: "Precision instrumentation & cryogenic systems",
     },
     realityConnection: {
       whatIsFixedNow: [
-        "Safety-by-design requirement (no dependency on continuous monitoring to remain non-catastrophic).",
-        "Geological embedding as a long-term custody constraint (cannot be casually relocated).",
-        "Commitment structure: capital is locked, exit is costly by design.",
+        "Experimental design that collapses interpretive ambiguity.",
+        "Failure modes defined at design-time, not post-hoc.",
+        "Signal/noise boundaries fixed structurally.",
       ],
       evidenceArtifacts: [
-        "Concept note (PDF) — to be attached",
-        "Site/geo assumptions (document) — to be attached",
-        "Failure mode map (diagram) — to be attached",
+        "Concept experiment note (PDF)",
+        "Noise floor & coherence assumptions",
+        "Measurement irreversibility analysis",
       ],
       phaseGate: {
         Concept: [
-          "Define non-negotiable safety constraints (what must never happen).",
-          "Specify boundary conditions (site, materials, containment logic).",
-          "Produce failure-mode map and mitigation by structure (not by reaction).",
+          "Define measurable quantity with zero interpretive slack.",
+          "Design apparatus where null results are decisive.",
+          "Publish falsifiable criteria.",
         ],
         Prototype: [
-          "Demonstrate bounded failure behavior in representative conditions.",
-          "Validate containment pathways and degradation limits.",
-          "Show maintainability without increasing long-run complexity.",
+          "Demonstrate bounded noise regime.",
+          "Confirm reproducibility across runs.",
+          "Lock measurement interpretation.",
         ],
         Deployment: [
-          "Custody + decommission plan locked contractually.",
-          "Monitoring becomes confirmatory, not safety-critical.",
-          "Long-horizon accountability assigned (no responsibility escape).",
+          "Independent replication.",
+          "Archive raw data permanently.",
+          "Close interpretive loopholes.",
         ],
       },
     },
@@ -71,41 +71,41 @@ const PROJECTS: Record<string, ProjectDetail> = {
   "project-002": {
     id: "Project 002",
     slug: "project-002",
-    title: "Quantum Memory Infrastructure (Boundary-Stabilized)",
+    title: "Quantum Infrastructure — Memory-First Boundary Design",
     phase: "Prototype",
     fixedIrreversibleCondition:
-      "Stability must be achieved via physical boundary design (materials/geometry/interfaces), not perpetual correction loops.",
+      "Stability must arise from physical boundary conditions, not perpetual correction loops.",
     targetScale: {
       years: "10–30 years",
       generations: "1 generation",
-      capital: "Deep-tech scale (capex + long R&D horizon)",
+      capital: "Deep-tech R&D and fabrication",
     },
     realityConnection: {
       whatIsFixedNow: [
-        "Architecture prioritizes long-lived memory as the anchoring layer.",
-        "Failure modes are removed by interface/geometry design, not by control density.",
-        "Scalability must not accumulate irreversible operational complexity.",
+        "Memory-first architecture locked.",
+        "Geometry & material constraints defined.",
+        "Failure states structurally refused.",
       ],
       evidenceArtifacts: [
-        "Prototype note (PDF) — to be attached",
-        "Interface stack assumptions — to be attached",
-        "Coherence budget + failure bounds — to be attached",
+        "Prototype architecture memo",
+        "Interface stack diagram",
+        "Lifetime & coherence bounds",
       ],
       phaseGate: {
         Concept: [
-          "Define memory-first architecture and refusal conditions.",
-          "Specify materials/thermal/optical boundary constraints.",
-          "State required lifetime/coherence targets.",
+          "Define refusal conditions.",
+          "Specify boundary-driven stability.",
+          "Set lifetime targets.",
         ],
         Prototype: [
-          "Demonstrate memory lifetime and repeatable operation.",
-          "Show stability without increasing active correction burden.",
-          "Publish measurable failure bounds (what it refuses to do).",
+          "Demonstrate memory lifetime.",
+          "Bound correction overhead.",
+          "Validate scalability.",
         ],
         Deployment: [
-          "Integrate into a minimal operational protocol set.",
-          "Prove maintainability + upgrade path without fragility.",
-          "Establish custody and authentication as infrastructure primitives.",
+          "Operational protocol freeze.",
+          "Custody & authentication layer.",
+          "Long-term maintainability proof.",
         ],
       },
     },
@@ -114,41 +114,170 @@ const PROJECTS: Record<string, ProjectDetail> = {
   "project-003": {
     id: "Project 003",
     slug: "project-003",
-    title: "Irreversible Responsibility Contracts (Institutional Layer)",
+    title: "Energy Systems — Irreversible Safety-by-Design Storage",
     phase: "Concept",
     fixedIrreversibleCondition:
-      "Accountability cannot be diluted or delegated; exit routes are removed by contractual and institutional structure.",
+      "Once deployed, the system must remain non-catastrophic without safety-critical intervention.",
     targetScale: {
-      years: "10–50 years",
-      generations: "1–2 generations",
-      capital: "Capital governance (commitment > liquidity)",
+      years: "30–100+ years",
+      generations: "1–3 generations",
+      capital: "Infrastructure-grade locked capital",
     },
     realityConnection: {
       whatIsFixedNow: [
-        "Responsibility is indivisible: no diffusion across subsidiaries or intermediaries.",
-        "Capital withdrawal paths are structurally blocked where irreversible risk exists.",
-        "Contracts encode refusal: what cannot be allowed, even under incentives.",
+        "Abandonment structurally disallowed.",
+        "Passive safety dominates design.",
+        "Geological custody assumptions fixed.",
       ],
       evidenceArtifacts: [
-        "Contract structure memo (PDF) — to be attached",
-        "Governance flow diagram — to be attached",
-        "Compliance / audit boundary conditions — to be attached",
+        "System concept note",
+        "Failure mode elimination map",
+        "Custody lifecycle plan",
       ],
       phaseGate: {
         Concept: [
-          "Define the responsibility unit (who cannot escape).",
-          "Define forbidden outcomes and enforceable refusal clauses.",
-          "Draft governance + audit pathways with minimal ambiguity.",
+          "Define forbidden outcomes.",
+          "Map passive safety boundaries.",
+          "Specify custody horizon.",
         ],
         Prototype: [
-          "Pilot with a small real contract (limited scope).",
-          "Test enforcement and audit cycles.",
-          "Validate that escape routes are truly closed.",
+          "Demonstrate bounded failure.",
+          "Validate containment.",
+          "Stress-test degradation.",
         ],
         Deployment: [
-          "Standardize templates and escalation procedures.",
-          "Institutionalize custody and long-horizon accountability.",
-          "Publish a playbook for replication.",
+          "Custody & decommission locked.",
+          "Monitoring becomes confirmatory.",
+          "Intergenerational accountability assigned.",
+        ],
+      },
+    },
+  },
+
+  "project-004": {
+    id: "Project 004",
+    slug: "project-004",
+    title: "Planetary Systems — Continuous Power as Civilization Boundary",
+    phase: "Concept",
+    fixedIrreversibleCondition:
+      "Energy availability must be continuous and internally governed, not environmentally contingent.",
+    targetScale: {
+      years: "10–50 years",
+      generations: "1–2 generations",
+      capital: "Mission-scale planetary infrastructure",
+    },
+    realityConnection: {
+      whatIsFixedNow: [
+        "Decoupling from day-night cycles.",
+        "Internal governance of energy.",
+        "Permanent presence enabled.",
+      ],
+      evidenceArtifacts: [
+        "Mission power architecture",
+        "Environmental decoupling analysis",
+        "Continuity justification memo",
+      ],
+      phaseGate: {
+        Concept: [
+          "Define continuity requirement.",
+          "Map dependency elimination.",
+          "Set minimum reliability.",
+        ],
+        Prototype: [
+          "Demonstrate continuous operation.",
+          "Validate fault tolerance.",
+          "Bound environmental coupling.",
+        ],
+        Deployment: [
+          "Operational permanence.",
+          "Industrial enablement.",
+          "Civilizational lock-in.",
+        ],
+      },
+    },
+  },
+
+  "project-005": {
+    id: "Project 005",
+    slug: "project-005",
+    title: "AI — Constraint-First Computation",
+    phase: "Prototype",
+    fixedIrreversibleCondition:
+      "Catastrophic trajectories must be deleted upstream via hard constraints, not managed after emergence.",
+    targetScale: {
+      years: "3–10 years",
+      generations: "1 generation",
+      capital: "Compute & governance design",
+    },
+    realityConnection: {
+      whatIsFixedNow: [
+        "Constraint layer precedes capability.",
+        "Forbidden trajectories enumerated.",
+        "Legitimacy encoded structurally.",
+      ],
+      evidenceArtifacts: [
+        "Constraint schema draft",
+        "Failure trajectory taxonomy",
+        "Governance binding memo",
+      ],
+      phaseGate: {
+        Concept: [
+          "Define catastrophic states.",
+          "Specify refusal conditions.",
+          "Formalize constraint logic.",
+        ],
+        Prototype: [
+          "Demonstrate constraint enforcement.",
+          "Test bypass resistance.",
+          "Measure performance impact.",
+        ],
+        Deployment: [
+          "Bind constraints institutionally.",
+          "Audit irreversibility.",
+          "Prevent rollback.",
+        ],
+      },
+    },
+  },
+
+  "project-006": {
+    id: "Project 006",
+    slug: "project-006",
+    title: "Medical Systems — Upstream Diagnosis Before Irreversibility",
+    phase: "Concept",
+    fixedIrreversibleCondition:
+      "Diagnosis must expose latent dynamics before irreversible pathology manifests.",
+    targetScale: {
+      years: "5–15 years",
+      generations: "1 generation",
+      capital: "Clinical devices & validation",
+    },
+    realityConnection: {
+      whatIsFixedNow: [
+        "Focus on clearance, flow, transfer dynamics.",
+        "Shift diagnosis upstream in time.",
+        "Intervention windows fixed earlier.",
+      ],
+      evidenceArtifacts: [
+        "Diagnostic protocol concept",
+        "Physiological flow models",
+        "Clinical feasibility note",
+      ],
+      phaseGate: {
+        Concept: [
+          "Identify hidden dynamics.",
+          "Define irreversible thresholds.",
+          "Select measurable proxies.",
+        ],
+        Prototype: [
+          "Validate early detection.",
+          "Correlate with outcomes.",
+          "Optimize clinical timing.",
+        ],
+        Deployment: [
+          "Clinical integration.",
+          "Regulatory alignment.",
+          "Population-scale screening.",
         ],
       },
     },
@@ -159,7 +288,7 @@ export function generateStaticParams() {
   return Object.keys(PROJECTS).map((slug) => ({ slug }));
 }
 
-function PhaseBadge({ phase }: { phase: Phase }) {
+function PhaseBadge({ phase }: { phase }) {
   return <span className={`pj-badge pj-${phase.toLowerCase()}`}>{phase}</span>;
 }
 
