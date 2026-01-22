@@ -21,39 +21,78 @@ const PROJECTS: Project[] = [
   {
     id: "Project 001",
     slug: "project-001",
-    title: "Underground Long-Duration Energy Storage",
+    title: "Fundamental Physics — Ambiguity Elimination Experiments",
     irreversibleCondition:
-      "Once embedded underground, the system must remain safe-by-design without continuous intervention; abandonment is structurally disallowed.",
+      "Design measurements that remove interpretive freedom: the result must force a discrete ontology rather than a tunable explanation.",
     scale: {
-      years: "30–100+ years",
-      generations: "1–3 generations",
-      capital: "Infrastructure-grade (locked capital, low reversibility)",
+      years: "5–20+ years",
+      generations: "1 generation",
+      capital: "High-sensitivity instrumentation (focused capex)",
     },
     phase: "Concept",
   },
   {
     id: "Project 002",
     slug: "project-002",
-    title: "Quantum Memory Infrastructure (Boundary-Stabilized)",
+    title: "Quantum Infrastructure — Memory-First, Boundary-Stabilized Stack",
     irreversibleCondition:
-      "Stability must be achieved via physical boundary design (materials/geometry/interfaces), not perpetual correction loops.",
+      "Stability must be achieved by boundary design (materials/geometry/interfaces), not by continuous correction that accumulates operational complexity.",
     scale: {
       years: "10–30 years",
       generations: "1 generation",
-      capital: "Deep-tech scale (capex + long R&D horizon)",
+      capital: "Deep-tech scale (R&D + capex)",
     },
     phase: "Prototype",
   },
   {
     id: "Project 003",
     slug: "project-003",
-    title: "Irreversible Responsibility Contracts (Institutional Layer)",
+    title: "Energy Systems — Irreversible Safety-by-Design Storage",
     irreversibleCondition:
-      "Accountability cannot be diluted or delegated; exit routes are removed by contractual and institutional structure.",
+      "Once deployed, the system must remain non-catastrophic without safety-critical intervention; abandonment is structurally disallowed.",
+    scale: {
+      years: "30–100+ years",
+      generations: "1–3 generations",
+      capital: "Infrastructure-grade (locked capital, long custody)",
+    },
+    phase: "Concept",
+  },
+  {
+    id: "Project 004",
+    slug: "project-004",
+    title: "Planetary Systems — Continuous Power as a Boundary Condition",
+    irreversibleCondition:
+      "Energy availability must be continuous and internally governed (not environmentally contingent), enabling permanence rather than provisional presence.",
     scale: {
       years: "10–50 years",
       generations: "1–2 generations",
-      capital: "Capital governance (commitment > liquidity)",
+      capital: "Mission-scale infrastructure (high commitment)",
+    },
+    phase: "Concept",
+  },
+  {
+    id: "Project 005",
+    slug: "project-005",
+    title: "AI — Constraint-First Computation (Deleting Catastrophic Trajectories)",
+    irreversibleCondition:
+      "Legitimacy is embedded as hard constraints: catastrophic trajectories are deleted upstream rather than monitored and corrected after emergence.",
+    scale: {
+      years: "3–10 years",
+      generations: "1 generation",
+      capital: "Compute + governance design (capability-compressed)",
+    },
+    phase: "Prototype",
+  },
+  {
+    id: "Project 006",
+    slug: "project-006",
+    title: "Medical Systems — Upstream Diagnosis Before Irreversible Decline",
+    irreversibleCondition:
+      "Shift detection and intervention upstream of irreversible pathology: diagnostics must expose hidden dynamics (clearance, flow, transfer) within clinical time.",
+    scale: {
+      years: "5–15 years",
+      generations: "1 generation",
+      capital: "Clinical-grade validation (devices + trials)",
     },
     phase: "Concept",
   },
