@@ -1302,3 +1302,143 @@ nav {
     grid-template-columns: 1fr;
   }
 }
+/* =========================
+   Projects detail page
+   ========================= */
+.project {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 120px 32px;
+}
+
+.project-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.project-back {
+  border-bottom: 0;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.project-back:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.project-head .project-id {
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 10px;
+}
+
+.project-head h1 {
+  font-size: 2.6rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.project-block {
+  margin-top: 56px;
+}
+
+.project-block h2 {
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.project-text {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.9;
+  max-width: 880px;
+}
+
+.project-scale {
+  display: grid;
+  gap: 10px;
+  max-width: 880px;
+}
+
+.project-scale-row {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.project-skey {
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+.project-sval {
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.8;
+  overflow-wrap: break-word;
+}
+
+.project-sub {
+  margin-top: 22px;
+}
+
+.project-sub h3 {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.project-list {
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.9;
+}
+
+.project-gates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.project-gate {
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 14px 14px 12px;
+}
+
+.project-gate-title {
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 10px;
+}
+
+.pj-open {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .project {
+    padding: 92px 20px;
+  }
+  .project-head h1 {
+    font-size: 2.1rem;
+    line-height: 1.25;
+  }
+  .project-scale-row {
+    grid-template-columns: 1fr;
+  }
+}
