@@ -1,9 +1,12 @@
 export const dynamic = "force-static";
 
+import Link from "next/link";
+
 type Phase = "Concept" | "Prototype" | "Deployment";
 
 type Project = {
-  id: string;
+  id: string; // "Project 001"
+  slug: string; // "project-001"
   title: string;
   irreversibleCondition: string;
   scale: {
@@ -17,6 +20,7 @@ type Project = {
 const PROJECTS: Project[] = [
   {
     id: "Project 001",
+    slug: "project-001",
     title: "Underground Long-Duration Energy Storage",
     irreversibleCondition:
       "Once embedded underground, the system must remain safe-by-design without continuous intervention; abandonment is structurally disallowed.",
@@ -29,6 +33,7 @@ const PROJECTS: Project[] = [
   },
   {
     id: "Project 002",
+    slug: "project-002",
     title: "Quantum Memory Infrastructure (Boundary-Stabilized)",
     irreversibleCondition:
       "Stability must be achieved via physical boundary design (materials/geometry/interfaces), not perpetual correction loops.",
@@ -41,6 +46,7 @@ const PROJECTS: Project[] = [
   },
   {
     id: "Project 003",
+    slug: "project-003",
     title: "Irreversible Responsibility Contracts (Institutional Layer)",
     irreversibleCondition:
       "Accountability cannot be diluted or delegated; exit routes are removed by contractual and institutional structure.",
@@ -71,7 +77,7 @@ export default function ProjectsPage() {
 
       <section className="pj-grid" aria-label="ArcheNova projects list">
         {PROJECTS.map((p) => (
-          <article key={p.id} className="pj-card">
+          <Link key={p.id} href={`/projects/${p.slug}`} className="pj-card">
             <div className="pj-top">
               <div className="pj-id">{p.id}</div>
               <PhaseBadge phase={p.phase} />
@@ -101,7 +107,9 @@ export default function ProjectsPage() {
                 </div>
               </div>
             </div>
-          </article>
+
+            <div className="pj-open">Open →</div>
+          </Link>
         ))}
       </section>
     </main>
