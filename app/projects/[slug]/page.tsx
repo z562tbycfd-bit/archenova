@@ -313,7 +313,7 @@ export default function ProjectDetailPage({
         <div className="project-id">{p.id}</div>
         <h1>{p.title}</h1>
       </header>
-            {/* Phase Timeline (Irreversibility Progression) */}
+                  {/* Phase Timeline (Irreversibility Progression + Phase Gates) */}
       <section className="phase">
         <h2 className="phase-title">Irreversibility Progression</h2>
 
@@ -323,6 +323,9 @@ export default function ProjectDetailPage({
             const isDone =
               (p.phase === "Prototype" && ph === "Concept") ||
               (p.phase === "Deployment" && (ph === "Concept" || ph === "Prototype"));
+
+            const gates = p.realityConnection.phaseGate[ph] ?? [];
+            const topGates = gates.slice(0, 3); // ★多すぎると読みにくいので上位3つだけ表示
 
             return (
               <li
@@ -339,6 +342,7 @@ export default function ProjectDetailPage({
 
                 <div className="phase-body">
                   <div className="phase-name">{ph}</div>
+
                   <div className="phase-meaning">
                     {ph === "Concept" &&
                       "Define the non-negotiables. Specify what must never happen and the boundary conditions that refuse it."}
@@ -347,6 +351,22 @@ export default function ProjectDetailPage({
                     {ph === "Deployment" &&
                       "Lock custody across time. Make irreversibility institutional: accountability and exit routes are fixed."}
                   </div>
+
+                  {/* Phase Gates: project-specific proof items */}
+                  <div className="phase-gates">
+                    <div className="phase-gates-title">Phase gates (project-specific)</div>
+                    <ul className="phase-gates-list">
+                      {topGates.map((g) => (
+                        <li key={g}>{g}</li>
+                      ))}
+                    </ul>
+
+                    {gates.length > 3 && (
+                      <div className="phase-gates-more">
+                        +{gates.length - 3} more gates defined below
+                      </div>
+                    )}
+                  </div>
                 </div>
               </li>
             );
@@ -354,7 +374,7 @@ export default function ProjectDetailPage({
         </ol>
 
         <p className="phase-note">
-          This timeline expresses the project’s shift from reversible choices to irreversible commitments.
+          The timeline becomes real only when each gate is satisfied. Irreversibility is not a label; it is a completed constraint.
         </p>
       </section>
 

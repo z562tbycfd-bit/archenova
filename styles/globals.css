@@ -1554,3 +1554,36 @@ nav {
     padding: 16px 14px 14px;
   }
 }
+/* Phase gates (inside timeline) */
+.phase-gates {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.phase-gates-title {
+  font-size: 0.78rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 8px;
+}
+
+.phase-gates-list {
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.70);
+  line-height: 1.8;
+}
+
+.phase-gates-more {
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 0.95rem;
+}
+@media (max-width: 768px) {
+  .phase-gates {
+    margin-top: 8px;
+    padding-top: 8px;
+  }
+}
