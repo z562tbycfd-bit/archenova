@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import Menu from "./components/Menu";
+import ScrollFX from "./components/ScrollFX";
 import PageTransition from "./components/PageTransition"; // 追加
 
 export const metadata = {
@@ -12,12 +13,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ja">
       <body>
-        <header className="site-header">
-          <Menu />
-        </header>
-
-        <PageTransition>{children}</PageTransition>
-      </body>
+  <ScrollFX />
+  <header className="site-header">
+    <Menu />
+  </header>
+  {children}
+</body>
     </html>
   );
 }

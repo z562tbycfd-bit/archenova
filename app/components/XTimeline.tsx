@@ -33,6 +33,9 @@ export default function XTimeline() {
   {LATEST_TWEET.tags.map((tag) => (
     <span key={tag} className="x-tag">
       {tag}
+      <p className="x-irrev-text">
+  A boundary has been fixed. The system can no longer return to its prior state.
+</p>
     </span>
   ))}
 </div>
@@ -49,6 +52,7 @@ export default function XTimeline() {
     </div>
 
     <div className="x-card x-card-arche">
+      <span className="x-reflection" aria-hidden="true" />
       <span className="x-scanline" />
       {/* ここは今の表示ロジックのままでOK */}
       {/* latest がある/ない の表示をそのまま置いてください */}
