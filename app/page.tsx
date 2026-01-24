@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Reveal from "./components/Reveal";
-import XTimeline from "./components/XTimeline";
+import LatestXPost from "./components/LatestXPost";
 
 export default function Home() {
   return (
@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* X 最新投稿 */}
-      <XTimeline />
+      <LatestXPost />
     </>
   );
 }
