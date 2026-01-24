@@ -2341,3 +2341,161 @@ nav {
     align-items: flex-start;
   }
 }
+/* =========================
+   ArcheNova X Featured Card
+   ========================= */
+
+.x-latest{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 26px 24px 10px;
+}
+
+.x-head{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.x-head-left{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.x-title{
+  font-size: 0.95rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.92);
+  margin: 0;
+}
+
+.x-tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.x-tag{
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.03);
+  color: rgba(255,255,255,0.78);
+  backdrop-filter: blur(10px);
+}
+
+.x-more{
+  color: rgba(255,255,255,0.86);
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+  padding-bottom: 2px;
+  white-space: nowrap;
+}
+
+.x-card{
+  border-radius: 22px;
+  padding: 22px 22px 18px;
+}
+
+/* ArcheNova "Irreversibility Frame" look */
+.x-card-arche{
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.10);
+  background:
+    radial-gradient(1200px 400px at 20% 0%, rgba(255,255,255,0.06), transparent 55%),
+    radial-gradient(700px 280px at 90% 20%, rgba(255,255,255,0.05), transparent 60%),
+    rgba(0,0,0,0.35);
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.55),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  backdrop-filter: blur(14px);
+}
+
+/* Corner "constraint marks" */
+.x-card-arche::before,
+.x-card-arche::after{
+  content:"";
+  position:absolute;
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgba(255,255,255,0.22);
+  opacity: 0.8;
+}
+
+.x-card-arche::before{
+  top: 14px;
+  left: 14px;
+  border-right: none;
+  border-bottom: none;
+  border-top-left-radius: 6px;
+}
+
+.x-card-arche::after{
+  bottom: 14px;
+  right: 14px;
+  border-left: none;
+  border-top: none;
+  border-bottom-right-radius: 6px;
+}
+
+/* Text */
+.x-text{
+  margin: 0 0 16px;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.85;
+  font-size: 1.02rem;
+}
+
+/* Actions */
+.x-actions{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.x-toggle{
+  appearance: none;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.86);
+  padding: 10px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.x-toggle:hover{
+  border-color: rgba(255,255,255,0.28);
+  background: rgba(255,255,255,0.06);
+}
+
+.x-link{
+  color: rgba(255,255,255,0.92);
+  border-bottom: 1px solid rgba(255,255,255,0.28);
+  padding-bottom: 2px;
+}
+
+/* Mobile tuning */
+@media (max-width: 768px){
+  .x-latest{
+    padding: 22px 16px 8px;
+  }
+  .x-card{
+    padding: 18px 16px 16px;
+    border-radius: 18px;
+  }
+  .x-text{
+    font-size: 0.98rem;
+  }
+  .x-title{
+    font-size: 0.9rem;
+    letter-spacing: 0.18em;
+  }
+}

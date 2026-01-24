@@ -25,30 +25,32 @@ export default function XTimeline() {
     return { textToShow: r.clamped, wasClamped: r.wasClamped };
   }, [expanded]);
 
-  return (
-    <section className="x-latest">
-      <div className="x-head">
-        <h2 className="x-title">Latest from X</h2>
-        <a className="x-more" href="https://x.com/ArcheNova_X" target="_blank" rel="noreferrer">
-          View on X →
-        </a>
-      </div>
-
-      <div className="x-card">
-        <p className="x-text">{display.textToShow}</p>
-
-        <div className="x-actions">
-          {display.wasClamped && (
-            <button type="button" className="x-toggle" onClick={() => setExpanded(v => !v)}>
-              {expanded ? "Show less" : "Read more"}
-            </button>
-          )}
-
-          <a className="x-link" href={LATEST_TWEET_URL} target="_blank" rel="noreferrer">
-            Open the post →
-          </a>
+ return (
+  <section className="x-latest">
+    <div className="x-head">
+      <div className="x-head-left">
+        <h2 className="x-title">LATEST IRREVERSIBLE MOVE</h2>
+        <div className="x-tags">
+          <span className="x-tag">BOUNDARY</span>
+          <span className="x-tag">INITIAL CONDITIONS</span>
+          <span className="x-tag">NO OPTIMIZATION</span>
         </div>
       </div>
-    </section>
-  );
+
+      <a
+        className="x-more"
+        href="https://x.com/ArcheNova_X"
+        target="_blank"
+        rel="noreferrer"
+      >
+        View on X →
+      </a>
+    </div>
+
+    <div className="x-card x-card-arche">
+      {/* ここは今の表示ロジックのままでOK */}
+      {/* latest がある/ない の表示をそのまま置いてください */}
+    </div>
+  </section>
+);
 }
