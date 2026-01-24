@@ -3076,3 +3076,50 @@ html, body {
     background-attachment: scroll !important; /* iOSはfixedが不安定な場合がある */
   }
 }
+/* =========================
+   Fixed Background (PC & Mobile)
+   ========================= */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b0b0c;
+}
+
+/* 背景画像を固定レイヤーとして貼る */
+.site-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+
+  background-image: url("/images/IMG_9379.jpeg"); /* PC */
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  /* 少し暗幕（読みやすさ） */
+  filter: brightness(0.75) contrast(1.05);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* iPhone/Android は別画像にする */
+@media (max-width: 768px) {
+  .site-bg {
+    background-image: url("/images/IMG_9845.jpeg"); /* Mobile */
+    background-position: center top;
+  }
+}
+
+/* すべての中身を背景より前に出す */
+.site-content,
+.site-header {
+  position: relative;
+  z-index: 1;
+}
+
+/* もし hero が background-image を持っていたら切れ目原因なので無効化 */
+.hero {
+  background-image: none !important;
+  background-color: transparent !important;
+}
