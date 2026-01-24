@@ -1,20 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-
-type LatestPost = {
-  url: string;
-  content: string;
-};
-
-function stripHtml(html: string) {
-  return html
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/<\/p>/gi, "\n\n")
-    .replace(/<[^>]+>/g, "")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
-}
+import { useMemo, useState } from "react";
+import { LATEST_TWEET_URL } from "../config/latestTweet";
 
 function clampByChars(input: string, maxChars: number) {
   if (!input) return { clamped: "", wasClamped: false };
@@ -24,45 +11,19 @@ function clampByChars(input: string, maxChars: number) {
 }
 
 export default function XTimeline() {
-  const [latest, setLatest] = useState<LatestPost | null>(null);
+  // API取得できないので、最新URL固定で「1件強調」に振り切る
   const [expanded, setExpanded] = useState(false);
 
-  useEffect(() => {
-    let cancelled = false;
-
-    const run = async () => {
-  try {
-    const res = await fetch("/api/latest-x");
-    if (!res.ok) return;
-
-    const data: any = await res.json();
-    if (!data?.ok) return;
-
-    if (!cancelled) {
-      setLatest({
-        url: data.url,
-        content: data.content,
-      });
-    }
-  } catch {
-    // ignore
-  }
-};
-
-    run();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
+  // 表示は「リンク中心」でも成立するようにする（テキストは任意）
+  const fullText =
+    "Featured post (update this link to reflect the latest irreversible move).";
 
   const MAX = 260;
-
   const display = useMemo(() => {
-    const full = latest?.content ?? "";
-    if (expanded) return { textToShow: full, wasClamped: full.length > MAX };
-    const r = clampByChars(full, MAX);
+    if (expanded) return { textToShow: fullText, wasClamped: fullText.length > MAX };
+    const r = clampByChars(fullText, MAX);
     return { textToShow: r.clamped, wasClamped: r.wasClamped };
-  }, [latest, expanded]);
+  }, [expanded]);
 
   return (
     <section className="x-latest">
@@ -74,30 +35,19 @@ export default function XTimeline() {
       </div>
 
       <div className="x-card">
-        {latest ? (
-          <>
-            <p className="x-text">{display.textToShow}</p>
+        <p className="x-text">{display.textToShow}</p>
 
-            <div className="x-actions">
-              {display.wasClamped && (
-                <button type="button" className="x-toggle" onClick={() => setExpanded(v => !v)}>
-                  {expanded ? "Show less" : "Read more"}
-                </button>
-              )}
+        <div className="x-actions">
+          {display.wasClamped && (
+            <button type="button" className="x-toggle" onClick={() => setExpanded(v => !v)}>
+              {expanded ? "Show less" : "Read more"}
+            </button>
+          )}
 
-              <a className="x-link" href={latest.url} target="_blank" rel="noreferrer">
-                Open the post →
-              </a>
-            </div>
-          </>
-        ) : (
-          <>
-            <p className="x-text">Loading the latest post…</p>
-            <a className="x-link" href="https://x.com/ArcheNova_X" target="_blank" rel="noreferrer">
-              Open on X →
-            </a>
-          </>
-        )}
+          <a className="x-link" href={LATEST_TWEET_URL} target="_blank" rel="noreferrer">
+            Open the post →
+          </a>
+        </div>
       </div>
     </section>
   );
