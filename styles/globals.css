@@ -3238,3 +3238,30 @@ html, body {
     -webkit-backdrop-filter: none;
   }
 }
+/* --- FIX: make overlay never block clicks --- */
+.site-bg,
+.site-vignette {
+  pointer-events: none !important;
+}
+
+/* ヘッダーを最前面に固定 */
+.site-header {
+  position: fixed;        /* すでにfixedならOK */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;            /* overlayより上 */
+  pointer-events: auto;
+}
+
+/* もし .site-content を z-index:1 にしているなら、ヘッダーだけ上に */
+.site-content {
+  position: relative;
+  z-index: 1;
+}
+.site-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 18px 18px;
+}
