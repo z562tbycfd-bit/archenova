@@ -2,9 +2,9 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-type Latest = {
+type LatestPost = {
   url: string;
-  text: string;
+  content: string;
 };
 
 function stripHtml(html: string) {
@@ -16,14 +16,15 @@ function stripHtml(html: string) {
     .trim();
 }
 
-function clampTextByChars(text: string, maxChars: number) {
-  if (text.length <= maxChars) return { clamped: text, wasClamped: false };
-  const sliced = text.slice(0, maxChars).replace(/\s+\S*$/, ""); // 単語途中で切らない
+function clampByChars(input: string, maxChars: number) {
+  if (!input) return { clamped: "", wasClamped: false };
+  if (input.length <= maxChars) return { clamped: input, wasClamped: false };
+  const sliced = input.slice(0, maxChars).replace(/\s+\S*$/, "");
   return { clamped: sliced + "…", wasClamped: true };
 }
 
 export default function XTimeline() {
-  const [latest, setLatest] = useState<Latest | null>(null);
+  const [latest, setLatest] = useState<LatestPost | null>(null);
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
@@ -35,36 +36,29 @@ export default function XTimeline() {
           "https://cdn.syndication.twimg.com/widgets/timelines/profile?screen_name=ArcheNova_X&lang=en";
 
         const res = await fetch(endpoint, {
-          headers: {
-            "User-Agent": "Mozilla/5.0",
-            Accept: "application/json,text/plain,*/*",
-          },
+          headers: { Accept: "application/json,text/plain,*/*" },
         });
 
         if (!res.ok) return;
 
-        const data = await res.json();
+        const data: any = await res.json();
         const body: string = data?.body ?? "";
         if (!body) return;
 
-        const m =
+        const urlMatch =
           body.match(/https:\/\/x\.com\/ArcheNova_X\/status\/\d+/) ??
           body.match(/https:\/\/twitter\.com\/ArcheNova_X\/status\/\d+/);
 
-        const url = m?.[0];
-        if (!url) return;
+        const postUrl = urlMatch?.[0];
+        if (!postUrl) return;
 
-        const p = body.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
-        const text = stripHtml(p?.[0] ?? "");
+        const pMatch = body.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
+        const rawP = pMatch?.[0] ?? "";
+        const content = stripHtml(rawP) || "Open the latest post on X →";
 
-        if (!cancelled) {
-          setLatest({
-            url,
-            text: text || "Open the latest post on X →",
-          });
-        }
+        if (!cancelled) setLatest({ url: postUrl, content });
       } catch {
-        // 失敗しても落とさない
+        // ignore
       }
     };
 
@@ -74,12 +68,13 @@ export default function XTimeline() {
     };
   }, []);
 
-  // 文字数ベースで省略（行数だけだと環境差で崩れやすいので）
-  const maxChars = 260;
-  const view = useMemo(() => {
-    if (!latest?.text) return { text: "", wasClamped: false };
-    if (expanded) return { text: latest.text, wasClamped: latest.text.length > maxChars };
-    return clampTextByChars(latest.text, maxChars);
+  const MAX = 260;
+
+  const display = useMemo(() => {
+    const full = latest?.content ?? "";
+    if (expanded) return { textToShow: full, wasClamped: full.length > MAX };
+    const r = clampByChars(full, MAX);
+    return { textToShow: r.clamped, wasClamped: r.wasClamped };
   }, [latest, expanded]);
 
   return (
@@ -94,15 +89,11 @@ export default function XTimeline() {
       <div className="x-card">
         {latest ? (
           <>
-            <p className={`x-text ${expanded ? "is-expanded" : ""}`}>{view.text}</p>
+            <p className="x-text">{display.textToShow}</p>
 
             <div className="x-actions">
-              {view.wasClamped && (
-                <button
-                  type="button"
-                  className="x-toggle"
-                  onClick={() => setExpanded((v) => !v)}
-                >
+              {display.wasClamped && (
+                <button type="button" className="x-toggle" onClick={() => setExpanded(v => !v)}>
                   {expanded ? "Show less" : "Read more"}
                 </button>
               )}
