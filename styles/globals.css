@@ -3039,3 +3039,40 @@ nav {
     background: rgba(15, 15, 18, 0.55);  /* 代わりに少し濃くして読みやすさ維持 */
   }
 }
+/* =========================
+   FIX: 背景画像をページ全体に適用して「境界線」を消す
+   ========================= */
+
+/* 1) ページ全体の背景を画像にする（ここが本命） */
+html, body {
+  background-image: url("/images/IMG_9379.jpeg") !important; /* PC用 */
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important; /* スクロールでも背景が切れない */
+}
+
+/* 2) hero側の背景画像は無効化（重複・切れ目の原因） */
+.hero {
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+/* 3) heroの暗幕は維持（読みやすさ確保） */
+.hero::after {
+  background: rgba(0,0,0,0.55) !important;
+}
+
+/* 4) 次セクション（Latest from X）が単色背景を持っていたら透明にする */
+.x-latest, .x-card {
+  background: transparent !important;
+}
+
+/* 5) スマホだけ背景画像を差し替える */
+@media (max-width: 768px) {
+  html, body {
+    background-image: url("/images/IMG_9845.jpeg") !important; /* スマホ用 */
+    background-position: center top !important;
+    background-attachment: scroll !important; /* iOSはfixedが不安定な場合がある */
+  }
+}
