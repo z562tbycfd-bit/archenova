@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { LATEST_TWEET_URL } from "../config/latestTweet";
+import { LATEST_TWEET } from "../config/latestTweet";
 
 function clampByChars(input: string, maxChars: number) {
   if (!input) return { clamped: "", wasClamped: false };
@@ -15,8 +15,7 @@ export default function XTimeline() {
   const [expanded, setExpanded] = useState(false);
 
   // 表示は「リンク中心」でも成立するようにする（テキストは任意）
-  const fullText =
-    "Featured post (update this link to reflect the latest irreversible move).";
+  const fullText = LATEST_TWEET.description;
 
   const MAX = 260;
   const display = useMemo(() => {
@@ -31,20 +30,22 @@ export default function XTimeline() {
       <div className="x-head-left">
         <h2 className="x-title">LATEST IRREVERSIBLE MOVE</h2>
         <div className="x-tags">
-          <span className="x-tag">BOUNDARY</span>
-          <span className="x-tag">INITIAL CONDITIONS</span>
-          <span className="x-tag">NO OPTIMIZATION</span>
-        </div>
+  {LATEST_TWEET.tags.map((tag) => (
+    <span key={tag} className="x-tag">
+      {tag}
+    </span>
+  ))}
+</div>
       </div>
 
       <a
-        className="x-more"
-        href="https://x.com/ArcheNova_X"
-        target="_blank"
-        rel="noreferrer"
-      >
-        View on X →
-      </a>
+  className="x-link"
+  href={LATEST_TWEET.url}
+  target="_blank"
+  rel="noreferrer"
+>
+  Open the post →
+</a>
     </div>
 
     <div className="x-card x-card-arche">
