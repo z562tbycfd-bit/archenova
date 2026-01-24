@@ -1875,3 +1875,32 @@ nav {
     width: calc(100vw - 16px);
   }
 }
+/* =========================
+   X Timeline (HOME)
+   ========================= */
+
+.x-timeline {
+  max-width: 860px;
+  margin: 90px auto 140px;
+  padding: 0 32px;
+}
+
+.x-title {
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 18px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* 埋め込みiframeの角を揃える */
+.x-timeline iframe {
+  border-radius: 16px !important;
+}
+
+@media (max-width: 768px) {
+  .x-timeline {
+    margin: 70px auto 110px;
+    padding: 0 20px;
+  }
+}
