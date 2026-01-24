@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Reveal from "./components/Reveal";
-import LatestXPost from "./components/XTimeline";
+import LatestXPost from "./components/LatestXPost";
 
 export default function Home() {
   return (

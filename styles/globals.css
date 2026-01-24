@@ -2207,3 +2207,58 @@ nav {
     padding: 16px;
   }
 }
+/* =========================
+   Latest from X (single featured)
+   ========================= */
+
+.x-latest {
+  margin-top: 28px;
+}
+
+.x-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.x-title {
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.x-more {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.70);
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+.x-card {
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.02);
+  padding: 18px 18px 16px;
+}
+
+.x-text {
+  margin: 0 0 14px;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.x-link {
+  display: inline-block;
+  color: rgba(255,255,255,0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+@media (max-width: 768px) {
+  .x-card {
+    padding: 16px;
+  }
+}
