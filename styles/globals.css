@@ -24,11 +24,46 @@ html, body {
 a {
   color: var(--fg);
   text-decoration: none;
-  border-bottom: 1px solid var(--muted);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2px;
+  outline: none;
 }
 
-a:hover {
-  border-bottom-color: var(--fg);
+/* 通常時の下線（薄い） */
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.28);
+  transform: scaleX(0.55);
+  transform-origin: left;
+  transition: transform 220ms ease, background 220ms ease, opacity 220ms ease;
+  opacity: 0.9;
+}
+
+/* hover で伸びる（確定に近づく） */
+a:hover::after {
+  transform: scaleX(1);
+  background: rgba(255, 255, 255, 0.72);
+  opacity: 1;
+}
+
+/* キーボード操作でも“確定感” */
+a:focus-visible::after {
+  transform: scaleX(1);
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 1;
+}
+
+/* クリックした瞬間に「収束してロック」する */
+a:active::after {
+  transform: scaleX(1);
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 1;
 }
 
 main {
@@ -1751,4 +1786,92 @@ nav {
 
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; transition: none; }
+}
+/* =========================
+   Mechanical hamburger (slide + lock)
+   ========================= */
+
+/* ボタン（回転させず、機械的に“移動して確定”） */
+.menu-button {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.03);
+  display: grid;
+  place-items: center;
+}
+
+/* 3本線 */
+.menu-button .bar {
+  width: 18px;
+  height: 1px;
+  background: rgba(255,255,255,0.78);
+  position: absolute;
+  transition: transform 220ms ease, opacity 220ms ease, width 220ms ease;
+}
+
+.menu-button .bar:nth-child(1) { transform: translateY(-6px); }
+.menu-button .bar:nth-child(2) { transform: translateY(0); }
+.menu-button .bar:nth-child(3) { transform: translateY(6px); }
+
+/* 開いた時：Xに回転ではなく、水平“スライドして噛み合う” */
+.menu-button[aria-expanded="true"] .bar:nth-child(1) {
+  transform: translateY(0) translateX(1px) rotate(45deg);
+  width: 20px;
+}
+.menu-button[aria-expanded="true"] .bar:nth-child(2) {
+  opacity: 0;
+}
+.menu-button[aria-expanded="true"] .bar:nth-child(3) {
+  transform: translateY(0) translateX(1px) rotate(-45deg);
+  width: 20px;
+}
+
+/* パネル：右上から“スライドして固定” */
+.menu-panel {
+  position: fixed;
+  top: 68px;            /* header 高さに合わせて */
+  right: 16px;
+  width: min(320px, calc(100vw - 32px));
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(10,10,12,0.92);
+  backdrop-filter: blur(10px);
+
+  transform: translateX(12px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 220ms ease, opacity 220ms ease;
+}
+
+/* “開いている”状態の判定：ボタンの aria-expanded を使うのが理想
+   ただCSSだけではボタン→パネルに届かないので、Menu側で
+   panel に is-open クラスを付けるか、親に data-open を付けるのが必要。
+*/
+.menu-panel.is-open {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* パネル内リンク：クリックで“確定”を強める */
+.menu-panel a {
+  display: block;
+  padding: 12px 14px;
+  border-radius: 12px;
+}
+.menu-panel a:hover {
+  background: rgba(255,255,255,0.06);
+}
+.menu-panel a:active {
+  background: rgba(255,255,255,0.10);
+}
+@media (max-width: 480px) {
+  .menu-panel {
+    top: 56px;
+    right: 8px;
+    width: calc(100vw - 16px);
+  }
 }
