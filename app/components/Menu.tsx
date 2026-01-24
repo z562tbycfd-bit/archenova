@@ -41,7 +41,7 @@ export default function Menu() {
       {open && (
         <div className="menu-overlay" onClick={() => setOpen(false)}>
           <div
-            className="menu-panel"
+            className={open ? "menu-panel is-open" : "menu-panel"}
             onClick={(e) => e.stopPropagation()}
             role="dialog"
             aria-modal="true"
