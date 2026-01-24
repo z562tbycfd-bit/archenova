@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function XTimeline() {
   useEffect(() => {
-    // すでに widgets.js が読み込まれている場合は再描画だけ行う
+    // 既に widgets.js があれば再描画のみ
     if (document.querySelector('script[src="https://platform.twitter.com/widgets.js"]')) {
       // @ts-ignore
       window.twttr?.widgets?.load?.();
@@ -31,7 +31,7 @@ export default function XTimeline() {
         data-chrome="noheader nofooter noborders transparent"
         data-tweet-limit="5"
         data-dnt="true"
-        href="https://twitter.com/ArcheNova_X"
+        href="https://x.com/ArcheNova_X"
       >
         Posts by ArcheNova_X
       </a>
