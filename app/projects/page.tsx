@@ -156,7 +156,9 @@ export default function ProjectsPage() {
       </header>
 
       <section className="pj-grid" aria-label="ArcheNova projects list">
-        {PROJECTS.map((p) => (
+        {[...PROJECTS]
+  .sort((a, b) => avgLock(b) - avgLock(a))
+  .map((p) => (
           <Link key={p.id} href={`/projects/${p.slug}`} className="pj-card">
            <div className="pj-top">
   <div className="pj-id">
