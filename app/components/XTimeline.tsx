@@ -49,6 +49,7 @@ export default function XTimeline() {
     </div>
 
     <div className="x-card x-card-arche">
+      <span className="x-scanline" />
       {/* ここは今の表示ロジックのままでOK */}
       {/* latest がある/ない の表示をそのまま置いてください */}
     </div>

@@ -2499,3 +2499,83 @@ nav {
     letter-spacing: 0.18em;
   }
 }
+/* =========================
+   ArcheNova Emphasis Motion
+   (Latest Irreversible Move)
+   ========================= */
+
+/* カードを“重く”見せる：微妙な浮きと深さ */
+.x-card-arche{
+  transform: translateY(0);
+  transition: transform 520ms ease, box-shadow 520ms ease, border-color 520ms ease;
+}
+
+/* hoverで少しだけ“近づく” */
+.x-card-arche:hover{
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.18);
+  box-shadow:
+    0 26px 80px rgba(0,0,0,0.62),
+    inset 0 1px 0 rgba(255,255,255,0.07);
+}
+
+/* ArcheNovaらしい“境界スキャン”の微発光（常時） */
+.x-card-arche{
+  overflow: hidden;
+}
+
+.x-card-arche::marker{ content: ""; } /* 影響なし、保険 */
+
+/* スキャンライン（薄い光が斜めに流れる） */
+.x-card-arche .x-scanline{
+  position: absolute;
+  inset: -40% -40%;
+  background: linear-gradient(
+    115deg,
+    transparent 35%,
+    rgba(255,255,255,0.06) 45%,
+    transparent 55%
+  );
+  transform: translateX(-30%) translateY(-10%);
+  animation: archeScan 6.8s linear infinite;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+/* スキャンが強すぎる場合は opacity を下げる */
+@keyframes archeScan{
+  0%   { transform: translateX(-35%) translateY(-15%); }
+  100% { transform: translateX(35%)  translateY(15%); }
+}
+
+/* タグにも“規則性”の呼吸（微妙な明滅） */
+.x-tag{
+  transition: border-color 520ms ease, background 520ms ease;
+}
+
+.x-card-arche:hover .x-tag{
+  border-color: rgba(255,255,255,0.22);
+  background: rgba(255,255,255,0.05);
+}
+
+/* モバイルではhoverが無いので常時効果は弱める */
+@media (max-width: 768px){
+  .x-card-arche:hover{
+    transform: none;
+  }
+  .x-card-arche .x-scanline{
+    opacity: 0.65;
+  }
+}
+
+/* 省電力・酔い防止：動きが苦手なユーザー向け */
+@media (prefers-reduced-motion: reduce){
+  .x-card-arche,
+  .x-card-arche:hover{
+    transition: none;
+    transform: none;
+  }
+  .x-card-arche .x-scanline{
+    animation: none;
+  }
+}
