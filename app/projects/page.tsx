@@ -103,6 +103,47 @@ function PhaseBadge({ phase }: { phase: Phase }) {
 }
 
 export default function ProjectsPage() {
+    function lockLevelFromYears(years: string) {
+    const s = years.toLowerCase();
+    if (s.includes("100") || s.includes("50") || s.includes("30")) return 5;
+    if (s.includes("20") || s.includes("10")) return 4;
+    if (s.includes("5")) return 3;
+    return 3;
+  }
+
+  function lockLevelFromGenerations(g: string) {
+    const s = g.toLowerCase();
+    if (s.includes("3")) return 5;
+    if (s.includes("2")) return 4;
+    if (s.includes("1")) return 3;
+    return 3;
+  }
+
+  function lockLevelFromCapital(c: string) {
+    const s = c.toLowerCase();
+    if (s.includes("infrastructure") || s.includes("locked") || s.includes("custody")) return 5;
+    if (s.includes("mission") || s.includes("governance")) return 4;
+    if (s.includes("deep-tech") || s.includes("instrument")) return 3;
+    return 3;
+  }
+
+  function phaseLock(phase: "Concept" | "Prototype" | "Deployment") {
+    if (phase === "Deployment") return 5;
+    if (phase === "Prototype") return 4;
+    return 3;
+  }
+
+  function avgLock(p: {
+    scale: { years: string; generations: string; capital: string };
+    phase: "Concept" | "Prototype" | "Deployment";
+  }) {
+    const a = lockLevelFromYears(p.scale.years);
+    const b = lockLevelFromGenerations(p.scale.generations);
+    const c = lockLevelFromCapital(p.scale.capital);
+    const d = phaseLock(p.phase);
+    return Math.round((a + b + c + d) / 4);
+  }
+
   return (
     <main className="projects">
       <header className="projects-head">
@@ -145,6 +186,17 @@ export default function ProjectsPage() {
                   <span className="pj-sval">{p.scale.capital}</span>
                 </div>
               </div>
+            </div>
+            {/* Mini Lock Meter (summary) */}
+            <div className="pj-mini">
+              <div className="pj-mini-k">Irreversibility Lock</div>
+              <div className="pj-mini-meter" aria-label={`Lock level ${avgLock(p)} of 5`}>
+                <div
+                  className="pj-mini-fill"
+                  style={{ width: `${(avgLock(p) / 5) * 100}%` }}
+                />
+              </div>
+              <div className="pj-mini-note">Level {avgLock(p)}/5</div>
             </div>
 
             <div className="pj-open">Open →</div>
