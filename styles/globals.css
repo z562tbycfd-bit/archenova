@@ -1716,3 +1716,39 @@ nav {
     font-size: 0.68rem;
   }
 }
+/* =========================
+   Page transition (motion-only)
+   ========================= */
+
+.pt {
+  animation: ptFade 220ms ease-out;
+  will-change: opacity, transform;
+}
+
+@keyframes ptFade {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pt { animation: none; }
+}
+/* =========================
+   Scroll reveal (irreversible)
+   ========================= */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 360ms ease, transform 360ms ease;
+  will-change: opacity, transform;
+}
+
+.reveal.is-shown {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
