@@ -2526,11 +2526,11 @@ nav {
 
 /* hoverで少しだけ“近づく” */
 .x-card-arche:hover{
-  transform: translateY(-2px);
-  border-color: rgba(255,255,255,0.18);
-  box-shadow:
-    0 26px 80px rgba(0,0,0,0.62),
-    inset 0 1px 0 rgba(255,255,255,0.07);
+  transform: translate3d(
+    0,
+    calc(-2px + (-1px * var(--scroll-p))),
+    0
+  );
 }
 
 /* ArcheNovaらしい“境界スキャン”の微発光（常時） */
@@ -2726,3 +2726,28 @@ nav {
 
   opacity: calc(0.35 + (var(--scroll-p) * 0.25));
 }
+/* =========================
+   Micro Parallax (sub-pixel)
+   ========================= */
+
+/* カード全体がほんの少しだけ“浮く” */
+.x-card-arche{
+  will-change: transform;
+}
+
+/* スクロール率に応じて 0.0px → -1.0px だけ上に移動（重さは残す） */
+.x-card-arche{
+  transform: translate3d(
+    0,
+    calc(-1px * var(--scroll-p)),
+    0
+  );
+}
+
+/* 反射レイヤーは別軸で動いているので自然に見える */
+@media (prefers-reduced-motion: reduce){
+  .x-card-arche{
+    transform: none !important;
+  }
+}
+/* =========================
