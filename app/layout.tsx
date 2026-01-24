@@ -17,6 +17,7 @@ export default function RootLayout({
       <body>
         {/* ✅ 固定背景（PCもモバイルも同じ挙動） */}
         <div className="site-bg" aria-hidden="true" />
+        <div className="site-vignette" aria-hidden="true" />
 
         <header className="site-header">
           <Menu />
