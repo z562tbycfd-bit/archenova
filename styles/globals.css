@@ -2986,3 +2986,38 @@ nav {
   background: rgba(255,255,255,0.02);
   border: 1px solid rgba(255,255,255,0.08);
 }
+/* =========================
+   Latest Irreversible Move : Outer Glass Frame
+   ========================= */
+
+.x-latest.x-compact{
+  position: relative;
+  border-radius: 28px;
+  padding: 28px 28px 24px;
+
+  /* 背景が見える程度の透明感（外枠） */
+  background: rgba(255, 255, 255, 0.012);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+
+  backdrop-filter: blur(10px) saturate(110%);
+  -webkit-backdrop-filter: blur(10px) saturate(110%);
+
+  /* 影は控えめ（場としての器） */
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.02),
+    0 12px 40px rgba(0,0,0,0.25);
+}
+
+/* モバイルは余白を少し縮める */
+@media (max-width: 768px){
+  .x-latest.x-compact{
+    padding: 20px 18px 18px;
+    border-radius: 24px;
+  }
+}
+
+/* 内側カードは“外枠より少し濃い” */
+.x-compact-card{
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.08);
+}
