@@ -1695,3 +1695,24 @@ nav {
   color: rgba(255, 255, 255, 0.55);
   font-size: 0.95rem;
 }
+/* =========================
+   Projects list — Lock chip (Lx/5)
+   ========================= */
+.pj-lockchip {
+  margin-left: 10px;
+  font-size: 0.72rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(255, 255, 255, 0.65);
+}
+@media (max-width: 768px) {
+  .pj-lockchip {
+    margin-left: 6px;
+    padding: 3px 6px;
+    font-size: 0.68rem;
+  }
+}

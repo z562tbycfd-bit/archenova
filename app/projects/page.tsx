@@ -158,10 +158,12 @@ export default function ProjectsPage() {
       <section className="pj-grid" aria-label="ArcheNova projects list">
         {PROJECTS.map((p) => (
           <Link key={p.id} href={`/projects/${p.slug}`} className="pj-card">
-            <div className="pj-top">
-              <div className="pj-id">{p.id}</div>
-              <PhaseBadge phase={p.phase} />
-            </div>
+           <div className="pj-top">
+  <div className="pj-id">
+    {p.id} <span className="pj-lockchip">L{avgLock(p)}/5</span>
+  </div>
+  <PhaseBadge phase={p.phase} />
+</div>
 
             <h2 className="pj-title">{p.title}</h2>
 
