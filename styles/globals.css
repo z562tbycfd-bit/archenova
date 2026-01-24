@@ -1948,3 +1948,73 @@ nav {
   }
 }
 /* =========================
+/* =========================
+   X Latest (single featured post)
+   ========================= */
+
+.x-timeline {
+  max-width: 860px;
+  margin: 90px auto 140px;
+  padding: 0 32px;
+}
+
+.x-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.x-title {
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.x-more {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.70);
+}
+
+.x-frame {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* “最新1件だけ”に見せるために高さを固定＆はみ出しを隠す */
+.x-frame--single {
+  height: 320px;
+}
+
+.x-frame--single iframe {
+  width: 100%;
+  height: 320px;
+  border: 0;
+}
+
+/* ほんの少しだけ“強調”の質感（デザインは変えない） */
+.x-frame--single {
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.06) inset;
+}
+
+.x-note {
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.50);
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .x-timeline {
+    margin: 70px auto 110px;
+    padding: 0 20px;
+  }
+  .x-frame--single,
+  .x-frame--single iframe {
+    height: 340px; /* モバイルは少し高めの方が読みやすい */
+  }
+}
