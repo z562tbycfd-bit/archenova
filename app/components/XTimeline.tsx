@@ -13,32 +13,43 @@ export default function XTimeline() {
   const pathname = usePathname();
 
   useEffect(() => {
-    const load = async () => {
-      // ① 既にウィジェットがあるなら“再描画”を必ず実行
+    let cancelled = false;
+
+    const ensureWidgets = async () => {
+      // すでに twttr があるなら再描画
       if (window.twttr?.widgets?.load) {
         window.twttr.widgets.load();
         return;
       }
 
-      // ② widgets.js がまだなら注入
+      // widgets.js が無ければ追加
       const existing = document.querySelector(
         'script[src="https://platform.twitter.com/widgets.js"]'
-      );
+      ) as HTMLScriptElement | null;
 
       if (!existing) {
         const script = document.createElement("script");
         script.src = "https://platform.twitter.com/widgets.js";
         script.async = true;
-        script.onload = () => window.twttr?.widgets?.load?.();
+        script.onload = () => {
+          if (!cancelled) window.twttr?.widgets?.load?.();
+        };
         document.body.appendChild(script);
-      } else {
-        // scriptはあるが twttr がまだの場合 → 少し待ってから再描画
-        setTimeout(() => window.twttr?.widgets?.load?.(), 150);
+        return;
       }
+
+      // script はあるが twttr がまだの場合、少し待って再描画
+      setTimeout(() => {
+        if (!cancelled) window.twttr?.widgets?.load?.();
+      }, 200);
     };
 
-    load();
-  }, [pathname]); // ★ページ遷移や再レンダ時にも必ず再描画する
+    ensureWidgets();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [pathname]); // ★ページ遷移や再レンダでも必ず再描画
 
   return (
     <section className="x-timeline">
