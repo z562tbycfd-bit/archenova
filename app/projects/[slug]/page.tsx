@@ -300,6 +300,43 @@ export default function ProjectDetailPage({
   const p = PROJECTS[params.slug];
   if (!p) return notFound();
 
+    function lockLevelFromYears(years: string) {
+    const s = years.toLowerCase();
+    // ざっくり判定（表記ゆれに強め）
+    if (s.includes("100") || s.includes("50") || s.includes("30")) return 5;
+    if (s.includes("20") || s.includes("10")) return 4;
+    if (s.includes("5")) return 3;
+    return 3;
+  }
+
+  function lockLevelFromGenerations(g: string) {
+    const s = g.toLowerCase();
+    if (s.includes("3")) return 5;
+    if (s.includes("2")) return 4;
+    if (s.includes("1")) return 3;
+    return 3;
+  }
+
+  function lockLevelFromCapital(c: string) {
+    const s = c.toLowerCase();
+    if (s.includes("infrastructure") || s.includes("locked") || s.includes("custody")) return 5;
+    if (s.includes("mission") || s.includes("governance")) return 4;
+    if (s.includes("deep-tech") || s.includes("instrument")) return 3;
+    return 3;
+  }
+
+  function phaseLock(phase: Phase) {
+    // Concept < Prototype < Deployment（不可逆性の進行）
+    if (phase === "Deployment") return 5;
+    if (phase === "Prototype") return 4;
+    return 3;
+  }
+
+  const lockYears = lockLevelFromYears(p.targetScale.years);
+  const lockGen = lockLevelFromGenerations(p.targetScale.generations);
+  const lockCap = lockLevelFromCapital(p.targetScale.capital);
+  const lockPhase = phaseLock(p.phase);
+
   return (
     <main className="project">
       <div className="project-top">
@@ -399,6 +436,48 @@ export default function ProjectDetailPage({
             <span className="project-sval">{p.targetScale.capital}</span>
           </div>
         </div>
+      </section>
+            {/* Lock Meter (Irreversibility intensity) */}
+      <section className="lock">
+        <h2 className="lock-title">Irreversibility Lock Meter</h2>
+
+        <div className="lock-grid" role="list" aria-label="Lock meters">
+          <div className="lock-item" role="listitem">
+            <div className="lock-k">Time Lock</div>
+            <div className="lock-meter" aria-label={`Time lock level ${lockYears} of 5`}>
+              <div className="lock-fill" style={{ width: `${(lockYears / 5) * 100}%` }} />
+            </div>
+            <div className="lock-v">{p.targetScale.years}</div>
+          </div>
+
+          <div className="lock-item" role="listitem">
+            <div className="lock-k">Generational Lock</div>
+            <div className="lock-meter" aria-label={`Generational lock level ${lockGen} of 5`}>
+              <div className="lock-fill" style={{ width: `${(lockGen / 5) * 100}%` }} />
+            </div>
+            <div className="lock-v">{p.targetScale.generations}</div>
+          </div>
+
+          <div className="lock-item" role="listitem">
+            <div className="lock-k">Capital Lock</div>
+            <div className="lock-meter" aria-label={`Capital lock level ${lockCap} of 5`}>
+              <div className="lock-fill" style={{ width: `${(lockCap / 5) * 100}%` }} />
+            </div>
+            <div className="lock-v">{p.targetScale.capital}</div>
+          </div>
+
+          <div className="lock-item" role="listitem">
+            <div className="lock-k">Phase Lock</div>
+            <div className="lock-meter" aria-label={`Phase lock level ${lockPhase} of 5`}>
+              <div className="lock-fill" style={{ width: `${(lockPhase / 5) * 100}%` }} />
+            </div>
+            <div className="lock-v">{p.phase}</div>
+          </div>
+        </div>
+
+        <p className="lock-note">
+          As the project advances, the system moves from reversible choices to locked commitments. The meter visualizes where irreversibility is accumulating.
+        </p>
       </section>
 
       <section className="project-block">

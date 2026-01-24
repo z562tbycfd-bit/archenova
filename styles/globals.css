@@ -1587,3 +1587,75 @@ nav {
     padding-top: 8px;
   }
 }
+/* =========================
+   Lock Meter (Irreversibility intensity)
+   ========================= */
+.lock {
+  margin-top: 48px;
+  padding: 18px 18px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.lock-title {
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.lock-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.lock-item {
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 14px 14px 12px;
+}
+
+.lock-k {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 10px;
+}
+
+.lock-meter {
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.04);
+  overflow: hidden;
+}
+
+.lock-fill {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.45); /* 色指定は避け、白の濃淡 */
+  border-radius: 999px;
+}
+
+.lock-v {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.70);
+  line-height: 1.7;
+  overflow-wrap: break-word;
+}
+
+.lock-note {
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .lock {
+    padding: 16px 14px 14px;
+  }
+}
