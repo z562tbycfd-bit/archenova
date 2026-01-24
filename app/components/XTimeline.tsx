@@ -1,62 +1,59 @@
 "use client";
 
-import { useMemo, useState } from "react";
 import { LATEST_TWEET } from "../config/latestTweet";
 
-function clampByChars(input: string, maxChars: number) {
-  if (!input) return { clamped: "", wasClamped: false };
-  if (input.length <= maxChars) return { clamped: input, wasClamped: false };
-  const sliced = input.slice(0, maxChars).replace(/\s+\S*$/, "");
-  return { clamped: sliced + "…", wasClamped: true };
-}
-
 export default function XTimeline() {
-  // API取得できないので、最新URL固定で「1件強調」に振り切る
-  const [expanded, setExpanded] = useState(false);
-
-  // 表示は「リンク中心」でも成立するようにする（テキストは任意）
-  const fullText = LATEST_TWEET.description;
-
-  const MAX = 260;
-  const display = useMemo(() => {
-    if (expanded) return { textToShow: fullText, wasClamped: fullText.length > MAX };
-    const r = clampByChars(fullText, MAX);
-    return { textToShow: r.clamped, wasClamped: r.wasClamped };
-  }, [expanded]);
-
- return (
-  <section className="x-latest">
-    <div className="x-head">
-      <div className="x-head-left">
-        <h2 className="x-title">LATEST IRREVERSIBLE MOVE</h2>
-        <div className="x-tags">
-  {LATEST_TWEET.tags.map((tag) => (
-    <span key={tag} className="x-tag">
-      {tag}
-      <p className="x-irrev-text">
-  A boundary has been fixed. The system can no longer return to its prior state.
-</p>
-    </span>
-  ))}
-</div>
+  return (
+    <section className="x-latest x-compact">
+      <div className="x-compact-head">
+        <h2 className="x-compact-title">Latest Irreversible Move</h2>
+        <a
+          className="x-compact-cta"
+          href={LATEST_TWEET.url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open →
+        </a>
       </div>
 
-      <a
-  className="x-link"
-  href={LATEST_TWEET.url}
-  target="_blank"
-  rel="noreferrer"
->
-  Open the post →
-</a>
-    </div>
+      <div className="x-compact-card">
+        {/* 反射（スクロールで動く前提：--scroll-p を利用） */}
+        <span className="x-compact-reflection" aria-hidden="true" />
 
-    <div className="x-card x-card-arche">
-      <span className="x-reflection" aria-hidden="true" />
-      <span className="x-scanline" />
-      {/* ここは今の表示ロジックのままでOK */}
-      {/* latest がある/ない の表示をそのまま置いてください */}
-    </div>
-  </section>
-);
+        {/* タグ */}
+        <div className="x-compact-tags">
+          {LATEST_TWEET.tags.map((t) => (
+            <span key={t} className="x-compact-tag">
+              {t}
+            </span>
+          ))}
+        </div>
+
+        {/* 本文（1回だけ） */}
+        <p className="x-compact-text">{LATEST_TWEET.description}</p>
+
+        {/* 下部リンク */}
+        <div className="x-compact-foot">
+          <a
+            className="x-compact-link"
+            href="https://x.com/ArcheNova_X"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View on X →
+          </a>
+
+          <a
+            className="x-compact-link"
+            href={LATEST_TWEET.url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open the post →
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 }
