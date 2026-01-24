@@ -3265,3 +3265,14 @@ html, body {
   align-items: center;
   padding: 18px 18px;
 }
+/* === ArcheNova Unified Readability Film === */
+.readability-film {
+  background: rgba(0, 0, 0, 0.10);   /* ← 濃さを統一（10%） */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 28px;
+
+  /* 境界を感じさせない */
+  box-shadow: none;
+  border: none;
+}
