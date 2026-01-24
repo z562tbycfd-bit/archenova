@@ -3276,3 +3276,75 @@ html, body {
   box-shadow: none;
   border: none;
 }
+/* =========================================================
+   ArcheNova — Unified Readability Film (GLOBAL OVERRIDE)
+   目的：全ページで「薄い黒フィルム」を統一し、文字を読みやすくする
+   ========================================================= */
+
+:root {
+  --film: rgba(0, 0, 0, 0.12);   /* ← 濃さはここだけで管理（おすすめ 0.10〜0.14） */
+  --film-strong: rgba(0, 0, 0, 0.16); /* 必要なら少し強め（基本は使わない） */
+  --film-blur: 10px;
+}
+
+/* 1) 統一フィルム（これだけ使う） */
+.readability-film {
+  background: var(--film) !important;
+  backdrop-filter: blur(var(--film-blur)) !important;
+  -webkit-backdrop-filter: blur(var(--film-blur)) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* 2) 既存の“濃い黒背景・枠線”を強制的に消す（ページ差をなくす） */
+.hero-content,
+.about,
+.about-inner,
+.x-latest,
+.x-card,
+.section,
+.card,
+.panel {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* 3) 主要コンテナに「統一フィルム」を適用（全ページで読む） */
+.hero-content,
+.about-inner,
+.x-card,
+.section,
+.card,
+.panel {
+  background: var(--film) !important;
+  backdrop-filter: blur(var(--film-blur)) !important;
+  -webkit-backdrop-filter: blur(var(--film-blur)) !important;
+  border-radius: 28px;
+}
+
+/* 4) 文字の可読性をページ差なく統一 */
+.hero p,
+.about p,
+.x-text,
+.card p,
+.section p {
+  color: rgba(245, 245, 245, 0.86) !important;
+}
+
+/* 5) “境界線がくっきり出る原因”になりやすいinset/outline系を無効化 */
+.hero-content,
+.about-inner,
+.x-card,
+.card,
+.panel {
+  outline: none !important;
+}
+
+/* 6) モバイルは少しだけフィルム濃度を上げても読みやすい（背景が暗いなら同値でもOK） */
+@media (max-width: 768px) {
+  :root {
+    --film: rgba(0, 0, 0, 0.14);
+    --film-blur: 12px;
+  }
+}
