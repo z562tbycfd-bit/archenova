@@ -1,6 +1,11 @@
 "use client";
 
+const LATEST_TWEET_URL = "https://x.com/ArcheNova_X/status/2012537819747786821"; // ←ここだけ差し替え
+
 export default function XTimeline() {
+  const src =
+    "https://twitframe.com/show?url=" + encodeURIComponent(LATEST_TWEET_URL);
+
   return (
     <section className="x-timeline">
       <div className="x-head">
@@ -10,22 +15,17 @@ export default function XTimeline() {
         </a>
       </div>
 
-      {/* 最新1件が見える高さに固定（上だけ見せる） */}
       <div className="x-frame x-frame--single" aria-label="Latest post from ArcheNova_X">
         <iframe
-          src="https://twitframe.com/show?url=https://x.com/ArcheNova_X"
+          src={src}
           title="ArcheNova_X latest post"
           width="100%"
-          height="320"
+          height="360"
           frameBorder="0"
           scrolling="no"
           allowTransparency
         />
       </div>
-
-      <p className="x-note">
-        The feed is intentionally constrained to a single post—what matters is the latest irreversible move.
-      </p>
     </section>
   );
 }
