@@ -31,36 +31,23 @@ export default function XTimeline() {
     let cancelled = false;
 
     const run = async () => {
-      try {
-        const endpoint =
-          "https://cdn.syndication.twimg.com/widgets/timelines/profile?screen_name=ArcheNova_X&lang=en";
+  try {
+    const res = await fetch("/api/latest-x");
+    if (!res.ok) return;
 
-        const res = await fetch(endpoint, {
-          headers: { Accept: "application/json,text/plain,*/*" },
-        });
+    const data: any = await res.json();
+    if (!data?.ok) return;
 
-        if (!res.ok) return;
-
-        const data: any = await res.json();
-        const body: string = data?.body ?? "";
-        if (!body) return;
-
-        const urlMatch =
-          body.match(/https:\/\/x\.com\/ArcheNova_X\/status\/\d+/) ??
-          body.match(/https:\/\/twitter\.com\/ArcheNova_X\/status\/\d+/);
-
-        const postUrl = urlMatch?.[0];
-        if (!postUrl) return;
-
-        const pMatch = body.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
-        const rawP = pMatch?.[0] ?? "";
-        const content = stripHtml(rawP) || "Open the latest post on X →";
-
-        if (!cancelled) setLatest({ url: postUrl, content });
-      } catch {
-        // ignore
-      }
-    };
+    if (!cancelled) {
+      setLatest({
+        url: data.url,
+        content: data.content,
+      });
+    }
+  } catch {
+    // ignore
+  }
+};
 
     run();
     return () => {
