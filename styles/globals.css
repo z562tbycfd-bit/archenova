@@ -1442,3 +1442,115 @@ nav {
     grid-template-columns: 1fr;
   }
 }
+/* =========================
+   Phase timeline (Irreversibility Progression)
+   ========================= */
+
+.phase {
+  margin-top: 44px;
+  padding: 18px 18px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.28);
+}
+
+.phase-title {
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.phase-track {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.phase-step {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+  position: relative;
+}
+
+/* 縦ライン（時間の進行） */
+.phase-step::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 42px;
+  bottom: -12px;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.14);
+}
+.phase-step:last-child::before {
+  display: none;
+}
+
+.phase-node {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.phase-index {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.65);
+  letter-spacing: 0.08em;
+}
+
+.phase-name {
+  font-size: 0.95rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 6px;
+}
+
+.phase-meaning {
+  color: rgba(255, 255, 255, 0.68);
+  line-height: 1.8;
+  overflow-wrap: break-word;
+}
+
+/* 状態表現（色ではなく濃淡で差をつける） */
+.phase-step.is-done .phase-node {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+.phase-step.is-done .phase-name {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.phase-step.is-active .phase-node {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.30);
+}
+.phase-step.is-active .phase-index {
+  color: rgba(255, 255, 255, 0.95);
+}
+.phase-step.is-active .phase-meaning {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.phase-note {
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.8;
+}
+
+/* Mobile: 余白だけ最適化 */
+@media (max-width: 768px) {
+  .phase {
+    padding: 16px 14px 14px;
+  }
+}

@@ -313,6 +313,50 @@ export default function ProjectDetailPage({
         <div className="project-id">{p.id}</div>
         <h1>{p.title}</h1>
       </header>
+            {/* Phase Timeline (Irreversibility Progression) */}
+      <section className="phase">
+        <h2 className="phase-title">Irreversibility Progression</h2>
+
+        <ol className="phase-track" aria-label="Project phase timeline">
+          {(["Concept", "Prototype", "Deployment"] as const).map((ph, i) => {
+            const isActive = ph === p.phase;
+            const isDone =
+              (p.phase === "Prototype" && ph === "Concept") ||
+              (p.phase === "Deployment" && (ph === "Concept" || ph === "Prototype"));
+
+            return (
+              <li
+                key={ph}
+                className={[
+                  "phase-step",
+                  isDone ? "is-done" : "",
+                  isActive ? "is-active" : "",
+                ].join(" ")}
+              >
+                <div className="phase-node">
+                  <span className="phase-index">{i + 1}</span>
+                </div>
+
+                <div className="phase-body">
+                  <div className="phase-name">{ph}</div>
+                  <div className="phase-meaning">
+                    {ph === "Concept" &&
+                      "Define the non-negotiables. Specify what must never happen and the boundary conditions that refuse it."}
+                    {ph === "Prototype" &&
+                      "Prove bounded failure. Demonstrate the refusal holds under representative stress and degradation."}
+                    {ph === "Deployment" &&
+                      "Lock custody across time. Make irreversibility institutional: accountability and exit routes are fixed."}
+                  </div>
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+
+        <p className="phase-note">
+          This timeline expresses the project’s shift from reversible choices to irreversible commitments.
+        </p>
+      </section>
 
       <section className="project-block">
         <h2>Fixed Irreversible Condition</h2>
