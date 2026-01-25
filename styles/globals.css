@@ -3811,3 +3811,194 @@ html, body {
     width: 17px;
   }
 }
+/* =========================
+   Menu (ArcheNova) — fixed trigger + clean overlay
+   ========================= */
+
+.menu {
+  position: relative;
+}
+
+/* 右上固定：レイアウトの影響を受けない */
+.menu-trigger {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 10000;
+
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+  display: grid;
+  place-items: center;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+}
+
+.menu-trigger:hover {
+  background: rgba(0, 0, 0, 0.30);
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-1px);
+}
+
+.menu-trigger:active {
+  transform: translateY(0px) scale(0.98);
+}
+
+.menu-trigger .bar {
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background: rgba(245, 245, 245, 0.92);
+  display: block;
+  box-shadow: 0 0 10px rgba(255,255,255,0.08);
+}
+.menu-trigger .bar + .bar {
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .menu-trigger {
+    top: 14px;
+    right: 14px;
+    width: 44px;
+    height: 44px;
+    border-radius: 13px;
+  }
+  .menu-trigger .bar {
+    width: 17px;
+  }
+}
+
+/* overlay：blurは “背景だけ” にかける（文字はぼかさない） */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9990;
+}
+
+.menu-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* パネル：ガラス＋薄い黒フィルム（読みやすさ優先） */
+.menu-panel {
+  position: relative;
+  z-index: 1;
+  width: min(520px, calc(100vw - 28px));
+  margin: 74px auto 0;
+  padding: 18px 18px 14px;
+
+  border-radius: 22px;
+  background: rgba(0, 0, 0, 0.40);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.55);
+
+  outline: none;
+}
+
+/* 上部 */
+.menu-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.menu-brand-title {
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.92);
+  display: block;
+}
+
+.menu-brand-sub {
+  font-size: 0.92rem;
+  color: rgba(210,210,210,0.75);
+  display: block;
+  margin-top: 3px;
+}
+
+.menu-close {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: rgba(245,245,245,0.90);
+  cursor: pointer;
+}
+
+/* ナビ */
+.menu-nav {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+
+  padding: 14px 14px;
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  color: rgba(245,245,245,0.90);
+  text-decoration: none;
+  border-bottom: none !important; /* あなたのaの下線ルールを無効化 */
+
+  letter-spacing: 0.03em;
+}
+
+.menu-item:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.12);
+}
+
+.menu-item.active {
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.menu-arrow {
+  color: rgba(245,245,245,0.55);
+}
+
+/* フッター */
+.menu-foot {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.menu-foot-note {
+  color: rgba(200,200,200,0.65);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* もし古いmenu-btnが残ってても影響しないように */
+.menu-btn { display: none; }
+.menu-icon { display: none; }

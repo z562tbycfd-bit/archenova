@@ -40,14 +40,16 @@ export default function Menu() {
   return (
     <div className="menu">
       <button
-        type="button"
-        className="menu-btn"
-        aria-label="Open menu"
-        aria-expanded={open}
-        onClick={() => setOpen(true)}
-      >
-        <span className="menu-icon" />
-      </button>
+  type="button"
+  className="menu-trigger"
+  aria-label="Open menu"
+  aria-expanded={open}
+  onClick={() => setOpen(true)}
+>
+  <span className="bar" />
+  <span className="bar" />
+  <span className="bar" />
+</button>
 
       {open && (
         <div className="menu-overlay" onClick={() => setOpen(false)}>
