@@ -3743,3 +3743,71 @@ html, body {
     text-align: center;
   }
 }
+/* =========================
+   ArcheNova Menu Button (fixed)
+   ========================= */
+
+.menu-trigger {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 10000;
+
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+
+  /* glass */
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+  display: grid;
+  place-items: center;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+}
+
+.menu-trigger:hover {
+  background: rgba(0, 0, 0, 0.30);
+  border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-1px);
+}
+
+.menu-trigger:active {
+  transform: translateY(0px) scale(0.98);
+}
+
+/* 三本線（ArcheNova: 細く、静かに） */
+.menu-trigger .bar {
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background: rgba(245, 245, 245, 0.92);
+  display: block;
+  box-shadow: 0 0 10px rgba(255,255,255,0.08);
+}
+
+.menu-trigger .bar + .bar {
+  margin-top: 5px;
+}
+
+/* モバイルは少し小さく＆余白も詰める */
+@media (max-width: 768px) {
+  .menu-trigger {
+    top: 14px;
+    right: 14px;
+    width: 44px;
+    height: 44px;
+    border-radius: 13px;
+  }
+
+  .menu-trigger .bar {
+    width: 17px;
+  }
+}
