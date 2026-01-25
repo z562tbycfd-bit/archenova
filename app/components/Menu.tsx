@@ -1,88 +1,113 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
+
+const ITEMS = [
+  { href: "/", label: "Home" },
+  { href: "/manifesto", label: "Manifesto" },
+  { href: "/framework", label: "Framework" },
+  { href: "/domains", label: "Domains" },
+  { href: "/research", label: "Research / Papers" },
+  { href: "/projects", label: "Projects" },
+  { href: "/papers", label: "Archive" }, // 既存が /papers の場合
+  { href: "/contact", label: "Contact" },
+];
 
 export default function Menu() {
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const panelRef = useRef<HTMLDivElement | null>(null);
 
-  // ESCで閉じる
+  // Escで閉じる
   useEffect(() => {
-    const onKeyDown = (e: KeyboardEvent) => {
+    const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") setOpen(false);
     };
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  // メニュー表示中はスクロール止める
+  // 開いたらパネルにフォーカス
   useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
+    if (open) panelRef.current?.focus();
   }, [open]);
 
+  const isActive = (href: string) => {
+    if (href === "/") return pathname === "/";
+    return pathname?.startsWith(href);
+  };
+
   return (
-    <>
+    <div className="menu">
       <button
-        className="menu-button"
+        type="button"
+        className="menu-btn"
         aria-label="Open menu"
         aria-expanded={open}
         onClick={() => setOpen(true)}
       >
-        <span className="menu-icon" aria-hidden="true">
-          <span />
-          <span />
-          <span />
-        </span>
+        <span className="menu-icon" />
       </button>
 
       {open && (
         <div className="menu-overlay" onClick={() => setOpen(false)}>
           <div
-            className={open ? "menu-panel is-open" : "menu-panel"}
+            className="menu-panel"
+            ref={panelRef}
+            tabIndex={-1}
             onClick={(e) => e.stopPropagation()}
-            role="dialog"
-            aria-modal="true"
           >
             <div className="menu-top">
-              <div className="menu-title">ArcheNova</div>
+              <div className="menu-brand">
+                <span className="menu-brand-title">ArcheNova</span>
+                <span className="menu-brand-sub">Irreversible initial conditions</span>
+              </div>
+
               <button
+                type="button"
                 className="menu-close"
                 aria-label="Close menu"
                 onClick={() => setOpen(false)}
               >
-                ×
+                ✕
               </button>
             </div>
 
             <nav className="menu-nav">
-              <Link href="/" onClick={() => setOpen(false)}>
-                Home
-              </Link>
-              <Link href="/about" onClick={() => setOpen(false)}>
-                About
-              </Link>
-              <Link href="/papers" onClick={() => setOpen(false)}>
-                Archive
-              </Link>
+              {ITEMS.map((it) => (
+                <Link
+                  key={it.href}
+                  href={it.href}
+                  className={`menu-item ${isActive(it.href) ? "active" : ""}`}
+                  onClick={() => setOpen(false)}
+                >
+                  {it.label}
+                  <span className="menu-arrow">→</span>
+                </Link>
+              ))}
+
               <a
+                className="menu-item"
                 href="https://x.com/ArcheNova_X"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setOpen(false)}
               >
-                X
+                X (ArcheNova_X)
+                <span className="menu-arrow">↗</span>
               </a>
             </nav>
 
-            <div className="menu-footer">
-              <span>Engineering irreversibility into civilization design.</span>
+            <div className="menu-foot">
+              <span className="menu-foot-note">
+                What matters is not control—only constraints that cannot be reversed.
+              </span>
             </div>
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }

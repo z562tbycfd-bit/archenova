@@ -3348,3 +3348,162 @@ html, body {
     --film-blur: 12px;
   }
 }
+/* =========================================================
+   ArcheNova — Menu (Glass Drawer)
+   ========================================================= */
+
+.site-header {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 80;
+}
+
+/* ボタン */
+.menu-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.20);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+
+.menu-btn:hover {
+  border-color: rgba(255,255,255,0.18);
+}
+
+/* ハンバーガー3本線 */
+.menu-icon {
+  display: block;
+  width: 18px;
+  height: 2px;
+  margin: 0 auto;
+  background: rgba(245,245,245,0.85);
+  position: relative;
+}
+.menu-icon::before,
+.menu-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 18px;
+  height: 2px;
+  background: rgba(245,245,245,0.85);
+}
+.menu-icon::before { top: -6px; }
+.menu-icon::after { top: 6px; }
+
+/* オーバーレイ */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(0,0,0,0.28);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* パネル */
+.menu-panel {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: min(420px, calc(100vw - 36px));
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(0,0,0,0.32);
+  border: 1px solid rgba(255,255,255,0.10);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  outline: none;
+}
+
+/* 上部 */
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.menu-brand-title {
+  display: block;
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.92);
+}
+.menu-brand-sub {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: rgba(245,245,245,0.65);
+}
+
+.menu-close {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  color: rgba(245,245,245,0.85);
+  cursor: pointer;
+}
+
+/* ナビ */
+.menu-nav {
+  display: grid;
+  gap: 10px;
+  padding: 10px 0 8px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.12);
+  color: rgba(245,245,245,0.88);
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  border-color: rgba(255,255,255,0.16);
+  background: rgba(0,0,0,0.18);
+}
+
+.menu-item.active {
+  border-color: rgba(255,255,255,0.24);
+  background: rgba(255,255,255,0.06);
+}
+
+.menu-arrow {
+  color: rgba(245,245,245,0.55);
+}
+
+/* 下部 */
+.menu-foot {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.menu-foot-note {
+  display: block;
+  font-size: 0.85rem;
+  color: rgba(245,245,245,0.60);
+  line-height: 1.5;
+}
+
+/* モバイル最適化 */
+@media (max-width: 768px) {
+  .site-header { top: 14px; right: 14px; }
+  .menu-panel { top: 14px; right: 14px; }
+  .menu-item { padding: 14px 14px; }
+}
