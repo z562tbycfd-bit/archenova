@@ -6,14 +6,12 @@ import { useEffect, useRef, useState } from "react";
 
 const ITEMS = [
   { href: "/", label: "Home" },
-  { href: "/manifesto", label: "Manifesto" },
-  { href: "/framework", label: "Framework" },
-  { href: "/domains", label: "Domains" },
-  { href: "/research", label: "Research / Papers" },
-  { href: "/projects", label: "Projects" },
-  { href: "/papers", label: "Archive" }, // 既存が /papers の場合
-  { href: "/contact", label: "Contact" },
+  { href: "/capital-responsibility", label: "Capital & Responsibility" },
+  { href: "/institutional-position", label: "Institutional Position" },
+  { href: "/identity", label: "About / Identity" },
+  { href: "/contact", label: "Contact / Access" },
 ];
+
 
 export default function Menu() {
   const pathname = usePathname();
