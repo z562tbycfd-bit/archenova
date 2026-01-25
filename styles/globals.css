@@ -3507,6 +3507,46 @@ html, body {
   .menu-panel { top: 14px; right: 14px; }
   .menu-item { padding: 14px 14px; }
 }
+/* ===== Menu panel (glass) ===== */
+.menu-panel {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 9999;
+
+  width: min(420px, calc(100vw - 36px));
+  border-radius: 18px;
+  overflow: hidden;
+
+  /* 重要：ここに filter は絶対入れない */
+  filter: none !important;
+}
+
+/* 背景だけをぼかす層 */
+.menu-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.28); /* ←薄い黒フィルム */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
+}
+
+/* 中の文字を前面に（ボケない） */
+.menu-panel * {
+  position: relative;
+  z-index: 1;
+}
+
+/* メニューリンク文字 */
+.menu-panel a,
+.menu-panel button {
+  color: rgba(245, 245, 245, 0.92);
+}
 /* =========================================================
    ArcheNova Page System (Unified)
    ========================================================= */
