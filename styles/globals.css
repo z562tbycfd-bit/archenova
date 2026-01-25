@@ -3684,3 +3684,22 @@ html, body {
   .diagram-flow{ grid-template-columns: 1fr; }
   .flow-arrow{ display: none; }
 }
+/* =========================================================
+   HOME Cards — Vertical Stack (Desktop)
+   ========================================================= */
+
+@media (min-width: 1024px) {
+  .hero-links {
+    display: flex;
+    flex-direction: column;     /* 縦方向に並べる */
+    align-items: center;        /* 中央揃え */
+    gap: 18px;                  /* カード間の余白 */
+    margin-top: 40px;
+  }
+
+  .hero-links a {
+    width: 100%;
+    max-width: 720px;           /* 横に広がりすぎない */
+    text-align: center;
+  }
+}
