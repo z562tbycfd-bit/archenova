@@ -4062,3 +4062,139 @@ html, body {
   transform: none !important;
 }
 .menu { transform: none !important; filter: none !important; }
+
+/* =========================
+   ArcheNova Menu (Stable)
+   ========================= */
+
+/* ハンバーガー固定 */
+.menu-trigger {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 10000;
+
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+
+  background: rgba(0,0,0,0.22);
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+/* 三本線 */
+.menu-trigger .bar {
+  width: 18px;
+  height: 2px;
+  background: rgba(245,245,245,0.92);
+  border-radius: 2px;
+}
+.menu-trigger .bar + .bar {
+  margin-top: 4px;
+}
+
+/* オーバーレイ */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9990;
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* メニューパネル */
+.menu-panel {
+  position: relative;
+  margin: 80px auto 0;
+  width: min(520px, calc(100vw - 28px));
+  padding: 18px;
+
+  border-radius: 22px;
+  background: rgba(0,0,0,0.42);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.55);
+}
+
+/* 上部 */
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.menu-brand-title {
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.menu-brand-sub {
+  font-size: 0.9rem;
+  color: rgba(245,245,245,0.65);
+}
+
+.menu-close {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ナビ */
+.menu-nav {
+  display: grid;
+  gap: 10px;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  text-decoration: none;
+  color: rgba(245,245,245,0.92);
+}
+
+.menu-item.active {
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.menu-arrow {
+  opacity: 0.6;
+}
+
+/* フッター */
+.menu-foot {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.menu-foot-note {
+  font-size: 0.85rem;
+  color: rgba(245,245,245,0.65);
+}
+
+/* モバイル */
+@media (max-width: 768px) {
+  .menu-trigger {
+    top: 14px;
+    right: 14px;
+    width: 44px;
+    height: 44px;
+  }
+}
