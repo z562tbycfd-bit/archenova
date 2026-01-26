@@ -35,45 +35,44 @@ export default function Menu() {
   };
 
   return (
-    <div className="an-menu">
+  <div className="menu">
+    {!open && (
       <button
         type="button"
-        className="an-menu-btn"
+        className="menu-btn"
         aria-label="Open menu"
         aria-expanded={open}
-        onClick={(e) => {
-          e.stopPropagation();
-          setOpen(true);
-        }}
+        onClick={() => setOpen(true)}
       >
-        <span className="an-menu-icon" />
+        <span className="menu-icon" />
       </button>
+    )}
 
-      {open && (
-        <div className="an-menu-overlay" onClick={() => setOpen(false)}>
-          <div
-            className="an-menu-panel"
-            ref={panelRef}
-            tabIndex={-1}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="an-menu-top">
-              <div className="an-menu-brand">
-                <span className="an-menu-brand-title">ArcheNova</span>
-                <span className="an-menu-brand-sub">
-                  Irreversible initial conditions
-                </span>
-              </div>
-
-              <button
-                type="button"
-                className="an-menu-close"
-                aria-label="Close menu"
-                onClick={() => setOpen(false)}
-              >
-                ✕
-              </button>
+    {open && (
+      <div className="menu-overlay" onClick={() => setOpen(false)}>
+        <div
+          className="menu-panel"
+          ref={panelRef}
+          tabIndex={-1}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <div className="menu-top">
+            <div className="menu-brand">
+              <span className="menu-brand-title">ArcheNova</span>
+              <span className="menu-brand-sub">Irreversible initial conditions</span>
             </div>
+
+            <button
+              type="button"
+              className="menu-close"
+              aria-label="Close menu"
+              onClick={() => setOpen(false)}
+            >
+              ✕
+            </button>
+          </div>
+
+          {/* nav/footはそのまま */}
 
             <nav className="an-menu-nav">
               {ITEMS.map((it) => (
