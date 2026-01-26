@@ -17,7 +17,6 @@ export default function Menu() {
   const [open, setOpen] = useState(false);
   const panelRef = useRef<HTMLDivElement | null>(null);
 
-  // ESCで閉じる
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") setOpen(false);
@@ -26,39 +25,31 @@ export default function Menu() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  // 開いたらフォーカス
-  useEffect(() => {
-    if (open) panelRef.current?.focus();
-  }, [open]);
-
   const isActive = (href: string) => {
     if (href === "/") return pathname === "/";
     return pathname?.startsWith(href);
   };
 
   return (
-    <>
-      {/* ハンバーガーボタン（閉じている時のみ表示） */}
+    <div className={`menu ${open ? "is-open" : ""}`}>
+      {/* ===== Trigger ===== */}
       {!open && (
         <button
           type="button"
-          className="menu-trigger"
+          className="menu-btn"
           aria-label="Open menu"
           onClick={() => setOpen(true)}
         >
-          <span className="bar" />
-          <span className="bar" />
-          <span className="bar" />
+          <span className="menu-icon" />
         </button>
       )}
 
-      {/* メニュー展開時 */}
+      {/* ===== Overlay + Panel ===== */}
       {open && (
         <div className="menu-overlay" onClick={() => setOpen(false)}>
           <div
             className="menu-panel"
             ref={panelRef}
-            tabIndex={-1}
             onClick={(e) => e.stopPropagation()}
           >
             <div className="menu-top">
@@ -71,8 +62,8 @@ export default function Menu() {
 
               <button
                 className="menu-close"
-                onClick={() => setOpen(false)}
                 aria-label="Close menu"
+                onClick={() => setOpen(false)}
               >
                 ✕
               </button>
@@ -83,9 +74,7 @@ export default function Menu() {
                 <Link
                   key={it.href}
                   href={it.href}
-                  className={`menu-item ${
-                    isActive(it.href) ? "active" : ""
-                  }`}
+                  className={`menu-item ${isActive(it.href) ? "active" : ""}`}
                   onClick={() => setOpen(false)}
                 >
                   {it.label}
@@ -94,10 +83,10 @@ export default function Menu() {
               ))}
 
               <a
+                className="menu-item"
                 href="https://x.com/ArcheNova_X"
                 target="_blank"
                 rel="noreferrer"
-                className="menu-item"
                 onClick={() => setOpen(false)}
               >
                 X (ArcheNova_X)
@@ -113,6 +102,6 @@ export default function Menu() {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }
