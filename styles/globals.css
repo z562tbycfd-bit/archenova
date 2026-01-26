@@ -3846,12 +3846,166 @@ html, body {
   font-size: 0.9rem;
   line-height: 1.5;
 }
-/* モバイル最適化 */
-@media (max-width: 768px) {
-  .site-header { top: 14px; right: 14px; }
-  .menu-panel { top: 14px; right: 14px; }
-  .menu-item { padding: 14px 14px; }
+
+/* =========================================================
+   ArcheNova — Menu (isolated, conflict-proof)
+   ========================================================= */
+
+.site-header{
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 10000;
 }
-/* =========================
-   X Compact Card Style
-   ========================= */ 
+
+/* button */
+.an-menu-btn{
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.22);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+  cursor: pointer;
+
+  display: grid;
+  place-items: center;
+}
+
+/* icon */
+.an-menu-icon{
+  width: 18px;
+  height: 2px;
+  background: rgba(245,245,245,0.92);
+  position: relative;
+  border-radius: 2px;
+}
+.an-menu-icon::before,
+.an-menu-icon::after{
+  content:"";
+  position:absolute;
+  left:0;
+  width: 18px;
+  height: 2px;
+  background: rgba(245,245,245,0.92);
+  border-radius: 2px;
+}
+.an-menu-icon::before{ top:-5px; }
+.an-menu-icon::after { top: 5px; }
+
+/* overlay */
+.an-menu-overlay{
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  background: transparent;
+}
+.an-menu-overlay::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: rgba(0,0,0,0.28);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  pointer-events: none;
+}
+
+/* panel */
+.an-menu-panel{
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 9999;
+
+  width: min(420px, calc(100vw - 36px));
+  padding: 18px;
+  border-radius: 22px;
+  overflow: hidden;
+
+  background: rgba(0,0,0,0.34);
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.55);
+  outline: none;
+}
+
+/* top */
+.an-menu-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:12px;
+  margin-bottom:14px;
+}
+.an-menu-brand-title{
+  display:block;
+  font-size:1.05rem;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color:rgba(245,245,245,0.92);
+}
+.an-menu-brand-sub{
+  display:block;
+  margin-top:6px;
+  font-size:0.9rem;
+  color:rgba(245,245,245,0.65);
+}
+.an-menu-close{
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.06);
+  color: rgba(245,245,245,0.90);
+  cursor: pointer;
+}
+
+/* nav */
+.an-menu-nav{
+  display:grid;
+  gap:10px;
+  padding:10px 0 8px;
+}
+.an-menu-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:12px 14px;
+  border-radius:16px;
+
+  border:1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.05);
+
+  color: rgba(245,245,245,0.90);
+  text-decoration:none;
+}
+.an-menu-item:hover{
+  border-color: rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.08);
+}
+.an-menu-item.active{
+  border-color: rgba(255,255,255,0.22);
+  background: rgba(255,255,255,0.10);
+}
+.an-menu-arrow{ color: rgba(245,245,245,0.55); }
+
+/* foot */
+.an-menu-foot{
+  margin-top:10px;
+  padding-top:10px;
+  border-top:1px solid rgba(255,255,255,0.08);
+}
+.an-menu-foot-note{
+  display:block;
+  font-size:0.85rem;
+  color:rgba(245,245,245,0.60);
+  line-height:1.5;
+}
+
+/* mobile */
+@media (max-width: 768px){
+  .site-header{ top:14px; right:14px; }
+  .an-menu-panel{ top:14px; right:14px; }
+}

@@ -12,13 +12,11 @@ const ITEMS = [
   { href: "/contact", label: "Contact / Access" },
 ];
 
-
 export default function Menu() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const panelRef = useRef<HTMLDivElement | null>(null);
 
-  // Escで閉じる
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") setOpen(false);
@@ -27,7 +25,6 @@ export default function Menu() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  // 開いたらパネルにフォーカス
   useEffect(() => {
     if (open) panelRef.current?.focus();
   }, [open]);
@@ -38,36 +35,39 @@ export default function Menu() {
   };
 
   return (
-    <div className="menu">
+    <div className="an-menu">
       <button
-  type="button"
-  className="menu-trigger"
-  aria-label="Open menu"
-  aria-expanded={open}
-  onClick={() => setOpen(true)}
->
-  <span className="bar" />
-  <span className="bar" />
-  <span className="bar" />
-</button>
+        type="button"
+        className="an-menu-btn"
+        aria-label="Open menu"
+        aria-expanded={open}
+        onClick={(e) => {
+          e.stopPropagation();
+          setOpen(true);
+        }}
+      >
+        <span className="an-menu-icon" />
+      </button>
 
       {open && (
-        <div className="menu-overlay" onClick={() => setOpen(false)}>
+        <div className="an-menu-overlay" onClick={() => setOpen(false)}>
           <div
-            className="menu-panel"
+            className="an-menu-panel"
             ref={panelRef}
             tabIndex={-1}
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="menu-top">
-              <div className="menu-brand">
-                <span className="menu-brand-title">ArcheNova</span>
-                <span className="menu-brand-sub">Irreversible initial conditions</span>
+            <div className="an-menu-top">
+              <div className="an-menu-brand">
+                <span className="an-menu-brand-title">ArcheNova</span>
+                <span className="an-menu-brand-sub">
+                  Irreversible initial conditions
+                </span>
               </div>
 
               <button
                 type="button"
-                className="menu-close"
+                className="an-menu-close"
                 aria-label="Close menu"
                 onClick={() => setOpen(false)}
               >
@@ -75,33 +75,33 @@ export default function Menu() {
               </button>
             </div>
 
-            <nav className="menu-nav">
+            <nav className="an-menu-nav">
               {ITEMS.map((it) => (
                 <Link
                   key={it.href}
                   href={it.href}
-                  className={`menu-item ${isActive(it.href) ? "active" : ""}`}
+                  className={`an-menu-item ${isActive(it.href) ? "active" : ""}`}
                   onClick={() => setOpen(false)}
                 >
                   {it.label}
-                  <span className="menu-arrow">→</span>
+                  <span className="an-menu-arrow">→</span>
                 </Link>
               ))}
 
               <a
-                className="menu-item"
+                className="an-menu-item"
                 href="https://x.com/ArcheNova_X"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => setOpen(false)}
               >
                 X (ArcheNova_X)
-                <span className="menu-arrow">↗</span>
+                <span className="an-menu-arrow">↗</span>
               </a>
             </nav>
 
-            <div className="menu-foot">
-              <span className="menu-foot-note">
+            <div className="an-menu-foot">
+              <span className="an-menu-foot-note">
                 What matters is not control—only constraints that cannot be reversed.
               </span>
             </div>
