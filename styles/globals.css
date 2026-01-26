@@ -3352,10 +3352,8 @@ html, body {
    ArcheNova — Menu (Glass Drawer)
    ========================================================= */
 
-.site-header {
-  position: fixed;
-  top: 18px;
-  right: 18px;
+.site-header{
+  position: relative;
   z-index: 80;
 }
 
@@ -3369,6 +3367,16 @@ html, body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   cursor: pointer;
+}
+
+.menu-btn{
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 10000;
+}
+@media (max-width: 768px){
+  .menu-btn{ top: 14px; right: 14px; }
 }
 
 .menu-btn:hover {
@@ -3401,24 +3409,16 @@ html, body {
   position: fixed;
   inset: 0;
   z-index: 90;
-  background: rgba(0,0,0,0.28);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  background: transparent;
 }
 
-/* パネル */
-.menu-panel {
-  position: absolute;
-  top: 18px;
-  right: 18px;
-  width: min(420px, calc(100vw - 36px));
-  padding: 18px;
-  border-radius: 22px;
-  background: rgba(0,0,0,0.32);
-  border: 1px solid rgba(255,255,255,0.10);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  outline: none;
+.menu-overlay::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: rgba(0,0,0,0.28);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 /* 上部 */
