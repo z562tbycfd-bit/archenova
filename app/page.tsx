@@ -56,6 +56,18 @@ export default function Home() {
           <Link href="/projects">Projects</Link>
         </div>
         </Reveal>
+
+        {/* Workshop Floor — featured card */}
+        <Reveal delay={200}>
+<div className="plaza-feature">
+  <Link href="/workshop" className="plaza-card">
+    <div className="plaza-eyebrow">The Workshop Floor</div>
+    <div className="plaza-title">The Workshop Floor</div>
+    <div className="plaza-desc">— Where Constraints Become Systems</div>
+    <div className="plaza-hint">Enter →</div>
+  </Link>
+</div>
+</Reveal>
       </section>
 
       {/* X 最新投稿 */}
