@@ -25,6 +25,10 @@ export default function Menu() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
+  useEffect(() => {
+    if (open) panelRef.current?.focus();
+  }, [open]);
+
   const isActive = (href: string) => {
     if (href === "/") return pathname === "/";
     return pathname?.startsWith(href);
@@ -32,26 +36,30 @@ export default function Menu() {
 
   return (
     <div className={`menu ${open ? "is-open" : ""}`}>
-      {/* ===== Trigger ===== */}
       {!open && (
         <button
           type="button"
           className="menu-btn"
           aria-label="Open menu"
+          aria-expanded={open}
           onClick={() => setOpen(true)}
         >
           <span className="menu-icon" />
         </button>
       )}
 
-      {/* ===== Overlay + Panel ===== */}
       {open && (
-        <div className="menu-overlay" onClick={() => setOpen(false)}>
-          <div
-            className="menu-panel"
-            ref={panelRef}
-            onClick={(e) => e.stopPropagation()}
-          >
+        <div className="menu-overlay">
+          {/* 背景クリックで閉じる領域（panelの外だけ） */}
+          <button
+            type="button"
+            className="menu-backdrop"
+            aria-label="Close menu"
+            onClick={() => setOpen(false)}
+          />
+
+          {/* panelは通常のdiv（クリック可能） */}
+          <div className="menu-panel" ref={panelRef} tabIndex={-1}>
             <div className="menu-top">
               <div>
                 <span className="menu-brand-title">ArcheNova</span>
@@ -61,6 +69,7 @@ export default function Menu() {
               </div>
 
               <button
+                type="button"
                 className="menu-close"
                 aria-label="Close menu"
                 onClick={() => setOpen(false)}
