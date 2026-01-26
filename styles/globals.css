@@ -3846,7 +3846,12 @@ html, body {
   font-size: 0.9rem;
   line-height: 1.5;
 }
-@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))){
-  .menu-overlay::before{ background: rgba(0,0,0,0.55); }
-  .menu-panel{ background: rgba(0,0,0,0.55); }
+/* モバイル最適化 */
+@media (max-width: 768px) {
+  .site-header { top: 14px; right: 14px; }
+  .menu-panel { top: 14px; right: 14px; }
+  .menu-item { padding: 14px 14px; }
 }
+/* =========================
+   X Compact Card Style
+   ========================= */ 
