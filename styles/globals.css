@@ -4023,3 +4023,41 @@ html, body {
    right: 14px;
  }
 }
+/* --- Hamburger: keep perfectly centered even when menu opens --- */
+.menu-btn{
+  position: fixed;           /* 念のため：常に右上固定 */
+  top: 18px;
+  right: 18px;
+  z-index: 10001;
+
+  padding: 0 !important;     /* ←ズレ原因を消す */
+  line-height: 0 !important; /* ←ズレ原因を消す */
+  display: grid;
+  place-items: center;
+
+  transform: none !important; /* ←open時のズレ対策 */
+}
+
+@media (max-width: 768px){
+  .menu-btn{
+    top: 14px;
+    right: 14px;
+  }
+}
+
+/* 中の三本線を完全センター固定 */
+.menu-icon{
+  margin: 0 !important;
+  display: block;
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: none !important;
+}
+
+/* 擬似要素もセンター基準を固定 */
+.menu-icon::before,
+.menu-icon::after{
+  left: 0;
+  transform: none !important;
+}
