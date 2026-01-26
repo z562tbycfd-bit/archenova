@@ -4061,3 +4061,4 @@ html, body {
   left: 0;
   transform: none !important;
 }
+.menu { transform: none !important; filter: none !important; }
