@@ -3358,7 +3358,7 @@ html, body {
 }
 
 /* ボタン */
-.menu-btn {
+.menu-btn{
   width: 44px;
   height: 44px;
   border-radius: 14px;
@@ -3367,51 +3367,43 @@ html, body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   cursor: pointer;
+
+  display: grid;               /* ←中央に固定 */
+  place-items: center;         /* ←中央に固定 */
 }
 
-.menu-btn{
-  position: fixed;
-  top: 18px;
-  right: 18px;
-  z-index: 10000;
-}
-@media (max-width: 768px){
-  .menu-btn{ top: 14px; right: 14px; }
-}
-
-.menu-btn:hover {
-  border-color: rgba(255,255,255,0.18);
-}
-
-/* ハンバーガー3本線 */
-.menu-icon {
-  display: block;
+/* ハンバーガー3本線（間隔を詰める） */
+.menu-icon{
   width: 18px;
   height: 2px;
-  margin: 0 auto;
-  background: rgba(245,245,245,0.85);
+  background: rgba(245,245,245,0.88);
   position: relative;
+  border-radius: 2px;
 }
+
 .menu-icon::before,
-.menu-icon::after {
-  content: "";
-  position: absolute;
-  left: 0;
+.menu-icon::after{
+  content:"";
+  position:absolute;
+  left:0;
   width: 18px;
   height: 2px;
-  background: rgba(245,245,245,0.85);
+  background: rgba(245,245,245,0.88);
+  border-radius: 2px;
 }
-.menu-icon::before { top: -6px; }
-.menu-icon::after { top: 6px; }
 
-/* オーバーレイ */
-.menu-overlay {
+.menu-icon::before{ top: -5px; }  /* ←詰める */
+.menu-icon::after { top:  5px; }  /* ←詰める */
+
+/* オーバーレイ（最前面） */
+.menu-overlay{
   position: fixed;
   inset: 0;
-  z-index: 90;
+  z-index: 9998;               /* ←重要：前面に出す */
   background: transparent;
 }
 
+/* 背景だけをぼかす層（クリックを邪魔しない） */
 .menu-overlay::before{
   content:"";
   position:absolute;
@@ -3419,6 +3411,7 @@ html, body {
   background: rgba(0,0,0,0.28);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  pointer-events: none;        /* ←重要：クリック阻害しない */
 }
 
 /* 上部 */
@@ -3508,32 +3501,15 @@ html, body {
   .menu-item { padding: 14px 14px; }
 }
 /* ===== Menu panel (glass) ===== */
-.menu-panel {
+.menu-panel{
   position: fixed;
   top: 18px;
   right: 18px;
-  z-index: 9999;
-
+  z-index: 9999;               /* ←overlayより上 */
   width: min(420px, calc(100vw - 36px));
   border-radius: 18px;
   overflow: hidden;
-
-  /* 重要：ここに filter は絶対入れない */
   filter: none !important;
-}
-
-/* 背景だけをぼかす層 */
-.menu-panel::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background: rgba(0, 0, 0, 0.28); /* ←薄い黒フィルム */
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
 }
 
 /* 中の文字を前面に（ボケない） */
