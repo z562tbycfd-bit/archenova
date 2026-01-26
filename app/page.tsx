@@ -35,7 +35,19 @@ export default function Home() {
         </div>
         </Reveal>
 
+        {/* Boundary Plaza — featured card */}
         <Reveal delay={200}>
+<div className="plaza-feature">
+  <Link href="/plaza" className="plaza-card">
+    <div className="plaza-eyebrow">The Boundary Plaza</div>
+    <div className="plaza-title">The Boundary Plaza</div>
+    <div className="plaza-desc">— A Place to Touch Irreversibility</div>
+    <div className="plaza-hint">Enter →</div>
+  </Link>
+</div>
+</Reveal>
+
+       <Reveal delay={200}>
         <div className="hero-links">
           <Link href="/manifesto">Manifesto</Link>
           <Link href="/framework">Framework</Link>

@@ -4343,3 +4343,287 @@ html, body {
     width: calc(100vw - 28px) !important;
   }
 }
+
+/* =========================================================
+   Boundary Plaza — Home Card
+   ========================================================= */
+
+.plaza-feature{
+  max-width: 860px;
+  margin: 26px auto 0;
+  padding: 0 32px;
+}
+
+.plaza-card{
+  display: block;
+  border-radius: 22px;
+  padding: 18px 18px;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.18);
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  box-shadow: 0 22px 70px rgba(0,0,0,0.45);
+}
+
+.plaza-card:hover{
+  border-color: rgba(255,255,255,0.18);
+  background: rgba(0,0,0,0.22);
+}
+
+.plaza-eyebrow{
+  font-size: 0.82rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.70);
+}
+
+.plaza-title{
+  margin-top: 10px;
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+  color: rgba(245,245,245,0.95);
+}
+
+.plaza-desc{
+  margin-top: 6px;
+  color: rgba(245,245,245,0.70);
+}
+
+.plaza-hint{
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: rgba(245,245,245,0.85);
+  letter-spacing: 0.06em;
+}
+
+/* =========================================================
+   Boundary Plaza — Page
+   ========================================================= */
+
+.plaza{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 120px 32px;
+}
+
+.plaza-open{
+  border-radius: 26px;
+  padding: 22px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.plaza-kicker{
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.70);
+  font-size: 0.85rem;
+}
+
+.plaza-h1{
+  margin: 10px 0 0;
+  font-size: 2.2rem;
+  letter-spacing: -0.02em;
+}
+
+.plaza-entrance{
+  margin-top: 14px;
+  color: rgba(245,245,245,0.82);
+  line-height: 1.8;
+}
+
+.plaza-choice{
+  margin-top: 18px;
+  display: flex;
+  gap: 12px;
+}
+
+.plaza-enter,
+.plaza-back{
+  display: inline-block;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  color: rgba(245,245,245,0.90);
+  text-decoration: none;
+}
+
+.plaza-enter:hover,
+.plaza-back:hover{
+  border-color: rgba(255,255,255,0.20);
+  background: rgba(255,255,255,0.07);
+}
+
+.plaza-section-title{
+  margin-top: 34px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.92rem;
+  color: rgba(245,245,245,0.78);
+}
+
+.plaza-section-note{
+  margin-top: 10px;
+  color: rgba(245,245,245,0.68);
+  line-height: 1.9;
+  max-width: 860px;
+}
+
+.bo-grid{
+  margin-top: 16px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bo-card{
+  border-radius: 22px;
+  padding: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.bo-head{
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.bo-no{
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.60);
+  font-size: 0.82rem;
+}
+
+.bo-title{
+  margin: 0;
+  font-size: 1.05rem;
+  color: rgba(245,245,245,0.92);
+  line-height: 1.35;
+  text-align: right;
+  max-width: 70%;
+}
+
+.bo-diagram{
+  margin-top: 12px;
+  border-radius: 18px;
+  padding: 10px;
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+}
+
+.bo-diagram svg{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bo-text{
+  margin-top: 12px;
+  color: rgba(245,245,245,0.72);
+  line-height: 1.9;
+  font-size: 0.98rem;
+}
+
+/* Quiet Interaction */
+.takeone{
+  margin-top: 14px;
+}
+
+.takeone-card{
+  border-radius: 24px;
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.14);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.takeone-kicker{
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.70);
+  font-size: 0.85rem;
+}
+
+.takeone-title{
+  margin-top: 8px;
+  color: rgba(245,245,245,0.92);
+  font-size: 1.1rem;
+}
+
+.takeone-text{
+  margin-top: 10px;
+  color: rgba(245,245,245,0.72);
+  line-height: 1.9;
+  font-size: 1.0rem;
+}
+
+.takeone-actions{
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+}
+
+.takeone-btn{
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  color: rgba(245,245,245,0.92);
+  cursor: pointer;
+}
+
+.takeone-btn:hover{
+  border-color: rgba(255,255,255,0.20);
+  background: rgba(255,255,255,0.07);
+}
+
+.takeone-btn.primary{
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.takeone-note{
+  margin-top: 10px;
+  color: rgba(245,245,245,0.55);
+  font-size: 0.9rem;
+}
+
+/* Exit */
+.plaza-exit{
+  margin-top: 34px;
+  border-radius: 24px;
+  padding: 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.plaza-exit-text{
+  color: rgba(245,245,245,0.78);
+  line-height: 1.9;
+}
+
+.plaza-exit-links{
+  margin-top: 14px;
+  display: flex;
+  gap: 12px;
+}
+
+/* Mobile */
+@media (max-width: 768px){
+  .plaza-feature{ padding: 0 20px; }
+  .plaza{ padding: 110px 20px; }
+  .bo-grid{ grid-template-columns: 1fr; }
+  .bo-title{ text-align: left; max-width: 100%; }
+}
