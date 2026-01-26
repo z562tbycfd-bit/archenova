@@ -180,7 +180,7 @@ export default function WorkshopFloor() {
         </p>
 
         <div className="page-foot">
-          <a className="back-link" href="/boundary-plaza">Boundary Plaza</a><br />
+          <a className="back-link" href="/plaza">Boundary Plaza</a><br />
           <a className="back-link" href="/capital-responsibility">Capital & Responsibility</a><br />
           <a className="back-link" href="/contact">Contact</a>
         </div>
