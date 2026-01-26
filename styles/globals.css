@@ -4009,3 +4009,17 @@ html, body {
   .site-header{ top:14px; right:14px; }
   .an-menu-panel{ top:14px; right:14px; }
 }
+/* Force hamburger to be pinned top-right (always) */
+.an-menu-btn{
+ position: fixed;
+ top: 18px;
+ right: 18px;
+ z-index: 10000;
+}
+
+@media (max-width: 768px){
+ .an-menu-btn{
+   top: 14px;
+   right: 14px;
+ }
+}
