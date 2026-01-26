@@ -29,9 +29,16 @@ export default function Home() {
           <div className="hero-formula">
             G<sub>μν</sub> = 8πG T<sub>μν</sub>
           </div>
-          <p className="hero-formula-note">
-            Structure is defined not by control, but by constraints that cannot be reversed.
-          </p>
+        </div>
+        </Reveal>
+
+       <Reveal delay={200}>
+        <div className="hero-links">
+          <Link href="/manifesto">Manifesto</Link>
+          <Link href="/framework">Framework</Link>
+          <Link href="/domains">Domains</Link>
+          <Link href="/research">Research / Papers</Link>
+          <Link href="/projects">Projects</Link>
         </div>
         </Reveal>
 
@@ -46,16 +53,6 @@ export default function Home() {
   </Link>
 </div>
 </Reveal>
-
-       <Reveal delay={200}>
-        <div className="hero-links">
-          <Link href="/manifesto">Manifesto</Link>
-          <Link href="/framework">Framework</Link>
-          <Link href="/domains">Domains</Link>
-          <Link href="/research">Research / Papers</Link>
-          <Link href="/projects">Projects</Link>
-        </div>
-        </Reveal>
 
         {/* Workshop Floor — featured card */}
         <Reveal delay={200}>
