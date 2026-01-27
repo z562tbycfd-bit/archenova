@@ -65,6 +65,18 @@ export default function Home() {
   </Link>
 </div>
 </Reveal>
+
+        {/* Constraint Forge — featured card */}
+<Reveal delay={200}>
+<div className="plaza-feature">
+<Link href="/constraint-forge" className="plaza-card">
+  <div className="plaza-eyebrow">The Constraint Forge</div>
+  <div className="plaza-title">The Constraint Forge</div>
+  <div className="plaza-desc">— Create Only What Cannot Be Undone</div>
+  <div className="plaza-hint">Enter →</div>
+</Link>
+</div>
+</Reveal>
       </section>
 
       {/* X 最新投稿 */}
