@@ -4627,3 +4627,20 @@ html, body {
   .bo-grid{ grid-template-columns: 1fr; }
   .bo-title{ text-align: left; max-width: 100%; }
 }
+
+/* Constraint Forge — Heatmap mobile fix */
+.forge-heatmap-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 6px;
+}
+
+.forge-heatmap {
+  min-width: 520px; /* これでD/Eまで必ず表示できる */
+}
+
+@media (max-width: 768px) {
+  .forge-heatmap {
+    min-width: 560px;
+  }
+}

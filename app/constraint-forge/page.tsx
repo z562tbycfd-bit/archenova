@@ -375,19 +375,21 @@ export default function ConstraintForge() {
             </p>
 
             {/* Heatmap grid */}
+            <div className="forge-heatmap-wrap">
             <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: `140px repeat(${selected.length}, 1fr)`,
-                gap: 8,
-                marginTop: 12,
-              }}
-            >
-              <div />
-              {selected.map((c) => (
-                <div
-                  key={"col-" + keyFor(c)}
-                  style={{
+    className="forge-heatmap"
+    style={{
+      display: "grid",
+      gridTemplateColumns: `120px repeat(${selected.length}, 84px)`,
+      gap: 8,
+      marginTop: 12,
+    }}
+  >
+  <div />
+    {selected.map((c) => (
+      <div
+        key={"col-" + keyFor(c)}
+        style={{
                     fontSize: 12,
                     color: "rgba(245,245,245,0.72)",
                     padding: "8px 10px",
@@ -435,6 +437,7 @@ export default function ConstraintForge() {
                   })}
                 </>
               ))}
+            </div>
             </div>
 
             {/* Warnings */}
