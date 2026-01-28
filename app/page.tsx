@@ -77,6 +77,19 @@ export default function Home() {
 </Link>
 </div>
 </Reveal>
+
+        {/* ArcheNova Structural AI — featured card */}
+        <Reveal delay={200}>
+<div className="plaza-feature">
+<Link href="/structural-ai" className="plaza-card">
+  <div className="plaza-eyebrow">ArcheNova structural-AI</div>
+  <div className="plaza-title">ArcheNova structural-AI</div>
+  <div className="plaza-desc">— An AI that removes options, not generates them</div>
+  <div className="plaza-hint">Enter →</div>
+</Link>
+</div>
+</Reveal>
+
       </section>
 
       {/* X 最新投稿 */}
