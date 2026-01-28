@@ -565,7 +565,7 @@ export default function ConstraintForge() {
             className="inline-link"
             onClick={() => downloadText("constraint-field-summary.txt", selected.map((c) => `- ${c.value}`).join("\n") || "No constraints selected.")}
           >
-            Constraint Field Summary（1枚）
+            Constraint Field Summary
           </button>
 
           <button
@@ -573,7 +573,7 @@ export default function ConstraintForge() {
             className="inline-link"
             onClick={() => downloadText("point-of-no-return.txt", `You are leaving with constraints, not conclusions.\n\nSelected:\n${selected.map((c) => `- ${c.value}`).join("\n")}`)}
           >
-            Point-of-No-Return Statement（1文）
+            Point-of-No-Return Statement
           </button>
 
           <button
@@ -583,7 +583,7 @@ export default function ConstraintForge() {
             disabled={!canEnterDeep}
             style={{ opacity: canEnterDeep ? 1 : 0.6, cursor: canEnterDeep ? "pointer" : "not-allowed" }}
           >
-            Structural Cut Bundle（PDF/SVG相当：テキスト）
+            Structural Cut Bundle
           </button>
         </div>
 
