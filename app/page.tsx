@@ -87,6 +87,8 @@ export default function Home() {
 </div>
 </Reveal>
 
+      </section>
+
  {/* ✅ ここがHOMEのScience & Tech（1カード切り替え） */}
  <Reveal delay={200}>
         <div className="plaza-feature">
@@ -94,10 +96,10 @@ export default function Home() {
           </div>
         </Reveal>
 
-      </section>
-
       {/* X 最新投稿 */}
+      <Reveal delay={200}>
       <LatestXPost />
+      </Reveal>
     </>
   );
 }
