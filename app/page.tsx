@@ -46,7 +46,6 @@ export default function Home() {
         <Reveal delay={200}>
 <div className="plaza-feature">
   <Link href="/plaza" className="plaza-card">
-    <div className="plaza-eyebrow">The Boundary Plaza</div>
     <div className="plaza-title">The Boundary Plaza</div>
     <div className="plaza-desc">— A Place to Touch Irreversibility</div>
     <div className="plaza-hint">Enter →</div>
@@ -58,7 +57,6 @@ export default function Home() {
         <Reveal delay={200}>
 <div className="plaza-feature">
   <Link href="/workshop" className="plaza-card">
-    <div className="plaza-eyebrow">The Workshop Floor</div>
     <div className="plaza-title">The Workshop Floor</div>
     <div className="plaza-desc">— Where Constraints Become Systems</div>
     <div className="plaza-hint">Enter →</div>
@@ -70,7 +68,6 @@ export default function Home() {
 <Reveal delay={200}>
 <div className="plaza-feature">
 <Link href="/constraint-forge" className="plaza-card">
-  <div className="plaza-eyebrow">The Constraint Forge</div>
   <div className="plaza-title">The Constraint Forge</div>
   <div className="plaza-desc">— Create Only What Cannot Be Undone</div>
   <div className="plaza-hint">Enter →</div>
@@ -82,7 +79,6 @@ export default function Home() {
         <Reveal delay={200}>
 <div className="plaza-feature">
 <Link href="/structural-ai" className="plaza-card">
-  <div className="plaza-eyebrow">ArcheNova structural-AI</div>
   <div className="plaza-title">ArcheNova structural-AI</div>
   <div className="plaza-desc">— An AI that removes options, not generates them</div>
   <div className="plaza-hint">Enter →</div>
