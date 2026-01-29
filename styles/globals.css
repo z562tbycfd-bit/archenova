@@ -5066,34 +5066,3 @@ html, body {
     max-width: 100%;
   }
 }
-
-/* =========================================================
-   HOME — force card width alignment (including Science & Tech)
-   ========================================================= */
-
-.hero-links {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.hero-links > a,
-.hero-links > .home-card {
-  width: 100%;
-  max-width: 720px;
-}
-
-/* Science & Techだけ横に伸びるのを強制停止 */
-.home-scitech {
-  width: 100% !important;
-  max-width: 720px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* 中身が横に溢れて親を押し広げるのを防ぐ */
-.home-scitech * {
-  max-width: 100%;
-  overflow-wrap: anywhere;
-}
