@@ -5066,3 +5066,174 @@ html, body {
     max-width: 100%;
   }
 }
+
+/* =========================================================
+   Technology — HOME Card & Tabs
+   ========================================================= */
+
+/* HOMEカード共通の流れに合わせる */
+.home-tech {
+  margin-top: 22px;
+}
+
+/* ヘッダー */
+.home-tech .home-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.home-tech .home-card-title {
+  font-size: 1.1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.home-tech .home-card-sub {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: rgba(245,245,245,0.65);
+}
+
+/* ===== ①〜⑥ カテゴリ切替タブ ===== */
+.tech-tabs {
+  display: flex;
+  gap: 10px;
+  margin: 14px 0 12px;
+  padding-bottom: 4px;
+
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.tech-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tech-tab {
+  flex: 0 0 auto;
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.10);
+
+  color: rgba(245,245,245,0.75);
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.tech-tab:hover {
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(255,255,255,0.16);
+  color: rgba(245,245,245,0.88);
+}
+
+.tech-tab.is-active {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.22);
+  color: rgba(245,245,245,0.92);
+}
+
+/* Skeleton（ロード中） */
+.tech-tab-skeleton {
+  width: 110px;
+  height: 34px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 999px;
+}
+
+/* ===== 観測点 ===== */
+.tech-observation {
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  border-radius: 18px;
+
+  background: rgba(0,0,0,0.12);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.tech-observation-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.55);
+}
+
+.tech-observation-text {
+  color: rgba(245,245,245,0.78);
+  line-height: 1.7;
+}
+
+/* ===== 最新5件リスト ===== */
+.home-tech-list {
+  display: grid;
+  gap: 12px;
+}
+
+.home-tech-item {
+  display: block;
+  padding: 14px 16px;
+  border-radius: 18px;
+
+  background: rgba(0,0,0,0.10);
+  border: 1px solid rgba(255,255,255,0.07);
+
+  text-decoration: none;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.home-tech-item:hover {
+  background: rgba(0,0,0,0.18);
+  border-color: rgba(255,255,255,0.14);
+}
+
+.home-tech-meta {
+  margin-bottom: 6px;
+}
+
+.home-tech-source {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: rgba(245,245,245,0.55);
+}
+
+.home-tech-title {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: rgba(245,245,245,0.92);
+}
+
+.home-tech-summary {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: rgba(245,245,245,0.70);
+}
+
+/* ロード中 */
+.home-tech-loading {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(0,0,0,0.10);
+  border: 1px solid rgba(255,255,255,0.06);
+  color: rgba(245,245,245,0.65);
+}
+
+.home-tech-loading-sub {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: rgba(245,245,245,0.45);
+}
+
+/* モバイル最適化 */
+@media (max-width: 768px) {
+  .home-tech-item {
+    padding: 14px 14px;
+  }
+}
