@@ -88,6 +88,8 @@ export default function Home() {
 
       </section>
 
+      <Link href="/science-tech">Science & Tech</Link>
+
       {/* X 最新投稿 */}
       <LatestXPost />
     </>

@@ -4772,3 +4772,86 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   Science & Tech — Feed UI (ArcheNova style)
+   ========================================================= */
+
+.feed-grid{
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+}
+
+/* 列ヘッダ */
+.feed-col-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.feed-list{
+  display: grid;
+  gap: 10px;
+}
+
+/* アイテム（カード内カード） */
+.feed-item{
+  display: block;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  text-decoration: none;
+  border-bottom: none !important;
+}
+
+.feed-item:hover{
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.12);
+}
+
+.feed-title{
+  color: rgba(245,245,245,0.92);
+  line-height: 1.55;
+  font-size: 0.98rem;
+  word-break: break-word;
+}
+
+.feed-meta{
+  margin-top: 6px;
+  color: rgba(245,245,245,0.58);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+}
+
+/* モバイル：横スクロール（3列→横に流す） */
+@media (max-width: 900px){
+  .feed-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px){
+  .feed-grid{
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+  }
+  .feed-grid::-webkit-scrollbar{
+    height: 8px;
+  }
+  .feed-grid::-webkit-scrollbar-thumb{
+    background: rgba(255,255,255,0.10);
+    border-radius: 999px;
+  }
+
+  .feed-col{
+    min-width: 88vw;
+  }
+}
