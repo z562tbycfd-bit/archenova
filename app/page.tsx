@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Reveal from "./components/Reveal";
 import LatestXPost from "./components/XTimeline";
-import ScienceTechHome from "./components/ScienceTechHome"; // ←追加
+import ScienceHome from "./components/ScienceHome"; // ←追加
 import TechnologyHome from "./components/TechnologyHome"; // ←追加
 
 export default function Home() {
@@ -90,10 +90,10 @@ export default function Home() {
 
       </section>
 
- {/* ✅ ここがHOMEのScience & Tech（1カード切り替え） */}
+ {/* ✅ ここがHOMEのScience（1カード切り替え） */}
  <Reveal delay={200}>
         <div className="plaza-feature">
-            <Link href="/science-tech">Science</Link>
+            <Link href="/science">Science</Link>
           </div>
         </Reveal>
 
