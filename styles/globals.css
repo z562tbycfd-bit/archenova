@@ -5012,3 +5012,57 @@ html, body {
 }
 
 .dim{ opacity: 0.85; }
+
+/* =========================================================
+   HOME — Vertical Unified Stack (Manifest → Projects → Science & Tech)
+   ========================================================= */
+
+/* HOMEカード群を縦一列・中央揃えに固定 */
+.hero-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;   /* ← 縦一列 */
+  align-items: center;      /* ← 中央揃え */
+  gap: 18px;                /* ← カード間の統一余白 */
+  margin-top: 42px;
+}
+
+/* HOME内のすべてのカードを同一幅に */
+.hero-links > a,
+.hero-links > .home-card {
+  width: 100%;
+  max-width: 720px;         /* ← ArcheNova標準幅 */
+}
+
+/* リンクカード（Manifest〜Projects）の表示安定化 */
+.hero-links > a {
+  display: block;
+  text-align: center;
+}
+
+/* =========================================================
+   Science & Tech — HOME Card (stack-aligned)
+   ========================================================= */
+
+.home-card.home-scitech {
+  margin: 0;                /* ← 浮き防止 */
+}
+
+/* 中身の詰め方を他カードと合わせる */
+.home-card-body {
+  display: grid;
+  gap: 12px;
+}
+
+/* モバイルでも縦スタックを崩さない */
+@media (max-width: 768px) {
+  .hero-links {
+    gap: 16px;
+    margin-top: 36px;
+  }
+
+  .hero-links > a,
+  .hero-links > .home-card {
+    max-width: 100%;
+  }
+}
