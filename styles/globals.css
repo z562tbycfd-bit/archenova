@@ -5237,3 +5237,221 @@ html, body {
     padding: 14px 14px;
   }
 }
+
+/* =========================================================
+   HOME — unified card (used by TechnologyHome mode="home")
+   ========================================================= */
+
+.home-card{
+  max-width: 980px;
+  margin: 18px auto 0;
+  padding: 18px 18px;
+  border-radius: 22px;
+
+  background: rgba(0,0,0,0.14);
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.home-card-head{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.home-card-title{
+  margin: 0;
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.92);
+}
+
+.home-card-meta{
+  font-size: 0.85rem;
+  color: rgba(245,245,245,0.60);
+}
+
+.home-card-sub{
+  margin: 10px 0 12px;
+  color: rgba(245,245,245,0.72);
+}
+
+.home-card-link{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  color: rgba(245,245,245,0.92);
+  text-decoration: none;
+  border-bottom: none;
+}
+.home-card-link:hover{
+  border-color: rgba(255,255,255,0.20);
+  background: rgba(255,255,255,0.06);
+}
+
+/* =========================================================
+   Technology — Tabs + List
+   ========================================================= */
+
+.tech-panel{
+  margin-top: 18px;
+  padding: 18px 18px;
+  border-radius: 22px;
+
+  background: rgba(0,0,0,0.14);
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.tech-head{
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.tech-title{
+  margin: 0;
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.92);
+}
+
+.tech-sub{
+  margin: 6px 0 0;
+  color: rgba(245,245,245,0.68);
+  line-height: 1.7;
+  max-width: 680px;
+}
+
+.tech-updated{
+  font-size: 0.85rem;
+  color: rgba(245,245,245,0.60);
+  white-space: nowrap;
+}
+
+.tech-tabs{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /* ← D/E/Fが見えない問題を潰す */
+  margin-top: 10px;
+}
+
+.tech-tab{
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+
+  padding: 10px 12px;
+  border-radius: 14px;
+
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  color: rgba(245,245,245,0.86);
+  cursor: pointer;
+}
+
+.tech-tab:hover{
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.12);
+}
+
+.tech-tab.active{
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.tech-tab-k{
+  opacity: 0.75;
+}
+
+.tech-tab-t{
+  letter-spacing: 0.02em;
+}
+
+.tech-list-wrap{
+  margin-top: 12px;
+}
+
+.tech-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.tech-item{
+  padding: 14px 14px;
+  border-radius: 18px;
+
+  background: rgba(0,0,0,0.10);
+  border: 1px solid rgba(255,255,255,0.07);
+}
+
+.tech-item-top{
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.tech-source{
+  font-size: 0.85rem;
+  color: rgba(245,245,245,0.72);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.tech-cat{
+  font-size: 0.85rem;
+  color: rgba(245,245,245,0.55);
+  white-space: nowrap;
+}
+
+.tech-link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  text-decoration: none;
+  border-bottom: none;
+  color: rgba(245,245,245,0.92);
+}
+
+.tech-title2{
+  font-size: 1.02rem;
+  line-height: 1.5;
+}
+
+.tech-arrow{
+  color: rgba(245,245,245,0.55);
+  flex: 0 0 auto;
+}
+
+.tech-summary{
+  margin: 10px 0 0;
+  color: rgba(245,245,245,0.70);
+  line-height: 1.8;
+}
+
+.tech-empty{
+  padding: 12px 2px;
+  color: rgba(245,245,245,0.65);
+}
+
+/* mobile */
+@media (max-width: 768px){
+  .tech-updated{ white-space: normal; }
+}
