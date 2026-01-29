@@ -87,10 +87,14 @@ export default function Home() {
 </div>
 </Reveal>
 
-       {/* ✅ ここがHOMEのScience & Tech（1カード切り替え） */}
-       <Reveal delay={200}>
-            <ScienceTechHome />
-        </Reveal>
+ {/* Science & Tech も同じ縦スタック内へ */}
+  <div className="home-card home-scitech">
+    <h3 className="home-card-title">Science & Tech</h3>
+    <p className="home-card-sub">— Latest signals from Nature / Science / APS</p>
+
+    {/* ここにあなたの Science & Tech 表示コンポーネント */}
+    {/* 例：<ScienceTechHome /> など */}
+  </div>
 
       </section>
 
