@@ -98,7 +98,7 @@ export function clamp(s: string, n: number) {
 export const SCIENCE_SOURCES: FeedSource[] = [
   { id: "nature",  name: "Nature",          url: "https://www.nature.com/nature.rss" },
   { id: "science", name: "Science",         url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science" },
-  { id: "aps",     name: "APS / PRL",       url: "https://journals.aps.org/prl/rss/10.1103/PhysRevLett.0" },
+  { id: "aps",     name: "APS / PRL",       url: "https://feeds.aps.org/rss/recent/prl.xml" },
 ];
 
 /**
