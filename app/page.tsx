@@ -94,7 +94,6 @@ export default function Home() {
  <Reveal delay={200}>
         <div className="plaza-feature">
           <ScienceHome />
-            <Link href="/science">Science</Link>
           </div>
         </Reveal>
 
@@ -102,7 +101,6 @@ export default function Home() {
  <Reveal delay={200}>
         <div className="plaza-feature">
           <TechnologyHome />
-            <Link href="/technology">Technology</Link>
           </div>
         </Reveal>
 
