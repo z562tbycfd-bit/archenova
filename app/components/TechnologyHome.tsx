@@ -1,48 +1,72 @@
 "use client";
-import { useEffect, useState } from "react";
 
-type Item = { source: string; title: string; url: string; summary: string; ts: number };
+import { useEffect, useState } from "react";
+import Link from "next/link";
+
+type Item = {
+  title: string;
+  summary: string;
+  url: string;
+  source?: string;
+  published?: string;
+};
 
 export default function TechnologyHome() {
   const [items, setItems] = useState<Item[]>([]);
-  const [updated, setUpdated] = useState<string>("—");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    let cancel = false;
+    let cancelled = false;
+
     (async () => {
       try {
-        const r = await fetch("/api/technology", { cache: "no-store" });
-        const j = await r.json();
-        if (!j?.ok || cancel) return;
-        setItems((j.items ?? []).slice(0, 5));
-        setUpdated(j.updated ? new Date(j.updated).toLocaleString() : "—");
-      } catch {}
+        const res = await fetch("/api/technology", { cache: "no-store" });
+        const data = await res.json();
+
+        // APIが categories を返す前提：全カテゴリを時系列に混ぜて上位5件
+        const cats = data?.categories ?? [];
+        const merged: Item[] = cats.flatMap((c: any) => c.items ?? []);
+
+        if (!cancelled) setItems(merged.slice(0, 5));
+      } catch {
+        if (!cancelled) setItems([]);
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
     })();
-    return () => { cancel = true; };
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   return (
     <section className="home-card">
       <div className="home-card-head">
         <h3 className="home-card-title">Technology</h3>
-        <span className="home-card-meta">Updated: {updated}</span>
+        <Link className="home-card-more" href="/technology">
+          Open →
+        </Link>
       </div>
 
-      <div className="feed-scroll" aria-label="Latest technology posts">
-        {items.length ? items.map((it, i) => (
-          <a key={i} className="feed-row" href={it.url} target="_blank" rel="noreferrer">
-            <div className="feed-source">{it.source}</div>
-            <div className="feed-title">{it.title}</div>
-            <div className="feed-summary">{it.summary}</div>
-          </a>
-        )) : (
-          <div className="feed-empty">Loading latest technology signals…</div>
-        )}
-      </div>
-
-      <div className="home-card-foot">
-        <a className="mini-link" href="/technology">Open Technology →</a>
-      </div>
+      {loading ? (
+        <p className="home-card-text">Loading latest technology signals…</p>
+      ) : items.length ? (
+        <div className="home-feed">
+          {items.map((it) => (
+            <a key={it.url} className="home-feed-item" href={it.url} target="_blank" rel="noreferrer">
+              <div className="home-feed-title">{it.title}</div>
+              <div className="home-feed-summary">{it.summary}</div>
+              <div className="home-feed-meta">
+                {it.source ? <span>{it.source}</span> : <span />}
+                {it.published ? <span>Updated: {it.published}</span> : <span />}
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p className="home-card-text dim">No items available right now (feed may require URL update).</p>
+      )}
     </section>
   );
 }
