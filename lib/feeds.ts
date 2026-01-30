@@ -147,10 +147,12 @@ export const TECHNOLOGY_CATEGORIES: Category[] = [
   },
   {
     id: "energy",
-    name: "Energy",
+    name: "Energy・Space",
     sources: [
-      { id: "doe", name: "US DOE", url: "https://www.energy.gov/listings/energy-news?view=rss" },
-      { id: "iter", name: "ITER", url: "https://www.iter.org/rss-newsline.xml" }, 
+      { id: "doe", name: "US DOE", url: "https://www.energy.gov/rss/science/3662436" },
+      { id: "iter", name: "ITER", url: "https://www.iter.org/rss/NewsLine.rss" },
+      { id: "ibm", name: "IBM Newsroom", url: "https://newsroom.ibm.com/announcements?output=rss" },
+      { id: "spacex", name: "SpaceX", url: "https://www.spacex.com/news.xml" },
     ],
   },
   {
