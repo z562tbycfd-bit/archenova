@@ -149,7 +149,6 @@ export const TECHNOLOGY_CATEGORIES: Category[] = [
     id: "energy",
     name: "Energy・Fundamental Tech",
     sources: [
-
       { id: "spacex", name: "SpaceX", url: "https://www.spacex.com/news.xml" },
       { id: "doe", name: "US DOE", url: "https://www.energy.gov/listings/energy-news?view=rss" },
       { id: "iter", name: "ITER", url: "https://www.iter.org/rss-newsline.xml" }, // ※動かない場合は差し替え
