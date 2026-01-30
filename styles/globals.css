@@ -5684,3 +5684,111 @@ a:hover{
     background: var(--film);
   }
 }
+
+/* =========================================================
+   HOME Cards — Lift + Soft Black Blur + Gloss Interaction
+   ※ 既存デザインを崩さず「読みやすさ」と「光沢」を足す
+   ========================================================= */
+
+/* HOMEカード：共通見た目（ガラス＋黒い内側フィルム） */
+.hero-links a{
+  /* layout */
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  text-align: left;
+  padding: 16px 18px;
+  border-radius: 18px;
+
+  /* glass base */
+  background: rgba(0,0,0,0.16);
+  border: 1px solid rgba(255,255,255,0.10);
+
+  /* readability blur (背景だけを“柔らかく”する) */
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+
+  /* lift */
+  box-shadow:
+    0 18px 55px rgba(0,0,0,0.42),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+
+  /* typography */
+  color: rgba(245,245,245,0.88);
+  border-bottom: none !important; /* グローバルの下線ルールを無効 */
+
+  position: relative;
+  overflow: hidden;
+
+  transition:
+    transform 160ms ease,
+    background 160ms ease,
+    border-color 160ms ease,
+    box-shadow 200ms ease,
+    color 160ms ease;
+}
+
+/* カード内の「黒いぼかし（フィルム）」を薄く統一 */
+.hero-links a::before{
+  content:"";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.10);
+  pointer-events: none;
+}
+
+/* 光沢（hover/タップで走るハイライト） */
+.hero-links a::after{
+  content:"";
+  position: absolute;
+  inset: -40% -80%;
+  background: linear-gradient(
+    115deg,
+    transparent 40%,
+    rgba(255,255,255,0.10) 50%,
+    transparent 60%
+  );
+  transform: translateX(-35%) rotate(8deg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 420ms ease;
+}
+
+/* hover / focus：一段明るく＋少し浮く＋光沢 */
+.hero-links a:hover,
+.hero-links a:focus-visible{
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.18);
+  box-shadow:
+    0 22px 70px rgba(0,0,0,0.48),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.96);
+}
+
+.hero-links a:hover::after,
+.hero-links a:focus-visible::after{
+  opacity: 1;
+  transform: translateX(25%) rotate(8deg);
+}
+
+/* タップ（モバイル）時も同様に “一瞬だけ光る” */
+.hero-links a:active{
+  transform: translateY(0px) scale(0.99);
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(255,255,255,0.22);
+}
+
+/* 既存の縦並び設定と干渉しないように */
+.hero-links{
+  align-items: center;
+}
+
+/* モバイル：左右余白と読みやすさを少し調整 */
+@media (max-width: 768px){
+  .hero-links a{
+    padding: 15px 16px;
+    border-radius: 17px;
+  }
+}
+
