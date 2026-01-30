@@ -147,11 +147,13 @@ export const TECHNOLOGY_CATEGORIES: Category[] = [
   },
   {
     id: "energy",
-    name: "Energy",
+    name: "Energy・Fundamental Tech",
     sources: [
-      { id: "doe", name: "US DOE", url: "https://www.energy.gov/articles/rss.xml" },
-      { id: "iter", name: "ITER", url: "https://www.iter.org/rss/news" }, // ※動かない場合は差し替え
-      { id: "ibm", name: "IBM", url: "https://newsroom.ibm.com/rss" },
+
+      { id: "spacex", name: "SpaceX", url: "https://www.spacex.com/news.xml" },
+      { id: "doe", name: "US DOE", url: "https://www.energy.gov/listings/energy-news?view=rss" },
+      { id: "iter", name: "ITER", url: "https://www.iter.org/rss-newsline.xml" }, // ※動かない場合は差し替え
+      { id: "ibm", name: "IBM", url: "https://www.newsroom.ibm.com/announcements?feedType=RSS&keyword=null&l=5&maxFeed=&o=0&topic=0" },
       // SpaceX updatesはRSSが無いことが多い → 後でRSSHub等
     ],
   },
