@@ -1,103 +1,60 @@
 "use client";
+import { useEffect, useState } from "react";
 
-import { useEffect, useMemo, useState } from "react";
-
-type Item = {
-  title: string;
-  summary: string;
-  url: string;
-  source?: string;
-  published?: string;
-};
-
-type Category = {
-  key: string;
-  label: string;
-  items: Item[];
-};
+type Item = { source: string; title: string; url: string; summary: string; ts: number };
+type Cat = { id: string; name: string };
 
 export default function TechnologyPage() {
-  const [cats, setCats] = useState<Category[]>([]);
-  const [activeKey, setActiveKey] = useState<string>(""); // ← keyで管理
-  const [loading, setLoading] = useState(true);
+  const [tab, setTab] = useState<string>("policy");
+  const [cats, setCats] = useState<Cat[]>([]);
+  const [items, setItems] = useState<Item[]>([]);
+  const [updated, setUpdated] = useState<string>("—");
 
   useEffect(() => {
-    let cancelled = false;
-
+    let cancel = false;
     (async () => {
-      try {
-        const res = await fetch("/api/technology", { cache: "no-store" });
-        const data = await res.json();
-
-        const categories: Category[] = data?.categories ?? [];
-        if (cancelled) return;
-
-        setCats(categories);
-        setActiveKey(categories?.[0]?.key ?? "");
-      } catch {
-        // ignore
-      } finally {
-        if (!cancelled) setLoading(false);
-      }
+      const r = await fetch("/api/technology?cat=" + tab, { cache: "no-store" });
+      const j = await r.json();
+      if (!j?.ok || cancel) return;
+      setCats(j.categories ?? []);
+      setItems(j.items ?? []);
+      setUpdated(j.updated ? new Date(j.updated).toLocaleString() : "—");
     })();
-
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  const active = useMemo(() => {
-    return cats.find((c) => c.key === activeKey) ?? null;
-  }, [cats, activeKey]);
+    return () => { cancel = true; };
+  }, [tab]);
 
   return (
     <main className="page-standard">
       <div className="page-head">
         <h1>Technology</h1>
-        <p className="page-lead">
-          Signals where technology overtakes institutions, incentives, and reversible control.
-        </p>
+        <p className="page-lead">Switch categories. Watch where technology overtakes institutions — in public signals.</p>
+        <p className="page-lead dim">Updated: {updated}</p>
       </div>
 
-      {/* Tabs */}
-      <div className="tech-tabs">
-        {cats.map((c) => (
+      <div className="tabs">
+        {cats.map(c => (
           <button
-            key={c.key}
+            key={c.id}
+            className={`tab ${tab === c.id ? "active" : ""}`}
+            onClick={() => setTab(c.id)}
             type="button"
-            className={`tech-tab ${c.key === activeKey ? "active" : ""}`}
-            onClick={() => setActiveKey(c.key)}  // ← keyで切替
           >
-            {c.label}
+            {c.name}
           </button>
         ))}
       </div>
 
-      {/* Body */}
-      <section className="glass-block">
-        {loading ? (
-          <p className="text">Loading latest technology signals…</p>
-        ) : !active ? (
-          <p className="text dim">No items available right now.</p>
-        ) : active.items?.length ? (
-          <div className="feed-list">
-            {active.items.map((it, idx) => (
-              <article key={it.url ?? idx} className="feed-item">
-                <a className="feed-title" href={it.url} target="_blank" rel="noreferrer">
-                  {it.title}
-                </a>
-                <p className="feed-summary">{it.summary}</p>
-                <div className="feed-meta">
-                  <span>{it.source ?? ""}</span>
-                  <span>{it.published ? `Updated: ${it.published}` : ""}</span>
-                </div>
-              </article>
-            ))}
-          </div>
-        ) : (
-          <p className="text dim">No items available right now (feed may require URL update).</p>
+      <div className="feed-list">
+        {items.length ? items.map((it, i) => (
+          <a key={i} className="feed-row wide" href={it.url} target="_blank" rel="noreferrer">
+            <div className="feed-source">{it.source}</div>
+            <div className="feed-title">{it.title}</div>
+            <div className="feed-summary">{it.summary}</div>
+          </a>
+        )) : (
+          <div className="feed-empty">No items available right now (feed may require URL update).</div>
         )}
-      </section>
+      </div>
 
       <div className="page-foot">
         <a className="back-link" href="/">← Back</a>
