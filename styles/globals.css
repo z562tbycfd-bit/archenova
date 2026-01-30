@@ -5574,3 +5574,113 @@ html, body {
   border-color: rgba(255,255,255,0.24);
   background: rgba(255,255,255,0.10);
 }
+
+/* =========================================================
+   ArcheNova — Unified Readability Film (GLOBAL)
+   目的：
+   - 全ページで黒フィルム濃度を統一
+   - 文字の上にフィルターが乗って暗くなる事故を防ぐ
+   - ページ個別のfilm/overlayのバラつきを吸収
+   ========================================================= */
+
+/* 統一パラメータ（ここだけ触れば全ページが揃う） */
+:root{
+  --film: rgba(0,0,0,0.34);   /* ←統一した黒フィルム濃度（薄め） */
+  --film-strong: rgba(0,0,0,0.44); /* 必要な場面用（メニュー等） */
+}
+
+/* 1) 全ページに “背景だけ” 黒フィルムを敷く（文字の上には乗らない） */
+body{
+  position: relative;
+  isolation: isolate;  /* これ重要：z-indexの衝突を避ける */
+}
+
+/* 背景フィルム層 */
+body::before{
+  content:"";
+  position: fixed;
+  inset: 0;
+  z-index: 0;          /* 背景側 */
+  background: var(--film);
+  pointer-events: none;
+}
+
+/* 2) すべての本文をフィルムより前に出す（確実に文字を明るく） */
+body > *{
+  position: relative;
+  z-index: 1;
+}
+
+/* 3) “文字が暗くなる” 典型事故を強制遮断
+   - 親に opacity / filter をかけると子文字が暗くなる
+   - それっぽい箇所はfilterを無効化
+*/
+.hero,
+.page-standard,
+.home-card,
+.glass-block,
+.x-card,
+.tech-card,
+.sci-card,
+.menu-panel,
+.menu-overlay{
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+/* 4) 既存のページ別フィルム/after/beforeを “薄め統一” に寄せる
+   - ここでバラつき吸収
+   - 文字の上に乗る場合は z-index を下げる
+*/
+.hero::after{
+  background: var(--film) !important;
+}
+
+/* ガラスブロックやカードに個別の黒背景が濃すぎる場合を統一 */
+.home-card,
+.glass-block,
+.x-card{
+  background: rgba(0,0,0,0.14) !important;  /* ←薄め */
+  border-color: rgba(255,255,255,0.08) !important;
+}
+
+/* 5) メニューは “背景だけ” を強めに（ただし文字は前面）
+   - overlayは少し強め
+   - panelはガラス＋薄い黒
+*/
+.menu-overlay::before{
+  background: var(--film-strong) !important;
+}
+
+/* menu-panel::before でぼかしを使う場合は “背景だけ” に固定 */
+.menu-panel{
+  position: relative;
+}
+
+/* もし menu-panel::before を使っているなら統一 */
+.menu-panel::before{
+  background: rgba(0,0,0,0.36) !important;
+  border-color: rgba(255,255,255,0.10) !important;
+}
+
+/* 文字を確実に前面に */
+.menu-panel *{
+  position: relative;
+  z-index: 2;
+}
+
+/* 6) リンク下線の影響で読みづらい場合（必要なら）
+a{
+  border-bottom-color: rgba(255,255,255,0.18);
+}
+a:hover{
+  border-bottom-color: rgba(255,255,255,0.30);
+}
+*/
+
+/* 7) モバイルでも同じ濃度で統一 */
+@media (max-width: 768px){
+  body::before{
+    background: var(--film);
+  }
+}
