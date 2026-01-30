@@ -93,6 +93,7 @@ export default function Home() {
  {/* ✅ ここがHOMEのScience（1カード切り替え） */}
  <Reveal delay={200}>
         <div className="plaza-feature">
+          <ScienceHome />
             <Link href="/science">Science</Link>
           </div>
         </Reveal>
@@ -100,6 +101,7 @@ export default function Home() {
         {/* ✅ ここがHOMEのTechnology（1カード切り替え） */}
  <Reveal delay={200}>
         <div className="plaza-feature">
+          <TechnologyHome />
             <Link href="/technology">Technology</Link>
           </div>
         </Reveal>

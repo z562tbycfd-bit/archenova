@@ -5455,3 +5455,122 @@ html, body {
 @media (max-width: 768px){
   .tech-updated{ white-space: normal; }
 }
+
+/* =========================
+   Feed UI (HOME + Pages)
+   ========================= */
+
+.home-card-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:14px;
+  margin-bottom:12px;
+}
+
+.home-card-meta{
+  font-size:0.85rem;
+  color: rgba(245,245,245,0.60);
+  letter-spacing:0.03em;
+}
+
+.home-card-foot{
+  margin-top: 12px;
+}
+
+.mini-link{
+  color: rgba(245,245,245,0.80);
+  text-decoration:none;
+  border-bottom: 1px solid rgba(245,245,245,0.22);
+}
+
+.mini-link:hover{
+  border-bottom-color: rgba(245,245,245,0.55);
+}
+
+/* HOMEカード内スクロール領域：カード幅は既存のまま、縦を固定してスクロール */
+.feed-scroll{
+  display:grid;
+  gap:12px;
+  max-height: 320px;
+  overflow:auto;
+  padding-right: 6px;
+}
+
+/* 専用ページはスクロール不要（普通に縦） */
+.feed-list{
+  margin-top: 16px;
+  display:grid;
+  gap:12px;
+}
+
+.feed-row{
+  display:block;
+  padding:14px 14px 12px;
+  border-radius:18px;
+  background: rgba(0,0,0,0.10);
+  border: 1px solid rgba(255,255,255,0.08);
+  text-decoration:none;
+  border-bottom:none !important;
+}
+
+.feed-row:hover{
+  background: rgba(0,0,0,0.14);
+  border-color: rgba(255,255,255,0.12);
+}
+
+.feed-source{
+  font-size:0.78rem;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color: rgba(245,245,245,0.60);
+  margin-bottom:8px;
+}
+
+.feed-title{
+  color: rgba(245,245,245,0.92);
+  font-size:1.02rem;
+  line-height:1.45;
+  overflow-wrap:anywhere;
+}
+
+.feed-summary{
+  margin-top:8px;
+  color: rgba(245,245,245,0.70);
+  line-height:1.75;
+  overflow-wrap:anywhere;
+}
+
+.feed-empty{
+  color: rgba(245,245,245,0.65);
+  padding: 10px 2px;
+}
+
+.page-lead.dim{ color: rgba(245,245,245,0.55); }
+
+/* Tabs */
+.tabs{
+  margin-top: 18px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.tab{
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  color: rgba(245,245,245,0.88);
+  cursor:pointer;
+}
+
+.tab:hover{
+  border-color: rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.06);
+}
+
+.tab.active{
+  border-color: rgba(255,255,255,0.24);
+  background: rgba(255,255,255,0.10);
+}
