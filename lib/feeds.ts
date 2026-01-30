@@ -109,7 +109,7 @@ export const SCIENCE_SOURCES: FeedSource[] = [
 export const TECHNOLOGY_CATEGORIES: Category[] = [
   {
     id: "policy",
-    name: "制度×技術",
+    name: "Policy",
     sources: [
       { id: "oecd", name: "OECD", url: "https://www.oecd.org/en/topics.xml" }, // ※動かない場合は後で差し替え
       { id: "nist", name: "NIST", url: "https://www.nist.gov/news-events/news/rss.xml" },
@@ -118,7 +118,7 @@ export const TECHNOLOGY_CATEGORIES: Category[] = [
   },
   {
     id: "ai-compute",
-    name: "AI・計算基盤",
+    name: "AI・Compute",
     sources: [
       // OpenAI公式（RSSが提供されない場合があるため、動かない場合は別URLへ差し替え）
       { id: "openai", name: "OpenAI", url: "https://openai.com/blog/rss.xml" },
@@ -128,7 +128,7 @@ export const TECHNOLOGY_CATEGORIES: Category[] = [
   },
   {
     id: "semiconductor",
-    name: "半導体・計算インフラ",
+    name: "Semiconductor",
     sources: [
       { id: "nvidia", name: "NVIDIA", url: "https://nvidianews.nvidia.com/rss.xml" },
       // TSMC / ASMLはRSSが提供される場合があるが地域/URLが変わることがある
@@ -138,7 +138,7 @@ export const TECHNOLOGY_CATEGORIES: Category[] = [
   },
   {
     id: "quantum",
-    name: "量子技術",
+    name: "Quantum",
     sources: [
       { id: "quanta", name: "Quanta Magazine", url: "https://www.quantamagazine.org/feed/" },
       { id: "psiq", name: "PsiQuantum", url: "https://www.psiquantum.com/news/rss.xml" }, // ※無い場合は後で差し替え
@@ -147,7 +147,7 @@ export const TECHNOLOGY_CATEGORIES: Category[] = [
   },
   {
     id: "energy",
-    name: "エネルギー・基盤技術",
+    name: "Energy",
     sources: [
       { id: "doe", name: "US DOE", url: "https://www.energy.gov/articles/rss.xml" },
       { id: "iter", name: "ITER", url: "https://www.iter.org/rss/news" }, // ※動かない場合は差し替え
@@ -157,7 +157,7 @@ export const TECHNOLOGY_CATEGORIES: Category[] = [
   },
   {
     id: "bio",
-    name: "バイオ・生命操作",
+    name: "Bio",
     sources: [
       { id: "broad", name: "Broad Institute", url: "https://www.broadinstitute.org/rss/news.xml" }, // ※動かない場合は差し替え
       { id: "nbt", name: "Nature Biotechnology", url: "https://www.nature.com/nbt.rss" },
