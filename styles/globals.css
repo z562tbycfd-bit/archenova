@@ -6152,3 +6152,146 @@ a:hover{
     font-size: 2.4rem;
   }
 }
+
+/* =========================
+   Irreversibility Gate
+   ========================= */
+.gate{
+  min-height: 100vh;
+  padding: 120px 32px;
+}
+
+.gate-inner{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.gate-head{
+  margin-bottom: 18px;
+}
+
+.gate-title{
+  font-size: 2.6rem;
+  margin: 0 0 10px;
+}
+
+.gate-sub{
+  color: rgba(245,245,245,0.72);
+  margin: 0;
+  line-height: 1.8;
+}
+
+.gate-block{
+  padding: 18px;
+}
+
+.gate-field{
+  margin-top: 14px;
+}
+
+.gate-label{
+  display: block;
+  font-size: 0.95rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.82);
+  margin-bottom: 10px;
+}
+
+.gate-input{
+  width: 100%;
+  border-radius: 16px;
+  padding: 14px 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.22);
+  color: rgba(245,245,245,0.90);
+  outline: none;
+  resize: none;
+}
+
+.gate-input::placeholder{
+  color: rgba(245,245,245,0.45);
+}
+
+.gate-meta{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: rgba(245,245,245,0.55);
+  font-size: 0.9rem;
+}
+
+.gate-presets{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.gate-preset{
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  color: rgba(245,245,245,0.88);
+  border-radius: 999px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.gate-preset:hover{
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(255,255,255,0.16);
+}
+
+.gate-actions{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.gate-msg{
+  margin-top: 10px;
+  color: rgba(255,255,255,0.72);
+}
+
+.gate-foot{
+  margin-top: 16px;
+  color: rgba(245,245,245,0.60);
+  line-height: 1.8;
+}
+
+/* =========================
+   Fragments list (HOME card)
+   ========================= */
+.frag-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.frag-item{
+  display: grid;
+  grid-template-columns: 10px 1fr;
+  gap: 10px;
+  align-items: start;
+}
+
+.frag-dot{
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  margin-top: 0.55rem;
+  background: rgba(245,245,245,0.55);
+}
+
+.frag-text{
+  color: rgba(245,245,245,0.82);
+  line-height: 1.75;
+}
+
+@media (max-width: 768px){
+  .gate{ padding: 110px 20px; }
+}
