@@ -6497,3 +6497,8 @@ html, body {
 .recent-crossings *{
   max-width: 100%;
 }
+
+.recent-crossings{
+  width: 100% !important;
+  max-width: 100% !important;
+}
