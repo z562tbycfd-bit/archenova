@@ -6861,3 +6861,197 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================
+   Observatory (MBTI-like)
+   ========================= */
+.obs-tabs{
+  display:flex;
+  gap:10px;
+  margin: 18px 0;
+}
+
+.obs-tab{
+  flex:1;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.12);
+  color: rgba(245,245,245,0.86);
+  cursor:pointer;
+}
+
+.obs-tab.active{
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.obs-meta{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  margin-bottom: 10px;
+}
+
+.obs-kicker{
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.72);
+  font-size: 0.85rem;
+}
+
+.obs-progress{
+  color: rgba(245,245,245,0.60);
+  font-size: 0.9rem;
+}
+
+.obs-title{
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+}
+
+.obs-options{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.obs-option{
+  text-align:left;
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.10);
+  color: rgba(245,245,245,0.88);
+  cursor:pointer;
+}
+
+.obs-option.selected{
+  border-color: rgba(255,255,255,0.22);
+  background: rgba(255,255,255,0.06);
+}
+
+.obs-option-top{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  margin-bottom: 8px;
+}
+
+.obs-option-key{
+  display:inline-flex;
+  width: 26px;
+  height: 26px;
+  align-items:center;
+  justify-content:center;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: rgba(245,245,245,0.85);
+  font-size: 0.85rem;
+}
+
+.obs-option-label{
+  font-size: 0.98rem;
+  color: rgba(245,245,245,0.92);
+}
+
+.obs-option-explain{
+  color: rgba(245,245,245,0.62);
+  line-height: 1.6;
+  font-size: 0.92rem;
+}
+
+.obs-nav{
+  display:flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.obs-result-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  margin-bottom: 12px;
+}
+
+.obs-badge{
+  display:inline-block;
+  padding: 8px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  color: rgba(245,245,245,0.92);
+  letter-spacing: 0.08em;
+}
+
+.obs-done{
+  color: rgba(245,245,245,0.60);
+  font-size: 0.92rem;
+}
+
+.obs-formula{
+  display:flex;
+  justify-content:space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 16px;
+  background: rgba(0,0,0,0.10);
+  border: 1px solid rgba(255,255,255,0.08);
+  margin: 10px 0 14px;
+}
+
+.obs-formula-label{
+  color: rgba(245,245,245,0.60);
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+
+.obs-formula-eq{
+  color: rgba(245,245,245,0.88);
+  font-family: "Times New Roman", serif;
+}
+
+.obs-sig{
+  margin-top: 14px;
+  padding: 12px 12px;
+  border-radius: 18px;
+  background: rgba(0,0,0,0.10);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.obs-sig-head{
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  color: rgba(245,245,245,0.78);
+  margin-bottom: 8px;
+}
+
+.obs-sig-list{
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(245,245,245,0.74);
+  line-height: 1.7;
+}
+
+.obs-sig-foot{
+  margin-top: 10px;
+  color: rgba(245,245,245,0.64);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.obs-mini{
+  color: rgba(245,245,245,0.78);
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 768px){
+  .obs-options{ grid-template-columns: 1fr; }
+}
