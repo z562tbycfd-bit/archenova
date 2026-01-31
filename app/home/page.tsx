@@ -165,22 +165,26 @@ export default function Home() {
       <XLatest />
       </Reveal>
 
-<Reveal delay={200}>
-{/* =========================
+ {/* =========================
     RECENT CROSSINGS
    ========================= */}
-<div className="home-section">
-  <span className="home-section-label">RECENT CROSSINGS</span>
-  <p className="home-section-purpose">
-    A temporary record of who crossed the boundary in the last 24 hours.
-    Nothing here asks you to stay—only to be counted once.
-  </p>
-</div>
-</Reveal>
+<section className="recent-crossings">
+  <div className="recent-crossings-inner">
+    <Reveal delay={200}>
+      <div className="home-section">
+        <span className="home-section-label">RECENT CROSSINGS</span>
+        <p className="home-section-purpose">
+          A temporary record of who crossed the boundary in the last 24 hours.
+          Nothing here asks you to stay—only to be counted once.
+        </p>
+      </div>
+    </Reveal>
 
-<Reveal delay={200}>
+    <Reveal delay={200}>
       <GateFragments />
-</Reveal>
+    </Reveal>
+  </div>
+</section>
     </>
   );
 }
