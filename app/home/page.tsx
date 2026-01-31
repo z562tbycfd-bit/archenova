@@ -120,6 +120,38 @@ export default function Home() {
 </div>
 </Reveal>
 
+<Reveal delay={200}>
+  {/* =========================
+      SCIENTIFIC EXPLORATION
+     ========================= */}
+  <div className="home-section">
+    <span className="home-section-label">
+      SCIENTIFIC EXPLORATION
+    </span>
+    <p className="home-section-purpose">
+      This space allows visitors to engage directly with quantum and gravitational
+      boundaries, not as explanations, but as selection-driven structures that
+      return official ArcheNova answers and their irreversible meaning.
+    </p>
+  </div>
+</Reveal>
+
+<Reveal delay={200}>
+  {/* =========================
+      Quantum & Gravity Observatory Card
+     ========================= */}
+  <div className="hero-links">
+    <a href="/observatory" className="hero-card">
+      <h3>Quantum & Gravity Observatory</h3>
+      <p>
+        Select thresholds in quantum and gravitational domains.
+        ArcheNova returns only what becomes fixed, what disappears,
+        and where reversibility ends.
+      </p>
+    </a>
+  </div>
+</Reveal>
+
       </section>
 
 <Reveal delay={200}>
