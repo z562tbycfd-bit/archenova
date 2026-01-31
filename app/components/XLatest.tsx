@@ -12,7 +12,7 @@ export default function XLatest() {
   const [items, setItems] = useState<Item[]>([]);
 
   useEffect(() => {
-    fetch("/api/x")
+    fetch("/api/x", { cache: "no-store" })
       .then((r) => r.json())
       .then((d) => setItems(d.items ?? []))
       .catch(() => setItems([]));
