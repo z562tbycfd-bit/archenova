@@ -34,6 +34,8 @@ export default function Home() {
         </div>
         </Reveal>
 
+
+<Reveal delay={200}>
         {/* =========================
    ORIENTATION
    ========================= */}
@@ -44,6 +46,7 @@ export default function Home() {
     They explain what is fixed before anything is built.
   </p>
 </div>
+</Reveal>
 
        <Reveal delay={200}>
         <div className="hero-links">
@@ -55,6 +58,8 @@ export default function Home() {
         </div>
         </Reveal>
 
+
+<Reveal delay={200}>
         {/* =========================
    BOUNDARY INTERACTION
    ========================= */}
@@ -65,6 +70,7 @@ export default function Home() {
     They are encounters with constraints that cannot be undone.
   </p>
 </div>
+</Reveal>
 
         {/* Boundary Plaza — featured card */}
         <Reveal delay={200}>
@@ -112,6 +118,7 @@ export default function Home() {
 
       </section>
 
+<Reveal delay={200}>
       {/* =========================
    OBSERVATION
    ========================= */}
@@ -121,6 +128,7 @@ export default function Home() {
     Signals from science and technology where reversibility is quietly disappearing.
   </p>
 </div>
+</Reveal>
 
  {/* ✅ ここがHOMEのScience（1カード切り替え） */}
  <Reveal delay={200}>
