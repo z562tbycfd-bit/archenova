@@ -6469,3 +6469,31 @@ html, body {
   overflow-wrap: anywhere;
   word-break: break-word;
 }
+
+/* =========================================================
+   HOME — Recent Crossings (force centered width)
+   ========================================================= */
+
+.recent-crossings{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-crossings-inner{
+  max-width: 860px;            /* 他カードと同じ幅に寄せる */
+  margin: 0 auto;
+  padding: 0 32px;             /* 端の余白 */
+}
+
+@media (max-width: 768px){
+  .recent-crossings-inner{
+    padding: 0 20px;
+  }
+}
+
+/* もし "横いっぱい" の原因が 100vw 系なら強制で潰す */
+.recent-crossings,
+.recent-crossings *{
+  max-width: 100%;
+}
