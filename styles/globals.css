@@ -6674,3 +6674,190 @@ html, body {
     border-radius: 17px;
   }
 }
+
+/* =========================================================
+   Observatory (Quantum & Gravity) — Interaction UI
+   Paste at the END of styles/globals.css
+   ========================================================= */
+
+.obs-tabs{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 18px 0 12px;
+  flex-wrap: wrap;
+}
+
+.obs-tab{
+  padding: 10px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.14);
+  color: rgba(245,245,245,0.86);
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+
+.obs-tab.active{
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.18);
+}
+
+.obs-card{
+  margin-top: 12px;
+}
+
+.obs-meta{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.obs-kicker{
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.70);
+}
+
+.obs-progress{
+  font-size: 0.9rem;
+  color: rgba(245,245,245,0.62);
+}
+
+.obs-title{
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.obs-options{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.obs-option{
+  text-align: left;
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.12);
+  color: rgba(245,245,245,0.88);
+  cursor: pointer;
+  transition: transform 140ms ease, background 140ms ease, border-color 140ms ease;
+}
+
+.obs-option:hover{
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.16);
+}
+
+.obs-option.selected{
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(255,255,255,0.20);
+}
+
+.obs-option-top{
+  display:flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.obs-option-key{
+  font-size: 0.95rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.76);
+  min-width: 18px;
+}
+
+.obs-option-label{
+  font-size: 1.0rem;
+  color: rgba(245,245,245,0.90);
+}
+
+.obs-option-explain{
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(245,245,245,0.68);
+}
+
+.obs-nav{
+  display:flex;
+  gap: 10px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.obs-nav .inline-link{
+  cursor: pointer;
+}
+
+.obs-nav .inline-link:disabled{
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.obs-result{
+  margin-top: 18px;
+}
+
+.obs-result-row{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px 0 12px;
+}
+
+.obs-badge{
+  padding: 8px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  color: rgba(245,245,245,0.92);
+  letter-spacing: 0.12em;
+}
+
+.obs-done{
+  color: rgba(245,245,245,0.62);
+  font-size: 0.95rem;
+}
+
+.obs-formula{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.12);
+  margin-bottom: 12px;
+}
+
+.obs-formula-label{
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.62);
+}
+
+.obs-formula-eq{
+  font-family: "Times New Roman", serif;
+  color: rgba(245,245,245,0.84);
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px){
+  .obs-options{
+    grid-template-columns: 1fr;
+  }
+}
