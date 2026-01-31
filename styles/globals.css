@@ -6295,3 +6295,90 @@ a:hover{
 @media (max-width: 768px){
   .gate{ padding: 110px 20px; }
 }
+
+/* =========================================================
+   HOME — Recent Crossings (centered, same width as cards)
+   ========================================================= */
+
+/* 横はみ出しを強制的に止める（100vw系の副作用対策） */
+html, body {
+  overflow-x: hidden;
+}
+
+/* もしRECENT CROSSINGSが<section>や<div>で出ている場合に備えて広めに拾う */
+.recent-crossings,
+.crossings,
+.home-crossings,
+#recent-crossings {
+  width: 100%;
+  margin-top: 28px;
+}
+
+/* 中央寄せの“器” */
+.recent-crossings-inner,
+.crossings-inner,
+.home-crossings-inner {
+  max-width: 860px;          /* 既存mainと同じ幅感 */
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* モバイル */
+@media (max-width: 768px) {
+  .recent-crossings-inner,
+  .crossings-inner,
+  .home-crossings-inner {
+    padding: 0 20px;
+  }
+}
+
+/* 見出し */
+.recent-crossings-title,
+.crossings-title,
+.home-crossings-title {
+  margin: 0 0 12px;
+  font-size: 0.95rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.78);
+}
+
+/* “カード”としてまとめたい場合（今のデザインに合わせたガラス） */
+.recent-crossings-card,
+.crossings-card,
+.home-crossings-card {
+  border-radius: 22px;
+  padding: 16px 16px;
+  background: rgba(0,0,0,0.14);
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 18px 60px rgba(0,0,0,0.35);
+}
+
+/* リスト表示（はみ出し防止） */
+.recent-crossings-list,
+.crossings-list,
+.home-crossings-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+/* 各行（名前/一言が長くても崩れない） */
+.recent-crossings-item,
+.crossings-item,
+.home-crossings-item {
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: rgba(245,245,245,0.84);
+  line-height: 1.6;
+
+  /* 長文・長い英数字の折り返し */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
