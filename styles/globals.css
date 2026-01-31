@@ -6502,3 +6502,32 @@ html, body {
   width: 100% !important;
   max-width: 100% !important;
 }
+
+/* =========================================================
+   HOME — Recent Crossings (hard clamp)
+   ========================================================= */
+
+.recent-crossings{
+  width: 100%;
+  margin-top: 24px;
+}
+
+/* 中央寄せの器 */
+.recent-crossings-inner{
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* 全幅(100vw)を無効化する保険 */
+.recent-crossings,
+.recent-crossings *{
+  max-width: 100%;
+}
+
+@media (max-width: 768px){
+  .recent-crossings-inner{
+    padding: 0 20px;
+  }
+}
