@@ -5958,3 +5958,53 @@ a:hover{
   color: rgba(245,245,245,0.65);
   text-decoration: none;
 }
+
+/* =========================================================
+   HOME Section Divider — Irreversible Signal
+   ========================================================= */
+
+.home-divider {
+  max-width: 720px;
+  margin: 56px auto 22px;   /* 上で十分に切る */
+  position: relative;
+}
+
+.home-divider-line {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    rgba(255,255,255,0.00),
+    rgba(255,255,255,0.18),
+    rgba(255,255,255,0.00)
+  );
+}
+
+.home-divider-label {
+  margin-top: 14px;
+  text-align: center;
+}
+
+.home-divider-eyebrow {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.45);
+}
+
+.home-divider-title {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.95rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.82);
+}
+
+/* モバイル微調整 */
+@media (max-width: 768px) {
+  .home-divider {
+    margin: 46px auto 18px;
+    padding: 0 12px;
+  }
+}

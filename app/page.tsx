@@ -144,6 +144,17 @@ export default function Home() {
           </div>
         </Reveal>       
 
+<Reveal delay={200}>
+      {/* ===== HOME Section Divider : Signals ===== */}
+<div className="home-divider">
+  <div className="home-divider-line" />
+  <div className="home-divider-label">
+    <span className="home-divider-eyebrow">Live Signal</span>
+    <span className="home-divider-title">Irreversible Move</span>
+  </div>
+</div>
+</Reveal>
+
       {/* X 最新投稿 */}
       <Reveal delay={200}>
       <XLatest />
