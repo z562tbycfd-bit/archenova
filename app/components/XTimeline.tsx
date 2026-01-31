@@ -1,58 +1,62 @@
 "use client";
 
-import { LATEST_TWEET } from "../config/latestTweet";
+import { useEffect, useState } from "react";
+
+type XItem = {
+  title: string;
+  url: string;
+};
 
 export default function XTimeline() {
+  const [items, setItems] = useState<XItem[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const run = async () => {
+      try {
+        const res = await fetch("/api/x?limit=5", { cache: "no-store" });
+        if (!res.ok) return;
+        const data = await res.json();
+        if (data?.items) setItems(data.items);
+      } finally {
+        setLoading(false);
+      }
+    };
+    run();
+  }, []);
+
   return (
     <section className="x-latest x-compact">
       <div className="x-compact-head">
         <h2 className="x-compact-title">Latest Irreversible Move</h2>
         <a
           className="x-compact-cta"
-          href={LATEST_TWEET.url}
+          href="https://x.com/ArcheNova_X"
           target="_blank"
           rel="noreferrer"
         >
-          Open →
+          View on X →
         </a>
       </div>
 
       <div className="x-compact-card">
-        {/* 反射（スクロールで動く前提：--scroll-p を利用） */}
-        <span className="x-compact-reflection" aria-hidden="true" />
+        {loading && <p className="x-compact-text">Loading…</p>}
 
-        {/* タグ */}
-        <div className="x-compact-tags">
-          {LATEST_TWEET.tags.map((t) => (
-            <span key={t} className="x-compact-tag">
-              {t}
-            </span>
-          ))}
-        </div>
+        {!loading && items.length === 0 && (
+          <p className="x-compact-text">No recent posts available.</p>
+        )}
 
-        {/* 本文（1回だけ） */}
-        <p className="x-compact-text">{LATEST_TWEET.description}</p>
-
-        {/* 下部リンク */}
-        <div className="x-compact-foot">
+        {items.map((it) => (
           <a
-            className="x-compact-link"
-            href="https://x.com/ArcheNova_X"
+            key={it.url}
+            href={it.url}
             target="_blank"
             rel="noreferrer"
+            className="x-compact-item"
           >
-            View on X →
+            {it.title}
           </a>
-
-          <a
-            className="x-compact-link"
-            href={LATEST_TWEET.url}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Open the post →
-          </a>
-        </div>
+        ))}
       </div>
     </section>
   );
