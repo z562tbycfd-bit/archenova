@@ -36,16 +36,17 @@ export default function Home() {
 
 
 <Reveal delay={200}>
-        {/* =========================
-   ORIENTATION
-   ========================= */}
-<div className="home-section">
-  <span className="home-section-label">ORIENTATION</span>
-  <p className="home-section-purpose">
-    These pages establish ArcheNova’s position, scope, and commitments.
-    They explain what is fixed before anything is built.
-  </p>
-</div>
+ {/* =========================
+    ORIENTATION
+    ========================= */}
+ <div className="home-section home-section-center">
+   <span className="home-section-label">ORIENTATION</span>
+
+   <p className="home-section-purpose">
+     These pages establish ArcheNova’s position, scope, and commitments.
+     They explain what is fixed before anything is built.
+   </p>
+ </div>
 </Reveal>
 
        <Reveal delay={200}>
@@ -60,16 +61,17 @@ export default function Home() {
 
 
 <Reveal delay={200}>
-        {/* =========================
-   BOUNDARY INTERACTION
-   ========================= */}
-<div className="home-section">
-  <span className="home-section-label">BOUNDARY INTERACTION</span>
-  <p className="home-section-purpose">
-    These spaces are not explanations.
-    They are encounters with constraints that cannot be undone.
-  </p>
-</div>
+  {/* =========================
+     BOUNDARY INTERACTION
+     ========================= */}
+  <div className="home-section home-section-center">
+    <span className="home-section-label">BOUNDARY INTERACTION</span>
+
+    <p className="home-section-purpose">
+      These spaces are not explanations.
+      They are encounters with constraints that cannot be undone.
+    </p>
+  </div>
 </Reveal>
 
         {/* Boundary Plaza — featured card */}
@@ -119,15 +121,16 @@ export default function Home() {
       </section>
 
 <Reveal delay={200}>
-      {/* =========================
-   OBSERVATION
-   ========================= */}
-<div className="home-section">
-  <span className="home-section-label">OBSERVATION</span>
-  <p className="home-section-purpose">
-    Signals from science and technology where reversibility is quietly disappearing.
-  </p>
-</div>
+  {/* =========================
+     OBSERVATION
+     ========================= */}
+  <div className="home-section home-section-center">
+    <span className="home-section-label">OBSERVATION</span>
+
+    <p className="home-section-purpose">
+      Signals from science and technology where reversibility is quietly disappearing.
+    </p>
+  </div>
 </Reveal>
 
  {/* ✅ ここがHOMEのScience（1カード切り替え） */}
