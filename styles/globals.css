@@ -5792,3 +5792,44 @@ a:hover{
   }
 }
 
+/* =========================================================
+   HOME — Section Ribs (Purpose Separators)
+   ========================================================= */
+
+.home-section{
+  max-width: 720px;
+  margin: 64px auto 24px;
+  padding: 0 4px;
+}
+
+.home-section-label{
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.55);
+  margin-bottom: 8px;
+}
+
+.home-section-purpose{
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(245,245,245,0.70);
+  max-width: 620px;
+}
+
+/* セクション間の余白を明確に */
+.home-section + .hero-links{
+  margin-bottom: 10px;
+}
+
+/* モバイル最適化 */
+@media (max-width: 768px){
+  .home-section{
+    margin: 52px auto 20px;
+  }
+  .home-section-purpose{
+    font-size: 0.9rem;
+  }
+}

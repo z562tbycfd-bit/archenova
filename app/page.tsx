@@ -34,6 +34,17 @@ export default function Home() {
         </div>
         </Reveal>
 
+        {/* =========================
+   ORIENTATION
+   ========================= */}
+<div className="home-section">
+  <span className="home-section-label">ORIENTATION</span>
+  <p className="home-section-purpose">
+    These pages establish ArcheNova’s position, scope, and commitments.
+    They explain what is fixed before anything is built.
+  </p>
+</div>
+
        <Reveal delay={200}>
         <div className="hero-links">
           <Link href="/manifesto">Manifesto</Link>
@@ -43,6 +54,17 @@ export default function Home() {
           <Link href="/projects">Projects</Link>
         </div>
         </Reveal>
+
+        {/* =========================
+   BOUNDARY INTERACTION
+   ========================= */}
+<div className="home-section">
+  <span className="home-section-label">BOUNDARY INTERACTION</span>
+  <p className="home-section-purpose">
+    These spaces are not explanations.
+    They are encounters with constraints that cannot be undone.
+  </p>
+</div>
 
         {/* Boundary Plaza — featured card */}
         <Reveal delay={200}>
@@ -90,6 +112,16 @@ export default function Home() {
 
       </section>
 
+      {/* =========================
+   OBSERVATION
+   ========================= */}
+<div className="home-section">
+  <span className="home-section-label">OBSERVATION</span>
+  <p className="home-section-purpose">
+    Signals from science and technology where reversibility is quietly disappearing.
+  </p>
+</div>
+
  {/* ✅ ここがHOMEのScience（1カード切り替え） */}
  <Reveal delay={200}>
         <div className="plaza-feature">
@@ -102,7 +134,7 @@ export default function Home() {
         <div className="plaza-feature">
           <TechnologyHome />
           </div>
-        </Reveal>
+        </Reveal>       
 
       {/* X 最新投稿 */}
       <Reveal delay={200}>
