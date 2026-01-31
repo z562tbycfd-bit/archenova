@@ -3,6 +3,7 @@ import Reveal from "./components/Reveal";
 import LatestXPost from "./components/XTimeline";
 import ScienceHome from "./components/ScienceHome"; // ←追加
 import TechnologyHome from "./components/TechnologyHome"; // ←追加
+import XLatest from "./components/XLatest";
 
 export default function Home() {
   return (
@@ -146,7 +147,7 @@ export default function Home() {
 
       {/* X 最新投稿 */}
       <Reveal delay={200}>
-      <LatestXPost />
+      <XLatest />
       </Reveal>
     </>
   );

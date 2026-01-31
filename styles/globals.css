@@ -5833,3 +5833,29 @@ a:hover{
     font-size: 0.9rem;
   }
 }
+
+.x-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.x-item {
+  margin-bottom: 12px;
+}
+
+.x-item a {
+  display: block;
+  color: rgba(245,245,245,0.9);
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.x-item a:hover {
+  text-decoration: underline;
+}
+
+.x-date {
+  font-size: 0.8rem;
+  color: rgba(245,245,245,0.55);
+}
