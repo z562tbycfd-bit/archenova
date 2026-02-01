@@ -7055,3 +7055,77 @@ html, body {
 @media (max-width: 768px){
   .obs-options{ grid-template-columns: 1fr; }
 }
+
+/* =========================================================
+   HOME — Block Spacing System (ArcheNova)
+   追記：HOMEの章ブロック間に呼吸を作る
+   ========================================================= */
+
+.home-main {
+  /* 既存の全体余白と競合しないように軽く調整 */
+  display: block;
+}
+
+/* HOMEの「章ラベル」ブロックは中央・狭め・余白を持つ */
+.home-main .home-section {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* 章の上下：ここで“呼吸”を統一 */
+.home-main .home-section {
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+
+/* 章ブロックと、その次に来るカード群の間隔（重要） */
+.home-main .home-section + .hero-links,
+.home-main .home-section + .plaza-feature,
+.home-main .home-section + .home-divider,
+.home-main .home-section + .recent-crossings {
+  margin-top: 22px;
+}
+
+/* カード群どうしの間隔（Manifest～、Plaza～など） */
+.home-main .hero-links + .plaza-feature,
+.home-main .plaza-feature + .plaza-feature,
+.home-main .plaza-feature + .hero-links,
+.home-main .hero-links + .hero-links {
+  margin-top: 18px;
+}
+
+/* “章” と “章” の間隔（ORIENTATION→BOUNDARY など） */
+.home-main .hero-links + .home-section,
+.home-main .plaza-feature + .home-section,
+.home-main .home-divider + .home-section,
+.home-main section.hero + .home-section {
+  margin-top: 72px;
+}
+
+/* OBSERVATION以降のブロックも同じルールで整える */
+.home-main .home-section + .plaza-feature {
+  margin-top: 22px;
+}
+
+/* 下段（RECENT CROSSINGS）前も呼吸を確保 */
+.home-main .home-divider + section.recent-crossings,
+.home-main .plaza-feature + section.recent-crossings,
+.home-main .hero-links + section.recent-crossings {
+  margin-top: 64px;
+}
+
+/* モバイル：少し詰める（詰まりすぎない程度） */
+@media (max-width: 768px) {
+  .home-main .hero-links + .home-section,
+  .home-main .plaza-feature + .home-section,
+  .home-main .home-divider + .home-section,
+  .home-main section.hero + .home-section {
+    margin-top: 56px;
+  }
+
+  .home-main .home-divider + section.recent-crossings,
+  .home-main .plaza-feature + section.recent-crossings,
+  .home-main .hero-links + section.recent-crossings {
+    margin-top: 52px;
+  }
+}
