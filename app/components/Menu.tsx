@@ -15,15 +15,31 @@ const ITEMS = [
 export default function Menu() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+
+  // ★閉じる“吸い込み”のために、closing状態を短時間保持
+  const [closing, setClosing] = useState(false);
+
   const panelRef = useRef<HTMLDivElement | null>(null);
+
+  const requestClose = () => {
+    // すでに閉じ処理中なら何もしない
+    if (closing) return;
+
+    setClosing(true);
+    // CSSアニメが終わるまで描画を残す（後述CSSと合わせて 260ms）
+    window.setTimeout(() => {
+      setOpen(false);
+      setClosing(false);
+    }, 260);
+  };
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") requestClose();
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, []);
+  }, [closing]);
 
   useEffect(() => {
     if (open) panelRef.current?.focus();
@@ -34,9 +50,11 @@ export default function Menu() {
     return pathname?.startsWith(href);
   };
 
+  const showOverlay = open || closing; // ★closing中も表示を残す
+
   return (
-    <div className={`menu ${open ? "is-open" : ""}`}>
-      {!open && (
+    <div className={`menu ${open ? "is-open" : ""} ${closing ? "is-closing" : ""}`}>
+      {!showOverlay && (
         <button
           type="button"
           className="menu-btn"
@@ -48,31 +66,29 @@ export default function Menu() {
         </button>
       )}
 
-      {open && (
+      {showOverlay && (
         <div className="menu-overlay">
           {/* 背景クリックで閉じる領域（panelの外だけ） */}
           <button
             type="button"
             className="menu-backdrop"
             aria-label="Close menu"
-            onClick={() => setOpen(false)}
+            onClick={requestClose}
           />
 
-          {/* panelは通常のdiv（クリック可能） */}
+          {/* panel */}
           <div className="menu-panel" ref={panelRef} tabIndex={-1}>
             <div className="menu-top">
               <div>
                 <span className="menu-brand-title">ArcheNova</span>
-                <span className="menu-brand-sub">
-                  Irreversible initial conditions
-                </span>
+                <span className="menu-brand-sub">Irreversible initial conditions</span>
               </div>
 
               <button
                 type="button"
                 className="menu-close"
                 aria-label="Close menu"
-                onClick={() => setOpen(false)}
+                onClick={requestClose}
               >
                 ✕
               </button>
@@ -84,7 +100,7 @@ export default function Menu() {
                   key={it.href}
                   href={it.href}
                   className={`menu-item ${isActive(it.href) ? "active" : ""}`}
-                  onClick={() => setOpen(false)}
+                  onClick={requestClose}
                 >
                   {it.label}
                   <span className="menu-arrow">→</span>
@@ -96,7 +112,7 @@ export default function Menu() {
                 href="https://x.com/ArcheNova_X"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() => setOpen(false)}
+                onClick={requestClose}
               >
                 X (ArcheNova_X)
                 <span className="menu-arrow">↗</span>
