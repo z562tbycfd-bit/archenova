@@ -146,6 +146,22 @@ export default function Home() {
             </a>
           </div>
         </Reveal>
+
+<Reveal delay={220}>
+  {/* =========================
+      Quantum & Gravity Space (3D)
+     ========================= */}
+  <div className="hero-links">
+    <a href="/space-3d" className="hero-card">
+      <h3>Quantum & Gravity Space (3D)</h3>
+      <p>
+        A fully rotatable 3D chamber. Drag to rotate, scroll to zoom.
+        Tune thresholds and feel where constraints become physical.
+      </p>
+    </a>
+  </div>
+</Reveal>
+
       </section>
 
       <Reveal delay={200}>
