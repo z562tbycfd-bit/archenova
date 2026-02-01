@@ -7129,3 +7129,143 @@ html, body {
     margin-top: 52px;
   }
 }
+
+/* =========================================================
+   ArcheNova Menu — Refined Items (drop-in override)
+   paste at END of styles/globals.css
+   ========================================================= */
+
+.menu.is-open .menu-panel{
+  /* panel自体の品位を少し上げる */
+  background: rgba(0,0,0,0.38) !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  box-shadow:
+    0 30px 110px rgba(0,0,0,0.62),
+    inset 0 1px 0 rgba(255,255,255,0.06) !important;
+}
+
+/* タイトル周りの密度を整える */
+.menu.is-open .menu-brand-title{
+  letter-spacing: 0.18em !important;
+  opacity: 0.94 !important;
+}
+.menu.is-open .menu-brand-sub{
+  opacity: 0.72 !important;
+}
+
+/* ===== ナビ全体：縦リズムを美しく ===== */
+.menu.is-open .menu-nav{
+  gap: 10px !important;
+  margin-top: 12px !important;
+}
+
+/* ===== 1項目：ガラス + 微細な境界 + 反射 ===== */
+.menu.is-open .menu-item{
+  position: relative !important;
+  overflow: hidden !important;
+
+  padding: 14px 14px !important;
+  border-radius: 16px !important;
+
+  background: rgba(255,255,255,0.045) !important;
+  border: 1px solid rgba(255,255,255,0.075) !important;
+
+  color: rgba(245,245,245,0.92) !important;
+  border-bottom: none !important;
+
+  transform: translateZ(0);
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+/* 上面の“薄い反射” */
+.menu.is-open .menu-item::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 90% at 18% 0%,
+      rgba(255,255,255,0.10),
+      rgba(255,255,255,0.02) 38%,
+      rgba(0,0,0,0) 70%);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* 下側の“静かな影”で浮かせる */
+.menu.is-open .menu-item::after{
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: -10px;
+  height: 22px;
+  background: radial-gradient(60% 100% at 50% 0%,
+    rgba(0,0,0,0.55),
+    rgba(0,0,0,0));
+  opacity: 0.22;
+  pointer-events: none;
+}
+
+/* hover：一段明るく + ほんの少し持ち上げ */
+.menu.is-open .menu-item:hover{
+  background: rgba(255,255,255,0.072) !important;
+  border-color: rgba(255,255,255,0.14) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.32) !important;
+}
+
+/* active：押し込み */
+.menu.is-open .menu-item:active{
+  transform: translateY(0px) scale(0.99) !important;
+}
+
+/* active（現在地）：薄い“内側の光” */
+.menu.is-open .menu-item.active{
+  background: rgba(255,255,255,0.085) !important;
+  border-color: rgba(255,255,255,0.20) !important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.04),
+    0 14px 34px rgba(0,0,0,0.34) !important;
+}
+
+/* → / ↗ を控えめに整形 */
+.menu.is-open .menu-arrow{
+  color: rgba(245,245,245,0.55) !important;
+  transition: transform 160ms ease, color 160ms ease;
+}
+.menu.is-open .menu-item:hover .menu-arrow{
+  color: rgba(245,245,245,0.72) !important;
+  transform: translateX(2px);
+}
+
+/* closeボタンも同じトーンへ */
+.menu.is-open .menu-close{
+  background: rgba(255,255,255,0.06) !important;
+  border-color: rgba(255,255,255,0.12) !important;
+}
+.menu.is-open .menu-close:hover{
+  background: rgba(255,255,255,0.09) !important;
+  border-color: rgba(255,255,255,0.18) !important;
+}
+
+/* footの線を繊細に */
+.menu.is-open .menu-foot{
+  border-top-color: rgba(255,255,255,0.07) !important;
+}
+.menu.is-open .menu-foot-note{
+  color: rgba(235,235,235,0.62) !important;
+}
+
+/* mobile：タップ領域を気持ち広く、影は控えめに */
+@media (max-width: 768px){
+  .menu.is-open .menu-item{
+    padding: 15px 14px !important;
+  }
+  .menu.is-open .menu-item::after{
+    opacity: 0.16;
+  }
+}
