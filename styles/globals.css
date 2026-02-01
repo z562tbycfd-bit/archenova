@@ -7269,3 +7269,125 @@ html, body {
     opacity: 0.16;
   }
 }
+
+/* =========================================================
+   ArcheNova Menu — COSMIC MODE (drop-in override)
+   Paste at END of globals.css
+   ========================================================= */
+
+/* パネル：深い宇宙 + 星雲グロー（控えめ） */
+.menu.is-open .menu-panel{
+  background:
+    radial-gradient(120% 90% at 18% 12%,
+      rgba(130, 190, 255, 0.10),
+      rgba(0,0,0,0.00) 48%),
+    radial-gradient(90% 70% at 86% 18%,
+      rgba(210, 160, 255, 0.08),
+      rgba(0,0,0,0.00) 55%),
+    rgba(0,0,0,0.42) !important;
+
+  border: 1px solid rgba(210, 230, 255, 0.12) !important;
+
+  box-shadow:
+    0 34px 120px rgba(0,0,0,0.72),
+    inset 0 1px 0 rgba(255,255,255,0.06),
+    inset 0 0 0 1px rgba(120, 200, 255, 0.06) !important;
+}
+
+/* パネル内に “星屑ノイズ” を足す（軽量・画像不要） */
+.menu.is-open .menu-panel::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  opacity: 0.22;
+  background:
+    radial-gradient(1px 1px at 12% 22%, rgba(255,255,255,0.55), rgba(255,255,255,0)),
+    radial-gradient(1px 1px at 28% 68%, rgba(255,255,255,0.40), rgba(255,255,255,0)),
+    radial-gradient(1px 1px at 41% 35%, rgba(255,255,255,0.50), rgba(255,255,255,0)),
+    radial-gradient(1px 1px at 57% 58%, rgba(255,255,255,0.38), rgba(255,255,255,0)),
+    radial-gradient(1px 1px at 73% 28%, rgba(255,255,255,0.45), rgba(255,255,255,0)),
+    radial-gradient(1px 1px at 84% 72%, rgba(255,255,255,0.36), rgba(255,255,255,0)),
+    radial-gradient(1px 1px at 92% 42%, rgba(255,255,255,0.42), rgba(255,255,255,0));
+  filter: blur(0.2px);
+}
+
+/* ブランド：少し冷たい発光 */
+.menu.is-open .menu-brand-title{
+  color: rgba(245,250,255,0.94) !important;
+  text-shadow:
+    0 0 18px rgba(120, 200, 255, 0.10),
+    0 0 34px rgba(210, 160, 255, 0.08);
+}
+.menu.is-open .menu-brand-sub{
+  color: rgba(220, 235, 255, 0.70) !important;
+}
+
+/* ナビ項目：冷たい縁発光 + 星雲反射 */
+.menu.is-open .menu-item{
+  background: rgba(255,255,255,0.040) !important;
+  border: 1px solid rgba(210, 230, 255, 0.10) !important;
+  box-shadow:
+    inset 0 0 0 1px rgba(120, 200, 255, 0.04),
+    0 10px 26px rgba(0,0,0,0.28) !important;
+}
+
+/* 反射を “星雲” に寄せる */
+.menu.is-open .menu-item::before{
+  background:
+    radial-gradient(120% 120% at 18% 0%,
+      rgba(120, 200, 255, 0.18),
+      rgba(255,255,255,0.03) 42%,
+      rgba(0,0,0,0) 72%),
+    radial-gradient(90% 90% at 86% 10%,
+      rgba(210, 160, 255, 0.14),
+      rgba(0,0,0,0) 60%);
+  opacity: 0.55;
+}
+
+/* hover：わずかな “オーロラ縁” + 近づく感じ */
+.menu.is-open .menu-item:hover{
+  background: rgba(255,255,255,0.060) !important;
+  border-color: rgba(210, 230, 255, 0.18) !important;
+  box-shadow:
+    0 16px 34px rgba(0,0,0,0.34),
+    inset 0 0 0 1px rgba(120, 200, 255, 0.08),
+    inset 0 0 22px rgba(120, 200, 255, 0.06) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* 現在地：紫寄りの “静かな核” */
+.menu.is-open .menu-item.active{
+  background: rgba(255,255,255,0.075) !important;
+  border-color: rgba(210, 190, 255, 0.22) !important;
+  box-shadow:
+    0 18px 40px rgba(0,0,0,0.36),
+    inset 0 0 0 1px rgba(210, 160, 255, 0.10),
+    inset 0 0 26px rgba(210, 160, 255, 0.07) !important;
+}
+
+/* 矢印：少し冷たく */
+.menu.is-open .menu-arrow{
+  color: rgba(205, 230, 255, 0.62) !important;
+}
+.menu.is-open .menu-item:hover .menu-arrow{
+  color: rgba(235, 245, 255, 0.78) !important;
+}
+
+/* overlay：宇宙の“深さ”だけ増やす（重すぎない） */
+.menu.is-open .menu-overlay::before{
+  background: rgba(0,0,0,0.40) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+}
+
+/* closeボタンも同系統に */
+.menu.is-open .menu-close{
+  background: rgba(255,255,255,0.06) !important;
+  border-color: rgba(210, 230, 255, 0.14) !important;
+  box-shadow: inset 0 0 0 1px rgba(120, 200, 255, 0.05);
+}
+.menu.is-open .menu-close:hover{
+  background: rgba(255,255,255,0.09) !important;
+  border-color: rgba(210, 230, 255, 0.20) !important;
+}
