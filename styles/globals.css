@@ -7555,3 +7555,120 @@ html, body {
     animation: none !important;
   }
 }
+
+/* =========================================================
+   Menu — “Pressure Open” + “Suction Close” (Cold Vacuum)
+   開く: 圧（瞬間的な押し込み→解放）＋冷たいグロー
+   閉じる: 吸い込み（前回）
+   ========================================================= */
+
+/* 既存 overlay / panel がある前提で、open時にだけ発動 */
+.menu.is-open .menu-overlay::before{
+  /* 冷たい真空：開く瞬間に暗さが“押し寄せる” */
+  animation: anOverlayPressureIn 380ms cubic-bezier(.18,.95,.10,1) both;
+}
+
+.menu.is-open .menu-panel{
+  /* 開く瞬間の圧：一度押し込まれてから解放される */
+  animation: anMenuPressureIn 420ms cubic-bezier(.14,.95,.12,1) both;
+  transform-origin: 92% 8%;
+}
+
+/* 開くと同時に“冷たい縁のグロー”が一瞬だけ立つ */
+.menu.is-open .menu-panel::after{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border-radius: 22px;
+  pointer-events:none;
+  opacity: 0;
+  animation: anVacuumEdge 520ms ease both;
+  /* 黒い冷グロー（白じゃない） */
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.08),
+    0 18px 60px rgba(0,0,0,0.55),
+    0 0 28px rgba(0,0,0,0.70);
+}
+
+/* “圧”の本体：押し込まれる→戻る（音無し圧） */
+@keyframes anMenuPressureIn{
+  0%{
+    opacity: 0;
+    transform: translateY(-10px) scale(0.92);
+    filter: blur(2.0px);
+  }
+  35%{
+    opacity: 1;
+    transform: translateY(2px) scale(1.02); /* ←圧のピーク */
+    filter: blur(0.6px);
+  }
+  70%{
+    transform: translateY(-1px) scale(0.995);
+    filter: blur(0px);
+  }
+  100%{
+    transform: translateY(0) scale(1);
+    filter: blur(0px);
+  }
+}
+
+/* 背景の“圧”：暗さが一瞬増してから落ち着く */
+@keyframes anOverlayPressureIn{
+  0%{ opacity: 0; }
+  20%{ opacity: 1; }
+  45%{ opacity: 1; }
+  100%{ opacity: 1; }
+}
+
+/* 縁グロー：一瞬だけ立って消える */
+@keyframes anVacuumEdge{
+  0%{ opacity: 0; transform: scale(0.995); }
+  25%{ opacity: 1; transform: scale(1.0); }
+  100%{ opacity: 0; transform: scale(1.005); }
+}
+
+/* =========================
+   Close (Suction) — 前回分
+   ========================= */
+.menu.is-closing .menu-panel{
+  animation: anMenuSuction 260ms cubic-bezier(.20,.90,.10,1) forwards;
+  transform-origin: 92% 8%;
+}
+
+.menu.is-closing .menu-overlay::before{
+  animation: anOverlayFadeOut 260ms ease forwards;
+}
+
+@keyframes anMenuSuction{
+  0%{
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    filter: blur(0px);
+  }
+  40%{
+    transform: translateY(2px) scale(0.985) rotate(-0.2deg);
+    opacity: 0.92;
+    filter: blur(0.6px);
+  }
+  100%{
+    transform: translateY(-10px) scale(0.92) rotate(-0.8deg);
+    opacity: 0;
+    filter: blur(2.4px);
+  }
+}
+
+@keyframes anOverlayFadeOut{
+  0%{ opacity: 1; }
+  100%{ opacity: 0; }
+}
+
+/* 動きを抑制したい環境では停止 */
+@media (prefers-reduced-motion: reduce){
+  .menu.is-open .menu-panel,
+  .menu.is-open .menu-overlay::before,
+  .menu.is-open .menu-panel::after,
+  .menu.is-closing .menu-panel,
+  .menu.is-closing .menu-overlay::before{
+    animation: none !important;
+  }
+}
