@@ -1,0 +1,10 @@
+// types/r3f-intrinsics.d.ts
+import type { ReactThreeFiber } from "@react-three/fiber";
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements extends ReactThreeFiber.IntrinsicElements {}
+  }
+}
+
+export {};
