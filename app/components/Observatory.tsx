@@ -505,6 +505,18 @@ export default function Observatory() {
           </div>
         </div>
 
+<div className="page-foot" style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+  <Link className="back-link" href="/home">← Back to Home</Link>
+
+  {/* ✅ Observatory結果 → 3Dに連動 */}
+  <Link
+    className="inline-link"
+    href={`/space-3d?domain=${domain}&code=${encodeURIComponent(result.code)}`}
+  >
+    Enter Space (3D) →
+  </Link>
+</div>
+
         <div className="page-foot">
           <Link className="back-link" href="/home">← Back to Home</Link>
         </div>
