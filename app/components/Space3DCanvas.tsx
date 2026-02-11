@@ -1,136 +1,93 @@
 "use client";
 
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Environment, Float } from "@react-three/drei";
+import { Canvas, useFrame } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
-import { useMemo } from "react";
+import { useMemo, useRef } from "react";
 
-type Props = {
-  mode: "quantum" | "gravity";
-  energy: number; // 0..1
-  mass: number;   // 0..1
-};
+function Stars() {
+  const pointsRef = useRef<THREE.Points>(null);
 
-export default function Space3DCanvas({ mode, energy, mass }: Props) {
-  // cold vacuum palette
-  const bg = "#000000";
+  const positions = useMemo(() => {
+    const count = 1800;
+    const arr = new Float32Array(count * 3);
+    for (let i = 0; i < count; i++) {
+      const r = 12 * Math.cbrt(Math.random());
+      const theta = Math.random() * Math.PI * 2;
+      const phi = Math.acos(2 * Math.random() - 1);
+      arr[i * 3 + 0] = r * Math.sin(phi) * Math.cos(theta);
+      arr[i * 3 + 1] = r * Math.sin(phi) * Math.sin(theta);
+      arr[i * 3 + 2] = r * Math.cos(phi);
+    }
+    return arr;
+  }, []);
+
+  useFrame((_, dt) => {
+    if (!pointsRef.current) return;
+    pointsRef.current.rotation.y += dt * 0.02;
+  });
 
   return (
-    <Canvas
-      camera={{ position: [0, 0, 3.2], fov: 48 }}
-      dpr={[1, 2]}
-      gl={{ antialias: true, alpha: true }}
-      style={{ width: "100%", height: "100%" }}
-    >
-      <color attach="background" args={[bg]} />
+    <points ref={pointsRef}>
+      <bufferGeometry>
+        {/* ✅ TSが最も安定する：args方式 */}
+        <bufferAttribute attach="attributes-position" args={[positions, 3]} />
+      </bufferGeometry>
 
-      {/* cold low light */}
-      <ambientLight intensity={0.35} />
-      <directionalLight position={[2.5, 2.0, 2.5]} intensity={0.85} />
-      <directionalLight position={[-2.0, -1.5, 1.0]} intensity={0.35} />
-
-      {/* subtle fog = vacuum depth */}
-      <fog attach="fog" args={["#000000", 2.6, 8.4]} />
-
-      {/* object */}
-      {mode === "quantum" ? <QuantumObject energy={energy} /> : <GravityObject mass={mass} />}
-
-      {/* infinite dark reflection */}
-      <Environment preset="city" />
-
-      {/* controls */}
-      <OrbitControls
-        enableDamping
-        dampingFactor={0.08}
-        rotateSpeed={0.6}
-        zoomSpeed={0.7}
-        panSpeed={0.6}
+      <pointsMaterial
+        size={0.055}
+        sizeAttenuation
+        color={"#ffffff"}
+        transparent
+        opacity={0.75}
+        depthWrite={false}
       />
-    </Canvas>
+    </points>
   );
 }
 
-function QuantumObject({ energy }: { energy: number }) {
-  // higher energy => more “record-like”: sharper edges / brighter rim
-  const roughness = 0.46 - energy * 0.20;
-  const metalness = 0.48 + energy * 0.30;
-  const emissive = 0.06 + energy * 0.18;
+function ColdVacuumCore() {
+  const meshRef = useRef<THREE.Mesh>(null);
 
-  const mat = useMemo(() => {
-    const m = new THREE.MeshStandardMaterial({
-      color: new THREE.Color(0x0b0b0c),
-      roughness,
-      metalness,
-      emissive: new THREE.Color(0x0a0a0a),
-      emissiveIntensity: emissive,
-    });
-    return m;
-  }, [roughness, metalness, emissive]);
+  useFrame((state, dt) => {
+    if (!meshRef.current) return;
+
+    const t = state.clock.getElapsedTime();
+    meshRef.current.rotation.y += dt * 0.12;
+    meshRef.current.rotation.x += dt * 0.05;
+
+    const s = 1 + Math.sin(t * 0.9) * 0.01;
+    meshRef.current.scale.set(s, s, s);
+  });
 
   return (
-    <Float speed={0.75} rotationIntensity={0.25} floatIntensity={0.35}>
-      {/* TorusKnot = “interference / topology” feel */}
-      <mesh material={mat}>
-        <torusKnotGeometry args={[0.78, 0.22, 180, 16]} />
-      </mesh>
-
-      {/* thin halo */}
-      <mesh>
-        <torusGeometry args={[1.05, 0.012, 10, 220]} />
-        <meshStandardMaterial
-          color="#111111"
-          emissive="#111111"
-          emissiveIntensity={0.7 + energy * 1.2}
-          roughness={0.85}
-          metalness={0.05}
-        />
-      </mesh>
-    </Float>
+    <mesh ref={meshRef} position={[0, 0, 0]}>
+      <icosahedronGeometry args={[1.2, 2]} />
+      <meshStandardMaterial
+        color={"#0b0b0c"}
+        metalness={0.35}
+        roughness={0.15}
+        emissive={"#000000"}
+      />
+    </mesh>
   );
 }
 
-function GravityObject({ mass }: { mass: number }) {
-  // higher mass => deeper well: larger ring + stronger glow
-  const ringScale = 0.92 + mass * 0.25;
-  const glow = 0.35 + mass * 0.95;
-
+export default function Space3DCanvas() {
   return (
-    <Float speed={0.55} rotationIntensity={0.18} floatIntensity={0.25}>
-      {/* central well */}
-      <mesh>
-        <sphereGeometry args={[0.72, 64, 64]} />
-        <meshStandardMaterial
-          color="#070708"
-          roughness={0.15}
-          metalness={0.65}
-          emissive="#0a0a0a"
-          emissiveIntensity={0.18 + mass * 0.25}
-        />
-      </mesh>
+    <div style={{ width: "100%", height: "70vh", borderRadius: 22, overflow: "hidden" }}>
+      <Canvas camera={{ position: [0, 0, 7], fov: 50 }} gl={{ antialias: true, alpha: true }} dpr={[1, 2]}>
+        <color attach="background" args={["#000000"]} />
 
-      {/* lensing ring */}
-      <mesh scale={[ringScale, ringScale, ringScale]}>
-        <torusGeometry args={[1.10, 0.08, 14, 220]} />
-        <meshStandardMaterial
-          color="#0b0b0c"
-          roughness={0.28}
-          metalness={0.85}
-          emissive="#0d0d0f"
-          emissiveIntensity={glow}
-        />
-      </mesh>
+        <ambientLight intensity={0.25} />
+        <directionalLight position={[4, 4, 6]} intensity={0.55} />
+        <pointLight position={[-6, -2, -4]} intensity={0.35} />
 
-      {/* outer faint orbit lines */}
-      <mesh>
-        <torusGeometry args={[1.55, 0.012, 10, 220]} />
-        <meshStandardMaterial
-          color="#0a0a0a"
-          emissive="#0a0a0a"
-          emissiveIntensity={0.35 + mass * 0.45}
-          roughness={0.95}
-          metalness={0.02}
-        />
-      </mesh>
-    </Float>
+        <Stars />
+        <ColdVacuumCore />
+
+        <OrbitControls enableDamping dampingFactor={0.08} />
+      </Canvas>
+    </div>
   );
 }
