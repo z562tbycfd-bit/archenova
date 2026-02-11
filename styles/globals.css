@@ -7862,3 +7862,42 @@ html, body {
     min-height: 420px;
   }
 }
+
+/* =========================================================
+   Space3D (Cold Vacuum) — minimal, unified
+   ========================================================= */
+.space3d-frame{
+  border-radius: 22px;
+  overflow: hidden;
+  background: rgba(0,0,0,0.18);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.space3d-meta{
+  margin-top: 14px;
+}
+
+.space3d-tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.space3d-tag{
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  color: rgba(245,245,245,0.82);
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+}
+
+.space3d-links{
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
