@@ -8222,3 +8222,174 @@ html, body {
 @media (prefers-reduced-motion: reduce){
   .home-pager{ scroll-behavior: auto; }
 }
+
+/* =========================================================
+   HOME Pager — Cosmic Pager (Cold Vacuum / Elegant Drift)
+   Works with: <main class="home-pager cosmic-pager"> + <section class="home-page">
+   ========================================================= */
+
+.home-pager.cosmic-pager{
+  /* 横ページ構成（本） */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+
+  /* スクロールバーを静かに */
+  scrollbar-width: none;         /* Firefox */
+}
+.home-pager.cosmic-pager::-webkit-scrollbar{ display:none; }
+
+/* “宇宙” 背景：薄い黒の真空 + 星雲の気配（重くしない） */
+.home-pager.cosmic-pager{
+  position: relative;
+  background: radial-gradient(1200px 700px at 20% 18%, rgba(255,255,255,0.035), transparent 60%),
+              radial-gradient(900px 520px at 80% 75%, rgba(255,255,255,0.022), transparent 58%),
+              radial-gradient(700px 420px at 55% 45%, rgba(180,200,255,0.020), transparent 62%),
+              #000000;
+}
+
+/* 星の粒子（CSSだけで軽量） */
+.home-pager.cosmic-pager::before{
+  content:"";
+  position:absolute;
+  inset:-20%;
+  pointer-events:none;
+  opacity: 0.55;
+  background:
+    radial-gradient(1px 1px at 8% 18%, rgba(255,255,255,0.35), transparent 60%),
+    radial-gradient(1px 1px at 22% 62%, rgba(255,255,255,0.28), transparent 60%),
+    radial-gradient(1px 1px at 45% 30%, rgba(255,255,255,0.22), transparent 60%),
+    radial-gradient(1px 1px at 63% 68%, rgba(255,255,255,0.20), transparent 60%),
+    radial-gradient(1px 1px at 78% 22%, rgba(255,255,255,0.26), transparent 60%),
+    radial-gradient(1px 1px at 90% 55%, rgba(255,255,255,0.18), transparent 60%);
+  filter: blur(0.2px);
+  animation: cosmic-drift 18s ease-in-out infinite;
+}
+
+/* かすかな薄膜（黒いフィルム統一：文字を暗くしすぎない） */
+.home-pager.cosmic-pager::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background: rgba(0,0,0,0.22);
+  backdrop-filter: blur(0px);
+}
+
+/* 各ページ */
+.home-page{
+  flex: 0 0 100%;
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+
+  /* “紙面”の余白 */
+  padding: 110px 22px 80px;
+
+  /* 漂い（全体が少しだけ浮く） */
+  animation: page-float 10.5s ease-in-out infinite;
+}
+
+/* ページ内の内容が読みやすいように、薄い黒フィルムをページ単位で統一 */
+.home-page::before{
+  content:"";
+  position:absolute;
+  inset: 68px 14px 18px;
+  border-radius: 26px;
+
+  /* 背景が見える程度の透明感 + 薄い黒フィルム */
+  background: rgba(0,0,0,0.20);
+  border: 1px solid rgba(255,255,255,0.07);
+
+  /* “冷たい真空”の薄いグロー */
+  box-shadow:
+    0 28px 90px rgba(0,0,0,0.55),
+    0 0 0 1px rgba(255,255,255,0.02) inset;
+
+  backdrop-filter: blur(10px) saturate(112%);
+  -webkit-backdrop-filter: blur(10px) saturate(112%);
+  pointer-events:none;
+}
+
+/* ページの中身は前面 */
+.home-page > *{
+  position: relative;
+  z-index: 1;
+}
+
+/* “本のページをめくる”印象：左右のハイライト */
+.home-page::after{
+  content:"";
+  position:absolute;
+  inset: 68px 14px 18px;
+  border-radius: 26px;
+  pointer-events:none;
+
+  background:
+    linear-gradient(90deg,
+      rgba(255,255,255,0.06),
+      rgba(255,255,255,0.00) 25%,
+      rgba(255,255,255,0.00) 75%,
+      rgba(255,255,255,0.04)
+    );
+  mix-blend-mode: screen;
+  opacity: 0.24;
+}
+
+/* マウス/タッチで“圧”を感じる：hover時に静かに上がる（邪魔しない） */
+@media (hover:hover){
+  .home-page:hover{
+    animation-play-state: running;
+    transform: translateY(-1px);
+    transition: transform 220ms ease;
+  }
+}
+
+/* ページ内の既存カード群の幅を揃える（あなたの既存デザインを壊さない範囲） */
+.home-pager.cosmic-pager .hero-links,
+.home-pager.cosmic-pager .plaza-feature,
+.home-pager.cosmic-pager .home-section,
+.home-pager.cosmic-pager .home-divider{
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* モバイル最適化 */
+@media (max-width: 768px){
+  .home-page{
+    padding: 96px 14px 70px;
+  }
+  .home-page::before,
+  .home-page::after{
+    inset: 62px 10px 14px;
+    border-radius: 22px;
+  }
+}
+
+/* motion */
+@keyframes cosmic-drift{
+  0%   { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.52; }
+  50%  { transform: translate3d(-18px,12px,0px) scale(1.02); opacity: 0.62; }
+  100% { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.52; }
+}
+
+@keyframes page-float{
+  0%   { transform: translate3d(0px,0px,0px); }
+  50%  { transform: translate3d(0px,-6px,0px); }
+  100% { transform: translate3d(0px,0px,0px); }
+}
+
+/* 低モーション環境では止める */
+@media (prefers-reduced-motion: reduce){
+  .home-pager.cosmic-pager::before,
+  .home-page{
+    animation: none !important;
+  }
+}
