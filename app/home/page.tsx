@@ -152,12 +152,12 @@ export default function Home() {
   {/* =========================
       Quantum & Gravity Space (3D)
      ========================= */}
-  <div className="hero-links">
+   <div className="hero-links">
     <a href="/space-3d" className="hero-card">
-      <h3>Quantum & Gravity Space (3D)</h3>
+      <h3>Quantum &amp; Gravity Space (3D)</h3>
       <p>
-        A fully rotatable 3D chamber. Drag to rotate, scroll to zoom.
-        Tune thresholds and feel where constraints become physical.
+        Rotate a cold vacuum. The form shifts with your Observatory result
+        (domain + code).
       </p>
     </a>
   </div>
