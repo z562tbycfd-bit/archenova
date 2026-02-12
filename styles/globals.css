@@ -7902,23 +7902,92 @@ html, body {
   flex-wrap: wrap;
 }
 
-/* ===== Observatory -> Space(3D) Link ===== */
-.obs-foot{
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+/* =========================================================
+   PageFlip (Book-like section transitions)
+   ========================================================= */
+
+.pageflip{
+  width: 100%;
+  max-width: 980px;            /* 既存の統一感 */
+  margin: 22px auto;           /* 区切りごとの“ページ間隔” */
+  perspective: 1200px;
+  transform-style: preserve-3d;
 }
 
-.obs-space-link{
-  border-radius: 16px;
-  padding: 10px 14px;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.10);
+.pageflip-page{
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+
+  /* 既存のガラス/黒フィルムの世界観に寄せる */
+  background: rgba(0,0,0,0.14);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  box-shadow: 0 26px 90px rgba(0,0,0,0.55);
+
+  /* 初期＝閉じたページ（右からめくる） */
+  transform-origin: right center;
+  transform: rotateY(-78deg) translateZ(0);
+  opacity: 0;
+  filter: blur(2px);
+
+  transition:
+    transform 900ms cubic-bezier(0.16, 1, 0.22, 1),
+    opacity 650ms ease,
+    filter 650ms ease;
 }
 
-.obs-space-link:hover{
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.16);
+.pageflip.is-on .pageflip-page{
+  transform: rotateY(0deg) translateZ(0);
+  opacity: 1;
+  filter: blur(0);
+}
+
+.pageflip-face{
+  position: relative;
+  z-index: 1;
+  padding: 18px 18px;
+}
+
+/* “冷たい真空”の薄いグロス */
+.pageflip-gloss{
+  position: absolute;
+  inset: -40%;
+  pointer-events: none;
+  z-index: 0;
+
+  background: radial-gradient(
+    circle at 20% 30%,
+    rgba(255,255,255,0.10),
+    rgba(255,255,255,0.04) 35%,
+    rgba(0,0,0,0) 70%
+  );
+
+  transform: translateX(-18%) rotate(10deg);
+  opacity: 0.0;
+  transition: opacity 600ms ease, transform 900ms cubic-bezier(0.16, 1, 0.22, 1);
+}
+
+.pageflip.is-on .pageflip-gloss{
+  opacity: 0.40;
+  transform: translateX(0%) rotate(10deg);
+}
+
+/* モバイルは回転角を少し弱めて読みやすく */
+@media (max-width: 768px){
+  .pageflip{ margin: 18px auto; perspective: 900px; }
+  .pageflip-page{ transform: rotateY(-62deg); }
+  .pageflip-face{ padding: 16px 14px; }
+}
+
+/* 端末が“動き少なめ”設定の場合は静かに */
+@media (prefers-reduced-motion: reduce){
+  .pageflip-page{
+    transform: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+    transition: none !important;
+  }
+  .pageflip-gloss{ display: none; }
 }

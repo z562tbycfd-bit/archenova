@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Reveal from "../components/Reveal";
+import PageFlip from "../components/PageFlip";
 import ScienceHome from "../components/ScienceHome";
 import TechnologyHome from "../components/TechnologyHome";
 import XLatest from "../components/XLatest";
@@ -36,6 +37,7 @@ export default function Home() {
         </Reveal>
 
         <Reveal delay={200}>
+          <PageFlip delay={0}>
           {/* =========================
               ORIENTATION
               ========================= */}
@@ -47,9 +49,11 @@ export default function Home() {
               They explain what is fixed before anything is built.
             </p>
           </div>
+           </PageFlip>
         </Reveal>
 
         <Reveal delay={200}>
+          <PageFlip delay={0}>
           <div className="hero-links">
             <Link href="/manifesto">Manifesto</Link>
             <Link href="/framework">Framework</Link>
@@ -57,9 +61,11 @@ export default function Home() {
             <Link href="/research">Research / Papers</Link>
             <Link href="/projects">Projects</Link>
           </div>
+          </PageFlip>
         </Reveal>
 
         <Reveal delay={200}>
+          <PageFlip delay={0}>
           {/* =========================
               BOUNDARY INTERACTION
               ========================= */}
@@ -71,10 +77,12 @@ export default function Home() {
               They are encounters with constraints that cannot be undone.
             </p>
           </div>
+          </PageFlip>
         </Reveal>
 
         {/* Boundary Plaza — featured card */}
         <Reveal delay={200}>
+          <PageFlip delay={0}>
           <div className="plaza-feature">
             <Link href="/plaza" className="plaza-card">
               <div className="plaza-title">The Boundary Plaza</div>
@@ -82,10 +90,12 @@ export default function Home() {
               <div className="plaza-hint">Enter →</div>
             </Link>
           </div>
+          </PageFlip>
         </Reveal>
 
         {/* Workshop Floor — featured card */}
         <Reveal delay={200}>
+          <PageFlip delay={0}>
           <div className="plaza-feature">
             <Link href="/workshop" className="plaza-card">
               <div className="plaza-title">The Workshop Floor</div>
@@ -93,10 +103,12 @@ export default function Home() {
               <div className="plaza-hint">Enter →</div>
             </Link>
           </div>
+          </PageFlip>
         </Reveal>
 
         {/* Constraint Forge — featured card */}
         <Reveal delay={200}>
+          <PageFlip delay={0}>
           <div className="plaza-feature">
             <Link href="/constraint-forge" className="plaza-card">
               <div className="plaza-title">The Constraint Forge</div>
@@ -104,10 +116,12 @@ export default function Home() {
               <div className="plaza-hint">Enter →</div>
             </Link>
           </div>
+          </PageFlip> 
         </Reveal>
 
         {/* ArcheNova Structural AI — featured card */}
         <Reveal delay={200}>
+          <PageFlip delay={0}>
           <div className="plaza-feature">
             <Link href="/structural-ai" className="plaza-card">
               <div className="plaza-title">ArcheNova structural-AI</div>
@@ -115,9 +129,11 @@ export default function Home() {
               <div className="plaza-hint">Enter →</div>
             </Link>
           </div>
+          </PageFlip>
         </Reveal>
 
         <Reveal delay={200}>
+          <PageFlip delay={0}>
           {/* =========================
               SCIENTIFIC EXPLORATION
               ========================= */}
@@ -129,9 +145,11 @@ export default function Home() {
               return official ArcheNova answers and their irreversible meaning.
             </p>
           </div>
+          </PageFlip>
         </Reveal>
 
         <Reveal delay={200}>
+          <PageFlip delay={0}>
           {/* =========================
               Quantum & Gravity Observatory Card
               ========================= */}
@@ -145,9 +163,11 @@ export default function Home() {
               </p>
             </a>
           </div>
+          </PageFlip>
         </Reveal>
 
 <Reveal delay={220}>
+  <PageFlip delay={0}>
   {/* =========================
       Quantum & Gravity Space (3D)
      ========================= */}
@@ -160,11 +180,13 @@ export default function Home() {
       </p>
     </a>
   </div>
+  </PageFlip>
 </Reveal>
 
       </section>
 
       <Reveal delay={200}>
+        <PageFlip delay={0}>
         {/* =========================
             OBSERVATION
             ========================= */}
@@ -175,23 +197,29 @@ export default function Home() {
             Signals from science and technology where reversibility is quietly disappearing.
           </p>
         </div>
+        </PageFlip>
       </Reveal>
 
       {/* ✅ ここがHOMEのScience（1カード切り替え） */}
       <Reveal delay={200}>
+        <PageFlip delay={0}>
         <div className="plaza-feature">
           <ScienceHome />
         </div>
+        </PageFlip>
       </Reveal>
 
       {/* ✅ ここがHOMEのTechnology（1カード切り替え） */}
       <Reveal delay={200}>
+        <PageFlip delay={0}>
         <div className="plaza-feature">
           <TechnologyHome />
         </div>
+        </PageFlip>
       </Reveal>
 
       <Reveal delay={200}>
+        <PageFlip delay={0}>
         {/* ===== HOME Section Divider : Signals ===== */}
         <div className="home-divider">
           <div className="home-divider-line" />
@@ -200,11 +228,14 @@ export default function Home() {
             <span className="home-divider-title">Irreversible Move</span>
           </div>
         </div>
+        </PageFlip>
       </Reveal>
 
       {/* X 最新投稿 */}
       <Reveal delay={200}>
+        <PageFlip delay={0}>
         <XLatest />
+        </PageFlip>
       </Reveal>
 
       {/* =========================
