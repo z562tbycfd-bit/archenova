@@ -8172,3 +8172,53 @@ html, body {
   }
   .hp-gloss{ display:none; }
 }
+
+/* =========================================================
+   HOME — Page Flip Layout (snap + book-ish)
+   ========================================================= */
+
+/* ページコンテナ：縦スクロールだが “1ページずつ” 止まる */
+.home-pager{
+  height: 100dvh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+
+  /* iOSの慣性 */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* 各ページ：画面1枚分 */
+.home-page{
+  min-height: 100dvh;
+  padding: 96px 0 72px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* “ページめくり”っぽいニュアンス（スクロール時に気配が出る程度） */
+.home-page{
+  transform-origin: left center;
+  will-change: transform, opacity;
+}
+
+/* 既存の hero セクションが強い場合は余白を均す */
+.home-page .hero{
+  padding-bottom: 0;
+}
+
+/* 端末で1ページに収めやすくする */
+@media (max-width: 768px){
+  .home-page{
+    padding: 88px 0 64px;
+  }
+}
+
+/* reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .home-pager{ scroll-behavior: auto; }
+}
