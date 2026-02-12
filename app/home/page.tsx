@@ -136,7 +136,6 @@ export default function Home() {
               Quantum & Gravity Observatory Card
               ========================= */}
           <div className="hero-links">
-            <Link href="/space-3d">Quantum & Gravity Space (3D)</Link>
             <a href="/observatory" className="hero-card">
               <h3>Quantum & Gravity Observatory</h3>
               <p>
