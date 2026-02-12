@@ -505,14 +505,16 @@ export default function Observatory() {
           </div>
         </div>
 
-<div className="page-foot obs-foot">
-  <Link className="back-link" href="/home">← Back to Home</Link>
-
+<div className="page-foot" style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
   <Link
-    className="inline-link obs-space-link"
+    className="inline-link"
     href={`/space-3d?domain=${domain}&code=${encodeURIComponent(result.code)}`}
   >
-    Enter Quantum & Gravity Space (3D) →
+    View in 3D →
+  </Link>
+
+  <Link className="back-link" href="/home">
+    ← Back to Home
   </Link>
 </div>
       </section>
