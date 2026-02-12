@@ -7991,3 +7991,184 @@ html, body {
   }
   .pageflip-gloss{ display: none; }
 }
+
+/* =========================================================
+   HOME Pager — Book Page Flip (Cold Vacuum)
+   ========================================================= */
+
+.hp-root{
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;            /* ←縦スクロールを“本”に変える */
+}
+
+.hp-stage{
+  position: relative;
+  width: 100%;
+  height: 100svh;
+  perspective: 1400px;
+  transform-style: preserve-3d;
+}
+
+/* 1ページ */
+.hp-page{
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 86px 18px 86px;     /* 上：メニュー/下：余白 */
+  pointer-events: none;
+}
+
+.hp-page.is-active{
+  pointer-events: auto;
+}
+
+/* 1枚の紙（ガラス/黒フィルム統一） */
+.hp-sheet{
+  width: min(980px, calc(100vw - 28px));
+  border-radius: 24px;
+  overflow: hidden;
+
+  background: rgba(0,0,0,0.16);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  box-shadow: 0 30px 110px rgba(0,0,0,0.62);
+
+  transform-origin: right center;
+  transform: translateZ(0) rotateY(0deg);
+}
+
+.hp-content{
+  padding: 22px 18px;
+}
+
+/* 冷たいグロス */
+.hp-gloss{
+  position: absolute;
+  inset: -40%;
+  pointer-events: none;
+
+  background: radial-gradient(
+    circle at 20% 30%,
+    rgba(255,255,255,0.12),
+    rgba(255,255,255,0.05) 35%,
+    rgba(0,0,0,0) 72%
+  );
+
+  transform: translateX(-16%) rotate(12deg);
+  opacity: 0.36;
+  transition: transform 900ms cubic-bezier(0.16,1,0.22,1);
+}
+
+.hp-page.dir-next.is-active .hp-gloss{ transform: translateX(0%) rotate(12deg); }
+.hp-page.dir-prev.is-active .hp-gloss{ transform: translateX(-6%) rotate(12deg); }
+
+/* ---- ページめくりアニメ（圧→開く） ---- */
+.hp-page.is-next .hp-sheet{
+  transform: rotateY(-78deg);
+  opacity: 0;
+  filter: blur(2px);
+}
+
+.hp-page.is-prev .hp-sheet{
+  transform: rotateY(78deg);
+  opacity: 0;
+  filter: blur(2px);
+}
+
+.hp-page.is-active .hp-sheet{
+  transform: rotateY(0deg);
+  opacity: 1;
+  filter: blur(0);
+  transition:
+    transform 860ms cubic-bezier(0.16, 1, 0.22, 1),
+    opacity 520ms ease,
+    filter 520ms ease;
+}
+
+/* 使わないページは軽く */
+.hp-off{ display:none; }
+
+/* インジケータ */
+.hp-indicator{
+  position: fixed;
+  left: 18px;
+  top: 18px;
+  z-index: 70;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  background: rgba(0,0,0,0.22);
+  border: 1px solid rgba(255,255,255,0.10);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+
+.hp-dot{
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(245,245,245,0.72);
+  box-shadow: 0 0 18px rgba(255,255,255,0.12);
+}
+
+.hp-count{
+  color: rgba(245,245,245,0.70);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+/* 小さなナビ（邪魔にならない） */
+.hp-nav{
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 70;
+  display: flex;
+  gap: 10px;
+}
+
+.hp-btn{
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(0,0,0,0.22);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: rgba(245,245,245,0.86);
+  cursor: pointer;
+}
+
+.hp-btn:disabled{
+  opacity: 0.35;
+  cursor: default;
+}
+
+/* モバイル */
+@media (max-width: 768px){
+  .hp-page{ padding: 78px 14px 78px; }
+  .hp-content{ padding: 18px 14px; }
+  .hp-indicator{ left: 14px; top: 14px; }
+  .hp-nav{ right: 14px; bottom: 14px; }
+}
+
+/* 動き少なめ */
+@media (prefers-reduced-motion: reduce){
+  .hp-page.is-next .hp-sheet,
+  .hp-page.is-prev .hp-sheet,
+  .hp-page.is-active .hp-sheet{
+    transform: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+    transition: none !important;
+  }
+  .hp-gloss{ display:none; }
+}
