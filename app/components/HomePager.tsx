@@ -3,133 +3,107 @@
 import { ReactNode, useEffect, useMemo, useRef, useState } from "react";
 
 type Props = {
-  pages: ReactNode[];
-  initial?: number;
+  children: ReactNode;
 };
 
-export default function HomePager({ pages, initial = 0 }: Props) {
-  const [i, setI] = useState(initial);
-  const [dir, setDir] = useState<"next" | "prev">("next");
-  const lockRef = useRef(false);
-  const touchRef = useRef<{ y: number } | null>(null);
+export default function HomePager({ children }: Props) {
+  const scrollerRef = useRef<HTMLDivElement | null>(null);
+  const pages = useMemo(() => Array.isArray(children) ? children : [children], [children]);
+  const [index, setIndex] = useState(0);
 
-  const max = pages.length - 1;
-
-  const go = (nextIndex: number) => {
-    if (nextIndex < 0 || nextIndex > max) return;
-    setDir(nextIndex > i ? "next" : "prev");
-    setI(nextIndex);
+  const scrollToIndex = (i: number) => {
+    const el = scrollerRef.current;
+    if (!el) return;
+    const next = Math.max(0, Math.min(i, pages.length - 1));
+    el.scrollTo({ left: next * el.clientWidth, behavior: "smooth" });
   };
 
-  const goNext = () => go(i + 1);
-  const goPrev = () => go(i - 1);
-
-  // “圧が来る”ページ切り替え：wheel/trackpadをページ送りに変換（連打防止）
+  // 現在ページ追従
   useEffect(() => {
+    const el = scrollerRef.current;
+    if (!el) return;
+
+    const onScroll = () => {
+      const w = el.clientWidth || 1;
+      const i = Math.round(el.scrollLeft / w);
+      setIndex(i);
+    };
+
+    el.addEventListener("scroll", onScroll, { passive: true });
+    return () => el.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // ホイール縦スクロール → 横移動（PC体験を“本っぽく”）
+  useEffect(() => {
+    const el = scrollerRef.current;
+    if (!el) return;
+
     const onWheel = (e: WheelEvent) => {
-      // 縦スクロールをページ送りに変える
-      const dy = e.deltaY;
-      if (Math.abs(dy) < 12) return;
+      // shift 押下時は通常の横スクロールなので邪魔しない
+      if (e.shiftKey) return;
 
-      e.preventDefault();
-      if (lockRef.current) return;
-      lockRef.current = true;
-
-      if (dy > 0) goNext();
-      else goPrev();
-
-      window.setTimeout(() => {
-        lockRef.current = false;
-      }, 820); // アニメに合わせる
+      // 縦ホイールの意図を横へ変換
+      if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+        e.preventDefault();
+        el.scrollBy({ left: e.deltaY, behavior: "auto" });
+      }
     };
 
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => el.removeEventListener("wheel", onWheel as any);
+  }, []);
+
+  // キーボードでめくる
+  useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "ArrowDown" || e.key === "PageDown" || e.key === " ") {
-        e.preventDefault();
-        goNext();
-      }
-      if (e.key === "ArrowUp" || e.key === "PageUp") {
-        e.preventDefault();
-        goPrev();
-      }
+      if (e.key === "ArrowRight") scrollToIndex(index + 1);
+      if (e.key === "ArrowLeft") scrollToIndex(index - 1);
     };
-
-    window.addEventListener("wheel", onWheel, { passive: false });
     window.addEventListener("keydown", onKey);
-
-    return () => {
-      window.removeEventListener("wheel", onWheel as any);
-      window.removeEventListener("keydown", onKey);
-    };
-  }, [i]);
-
-  // モバイル：スワイプでページ送り
-  const onTouchStart = (e: React.TouchEvent) => {
-    const y = e.touches?.[0]?.clientY ?? 0;
-    touchRef.current = { y };
-  };
-  const onTouchEnd = (e: React.TouchEvent) => {
-    const start = touchRef.current?.y;
-    if (start == null) return;
-    const end = e.changedTouches?.[0]?.clientY ?? start;
-    const dy = end - start;
-    if (Math.abs(dy) < 42) return;
-    if (dy < 0) goNext();
-    else goPrev();
-    touchRef.current = null;
-  };
-
-  const stack = useMemo(() => {
-    return pages.map((p, idx) => {
-      const isActive = idx === i;
-      const isPrev = idx === i - 1;
-      const isNext = idx === i + 1;
-
-      // 周辺だけDOMに残す（軽量）
-      const keep = isActive || isPrev || isNext;
-      if (!keep) return <div key={idx} className="hp-page hp-off" />;
-
-      const cls = [
-        "hp-page",
-        isActive ? "is-active" : "",
-        isPrev ? "is-prev" : "",
-        isNext ? "is-next" : "",
-        dir === "next" ? "dir-next" : "dir-prev",
-      ].join(" ");
-
-      return (
-        <section key={idx} className={cls} aria-hidden={!isActive}>
-          <div className="hp-sheet">
-            <div className="hp-content">{p}</div>
-            <div className="hp-gloss" aria-hidden="true" />
-          </div>
-        </section>
-      );
-    });
-  }, [pages, i, dir]);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [index]);
 
   return (
-    <main className="hp-root" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
-      {/* ページ番号 */}
-      <div className="hp-indicator" aria-hidden="true">
-        <span className="hp-dot" />
-        <span className="hp-count">
-          {String(i + 1).padStart(2, "0")} / {String(pages.length).padStart(2, "0")}
-        </span>
+    <div className="hp-shell">
+      <div className="hp-scroller" ref={scrollerRef} aria-label="Home pages (horizontal)">
+        {pages.map((p, i) => (
+          <section key={i} className="hp-page">
+            {/* ページ単位の“漂い” */}
+            <div className="hp-float">{p}</div>
+          </section>
+        ))}
       </div>
 
-      {/* ページスタック */}
-      <div className="hp-stage">{stack}</div>
-
-      {/* ナビ（邪魔にならない最小） */}
-      <div className="hp-nav" aria-hidden="true">
-        <button className="hp-btn" onClick={goPrev} disabled={i === 0}>
-          ←
-        </button>
-        <button className="hp-btn" onClick={goNext} disabled={i === max}>
-          →
-        </button>
+      {/* 下部ナビ（ドット） */}
+      <div className="hp-dots" aria-hidden="true">
+        {pages.map((_, i) => (
+          <button
+            key={i}
+            type="button"
+            className={`hp-dot ${i === index ? "active" : ""}`}
+            onClick={() => scrollToIndex(i)}
+            aria-label={`Go to page ${i + 1}`}
+          />
+        ))}
       </div>
-    </main>
+
+      {/* 左右ナビ（控えめ） */}
+      <button
+        type="button"
+        className="hp-nav hp-prev"
+        onClick={() => scrollToIndex(index - 1)}
+        aria-label="Previous page"
+      >
+        ←
+      </button>
+      <button
+        type="button"
+        className="hp-nav hp-next"
+        onClick={() => scrollToIndex(index + 1)}
+        aria-label="Next page"
+      >
+        →
+      </button>
+    </div>
   );
 }

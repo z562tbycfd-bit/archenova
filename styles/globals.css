@@ -8393,3 +8393,99 @@ html, body {
     animation: none !important;
   }
 }
+
+/* =========================================================
+   HomePager shell (hp-*)
+   ========================================================= */
+
+.hp-shell{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.hp-scroller{
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none;
+}
+.hp-scroller::-webkit-scrollbar{ display:none; }
+
+.hp-page{
+  flex: 0 0 100%;
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+/* 既存の “宇宙漂い” をページ単位で使う */
+.hp-float{
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* dots */
+.hp-dots{
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  z-index: 30;
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.20);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.hp-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.10);
+  cursor: pointer;
+}
+.hp-dot.active{
+  background: rgba(255,255,255,0.60);
+  border-color: rgba(255,255,255,0.28);
+}
+
+/* arrows */
+.hp-nav{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 30;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+
+  background: rgba(0,0,0,0.22);
+  border: 1px solid rgba(255,255,255,0.10);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  color: rgba(245,245,245,0.86);
+  cursor: pointer;
+}
+
+.hp-prev{ left: 14px; }
+.hp-next{ right: 14px; }
+
+@media (max-width: 768px){
+  .hp-nav{ display:none; } /* モバイルはスワイプが主役 */
+  .hp-dots{ bottom: 14px; }
+}
