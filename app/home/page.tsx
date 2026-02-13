@@ -9,9 +9,6 @@ import HomeSectionPager from "../components/HomeSectionPager";
 export default function Home() {
   return (
     <main className="home-snap">
-      <div style={{position:"fixed",left:8,bottom:8,zIndex:999999,color:"#fff",fontSize:12}}>
-  DEPLOY CHECK: HOME PAGE UPDATED
-</div>
       {/* “めくる”UI（Next/Prev + dots） */}
       <HomeSectionPager />
 
