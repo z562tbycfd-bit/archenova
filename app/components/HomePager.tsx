@@ -8,21 +8,16 @@ type Props = {
 
 export default function HomePager({ children }: Props) {
   const scrollerRef = useRef<HTMLDivElement | null>(null);
-
-  const pages = useMemo(() => {
-    // Next/Reactの children はフラット配列じゃないことがあるので常に配列化
-    const arr = Array.isArray(children) ? children : [children];
-    return arr.filter(Boolean);
-  }, [children]);
-
+  const pages = useMemo(
+    () => (Array.isArray(children) ? children : [children]),
+    [children]
+  );
   const [index, setIndex] = useState(0);
-
-  const clamp = (n: number) => Math.max(0, Math.min(n, pages.length - 1));
 
   const scrollToIndex = (i: number) => {
     const el = scrollerRef.current;
     if (!el) return;
-    const next = clamp(i);
+    const next = Math.max(0, Math.min(i, pages.length - 1));
     el.scrollTo({ left: next * el.clientWidth, behavior: "smooth" });
   };
 
@@ -33,14 +28,15 @@ export default function HomePager({ children }: Props) {
 
     const onScroll = () => {
       const w = el.clientWidth || 1;
-      setIndex(clamp(Math.round(el.scrollLeft / w)));
+      const i = Math.round(el.scrollLeft / w);
+      setIndex(i);
     };
 
     el.addEventListener("scroll", onScroll, { passive: true });
     return () => el.removeEventListener("scroll", onScroll);
-  }, [pages.length]);
+  }, []);
 
-  // 縦ホイール → 横ページ（PCで本）
+  // 縦ホイール → 横ページ
   useEffect(() => {
     const el = scrollerRef.current;
     if (!el) return;
@@ -57,7 +53,7 @@ export default function HomePager({ children }: Props) {
     return () => el.removeEventListener("wheel", onWheel as any);
   }, []);
 
-  // キーでめくる
+  // ← → でめくる
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowRight") scrollToIndex(index + 1);
@@ -69,6 +65,7 @@ export default function HomePager({ children }: Props) {
 
   return (
     <div className="anp-shell">
+      {/* cosmic background */}
       <div className="anp-cosmos" aria-hidden="true" />
 
       <div className="anp-scroller" ref={scrollerRef} aria-label="Home pages (horizontal)">
@@ -105,6 +102,7 @@ export default function HomePager({ children }: Props) {
       >
         ←
       </button>
+
       <button
         type="button"
         className="anp-nav anp-next"
