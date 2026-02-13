@@ -8,7 +8,7 @@ import HomePager from "../components/HomePager";
 
 export default function Home() {
   return (
-    <main className="cosmic-pager">
+    <main className="cosmic-pager anp-force">
       <HomePager>
         {/* =========================
             PAGE 01 : HERO
