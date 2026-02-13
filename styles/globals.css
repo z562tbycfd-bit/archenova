@@ -8555,3 +8555,125 @@ html, body {
     padding: 0 14px;
   }
 }
+
+/* =========================================================
+   HomePager — Horizontal Paging (FORCE)
+   Put this at the VERY END of globals.css
+   ========================================================= */
+
+.cosmic-pager{
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* wrapper */
+.hp-shell{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden !important;
+}
+
+/* horizontal scroller */
+.hp-scroller{
+  display: flex !important;
+  flex-direction: row !important;
+
+  width: 100%;
+  height: 100vh !important;
+
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none;
+}
+.hp-scroller::-webkit-scrollbar{ display: none; }
+
+/* each page */
+.hp-page{
+  flex: 0 0 100% !important;
+  width: 100% !important;
+  height: 100vh !important;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 120px 24px;
+  box-sizing: border-box;
+}
+
+/* page float container */
+.hp-float{
+  width: min(980px, 100%);
+  animation: hpFloat 9s ease-in-out infinite;
+  transform: translate3d(0,0,0);
+}
+
+@keyframes hpFloat{
+  0% { transform: translate3d(0, 0px, 0); }
+  50% { transform: translate3d(0, -10px, 0); }
+  100% { transform: translate3d(0, 0px, 0); }
+}
+
+/* dots */
+.hp-dots{
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 60;
+}
+
+.hp-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.22);
+  background: rgba(0,0,0,0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+.hp-dot.active{
+  background: rgba(255,255,255,0.28);
+  border-color: rgba(255,255,255,0.42);
+}
+
+/* prev/next */
+.hp-nav{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 60;
+
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(0,0,0,0.24);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  color: rgba(245,245,245,0.9);
+  cursor: pointer;
+}
+
+.hp-prev{ left: 14px; }
+.hp-next{ right: 14px; }
+
+@media (max-width: 768px){
+  .hp-page{ padding: 96px 18px; }
+  .hp-prev{ left: 10px; }
+  .hp-next{ right: 10px; }
+}
