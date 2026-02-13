@@ -7903,105 +7903,52 @@ html, body {
 }
 
 /* =========================================================
-   PageFlip (Book-like section transitions)
+   HOME — Book Mode Pager (Cold Vacuum / Elegant Drift)
    ========================================================= */
 
-.pageflip{
+.cosmic-pager{
   width: 100%;
-  max-width: 980px;            /* 既存の統一感 */
-  margin: 22px auto;           /* 区切りごとの“ページ間隔” */
-  perspective: 1200px;
-  transform-style: preserve-3d;
+  min-height: 100svh;
 }
 
-.pageflip-page{
-  position: relative;
-  border-radius: 22px;
-  overflow: hidden;
-
-  /* 既存のガラス/黒フィルムの世界観に寄せる */
-  background: rgba(0,0,0,0.14);
-  border: 1px solid rgba(255,255,255,0.08);
-  backdrop-filter: blur(10px) saturate(120%);
-  -webkit-backdrop-filter: blur(10px) saturate(120%);
-  box-shadow: 0 26px 90px rgba(0,0,0,0.55);
-
-  /* 初期＝閉じたページ（右からめくる） */
-  transform-origin: right center;
-  transform: rotateY(-78deg) translateZ(0);
-  opacity: 0;
-  filter: blur(2px);
-
-  transition:
-    transform 900ms cubic-bezier(0.16, 1, 0.22, 1),
-    opacity 650ms ease,
-    filter 650ms ease;
-}
-
-.pageflip.is-on .pageflip-page{
-  transform: rotateY(0deg) translateZ(0);
-  opacity: 1;
-  filter: blur(0);
-}
-
-.pageflip-face{
-  position: relative;
-  z-index: 1;
-  padding: 18px 18px;
-}
-
-/* “冷たい真空”の薄いグロス */
-.pageflip-gloss{
-  position: absolute;
-  inset: -40%;
-  pointer-events: none;
-  z-index: 0;
-
-  background: radial-gradient(
-    circle at 20% 30%,
-    rgba(255,255,255,0.10),
-    rgba(255,255,255,0.04) 35%,
-    rgba(0,0,0,0) 70%
-  );
-
-  transform: translateX(-18%) rotate(10deg);
-  opacity: 0.0;
-  transition: opacity 600ms ease, transform 900ms cubic-bezier(0.16, 1, 0.22, 1);
-}
-
-.pageflip.is-on .pageflip-gloss{
-  opacity: 0.40;
-  transform: translateX(0%) rotate(10deg);
-}
-
-/* モバイルは回転角を少し弱めて読みやすく */
-@media (max-width: 768px){
-  .pageflip{ margin: 18px auto; perspective: 900px; }
-  .pageflip-page{ transform: rotateY(-62deg); }
-  .pageflip-face{ padding: 16px 14px; }
-}
-
-/* 端末が“動き少なめ”設定の場合は静かに */
-@media (prefers-reduced-motion: reduce){
-  .pageflip-page{
-    transform: none !important;
-    opacity: 1 !important;
-    filter: none !important;
-    transition: none !important;
-  }
-  .pageflip-gloss{ display: none; }
-}
-
-/* =========================================================
-   HOME Pager — Book Page Flip (Cold Vacuum)
-   ========================================================= */
-
+/* root */
 .hp-root{
   position: relative;
+  width: 100%;
   min-height: 100svh;
-  overflow: hidden;            /* ←縦スクロールを“本”に変える */
+  overflow: hidden; /* 縦長スクロールを止める（本にする） */
+  background: #000;
 }
 
+/* cosmic background (軽量) */
+.hp-cosmos{
+  position: absolute;
+  inset: -20%;
+  pointer-events: none;
+  opacity: 0.70;
+
+  background:
+    radial-gradient(1200px 700px at 20% 18%, rgba(255,255,255,0.035), transparent 60%),
+    radial-gradient(900px 520px at 80% 75%, rgba(255,255,255,0.022), transparent 58%),
+    radial-gradient(700px 420px at 55% 45%, rgba(180,200,255,0.020), transparent 62%),
+    radial-gradient(1px 1px at 8% 18%, rgba(255,255,255,0.30), transparent 60%),
+    radial-gradient(1px 1px at 22% 62%, rgba(255,255,255,0.24), transparent 60%),
+    radial-gradient(1px 1px at 45% 30%, rgba(255,255,255,0.18), transparent 60%),
+    radial-gradient(1px 1px at 63% 68%, rgba(255,255,255,0.16), transparent 60%),
+    radial-gradient(1px 1px at 78% 22%, rgba(255,255,255,0.22), transparent 60%),
+    radial-gradient(1px 1px at 90% 55%, rgba(255,255,255,0.14), transparent 60%);
+
+  filter: blur(0.2px);
+  animation: hpCosmicDrift 18s ease-in-out infinite;
+}
+
+@keyframes hpCosmicDrift{
+  0%   { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.62; }
+  50%  { transform: translate3d(-18px,12px,0px) scale(1.02); opacity: 0.78; }
+  100% { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.62; }
+}
+
+/* stage */
 .hp-stage{
   position: relative;
   width: 100%;
@@ -8010,68 +7957,64 @@ html, body {
   transform-style: preserve-3d;
 }
 
-/* 1ページ */
+/* page layer */
 .hp-page{
   position: absolute;
   inset: 0;
   display: grid;
   place-items: center;
-  padding: 86px 18px 86px;     /* 上：メニュー/下：余白 */
+  padding: 92px 18px 92px;
   pointer-events: none;
 }
+.hp-page.is-active{ pointer-events: auto; }
 
-.hp-page.is-active{
-  pointer-events: auto;
-}
-
-/* 1枚の紙（ガラス/黒フィルム統一） */
+/* sheet (glass / cold vacuum) */
 .hp-sheet{
+  position: relative;
   width: min(980px, calc(100vw - 28px));
-  border-radius: 24px;
+  border-radius: 26px;
   overflow: hidden;
 
-  background: rgba(0,0,0,0.16);
+  background: rgba(0,0,0,0.20);
   border: 1px solid rgba(255,255,255,0.08);
-  backdrop-filter: blur(10px) saturate(120%);
-  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  backdrop-filter: blur(12px) saturate(120%);
+  -webkit-backdrop-filter: blur(12px) saturate(120%);
   box-shadow: 0 30px 110px rgba(0,0,0,0.62);
 
   transform-origin: right center;
-  transform: translateZ(0) rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
+/* content padding */
 .hp-content{
+  position: relative;
+  z-index: 2;
   padding: 22px 18px;
 }
 
-/* 冷たいグロス */
+/* gloss */
 .hp-gloss{
   position: absolute;
   inset: -40%;
+  z-index: 1;
   pointer-events: none;
-
   background: radial-gradient(
     circle at 20% 30%,
     rgba(255,255,255,0.12),
     rgba(255,255,255,0.05) 35%,
     rgba(0,0,0,0) 72%
   );
-
   transform: translateX(-16%) rotate(12deg);
-  opacity: 0.36;
-  transition: transform 900ms cubic-bezier(0.16,1,0.22,1);
+  opacity: 0.30;
+  transition: transform 900ms cubic-bezier(0.16,1,0.22,1), opacity 600ms ease;
 }
 
-.hp-page.dir-next.is-active .hp-gloss{ transform: translateX(0%) rotate(12deg); }
-.hp-page.dir-prev.is-active .hp-gloss{ transform: translateX(-6%) rotate(12deg); }
-
-/* ---- ページめくりアニメ（圧→開く） ---- */
+/* page flip (pressure → open) */
 .hp-page.is-next .hp-sheet{
   transform: rotateY(-78deg);
   opacity: 0;
   filter: blur(2px);
 }
-
 .hp-page.is-prev .hp-sheet{
   transform: rotateY(78deg);
   opacity: 0;
@@ -8088,14 +8031,24 @@ html, body {
     filter 520ms ease;
 }
 
-/* 使わないページは軽く */
-.hp-off{ display:none; }
+.hp-page.dir-next.is-active .hp-gloss{ transform: translateX(0%) rotate(12deg); opacity: 0.42; }
+.hp-page.dir-prev.is-active .hp-gloss{ transform: translateX(-6%) rotate(12deg); opacity: 0.38; }
 
-/* インジケータ */
+/* small drift */
+.hp-sheet{
+  animation: hpSheetFloat 10.5s ease-in-out infinite;
+}
+@keyframes hpSheetFloat{
+  0%   { transform: translate3d(0px,0px,0px) rotateY(0deg); }
+  50%  { transform: translate3d(0px,-7px,0px) rotateY(0deg); }
+  100% { transform: translate3d(0px,0px,0px) rotateY(0deg); }
+}
+
+/* indicator */
 .hp-indicator{
   position: fixed;
-  left: 18px;
-  top: 18px;
+  left: 16px;
+  top: 16px;
   z-index: 70;
 
   display: inline-flex;
@@ -8109,15 +8062,13 @@ html, body {
   border-radius: 14px;
   padding: 10px 12px;
 }
-
 .hp-dot{
   width: 6px;
   height: 6px;
   border-radius: 999px;
-  background: rgba(245,245,245,0.72);
+  background: rgba(245,245,245,0.70);
   box-shadow: 0 0 18px rgba(255,255,255,0.12);
 }
-
 .hp-count{
   color: rgba(245,245,245,0.70);
   letter-spacing: 0.16em;
@@ -8125,43 +8076,69 @@ html, body {
   font-size: 0.78rem;
 }
 
-/* 小さなナビ（邪魔にならない） */
+/* dots bottom */
+.hp-dots{
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  z-index: 70;
+
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+
+  border-radius: 999px;
+  background: rgba(0,0,0,0.20);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.hp-dotbtn{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.22);
+  background: rgba(255,255,255,0.10);
+  cursor: pointer;
+}
+.hp-dotbtn.active{
+  background: rgba(255,255,255,0.40);
+  border-color: rgba(255,255,255,0.40);
+}
+
+/* nav bottom-right */
 .hp-nav{
   position: fixed;
-  right: 18px;
-  bottom: 18px;
+  right: 16px;
+  bottom: 16px;
   z-index: 70;
   display: flex;
   gap: 10px;
 }
-
 .hp-btn{
   width: 44px;
   height: 44px;
   border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.12);
   background: rgba(0,0,0,0.22);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   color: rgba(245,245,245,0.86);
   cursor: pointer;
 }
+.hp-btn:disabled{ opacity: 0.35; cursor: default; }
 
-.hp-btn:disabled{
-  opacity: 0.35;
-  cursor: default;
-}
-
-/* モバイル */
+/* mobile */
 @media (max-width: 768px){
-  .hp-page{ padding: 78px 14px 78px; }
+  .hp-page{ padding: 82px 14px 82px; }
   .hp-content{ padding: 18px 14px; }
-  .hp-indicator{ left: 14px; top: 14px; }
-  .hp-nav{ right: 14px; bottom: 14px; }
 }
 
-/* 動き少なめ */
+/* reduced motion */
 @media (prefers-reduced-motion: reduce){
+  .hp-cosmos{ animation: none !important; }
+  .hp-sheet{ animation: none !important; }
   .hp-page.is-next .hp-sheet,
   .hp-page.is-prev .hp-sheet,
   .hp-page.is-active .hp-sheet{
@@ -8171,509 +8148,4 @@ html, body {
     transition: none !important;
   }
   .hp-gloss{ display:none; }
-}
-
-/* =========================================================
-   HOME — Page Flip Layout (snap + book-ish)
-   ========================================================= */
-
-/* ページコンテナ：縦スクロールだが “1ページずつ” 止まる */
-.home-pager{
-  height: 100dvh;
-  overflow-y: auto;
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
-
-  /* iOSの慣性 */
-  -webkit-overflow-scrolling: touch;
-}
-
-/* 各ページ：画面1枚分 */
-.home-page{
-  min-height: 100dvh;
-  padding: 96px 0 72px;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-/* “ページめくり”っぽいニュアンス（スクロール時に気配が出る程度） */
-.home-page{
-  transform-origin: left center;
-  will-change: transform, opacity;
-}
-
-/* 既存の hero セクションが強い場合は余白を均す */
-.home-page .hero{
-  padding-bottom: 0;
-}
-
-/* 端末で1ページに収めやすくする */
-@media (max-width: 768px){
-  .home-page{
-    padding: 88px 0 64px;
-  }
-}
-
-/* reduced motion */
-@media (prefers-reduced-motion: reduce){
-  .home-pager{ scroll-behavior: auto; }
-}
-
-/* =========================================================
-   HOME Pager — Cosmic Pager (Cold Vacuum / Elegant Drift)
-   Works with: <main class="home-pager cosmic-pager"> + <section class="home-page">
-   ========================================================= */
-
-.home-pager.cosmic-pager{
-  /* 横ページ構成（本） */
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-
-  /* スクロールバーを静かに */
-  scrollbar-width: none;         /* Firefox */
-}
-.home-pager.cosmic-pager::-webkit-scrollbar{ display:none; }
-
-/* “宇宙” 背景：薄い黒の真空 + 星雲の気配（重くしない） */
-.home-pager.cosmic-pager{
-  position: relative;
-  background: radial-gradient(1200px 700px at 20% 18%, rgba(255,255,255,0.035), transparent 60%),
-              radial-gradient(900px 520px at 80% 75%, rgba(255,255,255,0.022), transparent 58%),
-              radial-gradient(700px 420px at 55% 45%, rgba(180,200,255,0.020), transparent 62%),
-              #000000;
-}
-
-/* 星の粒子（CSSだけで軽量） */
-.home-pager.cosmic-pager::before{
-  content:"";
-  position:absolute;
-  inset:-20%;
-  pointer-events:none;
-  opacity: 0.55;
-  background:
-    radial-gradient(1px 1px at 8% 18%, rgba(255,255,255,0.35), transparent 60%),
-    radial-gradient(1px 1px at 22% 62%, rgba(255,255,255,0.28), transparent 60%),
-    radial-gradient(1px 1px at 45% 30%, rgba(255,255,255,0.22), transparent 60%),
-    radial-gradient(1px 1px at 63% 68%, rgba(255,255,255,0.20), transparent 60%),
-    radial-gradient(1px 1px at 78% 22%, rgba(255,255,255,0.26), transparent 60%),
-    radial-gradient(1px 1px at 90% 55%, rgba(255,255,255,0.18), transparent 60%);
-  filter: blur(0.2px);
-  animation: cosmic-drift 18s ease-in-out infinite;
-}
-
-/* かすかな薄膜（黒いフィルム統一：文字を暗くしすぎない） */
-.home-pager.cosmic-pager::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  pointer-events:none;
-  background: rgba(0,0,0,0.22);
-  backdrop-filter: blur(0px);
-}
-
-/* 各ページ */
-.home-page{
-  flex: 0 0 100%;
-  width: 100%;
-  min-height: 100vh;
-  scroll-snap-align: start;
-  position: relative;
-
-  /* “紙面”の余白 */
-  padding: 110px 22px 80px;
-
-  /* 漂い（全体が少しだけ浮く） */
-  animation: page-float 10.5s ease-in-out infinite;
-}
-
-/* ページ内の内容が読みやすいように、薄い黒フィルムをページ単位で統一 */
-.home-page::before{
-  content:"";
-  position:absolute;
-  inset: 68px 14px 18px;
-  border-radius: 26px;
-
-  /* 背景が見える程度の透明感 + 薄い黒フィルム */
-  background: rgba(0,0,0,0.20);
-  border: 1px solid rgba(255,255,255,0.07);
-
-  /* “冷たい真空”の薄いグロー */
-  box-shadow:
-    0 28px 90px rgba(0,0,0,0.55),
-    0 0 0 1px rgba(255,255,255,0.02) inset;
-
-  backdrop-filter: blur(10px) saturate(112%);
-  -webkit-backdrop-filter: blur(10px) saturate(112%);
-  pointer-events:none;
-}
-
-/* ページの中身は前面 */
-.home-page > *{
-  position: relative;
-  z-index: 1;
-}
-
-/* “本のページをめくる”印象：左右のハイライト */
-.home-page::after{
-  content:"";
-  position:absolute;
-  inset: 68px 14px 18px;
-  border-radius: 26px;
-  pointer-events:none;
-
-  background:
-    linear-gradient(90deg,
-      rgba(255,255,255,0.06),
-      rgba(255,255,255,0.00) 25%,
-      rgba(255,255,255,0.00) 75%,
-      rgba(255,255,255,0.04)
-    );
-  mix-blend-mode: screen;
-  opacity: 0.24;
-}
-
-/* マウス/タッチで“圧”を感じる：hover時に静かに上がる（邪魔しない） */
-@media (hover:hover){
-  .home-page:hover{
-    animation-play-state: running;
-    transform: translateY(-1px);
-    transition: transform 220ms ease;
-  }
-}
-
-/* ページ内の既存カード群の幅を揃える（あなたの既存デザインを壊さない範囲） */
-.home-pager.cosmic-pager .hero-links,
-.home-pager.cosmic-pager .plaza-feature,
-.home-pager.cosmic-pager .home-section,
-.home-pager.cosmic-pager .home-divider{
-  max-width: 860px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* モバイル最適化 */
-@media (max-width: 768px){
-  .home-page{
-    padding: 96px 14px 70px;
-  }
-  .home-page::before,
-  .home-page::after{
-    inset: 62px 10px 14px;
-    border-radius: 22px;
-  }
-}
-
-/* motion */
-@keyframes cosmic-drift{
-  0%   { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.52; }
-  50%  { transform: translate3d(-18px,12px,0px) scale(1.02); opacity: 0.62; }
-  100% { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.52; }
-}
-
-@keyframes page-float{
-  0%   { transform: translate3d(0px,0px,0px); }
-  50%  { transform: translate3d(0px,-6px,0px); }
-  100% { transform: translate3d(0px,0px,0px); }
-}
-
-/* 低モーション環境では止める */
-@media (prefers-reduced-motion: reduce){
-  .home-pager.cosmic-pager::before,
-  .home-page{
-    animation: none !important;
-  }
-}
-
-/* =========================================================
-   HomePager shell (hp-*)
-   ========================================================= */
-
-.hp-shell{
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-}
-
-.hp-scroller{
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
-
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-
-  scrollbar-width: none;
-}
-.hp-scroller::-webkit-scrollbar{ display:none; }
-
-.hp-page{
-  flex: 0 0 100%;
-  width: 100%;
-  min-height: 100vh;
-  scroll-snap-align: start;
-  position: relative;
-}
-
-/* 既存の “宇宙漂い” をページ単位で使う */
-.hp-float{
-  width: 100%;
-  min-height: 100vh;
-}
-
-/* dots */
-.hp-dots{
-  position: fixed;
-  left: 50%;
-  bottom: 18px;
-  transform: translateX(-50%);
-  z-index: 30;
-  display: flex;
-  gap: 10px;
-  padding: 10px 12px;
-  border-radius: 999px;
-  background: rgba(0,0,0,0.20);
-  border: 1px solid rgba(255,255,255,0.08);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
-.hp-dot{
-  width: 8px;
-  height: 8px;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.18);
-  background: rgba(255,255,255,0.10);
-  cursor: pointer;
-}
-.hp-dot.active{
-  background: rgba(255,255,255,0.60);
-  border-color: rgba(255,255,255,0.28);
-}
-
-/* arrows */
-.hp-nav{
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 30;
-
-  width: 44px;
-  height: 44px;
-  border-radius: 14px;
-
-  background: rgba(0,0,0,0.22);
-  border: 1px solid rgba(255,255,255,0.10);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-
-  color: rgba(245,245,245,0.86);
-  cursor: pointer;
-}
-
-.hp-prev{ left: 14px; }
-.hp-next{ right: 14px; }
-
-@media (max-width: 768px){
-  .hp-nav{ display:none; } /* モバイルはスワイプが主役 */
-  .hp-dots{ bottom: 14px; }
-}
-
-/* =========================================================
-   HOME Pager — Horizontal Book Mode
-   (Do not change page content, only layout)
-   ========================================================= */
-
-.cosmic-pager {
-  height: 100vh;
-  overflow: hidden; /* 縦スクロールを止める */
-}
-
-/* HomePager.tsx が使うラッパ */
-.hp-shell {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-/* 横スクロール本体 */
-.hp-scroller {
-  height: 100%;
-  width: 100%;
-
-  display: flex;
-  flex-direction: row;
-
-  overflow-x: auto;
-  overflow-y: hidden;
-
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-
-  -webkit-overflow-scrolling: touch;
-}
-
-/* スクロールバーをできるだけ消す（見た目） */
-.hp-scroller::-webkit-scrollbar {
-  height: 0px;
-}
-
-/* 1ページ=画面幅 */
-.hp-page {
-  flex: 0 0 100vw;
-  height: 100vh;
-  scroll-snap-align: start;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 0 18px;
-  box-sizing: border-box;
-}
-
-/* ページ内の既存レイアウトが縦に伸びても崩れないように */
-.home-page {
-  width: min(980px, 100%);
-}
-
-/* モバイルで左右ナビが邪魔なら少し下げる */
-@media (max-width: 768px) {
-  .hp-page {
-    padding: 0 14px;
-  }
-}
-
-/* =========================================================
-   HomePager — Horizontal Paging (FORCE)
-   Put this at the VERY END of globals.css
-   ========================================================= */
-
-.cosmic-pager{
-  width: 100%;
-  min-height: 100vh;
-}
-
-/* wrapper */
-.hp-shell{
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden !important;
-}
-
-/* horizontal scroller */
-.hp-scroller{
-  display: flex !important;
-  flex-direction: row !important;
-
-  width: 100%;
-  height: 100vh !important;
-
-  overflow-x: auto !important;
-  overflow-y: hidden !important;
-
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-
-  scrollbar-width: none;
-}
-.hp-scroller::-webkit-scrollbar{ display: none; }
-
-/* each page */
-.hp-page{
-  flex: 0 0 100% !important;
-  width: 100% !important;
-  height: 100vh !important;
-
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 120px 24px;
-  box-sizing: border-box;
-}
-
-/* page float container */
-.hp-float{
-  width: min(980px, 100%);
-  animation: hpFloat 9s ease-in-out infinite;
-  transform: translate3d(0,0,0);
-}
-
-@keyframes hpFloat{
-  0% { transform: translate3d(0, 0px, 0); }
-  50% { transform: translate3d(0, -10px, 0); }
-  100% { transform: translate3d(0, 0px, 0); }
-}
-
-/* dots */
-.hp-dots{
-  position: fixed;
-  left: 50%;
-  bottom: 18px;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-  z-index: 60;
-}
-
-.hp-dot{
-  width: 8px;
-  height: 8px;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.22);
-  background: rgba(0,0,0,0.18);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  cursor: pointer;
-}
-.hp-dot.active{
-  background: rgba(255,255,255,0.28);
-  border-color: rgba(255,255,255,0.42);
-}
-
-/* prev/next */
-.hp-nav{
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 60;
-
-  width: 42px;
-  height: 42px;
-  border-radius: 14px;
-
-  border: 1px solid rgba(255,255,255,0.14);
-  background: rgba(0,0,0,0.24);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  color: rgba(245,245,245,0.9);
-  cursor: pointer;
-}
-
-.hp-prev{ left: 14px; }
-.hp-next{ right: 14px; }
-
-@media (max-width: 768px){
-  .hp-page{ padding: 96px 18px; }
-  .hp-prev{ left: 10px; }
-  .hp-next{ right: 10px; }
 }
