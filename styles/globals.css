@@ -8489,3 +8489,69 @@ html, body {
   .hp-nav{ display:none; } /* モバイルはスワイプが主役 */
   .hp-dots{ bottom: 14px; }
 }
+
+/* =========================================================
+   HOME Pager — Horizontal Book Mode
+   (Do not change page content, only layout)
+   ========================================================= */
+
+.cosmic-pager {
+  height: 100vh;
+  overflow: hidden; /* 縦スクロールを止める */
+}
+
+/* HomePager.tsx が使うラッパ */
+.hp-shell {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 横スクロール本体 */
+.hp-scroller {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+/* スクロールバーをできるだけ消す（見た目） */
+.hp-scroller::-webkit-scrollbar {
+  height: 0px;
+}
+
+/* 1ページ=画面幅 */
+.hp-page {
+  flex: 0 0 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+
+/* ページ内の既存レイアウトが縦に伸びても崩れないように */
+.home-page {
+  width: min(980px, 100%);
+}
+
+/* モバイルで左右ナビが邪魔なら少し下げる */
+@media (max-width: 768px) {
+  .hp-page {
+    padding: 0 14px;
+  }
+}
