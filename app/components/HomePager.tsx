@@ -1,6 +1,7 @@
 "use client";
 
 import { ReactNode, useEffect, useMemo, useRef, useState } from "react";
+import React from "react";
 
 type Props = {
   children: ReactNode;
@@ -8,10 +9,10 @@ type Props = {
 
 export default function HomePager({ children }: Props) {
   const scrollerRef = useRef<HTMLDivElement | null>(null);
-  const pages = useMemo(
-    () => (Array.isArray(children) ? children : [children]),
-    [children]
-  );
+
+  // ✅ これが重要：children を確実に「配列化」する（7ページに分割される）
+  const pages = useMemo(() => React.Children.toArray(children), [children]);
+
   const [index, setIndex] = useState(0);
 
   const scrollToIndex = (i: number) => {
@@ -36,7 +37,7 @@ export default function HomePager({ children }: Props) {
     return () => el.removeEventListener("scroll", onScroll);
   }, []);
 
-  // 縦ホイール → 横ページ
+  // ホイール縦スクロール → 横ページ
   useEffect(() => {
     const el = scrollerRef.current;
     if (!el) return;
@@ -65,7 +66,6 @@ export default function HomePager({ children }: Props) {
 
   return (
     <div className="anp-shell">
-      {/* cosmic background */}
       <div className="anp-cosmos" aria-hidden="true" />
 
       <div className="anp-scroller" ref={scrollerRef} aria-label="Home pages (horizontal)">
@@ -79,7 +79,6 @@ export default function HomePager({ children }: Props) {
         ))}
       </div>
 
-      {/* dots */}
       <div className="anp-dots" aria-hidden="true">
         {pages.map((_, i) => (
           <button
@@ -92,7 +91,6 @@ export default function HomePager({ children }: Props) {
         ))}
       </div>
 
-      {/* arrows */}
       <button
         type="button"
         className="anp-nav anp-prev"

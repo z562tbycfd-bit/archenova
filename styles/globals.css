@@ -8543,3 +8543,187 @@ html, body {
 @media (prefers-reduced-motion: reduce){
   .anp-cosmos, .anp-sheet{ animation: none !important; }
 }
+
+/* ===== HOME: force book paging ===== */
+.cosmic-pager{
+  height: 100vh;
+  overflow: hidden; /* 縦長を止める */
+}
+
+/* pager shell */
+.anp-shell{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* cosmic background (lightweight) */
+.anp-cosmos{
+  position: absolute;
+  inset: -20%;
+  pointer-events: none;
+  background:
+    radial-gradient(1200px 700px at 20% 18%, rgba(255,255,255,0.035), transparent 60%),
+    radial-gradient(900px 520px at 80% 75%, rgba(255,255,255,0.022), transparent 58%),
+    radial-gradient(700px 420px at 55% 45%, rgba(180,200,255,0.020), transparent 62%),
+    radial-gradient(1px 1px at 8% 18%, rgba(255,255,255,0.35), transparent 60%),
+    radial-gradient(1px 1px at 22% 62%, rgba(255,255,255,0.28), transparent 60%),
+    radial-gradient(1px 1px at 45% 30%, rgba(255,255,255,0.22), transparent 60%),
+    radial-gradient(1px 1px at 63% 68%, rgba(255,255,255,0.20), transparent 60%),
+    radial-gradient(1px 1px at 78% 22%, rgba(255,255,255,0.26), transparent 60%),
+    radial-gradient(1px 1px at 90% 55%, rgba(255,255,255,0.18), transparent 60%),
+    #000;
+  opacity: 0.85;
+  animation: anp-drift 18s ease-in-out infinite;
+}
+
+@keyframes anp-drift{
+  0%   { transform: translate3d(0px,0px,0px) scale(1); }
+  50%  { transform: translate3d(-18px,12px,0px) scale(1.02); }
+  100% { transform: translate3d(0px,0px,0px) scale(1); }
+}
+
+/* horizontal scroller */
+.anp-scroller{
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 100vh;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none;
+}
+.anp-scroller::-webkit-scrollbar{ display:none; }
+
+/* each page */
+.anp-page{
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 110px 22px 80px;
+  box-sizing: border-box;
+}
+
+/* sheet */
+.anp-sheet{
+  position: relative;
+  width: min(980px, 100%);
+  max-height: calc(100vh - 160px);
+  border-radius: 26px;
+  overflow: hidden;
+
+  background: rgba(0,0,0,0.18);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px) saturate(115%);
+  -webkit-backdrop-filter: blur(10px) saturate(115%);
+  box-shadow: 0 28px 90px rgba(0,0,0,0.55);
+}
+
+/* subtle cold gloss */
+.anp-gloss{
+  position: absolute;
+  inset: -40%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at 20% 30%,
+    rgba(255,255,255,0.10),
+    rgba(255,255,255,0.04) 35%,
+    rgba(0,0,0,0) 72%
+  );
+  transform: translateX(-16%) rotate(12deg);
+  opacity: 0.36;
+}
+
+/* page content */
+.anp-content{
+  position: relative;
+  padding: 22px 18px;
+  max-height: calc(100vh - 160px);
+  overflow: auto; /* もし1ページが長くても “そのページ内で” スクロール */
+}
+
+/* dots */
+.anp-dots{
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  z-index: 60;
+
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 999px;
+
+  background: rgba(0,0,0,0.20);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.anp-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.10);
+  cursor: pointer;
+}
+.anp-dot.active{
+  background: rgba(255,255,255,0.55);
+  border-color: rgba(255,255,255,0.28);
+}
+
+/* arrows */
+.anp-nav{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 60;
+
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(0,0,0,0.24);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  color: rgba(245,245,245,0.9);
+  cursor: pointer;
+}
+.anp-prev{ left: 14px; }
+.anp-next{ right: 14px; }
+
+.anp-nav:disabled{
+  opacity: 0.35;
+  cursor: default;
+}
+
+@media (max-width: 768px){
+  .anp-page{ padding: 96px 14px 70px; }
+  .anp-nav{ display:none; } /* モバイルはスワイプ */
+}
+@media (prefers-reduced-motion: reduce){
+  .anp-cosmos{ animation: none; }
+  .anp-scroller{ scroll-behavior: auto; }
+}
