@@ -8727,3 +8727,124 @@ html, body {
   .anp-cosmos{ animation: none; }
   .anp-scroller{ scroll-behavior: auto; }
 }
+
+/* =========================================================
+   HomePager — FORCE Horizontal Book Paging (minimal + safe)
+   Put this at the VERY END of globals.css
+   ========================================================= */
+
+/* /home の <main className="cosmic-pager"> 用 */
+.cosmic-pager{
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden; /* 縦に伸びないように止める */
+  position: relative;
+  background: #000; /* 既存の site-bg があってもOK */
+}
+
+/* HomePager.tsx の shell */
+.hp-shell{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* 横スクロール本体：ここが無いと縦積みになります */
+.hp-scroller{
+  display: flex;                /* 横並び */
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+
+  overflow-x: auto;             /* 横にめくる */
+  overflow-y: hidden;           /* 縦スクロール禁止 */
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none;        /* Firefox */
+}
+.hp-scroller::-webkit-scrollbar{ display:none; }
+
+/* 1ページ＝画面幅 */
+.hp-page{
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+
+/* page内容（あなたの <section className="home-page">）をそのまま入れる */
+.hp-float{
+  width: min(980px, 100%);
+  max-height: 100vh;
+  overflow: auto; /* 内容が長い場合だけ内部スクロール */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* dots */
+.hp-dots{
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  z-index: 80;
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.20);
+  border: 1px solid rgba(255,255,255,0.10);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.hp-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.20);
+  background: rgba(255,255,255,0.10);
+  cursor: pointer;
+}
+.hp-dot.active{
+  background: rgba(255,255,255,0.55);
+  border-color: rgba(255,255,255,0.35);
+}
+
+/* arrows */
+.hp-nav{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 80;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(0,0,0,0.22);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  color: rgba(245,245,245,0.9);
+  cursor: pointer;
+}
+
+.hp-prev{ left: 14px; }
+.hp-next{ right: 14px; }
+
+@media (max-width: 768px){
+  .hp-nav{ display:none; } /* モバイルはスワイプ */
+  .hp-page{ padding: 0 14px; }
+}
