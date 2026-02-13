@@ -8848,3 +8848,175 @@ html, body {
   .hp-nav{ display:none; } /* モバイルはスワイプ */
   .hp-page{ padding: 0 14px; }
 }
+
+/* =========================================================
+   HOME : Section “Page” Snap (Book-like readability)
+   ========================================================= */
+
+.home-snap{
+  min-height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.home-snap .home-page{
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 110px 18px 86px;
+  position: relative;
+}
+
+/* 読みやすい“薄い黒フィルム”をページ単位で統一 */
+.home-snap .home-page::before{
+  content:"";
+  position:absolute;
+  inset: 64px 12px 18px;
+  border-radius: 24px;
+  background: rgba(0,0,0,0.18);
+  border: 1px solid rgba(255,255,255,0.07);
+  backdrop-filter: blur(10px) saturate(112%);
+  -webkit-backdrop-filter: blur(10px) saturate(112%);
+  box-shadow: 0 28px 90px rgba(0,0,0,0.55);
+  pointer-events:none;
+}
+
+/* ページの中身は前面 */
+.home-snap .home-page > *{
+  position: relative;
+  z-index: 1;
+}
+
+/* =========================================================
+   “Always-on” Cosmic Drift (lightweight, global)
+   Works with your existing: .site-bg / .site-vignette
+   ========================================================= */
+
+.site-bg{
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+  background:
+    radial-gradient(1200px 700px at 20% 18%, rgba(255,255,255,0.035), transparent 60%),
+    radial-gradient(900px 520px at 80% 75%, rgba(255,255,255,0.022), transparent 58%),
+    radial-gradient(700px 420px at 55% 45%, rgba(180,200,255,0.018), transparent 62%),
+    #000;
+}
+
+/* 星粒（CSSだけ） */
+.site-bg::before{
+  content:"";
+  position:absolute;
+  inset:-20%;
+  pointer-events:none;
+  opacity: 0.55;
+  background:
+    radial-gradient(1px 1px at 8% 18%, rgba(255,255,255,0.35), transparent 60%),
+    radial-gradient(1px 1px at 22% 62%, rgba(255,255,255,0.28), transparent 60%),
+    radial-gradient(1px 1px at 45% 30%, rgba(255,255,255,0.22), transparent 60%),
+    radial-gradient(1px 1px at 63% 68%, rgba(255,255,255,0.20), transparent 60%),
+    radial-gradient(1px 1px at 78% 22%, rgba(255,255,255,0.26), transparent 60%),
+    radial-gradient(1px 1px at 90% 55%, rgba(255,255,255,0.18), transparent 60%);
+  filter: blur(0.2px);
+  animation: cosmic-drift 18s ease-in-out infinite;
+}
+
+.site-vignette{
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events:none;
+  background: radial-gradient(circle at 50% 40%, rgba(0,0,0,0.0), rgba(0,0,0,0.55));
+}
+
+/* ページ自体が微妙に浮く（邪魔しない） */
+.home-snap .home-page{
+  animation: page-float 10.5s ease-in-out infinite;
+}
+
+@keyframes cosmic-drift{
+  0%   { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.50; }
+  50%  { transform: translate3d(-18px,12px,0px) scale(1.02); opacity: 0.62; }
+  100% { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.50; }
+}
+
+@keyframes page-float{
+  0%   { transform: translate3d(0px,0px,0px); }
+  50%  { transform: translate3d(0px,-6px,0px); }
+  100% { transform: translate3d(0px,0px,0px); }
+}
+
+/* =========================================================
+   Home Section Pager UI (Next/Prev + dots)
+   ========================================================= */
+
+.hs-pager{
+  position: fixed;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  z-index: 90;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.22);
+  border: 1px solid rgba(255,255,255,0.10);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.hs-btn{
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(0,0,0,0.20);
+  color: rgba(245,245,245,0.90);
+  cursor: pointer;
+}
+
+.hs-btn:disabled{
+  opacity: 0.35;
+  cursor: default;
+}
+
+.hs-dots{
+  display: inline-flex;
+  gap: 10px;
+  padding: 0 6px;
+}
+
+.hs-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.20);
+  background: rgba(255,255,255,0.10);
+  cursor: pointer;
+}
+
+.hs-dot.active{
+  background: rgba(255,255,255,0.60);
+  border-color: rgba(255,255,255,0.35);
+}
+
+@media (max-width: 768px){
+  .home-snap .home-page{ padding: 96px 14px 74px; }
+  .home-snap .home-page::before{ inset: 60px 10px 14px; border-radius: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .site-bg::before,
+  .home-snap .home-page{
+    animation: none !important;
+  }
+  .home-snap{ scroll-behavior: auto; }
+}
