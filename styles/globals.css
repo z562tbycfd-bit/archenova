@@ -8149,3 +8149,201 @@ html, body {
   }
   .hp-gloss{ display:none; }
 }
+
+/* =========================================================
+   ArcheNova HomePager (Book Mode) — FORCE (append at EOF)
+   ========================================================= */
+
+/* /home の <main class="cosmic-pager"> を “縦スクロール禁止” に固定 */
+.cosmic-pager{
+  height: 100svh !important;
+  overflow: hidden !important;
+}
+
+/* HomePager shell */
+.anp-shell{
+  position: relative !important;
+  width: 100% !important;
+  height: 100svh !important;
+  overflow: hidden !important;
+  background: #000 !important;
+}
+
+/* cosmic drift background */
+.anp-cosmos{
+  content:"";
+  position:absolute !important;
+  inset:-20% !important;
+  pointer-events:none !important;
+  opacity:0.70 !important;
+  background:
+    radial-gradient(1200px 700px at 20% 18%, rgba(255,255,255,0.035), transparent 60%),
+    radial-gradient(900px 520px at 80% 75%, rgba(255,255,255,0.022), transparent 58%),
+    radial-gradient(700px 420px at 55% 45%, rgba(180,200,255,0.020), transparent 62%),
+    radial-gradient(1px 1px at 8% 18%, rgba(255,255,255,0.30), transparent 60%),
+    radial-gradient(1px 1px at 22% 62%, rgba(255,255,255,0.24), transparent 60%),
+    radial-gradient(1px 1px at 45% 30%, rgba(255,255,255,0.18), transparent 60%),
+    radial-gradient(1px 1px at 63% 68%, rgba(255,255,255,0.16), transparent 60%),
+    radial-gradient(1px 1px at 78% 22%, rgba(255,255,255,0.22), transparent 60%),
+    radial-gradient(1px 1px at 90% 55%, rgba(255,255,255,0.14), transparent 60%);
+  filter: blur(0.2px) !important;
+  animation: anp-drift 18s ease-in-out infinite !important;
+}
+
+@keyframes anp-drift{
+  0%   { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.62; }
+  50%  { transform: translate3d(-18px,12px,0px) scale(1.02); opacity: 0.78; }
+  100% { transform: translate3d(0px,0px,0px) scale(1); opacity: 0.62; }
+}
+
+/* horizontal scroller */
+.anp-scroller{
+  position: relative !important;
+  z-index: 2 !important;
+
+  display: flex !important;
+  flex-direction: row !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+
+  scroll-snap-type: x mandatory !important;
+  scroll-behavior: smooth !important;
+  -webkit-overflow-scrolling: touch !important;
+
+  scrollbar-width: none !important;
+}
+.anp-scroller::-webkit-scrollbar{ display: none !important; }
+
+/* each page = viewport */
+.anp-page{
+  flex: 0 0 100% !important;
+  width: 100% !important;
+  height: 100% !important;
+
+  scroll-snap-align: start !important;
+  scroll-snap-stop: always !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding: 96px 18px !important;
+  box-sizing: border-box !important;
+}
+
+/* sheet */
+.anp-sheet{
+  position: relative !important;
+  width: min(980px, calc(100vw - 28px)) !important;
+  border-radius: 26px !important;
+  overflow: hidden !important;
+
+  background: rgba(0,0,0,0.20) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+
+  backdrop-filter: blur(12px) saturate(120%) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(120%) !important;
+
+  box-shadow: 0 30px 110px rgba(0,0,0,0.62) !important;
+
+  animation: anp-float 10.5s ease-in-out infinite !important;
+  transform: translate3d(0,0,0) !important;
+}
+
+@keyframes anp-float{
+  0%   { transform: translate3d(0px,0px,0px); }
+  50%  { transform: translate3d(0px,-8px,0px); }
+  100% { transform: translate3d(0px,0px,0px); }
+}
+
+.anp-content{
+  position: relative !important;
+  z-index: 2 !important;
+  padding: 22px 18px !important;
+}
+
+/* gloss */
+.anp-gloss{
+  position: absolute !important;
+  inset: -40% !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+
+  background: radial-gradient(
+    circle at 20% 30%,
+    rgba(255,255,255,0.12),
+    rgba(255,255,255,0.05) 35%,
+    rgba(0,0,0,0) 72%
+  );
+  transform: translateX(-16%) rotate(12deg) !important;
+  opacity: 0.34 !important;
+}
+
+/* dots */
+.anp-dots{
+  position: fixed !important;
+  left: 50% !important;
+  bottom: 18px !important;
+  transform: translateX(-50%) !important;
+  z-index: 60 !important;
+
+  display: flex !important;
+  gap: 10px !important;
+  padding: 10px 12px !important;
+
+  border-radius: 999px !important;
+  background: rgba(0,0,0,0.20) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+.anp-dot{
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 999px !important;
+  border: 1px solid rgba(255,255,255,0.22) !important;
+  background: rgba(255,255,255,0.10) !important;
+  cursor: pointer !important;
+}
+.anp-dot.active{
+  background: rgba(255,255,255,0.45) !important;
+  border-color: rgba(255,255,255,0.45) !important;
+}
+
+/* arrows */
+.anp-nav{
+  position: fixed !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 60 !important;
+
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 14px !important;
+
+  border: 1px solid rgba(255,255,255,0.14) !important;
+  background: rgba(0,0,0,0.24) !important;
+
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+
+  color: rgba(245,245,245,0.90) !important;
+  cursor: pointer !important;
+}
+.anp-prev{ left: 14px !important; }
+.anp-next{ right: 14px !important; }
+.anp-nav:disabled{ opacity: 0.35 !important; cursor: default !important; }
+
+@media (max-width: 768px){
+  .anp-page{ padding: 86px 14px !important; }
+  .anp-nav{ display:none !important; } /* モバイルはスワイプが主役 */
+  .anp-dots{ bottom: 14px !important; }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .anp-cosmos, .anp-sheet{ animation: none !important; }
+}
