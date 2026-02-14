@@ -29,7 +29,7 @@ function parseABVector(code: string) {
   return bits.slice(0, 4);
 }
 
-export default function Space3D() {
+export default function Observatory() {
   const sp = useSearchParams();
   const domain = (sp.get("domain") as Domain) || "quantum";
   const code = sp.get("code") || (domain === "quantum" ? "Q-____" : "G-____");
@@ -81,8 +81,9 @@ export default function Space3D() {
         </div>
 
         <div style={{ marginTop: 14 }}>
-          <Space3DCanvas params={params} />
-        </div>
+          <Space3DCanvas domain={params.domain} code={params.code} />
+
+        </div>  
 
         <div className="page-foot" style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
           <Link className="back-link" href="/observatory">← Back to Observatory</Link>
