@@ -87,7 +87,6 @@ export default function Observatory() {
 
         <div className="page-foot" style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
           <Link className="back-link" href="/observatory">← Back to Observatory</Link>
-          <Link className="back-link" href="/home">← Back to Home</Link>
         </div>
       </div>
     </main>
