@@ -9088,3 +9088,16 @@ html, body {
     scroll-snap-stop: always !important;
   }
 }
+/* ==========================================
+   Mobile HOME: prevent snap lock at 3rd section
+   ========================================== */
+
+@media (max-width: 768px) {
+  .home-snap {
+    scroll-snap-type: y proximity !important;
+  }
+
+  .home-snap .home-page {
+    scroll-snap-stop: normal !important;
+  }
+}
