@@ -9041,3 +9041,14 @@ html, body {
 .hp-scroller {
   background: transparent !important;
 }
+@media (max-width: 768px) {
+  .site-bg {
+    background-image: url("/image/IMG_9845.jpeg");
+
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    background-color: #000;
+  }
+}
