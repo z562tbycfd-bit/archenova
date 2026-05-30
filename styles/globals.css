@@ -9020,3 +9020,32 @@ html, body {
   }
   .home-snap{ scroll-behavior: auto; }
 }
+/* ==========================================
+   ArcheNova Background Restore
+   ========================================== */
+
+/* PC */
+.site-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+
+  background-image: url("/image/IMG_9379.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* スマホ */
+@media (max-width: 768px) {
+  .site-bg {
+    background-image: url("/image/IMG_9845.jpeg");
+  }
+}
+
+/* 黒背景を強制しているものを解除 */
+.cosmic-pager,
+.hp-shell,
+.hp-scroller {
+  background: transparent !important;
+}
