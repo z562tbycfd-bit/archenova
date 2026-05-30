@@ -8,7 +8,7 @@ import HomeSectionPager from "../components/HomeSectionPager";
 
 export default function Home() {
   return (
-    <main className="home-snap">
+    <main className="home-snap" id="home-top">
       {/* “めくる”UI（Next/Prev + dots） */}
       <HomeSectionPager />
 

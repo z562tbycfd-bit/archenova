@@ -9027,3 +9027,25 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
 }
+/* ==========================================
+   Mobile HOME only: section snap stability
+   ========================================== */
+
+@media (max-width: 768px) {
+  .home-snap {
+    scroll-snap-type: y mandatory !important;
+    scroll-behavior: smooth !important;
+    overflow-x: hidden !important;
+  }
+
+  .home-snap .home-page {
+    min-height: 100svh !important;
+    scroll-snap-align: start !important;
+    scroll-snap-stop: always !important;
+  }
+
+  html,
+  body {
+    scroll-padding-top: 0 !important;
+  }
+}
