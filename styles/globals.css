@@ -9028,6 +9028,35 @@ html, body {
   background-repeat: no-repeat;
 }
 /* ==========================================
+   Mobile HOME background: same as GATE
+   ========================================== */
+
+@media (max-width: 768px) {
+  body:has(.home-snap) .site-bg {
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: -2 !important;
+
+    background-image: url("/image/IMG_9845.jpeg") !important;
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-color: #000 !important;
+  }
+
+  body:has(.home-snap) .site-bg::before {
+    display: none !important;
+    content: none !important;
+  }
+
+  body:has(.home-snap) .home-snap,
+  body:has(.home-snap) .home-page,
+  body:has(.home-snap) .hero,
+  body:has(.home-snap) .hero-scroll {
+    background: transparent !important;
+  }
+}
+/* ==========================================
    Mobile HOME only: section snap stability
    ========================================== */
 
@@ -9047,5 +9076,16 @@ html, body {
   html,
   body {
     scroll-padding-top: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .home-snap {
+    scroll-snap-type: y mandatory !important;
+    scroll-behavior: smooth !important;
+  }
+
+  .home-snap .home-page {
+    scroll-snap-align: start !important;
+    scroll-snap-stop: always !important;
   }
 }
