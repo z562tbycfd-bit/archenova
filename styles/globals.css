@@ -9027,44 +9027,39 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-/* スマホ */
-@media (max-width: 768px) {
-  .site-bg {
-    background-image: url("/image/IMG_9845.jpeg") !important;
-    background-position: center top !important;
-    background-repeat: no-repeat !important;
-  }
-}
 /* ==========================================
-   HOME: allow mobile background image to show fully
+   HOME: keep mobile background image fully visible
    ========================================== */
 
 @media (max-width: 768px) {
-  .home-snap .home-page::before {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
+  body:has(.home-snap) .site-bg {
+    background: #000 !important;
   }
 
-  .home-snap .home-page::after {
+  body:has(.home-snap) .site-bg::before {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+
+    background-image: url("/image/IMG_9845.jpeg") !important;
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+
+    transform: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+  }
+
+  body:has(.home-snap) .home-snap,
+  body:has(.home-snap) .home-page,
+  body:has(.home-snap) .hero,
+  body:has(.home-snap) .hero-scroll {
+    background: transparent !important;
+  }
+
+  body:has(.home-snap) .home-page::before,
+  body:has(.home-snap) .home-page::after {
     display: none !important;
-  }
-
-  .home-snap,
-  .home-snap .home-page {
-    background: transparent !important;
-  }
-}
-@media (max-width: 768px) {
-  .site-content,
-  .home-snap,
-  .home-snap section,
-  .home-snap .home-page,
-  .hero,
-  .hero-scroll {
-    background: transparent !important;
   }
 }
