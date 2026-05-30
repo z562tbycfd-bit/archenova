@@ -9031,22 +9031,9 @@ html, body {
 /* スマホ */
 @media (max-width: 768px) {
   .site-bg {
-    background-image: url("/image/IMG_9845.jpeg");
-  }
-}
-
-/* 黒背景を強制しているものを解除 */
-.cosmic-pager,
-.hp-shell,
-.hp-scroller {
-  background: transparent !important;
-}
-@media (max-width: 768px) {
-  .site-bg {
-    background-image: url("/image/IMG_9845.jpeg");
-
-    background-size: 100% auto;
-    background-position: center top;
-    background-repeat: no-repeat;
+    background-image: url("/image/IMG_9845.jpeg") !important;
+    background-size: 100% auto !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
   }
 }
