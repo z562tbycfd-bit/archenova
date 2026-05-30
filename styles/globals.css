@@ -9032,8 +9032,19 @@ html, body {
 @media (max-width: 768px) {
   .site-bg {
     background-image: url("/image/IMG_9845.jpeg") !important;
-    background-size: cover !important;
     background-position: center top !important;
     background-repeat: no-repeat !important;
+  }
+}/* ==========================================
+   Mobile background: show full image
+   ========================================== */
+
+@media (max-width: 768px) {
+  .site-bg {
+    background-image: url("/image/IMG_9845.jpeg") !important;
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-color: #000 !important;
   }
 }
