@@ -9041,7 +9041,6 @@ html, body {
     background-size: contain !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    background-color: #000 !important;
   }
 
   body:has(.home-snap) .site-bg::before {
