@@ -5,10 +5,12 @@ import TechnologyHome from "../components/TechnologyHome";
 import XLatest from "../components/XLatest";
 import GateFragments from "../components/GateFragments";
 import HomeSectionPager from "../components/HomeSectionPager";
+import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 
 export default function Home() {
   return (
     <main className="home-snap" id="home-top">
+      <MobileHomeScrollReset />
       {/* “めくる”UI（Next/Prev + dots） */}
       <HomeSectionPager />
 
