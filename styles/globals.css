@@ -9112,3 +9112,125 @@ html, body {
     min-height: auto !important;
   }
 }
+.hero{
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-cosmic-architecture{
+  position: absolute;
+  inset: -20%;
+  z-index: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255,255,255,0.10), transparent 28%),
+    radial-gradient(circle at 75% 60%, rgba(180,200,255,0.08), transparent 34%),
+    linear-gradient(115deg, transparent 0%, rgba(255,255,255,0.08) 48%, transparent 52%),
+    linear-gradient(65deg, transparent 0%, rgba(255,255,255,0.04) 50%, transparent 54%);
+
+  opacity: 0.35;
+  filter: blur(0.4px);
+  animation: heroCosmicDrift 18s ease-in-out infinite;
+}
+
+.hero-cosmic-architecture::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(1px 1px at 12% 24%, rgba(255,255,255,0.55), transparent 60%),
+    radial-gradient(1px 1px at 35% 72%, rgba(255,255,255,0.35), transparent 60%),
+    radial-gradient(1px 1px at 68% 42%, rgba(255,255,255,0.30), transparent 60%),
+    radial-gradient(1px 1px at 84% 18%, rgba(255,255,255,0.28), transparent 60%);
+  animation: heroParticleDrift 24s linear infinite;
+}
+/* =========================================================
+   HERO — Cold Cosmic Architecture
+   ========================================================= */
+
+.hero{
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-cosmic-architecture{
+  position: absolute;
+  inset: -20%;
+  z-index: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255,255,255,0.10), transparent 28%),
+    radial-gradient(circle at 75% 60%, rgba(180,200,255,0.08), transparent 34%),
+    linear-gradient(
+      115deg,
+      transparent 0%,
+      rgba(255,255,255,0.08) 48%,
+      transparent 52%
+    ),
+    linear-gradient(
+      65deg,
+      transparent 0%,
+      rgba(255,255,255,0.04) 50%,
+      transparent 54%
+    );
+
+  opacity: 0.35;
+  filter: blur(0.4px);
+
+  animation:
+    heroCosmicDrift 18s ease-in-out infinite;
+}
+
+.hero-cosmic-architecture::before{
+  content:"";
+  position:absolute;
+  inset:0;
+
+  background:
+    radial-gradient(1px 1px at 12% 24%, rgba(255,255,255,0.55), transparent 60%),
+    radial-gradient(1px 1px at 35% 72%, rgba(255,255,255,0.35), transparent 60%),
+    radial-gradient(1px 1px at 68% 42%, rgba(255,255,255,0.30), transparent 60%),
+    radial-gradient(1px 1px at 84% 18%, rgba(255,255,255,0.28), transparent 60%);
+
+  animation:
+    heroParticleDrift 24s linear infinite;
+}
+
+.hero-content,
+.hero-symbol{
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes heroCosmicDrift{
+  0%{
+    transform: translate3d(0,0,0) scale(1);
+  }
+
+  50%{
+    transform: translate3d(-18px,10px,0) scale(1.035);
+  }
+
+  100%{
+    transform: translate3d(0,0,0) scale(1);
+  }
+}
+
+@keyframes heroParticleDrift{
+  0%{
+    transform: translate3d(0,0,0);
+    opacity: 0.45;
+  }
+
+  50%{
+    transform: translate3d(22px,-14px,0);
+    opacity: 0.65;
+  }
+
+  100%{
+    transform: translate3d(0,0,0);
+    opacity: 0.45;
+  }
+}

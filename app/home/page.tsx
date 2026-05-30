@@ -20,7 +20,12 @@ export default function Home() {
          ========================= */}
       <section id="home-hero" data-home-section className="home-page">
         <div className="hero hero-scroll">
-          <div className="hero-content">
+          <div
+            className="hero-cosmic-architecture"
+            aria-hidden="true"
+          />
+
+  <div className="hero-content">
             <Reveal>
               <h1 className="hero-title">ArcheNova</h1>
               <p className="hero-statement">
