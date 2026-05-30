@@ -2,6 +2,7 @@ import Link from "next/link";
 import Reveal from "../components/Reveal";
 import ScienceHome from "../components/ScienceHome";
 import TechnologyHome from "../components/TechnologyHome";
+import CommercializationHome from "../components/CommercializationHome";
 import XLatest from "../components/XLatest";
 import GateFragments from "../components/GateFragments";
 import HomeSectionPager from "../components/HomeSectionPager";
@@ -167,16 +168,52 @@ export default function Home() {
         </Reveal>
 
         <Reveal delay={120}>
-          <div className="plaza-feature">
-            <ScienceHome />
-          </div>
-        </Reveal>
+  <div className="home-section home-section-center">
+    <span className="home-section-label">BASIC SCIENCE</span>
+    <p className="home-section-purpose">
+      Foundational discoveries that reveal the deep structures, laws,
+      and irreversible boundaries of reality.
+    </p>
+  </div>
+</Reveal>
 
-        <Reveal delay={160}>
-          <div className="plaza-feature">
-            <TechnologyHome />
-          </div>
-        </Reveal>
+<Reveal delay={160}>
+  <div className="plaza-feature">
+    <ScienceHome />
+  </div>
+</Reveal>
+
+<Reveal delay={200}>
+  <div className="home-section home-section-center">
+    <span className="home-section-label">APPLIED SCIENCE</span>
+    <p className="home-section-purpose">
+      Scientific principles transformed into reproducible methods,
+      engineered systems, and operational capability.
+    </p>
+  </div>
+</Reveal>
+
+<Reveal delay={240}>
+  <div className="plaza-feature">
+    <TechnologyHome />
+  </div>
+</Reveal>
+
+<Reveal delay={280}>
+  <div className="home-section home-section-center">
+    <span className="home-section-label">COMMERCIALIZATION</span>
+    <p className="home-section-purpose">
+      The transition from capability to adoption: productization,
+      institutional deployment, market formation, and scalable economic systems.
+    </p>
+  </div>
+</Reveal>
+
+<Reveal delay={320}>
+  <div className="plaza-feature">
+    <CommercializationHome />
+  </div>
+</Reveal>
       </section>
 
       {/* =========================
