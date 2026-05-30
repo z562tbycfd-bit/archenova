@@ -9101,3 +9101,14 @@ html, body {
     scroll-snap-stop: normal !important;
   }
 }
+/* ==========================================
+   Mobile HOME: prevent snap lock on BOUNDARY section
+   ========================================== */
+
+@media (max-width: 768px) {
+  #home-boundary {
+    scroll-snap-align: none !important;
+    scroll-snap-stop: normal !important;
+    min-height: auto !important;
+  }
+}
