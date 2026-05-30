@@ -148,7 +148,7 @@ export default function Home() {
 
   <Link href="/structural-ai" className="mobile-symbol-link">
     <span className="mobile-symbol-icon">◎</span>
-    <span className="mobile-symbol-label">Structural AI</span>
+    <span className="mobile-symbol-label">AI</span>
   </Link>
 </div>
       </section>
@@ -217,22 +217,6 @@ export default function Home() {
       engineered systems, and operational capability.
     </p>
   </div>
-  <div className="mobile-symbol-row mobile-symbol-row-3">
-  <Link href="/science" className="mobile-symbol-link">
-    <span className="mobile-symbol-icon">✦</span>
-    <span className="mobile-symbol-label">Basic Science</span>
-  </Link>
-
-  <Link href="/technology" className="mobile-symbol-link">
-    <span className="mobile-symbol-icon">⌬</span>
-    <span className="mobile-symbol-label">Applied Science</span>
-  </Link>
-
-  <Link href="/commercialization" className="mobile-symbol-link">
-    <span className="mobile-symbol-icon">◌</span>
-    <span className="mobile-symbol-label">Commercialization</span>
-  </Link>
-</div>
 </Reveal>
 
 <Reveal delay={240}>
@@ -256,6 +240,22 @@ export default function Home() {
     <CommercializationHome />
   </div>
 </Reveal>
+<div className="mobile-symbol-row mobile-symbol-row-3">
+  <Link href="/science" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">✦</span>
+    <span className="mobile-symbol-label">Basic Science</span>
+  </Link>
+
+  <Link href="/technology" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">⌬</span>
+    <span className="mobile-symbol-label">Applied Science</span>
+  </Link>
+
+  <Link href="/commercialization" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">◌</span>
+    <span className="mobile-symbol-label">Commercialization</span>
+  </Link>
+</div>
       </section>
 
       {/* =========================
