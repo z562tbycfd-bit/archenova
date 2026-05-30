@@ -9295,3 +9295,76 @@ html, body {
   0%,100%{ transform: translate3d(0,0,0); opacity:0.24; }
   50%{ transform: translate3d(16px,-8px,0); opacity:0.34; }
 }
+/* =========================================================
+   ArcheNova Mobile Symbol Navigation
+   ========================================================= */
+
+.mobile-symbol-row{
+  display:none;
+}
+
+@media (max-width:768px){
+
+  /* スマホではカード非表示 */
+  #home-boundary .plaza-feature,
+  #home-observation .plaza-feature{
+    display:none !important;
+  }
+
+  .mobile-symbol-row{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:10px;
+
+    width:100%;
+    max-width:360px;
+
+    margin:24px auto 0;
+  }
+
+  .mobile-symbol-link{
+    width:72px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    text-decoration:none;
+    color:rgba(245,245,245,0.92);
+
+    gap:6px;
+  }
+
+  .mobile-symbol-icon{
+    width:46px;
+    height:46px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:rgba(0,0,0,0.24);
+    border:1px solid rgba(255,255,255,0.14);
+
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+
+    font-size:1.2rem;
+
+    box-shadow:
+      0 12px 24px rgba(0,0,0,0.28),
+      0 0 12px rgba(255,255,255,0.05);
+  }
+
+  .mobile-symbol-label{
+    font-size:0.55rem;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    text-align:center;
+    line-height:1.2;
+  }
+}

@@ -130,6 +130,27 @@ export default function Home() {
             </Link>
           </div>
         </Reveal>
+        <div className="mobile-symbol-row mobile-symbol-row-4">
+  <Link href="/plaza" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">⬡</span>
+    <span className="mobile-symbol-label">Boundary</span>
+  </Link>
+
+  <Link href="/workshop" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">▦</span>
+    <span className="mobile-symbol-label">Workshop</span>
+  </Link>
+
+  <Link href="/constraint-forge" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">✧</span>
+    <span className="mobile-symbol-label">Forge</span>
+  </Link>
+
+  <Link href="/structural-ai" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">◎</span>
+    <span className="mobile-symbol-label">Structural AI</span>
+  </Link>
+</div>
       </section>
 
       {/* =========================
@@ -188,7 +209,6 @@ export default function Home() {
     <ScienceHome />
   </div>
 </Reveal>
-
 <Reveal delay={200}>
   <div className="home-section home-section-center">
     <span className="home-section-label">APPLIED SCIENCE</span>
@@ -197,6 +217,22 @@ export default function Home() {
       engineered systems, and operational capability.
     </p>
   </div>
+  <div className="mobile-symbol-row mobile-symbol-row-3">
+  <Link href="/science" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">✦</span>
+    <span className="mobile-symbol-label">Basic Science</span>
+  </Link>
+
+  <Link href="/technology" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">⌬</span>
+    <span className="mobile-symbol-label">Applied Science</span>
+  </Link>
+
+  <Link href="/commercialization" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">◌</span>
+    <span className="mobile-symbol-label">Commercialization</span>
+  </Link>
+</div>
 </Reveal>
 
 <Reveal delay={240}>
