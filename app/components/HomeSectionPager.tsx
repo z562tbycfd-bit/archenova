@@ -11,6 +11,22 @@ export default function HomeSectionPager() {
     const list = sections.map((s) => s.id).filter(Boolean);
     setIds(list);
 
+    useEffect(() => {
+  if ("scrollRestoration" in window.history) {
+    window.history.scrollRestoration = "manual";
+  }
+
+  window.scrollTo(0, 0);
+
+  const t1 = window.setTimeout(() => window.scrollTo(0, 0), 100);
+  const t2 = window.setTimeout(() => window.scrollTo(0, 0), 400);
+
+  return () => {
+    window.clearTimeout(t1);
+    window.clearTimeout(t2);
+  };
+}, []);
+
     const io = new IntersectionObserver(
       (entries) => {
         const vis = entries
