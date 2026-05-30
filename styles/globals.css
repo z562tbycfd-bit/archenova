@@ -7917,7 +7917,6 @@ html, body {
   width: 100%;
   min-height: 100svh;
   overflow: hidden; /* 縦長スクロールを止める（本にする） */
-  background: #000;
 }
 
 /* cosmic background (軽量) */
@@ -8166,7 +8165,6 @@ html, body {
   width: 100% !important;
   height: 100svh !important;
   overflow: hidden !important;
-  background: #000 !important;
 }
 
 /* cosmic drift background */
@@ -8364,7 +8362,6 @@ html, body {
   width: 100% !important;
   height: 100svh !important;
   overflow: hidden !important;
-  background: #000 !important;
 }
 
 /* scroller */
@@ -8573,9 +8570,8 @@ html, body {
     radial-gradient(1px 1px at 63% 68%, rgba(255,255,255,0.20), transparent 60%),
     radial-gradient(1px 1px at 78% 22%, rgba(255,255,255,0.26), transparent 60%),
     radial-gradient(1px 1px at 90% 55%, rgba(255,255,255,0.18), transparent 60%),
-    #000;
-  opacity: 0.85;
-  animation: anp-drift 18s ease-in-out infinite;
+  opacity 0.85;
+  animation:anp-drift 18s ease-in-out infinite;
 }
 
 @keyframes anp-drift{
@@ -8739,7 +8735,6 @@ html, body {
   min-height: 100vh;
   overflow: hidden; /* 縦に伸びないように止める */
   position: relative;
-  background: #000; /* 既存の site-bg があってもOK */
 }
 
 /* HomePager.tsx の shell */
@@ -8904,7 +8899,6 @@ html, body {
     radial-gradient(1200px 700px at 20% 18%, rgba(255,255,255,0.035), transparent 60%),
     radial-gradient(900px 520px at 80% 75%, rgba(255,255,255,0.022), transparent 58%),
     radial-gradient(700px 420px at 55% 45%, rgba(180,200,255,0.018), transparent 62%),
-    #000;
 }
 
 /* 星粒（CSSだけ） */
