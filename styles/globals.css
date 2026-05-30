@@ -9027,30 +9027,3 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* ===== Background image restore ===== */
-
-.site-bg {
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  background-image: url("/image/IMG_9379.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-/* スマホ：画像全体を必ず表示 */
-@media (max-width: 768px) {
-  .site-bg {
-    background: #000 !important;
-    background-image: url("/image/IMG_9845.jpeg") !important;
-    background-size: contain !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-  }
-
-  .site-bg::before {
-    display: none !important;
-    content: none !important;
-  }
-}
