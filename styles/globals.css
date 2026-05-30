@@ -9035,16 +9035,29 @@ html, body {
     background-position: center top !important;
     background-repeat: no-repeat !important;
   }
-}/* ==========================================
-   Mobile background: show full image
+}
+/* ==========================================
+   Mobile background: force full image display
    ========================================== */
 
 @media (max-width: 768px) {
   .site-bg {
+    background: #000 !important;
+    overflow: hidden !important;
+  }
+
+  .site-bg::before {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+
     background-image: url("/image/IMG_9845.jpeg") !important;
     background-size: contain !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    background-color: #000 !important;
+
+    transform: none !important;
+    animation: none !important;
+    opacity: 1 !important;
   }
 }
