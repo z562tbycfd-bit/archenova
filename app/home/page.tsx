@@ -194,28 +194,9 @@ export default function Home() {
           </div>
         </Reveal>
 
-        <Reveal delay={120}>
-  <div className="home-section home-section-center">
-    <span className="home-section-label">BASIC SCIENCE</span>
-    <p className="home-section-purpose">
-      Foundational discoveries that reveal the deep structures, laws,
-      and irreversible boundaries of reality.
-    </p>
-  </div>
-</Reveal>
-
 <Reveal delay={160}>
   <div className="plaza-feature">
     <ScienceHome />
-  </div>
-</Reveal>
-<Reveal delay={200}>
-  <div className="home-section home-section-center">
-    <span className="home-section-label">APPLIED SCIENCE</span>
-    <p className="home-section-purpose">
-      Scientific principles transformed into reproducible methods,
-      engineered systems, and operational capability.
-    </p>
   </div>
 </Reveal>
 
@@ -225,37 +206,11 @@ export default function Home() {
   </div>
 </Reveal>
 
-<Reveal delay={280}>
-  <div className="home-section home-section-center">
-    <span className="home-section-label">COMMERCIALIZATION</span>
-    <p className="home-section-purpose">
-      The transition from capability to adoption: productization,
-      institutional deployment, market formation, and scalable economic systems.
-    </p>
-  </div>
-</Reveal>
-
 <Reveal delay={320}>
   <div className="plaza-feature">
     <CommercializationHome />
   </div>
 </Reveal>
-<div className="mobile-symbol-row mobile-symbol-row-3">
-  <Link href="/science" className="mobile-symbol-link">
-    <span className="mobile-symbol-icon">✦</span>
-    <span className="mobile-symbol-label">Basic Science</span>
-  </Link>
-
-  <Link href="/technology" className="mobile-symbol-link">
-    <span className="mobile-symbol-icon">⌬</span>
-    <span className="mobile-symbol-label">Applied Science</span>
-  </Link>
-
-  <Link href="/commercialization" className="mobile-symbol-link">
-    <span className="mobile-symbol-icon">◌</span>
-    <span className="mobile-symbol-label">Commercialization</span>
-  </Link>
-</div>
       </section>
 
       {/* =========================

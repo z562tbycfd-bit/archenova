@@ -24,11 +24,15 @@ export default function ScienceHome() {
   return (
     <section className="home-card">
       <div className="home-card-head">
-        <h3 className="home-card-title">Science</h3>
+        <h3 className="home-card-title">Basic Science</h3>
+        <p className="home-section-purpose">
+          Foundational discoveries that reveal the deep structures, laws, 
+          and irreversible boundaries of reality.
+    </p>
         <span className="home-card-meta">Updated: {updated}</span>
       </div>
 
-      <div className="feed-scroll" aria-label="Latest science posts">
+      <div className="feed-scroll" aria-label="Latest basic science posts">
         {items.length ? items.map((it, i) => (
           <a key={i} className="feed-row" href={it.url} target="_blank" rel="noreferrer">
             <div className="feed-source">{it.source}</div>
@@ -36,12 +40,12 @@ export default function ScienceHome() {
             <div className="feed-summary">{it.summary}</div>
           </a>
         )) : (
-          <div className="feed-empty">Loading latest science signals…</div>
+          <div className="feed-empty">Loading latest basic science posts… </div>
         )}
       </div>
 
       <div className="home-card-foot">
-        <a className="mini-link" href="/science">Open Science →</a>
+        <a className="mini-link" href="/science">Open  Basic Science →</a>
       </div>
     </section>
   );

@@ -24,11 +24,15 @@ export default function TechnologyHome() {
   return (
     <section className="home-card">
       <div className="home-card-head">
-        <h3 className="home-card-title">Technology</h3>
+        <h3 className="home-card-title">APPLIED SCIENCE</h3>
+        <p className="home-section-purpose">
+              Scientific principles transformed into reproducible methods,
+              engineered systems, and operational capability.
+            </p>
         <span className="home-card-meta">Updated: {updated}</span>
       </div>
 
-      <div className="feed-scroll" aria-label="Latest technology posts">
+      <div className="feed-scroll" aria-label="Latest applied science posts">
         {items.length ? items.map((it, i) => (
           <a key={i} className="feed-row" href={it.url} target="_blank" rel="noreferrer">
             <div className="feed-source">{it.source}</div>
@@ -36,7 +40,7 @@ export default function TechnologyHome() {
             <div className="feed-summary">{it.summary}</div>
           </a>
         )) : (
-          <div className="feed-empty">Loading latest technology signals…</div>
+          <div className="feed-empty">Loading latest applied science posts… </div>
         )}
       </div>
 
