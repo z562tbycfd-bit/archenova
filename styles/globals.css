@@ -9305,12 +9305,6 @@ html, body {
 
 @media (max-width:768px){
 
-  /* スマホではカード非表示 */
-  #home-boundary .plaza-feature,
-  #home-observation .plaza-feature{
-    display:none !important;
-  }
-
   .mobile-symbol-row{
     display:flex;
     justify-content:center;
@@ -9396,4 +9390,17 @@ html, body {
 
 .paper-body p{
   margin:0 0 1.4em;
+}
+/* ==========================================
+   Mobile HOME: show OBSERVATION cards again
+   ========================================== */
+
+@media (max-width: 768px) {
+  #home-observation .plaza-feature {
+    display: block !important;
+  }
+
+  #home-observation .mobile-symbol-row {
+    display: none !important;
+  }
 }
