@@ -9368,3 +9368,32 @@ html, body {
     line-height:1.2;
   }
 }
+/* =========================================================
+   ArcheNova Papers
+   ========================================================= */
+
+.paper-article{
+  width:min(920px, calc(100vw - 28px));
+  margin:0 auto;
+}
+
+.paper-thumbnail{
+  width:100%;
+  max-height:420px;
+  object-fit:cover;
+  border-radius:24px;
+  margin:24px 0;
+  border:1px solid rgba(255,255,255,0.08);
+  box-shadow:0 24px 80px rgba(0,0,0,0.45);
+}
+
+.paper-body{
+  margin-top:28px;
+  font-size:1.05rem;
+  line-height:1.95;
+  color:rgba(245,245,245,0.84);
+}
+
+.paper-body p{
+  margin:0 0 1.4em;
+}

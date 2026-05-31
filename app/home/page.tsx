@@ -3,7 +3,7 @@ import Reveal from "../components/Reveal";
 import ScienceHome from "../components/ScienceHome";
 import TechnologyHome from "../components/TechnologyHome";
 import CommercializationHome from "../components/CommercializationHome";
-import XLatest from "../components/XLatest";
+import LatestPaper from "../components/LatestPaper";
 import GateFragments from "../components/GateFragments";
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
@@ -266,14 +266,14 @@ export default function Home() {
           <div className="home-divider">
             <div className="home-divider-line" />
             <div className="home-divider-label">
-              <span className="home-divider-eyebrow">Live Signal</span>
-              <span className="home-divider-title">Irreversible Move</span>
+              <span className="home-divider-eyebrow">ArcheNova Papers</span>
+<span className="home-divider-title">Latest ArcheNova Paper</span>
             </div>
           </div>
         </Reveal>
 
         <Reveal delay={120}>
-          <XLatest />
+         <LatestPaper />
         </Reveal>
       </section>
 

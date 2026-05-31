@@ -1,36 +1,43 @@
 import Link from "next/link";
-import { getAllEntries } from "@/lib/content";
+import { getAllPapers } from "../../lib/papers";
 
 export default function PapersPage() {
-  const items = getAllEntries("papers") as any[];
+  const papers = getAllPapers();
 
   return (
-    <div style={{ padding: 24, fontFamily: "system-ui" }}>
-      <h1>Archive (PDF)</h1>
-      <p>A curated PDF library of ArcheNova notes and references.</p>
+    <main className="page-standard">
+      <div className="page-head">
+        <span className="home-section-label">ARCHENOVA PAPERS</span>
+        <h1>ArcheNova Papers</h1>
+        <p className="page-lead">
+          Official ArcheNova papers on irreversible initial conditions,
+          civilization engineering, scientific capability, and long-term futures.
+        </p>
+      </div>
 
-      <ul>
-        {items.map((p) => (
-          <li key={p.slug} style={{ marginBottom: 14 }}>
-            <b>{p.title}</b>
-            {p.date ? <div style={{ opacity: 0.7 }}>{p.date}</div> : null}
-            {p.summary ? <div style={{ opacity: 0.9 }}>{p.summary}</div> : null}
-            {p.pdf ? (
-              <div>
-                <a href={p.pdf} target="_blank" rel="noreferrer">
-                  Open PDF →
-                </a>
-              </div>
-            ) : (
-              <div style={{ opacity: 0.7 }}>PDF not set</div>
-            )}
-          </li>
+      <section className="plaza-feature">
+        {papers.map((paper) => (
+          <Link
+            key={paper.slug}
+            href={`/papers/${paper.slug}`}
+            className="plaza-card"
+            style={{ marginBottom: 18 }}
+          >
+            <div className="plaza-title">{paper.title}</div>
+            <div className="plaza-desc">— {paper.category}</div>
+            <p className="home-section-purpose" style={{ marginTop: 14 }}>
+              {paper.excerpt}
+            </p>
+            <div className="plaza-hint">Read →</div>
+          </Link>
         ))}
-      </ul>
+      </section>
 
-      <p>
-        <Link href="/">← Back</Link>
-      </p>
-    </div>
+      <div className="page-foot" style={{ marginTop: 24 }}>
+        <Link className="back-link" href="/home">
+          ← Back to Home
+        </Link>
+      </div>
+    </main>
   );
 }

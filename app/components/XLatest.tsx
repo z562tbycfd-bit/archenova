@@ -7,25 +7,9 @@ export default function XLatest() {
     <section className="x-latest-card">
       <div className="x-latest-head">
         <h2 className="x-latest-title">Latest Irreversible Move</h2>
-        <a
-          className="x-latest-open"
-          href={LATEST_TWEET.url}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Open →
-        </a>
       </div>
 
       <div className="x-latest-body">
-        <div className="x-latest-tags">
-          {LATEST_TWEET.tags.map((t) => (
-            <span key={t} className="x-latest-tag">
-              {t}
-            </span>
-          ))}
-        </div>
-
         <p className="x-latest-text">
           {LATEST_TWEET.description}
         </p>
