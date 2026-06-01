@@ -83,7 +83,26 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 04 : BOUNDARY INTERACTION
+          PAGE 04 : LIVE SIGNAL (X)
+         ========================= */}
+      <section id="home-live" data-home-section className="home-page">
+        <Reveal>
+          <div className="home-divider">
+            <div className="home-divider-line" />
+            <div className="home-divider-label">
+              <span className="home-divider-eyebrow">ArcheNova Papers</span>
+<span className="home-divider-title">Latest ArcheNova Paper</span>
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal delay={120}>
+         <LatestPaper />
+        </Reveal>
+      </section>
+
+      {/* =========================
+          PAGE 05 : BOUNDARY INTERACTION
          ========================= */}
       <section id="home-boundary" data-home-section className="home-page">
         <Reveal>
@@ -158,7 +177,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 05 : SCIENTIFIC EXPLORATION
+          PAGE 06 : SCIENTIFIC EXPLORATION
          ========================= */}
       <section id="home-exploration" data-home-section className="home-page">
         <Reveal>
@@ -186,7 +205,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-    PAGE 06 : SOCIAL IMPLEMENTATION
+    PAGE 07 : SOCIAL IMPLEMENTATION
    ========================= */}
 
 <section
@@ -201,32 +220,29 @@ export default function Home() {
         SOCIAL IMPLEMENTATION
       </span>
 
-      <h2 className="home-section-title">
-        Social Implementation of Science
-      </h2>
-
       <p className="home-section-purpose">
         The transition from scientific discovery to reproducible capability,
         institutional adoption, public value, infrastructure, and civilization-scale systems.
       </p>
 
 
-      <Link
-        href="/commercialization"
-        className="plaza-card"
-      >
-        <div className="plaza-desc">
-          From scientific capability to institutional adoption,
-          public value, infrastructure, and durable societal systems.
-        </div>
-      </Link>
+      <Link href="/commercialization" className="plaza-card">
+  <div className="plaza-title">Social Implementation of Science</div>
+
+  <div className="plaza-desc">
+    — Where discovery becomes capability, capability becomes adoption,
+    and adoption becomes civilization-scale infrastructure
+  </div>
+
+  <div className="plaza-hint">Enter →</div>
+</Link>
 
     </div>
   </Reveal>
 </section>
 
       {/* =========================
-          PAGE 07 : OBSERVATION (Science / Tech)
+          PAGE 08 : OBSERVATION (Science / Tech)
          ========================= */}
       <section id="home-observation" data-home-section className="home-page">
         <Reveal>
@@ -264,25 +280,6 @@ export default function Home() {
 </div>
 </Reveal>
  </section>
-
-      {/* =========================
-          PAGE 08 : LIVE SIGNAL (X)
-         ========================= */}
-      <section id="home-live" data-home-section className="home-page">
-        <Reveal>
-          <div className="home-divider">
-            <div className="home-divider-line" />
-            <div className="home-divider-label">
-              <span className="home-divider-eyebrow">ArcheNova Papers</span>
-<span className="home-divider-title">Latest ArcheNova Paper</span>
-            </div>
-          </div>
-        </Reveal>
-
-        <Reveal delay={120}>
-         <LatestPaper />
-        </Reveal>
-      </section>
 
       {/* =========================
           PAGE 09 : RECENT CROSSINGS

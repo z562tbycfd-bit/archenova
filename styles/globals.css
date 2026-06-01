@@ -9559,3 +9559,53 @@ html, body {
     max-width: 100% !important;
   }
 }
+/* =========================================================
+   Social Implementation of Science
+   ========================================================= */
+
+.implementation-flow{
+  width:min(920px, calc(100vw - 32px));
+  margin:42px auto 0;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+}
+
+.implementation-stage{
+  display:grid;
+  grid-template-columns:72px 1fr;
+  gap:22px;
+  padding:26px;
+  border-radius:24px;
+  border:1px solid rgba(255,255,255,0.08);
+  background:rgba(255,255,255,0.035);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+}
+
+.implementation-index{
+  font-size:0.82rem;
+  letter-spacing:0.18em;
+  color:rgba(255,255,255,0.48);
+}
+
+.implementation-stage h2{
+  margin:0 0 10px;
+  font-size:1.2rem;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+}
+
+.implementation-stage p{
+  margin:0;
+  line-height:1.85;
+  color:rgba(245,245,245,0.72);
+}
+
+@media(max-width:768px){
+  .implementation-stage{
+    grid-template-columns:1fr;
+    gap:10px;
+    padding:22px;
+  }
+}
