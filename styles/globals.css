@@ -9539,3 +9539,23 @@ html, body {
   display:inline-block;
   margin-top:60px;
 }
+/* =========================================================
+   Mobile: keep equation card inside HOME frame
+   ========================================================= */
+
+@media (max-width: 768px) {
+  #home-equation .equation-card {
+    width: calc(100vw - 72px) !important;
+    max-width: calc(100vw - 72px) !important;
+    padding: 42px 14px !important;
+    box-sizing: border-box !important;
+    border-radius: 24px !important;
+    overflow: hidden !important;
+  }
+
+  #home-equation .equation-card-formula {
+    font-size: clamp(1.65rem, 8vw, 2.25rem) !important;
+    white-space: nowrap !important;
+    max-width: 100% !important;
+  }
+}
