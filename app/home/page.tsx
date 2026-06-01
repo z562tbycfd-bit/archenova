@@ -234,7 +234,7 @@ export default function Home() {
 </Link>
 
 <Link
-  href="/commercialization#real-world-implementations"
+  href="/implementations"
   className="plaza-card"
 >
   <div className="plaza-title">

@@ -9649,3 +9649,49 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+/* =========================================================
+   Real-World Implementations Page
+   ========================================================= */
+
+.implementation-grid {
+  width: min(920px, calc(100vw - 32px));
+  margin: 42px auto 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+.implementation-card {
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.035);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 26px;
+}
+
+.implementation-card h2 {
+  margin: 0 0 18px;
+  font-size: 1.15rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.implementation-line {
+  margin-top: 16px;
+}
+
+.implementation-line span {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.48);
+}
+
+.implementation-line p {
+  margin: 0;
+  line-height: 1.75;
+  color: rgba(245,245,245,0.74);
+}
