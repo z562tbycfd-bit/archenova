@@ -259,7 +259,6 @@ export default function Home() {
             <span className="home-section-label">RECENT CROSSINGS</span>
             <p className="home-section-purpose">
               A temporary record of who crossed the boundary in the last 24 hours.
-              Nothing here asks you to stay—only to be counted once.
             </p>
           </div>
         </Reveal>
