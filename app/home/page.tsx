@@ -46,14 +46,6 @@ export default function Home() {
               </p>
             </Reveal>
           </div>
-
-          <Reveal delay={140}>
-            <div className="hero-symbol">
-              <div className="hero-formula">
-                G<sub>μν</sub> = 8πG T<sub>μν</sub>
-              </div>
-            </div>
-          </Reveal>
         </div>
       </section>
 

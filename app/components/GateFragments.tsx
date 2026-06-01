@@ -32,7 +32,6 @@ export default function GateFragments({ limit = 5 }: { limit?: number }) {
   return (
     <section className="gate-fragments">
       <div className="x-head">
-        <h2 className="x-title">Recent Crossings</h2>
         <a className="x-more" href="/gate">
           Enter Gate →
         </a>
