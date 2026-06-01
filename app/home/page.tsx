@@ -20,17 +20,28 @@ export default function Home() {
          ========================= */}
       <section id="home-hero" data-home-section className="home-page">
   <div className="hero hero-scroll arche-hero">
-    <div className="arche-hero-system" aria-hidden="true">
-      <div className="arche-initial-core" />
-      <div className="arche-boundary-ring arche-ring-one" />
-      <div className="arche-boundary-ring arche-ring-two" />
-      <div className="arche-causal-line arche-line-one" />
-      <div className="arche-causal-line arche-line-two" />
-      <div className="arche-causal-line arche-line-three" />
-      <div className="arche-field-grid" />
-    </div>
+  <div className="arche-formation" aria-hidden="true">
+    <span className="arche-core" />
 
-    <div className="hero-content">
+    <span className="arche-ring arche-ring-a" />
+    <span className="arche-ring arche-ring-b" />
+
+    <span className="arche-particle p1" />
+    <span className="arche-particle p2" />
+    <span className="arche-particle p3" />
+    <span className="arche-particle p4" />
+    <span className="arche-particle p5" />
+    <span className="arche-particle p6" />
+
+    <span className="arche-link l1" />
+    <span className="arche-link l2" />
+    <span className="arche-link l3" />
+    <span className="arche-link l4" />
+
+    <span className="arche-grid" />
+  </div>
+
+  <div className="hero-content">
             <Reveal>
               <h1 className="hero-title">ArcheNova</h1>
               <p className="hero-statement">

@@ -9474,176 +9474,203 @@ html, body {
   }
 }
 /* =========================================================
-   ArcheNova HERO — Initial Conditions / Boundary / Irreversibility
+   ArcheNova HERO — CSS Lightweight Formation System
+   Initial Conditions → Boundary → Selection → Structure
    ========================================================= */
 
-.arche-hero {
+.arche-hero{
   position: relative;
   overflow: hidden;
 }
 
-/* HERO演出本体 */
-.arche-hero-system {
+.arche-formation{
   position: absolute;
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.72;
+  opacity: 0.88;
 }
 
 /* 文字を前面へ */
 .arche-hero .hero-content,
-.arche-hero .hero-symbol {
+.arche-hero .hero-symbol{
   position: relative;
   z-index: 2;
 }
 
-/* 中央の初期条件コア */
-.arche-initial-core {
+/* Initial condition core */
+.arche-core{
   position: absolute;
   left: 50%;
-  top: 46%;
-  width: 12px;
-  height: 12px;
+  top: 50%;
+  width: 10px;
+  height: 10px;
   border-radius: 999px;
   transform: translate(-50%, -50%);
-  background: rgba(255,255,255,0.92);
+  background: rgba(255,255,255,0.96);
   box-shadow:
-    0 0 18px rgba(255,255,255,0.42),
-    0 0 80px rgba(180,200,255,0.20);
-  animation: archeCorePulse 5.5s ease-in-out infinite;
+    0 0 16px rgba(255,255,255,0.55),
+    0 0 90px rgba(180,200,255,0.22);
+  animation: archeCorePulse 5.2s ease-in-out infinite;
 }
 
-/* 境界リング */
-.arche-boundary-ring {
+/* Boundary rings */
+.arche-ring{
   position: absolute;
   left: 50%;
-  top: 46%;
+  top: 50%;
   border-radius: 999px;
   transform: translate(-50%, -50%);
-  border: 1px solid rgba(255,255,255,0.18);
-  box-shadow: 0 0 40px rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.16);
+  box-shadow: 0 0 40px rgba(255,255,255,0.05);
 }
 
-.arche-ring-one {
+.arche-ring-a{
   width: min(58vw, 520px);
   height: min(58vw, 520px);
-  animation: archeRingSlow 18s linear infinite;
+  animation: archeRingRotate 28s linear infinite;
 }
 
-.arche-ring-two {
+.arche-ring-b{
   width: min(38vw, 340px);
   height: min(38vw, 340px);
-  border-color: rgba(180,200,255,0.20);
-  animation: archeRingReverse 24s linear infinite;
+  border-color: rgba(210,220,255,0.20);
+  animation: archeRingRotateReverse 36s linear infinite;
 }
 
-/* 因果線 */
-.arche-causal-line {
+/* Selected particles */
+.arche-particle{
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.88);
+  box-shadow:
+    0 0 14px rgba(255,255,255,0.42),
+    0 0 34px rgba(180,200,255,0.12);
+  animation: archeParticleSelect 7s ease-in-out infinite;
+}
+
+.p1{ left: 38%; top: 34%; animation-delay: 0s; }
+.p2{ left: 62%; top: 36%; animation-delay: 1s; }
+.p3{ left: 68%; top: 54%; animation-delay: 2s; }
+.p4{ left: 47%; top: 64%; animation-delay: 3s; }
+.p5{ left: 31%; top: 52%; animation-delay: 4s; }
+.p6{ left: 55%; top: 47%; animation-delay: 5s; }
+
+/* Structure links */
+.arche-link{
   position: absolute;
   left: 50%;
-  top: 46%;
-  width: min(42vw, 420px);
+  top: 50%;
   height: 1px;
   transform-origin: left center;
   background: linear-gradient(
     90deg,
-    rgba(255,255,255,0.00),
-    rgba(255,255,255,0.32),
-    rgba(255,255,255,0.00)
+    rgba(255,255,255,0),
+    rgba(255,255,255,0.34),
+    rgba(255,255,255,0)
   );
-  opacity: 0.36;
+  opacity: 0.28;
   filter: blur(0.2px);
+  animation: archeLinkAppear 8s ease-in-out infinite;
 }
 
-.arche-line-one {
-  transform: rotate(18deg);
-  animation: archeLineDrift 10s ease-in-out infinite;
-}
+.l1{ width: 190px; transform: rotate(24deg); animation-delay: 0.5s; }
+.l2{ width: 220px; transform: rotate(138deg); animation-delay: 1.7s; }
+.l3{ width: 180px; transform: rotate(214deg); animation-delay: 2.8s; }
+.l4{ width: 210px; transform: rotate(306deg); animation-delay: 4s; }
 
-.arche-line-two {
-  transform: rotate(132deg);
-  animation: archeLineDrift 13s ease-in-out infinite reverse;
-}
-
-.arche-line-three {
-  transform: rotate(258deg);
-  animation: archeLineDrift 16s ease-in-out infinite;
-}
-
-/* 薄い時空グリッド */
-.arche-field-grid {
+/* Civilization / field grid */
+.arche-grid{
   position: absolute;
   left: 50%;
-  top: 52%;
-  width: min(86vw, 780px);
-  height: 360px;
-  transform: translate(-50%, -50%) perspective(700px) rotateX(62deg) rotateZ(-8deg);
+  top: 57%;
+  width: min(82vw, 760px);
+  height: 300px;
+  transform: translate(-50%, -50%) perspective(700px) rotateX(64deg) rotateZ(-7deg);
   background:
-    linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
-  background-size: 48px 48px;
-  opacity: 0.20;
+    linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.032) 1px, transparent 1px);
+  background-size: 46px 46px;
+  opacity: 0.18;
   mask-image: radial-gradient(circle, black 0%, transparent 72%);
   -webkit-mask-image: radial-gradient(circle, black 0%, transparent 72%);
-  animation: archeGridMove 22s linear infinite;
+  animation: archeGridFlow 24s linear infinite;
 }
 
-/* 動き */
-@keyframes archeCorePulse {
-  0%, 100% {
+/* animations */
+@keyframes archeCorePulse{
+  0%,100%{
     transform: translate(-50%, -50%) scale(1);
-    opacity: 0.82;
+    opacity: 0.75;
   }
-  50% {
-    transform: translate(-50%, -50%) scale(1.55);
+  50%{
+    transform: translate(-50%, -50%) scale(1.75);
     opacity: 1;
   }
 }
 
-@keyframes archeRingSlow {
-  from { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
-  to { transform: translate(-50%, -50%) rotate(360deg) scale(1); }
+@keyframes archeRingRotate{
+  from{ transform: translate(-50%, -50%) rotate(0deg); }
+  to{ transform: translate(-50%, -50%) rotate(360deg); }
 }
 
-@keyframes archeRingReverse {
-  from { transform: translate(-50%, -50%) rotate(360deg) scale(1); }
-  to { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
+@keyframes archeRingRotateReverse{
+  from{ transform: translate(-50%, -50%) rotate(360deg); }
+  to{ transform: translate(-50%, -50%) rotate(0deg); }
 }
 
-@keyframes archeLineDrift {
-  0%, 100% { opacity: 0.20; }
-  50% { opacity: 0.48; }
+@keyframes archeParticleSelect{
+  0%,100%{
+    opacity: 0.22;
+    transform: scale(0.72);
+  }
+  50%{
+    opacity: 1;
+    transform: scale(1.35);
+  }
 }
 
-@keyframes archeGridMove {
-  from { background-position: 0 0; }
-  to { background-position: 48px 48px; }
+@keyframes archeLinkAppear{
+  0%,100%{ opacity: 0.08; }
+  50%{ opacity: 0.38; }
 }
 
-/* スマホ調整 */
-@media (max-width: 768px) {
-  .arche-hero-system {
-    opacity: 0.58;
+@keyframes archeGridFlow{
+  from{ background-position: 0 0; }
+  to{ background-position: 46px 46px; }
+}
+
+/* mobile */
+@media (max-width: 768px){
+  .arche-formation{
+    opacity: 0.66;
   }
 
-  .arche-ring-one {
+  .arche-ring-a{
     width: 86vw;
     height: 86vw;
   }
 
-  .arche-ring-two {
+  .arche-ring-b{
     width: 58vw;
     height: 58vw;
   }
 
-  .arche-field-grid {
-    width: 110vw;
-    height: 300px;
-    opacity: 0.15;
+  .arche-grid{
+    width: 115vw;
+    height: 270px;
+    opacity: 0.13;
   }
 
-  .arche-causal-line {
-    width: 64vw;
+  .arche-core{
+    top: 56%;
+  }
+
+  .arche-ring,
+  .arche-particle,
+  .arche-link{
+    top: 56%;
   }
 }
