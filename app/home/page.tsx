@@ -45,25 +45,15 @@ export default function Home() {
    ========================= */}
 <section id="home-equation" className="home-page" data-home-section>
   <Reveal>
-    <div className="arche-equation-page">
+    <Link href="/equation" className="equation-card">
       <span className="home-section-label">ARCHENOVA EQUATION</span>
 
-      <div className="arche-equation-formula">
+      <div className="equation-card-formula">
         G<sub>μν</sub> = 8πG&nbsp;T<sub>μν</sub>
       </div>
 
-      <p className="arche-equation-copy">
-        A civilization is not shaped only by what it desires.
-        It is shaped by the structure of constraints, energy, matter,
-        information, and causality that determine which futures can still exist.
-      </p>
-
-      <p className="arche-equation-subcopy">
-        ArcheNova treats initial conditions as civilization-scale geometry:
-        once a boundary is set, possibility space is curved, selection begins,
-        and irreversible futures emerge.
-      </p>
-    </div>
+      <div className="plaza-hint">Open →</div>
+    </Link>
   </Reveal>
 </section>
 
