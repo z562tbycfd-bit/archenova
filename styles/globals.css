@@ -9391,16 +9391,9 @@ html, body {
 .paper-body p{
   margin:0 0 1.4em;
 }
-/* ==========================================
-   Mobile HOME: show OBSERVATION cards again
-   ========================================== */
-
+/* Mobile */
 @media (max-width: 768px) {
   #home-observation .plaza-feature {
-    display: block !important;
-  }
-
-  #home-observation .mobile-symbol-row {
     display: none !important;
   }
 }
