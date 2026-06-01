@@ -214,30 +214,44 @@ export default function Home() {
   data-home-section
 >
   <Reveal>
-    <div className="social-implementation-grid">
-  <Link
-    href="/commercialization"
-    className="plaza-card"
-  >
-    <div className="plaza-title">
-      Social Implementation of Science
-    </div>
-    <div className="plaza-hint">
-      Open →
-    </div>
-  </Link>
+    <div className="home-section home-section-center">
+      <span className="home-section-label">
+        SOCIAL IMPLEMENTATION
+      </span>
 
-  <Link
-    href="/implementations"
-    className="plaza-card"
-  >
-    <div className="plaza-title">
-      Real-World Implementations
-    </div>
-    <div className="plaza-hint">
-      Open →
-    </div>
-</Link>
+      <p className="home-section-purpose">
+        The transition from scientific discovery to reproducible
+        capability, institutional adoption, public value, infrastructure,
+        and civilization-scale systems.
+      </p>
+
+      <div className="social-implementation-grid">
+        <Link
+          href="/commercialization"
+          className="plaza-card"
+        >
+          <div className="plaza-title">
+            Social Implementation of Science
+          </div>
+
+          <div className="plaza-hint">
+            Open →
+          </div>
+        </Link>
+
+        <Link
+          href="/implementations"
+          className="plaza-card"
+        >
+          <div className="plaza-title">
+            Real-World Implementations
+          </div>
+
+          <div className="plaza-hint">
+            Open →
+          </div>
+        </Link>
+      </div>
     </div>
   </Reveal>
 </section>
