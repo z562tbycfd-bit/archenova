@@ -211,6 +211,24 @@ export default function Home() {
     <CommercializationHome />
   </div>
 </Reveal>
+
+<div className="mobile-symbol-row mobile-symbol-row-3">
+  <Link href="/science" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">✦</span>
+    <span className="mobile-symbol-label">Basic Science</span>
+  </Link>
+
+  <Link href="/technology" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">⌬</span>
+    <span className="mobile-symbol-label">Applied Science</span>
+  </Link>
+
+  <Link href="/commercialization" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">◌</span>
+    <span className="mobile-symbol-label">Commercialization</span>
+  </Link>
+</div>
+
       </section>
 
       {/* =========================
