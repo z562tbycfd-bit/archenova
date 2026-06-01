@@ -231,6 +231,7 @@ export default function Home() {
 >
   <div className="plaza-title">Social Implementation of Science</div>
   <div className="plaza-hint">Open →</div>
+
 </Link>
 
 <Link
@@ -244,6 +245,7 @@ export default function Home() {
   <div className="plaza-hint">
     Open →
   </div>
+  
 </Link>
 
     </div>
