@@ -13,7 +13,7 @@ export default function TechnologyPage() {
   useEffect(() => {
     let cancel = false;
     (async () => {
-      const r = await fetch("/api/technology?cat=" + tab, { cache: "no-store" });
+      const r = await fetch("/data/technology.json", { cache: "no-store" });
       const j = await r.json();
       if (!j?.ok || cancel) return;
       setCats(j.categories ?? []);

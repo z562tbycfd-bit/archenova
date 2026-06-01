@@ -64,7 +64,7 @@ async function fetchFeed(source) {
   }
 }
 
-async function buildFile(filename, sources, limit) {
+async function buildFile(filename, sources, limit, extra = {}) {
   const all = [];
 
   for (const source of sources) {
@@ -87,6 +87,7 @@ async function buildFile(filename, sources, limit) {
         ok: true,
         updated: new Date().toISOString(),
         items: merged,
+        ...extra,
       },
       null,
       2
@@ -96,5 +97,16 @@ async function buildFile(filename, sources, limit) {
   console.log(`Generated public/data/${filename}: ${merged.length} items`);
 }
 
-await buildFile("science.json", SCIENCE_SOURCES, 40);
-await buildFile("technology.json", TECHNOLOGY_SOURCES, 60);
+await buildFile("science.json", SCIENCE_SOURCES, 40, {
+  sources: SCIENCE_SOURCES.map((s) => ({
+    id: s.id,
+    name: s.name,
+  })),
+});
+
+await buildFile("technology.json", TECHNOLOGY_SOURCES, 60, {
+  categories: TECHNOLOGY_CATEGORIES.map((c) => ({
+    id: c.id,
+    name: c.name,
+  })),
+});

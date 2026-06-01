@@ -13,7 +13,7 @@ export default function SciencePage() {
   useEffect(() => {
     let cancel = false;
     (async () => {
-      const r = await fetch("/api/science?source=" + tab, { cache: "no-store" });
+      const r = await fetch("/data/science.json", { cache: "no-store" });
       const j = await r.json();
       if (!j?.ok || cancel) return;
       setSources(j.sources ?? []);
