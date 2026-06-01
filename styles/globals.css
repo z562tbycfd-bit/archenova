@@ -9797,7 +9797,7 @@ html, body {
 
 .arche-equation-formula {
   max-width: 100% !important;
-  font-size: clamp(2rem, 5vw, 4.2rem) !important;
+  font-size: clamp(1.8rem, 4.2vw, 3.4rem) !important;
   line-height: 1.08 !important;
   letter-spacing: 0.01em !important;
   white-space: nowrap !important;
