@@ -25,10 +25,6 @@ export default function TechnologyHome() {
     <section className="home-card">
       <div className="home-card-head">
         <h3 className="home-card-title">APPLIED SCIENCE</h3>
-        <p className="home-section-purpose">
-              Scientific principles transformed into reproducible methods,
-              engineered systems, and operational capability.
-            </p>
         <span className="home-card-meta">Updated: {updated}</span>
       </div>
 

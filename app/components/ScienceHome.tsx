@@ -25,10 +25,6 @@ export default function ScienceHome() {
     <section className="home-card">
       <div className="home-card-head">
         <h3 className="home-card-title">Basic Science</h3>
-        <p className="home-section-purpose">
-          Foundational discoveries that reveal the deep structures, laws, 
-          and irreversible boundaries of reality.
-    </p>
         <span className="home-card-meta">Updated: {updated}</span>
       </div>
 
