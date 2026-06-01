@@ -230,13 +230,20 @@ export default function Home() {
   className="plaza-card social-implementation-card"
 >
   <div className="plaza-title">Social Implementation of Science</div>
+  <div className="plaza-hint">Open →</div>
+</Link>
 
-  <div className="plaza-desc">
-    — Where discovery becomes capability, capability becomes adoption,
-    and adoption becomes civilization-scale infrastructure
+<Link
+  href="/commercialization#real-world-implementations"
+  className="plaza-card"
+>
+  <div className="plaza-title">
+    Real-World Implementations
   </div>
 
-  <div className="plaza-hint">Enter →</div>
+  <div className="plaza-hint">
+    Open →
+  </div>
 </Link>
 
     </div>
