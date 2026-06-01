@@ -61,7 +61,34 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 02 : ORIENTATION
+    PAGE 02 : ARCHENOVA EQUATION
+   ========================= */}
+<section id="home-equation" className="home-page" data-home-section>
+  <Reveal>
+    <div className="arche-equation-page">
+      <span className="home-section-label">ARCHENOVA EQUATION</span>
+
+      <div className="arche-equation-formula">
+        G<sub>μν</sub> = 8πG&nbsp;T<sub>μν</sub>
+      </div>
+
+      <p className="arche-equation-copy">
+        A civilization is not shaped only by what it desires.
+        It is shaped by the structure of constraints, energy, matter,
+        information, and causality that determine which futures can still exist.
+      </p>
+
+      <p className="arche-equation-subcopy">
+        ArcheNova treats initial conditions as civilization-scale geometry:
+        once a boundary is set, possibility space is curved, selection begins,
+        and irreversible futures emerge.
+      </p>
+    </div>
+  </Reveal>
+</section>
+
+      {/* =========================
+          PAGE 03: ORIENTATION
          ========================= */}
       <section id="home-orientation" data-home-section className="home-page">
         <Reveal>
@@ -86,7 +113,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 03 : BOUNDARY INTERACTION
+          PAGE 04 : BOUNDARY INTERACTION
          ========================= */}
       <section id="home-boundary" data-home-section className="home-page">
         <Reveal>
@@ -161,7 +188,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 04 : SCIENTIFIC EXPLORATION
+          PAGE 05 : SCIENTIFIC EXPLORATION
          ========================= */}
       <section id="home-exploration" data-home-section className="home-page">
         <Reveal>
@@ -189,7 +216,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 05 : OBSERVATION (Science / Tech)
+          PAGE 06 : OBSERVATION (Science / Tech)
          ========================= */}
       <section id="home-observation" data-home-section className="home-page">
         <Reveal>
@@ -214,12 +241,7 @@ export default function Home() {
 </Reveal>
 
 <Reveal delay={320}>
-  <div className="plaza-feature">
-    <CommercializationHome />
-  </div>
-</Reveal>
-
-<div className="mobile-symbol-row mobile-symbol-row-3">
+  <div className="mobile-symbol-row mobile-symbol-row-2">
   <Link href="/science" className="mobile-symbol-link">
     <span className="mobile-symbol-icon">✦</span>
     <span className="mobile-symbol-label">Basic Science</span>
@@ -229,17 +251,12 @@ export default function Home() {
     <span className="mobile-symbol-icon">⌬</span>
     <span className="mobile-symbol-label">Applied Science</span>
   </Link>
-
-  <Link href="/commercialization" className="mobile-symbol-link">
-    <span className="mobile-symbol-icon">◌</span>
-    <span className="mobile-symbol-label">Commercialization</span>
-  </Link>
 </div>
-
-      </section>
+</Reveal>
+ </section>
 
       {/* =========================
-          PAGE 06 : LIVE SIGNAL (X)
+          PAGE 07 : LIVE SIGNAL (X)
          ========================= */}
       <section id="home-live" data-home-section className="home-page">
         <Reveal>
@@ -258,7 +275,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 07 : RECENT CROSSINGS
+          PAGE 08 : RECENT CROSSINGS
          ========================= */}
       <section id="home-crossings" data-home-section className="home-page">
         <Reveal>
