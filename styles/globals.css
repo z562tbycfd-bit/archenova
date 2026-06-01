@@ -9791,3 +9791,24 @@ html, body {
     font-size: 0.86rem;
   }
 }
+/* =========================================================
+   ArcheNova Equation — width-safe formula
+   ========================================================= */
+
+.arche-equation-formula {
+  max-width: 100% !important;
+  font-size: clamp(2rem, 5vw, 4.2rem) !important;
+  line-height: 1.08 !important;
+  letter-spacing: 0.01em !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: clip !important;
+}
+
+@media (max-width: 768px) {
+  .arche-equation-formula {
+    font-size: clamp(2rem, 12vw, 3rem) !important;
+    transform: scale(0.92);
+    transform-origin: center;
+  }
+}
