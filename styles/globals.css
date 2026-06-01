@@ -9705,3 +9705,13 @@ html, body {
   gap: 24px;
   margin-top: 48px;
 }
+#home-social-implementation .social-implementation-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 36px !important;
+  margin-top: 56px !important;
+}
+
+#home-social-implementation .social-implementation-grid .plaza-card {
+  margin: 0 !important;
+}
