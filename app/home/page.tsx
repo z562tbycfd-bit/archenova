@@ -220,6 +220,7 @@ export default function Home() {
         institutional adoption, public value, infrastructure, and civilization-scale systems.
       </p>
 
+
       <Link
         href="/commercialization"
         className="plaza-card"
@@ -231,10 +232,6 @@ export default function Home() {
         <div className="plaza-desc">
           From scientific capability to institutional adoption,
           public value, infrastructure, and durable societal systems.
-        </div>
-
-        <div className="plaza-hint">
-          Enter →
         </div>
       </Link>
 
