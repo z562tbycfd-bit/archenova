@@ -38,7 +38,7 @@ export default function ImplementationsPage() {
     <main className="page-standard">
       <div className="page-head">
         <span className="home-section-label">
-          REAL-WORLD IMPLEMENTATIONS
+          SOCIAL IMPLEMENTATION
         </span>
 
         <h1>Real-World Implementations</h1>
