@@ -4,7 +4,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update-feeds": "node scripts/update-feeds.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^9.122.0",
