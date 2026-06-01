@@ -225,10 +225,6 @@ export default function Home() {
         href="/commercialization"
         className="plaza-card"
       >
-        <div className="plaza-title">
-          Social Implementation of Science
-        </div>
-
         <div className="plaza-desc">
           From scientific capability to institutional adoption,
           public value, infrastructure, and durable societal systems.
