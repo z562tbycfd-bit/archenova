@@ -216,7 +216,70 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 06 : OBSERVATION (Science / Tech)
+    PAGE 06 : SOCIAL IMPLEMENTATION
+   ========================= */}
+
+<section
+  id="home-social-implementation"
+  className="home-page"
+  data-home-section
+>
+  <Reveal>
+    <div className="home-section">
+      <span className="home-section-label">
+        SOCIAL IMPLEMENTATION
+      </span>
+
+      <h2 className="home-section-title">
+        Social Implementation of Science
+      </h2>
+
+      <p className="home-section-purpose">
+        The transition from discovery to civilization:
+        transforming scientific capability into institutions,
+        public value, infrastructure, adoption, and durable
+        societal systems.
+      </p>
+
+      <div className="plaza-feature">
+        <div className="plaza-card">
+          <div className="plaza-title">
+            Scientific Capability
+          </div>
+
+          <div className="plaza-desc">
+            From scientific discovery to reproducible capability.
+          </div>
+        </div>
+
+        <div className="plaza-card">
+          <div className="plaza-title">
+            Institutional Adoption
+          </div>
+
+          <div className="plaza-desc">
+            Embedding capability into organizations,
+            policy, education, and governance.
+          </div>
+        </div>
+
+        <div className="plaza-card">
+          <div className="plaza-title">
+            Civilization Infrastructure
+          </div>
+
+          <div className="plaza-desc">
+            Scaling scientific capability into durable,
+            civilization-scale systems.
+          </div>
+        </div>
+      </div>
+    </div>
+  </Reveal>
+</section>
+
+      {/* =========================
+          PAGE 07 : OBSERVATION (Science / Tech)
          ========================= */}
       <section id="home-observation" data-home-section className="home-page">
         <Reveal>
@@ -256,7 +319,7 @@ export default function Home() {
  </section>
 
       {/* =========================
-          PAGE 07 : LIVE SIGNAL (X)
+          PAGE 08 : LIVE SIGNAL (X)
          ========================= */}
       <section id="home-live" data-home-section className="home-page">
         <Reveal>
@@ -275,7 +338,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 08 : RECENT CROSSINGS
+          PAGE 09 : RECENT CROSSINGS
          ========================= */}
       <section id="home-crossings" data-home-section className="home-page">
         <Reveal>
