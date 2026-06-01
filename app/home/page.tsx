@@ -226,6 +226,7 @@ export default function Home() {
 >
   <Reveal>
     <div className="home-section">
+
       <span className="home-section-label">
         SOCIAL IMPLEMENTATION
       </span>
@@ -235,45 +236,28 @@ export default function Home() {
       </h2>
 
       <p className="home-section-purpose">
-        The transition from discovery to civilization:
-        transforming scientific capability into institutions,
-        public value, infrastructure, adoption, and durable
-        societal systems.
+        The transition from scientific discovery to reproducible capability,
+        institutional adoption, public value, infrastructure, and civilization-scale systems.
       </p>
 
-      <div className="plaza-feature">
-        <div className="plaza-card">
-          <div className="plaza-title">
-            Scientific Capability
-          </div>
-
-          <div className="plaza-desc">
-            From scientific discovery to reproducible capability.
-          </div>
+      <Link
+        href="/commercialization"
+        className="plaza-card"
+      >
+        <div className="plaza-title">
+          Social Implementation of Science
         </div>
 
-        <div className="plaza-card">
-          <div className="plaza-title">
-            Institutional Adoption
-          </div>
-
-          <div className="plaza-desc">
-            Embedding capability into organizations,
-            policy, education, and governance.
-          </div>
+        <div className="plaza-desc">
+          From scientific capability to institutional adoption,
+          public value, infrastructure, and durable societal systems.
         </div>
 
-        <div className="plaza-card">
-          <div className="plaza-title">
-            Civilization Infrastructure
-          </div>
-
-          <div className="plaza-desc">
-            Scaling scientific capability into durable,
-            civilization-scale systems.
-          </div>
+        <div className="plaza-hint">
+          Enter →
         </div>
-      </div>
+      </Link>
+
     </div>
   </Reveal>
 </section>
