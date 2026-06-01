@@ -9473,3 +9473,177 @@ html, body {
     line-height:1.2;
   }
 }
+/* =========================================================
+   ArcheNova HERO — Initial Conditions / Boundary / Irreversibility
+   ========================================================= */
+
+.arche-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+/* HERO演出本体 */
+.arche-hero-system {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.72;
+}
+
+/* 文字を前面へ */
+.arche-hero .hero-content,
+.arche-hero .hero-symbol {
+  position: relative;
+  z-index: 2;
+}
+
+/* 中央の初期条件コア */
+.arche-initial-core {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  background: rgba(255,255,255,0.92);
+  box-shadow:
+    0 0 18px rgba(255,255,255,0.42),
+    0 0 80px rgba(180,200,255,0.20);
+  animation: archeCorePulse 5.5s ease-in-out infinite;
+}
+
+/* 境界リング */
+.arche-boundary-ring {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 0 40px rgba(255,255,255,0.06);
+}
+
+.arche-ring-one {
+  width: min(58vw, 520px);
+  height: min(58vw, 520px);
+  animation: archeRingSlow 18s linear infinite;
+}
+
+.arche-ring-two {
+  width: min(38vw, 340px);
+  height: min(38vw, 340px);
+  border-color: rgba(180,200,255,0.20);
+  animation: archeRingReverse 24s linear infinite;
+}
+
+/* 因果線 */
+.arche-causal-line {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  width: min(42vw, 420px);
+  height: 1px;
+  transform-origin: left center;
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.00),
+    rgba(255,255,255,0.32),
+    rgba(255,255,255,0.00)
+  );
+  opacity: 0.36;
+  filter: blur(0.2px);
+}
+
+.arche-line-one {
+  transform: rotate(18deg);
+  animation: archeLineDrift 10s ease-in-out infinite;
+}
+
+.arche-line-two {
+  transform: rotate(132deg);
+  animation: archeLineDrift 13s ease-in-out infinite reverse;
+}
+
+.arche-line-three {
+  transform: rotate(258deg);
+  animation: archeLineDrift 16s ease-in-out infinite;
+}
+
+/* 薄い時空グリッド */
+.arche-field-grid {
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  width: min(86vw, 780px);
+  height: 360px;
+  transform: translate(-50%, -50%) perspective(700px) rotateX(62deg) rotateZ(-8deg);
+  background:
+    linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: 0.20;
+  mask-image: radial-gradient(circle, black 0%, transparent 72%);
+  -webkit-mask-image: radial-gradient(circle, black 0%, transparent 72%);
+  animation: archeGridMove 22s linear infinite;
+}
+
+/* 動き */
+@keyframes archeCorePulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.82;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.55);
+    opacity: 1;
+  }
+}
+
+@keyframes archeRingSlow {
+  from { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
+  to { transform: translate(-50%, -50%) rotate(360deg) scale(1); }
+}
+
+@keyframes archeRingReverse {
+  from { transform: translate(-50%, -50%) rotate(360deg) scale(1); }
+  to { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
+}
+
+@keyframes archeLineDrift {
+  0%, 100% { opacity: 0.20; }
+  50% { opacity: 0.48; }
+}
+
+@keyframes archeGridMove {
+  from { background-position: 0 0; }
+  to { background-position: 48px 48px; }
+}
+
+/* スマホ調整 */
+@media (max-width: 768px) {
+  .arche-hero-system {
+    opacity: 0.58;
+  }
+
+  .arche-ring-one {
+    width: 86vw;
+    height: 86vw;
+  }
+
+  .arche-ring-two {
+    width: 58vw;
+    height: 58vw;
+  }
+
+  .arche-field-grid {
+    width: 110vw;
+    height: 300px;
+    opacity: 0.15;
+  }
+
+  .arche-causal-line {
+    width: 64vw;
+  }
+}

@@ -19,14 +19,18 @@ export default function Home() {
           PAGE 01 : HERO
          ========================= */}
       <section id="home-hero" data-home-section className="home-page">
-        <div className="hero hero-scroll">
-  <div className="hero-cosmic-architecture" aria-hidden="true">
-    <div className="hero-gravity-well" />
-    <div className="hero-spacetime-grid" />
-    <div className="hero-causal-network" />
-  </div>
+  <div className="hero hero-scroll arche-hero">
+    <div className="arche-hero-system" aria-hidden="true">
+      <div className="arche-initial-core" />
+      <div className="arche-boundary-ring arche-ring-one" />
+      <div className="arche-boundary-ring arche-ring-two" />
+      <div className="arche-causal-line arche-line-one" />
+      <div className="arche-causal-line arche-line-two" />
+      <div className="arche-causal-line arche-line-three" />
+      <div className="arche-field-grid" />
+    </div>
 
-  <div className="hero-content">
+    <div className="hero-content">
             <Reveal>
               <h1 className="hero-title">ArcheNova</h1>
               <p className="hero-statement">
