@@ -9391,7 +9391,7 @@ html, body {
 .paper-body p{
   margin:0 0 1.4em;
 }
-/* Mobile */
+/* Mobile OBSERVATION */
 @media (max-width: 768px) {
   #home-observation .plaza-feature {
     display: none !important;
