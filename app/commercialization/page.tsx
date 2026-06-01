@@ -2,24 +2,24 @@ import Link from "next/link";
 
 const items = [
   {
-    title: "Productization",
-    text: "Transforming scientific and technical capability into usable products, services, and repeatable offerings.",
+    title: "Scientific Capability",
+    text: "Clarifying what scientific discovery makes newly possible, and what capability can be reproduced beyond the laboratory.",
   },
   {
-    title: "Business Model Design",
-    text: "Designing revenue logic, cost structures, target customers, value propositions, and adoption pathways.",
+    title: "Technical Translation",
+    text: "Transforming scientific knowledge into methods, tools, systems, standards, and operational procedures.",
   },
   {
-    title: "Market Formation",
-    text: "Identifying early adopters, institutional buyers, ecosystem partners, and conditions for scalable demand.",
+    title: "Institutional Adoption",
+    text: "Embedding new capability into organizations, public systems, industries, regulations, and professional practice.",
   },
   {
-    title: "Operational Deployment",
-    text: "Turning prototypes into reliable workflows, organizational processes, delivery systems, and implementation capacity.",
+    title: "Public Value",
+    text: "Evaluating how scientific implementation contributes to safety, health, resilience, productivity, trust, and long-term social benefit.",
   },
   {
-    title: "Infrastructure & Ecosystem",
-    text: "Expanding individual offerings into durable infrastructure, partnerships, standards, and economic ecosystems.",
+    title: "Scalable Infrastructure",
+    text: "Expanding implementation from isolated use cases into durable infrastructure, ecosystems, and civilization-scale capability.",
   },
 ];
 
@@ -27,12 +27,12 @@ export default function CommercializationPage() {
   return (
     <main className="page-standard">
       <div className="page-head">
-        <span className="home-section-label">COMMERCIALIZATION</span>
-        <h1>Commercialization / Business Implementation</h1>
+        <span className="home-section-label">SOCIAL IMPLEMENTATION</span>
+        <h1>Social Implementation of Science</h1>
         <p className="page-lead">
-          This page examines how scientific and technical capability becomes
-          productized, adopted, scaled, and embedded into durable economic and
-          institutional systems.
+          This page examines how scientific discovery becomes reproducible
+          capability, institutional adoption, public value, and durable social
+          infrastructure.
         </p>
       </div>
 
