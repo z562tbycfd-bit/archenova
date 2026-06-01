@@ -45,7 +45,7 @@ export default function TechnologyHome() {
       </div>
 
       <div className="home-card-foot">
-        <a className="mini-link" href="/technology">Open Technology →</a>
+        <a className="mini-link" href="/technology">Open Applied Science →</a>
       </div>
     </section>
   );
