@@ -11,7 +11,7 @@ export default function ScienceHome() {
     let cancel = false;
     (async () => {
       try {
-        const r = await fetch("/api/science", { cache: "no-store" });
+        const r = await fetch("/data/science.json", { cache: "no-store" });
         const j = await r.json();
         if (!j?.ok || cancel) return;
         setItems((j.items ?? []).slice(0, 5));
