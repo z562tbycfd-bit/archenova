@@ -19,27 +19,7 @@ export default function Home() {
           PAGE 01 : HERO
          ========================= */}
       <section id="home-hero" data-home-section className="home-page">
-  <div className="hero hero-scroll arche-hero">
-  <div className="arche-formation" aria-hidden="true">
-    <span className="arche-core" />
-
-    <span className="arche-ring arche-ring-a" />
-    <span className="arche-ring arche-ring-b" />
-
-    <span className="arche-particle p1" />
-    <span className="arche-particle p2" />
-    <span className="arche-particle p3" />
-    <span className="arche-particle p4" />
-    <span className="arche-particle p5" />
-    <span className="arche-particle p6" />
-
-    <span className="arche-link l1" />
-    <span className="arche-link l2" />
-    <span className="arche-link l3" />
-    <span className="arche-link l4" />
-
-    <span className="arche-grid" />
-  </div>
+  <div className="hero hero-scroll">
 
   <div className="hero-content">
             <Reveal>
