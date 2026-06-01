@@ -9715,3 +9715,16 @@ html, body {
 #home-social-implementation .social-implementation-grid .plaza-card {
   margin: 0 !important;
 }
+/* =========================================================
+   Mobile OBSERVATION: restore cards
+   ========================================================= */
+
+@media (max-width: 768px) {
+  #home-observation .mobile-symbol-row {
+    display: none !important;
+  }
+
+  #home-observation .plaza-feature {
+    display: block !important;
+  }
+}
