@@ -225,8 +225,10 @@ export default function Home() {
         institutional adoption, public value, infrastructure, and civilization-scale systems.
       </p>
 
-
-      <Link href="/commercialization" className="plaza-card">
+      <Link
+  href="/commercialization"
+  className="plaza-card social-implementation-card"
+>
   <div className="plaza-title">Social Implementation of Science</div>
 
   <div className="plaza-desc">

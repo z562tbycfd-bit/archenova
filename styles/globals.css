@@ -9609,3 +9609,7 @@ html, body {
     padding:22px;
   }
 }
+/* Social Implementation card spacing on HOME */
+.social-implementation-card {
+  margin-top: 48px;
+}
