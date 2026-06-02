@@ -9728,3 +9728,13 @@ html, body {
     display: block !important;
   }
 }
+/* Mobile OBSERVATION: icon mode */
+@media (max-width: 768px) {
+  #home-observation .plaza-feature {
+    display: none !important;
+  }
+
+  #home-observation .mobile-symbol-row {
+    display: flex !important;
+  }
+}

@@ -294,6 +294,24 @@ export default function Home() {
   </Link>
 </div>
 </Reveal>
+
+<div className="mobile-symbol-row mobile-symbol-row-3">
+  <Link href="/science" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">✦</span>
+    <span className="mobile-symbol-label">Basic</span>
+  </Link>
+
+  <Link href="/technology" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">⌬</span>
+    <span className="mobile-symbol-label">Applied</span>
+  </Link>
+
+  <Link href="/commercialization" className="mobile-symbol-link">
+    <span className="mobile-symbol-icon">◌</span>
+    <span className="mobile-symbol-label">Social</span>
+  </Link>
+</div>
+
  </section>
 
       {/* =========================

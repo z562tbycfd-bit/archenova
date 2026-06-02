@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-06-01T23:39:52.993Z",
+  "updated": "2026-06-02T01:11:35.494Z",
   "items": [
+    {
+      "source": "APS / PRL",
+      "title": "Weak-Memory Dynamics in Discrete Time",
+      "url": "http://link.aps.org/doi/10.1103/kdhy-66b6",
+      "summary": "Author(s): Hugues Meyer and Kay Brandner Discrete dynamics arise naturally in systems with broken temporal translation symmetry and are typically described by first-order recurrence relations representing classical or qu…",
+      "ts": 1780308000000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Mixed-State Topological Order and the Errorfield Double Formulation of Decoherence-Induced Transitions",
+      "url": "http://link.aps.org/doi/10.1103/6f98-tvb8",
+      "summary": "Author(s): Yimu Bao, Ruihua Fan, Ashvin Vishwanath, and Ehud Altman We develop an effective field theory characterizing the impact of decoherence on states with Abelian topological order and on their capacity to protect …",
+      "ts": 1780308000000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Quasinormal Modes Ratios as Agnostic Test of General Relativity",
+      "url": "http://link.aps.org/doi/10.1103/cm6z-43t3",
+      "summary": "Author(s): Nicola Franchini In this Letter, we provide a novel test of general relativity based on ringdown analysis. The test is performed on agnostic models, where the postmerger signal is fitted with a superposition o…",
+      "ts": 1780308000000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Accurate Boundary Bootstrap for the Three-Dimensional $\\mathrm{O}(N)$ Normal Universality Class",
+      "url": "http://link.aps.org/doi/10.1103/hnd3-636j",
+      "summary": "Author(s): Runzhe Hu and Wenliang Li The three-dimensional classical $\\mathrm{O}(N)$ model with a boundary has received renewed interest due to the discovery of the extraordinary-log boundary universality class for $2≤N<…",
+      "ts": 1780308000000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Measurement of the Top-Quark Production Cross Section and Charge Asymmetry at LHCb",
+      "url": "http://link.aps.org/doi/10.1103/c1x7-f9wn",
+      "summary": "Author(s): R. Aaij et al. (LHCb Collaboration) The first measurements of the top- and antitop-quark differential production cross sections and the top-quark charge asymmetry in the forward region are presented, using pro…",
+      "ts": 1780308000000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Nanoscale Femtosecond Coherent Radiation and Spatiotemporally Shaped Free Electron Wave Function",
+      "url": "http://link.aps.org/doi/10.1103/94bl-yb33",
+      "summary": "Author(s): Wu Wen, Jing Li, and Yunquan Liu We study tunable, nanoscale, femtosecond coherent radiation based on a coupled nanowire pair structure, which is transversely excited by a strong, linearly polarized laser puls…",
+      "ts": 1780308000000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Existent Condition of Partially Wet State in Capillary Tubes",
+      "url": "http://link.aps.org/doi/10.1103/9hlx-k382",
+      "summary": "Author(s): Chen Zhao, Jiajia Zhou, and Masao Doi We develop a theory that predicts the equilibrium states of a fluid contained in a capillary that has corners. Each section of the tube can take three states: completely w…",
+      "ts": 1780308000000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Evidence of Chiral Fermion Edge Modes through Geometric Engineering of Thermal Hall Effect in $α\\text{−}{\\mathrm{RuCl}}_{3}$",
+      "url": "http://link.aps.org/doi/10.1103/rn48-7j6y",
+      "summary": "Author(s): Heda Zhang, Gábor B. Halász, Sujoy Ghosh, Stephen Jesse, Thomas Z. Ward, David A. Tennant, Michael A. McGuire, and Jiaqiang Yan The experimental observation of half-integer-quantized thermal Hall conductivity …",
+      "ts": 1780308000000
+    },
     {
       "source": "Nature",
       "title": "Enantioselective hydrogen atom relay via non-covalent catalyst assembly",
@@ -85,6 +141,20 @@
       "url": "https://www.nature.com/articles/d41586-026-01760-w",
       "summary": "",
       "ts": 1780272000000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Layer Codes as Partially Self-Correcting Quantum Memories",
+      "url": "http://link.aps.org/doi/10.1103/x4z2-f4gg",
+      "summary": "Author(s): Shouzhen Gu, Libor Caha, Shin Ho Choe, Zhiyang He, Aleksander Kubica, and Eugene Tang We investigate layer codes, a family of three-dimensional stabilizer codes that achieves optimal scaling of code parameters…",
+      "ts": 1780048800000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "One-Loop QCD $β$ Function as an Index",
+      "url": "http://link.aps.org/doi/10.1103/5kd5-3724",
+      "summary": "Author(s): Roland Bittleston and Kevin Costello An index theorem on twistor space provides a simple first-principles derivation of the numerical factors in the one-loop QCD β function. [Phys. Rev. Lett. 136, 211601] Publ…",
+      "ts": 1780048800000
     },
     {
       "source": "Nature",
@@ -199,99 +269,32 @@
       "ts": 1780012800000
     },
     {
-      "source": "Science",
-      "title": "Visualizing a lung neutrophil-platelet immunothrombosis cascade during sepsis in mice",
-      "url": "https://www.science.org/doi/abs/10.1126/science.adv0377?af=R",
-      "summary": "Science, Volume 392, Issue 6801, May 2026.",
-      "ts": 1779951600000
+      "source": "APS / PRL",
+      "title": "Beating Hermitian Speed Limits for Entanglement Generation via Exceptional Points in a Trapped-Ion System",
+      "url": "http://link.aps.org/doi/10.1103/g8v5-rbq7",
+      "summary": "Author(s): W. F. Yuan, B. B. Liu, N. Li, G. Y. Ding, W. Q. Ding, H. J. Du, J. C. Li, G. Chen, H. Jing, F. Zhou, Shi-Lei Su, and M. Feng Entanglement generation is a cornerstone of quantum information science, yet its spe…",
+      "ts": 1779962400000
     },
     {
-      "source": "Science",
-      "title": "Selective autophagy fine-tunes plant immunity to promote cell survival during viral infection",
-      "url": "https://www.science.org/doi/abs/10.1126/science.adu9554?af=R",
-      "summary": "Science, Volume 392, Issue 6801, May 2026.",
-      "ts": 1779951600000
-    },
-    {
-      "source": "Science",
-      "title": "Importance of elephants for dung beetle biodiversity and ecosystem functions",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeb7062?af=R",
-      "summary": "Science, Volume 392, Issue 6801, May 2026.",
-      "ts": 1779951600000
-    },
-    {
-      "source": "Science",
-      "title": "Strain-resilient intrinsically stretchable electrochemical biointerfaces",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aed1630?af=R",
-      "summary": "Science, Volume 392, Issue 6801, May 2026.",
-      "ts": 1779951600000
-    },
-    {
-      "source": "Science",
-      "title": "Pan-cancer spatial atlas of tertiary lymphoid structures",
-      "url": "https://www.science.org/doi/abs/10.1126/science.adz2742?af=R",
-      "summary": "Science, Volume 392, Issue 6801, May 2026.",
-      "ts": 1779951600000
-    },
-    {
-      "source": "Science",
-      "title": "A high-throughput selection system for fast-acting covalent protein drugs",
-      "url": "https://www.science.org/doi/abs/10.1126/science.adv3081?af=R",
-      "summary": "Science, Volume 392, Issue 6801, May 2026.",
-      "ts": 1779951600000
-    },
-    {
-      "source": "Science",
-      "title": "Unstructured transcription factor interactions enable emergent specificity",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeb6487?af=R",
-      "summary": "Science, Volume 392, Issue 6801, May 2026.",
-      "ts": 1779951600000
-    },
-    {
-      "source": "Science",
-      "title": "An uncommon introduction to chemistry",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeg5513?af=R",
-      "summary": "Science, Volume 392, Issue 6801, Page 925-925, May 2026.",
-      "ts": 1779948006000
-    },
-    {
-      "source": "Science",
-      "title": "An Arctic community on the climate front lines",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeh0733?af=R",
-      "summary": "Science, Volume 392, Issue 6801, Page 924-924, May 2026.",
-      "ts": 1779948006000
-    },
-    {
-      "source": "Science",
-      "title": "Galileo's Fame: Science, Credibility, and Memory in the Seventeenth Century",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aei4055?af=R",
-      "summary": "Science, Volume 392, Issue 6801, Page 925-925, May 2026.",
-      "ts": 1779948006000
-    },
-    {
-      "source": "Science",
-      "title": "Hematite is a mineralogical marker of ancient climate change on Mars",
-      "url": "https://www.science.org/doi/abs/10.1126/science.adv5447?af=R",
-      "summary": "Science, Volume 392, Issue 6801, Page 966-971, May 2026.",
-      "ts": 1779948006000
-    },
-    {
-      "source": "Science",
-      "title": "Stabilizing in-transition phases of superlattices through shape control of silver nanocrystals",
-      "url": "https://www.science.org/doi/abs/10.1126/science.ady6472?af=R",
-      "summary": "Science, Volume 392, Issue 6801, Page 951-957, May 2026.",
-      "ts": 1779948006000
+      "source": "APS / PRL",
+      "title": "Quantum Transition Rates in Arbitrary Physical Processes",
+      "url": "http://link.aps.org/doi/10.1103/l7dq-n61h",
+      "summary": "Author(s): Adolfo del Campo, András Grabarits, Dmitrii E. Makarov, and Seong-Ho Shinn A theory of quantum transition rates refines the concept of quantum speed limits. [Phys. Rev. Lett. 136, 210202] Published Thu May 28,…",
+      "ts": 1779962400000
     }
   ],
   "sources": [
     {
+      "id": "nature",
       "name": "Nature"
     },
     {
+      "id": "science",
       "name": "Science"
     },
     {
-      "name": "APS Physics"
+      "id": "aps",
+      "name": "APS / PRL"
     }
   ]
 }

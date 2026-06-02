@@ -19,35 +19,78 @@ function ts(item) {
 
 const SCIENCE_SOURCES = [
   {
+    id: "nature",
     name: "Nature",
     url: "https://www.nature.com/nature.rss",
   },
   {
+    id: "science",
     name: "Science",
     url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
   },
   {
-    name: "APS Physics",
-    url: "https://physics.aps.org/rss/recent.xml",
+    id: "aps",
+    name: "APS / PRL",
+    url: "https://feeds.aps.org/rss/recent/prl.xml",
   },
 ];
 
-const TECHNOLOGY_SOURCES = [
+const TECHNOLOGY_CATEGORIES = [
   {
-    name: "Nature Technology",
-    url: "https://www.nature.com/subjects/technology.rss",
+    id: "policy",
+    name: "Policy",
+    sources: [
+      { id: "nist", name: "NIST", url: "https://www.nist.gov/news-events/news/rss.xml" },
+    ],
   },
   {
-    name: "MIT Technology Review",
-    url: "https://www.technologyreview.com/feed/",
+    id: "ai-compute",
+    name: "AI・Compute",
+    sources: [
+      { id: "mittr", name: "MIT Technology Review", url: "https://www.technologyreview.com/feed/" },
+      { id: "openai", name: "OpenAI", url: "https://openai.com/blog/rss.xml" },
+    ],
   },
   {
-    name: "IEEE Spectrum",
-    url: "https://spectrum.ieee.org/rss/fulltext",
+    id: "semiconductor",
+    name: "Semiconductor",
+    sources: [
+      { id: "nvidia", name: "NVIDIA", url: "https://nvidianews.nvidia.com/rss.xml" },
+      { id: "ieee", name: "IEEE Spectrum", url: "https://spectrum.ieee.org/rss/fulltext" },
+    ],
+  },
+  {
+    id: "quantum",
+    name: "Quantum",
+    sources: [
+      { id: "quanta", name: "Quanta Magazine", url: "https://www.quantamagazine.org/feed/" },
+    ],
+  },
+  {
+    id: "energy",
+    name: "Energy",
+    sources: [
+      { id: "doe", name: "US DOE", url: "https://www.energy.gov/rss/science/3662436" },
+      { id: "iter", name: "ITER", url: "https://www.iter.org/rss/NewsLine.rss" },
+    ],
+  },
+  {
+    id: "space",
+    name: "Space",
+    sources: [
+      { id: "nasa", name: "NASA", url: "https://www.nasa.gov/rss/dyn/breaking_news.rss" },
+    ],
+  },
+  {
+    id: "bio",
+    name: "Bio",
+    sources: [
+      { id: "nbt", name: "Nature Biotechnology", url: "https://www.nature.com/nbt.rss" },
+    ],
   },
 ];
 
-async function fetchFeed(source) {
+async function fetchFeed(source, categoryId = undefined) {
   try {
     const feed = await parser.parseURL(source.url);
 
@@ -57,6 +100,7 @@ async function fetchFeed(source) {
       url: item.link || "",
       summary: clamp(item.contentSnippet || item.content || item.summary || "", 220),
       ts: ts(item),
+      ...(categoryId ? { categoryId } : {}),
     }));
   } catch (e) {
     console.warn(`Failed: ${source.name}`);
@@ -64,10 +108,10 @@ async function fetchFeed(source) {
   }
 }
 
-async function buildFile(filename, sources, limit, extra = {}) {
+async function buildScience() {
   const all = [];
 
-  for (const source of sources) {
+  for (const source of SCIENCE_SOURCES) {
     const items = await fetchFeed(source);
     all.push(...items);
   }
@@ -76,37 +120,67 @@ async function buildFile(filename, sources, limit, extra = {}) {
     .filter((x) => x.title && x.url)
     .sort((a, b) => (b.ts || 0) - (a.ts || 0))
     .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
-    .slice(0, limit);
+    .slice(0, 40);
 
   fs.mkdirSync(outDir, { recursive: true });
 
   fs.writeFileSync(
-    path.join(outDir, filename),
+    path.join(outDir, "science.json"),
     JSON.stringify(
       {
         ok: true,
         updated: new Date().toISOString(),
         items: merged,
-        ...extra,
+        sources: SCIENCE_SOURCES.map((s) => ({
+          id: s.id,
+          name: s.name,
+        })),
       },
       null,
       2
     )
   );
 
-  console.log(`Generated public/data/${filename}: ${merged.length} items`);
+  console.log(`Generated public/data/science.json: ${merged.length} items`);
 }
 
-await buildFile("science.json", SCIENCE_SOURCES, 40, {
-  sources: SCIENCE_SOURCES.map((s) => ({
-    id: s.id,
-    name: s.name,
-  })),
-});
+async function buildTechnology() {
+  const all = [];
 
-await buildFile("technology.json", TECHNOLOGY_SOURCES, 60, {
-  categories: TECHNOLOGY_CATEGORIES.map((c) => ({
-    id: c.id,
-    name: c.name,
-  })),
-});
+  for (const category of TECHNOLOGY_CATEGORIES) {
+    for (const source of category.sources) {
+      const items = await fetchFeed(source, category.id);
+      all.push(...items);
+    }
+  }
+
+  const merged = all
+    .filter((x) => x.title && x.url)
+    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
+    .slice(0, 60);
+
+  fs.mkdirSync(outDir, { recursive: true });
+
+  fs.writeFileSync(
+    path.join(outDir, "technology.json"),
+    JSON.stringify(
+      {
+        ok: true,
+        updated: new Date().toISOString(),
+        items: merged,
+        categories: TECHNOLOGY_CATEGORIES.map((c) => ({
+          id: c.id,
+          name: c.name,
+        })),
+      },
+      null,
+      2
+    )
+  );
+
+  console.log(`Generated public/data/technology.json: ${merged.length} items`);
+}
+
+await buildScience();
+await buildTechnology();
