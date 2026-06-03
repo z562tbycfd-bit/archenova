@@ -33,7 +33,6 @@ export default function ScienceHome() {
           <a key={i} className="feed-row" href={it.url} target="_blank" rel="noreferrer">
             <div className="feed-source">{it.source}</div>
             <div className="feed-title">{it.title}</div>
-            <div className="feed-summary">{it.summary}</div>
           </a>
         )) : (
           <div className="feed-empty">Loading latest basic science posts… </div>

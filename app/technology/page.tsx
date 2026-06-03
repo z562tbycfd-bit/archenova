@@ -76,8 +76,8 @@ export default function TechnologyPage() {
          onClick={() => setTab("all")}
          type="button"
 
-         All
-       </button>
+          All
+        </button>
 
        {cats.map((c) => (
          <button
@@ -86,10 +86,11 @@ export default function TechnologyPage() {
            onClick={() => setTab(c.id)}
            type="button"
 
-           {c.name}
-         </button>
-       ))}
-     </div>
+            {c.name}
+          </button>
+        ))}
+      </div>
+
 
      <div className="feed-list">
        {visibleItems.length ? (

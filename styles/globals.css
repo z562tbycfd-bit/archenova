@@ -9745,3 +9745,51 @@ html, body {
     font-size: 0.9rem !important;
   }
 }
+/* Mobile Observation Cards */
+@media (max-width: 768px) {
+
+  #home-observation .home-card {
+    min-height: 180px !important;
+    max-height: 180px !important;
+
+    padding: 18px !important;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #home-observation .feed-scroll {
+    overflow: hidden !important;
+  }
+
+  #home-observation .feed-row {
+    padding: 10px 0 !important;
+  }
+
+  #home-observation .feed-source {
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    margin-bottom: 8px;
+  }
+
+  #home-observation .feed-title {
+    font-size: 0.95rem;
+    line-height: 1.35;
+    font-weight: 600;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+  }
+
+  #home-observation .feed-summary {
+    display: none !important;
+  }
+
+  #home-observation .home-card-meta {
+    display: none !important;
+  }
+}
