@@ -256,8 +256,79 @@ export default function Home() {
   </Reveal>
 </section>
 
+{/* =========================
+    PAGE 08 : REALIZING NEW TECHNOLOGIES
+   ========================= */}
+<section
+  id="home-realizing-technologies"
+  className="home-page"
+  data-home-section
+>
+  <Reveal>
+    <div className="home-section home-section-center">
+      <span className="home-section-label">REALIZING NEW TECHNOLOGIES</span>
+
+      <p className="home-section-purpose">
+        How emerging science and technology become realizable systems:
+        from scientific foundations to implementation pathways and
+        civilization-scale transformation.
+      </p>
+
+      <div className="rnt-card-grid">
+        <Link href="/realizing-new-technologies/house" className="plaza-card">
+          <div className="plaza-title">House</div>
+          <div className="plaza-desc">— Adaptive future habitat systems</div>
+          <div className="plaza-hint">Open →</div>
+        </Link>
+
+        <Link href="/realizing-new-technologies/vertical-tower" className="plaza-card">
+          <div className="plaza-title">Vertical-Tower</div>
+          <div className="plaza-desc">— Autonomous vertical infrastructure</div>
+          <div className="plaza-hint">Open →</div>
+        </Link>
+
+        <Link href="/realizing-new-technologies/mobility" className="plaza-card">
+          <div className="plaza-title">Mobility</div>
+          <div className="plaza-desc">— Post-road transportation systems</div>
+          <div className="plaza-hint">Open →</div>
+        </Link>
+
+        <Link href="/realizing-new-technologies/physical-ai" className="plaza-card">
+          <div className="plaza-title">Physical AI</div>
+          <div className="plaza-desc">— AI acting through physical systems</div>
+          <div className="plaza-hint">Open →</div>
+        </Link>
+
+        <Link href="/realizing-new-technologies/civilization-city" className="plaza-card">
+          <div className="plaza-title">Civilization-City</div>
+          <div className="plaza-desc">— Cities as adaptive civilization systems</div>
+          <div className="plaza-hint">Open →</div>
+        </Link>
+      </div>
+
+      <div className="rnt-mobile-icons">
+        <Link href="/realizing-new-technologies/house" className="rnt-icon-link">
+          <span>⌂</span><small>House</small>
+        </Link>
+        <Link href="/realizing-new-technologies/vertical-tower" className="rnt-icon-link">
+          <span>❖</span><small>Tower</small>
+        </Link>
+        <Link href="/realizing-new-technologies/mobility" className="rnt-icon-link">
+          <span>⥤</span><small>Mobility</small>
+        </Link>
+        <Link href="/realizing-new-technologies/physical-ai" className="rnt-icon-link">
+          <span>☺︎</span><small>AI</small>
+        </Link>
+        <Link href="/realizing-new-technologies/civilization-city" className="rnt-icon-link">
+          <span>✵</span><small>City</small>
+        </Link>
+      </div>
+    </div>
+  </Reveal>
+</section>
+
       {/* =========================
-          PAGE 08 : OBSERVATION (Science / Tech)
+          PAGE 09 : OBSERVATION (Science / Tech)
          ========================= */}
       <section id="home-observation" data-home-section className="home-page">
         <Reveal>
@@ -284,7 +355,7 @@ export default function Home() {
  </section>
 
       {/* =========================
-          PAGE 09 : RECENT CROSSINGS
+          PAGE 10 : RECENT CROSSINGS
          ========================= */}
       <section id="home-crossings" data-home-section className="home-page">
         <Reveal>
