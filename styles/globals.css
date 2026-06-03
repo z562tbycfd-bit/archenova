@@ -9715,26 +9715,33 @@ html, body {
 #home-social-implementation .social-implementation-grid .plaza-card {
   margin: 0 !important;
 }
-/* =========================================================
-   Mobile OBSERVATION: restore cards
-   ========================================================= */
-
+/* Mobile OBSERVATION: compact cards */
 @media (max-width: 768px) {
-  #home-observation .mobile-symbol-row {
-    display: none !important;
-  }
-
   #home-observation .plaza-feature {
     display: block !important;
+    margin: 12px auto !important;
   }
-}
-/* Mobile OBSERVATION: icon mode */
-@media (max-width: 768px) {
-  #home-observation .plaza-feature {
+
+  #home-observation .home-card {
+    max-height: 230px !important;
+    overflow: hidden !important;
+    padding: 14px !important;
+  }
+
+  #home-observation .feed-scroll {
+    max-height: 120px !important;
+    overflow-y: auto !important;
+  }
+
+  #home-observation .feed-summary {
     display: none !important;
   }
 
-  #home-observation .mobile-symbol-row {
-    display: flex !important;
+  #home-observation .feed-row {
+    padding: 10px 0 !important;
+  }
+
+  #home-observation .home-card-title {
+    font-size: 0.9rem !important;
   }
 }
