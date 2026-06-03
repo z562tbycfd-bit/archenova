@@ -9793,3 +9793,7 @@ html, body {
     display: none !important;
   }
 }
+#home-observation .feed-title {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
