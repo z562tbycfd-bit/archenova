@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import {
   realizingTechnologies,
   getRealizingTechnology,
-} from "../../lib/realizingTechnologies";
+} from "../../../lib/realizingTechnologies";
 
 export function generateStaticParams() {
   return realizingTechnologies.map((item) => ({
