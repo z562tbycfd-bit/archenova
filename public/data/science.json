@@ -1,286 +1,286 @@
 {
   "ok": true,
-  "updated": "2026-06-04T12:58:54.524Z",
+  "updated": "2026-06-04T22:11:45.400Z",
   "items": [
     {
-      "source": "Nature",
-      "title": "Device could sniff out fusion reactors secretly making material for a nuclear bomb",
-      "url": "https://www.nature.com/articles/d41586-026-01764-6",
-      "summary": "",
-      "ts": 1780531200000
-    },
-    {
-      "source": "Nature",
-      "title": "This mysterious lung disease affects millions of people — but a drug tested in mice shows promise",
-      "url": "https://www.nature.com/articles/d41586-026-01789-x",
-      "summary": "",
-      "ts": 1780531200000
-    },
-    {
-      "source": "Nature",
-      "title": "What’s behind China’s historically high counts of corresponding authors?",
-      "url": "https://www.nature.com/articles/d41586-026-01623-4",
-      "summary": "",
-      "ts": 1780531200000
+      "source": "APS / PRL",
+      "title": "Realizing Unitary $k$-Designs with a Single Quench",
+      "url": "http://link.aps.org/doi/10.1103/rvwb-r9lv",
+      "summary": "Author(s): Yi-Neng Zhou, Robin Löwenberg, and Julian Sonner We present a single-quench protocol that generates unitary $k$-designs with minimal control. A system first evolves under a random Hamiltonian ${H}_{1}$; at a s…",
+      "ts": 1780567200000
     },
     {
       "source": "APS / PRL",
-      "title": "Observable Gravitational Wave Strain at Second Order",
-      "url": "http://link.aps.org/doi/10.1103/pwbs-xwrh",
-      "summary": "Author(s): Guillem Domènech, Shi Pi (皮石), and Ao Wang (王奥) The ambiguity in associating gravitational waves with transverse-traceless components of the metric at second order in perturbation theory is resolved by computi…",
-      "ts": 1780480800000
+      "title": "Breakdown of Disorder-Suppressed Floquet Heating under Two-Frequency Driving",
+      "url": "http://link.aps.org/doi/10.1103/t953-lhht",
+      "summary": "Author(s): Cooper M. Selco, Christian Bengs, Chaitali Shah, and Ashok Ajoy Periodic (Floquet) driving enables Hamiltonian engineering and nonequilibrium phases, but interacting systems eventually heat by absorbing energy…",
+      "ts": 1780567200000
     },
     {
       "source": "APS / PRL",
-      "title": "Edge Modes on Stringy Horizons",
-      "url": "http://link.aps.org/doi/10.1103/cd5m-1knl",
-      "summary": "Author(s): Atish Dabholkar, Eleanor Harris, and Upamanyu Moitra For a quantum field of arbitrary mass and spin in the static patch of de Sitter spacetime, the Euclidean partition function receives contributions from edge…",
-      "ts": 1780480800000
+      "title": "Crossed Surface Flat Bands in Three-Dimensional Superconducting Altermagnets",
+      "url": "http://link.aps.org/doi/10.1103/65q6-5wxl",
+      "summary": "Author(s): Yuri Fukaya, Bo Lu, Keiji Yada, Yukio Tanaka, and Jorge Cayao Higher dimensional topological phases in three-dimensional superconducting altermagnets characterized by zero-energy surface crossed flat bands ind…",
+      "ts": 1780567200000
     },
     {
       "source": "APS / PRL",
-      "title": "One-Jettiness Distribution Contains Super-Super-Leading Logarithms",
-      "url": "http://link.aps.org/doi/10.1103/flv7-ksvf",
-      "summary": "Author(s): Andrea Banfi, Jeffrey R. Forshaw, and Jack Holguin We show that one-jettiness (${τ}_{1}$) in color-singlet plus jet production suffers from superleading logarithms starting at order ${α}_{\\mathrm{s}}^{4}\\mathr…",
-      "ts": 1780480800000
+      "title": "Nonlinear Magnetoelectric Edelstein Effect",
+      "url": "http://link.aps.org/doi/10.1103/r3x2-kb93",
+      "summary": "Author(s): Jinxiong Jia, Longjun Xiang, Zhenhua Qiao, and Jian Wang The generation of spin magnetization by linear and nonlinear Edelstein effects has so far relied solely on electric fields. Here, we propose a distinct …",
+      "ts": 1780567200000
     },
     {
       "source": "APS / PRL",
-      "title": "Swimming against a Superfluid Flow: Self-Propulsion via Vortex-Antivortex Shedding in a Quantum Fluid of Light",
-      "url": "http://link.aps.org/doi/10.1103/ndj1-1j89",
-      "summary": "Author(s): Myrann Baker-Rasooli, Tangui Aladjidi, Tiago D. Ferreira, Alberto Bramati, Mathias Albert, Pierre-Élie Larré, and Quentin Glorieux A superfluid flows without friction below a critical velocity, exhibiting zero…",
-      "ts": 1780480800000
+      "title": "Observation of Acoustic Magnetochiral Anisotropy in $α$ Quartz",
+      "url": "http://link.aps.org/doi/10.1103/7vmb-ytfd",
+      "summary": "Author(s): Munkhtuguldur Altangerel, S. Badoux, C. Proust, D. Vignolles, and G. L. J. A. Rikken Acoustic magnetochiral anisotropy is observed in a diamagnetic crystal of α quartz. [Phys. Rev. Lett. 136, 226303] Published…",
+      "ts": 1780567200000
     },
     {
       "source": "APS / PRL",
-      "title": "Unveiling Spin and Poynting Dual Textures of an Optical Skyrmionic Tube in Free Space",
-      "url": "http://link.aps.org/doi/10.1103/f6b5-kv4x",
-      "summary": "Author(s): Sicong Wang, Zhikai Zhou, Yongjie Zhu, Jialin Sun, Jiahui Mao, Minghui Wang, Shichao Song, Zi-lan Deng, Yaoyu Cao, Fei Qin, Yunkun Wu, Xifeng Ren, and Xiangping Li Optical skyrmions are topological textures of…",
-      "ts": 1780480800000
+      "title": "Acoustic Bound Pair States in the Continuum Induced by Off-Site Two-Body Interactions",
+      "url": "http://link.aps.org/doi/10.1103/46kx-l3jm",
+      "summary": "Author(s): Zhenhang Pu, Chunbo Hua, Hailong He, Liping Ye, Jiuyang Lu, Weiyin Deng, Manzhu Ke, and Zhengyou Liu A novel many-body bound state in the continuum induced entirely by uniform off-site 2-body interactions is o…",
+      "ts": 1780567200000
     },
     {
-      "source": "APS / PRL",
-      "title": "Benchmark Calculations of Charge State Distributions and Radiative Properties of Gold Plasmas in ICF Hohlraums",
-      "url": "http://link.aps.org/doi/10.1103/5wvx-p626",
-      "summary": "Author(s): Yongjun Li, Cheng Gao, Yong Hou, Fengtao Jin, Jiaolong Zeng, and Jianmin Yuan Accurate ionization balance of gold plasmas in nonlocal thermodynamic equilibrium is essential for understanding the physics involv…",
-      "ts": 1780480800000
+      "source": "Science",
+      "title": "Competition enables rapid adaptation to a warming range edge in a model plant community",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ads4664?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "APS / PRL",
-      "title": "Nonlinear Optomagnetic Signature of $d$-Wave Altermagnets",
-      "url": "http://link.aps.org/doi/10.1103/gly7-jzfl",
-      "summary": "Author(s): Lijun Yang and Long Liang Altermagnetism, a recently discovered collinear magnetic order with net zero magnetization but exhibiting spin-splitting band structure, has attracted much research interest due to th…",
-      "ts": 1780480800000
+      "source": "Science",
+      "title": "Severe obesity in human HFpEF alters contractile protein function and organization",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz7118?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "APS / PRL",
-      "title": "Interlayer Self-Doping Multiferroics",
-      "url": "http://link.aps.org/doi/10.1103/7np8-d5jp",
-      "summary": "Author(s): Shulin Zhong, Dacheng Tian, Shengyuan A. Yang, Lan Chen, Su-Huai Wei, and Yunhao Lu Multiferroic materials, which simultaneously exhibit ferroelectric and magnetic orders, offer tremendous potential for next-g…",
-      "ts": 1780480800000
+      "source": "Science",
+      "title": "Global extent and drivers of tree cover loss quantified with high-resolution satellite data",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adz9042?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "APS / PRL",
-      "title": "Multipolar Orbital Relaxation of the ${t}_{2g}$ States",
-      "url": "http://link.aps.org/doi/10.1103/h17x-qg4y",
-      "summary": "Author(s): Aurélien Manchon, Chi Sun, Xiaobai Ning, Tetsuya Sato, Takeo Kato, and Tatiana G. Rappoport Using a nonperturbative approach, the relaxation rate of orbital dipolar and quadrupolar moments is computed analytic…",
-      "ts": 1780480800000
+      "source": "Science",
+      "title": "Home alone: Remote work, isolation, and mental health",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec7671?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "APS / PRL",
-      "title": "Electron Recoil via Sample Momentum Transfer in Optical-Mode Excitation",
-      "url": "http://link.aps.org/doi/10.1103/8123-qnh5",
-      "summary": "Author(s): Akira Yasuhara, Yamato Kirii, and Takumi Sannomiya Momentum-resolved EELS provides the first direct evidence that electrons impart measurable momentum to planar samples during mode excitation. [Phys. Rev. Lett…",
-      "ts": 1780480800000
+      "source": "Science",
+      "title": "Homo cooperans: Understanding the nature of human cooperation",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec9483?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "APS / PRL",
-      "title": "On-Chip Cavity Electroacoustics Using Lithium Niobate Phononic Crystal Resonators",
-      "url": "http://link.aps.org/doi/10.1103/hv6r-2ptj",
-      "summary": "Author(s): Jun Ji, Joseph G. Thomas, Zichen Xi, Liyang Jin, Dayrl P. Briggs, Ivan I. Kravchenko, Arya G. Pour, Liyan Zhu, Yizheng Zhu, and Linbo Shao Mechanical systems are pivotal in quantum technologies because of thei…",
-      "ts": 1780480800000
+      "source": "Science",
+      "title": "Photocatalyzed oxidative cleavage of alkenes using CO2 as an oxygen donor",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed6068?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "APS / PRL",
-      "title": "Macroscopic Illusion and Microscopic Reality of Glass Formation Paths: Cooling vs Compression",
-      "url": "http://link.aps.org/doi/10.1103/cmvd-7ddr",
-      "summary": "Author(s): Kajetan Koperwas, Żaneta Wojnarowska, and Marian Paluch We provide evidence that dynamical slowdown in glass-forming liquids may follow different microscopic routes under cooling and compression, pointing to a…",
-      "ts": 1780480800000
+      "source": "Science",
+      "title": "Memory reactivation underlies experience-dependent adaptive regulation of sleep",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed8630?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "APS / PRL",
-      "title": "Entropic Charge Separation as a General Mechanism Arresting Nanoscale Condensate Coarsening",
-      "url": "http://link.aps.org/doi/10.1103/g1lp-rtd7",
-      "summary": "Author(s): Feipeng Chen, Jiaxing Yuan, Yaojun Zhang, Hajime Tanaka, and Ho Cheung Shum Size-dependent electrostatic barriers place an upper limit on droplet merging efficiency. [Phys. Rev. Lett. 136, 228202] Published We…",
-      "ts": 1780480800000
+      "source": "Science",
+      "title": "Erratum for the Research Article “Invasion impacts in terrestrial ecosystems: Global patterns and predictors”",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej0456?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "Nature",
-      "title": "Editorial Expression of Concern: Functional proteomic identification of DNA replication proteins by induced proteolysis <i>in vivo</i>",
-      "url": "https://www.nature.com/articles/s41586-026-10727-w",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Erratum for the Research Article “Preventing hypocontractility-induced fibro-blast expansion alleviates dilated cardiomyopathy”",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej2323?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "Nature",
-      "title": "AI in science recruitment: friend or foe? Join our free webinar",
-      "url": "https://www.nature.com/articles/d41586-026-01774-4",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "The architecture of the internet creates risks for democracy",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aei2409?af=R",
+      "summary": "Science, Volume 392, Issue 6802, June 2026.",
+      "ts": 1780556400000
     },
     {
-      "source": "Nature",
-      "title": "Your phone can use tiny skin-colour changes to measure your heart rate",
-      "url": "https://www.nature.com/articles/d41586-026-01793-1",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Patently imperfect",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aef3173?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1028-1028, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Reply to: The size of tropical vegetation gross primary production",
-      "url": "https://www.nature.com/articles/s41586-026-10561-0",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "A provocative view of evolution turns 50",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeg1982?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1027-1027, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "The size of tropical vegetation gross primary production",
-      "url": "https://www.nature.com/articles/s41586-026-10562-z",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Fires reverse progress toward ozone air quality standards in the United States",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aed3197?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1088-1092, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "A natural depsipeptide antibiotic binds the E-site of the bacterial ribosome",
-      "url": "https://www.nature.com/articles/s41586-026-10589-2",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Confined growth of armchair MoS2 nanotubes at the 1-nm limit",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aee3446?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1061-1064, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Earth’s east–west albedo symmetry",
-      "url": "https://www.nature.com/articles/s41586-026-10624-2",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Stereoretentive radical-based alkyl-alkyl cross-coupling",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aef6981?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1075-1081, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Relativistic electron acceleration at the bow shock of Jupiter and beyond",
-      "url": "https://www.nature.com/articles/s41586-026-10473-z",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Ultralow chromium doping enables all-PbSe thermoelectric cooling",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeg8963?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1056-1060, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Acquired genetic and cell-state changes in IDH-mutant glioma progression",
-      "url": "https://www.nature.com/articles/s41586-026-10612-6",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Spontaneous problem-solving in bumble bees",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ady1618?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1046-1049, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Mining triggers extensive additional deforestation in sub-Saharan Africa",
-      "url": "https://www.nature.com/articles/s41586-026-10551-2",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Unexpected expansion and regrowth in Earth’s mangrove forests over the past four decades",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aec9773?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1082-1087, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Cold-induced peptide signalling secures pollen resilience and crop yield",
-      "url": "https://www.nature.com/articles/s41586-026-10603-7",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "A stellar dynamical mass measurement of an inactive black hole at redshift 2",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adx5816?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1065-1068, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Teosinte alleles enhance nitrogen assimilation and seed protein in maize",
-      "url": "https://www.nature.com/articles/s41586-026-10575-8",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Molecular mimicry of a pathogen virulence target by a plant immune receptor",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aef9946?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1050-1055, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Cell-type-resolved genetic variation shapes inflammatory bowel disease risk",
-      "url": "https://www.nature.com/articles/s41586-026-10627-z",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Landscape efficiency frontiers for biodiversity, climate mitigation, and net economic value",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aea9058?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1069-1074, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Plastoglobules compartmentalize nitrogen assimilation in maize",
-      "url": "https://www.nature.com/articles/s41586-026-10610-8",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "In Other Journals",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej3527?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1037-1038, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Analysis of trade-offs of post-sorting plastic packaging",
-      "url": "https://www.nature.com/articles/s41586-026-10606-4",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Believing I belong",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej3528?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1094-1094, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Spermine is an endogenous iron chelator that inhibits ferroptosis",
-      "url": "https://www.nature.com/articles/s41586-026-10597-2",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Ozone from wildfire plumes increases mortality",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aei2027?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1024-1025, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Chiral superfluorescence from perovskite superlattices at room temperature",
-      "url": "https://www.nature.com/articles/s41586-026-10637-x",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Ultraprocessed foods and obesity: Interpreting the evidence",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aef3495?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1020-1022, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Mechanophore cross-linking enhances ballistic energy dissipation of polymers",
-      "url": "https://www.nature.com/articles/s41586-026-10557-w",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Bad memories, bad sleep",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aei3385?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1022-1023, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Commensal-derived acetylcholine enhances mucosal immune education",
-      "url": "https://www.nature.com/articles/s41586-026-10592-7",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "The lost social infrastructure of work",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh9559?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1025-1026, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Nuclear shell structure governs short-range nucleon pairing",
-      "url": "https://www.nature.com/articles/s41586-026-10616-2",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Aquavoltaics knowledge gaps undercut benefits",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh2751?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1030-1030, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "High-pulse-energy integrated mode-locked laser using a Mamyshev oscillator",
-      "url": "https://www.nature.com/articles/s41586-026-10517-4",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Wine’s warning for farming in climate change",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh4170?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1030-1030, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "LASER couples damage sensing to ESCRT assembly for lysosome repair",
-      "url": "https://www.nature.com/articles/s41586-026-10604-6",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Effects of China’s underground infrastructure",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aeh4973?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1029-1030, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Cooperation conflicts with equality when allocating public goods",
-      "url": "https://www.nature.com/articles/s41586-026-10550-3",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Proposed orbital ‘airbag’ would block solar storms",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej3858?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1004-1005, June 2026.",
+      "ts": 1780552814000
     },
     {
-      "source": "Nature",
-      "title": "Enamel nanocrystal misorientation increased with meat-eating and agriculture",
-      "url": "https://www.nature.com/articles/s41586-026-10583-8",
-      "summary": "",
-      "ts": 1780444800000
+      "source": "Science",
+      "title": "Trump seeks tighter grip on grantmaking",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej3861?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1006-1006, June 2026.",
+      "ts": 1780552814000
+    },
+    {
+      "source": "Science",
+      "title": "Brain-mapping effort searches for roots of neurodegenerative diseases",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej3862?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1007-1007, June 2026.",
+      "ts": 1780552814000
+    },
+    {
+      "source": "Science",
+      "title": "String theory is rebuilt from first principles",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej3863?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1008-1009, June 2026.",
+      "ts": 1780552814000
     }
   ],
   "sources": [

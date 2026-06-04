@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-06-04T12:59:05.699Z",
+  "updated": "2026-06-04T22:11:56.331Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Hosts 2026 Review on Advanced Composite Manufacturing",
+      "url": "https://www.nasa.gov/directorates/armd/aavp/hicam/nasa-hosts-2026-review-on-advanced-composite-manufacturing/",
+      "summary": "NASA’s Hi-Rate Composite Aircraft Manufacturing (HiCAM) project brought together its full team of Advanced Composites Consortium partners for a 2026 spring review at NASA’s Langley Research Center in Hampton, Virginia. T…",
+      "ts": 1780605384000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA-Funded Study Shows Wildfire Smoke’s Hidden Ozone Toll",
+      "url": "https://science.nasa.gov/earth/nasa-funded-study-shows-wildfire-smokes-hidden-ozone-toll/",
+      "summary": "Over the last decade, wildfires have worsened ground-level ozone pollution across much of the contiguous United States, creating unhealthy air far from active flames.",
+      "ts": 1780596119000,
+      "categoryId": "space"
+    },
+    {
+      "source": "US DOE",
+      "title": "United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission",
+      "url": "https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps",
+      "summary": "The U.S. Department of Energy and Japan’s Ministry of Education, Culture, Sports, Science and Technology and Ministry of Economy, Trade and Industry, today announced an historic $1 billion strategic partnership making Ja…",
+      "ts": 1780592400000,
+      "categoryId": "energy"
+    },
+    {
+      "source": "NASA",
+      "title": "Colorful, Chaotic Jupiter",
+      "url": "https://www.nasa.gov/image-article/colorful-chaotic-jupiter/",
+      "summary": "NASA’s Juno spacecraft captured this color-enhanced view of Jupiter’s northern hemisphere during its 61st close flyby of the giant planet on May 12, 2024. Citizen scientist Gary Eason made this image using raw data from …",
+      "ts": 1780588683000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "More Conversations, Complex Questions, and Bold Ideas in Season Five of ‘The Joy of Why’",
+      "url": "https://www.quantamagazine.org/more-conversations-complex-questions-and-bold-ideas-in-season-five-of-the-joy-of-why-20260604/",
+      "summary": "The podcast returns with 12 all-new episodes that explore the biggest questions in basic science and mathematics. The post More Conversations, Complex Questions, and Bold Ideas in Season Five of ‘The Joy of Why’ first ap…",
+      "ts": 1780582355000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Forecast: Fun Ahead — 18 Games Join in June to Stream on GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-june-2026-games-list/",
+      "summary": "June’s forecast with GeForce NOW: 100% chance of gaming. GeForce NOW is lining up new adventures for the month, from big-name blockbusters to quirky indies ready for the spotlight. Members can dive into fresh worlds, squ…",
+      "ts": 1780578027000,
+      "categoryId": "semiconductor"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
@@ -9,6 +57,22 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chamb…",
       "ts": 1780575000000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NIST",
+      "title": "New AI Model Shows How to Evacuate for Fires One Safe Step at a Time",
+      "url": "https://www.nist.gov/news-events/news/2026/06/new-ai-model-shows-how-evacuate-fires-one-safe-step-time",
+      "summary": "A NIST-led team has created a new AI model that can identify safe evacuation routes in a single-story floor plan during a fire, with a multilevel version in the works.",
+      "ts": 1780574400000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "NIST",
+      "title": "NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers",
+      "summary": "NIST also improved how X-rays are used to study the atomic structure of metals in real time during 3D printing, allowing researchers to observe how materials change under extreme conditions.",
+      "ts": 1780574400000,
+      "categoryId": "policy"
     },
     {
       "source": "OpenAI",
@@ -27,6 +91,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "ts": 1780563600000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NASA",
       "title": "A Moonlit Earth as Seen From Artemis II",
       "url": "https://science.nasa.gov/earth/earth-observatory/a-moonlit-earth-as-seen-from-artemis-ii/",
@@ -41,6 +113,14 @@
       "summary": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, May 29, 2026 Drilling always keeps the rover in place for a little while, and our 47th successful drill, …",
       "ts": 1780536491000,
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Biodefense in the Intelligence Age",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "summary": "An action plan for AI-powered biological resilience",
+      "ts": 1780531200000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "Nature Biotechnology",
@@ -179,14 +259,6 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "NASA",
-      "title": "Typhoon Jangmi",
-      "url": "https://science.nasa.gov/earth/earth-observatory/typhoon-jangmi/",
-      "summary": "The sprawling storm promised to deliver torrential rain across a wide swath of southern Japan.",
-      "ts": 1780459200000,
-      "categoryId": "space"
-    },
-    {
       "source": "Nature Biotechnology",
       "title": "Programmable control of bacterial operons with a single Cas13 RNA effector",
       "url": "https://www.nature.com/articles/s41587-026-03159-4",
@@ -211,28 +283,12 @@
       "categoryId": "semiconductor"
     },
     {
-      "source": "NASA",
-      "title": "NASA Space Roboticist Challenge",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-space-roboticist-challenge/",
-      "summary": "The Fly Foundational Robots (FFR) mission will launch a robotic arm, with seven degrees of freedom, to low Earth orbit. NASA is opening access to the robotic arm to a select group of U.S. researchers — principal investig…",
-      "ts": 1780433813000,
-      "categoryId": "space"
-    },
-    {
       "source": "NVIDIA",
       "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
       "url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
       "summary": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA a…",
       "ts": 1780426808000,
       "categoryId": "semiconductor"
-    },
-    {
-      "source": "NASA",
-      "title": "Look Up!",
-      "url": "https://www.nasa.gov/image-article/look-up/",
-      "summary": "Astronauts Sophie Adenot of ESA (European Space Agency) and Jack Hathaway of NASA, both Expedition 74 flight engineers, look out a window in the cupola, monitoring the automated approach and docking of the SpaceX Dragon …",
-      "ts": 1780416380000,
-      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -424,62 +480,6 @@
       "url": "https://nvidianews.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
       "summary": "NVIDIA today announced that Foxconn and Taiwan’s leading medical centers are deploying NVIDIA-powered special agent workforces to scale the region’s transition to AI‑driven health systems.",
       "ts": 1780289940000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
-      "summary": "NVIDIA today announced a major collection of open source physical AI skills and tools that help developers turn complex robotics, autonomous vehicle (AV), vision AI and industrial digital twin workflows into agent-execut…",
-      "ts": 1780289580000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
-      "summary": "NVIDIA today announced the NVIDIA Isaac™ GR00T Reference Humanoid Robot, the first open humanoid robot reference design built on NVIDIA Jetson Thor™ and the NVIDIA Isaac GR00T open development platform.",
-      "ts": 1780289400000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA DRIVE Hyperion Becomes the Global Platform for a Robotaxi-Ready World",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-drive-hyperion-becomes-the-global-platform-for-a-robotaxi-ready-world",
-      "summary": "NVIDIA today announced a major expansion of the NVIDIA DRIVE Hyperion™ robotaxi-ready platform ecosystem, bringing together leading global automakers, manufacturing and autonomous vehicle (AV) software ecosystem partners…",
-      "ts": 1780289280000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Launches Alpamayo 2 Super Open Reasoning Model for Robotaxis",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-alpamayo-2-super-robotaxis",
-      "summary": "NVIDIA today introduced NVIDIA Alpamayo 2 Super, a 32-billion-parameter reasoning‑based vision language action (VLA) model that extends the NVIDIA Alpamayo family of open AI models, simulation frameworks and physical AI …",
-      "ts": 1780289160000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How Cosmos 3 Helps Physical AI Think Before It Acts",
-      "url": "https://blogs.nvidia.com/blog/cosmos-3-physical-ai-open-world-foundation-model/",
-      "summary": "",
-      "ts": 1780289107000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
-      "summary": "NVIDIA today launched NVIDIA Cosmos™ 3, an open world foundation model for physical AI built on a breakthrough mixture-of-transformers architecture that combines vision reasoning, world generation and action prediction i…",
-      "ts": 1780288920000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA DGX Station for Windows Puts a Trillion-Parameter AI Supercomputer on Every Enterprise Desk",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-dgx-station-for-windows-puts-a-trillion-parameter-ai-supercomputer-on-every-enterprise-desk",
-      "summary": "NVIDIA today announced NVIDIA DGX Station™ for Windows, the world’s most powerful deskside AI supercomputer designed to build, run and connect always-on AI agents to Windows applications and workflows, capable of running…",
-      "ts": 1780288500000,
       "categoryId": "semiconductor"
     }
   ],

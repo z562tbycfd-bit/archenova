@@ -142,6 +142,7 @@ async function buildScience() {
   );
 
   console.log(`Generated public/data/science.json: ${merged.length} items`);
+  return merged;
 }
 
 async function buildTechnology() {
@@ -180,7 +181,72 @@ async function buildTechnology() {
   );
 
   console.log(`Generated public/data/technology.json: ${merged.length} items`);
+  return merged;
 }
 
-await buildScience();
-await buildTechnology();
+function slugify(text) {
+  return String(text)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 80);
+}
+
+function classify(item) {
+  const text = `${item.title} ${item.summary}`.toLowerCase();
+
+  if (text.includes("ai") || text.includes("robot") || text.includes("machine learning")) return "AI";
+  if (text.includes("energy") || text.includes("battery") || text.includes("fusion") || text.includes("hydrogen")) return "Energy";
+  if (text.includes("space") || text.includes("orbit") || text.includes("satellite") || text.includes("nasa")) return "Space";
+  if (text.includes("quantum") || text.includes("qubit")) return "Quantum";
+  if (text.includes("bio") || text.includes("gene") || text.includes("cell") || text.includes("medicine") || text.includes("protein")) return "Bio";
+
+  return "General";
+}
+
+function makeReport(item) {
+  const category = classify(item);
+
+  return {
+    slug: `${slugify(category)}-${slugify(item.title)}`,
+    title: item.title,
+    category,
+    source: item.source,
+    originalUrl: item.url,
+    summary: item.summary || "",
+    scientificSignal: item.summary || item.title,
+    implementationPotential:
+      `This signal may indicate a pathway from ${category} research toward applied systems, operational tools, and deployable technology.`,
+    infrastructureImpact:
+      "If stabilized and scaled, this capability may influence infrastructure, institutions, industrial systems, and long-term implementation pathways.",
+    civilizationImpact:
+      "From the ArcheNova perspective, its deepest significance lies in how it may expand civilization's capacity to understand, build, adapt, and realize new futures.",
+    ts: item.ts || 0,
+  };
+}
+
+function writeGeneratedResearchReports(scienceItems, technologyItems) {
+  const reports = [...scienceItems, ...technologyItems]
+    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+    .slice(0, 9)
+    .map(makeReport);
+
+  const content = `export const generatedResearchReports = ${JSON.stringify(reports, null, 2)};
+
+export function getGeneratedResearchReport(slug: string) {
+  return generatedResearchReports.find((report) => report.slug === slug);
+}
+`;
+
+  fs.writeFileSync(
+    path.join(process.cwd(), "lib", "generatedResearchReports.ts"),
+    content
+  );
+
+  console.log(`Generated lib/generatedResearchReports.ts: ${reports.length} reports`);
+}
+
+const scienceItems = await buildScience();
+const technologyItems = await buildTechnology();
+
+writeGeneratedResearchReports(scienceItems, technologyItems);
