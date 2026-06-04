@@ -5,6 +5,8 @@ import {
   getGeneratedResearchReport,
 } from "../../../../lib/generatedResearchReports";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return generatedResearchReports.map((report) => ({
     slug: report.slug,

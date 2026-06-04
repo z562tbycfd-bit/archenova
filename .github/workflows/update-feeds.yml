@@ -26,14 +26,18 @@ jobs:
 
       - name: Generate feed JSON
         run: npm run update-feeds
-
+     
       - name: Commit updated feed files
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add public/data/science.json public/data/technology.json
-          git diff --cached --quiet || git commit -m "Auto update observation feeds"
-          git add public/data/science.json public/data/technology.json lib/generatedResearchReports.ts
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+    
+            git add \
+            public/data/science.json \
+            public/data/technology.json \
+            lib/generatedResearchReports.ts
+      
+            git diff --cached --quiet || git commit -m "Auto update ArcheNova feeds and reports"
 
       - name: Push changes
         run: git push
