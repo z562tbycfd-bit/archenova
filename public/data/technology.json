@@ -1,38 +1,326 @@
 {
   "ok": true,
-  "updated": "2026-06-02T01:11:45.307Z",
+  "updated": "2026-06-04T12:59:05.699Z",
   "items": [
     {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
+      "url": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chamb…",
+      "ts": 1780575000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "url": "https://openai.com/index/endava-frontiers",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "ts": 1780574400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How courts are coping with a flood of AI-generated lawsuits",
+      "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
+      "summary": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have…",
+      "ts": 1780570218000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NASA",
-      "title": "NASA Awards Modification Contract for Reduced Gravity Test Aircraft",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-modification-contract-for-reduced-gravity-test-aircraft/",
-      "summary": "NASA selected Denmar Technical Services of Nevada to provide aircraft modifications, maintenance, and testing services to the Human Spaceflight Mission Directorate at NASA’s Armstrong Flight Research Center in Edwards, C…",
-      "ts": 1780357559000,
+      "title": "A Moonlit Earth as Seen From Artemis II",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-moonlit-earth-as-seen-from-artemis-ii/",
+      "summary": "An astronaut’s photo, taken en route to the Moon, reveals our planet and its place in space in a novel way.",
+      "ts": 1780545660000,
       "categoryId": "space"
     },
     {
       "source": "NASA",
-      "title": "NASA Invites Media to See Roman Space Telescope Arrive at Kennedy",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-see-roman-space-telescope-arrive-at-kennedy/",
-      "summary": "Registration is open for media to cover the arrival of NASA’s Nancy Grace Roman Space Telescope at the agency’s Kennedy Space Center in Florida in the coming weeks. The observatory will arrive aboard NASA’s Pegasus barge…",
-      "ts": 1780348972000,
+      "title": "Curiosity Blog, Sols 4908-4912: Goodbye Campo Marte, It’s Been Fun!",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4908-4912-goodbye-campo-marte-its-been-fun/",
+      "summary": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, May 29, 2026 Drilling always keeps the rover in place for a little while, and our 47th successful drill, …",
+      "ts": 1780536491000,
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "NASA to Conduct Low-Altitude Flights Near Houston ",
-      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-near-houston/",
-      "summary": "Five research aircraft will support a Student Airborne Research Program (SARP) mission out of Ellington Field in Houston. Flights are expected from Wednesday, June 3 to Saturday, June 13. During the mission, select maneu…",
-      "ts": 1780338590000,
-      "categoryId": "space"
+      "source": "Nature Biotechnology",
+      "title": "Marked for destruction",
+      "url": "https://www.nature.com/articles/s41587-026-03182-5",
+      "summary": "",
+      "ts": 1780531200000,
+      "categoryId": "bio"
     },
     {
       "source": "NASA",
-      "title": "What’s Up: June 2026 Skywatching Tips from NASA",
-      "url": "https://science.nasa.gov/solar-system/whats-up-june-2026-skywatching-tips-from-nasa/",
-      "summary": "Venus and Jupiter meet after sunset, the Moon passes in front of Venus, summer begins, and deep-sky treasures rise into view.",
-      "ts": 1780337626000,
+      "title": "NASA Finds New Way Earth May Have Received Elements Needed for Life",
+      "url": "https://science.nasa.gov/science-research/planetary-science/astrobiology/nasa-finds-new-way-earth-may-have-received-elements-needed-for-life/",
+      "summary": "NASA-supported scientists have provided new information about how the early Earth may have acquired some elements necessary for the planet to become habitable. They also suggest a new role for Jupiter in the distribution…",
+      "ts": 1780509660000,
       "categoryId": "space"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "7 Ways New Engineers Can Flourish in the Age of AI",
+      "url": "https://spectrum.ieee.org/7-ways-engineers-flourish-ai",
+      "summary": "New graduates’ careers are unfolding in an era when AI is not optional. The most successful engineers treat artificial intelligence as leverage, not competition. Here are seven tips to help keep young professionals in de…",
+      "ts": 1780509602000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NASA",
+      "title": "International Sea Level Satellite Observes El Niño Precursor",
+      "url": "https://science.nasa.gov/photojournal/international-sea-level-satellite-observes-el-nino-precursor/",
+      "summary": "Description Sea level height data from the international Sentinel-6 Michael Freilich satellite collected from March to May 2026 show higher, warmer water moving from the western Pacific Ocean to just off the coast of Col…",
+      "ts": 1780507642000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How virtual power plants could provide energy for data centers",
+      "url": "https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/",
+      "summary": "Would you take a payment to ramp down your electricity use? Would it change anything if you were doing so to help power a local data center? Google just signed a new deal to help pay for a virtual power plant (VPP) in th…",
+      "ts": 1780505498000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Journey to the Center of the Virgo Cluster",
+      "url": "https://www.nasa.gov/image-article/journey-to-the-center-of-the-virgo-cluster/",
+      "summary": "The focus of this NASA/ESA Hubble Space Telescope image released on May 29, 2026, is an active spiral galaxy on a journey lasting hundreds of millions of years. The galaxy Messier 88 (M88), also known as NGC 4501, is loc…",
+      "ts": 1780501724000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+      "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+      "summary": "What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn…",
+      "ts": 1780498857000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+      "summary": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles, robots and vision AI systems. The core challenge in physical AI research isn’t …",
+      "ts": 1780498835000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Entanglement Builds Space-Time. Now “Magic” Gives It Gravity.",
+      "url": "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/",
+      "summary": "In holographic theories, physicists may have traced the pliability of space-time to its quantum roots: a measure of quantumness known as “magic.” The post Entanglement Builds Space-Time. Now “Magic” Gives It Gravity. fir…",
+      "ts": 1780497269000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Drains 66-Million-Gallon Reservoir to Upgrade Critical Water System",
+      "url": "https://www.nasa.gov/centers-and-facilities/stennis/reservoir-drained-to-upgrade-water-system/",
+      "summary": "A powerful but mostly unseen water system at work during rocket engine tests at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, underwent an upgrade in May. Crews brought the High Pressure Industrial Water F…",
+      "ts": 1780494610000,
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "ts": 1780492500000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Says Farewell to MAVEN Mars Mission, Hosts Media Call Today",
+      "url": "https://www.nasa.gov/news-release/nasa-says-farewell-to-maven-mars-mission-hosts-media-call-today/",
+      "summary": "The first mission devoted to observing the Martian atmosphere and its evolution, NASA’s MAVEN (Mars Atmosphere and Volatile Evolution), has ended after more than 11 years in orbit at Mars and a decade beyond its primary,…",
+      "ts": 1780492325000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Trump’s new AI order, and smart glasses for warfare",
+      "url": "https://www.technologyreview.com/2026/06/03/1138322/the-download-trump-ai-order-smart-glasses-warfare/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. 5 key points in Trump’s new AI order Less than two weeks after scrapping an execut…",
+      "ts": 1780488600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "url": "https://openai.com/index/wasmer",
+      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "ts": 1780488000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "What It Takes for Future-Ready Power Distribution",
+      "url": "https://spectrum.ieee.org/distribution-grid-modernization",
+      "summary": "This sponsored article is brought to you by Black & Veatch. The biggest challenge facing utilities today isn’t what it seems. It’s not demand, even as load growth accelerates. It’s not extreme weather, even as “major eve…",
+      "ts": 1780484401000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "OpenAI",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "ts": 1780480800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI public policy agenda",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "ts": 1780480800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Typhoon Jangmi",
+      "url": "https://science.nasa.gov/earth/earth-observatory/typhoon-jangmi/",
+      "summary": "The sprawling storm promised to deliver torrential rain across a wide swath of southern Japan.",
+      "ts": 1780459200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Nature Biotechnology",
+      "title": "Programmable control of bacterial operons with a single Cas13 RNA effector",
+      "url": "https://www.nature.com/articles/s41587-026-03159-4",
+      "summary": "",
+      "ts": 1780444800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Nature Biotechnology",
+      "title": "Single-cell spatial pharmacobiology identifies conserved stromal barriers to therapeutic antibody delivery in human solid tumors",
+      "url": "https://www.nature.com/articles/s41587-026-03152-x",
+      "summary": "",
+      "ts": 1780444800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
+      "url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+      "summary": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided d…",
+      "ts": 1780437658000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Space Roboticist Challenge",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-space-roboticist-challenge/",
+      "summary": "The Fly Foundational Robots (FFR) mission will launch a robotic arm, with seven degrees of freedom, to low Earth orbit. NASA is opening access to the robotic arm to a select group of U.S. researchers — principal investig…",
+      "ts": 1780433813000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
+      "url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+      "summary": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA a…",
+      "ts": 1780426808000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NASA",
+      "title": "Look Up!",
+      "url": "https://www.nasa.gov/image-article/look-up/",
+      "summary": "Astronauts Sophie Adenot of ESA (European Space Agency) and Jack Hathaway of NASA, both Expedition 74 flight engineers, look out a window in the cupola, monitoring the automated approach and docking of the SpaceX Dragon …",
+      "ts": 1780416380000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI can run your admin department now",
+      "url": "https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How small businesses can leverage AI From accounting to design to market research …",
+      "ts": 1780402200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "url": "https://openai.com/index/travelers",
+      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "ts": 1780401600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Rehumanizing global health care with agentic AI",
+      "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
+      "summary": "The global health care sector is under increasing strain. Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are …",
+      "ts": 1780399414000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "Direct-to-Cell Technology: Enabling Satellite Connectivity for Legacy Devices",
+      "url": "https://content.knowledgehub.wiley.com/direct-to-cell-technology-enabling-satellite-connectivity-for-legacy-devices/",
+      "summary": "Direct-to-cell technology uses LEO satellites as spaceborne cell towers. It delivers LTE services to existing smartphones without hardware changes, bridging global coverage gaps. What Attendees will Learn How DTC works a…",
+      "ts": 1780394402000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How small businesses can leverage AI",
+      "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
+      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research an…",
+      "ts": 1780390800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Codex for every role, tool, and workflow",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "ts": 1780390800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "ts": 1780383600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
+      "url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
+      "summary": "Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed sys…",
+      "ts": 1780380036000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+      "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+      "summary": "Agentic AI is getting physical. At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on Jetson. JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jet…",
+      "ts": 1780365640000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "ts": 1780365600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Nature Biotechnology",
+      "title": "Programmable, multiplexed and orthogonal gene control in bacteria with attenuated Cas13d systems",
+      "url": "https://www.nature.com/articles/s41587-026-03160-x",
+      "summary": "",
+      "ts": 1780358400000,
+      "categoryId": "bio"
     },
     {
       "source": "IEEE Spectrum",
@@ -59,28 +347,12 @@
       "categoryId": "quantum"
     },
     {
-      "source": "NASA",
-      "title": "Pretty in Pink",
-      "url": "https://www.nasa.gov/image-article/pretty-in-pink-2/",
-      "summary": "This image of Westerlund 2 released on March 19, 2026, features Chandra X-ray Observatory data (pink) and infrared data from NASA’S James Webb Space Telescope (red, orange, green, cyan, and blue). Scores of gleaming star…",
-      "ts": 1780324217000,
-      "categoryId": "space"
-    },
-    {
       "source": "MIT Technology Review",
       "title": "The Download: China’s brain implant ambitions",
       "url": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. China has approved the world’s first invasive brain-computer chip—here’s what’s ne…",
       "ts": 1780315800000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Space Out This Summer with Variety of NASA STEM Activities",
-      "url": "https://www.nasa.gov/learning-resources/space-out-this-summer-with-variety-of-nasa-stem-activities/",
-      "summary": "Summer is “Go” for launch, and NASA has a universe of ways to help you to jump in, explore, and create! Whether you prefer to spend this season fueling your creativity, going outdoors into nature, or daydreaming about yo…",
-      "ts": 1780315380000,
-      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -208,278 +480,6 @@
       "url": "https://nvidianews.nvidia.com/news/nvidia-dgx-station-for-windows-puts-a-trillion-parameter-ai-supercomputer-on-every-enterprise-desk",
       "summary": "NVIDIA today announced NVIDIA DGX Station™ for Windows, the world’s most powerful deskside AI supercomputer designed to build, run and connect always-on AI agents to Windows applications and workflows, capable of running…",
       "ts": 1780288500000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Levels Up Local AI Agents Across RTX PCs and DGX Spark",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
-      "summary": "Personal agents are exploding in popularity, with open source projects like OpenClaw and Hermes seeing rapid adoption by AI developer communities on GitHub. Built to adapt to individual preferences and workflows, these a…",
-      "ts": 1780288211000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and Microsoft Reinvent Windows PCs for the Age of Personal AI",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
-      "summary": "NVIDIA today unveiled NVIDIA RTX Spark™, a new superchip that reinvents Windows PCs for the era of personal AI agents — offering a new class of computer that moves from tool to teammate.",
-      "ts": 1780287960000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Enterprise Software Leaders Build AI Agents With NVIDIA",
-      "url": "https://nvidianews.nvidia.com/news/enterprise-software-leaders-build-ai-agents-with-nvidia",
-      "summary": "NVIDIA today announced new software, open source models and partnerships with the world’s leading software platform providers to build autonomous AI agents for industries and enterprises across engineering, healthcare, s…",
-      "ts": 1780287660000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "US DOE",
-      "title": "The Department of Energy Announces Leadership Change in Office of Fusion",
-      "url": "https://www.energy.gov/science/articles/department-energy-announces-leadership-change-office-fusion",
-      "summary": "JP Allain – inaugural director of the Department of Energy’s Office of Fusion – is departing the agency after completing his tenure.",
-      "ts": 1780286640000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "NASA",
-      "title": "Gravity Waves From Super Typhoon Sinlaku",
-      "url": "https://science.nasa.gov/earth/earth-observatory/gravity-waves-from-super-typhoon-sinlaku/",
-      "summary": "Satellites observed striking upper-atmosphere phenomena generated by an intensifying tropical cyclone.",
-      "ts": 1780286460000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Unveils Vera, the CPU for Agents",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-unveils-vera-the-cpu-for-agents",
-      "summary": "NVIDIA today announced that the world’s technology leaders are planning to adopt NVIDIA Vera, the first CPU built for AI agents.",
-      "ts": 1780286220000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Vera BlueField-4 STX Brings Agentic AI Storage Processing With In-Silicon Security",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-vera-bluefield-4-stx-brings-agentic-ai-storage-processing-with-in-silicon-security",
-      "summary": "NVIDIA today announced new NVIDIA DOCA™ security innovations for NVIDIA Vera BlueField-4 STX, defining a new class of secure-by-design storage for agentic AI factories.",
-      "ts": 1780285620000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Vera Rubin Ramps Into Full Production to Power Agentic AI Factories Worldwide",
-      "url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
-      "summary": "NVIDIA today announced the NVIDIA Vera Rubin platform is ramping into full production to power agentic AI factories worldwide.",
-      "ts": 1780285380000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA DSX Gives Infrastructure Builders the Playbook for AI Factories",
-      "url": "https://nvidianews.nvidia.com/news/dsx-infrastructure-ai-factory",
-      "summary": "NVIDIA today announced the NVIDIA DSX™ platform, which gives infrastructure builders a complete playbook to create AI factories.",
-      "ts": 1780284600000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Decoding the origins of cellular self-organization for engineered biology",
-      "url": "https://www.nature.com/articles/s41587-026-03161-w",
-      "summary": "",
-      "ts": 1780272000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Selection of human hematopoietic stem cells bearing the intended functional edit by transient AND-gate reporters",
-      "url": "https://www.nature.com/articles/s41587-026-03142-z",
-      "summary": "",
-      "ts": 1780272000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors",
-      "url": "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
-      "summary": "In 1987, Richard Greenhill, a British photographer who was fascinated by (but had no actual training in) robotics, decided he wanted to build a life-size humanoid that could do useful things, like carrying luggage. He wa…",
-      "ts": 1780232401000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "Poetry for Engineers: Cyborg Laboratory",
-      "url": "https://spectrum.ieee.org/poetry-for-engineers-cyborg-laboratory",
-      "summary": "This is the place where you face yourself, the you that could be you with a few different parts, a pump for your heart, eyes off color, and fresh off the shelf fake hair (a bit obvious), skin smoothed. You’re not perfect…",
-      "ts": 1780153981000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards Contract for Johnson Space Center Infrastructure",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-contract-for-johnson-space-center-infrastructure/",
-      "summary": "NASA has selected seven companies to provide construction, revitalization, and infrastructure improvements at the agency’s Johnson Space Center in Houston. The Johnson Space Center Multiple Award Construction Contract su…",
-      "ts": 1780089851000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Hosts SpaceX Crew-11 Astronauts for Public Event at Headquarters",
-      "url": "https://www.nasa.gov/news-release/nasa-hosts-spacex-crew-11-astronauts-for-public-event-at-headquarters/",
-      "summary": "NASA will host a public event featuring three crew members from the agency’s SpaceX Crew-11 mission at 11 a.m. EDT Monday, June 1. The event, which takes place during the crew’s standard postflight visit, will be held in…",
-      "ts": 1780087783000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Roman Space Telescope Primary Mirror Gets Last Look",
-      "url": "https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-space-telescope-primary-mirror-gets-last-look/",
-      "summary": "Engineers at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, have completed their final inspection of a key element for the agency’s Nancy Grace Roman Space Telescope: the primary mirror. This 7.9-foot (2.4-me…",
-      "ts": 1780072380000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "Key Chemistry Question Answered, No Quantum Computer Required",
-      "url": "https://www.quantamagazine.org/key-chemistry-question-answered-no-quantum-computer-required-20260529/",
-      "summary": "Do we need quantum computers to fully understand complex chemical reactions? A new result, decades in the making, shows the surprising power of ordinary “classical” machines. The post Key Chemistry Question Answered, No …",
-      "ts": 1780062851000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "Make a Soft Digital Clock Tick With Millifluidics",
-      "url": "https://spectrum.ieee.org/soft-robotics-2676960499",
-      "summary": "Electrons are great. We use them to move vehicles, illuminate cities, and, of course, compute. But computation is not confined to the world of electronics. And shifting to alternative nonelectronic realms can unlock uniq…",
-      "ts": 1780059601000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: unlocking lithium and controlling Ebola",
-      "url": "https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How a new extraction process could unlock the world’s lithium A new method for ext…",
-      "ts": 1780056600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NIST",
-      "title": "NIST Expands AI Consortium’s Scope, Calls for New Members",
-      "url": "https://www.nist.gov/news-events/news/2026/05/nist-expands-ai-consortiums-scope-calls-new-members",
-      "summary": "The consortium will focus on AI innovation and adoption, with six task groups concentrating on different aspects of AI measurement science and evaluation.",
-      "ts": 1780056000000,
-      "categoryId": "policy"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Boston Children’s uses AI to unlock new diagnoses",
-      "url": "https://openai.com/index/boston-childrens-hospital",
-      "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
-      "ts": 1780056000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Braintrust turns customer requests into code with Codex",
-      "url": "https://openai.com/index/braintrust",
-      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "ts": 1780056000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The deadly Ebola outbreak is proving difficult to control",
-      "url": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/",
-      "summary": "The alert was raised on May 5. Four health-care workers in the Ituri Province of the Democratic Republic of the Congo had died from an unknown illness within four days. Rapid response teams were sent to investigate, and …",
-      "ts": 1780053592000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
-      "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
-      "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity…",
-      "ts": 1780048800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Strengthening societal resilience with Rosalind Biodefense",
-      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
-      "ts": 1780023600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "A shared playbook for trustworthy third party evaluations",
-      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
-      "ts": 1780012800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Optically detected and radio wave-controlled spin chemistry in flavoproteins",
-      "url": "https://www.nature.com/articles/s41587-026-03158-5",
-      "summary": "",
-      "ts": 1780012800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How a new extraction process could unlock the world’s lithium",
-      "url": "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/",
-      "summary": "Researchers say they’ve found a new way to extract lithium, a crucial metal used in the lithium-ion batteries that power electric vehicles and energy storage arrays. This new technique could be more environmentally frien…",
-      "ts": 1779991260000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "How We See the Beautiful, Violent Sun",
-      "url": "https://www.quantamagazine.org/how-we-see-the-beautiful-violent-sun-20260528/",
-      "summary": "Over hundreds of years, increasingly sophisticated instruments have revealed — and continue to reveal — the secrets of our star. The post How We See the Beautiful, Violent Sun first appeared on Quanta Magazine",
-      "ts": 1779977812000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
-      "url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
-      "summary": "Robotics is entering a new phase: moving from controlled demos and scripted automation toward generalizable, reliable embodied autonomy in the real world. At the International Conference on Robotics and Automation (ICRA)…",
-      "ts": 1779973251000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "Finding Success in Industry as a Chip Designer",
-      "url": "https://spectrum.ieee.org/chip-design-academic-vs-industry",
-      "summary": "I have been an application-specific IC (ASIC) designer for almost three decades. Over that time, I’ve moved through the full academic trajectory, from graduate student to full professor; later, I transitioned to industry…",
-      "ts": 1779973201000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: climate tech goes public and the AI Hype Index returns",
-      "url": "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Climate tech companies are going public. What’s next? Solar and battery company So…",
-      "ts": 1779970200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Endava builds an agentic organization with Codex",
-      "url": "https://openai.com/index/endava",
-      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
-      "ts": 1779969600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "Understanding Phase Noise and Its Impact on RF System Performance",
-      "url": "https://content.knowledgehub.wiley.com/understanding-phase-noise-fundamentals/",
-      "summary": "A practical introduction to phase noise concepts, explaining how oscillator instability affects RF systems and how phase noise is measured, analyzed, and reported. What Attendees will Learn What phase noise is and why it…",
-      "ts": 1779962401000,
       "categoryId": "semiconductor"
     }
   ],

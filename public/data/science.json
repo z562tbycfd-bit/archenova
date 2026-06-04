@@ -1,286 +1,286 @@
 {
   "ok": true,
-  "updated": "2026-06-02T01:11:35.494Z",
+  "updated": "2026-06-04T12:58:54.524Z",
   "items": [
     {
-      "source": "APS / PRL",
-      "title": "Weak-Memory Dynamics in Discrete Time",
-      "url": "http://link.aps.org/doi/10.1103/kdhy-66b6",
-      "summary": "Author(s): Hugues Meyer and Kay Brandner Discrete dynamics arise naturally in systems with broken temporal translation symmetry and are typically described by first-order recurrence relations representing classical or qu…",
-      "ts": 1780308000000
+      "source": "Nature",
+      "title": "Device could sniff out fusion reactors secretly making material for a nuclear bomb",
+      "url": "https://www.nature.com/articles/d41586-026-01764-6",
+      "summary": "",
+      "ts": 1780531200000
     },
     {
-      "source": "APS / PRL",
-      "title": "Mixed-State Topological Order and the Errorfield Double Formulation of Decoherence-Induced Transitions",
-      "url": "http://link.aps.org/doi/10.1103/6f98-tvb8",
-      "summary": "Author(s): Yimu Bao, Ruihua Fan, Ashvin Vishwanath, and Ehud Altman We develop an effective field theory characterizing the impact of decoherence on states with Abelian topological order and on their capacity to protect …",
-      "ts": 1780308000000
+      "source": "Nature",
+      "title": "This mysterious lung disease affects millions of people — but a drug tested in mice shows promise",
+      "url": "https://www.nature.com/articles/d41586-026-01789-x",
+      "summary": "",
+      "ts": 1780531200000
     },
     {
-      "source": "APS / PRL",
-      "title": "Quasinormal Modes Ratios as Agnostic Test of General Relativity",
-      "url": "http://link.aps.org/doi/10.1103/cm6z-43t3",
-      "summary": "Author(s): Nicola Franchini In this Letter, we provide a novel test of general relativity based on ringdown analysis. The test is performed on agnostic models, where the postmerger signal is fitted with a superposition o…",
-      "ts": 1780308000000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "Accurate Boundary Bootstrap for the Three-Dimensional $\\mathrm{O}(N)$ Normal Universality Class",
-      "url": "http://link.aps.org/doi/10.1103/hnd3-636j",
-      "summary": "Author(s): Runzhe Hu and Wenliang Li The three-dimensional classical $\\mathrm{O}(N)$ model with a boundary has received renewed interest due to the discovery of the extraordinary-log boundary universality class for $2≤N<…",
-      "ts": 1780308000000
+      "source": "Nature",
+      "title": "What’s behind China’s historically high counts of corresponding authors?",
+      "url": "https://www.nature.com/articles/d41586-026-01623-4",
+      "summary": "",
+      "ts": 1780531200000
     },
     {
       "source": "APS / PRL",
-      "title": "Measurement of the Top-Quark Production Cross Section and Charge Asymmetry at LHCb",
-      "url": "http://link.aps.org/doi/10.1103/c1x7-f9wn",
-      "summary": "Author(s): R. Aaij et al. (LHCb Collaboration) The first measurements of the top- and antitop-quark differential production cross sections and the top-quark charge asymmetry in the forward region are presented, using pro…",
-      "ts": 1780308000000
+      "title": "Observable Gravitational Wave Strain at Second Order",
+      "url": "http://link.aps.org/doi/10.1103/pwbs-xwrh",
+      "summary": "Author(s): Guillem Domènech, Shi Pi (皮石), and Ao Wang (王奥) The ambiguity in associating gravitational waves with transverse-traceless components of the metric at second order in perturbation theory is resolved by computi…",
+      "ts": 1780480800000
     },
     {
       "source": "APS / PRL",
-      "title": "Nanoscale Femtosecond Coherent Radiation and Spatiotemporally Shaped Free Electron Wave Function",
-      "url": "http://link.aps.org/doi/10.1103/94bl-yb33",
-      "summary": "Author(s): Wu Wen, Jing Li, and Yunquan Liu We study tunable, nanoscale, femtosecond coherent radiation based on a coupled nanowire pair structure, which is transversely excited by a strong, linearly polarized laser puls…",
-      "ts": 1780308000000
+      "title": "Edge Modes on Stringy Horizons",
+      "url": "http://link.aps.org/doi/10.1103/cd5m-1knl",
+      "summary": "Author(s): Atish Dabholkar, Eleanor Harris, and Upamanyu Moitra For a quantum field of arbitrary mass and spin in the static patch of de Sitter spacetime, the Euclidean partition function receives contributions from edge…",
+      "ts": 1780480800000
     },
     {
       "source": "APS / PRL",
-      "title": "Existent Condition of Partially Wet State in Capillary Tubes",
-      "url": "http://link.aps.org/doi/10.1103/9hlx-k382",
-      "summary": "Author(s): Chen Zhao, Jiajia Zhou, and Masao Doi We develop a theory that predicts the equilibrium states of a fluid contained in a capillary that has corners. Each section of the tube can take three states: completely w…",
-      "ts": 1780308000000
+      "title": "One-Jettiness Distribution Contains Super-Super-Leading Logarithms",
+      "url": "http://link.aps.org/doi/10.1103/flv7-ksvf",
+      "summary": "Author(s): Andrea Banfi, Jeffrey R. Forshaw, and Jack Holguin We show that one-jettiness (${τ}_{1}$) in color-singlet plus jet production suffers from superleading logarithms starting at order ${α}_{\\mathrm{s}}^{4}\\mathr…",
+      "ts": 1780480800000
     },
     {
       "source": "APS / PRL",
-      "title": "Evidence of Chiral Fermion Edge Modes through Geometric Engineering of Thermal Hall Effect in $α\\text{−}{\\mathrm{RuCl}}_{3}$",
-      "url": "http://link.aps.org/doi/10.1103/rn48-7j6y",
-      "summary": "Author(s): Heda Zhang, Gábor B. Halász, Sujoy Ghosh, Stephen Jesse, Thomas Z. Ward, David A. Tennant, Michael A. McGuire, and Jiaqiang Yan The experimental observation of half-integer-quantized thermal Hall conductivity …",
-      "ts": 1780308000000
-    },
-    {
-      "source": "Nature",
-      "title": "Enantioselective hydrogen atom relay via non-covalent catalyst assembly",
-      "url": "https://www.nature.com/articles/s41586-026-10692-4",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Passive heart-rate monitoring during smartphone use in everyday life",
-      "url": "https://www.nature.com/articles/s41586-026-10507-6",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Can Polymarket predict the progress of science, or are subject-experts better?",
-      "url": "https://www.nature.com/articles/d41586-026-01688-1",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "How long can humans live? We simply don’t know",
-      "url": "https://www.nature.com/articles/d41586-026-01728-w",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Science fiction: nine lab-life novels for your holiday reading",
-      "url": "https://www.nature.com/articles/d41586-026-01730-2",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Why it’s time to bin recommendation letters in science job applications",
-      "url": "https://www.nature.com/articles/d41586-026-00507-x",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Robust projections of risks to the Amazon rainforest",
-      "url": "https://www.nature.com/articles/d41586-026-01158-8",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Smartphone camera takes users’ pulse passively during device use",
-      "url": "https://www.nature.com/articles/d41586-026-01488-7",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Poor supervision is pushing young researchers out of academia",
-      "url": "https://www.nature.com/articles/d41586-026-01693-4",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Obesity doesn’t equate to ill health: why the ‘disease’ label doesn’t always fit",
-      "url": "https://www.nature.com/articles/d41586-026-01729-9",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Feynmann's solved ‘restaurant dilemma’ 50 years ago — now a study confirms his mathematics",
-      "url": "https://www.nature.com/articles/d41586-026-00821-4",
-      "summary": "",
-      "ts": 1780272000000
-    },
-    {
-      "source": "Nature",
-      "title": "Landmark cancer trial shows success against ‘undruggable’ cancer — raising hopes for future treatments",
-      "url": "https://www.nature.com/articles/d41586-026-01760-w",
-      "summary": "",
-      "ts": 1780272000000
+      "title": "Swimming against a Superfluid Flow: Self-Propulsion via Vortex-Antivortex Shedding in a Quantum Fluid of Light",
+      "url": "http://link.aps.org/doi/10.1103/ndj1-1j89",
+      "summary": "Author(s): Myrann Baker-Rasooli, Tangui Aladjidi, Tiago D. Ferreira, Alberto Bramati, Mathias Albert, Pierre-Élie Larré, and Quentin Glorieux A superfluid flows without friction below a critical velocity, exhibiting zero…",
+      "ts": 1780480800000
     },
     {
       "source": "APS / PRL",
-      "title": "Layer Codes as Partially Self-Correcting Quantum Memories",
-      "url": "http://link.aps.org/doi/10.1103/x4z2-f4gg",
-      "summary": "Author(s): Shouzhen Gu, Libor Caha, Shin Ho Choe, Zhiyang He, Aleksander Kubica, and Eugene Tang We investigate layer codes, a family of three-dimensional stabilizer codes that achieves optimal scaling of code parameters…",
-      "ts": 1780048800000
+      "title": "Unveiling Spin and Poynting Dual Textures of an Optical Skyrmionic Tube in Free Space",
+      "url": "http://link.aps.org/doi/10.1103/f6b5-kv4x",
+      "summary": "Author(s): Sicong Wang, Zhikai Zhou, Yongjie Zhu, Jialin Sun, Jiahui Mao, Minghui Wang, Shichao Song, Zi-lan Deng, Yaoyu Cao, Fei Qin, Yunkun Wu, Xifeng Ren, and Xiangping Li Optical skyrmions are topological textures of…",
+      "ts": 1780480800000
     },
     {
       "source": "APS / PRL",
-      "title": "One-Loop QCD $β$ Function as an Index",
-      "url": "http://link.aps.org/doi/10.1103/5kd5-3724",
-      "summary": "Author(s): Roland Bittleston and Kevin Costello An index theorem on twistor space provides a simple first-principles derivation of the numerical factors in the one-loop QCD β function. [Phys. Rev. Lett. 136, 211601] Publ…",
-      "ts": 1780048800000
-    },
-    {
-      "source": "Nature",
-      "title": "Author Correction: Hidden states and dynamics of fractional fillings in twisted MoTe<sub>2</sub> bilayers",
-      "url": "https://www.nature.com/articles/s41586-026-10717-y",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Author Correction: US oil and gas system emissions from nearly one million aerial site measurements",
-      "url": "https://www.nature.com/articles/s41586-026-10605-5",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Author Correction: Attenuated fusogenicity and pathogenicity of SARS-CoV-2 Omicron variant",
-      "url": "https://www.nature.com/articles/s41586-026-10665-7",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Surgeons in imperial China used anaesthetics — in careful doses",
-      "url": "https://www.nature.com/articles/d41586-026-01669-4",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Gold keeps glittering courtesy of surface chemistry",
-      "url": "https://www.nature.com/articles/d41586-026-01671-w",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Briefing Chat: When to trust eyewitness memory — according to science",
-      "url": "https://www.nature.com/articles/d41586-026-01736-w",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "How common bacteria fasten their armour",
-      "url": "https://www.nature.com/articles/d41586-026-01668-5",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Bespoke immune cells stave off ravages of cirrhosis",
-      "url": "https://www.nature.com/articles/d41586-026-01670-x",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Sarcophagus",
-      "url": "https://www.nature.com/articles/d41586-026-01091-w",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "What it will take to stop the spiralling Ebola outbreak",
-      "url": "https://www.nature.com/articles/d41586-026-01692-5",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Daily briefing: Pigeons might find their way by following their liver",
-      "url": "https://www.nature.com/articles/d41586-026-01768-2",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "How jazz boosts my creativity in physics",
-      "url": "https://www.nature.com/articles/d41586-026-01393-z",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "First pig liver and kidneys transplanted into a person — could ease organ shortages",
-      "url": "https://www.nature.com/articles/d41586-026-01708-0",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Ebola can be stopped — but only if world leaders prioritize public health",
-      "url": "https://www.nature.com/articles/d41586-026-01630-5",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Science sleuths uncover more than 100 suspicious images in Thermo Fisher antibody catalogue",
-      "url": "https://www.nature.com/articles/d41586-026-01706-2",
-      "summary": "",
-      "ts": 1780012800000
-    },
-    {
-      "source": "Nature",
-      "title": "Blue Origin rocket explosion rattles NASA’s mission to put humans back on the Moon",
-      "url": "https://www.nature.com/articles/d41586-026-01732-0",
-      "summary": "",
-      "ts": 1780012800000
+      "title": "Benchmark Calculations of Charge State Distributions and Radiative Properties of Gold Plasmas in ICF Hohlraums",
+      "url": "http://link.aps.org/doi/10.1103/5wvx-p626",
+      "summary": "Author(s): Yongjun Li, Cheng Gao, Yong Hou, Fengtao Jin, Jiaolong Zeng, and Jianmin Yuan Accurate ionization balance of gold plasmas in nonlocal thermodynamic equilibrium is essential for understanding the physics involv…",
+      "ts": 1780480800000
     },
     {
       "source": "APS / PRL",
-      "title": "Beating Hermitian Speed Limits for Entanglement Generation via Exceptional Points in a Trapped-Ion System",
-      "url": "http://link.aps.org/doi/10.1103/g8v5-rbq7",
-      "summary": "Author(s): W. F. Yuan, B. B. Liu, N. Li, G. Y. Ding, W. Q. Ding, H. J. Du, J. C. Li, G. Chen, H. Jing, F. Zhou, Shi-Lei Su, and M. Feng Entanglement generation is a cornerstone of quantum information science, yet its spe…",
-      "ts": 1779962400000
+      "title": "Nonlinear Optomagnetic Signature of $d$-Wave Altermagnets",
+      "url": "http://link.aps.org/doi/10.1103/gly7-jzfl",
+      "summary": "Author(s): Lijun Yang and Long Liang Altermagnetism, a recently discovered collinear magnetic order with net zero magnetization but exhibiting spin-splitting band structure, has attracted much research interest due to th…",
+      "ts": 1780480800000
     },
     {
       "source": "APS / PRL",
-      "title": "Quantum Transition Rates in Arbitrary Physical Processes",
-      "url": "http://link.aps.org/doi/10.1103/l7dq-n61h",
-      "summary": "Author(s): Adolfo del Campo, András Grabarits, Dmitrii E. Makarov, and Seong-Ho Shinn A theory of quantum transition rates refines the concept of quantum speed limits. [Phys. Rev. Lett. 136, 210202] Published Thu May 28,…",
-      "ts": 1779962400000
+      "title": "Interlayer Self-Doping Multiferroics",
+      "url": "http://link.aps.org/doi/10.1103/7np8-d5jp",
+      "summary": "Author(s): Shulin Zhong, Dacheng Tian, Shengyuan A. Yang, Lan Chen, Su-Huai Wei, and Yunhao Lu Multiferroic materials, which simultaneously exhibit ferroelectric and magnetic orders, offer tremendous potential for next-g…",
+      "ts": 1780480800000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Multipolar Orbital Relaxation of the ${t}_{2g}$ States",
+      "url": "http://link.aps.org/doi/10.1103/h17x-qg4y",
+      "summary": "Author(s): Aurélien Manchon, Chi Sun, Xiaobai Ning, Tetsuya Sato, Takeo Kato, and Tatiana G. Rappoport Using a nonperturbative approach, the relaxation rate of orbital dipolar and quadrupolar moments is computed analytic…",
+      "ts": 1780480800000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Electron Recoil via Sample Momentum Transfer in Optical-Mode Excitation",
+      "url": "http://link.aps.org/doi/10.1103/8123-qnh5",
+      "summary": "Author(s): Akira Yasuhara, Yamato Kirii, and Takumi Sannomiya Momentum-resolved EELS provides the first direct evidence that electrons impart measurable momentum to planar samples during mode excitation. [Phys. Rev. Lett…",
+      "ts": 1780480800000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "On-Chip Cavity Electroacoustics Using Lithium Niobate Phononic Crystal Resonators",
+      "url": "http://link.aps.org/doi/10.1103/hv6r-2ptj",
+      "summary": "Author(s): Jun Ji, Joseph G. Thomas, Zichen Xi, Liyang Jin, Dayrl P. Briggs, Ivan I. Kravchenko, Arya G. Pour, Liyan Zhu, Yizheng Zhu, and Linbo Shao Mechanical systems are pivotal in quantum technologies because of thei…",
+      "ts": 1780480800000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Macroscopic Illusion and Microscopic Reality of Glass Formation Paths: Cooling vs Compression",
+      "url": "http://link.aps.org/doi/10.1103/cmvd-7ddr",
+      "summary": "Author(s): Kajetan Koperwas, Żaneta Wojnarowska, and Marian Paluch We provide evidence that dynamical slowdown in glass-forming liquids may follow different microscopic routes under cooling and compression, pointing to a…",
+      "ts": 1780480800000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Entropic Charge Separation as a General Mechanism Arresting Nanoscale Condensate Coarsening",
+      "url": "http://link.aps.org/doi/10.1103/g1lp-rtd7",
+      "summary": "Author(s): Feipeng Chen, Jiaxing Yuan, Yaojun Zhang, Hajime Tanaka, and Ho Cheung Shum Size-dependent electrostatic barriers place an upper limit on droplet merging efficiency. [Phys. Rev. Lett. 136, 228202] Published We…",
+      "ts": 1780480800000
+    },
+    {
+      "source": "Nature",
+      "title": "Editorial Expression of Concern: Functional proteomic identification of DNA replication proteins by induced proteolysis <i>in vivo</i>",
+      "url": "https://www.nature.com/articles/s41586-026-10727-w",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "AI in science recruitment: friend or foe? Join our free webinar",
+      "url": "https://www.nature.com/articles/d41586-026-01774-4",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Your phone can use tiny skin-colour changes to measure your heart rate",
+      "url": "https://www.nature.com/articles/d41586-026-01793-1",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Reply to: The size of tropical vegetation gross primary production",
+      "url": "https://www.nature.com/articles/s41586-026-10561-0",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "The size of tropical vegetation gross primary production",
+      "url": "https://www.nature.com/articles/s41586-026-10562-z",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "A natural depsipeptide antibiotic binds the E-site of the bacterial ribosome",
+      "url": "https://www.nature.com/articles/s41586-026-10589-2",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Earth’s east–west albedo symmetry",
+      "url": "https://www.nature.com/articles/s41586-026-10624-2",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Relativistic electron acceleration at the bow shock of Jupiter and beyond",
+      "url": "https://www.nature.com/articles/s41586-026-10473-z",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Acquired genetic and cell-state changes in IDH-mutant glioma progression",
+      "url": "https://www.nature.com/articles/s41586-026-10612-6",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Mining triggers extensive additional deforestation in sub-Saharan Africa",
+      "url": "https://www.nature.com/articles/s41586-026-10551-2",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Cold-induced peptide signalling secures pollen resilience and crop yield",
+      "url": "https://www.nature.com/articles/s41586-026-10603-7",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Teosinte alleles enhance nitrogen assimilation and seed protein in maize",
+      "url": "https://www.nature.com/articles/s41586-026-10575-8",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Cell-type-resolved genetic variation shapes inflammatory bowel disease risk",
+      "url": "https://www.nature.com/articles/s41586-026-10627-z",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Plastoglobules compartmentalize nitrogen assimilation in maize",
+      "url": "https://www.nature.com/articles/s41586-026-10610-8",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Analysis of trade-offs of post-sorting plastic packaging",
+      "url": "https://www.nature.com/articles/s41586-026-10606-4",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Spermine is an endogenous iron chelator that inhibits ferroptosis",
+      "url": "https://www.nature.com/articles/s41586-026-10597-2",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Chiral superfluorescence from perovskite superlattices at room temperature",
+      "url": "https://www.nature.com/articles/s41586-026-10637-x",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Mechanophore cross-linking enhances ballistic energy dissipation of polymers",
+      "url": "https://www.nature.com/articles/s41586-026-10557-w",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Commensal-derived acetylcholine enhances mucosal immune education",
+      "url": "https://www.nature.com/articles/s41586-026-10592-7",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Nuclear shell structure governs short-range nucleon pairing",
+      "url": "https://www.nature.com/articles/s41586-026-10616-2",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "High-pulse-energy integrated mode-locked laser using a Mamyshev oscillator",
+      "url": "https://www.nature.com/articles/s41586-026-10517-4",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "LASER couples damage sensing to ESCRT assembly for lysosome repair",
+      "url": "https://www.nature.com/articles/s41586-026-10604-6",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Cooperation conflicts with equality when allocating public goods",
+      "url": "https://www.nature.com/articles/s41586-026-10550-3",
+      "summary": "",
+      "ts": 1780444800000
+    },
+    {
+      "source": "Nature",
+      "title": "Enamel nanocrystal misorientation increased with meat-eating and agriculture",
+      "url": "https://www.nature.com/articles/s41586-026-10583-8",
+      "summary": "",
+      "ts": 1780444800000
     }
   ],
   "sources": [
