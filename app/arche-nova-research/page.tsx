@@ -14,18 +14,21 @@ const domains = [
 ];
 
 const reports = [
- {
-   title: "Physical AI as Infrastructure",
-   text: "The transition from digital AI systems toward embodied intelligence operating through robotics, manufacturing, logistics, laboratories, and public infrastructure.",
- },
- {
-   title: "Future Mobility Architectures",
-   text: "Pathways from autonomous vehicles and aerial systems toward integrated transportation ecosystems and post-road mobility systems.",
- },
- {
-   title: "Orbital Habitat Systems",
-   text: "Research into long-term human habitation beyond Earth and the infrastructure required for sustainable expansion.",
- },
+  {
+    slug: "physical-ai-as-infrastructure",
+    title: "Physical AI as Infrastructure",
+    text: "The transition from digital AI systems toward embodied intelligence operating through robotics, manufacturing, logistics, laboratories, and public infrastructure.",
+  },
+  {
+    slug: "future-mobility-architectures",
+    title: "Future Mobility Architectures",
+    text: "Pathways from autonomous vehicles and aerial systems toward integrated transportation ecosystems and post-road mobility systems.",
+  },
+  {
+    slug: "orbital-habitat-systems",
+    title: "Orbital Habitat Systems",
+    text: "Research into long-term human habitation beyond Earth and the infrastructure required for sustainable expansion.",
+  },
 ];
 
 const signals = [
@@ -94,13 +97,18 @@ export default function ArcheNovaResearchPage() {
        <h2>Latest Reports</h2>
 
        <div className="research-report-grid">
-         {reports.map((report) => (
-           <article key={report.title} className="research-report-card">
-             <h3>{report.title}</h3>
-             <p>{report.text}</p>
-           </article>
-         ))}
-       </div>
+  {reports.map((report) => (
+    <Link
+      key={report.title}
+      href={`/arche-nova-research/reports/${report.slug}`}
+      className="research-report-card"
+    >
+      <h3>{report.title}</h3>
+      <p>{report.text}</p>
+      <div className="plaza-hint">Open →</div>
+    </Link>
+  ))}
+</div>
      </section>
 
      <section className="glass-block">

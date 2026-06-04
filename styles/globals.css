@@ -10006,3 +10006,8 @@ html, body {
     font-size: 0.68rem;
   }
 }
+.research-report-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
