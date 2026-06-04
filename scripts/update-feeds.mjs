@@ -71,7 +71,6 @@ const TECHNOLOGY_CATEGORIES = [
     name: "Energy",
     sources: [
       { id: "doe", name: "US DOE", url: "https://www.energy.gov/rss/science/3662436" },
-      { id: "iter", name: "ITER", url: "https://www.iter.org/rss/NewsLine.rss" },
     ],
   },
   {
