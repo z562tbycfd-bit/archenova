@@ -9919,3 +9919,90 @@ html, body {
     text-align: center;
   }
 }
+/* =========================================================
+   ArcheNova Research
+   ========================================================= */
+
+.research-domain-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.research-domain-chip {
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.035);
+  color: rgba(245,245,245,0.78);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.research-report-grid {
+  display: grid;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.research-report-card {
+  padding: 24px;
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(0,0,0,0.18);
+}
+
+.research-report-card h3 {
+  margin: 0 0 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.research-report-card p {
+  margin: 0;
+  line-height: 1.8;
+  color: rgba(245,245,245,0.72);
+}
+
+.research-roadmap {
+  display: grid;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.research-roadmap-step {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 20px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+}
+
+.research-roadmap-index {
+  color: rgba(245,245,245,0.42);
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+}
+
+.research-roadmap-node {
+  color: rgba(245,245,245,0.86);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .research-roadmap-step {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .research-domain-chip {
+    font-size: 0.68rem;
+  }
+}

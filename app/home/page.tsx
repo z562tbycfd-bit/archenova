@@ -100,13 +100,13 @@ export default function Home() {
       </p>
 
       <div className="anv-card-grid">
-        <Link href="#" className="plaza-card">
+        <Link href="/arche-nova-research" className="plaza-card">
           <div className="plaza-title">ArcheNova Research</div>
           <div className="plaza-desc">
             — Strategic intelligence on emerging science, technology,
             and social implementation pathways
           </div>
-          <div className="plaza-hint">Coming Soon →</div>
+          <div className="plaza-hint">Open →</div>
         </Link>
 
         <Link href="#" className="plaza-card">
@@ -115,7 +115,7 @@ export default function Home() {
             — A civilizational research platform for irreversibility,
             future systems, governance, and infrastructure design
           </div>
-          <div className="plaza-hint">Coming Soon →</div>
+          <div className="plaza-hint">Open →</div>
         </Link>
 
         <Link href="#" className="plaza-card">
@@ -124,12 +124,12 @@ export default function Home() {
             — Future-oriented capital formation for science-based
             infrastructure, Physical AI, energy, space, and deep technology
           </div>
-          <div className="plaza-hint">Coming Soon →</div>
+          <div className="plaza-hint">Open →</div>
         </Link>
       </div>
 
       <div className="anv-mobile-icons">
-        <Link href="#" className="anv-icon-link">
+        <Link href="/arche-nova-research" className="anv-icon-link">
           <span>♖</span>
           <small>Research</small>
         </Link>
