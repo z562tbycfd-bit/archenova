@@ -1,0 +1,21 @@
+name: Update Science & Technology Feeds
+
+on:
+    schedule:
+# 毎日06:00 JST
+- cron: ‘0 21 * * *’
+
+
+
+workflow_dispatch:
+
+
+
+permissions:
+contents: write
+
+
+
+jobs:
+update-feeds:
+runs-on: ubuntu-latest
