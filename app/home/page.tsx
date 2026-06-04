@@ -83,25 +83,72 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 04 : LIVE SIGNAL (X)
-         ========================= */}
-      <section id="home-live" data-home-section className="home-page">
-        <Reveal>
-          <div className="home-divider">
-            <div className="home-divider-line" />
-            <div className="home-divider-label">
-              <span className="home-divider-eyebrow">ArcheNova Papers</span>
-<span className="home-divider-title">Latest ArcheNova Paper</span>
-            </div>
+    PAGE 04 : ARCHENOVA VENTURES
+   ========================= */}
+<section
+  id="home-archenova-ventures"
+  className="home-page"
+  data-home-section
+>
+  <Reveal>
+    <div className="home-section home-section-center">
+      <span className="home-section-label">ARCHENOVA VENTURES</span>
+
+      <p className="home-section-purpose">
+        Transforming scientific signals into research, institutions,
+        investment theses, and civilization-scale business architectures.
+      </p>
+
+      <div className="anv-card-grid">
+        <Link href="#" className="plaza-card">
+          <div className="plaza-title">ArcheNova Research</div>
+          <div className="plaza-desc">
+            — Strategic intelligence on emerging science, technology,
+            and social implementation pathways
           </div>
-        </Reveal>
+          <div className="plaza-hint">Coming Soon →</div>
+        </Link>
 
-        <Reveal delay={120}>
-         <LatestPaper />
-        </Reveal>
-      </section>
+        <Link href="#" className="plaza-card">
+          <div className="plaza-title">ArcheNova Institute</div>
+          <div className="plaza-desc">
+            — A civilizational research platform for irreversibility,
+            future systems, governance, and infrastructure design
+          </div>
+          <div className="plaza-hint">Coming Soon →</div>
+        </Link>
 
-      {/* =========================
+        <Link href="#" className="plaza-card">
+          <div className="plaza-title">ArcheNova Capital</div>
+          <div className="plaza-desc">
+            — Future-oriented capital formation for science-based
+            infrastructure, Physical AI, energy, space, and deep technology
+          </div>
+          <div className="plaza-hint">Coming Soon →</div>
+        </Link>
+      </div>
+
+      <div className="anv-mobile-icons">
+        <Link href="#" className="anv-icon-link">
+          <span>♖</span>
+          <small>Research</small>
+        </Link>
+
+        <Link href="#" className="anv-icon-link">
+          <span>♕</span>
+          <small>Institute</small>
+        </Link>
+
+        <Link href="#" className="anv-icon-link">
+          <span>♘</span>
+          <small>Capital</small>
+        </Link>
+      </div>
+    </div>
+  </Reveal>
+</section>
+
+{/* =========================
           PAGE 05 : BOUNDARY INTERACTION
          ========================= */}
       <section id="home-boundary" data-home-section className="home-page">
@@ -354,8 +401,27 @@ export default function Home() {
 
  </section>
 
+ {/* =========================
+          PAGE 10 : LIVE SIGNAL (X)
+         ========================= */}
+      <section id="home-live" data-home-section className="home-page">
+        <Reveal>
+          <div className="home-divider">
+            <div className="home-divider-line" />
+            <div className="home-divider-label">
+              <span className="home-divider-eyebrow">ArcheNova Papers</span>
+<span className="home-divider-title">Latest ArcheNova Paper</span>
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal delay={120}>
+         <LatestPaper />
+        </Reveal>
+      </section>
+
       {/* =========================
-          PAGE 10 : RECENT CROSSINGS
+          PAGE 11 : RECENT CROSSINGS
          ========================= */}
       <section id="home-crossings" data-home-section className="home-page">
         <Reveal>
