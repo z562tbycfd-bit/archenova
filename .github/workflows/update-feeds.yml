@@ -4,7 +4,9 @@ name: Update Science & Technology Feeds
 
 on:
     schedule:
+     # 毎日06:00 JST (UTC+9) に実行   
         - cron: '0 21 * * *'
+    
     workflow_dispatch:
 
 
@@ -16,4 +18,4 @@ permissions:
 
 jobs:
     update-feeds:
-        runs-on: ubuntu-latest 
+        runs-on: ubuntu-latest
