@@ -27,6 +27,14 @@ export const generatedResearchReports = [
       "impact": "High",
       "timeHorizon": "5–15 Years"
     },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 9,
+      "economic": 8.6,
+      "civilization": 8.4,
+      "classification": "Industrial Capability Signal",
+      "overall": 8.4
+    },
     "ts": 1780605384000
   },
   {
@@ -56,6 +64,14 @@ export const generatedResearchReports = [
       "probability": "Medium",
       "impact": "Very High",
       "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.6,
+      "engineering": 8,
+      "economic": 8.5,
+      "civilization": 9.1,
+      "classification": "Biological Resilience Signal",
+      "overall": 8.6
     },
     "ts": 1780596119000
   },
@@ -87,6 +103,14 @@ export const generatedResearchReports = [
       "impact": "Medium",
       "timeHorizon": "5–15 Years"
     },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "classification": "Emerging Future Signal",
+      "overall": 7.5
+    },
     "ts": 1780592400000
   },
   {
@@ -116,6 +140,14 @@ export const generatedResearchReports = [
       "probability": "Medium",
       "impact": "High",
       "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.2,
+      "engineering": 9,
+      "economic": 7.8,
+      "civilization": 9.5,
+      "classification": "Expansion Capability Signal",
+      "overall": 8.7
     },
     "ts": 1780588683000
   },
@@ -147,6 +179,14 @@ export const generatedResearchReports = [
       "impact": "Medium",
       "timeHorizon": "5–15 Years"
     },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "classification": "Emerging Future Signal",
+      "overall": 7.5
+    },
     "ts": 1780582355000
   },
   {
@@ -176,6 +216,14 @@ export const generatedResearchReports = [
       "probability": "Medium",
       "impact": "Medium",
       "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "classification": "Emerging Future Signal",
+      "overall": 7.5
     },
     "ts": 1780578027000
   },
@@ -207,6 +255,14 @@ export const generatedResearchReports = [
       "impact": "Very High",
       "timeHorizon": "10–30 Years"
     },
+    "archeNovaAssessment": {
+      "scientific": 8.4,
+      "engineering": 8.8,
+      "economic": 9,
+      "civilization": 9.4,
+      "classification": "Civilization Energy Signal",
+      "overall": 8.9
+    },
     "ts": 1780575000000
   },
   {
@@ -237,6 +293,14 @@ export const generatedResearchReports = [
       "impact": "Medium",
       "timeHorizon": "5–15 Years"
     },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "classification": "Emerging Future Signal",
+      "overall": 7.5
+    },
     "ts": 1780574400000
   },
   {
@@ -266,6 +330,14 @@ export const generatedResearchReports = [
       "probability": "Medium",
       "impact": "Medium",
       "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "classification": "Emerging Future Signal",
+      "overall": 7.5
     },
     "ts": 1780574400000
   }

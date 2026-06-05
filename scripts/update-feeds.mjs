@@ -531,6 +531,77 @@ function makeAssessment(item, category) {
   return assessments[useCase] || assessments.general;
 }
 
+function makeArcheNovaAssessment(item, category) {
+  const useCase = detectUseCase(item);
+
+  const scores = {
+    manufacturing: {
+      scientific: 7.8,
+      engineering: 9.0,
+      economic: 8.6,
+      civilization: 8.4,
+      classification: "Industrial Capability Signal",
+    },
+    healthcare: {
+      scientific: 8.6,
+      engineering: 8.0,
+      economic: 8.5,
+      civilization: 9.1,
+      classification: "Biological Resilience Signal",
+    },
+    energy: {
+      scientific: 8.4,
+      engineering: 8.8,
+      economic: 9.0,
+      civilization: 9.4,
+      classification: "Civilization Energy Signal",
+    },
+    space: {
+      scientific: 8.2,
+      engineering: 9.0,
+      economic: 7.8,
+      civilization: 9.5,
+      classification: "Expansion Capability Signal",
+    },
+    compute: {
+      scientific: 8.0,
+      engineering: 9.2,
+      economic: 9.1,
+      civilization: 9.0,
+      classification: "Intelligence Infrastructure Signal",
+    },
+    environment: {
+      scientific: 8.1,
+      engineering: 7.9,
+      economic: 8.0,
+      civilization: 9.2,
+      classification: "Adaptive Resilience Signal",
+    },
+    general: {
+      scientific: 7.5,
+      engineering: 7.5,
+      economic: 7.0,
+      civilization: 7.8,
+      classification: "Emerging Future Signal",
+    },
+  };
+
+  const selected = scores[useCase] || scores.general;
+
+  const overall =
+    (
+      selected.scientific * 0.25 +
+      selected.engineering * 0.25 +
+      selected.economic * 0.20 +
+      selected.civilization * 0.30
+    ).toFixed(1);
+
+  return {
+    ...selected,
+    overall: Number(overall),
+  };
+}
+
 function makeReport(item) {
   const category = classify(item);
 
@@ -548,6 +619,7 @@ function makeReport(item) {
     technologyRoadmap: makeRoadmap(item, category),
 strategicHorizon: makeStrategicHorizon(item, category),
 assessment: makeAssessment(item, category),
+archeNovaAssessment: makeArcheNovaAssessment(item, category),
 ts: item.ts || 0,
   };
 }

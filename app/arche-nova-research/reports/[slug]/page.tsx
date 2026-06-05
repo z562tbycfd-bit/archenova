@@ -110,6 +110,36 @@ export default function ResearchReportPage({
   </div>
 </section>
 
+<section className="glass-block">
+  <h2>ArcheNova Assessment</h2>
+
+  <div className="research-domain-grid">
+    <div className="research-domain-chip">
+      Scientific: {report.archeNovaAssessment?.scientific} / 10
+    </div>
+
+    <div className="research-domain-chip">
+      Engineering: {report.archeNovaAssessment?.engineering} / 10
+    </div>
+
+    <div className="research-domain-chip">
+      Economic: {report.archeNovaAssessment?.economic} / 10
+    </div>
+
+    <div className="research-domain-chip">
+      Civilization: {report.archeNovaAssessment?.civilization} / 10
+    </div>
+
+    <div className="research-domain-chip">
+      Overall: {report.archeNovaAssessment?.overall} / 10
+    </div>
+
+    <div className="research-domain-chip">
+      {report.archeNovaAssessment?.classification}
+    </div>
+  </div>
+</section>
+
       <section className="glass-block">
         <h2>Civilization Impact</h2>
         <p>{report.civilizationImpact}</p>
