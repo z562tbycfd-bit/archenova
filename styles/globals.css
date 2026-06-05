@@ -10350,7 +10350,14 @@ html, body {
    ========================================== */
 
 #home-archenova-ventures .social-implementation-grid {
-  display: grid;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+  margin-top: 48px !important;
+}
+
+#home-archenova-ventures .plaza-card {
+  display: block !important;
 }
 
 #home-archenova-ventures .anv-mobile-icons {
@@ -10358,6 +10365,7 @@ html, body {
 }
 
 @media (max-width: 768px) {
+
   #home-archenova-ventures .social-implementation-grid {
     display: none !important;
   }
