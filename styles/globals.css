@@ -10345,15 +10345,3 @@ html, body {
     width: 70px;
   }
 }
-@media (max-width: 768px) {
-  #home-archenova-ventures .social-implementation-grid {
-    display: none !important;
-  }
-
-  #home-archenova-ventures .anv-mobile-icons {
-    display: flex;
-    justify-content: center;
-    gap: 14px;
-    margin-top: 36px;
-  }
-}
