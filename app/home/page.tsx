@@ -71,7 +71,7 @@ export default function Home() {
 
         <Link href="/orientation" className="hero-entry-icon">
           <span>▲</span>
-          <small>Orientation</small>
+          <small>Orient.</small>
         </Link>
 
         <Link href="/papers" className="hero-entry-icon">
@@ -150,7 +150,7 @@ export default function Home() {
 
         <Link href="/intelligence-platform" className="anv-icon-link">
           <span>♕</span>
-          <small>Intel</small>
+          <small>/I-Plat</small>
         </Link>
 
         <Link href="/institute" className="anv-icon-link">
@@ -383,7 +383,7 @@ export default function Home() {
 
       <div className="str-mobile-icons">
         <Link href="/observatory" className="str-icon-link">
-          <span>✦</span>
+          <span>⊥</span>
           <small>Explore</small>
         </Link>
 
@@ -393,14 +393,14 @@ export default function Home() {
         </Link>
 
         <Link href="/implementations" className="str-icon-link">
-          <span>⬡</span>
-          <small>Cases</small>
+          <span>⇔</span>
+          <small>RWI</small>
         </Link>
 
         <Link
   href="/realizing-new-technologies"className="str-icon-link">
           <span>∞</span>
-          <small>Future</small>
+          <small>RNT</small>
         </Link>
       </div>
     </div>
