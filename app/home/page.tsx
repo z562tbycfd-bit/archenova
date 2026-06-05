@@ -103,7 +103,9 @@ export default function Home() {
         civilization-scale capability.
       </p>
 
-      <div className="social-implementation-grid">
+      <div
+  className="social-implementation-grid"
+  style={{ display: "grid" }}>
         <Link href="/arche-nova-research" className="plaza-card">
           <div className="plaza-title">ArcheNova Research</div>
           <div className="plaza-desc">
