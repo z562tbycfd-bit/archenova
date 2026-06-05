@@ -7,8 +7,12 @@ import LatestPaper from "../components/LatestPaper";
 import GateFragments from "../components/GateFragments";
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
+import { archeNovaTopSignals } from "../../lib/generatedResearchReports";
 
 export default function Home() {
+
+  const topSignal = archeNovaTopSignals?.[0];
+
   return (
     <main className="home-snap" id="home-top">
       <MobileHomeScrollReset />
@@ -83,7 +87,56 @@ export default function Home() {
       </section>
 
       {/* =========================
-    PAGE 04 : ARCHENOVA VENTURES
+    PAGE 04 : TODAY'S TOP SIGNAL
+   ========================= */}
+<section
+  id="home-archenova-dashboard"
+  className="home-page"
+  data-home-section
+>
+  <Reveal>
+    <div className="home-section home-section-center">
+      <span className="home-section-label">
+        TODAY&apos;S TOP SIGNAL
+      </span>
+
+      <p className="home-section-purpose">
+        The highest-ranked signal selected by ArcheNova Analyst from today&apos;s
+        scientific and technological observation layer.
+      </p>
+
+      {topSignal && (
+        <Link
+          href={`/arche-nova-research/reports/${topSignal.slug}`}
+          className="plaza-card dashboard-top-signal-card"
+        >
+          <div className="feed-source">
+            {topSignal.source} / {topSignal.category}
+          </div>
+
+          <div className="plaza-title">
+            {topSignal.title}
+          </div>
+
+          <div className="plaza-desc">
+            ArcheNova Score: {topSignal.archeNovaAssessment?.overall} / 10
+          </div>
+
+          <div className="plaza-desc">
+            {topSignal.archeNovaAssessment?.classification}
+          </div>
+
+          <div className="plaza-hint">
+            Open Report →
+          </div>
+        </Link>
+      )}
+    </div>
+  </Reveal>
+</section>
+
+      {/* =========================
+    PAGE 05 : ARCHENOVA VENTURES
    ========================= */}
 <section
   id="home-archenova-ventures"
@@ -142,59 +195,6 @@ export default function Home() {
         <Link href="#" className="anv-icon-link">
           <span>♘</span>
           <small>Capital</small>
-        </Link>
-      </div>
-    </div>
-  </Reveal>
-</section>
-
-{/* =========================
-    PAGE 05 : ARCHENOVA DASHBOARD
-   ========================= */}
-<section
-  id="home-archenova-dashboard"
-  className="home-page"
-  data-home-section
->
-  <Reveal>
-    <div className="home-section home-section-center">
-      <span className="home-section-label">ARCHENOVA DASHBOARD</span>
-
-      <p className="home-section-purpose">
-        A daily intelligence layer that ranks scientific and technological
-        signals by implementation potential, infrastructure impact, and
-        civilization significance.
-      </p>
-
-      <div className="dashboard-card-grid">
-        <Link href="/arche-nova-research" className="plaza-card">
-          <div className="plaza-title">Top Signals</div>
-          <div className="plaza-desc">
-            — The highest-ranked ArcheNova Analyst signals from today’s
-            scientific and technological observation layer
-          </div>
-          <div className="plaza-hint">Open Dashboard →</div>
-        </Link>
-
-        <Link href="/arche-nova-research" className="plaza-card">
-          <div className="plaza-title">Latest Analyst Reports</div>
-          <div className="plaza-desc">
-            — Auto-generated reports with scientific signal, implementation
-            potential, roadmap, horizon, and ArcheNova score
-          </div>
-          <div className="plaza-hint">Open Reports →</div>
-        </Link>
-      </div>
-
-      <div className="dashboard-mobile-icons">
-        <Link href="/arche-nova-research" className="dashboard-icon-link">
-          <span>↗︎</span>
-          <small>Top</small>
-        </Link>
-
-        <Link href="/arche-nova-research" className="dashboard-icon-link">
-          <span>☆</span>
-          <small>Reports</small>
         </Link>
       </div>
     </div>
