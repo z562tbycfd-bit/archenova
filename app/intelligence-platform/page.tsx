@@ -8,7 +8,7 @@ const modules = [
   },
   {
     title: "Signals",
-    href: "/arche-nova-research",
+    href: "/intelligence-platform/signals",
     text: "Daily scientific and technological signals ranked by implementation potential, infrastructure impact, and civilization significance.",
   },
   {
