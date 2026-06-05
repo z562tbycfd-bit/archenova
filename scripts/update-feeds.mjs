@@ -328,17 +328,107 @@ function analyzeCivilization(item, category) {
   return map[useCase] || map.general;
 }
 
-function makeRoadmap(category) {
-  const map = {
-    AI: ["Model capability", "Embodied systems", "Operational deployment", "Infrastructure integration", "Civilization-scale automation"],
-    Energy: ["Scientific discovery", "Prototype conversion", "Industrial scaling", "Grid integration", "Energy resilience"],
-    Space: ["Mission capability", "Reusable operations", "Orbital infrastructure", "Planetary coordination", "Expansion architecture"],
-    Quantum: ["Quantum control", "Device stability", "Scalable systems", "Industrial application", "New computational capability"],
-    Bio: ["Biological discovery", "Therapeutic platform", "Clinical validation", "Healthcare adoption", "Adaptive biological infrastructure"],
-    General: ["Discovery", "Applied science", "Engineering system", "Social implementation", "Infrastructure formation"],
-  };
+function makeRoadmap(item, category) {
+  const useCase = detectUseCase(item);
+  const text = getText(item);
 
-  return map[category] || map.General;
+  if (useCase === "manufacturing") {
+    return [
+      "Scientific process discovery",
+      "Prototype manufacturing method",
+      "Automation and quality control",
+      "Industrial production integration",
+      "Resilient manufacturing infrastructure",
+    ];
+  }
+
+  if (useCase === "healthcare") {
+    return [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure",
+    ];
+  }
+
+  if (useCase === "energy") {
+    return [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience",
+    ];
+  }
+
+  if (useCase === "space") {
+    return [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth",
+    ];
+  }
+
+  if (useCase === "compute") {
+    return [
+      "Computational architecture",
+      "Hardware or model optimization",
+      "Platform deployment",
+      "Institutional and industrial adoption",
+      "Civilization-scale prediction capacity",
+    ];
+  }
+
+  if (useCase === "environment") {
+    return [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity",
+    ];
+  }
+
+  if (category === "Quantum") {
+    return [
+      "Quantum phenomenon control",
+      "Device stability",
+      "Scalable quantum system",
+      "Industrial application",
+      "New computation and sensing capability",
+    ];
+  }
+
+  if (category === "AI") {
+    return [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation",
+    ];
+  }
+
+  if (category === "Bio") {
+    return [
+      "Biological discovery",
+      "Platform translation",
+      "Validation and regulation",
+      "Healthcare or manufacturing adoption",
+      "Biological resilience infrastructure",
+    ];
+  }
+
+  return [
+    "Scientific discovery",
+    "Applied science",
+    "Engineering system",
+    "Social implementation",
+    "Infrastructure formation",
+  ];
 }
 
 function makeReport(item) {
@@ -355,7 +445,7 @@ function makeReport(item) {
     implementationPotential: analyzeImplementation(item, category),
     infrastructureImpact: analyzeInfrastructure(item, category),
     civilizationImpact: analyzeCivilization(item, category),
-    technologyRoadmap: makeRoadmap(category),
+    technologyRoadmap: makeRoadmap(item, category),
     ts: item.ts || 0,
   };
 }

@@ -11,11 +11,11 @@ export const generatedResearchReports = [
     "infrastructureImpact": "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
     "technologyRoadmap": [
-      "Model capability",
-      "Embodied systems",
-      "Operational deployment",
-      "Infrastructure integration",
-      "Civilization-scale automation"
+      "Scientific process discovery",
+      "Prototype manufacturing method",
+      "Automation and quality control",
+      "Industrial production integration",
+      "Resilient manufacturing infrastructure"
     ],
     "ts": 1780605384000
   },
@@ -31,11 +31,11 @@ export const generatedResearchReports = [
     "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
     "technologyRoadmap": [
-      "Model capability",
-      "Embodied systems",
-      "Operational deployment",
-      "Infrastructure integration",
-      "Civilization-scale automation"
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
     ],
     "ts": 1780596119000
   },
@@ -52,10 +52,10 @@ export const generatedResearchReports = [
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
     "technologyRoadmap": [
       "Scientific discovery",
-      "Prototype conversion",
-      "Industrial scaling",
-      "Grid integration",
-      "Energy resilience"
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
     ],
     "ts": 1780592400000
   },
@@ -71,11 +71,11 @@ export const generatedResearchReports = [
     "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
     "technologyRoadmap": [
-      "Mission capability",
-      "Reusable operations",
-      "Orbital infrastructure",
-      "Planetary coordination",
-      "Expansion architecture"
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
     ],
     "ts": 1780588683000
   },
@@ -91,7 +91,7 @@ export const generatedResearchReports = [
     "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
     "technologyRoadmap": [
-      "Discovery",
+      "Scientific discovery",
       "Applied science",
       "Engineering system",
       "Social implementation",
@@ -111,7 +111,7 @@ export const generatedResearchReports = [
     "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
     "technologyRoadmap": [
-      "Discovery",
+      "Scientific discovery",
       "Applied science",
       "Engineering system",
       "Social implementation",
@@ -131,11 +131,11 @@ export const generatedResearchReports = [
     "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
     "technologyRoadmap": [
-      "Model capability",
-      "Embodied systems",
-      "Operational deployment",
-      "Infrastructure integration",
-      "Civilization-scale automation"
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
     ],
     "ts": 1780575000000
   },
@@ -152,8 +152,8 @@ export const generatedResearchReports = [
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
     "technologyRoadmap": [
       "Model capability",
-      "Embodied systems",
-      "Operational deployment",
+      "Embodied or operational system",
+      "Deployment into workflows",
       "Infrastructure integration",
       "Civilization-scale automation"
     ],
@@ -171,7 +171,7 @@ export const generatedResearchReports = [
     "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
     "technologyRoadmap": [
-      "Discovery",
+      "Scientific discovery",
       "Applied science",
       "Engineering system",
       "Social implementation",
