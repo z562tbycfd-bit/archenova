@@ -17,6 +17,11 @@ export const generatedResearchReports = [
       "Industrial production integration",
       "Resilient manufacturing infrastructure"
     ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Pilot deployment and industrial validation.",
+      "mid": "5–15 Years: Broad manufacturing integration and automation.",
+      "far": "15–30 Years: Self-optimizing industrial ecosystems."
+    },
     "ts": 1780605384000
   },
   {
@@ -37,6 +42,11 @@ export const generatedResearchReports = [
       "Healthcare system adoption",
       "Adaptive health infrastructure"
     ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
     "ts": 1780596119000
   },
   {
@@ -57,6 +67,11 @@ export const generatedResearchReports = [
       "Social implementation",
       "Infrastructure formation"
     ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
     "ts": 1780592400000
   },
   {
@@ -77,6 +92,11 @@ export const generatedResearchReports = [
       "Space infrastructure integration",
       "Expansion capability beyond Earth"
     ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
     "ts": 1780588683000
   },
   {
@@ -97,6 +117,11 @@ export const generatedResearchReports = [
       "Social implementation",
       "Infrastructure formation"
     ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
     "ts": 1780582355000
   },
   {
@@ -117,6 +142,11 @@ export const generatedResearchReports = [
       "Social implementation",
       "Infrastructure formation"
     ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
     "ts": 1780578027000
   },
   {
@@ -137,6 +167,11 @@ export const generatedResearchReports = [
       "Grid or storage integration",
       "Civilization-scale energy resilience"
     ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
     "ts": 1780575000000
   },
   {
@@ -157,6 +192,11 @@ export const generatedResearchReports = [
       "Infrastructure integration",
       "Civilization-scale automation"
     ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
     "ts": 1780574400000
   },
   {
@@ -177,6 +217,11 @@ export const generatedResearchReports = [
       "Social implementation",
       "Infrastructure formation"
     ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
     "ts": 1780574400000
   }
 ];

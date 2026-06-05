@@ -431,6 +431,56 @@ function makeRoadmap(item, category) {
   ];
 }
 
+function makeStrategicHorizon(item, category) {
+  const useCase = detectUseCase(item);
+
+  const horizons = {
+    manufacturing: {
+      near: "1–5 Years: Pilot deployment and industrial validation.",
+      mid: "5–15 Years: Broad manufacturing integration and automation.",
+      far: "15–30 Years: Self-optimizing industrial ecosystems.",
+    },
+
+    healthcare: {
+      near: "1–5 Years: Clinical trials and early healthcare adoption.",
+      mid: "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      far: "15–30 Years: Adaptive health infrastructure and longevity systems.",
+    },
+
+    energy: {
+      near: "1–5 Years: Demonstration projects and industrial pilots.",
+      mid: "5–15 Years: Grid integration and commercial deployment.",
+      far: "15–30 Years: Civilization-scale energy resilience and abundance.",
+    },
+
+    space: {
+      near: "1–5 Years: Operational missions and infrastructure testing.",
+      mid: "5–15 Years: Orbital infrastructure expansion.",
+      far: "15–30 Years: Sustainable off-Earth operational capability.",
+    },
+
+    compute: {
+      near: "1–5 Years: Deployment into research and enterprise systems.",
+      mid: "5–15 Years: Infrastructure-scale computational integration.",
+      far: "15–30 Years: Civilization-scale prediction and coordination systems.",
+    },
+
+    environment: {
+      near: "1–5 Years: Monitoring and adaptation tools.",
+      mid: "5–15 Years: Regional resilience infrastructure.",
+      far: "15–30 Years: Planetary adaptive-capacity systems.",
+    },
+
+    general: {
+      near: "1–5 Years: Applied research and pilot implementation.",
+      mid: "5–15 Years: Industrial and institutional adoption.",
+      far: "15–30 Years: Infrastructure and civilization integration.",
+    },
+  };
+
+  return horizons[useCase] || horizons.general;
+}
+
 function makeReport(item) {
   const category = classify(item);
 
@@ -446,7 +496,8 @@ function makeReport(item) {
     infrastructureImpact: analyzeInfrastructure(item, category),
     civilizationImpact: analyzeCivilization(item, category),
     technologyRoadmap: makeRoadmap(item, category),
-    ts: item.ts || 0,
+strategicHorizon: makeStrategicHorizon(item, category),
+ts: item.ts || 0,
   };
 }
 

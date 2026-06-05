@@ -63,6 +63,33 @@ export default function ResearchReportPage({
   </div>
 </section>
 
+<section className="glass-block">
+  <h2>Strategic Horizon</h2>
+
+  <div className="research-roadmap">
+    <div className="research-roadmap-step">
+      <div className="research-roadmap-index">05Y</div>
+      <div className="research-roadmap-node">
+        {report.strategicHorizon?.near}
+      </div>
+    </div>
+
+    <div className="research-roadmap-step">
+      <div className="research-roadmap-index">15Y</div>
+      <div className="research-roadmap-node">
+        {report.strategicHorizon?.mid}
+      </div>
+    </div>
+
+    <div className="research-roadmap-step">
+      <div className="research-roadmap-index">30Y</div>
+      <div className="research-roadmap-node">
+        {report.strategicHorizon?.far}
+      </div>
+    </div>
+  </div>
+</section>
+
       <section className="glass-block">
         <h2>Civilization Impact</h2>
         <p>{report.civilizationImpact}</p>
