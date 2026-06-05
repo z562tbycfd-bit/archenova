@@ -203,45 +203,129 @@ function classify(item) {
   return "General";
 }
 
+function getText(item) {
+  return `${item.title || ""} ${item.summary || ""}`.toLowerCase();
+}
+
+function includesAny(text, words) {
+  return words.some((word) => text.includes(word));
+}
+
+function detectUseCase(item) {
+  const text = getText(item);
+
+  if (includesAny(text, ["robot", "robotics", "automation", "factory", "manufacturing"])) {
+    return "manufacturing";
+  }
+
+  if (includesAny(text, ["health", "medicine", "clinical", "patient", "therapy", "diagnostic", "hospital"])) {
+    return "healthcare";
+  }
+
+  if (includesAny(text, ["battery", "grid", "power", "electricity", "hydrogen", "fusion", "solar"])) {
+    return "energy";
+  }
+
+  if (includesAny(text, ["satellite", "orbit", "space", "launch", "nasa", "lunar", "mars"])) {
+    return "space";
+  }
+
+  if (includesAny(text, ["chip", "semiconductor", "compute", "data center", "gpu"])) {
+    return "compute";
+  }
+
+  if (includesAny(text, ["climate", "carbon", "environment", "water", "weather"])) {
+    return "environment";
+  }
+
+  return "general";
+}
+
 function analyzeImplementation(item, category) {
-  const title = item.title || "This signal";
+  const useCase = detectUseCase(item);
 
   const map = {
-    AI: `${title} may indicate a transition from digital intelligence toward operational systems: robotics, automation, scientific discovery, design workflows, and institutional decision support.`,
-    Energy: `${title} may contribute to future energy capability through generation, storage, conversion, distribution, resilience, or industrial decarbonization.`,
-    Space: `${title} may support the expansion of space infrastructure through satellites, launch systems, orbital operations, remote sensing, manufacturing, or habitation systems.`,
-    Quantum: `${title} may influence future computation, sensing, secure communication, simulation, or materials discovery through quantum-scale control.`,
-    Bio: `${title} may reshape medicine, biotechnology, diagnostics, therapeutics, longevity systems, or biological manufacturing.`,
-    General: `${title} may represent an early pathway from scientific discovery toward applied capability, institutional adoption, and social implementation.`,
+    manufacturing:
+      "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
+
+    healthcare:
+      "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+
+    energy:
+      "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+
+    space:
+      "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+
+    compute:
+      "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
+
+    environment:
+      "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+
+    general:
+      `Implementation potential lies in moving this ${category} signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.`,
   };
 
-  return map[category] || map.General;
+  return map[useCase] || map.general;
 }
 
 function analyzeInfrastructure(item, category) {
+  const useCase = detectUseCase(item);
+
   const map = {
-    AI: "If scaled, this signal could become part of the operational layer of civilization: factories, logistics, laboratories, healthcare, public administration, and infrastructure management.",
-    Energy: "If stabilized, this capability could affect grids, industrial systems, transportation, manufacturing, national resilience, and long-term energy security.",
-    Space: "If deployed, this signal could strengthen orbital infrastructure, planetary observation, communication networks, navigation systems, and future off-Earth operations.",
-    Quantum: "If matured, this capability could alter computing infrastructure, measurement systems, cryptography, scientific simulation, and advanced materials development.",
-    Bio: "If translated into practice, this signal could affect hospitals, pharmaceutical systems, public health, bio-manufacturing, and human adaptive capacity.",
-    General: "If implemented, this capability could influence infrastructure, institutions, industrial systems, and long-term societal adaptation.",
+    manufacturing:
+      "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
+
+    healthcare:
+      "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+
+    energy:
+      "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+
+    space:
+      "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+
+    compute:
+      "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
+
+    environment:
+      "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+
+    general:
+      "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
   };
 
-  return map[category] || map.General;
+  return map[useCase] || map.general;
 }
 
 function analyzeCivilization(item, category) {
+  const useCase = detectUseCase(item);
+
   const map = {
-    AI: "From the ArcheNova perspective, the deepest significance is the conversion of intelligence into executable physical and institutional capability.",
-    Energy: "From the ArcheNova perspective, the deepest significance is the expansion of civilization’s energetic freedom, resilience, and capacity to sustain complex systems.",
-    Space: "From the ArcheNova perspective, the deepest significance is the transition from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    Quantum: "From the ArcheNova perspective, the deepest significance is deeper control over information, matter, measurement, and prediction at fundamental scales.",
-    Bio: "From the ArcheNova perspective, the deepest significance is the expansion of biological resilience, adaptive capacity, healthspan, and life-supporting infrastructure.",
-    General: "From the ArcheNova perspective, the deepest significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    manufacturing:
+      "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
+
+    healthcare:
+      "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+
+    energy:
+      "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+
+    space:
+      "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+
+    compute:
+      "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
+
+    environment:
+      "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+
+    general:
+      "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
   };
 
-  return map[category] || map.General;
+  return map[useCase] || map.general;
 }
 
 function makeRoadmap(category) {
