@@ -153,6 +153,83 @@ export default function Home() {
 </section>
 
 {/* =========================
+    PAGE 04 : TODAY'S TOP SIGNAL
+   ========================= */}
+<section
+  id="home-archenova-dashboard"
+  className="home-page"
+  data-home-section
+>
+  <Reveal>
+    <div className="home-section home-section-center">
+      <span className="home-section-label">
+        TODAY&apos;S TOP SIGNAL
+      </span>
+
+      <p className="home-section-purpose">
+        The highest-ranked signal selected by ArcheNova Analyst from today&apos;s
+        scientific and technological observation layer.
+      </p>
+
+      {topSignal && (
+        <Link
+          href={`/arche-nova-research/reports/${topSignal.slug}`}
+          className="plaza-card dashboard-top-signal-card"
+        >
+          <div className="feed-source">
+            {topSignal.source} / {topSignal.category}
+          </div>
+
+          <div className="plaza-title">
+            {topSignal.title}
+          </div>
+
+          <div className="plaza-desc">
+            ArcheNova Score: {topSignal.archeNovaAssessment?.overall} / 10
+          </div>
+
+          <div className="plaza-desc">
+            {topSignal.archeNovaAssessment?.classification}
+          </div>
+
+          <div className="plaza-hint">
+            Open Report →
+          </div>
+        </Link>
+      )}
+    </div>
+  </Reveal>
+</section>
+
+
+      {/* =========================
+          PAGE 10 : OBSERVATION (Science / Tech)
+         ========================= */}
+      <section id="home-observation" data-home-section className="home-page">
+        <Reveal>
+          <div className="home-section home-section-center">
+            <span className="home-section-label">OBSERVATION</span>
+            <p className="home-section-purpose">
+              Signals from science and technology where reversibility is quietly disappearing.
+            </p>
+          </div>
+        </Reveal>
+
+<Reveal delay={160}>
+  <div className="plaza-feature">
+    <ScienceHome />
+  </div>
+</Reveal>
+
+<Reveal delay={240}>
+  <div className="plaza-feature">
+    <TechnologyHome />
+  </div>
+</Reveal>
+
+ </section>
+
+{/* =========================
           PAGE 06 : BOUNDARY INTERACTION
          ========================= */}
       <section id="home-boundary" data-home-section className="home-page">
@@ -314,83 +391,6 @@ export default function Home() {
     </div>
   </Reveal>
 </section>
-
-{/* =========================
-    PAGE 04 : TODAY'S TOP SIGNAL
-   ========================= */}
-<section
-  id="home-archenova-dashboard"
-  className="home-page"
-  data-home-section
->
-  <Reveal>
-    <div className="home-section home-section-center">
-      <span className="home-section-label">
-        TODAY&apos;S TOP SIGNAL
-      </span>
-
-      <p className="home-section-purpose">
-        The highest-ranked signal selected by ArcheNova Analyst from today&apos;s
-        scientific and technological observation layer.
-      </p>
-
-      {topSignal && (
-        <Link
-          href={`/arche-nova-research/reports/${topSignal.slug}`}
-          className="plaza-card dashboard-top-signal-card"
-        >
-          <div className="feed-source">
-            {topSignal.source} / {topSignal.category}
-          </div>
-
-          <div className="plaza-title">
-            {topSignal.title}
-          </div>
-
-          <div className="plaza-desc">
-            ArcheNova Score: {topSignal.archeNovaAssessment?.overall} / 10
-          </div>
-
-          <div className="plaza-desc">
-            {topSignal.archeNovaAssessment?.classification}
-          </div>
-
-          <div className="plaza-hint">
-            Open Report →
-          </div>
-        </Link>
-      )}
-    </div>
-  </Reveal>
-</section>
-
-
-      {/* =========================
-          PAGE 10 : OBSERVATION (Science / Tech)
-         ========================= */}
-      <section id="home-observation" data-home-section className="home-page">
-        <Reveal>
-          <div className="home-section home-section-center">
-            <span className="home-section-label">OBSERVATION</span>
-            <p className="home-section-purpose">
-              Signals from science and technology where reversibility is quietly disappearing.
-            </p>
-          </div>
-        </Reveal>
-
-<Reveal delay={160}>
-  <div className="plaza-feature">
-    <ScienceHome />
-  </div>
-</Reveal>
-
-<Reveal delay={240}>
-  <div className="plaza-feature">
-    <TechnologyHome />
-  </div>
-</Reveal>
-
- </section>
 
  {/* =========================
           PAGE 11 : LIVE SIGNAL (X)
