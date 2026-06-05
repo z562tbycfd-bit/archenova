@@ -140,16 +140,7 @@ export default function Home() {
         Transforming scientific signals into research, institutions,
         investment theses, and civilization-scale business architectures.
       </p>
-
-      <div className="anv-card-grid">
-        <Link href="/arche-nova-research" className="plaza-card">
-          <div className="plaza-title">ArcheNova Research</div>
-          <div className="plaza-desc">
-            — Strategic intelligence on emerging science, technology,
-            and social implementation pathways
-          </div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
+      <div className="social-implementation-grid">
 
         <Link href="#" className="plaza-card">
           <div className="plaza-title">ArcheNova Institute</div>
@@ -180,13 +171,8 @@ export default function Home() {
       </div>
 
       <div className="anv-mobile-icons">
-        <Link href="/arche-nova-research" className="anv-icon-link">
-          <span>♖</span>
-          <small>Research</small>
-        </Link>
-
         <Link href="#" className="anv-icon-link">
-          <span>♕</span>
+          <span>♖</span>
           <small>Institute</small>
         </Link>
 
@@ -280,150 +266,85 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 07 : SCIENTIFIC EXPLORATION
-         ========================= */}
-      <section id="home-exploration" data-home-section className="home-page">
-        <Reveal>
-          <div className="home-section">
-            <span className="home-section-label">SCIENTIFIC EXPLORATION</span>
-            <p className="home-section-purpose">
-              Engage with quantum and gravitational boundaries as selection-driven structures
-              that return official ArcheNova answers and their irreversible meaning.
-            </p>
-          </div>
-        </Reveal>
-
-        <Reveal delay={120}>
-          <div className="hero-links">
-            <a href="/observatory" className="hero-card">
-              <h3>Quantum &amp; Gravity Observatory</h3>
-              <p>
-                Select thresholds in quantum and gravitational domains.
-                ArcheNova returns only what becomes fixed, what disappears,
-                and where reversibility ends.
-              </p>
-            </a>
-          </div>
-        </Reveal>
-      </section>
-
-      {/* =========================
-    PAGE 08  : SOCIAL IMPLEMENTATION
+    PAGE 07 : SCIENTIFIC & TECHNOLOGICAL REALIZATION
    ========================= */}
-
 <section
-  id="home-social-implementation"
+  id="home-scientific-technological-realization"
   className="home-page"
   data-home-section
 >
   <Reveal>
     <div className="home-section home-section-center">
       <span className="home-section-label">
-        SOCIAL IMPLEMENTATION
+        SCIENTIFIC &amp; TECHNOLOGICAL REALIZATION
       </span>
 
       <p className="home-section-purpose">
-        The transition from scientific discovery to reproducible
-        capability, institutional adoption, public value, infrastructure,
-        and civilization-scale systems.
+        From scientific exploration to social implementation and the realization
+        of new technologies as civilization-scale systems.
       </p>
 
-      <div className="social-implementation-grid">
-        <Link
-          href="/commercialization"
-          className="plaza-card"
-        >
+      <div className="str-card-grid">
+        <Link href="/observatory" className="plaza-card">
           <div className="plaza-title">
-            Social Implementation of Science
+            Scientific Exploration
           </div>
-
-          <div className="plaza-hint">
-            Open →
+          <div className="plaza-desc">
+            — Quantum &amp; Gravity Observatory
           </div>
+          <div className="plaza-hint">Open →</div>
         </Link>
 
-        <Link
-          href="/implementations"
-          className="plaza-card"
-        >
+        <Link href="/commercialization" className="plaza-card">
+          <div className="plaza-title">
+            Social Implementation
+          </div>
+          <div className="plaza-desc">
+            — Social Implementation of Science
+          </div>
+          <div className="plaza-hint">Open →</div>
+        </Link>
+
+        <Link href="/implementations" className="plaza-card">
           <div className="plaza-title">
             Real-World Implementations
           </div>
-
-          <div className="plaza-hint">
-            Open →
+          <div className="plaza-desc">
+            — Evidence of science becoming systems
           </div>
+          <div className="plaza-hint">Open →</div>
         </Link>
-      </div>
-    </div>
-  </Reveal>
-</section>
 
-{/* =========================
-    PAGE 09 : REALIZING NEW TECHNOLOGIES
-   ========================= */}
-<section
-  id="home-realizing-technologies"
-  className="home-page"
-  data-home-section
->
-  <Reveal>
-    <div className="home-section home-section-center">
-      <span className="home-section-label">REALIZING NEW TECHNOLOGIES</span>
-
-      <p className="home-section-purpose">
-        How emerging science and technology become realizable systems:
-        from scientific foundations to implementation pathways and
-        civilization-scale transformation.
-      </p>
-
-      <div className="rnt-card-grid">
         <Link href="/realizing-new-technologies/house" className="plaza-card">
-          <div className="plaza-title">House</div>
-          <div className="plaza-desc">— Adaptive future habitat systems</div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
-
-        <Link href="/realizing-new-technologies/vertical-tower" className="plaza-card">
-          <div className="plaza-title">Vertical-Tower</div>
-          <div className="plaza-desc">— Autonomous vertical infrastructure</div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
-
-        <Link href="/realizing-new-technologies/mobility" className="plaza-card">
-          <div className="plaza-title">Mobility</div>
-          <div className="plaza-desc">— Post-road transportation systems</div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
-
-        <Link href="/realizing-new-technologies/physical-ai" className="plaza-card">
-          <div className="plaza-title">Physical AI</div>
-          <div className="plaza-desc">— AI acting through physical systems</div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
-
-        <Link href="/realizing-new-technologies/civilization-city" className="plaza-card">
-          <div className="plaza-title">Civilization-City</div>
-          <div className="plaza-desc">— Cities as adaptive civilization systems</div>
+          <div className="plaza-title">
+            Realizing New Technologies
+          </div>
+          <div className="plaza-desc">
+            — House, Tower, Mobility, Physical AI, and Civilization-City
+          </div>
           <div className="plaza-hint">Open →</div>
         </Link>
       </div>
 
-      <div className="rnt-mobile-icons">
-        <Link href="/realizing-new-technologies/house" className="rnt-icon-link">
-          <span>⌂</span><small>House</small>
+      <div className="str-mobile-icons">
+        <Link href="/observatory" className="str-icon-link">
+          <span>✦</span>
+          <small>Explore</small>
         </Link>
-        <Link href="/realizing-new-technologies/vertical-tower" className="rnt-icon-link">
-          <span>❖</span><small>Tower</small>
+
+        <Link href="/commercialization" className="str-icon-link">
+          <span>◌</span>
+          <small>Social</small>
         </Link>
-        <Link href="/realizing-new-technologies/mobility" className="rnt-icon-link">
-          <span>⥤</span><small>Mobility</small>
+
+        <Link href="/implementations" className="str-icon-link">
+          <span>⬡</span>
+          <small>Cases</small>
         </Link>
-        <Link href="/realizing-new-technologies/physical-ai" className="rnt-icon-link">
-          <span>☺︎</span><small>AI</small>
-        </Link>
-        <Link href="/realizing-new-technologies/civilization-city" className="rnt-icon-link">
-          <span>✵</span><small>City</small>
+
+        <Link href="/realizing-new-technologies/house" className="str-icon-link">
+          <span>⌂</span>
+          <small>Future</small>
         </Link>
       </div>
     </div>

@@ -10134,3 +10134,57 @@ html, body {
     text-transform: uppercase;
   }
 }
+/* Scientific & Technological Realization */
+.str-card-grid {
+  display: grid;
+  gap: 20px;
+  margin-top: 48px;
+}
+
+.str-mobile-icons {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #home-scientific-technological-realization .str-card-grid {
+    display: none !important;
+  }
+
+  .str-mobile-icons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 34px;
+  }
+
+  .str-icon-link {
+    width: 64px;
+    text-decoration: none;
+    color: rgba(245,245,245,0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .str-icon-link span {
+    width: 46px;
+    height: 46px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.24);
+    border: 1px solid rgba(255,255,255,0.14);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-size: 1.15rem;
+  }
+
+  .str-icon-link small {
+    font-size: 0.54rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
