@@ -2,33 +2,28 @@ import Link from "next/link";
 
 const modules = [
   {
-    title: "Research",
-    href: "/arche-nova-research",
-    text: "The research layer that interprets scientific and technological signals through the ArcheNova framework.",
-  },
-  {
     title: "Reports",
     href: "/arche-nova-research",
-    text: "Auto-generated ArcheNova Analyst reports with signal analysis, roadmaps, horizons, and scores.",
+    text: "Auto-generated ArcheNova Analyst reports with signal analysis, implementation pathways, roadmaps, horizons, and scores.",
   },
   {
     title: "Signals",
     href: "/arche-nova-research",
-    text: "Daily scientific and technological signals ranked by implementation potential and civilization significance.",
+    text: "Daily scientific and technological signals ranked by implementation potential, infrastructure impact, and civilization significance.",
   },
   {
     title: "Watchlist",
-    href: "#",
-    text: "Technologies and signals that require continuous monitoring as future implementation pathways emerge.",
+    href: "/arche-nova-research",
+    text: "Signals that require continuous monitoring as future implementation pathways, risks, and opportunities emerge.",
   },
   {
     title: "Risks",
-    href: "#",
+    href: "/arche-nova-research",
     text: "Implementation, infrastructure, governance, and civilization-level risks associated with emerging technologies.",
   },
   {
     title: "Roadmaps",
-    href: "#",
+    href: "/arche-nova-research",
     text: "Technology pathways from discovery to application, infrastructure formation, and civilization capability.",
   },
 ];

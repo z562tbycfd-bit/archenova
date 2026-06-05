@@ -84,7 +84,7 @@ export default function Home() {
 </section>
 
       {/* =========================
-    PAGE 05 : ARCHENOVA VENTURES
+    PAGE : ARCHENOVA CIVILIZATION ARCHITECTURE
    ========================= */}
 <section
   id="home-archenova-ventures"
@@ -93,57 +93,73 @@ export default function Home() {
 >
   <Reveal>
     <div className="home-section home-section-center">
-      <span className="home-section-label">ARCHENOVA VENTURES</span>
+      <span className="home-section-label">
+        ARCHENOVA CIVILIZATION ARCHITECTURE
+      </span>
 
       <p className="home-section-purpose">
-        Transforming scientific signals into research, institutions,
-        investment theses, and civilization-scale business architectures.
+        The organizational architecture through which scientific discovery
+        becomes intelligence, institutions, capital formation, and
+        civilization-scale capability.
       </p>
+
       <div className="social-implementation-grid">
-
-        <Link href="#" className="plaza-card">
-          <div className="plaza-title">ArcheNova Institute</div>
+        <Link href="/arche-nova-research" className="plaza-card">
+          <div className="plaza-title">ArcheNova Research</div>
           <div className="plaza-desc">
-            — A civilizational research platform for irreversibility,
-            future systems, governance, and infrastructure design
-          </div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
-
-        <Link href="#" className="plaza-card">
-          <div className="plaza-title">ArcheNova Capital</div>
-          <div className="plaza-desc">
-            — Future-oriented capital formation for science-based
-            infrastructure, Physical AI, energy, space, and deep technology
+            — Scientific and technological signal analysis, reports, roadmaps,
+            horizons, and civilization-scale assessment
           </div>
           <div className="plaza-hint">Open →</div>
         </Link>
 
         <Link href="/intelligence-platform" className="plaza-card">
-  <div className="plaza-title">ArcheNova Intelligence Platform</div>
-  <div className="plaza-desc">
-    — Integrated intelligence for signals, reports, watchlists, risks,
-    roadmaps, and civilization-scale technology strategy
-  </div>
-  <div className="plaza-hint">Open →</div>
-</Link>
+          <div className="plaza-title">ArcheNova Intelligence Platform</div>
+          <div className="plaza-desc">
+            — Signals, reports, watchlists, risks, roadmaps, and strategic
+            intelligence
+          </div>
+          <div className="plaza-hint">Open →</div>
+        </Link>
+
+        <Link href="/institute" className="plaza-card">
+          <div className="plaza-title">ArcheNova Institute</div>
+          <div className="plaza-desc">
+            — Civilization studies, publications, papers, and research programs
+          </div>
+          <div className="plaza-hint">Open →</div>
+        </Link>
+
+        <Link href="/capital" className="plaza-card">
+          <div className="plaza-title">ArcheNova Capital</div>
+          <div className="plaza-desc">
+            — Capital formation for future infrastructure, Physical AI, energy,
+            space, and deep technology
+          </div>
+          <div className="plaza-hint">Open →</div>
+        </Link>
       </div>
 
       <div className="anv-mobile-icons">
-        <Link href="#" className="anv-icon-link">
+        <Link href="/arche-nova-research" className="anv-icon-link">
           <span>♖</span>
-          <small>Institute</small>
-        </Link>
-
-        <Link href="#" className="anv-icon-link">
-          <span>♔</span>
-          <small>Capital</small>
+          <small>Research</small>
         </Link>
 
         <Link href="/intelligence-platform" className="anv-icon-link">
-         <span>♘</span>
-         <small>Intel</small>
-         </Link>
+          <span>♕</span>
+          <small>Intel</small>
+        </Link>
+
+        <Link href="/institute" className="anv-icon-link">
+          <span>♔</span>
+          <small>Institute</small>
+        </Link>
+
+        <Link href="/capital" className="anv-icon-link">
+          <span>♘</span>
+          <small>Capital</small>
+        </Link>
       </div>
     </div>
   </Reveal>
