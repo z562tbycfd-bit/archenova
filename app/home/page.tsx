@@ -188,12 +188,12 @@ export default function Home() {
 
       <div className="dashboard-mobile-icons">
         <Link href="/arche-nova-research" className="dashboard-icon-link">
-          <span>▲</span>
+          <span>↗︎</span>
           <small>Top</small>
         </Link>
 
         <Link href="/arche-nova-research" className="dashboard-icon-link">
-          <span>◎</span>
+          <span>☆</span>
           <small>Reports</small>
         </Link>
       </div>
