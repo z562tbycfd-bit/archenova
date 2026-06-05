@@ -1,5 +1,43 @@
 export const generatedResearchReports = [
   {
+    "slug": "general-fighting-fire-with-fire",
+    "title": "Fighting Fire With Fire",
+    "category": "General",
+    "source": "NASA",
+    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/fighting-fire-with-fire/",
+    "summary": "In fire-prone ecosystems in Australia’s Northern Territory, prescribed burns are lit to minimize the severity of fires later in the season.",
+    "scientificSignal": "In fire-prone ecosystems in Australia’s Northern Territory, prescribed burns are lit to minimize the severity of fires later in the season.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1780632060000
+  },
+  {
     "slug": "ai-nasa-hosts-2026-review-on-advanced-composite-manufacturing",
     "title": "NASA Hosts 2026 Review on Advanced Composite Manufacturing",
     "category": "AI",
@@ -1071,44 +1109,6 @@ export const generatedResearchReports = [
     "originalUrl": "https://www.science.org/doi/abs/10.1126/science.aef3173?af=R",
     "summary": "Science, Volume 392, Issue 6802, Page 1028-1028, June 2026.",
     "scientificSignal": "Science, Volume 392, Issue 6802, Page 1028-1028, June 2026.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1780552814000
-  },
-  {
-    "slug": "general-a-provocative-view-of-evolution-turns-50",
-    "title": "A provocative view of evolution turns 50",
-    "category": "General",
-    "source": "Science",
-    "originalUrl": "https://www.science.org/doi/abs/10.1126/science.aeg1982?af=R",
-    "summary": "Science, Volume 392, Issue 6802, Page 1027-1027, June 2026.",
-    "scientificSignal": "Science, Volume 392, Issue 6802, Page 1027-1027, June 2026.",
     "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
     "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",

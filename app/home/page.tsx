@@ -168,6 +168,21 @@ export default function Home() {
           </div>
           <div className="plaza-hint">Open →</div>
         </Link>
+
+        <Link href="/intelligence-platform" className="plaza-card">
+  <div className="plaza-title">ArcheNova Intelligence Platform</div>
+  <div className="plaza-desc">
+    — Integrated intelligence for signals, reports, watchlists, risks,
+    roadmaps, and civilization-scale technology strategy
+  </div>
+  <div className="plaza-hint">Open →</div>
+</Link>
+
+
+<Link href="/intelligence-platform" className="anv-icon-link">
+  <span>✦</span>
+  <small>Intel</small>
+</Link>
       </div>
 
       <div className="anv-mobile-icons">

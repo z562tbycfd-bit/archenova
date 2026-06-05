@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-05T03:31:25.042Z",
+  "updated": "2026-06-05T04:25:21.518Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Fighting Fire With Fire",
+      "url": "https://science.nasa.gov/earth/earth-observatory/fighting-fire-with-fire/",
+      "summary": "In fire-prone ecosystems in Australia’s Northern Territory, prescribed burns are lit to minimize the severity of fires later in the season.",
+      "ts": 1780632060000,
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "NASA Hosts 2026 Review on Advanced Composite Manufacturing",
@@ -209,14 +217,6 @@
       "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
       "ts": 1780492500000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Says Farewell to MAVEN Mars Mission, Hosts Media Call Today",
-      "url": "https://www.nasa.gov/news-release/nasa-says-farewell-to-maven-mars-mission-hosts-media-call-today/",
-      "summary": "The first mission devoted to observing the Martian atmosphere and its evolution, NASA’s MAVEN (Mars Atmosphere and Volatile Evolution), has ended after more than 11 years in orbit at Mars and a decade beyond its primary,…",
-      "ts": 1780492325000,
-      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
