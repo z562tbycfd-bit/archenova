@@ -10202,3 +10202,85 @@ html, body {
   }
 
 }
+/* ==========================================
+   Mobile Observation Compact Cards
+   ========================================== */
+
+@media (max-width: 768px) {
+  #home-observation .home-section {
+    padding-top: 24px;
+  }
+
+  #home-observation .home-section-purpose {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    max-width: 86%;
+    margin-inline: auto;
+  }
+
+  #home-observation .home-card {
+    min-height: 168px !important;
+    max-height: 168px !important;
+    padding: 18px 20px !important;
+    overflow: hidden !important;
+  }
+
+  #home-observation .home-card-head {
+    margin-bottom: 10px !important;
+  }
+
+  #home-observation .home-card-title {
+    font-size: 1.05rem !important;
+    letter-spacing: 0.16em;
+    line-height: 1.25;
+  }
+
+  #home-observation .home-card-meta {
+    display: none !important;
+  }
+
+  #home-observation .feed-scroll {
+    max-height: 56px !important;
+    overflow: hidden !important;
+  }
+
+  #home-observation .feed-row {
+    padding: 0 !important;
+    border: 0 !important;
+    pointer-events: none;
+  }
+
+  #home-observation .feed-row:not(:first-child) {
+    display: none !important;
+  }
+
+  #home-observation .feed-source {
+    font-size: 0.64rem !important;
+    letter-spacing: 0.22em;
+    margin-bottom: 6px !important;
+  }
+
+  #home-observation .feed-title {
+    font-size: 0.9rem !important;
+    line-height: 1.32 !important;
+    font-weight: 700;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+  }
+
+  #home-observation .feed-summary {
+    display: none !important;
+  }
+
+  #home-observation .home-card-foot {
+    margin-top: 10px !important;
+  }
+
+  #home-observation .mini-link {
+    font-size: 0.95rem !important;
+  }
+}
