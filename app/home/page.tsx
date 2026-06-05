@@ -177,12 +177,6 @@ export default function Home() {
   </div>
   <div className="plaza-hint">Open →</div>
 </Link>
-
-
-<Link href="/intelligence-platform" className="anv-icon-link">
-  <span>✦</span>
-  <small>Intel</small>
-</Link>
       </div>
 
       <div className="anv-mobile-icons">
@@ -197,9 +191,14 @@ export default function Home() {
         </Link>
 
         <Link href="#" className="anv-icon-link">
-          <span>♘</span>
+          <span>♔</span>
           <small>Capital</small>
         </Link>
+
+        <Link href="/intelligence-platform" className="anv-icon-link">
+  <span>♘</span>
+  <small>Intel</small>
+</Link>
       </div>
     </div>
   </Reveal>
