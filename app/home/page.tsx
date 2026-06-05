@@ -54,6 +54,12 @@ export default function Home() {
     <div className="hero-entry-title">Manifesto / Framework / Domains</div>
     <div className="hero-entry-hint">Open →</div>
   </Link>
+
+  <Link href="/latest-papers" className="hero-entry-card">
+  <div className="hero-entry-label">ARCHENOVA PAPERS</div>
+  <div className="hero-entry-title">Latest ArcheNova Paper</div>
+  <div className="hero-entry-hint">Open →</div>
+</Link>
 </div>
               </Reveal>
 
@@ -70,59 +76,15 @@ export default function Home() {
     <small>Orientation</small>
   </Link>
 </div>
+
+<Link href="/latest-papers" className="hero-entry-icon">
+  <span>◫</span>
+  <small>Papers</small>
+</Link>
 </Reveal>
           </div>
         </div>
       </section>
-
-      {/* =========================
-    PAGE 04 : TODAY'S TOP SIGNAL
-   ========================= */}
-<section
-  id="home-archenova-dashboard"
-  className="home-page"
-  data-home-section
->
-  <Reveal>
-    <div className="home-section home-section-center">
-      <span className="home-section-label">
-        TODAY&apos;S TOP SIGNAL
-      </span>
-
-      <p className="home-section-purpose">
-        The highest-ranked signal selected by ArcheNova Analyst from today&apos;s
-        scientific and technological observation layer.
-      </p>
-
-      {topSignal && (
-        <Link
-          href={`/arche-nova-research/reports/${topSignal.slug}`}
-          className="plaza-card dashboard-top-signal-card"
-        >
-          <div className="feed-source">
-            {topSignal.source} / {topSignal.category}
-          </div>
-
-          <div className="plaza-title">
-            {topSignal.title}
-          </div>
-
-          <div className="plaza-desc">
-            ArcheNova Score: {topSignal.archeNovaAssessment?.overall} / 10
-          </div>
-
-          <div className="plaza-desc">
-            {topSignal.archeNovaAssessment?.classification}
-          </div>
-
-          <div className="plaza-hint">
-            Open Report →
-          </div>
-        </Link>
-      )}
-    </div>
-  </Reveal>
-</section>
 
       {/* =========================
     PAGE 05 : ARCHENOVA VENTURES
@@ -352,6 +314,56 @@ export default function Home() {
     </div>
   </Reveal>
 </section>
+
+{/* =========================
+    PAGE 04 : TODAY'S TOP SIGNAL
+   ========================= */}
+<section
+  id="home-archenova-dashboard"
+  className="home-page"
+  data-home-section
+>
+  <Reveal>
+    <div className="home-section home-section-center">
+      <span className="home-section-label">
+        TODAY&apos;S TOP SIGNAL
+      </span>
+
+      <p className="home-section-purpose">
+        The highest-ranked signal selected by ArcheNova Analyst from today&apos;s
+        scientific and technological observation layer.
+      </p>
+
+      {topSignal && (
+        <Link
+          href={`/arche-nova-research/reports/${topSignal.slug}`}
+          className="plaza-card dashboard-top-signal-card"
+        >
+          <div className="feed-source">
+            {topSignal.source} / {topSignal.category}
+          </div>
+
+          <div className="plaza-title">
+            {topSignal.title}
+          </div>
+
+          <div className="plaza-desc">
+            ArcheNova Score: {topSignal.archeNovaAssessment?.overall} / 10
+          </div>
+
+          <div className="plaza-desc">
+            {topSignal.archeNovaAssessment?.classification}
+          </div>
+
+          <div className="plaza-hint">
+            Open Report →
+          </div>
+        </Link>
+      )}
+    </div>
+  </Reveal>
+</section>
+
 
       {/* =========================
           PAGE 10 : OBSERVATION (Science / Tech)
