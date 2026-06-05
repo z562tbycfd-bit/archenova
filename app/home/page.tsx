@@ -150,25 +150,6 @@ export default function Home() {
 </section>
 
 {/* =========================
-          PAGE 11 : LIVE SIGNAL (X)
-         ========================= */}
-      <section id="home-live" data-home-section className="home-page">
-        <Reveal>
-          <div className="home-divider">
-            <div className="home-divider-line" />
-            <div className="home-divider-label">
-              <span className="home-divider-eyebrow">ArcheNova Papers</span>
-<span className="home-divider-title">Latest ArcheNova Paper</span>
-            </div>
-          </div>
-        </Reveal>
-
-        <Reveal delay={120}>
-         <LatestPaper />
-        </Reveal>
-      </section>
-
-{/* =========================
     PAGE 04 : TODAY'S TOP SIGNAL
    ========================= */}
 <section
