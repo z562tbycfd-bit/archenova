@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-05T15:14:20.300Z",
+  "updated": "2026-06-05T22:20:58.932Z",
   "items": [
+    {
+      "source": "Nature",
+      "title": "Briefing chat: Spinosaurs with salt glands could have lived in marine environments",
+      "url": "https://www.nature.com/articles/d41586-026-01831-y",
+      "summary": "",
+      "ts": 1780617600000
+    },
     {
       "source": "Nature",
       "title": "Europe is ditching US tech — what does this mean for researchers?",
@@ -11,7 +18,7 @@
     },
     {
       "source": "Nature",
-      "title": "See a helicopter destined for Mars and a spectacular flowery frame for the Milky Way — May's best science images",
+      "title": "See a helicopter destined for Mars and a spectacular flowery frame for the Milky Way — May’s best science images",
       "url": "https://www.nature.com/articles/d41586-026-01609-2",
       "summary": "",
       "ts": 1780617600000
@@ -179,13 +186,6 @@
     },
     {
       "source": "Science",
-      "title": "Spontaneous problem-solving in bumble bees",
-      "url": "https://www.science.org/doi/abs/10.1126/science.ady1618?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1046-1049, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
       "title": "Unexpected expansion and regrowth in Earth’s mangrove forests over the past four decades",
       "url": "https://www.science.org/doi/abs/10.1126/science.aec9773?af=R",
       "summary": "Science, Volume 392, Issue 6802, Page 1082-1087, June 2026.",
@@ -214,9 +214,9 @@
     },
     {
       "source": "Science",
-      "title": "In Other Journals",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aej3527?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1037-1038, June 2026.",
+      "title": "Spontaneous problem-solving in bumble bees",
+      "url": "https://www.science.org/doi/abs/10.1126/science.ady1618?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1046-1049, June 2026.",
       "ts": 1780552814000
     },
     {
@@ -224,6 +224,13 @@
       "title": "Believing I belong",
       "url": "https://www.science.org/doi/abs/10.1126/science.aej3528?af=R",
       "summary": "Science, Volume 392, Issue 6802, Page 1094-1094, June 2026.",
+      "ts": 1780552814000
+    },
+    {
+      "source": "Science",
+      "title": "In Other Journals",
+      "url": "https://www.science.org/doi/abs/10.1126/science.aej3527?af=R",
+      "summary": "Science, Volume 392, Issue 6802, Page 1037-1038, June 2026.",
       "ts": 1780552814000
     },
     {
@@ -273,13 +280,6 @@
       "title": "Effects of China’s underground infrastructure",
       "url": "https://www.science.org/doi/abs/10.1126/science.aeh4973?af=R",
       "summary": "Science, Volume 392, Issue 6802, Page 1029-1030, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Proposed orbital ‘airbag’ would block solar storms",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aej3858?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1004-1005, June 2026.",
       "ts": 1780552814000
     }
   ],
