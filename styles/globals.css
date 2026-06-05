@@ -10345,3 +10345,27 @@ html, body {
     width: 70px;
   }
 }
+/* ==========================================
+   ArcheNova Civilization Architecture
+   ========================================== */
+
+#home-archenova-ventures .social-implementation-grid {
+  display: grid;
+}
+
+#home-archenova-ventures .anv-mobile-icons {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #home-archenova-ventures .social-implementation-grid {
+    display: none !important;
+  }
+
+  #home-archenova-ventures .anv-mobile-icons {
+    display: flex !important;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 36px;
+  }
+}
