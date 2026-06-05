@@ -692,6 +692,22 @@ const topSignals = [...reports]
   )
   .slice(0, 5);
 
+  const watchlistWithTrend = watchlist.map((report, index) => {
+  const score = report.archeNovaAssessment?.overall || 0;
+
+  let trend = "Stable";
+
+  if (index <= 1) trend = "Rising";
+  if (score >= 9.5) trend = "High Priority";
+  if (index === 0) trend = "Top Signal";
+
+  return {
+    ...report,
+    trend,
+    rank: index + 1,
+  };
+});
+
   const content =
 `export const generatedResearchReports =
 ${JSON.stringify(reports, null, 2)};
@@ -700,7 +716,7 @@ export const archeNovaTopSignals =
 ${JSON.stringify(topSignals, null, 2)};
 
 export const archeNovaWatchlist =
-${JSON.stringify(watchlist, null, 2)};
+${JSON.stringify(watchlistWithTrend, null, 2)};
 
 export function getGeneratedResearchReport(slug: string) {
   return generatedResearchReports.find((report) => report.slug === slug);

@@ -1374,7 +1374,9 @@ export const archeNovaWatchlist =
       "overall": 9.8,
       "classification": "Civilization Energy Signal"
     },
-    "ts": 1780575000000
+    "ts": 1780575000000,
+    "trend": "Top Signal",
+    "rank": 1
   },
   {
     "slug": "ai-nasa-hosts-2026-review-on-advanced-composite-manufacturing",
@@ -1412,7 +1414,9 @@ export const archeNovaWatchlist =
       "overall": 9.4,
       "classification": "Industrial Capability Signal"
     },
-    "ts": 1780605384000
+    "ts": 1780605384000,
+    "trend": "Rising",
+    "rank": 2
   },
   {
     "slug": "space-colorful-chaotic-jupiter",
@@ -1450,7 +1454,9 @@ export const archeNovaWatchlist =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
-    "ts": 1780588683000
+    "ts": 1780588683000,
+    "trend": "Stable",
+    "rank": 3
   },
   {
     "slug": "ai-nasa-funded-study-shows-wildfire-smoke-s-hidden-ozone-toll",
@@ -1488,7 +1494,9 @@ export const archeNovaWatchlist =
       "overall": 8.9,
       "classification": "Biological Resilience Signal"
     },
-    "ts": 1780596119000
+    "ts": 1780596119000,
+    "trend": "Stable",
+    "rank": 4
   },
   {
     "slug": "ai-seoul-purpose-how-nvidia-and-south-korea-are-building-the-future-of-ai",
@@ -1526,7 +1534,9 @@ export const archeNovaWatchlist =
       "overall": 8.8,
       "classification": "Industrial Capability Signal"
     },
-    "ts": 1780637917000
+    "ts": 1780637917000,
+    "trend": "Stable",
+    "rank": 5
   }
 ];
 

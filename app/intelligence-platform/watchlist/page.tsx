@@ -36,6 +36,18 @@ export default function WatchlistPage() {
               </p>
 
               <p>
+  ArcheNova Score: {item.archeNovaAssessment?.overall} / 10
+</p>
+
+<p>
+  Trend: {item.trend}
+</p>
+
+<p>
+  Rank: #{item.rank}
+</p>
+
+              <p>
                 {item.archeNovaAssessment?.classification}
               </p>
 
