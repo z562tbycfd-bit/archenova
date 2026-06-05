@@ -50,6 +50,20 @@ export default function ResearchReportPage({
       </section>
 
       <section className="glass-block">
+  <h2>Technology Roadmap</h2>
+  <div className="research-roadmap">
+    {report.technologyRoadmap?.map((step, index) => (
+      <div key={step} className="research-roadmap-step">
+        <div className="research-roadmap-index">
+          {String(index + 1).padStart(2, "0")}
+        </div>
+        <div className="research-roadmap-node">{step}</div>
+      </div>
+    ))}
+  </div>
+</section>
+
+      <section className="glass-block">
         <h2>Civilization Impact</h2>
         <p>{report.civilizationImpact}</p>
       </section>

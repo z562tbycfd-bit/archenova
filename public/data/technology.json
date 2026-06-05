@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-04T23:09:13.088Z",
+  "updated": "2026-06-05T00:07:37.677Z",
   "items": [
     {
       "source": "NASA",
@@ -244,17 +244,17 @@
     },
     {
       "source": "OpenAI",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "title": "OpenAI public policy agenda",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
       "ts": 1780480800000,
       "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
       "ts": 1780480800000,
       "categoryId": "ai-compute"
     },
