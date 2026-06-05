@@ -10284,3 +10284,50 @@ html, body {
     font-size: 0.95rem !important;
   }
 }
+/* ==========================================
+   Clean HERO layout
+   ========================================== */
+
+#home-hero.hero-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home-hero .hero-content-clean {
+  width: min(980px, 92%);
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+#home-hero .hero-entry-grid {
+  margin-top: 42px;
+}
+
+@media (max-width: 768px) {
+  #home-hero.hero-page {
+    align-items: center;
+  }
+
+  #home-hero .hero-content-clean {
+    width: 88%;
+  }
+
+  #home-hero .hero-title {
+    font-size: clamp(3rem, 14vw, 4.8rem);
+    line-height: 1;
+  }
+
+  #home-hero .hero-statement {
+    margin-top: 36px;
+  }
+
+  #home-hero .hero-definition {
+    margin-top: 52px;
+  }
+
+  #home-hero .hero-entry-icons {
+    margin-top: 40px;
+  }
+}

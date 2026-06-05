@@ -20,60 +20,57 @@ export default function Home() {
       <HomeSectionPager />
 
       {/* =========================
-          PAGE 01 : HERO
-         ========================= */}
-      <section id="home-hero" data-home-section className="home-page">
-  <div className="hero hero-scroll">
+    PAGE 01 : HERO
+   ========================= */}
+<section id="home-hero" data-home-section className="home-page hero-page">
+  <div className="hero-content hero-content-clean">
+    <Reveal>
+      <h1 className="hero-title">ArcheNova</h1>
 
-  <div className="hero-content">
-            <Reveal>
-              <h1 className="hero-title">ArcheNova</h1>
-              <p className="hero-statement">
-                Designing irreversible initial conditions for civilization.
-              </p>
-            </Reveal>
+      <p className="hero-statement">
+        Designing irreversible initial conditions for civilization.
+      </p>
+    </Reveal>
 
-            <Reveal delay={80}>
-              <p className="hero-definition">
-                ArcheNova is a civilization design initiative focused on irreversible
-                initial conditions, structural constraints, and the architectures
-                that shape long-term futures.
-              </p>
-            </Reveal>
-              <Reveal delay={160}>
-<div className="hero-entry-grid">
-  <Link href="/equation" className="hero-entry-card">
-    <div className="hero-entry-label">ARCHENOVA EQUATION</div>
-    <div className="hero-entry-title">Gμν = 8πG Tμν</div>
-    <div className="hero-entry-hint">Open →</div>
-  </Link>
+    <Reveal delay={80}>
+      <p className="hero-definition">
+        ArcheNova is a civilization design initiative focused on irreversible
+        initial conditions, structural constraints, and the architectures that
+        shape long-term futures.
+      </p>
+    </Reveal>
 
-  <Link
-  href="/orientation"className="hero-entry-card">
-    <div className="hero-entry-label">ORIENTATION</div>
-    <div className="hero-entry-title">Manifesto / Framework / Domains</div>
-    <div className="hero-entry-hint">Open →</div>
-  </Link>
-</div>
-              </Reveal>
+    <Reveal delay={160}>
+      <div className="hero-entry-grid">
+        <Link href="/equation" className="hero-entry-card">
+          <div className="hero-entry-label">ARCHENOVA EQUATION</div>
+          <div className="hero-entry-title">Gμν = 8πG Tμν</div>
+          <div className="hero-entry-hint">Open →</div>
+        </Link>
 
-<Reveal delay={160}>
-<div className="hero-entry-icons">
-  <Link href="/equation" className="hero-entry-icon">
-    <span>𝛴</span>
-    <small>Equation</small>
-  </Link>
-
-  <Link
-  href="/orientation"className="hero-entry-icon">
-    <span>▲</span>
-    <small>Orientation</small>
-  </Link>
-</div>
-</Reveal>
+        <Link href="/orientation" className="hero-entry-card">
+          <div className="hero-entry-label">ORIENTATION</div>
+          <div className="hero-entry-title">
+            Manifesto / Framework / Domains
           </div>
-        </div>
-      </section>
+          <div className="hero-entry-hint">Open →</div>
+        </Link>
+      </div>
+
+      <div className="hero-entry-icons">
+        <Link href="/equation" className="hero-entry-icon">
+          <span>Σ</span>
+          <small>Equation</small>
+        </Link>
+
+        <Link href="/orientation" className="hero-entry-icon">
+          <span>▲</span>
+          <small>Orientation</small>
+        </Link>
+      </div>
+    </Reveal>
+  </div>
+</section>
 
       {/* =========================
     PAGE 05 : ARCHENOVA VENTURES
