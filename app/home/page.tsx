@@ -315,7 +315,8 @@ export default function Home() {
           <div className="plaza-hint">Open →</div>
         </Link>
 
-        <Link href="/realizing-new-technologies/house" className="plaza-card">
+        <Link
+  href="/realizing-new-technologies"className="plaza-card">
           <div className="plaza-title">
             Realizing New Technologies
           </div>
@@ -333,7 +334,7 @@ export default function Home() {
         </Link>
 
         <Link href="/commercialization" className="str-icon-link">
-          <span>◌</span>
+          <span>⁂</span>
           <small>Social</small>
         </Link>
 
@@ -342,8 +343,9 @@ export default function Home() {
           <small>Cases</small>
         </Link>
 
-        <Link href="/realizing-new-technologies/house" className="str-icon-link">
-          <span>⌂</span>
+        <Link
+  href="/realizing-new-technologies"className="str-icon-link">
+          <span>∞</span>
           <small>Future</small>
         </Link>
       </div>
