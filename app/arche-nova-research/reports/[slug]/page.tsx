@@ -90,6 +90,26 @@ export default function ResearchReportPage({
   </div>
 </section>
 
+<section className="glass-block">
+  <h2>Quantitative Assessment</h2>
+
+  <div className="research-domain-grid">
+
+    <div className="research-domain-chip">
+      Probability: {report.assessment?.probability}
+    </div>
+
+    <div className="research-domain-chip">
+      Impact: {report.assessment?.impact}
+    </div>
+
+    <div className="research-domain-chip">
+      Time Horizon: {report.assessment?.timeHorizon}
+    </div>
+
+  </div>
+</section>
+
       <section className="glass-block">
         <h2>Civilization Impact</h2>
         <p>{report.civilizationImpact}</p>

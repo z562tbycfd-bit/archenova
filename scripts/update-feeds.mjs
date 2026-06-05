@@ -481,6 +481,56 @@ function makeStrategicHorizon(item, category) {
   return horizons[useCase] || horizons.general;
 }
 
+function makeAssessment(item, category) {
+  const useCase = detectUseCase(item);
+
+  const assessments = {
+    manufacturing: {
+      probability: "High",
+      impact: "High",
+      timeHorizon: "5–15 Years",
+    },
+
+    healthcare: {
+      probability: "Medium",
+      impact: "Very High",
+      timeHorizon: "10–20 Years",
+    },
+
+    energy: {
+      probability: "Medium",
+      impact: "Very High",
+      timeHorizon: "10–30 Years",
+    },
+
+    space: {
+      probability: "Medium",
+      impact: "High",
+      timeHorizon: "15–30 Years",
+    },
+
+    compute: {
+      probability: "High",
+      impact: "Very High",
+      timeHorizon: "3–10 Years",
+    },
+
+    environment: {
+      probability: "High",
+      impact: "High",
+      timeHorizon: "5–20 Years",
+    },
+
+    general: {
+      probability: "Medium",
+      impact: "Medium",
+      timeHorizon: "5–15 Years",
+    },
+  };
+
+  return assessments[useCase] || assessments.general;
+}
+
 function makeReport(item) {
   const category = classify(item);
 
@@ -497,6 +547,7 @@ function makeReport(item) {
     civilizationImpact: analyzeCivilization(item, category),
     technologyRoadmap: makeRoadmap(item, category),
 strategicHorizon: makeStrategicHorizon(item, category),
+assessment: makeAssessment(item, category),
 ts: item.ts || 0,
   };
 }
