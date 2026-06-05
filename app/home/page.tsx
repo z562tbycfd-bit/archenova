@@ -40,6 +40,34 @@ export default function Home() {
                 that shape long-term futures.
               </p>
             </Reveal>
+              <Reveal delay={160}>
+<div className="hero-entry-grid">
+  <Link href="/arche-equation" className="hero-entry-card">
+    <div className="hero-entry-label">ARCHENOVA EQUATION</div>
+    <div className="hero-entry-title">Gμν = 8πG Tμν</div>
+    <div className="hero-entry-hint">Open →</div>
+  </Link>
+
+  <Link href="/orientation" className="hero-entry-card">
+    <div className="hero-entry-label">ORIENTATION</div>
+    <div className="hero-entry-title">Manifesto / Framework / Domains</div>
+    <div className="hero-entry-hint">Open →</div>
+  </Link>
+</div>
+              </Reveal>
+
+<div className="hero-entry-icons">
+  <Link href="/arche-equation" className="hero-entry-icon">
+    <span>𝛴</span>
+    <small>Equation</small>
+  </Link>
+
+  <Link href="/orientation" className="hero-entry-icon">
+    <span>◈</span>
+    <small>Orientation</small>
+  </Link>
+</div>
+
           </div>
         </div>
       </section>
