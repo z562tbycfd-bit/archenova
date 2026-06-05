@@ -196,9 +196,9 @@ export default function Home() {
         </Link>
 
         <Link href="/intelligence-platform" className="anv-icon-link">
-  <span>♘</span>
-  <small>Intel</small>
-</Link>
+         <span>♘</span>
+         <small>Intel</small>
+         </Link>
       </div>
     </div>
   </Reveal>
