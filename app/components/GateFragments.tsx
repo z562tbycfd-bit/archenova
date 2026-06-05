@@ -1,57 +1,62 @@
 // app/components/GateFragments.tsx
 "use client";
 
-import { useEffect, useState } from "react";
+import Link from "next/link";
 
-type Item = {
-  id: string;
-  text: string;
-  createdAt: string;
-};
+const crossings = [
+  {
+    category: "Science",
+    text: "Quantum error correction is becoming engineering.",
+    author: "Observer #472",
+    likes: 12,
+    reposts: 3,
+    replies: 5,
+  },
+  {
+    category: "Technology",
+    text: "Physical AI is entering deployment phase.",
+    author: "Builder #118",
+    likes: 24,
+    reposts: 8,
+    replies: 9,
+  },
+  {
+    category: "Civilization",
+    text: "Fusion increases strategic autonomy.",
+    author: "Architect #221",
+    likes: 41,
+    reposts: 12,
+    replies: 18,
+  },
+];
 
-export default function GateFragments({ limit = 5 }: { limit?: number }) {
-  const [items, setItems] = useState<Item[] | null>(null);
-
-  useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      try {
-        const res = await fetch(`/api/gate?limit=${limit}`, { cache: "no-store" });
-        if (!res.ok) throw new Error("bad");
-        const data = await res.json();
-        if (!cancelled) setItems(data.items ?? []);
-      } catch {
-        if (!cancelled) setItems([]);
-      }
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, [limit]);
-
+export default function GateFragments() {
   return (
     <section className="gate-fragments">
-      <div className="x-head">
-        <a className="x-more" href="/gate">
-          Enter Gate →
-        </a>
-      </div>
+      <div className="x-card crossings-card">
+        <div className="crossings-title">Today&apos;s Crossings</div>
 
-      <div className="x-card">
-        {items === null ? (
-          <p className="x-text">Loading fragments…</p>
-        ) : items.length === 0 ? (
-          <p className="x-text">No fragments yet. Be the first to cross.</p>
-        ) : (
-          <ul className="frag-list">
-            {items.map((it) => (
-              <li key={it.id} className="frag-item">
-                <span className="frag-dot" aria-hidden="true" />
-                <span className="frag-text">{it.text}</span>
-              </li>
-            ))}
-          </ul>
-        )}
+        <div className="crossings-feed">
+          {crossings.map((item) => (
+            <article key={item.text} className="crossing-post">
+              <div className="crossing-category">[{item.category}]</div>
+
+              <p className="crossing-text">{item.text}</p>
+
+              <div className="crossing-author">{item.author}</div>
+
+              <div className="crossing-stats">
+                ♥ {item.likes} &nbsp; ↺ {item.reposts} &nbsp; 💬 {item.replies}
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <div className="crossing-gate-wrap">
+          <Link href="/gate" className="crossing-gate-link">
+            Enter Gate →
+          </Link>
+        </div>
       </div>
     </section>
   );

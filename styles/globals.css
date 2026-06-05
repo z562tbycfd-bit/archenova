@@ -10396,3 +10396,84 @@ html, body {
     gap: 18px;
   }
 }
+/* Recent Crossings Community Feed */
+.crossings-card {
+  padding: 28px;
+}
+
+.crossings-title {
+  font-size: 0.78rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.64);
+  margin-bottom: 22px;
+}
+
+.crossings-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.crossing-post {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding-bottom: 20px;
+}
+
+.crossing-category {
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(245,245,245,0.62);
+  margin-bottom: 10px;
+}
+
+.crossing-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0 0 14px;
+  color: rgba(245,245,245,0.9);
+}
+
+.crossing-author {
+  font-size: 0.88rem;
+  color: rgba(245,245,245,0.54);
+  margin-bottom: 9px;
+}
+
+.crossing-stats {
+  font-size: 0.86rem;
+  color: rgba(245,245,245,0.48);
+}
+
+.crossing-gate-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.crossing-gate-link {
+  text-decoration: none;
+  color: rgba(245,245,245,0.82);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 768px) {
+  .crossings-card {
+    padding: 22px;
+  }
+
+  .crossings-title {
+    margin-bottom: 18px;
+  }
+
+  .crossings-feed {
+    gap: 18px;
+  }
+
+  .crossing-text {
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+}
