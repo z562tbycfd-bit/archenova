@@ -1,5 +1,8 @@
 import Link from "next/link";
-import { generatedResearchReports } from "../../lib/generatedResearchReports";
+import {
+  generatedResearchReports,
+  archeNovaTopSignals,
+} from "../../lib/generatedResearchReports";
 
 const domains = [
  "Artificial Intelligence",
@@ -75,6 +78,33 @@ export default function ArcheNovaResearchPage() {
          ))}
        </div>
      </section>
+
+<section className="glass-block">
+  <h2>ArcheNova Top Signals</h2>
+
+  <div className="research-report-grid">
+    {archeNovaTopSignals.map((signal, index) => (
+      <Link
+        key={signal.slug}
+        href={`/arche-nova-research/reports/${signal.slug}`}
+        className="research-report-card"
+      >
+        <div className="feed-source">
+          #{index + 1} / {signal.source} / {signal.category}
+        </div>
+
+        <h3>{signal.title}</h3>
+
+        <p>
+          Overall ArcheNova Score:{" "}
+          {signal.archeNovaAssessment?.overall} / 10
+        </p>
+
+        <div className="plaza-hint">Open Signal →</div>
+      </Link>
+    ))}
+  </div>
+</section>
 
      <section className="glass-block">
        <h2>Latest Reports</h2>

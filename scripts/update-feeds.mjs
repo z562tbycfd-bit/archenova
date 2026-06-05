@@ -671,11 +671,21 @@ ts: item.ts || 0,
 
 function writeGeneratedResearchReports(scienceItems, technologyItems) {
   const reports = [...scienceItems, ...technologyItems]
-    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-    .slice(0, 9)
-    .map(makeReport);
+  .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+  .slice(0, 30)
+  .map(makeReport);
+
+const topSignals = [...reports]
+  .sort(
+    (a, b) =>
+      (b.archeNovaAssessment?.overall || 0) -
+      (a.archeNovaAssessment?.overall || 0)
+  )
+  .slice(0, 5);
 
   const content = `export const generatedResearchReports = ${JSON.stringify(reports, null, 2)};
+
+export const archeNovaTopSignals = ${JSON.stringify(topSignals, null, 2)};
 
 export function getGeneratedResearchReport(slug: string) {
   return generatedResearchReports.find((report) => report.slug === slug);
