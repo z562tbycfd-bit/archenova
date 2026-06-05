@@ -10011,7 +10011,10 @@ html, body {
   color: inherit;
   display: block;
 }
-/* ArcheNova Dashboard */
+/* ==========================================
+   ArcheNova Dashboard
+   ========================================== */
+
 .dashboard-card-grid {
   display: grid;
   gap: 20px;
@@ -10023,6 +10026,7 @@ html, body {
 }
 
 @media (max-width: 768px) {
+
   #home-archenova-dashboard .dashboard-card-grid {
     display: none !important;
   }
@@ -10038,6 +10042,7 @@ html, body {
     width: 72px;
     text-decoration: none;
     color: rgba(245,245,245,0.9);
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10048,13 +10053,17 @@ html, body {
     width: 50px;
     height: 50px;
     border-radius: 999px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     background: rgba(0,0,0,0.24);
     border: 1px solid rgba(255,255,255,0.14);
+
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+
     font-size: 1.25rem;
   }
 
