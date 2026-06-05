@@ -54,12 +54,6 @@ export default function Home() {
     <div className="hero-entry-title">Manifesto / Framework / Domains</div>
     <div className="hero-entry-hint">Open →</div>
   </Link>
-
-  <Link href="/latest-papers" className="hero-entry-card">
-  <div className="hero-entry-label">ARCHENOVA PAPERS</div>
-  <div className="hero-entry-title">Latest ArcheNova Paper</div>
-  <div className="hero-entry-hint">Open →</div>
-</Link>
 </div>
               </Reveal>
 
@@ -76,11 +70,6 @@ export default function Home() {
     <small>Orientation</small>
   </Link>
 </div>
-
-<Link href="/latest-papers" className="hero-entry-icon">
-  <span>◫</span>
-  <small>Papers</small>
-</Link>
 </Reveal>
           </div>
         </div>
