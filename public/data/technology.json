@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-05T02:50:28.669Z",
+  "updated": "2026-06-05T03:13:57.928Z",
   "items": [
     {
       "source": "NASA",
@@ -123,14 +123,6 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "Nature Biotechnology",
-      "title": "Marked for destruction",
-      "url": "https://www.nature.com/articles/s41587-026-03182-5",
-      "summary": "",
-      "ts": 1780531200000,
-      "categoryId": "bio"
-    },
-    {
       "source": "NASA",
       "title": "NASA Finds New Way Earth May Have Received Elements Needed for Life",
       "url": "https://science.nasa.gov/science-research/planetary-science/astrobiology/nasa-finds-new-way-earth-may-have-received-elements-needed-for-life/",
@@ -244,14 +236,6 @@
     },
     {
       "source": "OpenAI",
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "ts": 1780480800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
       "title": "A blueprint for democratic governance of frontier AI",
       "url": "https://openai.com/index/frontier-safety-blueprint",
       "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
@@ -259,20 +243,12 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "Nature Biotechnology",
-      "title": "Programmable control of bacterial operons with a single Cas13 RNA effector",
-      "url": "https://www.nature.com/articles/s41587-026-03159-4",
-      "summary": "",
-      "ts": 1780444800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Single-cell spatial pharmacobiology identifies conserved stromal barriers to therapeutic antibody delivery in human solid tumors",
-      "url": "https://www.nature.com/articles/s41587-026-03152-x",
-      "summary": "",
-      "ts": 1780444800000,
-      "categoryId": "bio"
+      "source": "OpenAI",
+      "title": "OpenAI public policy agenda",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "ts": 1780480800000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "NVIDIA",
@@ -369,14 +345,6 @@
       "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
       "ts": 1780365600000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Programmable, multiplexed and orthogonal gene control in bacteria with attenuated Cas13d systems",
-      "url": "https://www.nature.com/articles/s41587-026-03160-x",
-      "summary": "",
-      "ts": 1780358400000,
-      "categoryId": "bio"
     },
     {
       "source": "IEEE Spectrum",
@@ -480,6 +448,38 @@
       "url": "https://nvidianews.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
       "summary": "NVIDIA today announced that Foxconn and Taiwan’s leading medical centers are deploying NVIDIA-powered special agent workforces to scale the region’s transition to AI‑driven health systems.",
       "ts": 1780289940000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
+      "summary": "NVIDIA today announced a major collection of open source physical AI skills and tools that help developers turn complex robotics, autonomous vehicle (AV), vision AI and industrial digital twin workflows into agent-execut…",
+      "ts": 1780289580000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
+      "summary": "NVIDIA today announced the NVIDIA Isaac™ GR00T Reference Humanoid Robot, the first open humanoid robot reference design built on NVIDIA Jetson Thor™ and the NVIDIA Isaac GR00T open development platform.",
+      "ts": 1780289400000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA DRIVE Hyperion Becomes the Global Platform for a Robotaxi-Ready World",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-drive-hyperion-becomes-the-global-platform-for-a-robotaxi-ready-world",
+      "summary": "NVIDIA today announced a major expansion of the NVIDIA DRIVE Hyperion™ robotaxi-ready platform ecosystem, bringing together leading global automakers, manufacturing and autonomous vehicle (AV) software ecosystem partners…",
+      "ts": 1780289280000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Launches Alpamayo 2 Super Open Reasoning Model for Robotaxis",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-alpamayo-2-super-robotaxis",
+      "summary": "NVIDIA today introduced NVIDIA Alpamayo 2 Super, a 32-billion-parameter reasoning‑based vision language action (VLA) model that extends the NVIDIA Alpamayo family of open AI models, simulation frameworks and physical AI …",
+      "ts": 1780289160000,
       "categoryId": "semiconductor"
     }
   ],

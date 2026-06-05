@@ -531,8 +531,45 @@ function makeAssessment(item, category) {
   return assessments[useCase] || assessments.general;
 }
 
+function scoreBoost(item) {
+  const text = getText(item);
+
+  let boost = 0;
+
+  if (includesAny(text, ["breakthrough", "first", "novel", "new", "advanced"])) {
+    boost += 0.3;
+  }
+
+  if (includesAny(text, ["scalable", "scale", "manufacturing", "deployment", "platform"])) {
+    boost += 0.4;
+  }
+
+  if (includesAny(text, ["infrastructure", "grid", "satellite", "factory", "hospital", "data center"])) {
+    boost += 0.4;
+  }
+
+  if (includesAny(text, ["energy", "fusion", "battery", "hydrogen", "power"])) {
+    boost += 0.3;
+  }
+
+  if (includesAny(text, ["space", "orbital", "nasa", "satellite", "launch"])) {
+    boost += 0.3;
+  }
+
+  if (includesAny(text, ["risk", "challenge", "uncertain", "early", "prototype"])) {
+    boost -= 0.2;
+  }
+
+  return boost;
+}
+
+function clampScore(score) {
+  return Math.max(1, Math.min(10, Number(score.toFixed(1))));
+}
+
 function makeArcheNovaAssessment(item, category) {
   const useCase = detectUseCase(item);
+  const boost = scoreBoost(item);
 
   const scores = {
     manufacturing: {
@@ -588,17 +625,25 @@ function makeArcheNovaAssessment(item, category) {
 
   const selected = scores[useCase] || scores.general;
 
-  const overall =
-    (
-      selected.scientific * 0.25 +
-      selected.engineering * 0.25 +
-      selected.economic * 0.20 +
-      selected.civilization * 0.30
-    ).toFixed(1);
+  const scientific = clampScore(selected.scientific + boost);
+  const engineering = clampScore(selected.engineering + boost);
+  const economic = clampScore(selected.economic + boost);
+  const civilization = clampScore(selected.civilization + boost);
+
+  const overall = clampScore(
+    scientific * 0.25 +
+      engineering * 0.25 +
+      economic * 0.2 +
+      civilization * 0.3
+  );
 
   return {
-    ...selected,
-    overall: Number(overall),
+    scientific,
+    engineering,
+    economic,
+    civilization,
+    overall,
+    classification: selected.classification,
   };
 }
 
