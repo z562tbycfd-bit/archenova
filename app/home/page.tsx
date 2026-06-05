@@ -145,22 +145,22 @@ export default function Home() {
       <div className="anv-mobile-icons">
         <Link href="/arche-nova-research" className="anv-icon-link">
           <span>♖</span>
-          <small>Research</small>
+          <small>ANR</small>
         </Link>
 
         <Link href="/intelligence-platform" className="anv-icon-link">
           <span>♕</span>
-          <small>/I-Plat</small>
+          <small>AIP</small>
         </Link>
 
         <Link href="/institute" className="anv-icon-link">
           <span>♔</span>
-          <small>Institute</small>
+          <small>ANI</small>
         </Link>
 
         <Link href="/capital" className="anv-icon-link">
           <span>♘</span>
-          <small>Capital</small>
+          <small>ANC</small>
         </Link>
       </div>
     </div>
