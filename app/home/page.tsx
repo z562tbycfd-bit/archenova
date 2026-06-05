@@ -57,6 +57,7 @@ export default function Home() {
 </div>
               </Reveal>
 
+<Reveal delay={160}>
 <div className="hero-entry-icons">
   <Link href="/equation" className="hero-entry-icon">
     <span>𝛴</span>
@@ -69,7 +70,7 @@ export default function Home() {
     <small>Orientation</small>
   </Link>
 </div>
-
+</Reveal>
           </div>
         </div>
       </section>
