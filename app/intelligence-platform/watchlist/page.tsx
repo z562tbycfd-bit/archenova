@@ -1,51 +1,17 @@
 import Link from "next/link";
-
-const watchlist = [
-  {
-    title: "Physical AI",
-    category: "AI",
-    horizon: "2025-2035",
-    score: 94,
-  },
-  {
-    title: "Fusion Energy",
-    category: "Energy",
-    horizon: "2030-2050",
-    score: 91,
-  },
-  {
-    title: "Orbital Infrastructure",
-    category: "Space",
-    horizon: "2030-2060",
-    score: 89,
-  },
-  {
-    title: "Quantum Computing",
-    category: "Quantum",
-    horizon: "2028-2045",
-    score: 86,
-  },
-  {
-    title: "Longevity Engineering",
-    category: "Bio",
-    horizon: "2025-2045",
-    score: 84,
-  },
-];
+import { archeNovaWatchlist } from "../../../lib/generatedResearchReports";
 
 export default function WatchlistPage() {
   return (
     <main className="page-standard">
       <div className="page-head">
-        <span className="home-section-label">
-          ARCHENOVA WATCHLIST
-        </span>
+        <span className="home-section-label">ARCHENOVA WATCHLIST</span>
 
         <h1>ArcheNova Watchlist</h1>
 
         <p className="page-lead">
-          Technologies and capabilities that may reshape future
-          infrastructure, institutions, and civilization-scale systems.
+          Automatically generated watchlist signals selected from ArcheNova
+          Analyst reports by score, category, and civilization-scale relevance.
         </p>
       </div>
 
@@ -53,34 +19,34 @@ export default function WatchlistPage() {
         <h2>Priority Signals</h2>
 
         <div className="research-report-grid">
-          {watchlist.map((item) => (
-            <div
-              key={item.title}
+          {archeNovaWatchlist.map((item) => (
+            <Link
+              key={item.slug}
+              href={`/arche-nova-research/reports/${item.slug}`}
               className="research-report-card"
             >
+              <div className="feed-source">
+                {item.source} / {item.category}
+              </div>
+
               <h3>{item.title}</h3>
 
               <p>
-                Category: {item.category}
+                ArcheNova Score: {item.archeNovaAssessment?.overall} / 10
               </p>
 
               <p>
-                Time Horizon: {item.horizon}
+                {item.archeNovaAssessment?.classification}
               </p>
 
-              <p>
-                ArcheNova Score: {item.score}
-              </p>
-            </div>
+              <div className="plaza-hint">Open Report →</div>
+            </Link>
           ))}
         </div>
       </section>
 
       <div className="page-foot">
-        <Link
-          href="/intelligence-platform"
-          className="back-link"
-        >
+        <Link href="/intelligence-platform" className="back-link">
           ← Back to Intelligence Platform
         </Link>
       </div>

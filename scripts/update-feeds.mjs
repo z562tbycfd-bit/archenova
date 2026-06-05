@@ -683,9 +683,24 @@ const topSignals = [...reports]
   )
   .slice(0, 5);
 
-  const content = `export const generatedResearchReports = ${JSON.stringify(reports, null, 2)};
+  const watchlist = reports
+  .filter((report) => report.archeNovaAssessment)
+  .sort(
+    (a, b) =>
+      (b.archeNovaAssessment?.overall || 0) -
+      (a.archeNovaAssessment?.overall || 0)
+  )
+  .slice(0, 5);
 
-export const archeNovaTopSignals = ${JSON.stringify(topSignals, null, 2)};
+  const content =
+`export const generatedResearchReports =
+${JSON.stringify(reports, null, 2)};
+
+export const archeNovaTopSignals =
+${JSON.stringify(topSignals, null, 2)};
+
+export const archeNovaWatchlist =
+${JSON.stringify(watchlist, null, 2)};
 
 export function getGeneratedResearchReport(slug: string) {
   return generatedResearchReports.find((report) => report.slug === slug);

@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-06-05T04:25:21.518Z",
+  "updated": "2026-06-05T14:53:42.936Z",
   "items": [
+    {
+      "source": "Quanta Magazine",
+      "title": "Are Memories Transferable — or Edible?",
+      "url": "https://www.quantamagazine.org/are-memories-transferable-or-edible-20260605/",
+      "summary": "In the 1960s, worm-training experiments and their strange implications captivated the nation. Columnist Claire L. Evans follows the neuroscientists who attempted to recapture the magic. The post Are Memories Transferable…",
+      "ts": 1780669279000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI hacking beyond Mythos, and chatbots’ impact on our brains",
+      "url": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Meta hack shows there’s more to AI security than Mythos On Monday, reports eme…",
+      "ts": 1780661400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Are AI chatbots making us lose control of our brains?",
+      "url": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
+      "summary": "This week I’ve been at SXSW London. There’s been music, film, and a lot—and I mean a lot—of talk about AI. I also had the opportunity to sit down with Gloria Mark, a psychologist at the University of California, Irvine, …",
+      "ts": 1780650000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Meta hack shows there’s more to AI security than Mythos",
+      "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+      "summary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they …",
+      "ts": 1780650000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
+      "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
+      "summary": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen H…",
+      "ts": 1780637917000,
+      "categoryId": "semiconductor"
+    },
     {
       "source": "NASA",
       "title": "Fighting Fire With Fire",
@@ -9,6 +49,22 @@
       "summary": "In fire-prone ecosystems in Australia’s Northern Territory, prescribed burns are lit to minimize the severity of fires later in the season.",
       "ts": 1780632060000,
       "categoryId": "space"
+    },
+    {
+      "source": "Nature Biotechnology",
+      "title": "Multiplexed, precise genome engineering in monocots with twin prime editing systems",
+      "url": "https://www.nature.com/articles/s41587-026-03174-5",
+      "summary": "",
+      "ts": 1780617600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Nature Biotechnology",
+      "title": "Structural motif search across the protein universe with Folddisco",
+      "url": "https://www.nature.com/articles/s41587-026-03162-9",
+      "summary": "",
+      "ts": 1780617600000,
+      "categoryId": "bio"
     },
     {
       "source": "NASA",
@@ -244,17 +300,17 @@
     },
     {
       "source": "OpenAI",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "title": "OpenAI public policy agenda",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
       "ts": 1780480800000,
       "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
       "ts": 1780480800000,
       "categoryId": "ai-compute"
     },
@@ -403,14 +459,6 @@
       "categoryId": "quantum"
     },
     {
-      "source": "MIT Technology Review",
-      "title": "The Download: China’s brain implant ambitions",
-      "url": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. China has approved the world’s first invasive brain-computer chip—here’s what’s ne…",
-      "ts": 1780315800000,
-      "categoryId": "ai-compute"
-    },
-    {
       "source": "OpenAI",
       "title": "Building the infrastructure for the Intelligence Age in Michigan",
       "url": "https://openai.com/index/stargate-michigan-data-center",
@@ -433,54 +481,6 @@
       "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can ge…",
       "ts": 1780308000000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "China has approved the world’s first invasive brain-computer chip—here’s what’s next",
-      "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
-      "summary": "One day last October, sitting in the courtyard of his house in China’s Henan province, Dong Hui decided to see if he could hold a pen to write. Dong, 39, had sustained spinal cord injuries in a car accident six years ear…",
-      "ts": 1780304940000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-      "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-      "summary": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructure. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling a…",
-      "ts": 1780290056000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-      "summary": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decisio…",
-      "ts": 1780290047000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-      "summary": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than 1 million NVIDIA MGX rack components for NVIDIA Vera Rubin infrastructure come together in Taiwan, from across 25 factory sites. As Vera Rubin ramps in…",
-      "ts": 1780290041000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
-      "summary": "NVIDIA today announced that TSMC, the world’s leading semiconductor company, is using NVIDIA accelerated computing and AI to advance semiconductor design and manufacturing.",
-      "ts": 1780290000000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-      "summary": "NVIDIA today announced that Foxconn and Taiwan’s leading medical centers are deploying NVIDIA-powered special agent workforces to scale the region’s transition to AI‑driven health systems.",
-      "ts": 1780289940000,
-      "categoryId": "semiconductor"
     }
   ],
   "categories": [

@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-05T04:25:13.866Z",
+  "updated": "2026-06-05T14:53:34.026Z",
   "items": [
+    {
+      "source": "Nature",
+      "title": "Europe is ditching US tech — what does this mean for researchers?",
+      "url": "https://www.nature.com/articles/d41586-026-01610-9",
+      "summary": "",
+      "ts": 1780617600000
+    },
+    {
+      "source": "Nature",
+      "title": "See a helicopter destined for Mars and a spectacular flowery frame for the Milky Way — May's best science images",
+      "url": "https://www.nature.com/articles/d41586-026-01609-2",
+      "summary": "",
+      "ts": 1780617600000
+    },
+    {
+      "source": "Nature",
+      "title": "Electric vehicles cut pollution in China – and prevent 260,000 premature deaths",
+      "url": "https://www.nature.com/articles/d41586-026-01781-5",
+      "summary": "",
+      "ts": 1780617600000
+    },
     {
       "source": "APS / PRL",
       "title": "Realizing Unitary $k$-Designs with a Single Quench",
@@ -259,27 +280,6 @@
       "title": "Proposed orbital ‘airbag’ would block solar storms",
       "url": "https://www.science.org/doi/abs/10.1126/science.aej3858?af=R",
       "summary": "Science, Volume 392, Issue 6802, Page 1004-1005, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Trump seeks tighter grip on grantmaking",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aej3861?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1006-1006, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Brain-mapping effort searches for roots of neurodegenerative diseases",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aej3862?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1007-1007, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "String theory is rebuilt from first principles",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aej3863?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1008-1009, June 2026.",
       "ts": 1780552814000
     }
   ],
