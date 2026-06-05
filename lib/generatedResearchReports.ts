@@ -22,6 +22,11 @@ export const generatedResearchReports = [
       "mid": "5–15 Years: Broad manufacturing integration and automation.",
       "far": "15–30 Years: Self-optimizing industrial ecosystems."
     },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–15 Years"
+    },
     "ts": 1780605384000
   },
   {
@@ -46,6 +51,11 @@ export const generatedResearchReports = [
       "near": "1–5 Years: Clinical trials and early healthcare adoption.",
       "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
       "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
     },
     "ts": 1780596119000
   },
@@ -72,6 +82,11 @@ export const generatedResearchReports = [
       "mid": "5–15 Years: Industrial and institutional adoption.",
       "far": "15–30 Years: Infrastructure and civilization integration."
     },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
     "ts": 1780592400000
   },
   {
@@ -96,6 +111,11 @@ export const generatedResearchReports = [
       "near": "1–5 Years: Operational missions and infrastructure testing.",
       "mid": "5–15 Years: Orbital infrastructure expansion.",
       "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
     },
     "ts": 1780588683000
   },
@@ -122,6 +142,11 @@ export const generatedResearchReports = [
       "mid": "5–15 Years: Industrial and institutional adoption.",
       "far": "15–30 Years: Infrastructure and civilization integration."
     },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
     "ts": 1780582355000
   },
   {
@@ -146,6 +171,11 @@ export const generatedResearchReports = [
       "near": "1–5 Years: Applied research and pilot implementation.",
       "mid": "5–15 Years: Industrial and institutional adoption.",
       "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
     },
     "ts": 1780578027000
   },
@@ -172,6 +202,11 @@ export const generatedResearchReports = [
       "mid": "5–15 Years: Grid integration and commercial deployment.",
       "far": "15–30 Years: Civilization-scale energy resilience and abundance."
     },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
     "ts": 1780575000000
   },
   {
@@ -197,6 +232,11 @@ export const generatedResearchReports = [
       "mid": "5–15 Years: Industrial and institutional adoption.",
       "far": "15–30 Years: Infrastructure and civilization integration."
     },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
     "ts": 1780574400000
   },
   {
@@ -221,6 +261,11 @@ export const generatedResearchReports = [
       "near": "1–5 Years: Applied research and pilot implementation.",
       "mid": "5–15 Years: Industrial and institutional adoption.",
       "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
     },
     "ts": 1780574400000
   }
