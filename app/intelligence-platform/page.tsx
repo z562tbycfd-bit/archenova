@@ -12,10 +12,10 @@ const modules = [
     text: "Daily scientific and technological signals ranked by implementation potential, infrastructure impact, and civilization significance.",
   },
   {
-    title: "Watchlist",
-    href: "/arche-nova-research",
-    text: "Signals that require continuous monitoring as future implementation pathways, risks, and opportunities emerge.",
-  },
+  title: "Watchlist",
+  href: "/intelligence-platform/watchlist",
+  text: "Technologies requiring continuous monitoring across future implementation pathways.",
+},
   {
     title: "Risks",
     href: "/arche-nova-research",
