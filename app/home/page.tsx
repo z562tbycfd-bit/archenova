@@ -42,13 +42,14 @@ export default function Home() {
             </Reveal>
               <Reveal delay={160}>
 <div className="hero-entry-grid">
-  <Link href="/arche-equation" className="hero-entry-card">
+  <Link href="/equation" className="hero-entry-card">
     <div className="hero-entry-label">ARCHENOVA EQUATION</div>
     <div className="hero-entry-title">Gμν = 8πG Tμν</div>
     <div className="hero-entry-hint">Open →</div>
   </Link>
 
-  <Link href="/orientation" className="hero-entry-card">
+  <Link
+  href="/orientation"className="hero-entry-card">
     <div className="hero-entry-label">ORIENTATION</div>
     <div className="hero-entry-title">Manifesto / Framework / Domains</div>
     <div className="hero-entry-hint">Open →</div>
@@ -57,61 +58,20 @@ export default function Home() {
               </Reveal>
 
 <div className="hero-entry-icons">
-  <Link href="/arche-equation" className="hero-entry-icon">
+  <Link href="/equation" className="hero-entry-icon">
     <span>𝛴</span>
     <small>Equation</small>
   </Link>
 
-  <Link href="/orientation" className="hero-entry-icon">
-    <span>◈</span>
+  <Link
+  href="/orientation"className="hero-entry-icon">
+    <span>▲</span>
     <small>Orientation</small>
   </Link>
 </div>
 
           </div>
         </div>
-      </section>
-
-      {/* =========================
-    PAGE 02 : ARCHENOVA EQUATION
-   ========================= */}
-<section id="home-equation" className="home-page" data-home-section>
-  <Reveal>
-    <Link href="/equation" className="equation-card">
-      <span className="home-section-label">ARCHENOVA EQUATION</span>
-
-      <div className="equation-card-formula">
-        G<sub>μν</sub> = 8πG&nbsp;T<sub>μν</sub>
-      </div>
-
-      <div className="plaza-hint">Open →</div>
-    </Link>
-  </Reveal>
-</section>
-
-      {/* =========================
-          PAGE 03: ORIENTATION
-         ========================= */}
-      <section id="home-orientation" data-home-section className="home-page">
-        <Reveal>
-          <div className="home-section home-section-center">
-            <span className="home-section-label">ORIENTATION</span>
-            <p className="home-section-purpose">
-              These pages establish ArcheNova’s position, scope, and commitments.
-              They explain what is fixed before anything is built.
-            </p>
-          </div>
-        </Reveal>
-
-        <Reveal delay={120}>
-          <div className="hero-links">
-            <Link href="/manifesto">Manifesto</Link>
-            <Link href="/framework">Framework</Link>
-            <Link href="/domains">Domains</Link>
-            <Link href="/research">Research / Papers</Link>
-            <Link href="/projects">Projects</Link>
-          </div>
-        </Reveal>
       </section>
 
       {/* =========================
