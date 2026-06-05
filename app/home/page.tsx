@@ -149,7 +149,60 @@ export default function Home() {
 </section>
 
 {/* =========================
-          PAGE 05 : BOUNDARY INTERACTION
+    PAGE 05 : ARCHENOVA DASHBOARD
+   ========================= */}
+<section
+  id="home-archenova-dashboard"
+  className="home-page"
+  data-home-section
+>
+  <Reveal>
+    <div className="home-section home-section-center">
+      <span className="home-section-label">ARCHENOVA DASHBOARD</span>
+
+      <p className="home-section-purpose">
+        A daily intelligence layer that ranks scientific and technological
+        signals by implementation potential, infrastructure impact, and
+        civilization significance.
+      </p>
+
+      <div className="dashboard-card-grid">
+        <Link href="/arche-nova-research" className="plaza-card">
+          <div className="plaza-title">Top Signals</div>
+          <div className="plaza-desc">
+            — The highest-ranked ArcheNova Analyst signals from today’s
+            scientific and technological observation layer
+          </div>
+          <div className="plaza-hint">Open Dashboard →</div>
+        </Link>
+
+        <Link href="/arche-nova-research" className="plaza-card">
+          <div className="plaza-title">Latest Analyst Reports</div>
+          <div className="plaza-desc">
+            — Auto-generated reports with scientific signal, implementation
+            potential, roadmap, horizon, and ArcheNova score
+          </div>
+          <div className="plaza-hint">Open Reports →</div>
+        </Link>
+      </div>
+
+      <div className="dashboard-mobile-icons">
+        <Link href="/arche-nova-research" className="dashboard-icon-link">
+          <span>▲</span>
+          <small>Top</small>
+        </Link>
+
+        <Link href="/arche-nova-research" className="dashboard-icon-link">
+          <span>◎</span>
+          <small>Reports</small>
+        </Link>
+      </div>
+    </div>
+  </Reveal>
+</section>
+
+{/* =========================
+          PAGE 06 : BOUNDARY INTERACTION
          ========================= */}
       <section id="home-boundary" data-home-section className="home-page">
         <Reveal>
@@ -224,7 +277,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 06 : SCIENTIFIC EXPLORATION
+          PAGE 07 : SCIENTIFIC EXPLORATION
          ========================= */}
       <section id="home-exploration" data-home-section className="home-page">
         <Reveal>
@@ -252,7 +305,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-    PAGE 07 : SOCIAL IMPLEMENTATION
+    PAGE 08  : SOCIAL IMPLEMENTATION
    ========================= */}
 
 <section
@@ -304,7 +357,7 @@ export default function Home() {
 </section>
 
 {/* =========================
-    PAGE 08 : REALIZING NEW TECHNOLOGIES
+    PAGE 09 : REALIZING NEW TECHNOLOGIES
    ========================= */}
 <section
   id="home-realizing-technologies"
@@ -375,7 +428,7 @@ export default function Home() {
 </section>
 
       {/* =========================
-          PAGE 09 : OBSERVATION (Science / Tech)
+          PAGE 10 : OBSERVATION (Science / Tech)
          ========================= */}
       <section id="home-observation" data-home-section className="home-page">
         <Reveal>
@@ -402,7 +455,7 @@ export default function Home() {
  </section>
 
  {/* =========================
-          PAGE 10 : LIVE SIGNAL (X)
+          PAGE 11 : LIVE SIGNAL (X)
          ========================= */}
       <section id="home-live" data-home-section className="home-page">
         <Reveal>
@@ -421,7 +474,7 @@ export default function Home() {
       </section>
 
       {/* =========================
-          PAGE 11 : RECENT CROSSINGS
+          PAGE 12 : RECENT CROSSINGS
          ========================= */}
       <section id="home-crossings" data-home-section className="home-page">
         <Reveal>
