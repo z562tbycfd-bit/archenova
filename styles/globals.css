@@ -10331,3 +10331,17 @@ html, body {
     margin-top: 40px;
   }
 }
+/* HERO entry: 3-card layout */
+#home-hero .hero-entry-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 768px) {
+  #home-hero .hero-entry-icons {
+    gap: 18px;
+  }
+
+  #home-hero .hero-entry-icon {
+    width: 70px;
+  }
+}
