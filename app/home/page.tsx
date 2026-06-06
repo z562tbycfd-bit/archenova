@@ -199,16 +199,7 @@ export default function Home() {
           </div>
         </Reveal>
 
-        <Reveal delay={240}>
-          <div className="plaza-feature">
-            <Link href="/structural-ai" className="plaza-card">
-              <div className="plaza-title">ArcheNova structural-AI</div>
-              <div className="plaza-desc">— An AI that removes options, not generates them</div>
-              <div className="plaza-hint">Enter →</div>
-            </Link>
-          </div>
-        </Reveal>
-        <div className="mobile-symbol-row mobile-symbol-row-4">
+        <div className="mobile-symbol-row mobile-symbol-row-3">
   <Link href="/plaza" className="mobile-symbol-link">
     <span className="mobile-symbol-icon">⬡</span>
     <span className="mobile-symbol-label">Boundary</span>
@@ -222,11 +213,6 @@ export default function Home() {
   <Link href="/constraint-forge" className="mobile-symbol-link">
     <span className="mobile-symbol-icon">✧</span>
     <span className="mobile-symbol-label">Forge</span>
-  </Link>
-
-  <Link href="/structural-ai" className="mobile-symbol-link">
-    <span className="mobile-symbol-icon">◎</span>
-    <span className="mobile-symbol-label">AI</span>
   </Link>
 </div>
       </section>
