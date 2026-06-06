@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-05T22:21:00.681Z",
+  "updated": "2026-06-06T13:57:41.390Z",
   "items": [
     {
       "source": "NASA",
@@ -129,6 +129,14 @@
       "summary": "Over the last decade, wildfires have worsened ground-level ozone pollution across much of the contiguous United States, creating unhealthy air far from active flames.",
       "ts": 1780596119000,
       "categoryId": "space"
+    },
+    {
+      "source": "US DOE",
+      "title": "United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission",
+      "url": "https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps",
+      "summary": "The U.S. Department of Energy and Japan’s Ministry of Education, Culture, Sports, Science and Technology and Ministry of Economy, Trade and Industry, today announced an historic $1 billion strategic partnership making Ja…",
+      "ts": 1780592400000,
+      "categoryId": "energy"
     },
     {
       "source": "NASA",
@@ -300,17 +308,17 @@
     },
     {
       "source": "OpenAI",
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
       "ts": 1780480800000,
       "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "title": "OpenAI public policy agenda",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
       "ts": 1780480800000,
       "categoryId": "ai-compute"
     },
@@ -473,14 +481,6 @@
       "summary": "“Not in my backyard” is the rallying cry of citizens everywhere resisting projects proposed for their locality. Whether it’s affordable housing, a waste treatment plant, or a new data center, they may recognize the benef…",
       "ts": 1780311961000,
       "categoryId": "semiconductor"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can ge…",
-      "ts": 1780308000000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

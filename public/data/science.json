@@ -1,34 +1,41 @@
 {
   "ok": true,
-  "updated": "2026-06-05T22:20:58.932Z",
+  "updated": "2026-06-06T13:57:31.538Z",
   "items": [
     {
-      "source": "Nature",
-      "title": "Briefing chat: Spinosaurs with salt glands could have lived in marine environments",
-      "url": "https://www.nature.com/articles/d41586-026-01831-y",
-      "summary": "",
-      "ts": 1780617600000
+      "source": "APS / PRL",
+      "title": "Testing Genuine Multipartite Nonlocality via an Inflated Network with Multicopy Entangled States",
+      "url": "http://link.aps.org/doi/10.1103/mwxx-ln9v",
+      "summary": "Author(s): Qian-Xi Zhang, Ming-Xing Luo, Ya-Li Mao, Hu Chen, Yu-Hang Yao, Zhi-Lian Liu, Shao-Ming Fei, Xue Yang, and Zheng-Da Li Understanding the nonlocality of multipartite quantum systems provides valuable insights in…",
+      "ts": 1780653600000
     },
     {
-      "source": "Nature",
-      "title": "Europe is ditching US tech — what does this mean for researchers?",
-      "url": "https://www.nature.com/articles/d41586-026-01610-9",
-      "summary": "",
-      "ts": 1780617600000
+      "source": "APS / PRL",
+      "title": "Ultracold Neutron Energy Spectrum and Storage Properties from Magnetically Induced Spin Depolarization",
+      "url": "http://link.aps.org/doi/10.1103/hspm-dwkn",
+      "summary": "Author(s): N. J. Ayres et al. (nEDM Collaboration at PSI) We present a novel method for extracting the energy spectrum of ultracold neutrons from magnetically induced spin depolarization measurements using the n2EDM appa…",
+      "ts": 1780653600000
     },
     {
-      "source": "Nature",
-      "title": "See a helicopter destined for Mars and a spectacular flowery frame for the Milky Way — May’s best science images",
-      "url": "https://www.nature.com/articles/d41586-026-01609-2",
-      "summary": "",
-      "ts": 1780617600000
+      "source": "APS / PRL",
+      "title": "Programmable Assembly of Ground State Fermionic Tweezer Arrays",
+      "url": "http://link.aps.org/doi/10.1103/fsmh-dz71",
+      "summary": "Author(s): Naman Jain, Jin Zhang, Marcus Culemann, and Philipp M. Preiss We demonstrate deterministic preparation of arbitrary two-component product states of fermionic $^{6}\\mathrm{Li}$ atoms in an $8×8$ optical tweezer…",
+      "ts": 1780653600000
     },
     {
-      "source": "Nature",
-      "title": "Electric vehicles cut pollution in China – and prevent 260,000 premature deaths",
-      "url": "https://www.nature.com/articles/d41586-026-01781-5",
-      "summary": "",
-      "ts": 1780617600000
+      "source": "APS / PRL",
+      "title": "Acoustic Analogy of Quantum Baldin Sum Rule for Optimal Causal Scattering",
+      "url": "http://link.aps.org/doi/10.1103/dbs8-g68w",
+      "summary": "Author(s): Sichao Qu, Zixiong Yu, Erqian Dong, Min Yang, and Nicholas X. Fang Sound wave scattering can be increased in one frequency range only by reducing scattering in another range, according to experiments—a discove…",
+      "ts": 1780653600000
+    },
+    {
+      "source": "APS / PRL",
+      "title": "Persistence of the Berezinskii-Kosterlitz-Thouless Transition with Long-Range Couplings",
+      "url": "http://link.aps.org/doi/10.1103/9y2v-ybdb",
+      "summary": "Author(s): Luis Walther, Josef Willsher, and Johannes Knolle The Berezinskii-Kosterlitz-Thouless (BKT) transition is an archetypal example of a topological phase transition, which is driven by the proliferation of vortic…",
+      "ts": 1780653600000
     },
     {
       "source": "APS / PRL",
@@ -273,13 +280,6 @@
       "title": "Wine’s warning for farming in climate change",
       "url": "https://www.science.org/doi/abs/10.1126/science.aeh4170?af=R",
       "summary": "Science, Volume 392, Issue 6802, Page 1030-1030, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Effects of China’s underground infrastructure",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeh4973?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1029-1030, June 2026.",
       "ts": 1780552814000
     }
   ],

@@ -305,6 +305,196 @@ export const generatedResearchReports =
     "ts": 1780661400000
   },
   {
+    "slug": "quantum-testing-genuine-multipartite-nonlocality-via-an-inflated-network-with-multicopy-",
+    "title": "Testing Genuine Multipartite Nonlocality via an Inflated Network with Multicopy Entangled States",
+    "category": "Quantum",
+    "source": "APS / PRL",
+    "originalUrl": "http://link.aps.org/doi/10.1103/mwxx-ln9v",
+    "summary": "Author(s): Qian-Xi Zhang, Ming-Xing Luo, Ya-Li Mao, Hu Chen, Yu-Hang Yao, Zhi-Lian Liu, Shao-Ming Fei, Xue Yang, and Zheng-Da Li Understanding the nonlocality of multipartite quantum systems provides valuable insights in…",
+    "scientificSignal": "Author(s): Qian-Xi Zhang, Ming-Xing Luo, Ya-Li Mao, Hu Chen, Yu-Hang Yao, Zhi-Lian Liu, Shao-Ming Fei, Xue Yang, and Zheng-Da Li Understanding the nonlocality of multipartite quantum systems provides valuable insights in…",
+    "implementationPotential": "Implementation potential lies in moving this Quantum signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Quantum phenomenon control",
+      "Device stability",
+      "Scalable quantum system",
+      "Industrial application",
+      "New computation and sensing capability"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1780653600000
+  },
+  {
+    "slug": "energy-ultracold-neutron-energy-spectrum-and-storage-properties-from-magnetically-induc",
+    "title": "Ultracold Neutron Energy Spectrum and Storage Properties from Magnetically Induced Spin Depolarization",
+    "category": "Energy",
+    "source": "APS / PRL",
+    "originalUrl": "http://link.aps.org/doi/10.1103/hspm-dwkn",
+    "summary": "Author(s): N. J. Ayres et al. (nEDM Collaboration at PSI) We present a novel method for extracting the energy spectrum of ultracold neutrons from magnetically induced spin depolarization measurements using the n2EDM appa…",
+    "scientificSignal": "Author(s): N. J. Ayres et al. (nEDM Collaboration at PSI) We present a novel method for extracting the energy spectrum of ultracold neutrons from magnetically induced spin depolarization measurements using the n2EDM appa…",
+    "implementationPotential": "Implementation potential lies in moving this Energy signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.1,
+      "engineering": 8.1,
+      "economic": 7.6,
+      "civilization": 8.4,
+      "overall": 8.1,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1780653600000
+  },
+  {
+    "slug": "ai-programmable-assembly-of-ground-state-fermionic-tweezer-arrays",
+    "title": "Programmable Assembly of Ground State Fermionic Tweezer Arrays",
+    "category": "AI",
+    "source": "APS / PRL",
+    "originalUrl": "http://link.aps.org/doi/10.1103/fsmh-dz71",
+    "summary": "Author(s): Naman Jain, Jin Zhang, Marcus Culemann, and Philipp M. Preiss We demonstrate deterministic preparation of arbitrary two-component product states of fermionic $^{6}\\mathrm{Li}$ atoms in an $8×8$ optical tweezer…",
+    "scientificSignal": "Author(s): Naman Jain, Jin Zhang, Marcus Culemann, and Philipp M. Preiss We demonstrate deterministic preparation of arbitrary two-component product states of fermionic $^{6}\\mathrm{Li}$ atoms in an $8×8$ optical tweezer…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1780653600000
+  },
+  {
+    "slug": "quantum-acoustic-analogy-of-quantum-baldin-sum-rule-for-optimal-causal-scattering",
+    "title": "Acoustic Analogy of Quantum Baldin Sum Rule for Optimal Causal Scattering",
+    "category": "Quantum",
+    "source": "APS / PRL",
+    "originalUrl": "http://link.aps.org/doi/10.1103/dbs8-g68w",
+    "summary": "Author(s): Sichao Qu, Zixiong Yu, Erqian Dong, Min Yang, and Nicholas X. Fang Sound wave scattering can be increased in one frequency range only by reducing scattering in another range, according to experiments—a discove…",
+    "scientificSignal": "Author(s): Sichao Qu, Zixiong Yu, Erqian Dong, Min Yang, and Nicholas X. Fang Sound wave scattering can be increased in one frequency range only by reducing scattering in another range, according to experiments—a discove…",
+    "implementationPotential": "Implementation potential lies in moving this Quantum signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Quantum phenomenon control",
+      "Device stability",
+      "Scalable quantum system",
+      "Industrial application",
+      "New computation and sensing capability"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1780653600000
+  },
+  {
+    "slug": "general-persistence-of-the-berezinskii-kosterlitz-thouless-transition-with-long-range-co",
+    "title": "Persistence of the Berezinskii-Kosterlitz-Thouless Transition with Long-Range Couplings",
+    "category": "General",
+    "source": "APS / PRL",
+    "originalUrl": "http://link.aps.org/doi/10.1103/9y2v-ybdb",
+    "summary": "Author(s): Luis Walther, Josef Willsher, and Johannes Knolle The Berezinskii-Kosterlitz-Thouless (BKT) transition is an archetypal example of a topological phase transition, which is driven by the proliferation of vortic…",
+    "scientificSignal": "Author(s): Luis Walther, Josef Willsher, and Johannes Knolle The Berezinskii-Kosterlitz-Thouless (BKT) transition is an archetypal example of a topological phase transition, which is driven by the proliferation of vortic…",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1780653600000
+  },
+  {
     "slug": "ai-are-ai-chatbots-making-us-lose-control-of-our-brains",
     "title": "Are AI chatbots making us lose control of our brains?",
     "category": "AI",
@@ -457,158 +647,6 @@ export const generatedResearchReports =
     "ts": 1780632060000
   },
   {
-    "slug": "general-briefing-chat-spinosaurs-with-salt-glands-could-have-lived-in-marine-environment",
-    "title": "Briefing chat: Spinosaurs with salt glands could have lived in marine environments",
-    "category": "General",
-    "source": "Nature",
-    "originalUrl": "https://www.nature.com/articles/d41586-026-01831-y",
-    "summary": "",
-    "scientificSignal": "Briefing chat: Spinosaurs with salt glands could have lived in marine environments",
-    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
-    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
-    "technologyRoadmap": [
-      "Environmental signal discovery",
-      "Monitoring or adaptation system",
-      "Regional deployment",
-      "Infrastructure and governance integration",
-      "Planetary adaptive capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Monitoring and adaptation tools.",
-      "mid": "5–15 Years: Regional resilience infrastructure.",
-      "far": "15–30 Years: Planetary adaptive-capacity systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.1,
-      "engineering": 7.9,
-      "economic": 8,
-      "civilization": 9.2,
-      "overall": 8.4,
-      "classification": "Adaptive Resilience Signal"
-    },
-    "ts": 1780617600000
-  },
-  {
-    "slug": "general-europe-is-ditching-us-tech-what-does-this-mean-for-researchers",
-    "title": "Europe is ditching US tech — what does this mean for researchers?",
-    "category": "General",
-    "source": "Nature",
-    "originalUrl": "https://www.nature.com/articles/d41586-026-01610-9",
-    "summary": "",
-    "scientificSignal": "Europe is ditching US tech — what does this mean for researchers?",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1780617600000
-  },
-  {
-    "slug": "general-see-a-helicopter-destined-for-mars-and-a-spectacular-flowery-frame-for-the-milky",
-    "title": "See a helicopter destined for Mars and a spectacular flowery frame for the Milky Way — May’s best science images",
-    "category": "General",
-    "source": "Nature",
-    "originalUrl": "https://www.nature.com/articles/d41586-026-01609-2",
-    "summary": "",
-    "scientificSignal": "See a helicopter destined for Mars and a spectacular flowery frame for the Milky Way — May’s best science images",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.2,
-      "engineering": 9,
-      "economic": 7.8,
-      "civilization": 9.5,
-      "overall": 8.7,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1780617600000
-  },
-  {
-    "slug": "general-electric-vehicles-cut-pollution-in-china-and-prevent-260-000-premature-deaths",
-    "title": "Electric vehicles cut pollution in China – and prevent 260,000 premature deaths",
-    "category": "General",
-    "source": "Nature",
-    "originalUrl": "https://www.nature.com/articles/d41586-026-01781-5",
-    "summary": "",
-    "scientificSignal": "Electric vehicles cut pollution in China – and prevent 260,000 premature deaths",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1780617600000
-  },
-  {
     "slug": "general-multiplexed-precise-genome-engineering-in-monocots-with-twin-prime-editing-syste",
     "title": "Multiplexed, precise genome engineering in monocots with twin prime editing systems",
     "category": "General",
@@ -759,6 +797,44 @@ export const generatedResearchReports =
       "classification": "Biological Resilience Signal"
     },
     "ts": 1780596119000
+  },
+  {
+    "slug": "energy-united-states-and-japan-announce-historic-1-billion-partnership-under-president-",
+    "title": "United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission",
+    "category": "Energy",
+    "source": "US DOE",
+    "originalUrl": "https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps",
+    "summary": "The U.S. Department of Energy and Japan’s Ministry of Education, Culture, Sports, Science and Technology and Ministry of Economy, Trade and Industry, today announced an historic $1 billion strategic partnership making Ja…",
+    "scientificSignal": "The U.S. Department of Energy and Japan’s Ministry of Education, Culture, Sports, Science and Technology and Ministry of Economy, Trade and Industry, today announced an historic $1 billion strategic partnership making Ja…",
+    "implementationPotential": "Implementation potential lies in moving this Energy signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1780592400000
   },
   {
     "slug": "space-colorful-chaotic-jupiter",
@@ -1063,82 +1139,6 @@ export const generatedResearchReports =
       "classification": "Emerging Future Signal"
     },
     "ts": 1780570218000
-  },
-  {
-    "slug": "bio-realizing-unitary-k-designs-with-a-single-quench",
-    "title": "Realizing Unitary $k$-Designs with a Single Quench",
-    "category": "Bio",
-    "source": "APS / PRL",
-    "originalUrl": "http://link.aps.org/doi/10.1103/rvwb-r9lv",
-    "summary": "Author(s): Yi-Neng Zhou, Robin Löwenberg, and Julian Sonner We present a single-quench protocol that generates unitary $k$-designs with minimal control. A system first evolves under a random Hamiltonian ${H}_{1}$; at a s…",
-    "scientificSignal": "Author(s): Yi-Neng Zhou, Robin Löwenberg, and Julian Sonner We present a single-quench protocol that generates unitary $k$-designs with minimal control. A system first evolves under a random Hamiltonian ${H}_{1}$; at a s…",
-    "implementationPotential": "Implementation potential lies in moving this Bio signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Biological discovery",
-      "Platform translation",
-      "Validation and regulation",
-      "Healthcare or manufacturing adoption",
-      "Biological resilience infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1780567200000
-  },
-  {
-    "slug": "ai-breakdown-of-disorder-suppressed-floquet-heating-under-two-frequency-driving",
-    "title": "Breakdown of Disorder-Suppressed Floquet Heating under Two-Frequency Driving",
-    "category": "AI",
-    "source": "APS / PRL",
-    "originalUrl": "http://link.aps.org/doi/10.1103/t953-lhht",
-    "summary": "Author(s): Cooper M. Selco, Christian Bengs, Chaitali Shah, and Ashok Ajoy Periodic (Floquet) driving enables Hamiltonian engineering and nonequilibrium phases, but interacting systems eventually heat by absorbing energy…",
-    "scientificSignal": "Author(s): Cooper M. Selco, Christian Bengs, Chaitali Shah, and Ashok Ajoy Periodic (Floquet) driving enables Hamiltonian engineering and nonequilibrium phases, but interacting systems eventually heat by absorbing energy…",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1780567200000
   }
 ];
 
