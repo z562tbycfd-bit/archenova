@@ -10537,3 +10537,19 @@ html, body {
   color: rgba(245,245,245,0.42);
   margin-bottom: 10px;
 }
+.verification-community {
+  color: rgba(245,245,245,0.42);
+}
+
+.verification-candidate {
+  color: rgba(245,245,245,0.62);
+}
+
+.verification-verified {
+  color: rgba(245,245,245,0.82);
+}
+
+.verification-official {
+  color: rgba(255,255,255,0.96);
+  letter-spacing: 0.08em;
+}

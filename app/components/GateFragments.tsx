@@ -149,11 +149,15 @@ export default function GateFragments({ limit = 5 }: { limit?: number }) {
                 </a>
               )}
 
-              <div className="crossing-verification">
-                Status: {item.verification_status ?? "community"}
-                {" • "}
-                Trust: {item.trust_score ?? 0}
-              </div>
+              <div
+  className={`crossing-verification verification-${
+    item.verification_status ?? "community"
+  }`}
+>
+  Status: {item.verification_status ?? "community"}
+  {" • "}
+  Trust: {item.trust_score ?? 0}
+</div>
 
               <div className="crossing-author">
                 {item.author}

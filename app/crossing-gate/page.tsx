@@ -45,6 +45,24 @@ const trustScoreMap: Record<string, number> = {
   Other: 20,
 };
 
+function getVerificationStatus(
+  sourceType: string,
+  trustScore: number
+) {
+  if (
+    ["Nature", "Science", "Cell", "NASA", "ESA"]
+      .includes(sourceType)
+  ) {
+    return "verified";
+  }
+
+  if (trustScore >= 70) {
+    return "candidate";
+  }
+
+  return "community";
+}
+
 function randomId() {
   return Math.floor(100 + Math.random() * 900);
 }
@@ -86,21 +104,35 @@ export default function CrossingGatePage() {
     try {
       const author = `${authorType} #${randomId()}`;
 
-      const { data, error } = await supabase
-        .from("gate_fragments")
-        .insert({
-          category,
-          source_type: sourceType,
-          url: cleanUrl || null,
-          verification_status: "community",
-          trust_score: trustScoreMap[sourceType] ?? 0,
-          text: t,
-          author,
-          likes: 0,
-          reposts: 0,
-          replies: 0,
-        })
-        .select();
+const trustScore =
+  trustScoreMap[sourceType] ?? 0;
+
+const verificationStatus =
+  getVerificationStatus(
+    sourceType,
+    trustScore
+  );
+
+const { data, error } = await supabase
+  .from("gate_fragments")
+  .insert({
+    category,
+    source_type: sourceType,
+    url: cleanUrl || null,
+
+    verification_status:
+      verificationStatus,
+
+    trust_score:
+      trustScore,
+
+    text: t,
+    author,
+    likes: 0,
+    reposts: 0,
+    replies: 0,
+  })
+  .select();
 
       if (error) {
         console.error("SUPABASE INSERT ERROR", error);
