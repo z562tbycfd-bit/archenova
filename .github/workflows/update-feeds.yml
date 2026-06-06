@@ -3,7 +3,7 @@ name: Update Science and Technology Feeds
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 21 * * *"
+    - cron: "0 12 * * *" # Runs every day at 12:00 UTC
 
 permissions:
   contents: write
