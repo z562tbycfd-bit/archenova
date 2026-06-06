@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { supabase } from "../../lib/supabaseClient";
+import { getSignalPromotion } from "../../lib/crossingPromotion";
 
 type Crossing = {
   id: string;
@@ -79,72 +80,90 @@ export default function CrossingsPage() {
 
       <section className="glass-block">
         <div className="crossings-feed">
-          {items.map((item) => (
-            <article
-              key={item.id}
-              className="crossing-post"
-            >
-              <div className="crossing-category">
-                [{item.category}]
-                {item.source_type && (
-                  <span className="crossing-source">
-                    {" "}
-                    • {item.source_type}
-                  </span>
+          {items.map((item) => {
+            const promotion = getSignalPromotion(item);
+
+            return (
+              <article
+                key={item.id}
+                className="crossing-post"
+              >
+                <div className="crossing-category">
+                  [{item.category}]
+                  {item.source_type && (
+                    <span className="crossing-source">
+                      {" "}
+                      • {item.source_type}
+                    </span>
+                  )}
+                </div>
+
+                <p className="crossing-text">
+                  {item.text}
+                </p>
+
+                {item.url && (
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="crossing-link"
+                  >
+                    Open Source ↗
+                  </a>
                 )}
-              </div>
 
-              <p className="crossing-text">
-                {item.text}
-              </p>
-
-              {item.url && (
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="crossing-link"
+                <div
+                  className={`crossing-verification verification-${
+                    item.verification_status ?? "community"
+                  }`}
                 >
-                  Open Source ↗
-                </a>
-              )}
+                  Status: {item.verification_status ?? "community"}
+                  {" • "}
+                  Trust: {item.trust_score ?? 0}
+                </div>
 
-              <div
-  className={`crossing-verification verification-${
-    item.verification_status ?? "community"
-  }`}
->
-  Status: {item.verification_status ?? "community"}
-  {" • "}
-  Trust: {item.trust_score ?? 0}
-</div>
-
-              <div className="crossing-author">
-                {item.author}
-              </div>
-
-              <div className="crossing-stats">
-                <button
-                  type="button"
-                  className="crossing-action"
-                  onClick={() => handleLike(item)}
+                <div
+                  className={`crossing-promotion promotion-${promotion.level}`}
+                  title={promotion.description}
                 >
-                  ♥ {item.likes}
-                </button>
+                  {promotion.label}
+                </div>
 
-                <span>
-                  ↺ {item.reposts}
-                </span>
+                <div className="crossing-author">
+                  {item.author}
+                </div>
 
-                <span>
-                  💬 {item.replies}
-                </span>
-              </div>
-            </article>
-          ))}
+                <div className="crossing-stats">
+                  <button
+                    type="button"
+                    className="crossing-action"
+                    onClick={() => handleLike(item)}
+                  >
+                    ♥ {item.likes}
+                  </button>
+
+                  <span>
+                    ↺ {item.reposts}
+                  </span>
+
+                  <span>
+                    💬 {item.replies}
+                  </span>
+                </div>
+              </article>
+            );
+          })}
         </div>
 
         <div className="crossing-gate-wrap">
+          <Link
+            href="/crossings/signals"
+            className="crossing-gate-link"
+          >
+            Candidate Signals →
+          </Link>
+
           <Link
             href="/crossing-gate"
             className="crossing-gate-link"
