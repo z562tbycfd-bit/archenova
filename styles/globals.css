@@ -10553,3 +10553,31 @@ html, body {
   color: rgba(255,255,255,0.96);
   letter-spacing: 0.08em;
 }
+.crossing-promotion {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid rgba(255,255,255,0.16);
+}
+
+.promotion-community {
+  color: rgba(245,245,245,0.48);
+}
+
+.promotion-candidate {
+  color: rgba(245,245,245,0.72);
+}
+
+.promotion-verified {
+  color: rgba(255,255,255,0.92);
+  border-color: rgba(255,255,255,0.34);
+}
+
+.promotion-official {
+  color: rgba(255,255,255,1);
+  border-color: rgba(255,255,255,0.56);
+}

@@ -158,13 +158,6 @@ export default function CrossingsPage() {
 
         <div className="crossing-gate-wrap">
           <Link
-            href="/crossings/signals"
-            className="crossing-gate-link"
-          >
-            Candidate Signals →
-          </Link>
-
-          <Link
             href="/crossing-gate"
             className="crossing-gate-link"
           >
@@ -172,6 +165,17 @@ export default function CrossingsPage() {
           </Link>
         </div>
       </section>
+      
+          <Link
+            href="/crossings/signals"
+            className="crossing-gate-link"
+          >
+            Candidate Signals →
+          </Link>
+
+      <Link href="/crossings/signals" className="crossing-gate-link">
+  Candidate Signals →
+</Link>
 
       <div className="page-foot">
         <Link
