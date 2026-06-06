@@ -21,9 +21,7 @@ export function generateStructuralReasoning(
 
   const types = Array.from(new Set(results.map((r) => r.type)));
 
-  const trustedCount = results.filter((r) =>
-    ["Research Report", "Top Signal"].includes(r.type)
-  ).length;
+  const trustedCount = results.filter((r) => (r.trustScore ?? 0) >= 80).length;
 
   const communityCount = results.filter((r) => r.type === "Crossing").length;
 

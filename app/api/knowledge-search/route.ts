@@ -116,22 +116,26 @@ export async function POST(req: Request) {
 
     if (!error && crossings) {
      knowledgeItems.push(
-       ...crossings.map((item) => ({
-         type: "Crossing",
-         title: item.text ?? "Community Crossing",
-         text: [
-           item.category,
-           item.source_type,
-           item.verification_status,
-           item.trust_score,
-           item.author,
-           item.text,
-         ]
-           .filter(Boolean)
-           .join(" "),
-         url: "/crossings",
-       }))
-     );
+  ...crossings.map((item) => ({
+    type: "Crossing",
+    title: item.text ?? "Community Crossing",
+    text: [
+      item.category,
+      item.source_type,
+      item.verification_status,
+      item.trust_score,
+      item.author,
+      item.text,
+    ]
+      .filter(Boolean)
+      .join(" "),
+    url: "/crossings",
+    trustScore:
+      typeof item.trust_score === "number"
+        ? item.trust_score
+        : 40,
+  }))
+);
    }
 
    const results = searchKnowledge(query, knowledgeItems).slice(0, 20);
