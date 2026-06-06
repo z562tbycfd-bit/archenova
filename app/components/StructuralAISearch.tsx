@@ -16,10 +16,22 @@ type Reasoning = {
   nextActions: string[];
 };
 
+type GraphNode = {
+  id: string;
+  label: string;
+  related: string[];
+};
+
+type GraphResult = {
+  node: GraphNode;
+  relatedNodes: GraphNode[];
+};
+
 export default function StructuralAISearch() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [reasoning, setReasoning] = useState<Reasoning | null>(null);
+  const [graph, setGraph] = useState<GraphResult | null>(null);
   const [searched, setSearched] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
@@ -53,6 +65,7 @@ export default function StructuralAISearch() {
 
       setResults(data.results || []);
       setReasoning(data.reasoning || null);
+      setGraph(data.graph || null);
       setSearched(true);
     } catch {
       setError("Search failed. Please try again.");
@@ -77,6 +90,24 @@ export default function StructuralAISearch() {
           {busy ? "Reasoning…" : "Reason →"}
         </button>
       </div>
+
+      {graph && (
+  <div className="glass-block">
+    <h3>Knowledge Graph</h3>
+
+    <p>
+      Core Node: <strong>{graph.node.label}</strong>
+    </p>
+
+    <div className="graph-chip-wrap">
+      {graph.relatedNodes.map((node) => (
+        <span key={node.id} className="graph-chip">
+          {node.label}
+        </span>
+      ))}
+    </div>
+  </div>
+)}
 
       {error && <p className="gate-msg">{error}</p>}
 

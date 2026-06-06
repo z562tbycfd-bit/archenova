@@ -5,6 +5,7 @@ import {
  archeNovaTopSignals,
 } from "@/lib/generatedResearchReports";
 import { generateStructuralReasoning } from "@/lib/structuralReasoning";
+import { getRelatedGraphNodes } from "@/lib/knowledgeGraph";
 
 export const runtime = "nodejs";
 
@@ -142,10 +143,14 @@ export async function POST(req: Request) {
 
    const reasoning = generateStructuralReasoning(query, results);
 
-   return Response.json({
-     results,
-     reasoning,
-   });
+   const graph = getRelatedGraphNodes(query);
+
+return Response.json({
+  results,
+  reasoning,
+  graph,
+});
+
   } catch (error) {
     console.error("Error in knowledge search:", error);
     return Response.json({ results: [] });
