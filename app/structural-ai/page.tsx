@@ -1,4 +1,6 @@
 import Link from "next/link";
+import StructuralAISearch
+from "../components/StructuralAISearch";
 
 const functions = [
   {
@@ -44,6 +46,8 @@ export default function StructuralAIPage() {
       </div>
 
       <section className="glass-block">
+        <StructuralAISearch />
+
         <h2>Mission</h2>
 
         <p>
