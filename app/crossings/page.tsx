@@ -158,19 +158,12 @@ export default function CrossingsPage() {
 
         <div className="crossing-gate-wrap">
           <Link
-            href="/crossing-gate"
-            className="crossing-gate-link"
-          >
-            Enter Gate →
-          </Link>
-        </div>
-      
-          <Link
             href="/crossings/signals"
             className="crossing-gate-link"
           >
             Candidate Signals →
           </Link>
+        </div>
           </section>
 
       <div className="page-foot">
