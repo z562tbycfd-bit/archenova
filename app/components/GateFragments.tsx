@@ -64,7 +64,7 @@ export default function GateFragments({ limit = 5 }: { limit?: number }) {
       if (cancelled) return;
 
       if (error) {
-        console.error(error);
+        console.error("SUPABASE SELECT ERROR", error);
         setItems(fallbackCrossings);
         return;
       }
@@ -101,16 +101,17 @@ export default function GateFragments({ limit = 5 }: { limit?: number }) {
             </article>
           ))}
         </div>
-        
-        <div className="crossing-gate-wrap">
-  <Link href="/crossings" className="crossing-gate-link">
-    View Feed →
-  </Link>
 
-  <Link href="/crossing-gate" className="crossing-gate-link">
-    Enter Gate →
-  </Link>
-</div>
+        <div className="crossing-gate-wrap">
+          <Link href="/crossings" className="crossing-gate-link">
+            View Feed →
+          </Link>
+
+          <Link href="/crossing-gate" className="crossing-gate-link">
+            Enter Gate →
+          </Link>
+        </div>
+      </div>
     </section>
   );
 }
