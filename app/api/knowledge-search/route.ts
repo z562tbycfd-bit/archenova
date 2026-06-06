@@ -1,27 +1,143 @@
-import { searchKnowledge } from "@/lib/knowledgeSearch";
+import { searchKnowledge, type KnowledgeItem } from "@/lib/knowledgeSearch";
+import { supabase } from "@/lib/supabaseClient";
+import {
+ generatedResearchReports,
+ archeNovaTopSignals,
+} from "@/lib/generatedResearchReports";
+
+export const runtime = "nodejs";
+
+type LooseRecord = {
+ [key: string]: unknown;
+};
+
+function toText(value: unknown) {
+ if (value === null || value === undefined) return "";
+ return String(value);
+}
+
+function getString(item: LooseRecord, key: string) {
+ const value = item[key];
+ return typeof value === "string" ? value : "";
+}
+
+function getNumberOrString(item: LooseRecord, key: string) {
+ const value = item[key];
+
+ if (typeof value === "number") return String(value);
+ if (typeof value === "string") return value;
+
+ return "";
+}
 
 export async function POST(req: Request) {
-  const { query } = await req.json();
+ try {
+   const { query } = await req.json();
 
-  const data = [
-    {
-      type: "Research",
-      title: "Fusion Infrastructure",
-      text: "Fusion increases strategic autonomy.",
-      url: "/research",
-    },
-    {
-      type: "Crossing",
-      title: "Physical AI",
-      text: "Physical AI is entering deployment phase.",
-      url: "/crossings",
-    },
-  ];
+   if (!query || typeof query !== "string") {
+     return Response.json({ results: [] });
+   }
 
-  const results =
-    searchKnowledge(query, data);
+   const knowledgeItems: KnowledgeItem[] = [];
 
-  return Response.json({
-    results,
-  });
+   const reports = generatedResearchReports.map((raw) => {
+     const report = raw as LooseRecord;
+
+     const title =
+       getString(report, "title") ||
+       getString(report, "name") ||
+       "Untitled Report";
+
+     const slug = getString(report, "slug");
+
+     const text = [
+       getString(report, "summary"),
+       getString(report, "description"),
+       getString(report, "category"),
+       getString(report, "source"),
+       getNumberOrString(report, "score"),
+       getNumberOrString(report, "archeNovaScore"),
+       toText(report["tags"]),
+     ]
+       .filter(Boolean)
+       .join(" ");
+
+     return {
+       type: "Research Report",
+       title,
+       text,
+       url: slug
+         ? `/arche-nova-research/reports/${slug}`
+         : "/arche-nova-research",
+     };
+   });
+
+   const signals = archeNovaTopSignals.map((raw) => {
+     const signal = raw as LooseRecord;
+
+     const title =
+       getString(signal, "title") ||
+       getString(signal, "name") ||
+       "Untitled Signal";
+
+     const text = [
+       getString(signal, "summary"),
+       getString(signal, "description"),
+       getString(signal, "category"),
+       getString(signal, "source"),
+       getNumberOrString(signal, "score"),
+       getNumberOrString(signal, "archeNovaScore"),
+       toText(signal["tags"]),
+     ]
+       .filter(Boolean)
+       .join(" ");
+
+     const directUrl =
+       getString(signal, "url") ||
+       getString(signal, "link") ||
+       getString(signal, "sourceUrl");
+
+     return {
+       type: "Top Signal",
+       title,
+       text,
+       url: directUrl || "/arche-nova-research",
+     };
+   });
+
+   knowledgeItems.push(...reports, ...signals);
+
+   const { data: crossings, error } = await supabase
+     .from("gate_fragments")
+     .select("*")
+     .order("created_at", { ascending: false })
+     .limit(100);
+
+   if (!error && crossings) {
+     knowledgeItems.push(
+       ...crossings.map((item) => ({
+         type: "Crossing",
+         title: item.text ?? "Community Crossing",
+         text: [
+           item.category,
+           item.source_type,
+           item.verification_status,
+           item.trust_score,
+           item.author,
+           item.text,
+         ]
+           .filter(Boolean)
+           .join(" "),
+         url: "/crossings",
+       }))
+     );
+   }
+
+   const results = searchKnowledge(query, knowledgeItems).slice(0, 20);
+
+   return Response.json({ results });
+ } catch (error) {
+   console.error("KNOWLEDGE SEARCH ERROR", error);
+   return Response.json({ results: [] }, { status: 500 });
+ }
 }
