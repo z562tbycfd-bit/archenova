@@ -103,7 +103,7 @@ export default function GateFragments({ limit = 5 }: { limit?: number }) {
         </div>
 
         <div className="crossing-gate-wrap">
-          <Link href="/gate" className="crossing-gate-link">
+          <Link href="/crossing-gate" className="crossing-gate-link">
             Enter Gate →
           </Link>
         </div>
