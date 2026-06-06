@@ -4,6 +4,7 @@ import {
  generatedResearchReports,
  archeNovaTopSignals,
 } from "@/lib/generatedResearchReports";
+import { generateStructuralReasoning } from "@/lib/structuralReasoning";
 
 export const runtime = "nodejs";
 
@@ -133,11 +134,14 @@ export async function POST(req: Request) {
      );
    }
 
-   const results = searchKnowledge(query, knowledgeItems).slice(0, 20);
+   const reasoning = generateStructuralReasoning(query, knowledgeItems);
 
-   return Response.json({ results });
- } catch (error) {
-   console.error("KNOWLEDGE SEARCH ERROR", error);
-   return Response.json({ results: [] }, { status: 500 });
- }
+return Response.json({
+  results: knowledgeItems,
+  reasoning,
+});
+  } catch (error) {
+    console.error("Error in knowledge search:", error);
+    return Response.json({ results: [] });
+  }
 }
