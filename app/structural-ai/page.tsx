@@ -46,8 +46,6 @@ export default function StructuralAIPage() {
       </div>
 
       <section className="glass-block">
-        <StructuralAISearch />
-
         <h2>Mission</h2>
 
         <p>
@@ -63,6 +61,8 @@ export default function StructuralAIPage() {
           organizes, and promotes knowledge without polluting verified sources.
         </p>
       </section>
+
+      <StructuralAISearch />
 
       <section className="glass-block">
         <h2>Core Functions</h2>
