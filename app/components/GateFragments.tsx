@@ -7,6 +7,10 @@ import { supabase } from "../../lib/supabaseClient";
 type Crossing = {
   id: string;
   category: string;
+  source_type?: string;
+  url?: string;
+  verification_status?: string;
+  trust_score?: number;
   text: string;
   author: string;
   likes: number;
@@ -19,6 +23,10 @@ const fallbackCrossings: Crossing[] = [
   {
     id: "fallback-1",
     category: "Science",
+    source_type: "Nature",
+    url: "https://www.nature.com",
+    verification_status: "verified",
+    trust_score: 100,
     text: "Quantum error correction is becoming engineering.",
     author: "Observer #472",
     likes: 12,
@@ -29,6 +37,10 @@ const fallbackCrossings: Crossing[] = [
   {
     id: "fallback-2",
     category: "Technology",
+    source_type: "GitHub",
+    url: "https://github.com",
+    verification_status: "community",
+    trust_score: 70,
     text: "Physical AI is entering deployment phase.",
     author: "Builder #118",
     likes: 24,
@@ -39,6 +51,10 @@ const fallbackCrossings: Crossing[] = [
   {
     id: "fallback-3",
     category: "Civilization",
+    source_type: "Science",
+    url: "https://www.science.org",
+    verification_status: "verified",
+    trust_score: 98,
     text: "Fusion increases strategic autonomy.",
     author: "Architect #221",
     likes: 41,
@@ -82,52 +98,80 @@ export default function GateFragments({ limit = 5 }: { limit?: number }) {
   const crossings = items ?? fallbackCrossings;
 
   const handleLike = async (item: Crossing) => {
-  const nextLikes = item.likes + 1;
+    const nextLikes = item.likes + 1;
 
-  setItems((prev) =>
-    (prev ?? fallbackCrossings).map((x) =>
-      x.id === item.id ? { ...x, likes: nextLikes } : x
-    )
-  );
+    setItems((prev) =>
+      (prev ?? fallbackCrossings).map((x) =>
+        x.id === item.id ? { ...x, likes: nextLikes } : x
+      )
+    );
 
-  if (item.id.startsWith("fallback")) return;
+    if (item.id.startsWith("fallback")) return;
 
-  const { error } = await supabase
-    .from("gate_fragments")
-    .update({ likes: nextLikes })
-    .eq("id", item.id);
+    const { error } = await supabase
+      .from("gate_fragments")
+      .update({ likes: nextLikes })
+      .eq("id", item.id);
 
-  if (error) {
-    console.error("LIKE UPDATE ERROR", error);
-  }
-};
+    if (error) {
+      console.error("LIKE UPDATE ERROR", error);
+    }
+  };
 
   return (
     <section className="gate-fragments">
       <div className="x-card crossings-card">
-        <div className="crossings-title">Today&apos;s Crossings</div>
+        <div className="crossings-title">Today's Crossings</div>
 
         <div className="crossings-feed">
           {crossings.map((item) => (
             <article key={item.id} className="crossing-post">
-              <div className="crossing-category">[{item.category}]</div>
+              <div className="crossing-category">
+                [{item.category}]
+                {item.source_type && (
+                  <span className="crossing-source">
+                    {" "}
+                    • {item.source_type}
+                  </span>
+                )}
+              </div>
 
               <p className="crossing-text">{item.text}</p>
 
-              <div className="crossing-author">{item.author}</div>
+              {item.url && (
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="crossing-link"
+                >
+                  Open Source ↗
+                </a>
+              )}
+
+              <div className="crossing-verification">
+                Status: {item.verification_status ?? "community"}
+                {" • "}
+                Trust: {item.trust_score ?? 0}
+              </div>
+
+              <div className="crossing-author">
+                {item.author}
+              </div>
 
               <div className="crossing-stats">
-  <button
-    type="button"
-    className="crossing-action"
-    onClick={() => handleLike(item)}
-  >
-    ♥ {item.likes}
-  </button>
+                <button
+                  type="button"
+                  className="crossing-action"
+                  onClick={() => handleLike(item)}
+                >
+                  ♥ {item.likes}
+                </button>
 
-  <span>↺ {item.reposts}</span>
-  <span>💬 {item.replies}</span>
-</div>
+                <span>↺ {item.reposts}</span>
+
+                <span>💬 {item.replies}</span>
+              </div>
             </article>
           ))}
         </div>
