@@ -50,20 +50,25 @@ export default function GatePage() {
     try {
       const author = `${authorType} #${randomId()}`;
 
-      const { error } = await supabase.from("gate_fragments").insert({
-        category,
-        text: t,
-        author,
-        likes: 0,
-        reposts: 0,
-        replies: 0,
-      });
+      const { data, error } = await supabase
+  .from("gate_fragments")
+  .insert({
+    category,
+    text: t,
+    author,
+    likes: 0,
+    reposts: 0,
+    replies: 0,
+  })
+  .select();
 
-      if (error) {
-        console.error(error);
-        setMsg("Failed to record. Check Supabase connection or table policy.");
-        return;
-      }
+if (error) {
+  console.error("SUPABASE INSERT ERROR", error);
+  setMsg(`Failed to record: ${error.message}`);
+  return;
+}
+
+console.log("INSERTED", data);
 
       window.location.href = "/home";
     } catch {
