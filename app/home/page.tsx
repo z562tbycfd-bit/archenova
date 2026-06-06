@@ -83,7 +83,7 @@ export default function Home() {
   <Reveal>
     <div className="home-section home-section-center">
       <span className="home-section-label">
-        ARCHENOVA STRUCTURAL AI
+        STRUCTURAL AI
       </span>
 
       <p className="home-section-purpose">
@@ -95,7 +95,7 @@ export default function Home() {
       <div className="social-implementation-grid">
         <Link href="/structural-ai" className="plaza-card">
           <div className="plaza-title">
-            ArcheNova Structural AI
+            STRUCTURAL AI
           </div>
 
           <div className="plaza-desc">
@@ -111,7 +111,7 @@ export default function Home() {
       <div className="anv-mobile-icons">
         <Link href="/structural-ai" className="anv-icon-link">
           <span>✾</span>
-          <small>ArcheNova AI</small>
+          <small>Structural AI</small>
         </Link>
       </div>
     </div>
