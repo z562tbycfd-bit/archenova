@@ -261,10 +261,6 @@ const { data, error } = await supabase
               <button className="inline-link" onClick={submit} disabled={busy}>
                 {busy ? "Recording…" : "Enter Crossing →"}
               </button>
-
-              <Link className="back-link" href="/home">
-                Leave ←
-              </Link>
             </div>
           </div>
         </div>
