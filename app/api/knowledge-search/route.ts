@@ -114,7 +114,7 @@ export async function POST(req: Request) {
      .order("created_at", { ascending: false })
      .limit(100);
 
-   if (!error && crossings) {
+    if (!error && crossings) {
      knowledgeItems.push(
        ...crossings.map((item) => ({
          type: "Crossing",
@@ -134,12 +134,14 @@ export async function POST(req: Request) {
      );
    }
 
-   const reasoning = generateStructuralReasoning(query, knowledgeItems);
+   const results = searchKnowledge(query, knowledgeItems).slice(0, 20);
 
-return Response.json({
-  results: knowledgeItems,
-  reasoning,
-});
+   const reasoning = generateStructuralReasoning(query, results);
+
+   return Response.json({
+     results,
+     reasoning,
+   });
   } catch (error) {
     console.error("Error in knowledge search:", error);
     return Response.json({ results: [] });
