@@ -68,6 +68,22 @@ export default function ArcheNovaResearchPage() {
      </section>
 
      <section className="glass-block">
+       <h2>Technology Roadmaps</h2>
+
+       <div className="research-roadmap">
+         {roadmap.map((node, index) => (
+           <div key={node} className="research-roadmap-step">
+             <div className="research-roadmap-index">
+               {String(index + 1).padStart(2, "0")}
+             </div>
+
+             <div className="research-roadmap-node">{node}</div>
+           </div>
+         ))}
+       </div>
+     </section>
+
+     <section className="glass-block">
        <h2>Research Domains</h2>
 
        <div className="research-domain-grid">
@@ -77,6 +93,30 @@ export default function ArcheNovaResearchPage() {
            </div>
          ))}
        </div>
+     </section>
+
+     <section className="glass-block">
+       <h2>Future Signals</h2>
+
+       <p>
+         ArcheNova continuously monitors signals emerging from scientific
+         journals, research institutions, public agencies, and technology
+         platforms.
+       </p>
+
+       <div className="research-domain-grid">
+         {signals.map((signal) => (
+           <div key={signal} className="research-domain-chip">
+             {signal}
+           </div>
+         ))}
+       </div>
+
+       <p>
+         Signals are evaluated not only by scientific novelty, but by their
+         potential for implementation, scalability, infrastructure formation,
+         and long-term societal impact.
+       </p>
      </section>
 
 <section className="glass-block">
@@ -128,46 +168,6 @@ export default function ArcheNovaResearchPage() {
     </Link>
   ))}
 </div>
-     </section>
-
-     <section className="glass-block">
-       <h2>Future Signals</h2>
-
-       <p>
-         ArcheNova continuously monitors signals emerging from scientific
-         journals, research institutions, public agencies, and technology
-         platforms.
-       </p>
-
-       <div className="research-domain-grid">
-         {signals.map((signal) => (
-           <div key={signal} className="research-domain-chip">
-             {signal}
-           </div>
-         ))}
-       </div>
-
-       <p>
-         Signals are evaluated not only by scientific novelty, but by their
-         potential for implementation, scalability, infrastructure formation,
-         and long-term societal impact.
-       </p>
-     </section>
-
-     <section className="glass-block">
-       <h2>Technology Roadmaps</h2>
-
-       <div className="research-roadmap">
-         {roadmap.map((node, index) => (
-           <div key={node} className="research-roadmap-step">
-             <div className="research-roadmap-index">
-               {String(index + 1).padStart(2, "0")}
-             </div>
-
-             <div className="research-roadmap-node">{node}</div>
-           </div>
-         ))}
-       </div>
      </section>
 
      <div className="page-foot">
