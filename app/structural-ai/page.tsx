@@ -63,20 +63,7 @@ export default function StructuralAIPage() {
       </section>
 
       <StructuralAISearch />
-
-      <section className="glass-block">
-        <h2>Core Functions</h2>
-
-        <div className="research-report-grid">
-          {functions.map((item) => (
-            <div key={item.title} className="research-report-card">
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
+      
       <div className="page-foot">
         <Link href="/home" className="back-link">
           ← Back to Home
