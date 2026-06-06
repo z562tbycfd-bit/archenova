@@ -81,6 +81,27 @@ export default function GateFragments({ limit = 5 }: { limit?: number }) {
 
   const crossings = items ?? fallbackCrossings;
 
+  const handleLike = async (item: Crossing) => {
+  const nextLikes = item.likes + 1;
+
+  setItems((prev) =>
+    (prev ?? fallbackCrossings).map((x) =>
+      x.id === item.id ? { ...x, likes: nextLikes } : x
+    )
+  );
+
+  if (item.id.startsWith("fallback")) return;
+
+  const { error } = await supabase
+    .from("gate_fragments")
+    .update({ likes: nextLikes })
+    .eq("id", item.id);
+
+  if (error) {
+    console.error("LIKE UPDATE ERROR", error);
+  }
+};
+
   return (
     <section className="gate-fragments">
       <div className="x-card crossings-card">
@@ -96,8 +117,17 @@ export default function GateFragments({ limit = 5 }: { limit?: number }) {
               <div className="crossing-author">{item.author}</div>
 
               <div className="crossing-stats">
-                ♥ {item.likes} &nbsp; ↺ {item.reposts} &nbsp; 💬 {item.replies}
-              </div>
+  <button
+    type="button"
+    className="crossing-action"
+    onClick={() => handleLike(item)}
+  >
+    ♥ {item.likes}
+  </button>
+
+  <span>↺ {item.reposts}</span>
+  <span>💬 {item.replies}</span>
+</div>
             </article>
           ))}
         </div>

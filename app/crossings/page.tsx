@@ -32,6 +32,25 @@ export default function CrossingsPage() {
     load();
   }, []);
 
+const handleLike = async (item: Crossing) => {
+  const nextLikes = item.likes + 1;
+
+  setItems((prev) =>
+    prev.map((x) =>
+      x.id === item.id ? { ...x, likes: nextLikes } : x
+    )
+  );
+
+  const { error } = await supabase
+    .from("gate_fragments")
+    .update({ likes: nextLikes })
+    .eq("id", item.id);
+
+  if (error) {
+    console.error("LIKE UPDATE ERROR", error);
+  }
+};
+
   return (
     <main className="page-standard">
       <div className="page-head">
@@ -56,8 +75,17 @@ export default function CrossingsPage() {
               <div className="crossing-author">{item.author}</div>
 
               <div className="crossing-stats">
-                ♥ {item.likes} &nbsp; ↺ {item.reposts} &nbsp; 💬 {item.replies}
-              </div>
+  <button
+    type="button"
+    className="crossing-action"
+    onClick={() => handleLike(item)}
+  >
+    ♥ {item.likes}
+  </button>
+
+  <span>↺ {item.reposts}</span>
+  <span>💬 {item.replies}</span>
+</div>
             </article>
           ))}
         </div>

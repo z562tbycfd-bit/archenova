@@ -10496,3 +10496,22 @@ html, body {
     gap: 18px;
   }
 }
+.crossing-stats {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.crossing-action {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: rgba(245,245,245,0.52);
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+.crossing-action:hover {
+  color: rgba(245,245,245,0.92);
+}
