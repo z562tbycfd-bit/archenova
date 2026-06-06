@@ -10581,3 +10581,68 @@ html, body {
   color: rgba(255,255,255,1);
   border-color: rgba(255,255,255,0.56);
 }
+/* ==========================================
+   Mobile Recent Crossings Compact
+   ========================================== */
+
+@media (max-width: 768px) {
+  #home-crossings .crossings-card {
+    padding: 20px !important;
+  }
+
+  #home-crossings .crossings-title {
+    font-size: 0.72rem;
+    margin-bottom: 16px;
+  }
+
+  #home-crossings .crossing-post:not(:first-child) {
+    display: none !important;
+  }
+
+  #home-crossings .crossing-post {
+    padding-bottom: 14px;
+    margin-bottom: 0;
+  }
+
+  #home-crossings .crossing-category {
+    font-size: 0.68rem;
+    margin-bottom: 8px;
+  }
+
+  #home-crossings .crossing-text {
+    font-size: 0.9rem;
+    line-height: 1.45;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+  }
+
+  #home-crossings .crossing-link,
+  #home-crossings .crossing-verification,
+  #home-crossings .crossing-promotion {
+    display: none !important;
+  }
+
+  #home-crossings .crossing-author {
+    font-size: 0.78rem;
+    margin-top: 8px;
+  }
+
+  #home-crossings .crossing-stats {
+    font-size: 0.78rem;
+    margin-top: 8px;
+  }
+
+  #home-crossings .crossing-gate-wrap {
+    margin-top: 16px;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+
+  #home-crossings .crossing-gate-link {
+    font-size: 0.82rem;
+  }
+}
