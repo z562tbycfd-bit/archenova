@@ -72,6 +72,53 @@ export default function Home() {
   </div>
 </section>
 
+{/* =========================
+    PAGE : ARCHENOVA STRUCTURAL AI
+   ========================= */}
+<section
+  id="home-structural-ai"
+  className="home-page"
+  data-home-section
+>
+  <Reveal>
+    <div className="home-section home-section-center">
+      <span className="home-section-label">
+        ARCHENOVA STRUCTURAL AI
+      </span>
+
+      <p className="home-section-purpose">
+        The official intelligence brain of ArcheNova, designed to structure,
+        verify, connect, and promote knowledge across Crossings, Signals,
+        Research, Watchlists, Roadmaps, and implementation pathways.
+      </p>
+
+      <div className="social-implementation-grid">
+        <Link href="/structural-ai" className="plaza-card">
+          <div className="plaza-title">
+            ArcheNova Structural AI
+          </div>
+
+          <div className="plaza-desc">
+            — Site-wide intelligence for knowledge structuring, signal
+            promotion, verification, and civilization-scale reasoning
+          </div>
+
+          <div className="plaza-hint">
+            Open →
+          </div>
+        </Link>
+      </div>
+
+      <div className="anv-mobile-icons">
+        <Link href="/structural-ai" className="anv-icon-link">
+          <span>✾</span>
+          <small>AI</small>
+        </Link>
+      </div>
+    </div>
+  </Reveal>
+</section>
+
       {/* =========================
     PAGE : ARCHENOVA CIVILIZATION ARCHITECTURE
    ========================= */}

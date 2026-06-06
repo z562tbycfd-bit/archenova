@@ -10646,3 +10646,22 @@ html, body {
     font-size: 0.82rem;
   }
 }
+
+  @media (max-width: 768px) {
+  #home-structural-ai .social-implementation-grid {
+    display: none !important;
+  }
+
+  #home-structural-ai .anv-mobile-icons {
+    display: flex !important;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 36px;
+  }
+}
+
+@media (min-width: 769px) {
+  #home-structural-ai .anv-mobile-icons {
+    display: none !important;
+  }
+}
