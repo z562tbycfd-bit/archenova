@@ -10477,3 +10477,8 @@ html, body {
     line-height: 1.55;
   }
 }
+.gate-preset.active {
+  border-color: rgba(255,255,255,0.45);
+  background: rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.96);
+}

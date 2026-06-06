@@ -3,43 +3,69 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { supabase } from "../../lib/supabaseClient";
 
 const PRESETS = [
-  "I will carry one constraint, not one answer.",
-  "I accept that exits disappear by design.",
-  "Let structure outlive intention.",
-  "Make responsibility non-transferable.",
-  "Remove options before they remove us.",
+  "Quantum error correction is becoming engineering.",
+  "Physical AI is entering deployment phase.",
+  "Fusion increases strategic autonomy.",
+  "Infrastructure determines which futures remain possible.",
+  "Civilization advances when knowledge becomes reproducible capability.",
 ];
 
+const CATEGORIES = ["Science", "Technology", "Civilization"];
+
+const AUTHOR_TYPES = ["Observer", "Builder", "Architect"];
+
+function randomId() {
+  return Math.floor(100 + Math.random() * 900);
+}
+
 export default function GatePage() {
+  const [category, setCategory] = useState("Science");
+  const [authorType, setAuthorType] = useState("Observer");
   const [text, setText] = useState("");
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
 
-  const remaining = useMemo(() => Math.max(0, 120 - text.length), [text.length]);
+  const remaining = useMemo(() => Math.max(0, 180 - text.length), [text.length]);
 
   const submit = async () => {
     setMsg(null);
+
     const t = text.trim();
+
     if (t.length < 6) {
-      setMsg("Write a short irreversible line (min 6 chars).");
+      setMsg("Write a short crossing fragment (min 6 chars).");
       return;
     }
+
+    if (t.length > 180) {
+      setMsg("Keep the fragment within 180 characters.");
+      return;
+    }
+
     setBusy(true);
+
     try {
-      const res = await fetch("/api/gate", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ text: t }),
+      const author = `${authorType} #${randomId()}`;
+
+      const { error } = await supabase.from("gate_fragments").insert({
+        category,
+        text: t,
+        author,
+        likes: 0,
+        reposts: 0,
+        replies: 0,
       });
-      if (!res.ok) {
-        const j = await res.json().catch(() => null);
-        setMsg(j?.reason ? `Rejected: ${j.reason}` : "Rejected.");
+
+      if (error) {
+        console.error(error);
+        setMsg("Failed to record. Check Supabase connection or table policy.");
         return;
       }
-      // 成功したらHOMEへ
-      window.location.href = "/";
+
+      window.location.href = "/home";
     } catch {
       setMsg("Failed to record. Try again.");
     } finally {
@@ -51,26 +77,62 @@ export default function GatePage() {
     <main className="gate">
       <div className="gate-inner">
         <div className="gate-head">
-          <h1 className="gate-title">Irreversibility Gate</h1>
-          <p className="gate-sub">This is not a sandbox. These are points of no return.</p>
+          <h1 className="gate-title">Crossing Gate</h1>
+          <p className="gate-sub">
+            Leave a short fragment for the ArcheNova crossing layer.
+          </p>
         </div>
 
         <div className="glass-block gate-block">
           <p className="text">
-            This forge does not generate ideas. It removes futures.
+            This is a lightweight exchange space for scientific, technological,
+            and civilization-scale fragments.
             <br />
-            The longer you stay, the fewer exits remain.
+            Write as if crossing a boundary.
           </p>
 
           <div className="gate-field">
-            <label className="gate-label">Leave a single irreversible line</label>
+            <label className="gate-label">Category</label>
+
+            <div className="gate-presets">
+              {CATEGORIES.map((c) => (
+                <button
+                  key={c}
+                  type="button"
+                  className={`gate-preset ${category === c ? "active" : ""}`}
+                  onClick={() => setCategory(c)}
+                >
+                  {c}
+                </button>
+              ))}
+            </div>
+
+            <label className="gate-label">Identity</label>
+
+            <div className="gate-presets">
+              {AUTHOR_TYPES.map((a) => (
+                <button
+                  key={a}
+                  type="button"
+                  className={`gate-preset ${authorType === a ? "active" : ""}`}
+                  onClick={() => setAuthorType(a)}
+                >
+                  {a}
+                </button>
+              ))}
+            </div>
+
+            <label className="gate-label">Leave a crossing fragment</label>
+
             <textarea
               className="gate-input"
               value={text}
               onChange={(e) => setText(e.target.value)}
-              placeholder='Example: "Make responsibility non-transferable."'
-              rows={3}
+              placeholder='Example: "Physical AI is entering deployment phase."'
+              rows={4}
+              maxLength={180}
             />
+
             <div className="gate-meta">
               <span className="gate-hint">No names. No emails. No identifiers.</span>
               <span className="gate-count">{remaining}</span>
@@ -93,10 +155,10 @@ export default function GatePage() {
 
             <div className="gate-actions">
               <button className="inline-link" onClick={submit} disabled={busy}>
-                {busy ? "Recording…" : "Enter →"}
+                {busy ? "Recording…" : "Enter Crossing →"}
               </button>
 
-              <Link className="back-link" href="/">
+              <Link className="back-link" href="/home">
                 Leave ←
               </Link>
             </div>
@@ -104,7 +166,7 @@ export default function GatePage() {
         </div>
 
         <p className="gate-foot">
-          You are not asked to agree. Only to leave with a constraint.
+          Recent Crossings will update after the fragment is recorded.
         </p>
       </div>
     </main>
