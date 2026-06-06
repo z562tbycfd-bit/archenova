@@ -78,7 +78,7 @@ export default function GatePage() {
       <div className="gate-inner">
         <div className="gate-head">
          <h1 className="gate-title">
-          Crossing Gate TEST 999
+          Crossing Gate
           </h1>
           <p className="gate-sub">
             Leave a short fragment for the ArcheNova crossing layer.
