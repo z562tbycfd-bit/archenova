@@ -10515,3 +10515,25 @@ html, body {
 .crossing-action:hover {
   color: rgba(245,245,245,0.92);
 }
+.crossing-source {
+  opacity: 0.72;
+  font-size: 0.85rem;
+}
+
+.crossing-link {
+  display: inline-block;
+  margin: 4px 0 12px;
+  color: rgba(245,245,245,0.82);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.crossing-link:hover {
+  color: rgba(255,255,255,0.96);
+}
+
+.crossing-verification {
+  font-size: 0.75rem;
+  color: rgba(245,245,245,0.42);
+  margin-bottom: 10px;
+}
