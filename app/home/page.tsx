@@ -111,7 +111,7 @@ export default function Home() {
       <div className="anv-mobile-icons">
         <Link href="/structural-ai" className="anv-icon-link">
           <span>✾</span>
-          <small>Structural AI</small>
+          <small>Structural</small>
         </Link>
       </div>
     </div>
