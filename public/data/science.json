@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-06T13:57:31.538Z",
+  "updated": "2026-06-07T13:12:43.711Z",
   "items": [
     {
       "source": "APS / PRL",
@@ -36,6 +36,41 @@
       "url": "http://link.aps.org/doi/10.1103/9y2v-ybdb",
       "summary": "Author(s): Luis Walther, Josef Willsher, and Johannes Knolle The Berezinskii-Kosterlitz-Thouless (BKT) transition is an archetypal example of a topological phase transition, which is driven by the proliferation of vortic…",
       "ts": 1780653600000
+    },
+    {
+      "source": "Nature",
+      "title": "Briefing chat: Spinosaurs with salt glands could have lived in marine environments",
+      "url": "https://www.nature.com/articles/d41586-026-01831-y",
+      "summary": "",
+      "ts": 1780617600000
+    },
+    {
+      "source": "Nature",
+      "title": "First precise genome editing of human embryos triggers praise and alarm",
+      "url": "https://www.nature.com/articles/d41586-026-01827-8",
+      "summary": "",
+      "ts": 1780617600000
+    },
+    {
+      "source": "Nature",
+      "title": "Europe is ditching US tech — what does this mean for researchers?",
+      "url": "https://www.nature.com/articles/d41586-026-01610-9",
+      "summary": "",
+      "ts": 1780617600000
+    },
+    {
+      "source": "Nature",
+      "title": "See a helicopter destined for Mars and a spectacular flowery frame for the Milky Way — May’s best science images",
+      "url": "https://www.nature.com/articles/d41586-026-01609-2",
+      "summary": "",
+      "ts": 1780617600000
+    },
+    {
+      "source": "Nature",
+      "title": "Electric vehicles cut pollution in China – and prevent 260,000 premature deaths",
+      "url": "https://www.nature.com/articles/d41586-026-01781-5",
+      "summary": "",
+      "ts": 1780617600000
     },
     {
       "source": "APS / PRL",
@@ -245,41 +280,6 @@
       "title": "Ozone from wildfire plumes increases mortality",
       "url": "https://www.science.org/doi/abs/10.1126/science.aei2027?af=R",
       "summary": "Science, Volume 392, Issue 6802, Page 1024-1025, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Ultraprocessed foods and obesity: Interpreting the evidence",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aef3495?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1020-1022, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Bad memories, bad sleep",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aei3385?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1022-1023, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "The lost social infrastructure of work",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeh9559?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1025-1026, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Aquavoltaics knowledge gaps undercut benefits",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeh2751?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1030-1030, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Wine’s warning for farming in climate change",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeh4170?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1030-1030, June 2026.",
       "ts": 1780552814000
     }
   ],

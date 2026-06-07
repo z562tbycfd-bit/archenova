@@ -1,30 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-06T13:57:41.390Z",
+  "updated": "2026-06-07T13:12:45.836Z",
   "items": [
     {
-      "source": "NASA",
-      "title": "NASA’s X-59 Aircraft Flies Supersonic for First Time",
-      "url": "https://www.nasa.gov/aeronautics/x-59-first-supersonic-flight/",
-      "summary": "NASA’s experimental X-59 aircraft marked a major milestone Friday, June 5, when it flew faster than the speed of sound for the first time, setting the stage for demonstrating its quiet supersonic capabilities later this …",
-      "ts": 1780692297000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Announces Winners of 2026 University Innovation Competition ",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-announces-winners-of-2026-university-innovation-competition/",
-      "summary": "NASA announced the Massachusetts Institute of Technology project, Exploration-Class Lunar Integrated Power SystEm, as the first place winner for the 2026 Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-…",
-      "ts": 1780690631000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Artemis II Moon Mission Research Continues on Earth",
-      "url": "https://science.nasa.gov/uncategorized/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
-      "summary": "Since NASA’s Artemis II crew members safely splashed down in the Pacific Ocean on April 10 after their record-setting mission around the Moon, science teams have been busy collecting more data and combing through observa…",
-      "ts": 1780687008000,
-      "categoryId": "space"
+      "source": "NVIDIA",
+      "title": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
+      "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
+      "summary": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to…",
+      "ts": 1780815615000,
+      "categoryId": "semiconductor"
     },
     {
       "source": "IEEE Spectrum",
@@ -33,22 +17,6 @@
       "summary": "The Institute is celebrating its 50th anniversary this year. Launched in 1976, the publication was designed to keep members informed about IEEE and what its constituents were doing, as well as to report on the organizati…",
       "ts": 1780682401000,
       "categoryId": "semiconductor"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Concludes Antenna Mishap Investigation, Releases Report",
-      "url": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/nasa-concludes-antenna-mishap-investigation-releases-report/",
-      "summary": "NASA has completed the investigation into the damage sustained last year at its 70-meter radio-frequency antenna, known as the Deep Space Station 14 (DSS-14), at the Goldstone Deep Space Communications Complex near Barst…",
-      "ts": 1780678800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "First Steps: America’s Grueling Second Spacewalk",
-      "url": "https://www.nasa.gov/image-article/first-steps-americas-grueling-second-spacewalk/",
-      "summary": "One year after Gemini IV astronaut Edward H. White completed NASA’s first spacewalk the agency prepared for a demanding second excursion. Originally scheduled for Gemini VIII, the extravehicular activity (EVA) was reassi…",
-      "ts": 1780674447000,
-      "categoryId": "space"
     },
     {
       "source": "Quanta Magazine",
@@ -91,14 +59,6 @@
       "categoryId": "semiconductor"
     },
     {
-      "source": "NASA",
-      "title": "Fighting Fire With Fire",
-      "url": "https://science.nasa.gov/earth/earth-observatory/fighting-fire-with-fire/",
-      "summary": "In fire-prone ecosystems in Australia’s Northern Territory, prescribed burns are lit to minimize the severity of fires later in the season.",
-      "ts": 1780632060000,
-      "categoryId": "space"
-    },
-    {
       "source": "Nature Biotechnology",
       "title": "Multiplexed, precise genome engineering in monocots with twin prime editing systems",
       "url": "https://www.nature.com/articles/s41587-026-03174-5",
@@ -115,36 +75,12 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "NASA Hosts 2026 Review on Advanced Composite Manufacturing",
-      "url": "https://www.nasa.gov/directorates/armd/aavp/hicam/nasa-hosts-2026-review-on-advanced-composite-manufacturing/",
-      "summary": "NASA’s Hi-Rate Composite Aircraft Manufacturing (HiCAM) project brought together its full team of Advanced Composites Consortium partners for a 2026 spring review at NASA’s Langley Research Center in Hampton, Virginia. T…",
-      "ts": 1780605384000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA-Funded Study Shows Wildfire Smoke’s Hidden Ozone Toll",
-      "url": "https://science.nasa.gov/earth/nasa-funded-study-shows-wildfire-smokes-hidden-ozone-toll/",
-      "summary": "Over the last decade, wildfires have worsened ground-level ozone pollution across much of the contiguous United States, creating unhealthy air far from active flames.",
-      "ts": 1780596119000,
-      "categoryId": "space"
-    },
-    {
       "source": "US DOE",
       "title": "United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission",
       "url": "https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps",
       "summary": "The U.S. Department of Energy and Japan’s Ministry of Education, Culture, Sports, Science and Technology and Ministry of Economy, Trade and Industry, today announced an historic $1 billion strategic partnership making Ja…",
       "ts": 1780592400000,
       "categoryId": "energy"
-    },
-    {
-      "source": "NASA",
-      "title": "Colorful, Chaotic Jupiter",
-      "url": "https://www.nasa.gov/image-article/colorful-chaotic-jupiter/",
-      "summary": "NASA’s Juno spacecraft captured this color-enhanced view of Jupiter’s northern hemisphere during its 61st close flyby of the giant planet on May 12, 2024. Citizen scientist Gary Eason made this image using raw data from …",
-      "ts": 1780588683000,
-      "categoryId": "space"
     },
     {
       "source": "Quanta Magazine",
@@ -209,14 +145,6 @@
       "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
       "ts": 1780563600000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "A Moonlit Earth as Seen From Artemis II",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-moonlit-earth-as-seen-from-artemis-ii/",
-      "summary": "An astronaut’s photo, taken en route to the Moon, reveals our planet and its place in space in a novel way.",
-      "ts": 1780545660000,
-      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -480,6 +408,78 @@
       "url": "https://spectrum.ieee.org/renewable-energy-resistance",
       "summary": "“Not in my backyard” is the rallying cry of citizens everywhere resisting projects proposed for their locality. Whether it’s affordable housing, a waste treatment plant, or a new data center, they may recognize the benef…",
       "ts": 1780311961000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can ge…",
+      "ts": 1780308000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
+      "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+      "summary": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructure. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling a…",
+      "ts": 1780290056000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
+      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
+      "summary": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decisio…",
+      "ts": 1780290047000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
+      "summary": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than 1 million NVIDIA MGX rack components for NVIDIA Vera Rubin infrastructure come together in Taiwan, from across 25 factory sites. As Vera Rubin ramps in…",
+      "ts": 1780290041000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
+      "summary": "NVIDIA today announced that TSMC, the world’s leading semiconductor company, is using NVIDIA accelerated computing and AI to advance semiconductor design and manufacturing.",
+      "ts": 1780290000000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
+      "summary": "NVIDIA today announced that Foxconn and Taiwan’s leading medical centers are deploying NVIDIA-powered special agent workforces to scale the region’s transition to AI‑driven health systems.",
+      "ts": 1780289940000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
+      "summary": "NVIDIA today announced a major collection of open source physical AI skills and tools that help developers turn complex robotics, autonomous vehicle (AV), vision AI and industrial digital twin workflows into agent-execut…",
+      "ts": 1780289580000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
+      "summary": "NVIDIA today announced the NVIDIA Isaac™ GR00T Reference Humanoid Robot, the first open humanoid robot reference design built on NVIDIA Jetson Thor™ and the NVIDIA Isaac GR00T open development platform.",
+      "ts": 1780289400000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA DRIVE Hyperion Becomes the Global Platform for a Robotaxi-Ready World",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-drive-hyperion-becomes-the-global-platform-for-a-robotaxi-ready-world",
+      "summary": "NVIDIA today announced a major expansion of the NVIDIA DRIVE Hyperion™ robotaxi-ready platform ecosystem, bringing together leading global automakers, manufacturing and autonomous vehicle (AV) software ecosystem partners…",
+      "ts": 1780289280000,
       "categoryId": "semiconductor"
     }
   ],
