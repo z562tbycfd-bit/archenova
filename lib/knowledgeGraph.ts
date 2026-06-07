@@ -1,7 +1,15 @@
+import type { KnowledgeItem } from "./knowledgeSearch";
+
 export type KnowledgeGraphNode = {
   id: string;
   label: string;
   related: string[];
+};
+
+export type KnowledgeGraphResult = {
+  node: KnowledgeGraphNode;
+  relatedNodes: KnowledgeGraphNode[];
+  dynamicNodes: KnowledgeGraphNode[];
 };
 
 export const knowledgeGraph: KnowledgeGraphNode[] = [
@@ -116,8 +124,25 @@ export const knowledgeGraph: KnowledgeGraphNode[] = [
   },
 ];
 
+const dynamicVocabulary: Record<string, string[]> = {
+  "energy": ["energy", "electricity", "grid", "power", "reactor", "fusion"],
+  "ai": ["ai", "artificial intelligence", "machine learning", "model", "automation"],
+  "space": ["space", "nasa", "esa", "orbital", "satellite", "artemis"],
+  "materials": ["material", "materials", "catalyst", "semiconductor", "nanotechnology"],
+  "biology": ["biology", "genome", "protein", "cell", "mRNA", "biosensor"],
+  "infrastructure": ["infrastructure", "deployment", "manufacturing", "industry", "city"],
+  "governance": ["governance", "regulation", "policy", "trust", "safety"],
+};
+
 function normalize(value: string) {
   return value.toLowerCase().trim().replace(/\s+/g, "-");
+}
+
+function toLabel(id: string) {
+  return id
+    .split("-")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
 }
 
 export function findKnowledgeGraph(query: string) {
@@ -129,24 +154,57 @@ export function findKnowledgeGraph(query: string) {
 
   if (exact) return exact;
 
-  return knowledgeGraph.find((node) =>
-    node.id.includes(q) ||
-    normalize(node.label).includes(q) ||
-    node.related.some((r) => r.includes(q))
+  return knowledgeGraph.find(
+    (node) =>
+      node.id.includes(q) ||
+      normalize(node.label).includes(q) ||
+      node.related.some((r) => r.includes(q))
   );
 }
 
-export function getRelatedGraphNodes(query: string) {
-  const node = findKnowledgeGraph(query);
+function extractDynamicNodes(results: KnowledgeItem[]) {
+  const text = results
+    .map((item) => `${item.type} ${item.title} ${item.text}`)
+    .join(" ")
+    .toLowerCase();
 
-  if (!node) return null;
+  return Object.entries(dynamicVocabulary)
+    .filter(([, words]) => words.some((word) => text.includes(word.toLowerCase())))
+    .map(([id]) => ({
+      id,
+      label: toLabel(id),
+      related: [],
+    }));
+}
+
+export function getRelatedGraphNodes(
+  query: string,
+  results: KnowledgeItem[] = []
+): KnowledgeGraphResult | null {
+  const staticNode = findKnowledgeGraph(query);
+  const dynamicNodes = extractDynamicNodes(results);
+
+  const node =
+    staticNode ??
+    ({
+      id: normalize(query),
+      label: toLabel(normalize(query)),
+      related: dynamicNodes.map((n) => n.id),
+    } satisfies KnowledgeGraphNode);
 
   const relatedNodes = node.related
     .map((id) => knowledgeGraph.find((n) => n.id === id))
-    .filter(Boolean);
+    .filter(Boolean) as KnowledgeGraphNode[];
+
+  const mergedDynamicNodes = dynamicNodes.filter(
+    (dynamicNode) =>
+      dynamicNode.id !== node.id &&
+      !relatedNodes.some((relatedNode) => relatedNode.id === dynamicNode.id)
+  );
 
   return {
     node,
     relatedNodes,
+    dynamicNodes: mergedDynamicNodes,
   };
 }

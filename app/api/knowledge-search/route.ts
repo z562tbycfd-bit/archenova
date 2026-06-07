@@ -143,7 +143,7 @@ export async function POST(req: Request) {
 
    const reasoning = generateStructuralReasoning(query, results);
 
-   const graph = getRelatedGraphNodes(query);
+   const graph = getRelatedGraphNodes(query, results);
 
 return Response.json({
   results,
