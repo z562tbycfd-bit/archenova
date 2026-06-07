@@ -107,21 +107,23 @@ export default function StructuralAISearch() {
         </span>
       ))}
     </div>
+
+    {graph.dynamicNodes && graph.dynamicNodes.length > 0 && (
+      <>
+        <p className="text dim">
+          Dynamic nodes detected from ArcheNova knowledge:
+        </p>
+
+        <div className="graph-chip-wrap">
+          {graph.dynamicNodes.map((node) => (
+            <span key={node.id} className="graph-chip">
+              {node.label}
+            </span>
+          ))}
+        </div>
+      </>
+    )}
   </div>
-)}
-
-{graph.dynamicNodes && graph.dynamicNodes.length > 0 && (
-  <>
-    <p className="text dim">Dynamic nodes detected from ArcheNova knowledge:</p>
-
-    <div className="graph-chip-wrap">
-      {graph.dynamicNodes.map((node) => (
-        <span key={node.id} className="graph-chip">
-          {node.label}
-        </span>
-      ))}
-    </div>
-  </>
 )}
 
       {error && <p className="gate-msg">{error}</p>}
