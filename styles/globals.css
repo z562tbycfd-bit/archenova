@@ -10682,3 +10682,75 @@ html, body {
   color: rgba(245,245,245,0.72);
   background: rgba(255,255,255,0.04);
 }
+.home-galaxy-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100svh;
+  padding: 0;
+  overflow: hidden;
+}
+
+.an-galaxy-wrap {
+  position: relative;
+  width: min(96vw, 1400px);
+  height: min(78vw, 820px);
+  max-height: 86svh;
+  border-radius: 999px;
+  overflow: hidden;
+  filter: drop-shadow(0 0 70px rgba(170, 190, 255, 0.2));
+}
+
+.an-galaxy-wrap canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.an-galaxy-orbit {
+  position: absolute;
+  inset: 8%;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow:
+    inset 0 0 90px rgba(255,255,255,0.04),
+    0 0 120px rgba(140,165,255,0.12);
+  pointer-events: none;
+}
+
+.an-galaxy-caption {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: rgba(255,255,255,0.82);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.an-galaxy-caption span {
+  display: block;
+  font-size: clamp(1.1rem, 2.4vw, 2.8rem);
+  margin-bottom: 10px;
+}
+
+.an-galaxy-caption small {
+  display: block;
+  font-size: clamp(0.58rem, 1vw, 0.84rem);
+  opacity: 0.58;
+  letter-spacing: 0.16em;
+}
+
+@media (max-width: 768px) {
+  .an-galaxy-wrap {
+    width: 112vw;
+    height: 74vh;
+    border-radius: 48%;
+  }
+
+  .an-galaxy-caption {
+    width: 86%;
+    bottom: 10%;
+  }
+}

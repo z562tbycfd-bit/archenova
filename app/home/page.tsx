@@ -1,13 +1,10 @@
 import Link from "next/link";
 import Reveal from "../components/Reveal";
-import ScienceHome from "../components/ScienceHome";
-import TechnologyHome from "../components/TechnologyHome";
-import CommercializationHome from "../components/CommercializationHome";
-import LatestPaper from "../components/LatestPaper";
 import GateFragments from "../components/GateFragments";
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import { archeNovaTopSignals } from "../../lib/generatedResearchReports";
+import ArcheNovaGalaxy from "../components/ArcheNovaGalaxy";
 
 export default function Home() {
 
@@ -18,6 +15,17 @@ export default function Home() {
       <MobileHomeScrollReset />
       {/* “めくる”UI（Next/Prev + dots） */}
       <HomeSectionPager />
+
+      {/* =========================
+    PAGE : ARCHENOVA GALAXY
+   ========================= */}
+<section
+  id="home-galaxy"
+  className="home-page home-galaxy-page"
+  data-home-section
+>
+  <ArcheNovaGalaxy />
+</section>
 
       {/* =========================
     PAGE 01 : HERO
