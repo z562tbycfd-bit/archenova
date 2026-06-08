@@ -165,25 +165,34 @@ knowledgeItems.push(
 
     if (!error && crossings) {
      knowledgeItems.push(
-  ...crossings.map((item) => ({
-    type: "Crossing",
-    title: item.text ?? "Community Crossing",
-    text: [
-      item.category,
-      item.source_type,
-      item.verification_status,
-      item.trust_score,
-      item.author,
-      item.text,
-    ]
-      .filter(Boolean)
-      .join(" "),
-    url: "/crossings",
-    trustScore:
-      typeof item.trust_score === "number"
-        ? item.trust_score
-        : 40,
-  }))
+ ...normalizeObservationItems(scienceData, "Basic Science"),
+ ...normalizeObservationItems(technologyData, "Applied Science")
+);
+
+knowledgeItems.push(...reports);
+
+knowledgeItems.push(...signals);
+
+knowledgeItems.push(
+ ...crossings.map((item) => ({
+   type: "Crossing",
+   title: item.text ?? "Community Crossing",
+   text: [
+     item.category,
+     item.source_type,
+     item.verification_status,
+     item.trust_score,
+     item.author,
+     item.text,
+   ]
+     .filter(Boolean)
+     .join(" "),
+   url: "/crossings",
+   trustScore:
+     typeof item.trust_score === "number"
+       ? item.trust_score
+       : 40,
+ }))
 );
    }
 
