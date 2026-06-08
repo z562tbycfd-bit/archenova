@@ -1,8 +1,28 @@
 import Link from "next/link";
-import { generatedResearchReports } from "@/lib/generatedResearchReports";
+import { notFound } from "next/navigation";
+import {
+generatedResearchReports,
+getGeneratedResearchReport,
+} from "@/lib/generatedResearchReports";
 
-export default function IntelligenceReportsPage() {
-  return (
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+return generatedResearchReports.map((report) => ({
+slug: report.slug,
+}));
+}
+
+export default function IntelligenceReportPage({
+params,
+}: {
+params: { slug: string };
+}) {
+const report = getGeneratedResearchReport(params.slug);
+
+if (!report) notFound();
+
+return (
     <main className="page-standard">
       <div className="page-head">
         <span className="home-section-label">

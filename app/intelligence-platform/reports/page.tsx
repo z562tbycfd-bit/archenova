@@ -1,8 +1,11 @@
 import Link from "next/link";
-import { generatedResearchReports } from "@/lib/generatedResearchReports";
+import {
+generatedResearchReports,
+archeNovaTopSignals,
+} from "@/lib/generatedResearchReports";
 
 export default function IntelligenceReportsPage() {
-  return (
+return (
     <main className="page-standard">
       <div className="page-head">
         <span className="home-section-label">
