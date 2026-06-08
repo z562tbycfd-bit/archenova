@@ -33,6 +33,8 @@ type ArcheNovaAnalysis = {
   structure: string;
   causality: string;
   implementation: string;
+  infrastructure: string;
+  civilization: string;
   verification: string;
 };
 
@@ -147,6 +149,8 @@ export default function StructuralAISearch() {
     <p><strong>Structure</strong><br />{archeNovaAnalysis.structure}</p>
     <p><strong>Causality</strong><br />{archeNovaAnalysis.causality}</p>
     <p><strong>Implementation</strong><br />{archeNovaAnalysis.implementation}</p>
+    <p><strong>Infrastructure</strong><br />{archeNovaAnalysis.infrastructure}</p>
+    <p><strong>Civilization</strong><br />{archeNovaAnalysis.civilization}</p>
     <p><strong>Verification</strong><br />{archeNovaAnalysis.verification}</p>
   </div>
 )}  
