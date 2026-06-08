@@ -36,6 +36,10 @@ type ArcheNovaAnalysis = {
   infrastructure: string;
   civilization: string;
   verification: string;
+  confidence: string;
+  evidenceRanking: string[];
+  counterpoint: string;
+  recommendation: string;
 };
 
 export default function StructuralAISearch() {
@@ -145,15 +149,77 @@ export default function StructuralAISearch() {
   <div className="glass-block">
     <h3>ArcheNova Analysis</h3>
 
-    <p><strong>Essence</strong><br />{archeNovaAnalysis.essence}</p>
-    <p><strong>Structure</strong><br />{archeNovaAnalysis.structure}</p>
-    <p><strong>Causality</strong><br />{archeNovaAnalysis.causality}</p>
-    <p><strong>Implementation</strong><br />{archeNovaAnalysis.implementation}</p>
-    <p><strong>Infrastructure</strong><br />{archeNovaAnalysis.infrastructure}</p>
-    <p><strong>Civilization</strong><br />{archeNovaAnalysis.civilization}</p>
-    <p><strong>Verification</strong><br />{archeNovaAnalysis.verification}</p>
+    <p>
+      <strong>Essence</strong>
+      <br />
+      {archeNovaAnalysis.essence}
+    </p>
+
+    <p>
+      <strong>Structure</strong>
+      <br />
+      {archeNovaAnalysis.structure}
+    </p>
+
+    <p>
+      <strong>Causality</strong>
+      <br />
+      {archeNovaAnalysis.causality}
+    </p>
+
+    <p>
+      <strong>Implementation</strong>
+      <br />
+      {archeNovaAnalysis.implementation}
+    </p>
+
+    <p>
+      <strong>Infrastructure</strong>
+      <br />
+      {archeNovaAnalysis.infrastructure}
+    </p>
+
+    <p>
+      <strong>Civilization</strong>
+      <br />
+      {archeNovaAnalysis.civilization}
+    </p>
+
+    <p>
+      <strong>Verification</strong>
+      <br />
+      {archeNovaAnalysis.verification}
+    </p>
+
+    <p>
+      <strong>Confidence</strong>
+      <br />
+      {archeNovaAnalysis.confidence}
+    </p>
+
+    {archeNovaAnalysis.evidenceRanking.length > 0 && (
+      <div>
+        <strong>Evidence Ranking</strong>
+
+        {archeNovaAnalysis.evidenceRanking.map((item) => (
+          <p key={item}>→ {item}</p>
+        ))}
+      </div>
+    )}
+
+    <p>
+      <strong>Counterpoint</strong>
+      <br />
+      {archeNovaAnalysis.counterpoint}
+    </p>
+
+    <p>
+      <strong>Recommendation</strong>
+      <br />
+      {archeNovaAnalysis.recommendation}
+    </p>
   </div>
-)}  
+)}
 
       {error && <p className="gate-msg">{error}</p>}
 
