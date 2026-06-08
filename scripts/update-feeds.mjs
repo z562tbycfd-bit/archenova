@@ -21,7 +21,7 @@ const SCIENCE_SOURCES = [
   {
     id: "science",
     name: "Science",
-    url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
+    url: "https://www.sciencemag.org/rss/news_current.xml",
   },
   {
     id: "aps",
@@ -56,12 +56,12 @@ const SCIENCE_SOURCES = [
   {
     id: "j.am.chem.soc",
     name: "Journal of the American Chemical Society",
-    url: "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jaacsu",
+    url: "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat",
   },
   {
     id: "mit nanotech",
     name: "MIT Nanotechnology",
-    url: "https://nanotech.mit.edu/rss.xml"
+    url: "https://news.mit.edu/rss/topic/nanotechnology2",
   },
 ];
 
@@ -71,11 +71,14 @@ const TECHNOLOGY_CATEGORIES = [
   name: "Policy",
   sources: [
     { id: "nist", 
-      name: "NIST", url: "https://www.nist.gov/news-events/news/rss.xml" },
+      name: "NIST", 
+      url: "https://www.nist.gov/news-events/news/rss.xml" },
     { id: "sciencegov", 
-      name: "Science.gov", url: "https://www.science.gov/rss/news.xml" },
+      name: "Science.gov", 
+      url: "https://www.science.gov/rss/news.xml" },
     { id: "ieee", 
-      name: "IEEE Spectrum", url: "https://spectrum.ieee.org/rss/fulltext" },
+      name: "IEEE Spectrum", 
+      url: "https://spectrum.ieee.org/rss/fulltext" },
   ],
 },
   {
@@ -201,7 +204,7 @@ const TECHNOLOGY_CATEGORIES = [
     {
       id: "genomeweb",
       name: "GenomeWeb",
-      url: "https://www.genomeweb.com/rss.xml",
+      url: "http://www.genomeweb.com/rss.xml",
     },
     {
       id: "arxiv-qbio",

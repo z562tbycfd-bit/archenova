@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-08T18:51:05.080Z",
+  "updated": "2026-06-08T19:00:30.319Z",
   "items": [
     {
       "source": "Phys.org",
@@ -295,6 +295,13 @@
       "url": "https://phys.org/news/2026-06-nickelate-superconductors-common-electronic-fingerprint.html",
       "summary": "Superconductors, materials that conduct electricity with zero electrical resistance at specific temperature ranges, have proved very promising for the development of quantum computers and other cutting-edge technologies.…",
       "ts": 1780914001000
+    },
+    {
+      "source": "Science",
+      "title": "How novel is that research paper? Competition to quantify concept crowns winner",
+      "url": "https://www.science.org/content/article/how-novel-research-paper-competition-quantify-concept-crowns-winner",
+      "summary": "The automated tool could be used to help journals vet submissions",
+      "ts": 1780912800000
     },
     {
       "source": "APS / PRL",
@@ -693,13 +700,6 @@
       "title": "Optical Poling Reveals Hidden Molecular Restructuring in Multimode Fibers, Unlocking Ultra-Efficient Third-Order Nonlinearities",
       "url": "https://arxiv.org/abs/2606.07444",
       "summary": "arXiv:2606.07444v1 Announce Type: new Abstract: Optical poling is a well-established technique for inducing \\chi^{(2)} nonlinearity, yet its impact on silica's molecular structure remains unexplored. Here, we report the …",
-      "ts": 1780891200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collective emission of subwavelengths atom-like emitter arrays in the presence of inhomogeneous broadening",
-      "url": "https://arxiv.org/abs/2606.07458",
-      "summary": "arXiv:2606.07458v1 Announce Type: new Abstract: Quantum metasurfaces comprised of subwavelength atomic arrays emerged as a promising platform for enhanced atom-photon interaction. However, realizing such a system with so…",
       "ts": 1780891200000
     }
   ],
