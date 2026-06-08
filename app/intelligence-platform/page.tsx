@@ -89,30 +89,6 @@ export default function IntelligencePlatformPage() {
         </div>
       </section>
 
-      <section className="glass-block">
-        <h2>Intelligence Flow</h2>
-
-        <div className="research-roadmap">
-          {[
-            "Observation",
-            "Signals",
-            "Reports",
-            "Research",
-            "Structural AI",
-          ].map((step, index) => (
-            <div key={step} className="research-roadmap-step">
-              <div className="research-roadmap-index">
-                {String(index + 1).padStart(2, "0")}
-              </div>
-
-              <div className="research-roadmap-node">
-                {step}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       <div className="page-foot">
         <Link href="/home" className="back-link">
           ← Back to Home
