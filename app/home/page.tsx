@@ -17,17 +17,6 @@ export default function Home() {
       <HomeSectionPager />
 
       {/* =========================
-    PAGE : ARCHENOVA GALAXY
-   ========================= */}
-<section
-  id="home-galaxy"
-  className="home-page home-galaxy-page"
-  data-home-section
->
-  <ArcheNovaGalaxy />
-</section>
-
-      {/* =========================
     PAGE 01 : HERO
    ========================= */}
 <section id="home-hero" data-home-section className="home-page hero-page">
@@ -78,6 +67,17 @@ export default function Home() {
       </div>
     </Reveal>
   </div>
+</section>
+
+{/* =========================
+    PAGE : ARCHENOVA GALAXY
+   ========================= */}
+<section
+  id="home-galaxy"
+  className="home-page home-galaxy-page"
+  data-home-section
+>
+  <ArcheNovaGalaxy />
 </section>
 
 {/* =========================
