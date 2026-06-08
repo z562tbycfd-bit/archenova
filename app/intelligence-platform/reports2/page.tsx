@@ -12,8 +12,8 @@ export default function IntelligenceReportsPage() {
         <h1>ArcheNova Intelligence Reports</h1>
 
         <p className="page-lead">
-          Auto-generated intelligence reports derived from Observation,
-          Signals, ArcheNova Analysis, and future implementation pathways.
+          Auto-generated reports derived from Observation, Signals,
+          ArcheNova Analysis, and future implementation pathways.
         </p>
       </div>
 
