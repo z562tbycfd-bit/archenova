@@ -34,10 +34,10 @@ export default function StructuralAIPage() {
     <main className="page-standard">
       <div className="page-head">
         <span className="home-section-label">
-          ARCHENOVA STRUCTURAL AI
+          ARCHENOVA RESEARCH
         </span>
 
-        <h1>ArcheNova Structural AI</h1>
+        <h1>ArcheNova Research</h1>
 
         <p className="page-lead">
           The official intelligence brain of ArcheNova, designed to structure,
