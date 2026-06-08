@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-06-07T13:12:45.836Z",
+  "updated": "2026-06-08T01:20:24.248Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
+      "summary": "NVIDIA and Doosan Group are expanding their collaboration to advance new opportunities across physical AI, robotics and AI factory infrastructure, spanning Doosan Robotics, Doosan Bobcat, Doosan Enerbility and Doosan Cor…",
+      "ts": 1780873236000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",
+      "url": "https://nvidianews.nvidia.com/news/sk-telecom-ai-infrastructure",
+      "summary": "NVIDIA and SK Telecom today announced that SK Telecom plans to build a gigawatt-scale AI Cloud in Korea using the NVIDIA DSX™ platform, with the first AI factory coming online in 2027.",
+      "ts": 1780873200000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and SK hynix Announce Multiyear Technology Partnership to Advance Memory for AI Factories",
+      "url": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
+      "summary": "NVIDIA and SK hynix today announced a multiyear technology partnership to advance next-generation memory for the global AI factory buildout and accelerate semiconductor design and manufacturing.",
+      "ts": 1780873200000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NAVER Expands AI Infrastructure With NVIDIA to Serve Surging Global AI Demand",
+      "url": "https://nvidianews.nvidia.com/news/naver-ai-infrastructure",
+      "summary": "NVIDIA and NAVER today announced that NAVER will expand sovereign AI infrastructure, starting at 55 megawatts with plans to move to gigawatt scale using the NVIDIA DSX™ platform to rapidly design, build and scale full-st…",
+      "ts": 1780873200000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NASA to select new headquarters building by end of year",
+      "url": "https://spacenews.com/nasa-to-select-new-headquarters-building-by-end-of-year/",
+      "summary": "NASA plans to find a new headquarters building by the end of this year while remaining in the Washington area. The post NASA to select new headquarters building by end of year appeared first on SpaceNews.",
+      "ts": 1780840538000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rounding up the space unicorns",
+      "url": "https://spacenews.com/rounding-up-the-space-unicorns/",
+      "summary": "Once rare beasts, billion-dollar startups are multiplying across new orbital markets. The post Rounding up the space unicorns appeared first on SpaceNews.",
+      "ts": 1780830234000,
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
@@ -9,6 +57,54 @@
       "summary": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to…",
       "ts": 1780815615000,
       "categoryId": "semiconductor"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NASA interested in Hubble reboost if costs can be reduced",
+      "url": "https://spacenews.com/nasa-interested-in-hubble-reboost-if-costs-can-be-reduced/",
+      "summary": "As NASA prepares an attempt to reboost an astronomy spacecraft in a decaying orbit, it is open to doing something similar for Hubble, if its operating costs can be reduced. The post NASA interested in Hubble reboost if c…",
+      "ts": 1780793527000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NASA concerns about Russian repairs prompted ISS safe haven decision",
+      "url": "https://spacenews.com/nasa-concerns-about-russian-repairs-prompted-iss-safe-haven-decision/",
+      "summary": "NASA directed astronauts on the ISS to shelter in a Crew Dragon spacecraft after Russian cosmonauts planned to perform repairs the agency thought created “elevated risk” to the station. The post NASA concerns about Russi…",
+      "ts": 1780767215000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s X-59 Aircraft Flies Supersonic for First Time",
+      "url": "https://www.nasa.gov/aeronautics/x-59-first-supersonic-flight/",
+      "summary": "NASA’s experimental X-59 aircraft marked a major milestone Friday, June 5, when it flew faster than the speed of sound for the first time, setting the stage for demonstrating its quiet supersonic capabilities later this …",
+      "ts": 1780692297000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Announces Winners of 2026 University Innovation Competition ",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-announces-winners-of-2026-university-innovation-competition/",
+      "summary": "NASA announced the Massachusetts Institute of Technology project, Exploration-Class Lunar Integrated Power SystEm, as the first place winner for the 2026 Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-…",
+      "ts": 1780690631000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Artemis II Moon Mission Research Continues on Earth",
+      "url": "https://science.nasa.gov/uncategorized/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
+      "summary": "Since NASA’s Artemis II crew members safely splashed down in the Pacific Ocean on April 10 after their record-setting mission around the Moon, science teams have been busy collecting more data and combing through observa…",
+      "ts": 1780687008000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service",
+      "url": "https://spacenews.com/leaf-space-partners-with-d-orbit-and-endurosat-to-test-connectivity-service/",
+      "summary": "MILAN – Italian ground segment operator Leaf Space unveiled a new space connectivity service May 27. The technology, named TreeNet, aims to make space communications more seamless by treating individual […] The post Leaf…",
+      "ts": 1780683130000,
+      "categoryId": "space"
     },
     {
       "source": "IEEE Spectrum",
@@ -19,6 +115,38 @@
       "categoryId": "semiconductor"
     },
     {
+      "source": "NASA",
+      "title": "NASA Concludes Antenna Mishap Investigation, Releases Report",
+      "url": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/nasa-concludes-antenna-mishap-investigation-releases-report/",
+      "summary": "NASA has completed the investigation into the damage sustained last year at its 70-meter radio-frequency antenna, known as the Deep Space Station 14 (DSS-14), at the Goldstone Deep Space Communications Complex near Barst…",
+      "ts": 1780678800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Astronauts briefly shelter in Dragon during ISS leak repair",
+      "url": "https://spacenews.com/astronauts-briefly-shelter-in-dragon-during-iss-leak-repair/",
+      "summary": "NASA instructed astronauts on the International Space Station to briefly shelter in a Dragon spacecraft June 5 as cosmonauts attempted to repair an air leak in a Russian module. The post Astronauts briefly shelter in Dra…",
+      "ts": 1780676956000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA Image of the Day",
+      "title": "First Steps: America’s Grueling Second Spacewalk",
+      "url": "https://www.nasa.gov/image-detail/s66-38515orig/",
+      "summary": "A year after America’s first spacewalk, Gemini IX-A Eugene Cernan stepped outside his spacecraft for an ambitious extravehicular activity scheduled for 167 minutes. The challenges he faced led NASA to reevaluate plans, e…",
+      "ts": 1780674480000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "First Steps: America’s Grueling Second Spacewalk",
+      "url": "https://www.nasa.gov/image-article/first-steps-americas-grueling-second-spacewalk/",
+      "summary": "One year after Gemini IV astronaut Edward H. White completed NASA’s first spacewalk the agency prepared for a demanding second excursion. Originally scheduled for Gemini VIII, the extravehicular activity (EVA) was reassi…",
+      "ts": 1780674447000,
+      "categoryId": "space"
+    },
+    {
       "source": "Quanta Magazine",
       "title": "Are Memories Transferable — or Edible?",
       "url": "https://www.quantamagazine.org/are-memories-transferable-or-edible-20260605/",
@@ -27,12 +155,68 @@
       "categoryId": "quantum"
     },
     {
+      "source": "SpaceNews",
+      "title": "Next Ariane 6 launch to carry 36 Amazon Leo satellites using upgraded boosters",
+      "url": "https://spacenews.com/next-ariane-6-launch-to-carry-36-amazon-leo-satellites-using-upgraded-boosters/",
+      "summary": "Amazon will fly its largest number of broadband satellites to date later this month on the first Ariane 6 launch to use upgraded boosters. The post Next Ariane 6 launch to carry 36 Amazon Leo satellites using upgraded bo…",
+      "ts": 1780668151000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Date is set for bigger booster, more powerful Ariane 6 ",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Date_is_set_for_bigger_booster_more_powerful_Ariane_6",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/p160c_based_booster_for_ariane_6_arrives_at_the_launch_pad/27310691-1-eng-GB/P160C_based_booster_for_Ariane_6_arrives_at_the_launch_pad_c…",
+      "ts": 1780667580000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 01-05 Jun 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_01-05_Jun_2026",
+      "summary": "Week in images: 01-05 Jun 2026 Discover our week through the lens",
+      "ts": 1780665000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "How Europe studies the Sun",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/How_Europe_studies_the_Sun",
+      "summary": "Video: 00:02:40 English How does Europe study the Sun? Discover the missions revealing the secrets of our closest star, from SOHO and Solar Orbiter to Proba-3, which is creating artificial solar eclipses in space to unlo…",
+      "ts": 1780664400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Let’s build the moon base, but not lose sight of Mars",
+      "url": "https://spacenews.com/lets-build-the-moon-base-but-not-lose-sight-of-mars/",
+      "summary": "These are heady days for NASA and the space industry. The Artemis 2 crew flew around the moon, traveling farther into space than any humans previously had; NASA announced an […] The post Let’s build the moon base, but no…",
+      "ts": 1780664400000,
+      "categoryId": "space"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The Download: AI hacking beyond Mythos, and chatbots’ impact on our brains",
       "url": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Meta hack shows there’s more to AI security than Mythos On Monday, reports eme…",
       "ts": 1780661400000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Qianfan constellation deployment hits 200 satellites with Long March 8 and 6A launches",
+      "url": "https://spacenews.com/qianfan-constellation-deployment-hits-200-satellites-with-long-march-8-and-6a-launches/",
+      "summary": "Construction of the Shanghai-led Qianfan constellation continued to accelerate this week with a pair of Long March launches, following on from two recent experimental flights. The post Qianfan constellation deployment hi…",
+      "ts": 1780656392000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Satellite maker Apex’s valuation rises to $2.3 billion after latest $200 million raise",
+      "url": "https://spacenews.com/satellite-maker-apexs-valuation-rises-to-2-3-billion-after-latest-200-million-raise/",
+      "summary": "Apex has raised more than $200 million to expand in-house satellite production capabilities, announcing a funding round June 5 it says nearly doubled the four-year-old manufacturer’s valuation to $2.3 billion. The post S…",
+      "ts": 1780650900000,
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -51,12 +235,52 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "SpaceNews",
+      "title": "The Exploration Company completes drop test of Nyx capsule",
+      "url": "https://spacenews.com/the-exploration-company-completes-drop-test-of-nyx-capsule/",
+      "summary": "The Exploration Company performed a drop test of the Nyx spacecraft it is developing to transport cargo to low Earth orbit ahead of a 2028 test flight. The post The Exploration Company completes drop test of Nyx capsule …",
+      "ts": 1780648224000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Webb unveils young stars across every stage of formation",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Webb_unveils_young_stars_across_every_stage_of_formation",
+      "summary": "Image: Webb unveils young stars across every stage of formation",
+      "ts": 1780646400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Baku, Azerbaijan",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Baku_Azerbaijan",
+      "summary": "Image: On World Environment Day, the Copernicus Sentinel-2 mission brings us an amazing view from space of Baku, capital of Azerbaijan, hosting this year’s celebration.",
+      "ts": 1780646400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Axiom Space adds more than $175 million to funding round",
+      "url": "https://spacenews.com/axiom-space-adds-more-than-175-million-to-funding-round/",
+      "summary": "Axiom Space announced June 4 that it added more than $175 million to its latest funding round, with Japan’s largest bank joining the company’s investors. The post Axiom Space adds more than $175 million to funding round …",
+      "ts": 1780643004000,
+      "categoryId": "space"
+    },
+    {
       "source": "NVIDIA",
       "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
       "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
       "summary": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen H…",
       "ts": 1780637917000,
       "categoryId": "semiconductor"
+    },
+    {
+      "source": "NASA",
+      "title": "Fighting Fire With Fire",
+      "url": "https://science.nasa.gov/earth/earth-observatory/fighting-fire-with-fire/",
+      "summary": "In fire-prone ecosystems in Australia’s Northern Territory, prescribed burns are lit to minimize the severity of fires later in the season.",
+      "ts": 1780632060000,
+      "categoryId": "space"
     },
     {
       "source": "Nature Biotechnology",
@@ -75,12 +299,68 @@
       "categoryId": "bio"
     },
     {
+      "source": "SpaceNews",
+      "title": "HASC NDAA markup challenges Space Force on satellite programs",
+      "url": "https://spacenews.com/hasc-ndaa-markup-challenges-space-force-on-satellite-programs/",
+      "summary": "House Armed Services Committee seeks to preserve a missile-warning satellite program the Pentagon wants to cancel. It also criticizes a recent tactical communications satellite procurement and GPS oversight The post HASC…",
+      "ts": 1780612324000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Hosts 2026 Review on Advanced Composite Manufacturing",
+      "url": "https://www.nasa.gov/directorates/armd/aavp/hicam/nasa-hosts-2026-review-on-advanced-composite-manufacturing/",
+      "summary": "NASA’s Hi-Rate Composite Aircraft Manufacturing (HiCAM) project brought together its full team of Advanced Composites Consortium partners for a 2026 spring review at NASA’s Langley Research Center in Hampton, Virginia. T…",
+      "ts": 1780605384000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA-Funded Study Shows Wildfire Smoke’s Hidden Ozone Toll",
+      "url": "https://science.nasa.gov/earth/nasa-funded-study-shows-wildfire-smokes-hidden-ozone-toll/",
+      "summary": "Over the last decade, wildfires have worsened ground-level ozone pollution across much of the contiguous United States, creating unhealthy air far from active flames.",
+      "ts": 1780596119000,
+      "categoryId": "space"
+    },
+    {
       "source": "US DOE",
       "title": "United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission",
       "url": "https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps",
       "summary": "The U.S. Department of Energy and Japan’s Ministry of Education, Culture, Sports, Science and Technology and Ministry of Economy, Trade and Industry, today announced an historic $1 billion strategic partnership making Ja…",
       "ts": 1780592400000,
       "categoryId": "energy"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "AstroForge completes DeepSpace-2 spacecraft",
+      "url": "https://spacenews.com/astroforge-completes-deepspace-2-spacecraft/",
+      "summary": "Asteroid mining startup AstroForge has completed assembly of its latest spacecraft for launch later this year, incorporating lessons from a failed mission last year. The post AstroForge completes DeepSpace-2 spacecraft a…",
+      "ts": 1780589005000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Colorful, Chaotic Jupiter",
+      "url": "https://www.nasa.gov/image-article/colorful-chaotic-jupiter/",
+      "summary": "NASA’s Juno spacecraft captured this color-enhanced view of Jupiter’s northern hemisphere during its 61st close flyby of the giant planet on May 12, 2024. Citizen scientist Gary Eason made this image using raw data from …",
+      "ts": 1780588683000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA Image of the Day",
+      "title": "Colorful, Chaotic Jupiter",
+      "url": "https://www.nasa.gov/image-detail/pia25729orig/",
+      "summary": "During its 61st close flyby of Jupiter on May 12, 2024, NASA's Juno spacecraft captured this color-enhanced view of the giant planet's northern hemisphere.",
+      "ts": 1780588680000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Delian Asparouhov and Philip Johnston on making the case for orbital data centers",
+      "url": "https://spacenews.com/delian-asparouhov-and-philip-johnston-on-making-the-case-for-orbital-data-centers/",
+      "summary": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, Jeff Foust talks with talks with Founders Fund’s Delian Asparouhov about why he’s warming to […] The post Delian Asparouhov and …",
+      "ts": 1780585420000,
+      "categoryId": "space"
     },
     {
       "source": "Quanta Magazine",
@@ -97,6 +377,14 @@
       "summary": "June’s forecast with GeForce NOW: 100% chance of gaming. GeForce NOW is lining up new adventures for the month, from big-name blockbusters to quirky indies ready for the spotlight. Members can dive into fresh worlds, squ…",
       "ts": 1780578027000,
       "categoryId": "semiconductor"
+    },
+    {
+      "source": "ESA",
+      "title": "Tessera AI model offers accessible way to view Earth",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Tessera_AI_model_offers_accessible_way_to_view_Earth",
+      "summary": "A foundation model trained on Earth observation data from Copernicus Sentinel-1 and Sentinel-2 has been made widely available to researchers, it was announced at a computer industry conference this week in Denver, US.",
+      "ts": 1780578000000,
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -131,12 +419,28 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "SpaceNews",
+      "title": "NASA working to streamline development of nuclear electric propulsion demo mission",
+      "url": "https://spacenews.com/nasa-working-to-streamline-development-of-nuclear-electric-propulsion-demo-mission/",
+      "summary": "NASA is working on a streamlined management approach for a nuclear electric propulsion demonstration mission the agency wants to launch in two and a half years. The post NASA working to streamline development of nuclear …",
+      "ts": 1780570556000,
+      "categoryId": "space"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "How courts are coping with a flood of AI-generated lawsuits",
       "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
       "summary": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have…",
       "ts": 1780570218000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "China builds institutional framework for space computing push",
+      "url": "https://spacenews.com/china-builds-institutional-framework-for-space-computing-push/",
+      "summary": "China is establishing an industrial policy framework to support a push to build space-based computing infrastructure, with the emergence of influential coordinating bodies. The post China builds institutional framework f…",
+      "ts": 1780566661000,
+      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -147,340 +451,36 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "OpenAI",
-      "title": "Biodefense in the Intelligence Age",
-      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "summary": "An action plan for AI-powered biological resilience",
-      "ts": 1780531200000,
-      "categoryId": "ai-compute"
+      "source": "ESA",
+      "title": "A new chapter for ESA’s brand",
+      "url": "https://www.esa.int/About_Us/Branding_and_Partnerships/A_new_chapter_for_ESA_s_brand",
+      "summary": "Last year, the European Space Agency (ESA) unveiled its long-term vision for the decades ahead with ESA Strategy 2040. Framed around five encompassing goals which demonstrate the important role space can play in every as…",
+      "ts": 1780560000000,
+      "categoryId": "space"
     },
     {
-      "source": "Nature Biotechnology",
-      "title": "Marked for destruction",
-      "url": "https://www.nature.com/articles/s41587-026-03182-5",
-      "summary": "",
-      "ts": 1780531200000,
-      "categoryId": "bio"
+      "source": "ESA",
+      "title": "ExoMars rover targets vast bed of clay in search for life ",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_targets_vast_bed_of_clay_in_search_for_life",
+      "summary": "In the region where the ExoMars Rosalind Franklin rover will search for signs of life, clay deposits extend beyond previous estimates, a new study finds. One hypothesis even suggests a vast ocean once covered the landing…",
+      "ts": 1780554600000,
+      "categoryId": "space"
     },
     {
-      "source": "IEEE Spectrum",
-      "title": "7 Ways New Engineers Can Flourish in the Age of AI",
-      "url": "https://spectrum.ieee.org/7-ways-engineers-flourish-ai",
-      "summary": "New graduates’ careers are unfolding in an era when AI is not optional. The most successful engineers treat artificial intelligence as leverage, not competition. Here are seven tips to help keep young professionals in de…",
-      "ts": 1780509602000,
-      "categoryId": "semiconductor"
+      "source": "NASA",
+      "title": "A Moonlit Earth as Seen From Artemis II",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-moonlit-earth-as-seen-from-artemis-ii/",
+      "summary": "An astronaut’s photo, taken en route to the Moon, reveals our planet and its place in space in a novel way.",
+      "ts": 1780545660000,
+      "categoryId": "space"
     },
     {
-      "source": "MIT Technology Review",
-      "title": "How virtual power plants could provide energy for data centers",
-      "url": "https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/",
-      "summary": "Would you take a payment to ramp down your electricity use? Would it change anything if you were doing so to help power a local data center? Google just signed a new deal to help pay for a virtual power plant (VPP) in th…",
-      "ts": 1780505498000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-      "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
-      "summary": "What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn…",
-      "ts": 1780498857000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
-      "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
-      "summary": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles, robots and vision AI systems. The core challenge in physical AI research isn’t …",
-      "ts": 1780498835000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "Entanglement Builds Space-Time. Now “Magic” Gives It Gravity.",
-      "url": "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/",
-      "summary": "In holographic theories, physicists may have traced the pliability of space-time to its quantum roots: a measure of quantumness known as “magic.” The post Entanglement Builds Space-Time. Now “Magic” Gives It Gravity. fir…",
-      "ts": 1780497269000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing new capabilities to GPT-Rosalind",
-      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "ts": 1780492500000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Trump’s new AI order, and smart glasses for warfare",
-      "url": "https://www.technologyreview.com/2026/06/03/1138322/the-download-trump-ai-order-smart-glasses-warfare/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. 5 key points in Trump’s new AI order Less than two weeks after scrapping an execut…",
-      "ts": 1780488600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
-      "url": "https://openai.com/index/wasmer",
-      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-      "ts": 1780488000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "What It Takes for Future-Ready Power Distribution",
-      "url": "https://spectrum.ieee.org/distribution-grid-modernization",
-      "summary": "This sponsored article is brought to you by Black & Veatch. The biggest challenge facing utilities today isn’t what it seems. It’s not demand, even as load growth accelerates. It’s not extreme weather, even as “major eve…",
-      "ts": 1780484401000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "OpenAI",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "ts": 1780480800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "ts": 1780480800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Programmable control of bacterial operons with a single Cas13 RNA effector",
-      "url": "https://www.nature.com/articles/s41587-026-03159-4",
-      "summary": "",
-      "ts": 1780444800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Single-cell spatial pharmacobiology identifies conserved stromal barriers to therapeutic antibody delivery in human solid tumors",
-      "url": "https://www.nature.com/articles/s41587-026-03152-x",
-      "summary": "",
-      "ts": 1780444800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Industrial Software Leaders Build Secure, Autonomous AI Engineers With NVIDIA NemoClaw",
-      "url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
-      "summary": "Accelerated computing has revolutionized industrial engineering, compressing simulation times from weeks to hours. Today’s remaining challenges sit in the end-to-end workflow surrounding the simulations: computer-aided d…",
-      "ts": 1780437658000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Partners With Microsoft on Unified Stack for Agentic AI Deployment, From Windows Devices to Cloud to Local",
-      "url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
-      "summary": "The agentic AI moment has arrived, but delivering on its promise requires more than good models. It also takes fast hardware, secure runtimes, a responsive data layer and models tuned for long-running reasoning. NVIDIA a…",
-      "ts": 1780426808000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI can run your admin department now",
-      "url": "https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How small businesses can leverage AI From accounting to design to market research …",
-      "ts": 1780402200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "url": "https://openai.com/index/travelers",
-      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
-      "ts": 1780401600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Rehumanizing global health care with agentic AI",
-      "url": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
-      "summary": "The global health care sector is under increasing strain. Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are …",
-      "ts": 1780399414000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "Direct-to-Cell Technology: Enabling Satellite Connectivity for Legacy Devices",
-      "url": "https://content.knowledgehub.wiley.com/direct-to-cell-technology-enabling-satellite-connectivity-for-legacy-devices/",
-      "summary": "Direct-to-cell technology uses LEO satellites as spaceborne cell towers. It delivers LTE services to existing smartphones without hardware changes, bridging global coverage gaps. What Attendees will Learn How DTC works a…",
-      "ts": 1780394402000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How small businesses can leverage AI",
-      "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
-      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research an…",
-      "ts": 1780390800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Codex for every role, tool, and workflow",
-      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
-      "ts": 1780390800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Advancing youth safety and opportunity through global leadership",
-      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
-      "ts": 1780383600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Why Financial Institutions Are Converging on Transaction Foundation Models to Build Their Own Intelligence",
-      "url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models/",
-      "summary": "Financial institutions have spent years building AI: fraud models, credit models, recommendation engines and risk systems. While this sprawl of task-specific models has been effective, it’s also constrained by siloed sys…",
-      "ts": 1780380036000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
-      "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
-      "summary": "Agentic AI is getting physical. At COMPUTEX on Tuesday, NVIDIA announced NVIDIA JetPack 7.2 and NVIDIA NemoClaw support on Jetson. JetPack 7.2 brings agentic AI skills, Yocto project support, NVIDIA CUDA 13 on NVIDIA Jet…",
-      "ts": 1780365640000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Codex is becoming a productivity tool for everyone",
-      "url": "https://openai.com/index/codex-for-knowledge-work",
-      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
-      "ts": 1780365600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Programmable, multiplexed and orthogonal gene control in bacteria with attenuated Cas13d systems",
-      "url": "https://www.nature.com/articles/s41587-026-03160-x",
-      "summary": "",
-      "ts": 1780358400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "IEEE President’s Note: Designing a Safer Digital World for Kids",
-      "url": "https://spectrum.ieee.org/ieee-presidents-note-june-2026",
-      "summary": "Children born after 2013 are the first generation to grow up fully immersed in digital systems, which weren’t designed with them in mind. One‑third of the world’s Internet users are younger than 18, according to UNICEF, …",
-      "ts": 1780336802000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Our views on AI policy and political advocacy",
-      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-      "summary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
-      "ts": 1780333200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "The Dirt That Refused To Die",
-      "url": "https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/",
-      "summary": "Lifelike biochemistry continued to unfold in sterilized soil for six years, pointing to a metabolic theory for how biology began. The post The Dirt That Refused To Die first appeared on Quanta Magazine",
-      "ts": 1780325097000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Building the infrastructure for the Intelligence Age in Michigan",
-      "url": "https://openai.com/index/stargate-michigan-data-center",
-      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
-      "ts": 1780315200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "Why Sardinians Are Fighting the Renewable Energy Transition",
-      "url": "https://spectrum.ieee.org/renewable-energy-resistance",
-      "summary": "“Not in my backyard” is the rallying cry of citizens everywhere resisting projects proposed for their locality. Whether it’s affordable housing, a waste treatment plant, or a new data center, they may recognize the benef…",
-      "ts": 1780311961000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can ge…",
-      "ts": 1780308000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-      "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
-      "summary": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructure. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling a…",
-      "ts": 1780290056000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain/",
-      "summary": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decisio…",
-      "ts": 1780290047000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Taiwan’s Industry Titans Turbocharge World’s AI Infrastructure Buildout With NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure/",
-      "summary": "Taiwan is home to more than 500 NVIDIA ecosystem partners. More than 1 million NVIDIA MGX rack components for NVIDIA Vera Rubin infrastructure come together in Taiwan, from across 25 factory sites. As Vera Rubin ramps in…",
-      "ts": 1780290041000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing",
-      "summary": "NVIDIA today announced that TSMC, the world’s leading semiconductor company, is using NVIDIA accelerated computing and AI to advance semiconductor design and manufacturing.",
-      "ts": 1780290000000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA, Foxconn and Taiwan Medical Centers Bring Agentic and Physical AI to ‘Healthy Taiwan’",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-foxconn-and-taiwan-medical-centers-bring-agentic-and-physical-ai-to-healthy-taiwan",
-      "summary": "NVIDIA today announced that Foxconn and Taiwan’s leading medical centers are deploying NVIDIA-powered special agent workforces to scale the region’s transition to AI‑driven health systems.",
-      "ts": 1780289940000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Releases Major Collection of Open Source Agent Tools and Skills for Physical AI",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-releases-major-collection-of-open-source-agent-tools-and-skills-for-physical-ai",
-      "summary": "NVIDIA today announced a major collection of open source physical AI skills and tools that help developers turn complex robotics, autonomous vehicle (AV), vision AI and industrial digital twin workflows into agent-execut…",
-      "ts": 1780289580000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Announces NVIDIA Isaac GR00T Reference Humanoid Robot for Academic Research",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
-      "summary": "NVIDIA today announced the NVIDIA Isaac™ GR00T Reference Humanoid Robot, the first open humanoid robot reference design built on NVIDIA Jetson Thor™ and the NVIDIA Isaac GR00T open development platform.",
-      "ts": 1780289400000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA DRIVE Hyperion Becomes the Global Platform for a Robotaxi-Ready World",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-drive-hyperion-becomes-the-global-platform-for-a-robotaxi-ready-world",
-      "summary": "NVIDIA today announced a major expansion of the NVIDIA DRIVE Hyperion™ robotaxi-ready platform ecosystem, bringing together leading global automakers, manufacturing and autonomous vehicle (AV) software ecosystem partners…",
-      "ts": 1780289280000,
-      "categoryId": "semiconductor"
+      "source": "SpaceNews",
+      "title": "SpaceX to raise at least $75 billion in IPO",
+      "url": "https://spacenews.com/spacex-to-raise-at-least-75-billion-in-ipo/",
+      "summary": "SpaceX plans to raise at least $75 billion in its initial public offering, valuing the company at more than $1.75 trillion. The post SpaceX to raise at least $75 billion in IPO appeared first on SpaceNews.",
+      "ts": 1780541672000,
+      "categoryId": "space"
     }
   ],
   "categories": [

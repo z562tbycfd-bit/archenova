@@ -21,7 +21,17 @@ const SCIENCE_SOURCES = [
   {
     id: "nature",
     name: "Nature",
-    url: "https://www.nature.com/nature.rss",
+    url: "https://www.nature.com/nature/current-issue.rss",
+  },
+  {
+    id: "nature-news",
+    name: "Nature News",
+    url: "https://www.nature.com/nature/articles?type=news&format=rss",
+  },
+  {
+    id: "nature-energy",
+    name: "Nature Energy",
+    url: "https://www.nature.com/nenergy.rss",
   },
   {
     id: "science",
@@ -74,12 +84,36 @@ const TECHNOLOGY_CATEGORIES = [
     ],
   },
   {
-    id: "space",
-    name: "Space",
-    sources: [
-      { id: "nasa", name: "NASA", url: "https://www.nasa.gov/rss/dyn/breaking_news.rss" },
-    ],
-  },
+  id: "space",
+  name: "Space",
+  sources: [
+    {
+      id: "nasa",
+      name: "NASA",
+      url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+    },
+    {
+      id: "nasa-image",
+      name: "NASA Image of the Day",
+      url: "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss",
+    },
+    {
+      id: "esa",
+      name: "ESA",
+      url: "https://www.esa.int/rssfeed/TopNews",
+    },
+    {
+      id: "esa-tech",
+      name: "ESA Technology",
+      url: "https://www.esa.int/rssfeed/Enabling_Support/Space_Engineering_Technology",
+    },
+    {
+      id: "spacenews",
+      name: "SpaceNews",
+      url: "https://spacenews.com/feed/",
+    },
+  ],
+},
   {
     id: "bio",
     name: "Bio",
