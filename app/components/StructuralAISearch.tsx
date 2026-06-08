@@ -28,6 +28,14 @@ type GraphResult = {
   dynamicNodes?: GraphNode[];
 };
 
+type ArcheNovaAnalysis = {
+  essence: string;
+  structure: string;
+  causality: string;
+  implementation: string;
+  verification: string;
+};
+
 export default function StructuralAISearch() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -36,6 +44,8 @@ export default function StructuralAISearch() {
   const [searched, setSearched] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  const [archeNovaAnalysis, setArcheNovaAnalysis] =
+  useState<ArcheNovaAnalysis | null>(null);
 
   async function search() {
     const q = query.trim();
@@ -47,6 +57,8 @@ export default function StructuralAISearch() {
     setSearched(false);
     setResults([]);
     setReasoning(null);
+    setGraph(null);
+    setArcheNovaAnalysis(null);
 
     try {
       const res = await fetch("/api/knowledge-search", {
@@ -67,6 +79,7 @@ export default function StructuralAISearch() {
       setResults(data.results || []);
       setReasoning(data.reasoning || null);
       setGraph(data.graph || null);
+      setArcheNovaAnalysis(data.archeNovaAnalysis || null);
       setSearched(true);
     } catch {
       setError("Search failed. Please try again.");
@@ -125,6 +138,18 @@ export default function StructuralAISearch() {
     )}
   </div>
 )}
+
+{archeNovaAnalysis && (
+  <div className="glass-block">
+    <h3>ArcheNova Analysis</h3>
+
+    <p><strong>Essence</strong><br />{archeNovaAnalysis.essence}</p>
+    <p><strong>Structure</strong><br />{archeNovaAnalysis.structure}</p>
+    <p><strong>Causality</strong><br />{archeNovaAnalysis.causality}</p>
+    <p><strong>Implementation</strong><br />{archeNovaAnalysis.implementation}</p>
+    <p><strong>Verification</strong><br />{archeNovaAnalysis.verification}</p>
+  </div>
+)}  
 
       {error && <p className="gate-msg">{error}</p>}
 

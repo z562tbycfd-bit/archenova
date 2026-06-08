@@ -8,6 +8,7 @@ import fs from "fs";
 import path from "path";
 import { generateStructuralReasoning } from "@/lib/structuralReasoning";
 import { getRelatedGraphNodes } from "@/lib/knowledgeGraph";
+import { generateArcheNovaAnalysis } from "@/lib/archeNovaAnalysis";
 
 export const runtime = "nodejs";
 
@@ -202,10 +203,13 @@ knowledgeItems.push(
 
    const graph = getRelatedGraphNodes(query, results);
 
+    const archeNovaAnalysis = generateArcheNovaAnalysis(query, results);
+
 return Response.json({
   results,
   reasoning,
   graph,
+  archeNovaAnalysis,
 });
 
   } catch (error) {
