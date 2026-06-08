@@ -1,74 +1,168 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
-generatedResearchReports,
-getGeneratedResearchReport,
+  generatedResearchReports,
+  getGeneratedResearchReport,
 } from "@/lib/generatedResearchReports";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-return generatedResearchReports.map((report) => ({
-slug: report.slug,
-}));
+  return generatedResearchReports.map((report) => ({
+    slug: report.slug,
+  }));
 }
 
 export default function IntelligenceReportPage({
-params,
+  params,
 }: {
-params: { slug: string };
+  params: { slug: string };
 }) {
-const report = getGeneratedResearchReport(params.slug);
+  const report = getGeneratedResearchReport(params.slug);
 
-if (!report) notFound();
+  if (!report) notFound();
 
-return (
+  return (
     <main className="page-standard">
       <div className="page-head">
         <span className="home-section-label">
-          ARCHENOVA INTELLIGENCE REPORTS
+          ARCHENOVA INTELLIGENCE REPORT
         </span>
 
-        <h1>ArcheNova Intelligence Reports</h1>
+        <h1>{report.title}</h1>
 
         <p className="page-lead">
-          Auto-generated intelligence reports derived from Observation,
-          Signals, ArcheNova Analysis, and future implementation pathways.
+          {report.source} / {report.category}
         </p>
       </div>
 
       <section className="glass-block">
-        <h2>Latest Reports</h2>
+        <h2>Scientific Signal</h2>
+        <p>{report.scientificSignal}</p>
+      </section>
 
-        <div className="research-report-grid">
-          {generatedResearchReports.map((report) => (
-            <Link
-              key={report.slug}
-              href={`/intelligence-platform/reports/${report.slug}`}
-              className="research-report-card"
-            >
-              <div className="feed-source">
-                {report.source} / {report.category}
+      <section className="glass-block">
+        <h2>Implementation Potential</h2>
+        <p>{report.implementationPotential}</p>
+      </section>
+
+      <section className="glass-block">
+        <h2>Infrastructure Impact</h2>
+        <p>{report.infrastructureImpact}</p>
+      </section>
+
+      <section className="glass-block">
+        <h2>Technology Roadmap</h2>
+
+        <div className="research-roadmap">
+          {report.technologyRoadmap?.map((step, index) => (
+            <div key={step} className="research-roadmap-step">
+              <div className="research-roadmap-index">
+                {String(index + 1).padStart(2, "0")}
               </div>
 
-              <h3>{report.title}</h3>
-
-              <p>{report.summary}</p>
-
-              <div className="plaza-hint">
-                Open Report →
-              </div>
-            </Link>
+              <div className="research-roadmap-node">{step}</div>
+            </div>
           ))}
         </div>
       </section>
 
-      <div className="page-foot">
-        <Link
-          href="/intelligence-platform"
+      <section className="glass-block">
+        <h2>Strategic Horizon</h2>
+
+        <div className="research-roadmap">
+          <div className="research-roadmap-step">
+            <div className="research-roadmap-index">05Y</div>
+            <div className="research-roadmap-node">
+              {report.strategicHorizon?.near}
+            </div>
+          </div>
+
+          <div className="research-roadmap-step">
+            <div className="research-roadmap-index">15Y</div>
+            <div className="research-roadmap-node">
+              {report.strategicHorizon?.mid}
+            </div>
+          </div>
+
+          <div className="research-roadmap-step">
+            <div className="research-roadmap-index">30Y</div>
+            <div className="research-roadmap-node">
+              {report.strategicHorizon?.far}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="glass-block">
+        <h2>Quantitative Assessment</h2>
+
+        <div className="research-domain-grid">
+          <div className="research-domain-chip">
+            Probability: {report.assessment?.probability}
+          </div>
+
+          <div className="research-domain-chip">
+            Impact: {report.assessment?.impact}
+          </div>
+
+          <div className="research-domain-chip">
+            Time Horizon: {report.assessment?.timeHorizon}
+          </div>
+        </div>
+      </section>
+
+      <section className="glass-block">
+        <h2>ArcheNova Assessment</h2>
+
+        <div className="research-domain-grid">
+          <div className="research-domain-chip">
+            Scientific: {report.archeNovaAssessment?.scientific} / 10
+          </div>
+
+          <div className="research-domain-chip">
+            Engineering: {report.archeNovaAssessment?.engineering} / 10
+          </div>
+
+          <div className="research-domain-chip">
+            Economic: {report.archeNovaAssessment?.economic} / 10
+          </div>
+
+          <div className="research-domain-chip">
+            Civilization: {report.archeNovaAssessment?.civilization} / 10
+          </div>
+
+          <div className="research-domain-chip">
+            Overall: {report.archeNovaAssessment?.overall} / 10
+          </div>
+
+          <div className="research-domain-chip">
+            {report.archeNovaAssessment?.classification}
+          </div>
+        </div>
+      </section>
+
+      <section className="glass-block">
+        <h2>Civilization Impact</h2>
+        <p>{report.civilizationImpact}</p>
+      </section>
+
+      <section className="glass-block">
+        <h2>Original Source</h2>
+
+        <a
+          href={report.originalUrl}
+          target="_blank"
+          rel="noreferrer"
           className="back-link"
         >
-          ← Back to Intelligence Platform
+          Open original article →
+        </a>
+      </section>
+
+      <div className="page-foot">
+        <Link href="/intelligence-platform/reports" className="back-link">
+          ← Back to Intelligence Reports
         </Link>
       </div>
     </main>
