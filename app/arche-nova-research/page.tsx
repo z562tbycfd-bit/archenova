@@ -1,180 +1,74 @@
 import Link from "next/link";
-import {
-  generatedResearchReports,
-  archeNovaTopSignals,
-} from "../../lib/generatedResearchReports";
+import StructuralAISearch
+from "../components/StructuralAISearch";
 
-const domains = [
- "Artificial Intelligence",
- "Physical AI & Robotics",
- "Energy Systems",
- "Fusion & Advanced Power",
- "Space Infrastructure",
- "Future Mobility",
- "Quantum Technologies",
- "Biotechnology & Longevity",
- "Civilization Engineering",
- "Governance & Social Implementation",
-];
-
-const signals = [
- "Nature",
- "Science",
- "APS / Physical Review Letters",
- "NASA",
- "OECD",
- "NIST",
- "MIT Technology Review",
- "Leading Research Institutions",
+const functions = [
+  {
+    title: "Site Knowledge Understanding",
+    text: "Interprets information across ArcheNova pages, including Research, Signals, Watchlist, Crossings, and Roadmaps.",
+  },
+  {
+    title: "Crossings Analysis",
+    text: "Analyzes community-submitted fragments, source links, trust scores, and promotion potential.",
+  },
+  {
+    title: "Signal Promotion",
+    text: "Identifies which Crossings may become Candidate Signals, Verified Signals, and future Official Signals.",
+  },
+  {
+    title: "Structural Reasoning",
+    text: "Connects science, technology, infrastructure, institutions, capital, and civilization-scale implications.",
+  },
 ];
 
 const roadmap = [
- "Scientific Discovery",
- "Applied Science",
- "Engineering Systems",
- "Social Implementation",
- "Infrastructure Formation",
- "Civilization Capability",
+  "Static Structural AI page",
+  "Site knowledge map",
+  "Crossings analysis",
+  "Signal promotion engine",
+  "Official ArcheNova AI assistant",
 ];
 
-export default function ArcheNovaResearchPage() {
- return (
-   <main className="page-standard">
-     <div className="page-head">
-       <span className="home-section-label">ARCHENOVA RESEARCH</span>
+export default function StructuralAIPage() {
+  return (
+    <main className="page-standard">
+      <div className="page-head">
+        <span className="home-section-label">
+          ARCHENOVA STRUCTURAL AI
+        </span>
 
-       <h1>ArcheNova Research</h1>
+        <h1>ArcheNova Structural AI</h1>
 
-       <p className="page-lead">
-         Transforming scientific observation into future systems,
-         implementation pathways, infrastructure architectures, and
-         civilization-scale understanding.
-       </p>
-     </div>
-
-     <section className="glass-block">
-       <h2>Mission</h2>
-
-       <p>
-         ArcheNova Research exists to identify, interpret, and communicate the
-         scientific and technological signals that shape future civilization.
-       </p>
-
-       <p>
-         Its mission is not merely to observe discovery, but to understand how
-         discovery becomes engineering, implementation, infrastructure,
-         institutions, and long-term civilizational capability.
-       </p>
-     </section>
-
-     <section className="glass-block">
-       <h2>Technology Roadmaps</h2>
-
-       <div className="research-roadmap">
-         {roadmap.map((node, index) => (
-           <div key={node} className="research-roadmap-step">
-             <div className="research-roadmap-index">
-               {String(index + 1).padStart(2, "0")}
-             </div>
-
-             <div className="research-roadmap-node">{node}</div>
-           </div>
-         ))}
-       </div>
-     </section>
-
-     <section className="glass-block">
-       <h2>Research Domains</h2>
-
-       <div className="research-domain-grid">
-         {domains.map((domain) => (
-           <div key={domain} className="research-domain-chip">
-             {domain}
-           </div>
-         ))}
-       </div>
-     </section>
-
-     <section className="glass-block">
-       <h2>Future Signals</h2>
-
-       <p>
-         ArcheNova continuously monitors signals emerging from scientific
-         journals, research institutions, public agencies, and technology
-         platforms.
-       </p>
-
-       <div className="research-domain-grid">
-         {signals.map((signal) => (
-           <div key={signal} className="research-domain-chip">
-             {signal}
-           </div>
-         ))}
-       </div>
-
-       <p>
-         Signals are evaluated not only by scientific novelty, but by their
-         potential for implementation, scalability, infrastructure formation,
-         and long-term societal impact.
-       </p>
-     </section>
-
-<section className="glass-block">
-  <h2>ArcheNova Top Signals</h2>
-
-  <div className="research-report-grid">
-    {archeNovaTopSignals.map((signal, index) => (
-      <Link
-        key={signal.slug}
-        href={`/arche-nova-research/reports/${signal.slug}`}
-        className="research-report-card"
-      >
-        <div className="feed-source">
-          #{index + 1} / {signal.source} / {signal.category}
-        </div>
-
-        <h3>{signal.title}</h3>
-
-        <p>
-          Overall ArcheNova Score:{" "}
-          {signal.archeNovaAssessment?.overall} / 10
+        <p className="page-lead">
+          The official intelligence brain of ArcheNova, designed to structure,
+          interpret, verify, and connect knowledge across the site.
         </p>
-
-        <div className="plaza-hint">Open Signal →</div>
-      </Link>
-    ))}
-  </div>
-</section>
-
-     <section className="glass-block">
-       <h2>Latest Reports</h2>
-
-       <div className="research-report-grid">
-  {generatedResearchReports.slice(0, 6).map((report) => (
-    <Link
-      key={report.slug}
-      href={`/arche-nova-research/reports/${report.slug}`}
-      className="research-report-card"
-    >
-      <div className="feed-source">
-        {report.source} / {report.category}
       </div>
 
-      <h3>{report.title}</h3>
+      <section className="glass-block">
+        <h2>Mission</h2>
 
-      <p>{report.summary}</p>
+        <p>
+          ArcheNova Structural AI exists to transform scattered information into
+          structured intelligence. It connects community knowledge, scientific
+          signals, research reports, watchlists, risks, roadmaps, and
+          civilization-scale interpretation.
+        </p>
 
-      <div className="plaza-hint">Open Report →</div>
-    </Link>
-  ))}
-</div>
-     </section>
+        <p>
+          Crossings remain a community knowledge layer. Signals remain an
+          official intelligence layer. Structural AI is the bridge that evaluates,
+          organizes, and promotes knowledge without polluting verified sources.
+        </p>
+      </section>
 
-     <div className="page-foot">
-       <Link href="/home" className="back-link">
-         ← Back to Home
-       </Link>
-     </div>
-   </main>
- );
+      <StructuralAISearch />
+      
+      <div className="page-foot">
+        <Link href="/home" className="back-link">
+          ← Back to Home
+        </Link>
+      </div>
+    </main>
+  );
 }
