@@ -23,64 +23,126 @@ const SCIENCE_SOURCES = [
     name: "Science",
     url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
   },
-
   {
     id: "aps",
     name: "APS / PRL",
     url: "https://feeds.aps.org/rss/recent/prl.xml",
   },
-
+  {
+    id: "arxiv-physics",
+    name: "arXiv Physics",
+    url: "https://rss.arxiv.org/rss/physics",
+  },
+  {
+    id: "arxiv-ai",
+    name: "arXiv AI",
+    url: "https://rss.arxiv.org/rss/cs.AI",
+  },
+  {
+    id: "science-news",
+    name: "Science News",
+    url: "https://www.sciencenews.org/feed",
+  },
   {
     id: "physorg",
     name: "Phys.org",
     url: "https://phys.org/rss-feed/",
   },
-
   {
-    id: "arxiv",
-    name: "arXiv Physics",
-    url: "https://rss.arxiv.org/rss/physics",
+    id: "nature",
+    name: "Nature",
+    url: "https://www.nature.com/nature.rss",
+  },
+  {
+    id: "j.am.chem.soc",
+    name: "Journal of the American Chemical Society",
+    url: "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jaacsu",
+  },
+  {
+    id: "mit nanotech",
+    name: "MIT Nanotechnology",
+    url: "https://nanotech.mit.edu/rss.xml"
   },
 ];
 
 const TECHNOLOGY_CATEGORIES = [
   {
-    id: "policy",
-    name: "Policy",
-    sources: [
-      { id: "nist", name: "NIST", url: "https://www.nist.gov/news-events/news/rss.xml" },
-    ],
-  },
+     id: "policy",
+  name: "Policy",
+  sources: [
+    { id: "nist", 
+      name: "NIST", url: "https://www.nist.gov/news-events/news/rss.xml" },
+    { id: "sciencegov", 
+      name: "Science.gov", url: "https://www.science.gov/rss/news.xml" },
+    { id: "ieee", 
+      name: "IEEE Spectrum", url: "https://spectrum.ieee.org/rss/fulltext" },
+  ],
+},
   {
     id: "ai-compute",
     name: "AI・Compute",
     sources: [
-      { id: "mittr", name: "MIT Technology Review", url: "https://www.technologyreview.com/feed/" },
-      { id: "openai", name: "OpenAI", url: "https://openai.com/blog/rss.xml" },
+      { id: "mittr", 
+        name: "MIT Technology Review", 
+        url: "https://www.technologyreview.com/feed/" },
+      { id: "openai", 
+        name: "OpenAI", 
+        url: "https://openai.com/blog/rss.xml" },
+      { id: "deepmind", 
+        name: "DeepMind", 
+        url: "https://www.deepmind.com/blog/feed/basic/" },
     ],
   },
   {
     id: "semiconductor",
     name: "Semiconductor",
     sources: [
-      { id: "nvidia", name: "NVIDIA", url: "https://nvidianews.nvidia.com/rss.xml" },
-      { id: "ieee", name: "IEEE Spectrum", url: "https://spectrum.ieee.org/rss/fulltext" },
+      { id: "nvidia", 
+        name: "NVIDIA", 
+        url: "https://nvidianews.nvidia.com/rss.xml" },
+      { id: "intel", 
+        name: "Intel", 
+        url: "https://www.intel.com/content/www/us/en/rss-feed.xml" },
     ],
   },
   {
-    id: "quantum",
-    name: "Quantum",
-    sources: [
-      { id: "quanta", name: "Quanta Magazine", url: "https://www.quantamagazine.org/feed/" },
-    ],
-  },
+  id: "quantum",
+  name: "Quantum",
+  sources: [
+    {
+      id: "quanta",
+      name: "Quanta",
+      url: "https://www.quantamagazine.org/feed/",
+    },
+    {
+      id: "aps-quantum",
+      name: "APS",
+      url: "https://feeds.aps.org/rss/recent/prl.xml",
+    },
+    {
+      id: "arxiv-quant",
+      name: "arXiv Quantum",
+      url: "https://rss.arxiv.org/rss/quant-ph",
+    },
+    {
+      id: "ibm-quantum",
+      name: "IBM Quantum",
+      url: "https://research.ibm.com/blog/rss",
+    },
+  ],
+},
   {
-    id: "energy",
-    name: "Energy",
-    sources: [
-      { id: "doe", name: "US DOE", url: "https://www.energy.gov/rss/science/3662436" },
-    ],
-  },
+     id: "energy",
+  name: "Energy",
+  sources: [
+    { id: "doe", 
+      name: "US DOE", 
+      url: "https://www.energy.gov/rss/science/3662436" },
+    { id: "doe-news", 
+      name: "US DOE News", 
+      url: "https://www.energy.gov/rss/news.xml" },
+  ],
+},
   {
   id: "space",
   name: "Space",
@@ -113,12 +175,41 @@ const TECHNOLOGY_CATEGORIES = [
   ],
 },
   {
-    id: "bio",
-    name: "Bio",
-    sources: [
-      { id: "nbt", name: "Nature Biotechnology", url: "https://www.nature.com/nbt.rss" },
-    ],
-  },
+  id: "bio",
+  name: "Bio",
+  sources: [
+    {
+      id: "cell",
+      name: "Cell",
+      url: "https://www.cell.com/cell/current.rss",
+    },
+    {
+      id: "nature-biotech",
+      name: "Nature Biotechnology",
+      url: "https://www.nature.com/nbt.rss",
+    },
+    {
+      id: "nature-medicine",
+      name: "Nature Medicine",
+      url: "https://www.nature.com/nm.rss",
+    },
+    {
+      id: "nih",
+      name: "NIH",
+      url: "https://www.nih.gov/news-events/news-releases/feed",
+    },
+    {
+      id: "genomeweb",
+      name: "GenomeWeb",
+      url: "https://www.genomeweb.com/rss.xml",
+    },
+    {
+      id: "arxiv-qbio",
+      name: "arXiv q-bio",
+      url: "https://rss.arxiv.org/rss/q-bio",
+    },
+  ],
+},
 ];
 
 async function fetchFeed(source, categoryId = undefined) {
@@ -725,7 +816,36 @@ function writeGeneratedResearchReports(scienceItems, technologyItems) {
   .slice(0, 100)
   .map(makeReport);
 
-const topSignals = [...reports]
+function pickTopByCategory(reports, categories, perCategory = 1) {
+  const picked = [];
+
+  for (const category of categories) {
+    const items = reports
+      .filter((r) => r.category === category)
+      .sort(
+        (a, b) =>
+          (b.archeNovaAssessment?.overall || 0) -
+          (a.archeNovaAssessment?.overall || 0)
+      )
+      .slice(0, perCategory);
+
+    picked.push(...items);
+  }
+
+  return picked;
+}
+
+const prioritySignals = pickTopByCategory(
+  reports,
+  ["AI", "Energy", "Space", "Quantum", "Bio"],
+  1
+);
+
+const topSignals = [...prioritySignals, ...reports]
+  .filter(
+    (x, i, arr) =>
+      arr.findIndex((y) => y.slug === x.slug) === i
+  )
   .sort(
     (a, b) =>
       (b.archeNovaAssessment?.overall || 0) -

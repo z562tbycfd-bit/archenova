@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-08T18:21:44.039Z",
+  "updated": "2026-06-08T18:51:05.080Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Physicists create new family of Schrödinger-cat states",
+      "url": "https://phys.org/news/2026-06-physicists-family-schrdinger-cat-states.html",
+      "summary": "Quantum mechanics, unlike classical physics, allows objects to exist in more than one state at the same time. This idea is often illustrated by Schrödinger's cat, imagined as being both alive and dead until it is observe…",
+      "ts": 1780944006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why sophrosyne, an ancient Greek virtue, matters more than ever in the age of AI",
+      "url": "https://phys.org/news/2026-06-sophrosyne-ancient-greek-virtue-age.html",
+      "summary": "Texting while driving. Bullying people on social media. Buying into the latest conspiracy theory. Passing off AI-generated work as your own.",
+      "ts": 1780944005000
+    },
     {
       "source": "Phys.org",
       "title": "Recovered wild maize gene boosts crop protein without yield loss",
@@ -92,6 +106,13 @@
       "url": "https://phys.org/news/2026-06-mental-health-success-anti-bullying.html",
       "summary": "Big Talks for Little People, an innovative child mental health support program, has helped alleviate bullying that had been reported by students in Out of School Hours Care (OSHC), according to a new study conducted by F…",
       "ts": 1780938004000
+    },
+    {
+      "source": "Science News",
+      "title": "Some pterosaurs may have boasted bold iridescence",
+      "url": "https://www.sciencenews.org/article/pterosaurs-iridescent-feathers-fossil",
+      "summary": "A new analysis of a 120-million-year-old fossil suggests at least one pterosaur species shimmered in iridescent greens and magentas.",
+      "ts": 1780938000000
     },
     {
       "source": "Phys.org",
@@ -199,6 +220,13 @@
       "ts": 1780930803000
     },
     {
+      "source": "Science News",
+      "title": "A drug may help people on GLP-1 meds preserve muscle",
+      "url": "https://www.sciencenews.org/article/glp1-tirzepatide-muscle-lean-mass",
+      "summary": "In a clinical trial, an experimental antibody reduced lean-mass loss in people on a GLP-1 drug. Whether that improves health is unclear.",
+      "ts": 1780930800000
+    },
+    {
       "source": "Phys.org",
       "title": "How Artemis II livestreamed hi-def videos and images from the moon to Earth",
       "url": "https://phys.org/news/2026-06-artemis-ii-livestreamed-def-videos.html",
@@ -253,6 +281,13 @@
       "url": "https://phys.org/news/2026-06-bacteria-memories-brain.html",
       "summary": "Researchers at Carnegie Mellon University have shown that bacteria can learn from past experiences, store memories across generations and adapt their behavior to changing environments, all without a brain or nervous syst…",
       "ts": 1780926004000
+    },
+    {
+      "source": "Science News",
+      "title": "AI cracked an Erdős math problem. Now experts want guardrails",
+      "url": "https://www.sciencenews.org/article/ai-guardrails-erdos-math-problem",
+      "summary": "The result is correct but challenges core norms of mathematics: checking proofs, crediting ideas and keeping research open to everyone.",
+      "ts": 1780923600000
     },
     {
       "source": "Phys.org",
@@ -666,41 +701,6 @@
       "url": "https://arxiv.org/abs/2606.07458",
       "summary": "arXiv:2606.07458v1 Announce Type: new Abstract: Quantum metasurfaces comprised of subwavelength atomic arrays emerged as a promising platform for enhanced atom-photon interaction. However, realizing such a system with so…",
       "ts": 1780891200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin",
-      "url": "https://arxiv.org/abs/2606.05050",
-      "summary": "arXiv:2606.05050v1 Announce Type: cross Abstract: Theoretical heterogeneous catalysis promises rapid catalyst discovery, yet computational and machine-learning predictions often deviate from experiment and stay confined …",
-      "ts": 1780891200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonthermal line broadening at solar flare footpoints is primarily field-aligned",
-      "url": "https://arxiv.org/abs/2606.06577",
-      "summary": "arXiv:2606.06577v1 Announce Type: cross Abstract: Magnetic reconnection powers solar and stellar flares, but a full understanding of how the released energy is transported and converted within the solar atmosphere remain…",
-      "ts": 1780891200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reweighting Adversarial Networks for Unbinned Unfolding",
-      "url": "https://arxiv.org/abs/2606.06603",
-      "summary": "arXiv:2606.06603v1 Announce Type: cross Abstract: Differential cross sections are the currency of scientific exchange in particle and nuclear physics. Recently, machine learning methods have enabled unbinned and high-dim…",
-      "ts": 1780891200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Matching Terahertz and Hall Mobilities as a Hallmark of Intrinsic Charge Transport in Metal-Halide Perovskites",
-      "url": "https://arxiv.org/abs/2606.06623",
-      "summary": "arXiv:2606.06623v1 Announce Type: cross Abstract: Charge-carrier transport in soft-lattice materials, including metal-halide perovskites, is often perceived to be highly heterogeneous across different length scales, and …",
-      "ts": 1780891200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Capturing non-Markovian dynamics in non-equilibrium stochastic systems using flow matching",
-      "url": "https://arxiv.org/abs/2606.06658",
-      "summary": "arXiv:2606.06658v1 Announce Type: cross Abstract: Hydrodynamic models of stochastic particle systems represented by coarse-grained stochastic partial differential equations (SPDE), such as the regularized Dean-Kawasaki (…",
-      "ts": 1780891200000
     }
   ],
   "sources": [
@@ -713,12 +713,32 @@
       "name": "APS / PRL"
     },
     {
+      "id": "arxiv-physics",
+      "name": "arXiv Physics"
+    },
+    {
+      "id": "arxiv-ai",
+      "name": "arXiv AI"
+    },
+    {
+      "id": "science-news",
+      "name": "Science News"
+    },
+    {
       "id": "physorg",
       "name": "Phys.org"
     },
     {
-      "id": "arxiv",
-      "name": "arXiv Physics"
+      "id": "nature",
+      "name": "Nature"
+    },
+    {
+      "id": "j.am.chem.soc",
+      "name": "Journal of the American Chemical Society"
+    },
+    {
+      "id": "mit nanotech",
+      "name": "MIT Nanotechnology"
     }
   ]
 }
