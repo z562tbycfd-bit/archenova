@@ -4,6 +4,8 @@ import {
  generatedResearchReports,
  archeNovaTopSignals,
 } from "@/lib/generatedResearchReports";
+import fs from "fs";
+import path from "path";
 import { generateStructuralReasoning } from "@/lib/structuralReasoning";
 import { getRelatedGraphNodes } from "@/lib/knowledgeGraph";
 
@@ -30,6 +32,44 @@ function getNumberOrString(item: LooseRecord, key: string) {
  if (typeof value === "string") return value;
 
  return "";
+}
+
+function loadObservationFile(fileName: string) {
+  try {
+    const filePath = path.join(process.cwd(), "public", "data", fileName);
+    const raw = fs.readFileSync(filePath, "utf8");
+    return JSON.parse(raw);
+  } catch {
+    return [];
+  }
+}
+
+function normalizeObservationItems(raw: unknown, type: string): KnowledgeItem[] {
+  const items = Array.isArray(raw)
+    ? raw
+    : Array.isArray((raw as any)?.items)
+      ? (raw as any).items
+      : Array.isArray((raw as any)?.data)
+        ? (raw as any).data
+        : [];
+
+  return items.map((item: any) => ({
+    type,
+    title: item.title ?? item.name ?? "Untitled Observation",
+    text: [
+      item.summary,
+      item.description,
+      item.category,
+      item.source,
+      item.publishedAt,
+      item.date,
+      item.title,
+    ]
+      .filter(Boolean)
+      .join(" "),
+    url: item.url ?? item.link ?? "/home",
+    trustScore: type === "Basic Science" ? 95 : 90,
+  }));
 }
 
 export async function POST(req: Request) {
@@ -108,6 +148,14 @@ export async function POST(req: Request) {
    });
 
    knowledgeItems.push(...reports, ...signals);
+
+   const scienceData = loadObservationFile("science.json");
+   const technologyData = loadObservationFile("technology.json");
+
+knowledgeItems.push(
+  ...normalizeObservationItems(scienceData, "Basic Science"),
+  ...normalizeObservationItems(technologyData, "Applied Science")
+);
 
    const { data: crossings, error } = await supabase
      .from("gate_fragments")
