@@ -1,301 +1,289 @@
 {
   "ok": true,
-  "updated": "2026-06-08T01:20:12.065Z",
+  "updated": "2026-06-08T17:05:10.043Z",
   "items": [
     {
-      "source": "APS / PRL",
-      "title": "Testing Genuine Multipartite Nonlocality via an Inflated Network with Multicopy Entangled States",
-      "url": "http://link.aps.org/doi/10.1103/mwxx-ln9v",
-      "summary": "Author(s): Qian-Xi Zhang, Ming-Xing Luo, Ya-Li Mao, Hu Chen, Yu-Hang Yao, Zhi-Lian Liu, Shao-Ming Fei, Xue Yang, and Zheng-Da Li Understanding the nonlocality of multipartite quantum systems provides valuable insights in…",
-      "ts": 1780653600000
+      "source": "Phys.org",
+      "title": "NASA satellites reveal major ocean nutrient stress",
+      "url": "https://phys.org/news/2026-06-nasa-satellites-reveal-major-ocean.html",
+      "summary": "A new study combining NASA satellite observations, ocean surveys and genetic testing of marine microorganisms found evidence that warming ocean waters may be limiting nutrient availability across much of the global ocean…",
+      "ts": 1780938006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Expanded mental health support builds success for anti-bullying program",
+      "url": "https://phys.org/news/2026-06-mental-health-success-anti-bullying.html",
+      "summary": "Big Talks for Little People, an innovative child mental health support program, has helped alleviate bullying that had been reported by students in Out of School Hours Care (OSHC), according to a new study conducted by F…",
+      "ts": 1780938004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mobile money can fight poverty, but trust is vital",
+      "url": "https://phys.org/news/2026-06-mobile-money-poverty-vital.html",
+      "summary": "Mobile money can help people without bank accounts take part in the economy, but trust and fairness will ultimately determine whether it succeeds, a new study has found.",
+      "ts": 1780936808000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers craft a new, simple recipe for highly entangled quantum states",
+      "url": "https://phys.org/news/2026-06-craft-simple-recipe-highly-entangled.html",
+      "summary": "Building useful quantum technologies—from sensors to computers—requires generating highly complex entangled states, in which the properties of particles are deeply intertwined. Producing such states has traditionally req…",
+      "ts": 1780936801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The path to teen radicalization isn't as straight as people think",
+      "url": "https://phys.org/news/2026-06-path-teen-radicalization-isnt-straight.html",
+      "summary": "Amid growing public concern about the radicalization of young people, there is a widespread misconception that radicalization logically and inevitably progresses to violence.",
+      "ts": 1780935611000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lighter X-ray aprons could spare health care workers from chronic pain",
+      "url": "https://phys.org/news/2026-06-lighter-ray-aprons-health-workers.html",
+      "summary": "A light, flexible polymer material developed at the University of Waterloo could replace the lead in heavy X-ray aprons, providing the same protection from harmful radiation while reducing their weight by almost 90%.",
+      "ts": 1780935601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why plant cells need heme: Hidden signal reshapes photosynthesis gene control",
+      "url": "https://phys.org/news/2026-06-cells-heme-hidden-reshapes-photosynthesis.html",
+      "summary": "For plants, light is an important environmental factor not only as a source of energy for photosynthesis, but also as a signal for capturing environmental information. Light signals are sensed by photoreceptor proteins c…",
+      "ts": 1780934403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "X-ray scans uncover Nazi symbols hidden beneath postwar painting",
+      "url": "https://phys.org/news/2026-06-ray-scans-uncover-nazi-hidden.html",
+      "summary": "Erich Mercker (1891–1973), a painter from Munich, was quite successful in his day. Between 1933 and 1945, he painted works containing Nazi symbolism, including \"Die Stätte des 9. November,\" which depicts the Feldherrnhal…",
+      "ts": 1780934402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Yeast experiments reveal an evolutionarily conserved backup route for making a molecule that's essential to life",
+      "url": "https://phys.org/news/2026-06-yeast-reveal-evolutionarily-backup-route.html",
+      "summary": "Hiroshima University researchers say a newly proposed three-step \"detour\" pathway for making dolichol, a molecule cells need to properly process proteins, may be more universal than scientists realized. Experiments in ye…",
+      "ts": 1780934117000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why does the Y chromosome retain UTY?",
+      "url": "https://phys.org/news/2026-06-chromosome-retain-uty.html",
+      "summary": "A study, published in the journal Development, is the first to precisely map endogenous UTY occupancy across the human genome and demonstrate that UTY remains functionally involved in transcriptional regulation during ea…",
+      "ts": 1780933213000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A 170 km journey by a freshwater stingray challenges long-held conservation assumptions",
+      "url": "https://phys.org/news/2026-06-km-journey-freshwater-stingray-held.html",
+      "summary": "Most sharks and rays inhabit the oceans, but a small proportion thrive in freshwater. Approximately 4% to 5% of all shark and ray species live in tropical and subtropical rivers around the world. Two main ecological stra…",
+      "ts": 1780933210000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Luxury brands turn memes into more shares, clicks and laughs across four experiments",
+      "url": "https://phys.org/news/2026-06-luxury-brands-memes-clicks.html",
+      "summary": "Luxury brands have increasingly embraced internet memes in their social media advertising campaigns. For example, Gucci's #TFWGucci campaign demonstrated how luxury brands can incorporate memes into their digital communi…",
+      "ts": 1780932006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black hole feeding bursts may explain JWST's Little Red Dots in early universe",
+      "url": "https://phys.org/news/2026-06-black-hole-jwst-red-dots.html",
+      "summary": "A new theoretical study may have cracked one of the most puzzling discoveries of the James Webb Space Telescope (JWST): Little Red Dots, spotted across the early universe. The paper, posted to the arXiv preprint server o…",
+      "ts": 1780932003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New evidence from Yinshan Block reveals Earth's early supercontinent cycles",
+      "url": "https://phys.org/news/2026-06-evidence-yinshan-block-reveals-earth.html",
+      "summary": "A new study published in Precambrian Research by Jawad Shabbir, a Ph.D. student at Peking University's School of Earth and Space Sciences under Professor Song Shuguang, addresses a critical yet poorly understood period i…",
+      "ts": 1780931753000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gleam-glum effect reveals emotional word cues in children as young as five",
+      "url": "https://phys.org/news/2026-06-gleam-glum-effect-reveals-emotional.html",
+      "summary": "The words \"tick-tock,\" \"hiss\" and \"screech\" are examples of onomatopoeia because they imitate the sounds they represent: the rhythmic ticking of a clock; an angry cat, or a slowly deflating bike tire; a high-pitched scre…",
+      "ts": 1780931720000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers discover the earliest known flickering quasar",
+      "url": "https://phys.org/news/2026-06-astronomers-earliest-flickering-quasar.html",
+      "summary": "A supermassive black hole lies at the heart of every galaxy, including the Milky Way. When a black hole is active, it pulls material in as a whirlpool of high-temperature gas and dust. As this cosmic material piles up an…",
+      "ts": 1780931092000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Secondary silylium ion drives one-pot ketone sulfonamidation, reaching 95% yields",
+      "url": "https://phys.org/news/2026-06-secondary-silylium-ion-pot-ketone.html",
+      "summary": "A research team has developed a novel organocatalysis method based on a silylium Lewis acid. This technology employs an ion-pair catalyst combining a diethylsilylium ion with a weakly coordinating anion, enabling the dir…",
+      "ts": 1780930803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How Artemis II livestreamed hi-def videos and images from the moon to Earth",
+      "url": "https://phys.org/news/2026-06-artemis-ii-livestreamed-def-videos.html",
+      "summary": "This April, humanity had front-row seats to space as the Artemis II Orion spacecraft transmitted crystal-clear footage of its historic journey around the moon from more than 250,000 miles (about 402,000 kilometers) back …",
+      "ts": 1780929603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Technology used to monitor conservation efforts at Rome's Colosseum to be used at the Ipiranga Museum",
+      "url": "https://phys.org/news/2026-06-technology-efforts-rome-colosseum-ipiranga.html",
+      "summary": "The same three-dimensional laser scanning technology used to monitor the Colosseum in Rome will be used in a conservation project at the Ipiranga Museum in São Paulo, Brazil. Beatriz Kuhl, a professor at the University o…",
+      "ts": 1780929601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Critically endangered Chinese pangolin found in Nepal's sacred forest",
+      "url": "https://phys.org/news/2026-06-critically-endangered-chinese-pangolin-nepal.html",
+      "summary": "The rare Chinese pangolin (Manis pentadactyla) has been spotted for the first time in Sunsari District in eastern Nepal. This brings the total number of districts in the country where the critically endangered species ha…",
+      "ts": 1780928403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How NFL draft position overpromises player potential",
+      "url": "https://phys.org/news/2026-06-nfl-position-overpromises-player-potential.html",
+      "summary": "A new analysis suggests there is no correlation between athlete performance and the way the NFL values draft positions, challenging long-held beliefs about how professional football teams select new players each year.",
+      "ts": 1780928401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Alien signal claims face stricter verification under updated disclosure rules",
+      "url": "https://phys.org/news/2026-06-alien-stricter-verification-disclosure.html",
+      "summary": "The IAA SETI Committee has updated rules for evaluating and revealing the detection of extraterrestrial intelligence.",
+      "ts": 1780927204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "These horses are unaffected by petting in children's zoo, heart rate monitors reveal",
+      "url": "https://phys.org/news/2026-06-horses-unaffected-petting-children-zoo.html",
+      "summary": "The horses at the Children's Zoo in Gothenburg don't mind being petted by children and adults. However, they do get stressed by the noise from an excavator. Researchers at the University of Gothenburg discovered this aft…",
+      "ts": 1780926964000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Experts issue climate warning ahead of expanded FIFA World Cup",
+      "url": "https://phys.org/news/2026-06-experts-issue-climate-fifa-world.html",
+      "summary": "The 2026 FIFA Men's World Cup could become the \"most polluting ever,\" according to a new report examining football's relationship with climate change.",
+      "ts": 1780926005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bacteria can learn and form memories without a brain",
+      "url": "https://phys.org/news/2026-06-bacteria-memories-brain.html",
+      "summary": "Researchers at Carnegie Mellon University have shown that bacteria can learn from past experiences, store memories across generations and adapt their behavior to changing environments, all without a brain or nervous syst…",
+      "ts": 1780926004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nickelate superconductors share a common electronic fingerprint",
+      "url": "https://phys.org/news/2026-06-nickelate-superconductors-common-electronic-fingerprint.html",
+      "summary": "Superconductors, materials that conduct electricity with zero electrical resistance at specific temperature ranges, have proved very promising for the development of quantum computers and other cutting-edge technologies.…",
+      "ts": 1780914001000
     },
     {
       "source": "APS / PRL",
-      "title": "Ultracold Neutron Energy Spectrum and Storage Properties from Magnetically Induced Spin Depolarization",
-      "url": "http://link.aps.org/doi/10.1103/hspm-dwkn",
-      "summary": "Author(s): N. J. Ayres et al. (nEDM Collaboration at PSI) We present a novel method for extracting the energy spectrum of ultracold neutrons from magnetically induced spin depolarization measurements using the n2EDM appa…",
-      "ts": 1780653600000
+      "title": "Observation of Five Distinct Localization Phases in a 1D Floquet System",
+      "url": "http://link.aps.org/doi/10.1103/6msd-mdw4",
+      "summary": "Author(s): Yao Qin, Chao Yang, Jiankun Zhu, Weitao Wu, Zhixin Duan, Rufang Zhao, Yuxiang Guo, Jizhou Wu, Sheng-Jun Yang, Yucheng Wang, and Jingyun Fan Extended, localized, and critical states form the three elementary cl…",
+      "ts": 1780912800000
     },
     {
       "source": "APS / PRL",
-      "title": "Programmable Assembly of Ground State Fermionic Tweezer Arrays",
-      "url": "http://link.aps.org/doi/10.1103/fsmh-dz71",
-      "summary": "Author(s): Naman Jain, Jin Zhang, Marcus Culemann, and Philipp M. Preiss We demonstrate deterministic preparation of arbitrary two-component product states of fermionic $^{6}\\mathrm{Li}$ atoms in an $8×8$ optical tweezer…",
-      "ts": 1780653600000
+      "title": "Lorentz Violation in Emergent Gravity and Its Cosmological Consequences",
+      "url": "http://link.aps.org/doi/10.1103/tvmx-qk3k",
+      "summary": "Author(s): Raymond Isichei and João Magueijo We show that general relativity and other geometrical theories can be viewed as a degenerate Otto cycle with only heat-exchange legs in emergent gravity. Including work-produc…",
+      "ts": 1780912800000
     },
     {
       "source": "APS / PRL",
-      "title": "Acoustic Analogy of Quantum Baldin Sum Rule for Optimal Causal Scattering",
-      "url": "http://link.aps.org/doi/10.1103/dbs8-g68w",
-      "summary": "Author(s): Sichao Qu, Zixiong Yu, Erqian Dong, Min Yang, and Nicholas X. Fang Sound wave scattering can be increased in one frequency range only by reducing scattering in another range, according to experiments—a discove…",
-      "ts": 1780653600000
+      "title": "Nanoscale Coherent Phonons with Broadband Frequency Tunability",
+      "url": "http://link.aps.org/doi/10.1103/hdd2-t4m4",
+      "summary": "Author(s): Zhengpu Zhao (赵正朴), Da Wu (吴达), Chuwei Zhang (张楚惟), Duanyun Cao (曹端云), Haotian Zheng (郑浩天), Yuqing Huang (黄玉清), Qin Wang (王钦), En-Ge Wang (王恩哥), Chaoyu Guo (郭钞宇), and Ying Jiang (江颖) Broadband-tunable coherent…",
+      "ts": 1780912800000
     },
     {
       "source": "APS / PRL",
-      "title": "Persistence of the Berezinskii-Kosterlitz-Thouless Transition with Long-Range Couplings",
-      "url": "http://link.aps.org/doi/10.1103/9y2v-ybdb",
-      "summary": "Author(s): Luis Walther, Josef Willsher, and Johannes Knolle The Berezinskii-Kosterlitz-Thouless (BKT) transition is an archetypal example of a topological phase transition, which is driven by the proliferation of vortic…",
-      "ts": 1780653600000
+      "title": "Controlling the Subpicosecond Coherent Spin and Valley Dynamics with Anomalous Magnetic Proximity Effect",
+      "url": "http://link.aps.org/doi/10.1103/86pk-g8d6",
+      "summary": "Author(s): Qian Hu, Yong Tan, Qirui Cui, Yuqing Huang, Wenkai Zhu, Xiaomin Zhang, Yujing Wang, Yue Wang, Xuan Qian, Jing Zhang, Zhongming Wei, Jingbi You, Yang Ji, Lixia Zhao, Qihua Xiong, and Kaiyou Wang Spin-and-valley…",
+      "ts": 1780912800000
     },
     {
       "source": "APS / PRL",
-      "title": "Realizing Unitary $k$-Designs with a Single Quench",
-      "url": "http://link.aps.org/doi/10.1103/rvwb-r9lv",
-      "summary": "Author(s): Yi-Neng Zhou, Robin Löwenberg, and Julian Sonner We present a single-quench protocol that generates unitary $k$-designs with minimal control. A system first evolves under a random Hamiltonian ${H}_{1}$; at a s…",
-      "ts": 1780567200000
+      "title": "Chiral Spin Liquid Instability of the Kitaev Honeycomb Model with Crystallographic Defects",
+      "url": "http://link.aps.org/doi/10.1103/8w9t-cqzd",
+      "summary": "Author(s): Arnab Seth, Fay Borhani, and Itamar Kimchi We study the spin-$1/2$ Kitaev honeycomb gapless spin liquid in the presence of Stone-Wales-type local lattice defects with odd-sided plaquettes. While the clean Kita…",
+      "ts": 1780912800000
     },
     {
-      "source": "APS / PRL",
-      "title": "Breakdown of Disorder-Suppressed Floquet Heating under Two-Frequency Driving",
-      "url": "http://link.aps.org/doi/10.1103/t953-lhht",
-      "summary": "Author(s): Cooper M. Selco, Christian Bengs, Chaitali Shah, and Ashok Ajoy Periodic (Floquet) driving enables Hamiltonian engineering and nonequilibrium phases, but interacting systems eventually heat by absorbing energy…",
-      "ts": 1780567200000
+      "source": "Phys.org",
+      "title": "A 7.8 magnitude quake in the Philippines kills at least 19, fells buildings and sets off a tsunami",
+      "url": "https://phys.org/news/2026-06-magnitude-quake-philippines-fells-tsunami.html",
+      "summary": "An offshore magnitude 7.8 earthquake rocked the southern Philippines Monday, killing at least 19 people, injuring more than 200 others mostly in damaged buildings and sending a 1-meter (3-foot) tsunami into nearby coasts…",
+      "ts": 1780912203000
     },
     {
-      "source": "APS / PRL",
-      "title": "Crossed Surface Flat Bands in Three-Dimensional Superconducting Altermagnets",
-      "url": "http://link.aps.org/doi/10.1103/65q6-5wxl",
-      "summary": "Author(s): Yuri Fukaya, Bo Lu, Keiji Yada, Yukio Tanaka, and Jorge Cayao Higher dimensional topological phases in three-dimensional superconducting altermagnets characterized by zero-energy surface crossed flat bands ind…",
-      "ts": 1780567200000
+      "source": "Phys.org",
+      "title": "Superheated magma may explain why similar volcanoes erupt in very different ways",
+      "url": "https://phys.org/news/2026-06-superheated-magma-similar-volcanoes-erupt.html",
+      "summary": "Scientists have shed light on a thermal process in magma that may help explain why similar volcanic systems can produce very different eruptive behaviors.",
+      "ts": 1780909205000
     },
     {
-      "source": "APS / PRL",
-      "title": "Nonlinear Magnetoelectric Edelstein Effect",
-      "url": "http://link.aps.org/doi/10.1103/r3x2-kb93",
-      "summary": "Author(s): Jinxiong Jia, Longjun Xiang, Zhenhua Qiao, and Jian Wang The generation of spin magnetization by linear and nonlinear Edelstein effects has so far relied solely on electric fields. Here, we propose a distinct …",
-      "ts": 1780567200000
+      "source": "Phys.org",
+      "title": "Ancient dental calculus uncovers regional and historical shifts in Japan's oral microbiome",
+      "url": "https://phys.org/news/2026-06-ancient-dental-calculus-uncovers-regional.html",
+      "summary": "Researchers have characterized the oral microbiomes of the Japanese population across time by analyzing the DNA preserved in dental calculus of human skeletal remains. The researchers compared microbial composition in de…",
+      "ts": 1780909204000
     },
     {
-      "source": "APS / PRL",
-      "title": "Observation of Acoustic Magnetochiral Anisotropy in $α$ Quartz",
-      "url": "http://link.aps.org/doi/10.1103/7vmb-ytfd",
-      "summary": "Author(s): Munkhtuguldur Altangerel, S. Badoux, C. Proust, D. Vignolles, and G. L. J. A. Rikken Acoustic magnetochiral anisotropy is observed in a diamagnetic crystal of α quartz. [Phys. Rev. Lett. 136, 226303] Published…",
-      "ts": 1780567200000
+      "source": "Phys.org",
+      "title": "Antibiotics drive resistance in waterways—even after they break down",
+      "url": "https://phys.org/news/2026-06-antibiotics-resistance-waterways.html",
+      "summary": "Antibiotics continue to drive resistance in bacteria, even after they are broken down in wastewater treatment plants and discharged into rivers and seas, new research published on World Oceans Day has shown for the first…",
+      "ts": 1780909202000
     },
     {
-      "source": "APS / PRL",
-      "title": "Acoustic Bound Pair States in the Continuum Induced by Off-Site Two-Body Interactions",
-      "url": "http://link.aps.org/doi/10.1103/46kx-l3jm",
-      "summary": "Author(s): Zhenhang Pu, Chunbo Hua, Hailong He, Liping Ye, Jiuyang Lu, Weiyin Deng, Manzhu Ke, and Zhengyou Liu A novel many-body bound state in the continuum induced entirely by uniform off-site 2-body interactions is o…",
-      "ts": 1780567200000
+      "source": "arXiv Physics",
+      "title": "Functional Renormalization for Elastic Burgulence",
+      "url": "https://arxiv.org/abs/2606.06496",
+      "summary": "arXiv:2606.06496v1 Announce Type: new Abstract: We formulate elastic and elasto-inertial turbulence in the Martin-Siggia-Rose path-integral formalism and develop a systematic source-extended symmetry algorithm to derive …",
+      "ts": 1780891200000
     },
     {
-      "source": "Science",
-      "title": "Competition enables rapid adaptation to a warming range edge in a model plant community",
-      "url": "https://www.science.org/doi/abs/10.1126/science.ads4664?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
+      "source": "arXiv Physics",
+      "title": "Structural gradients and strain partitioning across the mouse Achilles tendon enthesis revealed by in situ X-ray scattering",
+      "url": "https://arxiv.org/abs/2606.06504",
+      "summary": "arXiv:2606.06504v1 Announce Type: new Abstract: The enthesis is the insertion site of tendon into bone and exhibits a high mechanical durability despite the large mismatch in material properties between the two tissues. …",
+      "ts": 1780891200000
     },
     {
-      "source": "Science",
-      "title": "Severe obesity in human HFpEF alters contractile protein function and organization",
-      "url": "https://www.science.org/doi/abs/10.1126/science.adz7118?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
+      "source": "arXiv Physics",
+      "title": "Dynamic Modeling of Magneto-Active Grounding Electrodes under Transient Conditions",
+      "url": "https://arxiv.org/abs/2606.06506",
+      "summary": "arXiv:2606.06506v1 Announce Type: new Abstract: Grounding systems operating under transient electromagnetic conditions exhibit highly nonlinear behavior influenced by electromagnetic propagation, soil conductivity variat…",
+      "ts": 1780891200000
     },
     {
-      "source": "Science",
-      "title": "Global extent and drivers of tree cover loss quantified with high-resolution satellite data",
-      "url": "https://www.science.org/doi/abs/10.1126/science.adz9042?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
+      "source": "arXiv Physics",
+      "title": "Application of Fractional Polynomial Model Based on Bayesian Criterion in Cerebrovascular Diseases: A Robust Framework for Occlusion Simulation and Topology Reconstruction",
+      "url": "https://arxiv.org/abs/2606.06507",
+      "summary": "arXiv:2606.06507v1 Announce Type: new Abstract: The internal carotid artery (ICA), especially its cervical segment (ICA-C1), holds significant importance in the diagnosis of cerebrovascular diseases. Traditional polynomi…",
+      "ts": 1780891200000
     },
     {
-      "source": "Science",
-      "title": "Home alone: Remote work, isolation, and mental health",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aec7671?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
-    },
-    {
-      "source": "Science",
-      "title": "Homo cooperans: Understanding the nature of human cooperation",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aec9483?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
-    },
-    {
-      "source": "Science",
-      "title": "Photocatalyzed oxidative cleavage of alkenes using CO2 as an oxygen donor",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aed6068?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
-    },
-    {
-      "source": "Science",
-      "title": "Memory reactivation underlies experience-dependent adaptive regulation of sleep",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aed8630?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
-    },
-    {
-      "source": "Science",
-      "title": "Erratum for the Research Article “Invasion impacts in terrestrial ecosystems: Global patterns and predictors”",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aej0456?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
-    },
-    {
-      "source": "Science",
-      "title": "Erratum for the Research Article “Preventing hypocontractility-induced fibro-blast expansion alleviates dilated cardiomyopathy”",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aej2323?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
-    },
-    {
-      "source": "Science",
-      "title": "The architecture of the internet creates risks for democracy",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aei2409?af=R",
-      "summary": "Science, Volume 392, Issue 6802, June 2026.",
-      "ts": 1780556400000
-    },
-    {
-      "source": "Science",
-      "title": "Patently imperfect",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aef3173?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1028-1028, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "A provocative view of evolution turns 50",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeg1982?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1027-1027, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Fires reverse progress toward ozone air quality standards in the United States",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aed3197?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1088-1092, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Confined growth of armchair MoS2 nanotubes at the 1-nm limit",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aee3446?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1061-1064, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Stereoretentive radical-based alkyl-alkyl cross-coupling",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aef6981?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1075-1081, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Ultralow chromium doping enables all-PbSe thermoelectric cooling",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeg8963?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1056-1060, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Unexpected expansion and regrowth in Earth’s mangrove forests over the past four decades",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aec9773?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1082-1087, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "A stellar dynamical mass measurement of an inactive black hole at redshift 2",
-      "url": "https://www.science.org/doi/abs/10.1126/science.adx5816?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1065-1068, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Molecular mimicry of a pathogen virulence target by a plant immune receptor",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aef9946?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1050-1055, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Landscape efficiency frontiers for biodiversity, climate mitigation, and net economic value",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aea9058?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1069-1074, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Spontaneous problem-solving in bumble bees",
-      "url": "https://www.science.org/doi/abs/10.1126/science.ady1618?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1046-1049, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Believing I belong",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aej3528?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1094-1094, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "In Other Journals",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aej3527?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1037-1038, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Ozone from wildfire plumes increases mortality",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aei2027?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1024-1025, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Ultraprocessed foods and obesity: Interpreting the evidence",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aef3495?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1020-1022, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Bad memories, bad sleep",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aei3385?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1022-1023, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "The lost social infrastructure of work",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeh9559?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1025-1026, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Aquavoltaics knowledge gaps undercut benefits",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeh2751?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1030-1030, June 2026.",
-      "ts": 1780552814000
-    },
-    {
-      "source": "Science",
-      "title": "Wine’s warning for farming in climate change",
-      "url": "https://www.science.org/doi/abs/10.1126/science.aeh4170?af=R",
-      "summary": "Science, Volume 392, Issue 6802, Page 1030-1030, June 2026.",
-      "ts": 1780552814000
+      "source": "arXiv Physics",
+      "title": "Hyperon-Nucleon Spectrometer",
+      "url": "https://arxiv.org/abs/2606.06553",
+      "summary": "arXiv:2606.06553v1 Announce Type: new Abstract: Chirality lies at the heart of low-energy QCD, governing the symmetry structure that shapes hadron masses and strong interaction dynamics. Among the most compelling open qu…",
+      "ts": 1780891200000
     }
   ],
   "sources": [
-    {
-      "id": "nature",
-      "name": "Nature"
-    },
-    {
-      "id": "nature-news",
-      "name": "Nature News"
-    },
-    {
-      "id": "nature-energy",
-      "name": "Nature Energy"
-    },
     {
       "id": "science",
       "name": "Science"
@@ -303,6 +291,14 @@
     {
       "id": "aps",
       "name": "APS / PRL"
+    },
+    {
+      "id": "physorg",
+      "name": "Phys.org"
+    },
+    {
+      "id": "arxiv",
+      "name": "arXiv Physics"
     }
   ]
 }

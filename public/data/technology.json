@@ -1,7 +1,167 @@
 {
   "ok": true,
-  "updated": "2026-06-08T01:20:24.248Z",
+  "updated": "2026-06-08T17:05:20.653Z",
   "items": [
+    {
+      "source": "NASA Image of the Day",
+      "title": "Supersonic!",
+      "url": "https://www.nasa.gov/image-detail/x59-first-supersonic-ata-02/",
+      "summary": "NASA’s X-59 quiet supersonic research aircraft completed its first supersonic flight Friday, June 5, 2026, marking the first time the aircraft exceeded the speed of sound in support of NASA’s Quesst mission. The mileston…",
+      "ts": 1780933320000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Supersonic!",
+      "url": "https://www.nasa.gov/image-article/supersonic/",
+      "summary": "On June 5, 2026, NASA’s experimental X-59 aircraft flew faster than the speed of sound for the first time, setting the stage for demonstrating its quiet supersonic capabilities later this year. NASA test pilot Jim “Clue”…",
+      "ts": 1780932490000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s INCUS Satellites Progress Toward Launch",
+      "url": "https://science.nasa.gov/photojournal/nasas-incus-satellites-progress-toward-launch/",
+      "summary": "Description One of the three satellites that make up NASA’s INCUS (Investigation of Convective Updrafts) mission sits on a fixture at the facilities of Blue Canyon Technologies in Lafayette, Colorado. The satellite compl…",
+      "ts": 1780932127000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "How Terry Tao Became an Evangelist for AI in Math",
+      "url": "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/",
+      "summary": "With automated proof-checkers, a problem can be broken up into small chunks, solved bit-by-bit, then reassembled with confidence that every piece is correct. For some, this heralds a new area in mathematical research. Th…",
+      "ts": 1780931828000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Russia is jamming GPS from space ",
+      "url": "https://spacenews.com/russia-is-jamming-gps-from-space/",
+      "summary": "“America is at risk of high impact GPS jamming and spoofing from space” was the title of my SpaceNews opinion article in October 2024. Little did I know that its […] The post Russia is jamming GPS from space appeared fir…",
+      "ts": 1780930800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Quantum Space to go public in SPAC deal",
+      "url": "https://spacenews.com/quantum-space-to-go-public-in-spac-deal/",
+      "summary": "Quantum Space, a company led by a former NASA administrator developing highly maneuverable spacecraft for national security missions, will go public by merging with a special purpose acquisition company. The post Quantum…",
+      "ts": 1780928384000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "WRC-27: the next arena for U.S.-China space competition",
+      "url": "https://spacenews.com/wrc-27-the-next-arena-for-u-s-china-space-competition/",
+      "summary": "For anyone who wasn’t sure whether China was in it to win the space race and dominate the rapidly growing space economy, its filings in December for 200,000 more satellites […] The post WRC-27: the next arena for U.S.-Ch…",
+      "ts": 1780923600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: how the World Cup ball will fly and OpenAI’s “super app”",
+      "url": "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why this year’s World Cup ball may not fly as far Much is new about this month’s F…",
+      "ts": 1780920600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Axiom and Prada advance design of spacesuit",
+      "url": "https://spacenews.com/axiom-and-prada-advance-design-of-spacesuit/",
+      "summary": "Axiom Space unveiled the design of another element of the lunar spacesuit it is developing for NASA in partnership with luxury designer Prada. The post Axiom and Prada advance design of spacesuit appeared first on SpaceN…",
+      "ts": 1780917800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Speed as a Strategic Advantage in Border Monitoring",
+      "url": "https://spacenews.com/speed-as-a-strategic-advantage-in-border-monitoring/",
+      "summary": "Across Europe, border environments are becoming increasingly dynamic and complex. Activity can shift within hours—vehicles reposition, staging areas disperse, small watercraft alter routes, and nodes of activity appear a…",
+      "ts": 1780916400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Why this year’s World Cup ball may not fly as far",
+      "url": "https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/",
+      "summary": "Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, l…",
+      "ts": 1780909200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA at ILA Berlin International Airshow 2026",
+      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_ILA_Berlin_International_Airshow_2026",
+      "summary": "Under the theme 'Space4Future', the European Space Agency (ESA) will welcome visitors to the Space Pavilion at ILA Berlin International Airshow, Hall B, from 10 to 14 June. From Moon exploration to climate monitoring, fr…",
+      "ts": 1780906680000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA and EBRD to advance Earth observation for development and impact finance",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/ESA_and_EBRD_to_advance_Earth_observation_for_development_and_impact_finance",
+      "summary": "The European Space Agency (ESA) signed an agreement with the European Bank for Reconstruction and Development (EBRD), hailing a new era of cooperation with the aim of advancing the use of Earth observation data and servi…",
+      "ts": 1780902900000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "UK startup NewOrbit raises $18.5 million in Series A round",
+      "url": "https://spacenews.com/uk-startup-neworbit-raises-18-5-million-in-series-a-round/",
+      "summary": "SAN FRANCISCO – NewOrbit Space, a UK startup developing satellites for very low Earth orbit (VLEO), has raised $18.5 million in a Series A investment round. With the funding, announced […] The post UK startup NewOrbit ra…",
+      "ts": 1780902000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "OQ Technology plans direct-to-smartphone demo with cellular spectrum",
+      "url": "https://spacenews.com/oq-technology-plans-direct-to-smartphone-demo-with-cellular-spectrum/",
+      "summary": "Luxembourg’s OQ Technology plans to test direct-to-smartphone satellite connectivity next year in Germany using a local telco’s cellular spectrum, setting up a challenge to U.S.-led services in the emerging market. The p…",
+      "ts": 1780900200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies",
+      "url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
+      "summary": "A year ago at London Tech Week, NVIDIA founder and CEO Jensen Huang and U.K. Prime Minister Keir Starmer made a declaration: the U.K. would be an AI maker, not an AI taker. At this year’s event, NVIDIA and its partners a…",
+      "ts": 1780898457000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NASA",
+      "title": "Digging Back in Time in the UAE",
+      "url": "https://science.nasa.gov/earth/earth-observatory/digging-back-in-time-in-the-uae/",
+      "summary": "Once below a shallow sea, Jabal al Fāyah now stands above the desert in the United Arab Emirates as a reminder of a watery past and early human survival.",
+      "ts": 1780891260000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "summary": "NVIDIA and LG Group are building an AI factory to accelerate LG Group’s next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies and GPU cloud services. The AI factory will provi…",
+      "ts": 1780887650000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "Nature Biotechnology",
+      "title": "Single-cell spatial pharmacobiology for imaging antibody-based therapies in solid tumors",
+      "url": "https://www.nature.com/articles/s41587-026-03171-8",
+      "summary": "",
+      "ts": 1780876800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Nature Biotechnology",
+      "title": "Next-gen cryo promises transplant surgeons more time",
+      "url": "https://www.nature.com/articles/s41587-026-03173-6",
+      "summary": "",
+      "ts": 1780876800000,
+      "categoryId": "bio"
+    },
     {
       "source": "NVIDIA",
       "title": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure",
@@ -93,8 +253,8 @@
     {
       "source": "NASA",
       "title": "NASA’s Artemis II Moon Mission Research Continues on Earth",
-      "url": "https://science.nasa.gov/uncategorized/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
-      "summary": "Since NASA’s Artemis II crew members safely splashed down in the Pacific Ocean on April 10 after their record-setting mission around the Moon, science teams have been busy collecting more data and combing through observa…",
+      "url": "https://science.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
+      "summary": "Results from Artemis II’s science investigations will help support safe human exploration of deep space and provide a blueprint for how future missions will conduct science on the lunar surface as NASA builds a Moon Base…",
       "ts": 1780687008000,
       "categoryId": "space"
     },
@@ -315,172 +475,12 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "NASA-Funded Study Shows Wildfire Smoke’s Hidden Ozone Toll",
-      "url": "https://science.nasa.gov/earth/nasa-funded-study-shows-wildfire-smokes-hidden-ozone-toll/",
-      "summary": "Over the last decade, wildfires have worsened ground-level ozone pollution across much of the contiguous United States, creating unhealthy air far from active flames.",
-      "ts": 1780596119000,
-      "categoryId": "space"
-    },
-    {
       "source": "US DOE",
       "title": "United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission",
       "url": "https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps",
       "summary": "The U.S. Department of Energy and Japan’s Ministry of Education, Culture, Sports, Science and Technology and Ministry of Economy, Trade and Industry, today announced an historic $1 billion strategic partnership making Ja…",
       "ts": 1780592400000,
       "categoryId": "energy"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "AstroForge completes DeepSpace-2 spacecraft",
-      "url": "https://spacenews.com/astroforge-completes-deepspace-2-spacecraft/",
-      "summary": "Asteroid mining startup AstroForge has completed assembly of its latest spacecraft for launch later this year, incorporating lessons from a failed mission last year. The post AstroForge completes DeepSpace-2 spacecraft a…",
-      "ts": 1780589005000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Colorful, Chaotic Jupiter",
-      "url": "https://www.nasa.gov/image-article/colorful-chaotic-jupiter/",
-      "summary": "NASA’s Juno spacecraft captured this color-enhanced view of Jupiter’s northern hemisphere during its 61st close flyby of the giant planet on May 12, 2024. Citizen scientist Gary Eason made this image using raw data from …",
-      "ts": 1780588683000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA Image of the Day",
-      "title": "Colorful, Chaotic Jupiter",
-      "url": "https://www.nasa.gov/image-detail/pia25729orig/",
-      "summary": "During its 61st close flyby of Jupiter on May 12, 2024, NASA's Juno spacecraft captured this color-enhanced view of the giant planet's northern hemisphere.",
-      "ts": 1780588680000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Delian Asparouhov and Philip Johnston on making the case for orbital data centers",
-      "url": "https://spacenews.com/delian-asparouhov-and-philip-johnston-on-making-the-case-for-orbital-data-centers/",
-      "summary": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, Jeff Foust talks with talks with Founders Fund’s Delian Asparouhov about why he’s warming to […] The post Delian Asparouhov and …",
-      "ts": 1780585420000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "More Conversations, Complex Questions, and Bold Ideas in Season Five of ‘The Joy of Why’",
-      "url": "https://www.quantamagazine.org/more-conversations-complex-questions-and-bold-ideas-in-season-five-of-the-joy-of-why-20260604/",
-      "summary": "The podcast returns with 12 all-new episodes that explore the biggest questions in basic science and mathematics. The post More Conversations, Complex Questions, and Bold Ideas in Season Five of ‘The Joy of Why’ first ap…",
-      "ts": 1780582355000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Forecast: Fun Ahead — 18 Games Join in June to Stream on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-june-2026-games-list/",
-      "summary": "June’s forecast with GeForce NOW: 100% chance of gaming. GeForce NOW is lining up new adventures for the month, from big-name blockbusters to quirky indies ready for the spotlight. Members can dive into fresh worlds, squ…",
-      "ts": 1780578027000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "ESA",
-      "title": "Tessera AI model offers accessible way to view Earth",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Tessera_AI_model_offers_accessible_way_to_view_Earth",
-      "summary": "A foundation model trained on Earth observation data from Copernicus Sentinel-1 and Sentinel-2 has been made widely available to researchers, it was announced at a computer industry conference this week in Denver, US.",
-      "ts": 1780578000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
-      "url": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chamb…",
-      "ts": 1780575000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NIST",
-      "title": "New AI Model Shows How to Evacuate for Fires One Safe Step at a Time",
-      "url": "https://www.nist.gov/news-events/news/2026/06/new-ai-model-shows-how-evacuate-fires-one-safe-step-time",
-      "summary": "A NIST-led team has created a new AI model that can identify safe evacuation routes in a single-story floor plan during a fire, with a multilevel version in the works.",
-      "ts": 1780574400000,
-      "categoryId": "policy"
-    },
-    {
-      "source": "NIST",
-      "title": "NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers",
-      "url": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers",
-      "summary": "NIST also improved how X-rays are used to study the atomic structure of metals in real time during 3D printing, allowing researchers to observe how materials change under extreme conditions.",
-      "ts": 1780574400000,
-      "categoryId": "policy"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "ts": 1780574400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NASA working to streamline development of nuclear electric propulsion demo mission",
-      "url": "https://spacenews.com/nasa-working-to-streamline-development-of-nuclear-electric-propulsion-demo-mission/",
-      "summary": "NASA is working on a streamlined management approach for a nuclear electric propulsion demonstration mission the agency wants to launch in two and a half years. The post NASA working to streamline development of nuclear …",
-      "ts": 1780570556000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How courts are coping with a flood of AI-generated lawsuits",
-      "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
-      "summary": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have…",
-      "ts": 1780570218000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "China builds institutional framework for space computing push",
-      "url": "https://spacenews.com/china-builds-institutional-framework-for-space-computing-push/",
-      "summary": "China is establishing an industrial policy framework to support a push to build space-based computing infrastructure, with the emergence of influential coordinating bodies. The post China builds institutional framework f…",
-      "ts": 1780566661000,
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-      "ts": 1780563600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "A new chapter for ESA’s brand",
-      "url": "https://www.esa.int/About_Us/Branding_and_Partnerships/A_new_chapter_for_ESA_s_brand",
-      "summary": "Last year, the European Space Agency (ESA) unveiled its long-term vision for the decades ahead with ESA Strategy 2040. Framed around five encompassing goals which demonstrate the important role space can play in every as…",
-      "ts": 1780560000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "ExoMars rover targets vast bed of clay in search for life ",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_targets_vast_bed_of_clay_in_search_for_life",
-      "summary": "In the region where the ExoMars Rosalind Franklin rover will search for signs of life, clay deposits extend beyond previous estimates, a new study finds. One hypothesis even suggests a vast ocean once covered the landing…",
-      "ts": 1780554600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "A Moonlit Earth as Seen From Artemis II",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-moonlit-earth-as-seen-from-artemis-ii/",
-      "summary": "An astronaut’s photo, taken en route to the Moon, reveals our planet and its place in space in a novel way.",
-      "ts": 1780545660000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SpaceX to raise at least $75 billion in IPO",
-      "url": "https://spacenews.com/spacex-to-raise-at-least-75-billion-in-ipo/",
-      "summary": "SpaceX plans to raise at least $75 billion in its initial public offering, valuing the company at more than $1.75 trillion. The post SpaceX to raise at least $75 billion in IPO appeared first on SpaceNews.",
-      "ts": 1780541672000,
-      "categoryId": "space"
     }
   ],
   "categories": [

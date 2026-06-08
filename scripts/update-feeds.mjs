@@ -19,29 +19,27 @@ function ts(item) {
 
 const SCIENCE_SOURCES = [
   {
-    id: "nature",
-    name: "Nature",
-    url: "https://www.nature.com/nature/current-issue.rss",
-  },
-  {
-    id: "nature-news",
-    name: "Nature News",
-    url: "https://www.nature.com/nature/articles?type=news&format=rss",
-  },
-  {
-    id: "nature-energy",
-    name: "Nature Energy",
-    url: "https://www.nature.com/nenergy.rss",
-  },
-  {
     id: "science",
     name: "Science",
     url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science",
   },
+
   {
     id: "aps",
     name: "APS / PRL",
     url: "https://feeds.aps.org/rss/recent/prl.xml",
+  },
+
+  {
+    id: "physorg",
+    name: "Phys.org",
+    url: "https://phys.org/rss-feed/",
+  },
+
+  {
+    id: "arxiv",
+    name: "arXiv Physics",
+    url: "https://rss.arxiv.org/rss/physics",
   },
 ];
 
