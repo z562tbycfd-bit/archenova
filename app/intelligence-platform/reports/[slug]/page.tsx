@@ -153,8 +153,8 @@ export default function ResearchReportPage({
       </section>
 
       <div className="page-foot">
-        <Link href="/arche-nova-research" className="back-link">
-          ← Back to ArcheNova Research
+        <Link href="/intelligence-platform/reports" className="back-link">
+          ← Back to Intelligence Platform
         </Link>
       </div>
     </main>
