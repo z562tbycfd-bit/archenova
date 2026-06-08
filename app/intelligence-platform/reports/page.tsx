@@ -2,7 +2,7 @@ import Link from "next/link";
 import {
   generatedResearchReports,
   archeNovaTopSignals,
-} from "../../lib/generatedResearchReports";
+} from "lib/generatedResearchReports";
 
 const domains = [
  "Artificial Intelligence",
