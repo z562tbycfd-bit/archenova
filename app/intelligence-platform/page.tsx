@@ -3,7 +3,7 @@ import Link from "next/link";
 const modules = [
   {
     title: "Reports",
-    href: "/arche-nova-research",
+    href: "/intelligence-platform/reports",
     text: "Auto-generated ArcheNova Analyst reports with signal analysis, implementation pathways, roadmaps, horizons, and scores.",
   },
   {
@@ -12,18 +12,18 @@ const modules = [
     text: "Daily scientific and technological signals ranked by implementation potential, infrastructure impact, and civilization significance.",
   },
   {
-  title: "Watchlist",
-  href: "/intelligence-platform/watchlist",
-  text: "Technologies requiring continuous monitoring across future implementation pathways.",
-},
+    title: "Watchlist",
+    href: "/intelligence-platform/watchlist",
+    text: "Technologies requiring continuous monitoring across future implementation pathways.",
+  },
   {
     title: "Risks",
-    href: "/arche-nova-research",
+    href: "/intelligence-platform/risks",
     text: "Implementation, infrastructure, governance, and civilization-level risks associated with emerging technologies.",
   },
   {
     title: "Roadmaps",
-    href: "/arche-nova-research",
+    href: "/intelligence-platform/roadmaps",
     text: "Technology pathways from discovery to application, infrastructure formation, and civilization capability.",
   },
 ];
@@ -58,9 +58,7 @@ export default function IntelligencePlatformPage() {
             >
               <h3>{module.title}</h3>
               <p>{module.text}</p>
-              <div className="plaza-hint">
-                {module.href === "#" ? "Coming Soon →" : "Open →"}
-              </div>
+              <div className="plaza-hint">Open →</div>
             </Link>
           ))}
         </div>
