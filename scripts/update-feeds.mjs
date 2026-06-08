@@ -147,11 +147,9 @@ async function buildScience() {
     all.push(...items);
   }
 
-  const merged = all
-    .filter((x) => x.title && x.url)
-    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
-    .slice(0, 40);
+  const previous = readPreviousItems("science.json");
+
+const merged = mergeWithPrevious(all, previous, 100);
 
   fs.mkdirSync(outDir, { recursive: true });
 
@@ -172,6 +170,28 @@ async function buildScience() {
     )
   );
 
+  function readPreviousItems(fileName) {
+  try {
+    const filePath = path.join(outDir, fileName);
+    if (!fs.existsSync(filePath)) return [];
+
+    const raw = fs.readFileSync(filePath, "utf8");
+    const json = JSON.parse(raw);
+
+    return Array.isArray(json.items) ? json.items : [];
+  } catch {
+    return [];
+  }
+}
+
+function mergeWithPrevious(currentItems, previousItems, limit) {
+  return [...currentItems, ...previousItems]
+    .filter((x) => x.title && x.url)
+    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
+    .slice(0, limit);
+}
+
   console.log(`Generated public/data/science.json: ${merged.length} items`);
   return merged;
 }
@@ -186,11 +206,9 @@ async function buildTechnology() {
     }
   }
 
-  const merged = all
-    .filter((x) => x.title && x.url)
-    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
-    .slice(0, 60);
+ const previous = readPreviousItems("technology.json");
+
+const merged = mergeWithPrevious(all, previous, 90);
 
   fs.mkdirSync(outDir, { recursive: true });
 
@@ -704,7 +722,7 @@ ts: item.ts || 0,
 function writeGeneratedResearchReports(scienceItems, technologyItems) {
   const reports = [...scienceItems, ...technologyItems]
   .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-  .slice(0, 30)
+  .slice(0, 100)
   .map(makeReport);
 
 const topSignals = [...reports]
@@ -713,7 +731,7 @@ const topSignals = [...reports]
       (b.archeNovaAssessment?.overall || 0) -
       (a.archeNovaAssessment?.overall || 0)
   )
-  .slice(0, 5);
+  .slice(0, 10);
 
   const watchlist = reports
   .filter((report) => report.archeNovaAssessment)
@@ -722,7 +740,7 @@ const topSignals = [...reports]
       (b.archeNovaAssessment?.overall || 0) -
       (a.archeNovaAssessment?.overall || 0)
   )
-  .slice(0, 5);
+  .slice(0, 20);
 
   const watchlistWithTrend = watchlist.map((report, index) => {
   const score = report.archeNovaAssessment?.overall || 0;
