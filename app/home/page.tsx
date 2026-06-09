@@ -4,7 +4,7 @@ import GateFragments from "../components/GateFragments";
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import { archeNovaTopSignals } from "../../lib/generatedResearchReports";
-import ArcheNovaGalaxy from "../components/ArcheNovaGalaxy";
+import ArcheNovaDiscoverySlider from "../components/ArcheNovaDiscoverySlider";
 
 export default function Home() {
 
@@ -77,13 +77,7 @@ export default function Home() {
   className="home-page home-galaxy-page"
   data-home-section
 >
-  <Link
-    href="/archenova"
-    className="archenova-galaxy-link"
-    aria-label="Open ArcheNova"
-  >
-    <ArcheNovaGalaxy />
-  </Link>
+  <ArcheNovaDiscoverySlider />
 </section>
 
 {/* =========================
