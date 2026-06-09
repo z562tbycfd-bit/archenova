@@ -10759,7 +10759,9 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 48px 0;
+  padding: 32px 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .episteme-portal {
@@ -10773,14 +10775,9 @@ html, body {
 
 .episteme-image {
   width: 100%;
-  height: min(72vh, 680px);
+  height: min(72svh, 680px);
   object-fit: cover;
   display: block;
-  transition: transform 0.8s ease;
-}
-
-.episteme-portal:hover .episteme-image {
-  transform: scale(1.03);
 }
 
 .episteme-overlay {
@@ -10800,7 +10797,7 @@ html, body {
 @media (max-width: 768px) {
   .episteme-home-page {
     min-height: 100svh;
-    padding: 24px 0;
+    padding: 20px 0;
   }
 
   .episteme-portal {
@@ -10810,8 +10807,6 @@ html, body {
 
   .episteme-image {
     height: 72svh;
-    aspect-ratio: auto;
-    object-fit: cover;
   }
 
   .episteme-overlay {
