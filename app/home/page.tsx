@@ -83,8 +83,9 @@ export default function Home() {
 {/* =========================
     PAGE : ARCHENOVA EPISTEME PORTAL
    ========================= */}
-   <section
-  className="home-section episteme-section"
+<section
+  id="home-episteme"
+  className="home-page episteme-section"
   data-home-section
 >
   <div className="episteme-section-inner">
