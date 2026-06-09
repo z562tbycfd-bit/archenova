@@ -72,16 +72,19 @@ export default function Home() {
 {/* =========================
     PAGE : ARCHENOVA GALAXY
    ========================= */}
-<section id="home-galaxy" data-home-section className="home-page home-galaxy-page">
-
+<section
+  id="home-galaxy"
+  className="home-page home-galaxy-page"
+  data-home-section
+>
   <ArcheNovaGalaxy />
 </section>
 
 {/* =========================
     PAGE : ARCHENOVA EPISTEME PORTAL
    ========================= */}
-   <section id="home-hero" data-home-section className="home-page hero-page">
-<div className="home-page episteme-home-page"
+   <section
+	className="home-page episteme-home-page"
   data-home-section
 >
   <Link href="/episteme" className="episteme-portal">
@@ -97,7 +100,6 @@ export default function Home() {
       <p>Meta-Knowledge Intelligence</p>
     </div>
   </Link>
-</div>
 </section>
 
       {/* =========================
