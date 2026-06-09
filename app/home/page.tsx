@@ -77,7 +77,13 @@ export default function Home() {
   className="home-page home-galaxy-page"
   data-home-section
 >
-  <ArcheNovaGalaxy />
+  <Link
+    href="/archenova"
+    className="archenova-galaxy-link"
+    aria-label="Open ArcheNova"
+  >
+    <ArcheNovaGalaxy />
+  </Link>
 </section>
 
 {/* =========================

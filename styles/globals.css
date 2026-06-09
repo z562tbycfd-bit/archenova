@@ -10880,3 +10880,31 @@ html, body {
     padding: 20px;
   }
 }
+.archenova-galaxy-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.archenova-identity-hero {
+  display: grid;
+  gap: 28px;
+}
+
+.archenova-identity-hero .archenova-galaxy {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .archenova-galaxy-link {
+    min-height: 100svh;
+  }
+
+  .archenova-identity-hero {
+    gap: 20px;
+  }
+}
