@@ -10754,20 +10754,29 @@ html, body {
     bottom: 10%;
   }
 }
+.episteme-home-page {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0;
+}
+
 .episteme-portal {
   position: relative;
   display: block;
+  width: min(92vw, 1100px);
   overflow: hidden;
-  border-radius: 24px;
+  border-radius: 28px;
   text-decoration: none;
 }
 
 .episteme-image {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: min(72vh, 680px);
   object-fit: cover;
   display: block;
-  transition: transform .8s ease;
+  transition: transform 0.8s ease;
 }
 
 .episteme-portal:hover .episteme-image {
@@ -10781,62 +10790,31 @@ html, body {
   flex-direction: column;
   justify-content: flex-end;
   padding: 32px;
-  background:
-    linear-gradient(
-      to top,
-      rgba(0,0,0,.75),
-      rgba(0,0,0,.15)
-    );
-}
-
-.episteme-overlay h2 {
-  margin: 0;
-}
-
-.episteme-overlay p {
-  opacity: .8;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.76),
+    rgba(0, 0, 0, 0.16)
+  );
 }
 
 @media (max-width: 768px) {
-  .episteme-overlay {
-    padding: 20px;
+  .episteme-home-page {
+    min-height: 100svh;
+    padding: 24px 0;
+  }
+
+  .episteme-portal {
+    width: 92vw;
+    border-radius: 24px;
   }
 
   .episteme-image {
-    aspect-ratio: 1 / 1;
+    height: 72svh;
+    aspect-ratio: auto;
+    object-fit: cover;
   }
-}
-.dialogue-box {
-  display: grid;
-  gap: 14px;
-  margin: 20px 0;
-}
 
-.dialogue-message {
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 18px;
-  padding: 14px 16px;
-  background: rgba(255,255,255,0.035);
-  white-space: pre-wrap;
-}
-
-.dialogue-user {
-  margin-left: 8%;
-}
-
-.dialogue-ai {
-  margin-right: 8%;
-}
-
-.dialogue-role {
-  font-size: 0.72rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  opacity: 0.58;
-  margin-bottom: 8px;
-}
-
-.dialogue-input-row {
-  display: grid;
-  gap: 12px;
+  .episteme-overlay {
+    padding: 20px;
+  }
 }
