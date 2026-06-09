@@ -84,22 +84,24 @@ export default function Home() {
     PAGE : ARCHENOVA EPISTEME PORTAL
    ========================= */}
    <section
-	className="home-page episteme-home-page"
+  className="home-section episteme-section"
   data-home-section
 >
-  <Link href="/episteme" className="episteme-portal">
-    <img
-      src="/images/episteme.jpeg"
-      alt="Episteme"
-      className="episteme-image"
-    />
+  <div className="episteme-section-inner">
+    <Link href="/episteme" className="episteme-portal">
+      <img
+        src="/images/episteme.jpeg"
+        alt="Episteme"
+        className="episteme-image"
+      />
 
-    <div className="episteme-overlay">
-      <span className="home-section-label">EPISTEME</span>
-      <h2>Episteme</h2>
-      <p>Meta-Knowledge Intelligence</p>
-    </div>
-  </Link>
+      <div className="episteme-overlay">
+        <span className="home-section-label">EPISTEME</span>
+        <h2>Episteme</h2>
+        <p>Meta-Knowledge Intelligence</p>
+      </div>
+    </Link>
+  </div>
 </section>
 
       {/* =========================
