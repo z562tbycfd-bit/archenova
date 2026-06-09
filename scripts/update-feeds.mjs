@@ -6,6 +6,31 @@ const parser = new Parser();
 
 const outDir = path.join(process.cwd(), "public", "data");
 
+function readPreviousItems(fileName) {
+  try {
+    const filePath = path.join(outDir, fileName);
+
+    if (!fs.existsSync(filePath)) {
+      return [];
+    }
+
+    const raw = fs.readFileSync(filePath, "utf8");
+    const json = JSON.parse(raw);
+
+    return Array.isArray(json.items) ? json.items : [];
+  } catch {
+    return [];
+  }
+}
+
+function mergeWithPrevious(currentItems, previousItems, limit) {
+  return [...currentItems, ...previousItems]
+    .filter((x) => x.title && x.url)
+    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
+    .slice(0, limit);
+}
+
 function clamp(text = "", max = 220) {
   const clean = String(text).replace(/\s+/g, " ").trim();
   return clean.length > max ? clean.slice(0, max) + "…" : clean;

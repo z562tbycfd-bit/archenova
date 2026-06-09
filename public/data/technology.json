@@ -1,486 +1,726 @@
 {
   "ok": true,
-  "updated": "2026-06-08T17:05:20.653Z",
+  "updated": "2026-06-09T21:58:56.069Z",
   "items": [
     {
-      "source": "NASA Image of the Day",
-      "title": "Supersonic!",
-      "url": "https://www.nasa.gov/image-detail/x59-first-supersonic-ata-02/",
-      "summary": "NASA’s X-59 quiet supersonic research aircraft completed its first supersonic flight Friday, June 5, 2026, marking the first time the aircraft exceeded the speed of sound in support of NASA’s Quesst mission. The mileston…",
-      "ts": 1780933320000,
-      "categoryId": "space"
-    },
-    {
       "source": "NASA",
-      "title": "Supersonic!",
-      "url": "https://www.nasa.gov/image-article/supersonic/",
-      "summary": "On June 5, 2026, NASA’s experimental X-59 aircraft flew faster than the speed of sound for the first time, setting the stage for demonstrating its quiet supersonic capabilities later this year. NASA test pilot Jim “Clue”…",
-      "ts": 1780932490000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s INCUS Satellites Progress Toward Launch",
-      "url": "https://science.nasa.gov/photojournal/nasas-incus-satellites-progress-toward-launch/",
-      "summary": "Description One of the three satellites that make up NASA’s INCUS (Investigation of Convective Updrafts) mission sits on a fixture at the facilities of Blue Canyon Technologies in Lafayette, Colorado. The satellite compl…",
-      "ts": 1780932127000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "How Terry Tao Became an Evangelist for AI in Math",
-      "url": "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/",
-      "summary": "With automated proof-checkers, a problem can be broken up into small chunks, solved bit-by-bit, then reassembled with confidence that every piece is correct. For some, this heralds a new area in mathematical research. Th…",
-      "ts": 1780931828000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Russia is jamming GPS from space ",
-      "url": "https://spacenews.com/russia-is-jamming-gps-from-space/",
-      "summary": "“America is at risk of high impact GPS jamming and spoofing from space” was the title of my SpaceNews opinion article in October 2024. Little did I know that its […] The post Russia is jamming GPS from space appeared fir…",
-      "ts": 1780930800000,
+      "title": "Flight Dynamics Research Facility Characteristics",
+      "url": "https://www.nasa.gov/directorates/armd/aetc/fdrf-characteristics/",
+      "summary": "HomeCharacteristics The Flight Dynamics Research Facility (FDRF) is a large, subsonic wind tunnel with a vertical test section for conducting flight dynamics research for stability, controllability, free-fall and aircraf…",
+      "ts": 1781038022000,
       "categoryId": "space"
     },
     {
       "source": "SpaceNews",
-      "title": "Quantum Space to go public in SPAC deal",
-      "url": "https://spacenews.com/quantum-space-to-go-public-in-spac-deal/",
-      "summary": "Quantum Space, a company led by a former NASA administrator developing highly maneuverable spacecraft for national security missions, will go public by merging with a special purpose acquisition company. The post Quantum…",
-      "ts": 1780928384000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "WRC-27: the next arena for U.S.-China space competition",
-      "url": "https://spacenews.com/wrc-27-the-next-arena-for-u-s-china-space-competition/",
-      "summary": "For anyone who wasn’t sure whether China was in it to win the space race and dominate the rapidly growing space economy, its filings in December for 200,000 more satellites […] The post WRC-27: the next arena for U.S.-Ch…",
-      "ts": 1780923600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: how the World Cup ball will fly and OpenAI’s “super app”",
-      "url": "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why this year’s World Cup ball may not fly as far Much is new about this month’s F…",
-      "ts": 1780920600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Axiom and Prada advance design of spacesuit",
-      "url": "https://spacenews.com/axiom-and-prada-advance-design-of-spacesuit/",
-      "summary": "Axiom Space unveiled the design of another element of the lunar spacesuit it is developing for NASA in partnership with luxury designer Prada. The post Axiom and Prada advance design of spacesuit appeared first on SpaceN…",
-      "ts": 1780917800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Speed as a Strategic Advantage in Border Monitoring",
-      "url": "https://spacenews.com/speed-as-a-strategic-advantage-in-border-monitoring/",
-      "summary": "Across Europe, border environments are becoming increasingly dynamic and complex. Activity can shift within hours—vehicles reposition, staging areas disperse, small watercraft alter routes, and nodes of activity appear a…",
-      "ts": 1780916400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Why this year’s World Cup ball may not fly as far",
-      "url": "https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/",
-      "summary": "Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, l…",
-      "ts": 1780909200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA at ILA Berlin International Airshow 2026",
-      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_ILA_Berlin_International_Airshow_2026",
-      "summary": "Under the theme 'Space4Future', the European Space Agency (ESA) will welcome visitors to the Space Pavilion at ILA Berlin International Airshow, Hall B, from 10 to 14 June. From Moon exploration to climate monitoring, fr…",
-      "ts": 1780906680000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA and EBRD to advance Earth observation for development and impact finance",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/ESA_and_EBRD_to_advance_Earth_observation_for_development_and_impact_finance",
-      "summary": "The European Space Agency (ESA) signed an agreement with the European Bank for Reconstruction and Development (EBRD), hailing a new era of cooperation with the aim of advancing the use of Earth observation data and servi…",
-      "ts": 1780902900000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "UK startup NewOrbit raises $18.5 million in Series A round",
-      "url": "https://spacenews.com/uk-startup-neworbit-raises-18-5-million-in-series-a-round/",
-      "summary": "SAN FRANCISCO – NewOrbit Space, a UK startup developing satellites for very low Earth orbit (VLEO), has raised $18.5 million in a Series A investment round. With the funding, announced […] The post UK startup NewOrbit ra…",
-      "ts": 1780902000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "OQ Technology plans direct-to-smartphone demo with cellular spectrum",
-      "url": "https://spacenews.com/oq-technology-plans-direct-to-smartphone-demo-with-cellular-spectrum/",
-      "summary": "Luxembourg’s OQ Technology plans to test direct-to-smartphone satellite connectivity next year in Germany using a local telco’s cellular spectrum, setting up a challenge to U.S.-led services in the emerging market. The p…",
-      "ts": 1780900200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How the UK Is Turning Sovereign AI Ambition Into Action With NVIDIA Technologies",
-      "url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements/",
-      "summary": "A year ago at London Tech Week, NVIDIA founder and CEO Jensen Huang and U.K. Prime Minister Keir Starmer made a declaration: the U.K. would be an AI maker, not an AI taker. At this year’s event, NVIDIA and its partners a…",
-      "ts": 1780898457000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NASA",
-      "title": "Digging Back in Time in the UAE",
-      "url": "https://science.nasa.gov/earth/earth-observatory/digging-back-in-time-in-the-uae/",
-      "summary": "Once below a shallow sea, Jabal al Fāyah now stands above the desert in the United Arab Emirates as a reminder of a watery past and early human survival.",
-      "ts": 1780891260000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and LG Group Build an AI Factory to Advance Physical AI, Mobility and AI Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
-      "summary": "NVIDIA and LG Group are building an AI factory to accelerate LG Group’s next wave of AI-driven businesses, spanning robotics, autonomous driving, data center technologies and GPU cloud services. The AI factory will provi…",
-      "ts": 1780887650000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Single-cell spatial pharmacobiology for imaging antibody-based therapies in solid tumors",
-      "url": "https://www.nature.com/articles/s41587-026-03171-8",
-      "summary": "",
-      "ts": 1780876800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Next-gen cryo promises transplant surgeons more time",
-      "url": "https://www.nature.com/articles/s41587-026-03173-6",
-      "summary": "",
-      "ts": 1780876800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and Doosan Group Collaborate to Advance Physical AI and AI Factory Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai/",
-      "summary": "NVIDIA and Doosan Group are expanding their collaboration to advance new opportunities across physical AI, robotics and AI factory infrastructure, spanning Doosan Robotics, Doosan Bobcat, Doosan Enerbility and Doosan Cor…",
-      "ts": 1780873236000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "SK Telecom and NVIDIA Build AI Infrastructure to Power Korea’s AI Innovation",
-      "url": "https://nvidianews.nvidia.com/news/sk-telecom-ai-infrastructure",
-      "summary": "NVIDIA and SK Telecom today announced that SK Telecom plans to build a gigawatt-scale AI Cloud in Korea using the NVIDIA DSX™ platform, with the first AI factory coming online in 2027.",
-      "ts": 1780873200000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and SK hynix Announce Multiyear Technology Partnership to Advance Memory for AI Factories",
-      "url": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
-      "summary": "NVIDIA and SK hynix today announced a multiyear technology partnership to advance next-generation memory for the global AI factory buildout and accelerate semiconductor design and manufacturing.",
-      "ts": 1780873200000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NAVER Expands AI Infrastructure With NVIDIA to Serve Surging Global AI Demand",
-      "url": "https://nvidianews.nvidia.com/news/naver-ai-infrastructure",
-      "summary": "NVIDIA and NAVER today announced that NAVER will expand sovereign AI infrastructure, starting at 55 megawatts with plans to move to gigawatt scale using the NVIDIA DSX™ platform to rapidly design, build and scale full-st…",
-      "ts": 1780873200000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NASA to select new headquarters building by end of year",
-      "url": "https://spacenews.com/nasa-to-select-new-headquarters-building-by-end-of-year/",
-      "summary": "NASA plans to find a new headquarters building by the end of this year while remaining in the Washington area. The post NASA to select new headquarters building by end of year appeared first on SpaceNews.",
-      "ts": 1780840538000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rounding up the space unicorns",
-      "url": "https://spacenews.com/rounding-up-the-space-unicorns/",
-      "summary": "Once rare beasts, billion-dollar startups are multiplying across new orbital markets. The post Rounding up the space unicorns appeared first on SpaceNews.",
-      "ts": 1780830234000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
-      "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
-      "summary": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to…",
-      "ts": 1780815615000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NASA interested in Hubble reboost if costs can be reduced",
-      "url": "https://spacenews.com/nasa-interested-in-hubble-reboost-if-costs-can-be-reduced/",
-      "summary": "As NASA prepares an attempt to reboost an astronomy spacecraft in a decaying orbit, it is open to doing something similar for Hubble, if its operating costs can be reduced. The post NASA interested in Hubble reboost if c…",
-      "ts": 1780793527000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NASA concerns about Russian repairs prompted ISS safe haven decision",
-      "url": "https://spacenews.com/nasa-concerns-about-russian-repairs-prompted-iss-safe-haven-decision/",
-      "summary": "NASA directed astronauts on the ISS to shelter in a Crew Dragon spacecraft after Russian cosmonauts planned to perform repairs the agency thought created “elevated risk” to the station. The post NASA concerns about Russi…",
-      "ts": 1780767215000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s X-59 Aircraft Flies Supersonic for First Time",
-      "url": "https://www.nasa.gov/aeronautics/x-59-first-supersonic-flight/",
-      "summary": "NASA’s experimental X-59 aircraft marked a major milestone Friday, June 5, when it flew faster than the speed of sound for the first time, setting the stage for demonstrating its quiet supersonic capabilities later this …",
-      "ts": 1780692297000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Announces Winners of 2026 University Innovation Competition ",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-announces-winners-of-2026-university-innovation-competition/",
-      "summary": "NASA announced the Massachusetts Institute of Technology project, Exploration-Class Lunar Integrated Power SystEm, as the first place winner for the 2026 Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-…",
-      "ts": 1780690631000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Artemis II Moon Mission Research Continues on Earth",
-      "url": "https://science.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
-      "summary": "Results from Artemis II’s science investigations will help support safe human exploration of deep space and provide a blueprint for how future missions will conduct science on the lunar surface as NASA builds a Moon Base…",
-      "ts": 1780687008000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Leaf Space partners with D-Orbit and EnduroSat to test connectivity service",
-      "url": "https://spacenews.com/leaf-space-partners-with-d-orbit-and-endurosat-to-test-connectivity-service/",
-      "summary": "MILAN – Italian ground segment operator Leaf Space unveiled a new space connectivity service May 27. The technology, named TreeNet, aims to make space communications more seamless by treating individual […] The post Leaf…",
-      "ts": 1780683130000,
-      "categoryId": "space"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "50 Years of The Institute",
-      "url": "https://spectrum.ieee.org/50-years-ieee-the-institute",
-      "summary": "The Institute is celebrating its 50th anniversary this year. Launched in 1976, the publication was designed to keep members informed about IEEE and what its constituents were doing, as well as to report on the organizati…",
-      "ts": 1780682401000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Concludes Antenna Mishap Investigation, Releases Report",
-      "url": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/nasa-concludes-antenna-mishap-investigation-releases-report/",
-      "summary": "NASA has completed the investigation into the damage sustained last year at its 70-meter radio-frequency antenna, known as the Deep Space Station 14 (DSS-14), at the Goldstone Deep Space Communications Complex near Barst…",
-      "ts": 1780678800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Astronauts briefly shelter in Dragon during ISS leak repair",
-      "url": "https://spacenews.com/astronauts-briefly-shelter-in-dragon-during-iss-leak-repair/",
-      "summary": "NASA instructed astronauts on the International Space Station to briefly shelter in a Dragon spacecraft June 5 as cosmonauts attempted to repair an air leak in a Russian module. The post Astronauts briefly shelter in Dra…",
-      "ts": 1780676956000,
+      "title": "NASA names crew for Artemis 3 mission to test lunar landers",
+      "url": "https://spacenews.com/nasa-names-crew-for-artemis-3-mission-to-test-lunar-landers/",
+      "summary": "NASA has named the astronauts who will fly the next Artemis mission, a test flight in low Earth orbit where Orion will attempt to dock with two lunar lander prototypes. The post NASA names crew for Artemis 3 mission to t…",
+      "ts": 1781035071000,
       "categoryId": "space"
     },
     {
       "source": "NASA Image of the Day",
-      "title": "First Steps: America’s Grueling Second Spacewalk",
-      "url": "https://www.nasa.gov/image-detail/s66-38515orig/",
-      "summary": "A year after America’s first spacewalk, Gemini IX-A Eugene Cernan stepped outside his spacecraft for an ambitious extravehicular activity scheduled for 167 minutes. The challenges he faced led NASA to reevaluate plans, e…",
-      "ts": 1780674480000,
+      "title": "Artemis III Crew Announced",
+      "url": "https://www.nasa.gov/image-detail/jsc2026e392659/",
+      "summary": "NASA announced the Artemis III crew on Tuesday, June 9, 2026. NASA astronaut Andre Douglas, mission specialist; ESA (European Space Agency) astronaut Luca Parmitano, pilot; NASA astronaut Randy Bresnik, commander; and NA…",
+      "ts": 1781033940000,
       "categoryId": "space"
     },
     {
       "source": "NASA",
-      "title": "First Steps: America’s Grueling Second Spacewalk",
-      "url": "https://www.nasa.gov/image-article/first-steps-americas-grueling-second-spacewalk/",
-      "summary": "One year after Gemini IV astronaut Edward H. White completed NASA’s first spacewalk the agency prepared for a demanding second excursion. Originally scheduled for Gemini VIII, the extravehicular activity (EVA) was reassi…",
-      "ts": 1780674447000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Quanta Magazine",
-      "title": "Are Memories Transferable — or Edible?",
-      "url": "https://www.quantamagazine.org/are-memories-transferable-or-edible-20260605/",
-      "summary": "In the 1960s, worm-training experiments and their strange implications captivated the nation. Columnist Claire L. Evans follows the neuroscientists who attempted to recapture the magic. The post Are Memories Transferable…",
-      "ts": 1780669279000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Next Ariane 6 launch to carry 36 Amazon Leo satellites using upgraded boosters",
-      "url": "https://spacenews.com/next-ariane-6-launch-to-carry-36-amazon-leo-satellites-using-upgraded-boosters/",
-      "summary": "Amazon will fly its largest number of broadband satellites to date later this month on the first Ariane 6 launch to use upgraded boosters. The post Next Ariane 6 launch to carry 36 Amazon Leo satellites using upgraded bo…",
-      "ts": 1780668151000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Date is set for bigger booster, more powerful Ariane 6 ",
-      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Date_is_set_for_bigger_booster_more_powerful_Ariane_6",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/p160c_based_booster_for_ariane_6_arrives_at_the_launch_pad/27310691-1-eng-GB/P160C_based_booster_for_Ariane_6_arrives_at_the_launch_pad_c…",
-      "ts": 1780667580000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 01-05 Jun 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_01-05_Jun_2026",
-      "summary": "Week in images: 01-05 Jun 2026 Discover our week through the lens",
-      "ts": 1780665000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "How Europe studies the Sun",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/How_Europe_studies_the_Sun",
-      "summary": "Video: 00:02:40 English How does Europe study the Sun? Discover the missions revealing the secrets of our closest star, from SOHO and Solar Orbiter to Proba-3, which is creating artificial solar eclipses in space to unlo…",
-      "ts": 1780664400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Let’s build the moon base, but not lose sight of Mars",
-      "url": "https://spacenews.com/lets-build-the-moon-base-but-not-lose-sight-of-mars/",
-      "summary": "These are heady days for NASA and the space industry. The Artemis 2 crew flew around the moon, traveling farther into space than any humans previously had; NASA announced an […] The post Let’s build the moon base, but no…",
-      "ts": 1780664400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI hacking beyond Mythos, and chatbots’ impact on our brains",
-      "url": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Meta hack shows there’s more to AI security than Mythos On Monday, reports eme…",
-      "ts": 1780661400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Qianfan constellation deployment hits 200 satellites with Long March 8 and 6A launches",
-      "url": "https://spacenews.com/qianfan-constellation-deployment-hits-200-satellites-with-long-march-8-and-6a-launches/",
-      "summary": "Construction of the Shanghai-led Qianfan constellation continued to accelerate this week with a pair of Long March launches, following on from two recent experimental flights. The post Qianfan constellation deployment hi…",
-      "ts": 1780656392000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Satellite maker Apex’s valuation rises to $2.3 billion after latest $200 million raise",
-      "url": "https://spacenews.com/satellite-maker-apexs-valuation-rises-to-2-3-billion-after-latest-200-million-raise/",
-      "summary": "Apex has raised more than $200 million to expand in-house satellite production capabilities, announcing a funding round June 5 it says nearly doubled the four-year-old manufacturer’s valuation to $2.3 billion. The post S…",
-      "ts": 1780650900000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Are AI chatbots making us lose control of our brains?",
-      "url": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
-      "summary": "This week I’ve been at SXSW London. There’s been music, film, and a lot—and I mean a lot—of talk about AI. I also had the opportunity to sit down with Gloria Mark, a psychologist at the University of California, Irvine, …",
-      "ts": 1780650000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Meta hack shows there’s more to AI security than Mythos",
-      "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-      "summary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they …",
-      "ts": 1780650000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The Exploration Company completes drop test of Nyx capsule",
-      "url": "https://spacenews.com/the-exploration-company-completes-drop-test-of-nyx-capsule/",
-      "summary": "The Exploration Company performed a drop test of the Nyx spacecraft it is developing to transport cargo to low Earth orbit ahead of a 2028 test flight. The post The Exploration Company completes drop test of Nyx capsule …",
-      "ts": 1780648224000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Webb unveils young stars across every stage of formation",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Webb_unveils_young_stars_across_every_stage_of_formation",
-      "summary": "Image: Webb unveils young stars across every stage of formation",
-      "ts": 1780646400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Baku, Azerbaijan",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Baku_Azerbaijan",
-      "summary": "Image: On World Environment Day, the Copernicus Sentinel-2 mission brings us an amazing view from space of Baku, capital of Azerbaijan, hosting this year’s celebration.",
-      "ts": 1780646400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Axiom Space adds more than $175 million to funding round",
-      "url": "https://spacenews.com/axiom-space-adds-more-than-175-million-to-funding-round/",
-      "summary": "Axiom Space announced June 4 that it added more than $175 million to its latest funding round, with Japan’s largest bank joining the company’s investors. The post Axiom Space adds more than $175 million to funding round …",
-      "ts": 1780643004000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
-      "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026/",
-      "summary": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen H…",
-      "ts": 1780637917000,
-      "categoryId": "semiconductor"
-    },
-    {
-      "source": "NASA",
-      "title": "Fighting Fire With Fire",
-      "url": "https://science.nasa.gov/earth/earth-observatory/fighting-fire-with-fire/",
-      "summary": "In fire-prone ecosystems in Australia’s Northern Territory, prescribed burns are lit to minimize the severity of fires later in the season.",
-      "ts": 1780632060000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Multiplexed, precise genome engineering in monocots with twin prime editing systems",
-      "url": "https://www.nature.com/articles/s41587-026-03174-5",
-      "summary": "",
-      "ts": 1780617600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Structural motif search across the protein universe with Folddisco",
-      "url": "https://www.nature.com/articles/s41587-026-03162-9",
-      "summary": "",
-      "ts": 1780617600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "HASC NDAA markup challenges Space Force on satellite programs",
-      "url": "https://spacenews.com/hasc-ndaa-markup-challenges-space-force-on-satellite-programs/",
-      "summary": "House Armed Services Committee seeks to preserve a missile-warning satellite program the Pentagon wants to cancel. It also criticizes a recent tactical communications satellite procurement and GPS oversight The post HASC…",
-      "ts": 1780612324000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Hosts 2026 Review on Advanced Composite Manufacturing",
-      "url": "https://www.nasa.gov/directorates/armd/aavp/hicam/nasa-hosts-2026-review-on-advanced-composite-manufacturing/",
-      "summary": "NASA’s Hi-Rate Composite Aircraft Manufacturing (HiCAM) project brought together its full team of Advanced Composites Consortium partners for a 2026 spring review at NASA’s Langley Research Center in Hampton, Virginia. T…",
-      "ts": 1780605384000,
+      "title": "Artemis III Crew Announced",
+      "url": "https://www.nasa.gov/image-article/artemis-iii-crew-announced/",
+      "summary": "NASA astronaut Andre Douglas, ESA (European Space Agency) astronaut Luca Parmitano, and NASA astronauts Randy Bresnik and Frank Rubio take a photo together on June 9, 2026. The four were announced as the Artemis III crew…",
+      "ts": 1781033549000,
       "categoryId": "space"
     },
     {
       "source": "US DOE",
-      "title": "United States and Japan Announce Historic $1 Billion Partnership Under President Trump’s Genesis Mission",
-      "url": "https://www.energy.gov/articles/united-states-and-japan-announce-historic-1-billion-partnership-under-president-trumps",
-      "summary": "The U.S. Department of Energy and Japan’s Ministry of Education, Culture, Sports, Science and Technology and Ministry of Economy, Trade and Industry, today announced an historic $1 billion strategic partnership making Ja…",
-      "ts": 1780592400000,
+      "title": "Energy Department Releases Finalized Fusion Science and Technology Roadmap to Accelerate Commercial Fusion Power",
+      "url": "https://www.energy.gov/articles/energy-department-releases-finalized-fusion-science-and-technology-roadmap-accelerate",
+      "summary": "The U.S. Department of Energy today released the finalized Fusion Science and Technology (FS&T) Roadmap, a national strategy to accelerate the development and commercialization of fusion energy on the most rapid, respons…",
+      "ts": 1781031600000,
       "categoryId": "energy"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "What Size Company Is Right for You?",
+      "url": "https://spectrum.ieee.org/fortune-500-companies-vs-startups",
+      "summary": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and deliv…",
+      "ts": 1781030474000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "The Pros and Cons of Job Hopping as an Engineer",
+      "url": "https://spectrum.ieee.org/strategic-job-hopping",
+      "summary": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and deliv…",
+      "ts": 1781029512000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "The Computer Science Degree Isn’t Dead",
+      "url": "https://spectrum.ieee.org/computer-science-degree-isnt-dead",
+      "summary": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and deliv…",
+      "ts": 1781028152000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "ESA",
+      "title": "Artemis III NASA announcement highlights : Luca Parmitano assigned as pilot",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Artemis_III_NASA_announcement_highlights_Luca_Parmitano_assigned_as_pilot",
+      "summary": "Video: 00:07:18 On 9 June, NASA announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in…",
+      "ts": 1781025600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Luca Parmitano on Artemis III selection",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Luca_Parmitano_on_Artemis_III_selection",
+      "summary": "Video: 00:03:53 ESA astronaut Luca Parmitano talks about his assignment as the test pilot for the Artemis III mission, announced by NASA on 9 June 2026 in a press conference at the Johnson Space Center in Houston, United…",
+      "ts": 1781022600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA astronaut Luca Parmitano joins NASA’s Artemis III mission as pilot",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_astronaut_Luca_Parmitano_joins_NASA_s_Artemis_III_mission_as_pilot",
+      "summary": "NASA has announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which wil…",
+      "ts": 1781022600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "La NASA avanza hacia la misión Artemis III en 2027 y anuncia a su tripulación",
+      "url": "https://www.nasa.gov/news-release/la-nasa-avanza-hacia-la-mision-artemis-iii-en-2027-y-anuncia-a-su-tripulacion/",
+      "summary": "Read this release in English here. La NASA dio el martes otro paso hacia una de las misiones tripuladas más complejas de la historia reciente al ofrecer nuevos detalles sobre Artemis III y anunciar a los cuatro miembros …",
+      "ts": 1781021975000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Marches Toward Artemis III Mission in 2027, Names Crew Members",
+      "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+      "summary": "Taking another step toward one of the most complex human spaceflight missions in recent history, NASA on Tuesday provided new Artemis III details and announced the four prime crew members and a backup for the test flight…",
+      "ts": 1781021522000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "June 2026 Satellite Puzzler",
+      "url": "https://science.nasa.gov/earth/earth-observatory/june-2026-satellite-puzzler/",
+      "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
+      "ts": 1781020272000,
+      "categoryId": "space"
+    },
+    {
+      "source": "DeepMind",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+      "ts": 1781018185000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Warren AI™ Risk analysis engine Is now Live: Building The Risk Intelligence Infrastructure Layer for The Space Economy ",
+      "url": "https://spacenews.com/warren-ai-risk-analysis-engine-is-now-live-building-the-risk-intelligence-infrastructure-layer-for-the-space-economy/",
+      "summary": "The space economy is accelerating faster than ever before. Thousands of satellites are being launched. Commercial space stations are emerging. Space manufacturing is on the horizon. Governments, defense organizations, te…",
+      "ts": 1781017940000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Knows: What Is Mass Distribution?",
+      "url": "https://www.nasa.gov/learning-resources/nasa-knows-what-is-mass-distribution/",
+      "summary": "This article is for students grades 5-8. Mass distribution affects everything from galaxy shapes to aircraft design to planetary rotation. It’s used to map stars in our universe, figure out what planets are made of, and …",
+      "ts": 1781015192000,
+      "categoryId": "space"
+    },
+    {
+      "source": "DeepMind",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "summary": "",
+      "ts": 1781014219000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "DeepMind",
+      "title": "Powering the future of robotics in Europe",
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "summary": "",
+      "ts": 1781013753000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
+      "url": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
+      "summary": "This article is brought to you by AGILINK. Throughout the exhibition hall at the 2026 IEEE International Conference on Robotics (ICRA), in Vienna, one demonstration seemed to attract a disproportionate amount of attentio…",
+      "ts": 1781009463000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "BlackSky to accelerate broad-area collection work under NRO contract modification",
+      "url": "https://spacenews.com/blacksky-to-accelerate-broad-area-collection-work-under-nro-contract-modification/",
+      "summary": "SAN FRANCISCO – The National Reconnaissance Office awarded a contract modification to BlackSky Technology to accelerate development of AROS broad-area-collection satellites. “The effort funds a direct path toward a fligh…",
+      "ts": 1781008200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: whole-body rejuvenation drugs and five things to know about AI",
+      "url": "https://www.technologyreview.com/2026/06/09/1138604/the-download-anti-aging-drugs-ai-five-things-to-know/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competiti…",
+      "ts": 1781007000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NIST",
+      "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances",
+      "summary": "Researchers and manufacturers rely on the library to identify unknown compounds in food, drugs, cosmetics, the environment, body fluids, forensic evidence and even space rocks.",
+      "ts": 1781006400000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "NIST",
+      "title": "NIST Mathematical Proof Supports Transition to a Continuous-Monitor-and-Update Security Model for AI Systems",
+      "url": "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update",
+      "summary": "The proof extends to AI the logic used by famed mathematician Kurt Gödel, whose incompleteness theorems have had a profound effect on math for nearly a century.",
+      "ts": 1781006400000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "url": "https://openai.com/index/nextdoor",
+      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "ts": 1781006400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "We’re back: Proba-3 ready for more science",
+      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/We_re_back_Proba-3_ready_for_more_science",
+      "summary": "The Proba-3 mission’s Coronagraph spacecraft and its main scientific instrument, ASPIICS, are both at full health, ready to resume routine formation flying operations and deliver more breathtaking artificial eclipses.",
+      "ts": 1781006400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "New Glenn forced an explosive rewrite for NASA’s plans to build a moon base",
+      "url": "https://spacenews.com/new-glenn-forced-an-explosive-rewrite-for-nasas-plans-to-build-a-moon-base/",
+      "summary": "NASA unveiled plans in March to develop a lunar base as part of its “Ignition” event that outlined the agency’s new direction in human spaceflight. The plans, though, were rather […] The post New Glenn forced an explosiv…",
+      "ts": 1781006400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Iceye raises 1 billion euros to expand SAR satellite systems",
+      "url": "https://spacenews.com/iceye-raises-1-billion-euros-to-expand-sar-satellite-systems/",
+      "summary": "Iceye, a Finnish company that develops and operates radar imaging satellites, has raised more than 1 billion euros in a round that values it at more than 10 billion euros. The post Iceye raises 1 billion euros to expand …",
+      "ts": 1781004270000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Isar Aerospace raises 270 million euros for global launch expansion",
+      "url": "https://spacenews.com/isar-aerospace-raises-270-million-euros-for-global-launch-expansion/",
+      "summary": "European launch company Isar Aerospace has raised 270 million euros ($312 million) to support its global expansion as it prepares for its next launch attempt. The post Isar Aerospace raises 270 million euros for global l…",
+      "ts": 1781001269000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Learning to lead in a hybrid human-AI enterprise",
+      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
+      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce. Unlike existing enterprise-level automatio…",
+      "ts": 1781000406000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Commercial launch providers shortlisted for China’s low-cost cargo spacecraft",
+      "url": "https://spacenews.com/commercial-launch-providers-shortlisted-for-chinas-low-cost-cargo-spacecraft/",
+      "summary": "China is expanding the role of its commercial rocket companies by shortlisting four such entities for launches of a new space station cargo transport system. The post Commercial launch providers shortlisted for China’s l…",
+      "ts": 1780999330000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition",
+      "url": "https://www.technologyreview.com/2026/06/09/1138545/david-sinclair-plans-to-test-whole-body-rejuvenation-drugs-in-the-xprize-competition/",
+      "summary": "The outspoken longevity scientist David Sinclair has been predicting that one day, you’ll go to the doctor and get a prescription that will make you 10 years younger. Now MIT Technology Review has learned that he has pla…",
+      "ts": 1780999200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "APS",
+      "title": "Exotic Critical States as Fractional Fermi Seas in the One-Dimensional Bose Gas",
+      "url": "http://link.aps.org/doi/10.1103/j3s5-gjpf",
+      "summary": "Author(s): Alvise Bastianello, Yi Zeng, Sudipta Dhar, Zekui Wang, Xudong Yu, Milena Horvath, Grigori E. Astrakharchik, Yanliang Guo, Hanns-Christoph Nägerl, and Manuele Landini Critical quantum field theories occupy a ce…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Coupling a $^{73}\\mathrm{Ge}$ Nuclear Spin to an Electrostatically Defined Quantum Dot in Silicon",
+      "url": "http://link.aps.org/doi/10.1103/49gt-msw9",
+      "summary": "Author(s): Paul Steinacker, Gauri Goenka, Rocky Yue Su, Tuomo Tanttu, Wee Han Lim, Santiago Serrano, Tim Botzem, Jesus D. Cifuentes, Shao Qi Lim, Jeffrey C. McCallum, Brett C. Johnson, Fay E. Hudson, Kok Wai Chan, Christ…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Adaptable Route to Fast Coherent State Transport via Bang-Bang-Bang Protocols",
+      "url": "http://link.aps.org/doi/10.1103/g22y-z8h3",
+      "summary": "Author(s): Ya-Tang Yu, Hsin-Lien Lee, Shao-Hung Chung, Ting Hsu, Guin-Dar Lin, Ying-Cheng Chen, and H. H. Jen Fast coherent state transport is essential to quantum computation and quantum information processing. While an…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Newman-Janis Algorithm from Taub-Newman-Unti-Tamburino Instantons",
+      "url": "http://link.aps.org/doi/10.1103/g6nl-1fbn",
+      "summary": "Author(s): Joon-Hwi Kim It is shown that the Kerr metric represents the nonlinear superposition of self-dual and anti-self-dual Taub-Newman-Unti-Tamburino (NUT) instantons. This promotes the Newman-Janis algorithm to a r…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Unveiling Light-Quark Yukawa Flavor Structure via Dihadron Fragmentation at Lepton Colliders",
+      "url": "http://link.aps.org/doi/10.1103/p5c7-m43d",
+      "summary": "Author(s): Qing-Hong Cao, Xin-Kai Wen, Bin Yan, and Shu-Tao Zhang Directly probing light-quark Yukawa couplings and their flavor structure remains a major challenge due to their smallness and overwhelming QCD backgrounds…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "New Ground State in $^{149}\\mathrm{La}$ Removes Two-Neutron-Separation-Energy Anomaly in Lanthanum Isotopes",
+      "url": "http://link.aps.org/doi/10.1103/gvxl-vxd4",
+      "summary": "Author(s): S. Kimura, M. Wada, H. Haba, Y. Hirayama, H. Ishiyama, Y. Ito, T. Niwase, M. Rosenbusch, P. Schury, H. Ueno, Y. X. Watanabe, and Y. Yamanouchi Nuclear mass is a key indicator of how the nuclear shell structure…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Search for Double Beta Decays of $^{134}\\mathrm{Xe}$ with EXO-200 Phase II",
+      "url": "http://link.aps.org/doi/10.1103/vpny-23wq",
+      "summary": "Author(s): S. Al Kharusi et al. (EXO-200 Collaboration) EXO-200 was a leading double beta decay experiment consisting of a single-phase, enriched liquid xenon time projection chamber filled with an admixture of 80.672% $…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Momentum-Resolved Two-Dimensional Spectroscopy as a Probe of Nonlinear Quantum Field Dynamics",
+      "url": "http://link.aps.org/doi/10.1103/tfdm-qshs",
+      "summary": "Author(s): Duilio De Santis, Alex Gómez-Salvador, Nataliia Bazhan, Sebastian Erne, Maximilian Prüfer, Claudio Guarcello, Davide Valenti, Jörg Schmiedmayer, and Eugene Demler Emergent collective excitations constitute a h…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Efimov Effect in Ultracold Microwave-Shielded Polar Molecules",
+      "url": "http://link.aps.org/doi/10.1103/qlvv-r93m",
+      "summary": "Author(s): Shayamal Singh and Chris H. Greene A quantum-mechanical description is presented for the three-body physics of shielded dipolar molecules, including a prediction of observable Efimov physics. Despite the aniso…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Pound-Drever-Hall Method for Superconducting-Qubit Readout",
+      "url": "http://link.aps.org/doi/10.1103/ng1d-6gb8",
+      "summary": "Author(s): Ibukunoluwa Adisa, Won Chan Lee, Kevin C. Cox, and Alicia J. Kollár Scaling quantum computers to large sizes requires the implementation of many parallel qubit readouts. Here we present an ultrastable supercon…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Electrical Switching of Strain Gradients and 90° Domain Walls via Hidden Polar-Acoustic Coupling in ${\\mathrm{PbTiO}}_{3}$",
+      "url": "http://link.aps.org/doi/10.1103/yhk9-qf8c",
+      "summary": "Author(s): Yajun Zhang, Konstantin Shapovalov, Xu He, Chang Liu, Huadong Yong, Xingyi Zhang, Jie Wang, Kun Zhou, and Philippe Ghosez Although strain gradients hold great promise for tailoring emergent functionalities, th…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Proper Theory of Magnon Orbital Angular Momentum at Equilibrium",
+      "url": "http://link.aps.org/doi/10.1103/fgt6-bhmq",
+      "summary": "Author(s): Junyu Tang and Ran Cheng The orbital motion of chargeless bosons, unlike that of electrons, does not generate a magnetic moment and thus cannot directly interact with magnetic fields. To formulate the orbital …",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Topological Transition and Emergence of Elasticity of Dislocation in Skyrmion Lattice: Beyond Kittel’s Magnetic-Polar Analogy",
+      "url": "http://link.aps.org/doi/10.1103/4rww-4tsc",
+      "summary": "Author(s): Kohta Kasai, Akihiro Uematsu, Yu Wang, Tao Xu, Chang Liu, Susumu Minami, and Takahiro Shimada Skyrmion dislocations exhibit intrinsic core structures possessing large skyrmion deformation and topological phase…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Learning the Action for Long-Time-Step Simulations of Molecular Dynamics",
+      "url": "http://link.aps.org/doi/10.1103/shj2-hyw8",
+      "summary": "Author(s): Filippo Bigi, Johannes Spies, and Michele Ceriotti Machine learning can reduce the number of time steps needed to accurately predict the progress of a dynamically evolving system. [Phys. Rev. Lett. 136, 237301…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Polaron-Polariton-Assisted Thermally Activated Superradiance",
+      "url": "http://link.aps.org/doi/10.1103/hs3s-j4yp",
+      "summary": "Author(s): Yi-Ting Chuang and Liang-Yan Hsu We predict an anomalous thermally activated superradiance in molecular aggregates within polaritonic environments. In contrast to free space, the collective emission is enhance…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Topological Approach to Measuring the Gaussian Curvature Modulus of Lipid Membranes in Simulation",
+      "url": "http://link.aps.org/doi/10.1103/6d6f-q1mg",
+      "summary": "Author(s): Seamus F. Gallagher and Markus Deserno Fission and fusion of lipid membranes are ubiquitous shape transformations in living cells, necessary for maintaining the shape of organelles and enabling a host of trans…",
+      "ts": 1780999200000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Let’s procure in-orbit services like Earth observation data and services",
+      "url": "https://spacenews.com/lets-procure-in-orbit-services-like-earth-observation-data-and-services/",
+      "summary": "The Chinese company MizarVision recently gained attention with its open source Earth observation data analysis over the Middle East which showed images of F-35s gathering 24 hours before Operation Epic […] The post Let’s…",
+      "ts": 1780999200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Five things you need to know about AI",
+      "url": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
+      "summary": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guid…",
+      "ts": 1780996605000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Cleaner air and prosperity can go hand in hand",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Cleaner_air_and_prosperity_can_go_hand_in_hand",
+      "summary": "For decades, economic growth and fossil-fuel consumption have been tightly intertwined. As cities have expanded, rising prosperity has often been accompanied by worsening air pollution. New research, however, suggests th…",
+      "ts": 1780990260000,
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Hardware-aware Low-latency Quantum Compilation with Data-driven Lightweight Error Detection for Early Fault-Tolerant Systems",
+      "url": "https://arxiv.org/abs/2606.07666",
+      "summary": "arXiv:2606.07666v1 Announce Type: new Abstract: Noisy intermediate-scale quantum (NISQ) processors are entering an early fault-tolerance regime where full quantum error correction carries prohibitive resource costs, yet …",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Correlation-Assisted Odd-Parity Encoded Gates in Coupled Fluxonium Qubits under Non-Markovian TLS Noise",
+      "url": "https://arxiv.org/abs/2606.07699",
+      "summary": "arXiv:2606.07699v1 Announce Type: new Abstract: Correlated longitudinal noise can be partially converted into common-mode fluctuations in an oddparity two-qubit subspace. We analyze an encoded logical qubit formed by the…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Benchmarking Quantum Algorithmic Resilience for CVaR Portfolio Optimization: The Expressibility-Coherence Trade-off",
+      "url": "https://arxiv.org/abs/2606.07727",
+      "summary": "arXiv:2606.07727v1 Announce Type: new Abstract: Quantum combinatorial optimization offers theoretical advantages for complex financial modeling, but physical implementation on Noisy Intermediate Scale Quantum (NISQ) devi…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Exploring the landscape of compact magic-state distillation factories",
+      "url": "https://arxiv.org/abs/2606.07734",
+      "summary": "arXiv:2606.07734v1 Announce Type: new Abstract: Producing high-fidelity magic states using the smallest possible amount of physical qubits and operations stands as a very important challenge to achieve fault-tolerant qua…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Exact metastability in a class of driven-dissipative quantum many-body systems",
+      "url": "https://arxiv.org/abs/2606.07736",
+      "summary": "arXiv:2606.07736v1 Announce Type: new Abstract: Metastability in many-body quantum systems and its associated exponentially-long timescales have been the subject of considerable recent interest. Here, we focus on a class…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "$100\\pm\\Delta t$ Years of Quantum Uncertainty: From Origins to Modern Insights",
+      "url": "https://arxiv.org/abs/2606.07747",
+      "summary": "arXiv:2606.07747v1 Announce Type: new Abstract: Heisenberg's uncertainty principle is a cornerstone of quantum mechanics, marking a decisive departure from classical physics. Conceived almost a century ago through a thou…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Floquet Entanglement Generation in Parametrically Driven Coupled Superconducting Qubits",
+      "url": "https://arxiv.org/abs/2606.07797",
+      "summary": "arXiv:2606.07797v1 Announce Type: new Abstract: We investigate the dynamical generation of entanglement in a system of two superconducting qubits coupled through a parametrically driven longitudinal interaction. Using Fl…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Near-deterministic single-atom loading on a photonic integrated circuit",
+      "url": "https://arxiv.org/abs/2606.07800",
+      "summary": "arXiv:2606.07800v1 Announce Type: new Abstract: Coupling identical quantum emitters to a photonic integrated circuit (PIC) is a key step for scaling up emitter-photon interfaces for quantum science and information proces…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Hamiltonian-Guided Leverage Embedding: Robust Subspace Compression for Efficient QAOA Parameter Estimation",
+      "url": "https://arxiv.org/abs/2606.07814",
+      "summary": "arXiv:2606.07814v1 Announce Type: new Abstract: The Quantum Approximate Optimization Algorithm (QAOA) is a hybrid quantum-classical framework for combinatorial optimization on near-term quantum devices. A central bottlen…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Projected Inverse Iteration: An Eigenvalue Approach to Ground-State Computation with Neural Quantum States",
+      "url": "https://arxiv.org/abs/2606.07825",
+      "summary": "arXiv:2606.07825v1 Announce Type: new Abstract: Deep learning offers a powerful approach to quantum many-body problems via neural network wavefunctions, but their optimization remains a severe bottleneck. Existing optimi…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Affine Filtering Measurements and Their Applications to Quantum Decoding",
+      "url": "https://arxiv.org/abs/2606.07852",
+      "summary": "arXiv:2606.07852v1 Announce Type: new Abstract: Unambiguous state discrimination (USD) measurements are attractive because outcomes are either marked as conclusive (i.e., error free) or inconclusive (i.e., erased). We st…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Defining Unique, Redundant, and Synergistic Quantum Information",
+      "url": "https://arxiv.org/abs/2606.07880",
+      "summary": "arXiv:2606.07880v1 Announce Type: new Abstract: We extend the classical ideas of the Partial Information Decomposition (PID) to the quantum domain and quantify unique, redundant, and synergistic quantum information. We s…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "All-Optical Wide-Field Magnetometry with Van Der Waals Quantum Sensor",
+      "url": "https://arxiv.org/abs/2606.07899",
+      "summary": "arXiv:2606.07899v1 Announce Type: new Abstract: Negatively charged boron vacancy ($V_B^-$) centers in hexagonal boron nitride ($h$-BN) have attracted wide-range interests owing to their van der Waals lattice and their po…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Repair Before Veto, When Repair Is Hidden: Quantum-Accessible Features for Repair-Augmented Constraint Learning",
+      "url": "https://arxiv.org/abs/2606.08020",
+      "summary": "arXiv:2606.08020v1 Announce Type: new Abstract: Hard-constraint decision systems usually veto infeasible candidates. This is too rigid when the system can act: if a known affordable repair would make an infeasible candid…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Numerical solution of the nonlinear Dirac equation by a splitting variational quantum algorithm",
+      "url": "https://arxiv.org/abs/2606.08053",
+      "summary": "arXiv:2606.08053v1 Announce Type: new Abstract: In this work, we propose an operator-splitting variational quantum algorithm, termed Dirac-sVQA, for simulating the nonlinear Dirac equation (NLDE). The main difficulty ari…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Robust applicability of continuous dynamical decoupling to decoherence reduction in longitudinal and transverse-noise settings: The role of anisotropy",
+      "url": "https://arxiv.org/abs/2606.08114",
+      "summary": "arXiv:2606.08114v1 Announce Type: new Abstract: We analytically evaluate the efficiency of continuous dynamical decoupling (CDD) to curb decoherence in generic qubit setups where diverse sources of noise can be present. …",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Markovian dynamics of single-rebit open quantum systems with applications to colour perception",
+      "url": "https://arxiv.org/abs/2606.08117",
+      "summary": "arXiv:2606.08117v1 Announce Type: new Abstract: This paper investigates the Markovian dynamics of open two-state quantum systems defined over the real numbers (rebits). Two main objectives are pursued. First, we present …",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Every Rank-Two Entangled State is Projectively Steerable",
+      "url": "https://arxiv.org/abs/2606.08189",
+      "summary": "arXiv:2606.08189v1 Announce Type: new Abstract: Pure entangled states are already steerable by suitable projective measurements within their Schmidt supports, whereas rank two is the first genuinely mixed rank at which e…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Entanglement in the Quantum Volunteer's Dilemma",
+      "url": "https://arxiv.org/abs/2606.08227",
+      "summary": "arXiv:2606.08227v1 Announce Type: new Abstract: A well-known model in game theory, the Volunteer's Dilemma describes a group of $n$ players who decide whether to volunteer for a collective benefit at a personal cost, or …",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "QnRL: Quantum-Native Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.08276",
+      "summary": "arXiv:2606.08276v1 Announce Type: new Abstract: Quantum reinforcement learning (QRL) is a promising approach to learn effective decision strategies across several applications with stochastic environments. Instead of dir…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "On solutions of the Schr\\\"{o}dinger equation for some molecular potentials: Power-series method",
+      "url": "https://arxiv.org/abs/2606.08290",
+      "summary": "arXiv:2606.08290v1 Announce Type: new Abstract: We show that the standard power-series method described in many textbooks of quantum-mechanics and quantum-chemistry is simpler and more powerful than the wavefunction appr…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Quantum algorithms for stochastic nonlinear differential equations",
+      "url": "https://arxiv.org/abs/2606.08349",
+      "summary": "arXiv:2606.08349v1 Announce Type: new Abstract: Stochastic nonlinear dynamics underlie many models in engineering and computational physics, yet accurate high-dimensional simulation remains challenging. We present a quan…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "A century of coherent states",
+      "url": "https://arxiv.org/abs/2606.08361",
+      "summary": "arXiv:2606.08361v1 Announce Type: new Abstract: During the century of existence of the notion of coherent states, either linear or nonlinear, several schemes for their construction, theoretical or experimental, have been…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "A K-band Kinetic Inductance Parametric Amplifier Near the Quantum Limit",
+      "url": "https://arxiv.org/abs/2606.08406",
+      "summary": "arXiv:2606.08406v1 Announce Type: new Abstract: Advancing superconducting quantum devices to higher operating frequencies broadens their functionality and enables operation at elevated temperatures, but it also requires …",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Quantum Kravchuk Transform using $\\mathfrak{su}(2)$ fast-forwarding",
+      "url": "https://arxiv.org/abs/2606.08443",
+      "summary": "arXiv:2606.08443v1 Announce Type: new Abstract: We present a quantum algorithm for the Kravchuk transform that scales logarithmically in both the dimension and the inverse of the error parameter. The quantum Kravchuk tra…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "A Dual Metastable-State Encoding Architecture for Quantum Processing with $^{171}\\mathrm{Yb}$ Atom Arrays",
+      "url": "https://arxiv.org/abs/2606.08453",
+      "summary": "arXiv:2606.08453v1 Announce Type: new Abstract: Neutral-atom arrays combine scalable qubit registers, long coherence times, flexible optical control, and strong Rydberg-mediated entangling interactions, making them a pro…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Impact of spontaneous emission on spin-squeezed quantum sensors",
+      "url": "https://arxiv.org/abs/2606.08478",
+      "summary": "arXiv:2606.08478v1 Announce Type: new Abstract: The echo squeezing protocols (ESPs) are techniques that amplify the phase shift in a quantum sensor with one-axis-twist squeezing (OATS). For atomic sensors, spontaneous em…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Modified One-Axis-Twist Squeezing for Deterministic Orientation Control of Schr\\\"odinger Cat States with Unknown Atom-Number Parity",
+      "url": "https://arxiv.org/abs/2606.08482",
+      "summary": "arXiv:2606.08482v1 Announce Type: new Abstract: The Schr\\\"odinger cat state protocol (SCSP) makes use of a Schr\\\"odinger cat (SC) state generated with one-axis-twist squeezing (OATS) to enhance the sensitivity. In princi…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Quantum Advantage over Wirings of Nonsignaling Boxes in Multipartite Networks",
+      "url": "https://arxiv.org/abs/2606.08488",
+      "summary": "arXiv:2606.08488v1 Announce Type: new Abstract: Quantum-entangled measurements are known to enable multi-party behaviors that are impossible with unentangled measurements on nonlocal resources, even those that are super-…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Pure and mixed Dicke state ansatz for equality and inequality constraints in variational quantum eigensolver",
+      "url": "https://arxiv.org/abs/2606.08504",
+      "summary": "arXiv:2606.08504v1 Announce Type: new Abstract: Combinatorial optimization can be addressed with quantum computing through variational quantum algorithms, but a central challenge in this approach is to design an ansatz e…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Cascaded Rydberg antiblockade: Multi-atom excitation dynamics and entanglement",
+      "url": "https://arxiv.org/abs/2606.08536",
+      "summary": "arXiv:2606.08536v1 Announce Type: new Abstract: We propose a cascaded Rydberg antiblockade (RAB) regime via a Floquet modulation in four fully connected interacting atoms, which establishes a new synthetic dimension, Dic…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Dissipative Channels Determine Open Electromagnetic Quantization",
+      "url": "https://arxiv.org/abs/2606.08557",
+      "summary": "arXiv:2606.08557v1 Announce Type: new Abstract: We formulate a quantization scheme for open electromagnetic systems with arbitrary passive boundary conditions. Rather than specifying reservoirs phenomenologically, the me…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "A five-qubit 1-resistant graph state and stabilizer marginal certificates",
+      "url": "https://arxiv.org/abs/2606.08561",
+      "summary": "arXiv:2606.08561v1 Announce Type: new Abstract: We study particle-loss resistant entanglement within the framework of stabilizer and graph states. A pure state is \\(m\\)-resistant if it remains entangled after the loss of…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Another Legacy of Andrzej Kossakowski: A Self-Contained Derivation of the GKLS Equation",
+      "url": "https://arxiv.org/abs/2606.08579",
+      "summary": "arXiv:2606.08579v1 Announce Type: new Abstract: This note is written for the special issue of OSID dedicated to the 50th anniversary of the Gorini--Kossakowski--Lindblad--Sudarshan equation. Its purpose is not to give a …",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Is Exact Markovianity Fundamental Once Time Is Relational?",
+      "url": "https://arxiv.org/abs/2606.08595",
+      "summary": "arXiv:2606.08595v1 Announce Type: new Abstract: Markovian open quantum theory assumes evolution with respect to an external classical time parameter, yet no preferred notion of time exists fundamentally in relativistic p…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Hidden Conformal Boundary Data in Finite-Temperature Stabilizer Entropy",
+      "url": "https://arxiv.org/abs/2606.08606",
+      "summary": "arXiv:2606.08606v1 Announce Type: new Abstract: We study the finite-temperature stabilizer R\\'enyi entropy of the open critical quantum spin chains. At R\\'enyi index one half, this observable probes the distribution of t…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Nonlocal Teams and Information Structures",
+      "url": "https://arxiv.org/abs/2606.08645",
+      "summary": "arXiv:2606.08645v1 Announce Type: new Abstract: We look at Bell inequalities from the lens of information structures in stochastic teams. We consider the usual CHSH game and a dynamic variant of the same to study how var…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "High Precision Qubit-Efficient Variational Continuous Optimization via Amplitude Estimation",
+      "url": "https://arxiv.org/abs/2606.08690",
+      "summary": "arXiv:2606.08690v1 Announce Type: new Abstract: Optimization of continuous-variable objectives on standard gate-based quantum computers via variational algorithms such as QAOA is typically approached by first discretizin…",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Chiral Quantum Entanglement Transfer with Giant Atoms",
+      "url": "https://arxiv.org/abs/2606.08695",
+      "summary": "arXiv:2606.08695v1 Announce Type: new Abstract: We investigate entanglement transfer in a multi-giant-atom waveguide system. By tailoring chiral spontaneous emission and exploiting dark-state dynamics, the setup enables …",
+      "ts": 1780977600000,
+      "categoryId": "quantum"
     }
   ],
   "categories": [
