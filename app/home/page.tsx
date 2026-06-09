@@ -81,50 +81,30 @@ export default function Home() {
 </section>
 
 {/* =========================
-    PAGE : ARCHENOVA STRUCTURAL AI
+    PAGE : ARCHENOVA EPISTEME PORTAL
    ========================= */}
-<section
-  id="home-structural-ai"
-  className="home-page"
-  data-home-section
+<Link
+  href="/episteme"
+  className="episteme-portal"
 >
-  <Reveal>
-    <div className="home-section home-section-center">
-      <span className="home-section-label">
-        STRUCTURAL AI
-      </span>
+  <img
+    src="/images/episteme.jpeg"
+    alt="Episteme"
+    className="episteme-image"
+  />
 
-      <p className="home-section-purpose">
-        The official intelligence brain of ArcheNova, designed to structure,
-        verify, connect, and promote knowledge across Crossings, Signals,
-        Research, Watchlists, Roadmaps, and implementation pathways.
-      </p>
+  <div className="episteme-overlay">
+    <span className="home-section-label">
+      EPISTEME
+    </span>
 
-      <div className="social-implementation-grid">
-        <Link href="/structural-ai" className="plaza-card">
-          <div className="plaza-title">
-            STRUCTURAL AI
-          </div>
+    <h2>Episteme</h2>
 
-          <div className="plaza-desc">
-            — Site-wide intelligence for knowledge structuring, signal
-            promotion, verification, and civilization-scale reasoning
-          </div>
-
-          <div className="plaza-hint">
-            Open →
-          </div>
-        </Link>
-      </div>
-      <div className="anv-mobile-icons">
-        <Link href="/structural-ai" className="anv-icon-link">
-          <span>✾</span>
-          <small>AI</small>
-        </Link>
-      </div>
-    </div>
-  </Reveal>
-</section>
+    <p>
+      Meta-Knowledge Intelligence
+    </p>
+  </div>
+</Link>
 
       {/* =========================
     PAGE : ARCHENOVA CIVILIZATION ARCHITECTURE
