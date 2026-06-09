@@ -10806,3 +10806,37 @@ html, body {
     aspect-ratio: 1 / 1;
   }
 }
+.dialogue-box {
+  display: grid;
+  gap: 14px;
+  margin: 20px 0;
+}
+
+.dialogue-message {
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 18px;
+  padding: 14px 16px;
+  background: rgba(255,255,255,0.035);
+  white-space: pre-wrap;
+}
+
+.dialogue-user {
+  margin-left: 8%;
+}
+
+.dialogue-ai {
+  margin-right: 8%;
+}
+
+.dialogue-role {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.58;
+  margin-bottom: 8px;
+}
+
+.dialogue-input-row {
+  display: grid;
+  gap: 12px;
+}

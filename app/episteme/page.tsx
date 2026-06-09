@@ -1,4 +1,5 @@
 import Link from "next/link";
+import EpistemeDialogue from "../components/EpistemeDialogue";
 
 const layers = [
   "Essence",
@@ -55,35 +56,7 @@ export default function EpistemePage() {
         </p>
       </section>
 
-      <section className="glass-block">
-        <h2>Meta-Knowledge Layers</h2>
-
-        <div className="research-domain-grid">
-          {layers.map((layer) => (
-            <div key={layer} className="research-domain-chip">
-              {layer}
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="glass-block">
-        <h2>Reasoning Flow</h2>
-
-        <div className="research-roadmap">
-          {flow.map((step, index) => (
-            <div key={step} className="research-roadmap-step">
-              <div className="research-roadmap-index">
-                {String(index + 1).padStart(2, "0")}
-              </div>
-
-              <div className="research-roadmap-node">
-                {step}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+       <EpistemeDialogue />
 
       <section className="glass-block">
         <h2>Episteme Dialogue</h2>
