@@ -98,8 +98,6 @@ export default function Home() {
 
       <div className="episteme-overlay">
         <span className="home-section-label">EPISTEME</span>
-        <h2>Episteme</h2>
-        <p>Meta-Knowledge Intelligence</p>
       </div>
     </Link>
   </div>
