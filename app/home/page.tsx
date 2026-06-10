@@ -356,6 +356,7 @@ export default function Home() {
 <Reveal delay={160}>
   <GateFragments />
 </Reveal>
+
 </section>
     </main>
   );
