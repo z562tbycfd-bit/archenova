@@ -1,725 +1,725 @@
 {
   "ok": true,
-  "updated": "2026-06-09T21:58:56.069Z",
+  "updated": "2026-06-10T10:06:51.532Z",
   "items": [
     {
-      "source": "NASA",
-      "title": "Flight Dynamics Research Facility Characteristics",
-      "url": "https://www.nasa.gov/directorates/armd/aetc/fdrf-characteristics/",
-      "summary": "HomeCharacteristics The Flight Dynamics Research Facility (FDRF) is a large, subsonic wind tunnel with a vertical test section for conducting flight dynamics research for stability, controllability, free-fall and aircraf…",
-      "ts": 1781038022000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NASA names crew for Artemis 3 mission to test lunar landers",
-      "url": "https://spacenews.com/nasa-names-crew-for-artemis-3-mission-to-test-lunar-landers/",
-      "summary": "NASA has named the astronauts who will fly the next Artemis mission, a test flight in low Earth orbit where Orion will attempt to dock with two lunar lander prototypes. The post NASA names crew for Artemis 3 mission to t…",
-      "ts": 1781035071000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA Image of the Day",
-      "title": "Artemis III Crew Announced",
-      "url": "https://www.nasa.gov/image-detail/jsc2026e392659/",
-      "summary": "NASA announced the Artemis III crew on Tuesday, June 9, 2026. NASA astronaut Andre Douglas, mission specialist; ESA (European Space Agency) astronaut Luca Parmitano, pilot; NASA astronaut Randy Bresnik, commander; and NA…",
-      "ts": 1781033940000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Artemis III Crew Announced",
-      "url": "https://www.nasa.gov/image-article/artemis-iii-crew-announced/",
-      "summary": "NASA astronaut Andre Douglas, ESA (European Space Agency) astronaut Luca Parmitano, and NASA astronauts Randy Bresnik and Frank Rubio take a photo together on June 9, 2026. The four were announced as the Artemis III crew…",
-      "ts": 1781033549000,
-      "categoryId": "space"
-    },
-    {
-      "source": "US DOE",
-      "title": "Energy Department Releases Finalized Fusion Science and Technology Roadmap to Accelerate Commercial Fusion Power",
-      "url": "https://www.energy.gov/articles/energy-department-releases-finalized-fusion-science-and-technology-roadmap-accelerate",
-      "summary": "The U.S. Department of Energy today released the finalized Fusion Science and Technology (FS&T) Roadmap, a national strategy to accelerate the development and commercialization of fusion energy on the most rapid, respons…",
-      "ts": 1781031600000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "What Size Company Is Right for You?",
-      "url": "https://spectrum.ieee.org/fortune-500-companies-vs-startups",
-      "summary": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and deliv…",
-      "ts": 1781030474000,
-      "categoryId": "policy"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "The Pros and Cons of Job Hopping as an Engineer",
-      "url": "https://spectrum.ieee.org/strategic-job-hopping",
-      "summary": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and deliv…",
-      "ts": 1781029512000,
-      "categoryId": "policy"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "The Computer Science Degree Isn’t Dead",
-      "url": "https://spectrum.ieee.org/computer-science-degree-isnt-dead",
-      "summary": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and deliv…",
-      "ts": 1781028152000,
-      "categoryId": "policy"
-    },
-    {
-      "source": "ESA",
-      "title": "Artemis III NASA announcement highlights : Luca Parmitano assigned as pilot",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Artemis_III_NASA_announcement_highlights_Luca_Parmitano_assigned_as_pilot",
-      "summary": "Video: 00:07:18 On 9 June, NASA announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in…",
-      "ts": 1781025600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Luca Parmitano on Artemis III selection",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Luca_Parmitano_on_Artemis_III_selection",
-      "summary": "Video: 00:03:53 ESA astronaut Luca Parmitano talks about his assignment as the test pilot for the Artemis III mission, announced by NASA on 9 June 2026 in a press conference at the Johnson Space Center in Houston, United…",
-      "ts": 1781022600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA astronaut Luca Parmitano joins NASA’s Artemis III mission as pilot",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_astronaut_Luca_Parmitano_joins_NASA_s_Artemis_III_mission_as_pilot",
-      "summary": "NASA has announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which wil…",
-      "ts": 1781022600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "La NASA avanza hacia la misión Artemis III en 2027 y anuncia a su tripulación",
-      "url": "https://www.nasa.gov/news-release/la-nasa-avanza-hacia-la-mision-artemis-iii-en-2027-y-anuncia-a-su-tripulacion/",
-      "summary": "Read this release in English here. La NASA dio el martes otro paso hacia una de las misiones tripuladas más complejas de la historia reciente al ofrecer nuevos detalles sobre Artemis III y anunciar a los cuatro miembros …",
-      "ts": 1781021975000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Marches Toward Artemis III Mission in 2027, Names Crew Members",
-      "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
-      "summary": "Taking another step toward one of the most complex human spaceflight missions in recent history, NASA on Tuesday provided new Artemis III details and announced the four prime crew members and a backup for the test flight…",
-      "ts": 1781021522000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "June 2026 Satellite Puzzler",
-      "url": "https://science.nasa.gov/earth/earth-observatory/june-2026-satellite-puzzler/",
-      "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
-      "ts": 1781020272000,
-      "categoryId": "space"
-    },
-    {
-      "source": "DeepMind",
-      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
-      "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
-      "ts": 1781018185000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Warren AI™ Risk analysis engine Is now Live: Building The Risk Intelligence Infrastructure Layer for The Space Economy ",
-      "url": "https://spacenews.com/warren-ai-risk-analysis-engine-is-now-live-building-the-risk-intelligence-infrastructure-layer-for-the-space-economy/",
-      "summary": "The space economy is accelerating faster than ever before. Thousands of satellites are being launched. Commercial space stations are emerging. Space manufacturing is on the horizon. Governments, defense organizations, te…",
-      "ts": 1781017940000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Knows: What Is Mass Distribution?",
-      "url": "https://www.nasa.gov/learning-resources/nasa-knows-what-is-mass-distribution/",
-      "summary": "This article is for students grades 5-8. Mass distribution affects everything from galaxy shapes to aircraft design to planetary rotation. It’s used to map stars in our universe, figure out what planets are made of, and …",
-      "ts": 1781015192000,
-      "categoryId": "space"
-    },
-    {
-      "source": "DeepMind",
-      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
-      "summary": "",
-      "ts": 1781014219000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "DeepMind",
-      "title": "Powering the future of robotics in Europe",
-      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
-      "summary": "",
-      "ts": 1781013753000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IEEE Spectrum",
-      "title": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
-      "url": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
-      "summary": "This article is brought to you by AGILINK. Throughout the exhibition hall at the 2026 IEEE International Conference on Robotics (ICRA), in Vienna, one demonstration seemed to attract a disproportionate amount of attentio…",
-      "ts": 1781009463000,
-      "categoryId": "policy"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "BlackSky to accelerate broad-area collection work under NRO contract modification",
-      "url": "https://spacenews.com/blacksky-to-accelerate-broad-area-collection-work-under-nro-contract-modification/",
-      "summary": "SAN FRANCISCO – The National Reconnaissance Office awarded a contract modification to BlackSky Technology to accelerate development of AROS broad-area-collection satellites. “The effort funds a direct path toward a fligh…",
-      "ts": 1781008200000,
-      "categoryId": "space"
-    },
-    {
       "source": "MIT Technology Review",
-      "title": "The Download: whole-body rejuvenation drugs and five things to know about AI",
-      "url": "https://www.technologyreview.com/2026/06/09/1138604/the-download-anti-aging-drugs-ai-five-things-to-know/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competiti…",
-      "ts": 1781007000000,
+      "title": "The “steroid olympics” were a circus—and a window into our culture",
+      "url": "https://www.technologyreview.com/2026/06/10/1138670/enhanced-games-doping-steroids-hormones-supplements-longevity/",
+      "summary": "Testosterone. Methenolone. Nandrolone. Human growth hormone and EPO. Meldonium, modafinil, and mixed amphetamine salts. Clomiphene, anastrozole, levothyroxine, and liothyronine. Patches and capsules, creams and pills. A …",
+      "ts": 1781082000000,
       "categoryId": "ai-compute"
     },
     {
-      "source": "NIST",
-      "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
-      "url": "https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances",
-      "summary": "Researchers and manufacturers rely on the library to identify unknown compounds in food, drugs, cosmetics, the environment, body fluids, forensic evidence and even space rocks.",
-      "ts": 1781006400000,
-      "categoryId": "policy"
-    },
-    {
-      "source": "NIST",
-      "title": "NIST Mathematical Proof Supports Transition to a Continuous-Monitor-and-Update Security Model for AI Systems",
-      "url": "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update",
-      "summary": "The proof extends to AI the logic used by famed mathematician Kurt Gödel, whose incompleteness theorems have had a profound effect on math for nearly a century.",
-      "ts": 1781006400000,
-      "categoryId": "policy"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "url": "https://openai.com/index/nextdoor",
-      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-      "ts": 1781006400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "We’re back: Proba-3 ready for more science",
-      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/We_re_back_Proba-3_ready_for_more_science",
-      "summary": "The Proba-3 mission’s Coronagraph spacecraft and its main scientific instrument, ASPIICS, are both at full health, ready to resume routine formation flying operations and deliver more breathtaking artificial eclipses.",
-      "ts": 1781006400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "New Glenn forced an explosive rewrite for NASA’s plans to build a moon base",
-      "url": "https://spacenews.com/new-glenn-forced-an-explosive-rewrite-for-nasas-plans-to-build-a-moon-base/",
-      "summary": "NASA unveiled plans in March to develop a lunar base as part of its “Ignition” event that outlined the agency’s new direction in human spaceflight. The plans, though, were rather […] The post New Glenn forced an explosiv…",
-      "ts": 1781006400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Iceye raises 1 billion euros to expand SAR satellite systems",
-      "url": "https://spacenews.com/iceye-raises-1-billion-euros-to-expand-sar-satellite-systems/",
-      "summary": "Iceye, a Finnish company that develops and operates radar imaging satellites, has raised more than 1 billion euros in a round that values it at more than 10 billion euros. The post Iceye raises 1 billion euros to expand …",
-      "ts": 1781004270000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Isar Aerospace raises 270 million euros for global launch expansion",
-      "url": "https://spacenews.com/isar-aerospace-raises-270-million-euros-for-global-launch-expansion/",
-      "summary": "European launch company Isar Aerospace has raised 270 million euros ($312 million) to support its global expansion as it prepares for its next launch attempt. The post Isar Aerospace raises 270 million euros for global l…",
-      "ts": 1781001269000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Learning to lead in a hybrid human-AI enterprise",
-      "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise/",
-      "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce. Unlike existing enterprise-level automatio…",
-      "ts": 1781000406000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Commercial launch providers shortlisted for China’s low-cost cargo spacecraft",
-      "url": "https://spacenews.com/commercial-launch-providers-shortlisted-for-chinas-low-cost-cargo-spacecraft/",
-      "summary": "China is expanding the role of its commercial rocket companies by shortlisting four such entities for launches of a new space station cargo transport system. The post Commercial launch providers shortlisted for China’s l…",
-      "ts": 1780999330000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition",
-      "url": "https://www.technologyreview.com/2026/06/09/1138545/david-sinclair-plans-to-test-whole-body-rejuvenation-drugs-in-the-xprize-competition/",
-      "summary": "The outspoken longevity scientist David Sinclair has been predicting that one day, you’ll go to the doctor and get a prescription that will make you 10 years younger. Now MIT Technology Review has learned that he has pla…",
-      "ts": 1780999200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "APS",
-      "title": "Exotic Critical States as Fractional Fermi Seas in the One-Dimensional Bose Gas",
-      "url": "http://link.aps.org/doi/10.1103/j3s5-gjpf",
-      "summary": "Author(s): Alvise Bastianello, Yi Zeng, Sudipta Dhar, Zekui Wang, Xudong Yu, Milena Horvath, Grigori E. Astrakharchik, Yanliang Guo, Hanns-Christoph Nägerl, and Manuele Landini Critical quantum field theories occupy a ce…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Coupling a $^{73}\\mathrm{Ge}$ Nuclear Spin to an Electrostatically Defined Quantum Dot in Silicon",
-      "url": "http://link.aps.org/doi/10.1103/49gt-msw9",
-      "summary": "Author(s): Paul Steinacker, Gauri Goenka, Rocky Yue Su, Tuomo Tanttu, Wee Han Lim, Santiago Serrano, Tim Botzem, Jesus D. Cifuentes, Shao Qi Lim, Jeffrey C. McCallum, Brett C. Johnson, Fay E. Hudson, Kok Wai Chan, Christ…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Adaptable Route to Fast Coherent State Transport via Bang-Bang-Bang Protocols",
-      "url": "http://link.aps.org/doi/10.1103/g22y-z8h3",
-      "summary": "Author(s): Ya-Tang Yu, Hsin-Lien Lee, Shao-Hung Chung, Ting Hsu, Guin-Dar Lin, Ying-Cheng Chen, and H. H. Jen Fast coherent state transport is essential to quantum computation and quantum information processing. While an…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Newman-Janis Algorithm from Taub-Newman-Unti-Tamburino Instantons",
-      "url": "http://link.aps.org/doi/10.1103/g6nl-1fbn",
-      "summary": "Author(s): Joon-Hwi Kim It is shown that the Kerr metric represents the nonlinear superposition of self-dual and anti-self-dual Taub-Newman-Unti-Tamburino (NUT) instantons. This promotes the Newman-Janis algorithm to a r…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Unveiling Light-Quark Yukawa Flavor Structure via Dihadron Fragmentation at Lepton Colliders",
-      "url": "http://link.aps.org/doi/10.1103/p5c7-m43d",
-      "summary": "Author(s): Qing-Hong Cao, Xin-Kai Wen, Bin Yan, and Shu-Tao Zhang Directly probing light-quark Yukawa couplings and their flavor structure remains a major challenge due to their smallness and overwhelming QCD backgrounds…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "New Ground State in $^{149}\\mathrm{La}$ Removes Two-Neutron-Separation-Energy Anomaly in Lanthanum Isotopes",
-      "url": "http://link.aps.org/doi/10.1103/gvxl-vxd4",
-      "summary": "Author(s): S. Kimura, M. Wada, H. Haba, Y. Hirayama, H. Ishiyama, Y. Ito, T. Niwase, M. Rosenbusch, P. Schury, H. Ueno, Y. X. Watanabe, and Y. Yamanouchi Nuclear mass is a key indicator of how the nuclear shell structure…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Search for Double Beta Decays of $^{134}\\mathrm{Xe}$ with EXO-200 Phase II",
-      "url": "http://link.aps.org/doi/10.1103/vpny-23wq",
-      "summary": "Author(s): S. Al Kharusi et al. (EXO-200 Collaboration) EXO-200 was a leading double beta decay experiment consisting of a single-phase, enriched liquid xenon time projection chamber filled with an admixture of 80.672% $…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Momentum-Resolved Two-Dimensional Spectroscopy as a Probe of Nonlinear Quantum Field Dynamics",
-      "url": "http://link.aps.org/doi/10.1103/tfdm-qshs",
-      "summary": "Author(s): Duilio De Santis, Alex Gómez-Salvador, Nataliia Bazhan, Sebastian Erne, Maximilian Prüfer, Claudio Guarcello, Davide Valenti, Jörg Schmiedmayer, and Eugene Demler Emergent collective excitations constitute a h…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Efimov Effect in Ultracold Microwave-Shielded Polar Molecules",
-      "url": "http://link.aps.org/doi/10.1103/qlvv-r93m",
-      "summary": "Author(s): Shayamal Singh and Chris H. Greene A quantum-mechanical description is presented for the three-body physics of shielded dipolar molecules, including a prediction of observable Efimov physics. Despite the aniso…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Pound-Drever-Hall Method for Superconducting-Qubit Readout",
-      "url": "http://link.aps.org/doi/10.1103/ng1d-6gb8",
-      "summary": "Author(s): Ibukunoluwa Adisa, Won Chan Lee, Kevin C. Cox, and Alicia J. Kollár Scaling quantum computers to large sizes requires the implementation of many parallel qubit readouts. Here we present an ultrastable supercon…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Electrical Switching of Strain Gradients and 90° Domain Walls via Hidden Polar-Acoustic Coupling in ${\\mathrm{PbTiO}}_{3}$",
-      "url": "http://link.aps.org/doi/10.1103/yhk9-qf8c",
-      "summary": "Author(s): Yajun Zhang, Konstantin Shapovalov, Xu He, Chang Liu, Huadong Yong, Xingyi Zhang, Jie Wang, Kun Zhou, and Philippe Ghosez Although strain gradients hold great promise for tailoring emergent functionalities, th…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Proper Theory of Magnon Orbital Angular Momentum at Equilibrium",
-      "url": "http://link.aps.org/doi/10.1103/fgt6-bhmq",
-      "summary": "Author(s): Junyu Tang and Ran Cheng The orbital motion of chargeless bosons, unlike that of electrons, does not generate a magnetic moment and thus cannot directly interact with magnetic fields. To formulate the orbital …",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Topological Transition and Emergence of Elasticity of Dislocation in Skyrmion Lattice: Beyond Kittel’s Magnetic-Polar Analogy",
-      "url": "http://link.aps.org/doi/10.1103/4rww-4tsc",
-      "summary": "Author(s): Kohta Kasai, Akihiro Uematsu, Yu Wang, Tao Xu, Chang Liu, Susumu Minami, and Takahiro Shimada Skyrmion dislocations exhibit intrinsic core structures possessing large skyrmion deformation and topological phase…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Learning the Action for Long-Time-Step Simulations of Molecular Dynamics",
-      "url": "http://link.aps.org/doi/10.1103/shj2-hyw8",
-      "summary": "Author(s): Filippo Bigi, Johannes Spies, and Michele Ceriotti Machine learning can reduce the number of time steps needed to accurately predict the progress of a dynamically evolving system. [Phys. Rev. Lett. 136, 237301…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Polaron-Polariton-Assisted Thermally Activated Superradiance",
-      "url": "http://link.aps.org/doi/10.1103/hs3s-j4yp",
-      "summary": "Author(s): Yi-Ting Chuang and Liang-Yan Hsu We predict an anomalous thermally activated superradiance in molecular aggregates within polaritonic environments. In contrast to free space, the collective emission is enhance…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "APS",
-      "title": "Topological Approach to Measuring the Gaussian Curvature Modulus of Lipid Membranes in Simulation",
-      "url": "http://link.aps.org/doi/10.1103/6d6f-q1mg",
-      "summary": "Author(s): Seamus F. Gallagher and Markus Deserno Fission and fusion of lipid membranes are ubiquitous shape transformations in living cells, necessary for maintaining the shape of organelles and enabling a host of trans…",
-      "ts": 1780999200000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Let’s procure in-orbit services like Earth observation data and services",
-      "url": "https://spacenews.com/lets-procure-in-orbit-services-like-earth-observation-data-and-services/",
-      "summary": "The Chinese company MizarVision recently gained attention with its open source Earth observation data analysis over the Middle East which showed images of F-35s gathering 24 hours before Operation Epic […] The post Let’s…",
-      "ts": 1780999200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Five things you need to know about AI",
-      "url": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
-      "summary": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guid…",
-      "ts": 1780996605000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Cleaner air and prosperity can go hand in hand",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Cleaner_air_and_prosperity_can_go_hand_in_hand",
-      "summary": "For decades, economic growth and fossil-fuel consumption have been tightly intertwined. As cities have expanded, rising prosperity has often been accompanied by worsening air pollution. New research, however, suggests th…",
-      "ts": 1780990260000,
+      "source": "NASA",
+      "title": "Tyndall’s Trail of Bergs",
+      "url": "https://science.nasa.gov/earth/earth-observatory/tyndalls-trail-of-bergs/",
+      "summary": "Ice splintered off the southern Patagonia glacier and drifted across a growing glacial lake.",
+      "ts": 1781064060000,
       "categoryId": "space"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Hardware-aware Low-latency Quantum Compilation with Data-driven Lightweight Error Detection for Early Fault-Tolerant Systems",
-      "url": "https://arxiv.org/abs/2606.07666",
-      "summary": "arXiv:2606.07666v1 Announce Type: new Abstract: Noisy intermediate-scale quantum (NISQ) processors are entering an early fault-tolerance regime where full quantum error correction carries prohibitive resource costs, yet …",
-      "ts": 1780977600000,
+      "title": "Quantum Fidelity on Krein and S-spaces",
+      "url": "https://arxiv.org/abs/2606.09939",
+      "summary": "arXiv:2606.09939v1 Announce Type: new Abstract: The notion of Fidelity for quantum states is a measure of how much two states overlap. In the matrix formalism of quantum mechanics, states are represented by density opera…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Correlation-Assisted Odd-Parity Encoded Gates in Coupled Fluxonium Qubits under Non-Markovian TLS Noise",
-      "url": "https://arxiv.org/abs/2606.07699",
-      "summary": "arXiv:2606.07699v1 Announce Type: new Abstract: Correlated longitudinal noise can be partially converted into common-mode fluctuations in an oddparity two-qubit subspace. We analyze an encoded logical qubit formed by the…",
-      "ts": 1780977600000,
+      "title": "Near-projective GHZ certification from disjoint Bell measurements",
+      "url": "https://arxiv.org/abs/2606.09947",
+      "summary": "arXiv:2606.09947v1 Announce Type: new Abstract: Certifying multipartite entangled states is a basic task in quantum information processing, but the achievable copy complexity depends crucially on the measurements availab…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Benchmarking Quantum Algorithmic Resilience for CVaR Portfolio Optimization: The Expressibility-Coherence Trade-off",
-      "url": "https://arxiv.org/abs/2606.07727",
-      "summary": "arXiv:2606.07727v1 Announce Type: new Abstract: Quantum combinatorial optimization offers theoretical advantages for complex financial modeling, but physical implementation on Noisy Intermediate Scale Quantum (NISQ) devi…",
-      "ts": 1780977600000,
+      "title": "JGRA: Jacobian Geometry Robustness Assessment in NISQ Noise-Aware Quantum Neural Networks",
+      "url": "https://arxiv.org/abs/2606.09964",
+      "summary": "arXiv:2606.09964v1 Announce Type: new Abstract: The NISQ era places stringent constraints on quantum computation, where noise and decoherence fundamentally limit performance. In classical deep learning, model robustness …",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Exploring the landscape of compact magic-state distillation factories",
-      "url": "https://arxiv.org/abs/2606.07734",
-      "summary": "arXiv:2606.07734v1 Announce Type: new Abstract: Producing high-fidelity magic states using the smallest possible amount of physical qubits and operations stands as a very important challenge to achieve fault-tolerant qua…",
-      "ts": 1780977600000,
+      "title": "Magic and entanglement in 1+1-dimensional SU(2) lattice gauge theory",
+      "url": "https://arxiv.org/abs/2606.09971",
+      "summary": "arXiv:2606.09971v1 Announce Type: new Abstract: Entanglement and non-stabilizerness (magic) quantify two distinct departures of quantum systems from classical description: the former measures non-local correlations, whil…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Exact metastability in a class of driven-dissipative quantum many-body systems",
-      "url": "https://arxiv.org/abs/2606.07736",
-      "summary": "arXiv:2606.07736v1 Announce Type: new Abstract: Metastability in many-body quantum systems and its associated exponentially-long timescales have been the subject of considerable recent interest. Here, we focus on a class…",
-      "ts": 1780977600000,
+      "title": "Absence of poor local minima in matrix product states",
+      "url": "https://arxiv.org/abs/2606.09988",
+      "summary": "arXiv:2606.09988v1 Announce Type: new Abstract: Quantum circuits suffer from severe trainability issues: even shallow circuits are swamped with poor local minima. Yet matrix product states (MPS), which can be prepared by…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "$100\\pm\\Delta t$ Years of Quantum Uncertainty: From Origins to Modern Insights",
-      "url": "https://arxiv.org/abs/2606.07747",
-      "summary": "arXiv:2606.07747v1 Announce Type: new Abstract: Heisenberg's uncertainty principle is a cornerstone of quantum mechanics, marking a decisive departure from classical physics. Conceived almost a century ago through a thou…",
-      "ts": 1780977600000,
+      "title": "Graviton-mediated entanglement due to light bending from a quantum rotor",
+      "url": "https://arxiv.org/abs/2606.09991",
+      "summary": "arXiv:2606.09991v1 Announce Type: new Abstract: One of the key tests of the quantum nature of gravity is to test whether the virtual mediator of gravity between matter and photon gives rise to the quantum light-bending p…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Floquet Entanglement Generation in Parametrically Driven Coupled Superconducting Qubits",
-      "url": "https://arxiv.org/abs/2606.07797",
-      "summary": "arXiv:2606.07797v1 Announce Type: new Abstract: We investigate the dynamical generation of entanglement in a system of two superconducting qubits coupled through a parametrically driven longitudinal interaction. Using Fl…",
-      "ts": 1780977600000,
+      "title": "Quantum resources in non-stoquastic quantum annealing",
+      "url": "https://arxiv.org/abs/2606.09995",
+      "summary": "arXiv:2606.09995v1 Announce Type: new Abstract: Quantum annealing promises to solve combinatorial optimization problems by preparing the ground state of a target Hamiltonian. Standard annealing protocols are, however, st…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Near-deterministic single-atom loading on a photonic integrated circuit",
-      "url": "https://arxiv.org/abs/2606.07800",
-      "summary": "arXiv:2606.07800v1 Announce Type: new Abstract: Coupling identical quantum emitters to a photonic integrated circuit (PIC) is a key step for scaling up emitter-photon interfaces for quantum science and information proces…",
-      "ts": 1780977600000,
+      "title": "Wave packets from the spectrum",
+      "url": "https://arxiv.org/abs/2606.10004",
+      "summary": "arXiv:2606.10004v1 Announce Type: new Abstract: The freedom to change Fock basis seems to ensure a minimum amount of locality in lattice theories in the following sense: If $\\lbrace (\\hat a_i^\\dagger\\,,\\,\\hat a_i)\\rbrace…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Hamiltonian-Guided Leverage Embedding: Robust Subspace Compression for Efficient QAOA Parameter Estimation",
-      "url": "https://arxiv.org/abs/2606.07814",
-      "summary": "arXiv:2606.07814v1 Announce Type: new Abstract: The Quantum Approximate Optimization Algorithm (QAOA) is a hybrid quantum-classical framework for combinatorial optimization on near-term quantum devices. A central bottlen…",
-      "ts": 1780977600000,
+      "title": "Quantum Non-Gaussian State Preparation of Levitated Particles via Time-Dependent Control of Weakly Nonharmonic Hybrid Potentials",
+      "url": "https://arxiv.org/abs/2606.10042",
+      "summary": "arXiv:2606.10042v1 Announce Type: new Abstract: Levitated high-mass quantum systems provide access to unprecedented regimes in both fundamental science and technological applications. However, deterministic generation an…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Projected Inverse Iteration: An Eigenvalue Approach to Ground-State Computation with Neural Quantum States",
-      "url": "https://arxiv.org/abs/2606.07825",
-      "summary": "arXiv:2606.07825v1 Announce Type: new Abstract: Deep learning offers a powerful approach to quantum many-body problems via neural network wavefunctions, but their optimization remains a severe bottleneck. Existing optimi…",
-      "ts": 1780977600000,
+      "title": "Scaling law of asymptotic freedom in collective charging of quantum batteries",
+      "url": "https://arxiv.org/abs/2606.10054",
+      "summary": "arXiv:2606.10054v1 Announce Type: new Abstract: We establish a universal scaling law for collective charging of quantum batteries, independent of microscopic details. We prove that the ergotropy-to-energy ratio approache…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Affine Filtering Measurements and Their Applications to Quantum Decoding",
-      "url": "https://arxiv.org/abs/2606.07852",
-      "summary": "arXiv:2606.07852v1 Announce Type: new Abstract: Unambiguous state discrimination (USD) measurements are attractive because outcomes are either marked as conclusive (i.e., error free) or inconclusive (i.e., erased). We st…",
-      "ts": 1780977600000,
+      "title": "Identical Bosons, large occupation numbers and classical field description",
+      "url": "https://arxiv.org/abs/2606.10055",
+      "summary": "arXiv:2606.10055v1 Announce Type: new Abstract: For a system with a large number of identical Bosons, it is common to claim, often without any additional justifications, that, when the mean occupation number in a single …",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Defining Unique, Redundant, and Synergistic Quantum Information",
-      "url": "https://arxiv.org/abs/2606.07880",
-      "summary": "arXiv:2606.07880v1 Announce Type: new Abstract: We extend the classical ideas of the Partial Information Decomposition (PID) to the quantum domain and quantify unique, redundant, and synergistic quantum information. We s…",
-      "ts": 1780977600000,
+      "title": "A Cryogenic Hybrid Photonic/CMOS Controller Architecture for Scalable Superconducting Qubit Control",
+      "url": "https://arxiv.org/abs/2606.10114",
+      "summary": "arXiv:2606.10114v1 Announce Type: new Abstract: Scaling superconducting quantum computers toward thousands of qubits remains a difficult control hardware problem. It requires hardware that reduces room-temperature to cry…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "All-Optical Wide-Field Magnetometry with Van Der Waals Quantum Sensor",
-      "url": "https://arxiv.org/abs/2606.07899",
-      "summary": "arXiv:2606.07899v1 Announce Type: new Abstract: Negatively charged boron vacancy ($V_B^-$) centers in hexagonal boron nitride ($h$-BN) have attracted wide-range interests owing to their van der Waals lattice and their po…",
-      "ts": 1780977600000,
+      "title": "Towards the implementation of a quantum classifier",
+      "url": "https://arxiv.org/abs/2606.10150",
+      "summary": "arXiv:2606.10150v1 Announce Type: new Abstract: In this work, we investigate the use of a quantum circuit as a binary classification model in the context of quantum machine learning. We call this model, binary quantum cl…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Repair Before Veto, When Repair Is Hidden: Quantum-Accessible Features for Repair-Augmented Constraint Learning",
-      "url": "https://arxiv.org/abs/2606.08020",
-      "summary": "arXiv:2606.08020v1 Announce Type: new Abstract: Hard-constraint decision systems usually veto infeasible candidates. This is too rigid when the system can act: if a known affordable repair would make an infeasible candid…",
-      "ts": 1780977600000,
+      "title": "Trainability of IQP Quantum Circuit Born Machines Under Gaussian Initialization",
+      "url": "https://arxiv.org/abs/2606.10179",
+      "summary": "arXiv:2606.10179v1 Announce Type: new Abstract: Quantum Circuit Born Machines (QCBMs) offer a natural approach to generative machine learning by leveraging the Born rule. Recent work has provided a method to classically …",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Numerical solution of the nonlinear Dirac equation by a splitting variational quantum algorithm",
-      "url": "https://arxiv.org/abs/2606.08053",
-      "summary": "arXiv:2606.08053v1 Announce Type: new Abstract: In this work, we propose an operator-splitting variational quantum algorithm, termed Dirac-sVQA, for simulating the nonlinear Dirac equation (NLDE). The main difficulty ari…",
-      "ts": 1780977600000,
+      "title": "Variational Approach for Uniform Quantum Permutation Generators",
+      "url": "https://arxiv.org/abs/2606.10230",
+      "summary": "arXiv:2606.10230v1 Announce Type: new Abstract: Uniform permutation generation is a fundamental task in both classical and quantum computation, with applications ranging from cryptography to quantum optimization and quan…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Robust applicability of continuous dynamical decoupling to decoherence reduction in longitudinal and transverse-noise settings: The role of anisotropy",
-      "url": "https://arxiv.org/abs/2606.08114",
-      "summary": "arXiv:2606.08114v1 Announce Type: new Abstract: We analytically evaluate the efficiency of continuous dynamical decoupling (CDD) to curb decoherence in generic qubit setups where diverse sources of noise can be present. …",
-      "ts": 1780977600000,
+      "title": "A Recrossing-Free Dividing Surface in Quantum Mechanics",
+      "url": "https://arxiv.org/abs/2606.10266",
+      "summary": "arXiv:2606.10266v1 Announce Type: new Abstract: For nearly a century, a recrossing-free dividing surface in quantum mechanics has been thought impossible. One-way reactive flux seems to require simultaneous trajectory-le…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Markovian dynamics of single-rebit open quantum systems with applications to colour perception",
-      "url": "https://arxiv.org/abs/2606.08117",
-      "summary": "arXiv:2606.08117v1 Announce Type: new Abstract: This paper investigates the Markovian dynamics of open two-state quantum systems defined over the real numbers (rebits). Two main objectives are pursued. First, we present …",
-      "ts": 1780977600000,
+      "title": "Reconfigurable MDI-QKD and BB84 over 20 km optical channels via EOM-tailored weak coherent states",
+      "url": "https://arxiv.org/abs/2606.10306",
+      "summary": "arXiv:2606.10306v1 Announce Type: new Abstract: Measurement-device-independent quantum key distribution (MDI-QKD) is designed to eliminate detector side-channel vulnerabilities. However, its practical deployment remains …",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Every Rank-Two Entangled State is Projectively Steerable",
-      "url": "https://arxiv.org/abs/2606.08189",
-      "summary": "arXiv:2606.08189v1 Announce Type: new Abstract: Pure entangled states are already steerable by suitable projective measurements within their Schmidt supports, whereas rank two is the first genuinely mixed rank at which e…",
-      "ts": 1780977600000,
+      "title": "Optomechanical system with tunable dissipative and dispersive couplings",
+      "url": "https://arxiv.org/abs/2606.10318",
+      "summary": "arXiv:2606.10318v1 Announce Type: new Abstract: We demonstrate an optomechanical system with tunable dissipative and dispersive couplings using a Fabry-Perot cavity and a string mechanical resonator. By varying the diame…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Entanglement in the Quantum Volunteer's Dilemma",
-      "url": "https://arxiv.org/abs/2606.08227",
-      "summary": "arXiv:2606.08227v1 Announce Type: new Abstract: A well-known model in game theory, the Volunteer's Dilemma describes a group of $n$ players who decide whether to volunteer for a collective benefit at a personal cost, or …",
-      "ts": 1780977600000,
+      "title": "Nonreciprocal Photon Blockade in an Asymmetric Cavity",
+      "url": "https://arxiv.org/abs/2606.10319",
+      "summary": "arXiv:2606.10319v1 Announce Type: new Abstract: We propose a scheme to realize tunable and strong nonreciprocal photon blockade (PB) in an asymmetric Fabry-P\\'{e}rot cavity. The setup consists of a single-mode optical ca…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "QnRL: Quantum-Native Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2606.08276",
-      "summary": "arXiv:2606.08276v1 Announce Type: new Abstract: Quantum reinforcement learning (QRL) is a promising approach to learn effective decision strategies across several applications with stochastic environments. Instead of dir…",
-      "ts": 1780977600000,
+      "title": "Nonreciprocal photon bundle emission",
+      "url": "https://arxiv.org/abs/2606.10379",
+      "summary": "arXiv:2606.10379v1 Announce Type: new Abstract: Quantum squeezing, a cornerstone of quantum optics and photonics, has played a key role in achieving ultra-precision sensing and realizing nonreciprocal engineering. Howeve…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "On solutions of the Schr\\\"{o}dinger equation for some molecular potentials: Power-series method",
-      "url": "https://arxiv.org/abs/2606.08290",
-      "summary": "arXiv:2606.08290v1 Announce Type: new Abstract: We show that the standard power-series method described in many textbooks of quantum-mechanics and quantum-chemistry is simpler and more powerful than the wavefunction appr…",
-      "ts": 1780977600000,
+      "title": "Camera-enabled scalable homodyne detection of multimode quantum light",
+      "url": "https://arxiv.org/abs/2606.10387",
+      "summary": "arXiv:2606.10387v1 Announce Type: new Abstract: Scalability is a key challenge in advancing quantum technologies such as quantum computing, communication, and metrology. Photonic systems offer a promising route to scalab…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Quantum algorithms for stochastic nonlinear differential equations",
-      "url": "https://arxiv.org/abs/2606.08349",
-      "summary": "arXiv:2606.08349v1 Announce Type: new Abstract: Stochastic nonlinear dynamics underlie many models in engineering and computational physics, yet accurate high-dimensional simulation remains challenging. We present a quan…",
-      "ts": 1780977600000,
+      "title": "A Modular Approach to Succinct Arguments for QMA",
+      "url": "https://arxiv.org/abs/2606.10408",
+      "summary": "arXiv:2606.10408v1 Announce Type: new Abstract: Succinct argument systems are of central importance to modern crytpography, enabling the efficient verification of computational claims. In the classical setting, Kilian (S…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "A century of coherent states",
-      "url": "https://arxiv.org/abs/2606.08361",
-      "summary": "arXiv:2606.08361v1 Announce Type: new Abstract: During the century of existence of the notion of coherent states, either linear or nonlinear, several schemes for their construction, theoretical or experimental, have been…",
-      "ts": 1780977600000,
+      "title": "Efficient Magic State Cultivation for $\\sqrt{T}$ Gates",
+      "url": "https://arxiv.org/abs/2606.10430",
+      "summary": "arXiv:2606.10430v1 Announce Type: new Abstract: Recently, experimental and theoretical quantum error correction methodology has seen remarkable breakthroughs. In particular, magic state cultivation has been shown to simp…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "A K-band Kinetic Inductance Parametric Amplifier Near the Quantum Limit",
-      "url": "https://arxiv.org/abs/2606.08406",
-      "summary": "arXiv:2606.08406v1 Announce Type: new Abstract: Advancing superconducting quantum devices to higher operating frequencies broadens their functionality and enables operation at elevated temperatures, but it also requires …",
-      "ts": 1780977600000,
+      "title": "Experimental implementation of continuous-variable QAOA on a quad-rail lattice cluster state",
+      "url": "https://arxiv.org/abs/2606.10432",
+      "summary": "arXiv:2606.10432v1 Announce Type: new Abstract: We experimentally demonstrate the continuous-variable quantum approximate optimization algorithm (CV-QAOA) for multi-variable problems and multiple QAOA depths using a meas…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Quantum Kravchuk Transform using $\\mathfrak{su}(2)$ fast-forwarding",
-      "url": "https://arxiv.org/abs/2606.08443",
-      "summary": "arXiv:2606.08443v1 Announce Type: new Abstract: We present a quantum algorithm for the Kravchuk transform that scales logarithmically in both the dimension and the inverse of the error parameter. The quantum Kravchuk tra…",
-      "ts": 1780977600000,
+      "title": "Analytical performance evaluation of quantum radar architectures: From single-photon to entangled-noise radars",
+      "url": "https://arxiv.org/abs/2606.10436",
+      "summary": "arXiv:2606.10436v1 Announce Type: new Abstract: This article presents a comprehensive analysis of two classes of quantum radars, including quantum direct-detection and quantum-entangled noise radars. In the first case, i…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "A Dual Metastable-State Encoding Architecture for Quantum Processing with $^{171}\\mathrm{Yb}$ Atom Arrays",
-      "url": "https://arxiv.org/abs/2606.08453",
-      "summary": "arXiv:2606.08453v1 Announce Type: new Abstract: Neutral-atom arrays combine scalable qubit registers, long coherence times, flexible optical control, and strong Rydberg-mediated entangling interactions, making them a pro…",
-      "ts": 1780977600000,
+      "title": "Floquet analysis of coherence in periodically driven diamond NV ensemble systems",
+      "url": "https://arxiv.org/abs/2606.10452",
+      "summary": "arXiv:2606.10452v1 Announce Type: new Abstract: High-density nitrogen-vacancy (NV) ensembles are promising platforms for solid-state quantum sensing, but their performance is limited by dipolar interactions and inhomogen…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Impact of spontaneous emission on spin-squeezed quantum sensors",
-      "url": "https://arxiv.org/abs/2606.08478",
-      "summary": "arXiv:2606.08478v1 Announce Type: new Abstract: The echo squeezing protocols (ESPs) are techniques that amplify the phase shift in a quantum sensor with one-axis-twist squeezing (OATS). For atomic sensors, spontaneous em…",
-      "ts": 1780977600000,
+      "title": "Single-photon scattering in a dissipative superconducting-qubit--SSH lattice hybrid",
+      "url": "https://arxiv.org/abs/2606.10510",
+      "summary": "arXiv:2606.10510v1 Announce Type: new Abstract: We study single-photon scattering in a Su--Schrieffer--Heeger (SSH) photonic lattice locally coupled to a superconducting qubit with tunable loss or gain. Working in the si…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Modified One-Axis-Twist Squeezing for Deterministic Orientation Control of Schr\\\"odinger Cat States with Unknown Atom-Number Parity",
-      "url": "https://arxiv.org/abs/2606.08482",
-      "summary": "arXiv:2606.08482v1 Announce Type: new Abstract: The Schr\\\"odinger cat state protocol (SCSP) makes use of a Schr\\\"odinger cat (SC) state generated with one-axis-twist squeezing (OATS) to enhance the sensitivity. In princi…",
-      "ts": 1780977600000,
+      "title": "Precision measurements at the interface between unitary and non-unitary encoding",
+      "url": "https://arxiv.org/abs/2606.10529",
+      "summary": "arXiv:2606.10529v1 Announce Type: new Abstract: We investigate precision scaling at the interface between unitary and non-unitary encoding under generalized noise including single-particle and collective dephasing and de…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Quantum Advantage over Wirings of Nonsignaling Boxes in Multipartite Networks",
-      "url": "https://arxiv.org/abs/2606.08488",
-      "summary": "arXiv:2606.08488v1 Announce Type: new Abstract: Quantum-entangled measurements are known to enable multi-party behaviors that are impossible with unentangled measurements on nonlocal resources, even those that are super-…",
-      "ts": 1780977600000,
+      "title": "Non-Hermitian scattering in SSH superconducting waveguides: exact Green-function reduction and dimerization-sensitive microwave functionalities",
+      "url": "https://arxiv.org/abs/2606.10555",
+      "summary": "arXiv:2606.10555v1 Announce Type: new Abstract: We formulate an exact Green-function theory for non-Hermitian single-microwave-photon scattering by finite superconducting circuit subsystems embedded in an SSH waveguide. …",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Pure and mixed Dicke state ansatz for equality and inequality constraints in variational quantum eigensolver",
-      "url": "https://arxiv.org/abs/2606.08504",
-      "summary": "arXiv:2606.08504v1 Announce Type: new Abstract: Combinatorial optimization can be addressed with quantum computing through variational quantum algorithms, but a central challenge in this approach is to design an ansatz e…",
-      "ts": 1780977600000,
+      "title": "Anomalous mobility edges and extended-localized transition in a quasiperiodic emitter-cavity array",
+      "url": "https://arxiv.org/abs/2606.10585",
+      "summary": "arXiv:2606.10585v1 Announce Type: new Abstract: The manipulation of localization in quasiperiodic systems by mobility edges or localization transition holds significant physical importance. In this letter, we demonstrate…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Cascaded Rydberg antiblockade: Multi-atom excitation dynamics and entanglement",
-      "url": "https://arxiv.org/abs/2606.08536",
-      "summary": "arXiv:2606.08536v1 Announce Type: new Abstract: We propose a cascaded Rydberg antiblockade (RAB) regime via a Floquet modulation in four fully connected interacting atoms, which establishes a new synthetic dimension, Dic…",
-      "ts": 1780977600000,
+      "title": "Equilibrating continuous-variable open quantum systems using stochastic classical trajectories in path-integral space",
+      "url": "https://arxiv.org/abs/2606.10665",
+      "summary": "arXiv:2606.10665v1 Announce Type: new Abstract: Beyond the weak-coupling limit, open quantum systems equilibrate to a highly entangled thermal state. For continuous-variable systems, this state can be written explicitly …",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Dissipative Channels Determine Open Electromagnetic Quantization",
-      "url": "https://arxiv.org/abs/2606.08557",
-      "summary": "arXiv:2606.08557v1 Announce Type: new Abstract: We formulate a quantization scheme for open electromagnetic systems with arbitrary passive boundary conditions. Rather than specifying reservoirs phenomenologically, the me…",
-      "ts": 1780977600000,
+      "title": "Certification of Network Quantum Sensing",
+      "url": "https://arxiv.org/abs/2606.10700",
+      "summary": "arXiv:2606.10700v1 Announce Type: new Abstract: The distribution of quantum sensors on quantum networks is a key enabler of quantum technologies in interferometry, gravimetry, timekeeping, biological monitoring, and beyo…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "A five-qubit 1-resistant graph state and stabilizer marginal certificates",
-      "url": "https://arxiv.org/abs/2606.08561",
-      "summary": "arXiv:2606.08561v1 Announce Type: new Abstract: We study particle-loss resistant entanglement within the framework of stabilizer and graph states. A pure state is \\(m\\)-resistant if it remains entangled after the loss of…",
-      "ts": 1780977600000,
+      "title": "Ultra-high Q-factor superconducting tantalum resonators on 300 mm Si wafers",
+      "url": "https://arxiv.org/abs/2606.10719",
+      "summary": "arXiv:2606.10719v1 Announce Type: new Abstract: Superconducting resonators are central to superconducting quantum information technologies and essential for bosonic qubit architectures, where long-lived storage modes ena…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Another Legacy of Andrzej Kossakowski: A Self-Contained Derivation of the GKLS Equation",
-      "url": "https://arxiv.org/abs/2606.08579",
-      "summary": "arXiv:2606.08579v1 Announce Type: new Abstract: This note is written for the special issue of OSID dedicated to the 50th anniversary of the Gorini--Kossakowski--Lindblad--Sudarshan equation. Its purpose is not to give a …",
-      "ts": 1780977600000,
+      "title": "Unitary Channel Testing Under a Depolarizing Noise Assumption",
+      "url": "https://arxiv.org/abs/2606.10730",
+      "summary": "arXiv:2606.10730v1 Announce Type: new Abstract: We present fast algorithms $\\unicode{x2013}$ under the depolarizing noise assumption, often made in fault-tolerant quantum computations $\\unicode{x2013}$ to test its streng…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Is Exact Markovianity Fundamental Once Time Is Relational?",
-      "url": "https://arxiv.org/abs/2606.08595",
-      "summary": "arXiv:2606.08595v1 Announce Type: new Abstract: Markovian open quantum theory assumes evolution with respect to an external classical time parameter, yet no preferred notion of time exists fundamentally in relativistic p…",
-      "ts": 1780977600000,
+      "title": "Noise cancellation by superposition of channels and superactivation of quantum capacity: Experimental realization by NMR",
+      "url": "https://arxiv.org/abs/2606.10744",
+      "summary": "arXiv:2606.10744v1 Announce Type: new Abstract: Noisy quantum channels degrade quantum resources such as coherence and entanglement and hence pose challenges for realizing quantum technologies. Coherent control of noisy …",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Hidden Conformal Boundary Data in Finite-Temperature Stabilizer Entropy",
-      "url": "https://arxiv.org/abs/2606.08606",
-      "summary": "arXiv:2606.08606v1 Announce Type: new Abstract: We study the finite-temperature stabilizer R\\'enyi entropy of the open critical quantum spin chains. At R\\'enyi index one half, this observable probes the distribution of t…",
-      "ts": 1780977600000,
+      "title": "The fidelity of controlled quantum teleportation in a noisy environment",
+      "url": "https://arxiv.org/abs/2606.10826",
+      "summary": "arXiv:2606.10826v1 Announce Type: new Abstract: In this work, we investigate controlled quantum teleportation in the presence of noisy channels acting on the three-qubit resource state. We employ a series of generalized …",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Nonlocal Teams and Information Structures",
-      "url": "https://arxiv.org/abs/2606.08645",
-      "summary": "arXiv:2606.08645v1 Announce Type: new Abstract: We look at Bell inequalities from the lens of information structures in stochastic teams. We consider the usual CHSH game and a dynamic variant of the same to study how var…",
-      "ts": 1780977600000,
+      "title": "Sensitivity Enhancement near High-Order Exceptional Points via Dissipative Couplings",
+      "url": "https://arxiv.org/abs/2606.10865",
+      "summary": "arXiv:2606.10865v1 Announce Type: new Abstract: High-order exceptional points (EPs) emerging in non-Hermitian systems have attracted broad interest for their significantly enhanced sensitivity to perturbations. However, …",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "High Precision Qubit-Efficient Variational Continuous Optimization via Amplitude Estimation",
-      "url": "https://arxiv.org/abs/2606.08690",
-      "summary": "arXiv:2606.08690v1 Announce Type: new Abstract: Optimization of continuous-variable objectives on standard gate-based quantum computers via variational algorithms such as QAOA is typically approached by first discretizin…",
-      "ts": 1780977600000,
+      "title": "Quantum Colorings of Spheres",
+      "url": "https://arxiv.org/abs/2606.10872",
+      "summary": "arXiv:2606.10872v1 Announce Type: new Abstract: Cameron, Montanaro, Newman, Severini and Winter gave a construction which shows that, for $n \\in \\{2,4,8\\}$, any graph $G$ which admits a real $n$-dimensional orthogonal re…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     },
     {
       "source": "arXiv Quantum",
-      "title": "Chiral Quantum Entanglement Transfer with Giant Atoms",
-      "url": "https://arxiv.org/abs/2606.08695",
-      "summary": "arXiv:2606.08695v1 Announce Type: new Abstract: We investigate entanglement transfer in a multi-giant-atom waveguide system. By tailoring chiral spontaneous emission and exploiting dark-state dynamics, the setup enables …",
-      "ts": 1780977600000,
+      "title": "Genuine Multipartite Nonlocality for Arbitrary Input: Maximal Randomness Generation and Robust Self-Testing",
+      "url": "https://arxiv.org/abs/2606.10936",
+      "summary": "arXiv:2606.10936v1 Announce Type: new Abstract: Bell nonlocality provides the foundation for device-independent (DI) certification of quantum devices. We introduce a Bell inequality capable of identifying genuine multipa…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Inherent flux crosstalk and coupler-driven single-qubit gates in superconducting circuits",
+      "url": "https://arxiv.org/abs/2606.10970",
+      "summary": "arXiv:2606.10970v1 Announce Type: new Abstract: Crosstalk refers to unwanted qubit addressing. This is particularly detrimental when scaling up quantum information systems because unintended interactions limit their over…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Robust self-testing based on Gisin's arbitrary-input Bell inequality",
+      "url": "https://arxiv.org/abs/2606.10983",
+      "summary": "arXiv:2606.10983v1 Announce Type: new Abstract: Self-testing refers to the strongest device-independent (DI) certification method that validates the nature of a quantum system and devices solely based on the observed sta…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Nonreciprocal quantum rotation sensing via virtual-excitation enhancement in a spinning cavity",
+      "url": "https://arxiv.org/abs/2606.10984",
+      "summary": "arXiv:2606.10984v1 Announce Type: new Abstract: Quantum sensing with high precision and sensitivity plays an important role in quantum technologies and quantum information processing. Here, we propose a nonreciprocal qua…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Adaptive identification of low-degree polynomials in quantum singular value transformation: application to nonlinear quantum properties estimation",
+      "url": "https://arxiv.org/abs/2606.10994",
+      "summary": "arXiv:2606.10994v1 Announce Type: new Abstract: Estimating properties of unknown quantum states via quantum singular value transformation (QSVT) often requires high-degree polynomials to handle small eigenvalues of densi…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Analog Quantum Asynchronous Event-Based Graph Neural Network",
+      "url": "https://arxiv.org/abs/2606.11000",
+      "summary": "arXiv:2606.11000v1 Announce Type: new Abstract: Asynchronous, event-based graph neural networks (AEGNNs) have recently emerged as an efficient paradigm for processing the sparse and high-temporal-resolution data from eve…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Revealing the topology of quantum states via Kirkwood-Dirac quasiprobabilities",
+      "url": "https://arxiv.org/abs/2606.11002",
+      "summary": "arXiv:2606.11002v1 Announce Type: new Abstract: We discuss a theoretical approach to discriminate whether two states of a many-body quantum system belong or not to different topology classes. This approach is based on ex…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Bosonic Cyclic Codes: Trading Stabilizers for Gaussian Non-Clifford Phase Gates",
+      "url": "https://arxiv.org/abs/2606.11010",
+      "summary": "arXiv:2606.11010v1 Announce Type: new Abstract: Bosonic codes offer hardware-efficient approaches to quantum error correction, with the best encodings offering effective protection of idle quantum information against los…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Tame the Umklapp Processes in Real-Time Lattice Simulation for Hydrodynamics: An Ising Field Theory Study",
+      "url": "https://arxiv.org/abs/2606.09984",
+      "summary": "arXiv:2606.09984v1 Announce Type: cross Abstract: We calculate the real-time symmetric correlation function of the stress-energy tensor for a non-integrable Ising field theory consisting of three stable scalar particles …",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "VQA for Dynamic Portfolio Optimization: Sampling Strategies, Optimizer Scheduling, and Hardware-Aware Ansatz Design",
+      "url": "https://arxiv.org/abs/2606.10098",
+      "summary": "arXiv:2606.10098v1 Announce Type: cross Abstract: Variational quantum algorithms are increasingly explored for optimization problems at scales relevant to near-term quantum devices. Their practical performance depends st…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Exceptional Points as Manifestations of Analyticity Breakdown in the 't Hooft Model",
+      "url": "https://arxiv.org/abs/2606.10141",
+      "summary": "arXiv:2606.10141v1 Announce Type: cross Abstract: We use the exactly-solvable t Hooft model of 1+1D large-N_c QCD as a rigorous laboratory for the breakdown of analyticity of a causal response function, the meson two-poi…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Neural-network solution of subtracted three-body Faddeev integral equations near the Efimov limit",
+      "url": "https://arxiv.org/abs/2606.10343",
+      "summary": "arXiv:2606.10343v1 Announce Type: cross Abstract: We apply a deep-neural-network (DNN) ansatz to the symmetrized spectator vector of the subtracted three-body Faddeev integral equation for identical bosons near the Efimo…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Interaction-driven dynamics in graphene flakes as a benchmark for quantum simulation",
+      "url": "https://arxiv.org/abs/2606.10548",
+      "summary": "arXiv:2606.10548v1 Announce Type: cross Abstract: We study interaction-driven ultrafast dynamics in finite graphene flakes following an optical pump quench in an interacting tight-binding model. By comparing exact real-t…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Hawking-Page phase transition for pure Lovelock black holes",
+      "url": "https://arxiv.org/abs/2606.10647",
+      "summary": "arXiv:2606.10647v1 Announce Type: cross Abstract: We investigate the thermodynamic properties of static, spherically symmetric Anti-de Sitter (AdS) black holes, focusing on the interplay between characteristic temperatur…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Pair creation amplitudes for a real scalar field coupled to a time-dependent surface in d+1 dimensions",
+      "url": "https://arxiv.org/abs/2606.10800",
+      "summary": "arXiv:2606.10800v1 Announce Type: cross Abstract: We study the pair creation phenomenon for a real scalar field $\\varphi$ in the presence of a surface that undergoes time-dependent deformations, while imposing Dirichlet-…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Schmidt Decomposition-Based Methods for Efficient Quantum Image Encoding",
+      "url": "https://arxiv.org/abs/2606.10874",
+      "summary": "arXiv:2606.10874v1 Announce Type: cross Abstract: In quantum image processing, a fundamental step is encoding classical image data into quantum states. This can be achieved using methods such as Flexible Representation o…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Random Matrix Theory for Chaotic Wave Scattering and Transport",
+      "url": "https://arxiv.org/abs/2606.10957",
+      "summary": "arXiv:2606.10957v1 Announce Type: cross Abstract: We review random matrix approaches to chaotic wave scattering and transport in open systems. Starting from the effective non-Hermitian Hamiltonian formulation, we discuss…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Colloquium: Nuclear clocks",
+      "url": "https://arxiv.org/abs/2606.11048",
+      "summary": "arXiv:2606.11048v1 Announce Type: cross Abstract: The Th-229 nuclear isomeric state has the lowest energy of all known nuclear excited states, placing it within the reach of current table-top laser technology. This extra…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "On pseudogap phase as precursor to a superconducting dome in high-Tc cuprates: Non-analytic T* as a function of doping",
+      "url": "https://arxiv.org/abs/2606.11056",
+      "summary": "arXiv:2606.11056v1 Announce Type: cross Abstract: We generalize the condition under which a quantum material exhibiting a pseudogap phase is a precursor to a superconducting (SC) dome. The result reveals the non-analytic…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Interplay between photon condensation and electron-electron interactions in molecular systems",
+      "url": "https://arxiv.org/abs/2606.11060",
+      "summary": "arXiv:2606.11060v1 Announce Type: cross Abstract: We investigate a minimal molecular model consisting of square planar plaquettes hosting multiple electrons, whose dynamics is governed by a tight-binding Hamiltonian supp…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Coset Ensemble Decoder for Quantum Error Correction with Algorithm-Hardware Co-Design",
+      "url": "https://arxiv.org/abs/2606.11076",
+      "summary": "arXiv:2606.11076v1 Announce Type: cross Abstract: Reliable large-scale quantum computation relies on fault-tolerant architectures, where quantum error correction (QEC) continuously extracts and decodes error syndromes in…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "The Yang-Baxter Equation for the Chiral Potts Model and Integrable Parafermions",
+      "url": "https://arxiv.org/abs/2606.11146",
+      "summary": "arXiv:2606.11146v1 Announce Type: cross Abstract: A new type of Yang-Baxter equation (YBE) for $R$-matrices parameterized by three spectral parameters is constructed from the star-triangle and star-star relations for the…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Quantum statistics in an extended collider coupled to a qubit",
+      "url": "https://arxiv.org/abs/2606.11147",
+      "summary": "arXiv:2606.11147v1 Announce Type: cross Abstract: Mesoscopic colliders provide an effective platform for probing the mutual statistics of quantum particles. Recent experiments have successfully extracted the mutual stati…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Quantum Walks on Simplicial Complexes and Harmonic Homology: Application to Topological Data Analysis with Superpolynomial Speedups",
+      "url": "https://arxiv.org/abs/2404.15407",
+      "summary": "arXiv:2404.15407v2 Announce Type: replace Abstract: This work investigates whether quantum walks on simplicial complexes exhibit quantum advantages. We introduce a novel quantum walk that encodes the combinatorial Laplac…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Quantum complexity and localization in random and time-periodic unitary circuits",
+      "url": "https://arxiv.org/abs/2409.03656",
+      "summary": "arXiv:2409.03656v3 Announce Type: replace Abstract: We study the growth and saturation of complexity in Krylov basis in random quantum circuits. In Haar-random unitary evolution, we show that, for large system sizes, thi…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Compressing multivariate functions with tree tensor networks",
+      "url": "https://arxiv.org/abs/2410.03572",
+      "summary": "arXiv:2410.03572v3 Announce Type: replace Abstract: Tensor networks are a compressed format for multi-dimensional data. One dimensional tensor networks -- often referred to as tensor trains (TT) or matrix product states …",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Bell nonlocality from compatibility of entanglement-breaking channels",
+      "url": "https://arxiv.org/abs/2410.13499",
+      "summary": "arXiv:2410.13499v2 Announce Type: replace Abstract: Locally classical behavior is often interpreted as evidence that a global classical description should exist. In particular, when individual processes admit classical (…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Benchmarking weak randomness in Quantum and Natural Sources",
+      "url": "https://arxiv.org/abs/2504.06899",
+      "summary": "arXiv:2504.06899v3 Announce Type: replace Abstract: Private randomness is a fundamental resource for cryptography, security proofs, and information processing. Quantum devices offer a unique advantage by amplifying weak …",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Quantum Simulation of the Unruh Temperature via the Thermal Properties of Virtually Evolving Bose-Einstein Condensates",
+      "url": "https://arxiv.org/abs/2504.14685",
+      "summary": "arXiv:2504.14685v5 Announce Type: replace Abstract: This paper presents a novel theoretical model motivate a new experimental scheme to simulate the Unruh temperature by relating it to the critical temperature of multipl…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Exploring Variational Entanglement Hamiltonians",
+      "url": "https://arxiv.org/abs/2505.10530",
+      "summary": "arXiv:2505.10530v2 Announce Type: replace Abstract: Recent advances in analog and digital quantum-simulation platforms have enabled exploration of the spectrum of entanglement Hamiltonians via variational algorithms. In …",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Measurement incompatibility and quantum steering via linear programming",
+      "url": "https://arxiv.org/abs/2506.03045",
+      "summary": "arXiv:2506.03045v2 Announce Type: replace Abstract: The problem of deciding whether a set of quantum measurements is jointly measurable is known to be equivalent to determining whether a quantum assemblage is unsteerable…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Floquet-engineering unveiled by high-harmonic generation",
+      "url": "https://arxiv.org/abs/2507.03791",
+      "summary": "arXiv:2507.03791v2 Announce Type: replace Abstract: Ultrafast optical control of solids has uncovered new phenomena and advanced non-equilibrium condensed matter physics, where photon dressed electronic states - Floquet …",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Additivity of quantum relative entropies as a single-copy criterion",
+      "url": "https://arxiv.org/abs/2507.05696",
+      "summary": "arXiv:2507.05696v3 Announce Type: replace Abstract: The fundamental goal of information theory is to characterize complex operational tasks using efficiently computable information quantities, Shannon's capacity formula …",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Parity Cross-Resonance: A Multiqubit Gate",
+      "url": "https://arxiv.org/abs/2508.10807",
+      "summary": "arXiv:2508.10807v2 Announce Type: replace Abstract: We present a native three-qubit entangling gate that exploits engineered interactions to realize control-control-target and control-target-target operations in a single…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Fast entangling gates on fluxoniums via parametric modulation of plasmon interaction",
+      "url": "https://arxiv.org/abs/2509.04762",
+      "summary": "arXiv:2509.04762v3 Announce Type: replace Abstract: In superconducting quantum processors, exploring diverse control methods could offer essential versatility and redundancy to mitigate challenges such as frequency crowd…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Most incompatible measurements and sum-of-squares optimisation",
+      "url": "https://arxiv.org/abs/2509.10381",
+      "summary": "arXiv:2509.10381v3 Announce Type: replace Abstract: Measurement incompatibility, or joint measurability, is a cornerstone of quantum theory and a useful resource. For finite-dimensional systems, quantifying this resource…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Sequential quantum processes with group symmetries",
+      "url": "https://arxiv.org/abs/2510.07100",
+      "summary": "arXiv:2510.07100v2 Announce Type: replace Abstract: Symmetry plays a crucial role in the design and analysis of quantum protocols. This result shows a canonical circuit decomposition of a $(G\\times H)$-invariant quantum …",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "A Grover-compatible manifold optimization algorithm for quantum search",
+      "url": "https://arxiv.org/abs/2512.08432",
+      "summary": "arXiv:2512.08432v3 Announce Type: replace Abstract: Grover's algorithm is a fundamental quantum algorithm that offers a quadratic speedup for the unstructured search problem by alternately applying physically implementab…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "In-Situ Engineering of the Anisotropic Rabi Model in Circuit QED",
+      "url": "https://arxiv.org/abs/2512.14276",
+      "summary": "arXiv:2512.14276v2 Announce Type: replace Abstract: The anisotropic Rabi model (ARM), which features tunable Jaynes-Cummings (JC) and anti-Jaynes-Cummings (AJC) interactions, has remained challenging to realize fully. We…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Analogs of absolutely maximally entangled states in nonlocal correlations via the sheaf-theoretic framework and its applications",
+      "url": "https://arxiv.org/abs/2601.02009",
+      "summary": "arXiv:2601.02009v3 Announce Type: replace Abstract: The foundational work by Bell led to an interest in understanding non-local correlations that arise from entangled states shared between distinct, spacelike-separated p…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Encoding complex-balanced thermalization in quantum circuits",
+      "url": "https://arxiv.org/abs/2601.04998",
+      "summary": "arXiv:2601.04998v2 Announce Type: replace Abstract: Non-Markovian dynamics in open quantum systems often invalidates the complex-balanced thermalization framework, hindering predictive control of quantum simulation platf…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Quantum solver for single-impurity Anderson models with particle-hole symmetry",
+      "url": "https://arxiv.org/abs/2601.10594",
+      "summary": "arXiv:2601.10594v2 Announce Type: replace Abstract: Quantum embedding methods, such as dynamical mean-field theory (DMFT), provide a powerful framework for investigating strongly correlated materials. A central computati…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Noisy-QSMOTE: Robustness Analysis of Quantum SMOTE under Quantum-Inspired Noise for Condition Monitoring and Fault Classification in Industrial and Energy Systems",
+      "url": "https://arxiv.org/abs/2601.11423",
+      "summary": "arXiv:2601.11423v2 Announce Type: replace Abstract: Imbalanced datasets remain a major challenge in industrial condition monitoring and fault diagnosis, often causing machine-learning models to favor majority classes whi…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Optimal Construction of Two-Qubit Gates using the Symmetries of B Gate Equivalence Class",
+      "url": "https://arxiv.org/abs/2601.13983",
+      "summary": "arXiv:2601.13983v3 Announce Type: replace Abstract: Two applications of gates from the B gate equivalence class can generate all two-qubit gates. This local equivalence class is invariant under the mirror (multiplication…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Comment on \"Determining angle of arrival of radio-frequency fields using subwavelength, amplitude-only measurements of standing waves in a Rydberg atom sensor\"",
+      "url": "https://arxiv.org/abs/2601.20062",
+      "summary": "arXiv:2601.20062v2 Announce Type: replace Abstract: We discuss the consequence of excluding allowed RF-transition between substates of a field-dressed Rydberg manifold when predicting the spectrum that will be observed i…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Double-Bracket Master Equations: Phase-Space Representation and Classical Limit",
+      "url": "https://arxiv.org/abs/2601.20925",
+      "summary": "arXiv:2601.20925v2 Announce Type: replace Abstract: We systematically investigate master equations involving double-bracket dissipators in the classical limit. Dissipators defined by double commutators arise naturally in…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Hierarchy of saturation conditions for multiparameter quantum metrology bounds",
+      "url": "https://arxiv.org/abs/2602.12097",
+      "summary": "arXiv:2602.12097v2 Announce Type: replace Abstract: The quantum Cram\\'er-Rao (QCR) bound sets the ultimate local precision limit for unbiased multiparameter estimation. Unlike in the single-parameter case, however, its s…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Distilling Unitary Operations: A No-Go Theorem and Minimal Realization",
+      "url": "https://arxiv.org/abs/2604.01048",
+      "summary": "arXiv:2604.01048v2 Announce Type: replace Abstract: Quantum gates executed on physical hardware are inevitably degraded by environmental noise. While state purification effectively distills static quantum resources, the …",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Learning high-dimensional quantum entanglement through physics-guided neural networks",
+      "url": "https://arxiv.org/abs/2604.03482",
+      "summary": "arXiv:2604.03482v2 Announce Type: replace Abstract: High-gain spontaneous parametric down-conversion (SPDC) produces bright squeezed vacuum with rich high-dimensional entanglement, but its output is inherently multimodal…",
+      "ts": 1781064000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Eigenstate thermalization",
+      "url": "https://arxiv.org/abs/2604.11872",
+      "summary": "arXiv:2604.11872v3 Announce Type: replace Abstract: We provide a pedagogical introduction to eigenstate thermalization. This phenomenon, which occurs in generic quantum systems, allows one to understand why thermalizatio…",
+      "ts": 1781064000000,
       "categoryId": "quantum"
     }
   ],
