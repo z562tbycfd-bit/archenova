@@ -10970,3 +10970,24 @@ html, body {
     width: 24px;
   }
 }
+.arche-commentary-list {
+  width: min(92vw, 920px);
+  margin: 18px auto;
+  display: grid;
+  gap: 14px;
+}
+
+.arche-commentary-card {
+  display: block;
+  padding: 18px;
+  border-radius: 22px;
+  text-decoration: none;
+  color: inherit;
+  background: rgba(255,255,255,0.045);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 0 40px rgba(120, 150, 255, 0.08);
+}
+
+.arche-commentary-card p {
+  margin: 10px 0;
+}

@@ -5,6 +5,7 @@ import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import { archeNovaTopSignals } from "../../lib/generatedResearchReports";
 import ArcheNovaDiscoverySlider from "../components/ArcheNovaDiscoverySlider";
+import ArcheNovaCommentary from "../components/ArcheNovaCommentary";
 
 export default function Home() {
 
@@ -340,20 +341,27 @@ export default function Home() {
       {/* =========================
           PAGE 12 : RECENT CROSSINGS
          ========================= */}
-      <section id="home-crossings" data-home-section className="home-page">
-        <Reveal>
-          <div className="home-section">
-            <span className="home-section-label">RECENT CROSSINGS</span>
-            <p className="home-section-purpose">
-              A temporary record of who crossed the boundary in the last 24 hours.
-            </p>
-          </div>
-        </Reveal>
+      <section
+  id="home-crossings"
+  data-home-section
+  className="home-page"
+>
+  <Reveal>
+    <div className="home-section">
+      <span className="home-section-label">
+        RECENT CROSSINGS
+      </span>
+    </div>
+  </Reveal>
 
-        <Reveal delay={120}>
-          <GateFragments />
-        </Reveal>
-      </section>
+ <Reveal delay={120}>
+  <ArcheNovaCommentary limit={1} />
+</Reveal>
+
+<Reveal delay={160}>
+  <GateFragments />
+</Reveal>
+</section>
     </main>
   );
 }
