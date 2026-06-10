@@ -1,7 +1,105 @@
 {
   "ok": true,
-  "updated": "2026-06-10T10:06:46.245Z",
+  "updated": "2026-06-10T14:25:42.898Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Fossil discovery shows the interaction between giant marine reptiles",
+      "url": "https://phys.org/news/2026-06-fossil-discovery-interaction-giant-marine.html",
+      "summary": "Approximately 160 million years ago, during the Age of Dinosaurs, giant marine reptiles ruled the seas. One such creature, an ichthyosaur, swam in a sea near present-day Peterborough, England. This huge animal, shaped li…",
+      "ts": 1781101206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds robotic mowers improve Florida lawn health while reducing maintenance",
+      "url": "https://phys.org/news/2026-06-robotic-mowers-florida-lawn-health.html",
+      "summary": "For many Florida homeowners, lawn mowing can feel like a never-ending chore, especially in the heat of summer. New guidance from experts suggests autonomous or robotic lawn mowers can ease that burden while effectively m…",
+      "ts": 1781101205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fragmented environmental policies risk costly failures, experts warn",
+      "url": "https://phys.org/news/2026-06-fragmented-environmental-policies-failures-experts.html",
+      "summary": "Current climate and nature policies are working at cross-purposes, wasting public funds and causing unintended damage to ecosystems, according to a major new report co-authored by a University of York researcher.",
+      "ts": 1781100004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chimpanzees react negatively to unfairness, especially when close partners are nearby",
+      "url": "https://phys.org/news/2026-06-chimpanzees-react-negatively-unfairness-partners.html",
+      "summary": "Primates, including humans, are among the social animals living on Earth. Their survival relies heavily on cooperation with others, alliances, the sharing of resources and other social interactions.",
+      "ts": 1781099428000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Economist finds financial inequity distorted centuries-old Spanish water inequality",
+      "url": "https://phys.org/news/2026-06-economist-financial-inequity-distorted-centuries.html",
+      "summary": "For generations, economists have viewed markets as the gold standard of efficiency, assuming resources naturally flow to the people who value them most. But new research from the University of Miami Patti and Allan Herbe…",
+      "ts": 1781098803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers find a four-carbon sugar in deep space",
+      "url": "https://phys.org/news/2026-06-astronomers-carbon-sugar-deep-space.html",
+      "summary": "The space between stars may seem like a barren desert, but over the past few decades scientists have been finding all sorts of interesting chemicals in it. From the precursors to proteins to the building blocks of cell m…",
+      "ts": 1781097601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Radar data can help protect birds from wind turbines",
+      "url": "https://phys.org/news/2026-06-radar-birds-turbines.html",
+      "summary": "Wind turbines generate climate-friendly electricity, but they can pose a danger to migratory birds. A study led by the Swiss Federal Institute for Forest, Snow and Landscape Research (WSL) published in Nature Sustainabil…",
+      "ts": 1781096668000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Galaxy-killing wind discovered in the early universe",
+      "url": "https://phys.org/news/2026-06-galaxy-early-universe.html",
+      "summary": "Astronomers have discovered a \"galaxy-killing wind\" that may explain why there are far more massive \"dead\" galaxies than expected in the early universe. This wind, powered by cosmic collisions between galaxies, could qui…",
+      "ts": 1781096403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Parents helping kids enjoy math may boost achievement as much as content support",
+      "url": "https://phys.org/news/2026-06-parents-kids-enjoy-math-boost.html",
+      "summary": "How do children learn math? It's shaped by what they know as well as their motivation and engagement. Historically, research on children's math learning has been focused on parents' cognitive practices (such as math talk…",
+      "ts": 1781096401000
+    },
+    {
+      "source": "Science News",
+      "title": "Engineered hookworms could one day dispense drugs from inside your gut",
+      "url": "https://www.sciencenews.org/article/engineered-hookworms-drugs-gut-genetics",
+      "summary": "In a first, researchers genetically modified hookworms. It’s a step toward turning the parasites into living pharmacies.",
+      "ts": 1781096400000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hope for Maugean skate as juveniles reach adulthood in Macquarie Harbor",
+      "url": "https://phys.org/news/2026-06-maugean-skate-juveniles-adulthood-macquarie.html",
+      "summary": "There are encouraging signs for the endangered Maugean skate, with a new monitoring report finding that a new cohort of skates born in Macquarie Harbor has reached adulthood.",
+      "ts": 1781091602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "War on drugs or war on the poor? How bandit hunting formed a cover for Mexico's counterinsurgency campaign",
+      "url": "https://phys.org/news/2026-06-war-drugs-poor-bandit-mexico.html",
+      "summary": "If the drug trade has helped define the modern Mexican state, writes the author of a new article in The Social History of Alcohol and Drugs, so too have wars on drugs. In \"From Bandit Hunting to a War Against 'Social Poi…",
+      "ts": 1781090402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Majorana modes withstand disorder in atomic chains, boosting fault-tolerant quantum computing",
+      "url": "https://phys.org/news/2026-06-majorana-modes-disorder-atomic-chains.html",
+      "summary": "Quantum computers—systems that process information and perform computations by leveraging the principles of quantum mechanics—could solve some tasks faster and more effectively than classical computers. While some studie…",
+      "ts": 1781089203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How cultural backgrounds shape financial forecasts",
+      "url": "https://phys.org/news/2026-06-cultural-backgrounds-financial.html",
+      "summary": "There's a funny thing about facts. Two people can look at the same ones but interpret them very differently, depending on their styles of thinking. On Wall Street, analysts with short-term or long-term orientations may i…",
+      "ts": 1781089202000
+    },
     {
       "source": "Phys.org",
       "title": "Quantum witness technique reveals spinons in quantum spin liquid candidate",
@@ -39,9 +137,9 @@
     },
     {
       "source": "Phys.org",
-      "title": "Italian astronaut to pilot Artemis III mission",
+      "title": "Italian astronaut expects home flavors on Artemis III menu",
       "url": "https://phys.org/news/2026-06-italian-astronaut-artemis-iii-mission.html",
-      "summary": "Italian astronaut Luca Parmitano is hoping to bring a taste of his homeland to the Artemis III mission, which he will pilot near Earth in 2027 to test two lunar modules.",
+      "summary": "Italian astronaut Luca Parmitano is hoping to bring a taste of his homeland to the Artemis III mission he will pilot near Earth in 2027 to test two lunar modules.",
       "ts": 1781079002000
     },
     {
@@ -602,104 +700,6 @@
       "title": "Agentic Hybrid RAG for Evidence-Grounded Muon Collider Analysis",
       "url": "https://arxiv.org/abs/2606.10381",
       "summary": "arXiv:2606.10381v1 Announce Type: cross Abstract: Muon collider research spans accelerator physics, detector instrumentation, and high-energy phenomenology, with relevant evidence scattered across a rapidly expanding and…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards Critical Branching Mechanism in Recurrent Neural Networks",
-      "url": "https://arxiv.org/abs/2606.10384",
-      "summary": "arXiv:2606.10384v1 Announce Type: cross Abstract: Criticality has been proposed as a key organizing principle in biological neural systems, yet its origin and relevance in artificial neural networks remain unclear. We an…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Superheating field of clean superconductors near the type-I--type-II boundary: the low-temperature Meissner stability limit of niobium",
-      "url": "https://arxiv.org/abs/2606.10420",
-      "summary": "arXiv:2606.10420v1 Announce Type: cross Abstract: We calculate the low-temperature superheating field $B_{\\rm sh}$ of clean superconductors near the boundary between type-I and type-II superconductivity, with particular …",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite-Time Orientational Relaxation Restructures Collective Motion in Polar Active Matter",
-      "url": "https://arxiv.org/abs/2606.10474",
-      "summary": "arXiv:2606.10474v1 Announce Type: cross Abstract: We introduce a Langevin formulation of Vicsek-like active particles in which orientations evolve through finite-rate relaxation toward the local mean direction, with alig…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Virial stress in systems of active Brownian particles in the presence of translational and rotational inertia",
-      "url": "https://arxiv.org/abs/2606.10486",
-      "summary": "arXiv:2606.10486v1 Announce Type: cross Abstract: We elucidate the stress in a system of active Brownian particles augmented with translational and rotational inertia (ABP+TRI). Stress tensors are derived for periodic sy…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solar flare ribbons structured by uncombed chromospheric loops",
-      "url": "https://arxiv.org/abs/2606.10505",
-      "summary": "arXiv:2606.10505v1 Announce Type: cross Abstract: A part of the magnetic energy released during a flare is transported to the lower atmosphere. High-resolution observations show that flare ribbons, sites of energy deposi…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Moving backward to go faster: Diatom-inspired sliding reveals efficient modes of locomotion",
-      "url": "https://arxiv.org/abs/2606.10513",
-      "summary": "arXiv:2606.10513v1 Announce Type: cross Abstract: Across biological scales, from sperm cells to whales, locomotion commonly relies on undulatory gaits, in which traveling deformation waves interact with the surrounding f…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unsupervised Deep Learning for Limited-Angle STEM-EDX Tomography -- Application to 3D Chemical Analysis of Phase-Change Memory Devices",
-      "url": "https://arxiv.org/abs/2606.10547",
-      "summary": "arXiv:2606.10547v1 Announce Type: cross Abstract: Energy Dispersive X-ray (EDX) tomography in Scanning Transmission Electron Microscopy (STEM) enables 3D compositional and elemental mapping at the nanoscale, but its use …",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interaction-driven dynamics in graphene flakes as a benchmark for quantum simulation",
-      "url": "https://arxiv.org/abs/2606.10548",
-      "summary": "arXiv:2606.10548v1 Announce Type: cross Abstract: We study interaction-driven ultrafast dynamics in finite graphene flakes following an optical pump quench in an interacting tight-binding model. By comparing exact real-t…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Platform Sorting Drives Ideological Fragmentation in the Social Media Ecosystem",
-      "url": "https://arxiv.org/abs/2606.10575",
-      "summary": "arXiv:2606.10575v1 Announce Type: cross Abstract: Ideological asymmetries in online political communication are often studied as localized phenomena emerging within communities. Here, we show that fragmentation instead o…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PhysMetrics.Weather: An Evaluation Framework for Physical Consistency in ML Weather Models",
-      "url": "https://arxiv.org/abs/2606.10642",
-      "summary": "arXiv:2606.10642v1 Announce Type: cross Abstract: Machine learning weather prediction (MLWP) models have achieved impressive forecasting performance at a small fraction of the computational costs required for traditional…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Equilibrating continuous-variable open quantum systems using stochastic classical trajectories in path-integral space",
-      "url": "https://arxiv.org/abs/2606.10665",
-      "summary": "arXiv:2606.10665v1 Announce Type: cross Abstract: Beyond the weak-coupling limit, open quantum systems equilibrate to a highly entangled thermal state. For continuous-variable systems, this state can be written explicitl…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Patient-Level Diagnosis of Acute Myeloid Leukemia via Deep Learning Analysis of Bone Marrow Smear",
-      "url": "https://arxiv.org/abs/2606.10735",
-      "summary": "arXiv:2606.10735v1 Announce Type: cross Abstract: Bone marrow smear review remains important for acute myeloid leukemia (AML) assessment, but manual single-cell interpretation is labor-intensive and patient-level diagnos…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spontaneous translation of charged droplets during evaporation on dry surfaces",
-      "url": "https://arxiv.org/abs/2606.10755",
-      "summary": "arXiv:2606.10755v1 Announce Type: cross Abstract: Evaporating sessile droplets are usually treated as capillary objects, but droplets generated by routine handling can carry tens to hundreds of picocoulombs of electric c…",
-      "ts": 1781064000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DD-INR: Dynamics-Driven Implicit Neural Representation for Accelerated Whole-Brain Functional MRI Reconstruction",
-      "url": "https://arxiv.org/abs/2606.10756",
-      "summary": "arXiv:2606.10756v1 Announce Type: cross Abstract: Accelerated acquisition of fMRI enables enhanced detection of neurovascular (BOLD) activity in the brain, but image reconstruction becomes challenging with high k-space u…",
       "ts": 1781064000000
     }
   ],

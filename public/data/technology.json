@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-06-10T10:06:51.532Z",
+  "updated": "2026-06-10T14:25:50.619Z",
   "items": [
+    {
+      "source": "IEEE Spectrum",
+      "title": "We Are Crowd-Sourcing the Panopticon",
+      "url": "https://spectrum.ieee.org/unintended-consequences-video-surveillance",
+      "summary": "A man raises his phone as police move into a crowd. The video is shaky, loud, immediate. Within minutes, it is online. Within hours, it is everywhere. This is how accountability works now. Something happens, someone reco…",
+      "ts": 1781100653000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Webb Finds Strongest Evidence Yet for ‘Black Hole Stars’",
+      "url": "https://science.nasa.gov/missions/webb/nasa-webb-finds-strongest-evidence-yet-for-black-hole-stars/",
+      "summary": "The complex puzzle known as little red dots has become more complete since their initial discovery by NASA’s James Webb Space Telescope in 2022. Now a particular little red dot’s spectrum is helping connect many of the p…",
+      "ts": 1781100000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Jim Irons, Former Landsat Project Scientist, Wins Pecora Award",
+      "url": "https://science.nasa.gov/missions/landsat/jim-irons-former-landsat-project-scientist-wins-pecora-award/",
+      "summary": "Landsat’s Jim Irons won the prestigious William T. Pecora Award. Irons, now an emeritus scientist at NASA Goddard Space Flight Center, played an integral role in shaping the Landsat program into what it is today.",
+      "ts": 1781100000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "UK startup Applied Atomics to enter US market with focus on military space mobility",
+      "url": "https://spacenews.com/uk-startup-applied-atomics-to-enter-us-market-with-focus-on-military-space-mobility/",
+      "summary": "Company opens Virginia office, announces $4 million pre-seed funding The post UK startup Applied Atomics to enter US market with focus on military space mobility appeared first on SpaceNews.",
+      "ts": 1781100000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Orbital raises $5 million to join orbital data center race",
+      "url": "https://spacenews.com/orbital-raises-5-million-to-join-orbital-data-center-race/",
+      "summary": "A Los Angeles-based startup has raised $5 million to fund an in-orbit computing demonstration next year, ahead of plans to deploy more than 100,000 orbital data centers to meet surging demand for AI infrastructure. The p…",
+      "ts": 1781095489000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "GLOBE Mission Earth Educators Participate in Land Cover Community of Practice",
+      "url": "https://science.nasa.gov/learning-resources/science-activation/globe-mission-earth-educators-participate-in-land-cover-community-of-practice/",
+      "summary": "During the 2025-2026 school year, educators from the NASA Science Activation Program’s GLOBE (Global Learning and Observation to Benefit the Environment) Mission Earth project participated in a specialized Community of P…",
+      "ts": 1781095381000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "LeoLabs deploys mobile space-tracking radar in Indo-Pacific ",
+      "url": "https://spacenews.com/leolabs-deploys-mobile-space-tracking-radar-in-indo-pacific/",
+      "summary": "The transportable sensor is designed to maintain continuous tracking of maneuvering spacecraft in orbit The post LeoLabs deploys mobile space-tracking radar in Indo-Pacific appeared first on SpaceNews.",
+      "ts": 1781094600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Arkadia Space to supply thrusters for Reflex Aerospace satellite",
+      "url": "https://spacenews.com/arkadia-space-to-supply-thrusters-for-reflex-aerospace-satellite/",
+      "summary": "Spacecraft propulsion startup Arkadia Space has signed a deal to provide thrusters for a satellite being built by Reflex Aerospace. The post Arkadia Space to supply thrusters for Reflex Aerospace satellite appeared first…",
+      "ts": 1781094364000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: the “steroid olympics” and a safer Mythos",
+      "url": "https://www.technologyreview.com/2026/06/10/1138739/the-download-steroid-olympics-enhanced-games-anthropic-mythos/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The “steroid olympics” were a circus—and a window into our culture —Amit Katwala A…",
+      "ts": 1781093400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s CloudCube Pioneers Miniaturized Radar to Study Clouds, Precipitation",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/nasas-cloudcube-pioneers-miniaturizedradar-to-study-clouds-precipitation/",
+      "summary": "A compact, multifrequency radar built by a team at NASA’s Jet Propulsion Laboratory will make it easier to collect information about dynamic cloud systems. Called CloudCube, this new instrument simultaneously probes the …",
+      "ts": 1781092800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Spaceport crunch reviving interest in sea-based launch",
+      "url": "https://spacenews.com/spaceport-crunch-reviving-interest-in-sea-based-launch/",
+      "summary": "Proponents see offshore launch as an answer to crowded ranges, military resilience concerns. The post Spaceport crunch reviving interest in sea-based launch appeared first on SpaceNews.",
+      "ts": 1781092800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "After the launch: Why Europe’s space ambitions depend on what comes next",
+      "url": "https://spacenews.com/after-the-launch-why-europes-space-ambitions-depend-on-what-comes-next/",
+      "summary": "Satellites have become essential infrastructure. Financial markets rely on their timing signals. Military operations depend on their communications and surveillance. Navigation, disaster response, logistics, climate moni…",
+      "ts": 1781089200000,
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The “steroid olympics” were a circus—and a window into our culture",
@@ -623,102 +719,6 @@
       "title": "A Grover-compatible manifold optimization algorithm for quantum search",
       "url": "https://arxiv.org/abs/2512.08432",
       "summary": "arXiv:2512.08432v3 Announce Type: replace Abstract: Grover's algorithm is a fundamental quantum algorithm that offers a quadratic speedup for the unstructured search problem by alternately applying physically implementab…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "In-Situ Engineering of the Anisotropic Rabi Model in Circuit QED",
-      "url": "https://arxiv.org/abs/2512.14276",
-      "summary": "arXiv:2512.14276v2 Announce Type: replace Abstract: The anisotropic Rabi model (ARM), which features tunable Jaynes-Cummings (JC) and anti-Jaynes-Cummings (AJC) interactions, has remained challenging to realize fully. We…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Analogs of absolutely maximally entangled states in nonlocal correlations via the sheaf-theoretic framework and its applications",
-      "url": "https://arxiv.org/abs/2601.02009",
-      "summary": "arXiv:2601.02009v3 Announce Type: replace Abstract: The foundational work by Bell led to an interest in understanding non-local correlations that arise from entangled states shared between distinct, spacelike-separated p…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Encoding complex-balanced thermalization in quantum circuits",
-      "url": "https://arxiv.org/abs/2601.04998",
-      "summary": "arXiv:2601.04998v2 Announce Type: replace Abstract: Non-Markovian dynamics in open quantum systems often invalidates the complex-balanced thermalization framework, hindering predictive control of quantum simulation platf…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Quantum solver for single-impurity Anderson models with particle-hole symmetry",
-      "url": "https://arxiv.org/abs/2601.10594",
-      "summary": "arXiv:2601.10594v2 Announce Type: replace Abstract: Quantum embedding methods, such as dynamical mean-field theory (DMFT), provide a powerful framework for investigating strongly correlated materials. A central computati…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Noisy-QSMOTE: Robustness Analysis of Quantum SMOTE under Quantum-Inspired Noise for Condition Monitoring and Fault Classification in Industrial and Energy Systems",
-      "url": "https://arxiv.org/abs/2601.11423",
-      "summary": "arXiv:2601.11423v2 Announce Type: replace Abstract: Imbalanced datasets remain a major challenge in industrial condition monitoring and fault diagnosis, often causing machine-learning models to favor majority classes whi…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Optimal Construction of Two-Qubit Gates using the Symmetries of B Gate Equivalence Class",
-      "url": "https://arxiv.org/abs/2601.13983",
-      "summary": "arXiv:2601.13983v3 Announce Type: replace Abstract: Two applications of gates from the B gate equivalence class can generate all two-qubit gates. This local equivalence class is invariant under the mirror (multiplication…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Comment on \"Determining angle of arrival of radio-frequency fields using subwavelength, amplitude-only measurements of standing waves in a Rydberg atom sensor\"",
-      "url": "https://arxiv.org/abs/2601.20062",
-      "summary": "arXiv:2601.20062v2 Announce Type: replace Abstract: We discuss the consequence of excluding allowed RF-transition between substates of a field-dressed Rydberg manifold when predicting the spectrum that will be observed i…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Double-Bracket Master Equations: Phase-Space Representation and Classical Limit",
-      "url": "https://arxiv.org/abs/2601.20925",
-      "summary": "arXiv:2601.20925v2 Announce Type: replace Abstract: We systematically investigate master equations involving double-bracket dissipators in the classical limit. Dissipators defined by double commutators arise naturally in…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Hierarchy of saturation conditions for multiparameter quantum metrology bounds",
-      "url": "https://arxiv.org/abs/2602.12097",
-      "summary": "arXiv:2602.12097v2 Announce Type: replace Abstract: The quantum Cram\\'er-Rao (QCR) bound sets the ultimate local precision limit for unbiased multiparameter estimation. Unlike in the single-parameter case, however, its s…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Distilling Unitary Operations: A No-Go Theorem and Minimal Realization",
-      "url": "https://arxiv.org/abs/2604.01048",
-      "summary": "arXiv:2604.01048v2 Announce Type: replace Abstract: Quantum gates executed on physical hardware are inevitably degraded by environmental noise. While state purification effectively distills static quantum resources, the …",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Learning high-dimensional quantum entanglement through physics-guided neural networks",
-      "url": "https://arxiv.org/abs/2604.03482",
-      "summary": "arXiv:2604.03482v2 Announce Type: replace Abstract: High-gain spontaneous parametric down-conversion (SPDC) produces bright squeezed vacuum with rich high-dimensional entanglement, but its output is inherently multimodal…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Eigenstate thermalization",
-      "url": "https://arxiv.org/abs/2604.11872",
-      "summary": "arXiv:2604.11872v3 Announce Type: replace Abstract: We provide a pedagogical introduction to eigenstate thermalization. This phenomenon, which occurs in generic quantum systems, allows one to understand why thermalizatio…",
       "ts": 1781064000000,
       "categoryId": "quantum"
     }
