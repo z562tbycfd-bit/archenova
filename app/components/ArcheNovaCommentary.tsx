@@ -4,74 +4,70 @@ import {
   generatedResearchReports,
 } from "@/lib/generatedResearchReports";
 
-type ArcheNovaCommentaryProps = {
+type Props = {
   limit?: number;
 };
 
+function shortText(text = "", max = 150) {
+  const clean = String(text).replace(/\s+/g, " ").trim();
+  return clean.length > max ? clean.slice(0, max) + "…" : clean;
+}
+
 function makeCommentary(item: any, index: number) {
   const title = item.title || "Untitled Signal";
-  const category = item.category || "Emerging Signal";
-  const source = item.source || "ArcheNova Intelligence";
-  const score = item.archeNovaAssessment?.overall;
+  const category = item.category || "Signal";
+  const source = item.source || "ArcheNova";
 
-  const impact =
+  const base =
+    item.summary ||
     item.civilizationImpact ||
     item.infrastructureImpact ||
     item.implementationPotential ||
-    item.summary ||
     "";
 
   return {
-    id: item.slug || `auto-commentary-${index}`,
+    id: item.slug || `commentary-${index}`,
     title,
     category,
     source,
-    score,
-    text:
-      `${title} appears as a ${category} signal within ArcheNova's knowledge layer. ` +
-      `${impact}`,
+    text: shortText(
+      `${title} is emerging as a ${category} signal. ${base}`,
+      160
+    ),
     url: item.slug
       ? `/intelligence-platform/reports/${item.slug}`
       : "/intelligence-platform/reports",
   };
 }
 
-export default function ArcheNovaCommentary({
-  limit = 1,
-}: ArcheNovaCommentaryProps) {
-  const pool = [...archeNovaTopSignals, ...generatedResearchReports];
-
-  const comments = pool
+export default function ArcheNovaCommentary({ limit = 3 }: Props) {
+  const items = [...archeNovaTopSignals, ...generatedResearchReports]
     .filter((item) => item?.title)
     .map(makeCommentary)
     .slice(0, limit);
 
-  if (comments.length === 0) {
-    return null;
-  }
+  if (!items.length) return null;
 
   return (
-    <div className="arche-commentary-list">
-      {comments.map((comment) => (
+    <div className="arche-commentary-timeline">
+      <div className="arche-commentary-head">
+        ARCHENOVA COMMENTARY
+      </div>
+
+      {items.map((item) => (
         <Link
-          key={comment.id}
-          href={comment.url}
-          className="arche-commentary-card"
+          key={item.id}
+          href={item.url}
+          className="arche-commentary-post"
         >
-          <div className="feed-source">
-            ArcheNova Commentary / {comment.source} / {comment.category}
+          <div className="arche-commentary-meta">
+            {item.source} / {item.category}
           </div>
 
-          <p>{comment.text}</p>
+          <p>{item.text}</p>
 
-          {comment.score && (
-            <p className="text dim">
-              ArcheNova Score: {comment.score} / 10
-            </p>
-          )}
-
-          <div className="plaza-hint">
-            Open Source →
+          <div className="arche-commentary-action">
+            Open →
           </div>
         </Link>
       ))}

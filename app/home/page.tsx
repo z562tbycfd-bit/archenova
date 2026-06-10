@@ -354,9 +354,14 @@ export default function Home() {
     </div>
   </Reveal>
 
+<Reveal delay={120}>
+  <ArcheNovaCommentary limit={1} />
+</Reveal>
+
 <Reveal delay={160}>
   <GateFragments />
 </Reveal>
+
 </section>
     </main>
   );
