@@ -5,7 +5,7 @@ import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import { archeNovaTopSignals } from "../../lib/generatedResearchReports";
 import ArcheNovaDiscoverySlider from "../components/ArcheNovaDiscoverySlider";
-import ArcheNovaCommentary from "../components/ArcheNovaCommentary";
+import CrossingFeed from "../components/CrossingFeed";
 
 export default function Home() {
 
@@ -354,7 +354,7 @@ export default function Home() {
     </div>
   </Reveal>
 <Reveal delay={160}>
-  <GateFragments />
+  <CrossingFeed limit={1} />
 </Reveal>
 </section>
     </main>
