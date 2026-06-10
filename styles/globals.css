@@ -10908,91 +10908,65 @@ html, body {
     gap: 20px;
   }
 }
-.archenova-galaxy {
+.an-image-slider {
   position: relative;
-  width: min(96vw, 1280px);
-  height: min(78vw, 780px);
-  max-height: 88svh;
+  display: block;
+  width: min(92vw, 1100px);
+  height: min(78svh, 760px);
   margin: 0 auto;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 36px;
   overflow: hidden;
-  border-radius: 42px;
   background: #000;
-  filter: drop-shadow(0 0 64px rgba(170, 190, 255, 0.16));
+  cursor: pointer;
+  box-shadow: 0 0 80px rgba(150, 175, 255, 0.16);
 }
 
-.archenova-galaxy canvas {
+.an-image-slider-img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: center;
   display: block;
 }
 
+.an-image-slider-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 22px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.42);
+  backdrop-filter: blur(10px);
+}
+
+.an-image-slider-dots span {
+  width: 28px;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.28);
+}
+
+.an-image-slider-dots span.active {
+  background: rgba(255,255,255,0.9);
+}
+
 @media (max-width: 768px) {
-  .archenova-galaxy {
-    width: 94vw;
-    height: 72svh;
+  .an-image-slider {
+    width: 92vw;
+    height: 74svh;
     border-radius: 28px;
   }
-}
-.archenova-cosmos-page {
-  position: relative;
-  min-height: 100svh;
-  overflow: hidden;
-  background: #000;
-}
 
-.archenova-cosmos {
-  position: absolute;
-  inset: 0;
-  background: #000;
-}
-
-.archenova-cosmos canvas {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.archenova-cosmos-overlay {
-  position: relative;
-  z-index: 2;
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 8vw;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.72),
-    rgba(0, 0, 0, 0.08)
-  );
-}
-
-.archenova-cosmos-overlay h1 {
-  font-size: clamp(3rem, 9vw, 8rem);
-  margin: 0;
-  letter-spacing: 0.08em;
-}
-
-.archenova-cosmos-overlay p {
-  max-width: 760px;
-  font-size: clamp(1rem, 2vw, 1.4rem);
-  opacity: 0.78;
-}
-
-@media (max-width: 768px) {
-  .archenova-cosmos-overlay {
-    padding: 28px;
+  .an-image-slider-dots {
+    bottom: 18px;
   }
 
-  .archenova-cosmos-overlay h1 {
-    font-size: 3rem;
+  .an-image-slider-dots span {
+    width: 24px;
   }
-}
-.archenova-galaxy-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 100%;
-  text-decoration: none;
 }
