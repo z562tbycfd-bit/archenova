@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-06-10T14:25:50.619Z",
+  "updated": "2026-06-10T18:02:08.199Z",
   "items": [
+    {
+      "source": "IEEE Spectrum",
+      "title": "EPICS in IEEE’s Awards Honor Outstanding Students and Faculty",
+      "url": "https://spectrum.ieee.org/epics-in-ieee",
+      "summary": "The EPICS (Engineering Projects in Community Service) in IEEE program, administered by IEEE Educational Activities, has launched the Excellent EPICS in IEEE Contributor Awards. The recognitions honor the program’s outsta…",
+      "ts": 1781114401000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA at ILA 2026 – Day 1 highlights",
+      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_ILA_2026_Day_1_highlights",
+      "summary": "The European Space Agency (ESA) inaugurated its participation at ILA Berlin International Airshow 2026 with a day rich in high-level meetings, public events and strategic milestones, highlighting Europe's determination t…",
+      "ts": 1781112720000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Equips Astronauts, Industry with Robotic Intelligence ",
+      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-equips-astronauts-industry-with-robotic-intelligence/",
+      "summary": "As NASA plans long-term missions on the Moon, the agency could use robots to perform routine tasks, allowing crew members to dedicate more time to science and exploration. However, robotic motion control requires complex…",
+      "ts": 1781110802000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA adopts galactic archaeology mission Arrakihs",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/ESA_adopts_galactic_archaeology_mission_Arrakihs",
+      "summary": "The European Space Agency’s (ESA) Science Programme Committee has adopted the Arrakihs mission. Planned for launch by the end of 2030, Arrakihs will capture the faint light from nearby galaxy haloes. By seeing the unseen…",
+      "ts": 1781108700000,
+      "categoryId": "space"
+    },
+    {
+      "source": "DeepMind",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "summary": "",
+      "ts": 1781108651000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+      "summary": "Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation. NVIDIA has optimized DiffusionGemma to run even faster across NVIDIA GeForce RTX GPUs, the NVIDIA …",
+      "ts": 1781108120000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "NASA Image of the Day",
+      "title": "Train Ride to NASA Kennedy for Artemis III Booster Segments",
+      "url": "https://www.nasa.gov/image-detail/ng-06022026-artemis-iii-booster-segment-shipment-to-ksc-1-31large/",
+      "summary": "A train transports eight booster motor segments for the SLS (Space Launch System rocket) that will power NASA’s Artemis III mission from Northrop Grumman’s Railyard Shipping Facility in Corinne, Utah, June 2, to NASA’s K…",
+      "ts": 1781107560000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Train Ride to NASA Kennedy for Artemis III Booster Segments",
+      "url": "https://www.nasa.gov/image-article/train-ride-to-nasa-kennedy-for-artemis-iii-booster-segments/",
+      "summary": "The final booster motor segments for NASA’s SLS (Space Launch System) rocket that will help propel Artemis III astronauts on their journey to space shipped from Northrop Grumman’s Railyard Shipping Facility in Corinne, U…",
+      "ts": 1781107529000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Commercial Space Federation (CSF) Welcomes Two New Space Supply Chain Members",
+      "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-space-supply-chain-members/",
+      "summary": "June 8, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Besxar and Charter Space as new space supply chain members, adding expertise in space-based semiconductor manufacturing […] The …",
+      "ts": 1781103600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Spire to pursue space-based missile warning in partnership with German defense firm",
+      "url": "https://spacenews.com/spire-to-pursue-space-based-missile-warning-in-partnership-with-german-defense-firm/",
+      "summary": "Diehl Defence will explore using Spire’s constellation for detection of ballistic and hypersonic missile threats The post Spire to pursue space-based missile warning in partnership with German defense firm appeared first…",
+      "ts": 1781103600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Quanta",
+      "title": "An Early Step on the Long, Strange Road to Photosynthesis",
+      "url": "https://www.quantamagazine.org/an-early-step-on-the-long-strange-road-to-photosynthesis-20260610/",
+      "summary": "An ancient lineage of cyanobacteria is helping biologists uncover an early evolutionary stage of the mind-boggling process that turns light into life. The post An Early Step on the Long, Strange Road to Photosynthesis fi…",
+      "ts": 1781103439000,
+      "categoryId": "quantum"
+    },
     {
       "source": "IEEE Spectrum",
       "title": "We Are Crowd-Sourcing the Panopticon",
@@ -631,94 +719,6 @@
       "title": "Bell nonlocality from compatibility of entanglement-breaking channels",
       "url": "https://arxiv.org/abs/2410.13499",
       "summary": "arXiv:2410.13499v2 Announce Type: replace Abstract: Locally classical behavior is often interpreted as evidence that a global classical description should exist. In particular, when individual processes admit classical (…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Benchmarking weak randomness in Quantum and Natural Sources",
-      "url": "https://arxiv.org/abs/2504.06899",
-      "summary": "arXiv:2504.06899v3 Announce Type: replace Abstract: Private randomness is a fundamental resource for cryptography, security proofs, and information processing. Quantum devices offer a unique advantage by amplifying weak …",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Quantum Simulation of the Unruh Temperature via the Thermal Properties of Virtually Evolving Bose-Einstein Condensates",
-      "url": "https://arxiv.org/abs/2504.14685",
-      "summary": "arXiv:2504.14685v5 Announce Type: replace Abstract: This paper presents a novel theoretical model motivate a new experimental scheme to simulate the Unruh temperature by relating it to the critical temperature of multipl…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Exploring Variational Entanglement Hamiltonians",
-      "url": "https://arxiv.org/abs/2505.10530",
-      "summary": "arXiv:2505.10530v2 Announce Type: replace Abstract: Recent advances in analog and digital quantum-simulation platforms have enabled exploration of the spectrum of entanglement Hamiltonians via variational algorithms. In …",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Measurement incompatibility and quantum steering via linear programming",
-      "url": "https://arxiv.org/abs/2506.03045",
-      "summary": "arXiv:2506.03045v2 Announce Type: replace Abstract: The problem of deciding whether a set of quantum measurements is jointly measurable is known to be equivalent to determining whether a quantum assemblage is unsteerable…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Floquet-engineering unveiled by high-harmonic generation",
-      "url": "https://arxiv.org/abs/2507.03791",
-      "summary": "arXiv:2507.03791v2 Announce Type: replace Abstract: Ultrafast optical control of solids has uncovered new phenomena and advanced non-equilibrium condensed matter physics, where photon dressed electronic states - Floquet …",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Additivity of quantum relative entropies as a single-copy criterion",
-      "url": "https://arxiv.org/abs/2507.05696",
-      "summary": "arXiv:2507.05696v3 Announce Type: replace Abstract: The fundamental goal of information theory is to characterize complex operational tasks using efficiently computable information quantities, Shannon's capacity formula …",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Parity Cross-Resonance: A Multiqubit Gate",
-      "url": "https://arxiv.org/abs/2508.10807",
-      "summary": "arXiv:2508.10807v2 Announce Type: replace Abstract: We present a native three-qubit entangling gate that exploits engineered interactions to realize control-control-target and control-target-target operations in a single…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Fast entangling gates on fluxoniums via parametric modulation of plasmon interaction",
-      "url": "https://arxiv.org/abs/2509.04762",
-      "summary": "arXiv:2509.04762v3 Announce Type: replace Abstract: In superconducting quantum processors, exploring diverse control methods could offer essential versatility and redundancy to mitigate challenges such as frequency crowd…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Most incompatible measurements and sum-of-squares optimisation",
-      "url": "https://arxiv.org/abs/2509.10381",
-      "summary": "arXiv:2509.10381v3 Announce Type: replace Abstract: Measurement incompatibility, or joint measurability, is a cornerstone of quantum theory and a useful resource. For finite-dimensional systems, quantifying this resource…",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Sequential quantum processes with group symmetries",
-      "url": "https://arxiv.org/abs/2510.07100",
-      "summary": "arXiv:2510.07100v2 Announce Type: replace Abstract: Symmetry plays a crucial role in the design and analysis of quantum protocols. This result shows a canonical circuit decomposition of a $(G\\times H)$-invariant quantum …",
-      "ts": 1781064000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "A Grover-compatible manifold optimization algorithm for quantum search",
-      "url": "https://arxiv.org/abs/2512.08432",
-      "summary": "arXiv:2512.08432v3 Announce Type: replace Abstract: Grover's algorithm is a fundamental quantum algorithm that offers a quadratic speedup for the unstructured search problem by alternately applying physically implementab…",
       "ts": 1781064000000,
       "categoryId": "quantum"
     }
