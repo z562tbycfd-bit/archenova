@@ -1,13 +1,29 @@
 {
   "ok": true,
-  "updated": "2026-06-11T17:48:59.487Z",
+  "updated": "2026-06-11T18:41:38.383Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Senate NDAA backs plan to fold SDA, Space RCO into Space Force",
+      "url": "https://spacenews.com/senate-ndaa-backs-plan-to-fold-sda-space-rco-into-space-force/",
+      "summary": "The committee's 2027 defense bill would eliminate separate statutory requirements for the two acquisition organizations while advancing broader Pentagon procurement reforms The post Senate NDAA backs plan to fold SDA, Sp…",
+      "ts": 1781203255000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "ESA astronaut assignment on Artemis 3 part of negotiations on revised Artemis roles",
       "url": "https://spacenews.com/esa-astronaut-assignment-on-artemis-3-part-of-negotiations-on-revised-artemis-roles/",
       "summary": "The assignment of an ESA astronaut to Artemis 3 is part of negotiations for revised roles in the overall effort, with a goal of getting its astronauts on the moon. The post ESA astronaut assignment on Artemis 3 part of n…",
       "ts": 1781199230000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA Image of the Day",
+      "title": "Soccer Meets Space Science",
+      "url": "https://www.nasa.gov/image-detail/iss074e0349331/",
+      "summary": "Researchers tested soccer balls aboard the International Space Station to study how internal mass affects motion and stability in microgravity.",
+      "ts": 1781197020000,
       "categoryId": "space"
     },
     {
@@ -703,22 +719,6 @@
       "title": "Quantum repeater segment with free-space coupled co-trapped ions using telecom photon interference",
       "url": "https://arxiv.org/abs/2606.12313",
       "summary": "arXiv:2606.12313v1 Announce Type: new Abstract: A quantum repeater segment is a basic building block of a quantum repeater, generating buffered entanglement of quantum memories to connect quantum repeater cells. It also …",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Fermions are fundamentally more nonlocal than Bosons",
-      "url": "https://arxiv.org/abs/2606.12363",
-      "summary": "arXiv:2606.12363v1 Announce Type: new Abstract: Bell's theorem shows that entangled quantum particles can exhibit correlations that classical particles cannot reproduce without an additional nonlocal resource, such as co…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "The Simplified Stabilizer ZX-Calculus is Minimal",
-      "url": "https://arxiv.org/abs/2606.12383",
-      "summary": "arXiv:2606.12383v1 Announce Type: new Abstract: The stabilizer fragment of the ZX calculus is amongst the most important fragments of the theory. The closely related Clifford+T fragment is approximately universal (arXiv:…",
       "ts": 1781150400000,
       "categoryId": "quantum"
     }

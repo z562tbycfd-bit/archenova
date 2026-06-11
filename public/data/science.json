@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-06-11T17:48:37.391Z",
+  "updated": "2026-06-11T18:41:14.252Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Behind every overconfident leader might be a 'rational sycophant,' veteran game theorists find",
+      "url": "https://phys.org/news/2026-06-overconfident-leader-rational-sycophant-veteran.html",
+      "summary": "The past and present are rife with examples of advisers convincing leaders of the benefits of launching an ill-advised war, or downplaying the risks of a potentially fatal flaw in the design of a car or spacecraft.",
+      "ts": 1781203205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cyclone Gabrielle-style storms may unleash tens of thousands more North Island landslides",
+      "url": "https://phys.org/news/2026-06-cyclone-gabrielle-style-storms-unleash.html",
+      "summary": "In 2023, Cyclone Gabrielle triggered an estimated 800,000 landslides across the North Island, making it one of the most extreme landslide events ever recorded. New research by Te Whare Wānanga o Waitaha | University of C…",
+      "ts": 1781203203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Carbon dioxide removal slow to take off, alarming scientists",
+      "url": "https://phys.org/news/2026-06-carbon-dioxide-alarming-scientists.html",
+      "summary": "Carbon dioxide removal experts have sounded the alarm in Milan this week over a shortfall in research and investment in the nascent sector viewed as essential for mitigating climate change.",
+      "ts": 1781203202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Smuggled dinosaur fossils return to Mongolia after two decades",
+      "url": "https://phys.org/news/2026-06-smuggled-dinosaur-fossils-mongolia-decades.html",
+      "summary": "Mongolia has recovered a rare dinosaur skeleton and a trove of fossils illegally exported two decades ago, authorities said Wednesday, concluding years of efforts to return the paleontological treasures.",
+      "ts": 1781202009000
+    },
+    {
+      "source": "Phys.org",
+      "title": "This is how supermassive black holes feed themselves",
+      "url": "https://phys.org/news/2026-06-supermassive-black-holes.html",
+      "summary": "How supermassive black holes (SMBHs) in the centers of galaxies accrete material, how they feed back into the surrounding region, and how they regulate these processes to influence the evolution of their galaxies are all…",
+      "ts": 1781202007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Forest gaps and deadwood boost bird and bat diversity in woodlands",
+      "url": "https://phys.org/news/2026-06-forest-gaps-deadwood-boost-bird.html",
+      "summary": "Disorder brings more life to the forest: Birds and bats react to this in different ways. This is shown by a new study from the University of Würzburg's Biocenter.",
+      "ts": 1781202003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indoor urban agriculture isn't necessarily low carbon, study shows",
+      "url": "https://phys.org/news/2026-06-indoor-urban-agriculture-isnt-necessarily.html",
+      "summary": "Growing lettuce indoors in Canadian cities can be as climate-friendly as conventional farming, but only in regions where electricity comes from renewable sources and is therefore low-carbon, according to a new McGill-led…",
+      "ts": 1781200813000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First global map of mycorrhizal fungi reveals true scale of underground networks across the planet",
+      "url": "https://phys.org/news/2026-06-global-mycorrhizal-fungi-reveals-true.html",
+      "summary": "Mycorrhizal fungi form underground networks that sustain plant life and help regulate Earth's climate by drawing carbon into soils. In a study published in Science, an international team of researchers produced the first…",
+      "ts": 1781200809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Organic molecule with ultranarrow emission spectrum could lead to better LEDs",
+      "url": "https://phys.org/news/2026-06-molecule-ultranarrow-emission-spectrum.html",
+      "summary": "Over the past several decades, light sources have gradually transitioned to light-emitting diodes, or LEDs, and inorganic LEDs are now used across a wide range of applications. In parallel, organic LEDs, or OLEDs, have b…",
+      "ts": 1781200808000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists introduce phase contrast to electron microscopy, delivering sharper images of our body's tiniest proteins",
+      "url": "https://phys.org/news/2026-06-physicists-phase-contrast-electron-microscopy.html",
+      "summary": "Nearly 100 years ago, a seemingly simple discovery revolutionized the microscope. The introduction of phase contrast, which garnered a Nobel Prize in 1953, brought into clear view structures inside cells that had previou…",
+      "ts": 1781200806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prescribed fires can cut smoke pollution for years, miles beyond burn areas",
+      "url": "https://phys.org/news/2026-06-pollution-years-miles-areas.html",
+      "summary": "A new study finds that burning 500,000 acres (202,000 hectares) of California conifer forests each year with prescribed fire could cut deadly pollution from wildfire smoke by roughly 10% over a decade.",
+      "ts": 1781200804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Overlooked pollutants are responsible for about 15% of current global warming, study shows",
+      "url": "https://phys.org/news/2026-06-overlooked-pollutants-responsible-current-global.html",
+      "summary": "In a new paper published in Science, leading scientists and climate policy experts show that 15% of current global warming (0.3°C) from human emissions stems from pollutants that fall outside most existing climate policy…",
+      "ts": 1781200801000
+    },
     {
       "source": "Phys.org",
       "title": "Using history to breed better cherries",
@@ -616,90 +700,6 @@
       "title": "Limit on the nuclear Schiff moment of europium-153",
       "url": "https://arxiv.org/abs/2606.12084",
       "summary": "arXiv:2606.12084v1 Announce Type: new Abstract: The Schiff moment of a nucleus is a symmetry-violating nuclear moment that indicates new physics beyond the Standard Model. We place the limit, $|\\mathscr{S}({}^{153}$Eu)$|…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effects of microstructural heterogeneity on the macroscopic spectrum of elastically accommodated grain-boundary sliding",
-      "url": "https://arxiv.org/abs/2606.12090",
-      "summary": "arXiv:2606.12090v1 Announce Type: new Abstract: Elastically accommodated grain-boundary sliding (EAGBS) is a plausible source of upper-mantle seismic attenuation and dispersion, yet classical theory predicts a localized …",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improvement of Heat-Treated Niobium Surface by In-situ Plasma Treatment Applied to Superconducting RF Resonator",
-      "url": "https://arxiv.org/abs/2606.12091",
-      "summary": "arXiv:2606.12091v1 Announce Type: new Abstract: A specific heat treatment at 300 C, named medium-temperature baking (Mid-T baking) is applied to superconducting radio-frequency (SRF) accelerating cavities to improve the …",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ionization-Induced Electrostatic Hose Instability in Electron-Beam-Sustained Plasmas",
-      "url": "https://arxiv.org/abs/2606.12127",
-      "summary": "arXiv:2606.12127v1 Announce Type: new Abstract: We report the discovery of a previously unrecognized electrostatic hose instability in electron-beam-sustained plasmas, driven by the coupling between the electron beam cen…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The TEAMx Observational Campaign",
-      "url": "https://arxiv.org/abs/2606.12152",
-      "summary": "arXiv:2606.12152v1 Announce Type: new Abstract: As part of the international research programme TEAMx (multi-scale transport and exchange processes in the atmosphere over mountains - programme and experiment) a one-year …",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "fitPALSpectra: Python fitting of positron annihilation lifetime spectra",
-      "url": "https://arxiv.org/abs/2606.12157",
-      "summary": "arXiv:2606.12157v1 Announce Type: new Abstract: Positron annihilation lifetime spectroscopy (PALS) spectra are commonly analyzed by fitting multi-exponential lifetime models convoluted with the detector resolution functi…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Adaptive, efficient, and scalable water wave modeling with dispersive hyperbolic systems",
-      "url": "https://arxiv.org/abs/2606.12162",
-      "summary": "arXiv:2606.12162v1 Announce Type: new Abstract: Accurate modeling of tsunamis (such as those generated by landslides) requires capturing both wave dispersion in the deep ocean and wave breaking near the shore. The shallo…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fabricating fiber cavity mirror substrates compatible with high coupling efficiency",
-      "url": "https://arxiv.org/abs/2606.12168",
-      "summary": "arXiv:2606.12168v1 Announce Type: new Abstract: Fiber optical cavities offer small mode volumes and correspondingly strong light-matter interactions in an open Fabry-Perot geometry. However, existing fabrication techniqu…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On-chip measurement of the modal Stokes-Gell-Mann parameters for partially coherent three-mode light",
-      "url": "https://arxiv.org/abs/2606.12233",
-      "summary": "arXiv:2606.12233v1 Announce Type: new Abstract: The Stokes parameters are three real parameters that completely characterize partially coherent optical fields spanned by two modes -- whether a pair of polarization or spa…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Excited-state Properties Beyond the Excitation Energy from Orbital-Optimized Density Functional Calculations I: Dipole Moments of Rydberg States",
-      "url": "https://arxiv.org/abs/2606.12272",
-      "summary": "arXiv:2606.12272v1 Announce Type: new Abstract: Rydberg excited states are challenging to describe due to their highly diffuse character. Orbital-optimized density functional calculations provide a better description of …",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coupling of diffusion and reaction in a thin cylindrical tube: Methodological drawbacks of the Fick--Jacobs approach",
-      "url": "https://arxiv.org/abs/2606.12292",
-      "summary": "arXiv:2606.12292v1 Announce Type: new Abstract: We investigate a problem, that describes coupling between diffusion and reaction inside a thin circular cylindrical tube. The asymptotic solution of the posed problem is de…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of Additively Manufactured Wall Lattice Structures on Flashback Limits in a Hydrogen Jet Flame Combustor",
-      "url": "https://arxiv.org/abs/2606.12302",
-      "summary": "arXiv:2606.12302v1 Announce Type: new Abstract: This study investigated how additively manufactured nozzles with body-centered cubic lattice structures reduce the flame flashback propensity in a hydrogen jet flame burner…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deterministic Single-Photon Emitter Arrays in Hexagonal Boron Nitride by Carbon-Assisted Focused Ion Beam Engineering",
-      "url": "https://arxiv.org/abs/2606.12304",
-      "summary": "arXiv:2606.12304v1 Announce Type: new Abstract: The realization of on-chip photonic circuits requires scalable and deterministic single-photon emitters (SPEs) at room temperature, which remain a challenge in van der Waal…",
       "ts": 1781150400000
     }
   ],
