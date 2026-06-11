@@ -838,6 +838,157 @@ ts: item.ts || 0,
   };
 }
 
+function detectArcheNovaSignalCategory(item) {
+  const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
+
+  if (
+    includesAny(text, [
+      "telescope",
+      "observation",
+      "detector",
+      "physics",
+      "quantum",
+      "gravity",
+      "planet",
+      "space",
+      "cosmic",
+      "astronomy",
+    ])
+  ) {
+    return "Reality Discovery";
+  }
+
+  if (
+    includesAny(text, [
+      "robot",
+      "automation",
+      "manufacturing",
+      "factory",
+      "material",
+      "semiconductor",
+      "chip",
+      "battery",
+      "hydrogen",
+      "fusion",
+    ])
+  ) {
+    return "Capability Expansion";
+  }
+
+  if (
+    includesAny(text, [
+      "infrastructure",
+      "grid",
+      "satellite",
+      "data center",
+      "transport",
+      "hospital",
+      "network",
+      "supply chain",
+    ])
+  ) {
+    return "Infrastructure Formation";
+  }
+
+  if (
+    includesAny(text, [
+      "synchronization",
+      "communication",
+      "network",
+      "coordination",
+      "cybersecurity",
+      "signal",
+      "sensor",
+      "monitoring",
+    ])
+  ) {
+    return "Synchronization Systems";
+  }
+
+  if (
+    includesAny(text, [
+      "climate",
+      "health",
+      "disease",
+      "medicine",
+      "bio",
+      "gene",
+      "cell",
+      "water",
+      "environment",
+      "risk",
+      "resilience",
+    ])
+  ) {
+    return "Adaptive Capacity";
+  }
+
+  return "Civilization Engineering";
+}
+
+function makeArcheNovaSignal(item, index) {
+  const category = detectArcheNovaSignalCategory(item);
+
+  const observation =
+    item.summary || item.title || "A new scientific or technological signal has been detected.";
+
+  const implications = {
+    "Reality Discovery":
+      "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+    "Capability Expansion":
+      "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+    "Infrastructure Formation":
+      "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+    "Synchronization Systems":
+      "This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
+    "Adaptive Capacity":
+      "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+    "Civilization Engineering":
+      "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+  };
+
+  return {
+    id: `${slugify(category)}-${slugify(item.title || String(index))}`,
+    title: item.title || "Untitled Signal",
+    source: item.source || "Unknown Source",
+    originalUrl: item.url || "",
+    category,
+    observation,
+    implication: implications[category],
+    commentary:
+      `${item.title} should not be interpreted only as a news item. ` +
+      `From the ArcheNova perspective, it is a ${category} signal: ` +
+      `${implications[category]}`,
+    ts: item.ts || 0,
+  };
+}
+
+function writeArcheNovaSignals(scienceItems, technologyItems) {
+  const signals = [...scienceItems, ...technologyItems]
+    .filter((item) => item.title && item.url)
+    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
+    .slice(0, 100)
+    .map(makeArcheNovaSignal);
+
+  fs.mkdirSync(outDir, { recursive: true });
+
+  fs.writeFileSync(
+    path.join(outDir, "signals.json"),
+    JSON.stringify(
+      {
+        ok: true,
+        updated: new Date().toISOString(),
+        items: signals,
+      },
+      null,
+      2
+    )
+  );
+
+  console.log(`Generated public/data/signals.json: ${signals.length} items`);
+}
+
 function writeGeneratedResearchReports(scienceItems, technologyItems) {
   const reports = [...scienceItems, ...technologyItems]
   .sort((a, b) => (b.ts || 0) - (a.ts || 0))
@@ -933,3 +1084,4 @@ const scienceItems = await buildScience();
 const technologyItems = await buildTechnology();
 
 writeGeneratedResearchReports(scienceItems, technologyItems);
+writeArcheNovaSignals(scienceItems, technologyItems);

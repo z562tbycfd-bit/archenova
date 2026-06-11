@@ -1,7 +1,6 @@
 import Link from "next/link";
-import { archeNovaTopSignals } from "../../../lib/generatedResearchReports";
-import ScienceHome from "../../components/ScienceHome";
-import TechnologyHome from "../../components/TechnologyHome";
+import { archeNovaTopSignals } from "@/lib/generatedResearchReports";
+import ArcheNovaSignalsFeed from "@/app/components/ArcheNovaSignalsFeed";
 
 export default function SignalsPage() {
   const topSignal = archeNovaTopSignals?.[0];
@@ -9,13 +8,17 @@ export default function SignalsPage() {
   return (
     <main className="page-standard">
       <div className="page-head">
-        <span className="home-section-label">ARCHENOVA SIGNALS</span>
+        <span className="home-section-label">
+          ARCHENOVA SIGNALS
+        </span>
 
         <h1>Signals</h1>
 
         <p className="page-lead">
-          Daily scientific and technological signals selected from the
-          observation layer and interpreted by ArcheNova Analyst.
+          ArcheNova Signals transform trusted scientific and technological
+          observations into structural intelligence: discovery, capability,
+          infrastructure, synchronization, adaptation, and civilization-scale
+          meaning.
         </p>
       </div>
 
@@ -24,14 +27,16 @@ export default function SignalsPage() {
 
         {topSignal && (
           <Link
-            href={`/arche-nova-research/reports/${topSignal.slug}`}
+            href={`/intelligence-platform/reports/${topSignal.slug}`}
             className="plaza-card dashboard-top-signal-card"
           >
             <div className="feed-source">
               {topSignal.source} / {topSignal.category}
             </div>
 
-            <div className="plaza-title">{topSignal.title}</div>
+            <div className="plaza-title">
+              {topSignal.title}
+            </div>
 
             <div className="plaza-desc">
               ArcheNova Score: {topSignal.archeNovaAssessment?.overall} / 10
@@ -41,19 +46,14 @@ export default function SignalsPage() {
               {topSignal.archeNovaAssessment?.classification}
             </div>
 
-            <div className="plaza-hint">Open Report →</div>
+            <div className="plaza-hint">
+              Open Report →
+            </div>
           </Link>
         )}
       </section>
 
-      <section className="glass-block">
-        <h2>Observation Layer</h2>
-
-        <div className="signals-observation-grid">
-          <ScienceHome />
-          <TechnologyHome />
-        </div>
-      </section>
+      <ArcheNovaSignalsFeed limit={100} />
 
       <div className="page-foot">
         <Link href="/intelligence-platform" className="back-link">
