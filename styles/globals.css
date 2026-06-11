@@ -10970,3 +10970,106 @@ html, body {
     width: 24px;
   }
 }
+.signal-category {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.signal-category.reality-discovery {
+  background: rgba(59,130,246,.15);
+  color: #60a5fa;
+}
+
+.signal-category.capability-expansion {
+  background: rgba(16,185,129,.15);
+  color: #34d399;
+}
+
+.signal-category.infrastructure-formation {
+  background: rgba(251,191,36,.15);
+  color: #fbbf24;
+}
+
+.signal-category.synchronization-systems {
+  background: rgba(168,85,247,.15);
+  color: #c084fc;
+}
+
+.signal-category.adaptive-capacity {
+  background: rgba(6,182,212,.15);
+  color: #22d3ee;
+}
+
+.signal-category.civilization-engineering {
+  background: rgba(255,255,255,.12);
+  color: #ffffff;
+}
+
+.signal-section {
+  margin-top: 12px;
+}
+
+.signal-section strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.8rem;
+  letter-spacing: .08em;
+  opacity: .75;
+}
+
+.signal-section p {
+  margin: 0;
+  line-height: 1.6;
+  opacity: .92;
+}
+.signal-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.signal-filter {
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.04);
+  color: white;
+  border-radius: 999px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: .25s ease;
+  font-size: .82rem;
+}
+
+.signal-filter:hover {
+  background: rgba(255,255,255,.08);
+}
+
+.signal-filter.active {
+  background: rgba(255,255,255,.15);
+  border-color: rgba(255,255,255,.3);
+}
+
+@media (max-width: 768px) {
+
+  .signal-filter-bar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+  }
+
+  .signal-filter-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .signal-filter {
+    flex-shrink: 0;
+  }
+}

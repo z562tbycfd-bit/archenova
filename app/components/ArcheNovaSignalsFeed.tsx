@@ -14,8 +14,16 @@ type SignalItem = {
   ts: number;
 };
 
+function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 export default function ArcheNovaSignalsFeed({ limit = 30 }: { limit?: number }) {
   const [items, setItems] = useState<SignalItem[]>([]);
+  const [category, setCategory] = useState("all");
   const [updated, setUpdated] = useState("—");
 
   useEffect(() => {
@@ -48,16 +56,114 @@ export default function ArcheNovaSignalsFeed({ limit = 30 }: { limit?: number })
     };
   }, [limit]);
 
+const visibleItems =
+  category === "all"
+    ? items
+    : items.filter(
+        (item) => item.category === category
+      );
+
   return (
+
+    
     <section className="glass-block">
       <div className="home-card-head">
         <h2>ArcheNova Signal Feed</h2>
         <span className="home-card-meta">Updated: {updated}</span>
       </div>
 
+      <div className="signal-filter-bar">
+
+  <button
+    className={`signal-filter ${
+      category === "all" ? "active" : ""
+    }`}
+    onClick={() => setCategory("all")}
+  >
+    All
+  </button>
+
+  <button
+    className={`signal-filter ${
+      category === "Reality Discovery" ? "active" : ""
+    }`}
+    onClick={() =>
+      setCategory("Reality Discovery")
+    }
+  >
+    Reality
+  </button>
+
+  <button
+    className={`signal-filter ${
+      category === "Capability Expansion"
+        ? "active"
+        : ""
+    }`}
+    onClick={() =>
+      setCategory("Capability Expansion")
+    }
+  >
+    Capability
+  </button>
+
+  <button
+    className={`signal-filter ${
+      category === "Infrastructure Formation"
+        ? "active"
+        : ""
+    }`}
+    onClick={() =>
+      setCategory("Infrastructure Formation")
+    }
+  >
+    Infrastructure
+  </button>
+
+  <button
+    className={`signal-filter ${
+      category === "Synchronization Systems"
+        ? "active"
+        : ""
+    }`}
+    onClick={() =>
+      setCategory("Synchronization Systems")
+    }
+  >
+    Sync
+  </button>
+
+  <button
+    className={`signal-filter ${
+      category === "Adaptive Capacity"
+        ? "active"
+        : ""
+    }`}
+    onClick={() =>
+      setCategory("Adaptive Capacity")
+    }
+  >
+    Adaptive
+  </button>
+
+  <button
+    className={`signal-filter ${
+      category === "Civilization Engineering"
+        ? "active"
+        : ""
+    }`}
+    onClick={() =>
+      setCategory("Civilization Engineering")
+    }
+  >
+    Civilization
+  </button>
+
+</div>
+
       <div className="feed-list">
-        {items.length ? (
-          items.map((item) => (
+        {visibleItems.length ? (
+          visibleItems.map((item) => (
             <a
               key={item.id}
               href={item.originalUrl}
@@ -65,17 +171,32 @@ export default function ArcheNovaSignalsFeed({ limit = 30 }: { limit?: number })
               rel="noreferrer"
               className="feed-row wide"
             >
-              <div className="feed-source">
-                {item.category} / {item.source}
-              </div>
+              <div className={`signal-category ${slugify(item.category)}`}>
+  {item.category.toUpperCase()}
+</div>
+
+<div className="feed-source">
+  {item.source}
+</div>
 
               <div className="feed-title">
                 {item.title}
               </div>
 
-              <div className="feed-summary">
-                {item.commentary}
-              </div>
+              <div className="signal-section">
+  <strong>Observation</strong>
+  <p>{item.observation}</p>
+</div>
+
+<div className="signal-section">
+  <strong>Implication</strong>
+  <p>{item.implication}</p>
+</div>
+
+<div className="signal-section">
+  <strong>Civilization Relevance</strong>
+  <p>{item.commentary}</p>
+</div>
             </a>
           ))
         ) : (
