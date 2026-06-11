@@ -11,6 +11,15 @@ type SignalItem = {
   observation: string;
   implication: string;
   commentary: string;
+
+score?: {
+  discovery: number;
+  capability: number;
+  infrastructure: number;
+  civilization: number;
+  overall: number;
+};
+
   ts: number;
 };
 
@@ -182,6 +191,21 @@ const visibleItems =
               <div className="feed-title">
                 {item.title}
               </div>
+
+              {item.score && (
+  <div className="signal-score-box">
+    <div className="signal-score-main">
+      Overall {item.score.overall} / 10
+    </div>
+
+    <div className="signal-score-grid">
+      <span>Discovery {item.score.discovery}</span>
+      <span>Capability {item.score.capability}</span>
+      <span>Infrastructure {item.score.infrastructure}</span>
+      <span>Civilization {item.score.civilization}</span>
+    </div>
+  </div>
+)}
 
               <div className="signal-section">
   <strong>Observation</strong>

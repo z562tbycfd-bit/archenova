@@ -11073,3 +11073,30 @@ html, body {
     flex-shrink: 0;
   }
 }
+.signal-score-box {
+  margin: 14px 0;
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.045);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.signal-score-main {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.signal-score-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  font-size: 0.78rem;
+  opacity: 0.82;
+}
+
+@media (max-width: 768px) {
+  .signal-score-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
