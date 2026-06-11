@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-06-11T14:02:25.244Z",
+  "updated": "2026-06-11T18:17:49.518Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "ESA astronaut assignment on Artemis 3 part of negotiations on revised Artemis roles",
+      "url": "https://spacenews.com/esa-astronaut-assignment-on-artemis-3-part-of-negotiations-on-revised-artemis-roles/",
+      "summary": "The assignment of an ESA astronaut to Artemis 3 is part of negotiations for revised roles in the overall effort, with a goal of getting its astronauts on the moon. The post ESA astronaut assignment on Artemis 3 part of n…",
+      "ts": 1781199230000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "HyImpulse signs letter of intent with Oman’s spaceport",
+      "url": "https://spacenews.com/hyimpulse-signs-letter-of-intent-with-omans-spaceport/",
+      "summary": "MILAN — Etlaq Spaceport, Oman’s commercial spaceport, and German-based small launch provider HyImpulse have signed a letter of intent to explore future launch-related activities and a potential operational presence in [……",
+      "ts": 1781196228000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA at ILA 2026 – Day 2 highlights",
+      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_ILA_2026_Day_2_highlights",
+      "summary": "From strategic discussions on autonomy and resilience to an in-flight call with ESA astronaut Sophie Adenot, ESA's second day at ILA Berlin International Airshow 2026 highlighted the wide-reaching value of space for Euro…",
+      "ts": 1781191500000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Tilebox Launches Verifiable AI Workflows for Satellite Data",
+      "url": "https://spacenews.com/tilebox-launches-verifiable-ai-workflows-for-satellite-data/",
+      "summary": "DOVER, DELAWARE — JUNE 11, 2026 — Tilebox today announced infrastructure for verifiable AI workflows on Earth observation data, giving teams a way to use agents through governed data, repeatable […] The post Tilebox Laun…",
+      "ts": 1781190000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "K2 Space, Rocket Lab win key supplier roles in Space Force satcom program",
+      "url": "https://spacenews.com/k2-space-rocket-lab-win-key-supplier-roles-in-space-force-satcom-program/",
+      "summary": "K2 Space and Rocket Lab will supply spacecraft buses to SES and Viasat for the military's next-generation protected satcom program The post K2 Space, Rocket Lab win key supplier roles in Space Force satcom program appear…",
+      "ts": 1781186400000,
+      "categoryId": "space"
+    },
     {
       "source": "Quanta",
       "title": "What’s the Future of Gene Editing?",
@@ -105,6 +145,14 @@
       "summary": "With the evolution of new military technologies, the trajectory of war has undergone a massive change. Historically, wars were fought through direct confrontation on the battlefield, while contemporary warfare is […] The…",
       "ts": 1781175600000,
       "categoryId": "space"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "Defining Autonomy for Wellness Robots in Senior Care",
+      "url": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
+      "summary": "An examination of how socially assistive wellness robots could support the seven dimensions of senior wellness, and how a framework can measure their autonomy. What Attendees will Learn Why the senior care crisis exceeds…",
+      "ts": 1781172001000,
+      "categoryId": "policy"
     },
     {
       "source": "MIT Technology Review",
@@ -671,54 +719,6 @@
       "title": "Mathematical Basis for Analyzing Superconducting Phase Transitions Using Catastrophe Theory",
       "url": "https://arxiv.org/abs/2606.11810",
       "summary": "arXiv:2606.11810v1 Announce Type: cross Abstract: We establish a rigorous mathematical bridge from quantum many-body path integrals to the cusp catastrophe model by Lyapunov-Schmidt reduction, which provides a theoretica…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Non-Hermitian Delocalization Realizes Random Dirac Criticality in One Dimension",
-      "url": "https://arxiv.org/abs/2606.12089",
-      "summary": "arXiv:2606.12089v1 Announce Type: cross Abstract: Non-Hermitian systems can evade Anderson localization and exhibit delocalized states even in one dimension. Here, we show that such non-Hermitian delocalized states under…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Fabricating fiber cavity mirror substrates compatible with high coupling efficiency",
-      "url": "https://arxiv.org/abs/2606.12168",
-      "summary": "arXiv:2606.12168v1 Announce Type: cross Abstract: Fiber optical cavities offer small mode volumes and correspondingly strong light-matter interactions in an open Fabry-Perot geometry. However, existing fabrication techni…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Experimental straintronics in nanotube quantum dots",
-      "url": "https://arxiv.org/abs/2606.12180",
-      "summary": "arXiv:2606.12180v1 Announce Type: cross Abstract: Single-wall carbon nanotubes (SWCNTs) are narrow ribbons of graphene with atomically precise edges and a single quantum transport channel, at experimentally-relevant dopi…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "A post-selected quantum model of cosmic acceleration",
-      "url": "https://arxiv.org/abs/2606.12297",
-      "summary": "arXiv:2606.12297v1 Announce Type: cross Abstract: The origin of cosmic acceleration remains a central problem in cosmology, commonly attributed to a cosmological constant within the $\\Lambda$CDM model or to dynamical dar…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Entanglement generation between field modes mediated by a fluctuating conducting wall",
-      "url": "https://arxiv.org/abs/2606.12338",
-      "summary": "arXiv:2606.12338v1 Announce Type: cross Abstract: We consider a movable conducting plate of finite mass, between two fixed ones, whose mechanical degrees of freedom are treated quantum-mechanically and bound to its equil…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Gate-tunable spin-valley transport via carrier velocity in monolayer WSe$_2$",
-      "url": "https://arxiv.org/abs/2606.12353",
-      "summary": "arXiv:2606.12353v1 Announce Type: cross Abstract: We theoretically investigate spin- and valley-resolved quantum transport in monolayer tungsten diselenide (WSe$_2$) described by an effective massive Dirac Hamiltonian. P…",
       "ts": 1781150400000,
       "categoryId": "quantum"
     }
