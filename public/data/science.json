@@ -1,7 +1,98 @@
 {
   "ok": true,
-  "updated": "2026-06-11T09:14:06.792Z",
+  "updated": "2026-06-11T14:02:20.277Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover collagen, the human body's most abundant protein, is liquid-like inside cells",
+      "url": "https://phys.org/news/2026-06-scientists-collagen-human-body-abundant.html",
+      "summary": "Collagen, the protein that builds skin, bones, tendons and organs, exists inside cells as a liquidlike droplet rather than the long, rigid rod seen in textbooks over the last half-century, according to a new study from t…",
+      "ts": 1781186404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wary investors hit by a natural disaster seek premium on equity investment",
+      "url": "https://phys.org/news/2026-06-wary-investors-natural-disaster-premium.html",
+      "summary": "Investor caution soon after experiencing a natural disaster increases the cost of capital for businesses hoping to grow, new academic research suggests.",
+      "ts": 1781186401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Expert offers insight on stopping the New World screwworm",
+      "url": "https://phys.org/news/2026-06-qa-expert-insight-world-screwworm.html",
+      "summary": "NC State University entomologist Maxwell Scott is among a handful of people worldwide with the most thorough understanding of the genetics and life cycle of the New World screwworm, a blowfly that lays its eggs in wounds…",
+      "ts": 1781185203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI set to reshape Indigenous Ranger education",
+      "url": "https://phys.org/news/2026-06-ai-reshape-indigenous-ranger.html",
+      "summary": "James Cook University senior leadership are ready to revolutionize the delivery of degree programs in remote communities, using AI to accelerate the integration of western and traditional knowledge systems. In their arti…",
+      "ts": 1781182806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Would you return a favor? Scientists say it depends on the relationship",
+      "url": "https://phys.org/news/2026-06-favor-scientists-relationship.html",
+      "summary": "When a friend buys you a cup of coffee, it's likely that next time, you'll return the gesture. This type of reciprocal generosity has been well-documented in behavioral economics studies. However, anthropologists and oth…",
+      "ts": 1781182801000
+    },
+    {
+      "source": "Science News",
+      "title": "Neuroscientists left the lab to study memory loss. The results were surprising",
+      "url": "https://www.sciencenews.org/article/older-adults-memory-loss-outside-lab",
+      "summary": "Using smartphone-based tools, researchers find that older adults’ recollections of past events may remain more intact than previously thought.",
+      "ts": 1781182800000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Air pollution's daily pulse over the Northeast",
+      "url": "https://phys.org/news/2026-06-air-pollution-daily-pulse-northeast.html",
+      "summary": "The TEMPO mission helped scientists track morning nitrogen dioxide that contributed to afternoon ozone along the New York–Washington corridor in May 2026. More than 35 million people live along the New York–Washington co…",
+      "ts": 1781181601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Consciousness likely not unique to earthlings, paper says",
+      "url": "https://phys.org/news/2026-06-consciousness-unique-earthlings-paper.html",
+      "summary": "Does consciousness depend on flesh and blood? The answer is almost certainly no, according to Eric Schwitzgebel, a distinguished professor of philosophy at the University of California, Riverside. In a new working paper,…",
+      "ts": 1781180401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "On the hunt for cosmic dawn and the universe's very first stars",
+      "url": "https://phys.org/news/2026-06-cosmic-dawn-universe-stars.html",
+      "summary": "After only four short years, NASA's James Webb Space Telescope (JWST) and observational cosmologists like Richard Ellis at University College London (UCL) have pushed the cosmic lookback time to an era when the universe'…",
+      "ts": 1781179201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Insights into soil fertility help guide more targeted fertilizer strategies for long-term soil management",
+      "url": "https://phys.org/news/2026-06-insights-soil-fertility-fertilizer-strategies.html",
+      "summary": "A study published in Agriculture, Ecosystems & Environment, led by University of Queensland researchers, provides important insights into the fate of sulfur in soil, an essential nutrient for crop growth. Where sulfur en…",
+      "ts": 1781178003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seeds under pressure: New study reveals how climate change threatens Victoria's alpine plant populations",
+      "url": "https://phys.org/news/2026-06-seeds-pressure-reveals-climate-threatens.html",
+      "summary": "A new study led by researchers from Royal Botanic Gardens Victoria and Deakin University has uncovered that alpine species may be more vulnerable to climate change because their seeds rely on specific temperature cues an…",
+      "ts": 1781176801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physical punishment of children is harmful and must be banned, UK researchers say",
+      "url": "https://phys.org/news/2026-06-physical-children-uk.html",
+      "summary": "Hitting children (often referred to as smacking) by parents or caregivers as a form of punishment is linked to behavioral problems and worse exam results and should be prohibited in England and Northern Ireland as soon a…",
+      "ts": 1781175608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electron matter waves gain ultrafast torque that flips handedness in femtoseconds",
+      "url": "https://phys.org/news/2026-06-electron-gain-ultrafast-torque-flips.html",
+      "summary": "Many natural processes, ranging from magnetism to chemical reactions, entail the movement and rotation of particles at very small scales. In quantum mechanics, particles exhibit both particle-like and wave-like behaviors…",
+      "ts": 1781175601000
+    },
     {
       "source": "Phys.org",
       "title": "Weaker monsoon, bigger risks: Intense downpours could still hit South Asia hard",
@@ -609,97 +700,6 @@
       "title": "Pinned Boundaries Delay Contraction and Shape Stress Relaxation in Active Gels",
       "url": "https://arxiv.org/abs/2606.11850",
       "summary": "arXiv:2606.11850v1 Announce Type: cross Abstract: Cells dynamically generate, transmit, and dissipate stress. Central to these processes is the actomyosin cortex, an active contractile material that drives cellular mecha…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Information-Theoretic Structure of the Quasi-Stationary Domany--Kinzel Automaton",
-      "url": "https://arxiv.org/abs/2606.11885",
-      "summary": "arXiv:2606.11885v1 Announce Type: cross Abstract: We characterize the quasi-stationary distribution (QSD) of the bond directed-percolation line of the Domany--Kinzel automaton using a matrix-product-state representation …",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum tidal locking in orbiting Bose-Einstein condensates",
-      "url": "https://arxiv.org/abs/2606.11919",
-      "summary": "arXiv:2606.11919v1 Announce Type: cross Abstract: Angular momentum coupling manifests widely in diverse physical systems, underpinning the emergent properties and collective dynamics across different scales. The tidal lo…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Controlled ion-ion interactions and cavity-enhanced emission of a coherent dinuclear Eu$^{3+}$ complex",
-      "url": "https://arxiv.org/abs/2606.11947",
-      "summary": "arXiv:2606.11947v1 Announce Type: cross Abstract: Molecular rare-earth-ion complexes offer unique opportunities for quantum technologies by combining the intrinsic coherence properties of rare-earth ions with chemically …",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Boron Co-Alloying in AlScN Wurtzite Ferroelectrics: Insights from an 850-Sample Combinatorial Study",
-      "url": "https://arxiv.org/abs/2606.11954",
-      "summary": "arXiv:2606.11954v1 Announce Type: cross Abstract: AlScN wurtzite ferroelectrics are promising candidates for energy-efficient non-volatile memory. However, AlScN suffers from a high coercive field and reduced cycling end…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "HAMNO: A Hierarchical Adaptive Multi-scale Neural Operator with Physics-Informed Learning for Dynamical Systems",
-      "url": "https://arxiv.org/abs/2606.11963",
-      "summary": "arXiv:2606.11963v1 Announce Type: cross Abstract: Neural operators provide a powerful framework for learning solution mappings of partial differential equations directly in function space. However, many existing architec…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generalizing Perron--Frobenius theory and eigenvector-based centralities to networks with complex edge weights",
-      "url": "https://arxiv.org/abs/2606.12026",
-      "summary": "arXiv:2606.12026v1 Announce Type: cross Abstract: A fundamental concept in linear algebra and its applications to network analysis is the Perron--Frobenius (PF) theorem, which underpins eigenvector-based centrality measu…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reflective Metastructure Q-plate for Ultrashort Laser Pulses",
-      "url": "https://arxiv.org/abs/2606.12041",
-      "summary": "arXiv:2606.12041v1 Announce Type: cross Abstract: The orbital angular momentum of light is an intriguing property for developing light driven applications. It emerged as an independent degree of freedom by which to manip…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When and how particles are removed by drops",
-      "url": "https://arxiv.org/abs/2606.12062",
-      "summary": "arXiv:2606.12062v1 Announce Type: cross Abstract: Particulate contaminants decrease the power output of solar panels, the transparency of windows, and are detrimental to microelectronics, where even a single particle can…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multilayer Screening of Double and Conventional Perovskite Solar Cells Using SCAPS-1D and Machine Learning: Optimization of ETL, HTL, and Absorber for High-Efficiency Architectures",
-      "url": "https://arxiv.org/abs/2606.12083",
-      "summary": "arXiv:2606.12083v1 Announce Type: cross Abstract: The combinatorial design space of multilayer perovskite solar cells is vast, yet exhaustive experimental or computational screening of all possible material combinations …",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-Hermitian Delocalization Realizes Random Dirac Criticality in One Dimension",
-      "url": "https://arxiv.org/abs/2606.12089",
-      "summary": "arXiv:2606.12089v1 Announce Type: cross Abstract: Non-Hermitian systems can evade Anderson localization and exhibit delocalized states even in one dimension. Here, we show that such non-Hermitian delocalized states under…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weibull-Stationary Stochastic Differential Equations for Conditional Long-Horizon Wind Power Forecasting",
-      "url": "https://arxiv.org/abs/2606.12097",
-      "summary": "arXiv:2606.12097v1 Announce Type: cross Abstract: We present a one-month-ahead conditional probabilistic framework for wind-power forecasting at ten-minute resolution. Monthly Weibull shape and scale parameters are estim…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On-Chip Quantum Randomness Amplification",
-      "url": "https://arxiv.org/abs/2606.12173",
-      "summary": "arXiv:2606.12173v1 Announce Type: cross Abstract: Randomness amplification, the task of extracting uniform private bits from biased seeds that may be partly known by a malicious third party, is of central importance in c…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symmetric structure-preserving discretization of N-phase incompressible fluid mixtures with arbitrary density ratios",
-      "url": "https://arxiv.org/abs/2606.12256",
-      "summary": "arXiv:2606.12256v1 Announce Type: cross Abstract: Diffuse-interface models are a widely used framework for interfacial dynamics in complex fluids, in which interfaces are represented through smooth transition layers and …",
       "ts": 1781150400000
     }
   ],

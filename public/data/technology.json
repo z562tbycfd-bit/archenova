@@ -1,7 +1,135 @@
 {
   "ok": true,
-  "updated": "2026-06-11T09:14:16.718Z",
+  "updated": "2026-06-11T14:02:25.244Z",
   "items": [
+    {
+      "source": "Quanta",
+      "title": "What’s the Future of Gene Editing?",
+      "url": "https://www.quantamagazine.org/whats-the-future-of-gene-editing-20260611/",
+      "summary": "In the first episode of the new season of ‘The Joy of Why,’ Nobel Laureate Jennifer Doudna discusses how she discovered CRISPR’s genome-editing power, the breakthroughs and hurdles during its explosive growth, and what l…",
+      "ts": 1781185041000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Save Big and Play Bigger: GeForce NOW Summer Sale Brings Major Membership Savings",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-summer-sale-2026/",
+      "summary": "The GeForce NOW summer sale kicked off today with limited-time savings of up to $70 off a 12-month membership, making now the perfect time to upgrade to get the best of the cloud and see just how far Ultimate gaming can …",
+      "ts": 1781182817000,
+      "categoryId": "semiconductor"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "Why Orbital Data Centers Are Harder Than Silicon Valley Thinks",
+      "url": "https://spectrum.ieee.org/orbital-data-centers-heat",
+      "summary": "“Space computing, the final frontier, has arrived,” Nvidia CEO Jensen Huang declared at the Nvidia GTC conference in March. Indeed, the idea of data centers in orbit has gone from science fiction to a serious spending ca…",
+      "ts": 1781182802000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "GEO cancellations complicate space insurance recovery",
+      "url": "https://spacenews.com/geo-cancellations-complicate-space-insurance-recovery/",
+      "summary": "The recent cancellation of three geostationary satellites is another blow for insurers hoping their legacy cash cows would bring home much-needed income following a bruising run of claims. SES disclosed […] The post GEO …",
+      "ts": 1781182800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Open Cosmos seeks deadline extension for broadband constellation",
+      "url": "https://spacenews.com/open-cosmos-seeks-deadline-extension-for-broadband-constellation/",
+      "summary": "British small satellite specialist Open Cosmos is seeking more time to deploy its proposed sovereign broadband constellation for Europe after running into launch issues. The post Open Cosmos seeks deadline extension for …",
+      "ts": 1781181821000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "ILA Berlin 2026: in-flight call with ESA Astronaut Sophie Adenot",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/ILA_Berlin_2026_in-flight_call_with_ESA_Astronaut_Sophie_Adenot",
+      "summary": "Video: 00:19:00 ESA astronaut Sophie Adenot joined ILA Berlin 2026 live from the International Space Station for a special in-flight conversation on life and work in orbit, Europe's ambitions in human spaceflight. The ca…",
+      "ts": 1781181000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: soccer’s data renaissance and China’s big nuclear plans",
+      "url": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside soccer’s data renaissance Imagine tuning in to the opening kickoff of a Wor…",
+      "ts": 1781179800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Luca Parmitano: Artemis III pilot",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Luca_Parmitano_Artemis_III_pilot",
+      "summary": "Image: Luca Parmitano, Artemis III pilot, in his flight suit.",
+      "ts": 1781179200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "ESA awards contract for next-generation radar imaging satellites",
+      "url": "https://spacenews.com/esa-awards-contract-for-next-generation-radar-imaging-satellites/",
+      "summary": "Thales Alenia Space and Airbus Defence and Space won contracts to build the next generation of radar imaging satellites for Europe’s Copernicus Earth observation program. The post ESA awards contract for next-generation …",
+      "ts": 1781178558000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Same rocket, new boost",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Same_rocket_new_boost",
+      "summary": "Video: 00:01:38 The eighth flight of Europe’s rocket Ariane 6 will have a bigger boost: the P120C solid-propellant rocket motor, used as Ariane 6 booster so far, has been upgraded. The new P160C flying on Ariane 6 flight…",
+      "ts": 1781178000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Long March 5 launches classified satellite, Zhuque-2E lofts direct-to-device test sats",
+      "url": "https://spacenews.com/long-march-5-launches-classified-satellite-zhuque-2e-lofts-direct-to-device-test-sats/",
+      "summary": "China has conducted a pair of launches to advance its communications capabilities, using the country’s largest rocket and a commercial launcher. The post Long March 5 launches classified satellite, Zhuque-2E lofts direct…",
+      "ts": 1781177799000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignm…",
+      "ts": 1781175645000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Missile defense in the age of saturation warfare",
+      "url": "https://spacenews.com/missile-defense-in-the-age-of-saturation-warfare/",
+      "summary": "With the evolution of new military technologies, the trajectory of war has undergone a massive change. Historically, wars were fought through direct confrontation on the battlefield, while contemporary warfare is […] The…",
+      "ts": 1781175600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Job titles of the future: Nature’s drug designer",
+      "url": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
+      "summary": "In 2018, after nearly two decades working in Big Pharma, chemist Tim Cernak was ready to put his skills to a new use. For Merck, he’d developed precision therapies for cancer, HIV, and diabetes that could target disease …",
+      "ts": 1781172000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Inside soccer’s data renaissance",
+      "url": "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/",
+      "summary": "Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally send the ball all the way down the pitch and right out of bounds on the opponent’s end. Casual fans might scratch their head…",
+      "ts": 1781172000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Why China is betting on big nuclear reactors",
+      "url": "https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/",
+      "summary": "It’s a tale of two nuclear industries. In China, large reactors are coming together at a stunning pace. The country has nearly doubled its nuclear fleet since 2016, reaching nearly 60 gigawatts of total power capacity. T…",
+      "ts": 1781172000000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "ESA",
       "title": "ILA Berlin 2026: ESA Director General press conference",
@@ -591,134 +719,6 @@
       "title": "Gate-tunable spin-valley transport via carrier velocity in monolayer WSe$_2$",
       "url": "https://arxiv.org/abs/2606.12353",
       "summary": "arXiv:2606.12353v1 Announce Type: cross Abstract: We theoretically investigate spin- and valley-resolved quantum transport in monolayer tungsten diselenide (WSe$_2$) described by an effective massive Dirac Hamiltonian. P…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Collective neutrino oscillations: Many-body non-forward effects and non-classicality",
-      "url": "https://arxiv.org/abs/2606.12404",
-      "summary": "arXiv:2606.12404v1 Announce Type: cross Abstract: Neutrino evolution in dense astrophysical environments is typically described either within a quantum kinetic framework, which neglects the build-up of multi-body correla…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "A Pfaffian quantum Hall state of ultracold bosons",
-      "url": "https://arxiv.org/abs/2606.12409",
-      "summary": "arXiv:2606.12409v1 Announce Type: cross Abstract: Fractional quantum Hall states are a cornerstone of topological physics, hosting fractionally charged quasiparticles with exotic statistics that promise to enable topolog…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Tight Bounds for Quantum Phase Estimation and Related Problems",
-      "url": "https://arxiv.org/abs/2305.04908",
-      "summary": "arXiv:2305.04908v3 Announce Type: replace Abstract: Phase estimation, due to Kitaev [arXiv'95], is one of the most fundamental subroutines in quantum computing. In the basic scenario, one is given black-box access to a u…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Quantum thermodynamics of the Caldeira-Leggett model with non-equilibrium Gaussian reservoirs",
-      "url": "https://arxiv.org/abs/2405.00215",
-      "summary": "arXiv:2405.00215v5 Announce Type: replace Abstract: We introduce a non-equilibrium version of the Caldeira-Leggett model in which a quantum particle is strongly coupled to a set of engineered reservoirs. The reservoirs a…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "A quantum implementation of high-order power method for estimating geometric entanglement of pure states",
-      "url": "https://arxiv.org/abs/2405.19134",
-      "summary": "arXiv:2405.19134v3 Announce Type: replace Abstract: Entanglement is one of the fundamental properties of a quantum state and is a crucial differentiator between classical and quantum computation. There are many ways to d…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Unifying framework for quantum simulation algorithms for time-dependent Hamiltonian dynamics",
-      "url": "https://arxiv.org/abs/2411.03180",
-      "summary": "arXiv:2411.03180v2 Announce Type: replace Abstract: Recently, there has been growing interest in simulating time-dependent Hamiltonians using quantum algorithms, driven by diverse applications, such as quantum adiabatic …",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Mixed-State Topological Order under Coherent Noise",
-      "url": "https://arxiv.org/abs/2411.03441",
-      "summary": "arXiv:2411.03441v2 Announce Type: replace Abstract: Mixed-state phases of matter under local decoherence have recently garnered significant attention due to the ubiquitous presence of noise in current quantum processors.…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Quest for quantum advantage: Monte Carlo wave-function simulations of the Coherent Ising Machine",
-      "url": "https://arxiv.org/abs/2501.02681",
-      "summary": "arXiv:2501.02681v2 Announce Type: replace Abstract: The Coherent Ising Machine (CIM) is a quantum network of optical parametric oscillators (OPOs) intended to find ground states of the Ising model. This is an NP-hard pro…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Honest-binding quantum bit commitment from separable operations",
-      "url": "https://arxiv.org/abs/2501.07351",
-      "summary": "arXiv:2501.07351v3 Announce Type: replace Abstract: Bit commitment is a fundamental cryptographic primitive and a cornerstone for numerous two-party cryptographic protocols, including zero-knowledge proofs. However, it h…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Expressivity of Quantum Reservoir Computers",
-      "url": "https://arxiv.org/abs/2501.15528",
-      "summary": "arXiv:2501.15528v3 Announce Type: replace Abstract: Using Hamiltonian encoding to inject an input into parameterized quantum circuits (PQCs), the output of the PQC can be written as truncated Fourier series. In recent ye…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Additivity and chain rules for quantum entropies via multi-index Schatten norms",
-      "url": "https://arxiv.org/abs/2502.01611",
-      "summary": "arXiv:2502.01611v3 Announce Type: replace Abstract: The primary entropic measures for quantum states are additive under the tensor product. In the analysis of quantum information processing tasks, the minimum entropy of …",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "On the Addressability Problem on CSS Codes",
-      "url": "https://arxiv.org/abs/2502.13889",
-      "summary": "arXiv:2502.13889v4 Announce Type: replace Abstract: Recent discoveries in asymptotically good quantum codes have intensified research on their application in quantum computation and fault-tolerant operations. This study …",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Robust Mixed-State Cluster States and Spurious Topological Entanglement Negativity",
-      "url": "https://arxiv.org/abs/2504.16165",
-      "summary": "arXiv:2504.16165v2 Announce Type: replace Abstract: We investigate 1D and 2D cluster states under local decoherence to assess the robustness of their mixed-state subsystem symmetry-protected topological (SSPT) order. By …",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Circulators Based on Coupled Quantum Anomalous Hall Insulators and Resonators",
-      "url": "https://arxiv.org/abs/2505.07770",
-      "summary": "arXiv:2505.07770v2 Announce Type: replace Abstract: Integrated plasmonics is advancing rapidly, enabling a wide range of functionalities to be incorporated onto a single chip. Applications span information processing, co…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Exploring Variational Entanglement Hamiltonians",
-      "url": "https://arxiv.org/abs/2505.10530",
-      "summary": "arXiv:2505.10530v3 Announce Type: replace Abstract: Recent advances in analog and digital quantum-simulation platforms have enabled exploration of the spectrum of entanglement Hamiltonians via variational algorithms. In …",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Measurement incompatibility and quantum steering via linear programming",
-      "url": "https://arxiv.org/abs/2506.03045",
-      "summary": "arXiv:2506.03045v3 Announce Type: replace Abstract: The problem of deciding whether a set of quantum measurements is jointly measurable is known to be equivalent to determining whether a quantum assemblage is unsteerable…",
       "ts": 1781150400000,
       "categoryId": "quantum"
     }
