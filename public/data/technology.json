@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-11T18:17:49.518Z",
+  "updated": "2026-06-11T17:48:59.487Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -11,11 +11,35 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "Soccer Meets Space Science",
+      "url": "https://www.nasa.gov/image-article/soccer-meets-space-science/",
+      "summary": "A soccer ball floats in microgravity in this March 2, 2026, picture from the International Space Station. The space station crew tested soccer balls to study how internal mass affects motion and stability in microgravity…",
+      "ts": 1781196912000,
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "HyImpulse signs letter of intent with Oman’s spaceport",
       "url": "https://spacenews.com/hyimpulse-signs-letter-of-intent-with-omans-spaceport/",
       "summary": "MILAN — Etlaq Spaceport, Oman’s commercial spaceport, and German-based small launch provider HyImpulse have signed a letter of intent to explore future launch-related activities and a potential operational presence in [……",
       "ts": 1781196228000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Career Technical Education Day Highlights Technical Careers",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasas-career-technical-education-day-highlights-technical-careers/",
+      "summary": "At NASA, remaining a global leader in exploration and innovation includes having a skilledand dedicated workforce. Technicians play a critical role in advancing the agency’sresearch and missions, applying hands-on expert…",
+      "ts": 1781194871000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, USGS Scientists Go Rock Hounding in California’s High Desert",
+      "url": "https://www.nasa.gov/science-research/earth-science/nasa-usgs-scientists-go-rock-hounding-in-californias-high-desert/",
+      "summary": "Equipped with rock picks and hand lenses, a team of geoscientists deployed to the Mojave Desert recently to investigate a tantalizing “fingerprint” detected by a NASA sensor. Their target: a cache of topaz hiding in plai…",
+      "ts": 1781192311000,
       "categoryId": "space"
     },
     {
@@ -40,6 +64,14 @@
       "url": "https://spacenews.com/k2-space-rocket-lab-win-key-supplier-roles-in-space-force-satcom-program/",
       "summary": "K2 Space and Rocket Lab will supply spacecraft buses to SES and Viasat for the military's next-generation protected satcom program The post K2 Space, Rocket Lab win key supplier roles in Space Force satcom program appear…",
       "ts": 1781186400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Preview Katalyst Mission to Boost Swift Spacecraft’s Orbit",
+      "url": "https://www.nasa.gov/news-release/nasa-to-preview-katalyst-mission-to-boost-swift-spacecrafts-orbit/",
+      "summary": "NASA will host an audio-only media teleconference at 11 a.m. EDT, Wednesday, June 17, to preview the Katalyst Space mission to boost the orbit of NASA’s Neil Gehrels Swift Observatory. Katalyst’s robotic servicing spacec…",
+      "ts": 1781186297000,
       "categoryId": "space"
     },
     {
@@ -179,12 +211,68 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "ESA",
-      "title": "ILA Berlin 2026: ESA Director General press conference",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/ILA_Berlin_2026_ESA_Director_General_press_conference",
-      "summary": "Video: 00:26:00 ESA Director General Josef Aschbacher briefed media representatives and discussed Europe's priorities in space, exploration, resilience and the future of the European space sector.",
-      "ts": 1781164800000,
-      "categoryId": "space"
+      "source": "APS",
+      "title": "Magic Barrier before Thermalization",
+      "url": "http://link.aps.org/doi/10.1103/wtq7-qy11",
+      "summary": "Author(s): Lukas Ebner, Berndt Müller, Andreas Schäfer, Leonhard Schmotzer, Clemens Seidl, and Xiaojun Yao We investigate the time dependence of antiflatness in the entanglement spectrum, a measure for nonstabilizerness …",
+      "ts": 1781172000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Retrocausal Capacity of a Quantum Channel: Communicating Through Noisy Closed Timelike Curves",
+      "url": "http://link.aps.org/doi/10.1103/znyd-npk5",
+      "summary": "Author(s): Kaiyuan Ji, Seth Lloyd, and Mark M. Wilde We study the capacity of a quantum channel for retrocausal communication, where messages are transmitted backward in time, from a sender in the future to a receiver in…",
+      "ts": 1781172000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Precise Measurement of the Chromoelectric Dipole Moment of the Charm Quark",
+      "url": "http://link.aps.org/doi/10.1103/ycwh-3gy8",
+      "summary": "Author(s): M. Ablikim et al. (BESIII Collaboration) The combined symmetry of charge conjugation and parity ($CP$) is tested in the hadronic transition $ψ(3686)→{π}^{+}{π}^{−}J/ψ$, using a dataset of $(2712.4±14.3)×{10}^{…",
+      "ts": 1781172000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Beta-Delayed Neutron Emission of $N=84$ $^{132}\\mathrm{Cd}$",
+      "url": "http://link.aps.org/doi/10.1103/z93q-9g6y",
+      "summary": "Author(s): M. Madurga et al. Using the time-of-flight technique, we measured the beta-delayed neutron emission of $^{132}\\mathrm{Cd}$. From our large-scale shell model (LSSM) calculation using the ${\\mathrm{N}}^{3}\\mathr…",
+      "ts": 1781172000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Hybrid SU(1,1) Interferometry in Optomechanics",
+      "url": "http://link.aps.org/doi/10.1103/t9tt-t5x2",
+      "summary": "Author(s): Chao Meng, Emil Zeuthen, and Polina R. Sharapova In nondegenerate SU(1,1) interferometers, beam splitters are replaced by two-mode squeezers, enabling sub-shot-noise sensitivity without input squeezing and rob…",
+      "ts": 1781172000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Cavity-Free Mode Control of Superfluorescence from Thermal Gas",
+      "url": "http://link.aps.org/doi/10.1103/cbxq-8n45",
+      "summary": "Author(s): H. Maeda and K. Kitano Transverse-mode control of light has traditionally relied on optical cavities, whereas recent cavity-free approaches based on periodically arranged cold atoms that exploit collective rad…",
+      "ts": 1781172000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Optical Tautochrone and Squeezing Dynamics in Nonuniform Lattices",
+      "url": "http://link.aps.org/doi/10.1103/6b4n-v35x",
+      "summary": "Author(s): Ioannis Kiorpelidis, Matthias Heinrich, Alexander Szameit, Georgios A. Siviloglou, and Konstantinos G. Makris We present exact analogies between the tautochrone problem of classical mechanics and the squeezed …",
+      "ts": 1781172000000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "APS",
+      "title": "Quantifying Lattice Strains in Elastically Deformed Covalent Crystals",
+      "url": "http://link.aps.org/doi/10.1103/3pvs-gdp8",
+      "summary": "Author(s): Jiayi Li, Heyi Wang, Juzheng Chen, Qian Zhang, Fanling Meng, Yiling Lian, Man Kit Cheng, Pak San Yip, Kefan Guo, Wenjun Liang, Yu Deng, and Yang Lu Covalent semiconductor crystals such as silicon and diamond h…",
+      "ts": 1781172000000,
+      "categoryId": "quantum"
     },
     {
       "source": "ESA",
@@ -631,94 +719,6 @@
       "title": "The Simplified Stabilizer ZX-Calculus is Minimal",
       "url": "https://arxiv.org/abs/2606.12383",
       "summary": "arXiv:2606.12383v1 Announce Type: new Abstract: The stabilizer fragment of the ZX calculus is amongst the most important fragments of the theory. The closely related Clifford+T fragment is approximately universal (arXiv:…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Scaling-optimal purification of noisy qubit unitary channels",
-      "url": "https://arxiv.org/abs/2606.12394",
-      "summary": "arXiv:2606.12394v1 Announce Type: new Abstract: We consider the problem of purifying noisy qubit unitary channels. Given the ability to apply an unknown qubit unitary channel followed by depolarizing noise, we aim to con…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Collective Emission in LH2 Assembly Beyond the Point-Dipole Approximation",
-      "url": "https://arxiv.org/abs/2606.11227",
-      "summary": "arXiv:2606.11227v1 Announce Type: cross Abstract: Collective emission in light-harvesting assemblies is governed by the local transition dipole and finite geometry of emitting units, a fact that point-dipole approximatio…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Physically Constrained Ensemble Gaussian Process Modelling for Expensive Quantum Systems with Heteroskedastic Noise",
-      "url": "https://arxiv.org/abs/2606.11240",
-      "summary": "arXiv:2606.11240v1 Announce Type: cross Abstract: Accurate modeling of quantum many-body systems often requires computationally expensive simulations such as Density Matrix Renormalization Group (DMRG) or Quantum Monte C…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Exact Dynamics of Topological Order Across a CDW--SPT Transition",
-      "url": "https://arxiv.org/abs/2606.11303",
-      "summary": "arXiv:2606.11303v1 Announce Type: cross Abstract: We investigate the nonequilibrium dynamics of a one-dimensional interacting system across a transition from a charge-density-wave (CDW) phase to a symmetry-protected topo…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Implementing Hamiltonian Renormalization Group Flow on Quantum Computers with VAPOR",
-      "url": "https://arxiv.org/abs/2606.11306",
-      "summary": "arXiv:2606.11306v1 Announce Type: cross Abstract: While Hamiltonian Lattice Gauge Theory is gaining traction, today's limited numerical capacity leaves simulations affected by discretization errors. This motivates the im…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Dissociative recombination and ion-pair formation in $\\mathrm{HeH^+}$ isotopologues: A time-dependent wave-packet study including rotational coupling",
-      "url": "https://arxiv.org/abs/2606.11352",
-      "summary": "arXiv:2606.11352v1 Announce Type: cross Abstract: We present a comprehensive theoretical investigation of dissociative recombination (DR) and resonant ion-pair (RIP) formation in $\\mathrm{HeH^+}$ isotopologues using time…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Compressed minimum-purity time evolution for late-time quantum dynamics",
-      "url": "https://arxiv.org/abs/2606.11392",
-      "summary": "arXiv:2606.11392v1 Announce Type: cross Abstract: Unitary time evolution of initially simple quantum many-body states rapidly generates entanglement and complex correlations, which limits direct numerical simulations. Th…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Invariants of Sequential Circuits and Generalized Non-Abelian Statistics",
-      "url": "https://arxiv.org/abs/2606.11527",
-      "summary": "arXiv:2606.11527v1 Announce Type: cross Abstract: Non-invertible symmetries in quantum many-body systems generally give rise to sequential unitary circuits that move symmetry defects. In this paper, we investigate invari…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Polarization-Resolved Photon Statistics of Cavity Quantum Materials",
-      "url": "https://arxiv.org/abs/2606.11550",
-      "summary": "arXiv:2606.11550v1 Announce Type: cross Abstract: By forming hybrid light-matter states, optical cavities offer a route for engineering material properties, however, unambiguously probing the effects of light-matter coup…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Consistent Evaluation of Operators Involving the Position Operator in the Bloch Representation: Application to the Orbital Moment",
-      "url": "https://arxiv.org/abs/2606.11679",
-      "summary": "arXiv:2606.11679v1 Announce Type: cross Abstract: The position operator plays a central role in condensed-matter observables such as velocity, orbital moment, and electric polarization. In solid-state physics, the evalua…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Mathematical Basis for Analyzing Superconducting Phase Transitions Using Catastrophe Theory",
-      "url": "https://arxiv.org/abs/2606.11810",
-      "summary": "arXiv:2606.11810v1 Announce Type: cross Abstract: We establish a rigorous mathematical bridge from quantum many-body path integrals to the cusp catastrophe model by Lyapunov-Schmidt reduction, which provides a theoretica…",
       "ts": 1781150400000,
       "categoryId": "quantum"
     }
