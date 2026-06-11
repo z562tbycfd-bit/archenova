@@ -175,7 +175,7 @@ const visibleItems =
           visibleItems.map((item) => (
             <a
               key={item.id}
-              href={item.originalUrl}
+              href={`/intelligence-platform/signals/${item.id}`}
               target="_blank"
               rel="noreferrer"
               className="feed-row wide"
