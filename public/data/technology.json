@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-06-11T18:58:55.418Z",
+  "updated": "2026-06-11T20:07:27.717Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Vandenberg offers new launch site for small and medium rockets",
+      "url": "https://spacenews.com/vandenberg-offers-new-launch-site-for-small-and-medium-rockets/",
+      "summary": "The U.S. Space Force is seeking potential users of a new launch site at Vandenberg Space Force Base reserved for smaller rockets. The post Vandenberg offers new launch site for small and medium rockets appeared first on …",
+      "ts": 1781207761000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Understanding what’s next for orbital data centers",
+      "url": "https://spacenews.com/understanding-whats-next-for-orbital-data-centers/",
+      "summary": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what’s driving interest in the technology, […] The post Unde…",
+      "ts": 1781206683000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors",
+      "url": "https://science.nasa.gov/missions/tech-demonstration/nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-detectors/",
+      "summary": "A new type of gamma-ray sensor developed by NASA will take part in a robotic arm demonstration on the agency’s upcoming Fly Foundational Robots mission.",
+      "ts": 1781204377000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Senate NDAA backs plan to fold SDA, Space RCO into Space Force",
@@ -695,30 +719,6 @@
       "title": "An iterative Ising decoder for quantum error correction codes",
       "url": "https://arxiv.org/abs/2606.12301",
       "summary": "arXiv:2606.12301v1 Announce Type: new Abstract: The Ising framework maps the decoding problem in quantum error correction onto ground-state optimization of a classical Hamiltonian, in which $X$-$Z$ error correlations ent…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Super-Link Fragility in Asymmetric W-Class States under Quantum Noise",
-      "url": "https://arxiv.org/abs/2606.12307",
-      "summary": "arXiv:2606.12307v1 Announce Type: new Abstract: The asymmetric three-qubit W-class state $|\\overline{W_3^L}\\rangle$ defines an isosceles entanglement-network geometry, (a) two vertex-base (VB) links form stronger biparti…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Partitioned Iterative Quantum Scheduling of Satellites for Urgent Disaster Response: Case study of Wildfire",
-      "url": "https://arxiv.org/abs/2606.12310",
-      "summary": "arXiv:2606.12310v1 Announce Type: new Abstract: The standard in Earth-observation tasks today is having near real-time access to surface images in response to changing conditions. For instance, as urban environments inte…",
-      "ts": 1781150400000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Quantum repeater segment with free-space coupled co-trapped ions using telecom photon interference",
-      "url": "https://arxiv.org/abs/2606.12313",
-      "summary": "arXiv:2606.12313v1 Announce Type: new Abstract: A quantum repeater segment is a basic building block of a quantum repeater, generating buffered entanglement of quantum memories to connect quantum repeater cells. It also …",
       "ts": 1781150400000,
       "categoryId": "quantum"
     }

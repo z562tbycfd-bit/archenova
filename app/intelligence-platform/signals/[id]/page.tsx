@@ -132,6 +132,27 @@ export default function SignalReportPage({
       </section>
 
       <section className="glass-block">
+
+  <h2>Ask Episteme</h2>
+
+  <p>
+    Explore the deeper structure, implications,
+    assumptions, constraints, and civilizational
+    significance of this signal.
+  </p>
+
+  <Link
+    href={`/episteme?query=${encodeURIComponent(
+      signal.title
+    )}`}
+    className="plaza-card"
+  >
+    Ask Episteme →
+  </Link>
+
+</section>
+
+      <section className="glass-block">
         <h2>Original Source</h2>
 
         <a

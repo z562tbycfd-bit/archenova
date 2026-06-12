@@ -1,7 +1,77 @@
 {
   "ok": true,
-  "updated": "2026-06-11T18:58:27.509Z",
+  "updated": "2026-06-11T20:07:13.009Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Research proposes fairness framework for faculty promotion and tenure decisions",
+      "url": "https://phys.org/news/2026-06-fairness-framework-faculty-tenure-decisions.html",
+      "summary": "Granting promotions and tenure to faculty members is among the most consequential decisions a university makes. Growing evidence suggests that the process doesn't always work as it should.",
+      "ts": 1781208318000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Silent prions reveal new cross-species chronic wasting disease risk in lab tests",
+      "url": "https://phys.org/news/2026-06-silent-prions-reveal-species-chronic.html",
+      "summary": "Chronic wasting disease (CWD) is generally associated with animals. But a new study by researchers from the University of Calgary and international collaborators explored the potential for CWD to spread from deer, elk an…",
+      "ts": 1781208004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seven ratios predict SME insolvency up to three years early",
+      "url": "https://phys.org/news/2026-06-ratios-sme-insolvency-years-early.html",
+      "summary": "A study in the Global Business and Economics Review suggests that the failure of small and medium-sized enterprises (SMEs) can be predicted as much as three years before insolvency. The work could offer lenders, investor…",
+      "ts": 1781208003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Open-source AI may aid climate and development but deepen inequality, experts warn",
+      "url": "https://phys.org/news/2026-06-source-ai-aid-climate-deepen.html",
+      "summary": "Open-source artificial intelligence is advancing faster than the world can govern it, and the consequences could reshape the future of sustainability, democracy and global development. In a new comment published in Natur…",
+      "ts": 1781206808000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Salmonella genomes reveal 45 previously unknown toxins in foodborne bacteria",
+      "url": "https://phys.org/news/2026-06-salmonella-genomes-reveal-previously-unknown.html",
+      "summary": "Researchers at the University of São Paulo (USP) in Brazil have discovered 45 new toxins produced by Salmonella bacteria, some of which are associated with foodborne infections. The study was conducted at the Center for …",
+      "ts": 1781206806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Collapsing stars could spawn mini-universes, offering new path to gravastars",
+      "url": "https://phys.org/news/2026-06-collapsing-stars-spawn-mini-universes.html",
+      "summary": "Stars shine because atoms fuse in their interiors, releasing energy. When a very massive star has exhausted its nuclear fuel, radiation pressure can no longer provide sufficient counterforce to gravity. The star then col…",
+      "ts": 1781205604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'She should have seen it coming': How radicalization policies put the burden on Muslim mothers",
+      "url": "https://phys.org/news/2026-06-radicalization-policies-burden-muslim-mothers.html",
+      "summary": "For several years now, the radicalization of young people has been making headlines. This phenomenon can be linked to the far-right movement, as we saw on May 30 in Shawinigan during a demonstration calling for a \"White …",
+      "ts": 1781205602000
+    },
+    {
+      "source": "Science News",
+      "title": "Measles has no treatments. Getting some may not be easy",
+      "url": "https://www.sciencenews.org/article/measles-treatments-vaccine-clinical-trial",
+      "summary": "Vaccination remains the priority, but some researchers are looking for drugs to fight the virus in people who don't get the shot.",
+      "ts": 1781204663000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sharks, seals, hunters, tourists: How wildlife‑human interactions matter for conservation",
+      "url": "https://phys.org/news/2026-06-sharks-hunters-tourists-wildlifehuman-interactions.html",
+      "summary": "Our relationships with wildlife are dynamic. They can change rapidly and unexpectedly.",
+      "ts": 1781204405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemists snap together complex 3D molecules from highly reactive 'radicals'—without losing their shape",
+      "url": "https://phys.org/news/2026-06-chemists-snap-complex-3d-molecules.html",
+      "summary": "Building the complex 3D molecules needed for new medicines has always been a bit like assembling a puzzle with pieces that keep trying to flip over. Now, chemists at Scripps Research have found a way to snap two such mol…",
+      "ts": 1781204403000
+    },
     {
       "source": "Phys.org",
       "title": "Behind every overconfident leader might be a 'rational sycophant,' veteran game theorists find",
@@ -102,9 +172,9 @@
     },
     {
       "source": "Phys.org",
-      "title": "First leather bag from T-Rex cells to be auctioned in Paris",
+      "title": "First leather bag made from T-Rex cells fails to sell at Paris auction",
       "url": "https://phys.org/news/2026-06-leather-bag-rex-cells-auctioned.html",
-      "summary": "A leather bag made from Tyrannosaurus rex cells will be auctioned Thursday by Paris auction house Giquello, which estimates the \"one-of-a-kind\" piece could sell for more than $500,000.",
+      "summary": "A leather bag made from Tyrannosaurus rex cells failed to sell Thursday, the Paris auction house Drouot said, commenting that bids were well below expectations.",
       "ts": 1781199488000
     },
     {
@@ -630,76 +700,6 @@
       "title": "VEQ: a fast parametric Grad--Shafranov solver for fixed-boundary tokamak equilibria with flexible source profiles",
       "url": "https://arxiv.org/abs/2606.11821",
       "summary": "arXiv:2606.11821v1 Announce Type: new Abstract: Veloce EQuilibrium (VEQ) is a compact parametric framework for tokamak modeling workflows that repeatedly query continuous fixed-boundary equilibria at low latency. The VEQ…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Breakdown of the classical rupture theory and earthquake propagation in the \"forbidden\" super-Rayleigh range",
-      "url": "https://arxiv.org/abs/2606.11849",
-      "summary": "arXiv:2606.11849v1 Announce Type: new Abstract: Earthquakes propagating faster than the shear wave-speed are commonly thought to undergo a super-shear transition upon which they discontinuously jump from the sub-Rayleigh…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extreme, transient bursts of energy in the auroral ionosphere. II. A magnetotail dipolarization event",
-      "url": "https://arxiv.org/abs/2606.11861",
-      "summary": "arXiv:2606.11861v1 Announce Type: new Abstract: We report ground-based coherent VHF radar observations of extreme turbulent field-structures detected in coincidence with a magnetospheric substorm-associated magnetotail d…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thin-film drainage becomes singular at saddles",
-      "url": "https://arxiv.org/abs/2606.11881",
-      "summary": "arXiv:2606.11881v1 Announce Type: new Abstract: Thin films draining on top of curved surfaces occur in coating, manufacturing, and geophysical flows, where predicting accumulation and thinning is crucial. Unlike singular…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-Pulsing Microring Resonator Networks for Bandwidth-Efficient Event Detection in an Optical Fiber Sensor",
-      "url": "https://arxiv.org/abs/2606.11940",
-      "summary": "arXiv:2606.11940v1 Announce Type: new Abstract: The native processing of time-dependent signals from optical sensors by integrated photonic circuits can potentially bring significant advantages in terms of energy consump…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhancement of nitride-based solar cells using graphene as transparent contact layer",
-      "url": "https://arxiv.org/abs/2606.11941",
-      "summary": "arXiv:2606.11941v1 Announce Type: new Abstract: The effect of using a graphene layer as a semitransparent contact layer is studied in solar cells based on AlInN on Si (100) substrates. The devices consist of AlxIn1-xN la…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Thematic Analysis of A-level Physics Examiner Reports on Gravity",
-      "url": "https://arxiv.org/abs/2606.11944",
-      "summary": "arXiv:2606.11944v1 Announce Type: new Abstract: Examiner reports from six major UK exam boards published between 2017 and 2025 are analysed using a mixed-methods thematic analysis. Focusing on questions relating to gravi…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergent dilemma and periodic oscillation in the nonlinear interplay between epidemic and behavior",
-      "url": "https://arxiv.org/abs/2606.12013",
-      "summary": "arXiv:2606.12013v1 Announce Type: new Abstract: Human behaviors, particularly non-pharmaceutical interventions (NPIs), are dynamically coupled with epidemic spreading. While prior studies mainly assume a linear interplay…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling of Dark Count Probability in Perimeter-Gated SPADs",
-      "url": "https://arxiv.org/abs/2606.12055",
-      "summary": "arXiv:2606.12055v1 Announce Type: new Abstract: This Letter presents a novel analytical framework showing that the dark count probability (PDC) of perimeter-gated single-photon avalanche diodes (pg-SPADs) follows a compl…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-symmetry lattices of non-chiral meta-atoms for resonant handedness-preserving reflection",
-      "url": "https://arxiv.org/abs/2606.12067",
-      "summary": "arXiv:2606.12067v1 Announce Type: new Abstract: Mirrors that preserve the handedness of optical radiation upon reflection are an essential building block for the design of numerous resonant nanophotonic structures with c…",
-      "ts": 1781150400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Limit on the nuclear Schiff moment of europium-153",
-      "url": "https://arxiv.org/abs/2606.12084",
-      "summary": "arXiv:2606.12084v1 Announce Type: new Abstract: The Schiff moment of a nucleus is a symmetry-violating nuclear moment that indicates new physics beyond the Standard Model. We place the limit, $|\\mathscr{S}({}^{153}$Eu)$|…",
       "ts": 1781150400000
     }
   ],

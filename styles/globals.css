@@ -11100,3 +11100,31 @@ html, body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.episteme-analysis {
+  border-color: rgba(180, 200, 255, 0.22);
+}
+
+.episteme-analysis-grid {
+  display: grid;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.episteme-analysis-grid div {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.episteme-analysis-grid strong {
+  display: block;
+  margin-bottom: 8px;
+  letter-spacing: 0.08em;
+}
+
+.episteme-analysis-grid p {
+  margin: 0;
+  line-height: 1.7;
+  opacity: 0.86;
+}
