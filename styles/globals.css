@@ -11448,3 +11448,31 @@ html, body {
   opacity: 0.78;
   line-height: 1.6;
 }
+.strategy-grid {
+  display: grid;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.strategy-card {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.strategy-card.priority {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.22);
+}
+
+.strategy-card strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.strategy-card p {
+  margin: 0;
+  opacity: 0.78;
+  line-height: 1.6;
+}

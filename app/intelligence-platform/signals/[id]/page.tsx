@@ -22,6 +22,141 @@ type Signal = {
   };
 };
 
+function getStrategyProfile(signal: Signal) {
+  const text = `
+    ${signal.title}
+    ${signal.observation}
+    ${signal.implication}
+    ${signal.commentary}
+  `.toLowerCase();
+
+  if (
+    text.includes("fusion") ||
+    text.includes("hydrogen") ||
+    text.includes("battery") ||
+    text.includes("energy")
+  ) {
+    return {
+      immediate:
+        "Validate technical performance, safety, reliability, cost structure, and deployment constraints through pilots and demonstration systems.",
+      strategic:
+        "Build energy partnerships, grid integration pathways, storage ecosystems, supply chains, and industrial deployment models.",
+      longTerm:
+        "Position this capability as part of a resilient energy-abundant civilization infrastructure.",
+      leverage:
+        "Energetic freedom: expanding the power available for computation, manufacturing, mobility, resilience, and exploration.",
+      priority: "Very High",
+    };
+  }
+
+  if (
+    text.includes("quantum") ||
+    text.includes("qubit") ||
+    text.includes("photon")
+  ) {
+    return {
+      immediate:
+        "Validate stability, coherence, measurement accuracy, error behavior, and integration with classical systems.",
+      strategic:
+        "Develop quantum devices, secure communication layers, sensing networks, standards, and hybrid infrastructure pathways.",
+      longTerm:
+        "Position quantum systems as a synchronization, sensing, security, and computation layer for advanced civilization infrastructure.",
+      leverage:
+        "Synchronization advantage: improving precision, security, sensing, and distributed coordination.",
+      priority: "High",
+    };
+  }
+
+  if (
+    text.includes("ai") ||
+    text.includes("agent") ||
+    text.includes("machine learning") ||
+    text.includes("model")
+  ) {
+    return {
+      immediate:
+        "Evaluate reliability, reasoning quality, safety, workflow integration, data governance, and operational usefulness.",
+      strategic:
+        "Deploy AI into research, engineering, monitoring, automation, institutional decision support, and knowledge infrastructure.",
+      longTerm:
+        "Develop AI as a civilization-scale cognitive infrastructure for prediction, coordination, design, and adaptive governance.",
+      leverage:
+        "Cognitive leverage: accelerating discovery, strategy, coordination, and institutional learning.",
+      priority: "Very High",
+    };
+  }
+
+  if (
+    text.includes("robot") ||
+    text.includes("automation") ||
+    text.includes("manufacturing")
+  ) {
+    return {
+      immediate:
+        "Validate task reliability, safety, maintainability, control systems, and cost-performance in real operational environments.",
+      strategic:
+        "Integrate robotics into production, logistics, inspection, maintenance, and remote or hazardous operations.",
+      longTerm:
+        "Develop robotic systems as a physical execution layer for infrastructure, manufacturing, and off-Earth operations.",
+      leverage:
+        "Execution leverage: converting knowledge into repeatable physical action at scale.",
+      priority: "High",
+    };
+  }
+
+  if (
+    text.includes("gene") ||
+    text.includes("cell") ||
+    text.includes("protein") ||
+    text.includes("medicine") ||
+    text.includes("health")
+  ) {
+    return {
+      immediate:
+        "Prioritize validation, safety, reproducibility, clinical relevance, ethics, and translational feasibility.",
+      strategic:
+        "Build diagnostics, therapeutics, clinical platforms, bio-manufacturing systems, and health data infrastructure.",
+      longTerm:
+        "Develop biological resilience infrastructure that improves healthspan, adaptive capacity, and survivability.",
+      leverage:
+        "Adaptive biological leverage: increasing resilience, recovery, and life-supporting capability.",
+      priority: "Very High",
+    };
+  }
+
+  if (
+    text.includes("space") ||
+    text.includes("satellite") ||
+    text.includes("orbital") ||
+    text.includes("mars") ||
+    text.includes("nasa")
+  ) {
+    return {
+      immediate:
+        "Validate mission reliability, launch economics, orbital operations, communications, autonomy, and environmental constraints.",
+      strategic:
+        "Expand satellite networks, orbital logistics, ground infrastructure, space services, and cross-domain integration.",
+      longTerm:
+        "Position space systems as a foundation for planetary sensing, orbital industry, and multi-domain civilization capability.",
+      leverage:
+        "Domain expansion leverage: extending civilization's operational range beyond Earth-bound constraints.",
+      priority: "High",
+    };
+  }
+
+  return {
+    immediate:
+      "Clarify the scientific basis, practical constraints, validation requirements, and early implementation pathway.",
+    strategic:
+      "Identify where this signal can connect to engineering systems, institutions, capital, infrastructure, and long-term capability.",
+    longTerm:
+      "Position the signal within broader civilization-scale development, adaptation, and future possibility expansion.",
+    leverage:
+      "Systems leverage: connecting discovery, capability, infrastructure, institutions, and future option space.",
+    priority: "Medium",
+  };
+}
+
 function getOpportunityProfile(signal: Signal) {
   const text = `
     ${signal.title}
@@ -532,6 +667,8 @@ if (found) {
 
   const opportunities = getOpportunityProfile(signal);
 
+  const strategy = getStrategyProfile(signal);
+
   const dependencySignals = relatedSignals
   .filter(
     (item) =>
@@ -904,6 +1041,48 @@ const currentStage =
     <div className="opportunity-card">
       <strong>Policy / Governance Opportunity</strong>
       <p>{opportunities.governance}</p>
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <span className="home-section-label">
+    CIVILIZATION STRATEGY ENGINE
+  </span>
+
+  <h2>Strategy Engine</h2>
+
+  <p>
+    ArcheNova translates this signal into strategic
+    action layers: immediate validation, strategic
+    deployment, long-term positioning, and civilization
+    leverage.
+  </p>
+
+  <div className="strategy-grid">
+    <div className="strategy-card">
+      <strong>Immediate Actions</strong>
+      <p>{strategy.immediate}</p>
+    </div>
+
+    <div className="strategy-card">
+      <strong>Strategic Actions</strong>
+      <p>{strategy.strategic}</p>
+    </div>
+
+    <div className="strategy-card">
+      <strong>Long-Term Actions</strong>
+      <p>{strategy.longTerm}</p>
+    </div>
+
+    <div className="strategy-card">
+      <strong>Civilization Leverage Point</strong>
+      <p>{strategy.leverage}</p>
+    </div>
+
+    <div className="strategy-card priority">
+      <strong>Strategic Priority</strong>
+      <p>{strategy.priority}</p>
     </div>
   </div>
 </section>
