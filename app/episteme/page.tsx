@@ -2,6 +2,7 @@ import Link from "next/link";
 import EpistemeDialogue from "../components/EpistemeDialogue";
 import EpistemeAnalysisEngine from "../components/EpistemeAnalysisEngine";
 import ArcheNovaPaperGenerator from "../components/ArcheNovaPaperGenerator";
+import ArcheNovaResearchEngine from "../components/ArcheNovaResearchEngine";
 
 export default function EpistemePage({
   searchParams,
@@ -51,7 +52,10 @@ export default function EpistemePage({
       <EpistemeAnalysisEngine query={query} />
 
       {isSignalAnalysis && (
+        <>
   <ArcheNovaPaperGenerator query={query} />
+  <ArcheNovaResearchEngine query={query} />
+  </>
 )}
 
       {!isSignalAnalysis && (
