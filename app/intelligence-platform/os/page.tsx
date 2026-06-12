@@ -327,6 +327,42 @@ export default function CivilizationOSPage() {
   const topCapital = capitalAllocation[0];
   const recommended = metaAllocation[0];
 
+ const adaptiveMode = (() => {
+  const priority = topPriority?.value ?? 0;
+  const risk = topRisk?.value ?? 0;
+  const mode = recommended?.mode ?? "Monitor";
+
+  if (priority >= 25 && risk < 25 && mode === "Expand") {
+    return {
+      title: "Expansion Mode",
+      description:
+        "ArcheNova recommends expanding strategic attention toward the leading domain while maintaining monitoring of adjacent risks.",
+    };
+  }
+
+  if (priority >= 25 && risk >= 25) {
+    return {
+      title: "Risk-Control Mode",
+      description:
+        "ArcheNova detects high strategic importance combined with elevated risk exposure. Expansion should be paired with governance, validation, and resilience controls.",
+    };
+  }
+
+  if (priority < 15) {
+    return {
+      title: "Monitoring Mode",
+      description:
+        "ArcheNova recommends continued observation until stronger signal density, strategic priority, or capital allocation emerges.",
+    };
+  }
+
+  return {
+    title: "Balanced Mode",
+    description:
+      "ArcheNova recommends maintaining balanced strategic attention across priority, capital allocation, risk exposure, and signal development.",
+  };
+})(); 
+
   return (
     <main className="page-standard">
       <div className="page-head">
@@ -365,6 +401,20 @@ export default function CivilizationOSPage() {
           </div>
         </div>
       </section>
+
+      <section className="glass-block">
+  <h2>Adaptive Operating Mode</h2>
+
+  <div className="feed-row wide">
+    <div className="feed-title">
+      {adaptiveMode.title}
+    </div>
+
+    <div className="feed-summary">
+      {adaptiveMode.description}
+    </div>
+  </div>
+</section>
 
       <section className="glass-block">
         <h2>Operating Priorities</h2>
