@@ -247,6 +247,37 @@ const currentStage =
     <section className="glass-block">
 
   <span className="home-section-label">
+    CIVILIZATION MATURITY
+  </span>
+
+  <p>{maturity.description}</p>
+
+  <div className="maturity-index">
+
+    <div className="maturity-score">
+      <span>{maturity.stage}</span>
+
+      <strong>
+        {maturity.score.toFixed(1)} / 10
+      </strong>
+    </div>
+
+    <div className="maturity-bar">
+      <div
+        className="maturity-bar-fill"
+        style={{
+          width: `${maturity.score * 10}%`,
+        }}
+      />
+    </div>
+
+  </div>
+
+</section>
+
+<section className="glass-block">
+
+  <span className="home-section-label">
     CIVILIZATION TIMELINE
   </span>
 
@@ -254,28 +285,6 @@ const currentStage =
     ArcheNova interprets each signal as part of a
     larger civilizational development pathway.
   </p>
-
-  <section className="glass-block">
-  <span className="home-section-label">
-    CIVILIZATION MATURITY
-  </span>
-
-  <p>{maturity.description}</p>
-
-  <div className="maturity-index">
-    <div className="maturity-score">
-      <span>{maturity.stage}</span>
-      <strong>{maturity.score.toFixed(1)} / 10</strong>
-    </div>
-
-    <div className="maturity-bar">
-      <div
-        className="maturity-bar-fill"
-        style={{ width: `${maturity.score * 10}%` }}
-      />
-    </div>
-  </div>
-</section>
 
   <div className="civilization-timeline">
 
@@ -289,7 +298,9 @@ const currentStage =
         }`}
       >
         <span className="timeline-dot">
-          {index <= currentStage ? "●" : "○"}
+          {index <= currentStage
+            ? "●"
+            : "○"}
         </span>
 
         <span>{stage}</span>
