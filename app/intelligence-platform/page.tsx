@@ -2,34 +2,22 @@ import Link from "next/link";
 
 const modules = [
   {
-    title: "Reports",
-    href: "/intelligence-platform/reports",
-    text:
-      "Auto-generated ArcheNova Intelligence Reports with signal analysis, implementation pathways, roadmaps, horizons, and civilization impact assessment.",
-  },
-  {
     title: "Signals",
     href: "/intelligence-platform/signals",
     text:
-      "Scientific and technological signals ranked by implementation potential, infrastructure impact, and civilizational significance.",
+      "Scientific and technological signals ranked by implementation potential, infrastructure impact, forecast trajectories, opportunity space, and civilization significance.",
   },
   {
-    title: "Watchlist",
-    href: "/intelligence-platform/watchlist",
+    title: "Reports",
+    href: "/intelligence-platform/reports",
     text:
-      "Technologies requiring continuous monitoring across future implementation pathways and strategic horizons.",
+      "Auto-generated ArcheNova intelligence reports connecting scientific discoveries to implementation pathways, infrastructure formation, and civilization-scale understanding.",
   },
   {
-    title: "Risks",
-    href: "/intelligence-platform/risks",
+    title: "Civilization Portfolio",
+    href: "/intelligence-platform/portfolio",
     text:
-      "Implementation, governance, infrastructure, resilience, and civilization-scale risks associated with emerging technologies.",
-  },
-  {
-    title: "Roadmaps",
-    href: "/intelligence-platform/roadmaps",
-    text:
-      "Technology evolution pathways from scientific discovery to infrastructure formation and civilization capability.",
+      "Portfolio-level analysis of strategic domains, resource allocation priorities, long-term leverage, and civilization-scale development trajectories.",
   },
 ];
 
