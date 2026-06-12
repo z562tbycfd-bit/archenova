@@ -929,77 +929,105 @@ function detectArcheNovaSignalCategory(item) {
 function makeSignalScore(item, category) {
   const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
 
-  let discovery = 5.5;
-  let capability = 5.5;
-  let infrastructure = 5.5;
-  let civilization = 5.5;
+  let realityDiscovery = 5.5;
+  let capabilityExpansion = 5.5;
+  let infrastructureImpact = 5.5;
+  let synchronizationImpact = 5.5;
+  let adaptiveCapacity = 5.5;
+  let civilizationImpact = 5.5;
 
   if (category === "Reality Discovery") {
-    discovery += 2.2;
-    civilization += 1.0;
+    realityDiscovery += 2.4;
+    civilizationImpact += 0.8;
   }
 
   if (category === "Capability Expansion") {
-    capability += 2.2;
-    infrastructure += 0.8;
+    capabilityExpansion += 2.4;
+    infrastructureImpact += 0.8;
   }
 
   if (category === "Infrastructure Formation") {
-    infrastructure += 2.3;
-    civilization += 1.2;
+    infrastructureImpact += 2.4;
+    civilizationImpact += 1.0;
   }
 
   if (category === "Synchronization Systems") {
-    infrastructure += 1.5;
-    civilization += 1.4;
+    synchronizationImpact += 2.5;
+    infrastructureImpact += 1.0;
+    civilizationImpact += 0.8;
   }
 
   if (category === "Adaptive Capacity") {
-    civilization += 1.8;
-    infrastructure += 0.8;
+    adaptiveCapacity += 2.5;
+    civilizationImpact += 1.0;
   }
 
   if (category === "Civilization Engineering") {
-    discovery += 0.8;
-    capability += 0.8;
-    infrastructure += 0.8;
-    civilization += 1.8;
+    realityDiscovery += 0.7;
+    capabilityExpansion += 0.7;
+    infrastructureImpact += 0.7;
+    synchronizationImpact += 0.7;
+    adaptiveCapacity += 0.7;
+    civilizationImpact += 1.8;
   }
 
-  if (includesAny(text, ["breakthrough", "first", "novel", "new", "advanced"])) {
-    discovery += 0.5;
+  if (includesAny(text, ["quantum", "physics", "astronomy", "cosmic", "gravity", "telescope", "detector"])) {
+    realityDiscovery += 0.8;
+    synchronizationImpact += 0.4;
   }
 
-  if (includesAny(text, ["prototype", "manufacturing", "deployment", "platform", "scale", "scalable"])) {
-    capability += 0.6;
-    infrastructure += 0.4;
+  if (includesAny(text, ["robot", "automation", "manufacturing", "semiconductor", "chip", "battery", "fusion", "hydrogen"])) {
+    capabilityExpansion += 0.8;
+    infrastructureImpact += 0.5;
   }
 
   if (includesAny(text, ["grid", "satellite", "hospital", "data center", "factory", "network", "infrastructure"])) {
-    infrastructure += 0.7;
+    infrastructureImpact += 0.8;
+    synchronizationImpact += 0.4;
   }
 
-  if (includesAny(text, ["climate", "energy", "space", "health", "quantum", "ai", "robotics", "fusion"])) {
-    civilization += 0.5;
+  if (includesAny(text, ["communication", "sensor", "monitoring", "coordination", "cybersecurity", "signal"])) {
+    synchronizationImpact += 0.8;
   }
 
-  discovery = clampScore(discovery);
-  capability = clampScore(capability);
-  infrastructure = clampScore(infrastructure);
-  civilization = clampScore(civilization);
+  if (includesAny(text, ["climate", "health", "medicine", "disease", "gene", "cell", "water", "environment", "risk", "resilience"])) {
+    adaptiveCapacity += 0.9;
+    civilizationImpact += 0.4;
+  }
+
+  if (includesAny(text, ["breakthrough", "first", "novel", "advanced", "new"])) {
+    realityDiscovery += 0.4;
+    civilizationImpact += 0.3;
+  }
+
+  if (includesAny(text, ["deployment", "scalable", "scale", "platform", "commercial", "industrial"])) {
+    capabilityExpansion += 0.5;
+    infrastructureImpact += 0.5;
+  }
+
+  realityDiscovery = clampScore(realityDiscovery);
+  capabilityExpansion = clampScore(capabilityExpansion);
+  infrastructureImpact = clampScore(infrastructureImpact);
+  synchronizationImpact = clampScore(synchronizationImpact);
+  adaptiveCapacity = clampScore(adaptiveCapacity);
+  civilizationImpact = clampScore(civilizationImpact);
 
   const overall = clampScore(
-    discovery * 0.25 +
-      capability * 0.25 +
-      infrastructure * 0.25 +
-      civilization * 0.25
+    realityDiscovery * 0.18 +
+      capabilityExpansion * 0.17 +
+      infrastructureImpact * 0.18 +
+      synchronizationImpact * 0.15 +
+      adaptiveCapacity * 0.15 +
+      civilizationImpact * 0.17
   );
 
   return {
-    discovery,
-    capability,
-    infrastructure,
-    civilization,
+    realityDiscovery,
+    capabilityExpansion,
+    infrastructureImpact,
+    synchronizationImpact,
+    adaptiveCapacity,
+    civilizationImpact,
     overall,
   };
 }
