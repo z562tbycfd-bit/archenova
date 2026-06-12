@@ -1,32 +1,21 @@
 import Link from "next/link";
 import EpistemeDialogue from "../components/EpistemeDialogue";
+import EpistemeAnalysisEngine from "../components/EpistemeAnalysisEngine";
 
-const layers = [
-  "Essence",
-  "Structure",
-  "Causality",
-  "Assumptions",
-  "Constraints",
-  "Alternative Models",
-  "Meta-Knowledge",
-  "Civilization Meaning",
-];
+export default function EpistemePage({
+  searchParams,
+}: {
+  searchParams?: {
+    query?: string;
+  };
+}) {
+  const query = searchParams?.query || "";
 
-const flow = [
-  "Question",
-  "Observation",
-  "Knowledge Structure",
-  "Causal Interpretation",
-  "Assumption Check",
-  "Alternative Model",
-  "Meta-Knowledge",
-  "Civilizational Synthesis",
-];
-
-export default function EpistemePage() {
   return (
     <main className="page-standard">
+
       <div className="page-head">
+
         <span className="home-section-label">
           EPISTEME
         </span>
@@ -34,51 +23,52 @@ export default function EpistemePage() {
         <h1>Episteme</h1>
 
         <p className="page-lead">
-          ArcheNova&apos;s meta-knowledge intelligence layer for examining how
-          knowledge is formed, structured, validated, constrained, transformed,
-          and expanded across civilization.
+          Meta-Knowledge Intelligence
         </p>
+
       </div>
 
+      {query && (
+        <section className="glass-block">
+
+          <span className="home-section-label">
+            SIGNAL CONTEXT
+          </span>
+
+          <h2>{query}</h2>
+
+          <p>
+            Episteme is analyzing the deeper structure,
+            assumptions, constraints, implications, and
+            civilizational significance associated with
+            this signal.
+          </p>
+
+        </section>
+      )}
+
       <section className="glass-block">
+
         <h2>Mission</h2>
 
         <p>
-          Episteme does not merely answer questions. It investigates the
-          foundations beneath knowledge: essence, structure, causality,
-          assumptions, limits, alternatives, and civilization-scale meaning.
+          Episteme examines how knowledge is formed,
+          validated, constrained, transformed, and
+          expanded across civilization.
         </p>
 
-        <p>
-          Its role is to move beyond information retrieval toward reflective
-          intelligence: understanding not only what is known, but how knowledge
-          becomes reliable, useful, and transformative.
-        </p>
       </section>
 
-       <EpistemeDialogue />
+      <EpistemeAnalysisEngine query={query} />
 
-      <section className="glass-block">
-        <h2>Episteme Dialogue</h2>
-
-        <p>
-          The dialogue interface will be implemented here as ArcheNova&apos;s
-          reflective reasoning system. It will explore questions through
-          knowledge structure, causal pathways, assumptions, counter-models,
-          implementation logic, and civilizational synthesis.
-        </p>
-
-        <p>
-          Structural AI remains the retrieval and research search layer.
-          Episteme becomes the meta-knowledge reasoning layer.
-        </p>
-      </section>
+      <EpistemeDialogue />
 
       <div className="page-foot">
         <Link href="/home" className="back-link">
           ← Back to Home
         </Link>
       </div>
+
     </main>
   );
 }
