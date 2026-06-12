@@ -13,6 +13,82 @@ type Signal = {
   commentary: string;
 };
 
+const categoryTemplates: Record<
+  string,
+  {
+    structural: string;
+    assumptions: string;
+    constraints: string;
+    future: string;
+  }
+> = {
+  "Reality Discovery": {
+    structural:
+      "This signal expands civilization's ability to observe, model, and understand reality.",
+    assumptions:
+      "Observed phenomena accurately reflect underlying structures of reality.",
+    constraints:
+      "Measurement limitations, uncertainty, reproducibility, and incomplete models.",
+    future:
+      "New scientific models, improved prediction, and deeper reality accessibility.",
+  },
+
+  "Capability Expansion": {
+    structural:
+      "This signal expands operational capability and increases the range of achievable actions.",
+    assumptions:
+      "The capability can become reliable, scalable, and economically viable.",
+    constraints:
+      "Manufacturing limits, deployment costs, and operational reliability.",
+    future:
+      "Industrial deployment and expansion of practical capability.",
+  },
+
+  "Infrastructure Formation": {
+    structural:
+      "This signal contributes to the emergence of durable infrastructure systems.",
+    assumptions:
+      "Infrastructure can be maintained across institutions and generations.",
+    constraints:
+      "Capital requirements, maintenance burden, and interoperability.",
+    future:
+      "Infrastructure accumulation and civilization-scale stability.",
+  },
+
+  "Synchronization Systems": {
+    structural:
+      "This signal improves coordination between distributed systems.",
+    assumptions:
+      "Synchronization increases efficiency and reduces systemic friction.",
+    constraints:
+      "Latency, interoperability, security, and governance complexity.",
+    future:
+      "Planetary-scale coordination and distributed intelligence.",
+  },
+
+  "Adaptive Capacity": {
+    structural:
+      "This signal increases civilization's ability to adapt under uncertainty.",
+    assumptions:
+      "Adaptation mechanisms remain responsive to changing conditions.",
+    constraints:
+      "Response delays, information quality, and resource limitations.",
+    future:
+      "Improved resilience, recovery, and long-term survivability.",
+  },
+
+  "Civilization Engineering": {
+    structural:
+      "This signal affects the architecture through which civilization evolves.",
+    assumptions:
+      "Institutions, technology, and knowledge can be integrated coherently.",
+    constraints:
+      "Governance, legitimacy, coordination complexity, and path dependency.",
+    future:
+      "Transformation of civilization-scale systems and future possibility space.",
+  },
+};
+
 export default function EpistemeAnalysisEngine({
   query,
 }: {
@@ -39,9 +115,13 @@ export default function EpistemeAnalysisEngine({
         const normalizedQuery = query.toLowerCase();
 
         const found =
-          (data.items || []).find((item: Signal) => item.title === query) ||
+          (data.items || []).find(
+            (item: Signal) => item.title === query
+          ) ||
           (data.items || []).find((item: Signal) =>
-            item.title.toLowerCase().includes(normalizedQuery)
+            item.title
+              .toLowerCase()
+              .includes(normalizedQuery)
           );
 
         if (!cancel) {
@@ -63,6 +143,13 @@ export default function EpistemeAnalysisEngine({
 
   if (!query) return null;
 
+  const analysis = signal
+    ? categoryTemplates[
+        signal.category as keyof typeof categoryTemplates
+      ] ??
+      categoryTemplates["Civilization Engineering"]
+    : null;
+
   return (
     <section className="glass-block episteme-analysis">
       <span className="home-section-label">
@@ -76,34 +163,27 @@ export default function EpistemeAnalysisEngine({
           <div className="episteme-analysis-grid">
             <div>
               <strong>Structural Meaning</strong>
-              <p>
-                This signal belongs to the category of{" "}
-                <b>{signal.category}</b>. Its deeper meaning is not the article
-                itself, but the structural transition it may indicate.
-              </p>
+              <p>{analysis?.structural}</p>
             </div>
 
             <div>
               <strong>Underlying Assumptions</strong>
-              <p>
-                The signal assumes that the observed scientific or technological
-                development can become reliable, scalable, and institutionally
-                meaningful.
-              </p>
+              <p>{analysis?.assumptions}</p>
             </div>
 
             <div>
               <strong>Potential Constraints</strong>
-              <p>
-                Constraints may include validation, cost, reproducibility,
-                governance, infrastructure compatibility, and long-term
-                operational reliability.
-              </p>
+              <p>{analysis?.constraints}</p>
             </div>
 
             <div>
               <strong>Civilizational Relevance</strong>
               <p>{signal.commentary}</p>
+            </div>
+
+            <div>
+              <strong>Future Trajectory</strong>
+              <p>{analysis?.future}</p>
             </div>
           </div>
 
@@ -120,8 +200,9 @@ export default function EpistemeAnalysisEngine({
         </>
       ) : (
         <p>
-          Episteme received the signal context, but no matching local signal
-          record was found.
+          Episteme received the signal context,
+          but no matching local signal record
+          was found.
         </p>
       )}
     </section>
