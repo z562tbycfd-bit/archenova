@@ -1,196 +1,6 @@
 export const generatedResearchReports =
 [
   {
-    "slug": "general-antarctic-peninsula-sees-record-high-june-temperatures",
-    "title": "Antarctic Peninsula sees record high June temperatures",
-    "category": "General",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-antarctic-peninsula-high-june-temperatures.html",
-    "summary": "Temperatures in the Antarctic Peninsula have reached a record-breaking high of 15.4C for June, and ice is melting at abnormal rates during the current winter, climate scientists told AFP on Thursday.",
-    "scientificSignal": "Temperatures in the Antarctic Peninsula have reached a record-breaking high of 15.4C for June, and ice is melting at abnormal rates during the current winter, climate scientists told AFP on Thursday.",
-    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
-    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
-    "technologyRoadmap": [
-      "Environmental signal discovery",
-      "Monitoring or adaptation system",
-      "Regional deployment",
-      "Infrastructure and governance integration",
-      "Planetary adaptive capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Monitoring and adaptation tools.",
-      "mid": "5–15 Years: Regional resilience infrastructure.",
-      "far": "15–30 Years: Planetary adaptive-capacity systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.1,
-      "engineering": 7.9,
-      "economic": 8,
-      "civilization": 9.2,
-      "overall": 8.4,
-      "classification": "Adaptive Resilience Signal"
-    },
-    "ts": 1781252402000
-  },
-  {
-    "slug": "ai-spacex-ipo-set-for-liftoff-in-record-market-debut",
-    "title": "SpaceX IPO set for liftoff in record market debut",
-    "category": "AI",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-spacex-ipo-liftoff-debut.html",
-    "summary": "Elon Musk's SpaceX was set to begin trading on the Nasdaq exchange Friday, with the biggest initial public offering in history expected to make the polarizing entrepreneur the world's first trillionaire.",
-    "scientificSignal": "Elon Musk's SpaceX was set to begin trading on the Nasdaq exchange Friday, with the biggest initial public offering in history expected to make the polarizing entrepreneur the world's first trillionaire.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.8,
-      "engineering": 9.6,
-      "economic": 8.4,
-      "civilization": 10,
-      "overall": 9.3,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781251801000
-  },
-  {
-    "slug": "ai-earth-from-space-buenos-aires",
-    "title": "Earth from Space: Buenos Aires",
-    "category": "AI",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Buenos_Aires",
-    "summary": "Image: This radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary. Zoom in to explore this image at its full resol…",
-    "scientificSignal": "Image: This radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary. Zoom in to explore this image at its full resol…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.3,
-      "economic": 8.1,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781251200000
-  },
-  {
-    "slug": "ai-science-fiction-musk-s-lofty-spacex-goals-unrealistic-skeptics-say",
-    "title": "Science fiction? Musk's lofty SpaceX goals unrealistic, skeptics say",
-    "category": "AI",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-science-fiction-musk-lofty-spacex.html",
-    "summary": "Elon Musk's SpaceX has made awe-inspiring achievements since its founding more than two decades ago and has big ideas—colonies on Mars, orbital AI data centers, rapidly reusable rockets—for the future.",
-    "scientificSignal": "Elon Musk's SpaceX has made awe-inspiring achievements since its founding more than two decades ago and has big ideas—colonies on Mars, orbital AI data centers, rapidly reusable rockets—for the future.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 9.7,
-      "economic": 8.5,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781251106000
-  },
-  {
-    "slug": "space-conversations-in-the-sky-galileo-s-intersatellite-links-tested",
-    "title": "Conversations in the sky: Galileo’s intersatellite links tested",
-    "category": "Space",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Applications/Satellite_navigation/Conversations_in_the_sky_Galileo_s_intersatellite_links_tested",
-    "summary": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, e…",
-    "scientificSignal": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, e…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 9.7,
-      "economic": 8.5,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781246700000
-  },
-  {
     "slug": "general-world-cup-fever-in-guadalajara",
     "title": "World Cup Fever in Guadalajara",
     "category": "General",
@@ -3799,6 +3609,196 @@ export const generatedResearchReports =
       "classification": "Intelligence Infrastructure Signal"
     },
     "ts": 1781236800000
+  },
+  {
+    "slug": "ai-molecular-reference-corrections-for-quantum-monte-carlo-adsorption-energies",
+    "title": "Molecular reference corrections for quantum Monte Carlo adsorption energies",
+    "category": "AI",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.12779",
+    "summary": "arXiv:2606.12779v1 Announce Type: cross Abstract: Accurate surface thermochemistry requires balanced error cancellation between extended slabs and molecular reference states. This balance can fail whenever the electronic…",
+    "scientificSignal": "arXiv:2606.12779v1 Announce Type: cross Abstract: Accurate surface thermochemistry requires balanced error cancellation between extended slabs and molecular reference states. This balance can fail whenever the electronic…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781236800000
+  },
+  {
+    "slug": "quantum-beyond-third-order-quantum-coherence-in-two-dimensional-spectroscopy-via-order-s",
+    "title": "Beyond-Third-Order Quantum Coherence in Two-Dimensional Spectroscopy via Order-Selective Isolation",
+    "category": "Quantum",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.12794",
+    "summary": "arXiv:2606.12794v1 Announce Type: cross Abstract: A central challenge in nonlinear spectroscopy is the order-selective readout of weak higher-order responses that spectrally overlap with dominant lower-order signals. Thi…",
+    "scientificSignal": "arXiv:2606.12794v1 Announce Type: cross Abstract: A central challenge in nonlinear spectroscopy is the order-selective readout of weak higher-order responses that spectrally overlap with dominant lower-order signals. Thi…",
+    "implementationPotential": "Implementation potential lies in moving this Quantum signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Quantum phenomenon control",
+      "Device stability",
+      "Scalable quantum system",
+      "Industrial application",
+      "New computation and sensing capability"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.3,
+      "engineering": 7.3,
+      "economic": 6.8,
+      "civilization": 7.6,
+      "overall": 7.3,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781236800000
+  },
+  {
+    "slug": "bio-when-proofreading-improves-both-speed-and-accuracy",
+    "title": "When proofreading improves both speed and accuracy",
+    "category": "Bio",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.12795",
+    "summary": "arXiv:2606.12795v1 Announce Type: cross Abstract: Proofreading is generally thought to improve accuracy at the expense of speed. We show that this trade-off can be reversed in stochastic processes with long-lived stalled…",
+    "scientificSignal": "arXiv:2606.12795v1 Announce Type: cross Abstract: Proofreading is generally thought to improve accuracy at the expense of speed. We show that this trade-off can be reversed in stochastic processes with long-lived stalled…",
+    "implementationPotential": "Implementation potential lies in moving this Bio signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Biological discovery",
+      "Platform translation",
+      "Validation and regulation",
+      "Healthcare or manufacturing adoption",
+      "Biological resilience infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781236800000
+  },
+  {
+    "slug": "quantum-accidental-symmetry-in-the-tavis-cummings-model-via-the-schwinger-boson-represen",
+    "title": "Accidental Symmetry in the Tavis-Cummings Model via the Schwinger Boson Representation",
+    "category": "Quantum",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.12813",
+    "summary": "arXiv:2606.12813v1 Announce Type: cross Abstract: The Jaynes-Cummings (JC) Hamiltonian is a paradigmatic model of light-matter interaction and, more generally, qubit-boson interactions, widely used across atomic, optical…",
+    "scientificSignal": "arXiv:2606.12813v1 Announce Type: cross Abstract: The Jaynes-Cummings (JC) Hamiltonian is a paradigmatic model of light-matter interaction and, more generally, qubit-boson interactions, widely used across atomic, optical…",
+    "implementationPotential": "Implementation potential lies in moving this Quantum signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Quantum phenomenon control",
+      "Device stability",
+      "Scalable quantum system",
+      "Industrial application",
+      "New computation and sensing capability"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781236800000
+  },
+  {
+    "slug": "ai-acquisition-state-behaves-as-a-structured-measurable-variable-governing-lung-nod",
+    "title": "Acquisition state behaves as a structured, measurable variable governing lung-nodule AI: kernel-driven measurement instability and noise-driven detection fragility, invisible to DICOM metadata",
+    "category": "AI",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.12824",
+    "summary": "arXiv:2606.12824v1 Announce Type: cross Abstract: AI governance for medical imaging is formalizing: the 2026 ACR-SIIM Practice Parameter recommends local acceptance testing and ongoing drift monitoring, and the ACR Asses…",
+    "scientificSignal": "arXiv:2606.12824v1 Announce Type: cross Abstract: AI governance for medical imaging is formalizing: the 2026 ACR-SIIM Practice Parameter recommends local acceptance testing and ongoing drift monitoring, and the ACR Asses…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781236800000
   }
 ];
 
@@ -4071,89 +4071,13 @@ export const archeNovaTopSignals =
     "ts": 1781236800000
   },
   {
-    "slug": "space-conversations-in-the-sky-galileo-s-intersatellite-links-tested",
-    "title": "Conversations in the sky: Galileo’s intersatellite links tested",
+    "slug": "space-quantum-entanglement-beyond-kinematics-a-dynamical-hypothesis-in-3-2-dimensional",
+    "title": "Quantum Entanglement Beyond Kinematics: A Dynamical Hypothesis in (3,2)-Dimensional Spacetime",
     "category": "Space",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Applications/Satellite_navigation/Conversations_in_the_sky_Galileo_s_intersatellite_links_tested",
-    "summary": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, e…",
-    "scientificSignal": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, e…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 9.7,
-      "economic": 8.5,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781246700000
-  },
-  {
-    "slug": "ai-science-fiction-musk-s-lofty-spacex-goals-unrealistic-skeptics-say",
-    "title": "Science fiction? Musk's lofty SpaceX goals unrealistic, skeptics say",
-    "category": "AI",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-science-fiction-musk-lofty-spacex.html",
-    "summary": "Elon Musk's SpaceX has made awe-inspiring achievements since its founding more than two decades ago and has big ideas—colonies on Mars, orbital AI data centers, rapidly reusable rockets—for the future.",
-    "scientificSignal": "Elon Musk's SpaceX has made awe-inspiring achievements since its founding more than two decades ago and has big ideas—colonies on Mars, orbital AI data centers, rapidly reusable rockets—for the future.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 9.7,
-      "economic": 8.5,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781251106000
-  },
-  {
-    "slug": "ai-spacex-ipo-set-for-liftoff-in-record-market-debut",
-    "title": "SpaceX IPO set for liftoff in record market debut",
-    "category": "AI",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-spacex-ipo-liftoff-debut.html",
-    "summary": "Elon Musk's SpaceX was set to begin trading on the Nasdaq exchange Friday, with the biggest initial public offering in history expected to make the polarizing entrepreneur the world's first trillionaire.",
-    "scientificSignal": "Elon Musk's SpaceX was set to begin trading on the Nasdaq exchange Friday, with the biggest initial public offering in history expected to make the polarizing entrepreneur the world's first trillionaire.",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.12457",
+    "summary": "arXiv:2606.12457v1 Announce Type: new Abstract: Quantum entanglement produces nonlocal correlations for which no local dynamical account is known. In Ref.[1] we proposed that these correlations are mediated through an ex…",
+    "scientificSignal": "arXiv:2606.12457v1 Announce Type: new Abstract: Quantum entanglement produces nonlocal correlations for which no local dynamical account is known. In Ref.[1] we proposed that these correlations are mediated through an ex…",
     "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
     "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
@@ -4182,7 +4106,83 @@ export const archeNovaTopSignals =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
-    "ts": 1781251801000
+    "ts": 1781236800000
+  },
+  {
+    "slug": "space-arch-e-an-orbital-free-molecular-dynamics-code-for-fast-production-of-equations-",
+    "title": "Arch\\^e, an orbital-free molecular dynamics code for fast production of equations of state",
+    "category": "Space",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.13283",
+    "summary": "arXiv:2606.13283v1 Announce Type: new Abstract: We present Arch\\^e, an orbital-free molecular dynamics (OFMD) code designed to produce equations of state (EOS) in the plasma state. Unlike in other OFMD codes, Arch\\^e use…",
+    "scientificSignal": "arXiv:2606.13283v1 Announce Type: new Abstract: We present Arch\\^e, an orbital-free molecular dynamics (OFMD) code designed to produce equations of state (EOS) in the plasma state. Unlike in other OFMD codes, Arch\\^e use…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
+      "civilization": 10,
+      "overall": 9.3,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781236800000
+  },
+  {
+    "slug": "space-learning-light-scattering-from-operator-parameter-spaces-to-galerkin-consistent-",
+    "title": "Learning light scattering from operator parameter spaces to Galerkin-consistent solution spaces",
+    "category": "Space",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.13320",
+    "summary": "arXiv:2606.13320v1 Announce Type: new Abstract: Efficient and generalizable full-wave simulation is essential for nanophotonic analysis and inverse design, yet existing methods face a tradeoff between the high computatio…",
+    "scientificSignal": "arXiv:2606.13320v1 Announce Type: new Abstract: Efficient and generalizable full-wave simulation is essential for nanophotonic analysis and inverse design, yet existing methods face a tradeoff between the high computatio…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
+      "civilization": 10,
+      "overall": 9.3,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781236800000
   }
 ];
 
@@ -4469,126 +4469,6 @@ export const archeNovaWatchlist =
     "rank": 7
   },
   {
-    "slug": "ai-science-fiction-musk-s-lofty-spacex-goals-unrealistic-skeptics-say",
-    "title": "Science fiction? Musk's lofty SpaceX goals unrealistic, skeptics say",
-    "category": "AI",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-science-fiction-musk-lofty-spacex.html",
-    "summary": "Elon Musk's SpaceX has made awe-inspiring achievements since its founding more than two decades ago and has big ideas—colonies on Mars, orbital AI data centers, rapidly reusable rockets—for the future.",
-    "scientificSignal": "Elon Musk's SpaceX has made awe-inspiring achievements since its founding more than two decades ago and has big ideas—colonies on Mars, orbital AI data centers, rapidly reusable rockets—for the future.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 9.7,
-      "economic": 8.5,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781251106000,
-    "trend": "Stable",
-    "rank": 8
-  },
-  {
-    "slug": "space-conversations-in-the-sky-galileo-s-intersatellite-links-tested",
-    "title": "Conversations in the sky: Galileo’s intersatellite links tested",
-    "category": "Space",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Applications/Satellite_navigation/Conversations_in_the_sky_Galileo_s_intersatellite_links_tested",
-    "summary": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, e…",
-    "scientificSignal": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, e…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 9.7,
-      "economic": 8.5,
-      "civilization": 10,
-      "overall": 9.4,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781246700000,
-    "trend": "Stable",
-    "rank": 9
-  },
-  {
-    "slug": "ai-spacex-ipo-set-for-liftoff-in-record-market-debut",
-    "title": "SpaceX IPO set for liftoff in record market debut",
-    "category": "AI",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-spacex-ipo-liftoff-debut.html",
-    "summary": "Elon Musk's SpaceX was set to begin trading on the Nasdaq exchange Friday, with the biggest initial public offering in history expected to make the polarizing entrepreneur the world's first trillionaire.",
-    "scientificSignal": "Elon Musk's SpaceX was set to begin trading on the Nasdaq exchange Friday, with the biggest initial public offering in history expected to make the polarizing entrepreneur the world's first trillionaire.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.8,
-      "engineering": 9.6,
-      "economic": 8.4,
-      "civilization": 10,
-      "overall": 9.3,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781251801000,
-    "trend": "Stable",
-    "rank": 10
-  },
-  {
     "slug": "space-quantum-entanglement-beyond-kinematics-a-dynamical-hypothesis-in-3-2-dimensional",
     "title": "Quantum Entanglement Beyond Kinematics: A Dynamical Hypothesis in (3,2)-Dimensional Spacetime",
     "category": "Space",
@@ -4626,7 +4506,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781236800000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 8
   },
   {
     "slug": "space-arch-e-an-orbital-free-molecular-dynamics-code-for-fast-production-of-equations-",
@@ -4666,7 +4546,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781236800000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 9
   },
   {
     "slug": "space-learning-light-scattering-from-operator-parameter-spaces-to-galerkin-consistent-",
@@ -4706,7 +4586,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781236800000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 10
   },
   {
     "slug": "space-experimental-design-space-exploration-of-ultra-low-threshold-hybrid-iii-v-si-qua",
@@ -4746,7 +4626,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781236800000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 11
   },
   {
     "slug": "space-orbital-optimized-density-functional-calculations-of-excited-electronic-states-r",
@@ -4786,7 +4666,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781236800000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 12
   },
   {
     "slug": "general-design-and-optimization-of-an-azo-based-plasmonic-metasurface-driven-optical-sol",
@@ -4826,7 +4706,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781236800000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 13
   },
   {
     "slug": "general-finding-novel-precursors-for-solar-wind-stream-interaction-regions-with-interpre",
@@ -4866,7 +4746,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781236800000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 14
   },
   {
     "slug": "general-bacterial-motility-across-scales-mechanisms-live-imaging-and-quantitative-analys",
@@ -4906,47 +4786,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781236800000,
     "trend": "Stable",
-    "rank": 18
-  },
-  {
-    "slug": "ai-earth-from-space-buenos-aires",
-    "title": "Earth from Space: Buenos Aires",
-    "category": "AI",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Buenos_Aires",
-    "summary": "Image: This radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary. Zoom in to explore this image at its full resol…",
-    "scientificSignal": "Image: This radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary. Zoom in to explore this image at its full resol…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.3,
-      "economic": 8.1,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781251200000,
-    "trend": "Stable",
-    "rank": 19
+    "rank": 15
   },
   {
     "slug": "general-beam-modelling-of-hitachi-probeat-proton-therapy-system-for-a-gpu-based-fast-mon",
@@ -4983,6 +4823,166 @@ export const archeNovaWatchlist =
       "civilization": 9.4,
       "overall": 8.9,
       "classification": "Biological Resilience Signal"
+    },
+    "ts": 1781236800000,
+    "trend": "Stable",
+    "rank": 16
+  },
+  {
+    "slug": "bio-radiology-report-semantic-modelling-and-host-response-laboratory-biomarkers-for-",
+    "title": "Radiology-Report Semantic Modelling and Host-Response Laboratory Biomarkers for Multimodal Survival Prediction in Lung Cancer",
+    "category": "Bio",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.13043",
+    "summary": "arXiv:2606.13043v1 Announce Type: new Abstract: TNM staging is essential for lung cancer management, but patients within the same anatomic stage often show heterogeneous survival outcomes. We developed a multimodal adapt…",
+    "scientificSignal": "arXiv:2606.13043v1 Announce Type: new Abstract: TNM staging is essential for lung cancer management, but patients within the same anatomic stage often show heterogeneous survival outcomes. We developed a multimodal adapt…",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 8.3,
+      "economic": 8.8,
+      "civilization": 9.4,
+      "overall": 8.9,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1781236800000,
+    "trend": "Stable",
+    "rank": 17
+  },
+  {
+    "slug": "general-mathematical-modeling-of-hdv-rna-hbv-dna-and-hbsag-dynamics-during-lonafarnib-ba",
+    "title": "Mathematical Modeling of HDV RNA, HBV DNA, and HBsAg Dynamics during Lonafarnib-Based Therapy: Insights from the LOWR HDV-1 Study",
+    "category": "General",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.13386",
+    "summary": "arXiv:2606.13386v1 Announce Type: new Abstract: Lonafarnib (LNF) is an investigational drug targeting hepatitis delta virus (HDV) but not hepatitis B virus (HBV), providing a unique opportunity to model HDV kinetics and …",
+    "scientificSignal": "arXiv:2606.13386v1 Announce Type: new Abstract: Lonafarnib (LNF) is an investigational drug targeting hepatitis delta virus (HDV) but not hepatitis B virus (HBV), providing a unique opportunity to model HDV kinetics and …",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 8.3,
+      "economic": 8.8,
+      "civilization": 9.4,
+      "overall": 8.9,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1781236800000,
+    "trend": "Stable",
+    "rank": 18
+  },
+  {
+    "slug": "quantum-explicit-quantum-circuit-simulation-of-nonlinear-1-dimensional-fluid-with-carlem",
+    "title": "Explicit Quantum Circuit Simulation of Nonlinear 1-Dimensional Fluid with Carleman-linearized Boltzmann Method",
+    "category": "Quantum",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.12770",
+    "summary": "arXiv:2606.12770v1 Announce Type: cross Abstract: Quantum computation of fluid dynamics has attracted growing attention as a key application of fault-tolerant quantum computers anticipated in the coming decade, with latt…",
+    "scientificSignal": "arXiv:2606.12770v1 Announce Type: cross Abstract: Quantum computation of fluid dynamics has attracted growing attention as a key application of fault-tolerant quantum computers anticipated in the coming decade, with latt…",
+    "implementationPotential": "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
+    "infrastructureImpact": "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
+    "technologyRoadmap": [
+      "Computational architecture",
+      "Hardware or model optimization",
+      "Platform deployment",
+      "Institutional and industrial adoption",
+      "Civilization-scale prediction capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Deployment into research and enterprise systems.",
+      "mid": "5–15 Years: Infrastructure-scale computational integration.",
+      "far": "15–30 Years: Civilization-scale prediction and coordination systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "Very High",
+      "timeHorizon": "3–10 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8,
+      "engineering": 9.2,
+      "economic": 9.1,
+      "civilization": 9,
+      "overall": 8.8,
+      "classification": "Intelligence Infrastructure Signal"
+    },
+    "ts": 1781236800000,
+    "trend": "Stable",
+    "rank": 19
+  },
+  {
+    "slug": "ai-hydrodynamic-resistance-on-oscillating-planar-interfacial-bodies",
+    "title": "Hydrodynamic Resistance on Oscillating Planar Interfacial Bodies",
+    "category": "AI",
+    "source": "arXiv Physics",
+    "originalUrl": "https://arxiv.org/abs/2606.12570",
+    "summary": "arXiv:2606.12570v1 Announce Type: new Abstract: We study the unsteady dynamics of floating planar bodies undergoing lateral oscillations along an air-water interface. Scaling arguments indicate that at high Womersley num…",
+    "scientificSignal": "arXiv:2606.12570v1 Announce Type: new Abstract: We study the unsteady dynamics of floating planar bodies undergoing lateral oscillations along an air-water interface. Scaling arguments indicate that at high Womersley num…",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.4,
+      "engineering": 8.2,
+      "economic": 8.3,
+      "civilization": 9.5,
+      "overall": 8.7,
+      "classification": "Adaptive Resilience Signal"
     },
     "ts": 1781236800000,
     "trend": "Stable",

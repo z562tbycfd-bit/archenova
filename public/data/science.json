@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-12T09:00:13.812Z",
+  "updated": "2026-06-12T09:27:21.276Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "One photon, two reactions—new catalyst converts CO₂ and biowaste simultaneously",
+      "url": "https://phys.org/news/2026-06-photon-reactions-catalyst-biowaste-simultaneously.html",
+      "summary": "Researchers have developed a solar-driven catalyst material that harnesses the energy of a single photon to reduce carbon dioxide and oxidize organic waste at the same time, producing valuable chemicals in both reactions…",
+      "ts": 1781254803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Combining the general and the specific for urban science and policy",
+      "url": "https://phys.org/news/2026-06-combining-general-specific-urban-science.html",
+      "summary": "As the world's population becomes more and more urban, cities are emerging as key components of the Anthropocene—both as major contributors to climate change and as potential trendsetters for innovation and action. But i…",
+      "ts": 1781254801000
+    },
     {
       "source": "Phys.org",
       "title": "Antarctic Peninsula sees record high June temperatures",
@@ -686,20 +700,6 @@
       "title": "Molecular reference corrections for quantum Monte Carlo adsorption energies",
       "url": "https://arxiv.org/abs/2606.12779",
       "summary": "arXiv:2606.12779v1 Announce Type: cross Abstract: Accurate surface thermochemistry requires balanced error cancellation between extended slabs and molecular reference states. This balance can fail whenever the electronic…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond-Third-Order Quantum Coherence in Two-Dimensional Spectroscopy via Order-Selective Isolation",
-      "url": "https://arxiv.org/abs/2606.12794",
-      "summary": "arXiv:2606.12794v1 Announce Type: cross Abstract: A central challenge in nonlinear spectroscopy is the order-selective readout of weak higher-order responses that spectrally overlap with dominant lower-order signals. Thi…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When proofreading improves both speed and accuracy",
-      "url": "https://arxiv.org/abs/2606.12795",
-      "summary": "arXiv:2606.12795v1 Announce Type: cross Abstract: Proofreading is generally thought to improve accuracy at the expense of speed. We show that this trade-off can be reversed in stochastic processes with long-lived stalled…",
       "ts": 1781236800000
     }
   ],

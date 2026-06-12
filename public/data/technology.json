@@ -1,23 +1,7 @@
 {
   "ok": true,
-  "updated": "2026-06-12T09:00:21.350Z",
+  "updated": "2026-06-12T05:57:47.325Z",
   "items": [
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Buenos Aires",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Buenos_Aires",
-      "summary": "Image: This radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary. Zoom in to explore this image at its full resol…",
-      "ts": 1781251200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Conversations in the sky: Galileo’s intersatellite links tested",
-      "url": "https://www.esa.int/Applications/Satellite_navigation/Conversations_in_the_sky_Galileo_s_intersatellite_links_tested",
-      "summary": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, e…",
-      "ts": 1781246700000,
-      "categoryId": "space"
-    },
     {
       "source": "NASA",
       "title": "World Cup Fever in Guadalajara",
@@ -719,6 +703,22 @@
       "title": "Path integral control of open quantum systems",
       "url": "https://arxiv.org/abs/2410.18635",
       "summary": "arXiv:2410.18635v4 Announce Type: replace Abstract: We investigate open-loop quantum state preparation for a class of open quantum systems whose dynamics follow a Gorini-Kossakowski-Lindblad-Sudarshan (GKLS) master equat…",
+      "ts": 1781236800000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Relativistic Locality from Electromagnetism to Quantum Field Theory",
+      "url": "https://arxiv.org/abs/2412.11532",
+      "summary": "arXiv:2412.11532v2 Announce Type: replace Abstract: Electromagnetism is the paradigm case of a theory that satisfies relativistic locality. This can be proven by demonstrating that, once the theory's laws are imposed, wh…",
+      "ts": 1781236800000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "arXiv Quantum",
+      "title": "Proper and improper mixed states serve as different prior beliefs for quantum state retrodiction",
+      "url": "https://arxiv.org/abs/2502.10030",
+      "summary": "arXiv:2502.10030v2 Announce Type: replace Abstract: A mixed quantum state can be taken as capturing an unspecified form of ignorance; or as describing the lack of knowledge about the true pure state of the system (\"prope…",
       "ts": 1781236800000,
       "categoryId": "quantum"
     }
