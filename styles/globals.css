@@ -11251,3 +11251,36 @@ html, body {
   font-size: 18px;
   min-width: 20px;
 }
+.maturity-index {
+  margin-top: 20px;
+}
+
+.maturity-score {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.maturity-score span {
+  opacity: 0.72;
+}
+
+.maturity-score strong {
+  font-size: 1rem;
+}
+
+.maturity-bar {
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.maturity-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.72);
+}

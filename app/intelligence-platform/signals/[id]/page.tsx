@@ -22,6 +22,56 @@ type Signal = {
   };
 };
 
+function getCivilizationMaturity(category: string) {
+  const map: Record<
+    string,
+    {
+      score: number;
+      stage: string;
+      description: string;
+    }
+  > = {
+    "Reality Discovery": {
+      score: 2.0,
+      stage: "Discovery Stage",
+      description:
+        "This signal is primarily expanding observation, measurement, or scientific understanding.",
+    },
+    "Capability Expansion": {
+      score: 4.0,
+      stage: "Capability Stage",
+      description:
+        "This signal is beginning to convert knowledge into usable technical capability.",
+    },
+    "Infrastructure Formation": {
+      score: 6.5,
+      stage: "Infrastructure Stage",
+      description:
+        "This signal is moving toward durable systems, platforms, networks, or operational infrastructure.",
+    },
+    "Synchronization Systems": {
+      score: 7.2,
+      stage: "Synchronization Stage",
+      description:
+        "This signal strengthens coordination, communication, sensing, timing, or distributed intelligence.",
+    },
+    "Adaptive Capacity": {
+      score: 7.6,
+      stage: "Adaptive Stage",
+      description:
+        "This signal improves resilience, recovery, health, environmental adaptation, or systemic survivability.",
+    },
+    "Civilization Engineering": {
+      score: 8.4,
+      stage: "Civilization Stage",
+      description:
+        "This signal connects science, engineering, institutions, infrastructure, and long-term civilizational capability.",
+    },
+  };
+
+  return map[category] ?? map["Civilization Engineering"];
+}
+
 function extractKeywords(text: string) {
   return text
     .toLowerCase()
@@ -114,6 +164,8 @@ if (found) {
     );
   }
 
+  const maturity = getCivilizationMaturity(signal.category);
+
   const stages = [
   "Reality Discovery",
   "Capability Expansion",
@@ -198,12 +250,32 @@ const currentStage =
     CIVILIZATION TIMELINE
   </span>
 
-  <h2>Civilization Timeline</h2>
-
   <p>
     ArcheNova interprets each signal as part of a
     larger civilizational development pathway.
   </p>
+
+  <section className="glass-block">
+  <span className="home-section-label">
+    CIVILIZATION MATURITY
+  </span>
+
+  <p>{maturity.description}</p>
+
+  <div className="maturity-index">
+    <div className="maturity-score">
+      <span>{maturity.stage}</span>
+      <strong>{maturity.score.toFixed(1)} / 10</strong>
+    </div>
+
+    <div className="maturity-bar">
+      <div
+        className="maturity-bar-fill"
+        style={{ width: `${maturity.score * 10}%` }}
+      />
+    </div>
+  </div>
+</section>
 
   <div className="civilization-timeline">
 
