@@ -221,7 +221,7 @@ const visibleItems = [...filteredItems].sort((a, b) => {
         {visibleItems.length ? (
           visibleItems.map((item) => (
             <a
-              key={item.id}
+              key={`${item.id}-${item.originalUrl}`}
               href={`/intelligence-platform/signals/${item.id}`}
               target="_blank"
               rel="noreferrer"
