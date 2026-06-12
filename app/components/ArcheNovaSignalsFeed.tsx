@@ -40,6 +40,7 @@ function slugify(text: string) {
 export default function ArcheNovaSignalsFeed({ limit = 30 }: { limit?: number }) {
   const [items, setItems] = useState<SignalItem[]>([]);
   const [category, setCategory] = useState("all");
+  const [sortMode, setSortMode] = useState("latest");
   const [updated, setUpdated] = useState("—");
 
   useEffect(() => {
@@ -72,12 +73,25 @@ export default function ArcheNovaSignalsFeed({ limit = 30 }: { limit?: number })
     };
   }, [limit]);
 
-const visibleItems =
+const filteredItems =
   category === "all"
     ? items
-    : items.filter(
-        (item) => item.category === category
-      );
+    : items.filter((item) => item.category === category);
+
+const visibleItems = [...filteredItems].sort((a, b) => {
+  if (sortMode === "important") {
+    return (b.score?.overall || 0) - (a.score?.overall || 0);
+  }
+
+  if (sortMode === "transformative") {
+    return (
+      (b.score?.civilizationImpact || b.score?.civilization || 0) -
+      (a.score?.civilizationImpact || a.score?.civilization || 0)
+    );
+  }
+
+  return (b.ts || 0) - (a.ts || 0);
+});
 
   return (
 
@@ -175,6 +189,32 @@ const visibleItems =
     Civilization
   </button>
 
+</div>
+
+<div className="signal-sort-bar">
+  <button
+    type="button"
+    className={`signal-sort ${sortMode === "latest" ? "active" : ""}`}
+    onClick={() => setSortMode("latest")}
+  >
+    Latest
+  </button>
+
+  <button
+    type="button"
+    className={`signal-sort ${sortMode === "important" ? "active" : ""}`}
+    onClick={() => setSortMode("important")}
+  >
+    Most Important
+  </button>
+
+  <button
+    type="button"
+    className={`signal-sort ${sortMode === "transformative" ? "active" : ""}`}
+    onClick={() => setSortMode("transformative")}
+  >
+    Most Transformative
+  </button>
 </div>
 
       <div className="feed-list">
