@@ -22,6 +22,57 @@ type Signal = {
   };
 };
 
+function getDependencyGraph(category: string) {
+  const map: Record<
+    string,
+    {
+      foundation: string;
+      current: string;
+      emergent: string;
+      outcome: string;
+    }
+  > = {
+    "Reality Discovery": {
+      foundation: "Observation, measurement, theory, and anomaly detection",
+      current: "Scientific signal and model formation",
+      emergent: "New principles, instruments, and predictive frameworks",
+      outcome: "Expanded reality discovery capacity",
+    },
+    "Capability Expansion": {
+      foundation: "Scientific knowledge, prototypes, and engineering methods",
+      current: "Technical capability formation",
+      emergent: "Reliable tools, machines, materials, and operational systems",
+      outcome: "Expanded action space and implementation capacity",
+    },
+    "Infrastructure Formation": {
+      foundation: "Validated capability, standards, capital, and deployment systems",
+      current: "Infrastructure formation",
+      emergent: "Platforms, networks, supply chains, and institutional operating layers",
+      outcome: "Durable civilization-scale capability",
+    },
+    "Synchronization Systems": {
+      foundation: "Networks, sensors, protocols, timing, and communication layers",
+      current: "Synchronization and coordination system",
+      emergent: "Distributed intelligence, monitoring, and secure coordination",
+      outcome: "Planetary-scale coordination capacity",
+    },
+    "Adaptive Capacity": {
+      foundation: "Monitoring, prediction, resilience, health, and environmental data",
+      current: "Adaptive capacity formation",
+      emergent: "Early warning, recovery systems, and adaptive institutions",
+      outcome: "Improved survivability under uncertainty",
+    },
+    "Civilization Engineering": {
+      foundation: "Science, engineering, institutions, capital, and governance",
+      current: "Civilization-scale system integration",
+      emergent: "Strategic infrastructure, coordination, and long-term capability",
+      outcome: "Expanded future possibility space",
+    },
+  };
+
+  return map[category] ?? map["Civilization Engineering"];
+}
+
 function getCivilizationMaturity(category: string) {
   const map: Record<
     string,
@@ -165,6 +216,8 @@ if (found) {
   }
 
   const maturity = getCivilizationMaturity(signal.category);
+
+  const dependencyGraph = getDependencyGraph(signal.category);
 
   const stages = [
   "Reality Discovery",
@@ -347,6 +400,51 @@ const currentStage =
         </div>
       </div>
     ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <span className="home-section-label">
+    CIVILIZATION DEPENDENCY GRAPH
+  </span>
+
+  <h2>Civilization Dependency Graph</h2>
+
+  <p>
+    ArcheNova maps this signal through dependency,
+    emergence, and civilization-scale outcome layers.
+  </p>
+
+  <div className="dependency-graph">
+    <div className="dependency-node">
+      <span>01</span>
+      <strong>Foundational Layer</strong>
+      <p>{dependencyGraph.foundation}</p>
+    </div>
+
+    <div className="dependency-arrow">↓</div>
+
+    <div className="dependency-node current">
+      <span>02</span>
+      <strong>Current Signal</strong>
+      <p>{dependencyGraph.current}</p>
+    </div>
+
+    <div className="dependency-arrow">↓</div>
+
+    <div className="dependency-node">
+      <span>03</span>
+      <strong>Emergent Layer</strong>
+      <p>{dependencyGraph.emergent}</p>
+    </div>
+
+    <div className="dependency-arrow">↓</div>
+
+    <div className="dependency-node outcome">
+      <span>04</span>
+      <strong>Civilization Outcome</strong>
+      <p>{dependencyGraph.outcome}</p>
+    </div>
   </div>
 </section>
 
