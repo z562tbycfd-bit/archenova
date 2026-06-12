@@ -10,22 +10,27 @@ export default function EpistemePage({
   };
 }) {
   const query = searchParams?.query || "";
+  const isSignalAnalysis = Boolean(query);
 
   return (
     <main className="page-standard">
       <div className="page-head">
         <span className="home-section-label">
-          EPISTEME
+          {isSignalAnalysis ? "EPISTEME SIGNAL ANALYSIS" : "EPISTEME"}
         </span>
 
-        <h1>Episteme</h1>
+        <h1>
+          {isSignalAnalysis ? "Episteme Analysis" : "Episteme"}
+        </h1>
 
         <p className="page-lead">
-          Meta-Knowledge Intelligence
+          {isSignalAnalysis
+            ? "Meta-knowledge analysis of the deeper structure, assumptions, constraints, implications, and civilizational meaning of this signal."
+            : "Meta-Knowledge Intelligence"}
         </p>
       </div>
 
-      {query && (
+      {isSignalAnalysis && (
         <section className="glass-block">
           <span className="home-section-label">
             SIGNAL CONTEXT
@@ -34,29 +39,39 @@ export default function EpistemePage({
           <h2>{query}</h2>
 
           <p>
-            Episteme is analyzing the deeper structure, assumptions,
-            constraints, implications, and civilizational significance
-            associated with this signal.
+            Episteme interprets this signal beyond the article itself:
+            as a structural indicator of knowledge formation,
+            capability expansion, infrastructure evolution, adaptive
+            capacity, or civilization-scale transformation.
           </p>
         </section>
       )}
 
-      <section className="glass-block">
-        <h2>Mission</h2>
-
-        <p>
-          Episteme examines how knowledge is formed, validated, constrained,
-          transformed, and expanded across civilization.
-        </p>
-      </section>
-
       <EpistemeAnalysisEngine query={query} />
 
-      <EpistemeDialogue />
+      {!isSignalAnalysis && (
+        <>
+          <section className="glass-block">
+            <h2>Mission</h2>
+
+            <p>
+              Episteme examines how knowledge is formed, validated,
+              constrained, transformed, and expanded across civilization.
+            </p>
+          </section>
+
+          <EpistemeDialogue />
+        </>
+      )}
 
       <div className="page-foot">
-        <Link href="/home" className="back-link">
-          ← Back to Home
+        <Link
+          href={isSignalAnalysis ? "/intelligence-platform/signals" : "/home"}
+          className="back-link"
+        >
+          {isSignalAnalysis
+            ? "← Back to Signals"
+            : "← Back to Home"}
         </Link>
       </div>
     </main>
