@@ -157,6 +157,40 @@ function getStrategyProfile(signal: Signal) {
   };
 }
 
+function getDynamicStrategyProfile(signal: Signal) {
+  const base = getStrategyProfile(signal);
+  const maturity = getCivilizationMaturity(signal.category);
+  const forecast = getDynamicForecast(signal);
+  const opportunities = getOpportunityProfile(signal);
+
+  let priority = base.priority;
+  let actionMode = "Balanced Strategy";
+
+  if (maturity.score <= 3) {
+    actionMode = "Research-First Strategy";
+    priority = base.priority === "Very High" ? "High" : base.priority;
+  } else if (maturity.score <= 6) {
+    actionMode = "Engineering Translation Strategy";
+  } else if (maturity.score <= 8) {
+    actionMode = "Infrastructure Scaling Strategy";
+  } else {
+    actionMode = "Civilization Integration Strategy";
+  }
+
+  return {
+    immediate:
+      `${base.immediate} Priority should first focus on: ${opportunities.research}`,
+    strategic:
+      `${base.strategic} The mid-term pathway should align with: ${forecast.mid}`,
+    longTerm:
+      `${base.longTerm} Long-term positioning should consider: ${forecast.long}`,
+    leverage:
+      `${base.leverage} This leverage point becomes stronger as maturity increases toward ${maturity.stage}.`,
+    priority,
+    actionMode,
+  };
+}
+
 function getOpportunityProfile(signal: Signal) {
   const text = `
     ${signal.title}
@@ -667,7 +701,7 @@ if (found) {
 
   const opportunities = getOpportunityProfile(signal);
 
-  const strategy = getStrategyProfile(signal);
+  const strategy = getDynamicStrategyProfile(signal);
 
   const dependencySignals = relatedSignals
   .filter(
@@ -1077,6 +1111,11 @@ const currentStage =
       <strong>Civilization Leverage Point</strong>
       <p>{strategy.leverage}</p>
     </div>
+
+    <div className="strategy-card priority">
+  <strong>Action Mode</strong>
+  <p>{strategy.actionMode}</p>
+</div>
 
     <div className="strategy-card priority">
       <strong>Strategic Priority</strong>
