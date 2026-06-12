@@ -22,6 +22,45 @@ type Signal = {
   };
 };
 
+function extractKeywords(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter(
+      (word) =>
+        word.length > 4 &&
+        ![
+          "signal",
+          "civilization",
+          "system",
+          "systems",
+          "technology",
+          "scientific",
+          "engineering",
+          "capability",
+        ].includes(word)
+    );
+}
+
+function similarityScore(a: Signal, b: Signal) {
+  const textA = `${a.title} ${a.observation} ${a.implication} ${a.commentary}`;
+  const textB = `${b.title} ${b.observation} ${b.implication} ${b.commentary}`;
+
+  const wordsA = new Set(extractKeywords(textA));
+  const wordsB = new Set(extractKeywords(textB));
+
+  let score = 0;
+
+  wordsA.forEach((word) => {
+    if (wordsB.has(word)) {
+      score++;
+    }
+  });
+
+  return score;
+}
+
 export default function SignalReportPage({
   params,
 }: {
@@ -46,12 +85,19 @@ setSignal(found || null);
 
 if (found) {
   const related = allSignals
-    .filter(
-      (x: Signal) =>
-        x.id !== found.id &&
-        x.category === found.category
-    )
-    .slice(0, 5);
+ .filter(
+   (x: Signal) =>
+     x.id !== found.id
+ )
+ .map((x: Signal) => ({
+   ...x,
+   similarity: similarityScore(found, x),
+ }))
+ .sort(
+   (a: any, b: any) =>
+     b.similarity - a.similarity
+ )
+ .slice(0, 5);
 
   setRelatedSignals(related);
 }
@@ -183,15 +229,14 @@ if (found) {
     <section className="glass-block">
 
   <span className="home-section-label">
-    RELATED SIGNALS
-  </span>
+  KNOWLEDGE NETWORK
+</span>
 
-  <h2>Related Signals</h2>
-
-  <p>
-    Explore adjacent signals within the same
-    ArcheNova intelligence domain.
-  </p>
+<p>
+  Signals connected through shared
+  concepts, technologies, infrastructure,
+  and civilization pathways.
+</p>
 
   <div className="feed-list">
 
