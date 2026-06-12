@@ -231,6 +231,48 @@ function makePriorityAllocation(
     .sort((a, b) => b.value - a.value);
 }
 
+function makeMetaAllocation(
+  priorityAllocation: Allocation[],
+  riskAllocation: Allocation[]
+) {
+  return priorityAllocation
+    .map((item) => {
+      const risk =
+        riskAllocation.find((x) => x.name === item.name)?.value ?? 0;
+
+      let mode = "Maintain";
+      let rationale =
+        "This domain should be maintained as part of the current civilization portfolio.";
+
+      if (item.value >= 25 && risk < 25) {
+        mode = "Expand";
+        rationale =
+          "High priority with manageable risk suggests strategic expansion.";
+      } else if (item.value >= 25 && risk >= 25) {
+        mode = "Expand Carefully";
+        rationale =
+          "High priority but elevated risk suggests cautious expansion with governance and validation.";
+      } else if (item.value < 15 && risk >= 25) {
+        mode = "Reduce Risk";
+        rationale =
+          "Lower priority combined with high risk suggests risk reduction before expansion.";
+      } else if (item.value < 15) {
+        mode = "Monitor";
+        rationale =
+          "Lower priority suggests monitoring until stronger signals emerge.";
+      }
+
+      return {
+        name: item.name,
+        count: item.count,
+        value: item.value,
+        mode,
+        rationale,
+      };
+    })
+    .sort((a, b) => b.value - a.value);
+}
+
 export default function CivilizationPortfolioPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -286,6 +328,11 @@ export default function CivilizationPortfolioPage() {
   const priorityAllocation = makePriorityAllocation(
   allocation,
   capitalAllocation,
+  riskAllocation
+);
+
+const metaAllocation = makeMetaAllocation(
+  priorityAllocation,
   riskAllocation
 );
 
@@ -482,6 +529,39 @@ export default function CivilizationPortfolioPage() {
     ) : (
       <div className="feed-empty">
         No priority allocation data available.
+      </div>
+    )}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Meta Allocation Engine</h2>
+
+  <p>
+    ArcheNova converts priority and risk into a higher-level
+    allocation mode: expand, expand carefully, maintain,
+    monitor, or reduce risk.
+  </p>
+
+  <div className="feed-list">
+    {metaAllocation.length ? (
+      metaAllocation.map((item) => (
+        <div
+          key={item.name}
+          className="feed-row wide"
+        >
+          <div className="feed-title">
+            {item.name} — {item.mode}
+          </div>
+
+          <div className="feed-summary">
+            Priority {item.value}. {item.rationale}
+          </div>
+        </div>
+      ))
+    ) : (
+      <div className="feed-empty">
+        No meta allocation data available.
       </div>
     )}
   </div>
