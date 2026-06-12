@@ -219,6 +219,22 @@ if (found) {
 
   const dependencyGraph = getDependencyGraph(signal.category);
 
+  const dependencySignals = relatedSignals
+  .filter(
+    (item) =>
+      getCivilizationMaturity(item.category).score <
+      maturity.score
+  )
+  .slice(0, 3);
+
+const emergentSignals = relatedSignals
+  .filter(
+    (item) =>
+      getCivilizationMaturity(item.category).score >=
+      maturity.score
+  )
+  .slice(0, 3);
+
   const stages = [
   "Reality Discovery",
   "Capability Expansion",
@@ -442,6 +458,68 @@ const currentStage =
       <span>04</span>
       <strong>Civilization Outcome</strong>
       <p>{dependencyGraph.outcome}</p>
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <span className="home-section-label">
+    DYNAMIC DEPENDENCY GRAPH
+  </span>
+
+  <p>
+    ArcheNova connects this signal to adjacent signals
+    that may function as prior enabling layers or
+    emergent development pathways.
+  </p>
+
+  <div className="dependency-graph">
+    <div className="dependency-node">
+      <span>01</span>
+      <strong>Dependency Signals</strong>
+
+      {dependencySignals.length ? (
+        dependencySignals.map((item) => (
+          <Link
+            key={item.id}
+            href={`/intelligence-platform/signals/${item.id}`}
+            className="dependency-link"
+          >
+            {item.title}
+          </Link>
+        ))
+      ) : (
+        <p>No lower-maturity related signals detected.</p>
+      )}
+    </div>
+
+    <div className="dependency-arrow">↓</div>
+
+    <div className="dependency-node current">
+      <span>02</span>
+      <strong>Current Signal</strong>
+      <p>{signal.title}</p>
+    </div>
+
+    <div className="dependency-arrow">↓</div>
+
+    <div className="dependency-node outcome">
+      <span>03</span>
+      <strong>Emergent Signals</strong>
+
+      {emergentSignals.length ? (
+        emergentSignals.map((item) => (
+          <Link
+            key={item.id}
+            href={`/intelligence-platform/signals/${item.id}`}
+            className="dependency-link"
+          >
+            {item.title}
+          </Link>
+        ))
+      ) : (
+        <p>No higher-maturity related signals detected.</p>
+      )}
     </div>
   </div>
 </section>

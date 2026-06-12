@@ -11379,3 +11379,18 @@ html, body {
   opacity: 0.45;
   font-size: 1.1rem;
 }
+.dependency-link {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: inherit;
+  text-decoration: none;
+  line-height: 1.45;
+}
+
+.dependency-link:hover {
+  background: rgba(255,255,255,0.08);
+}
