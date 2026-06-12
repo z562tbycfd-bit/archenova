@@ -11425,3 +11425,26 @@ html, body {
   opacity: 0.78;
   line-height: 1.6;
 }
+.opportunity-grid {
+  display: grid;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.opportunity-card {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.opportunity-card strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.opportunity-card p {
+  margin: 0;
+  opacity: 0.78;
+  line-height: 1.6;
+}

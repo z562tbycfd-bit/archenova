@@ -22,6 +22,148 @@ type Signal = {
   };
 };
 
+function getOpportunityProfile(signal: Signal) {
+  const text = `
+    ${signal.title}
+    ${signal.observation}
+    ${signal.implication}
+    ${signal.commentary}
+  `.toLowerCase();
+
+  if (
+    text.includes("fusion") ||
+    text.includes("hydrogen") ||
+    text.includes("battery") ||
+    text.includes("energy")
+  ) {
+    return {
+      research:
+        "Advance materials, efficiency, storage, conversion, grid stability, and long-duration operational reliability.",
+      engineering:
+        "Develop scalable energy systems, storage integration, safety mechanisms, and industrial deployment architectures.",
+      business:
+        "Create opportunities in energy infrastructure, grid services, storage platforms, hydrogen systems, and industrial decarbonization.",
+      infrastructure:
+        "Build resilient grids, storage networks, generation assets, power electronics, and energy logistics.",
+      governance:
+        "Improve permitting, safety standards, market design, grid regulation, and long-term energy security policy.",
+    };
+  }
+
+  if (
+    text.includes("quantum") ||
+    text.includes("qubit") ||
+    text.includes("photon")
+  ) {
+    return {
+      research:
+        "Explore coherence, error correction, quantum sensing, photonics, and new information-processing models.",
+      engineering:
+        "Build reliable quantum devices, repeaters, cryogenic systems, photonic networks, and calibration pipelines.",
+      business:
+        "Develop opportunities in secure communication, sensing, simulation, quantum cloud services, and specialized computing.",
+      infrastructure:
+        "Create quantum networks, precision instrumentation, secure communication layers, and hybrid classical-quantum platforms.",
+      governance:
+        "Establish standards for quantum security, export control, critical infrastructure protection, and trusted communication.",
+    };
+  }
+
+  if (
+    text.includes("ai") ||
+    text.includes("agent") ||
+    text.includes("machine learning") ||
+    text.includes("model")
+  ) {
+    return {
+      research:
+        "Improve reasoning, evaluation, alignment, scientific AI, simulation, and knowledge representation.",
+      engineering:
+        "Integrate AI into workflows, agents, monitoring systems, automation layers, and reliable decision-support tools.",
+      business:
+        "Create opportunities in enterprise AI, research automation, software platforms, industrial optimization, and AI services.",
+      infrastructure:
+        "Expand compute, data pipelines, model evaluation systems, cybersecurity, and AI governance infrastructure.",
+      governance:
+        "Develop accountability, safety evaluation, data governance, compute policy, and institutional deployment standards.",
+    };
+  }
+
+  if (
+    text.includes("robot") ||
+    text.includes("automation") ||
+    text.includes("manufacturing")
+  ) {
+    return {
+      research:
+        "Advance sensing, control, manipulation, perception, embodied AI, and autonomous task execution.",
+      engineering:
+        "Build robust robotic systems, safety controls, maintenance architectures, and production integration workflows.",
+      business:
+        "Create opportunities in factory automation, logistics, inspection, maintenance robotics, and autonomous operations.",
+      infrastructure:
+        "Develop robotic fleets, machine vision systems, digital twins, maintenance networks, and supply-chain automation.",
+      governance:
+        "Establish safety standards, human-machine collaboration rules, liability frameworks, and workforce transition policies.",
+    };
+  }
+
+  if (
+    text.includes("gene") ||
+    text.includes("cell") ||
+    text.includes("protein") ||
+    text.includes("medicine") ||
+    text.includes("health")
+  ) {
+    return {
+      research:
+        "Advance biological mechanism discovery, diagnostics, therapeutics, biomarkers, and precision intervention models.",
+      engineering:
+        "Translate biological knowledge into clinical platforms, manufacturing systems, diagnostics, and validated interventions.",
+      business:
+        "Create opportunities in precision health, diagnostics, bio-manufacturing, therapeutics, and longevity services.",
+      infrastructure:
+        "Build clinical data systems, bio-manufacturing capacity, genomic platforms, diagnostics networks, and public health systems.",
+      governance:
+        "Improve clinical validation, bioethics, regulation, reimbursement, data privacy, and equitable access.",
+    };
+  }
+
+  if (
+    text.includes("space") ||
+    text.includes("satellite") ||
+    text.includes("orbital") ||
+    text.includes("mars") ||
+    text.includes("nasa")
+  ) {
+    return {
+      research:
+        "Advance orbital systems, propulsion, materials, remote sensing, autonomy, radiation resilience, and planetary science.",
+      engineering:
+        "Develop launch systems, satellites, autonomous spacecraft, ground stations, orbital servicing, and long-duration operations.",
+      business:
+        "Create opportunities in Earth observation, communications, launch services, orbital logistics, and space infrastructure.",
+      infrastructure:
+        "Build satellites, launch capacity, ground networks, navigation systems, orbital platforms, and space logistics.",
+      governance:
+        "Develop space traffic management, debris mitigation, spectrum policy, orbital property rules, and international coordination.",
+    };
+  }
+
+  return {
+    research:
+      "Investigate the underlying scientific, technical, institutional, and systemic mechanisms behind this signal.",
+    engineering:
+      "Translate the signal into reliable capability, operational systems, validation pathways, and implementation architectures.",
+    business:
+      "Identify scalable value creation opportunities, platform models, service layers, and market adoption pathways.",
+    infrastructure:
+      "Explore how this signal could support durable platforms, networks, standards, institutions, or civilization-scale systems.",
+    governance:
+      "Clarify standards, legitimacy, risk management, institutional coordination, and long-term policy requirements.",
+  };
+}
+
 function getForecastProfile(category: string) {
   const map: Record<
     string,
@@ -388,6 +530,8 @@ if (found) {
 
   const forecast = getDynamicForecast(signal);
 
+  const opportunities = getOpportunityProfile(signal);
+
   const dependencySignals = relatedSignals
   .filter(
     (item) =>
@@ -721,6 +865,45 @@ const currentStage =
       <span>15–30 Years</span>
       <strong>Long-Term</strong>
       <p>{forecast.long}</p>
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <span className="home-section-label">
+    CIVILIZATION OPPORTUNITY SCANNER
+  </span>
+
+  <p>
+    ArcheNova identifies where this signal may create
+    research, engineering, business, infrastructure, and
+    governance opportunities.
+  </p>
+
+  <div className="opportunity-grid">
+    <div className="opportunity-card">
+      <strong>Research Opportunity</strong>
+      <p>{opportunities.research}</p>
+    </div>
+
+    <div className="opportunity-card">
+      <strong>Engineering Opportunity</strong>
+      <p>{opportunities.engineering}</p>
+    </div>
+
+    <div className="opportunity-card">
+      <strong>Business Opportunity</strong>
+      <p>{opportunities.business}</p>
+    </div>
+
+    <div className="opportunity-card">
+      <strong>Infrastructure Opportunity</strong>
+      <p>{opportunities.infrastructure}</p>
+    </div>
+
+    <div className="opportunity-card">
+      <strong>Policy / Governance Opportunity</strong>
+      <p>{opportunities.governance}</p>
     </div>
   </div>
 </section>
