@@ -1050,8 +1050,6 @@ const currentStage =
     CIVILIZATION STRATEGY ENGINE
   </span>
 
-  <h2>Strategy Engine</h2>
-
   <p>
     ArcheNova translates this signal into strategic
     action layers: immediate validation, strategic
