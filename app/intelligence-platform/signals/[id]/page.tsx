@@ -316,8 +316,6 @@ const currentStage =
     CIVILIZATION EVOLUTION MAP
   </span>
 
-  <h2>Civilization Evolution Map</h2>
-
   <p>
     ArcheNova maps this signal as part of a larger
     transition from discovery to capability, infrastructure,
