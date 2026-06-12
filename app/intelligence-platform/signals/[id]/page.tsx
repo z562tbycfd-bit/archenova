@@ -408,8 +408,6 @@ const currentStage =
     CIVILIZATION DEPENDENCY GRAPH
   </span>
 
-  <h2>Civilization Dependency Graph</h2>
-
   <p>
     ArcheNova maps this signal through dependency,
     emergence, and civilization-scale outcome layers.
