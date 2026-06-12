@@ -132,6 +132,41 @@ function makeAllocation(signals: Signal[]): Allocation[] {
     .sort((a, b) => b.value - a.value);
 }
 
+ function makeCapitalAllocation(allocation: Allocation[]) {
+  const priorityWeight: Record<string, number> = {
+    "AI Infrastructure": 1.25,
+    "Energy Systems": 1.3,
+    "Space Infrastructure": 1.15,
+    "Biological Systems": 1.2,
+    "Quantum Systems": 1.1,
+    "Adaptive Resilience": 1.15,
+    "General Civilization Systems": 0.9,
+  };
+
+  const weighted = allocation.map((item) => ({
+    ...item,
+    weightedValue:
+      item.value * (priorityWeight[item.name] ?? 1),
+  }));
+
+  const total = weighted.reduce(
+    (sum, item) => sum + item.weightedValue,
+    0
+  );
+
+  if (!total) return [];
+
+  return weighted
+    .map((item) => ({
+      name: item.name,
+      count: item.count,
+      value: Math.round(
+        (item.weightedValue / total) * 100
+      ),
+    }))
+    .sort((a, b) => b.value - a.value);
+}
+
 export default function CivilizationPortfolioPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -179,6 +214,8 @@ export default function CivilizationPortfolioPage() {
     .slice(0, 10);
 
   const allocation = makeAllocation(signals);
+
+  const capitalAllocation = makeCapitalAllocation(allocation);
 
   const leadingDomain = allocation[0]?.name ?? "Signal Intelligence";
 
@@ -271,6 +308,41 @@ export default function CivilizationPortfolioPage() {
           )}
         </div>
       </section>
+
+      <section className="glass-block">
+  <h2>Dynamic Civilization Capital Allocation</h2>
+
+  <p>
+    ArcheNova converts signal strength into a strategic
+    civilization capital allocation model by weighting
+    domains according to long-term leverage, resilience,
+    infrastructure importance, and future possibility space.
+  </p>
+
+  <div className="feed-list">
+    {capitalAllocation.length ? (
+      capitalAllocation.map((item) => (
+        <div
+          key={item.name}
+          className="feed-row wide"
+        >
+          <div className="feed-title">
+            {item.name} — {item.value}%
+          </div>
+
+          <div className="feed-summary">
+            Strategic allocation based on {item.count}
+            active signal{item.count === 1 ? "" : "s"}.
+          </div>
+        </div>
+      ))
+    ) : (
+      <div className="feed-empty">
+        No capital allocation data available.
+      </div>
+    )}
+  </div>
+</section>
 
       <section className="glass-block">
         <h2>Civilization Outlook</h2>
