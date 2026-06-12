@@ -167,6 +167,41 @@ function makeAllocation(signals: Signal[]): Allocation[] {
     .sort((a, b) => b.value - a.value);
 }
 
+function makeRiskAllocation(allocation: Allocation[]) {
+  const riskWeight: Record<string, number> = {
+    "AI Infrastructure": 1.35,
+    "Energy Systems": 1.25,
+    "Space Infrastructure": 1.3,
+    "Biological Systems": 1.4,
+    "Quantum Systems": 1.2,
+    "Adaptive Resilience": 1.15,
+    "General Civilization Systems": 1.0,
+  };
+
+  const weighted = allocation.map((item) => ({
+    ...item,
+    weightedValue:
+      item.value * (riskWeight[item.name] ?? 1),
+  }));
+
+  const total = weighted.reduce(
+    (sum, item) => sum + item.weightedValue,
+    0
+  );
+
+  if (!total) return [];
+
+  return weighted
+    .map((item) => ({
+      name: item.name,
+      count: item.count,
+      value: Math.round(
+        (item.weightedValue / total) * 100
+      ),
+    }))
+    .sort((a, b) => b.value - a.value);
+}
+
 export default function CivilizationPortfolioPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -216,6 +251,8 @@ export default function CivilizationPortfolioPage() {
   const allocation = makeAllocation(signals);
 
   const capitalAllocation = makeCapitalAllocation(allocation);
+
+  const riskAllocation = makeRiskAllocation(allocation);
 
   const leadingDomain = allocation[0]?.name ?? "Signal Intelligence";
 
@@ -339,6 +376,41 @@ export default function CivilizationPortfolioPage() {
     ) : (
       <div className="feed-empty">
         No capital allocation data available.
+      </div>
+    )}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Dynamic Civilization Risk Allocation</h2>
+
+  <p>
+    ArcheNova estimates where civilization-scale risk may
+    concentrate by weighting portfolio domains according to
+    governance complexity, safety sensitivity, infrastructure
+    dependency, uncertainty, and systemic impact.
+  </p>
+
+  <div className="feed-list">
+    {riskAllocation.length ? (
+      riskAllocation.map((item) => (
+        <div
+          key={item.name}
+          className="feed-row wide"
+        >
+          <div className="feed-title">
+            {item.name} — {item.value}%
+          </div>
+
+          <div className="feed-summary">
+            Risk exposure based on {item.count}
+            active signal{item.count === 1 ? "" : "s"}.
+          </div>
+        </div>
+      ))
+    ) : (
+      <div className="feed-empty">
+        No risk allocation data available.
       </div>
     )}
   </div>
