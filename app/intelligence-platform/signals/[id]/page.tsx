@@ -311,6 +311,47 @@ const currentStage =
 
 </section> 
 
+<section className="glass-block">
+  <span className="home-section-label">
+    CIVILIZATION EVOLUTION MAP
+  </span>
+
+  <h2>Civilization Evolution Map</h2>
+
+  <p>
+    ArcheNova maps this signal as part of a larger
+    transition from discovery to capability, infrastructure,
+    synchronization, adaptation, and civilization-scale
+    transformation.
+  </p>
+
+  <div className="civilization-evolution-map">
+    {stages.map((stage, index) => (
+      <div
+        key={stage}
+        className={`evolution-node ${
+          index === currentStage ? "current" : ""
+        } ${index < currentStage ? "passed" : ""}`}
+      >
+        <div className="evolution-node-index">
+          {index + 1}
+        </div>
+
+        <div>
+          <strong>{stage}</strong>
+          <p>
+            {index === currentStage
+              ? "Current signal position"
+              : index < currentStage
+              ? "Prior enabling layer"
+              : "Future development layer"}
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
       <section className="glass-block">
         <h2>Future Trajectory</h2>
 
