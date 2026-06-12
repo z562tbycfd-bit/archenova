@@ -28,6 +28,7 @@ export default function SignalReportPage({
   params: { id: string };
 }) {
   const [signal, setSignal] = useState<Signal | null>(null);
+  const [relatedSignals, setRelatedSignals] = useState<Signal[]>([]);
 
   useEffect(() => {
     async function load() {
@@ -35,11 +36,25 @@ export default function SignalReportPage({
 
       const data = await res.json();
 
-      const found = (data.items || []).find(
-        (x: Signal) => x.id === params.id
-      );
+      const allSignals = data.items || [];
 
-      setSignal(found || null);
+const found = allSignals.find(
+  (x: Signal) => x.id === params.id
+);
+
+setSignal(found || null);
+
+if (found) {
+  const related = allSignals
+    .filter(
+      (x: Signal) =>
+        x.id !== found.id &&
+        x.category === found.category
+    )
+    .slice(0, 5);
+
+  setRelatedSignals(related);
+}
     }
 
     load();
@@ -164,6 +179,44 @@ export default function SignalReportPage({
           Open Original Source →
         </a>
       </section>
+
+    <section className="glass-block">
+
+  <span className="home-section-label">
+    RELATED SIGNALS
+  </span>
+
+  <h2>Related Signals</h2>
+
+  <p>
+    Explore adjacent signals within the same
+    ArcheNova intelligence domain.
+  </p>
+
+  <div className="feed-list">
+
+    {relatedSignals.map((item) => (
+      <Link
+        key={item.id}
+        href={`/intelligence-platform/signals/${item.id}`}
+        className="plaza-card"
+      >
+        <strong>{item.title}</strong>
+
+        <p
+          style={{
+            marginTop: 8,
+            opacity: 0.7,
+          }}
+        >
+          {item.category}
+        </p>
+      </Link>
+    ))}
+
+  </div>
+
+</section> 
 
       <div className="page-foot">
         <Link
