@@ -202,6 +202,35 @@ function makeRiskAllocation(allocation: Allocation[]) {
     .sort((a, b) => b.value - a.value);
 }
 
+function makePriorityAllocation(
+  allocation: Allocation[],
+  capitalAllocation: Allocation[],
+  riskAllocation: Allocation[]
+) {
+  return allocation
+    .map((item) => {
+      const capital =
+        capitalAllocation.find((x) => x.name === item.name)?.value ?? 0;
+
+      const risk =
+        riskAllocation.find((x) => x.name === item.name)?.value ?? 0;
+
+      const portfolio = item.value;
+
+      const priorityScore =
+        portfolio * 0.35 +
+        capital * 0.45 -
+        risk * 0.2;
+
+      return {
+        name: item.name,
+        count: item.count,
+        value: Math.max(0, Math.round(priorityScore)),
+      };
+    })
+    .sort((a, b) => b.value - a.value);
+}
+
 export default function CivilizationPortfolioPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -253,6 +282,12 @@ export default function CivilizationPortfolioPage() {
   const capitalAllocation = makeCapitalAllocation(allocation);
 
   const riskAllocation = makeRiskAllocation(allocation);
+
+  const priorityAllocation = makePriorityAllocation(
+  allocation,
+  capitalAllocation,
+  riskAllocation
+);
 
   const leadingDomain = allocation[0]?.name ?? "Signal Intelligence";
 
@@ -411,6 +446,42 @@ export default function CivilizationPortfolioPage() {
     ) : (
       <div className="feed-empty">
         No risk allocation data available.
+      </div>
+    )}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Dynamic Civilization Priority Engine</h2>
+
+  <p>
+    ArcheNova integrates portfolio weight, capital allocation,
+    and risk exposure into a single civilization priority model.
+    Higher scores indicate stronger strategic attention after
+    balancing opportunity and risk.
+  </p>
+
+  <div className="feed-list">
+    {priorityAllocation.length ? (
+      priorityAllocation.map((item) => (
+        <div
+          key={item.name}
+          className="feed-row wide"
+        >
+          <div className="feed-title">
+            {item.name} — Priority {item.value}
+          </div>
+
+          <div className="feed-summary">
+            Integrated from portfolio allocation, capital allocation,
+            and risk exposure across {item.count} active signal
+            {item.count === 1 ? "" : "s"}.
+          </div>
+        </div>
+      ))
+    ) : (
+      <div className="feed-empty">
+        No priority allocation data available.
       </div>
     )}
   </div>
