@@ -84,6 +84,111 @@ function getForecastProfile(category: string) {
   return map[category] ?? map["Civilization Engineering"];
 }
 
+function getDynamicForecast(signal: Signal) {
+  const text = `
+    ${signal.title}
+    ${signal.observation}
+    ${signal.implication}
+    ${signal.commentary}
+  `.toLowerCase();
+
+  if (
+    text.includes("fusion") ||
+    text.includes("hydrogen") ||
+    text.includes("battery") ||
+    text.includes("energy")
+  ) {
+    return {
+      near:
+        "Pilot systems, demonstration projects, and industrial validation continue to expand.",
+      mid:
+        "Grid integration, storage ecosystems, and energy infrastructure deployment accelerate.",
+      long:
+        "Energy-abundant industrial systems may reshape manufacturing, computation, transportation, and civilization-scale resilience.",
+    };
+  }
+
+  if (
+    text.includes("quantum") ||
+    text.includes("qubit") ||
+    text.includes("photon")
+  ) {
+    return {
+      near:
+        "Improved sensing, secure communication, and laboratory-scale quantum systems emerge.",
+      mid:
+        "Commercial quantum platforms, simulation systems, and distributed quantum networks expand.",
+      long:
+        "Quantum-enabled coordination, sensing, and computational infrastructure may become foundational civilization capability.",
+    };
+  }
+
+  if (
+    text.includes("ai") ||
+    text.includes("agent") ||
+    text.includes("machine learning") ||
+    text.includes("model")
+  ) {
+    return {
+      near:
+        "AI systems become increasingly integrated into research, analysis, and operational workflows.",
+      mid:
+        "Autonomous agents coordinate across organizations, platforms, and infrastructure systems.",
+      long:
+        "Civilization-scale prediction, planning, and adaptive decision-support architectures may emerge.",
+    };
+  }
+
+  if (
+    text.includes("robot") ||
+    text.includes("automation") ||
+    text.includes("manufacturing")
+  ) {
+    return {
+      near:
+        "Automation expands into specialized industrial and operational environments.",
+      mid:
+        "Large-scale robotic infrastructure and logistics networks emerge.",
+      long:
+        "Self-optimizing manufacturing and distributed robotic civilization infrastructure become feasible.",
+    };
+  }
+
+  if (
+    text.includes("gene") ||
+    text.includes("cell") ||
+    text.includes("protein") ||
+    text.includes("medicine")
+  ) {
+    return {
+      near:
+        "Clinical validation and biological platform development continue.",
+      mid:
+        "Precision health systems and adaptive therapeutics expand.",
+      long:
+        "Biological resilience infrastructure and longevity-supporting systems may become widespread.",
+    };
+  }
+
+  if (
+    text.includes("space") ||
+    text.includes("satellite") ||
+    text.includes("orbital") ||
+    text.includes("mars")
+  ) {
+    return {
+      near:
+        "Orbital systems and mission capabilities continue expanding.",
+      mid:
+        "Persistent space infrastructure and industrial activity emerge.",
+      long:
+        "Distributed multi-planetary operational capability becomes increasingly feasible.",
+    };
+  }
+
+  return getForecastProfile(signal.category);
+}
+
 function getDependencyGraph(category: string) {
   const map: Record<
     string,
@@ -281,7 +386,7 @@ if (found) {
 
   const dependencyGraph = getDependencyGraph(signal.category);
 
-  const forecast = getForecastProfile(signal.category);
+  const forecast = getDynamicForecast(signal);
 
   const dependencySignals = relatedSignals
   .filter(
