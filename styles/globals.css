@@ -11229,3 +11229,25 @@ html, body {
     flex-shrink: 0;
   }
 }
+.civilization-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.timeline-stage {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  opacity: 0.45;
+}
+
+.timeline-stage.active {
+  opacity: 1;
+}
+
+.timeline-dot {
+  font-size: 18px;
+  min-width: 20px;
+}

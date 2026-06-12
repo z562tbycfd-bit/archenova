@@ -114,6 +114,18 @@ if (found) {
     );
   }
 
+  const stages = [
+  "Reality Discovery",
+  "Capability Expansion",
+  "Infrastructure Formation",
+  "Synchronization Systems",
+  "Adaptive Capacity",
+  "Civilization Engineering",
+];
+
+const currentStage =
+  stages.indexOf(signal.category);
+
   return (
     <main className="page-standard">
 
@@ -179,6 +191,42 @@ if (found) {
         <h2>Civilization Relevance</h2>
         <p>{signal.commentary}</p>
       </section>
+
+    <section className="glass-block">
+
+  <span className="home-section-label">
+    CIVILIZATION TIMELINE
+  </span>
+
+  <h2>Civilization Timeline</h2>
+
+  <p>
+    ArcheNova interprets each signal as part of a
+    larger civilizational development pathway.
+  </p>
+
+  <div className="civilization-timeline">
+
+    {stages.map((stage, index) => (
+      <div
+        key={stage}
+        className={`timeline-stage ${
+          index <= currentStage
+            ? "active"
+            : ""
+        }`}
+      >
+        <span className="timeline-dot">
+          {index <= currentStage ? "●" : "○"}
+        </span>
+
+        <span>{stage}</span>
+      </div>
+    ))}
+
+  </div>
+
+</section> 
 
       <section className="glass-block">
         <h2>Future Trajectory</h2>
