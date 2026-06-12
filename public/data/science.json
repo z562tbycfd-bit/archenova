@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-12T04:14:49.774Z",
+  "updated": "2026-06-12T09:00:13.812Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Antarctic Peninsula sees record high June temperatures",
+      "url": "https://phys.org/news/2026-06-antarctic-peninsula-high-june-temperatures.html",
+      "summary": "Temperatures in the Antarctic Peninsula have reached a record-breaking high of 15.4C for June, and ice is melting at abnormal rates during the current winter, climate scientists told AFP on Thursday.",
+      "ts": 1781252402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "SpaceX IPO set for liftoff in record market debut",
+      "url": "https://phys.org/news/2026-06-spacex-ipo-liftoff-debut.html",
+      "summary": "Elon Musk's SpaceX was set to begin trading on the Nasdaq exchange Friday, with the biggest initial public offering in history expected to make the polarizing entrepreneur the world's first trillionaire.",
+      "ts": 1781251801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Science fiction? Musk's lofty SpaceX goals unrealistic, skeptics say",
+      "url": "https://phys.org/news/2026-06-science-fiction-musk-lofty-spacex.html",
+      "summary": "Elon Musk's SpaceX has made awe-inspiring achievements since its founding more than two decades ago and has big ideas—colonies on Mars, orbital AI data centers, rapidly reusable rockets—for the future.",
+      "ts": 1781251106000
+    },
     {
       "source": "arXiv Physics",
       "title": "A generalized framework for performance-based earthquake engineering: integrated assessment of structural reliability and resilience",
@@ -679,27 +700,6 @@
       "title": "When proofreading improves both speed and accuracy",
       "url": "https://arxiv.org/abs/2606.12795",
       "summary": "arXiv:2606.12795v1 Announce Type: cross Abstract: Proofreading is generally thought to improve accuracy at the expense of speed. We show that this trade-off can be reversed in stochastic processes with long-lived stalled…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accidental Symmetry in the Tavis-Cummings Model via the Schwinger Boson Representation",
-      "url": "https://arxiv.org/abs/2606.12813",
-      "summary": "arXiv:2606.12813v1 Announce Type: cross Abstract: The Jaynes-Cummings (JC) Hamiltonian is a paradigmatic model of light-matter interaction and, more generally, qubit-boson interactions, widely used across atomic, optical…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Acquisition state behaves as a structured, measurable variable governing lung-nodule AI: kernel-driven measurement instability and noise-driven detection fragility, invisible to DICOM metadata",
-      "url": "https://arxiv.org/abs/2606.12824",
-      "summary": "arXiv:2606.12824v1 Announce Type: cross Abstract: AI governance for medical imaging is formalizing: the 2026 ACR-SIIM Practice Parameter recommends local acceptance testing and ongoing drift monitoring, and the ACR Asses…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global Control with the Tavis-Cummings Interaction",
-      "url": "https://arxiv.org/abs/2606.12906",
-      "summary": "arXiv:2606.12906v1 Announce Type: cross Abstract: We study the controllability of a system of qubits under global control, where control pulses act identically on all qubits. Specifically, we consider a collection of qub…",
       "ts": 1781236800000
     }
   ],
