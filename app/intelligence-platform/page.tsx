@@ -7,17 +7,26 @@ const modules = [
     text:
       "Scientific and technological signals ranked by implementation potential, infrastructure impact, forecast trajectories, opportunity space, and civilization significance.",
   },
+
   {
     title: "Reports",
     href: "/intelligence-platform/reports",
     text:
       "Auto-generated ArcheNova intelligence reports connecting scientific discoveries to implementation pathways, infrastructure formation, and civilization-scale understanding.",
   },
+
   {
     title: "Civilization Portfolio",
     href: "/intelligence-platform/portfolio",
     text:
-      "Portfolio-level analysis of strategic domains, resource allocation priorities, long-term leverage, and civilization-scale development trajectories.",
+      "Portfolio-level analysis of strategic domains, capital allocation, risk exposure, priority scoring, and meta allocation pathways.",
+  },
+
+  {
+    title: "Civilization OS",
+    href: "/intelligence-platform/os",
+    text:
+      "Integrated operating dashboard combining signals, portfolio allocation, capital allocation, risk exposure, priority intelligence, and civilization-scale strategic guidance.",
   },
 ];
 
