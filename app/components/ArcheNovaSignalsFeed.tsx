@@ -13,11 +13,18 @@ type SignalItem = {
   commentary: string;
 
 score?: {
-  discovery: number;
-  capability: number;
-  infrastructure: number;
-  civilization: number;
-  overall: number;
+  realityDiscovery?: number;
+  capabilityExpansion?: number;
+  infrastructureImpact?: number;
+  synchronizationImpact?: number;
+  adaptiveCapacity?: number;
+  civilizationImpact?: number;
+  overall?: number;
+
+  discovery?: number;
+  capability?: number;
+  infrastructure?: number;
+  civilization?: number;
 };
 
   ts: number;
@@ -193,16 +200,44 @@ const visibleItems =
               </div>
 
               {item.score && (
-  <div className="signal-score-box">
+  <div className="signal-score-box signal-score-box-advanced">
     <div className="signal-score-main">
-      Overall {item.score.overall} / 10
+      <span>ArcheNova Score</span>
+      <span className="signal-score-overall">
+        {(item.score.overall ?? 0).toFixed(1)} / 10
+      </span>
     </div>
 
-    <div className="signal-score-grid">
-      <span>Discovery {item.score.discovery}</span>
-      <span>Capability {item.score.capability}</span>
-      <span>Infrastructure {item.score.infrastructure}</span>
-      <span>Civilization {item.score.civilization}</span>
+    <div className="signal-score-grid signal-score-grid-advanced">
+      <span>
+        <b>Reality</b>
+        {(item.score.realityDiscovery ?? item.score.discovery ?? 0).toFixed(1)}
+      </span>
+
+      <span>
+        <b>Capability</b>
+        {(item.score.capabilityExpansion ?? item.score.capability ?? 0).toFixed(1)}
+      </span>
+
+      <span>
+        <b>Infrastructure</b>
+        {(item.score.infrastructureImpact ?? item.score.infrastructure ?? 0).toFixed(1)}
+      </span>
+
+      <span>
+        <b>Synchronization</b>
+        {(item.score.synchronizationImpact ?? 0).toFixed(1)}
+      </span>
+
+      <span>
+        <b>Adaptive</b>
+        {(item.score.adaptiveCapacity ?? 0).toFixed(1)}
+      </span>
+
+      <span>
+        <b>Civilization</b>
+        {(item.score.civilizationImpact ?? item.score.civilization ?? 0).toFixed(1)}
+      </span>
     </div>
   </div>
 )}

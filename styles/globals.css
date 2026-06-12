@@ -11155,3 +11155,33 @@ html, body {
   line-height: 1.75;
   opacity: 0.88;
 }
+.signal-score-box-advanced {
+  margin: 16px 0;
+}
+
+.signal-score-grid-advanced {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.signal-score-grid-advanced span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.signal-score-grid-advanced b {
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.58;
+}
+
+@media (max-width: 768px) {
+  .signal-score-grid-advanced {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
