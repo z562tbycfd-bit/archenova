@@ -55,7 +55,7 @@ export default function ArcheNovaSignalsFeed({ limit = 30 }: { limit?: number })
         const data = await res.json();
 
         if (!cancel && data?.ok) {
-          setItems((data.items || []).slice(0, limit));
+          setItems(data.items || []);
           setUpdated(data.updated ? new Date(data.updated).toLocaleString() : "—");
         }
       } catch {
@@ -91,7 +91,7 @@ const visibleItems = [...filteredItems].sort((a, b) => {
   }
 
   return (b.ts || 0) - (a.ts || 0);
-});
+}).slice(0, limit);
 
   return (
 
