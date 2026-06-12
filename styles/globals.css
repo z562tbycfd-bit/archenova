@@ -11394,3 +11394,34 @@ html, body {
 .dependency-link:hover {
   background: rgba(255,255,255,0.08);
 }
+.forecast-grid {
+  display: grid;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.forecast-card {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.forecast-card span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  opacity: 0.55;
+}
+
+.forecast-card strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.forecast-card p {
+  margin: 0;
+  opacity: 0.78;
+  line-height: 1.6;
+}

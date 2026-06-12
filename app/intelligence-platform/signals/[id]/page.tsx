@@ -22,6 +22,68 @@ type Signal = {
   };
 };
 
+function getForecastProfile(category: string) {
+  const map: Record<
+    string,
+    {
+      near: string;
+      mid: string;
+      long: string;
+    }
+  > = {
+    "Reality Discovery": {
+      near:
+        "New observations, datasets, instruments, and explanatory models emerge.",
+      mid:
+        "The discovery begins influencing adjacent scientific fields, prediction systems, and experimental methods.",
+      long:
+        "A deeper model of reality may enable new technologies, new domains of exploration, and expanded reality-access capacity.",
+    },
+    "Capability Expansion": {
+      near:
+        "Prototype development, technical validation, and early engineering translation begin.",
+      mid:
+        "The capability may enter industrial pilots, product systems, platforms, or specialized operational environments.",
+      long:
+        "The capability may become a durable layer of industrial, scientific, or civilizational infrastructure.",
+    },
+    "Infrastructure Formation": {
+      near:
+        "Early deployment, standards, operational models, and institutional adoption begin.",
+      mid:
+        "The system may scale into networks, platforms, supply chains, or regional infrastructure.",
+      long:
+        "The infrastructure may become a persistent civilization-scale capability layer.",
+    },
+    "Synchronization Systems": {
+      near:
+        "Coordination, sensing, timing, communication, or monitoring capabilities improve.",
+      mid:
+        "Distributed systems may become more interoperable, secure, and operationally synchronized.",
+      long:
+        "The signal may contribute to planetary-scale coordination, distributed intelligence, or secure synchronization infrastructure.",
+    },
+    "Adaptive Capacity": {
+      near:
+        "Monitoring, diagnosis, forecasting, or resilience tools improve in targeted domains.",
+      mid:
+        "Adaptive systems may integrate into healthcare, environmental planning, risk management, or institutional response.",
+      long:
+        "The signal may strengthen civilization's ability to survive, recover, and adapt under long-term uncertainty.",
+    },
+    "Civilization Engineering": {
+      near:
+        "Connections emerge between science, technology, institutions, capital, and implementation pathways.",
+      mid:
+        "The signal may influence strategic infrastructure, governance, investment, or institutional coordination.",
+      long:
+        "The signal may contribute to the expansion of civilization-scale capability, resilience, and future possibility space.",
+    },
+  };
+
+  return map[category] ?? map["Civilization Engineering"];
+}
+
 function getDependencyGraph(category: string) {
   const map: Record<
     string,
@@ -218,6 +280,8 @@ if (found) {
   const maturity = getCivilizationMaturity(signal.category);
 
   const dependencyGraph = getDependencyGraph(signal.category);
+
+  const forecast = getForecastProfile(signal.category);
 
   const dependencySignals = relatedSignals
   .filter(
@@ -520,6 +584,38 @@ const currentStage =
       ) : (
         <p>No higher-maturity related signals detected.</p>
       )}
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <span className="home-section-label">
+    ARCHENOVA FORECAST ENGINE
+  </span>
+
+  <p>
+    ArcheNova projects this signal across near-term,
+    mid-term, and long-term civilizational development
+    horizons.
+  </p>
+
+  <div className="forecast-grid">
+    <div className="forecast-card">
+      <span>1–5 Years</span>
+      <strong>Near-Term</strong>
+      <p>{forecast.near}</p>
+    </div>
+
+    <div className="forecast-card">
+      <span>5–15 Years</span>
+      <strong>Mid-Term</strong>
+      <p>{forecast.mid}</p>
+    </div>
+
+    <div className="forecast-card">
+      <span>15–30 Years</span>
+      <strong>Long-Term</strong>
+      <p>{forecast.long}</p>
     </div>
   </div>
 </section>
