@@ -147,6 +147,45 @@ function makeScenarioExplorer(signals: Signal[]) {
   ].sort((a, b) => b.strength - a.strength);
 }
 
+function makeFuturesEngine(
+  scenarioExplorer: ReturnType<typeof makeScenarioExplorer>
+) {
+  const totalStrength = scenarioExplorer.reduce(
+    (sum, scenario) => sum + scenario.strength,
+    0
+  );
+
+  if (!totalStrength) {
+    return scenarioExplorer.map((scenario) => ({
+      ...scenario,
+      probability: 20,
+      confidence: "Low",
+    }));
+  }
+
+  return scenarioExplorer
+    .map((scenario) => {
+      const probability = Math.round(
+        (scenario.strength / totalStrength) * 100
+      );
+
+      let confidence = "Low";
+
+      if (probability >= 35) {
+        confidence = "High";
+      } else if (probability >= 20) {
+        confidence = "Medium";
+      }
+
+      return {
+        ...scenario,
+        probability,
+        confidence,
+      };
+    })
+    .sort((a, b) => b.probability - a.probability);
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -188,6 +227,8 @@ export default function CivilizationSimulationPage() {
   const scenarios = makeScenarios(signals);
 
   const scenarioExplorer = makeScenarioExplorer(signals);
+
+  const futures = makeFuturesEngine(scenarioExplorer);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -298,6 +339,41 @@ export default function CivilizationSimulationPage() {
 
         <div className="feed-summary">
           Trajectory: {scenario.trajectory}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Futures Engine</h2>
+
+  <p>
+    ArcheNova estimates which civilization futures appear
+    most likely based on current signal density across
+    strategic domains.
+  </p>
+
+  <div className="feed-list">
+    {futures.map((future, index) => (
+      <div
+        key={future.name}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          Future {index + 1} · {future.confidence} Confidence
+        </div>
+
+        <div className="feed-title">
+          {future.name} — {future.probability}%
+        </div>
+
+        <div className="feed-summary">
+          Driver: {future.driver}
+        </div>
+
+        <div className="feed-summary">
+          Trajectory: {future.trajectory}
         </div>
       </div>
     ))}
