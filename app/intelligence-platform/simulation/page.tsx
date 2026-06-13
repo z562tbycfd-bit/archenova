@@ -1630,7 +1630,7 @@ const collectiveIntelligence =
 </>
 )}
 
-{view === "v5" && (
+{view === "v6" && (
   <>
 <section className="glass-block">
   <h2>Civilization Wisdom Engine</h2>
