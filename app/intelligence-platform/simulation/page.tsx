@@ -811,6 +811,32 @@ function makeValueEngine(
   };
 }
 
+function makeSelectionEngine(
+  values: ReturnType<typeof makeValueEngine>,
+  wisdom: ReturnType<typeof makeWisdomEngine>,
+  futures: ReturnType<typeof makeFuturesEngine>
+) {
+  const leadingFuture =
+    futures[0]?.name ?? "Adaptive Civilization";
+
+  let selectionMode = "Balanced Selection";
+
+  if (values.score >= 90 && wisdom.score >= 90) {
+    selectionMode = "Civilization-Level Selection";
+  } else if (values.score >= 70 && wisdom.score >= 70) {
+    selectionMode = "Strategic Selection";
+  }
+
+  return {
+    mode: selectionMode,
+    selectedPathway: leadingFuture,
+    criterion:
+      "Select the pathway that best preserves optionality while expanding adaptive capacity, resilience, legitimacy, trust, and reality-discovery capability.",
+    recommendation:
+      `ArcheNova recommends selecting ${leadingFuture} only as part of a value-aligned civilization pathway, not as a narrow optimization target.`,
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -939,6 +965,12 @@ const values = makeValueEngine(
   wisdom,
   trust,
   collectiveIntelligence
+);
+
+const selection = makeSelectionEngine(
+  values,
+  wisdom,
+  futures
 );
 
   const strongestScenario =
@@ -1741,6 +1773,38 @@ const values = makeValueEngine(
 
     <div className="feed-summary">
       Principle: {values.principle}
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Selection Engine</h2>
+
+  <p>
+    ArcheNova converts wisdom and values into a
+    selection framework for choosing which civilization
+    pathway should be prioritized under uncertainty.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Selection Assessment
+    </div>
+
+    <div className="feed-title">
+      {selection.mode}
+    </div>
+
+    <div className="feed-summary">
+      Selected pathway: {selection.selectedPathway}
+    </div>
+
+    <div className="feed-summary">
+      Criterion: {selection.criterion}
+    </div>
+
+    <div className="feed-summary">
+      Recommendation: {selection.recommendation}
     </div>
   </div>
 </section>
