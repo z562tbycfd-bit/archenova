@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-13T08:23:03.601Z",
+  "updated": "2026-06-13T11:16:53.427Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -43,12 +43,36 @@
       "categoryId": "policy"
     },
     {
+      "source": "NASA",
+      "title": "NASA to Cover 34th SpaceX Resupply Mission Space Station Departure",
+      "url": "https://www.nasa.gov/news-release/nasa-to-cover-34th-spacex-resupply-mission-space-station-departure/",
+      "summary": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft is scheduled to depart the International Space Station on Tuesday, June 16, for its return to …",
+      "ts": 1781278374000,
+      "categoryId": "space"
+    },
+    {
       "source": "Quanta",
       "title": "Where Did Earth Get Its Oceans? Maybe It Made Them Itself.",
       "url": "https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/",
       "summary": "At first, scientists thought Earth’s water came from comets. Then, asteroids. Now, they wonder if Earth’s water is homegrown. The post Where Did Earth Get Its Oceans? Maybe It Made Them Itself. first appeared on Quanta M…",
       "ts": 1781273060000,
       "categoryId": "quantum"
+    },
+    {
+      "source": "NASA Image of the Day",
+      "title": "Black Eye Galaxy",
+      "url": "https://www.nasa.gov/image-detail/55158722798-9bb0f41f19-o/",
+      "summary": "Easily identified by the spectacular band of dark dust that partially obscures its bright core, Messier 64, or the Black Eye Galaxy, is characterized by its bizarre internal motion.",
+      "ts": 1781272860000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Black Eye Galaxy",
+      "url": "https://www.nasa.gov/image-article/black-eye-galaxy/",
+      "summary": "This March 20, 2026, image of Messier 64, or the Black Eye Galaxy, is a composite view from NASA’s Hubble Space Telescope and James Webb Space Telescope. It shows Messier 64 captured at near- and mid-infrared wavelengths…",
+      "ts": 1781272795000,
+      "categoryId": "space"
     },
     {
       "source": "ESA",
@@ -81,6 +105,14 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier …",
       "ts": 1781266200000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Sees Swarm of Galaxies",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-sees-swarm-of-galaxies/",
+      "summary": "Looking somewhat like a swarm of bees returning to their hive, this NASA Hubble Space Telescope image features the galaxy cluster MACS0329-0211.",
+      "ts": 1781264090000,
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -687,38 +719,6 @@
       "title": "Diffusive Dynamics of Nonstabilizerness",
       "url": "https://arxiv.org/abs/2606.13606",
       "summary": "arXiv:2606.13606v1 Announce Type: new Abstract: Symmetries shape the quantum-information dynamics of many-body systems, but their effect on nonstabilizerness, the resource complementary to entanglement, is less understoo…",
-      "ts": 1781236800000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Optimal classical shadow estimation of unitary channels at Heisenberg limit",
-      "url": "https://arxiv.org/abs/2606.13638",
-      "summary": "arXiv:2606.13638v1 Announce Type: new Abstract: Full tomography of an unknown quantum evolution is resource-intensive and often unnecessary when the goal is only to predict selected properties. This motivates the study o…",
-      "ts": 1781236800000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Generalized two-qubit Hamiltonian for Projective Quantum Feature Maps",
-      "url": "https://arxiv.org/abs/2606.13641",
-      "summary": "arXiv:2606.13641v1 Announce Type: new Abstract: Projected quantum feature maps provide a strategy for using quantum processors as feature generators for classical machine-learning models. Building on counterdiabatic Isin…",
-      "ts": 1781236800000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "To Cool, or Not to Cool? Displacement Sensing with Hot Quantum States",
-      "url": "https://arxiv.org/abs/2606.13650",
-      "summary": "arXiv:2606.13650v1 Announce Type: new Abstract: Quantum-enhanced displacement sensing with bosonic systems is typically formulated assuming that the oscillator is cooled close to its ground state before nonclassical prob…",
-      "ts": 1781236800000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Semi-Device-Independent Certification for Nonlocality without Entanglement",
-      "url": "https://arxiv.org/abs/2606.13667",
-      "summary": "arXiv:2606.13667v1 Announce Type: new Abstract: In this work, we investigate maximum-confidence discrimination, which encompasses minimum-error and unambiguous discrimination, for ensembles of separable states by conside…",
       "ts": 1781236800000,
       "categoryId": "quantum"
     }

@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-13T08:22:58.816Z",
+  "updated": "2026-06-13T11:16:47.526Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI sorts cell droplets into four shapes, uncovering drug effects in human cells",
+      "url": "https://phys.org/news/2026-06-ai-cell-droplets-uncovering-drug.html",
+      "summary": "Researchers at Princeton University have harnessed AI to understand how drugs affect the dynamics of vital structures within the cell, introducing a tool that can map the shape of these structures to functional outcomes …",
+      "ts": 1781346001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "SpaceX: Five key moments, from first launch to Starship megarocket",
+      "url": "https://phys.org/news/2026-06-spacex-key-moments-starship-megarocket.html",
+      "summary": "More than 20 years after its founding, SpaceX made history Friday with its record-high stock market debut, crowning a unique journey marked by dazzling successes but also catastrophic failures and unfulfilled promises.",
+      "ts": 1781345694000
+    },
     {
       "source": "Phys.org",
       "title": "Lab-grown canine muscle cells offer solution for early therapeutic testing",
@@ -686,20 +700,6 @@
       "title": "Duty-cycle modulation of the self-sustaining process by spanwise wall oscillation",
       "url": "https://arxiv.org/abs/2606.13207",
       "summary": "arXiv:2606.13207v1 Announce Type: new Abstract: Direct Numerical Simulation of turbulent channel flow at friction Reynolds number around 200 is performed with spanwise wall actuation to achieve drag reduction. A quasi-sq…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Historical Seismic Monitoring of EGS and Conventional Geothermal Fields: LBNL Efforts and Lessons Learned",
-      "url": "https://arxiv.org/abs/2606.13231",
-      "summary": "arXiv:2606.13231v1 Announce Type: new Abstract: Enhanced Geothermal Systems (EGS) deployment across diverse geological settings requires a better understanding and management of induced seismicity. Lawrence Berkeley Nati…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Excited-state Properties Beyond the Excitation Energy from Orbital-Optimized Density Functional Calculations II: Absorption Spectra",
-      "url": "https://arxiv.org/abs/2606.13243",
-      "summary": "arXiv:2606.13243v1 Announce Type: new Abstract: Orbital-optimized density functional calculations describe each excited state using its own set of variationally optimized orbitals. While this state-specific optimization …",
       "ts": 1781236800000
     }
   ],
