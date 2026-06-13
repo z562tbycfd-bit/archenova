@@ -312,6 +312,39 @@ function makeLearningEngine(
   });
 }
 
+function makeEvolutionEngine(
+  learningPlan: ReturnType<typeof makeLearningEngine>,
+  futures: ReturnType<typeof makeFuturesEngine>
+) {
+  const topFuture = futures[0];
+
+  const evolutionDirection =
+    topFuture?.name ?? "Adaptive Civilization";
+
+  return learningPlan.map((item, index) => {
+    const evolutionaryShift =
+      index === 0
+        ? "Signal interpretation becomes more selective, evidence-sensitive, and adaptive."
+        : index === 1
+        ? "Strategy and allocation become more responsive to feasibility, governance, and deployment performance."
+        : "Civilization operating logic evolves toward resilience, synchronization, and long-term capability expansion.";
+
+    const newOperatingState =
+      index === 0
+        ? "Updated Signal Intelligence"
+        : index === 1
+        ? "Updated Strategy and Allocation Model"
+        : `Evolving toward ${evolutionDirection}`;
+
+    return {
+      layer: `Evolution Layer ${index + 1}`,
+      source: item.layer,
+      shift: evolutionaryShift,
+      state: newOperatingState,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -363,6 +396,11 @@ export default function CivilizationSimulationPage() {
   const feedbackPlan = makeFeedbackEngine(executionPlan);
 
   const learningPlan = makeLearningEngine(feedbackPlan);
+
+  const evolutionPlan = makeEvolutionEngine(
+  learningPlan,
+  futures
+);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -628,6 +666,38 @@ export default function CivilizationSimulationPage() {
 
         <div className="feed-summary">
           Model update: {item.update}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Evolution Engine</h2>
+
+  <p>
+    ArcheNova converts learning into updated operating
+    states, allowing the intelligence system to evolve its
+    interpretation, allocation, strategy, and long-term
+    civilizational direction.
+  </p>
+
+  <div className="feed-list">
+    {evolutionPlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer} · based on {item.source}
+        </div>
+
+        <div className="feed-title">
+          {item.state}
+        </div>
+
+        <div className="feed-summary">
+          Evolutionary shift: {item.shift}
         </div>
       </div>
     ))}
