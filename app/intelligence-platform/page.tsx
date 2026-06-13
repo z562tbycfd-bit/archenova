@@ -28,6 +28,14 @@ const modules = [
     text:
       "Integrated operating dashboard combining signals, portfolio allocation, capital allocation, risk exposure, priority intelligence, and civilization-scale strategic guidance.",
   },
+
+  {
+    title: "Simulation",
+    href: "/intelligence-platform/simulation",
+    text:
+      "Civilization simulation, futures exploration, decision, execution, feedback, learning, evolution, governance, legitimacy, and trust intelligence.",
+  },
+
 ];
 
 export default function IntelligencePlatformPage() {
