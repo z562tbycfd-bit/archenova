@@ -87,6 +87,66 @@ function makeScenarios(signals: Signal[]): Scenario[] {
   ];
 }
 
+function makeScenarioExplorer(signals: Signal[]) {
+  const aiSignals = signals.filter((signal) =>
+    `${signal.title} ${signal.observation}`.toLowerCase().includes("ai")
+  ).length;
+
+  const energySignals = signals.filter((signal) =>
+    `${signal.title} ${signal.observation}`.toLowerCase().match(/energy|fusion|battery|hydrogen|grid|power/)
+  ).length;
+
+  const spaceSignals = signals.filter((signal) =>
+    `${signal.title} ${signal.observation}`.toLowerCase().match(/space|satellite|orbital|nasa|launch|mars/)
+  ).length;
+
+  const bioSignals = signals.filter((signal) =>
+    `${signal.title} ${signal.observation}`.toLowerCase().match(/bio|gene|cell|protein|medicine|health/)
+  ).length;
+
+  const quantumSignals = signals.filter((signal) =>
+    `${signal.title} ${signal.observation}`.toLowerCase().match(/quantum|qubit|photon|superconduct/)
+  ).length;
+
+  return [
+    {
+      name: "AI-First Civilization",
+      driver: "Cognitive infrastructure",
+      strength: aiSignals,
+      trajectory:
+        "Accelerated discovery, automation, prediction, and institutional decision support.",
+    },
+    {
+      name: "Energy-Abundant Civilization",
+      driver: "Energy systems",
+      strength: energySignals,
+      trajectory:
+        "Expanded manufacturing, computation, mobility, resilience, and infrastructure capacity.",
+    },
+    {
+      name: "Space-Expansion Civilization",
+      driver: "Space infrastructure",
+      strength: spaceSignals,
+      trajectory:
+        "Orbital sensing, logistics, communication, and long-term domain expansion.",
+    },
+    {
+      name: "Bio-Adaptive Civilization",
+      driver: "Biological resilience",
+      strength: bioSignals,
+      trajectory:
+        "Precision health, longevity, adaptive capacity, and biological infrastructure.",
+    },
+    {
+      name: "Quantum-Synchronized Civilization",
+      driver: "Quantum systems",
+      strength: quantumSignals,
+      trajectory:
+        "Secure communication, precision sensing, synchronization, and advanced computation.",
+    },
+  ].sort((a, b) => b.strength - a.strength);
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -126,6 +186,8 @@ export default function CivilizationSimulationPage() {
   }, []);
 
   const scenarios = makeScenarios(signals);
+
+  const scenarioExplorer = makeScenarioExplorer(signals);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -206,6 +268,41 @@ export default function CivilizationSimulationPage() {
           ))}
         </div>
       </section>
+
+      <section className="glass-block">
+  <h2>Civilization Scenario Explorer</h2>
+
+  <p>
+    ArcheNova compares alternative civilization futures based on
+    the current density of strategic signals across AI, energy,
+    space, biology, and quantum systems.
+  </p>
+
+  <div className="feed-list">
+    {scenarioExplorer.map((scenario, index) => (
+      <div
+        key={scenario.name}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          Scenario {index + 1} · Signal Strength {scenario.strength}
+        </div>
+
+        <div className="feed-title">
+          {scenario.name}
+        </div>
+
+        <div className="feed-summary">
+          Driver: {scenario.driver}
+        </div>
+
+        <div className="feed-summary">
+          Trajectory: {scenario.trajectory}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
 
       <section className="glass-block">
         <h2>Simulation Interpretation</h2>
