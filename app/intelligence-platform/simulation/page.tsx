@@ -230,6 +230,34 @@ function makeDecisionEngine(
   };
 }
 
+function makeExecutionEngine(
+  decision: ReturnType<typeof makeDecisionEngine>
+) {
+  return [
+    {
+      phase: "Execution Phase 1",
+      horizon: "0–12 Months",
+      focus: "Validation and monitoring",
+      action:
+        `Translate the decision "${decision.decision}" into monitoring targets, validation criteria, and early coordination tasks.`,
+    },
+    {
+      phase: "Execution Phase 2",
+      horizon: "1–3 Years",
+      focus: "Strategic deployment",
+      action:
+        "Develop partnerships, technical pathways, governance mechanisms, and capital allocation plans aligned with the selected future direction.",
+    },
+    {
+      phase: "Execution Phase 3",
+      horizon: "3–10 Years",
+      focus: "Infrastructure formation",
+      action:
+        "Convert strategic direction into durable infrastructure, operational systems, institutional capacity, and civilization-scale capability.",
+    },
+  ];
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -275,6 +303,8 @@ export default function CivilizationSimulationPage() {
   const futures = makeFuturesEngine(scenarioExplorer);
 
   const decision = makeDecisionEngine(futures);
+
+  const executionPlan = makeExecutionEngine(decision);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -450,6 +480,37 @@ export default function CivilizationSimulationPage() {
     <div className="feed-summary">
       Action: {decision.action}
     </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Execution Engine</h2>
+
+  <p>
+    ArcheNova converts the strategic decision into phased
+    execution pathways across validation, deployment, and
+    infrastructure formation.
+  </p>
+
+  <div className="feed-list">
+    {executionPlan.map((item) => (
+      <div
+        key={item.phase}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.phase} · {item.horizon}
+        </div>
+
+        <div className="feed-title">
+          {item.focus}
+        </div>
+
+        <div className="feed-summary">
+          {item.action}
+        </div>
+      </div>
+    ))}
   </div>
 </section>
 
