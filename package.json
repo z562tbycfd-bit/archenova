@@ -1,12 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "update-feeds": "node scripts/update-feeds.mjs"
-  },
+  "dev": "next dev",
+  "prebuild": "npm run update-feeds",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "update-feeds": "node scripts/update-feeds.mjs"
+},
   "dependencies": {
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.17.10",

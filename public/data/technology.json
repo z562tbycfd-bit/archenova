@@ -1,6 +1,10 @@
 {
   "ok": true,
+<<<<<<< HEAD
   "updated": "2026-06-13T20:17:46.356Z",
+=======
+  "updated": "2026-06-13T21:30:01.235Z",
+>>>>>>> 8dce14ba (Run feed update before build)
   "items": [
     {
       "source": "SpaceNews",

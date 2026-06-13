@@ -1,9 +1,30 @@
 {
   "ok": true,
+<<<<<<< HEAD
   "updated": "2026-06-13T20:17:41.991Z",
   "items": [
     {
       "source": "Phys.org",
+=======
+  "updated": "2026-06-13T21:29:40.879Z",
+  "items": [
+    {
+      "source": "Phys.org",
+      "title": "Could leaves help feed humanity after disaster?",
+      "url": "https://phys.org/news/2026-06-humanity-disaster.html",
+      "summary": "UC researchers are investigating whether leaf protein and sugar extracted from plant fiber could help sustain people if major global shocks disrupt food production. Te Whare Wānanga o Waitaha | University of Canterbury (…",
+      "ts": 1781384404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dogs and humans are more alike than we thought, study finds",
+      "url": "https://phys.org/news/2026-06-dogs-humans-alike-thought.html",
+      "summary": "The same biological signals that help predict lifespan in humans also appear in dogs, according to new research from the Dog Aging Project—a finding that could help scientists better understand aging in both species.",
+      "ts": 1781384402000
+    },
+    {
+      "source": "Phys.org",
+>>>>>>> 8dce14ba (Run feed update before build)
       "title": "How directing water flows in the landscape could support groundwater and surface water streams",
       "url": "https://phys.org/news/2026-06-landscape-groundwater-surface-streams.html",
       "summary": "Researchers at the Leibniz Centre for Agricultural Landscape Research have investigated how water from streams can be stored in the aquifer during wet periods. Using an area in the lower Spree catchment in Brandenburg as…",
@@ -199,6 +220,7 @@
       "ts": 1781308801000
     },
     {
+<<<<<<< HEAD
       "source": "Phys.org",
       "title": "Solar geoengineering could shield up to 75% of oceans from heat waves",
       "url": "https://phys.org/news/2026-06-solar-geoengineering-shield-oceans.html",
@@ -220,6 +242,8 @@
       "ts": 1781293201000
     },
     {
+=======
+>>>>>>> 8dce14ba (Run feed update before build)
       "source": "Science News",
       "title": "A popular sunscreen ingredient can finally be sold in the United States",
       "url": "https://www.sciencenews.org/article/sunscreen-bemotrizinol-fda-safe",
@@ -227,6 +251,7 @@
       "ts": 1781290710000
     },
     {
+<<<<<<< HEAD
       "source": "Phys.org",
       "title": "New species of Middle Miocene bear-dog described in tribute to Salvador Moyà-Solà",
       "url": "https://phys.org/news/2026-06-species-middle-miocene-dog-tribute.html",
@@ -297,6 +322,8 @@
       "ts": 1781283603000
     },
     {
+=======
+>>>>>>> 8dce14ba (Run feed update before build)
       "source": "Science News",
       "title": "A new method could spot fentanyl variants no one has cataloged yet",
       "url": "https://www.sciencenews.org/article/fentanyl-variants-new-detection-method",
@@ -304,6 +331,7 @@
       "ts": 1781283600000
     },
     {
+<<<<<<< HEAD
       "source": "Phys.org",
       "title": "Carbon dioxide unlocks safer oxidation chemistry under room-temperature conditions",
       "url": "https://phys.org/news/2026-06-carbon-dioxide-safer-oxidation-chemistry.html",
@@ -332,6 +360,8 @@
       "ts": 1781280005000
     },
     {
+=======
+>>>>>>> 8dce14ba (Run feed update before build)
       "source": "Science News",
       "title": "Crossword: Power play",
       "url": "https://www.sciencenews.org/article/crossword-power-play-july-2026-puzzle",
@@ -339,6 +369,7 @@
       "ts": 1781280000000
     },
     {
+<<<<<<< HEAD
       "source": "Phys.org",
       "title": "Climate change is causing fish to move to cooler water—what if their escape route is blocked?",
       "url": "https://phys.org/news/2026-06-climate-fish-cooler-route-blocked.html",
@@ -374,6 +405,8 @@
       "ts": 1781276403000
     },
     {
+=======
+>>>>>>> 8dce14ba (Run feed update before build)
       "source": "Science News",
       "title": "Here’s what would happen if you tried to break a photon in half",
       "url": "https://www.sciencenews.org/article/break-photon-in-half-particle-new-ones",
@@ -381,6 +414,7 @@
       "ts": 1781276400000
     },
     {
+<<<<<<< HEAD
       "source": "Phys.org",
       "title": "SpaceX launches Falcon 9 rocket minutes ahead of IPO",
       "url": "https://phys.org/news/2026-06-spacex-falcon-rocket-minutes-ipo.html",
@@ -416,6 +450,8 @@
       "ts": 1781274009000
     },
     {
+=======
+>>>>>>> 8dce14ba (Run feed update before build)
       "source": "Science News",
       "title": "No, mastic gum won’t reshape your jaw",
       "url": "https://www.sciencenews.org/article/mastic-gum-benefits-jaw-antibacterial",
@@ -519,6 +555,13 @@
       "url": "https://phys.org/news/2026-06-science-fiction-musk-lofty-spacex.html",
       "summary": "Elon Musk's SpaceX has made awe-inspiring achievements since its founding more than two decades ago and has big ideas—colonies on Mars, orbital AI data centers, rapidly reusable rockets—for the future.",
       "ts": 1781251106000
+    },
+    {
+      "source": "Science",
+      "title": "New documentary follows researchers’ increasingly fraught career path",
+      "url": "https://www.science.org/content/article/new-documentary-follows-researchers-increasingly-fraught-career-path",
+      "summary": "The Endless Frontier traces the lives of three scientists as they train students and deal with funding pressures",
+      "ts": 1781242200000
     },
     {
       "source": "arXiv Physics",
@@ -701,6 +744,177 @@
       "url": "https://arxiv.org/abs/2606.12749",
       "summary": "arXiv:2606.12749v1 Announce Type: new Abstract: Bichromatically pumped Kerr microresonators exhibit phase bistability and multistability arising from four-wave mixing between pump and generated modes. Here we analyze the…",
       "ts": 1781236800000
+<<<<<<< HEAD
+=======
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "The toroidal flux and separatrix effects in tokamaks",
+      "url": "https://arxiv.org/abs/2606.12760",
+      "summary": "arXiv:2606.12760v1 Announce Type: new Abstract: The toroidal magnetic flux enclosed by magnetic surface has remarkably little prominence in the tokamak literature. Nevertheless, it is required to properly interpret Farad…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Comparison of Two Operational Microphysics Schemes Across Various Regional-MPAS Simulations",
+      "url": "https://arxiv.org/abs/2606.12762",
+      "summary": "arXiv:2606.12762v1 Announce Type: new Abstract: Accurately representing convection and precipitation remains a persistent challenge for Numerical Weather Prediction (NWP) models due to biases in convective initiation, st…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Reaching the thermodynamic limit of periodic CCSD cohesive energies and band gaps with denser Brillouin zone sampling",
+      "url": "https://arxiv.org/abs/2606.12782",
+      "summary": "arXiv:2606.12782v1 Announce Type: new Abstract: The high computational cost of periodic coupled-cluster theory has limited the density of Brillouin zone sampling, yielding finite-size errors that need to be removed by ex…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Interpretable model-free inference of parametric variation across time-series data through large-scale feature extraction",
+      "url": "https://arxiv.org/abs/2606.12836",
+      "summary": "arXiv:2606.12836v1 Announce Type: new Abstract: Here we address the problem of estimating the dimensionality and nature of parametric variation in an unknown generative process directly from time-series data, without spe…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Candidate overtone shear horizontal SAW resonators in thin-film lithium niobate for intermodal acousto-optic modulation",
+      "url": "https://arxiv.org/abs/2606.12853",
+      "summary": "arXiv:2606.12853v1 Announce Type: new Abstract: The merits of thin-film surface acoustic wave (SAW) devices are pivotal to develop the high-performance intermodal acousto-optic modulators. In this work, we have proposed …",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Omnidirectional photonic chiral flatband in nonlocal membrane metasurfaces",
+      "url": "https://arxiv.org/abs/2606.12873",
+      "summary": "arXiv:2606.12873v1 Announce Type: new Abstract: Omnidirectional flat-band resonances, characterized by an enhanced photonic density of states and inherent angular robustness, are highly sought-after in integrated nanopho…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Longitudinal particle separation",
+      "url": "https://arxiv.org/abs/2606.12894",
+      "summary": "arXiv:2606.12894v1 Announce Type: new Abstract: Owing to inertial effects, the flow through a three-dimensional curved duct focuses finite-sized spherical particles in the two-dimensional cross-section onto either stable…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Design and optimization of an AZO-based plasmonic metasurface-driven optical solar reflector for thermal management",
+      "url": "https://arxiv.org/abs/2606.12957",
+      "summary": "arXiv:2606.12957v1 Announce Type: new Abstract: Plasmonic metasurface-driven Optical Solar Reflectors (m-OSRs) offer a promising route towards lightweight and high-performance thermal management. By exploiting subwavelen…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "The effect of in-phase current and temperature oscillations on the impedance of the cathode catalyst layer in a PEM fuel cell",
+      "url": "https://arxiv.org/abs/2606.12999",
+      "summary": "arXiv:2606.12999v1 Announce Type: new Abstract: An impedance model for the cathode catalyst layer (CCL) in a PEM fuel cell demonstrates that in-phase harmonic perturbations to the cell current density and CCL temperature…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Insitu X Ray Photoemission Study of Nb Surface Under Plasma Cleaning During MID T BAKING For SRF Cavities",
+      "url": "https://arxiv.org/abs/2606.13013",
+      "summary": "arXiv:2606.13013v1 Announce Type: new Abstract: Specific heat treatments applied to superconducting radiofrequency (SRF) cavities, such as nitrogen infusion or Mid T baking, aim to improve the quality factor (Qo) at medi…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Enhanced Target Interaction Area of Helical Plasma Plumes in a Pulsed RF Atmospheric Plasma Jet",
+      "url": "https://arxiv.org/abs/2606.13021",
+      "summary": "arXiv:2606.13021v1 Announce Type: new Abstract: Helical plasma plumes generated in pulsed radiofrequency atmospheric pressure plasma jets exhibit unique flow dynamics arising from the coupling between Kelvin-Helmholtz in…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Exploring fair access to quantum computing",
+      "url": "https://arxiv.org/abs/2606.13027",
+      "summary": "arXiv:2606.13027v1 Announce Type: new Abstract: This short article - commissioned as part of the Quantum Flagship project OpenSuperQPlus - introduces the topic of fair access to quantum computing time and argues for its …",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Radiology-Report Semantic Modelling and Host-Response Laboratory Biomarkers for Multimodal Survival Prediction in Lung Cancer",
+      "url": "https://arxiv.org/abs/2606.13043",
+      "summary": "arXiv:2606.13043v1 Announce Type: new Abstract: TNM staging is essential for lung cancer management, but patients within the same anatomic stage often show heterogeneous survival outcomes. We developed a multimodal adapt…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Bacterial Motility Across Scales: Mechanisms, Live Imaging, and Quantitative Analysis",
+      "url": "https://arxiv.org/abs/2606.13059",
+      "summary": "arXiv:2606.13059v1 Announce Type: new Abstract: Bacteria live in environments that are constantly changing. To survive, they rely on different motility systems that let them move, explore, and interact with their surroun…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Intelligent Perception Assisted Light Modulation for real-time and program-free nanofabrication and particle manipulation",
+      "url": "https://arxiv.org/abs/2606.13080",
+      "summary": "arXiv:2606.13080v1 Announce Type: new Abstract: In this paper, we present an Intelligent Perception-Assisted Light Modulation (IPALM) technique, for femtosecond laser nanofabrication and particle manipulation. IPALM tech…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Reservoir-controlled electromagnetically induced gratings in a weakly driven two-level medium",
+      "url": "https://arxiv.org/abs/2606.13085",
+      "summary": "arXiv:2606.13085v1 Announce Type: new Abstract: We theoretically investigate the transmission and diffraction of a weak probe field from an electromagnetically induced grating formed in a weakly driven two-level medium c…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "A Magnetic Torsional Pendulum for Exploring Forced Resonance, Parametric Resonance, and Parametric Amplification",
+      "url": "https://arxiv.org/abs/2606.13103",
+      "summary": "arXiv:2606.13103v1 Announce Type: new Abstract: We present a magnetic torsional pendulum that provides a unified experimental platform for investigating forced resonance, parametric resonance, and degenerate parametric a…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Model structures and electron transfer properties of conductive nickel-organic nanoribbons in cable bacteria",
+      "url": "https://arxiv.org/abs/2606.13117",
+      "summary": "arXiv:2606.13117v1 Announce Type: new Abstract: Cable bacteria are multicellular bacteria capable of centimeter-scale conduction through a regular fiber network embedded in their cell envelope. The conductivity of these …",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Sub-8-nm resolution AKB-mirror-based hard X-ray ptychography via generalized Wirtinger projections",
+      "url": "https://arxiv.org/abs/2606.13130",
+      "summary": "arXiv:2606.13130v1 Announce Type: new Abstract: Hard X-ray ptychography has become increasingly essential in both the life and physical sciences. However, pushing resolution down to a few nanometres often requires highly…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Can non-orthogonal bases form stable skyrmionic beams?",
+      "url": "https://arxiv.org/abs/2606.13153",
+      "summary": "arXiv:2606.13153v1 Announce Type: new Abstract: Skyrmions, topologically stable spin textures, have recently garnered significant attention in optics promising robust high-density information transition and nontrivial li…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Ultrashort Pulse Train Generation on a 100TW Laser Beamline Using a Delay Mask After the Final Focusing Optics",
+      "url": "https://arxiv.org/abs/2606.13183",
+      "summary": "arXiv:2606.13183v1 Announce Type: new Abstract: Experimental results aimed at demonstrating the feasibility of a two-section delay mask for the generation of ultrashort pulse trains are reported. Based on the initial sim…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Robustness against disorder in topological fibre lasers with explicitly broken PT symmetry",
+      "url": "https://arxiv.org/abs/2606.13186",
+      "summary": "arXiv:2606.13186v1 Announce Type: new Abstract: Fibre lasers realise a large gain medium in a compactly coiled fibre. Disorder due to fabrication can negatively impact the stability of their lasing modes, especially in m…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Duty-cycle modulation of the self-sustaining process by spanwise wall oscillation",
+      "url": "https://arxiv.org/abs/2606.13207",
+      "summary": "arXiv:2606.13207v1 Announce Type: new Abstract: Direct Numerical Simulation of turbulent channel flow at friction Reynolds number around 200 is performed with spanwise wall actuation to achieve drag reduction. A quasi-sq…",
+      "ts": 1781236800000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Historical Seismic Monitoring of EGS and Conventional Geothermal Fields: LBNL Efforts and Lessons Learned",
+      "url": "https://arxiv.org/abs/2606.13231",
+      "summary": "arXiv:2606.13231v1 Announce Type: new Abstract: Enhanced Geothermal Systems (EGS) deployment across diverse geological settings requires a better understanding and management of induced seismicity. Lawrence Berkeley Nati…",
+      "ts": 1781236800000
+>>>>>>> 8dce14ba (Run feed update before build)
     }
   ],
   "sources": [
