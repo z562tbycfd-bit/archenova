@@ -580,6 +580,37 @@ function makeGovernanceEngine(
   });
 }
 
+function makeGovernanceFeedbackEngine(
+  governancePlan: ReturnType<typeof makeGovernanceEngine>
+) {
+  return governancePlan.map((item, index) => {
+    const feedbackQuestion =
+      index === 0
+        ? "Are signal selection and scoring rules producing reliable intelligence?"
+        : index === 1
+        ? "Are coordinated models improving decisions without amplifying weak assumptions?"
+        : index === 2
+        ? "Is civilization alignment improving resilience, legitimacy, and adaptive capacity?"
+        : "Is recursive improvement remaining bounded, reversible, and strategically coherent?";
+
+    const correctionPath =
+      index === 0
+        ? "Adjust signal filters, scoring thresholds, and evidence requirements."
+        : index === 1
+        ? "Revise model coordination rules, confidence thresholds, and assumption checks."
+        : index === 2
+        ? "Rebalance strategy toward resilience, legitimacy, long-term capability, and option preservation."
+        : "Add stronger oversight, rollback logic, validation gates, and recursive modification limits.";
+
+    return {
+      layer: `Governance Feedback Layer ${index + 1}`,
+      source: item.layer,
+      question: feedbackQuestion,
+      correction: correctionPath,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -670,6 +701,9 @@ const architectureSynthesisPlan =
   const governancePlan = makeGovernanceEngine(
   architectureDeploymentPlan
 );
+
+const governanceFeedbackPlan =
+  makeGovernanceFeedbackEngine(governancePlan);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -1195,6 +1229,37 @@ const architectureSynthesisPlan =
 
         <div className="feed-summary">
           Governance rule: {item.rule}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Governance Feedback Engine</h2>
+
+  <p>
+    ArcheNova evaluates whether its governance rules are
+    improving intelligence quality, model coordination,
+    civilization alignment, and recursive self-improvement.
+  </p>
+
+  <div className="feed-list">
+    {governanceFeedbackPlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer} · based on {item.source}
+        </div>
+
+        <div className="feed-title">
+          {item.question}
+        </div>
+
+        <div className="feed-summary">
+          Correction path: {item.correction}
         </div>
       </div>
     ))}
