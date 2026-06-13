@@ -547,6 +547,39 @@ function makeArchitectureDeploymentEngine(
   });
 }
 
+function makeGovernanceEngine(
+  architectureDeploymentPlan: ReturnType<
+    typeof makeArchitectureDeploymentEngine
+  >
+) {
+  return architectureDeploymentPlan.map((item, index) => {
+    const governanceFocus =
+      index === 0
+        ? "Signal Governance"
+        : index === 1
+        ? "Model Governance"
+        : index === 2
+        ? "Civilization Alignment Governance"
+        : "Recursive Improvement Governance";
+
+    const governanceRule =
+      index === 0
+        ? "Ensure signal selection, scoring, and interpretation remain transparent, evidence-sensitive, and resistant to noise."
+        : index === 1
+        ? "Ensure model coordination does not amplify weak assumptions, hidden bias, or unsupported strategic confidence."
+        : index === 2
+        ? "Ensure civilization direction remains aligned with resilience, legitimacy, adaptive capacity, and long-term possibility expansion."
+        : "Ensure recursive self-improvement remains bounded by oversight, validation, reversibility, and strategic coherence.";
+
+    return {
+      layer: `Governance Layer ${index + 1}`,
+      source: item.layer,
+      focus: governanceFocus,
+      rule: governanceRule,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -633,6 +666,10 @@ const architectureSynthesisPlan =
   makeArchitectureDeploymentEngine(
     architectureSynthesisPlan
   ); 
+
+  const governancePlan = makeGovernanceEngine(
+  architectureDeploymentPlan
+);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -1125,6 +1162,39 @@ const architectureSynthesisPlan =
 
         <div className="feed-summary">
           Deployment action: {item.action}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Governance Engine</h2>
+
+  <p>
+    ArcheNova applies governance rules to architecture
+    deployment so that signal interpretation, model
+    coordination, civilization alignment, and recursive
+    improvement remain transparent, bounded, and
+    strategically coherent.
+  </p>
+
+  <div className="feed-list">
+    {governancePlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer} · based on {item.source}
+        </div>
+
+        <div className="feed-title">
+          {item.focus}
+        </div>
+
+        <div className="feed-summary">
+          Governance rule: {item.rule}
         </div>
       </div>
     ))}
