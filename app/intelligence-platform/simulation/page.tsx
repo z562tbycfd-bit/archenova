@@ -483,6 +483,37 @@ function makeArchitectureEngine(
   });
 }
 
+function makeArchitectureSynthesisEngine(
+  architecturePlan: ReturnType<typeof makeArchitectureEngine>
+) {
+  return architecturePlan.map((item, index) => {
+    const synthesisRole =
+      index === 0
+        ? "Observation Synthesis"
+        : index === 1
+        ? "Model Integration Synthesis"
+        : index === 2
+        ? "Direction Alignment Synthesis"
+        : "Recursive Improvement Synthesis";
+
+    const synthesisOutput =
+      index === 0
+        ? "Unifies signal observation, filtering, scoring, and interpretation into a coherent intelligence input layer."
+        : index === 1
+        ? "Integrates forecast, opportunity, strategy, portfolio, simulation, decision, execution, feedback, and learning into a coordinated model stack."
+        : index === 2
+        ? "Synthesizes architecture direction around the dominant civilization future and long-term adaptive requirements."
+        : "Combines recursive intelligence and self-modification into a continuous architecture improvement loop.";
+
+    return {
+      layer: `Synthesis Layer ${index + 1}`,
+      source: item.layer,
+      role: synthesisRole,
+      output: synthesisOutput,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -559,6 +590,11 @@ const selfModificationPlan =
   const architecturePlan = makeArchitectureEngine(
   recursiveIntelligencePlan
 );
+
+const architectureSynthesisPlan =
+  makeArchitectureSynthesisEngine(
+    architecturePlan
+  );
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -987,6 +1023,38 @@ const selfModificationPlan =
 
         <div className="feed-summary">
           {item.designFunction}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Architecture Synthesis Engine</h2>
+
+  <p>
+    ArcheNova synthesizes architecture design layers into
+    integrated intelligence structures that connect
+    observation, model coordination, civilization alignment,
+    and recursive improvement.
+  </p>
+
+  <div className="feed-list">
+    {architectureSynthesisPlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer} · based on {item.source}
+        </div>
+
+        <div className="feed-title">
+          {item.role}
+        </div>
+
+        <div className="feed-summary">
+          {item.output}
         </div>
       </div>
     ))}
