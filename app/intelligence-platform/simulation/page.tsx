@@ -450,6 +450,39 @@ function makeRecursiveIntelligenceEngine(
   });
 }
 
+function makeArchitectureEngine(
+  recursiveIntelligencePlan: ReturnType<
+    typeof makeRecursiveIntelligenceEngine
+  >
+) {
+  return recursiveIntelligencePlan.map((item, index) => {
+    const architectureLayer =
+      index === 0
+        ? "Signal Architecture"
+        : index === 1
+        ? "Model Coordination Architecture"
+        : index === 2
+        ? "Civilization Alignment Architecture"
+        : "Recursive Improvement Architecture";
+
+    const designFunction =
+      index === 0
+        ? "Design how signals are observed, filtered, scored, and interpreted."
+        : index === 1
+        ? "Design how forecast, opportunity, strategy, portfolio, and simulation models coordinate."
+        : index === 2
+        ? "Design how intelligence outputs remain aligned with dominant civilization futures."
+        : "Design how ArcheNova improves its own architecture across future operating cycles.";
+
+    return {
+      layer: `Architecture Layer ${index + 1}`,
+      source: item.layer,
+      architectureLayer,
+      designFunction,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -522,6 +555,10 @@ const selfModificationPlan =
   makeRecursiveIntelligenceEngine(
     metaIntelligencePlan
   );
+
+  const architecturePlan = makeArchitectureEngine(
+  recursiveIntelligencePlan
+);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -918,6 +955,38 @@ const selfModificationPlan =
 
         <div className="feed-summary">
           {item.recursion}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Architecture Engine</h2>
+
+  <p>
+    ArcheNova converts recursive intelligence into explicit
+    architecture design layers for signal observation, model
+    coordination, civilization alignment, and recursive
+    improvement.
+  </p>
+
+  <div className="feed-list">
+    {architecturePlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer} · based on {item.source}
+        </div>
+
+        <div className="feed-title">
+          {item.architectureLayer}
+        </div>
+
+        <div className="feed-summary">
+          {item.designFunction}
         </div>
       </div>
     ))}
