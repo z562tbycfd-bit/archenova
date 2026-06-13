@@ -399,6 +399,39 @@ const adaptiveActions = (() => {
   ];
 })();
 
+const strategicInitiatives = (() => {
+  const priority = topPriority?.name ?? "Priority Domain";
+  const capital = topCapital?.name ?? "Capital Allocation Domain";
+  const risk = topRisk?.name ?? "Risk Domain";
+
+  return [
+    {
+      title: `${priority} Strategic Expansion`,
+      horizon: "1–3 Years",
+      objective:
+        "Increase strategic attention, monitoring, research translation, and early implementation pathways for the highest-priority domain.",
+      success:
+        "Clearer signal density, stronger implementation pathways, and improved strategic confidence.",
+    },
+    {
+      title: `${capital} Capital Deployment Program`,
+      horizon: "3–10 Years",
+      objective:
+        "Convert capital allocation signals into infrastructure, institutional partnerships, operational systems, and scalable deployment pathways.",
+      success:
+        "Capital is translated into durable capability, infrastructure readiness, and operational adoption.",
+    },
+    {
+      title: `${risk} Risk Reduction Initiative`,
+      horizon: "1–5 Years",
+      objective:
+        "Reduce concentrated civilization-scale risk through governance, validation, safety mechanisms, monitoring, and resilience design.",
+      success:
+        "Risk exposure becomes more manageable without suppressing strategic capability development.",
+    },
+  ];
+})();
+
   return (
     <main className="page-standard">
       <div className="page-head">
@@ -472,6 +505,41 @@ const adaptiveActions = (() => {
 
         <div className="feed-title">
           {action}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Strategic Initiative Generator</h2>
+
+  <p>
+    ArcheNova converts operating priorities into concrete
+    civilization-scale initiatives with time horizons,
+    objectives, and success conditions.
+  </p>
+
+  <div className="feed-list">
+    {strategicInitiatives.map((initiative, index) => (
+      <div
+        key={initiative.title}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          Initiative {index + 1} · {initiative.horizon}
+        </div>
+
+        <div className="feed-title">
+          {initiative.title}
+        </div>
+
+        <div className="feed-summary">
+          Objective: {initiative.objective}
+        </div>
+
+        <div className="feed-summary">
+          Success condition: {initiative.success}
         </div>
       </div>
     ))}
