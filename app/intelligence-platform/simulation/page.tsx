@@ -934,7 +934,7 @@ const collectiveIntelligence =
       ["v3", "v3 Execution / Learning"],
       ["v4", "v4 Architecture"],
       ["v5", "v5 Governance / Collective"],
-      ["v5", "v6 Wisdom"],
+      ["v6", "v6 Wisdom"],
     ].map(([key, label]) => (
       <button
         key={key}
