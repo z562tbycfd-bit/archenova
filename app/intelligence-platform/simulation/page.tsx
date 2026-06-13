@@ -869,6 +869,42 @@ function makeVisionEngine(
   };
 }
 
+function makeStrategyArchitectureEngine(
+  vision: ReturnType<typeof makeVisionEngine>,
+  mission: ReturnType<typeof makeMissionEngine>
+) {
+  return [
+    {
+      layer: "Strategy Layer 1",
+      focus: "Reality Discovery",
+      objective:
+        "Expand scientific observation, experimentation, modeling, and knowledge generation.",
+    },
+    {
+      layer: "Strategy Layer 2",
+      focus: "Capability Expansion",
+      objective:
+        "Transform discoveries into engineering systems, infrastructure, and scalable capability.",
+    },
+    {
+      layer: "Strategy Layer 3",
+      focus: "Civilization Resilience",
+      objective:
+        "Increase adaptive capacity, robustness, legitimacy, trust, and long-term survivability.",
+    },
+    {
+      layer: "Strategy Layer 4",
+      focus: "Future Possibility Expansion",
+      objective:
+        "Preserve optionality while expanding the range of futures accessible to intelligent life.",
+    },
+  ].map((item) => ({
+    ...item,
+    mission: mission.mission,
+    vision: vision.vision,
+  }));
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -1014,6 +1050,12 @@ const vision = makeVisionEngine(
   mission,
   selection
 );
+
+const strategyArchitecture =
+  makeStrategyArchitectureEngine(
+    vision,
+    mission
+  );
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -1913,6 +1955,38 @@ const vision = makeVisionEngine(
     <div className="feed-summary">
       {vision.interpretation}
     </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Strategy Architecture Engine</h2>
+
+  <p>
+    ArcheNova converts civilization vision into a
+    multi-layer strategic architecture that connects
+    discovery, capability, resilience, and future
+    possibility expansion.
+  </p>
+
+  <div className="feed-list">
+    {strategyArchitecture.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer}
+        </div>
+
+        <div className="feed-title">
+          {item.focus}
+        </div>
+
+        <div className="feed-summary">
+          Objective: {item.objective}
+        </div>
+      </div>
+    ))}
   </div>
 </section>
 </>
