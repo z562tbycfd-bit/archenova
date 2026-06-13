@@ -837,6 +837,20 @@ function makeSelectionEngine(
   };
 }
 
+function makeMissionEngine(
+  selection: ReturnType<typeof makeSelectionEngine>,
+  values: ReturnType<typeof makeValueEngine>
+) {
+  return {
+    mission:
+      "Expand civilization's capacity to discover reality, preserve adaptive capacity, build legitimate systems, sustain trust, and enlarge future possibility space.",
+    selectedPathway: selection.selectedPathway,
+    valueBasis: values.coreValues.join(", "),
+    strategicMeaning:
+      `The selected pathway, ${selection.selectedPathway}, should serve the mission rather than become the mission itself.`,
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -971,6 +985,11 @@ const selection = makeSelectionEngine(
   values,
   wisdom,
   futures
+);
+
+const mission = makeMissionEngine(
+  selection,
+  values
 );
 
   const strongestScenario =
@@ -1805,6 +1824,38 @@ const selection = makeSelectionEngine(
 
     <div className="feed-summary">
       Recommendation: {selection.recommendation}
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Mission Engine</h2>
+
+  <p>
+    ArcheNova converts value-aligned selection into a
+    civilization-scale mission: the long-term reason for
+    selecting and pursuing a future pathway.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Mission Assessment
+    </div>
+
+    <div className="feed-title">
+      {mission.mission}
+    </div>
+
+    <div className="feed-summary">
+      Selected pathway: {mission.selectedPathway}
+    </div>
+
+    <div className="feed-summary">
+      Value basis: {mission.valueBasis}
+    </div>
+
+    <div className="feed-summary">
+      Strategic meaning: {mission.strategicMeaning}
     </div>
   </div>
 </section>
