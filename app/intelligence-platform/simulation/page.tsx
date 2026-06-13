@@ -380,6 +380,43 @@ function makeSelfModificationEngine(
   });
 }
 
+function makeMetaIntelligenceEngine(
+  futures: ReturnType<typeof makeFuturesEngine>,
+  selfModificationPlan: ReturnType<
+    typeof makeSelfModificationEngine
+  >
+) {
+  const dominantFuture = futures[0];
+
+  const dominantDirection =
+    dominantFuture?.name ?? "Adaptive Civilization";
+
+  return [
+    {
+      layer: "Meta-Intelligence Layer 1",
+      focus: "Architecture Assessment",
+      insight:
+        "Evaluate whether the current intelligence architecture remains aligned with emerging civilization futures.",
+    },
+    {
+      layer: "Meta-Intelligence Layer 2",
+      focus: "Model Coordination",
+      insight:
+        "Coordinate signals, strategy, simulation, decision, execution, and learning into a coherent adaptive architecture.",
+    },
+    {
+      layer: "Meta-Intelligence Layer 3",
+      focus: "Civilization Direction",
+      insight: `Current intelligence evolution suggests movement toward ${dominantDirection}.`,
+    },
+    {
+      layer: "Meta-Intelligence Layer 4",
+      focus: "Recursive Improvement",
+      insight: `Generated ${selfModificationPlan.length} self-modification pathways for future architectural refinement.`,
+    },
+  ];
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -440,6 +477,12 @@ export default function CivilizationSimulationPage() {
 const selfModificationPlan =
   makeSelfModificationEngine(
     evolutionPlan
+  );
+
+  const metaIntelligencePlan =
+  makeMetaIntelligenceEngine(
+    futures,
+    selfModificationPlan
   );
 
   const strongestScenario =
@@ -773,6 +816,38 @@ const selfModificationPlan =
 
         <div className="feed-summary">
           Expected impact: {item.expectedImpact}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Meta-Intelligence Engine</h2>
+
+  <p>
+    ArcheNova evaluates the evolution of its own
+    intelligence architecture and identifies
+    higher-level directions for civilization-scale
+    intelligence development.
+  </p>
+
+  <div className="feed-list">
+    {metaIntelligencePlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer}
+        </div>
+
+        <div className="feed-title">
+          {item.focus}
+        </div>
+
+        <div className="feed-summary">
+          {item.insight}
         </div>
       </div>
     ))}
