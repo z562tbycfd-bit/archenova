@@ -417,6 +417,39 @@ function makeMetaIntelligenceEngine(
   ];
 }
 
+function makeRecursiveIntelligenceEngine(
+  metaIntelligencePlan: ReturnType<
+    typeof makeMetaIntelligenceEngine
+  >
+) {
+  return metaIntelligencePlan.map((item, index) => {
+    const recursion =
+      index === 0
+        ? "The system observes whether its own architecture remains valid."
+        : index === 1
+        ? "The system coordinates its internal intelligence layers into a more coherent whole."
+        : index === 2
+        ? "The system aligns its direction with the dominant civilization future."
+        : "The system generates recursive improvement pathways for future versions of itself.";
+
+    const recursiveOutput =
+      index === 0
+        ? "Recursive Architecture Observation"
+        : index === 1
+        ? "Recursive Model Coordination"
+        : index === 2
+        ? "Recursive Civilization Alignment"
+        : "Recursive Self-Improvement Loop";
+
+    return {
+      layer: `Recursive Intelligence Layer ${index + 1}`,
+      source: item.layer,
+      output: recursiveOutput,
+      recursion,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -483,6 +516,11 @@ const selfModificationPlan =
   makeMetaIntelligenceEngine(
     futures,
     selfModificationPlan
+  );
+
+  const recursiveIntelligencePlan =
+  makeRecursiveIntelligenceEngine(
+    metaIntelligencePlan
   );
 
   const strongestScenario =
@@ -848,6 +886,38 @@ const selfModificationPlan =
 
         <div className="feed-summary">
           {item.insight}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Recursive Intelligence Engine</h2>
+
+  <p>
+    ArcheNova converts meta-intelligence into recursive
+    intelligence: the capacity to observe, coordinate,
+    align, and improve its own intelligence architecture
+    across future operating cycles.
+  </p>
+
+  <div className="feed-list">
+    {recursiveIntelligencePlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer} · based on {item.source}
+        </div>
+
+        <div className="feed-title">
+          {item.output}
+        </div>
+
+        <div className="feed-summary">
+          {item.recursion}
         </div>
       </div>
     ))}
