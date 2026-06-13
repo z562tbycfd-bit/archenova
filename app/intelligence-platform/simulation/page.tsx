@@ -186,6 +186,50 @@ function makeFuturesEngine(
     .sort((a, b) => b.probability - a.probability);
 }
 
+function makeDecisionEngine(
+  futures: ReturnType<typeof makeFuturesEngine>
+) {
+  const topFuture = futures[0];
+
+  if (!topFuture) {
+    return {
+      decision: "Continue Monitoring",
+      rationale:
+        "No dominant future pathway is currently visible from the signal environment.",
+      action:
+        "Maintain observation until stronger signal density emerges.",
+    };
+  }
+
+  if (topFuture.probability >= 35) {
+    return {
+      decision: `Prioritize ${topFuture.name}`,
+      rationale:
+        "This future has the strongest current signal density and the clearest directional momentum.",
+      action:
+        "Allocate strategic attention, research capacity, and portfolio monitoring toward this future pathway.",
+    };
+  }
+
+  if (topFuture.probability >= 20) {
+    return {
+      decision: `Prepare for ${topFuture.name}`,
+      rationale:
+        "This future is meaningful but not yet dominant, suggesting preparation rather than full commitment.",
+      action:
+        "Build optionality, monitor adjacent signals, and prepare flexible strategy pathways.",
+    };
+  }
+
+  return {
+    decision: "Preserve Strategic Optionality",
+    rationale:
+      "No single future dominates the signal environment strongly enough to justify concentrated commitment.",
+    action:
+      "Maintain a balanced portfolio across multiple futures while monitoring acceleration signals.",
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -229,6 +273,8 @@ export default function CivilizationSimulationPage() {
   const scenarioExplorer = makeScenarioExplorer(signals);
 
   const futures = makeFuturesEngine(scenarioExplorer);
+
+  const decision = makeDecisionEngine(futures);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -377,6 +423,33 @@ export default function CivilizationSimulationPage() {
         </div>
       </div>
     ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Decision Engine</h2>
+
+  <p>
+    ArcheNova converts future probability into a strategic
+    decision recommendation.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Recommended Decision
+    </div>
+
+    <div className="feed-title">
+      {decision.decision}
+    </div>
+
+    <div className="feed-summary">
+      Rationale: {decision.rationale}
+    </div>
+
+    <div className="feed-summary">
+      Action: {decision.action}
+    </div>
   </div>
 </section>
 
