@@ -285,6 +285,33 @@ function makeFeedbackEngine(
   });
 }
 
+function makeLearningEngine(
+  feedbackPlan: ReturnType<typeof makeFeedbackEngine>
+) {
+  return feedbackPlan.map((item, index) => {
+    const learningObjective =
+      index === 0
+        ? "Validate whether early signals were interpreted correctly."
+        : index === 1
+        ? "Learn whether deployment pathways are technically, economically, and institutionally feasible."
+        : "Learn whether infrastructure and strategy remain resilient over longer time horizons.";
+
+    const modelUpdate =
+      index === 0
+        ? "Update signal weighting, monitoring criteria, and confidence assumptions."
+        : index === 1
+        ? "Update capital allocation, governance requirements, and implementation priority."
+        : "Update civilization strategy, long-term simulation assumptions, and adaptive operating mode.";
+
+    return {
+      layer: `Learning Layer ${index + 1}`,
+      source: item.phase,
+      objective: learningObjective,
+      update: modelUpdate,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -334,6 +361,8 @@ export default function CivilizationSimulationPage() {
   const executionPlan = makeExecutionEngine(decision);
 
   const feedbackPlan = makeFeedbackEngine(executionPlan);
+
+  const learningPlan = makeLearningEngine(feedbackPlan);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -568,6 +597,37 @@ export default function CivilizationSimulationPage() {
 
         <div className="feed-summary">
           Adjustment: {item.adjustment}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Learning Engine</h2>
+
+  <p>
+    ArcheNova converts feedback into learning objectives
+    and model updates, enabling recursive improvement of
+    signal interpretation, strategy, allocation, and simulation.
+  </p>
+
+  <div className="feed-list">
+    {learningPlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer} · based on {item.source}
+        </div>
+
+        <div className="feed-title">
+          {item.objective}
+        </div>
+
+        <div className="feed-summary">
+          Model update: {item.update}
         </div>
       </div>
     ))}
