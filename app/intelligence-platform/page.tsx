@@ -30,11 +30,11 @@ const modules = [
   },
 
   {
-    title: "Simulation",
+    title: "Civilization Intelligence",
     href: "/intelligence-platform/simulation",
     text:
-      "Civilization simulation, futures exploration, decision, execution, feedback, learning, evolution, governance, legitimacy, and trust intelligence.",
-  },
+    "Civilization-scale simulation, futures exploration, decision intelligence, execution planning, learning systems, governance, trust, coordination, and collective intelligence.",
+},
 
 ];
 

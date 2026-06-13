@@ -857,16 +857,20 @@ const collectiveIntelligence =
   return (
     <main className="page-standard">
       <div className="page-head">
-        <span className="home-section-label">
-          CIVILIZATION SIMULATION
+       <span className="home-section-label">
+        CIVILIZATION INTELLIGENCE
         </span>
-
-        <h1>Civilization Simulation Engine</h1>
+        
+        <h1>
+          Civilization Intelligence Engine
+          </h1>
 
         <p className="page-lead">
-          ArcheNova simulates alternative civilization strategies by
-          translating live signal scores into projected capability,
-          infrastructure growth, and risk exposure.
+          ArcheNova transforms signals into civilization-scale
+          intelligence through simulation, futures exploration,
+          decision systems, execution planning, learning,
+          governance, trust formation, coordination,
+          and collective intelligence.
         </p>
 
         <p className="page-lead dim">
