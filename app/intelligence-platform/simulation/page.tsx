@@ -643,6 +643,30 @@ function makeLegitimacyEngine(
   };
 }
 
+function makeTrustEngine(
+  legitimacy: ReturnType<typeof makeLegitimacyEngine>
+) {
+  const trustScore = Math.min(
+    100,
+    legitimacy.score + 10
+  );
+
+  let trustLevel = "Developing";
+
+  if (trustScore >= 90) {
+    trustLevel = "High Trust";
+  } else if (trustScore >= 70) {
+    trustLevel = "Trusted";
+  }
+
+  return {
+    score: trustScore,
+    level: trustLevel,
+    rationale:
+      "Trust emerges when governance remains legitimate, transparent, adaptive, accountable, and consistently aligned with long-term civilizational objectives.",
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -740,6 +764,10 @@ const governanceFeedbackPlan =
   const legitimacy = makeLegitimacyEngine(
   governancePlan,
   governanceFeedbackPlan
+);
+
+const trust = makeTrustEngine(
+  legitimacy
 );
 
   const strongestScenario =
@@ -1327,6 +1355,34 @@ const governanceFeedbackPlan =
 
     <div className="feed-summary">
       {legitimacy.rationale}
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Trust Engine</h2>
+
+  <p>
+    ArcheNova evaluates whether governance and legitimacy
+    structures are sufficient to sustain long-term trust
+    across future civilization operating cycles.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Trust Assessment
+    </div>
+
+    <div className="feed-title">
+      {trust.level}
+    </div>
+
+    <div className="feed-summary">
+      Score: {trust.score}/100
+    </div>
+
+    <div className="feed-summary">
+      {trust.rationale}
     </div>
   </div>
 </section>
