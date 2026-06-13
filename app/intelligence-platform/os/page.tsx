@@ -363,6 +363,42 @@ export default function CivilizationOSPage() {
   };
 })(); 
 
+const adaptiveActions = (() => {
+  const priority = topPriority?.name ?? "priority domain";
+  const risk = topRisk?.name ?? "risk domain";
+  const capital = topCapital?.name ?? "capital allocation domain";
+
+  if (adaptiveMode.title === "Expansion Mode") {
+    return [
+      `Expand strategic attention toward ${priority}.`,
+      `Increase capital deployment toward ${capital}.`,
+      `Continue monitoring ${risk} to avoid hidden systemic exposure.`,
+    ];
+  }
+
+  if (adaptiveMode.title === "Risk-Control Mode") {
+    return [
+      `Pair expansion in ${priority} with governance and validation controls.`,
+      `Reduce exposure concentration in ${risk}.`,
+      `Prioritize resilience, safety, and institutional legitimacy before aggressive scaling.`,
+    ];
+  }
+
+  if (adaptiveMode.title === "Monitoring Mode") {
+    return [
+      "Continue observing signal density before committing major resources.",
+      `Track whether ${priority} develops stronger strategic momentum.`,
+      "Maintain optionality across emerging domains.",
+    ];
+  }
+
+  return [
+    `Maintain balanced attention across ${priority}, ${capital}, and ${risk}.`,
+    "Avoid over-concentration in a single strategic domain.",
+    "Prepare for reallocation as signal strength, risk, and opportunity change.",
+  ];
+})();
+
   return (
     <main className="page-standard">
       <div className="page-head">
@@ -413,6 +449,32 @@ export default function CivilizationOSPage() {
     <div className="feed-summary">
       {adaptiveMode.description}
     </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Adaptive Strategy Generator</h2>
+
+  <p>
+    ArcheNova converts the current operating mode into
+    recommended strategic actions.
+  </p>
+
+  <div className="feed-list">
+    {adaptiveActions.map((action, index) => (
+      <div
+        key={action}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          Action {index + 1}
+        </div>
+
+        <div className="feed-title">
+          {action}
+        </div>
+      </div>
+    ))}
   </div>
 </section>
 
