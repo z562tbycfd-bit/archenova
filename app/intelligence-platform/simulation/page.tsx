@@ -611,6 +611,38 @@ function makeGovernanceFeedbackEngine(
   });
 }
 
+function makeLegitimacyEngine(
+  governancePlan: ReturnType<typeof makeGovernanceEngine>,
+  governanceFeedbackPlan: ReturnType<
+    typeof makeGovernanceFeedbackEngine
+  >
+) {
+  const governanceLayers = governancePlan.length;
+  const feedbackLayers = governanceFeedbackPlan.length;
+
+  const legitimacyScore = Math.min(
+    100,
+    governanceLayers * 10 +
+      feedbackLayers * 10 +
+      20
+  );
+
+  let legitimacyLevel = "Emerging";
+
+  if (legitimacyScore >= 80) {
+    legitimacyLevel = "High";
+  } else if (legitimacyScore >= 60) {
+    legitimacyLevel = "Moderate";
+  }
+
+  return {
+    score: legitimacyScore,
+    level: legitimacyLevel,
+    rationale:
+      "Legitimacy emerges from transparent governance, continuous feedback, adaptability, accountability, and alignment with long-term civilizational objectives.",
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -704,6 +736,11 @@ const architectureSynthesisPlan =
 
 const governanceFeedbackPlan =
   makeGovernanceFeedbackEngine(governancePlan);
+
+  const legitimacy = makeLegitimacyEngine(
+  governancePlan,
+  governanceFeedbackPlan
+);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -1263,6 +1300,34 @@ const governanceFeedbackPlan =
         </div>
       </div>
     ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Legitimacy Engine</h2>
+
+  <p>
+    ArcheNova evaluates whether governance structures
+    are sufficiently transparent, adaptive, accountable,
+    and aligned to maintain long-term legitimacy.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Legitimacy Assessment
+    </div>
+
+    <div className="feed-title">
+      {legitimacy.level} Legitimacy
+    </div>
+
+    <div className="feed-summary">
+      Score: {legitimacy.score}/100
+    </div>
+
+    <div className="feed-summary">
+      {legitimacy.rationale}
+    </div>
   </div>
 </section>
 
