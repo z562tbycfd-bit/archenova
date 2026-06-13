@@ -258,6 +258,33 @@ function makeExecutionEngine(
   ];
 }
 
+function makeFeedbackEngine(
+  executionPlan: ReturnType<typeof makeExecutionEngine>
+) {
+  return executionPlan.map((item, index) => {
+    const feedbackFocus =
+      index === 0
+        ? "Signal validation and early evidence"
+        : index === 1
+        ? "Deployment performance and institutional response"
+        : "Infrastructure durability and long-term adaptation";
+
+    const adjustment =
+      index === 0
+        ? "Refine monitoring targets, update assumptions, and adjust early priorities."
+        : index === 1
+        ? "Reallocate capital, strengthen governance, and improve deployment pathways."
+        : "Update civilization strategy, reinforce resilient infrastructure, and expand successful capability layers.";
+
+    return {
+      phase: `Feedback Layer ${index + 1}`,
+      linkedExecution: item.phase,
+      focus: feedbackFocus,
+      adjustment,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -305,6 +332,8 @@ export default function CivilizationSimulationPage() {
   const decision = makeDecisionEngine(futures);
 
   const executionPlan = makeExecutionEngine(decision);
+
+  const feedbackPlan = makeFeedbackEngine(executionPlan);
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -508,6 +537,37 @@ export default function CivilizationSimulationPage() {
 
         <div className="feed-summary">
           {item.action}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Feedback Engine</h2>
+
+  <p>
+    ArcheNova converts execution pathways into feedback
+    loops for learning, adjustment, reallocation, and
+    strategic self-correction.
+  </p>
+
+  <div className="feed-list">
+    {feedbackPlan.map((item) => (
+      <div
+        key={item.phase}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.phase} · linked to {item.linkedExecution}
+        </div>
+
+        <div className="feed-title">
+          {item.focus}
+        </div>
+
+        <div className="feed-summary">
+          Adjustment: {item.adjustment}
         </div>
       </div>
     ))}
