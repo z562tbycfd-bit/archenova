@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-06-13T14:05:16.487Z",
+  "updated": "2026-06-13T16:15:47.344Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Heat-surviving cyanobacteria switch to respiration when photosynthesis falters, 48-hour test reveals",
+      "url": "https://phys.org/news/2026-06-surviving-cyanobacteria-respiration-photosynthesis-falters.html",
+      "summary": "A new study challenges a long-standing assumption about how cyanobacteria survive environmental stress. The study, led by researchers at the Israel Oceanographic and Limnological Research (IOLR)—the Kinneret Limnological…",
+      "ts": 1781366403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Water molecule unlocks faster interfacial polymerization by lowering energy barrier",
+      "url": "https://phys.org/news/2026-06-molecule-faster-interfacial-polymerization-lowering.html",
+      "summary": "Researchers at The Hong Kong University of Science and Technology (HKUST) have achieved two major breakthroughs in interfacial polymerization, a key technique for preparing advanced functional materials. By integrating q…",
+      "ts": 1781364601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bidirectional manipulation of gate-free quantum electronic states via semiconductor interface engineering",
+      "url": "https://phys.org/news/2026-06-bidirectional-gate-free-quantum-electronic.html",
+      "summary": "A recent study published in Nature Communications demonstrates precise control over electron spatial arrangement in two directions simultaneously—without any applied voltage—through interface engineering between semimeta…",
+      "ts": 1781362804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Forecast flags 210 antimicrobial resistance traits that could spread by 2050",
+      "url": "https://phys.org/news/2026-06-flags-antimicrobial-resistance-traits.html",
+      "summary": "Antimicrobial resistance (AMR) is considered one of the most urgent global public health threats, with experts predicting that AMR could cause 39 million deaths between 2025 and 2050. AMR is not a single problem, but ins…",
+      "ts": 1781362801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chandra resolves NGC 6540's mysterious X-ray flare into three separate sources",
+      "url": "https://phys.org/news/2026-06-chandra-ngc-mysterious-ray-flare.html",
+      "summary": "Using NASA's Chandra X-ray spacecraft, astronomers have performed deep X-ray observations of a galactic globular cluster known as NGC 6540. The new observational campaign, described June 1 on the preprint server arXiv, f…",
+      "ts": 1781359801000
+    },
     {
       "source": "Phys.org",
       "title": "What happens to microplastics when swallowed? In earthworms, they do not leave the digestive tract",
@@ -665,41 +700,6 @@
       "title": "Insitu X Ray Photoemission Study of Nb Surface Under Plasma Cleaning During MID T BAKING For SRF Cavities",
       "url": "https://arxiv.org/abs/2606.13013",
       "summary": "arXiv:2606.13013v1 Announce Type: new Abstract: Specific heat treatments applied to superconducting radiofrequency (SRF) cavities, such as nitrogen infusion or Mid T baking, aim to improve the quality factor (Qo) at medi…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhanced Target Interaction Area of Helical Plasma Plumes in a Pulsed RF Atmospheric Plasma Jet",
-      "url": "https://arxiv.org/abs/2606.13021",
-      "summary": "arXiv:2606.13021v1 Announce Type: new Abstract: Helical plasma plumes generated in pulsed radiofrequency atmospheric pressure plasma jets exhibit unique flow dynamics arising from the coupling between Kelvin-Helmholtz in…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring fair access to quantum computing",
-      "url": "https://arxiv.org/abs/2606.13027",
-      "summary": "arXiv:2606.13027v1 Announce Type: new Abstract: This short article - commissioned as part of the Quantum Flagship project OpenSuperQPlus - introduces the topic of fair access to quantum computing time and argues for its …",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radiology-Report Semantic Modelling and Host-Response Laboratory Biomarkers for Multimodal Survival Prediction in Lung Cancer",
-      "url": "https://arxiv.org/abs/2606.13043",
-      "summary": "arXiv:2606.13043v1 Announce Type: new Abstract: TNM staging is essential for lung cancer management, but patients within the same anatomic stage often show heterogeneous survival outcomes. We developed a multimodal adapt…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bacterial Motility Across Scales: Mechanisms, Live Imaging, and Quantitative Analysis",
-      "url": "https://arxiv.org/abs/2606.13059",
-      "summary": "arXiv:2606.13059v1 Announce Type: new Abstract: Bacteria live in environments that are constantly changing. To survive, they rely on different motility systems that let them move, explore, and interact with their surroun…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intelligent Perception Assisted Light Modulation for real-time and program-free nanofabrication and particle manipulation",
-      "url": "https://arxiv.org/abs/2606.13080",
-      "summary": "arXiv:2606.13080v1 Announce Type: new Abstract: In this paper, we present an Intelligent Perception-Assisted Light Modulation (IPALM) technique, for femtosecond laser nanofabrication and particle manipulation. IPALM tech…",
       "ts": 1781236800000
     }
   ],
