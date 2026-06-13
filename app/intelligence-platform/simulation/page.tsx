@@ -667,6 +667,33 @@ function makeTrustEngine(
   };
 }
 
+function makeCoordinationEngine(
+  trust: ReturnType<typeof makeTrustEngine>,
+  decision: ReturnType<typeof makeDecisionEngine>
+) {
+  const coordinationReadiness = Math.min(
+    100,
+    Math.round(trust.score * 0.7 + 20)
+  );
+
+  let coordinationMode = "Exploratory Coordination";
+
+  if (coordinationReadiness >= 90) {
+    coordinationMode = "High-Trust Coordination";
+  } else if (coordinationReadiness >= 70) {
+    coordinationMode = "Structured Coordination";
+  }
+
+  return {
+    readiness: coordinationReadiness,
+    mode: coordinationMode,
+    objective:
+      `Coordinate actors, institutions, resources, and intelligence systems around the decision: "${decision.decision}".`,
+    mechanism:
+      "Align signals, governance, trust, strategy, capital allocation, and execution pathways into a coherent coordination loop.",
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -768,6 +795,11 @@ const governanceFeedbackPlan =
 
 const trust = makeTrustEngine(
   legitimacy
+);
+
+const coordination = makeCoordinationEngine(
+  trust,
+  decision
 );
 
   const strongestScenario =
@@ -1383,6 +1415,39 @@ const trust = makeTrustEngine(
 
     <div className="feed-summary">
       {trust.rationale}
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Coordination Engine</h2>
+
+  <p>
+    ArcheNova converts trust and strategic decision-making
+    into coordination readiness: the ability to align actors,
+    institutions, resources, intelligence systems, and
+    execution pathways.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Coordination Assessment
+    </div>
+
+    <div className="feed-title">
+      {coordination.mode}
+    </div>
+
+    <div className="feed-summary">
+      Readiness: {coordination.readiness}/100
+    </div>
+
+    <div className="feed-summary">
+      Objective: {coordination.objective}
+    </div>
+
+    <div className="feed-summary">
+      Mechanism: {coordination.mechanism}
     </div>
   </div>
 </section>
