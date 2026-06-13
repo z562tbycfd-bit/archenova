@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-06-13T11:16:47.526Z",
+  "updated": "2026-06-13T14:05:16.487Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What happens to microplastics when swallowed? In earthworms, they do not leave the digestive tract",
+      "url": "https://phys.org/news/2026-06-microplastics-swallowed-earthworms-digestive-tract.html",
+      "summary": "Globally, humanity now produces a staggering 450 million tonnes of plastic every year. From food and drink containers to cosmetics packaging, sewage pipes, window frames and polyester clothing, we use plastics in almost …",
+      "ts": 1781359201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Family wealth reaches further: Grandparents' income links to grandchildren's college access",
+      "url": "https://phys.org/news/2026-06-family-wealth-grandparents-income-links.html",
+      "summary": "It has long been understood that parents' income plays a major role in children's access to higher education. But a new study published in Canadian Studies in Population suggests that grandparents' income matters, too. B…",
+      "ts": 1781357401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Harmonic radar tags reveal how mosquitoes move through fields and parkland",
+      "url": "https://phys.org/news/2026-06-harmonic-radar-tags-reveal-mosquitoes.html",
+      "summary": "It's an insect everybody loves to hate. Pesky mosquitoes will be out in swarms as the weather warms up across the U.S.—and their bites aren't just itchy. They can transmit pathogens that can cause diseases like West Nile…",
+      "ts": 1781355602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The Ghosts of the Mediterranean: What a rare great white shark sighting could reveal about a changing ocean",
+      "url": "https://phys.org/news/2026-06-ghosts-mediterranean-rare-great-white.html",
+      "summary": "Headlines were made this week when scuba divers removing abandoned ghost nets from a shipwreck between Tunisia and Sicily filmed an adult great white shark. The footage quickly made global news, yet the real story is not…",
+      "ts": 1781353801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Saturday Citations: JAXA collaboration with toy company TOMY; a new brain-computer interface; IBD solved",
+      "url": "https://phys.org/news/2026-06-saturday-citations-jaxa-collaboration-toy.html",
+      "summary": "This week's notable citations: Astronomers believe collapsing stars could spawn mini universes. Chimpanzees do not like unfairness. And a single dose of psilocybin temporarily restored function in an 80-year-old with Alz…",
+      "ts": 1781353201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "El Niño arrives and could rank among strongest events since 1950",
+      "url": "https://phys.org/news/2026-06-el-nio-strongest-events.html",
+      "summary": "The phenomenon El Niño has arrived, the U.S. weather agency said Thursday, and scientists expect the pattern, synonymous with droughts, floods and soaring temperatures, will intensify through the end of the year, potenti…",
+      "ts": 1781352011000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineering enzymes with potential against ALS and Parkinson's disease",
+      "url": "https://phys.org/news/2026-06-enzymes-potential-als-parkinson-disease.html",
+      "summary": "In an advance that could one day lead to new treatments for neurodegenerative diseases, Meredith Jackrel, an associate professor of chemistry in Arts & Sciences at Washington University in St. Louis, and her team have de…",
+      "ts": 1781352008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How you can stop your cat from bringing home unwelcome pathogens",
+      "url": "https://phys.org/news/2026-06-cat-home-unwelcome-pathogens.html",
+      "summary": "Pets form an important part of many people's lives, providing meaningful companionship. However, our pets can sometimes also be a source of unwelcome pathogens and diseases, particularly if they frequently roam outdoors.",
+      "ts": 1781352005000
+    },
     {
       "source": "Phys.org",
       "title": "AI sorts cell droplets into four shapes, uncovering drug effects in human cells",
@@ -644,62 +700,6 @@
       "title": "Intelligent Perception Assisted Light Modulation for real-time and program-free nanofabrication and particle manipulation",
       "url": "https://arxiv.org/abs/2606.13080",
       "summary": "arXiv:2606.13080v1 Announce Type: new Abstract: In this paper, we present an Intelligent Perception-Assisted Light Modulation (IPALM) technique, for femtosecond laser nanofabrication and particle manipulation. IPALM tech…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reservoir-controlled electromagnetically induced gratings in a weakly driven two-level medium",
-      "url": "https://arxiv.org/abs/2606.13085",
-      "summary": "arXiv:2606.13085v1 Announce Type: new Abstract: We theoretically investigate the transmission and diffraction of a weak probe field from an electromagnetically induced grating formed in a weakly driven two-level medium c…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Magnetic Torsional Pendulum for Exploring Forced Resonance, Parametric Resonance, and Parametric Amplification",
-      "url": "https://arxiv.org/abs/2606.13103",
-      "summary": "arXiv:2606.13103v1 Announce Type: new Abstract: We present a magnetic torsional pendulum that provides a unified experimental platform for investigating forced resonance, parametric resonance, and degenerate parametric a…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Model structures and electron transfer properties of conductive nickel-organic nanoribbons in cable bacteria",
-      "url": "https://arxiv.org/abs/2606.13117",
-      "summary": "arXiv:2606.13117v1 Announce Type: new Abstract: Cable bacteria are multicellular bacteria capable of centimeter-scale conduction through a regular fiber network embedded in their cell envelope. The conductivity of these …",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sub-8-nm resolution AKB-mirror-based hard X-ray ptychography via generalized Wirtinger projections",
-      "url": "https://arxiv.org/abs/2606.13130",
-      "summary": "arXiv:2606.13130v1 Announce Type: new Abstract: Hard X-ray ptychography has become increasingly essential in both the life and physical sciences. However, pushing resolution down to a few nanometres often requires highly…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Can non-orthogonal bases form stable skyrmionic beams?",
-      "url": "https://arxiv.org/abs/2606.13153",
-      "summary": "arXiv:2606.13153v1 Announce Type: new Abstract: Skyrmions, topologically stable spin textures, have recently garnered significant attention in optics promising robust high-density information transition and nontrivial li…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrashort Pulse Train Generation on a 100TW Laser Beamline Using a Delay Mask After the Final Focusing Optics",
-      "url": "https://arxiv.org/abs/2606.13183",
-      "summary": "arXiv:2606.13183v1 Announce Type: new Abstract: Experimental results aimed at demonstrating the feasibility of a two-section delay mask for the generation of ultrashort pulse trains are reported. Based on the initial sim…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robustness against disorder in topological fibre lasers with explicitly broken PT symmetry",
-      "url": "https://arxiv.org/abs/2606.13186",
-      "summary": "arXiv:2606.13186v1 Announce Type: new Abstract: Fibre lasers realise a large gain medium in a compactly coiled fibre. Disorder due to fabrication can negatively impact the stability of their lasing modes, especially in m…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Duty-cycle modulation of the self-sustaining process by spanwise wall oscillation",
-      "url": "https://arxiv.org/abs/2606.13207",
-      "summary": "arXiv:2606.13207v1 Announce Type: new Abstract: Direct Numerical Simulation of turbulent channel flow at friction Reynolds number around 200 is performed with spanwise wall actuation to achieve drag reduction. A quasi-sq…",
       "ts": 1781236800000
     }
   ],
