@@ -851,6 +851,24 @@ function makeMissionEngine(
   };
 }
 
+function makeVisionEngine(
+  mission: ReturnType<typeof makeMissionEngine>,
+  selection: ReturnType<typeof makeSelectionEngine>
+) {
+  return {
+    vision:
+      "A civilization capable of continuously discovering, understanding, realizing, and exploring reality while expanding adaptive capacity, resilience, legitimacy, trust, and future possibility space across generations, planets, and future domains of existence.",
+
+    selectedPathway: selection.selectedPathway,
+
+    horizon:
+      "Multi-generational",
+
+    interpretation:
+      "The mission explains why civilization acts. The vision describes the future state civilization seeks to realize.",
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -990,6 +1008,11 @@ const selection = makeSelectionEngine(
 const mission = makeMissionEngine(
   selection,
   values
+);
+
+const vision = makeVisionEngine(
+  mission,
+  selection
 );
 
   const strongestScenario =
@@ -1856,6 +1879,39 @@ const mission = makeMissionEngine(
 
     <div className="feed-summary">
       Strategic meaning: {mission.strategicMeaning}
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Vision Engine</h2>
+
+  <p>
+    ArcheNova converts mission into a long-term
+    civilization vision describing the future state
+    that strategic action, learning, governance,
+    trust, and coordination are intended to realize.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Vision Assessment
+    </div>
+
+    <div className="feed-title">
+      {vision.horizon}
+    </div>
+
+    <div className="feed-summary">
+      Vision: {vision.vision}
+    </div>
+
+    <div className="feed-summary">
+      Selected pathway: {vision.selectedPathway}
+    </div>
+
+    <div className="feed-summary">
+      {vision.interpretation}
     </div>
   </div>
 </section>
