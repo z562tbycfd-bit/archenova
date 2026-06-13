@@ -694,6 +694,36 @@ function makeCoordinationEngine(
   };
 }
 
+function makeCollectiveIntelligenceEngine(
+  coordination: ReturnType<typeof makeCoordinationEngine>,
+  futures: ReturnType<typeof makeFuturesEngine>
+) {
+  const leadingFuture =
+    futures[0]?.name ?? "Adaptive Civilization";
+
+  const collectiveScore = Math.min(
+    100,
+    Math.round(coordination.readiness * 0.8 + 15)
+  );
+
+  let intelligenceMode = "Emergent Collective Intelligence";
+
+  if (collectiveScore >= 90) {
+    intelligenceMode = "High-Integration Collective Intelligence";
+  } else if (collectiveScore >= 70) {
+    intelligenceMode = "Structured Collective Intelligence";
+  }
+
+  return {
+    score: collectiveScore,
+    mode: intelligenceMode,
+    objective:
+      `Generate shared intelligence around ${leadingFuture} through coordinated observation, interpretation, decision-making, and adaptation.`,
+    mechanism:
+      "Combine distributed signals, institutional knowledge, strategic priorities, simulation outputs, governance feedback, and execution learning into a collective intelligence loop.",
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -801,6 +831,12 @@ const coordination = makeCoordinationEngine(
   trust,
   decision
 );
+
+const collectiveIntelligence =
+  makeCollectiveIntelligenceEngine(
+    coordination,
+    futures
+  );
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -1448,6 +1484,40 @@ const coordination = makeCoordinationEngine(
 
     <div className="feed-summary">
       Mechanism: {coordination.mechanism}
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Collective Intelligence Engine</h2>
+
+  <p>
+    ArcheNova converts coordination into collective
+    intelligence: the capacity for distributed actors,
+    institutions, signals, and intelligence layers to
+    produce shared understanding, strategy, adaptation,
+    and future-oriented decision-making.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Collective Intelligence Assessment
+    </div>
+
+    <div className="feed-title">
+      {collectiveIntelligence.mode}
+    </div>
+
+    <div className="feed-summary">
+      Score: {collectiveIntelligence.score}/100
+    </div>
+
+    <div className="feed-summary">
+      Objective: {collectiveIntelligence.objective}
+    </div>
+
+    <div className="feed-summary">
+      Mechanism: {collectiveIntelligence.mechanism}
     </div>
   </div>
 </section>
