@@ -345,6 +345,41 @@ function makeEvolutionEngine(
   });
 }
 
+function makeSelfModificationEngine(
+  evolutionPlan: ReturnType<typeof makeEvolutionEngine>
+) {
+  return evolutionPlan.map((item, index) => {
+    const target =
+      index === 0
+        ? "Signal Intelligence"
+        : index === 1
+        ? "Strategy & Allocation"
+        : "Civilization Operating Model";
+
+    const recommendation =
+      index === 0
+        ? "Increase weighting for validated signals and reduce influence of weak evidence."
+        : index === 1
+        ? "Adjust priority, capital, and risk allocation models using recent learning outcomes."
+        : "Update long-term civilization assumptions, simulation pathways, and operating modes.";
+
+    const expectedImpact =
+      index === 0
+        ? "Higher signal quality and forecasting accuracy."
+        : index === 1
+        ? "Improved strategic allocation efficiency."
+        : "Greater adaptive capacity and long-term resilience.";
+
+    return {
+      layer: `Self-Modification Layer ${index + 1}`,
+      source: item.layer,
+      target,
+      recommendation,
+      expectedImpact,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -401,6 +436,11 @@ export default function CivilizationSimulationPage() {
   learningPlan,
   futures
 );
+
+const selfModificationPlan =
+  makeSelfModificationEngine(
+    evolutionPlan
+  );
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -698,6 +738,41 @@ export default function CivilizationSimulationPage() {
 
         <div className="feed-summary">
           Evolutionary shift: {item.shift}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Self-Modification Engine</h2>
+
+  <p>
+    ArcheNova converts evolutionary learning into
+    recommendations for modifying its own intelligence,
+    allocation, strategy, and operating assumptions.
+  </p>
+
+  <div className="feed-list">
+    {selfModificationPlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer} · based on {item.source}
+        </div>
+
+        <div className="feed-title">
+          {item.target}
+        </div>
+
+        <div className="feed-summary">
+          Recommendation: {item.recommendation}
+        </div>
+
+        <div className="feed-summary">
+          Expected impact: {item.expectedImpact}
         </div>
       </div>
     ))}
