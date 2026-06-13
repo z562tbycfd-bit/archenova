@@ -28,6 +28,13 @@ type Scenario = {
   description: string;
 };
 
+type SimulationView =
+  | "v1"
+  | "v2"
+  | "v3"
+  | "v4"
+  | "v5";
+
 function average(values: number[]) {
   if (!values.length) return 0;
 
@@ -728,6 +735,9 @@ export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
 
+const [view, setView] =
+    useState<SimulationView>("v1");
+
   useEffect(() => {
     let cancel = false;
 
@@ -865,6 +875,35 @@ const collectiveIntelligence =
       </div>
 
       <section className="glass-block">
+  <h2>Simulation Layers</h2>
+
+  <div className="signal-filter-bar">
+    {[
+      ["v1", "v1 Simulation"],
+      ["v2", "v2 Futures"],
+      ["v3", "v3 Execution / Learning"],
+      ["v4", "v4 Architecture"],
+      ["v5", "v5 Governance / Collective"],
+    ].map(([key, label]) => (
+      <button
+        key={key}
+        type="button"
+        className={`signal-filter ${
+          view === key ? "active" : ""
+        }`}
+        onClick={() =>
+          setView(key as SimulationView)
+        }
+      >
+        {label}
+      </button>
+    ))}
+  </div>
+</section>
+
+{view === "v1" && (
+  <>
+      <section className="glass-block">
         <h2>Simulation Basis</h2>
 
         <div className="feed-list">
@@ -917,7 +956,11 @@ const collectiveIntelligence =
           ))}
         </div>
       </section>
+      </>
+      )}
 
+{view === "v2" && (
+  <>
       <section className="glass-block">
   <h2>Civilization Scenario Explorer</h2>
 
@@ -1014,7 +1057,11 @@ const collectiveIntelligence =
     </div>
   </div>
 </section>
+</>
+)}
 
+{view === "v3" && (
+  <>
 <section className="glass-block">
   <h2>Civilization Execution Engine</h2>
 
@@ -1139,7 +1186,11 @@ const collectiveIntelligence =
     ))}
   </div>
 </section>
+</>
+)}
 
+{view === "v4" && (
+  <>
 <section className="glass-block">
   <h2>Civilization Self-Modification Engine</h2>
 
@@ -1334,7 +1385,11 @@ const collectiveIntelligence =
     ))}
   </div>
 </section>
+</>
+)}
 
+{view === "v5" && (
+  <>
 <section className="glass-block">
   <h2>Civilization Governance Engine</h2>
 
@@ -1521,6 +1576,8 @@ const collectiveIntelligence =
     </div>
   </div>
 </section>
+</>
+)}
 
       <section className="glass-block">
         <h2>Simulation Interpretation</h2>
