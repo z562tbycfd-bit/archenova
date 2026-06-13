@@ -33,7 +33,8 @@ type SimulationView =
   | "v2"
   | "v3"
   | "v4"
-  | "v5";
+  | "v5"
+  | "v6";
 
 function average(values: number[]) {
   if (!values.length) return 0;
@@ -731,6 +732,44 @@ function makeCollectiveIntelligenceEngine(
   };
 }
 
+function makeWisdomEngine(
+  collectiveIntelligence: ReturnType<
+    typeof makeCollectiveIntelligenceEngine
+  >,
+  decision: ReturnType<typeof makeDecisionEngine>,
+  trust: ReturnType<typeof makeTrustEngine>,
+  futures: ReturnType<typeof makeFuturesEngine>
+) {
+  const leadingFuture =
+    futures[0]?.name ?? "Adaptive Civilization";
+
+  const wisdomScore = Math.min(
+    100,
+    Math.round(
+      collectiveIntelligence.score * 0.35 +
+        trust.score * 0.25 +
+        25
+    )
+  );
+
+  let wisdomMode = "Emerging Wisdom";
+
+  if (wisdomScore >= 90) {
+    wisdomMode = "Civilization Wisdom";
+  } else if (wisdomScore >= 70) {
+    wisdomMode = "Strategic Wisdom";
+  }
+
+  return {
+    score: wisdomScore,
+    mode: wisdomMode,
+    principle:
+      "Preserve long-term optionality while expanding adaptive capacity, resilience, legitimacy, and reality-discovery capability.",
+    recommendation:
+      `Do not pursue ${leadingFuture} as a narrow optimization target. Instead, use the decision "${decision.decision}" as part of a balanced civilization pathway that integrates capability, risk control, trust, coordination, and future possibility expansion.`,
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -848,6 +887,13 @@ const collectiveIntelligence =
     futures
   );
 
+  const wisdom = makeWisdomEngine(
+  collectiveIntelligence,
+  decision,
+  trust,
+  futures
+);
+
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
 
@@ -888,6 +934,7 @@ const collectiveIntelligence =
       ["v3", "v3 Execution / Learning"],
       ["v4", "v4 Architecture"],
       ["v5", "v5 Governance / Collective"],
+      ["v5", "v6 Wisdom"],
     ].map(([key, label]) => (
       <button
         key={key}
@@ -1577,6 +1624,44 @@ const collectiveIntelligence =
 
     <div className="feed-summary">
       Mechanism: {collectiveIntelligence.mechanism}
+    </div>
+  </div>
+</section>
+</>
+)}
+
+{view === "v5" && (
+  <>
+<section className="glass-block">
+  <h2>Civilization Wisdom Engine</h2>
+
+  <p>
+    ArcheNova converts collective intelligence into
+    long-term civilizational wisdom: the capacity to
+    select not merely what is possible, but what should
+    be pursued under uncertainty, risk, legitimacy,
+    trust, and future possibility constraints.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Wisdom Assessment
+    </div>
+
+    <div className="feed-title">
+      {wisdom.mode}
+    </div>
+
+    <div className="feed-summary">
+      Score: {wisdom.score}/100
+    </div>
+
+    <div className="feed-summary">
+      Principle: {wisdom.principle}
+    </div>
+
+    <div className="feed-summary">
+      Recommendation: {wisdom.recommendation}
     </div>
   </div>
 </section>
