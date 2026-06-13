@@ -770,6 +770,47 @@ function makeWisdomEngine(
   };
 }
 
+function makeValueEngine(
+  wisdom: ReturnType<typeof makeWisdomEngine>,
+  trust: ReturnType<typeof makeTrustEngine>,
+  collectiveIntelligence: ReturnType<
+    typeof makeCollectiveIntelligenceEngine
+  >
+) {
+  const valueScore = Math.min(
+    100,
+    Math.round(
+      wisdom.score * 0.4 +
+        trust.score * 0.25 +
+        collectiveIntelligence.score * 0.25 +
+        10
+    )
+  );
+
+  let valueMode = "Emerging Value Alignment";
+
+  if (valueScore >= 90) {
+    valueMode = "Civilization Value Alignment";
+  } else if (valueScore >= 70) {
+    valueMode = "Strategic Value Alignment";
+  }
+
+  return {
+    score: valueScore,
+    mode: valueMode,
+    coreValues: [
+      "Reality Discovery",
+      "Adaptive Capacity",
+      "Resilience",
+      "Legitimacy",
+      "Trust",
+      "Future Optionality",
+    ],
+    principle:
+      "Civilization should optimize not only for capability, but for resilient, legitimate, adaptive, trustworthy, and future-expanding development.",
+  };
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -892,6 +933,12 @@ const collectiveIntelligence =
   decision,
   trust,
   futures
+);
+
+const values = makeValueEngine(
+  wisdom,
+  trust,
+  collectiveIntelligence
 );
 
   const strongestScenario =
@@ -1662,6 +1709,38 @@ const collectiveIntelligence =
 
     <div className="feed-summary">
       Recommendation: {wisdom.recommendation}
+    </div>
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Value Engine</h2>
+
+  <p>
+    ArcheNova identifies the value structure that should
+    guide wisdom, decision-making, coordination, and
+    long-term civilization development.
+  </p>
+
+  <div className="feed-row wide">
+    <div className="feed-source">
+      Value Assessment
+    </div>
+
+    <div className="feed-title">
+      {values.mode}
+    </div>
+
+    <div className="feed-summary">
+      Score: {values.score}/100
+    </div>
+
+    <div className="feed-summary">
+      Core values: {values.coreValues.join(", ")}
+    </div>
+
+    <div className="feed-summary">
+      Principle: {values.principle}
     </div>
   </div>
 </section>
