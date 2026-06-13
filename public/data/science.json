@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-06-13T16:15:47.344Z",
+  "updated": "2026-06-13T18:09:52.965Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "CDC sleuthing helps decipher drug-resistant infection rise",
+      "url": "https://phys.org/news/2026-06-cdc-sleuthing-decipher-drug-resistant.html",
+      "summary": "Previous research from the Centers for Disease Control and Prevention (CDC) found that a dangerous variety of bacteria that cause drug-resistant infections, called NDM-producing carbapenem-resistant Enterobacterales (NDM…",
+      "ts": 1781373604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New atlas reveals more about how the body's 'master gland' really works",
+      "url": "https://phys.org/news/2026-06-atlas-reveals-body-master-gland.html",
+      "summary": "A new study has created a detailed map of the pituitary gland, often called the body's \"master gland\" because it controls important functions such as growth, stress and reproduction. Researchers from the Center for Crani…",
+      "ts": 1781373603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fusion reactors could be monitored for covert plutonium production",
+      "url": "https://phys.org/news/2026-06-fusion-reactors-covert-plutonium-production.html",
+      "summary": "In the next few decades, many physicists are hopeful that nuclear fusion could become a realistic source of practically limitless energy. But before this can happen, it will be critical to ensure that reactors cannot be …",
+      "ts": 1781370003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Supercomputer illuminates subatomic particle that helps hold matter together",
+      "url": "https://phys.org/news/2026-06-supercomputer-illuminates-subatomic-particle.html",
+      "summary": "A team of researchers has leveraged a supercomputer at the U.S. Department of Energy's (DOE) Argonne National Laboratory to reveal the internal structure of a pion in unprecedented detail. The findings are published in t…",
+      "ts": 1781370002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "As wildfires increase in the West, so does suppression spending",
+      "url": "https://phys.org/news/2026-06-wildfires-west-suppression.html",
+      "summary": "Hotter, drier conditions in the western United States have led to a rise in wildfire activity that has damaged or destroyed infrastructure, natural ecosystems and entire towns across the region. As fires grow larger and …",
+      "ts": 1781368202000
+    },
     {
       "source": "Phys.org",
       "title": "Heat-surviving cyanobacteria switch to respiration when photosynthesis falters, 48-hour test reveals",
@@ -665,41 +700,6 @@
       "title": "Candidate overtone shear horizontal SAW resonators in thin-film lithium niobate for intermodal acousto-optic modulation",
       "url": "https://arxiv.org/abs/2606.12853",
       "summary": "arXiv:2606.12853v1 Announce Type: new Abstract: The merits of thin-film surface acoustic wave (SAW) devices are pivotal to develop the high-performance intermodal acousto-optic modulators. In this work, we have proposed …",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Omnidirectional photonic chiral flatband in nonlocal membrane metasurfaces",
-      "url": "https://arxiv.org/abs/2606.12873",
-      "summary": "arXiv:2606.12873v1 Announce Type: new Abstract: Omnidirectional flat-band resonances, characterized by an enhanced photonic density of states and inherent angular robustness, are highly sought-after in integrated nanopho…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Longitudinal particle separation",
-      "url": "https://arxiv.org/abs/2606.12894",
-      "summary": "arXiv:2606.12894v1 Announce Type: new Abstract: Owing to inertial effects, the flow through a three-dimensional curved duct focuses finite-sized spherical particles in the two-dimensional cross-section onto either stable…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design and optimization of an AZO-based plasmonic metasurface-driven optical solar reflector for thermal management",
-      "url": "https://arxiv.org/abs/2606.12957",
-      "summary": "arXiv:2606.12957v1 Announce Type: new Abstract: Plasmonic metasurface-driven Optical Solar Reflectors (m-OSRs) offer a promising route towards lightweight and high-performance thermal management. By exploiting subwavelen…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The effect of in-phase current and temperature oscillations on the impedance of the cathode catalyst layer in a PEM fuel cell",
-      "url": "https://arxiv.org/abs/2606.12999",
-      "summary": "arXiv:2606.12999v1 Announce Type: new Abstract: An impedance model for the cathode catalyst layer (CCL) in a PEM fuel cell demonstrates that in-phase harmonic perturbations to the cell current density and CCL temperature…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Insitu X Ray Photoemission Study of Nb Surface Under Plasma Cleaning During MID T BAKING For SRF Cavities",
-      "url": "https://arxiv.org/abs/2606.13013",
-      "summary": "arXiv:2606.13013v1 Announce Type: new Abstract: Specific heat treatments applied to superconducting radiofrequency (SRF) cavities, such as nitrogen infusion or Mid T baking, aim to improve the quality factor (Qo) at medi…",
       "ts": 1781236800000
     }
   ],

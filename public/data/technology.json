@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-13T16:15:55.785Z",
+  "updated": "2026-06-13T18:09:57.298Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Revised Artemis lunar lander plans take shape",
+      "url": "https://spacenews.com/revised-artemis-lunar-lander-plans-take-shape/",
+      "summary": "NASA has provided more details about the revised approaches that Blue Origin and SpaceX are taking to accelerate work on Artemis lunar landers. The post Revised Artemis lunar lander plans take shape appeared first on Spa…",
+      "ts": 1781371196000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "SpaceX shares rise nearly 20% in historic IPO",
@@ -711,14 +719,6 @@
       "title": "Approximability limits for bounded-degree max-LINSAT and implications for decoded quantum interferometry",
       "url": "https://arxiv.org/abs/2606.13570",
       "summary": "arXiv:2606.13570v1 Announce Type: new Abstract: For general max-k-XORSAT with $k \\geq 3$, no polynomial-time algorithm can do substantially better than random guessing on worst-case instances unless $\\mathsf{P} = \\mathsf…",
-      "ts": 1781236800000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Diffusive Dynamics of Nonstabilizerness",
-      "url": "https://arxiv.org/abs/2606.13606",
-      "summary": "arXiv:2606.13606v1 Announce Type: new Abstract: Symmetries shape the quantum-information dynamics of many-body systems, but their effect on nonstabilizerness, the resource complementary to entanglement, is less understoo…",
       "ts": 1781236800000,
       "categoryId": "quantum"
     }
