@@ -514,6 +514,39 @@ function makeArchitectureSynthesisEngine(
   });
 }
 
+function makeArchitectureDeploymentEngine(
+  architectureSynthesisPlan: ReturnType<
+    typeof makeArchitectureSynthesisEngine
+  >
+) {
+  return architectureSynthesisPlan.map((item, index) => {
+    const deploymentTarget =
+      index === 0
+        ? "Signal Intelligence Layer"
+        : index === 1
+        ? "Integrated Model Stack"
+        : index === 2
+        ? "Civilization Direction Layer"
+        : "Recursive Improvement Loop";
+
+    const deploymentAction =
+      index === 0
+        ? "Deploy synthesized observation logic into future signal detection, scoring, and interpretation workflows."
+        : index === 1
+        ? "Deploy coordinated model logic across forecast, opportunity, strategy, portfolio, simulation, decision, execution, feedback, and learning systems."
+        : index === 2
+        ? "Deploy civilization-alignment logic into futures, decision, and operating system layers."
+        : "Deploy recursive improvement logic into self-modification, meta-intelligence, and architecture update cycles.";
+
+    return {
+      layer: `Deployment Layer ${index + 1}`,
+      source: item.layer,
+      target: deploymentTarget,
+      action: deploymentAction,
+    };
+  });
+}
+
 export default function CivilizationSimulationPage() {
   const [signals, setSignals] = useState<Signal[]>([]);
   const [updated, setUpdated] = useState("—");
@@ -595,6 +628,11 @@ const architectureSynthesisPlan =
   makeArchitectureSynthesisEngine(
     architecturePlan
   );
+
+ const architectureDeploymentPlan =
+  makeArchitectureDeploymentEngine(
+    architectureSynthesisPlan
+  ); 
 
   const strongestScenario =
     [...scenarios].sort((a, b) => b.capability - a.capability)[0];
@@ -1055,6 +1093,38 @@ const architectureSynthesisPlan =
 
         <div className="feed-summary">
           {item.output}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<section className="glass-block">
+  <h2>Civilization Architecture Deployment Engine</h2>
+
+  <p>
+    ArcheNova converts synthesized intelligence architecture
+    into deployment layers that can guide future signal
+    processing, model coordination, civilization alignment,
+    and recursive improvement.
+  </p>
+
+  <div className="feed-list">
+    {architectureDeploymentPlan.map((item) => (
+      <div
+        key={item.layer}
+        className="feed-row wide"
+      >
+        <div className="feed-source">
+          {item.layer} · based on {item.source}
+        </div>
+
+        <div className="feed-title">
+          {item.target}
+        </div>
+
+        <div className="feed-summary">
+          Deployment action: {item.action}
         </div>
       </div>
     ))}
