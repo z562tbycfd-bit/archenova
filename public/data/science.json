@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-06-13T18:09:52.965Z",
+  "updated": "2026-06-13T20:17:41.991Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How directing water flows in the landscape could support groundwater and surface water streams",
+      "url": "https://phys.org/news/2026-06-landscape-groundwater-surface-streams.html",
+      "summary": "Researchers at the Leibniz Centre for Agricultural Landscape Research have investigated how water from streams can be stored in the aquifer during wet periods. Using an area in the lower Spree catchment in Brandenburg as…",
+      "ts": 1781380803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "TRACERS spacecraft maps solar energy's route into Earth using cusp electrons",
+      "url": "https://phys.org/news/2026-06-tracers-spacecraft-solar-energy-route.html",
+      "summary": "Physicists led by the University of Iowa have documented in the finest detail to date how energy from the sun interacts with Earth's magnetic field, which could yield greater insight into solar effects on Earth that driv…",
+      "ts": 1781380801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cellulose films match plastic performance while enabling recycling or biodegradation",
+      "url": "https://phys.org/news/2026-06-cellulose-plastic-enabling-recycling-biodegradation.html",
+      "summary": "A new cellulose-based material platform developed in Finland responds to tightening regulatory requirements and industry pressure to both replace and reduce plastic in packaging, including emerging thresholds such as lim…",
+      "ts": 1781379003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When motion prevents order in active matter systems",
+      "url": "https://phys.org/news/2026-06-motion.html",
+      "summary": "Pack enough string-like objects together, and they will begin to align with one another. But replace the strings with worms or bacteria living in your gut, and this self-organization becomes much more difficult. A team o…",
+      "ts": 1781377202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Tracing the origins of supermassive black holes",
+      "url": "https://phys.org/news/2026-06-qa-supermassive-black-holes.html",
+      "summary": "Sarah Pappert is a Ph.D. candidate in astrophysics at the TUM School of Natural Sciences and conducts research at the Max Planck Institute for Extraterrestrial Physics. She is supervised by Prof. Dr. Reinhard Genzel and …",
+      "ts": 1781375401000
+    },
     {
       "source": "Phys.org",
       "title": "CDC sleuthing helps decipher drug-resistant infection rise",
@@ -665,41 +700,6 @@
       "title": "Discrete phase symmetry of stationary states in bichromatically pumped Kerr microresonators",
       "url": "https://arxiv.org/abs/2606.12749",
       "summary": "arXiv:2606.12749v1 Announce Type: new Abstract: Bichromatically pumped Kerr microresonators exhibit phase bistability and multistability arising from four-wave mixing between pump and generated modes. Here we analyze the…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The toroidal flux and separatrix effects in tokamaks",
-      "url": "https://arxiv.org/abs/2606.12760",
-      "summary": "arXiv:2606.12760v1 Announce Type: new Abstract: The toroidal magnetic flux enclosed by magnetic surface has remarkably little prominence in the tokamak literature. Nevertheless, it is required to properly interpret Farad…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparison of Two Operational Microphysics Schemes Across Various Regional-MPAS Simulations",
-      "url": "https://arxiv.org/abs/2606.12762",
-      "summary": "arXiv:2606.12762v1 Announce Type: new Abstract: Accurately representing convection and precipitation remains a persistent challenge for Numerical Weather Prediction (NWP) models due to biases in convective initiation, st…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reaching the thermodynamic limit of periodic CCSD cohesive energies and band gaps with denser Brillouin zone sampling",
-      "url": "https://arxiv.org/abs/2606.12782",
-      "summary": "arXiv:2606.12782v1 Announce Type: new Abstract: The high computational cost of periodic coupled-cluster theory has limited the density of Brillouin zone sampling, yielding finite-size errors that need to be removed by ex…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interpretable model-free inference of parametric variation across time-series data through large-scale feature extraction",
-      "url": "https://arxiv.org/abs/2606.12836",
-      "summary": "arXiv:2606.12836v1 Announce Type: new Abstract: Here we address the problem of estimating the dimensionality and nature of parametric variation in an unknown generative process directly from time-series data, without spe…",
-      "ts": 1781236800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Candidate overtone shear horizontal SAW resonators in thin-film lithium niobate for intermodal acousto-optic modulation",
-      "url": "https://arxiv.org/abs/2606.12853",
-      "summary": "arXiv:2606.12853v1 Announce Type: new Abstract: The merits of thin-film surface acoustic wave (SAW) devices are pivotal to develop the high-performance intermodal acousto-optic modulators. In this work, we have proposed …",
       "ts": 1781236800000
     }
   ],
