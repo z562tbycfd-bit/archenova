@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-13T22:06:20.071Z",
+  "updated": "2026-06-14T00:10:00.282Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "David Kipping has new take on the existence of advanced life in the universe and the numbers are not encouraging",
+      "url": "https://phys.org/news/2026-06-david-kipping-advanced-life-universe.html",
+      "summary": "Between the mid-1970s and early 1980s, two physicists, Michael Hart and Frank Tipler, published a controversial series of papers arguing that extraterrestrial intelligence didn't exist. As they argued, the likelihood tha…",
+      "ts": 1781393402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ocean monitoring is in trouble: It's up to Europe and Asia to avoid losing sight of the world's deep‑sea ecosystems",
+      "url": "https://phys.org/news/2026-06-ocean-europe-asia-sight-world.html",
+      "summary": "The world relies on a modest number of countries to keep watch over the ocean. That arrangement is starting to fail. Europe and Asia must now decide whether to let the system unravel, or to take it up together.",
+      "ts": 1781389805000
+    },
     {
       "source": "Phys.org",
       "title": "Could leaves help feed humanity after disaster?",
@@ -685,20 +699,6 @@
       "source": "Nature",
       "title": "Lignin to adipic acid in a high-yield chemical and biological redox process",
       "url": "https://www.nature.com/articles/s41586-026-10580-x",
-      "summary": "",
-      "ts": 1781049600000
-    },
-    {
-      "source": "Nature",
-      "title": "Measurement of reactor neutrino oscillation with the first JUNO data",
-      "url": "https://www.nature.com/articles/s41586-026-10538-z",
-      "summary": "",
-      "ts": 1781049600000
-    },
-    {
-      "source": "Nature",
-      "title": "Mitochondria directly interact with the nuclear pore complex",
-      "url": "https://www.nature.com/articles/s41586-026-10588-3",
       "summary": "",
       "ts": 1781049600000
     }
