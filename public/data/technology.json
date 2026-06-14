@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-14T00:10:05.039Z",
+  "updated": "2026-06-14T05:51:41.677Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Missile production push runs into solid rocket motor bottleneck",
+      "url": "https://spacenews.com/missile-production-push-runs-into-solid-rocket-motor-bottleneck/",
+      "summary": "A new CSIS report says planned 2027 interceptor buys will test a supply chain still recovering from years of consolidation The post Missile production push runs into solid rocket motor bottleneck appeared first on SpaceN…",
+      "ts": 1781409600000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Revised Artemis lunar lander plans take shape",
@@ -711,14 +719,6 @@
       "title": "Transposable element DNA and RNA: Drivers of gene expression, evolution, and disease",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00520-9?rss=yes",
       "summary": "Transposable elements, far from being genomic clutter, have emerged as dynamic genomic regulators that shape when, where, and how genes are turned on across development and disease.",
-      "ts": 1781136000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Biotechnology",
-      "title": "Spatial CRISPR screens map total RNA in tissue",
-      "url": "https://www.nature.com/articles/s41587-026-03126-z",
-      "summary": "",
       "ts": 1781136000000,
       "categoryId": "bio"
     }

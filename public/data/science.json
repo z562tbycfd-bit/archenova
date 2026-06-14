@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-14T00:10:00.282Z",
+  "updated": "2026-06-14T05:51:37.082Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Unique chromium beam experiment unlocks cosmic ray origins and galactic chemistry",
+      "url": "https://phys.org/news/2026-06-unique-chromium-cosmic-ray-galactic.html",
+      "summary": "When a star dies, it generates an explosion of elemental nuclei and hurls them into space. Those elements, called cosmic rays, travel at nearly the speed of light, and eventually some of them encounter manmade detectors.…",
+      "ts": 1781407201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "South African telescope detects record‑breaking signal from the early universe",
+      "url": "https://phys.org/news/2026-06-south-african-telescope-recordbreaking-early.html",
+      "summary": "Astronomers using the MeerKAT radio telescope in South Africa have discovered the most distant hydroxyl megamaser ever detected, opening a new radio astronomy frontier. A hydroxyl megamaser is a natural space laser, and …",
+      "ts": 1781397001000
+    },
     {
       "source": "Phys.org",
       "title": "David Kipping has new take on the existence of advanced life in the universe and the numbers are not encouraging",
@@ -685,20 +699,6 @@
       "source": "Nature",
       "title": "Molecular glue degraders of HuR suppress BRAF-mutant colorectal cancer",
       "url": "https://www.nature.com/articles/s41586-026-10613-5",
-      "summary": "",
-      "ts": 1781049600000
-    },
-    {
-      "source": "Nature",
-      "title": "Light-induced quantum friction of carbon nanotubes in water",
-      "url": "https://www.nature.com/articles/s41586-026-10632-2",
-      "summary": "",
-      "ts": 1781049600000
-    },
-    {
-      "source": "Nature",
-      "title": "Lignin to adipic acid in a high-yield chemical and biological redox process",
-      "url": "https://www.nature.com/articles/s41586-026-10580-x",
       "summary": "",
       "ts": 1781049600000
     }

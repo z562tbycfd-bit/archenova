@@ -1,6 +1,120 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "ai-missile-production-push-runs-into-solid-rocket-motor-bottleneck",
+    "title": "Missile production push runs into solid rocket motor bottleneck",
+    "category": "AI",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/missile-production-push-runs-into-solid-rocket-motor-bottleneck/",
+    "summary": "A new CSIS report says planned 2027 interceptor buys will test a supply chain still recovering from years of consolidation The post Missile production push runs into solid rocket motor bottleneck appeared first on SpaceN…",
+    "scientificSignal": "A new CSIS report says planned 2027 interceptor buys will test a supply chain still recovering from years of consolidation The post Missile production push runs into solid rocket motor bottleneck appeared first on SpaceN…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
+      "civilization": 10,
+      "overall": 9.3,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781409600000
+  },
+  {
+    "slug": "space-unique-chromium-beam-experiment-unlocks-cosmic-ray-origins-and-galactic-chemistr",
+    "title": "Unique chromium beam experiment unlocks cosmic ray origins and galactic chemistry",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-unique-chromium-cosmic-ray-galactic.html",
+    "summary": "When a star dies, it generates an explosion of elemental nuclei and hurls them into space. Those elements, called cosmic rays, travel at nearly the speed of light, and eventually some of them encounter manmade detectors.…",
+    "scientificSignal": "When a star dies, it generates an explosion of elemental nuclei and hurls them into space. Those elements, called cosmic rays, travel at nearly the speed of light, and eventually some of them encounter manmade detectors.…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.3,
+      "engineering": 9.1,
+      "economic": 7.9,
+      "civilization": 9.6,
+      "overall": 8.8,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781407201000
+  },
+  {
+    "slug": "space-south-african-telescope-detects-record-breaking-signal-from-the-early-universe",
+    "title": "South African telescope detects record‑breaking signal from the early universe",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-south-african-telescope-recordbreaking-early.html",
+    "summary": "Astronomers using the MeerKAT radio telescope in South Africa have discovered the most distant hydroxyl megamaser ever detected, opening a new radio astronomy frontier. A hydroxyl megamaser is a natural space laser, and …",
+    "scientificSignal": "Astronomers using the MeerKAT radio telescope in South Africa have discovered the most distant hydroxyl megamaser ever detected, opening a new radio astronomy frontier. A hydroxyl megamaser is a natural space laser, and …",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.6,
+      "engineering": 9.4,
+      "economic": 8.2,
+      "civilization": 9.9,
+      "overall": 9.1,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781397001000
+  },
+  {
     "slug": "general-david-kipping-has-new-take-on-the-existence-of-advanced-life-in-the-universe-and",
     "title": "David Kipping has new take on the existence of advanced life in the universe and the numbers are not encouraging",
     "category": "General",
@@ -3685,120 +3799,6 @@ export const generatedResearchReports =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781206683000
-  },
-  {
-    "slug": "ai-measles-has-no-treatments-changing-that-may-not-be-easy",
-    "title": "Measles has no treatments. Changing that may not be easy",
-    "category": "AI",
-    "source": "Science News",
-    "originalUrl": "https://www.sciencenews.org/article/measles-treatments-vaccine-clinical-trial",
-    "summary": "Vaccination remains the priority, but some researchers are looking for drugs to fight the virus in people who don't get the shot.",
-    "scientificSignal": "Vaccination remains the priority, but some researchers are looking for drugs to fight the virus in people who don't get the shot.",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781204663000
-  },
-  {
-    "slug": "ai-nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-detectors",
-    "title": "NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors",
-    "category": "AI",
-    "source": "NASA",
-    "originalUrl": "https://science.nasa.gov/missions/tech-demonstration/nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-detectors/",
-    "summary": "A new type of gamma-ray sensor developed by NASA will take part in a robotic arm demonstration on the agency’s upcoming Fly Foundational Robots mission.",
-    "scientificSignal": "A new type of gamma-ray sensor developed by NASA will take part in a robotic arm demonstration on the agency’s upcoming Fly Foundational Robots mission.",
-    "implementationPotential": "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
-    "infrastructureImpact": "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
-    "technologyRoadmap": [
-      "Scientific process discovery",
-      "Prototype manufacturing method",
-      "Automation and quality control",
-      "Industrial production integration",
-      "Resilient manufacturing infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Pilot deployment and industrial validation.",
-      "mid": "5–15 Years: Broad manufacturing integration and automation.",
-      "far": "15–30 Years: Self-optimizing industrial ecosystems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.2,
-      "engineering": 9.4,
-      "economic": 9,
-      "civilization": 8.8,
-      "overall": 8.8,
-      "classification": "Industrial Capability Signal"
-    },
-    "ts": 1781204377000
-  },
-  {
-    "slug": "space-senate-ndaa-backs-plan-to-fold-sda-space-rco-into-space-force",
-    "title": "Senate NDAA backs plan to fold SDA, Space RCO into Space Force",
-    "category": "Space",
-    "source": "SpaceNews",
-    "originalUrl": "https://spacenews.com/senate-ndaa-backs-plan-to-fold-sda-space-rco-into-space-force/",
-    "summary": "The committee's 2027 defense bill would eliminate separate statutory requirements for the two acquisition organizations while advancing broader Pentagon procurement reforms The post Senate NDAA backs plan to fold SDA, Sp…",
-    "scientificSignal": "The committee's 2027 defense bill would eliminate separate statutory requirements for the two acquisition organizations while advancing broader Pentagon procurement reforms The post Senate NDAA backs plan to fold SDA, Sp…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.3,
-      "economic": 8.1,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781203255000
   }
 ];
 
@@ -4033,6 +4033,44 @@ export const archeNovaTopSignals =
     "ts": 1781222766000
   },
   {
+    "slug": "ai-missile-production-push-runs-into-solid-rocket-motor-bottleneck",
+    "title": "Missile production push runs into solid rocket motor bottleneck",
+    "category": "AI",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/missile-production-push-runs-into-solid-rocket-motor-bottleneck/",
+    "summary": "A new CSIS report says planned 2027 interceptor buys will test a supply chain still recovering from years of consolidation The post Missile production push runs into solid rocket motor bottleneck appeared first on SpaceN…",
+    "scientificSignal": "A new CSIS report says planned 2027 interceptor buys will test a supply chain still recovering from years of consolidation The post Missile production push runs into solid rocket motor bottleneck appeared first on SpaceN…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
+      "civilization": 10,
+      "overall": 9.3,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781409600000
+  },
+  {
     "slug": "ai-revised-artemis-lunar-lander-plans-take-shape",
     "title": "Revised Artemis lunar lander plans take shape",
     "category": "AI",
@@ -4145,44 +4183,6 @@ export const archeNovaTopSignals =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781345694000
-  },
-  {
-    "slug": "ai-meet-remora-the-autonomous-space-fleet-built-to-tag-and-track-asteroids",
-    "title": "Meet REMORA: The autonomous space fleet built to tag and track asteroids",
-    "category": "AI",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-remora-autonomous-space-fleet-built.html",
-    "summary": "To truly understand what an asteroid is made of, we need to send a probe to it. Remote sensing from ground-based telescopes, or even orbiting observatories, can only do so much. A new white paper submitted to the U.K. Sp…",
-    "scientificSignal": "To truly understand what an asteroid is made of, we need to send a probe to it. Remote sensing from ground-based telescopes, or even orbiting observatories, can only do so much. A new white paper submitted to the U.K. Sp…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.8,
-      "engineering": 9.6,
-      "economic": 8.4,
-      "civilization": 10,
-      "overall": 9.3,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781308801000
   }
 ];
 
@@ -4429,6 +4429,46 @@ export const archeNovaWatchlist =
     "rank": 6
   },
   {
+    "slug": "ai-missile-production-push-runs-into-solid-rocket-motor-bottleneck",
+    "title": "Missile production push runs into solid rocket motor bottleneck",
+    "category": "AI",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/missile-production-push-runs-into-solid-rocket-motor-bottleneck/",
+    "summary": "A new CSIS report says planned 2027 interceptor buys will test a supply chain still recovering from years of consolidation The post Missile production push runs into solid rocket motor bottleneck appeared first on SpaceN…",
+    "scientificSignal": "A new CSIS report says planned 2027 interceptor buys will test a supply chain still recovering from years of consolidation The post Missile production push runs into solid rocket motor bottleneck appeared first on SpaceN…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
+      "civilization": 10,
+      "overall": 9.3,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781409600000,
+    "trend": "Stable",
+    "rank": 7
+  },
+  {
     "slug": "ai-revised-artemis-lunar-lander-plans-take-shape",
     "title": "Revised Artemis lunar lander plans take shape",
     "category": "AI",
@@ -4466,7 +4506,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781371196000,
     "trend": "Stable",
-    "rank": 7
+    "rank": 8
   },
   {
     "slug": "ai-chandra-resolves-ngc-6540-s-mysterious-x-ray-flare-into-three-separate-sources",
@@ -4506,7 +4546,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781359801000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 9
   },
   {
     "slug": "ai-spacex-five-key-moments-from-first-launch-to-starship-megarocket",
@@ -4546,7 +4586,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781345694000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 10
   },
   {
     "slug": "ai-meet-remora-the-autonomous-space-fleet-built-to-tag-and-track-asteroids",
@@ -4586,7 +4626,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781308801000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 11
   },
   {
     "slug": "ai-all-in-on-ai-at-astra",
@@ -4626,7 +4666,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781269200000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 12
   },
   {
     "slug": "ai-h3-successfully-returns-to-flight",
@@ -4666,7 +4706,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781266509000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 13
   },
   {
     "slug": "ai-in-aerospace-ai-isn-t-replacing-workers-it-s-filling-a-shortage",
@@ -4706,7 +4746,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781258400000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 14
   },
   {
     "slug": "space-nasa-award-boosts-space-technology-research-capabilities",
@@ -4746,7 +4786,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781212484000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 15
   },
   {
     "slug": "space-nasa-s-chandra-discovers-possible-supernova-remnant-in-galactic-center",
@@ -4786,7 +4826,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781210504000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 16
   },
   {
     "slug": "space-vandenberg-offers-new-launch-site-for-small-and-medium-rockets",
@@ -4826,7 +4866,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781207761000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 17
   },
   {
     "slug": "energy-fusion-reactors-could-be-monitored-for-covert-plutonium-production",
@@ -4866,7 +4906,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781370003000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 18
   },
   {
     "slug": "ai-crossword-power-play",
@@ -4906,85 +4946,45 @@ export const archeNovaWatchlist =
     },
     "ts": 1781280000000,
     "trend": "Stable",
-    "rank": 18
-  },
-  {
-    "slug": "ai-supercomputer-illuminates-subatomic-particle-that-helps-hold-matter-together",
-    "title": "Supercomputer illuminates subatomic particle that helps hold matter together",
-    "category": "AI",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-supercomputer-illuminates-subatomic-particle.html",
-    "summary": "A team of researchers has leveraged a supercomputer at the U.S. Department of Energy's (DOE) Argonne National Laboratory to reveal the internal structure of a pion in unprecedented detail. The findings are published in t…",
-    "scientificSignal": "A team of researchers has leveraged a supercomputer at the U.S. Department of Energy's (DOE) Argonne National Laboratory to reveal the internal structure of a pion in unprecedented detail. The findings are published in t…",
-    "implementationPotential": "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
-    "infrastructureImpact": "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
-    "technologyRoadmap": [
-      "Computational architecture",
-      "Hardware or model optimization",
-      "Platform deployment",
-      "Institutional and industrial adoption",
-      "Civilization-scale prediction capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Deployment into research and enterprise systems.",
-      "mid": "5–15 Years: Infrastructure-scale computational integration.",
-      "far": "15–30 Years: Civilization-scale prediction and coordination systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "Very High",
-      "timeHorizon": "3–10 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.3,
-      "engineering": 9.5,
-      "economic": 9.4,
-      "civilization": 9.3,
-      "overall": 9.1,
-      "classification": "Intelligence Infrastructure Signal"
-    },
-    "ts": 1781370002000,
-    "trend": "Stable",
     "rank": 19
   },
   {
-    "slug": "ai-saturday-citations-jaxa-collaboration-with-toy-company-tomy-a-new-brain-computer",
-    "title": "Saturday Citations: JAXA collaboration with toy company TOMY; a new brain-computer interface; IBD solved",
-    "category": "AI",
+    "slug": "space-south-african-telescope-detects-record-breaking-signal-from-the-early-universe",
+    "title": "South African telescope detects record‑breaking signal from the early universe",
+    "category": "Space",
     "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-06-saturday-citations-jaxa-collaboration-toy.html",
-    "summary": "This week's notable citations: Astronomers believe collapsing stars could spawn mini universes. Chimpanzees do not like unfairness. And a single dose of psilocybin temporarily restored function in an 80-year-old with Alz…",
-    "scientificSignal": "This week's notable citations: Astronomers believe collapsing stars could spawn mini universes. Chimpanzees do not like unfairness. And a single dose of psilocybin temporarily restored function in an 80-year-old with Alz…",
-    "implementationPotential": "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
-    "infrastructureImpact": "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
+    "originalUrl": "https://phys.org/news/2026-06-south-african-telescope-recordbreaking-early.html",
+    "summary": "Astronomers using the MeerKAT radio telescope in South Africa have discovered the most distant hydroxyl megamaser ever detected, opening a new radio astronomy frontier. A hydroxyl megamaser is a natural space laser, and …",
+    "scientificSignal": "Astronomers using the MeerKAT radio telescope in South Africa have discovered the most distant hydroxyl megamaser ever detected, opening a new radio astronomy frontier. A hydroxyl megamaser is a natural space laser, and …",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
     "technologyRoadmap": [
-      "Computational architecture",
-      "Hardware or model optimization",
-      "Platform deployment",
-      "Institutional and industrial adoption",
-      "Civilization-scale prediction capacity"
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
     ],
     "strategicHorizon": {
-      "near": "1–5 Years: Deployment into research and enterprise systems.",
-      "mid": "5–15 Years: Infrastructure-scale computational integration.",
-      "far": "15–30 Years: Civilization-scale prediction and coordination systems."
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
     },
     "assessment": {
-      "probability": "High",
-      "impact": "Very High",
-      "timeHorizon": "3–10 Years"
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
     },
     "archeNovaAssessment": {
-      "scientific": 8.3,
-      "engineering": 9.5,
-      "economic": 9.4,
-      "civilization": 9.3,
+      "scientific": 8.6,
+      "engineering": 9.4,
+      "economic": 8.2,
+      "civilization": 9.9,
       "overall": 9.1,
-      "classification": "Intelligence Infrastructure Signal"
+      "classification": "Expansion Capability Signal"
     },
-    "ts": 1781353201000,
+    "ts": 1781397001000,
     "trend": "Stable",
     "rank": 20
   }
