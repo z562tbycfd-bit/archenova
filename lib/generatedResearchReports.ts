@@ -1,6 +1,44 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "general-is-gender-gating-the-secret-to-success-in-online-dating",
+    "title": "Is 'gender gating' the secret to success in online dating?",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-gender-gating-secret-success-online.html",
+    "summary": "Digital matching platforms—from professional networking to ride-sharing and accommodation services—add value by bringing supply and demand into balance. But deep-seated asymmetries can prove difficult to expunge, causing…",
+    "scientificSignal": "Digital matching platforms—from professional networking to ride-sharing and accommodation services—add value by bringing supply and demand into balance. But deep-seated asymmetries can prove difficult to expunge, causing…",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.9,
+      "engineering": 7.9,
+      "economic": 7.4,
+      "civilization": 8.2,
+      "overall": 7.9,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781437514000
+  },
+  {
     "slug": "ai-missile-production-push-runs-into-solid-rocket-motor-bottleneck",
     "title": "Missile production push runs into solid rocket motor bottleneck",
     "category": "AI",
@@ -3761,87 +3799,11 @@ export const generatedResearchReports =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781207761000
-  },
-  {
-    "slug": "space-understanding-what-s-next-for-orbital-data-centers",
-    "title": "Understanding what’s next for orbital data centers",
-    "category": "Space",
-    "source": "SpaceNews",
-    "originalUrl": "https://spacenews.com/understanding-whats-next-for-orbital-data-centers/",
-    "summary": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what’s driving interest in the technology, […] The post Unde…",
-    "scientificSignal": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what’s driving interest in the technology, […] The post Unde…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.2,
-      "engineering": 10,
-      "economic": 8.8,
-      "civilization": 10,
-      "overall": 9.6,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781206683000
   }
 ];
 
 export const archeNovaTopSignals =
 [
-  {
-    "slug": "space-understanding-what-s-next-for-orbital-data-centers",
-    "title": "Understanding what’s next for orbital data centers",
-    "category": "Space",
-    "source": "SpaceNews",
-    "originalUrl": "https://spacenews.com/understanding-whats-next-for-orbital-data-centers/",
-    "summary": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what’s driving interest in the technology, […] The post Unde…",
-    "scientificSignal": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what’s driving interest in the technology, […] The post Unde…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.2,
-      "engineering": 10,
-      "economic": 8.8,
-      "civilization": 10,
-      "overall": 9.6,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781206683000
-  },
   {
     "slug": "ai-tracers-spacecraft-maps-solar-energy-s-route-into-earth-using-cusp-electrons",
     "title": "TRACERS spacecraft maps solar energy's route into Earth using cusp electrons",
@@ -4183,19 +4145,15 @@ export const archeNovaTopSignals =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781345694000
-  }
-];
-
-export const archeNovaWatchlist =
-[
+  },
   {
-    "slug": "space-understanding-what-s-next-for-orbital-data-centers",
-    "title": "Understanding what’s next for orbital data centers",
-    "category": "Space",
-    "source": "SpaceNews",
-    "originalUrl": "https://spacenews.com/understanding-whats-next-for-orbital-data-centers/",
-    "summary": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what’s driving interest in the technology, […] The post Unde…",
-    "scientificSignal": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what’s driving interest in the technology, […] The post Unde…",
+    "slug": "ai-meet-remora-the-autonomous-space-fleet-built-to-tag-and-track-asteroids",
+    "title": "Meet REMORA: The autonomous space fleet built to tag and track asteroids",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-remora-autonomous-space-fleet-built.html",
+    "summary": "To truly understand what an asteroid is made of, we need to send a probe to it. Remote sensing from ground-based telescopes, or even orbiting observatories, can only do so much. A new white paper submitted to the U.K. Sp…",
+    "scientificSignal": "To truly understand what an asteroid is made of, we need to send a probe to it. Remote sensing from ground-based telescopes, or even orbiting observatories, can only do so much. A new white paper submitted to the U.K. Sp…",
     "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
     "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
@@ -4217,17 +4175,19 @@ export const archeNovaWatchlist =
       "timeHorizon": "15–30 Years"
     },
     "archeNovaAssessment": {
-      "scientific": 9.2,
-      "engineering": 10,
-      "economic": 8.8,
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
       "civilization": 10,
-      "overall": 9.6,
+      "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
-    "ts": 1781206683000,
-    "trend": "Top Signal",
-    "rank": 1
-  },
+    "ts": 1781308801000
+  }
+];
+
+export const archeNovaWatchlist =
+[
   {
     "slug": "ai-tracers-spacecraft-maps-solar-energy-s-route-into-earth-using-cusp-electrons",
     "title": "TRACERS spacecraft maps solar energy's route into Earth using cusp electrons",
@@ -4265,8 +4225,8 @@ export const archeNovaWatchlist =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1781380801000,
-    "trend": "High Priority",
-    "rank": 2
+    "trend": "Top Signal",
+    "rank": 1
   },
   {
     "slug": "space-avanti-trims-geo-exposure-with-hylas-3-sale",
@@ -4305,8 +4265,8 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781296996000,
-    "trend": "Stable",
-    "rank": 3
+    "trend": "Rising",
+    "rank": 2
   },
   {
     "slug": "space-astronomers-fear-orbital-data-centers-will-interfere-with-observations",
@@ -4346,7 +4306,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781293785000,
     "trend": "Stable",
-    "rank": 4
+    "rank": 3
   },
   {
     "slug": "space-conversations-in-the-sky-galileo-s-intersatellite-links-tested",
@@ -4386,7 +4346,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781246700000,
     "trend": "Stable",
-    "rank": 5
+    "rank": 4
   },
   {
     "slug": "space-aac-clyde-space-wins-esa-contract-to-complete-maritime-monitoring-constellation",
@@ -4426,7 +4386,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781222766000,
     "trend": "Stable",
-    "rank": 6
+    "rank": 5
   },
   {
     "slug": "ai-missile-production-push-runs-into-solid-rocket-motor-bottleneck",
@@ -4466,7 +4426,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781409600000,
     "trend": "Stable",
-    "rank": 7
+    "rank": 6
   },
   {
     "slug": "ai-revised-artemis-lunar-lander-plans-take-shape",
@@ -4506,7 +4466,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781371196000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 7
   },
   {
     "slug": "ai-chandra-resolves-ngc-6540-s-mysterious-x-ray-flare-into-three-separate-sources",
@@ -4546,7 +4506,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781359801000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 8
   },
   {
     "slug": "ai-spacex-five-key-moments-from-first-launch-to-starship-megarocket",
@@ -4586,7 +4546,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781345694000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 9
   },
   {
     "slug": "ai-meet-remora-the-autonomous-space-fleet-built-to-tag-and-track-asteroids",
@@ -4626,7 +4586,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781308801000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 10
   },
   {
     "slug": "ai-all-in-on-ai-at-astra",
@@ -4666,7 +4626,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781269200000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 11
   },
   {
     "slug": "ai-h3-successfully-returns-to-flight",
@@ -4706,7 +4666,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781266509000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 12
   },
   {
     "slug": "ai-in-aerospace-ai-isn-t-replacing-workers-it-s-filling-a-shortage",
@@ -4746,7 +4706,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781258400000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 13
   },
   {
     "slug": "space-nasa-award-boosts-space-technology-research-capabilities",
@@ -4786,7 +4746,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781212484000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 14
   },
   {
     "slug": "space-nasa-s-chandra-discovers-possible-supernova-remnant-in-galactic-center",
@@ -4826,7 +4786,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781210504000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 15
   },
   {
     "slug": "space-vandenberg-offers-new-launch-site-for-small-and-medium-rockets",
@@ -4866,7 +4826,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781207761000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 16
   },
   {
     "slug": "energy-fusion-reactors-could-be-monitored-for-covert-plutonium-production",
@@ -4906,7 +4866,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781370003000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 17
   },
   {
     "slug": "ai-crossword-power-play",
@@ -4946,7 +4906,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781280000000,
     "trend": "Stable",
-    "rank": 19
+    "rank": 18
   },
   {
     "slug": "space-south-african-telescope-detects-record-breaking-signal-from-the-early-universe",
@@ -4985,6 +4945,46 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781397001000,
+    "trend": "Stable",
+    "rank": 19
+  },
+  {
+    "slug": "ai-supercomputer-illuminates-subatomic-particle-that-helps-hold-matter-together",
+    "title": "Supercomputer illuminates subatomic particle that helps hold matter together",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-supercomputer-illuminates-subatomic-particle.html",
+    "summary": "A team of researchers has leveraged a supercomputer at the U.S. Department of Energy's (DOE) Argonne National Laboratory to reveal the internal structure of a pion in unprecedented detail. The findings are published in t…",
+    "scientificSignal": "A team of researchers has leveraged a supercomputer at the U.S. Department of Energy's (DOE) Argonne National Laboratory to reveal the internal structure of a pion in unprecedented detail. The findings are published in t…",
+    "implementationPotential": "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
+    "infrastructureImpact": "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
+    "technologyRoadmap": [
+      "Computational architecture",
+      "Hardware or model optimization",
+      "Platform deployment",
+      "Institutional and industrial adoption",
+      "Civilization-scale prediction capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Deployment into research and enterprise systems.",
+      "mid": "5–15 Years: Infrastructure-scale computational integration.",
+      "far": "15–30 Years: Civilization-scale prediction and coordination systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "Very High",
+      "timeHorizon": "3–10 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.3,
+      "engineering": 9.5,
+      "economic": 9.4,
+      "civilization": 9.3,
+      "overall": 9.1,
+      "classification": "Intelligence Infrastructure Signal"
+    },
+    "ts": 1781370002000,
     "trend": "Stable",
     "rank": 20
   }

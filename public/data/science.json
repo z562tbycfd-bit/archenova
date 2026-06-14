@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-14T09:39:17.142Z",
+  "updated": "2026-06-14T11:59:21.797Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Is 'gender gating' the secret to success in online dating?",
+      "url": "https://phys.org/news/2026-06-gender-gating-secret-success-online.html",
+      "summary": "Digital matching platforms—from professional networking to ride-sharing and accommodation services—add value by bringing supply and demand into balance. But deep-seated asymmetries can prove difficult to expunge, causing…",
+      "ts": 1781437514000
+    },
     {
       "source": "Phys.org",
       "title": "Unique chromium beam experiment unlocks cosmic ray origins and galactic chemistry",
@@ -692,13 +699,6 @@
       "source": "Nature",
       "title": "Gene ancestries reveal diverse microbial associations during eukaryogenesis",
       "url": "https://www.nature.com/articles/s41586-026-10639-9",
-      "summary": "",
-      "ts": 1781049600000
-    },
-    {
-      "source": "Nature",
-      "title": "Molecular glue degraders of HuR suppress BRAF-mutant colorectal cancer",
-      "url": "https://www.nature.com/articles/s41586-026-10613-5",
       "summary": "",
       "ts": 1781049600000
     }
