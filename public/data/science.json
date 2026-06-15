@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-06-15T06:27:39.821Z",
+  "updated": "2026-06-15T13:18:20.014Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Australia must tackle unemployment to reduce suicide rates",
+      "url": "https://phys.org/news/2026-06-australia-tackle-unemployment-suicide.html",
+      "summary": "More than 3,000 Australians die by suicide each year, yet one of the strongest known drivers of suicide risk—unemployment—remains largely overlooked in Australia's suicide prevention programs. Now, Adelaide University re…",
+      "ts": 1781528405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Think you'd never eat bugs? Research says you might—and you may even like it",
+      "url": "https://phys.org/news/2026-06-youd-bugs.html",
+      "summary": "People who are hesitant to try insect-based foods may enjoy the experience more than they expect—and can become more open to expanding their diets in the future, according to research published by the American Psychologi…",
+      "ts": 1781528403000
+    },
+    {
+      "source": "Science News",
+      "title": "Otherworldly music albums feature space weather data",
+      "url": "https://www.sciencenews.org/article/music-from-space-weather-data",
+      "summary": "A science-art team uses research data to make music featuring sounds of Antarctica and outer space",
+      "ts": 1781528400000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First Plain Language Summary of Publication in veterinary science",
+      "url": "https://phys.org/news/2026-06-plain-language-summary-veterinary-science.html",
+      "summary": "Taylor & Francis has announced the publication of the first Plain Language Summary of Publication (PLSP) in veterinary research, a milestone in making discoveries in animal health more accessible, engaging and impactful.…",
+      "ts": 1781524806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researcher explores how sacrifice shapes judgments",
+      "url": "https://phys.org/news/2026-06-explores-sacrifice-judgments.html",
+      "summary": "As global audiences follow ongoing conflicts, stories of personal sacrifice often stand out. New research from the Kelley School of Business shows that people across the United States consistently view self-sacrificial a…",
+      "ts": 1781521203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quasi-1D material unlocks electric control of charge waves beyond standard limits",
+      "url": "https://phys.org/news/2026-06-quasi-1d-material-electric-standard.html",
+      "summary": "The ability to control the movement of negatively charged particles (i.e., electrons) is central to the functioning of all modern electronic devices. This control is typically attained using a gate, an electrode via whic…",
+      "ts": 1781520001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change reshapes Spain's rockfall risk as frost weathering moves uphill",
+      "url": "https://phys.org/news/2026-06-climate-reshapes-spain-rockfall-frost.html",
+      "summary": "Climate change is altering where and when rocks are most likely to fracture across Spain, according to new research that suggests warming temperatures are redistributing a key process responsible for breaking down mounta…",
+      "ts": 1781516402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Some bees cannot escape rising heat, and their tiny homes make crisis even harder",
+      "url": "https://phys.org/news/2026-06-bees-tiny-homes-crisis-harder.html",
+      "summary": "Bee species that nest in plant stems appear to be at the greatest short-term risk from increasing temperatures due to climate change, while those that nest in the ground are better able to evade extreme heat, according t…",
+      "ts": 1781514007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Greek fishermen struggle to keep up with pufferfish invaders",
+      "url": "https://phys.org/news/2026-06-greek-fishermen-struggle-pufferfish-invaders.html",
+      "summary": "On his fishing boat moored in the Greek port of Ierapetra in southwestern Crete, Alexis Charlambakis pries open the mouth of a freshly caught pufferfish to reveal two massive teeth on each jaw.",
+      "ts": 1781509878000
+    },
     {
       "source": "arXiv Physics",
       "title": "Korzhinskii-Net: Physics-Informed Neural Network for Sub-Surface Mineral Prospectivity Modelling",
@@ -637,69 +700,6 @@
       "title": "Percolation of a rod-like particle in a static bed of spheres: trapping and passing",
       "url": "https://arxiv.org/abs/2606.14661",
       "summary": "arXiv:2606.14661v1 Announce Type: cross Abstract: We numerically investigate percolation of independent frictionless glued-sphere rod-like particles under gravity through a disordered static bed of larger spheres. We ide…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interfacial mass transfer resistance at fluid-fluid interfaces",
-      "url": "https://arxiv.org/abs/2606.14678",
-      "summary": "arXiv:2606.14678v1 Announce Type: cross Abstract: Complex chemistry in nano- and microscale compartments is often governed by how quickly reagents transit a fluid-fluid interface. Mass transport across interfaces is comm…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Implications of hierarchical Markov models of behavior: on irreversibility, predictability, and dimensionality",
-      "url": "https://arxiv.org/abs/2606.14692",
-      "summary": "arXiv:2606.14692v1 Announce Type: cross Abstract: The maturation of quantitative tools for studying the high-level structure of animal behavior, and especially tools which represent spontaneous behavior as a sequence of …",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Weak-to-Strong Coupling Transition Induced by Vertical-Symmetry Breaking for Leaky Resonances in Photonic Crystal Slabs",
-      "url": "https://arxiv.org/abs/1905.03868",
-      "summary": "arXiv:1905.03868v2 Announce Type: replace Abstract: Bound states in the continuum (BICs), exceptional points (EPs), and unidirectional guided resonances (UGRs) are key concepts in non-Hermitian and radiative photonics, e…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Arbitrary control over multimode wave propagation for machine learning",
-      "url": "https://arxiv.org/abs/2402.17750",
-      "summary": "arXiv:2402.17750v2 Announce Type: replace Abstract: Controlled multimode wave propagation can enable more space-efficient photonic processors than architectures based on discrete components connected by single-mode waveg…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simple and efficient computational strategies for calculating orbital energies and pair-orbital energies from pCCD-based methods",
-      "url": "https://arxiv.org/abs/2502.03098",
-      "summary": "arXiv:2502.03098v2 Announce Type: replace Abstract: We introduce affordable computational strategies for calculating orbital and pair-orbital energies in atomic and molecular systems. Our methods are based on the pair Co…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Semi-analytical eddy-viscosity and backscattering closures for 2D geophysical turbulence",
-      "url": "https://arxiv.org/abs/2504.09670",
-      "summary": "arXiv:2504.09670v3 Announce Type: replace Abstract: Physics-based eddy-viscosity and backscattering closures are widely used for large-eddy simulation (LES) of geophysical turbulence, but their key parameters are often c…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "${\\mu}$LHC: Antimuon Ring and HL-LHC based ${\\mu}^+p$ Collider",
-      "url": "https://arxiv.org/abs/2506.15445",
-      "summary": "arXiv:2506.15445v2 Announce Type: replace Abstract: Conceptual design and performance evaluation of HL-LHC based antimuon-proton collider (${\\mu}$LHC) are presented. Leveraging the ${\\mu}$TRISTAN concept based on establi…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Assessing (im)balance in signed brain networks",
-      "url": "https://arxiv.org/abs/2508.00542",
-      "summary": "arXiv:2508.00542v5 Announce Type: replace Abstract: Many complex systems - be they financial, natural, or social - are composed of units - such as stocks, neurons, or agents - whose joint activity can be represented as a…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Engineering Photoluminescence with Mie Voids",
-      "url": "https://arxiv.org/abs/2601.19420",
-      "summary": "arXiv:2601.19420v3 Announce Type: replace Abstract: Spontaneous emission, as a fundamental radiative process and a versatile information carrier, plays a vital role in light-emitting devices, optical information modulati…",
       "ts": 1781496000000
     }
   ],

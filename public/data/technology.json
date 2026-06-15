@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-06-15T06:27:46.909Z",
+  "updated": "2026-06-15T13:18:24.994Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "What’s the Best Way to Monetize Space Energy?",
+      "url": "https://spacenews.com/whats-the-best-way-to-monetize-space-energy/",
+      "summary": "By Marc Berte, Founder and CEO of Overview Energy AI is making energy valuable enough that we’re reconsidering where infrastructure should live. Space is increasingly where that conversation leads. Orbital […] The post W…",
+      "ts": 1781528776000,
+      "categoryId": "space"
+    },
+    {
+      "source": "IEEE Spectrum",
+      "title": "This 1976 University Experiment Spun Up the U.S. Wind Industry",
+      "url": "https://spectrum.ieee.org/william-heronemus-wind-energy",
+      "summary": "A half century ago, a scrappy crew at the University of Massachusetts Amherst erected a wind turbine on Orchard Hill, the highest point on campus. It was a frugal production, cobbled together from the rear axle of a Ford…",
+      "ts": 1781528401000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Sustained maneuver has a propulsion problem",
+      "url": "https://spacenews.com/sustained-maneuver-has-a-propulsion-problem/",
+      "summary": "For years, space architecture was treated mostly as a question of placement: where to put a spacecraft, and how reliably it could hold position. That framing is now too narrow. […] The post Sustained maneuver has a propu…",
+      "ts": 1781528400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: cutting AC emissions, and nature’s drug designer",
+      "url": "https://www.technologyreview.com/2026/06/15/1138948/the-download-solid-state-air-conditioning-animal-drugs/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These new solid-state ACs promise a cool future. Scientists aren’t so sure. After …",
+      "ts": 1781525400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Watch live: bigger booster, more powerful Ariane 6 launch ",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Watch_live_bigger_booster_more_powerful_Ariane_6_launch",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/ariane_6_with_four_p160c_boosters_during_separation_artist_impression/27327552-2-eng-GB/Ariane_6_with_four_P160C_boosters_during_separati…",
+      "ts": 1781525400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Pacific warming signals El Niño has stirred",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Pacific_warming_signals_El_Nino_has_stirred",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/el_nino_2026_begins/27327276-1-eng-GB/El_Nino_2026_begins_card_full.jpg\" alt=\"El Niño 2026 begins\">",
+      "ts": 1781523900000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "These new solid-state ACs promise a cool future. Scientists aren’t so sure.",
+      "url": "https://www.technologyreview.com/2026/06/15/1138552/solid-state-acs-promise-cool-future/",
+      "summary": "After three years of record-­breaking heat, this one is set to be yet another scorcher. Air-conditioning? Not going anywhere. The International Energy Agency projects that the number of AC units will triple by 2050. That…",
+      "ts": 1781514000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Pumice Rafts Encroach on Admiralty Islands",
+      "url": "https://science.nasa.gov/earth/earth-observatory/pumice-rafts-encroach-on-admiralty-islands/",
+      "summary": "Buoyant volcanic rock fragments from an underwater eruption drifted across the Bismarck Sea and choked island coasts.",
+      "ts": 1781496060000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv Quantum",
       "title": "Tantalum as a base material for superconducting integrated circuits",
@@ -655,70 +719,6 @@
       "title": "Extensible Fluxonium Architecture Using Tunable Couplers with Low Shunt Capacitance",
       "url": "https://arxiv.org/abs/2606.01647",
       "summary": "arXiv:2606.01647v2 Announce Type: replace Abstract: Fluxonium qubits have demonstrated high-fidelity operations and long coherence times in small-scale systems, highlighting their promise for quantum computing. However, …",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Nanostructure modelling with early fault tolerant quantum computers",
-      "url": "https://arxiv.org/abs/2606.06442",
-      "summary": "arXiv:2606.06442v2 Announce Type: replace Abstract: Semiconductor nanostructures are central to many developing technologies. Notably, double quantum dots are especially important for semiconductor spin-qubit architectur…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Logical error estimation from syndrome data of surface-code experiments",
-      "url": "https://arxiv.org/abs/2606.11496",
-      "summary": "arXiv:2606.11496v2 Announce Type: replace Abstract: Decoders for quantum error correction (QEC) experiments rely on detector error models (DEMs), which encode, for each error, its probability and the detectors and logica…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Interference of critical dynamics associated with zero modes",
-      "url": "https://arxiv.org/abs/2606.13200",
-      "summary": "arXiv:2606.13200v2 Announce Type: replace Abstract: We study the interference of critical dynamics associated with zero modes (ICDZM) in the generalized Creutz ladders using closed quench paths that pass through two crit…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Bandstructure of a coupled BEC-cavity system: effects of dissipation and geometry",
-      "url": "https://arxiv.org/abs/2504.17730",
-      "summary": "arXiv:2504.17730v2 Announce Type: replace-cross Abstract: We present a theoretical model for a transversally driven Bose-Einstein condensate coupled to an optical cavity. We focus on the interplay between different coher…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Synchronization of Quasi-Particle Excitations in a Quantum Gas with Cavity-Mediated Interactions",
-      "url": "https://arxiv.org/abs/2504.17731",
-      "summary": "arXiv:2504.17731v2 Announce Type: replace-cross Abstract: Driven-dissipative quantum systems can undergo transitions from stationary to dynamical phases, reflecting the emergence of collective non-equilibrium behavior. W…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Perturbative Input-Output Theory of Floquet Cavity Magnonics and Magnon Energy Shifts",
-      "url": "https://arxiv.org/abs/2512.12103",
-      "summary": "arXiv:2512.12103v2 Announce Type: replace-cross Abstract: We develop a perturbative input-output formalism to compute the reflectance and transmittance spectra of cavity magnonics systems subject to a Floquet modulation.…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Emission of time-ordered photon pairs from a coherently-driven Kerr microcavity",
-      "url": "https://arxiv.org/abs/2601.06468",
-      "summary": "arXiv:2601.06468v2 Announce Type: replace-cross Abstract: Weakly-interacting many-body systems possess remarkable quantum properties that are essential components of quantum technologies, and constitute a topic of fundam…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Efimov Effect in Ultracold Microwave-Shielded Polar Molecules",
-      "url": "https://arxiv.org/abs/2602.21433",
-      "summary": "arXiv:2602.21433v2 Announce Type: replace-cross Abstract: A quantum-mechanical description is presented for the three-body physics of shielded dipolar molecules, including a prediction of observable Efimov physics. Despi…",
       "ts": 1781496000000,
       "categoryId": "quantum"
     }
