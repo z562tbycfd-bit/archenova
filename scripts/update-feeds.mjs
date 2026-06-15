@@ -42,203 +42,247 @@ function ts(item) {
   return Number.isFinite(n) ? n : 0;
 }
 
-const SCIENCE_SOURCES = [
+const SIGNAL_CATEGORIES = [
   {
-    id: "science",
-    name: "Science",
-    url: "https://www.sciencemag.org/rss/news_current.xml",
+    id: "nature-news",
+    name: "Nature News",
+    url: "https://www.nature.com/nature/articles?type=news&format=rss",
   },
+
+  {
+    id: "nature-research",
+    name: "Nature Research Highlights",
+    url: "https://www.nature.com/subjects/research-data/rss",
+  },
+
   {
     id: "aps",
-    name: "APS / PRL",
+    name: "APS Physical Review Letters",
     url: "https://feeds.aps.org/rss/recent/prl.xml",
   },
+
   {
     id: "arxiv-physics",
     name: "arXiv Physics",
     url: "https://rss.arxiv.org/rss/physics",
   },
+
   {
     id: "arxiv-ai",
     name: "arXiv AI",
     url: "https://rss.arxiv.org/rss/cs.AI",
   },
+
+  {
+    id: "arxiv-quant",
+    name: "arXiv Quantum",
+    url: "https://rss.arxiv.org/rss/quant-ph",
+  },
+
   {
     id: "science-news",
     name: "Science News",
     url: "https://www.sciencenews.org/feed",
   },
+
   {
     id: "physorg",
     name: "Phys.org",
     url: "https://phys.org/rss-feed/",
   },
-  {
-    id: "nature",
-    name: "Nature",
-    url: "https://www.nature.com/nature.rss",
-  },
-  {
-    id: "j.am.chem.soc",
-    name: "Journal of the American Chemical Society",
-    url: "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat",
-  },
-  {
-    id: "mit nanotech",
-    name: "MIT Nanotechnology",
-    url: "https://news.mit.edu/rss/topic/nanotechnology2",
-  },
-];
 
-const TECHNOLOGY_CATEGORIES = [
   {
-     id: "policy",
-  name: "Policy",
-  sources: [
-    { id: "nist", 
-      name: "NIST", 
-      url: "https://www.nist.gov/news-events/news/rss.xml" },
-    { id: "sciencegov", 
-      name: "Science.gov", 
-      url: "https://www.science.gov/rss/news.xml" },
-    { id: "ieee", 
-      name: "IEEE Spectrum", 
-      url: "https://spectrum.ieee.org/rss/fulltext" },
-  ],
-},
-  {
-    id: "ai-compute",
-    name: "AI・Compute",
-    sources: [
-      { id: "mittr", 
-        name: "MIT Technology Review", 
-        url: "https://www.technologyreview.com/feed/" },
-      { id: "openai", 
-        name: "OpenAI", 
-        url: "https://openai.com/blog/rss.xml" },
-      { id: "deepmind", 
-        name: "DeepMind", 
-        url: "https://www.deepmind.com/blog/feed/basic/" },
-    ],
+    id: "quanta",
+    name: "Quanta Magazine",
+    url: "https://www.quantamagazine.org/feed/",
   },
+
   {
-    id: "semiconductor",
-    name: "Semiconductor",
-    sources: [
-      { id: "nvidia", 
-        name: "NVIDIA", 
-        url: "https://nvidianews.nvidia.com/rss.xml" },
-      { id: "intel", 
-        name: "Intel", 
-        url: "https://www.intel.com/content/www/us/en/rss-feed.xml" },
-    ],
+    id: "santa-fe",
+    name: "Santa Fe Institute",
+    url: "https://www.santafe.edu/news-center/news/rss.xml",
   },
-  {
-  id: "quantum",
-  name: "Quantum",
-  sources: [
     {
-      id: "quanta",
-      name: "Quanta",
-      url: "https://www.quantamagazine.org/feed/",
+      id: "openai",
+      name: "OpenAI",
+      url: "https://openai.com/news/rss.xml",
+    },
+
+    {
+      id: "anthropic",
+      name: "Anthropic",
+      url: "https://www.anthropic.com/news",
+    },
+
+    {
+      id: "google-deepmind",
+      name: "Google DeepMind",
+      url: "https://deepmind.google/discover/blog/rss.xml",
+    },
+
+    {
+      id: "mittr",
+      name: "MIT Technology Review",
+      url: "https://www.technologyreview.com/feed/",
+    },
+
+    {
+      id: "semianalysis",
+      name: "SemiAnalysis",
+      url: "https://semianalysis.com/feed/",
     },
     {
-      id: "aps-quantum",
-      name: "APS",
-      url: "https://feeds.aps.org/rss/recent/prl.xml",
+      id: "nvidia",
+      name: "NVIDIA",
+      url: "https://blogs.nvidia.com/feed/",
     },
+
     {
-      id: "arxiv-quant",
-      name: "arXiv Quantum",
-      url: "https://rss.arxiv.org/rss/quant-ph",
+      id: "tsmc",
+      name: "TSMC",
+      url: "https://www.tsmc.com/english/news-events/rss",
     },
+
     {
-      id: "ibm-quantum",
-      name: "IBM Quantum",
-      url: "https://research.ibm.com/blog/rss",
+      id: "asml",
+      name: "ASML",
+      url: "https://www.asml.com/en/news/rss",
     },
-  ],
-},
-  {
-     id: "energy",
+
+    {
+      id: "imec",
+      name: "imec",
+      url: "https://www.imec-int.com/en/rss.xml",
+    },
+{
+  id: "energy",
   name: "Energy",
   sources: [
-    { id: "doe", 
-      name: "US DOE", 
-      url: "https://www.energy.gov/rss/science/3662436" },
-    { id: "doe-news", 
-      name: "US DOE News", 
-      url: "https://www.energy.gov/rss/news.xml" },
-  ],
-},
-  {
-  id: "space",
-  name: "Space",
-  sources: [
+    {
+      id: "iea",
+      name: "International Energy Agency",
+      url: "https://www.iea.org/news/rss",
+    },
+
+    {
+      id: "nrel",
+      name: "NREL",
+      url: "https://www.nrel.gov/news/program.rss",
+    },
+
+    {
+      id: "doe-science",
+      name: "DOE Office of Science",
+      url: "https://science.osti.gov/rss-feeds",
+    },
     {
       id: "nasa",
       name: "NASA",
       url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
     },
-    {
-      id: "nasa-image",
-      name: "NASA Image of the Day",
-      url: "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss",
-    },
+
     {
       id: "esa",
       name: "ESA",
       url: "https://www.esa.int/rssfeed/TopNews",
     },
-    {
-      id: "esa-tech",
-      name: "ESA Technology",
-      url: "https://www.esa.int/rssfeed/Enabling_Support/Space_Engineering_Technology",
-    },
+
     {
       id: "spacenews",
       name: "SpaceNews",
       url: "https://spacenews.com/feed/",
     },
-  ],
-},
-  {
-  id: "bio",
-  name: "Bio",
-  sources: [
+
+    {
+      id: "arstechnica-space",
+      name: "Ars Technica Space",
+      url: "https://feeds.arstechnica.com/arstechnica/space",
+    },
     {
       id: "cell",
       name: "Cell",
       url: "https://www.cell.com/cell/current.rss",
     },
-    {
-      id: "nature-biotech",
-      name: "Nature Biotechnology",
-      url: "https://www.nature.com/nbt.rss",
-    },
+
     {
       id: "nature-medicine",
       name: "Nature Medicine",
       url: "https://www.nature.com/nm.rss",
     },
+
     {
-      id: "nih",
-      name: "NIH",
-      url: "https://www.nih.gov/news-events/news-releases/feed",
+      id: "stat",
+      name: "STAT",
+      url: "https://www.statnews.com/feed/",
     },
+
     {
-      id: "genomeweb",
-      name: "GenomeWeb",
-      url: "http://www.genomeweb.com/rss.xml",
+      id: "genengnews",
+      name: "Genetic Engineering News",
+      url: "https://www.genengnews.com/feed/",
     },
+
     {
       id: "arxiv-qbio",
       name: "arXiv q-bio",
       url: "https://rss.arxiv.org/rss/q-bio",
     },
-  ],
-},
-];
+    {
+      id: "a16z",
+      name: "Andreessen Horowitz",
+      url: "https://a16z.com/feed/",
+    },
+
+    {
+      id: "sequoia",
+      name: "Sequoia Capital",
+      url: "https://www.sequoiacap.com/feed/",
+    },
+
+    {
+      id: "ycombinator",
+      name: "Y Combinator",
+      url: "https://www.ycombinator.com/blog/rss",
+    },
+    {
+      id: "oecd",
+      name: "OECD",
+      url: "https://www.oecd.org/newsroom/rss.xml",
+    },
+
+    {
+      id: "world-bank",
+      name: "World Bank",
+      url: "https://www.worldbank.org/en/news/all?format=rss",
+    },
+
+    {
+      id: "imf",
+      name: "IMF",
+      url: "https://www.imf.org/en/News/rss",
+    },
+
+    {
+      id: "long-now",
+      name: "Long Now Foundation",
+      url: "https://longnow.org/ideas/feed/",
+    },
+
+    {
+      id: "rand",
+      name: "RAND",
+      url: "https://www.rand.org/topics/artificial-intelligence.rss",
+    },
+
+    {
+      id: "santa-fe",
+      name: "Santa Fe Institute",
+      url: "https://www.santafe.edu/news-center/news/rss.xml",
+      },
+      ],
+    },
+  ];
+
 
 async function fetchFeed(source, categoryId = undefined) {
   try {
