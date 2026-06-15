@@ -1193,3 +1193,6 @@ const technologyItems = await buildTechnology();
 
 writeGeneratedResearchReports(scienceItems, technologyItems);
 writeArcheNovaSignals(scienceItems, technologyItems);
+
+console.log("Feed update completed");
+process.exit(0);
