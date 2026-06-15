@@ -1,7 +1,98 @@
 {
   "ok": true,
-  "updated": "2026-06-15T21:45:40.750Z",
+  "updated": "2026-06-15T23:48:15.411Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Brazil catchment models reveal opposite climate impacts on Amazon and Cerrado soils",
+      "url": "https://phys.org/news/2026-06-brazil-catchment-reveal-climate-impacts.html",
+      "summary": "A comparative modeling study of two Brazilian rain catchments suggests that climate change will have contrasting effects on future soil erosion in the Amazon and Cerrado. The findings have implications for land managemen…",
+      "ts": 1781566804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How plants rush energy to injured tissues to help them heal",
+      "url": "https://phys.org/news/2026-06-energy-tissues.html",
+      "summary": "A new study finds that plants respond to injury by actively redirecting sugars to damaged tissues, helping fuel the regeneration process. Using a fluorescent sensor to track sugar movement in living plants, researchers h…",
+      "ts": 1781566801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bacteria reveal 'glue' protein that fastens antibiotic-resistant outer membrane to cell wall",
+      "url": "https://phys.org/news/2026-06-bacteria-reveal-protein-antibiotic-resistant.html",
+      "summary": "Researchers at the University of Notre Dame and collaborators have discovered a key process in how the outer membrane of gram-negative bacteria attaches to the cell wall, advancing the understanding of how these bacteria…",
+      "ts": 1781565604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate compensation isn't always enough for landowners",
+      "url": "https://phys.org/news/2026-06-climate-compensation-isnt-landowners.html",
+      "summary": "At first glance, it looks like a simple calculation. The state offers compensation. The climate demands action. Low-lying soils must be restored as wetlands. Yet landowners hesitate. According to anthropologist and Ph.D.…",
+      "ts": 1781565601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What early modern literature can teach us about neurodivergence",
+      "url": "https://phys.org/news/2026-06-early-modern-literature-neurodivergence.html",
+      "summary": "Does it seem as though more people are coming out as neurodivergent these days?",
+      "ts": 1781564410000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Digital tools reveal hidden extinctions as AI reshapes global conservation",
+      "url": "https://phys.org/news/2026-06-digital-tools-reveal-hidden-extinctions.html",
+      "summary": "In a seismic shift since Kew's inaugural State of the World report 10 years ago, the sixth State of the World's Plants and Fungi report, published June 16, 2026, brings together expertise from more than 400 scientists ac…",
+      "ts": 1781564407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New imaging technique measures single scramblase proteins, revealing lipid transport rates",
+      "url": "https://phys.org/news/2026-06-imaging-technique-scramblase-proteins-revealing.html",
+      "summary": "A new single-protein analysis technique gives researchers an unprecedented ability to study proteins called scramblases, which have critical roles in biology. The development of the new technique, in a study led by inves…",
+      "ts": 1781563206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "International surrogates recruited on social media face emotional control in Georgia's booming childbirth market",
+      "url": "https://phys.org/news/2026-06-international-surrogates-social-media-emotional.html",
+      "summary": "Since 2022, Georgia's surrogacy industry has boomed, with oversubscribed clinics now recruiting women from across Central Asia via Instagram and TikTok. New research conducted at the University of Oxford's Centre on Migr…",
+      "ts": 1781563202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beyond frozen snapshots, protein 'breathing' comes into view with combined imaging methods",
+      "url": "https://phys.org/news/2026-06-frozen-snapshots-protein-view-combined.html",
+      "summary": "Advances in structural biology have allowed scientists to determine molecular structures with atomic-level detail, sometimes yielding static snapshots that do not reflect the dynamism of proteins. However, these motions …",
+      "ts": 1781562008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI schools like Alpha promise efficiency, but can't replicate the messy process that helps kids learn",
+      "url": "https://phys.org/news/2026-06-ai-schools-alpha-efficiency-replicate.html",
+      "summary": "A child at a playground tries to climb, jump or negotiate with a peer, and the attempt does not work. They fall, get left out of a game or reach another impasse. Then they try again.",
+      "ts": 1781562001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Only 10 viral particles cause H5N1 avian flu infection in cows",
+      "url": "https://phys.org/news/2026-06-viral-particles-h5n1-avian-flu.html",
+      "summary": "Just 10 viral particles of the H5N1 bird flu that caused hundreds of influenza outbreaks in U.S. dairy cattle can cause infection in cows, a new study shows. The research also hints at why the outbreaks have confounded s…",
+      "ts": 1781560803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The 'right to repair' movement has a point, but consumers should read the warranty fine print first",
+      "url": "https://phys.org/news/2026-06-movement-consumers-warranty-fine.html",
+      "summary": "The \"right to repair\" movement is gaining steam as consumers push corporations to offer them more freedom to fix products—from cars to dishwashers to toys.",
+      "ts": 1781560801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plants reveal backup system for sensing and adapting to rising temperatures",
+      "url": "https://phys.org/news/2026-06-reveal-backup-temperatures.html",
+      "summary": "University of Mississippi researchers are studying how plants respond to heat at the molecular level, an important consideration for farmers, businesses and policymakers as global temperatures rise.",
+      "ts": 1781560201000
+    },
     {
       "source": "Phys.org",
       "title": "A star's death throes involve a lot of kicking",
@@ -609,97 +700,6 @@
       "title": "Analysis of a compact interferometric imager",
       "url": "https://arxiv.org/abs/2606.14224",
       "summary": "arXiv:2606.14224v1 Announce Type: new Abstract: The advent of photonic integrated circuits (PICs) will allow the replacement of the large aperture of an optical telescope by a dense array of small apertures combined inte…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of alignments between fluctuating and mean density gradients on the scale-dependent energetics of stably stratified turbulence",
-      "url": "https://arxiv.org/abs/2606.14227",
-      "summary": "arXiv:2606.14227v1 Announce Type: new Abstract: Non-trivial alignments between vorticity and the strain-rate tensor play an important role in the evolution of velocity gradients and the energy cascade in isotropic turbul…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Free-Molecular Face-Flux Preprocessing for Reduced Neutral-Continuity Modeling in Hall Thrusters: Particle-Based Reference and Deterministic SN-DFEM Realization",
-      "url": "https://arxiv.org/abs/2606.14242",
-      "summary": "arXiv:2606.14242v1 Announce Type: new Abstract: Neutral gas transport directly affects the ionization source, propellant utilization, and low-frequency discharge oscillations in Hall thrusters. High-fidelity particle-bas…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Large Language Model Based Agent for Automated Discovery in Computational Physics",
-      "url": "https://arxiv.org/abs/2606.14266",
-      "summary": "arXiv:2606.14266v1 Announce Type: new Abstract: Scientific discovery in computational physics can often be framed as the optimization of quantitatively evaluable objectives subject to physical constraints. While research…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Microscaled Tunable Magnonic RF Phase Shifters",
-      "url": "https://arxiv.org/abs/2606.14280",
-      "summary": "arXiv:2606.14280v1 Announce Type: new Abstract: Tunable, microscopic, and energy-efficient solutions for radio-frequency (RF) signal manipulation in the GHz regime are a key technology for efficient communication and sen…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Good, the Bad, and the Ugly -- Living with Priors in Bayesian confirmation",
-      "url": "https://arxiv.org/abs/2606.14281",
-      "summary": "arXiv:2606.14281v1 Announce Type: new Abstract: Bayesian confirmation faces a classic problem: where do initial priors come from? In cases with abundant data and repeated updating, different priors tend to converge to th…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Surface-tension calibration for N-phase mixtures",
-      "url": "https://arxiv.org/abs/2606.14287",
-      "summary": "arXiv:2606.14287v1 Announce Type: new Abstract: Diffuse-interface (phase-field) models are a widely used framework for interfacial dynamics in complex fluids, in which sharp interfaces are replaced by smooth transition l…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hybrid Dynamics of Rocking Blocks Beyond Overturning: Saltation Analysis, Bifurcations, and Stability Characterization",
-      "url": "https://arxiv.org/abs/2606.14288",
-      "summary": "arXiv:2606.14288v1 Announce Type: new Abstract: This work investigates how restitution modeling affects the dynamics of rocking blocks subjected to harmonic excitation. While several studies have reported discrepancies b…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Compact Photonic Fibre-based Deformation Sensor Fabricated by Two-Photon Polymerization",
-      "url": "https://arxiv.org/abs/2606.14298",
-      "summary": "arXiv:2606.14298v1 Announce Type: new Abstract: We have demonstrated that compact deformation sensors with heights and widths of about 100 micrometers can be fabricated by two-photon polymerization, using commercially av…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PIConGPU modeling of nanoplasma formation in helium nanodroplets irradiated by intense femtosecond laser pulses",
-      "url": "https://arxiv.org/abs/2606.14300",
-      "summary": "arXiv:2606.14300v1 Announce Type: new Abstract: Helium nanodroplets provide a unique and versatile platform for investigating strong-field-driven nanoplasma dynamics. In this work, we present large-scale, GPU-accelerated…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "iGLU 5.0: A Novel, Non-invasive and Intelligent HbA1c Measurement Device using Glucose values and Physiological Parameter for Smart Healthcare",
-      "url": "https://arxiv.org/abs/2606.14326",
-      "summary": "arXiv:2606.14326v1 Announce Type: new Abstract: The laboratory test process of HbA1c measurement is a time-consuming and invasive method. The HbA1c parameter is the most important feature to predict the level of diabetes…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermal feedback as a kinetic control mechanism in reaction-diffusion pattern formation",
-      "url": "https://arxiv.org/abs/2606.14330",
-      "summary": "arXiv:2606.14330v1 Announce Type: new Abstract: Pattern formation in reaction-diffusion systems is traditionally analyzed under isothermal assumptions, overlooking the dynamical role of temperature in systems where react…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wealth Inequality and Planetary Boundaries in a Stylized Agent-Based Model",
-      "url": "https://arxiv.org/abs/2606.14331",
-      "summary": "arXiv:2606.14331v1 Announce Type: new Abstract: At the intersection of rising wealth inequality and intensifying environmental pressures, we investigate a reverse causal relationship that has received comparatively littl…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flow behind the Imperial Front Wing: comparison of results from volumetric PTV experiment and Nektar++ simulations",
-      "url": "https://arxiv.org/abs/2606.14342",
-      "summary": "arXiv:2606.14342v1 Announce Type: new Abstract: High-fidelity simulations are increasingly adopted, due to advances in computational power and methods such as Direct Numerical Simulation (DNS) and hybrid Large-Eddy Simul…",
       "ts": 1781496000000
     }
   ],
