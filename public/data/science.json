@@ -1,7 +1,168 @@
 {
   "ok": true,
-  "updated": "2026-06-15T18:31:15.611Z",
+  "updated": "2026-06-15T21:45:40.750Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A star's death throes involve a lot of kicking",
+      "url": "https://phys.org/news/2026-06-star-death-throes-involve-lot.html",
+      "summary": "When stars like our sun age, they puff up into red giants. Their bubbling outer mass gradually escapes into space, and their remaining cores contract into white dwarfs. Since most stars end their lives this way, the univ…",
+      "ts": 1781559605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global uncertainty is the new normal. Here's why institutional legitimacy and resilience are crucial",
+      "url": "https://phys.org/news/2026-06-global-uncertainty-legitimacy-resilience-crucial.html",
+      "summary": "The world has never had more data, more models or more economists. It has rarely felt more out of control. Uncertainty, not risk, has become the defining condition of our era. Central bankers invoke it. Political leaders…",
+      "ts": 1781559603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Abstract algebra unlocks distinguishable states for quantum systems",
+      "url": "https://phys.org/news/2026-06-abstract-algebra-distinguishable-states-quantum.html",
+      "summary": "Researchers around the world are racing to develop new quantum-based systems for sensing, communication, computing and control that have the promise of outperforming traditional systems. Creating stable, measurable, dist…",
+      "ts": 1781559004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chandra reveals flickering supernova remnants in M83 over 14 years",
+      "url": "https://phys.org/news/2026-06-chandra-reveals-flickering-supernova-remnants.html",
+      "summary": "The aftermath of a supernova, a stellar explosion, is usually a slowly fading cloud of hot gas. So when astronomers pointed NASA's Chandra X-ray Observatory at the nearby galaxy Messier 83 (M83), they did not expect to f…",
+      "ts": 1781558407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Digital platforms are making it more difficult to focus, read and even engage in democracy",
+      "url": "https://phys.org/news/2026-06-digital-platforms-difficult-focus-engage.html",
+      "summary": "Oxford's 2024 Word of the Year, \"brain rot,\" refers to the loss of intelligence or critical thinking skills due to the overconsumption of specific types of content, most often in the digital sphere. A Binghamton Universi…",
+      "ts": 1781558401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thermochemical mantle plume identified as the likely origin of Earth's largest oceanic plateau",
+      "url": "https://phys.org/news/2026-06-thermochemical-mantle-plume-earth-largest.html",
+      "summary": "The Ontong Java Plateau in the western Pacific Ocean is the largest oceanic plateau on Earth, and its formation mechanism has not been well understood.",
+      "ts": 1781557206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Feeling poorer than peers linked to lower well-being, even when incomes are similar",
+      "url": "https://phys.org/news/2026-06-poorer-peers-linked-incomes-similar.html",
+      "summary": "New research is shedding light on how comparing ourselves to others affects happiness and life satisfaction. Led by McGill University researchers, the study shows that people who feel worse off financially than their pee…",
+      "ts": 1781557204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Modern human skeletal biology needs to move beyond the strict male/female binary, scientists argue",
+      "url": "https://phys.org/news/2026-06-modern-human-skeletal-biology-strict.html",
+      "summary": "Human skeletal biologists traditionally provide sex estimations as part of establishing biological profiles (skeletal sex, age-at-death, stature, ancestry/population affinity) for skeletonized remains, often using the sh…",
+      "ts": 1781556010000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deep Earth model traces 270 million years of seamount formation across oceans",
+      "url": "https://phys.org/news/2026-06-deep-earth-million-years-seamount.html",
+      "summary": "Over 40,000 seamounts—undersea mountains that don't breach the ocean's surface—are scattered across the ocean floor. Some form linear chains, while others occur as dispersed, isolated features that are not part of well-d…",
+      "ts": 1781556001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Onboarding support helps merchants adopt digital payment methods",
+      "url": "https://phys.org/news/2026-06-onboarding-merchants-digital-payment-methods.html",
+      "summary": "Change can be hard—especially when you're used to receiving change. Switching from cash-based to digital payment methods can be a difficult sell, particularly in developing economies, poorer neighborhoods and among older…",
+      "ts": 1781554803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Benzene reaction may explain how DNA and RNA building blocks formed on early Earth",
+      "url": "https://phys.org/news/2026-06-benzene-reaction-dna-rna-blocks.html",
+      "summary": "Caltech researchers have identified a novel chemical reaction that could explain the formation of the building blocks of DNA and RNA, the molecules that encode all of life's functions. The work is an important step towar…",
+      "ts": 1781554801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why Arctic sea ice loss could reshape the Gulf Stream's future",
+      "url": "https://phys.org/news/2026-06-arctic-sea-ice-loss-reshape.html",
+      "summary": "The warm Gulf Stream is maintained by coldness. The Barents Sea is a cooling machine. To predict how ocean currents in the Atlantic Ocean may develop, one needs to know what drives them. The hunt for driving forces has l…",
+      "ts": 1781553610000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Being your own boss doesn't always pay off: What 30 years of data reveal",
+      "url": "https://phys.org/news/2026-06-boss-doesnt-pay-years-reveal.html",
+      "summary": "More than 2.6 million Canadians work for themselves, and according to an annual RBC poll conducted in 2025, 59% of Canadians aspire to own a business—the highest level since 2017.",
+      "ts": 1781553604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Earthquakes can be destructive for distant cities built on top of basins—now we know why",
+      "url": "https://phys.org/news/2026-06-earthquakes-destructive-distant-cities-built.html",
+      "summary": "Sedimentary basins—depressions in Earth's crust caused by tectonic activity—tend to be flat and are favored places to build cities. But during earthquakes, they can become natural resonance chambers.",
+      "ts": 1781552403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deep-sea crust uncovers steady plutonium rain from ancient kilonova debris",
+      "url": "https://phys.org/news/2026-06-deep-sea-crust-uncovers-steady.html",
+      "summary": "Debris is still raining down on Earth more than 100 million years after the giant cosmic explosion that created it. A study published this week in Nature Astronomy by an international team reached this conclusion using m…",
+      "ts": 1781552401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A waltz over evolutionary timescales: Why it's so hard for animals to invent a new mating dance",
+      "url": "https://phys.org/news/2026-06-waltz-evolutionary-timescales-hard-animals.html",
+      "summary": "\"Love makes fools of all of us,\" wrote 19th-century novelist William Makepeace Thackeray. A moment spent watching the pigeons at your local park suggests he was right: males with puffed-up, shimmering necks hop, pirouett…",
+      "ts": 1781551205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Do shark culls keep people safe in the ocean? Here's what the science says",
+      "url": "https://phys.org/news/2026-06-shark-culls-people-safe-ocean.html",
+      "summary": "A young mother remains in hospital after being bitten by a shark at Coogee Beach in Sydney on Saturday morning. Leah Stewart, 35, was swimming about 30 meters (33 yards) offshore when the shark—believed to be a 3- to 4-m…",
+      "ts": 1781551202000
+    },
+    {
+      "source": "Science News",
+      "title": "The North Atlantic’s ‘cold blob’ may signal a major current’s decline",
+      "url": "https://www.sciencenews.org/article/cold-blob-may-signal-current-decline",
+      "summary": "A cold blob of water in the North Atlantic points to a weakening of the Atlantic Meridional Overturning Circulation, researchers report.",
+      "ts": 1781551009000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Redefined conformity model beats averaging in five real-world tests of opinion dynamics",
+      "url": "https://phys.org/news/2026-06-redefined-conformity-averaging-real-world.html",
+      "summary": "Imagine you poll your friends on how many minutes per pound to roast a turkey. Five respond with 15 minutes; one answers 33 minutes. The most popular model of conformity, the French-Harary-DeGroot model (or more commonly…",
+      "ts": 1781550009000
+    },
+    {
+      "source": "Phys.org",
+      "title": "As AI plays a bigger role in relationships, true intimacy is getting lost",
+      "url": "https://phys.org/news/2026-06-ai-plays-bigger-role-relationships.html",
+      "summary": "The CEO of dating app Hinge recently suggested that generation Z, \"struggling to have the confidence to put themselves out there,\" needs AI to help them find love. Apparently, without AI tools, younger people will strugg…",
+      "ts": 1781550005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Predators on the move may link the evolution of species thousands of kilometers apart",
+      "url": "https://phys.org/news/2026-06-predators-link-evolution-species-thousands.html",
+      "summary": "Can a snake in Thailand influence the evolution of a snake in the Philippines even if the two species never cross paths? According to a new study, the answer may be yes. The research suggests that migratory predators can…",
+      "ts": 1781550003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "El Niño is back, and ocean temperatures are already near record highs—that can spell disaster for fish and corals",
+      "url": "https://phys.org/news/2026-06-el-nio-ocean-temperatures-highs.html",
+      "summary": "It's official: El Niño is back. By late fall 2026, forecast models give a 2-in-3 chance of a strong-to-very-strong El Niño affecting the weather, climate and ocean temperatures across the planet.",
+      "ts": 1781548803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lithium spike reveals sun-like star likely swallowed its planet",
+      "url": "https://phys.org/news/2026-06-lithium-spike-reveals-sun-star.html",
+      "summary": "A team of astronomers, led by Brooke Kotten of the University of Michigan, has shown that TOI-5882—a sunlike star located some 1,300 light-years away—has likely eaten one of its planets.",
+      "ts": 1781548802000
+    },
     {
       "source": "Phys.org",
       "title": "New hybrid materials separate rare earths without harsh chemicals",
@@ -539,167 +700,6 @@
       "title": "Flow behind the Imperial Front Wing: comparison of results from volumetric PTV experiment and Nektar++ simulations",
       "url": "https://arxiv.org/abs/2606.14342",
       "summary": "arXiv:2606.14342v1 Announce Type: new Abstract: High-fidelity simulations are increasingly adopted, due to advances in computational power and methods such as Direct Numerical Simulation (DNS) and hybrid Large-Eddy Simul…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chirally-sensitive optical rectification by isotropic chiral media",
-      "url": "https://arxiv.org/abs/2606.14343",
-      "summary": "arXiv:2606.14343v1 Announce Type: new Abstract: Chiroptical sensing is central to gain fundamental insight into electronic, vibrational and rotational degrees of freedom of chiral molecules, and is a cornerstone for nano…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Detecting Historical Turning Points in Italian Media: A Complex Systems Approach to a Diachronic News Corpus",
-      "url": "https://arxiv.org/abs/2606.14348",
-      "summary": "arXiv:2606.14348v1 Announce Type: new Abstract: The increasing availability of large-scale textual corpora has opened new possibilities for data-driven, quantitative approaches to historical analysis using Natural Langua…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measuring qualitative change: A variational score for tracking dynamical shifts in partial differential equations",
-      "url": "https://arxiv.org/abs/2606.14430",
-      "summary": "arXiv:2606.14430v1 Announce Type: new Abstract: Partial differential equations (PDEs) regulate the behaviour of countless spatiotemporal systems in the physical and life sciences. In many cases, they encode the coupling …",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma Instabilities in Arbitrary Distributions: Comparison between ALPS and BO",
-      "url": "https://arxiv.org/abs/2606.14439",
-      "summary": "arXiv:2606.14439v1 Announce Type: new Abstract: Determining accurate wave dispersion relations is a central problem in plasma physics. Recent advances have enabled the numerical computation of linear dispersion relation …",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measurement-limited learning of conformational heterogeneity in cryo-electron microscopy",
-      "url": "https://arxiv.org/abs/2606.14449",
-      "summary": "arXiv:2606.14449v1 Announce Type: new Abstract: Cryogenic electron microscopy images sample individual biomolecules from their conformational landscapes, offering a route to infer the distributions underlying molecular m…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Seeding and Matching algorithms for the first GPU-based High Level Trigger of the LHCb experiment",
-      "url": "https://arxiv.org/abs/2606.14480",
-      "summary": "arXiv:2606.14480v1 Announce Type: new Abstract: We describe the GPU implementation of the Seeding and Matching algorithms, developed for the first level trigger of the LHCb experiment and key to reconstruct long and very…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical Methods for Determining Turbulence in Supercontinuum Generation",
-      "url": "https://arxiv.org/abs/2606.14482",
-      "summary": "arXiv:2606.14482v1 Announce Type: new Abstract: Distinguishing coherent, turbulent, and chaotic operating regimes in supercontinuum generation is important for understanding nonlinear optical dynamics and optimizing broa…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultra-broadband Anti-Jamming Communication via a Rydberg Atomic Receiver",
-      "url": "https://arxiv.org/abs/2606.14497",
-      "summary": "arXiv:2606.14497v1 Announce Type: new Abstract: Ultra-broadband anti-jamming communication represents a promising approach to secure and robust information transfer through spread-spectrum techniques, effectively combatt…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Fixed-Point Neural Operator for Size- and Functional-Transferable Hamiltonian Prediction",
-      "url": "https://arxiv.org/abs/2606.14498",
-      "summary": "arXiv:2606.14498v1 Announce Type: new Abstract: Predicting the Kohn-Sham Hamiltonian with machine learning can accelerate density functional theory while retaining access to molecular orbitals, energy levels, and electro…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wind vector retrieval from miniaturized wave-enabled sea-surface drifters",
-      "url": "https://arxiv.org/abs/2606.14520",
-      "summary": "arXiv:2606.14520v1 Announce Type: new Abstract: The open ocean lacks systematic in situ wind observations, and satellite scatterometer calibration depends on collocated surface measurements largely absent away from coast…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extreme-ultraviolet optical response of atomically-thin molybdenum disulfide",
-      "url": "https://arxiv.org/abs/2606.14527",
-      "summary": "arXiv:2606.14527v1 Announce Type: new Abstract: We report multi-angle reflectivity measurements in the extreme-ultraviolet (XUV) range for mono- and bilayer MoS$_2$ on a Si$_3$N$_4$ substrate. Using a single-sheet 2D con…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling inhomogeneous spatial point configurations with applications to replicated patterns in waiting crowds",
-      "url": "https://arxiv.org/abs/2606.14532",
-      "summary": "arXiv:2606.14532v1 Announce Type: new Abstract: In this article, we connect statistical inference for spatial point processes with the analysis of waiting pedestrian crowds through two interconnected contributions. First…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collective Bubble Nucleation: Scale-Separated Hydrodynamic Control of Site Stability and Vapor Removal",
-      "url": "https://arxiv.org/abs/2606.14567",
-      "summary": "arXiv:2606.14567v1 Announce Type: new Abstract: Interactions between boiling bubbles are well known to influence departure dynamics and heat transfer, yet their role in governing nucleation stability, whether sites activ…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Regional Climate Model Emulation with Diffusion Approaches: What is the Added Value of Generative Machine Learning?",
-      "url": "https://arxiv.org/abs/2606.14570",
-      "summary": "arXiv:2606.14570v1 Announce Type: new Abstract: Emulators provide a cost-effective alternative to regional climate models (RCMs) by capturing their dynamical downscaling function. They link large-scale predictors simulat…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Trap-Quenched Matter-Wave Optics for Dual Species Lensing",
-      "url": "https://arxiv.org/abs/2606.14577",
-      "summary": "arXiv:2606.14577v1 Announce Type: new Abstract: Dual-species atom interferometry in space promises precise tests of the Universality of Free Fall (UFF), with a sensitivity that grows quadratically with the extended inter…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wave turbulence theory of odd fluids and solids: kinetic equations and solutions",
-      "url": "https://arxiv.org/abs/2606.14583",
-      "summary": "arXiv:2606.14583v1 Announce Type: new Abstract: The theory of wave turbulence describes the properties of physical systems composed of a set of weak-amplitude random waves interacting nonlinearly. Here, we study odd wave…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scalable Fabrication of Thermally Reconfigurable Ge Metasurfaces Using Stencil Lithography for Mid-Infrared Molecular Sensing",
-      "url": "https://arxiv.org/abs/2606.14595",
-      "summary": "arXiv:2606.14595v1 Announce Type: new Abstract: Mid-infrared (mid-IR) spectroscopy enables label-free molecular detection and is widely employed in biomedical, environmental, and chemical sensing; however, its broader de…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards unified Geophysical Data Requirements for Magnetic Navigation (MagNav)",
-      "url": "https://arxiv.org/abs/2606.14623",
-      "summary": "arXiv:2606.14623v1 Announce Type: new Abstract: Magnetic Navigation (MagNav) has emerged as a vital alternative Positioning, Navigation, and Timing (PNT) solution, leveraging Earth's magnetic field for robust navigation …",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spin disorder competing with positional symmetry breaking governs the metal-insulator behavior in oxide paramagnets",
-      "url": "https://arxiv.org/abs/2606.14624",
-      "summary": "arXiv:2606.14624v1 Announce Type: new Abstract: Numerous transition-metal oxides have low-temperature antiferromagnetic (AFM) states and high-temperature paramagnetic (PM) phases, where the AFM state is usually insulatin…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parametric instabilities of the inhomogeneous near SOL tokamak plasma, driven by the coupled effect of the high harmonic fast wave and of the ion and electron temperatures gradients, and anomalous heating of the near SOL ions",
-      "url": "https://arxiv.org/abs/2606.14628",
-      "summary": "arXiv:2606.14628v1 Announce Type: new Abstract: Electrostatic parametric instabilities in the inhomogeneous near-SOL tokamak plasma, driven by the combined action of a high-harmonic fast wave (HHFW) with a frequency near…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ENSO and the Temperature of the North Equatorial Counter Current: An Ensemble Study",
-      "url": "https://arxiv.org/abs/2606.14645",
-      "summary": "arXiv:2606.14645v1 Announce Type: new Abstract: An ensemble study using the CESM climate model is used to investigate the response of the atmosphere to changes in sea surface temperatures along the path of the North Equa…",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scalar dissipation anomaly and scalar-gradient scaling in turbulence: A joint velocity-scalar multifractal view",
-      "url": "https://arxiv.org/abs/2606.14696",
-      "summary": "arXiv:2606.14696v1 Announce Type: new Abstract: We revisit the problem of scalar dissipation anomaly and scaling of scalar gradients in passive scalar turbulence using theory and data from well-resolved direct numerical …",
-      "ts": 1781496000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Uniform Asymptotics of the Pseudo Wigner-Ville Distribution for Nonlinear Chirps",
-      "url": "https://arxiv.org/abs/2606.13702",
-      "summary": "arXiv:2606.13702v1 Announce Type: cross Abstract: The analysis of non stationary signals in complex physical systems often relies on Time Frequency distributions. Among these, the Pseudo Wigner Ville Distribution (PWVD) …",
       "ts": 1781496000000
     }
   ],
