@@ -1,7 +1,98 @@
 {
   "ok": true,
-  "updated": "2026-06-14T16:24:54.711Z",
+  "updated": "2026-06-15T00:14:06.228Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Astrochemical model digs into the universe's missing sulfur",
+      "url": "https://phys.org/news/2026-06-astrochemical-universe-sulfur.html",
+      "summary": "Sulfur is one of the most abundant elements in the universe. If you peer into a diffuse interstellar cloud, you find loads of it—about the amount expected based on fusion patterns in the stars it was born in. However, if…",
+      "ts": 1781479803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the invention of glassblowing changed everyday life in ancient Rome",
+      "url": "https://phys.org/news/2026-06-glassblowing-everyday-life-ancient-rome.html",
+      "summary": "We see glass objects every day and often don't think much about them. Mass-produced glass has become so cheap we barely think about the things it allows us to do.",
+      "ts": 1781476201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When less is more: Scaling law explains why ultrathin materials get stronger as they get thinner",
+      "url": "https://phys.org/news/2026-06-scaling-law-ultrathin-materials-stronger.html",
+      "summary": "One of the most fascinating aspects of physics is that nature often behaves in ways that seem completely counterintuitive. A good example comes from ultrathin materials. If I take a sheet of material and make it thinner …",
+      "ts": 1781474401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New tool to help build more reliable DNA nanostructures",
+      "url": "https://phys.org/news/2026-06-tool-reliable-dna-nanostructures.html",
+      "summary": "Scaffolded DNA and RNA origami is a technique that allows scientists to build tiny, highly precise two- and three-dimensional objects. Because these nanostructures can interact naturally with biological systems, they cou…",
+      "ts": 1781470805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black Lives Matter movement changed workplace cooperation between Black and white employees, research shows",
+      "url": "https://phys.org/news/2026-06-black-movement-workplace-cooperation-white.html",
+      "summary": "The increased public attention on racial injustice after the murder of George Floyd influenced how Black and white employees interacted at work, new University of Washington research suggests. The study, recently publish…",
+      "ts": 1781470803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hydrogen-based steelmaking gets 2x boost from nickel oxide catalyst, study finds",
+      "url": "https://phys.org/news/2026-06-hydrogen-based-steelmaking-2x-boost.html",
+      "summary": "Steel and metal production are among the largest contributors to global greenhouse gas emissions, accounting for approximately 10% of global CO2 emissions. At the same time, modern technology relies on tailored steels an…",
+      "ts": 1781467201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA's proposed Early eVolution Explorer mission aims to solve the radius valley mystery",
+      "url": "https://phys.org/news/2026-06-nasa-early-evolution-explorer-mission.html",
+      "summary": "A debate has been raging among planetary scientists for more than a decade—why are there so few exoplanets with a radius of about 1.8 times that of Earth? Exoplanets are currently largely grouped into two distinct catego…",
+      "ts": 1781465403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Manakins' dazzling dances may owe their origins to an ancient diet shift",
+      "url": "https://phys.org/news/2026-06-manakins-dazzling-owe-ancient-diet.html",
+      "summary": "Few animals put on a show quite like manakins. In the rainforests of Central and South America, males of these small tropical birds, with strikingly bright plumage, often gather at communal display sites (leks), where th…",
+      "ts": 1781463601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plant diversity may explain why some caterpillars are fussy about their food",
+      "url": "https://phys.org/news/2026-06-diversity-caterpillars-fussy-food.html",
+      "summary": "Many insects will eat almost anything in their sight, such as certain beetles, grasshoppers and locusts, while others are remarkably picky eaters. For example, numerous insect herbivores will feed only on a single plant …",
+      "ts": 1781461801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Canary Island relics offer new clues into how North African cultures adapted to ocean living",
+      "url": "https://phys.org/news/2026-06-canary-island-relics-clues-north.html",
+      "summary": "Archaeological evidence from the Canary Islands suggests that by the 11th century, people there were harvesting and processing a variety of fish and other marine organisms—indicating that coastal resources may have playe…",
+      "ts": 1781460006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The hidden physics complicating interstellar lightsails",
+      "url": "https://phys.org/news/2026-06-hidden-physics-complicating-interstellar-lightsails.html",
+      "summary": "If we're to reach another star, chemical propulsion will not get us there in any reasonable time frame. We're going to need a different propulsion technology, and one of the most promising seems to be a solar sail. These…",
+      "ts": 1781460001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A 5.3-million‑year‑old whale graveyard has been found on the floor of the Indian Ocean",
+      "url": "https://phys.org/news/2026-06-millionyearold-whale-graveyard-floor-indian.html",
+      "summary": "When a whale dies, a very special natural phenomenon can come alive. The carcass might float at the surface for some time, attracting sharks and other predators. As it becomes weathered, it may start to sink, falling thr…",
+      "ts": 1781456401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Burned as waste for years, this overlooked plant material is poised to reshape how nylon gets made",
+      "url": "https://phys.org/news/2026-06-years-overlooked-material-poised-reshape.html",
+      "summary": "Most people have seen nylon listed as a material on their clothing tags, but nylon is used in an array of other products, too, including automotive parts, wire insulation and medical supplies. Unfortunately, one of the b…",
+      "ts": 1781455201000
+    },
     {
       "source": "Phys.org",
       "title": "Researchers publish first complete connectome of fruit fly brain and 'spinal cord'",
@@ -85,6 +176,13 @@
       "url": "https://phys.org/news/2026-06-south-african-telescope-recordbreaking-early.html",
       "summary": "Astronomers using the MeerKAT radio telescope in South Africa have discovered the most distant hydroxyl megamaser ever detected, opening a new radio astronomy frontier. A hydroxyl megamaser is a natural space laser, and …",
       "ts": 1781397001000
+    },
+    {
+      "source": "Nature",
+      "title": "Huge study hints at risks of switching from tobacco cigarettes to vapes ",
+      "url": "https://www.nature.com/articles/d41586-026-01834-9",
+      "summary": "",
+      "ts": 1781395200000
     },
     {
       "source": "Phys.org",
@@ -603,104 +701,6 @@
       "url": "https://www.sciencenews.org/article/earth-stratosphere-life-microbes",
       "summary": "Well-known microbes that grow on our crops, our gardens, even our skin have been found thriving at two to three times the flying height of a commercial jetliner.",
       "ts": 1781110800000
-    },
-    {
-      "source": "Science News",
-      "title": "Sleep and exercise may dampen genetic drivers of heart disease",
-      "url": "https://www.sciencenews.org/article/sleep-exercise-genetic-heart-disease",
-      "summary": "Over time, immune cells acquire mutations that promote atherosclerosis. Lifestyle changes may offset these DNA glitches, new mouse data suggest.",
-      "ts": 1781103600000
-    },
-    {
-      "source": "Science News",
-      "title": "Engineered hookworms could one day dispense drugs from inside your gut",
-      "url": "https://www.sciencenews.org/article/engineered-hookworms-drugs-gut-genetics",
-      "summary": "In a first, researchers genetically modified hookworms. It’s a step toward turning the parasites into living pharmacies.",
-      "ts": 1781096400000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "First Search for $B→{X}_{s}ν\\overline{ν}$ Decays",
-      "url": "http://link.aps.org/doi/10.1103/kf73-hw61",
-      "summary": "Author(s): M. Abumusabh et al. (The Belle II Collaboration) We report the first search for the flavor-changing neutral-current decays $B→{X}_{s}ν\\overline{ν}$, where ${X}_{s}$ is a hadronic system with strangeness equal …",
-      "ts": 1781085600000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "Analytical Soft Functions for Heavy-Quark Final States at Hadron Colliders",
-      "url": "http://link.aps.org/doi/10.1103/2ksm-243x",
-      "summary": "Author(s): Ze Long Liu and Pier Francesco Monni We present the first computation of the complete two-loop, fully differential soft function describing the production of a heavy-quark pair in association with a color-sing…",
-      "ts": 1781085600000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "Mass Probe of Tetrahedral Symmetry in Atomic Nuclei",
-      "url": "http://link.aps.org/doi/10.1103/89v1-lrb2",
-      "summary": "Author(s): F. F. Xu (许方方) and P. W. Zhao (赵鹏巍) Tetrahedral symmetry has long been predicted as an exotic shape degree of freedom in atomic nuclei, yet clear experimental manifestations remain elusive. We show that the tr…",
-      "ts": 1781085600000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "Magneto-Optical Trapping of a Metal Hydride Molecule",
-      "url": "http://link.aps.org/doi/10.1103/xy6y-kyhc",
-      "summary": "Author(s): Jinyu Dai, Benjamin Riley, Qi Sun, Debayan Mitra, and Tanya Zelevinsky Researchers have used laser cooling and trapping to isolate calcium monohydride, a key step toward producing ultracold atomic hydrogen. [P…",
-      "ts": 1781085600000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "Role of Anionic Lone-Pair-Like Electrons in Producing Minimum Lattice Thermal Conductivity",
-      "url": "http://link.aps.org/doi/10.1103/2pdy-5c6k",
-      "summary": "Author(s): Hongwei Ming, Jiahui Wang, Shike Xu, Bushra Jabar, Yunpeng Zheng, Zhong-Zhen Luo, and Zhigang Zou Cationic lone-pair electrons are often associated with distinctive phonon properties (e.g., strong lattice anha…",
-      "ts": 1781085600000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "Evidence for Atomic-Scale Vibron-Mediated Electron Bunching",
-      "url": "http://link.aps.org/doi/10.1103/zvf5-wln4",
-      "summary": "Author(s): A. Maiti, M. Amato, V. S. Stolyarov, H. Aubin, J. Estève, F. Pistolesi, M. Aprili, and F. Massee Atomic-scale measurements show that vibrational excitations can cause electrons to move in bunches. [Phys. Rev. …",
-      "ts": 1781085600000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "Fast and Continuous Detection of Single Microwave Photons via Photoassisted Quasiparticle Tunneling to a Superconducting Island",
-      "url": "http://link.aps.org/doi/10.1103/mj91-ntm4",
-      "summary": "Author(s): J. Basset, O. Stanisavljević, J. Gabelli, M. Aprili, and J. Estève A new mechanism for the detection of individual propagating microwave photons that realizes a microwave analogue of the photoelectric effect c…",
-      "ts": 1781085600000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "Long-Range Order in a Strictly Short-Range Quasi-2D XY Model: When Critical Fluctuations Matter",
-      "url": "http://link.aps.org/doi/10.1103/1jkm-kybr",
-      "summary": "Author(s): Minghui Hu, Chao Zhang, Dajun Zhang, Yanan Sun, Youjin Deng, and Jian-Ping Lv The phase of spins in the quasi-two-dimensional (q2D) XY model has emerged as a topic of significant interest across multiple subfi…",
-      "ts": 1781085600000
-    },
-    {
-      "source": "APS / PRL",
-      "title": "Erratum: Bacterial Turbulence at Compressible Fluid Interfaces [Phys. Rev. Lett. <b>136</b>, 138301 (2026)]",
-      "url": "http://link.aps.org/doi/10.1103/8fl3-19j8",
-      "summary": "Author(s): Yuanfeng Yin, Bokai Zhang, H. P. Zhang, and Shuo Guo [Phys. Rev. Lett. 136, 239901] Published Wed Jun 10, 2026",
-      "ts": 1781085600000
-    },
-    {
-      "source": "Nature",
-      "title": "Giant crustacean of the deep sea steals a trick from bacteria",
-      "url": "https://www.nature.com/articles/d41586-026-01832-x",
-      "summary": "",
-      "ts": 1781049600000
-    },
-    {
-      "source": "Nature",
-      "title": "Newly discovered whale graveyard dates back millions of years",
-      "url": "https://www.nature.com/articles/d41586-026-01864-3",
-      "summary": "",
-      "ts": 1781049600000
-    },
-    {
-      "source": "Nature",
-      "title": "Structural basis for chaperone-guided assembly of RNA-induced silencing complex",
-      "url": "https://www.nature.com/articles/s41586-026-10640-2",
-      "summary": "",
-      "ts": 1781049600000
     }
   ],
   "sources": [
