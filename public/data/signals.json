@@ -1,7 +1,627 @@
 {
   "ok": true,
-  "updated": "2026-06-13T21:30:01.252Z",
+  "updated": "2026-06-15T00:39:28.383Z",
   "items": [
+    {
+      "id": "reality-discovery-the-extraordinary-physiological-challenges-facing-amputee-john-mcfall-in-space",
+      "title": "The extraordinary physiological challenges facing amputee John McFall in space",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-extraordinary-physiological-amputee-john-mcfall.html",
+      "category": "Reality Discovery",
+      "observation": "The UK Space Agency has announced an agreement with Vast—a US commercial space company—that could send British astronaut John McFall into orbit as early as 2027. If the mission goes ahead, he would become the first perso…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "The extraordinary physiological challenges facing amputee John McFall in space should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 8.3,
+        "capabilityExpansion": 6,
+        "infrastructureImpact": 6,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.6,
+        "overall": 6.4
+      },
+      "ts": 1781483404000
+    },
+    {
+      "id": "capability-expansion-astrochemical-model-digs-into-the-universe-s-missing-sulfur",
+      "title": "Astrochemical model digs into the universe's missing sulfur",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-astrochemical-universe-sulfur.html",
+      "category": "Capability Expansion",
+      "observation": "Sulfur is one of the most abundant elements in the universe. If you peer into a diffuse interstellar cloud, you find loads of it—about the amount expected based on fusion patterns in the stars it was born in. However, if…",
+      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "commentary": "Astrochemical model digs into the universe's missing sulfur should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 8.7,
+        "infrastructureImpact": 6.8,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 5.5,
+        "overall": 6.3
+      },
+      "ts": 1781479803000
+    },
+    {
+      "id": "civilization-engineering-how-the-invention-of-glassblowing-changed-everyday-life-in-ancient-rome",
+      "title": "How the invention of glassblowing changed everyday life in ancient Rome",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-glassblowing-everyday-life-ancient-rome.html",
+      "category": "Civilization Engineering",
+      "observation": "We see glass objects every day and often don't think much about them. Mass-produced glass has become so cheap we barely think about the things it allows us to do.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "How the invention of glassblowing changed everyday life in ancient Rome should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781476201000
+    },
+    {
+      "id": "reality-discovery-when-less-is-more-scaling-law-explains-why-ultrathin-materials-get-stronger-as-t",
+      "title": "When less is more: Scaling law explains why ultrathin materials get stronger as they get thinner",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-scaling-law-ultrathin-materials-stronger.html",
+      "category": "Reality Discovery",
+      "observation": "One of the most fascinating aspects of physics is that nature often behaves in ways that seem completely counterintuitive. A good example comes from ultrathin materials. If I take a sheet of material and make it thinner …",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "When less is more: Scaling law explains why ultrathin materials get stronger as they get thinner should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 8.7,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.3
+      },
+      "ts": 1781474401000
+    },
+    {
+      "id": "adaptive-capacity-new-tool-to-help-build-more-reliable-dna-nanostructures",
+      "title": "New tool to help build more reliable DNA nanostructures",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-tool-reliable-dna-nanostructures.html",
+      "category": "Adaptive Capacity",
+      "observation": "Scaffolded DNA and RNA origami is a technique that allows scientists to build tiny, highly precise two- and three-dimensional objects. Because these nanostructures can interact naturally with biological systems, they cou…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "New tool to help build more reliable DNA nanostructures should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.9,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8,
+        "civilizationImpact": 6.8,
+        "overall": 6.2
+      },
+      "ts": 1781470805000
+    },
+    {
+      "id": "civilization-engineering-black-lives-matter-movement-changed-workplace-cooperation-between-black-and-whit",
+      "title": "Black Lives Matter movement changed workplace cooperation between Black and white employees, research shows",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-black-movement-workplace-cooperation-white.html",
+      "category": "Civilization Engineering",
+      "observation": "The increased public attention on racial injustice after the murder of George Floyd influenced how Black and white employees interacted at work, new University of Washington research suggests. The study, recently publish…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Black Lives Matter movement changed workplace cooperation between Black and white employees, research shows should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "ts": 1781470803000
+    },
+    {
+      "id": "capability-expansion-hydrogen-based-steelmaking-gets-2x-boost-from-nickel-oxide-catalyst-study-finds",
+      "title": "Hydrogen-based steelmaking gets 2x boost from nickel oxide catalyst, study finds",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-hydrogen-based-steelmaking-2x-boost.html",
+      "category": "Capability Expansion",
+      "observation": "Steel and metal production are among the largest contributors to global greenhouse gas emissions, accounting for approximately 10% of global CO2 emissions. At the same time, modern technology relies on tailored steels an…",
+      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "commentary": "Hydrogen-based steelmaking gets 2x boost from nickel oxide catalyst, study finds should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 8.7,
+        "infrastructureImpact": 6.8,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 5.5,
+        "overall": 6.3
+      },
+      "ts": 1781467201000
+    },
+    {
+      "id": "reality-discovery-nasa-s-proposed-early-evolution-explorer-mission-aims-to-solve-the-radius-valley",
+      "title": "NASA's proposed Early eVolution Explorer mission aims to solve the radius valley mystery",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-nasa-early-evolution-explorer-mission.html",
+      "category": "Reality Discovery",
+      "observation": "A debate has been raging among planetary scientists for more than a decade—why are there so few exoplanets with a radius of about 1.8 times that of Earth? Exoplanets are currently largely grouped into two distinct catego…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "NASA's proposed Early eVolution Explorer mission aims to solve the radius valley mystery should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 7.9,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.1
+      },
+      "ts": 1781465403000
+    },
+    {
+      "id": "civilization-engineering-manakins-dazzling-dances-may-owe-their-origins-to-an-ancient-diet-shift",
+      "title": "Manakins' dazzling dances may owe their origins to an ancient diet shift",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-manakins-dazzling-owe-ancient-diet.html",
+      "category": "Civilization Engineering",
+      "observation": "Few animals put on a show quite like manakins. In the rainforests of Central and South America, males of these small tropical birds, with strikingly bright plumage, often gather at communal display sites (leks), where th…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Manakins' dazzling dances may owe their origins to an ancient diet shift should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781463601000
+    },
+    {
+      "id": "civilization-engineering-plant-diversity-may-explain-why-some-caterpillars-are-fussy-about-their-food",
+      "title": "Plant diversity may explain why some caterpillars are fussy about their food",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-diversity-caterpillars-fussy-food.html",
+      "category": "Civilization Engineering",
+      "observation": "Many insects will eat almost anything in their sight, such as certain beetles, grasshoppers and locusts, while others are remarkably picky eaters. For example, numerous insect herbivores will feed only on a single plant …",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Plant diversity may explain why some caterpillars are fussy about their food should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781461801000
+    },
+    {
+      "id": "civilization-engineering-canary-island-relics-offer-new-clues-into-how-north-african-cultures-adapted-to-",
+      "title": "Canary Island relics offer new clues into how North African cultures adapted to ocean living",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-canary-island-relics-clues-north.html",
+      "category": "Civilization Engineering",
+      "observation": "Archaeological evidence from the Canary Islands suggests that by the 11th century, people there were harvesting and processing a variety of fish and other marine organisms—indicating that coastal resources may have playe…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Canary Island relics offer new clues into how North African cultures adapted to ocean living should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "ts": 1781460006000
+    },
+    {
+      "id": "reality-discovery-the-hidden-physics-complicating-interstellar-lightsails",
+      "title": "The hidden physics complicating interstellar lightsails",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-hidden-physics-complicating-interstellar-lightsails.html",
+      "category": "Reality Discovery",
+      "observation": "If we're to reach another star, chemical propulsion will not get us there in any reasonable time frame. We're going to need a different propulsion technology, and one of the most promising seems to be a solar sail. These…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "The hidden physics complicating interstellar lightsails should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 8.7,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.3
+      },
+      "ts": 1781460001000
+    },
+    {
+      "id": "civilization-engineering-a-5-3-million-year-old-whale-graveyard-has-been-found-on-the-floor-of-the-indian",
+      "title": "A 5.3-million‑year‑old whale graveyard has been found on the floor of the Indian Ocean",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-millionyearold-whale-graveyard-floor-indian.html",
+      "category": "Civilization Engineering",
+      "observation": "When a whale dies, a very special natural phenomenon can come alive. The carcass might float at the surface for some time, attracting sharks and other predators. As it becomes weathered, it may start to sink, falling thr…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "A 5.3-million‑year‑old whale graveyard has been found on the floor of the Indian Ocean should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781456401000
+    },
+    {
+      "id": "infrastructure-formation-introducing-the-openai-partner-network",
+      "title": "Introducing the OpenAI Partner Network",
+      "source": "OpenAI",
+      "originalUrl": "https://openai.com/index/introducing-openai-partner-network",
+      "category": "Infrastructure Formation",
+      "observation": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+      "commentary": "Introducing the OpenAI Partner Network should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 6,
+        "infrastructureImpact": 9.2,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.5,
+        "overall": 6.5
+      },
+      "ts": 1781456400000
+    },
+    {
+      "id": "capability-expansion-burned-as-waste-for-years-this-overlooked-plant-material-is-poised-to-reshape-ho",
+      "title": "Burned as waste for years, this overlooked plant material is poised to reshape how nylon gets made",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-years-overlooked-material-poised-reshape.html",
+      "category": "Capability Expansion",
+      "observation": "Most people have seen nylon listed as a material on their clothing tags, but nylon is used in an array of other products, too, including automotive parts, wire insulation and medical supplies. Unfortunately, one of the b…",
+      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "commentary": "Burned as waste for years, this overlooked plant material is poised to reshape how nylon gets made should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 7.9,
+        "infrastructureImpact": 6.3,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 5.5,
+        "overall": 6.1
+      },
+      "ts": 1781455201000
+    },
+    {
+      "id": "civilization-engineering-researchers-publish-first-complete-connectome-of-fruit-fly-brain-and-spinal-cord",
+      "title": "Researchers publish first complete connectome of fruit fly brain and 'spinal cord'",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-publish-connectome-fruit-fly-brain.html",
+      "category": "Civilization Engineering",
+      "observation": "In a first, a large, international team led by multiple labs at Harvard Medical School and Princeton University has published a complete wiring diagram of all the connections between neurons in the central nervous system…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Researchers publish first complete connectome of fruit fly brain and 'spinal cord' should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "ts": 1781452805000
+    },
+    {
+      "id": "civilization-engineering-research-reveals-how-parenting-styles-influence-children-s-honesty",
+      "title": "Research reveals how parenting styles influence children's honesty",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-reveals-parenting-styles-children-honesty.html",
+      "category": "Civilization Engineering",
+      "observation": "Parents who come down hard on their children for telling lies or misbehaving may believe they are teaching the child right from wrong. But new research by NUS suggests that overly strict or punitive parenting could be pa…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Research reveals how parenting styles influence children's honesty should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "ts": 1781452803000
+    },
+    {
+      "id": "civilization-engineering-rare-500-year-old-freeze-dried-potatoes-unearthed-at-inca-coastal-site",
+      "title": "Rare 500-year-old freeze-dried potatoes unearthed at Inca coastal site",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-rare-year-dried-potatoes-unearthed.html",
+      "category": "Civilization Engineering",
+      "observation": "Archaeologists digging at an Inca site on the arid coast of southern Peru have unearthed two rare, roughly 500-year-old freeze-dried potatoes. The potatoes are among the only ones found in more than a century and would h…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Rare 500-year-old freeze-dried potatoes unearthed at Inca coastal site should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781449801000
+    },
+    {
+      "id": "adaptive-capacity-standard-tests-do-not-always-detect-all-gluten-residues-in-barley-beer",
+      "title": "Standard tests do not always detect all gluten residues in barley beer",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-standard-gluten-residues-barley-beer.html",
+      "category": "Adaptive Capacity",
+      "observation": "Some barley beers labeled \"gluten-free\" contain small amounts of gluten residues that may trigger celiac disease but are not detected by the standard antibody-based tests currently in use, according to a study by the Lei…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "Standard tests do not always detect all gluten residues in barley beer should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "ts": 1781447401000
+    },
+    {
+      "id": "adaptive-capacity-damaged-boreal-peatlands-may-triple-methane-emissions-reshaping-climate-risk",
+      "title": "Damaged boreal peatlands may triple methane emissions, reshaping climate risk",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-boreal-peatlands-triple-methane-emissions.html",
+      "category": "Adaptive Capacity",
+      "observation": "A new study reveals that, for the first time, areas of Canada's boreal peatlands damaged by oil and gas exploration have failed to recover as scientists and companies predicted and instead have led to a tripling of metha…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "Damaged boreal peatlands may triple methane emissions, reshaping climate risk should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.9,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 7.2,
+        "overall": 6.4
+      },
+      "ts": 1781445602000
+    },
+    {
+      "id": "capability-expansion-chemical-impurities-make-carbon-surfaces-superslippery-researchers-find",
+      "title": "Chemical impurities make carbon surfaces superslippery, researchers find",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-chemical-impurities-carbon-surfaces-superslippery.html",
+      "category": "Capability Expansion",
+      "observation": "Engineers often treat impurities as a problem to eliminate to improve material performance. But new research from Osaka Metropolitan University and Fraunhofer Institute for Mechanics of Materials IWM suggests that in som…",
+      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "commentary": "Chemical impurities make carbon surfaces superslippery, researchers find should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "score": {
+        "realityDiscovery": 5.9,
+        "capabilityExpansion": 7.9,
+        "infrastructureImpact": 6.3,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 5.8,
+        "overall": 6.2
+      },
+      "ts": 1781442005000
+    },
+    {
+      "id": "adaptive-capacity-what-powered-the-earth-s-earliest-life",
+      "title": "What powered the Earth's earliest life?",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-powered-earth-earliest-life.html",
+      "category": "Adaptive Capacity",
+      "observation": "Early biological systems likely relied on RNA molecules to copy themselves and drive simple chemical reactions. Any system that could generate guanosine-triphosphate (GTP)—which is necessary for RNA synthesis—from prebio…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "What powered the Earth's earliest life? should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "ts": 1781442004000
+    },
+    {
+      "id": "civilization-engineering-light-programmed-system-projects-28-layer-3d-images-in-single-shot",
+      "title": "Light-programmed system projects 28-layer 3D images in single shot",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-layer-3d-images-shot.html",
+      "category": "Civilization Engineering",
+      "observation": "Researchers at the UCLA Samueli School of Engineering and CNSI (California NanoSystems Institute), led by Professor Aydogan Ozcan, introduced a snapshot 3D image projection system that integrates a digital encoder with a…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Light-programmed system projects 28-layer 3D images in single shot should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781439601000
+    },
+    {
+      "id": "civilization-engineering-nasa-s-chandra-discovers-possible-supernova-remnant-in-galactic-center",
+      "title": "NASA's Chandra discovers possible supernova remnant in galactic center",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-nasa-chandra-supernova-remnant-galactic.html",
+      "category": "Civilization Engineering",
+      "observation": "Using data from NASA's Chandra X-ray Observatory, astronomers may have found a supernova remnant in an intriguing neighborhood in the middle of our galaxy. A paper describing these new findings was published in The Astro…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "NASA's Chandra discovers possible supernova remnant in galactic center should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "ts": 1781438401000
+    },
+    {
+      "id": "infrastructure-formation-is-gender-gating-the-secret-to-success-in-online-dating",
+      "title": "Is 'gender gating' the secret to success in online dating?",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-gender-gating-secret-success-online.html",
+      "category": "Infrastructure Formation",
+      "observation": "Digital matching platforms—from professional networking to ride-sharing and accommodation services—add value by bringing supply and demand into balance. But deep-seated asymmetries can prove difficult to expunge, causing…",
+      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+      "commentary": "Is 'gender gating' the secret to success in online dating? should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 6,
+        "infrastructureImpact": 9.2,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.5,
+        "overall": 6.5
+      },
+      "ts": 1781437514000
+    },
+    {
+      "id": "reality-discovery-missile-production-push-runs-into-solid-rocket-motor-bottleneck",
+      "title": "Missile production push runs into solid rocket motor bottleneck",
+      "source": "SpaceNews",
+      "originalUrl": "https://spacenews.com/missile-production-push-runs-into-solid-rocket-motor-bottleneck/",
+      "category": "Reality Discovery",
+      "observation": "A new CSIS report says planned 2027 interceptor buys will test a supply chain still recovering from years of consolidation The post Missile production push runs into solid rocket motor bottleneck appeared first on SpaceN…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "Missile production push runs into solid rocket motor bottleneck should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 8.3,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.6,
+        "overall": 6.2
+      },
+      "ts": 1781409600000
+    },
+    {
+      "id": "reality-discovery-unique-chromium-beam-experiment-unlocks-cosmic-ray-origins-and-galactic-chemistr",
+      "title": "Unique chromium beam experiment unlocks cosmic ray origins and galactic chemistry",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-unique-chromium-cosmic-ray-galactic.html",
+      "category": "Reality Discovery",
+      "observation": "When a star dies, it generates an explosion of elemental nuclei and hurls them into space. Those elements, called cosmic rays, travel at nearly the speed of light, and eventually some of them encounter manmade detectors.…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "Unique chromium beam experiment unlocks cosmic ray origins and galactic chemistry should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 8.7,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 6.4,
+        "civilizationImpact": 6.7,
+        "overall": 6.5
+      },
+      "ts": 1781407201000
+    },
+    {
+      "id": "reality-discovery-south-african-telescope-detects-record-breaking-signal-from-the-early-universe",
+      "title": "South African telescope detects record‑breaking signal from the early universe",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-south-african-telescope-recordbreaking-early.html",
+      "category": "Reality Discovery",
+      "observation": "Astronomers using the MeerKAT radio telescope in South Africa have discovered the most distant hydroxyl megamaser ever detected, opening a new radio astronomy frontier. A hydroxyl megamaser is a natural space laser, and …",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "South African telescope detects record‑breaking signal from the early universe should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 9.1,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 6.7,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.6,
+        "overall": 6.5
+      },
+      "ts": 1781397001000
+    },
+    {
+      "id": "adaptive-capacity-huge-study-hints-at-risks-of-switching-from-tobacco-cigarettes-to-vapes",
+      "title": "Huge study hints at risks of switching from tobacco cigarettes to vapes ",
+      "source": "Nature",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-01834-9",
+      "category": "Adaptive Capacity",
+      "observation": "Huge study hints at risks of switching from tobacco cigarettes to vapes ",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "Huge study hints at risks of switching from tobacco cigarettes to vapes  should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "ts": 1781395200000
+    },
+    {
+      "id": "civilization-engineering-david-kipping-has-new-take-on-the-existence-of-advanced-life-in-the-universe-and",
+      "title": "David Kipping has new take on the existence of advanced life in the universe and the numbers are not encouraging",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-david-kipping-advanced-life-universe.html",
+      "category": "Civilization Engineering",
+      "observation": "Between the mid-1970s and early 1980s, two physicists, Michael Hart and Frank Tipler, published a controversial series of papers arguing that extraterrestrial intelligence didn't exist. As they argued, the likelihood tha…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "David Kipping has new take on the existence of advanced life in the universe and the numbers are not encouraging should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "ts": 1781393402000
+    },
+    {
+      "id": "synchronization-systems-ocean-monitoring-is-in-trouble-it-s-up-to-europe-and-asia-to-avoid-losing-sight-",
+      "title": "Ocean monitoring is in trouble: It's up to Europe and Asia to avoid losing sight of the world's deep‑sea ecosystems",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-ocean-europe-asia-sight-world.html",
+      "category": "Synchronization Systems",
+      "observation": "The world relies on a modest number of countries to keep watch over the ocean. That arrangement is starting to fail. Europe and Asia must now decide whether to let the system unravel, or to take it up together.",
+      "implication": "This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
+      "commentary": "Ocean monitoring is in trouble: It's up to Europe and Asia to avoid losing sight of the world's deep‑sea ecosystems should not be interpreted only as a news item. From the ArcheNova perspective, it is a Synchronization Systems signal: This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 6.5,
+        "synchronizationImpact": 8.8,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.3
+      },
+      "ts": 1781389805000
+    },
     {
       "id": "civilization-engineering-could-leaves-help-feed-humanity-after-disaster",
       "title": "Could leaves help feed humanity after disaster?",
@@ -63,126 +683,6 @@
       "ts": 1781380803000
     },
     {
-      "id": "reality-discovery-tracers-spacecraft-maps-solar-energy-s-route-into-earth-using-cusp-electrons",
-      "title": "TRACERS spacecraft maps solar energy's route into Earth using cusp electrons",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-tracers-spacecraft-solar-energy-route.html",
-      "category": "Reality Discovery",
-      "observation": "Physicists led by the University of Iowa have documented in the finest detail to date how energy from the sun interacts with Earth's magnetic field, which could yield greater insight into solar effects on Earth that driv…",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "TRACERS spacecraft maps solar energy's route into Earth using cusp electrons should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 7.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.3,
-        "overall": 6.1
-      },
-      "ts": 1781380801000
-    },
-    {
-      "id": "capability-expansion-cellulose-films-match-plastic-performance-while-enabling-recycling-or-biodegrada",
-      "title": "Cellulose films match plastic performance while enabling recycling or biodegradation",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-cellulose-plastic-enabling-recycling-biodegradation.html",
-      "category": "Capability Expansion",
-      "observation": "A new cellulose-based material platform developed in Finland responds to tightening regulatory requirements and industry pressure to both replace and reduce plastic in packaging, including emerging thresholds such as lim…",
-      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "commentary": "Cellulose films match plastic performance while enabling recycling or biodegradation should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 8.4,
-        "infrastructureImpact": 6.8,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 6.4,
-        "civilizationImpact": 6.2,
-        "overall": 6.6
-      },
-      "ts": 1781379003000
-    },
-    {
-      "id": "civilization-engineering-when-motion-prevents-order-in-active-matter-systems",
-      "title": "When motion prevents order in active matter systems",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-motion.html",
-      "category": "Civilization Engineering",
-      "observation": "Pack enough string-like objects together, and they will begin to align with one another. But replace the strings with worms or bacteria living in your gut, and this self-organization becomes much more difficult. A team o…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "When motion prevents order in active matter systems should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "ts": 1781377202000
-    },
-    {
-      "id": "reality-discovery-q-a-tracing-the-origins-of-supermassive-black-holes",
-      "title": "Q&A: Tracing the origins of supermassive black holes",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-qa-supermassive-black-holes.html",
-      "category": "Reality Discovery",
-      "observation": "Sarah Pappert is a Ph.D. candidate in astrophysics at the TUM School of Natural Sciences and conducts research at the Max Planck Institute for Extraterrestrial Physics. She is supervised by Prof. Dr. Reinhard Genzel and …",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Q&A: Tracing the origins of supermassive black holes should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 8.7,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.3,
-        "overall": 6.3
-      },
-      "ts": 1781375401000
-    },
-    {
-      "id": "adaptive-capacity-cdc-sleuthing-helps-decipher-drug-resistant-infection-rise",
-      "title": "CDC sleuthing helps decipher drug-resistant infection rise",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-cdc-sleuthing-decipher-drug-resistant.html",
-      "category": "Adaptive Capacity",
-      "observation": "Previous research from the Centers for Disease Control and Prevention (CDC) found that a dangerous variety of bacteria that cause drug-resistant infections, called NDM-producing carbapenem-resistant Enterobacterales (NDM…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "CDC sleuthing helps decipher drug-resistant infection rise should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "ts": 1781373604000
-    },
-    {
-      "id": "civilization-engineering-new-atlas-reveals-more-about-how-the-body-s-master-gland-really-works",
-      "title": "New atlas reveals more about how the body's 'master gland' really works",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-atlas-reveals-body-master-gland.html",
-      "category": "Civilization Engineering",
-      "observation": "A new study has created a detailed map of the pituitary gland, often called the body's \"master gland\" because it controls important functions such as growth, stress and reproduction. Researchers from the Center for Crani…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "New atlas reveals more about how the body's 'master gland' really works should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781373603000
-    },
-    {
       "id": "reality-discovery-revised-artemis-lunar-lander-plans-take-shape",
       "title": "Revised Artemis lunar lander plans take shape",
       "source": "SpaceNews",
@@ -201,426 +701,6 @@
         "overall": 6.2
       },
       "ts": 1781371196000
-    },
-    {
-      "id": "capability-expansion-fusion-reactors-could-be-monitored-for-covert-plutonium-production",
-      "title": "Fusion reactors could be monitored for covert plutonium production",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-fusion-reactors-covert-plutonium-production.html",
-      "category": "Capability Expansion",
-      "observation": "In the next few decades, many physicists are hopeful that nuclear fusion could become a realistic source of practically limitless energy. But before this can happen, it will be critical to ensure that reactors cannot be …",
-      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "commentary": "Fusion reactors could be monitored for covert plutonium production should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 8.7,
-        "infrastructureImpact": 6.8,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 5.5,
-        "overall": 6.3
-      },
-      "ts": 1781370003000
-    },
-    {
-      "id": "civilization-engineering-supercomputer-illuminates-subatomic-particle-that-helps-hold-matter-together",
-      "title": "Supercomputer illuminates subatomic particle that helps hold matter together",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-supercomputer-illuminates-subatomic-particle.html",
-      "category": "Civilization Engineering",
-      "observation": "A team of researchers has leveraged a supercomputer at the U.S. Department of Energy's (DOE) Argonne National Laboratory to reveal the internal structure of a pion in unprecedented detail. The findings are published in t…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Supercomputer illuminates subatomic particle that helps hold matter together should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "ts": 1781370002000
-    },
-    {
-      "id": "infrastructure-formation-as-wildfires-increase-in-the-west-so-does-suppression-spending",
-      "title": "As wildfires increase in the West, so does suppression spending",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-wildfires-west-suppression.html",
-      "category": "Infrastructure Formation",
-      "observation": "Hotter, drier conditions in the western United States have led to a rise in wildfire activity that has damaged or destroyed infrastructure, natural ecosystems and entire towns across the region. As fires grow larger and …",
-      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "commentary": "As wildfires increase in the West, so does suppression spending should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 8.7,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.5,
-        "overall": 6.3
-      },
-      "ts": 1781368202000
-    },
-    {
-      "id": "adaptive-capacity-heat-surviving-cyanobacteria-switch-to-respiration-when-photosynthesis-falters-4",
-      "title": "Heat-surviving cyanobacteria switch to respiration when photosynthesis falters, 48-hour test reveals",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-surviving-cyanobacteria-respiration-photosynthesis-falters.html",
-      "category": "Adaptive Capacity",
-      "observation": "A new study challenges a long-standing assumption about how cyanobacteria survive environmental stress. The study, led by researchers at the Israel Oceanographic and Limnological Research (IOLR)—the Kinneret Limnological…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Heat-surviving cyanobacteria switch to respiration when photosynthesis falters, 48-hour test reveals should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
-        "overall": 6.4
-      },
-      "ts": 1781366403000
-    },
-    {
-      "id": "capability-expansion-water-molecule-unlocks-faster-interfacial-polymerization-by-lowering-energy-barr",
-      "title": "Water molecule unlocks faster interfacial polymerization by lowering energy barrier",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-molecule-faster-interfacial-polymerization-lowering.html",
-      "category": "Capability Expansion",
-      "observation": "Researchers at The Hong Kong University of Science and Technology (HKUST) have achieved two major breakthroughs in interfacial polymerization, a key technique for preparing advanced functional materials. By integrating q…",
-      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "commentary": "Water molecule unlocks faster interfacial polymerization by lowering energy barrier should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 7.9,
-        "infrastructureImpact": 6.3,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 6.4,
-        "civilizationImpact": 6.2,
-        "overall": 6.4
-      },
-      "ts": 1781364601000
-    },
-    {
-      "id": "reality-discovery-bidirectional-manipulation-of-gate-free-quantum-electronic-states-via-semiconduc",
-      "title": "Bidirectional manipulation of gate-free quantum electronic states via semiconductor interface engineering",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-bidirectional-gate-free-quantum-electronic.html",
-      "category": "Reality Discovery",
-      "observation": "A recent study published in Nature Communications demonstrates precise control over electron spatial arrangement in two directions simultaneously—without any applied voltage—through interface engineering between semimeta…",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Bidirectional manipulation of gate-free quantum electronic states via semiconductor interface engineering should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 8.7,
-        "capabilityExpansion": 6.3,
-        "infrastructureImpact": 6,
-        "synchronizationImpact": 6.7,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.3,
-        "overall": 6.6
-      },
-      "ts": 1781362804000
-    },
-    {
-      "id": "adaptive-capacity-forecast-flags-210-antimicrobial-resistance-traits-that-could-spread-by-2050",
-      "title": "Forecast flags 210 antimicrobial resistance traits that could spread by 2050",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-flags-antimicrobial-resistance-traits.html",
-      "category": "Adaptive Capacity",
-      "observation": "Antimicrobial resistance (AMR) is considered one of the most urgent global public health threats, with experts predicting that AMR could cause 39 million deaths between 2025 and 2050. AMR is not a single problem, but ins…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Forecast flags 210 antimicrobial resistance traits that could spread by 2050 should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "ts": 1781362801000
-    },
-    {
-      "id": "reality-discovery-chandra-resolves-ngc-6540-s-mysterious-x-ray-flare-into-three-separate-sources",
-      "title": "Chandra resolves NGC 6540's mysterious X-ray flare into three separate sources",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-chandra-ngc-mysterious-ray-flare.html",
-      "category": "Reality Discovery",
-      "observation": "Using NASA's Chandra X-ray spacecraft, astronomers have performed deep X-ray observations of a galactic globular cluster known as NGC 6540. The new observational campaign, described June 1 on the preprint server arXiv, f…",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Chandra resolves NGC 6540's mysterious X-ray flare into three separate sources should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 8.3,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.6,
-        "overall": 6.2
-      },
-      "ts": 1781359801000
-    },
-    {
-      "id": "civilization-engineering-what-happens-to-microplastics-when-swallowed-in-earthworms-they-do-not-leave-the",
-      "title": "What happens to microplastics when swallowed? In earthworms, they do not leave the digestive tract",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-microplastics-swallowed-earthworms-digestive-tract.html",
-      "category": "Civilization Engineering",
-      "observation": "Globally, humanity now produces a staggering 450 million tonnes of plastic every year. From food and drink containers to cosmetics packaging, sewage pipes, window frames and polyester clothing, we use plastics in almost …",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "What happens to microplastics when swallowed? In earthworms, they do not leave the digestive tract should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "ts": 1781359201000
-    },
-    {
-      "id": "civilization-engineering-family-wealth-reaches-further-grandparents-income-links-to-grandchildren-s-colle",
-      "title": "Family wealth reaches further: Grandparents' income links to grandchildren's college access",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-family-wealth-grandparents-income-links.html",
-      "category": "Civilization Engineering",
-      "observation": "It has long been understood that parents' income plays a major role in children's access to higher education. But a new study published in Canadian Studies in Population suggests that grandparents' income matters, too. B…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Family wealth reaches further: Grandparents' income links to grandchildren's college access should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781357401000
-    },
-    {
-      "id": "adaptive-capacity-harmonic-radar-tags-reveal-how-mosquitoes-move-through-fields-and-parkland",
-      "title": "Harmonic radar tags reveal how mosquitoes move through fields and parkland",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-harmonic-radar-tags-reveal-mosquitoes.html",
-      "category": "Adaptive Capacity",
-      "observation": "It's an insect everybody loves to hate. Pesky mosquitoes will be out in swarms as the weather warms up across the U.S.—and their bites aren't just itchy. They can transmit pathogens that can cause diseases like West Nile…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Harmonic radar tags reveal how mosquitoes move through fields and parkland should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "ts": 1781355602000
-    },
-    {
-      "id": "civilization-engineering-the-ghosts-of-the-mediterranean-what-a-rare-great-white-shark-sighting-could-rev",
-      "title": "The Ghosts of the Mediterranean: What a rare great white shark sighting could reveal about a changing ocean",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-ghosts-mediterranean-rare-great-white.html",
-      "category": "Civilization Engineering",
-      "observation": "Headlines were made this week when scuba divers removing abandoned ghost nets from a shipwreck between Tunisia and Sicily filmed an adult great white shark. The footage quickly made global news, yet the real story is not…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "The Ghosts of the Mediterranean: What a rare great white shark sighting could reveal about a changing ocean should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781353801000
-    },
-    {
-      "id": "civilization-engineering-saturday-citations-jaxa-collaboration-with-toy-company-tomy-a-new-brain-computer",
-      "title": "Saturday Citations: JAXA collaboration with toy company TOMY; a new brain-computer interface; IBD solved",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-saturday-citations-jaxa-collaboration-toy.html",
-      "category": "Civilization Engineering",
-      "observation": "This week's notable citations: Astronomers believe collapsing stars could spawn mini universes. Chimpanzees do not like unfairness. And a single dose of psilocybin temporarily restored function in an 80-year-old with Alz…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Saturday Citations: JAXA collaboration with toy company TOMY; a new brain-computer interface; IBD solved should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781353201000
-    },
-    {
-      "id": "civilization-engineering-el-ni-o-arrives-and-could-rank-among-strongest-events-since-1950",
-      "title": "El Niño arrives and could rank among strongest events since 1950",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-el-nio-strongest-events.html",
-      "category": "Civilization Engineering",
-      "observation": "The phenomenon El Niño has arrived, the U.S. weather agency said Thursday, and scientists expect the pattern, synonymous with droughts, floods and soaring temperatures, will intensify through the end of the year, potenti…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "El Niño arrives and could rank among strongest events since 1950 should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "ts": 1781352011000
-    },
-    {
-      "id": "adaptive-capacity-engineering-enzymes-with-potential-against-als-and-parkinson-s-disease",
-      "title": "Engineering enzymes with potential against ALS and Parkinson's disease",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-enzymes-potential-als-parkinson-disease.html",
-      "category": "Adaptive Capacity",
-      "observation": "In an advance that could one day lead to new treatments for neurodegenerative diseases, Meredith Jackrel, an associate professor of chemistry in Arts & Sciences at Washington University in St. Louis, and her team have de…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Engineering enzymes with potential against ALS and Parkinson's disease should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
-        "overall": 6.4
-      },
-      "ts": 1781352008000
-    },
-    {
-      "id": "adaptive-capacity-how-you-can-stop-your-cat-from-bringing-home-unwelcome-pathogens",
-      "title": "How you can stop your cat from bringing home unwelcome pathogens",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-cat-home-unwelcome-pathogens.html",
-      "category": "Adaptive Capacity",
-      "observation": "Pets form an important part of many people's lives, providing meaningful companionship. However, our pets can sometimes also be a source of unwelcome pathogens and diseases, particularly if they frequently roam outdoors.",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "How you can stop your cat from bringing home unwelcome pathogens should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "ts": 1781352005000
-    },
-    {
-      "id": "adaptive-capacity-ai-sorts-cell-droplets-into-four-shapes-uncovering-drug-effects-in-human-cells",
-      "title": "AI sorts cell droplets into four shapes, uncovering drug effects in human cells",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-ai-cell-droplets-uncovering-drug.html",
-      "category": "Adaptive Capacity",
-      "observation": "Researchers at Princeton University have harnessed AI to understand how drugs affect the dynamics of vital structures within the cell, introducing a tool that can map the shape of these structures to functional outcomes …",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "AI sorts cell droplets into four shapes, uncovering drug effects in human cells should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "ts": 1781346001000
-    },
-    {
-      "id": "reality-discovery-spacex-five-key-moments-from-first-launch-to-starship-megarocket",
-      "title": "SpaceX: Five key moments, from first launch to Starship megarocket",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-spacex-key-moments-starship-megarocket.html",
-      "category": "Reality Discovery",
-      "observation": "More than 20 years after its founding, SpaceX made history Friday with its record-high stock market debut, crowning a unique journey marked by dazzling successes but also catastrophic failures and unfulfilled promises.",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "SpaceX: Five key moments, from first launch to Starship megarocket should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 8.3,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.6,
-        "overall": 6.2
-      },
-      "ts": 1781345694000
-    },
-    {
-      "id": "adaptive-capacity-lab-grown-canine-muscle-cells-offer-solution-for-early-therapeutic-testing",
-      "title": "Lab-grown canine muscle cells offer solution for early therapeutic testing",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-lab-grown-canine-muscle-cells.html",
-      "category": "Adaptive Capacity",
-      "observation": "Before testing new therapies in animals, researchers now have a more efficient starting point—lab-grown canine muscle cells that can help identify what works and what doesn't.",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Lab-grown canine muscle cells offer solution for early therapeutic testing should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
-        "overall": 6.4
-      },
-      "ts": 1781318401000
-    },
-    {
-      "id": "adaptive-capacity-faster-biological-aging-consistently-linked-to-poverty-and-discrimination",
-      "title": "Faster biological aging consistently linked to poverty and discrimination",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-faster-biological-aging-linked-poverty.html",
-      "category": "Adaptive Capacity",
-      "observation": "By integrating findings from 140 studies and nearly 66,000 individuals, researchers from the Biosocial team at the Max Planck Institute for Human Development in collaboration with Columbia University in New York have sho…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Faster biological aging consistently linked to poverty and discrimination should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8,
-        "civilizationImpact": 6.8,
-        "overall": 6.2
-      },
-      "ts": 1781312403000
-    },
-    {
-      "id": "reality-discovery-meet-remora-the-autonomous-space-fleet-built-to-tag-and-track-asteroids",
-      "title": "Meet REMORA: The autonomous space fleet built to tag and track asteroids",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-remora-autonomous-space-fleet-built.html",
-      "category": "Reality Discovery",
-      "observation": "To truly understand what an asteroid is made of, we need to send a probe to it. Remote sensing from ground-based telescopes, or even orbiting observatories, can only do so much. A new white paper submitted to the U.K. Sp…",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Meet REMORA: The autonomous space fleet built to tag and track asteroids should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 9.1,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.6,
-        "overall": 6.4
-      },
-      "ts": 1781308801000
     },
     {
       "id": "reality-discovery-spacex-shares-rise-nearly-20-in-historic-ipo",
@@ -1263,46 +1343,6 @@
       "ts": 1781258400000
     },
     {
-      "id": "capability-expansion-one-photon-two-reactions-new-catalyst-converts-co-and-biowaste-simultaneously",
-      "title": "One photon, two reactions—new catalyst converts CO₂ and biowaste simultaneously",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-photon-reactions-catalyst-biowaste-simultaneously.html",
-      "category": "Capability Expansion",
-      "observation": "Researchers have developed a solar-driven catalyst material that harnesses the energy of a single photon to reduce carbon dioxide and oxidize organic waste at the same time, producing valuable chemicals in both reactions…",
-      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "commentary": "One photon, two reactions—new catalyst converts CO₂ and biowaste simultaneously should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 7.9,
-        "infrastructureImpact": 6.3,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 5.8,
-        "overall": 6.2
-      },
-      "ts": 1781254803000
-    },
-    {
-      "id": "adaptive-capacity-combining-the-general-and-the-specific-for-urban-science-and-policy",
-      "title": "Combining the general and the specific for urban science and policy",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-combining-general-specific-urban-science.html",
-      "category": "Adaptive Capacity",
-      "observation": "As the world's population becomes more and more urban, cities are emerging as key components of the Anthropocene—both as major contributors to climate change and as potential trendsetters for innovation and action. But i…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Combining the general and the specific for urban science and policy should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "ts": 1781254801000
-    },
-    {
       "id": "adaptive-capacity-why-reprogramming-is-the-buzziest-approach-to-reversing-aging-right-now",
       "title": "Why “reprogramming” is the buzziest approach to reversing aging right now",
       "source": "MIT Technology Review",
@@ -1343,46 +1383,6 @@
       "ts": 1781254800000
     },
     {
-      "id": "adaptive-capacity-antarctic-peninsula-sees-record-high-june-temperatures",
-      "title": "Antarctic Peninsula sees record high June temperatures",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-antarctic-peninsula-high-june-temperatures.html",
-      "category": "Adaptive Capacity",
-      "observation": "Temperatures in the Antarctic Peninsula have reached a record-breaking high of 15.4C for June, and ice is melting at abnormal rates during the current winter, climate scientists told AFP on Thursday.",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Antarctic Peninsula sees record high June temperatures should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "ts": 1781252402000
-    },
-    {
-      "id": "reality-discovery-spacex-ipo-set-for-liftoff-in-record-market-debut",
-      "title": "SpaceX IPO set for liftoff in record market debut",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-spacex-ipo-liftoff-debut.html",
-      "category": "Reality Discovery",
-      "observation": "Elon Musk's SpaceX was set to begin trading on the Nasdaq exchange Friday, with the biggest initial public offering in history expected to make the polarizing entrepreneur the world's first trillionaire.",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "SpaceX IPO set for liftoff in record market debut should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 8.3,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.6,
-        "overall": 6.2
-      },
-      "ts": 1781251801000
-    },
-    {
       "id": "reality-discovery-earth-from-space-buenos-aires",
       "title": "Earth from Space: Buenos Aires",
       "source": "ESA",
@@ -1401,26 +1401,6 @@
         "overall": 6.1
       },
       "ts": 1781251200000
-    },
-    {
-      "id": "reality-discovery-science-fiction-musk-s-lofty-spacex-goals-unrealistic-skeptics-say",
-      "title": "Science fiction? Musk's lofty SpaceX goals unrealistic, skeptics say",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-science-fiction-musk-lofty-spacex.html",
-      "category": "Reality Discovery",
-      "observation": "Elon Musk's SpaceX has made awe-inspiring achievements since its founding more than two decades ago and has big ideas—colonies on Mars, orbital AI data centers, rapidly reusable rockets—for the future.",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Science fiction? Musk's lofty SpaceX goals unrealistic, skeptics say should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 7.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 6.3,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.3,
-        "overall": 6.3
-      },
-      "ts": 1781251106000
     },
     {
       "id": "infrastructure-formation-conversations-in-the-sky-galileo-s-intersatellite-links-tested",
@@ -1483,14 +1463,14 @@
       "ts": 1781236860000
     },
     {
-      "id": "adaptive-capacity-a-generalized-framework-for-performance-based-earthquake-engineering-integrated-",
-      "title": "A generalized framework for performance-based earthquake engineering: integrated assessment of structural reliability and resilience",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12448",
+      "id": "adaptive-capacity-metal-driven-chemical-reaction-in-deep-sea-may-explain-origin-of-life",
+      "title": "Metal-driven chemical reaction in deep sea may explain origin of life",
+      "source": "Science",
+      "originalUrl": "https://www.science.org/content/article/metal-driven-chemical-reaction-deep-sea-may-explain-origin-life",
       "category": "Adaptive Capacity",
-      "observation": "arXiv:2606.12448v1 Announce Type: new Abstract: Assessing structural performance under seismic hazard requires accounting for both damage accumulation and post-event recovery. In current performance-based earthquake engi…",
+      "observation": "Group offers new scenario for how cells came to rely on phosphate molecules to build DNA and store energy",
       "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "A generalized framework for performance-based earthquake engineering: integrated assessment of structural reliability and resilience should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "Metal-driven chemical reaction in deep sea may explain origin of life should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
       "score": {
         "realityDiscovery": 5.9,
         "capabilityExpansion": 5.5,
@@ -1500,507 +1480,527 @@
         "civilizationImpact": 7.2,
         "overall": 6.4
       },
-      "ts": 1781236800000
+      "ts": 1781229300000
     },
     {
-      "id": "reality-discovery-erdal-in-on-u-at-100-from-the-sphere-to-the-plane",
-      "title": "Erdal \\.In\\\"on\\\"u at 100: From the Sphere to the Plane",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12452",
+      "id": "reality-discovery-aac-clyde-space-wins-esa-contract-to-complete-maritime-monitoring-constellation",
+      "title": "AAC Clyde Space wins ESA contract to complete maritime-monitoring constellation",
+      "source": "SpaceNews",
+      "originalUrl": "https://spacenews.com/aac-clyde-space-wins-esa-contract-to-complete-maritime-monitoring-constellation/",
       "category": "Reality Discovery",
-      "observation": "arXiv:2606.12452v1 Announce Type: new Abstract: On the centennial of Erdal \\.In\\\"on\\\"u's birth, this article reflects on his scientific legacy and his role in shaping modern theoretical physics in T\\\"urkiye. We briefly d…",
+      "observation": "SAN FRANCISCO – The European Space Agency awarded AAC Clyde Space a 10.9 million euro ($12.6 million) contract to complete development and demonstrate VHF Data Exchange System (VDES) satellites for […] The post AAC Clyde…",
       "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Erdal \\.In\\\"on\\\"u at 100: From the Sphere to the Plane should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "AAC Clyde Space wins ESA contract to complete maritime-monitoring constellation should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
       "score": {
-        "realityDiscovery": 9.1,
+        "realityDiscovery": 7.9,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 6.3,
+        "synchronizationImpact": 6.7,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.4
+      },
+      "ts": 1781222766000
+    },
+    {
+      "id": "civilization-engineering-why-we-seek-to-fly-books-in-brief",
+      "title": "Why we seek to fly: Books in brief",
+      "source": "Nature",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-01911-z",
+      "category": "Civilization Engineering",
+      "observation": "Why we seek to fly: Books in brief",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Why we seek to fly: Books in brief should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "civilization-engineering-briefing-chat-the-epic-journey-of-stonehenge-s-central-stone",
+      "title": "Briefing Chat: The epic journey of Stonehenge’s central stone",
+      "source": "Nature",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-01912-y",
+      "category": "Civilization Engineering",
+      "observation": "Briefing Chat: The epic journey of Stonehenge’s central stone",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Briefing Chat: The epic journey of Stonehenge’s central stone should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "civilization-engineering-i-advise-the-vatican-and-the-un-on-ai-don-t-dismiss-the-pope-s-message-as-theolo",
+      "title": "I advise the Vatican and the UN on AI — don’t dismiss the Pope’s message as theology",
+      "source": "Nature",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-01876-z",
+      "category": "Civilization Engineering",
+      "observation": "I advise the Vatican and the UN on AI — don’t dismiss the Pope’s message as theology",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "I advise the Vatican and the UN on AI — don’t dismiss the Pope’s message as theology should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "civilization-engineering-student-geng-ignites-research-integrity-scandal-in-china-after-calling-out-senio",
+      "title": "‘Student Geng’ ignites research-integrity scandal in China after calling out senior academics<b> </b>",
+      "source": "Nature",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-01902-0",
+      "category": "Civilization Engineering",
+      "observation": "‘Student Geng’ ignites research-integrity scandal in China after calling out senior academics<b> </b>",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "‘Student Geng’ ignites research-integrity scandal in China after calling out senior academics<b> </b> should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "civilization-engineering-humans-outperform-ai-at-this-highly-rigorous-mathematics-test",
+      "title": "Humans outperform AI at this highly rigorous mathematics test",
+      "source": "Nature",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-01888-9",
+      "category": "Civilization Engineering",
+      "observation": "Humans outperform AI at this highly rigorous mathematics test",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Humans outperform AI at this highly rigorous mathematics test should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "civilization-engineering-an-innovative-technology-boosts-image-quality-for-protein-structures",
+      "title": "An innovative technology boosts image quality for protein structures",
+      "source": "Nature",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-01858-1",
+      "category": "Civilization Engineering",
+      "observation": "An innovative technology boosts image quality for protein structures",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "An innovative technology boosts image quality for protein structures should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "adaptive-capacity-how-preply-combines-ai-and-human-tutors-to-personalize-learning",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "source": "OpenAI",
+      "originalUrl": "https://openai.com/index/preply",
+      "category": "Adaptive Capacity",
+      "observation": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "How Preply combines AI and human tutors to personalize learning should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
         "capabilityExpansion": 5.5,
         "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "adaptive-capacity-the-hong-kong-genome-project-is-a-flagship-initiative-for-precision-medicine-in-",
+      "title": "The Hong Kong Genome Project is a flagship initiative for precision medicine in Chinese populations",
+      "source": "Nature Medicine",
+      "originalUrl": "https://www.nature.com/articles/s41591-026-04421-7",
+      "category": "Adaptive Capacity",
+      "observation": "The Hong Kong Genome Project is a flagship initiative for precision medicine in Chinese populations",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "The Hong Kong Genome Project is a flagship initiative for precision medicine in Chinese populations should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "civilization-engineering-efficacy-and-target-engagement-of-dopamine-agonist-pramipexole-for-anhedonic-dep",
+      "title": "Efficacy and target engagement of dopamine agonist pramipexole for anhedonic depression: a randomized placebo-controlled trial",
+      "source": "Nature Medicine",
+      "originalUrl": "https://www.nature.com/articles/s41591-026-04465-9",
+      "category": "Civilization Engineering",
+      "observation": "Efficacy and target engagement of dopamine agonist pramipexole for anhedonic depression: a randomized placebo-controlled trial",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Efficacy and target engagement of dopamine agonist pramipexole for anhedonic depression: a randomized placebo-controlled trial should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "adaptive-capacity-general-purpose-large-language-models-outperform-specialized-clinical-ai-tools-o",
+      "title": "General-purpose large language models outperform specialized clinical AI tools on medical benchmarks",
+      "source": "Nature Medicine",
+      "originalUrl": "https://www.nature.com/articles/s41591-026-04431-5",
+      "category": "Adaptive Capacity",
+      "observation": "General-purpose large language models outperform specialized clinical AI tools on medical benchmarks",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "General-purpose large language models outperform specialized clinical AI tools on medical benchmarks should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "ts": 1781222400000
+    },
+    {
+      "id": "civilization-engineering-songs-prep-the-brains-of-finches-yet-to-hatch-for-a-hot-world",
+      "title": "Songs prep the brains of finches yet to hatch for a hot world",
+      "source": "Science News",
+      "originalUrl": "https://www.sciencenews.org/article/songs-prep-unhatched-finches-hot-world",
+      "category": "Civilization Engineering",
+      "observation": "Adult finches make \"heat calls\" as the temperature rises. Exposure to the song prepares their unhatched young's brains for the heat.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Songs prep the brains of finches yet to hatch for a hot world should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781215200000
+    },
+    {
+      "id": "civilization-engineering-nvidia-stockholder-meeting-set-for-june-24-individuals-can-participate-online",
+      "title": "NVIDIA Stockholder Meeting Set for June 24; Individuals Can Participate Online",
+      "source": "NVIDIA",
+      "originalUrl": "https://nvidianews.nvidia.com/news/nvidia-stockholder-meeting-set-for-june-24-individuals-can-participate-online",
+      "category": "Civilization Engineering",
+      "observation": "NVIDIA today announced it will hold its 2026 Annual Meeting of Stockholders online on Wednesday, June 24, at 9 a.m. PT. The meeting will take place virtually at https://www.virtualshareholdermeeting.com/NVDA2026.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "NVIDIA Stockholder Meeting Set for June 24; Individuals Can Participate Online should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781213520000
+    },
+    {
+      "id": "reality-discovery-nasa-award-boosts-space-technology-research-capabilities",
+      "title": "NASA Award Boosts Space Technology Research Capabilities",
+      "source": "NASA",
+      "originalUrl": "https://www.nasa.gov/learning-resources/stem-engagement-at-nasa/murep/nasa-award-boosts-space-technology-research-capabilities/",
+      "category": "Reality Discovery",
+      "observation": "NASA is introducing a new funding opportunity to accelerate academic research and technology development. The Minority University Research and Education Project Space Technology Artemis Research (M‑STAR) application wind…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "NASA Award Boosts Space Technology Research Capabilities should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 8.3,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.6,
+        "overall": 6.2
+      },
+      "ts": 1781212484000
+    },
+    {
+      "id": "civilization-engineering-nasa-s-chandra-discovers-possible-supernova-remnant-in-galactic-center",
+      "title": "NASA’s Chandra Discovers Possible Supernova Remnant in Galactic Center",
+      "source": "NASA",
+      "originalUrl": "https://science.nasa.gov/missions/chandra/nasas-chandra-discovers-possible-supernova-remnant-in-galactic-center/",
+      "category": "Civilization Engineering",
+      "observation": "Using data from NASA’s Chandra X-ray Observatory, astronomers may have found a supernova remnant in an intriguing neighborhood in the middle of our galaxy. A paper describing these new findings published in The Astrophys…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "NASA’s Chandra Discovers Possible Supernova Remnant in Galactic Center should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "ts": 1781210504000
+    },
+    {
+      "id": "reality-discovery-i-am-artemis-elkin-norena",
+      "title": "I Am Artemis: Elkin Norena",
+      "source": "NASA",
+      "originalUrl": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-elkin-norena/",
+      "category": "Reality Discovery",
+      "observation": "Listen to this audio excerpt from Elkin Norena, resident management officer, NASA’s Space Launch System Program: NASA’s Elkin Norena has helped the agency launch more than a dozen space shuttle missions – that’s more tha…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "I Am Artemis: Elkin Norena should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 7.9,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.1
+      },
+      "ts": 1781208453000
+    },
+    {
+      "id": "reality-discovery-vandenberg-offers-new-launch-site-for-small-and-medium-rockets",
+      "title": "Vandenberg offers new launch site for small and medium rockets",
+      "source": "SpaceNews",
+      "originalUrl": "https://spacenews.com/vandenberg-offers-new-launch-site-for-small-and-medium-rockets/",
+      "category": "Reality Discovery",
+      "observation": "The U.S. Space Force is seeking potential users of a new launch site at Vandenberg Space Force Base reserved for smaller rockets. The post Vandenberg offers new launch site for small and medium rockets appeared first on …",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "Vandenberg offers new launch site for small and medium rockets should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 8.3,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.6,
+        "overall": 6.2
+      },
+      "ts": 1781207761000
+    },
+    {
+      "id": "reality-discovery-understanding-what-s-next-for-orbital-data-centers",
+      "title": "Understanding what’s next for orbital data centers",
+      "source": "SpaceNews",
+      "originalUrl": "https://spacenews.com/understanding-whats-next-for-orbital-data-centers/",
+      "category": "Reality Discovery",
+      "observation": "This episode of Space Minds is from SpaceNews’ recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what’s driving interest in the technology, […] The post Unde…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "Understanding what’s next for orbital data centers should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "score": {
+        "realityDiscovery": 8.3,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 6.3,
         "synchronizationImpact": 5.9,
         "adaptiveCapacity": 5.5,
         "civilizationImpact": 6.6,
         "overall": 6.4
       },
-      "ts": 1781236800000
+      "ts": 1781206683000
     },
     {
-      "id": "adaptive-capacity-hyperstatistical-thermodynamics-of-the-one-dimensional-klein-gordon-and-dirac-os",
-      "title": "Hyperstatistical thermodynamics of the one-dimensional Klein-Gordon and Dirac oscillators: a closed-form q-generalized Boltzmann factor and a quantitative comparison with Beck's superstatistics",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12454",
-      "category": "Adaptive Capacity",
-      "observation": "arXiv:2606.12454v1 Announce Type: new Abstract: We revisit the thermodynamics of the one-dimensional Klein-Gordon (KGO) and Dirac (DO) oscillators within two frameworks of generalized statistics: Beck's asymptotic supers…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Hyperstatistical thermodynamics of the one-dimensional Klein-Gordon and Dirac oscillators: a closed-form q-generalized Boltzmann factor and a quantitative comparison with Beck's superstatistics should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "id": "civilization-engineering-measles-has-no-treatments-changing-that-may-not-be-easy",
+      "title": "Measles has no treatments. Changing that may not be easy",
+      "source": "Science News",
+      "originalUrl": "https://www.sciencenews.org/article/measles-treatments-vaccine-clinical-trial",
+      "category": "Civilization Engineering",
+      "observation": "Vaccination remains the priority, but some researchers are looking for drugs to fight the virus in people who don't get the shot.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Measles has no treatments. Changing that may not be easy should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
       "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
         "overall": 6.4
       },
-      "ts": 1781236800000
+      "ts": 1781204663000
     },
     {
-      "id": "infrastructure-formation-network-based-multi-layer-model-using-machine-learning-for-optimal-vaccine-prior",
-      "title": "Network-Based Multi-Layer Model Using Machine Learning for Optimal Vaccine Prioritization in Heterogeneous Populations",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12456",
-      "category": "Infrastructure Formation",
-      "observation": "arXiv:2606.12456v1 Announce Type: new Abstract: This work advances epidemic control beyond traditional mass vaccination models by integrating population heterogeneity, network structure, and machine-learning-based decisi…",
-      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "commentary": "Network-Based Multi-Layer Model Using Machine Learning for Optimal Vaccine Prioritization in Heterogeneous Populations should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 8.7,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 6.4,
-        "civilizationImpact": 7.2,
-        "overall": 6.6
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "reality-discovery-quantum-entanglement-beyond-kinematics-a-dynamical-hypothesis-in-3-2-dimensional",
-      "title": "Quantum Entanglement Beyond Kinematics: A Dynamical Hypothesis in (3,2)-Dimensional Spacetime",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12457",
+      "id": "reality-discovery-nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-detectors",
+      "title": "NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors",
+      "source": "NASA",
+      "originalUrl": "https://science.nasa.gov/missions/tech-demonstration/nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-detectors/",
       "category": "Reality Discovery",
-      "observation": "arXiv:2606.12457v1 Announce Type: new Abstract: Quantum entanglement produces nonlocal correlations for which no local dynamical account is known. In Ref.[1] we proposed that these correlations are mediated through an ex…",
+      "observation": "A new type of gamma-ray sensor developed by NASA will take part in a robotic arm demonstration on the agency’s upcoming Fly Foundational Robots mission.",
       "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Quantum Entanglement Beyond Kinematics: A Dynamical Hypothesis in (3,2)-Dimensional Spacetime should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
       "score": {
         "realityDiscovery": 9.1,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.9,
+        "capabilityExpansion": 6.3,
+        "infrastructureImpact": 6,
+        "synchronizationImpact": 6.7,
         "adaptiveCapacity": 5.5,
         "civilizationImpact": 6.6,
-        "overall": 6.4
+        "overall": 6.7
       },
-      "ts": 1781236800000
+      "ts": 1781204377000
     },
     {
-      "id": "adaptive-capacity-generalized-fock-lorentz-transformations-from-projective-conformal-coordinates-a",
-      "title": "Generalized Fock--Lorentz Transformations from Projective Conformal Coordinates and Their Application to One-Dimensional Relativistic Oscillators",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12459",
-      "category": "Adaptive Capacity",
-      "observation": "arXiv:2606.12459v1 Announce Type: new Abstract: We present a compact and systematic formulation of the generalized Fock--Lorentz (FL) transformations. The construction is based on a family of auxiliary Minkowski coordina…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Generalized Fock--Lorentz Transformations from Projective Conformal Coordinates and Their Application to One-Dimensional Relativistic Oscillators should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
-        "overall": 6.4
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "infrastructure-formation-sovereign-stress-avalanches-and-network-amplification-in-latin-america",
-      "title": "Sovereign Stress Avalanches and Network Amplification in Latin America",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12460",
-      "category": "Infrastructure Formation",
-      "observation": "arXiv:2606.12460v1 Announce Type: new Abstract: This paper studies sovereign stress avalanches and network amplification in Latin American credit markets using monthly J.P. Morgan EMBI Global Diversified spreads for elev…",
-      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "commentary": "Sovereign Stress Avalanches and Network Amplification in Latin America should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 8.7,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.8,
-        "overall": 6.4
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "adaptive-capacity-kinematic-probes-of-type-ii-mmg-pad-e-cosmographic-analysis-of-vcdm",
-      "title": "Kinematic Probes of Type-II MMG: Pad\\'e Cosmographic Analysis of VCDM",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12464",
-      "category": "Adaptive Capacity",
-      "observation": "arXiv:2606.12464v1 Announce Type: new Abstract: We study the late-time expansion history of the Universe within the VCDM model, a Type-II MMG realization that preserves the successes of General Relativity while extending…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Kinematic Probes of Type-II MMG: Pad\\'e Cosmographic Analysis of VCDM should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
-        "overall": 6.4
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "civilization-engineering-a-systematic-review-of-covid-19-epidemic-models-with-endogenous-human-behaviour-",
-      "title": "A systematic review of COVID-19 epidemic models with endogenous human behaviour. What's next?",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12465",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12465v1 Announce Type: new Abstract: Human behaviour and epidemic dynamics are intertwined, yet accounting for this feedback remains one of the key challenges of epidemiological modelling. The COVID-19 pandemi…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "A systematic review of COVID-19 epidemic models with endogenous human behaviour. What's next? should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "reality-discovery-experimental-updates-on-development-of-accelerator-driven-ion-source-at-triumf-t",
-      "title": "Experimental updates on development of accelerator-driven ion source at TRIUMF to benchmark Ba-tagging techniques for future neutrinoless double beta decay searches",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12468",
+      "id": "reality-discovery-senate-ndaa-backs-plan-to-fold-sda-space-rco-into-space-force",
+      "title": "Senate NDAA backs plan to fold SDA, Space RCO into Space Force",
+      "source": "SpaceNews",
+      "originalUrl": "https://spacenews.com/senate-ndaa-backs-plan-to-fold-sda-space-rco-into-space-force/",
       "category": "Reality Discovery",
-      "observation": "arXiv:2606.12468v1 Announce Type: new Abstract: Neutrinoless double beta decay ($0\\nu\\beta\\beta$) could provide a way to probe physics beyond the Standard Model of particle physics. The proposed nEXO experiment aims to s…",
+      "observation": "The committee's 2027 defense bill would eliminate separate statutory requirements for the two acquisition organizations while advancing broader Pentagon procurement reforms The post Senate NDAA backs plan to fold SDA, Sp…",
       "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Experimental updates on development of accelerator-driven ion source at TRIUMF to benchmark Ba-tagging techniques for future neutrinoless double beta decay searches should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "Senate NDAA backs plan to fold SDA, Space RCO into Space Force should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
       "score": {
-        "realityDiscovery": 9.1,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.6,
-        "overall": 6.4
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "civilization-engineering-a-mathematical-theory-of-value-a-synthesis-on-goal-directed-agency-under-resourc",
-      "title": "A Mathematical Theory of Value: a synthesis on goal-directed agency under resource constraints",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12502",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12502v1 Announce Type: new Abstract: We propose that value -- the quantity goal-directed agents create, destroy, and exchange -- is a lawful structural quantity in the same category as information. Following S…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "A Mathematical Theory of Value: a synthesis on goal-directed agency under resource constraints should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "civilization-engineering-feature-preserving-latent-enkf-for-data-assimilation-of-flows-with-shocks",
-      "title": "Feature-preserving Latent-EnKF for Data Assimilation of Flows with Shocks",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12559",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12559v1 Announce Type: new Abstract: The ensemble Kalman filter (EnKF) is widely adopted for sequential data assimilation, but fails for solutions with discontinuities, such as shocks in compressible flows. Un…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Feature-preserving Latent-EnKF for Data Assimilation of Flows with Shocks should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "civilization-engineering-scar-dynamics-of-adolescent-substance-use-peer-influence-dropout-and-bifurcation",
-      "title": "SCAR dynamics of adolescent substance use: peer influence, dropout, and bifurcation structure in a school-based model",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12564",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12564v1 Announce Type: new Abstract: We develop a four-compartment susceptible--casual--addicted--resistant (SCAR) model for adolescent substance use in a high-school setting. The model divides students into s…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "SCAR dynamics of adolescent substance use: peer influence, dropout, and bifurcation structure in a school-based model should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "civilization-engineering-hierarchical-framework-of-runaway-electrons-using-deep-learning",
-      "title": "Hierarchical Framework of Runaway Electrons using Deep Learning",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12567",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12567v1 Announce Type: new Abstract: We present an adjoint deep learning framework describing the evolution of fluid moments and the energy distribution of the runaway electron (RE) population. We demonstrate …",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Hierarchical Framework of Runaway Electrons using Deep Learning should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "adaptive-capacity-hydrodynamic-resistance-on-oscillating-planar-interfacial-bodies",
-      "title": "Hydrodynamic Resistance on Oscillating Planar Interfacial Bodies",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12570",
-      "category": "Adaptive Capacity",
-      "observation": "arXiv:2606.12570v1 Announce Type: new Abstract: We study the unsteady dynamics of floating planar bodies undergoing lateral oscillations along an air-water interface. Scaling arguments indicate that at high Womersley num…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Hydrodynamic Resistance on Oscillating Planar Interfacial Bodies should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.9,
+        "realityDiscovery": 7.9,
         "capabilityExpansion": 5.5,
         "infrastructureImpact": 5.5,
         "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
-        "overall": 6.4
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "capability-expansion-the-strasse-liquid-hydrogen-target-system",
-      "title": "The STRASSE liquid hydrogen target system",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12582",
-      "category": "Capability Expansion",
-      "observation": "arXiv:2606.12582v1 Announce Type: new Abstract: A compact liquid hydrogen target system has been developed for the Silicon Tracker for RAdioactive nuclei Studies at SAMURAI Experiments (STRASSE) at the RIKEN Nishina Cent…",
-      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "commentary": "The STRASSE liquid hydrogen target system should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 8.7,
-        "infrastructureImpact": 6.8,
-        "synchronizationImpact": 5.5,
         "adaptiveCapacity": 5.5,
-        "civilizationImpact": 5.8,
+        "civilizationImpact": 6.3,
+        "overall": 6.1
+      },
+      "ts": 1781203255000
+    },
+    {
+      "id": "civilization-engineering-esa-astronaut-assignment-on-artemis-3-part-of-negotiations-on-revised-artemis-ro",
+      "title": "ESA astronaut assignment on Artemis 3 part of negotiations on revised Artemis roles",
+      "source": "SpaceNews",
+      "originalUrl": "https://spacenews.com/esa-astronaut-assignment-on-artemis-3-part-of-negotiations-on-revised-artemis-roles/",
+      "category": "Civilization Engineering",
+      "observation": "The assignment of an ESA astronaut to Artemis 3 is part of negotiations for revised roles in the overall effort, with a goal of getting its astronauts on the moon. The post ESA astronaut assignment on Artemis 3 part of n…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "ESA astronaut assignment on Artemis 3 part of negotiations on revised Artemis roles should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
         "overall": 6.4
       },
-      "ts": 1781236800000
+      "ts": 1781199230000
     },
     {
-      "id": "civilization-engineering-a-conformally-euclidean-line-element-for-evaluating-color-differences",
-      "title": "A conformally-Euclidean Line Element for evaluating color differences",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12588",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12588v1 Announce Type: new Abstract: Starting from our previously proposed line element and considering more ``surface color'' datasets, we derive a simplified version which matches experimental datasets equal…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "A conformally-Euclidean Line Element for evaluating color differences should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "civilization-engineering-beam-modelling-of-hitachi-probeat-proton-therapy-system-for-a-gpu-based-fast-mon",
-      "title": "Beam modelling of Hitachi PROBEAT proton therapy system for a GPU-based Fast Monte Carlo dose engine",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12602",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12602v1 Announce Type: new Abstract: Background: An in-house dose engine independent of clinic TPS is not only a reliable tool for patient QA verification. More importantly, it plays vital role in cutting-edge…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Beam modelling of Hitachi PROBEAT proton therapy system for a GPU-based Fast Monte Carlo dose engine should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "civilization-engineering-dynamical-large-deviations-and-long-range-correlations-for-local-weak-wave-turbu",
-      "title": "Dynamical large deviations and long-range correlations for local weak wave turbulence",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12624",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12624v1 Announce Type: new Abstract: Wave turbulence describes the statistical dynamics of dispersive waves with weakly nonlinear interactions. While the classical kinetic equation captures the mean evolution …",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Dynamical large deviations and long-range correlations for local weak wave turbulence should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "reality-discovery-teaching-maxwell-s-equations-from-2d-to-3d-with-bivectors",
-      "title": "Teaching Maxwell's Equations from 2D to 3D with Bivectors",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12626",
+      "id": "reality-discovery-soccer-meets-space-science",
+      "title": "Soccer Meets Space Science",
+      "source": "NASA Image of the Day",
+      "originalUrl": "https://www.nasa.gov/image-detail/iss074e0349331/",
       "category": "Reality Discovery",
-      "observation": "arXiv:2606.12626v1 Announce Type: new Abstract: Electromagnetism is one of the few core physics topics without simple two-dimensional examples to start from: the cross product and curl require three dimensions. Previous …",
+      "observation": "Researchers tested soccer balls aboard the International Space Station to study how internal mass affects motion and stability in microgravity.",
       "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Teaching Maxwell's Equations from 2D to 3D with Bivectors should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "Soccer Meets Space Science should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
       "score": {
-        "realityDiscovery": 9.1,
+        "realityDiscovery": 8.7,
         "capabilityExpansion": 5.5,
         "infrastructureImpact": 5.5,
         "synchronizationImpact": 5.9,
         "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.6,
-        "overall": 6.4
+        "civilizationImpact": 6.3,
+        "overall": 6.3
       },
-      "ts": 1781236800000
+      "ts": 1781197020000
     },
     {
-      "id": "civilization-engineering-two-pathways-to-diapycnal-mixing-in-strongly-stratified-flows-with-no-initial-ve",
-      "title": "Two pathways to diapycnal mixing in strongly stratified flows with no initial vertical shear",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12627",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12627v1 Announce Type: new Abstract: While vertically-sheared stratified flows have been studied extensively, their horizontally-sheared counterparts have received considerably less attention. Yet, horizontal …",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Two pathways to diapycnal mixing in strongly stratified flows with no initial vertical shear should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "id": "reality-discovery-soccer-meets-space-science",
+      "title": "Soccer Meets Space Science",
+      "source": "NASA",
+      "originalUrl": "https://www.nasa.gov/image-article/soccer-meets-space-science/",
+      "category": "Reality Discovery",
+      "observation": "A soccer ball floats in microgravity in this March 2, 2026, picture from the International Space Station. The space station crew tested soccer balls to study how internal mass affects motion and stability in microgravity…",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "Soccer Meets Space Science should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
       "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
+        "realityDiscovery": 8.7,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.9,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.3
       },
-      "ts": 1781236800000
+      "ts": 1781196912000
     },
     {
-      "id": "adaptive-capacity-from-loss-diagnosis-to-rational-design-a-unified-analytical-model-for-photoelect",
-      "title": "From Loss Diagnosis to Rational Design: A Unified Analytical Model for Photoelectrochemical Cells",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12641",
-      "category": "Adaptive Capacity",
-      "observation": "arXiv:2606.12641v1 Announce Type: new Abstract: Photoelectrochemical (PEC) cells are a compelling route to solar-driven chemical energy storage and feedstock synthesis, yet their deployment is hindered by coupled losses …",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "From Loss Diagnosis to Rational Design: A Unified Analytical Model for Photoelectrochemical Cells should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "id": "reality-discovery-hyimpulse-signs-letter-of-intent-with-oman-s-spaceport",
+      "title": "HyImpulse signs letter of intent with Oman’s spaceport",
+      "source": "SpaceNews",
+      "originalUrl": "https://spacenews.com/hyimpulse-signs-letter-of-intent-with-omans-spaceport/",
+      "category": "Reality Discovery",
+      "observation": "MILAN — Etlaq Spaceport, Oman’s commercial spaceport, and German-based small launch provider HyImpulse have signed a letter of intent to explore future launch-related activities and a potential operational presence in [……",
+      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+      "commentary": "HyImpulse signs letter of intent with Oman’s spaceport should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
       "score": {
-        "realityDiscovery": 5.9,
+        "realityDiscovery": 7.9,
         "capabilityExpansion": 6,
         "infrastructureImpact": 6,
         "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
-        "overall": 6.5
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 6.3,
+        "overall": 6.2
       },
-      "ts": 1781236800000
+      "ts": 1781196228000
     },
     {
-      "id": "civilization-engineering-self-reconstructing-codazzi-defects-mathbb-cp-1-quantization-and-the-minimal-sta",
-      "title": "Self-Reconstructing Codazzi Defects, $\\mathbb{CP}^1$ Quantization, and the Minimal Standard-Model Carrier",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12693",
+      "id": "civilization-engineering-nasa-s-career-technical-education-day-highlights-technical-careers",
+      "title": "NASA’s Career Technical Education Day Highlights Technical Careers",
+      "source": "NASA",
+      "originalUrl": "https://www.nasa.gov/centers-and-facilities/langley/nasas-career-technical-education-day-highlights-technical-careers/",
       "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12693v1 Announce Type: new Abstract: A local reconstruction problem for a primitive optical Codazzi defect in a four-dimensional Lorentzian branch is analyzed. After resolution of the worldline core, the link …",
+      "observation": "At NASA, remaining a global leader in exploration and innovation includes having a skilledand dedicated workforce. Technicians play a critical role in advancing the agency’sresearch and missions, applying hands-on expert…",
       "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Self-Reconstructing Codazzi Defects, $\\mathbb{CP}^1$ Quantization, and the Minimal Standard-Model Carrier should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "NASA’s Career Technical Education Day Highlights Technical Careers should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
       "score": {
-        "realityDiscovery": 6.6,
+        "realityDiscovery": 6.2,
         "capabilityExpansion": 6.2,
         "infrastructureImpact": 6.2,
         "synchronizationImpact": 6.2,
         "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "civilization-engineering-fine-tuning-mlip-foundation-models-strategies-for-accuracy-and-transferability",
-      "title": "Fine-tuning MLIP foundation models: strategies for accuracy and transferability",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12704",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12704v1 Announce Type: new Abstract: Adapting machine-learned interatomic potential (MLIP) foundation models to specialised tasks through fine-tuning is an increasingly important practice, yet systematic guida…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Fine-tuning MLIP foundation models: strategies for accuracy and transferability should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "civilization-engineering-plasma-frequency-waves-in-earth-s-electron-foreshock",
-      "title": "Plasma frequency waves in Earth's electron foreshock",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12741",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.12741v1 Announce Type: new Abstract: At Earth's quasi-perpendicular bow shock, electrons can be reflected and accelerated to high velocities, forming beams. These beams excite Langmuir and beam-mode waves, whi…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Plasma frequency waves in Earth's electron foreshock should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "ts": 1781236800000
-    },
-    {
-      "id": "adaptive-capacity-discrete-phase-symmetry-of-stationary-states-in-bichromatically-pumped-kerr-micr",
-      "title": "Discrete phase symmetry of stationary states in bichromatically pumped Kerr microresonators",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.12749",
-      "category": "Adaptive Capacity",
-      "observation": "arXiv:2606.12749v1 Announce Type: new Abstract: Bichromatically pumped Kerr microresonators exhibit phase bistability and multistability arising from four-wave mixing between pump and generated modes. Here we analyze the…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Discrete phase symmetry of stationary states in bichromatically pumped Kerr microresonators should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
+        "civilizationImpact": 7.3,
         "overall": 6.4
       },
-      "ts": 1781236800000
+      "ts": 1781194871000
     }
   ]
 }
