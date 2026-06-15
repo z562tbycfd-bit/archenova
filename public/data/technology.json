@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-06-15T13:18:24.994Z",
+  "updated": "2026-06-15T18:31:21.767Z",
   "items": [
+    {
+      "source": "IEEE Spectrum",
+      "title": "Engineering Is Critical to Boosting Food Security",
+      "url": "https://spectrum.ieee.org/engineering-critical-food-security",
+      "summary": "Nearly 750 million people face hunger today, according to the U.N. World Food Program. And by 2050, global demand for food is expected to increase by 50 percent from 2010 levels, the World Resources Institute says. A sma…",
+      "ts": 1781546401000,
+      "categoryId": "policy"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "This man with ALS is “the first power user” of a brain implant that lets him speak",
+      "url": "https://www.technologyreview.com/2026/06/15/1138953/man-als-first-power-user-brain-implant-speak-bci/",
+      "summary": "Casey Harrell has had a set of electrodes embedded in his brain for almost three years. Harrell, who has amyotrophic lateral sclerosis (ALS) and is paralyzed, first used his brain-computer interface (BCI) to “speak” sent…",
+      "ts": 1781536348000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Quanta",
+      "title": "How Many Elementary Particles Are There, Really?",
+      "url": "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/",
+      "summary": "Plausible answers range from 17 to — in all seriousness — 995.5. The post How Many Elementary Particles Are There, Really? first appeared on Quanta Magazine",
+      "ts": 1781536079000,
+      "categoryId": "quantum"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "DARPA to explore ways to rapidly rebuild satellite networks if attacked",
+      "url": "https://spacenews.com/darpa-to-explore-ways-to-rapidly-rebuild-satellite-networks-if-attacked/",
+      "summary": "The agency is seeking novel concepts to restore critical satellite services within hours or weeks The post DARPA to explore ways to rapidly rebuild satellite networks if attacked appeared first on SpaceNews.",
+      "ts": 1781531704000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "What’s the Best Way to Monetize Space Energy?",
@@ -687,38 +719,6 @@
       "title": "Quantifying and detecting quantum-state texture",
       "url": "https://arxiv.org/abs/2604.07257",
       "summary": "arXiv:2604.07257v2 Announce Type: replace Abstract: Quantum-state texture is a recently proposed quantum resource that characterizes the inhomogeneity of a quantum state's matrix element distribution in the computational…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Interpreting Bohm-like quantum potentials in \"Computing quantum waves exactly from classical action\"",
-      "url": "https://arxiv.org/abs/2605.20443",
-      "summary": "arXiv:2605.20443v3 Announce Type: replace Abstract: The recent posting arXiv:2605.02621 [14], commenting on the article rspa.2025.0413 [7], argues that the proof of Lemma 3.1 in [7] is missing the spatial derivative of t…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Strategic Non-Shareability of Quantum Correlations",
-      "url": "https://arxiv.org/abs/2605.25516",
-      "summary": "arXiv:2605.25516v2 Announce Type: replace Abstract: Correlations distributed by a mediator can be useful for coordination but vulnerable to inheritance by a colluder. We formalize the obstruction to such inheritance as a…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Inhomogeneous Light-Matter Coupling as a Resource for Noiseless Quantum Memories",
-      "url": "https://arxiv.org/abs/2605.26783",
-      "summary": "arXiv:2605.26783v3 Announce Type: replace Abstract: Inhomogeneous ensembles of two-level systems are central to both fundamental light-matter physics and quantum-network applications. Understanding and optimizing ensembl…",
-      "ts": 1781496000000,
-      "categoryId": "quantum"
-    },
-    {
-      "source": "arXiv Quantum",
-      "title": "Extensible Fluxonium Architecture Using Tunable Couplers with Low Shunt Capacitance",
-      "url": "https://arxiv.org/abs/2606.01647",
-      "summary": "arXiv:2606.01647v2 Announce Type: replace Abstract: Fluxonium qubits have demonstrated high-fidelity operations and long coherence times in small-scale systems, highlighting their promise for quantum computing. However, …",
       "ts": 1781496000000,
       "categoryId": "quantum"
     }
