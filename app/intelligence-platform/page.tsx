@@ -16,6 +16,13 @@ const modules = [
   },
 
   {
+  title: "Horizon Map",
+  href: "/intelligence-platform/horizon",
+  text:
+    "Technology horizon mapping across domains, time horizons, readiness levels, and civilization-scale impact for strategic decision-making.",
+  },
+
+  {
     title: "Civilization Portfolio",
     href: "/intelligence-platform/portfolio",
     text:
