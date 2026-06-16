@@ -27,10 +27,14 @@ type Signal = {
 type HorizonItem = Signal & {
   domain: string;
   horizon: string;
+
   scientificReadiness: number;
   engineeringReadiness: number;
   industrialReadiness: number;
   civilizationalImpact: number;
+
+  priorityScore: number;
+  priorityLevel: string;
 };
 
 const domains = [
@@ -199,15 +203,35 @@ function makeHorizonItem(signal: Signal): HorizonItem {
     horizon = "50 Years";
   }
 
-  return {
-    ...signal,
-    domain: classifyDomain(signal),
-    horizon,
-    scientificReadiness,
-    engineeringReadiness,
-    industrialReadiness,
-    civilizationalImpact,
-  };
+  const priorityScore =
+  scientificReadiness * 0.20 +
+  engineeringReadiness * 0.25 +
+  industrialReadiness * 0.25 +
+  civilizationalImpact * 0.30;
+
+let priorityLevel = "Monitor";
+
+if (priorityScore >= 8) {
+  priorityLevel = "Strategic Priority";
+} else if (priorityScore >= 6.5) {
+  priorityLevel = "High Potential";
+} else if (priorityScore >= 5) {
+  priorityLevel = "Emerging";
+}
+
+return {
+  ...signal,
+  domain: classifyDomain(signal),
+  horizon,
+
+  scientificReadiness,
+  engineeringReadiness,
+  industrialReadiness,
+  civilizationalImpact,
+
+  priorityScore,
+  priorityLevel,
+};
 }
 
 function average(values: number[]) {
@@ -259,14 +283,9 @@ export default function ArcheNovaHorizonMapPage() {
   const horizonItems = signals
     .map(makeHorizonItem)
     .sort(
-      (a, b) =>
-        (b.civilizationalImpact +
-          b.engineeringReadiness +
-          b.industrialReadiness) -
-        (a.civilizationalImpact +
-          a.engineeringReadiness +
-          a.industrialReadiness)
-    );
+  (a, b) =>
+    b.priorityScore - a.priorityScore
+);
 
   const visibleItems = horizonItems.filter((item) => {
     const domainMatch =
@@ -386,6 +405,19 @@ export default function ArcheNovaHorizonMapPage() {
             <h3>Average Readiness</h3>
             <p>{readinessAverage.toFixed(1)} / 10</p>
           </div>
+
+<div className="research-report-card">
+  <h3>Top Priority</h3>
+
+  <p>
+    {visibleItems[0]?.priorityLevel ?? "—"}
+  </p>
+
+  <small>
+    {visibleItems[0]?.domain ?? "—"}
+  </small>
+</div>
+
         </div>
       </section>
 
@@ -407,6 +439,15 @@ export default function ArcheNovaHorizonMapPage() {
                 <div className="feed-title">
                   {item.title}
                 </div>
+
+                <div className="feed-summary">
+  Priority Score:{" "}
+  <strong>
+    {item.priorityScore.toFixed(1)} / 10
+  </strong>
+  {" · "}
+  {item.priorityLevel}
+</div>
 
                 <div className="feed-summary">
                   Scientific {item.scientificReadiness.toFixed(1)} / 10 ·
