@@ -35,6 +35,20 @@ type HorizonItem = Signal & {
 
   priorityScore: number;
   priorityLevel: string;
+
+  opportunityScore: number;
+  opportunityType: string;
+  opportunityRecommendation: string;
+
+  recommendedPathway: string;
+
+  instituteScore: number;
+  institutePriority: string;
+  instituteRationale: string;
+
+  capitalScore: number;
+  capitalPriority: string;
+  capitalRationale: string;
 };
 
 const domains = [
@@ -152,6 +166,13 @@ function clamp(value: number) {
   return Math.max(0, Math.min(10, Number(value.toFixed(1))));
 }
 
+function makeLevel(score: number) {
+  if (score >= 8) return "High";
+  if (score >= 6.5) return "Medium";
+  if (score >= 5) return "Emerging";
+  return "Monitor";
+}
+
 function makeHorizonItem(signal: Signal): HorizonItem {
   const scientificReadiness = clamp(
     signal.score?.realityDiscovery ??
@@ -192,46 +213,131 @@ function makeHorizonItem(signal: Signal): HorizonItem {
   ) {
     horizon = "10 Years";
   } else if (
-    scientificReadiness >= 7 &&
-    engineeringReadiness < 6
-  ) {
-    horizon = "20 Years";
-  } else if (
     civilizationalImpact >= 8 &&
     industrialReadiness < 5.5
   ) {
     horizon = "50 Years";
+  } else if (
+    scientificReadiness >= 7 &&
+    engineeringReadiness < 6
+  ) {
+    horizon = "20 Years";
   }
 
-  const priorityScore =
-  scientificReadiness * 0.20 +
-  engineeringReadiness * 0.25 +
-  industrialReadiness * 0.25 +
-  civilizationalImpact * 0.30;
+  const priorityScore = clamp(
+    scientificReadiness * 0.2 +
+      engineeringReadiness * 0.25 +
+      industrialReadiness * 0.25 +
+      civilizationalImpact * 0.3
+  );
 
-let priorityLevel = "Monitor";
+  let priorityLevel = "Monitor";
 
-if (priorityScore >= 8) {
-  priorityLevel = "Strategic Priority";
-} else if (priorityScore >= 6.5) {
-  priorityLevel = "High Potential";
-} else if (priorityScore >= 5) {
-  priorityLevel = "Emerging";
-}
+  if (priorityScore >= 8) {
+    priorityLevel = "Strategic Priority";
+  } else if (priorityScore >= 6.5) {
+    priorityLevel = "High Potential";
+  } else if (priorityScore >= 5) {
+    priorityLevel = "Emerging";
+  }
 
-return {
-  ...signal,
-  domain: classifyDomain(signal),
-  horizon,
+  const opportunityScore = clamp(
+    priorityScore * 0.45 +
+      engineeringReadiness * 0.2 +
+      industrialReadiness * 0.2 +
+      civilizationalImpact * 0.15
+  );
 
-  scientificReadiness,
-  engineeringReadiness,
-  industrialReadiness,
-  civilizationalImpact,
+  let opportunityType = "Monitoring Opportunity";
 
-  priorityScore,
-  priorityLevel,
-};
+  if (opportunityScore >= 8) {
+    opportunityType = "Strategic Opportunity";
+  } else if (opportunityScore >= 6.5) {
+    opportunityType = "Investment / Research Opportunity";
+  } else if (opportunityScore >= 5) {
+    opportunityType = "Emerging Opportunity";
+  }
+
+  let opportunityRecommendation =
+    "Continue monitoring until stronger readiness or impact signals emerge.";
+
+  if (opportunityType === "Strategic Opportunity") {
+    opportunityRecommendation =
+      "Prioritize for active tracking, strategic research, institutional positioning, and potential capital allocation.";
+  } else if (opportunityType === "Investment / Research Opportunity") {
+    opportunityRecommendation =
+      "Evaluate for targeted research, partnership exploration, and early opportunity mapping.";
+  } else if (opportunityType === "Emerging Opportunity") {
+    opportunityRecommendation =
+      "Track as an early-stage signal with potential future relevance.";
+  }
+
+  const instituteScore = clamp(
+    scientificReadiness * 0.35 +
+      civilizationalImpact * 0.25 +
+      engineeringReadiness * 0.2 +
+      priorityScore * 0.2
+  );
+
+  const capitalScore = clamp(
+    industrialReadiness * 0.35 +
+      engineeringReadiness * 0.3 +
+      priorityScore * 0.2 +
+      civilizationalImpact * 0.15
+  );
+
+  const institutePriority = makeLevel(instituteScore);
+  const capitalPriority = makeLevel(capitalScore);
+
+  const instituteRationale =
+    instituteScore >= capitalScore
+      ? "This signal is especially relevant for research prioritization, institutional positioning, and long-term knowledge development."
+      : "This signal has research relevance, but its current profile appears more implementation- or market-oriented.";
+
+  const capitalRationale =
+    capitalScore >= instituteScore
+      ? "This signal is especially relevant for capital allocation, commercialization mapping, and industrial opportunity tracking."
+      : "This signal has capital relevance, but may require additional scientific or engineering maturation before strong commercialization focus.";
+
+  let recommendedPathway = "Monitor";
+
+  if (instituteScore >= 8 && capitalScore >= 8) {
+    recommendedPathway = "Institute + Capital";
+  } else if (instituteScore >= 7 && instituteScore > capitalScore) {
+    recommendedPathway = "Institute Priority";
+  } else if (capitalScore >= 7 && capitalScore > instituteScore) {
+    recommendedPathway = "Capital Priority";
+  } else if (opportunityScore >= 6.5) {
+    recommendedPathway = "Opportunity Mapping";
+  }
+
+  return {
+    ...signal,
+    domain: classifyDomain(signal),
+    horizon,
+
+    scientificReadiness,
+    engineeringReadiness,
+    industrialReadiness,
+    civilizationalImpact,
+
+    priorityScore,
+    priorityLevel,
+
+    opportunityScore,
+    opportunityType,
+    opportunityRecommendation,
+
+    recommendedPathway,
+
+    instituteScore,
+    institutePriority,
+    instituteRationale,
+
+    capitalScore,
+    capitalPriority,
+    capitalRationale,
+  };
 }
 
 function average(values: number[]) {
@@ -282,10 +388,7 @@ export default function ArcheNovaHorizonMapPage() {
 
   const horizonItems = signals
     .map(makeHorizonItem)
-    .sort(
-  (a, b) =>
-    b.priorityScore - a.priorityScore
-);
+    .sort((a, b) => b.priorityScore - a.priorityScore);
 
   const visibleItems = horizonItems.filter((item) => {
     const domainMatch =
@@ -320,6 +423,14 @@ export default function ArcheNovaHorizonMapPage() {
     )
   );
 
+  const topInstitute = [...visibleItems].sort(
+    (a, b) => b.instituteScore - a.instituteScore
+  )[0];
+
+  const topCapital = [...visibleItems].sort(
+    (a, b) => b.capitalScore - a.capitalScore
+  )[0];
+
   return (
     <main className="page-standard">
       <div className="page-head">
@@ -331,9 +442,8 @@ export default function ArcheNovaHorizonMapPage() {
 
         <p className="page-lead">
           ArcheNova maps current signals across technology domains,
-          time horizons, readiness levels, and civilization-scale
-          impact to support research, capital, institutional, and
-          strategic decision-making.
+          time horizons, readiness levels, opportunity potential,
+          institute fit, capital fit, and civilization-scale impact.
         </p>
 
         <p className="page-lead dim">
@@ -347,9 +457,9 @@ export default function ArcheNovaHorizonMapPage() {
         <p>
           Reports explain knowledge. Horizon Map structures
           decision-making by asking which technologies may matter,
-          when they may mature, and how strongly they may affect
-          civilization-scale capability, resilience, infrastructure,
-          and future possibility space.
+          when they may mature, how strongly they may affect
+          civilization, and whether they are better suited for
+          research prioritization, capital allocation, or monitoring.
         </p>
       </section>
 
@@ -406,18 +516,37 @@ export default function ArcheNovaHorizonMapPage() {
             <p>{readinessAverage.toFixed(1)} / 10</p>
           </div>
 
-<div className="research-report-card">
-  <h3>Top Priority</h3>
+          <div className="research-report-card">
+            <h3>Top Priority</h3>
+            <p>{visibleItems[0]?.priorityLevel ?? "—"}</p>
+            <small>{visibleItems[0]?.domain ?? "—"}</small>
+          </div>
 
-  <p>
-    {visibleItems[0]?.priorityLevel ?? "—"}
-  </p>
+          <div className="research-report-card">
+            <h3>Top Opportunity</h3>
+            <p>{visibleItems[0]?.opportunityType ?? "—"}</p>
+            <small>{visibleItems[0]?.domain ?? "—"}</small>
+          </div>
 
-  <small>
-    {visibleItems[0]?.domain ?? "—"}
-  </small>
-</div>
+          <div className="research-report-card">
+            <h3>Institute Fit</h3>
+            <p>{topInstitute?.institutePriority ?? "—"}</p>
+            <small>
+              {topInstitute
+                ? `${topInstitute.domain} · ${topInstitute.instituteScore.toFixed(1)} / 10`
+                : "—"}
+            </small>
+          </div>
 
+          <div className="research-report-card">
+            <h3>Capital Fit</h3>
+            <p>{topCapital?.capitalPriority ?? "—"}</p>
+            <small>
+              {topCapital
+                ? `${topCapital.domain} · ${topCapital.capitalScore.toFixed(1)} / 10`
+                : "—"}
+            </small>
+          </div>
         </div>
       </section>
 
@@ -441,13 +570,57 @@ export default function ArcheNovaHorizonMapPage() {
                 </div>
 
                 <div className="feed-summary">
-  Priority Score:{" "}
-  <strong>
-    {item.priorityScore.toFixed(1)} / 10
-  </strong>
-  {" · "}
-  {item.priorityLevel}
-</div>
+                  Priority Score:{" "}
+                  <strong>
+                    {item.priorityScore.toFixed(1)} / 10
+                  </strong>
+                  {" · "}
+                  {item.priorityLevel}
+                </div>
+
+                <div className="feed-summary">
+                  Opportunity:{" "}
+                  <strong>
+                    {item.opportunityScore.toFixed(1)} / 10
+                  </strong>
+                  {" · "}
+                  {item.opportunityType}
+                </div>
+
+                <div className="feed-summary">
+                  Pathway:{" "}
+                  <strong>{item.recommendedPathway}</strong>
+                </div>
+
+                <div className="feed-summary">
+                  Institute Fit:{" "}
+                  <strong>
+                    {item.instituteScore.toFixed(1)} / 10
+                  </strong>
+                  {" · "}
+                  {item.institutePriority}
+                </div>
+
+                <div className="feed-summary">
+                  Capital Fit:{" "}
+                  <strong>
+                    {item.capitalScore.toFixed(1)} / 10
+                  </strong>
+                  {" · "}
+                  {item.capitalPriority}
+                </div>
+
+                <div className="feed-summary">
+                  {item.opportunityRecommendation}
+                </div>
+
+                <div className="feed-summary">
+                  {item.instituteRationale}
+                </div>
+
+                <div className="feed-summary">
+                  {item.capitalRationale}
+                </div>
 
                 <div className="feed-summary">
                   Scientific {item.scientificReadiness.toFixed(1)} / 10 ·
@@ -473,17 +646,24 @@ export default function ArcheNovaHorizonMapPage() {
         <h2>Decision Interpretation</h2>
 
         <p>
-          Shorter horizons indicate technologies with stronger
-          engineering and industrial readiness. Longer horizons
-          indicate signals that may remain scientifically early,
-          but could reshape civilization if the required engineering,
-          infrastructure, capital, and governance layers mature.
+          Horizon Priority Score identifies which technologies should
+          receive strategic attention. Opportunity Score indicates
+          where research, institutional positioning, or capital
+          allocation may become meaningful.
         </p>
 
         <p>
-          ArcheNova uses this map as a bridge between research
-          intelligence, investment prioritization, institutional
-          strategy, and long-term civilization architecture.
+          Institute Fit highlights signals suited for research
+          prioritization and long-term knowledge development. Capital
+          Fit highlights signals suited for commercialization,
+          deployment, and investment opportunity mapping.
+        </p>
+
+        <p>
+          Together, these layers turn Signals and Reports into a
+          practical decision framework for ArcheNova Institute,
+          ArcheNova Capital, and the broader ArcheNova Intelligence
+          Platform.
         </p>
       </section>
 
