@@ -1,4 +1,5 @@
 import fs from "fs";
+import { Http2ServerRequest } from "http2";
 import path from "path";
 import Parser from "rss-parser";
 
@@ -154,27 +155,19 @@ const SIGNAL_CATEGORIES = [
       name: "imec",
       url: "https://www.imec-int.com/en/rss.xml",
     },
-{
-  id: "energy",
-  name: "Energy",
-  sources: [
+
     {
-      id: "iea",
-      name: "International Energy Agency",
-      url: "https://www.iea.org/news/rss",
+      id: "eia-today",
+      name: "U.S. Energy Information Administration",
+      url: "https://www.eia.gov/rss/todayinenergy.xml",
     },
 
     {
-      id: "nrel",
-      name: "NREL",
-      url: "https://www.nrel.gov/news/program.rss",
+      id: "iaea-news",
+      name: "IAEA",
+      url: "https://www.iaea.org/feeds/news",
     },
 
-    {
-      id: "doe-science",
-      name: "DOE Office of Science",
-      url: "https://science.osti.gov/rss-feeds",
-    },
     {
       id: "nasa",
       name: "NASA",
@@ -194,10 +187,11 @@ const SIGNAL_CATEGORIES = [
     },
 
     {
-      id: "arstechnica-space",
-      name: "Ars Technica Space",
-      url: "https://feeds.arstechnica.com/arstechnica/space",
+      id: "arstechnica-science",
+      name: "Ars Technica Science",
+      url: "https://feeds.arstechnica.com/arstechnica/science",
     },
+
     {
       id: "cell",
       name: "Cell",
@@ -227,11 +221,6 @@ const SIGNAL_CATEGORIES = [
       name: "arXiv q-bio",
       url: "https://rss.arxiv.org/rss/q-bio",
     },
-    {
-      id: "a16z",
-      name: "Andreessen Horowitz",
-      url: "https://a16z.com/feed/",
-    },
 
     {
       id: "sequoia",
@@ -244,34 +233,11 @@ const SIGNAL_CATEGORIES = [
       name: "Y Combinator",
       url: "https://www.ycombinator.com/blog/rss",
     },
-    {
-      id: "oecd",
-      name: "OECD",
-      url: "https://www.oecd.org/newsroom/rss.xml",
-    },
 
     {
-      id: "world-bank",
-      name: "World Bank",
-      url: "https://www.worldbank.org/en/news/all?format=rss",
-    },
-
-    {
-      id: "imf",
-      name: "IMF",
-      url: "https://www.imf.org/en/News/rss",
-    },
-
-    {
-      id: "long-now",
-      name: "Long Now Foundation",
-      url: "https://longnow.org/ideas/feed/",
-    },
-
-    {
-      id: "rand",
-      name: "RAND",
-      url: "https://www.rand.org/topics/artificial-intelligence.rss",
+      id: "world-bank-blogs",
+      name: "World Bank Blogs",
+      url: "https://blogs.worldbank.org/en/rss.xml",
     },
 
     {
@@ -279,9 +245,16 @@ const SIGNAL_CATEGORIES = [
       name: "Santa Fe Institute",
       url: "https://www.santafe.edu/news-center/news/rss.xml",
       },
-      ],
-    },
-  ];
+      ]
+
+  const SCIENCE_SOURCES =
+  SIGNAL_CATEGORIES.find((category) => category.id === "science")?.sources ?? [];
+  
+  const TECHNOLOGY_CATEGORIES =
+  SIGNAL_CATEGORIES.filter(
+    (category) =>
+      category.id !== "science" &&
+      Array.isArray(category.sources));
 
 
 async function fetchFeed(source, categoryId = undefined) {
@@ -363,7 +336,7 @@ async function buildTechnology() {
   const all = [];
 
   for (const category of TECHNOLOGY_CATEGORIES) {
-    for (const source of category.sources) {
+    for (const source of category.sources ?? []) {
       const items = await fetchFeed(source, category.id);
       all.push(...items);
     }
