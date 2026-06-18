@@ -1,7 +1,49 @@
 {
   "ok": true,
-  "updated": "2026-06-18T18:32:55.666Z",
+  "updated": "2026-06-18T19:31:46.375Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Mating reveals cholesterol's hidden role in male fruit fly lifespan",
+      "url": "https://phys.org/news/2026-06-reveals-cholesterol-hidden-role-male.html",
+      "summary": "Scientists have discovered that the optimal diet for male fruit flies may depend strongly on whether they are reproducing, challenging long-standing assumptions about nutrition and aging. Led by researchers from the Univ…",
+      "ts": 1781810403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Five new springtail species discovered in China",
+      "url": "https://phys.org/news/2026-06-springtail-species-china.html",
+      "summary": "There is a Chinese saying that east or west, Guilin scenery is the best. Guilin and Chongqing, located in western China, are famous for their many mountains and rivers. They also harbor unique flora and fauna, such as th…",
+      "ts": 1781810401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Missing DNA replication step revealed in first image of pre-initiation complex",
+      "url": "https://phys.org/news/2026-06-dna-replication-revealed-image-pre.html",
+      "summary": "Cells have evolved careful checks to ensure DNA is copied only once, but how they switch on replication at the right moment has been the focus of a 30-year research question. New work from the Crick has recorded the miss…",
+      "ts": 1781809209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bedding structure controls rainfall runoff in mountain catchments",
+      "url": "https://phys.org/news/2026-06-bedding-rainfall-runoff-mountain-catchments.html",
+      "summary": "Researchers at the University of Tsukuba have discovered that rainwater runoff in the highly rugged sedimentary rock mountains of Japan's Southern Alps is governed by two processes: \"deep infiltration\" and \"shallow drain…",
+      "ts": 1781809205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultrasound propagation in porous rocks: Theory identifies three distinct wave modes",
+      "url": "https://phys.org/news/2026-06-ultrasound-propagation-porous-theory-distinct.html",
+      "summary": "Ultrasound-based irradiation of rock formations has attracted considerable attention as a technique for enhancing heavy-oil (high-viscosity crude oil) recovery from deep underground reservoirs. However, a unified theoret…",
+      "ts": 1781808005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Describing past relationship as a story may help women process breakups",
+      "url": "https://phys.org/news/2026-06-relationship-story-women-breakups.html",
+      "summary": "Breaking up with a loved one is often a painful life experience, one that is difficult to recover from. Researchers from SWPS University, however, suggest that a simple step can help. Writing down the story of a past rel…",
+      "ts": 1781808003000
+    },
     {
       "source": "Phys.org",
       "title": "Did Neanderthals use rhinoceros teeth as tools?",
@@ -295,6 +337,13 @@
       "url": "https://phys.org/news/2026-06-california-home-crisis-wildfire-country.html",
       "summary": "Realizing the dream of homeownership comes with a cold reality for millions of people in California: more expensive insurance premiums that cover less. Increasingly, the only option for some homeowners is the California …",
       "ts": 1781780405000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Quantifying Quantum Computational Advantage on a Processor of Ultracold Atoms",
+      "url": "http://link.aps.org/doi/10.1103/5mqb-3by1",
+      "summary": "Author(s): Yong-Guang Zheng, Ying-Chao Shen, Wei-Yong Zhang, An Luo, Ying Liu, Ming-Gen He, Hao-Ran Zhang, Wan Lin, Han-Yi Wang, Zi-Hang Zhu, Pei-Yue Qiu, Tian-Yi Wang, Ming-Cheng Chen, Chao-Yang Lu, Supanut Thanasilp, D…",
+      "ts": 1781776800000
     },
     {
       "source": "APS Physical Review Letters",
@@ -651,55 +700,6 @@
       "title": "Quantitative Multi-Modal Optical Coherence Photoacoustic Elastography",
       "url": "https://arxiv.org/abs/2606.18990",
       "summary": "arXiv:2606.18990v1 Announce Type: new Abstract: We present a novel multi-modal optical coherence photoacoustic elastography (OCPE) framework, which combines two imaging modalities, optical coherence tomography (OCT) and …",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intermittency in Shell Models of Turbulent Cascades: from Single-Branch to Multi-Branch",
-      "url": "https://arxiv.org/abs/2606.18995",
-      "summary": "arXiv:2606.18995v1 Announce Type: new Abstract: Intermittency is one of the central features of turbulent transfer: the multi-scale energy cascade is mediated by rare and intense fluctuations. We investigate this phenome…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global branches of Stokes waves of variable period on stratified fluids",
-      "url": "https://arxiv.org/abs/2606.19018",
-      "summary": "arXiv:2606.19018v1 Announce Type: new Abstract: We consider stratified steady water waves in a two dimensional channel. Our subject is branches of Stokes waves, bifurcating from laminar flows. We assume that the mass flu…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "External Entropy Production and Human Evolution toward Multi-body Life",
-      "url": "https://arxiv.org/abs/2606.19066",
-      "summary": "arXiv:2606.19066v1 Announce Type: new Abstract: Ancient human beings started \"external entropy production\" in a late stage of evolution, in addition to the internal entropy production by which energy was dissipated withi…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AIFS-DOP: End-to-End Medium-Range Weather Prediction from Observations Alone with Machine Learning",
-      "url": "https://arxiv.org/abs/2606.19093",
-      "summary": "arXiv:2606.19093v1 Announce Type: new Abstract: We introduce the Artificial Intelligence Forecasting System for Direct Observation Prediction (AIFS-DOP). AIFS-DOP is trained on a 40-year harmonized dataset of gridded obs…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extreme mid-infrared field enhancement and anapoles in high-index plasmonic metamaterials",
-      "url": "https://arxiv.org/abs/2606.19114",
-      "summary": "arXiv:2606.19114v1 Announce Type: new Abstract: High-refractive-index materials underpin a wide range of optical technologies, including communications, imaging, lasers, and integrated photonic systems. Here, we demonstr…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Prospects for Observing Gravity-gradient Noise and Earthquake Gravity Signals with CHRONOS",
-      "url": "https://arxiv.org/abs/2606.19124",
-      "summary": "arXiv:2606.19124v1 Announce Type: new Abstract: Ground-based gravitational-wave detectors operating in the sub-Hertz regime are expected to be strongly limited by environmental gravity-gradient fluctuations, commonly ref…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Equivariant Graph Neural Networks Improve Optical Spectra Prediction for Materials Screening",
-      "url": "https://arxiv.org/abs/2606.19133",
-      "summary": "arXiv:2606.19133v1 Announce Type: new Abstract: Scalable prediction of optical spectra is a critical component of high-throughput materials screening for optoelectronic applications such as solar cells. Existing surrogat…",
       "ts": 1781755200000
     }
   ],
