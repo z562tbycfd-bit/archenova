@@ -1,727 +1,748 @@
 {
   "ok": true,
-  "updated": "2026-06-18T16:38:04.469Z",
+  "updated": "2026-06-18T18:33:03.049Z",
   "items": [
     {
-      "source": "Genetic Engineering News",
-      "title": "Silica Nanoparticles Induce Ferroptosis, Reprogram Immunity in Prostate Cancer Models",
-      "url": "https://www.genengnews.com/topics/cancer/silica-nanoparticles-induce-ferroptosis-reprogram-immunity-in-prostate-cancer-models/",
-      "summary": "Ultrasmall silica nanoparticles induce ferroptosis and reshape the prostate tumor microenvironment, reversing myeloid suppression and boosting responses to checkpoint blockade. The post Silica Nanoparticles Induce Ferrop…",
-      "ts": 1781568656000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "When Process Design Fails: 5 Common Planning Gaps That Create Downstream Purification Bottlenecks",
-      "url": "https://www.genengnews.com/multimedia/webinars/upcoming/when-process-design-fails-5-common-planning-gaps-that-create-downstream-purification-bottlenecks/",
-      "summary": "In this GEN webinar, our speakers will examine five common planning gaps that can contribute to bottlenecks, including single-source material dependency, raw material pack size selection, sensitive buffer designs, and si…",
-      "ts": 1781557114000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Gilat to buy Comtech satcoms business six years after failed merger",
-      "url": "https://spacenews.com/gilat-to-buy-comtech-satcoms-business-six-years-after-failed-merger/",
-      "summary": "Israel’s Gilat Satellite Networks plans to expand its defense capabilities by acquiring most of Comtech’s space-related communications business, six years after the U.S. company’s own takeover bid collapsed. The post Gil…",
-      "ts": 1781556845000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Force orders two more GPS satellites from Lockheed Martin for $514 million",
-      "url": "https://spacenews.com/space-force-orders-two-more-gps-satellites-from-lockheed-martin-for-514-million/",
-      "summary": "Contract brings GPS 3F orders to 14 satellites that add anti-jam features, digital payloads and upgraded civilian navigation signals The post Space Force orders two more GPS satellites from Lockheed Martin for $514 milli…",
-      "ts": 1781555235000,
-      "categoryId": "energy"
+      "source": "NASA",
+      "title": "NASA Testing Advanced Capabilities for Moon, Mars Rovers",
+      "url": "https://www.nasa.gov/solar-system/moon/nasa-testing-advanced-capabilities-for-moon-mars-rovers/",
+      "summary": "On a bleak stretch of the Colorado Desert in Southern California, a compact four-wheeled rover recently trundled about 16 miles (26 kilometers) with minimal intervention from the team of engineers trailing it. Called ERN…",
+      "ts": 1781806761000,
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
-      "title": "mRNA Flu Vaccine Shows Stronger, Longer-Lasting Immune Response",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/mrna-flu-vaccine-shows-stronger-longer-lasting-immune-response/",
-      "summary": "Moderna’s investigational mRNA flu vaccine generated broader, longer-lasting immune responses than a standard flu shot, potentially improving protection against evolving influenza strains and reducing vaccine mismatch. T…",
-      "ts": 1781552648000,
-      "categoryId": "energy"
+      "title": "Historic Biotech IPO, Merck, Protillion’s AI Deal, Testing a Lassa–Rabies Vaccine",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/historic-biotech-ipo-merck-protillions-ai-deal-testing-a-lassa-rabies-vaccine/",
+      "summary": "In this episode of GEN's Touching Base, editors talk about Parabilis Medicines’ groundbreaking IPO score, a new Merck collaboration, first-in-human Lassa–Rabies vaccine data, how CRISPR is attacking cancer cells, and mRN…",
+      "ts": 1781806286000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Lucy Reveals Wobbling, Peanut-Shaped Asteroid",
+      "url": "https://science.nasa.gov/missions/nasas-lucy-reveals-wobbling-peanut-shaped-asteroid/",
+      "summary": "Even small asteroids lead complex lives. During its flyby of the asteroid Donaldjohanson last year, NASA’s Lucy spacecraft revealed the asteroid to be a wobbly, peanut-shaped body that has undergone a lot of activity in …",
+      "ts": 1781805881000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force’s rapid acquisition office director moves to Air Force Nuclear Weapons Center",
+      "url": "https://spacenews.com/space-forces-rapid-acquisition-office-director-moves-to-air-force-nuclear-weapons-center/",
+      "summary": "Kelly Hammett’s departure comes as the Space Rapid Capabilities Office is being realigned under the Space Force The post Space Force’s rapid acquisition office director moves to Air Force Nuclear Weapons Center appeared …",
+      "ts": 1781805475000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Ebola cases increase almost 40% in a week as death toll passes 200",
+      "url": "https://www.statnews.com/2026/06/18/ebola-outbreak-congo-uganda-cases-increase-death-toll/?utm_campaign=rss",
+      "summary": "Ebola cases have increased almost 40% in a week in the current outbreak in Congo and Uganda as the death toll passes 200.",
+      "ts": 1781800200000,
+      "categoryId": "bio"
     },
     {
       "source": "Genetic Engineering News",
-      "title": "ZoBio Introduces DNA-Encoded Library Service for Exploratory Drug Discovery Programs",
-      "url": "https://www.genengnews.com/topics/drug-discovery/zobio-introduces-dna-encoded-library-service-for-exploratory-drug-discovery-programs/",
-      "summary": "ZoBio maintains that unlike transactional DEL screening approaches that focus solely on hit generation, its platform is designed to deliver biologically relevant, structurally characterized hit matter with clear potentia…",
-      "ts": 1781550004000,
-      "categoryId": "energy"
+      "title": "IDBS and Alchemi Agree to Accelerate AI-Driven Biopharma Regulatory Filings",
+      "url": "https://www.genengnews.com/topics/translational-medicine/idbs-and-alchemi-agree-to-accelerate-ai-driven-biopharma-regulatory-filings/",
+      "summary": "IDBS and Alchemi partnered to connect AI agents with data in the IDBS Polar platform, creating a governed data foundation that enables reliable, compliant agentic AI use throughout drug development. The post IDBS and Alc…",
+      "ts": 1781799486000,
+      "categoryId": "bio"
     },
     {
       "source": "NASA",
-      "title": "NASA’s Chandra Finds Unexpected Fireworks in Aftermath of Stellar Explosions",
-      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-unexpected-fireworks-in-aftermath-of-stellar-explosions/",
-      "summary": "The aftermath of a supernova, a stellar explosion, is usually a slowly fading cloud of hot gas. So when astronomers pointed NASA’s Chandra X-ray Observatory at the nearby galaxy Messier 83 (M83), they did not expect to f…",
-      "ts": 1781549140000,
-      "categoryId": "energy"
+      "title": "Stages of Star Formation",
+      "url": "https://www.nasa.gov/image-article/stages-of-star-formation/",
+      "summary": "This image, captured by NASA’s James Webb Space Telescope and released on June 5, 2026, shows just a small portion of one of the Orion Molecular Clouds, a long and massive filament of cold gas and dust beyond the Orion N…",
+      "ts": 1781799193000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
-      "title": "STAT+: FDA approves Colorado’s plan to import cheaper drugs from Canada",
-      "url": "https://www.statnews.com/pharmalot/2026/06/15/colorado-drug-imports-canada/?utm_campaign=rss",
-      "summary": "The FDA said it will allow Colorado to import certain prescription drugs from Canada in an effort to bring prices down for residents.",
-      "ts": 1781547560000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronauts to Answer Questions from New Jersey Students",
-      "url": "https://www.nasa.gov/learning-resources/for-colleges-universities/nasa-stem-projects/in-flight-education-downlinks/nasa-astronauts-to-answer-questions-from-new-jersey-students/",
-      "summary": "Students in New Jersey will hear from NASA astronauts Chris Williams and Jessica Meir as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 12:05 p.…",
-      "ts": 1781546778000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s SpaceX CRS-34 Dragon Returns Packed with Space Station Science",
-      "url": "https://www.nasa.gov/missions/station/iss-research/nasas-spacex-crs-34-dragon-returns-packed-with-space-station-science/",
-      "summary": "Scientists await a big splash in the Pacific Ocean as one of the most research-packed Dragon spacecraft to date returns, completing the 34th SpaceX commercial resupply mission to the International Space Station for NASA.…",
-      "ts": 1781544600000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "NASA",
-      "title": "Frontiers Forum Speaker Series",
-      "url": "https://www.nasa.gov/general/frontiers-forum-speaker-series/",
-      "summary": "Voices Shaping the Future of Space Members of the public are invited to join some of NASA’s brightest minds as they discuss agency missions and current topics in aerospace technology, science, and innovation. Each event …",
-      "ts": 1781540609000,
-      "categoryId": "energy"
+      "title": "STAT+: Do wearables actually help people with cardiovascular disease?",
+      "url": "https://www.statnews.com/2026/06/18/do-wearables-actually-help-people-with-cardiovascular-disease/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: A look at what researchers found about if using wearables help people with cardiovascular diseases, and more.",
+      "ts": 1781796572000,
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
-      "title": "STAT+: Trump’s obesity drug plan creates a temporary Medicare program that may be hard to end",
-      "url": "https://www.statnews.com/2026/06/15/medicare-weight-loss-drugs-glp1-bridge-program-may-be-hard-to-end/?utm_campaign=rss",
-      "summary": "After July 1, Medicare will offer GLP-1 weight-loss drugs for $50. It's supposed to be temporary, but chances are it won't be.",
-      "ts": 1781537114000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A key European clinical trial registry lacks complete and timely results, an analysis finds",
-      "url": "https://www.statnews.com/pharmalot/2026/06/15/european-clinical-trial-registry-results-analysis/?utm_campaign=rss",
-      "summary": "A new analysis found that results for less than half of the clinical studies registered in a key European database were reported within the required time frame.",
-      "ts": 1781535873000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut Anil Menon Available for Prelaunch Virtual Interviews",
-      "url": "https://www.nasa.gov/news-release/nasa-astronaut-anil-menon-available-for-prelaunch-virtual-interviews/",
-      "summary": "NASA astronaut Anil Menon will be available for limited media interviews beginning at 9 a.m. EDT Monday, June 22, to discuss his upcoming mission to the International Space Station as part of Expeditions 74/75. The virtu…",
-      "ts": 1781535724000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "STAT",
-      "title": "Covid vaccination cut risk of adverse heart events, large study finds",
-      "url": "https://www.statnews.com/2026/06/15/covid-vaccination-cardiovascular-protection-jama-study/?utm_campaign=rss",
-      "summary": "Covid vaccination was also tied to a nearly 24% reduction in all-cause cardiac events in a large study, surprising researchers.",
-      "ts": 1781535712000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AI Predicts Gene Regulation for Drug Discovery Using Condensate Morphology",
-      "url": "https://www.genengnews.com/topics/drug-discovery/ai-predicts-gene-regulation-for-drug-discovery-using-condensate-morphology/",
-      "summary": "Deep learning unveils how drugs affect the dynamics of key structures within the cell. A new study maps condensate morphology to functional outcomes and sheds light on markers of health. The post AI Predicts Gene Regulat…",
-      "ts": 1781534154000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "NASA",
-      "title": "San Francisco’s Patchwork Streets",
-      "url": "https://www.nasa.gov/image-article/san-franciscos-patchwork-streets/",
-      "summary": "An astronaut aboard the International Space Station took this picture of downtown San Francisco and nearby communities on May 27, 2026. The image captures two of the region’s iconic bridges. The Golden Gate Bridge connec…",
-      "ts": 1781533831000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "NASA",
-      "title": "Experience the Launch of NASA’s Roman Space Telescope ",
-      "url": "https://www.nasa.gov/social-media/nasa-socials-program/experience-the-launch-of-nasas-roman-space-telescope/",
-      "summary": "Are you ready for a new view of the universe? The Nancy Grace Roman Space Telescope will reveal distant worlds, dark energy, and the structure of the cosmos, and we want you to be a part of it! Digital creators and socia…",
-      "ts": 1781533716000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "NASA",
-      "title": "Metrics",
-      "url": "https://www.nasa.gov/centers-and-facilities/nssc/metrics/",
-      "summary": "Services Catalog Click here to view the FY26 Services Catalog The catalogs provide service description, chargeback rate, unit of measure, and service level indicators for each NSSC service. Service Level Agreement (SLA) …",
-      "ts": 1781531844000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "DARPA to explore ways to rapidly rebuild satellite networks if attacked",
-      "url": "https://spacenews.com/darpa-to-explore-ways-to-rapidly-rebuild-satellite-networks-if-attacked/",
-      "summary": "The agency is seeking novel concepts to restore critical satellite services within hours or weeks The post DARPA to explore ways to rapidly rebuild satellite networks if attacked appeared first on SpaceNews.",
-      "ts": 1781531704000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lilly’s Ajax acquisition may have been worth it",
-      "url": "https://www.statnews.com/2026/06/15/biotech-news-lilly-ajax-acquisition-may-have-been-worth-it/?utm_campaign=rss",
-      "summary": "A syphilis drug shortage, Sanofi's diabetes drug approval, and more biotech news from The Readout",
-      "ts": 1781530594000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Pfizer’s emergency penicillin program, a Sanofi diabetes drug, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/06/15/pfizer-emergency-penicillin-program-sanofi-diabetes-drug/?utm_campaign=rss",
-      "summary": "Pfizer hasn't complied with a request to donate emergency penicillin to state health agencies as a backstop to prevent congenital syphilis",
-      "ts": 1781529766000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "What’s the Best Way to Monetize Space Energy?",
-      "url": "https://spacenews.com/whats-the-best-way-to-monetize-space-energy/",
-      "summary": "By Marc Berte, Founder and CEO of Overview Energy AI is making energy valuable enough that we’re reconsidering where infrastructure should live. Space is increasingly where that conversation leads. Orbital […] The post W…",
-      "ts": 1781528776000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Sustained maneuver has a propulsion problem",
-      "url": "https://spacenews.com/sustained-maneuver-has-a-propulsion-problem/",
-      "summary": "For years, space architecture was treated mostly as a question of placement: where to put a spacecraft, and how reliably it could hold position. That framing is now too narrow. […] The post Sustained maneuver has a propu…",
-      "ts": 1781528400000,
-      "categoryId": "energy"
+      "title": "STAT+: Cambrian’s experimental longevity drug mimics exercise",
+      "url": "https://www.statnews.com/2026/06/18/biotech-news-cambrians-experimental-longevity-drug-mimics-exercise/?utm_campaign=rss",
+      "summary": "What Soon-Shiong has delivered, Encanta's RSV antiviral, and other biotech news from The Readout",
+      "ts": 1781795971000,
+      "categoryId": "bio"
     },
     {
       "source": "ESA",
-      "title": "Watch live: bigger booster, more powerful Ariane 6 launch ",
-      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Watch_live_bigger_booster_more_powerful_Ariane_6_launch",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/ariane_6_with_four_p160c_boosters_during_separation_artist_impression/27327552-2-eng-GB/Ariane_6_with_four_P160C_boosters_during_separati…",
-      "ts": 1781525400000,
-      "categoryId": "energy"
+      "title": "Sophie Adenot's mid-mission highlights",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Sophie_Adenot_s_mid-mission_highlights",
+      "summary": "Video: 00:02:03 Sophie is halfway through the εpsilon mission onboard the ISS, and she has already accomplished so much. Between hundreds of hours of scientific research and thousands of photographs taken from space, she…",
+      "ts": 1781795700000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Chinese startup Spark Space tests engine, raises funds for electric-pump rocket",
+      "url": "https://spacenews.com/chinese-startup-spark-space-tests-engine-raises-funds-for-electric-pump-rocket/",
+      "summary": "Chinese startup Spark Space has secured a series of funding rounds for what it claims will be the world's largest electric-pump-fed rocket, following engine tests. The post Chinese startup Spark Space tests engine, raise…",
+      "ts": 1781793466000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "A legacy to help solve the space workforce pipeline",
+      "url": "https://spacenews.com/a-legacy-to-help-solve-the-space-workforce-pipeline/",
+      "summary": "In this episode of Space Minds, David Ariosto talks with Mike Kincaid, president and chief executive of the Challenger Center. They discuss the space workforce pipeline and the center’s role […] The post A legacy to help…",
+      "ts": 1781793443000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
-      "title": "STAT+: Where ‘democracy met science,’ 50 years ago",
-      "url": "https://www.statnews.com/2026/06/15/health-news-cambridge-recombinant-dna-anniversary/?utm_campaign=rss",
-      "summary": "State Medicaid crackdowns strain home care, WHO leader on Ebola outbreak, and more health news",
-      "ts": 1781524584000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "ESA",
-      "title": "Pacific warming signals El Niño has stirred",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Pacific_warming_signals_El_Nino_has_stirred",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/el_nino_2026_begins/27327276-1-eng-GB/El_Nino_2026_begins_card_full.jpg\" alt=\"El Niño 2026 begins\">",
-      "ts": 1781523900000,
-      "categoryId": "energy"
+      "title": "STAT+: Shingles vaccine may lower dementia risk, new study finds",
+      "url": "https://www.statnews.com/2026/06/18/shingles-vaccine-may-lower-dementia-risk-new-study/?utm_campaign=rss",
+      "summary": "Nursing home residents who received at least one dose of shingles vaccine were 24 percent less likely to develop dementia, a new study found.",
+      "ts": 1781792970000,
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
-      "title": "As states follow Trump’s Medicaid fraud playbook, people with disabilities struggle to find care",
-      "url": "https://www.statnews.com/2026/06/15/medicaid-caregivers-state-pay-people-with-disabilities/?utm_campaign=rss",
-      "summary": "Medicaid cuts and fraud crackdown trickle down to states, threatening people with disabilities.",
-      "ts": 1781512200000,
-      "categoryId": "energy"
+      "title": "STAT+: Pharmalittle: We’re reading about an FDA review of Moderna’s flu shot, J&J’s focus on cancer, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/06/18/fda-panel-vote-moderna-flu-vaccine-jnj-cancer-drugs/?utm_campaign=rss",
+      "summary": "Johnson & Johnson has no plans to enter the booming obesity market, opting instead to focus on diseases such as cancer",
+      "ts": 1781789322000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "China Sets Framework for Advanced Therapeutic Development",
+      "url": "https://www.genengnews.com/topics/translational-medicine/china-sets-framework-for-advanced-therapeutic-development/",
+      "summary": "China’s Order 818 signals the country’s intent to accelerate local innovation and standardize the drug development environment, thereby becoming a more important player in advanced therapy development and manufacturing. …",
+      "ts": 1781788815000,
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
-      "title": "STAT+: Amid confusion over Pfizer’s emergency penicillin program, newborn is diagnosed with preventable syphilis",
-      "url": "https://www.statnews.com/2026/06/15/pfizer-bicillin-shortage-preventable-congenital-syphilis-surging/?utm_campaign=rss",
-      "summary": "Congenital syphilis should be preventable. An Arizona case shows how drug shortages and procedural hurdles are fueling a growing public health crisis.",
-      "ts": 1781512200000,
-      "categoryId": "energy"
+      "title": "How many Americans can afford high-quality health care? A new poll finds the number has fallen",
+      "url": "https://www.statnews.com/2026/06/18/how-many-americans-can-afford-their-healthcare/?utm_campaign=rss",
+      "summary": "A new poll shows only about half of U.S. adults could afford their health care and had access to quality care last year.",
+      "ts": 1781788106000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "What the satellite servicing economy can borrow from carbon credits",
+      "url": "https://spacenews.com/what-the-satellite-servicing-economy-can-borrow-from-carbon-credits/",
+      "summary": "In January 2026 alone, the Federal Communications Commission authorized 15,000 Starlink Gen2 satellites. Starcloud has filed for 88,000 orbital data center satellites. SpaceX has filed for 1 million. There is […] The pos…",
+      "ts": 1781787600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Perseverance, Persistence Key to CAR T Success, Say Ross Prize Winners Carl June and Michel Sadelain",
+      "url": "https://www.genengnews.com/topics/cancer/perseverance-persistence-key-to-car-t-success-say-ross-prize-winners-carl-june-and-michel-sadelain/",
+      "summary": "The Ross Prize recognizes biomedical scientists whose discoveries have transformed how medicine is practiced. This year's recipients are well known in immunotherapy circles for their efforts to develop CAR T cells now us…",
+      "ts": 1781787269000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Boeing demonstrates quantum protocol in payload set for 2027 launch",
+      "url": "https://spacenews.com/boeing-demonstrates-quantum-protocol-in-payload-set-for-2027-launch/",
+      "summary": "PORTLAND, Ore. – Boeing demonstrated a key quantum networking protocol in ground testing of a compact payload ahead of on-orbit experiment in 2027. “High-fidelity entanglement swapping” was demonstrated earlier this […] …",
+      "ts": 1781785800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a new hunt for dark matter and Kenya’s case for going solar",
+      "url": "https://www.technologyreview.com/2026/06/18/1139261/the-download-dark-matter-hunt-kenya-solar-power/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The search for dark matter has been blown wide open For decades, physicists have h…",
+      "ts": 1781784600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Swift reboost mission ready for launch",
+      "url": "https://spacenews.com/swift-reboost-mission-ready-for-launch/",
+      "summary": "A high-risk mission to raise the orbit of a NASA astrophysics spacecraft is set to launch later this month after less than a year of development. The post Swift reboost mission ready for launch appeared first on SpaceNew…",
+      "ts": 1781784277000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Nirrin Technologies and S.T. Japan Partner on Next-Gen Protein Quantitation Tech",
+      "url": "https://www.genengnews.com/topics/bioprocessing/nirrin-technologies-and-s-t-japan-partner-on-nextgen-protein-quantitation-tech/",
+      "summary": "TALOS represents an advancement in protein quantitation, enabling rapid, consistent measurements with operational simplicity. These capabilities make it well-suited for modern bioprocessing workflows, from early process …",
+      "ts": 1781784017000,
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
-      "title": "STAT+: One California politician’s unexpected crusade against ultra-processed food",
-      "url": "https://www.statnews.com/2026/06/15/jesse-gabriel-ultra-processed-food-california-laws-national-impact/?utm_campaign=rss",
-      "summary": "Jesse Gabriel \"has passed more food policy in three years than most legislators enact in their entire careers,\" says one supporter.",
-      "ts": 1781512200000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I’m a pediatrician. I want to prescribe the right AI to my patients",
-      "url": "https://www.statnews.com/2026/06/15/ai-children-screen-time-pediatrician-prescription-guidance/?utm_campaign=rss",
-      "summary": "AI for children requires “randomized controlled trials measuring real developmental outcomes, not engagement metrics,” writes Dua Hassan.",
-      "ts": 1781512200000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: In many South Asian American families, a child’s autism diagnosis is a secret",
-      "url": "https://www.statnews.com/2026/06/15/autism-diagnosis-south-asian-american-families-stigma/?utm_campaign=rss",
-      "summary": "“In South Asian households, a child's disability triggers a specific kind of family crisis,” writes child and adolescent psychiatrist Ritu Goel.",
-      "ts": 1781512200000,
-      "categoryId": "energy"
+      "title": "Six of the biggest health news stories today",
+      "url": "https://www.statnews.com/2026/06/18/health-news-high-end-infant-formula-synthetic-opioids-ftc/?utm_campaign=rss",
+      "summary": "High-end infant formula scrutiny, the spread of synthetic opioids, and more health news from Morning Rounds",
+      "ts": 1781783987000,
+      "categoryId": "bio"
     },
     {
       "source": "NASA",
-      "title": "Pumice Rafts Encroach on Admiralty Islands",
-      "url": "https://science.nasa.gov/earth/earth-observatory/pumice-rafts-encroach-on-admiralty-islands/",
-      "summary": "Buoyant volcanic rock fragments from an underwater eruption drifted across the Bismarck Sea and choked island coasts.",
-      "ts": 1781496060000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CisTransCell: Single-Cell Perturbation Prediction via Gene Function, Regulatory Control, and Cellular Context",
-      "url": "https://arxiv.org/abs/2606.13713",
-      "summary": "arXiv:2606.13713v1 Announce Type: new Abstract: Predicting cellular transcriptional responses to genetic perturbations is a central problem in single-cell biology, especially in the zero-shot setting where the perturbed …",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From simple interactions to complex biology: a hypergraph percolation perspective",
-      "url": "https://arxiv.org/abs/2606.13738",
-      "summary": "arXiv:2606.13738v1 Announce Type: new Abstract: The emergence of biological complexity can be viewed as a transition from fragmented local interactions to extensive integrated organization, raising the question of how la…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mean First Passage Time for Persistent Random Walks in Annular Search Domains",
-      "url": "https://arxiv.org/abs/2606.13890",
-      "summary": "arXiv:2606.13890v1 Announce Type: new Abstract: We study the mean first-passage time of a random walker to a small absorbing target at the center of a two-dimensional annulus with a specularly reflecting outer boundary. …",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An analytical framework to unify ecological and engineering resilience near critical transitions",
-      "url": "https://arxiv.org/abs/2606.13921",
-      "summary": "arXiv:2606.13921v1 Announce Type: new Abstract: The capacity of dynamical systems to resist and recover from perturbations, broadly referred to as resilience, is commonly expressed by two complementary quantities: ecolog…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Decoding Semantic Categories from Picture-Naming EEG",
-      "url": "https://arxiv.org/abs/2606.14614",
-      "summary": "arXiv:2606.14614v1 Announce Type: new Abstract: Picture naming requires the transformation of visual object information into a spoken lexical response through perceptual, semantic, lexical, and articulatory processes. Th…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Prospective Coding and Path Integration Emerge as Equilibrium Solutions of Self-Organizing Neural Networks with Firing-Rate Adaptation",
-      "url": "https://arxiv.org/abs/2606.14649",
-      "summary": "arXiv:2606.14649v1 Announce Type: new Abstract: Continuous Attractor Neural Networks (CANNs) traditionally rely on pre-wired recurrent connectivity to model spatial representations, path integration, and anticipatory dyn…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Implications of hierarchical Markov models of behavior: on irreversibility, predictability, and dimensionality",
-      "url": "https://arxiv.org/abs/2606.14692",
-      "summary": "arXiv:2606.14692v1 Announce Type: new Abstract: The maturation of quantitative tools for studying the high-level structure of animal behavior, and especially tools which represent spontaneous behavior as a sequence of st…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neural Variability Enhances Artificial Network Robustness",
-      "url": "https://arxiv.org/abs/2606.13801",
-      "summary": "arXiv:2606.13801v1 Announce Type: cross Abstract: Neural responses in cortex exhibit substantial trial-to-trial variability in response to repeated stimuli, while peripheral sensory neurons respond far more consistently,…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Temperature transferable Machine Learned Coarse Grained model for proteins",
-      "url": "https://arxiv.org/abs/2606.14111",
-      "summary": "arXiv:2606.14111v1 Announce Type: cross Abstract: Coarse-grained (CG) molecular simulations offer an efficient alternative to atomistic molecular dynamics to study large and complex biological systems. The accuracy of CG…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Curvature-Guided Geometric Representation for Protein-Ligand Binding Affinity Prediction",
-      "url": "https://arxiv.org/abs/2606.14159",
-      "summary": "arXiv:2606.14159v1 Announce Type: cross Abstract: Protein-ligand binding affinity (PLA) prediction is critical in drug discovery. Despite the notable advancements in machine learning-based approaches, existing methods st…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Curvature-Informed Potential Energy Surface for Protein-Ligand Binding Affinity Prediction",
-      "url": "https://arxiv.org/abs/2606.14217",
-      "summary": "arXiv:2606.14217v1 Announce Type: cross Abstract: Accurate prediction of protein-ligand binding affinity is essential for structure-based drug discovery. Recent geometric deep learning methods have achieved promising per…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Measurement-limited learning of conformational heterogeneity in cryo-electron microscopy",
-      "url": "https://arxiv.org/abs/2606.14449",
-      "summary": "arXiv:2606.14449v1 Announce Type: cross Abstract: Cryogenic electron microscopy images sample individual biomolecules from their conformational landscapes, offering a route to infer the distributions underlying molecular…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Note on the Maximum Number of Trees Displayed by a Tree-Child Network",
-      "url": "https://arxiv.org/abs/2606.14464",
-      "summary": "arXiv:2606.14464v1 Announce Type: cross Abstract: In this note, we show that, for all $n\\ge 2$, the number of distinct rooted binary phylogenetic $X$-trees displayed by a binary tree-child network $\\mathcal{N}$ on $X$ wi…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Towards In Silico Cancer Therapy Design: An Agent-Based Approach for GPU-Accelerated Molecular Pathway Simulation",
-      "url": "https://arxiv.org/abs/2606.14603",
-      "summary": "arXiv:2606.14603v1 Announce Type: cross Abstract: Agent-based modelling is gaining recognition as a powerful approach for simulating complex cellular pathways, owing to its ability to reproduce emergent biological behavi…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Robust Parametric Estimation of Avian Cranial Morphology",
-      "url": "https://arxiv.org/abs/2511.06426",
-      "summary": "arXiv:2511.06426v4 Announce Type: replace Abstract: Understanding the growth and form of complex morphological structures is one of the most fundamental problems in biology. While many prior works have analyzed the beak …",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evolution of cooperation in the multiplex",
-      "url": "https://arxiv.org/abs/2606.00196",
-      "summary": "arXiv:2606.00196v3 Announce Type: replace Abstract: Across biological and social systems, cooperation often depends on phenotypic cues rather than random encounters. To account for real-world interactions unfolding acros…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Metabolic cost of information processing in Poisson variational autoencoders",
-      "url": "https://arxiv.org/abs/2602.13421",
-      "summary": "arXiv:2602.13421v2 Announce Type: replace-cross Abstract: Computation in biological systems is fundamentally energy-constrained, yet standard theories of computation treat energy as freely available. Here, we argue that …",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "QualiaNet: An Experience-Before-Inference Network",
-      "url": "https://arxiv.org/abs/2604.14193",
-      "summary": "arXiv:2604.14193v2 Announce Type: replace-cross Abstract: Human 3D vision involves two distinct stages: an Experience Module, where stereo depth is extracted relative to fixation, and an Inference Module, where this expe…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Independent-Component-Based Encoding Models of Brain Activity During Story Comprehension",
-      "url": "https://arxiv.org/abs/2604.24942",
-      "summary": "arXiv:2604.24942v2 Announce Type: replace-cross Abstract: Encoding models provide a powerful framework for linking continuous stimulus features to neural activity; however, traditional voxelwise approaches are limited by…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Developmental Scaffoldings to Guide Self-Organisation",
-      "url": "https://arxiv.org/abs/2605.14998",
-      "summary": "arXiv:2605.14998v3 Announce Type: replace-cross Abstract: From subcellular structures to entire organisms, many natural systems generate complex organisation through self-organisation: local interactions that collectivel…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EmoMind: Decoding Affective Captions from Human Brain fMRI",
-      "url": "https://arxiv.org/abs/2605.16739",
-      "summary": "arXiv:2605.16739v2 Announce Type: replace-cross Abstract: Decoding visual experience from brain activity has advanced substantially, but current brain-to-text systems largely recover semantic content while discarding aff…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Traditional machine learning vs. deep learning from dynamic graph representations of proteins' 3D folds in the task of protein structure classification",
-      "url": "https://arxiv.org/abs/2605.29228",
-      "summary": "arXiv:2605.29228v2 Announce Type: replace-cross Abstract: Protein structure classification (PSC) uses supervised learning to predict a protein's CATH/SCOP(e) class from the protein's sequence or 3D structural feature(s).…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Is It You or Your Environment? A Bayesian Inference Framework for Genomically-Anchored Personalized Physiological Interpretation",
-      "url": "https://arxiv.org/abs/2606.13556",
-      "summary": "arXiv:2606.13556v2 Announce Type: replace-cross Abstract: Personalized health AI systems face a fundamental cold-start problem: machine learning models for physiological interpretation require weeks of individual behavio…",
-      "ts": 1781496000000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Nature Medicine",
-      "title": "Blood signatures of cell type-specific aging forecast disease risk and resilience",
-      "url": "https://www.nature.com/articles/s41591-026-04447-x",
-      "summary": "",
-      "ts": 1781481600000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Nature Medicine",
-      "title": "Adaptive deep brain stimulation for dynamic gait control in Parkinson’s disease: a randomized feasibility trial",
-      "url": "https://www.nature.com/articles/s41591-026-04434-2",
-      "summary": "",
-      "ts": 1781481600000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Nature Medicine",
-      "title": "Plasma proteomic signatures of cellular aging predict human disease",
-      "url": "https://www.nature.com/articles/s41591-026-04446-y",
-      "summary": "",
-      "ts": 1781481600000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Nature Medicine",
-      "title": "Activity-dependent adaptive deep brain stimulation improves gait in Parkinson’s disease",
-      "url": "https://www.nature.com/articles/s41591-026-04432-4",
-      "summary": "",
-      "ts": 1781481600000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Nature Medicine",
-      "title": "Long-term independent use of an intracortical brain–computer interface for speech and cursor control",
-      "url": "https://www.nature.com/articles/s41591-026-04414-6",
-      "summary": "",
-      "ts": 1781481600000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "StockWatch: Parabilis Medicines Makes Wall Street History with $770.5M IPO",
-      "url": "https://www.genengnews.com/topics/cancer/stockwatch-parabilis-medicines-makes-wall-street-history-with-770-5m-ipo/",
-      "summary": "Parabilis’ IPO surpasses the $625 million IPO carried out in April by Kailera Therapeutics, which topped the previous record-high among U.S. biotechs, the $604 million offering of Moderna in December 2018, two years befo…",
-      "ts": 1781468674000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Collagen Resides Inside Cells in Liquid Condensate-Like Form",
-      "url": "https://www.genengnews.com/topics/translational-medicine/collagen-resides-inside-cells-in-liquid-condensate-like-form/",
-      "summary": "A study has shown that collagen exists inside cells as a liquid-like droplet rather than as a long, rigid rod-like structure, and outline a “liquid extrusion” hypothesis for collagen export that may have implications for…",
-      "ts": 1781442119000,
-      "categoryId": "energy"
+      "title": "Hubble Glimpses Merging Galaxy Clusters",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-glimpses-merging-galaxy-clusters/",
+      "summary": "This NASA Hubble Space Telescope image features a galaxy cluster, called CL0016+1609 or MACS J0018.5+1626, that is very bright at X-ray wavelengths and is one of the most extensively studied clusters at X-ray and radio w…",
+      "ts": 1781782615000,
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
-      "title": "Missile production push runs into solid rocket motor bottleneck",
-      "url": "https://spacenews.com/missile-production-push-runs-into-solid-rocket-motor-bottleneck/",
-      "summary": "A new CSIS report says planned 2027 interceptor buys will test a supply chain still recovering from years of consolidation The post Missile production push runs into solid rocket motor bottleneck appeared first on SpaceN…",
-      "ts": 1781409600000,
-      "categoryId": "energy"
+      "title": "Blue Origin begins rebuilding New Glenn pad",
+      "url": "https://spacenews.com/blue-origin-begins-rebuilding-new-glenn-pad/",
+      "summary": "Blue Origin has started rebuilding a launch pad severely damaged in a New Glenn explosion less than three weeks ago as it works to resume launches by year’s end The post Blue Origin begins rebuilding New Glenn pad appear…",
+      "ts": 1781780508000,
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Improving health intelligence in ChatGPT",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "ts": 1781780400000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
-      "title": "Revised Artemis lunar lander plans take shape",
-      "url": "https://spacenews.com/revised-artemis-lunar-lander-plans-take-shape/",
-      "summary": "NASA has provided more details about the revised approaches that Blue Origin and SpaceX are taking to accelerate work on Artemis lunar landers. The post Revised Artemis lunar lander plans take shape appeared first on Spa…",
-      "ts": 1781371196000,
-      "categoryId": "energy"
+      "title": "Quantum Space wins Pentagon contract to develop orbital refueling spacecraft",
+      "url": "https://spacenews.com/quantum-space-wins-pentagon-contract-to-develop-orbital-refueling-spacecraft/",
+      "summary": "The company plans to deliver a fuel-transfer vehicle to the U.S. Space Force by 2028 The post Quantum Space wins Pentagon contract to develop orbital refueling spacecraft appeared first on SpaceNews.",
+      "ts": 1781780400000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
-      "title": "STAT+: FDA approves Sanofi diabetes drug for children with stage 3 diabetes",
-      "url": "https://www.statnews.com/2026/06/13/teplizumab-tzield-sanofi-fda-approval-children-stage-3-diabetes/?utm_campaign=rss",
-      "summary": "The FDA has approved a drug that was previously caught in a dispute between career staff and the political appointee head of the CDER.",
-      "ts": 1781356964000,
-      "categoryId": "energy"
+      "title": "STAT+: In pancreatic cancer, Patrick Soon-Shiong makes promises he has not kept",
+      "url": "https://www.statnews.com/2026/06/18/patrick-soon-shiong-pancreatic-cancer-abivax-concerns/?utm_campaign=rss",
+      "summary": "A wide gap exists between what Patrick Soon-Shiong says his cancer drugs can achieve and what they actually do, STAT's Adam Feuerstein writes.",
+      "ts": 1781778600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Geoengineering still faces major practical challenges",
+      "url": "https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges/",
+      "summary": "Solar geoengineering is often portrayed as a sort of emergency brake. Something along the lines of Pull in case of climate emergency to scatter light-reflecting particles to bounce sunlight out of the atmosphere and cool…",
+      "ts": 1781776800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The search for dark matter has been blown wide open",
+      "url": "https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open/",
+      "summary": "Underneath an Apennine massif, below the Jinping Mountains of Sichuan, and at the bottom of a South Dakota mine, there is a cosmic hunt afoot. Isolated deep beneath these rocky shields, massive detectors filled with liqu…",
+      "ts": 1781773200000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
-      "title": "WHO director-general is profoundly concerned after visit to Ebola outbreak area",
-      "url": "https://www.statnews.com/2026/06/13/who-director-general-in-drc-war-greater-concern-than-ebola/?utm_campaign=rss",
-      "summary": "The director-general of the World Health Organization is profoundly worried about the Ebola outbreak in the DRC, he told STAT in an interview.",
-      "ts": 1781355600000,
-      "categoryId": "energy"
+      "title": "Super-potent synthetic opioids called nitazenes are spreading across the U.S.",
+      "url": "https://www.statnews.com/2026/06/18/nitazenes-deadly-synthetic-opioids-rapid-spread-united-states/?utm_campaign=rss",
+      "summary": "Overdose deaths confirmed to involve nitazenes have risen sharply in the U.S., from 27 in 2020 to 409 in 2024, according to the CDC",
+      "ts": 1781773200000,
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
-      "title": "Opinion: ‘I’m pretty much all in’: An interview with a woman starting medical residency at almost 73",
-      "url": "https://www.statnews.com/2026/06/13/medical-residency-late-in-life-interview/?utm_campaign=rss",
-      "summary": "\"There are some physicians that work to 100”: Dawn Zuidgeest-Craft on becoming a medical doctor in her 70s.",
-      "ts": 1781339400000,
-      "categoryId": "energy"
+      "title": "Opinion: Congress should embrace strategic health diplomacy",
+      "url": "https://www.statnews.com/2026/06/18/strategic-health-diplomacy-congress-oversight-ebola-hantavirus/?utm_campaign=rss",
+      "summary": "“Improving global health should be a top policy priority of the United States,” write Anand Parekh, Tom Daschle, and Bill Frist.",
+      "ts": 1781771413000,
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
-      "title": "STAT+: Trump administration revisits policy to close Medicare drug price negotiation loophole",
-      "url": "https://www.statnews.com/2026/06/12/medicare-drug-price-negotiation-loophole-proposed-rule/?utm_campaign=rss",
-      "summary": "Trump administration revisits policy to plug Medicare drug price negotiation loophole.",
-      "ts": 1781300712000,
-      "categoryId": "energy"
+      "title": "What’s next for GLP-1 weight loss drugs?",
+      "url": "https://www.statnews.com/2026/06/18/weight-loss-drug-market-update-status-report-alex-hogan/?utm_campaign=rss",
+      "summary": "What’s next for GLP-1 weight loss drugs? Alex Hogan explores on the new episode of STATus Report. Watch now.",
+      "ts": 1781771400000,
+      "categoryId": "bio"
     },
     {
-      "source": "SpaceNews",
-      "title": "SpaceX shares rise nearly 20% in historic IPO",
-      "url": "https://spacenews.com/spacex-shares-rise-nearly-20-in-historic-ipo/",
-      "summary": "SpaceX shares rose on the first day of trading as the company went public in a milestone event for both the company and the broader space industry. The post SpaceX shares rise nearly 20% in historic IPO appeared first on…",
-      "ts": 1781298399000,
-      "categoryId": "energy"
+      "source": "STAT",
+      "title": "STAT+: Senate Democrats demand HHS provide records on federal vaccine policy",
+      "url": "https://www.statnews.com/2026/06/18/rfk-jr-vaccine-policy-probe-senate-democrats/?utm_campaign=rss",
+      "summary": "Senate Democrats open an inquiry into the Trump administration’s remaking of U.S. vaccine policy, demanding officials produce records by next week.",
+      "ts": 1781771400000,
+      "categoryId": "bio"
     },
     {
-      "source": "SpaceNews",
-      "title": "Avanti trims GEO exposure with Hylas-3 sale",
-      "url": "https://spacenews.com/avanti-trims-geo-exposure-with-hylas-3-sale/",
-      "summary": "TAMPA, Fla. — Avanti Communications is moving to close a chapter on the debt-fueled geostationary expansion that once defined the British satellite operator, with plans to sell the youngest payload […] The post Avanti tr…",
-      "ts": 1781296996000,
-      "categoryId": "energy"
+      "source": "STAT",
+      "title": "New infant botulism outbreak puts fancy formulas under scrutiny",
+      "url": "https://www.statnews.com/2026/06/18/byheart-nara-botulism-outbreaks-premium-baby-formula-safety/?utm_campaign=rss",
+      "summary": "A new infant botulism outbreak puts fancy formulas that position their products as safer than other options under scrutiny.",
+      "ts": 1781771400000,
+      "categoryId": "bio"
     },
     {
-      "source": "SpaceNews",
-      "title": "Astronomers fear orbital data centers will interfere with observations",
-      "url": "https://spacenews.com/astronomers-fear-orbital-data-centers-will-interfere-with-observations/",
-      "summary": "As SpaceX gears up to start launching orbital data center spacecraft as soon as next year, astronomers warn those satellites could cause serious interference with their observations. The post Astronomers fear orbital dat…",
-      "ts": 1781293785000,
-      "categoryId": "energy"
+      "source": "STAT",
+      "title": "Opinion: AI’s growing appetite for power is a public health issue. Here’s a fix",
+      "url": "https://www.statnews.com/2026/06/18/ai-energy-water-usage-public-health-electricity-policy/?utm_campaign=rss",
+      "summary": "“AI is creating a new and largely overlooked strain on something fundamental to health,” write Sten H. Vermund and Patricia J. Kissinger.",
+      "ts": 1781771400000,
+      "categoryId": "bio"
     },
     {
-      "source": "Genetic Engineering News",
-      "title": "Hantavirus One-Shot mRNA Vaccine Fully Protects in Syrian Hamster Model",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/hantavirus-one-shot-mrna-vaccine-fully-protects-in-syrian-hamster-model/",
-      "summary": "Researchers at The University of Texas Medical Branch developed a single-dose mRNA vaccine that provided complete protection against the deadly Andes hantavirus infection in animal tests, potentially offering a rapid-res…",
-      "ts": 1781288211000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "SonoThera Raises $125M to Develop Ultrasound-Mediated Genetic Medicines",
-      "url": "https://www.genengnews.com/topics/drug-discovery/sonothera-raises-125m-to-develop-ultrasound-mediated-genetic-medicines/",
-      "summary": "The company's proprietary platform combines an ultrasound-mediated delivery technology with payload engineering capabilities that support the development of DNA and RNA therapeutics, gene editing, and gene silencing appr…",
-      "ts": 1781287609000,
-      "categoryId": "energy"
+      "source": "OpenAI",
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "ts": 1781769600000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
-      "title": "NASA to Cover 34th SpaceX Resupply Mission Space Station Departure",
-      "url": "https://www.nasa.gov/news-release/nasa-to-cover-34th-spacex-resupply-mission-space-station-departure/",
-      "summary": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft is scheduled to depart the International Space Station on Tuesday, June 16, for its return to …",
-      "ts": 1781278374000,
-      "categoryId": "energy"
+      "title": "El Niño Is Underway",
+      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-is-underway/",
+      "summary": "Satellite observations of sea surface height indicated that the 2026 event continued to strengthen in early June.",
+      "ts": 1781755200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Archetypal Microbiome Profiles as Indicators of Nitrous Oxide Emission States in Activated Sludge",
+      "url": "https://arxiv.org/abs/2606.18295",
+      "summary": "arXiv:2606.18295v1 Announce Type: new Abstract: Nitrous oxide (N2O) emissions from water resource recovery facilities (WRRFs) fluctuate over time and can arise from multiple microbial pathways, making source attribution …",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Protein-Based Fish Species Identification: Dataset, Models, and Insights from Native Bangladeshi Fish",
+      "url": "https://arxiv.org/abs/2606.18302",
+      "summary": "arXiv:2606.18302v1 Announce Type: new Abstract: Correct identification of fish species is highly significant for food security, economic development, and climate resilience in Bangladesh. Protein sequences directly refle…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "DART: A design-aware microfluidic chip paradigm for real-time live-cell image analysis",
+      "url": "https://arxiv.org/abs/2606.18523",
+      "summary": "arXiv:2606.18523v1 Announce Type: new Abstract: High-throughput microfluidic live-cell imaging generates rich single-cell data. Yet semi-automated procedures for locating regions of interest (RoIs), each containing one c…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Adaptive COVID-19 Trajectory Forecasting Using MAB-Inspired Ensemble Weighting",
+      "url": "https://arxiv.org/abs/2606.18575",
+      "summary": "arXiv:2606.18575v1 Announce Type: new Abstract: Forecasting epidemic trajectories is important for public health decision-making, but no single model is consistently reliable across epidemic phases and forecasting settin…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Effects of spatial environmental noise on evolution of cooperation",
+      "url": "https://arxiv.org/abs/2606.18660",
+      "summary": "arXiv:2606.18660v1 Announce Type: new Abstract: We investigate the effects of environmental noise on cooperation in a spatial evolutionary game model with variable population size. Building on a one-dimensional lattice m…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Can neurons speak? Semantic narration of vision at single-cell resolution",
+      "url": "https://arxiv.org/abs/2606.18667",
+      "summary": "arXiv:2606.18667v1 Announce Type: new Abstract: Identifying what individual neurons encode in higher-order visual cortex is an open problem. Responses resist intuitive parameterization, and the deep-network embeddings us…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Retrieval-Based Brain Decoding by Alignment, not Complexity",
+      "url": "https://arxiv.org/abs/2606.19081",
+      "summary": "arXiv:2606.19081v1 Announce Type: new Abstract: A prominent theory in cognitive science suggests that concepts in the brain are organized as high-dimensional vectors, with semantic meaning captured by directions and rela…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "CollaboratoR: A scalable workflow for collaborative data entry and management",
+      "url": "https://arxiv.org/abs/2606.19280",
+      "summary": "arXiv:2606.19280v1 Announce Type: new Abstract: Effective collaborative data entry and transparency are foundational for building robust databases and high-quality data synthesis. Yet researchers often face inconsistent …",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Multi-network comparison of between-farm contacts for infectious disease surveillance in swine production",
+      "url": "https://arxiv.org/abs/2606.18277",
+      "summary": "arXiv:2606.18277v1 Announce Type: cross Abstract: Understanding how swine farms are interconnected, directly and indirectly, is essential to characterizing infectious disease transmission. This study aimed to describe th…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MOLAR: Learning Multimodal Molecular Representations from Noisy Labels",
+      "url": "https://arxiv.org/abs/2606.18390",
+      "summary": "arXiv:2606.18390v1 Announce Type: cross Abstract: Motivation: Noisy labels are a common challenge in molecular property prediction because molecular annotations are often obtained from assays, curated databases, or weak …",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Measurement noise limits the advantage of nonlinear models over linear models in biomedical prediction",
+      "url": "https://arxiv.org/abs/2606.18420",
+      "summary": "arXiv:2606.18420v1 Announce Type: cross Abstract: On biomedical tabular data, flexible models such as deep networks, gradient-boosted trees, and kernel methods are repeatedly matched or beaten by linear and logistic regr…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Bayesian Sampling of Structural Ensembles: The Role of Ensemble-Counting Measures",
+      "url": "https://arxiv.org/abs/2606.18495",
+      "summary": "arXiv:2606.18495v1 Announce Type: cross Abstract: Structural ensemble refinement is widely used to integrate molecular simulations with experimental measurements. While most applications focus on the maximum-a-posteriori…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MetaboNet-Bench: A Multi-modal Benchmark for Glucose Forecasting in Type 1 Diabetes",
+      "url": "https://arxiv.org/abs/2606.18640",
+      "summary": "arXiv:2606.18640v1 Announce Type: cross Abstract: Glucose forecasting algorithms are an important aspect of glycemic control management in type 1 diabetes. So far, the research community has developed numerous algorithms…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "scGTN: Deep Siamese Graph Transformer Network for Single-cell RNA Sequencing Clustering",
+      "url": "https://arxiv.org/abs/2606.18672",
+      "summary": "arXiv:2606.18672v1 Announce Type: cross Abstract: Single-cell RNA sequencing (scRNA-seq) serves a pivotal role in characterizing gene expression at the cellular level, enabling the identification of cell types and advanc…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Contextualizing Biological Language Models across Modalities via Logit-Space Contrastive Alignment",
+      "url": "https://arxiv.org/abs/2606.18703",
+      "summary": "arXiv:2606.18703v1 Announce Type: cross Abstract: Pretrained biological language models expose per-token probability distributions through masked-token prediction, providing the likelihood interface central to sequence d…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "State- versus Reaction-Based Information Processing in Biochemical Networks",
+      "url": "https://arxiv.org/abs/2505.13373",
+      "summary": "arXiv:2505.13373v2 Announce Type: replace Abstract: Trajectory mutual information is frequently used to quantify information transfer in biochemical systems. Tractable solutions of the trajectory mutual information can b…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Assimilation of machine learning-predicted nitrate to improve the quality of phytoplankton forecasting in the shelf sea environment",
+      "url": "https://arxiv.org/abs/2508.02400",
+      "summary": "arXiv:2508.02400v2 Announce Type: replace Abstract: We demonstrate that assimilating Neural Network (NN)-predicted surface nitrate leads to a major improvement in phytoplankton short-range (1-5 day) dynamical model forec…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Estimating carbon pools in the European Shelf sea environment: replacing reanalysis by model-informed machine learning?",
+      "url": "https://arxiv.org/abs/2508.10178",
+      "summary": "arXiv:2508.10178v3 Announce Type: replace Abstract: Shelf seas are important for the economy and the carbon cycle, but shelf sea observations for carbon pools are often sparse, or highly uncertain. An alternative can be …",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "DecNefSimulator: A Modular, Interpretable Framework for Decoded Neurofeedback Simulation Using Generative Models",
+      "url": "https://arxiv.org/abs/2511.14555",
+      "summary": "arXiv:2511.14555v4 Announce Type: replace Abstract: Decoded Neurofeedback (DecNef) is a promising non-invasive approach to brain modulation with wide-ranging applications in neuromedicine and cognitive neuroscience. Howe…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "SciHorizon-GENE: Benchmarking LLM for Life Sciences Inference from Gene Knowledge to Functional Understanding",
+      "url": "https://arxiv.org/abs/2601.12805",
+      "summary": "arXiv:2601.12805v4 Announce Type: replace Abstract: Large language models (LLMs) have shown growing promise in biomedical research, particularly for knowledge-driven interpretation tasks. However, their ability to reliab…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Poisoning the Genome: Targeted Backdoor Attacks on DNA Foundation Models",
+      "url": "https://arxiv.org/abs/2603.27465",
+      "summary": "arXiv:2603.27465v2 Announce Type: replace Abstract: Foundation models trained on DNA sequences have achieved strong performance across biological tasks including variant effect prediction and genome design. These models …",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Numerical Reliability of Logistic Gene Regulatory Network Models: Preventing Expression Shutdown and Robust Integration of Boolean-Derived ODE Systems",
+      "url": "https://arxiv.org/abs/2605.01056",
+      "summary": "arXiv:2605.01056v2 Announce Type: replace Abstract: Gene regulatory networks are routinely translated from Boolean update rules into large continuous ODE systems integrated numerically for attractor identification, sensi…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "ScholaWrite: A Dataset of End-to-End Scholarly Writing Process",
+      "url": "https://arxiv.org/abs/2502.02904",
+      "summary": "arXiv:2502.02904v5 Announce Type: replace-cross Abstract: Writing is a cognitively demanding activity that requires constant decision-making, heavy reliance on working memory, and frequent shifts between tasks of differe…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Stimulus Motion Perception Studies Imply Specific Neural Computations in Human Visual Stabilization",
+      "url": "https://arxiv.org/abs/2506.13506",
+      "summary": "arXiv:2506.13506v2 Announce Type: replace-cross Abstract: Even during fixation the human eye is constantly in low amplitude motion, jittering over small angles in random directions at up to 100Hz. This motion results in …",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Modeling Epidemics on Multiplex Networks: Epidemic Threshold and Basic Reproduction Number",
+      "url": "https://arxiv.org/abs/2510.12614",
+      "summary": "arXiv:2510.12614v2 Announce Type: replace-cross Abstract: Accurate epidemic forecasting requires models that account for the layered and heterogeneous nature of real social interactions. The basic reproduction number $\\m…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "ActiTect: A Generalizable Machine Learning Pipeline for REM Sleep Behavior Disorder Screening through Standardized Actigraphy",
+      "url": "https://arxiv.org/abs/2511.05221",
+      "summary": "arXiv:2511.05221v3 Announce Type: replace-cross Abstract: Isolated rapid eye movement sleep behavior disorder (iRBD) is a major prodromal marker of $\\alpha$-synucleinopathies, often preceding the clinical onset of Parkin…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "When minor issues matter: symmetries, pluralism, and polarization in similarity-based opinion dynamics",
+      "url": "https://arxiv.org/abs/2603.04939",
+      "summary": "arXiv:2603.04939v2 Announce Type: replace-cross Abstract: Understanding how opinions evolve through social interactions is crucial for mitigating polarization. Existing opinion-dynamics models incorporate both attractive…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories",
+      "url": "https://arxiv.org/abs/2605.10840",
+      "summary": "arXiv:2605.10840v3 Announce Type: replace-cross Abstract: We present Clin-JEPA, a multi-phase co-training framework for joint-embedding predictive (JEPA) pretraining on EHR patient trajectories. JEPA architectures have e…",
+      "ts": 1781755200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Announces Public-Private Partnership to Advance Mars Science",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-public-private-partnership-to-advance-mars-science/",
+      "summary": "NASA Wednesday announced a new public‑private partnership to advance Mars science by combining the agency’s scientific leadership with commercial innovation. Under this model, NASA will provide the Aeolus atmospheric‑sci…",
+      "ts": 1781735349000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/06/12/up-and-down-the-ladder-job-changes-astrazeneca-bayer/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1781276655000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Prometheus raises $12 billion in capital for artificial engineers",
-      "url": "https://www.statnews.com/2026/06/12/biotech-news-prometheus-raises-12-billion-for-artificial-engineers/?utm_campaign=rss",
-      "summary": "Nonprofit Blood Cancer United acquires cancer drug, Lilly and Nvidia invest in Abridge, and more biotech news",
-      "ts": 1781273375000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a discontinued cancer drug, a Novo security breach, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/06/12/nonprofit-buys-discontinued-cancer-drug-novo-security-breach/?utm_campaign=rss",
-      "summary": "The nonprofit Blood Cancer United is buying the remaining supplies of a discontinued investigational cancer drug, Luvelta",
-      "ts": 1781270577000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 08-12 June 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_08-12_June_2026",
-      "summary": "Week in images: 08-12 June 2026 Discover our week through the lens",
-      "ts": 1781269800000,
-      "categoryId": "energy"
+      "title": "RFK Jr. presents $700 million in mental health funding, but experts say grants aren’t new",
+      "url": "https://www.statnews.com/2026/06/17/rfk-new-mental-health-funding-or-new-use-existing-grants/?utm_campaign=rss",
+      "summary": "RFK Jr. presents funding intended to address mental illness and addiction, particularly among homeless people.",
+      "ts": 1781732210000,
+      "categoryId": "bio"
     },
     {
       "source": "SpaceNews",
-      "title": "All in on AI at Astra",
-      "url": "https://spacenews.com/all-in-on-ai-at-astra/",
-      "summary": "Chris Kemp thinks he could be the last person left working at Astra — but not for the reason most people might think. His company rode the SPAC boom five […] The post All in on AI at Astra appeared first on SpaceNews.",
-      "ts": 1781269200000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "H3 successfully returns to flight",
-      "url": "https://spacenews.com/h3-successfully-returns-to-flight/",
-      "summary": "Japan’s H3 rocket launched June 11 on its first flight since a failure in December, placing six smallsats in orbit. The post H3 successfully returns to flight appeared first on SpaceNews.",
-      "ts": 1781266509000,
-      "categoryId": "energy"
+      "title": "Relativity Space to privately develop Mars orbiter mission",
+      "url": "https://spacenews.com/relativity-space-to-privately-develop-mars-orbiter-mission/",
+      "summary": "Relativity Space plans to launch a Mars orbiter in 2028 as part of a new initiative to privately develop planetary missions. The post Relativity Space to privately develop Mars orbiter mission appeared first on SpaceNews…",
+      "ts": 1781729104000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
-      "title": "Chile offers new data on food warning label efficacy",
-      "url": "https://www.statnews.com/2026/06/12/health-news-chile-offers-new-data-on-food-warning-label-efficacy/?utm_campaign=rss",
-      "summary": "Kennedy's \"publicly\" \"available\" \"calendar,\" drinking during pregnancy, and more health news from Morning Rounds",
-      "ts": 1781265076000,
-      "categoryId": "energy"
+      "title": "STAT+: DOJ’s swift win in OhioHealth case should have hospitals studying their contracts, experts say",
+      "url": "https://www.statnews.com/2026/06/17/ohiohealth-antitrust-settlement-doj-ohio-attorney-general/?utm_campaign=rss",
+      "summary": "The speed of DOJ's proposed antitrust settlement with OhioHealth should put other hospitals on notice, experts say.",
+      "ts": 1781727799000,
+      "categoryId": "bio"
     },
     {
-      "source": "ESA",
-      "title": "Mission Control | Keeping Columbus Running 24/7 | ESA Explores #19",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Mission_Control_Keeping_Columbus_Running_24_7_ESA_Explores_19",
-      "summary": "Video: 00:17:20 Step inside the Columbus Control Centre near Munich, Germany, and discover what it takes to keep ESA's Columbus laboratory running—24 hours a day, 365 days a year. Columbus Flight Director Tristan Hermel …",
-      "ts": 1781258400000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "In aerospace, AI isn’t replacing workers. It’s filling a shortage",
-      "url": "https://spacenews.com/in-aerospace-ai-isnt-replacing-workers-its-filling-a-shortage/",
-      "summary": "Aerospace executives see AI not as a replacement for workers but as a necessary tool for helping an overstretched industrial base The post In aerospace, AI isn’t replacing workers. It’s filling a shortage appeared first …",
-      "ts": 1781258400000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Buenos Aires",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Buenos_Aires",
-      "summary": "Image: This radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary. Zoom in to explore this image at its full resol…",
-      "ts": 1781251200000,
-      "categoryId": "energy"
-    },
-    {
-      "source": "ESA",
-      "title": "Conversations in the sky: Galileo’s intersatellite links tested",
-      "url": "https://www.esa.int/Applications/Satellite_navigation/Conversations_in_the_sky_Galileo_s_intersatellite_links_tested",
-      "summary": "The second generation of Galileo, Europe’s satellite navigation constellation, is being built. These satellites will feature reconfigurable payloads, provide more robust and reliable positioning, navigation and timing, e…",
-      "ts": 1781246700000,
-      "categoryId": "energy"
+      "source": "NASA",
+      "title": "Search for Hidden Cosmic Companions in Sun’s Backyard",
+      "url": "https://science.nasa.gov/get-involved/citizen-science/search-for-hidden-cosmic-companions-in-suns-backyard/",
+      "summary": "Some stars have planets. Others are orbited by brown dwarfs, balls of gas too massive to be planets, but too low-mass to be stars. Astronomers love these brown dwarf-star pairs because being paired with a star helps reve…",
+      "ts": 1781725203000,
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
-      "title": "Laser‑Driven Phase Contrast Enhances Cryo‑EM Resolution of Small Proteins",
-      "url": "https://www.genengnews.com/topics/drug-discovery/laser%e2%80%91driven-phase-contrast-enhances-cryo%e2%80%91em-resolution-of-small-proteins/",
-      "summary": "Installed in a custom Titan Krios, the laser phase plate boosts small‑protein cryo‑EM by enhancing motion correction, early‑frame recovery, particle visualization, and 3D classification and alignment. The post Laser‑Driv…",
-      "ts": 1781229319000,
-      "categoryId": "energy"
+      "title": "Personalized Cartilage Graft Developed for Life-Threatening Infant Airway Narrowing",
+      "url": "https://www.genengnews.com/topics/translational-medicine/personalized-cartilage-graft-developed-for-life-threatening-infant-airway-narrowing/",
+      "summary": "Researchers demonstrated in a preclinical model a new method of using decellularized cartilage with patient-specific cells to create grafts for enlarging pediatric airways narrowed as a result of severe subglottic stenos…",
+      "ts": 1781724188000,
+      "categoryId": "bio"
     },
     {
       "source": "SpaceNews",
-      "title": "AAC Clyde Space wins ESA contract to complete maritime-monitoring constellation",
-      "url": "https://spacenews.com/aac-clyde-space-wins-esa-contract-to-complete-maritime-monitoring-constellation/",
-      "summary": "SAN FRANCISCO – The European Space Agency awarded AAC Clyde Space a 10.9 million euro ($12.6 million) contract to complete development and demonstrate VHF Data Exchange System (VDES) satellites for […] The post AAC Clyde…",
-      "ts": 1781222766000,
-      "categoryId": "energy"
+      "title": "Upgraded Ariane 6 launches Amazon Leo satellites",
+      "url": "https://spacenews.com/upgraded-ariane-6-launches-amazon-leo-satellites/",
+      "summary": "An Ariane 6 with upgraded solid rocket boosters successfully launched three dozen Amazon Leo satellites June 17 as ESA weighs options for increasing the vehicle’s launch rate. The post Upgraded Ariane 6 launches Amazon L…",
+      "ts": 1781723620000,
+      "categoryId": "space"
     },
     {
-      "source": "Nature Medicine",
-      "title": "The Hong Kong Genome Project is a flagship initiative for precision medicine in Chinese populations",
-      "url": "https://www.nature.com/articles/s41591-026-04421-7",
-      "summary": "",
-      "ts": 1781222400000,
-      "categoryId": "energy"
+      "source": "STAT",
+      "title": "FTC, four state AGs sue transgender health group over care standards",
+      "url": "https://www.statnews.com/2026/06/17/ftc-gender-affirming-lawsuit-targets-wpath/?utm_campaign=rss",
+      "summary": "The FTC and four state attorneys general have sued the main professional organization for gender-affirming care clinicians.",
+      "ts": 1781720608000,
+      "categoryId": "bio"
     },
     {
-      "source": "Nature Medicine",
-      "title": "Efficacy and target engagement of dopamine agonist pramipexole for anhedonic depression: a randomized placebo-controlled trial",
-      "url": "https://www.nature.com/articles/s41591-026-04465-9",
-      "summary": "",
-      "ts": 1781222400000,
-      "categoryId": "energy"
+      "source": "STAT",
+      "title": "NIH diversity programs doubled undergraduates’ odds of getting a Ph.D., 20-year study finds",
+      "url": "https://www.statnews.com/2026/06/17/nih-diversity-programs-terminated-despite-success-study-shows/?utm_campaign=rss",
+      "summary": "A new study found that two diversity-oriented programs supported by the NIH doubled the odds that an undergraduate would earn a Ph.D.",
+      "ts": 1781719300000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Fermi Mission Uncovers Possible Sibling Supernova Remnants",
+      "url": "https://science.nasa.gov/missions/fermi/nasas-fermi-sibling-supernova-remnants/",
+      "summary": "A new study of two supernova remnants, the debris left behind after stars explode, suggests the explosions came from stellar siblings that once orbited each other. The first star’s detonation sent its binary companion hu…",
+      "ts": 1781716500000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Luigi Mangione will assert psychiatric defense in murder case in UnitedHealthcare CEO’s killing",
+      "url": "https://www.statnews.com/2026/06/17/luigi-mangione-psychiatric-defense-murder-case-unitedhealthcare-ceo-killing/?utm_campaign=rss",
+      "summary": "Luigi Mangione plans to assert a psychiatric defense at his state murder trial, claiming he was suffering from extreme emotional disturbance when he gunned down UnitedHealthcare CEO Brian Thompson.",
+      "ts": 1781715773000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Advocacy groups petition FDA to withdraw approval of ‘unsafe’ use of antibiotics given to livestock",
+      "url": "https://www.statnews.com/pharmalot/2026/06/17/advocates-petition-fda-withdraw-approval-unsafe-use-antibiotics-given-livestock/?utm_campaign=rss",
+      "summary": "More than 60 organizations are urging the FDA to withdraw approval for what they called the “unsafe” use of antibiotics for preventing disease in food-producing livestock.",
+      "ts": 1781712432000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Analytics Map Purification Optimization Tradeoffs",
+      "url": "https://www.genengnews.com/topics/bioprocessing/analytics-map-purification-optimization-tradeoffs/",
+      "summary": "Chromatography optimization should be considered not only in terms of quality, but also in terms of how each change affects processing time, congestion, and feasibility regarding stability-based time windows. The post An…",
+      "ts": 1781712059000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Continuous Production Platform Offers New Gene Therapy Options",
+      "url": "https://www.genengnews.com/topics/bioprocessing/continuous-production-platform-offers-new-gene-therapy-options/",
+      "summary": "An independent U.K. innovation center has developed a continuous bioprocess to improve productivity and reduce costs of advanced therapies. The new platform performs as well, or better, than batch methods. The post Conti…",
+      "ts": 1781712047000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bacterial Expression Tech Prompts NorthX and enGenes Collaboration",
+      "url": "https://www.genengnews.com/topics/bioprocessing/bacterial-expression-tech-prompts-northx-and-engenes-collaboration/",
+      "summary": "Interest in E.coli-based expression systems is growing as biopharma firms look for faster and cheaper ways of making proteins at commercial scale, prompting the new partnership between NorthX Biologics and enGenes Biotec…",
+      "ts": 1781712034000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Solvent Recovery Gains Ground in Bioprocessing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/solvent-recovery-gains-ground-in-bioprocessing/",
+      "summary": "As bioprocessors face rising solvent costs, supply-chain disruptions, and mounting sustainability demands, solvent-recovery systems are emerging as strategic investments that reduce operating expenses, strengthen product…",
+      "ts": 1781712023000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "347th ESA Council: Media information session",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/347th_ESA_Council_Media_information_session",
+      "summary": "Video: 00:49:43 Watch the replay of the media information session where ESA Director General Josef Aschbacher and outgoing ESA Council Chair Renato Krpoun provide an update on the main outcomes of the 347th ESA Council m…",
+      "ts": 1781708400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Sees Swarm of Galaxies",
+      "url": "https://www.nasa.gov/image-article/hubble-sees-swarm-of-galaxies/",
+      "summary": "Looking somewhat like a swarm of bees returning to their hive, this NASA Hubble Space Telescope image released on June 12, 2026, features the galaxy cluster MACS0329-0211. Galaxy clusters like MACS0329-0211 are important…",
+      "ts": 1781708173000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Ariane 6 launches with more powerful boosters: a new record for Europe",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Ariane_6_launches_with_more_powerful_boosters_a_new_record_for_Europe",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/first_ariane_6_liftoff_with_p160c-based_boosters_seen_with_mobile_hangar/27334453-2-eng-GB/First_Ariane_6_liftoff_with_P160C-based_booste…",
+      "ts": 1781704200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Age-Related Inflammation Linked to R-Loop Nucleic Acids, Opens Therapies",
+      "url": "https://www.genengnews.com/topics/drug-discovery/age-related-inflammation-linked-to-r-loop-nucleic-acids-opens-therapies/",
+      "summary": "When cells enter senescence, they begin releasing signals that contribute to chronic inflammation. Researchers have now pinpointed R-loops as a key component to modulating these inflammatory signals. The post Age-Related…",
+      "ts": 1781703925000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA appears open to Moderna’s flu vaccine ahead of adcomm",
+      "url": "https://www.statnews.com/2026/06/17/biotech-news-fda-appears-open-to-moderna-flu-shot/?utm_campaign=rss",
+      "summary": "UniQure will submit Huntington's therapy for approval, Eli Lilly buys 4E Therapeutics, and more biotech news",
+      "ts": 1781703282000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about hackers extorting Novo, an FDA about-face, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/06/17/hackers-extorting-novo-fda-about-face-on-uniqure-drug/?utm_campaign=rss",
+      "summary": "A cyber extortion group claimed ​to have stolen more than a terabyte of data from Novo Nordisk and said it is ‌exploring selling some of the data",
+      "ts": 1781701786000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "America’s next economic frontier is 240,000 miles away",
+      "url": "https://spacenews.com/americas-next-economic-frontier-is-240000-miles-away/",
+      "summary": "Humans have always gazed up at the moon in wonder. A generation ago, NASA astronauts did the extraordinary and touched down on its surface, planting an American flag and igniting […] The post America’s next economic fron…",
+      "ts": 1781701200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "First Ariane 6 liftoff with most powerful boosters ",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/First_Ariane_6_liftoff_with_most_powerful_boosters",
+      "summary": "Video: 00:03:05 On the 17th of June Ariane 6 flight VA269 soared to orbit from Europe's Spaceport in French Guiana. The latest generation of Europe's largest and most powerful rocket launched 36 satellites for Amazon's L…",
+      "ts": 1781701200000,
+      "categoryId": "space"
     }
   ],
-  "categories": []
+  "categories": [
+    {
+      "id": "ai-compute",
+      "name": "AI & Compute"
+    },
+    {
+      "id": "space",
+      "name": "Space"
+    },
+    {
+      "id": "bio",
+      "name": "Bio"
+    },
+    {
+      "id": "governance",
+      "name": "Governance"
+    },
+    {
+      "id": "civilization",
+      "name": "Civilization"
+    }
+  ]
 }

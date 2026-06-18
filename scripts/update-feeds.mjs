@@ -1,19 +1,16 @@
 import fs from "fs";
-import { Http2ServerRequest } from "http2";
 import path from "path";
 import Parser from "rss-parser";
 
 const parser = new Parser();
 
 const outDir = path.join(process.cwd(), "public", "data");
+const SIGNALS_FILE = path.join(outDir, "signals.json");
 
 function readPreviousItems(fileName) {
   try {
     const filePath = path.join(outDir, fileName);
-
-    if (!fs.existsSync(filePath)) {
-      return [];
-    }
+    if (!fs.existsSync(filePath)) return [];
 
     const raw = fs.readFileSync(filePath, "utf8");
     const json = JSON.parse(raw);
@@ -45,217 +42,124 @@ function ts(item) {
 
 const SIGNAL_CATEGORIES = [
   {
-    id: "nature-news",
-    name: "Nature News",
-    url: "https://www.nature.com/nature/articles?type=news&format=rss",
+    id: "science",
+    name: "Science",
+    sources: [
+      { id: "aps", name: "APS Physical Review Letters", url: "https://feeds.aps.org/rss/recent/prl.xml" },
+      { id: "arxiv-physics", name: "arXiv Physics", url: "https://rss.arxiv.org/rss/physics" },
+      { id: "arxiv-ai", name: "arXiv AI", url: "https://rss.arxiv.org/rss/cs.AI" },
+      { id: "arxiv-quant", name: "arXiv Quantum", url: "https://rss.arxiv.org/rss/quant-ph" },
+      { id: "science-news", name: "Science News", url: "https://www.sciencenews.org/feed" },
+      { id: "physorg", name: "Phys.org", url: "https://phys.org/rss-feed/" },
+      { id: "quanta", name: "Quanta Magazine", url: "https://www.quantamagazine.org/feed/" },
+      { id: "aps-prl",name: "APS PRL",url: "https://feeds.aps.org/rss/recent/prl.xml",},
+      { id: "aps-prx",name: "APS PRX",url: "https://feeds.aps.org/rss/recent/prx.xml",},
+      { id: "aps-prapplied",name: "APS PR Applied",url: "https://feeds.aps.org/rss/recent/prapplied.xml",},
+    ],
   },
-
   {
-    id: "nature-research",
-    name: "Nature Research Highlights",
-    url: "https://www.nature.com/subjects/research-data/rss",
+    id: "ai-compute",
+    name: "AI & Compute",
+    sources: [
+      { id: "openai", name: "OpenAI", url: "https://openai.com/news/rss.xml" },
+      { id: "mittr", name: "MIT Technology Review", url: "https://www.technologyreview.com/feed/" },
+      { id: "semianalysis", name: "SemiAnalysis", url: "https://semianalysis.com/feed/" },
+    ],
   },
-
   {
-    id: "aps",
-    name: "APS Physical Review Letters",
-    url: "https://feeds.aps.org/rss/recent/prl.xml",
+    id: "space",
+    name: "Space",
+    sources: [
+      { id: "nasa", name: "NASA", url: "https://www.nasa.gov/rss/dyn/breaking_news.rss" },
+      { id: "esa", name: "ESA", url: "https://www.esa.int/rssfeed/TopNews" },
+      { id: "spacenews", name: "SpaceNews", url: "https://spacenews.com/feed/" },
+    ],
   },
-
   {
-    id: "arxiv-physics",
-    name: "arXiv Physics",
-    url: "https://rss.arxiv.org/rss/physics",
+    id: "bio",
+    name: "Bio",
+    sources: [
+      { id: "cell", name: "Cell", url: "https://www.cell.com/cell/current.rss" },
+      { id: "nature-medicine", name: "Nature Medicine", url: "https://www.nature.com/nm.rss" },
+      { id: "stat", name: "STAT", url: "https://www.statnews.com/feed/" },
+      { id: "genengnews", name: "Genetic Engineering News", url: "https://www.genengnews.com/feed/" },
+      { id: "arxiv-qbio", name: "arXiv q-bio", url: "https://rss.arxiv.org/rss/q-bio" },
+    ],
   },
-
   {
-    id: "arxiv-ai",
-    name: "arXiv AI",
-    url: "https://rss.arxiv.org/rss/cs.AI",
+    id: "governance",
+    name: "Governance",
+    sources: [
+    ],
   },
-
   {
-    id: "arxiv-quant",
-    name: "arXiv Quantum",
-    url: "https://rss.arxiv.org/rss/quant-ph",
+    id: "civilization",
+    name: "Civilization",
+    sources: [
+    ],
   },
+];
 
-  {
-    id: "science-news",
-    name: "Science News",
-    url: "https://www.sciencenews.org/feed",
-  },
-
-  {
-    id: "physorg",
-    name: "Phys.org",
-    url: "https://phys.org/rss-feed/",
-  },
-
-  {
-    id: "quanta",
-    name: "Quanta Magazine",
-    url: "https://www.quantamagazine.org/feed/",
-  },
-
-  {
-    id: "santa-fe",
-    name: "Santa Fe Institute",
-    url: "https://www.santafe.edu/news-center/news/rss.xml",
-  },
-    {
-      id: "openai",
-      name: "OpenAI",
-      url: "https://openai.com/news/rss.xml",
-    },
-
-    {
-      id: "anthropic",
-      name: "Anthropic",
-      url: "https://www.anthropic.com/news",
-    },
-
-    {
-      id: "google-deepmind",
-      name: "Google DeepMind",
-      url: "https://deepmind.google/discover/blog/rss.xml",
-    },
-
-    {
-      id: "mittr",
-      name: "MIT Technology Review",
-      url: "https://www.technologyreview.com/feed/",
-    },
-
-    {
-      id: "semianalysis",
-      name: "SemiAnalysis",
-      url: "https://semianalysis.com/feed/",
-    },
-    {
-      id: "nvidia",
-      name: "NVIDIA",
-      url: "https://blogs.nvidia.com/feed/",
-    },
-
-    {
-      id: "tsmc",
-      name: "TSMC",
-      url: "https://www.tsmc.com/english/news-events/rss",
-    },
-
-    {
-      id: "asml",
-      name: "ASML",
-      url: "https://www.asml.com/en/news/rss",
-    },
-
-    {
-      id: "imec",
-      name: "imec",
-      url: "https://www.imec-int.com/en/rss.xml",
-    },
-
-    {
-      id: "eia-today",
-      name: "U.S. Energy Information Administration",
-      url: "https://www.eia.gov/rss/todayinenergy.xml",
-    },
-
-    {
-      id: "iaea-news",
-      name: "IAEA",
-      url: "https://www.iaea.org/feeds/news",
-    },
-
-    {
-      id: "nasa",
-      name: "NASA",
-      url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-    },
-
-    {
-      id: "esa",
-      name: "ESA",
-      url: "https://www.esa.int/rssfeed/TopNews",
-    },
-
-    {
-      id: "spacenews",
-      name: "SpaceNews",
-      url: "https://spacenews.com/feed/",
-    },
-
-    {
-      id: "arstechnica-science",
-      name: "Ars Technica Science",
-      url: "https://feeds.arstechnica.com/arstechnica/science",
-    },
-
-    {
-      id: "cell",
-      name: "Cell",
-      url: "https://www.cell.com/cell/current.rss",
-    },
-
-    {
-      id: "nature-medicine",
-      name: "Nature Medicine",
-      url: "https://www.nature.com/nm.rss",
-    },
-
-    {
-      id: "stat",
-      name: "STAT",
-      url: "https://www.statnews.com/feed/",
-    },
-
-    {
-      id: "genengnews",
-      name: "Genetic Engineering News",
-      url: "https://www.genengnews.com/feed/",
-    },
-
-    {
-      id: "arxiv-qbio",
-      name: "arXiv q-bio",
-      url: "https://rss.arxiv.org/rss/q-bio",
-    },
-
-    {
-      id: "sequoia",
-      name: "Sequoia Capital",
-      url: "https://www.sequoiacap.com/feed/",
-    },
-
-    {
-      id: "ycombinator",
-      name: "Y Combinator",
-      url: "https://www.ycombinator.com/blog/rss",
-    },
-
-    {
-      id: "world-bank-blogs",
-      name: "World Bank Blogs",
-      url: "https://blogs.worldbank.org/en/rss.xml",
-    },
-
-    {
-      id: "santa-fe",
-      name: "Santa Fe Institute",
-      url: "https://www.santafe.edu/news-center/news/rss.xml",
-      },
-      ]
-
-  const SCIENCE_SOURCES =
+const SCIENCE_SOURCES =
   SIGNAL_CATEGORIES.find((category) => category.id === "science")?.sources ?? [];
-  
-  const TECHNOLOGY_CATEGORIES =
+
+const TECHNOLOGY_CATEGORIES =
   SIGNAL_CATEGORIES.filter(
     (category) =>
       category.id !== "science" &&
-      Array.isArray(category.sources));
+      Array.isArray(category.sources)
+  );
 
+const SOURCE_LIMITS = {
+  "APS Physical Review Letters": 20,
+  "APS PRL": 20,
+  "APS PRX": 20,
+  "APS PR Applied": 20,
+  "Phys.org": 20,
+  "STAT": 20,
+  "SpaceNews": 20,
+  "Genetic Engineering News": 20,
+  "arXiv q-bio": 20,
+  "NASA": 20,
+  "ESA": 20,
+  "Nature Medicine": 20,
+  "Quanta Magazine": 20,
+  "Science News": 20,
+  "OpenAI": 20,
+  "MIT Technology Review": 20,
+  "SemiAnalysis": 20,
+  "arXiv Physics": 20,
+  "arXiv AI": 20,
+  "arXiv Quantum": 20,
+  "Cell": 20,
+  };
+
+function applySourceQuota(items, totalLimit = 100) {
+  const grouped = new Map();
+
+  for (const item of items) {
+    const source = item.source ?? "Unknown";
+    const list = grouped.get(source) ?? [];
+    list.push(item);
+    grouped.set(source, list);
+  }
+
+  const selected = [];
+
+  for (const [source, list] of grouped.entries()) {
+    const limit = SOURCE_LIMITS[source] ?? 4;
+
+    selected.push(
+      ...list
+        .sort((a, b) => (b.ts ?? 0) - (a.ts ?? 0))
+        .slice(0, limit)
+    );
+  }
+
+  return selected
+    .sort((a, b) => (b.ts ?? 0) - (a.ts ?? 0))
+    .slice(0, totalLimit);
+}
 
 async function fetchFeed(source, categoryId = undefined) {
   try {
@@ -269,7 +173,7 @@ async function fetchFeed(source, categoryId = undefined) {
       ts: ts(item),
       ...(categoryId ? { categoryId } : {}),
     }));
-  } catch (e) {
+  } catch {
     console.warn(`Failed: ${source.name}`);
     return [];
   }
@@ -284,8 +188,7 @@ async function buildScience() {
   }
 
   const previous = readPreviousItems("science.json");
-
-const merged = mergeWithPrevious(all, previous, 100);
+  const merged = mergeWithPrevious(all, previous, 100);
 
   fs.mkdirSync(outDir, { recursive: true });
 
@@ -306,28 +209,6 @@ const merged = mergeWithPrevious(all, previous, 100);
     )
   );
 
-  function readPreviousItems(fileName) {
-  try {
-    const filePath = path.join(outDir, fileName);
-    if (!fs.existsSync(filePath)) return [];
-
-    const raw = fs.readFileSync(filePath, "utf8");
-    const json = JSON.parse(raw);
-
-    return Array.isArray(json.items) ? json.items : [];
-  } catch {
-    return [];
-  }
-}
-
-function mergeWithPrevious(currentItems, previousItems, limit) {
-  return [...currentItems, ...previousItems]
-    .filter((x) => x.title && x.url)
-    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
-    .slice(0, limit);
-}
-
   console.log(`Generated public/data/science.json: ${merged.length} items`);
   return merged;
 }
@@ -342,9 +223,8 @@ async function buildTechnology() {
     }
   }
 
- const previous = readPreviousItems("technology.json");
-
-const merged = mergeWithPrevious(all, previous, 90);
+  const previous = readPreviousItems("technology.json");
+  const merged = mergeWithPrevious(all, previous, 90);
 
   fs.mkdirSync(outDir, { recursive: true });
 
@@ -400,29 +280,12 @@ function includesAny(text, words) {
 function detectUseCase(item) {
   const text = getText(item);
 
-  if (includesAny(text, ["robot", "robotics", "automation", "factory", "manufacturing"])) {
-    return "manufacturing";
-  }
-
-  if (includesAny(text, ["health", "medicine", "clinical", "patient", "therapy", "diagnostic", "hospital"])) {
-    return "healthcare";
-  }
-
-  if (includesAny(text, ["battery", "grid", "power", "electricity", "hydrogen", "fusion", "solar"])) {
-    return "energy";
-  }
-
-  if (includesAny(text, ["satellite", "orbit", "space", "launch", "nasa", "lunar", "mars"])) {
-    return "space";
-  }
-
-  if (includesAny(text, ["chip", "semiconductor", "compute", "data center", "gpu"])) {
-    return "compute";
-  }
-
-  if (includesAny(text, ["climate", "carbon", "environment", "water", "weather"])) {
-    return "environment";
-  }
+  if (includesAny(text, ["robot", "robotics", "automation", "factory", "manufacturing"])) return "manufacturing";
+  if (includesAny(text, ["health", "medicine", "clinical", "patient", "therapy", "diagnostic", "hospital"])) return "healthcare";
+  if (includesAny(text, ["battery", "grid", "power", "electricity", "hydrogen", "fusion", "solar"])) return "energy";
+  if (includesAny(text, ["satellite", "orbit", "space", "launch", "nasa", "lunar", "mars"])) return "space";
+  if (includesAny(text, ["chip", "semiconductor", "compute", "data center", "gpu"])) return "compute";
+  if (includesAny(text, ["climate", "carbon", "environment", "water", "weather"])) return "environment";
 
   return "general";
 }
@@ -433,22 +296,16 @@ function analyzeImplementation(item, category) {
   const map = {
     manufacturing:
       "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
-
     healthcare:
       "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-
     energy:
       "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-
     space:
       "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-
     compute:
       "Implementation potential lies in turning this signal into computational infrastructure, chips, data centers, AI platforms, simulation systems, and high-performance decision architectures.",
-
     environment:
       "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
-
     general:
       `Implementation potential lies in moving this ${category} signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.`,
   };
@@ -462,22 +319,16 @@ function analyzeInfrastructure(item, category) {
   const map = {
     manufacturing:
       "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
-
     healthcare:
       "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-
     energy:
       "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-
     space:
       "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-
     compute:
       "If scaled, this could affect computational infrastructure: chips, cloud platforms, AI systems, scientific simulation, cybersecurity, and digital coordination capacity.",
-
     environment:
       "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
-
     general:
       "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
   };
@@ -491,22 +342,16 @@ function analyzeCivilization(item, category) {
   const map = {
     manufacturing:
       "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
-
     healthcare:
       "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-
     energy:
       "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-
     space:
       "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-
     compute:
       "From the ArcheNova perspective, the deeper significance is the amplification of prediction, coordination, simulation, and decision-making capacity across civilization.",
-
     environment:
       "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
-
     general:
       "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
   };
@@ -516,108 +361,22 @@ function analyzeCivilization(item, category) {
 
 function makeRoadmap(item, category) {
   const useCase = detectUseCase(item);
-  const text = getText(item);
 
-  if (useCase === "manufacturing") {
-    return [
-      "Scientific process discovery",
-      "Prototype manufacturing method",
-      "Automation and quality control",
-      "Industrial production integration",
-      "Resilient manufacturing infrastructure",
-    ];
-  }
+  if (useCase === "manufacturing") return ["Scientific process discovery", "Prototype manufacturing method", "Automation and quality control", "Industrial production integration", "Resilient manufacturing infrastructure"];
+  if (useCase === "healthcare") return ["Biological or clinical discovery", "Diagnostic or therapeutic prototype", "Clinical validation", "Healthcare system adoption", "Adaptive health infrastructure"];
+  if (useCase === "energy") return ["Energy mechanism discovery", "Prototype conversion system", "Industrial-scale validation", "Grid or storage integration", "Civilization-scale energy resilience"];
+  if (useCase === "space") return ["Mission or physical principle", "Engineering prototype", "Orbital or planetary deployment", "Space infrastructure integration", "Expansion capability beyond Earth"];
+  if (useCase === "compute") return ["Computational architecture", "Hardware or model optimization", "Platform deployment", "Institutional and industrial adoption", "Civilization-scale prediction capacity"];
+  if (useCase === "environment") return ["Environmental signal discovery", "Monitoring or adaptation system", "Regional deployment", "Infrastructure and governance integration", "Planetary adaptive capacity"];
 
-  if (useCase === "healthcare") {
-    return [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure",
-    ];
-  }
+  if (category === "Quantum") return ["Quantum phenomenon control", "Device stability", "Scalable quantum system", "Industrial application", "New computation and sensing capability"];
+  if (category === "AI") return ["Model capability", "Embodied or operational system", "Deployment into workflows", "Infrastructure integration", "Civilization-scale automation"];
+  if (category === "Bio") return ["Biological discovery", "Platform translation", "Validation and regulation", "Healthcare or manufacturing adoption", "Biological resilience infrastructure"];
 
-  if (useCase === "energy") {
-    return [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience",
-    ];
-  }
-
-  if (useCase === "space") {
-    return [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth",
-    ];
-  }
-
-  if (useCase === "compute") {
-    return [
-      "Computational architecture",
-      "Hardware or model optimization",
-      "Platform deployment",
-      "Institutional and industrial adoption",
-      "Civilization-scale prediction capacity",
-    ];
-  }
-
-  if (useCase === "environment") {
-    return [
-      "Environmental signal discovery",
-      "Monitoring or adaptation system",
-      "Regional deployment",
-      "Infrastructure and governance integration",
-      "Planetary adaptive capacity",
-    ];
-  }
-
-  if (category === "Quantum") {
-    return [
-      "Quantum phenomenon control",
-      "Device stability",
-      "Scalable quantum system",
-      "Industrial application",
-      "New computation and sensing capability",
-    ];
-  }
-
-  if (category === "AI") {
-    return [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation",
-    ];
-  }
-
-  if (category === "Bio") {
-    return [
-      "Biological discovery",
-      "Platform translation",
-      "Validation and regulation",
-      "Healthcare or manufacturing adoption",
-      "Biological resilience infrastructure",
-    ];
-  }
-
-  return [
-    "Scientific discovery",
-    "Applied science",
-    "Engineering system",
-    "Social implementation",
-    "Infrastructure formation",
-  ];
+  return ["Scientific discovery", "Applied science", "Engineering system", "Social implementation", "Infrastructure formation"];
 }
 
-function makeStrategicHorizon(item, category) {
+function makeStrategicHorizon(item) {
   const useCase = detectUseCase(item);
 
   const horizons = {
@@ -626,37 +385,31 @@ function makeStrategicHorizon(item, category) {
       mid: "5–15 Years: Broad manufacturing integration and automation.",
       far: "15–30 Years: Self-optimizing industrial ecosystems.",
     },
-
     healthcare: {
       near: "1–5 Years: Clinical trials and early healthcare adoption.",
       mid: "5–15 Years: Integration into healthcare systems and preventive medicine.",
       far: "15–30 Years: Adaptive health infrastructure and longevity systems.",
     },
-
     energy: {
       near: "1–5 Years: Demonstration projects and industrial pilots.",
       mid: "5–15 Years: Grid integration and commercial deployment.",
       far: "15–30 Years: Civilization-scale energy resilience and abundance.",
     },
-
     space: {
       near: "1–5 Years: Operational missions and infrastructure testing.",
       mid: "5–15 Years: Orbital infrastructure expansion.",
       far: "15–30 Years: Sustainable off-Earth operational capability.",
     },
-
     compute: {
       near: "1–5 Years: Deployment into research and enterprise systems.",
       mid: "5–15 Years: Infrastructure-scale computational integration.",
       far: "15–30 Years: Civilization-scale prediction and coordination systems.",
     },
-
     environment: {
       near: "1–5 Years: Monitoring and adaptation tools.",
       mid: "5–15 Years: Regional resilience infrastructure.",
       far: "15–30 Years: Planetary adaptive-capacity systems.",
     },
-
     general: {
       near: "1–5 Years: Applied research and pilot implementation.",
       mid: "5–15 Years: Industrial and institutional adoption.",
@@ -667,51 +420,17 @@ function makeStrategicHorizon(item, category) {
   return horizons[useCase] || horizons.general;
 }
 
-function makeAssessment(item, category) {
+function makeAssessment(item) {
   const useCase = detectUseCase(item);
 
   const assessments = {
-    manufacturing: {
-      probability: "High",
-      impact: "High",
-      timeHorizon: "5–15 Years",
-    },
-
-    healthcare: {
-      probability: "Medium",
-      impact: "Very High",
-      timeHorizon: "10–20 Years",
-    },
-
-    energy: {
-      probability: "Medium",
-      impact: "Very High",
-      timeHorizon: "10–30 Years",
-    },
-
-    space: {
-      probability: "Medium",
-      impact: "High",
-      timeHorizon: "15–30 Years",
-    },
-
-    compute: {
-      probability: "High",
-      impact: "Very High",
-      timeHorizon: "3–10 Years",
-    },
-
-    environment: {
-      probability: "High",
-      impact: "High",
-      timeHorizon: "5–20 Years",
-    },
-
-    general: {
-      probability: "Medium",
-      impact: "Medium",
-      timeHorizon: "5–15 Years",
-    },
+    manufacturing: { probability: "High", impact: "High", timeHorizon: "5–15 Years" },
+    healthcare: { probability: "Medium", impact: "Very High", timeHorizon: "10–20 Years" },
+    energy: { probability: "Medium", impact: "Very High", timeHorizon: "10–30 Years" },
+    space: { probability: "Medium", impact: "High", timeHorizon: "15–30 Years" },
+    compute: { probability: "High", impact: "Very High", timeHorizon: "3–10 Years" },
+    environment: { probability: "High", impact: "High", timeHorizon: "5–20 Years" },
+    general: { probability: "Medium", impact: "Medium", timeHorizon: "5–15 Years" },
   };
 
   return assessments[useCase] || assessments.general;
@@ -722,29 +441,12 @@ function scoreBoost(item) {
 
   let boost = 0;
 
-  if (includesAny(text, ["breakthrough", "first", "novel", "new", "advanced"])) {
-    boost += 0.3;
-  }
-
-  if (includesAny(text, ["scalable", "scale", "manufacturing", "deployment", "platform"])) {
-    boost += 0.4;
-  }
-
-  if (includesAny(text, ["infrastructure", "grid", "satellite", "factory", "hospital", "data center"])) {
-    boost += 0.4;
-  }
-
-  if (includesAny(text, ["energy", "fusion", "battery", "hydrogen", "power"])) {
-    boost += 0.3;
-  }
-
-  if (includesAny(text, ["space", "orbital", "nasa", "satellite", "launch"])) {
-    boost += 0.3;
-  }
-
-  if (includesAny(text, ["risk", "challenge", "uncertain", "early", "prototype"])) {
-    boost -= 0.2;
-  }
+  if (includesAny(text, ["breakthrough", "first", "novel", "new", "advanced"])) boost += 0.3;
+  if (includesAny(text, ["scalable", "scale", "manufacturing", "deployment", "platform"])) boost += 0.4;
+  if (includesAny(text, ["infrastructure", "grid", "satellite", "factory", "hospital", "data center"])) boost += 0.4;
+  if (includesAny(text, ["energy", "fusion", "battery", "hydrogen", "power"])) boost += 0.3;
+  if (includesAny(text, ["space", "orbital", "nasa", "satellite", "launch"])) boost += 0.3;
+  if (includesAny(text, ["risk", "challenge", "uncertain", "early", "prototype"])) boost -= 0.2;
 
   return boost;
 }
@@ -753,60 +455,18 @@ function clampScore(score) {
   return Math.max(1, Math.min(10, Number(score.toFixed(1))));
 }
 
-function makeArcheNovaAssessment(item, category) {
+function makeArcheNovaAssessment(item) {
   const useCase = detectUseCase(item);
   const boost = scoreBoost(item);
 
   const scores = {
-    manufacturing: {
-      scientific: 7.8,
-      engineering: 9.0,
-      economic: 8.6,
-      civilization: 8.4,
-      classification: "Industrial Capability Signal",
-    },
-    healthcare: {
-      scientific: 8.6,
-      engineering: 8.0,
-      economic: 8.5,
-      civilization: 9.1,
-      classification: "Biological Resilience Signal",
-    },
-    energy: {
-      scientific: 8.4,
-      engineering: 8.8,
-      economic: 9.0,
-      civilization: 9.4,
-      classification: "Civilization Energy Signal",
-    },
-    space: {
-      scientific: 8.2,
-      engineering: 9.0,
-      economic: 7.8,
-      civilization: 9.5,
-      classification: "Expansion Capability Signal",
-    },
-    compute: {
-      scientific: 8.0,
-      engineering: 9.2,
-      economic: 9.1,
-      civilization: 9.0,
-      classification: "Intelligence Infrastructure Signal",
-    },
-    environment: {
-      scientific: 8.1,
-      engineering: 7.9,
-      economic: 8.0,
-      civilization: 9.2,
-      classification: "Adaptive Resilience Signal",
-    },
-    general: {
-      scientific: 7.5,
-      engineering: 7.5,
-      economic: 7.0,
-      civilization: 7.8,
-      classification: "Emerging Future Signal",
-    },
+    manufacturing: { scientific: 7.8, engineering: 9.0, economic: 8.6, civilization: 8.4, classification: "Industrial Capability Signal" },
+    healthcare: { scientific: 8.6, engineering: 8.0, economic: 8.5, civilization: 9.1, classification: "Biological Resilience Signal" },
+    energy: { scientific: 8.4, engineering: 8.8, economic: 9.0, civilization: 9.4, classification: "Civilization Energy Signal" },
+    space: { scientific: 8.2, engineering: 9.0, economic: 7.8, civilization: 9.5, classification: "Expansion Capability Signal" },
+    compute: { scientific: 8.0, engineering: 9.2, economic: 9.1, civilization: 9.0, classification: "Intelligence Infrastructure Signal" },
+    environment: { scientific: 8.1, engineering: 7.9, economic: 8.0, civilization: 9.2, classification: "Adaptive Resilience Signal" },
+    general: { scientific: 7.5, engineering: 7.5, economic: 7.0, civilization: 7.8, classification: "Emerging Future Signal" },
   };
 
   const selected = scores[useCase] || scores.general;
@@ -848,97 +508,21 @@ function makeReport(item) {
     infrastructureImpact: analyzeInfrastructure(item, category),
     civilizationImpact: analyzeCivilization(item, category),
     technologyRoadmap: makeRoadmap(item, category),
-strategicHorizon: makeStrategicHorizon(item, category),
-assessment: makeAssessment(item, category),
-archeNovaAssessment: makeArcheNovaAssessment(item, category),
-ts: item.ts || 0,
+    strategicHorizon: makeStrategicHorizon(item, category),
+    assessment: makeAssessment(item, category),
+    archeNovaAssessment: makeArcheNovaAssessment(item, category),
+    ts: item.ts || 0,
   };
 }
 
 function detectArcheNovaSignalCategory(item) {
   const text = `${item.title || ""} ${item.summary || ""}`.toLowerCase();
 
-  if (
-    includesAny(text, [
-      "telescope",
-      "observation",
-      "detector",
-      "physics",
-      "quantum",
-      "gravity",
-      "planet",
-      "space",
-      "cosmic",
-      "astronomy",
-    ])
-  ) {
-    return "Reality Discovery";
-  }
-
-  if (
-    includesAny(text, [
-      "robot",
-      "automation",
-      "manufacturing",
-      "factory",
-      "material",
-      "semiconductor",
-      "chip",
-      "battery",
-      "hydrogen",
-      "fusion",
-    ])
-  ) {
-    return "Capability Expansion";
-  }
-
-  if (
-    includesAny(text, [
-      "infrastructure",
-      "grid",
-      "satellite",
-      "data center",
-      "transport",
-      "hospital",
-      "network",
-      "supply chain",
-    ])
-  ) {
-    return "Infrastructure Formation";
-  }
-
-  if (
-    includesAny(text, [
-      "synchronization",
-      "communication",
-      "network",
-      "coordination",
-      "cybersecurity",
-      "signal",
-      "sensor",
-      "monitoring",
-    ])
-  ) {
-    return "Synchronization Systems";
-  }
-
-  if (
-    includesAny(text, [
-      "climate",
-      "health",
-      "disease",
-      "medicine",
-      "bio",
-      "gene",
-      "cell",
-      "water",
-      "environment",
-      "risk",
-      "resilience",
-    ])
-  ) {
-    return "Adaptive Capacity";
-  }
+  if (includesAny(text, ["telescope", "observation", "detector", "physics", "quantum", "gravity", "planet", "space", "cosmic", "astronomy"])) return "Reality Discovery";
+  if (includesAny(text, ["robot", "automation", "manufacturing", "factory", "material", "semiconductor", "chip", "battery", "hydrogen", "fusion"])) return "Capability Expansion";
+  if (includesAny(text, ["infrastructure", "grid", "satellite", "data center", "transport", "hospital", "network", "supply chain"])) return "Infrastructure Formation";
+  if (includesAny(text, ["synchronization", "communication", "network", "coordination", "cybersecurity", "signal", "sensor", "monitoring"])) return "Synchronization Systems";
+  if (includesAny(text, ["climate", "health", "disease", "medicine", "bio", "gene", "cell", "water", "environment", "risk", "resilience"])) return "Adaptive Capacity";
 
   return "Civilization Engineering";
 }
@@ -1070,36 +654,37 @@ function makeArcheNovaSignal(item, index) {
       "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
   };
 
-   const score = makeSignalScore(item, category);
-return {
- id: `${slugify(category)}-${slugify(item.title || String(index))}`,
- title: item.title || "Untitled Signal",
- source: item.source || "Unknown Source",
- originalUrl: item.url || "",
- category,
- observation,
- implication: implications[category],
- commentary:
-   `${item.title} should not be interpreted only as a news item. ` +
-   `From the ArcheNova perspective, it is a ${category} signal: ` +
-   `${implications[category]}`,
- score,
- ts: item.ts || 0,
-};
+  const score = makeSignalScore(item, category);
+
+  return {
+    id: `${slugify(category)}-${slugify(item.title || String(index))}`,
+    title: item.title || "Untitled Signal",
+    source: item.source || "Unknown Source",
+    originalUrl: item.url || "",
+    category,
+    observation,
+    implication: implications[category],
+    commentary:
+      `${item.title} should not be interpreted only as a news item. ` +
+      `From the ArcheNova perspective, it is a ${category} signal: ` +
+      `${implications[category]}`,
+    score,
+    ts: item.ts || 0,
+  };
 }
 
 function writeArcheNovaSignals(scienceItems, technologyItems) {
-  const signals = [...scienceItems, ...technologyItems]
+  const items = [...scienceItems, ...technologyItems]
     .filter((item) => item.title && item.url)
     .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
-    .slice(0, 100)
-    .map(makeArcheNovaSignal);
+    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i);
 
-  fs.mkdirSync(outDir, { recursive: true });
+  const signals = applySourceQuota(items, 100).map((item, index) =>
+    makeArcheNovaSignal(item, index)
+  );
 
   fs.writeFileSync(
-    path.join(outDir, "signals.json"),
+    SIGNALS_FILE,
     JSON.stringify(
       {
         ok: true,
@@ -1116,71 +701,68 @@ function writeArcheNovaSignals(scienceItems, technologyItems) {
 
 function writeGeneratedResearchReports(scienceItems, technologyItems) {
   const reports = [...scienceItems, ...technologyItems]
-  .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-  .slice(0, 100)
-  .map(makeReport);
+    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+    .slice(0, 100)
+    .map(makeReport);
 
-function pickTopByCategory(reports, categories, perCategory = 1) {
-  const picked = [];
+  function pickTopByCategory(reports, categories, perCategory = 1) {
+    const picked = [];
 
-  for (const category of categories) {
-    const items = reports
-      .filter((r) => r.category === category)
-      .sort(
-        (a, b) =>
-          (b.archeNovaAssessment?.overall || 0) -
-          (a.archeNovaAssessment?.overall || 0)
-      )
-      .slice(0, perCategory);
+    for (const category of categories) {
+      const items = reports
+        .filter((r) => r.category === category)
+        .sort(
+          (a, b) =>
+            (b.archeNovaAssessment?.overall || 0) -
+            (a.archeNovaAssessment?.overall || 0)
+        )
+        .slice(0, perCategory);
 
-    picked.push(...items);
+      picked.push(...items);
+    }
+
+    return picked;
   }
 
-  return picked;
-}
+  const prioritySignals = pickTopByCategory(
+    reports,
+    ["AI", "Energy", "Space", "Quantum", "Bio"],
+    1
+  );
 
-const prioritySignals = pickTopByCategory(
-  reports,
-  ["AI", "Energy", "Space", "Quantum", "Bio"],
-  1
-);
-
-const topSignals = [...prioritySignals, ...reports]
-  .filter(
-    (x, i, arr) =>
-      arr.findIndex((y) => y.slug === x.slug) === i
-  )
-  .sort(
-    (a, b) =>
-      (b.archeNovaAssessment?.overall || 0) -
-      (a.archeNovaAssessment?.overall || 0)
-  )
-  .slice(0, 10);
+  const topSignals = [...prioritySignals, ...reports]
+    .filter((x, i, arr) => arr.findIndex((y) => y.slug === x.slug) === i)
+    .sort(
+      (a, b) =>
+        (b.archeNovaAssessment?.overall || 0) -
+        (a.archeNovaAssessment?.overall || 0)
+    )
+    .slice(0, 10);
 
   const watchlist = reports
-  .filter((report) => report.archeNovaAssessment)
-  .sort(
-    (a, b) =>
-      (b.archeNovaAssessment?.overall || 0) -
-      (a.archeNovaAssessment?.overall || 0)
-  )
-  .slice(0, 20);
+    .filter((report) => report.archeNovaAssessment)
+    .sort(
+      (a, b) =>
+        (b.archeNovaAssessment?.overall || 0) -
+        (a.archeNovaAssessment?.overall || 0)
+    )
+    .slice(0, 20);
 
   const watchlistWithTrend = watchlist.map((report, index) => {
-  const score = report.archeNovaAssessment?.overall || 0;
+    const score = report.archeNovaAssessment?.overall || 0;
 
-  let trend = "Stable";
+    let trend = "Stable";
 
-  if (index <= 1) trend = "Rising";
-  if (score >= 9.5) trend = "High Priority";
-  if (index === 0) trend = "Top Signal";
+    if (index <= 1) trend = "Rising";
+    if (score >= 9.5) trend = "High Priority";
+    if (index === 0) trend = "Top Signal";
 
-  return {
-    ...report,
-    trend,
-    rank: index + 1,
-  };
-});
+    return {
+      ...report,
+      trend,
+      rank: index + 1,
+    };
+  });
 
   const content =
 `export const generatedResearchReports =
