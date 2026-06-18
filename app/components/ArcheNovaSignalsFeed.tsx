@@ -11,24 +11,30 @@ type SignalItem = {
   observation: string;
   implication: string;
   commentary: string;
-
-score?: {
-  realityDiscovery?: number;
-  capabilityExpansion?: number;
-  infrastructureImpact?: number;
-  synchronizationImpact?: number;
-  adaptiveCapacity?: number;
-  civilizationImpact?: number;
-  overall?: number;
-
-  discovery?: number;
-  capability?: number;
-  infrastructure?: number;
-  civilization?: number;
-};
-
+  score?: {
+    realityDiscovery?: number;
+    capabilityExpansion?: number;
+    infrastructureImpact?: number;
+    synchronizationImpact?: number;
+    adaptiveCapacity?: number;
+    civilizationImpact?: number;
+    overall?: number;
+    discovery?: number;
+    capability?: number;
+    infrastructure?: number;
+    civilization?: number;
+  };
   ts: number;
 };
+
+const civilizationFunctions = [
+  "all",
+  "Reality Discovery",
+  "Capability Expansion",
+  "Infrastructure Formation",
+  "Adaptive Capacity",
+  "Civilization Coordination",
+];
 
 function slugify(text: string) {
   return text
@@ -37,9 +43,26 @@ function slugify(text: string) {
     .replace(/^-+|-+$/g, "");
 }
 
-export default function ArcheNovaSignalsFeed({ limit = 30 }: { limit?: number }) {
+function normalizeFunction(category: string) {
+  if (category === "Synchronization Systems") {
+    return "Civilization Coordination";
+  }
+
+  if (category === "Civilization Engineering") {
+    return "Civilization Coordination";
+  }
+
+  return category;
+}
+
+export default function ArcheNovaSignalsFeed({
+  limit = 30,
+}: {
+  limit?: number;
+}) {
   const [items, setItems] = useState<SignalItem[]>([]);
   const [category, setCategory] = useState("all");
+  const [source, setSource] = useState("all");
   const [sortMode, setSortMode] = useState("latest");
   const [updated, setUpdated] = useState("—");
 
@@ -56,7 +79,9 @@ export default function ArcheNovaSignalsFeed({ limit = 30 }: { limit?: number })
 
         if (!cancel && data?.ok) {
           setItems(data.items || []);
-          setUpdated(data.updated ? new Date(data.updated).toLocaleString() : "—");
+          setUpdated(
+            data.updated ? new Date(data.updated).toLocaleString() : "—"
+          );
         }
       } catch {
         if (!cancel) {
@@ -73,29 +98,41 @@ export default function ArcheNovaSignalsFeed({ limit = 30 }: { limit?: number })
     };
   }, [limit]);
 
-const filteredItems =
-  category === "all"
-    ? items
-    : items.filter((item) => item.category === category);
+  const sources = [
+    "all",
+    ...Array.from(new Set(items.map((item) => item.source))).sort(),
+  ];
 
-const visibleItems = [...filteredItems].sort((a, b) => {
-  if (sortMode === "important") {
-    return (b.score?.overall || 0) - (a.score?.overall || 0);
-  }
+  const filteredItems = items.filter((item) => {
+    const itemFunction = normalizeFunction(item.category);
 
-  if (sortMode === "transformative") {
-    return (
-      (b.score?.civilizationImpact || b.score?.civilization || 0) -
-      (a.score?.civilizationImpact || a.score?.civilization || 0)
-    );
-  }
+    const categoryMatch =
+      category === "all" || itemFunction === category;
 
-  return (b.ts || 0) - (a.ts || 0);
-}).slice(0, limit);
+    const sourceMatch =
+      source === "all" || item.source === source;
+
+    return categoryMatch && sourceMatch;
+  });
+
+  const visibleItems = [...filteredItems]
+    .sort((a, b) => {
+      if (sortMode === "important") {
+        return (b.score?.overall || 0) - (a.score?.overall || 0);
+      }
+
+      if (sortMode === "transformative") {
+        return (
+          (b.score?.civilizationImpact || b.score?.civilization || 0) -
+          (a.score?.civilizationImpact || a.score?.civilization || 0)
+        );
+      }
+
+      return (b.ts || 0) - (a.ts || 0);
+    })
+    .slice(0, limit);
 
   return (
-
-    
     <section className="glass-block">
       <div className="home-card-head">
         <h2>ArcheNova Signal Feed</h2>
@@ -103,204 +140,173 @@ const visibleItems = [...filteredItems].sort((a, b) => {
       </div>
 
       <div className="signal-filter-bar">
+        {civilizationFunctions.map((item) => (
+          <button
+            key={item}
+            type="button"
+            className={`signal-filter ${
+              category === item ? "active" : ""
+            }`}
+            onClick={() => setCategory(item)}
+          >
+            {item === "all" ? "All" : item}
+          </button>
+        ))}
+      </div>
 
-  <button
-    className={`signal-filter ${
-      category === "all" ? "active" : ""
-    }`}
-    onClick={() => setCategory("all")}
-  >
-    All
-  </button>
+      <div className="signal-filter-bar">
+        {sources.map((item) => (
+          <button
+            key={item}
+            type="button"
+            className={`signal-filter ${
+              source === item ? "active" : ""
+            }`}
+            onClick={() => setSource(item)}
+          >
+            {item === "all" ? "All Sources" : item}
+          </button>
+        ))}
+      </div>
 
-  <button
-    className={`signal-filter ${
-      category === "Reality Discovery" ? "active" : ""
-    }`}
-    onClick={() =>
-      setCategory("Reality Discovery")
-    }
-  >
-    Reality
-  </button>
+      <div className="signal-sort-bar">
+        <button
+          type="button"
+          className={`signal-sort ${
+            sortMode === "latest" ? "active" : ""
+          }`}
+          onClick={() => setSortMode("latest")}
+        >
+          Latest
+        </button>
 
-  <button
-    className={`signal-filter ${
-      category === "Capability Expansion"
-        ? "active"
-        : ""
-    }`}
-    onClick={() =>
-      setCategory("Capability Expansion")
-    }
-  >
-    Capability
-  </button>
+        <button
+          type="button"
+          className={`signal-sort ${
+            sortMode === "important" ? "active" : ""
+          }`}
+          onClick={() => setSortMode("important")}
+        >
+          Most Important
+        </button>
 
-  <button
-    className={`signal-filter ${
-      category === "Infrastructure Formation"
-        ? "active"
-        : ""
-    }`}
-    onClick={() =>
-      setCategory("Infrastructure Formation")
-    }
-  >
-    Infrastructure
-  </button>
-
-  <button
-    className={`signal-filter ${
-      category === "Synchronization Systems"
-        ? "active"
-        : ""
-    }`}
-    onClick={() =>
-      setCategory("Synchronization Systems")
-    }
-  >
-    Sync
-  </button>
-
-  <button
-    className={`signal-filter ${
-      category === "Adaptive Capacity"
-        ? "active"
-        : ""
-    }`}
-    onClick={() =>
-      setCategory("Adaptive Capacity")
-    }
-  >
-    Adaptive
-  </button>
-
-  <button
-    className={`signal-filter ${
-      category === "Civilization Engineering"
-        ? "active"
-        : ""
-    }`}
-    onClick={() =>
-      setCategory("Civilization Engineering")
-    }
-  >
-    Civilization
-  </button>
-
-</div>
-
-<div className="signal-sort-bar">
-  <button
-    type="button"
-    className={`signal-sort ${sortMode === "latest" ? "active" : ""}`}
-    onClick={() => setSortMode("latest")}
-  >
-    Latest
-  </button>
-
-  <button
-    type="button"
-    className={`signal-sort ${sortMode === "important" ? "active" : ""}`}
-    onClick={() => setSortMode("important")}
-  >
-    Most Important
-  </button>
-
-  <button
-    type="button"
-    className={`signal-sort ${sortMode === "transformative" ? "active" : ""}`}
-    onClick={() => setSortMode("transformative")}
-  >
-    Most Transformative
-  </button>
-</div>
+        <button
+          type="button"
+          className={`signal-sort ${
+            sortMode === "transformative" ? "active" : ""
+          }`}
+          onClick={() => setSortMode("transformative")}
+        >
+          Most Transformative
+        </button>
+      </div>
 
       <div className="feed-list">
         {visibleItems.length ? (
-          visibleItems.map((item) => (
-            <a
-              key={`${item.id}-${item.originalUrl}`}
-              href={`/intelligence-platform/signals/${item.id}`}
-              target="_blank"
-              rel="noreferrer"
-              className="feed-row wide"
-            >
-              <div className={`signal-category ${slugify(item.category)}`}>
-  {item.category.toUpperCase()}
-</div>
+          visibleItems.map((item) => {
+            const functionCategory = normalizeFunction(item.category);
 
-<div className="feed-source">
-  {item.source}
-</div>
+            return (
+              <a
+                key={`${item.id}-${item.originalUrl}`}
+                href={`/intelligence-platform/signals/${item.id}`}
+                className="feed-row wide"
+              >
+                <div
+                  className={`signal-category ${slugify(
+                    functionCategory
+                  )}`}
+                >
+                  {functionCategory.toUpperCase()}
+                </div>
 
-              <div className="feed-title">
-                {item.title}
-              </div>
+                <div className="feed-source">
+                  Source: {item.source}
+                </div>
 
-              {item.score && (
-  <div className="signal-score-box signal-score-box-advanced">
-    <div className="signal-score-main">
-      <span>ArcheNova Score</span>
-      <span className="signal-score-overall">
-        {(item.score.overall ?? 0).toFixed(1)} / 10
-      </span>
-    </div>
+                <div className="feed-title">{item.title}</div>
 
-    <div className="signal-score-grid signal-score-grid-advanced">
-      <span>
-        <b>Reality</b>
-        {(item.score.realityDiscovery ?? item.score.discovery ?? 0).toFixed(1)}
-      </span>
+                {item.score && (
+                  <div className="signal-score-box signal-score-box-advanced">
+                    <div className="signal-score-main">
+                      <span>ArcheNova Score</span>
+                      <span className="signal-score-overall">
+                        {(item.score.overall ?? 0).toFixed(1)} / 10
+                      </span>
+                    </div>
 
-      <span>
-        <b>Capability</b>
-        {(item.score.capabilityExpansion ?? item.score.capability ?? 0).toFixed(1)}
-      </span>
+                    <div className="signal-score-grid signal-score-grid-advanced">
+                      <span>
+                        <b>Reality</b>
+                        {(
+                          item.score.realityDiscovery ??
+                          item.score.discovery ??
+                          0
+                        ).toFixed(1)}
+                      </span>
 
-      <span>
-        <b>Infrastructure</b>
-        {(item.score.infrastructureImpact ?? item.score.infrastructure ?? 0).toFixed(1)}
-      </span>
+                      <span>
+                        <b>Capability</b>
+                        {(
+                          item.score.capabilityExpansion ??
+                          item.score.capability ??
+                          0
+                        ).toFixed(1)}
+                      </span>
 
-      <span>
-        <b>Synchronization</b>
-        {(item.score.synchronizationImpact ?? 0).toFixed(1)}
-      </span>
+                      <span>
+                        <b>Infrastructure</b>
+                        {(
+                          item.score.infrastructureImpact ??
+                          item.score.infrastructure ??
+                          0
+                        ).toFixed(1)}
+                      </span>
 
-      <span>
-        <b>Adaptive</b>
-        {(item.score.adaptiveCapacity ?? 0).toFixed(1)}
-      </span>
+                      <span>
+                        <b>Coordination</b>
+                        {(
+                          item.score.synchronizationImpact ?? 0
+                        ).toFixed(1)}
+                      </span>
 
-      <span>
-        <b>Civilization</b>
-        {(item.score.civilizationImpact ?? item.score.civilization ?? 0).toFixed(1)}
-      </span>
-    </div>
-  </div>
-)}
+                      <span>
+                        <b>Adaptive</b>
+                        {(item.score.adaptiveCapacity ?? 0).toFixed(1)}
+                      </span>
 
-              <div className="signal-section">
-  <strong>Observation</strong>
-  <p>{item.observation}</p>
-</div>
+                      <span>
+                        <b>Civilization</b>
+                        {(
+                          item.score.civilizationImpact ??
+                          item.score.civilization ??
+                          0
+                        ).toFixed(1)}
+                      </span>
+                    </div>
+                  </div>
+                )}
 
-<div className="signal-section">
-  <strong>Implication</strong>
-  <p>{item.implication}</p>
-</div>
+                <div className="signal-section">
+                  <strong>Observation</strong>
+                  <p>{item.observation}</p>
+                </div>
 
-<div className="signal-section">
-  <strong>Civilization Relevance</strong>
-  <p>{item.commentary}</p>
-</div>
-            </a>
-          ))
+                <div className="signal-section">
+                  <strong>Implication</strong>
+                  <p>{item.implication}</p>
+                </div>
+
+                <div className="signal-section">
+                  <strong>Civilization Relevance</strong>
+                  <p>{item.commentary}</p>
+                </div>
+              </a>
+            );
+          })
         ) : (
           <div className="feed-empty">
-            No ArcheNova signals available right now.
+            No ArcheNova signals available for this selection.
           </div>
         )}
       </div>
