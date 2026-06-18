@@ -1,7 +1,140 @@
 {
   "ok": true,
-  "updated": "2026-06-18T19:31:46.375Z",
+  "updated": "2026-06-18T22:12:46.979Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI teaches asset traders not to sweat the small stuff",
+      "url": "https://phys.org/news/2026-06-ai-asset-traders-small.html",
+      "summary": "Financial markets are governed by a combination of rational and irrational forces, statistical probabilities and \"animal spirits.\" It takes fluency in both to understand the market, let alone beat it. Yet market actors, …",
+      "ts": 1781820005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electrically tunable spin polarization in graphene opens path toward low-power spintronic devices",
+      "url": "https://phys.org/news/2026-06-electrically-tunable-polarization-graphene-path.html",
+      "summary": "Researchers at the National Graphene Institute, in collaboration with the National University of Singapore, have shown that the magnetic behavior of electrons in graphene can be precisely controlled using electricity, re…",
+      "ts": 1781820003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Circular polarization could cut laser backscatter in fusion experiments",
+      "url": "https://phys.org/news/2026-06-circular-polarization-laser-backscatter-fusion.html",
+      "summary": "Experiments at Lawrence Livermore National Laboratory's National Ignition Facility (NIF) require breathtaking precision. Each of the 192 lasers is focused to a width of a few millimeters to enter a 3-millimeter hole at t…",
+      "ts": 1781819401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Suburban street design has driven emissions since WWII, study suggests",
+      "url": "https://phys.org/news/2026-06-suburban-street-driven-emissions-wwii.html",
+      "summary": "Half of all Americans live in the suburbs. For decades, planners and policymakers have blamed suburban sprawl's environmental and social costs on one thing: distance. The farther people live from city centers, the more t…",
+      "ts": 1781818807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rice gene switch helps plants rebound from cold and use nitrogen more efficiently",
+      "url": "https://phys.org/news/2026-06-rice-gene-rebound-cold-nitrogen.html",
+      "summary": "Global climate change has increased the frequency of regional cold spells, causing substantial yield losses and even crop failure. Meanwhile, excessive nitrogen fertilizer use in agriculture has increased non-point-sourc…",
+      "ts": 1781818203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Asteroid Donaldjohanson wobbles as it rotates, Lucy flyby reveals",
+      "url": "https://phys.org/news/2026-06-asteroid-donaldjohanson-rotates-lucy-flyby.html",
+      "summary": "Southwest Research Institute (SwRI) scientists studying the inner main-belt asteroid Donaldjohanson have found that its rotation wobbles. Rather than rolling through space in a steady pattern, Donaldjohanson turns on two…",
+      "ts": 1781817602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laser pulses set layered metals vibrating 1 trillion times per second, revealing electron-driven motion",
+      "url": "https://phys.org/news/2026-06-laser-pulses-layered-metals-vibrating.html",
+      "summary": "How does light turn into motion within a metal? A team of researchers from European XFEL, the University of Potsdam and other participating institutions has shown that ultrashort optical laser pulses can trigger extremel…",
+      "ts": 1781817003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change is now causing more local extinction in temperate regions than the tropics, study shows",
+      "url": "https://phys.org/news/2026-06-climate-local-extinction-temperate-regions.html",
+      "summary": "Imagine returning to a favorite hiking trail 15 years after your first visit and discovering that many of the plants and animals that once lived there are gone. While these species may still exist elsewhere, these disapp…",
+      "ts": 1781816406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Early warning tool may protect river fish in heat waves",
+      "url": "https://phys.org/news/2026-06-early-tool-river-fish.html",
+      "summary": "Researchers from the Swiss Federal Institute for Forest, Snow and Landscape Research (WSL) have proposed a warning tool that predicts, up to three weeks in advance, when river fish in Switzerland will be at risk from hea…",
+      "ts": 1781816401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Low-development regions suffer far higher losses in climate disasters, study warns",
+      "url": "https://phys.org/news/2026-06-regions-higher-losses-climate-disasters.html",
+      "summary": "People living in regions with lower scores on the Human Development Index face a substantially higher risk from climate-related disasters, even when these are not unusually severe. This is the key finding of a new study …",
+      "ts": 1781815209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fermi mission uncovers possible sibling supernova remnants",
+      "url": "https://phys.org/news/2026-06-fermi-mission-uncovers-sibling-supernova.html",
+      "summary": "A new study of two supernova remnants, the debris left behind after stars explode, suggests the explosions came from stellar siblings that once orbited each other. The first star's detonation sent its binary companion hu…",
+      "ts": 1781815205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden fungus inside desert moss could rewrite 470-million-year story of how plants moved onto land",
+      "url": "https://phys.org/news/2026-06-hidden-fungus-moss-rewrite-million.html",
+      "summary": "Mosses are survivors. They can dry into what looks like green dust, only to spring back to life minutes after rain. They can grow on rocks, in deserts, and there's talk of using them to terraform Mars someday. According …",
+      "ts": 1781815203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How cracks in dry soil impact moisture evaporation",
+      "url": "https://phys.org/news/2026-06-dry-soil-impact-moisture-evaporation.html",
+      "summary": "Soils that are exposed to prolonged drought often develop desiccation cracks, which impact soil properties and exacerbate moisture loss through evapotranspiration. Now, a study from the University of Illinois Urbana-Cham…",
+      "ts": 1781814006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How a telescope's mirror stability makes or breaks exoplanet detection",
+      "url": "https://phys.org/news/2026-06-telescope-mirror-stability-exoplanet.html",
+      "summary": "Finding life beyond our solar system is a major goal of modern astronomy. NASA's planned Habitable Worlds Observatory (HWO) aims to take direct images of Earth-sized planets around stars other than our sun. This task, ho…",
+      "ts": 1781814001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trace additive unlocks faster bioplastic biodegradation without losing transparency or strength",
+      "url": "https://phys.org/news/2026-06-additive-faster-bioplastic-biodegradation-transparency.html",
+      "summary": "Compostable plastics could be part of a solution to the world's plastic waste problem. But currently these materials need industrial composting facilities to break down. In a step toward making a home-compostable plastic…",
+      "ts": 1781813401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Alpha Magnetic Spectrometer reveals four cosmic ray classes across 20 elements, defying current models",
+      "url": "https://phys.org/news/2026-06-alpha-magnetic-spectrometer-reveals-cosmic.html",
+      "summary": "Millions of light-years away, millions of years ago, a star exploded. In this violent process, it ejected incredible amounts of mass, including carbon, nitrogen and oxygen—the building blocks of life. In fact, the star m…",
+      "ts": 1781812805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hubble glimpses merging galaxy clusters",
+      "url": "https://phys.org/news/2026-06-hubble-glimpses-merging-galaxy-clusters.html",
+      "summary": "This NASA Hubble Space Telescope image features a galaxy cluster called CL0016+1609, or MACS J0018.5+1626, that is very bright at X-ray wavelengths and is one of the most extensively studied clusters at X-ray and radio w…",
+      "ts": 1781812804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat waves increase wildfire risk—a new study explains how much, and it's not a small number",
+      "url": "https://phys.org/news/2026-06-wildfire-small.html",
+      "summary": "When heat waves hit the Western United States, the risk of wildfires quickly rises. The prolonged heat dries out vegetation, but that's only part of the cause—heat waves also play other roles in spreading wildfires.",
+      "ts": 1781811606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Greenland sees wildfires earlier in the year",
+      "url": "https://phys.org/news/2026-06-greenland-wildfires-earlier-year.html",
+      "summary": "Greenland has recently been hit by localized wildfires, a rarity at this time of year that could be explained by global warming, a researcher at the Greenland Institute of Natural Resources said Thursday.",
+      "ts": 1781811603000
+    },
     {
       "source": "Phys.org",
       "title": "Mating reveals cholesterol's hidden role in male fruit fly lifespan",
@@ -567,139 +700,6 @@
       "title": "Streamlining Analysis and Design of Two-Dimensional Electronic Spectroscopy using Machine Learning",
       "url": "https://arxiv.org/abs/2606.18570",
       "summary": "arXiv:2606.18570v1 Announce Type: new Abstract: Two-dimensional electronic spectroscopy (2DES) offers unique insights into the coupling between electronic and nuclear motion and dynamics, making it a key technique in div…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Response of a Turbulent Boundary Layer to a Synthetic Periodic Large-Scale Structure",
-      "url": "https://arxiv.org/abs/2606.18602",
-      "summary": "arXiv:2606.18602v1 Announce Type: new Abstract: The dynamic response of a zero-pressure gradient turbulent boundary layer (TBL) to a large-scale perturbation in the outer region was investigated experimentally. The basel…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A symmetric relaxation method for entire two-dimensional cellular networks and its implications",
-      "url": "https://arxiv.org/abs/2606.18604",
-      "summary": "arXiv:2606.18604v1 Announce Type: new Abstract: To simulate the relaxation of an entire 2D cellular network, this study proposes a symmetric relaxation method for both inner and marginal vertices. The relaxations of thes…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Search for Effects of Cosmic Rays with Multi-scale Entropy Metrics",
-      "url": "https://arxiv.org/abs/2606.18614",
-      "summary": "arXiv:2606.18614v1 Announce Type: new Abstract: We report a comparison of frequency fluctuations in oven-controlled quartz bulk-acoustic-wave oscillators operated above ground and one kilometre underground in a low-muon-…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Note on the Matched Asymptotic Structure of Weak Shock Reflection at Nearly Glancing Incidence",
-      "url": "https://arxiv.org/abs/2606.18618",
-      "summary": "arXiv:2606.18618v1 Announce Type: new Abstract: We study the reflection of a weak planar shock from a rigid wall in the joint limit of weak shock strength and nearly glancing incidence. In the distinguished scaling (M=1+…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark",
-      "url": "https://arxiv.org/abs/2606.18648",
-      "summary": "arXiv:2606.18648v1 Announce Type: new Abstract: Deep research agents are Large Language Model (LLM)-based systems designed for autonomous, multi-step scientific reasoning, and they hold immense potential for accelerating…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unified 1D Theory and Design Principles for Harmonic Electrothermal Characterization of Nanoscale Conductors",
-      "url": "https://arxiv.org/abs/2606.18670",
-      "summary": "arXiv:2606.18670v1 Announce Type: new Abstract: Electrothermal characterization based on the third or other harmonics of an ac Joule heating current is widely deployed for the thermal analysis of solid conductors and the…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Integration of diamond nanobeams with SnVs on Al2O3 waveguides for scalable quantum photonic chip application",
-      "url": "https://arxiv.org/abs/2606.18711",
-      "summary": "arXiv:2606.18711v1 Announce Type: new Abstract: Tin vacancy (SnV) centers in diamond are promising solid state qubits for integrated quantum photonics. Here, we fabricate and characterize a diamond on Al2O3 dual taper wa…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extension of a multi-region free-surface MHD solver beyond the inductionless approximation",
-      "url": "https://arxiv.org/abs/2606.18745",
-      "summary": "arXiv:2606.18745v1 Announce Type: new Abstract: Free-surface liquid metal flows are a leading candidate for the plasma-facing components of future fusion reactors. Existing transient, three-dimensional, free-surface MHD …",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Giant Nonequilibrium Fluctuations at a Reactive Surface",
-      "url": "https://arxiv.org/abs/2606.18760",
-      "summary": "arXiv:2606.18760v1 Announce Type: new Abstract: We investigate whether giant fluctuations in a gas can induce corresponding fluctuations on a reactive surface in contact with the gas. Numerical simulations of a minimal h…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Volumetric nanoscale localization using engineered point spread functions in light sheet microscopy",
-      "url": "https://arxiv.org/abs/2606.18784",
-      "summary": "arXiv:2606.18784v1 Announce Type: new Abstract: Nanoscale three-dimensional localization across large biological volumes remains an outstanding challenge in optical microscopy, with existing approaches typically limited …",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magnetic-polarization-dependent spectroscopy of lanthanide-doped anisotropic crystals",
-      "url": "https://arxiv.org/abs/2606.18813",
-      "summary": "arXiv:2606.18813v1 Announce Type: new Abstract: We experimentally demonstrate that absorption and emission spectra of trivalent lanthanide-doped anisotropic crystals can exhibit a significant magnetic-polarization depend…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Track and energy reconstruction algorithms for a time projection chamber with orthogonal fields",
-      "url": "https://arxiv.org/abs/2606.18821",
-      "summary": "arXiv:2606.18821v1 Announce Type: new Abstract: In this work, we describe the development of track- and energy-reconstruc-tion algorithms for atypical Time Projection Chambers (TPCs) that will be used at the Institute of…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "EDoF-NeRF: extended depth-of-field neural radiance fields using a coded aperture camera",
-      "url": "https://arxiv.org/abs/2606.18826",
-      "summary": "arXiv:2606.18826v1 Announce Type: new Abstract: We propose a method for extending the depth-of-field (DoF) to construct high-fidelity neural radiance fields (NeRF) -- an emerging technique for rendering photorealistic no…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the governing mechanism of unsteadiness in bow shock-induced three-dimensional separation",
-      "url": "https://arxiv.org/abs/2606.18838",
-      "summary": "arXiv:2606.18838v1 Announce Type: new Abstract: We investigate the driving mechanism of low-frequency unsteadiness in bow shock-turbulent boundary layer interactions due to protuberances. Wind tunnel experiments are cond…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wake Perturbations in Laser- and Beam-Driven Plasma Wakefield Accelerators: A Symmetry-Based Multipole Classification",
-      "url": "https://arxiv.org/abs/2606.18845",
-      "summary": "arXiv:2606.18845v1 Announce Type: new Abstract: We review beam-quality physics in laser-driven (LWFA) and beam-driven (PWFA) plasma wakefield accelerators through the symmetry group of the idealised blowout wake -- axisy…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multifractal Dynamics of Tropical Atlantic SST Indices: Nonlinear Scaling Structure and Episodic Statistical Association with ENSO Variability",
-      "url": "https://arxiv.org/abs/2606.18901",
-      "summary": "arXiv:2606.18901v1 Announce Type: new Abstract: The Tropical Atlantic exhibits complex sea surface temperature (SST) variability driven by internal ocean-atmosphere interactions and remote climate forcing. We perform a c…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "APU-Accelerated Large Eddy Simulation with the Discontinuous Galerkin Solver GAL{\\AE}XI",
-      "url": "https://arxiv.org/abs/2606.18927",
-      "summary": "arXiv:2606.18927v1 Announce Type: new Abstract: The exascale computing era, driven by heterogeneous GPU architectures, requires a fundamental redesign of traditional CFD solvers to fully leverage those heterogeneous syst…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermodynamic-Kinetic Decoupling Enables Stable Excitonic Emission in Defect-Tolerant Cu-Based Quantum Dots",
-      "url": "https://arxiv.org/abs/2606.18939",
-      "summary": "arXiv:2606.18939v1 Announce Type: new Abstract: Colloidal quantum dots that simultaneously offer room-temperature single-photon purity and high photoluminescence quantum yield are sought for quantum optics, but remain el…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantitative Multi-Modal Optical Coherence Photoacoustic Elastography",
-      "url": "https://arxiv.org/abs/2606.18990",
-      "summary": "arXiv:2606.18990v1 Announce Type: new Abstract: We present a novel multi-modal optical coherence photoacoustic elastography (OCPE) framework, which combines two imaging modalities, optical coherence tomography (OCT) and …",
       "ts": 1781755200000
     }
   ],

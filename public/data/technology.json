@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-06-18T19:31:48.835Z",
+  "updated": "2026-06-18T22:12:48.652Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Mission to Study Space Weather Impacts of Earth’s Atmosphere",
+      "url": "https://www.nasa.gov/news-release/nasa-mission-to-study-space-weather-impacts-of-earths-atmosphere/",
+      "summary": "NASA selected a mission concept to research how space weather and dynamics within Earth’s atmosphere influence the space environment and help improve prediction capabilities for impacts on crucial technology, such as GPS…",
+      "ts": 1781818387000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA advisory panel endorses Moderna mRNA flu vaccine that was subject of controversy",
+      "url": "https://www.statnews.com/2026/06/18/fda-mrna-flu-vaccine-vrbpac-advisers-endorse-moderna-shots/?utm_campaign=rss",
+      "summary": "A panel of advisers to FDA gave its endorsement to a seasonal mRNA flu vaccine that was developed by Moderna and that earlier this year became the subject of controversy.",
+      "ts": 1781814385000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Awards Contract for Commercial Satellite Data Acquisition",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition/",
+      "summary": "NASA has selected eight new companies and will acquire new data products from six existing Commercial Satellite Data Acquisition contract holders to expand the range of commercial satellite data available to researchers,…",
+      "ts": 1781813621000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Eli Lilly ends 340B drug discounts to some hospitals for failing to provide claims data",
+      "url": "https://www.statnews.com/pharmalot/2026/06/18/eli-lilly-340b-hospitals-drug-discount-price-breaks-eliminated/?utm_campaign=rss",
+      "summary": "Making good on its threat, Eli Lilly has begun eliminating mandated price breaks to a few dozen hospitals that participate in a federal drug discount program.",
+      "ts": 1781812586000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "EQT to acquire Exolaunch",
+      "url": "https://spacenews.com/eqt-to-acquire-exolaunch/",
+      "summary": "Private equity firm EQT is acquiring Exolaunch, a company that has handled the rideshare launches of hundreds of satellites, to help it meet growing launch demand. The post EQT to acquire Exolaunch appeared first on Spac…",
+      "ts": 1781811925000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "New hope in treating Huntington’s disease and a report card on RFK Jr.’s promises",
+      "url": "https://www.statnews.com/2026/06/18/huntingtons-disease-uniqure-rfk-jr-readout-loud-podcast/?utm_campaign=rss",
+      "summary": "This week on \"The Readout LOUD\" podcast: new hope in treating Huntington's disease and a report card on RFK Jr.'s promises. Listen now.",
+      "ts": 1781811654000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "From Suriname to Space: Rohit Goeptar Shares His Journey to NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/from-suriname-to-space-rohit-goeptars-shares-his-journey-to-nasa/",
+      "summary": "Rohit Goeptar was born into a poor family in Suriname, South America, the kind where both parents work three jobs and they still can only provide food and shelter for their family. At around age six, his family moved to …",
+      "ts": 1781809586000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Impact of Early Life Adversity on Epigenome at Molecular Level Mapped in Macaques",
@@ -9,6 +65,14 @@
       "summary": "Pairing the life histories of free-living macaques with genomic data from different tissues in adulthood, researchers have generated some of the clearest molecular evidence yet that early life adversity leaves a lasting,…",
       "ts": 1781808131000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Desert Field Test With NASA Advanced Rover Prototype",
+      "url": "https://science.nasa.gov/photojournal/desert-field-test-with-nasa-advanced-rover-prototype/",
+      "summary": "Description A prototype four-wheel rover developed at NASA’s Jet Propulsion Laboratory with advanced mobility and robotic autonomy capabilities trundled across the Colorado Desert near Plaster City, California, during a …",
+      "ts": 1781807390000,
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -315,6 +379,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "NASA",
+      "title": "El Niño Is Underway",
+      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-is-underway/",
+      "summary": "Satellite observations of sea surface height indicated that the 2026 event continued to strengthen in early June.",
+      "ts": 1781755200000,
+      "categoryId": "space"
+    },
+    {
       "source": "arXiv q-bio",
       "title": "Archetypal Microbiome Profiles as Indicators of Nitrous Oxide Emission States in Activated Sludge",
       "url": "https://arxiv.org/abs/2606.18295",
@@ -540,14 +612,6 @@
     },
     {
       "source": "NASA",
-      "title": "El Niño Is Underway",
-      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-is-underway/",
-      "summary": "Satellite observations of sea surface height indicated that the 2026 event continued to strengthen in early June.",
-      "ts": 1781755200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
       "title": "NASA Announces Public-Private Partnership to Advance Mars Science",
       "url": "https://www.nasa.gov/news-release/nasa-announces-public-private-partnership-to-advance-mars-science/",
       "summary": "NASA Wednesday announced a new public‑private partnership to advance Mars science by combining the agency’s scientific leadership with commercial innovation. Under this model, NASA will provide the Aeolus atmospheric‑sci…",
@@ -656,70 +720,6 @@
       "url": "https://www.genengnews.com/topics/bioprocessing/continuous-production-platform-offers-new-gene-therapy-options/",
       "summary": "An independent U.K. innovation center has developed a continuous bioprocess to improve productivity and reduce costs of advanced therapies. The new platform performs as well, or better, than batch methods. The post Conti…",
       "ts": 1781712047000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Bacterial Expression Tech Prompts NorthX and enGenes Collaboration",
-      "url": "https://www.genengnews.com/topics/bioprocessing/bacterial-expression-tech-prompts-northx-and-engenes-collaboration/",
-      "summary": "Interest in E.coli-based expression systems is growing as biopharma firms look for faster and cheaper ways of making proteins at commercial scale, prompting the new partnership between NorthX Biologics and enGenes Biotec…",
-      "ts": 1781712034000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Solvent Recovery Gains Ground in Bioprocessing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/solvent-recovery-gains-ground-in-bioprocessing/",
-      "summary": "As bioprocessors face rising solvent costs, supply-chain disruptions, and mounting sustainability demands, solvent-recovery systems are emerging as strategic investments that reduce operating expenses, strengthen product…",
-      "ts": 1781712023000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "347th ESA Council: Media information session",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/347th_ESA_Council_Media_information_session",
-      "summary": "Video: 00:49:43 Watch the replay of the media information session where ESA Director General Josef Aschbacher and outgoing ESA Council Chair Renato Krpoun provide an update on the main outcomes of the 347th ESA Council m…",
-      "ts": 1781708400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Sees Swarm of Galaxies",
-      "url": "https://www.nasa.gov/image-article/hubble-sees-swarm-of-galaxies/",
-      "summary": "Looking somewhat like a swarm of bees returning to their hive, this NASA Hubble Space Telescope image released on June 12, 2026, features the galaxy cluster MACS0329-0211. Galaxy clusters like MACS0329-0211 are important…",
-      "ts": 1781708173000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Ariane 6 launches with more powerful boosters: a new record for Europe",
-      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Ariane_6_launches_with_more_powerful_boosters_a_new_record_for_Europe",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/first_ariane_6_liftoff_with_p160c-based_boosters_seen_with_mobile_hangar/27334453-2-eng-GB/First_Ariane_6_liftoff_with_P160C-based_booste…",
-      "ts": 1781704200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Age-Related Inflammation Linked to R-Loop Nucleic Acids, Opens Therapies",
-      "url": "https://www.genengnews.com/topics/drug-discovery/age-related-inflammation-linked-to-r-loop-nucleic-acids-opens-therapies/",
-      "summary": "When cells enter senescence, they begin releasing signals that contribute to chronic inflammation. Researchers have now pinpointed R-loops as a key component to modulating these inflammatory signals. The post Age-Related…",
-      "ts": 1781703925000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA appears open to Moderna’s flu vaccine ahead of adcomm",
-      "url": "https://www.statnews.com/2026/06/17/biotech-news-fda-appears-open-to-moderna-flu-shot/?utm_campaign=rss",
-      "summary": "UniQure will submit Huntington's therapy for approval, Eli Lilly buys 4E Therapeutics, and more biotech news",
-      "ts": 1781703282000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about hackers extorting Novo, an FDA about-face, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/06/17/hackers-extorting-novo-fda-about-face-on-uniqure-drug/?utm_campaign=rss",
-      "summary": "A cyber extortion group claimed ​to have stolen more than a terabyte of data from Novo Nordisk and said it is ‌exploring selling some of the data",
-      "ts": 1781701786000,
       "categoryId": "bio"
     }
   ],
