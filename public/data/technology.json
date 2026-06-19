@@ -1,7 +1,159 @@
 {
   "ok": true,
-  "updated": "2026-06-19T01:44:46.731Z",
+  "updated": "2026-06-19T07:10:28.896Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Austrian propulsion startup joins sovereign space funding surge",
+      "url": "https://spacenews.com/austrian-propulsion-startup-joins-sovereign-space-funding-surge/",
+      "summary": "Austrian satellite propulsion startup Gate Space has won 6.3 million euros in funding from Europe’s government-backed accelerator program, joining a wave of European companies attracting capital for greater space soverei…",
+      "ts": 1781852400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Tropical Storm Arthur",
+      "url": "https://science.nasa.gov/earth/earth-observatory/tropical-storm-arthur/",
+      "summary": "The first named storm of the 2026 Atlantic hurricane season brought intense rainfall and the threat of flash flooding to the U.S. Gulf Coast.",
+      "ts": 1781841600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "BioHarness: Substrate-Aware Evidence Assembly for Biomedical Question Answering across Literature, Knowledge Bases, and Biological Atlases",
+      "url": "https://arxiv.org/abs/2606.19396",
+      "summary": "arXiv:2606.19396v1 Announce Type: new Abstract: Motivation: Biomedical question answering often requires evidence beyond topically retrieved literature, including gene alias resolution, database identifier normalization,…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Multi-type branching inference on contact trees with application to COVID-19",
+      "url": "https://arxiv.org/abs/2606.19405",
+      "summary": "arXiv:2606.19405v1 Announce Type: new Abstract: Inferring epidemiological parameters from transmission trees is essential for understanding infectious disease dynamics. Existing tree-based likelihood methods, including t…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Robust probabilistic measurement of structural-functional module consistency in infant brain development",
+      "url": "https://arxiv.org/abs/2606.19739",
+      "summary": "arXiv:2606.19739v1 Announce Type: new Abstract: Brain network is commonly divided into modules for analyzing their functionally segregated roles for group-level analysis in neuroimaging studies. Here, we introduce stocha…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Oscillations and Spatial Patterns in Large-Scale Stochastic Gene Regulatory Networks",
+      "url": "https://arxiv.org/abs/2606.19762",
+      "summary": "arXiv:2606.19762v1 Announce Type: new Abstract: Gene regulatory networks (GRNs) are fundamental to cellular growth and tissue formation, orchestrating spatially and temporally regulated gene expression during development…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "bioETH-Beacon: A Confidential On-Chain Genomic Beacon with Encrypted Counts, Filters, and Bounded Noise over a Fully Homomorphic EVM",
+      "url": "https://arxiv.org/abs/2606.20315",
+      "summary": "arXiv:2606.20315v1 Announce Type: new Abstract: The Global Alliance for Genomics and Health (GA4GH) Beacon protocol lets researchers ask whether a genomic variant has been observed in a participating cohort and receive a…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "West Nile virus outbreak in Italy modelled with the quantum Game of Life",
+      "url": "https://arxiv.org/abs/2606.20489",
+      "summary": "arXiv:2606.20489v1 Announce Type: new Abstract: In the last years, an anomalously high spreading of West Nile virus (WNV) has been observed in Italy, with particularly high peaks of infections in southern Lazio, Campania…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "PepALD: Macrocyclic Peptide Generation via Autoregressive Latent Diffusion",
+      "url": "https://arxiv.org/abs/2606.14510",
+      "summary": "arXiv:2606.14510v1 Announce Type: cross Abstract: Macrocyclic peptides are promising therapeutic candidates for intracellular targets, but their design requires simultaneous control over non-natural monomer chemistry, ri…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Quadratic Forms for Measuring Geometric Trees in 3-dimensional Space",
+      "url": "https://arxiv.org/abs/2606.20096",
+      "summary": "arXiv:2606.20096v1 Announce Type: cross Abstract: Tree-like structures appear in many areas of science, and their shapes can help understand the underlying processes they drive or that give rise to them. By thinking of t…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MedRLM: Recursive Multimodal Health Intelligence for Long-Context Clinical Reasoning, Sensor-Guided Screening, Evidence-Grounded Decision Support, and Community-to-Tertiary Referral Optimization",
+      "url": "https://arxiv.org/abs/2606.20164",
+      "summary": "arXiv:2606.20164v1 Announce Type: cross Abstract: Real-world clinical decision support requires reasoning over heterogeneous and longitudinal patient information rather than answering isolated medical questions. However,…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "DeepForestVisionV2: Ecology-Driven Taxonomy Expansion for Camera-Trap Monitoring in African Tropical Forests",
+      "url": "https://arxiv.org/abs/2606.20223",
+      "summary": "arXiv:2606.20223v1 Announce Type: cross Abstract: Camera-trap monitoring in African tropical forests increasingly extends beyond closed-canopy interiors to riverbanks, clearings, and park edges. Among available open tool…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Synchronization modes in bipartite oscillator networks",
+      "url": "https://arxiv.org/abs/2606.20345",
+      "summary": "arXiv:2606.20345v1 Announce Type: cross Abstract: Collective oscillations in neuronal systems often arise from interactions between excitatory and inhibitory populations rather than from recurrent coupling within a singl…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Deep Generative Model for Resting-State EEG Synthesis and Transferable Representation Learning",
+      "url": "https://arxiv.org/abs/2503.02636",
+      "summary": "arXiv:2503.02636v5 Announce Type: replace Abstract: Resting-state EEG provides a non-invasive view of spontaneous brain activity, but extracting meaningful patterns is often limited by scarce high-quality data and relian…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Overlooked weak structural connections support human cognition under nonlinear connectome scaling",
+      "url": "https://arxiv.org/abs/2505.24125",
+      "summary": "arXiv:2505.24125v3 Announce Type: replace Abstract: Human cognition depends on large scale communication constrained by white matter architecture. Although weak connections are abundant in mammalian connectomes, they hav…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Imperfect molecular detection can renormalize apparent kinetic rates in stochastic gene regulatory networks",
+      "url": "https://arxiv.org/abs/2512.02908",
+      "summary": "arXiv:2512.02908v2 Announce Type: replace Abstract: Imperfect molecular detection in single-cell experiments introduces technical noise that obscures the true stochastic dynamics of gene regulatory networks. While binomi…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Cell Division Changes Fate Decisions in a Genetic Toggle Switch",
+      "url": "https://arxiv.org/abs/2606.16803",
+      "summary": "arXiv:2606.16803v2 Announce Type: replace Abstract: Gene regulatory networks govern cellular fate decisions through multistable dynamics. The genetic toggle switch is a canonical model of such behaviour; yet, the impact …",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Symmetries of weighted networks: weight approximation method and its application to food webs",
+      "url": "https://arxiv.org/abs/2506.11824",
+      "summary": "arXiv:2506.11824v2 Announce Type: replace-cross Abstract: Graph symmetries identify structural regularities and reduce the computational complexity of network analysis. In weighted graphs, however, exact automorphisms ar…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Inheritance Entropy: A Model-Independent Method to Probe the Hereditary Structure of Cell Lineage Trees",
+      "url": "https://arxiv.org/abs/2510.18589",
+      "summary": "arXiv:2510.18589v2 Announce Type: replace-cross Abstract: Human bone marrow stromal cells (BMSC) include skeletal stem cells with ground-breaking therapeutic potential. However, BMSC colonies have very heterogeneous in v…",
+      "ts": 1781841600000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Curiosity Blog, Sols 4920-4926: Surveying the Bands",
@@ -568,158 +720,6 @@
       "url": "https://arxiv.org/abs/2603.27465",
       "summary": "arXiv:2603.27465v2 Announce Type: replace Abstract: Foundation models trained on DNA sequences have achieved strong performance across biological tasks including variant effect prediction and genome design. These models …",
       "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Numerical Reliability of Logistic Gene Regulatory Network Models: Preventing Expression Shutdown and Robust Integration of Boolean-Derived ODE Systems",
-      "url": "https://arxiv.org/abs/2605.01056",
-      "summary": "arXiv:2605.01056v2 Announce Type: replace Abstract: Gene regulatory networks are routinely translated from Boolean update rules into large continuous ODE systems integrated numerically for attractor identification, sensi…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ScholaWrite: A Dataset of End-to-End Scholarly Writing Process",
-      "url": "https://arxiv.org/abs/2502.02904",
-      "summary": "arXiv:2502.02904v5 Announce Type: replace-cross Abstract: Writing is a cognitively demanding activity that requires constant decision-making, heavy reliance on working memory, and frequent shifts between tasks of differe…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stimulus Motion Perception Studies Imply Specific Neural Computations in Human Visual Stabilization",
-      "url": "https://arxiv.org/abs/2506.13506",
-      "summary": "arXiv:2506.13506v2 Announce Type: replace-cross Abstract: Even during fixation the human eye is constantly in low amplitude motion, jittering over small angles in random directions at up to 100Hz. This motion results in …",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling Epidemics on Multiplex Networks: Epidemic Threshold and Basic Reproduction Number",
-      "url": "https://arxiv.org/abs/2510.12614",
-      "summary": "arXiv:2510.12614v2 Announce Type: replace-cross Abstract: Accurate epidemic forecasting requires models that account for the layered and heterogeneous nature of real social interactions. The basic reproduction number $\\m…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ActiTect: A Generalizable Machine Learning Pipeline for REM Sleep Behavior Disorder Screening through Standardized Actigraphy",
-      "url": "https://arxiv.org/abs/2511.05221",
-      "summary": "arXiv:2511.05221v3 Announce Type: replace-cross Abstract: Isolated rapid eye movement sleep behavior disorder (iRBD) is a major prodromal marker of $\\alpha$-synucleinopathies, often preceding the clinical onset of Parkin…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "When minor issues matter: symmetries, pluralism, and polarization in similarity-based opinion dynamics",
-      "url": "https://arxiv.org/abs/2603.04939",
-      "summary": "arXiv:2603.04939v2 Announce Type: replace-cross Abstract: Understanding how opinions evolve through social interactions is crucial for mitigating polarization. Existing opinion-dynamics models incorporate both attractive…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories",
-      "url": "https://arxiv.org/abs/2605.10840",
-      "summary": "arXiv:2605.10840v3 Announce Type: replace-cross Abstract: We present Clin-JEPA, a multi-phase co-training framework for joint-embedding predictive (JEPA) pretraining on EHR patient trajectories. JEPA architectures have e…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Announces Public-Private Partnership to Advance Mars Science",
-      "url": "https://www.nasa.gov/news-release/nasa-announces-public-private-partnership-to-advance-mars-science/",
-      "summary": "NASA Wednesday announced a new public‑private partnership to advance Mars science by combining the agency’s scientific leadership with commercial innovation. Under this model, NASA will provide the Aeolus atmospheric‑sci…",
-      "ts": 1781735349000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "RFK Jr. presents $700 million in mental health funding, but experts say grants aren’t new",
-      "url": "https://www.statnews.com/2026/06/17/rfk-new-mental-health-funding-or-new-use-existing-grants/?utm_campaign=rss",
-      "summary": "RFK Jr. presents funding intended to address mental illness and addiction, particularly among homeless people.",
-      "ts": 1781732210000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Relativity Space to privately develop Mars orbiter mission",
-      "url": "https://spacenews.com/relativity-space-to-privately-develop-mars-orbiter-mission/",
-      "summary": "Relativity Space plans to launch a Mars orbiter in 2028 as part of a new initiative to privately develop planetary missions. The post Relativity Space to privately develop Mars orbiter mission appeared first on SpaceNews…",
-      "ts": 1781729104000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: DOJ’s swift win in OhioHealth case should have hospitals studying their contracts, experts say",
-      "url": "https://www.statnews.com/2026/06/17/ohiohealth-antitrust-settlement-doj-ohio-attorney-general/?utm_campaign=rss",
-      "summary": "The speed of DOJ's proposed antitrust settlement with OhioHealth should put other hospitals on notice, experts say.",
-      "ts": 1781727799000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Search for Hidden Cosmic Companions in Sun’s Backyard",
-      "url": "https://science.nasa.gov/get-involved/citizen-science/search-for-hidden-cosmic-companions-in-suns-backyard/",
-      "summary": "Some stars have planets. Others are orbited by brown dwarfs, balls of gas too massive to be planets, but too low-mass to be stars. Astronomers love these brown dwarf-star pairs because being paired with a star helps reve…",
-      "ts": 1781725203000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Personalized Cartilage Graft Developed for Life-Threatening Infant Airway Narrowing",
-      "url": "https://www.genengnews.com/topics/translational-medicine/personalized-cartilage-graft-developed-for-life-threatening-infant-airway-narrowing/",
-      "summary": "Researchers demonstrated in a preclinical model a new method of using decellularized cartilage with patient-specific cells to create grafts for enlarging pediatric airways narrowed as a result of severe subglottic stenos…",
-      "ts": 1781724188000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Upgraded Ariane 6 launches Amazon Leo satellites",
-      "url": "https://spacenews.com/upgraded-ariane-6-launches-amazon-leo-satellites/",
-      "summary": "An Ariane 6 with upgraded solid rocket boosters successfully launched three dozen Amazon Leo satellites June 17 as ESA weighs options for increasing the vehicle’s launch rate. The post Upgraded Ariane 6 launches Amazon L…",
-      "ts": 1781723620000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "FTC, four state AGs sue transgender health group over care standards",
-      "url": "https://www.statnews.com/2026/06/17/ftc-gender-affirming-lawsuit-targets-wpath/?utm_campaign=rss",
-      "summary": "The FTC and four state attorneys general have sued the main professional organization for gender-affirming care clinicians.",
-      "ts": 1781720608000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "NIH diversity programs doubled undergraduates’ odds of getting a Ph.D., 20-year study finds",
-      "url": "https://www.statnews.com/2026/06/17/nih-diversity-programs-terminated-despite-success-study-shows/?utm_campaign=rss",
-      "summary": "A new study found that two diversity-oriented programs supported by the NIH doubled the odds that an undergraduate would earn a Ph.D.",
-      "ts": 1781719300000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Fermi Mission Uncovers Possible Sibling Supernova Remnants",
-      "url": "https://science.nasa.gov/missions/fermi/nasas-fermi-sibling-supernova-remnants/",
-      "summary": "A new study of two supernova remnants, the debris left behind after stars explode, suggests the explosions came from stellar siblings that once orbited each other. The first star’s detonation sent its binary companion hu…",
-      "ts": 1781716500000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Luigi Mangione will assert psychiatric defense in murder case in UnitedHealthcare CEO’s killing",
-      "url": "https://www.statnews.com/2026/06/17/luigi-mangione-psychiatric-defense-murder-case-unitedhealthcare-ceo-killing/?utm_campaign=rss",
-      "summary": "Luigi Mangione plans to assert a psychiatric defense at his state murder trial, claiming he was suffering from extreme emotional disturbance when he gunned down UnitedHealthcare CEO Brian Thompson.",
-      "ts": 1781715773000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Advocacy groups petition FDA to withdraw approval of ‘unsafe’ use of antibiotics given to livestock",
-      "url": "https://www.statnews.com/pharmalot/2026/06/17/advocates-petition-fda-withdraw-approval-unsafe-use-antibiotics-given-livestock/?utm_campaign=rss",
-      "summary": "More than 60 organizations are urging the FDA to withdraw approval for what they called the “unsafe” use of antibiotics for preventing disease in food-producing livestock.",
-      "ts": 1781712432000,
       "categoryId": "bio"
     }
   ],
