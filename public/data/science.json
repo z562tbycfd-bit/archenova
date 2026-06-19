@@ -1,7 +1,77 @@
 {
   "ok": true,
-  "updated": "2026-06-18T22:12:46.979Z",
+  "updated": "2026-06-19T01:44:44.784Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Brain enzyme caught doing something unexpected—it builds polysialic acid on itself",
+      "url": "https://phys.org/news/2026-06-brain-enzyme-caught-unexpected-polysialic.html",
+      "summary": "A chance discovery at Nagoya University in Japan has shown that a well-known brain enzyme has a hidden ability: It builds a sugar chain on itself, becomes secreted from the cell and deactivates, then switches on outside …",
+      "ts": 1781833201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Building more apartments won't ease housing crisis",
+      "url": "https://phys.org/news/2026-06-apartments-wont-ease-housing-crisis.html",
+      "summary": "Building more apartments will not solve Australia's housing affordability crisis unless policymakers address rising house prices and investor activity, new research shows. Australia's housing affordability crisis is bein…",
+      "ts": 1781830803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Impact of genomic selection on genetic diversity in five European cattle breeds",
+      "url": "https://phys.org/news/2026-06-impact-genomic-genetic-diversity-european.html",
+      "summary": "Genomic selection has revolutionized animal breeding and accelerated genetic gains in breeding programs. However, the introduction of genomic selection in some cosmopolitan breeds has also been associated with increased …",
+      "ts": 1781826003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Analysis of 352 probiotic supplements finds mismatched microbes across marketed health benefits",
+      "url": "https://phys.org/news/2026-06-analysis-probiotic-supplements-mismatched-microbes.html",
+      "summary": "Probiotic supplements found in drugstores nationwide contain an assortment of microbes sold for specific health purposes despite limited understanding of the microbes' connections to their marketed use, new University of…",
+      "ts": 1781826001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Corrected microbial family tree offers statistically sound model for how earliest life forms evolved",
+      "url": "https://phys.org/news/2026-06-microbial-family-tree-statistically-earliest.html",
+      "summary": "In this era of Big Data, the prevailing wisdom is that more information leads to better answers. However, a new Canadian study shows that in the hunt for life's ancient ancestors, more data can actually lead to less trut…",
+      "ts": 1781824803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Diamond-based particle detector captures one-picosecond electron bursts for high-rate beam diagnostics",
+      "url": "https://phys.org/news/2026-06-diamond-based-particle-detector-captures.html",
+      "summary": "Physicists at UC Santa Cruz and other institutes across California and New Mexico have developed a detection system that will allow next-generation particle accelerators to better reveal fundamental biological and chemic…",
+      "ts": 1781823602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Canada's national parks can do better at limiting landscape fragmentation, study suggests",
+      "url": "https://phys.org/news/2026-06-canada-national-limiting-landscape-fragmentation.html",
+      "summary": "According to a Concordia-led study, Canada's national parks may still be struggling to protect landscapes from fragmentation as effectively as intended. The paper is published in the journal Environmental Monitoring and …",
+      "ts": 1781823601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Long gamma-ray bursts may trace collapsing stars rather than neutron-star mergers",
+      "url": "https://phys.org/news/2026-06-gamma-ray-collapsing-stars-neutron.html",
+      "summary": "Long-duration gamma-ray bursts are some of the most energetic events in the universe, releasing more energy in just a few seconds than the sun emits in 10 billion years. Los Alamos National Laboratory scientists, having …",
+      "ts": 1781822401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Making a big, life‑changing decision? Seven steps to consider",
+      "url": "https://phys.org/news/2026-06-big-lifechanging-decision.html",
+      "summary": "Should you marry that person? Quit a steady career to retrain? Move across the country, away from aging parents? Sit with any of these and watch your mind spin. You weigh what you'd gain against what you'd lose. You run …",
+      "ts": 1781821204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Energetic neutral atoms may help map Uranus's odd magnetic environment",
+      "url": "https://phys.org/news/2026-06-energetic-neutral-atoms-uranus-odd.html",
+      "summary": "Sending a spacecraft to the underexplored planet Uranus is at the top of many planetary scientists' wish lists. But which spacecraft-mounted instruments would be most useful for answering questions about the mysterious i…",
+      "ts": 1781821202000
+    },
     {
       "source": "Phys.org",
       "title": "AI teaches asset traders not to sweat the small stuff",
@@ -472,13 +542,6 @@
       "ts": 1781780405000
     },
     {
-      "source": "APS PRX",
-      "title": "Quantifying Quantum Computational Advantage on a Processor of Ultracold Atoms",
-      "url": "http://link.aps.org/doi/10.1103/5mqb-3by1",
-      "summary": "Author(s): Yong-Guang Zheng, Ying-Chao Shen, Wei-Yong Zhang, An Luo, Ying Liu, Ming-Gen He, Hao-Ran Zhang, Wan Lin, Han-Yi Wang, Zi-Hang Zhu, Pei-Yue Qiu, Tian-Yi Wang, Ming-Cheng Chen, Chao-Yang Lu, Supanut Thanasilp, D…",
-      "ts": 1781776800000
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Quantum Mechanics Based on Real Numbers: A Consistent Description",
       "url": "http://link.aps.org/doi/10.1103/4k13-sdjh",
@@ -598,109 +661,46 @@
       "ts": 1781776800000
     },
     {
+      "source": "APS PRX",
+      "title": "Quantifying Quantum Computational Advantage on a Processor of Ultracold Atoms",
+      "url": "http://link.aps.org/doi/10.1103/5mqb-3by1",
+      "summary": "Author(s): Yong-Guang Zheng, Ying-Chao Shen, Wei-Yong Zhang, An Luo, Ying Liu, Ming-Gen He, Hao-Ran Zhang, Wan Lin, Han-Yi Wang, Zi-Hang Zhu, Pei-Yue Qiu, Tian-Yi Wang, Ming-Cheng Chen, Chao-Yang Lu, Supanut Thanasilp, D…",
+      "ts": 1781776800000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Flying focus with arbitrary directionality for spatiotemporal control of laser intensity",
+      "url": "http://link.aps.org/doi/10.1103/fwcp-pv5c",
+      "summary": "Author(s): Sida Cao, Devdigvijay Singh, Lavonne S. Mack, John P. Palastro, and Matthew R. Edwards Flying-focus techniques produce laser pulses whose focal points travel at arbitrary, controllable velocities. While this f…",
+      "ts": 1781776800000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Nano-optomechanical exploration of the dynamical photothermal response of suspended nanowires to laser-induced thermal waves",
+      "url": "http://link.aps.org/doi/10.1103/mlnq-flkq",
+      "summary": "Author(s): Clément Gouriou, Cattleya Dousset, Alex Fontana, Antoine Reigue, Francesco Fogliano, Hugo Weltz, Lucas Judéaux, Michaël Croquette, Benjamin Pigeau, and Olivier Arcizet Thermal and photothermal effects play an …",
+      "ts": 1781776800000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Broadband thermal noise correlations induced by measurement back-action",
+      "url": "http://link.aps.org/doi/10.1103/bv3b-nmxp",
+      "summary": "Author(s): Jiaxing Ma, Thomas J. Clark, Vincent Dumont, and Jack C. Sankey Measurements of mechanical sensors can now resolve the fundamental thermal noise floor over a broad frequency band, promising faster acquisition …",
+      "ts": 1781776800000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Near-field thermal transport in periodic photonic structures",
+      "url": "http://link.aps.org/doi/10.1103/b23m-yhws",
+      "summary": "Author(s): Xinran Li, Sen Zhang, Xiaolei Ding, Asim Ur Rahman, Tianle Chen, Chen Ni, Pankaj K. Choudhury, Huan Hu, and Yungui Ma Near-field radiative heat transfer (NFRHT), primarily caused by evanescent wave tunneling i…",
+      "ts": 1781776800000
+    },
+    {
       "source": "Phys.org",
       "title": "AI-driven optical tweezers sort hundreds of particles per hour without humans",
       "url": "https://phys.org/news/2026-06-ai-driven-optical-tweezers-hundreds.html",
       "summary": "By teaching an AI to use optical tweezers, researchers from the University of Gothenburg and Chalmers University of Technology have sped up the analysis of life's smallest components. The AI platform captures particles, …",
       "ts": 1781773205000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Numerical Study of Alfven Wave-Energetic Particle Interaction in the Inner Van Allen Belt and predictions of Seismic-Related Energetic Proton Bursts for the IITMSAT Mission",
-      "url": "https://arxiv.org/abs/2606.18269",
-      "summary": "arXiv:2606.18269v1 Announce Type: new Abstract: The IIT Madras nano-satellite aims to investigate the science of energetic particle precipitation from the inner Van Allen radiation belt into the upper ionosphere as a pot…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electromagnetic Characterization of Magnetic Ring: Case of Circular Cross-Section Shape",
-      "url": "https://arxiv.org/abs/2606.18270",
-      "summary": "arXiv:2606.18270v1 Announce Type: new Abstract: This paper introduces a comprehensive two-dimensional analytical model of a toroidal magnetic ring with circular cross-section under sinusoidal excitation. Applying Maxwell…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-network comparison of between-farm contacts for infectious disease surveillance in swine production",
-      "url": "https://arxiv.org/abs/2606.18277",
-      "summary": "arXiv:2606.18277v1 Announce Type: new Abstract: Understanding how swine farms are interconnected, directly and indirectly, is essential to characterizing infectious disease transmission. This study aimed to describe the …",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "\"Corotating Interaction Regions (CIRs)\", \"Interaction Regions (IRs)\" and \"Stream Interaction Regions (SIRs)\", which term should be used?",
-      "url": "https://arxiv.org/abs/2606.18278",
-      "summary": "arXiv:2606.18278v1 Announce Type: new Abstract: We discuss the early history of quasiperiodic ~27-day recurrent geomagnetic activity starting with Maunder (1904, 1905), Chree (1913) and Bartels (1932, 1934), and the Bart…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vision AI Agent for Continuous Material Monitoring of LEGEND-1000 LoFi Reentrant Tube",
-      "url": "https://arxiv.org/abs/2606.18294",
-      "summary": "arXiv:2606.18294v1 Announce Type: new Abstract: We report on a vision AI agent pipeline for non-contact material strain and property extraction from video data, demonstrated on video taken during hydrostatic testing of f…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AI-Driven Lumped-Element Modeling of Human Respiratory System for Studying Voice Mechanics",
-      "url": "https://arxiv.org/abs/2606.18296",
-      "summary": "arXiv:2606.18296v1 Announce Type: new Abstract: A predictive physics-based model of human respiratory, phonatory, and articulatory subsystems is developed to simulate voice production. Representing lungs, compressible ai…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diffuse scattering of neutrons in a wave resonator",
-      "url": "https://arxiv.org/abs/2606.18313",
-      "summary": "arXiv:2606.18313v1 Announce Type: new Abstract: In fundamental experiments with neutrons, the neutron flux and the neutron storage time in the measuring setup are of primary importance. These quantities can be increased …",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design and Performance of a Heated Gas Injector for Producing Cold Molecular Beams",
-      "url": "https://arxiv.org/abs/2606.18368",
-      "summary": "arXiv:2606.18368v1 Announce Type: new Abstract: We realize an injector device that supplies warm gas directly into a cryogenic environment. This injector has several advantageous features, including robustness, rigidity,…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Constant sensitivity birefringence metrology using vector vortex beams",
-      "url": "https://arxiv.org/abs/2606.18391",
-      "summary": "arXiv:2606.18391v1 Announce Type: new Abstract: Differential Interference Contrast (DIC) microscopy and chiral analysis are two imaging techniques that measure the birefringence, i.e., the phase difference introduced by …",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Epitaxial Growth of Ultra-smooth ${\\delta}$-NbN Thin Films on TiN-Buffered Sapphire by Room-Temperature Sputtering",
-      "url": "https://arxiv.org/abs/2606.18447",
-      "summary": "arXiv:2606.18447v1 Announce Type: new Abstract: The ${\\delta}$ phase of Niobium Nitride (NbN) is a promising superconducting material, which is chemically stable and shares lattice compatibility with conventional III-Nit…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian Sampling of Structural Ensembles: The Role of Ensemble-Counting Measures",
-      "url": "https://arxiv.org/abs/2606.18495",
-      "summary": "arXiv:2606.18495v1 Announce Type: new Abstract: Structural ensemble refinement is widely used to integrate molecular simulations with experimental measurements. While most applications focus on the maximum-a-posteriori (…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solution of the Newtonian plane Couette flow with dynamic wall slip using machine-learning methods",
-      "url": "https://arxiv.org/abs/2606.18499",
-      "summary": "arXiv:2606.18499v1 Announce Type: new Abstract: This study presents a comparative investigation of Physics-Informed Neural Networks (PINNs) and data-driven Deep Operator Networks (DeepONets) for predicting the evolution …",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Piezoelectric resonators in thin-film barium titanate from room temperature to millikelvin",
-      "url": "https://arxiv.org/abs/2606.18522",
-      "summary": "arXiv:2606.18522v1 Announce Type: new Abstract: Ferroelectric materials, with their strong nonlinearities, underpin key technologies across radio-frequency (RF) signal processing, optical communications, and emerging qua…",
-      "ts": 1781755200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Streamlining Analysis and Design of Two-Dimensional Electronic Spectroscopy using Machine Learning",
-      "url": "https://arxiv.org/abs/2606.18570",
-      "summary": "arXiv:2606.18570v1 Announce Type: new Abstract: Two-dimensional electronic spectroscopy (2DES) offers unique insights into the coupling between electronic and nuclear motion and dynamics, making it a key technique in div…",
-      "ts": 1781755200000
     }
   ],
   "sources": [

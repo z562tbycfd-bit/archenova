@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-06-18T22:12:48.652Z",
+  "updated": "2026-06-19T01:44:46.731Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 4920-4926: Surveying the Bands",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4920-4926-surveying-the-bands/",
+      "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, June 12, 2026 Rather than going from stage to stage at a music festival to hear different bands playing differen…",
+      "ts": 1781830258000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: CMS recalculates Medicare Advantage star ratings again, adding more volatility to program",
+      "url": "https://www.statnews.com/2026/06/18/medicare-advantage-star-ratings-recalculated-volatility-industry-lawsuits/?utm_campaign=rss",
+      "summary": "Medicare Advantage plans that receive four out of five stars or better get bonus payments, which have ballooned to $16 billion this year.",
+      "ts": 1781821513000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Mission to Study Space Weather Impacts of Earth’s Atmosphere",
@@ -704,22 +720,6 @@
       "url": "https://www.statnews.com/pharmalot/2026/06/17/advocates-petition-fda-withdraw-approval-unsafe-use-antibiotics-given-livestock/?utm_campaign=rss",
       "summary": "More than 60 organizations are urging the FDA to withdraw approval for what they called the “unsafe” use of antibiotics for preventing disease in food-producing livestock.",
       "ts": 1781712432000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Analytics Map Purification Optimization Tradeoffs",
-      "url": "https://www.genengnews.com/topics/bioprocessing/analytics-map-purification-optimization-tradeoffs/",
-      "summary": "Chromatography optimization should be considered not only in terms of quality, but also in terms of how each change affects processing time, congestion, and feasibility regarding stability-based time windows. The post An…",
-      "ts": 1781712059000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Continuous Production Platform Offers New Gene Therapy Options",
-      "url": "https://www.genengnews.com/topics/bioprocessing/continuous-production-platform-offers-new-gene-therapy-options/",
-      "summary": "An independent U.K. innovation center has developed a continuous bioprocess to improve productivity and reduce costs of advanced therapies. The new platform performs as well, or better, than batch methods. The post Conti…",
-      "ts": 1781712047000,
       "categoryId": "bio"
     }
   ],
