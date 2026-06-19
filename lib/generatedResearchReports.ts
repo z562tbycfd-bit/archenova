@@ -1,6 +1,234 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "ai-competition-from-chinese-imports-is-causing-co-emissions-to-rise-globally-resear",
+    "title": "Competition from Chinese imports is causing CO₂ emissions to rise globally, research reveals",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-competition-chinese-imports-emissions-globally.html",
+    "summary": "Danish companies emit less CO₂ when they relocate certain tasks abroad. At the same time, emissions rise correspondingly in those countries. However, global emissions increase when companies are under pressure from cheap…",
+    "scientificSignal": "Danish companies emit less CO₂ when they relocate certain tasks abroad. At the same time, emissions rise correspondingly in those countries. However, global emissions increase when companies are under pressure from cheap…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781901601000
+  },
+  {
+    "slug": "general-the-sun-may-not-engulf-earth-after-all-scientists-say",
+    "title": "The Sun may not engulf Earth after all, scientists say",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-sun-engulf-earth-scientists.html",
+    "summary": "Need some good news on a Friday after a long week? The Earth may not be engulfed by the expanding fireball of the dying sun, which has long been assumed to be our home planet's ultimate fate, according to scientists.",
+    "scientificSignal": "Need some good news on a Friday after a long week? The Earth may not be engulfed by the expanding fireball of the dying sun, which has long been assumed to be our home planet's ultimate fate, according to scientists.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781898002000
+  },
+  {
+    "slug": "space-india-s-jio-lays-out-sovereign-leo-constellation-plan-ahead-of-ipo",
+    "title": "India’s Jio lays out sovereign LEO constellation plan ahead of IPO",
+    "category": "Space",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/indias-jio-lays-out-sovereign-leo-constellation-plan-ahead-of-ipo/",
+    "summary": "Jio Platforms, which owns India’s largest telco, is looking to lease broadband capacity from satellite constellations to jumpstart its own sovereign LEO network in the country. The post India’s Jio lays out sovereign LEO…",
+    "scientificSignal": "Jio Platforms, which owns India’s largest telco, is looking to lease broadband capacity from satellite constellations to jumpstart its own sovereign LEO network in the country. The post India’s Jio lays out sovereign LEO…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.3,
+      "engineering": 10,
+      "economic": 8.9,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781897220000
+  },
+  {
+    "slug": "general-stressed-out-soil-bacteria-adapt-to-environmental-conditions",
+    "title": "Stressed-out soil bacteria adapt to environmental conditions",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-stressed-soil-bacteria-environmental-conditions.html",
+    "summary": "A new study from Caltech demonstrates that soil bacteria can adapt under stress, particularly when a key nutrient, phosphorus, is running low in their environment. The work is important for understanding the complex rela…",
+    "scientificSignal": "A new study from Caltech demonstrates that soil bacteria can adapt under stress, particularly when a key nutrient, phosphorus, is running low in their environment. The work is important for understanding the complex rela…",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.4,
+      "engineering": 8.2,
+      "economic": 8.3,
+      "civilization": 9.5,
+      "overall": 8.7,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1781896804000
+  },
+  {
+    "slug": "ai-ai-reveals-unexpected-source-of-antibiotic-candidates-in-prion-proteins",
+    "title": "AI reveals unexpected source of antibiotic candidates in prion proteins",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-ai-reveals-unexpected-source-antibiotic.html",
+    "summary": "New antibiotic candidates for drug-resistant bacteria may reside inside prions, misfolded proteins in the brain best known for rare and fatal degenerative brain diseases. Prion and prion-like proteins may hide short pept…",
+    "scientificSignal": "New antibiotic candidates for drug-resistant bacteria may reside inside prions, misfolded proteins in the brain best known for rare and fatal degenerative brain diseases. Prion and prion-like proteins may hide short pept…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781895604000
+  },
+  {
+    "slug": "general-observed-high-vapor-supersaturation-provides-crucial-evidence-for-aerosol-convec",
+    "title": "Observed high vapor supersaturation provides crucial evidence for aerosol convective cloud invigoration",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-high-vapor-supersaturation-crucial-evidence.html",
+    "summary": "Can tiny aerosol particles make tropical convective clouds grow stronger? For decades, scientists have debated this question because aerosols can change how cloud droplets form, grow and release latent heat. One proposed…",
+    "scientificSignal": "Can tiny aerosol particles make tropical convective clouds grow stronger? For decades, scientists have debated this question because aerosols can change how cloud droplets form, grow and release latent heat. One proposed…",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781895601000
+  },
+  {
     "slug": "ai-15-atom-iridium-nanoclusters-stay-stable-20-hours-outperform-commercial-catalyst",
     "title": "15-atom iridium nanoclusters stay stable 20 hours, outperform commercial catalysts",
     "category": "AI",
@@ -3571,234 +3799,6 @@ export const generatedResearchReports =
       "classification": "Emerging Future Signal"
     },
     "ts": 1781841600000
-  },
-  {
-    "slug": "general-temporal-dissipative-solitons-and-optical-frequency-combs-in-coherently-driven-k",
-    "title": "Temporal dissipative solitons and optical frequency combs in coherently driven Kerr resonators",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20026",
-    "summary": "arXiv:2606.20026v1 Announce Type: new Abstract: Kerr frequency combs have recently emerged as an exciting new photonic technology, with applications across science and engineering. Their formation within driven optical r…",
-    "scientificSignal": "arXiv:2606.20026v1 Announce Type: new Abstract: Kerr frequency combs have recently emerged as an exciting new photonic technology, with applications across science and engineering. Their formation within driven optical r…",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "general-enhanced-gulf-stream-path-variability-under-intensified-stratification",
-    "title": "Enhanced Gulf Stream Path Variability Under Intensified Stratification",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20050",
-    "summary": "arXiv:2606.20050v1 Announce Type: new Abstract: Increased upper-ocean stratification is an unavoidable consequence of global warming and will strongly impact the structure of ocean currents. Using a high-resolution ocean…",
-    "scientificSignal": "arXiv:2606.20050v1 Announce Type: new Abstract: Increased upper-ocean stratification is an unavoidable consequence of global warming and will strongly impact the structure of ocean currents. Using a high-resolution ocean…",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "general-temperature-dependent-charge-transport-in-usd-grown-high-purity-germanium-interp",
-    "title": "Temperature-Dependent Charge Transport in USD-Grown High-Purity Germanium: Interplay Between Freeze-Out and Multi-Scattering Mechanisms",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20071",
-    "summary": "arXiv:2606.20071v1 Announce Type: new Abstract: We report temperature-dependent charge transport measurements in p-type high-resistivity germanium crystals grown at the University of South Dakota. Hall-effect and four-pr…",
-    "scientificSignal": "arXiv:2606.20071v1 Announce Type: new Abstract: We report temperature-dependent charge transport measurements in p-type high-resistivity germanium crystals grown at the University of South Dakota. Hall-effect and four-pr…",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "ai-time-and-frequency-domain-study-for-electron-beams-penetrating-dielectric-nanosp",
-    "title": "Time- and frequency-domain study for electron beams penetrating dielectric nanospheres: fingerprints of Cherenkov and transition radiation",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20081",
-    "summary": "arXiv:2606.20081v1 Announce Type: new Abstract: We present a theoretical study of Cherenkov and transition radiation for swift electron beams penetrating dielectric nanospheres using material models of different sophisti…",
-    "scientificSignal": "arXiv:2606.20081v1 Announce Type: new Abstract: We present a theoretical study of Cherenkov and transition radiation for swift electron beams penetrating dielectric nanospheres using material models of different sophisti…",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "ai-can-dft-trained-neural-network-potentials-reproduce-structure-solvation-and-wate",
-    "title": "Can DFT-trained neural network potentials reproduce structure, solvation, and water-exchange properties in aqueous magnesium solutions?",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20105",
-    "summary": "arXiv:2606.20105v1 Announce Type: new Abstract: Magnesium ions play an essential role in many biological processes but remain challenging to model in biomolecular simulations. Despite considerable scientific effort, clas…",
-    "scientificSignal": "arXiv:2606.20105v1 Announce Type: new Abstract: Magnesium ions play an essential role in many biological processes but remain challenging to model in biomolecular simulations. Despite considerable scientific effort, clas…",
-    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
-    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
-    "technologyRoadmap": [
-      "Environmental signal discovery",
-      "Monitoring or adaptation system",
-      "Regional deployment",
-      "Infrastructure and governance integration",
-      "Planetary adaptive capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Monitoring and adaptation tools.",
-      "mid": "5–15 Years: Regional resilience infrastructure.",
-      "far": "15–30 Years: Planetary adaptive-capacity systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.4,
-      "engineering": 8.2,
-      "economic": 8.3,
-      "civilization": 9.5,
-      "overall": 8.7,
-      "classification": "Adaptive Resilience Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "general-advancing-threshold-inception-modeling-for-predictive-simulation-of-ionic-wind-f",
-    "title": "Advancing Threshold-Inception Modeling for Predictive Simulation of Ionic Wind Fan Performance",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20124",
-    "summary": "arXiv:2606.20124v1 Announce Type: new Abstract: This study investigates the predictive capability of a threshold inception-based multiphysics modeling approach for ionic wind fans by direct comparison with experimental m…",
-    "scientificSignal": "arXiv:2606.20124v1 Announce Type: new Abstract: This study investigates the predictive capability of a threshold inception-based multiphysics modeling approach for ionic wind fans by direct comparison with experimental m…",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
   }
 ];
 
@@ -3879,6 +3879,44 @@ export const archeNovaTopSignals =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1781841600000
+  },
+  {
+    "slug": "space-india-s-jio-lays-out-sovereign-leo-constellation-plan-ahead-of-ipo",
+    "title": "India’s Jio lays out sovereign LEO constellation plan ahead of IPO",
+    "category": "Space",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/indias-jio-lays-out-sovereign-leo-constellation-plan-ahead-of-ipo/",
+    "summary": "Jio Platforms, which owns India’s largest telco, is looking to lease broadband capacity from satellite constellations to jumpstart its own sovereign LEO network in the country. The post India’s Jio lays out sovereign LEO…",
+    "scientificSignal": "Jio Platforms, which owns India’s largest telco, is looking to lease broadband capacity from satellite constellations to jumpstart its own sovereign LEO network in the country. The post India’s Jio lays out sovereign LEO…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.3,
+      "engineering": 10,
+      "economic": 8.9,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781897220000
   },
   {
     "slug": "energy-new-technique-sharpens-predictions-of-metal-alloy-behavior-by-capturing-subtle-a",
@@ -4145,44 +4183,6 @@ export const archeNovaTopSignals =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781878806000
-  },
-  {
-    "slug": "ai-the-meo-durability-crisis-why-leo-hardware-will-fail-the-new-orbital-economy",
-    "title": "The MEO durability crisis: why LEO hardware will fail the new orbital economy ",
-    "category": "AI",
-    "source": "SpaceNews",
-    "originalUrl": "https://spacenews.com/the-meo-durability-crisis-why-leo-hardware-will-fail-the-new-orbital-economy/",
-    "summary": "To some, space is the final frontier. But the reality is that once you leave Earth’s atmosphere, you’re not entering a single, uniform void. There are several frontiers up there […] The post The MEO durability crisis: wh…",
-    "scientificSignal": "To some, space is the final frontier. But the reality is that once you leave Earth’s atmosphere, you’re not entering a single, uniform void. There are several frontiers up there […] The post The MEO durability crisis: wh…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.8,
-      "engineering": 9.6,
-      "economic": 8.4,
-      "civilization": 10,
-      "overall": 9.3,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781874000000
   }
 ];
 
@@ -4229,6 +4229,46 @@ export const archeNovaWatchlist =
     "rank": 1
   },
   {
+    "slug": "space-india-s-jio-lays-out-sovereign-leo-constellation-plan-ahead-of-ipo",
+    "title": "India’s Jio lays out sovereign LEO constellation plan ahead of IPO",
+    "category": "Space",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/indias-jio-lays-out-sovereign-leo-constellation-plan-ahead-of-ipo/",
+    "summary": "Jio Platforms, which owns India’s largest telco, is looking to lease broadband capacity from satellite constellations to jumpstart its own sovereign LEO network in the country. The post India’s Jio lays out sovereign LEO…",
+    "scientificSignal": "Jio Platforms, which owns India’s largest telco, is looking to lease broadband capacity from satellite constellations to jumpstart its own sovereign LEO network in the country. The post India’s Jio lays out sovereign LEO…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.3,
+      "engineering": 10,
+      "economic": 8.9,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781897220000,
+    "trend": "High Priority",
+    "rank": 2
+  },
+  {
     "slug": "ai-have-data-centers-raised-your-electric-bill-causal-evidence-from-the-united-stat",
     "title": "Have Data Centers Raised Your Electric Bill? Causal Evidence from the United States",
     "category": "AI",
@@ -4266,7 +4306,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "High Priority",
-    "rank": 2
+    "rank": 3
   },
   {
     "slug": "energy-new-technique-sharpens-predictions-of-metal-alloy-behavior-by-capturing-subtle-a",
@@ -4306,7 +4346,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781892001000,
     "trend": "High Priority",
-    "rank": 3
+    "rank": 4
   },
   {
     "slug": "ai-brain-computer-interface-trials-are-taking-off",
@@ -4346,7 +4386,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781859600000,
     "trend": "High Priority",
-    "rank": 4
+    "rank": 5
   },
   {
     "slug": "energy-cosmic-structure-formation-in-a-viable-power-law-f-r-gravity-model-growth-dynami",
@@ -4386,7 +4426,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "High Priority",
-    "rank": 5
+    "rank": 6
   },
   {
     "slug": "ai-pimix-2-0-ai-enhanced-data-fusion-for-radiographic-imaging-and-tomography",
@@ -4426,7 +4466,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "High Priority",
-    "rank": 6
+    "rank": 7
   },
   {
     "slug": "ai-elevationspace-secures-us-40-million-in-series-b-funding-bringing-total-raised-t",
@@ -4466,7 +4506,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781880731000,
     "trend": "Stable",
-    "rank": 7
+    "rank": 8
   },
   {
     "slug": "space-austrian-propulsion-startup-joins-sovereign-space-funding-surge",
@@ -4506,7 +4546,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781852400000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 9
   },
   {
     "slug": "space-bullet-cluster-observations-reopen-dark-matter-debate-with-mond-compatible-expla",
@@ -4546,7 +4586,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781878806000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 10
   },
   {
     "slug": "ai-the-meo-durability-crisis-why-leo-hardware-will-fail-the-new-orbital-economy",
@@ -4586,7 +4626,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781874000000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 11
   },
   {
     "slug": "space-earth-from-space-celebrates-1000-images",
@@ -4626,7 +4666,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781856000000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 12
   },
   {
     "slug": "space-bayesian-optimization-of-stellarator-alpha-particle-confinement-using-data-infor",
@@ -4666,7 +4706,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 13
   },
   {
     "slug": "ai-rigorous-uncertainty-quantification-of-probabilistic-ai-weather-forecasts-with-c",
@@ -4706,7 +4746,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 14
   },
   {
     "slug": "ai-alignment-controlled-optical-orbital-trapping-of-single-airborne-aerosols-for-dy",
@@ -4746,7 +4786,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 15
   },
   {
     "slug": "energy-powerful-seismic-waves-from-japan-s-2011-earthquake-struck-earth-s-core-and-boun",
@@ -4786,7 +4826,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781875204000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 16
   },
   {
     "slug": "general-methodological-guidelines-for-circadian-modeling-of-daylight-saving-time-applica",
@@ -4826,7 +4866,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 17
   },
   {
     "slug": "ai-mda-space-to-buy-blue-canyon-technologies-to-gain-foothold-in-u-s-market",
@@ -4866,7 +4906,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781885030000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 18
   },
   {
     "slug": "ai-nasa-should-build-a-biocontainment-facility-on-the-moon-to-protect-earth-researc",
@@ -4906,7 +4946,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781882404000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 19
   },
   {
     "slug": "space-the-voice-in-orbit-talking-to-astronauts-in-space-esa-explores-20",
@@ -4945,46 +4985,6 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781877600000,
-    "trend": "Stable",
-    "rank": 19
-  },
-  {
-    "slug": "space-nasa-selects-mission-to-study-space-weather-interaction-with-earth-s-atmosphere",
-    "title": "NASA selects mission to study space weather interaction with Earth’s atmosphere",
-    "category": "Space",
-    "source": "SpaceNews",
-    "originalUrl": "https://spacenews.com/nasa-selects-mission-to-study-space-weather-interaction-with-earths-atmosphere/",
-    "summary": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
-    "scientificSignal": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.3,
-      "economic": 8.1,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1781870438000,
     "trend": "Stable",
     "rank": 20
   }

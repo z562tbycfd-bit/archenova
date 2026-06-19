@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-06-19T18:57:28.686Z",
+  "updated": "2026-06-19T20:41:23.426Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Competition from Chinese imports is causing CO₂ emissions to rise globally, research reveals",
+      "url": "https://phys.org/news/2026-06-competition-chinese-imports-emissions-globally.html",
+      "summary": "Danish companies emit less CO₂ when they relocate certain tasks abroad. At the same time, emissions rise correspondingly in those countries. However, global emissions increase when companies are under pressure from cheap…",
+      "ts": 1781901601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The Sun may not engulf Earth after all, scientists say",
+      "url": "https://phys.org/news/2026-06-sun-engulf-earth-scientists.html",
+      "summary": "Need some good news on a Friday after a long week? The Earth may not be engulfed by the expanding fireball of the dying sun, which has long been assumed to be our home planet's ultimate fate, according to scientists.",
+      "ts": 1781898002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stressed-out soil bacteria adapt to environmental conditions",
+      "url": "https://phys.org/news/2026-06-stressed-soil-bacteria-environmental-conditions.html",
+      "summary": "A new study from Caltech demonstrates that soil bacteria can adapt under stress, particularly when a key nutrient, phosphorus, is running low in their environment. The work is important for understanding the complex rela…",
+      "ts": 1781896804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI reveals unexpected source of antibiotic candidates in prion proteins",
+      "url": "https://phys.org/news/2026-06-ai-reveals-unexpected-source-antibiotic.html",
+      "summary": "New antibiotic candidates for drug-resistant bacteria may reside inside prions, misfolded proteins in the brain best known for rare and fatal degenerative brain diseases. Prion and prion-like proteins may hide short pept…",
+      "ts": 1781895604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Observed high vapor supersaturation provides crucial evidence for aerosol convective cloud invigoration",
+      "url": "https://phys.org/news/2026-06-high-vapor-supersaturation-crucial-evidence.html",
+      "summary": "Can tiny aerosol particles make tropical convective clouds grow stronger? For decades, scientists have debated this question because aerosols can change how cloud droplets form, grow and release latent heat. One proposed…",
+      "ts": 1781895601000
+    },
     {
       "source": "Phys.org",
       "title": "15-atom iridium nanoclusters stay stable 20 hours, outperform commercial catalysts",
@@ -665,41 +700,6 @@
       "title": "Sequential replica exchange with solute tempering for atomistic modeling of supramolecular polymer structures",
       "url": "https://arxiv.org/abs/2606.19418",
       "summary": "arXiv:2606.19418v1 Announce Type: cross Abstract: Predicting detailed atomistic structures of self-assembling systems remains a challenge for all-atom molecular dynamics simulations. Replica exchange with solute temperin…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterization of a symmetric-facet dual-ruled grating for spatial heterodyne spectroscopy",
-      "url": "https://arxiv.org/abs/2606.19424",
-      "summary": "arXiv:2606.19424v1 Announce Type: cross Abstract: Dual-bandpass spatial heterodyne spectrometers (DB-SHS) enable simultaneous high-resolution measurements of widely separated passbands, providing powerful diagnostics of …",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-guided discovery of dynamical dark-energy equations of state through iterative AI reasoning",
-      "url": "https://arxiv.org/abs/2606.19427",
-      "summary": "arXiv:2606.19427v1 Announce Type: cross Abstract: Phenomenological model building has traditionally relied on human reasoning: equations are proposed from theoretical intuition, analogy, or empirical convenience, and onl…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Odd fluids from chiral cellular automata",
-      "url": "https://arxiv.org/abs/2606.19431",
-      "summary": "arXiv:2606.19431v1 Announce Type: cross Abstract: Cellular automata are discrete dynamical systems defined on a lattice, in which each site carries a finite set of states that evolve in time according to local determinis…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient classical representation and quantum state preparation of complete active space wavefunctions",
-      "url": "https://arxiv.org/abs/2606.19457",
-      "summary": "arXiv:2606.19457v1 Announce Type: cross Abstract: Quantum computers promise to solve the electronic structure problem for a large class of molecules. However, the performance of relevant quantum algorithms hinges on prep…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Moreau-Yosida-based Kohn-Sham Inversion for Periodic Systems",
-      "url": "https://arxiv.org/abs/2606.19471",
-      "summary": "arXiv:2606.19471v1 Announce Type: cross Abstract: Density-potential inversion for periodic systems within Moreau-Yosida-regularised density-functional theory is investigated, both theoretically and numerically. We develo…",
       "ts": 1781841600000
     }
   ],

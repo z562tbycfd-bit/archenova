@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-19T18:57:30.655Z",
+  "updated": "2026-06-19T20:41:27.616Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "India’s Jio lays out sovereign LEO constellation plan ahead of IPO",
+      "url": "https://spacenews.com/indias-jio-lays-out-sovereign-leo-constellation-plan-ahead-of-ipo/",
+      "summary": "Jio Platforms, which owns India’s largest telco, is looking to lease broadband capacity from satellite constellations to jumpstart its own sovereign LEO network in the country. The post India’s Jio lays out sovereign LEO…",
+      "ts": 1781897220000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "MDA Space to buy Blue Canyon Technologies to gain foothold in U.S. market",
@@ -171,6 +179,14 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "Tropical Storm Arthur",
+      "url": "https://science.nasa.gov/earth/earth-observatory/tropical-storm-arthur/",
+      "summary": "The first named storm of the 2026 Atlantic hurricane season brought intense rainfall and the threat of flash flooding to the U.S. Gulf Coast.",
+      "ts": 1781841600000,
+      "categoryId": "space"
+    },
+    {
       "source": "arXiv q-bio",
       "title": "BioHarness: Substrate-Aware Evidence Assembly for Biomedical Question Answering across Literature, Knowledge Bases, and Biological Atlases",
       "url": "https://arxiv.org/abs/2606.19396",
@@ -305,14 +321,6 @@
       "summary": "arXiv:2510.18589v2 Announce Type: replace-cross Abstract: Human bone marrow stromal cells (BMSC) include skeletal stem cells with ground-breaking therapeutic potential. However, BMSC colonies have very heterogeneous in v…",
       "ts": 1781841600000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Tropical Storm Arthur",
-      "url": "https://science.nasa.gov/earth/earth-observatory/tropical-storm-arthur/",
-      "summary": "The first named storm of the 2026 Atlantic hurricane season brought intense rainfall and the threat of flash flooding to the U.S. Gulf Coast.",
-      "ts": 1781841600000,
-      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -713,14 +721,6 @@
       "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
       "ts": 1781769600000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "El Niño Is Underway",
-      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-is-underway/",
-      "summary": "Satellite observations of sea surface height indicated that the 2026 event continued to strengthen in early June.",
-      "ts": 1781755200000,
-      "categoryId": "space"
     }
   ],
   "categories": [
