@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-19T20:41:23.426Z",
+  "updated": "2026-06-19T22:06:15.502Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "From birds to fish, how extreme heat causes wildlife to suffer",
+      "url": "https://phys.org/news/2026-06-birds-fish-extreme-wildlife.html",
+      "summary": "Like humans, wildlife is increasingly vulnerable as climate change fuels longer and more intense heat waves, disrupting feeding and breeding and, in extreme cases, proving fatal.",
+      "ts": 1781905201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe swelters as more heat records set to tumble",
+      "url": "https://phys.org/news/2026-06-europe-swelters.html",
+      "summary": "Much of Western Europe was sweltering in a grueling heat wave on Friday, with the mercury expected to continue rising in the coming days, likely shattering yet more temperature records.",
+      "ts": 1781902801000
+    },
     {
       "source": "Phys.org",
       "title": "Competition from Chinese imports is causing CO₂ emissions to rise globally, research reveals",
@@ -686,20 +700,6 @@
       "title": "Plasma Etch Process Optimization for Photonic-Grade Diamond-on-Insulator Substrates and Thickness Evaluation using Colorimetry",
       "url": "https://arxiv.org/abs/2606.20412",
       "summary": "arXiv:2606.20412v1 Announce Type: new Abstract: Diamond color-center qubits integrated with photonic circuits can be initialized, manipulated, entangled, and read individually with high fidelity, making them attractive f…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "State estimation of Rayleigh-B\\'enard convection with reduced-order models",
-      "url": "https://arxiv.org/abs/2606.20511",
-      "summary": "arXiv:2606.20511v1 Announce Type: new Abstract: In this work, we develop a state estimation framework for two-dimensional Rayleigh-B\\'enard (RB) convection that combines a stable Galerkin reduced-order model (ROM) with a…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sequential replica exchange with solute tempering for atomistic modeling of supramolecular polymer structures",
-      "url": "https://arxiv.org/abs/2606.19418",
-      "summary": "arXiv:2606.19418v1 Announce Type: cross Abstract: Predicting detailed atomistic structures of self-assembling systems remains a challenge for all-atom molecular dynamics simulations. Replica exchange with solute temperin…",
       "ts": 1781841600000
     }
   ],

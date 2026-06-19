@@ -1,6 +1,82 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "general-from-birds-to-fish-how-extreme-heat-causes-wildlife-to-suffer",
+    "title": "From birds to fish, how extreme heat causes wildlife to suffer",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-birds-fish-extreme-wildlife.html",
+    "summary": "Like humans, wildlife is increasingly vulnerable as climate change fuels longer and more intense heat waves, disrupting feeding and breeding and, in extreme cases, proving fatal.",
+    "scientificSignal": "Like humans, wildlife is increasingly vulnerable as climate change fuels longer and more intense heat waves, disrupting feeding and breeding and, in extreme cases, proving fatal.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.1,
+      "engineering": 7.9,
+      "economic": 8,
+      "civilization": 9.2,
+      "overall": 8.4,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1781905201000
+  },
+  {
+    "slug": "general-europe-swelters-as-more-heat-records-set-to-tumble",
+    "title": "Europe swelters as more heat records set to tumble",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-europe-swelters.html",
+    "summary": "Much of Western Europe was sweltering in a grueling heat wave on Friday, with the mercury expected to continue rising in the coming days, likely shattering yet more temperature records.",
+    "scientificSignal": "Much of Western Europe was sweltering in a grueling heat wave on Friday, with the mercury expected to continue rising in the coming days, likely shattering yet more temperature records.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781902801000
+  },
+  {
     "slug": "ai-competition-from-chinese-imports-is-causing-co-emissions-to-rise-globally-resear",
     "title": "Competition from Chinese imports is causing CO₂ emissions to rise globally, research reveals",
     "category": "AI",
@@ -3694,82 +3770,6 @@ export const generatedResearchReports =
     "originalUrl": "https://arxiv.org/abs/2606.19976",
     "summary": "arXiv:2606.19976v1 Announce Type: new Abstract: In seismology and related fields, the measurement of rotation in all three spatial dimensions is essential to complement the observation of translations. Access to all six …",
     "scientificSignal": "arXiv:2606.19976v1 Announce Type: new Abstract: In seismology and related fields, the measurement of rotation in all three spatial dimensions is essential to complement the observation of translations. Access to all six …",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "ai-a-unified-resource-pool-architecture-for-high-dimensional-direct-detection-optic",
-    "title": "A unified resource-pool architecture for high-dimensional direct-detection optical communication",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20004",
-    "summary": "arXiv:2606.20004v1 Announce Type: new Abstract: Increasing optical communication capacity without proportionally increasing receiver complexity remains a key challenge for direct-detection links. Conventional systems typ…",
-    "scientificSignal": "arXiv:2606.20004v1 Announce Type: new Abstract: Increasing optical communication capacity without proportionally increasing receiver complexity remains a key challenge for direct-detection links. Conventional systems typ…",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.6,
-      "engineering": 7.6,
-      "economic": 7.1,
-      "civilization": 7.9,
-      "overall": 7.6,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "general-acceleration-methods-for-the-planar-3d-ilsa-hydraulic-fracturing-model",
-    "title": "Acceleration methods for the planar 3D ILSA hydraulic fracturing model",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20025",
-    "summary": "arXiv:2606.20025v1 Announce Type: new Abstract: Planar 3D models of hydraulic fracturing provide a practical balance between models with restrictive geometric assumptions and fully 3D simulators, capturing fractures with…",
-    "scientificSignal": "arXiv:2606.20025v1 Announce Type: new Abstract: Planar 3D models of hydraulic fracturing provide a practical balance between models with restrictive geometric assumptions and fully 3D simulators, capturing fractures with…",
     "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
     "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
