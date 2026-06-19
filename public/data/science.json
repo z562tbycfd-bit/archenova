@@ -1,7 +1,84 @@
 {
   "ok": true,
-  "updated": "2026-06-19T16:07:25.324Z",
+  "updated": "2026-06-19T18:57:28.686Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "15-atom iridium nanoclusters stay stable 20 hours, outperform commercial catalysts",
+      "url": "https://phys.org/news/2026-06-atom-iridium-nanoclusters-stay-stable.html",
+      "summary": "An international research team from Tohoku University, Tokyo University of Science, Vanderbilt University and the University of Adelaide has discovered a novel, exceptionally simple method to precisely synthesize extreme…",
+      "ts": 1781894401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New JWST images of abnormally well-developed galaxy cluster open up the 'cosmic noon' frontier",
+      "url": "https://phys.org/news/2026-06-jwst-images-abnormally-galaxy-cluster.html",
+      "summary": "A stunningly concentrated and hefty galaxy cluster, from a time in the universe's history when such massive structures aren't expected to have fully formed yet, is challenging cosmic evolution theories. Across a series o…",
+      "ts": 1781893201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Arabidopsis meristem map uncovers 18 cell clusters shaping stems and flowers",
+      "url": "https://phys.org/news/2026-06-arabidopsis-meristem-uncovers-cell-clusters.html",
+      "summary": "Researchers have produced the most detailed map yet of how stem cells in the growing tip of a plant begin their journey to form the many cell types that shape flowers and stems. They identified 18 distinct cell type clus…",
+      "ts": 1781892012000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new way to control tiny quantum light sources by twisting atomically thin layers of hexagonal boron nitride",
+      "url": "https://phys.org/news/2026-06-tiny-quantum-sources-atomically-thin.html",
+      "summary": "In a paper published in Science Advances, researchers at the University of Technology Sydney (UTS) in collaboration with the University of Minnesota and Kyung Hee University have found a new way to control quantum light …",
+      "ts": 1781892006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How H5N1 bird flu hid unrecognized for weeks in dairy cattle",
+      "url": "https://phys.org/news/2026-06-h5n1-bird-flu-hid-unrecognized.html",
+      "summary": "When H5N1 bird flu first began infecting U.S. cattle in early 2024, diagnosis was elusive because, in cows, the disease looked completely different. Instead of affecting the lungs, as H5N1 does in other mammalian species…",
+      "ts": 1781892005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New technique sharpens predictions of metal alloy behavior by capturing subtle atomic patterns",
+      "url": "https://phys.org/news/2026-06-technique-sharpens-metal-alloy-behavior.html",
+      "summary": "Companies working at the frontier of aerospace, energy and computing are constantly looking for new materials to improve performance. But in order to understand how those materials will actually behave once they're insid…",
+      "ts": 1781892001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden underground, fungi drive carbon storage, crop health and ecosystem stability",
+      "url": "https://phys.org/news/2026-06-hidden-underground-fungi-carbon-storage.html",
+      "summary": "Fungi are key constituents of the soil microbial community, playing a major role in moving carbon and energy through the soil food web. A recent analysis carried out by Professor Matthias C. Rillig from Freie Universität…",
+      "ts": 1781890802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny objects swimming in a superfluid of light move against the flow",
+      "url": "https://phys.org/news/2026-06-tiny-superfluid.html",
+      "summary": "Superfluids are intriguing states of matter in which particles behave like a giant collective wave, allowing them to flow without any friction. When this fluid flows past a fixed obstacle at a velocity below a specific t…",
+      "ts": 1781889601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plant hormones in mammals challenge view of cytokinins as purely botanical",
+      "url": "https://phys.org/news/2026-06-hormones-mammals-view-cytokinins-purely.html",
+      "summary": "In biology, cytokinins were long considered regulators exclusive to the plant kingdom, where they control, among other things, growth and responses to stress. Until now, little research has been conducted into whether th…",
+      "ts": 1781888407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microbial partners may help maize and sorghum respond to higher temperatures",
+      "url": "https://phys.org/news/2026-06-microbial-partners-maize-sorghum-higher.html",
+      "summary": "New research suggests the microbiome near the surface of a plant's roots, known as the rhizosphere microbiome, may play a role in helping crops respond to heat stress.",
+      "ts": 1781887202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Excessive Instagram use could erode our sense of self, altering the perception of our bodies",
+      "url": "https://phys.org/news/2026-06-excessive-instagram-erode-perception-bodies.html",
+      "summary": "Instagram use could influence not only how we see our bodies, but also how our brain perceives the bodies we inhabit as \"ours.\" In short, it could erode our sense of self to the point of no longer recognizing ourselves i…",
+      "ts": 1781886003000
+    },
     {
       "source": "Phys.org",
       "title": "Q&A: Biological plastic recycling—from waste to raw material",
@@ -623,83 +700,6 @@
       "title": "Moreau-Yosida-based Kohn-Sham Inversion for Periodic Systems",
       "url": "https://arxiv.org/abs/2606.19471",
       "summary": "arXiv:2606.19471v1 Announce Type: cross Abstract: Density-potential inversion for periodic systems within Moreau-Yosida-regularised density-functional theory is investigated, both theoretically and numerically. We develo…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reheating as a variational probe of cosmological observables",
-      "url": "https://arxiv.org/abs/2606.19513",
-      "summary": "arXiv:2606.19513v1 Announce Type: cross Abstract: We formulate reheating as a constrained variational problem in the space of equation-of-state histories, rather than attempting to describe it through microscopic models.…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Advances in Scientific Machine Learning for Coupled Fluid Flow and Transport",
-      "url": "https://arxiv.org/abs/2606.19562",
-      "summary": "arXiv:2606.19562v1 Announce Type: cross Abstract: This chapter reviews recent advances in Scientific Machine Learning (SciML) for modeling coupled fluid flow and transport phenomena governed by the incompressible Navier-…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electrical Noise Produced by Micron-Sized Particles above a Surface Paul Trap",
-      "url": "https://arxiv.org/abs/2606.19585",
-      "summary": "arXiv:2606.19585v1 Announce Type: cross Abstract: Electric field noise produced by the surface of ion trap electrodes reduces the fidelity of quantum computing operations. Despite decades of investigation its microscopic…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimized Quantum States for Sensing in the Presence of Loss and Phase Noise",
-      "url": "https://arxiv.org/abs/2606.19649",
-      "summary": "arXiv:2606.19649v1 Announce Type: cross Abstract: Squeezed vacuum lets gravitational-wave detectors and other quantum sensors surpass the standard quantum limit, and is optimal in the loss-limited regime; phase noise bre…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Dynamics from Lax Pair Theory: A Reconstruction from Spectrum Preservation",
-      "url": "https://arxiv.org/abs/2606.19664",
-      "summary": "arXiv:2606.19664v1 Announce Type: cross Abstract: We reconstruct unitary quantum dynamics from a minimal axiomatic foundation built on Hilbert-space observables and isospectral evolution. The only dynamical assumption is…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design Considerations for Phase Modulation in Testable Photonic Systems and Co-packaged Optics",
-      "url": "https://arxiv.org/abs/2606.19674",
-      "summary": "arXiv:2606.19674v1 Announce Type: cross Abstract: As silicon photonic integrated circuits (PICs) scale in complexity, testing and calibration increasingly depend on effective phase modulation mechanisms. This work compar…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contour-Constrained Deformable Registration with Parameter Characterization for Head and Neck Surgical Guidance",
-      "url": "https://arxiv.org/abs/2606.19767",
-      "summary": "arXiv:2606.19767v1 Announce Type: cross Abstract: With 890,000 annual new cases globally, head and neck squamous cell carcinoma has one of the highest recurrence rates among solid malignancies. Although frozen section an…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Epithelia Realize Nematopolar Topological Defect Structures",
-      "url": "https://arxiv.org/abs/2606.19844",
-      "summary": "arXiv:2606.19844v1 Announce Type: cross Abstract: We introduce a shape-based polar order parameter that captures the structural asymmetry of cells within epithelial monolayers. By combining bright-field imaging and tract…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Informed Neural Network with Squeeze-Excitation-like Attention",
-      "url": "https://arxiv.org/abs/2606.19853",
-      "summary": "arXiv:2606.19853v1 Announce Type: cross Abstract: We introduce SEA-PINN, a novel architecture that incorporates a Squeeze-Excitation-like attention mechanism into physics-informed neural networks to dynamically recalibra…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structure-Oriented Randomized Neural Networks for Poisson-Nernst-Planck and Poisson-Nernst-Planck-Navier-Stokes Systems",
-      "url": "https://arxiv.org/abs/2606.19912",
-      "summary": "arXiv:2606.19912v1 Announce Type: cross Abstract: We develop a structure-oriented randomized neural network framework, termed SO-RaNN, for the Poisson-Nernst-Planck (PNP) system and the Poisson-Nernst-Planck-Navier-Stoke…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shear-Induced Electrophoretic Migration Perpendicular to the Electric Field",
-      "url": "https://arxiv.org/abs/2606.19916",
-      "summary": "arXiv:2606.19916v1 Announce Type: cross Abstract: Recent experiments combining electrophoresis with pressure-driven flows in microchannels have revealed that microparticles undergo lateral migration perpendicular to the …",
       "ts": 1781841600000
     }
   ],

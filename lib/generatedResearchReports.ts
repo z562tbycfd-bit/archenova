@@ -1,6 +1,424 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "ai-15-atom-iridium-nanoclusters-stay-stable-20-hours-outperform-commercial-catalyst",
+    "title": "15-atom iridium nanoclusters stay stable 20 hours, outperform commercial catalysts",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-atom-iridium-nanoclusters-stay-stable.html",
+    "summary": "An international research team from Tohoku University, Tokyo University of Science, Vanderbilt University and the University of Adelaide has discovered a novel, exceptionally simple method to precisely synthesize extreme…",
+    "scientificSignal": "An international research team from Tohoku University, Tokyo University of Science, Vanderbilt University and the University of Adelaide has discovered a novel, exceptionally simple method to precisely synthesize extreme…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781894401000
+  },
+  {
+    "slug": "general-new-jwst-images-of-abnormally-well-developed-galaxy-cluster-open-up-the-cosmic-n",
+    "title": "New JWST images of abnormally well-developed galaxy cluster open up the 'cosmic noon' frontier",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-jwst-images-abnormally-galaxy-cluster.html",
+    "summary": "A stunningly concentrated and hefty galaxy cluster, from a time in the universe's history when such massive structures aren't expected to have fully formed yet, is challenging cosmic evolution theories. Across a series o…",
+    "scientificSignal": "A stunningly concentrated and hefty galaxy cluster, from a time in the universe's history when such massive structures aren't expected to have fully formed yet, is challenging cosmic evolution theories. Across a series o…",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781893201000
+  },
+  {
+    "slug": "ai-arabidopsis-meristem-map-uncovers-18-cell-clusters-shaping-stems-and-flowers",
+    "title": "Arabidopsis meristem map uncovers 18 cell clusters shaping stems and flowers",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-arabidopsis-meristem-uncovers-cell-clusters.html",
+    "summary": "Researchers have produced the most detailed map yet of how stem cells in the growing tip of a plant begin their journey to form the many cell types that shape flowers and stems. They identified 18 distinct cell type clus…",
+    "scientificSignal": "Researchers have produced the most detailed map yet of how stem cells in the growing tip of a plant begin their journey to form the many cell types that shape flowers and stems. They identified 18 distinct cell type clus…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781892012000
+  },
+  {
+    "slug": "quantum-a-new-way-to-control-tiny-quantum-light-sources-by-twisting-atomically-thin-laye",
+    "title": "A new way to control tiny quantum light sources by twisting atomically thin layers of hexagonal boron nitride",
+    "category": "Quantum",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-tiny-quantum-sources-atomically-thin.html",
+    "summary": "In a paper published in Science Advances, researchers at the University of Technology Sydney (UTS) in collaboration with the University of Minnesota and Kyung Hee University have found a new way to control quantum light …",
+    "scientificSignal": "In a paper published in Science Advances, researchers at the University of Technology Sydney (UTS) in collaboration with the University of Minnesota and Kyung Hee University have found a new way to control quantum light …",
+    "implementationPotential": "Implementation potential lies in moving this Quantum signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Quantum phenomenon control",
+      "Device stability",
+      "Scalable quantum system",
+      "Industrial application",
+      "New computation and sensing capability"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781892006000
+  },
+  {
+    "slug": "ai-how-h5n1-bird-flu-hid-unrecognized-for-weeks-in-dairy-cattle",
+    "title": "How H5N1 bird flu hid unrecognized for weeks in dairy cattle",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-h5n1-bird-flu-hid-unrecognized.html",
+    "summary": "When H5N1 bird flu first began infecting U.S. cattle in early 2024, diagnosis was elusive because, in cows, the disease looked completely different. Instead of affecting the lungs, as H5N1 does in other mammalian species…",
+    "scientificSignal": "When H5N1 bird flu first began infecting U.S. cattle in early 2024, diagnosis was elusive because, in cows, the disease looked completely different. Instead of affecting the lungs, as H5N1 does in other mammalian species…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.6,
+      "engineering": 7.6,
+      "economic": 7.1,
+      "civilization": 7.9,
+      "overall": 7.6,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781892005000
+  },
+  {
+    "slug": "energy-new-technique-sharpens-predictions-of-metal-alloy-behavior-by-capturing-subtle-a",
+    "title": "New technique sharpens predictions of metal alloy behavior by capturing subtle atomic patterns",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-technique-sharpens-metal-alloy-behavior.html",
+    "summary": "Companies working at the frontier of aerospace, energy and computing are constantly looking for new materials to improve performance. But in order to understand how those materials will actually behave once they're insid…",
+    "scientificSignal": "Companies working at the frontier of aerospace, energy and computing are constantly looking for new materials to improve performance. But in order to understand how those materials will actually behave once they're insid…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.1,
+      "engineering": 9.9,
+      "economic": 8.7,
+      "civilization": 10,
+      "overall": 9.5,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781892001000
+  },
+  {
+    "slug": "energy-hidden-underground-fungi-drive-carbon-storage-crop-health-and-ecosystem-stabilit",
+    "title": "Hidden underground, fungi drive carbon storage, crop health and ecosystem stability",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-hidden-underground-fungi-carbon-storage.html",
+    "summary": "Fungi are key constituents of the soil microbial community, playing a major role in moving carbon and energy through the soil food web. A recent analysis carried out by Professor Matthias C. Rillig from Freie Universität…",
+    "scientificSignal": "Fungi are key constituents of the soil microbial community, playing a major role in moving carbon and energy through the soil food web. A recent analysis carried out by Professor Matthias C. Rillig from Freie Universität…",
+    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
+    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
+    "technologyRoadmap": [
+      "Biological or clinical discovery",
+      "Diagnostic or therapeutic prototype",
+      "Clinical validation",
+      "Healthcare system adoption",
+      "Adaptive health infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
+      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
+      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 8.3,
+      "economic": 8.8,
+      "civilization": 9.4,
+      "overall": 8.9,
+      "classification": "Biological Resilience Signal"
+    },
+    "ts": 1781890802000
+  },
+  {
+    "slug": "ai-tiny-objects-swimming-in-a-superfluid-of-light-move-against-the-flow",
+    "title": "Tiny objects swimming in a superfluid of light move against the flow",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-tiny-superfluid.html",
+    "summary": "Superfluids are intriguing states of matter in which particles behave like a giant collective wave, allowing them to flow without any friction. When this fluid flows past a fixed obstacle at a velocity below a specific t…",
+    "scientificSignal": "Superfluids are intriguing states of matter in which particles behave like a giant collective wave, allowing them to flow without any friction. When this fluid flows past a fixed obstacle at a velocity below a specific t…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781889601000
+  },
+  {
+    "slug": "bio-plant-hormones-in-mammals-challenge-view-of-cytokinins-as-purely-botanical",
+    "title": "Plant hormones in mammals challenge view of cytokinins as purely botanical",
+    "category": "Bio",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-hormones-mammals-view-cytokinins-purely.html",
+    "summary": "In biology, cytokinins were long considered regulators exclusive to the plant kingdom, where they control, among other things, growth and responses to stress. Until now, little research has been conducted into whether th…",
+    "scientificSignal": "In biology, cytokinins were long considered regulators exclusive to the plant kingdom, where they control, among other things, growth and responses to stress. Until now, little research has been conducted into whether th…",
+    "implementationPotential": "Implementation potential lies in moving this Bio signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Biological discovery",
+      "Platform translation",
+      "Validation and regulation",
+      "Healthcare or manufacturing adoption",
+      "Biological resilience infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.3,
+      "engineering": 7.3,
+      "economic": 6.8,
+      "civilization": 7.6,
+      "overall": 7.3,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781888407000
+  },
+  {
+    "slug": "ai-microbial-partners-may-help-maize-and-sorghum-respond-to-higher-temperatures",
+    "title": "Microbial partners may help maize and sorghum respond to higher temperatures",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-microbial-partners-maize-sorghum-higher.html",
+    "summary": "New research suggests the microbiome near the surface of a plant's roots, known as the rhizosphere microbiome, may play a role in helping crops respond to heat stress.",
+    "scientificSignal": "New research suggests the microbiome near the surface of a plant's roots, known as the rhizosphere microbiome, may play a role in helping crops respond to heat stress.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781887202000
+  },
+  {
+    "slug": "ai-excessive-instagram-use-could-erode-our-sense-of-self-altering-the-perception-of",
+    "title": "Excessive Instagram use could erode our sense of self, altering the perception of our bodies",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-excessive-instagram-erode-perception-bodies.html",
+    "summary": "Instagram use could influence not only how we see our bodies, but also how our brain perceives the bodies we inhabit as \"ours.\" In short, it could erode our sense of self to the point of no longer recognizing ourselves i…",
+    "scientificSignal": "Instagram use could influence not only how we see our bodies, but also how our brain perceives the bodies we inhabit as \"ours.\" In short, it could erode our sense of self to the point of no longer recognizing ourselves i…",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1781886003000
+  },
+  {
     "slug": "ai-mda-space-to-buy-blue-canyon-technologies-to-gain-foothold-in-u-s-market",
     "title": "MDA Space to buy Blue Canyon Technologies to gain foothold in U.S. market",
     "category": "AI",
@@ -3381,467 +3799,11 @@ export const generatedResearchReports =
       "classification": "Emerging Future Signal"
     },
     "ts": 1781841600000
-  },
-  {
-    "slug": "energy-caustic-driven-fluidic-microlenses-for-enhanced-nonlinear-and-high-energy-densit",
-    "title": "Caustic-Driven Fluidic Microlenses for Enhanced Nonlinear and High-Energy-Density Physics",
-    "category": "Energy",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20125",
-    "summary": "arXiv:2606.20125v1 Announce Type: new Abstract: We demonstrate that caustic microlensing occurring in a liquid jet efficiently drives linear, nonlinear, and high-energy-density phenomena. In the linear regime, caustics p…",
-    "scientificSignal": "arXiv:2606.20125v1 Announce Type: new Abstract: We demonstrate that caustic microlensing occurring in a liquid jet efficiently drives linear, nonlinear, and high-energy-density phenomena. In the linear regime, caustics p…",
-    "implementationPotential": "Implementation potential lies in moving this Energy signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.1,
-      "engineering": 8.1,
-      "economic": 7.6,
-      "civilization": 8.4,
-      "overall": 8.1,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "general-the-moving-target-of-urban-equity-spatiotemporal-demand-and-double-disadvantage-",
-    "title": "The Moving Target of Urban Equity: Spatiotemporal Demand and Double Disadvantage in Hefei, China",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20132",
-    "summary": "arXiv:2606.20132v1 Announce Type: new Abstract: Equitable access to essential urban services is a pillar of modern planning, yet most accessibility models rely strictly on static residential locations, ignoring how deman…",
-    "scientificSignal": "arXiv:2606.20132v1 Announce Type: new Abstract: Equitable access to essential urban services is a pillar of modern planning, yet most accessibility models rely strictly on static residential locations, ignoring how deman…",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "ai-a-social-force-model-of-the-evacuation-from-a-big-box-store",
-    "title": "A Social Force Model of the Evacuation from a Big Box Store",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20136",
-    "summary": "arXiv:2606.20136v1 Announce Type: new Abstract: We include elliptical cross-sections to physically represent people, and irregular polygons to represent wheelchair users, in an anisotropic social force model whose veloci…",
-    "scientificSignal": "arXiv:2606.20136v1 Announce Type: new Abstract: We include elliptical cross-sections to physically represent people, and irregular polygons to represent wheelchair users, in an anisotropic social force model whose veloci…",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "general-a-high-fidelity-numerical-database-for-free-stream-transition",
-    "title": "A high-fidelity numerical database for free-stream transition",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20139",
-    "summary": "arXiv:2606.20139v1 Announce Type: new Abstract: The accurate prediction of laminar-to-turbulent transition is critical for the design of aerodynamic and turbomachinery systems, yet widely used experimental benchmarks, su…",
-    "scientificSignal": "arXiv:2606.20139v1 Announce Type: new Abstract: The accurate prediction of laminar-to-turbulent transition is critical for the design of aerodynamic and turbomachinery systems, yet widely used experimental benchmarks, su…",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "ai-high-power-laser-drives-motion-in-ultra-thin-photonic-crystal-lightsails-via-rad",
-    "title": "High-Power Laser Drives Motion in Ultra-thin Photonic Crystal Lightsails via Radiation Pressure",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20149",
-    "summary": "arXiv:2606.20149v1 Announce Type: new Abstract: Laser-driven lightsails have emerged as a promising route for accelerating ultralight spacecraft to high speeds using beamed optical energy. Realizing this concept pushes t…",
-    "scientificSignal": "arXiv:2606.20149v1 Announce Type: new Abstract: Laser-driven lightsails have emerged as a promising route for accelerating ultralight spacecraft to high speeds using beamed optical energy. Realizing this concept pushes t…",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.3,
-      "engineering": 9.7,
-      "economic": 9.9,
-      "civilization": 10,
-      "overall": 9.7,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "ai-precover-1-0-process-rate-recovery-with-machine-learning",
-    "title": "PRecover 1.0: Process Rate Recovery with Machine Learning",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20165",
-    "summary": "arXiv:2606.20165v1 Announce Type: new Abstract: Comprehensive information on cloud microphysical process rates from numerical simulations allows for better understanding of precipitation formation pathways and aerosol-cl…",
-    "scientificSignal": "arXiv:2606.20165v1 Announce Type: new Abstract: Comprehensive information on cloud microphysical process rates from numerical simulations allows for better understanding of precipitation formation pathways and aerosol-cl…",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "ai-raw-hit-muon-tomography-a-measurement-domain-formulation-for-cosmic-ray-muon-ima",
-    "title": "Raw-Hit Muon Tomography: A Measurement-Domain Formulation for Cosmic-Ray Muon Imaging",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20180",
-    "summary": "arXiv:2606.20180v1 Announce Type: new Abstract: Cosmic-ray muon tomography records only a few detector-plane crossings per particle, while material information enters through stochastic scattering and energy loss along t…",
-    "scientificSignal": "arXiv:2606.20180v1 Announce Type: new Abstract: Cosmic-ray muon tomography records only a few detector-plane crossings per particle, while material information enters through stochastic scattering and energy loss along t…",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.1,
-      "engineering": 8.1,
-      "economic": 7.6,
-      "civilization": 8.4,
-      "overall": 8.1,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "general-dephasingless-laser-wakefield-acceleration-in-a-plasma-waveguide",
-    "title": "Dephasingless laser wakefield acceleration in a plasma waveguide",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20298",
-    "summary": "arXiv:2606.20298v1 Announce Type: new Abstract: Laser wakefield accelerators (LWFAs) provide extremely large accelerating gradients for compact electron accelerators and photon sources but are limited by dephasing, where…",
-    "scientificSignal": "arXiv:2606.20298v1 Announce Type: new Abstract: Laser wakefield accelerators (LWFAs) provide extremely large accelerating gradients for compact electron accelerators and photon sources but are limited by dephasing, where…",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "ai-restarts-of-bursts-in-turbulence-in-a-log-minimal-channel",
-    "title": "Restarts of bursts in turbulence in a log-minimal channel",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20320",
-    "summary": "arXiv:2606.20320v1 Announce Type: new Abstract: Recent evidence on the sustainment of wall-normal-velocity bursts in wall-bounded turbulence challenges the classical streak-dependent picture, suggesting that the problem …",
-    "scientificSignal": "arXiv:2606.20320v1 Announce Type: new Abstract: Recent evidence on the sustainment of wall-normal-velocity bursts in wall-bounded turbulence challenges the classical streak-dependent picture, suggesting that the problem …",
-    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Model capability",
-      "Embodied or operational system",
-      "Deployment into workflows",
-      "Infrastructure integration",
-      "Civilization-scale automation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.6,
-      "engineering": 7.6,
-      "economic": 7.1,
-      "civilization": 7.9,
-      "overall": 7.6,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "ai-planar-lagrangian-transport-and-scalar-gradient-organization-in-a-turbulent-reac",
-    "title": "Planar Lagrangian transport and scalar-gradient organization in a turbulent reacting shear layer",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20352",
-    "summary": "arXiv:2606.20352v1 Announce Type: new Abstract: We analyze planar Lagrangian transport and scalar-gradient organization in a supersonic, reacting hydrogen-air temporal mixing layer using time-resolved mid-plane data from…",
-    "scientificSignal": "arXiv:2606.20352v1 Announce Type: new Abstract: We analyze planar Lagrangian transport and scalar-gradient organization in a supersonic, reacting hydrogen-air temporal mixing layer using time-resolved mid-plane data from…",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9,
-      "engineering": 9.4,
-      "economic": 9.6,
-      "civilization": 10,
-      "overall": 9.5,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "general-determination-of-the-intrinsic-mechanical-quality-factor-in-high-stress-silicon-",
-    "title": "Determination of the intrinsic mechanical quality factor in high-stress silicon nitride resonators",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20354",
-    "summary": "arXiv:2606.20354v1 Announce Type: new Abstract: Recent advances in silicon nitride nanomechanical resonators have pushed mechanical quality factors to ultra-high values by combining stress-induced dissipation dilution wi…",
-    "scientificSignal": "arXiv:2606.20354v1 Announce Type: new Abstract: Recent advances in silicon nitride nanomechanical resonators have pushed mechanical quality factors to ultra-high values by combining stress-induced dissipation dilution wi…",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
   }
 ];
 
 export const archeNovaTopSignals =
 [
-  {
-    "slug": "ai-high-power-laser-drives-motion-in-ultra-thin-photonic-crystal-lightsails-via-rad",
-    "title": "High-Power Laser Drives Motion in Ultra-thin Photonic Crystal Lightsails via Radiation Pressure",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20149",
-    "summary": "arXiv:2606.20149v1 Announce Type: new Abstract: Laser-driven lightsails have emerged as a promising route for accelerating ultralight spacecraft to high speeds using beamed optical energy. Realizing this concept pushes t…",
-    "scientificSignal": "arXiv:2606.20149v1 Announce Type: new Abstract: Laser-driven lightsails have emerged as a promising route for accelerating ultralight spacecraft to high speeds using beamed optical energy. Realizing this concept pushes t…",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.3,
-      "engineering": 9.7,
-      "economic": 9.9,
-      "civilization": 10,
-      "overall": 9.7,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1781841600000
-  },
   {
     "slug": "space-galileo-signal-updated-for-internet-of-things-use",
     "title": "Galileo signal updated for internet-of-things use",
@@ -3919,42 +3881,42 @@ export const archeNovaTopSignals =
     "ts": 1781841600000
   },
   {
-    "slug": "energy-cosmic-structure-formation-in-a-viable-power-law-f-r-gravity-model-growth-dynami",
-    "title": "Cosmic Structure Formation in a Viable Power-Law f(R) Gravity Model: Growth Dynamics, Stability, and Observational Signatures",
+    "slug": "energy-new-technique-sharpens-predictions-of-metal-alloy-behavior-by-capturing-subtle-a",
+    "title": "New technique sharpens predictions of metal alloy behavior by capturing subtle atomic patterns",
     "category": "Energy",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.19402",
-    "summary": "arXiv:2606.19402v1 Announce Type: new Abstract: We investigate the evolution of cosmic structures in the power-law modified gravity model $f(R)=R+R^{1+\\delta}/R_c^\\delta$, where the dimensionless parameter $\\delta$ chara…",
-    "scientificSignal": "arXiv:2606.19402v1 Announce Type: new Abstract: We investigate the evolution of cosmic structures in the power-law modified gravity model $f(R)=R+R^{1+\\delta}/R_c^\\delta$, where the dimensionless parameter $\\delta$ chara…",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-technique-sharpens-metal-alloy-behavior.html",
+    "summary": "Companies working at the frontier of aerospace, energy and computing are constantly looking for new materials to improve performance. But in order to understand how those materials will actually behave once they're insid…",
+    "scientificSignal": "Companies working at the frontier of aerospace, energy and computing are constantly looking for new materials to improve performance. But in order to understand how those materials will actually behave once they're insid…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
     "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
     ],
     "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
     },
     "assessment": {
       "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
     },
     "archeNovaAssessment": {
-      "scientific": 9,
-      "engineering": 9.4,
-      "economic": 9.6,
+      "scientific": 9.1,
+      "engineering": 9.9,
+      "economic": 8.7,
       "civilization": 10,
       "overall": 9.5,
-      "classification": "Civilization Energy Signal"
+      "classification": "Expansion Capability Signal"
     },
-    "ts": 1781841600000
+    "ts": 1781892001000
   },
   {
     "slug": "ai-brain-computer-interface-trials-are-taking-off",
@@ -3995,13 +3957,13 @@ export const archeNovaTopSignals =
     "ts": 1781859600000
   },
   {
-    "slug": "ai-pimix-2-0-ai-enhanced-data-fusion-for-radiographic-imaging-and-tomography",
-    "title": "PiMiX 2.0: AI-enhanced Data Fusion for Radiographic Imaging and Tomography",
-    "category": "AI",
+    "slug": "energy-cosmic-structure-formation-in-a-viable-power-law-f-r-gravity-model-growth-dynami",
+    "title": "Cosmic Structure Formation in a Viable Power-Law f(R) Gravity Model: Growth Dynamics, Stability, and Observational Signatures",
+    "category": "Energy",
     "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.19670",
-    "summary": "arXiv:2606.19670v1 Announce Type: new Abstract: Extending earlier work in Physics-informed Meta-instrument for eXperiments (PiMiX) [1], PiMiX~2.0 is an artificial-intelligence (AI)-enhanced data-fusion and analysis frame…",
-    "scientificSignal": "arXiv:2606.19670v1 Announce Type: new Abstract: Extending earlier work in Physics-informed Meta-instrument for eXperiments (PiMiX) [1], PiMiX~2.0 is an artificial-intelligence (AI)-enhanced data-fusion and analysis frame…",
+    "originalUrl": "https://arxiv.org/abs/2606.19402",
+    "summary": "arXiv:2606.19402v1 Announce Type: new Abstract: We investigate the evolution of cosmic structures in the power-law modified gravity model $f(R)=R+R^{1+\\delta}/R_c^\\delta$, where the dimensionless parameter $\\delta$ chara…",
+    "scientificSignal": "arXiv:2606.19402v1 Announce Type: new Abstract: We investigate the evolution of cosmic structures in the power-law modified gravity model $f(R)=R+R^{1+\\delta}/R_c^\\delta$, where the dimensionless parameter $\\delta$ chara…",
     "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
     "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
@@ -4033,13 +3995,13 @@ export const archeNovaTopSignals =
     "ts": 1781841600000
   },
   {
-    "slug": "ai-planar-lagrangian-transport-and-scalar-gradient-organization-in-a-turbulent-reac",
-    "title": "Planar Lagrangian transport and scalar-gradient organization in a turbulent reacting shear layer",
+    "slug": "ai-pimix-2-0-ai-enhanced-data-fusion-for-radiographic-imaging-and-tomography",
+    "title": "PiMiX 2.0: AI-enhanced Data Fusion for Radiographic Imaging and Tomography",
     "category": "AI",
     "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20352",
-    "summary": "arXiv:2606.20352v1 Announce Type: new Abstract: We analyze planar Lagrangian transport and scalar-gradient organization in a supersonic, reacting hydrogen-air temporal mixing layer using time-resolved mid-plane data from…",
-    "scientificSignal": "arXiv:2606.20352v1 Announce Type: new Abstract: We analyze planar Lagrangian transport and scalar-gradient organization in a supersonic, reacting hydrogen-air temporal mixing layer using time-resolved mid-plane data from…",
+    "originalUrl": "https://arxiv.org/abs/2606.19670",
+    "summary": "arXiv:2606.19670v1 Announce Type: new Abstract: Extending earlier work in Physics-informed Meta-instrument for eXperiments (PiMiX) [1], PiMiX~2.0 is an artificial-intelligence (AI)-enhanced data-fusion and analysis frame…",
+    "scientificSignal": "arXiv:2606.19670v1 Announce Type: new Abstract: Extending earlier work in Physics-informed Meta-instrument for eXperiments (PiMiX) [1], PiMiX~2.0 is an artificial-intelligence (AI)-enhanced data-fusion and analysis frame…",
     "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
     "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
@@ -4183,6 +4145,44 @@ export const archeNovaTopSignals =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781878806000
+  },
+  {
+    "slug": "ai-the-meo-durability-crisis-why-leo-hardware-will-fail-the-new-orbital-economy",
+    "title": "The MEO durability crisis: why LEO hardware will fail the new orbital economy ",
+    "category": "AI",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/the-meo-durability-crisis-why-leo-hardware-will-fail-the-new-orbital-economy/",
+    "summary": "To some, space is the final frontier. But the reality is that once you leave Earth’s atmosphere, you’re not entering a single, uniform void. There are several frontiers up there […] The post The MEO durability crisis: wh…",
+    "scientificSignal": "To some, space is the final frontier. But the reality is that once you leave Earth’s atmosphere, you’re not entering a single, uniform void. There are several frontiers up there […] The post The MEO durability crisis: wh…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
+      "civilization": 10,
+      "overall": 9.3,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781874000000
   }
 ];
 
@@ -4229,46 +4229,6 @@ export const archeNovaWatchlist =
     "rank": 1
   },
   {
-    "slug": "ai-high-power-laser-drives-motion-in-ultra-thin-photonic-crystal-lightsails-via-rad",
-    "title": "High-Power Laser Drives Motion in Ultra-thin Photonic Crystal Lightsails via Radiation Pressure",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20149",
-    "summary": "arXiv:2606.20149v1 Announce Type: new Abstract: Laser-driven lightsails have emerged as a promising route for accelerating ultralight spacecraft to high speeds using beamed optical energy. Realizing this concept pushes t…",
-    "scientificSignal": "arXiv:2606.20149v1 Announce Type: new Abstract: Laser-driven lightsails have emerged as a promising route for accelerating ultralight spacecraft to high speeds using beamed optical energy. Realizing this concept pushes t…",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.3,
-      "engineering": 9.7,
-      "economic": 9.9,
-      "civilization": 10,
-      "overall": 9.7,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1781841600000,
-    "trend": "High Priority",
-    "rank": 2
-  },
-  {
     "slug": "ai-have-data-centers-raised-your-electric-bill-causal-evidence-from-the-united-stat",
     "title": "Have Data Centers Raised Your Electric Bill? Causal Evidence from the United States",
     "category": "AI",
@@ -4305,6 +4265,46 @@ export const archeNovaWatchlist =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1781841600000,
+    "trend": "High Priority",
+    "rank": 2
+  },
+  {
+    "slug": "energy-new-technique-sharpens-predictions-of-metal-alloy-behavior-by-capturing-subtle-a",
+    "title": "New technique sharpens predictions of metal alloy behavior by capturing subtle atomic patterns",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-technique-sharpens-metal-alloy-behavior.html",
+    "summary": "Companies working at the frontier of aerospace, energy and computing are constantly looking for new materials to improve performance. But in order to understand how those materials will actually behave once they're insid…",
+    "scientificSignal": "Companies working at the frontier of aerospace, energy and computing are constantly looking for new materials to improve performance. But in order to understand how those materials will actually behave once they're insid…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.1,
+      "engineering": 9.9,
+      "economic": 8.7,
+      "civilization": 10,
+      "overall": 9.5,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781892001000,
     "trend": "High Priority",
     "rank": 3
   },
@@ -4429,46 +4429,6 @@ export const archeNovaWatchlist =
     "rank": 6
   },
   {
-    "slug": "ai-planar-lagrangian-transport-and-scalar-gradient-organization-in-a-turbulent-reac",
-    "title": "Planar Lagrangian transport and scalar-gradient organization in a turbulent reacting shear layer",
-    "category": "AI",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.20352",
-    "summary": "arXiv:2606.20352v1 Announce Type: new Abstract: We analyze planar Lagrangian transport and scalar-gradient organization in a supersonic, reacting hydrogen-air temporal mixing layer using time-resolved mid-plane data from…",
-    "scientificSignal": "arXiv:2606.20352v1 Announce Type: new Abstract: We analyze planar Lagrangian transport and scalar-gradient organization in a supersonic, reacting hydrogen-air temporal mixing layer using time-resolved mid-plane data from…",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9,
-      "engineering": 9.4,
-      "economic": 9.6,
-      "civilization": 10,
-      "overall": 9.5,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1781841600000,
-    "trend": "High Priority",
-    "rank": 7
-  },
-  {
     "slug": "ai-elevationspace-secures-us-40-million-in-series-b-funding-bringing-total-raised-t",
     "title": "ElevationSpace Secures US $40 Million in Series B Funding, Bringing Total Raised to US $63.5 Million",
     "category": "AI",
@@ -4506,7 +4466,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781880731000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 7
   },
   {
     "slug": "space-austrian-propulsion-startup-joins-sovereign-space-funding-surge",
@@ -4546,7 +4506,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781852400000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 8
   },
   {
     "slug": "space-bullet-cluster-observations-reopen-dark-matter-debate-with-mond-compatible-expla",
@@ -4586,7 +4546,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781878806000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 9
   },
   {
     "slug": "ai-the-meo-durability-crisis-why-leo-hardware-will-fail-the-new-orbital-economy",
@@ -4626,7 +4586,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781874000000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 10
   },
   {
     "slug": "space-earth-from-space-celebrates-1000-images",
@@ -4666,7 +4626,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781856000000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 11
   },
   {
     "slug": "space-bayesian-optimization-of-stellarator-alpha-particle-confinement-using-data-infor",
@@ -4706,7 +4666,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 12
   },
   {
     "slug": "ai-rigorous-uncertainty-quantification-of-probabilistic-ai-weather-forecasts-with-c",
@@ -4746,7 +4706,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 13
   },
   {
     "slug": "ai-alignment-controlled-optical-orbital-trapping-of-single-airborne-aerosols-for-dy",
@@ -4786,7 +4746,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 14
   },
   {
     "slug": "energy-powerful-seismic-waves-from-japan-s-2011-earthquake-struck-earth-s-core-and-boun",
@@ -4826,7 +4786,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781875204000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 15
   },
   {
     "slug": "general-methodological-guidelines-for-circadian-modeling-of-daylight-saving-time-applica",
@@ -4866,7 +4826,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781841600000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 16
   },
   {
     "slug": "ai-mda-space-to-buy-blue-canyon-technologies-to-gain-foothold-in-u-s-market",
@@ -4906,7 +4866,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781885030000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 17
   },
   {
     "slug": "ai-nasa-should-build-a-biocontainment-facility-on-the-moon-to-protect-earth-researc",
@@ -4946,7 +4906,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1781882404000,
     "trend": "Stable",
-    "rank": 19
+    "rank": 18
   },
   {
     "slug": "space-the-voice-in-orbit-talking-to-astronauts-in-space-esa-explores-20",
@@ -4985,6 +4945,46 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1781877600000,
+    "trend": "Stable",
+    "rank": 19
+  },
+  {
+    "slug": "space-nasa-selects-mission-to-study-space-weather-interaction-with-earth-s-atmosphere",
+    "title": "NASA selects mission to study space weather interaction with Earth’s atmosphere",
+    "category": "Space",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/nasa-selects-mission-to-study-space-weather-interaction-with-earths-atmosphere/",
+    "summary": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
+    "scientificSignal": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.5,
+      "engineering": 9.3,
+      "economic": 8.1,
+      "civilization": 9.8,
+      "overall": 9,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1781870438000,
     "trend": "Stable",
     "rank": 20
   }
