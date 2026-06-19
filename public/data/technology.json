@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-06-19T12:09:22.178Z",
+  "updated": "2026-06-19T16:07:27.228Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "MDA Space to buy Blue Canyon Technologies to gain foothold in U.S. market",
+      "url": "https://spacenews.com/mda-space-to-buy-blue-canyon-technologies-to-gain-foothold-in-u-s-market/",
+      "summary": "MDA Space is buying smallsat manufacturer Blue Canyon Technologies (BCT) for $620 million, giving the Canadian company greater access to the lucrative U.S. government market. The post MDA Space to buy Blue Canyon Technol…",
+      "ts": 1781885030000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "ElevationSpace Secures US $40 Million in Series B Funding, Bringing Total Raised to US $63.5 Million",
+      "url": "https://spacenews.com/elevationspace-secures-us-40-million-in-series-b-funding-bringing-total-raised-to-us-63-5-million/",
+      "summary": "ElevationSpace Inc. (CEO: Ryohei Kobayashi), a company developing Space-to-Earth transportation as well as a Space Environment Utilization and Recovery Platform, has raised a total of US $40 million in its […] The post E…",
+      "ts": 1781880731000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "The Voice in Orbit | Talking to Astronauts in Space | ESA Explores #20",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/The_Voice_in_Orbit_Talking_to_Astronauts_in_Space_ESA_Explores_20",
+      "summary": "Video: 00:23:49 Meet the voices astronauts hear in space. At ESA’s European Astronaut Centre in Cologne, Germany, the EUROCOM team is the link between crew and ground, guiding astronauts like ESA astronaut Sophie Adenot …",
+      "ts": 1781877600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Northrop Grumman says industry ready to scale solid rocket production, with longer contracts",
+      "url": "https://spacenews.com/northrop-grumman-says-industry-ready-to-scale-solid-rocket-production-with-longer-contracts/",
+      "summary": "Billions in private investment have created room for growth, but suppliers need predictable demand, says the head of Northrop Grumman’s solid rocket motor business The post Northrop Grumman says industry ready to scale s…",
+      "ts": 1781877600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/06/19/up-and-down-the-ladder-jobs-bristol-novartis-pfizer-moderna-astrazeneca/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1781877600000,
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Galileo signal updated for internet-of-things use",
@@ -9,6 +49,30 @@
       "summary": "In April, Galileo marked a step forward with the deployment of a new signal component, known as E5a Quasi Pilot, on 12 satellites of Europe’s satellite navigation constellation. This upgrade makes Galileo signals easier …",
       "ts": 1781877300000,
       "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 15-19 June 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_15-19_June_2026",
+      "summary": "Week in images: 15-19 June 2026 Discover our week through the lens",
+      "ts": 1781874600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The MEO durability crisis: why LEO hardware will fail the new orbital economy ",
+      "url": "https://spacenews.com/the-meo-durability-crisis-why-leo-hardware-will-fail-the-new-orbital-economy/",
+      "summary": "To some, space is the final frontier. But the reality is that once you leave Earth’s atmosphere, you’re not entering a single, uniform void. There are several frontiers up there […] The post The MEO durability crisis: wh…",
+      "ts": 1781874000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI bottleneck debates, and BCI trials take off",
+      "url": "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A startup claims it broke through a bottleneck that’s holding back LLMs AI startup…",
+      "ts": 1781871000000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -257,6 +321,14 @@
       "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, June 12, 2026 Rather than going from stage to stage at a music festival to hear different bands playing differen…",
       "ts": 1781830258000,
       "categoryId": "space"
+    },
+    {
+      "source": "Nature Medicine",
+      "title": "Author Correction: MAGE-A4/MAGE-A8-targeted TCR-based bispecific T cell engager in recurrent and/or refractory solid tumors: a phase 1 trial",
+      "url": "https://www.nature.com/articles/s41591-026-04519-y",
+      "summary": "",
+      "ts": 1781827200000,
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
@@ -649,78 +721,6 @@
       "summary": "Satellite observations of sea surface height indicated that the 2026 event continued to strengthen in early June.",
       "ts": 1781755200000,
       "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Archetypal Microbiome Profiles as Indicators of Nitrous Oxide Emission States in Activated Sludge",
-      "url": "https://arxiv.org/abs/2606.18295",
-      "summary": "arXiv:2606.18295v1 Announce Type: new Abstract: Nitrous oxide (N2O) emissions from water resource recovery facilities (WRRFs) fluctuate over time and can arise from multiple microbial pathways, making source attribution …",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Protein-Based Fish Species Identification: Dataset, Models, and Insights from Native Bangladeshi Fish",
-      "url": "https://arxiv.org/abs/2606.18302",
-      "summary": "arXiv:2606.18302v1 Announce Type: new Abstract: Correct identification of fish species is highly significant for food security, economic development, and climate resilience in Bangladesh. Protein sequences directly refle…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DART: A design-aware microfluidic chip paradigm for real-time live-cell image analysis",
-      "url": "https://arxiv.org/abs/2606.18523",
-      "summary": "arXiv:2606.18523v1 Announce Type: new Abstract: High-throughput microfluidic live-cell imaging generates rich single-cell data. Yet semi-automated procedures for locating regions of interest (RoIs), each containing one c…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Adaptive COVID-19 Trajectory Forecasting Using MAB-Inspired Ensemble Weighting",
-      "url": "https://arxiv.org/abs/2606.18575",
-      "summary": "arXiv:2606.18575v1 Announce Type: new Abstract: Forecasting epidemic trajectories is important for public health decision-making, but no single model is consistently reliable across epidemic phases and forecasting settin…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Effects of spatial environmental noise on evolution of cooperation",
-      "url": "https://arxiv.org/abs/2606.18660",
-      "summary": "arXiv:2606.18660v1 Announce Type: new Abstract: We investigate the effects of environmental noise on cooperation in a spatial evolutionary game model with variable population size. Building on a one-dimensional lattice m…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Can neurons speak? Semantic narration of vision at single-cell resolution",
-      "url": "https://arxiv.org/abs/2606.18667",
-      "summary": "arXiv:2606.18667v1 Announce Type: new Abstract: Identifying what individual neurons encode in higher-order visual cortex is an open problem. Responses resist intuitive parameterization, and the deep-network embeddings us…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Retrieval-Based Brain Decoding by Alignment, not Complexity",
-      "url": "https://arxiv.org/abs/2606.19081",
-      "summary": "arXiv:2606.19081v1 Announce Type: new Abstract: A prominent theory in cognitive science suggests that concepts in the brain are organized as high-dimensional vectors, with semantic meaning captured by directions and rela…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CollaboratoR: A scalable workflow for collaborative data entry and management",
-      "url": "https://arxiv.org/abs/2606.19280",
-      "summary": "arXiv:2606.19280v1 Announce Type: new Abstract: Effective collaborative data entry and transparency are foundational for building robust databases and high-quality data synthesis. Yet researchers often face inconsistent …",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multi-network comparison of between-farm contacts for infectious disease surveillance in swine production",
-      "url": "https://arxiv.org/abs/2606.18277",
-      "summary": "arXiv:2606.18277v1 Announce Type: cross Abstract: Understanding how swine farms are interconnected, directly and indirectly, is essential to characterizing infectious disease transmission. This study aimed to describe th…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
