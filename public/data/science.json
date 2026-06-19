@@ -1,7 +1,77 @@
 {
   "ok": true,
-  "updated": "2026-06-19T07:10:26.274Z",
+  "updated": "2026-06-19T12:09:20.208Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New Zealand scientists working on 'R' win major global award",
+      "url": "https://phys.org/news/2026-06-zealand-scientists-major-global-award.html",
+      "summary": "Scientists working on the revolutionary 'R' programming language invented at the University of Auckland have won a top award intended to be a Nobel Prize for statisticians.",
+      "ts": 1781870847000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research finds major gaps between EU anti-deforestation rules and realities on the ground in Brazil",
+      "url": "https://phys.org/news/2026-06-major-gaps-eu-anti-deforestation.html",
+      "summary": "The U.K. could face significant challenges if it follows the European Union's lead and introduces tougher restrictions on imports linked to deforestation, according to new research from The University of Manchester. The …",
+      "ts": 1781870402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Desert field test with NASA advanced rover prototype",
+      "url": "https://phys.org/news/2026-06-field-nasa-advanced-rover-prototype.html",
+      "summary": "A prototype four-wheel rover developed at NASA's Jet Propulsion Laboratory with advanced mobility and robotic autonomy capabilities trundled across the Colorado Desert near Plaster City, California, during a field test i…",
+      "ts": 1781868001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Five phases of localization physics observed in a single quantum system",
+      "url": "https://phys.org/news/2026-06-phases-localization-physics-quantum.html",
+      "summary": "Physicists in China have observed five phases in localization physics within a single quantum system. Using an advanced photonic platform, the team, led by Yucheng Wang and Jingyun Fan at the Southern University of Scien…",
+      "ts": 1781866812000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA mission to study space weather impacts of Earth's atmosphere",
+      "url": "https://phys.org/news/2026-06-nasa-mission-space-weather-impacts.html",
+      "summary": "NASA selected a mission concept to research how space weather and dynamics within Earth's atmosphere influence the space environment and help improve prediction capabilities for impacts on crucial technology, such as GPS…",
+      "ts": 1781866801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deadly Philippines quake turns seabed into shore",
+      "url": "https://phys.org/news/2026-06-deadly-philippines-quake-seabed-shore.html",
+      "summary": "Arsenio Butil Jr. fell to his knees and began to pray when last week's deadly 7.8-magnitude earthquake began shaking his home on the coast of the southern Philippines.",
+      "ts": 1781859827000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Palm oil, coconut and soybean drive more species extinction than previously thought",
+      "url": "https://phys.org/news/2026-06-palm-oil-coconut-soybean-species.html",
+      "summary": "Oils from crops such as coconut, palm oil and soybean are used in a range of applications, from cosmetics and makeup to margarine and spreads, and from medicines to animal feed. These oil crops, as they are known, are in…",
+      "ts": 1781859605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular simulations uncover why water nanodrops spread thin on hydrophilic surfaces",
+      "url": "https://phys.org/news/2026-06-molecular-simulations-uncover-nanodrops-thin.html",
+      "summary": "Why does water roll off a duck's back but spread on clean glass? For macroscopic (millimeter-scale) drops, this behavior can be explained using continuum theory. However, when nanoscale (10–9 mm) droplets spread on surfa…",
+      "ts": 1781859603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover 'hyperparasite' in Malaysia Borneo jungle",
+      "url": "https://phys.org/news/2026-06-scientists-hyperparasite-malaysia-borneo-jungle.html",
+      "summary": "Malaysian scientists have discovered a new species of parasitic fungus in Borneo's jungles that preys on \"zombie fungi\" known to infect insects before subjecting them to a gruesome death.",
+      "ts": 1781855968000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indonesia to capture last-known wild Bornean rhino for IVF",
+      "url": "https://phys.org/news/2026-06-indonesia-capture-wild-bornean-rhino.html",
+      "summary": "Indonesia's government is racing to capture the last-known Bornean rhino in the wild in a bid to preserve the species through in vitro fertilization, a government official told AFP on Friday.",
+      "ts": 1781855525000
+    },
     {
       "source": "Phys.org",
       "title": "Arabian Sea humpback whale's long-distance trip further highlights species' unique ecology",
@@ -630,76 +700,6 @@
       "title": "Statistical Properties of Training & Generalization",
       "url": "https://arxiv.org/abs/2606.20299",
       "summary": "arXiv:2606.20299v1 Announce Type: cross Abstract: Deep learning has managed to evade numerous intuitions from classical statistics to achieve unprecedented performance on a number of real-world tasks. In this article, we…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entanglement structure of the dynamical phases in the sub-Ohmic spin-boson model",
-      "url": "https://arxiv.org/abs/2606.20313",
-      "summary": "arXiv:2606.20313v1 Announce Type: cross Abstract: The sub-Ohmic spin-boson model exhibits three distinct dynamical regimes in its spin population dynamics, classified as coherent, incoherent, and pseudo-coherent. Whether…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum-classical physics-informed Kolmogorov-Arnold networks for PDEs",
-      "url": "https://arxiv.org/abs/2606.20326",
-      "summary": "arXiv:2606.20326v1 Announce Type: cross Abstract: We develop QCPIKAN, the first quantum-classical physics-informed Kolmogorov-Arnold network designed to solve partial differential equations (PDEs). Built upon Chebyshev-p…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effective Faraday interaction between light and Helium-3 nuclear spins in a multi-pass cell",
-      "url": "https://arxiv.org/abs/2606.20328",
-      "summary": "arXiv:2606.20328v1 Announce Type: cross Abstract: Helium-3 nuclear spins form an exceptionally stable quantum system with extremely long coherence time, offering exciting opportunities for quantum technologies. In partic…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Constrained hybrid modelling to predict microbial dynamics and organic matter turnover in soil systems",
-      "url": "https://arxiv.org/abs/2606.20329",
-      "summary": "arXiv:2606.20329v1 Announce Type: cross Abstract: Soil microorganisms control organic matter cycling and largely determine how soil systems can cope with and mitigate climate change and environmental threats. Representin…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of alignment tensor effects in metastability-exchange collisions with highly polarized 3He ensembles",
-      "url": "https://arxiv.org/abs/2606.20330",
-      "summary": "arXiv:2606.20330v1 Announce Type: cross Abstract: Highly polarized 3He ensembles prepared by metastability-exchange optical pumping (MEOP) have been widely used in precision measurements and fundamental physics. Metastab…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polaronic hybridization of atoms, dimers and trimers in a Bose-Einstein condensate",
-      "url": "https://arxiv.org/abs/2606.20440",
-      "summary": "arXiv:2606.20440v1 Announce Type: cross Abstract: The Bose polaron problem of an impurity immersed in a Bose-Einstein condensate (BEC) has been predicted to feature strong correlations arising from bound states of multip…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Agentic Symbolic Search: Characterizing PDEs Beyond Hand-crafted Expressions, Meshes, and Neural Networks",
-      "url": "https://arxiv.org/abs/2606.20467",
-      "summary": "arXiv:2606.20467v1 Announce Type: cross Abstract: Mathematicians understand a PDE solution through mathematical structures rather than tables of computed values. Historically, this has been the product of mathematical an…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimal Order of Multi-Agent and General Many-Body Systems",
-      "url": "https://arxiv.org/abs/2606.20485",
-      "summary": "arXiv:2606.20485v1 Announce Type: cross Abstract: This paper develops a general framework for analyzing multi-agent systems with feedback loops between agents actions and collective observations. The framework is built o…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "West Nile virus outbreak in Italy modelled with the quantum Game of Life",
-      "url": "https://arxiv.org/abs/2606.20489",
-      "summary": "arXiv:2606.20489v1 Announce Type: cross Abstract: In the last years, an anomalously high spreading of West Nile virus (WNV) has been observed in Italy, with particularly high peaks of infections in southern Lazio, Campan…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Defect-Free Model of Amorphous Silicon with Pristine Electronic Structure",
-      "url": "https://arxiv.org/abs/2606.20500",
-      "summary": "arXiv:2606.20500v1 Announce Type: cross Abstract: Amorphous silicon (a-Si) is understood to be the canonical continuous random network material, ideally defined by fully fourfold coordination. Here, we show that a defect…",
       "ts": 1781841600000
     }
   ],

@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-06-19T07:10:28.896Z",
+  "updated": "2026-06-19T12:09:22.178Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Galileo signal updated for internet-of-things use",
+      "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/Galileo_signal_updated_for_internet-of-things_use",
+      "summary": "In April, Galileo marked a step forward with the deployment of a new signal component, known as E5a Quasi Pilot, on 12 satellites of Europe’s satellite navigation constellation. This upgrade makes Galileo signals easier …",
+      "ts": 1781877300000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NASA selects mission to study space weather interaction with Earth’s atmosphere",
+      "url": "https://spacenews.com/nasa-selects-mission-to-study-space-weather-interaction-with-earths-atmosphere/",
+      "summary": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
+      "ts": 1781870438000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "summary": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. T…",
+      "ts": 1781865624000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Chinese university-led mission to study asteroid Apophis during close encounter with Earth",
+      "url": "https://spacenews.com/chinese-university-led-mission-to-study-asteroid-apophis-during-close-encounter-with-earth/",
+      "summary": "A spacecraft developed by Tsinghua University is set to join international missions to study the asteroid Apophis during its close approach to Earth in 2029. The post Chinese university-led mission to study asteroid Apop…",
+      "ts": 1781865134000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Mu-g Technologies enters the parabolic flight business",
+      "url": "https://spacenews.com/mu-g-technologies-enters-the-parabolic-flight-business/",
+      "summary": "A startup has acquired an aircraft to offer commercial parabolic flight services even as NASA seeks to acquire its own aircraft for reduced-gravity research. The post Mu-g Technologies enters the parabolic flight busines…",
+      "ts": 1781865049000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The inevitable weakness of metrics",
+      "url": "https://www.technologyreview.com/2026/06/19/1138778/inevitable-weakness-metrics-quantified-life-book-review/",
+      "summary": "There are plenty of useful things a metric can reveal. There are even more it can obscure or corrupt. It took me well over a decade of tracking my own life in ever greater detail to fully appreciate this duality, which p…",
+      "ts": 1781859600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Brain-computer interface trials are taking off",
+      "url": "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
+      "summary": "This week, I covered the story of Casey Harrell—a man with ALS who is “the first power user” of a brain implant, according to the researchers who worked with him. Harrell is paralyzed and unable to speak coherently witho…",
+      "ts": 1781859600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Federal grant delays could jeopardize essential disability services, research",
+      "url": "https://www.statnews.com/2026/06/19/federal-grant-delays-jeopardize-essential-disability-services-research/?utm_campaign=rss",
+      "summary": "Disability researchers across the country worry about their jobs, and the future of their institutions, as a delay in issuing federal grants drags on.",
+      "ts": 1781857800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Tennessee pharmacies sell potent ivermectin, led by anti-vaccine doctor who’s taken ‘bucketloads’",
+      "url": "https://www.statnews.com/2026/06/19/tennessee-ivermectin-market-how-to-create-booming-sales-unproven-drug/?utm_campaign=rss",
+      "summary": "Tennessee pharmacies are selling potent versions of the antiparasitic drug ivermectin, led by an anti-vaccine doctor who’s taken \"bucketloads.\"",
+      "ts": 1781857800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: The real work for making dramatic gains against pancreatic cancer is just beginning",
+      "url": "https://www.statnews.com/2026/06/19/daraxonrasib-pancreatic-cancer-miracle-drug-oncosystems-ai/?utm_campaign=rss",
+      "summary": "The co-founders of Darwin Health write that the real work for making dramatic gains against pancreatic cancers is just beginning.",
+      "ts": 1781857800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Maternity deserts aren’t accidents. They’re the result of a design flaw",
+      "url": "https://www.statnews.com/2026/06/19/maternity-desert-physician-shortage-obstetrics-pregnancy-residency-south-dakota/?utm_campaign=rss",
+      "summary": "Shrinking fertility should mean less strain on doctors. But nearly half of U.S. counties lack a practicing obstetrician or gynecologist.",
+      "ts": 1781857800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space celebrates 1000 images",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_celebrates_1000_images",
+      "summary": "Image: ESA’s Earth from Space series reaches its 1000th image with a return to the vibrant waters of southern Florida, Cuba and the Bahamas – the same region featured in the very first edition in 2004.",
+      "ts": 1781856000000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Austrian propulsion startup joins sovereign space funding surge",
@@ -623,102 +719,6 @@
       "title": "Multi-network comparison of between-farm contacts for infectious disease surveillance in swine production",
       "url": "https://arxiv.org/abs/2606.18277",
       "summary": "arXiv:2606.18277v1 Announce Type: cross Abstract: Understanding how swine farms are interconnected, directly and indirectly, is essential to characterizing infectious disease transmission. This study aimed to describe th…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MOLAR: Learning Multimodal Molecular Representations from Noisy Labels",
-      "url": "https://arxiv.org/abs/2606.18390",
-      "summary": "arXiv:2606.18390v1 Announce Type: cross Abstract: Motivation: Noisy labels are a common challenge in molecular property prediction because molecular annotations are often obtained from assays, curated databases, or weak …",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Measurement noise limits the advantage of nonlinear models over linear models in biomedical prediction",
-      "url": "https://arxiv.org/abs/2606.18420",
-      "summary": "arXiv:2606.18420v1 Announce Type: cross Abstract: On biomedical tabular data, flexible models such as deep networks, gradient-boosted trees, and kernel methods are repeatedly matched or beaten by linear and logistic regr…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bayesian Sampling of Structural Ensembles: The Role of Ensemble-Counting Measures",
-      "url": "https://arxiv.org/abs/2606.18495",
-      "summary": "arXiv:2606.18495v1 Announce Type: cross Abstract: Structural ensemble refinement is widely used to integrate molecular simulations with experimental measurements. While most applications focus on the maximum-a-posteriori…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MetaboNet-Bench: A Multi-modal Benchmark for Glucose Forecasting in Type 1 Diabetes",
-      "url": "https://arxiv.org/abs/2606.18640",
-      "summary": "arXiv:2606.18640v1 Announce Type: cross Abstract: Glucose forecasting algorithms are an important aspect of glycemic control management in type 1 diabetes. So far, the research community has developed numerous algorithms…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "scGTN: Deep Siamese Graph Transformer Network for Single-cell RNA Sequencing Clustering",
-      "url": "https://arxiv.org/abs/2606.18672",
-      "summary": "arXiv:2606.18672v1 Announce Type: cross Abstract: Single-cell RNA sequencing (scRNA-seq) serves a pivotal role in characterizing gene expression at the cellular level, enabling the identification of cell types and advanc…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Contextualizing Biological Language Models across Modalities via Logit-Space Contrastive Alignment",
-      "url": "https://arxiv.org/abs/2606.18703",
-      "summary": "arXiv:2606.18703v1 Announce Type: cross Abstract: Pretrained biological language models expose per-token probability distributions through masked-token prediction, providing the likelihood interface central to sequence d…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "State- versus Reaction-Based Information Processing in Biochemical Networks",
-      "url": "https://arxiv.org/abs/2505.13373",
-      "summary": "arXiv:2505.13373v2 Announce Type: replace Abstract: Trajectory mutual information is frequently used to quantify information transfer in biochemical systems. Tractable solutions of the trajectory mutual information can b…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Assimilation of machine learning-predicted nitrate to improve the quality of phytoplankton forecasting in the shelf sea environment",
-      "url": "https://arxiv.org/abs/2508.02400",
-      "summary": "arXiv:2508.02400v2 Announce Type: replace Abstract: We demonstrate that assimilating Neural Network (NN)-predicted surface nitrate leads to a major improvement in phytoplankton short-range (1-5 day) dynamical model forec…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Estimating carbon pools in the European Shelf sea environment: replacing reanalysis by model-informed machine learning?",
-      "url": "https://arxiv.org/abs/2508.10178",
-      "summary": "arXiv:2508.10178v3 Announce Type: replace Abstract: Shelf seas are important for the economy and the carbon cycle, but shelf sea observations for carbon pools are often sparse, or highly uncertain. An alternative can be …",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DecNefSimulator: A Modular, Interpretable Framework for Decoded Neurofeedback Simulation Using Generative Models",
-      "url": "https://arxiv.org/abs/2511.14555",
-      "summary": "arXiv:2511.14555v4 Announce Type: replace Abstract: Decoded Neurofeedback (DecNef) is a promising non-invasive approach to brain modulation with wide-ranging applications in neuromedicine and cognitive neuroscience. Howe…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SciHorizon-GENE: Benchmarking LLM for Life Sciences Inference from Gene Knowledge to Functional Understanding",
-      "url": "https://arxiv.org/abs/2601.12805",
-      "summary": "arXiv:2601.12805v4 Announce Type: replace Abstract: Large language models (LLMs) have shown growing promise in biomedical research, particularly for knowledge-driven interpretation tasks. However, their ability to reliab…",
-      "ts": 1781755200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Poisoning the Genome: Targeted Backdoor Attacks on DNA Foundation Models",
-      "url": "https://arxiv.org/abs/2603.27465",
-      "summary": "arXiv:2603.27465v2 Announce Type: replace Abstract: Foundation models trained on DNA sequences have achieved strong performance across biological tasks including variant effect prediction and genome design. These models …",
       "ts": 1781755200000,
       "categoryId": "bio"
     }
