@@ -40,7 +40,7 @@ const civilizationStack = [
   },
   {
     title: "ArcheNova Builder",
-    href: "#",
+    href: "/builder/workspace",
     status: "COMING SOON",
     description:
       "Development infrastructure for transforming intelligence into operational systems and deployable products.",
