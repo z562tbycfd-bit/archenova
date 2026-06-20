@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-20T01:33:09.010Z",
+  "updated": "2026-06-20T02:13:28.851Z",
   "items": [
     {
       "source": "Phys.org",
@@ -8,6 +8,62 @@
       "url": "https://phys.org/news/2026-06-heatwave-people-france.html",
       "summary": "More than half of France's population was dealing with scorching temperatures on Friday, according to AFP's calculations, with hundreds of schools adapting their timetables to keep students out of broiling classrooms.",
       "ts": 1781916001000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Soluble CD95L triggers Caspase-10-driven reactive oxygen species production in neutrophils and aggravates anti-neutrophil cytoplasmic antibody-vasculitis",
+      "url": "https://www.nature.com/articles/s41467-026-74452-8",
+      "summary": "",
+      "ts": 1781913600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Modal contrast engineering in ultraviolet and visible metalenses enabled by material-selective hybridization",
+      "url": "https://www.nature.com/articles/s41467-026-74547-2",
+      "summary": "",
+      "ts": 1781913600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Practical and divergent electrochemical access to thiocarbamoyl fluorides and <i>N</i>-trifluoromethyl amines from secondary amines",
+      "url": "https://www.nature.com/articles/s41467-026-74660-2",
+      "summary": "",
+      "ts": 1781913600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Structure of the NAT10 acetyltransferase and mechanism of tRNA acetylation",
+      "url": "https://www.nature.com/articles/s41467-026-74222-6",
+      "summary": "",
+      "ts": 1781913600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "ATF4 coordinates amino acid and nucleotide synthesis with selective protein translation to ensure proper DNA replication timing in leukemia cells",
+      "url": "https://www.nature.com/articles/s41467-026-74324-1",
+      "summary": "",
+      "ts": 1781913600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Rapid warming in South America during the last deglaciation",
+      "url": "https://www.nature.com/articles/s41467-026-74093-x",
+      "summary": "",
+      "ts": 1781913600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Solvent-triggered reconfiguration of optical physical unclonable functions",
+      "url": "https://www.nature.com/articles/s41467-026-74463-5",
+      "summary": "",
+      "ts": 1781913600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Cobaloxime-catalysed regiodivergent hydrogen atom transfer for alkenyl and allylic carbamoylation with branched alkenes",
+      "url": "https://www.nature.com/articles/s41467-026-74595-8",
+      "summary": "",
+      "ts": 1781913600000
     },
     {
       "source": "Phys.org",
@@ -644,62 +700,6 @@
       "title": "Odd fluids from chiral cellular automata",
       "url": "https://arxiv.org/abs/2606.19431",
       "summary": "arXiv:2606.19431v1 Announce Type: cross Abstract: Cellular automata are discrete dynamical systems defined on a lattice, in which each site carries a finite set of states that evolve in time according to local determinis…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient classical representation and quantum state preparation of complete active space wavefunctions",
-      "url": "https://arxiv.org/abs/2606.19457",
-      "summary": "arXiv:2606.19457v1 Announce Type: cross Abstract: Quantum computers promise to solve the electronic structure problem for a large class of molecules. However, the performance of relevant quantum algorithms hinges on prep…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Moreau-Yosida-based Kohn-Sham Inversion for Periodic Systems",
-      "url": "https://arxiv.org/abs/2606.19471",
-      "summary": "arXiv:2606.19471v1 Announce Type: cross Abstract: Density-potential inversion for periodic systems within Moreau-Yosida-regularised density-functional theory is investigated, both theoretically and numerically. We develo…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reheating as a variational probe of cosmological observables",
-      "url": "https://arxiv.org/abs/2606.19513",
-      "summary": "arXiv:2606.19513v1 Announce Type: cross Abstract: We formulate reheating as a constrained variational problem in the space of equation-of-state histories, rather than attempting to describe it through microscopic models.…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Advances in Scientific Machine Learning for Coupled Fluid Flow and Transport",
-      "url": "https://arxiv.org/abs/2606.19562",
-      "summary": "arXiv:2606.19562v1 Announce Type: cross Abstract: This chapter reviews recent advances in Scientific Machine Learning (SciML) for modeling coupled fluid flow and transport phenomena governed by the incompressible Navier-…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electrical Noise Produced by Micron-Sized Particles above a Surface Paul Trap",
-      "url": "https://arxiv.org/abs/2606.19585",
-      "summary": "arXiv:2606.19585v1 Announce Type: cross Abstract: Electric field noise produced by the surface of ion trap electrodes reduces the fidelity of quantum computing operations. Despite decades of investigation its microscopic…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimized Quantum States for Sensing in the Presence of Loss and Phase Noise",
-      "url": "https://arxiv.org/abs/2606.19649",
-      "summary": "arXiv:2606.19649v1 Announce Type: cross Abstract: Squeezed vacuum lets gravitational-wave detectors and other quantum sensors surpass the standard quantum limit, and is optimal in the loss-limited regime; phase noise bre…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Dynamics from Lax Pair Theory: A Reconstruction from Spectrum Preservation",
-      "url": "https://arxiv.org/abs/2606.19664",
-      "summary": "arXiv:2606.19664v1 Announce Type: cross Abstract: We reconstruct unitary quantum dynamics from a minimal axiomatic foundation built on Hilbert-space observables and isospectral evolution. The only dynamical assumption is…",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design Considerations for Phase Modulation in Testable Photonic Systems and Co-packaged Optics",
-      "url": "https://arxiv.org/abs/2606.19674",
-      "summary": "arXiv:2606.19674v1 Announce Type: cross Abstract: As silicon photonic integrated circuits (PICs) scale in complexity, testing and calibration increasingly depend on effective phase modulation mechanisms. This work compar…",
       "ts": 1781841600000
     }
   ],

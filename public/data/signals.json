@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-20T01:33:16.778Z",
+  "updated": "2026-06-20T02:13:37.320Z",
   "items": [
     {
       "id": "civilization-engineering-heatwave-hits-more-than-one-in-two-people-in-france",
@@ -21,6 +21,166 @@
         "overall": 6.4
       },
       "ts": 1781916001000
+    },
+    {
+      "id": "civilization-engineering-soluble-cd95l-triggers-caspase-10-driven-reactive-oxygen-species-production-in-n",
+      "title": "Soluble CD95L triggers Caspase-10-driven reactive oxygen species production in neutrophils and aggravates anti-neutrophil cytoplasmic antibody-vasculitis",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-74452-8",
+      "category": "Civilization Engineering",
+      "observation": "Soluble CD95L triggers Caspase-10-driven reactive oxygen species production in neutrophils and aggravates anti-neutrophil cytoplasmic antibody-vasculitis",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Soluble CD95L triggers Caspase-10-driven reactive oxygen species production in neutrophils and aggravates anti-neutrophil cytoplasmic antibody-vasculitis should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781913600000
+    },
+    {
+      "id": "capability-expansion-modal-contrast-engineering-in-ultraviolet-and-visible-metalenses-enabled-by-mate",
+      "title": "Modal contrast engineering in ultraviolet and visible metalenses enabled by material-selective hybridization",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-74547-2",
+      "category": "Capability Expansion",
+      "observation": "Modal contrast engineering in ultraviolet and visible metalenses enabled by material-selective hybridization",
+      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "commentary": "Modal contrast engineering in ultraviolet and visible metalenses enabled by material-selective hybridization should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 7.9,
+        "infrastructureImpact": 6.3,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 5.5,
+        "overall": 6.1
+      },
+      "ts": 1781913600000
+    },
+    {
+      "id": "civilization-engineering-practical-and-divergent-electrochemical-access-to-thiocarbamoyl-fluorides-and-i-",
+      "title": "Practical and divergent electrochemical access to thiocarbamoyl fluorides and <i>N</i>-trifluoromethyl amines from secondary amines",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-74660-2",
+      "category": "Civilization Engineering",
+      "observation": "Practical and divergent electrochemical access to thiocarbamoyl fluorides and <i>N</i>-trifluoromethyl amines from secondary amines",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Practical and divergent electrochemical access to thiocarbamoyl fluorides and <i>N</i>-trifluoromethyl amines from secondary amines should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781913600000
+    },
+    {
+      "id": "civilization-engineering-structure-of-the-nat10-acetyltransferase-and-mechanism-of-trna-acetylation",
+      "title": "Structure of the NAT10 acetyltransferase and mechanism of tRNA acetylation",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-74222-6",
+      "category": "Civilization Engineering",
+      "observation": "Structure of the NAT10 acetyltransferase and mechanism of tRNA acetylation",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Structure of the NAT10 acetyltransferase and mechanism of tRNA acetylation should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781913600000
+    },
+    {
+      "id": "adaptive-capacity-atf4-coordinates-amino-acid-and-nucleotide-synthesis-with-selective-protein-tran",
+      "title": "ATF4 coordinates amino acid and nucleotide synthesis with selective protein translation to ensure proper DNA replication timing in leukemia cells",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-74324-1",
+      "category": "Adaptive Capacity",
+      "observation": "ATF4 coordinates amino acid and nucleotide synthesis with selective protein translation to ensure proper DNA replication timing in leukemia cells",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "ATF4 coordinates amino acid and nucleotide synthesis with selective protein translation to ensure proper DNA replication timing in leukemia cells should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "ts": 1781913600000
+    },
+    {
+      "id": "civilization-engineering-rapid-warming-in-south-america-during-the-last-deglaciation",
+      "title": "Rapid warming in South America during the last deglaciation",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-74093-x",
+      "category": "Civilization Engineering",
+      "observation": "Rapid warming in South America during the last deglaciation",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Rapid warming in South America during the last deglaciation should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781913600000
+    },
+    {
+      "id": "civilization-engineering-solvent-triggered-reconfiguration-of-optical-physical-unclonable-functions",
+      "title": "Solvent-triggered reconfiguration of optical physical unclonable functions",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-74463-5",
+      "category": "Civilization Engineering",
+      "observation": "Solvent-triggered reconfiguration of optical physical unclonable functions",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Solvent-triggered reconfiguration of optical physical unclonable functions should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "ts": 1781913600000
+    },
+    {
+      "id": "capability-expansion-cobaloxime-catalysed-regiodivergent-hydrogen-atom-transfer-for-alkenyl-and-allyl",
+      "title": "Cobaloxime-catalysed regiodivergent hydrogen atom transfer for alkenyl and allylic carbamoylation with branched alkenes",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-74595-8",
+      "category": "Capability Expansion",
+      "observation": "Cobaloxime-catalysed regiodivergent hydrogen atom transfer for alkenyl and allylic carbamoylation with branched alkenes",
+      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "commentary": "Cobaloxime-catalysed regiodivergent hydrogen atom transfer for alkenyl and allylic carbamoylation with branched alkenes should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 8.7,
+        "infrastructureImpact": 6.8,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 5.5,
+        "civilizationImpact": 5.5,
+        "overall": 6.3
+      },
+      "ts": 1781913600000
     },
     {
       "id": "capability-expansion-burning-forest-waste-to-make-cement-damages-the-climate-let-s-pursue-cleaner-opt",
@@ -1841,166 +2001,6 @@
         "overall": 6.1
       },
       "ts": 1781830258000
-    },
-    {
-      "id": "civilization-engineering-stat-cms-recalculates-medicare-advantage-star-ratings-again-adding-more-volatili",
-      "title": "STAT+: CMS recalculates Medicare Advantage star ratings again, adding more volatility to program",
-      "source": "STAT",
-      "originalUrl": "https://www.statnews.com/2026/06/18/medicare-advantage-star-ratings-recalculated-volatility-industry-lawsuits/?utm_campaign=rss",
-      "category": "Civilization Engineering",
-      "observation": "Medicare Advantage plans that receive four out of five stars or better get bonus payments, which have ballooned to $16 billion this year.",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "STAT+: CMS recalculates Medicare Advantage star ratings again, adding more volatility to program should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "ts": 1781821513000
-    },
-    {
-      "id": "reality-discovery-nasa-mission-to-study-space-weather-impacts-of-earth-s-atmosphere",
-      "title": "NASA Mission to Study Space Weather Impacts of Earth’s Atmosphere",
-      "source": "NASA",
-      "originalUrl": "https://www.nasa.gov/news-release/nasa-mission-to-study-space-weather-impacts-of-earths-atmosphere/",
-      "category": "Reality Discovery",
-      "observation": "NASA selected a mission concept to research how space weather and dynamics within Earth’s atmosphere influence the space environment and help improve prediction capabilities for impacts on crucial technology, such as GPS…",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "NASA Mission to Study Space Weather Impacts of Earth’s Atmosphere should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 7.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 6.4,
-        "civilizationImpact": 6.7,
-        "overall": 6.3
-      },
-      "ts": 1781818387000
-    },
-    {
-      "id": "civilization-engineering-stat-fda-advisory-panel-endorses-moderna-mrna-flu-vaccine-that-was-subject-of-co",
-      "title": "STAT+: FDA advisory panel endorses Moderna mRNA flu vaccine that was subject of controversy",
-      "source": "STAT",
-      "originalUrl": "https://www.statnews.com/2026/06/18/fda-mrna-flu-vaccine-vrbpac-advisers-endorse-moderna-shots/?utm_campaign=rss",
-      "category": "Civilization Engineering",
-      "observation": "A panel of advisers to FDA gave its endorsement to a seasonal mRNA flu vaccine that was developed by Moderna and that earlier this year became the subject of controversy.",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "STAT+: FDA advisory panel endorses Moderna mRNA flu vaccine that was subject of controversy should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "ts": 1781814385000
-    },
-    {
-      "id": "infrastructure-formation-nasa-awards-contract-for-commercial-satellite-data-acquisition",
-      "title": "NASA Awards Contract for Commercial Satellite Data Acquisition",
-      "source": "NASA",
-      "originalUrl": "https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition/",
-      "category": "Infrastructure Formation",
-      "observation": "NASA has selected eight new companies and will acquire new data products from six existing Commercial Satellite Data Acquisition contract holders to expand the range of commercial satellite data available to researchers,…",
-      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "commentary": "NASA Awards Contract for Commercial Satellite Data Acquisition should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 6,
-        "infrastructureImpact": 9.2,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.8,
-        "overall": 6.6
-      },
-      "ts": 1781813621000
-    },
-    {
-      "id": "capability-expansion-how-ferc-s-large-load-interconnection-actions-help-address-grid-stress-improve-a",
-      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
-      "source": "NVIDIA",
-      "originalUrl": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
-      "category": "Capability Expansion",
-      "observation": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabri…",
-      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "commentary": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 8.7,
-        "infrastructureImpact": 7.6,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 5.5,
-        "overall": 6.5
-      },
-      "ts": 1781812827000
-    },
-    {
-      "id": "infrastructure-formation-stat-eli-lilly-ends-340b-drug-discounts-to-some-hospitals-for-failing-to-provide",
-      "title": "STAT+: Eli Lilly ends 340B drug discounts to some hospitals for failing to provide claims data",
-      "source": "STAT",
-      "originalUrl": "https://www.statnews.com/pharmalot/2026/06/18/eli-lilly-340b-hospitals-drug-discount-price-breaks-eliminated/?utm_campaign=rss",
-      "category": "Infrastructure Formation",
-      "observation": "Making good on its threat, Eli Lilly has begun eliminating mandated price breaks to a few dozen hospitals that participate in a federal drug discount program.",
-      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "commentary": "STAT+: Eli Lilly ends 340B drug discounts to some hospitals for failing to provide claims data should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 8.7,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.5,
-        "overall": 6.3
-      },
-      "ts": 1781812586000
-    },
-    {
-      "id": "infrastructure-formation-eqt-to-acquire-exolaunch",
-      "title": "EQT to acquire Exolaunch",
-      "source": "SpaceNews",
-      "originalUrl": "https://spacenews.com/eqt-to-acquire-exolaunch/",
-      "category": "Infrastructure Formation",
-      "observation": "Private equity firm EQT is acquiring Exolaunch, a company that has handled the rideshare launches of hundreds of satellites, to help it meet growing launch demand. The post EQT to acquire Exolaunch appeared first on Spac…",
-      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "commentary": "EQT to acquire Exolaunch should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 8.7,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.8,
-        "overall": 6.4
-      },
-      "ts": 1781811925000
-    },
-    {
-      "id": "adaptive-capacity-new-hope-in-treating-huntington-s-disease-and-a-report-card-on-rfk-jr-s-promises",
-      "title": "New hope in treating Huntington’s disease and a report card on RFK Jr.’s promises",
-      "source": "STAT",
-      "originalUrl": "https://www.statnews.com/2026/06/18/huntingtons-disease-uniqure-rfk-jr-readout-loud-podcast/?utm_campaign=rss",
-      "category": "Adaptive Capacity",
-      "observation": "This week on \"The Readout LOUD\" podcast: new hope in treating Huntington's disease and a report card on RFK Jr.'s promises. Listen now.",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "New hope in treating Huntington’s disease and a report card on RFK Jr.’s promises should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 7.2,
-        "overall": 6.4
-      },
-      "ts": 1781811654000
     }
   ]
 }

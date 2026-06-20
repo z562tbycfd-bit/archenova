@@ -725,10 +725,12 @@ function writeArcheNovaSignals(scienceItems, technologyItems) {
 }
 
 function writeGeneratedResearchReports(scienceItems, technologyItems) {
-  const reports = [...scienceItems, ...technologyItems]
+  const rawItems = [...scienceItems, ...technologyItems]
+    .filter((item) => item.title && item.url)
     .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-    .slice(0, 100)
-    .map(makeReport);
+    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i);
+
+  const reports = applySourceQuota(rawItems, 100).map(makeReport);
 
   function pickTopByCategory(reports, categories, perCategory = 1) {
     const picked = [];
