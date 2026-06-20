@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-20T16:21:49.889Z",
+  "updated": "2026-06-20T16:46:50.285Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How much clothing is too much? The math behind having a sustainable wardrobe",
+      "url": "https://phys.org/news/2026-06-math-sustainable-wardrobe.html",
+      "summary": "Most people suspect they own too many clothes, but they aren't sure exactly what the \"right amount\" is. Recent wardrobe studies, in which researchers literally peek inside people's closets, show the scale of the problem …",
+      "ts": 1781973002000
+    },
     {
       "source": "Phys.org",
       "title": "Faster aptamer screening finds synthetic alternatives to antibodies in days instead of months",
@@ -693,13 +700,6 @@
       "title": "Computational Identifiability",
       "url": "https://arxiv.org/abs/2606.19361",
       "summary": "arXiv:2606.19361v1 Announce Type: cross Abstract: Identification conditions describe the computability of a target query or parameter of interest as a function of the type and amount of information available. In causal i…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Information Lattice Learning as Probabilistic Graphical Model Structure Learning",
-      "url": "https://arxiv.org/abs/2606.19366",
-      "summary": "arXiv:2606.19366v1 Announce Type: cross Abstract: Information lattice learning (ILL) learns interpretable rules of a signal by alternately projecting the signal onto a partition lattice that encodes a hierarchy of abstra…",
       "ts": 1781928000000
     }
   ],
