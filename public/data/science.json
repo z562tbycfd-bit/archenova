@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-20T14:40:47.247Z",
+  "updated": "2026-06-20T16:21:49.889Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Faster aptamer screening finds synthetic alternatives to antibodies in days instead of months",
+      "url": "https://phys.org/news/2026-06-faster-aptamer-screening-synthetic-alternatives.html",
+      "summary": "Aptamers are short DNA or RNA strands that can recognize and bind to a specific target molecule with high precision. Similar to antibodies, they can be used to detect these molecules or modulate their activity. Unlike an…",
+      "ts": 1781971201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pumice rafts encroach on Admiralty Islands",
+      "url": "https://phys.org/news/2026-06-pumice-rafts-encroach-admiralty-islands.html",
+      "summary": "On May 8, 2026, satellites detected signs of an unexpected submarine volcanic eruption in the Bismarck Sea near the islands of Papua New Guinea. Over the next several weeks, plumes of steam and ash streamed over the sea,…",
+      "ts": 1781969402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Antarctica is offering 30 to 50 years' worth of warning on sea level rise, models suggest",
+      "url": "https://phys.org/news/2026-06-antarctica-years-worth-sea.html",
+      "summary": "Scientists predict that the next three to five decades provide a critical window to anticipate and plan for Antarctic ice loss and its contribution to sea level rise. Research published in Nature, led by Monash Universit…",
+      "ts": 1781967601000
+    },
     {
       "source": "Phys.org",
       "title": "Australian farmers are desperate to escape the latest mouse plague—and may soon get relief",
@@ -679,27 +700,6 @@
       "title": "Information Lattice Learning as Probabilistic Graphical Model Structure Learning",
       "url": "https://arxiv.org/abs/2606.19366",
       "summary": "arXiv:2606.19366v1 Announce Type: cross Abstract: Information lattice learning (ILL) learns interpretable rules of a signal by alternately projecting the signal onto a partition lattice that encodes a hierarchy of abstra…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Zero-Inflated Gaussian Distributions Enable Parameter-Space Sparsity in Estimation-of-Distribution Algorithms",
-      "url": "https://arxiv.org/abs/2606.19369",
-      "summary": "arXiv:2606.19369v1 Announce Type: cross Abstract: Estimation-of-distribution algorithms (EDAs) are a powerful class of evolutionary methods for black-box optimization, especially when little is known about the structure …",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Human-like autonomy emerges from self-play and a pinch of human data",
-      "url": "https://arxiv.org/abs/2606.19370",
-      "summary": "arXiv:2606.19370v1 Announce Type: cross Abstract: Self-play reinforcement learning has recently emerged as a way to train driving policies without any human data. It uses cheap, large-scale simulations to substitute expe…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ProMUSE: Progressive Multi-modal Uncertainty-guided Staged Evidential Alzheimer Disease Classification",
-      "url": "https://arxiv.org/abs/2606.19371",
-      "summary": "arXiv:2606.19371v1 Announce Type: cross Abstract: Alzheimer's disease (AD) is a fatal disorder that destroys memory and cognitive skills in the elderly population. Most treatments for AD are effective in the early stage,…",
       "ts": 1781928000000
     }
   ],

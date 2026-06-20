@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-20T14:40:50.734Z",
+  "updated": "2026-06-20T16:21:52.522Z",
   "items": [
     {
       "source": "STAT",
@@ -113,6 +113,14 @@
       "summary": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
       "ts": 1781870438000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "For one young refugee in Uganda, basketball is more than a game",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167743",
+      "summary": "When 19-year-old Stephane Kulimushi looks around the basketball court in Kampala where he trains young refugees, he sees more than players.",
+      "ts": 1781870400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -713,14 +721,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The search for dark matter has been blown wide open For decades, physicists have h…",
       "ts": 1781784600000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Swift reboost mission ready for launch",
-      "url": "https://spacenews.com/swift-reboost-mission-ready-for-launch/",
-      "summary": "A high-risk mission to raise the orbit of a NASA astrophysics spacecraft is set to launch later this month after less than a year of development. The post Swift reboost mission ready for launch appeared first on SpaceNew…",
-      "ts": 1781784277000,
-      "categoryId": "space"
     }
   ],
   "categories": [
