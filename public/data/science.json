@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-20T13:20:41.294Z",
+  "updated": "2026-06-20T13:34:17.073Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Landback returns of Indigenous lands happening across country, can lead public planning",
+      "url": "https://phys.org/news/2026-06-landback-indigenous-country.html",
+      "summary": "Land acknowledgments, or statements in which planners, residents or organizations recognize that the land they exist and operate on originally belonged to Indigenous nations, have become increasingly common in recent yea…",
+      "ts": 1781962204000
+    },
     {
       "source": "Phys.org",
       "title": "AI-designed protein unlocks virus-like shells that could reshape vaccine and drug delivery",
@@ -693,13 +700,6 @@
       "title": "Protein Representation Learning with Secondary-Structure and Energy-Filtered Hydrogen-Bond Graphs",
       "url": "https://arxiv.org/abs/2606.19374",
       "summary": "arXiv:2606.19374v1 Announce Type: cross Abstract: Graph-based representations are widely used in protein modeling, yet many existing approaches rely primarily on sequence adjacency or geometric proximity, which only part…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Cost-Optimal LLM Routing with Limited User Feedback under User Satisfaction Guarantees",
-      "url": "https://arxiv.org/abs/2606.19376",
-      "summary": "arXiv:2606.19376v1 Announce Type: cross Abstract: Inference costs for large language model (LLM) applications are rapidly growing, driven by surging demand and rising infrastructure cost. Users expect high-quality respon…",
       "ts": 1781928000000
     }
   ],

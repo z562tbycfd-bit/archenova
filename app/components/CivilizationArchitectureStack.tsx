@@ -10,7 +10,6 @@ const civilizationStack = [
     description:
       "Scientific and technological signal analysis, reports, roadmaps, horizons, and civilization-scale assessment.",
   },
-
   {
     title: "ArcheNova Intelligence Platform",
     href: "/intelligence-platform",
@@ -18,7 +17,6 @@ const civilizationStack = [
     description:
       "Signals, reports, dashboards, horizon intelligence, and civilization-scale decision support.",
   },
-
   {
     title: "ArcheNova Institute",
     href: "/institute",
@@ -26,7 +24,6 @@ const civilizationStack = [
     description:
       "Civilization studies, publications, papers, research programs, and institutional knowledge formation.",
   },
-
   {
     title: "ArcheNova Capital",
     href: "/capital",
@@ -34,7 +31,6 @@ const civilizationStack = [
     description:
       "Capital formation for future infrastructure, Physical AI, energy, space, and deep technology.",
   },
-
   {
     title: "Episteme Systems",
     href: "/episteme",
@@ -42,7 +38,6 @@ const civilizationStack = [
     description:
       "The intelligence core of ArcheNova. Observation, reasoning, synthesis, and civilization-scale learning.",
   },
-
   {
     title: "ArcheNova Builder",
     href: "#",
@@ -50,7 +45,6 @@ const civilizationStack = [
     description:
       "Development infrastructure for transforming intelligence into operational systems and deployable products.",
   },
-
   {
     title: "ArcheNova Creative Systems",
     href: "#",
@@ -58,7 +52,6 @@ const civilizationStack = [
     description:
       "Civilization visualization, simulation, media generation, and future-world design.",
   },
-
   {
     title: "ArcheNova Physical AI Systems",
     href: "#",
@@ -66,7 +59,6 @@ const civilizationStack = [
     description:
       "Robotics, manufacturing, automation, industrial infrastructure, and embodied intelligence.",
   },
-
   {
     title: "ArcheNova Civilization Factory",
     href: "#",
@@ -86,6 +78,8 @@ export default function CivilizationArchitectureStack() {
             href={item.href}
             className="civilization-stack-card"
           >
+            <div className="civilization-stack-glow" />
+
             <div className="civilization-stack-number">
               {String(index + 1).padStart(2, "0")}
             </div>
@@ -99,9 +93,7 @@ export default function CivilizationArchitectureStack() {
             <p>{item.description}</p>
 
             <div className="plaza-hint">
-              {item.status === "COMING SOON"
-                ? "Future Layer →"
-                : "Open →"}
+              {item.status === "COMING SOON" ? "Future Layer →" : "Open →"}
             </div>
           </Link>
         ))}

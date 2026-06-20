@@ -1,7 +1,32 @@
 {
   "ok": true,
-  "updated": "2026-06-20T13:20:48.425Z",
+  "updated": "2026-06-20T13:34:21.791Z",
   "items": [
+    {
+      "id": "civilization-engineering-landback-returns-of-indigenous-lands-happening-across-country-can-lead-public-pl",
+      "title": "Landback returns of Indigenous lands happening across country, can lead public planning",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-landback-indigenous-country.html",
+      "category": "Civilization Engineering",
+      "observation": "Land acknowledgments, or statements in which planners, residents or organizations recognize that the land they exist and operate on originally belonged to Indigenous nations, have become increasingly common in recent yea…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Landback returns of Indigenous lands happening across country, can lead public planning should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1781962204000
+    },
     {
       "id": "civilization-engineering-ai-designed-protein-unlocks-virus-like-shells-that-could-reshape-vaccine-and-dru",
       "title": "AI-designed protein unlocks virus-like shells that could reshape vaccine and drug delivery",
@@ -2476,31 +2501,6 @@
       "civilizationFunction": "Civilization Engineering",
       "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
       "ts": 1781800200000
-    },
-    {
-      "id": "adaptive-capacity-idbs-and-alchemi-agree-to-accelerate-ai-driven-biopharma-regulatory-filings",
-      "title": "IDBS and Alchemi Agree to Accelerate AI-Driven Biopharma Regulatory Filings",
-      "source": "Genetic Engineering News",
-      "originalUrl": "https://www.genengnews.com/topics/translational-medicine/idbs-and-alchemi-agree-to-accelerate-ai-driven-biopharma-regulatory-filings/",
-      "category": "Adaptive Capacity",
-      "observation": "IDBS and Alchemi partnered to connect AI agents with data in the IDBS Polar platform, creating a governed data foundation that enables reliable, compliant agentic AI use throughout drug development. The post IDBS and Alc…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "IDBS and Alchemi Agree to Accelerate AI-Driven Biopharma Regulatory Filings should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 6,
-        "infrastructureImpact": 6,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8,
-        "civilizationImpact": 6.5,
-        "overall": 6.2
-      },
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Adaptive Capacity",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1781799486000
     }
   ]
 }
