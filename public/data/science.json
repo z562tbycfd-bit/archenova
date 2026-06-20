@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-19T22:06:15.502Z",
+  "updated": "2026-06-20T00:11:50.439Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Burning forest 'waste' to make cement damages the climate. Let's pursue cleaner options",
+      "url": "https://phys.org/news/2026-06-forest-cement-climate-pursue-cleaner.html",
+      "summary": "The Australian government has agreed to invest almost $53 million in a north Tasmanian company that will upgrade its coal-fired kiln to burn wood \"waste\" and used tires for cement manufacturing.",
+      "ts": 1781910001000
+    },
     {
       "source": "Phys.org",
       "title": "From birds to fish, how extreme heat causes wildlife to suffer",
@@ -693,13 +700,6 @@
       "title": "Efficient and Accurate Image Reconstruction for Geometric-Inconsistent Multispectral CT with Ray-Dependent Energy Spectra",
       "url": "https://arxiv.org/abs/2606.20395",
       "summary": "arXiv:2606.20395v1 Announce Type: new Abstract: In practical multispectral computed tomography (MSCT), the scanning geometric parameters under different X-ray energy spectra are often inconsistent, and the distributions …",
-      "ts": 1781841600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma Etch Process Optimization for Photonic-Grade Diamond-on-Insulator Substrates and Thickness Evaluation using Colorimetry",
-      "url": "https://arxiv.org/abs/2606.20412",
-      "summary": "arXiv:2606.20412v1 Announce Type: new Abstract: Diamond color-center qubits integrated with photonic circuits can be initialized, manipulated, entangled, and read individually with high fidelity, making them attractive f…",
       "ts": 1781841600000
     }
   ],

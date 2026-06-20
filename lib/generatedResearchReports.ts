@@ -1,6 +1,44 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "general-burning-forest-waste-to-make-cement-damages-the-climate-let-s-pursue-cleaner-opt",
+    "title": "Burning forest 'waste' to make cement damages the climate. Let's pursue cleaner options",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-forest-cement-climate-pursue-cleaner.html",
+    "summary": "The Australian government has agreed to invest almost $53 million in a north Tasmanian company that will upgrade its coal-fired kiln to burn wood \"waste\" and used tires for cement manufacturing.",
+    "scientificSignal": "The Australian government has agreed to invest almost $53 million in a north Tasmanian company that will upgrade its coal-fired kiln to burn wood \"waste\" and used tires for cement manufacturing.",
+    "implementationPotential": "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
+    "infrastructureImpact": "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
+    "technologyRoadmap": [
+      "Scientific process discovery",
+      "Prototype manufacturing method",
+      "Automation and quality control",
+      "Industrial production integration",
+      "Resilient manufacturing infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Pilot deployment and industrial validation.",
+      "mid": "5–15 Years: Broad manufacturing integration and automation.",
+      "far": "15–30 Years: Self-optimizing industrial ecosystems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.2,
+      "engineering": 9.4,
+      "economic": 9,
+      "civilization": 8.8,
+      "overall": 8.8,
+      "classification": "Industrial Capability Signal"
+    },
+    "ts": 1781910001000
+  },
+  {
     "slug": "general-from-birds-to-fish-how-extreme-heat-causes-wildlife-to-suffer",
     "title": "From birds to fish, how extreme heat causes wildlife to suffer",
     "category": "General",
@@ -3732,44 +3770,6 @@ export const generatedResearchReports =
     "originalUrl": "https://arxiv.org/abs/2606.19923",
     "summary": "arXiv:2606.19923v1 Announce Type: new Abstract: Phosphatidylcholine liposomes fill a special niche in alleviating osteoarthritis via intra-articular (IA) administration, attributed to their superlubricity at the articula…",
     "scientificSignal": "arXiv:2606.19923v1 Announce Type: new Abstract: Phosphatidylcholine liposomes fill a special niche in alleviating osteoarthritis via intra-articular (IA) administration, attributed to their superlubricity at the articula…",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.8,
-      "engineering": 7.8,
-      "economic": 7.3,
-      "civilization": 8.1,
-      "overall": 7.8,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1781841600000
-  },
-  {
-    "slug": "general-a-3d-passive-ring-gyroscope-for-seismology",
-    "title": "A 3D passive ring gyroscope for seismology",
-    "category": "General",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2606.19976",
-    "summary": "arXiv:2606.19976v1 Announce Type: new Abstract: In seismology and related fields, the measurement of rotation in all three spatial dimensions is essential to complement the observation of translations. Access to all six …",
-    "scientificSignal": "arXiv:2606.19976v1 Announce Type: new Abstract: In seismology and related fields, the measurement of rotation in all three spatial dimensions is essential to complement the observation of translations. Access to all six …",
     "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
     "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",

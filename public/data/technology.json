@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-19T22:06:19.004Z",
+  "updated": "2026-06-20T00:11:53.357Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -179,6 +179,14 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "Tropical Storm Arthur",
+      "url": "https://science.nasa.gov/earth/earth-observatory/tropical-storm-arthur/",
+      "summary": "The first named storm of the 2026 Atlantic hurricane season brought intense rainfall and the threat of flash flooding to the U.S. Gulf Coast.",
+      "ts": 1781841600000,
+      "categoryId": "space"
+    },
+    {
       "source": "arXiv q-bio",
       "title": "BioHarness: Substrate-Aware Evidence Assembly for Biomedical Question Answering across Literature, Knowledge Bases, and Biological Atlases",
       "url": "https://arxiv.org/abs/2606.19396",
@@ -313,14 +321,6 @@
       "summary": "arXiv:2510.18589v2 Announce Type: replace-cross Abstract: Human bone marrow stromal cells (BMSC) include skeletal stem cells with ground-breaking therapeutic potential. However, BMSC colonies have very heterogeneous in v…",
       "ts": 1781841600000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Tropical Storm Arthur",
-      "url": "https://science.nasa.gov/earth/earth-observatory/tropical-storm-arthur/",
-      "summary": "The first named storm of the 2026 Atlantic hurricane season brought intense rainfall and the threat of flash flooding to the U.S. Gulf Coast.",
-      "ts": 1781841600000,
-      "categoryId": "space"
     },
     {
       "source": "NASA",
