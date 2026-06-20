@@ -518,6 +518,71 @@ function makeArcheNovaAssessment(item) {
   };
 }
 
+function makeQualityFields(item) {
+ const useCase = detectUseCase(item);
+ const category = detectArcheNovaSignalCategory(item);
+
+ const whyMap = {
+   manufacturing:
+     "This matters because it may improve civilization’s ability to convert knowledge into reproducible material capability.",
+   healthcare:
+     "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+   energy:
+     "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+   space:
+     "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+   compute:
+     "This matters because computation increases prediction, coordination, automation, and strategic intelligence.",
+   environment:
+     "This matters because environmental adaptation strengthens civilization under planetary uncertainty.",
+   general:
+     "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+ };
+
+ const strategicMap = {
+   manufacturing:
+     "Strategically relevant for industrial capability, supply-chain resilience, automation, and infrastructure formation.",
+   healthcare:
+     "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+   energy:
+     "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+   space:
+     "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+   compute:
+     "Strategically relevant for AI infrastructure, chips, data centers, simulation, automation, and decision systems.",
+   environment:
+     "Strategically relevant for climate resilience, environmental monitoring, resource systems, and adaptive governance.",
+   general:
+     "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+ };
+
+ const capitalMap = {
+   manufacturing:
+     "Capital implication: monitor for commercialization pathways in robotics, manufacturing systems, materials, and industrial automation.",
+   healthcare:
+     "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+   energy:
+     "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+   space:
+     "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+   compute:
+     "Capital implication: monitor for opportunities in AI infrastructure, semiconductors, cloud platforms, and computational systems.",
+   environment:
+     "Capital implication: monitor for opportunities in resilience infrastructure, climate adaptation, monitoring, and resource systems.",
+   general:
+     "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+ };
+
+ return {
+   whyItMatters: whyMap[useCase] || whyMap.general,
+   strategicRelevance: strategicMap[useCase] || strategicMap.general,
+   capitalImplication: capitalMap[useCase] || capitalMap.general,
+   civilizationFunction: category,
+   watchpoint:
+     "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+ };
+}
+
 function makeReport(item) {
   const category = classify(item);
 
@@ -536,6 +601,7 @@ function makeReport(item) {
     strategicHorizon: makeStrategicHorizon(item, category),
     assessment: makeAssessment(item, category),
     archeNovaAssessment: makeArcheNovaAssessment(item, category),
+    ...makeQualityFields(item),
     ts: item.ts || 0,
   };
 }
@@ -680,6 +746,7 @@ function makeArcheNovaSignal(item, index) {
   };
 
   const score = makeSignalScore(item, category);
+  const quality = makeQualityFields(item);
 
   return {
     id: `${slugify(category)}-${slugify(item.title || String(index))}`,
@@ -694,6 +761,11 @@ function makeArcheNovaSignal(item, index) {
       `From the ArcheNova perspective, it is a ${category} signal: ` +
       `${implications[category]}`,
     score,
+    whyItMatters: quality.whyItMatters,
+    strategicRelevance: quality.strategicRelevance,
+    capitalImplication: quality.capitalImplication,
+    civilizationFunction: quality.civilizationFunction,
+    watchpoint: quality.watchpoint,
     ts: item.ts || 0,
   };
 }
