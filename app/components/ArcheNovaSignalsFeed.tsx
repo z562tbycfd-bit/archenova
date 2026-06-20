@@ -138,68 +138,65 @@ export default function ArcheNovaSignalsFeed({
         <span className="home-card-meta">Updated: {updated}</span>
       </div>
 
-      <div className="signal-filter-bar">
-        {civilizationFunctions.map((item) => (
-          <button
-            key={item}
-            type="button"
-            className={`signal-filter ${
-              category === item ? "active" : ""
-            }`}
-            onClick={() => setCategory(item)}
-          >
-            {item === "all" ? "All" : item}
-          </button>
-        ))}
-      </div>
-
       <div className="signal-sort-bar">
-        <label className="home-card-meta">Source</label>
+  <label className="home-card-meta">
+    Civilization Function
+  </label>
 
-        <select
-          value={source}
-          onChange={(event) => setSource(event.target.value)}
-          className="signal-sort"
-        >
-          {sources.map((item) => (
-            <option key={item} value={item}>
-              {item === "all" ? "All Sources" : item}
-            </option>
-          ))}
-        </select>
-      </div>
+  <select
+    value={category}
+    onChange={(e) => setCategory(e.target.value)}
+    className="signal-sort"
+  >
+    {civilizationFunctions.map((item) => (
+      <option key={item} value={item}>
+        {item === "all" ? "All" : item}
+      </option>
+    ))}
+  </select>
+</div>
 
-      <div className="signal-sort-bar">
-        <button
-          type="button"
-          className={`signal-sort ${
-            sortMode === "latest" ? "active" : ""
-          }`}
-          onClick={() => setSortMode("latest")}
-        >
-          Latest
-        </button>
+<div className="signal-sort-bar">
+  <label className="home-card-meta">
+    Source
+  </label>
 
-        <button
-          type="button"
-          className={`signal-sort ${
-            sortMode === "important" ? "active" : ""
-          }`}
-          onClick={() => setSortMode("important")}
-        >
-          Most Important
-        </button>
+  <select
+    value={source}
+    onChange={(e) => setSource(e.target.value)}
+    className="signal-sort"
+  >
+    {sources.map((item) => (
+      <option key={item} value={item}>
+        {item === "all" ? "All Sources" : item}
+      </option>
+    ))}
+  </select>
+</div>
 
-        <button
-          type="button"
-          className={`signal-sort ${
-            sortMode === "transformative" ? "active" : ""
-          }`}
-          onClick={() => setSortMode("transformative")}
-        >
-          Most Transformative
-        </button>
-      </div>
+<div className="signal-sort-bar">
+  <label className="home-card-meta">
+    Ranking
+  </label>
+
+  <select
+    value={sortMode}
+    onChange={(e) => setSortMode(e.target.value)}
+    className="signal-sort"
+  >
+    <option value="latest">
+      Latest
+    </option>
+
+    <option value="important">
+      Most Important
+    </option>
+
+    <option value="transformative">
+      Most Transformative
+    </option>
+  </select>
+</div>
 
       <div className="feed-list">
         {visibleItems.length ? (
