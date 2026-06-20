@@ -5,6 +5,7 @@ import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import { archeNovaTopSignals } from "../../lib/generatedResearchReports";
 import ArcheNovaDiscoverySlider from "../components/ArcheNovaDiscoverySlider";
+import CivilizationArchitectureStack from "../components/CivilizationArchitectureStack";
 
 export default function Home() {
 
@@ -123,66 +124,8 @@ export default function Home() {
         civilization-scale capability.
       </p>
 
-      <div
-  className="social-implementation-grid"
-  style={{ display: "grid" }}>
-        <Link href="/arche-nova-research" className="plaza-card">
-          <div className="plaza-title">ArcheNova Research</div>
-          <div className="plaza-desc">
-            — Scientific and technological signal analysis, reports, roadmaps,
-            horizons, and civilization-scale assessment
-          </div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
-
-        <Link href="/intelligence-platform" className="plaza-card">
-          <div className="plaza-title">ArcheNova Intelligence Platform</div>
-          <div className="plaza-desc">
-            — Signals, reports, watchlists, risks, roadmaps, and strategic
-            intelligence
-          </div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
-
-        <Link href="/institute" className="plaza-card">
-          <div className="plaza-title">ArcheNova Institute</div>
-          <div className="plaza-desc">
-            — Civilization studies, publications, papers, and research programs
-          </div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
-
-        <Link href="/capital" className="plaza-card">
-          <div className="plaza-title">ArcheNova Capital</div>
-          <div className="plaza-desc">
-            — Capital formation for future infrastructure, Physical AI, energy,
-            space, and deep technology
-          </div>
-          <div className="plaza-hint">Open →</div>
-        </Link>
-      </div>
-
-      <div className="anv-mobile-icons">
-        <Link href="/arche-nova-research" className="anv-icon-link">
-          <span>♖</span>
-          <small>ANR</small>
-        </Link>
-
-        <Link href="/intelligence-platform" className="anv-icon-link">
-          <span>♕</span>
-          <small>AIP</small>
-        </Link>
-
-        <Link href="/institute" className="anv-icon-link">
-          <span>♔</span>
-          <small>ANI</small>
-        </Link>
-
-        <Link href="/capital" className="anv-icon-link">
-          <span>♘</span>
-          <small>ANC</small>
-        </Link>
-      </div>
+      <CivilizationArchitectureStack />
+      
     </div>
   </Reveal>
 </section>

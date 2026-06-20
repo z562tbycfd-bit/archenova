@@ -11476,3 +11476,90 @@ html, body {
   opacity: 0.78;
   line-height: 1.6;
 }
+.civilization-stack-wrapper {
+ width: 100%;
+ margin-top: 2rem;
+}
+
+.civilization-stack-scroll {
+ display: flex;
+ gap: 1.5rem;
+ overflow-x: auto;
+ padding: 0.5rem 1rem 2rem;
+ scroll-snap-type: x mandatory;
+ scrollbar-width: none;
+}
+
+.civilization-stack-scroll::-webkit-scrollbar {
+ display: none;
+}
+
+.civilization-stack-card {
+ min-width: min(88vw, 520px);
+ max-width: 520px;
+
+ scroll-snap-align: center;
+
+ padding: 2rem;
+
+ border-radius: 28px;
+
+ background:
+   linear-gradient(
+     145deg,
+     rgba(255,255,255,0.05),
+     rgba(255,255,255,0.02)
+   );
+
+ border: 1px solid rgba(255,255,255,0.08);
+
+ text-decoration: none;
+ color: inherit;
+
+ transition: all .35s ease;
+}
+
+.civilization-stack-card:hover {
+ transform: translateY(-6px);
+ border-color: rgba(120,180,255,.4);
+}
+
+.civilization-stack-number {
+ font-size: .8rem;
+ opacity: .5;
+ margin-bottom: .5rem;
+}
+
+.civilization-stack-status {
+ display: inline-block;
+
+ font-size: .72rem;
+ letter-spacing: .12em;
+
+ opacity: .7;
+
+ margin-bottom: 1rem;
+}
+
+.civilization-stack-card h3 {
+ margin-bottom: 1rem;
+
+ font-size: 1.45rem;
+ line-height: 1.2;
+
+ background:
+   linear-gradient(
+     90deg,
+     #ffffff,
+     #8bd0ff,
+     #d0a8ff
+   );
+
+ -webkit-background-clip: text;
+ color: transparent;
+}
+
+.civilization-stack-card p {
+ opacity: .82;
+ line-height: 1.75;
+}

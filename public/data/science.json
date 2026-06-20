@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-06-20T11:59:53.732Z",
+  "updated": "2026-06-20T13:20:41.294Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI-designed protein unlocks virus-like shells that could reshape vaccine and drug delivery",
+      "url": "https://phys.org/news/2026-06-ai-protein-virus-shells-reshape.html",
+      "summary": "An international research team led by a Korean scientist has succeeded in designing large-scale protein structures that faithfully replicate the self-assembly principles found in naturally occurring viruses, using artifi…",
+      "ts": 1781960401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Training class increases time fathers spend with children and on housework, improving mothers' access to work",
+      "url": "https://phys.org/news/2026-06-class-fathers-children-housework-mothers.html",
+      "summary": "A one-off training session increased how much time fathers spent with their children and on chores by about two hours a week, reports a new study from the University of Tokyo. A team in Japan provided male employees and …",
+      "ts": 1781958601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Saturday Citations: Intermittent fasting and chronic stress; macroscopic entanglement; gamma-ray bursts",
+      "url": "https://phys.org/news/2026-06-saturday-citations-intermittent-fasting-chronic.html",
+      "summary": "Researchers reported this week a deadly outbreak of plague in Siberia 5,500 years ago, revealing that Yersinia pestis evolved lethal genetic traits far earlier than suspected. A drug developed for heart tissue repair may…",
+      "ts": 1781958001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Infrared navigation lets magnetic nanorobots deliver drugs with real-time precision tracking",
+      "url": "https://phys.org/news/2026-06-infrared-magnetic-nanorobots-drugs-real.html",
+      "summary": "Nanorobots have shown great promise in precision medicine over the past few decades. Yet one key challenge remains: how to track and guide these tiny devices in real time as they move through complex physiological enviro…",
+      "ts": 1781956803000
+    },
     {
       "source": "Science News",
       "title": "Is NASA falling out of love with Mars?",
@@ -672,34 +700,6 @@
       "title": "Cost-Optimal LLM Routing with Limited User Feedback under User Satisfaction Guarantees",
       "url": "https://arxiv.org/abs/2606.19376",
       "summary": "arXiv:2606.19376v1 Announce Type: cross Abstract: Inference costs for large language model (LLM) applications are rapidly growing, driven by surging demand and rising infrastructure cost. Users expect high-quality respon…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Emyx: Fast and efficient all-atom protein generation",
-      "url": "https://arxiv.org/abs/2606.19377",
-      "summary": "arXiv:2606.19377v1 Announce Type: cross Abstract: Computational enzyme design requires generating proteins that scaffold catalytic residues and ligands, a task that demands both geometric accuracy and structural diversit…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "How Linear Is a Transformer Feed-Forward Block? Per-Block Linear Recoverability Is Learned, Not Architectural",
-      "url": "https://arxiv.org/abs/2606.19379",
-      "summary": "arXiv:2606.19379v1 Announce Type: cross Abstract: Transformer feed-forward networks (FFNs) are often treated as nonlinear stores of computation, yet how nonlinear a trained FFN block actually is has rarely been measured.…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Improving Code-Switching ASR with Code-Mixing Guided Synthetic Speech",
-      "url": "https://arxiv.org/abs/2606.19381",
-      "summary": "arXiv:2606.19381v1 Announce Type: cross Abstract: Code-switch (CS) Automatic Speech Recognition (ASR) remains challenging due to limited availability of high quality CS text-speech pairs for training. Although synthetic …",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "DynAMO:Dynamic Asset Management Orchestration via Topological Multi-Agent Scheduling",
-      "url": "https://arxiv.org/abs/2606.19382",
-      "summary": "arXiv:2606.19382v1 Announce Type: cross Abstract: While LLM-powered agents offer end-to-end automation for industrial asset lifecycles, real-world Industry 4.0 deployment is hindered by latency, concurrency instability, …",
       "ts": 1781928000000
     }
   ],
