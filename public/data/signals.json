@@ -1,7 +1,32 @@
 {
   "ok": true,
-  "updated": "2026-06-20T10:44:52.439Z",
+  "updated": "2026-06-20T12:00:01.924Z",
   "items": [
+    {
+      "id": "civilization-engineering-is-nasa-falling-out-of-love-with-mars",
+      "title": "Is NASA falling out of love with Mars?",
+      "source": "Science News",
+      "originalUrl": "https://www.sciencenews.org/article/nasa-mars-exploration-july-2026-ed-note",
+      "category": "Civilization Engineering",
+      "observation": "Editor in chief Nancy Shute discusses NASA's rocky relationship with Mars exploration.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Is NASA falling out of love with Mars? should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+      "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+      "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+      "civilizationFunction": "Civilization Engineering",
+      "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "ts": 1781953200000
+    },
     {
       "id": "civilization-engineering-opinion-stat-readers-debate-blue-zones-open-access-publishing-fees-and-more",
       "title": "Opinion: STAT readers debate blue zones, open-access publishing fees, and more",
@@ -2476,31 +2501,6 @@
       "civilizationFunction": "Reality Discovery",
       "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
       "ts": 1781795700000
-    },
-    {
-      "id": "reality-discovery-chinese-startup-spark-space-tests-engine-raises-funds-for-electric-pump-rocket",
-      "title": "Chinese startup Spark Space tests engine, raises funds for electric-pump rocket",
-      "source": "SpaceNews",
-      "originalUrl": "https://spacenews.com/chinese-startup-spark-space-tests-engine-raises-funds-for-electric-pump-rocket/",
-      "category": "Reality Discovery",
-      "observation": "Chinese startup Spark Space has secured a series of funding rounds for what it claims will be the world's largest electric-pump-fed rocket, following engine tests. The post Chinese startup Spark Space tests engine, raise…",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Chinese startup Spark Space tests engine, raises funds for electric-pump rocket should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 7.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.3,
-        "overall": 6.1
-      },
-      "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-      "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-      "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-      "civilizationFunction": "Reality Discovery",
-      "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "ts": 1781793466000
     }
   ]
 }
