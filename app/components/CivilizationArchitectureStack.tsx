@@ -25,25 +25,25 @@ const civilizationStack = [
       "Signals, reports, dashboards, sources, horizon intelligence, and civilization-scale decision support.",
   },
   {
+    title: "ArcheNova Builder",
+    href: "/builder",
+    status: "ACTIVE",
+    description:
+      "Development infrastructure for transforming intelligence into operational systems and deployable products.",
+  },
+  {
     title: "ArcheNova Institute",
     href: "/institute",
-    status: "ACTIVE",
+    status: "FOUNDER",
     description:
       "Civilization studies, publications, papers, research programs, and institutional knowledge formation.",
   },
   {
     title: "ArcheNova Capital",
     href: "/capital",
-    status: "ACTIVE",
+    status: "FOUNDER",
     description:
       "Capital formation for future infrastructure, Physical AI, energy, space, and deep technology.",
-  },
-  {
-    title: "ArcheNova Builder",
-    href: "/builder/workspace",
-    status: "COMING SOON",
-    description:
-      "Development infrastructure for transforming intelligence into operational systems and deployable products.",
   },
   {
     title: "ArcheNova Creative Systems",
