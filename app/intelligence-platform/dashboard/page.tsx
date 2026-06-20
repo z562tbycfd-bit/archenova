@@ -38,7 +38,7 @@ function countBy(items: string[]) {
   const counts: Record<string, number> = {};
 
   for (const item of items) {
-    counts[item] = (counts[item] || 0) + 1;
+    counts[item || "Unknown"] = (counts[item || "Unknown"] || 0) + 1;
   }
 
   return Object.entries(counts)
@@ -110,6 +110,35 @@ export default function IntelligenceDashboardPage() {
     [signals]
   );
 
+  const horizonDistribution = useMemo(
+    () =>
+      countBy(
+        reports.map((report) => report.expectedHorizon || "Unclassified")
+      ).slice(0, 8),
+    [reports]
+  );
+
+  const stageDistribution = useMemo(
+    () =>
+      countBy(
+        reports.map((report) => report.currentStage || "Unclassified")
+      ).slice(0, 8),
+    [reports]
+  );
+
+  const executionWatch = useMemo(
+    () =>
+      [...reports]
+        .filter((report) => report.executionTiming)
+        .sort(
+          (a, b) =>
+            (b.archeNovaAssessment?.overall || 0) -
+            (a.archeNovaAssessment?.overall || 0)
+        )
+        .slice(0, 6),
+    [reports]
+  );
+
   const leadingSignal = topSignals[0];
 
   const capitalSignals = useMemo(
@@ -174,7 +203,12 @@ export default function IntelligenceDashboardPage() {
           </div>
 
           <div className="research-report-card">
-            <h3>4. Decision Layer</h3>
+            <h3>4. Horizon</h3>
+            <p>{horizonDistribution[0]?.name ?? "Awaiting classification"}</p>
+          </div>
+
+          <div className="research-report-card">
+            <h3>5. Decision Layer</h3>
             <p>{leadingSignal?.title ?? "Awaiting signal"}</p>
           </div>
         </div>
@@ -210,6 +244,60 @@ export default function IntelligenceDashboardPage() {
         ) : (
           <div className="feed-empty">No priority signal available.</div>
         )}
+      </section>
+
+      <section className="glass-block">
+        <h2>Horizon Distribution</h2>
+
+        <div className="research-report-grid">
+          {horizonDistribution.map((item) => (
+            <div key={item.name} className="research-report-card">
+              <h3>{item.name}</h3>
+              <p>{item.count} reports</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="glass-block">
+        <h2>Current Stage Distribution</h2>
+
+        <div className="research-report-grid">
+          {stageDistribution.map((item) => (
+            <div key={item.name} className="research-report-card">
+              <h3>{item.name}</h3>
+              <p>{item.count} reports</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="glass-block">
+        <h2>Execution Timing Watch</h2>
+
+        <div className="feed-list">
+          {executionWatch.map((report) => (
+            <Link
+              key={report.slug}
+              href={`/intelligence-platform/reports/${report.slug}`}
+              className="feed-row wide"
+            >
+              <div className="feed-source">
+                {report.source} · {report.expectedHorizon ?? "Horizon"}
+              </div>
+
+              <div className="feed-title">{report.title}</div>
+
+              <div className="feed-summary">
+                Stage: {report.currentStage ?? "—"}
+              </div>
+
+              <div className="feed-summary">
+                {report.executionTiming}
+              </div>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <section className="glass-block">
