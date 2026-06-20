@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-20T10:44:47.978Z",
+  "updated": "2026-06-20T11:58:29.631Z",
   "items": [
+    {
+      "source": "Science News",
+      "title": "Is NASA falling out of love with Mars?",
+      "url": "https://www.sciencenews.org/article/nasa-mars-exploration-july-2026-ed-note",
+      "summary": "Editor in chief Nancy Shute discusses NASA's rocky relationship with Mars exploration.",
+      "ts": 1781953200000
+    },
     {
       "source": "Phys.org",
       "title": "Belgian Nobel laureate Francois Englert dies aged 93",
@@ -693,13 +700,6 @@
       "title": "DynAMO:Dynamic Asset Management Orchestration via Topological Multi-Agent Scheduling",
       "url": "https://arxiv.org/abs/2606.19382",
       "summary": "arXiv:2606.19382v1 Announce Type: cross Abstract: While LLM-powered agents offer end-to-end automation for industrial asset lifecycles, real-world Industry 4.0 deployment is hindered by latency, concurrency instability, …",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Bistable by Construction: Wall-Clock-Calibrated State Monitors Have No Moment-Detection Regime at Agent Cadence",
-      "url": "https://arxiv.org/abs/2606.19386",
-      "summary": "arXiv:2606.19386v1 Announce Type: cross Abstract: Runtime monitors for autonomous agents commonly threshold an accumulated internal state - a behavioural baseline, a drift statistic, or, in our prior work, a modelled aff…",
       "ts": 1781928000000
     }
   ],
