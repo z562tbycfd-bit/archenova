@@ -4,6 +4,13 @@ import Link from "next/link";
 
 const civilizationStack = [
   {
+    title: "Episteme",
+    href: "/episteme",
+    status: "COGNITIVE CORE",
+    description:
+      "The central intelligence layer of ArcheNova. Observation, reasoning, synthesis, memory, strategic interpretation, and civilization-scale learning.",
+  },
+  {
     title: "ArcheNova Research",
     href: "/arche-nova-research",
     status: "ACTIVE",
@@ -15,7 +22,7 @@ const civilizationStack = [
     href: "/intelligence-platform",
     status: "ACTIVE",
     description:
-      "Signals, reports, dashboards, horizon intelligence, and civilization-scale decision support.",
+      "Signals, reports, dashboards, sources, horizon intelligence, and civilization-scale decision support.",
   },
   {
     title: "ArcheNova Institute",
@@ -30,13 +37,6 @@ const civilizationStack = [
     status: "ACTIVE",
     description:
       "Capital formation for future infrastructure, Physical AI, energy, space, and deep technology.",
-  },
-  {
-    title: "Episteme Systems",
-    href: "/episteme",
-    status: "FOUNDATION",
-    description:
-      "The intelligence core of ArcheNova. Observation, reasoning, synthesis, and civilization-scale learning.",
   },
   {
     title: "ArcheNova Builder",
@@ -72,31 +72,37 @@ export default function CivilizationArchitectureStack() {
   return (
     <div className="civilization-stack-wrapper">
       <div className="civilization-stack-scroll">
-        {civilizationStack.map((item, index) => (
-          <Link
-            key={item.title}
-            href={item.href}
-            className="civilization-stack-card"
-          >
-            <div className="civilization-stack-glow" />
+        {civilizationStack.map((item, index) => {
+          const isEpisteme = item.title === "Episteme";
 
-            <div className="civilization-stack-number">
-              {String(index + 1).padStart(2, "0")}
-            </div>
+          return (
+            <Link
+              key={item.title}
+              href={item.href}
+              className={`civilization-stack-card ${
+                isEpisteme ? "civilization-stack-card-core" : ""
+              }`}
+            >
+              <div className="civilization-stack-glow" />
 
-            <div className="civilization-stack-status">
-              {item.status}
-            </div>
+              <div className="civilization-stack-number">
+                {String(index + 1).padStart(2, "0")}
+              </div>
 
-            <h3>{item.title}</h3>
+              <div className="civilization-stack-status">
+                {item.status}
+              </div>
 
-            <p>{item.description}</p>
+              <h3>{item.title}</h3>
 
-            <div className="plaza-hint">
-              {item.status === "COMING SOON" ? "Future Layer →" : "Open →"}
-            </div>
-          </Link>
-        ))}
+              <p>{item.description}</p>
+
+              <div className="plaza-hint">
+                {item.status === "COMING SOON" ? "Future Layer →" : "Open →"}
+              </div>
+            </Link>
+          );
+        })}
       </div>
     </div>
   );

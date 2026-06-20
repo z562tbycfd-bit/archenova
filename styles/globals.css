@@ -11728,3 +11728,40 @@ html, body {
     background-position: 0% 50%;
   }
 }
+.civilization-stack-card-core {
+  border-color: rgba(255, 230, 170, 0.32);
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 230, 170, 0.18),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(130, 190, 255, 0.14),
+      transparent 34%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.085),
+      rgba(255, 255, 255, 0.028)
+    );
+}
+
+.civilization-stack-card-core h3 {
+  background:
+    linear-gradient(
+      90deg,
+      #ffffff,
+      #ffe4a3,
+      #8bd0ff,
+      #d0a8ff
+    );
+  background-size: 240% 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.civilization-stack-card-core .civilization-stack-status {
+  color: rgba(255, 230, 170, 0.9);
+}
