@@ -518,6 +518,120 @@ function makeArcheNovaAssessment(item) {
   };
 }
 
+function makeCurrentStage(item) {
+  const text = getText(item);
+
+  if (
+    includesAny(text, [
+      "commercial",
+      "deployed",
+      "deployment",
+      "launched",
+      "available",
+      "production",
+      "infrastructure",
+      "operational",
+    ])
+  ) {
+    return "Scaling / Infrastructure";
+  }
+
+  if (
+    includesAny(text, [
+      "pilot",
+      "trial",
+      "prototype",
+      "demonstration",
+      "tested",
+      "validation",
+    ])
+  ) {
+    return "Prototype / Pilot";
+  }
+
+  if (
+    includesAny(text, [
+      "engineered",
+      "design",
+      "method",
+      "platform",
+      "system",
+      "model",
+      "device",
+    ])
+  ) {
+    return "Applied Research";
+  }
+
+  return "Scientific Discovery";
+}
+
+function makeExpectedHorizon(item) {
+  const useCase = detectUseCase(item);
+  const text = getText(item);
+
+  if (
+    includesAny(text, [
+      "commercial",
+      "deployed",
+      "deployment",
+      "launched",
+      "available",
+      "production",
+      "operational",
+    ])
+  ) {
+    return "0–3 Years";
+  }
+
+  if (
+    includesAny(text, [
+      "pilot",
+      "trial",
+      "prototype",
+      "demonstration",
+      "validation",
+    ])
+  ) {
+    return "3–10 Years";
+  }
+
+  if (useCase === "compute") {
+    return "0–5 Years";
+  }
+
+  if (useCase === "healthcare" || useCase === "energy") {
+    return "5–15 Years";
+  }
+
+  if (useCase === "space") {
+    return "5–20 Years";
+  }
+
+  return "10–30 Years";
+}
+
+function makeHorizonRationale(item) {
+  const stage = makeCurrentStage(item);
+  const horizon = makeExpectedHorizon(item);
+
+  return `This signal is currently assessed as ${stage}, placing it in the ${horizon} horizon based on its apparent maturity, deployment pathway, infrastructure dependence, and adoption requirements.`;
+}
+
+function makeExecutionTiming(item) {
+  const horizon = makeExpectedHorizon(item);
+
+  if (horizon === "0–3 Years" || horizon === "0–5 Years") {
+    return "Act now: monitor deployment, partnerships, capital allocation, market formation, and early infrastructure integration.";
+  }
+
+  if (horizon === "3–10 Years" || horizon === "5–15 Years") {
+    return "Prepare now: track validation, regulation, prototype performance, industrial partnerships, and scaling pathways.";
+  }
+
+  return "Observe strategically: monitor scientific validation, engineering feasibility, institutional interest, and future infrastructure readiness.";
+}
+
 function makeQualityFields(item) {
   const useCase = detectUseCase(item);
   const civilizationFunction = detectArcheNovaSignalCategory(item);
@@ -667,6 +781,10 @@ function makeQualityFields(item) {
       "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time.",
     ],
     watchpoint: watchpointMap[useCase] || watchpointMap.general,
+    currentStage: makeCurrentStage(item),
+    expectedHorizon: makeExpectedHorizon(item),
+    horizonRationale: makeHorizonRationale(item),
+    executionTiming: makeExecutionTiming(item),
   };
 }
 

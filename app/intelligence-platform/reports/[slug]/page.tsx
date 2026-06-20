@@ -18,7 +18,7 @@ export default function IntelligenceReportPage({
 }: {
   params: { slug: string };
 }) {
-  const report = getGeneratedResearchReport(params.slug);
+  const report = getGeneratedResearchReport(params.slug) as any;
 
   if (!report) notFound();
 
@@ -36,10 +36,64 @@ export default function IntelligenceReportPage({
         </p>
       </div>
 
+      {report.coreInsight && (
+        <section className="glass-block">
+          <h2>Core Insight</h2>
+          <p>{report.coreInsight}</p>
+        </section>
+      )}
+
       <section className="glass-block">
         <h2>Scientific Signal</h2>
         <p>{report.scientificSignal}</p>
       </section>
+
+      {report.whyItMatters && (
+        <section className="glass-block">
+          <h2>Why It Matters</h2>
+          <p>{report.whyItMatters}</p>
+        </section>
+      )}
+
+      <section className="glass-block">
+        <h2>Civilization Horizon</h2>
+
+        <div className="research-domain-grid">
+          <div className="research-domain-chip">
+            Current Stage: {report.currentStage ?? "—"}
+          </div>
+
+          <div className="research-domain-chip">
+            Expected Horizon: {report.expectedHorizon ?? "—"}
+          </div>
+
+          <div className="research-domain-chip">
+            Civilization Function: {report.civilizationFunction ?? "—"}
+          </div>
+        </div>
+
+        {report.horizonRationale && (
+          <p>{report.horizonRationale}</p>
+        )}
+
+        {report.executionTiming && (
+          <p>{report.executionTiming}</p>
+        )}
+      </section>
+
+      {report.strategicRelevance && (
+        <section className="glass-block">
+          <h2>Strategic Relevance</h2>
+          <p>{report.strategicRelevance}</p>
+        </section>
+      )}
+
+      {report.capitalImplication && (
+        <section className="glass-block">
+          <h2>Capital Implication</h2>
+          <p>{report.capitalImplication}</p>
+        </section>
+      )}
 
       <section className="glass-block">
         <h2>Implementation Potential</h2>
@@ -51,6 +105,38 @@ export default function IntelligenceReportPage({
         <p>{report.infrastructureImpact}</p>
       </section>
 
+      {report.keyConstraints?.length ? (
+        <section className="glass-block">
+          <h2>Key Constraints</h2>
+
+          <div className="feed-list">
+            {report.keyConstraints.map((item) => (
+              <div key={item} className="feed-row wide">
+                <div className="feed-summary">
+                  {item}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {report.watchpoints?.length ? (
+        <section className="glass-block">
+          <h2>Watchpoints</h2>
+
+          <div className="feed-list">
+            {report.watchpoints.map((item) => (
+              <div key={item} className="feed-row wide">
+                <div className="feed-summary">
+                  {item}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       <section className="glass-block">
         <h2>Technology Roadmap</h2>
 
@@ -61,7 +147,9 @@ export default function IntelligenceReportPage({
                 {String(index + 1).padStart(2, "0")}
               </div>
 
-              <div className="research-roadmap-node">{step}</div>
+              <div className="research-roadmap-node">
+                {step}
+              </div>
             </div>
           ))}
         </div>
