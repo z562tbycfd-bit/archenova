@@ -519,72 +519,160 @@ function makeArcheNovaAssessment(item) {
 }
 
 function makeQualityFields(item) {
- const useCase = detectUseCase(item);
- const category = detectArcheNovaSignalCategory(item);
+  const useCase = detectUseCase(item);
+  const civilizationFunction = detectArcheNovaSignalCategory(item);
 
- const whyMap = {
-   manufacturing:
-     "This matters because it may improve civilization’s ability to convert knowledge into reproducible material capability.",
-   healthcare:
-     "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
-   energy:
-     "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
-   space:
-     "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
-   compute:
-     "This matters because computation increases prediction, coordination, automation, and strategic intelligence.",
-   environment:
-     "This matters because environmental adaptation strengthens civilization under planetary uncertainty.",
-   general:
-     "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
- };
+  const title = item.title || "This signal";
 
- const strategicMap = {
-   manufacturing:
-     "Strategically relevant for industrial capability, supply-chain resilience, automation, and infrastructure formation.",
-   healthcare:
-     "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
-   energy:
-     "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
-   space:
-     "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
-   compute:
-     "Strategically relevant for AI infrastructure, chips, data centers, simulation, automation, and decision systems.",
-   environment:
-     "Strategically relevant for climate resilience, environmental monitoring, resource systems, and adaptive governance.",
-   general:
-     "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
- };
+  const coreInsightMap = {
+    manufacturing:
+      `${title} indicates a possible shift in how knowledge, materials, automation, and production systems can be converted into scalable industrial capability.`,
+    healthcare:
+      `${title} indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.`,
+    energy:
+      `${title} indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.`,
+    space:
+      `${title} indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.`,
+    compute:
+      `${title} indicates a possible shift in computation, AI infrastructure, chips, data systems, automation, or strategic intelligence capacity.`,
+    environment:
+      `${title} indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.`,
+    general:
+      `${title} is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.`,
+  };
 
- const capitalMap = {
-   manufacturing:
-     "Capital implication: monitor for commercialization pathways in robotics, manufacturing systems, materials, and industrial automation.",
-   healthcare:
-     "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
-   energy:
-     "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
-   space:
-     "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
-   compute:
-     "Capital implication: monitor for opportunities in AI infrastructure, semiconductors, cloud platforms, and computational systems.",
-   environment:
-     "Capital implication: monitor for opportunities in resilience infrastructure, climate adaptation, monitoring, and resource systems.",
-   general:
-     "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
- };
+  const whyMap = {
+    manufacturing:
+      "This matters because advanced civilization depends on the ability to convert knowledge into reproducible material capability, reliable production, and resilient supply systems.",
+    healthcare:
+      "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    energy:
+      "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    space:
+      "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    compute:
+      "This matters because computation strengthens prediction, automation, discovery, coordination, simulation, and decision-making across civilization.",
+    environment:
+      "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    general:
+      "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+  };
 
- return {
-   whyItMatters: whyMap[useCase] || whyMap.general,
-   strategicRelevance: strategicMap[useCase] || strategicMap.general,
-   capitalImplication: capitalMap[useCase] || capitalMap.general,
-   civilizationFunction: category,
-   watchpoint:
-     "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
- };
+  const strategicMap = {
+    manufacturing:
+      "Strategically relevant for industrial capability, robotics, materials processing, supply-chain resilience, production automation, and infrastructure formation.",
+    healthcare:
+      "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+    energy:
+      "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    space:
+      "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    compute:
+      "Strategically relevant for AI infrastructure, semiconductors, cloud platforms, data centers, simulation systems, automation, and institutional decision intelligence.",
+    environment:
+      "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    general:
+      "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+  };
+
+  const capitalMap = {
+    manufacturing:
+      "Capital implication: monitor for commercialization pathways in automation, robotics, advanced materials, industrial software, manufacturing systems, and resilient supply-chain infrastructure.",
+    healthcare:
+      "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+    energy:
+      "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    space:
+      "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    compute:
+      "Capital implication: monitor for opportunities in AI infrastructure, semiconductors, cloud systems, data centers, model deployment, and computational platforms.",
+    environment:
+      "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    general:
+      "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+  };
+
+  const constraintMap = {
+    manufacturing: [
+      "Scalability from prototype to production",
+      "Manufacturing cost and reliability",
+      "Supply-chain integration",
+      "Quality control and operational safety",
+    ],
+    healthcare: [
+      "Clinical validation",
+      "Regulatory approval",
+      "Safety and efficacy evidence",
+      "Healthcare-system adoption",
+    ],
+    energy: [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance",
+    ],
+    space: [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints",
+    ],
+    compute: [
+      "Compute cost",
+      "Energy demand",
+      "Hardware availability",
+      "Security, safety, and governance constraints",
+    ],
+    environment: [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance",
+    ],
+    general: [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility",
+    ],
+  };
+
+  const watchpointMap = {
+    manufacturing:
+      "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems.",
+    healthcare:
+      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+    energy:
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    space:
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    compute:
+      "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
+    environment:
+      "Watch whether this moves from observation into decision systems, infrastructure adaptation, governance response, and measurable resilience outcomes.",
+    general:
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+  };
+
+  return {
+    coreInsight: coreInsightMap[useCase] || coreInsightMap.general,
+    whyItMatters: whyMap[useCase] || whyMap.general,
+    strategicRelevance: strategicMap[useCase] || strategicMap.general,
+    capitalImplication: capitalMap[useCase] || capitalMap.general,
+    civilizationFunction,
+    keyConstraints: constraintMap[useCase] || constraintMap.general,
+    watchpoints: [
+      watchpointMap[useCase] || watchpointMap.general,
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time.",
+    ],
+    watchpoint: watchpointMap[useCase] || watchpointMap.general,
+  };
 }
 
 function makeReport(item) {
   const category = classify(item);
+  const quality = makeQualityFields(item);
 
   return {
     slug: `${slugify(category)}-${slugify(item.title)}`,
@@ -593,15 +681,39 @@ function makeReport(item) {
     source: item.source,
     originalUrl: item.url,
     summary: item.summary || "",
+
+    coreInsight: quality.coreInsight,
+
     scientificSignal: item.summary || item.title,
+
+    whyItMatters: quality.whyItMatters,
+
     implementationPotential: analyzeImplementation(item, category),
+
+    strategicRelevance: quality.strategicRelevance,
+
     infrastructureImpact: analyzeInfrastructure(item, category),
+
     civilizationImpact: analyzeCivilization(item, category),
+
+    capitalImplication: quality.capitalImplication,
+
+    civilizationFunction: quality.civilizationFunction,
+
+    keyConstraints: quality.keyConstraints,
+
+    watchpoints: quality.watchpoints,
+
+    watchpoint: quality.watchpoint,
+
     technologyRoadmap: makeRoadmap(item, category),
+
     strategicHorizon: makeStrategicHorizon(item, category),
+
     assessment: makeAssessment(item, category),
+
     archeNovaAssessment: makeArcheNovaAssessment(item, category),
-    ...makeQualityFields(item),
+
     ts: item.ts || 0,
   };
 }

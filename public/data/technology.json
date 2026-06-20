@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-06-20T08:08:53.711Z",
+  "updated": "2026-06-20T08:45:11.196Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT readers debate blue zones, open-access publishing fees, and more",
+      "url": "https://www.statnews.com/2026/06/20/blue-zones-real-open-access-publishing-fees-letters-to-editor/?utm_campaign=rss",
+      "summary": "Keep those letters coming!",
+      "ts": 1781944200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Why the space in ‘health care’ matters",
+      "url": "https://www.statnews.com/2026/06/20/healthcare-or-health-care-stat-style-guide-ap/?utm_campaign=rss",
+      "summary": "When STAT polled our readers on ‘health care’ vs. ‘healthcare,’ about 60% of our readers voted for one word.",
+      "ts": 1781944200000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "India’s Jio lays out sovereign LEO constellation plan ahead of IPO",
@@ -177,6 +193,14 @@
       "summary": "A startup has acquired an aircraft to offer commercial parabolic flight services even as NASA seeks to acquire its own aircraft for reduced-gravity research. The post Mu-g Technologies enters the parabolic flight busines…",
       "ts": 1781865049000,
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Boosts Global Access to Electron Beam Technology",
+      "url": "http://www.iaea.org/newscenter/news/iaea-boosts-global-access-to-electron-beam-technology",
+      "summary": "The many uses of electron beams in industry and environmental protection were the focus of a hands-on training workshop featuring the IAEA’s new Transportable E-beam System,",
+      "ts": 1781863538000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "IAEA News",
@@ -697,30 +721,6 @@
       "summary": "A high-risk mission to raise the orbit of a NASA astrophysics spacecraft is set to launch later this month after less than a year of development. The post Swift reboost mission ready for launch appeared first on SpaceNew…",
       "ts": 1781784277000,
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Nirrin Technologies and S.T. Japan Partner on Next-Gen Protein Quantitation Tech",
-      "url": "https://www.genengnews.com/topics/bioprocessing/nirrin-technologies-and-s-t-japan-partner-on-nextgen-protein-quantitation-tech/",
-      "summary": "TALOS represents an advancement in protein quantitation, enabling rapid, consistent measurements with operational simplicity. These capabilities make it well-suited for modern bioprocessing workflows, from early process …",
-      "ts": 1781784017000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN upholds freedom of movement for peacekeepers in Lebanon",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167758",
-      "summary": "The United Nations has again called for freedom of movement for its peacekeepers in Lebanon who continue to closely monitor developments in the south of the country, including in the wake of the recent provisional agreem…",
-      "ts": 1781784000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Libya’s political process regains momentum, but window for action is narrowing, UN envoy warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167757",
-      "summary": "Libya has been mired in political dysfunction since the collapse of Muammar Gaddafi’s regime in 2011, which shattered State institutions and triggered recurring struggles over legitimacy and power.",
-      "ts": 1781784000000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
