@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-20T18:14:51.174Z",
+  "updated": "2026-06-20T20:17:24.689Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Astrobotic says sale to Voyager will allow it to scale up",
+      "url": "https://spacenews.com/astrobotic-says-sale-to-voyager-will-allow-it-to-scale-up/",
+      "summary": "Lunar lander developer Astrobotic decided to sell to Voyager Technologies so it could quickly scale up to meet the projected demands of NASA’s lunar base initiative. The post Astrobotic says sale to Voyager will allow it…",
+      "ts": 1781985105000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Opinion: STAT readers debate blue zones, open-access publishing fees, and more",
@@ -713,14 +721,6 @@
       "summary": "PORTLAND, Ore. – Boeing demonstrated a key quantum networking protocol in ground testing of a compact payload ahead of on-orbit experiment in 2027. “High-fidelity entanglement swapping” was demonstrated earlier this […] …",
       "ts": 1781785800000,
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a new hunt for dark matter and Kenya’s case for going solar",
-      "url": "https://www.technologyreview.com/2026/06/18/1139261/the-download-dark-matter-hunt-kenya-solar-power/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The search for dark matter has been blown wide open For decades, physicists have h…",
-      "ts": 1781784600000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

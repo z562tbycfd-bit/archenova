@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-06-20T18:14:47.687Z",
+  "updated": "2026-06-20T20:17:20.449Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Jumping gene caught moving between species in first direct observation",
+      "url": "https://phys.org/news/2026-06-gene-caught-species.html",
+      "summary": "Genes are not passed on exclusively from parents to their offspring. Some are mobile and can also jump to other species, as researchers at the Max Planck Institute for Marine Microbiology in Bremen have now shown. The di…",
+      "ts": 1781985601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient enamel just exposed a hidden human family entanglement that may still echo in your DNA",
+      "url": "https://phys.org/news/2026-05-ancient-enamel-exposed-hidden-human.html",
+      "summary": "An analysis of ancient teeth is giving scientists a rare peek into interactions between human relatives hundreds of thousands of years ago that have left a lasting imprint on our species.",
+      "ts": 1781984403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Radio scans find no alien tech from the latest interstellar comet",
+      "url": "https://phys.org/news/2026-06-radio-scans-alien-tech-latest.html",
+      "summary": "The group leading the charge in the search for extraterrestrial life has given the all clear: An interstellar comet looks to be completely natural and free of any alien tech.",
+      "ts": 1781984401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum gravity research links continuous parameters to local operators within the theory itself",
+      "url": "https://phys.org/news/2026-06-quantum-gravity-links-parameters-local.html",
+      "summary": "A researcher at Kyushu University and his collaborators have shown that continuous parameters in quantum gravity may not be freely adjustable \"dials\" from outside the theory, but rather arise from operators within the th…",
+      "ts": 1781982001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Eight ways to sleep well in hot weather",
+      "url": "https://phys.org/news/2026-06-ways-hot-weather.html",
+      "summary": "When temperatures rise, sleep often suffers. Hot nights can make it harder to fall asleep, increase waking during the night and leave people feeling less rested the next day.",
+      "ts": 1781980201000
+    },
     {
       "source": "Phys.org",
       "title": "New nanotube membranes reveal unusually fast lithium-ion transport",
@@ -665,41 +700,6 @@
       "title": "Disentangling Linguistic Relatedness from Task Alignment in Cross-Lingual Transfer",
       "url": "https://arxiv.org/abs/2606.19346",
       "summary": "arXiv:2606.19346v1 Announce Type: cross Abstract: We study cross-lingual transfer by fine-tuning seven large language models (4B--671B parameters) on Arabic and evaluating zero-shot reading comprehension on Semitic langu…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "How LLMs Fail and Generalize in RTL Coding for Hardware Design?",
-      "url": "https://arxiv.org/abs/2606.19347",
-      "summary": "arXiv:2606.19347v1 Announce Type: cross Abstract: Translating sequential programming priors into the parallel temporal logic of hardware design remains a crucial bottleneck for large language models(LLM). To investigate …",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-      "url": "https://arxiv.org/abs/2606.19348",
-      "summary": "arXiv:2606.19348v1 Announce Type: cross Abstract: We present a preview version of DeepSeek-V4 series, including two strong Mixture-of-Experts (MoE) language models -- DeepSeek-V4-Pro with 1.6T parameters (49B activated) …",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Where to Place the Query? Unveiling and Mitigating Positional Bias in In-Context Learning for Diffusion LLMs via Decoding Dynamics",
-      "url": "https://arxiv.org/abs/2606.19349",
-      "summary": "arXiv:2606.19349v1 Announce Type: cross Abstract: While In-Context Learning (ICL) is extensively studied in Autoregressive (AR) LLMs, its mechanism within Diffusion Large Language Models (dLLMs) remains largely unexplore…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Detecting Hallucinations for Large Language Model-based Knowledge Graph Reasoning",
-      "url": "https://arxiv.org/abs/2606.19351",
-      "summary": "arXiv:2606.19351v1 Announce Type: cross Abstract: Knowledge graph (KG) reasoning infers new knowledge from existing facts and is widely applied in question answering, recommendation, and decision support. With the rapid …",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Sign-Language Datasets at Scale: A Comprehensive Survey on Resources, Benchmarks, and Annotation Standards",
-      "url": "https://arxiv.org/abs/2606.19352",
-      "summary": "arXiv:2606.19352v1 Announce Type: cross Abstract: Sign languages are expressive visual languages used by Deaf and Hard-of-Hearing (DHH) communities. Despite substantial progress in sign-language recognition, translation,…",
       "ts": 1781928000000
     }
   ],
