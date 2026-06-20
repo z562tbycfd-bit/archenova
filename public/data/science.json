@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-20T20:17:20.449Z",
+  "updated": "2026-06-20T22:11:25.560Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Sonic booms from meteors can release the energy of hundreds of tons of TNT. Here's how they work",
+      "url": "https://phys.org/news/2026-06-sonic-booms-meteors-energy-hundreds.html",
+      "summary": "As humans, we live out our lives on a planet that is constantly sweeping through a cosmic ocean littered with ancient debris from the formation of the solar system. For the most part, our world glides silently through sp…",
+      "ts": 1781991001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crane pair dances follow hidden rules, with performances revealing partner-driven timing",
+      "url": "https://phys.org/news/2026-06-crane-pair-hidden-revealing-partner.html",
+      "summary": "Animal pairs engage in mutual signaling by simultaneously performing a diverse repertoire of behaviors. A famous example is the sophisticated dance (mutual displays) performed by bird pairs.",
+      "ts": 1781989202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sunday is the longest day of the year for half the planet. A guide to the summer solstice",
+      "url": "https://phys.org/news/2026-06-sunday-longest-day-year-planet.html",
+      "summary": "This is the sun's time to shine: Sunday is the longest day of the year in the Northern Hemisphere.",
+      "ts": 1781986801000
+    },
     {
       "source": "Phys.org",
       "title": "Jumping gene caught moving between species in first direct observation",
@@ -679,27 +700,6 @@
       "title": "Human-AI Agent Interaction in a Business Context",
       "url": "https://arxiv.org/abs/2606.18716",
       "summary": "arXiv:2606.18716v1 Announce Type: cross Abstract: As AI agents are increasingly integrated into core business processes, understanding and designing effective interaction patterns between humans and AI agents becomes cru…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Exposing the Unsaid: Visualizing Hidden LLM Bias through Stochastic Path Aggregation",
-      "url": "https://arxiv.org/abs/2606.19344",
-      "summary": "arXiv:2606.19344v1 Announce Type: cross Abstract: Large Language Models (LLMs) exhibit representational and syntactic biases that are difficult to evaluate due to the stochastic nature of text generation. Standard auditi…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Ensembles of Large Language Models for Identifying EQ-5D Studies in PubMed Based on Their Abstracts",
-      "url": "https://arxiv.org/abs/2606.19345",
-      "summary": "arXiv:2606.19345v1 Announce Type: cross Abstract: The rapid increase in scientific publications leads to the fact that manual study screening in systematic literature reviews (SLRs) is increasingly resource consuming, in…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Disentangling Linguistic Relatedness from Task Alignment in Cross-Lingual Transfer",
-      "url": "https://arxiv.org/abs/2606.19346",
-      "summary": "arXiv:2606.19346v1 Announce Type: cross Abstract: We study cross-lingual transfer by fine-tuning seven large language models (4B--671B parameters) on Arabic and evaluating zero-shot reading comprehension on Semitic langu…",
       "ts": 1781928000000
     }
   ],
