@@ -1,7 +1,57 @@
 {
   "ok": true,
-  "updated": "2026-06-20T13:34:21.791Z",
+  "updated": "2026-06-20T14:40:50.762Z",
   "items": [
+    {
+      "id": "civilization-engineering-australian-farmers-are-desperate-to-escape-the-latest-mouse-plague-and-may-soon-",
+      "title": "Australian farmers are desperate to escape the latest mouse plague—and may soon get relief",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-australian-farmers-desperate-latest-mouse.html",
+      "category": "Civilization Engineering",
+      "observation": "For months, a flood of mice has engulfed Western Australia's agricultural regions. For people living through it, this latest mouse plague is all-consuming. Houses, sheds, paddocks and roads are blanketed with mice. And t…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Australian farmers are desperate to escape the latest mouse plague—and may soon get relief should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1781965801000
+    },
+    {
+      "id": "infrastructure-formation-novel-generative-ai-model-enables-atomic-scale-prediction-of-protein-protein-int",
+      "title": "Novel generative AI model enables atomic-scale prediction of protein-protein interactions",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-generative-ai-enables-atomic-scale.html",
+      "category": "Infrastructure Formation",
+      "observation": "Proteins are the molecular workhorses of the human body. They perform a vast range of essential functions, from building tissues and transporting molecules to regulating cellular communication and defending against infec…",
+      "implication": "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+      "commentary": "Novel generative AI model enables atomic-scale prediction of protein-protein interactions should not be interpreted only as a news item. From the ArcheNova perspective, it is a Infrastructure Formation signal: This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+      "score": {
+        "realityDiscovery": 5.9,
+        "capabilityExpansion": 6,
+        "infrastructureImpact": 8.4,
+        "synchronizationImpact": 6.3,
+        "adaptiveCapacity": 6.4,
+        "civilizationImpact": 7.2,
+        "overall": 6.7
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Infrastructure Formation",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1781964001000
+    },
     {
       "id": "civilization-engineering-landback-returns-of-indigenous-lands-happening-across-country-can-lead-public-pl",
       "title": "Landback returns of Indigenous lands happening across country, can lead public planning",
@@ -2451,56 +2501,6 @@
       "civilizationFunction": "Reality Discovery",
       "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
       "ts": 1781805475000
-    },
-    {
-      "id": "civilization-engineering-new-usage-analytics-and-updated-spend-controls-for-enterprises",
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "source": "OpenAI",
-      "originalUrl": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "category": "Civilization Engineering",
-      "observation": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "New usage analytics and updated spend controls for enterprises should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.7,
-        "infrastructureImpact": 6.7,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.7
-      },
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1781802000000
-    },
-    {
-      "id": "civilization-engineering-ebola-cases-increase-almost-40-in-a-week-as-death-toll-passes-200",
-      "title": "Ebola cases increase almost 40% in a week as death toll passes 200",
-      "source": "STAT",
-      "originalUrl": "https://www.statnews.com/2026/06/18/ebola-outbreak-congo-uganda-cases-increase-death-toll/?utm_campaign=rss",
-      "category": "Civilization Engineering",
-      "observation": "Ebola cases have increased almost 40% in a week in the current outbreak in Congo and Uganda as the death toll passes 200.",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Ebola cases increase almost 40% in a week as death toll passes 200 should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1781800200000
     }
   ]
 }
