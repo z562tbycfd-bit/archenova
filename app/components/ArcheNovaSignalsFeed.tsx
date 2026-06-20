@@ -11,6 +11,13 @@ type SignalItem = {
   observation: string;
   implication: string;
   commentary: string;
+
+  whyItMatters?: string;
+  strategicRelevance?: string;
+  capitalImplication?: string;
+  civilizationFunction?: string;
+  watchpoint?: string;
+
   score?: {
     realityDiscovery?: number;
     capabilityExpansion?: number;
@@ -24,6 +31,7 @@ type SignalItem = {
     infrastructure?: number;
     civilization?: number;
   };
+
   ts: number;
 };
 
@@ -52,6 +60,12 @@ function normalizeFunction(category: string) {
   }
 
   return category;
+}
+
+function formatDate(ts: number) {
+  if (!ts) return "—";
+
+  return new Date(ts).toLocaleDateString();
 }
 
 export default function ArcheNovaSignalsFeed({
@@ -103,7 +117,9 @@ export default function ArcheNovaSignalsFeed({
   ];
 
   const filteredItems = items.filter((item) => {
-    const itemFunction = normalizeFunction(item.category);
+    const itemFunction = normalizeFunction(
+      item.civilizationFunction || item.category
+    );
 
     const categoryMatch =
       category === "all" || itemFunction === category;
@@ -127,6 +143,20 @@ export default function ArcheNovaSignalsFeed({
         );
       }
 
+      if (sortMode === "infrastructure") {
+        return (
+          (b.score?.infrastructureImpact || b.score?.infrastructure || 0) -
+          (a.score?.infrastructureImpact || a.score?.infrastructure || 0)
+        );
+      }
+
+      if (sortMode === "adaptive") {
+        return (
+          (b.score?.adaptiveCapacity || 0) -
+          (a.score?.adaptiveCapacity || 0)
+        );
+      }
+
       return (b.ts || 0) - (a.ts || 0);
     })
     .slice(0, limit);
@@ -138,70 +168,71 @@ export default function ArcheNovaSignalsFeed({
         <span className="home-card-meta">Updated: {updated}</span>
       </div>
 
+      <p className="feed-summary">
+        Signals are structured into factual observation, strategic relevance,
+        capital implication, watchpoints, and ArcheNova interpretation.
+      </p>
+
       <div className="signal-sort-bar">
-  <label className="home-card-meta">
-    Civilization Function
-  </label>
+        <label className="home-card-meta">
+          Civilization Function
+        </label>
 
-  <select
-    value={category}
-    onChange={(e) => setCategory(e.target.value)}
-    className="signal-sort"
-  >
-    {civilizationFunctions.map((item) => (
-      <option key={item} value={item}>
-        {item === "all" ? "All" : item}
-      </option>
-    ))}
-  </select>
-</div>
+        <select
+          value={category}
+          onChange={(event) => setCategory(event.target.value)}
+          className="signal-sort"
+        >
+          {civilizationFunctions.map((item) => (
+            <option key={item} value={item}>
+              {item === "all" ? "All" : item}
+            </option>
+          ))}
+        </select>
+      </div>
 
-<div className="signal-sort-bar">
-  <label className="home-card-meta">
-    Source
-  </label>
+      <div className="signal-sort-bar">
+        <label className="home-card-meta">
+          Source
+        </label>
 
-  <select
-    value={source}
-    onChange={(e) => setSource(e.target.value)}
-    className="signal-sort"
-  >
-    {sources.map((item) => (
-      <option key={item} value={item}>
-        {item === "all" ? "All Sources" : item}
-      </option>
-    ))}
-  </select>
-</div>
+        <select
+          value={source}
+          onChange={(event) => setSource(event.target.value)}
+          className="signal-sort"
+        >
+          {sources.map((item) => (
+            <option key={item} value={item}>
+              {item === "all" ? "All Sources" : item}
+            </option>
+          ))}
+        </select>
+      </div>
 
-<div className="signal-sort-bar">
-  <label className="home-card-meta">
-    Ranking
-  </label>
+      <div className="signal-sort-bar">
+        <label className="home-card-meta">
+          Ranking
+        </label>
 
-  <select
-    value={sortMode}
-    onChange={(e) => setSortMode(e.target.value)}
-    className="signal-sort"
-  >
-    <option value="latest">
-      Latest
-    </option>
-
-    <option value="important">
-      Most Important
-    </option>
-
-    <option value="transformative">
-      Most Transformative
-    </option>
-  </select>
-</div>
+        <select
+          value={sortMode}
+          onChange={(event) => setSortMode(event.target.value)}
+          className="signal-sort"
+        >
+          <option value="latest">Latest</option>
+          <option value="important">Highest ArcheNova Score</option>
+          <option value="transformative">Highest Civilization Impact</option>
+          <option value="infrastructure">Highest Infrastructure Impact</option>
+          <option value="adaptive">Highest Adaptive Capacity</option>
+        </select>
+      </div>
 
       <div className="feed-list">
         {visibleItems.length ? (
           visibleItems.map((item) => {
-            const functionCategory = normalizeFunction(item.category);
+            const functionCategory = normalizeFunction(
+              item.civilizationFunction || item.category
+            );
 
             return (
               <a
@@ -218,7 +249,7 @@ export default function ArcheNovaSignalsFeed({
                 </div>
 
                 <div className="feed-source">
-                  Source: {item.source}
+                  Source: {item.source} · Date: {formatDate(item.ts)}
                 </div>
 
                 <div className="feed-title">{item.title}</div>
@@ -227,6 +258,7 @@ export default function ArcheNovaSignalsFeed({
                   <div className="signal-score-box signal-score-box-advanced">
                     <div className="signal-score-main">
                       <span>ArcheNova Score</span>
+
                       <span className="signal-score-overall">
                         {(item.score.overall ?? 0).toFixed(1)} / 10
                       </span>
@@ -289,13 +321,36 @@ export default function ArcheNovaSignalsFeed({
                   <p>{item.observation}</p>
                 </div>
 
-                <div className="signal-section">
-                  <strong>Implication</strong>
-                  <p>{item.implication}</p>
-                </div>
+                {item.whyItMatters && (
+                  <div className="signal-section">
+                    <strong>Why It Matters</strong>
+                    <p>{item.whyItMatters}</p>
+                  </div>
+                )}
+
+                {item.strategicRelevance && (
+                  <div className="signal-section">
+                    <strong>Strategic Relevance</strong>
+                    <p>{item.strategicRelevance}</p>
+                  </div>
+                )}
+
+                {item.capitalImplication && (
+                  <div className="signal-section">
+                    <strong>Capital Implication</strong>
+                    <p>{item.capitalImplication}</p>
+                  </div>
+                )}
+
+                {item.watchpoint && (
+                  <div className="signal-section">
+                    <strong>Watchpoint</strong>
+                    <p>{item.watchpoint}</p>
+                  </div>
+                )}
 
                 <div className="signal-section">
-                  <strong>Civilization Relevance</strong>
+                  <strong>ArcheNova Interpretation</strong>
                   <p>{item.commentary}</p>
                 </div>
               </a>
