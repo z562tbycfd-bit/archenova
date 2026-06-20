@@ -81,29 +81,6 @@ export default function Home() {
   <ArcheNovaDiscoverySlider />
 </section>
 
-{/* =========================
-    PAGE : ARCHENOVA EPISTEME PORTAL
-   ========================= */}
-<section
-  id="home-episteme"
-  className="home-page episteme-section"
-  data-home-section
->
-  <div className="episteme-section-inner">
-    <Link href="/episteme" className="episteme-portal">
-      <img
-        src="/images/episteme.jpeg"
-        alt="Episteme"
-        className="episteme-image"
-      />
-
-      <div className="episteme-overlay">
-        <span className="home-section-label">EPISTEME</span>
-      </div>
-    </Link>
-  </div>
-</section>
-
       {/* =========================
     PAGE : ARCHENOVA CIVILIZATION ARCHITECTURE
    ========================= */}
