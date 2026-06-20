@@ -23,7 +23,7 @@ type Signal = {
   };
 };
 
-function normalizeFunction(category: string) {
+function normalizeFunction(category = "") {
   if (
     category === "Synchronization Systems" ||
     category === "Civilization Engineering"
@@ -34,7 +34,7 @@ function normalizeFunction(category: string) {
   return category || "Unknown";
 }
 
-function countBy<T extends string>(items: T[]) {
+function countBy(items: string[]) {
   const counts: Record<string, number> = {};
 
   for (const item of items) {
@@ -51,8 +51,6 @@ export default function IntelligenceDashboardPage() {
   const [updated, setUpdated] = useState("—");
 
   useEffect(() => {
-    let cancel = false;
-
     async function load() {
       try {
         const res = await fetch("/data/signals.json", {
@@ -61,128 +59,157 @@ export default function IntelligenceDashboardPage() {
 
         const data = await res.json();
 
-        if (!cancel && data?.ok) {
+        if (data?.ok) {
           setSignals(data.items || []);
           setUpdated(
-            data.updated
-              ? new Date(data.updated).toLocaleString()
-              : "—"
+            data.updated ? new Date(data.updated).toLocaleString() : "—"
           );
         }
       } catch {
-        if (!cancel) {
-          setSignals([]);
-          setUpdated("—");
-        }
+        setSignals([]);
       }
     }
 
     load();
-
-    return () => {
-      cancel = true;
-    };
   }, []);
 
-  const topSignals = useMemo(() => {
-    return [...signals]
-      .sort(
-        (a, b) =>
-          (b.score?.overall || 0) -
-          (a.score?.overall || 0)
-      )
-      .slice(0, 10);
-  }, [signals]);
+  const reports = generatedResearchReports as any[];
 
-  const topSources = useMemo(() => {
-    return countBy(signals.map((item) => item.source)).slice(0, 10);
-  }, [signals]);
+  const topSignals = useMemo(
+    () =>
+      [...signals]
+        .sort((a, b) => (b.score?.overall || 0) - (a.score?.overall || 0))
+        .slice(0, 8),
+    [signals]
+  );
 
-  const topFunctions = useMemo(() => {
-    return countBy(
-      signals.map((item) =>
-        normalizeFunction(
-          item.civilizationFunction || item.category
+  const topReports = useMemo(
+    () =>
+      [...reports]
+        .sort(
+          (a, b) =>
+            (b.archeNovaAssessment?.overall || 0) -
+            (a.archeNovaAssessment?.overall || 0)
         )
-      )
-    ).slice(0, 10);
-  }, [signals]);
+        .slice(0, 8),
+    [reports]
+  );
 
-  const topCapitalSignals = useMemo(() => {
-    return [...signals]
-      .filter((item) => item.capitalImplication)
-      .sort(
-        (a, b) =>
-          (b.score?.infrastructureImpact || 0) +
-          (b.score?.civilizationImpact || 0) -
-          ((a.score?.infrastructureImpact || 0) +
-            (a.score?.civilizationImpact || 0))
-      )
-      .slice(0, 6);
-  }, [signals]);
+  const topSources = useMemo(
+    () => countBy(signals.map((item) => item.source)).slice(0, 8),
+    [signals]
+  );
 
-  const topWatchpoints = useMemo(() => {
-    return [...signals]
-      .filter((item) => item.watchpoint)
-      .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-      .slice(0, 6);
-  }, [signals]);
+  const topFunctions = useMemo(
+    () =>
+      countBy(
+        signals.map((item) =>
+          normalizeFunction(item.civilizationFunction || item.category)
+        )
+      ).slice(0, 8),
+    [signals]
+  );
 
-  const topReports = useMemo(() => {
-    return [...generatedResearchReports]
-      .sort(
-        (a, b) =>
-          (b.archeNovaAssessment?.overall || 0) -
-          (a.archeNovaAssessment?.overall || 0)
-      )
-      .slice(0, 10);
-  }, []);
+  const leadingSignal = topSignals[0];
+
+  const capitalSignals = useMemo(
+    () =>
+      [...signals]
+        .filter((item) => item.capitalImplication)
+        .sort(
+          (a, b) =>
+            (b.score?.infrastructureImpact || 0) +
+            (b.score?.civilizationImpact || 0) -
+            ((a.score?.infrastructureImpact || 0) +
+              (a.score?.civilizationImpact || 0))
+        )
+        .slice(0, 6),
+    [signals]
+  );
+
+  const watchpoints = useMemo(
+    () =>
+      [...signals]
+        .filter((item) => item.watchpoint)
+        .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+        .slice(0, 6),
+    [signals]
+  );
 
   return (
     <main className="page-standard">
       <div className="page-head">
         <span className="home-section-label">
-          INTELLIGENCE DASHBOARD
+          CIVILIZATION INTELLIGENCE LOOP
         </span>
 
         <h1>ArcheNova Intelligence Dashboard</h1>
 
         <p className="page-lead">
-          A decision dashboard for identifying the most important
-          signals, reports, sources, civilization functions, capital
-          opportunities, and watchpoints across the ArcheNova
-          Intelligence Platform.
+          ArcheNova converts observation into signals, signals into reports,
+          reports into horizon intelligence, and horizon intelligence into
+          institutional and capital decision support.
         </p>
 
-        <p className="page-lead dim">
-          Updated: {updated}
-        </p>
+        <p className="page-lead dim">Updated: {updated}</p>
       </div>
 
       <section className="glass-block">
-        <h2>Dashboard Overview</h2>
+        <h2>Civilization Intelligence Loop</h2>
 
         <div className="research-report-grid">
           <div className="research-report-card">
-            <h3>Active Signals</h3>
-            <p>{signals.length}</p>
+            <h3>1. Observation</h3>
+            <p>{topSources.length} active source clusters</p>
           </div>
 
           <div className="research-report-card">
-            <h3>Generated Reports</h3>
-            <p>{generatedResearchReports.length}</p>
+            <h3>2. Signals</h3>
+            <p>{signals.length} structured signals</p>
           </div>
 
           <div className="research-report-card">
-            <h3>Top Source</h3>
-            <p>{topSources[0]?.name ?? "—"}</p>
+            <h3>3. Reports</h3>
+            <p>{reports.length} generated reports</p>
           </div>
 
           <div className="research-report-card">
-            <h3>Dominant Function</h3>
-            <p>{topFunctions[0]?.name ?? "—"}</p>
+            <h3>4. Decision Layer</h3>
+            <p>{leadingSignal?.title ?? "Awaiting signal"}</p>
           </div>
         </div>
+      </section>
+
+      <section className="glass-block">
+        <h2>Current Strategic Priority</h2>
+
+        {leadingSignal ? (
+          <Link
+            href={`/intelligence-platform/signals/${leadingSignal.id}`}
+            className="feed-row wide"
+          >
+            <div className="feed-source">
+              {leadingSignal.source} ·{" "}
+              {normalizeFunction(
+                leadingSignal.civilizationFunction || leadingSignal.category
+              )}
+            </div>
+
+            <div className="feed-title">{leadingSignal.title}</div>
+
+            <div className="feed-summary">
+              Score: {(leadingSignal.score?.overall || 0).toFixed(1)} / 10
+            </div>
+
+            {leadingSignal.whyItMatters && (
+              <div className="feed-summary">
+                {leadingSignal.whyItMatters}
+              </div>
+            )}
+          </Link>
+        ) : (
+          <div className="feed-empty">No priority signal available.</div>
+        )}
       </section>
 
       <section className="glass-block">
@@ -197,24 +224,14 @@ export default function IntelligenceDashboardPage() {
             >
               <div className="feed-source">
                 {item.source} ·{" "}
-                {normalizeFunction(
-                  item.civilizationFunction || item.category
-                )}
+                {normalizeFunction(item.civilizationFunction || item.category)}
               </div>
 
-              <div className="feed-title">
-                {item.title}
-              </div>
+              <div className="feed-title">{item.title}</div>
 
               <div className="feed-summary">
                 Score: {(item.score?.overall || 0).toFixed(1)} / 10
               </div>
-
-              {item.whyItMatters && (
-                <div className="feed-summary">
-                  {item.whyItMatters}
-                </div>
-              )}
             </Link>
           ))}
         </div>
@@ -234,19 +251,10 @@ export default function IntelligenceDashboardPage() {
                 {report.source} · {report.category}
               </div>
 
-              <div className="feed-title">
-                {report.title}
-              </div>
-
-              <div className="feed-summary">
-                Report Score:{" "}
-                {(report.archeNovaAssessment?.overall || 0).toFixed(1)} / 10
-              </div>
+              <div className="feed-title">{report.title}</div>
 
               {report.coreInsight && (
-                <div className="feed-summary">
-                  {report.coreInsight}
-                </div>
+                <div className="feed-summary">{report.coreInsight}</div>
               )}
             </Link>
           ))}
@@ -254,14 +262,11 @@ export default function IntelligenceDashboardPage() {
       </section>
 
       <section className="glass-block">
-        <h2>Source Distribution</h2>
+        <h2>Source Intelligence</h2>
 
         <div className="research-report-grid">
           {topSources.map((item) => (
-            <div
-              key={item.name}
-              className="research-report-card"
-            >
+            <div key={item.name} className="research-report-card">
               <h3>{item.name}</h3>
               <p>{item.count} signals</p>
             </div>
@@ -274,10 +279,7 @@ export default function IntelligenceDashboardPage() {
 
         <div className="research-report-grid">
           {topFunctions.map((item) => (
-            <div
-              key={item.name}
-              className="research-report-card"
-            >
+            <div key={item.name} className="research-report-card">
               <h3>{item.name}</h3>
               <p>{item.count} signals</p>
             </div>
@@ -286,22 +288,20 @@ export default function IntelligenceDashboardPage() {
       </section>
 
       <section className="glass-block">
-        <h2>Capital Opportunity Watch</h2>
+        <h2>Capital / Institute Watch</h2>
 
         <div className="feed-list">
-          {topCapitalSignals.map((item) => (
+          {capitalSignals.map((item) => (
             <Link
               key={item.id}
               href={`/intelligence-platform/signals/${item.id}`}
               className="feed-row wide"
             >
               <div className="feed-source">
-                {item.source} · Capital Signal
+                {item.source} · Opportunity Watch
               </div>
 
-              <div className="feed-title">
-                {item.title}
-              </div>
+              <div className="feed-title">{item.title}</div>
 
               <div className="feed-summary">
                 {item.capitalImplication}
@@ -312,10 +312,10 @@ export default function IntelligenceDashboardPage() {
       </section>
 
       <section className="glass-block">
-        <h2>Watchpoints</h2>
+        <h2>Strategic Watchpoints</h2>
 
         <div className="feed-list">
-          {topWatchpoints.map((item) => (
+          {watchpoints.map((item) => (
             <Link
               key={item.id}
               href={`/intelligence-platform/signals/${item.id}`}
@@ -325,23 +325,16 @@ export default function IntelligenceDashboardPage() {
                 {item.source} · Watchpoint
               </div>
 
-              <div className="feed-title">
-                {item.title}
-              </div>
+              <div className="feed-title">{item.title}</div>
 
-              <div className="feed-summary">
-                {item.watchpoint}
-              </div>
+              <div className="feed-summary">{item.watchpoint}</div>
             </Link>
           ))}
         </div>
       </section>
 
       <div className="page-foot">
-        <Link
-          href="/intelligence-platform"
-          className="back-link"
-        >
+        <Link href="/intelligence-platform" className="back-link">
           ← Back to Intelligence Platform
         </Link>
       </div>
