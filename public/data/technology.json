@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-20T00:11:53.357Z",
+  "updated": "2026-06-20T01:33:16.760Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -75,6 +75,14 @@
       "categoryId": "space"
     },
     {
+      "source": "IAEA News",
+      "title": "Update 354 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-354-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1781872852000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The Download: AI bottleneck debates, and BCI trials take off",
       "url": "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
@@ -89,6 +97,62 @@
       "summary": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
       "ts": 1781870438000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UNESCO launches consultation on fair payment for news in the digital age",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167771",
+      "summary": "UN cultural agency UNESCO has launched a global consultation process to inform its Draft Guidance on Fair Compensation for News, particularly as online platforms and artificial intelligence (AI) increasingly rely on jour…",
+      "ts": 1781870400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Old and new challenges for the Human Rights Council as it turns 20",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167769",
+      "summary": "It’s 20 years to the day since the UN Human Rights Council began its work as the world’s principal forum tasked with promoting and defending fundamental rights everywhere, particularly the world’s most vulnerable people.",
+      "ts": 1781870400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN welcomes fresh Lebanon ceasefire reports as rights experts urge Iran accountability",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167768",
+      "summary": "The United Nations has welcomed reports of a new ceasefire agreement between Israel and Hezbollah on Friday while warning that civilians on the ground are still fleeing amid ongoing insecurity.",
+      "ts": 1781870400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World Refugee Day: UN calls for renewed commitment and solidarity",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167766",
+      "summary": "The UN High Commissioner for Refugees has called on the international community to strengthen support for the nearly 42 million people worldwide who have fled their home countries to escape conflict, violence or persecut…",
+      "ts": 1781870400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo: Efforts ramp up as Ebola outbreak accelerates beyond borders",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167765",
+      "summary": "The spread of Ebola is accelerating in the eastern Democratic Republic of the Congo (DRC) amid continued armed violence, posing a grave and growing risk to the region, UN agencies warned on Friday.",
+      "ts": 1781870400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza: Sneeze and you might get shot, warns UNICEF in alert on child killings",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167760",
+      "summary": "After another deadly night of clashes in Lebanon, aid agencies issued a new alert for Gaza, where 265 Palestinian children have been killed since a ceasefire was announced in October 2025.",
+      "ts": 1781870400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Highlights Efforts to Expand Access to Cancer Care at World Health Assembly",
+      "url": "http://www.iaea.org/newscenter/news/iaea-highlights-efforts-to-expand-access-to-cancer-care-at-world-health-assembly",
+      "summary": "",
+      "ts": 1781868730000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -113,6 +177,14 @@
       "summary": "A startup has acquired an aircraft to offer commercial parabolic flight services even as NASA seeks to acquire its own aircraft for reduced-gravity research. The post Mu-g Technologies enters the parabolic flight busines…",
       "ts": 1781865049000,
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "What Are Particle Accelerators?",
+      "url": "http://www.iaea.org/newscenter/news/what-are-particle-accelerators",
+      "summary": "Particle accelerators produce and accelerate beams of charged particles, such as electrons, protons and ions, of atomic and sub-atomic size.",
+      "ts": 1781861400000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -177,6 +249,22 @@
       "summary": "Austrian satellite propulsion startup Gate Space has won 6.3 million euros in funding from Europe’s government-backed accelerator program, joining a wave of European companies attracting capital for greater space soverei…",
       "ts": 1781852400000,
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Meet the Winners of the IAEA Innovations in Nuclear Fuel Supply Chain Challenge",
+      "url": "http://www.iaea.org/newscenter/news/meet-the-winners-of-the-iaea-innovations-in-nuclear-fuel-supply-chain-challenge",
+      "summary": "Four winning projects in the IAEA Innovations in Nuclear Fuel Supply Chain Challenge showcase new ideas to strengthen nuclear fuel supply chains and support the future of clean energy.",
+      "ts": 1781852400000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Project Launched on Use of Nuclear Technique to Target New World Screwworm Outbreak in Central America, Mexico and the United States",
+      "url": "http://www.iaea.org/newscenter/pressreleases/project-launched-on-use-of-nuclear-technique-to-target-new-world-screwworm-outbreak-in-central-america-mexico-and-the-united-states",
+      "summary": "",
+      "ts": 1781846902000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -331,14 +419,6 @@
       "categoryId": "space"
     },
     {
-      "source": "Nature Medicine",
-      "title": "Author Correction: MAGE-A4/MAGE-A8-targeted TCR-based bispecific T cell engager in recurrent and/or refractory solid tumors: a phase 1 trial",
-      "url": "https://www.nature.com/articles/s41591-026-04519-y",
-      "summary": "",
-      "ts": 1781827200000,
-      "categoryId": "bio"
-    },
-    {
       "source": "STAT",
       "title": "STAT+: CMS recalculates Medicare Advantage star ratings again, adding more volatility to program",
       "url": "https://www.statnews.com/2026/06/18/medicare-advantage-star-ratings-recalculated-volatility-industry-lawsuits/?utm_campaign=rss",
@@ -369,6 +449,14 @@
       "summary": "NASA has selected eight new companies and will acquire new data products from six existing Commercial Satellite Data Acquisition contract holders to expand the range of commercial satellite data available to researchers,…",
       "ts": 1781813621000,
       "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
+      "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection/",
+      "summary": "In a consequential grid infrastructure decision, the Federal Energy Regulatory Commission (FERC) today issued a major milestone on large-load interconnection impacting how those building AI factories, semiconductor fabri…",
+      "ts": 1781812827000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -555,6 +643,22 @@
       "categoryId": "bio"
     },
     {
+      "source": "NVIDIA",
+      "title": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
+      "url": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
+      "summary": "The digital era gave the advertising and marketing industry speed; the AI era is giving it autonomous operations. For companies building next-generation technologies for advertising and marketing, the question is no long…",
+      "ts": 1781787643000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Sync and Stream: GeForce NOW Connects to Members’ Game Libraries Across Devices",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-game-stores/",
+      "summary": "Play favorite titles from popular game libraries, keep progress synced and jump back into gaming sessions on virtually any device. That’s the power of GeForce NOW cloud gaming. From providing access to members’ favorite …",
+      "ts": 1781787632000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "What the satellite servicing economy can borrow from carbon credits",
       "url": "https://spacenews.com/what-the-satellite-servicing-economy-can-borrow-from-carbon-credits/",
@@ -603,124 +707,20 @@
       "categoryId": "bio"
     },
     {
-      "source": "STAT",
-      "title": "Six of the biggest health news stories today",
-      "url": "https://www.statnews.com/2026/06/18/health-news-high-end-infant-formula-synthetic-opioids-ftc/?utm_campaign=rss",
-      "summary": "High-end infant formula scrutiny, the spread of synthetic opioids, and more health news from Morning Rounds",
-      "ts": 1781783987000,
-      "categoryId": "bio"
+      "source": "United Nations News",
+      "title": "UN upholds freedom of movement for peacekeepers in Lebanon",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167758",
+      "summary": "The United Nations has again called for freedom of movement for its peacekeepers in Lebanon who continue to closely monitor developments in the south of the country, including in the wake of the recent provisional agreem…",
+      "ts": 1781784000000,
+      "categoryId": "global-governance"
     },
     {
-      "source": "NASA",
-      "title": "Hubble Glimpses Merging Galaxy Clusters",
-      "url": "https://science.nasa.gov/missions/hubble/hubble-glimpses-merging-galaxy-clusters/",
-      "summary": "This NASA Hubble Space Telescope image features a galaxy cluster, called CL0016+1609 or MACS J0018.5+1626, that is very bright at X-ray wavelengths and is one of the most extensively studied clusters at X-ray and radio w…",
-      "ts": 1781782615000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Blue Origin begins rebuilding New Glenn pad",
-      "url": "https://spacenews.com/blue-origin-begins-rebuilding-new-glenn-pad/",
-      "summary": "Blue Origin has started rebuilding a launch pad severely damaged in a New Glenn explosion less than three weeks ago as it works to resume launches by year’s end The post Blue Origin begins rebuilding New Glenn pad appear…",
-      "ts": 1781780508000,
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Improving health intelligence in ChatGPT",
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "ts": 1781780400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Quantum Space wins Pentagon contract to develop orbital refueling spacecraft",
-      "url": "https://spacenews.com/quantum-space-wins-pentagon-contract-to-develop-orbital-refueling-spacecraft/",
-      "summary": "The company plans to deliver a fuel-transfer vehicle to the U.S. Space Force by 2028 The post Quantum Space wins Pentagon contract to develop orbital refueling spacecraft appeared first on SpaceNews.",
-      "ts": 1781780400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In pancreatic cancer, Patrick Soon-Shiong makes promises he has not kept",
-      "url": "https://www.statnews.com/2026/06/18/patrick-soon-shiong-pancreatic-cancer-abivax-concerns/?utm_campaign=rss",
-      "summary": "A wide gap exists between what Patrick Soon-Shiong says his cancer drugs can achieve and what they actually do, STAT's Adam Feuerstein writes.",
-      "ts": 1781778600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Geoengineering still faces major practical challenges",
-      "url": "https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges/",
-      "summary": "Solar geoengineering is often portrayed as a sort of emergency brake. Something along the lines of Pull in case of climate emergency to scatter light-reflecting particles to bounce sunlight out of the atmosphere and cool…",
-      "ts": 1781776800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The search for dark matter has been blown wide open",
-      "url": "https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open/",
-      "summary": "Underneath an Apennine massif, below the Jinping Mountains of Sichuan, and at the bottom of a South Dakota mine, there is a cosmic hunt afoot. Isolated deep beneath these rocky shields, massive detectors filled with liqu…",
-      "ts": 1781773200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Super-potent synthetic opioids called nitazenes are spreading across the U.S.",
-      "url": "https://www.statnews.com/2026/06/18/nitazenes-deadly-synthetic-opioids-rapid-spread-united-states/?utm_campaign=rss",
-      "summary": "Overdose deaths confirmed to involve nitazenes have risen sharply in the U.S., from 27 in 2020 to 409 in 2024, according to the CDC",
-      "ts": 1781773200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Congress should embrace strategic health diplomacy",
-      "url": "https://www.statnews.com/2026/06/18/strategic-health-diplomacy-congress-oversight-ebola-hantavirus/?utm_campaign=rss",
-      "summary": "“Improving global health should be a top policy priority of the United States,” write Anand Parekh, Tom Daschle, and Bill Frist.",
-      "ts": 1781771413000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "What’s next for GLP-1 weight loss drugs?",
-      "url": "https://www.statnews.com/2026/06/18/weight-loss-drug-market-update-status-report-alex-hogan/?utm_campaign=rss",
-      "summary": "What’s next for GLP-1 weight loss drugs? Alex Hogan explores on the new episode of STATus Report. Watch now.",
-      "ts": 1781771400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Senate Democrats demand HHS provide records on federal vaccine policy",
-      "url": "https://www.statnews.com/2026/06/18/rfk-jr-vaccine-policy-probe-senate-democrats/?utm_campaign=rss",
-      "summary": "Senate Democrats open an inquiry into the Trump administration’s remaking of U.S. vaccine policy, demanding officials produce records by next week.",
-      "ts": 1781771400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "New infant botulism outbreak puts fancy formulas under scrutiny",
-      "url": "https://www.statnews.com/2026/06/18/byheart-nara-botulism-outbreaks-premium-baby-formula-safety/?utm_campaign=rss",
-      "summary": "A new infant botulism outbreak puts fancy formulas that position their products as safer than other options under scrutiny.",
-      "ts": 1781771400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: AI’s growing appetite for power is a public health issue. Here’s a fix",
-      "url": "https://www.statnews.com/2026/06/18/ai-energy-water-usage-public-health-electricity-policy/?utm_campaign=rss",
-      "summary": "“AI is creating a new and largely overlooked strain on something fundamental to health,” write Sten H. Vermund and Patricia J. Kissinger.",
-      "ts": 1781771400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "ts": 1781769600000,
-      "categoryId": "ai-compute"
+      "source": "United Nations News",
+      "title": "Libya’s political process regains momentum, but window for action is narrowing, UN envoy warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167757",
+      "summary": "Libya has been mired in political dysfunction since the collapse of Muammar Gaddafi’s regime in 2011, which shattered State institutions and triggered recurring struggles over legitimacy and power.",
+      "ts": 1781784000000,
+      "categoryId": "global-governance"
     }
   ],
   "categories": [
@@ -737,12 +737,20 @@
       "name": "Bio"
     },
     {
-      "id": "governance",
-      "name": "Governance"
+      "id": "global-governance",
+      "name": "Global Governance"
     },
     {
-      "id": "civilization",
-      "name": "Civilization"
+      "id": "development-infrastructure",
+      "name": "Development & Infrastructure"
+    },
+    {
+      "id": "energy-climate",
+      "name": "Energy & Climate"
+    },
+    {
+      "id": "security-risk",
+      "name": "Security & Risk"
     }
   ]
 }

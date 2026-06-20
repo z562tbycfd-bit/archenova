@@ -55,6 +55,7 @@ const SIGNAL_CATEGORIES = [
       { id: "aps-prl",name: "APS PRL",url: "https://feeds.aps.org/rss/recent/prl.xml",},
       { id: "aps-prx",name: "APS PRX",url: "https://feeds.aps.org/rss/recent/prx.xml",},
       { id: "aps-prapplied",name: "APS PR Applied",url: "https://feeds.aps.org/rss/recent/prapplied.xml",},
+      { id: "nature-communications",name: "Nature Communications", url: "https://www.nature.com/ncomms.rss",},
     ],
   },
   {
@@ -64,6 +65,8 @@ const SIGNAL_CATEGORIES = [
       { id: "openai", name: "OpenAI", url: "https://openai.com/news/rss.xml" },
       { id: "mittr", name: "MIT Technology Review", url: "https://www.technologyreview.com/feed/" },
       { id: "semianalysis", name: "SemiAnalysis", url: "https://semianalysis.com/feed/" },
+      { id: "nvidia",name: "NVIDIA", url: "https://blogs.nvidia.com/feed/",},
+      { id: "semianalysis",name: "SemiAnalysis",url: "https://semianalysis.com/feed/",},
     ],
   },
   {
@@ -80,24 +83,39 @@ const SIGNAL_CATEGORIES = [
     name: "Bio",
     sources: [
       { id: "cell", name: "Cell", url: "https://www.cell.com/cell/current.rss" },
-      { id: "nature-medicine", name: "Nature Medicine", url: "https://www.nature.com/nm.rss" },
       { id: "stat", name: "STAT", url: "https://www.statnews.com/feed/" },
       { id: "genengnews", name: "Genetic Engineering News", url: "https://www.genengnews.com/feed/" },
       { id: "arxiv-qbio", name: "arXiv q-bio", url: "https://rss.arxiv.org/rss/q-bio" },
     ],
   },
   {
-    id: "governance",
-    name: "Governance",
-    sources: [
-    ],
-  },
-  {
-    id: "civilization",
-    name: "Civilization",
-    sources: [
-    ],
-  },
+  id: "global-governance",
+  name: "Global Governance",
+  sources: [
+    { id: "un-news",name: "United Nations News",url: "https://news.un.org/feed/subscribe/en/news/all/rss.xml",},
+  ],
+},
+{
+  id: "development-infrastructure",
+  name: "Development & Infrastructure",
+  sources: [
+  ],
+},
+{
+  id: "energy-climate",
+  name: "Energy & Climate",
+  sources: [
+    { id: "iaea-news",name: "IAEA News",url: "https://www.iaea.org/feeds/news",},
+    { id: "nature-energy",name: "Nature Energy",url: "https://www.nature.com/nenergy.rss",},
+  ],
+},
+{
+  id: "security-risk",
+  name: "Security & Risk",
+  sources: [
+    { id: "rand-defense",name: "RAND Defense",url: "https://www.rand.org/topics/national-security.rss",},
+  ],
+},
 ];
 
 const SCIENCE_SOURCES =
@@ -132,6 +150,13 @@ const SOURCE_LIMITS = {
   "arXiv AI": 20,
   "arXiv Quantum": 20,
   "Cell": 20,
+  "United Nations News": 20,
+  "IAEA News": 20,
+  "RAND Defense": 20,
+  "Nature Communications": 20,
+  "Nature Energy": 20,
+  "SemiAnalysis": 20,
+  "NVIDIA": 20,
   };
 
 function applySourceQuota(items, totalLimit = 100) {

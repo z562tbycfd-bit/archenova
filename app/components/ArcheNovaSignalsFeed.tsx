@@ -44,11 +44,10 @@ function slugify(text: string) {
 }
 
 function normalizeFunction(category: string) {
-  if (category === "Synchronization Systems") {
-    return "Civilization Coordination";
-  }
-
-  if (category === "Civilization Engineering") {
+  if (
+    category === "Synchronization Systems" ||
+    category === "Civilization Engineering"
+  ) {
     return "Civilization Coordination";
   }
 
@@ -154,19 +153,20 @@ export default function ArcheNovaSignalsFeed({
         ))}
       </div>
 
-      <div className="signal-filter-bar">
-        {sources.map((item) => (
-          <button
-            key={item}
-            type="button"
-            className={`signal-filter ${
-              source === item ? "active" : ""
-            }`}
-            onClick={() => setSource(item)}
-          >
-            {item === "all" ? "All Sources" : item}
-          </button>
-        ))}
+      <div className="signal-sort-bar">
+        <label className="home-card-meta">Source</label>
+
+        <select
+          value={source}
+          onChange={(event) => setSource(event.target.value)}
+          className="signal-sort"
+        >
+          {sources.map((item) => (
+            <option key={item} value={item}>
+              {item === "all" ? "All Sources" : item}
+            </option>
+          ))}
+        </select>
       </div>
 
       <div className="signal-sort-bar">
