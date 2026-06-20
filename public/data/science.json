@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-20T13:34:17.073Z",
+  "updated": "2026-06-20T14:24:32.061Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Novel generative AI model enables atomic-scale prediction of protein-protein interactions",
+      "url": "https://phys.org/news/2026-06-generative-ai-enables-atomic-scale.html",
+      "summary": "Proteins are the molecular workhorses of the human body. They perform a vast range of essential functions, from building tissues and transporting molecules to regulating cellular communication and defending against infec…",
+      "ts": 1781964001000
+    },
     {
       "source": "Phys.org",
       "title": "Landback returns of Indigenous lands happening across country, can lead public planning",
@@ -693,13 +700,6 @@
       "title": "cAPM: Continual AI-Assisted Pace-Mapping with Active Learning",
       "url": "https://arxiv.org/abs/2606.19373",
       "summary": "arXiv:2606.19373v1 Announce Type: cross Abstract: Ventricular tachycardia is a life-threatening rhythm disorder and a major cause of sudden cardiac death. Pace-mapping is a clinical procedure for identifying the interven…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Protein Representation Learning with Secondary-Structure and Energy-Filtered Hydrogen-Bond Graphs",
-      "url": "https://arxiv.org/abs/2606.19374",
-      "summary": "arXiv:2606.19374v1 Announce Type: cross Abstract: Graph-based representations are widely used in protein modeling, yet many existing approaches rely primarily on sequence adjacency or geometric proximity, which only part…",
       "ts": 1781928000000
     }
   ],
