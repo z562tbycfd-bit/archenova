@@ -1,6 +1,14 @@
 import Link from "next/link";
 
 const modules = [
+
+  {
+  title: "Dashboard",
+  href: "/intelligence-platform/dashboard",
+  text:
+    "Real-time civilization intelligence dashboard integrating signals, reports, source distribution, capital opportunities, watchlists, and strategic monitoring.",
+  },
+
   {
     title: "Signals",
     href: "/intelligence-platform/signals",
