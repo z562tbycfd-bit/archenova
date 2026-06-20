@@ -5,44 +5,50 @@ const modules = [
     title: "Signals",
     href: "/intelligence-platform/signals",
     text:
-      "Scientific and technological signals ranked by implementation potential, infrastructure impact, forecast trajectories, opportunity space, and civilization significance.",
+      "Scientific and technological signals ranked by implementation potential, infrastructure impact, strategic relevance, adaptive capacity, and civilization significance.",
   },
 
   {
     title: "Reports",
     href: "/intelligence-platform/reports",
     text:
-      "Auto-generated ArcheNova intelligence reports connecting scientific discoveries to implementation pathways, infrastructure formation, and civilization-scale understanding.",
+      "ArcheNova intelligence reports connecting discoveries to implementation pathways, infrastructure formation, capital allocation, and civilization-scale implications.",
   },
 
   {
-  title: "Horizon Map",
-  href: "/intelligence-platform/horizon",
-  text:
-    "Technology horizon mapping across domains, time horizons, readiness levels, and civilization-scale impact for strategic decision-making.",
+    title: "Sources",
+    href: "/intelligence-platform/sources",
+    text:
+      "Curated source architecture covering science, technology, AI, energy, bioengineering, governance, infrastructure, space, and civilization-scale institutions.",
+  },
+
+  {
+    title: "Horizon Map",
+    href: "/intelligence-platform/horizon",
+    text:
+      "Technology horizon mapping across domains, readiness levels, strategic timelines, and civilization-scale impact trajectories.",
   },
 
   {
     title: "Civilization Portfolio",
     href: "/intelligence-platform/portfolio",
     text:
-      "Portfolio-level analysis of strategic domains, capital allocation, risk exposure, priority scoring, and meta allocation pathways.",
+      "Portfolio-level analysis of strategic domains, capital allocation pathways, risk exposure, opportunity concentration, and future capability development.",
   },
 
   {
     title: "Civilization OS",
     href: "/intelligence-platform/os",
     text:
-      "Integrated operating dashboard combining signals, portfolio allocation, capital allocation, risk exposure, priority intelligence, and civilization-scale strategic guidance.",
+      "Integrated operating dashboard combining signals, reports, source intelligence, portfolio allocation, and civilization-scale strategic guidance.",
   },
 
   {
     title: "Civilization Intelligence",
     href: "/intelligence-platform/simulation",
     text:
-    "Civilization-scale simulation, futures exploration, decision intelligence, execution planning, learning systems, governance, trust, coordination, and collective intelligence.",
-},
-
+      "Civilization-scale simulation, futures exploration, strategic planning, collective intelligence, governance architectures, and adaptive decision systems.",
+  },
 ];
 
 export default function IntelligencePlatformPage() {
@@ -56,10 +62,10 @@ export default function IntelligencePlatformPage() {
         <h1>ArcheNova Intelligence Platform</h1>
 
         <p className="page-lead">
-          An integrated intelligence layer for observing, ranking,
-          interpreting, and transforming scientific and technological signals
-          into implementation pathways, infrastructure strategies, and
-          civilization-scale understanding.
+          An integrated intelligence architecture for transforming observation
+          into understanding, understanding into capability, capability into
+          infrastructure, and infrastructure into long-term civilizational
+          resilience, freedom, and expansion.
         </p>
       </div>
 
@@ -67,15 +73,16 @@ export default function IntelligencePlatformPage() {
         <h2>Platform Purpose</h2>
 
         <p>
-          ArcheNova Intelligence Platform connects Observation, Signals,
-          Reports, and future Structural AI capabilities into a unified
-          intelligence architecture.
+          ArcheNova Intelligence Platform connects Sources, Signals, Reports,
+          Horizon Mapping, Portfolio Intelligence, and future Structural AI
+          capabilities into a unified civilization intelligence architecture.
         </p>
 
         <p>
-          The objective is not only to identify discoveries, but to understand
-          how discoveries become technologies, infrastructures, institutions,
-          and long-term civilizational capabilities.
+          The objective is not merely to track scientific discoveries, but to
+          understand how discoveries evolve into technologies, institutions,
+          infrastructure systems, adaptive capacity, and civilization-scale
+          capability.
         </p>
       </section>
 
