@@ -1,6 +1,92 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "general-belgian-nobel-laureate-francois-englert-dies-aged-93",
+    "title": "Belgian Nobel laureate Francois Englert dies aged 93",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-belgian-nobel-laureate-francois-englert.html",
+    "summary": "Belgian scientist Francois Englert, a particle physics specialist who won the Nobel Prize in 2013 for his work on the Higgs boson, has died at 93.",
+    "scientificSignal": "Belgian scientist Francois Englert, a particle physics specialist who won the Nobel Prize in 2013 for his work on the Higgs boson, has died at 93.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "ts": 1781939401000
+  },
+  {
+    "slug": "ai-australia-detects-first-case-of-contagious-h5-bird-flu",
+    "title": "Australia detects first case of contagious H5 bird flu",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-06-australia-case-contagious-h5-bird.html",
+    "summary": "Scientists have detected the H5 strain of bird flu in Australia for the first time, the country's agriculture minister said Saturday, meaning the highly contagious variant has now spread to every continent.",
+    "scientificSignal": "Scientists have detected the H5 strain of bird flu in Australia for the first time, the country's agriculture minister said Saturday, meaning the highly contagious variant has now spread to every continent.",
+    "implementationPotential": "Implementation potential lies in moving this AI signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "technologyRoadmap": [
+      "Model capability",
+      "Embodied or operational system",
+      "Deployment into workflows",
+      "Infrastructure integration",
+      "Civilization-scale automation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.8,
+      "engineering": 7.8,
+      "economic": 7.3,
+      "civilization": 8.1,
+      "overall": 7.8,
+      "classification": "Emerging Future Signal"
+    },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "ts": 1781938527000
+  },
+  {
     "slug": "ai-deontic-policies-for-runtime-governance-of-agentic-ai-systems",
     "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
     "category": "AI",
@@ -36,6 +122,11 @@ export const generatedResearchReports =
       "overall": 7.6,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -74,6 +165,11 @@ export const generatedResearchReports =
       "overall": 9.1,
       "classification": "Intelligence Infrastructure Signal"
     },
+    "whyItMatters": "This matters because computation increases prediction, coordination, automation, and strategic intelligence.",
+    "strategicRelevance": "Strategically relevant for AI infrastructure, chips, data centers, simulation, automation, and decision systems.",
+    "capitalImplication": "Capital implication: monitor for opportunities in AI infrastructure, semiconductors, cloud platforms, and computational systems.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -112,6 +208,11 @@ export const generatedResearchReports =
       "overall": 9.5,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Capability Expansion",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -150,6 +251,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -188,6 +294,11 @@ export const generatedResearchReports =
       "overall": 7.6,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -226,6 +337,11 @@ export const generatedResearchReports =
       "overall": 8.9,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -264,6 +380,11 @@ export const generatedResearchReports =
       "overall": 7.6,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -302,6 +423,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -340,6 +466,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -378,6 +509,11 @@ export const generatedResearchReports =
       "overall": 7.6,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -416,6 +552,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -454,6 +595,11 @@ export const generatedResearchReports =
       "overall": 8.9,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -492,6 +638,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -530,6 +681,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -568,6 +724,11 @@ export const generatedResearchReports =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -606,6 +767,11 @@ export const generatedResearchReports =
       "overall": 8.9,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -644,6 +810,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -682,6 +853,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -720,6 +896,11 @@ export const generatedResearchReports =
       "overall": 8.2,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -758,6 +939,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -796,6 +982,11 @@ export const generatedResearchReports =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781897220000
   },
   {
@@ -834,6 +1025,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781885030000
   },
   {
@@ -872,6 +1068,11 @@ export const generatedResearchReports =
       "overall": 9.4,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781880731000
   },
   {
@@ -910,6 +1111,11 @@ export const generatedResearchReports =
       "overall": 7.9,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781877600000
   },
   {
@@ -948,6 +1154,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781877600000
   },
   {
@@ -986,6 +1197,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781877600000
   },
   {
@@ -1024,6 +1240,11 @@ export const generatedResearchReports =
       "overall": 9.7,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781877300000
   },
   {
@@ -1062,6 +1283,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781874600000
   },
   {
@@ -1100,6 +1326,11 @@ export const generatedResearchReports =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781874000000
   },
   {
@@ -1138,6 +1369,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781872852000
   },
   {
@@ -1176,6 +1412,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781871000000
   },
   {
@@ -1214,6 +1455,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781870438000
   },
   {
@@ -1252,6 +1498,11 @@ export const generatedResearchReports =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781870400000
   },
   {
@@ -1290,6 +1541,11 @@ export const generatedResearchReports =
       "overall": 7.6,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781870400000
   },
   {
@@ -1328,6 +1584,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781870400000
   },
   {
@@ -1366,6 +1627,11 @@ export const generatedResearchReports =
       "overall": 7.6,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781870400000
   },
   {
@@ -1404,6 +1670,11 @@ export const generatedResearchReports =
       "overall": 7.3,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781870400000
   },
   {
@@ -1442,6 +1713,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781870400000
   },
   {
@@ -1480,6 +1756,11 @@ export const generatedResearchReports =
       "overall": 8.6,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781868730000
   },
   {
@@ -1518,6 +1799,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781865624000
   },
   {
@@ -1556,6 +1842,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781865134000
   },
   {
@@ -1594,6 +1885,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781865049000
   },
   {
@@ -1632,6 +1928,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781861400000
   },
   {
@@ -1670,6 +1971,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781859600000
   },
   {
@@ -1708,6 +2014,11 @@ export const generatedResearchReports =
       "overall": 9.5,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781859600000
   },
   {
@@ -1746,6 +2057,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781857800000
   },
   {
@@ -1784,6 +2100,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781857800000
   },
   {
@@ -1822,6 +2143,11 @@ export const generatedResearchReports =
       "overall": 8.6,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781857800000
   },
   {
@@ -1860,6 +2186,11 @@ export const generatedResearchReports =
       "overall": 7.3,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781857800000
   },
   {
@@ -1898,6 +2229,11 @@ export const generatedResearchReports =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781856000000
   },
   {
@@ -1936,6 +2272,11 @@ export const generatedResearchReports =
       "overall": 9.4,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781852400000
   },
   {
@@ -1974,6 +2315,11 @@ export const generatedResearchReports =
       "overall": 7.9,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781852400000
   },
   {
@@ -2012,6 +2358,11 @@ export const generatedResearchReports =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781846902000
   },
   {
@@ -2050,6 +2401,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2088,6 +2444,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2126,6 +2487,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2164,6 +2530,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2202,6 +2573,11 @@ export const generatedResearchReports =
       "overall": 8.2,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2240,6 +2616,11 @@ export const generatedResearchReports =
       "overall": 8.9,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2278,6 +2659,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2316,6 +2702,11 @@ export const generatedResearchReports =
       "overall": 9.2,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Capability Expansion",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2354,6 +2745,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2392,6 +2788,11 @@ export const generatedResearchReports =
       "overall": 8.6,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Synchronization Systems",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2430,6 +2831,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Synchronization Systems",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2468,6 +2874,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2506,6 +2917,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2544,6 +2960,11 @@ export const generatedResearchReports =
       "overall": 7.9,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Synchronization Systems",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2582,6 +3003,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2620,6 +3046,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2658,6 +3089,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2696,6 +3132,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000
   },
   {
@@ -2734,6 +3175,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781830258000
   },
   {
@@ -2772,6 +3218,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781821513000
   },
   {
@@ -2810,6 +3261,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781818387000
   },
   {
@@ -2848,6 +3304,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781814385000
   },
   {
@@ -2886,6 +3347,11 @@ export const generatedResearchReports =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781813621000
   },
   {
@@ -2924,6 +3390,11 @@ export const generatedResearchReports =
       "overall": 9.6,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Capability Expansion",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781812827000
   },
   {
@@ -2962,6 +3433,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781812586000
   },
   {
@@ -3000,6 +3476,11 @@ export const generatedResearchReports =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781811925000
   },
   {
@@ -3038,6 +3519,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781811654000
   },
   {
@@ -3076,6 +3562,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781809586000
   },
   {
@@ -3114,6 +3605,11 @@ export const generatedResearchReports =
       "overall": 7.3,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781808131000
   },
   {
@@ -3152,6 +3648,11 @@ export const generatedResearchReports =
       "overall": 8.8,
       "classification": "Industrial Capability Signal"
     },
+    "whyItMatters": "This matters because it may improve civilization’s ability to convert knowledge into reproducible material capability.",
+    "strategicRelevance": "Strategically relevant for industrial capability, supply-chain resilience, automation, and infrastructure formation.",
+    "capitalImplication": "Capital implication: monitor for commercialization pathways in robotics, manufacturing systems, materials, and industrial automation.",
+    "civilizationFunction": "Capability Expansion",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781807390000
   },
   {
@@ -3190,6 +3691,11 @@ export const generatedResearchReports =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781806761000
   },
   {
@@ -3228,6 +3734,11 @@ export const generatedResearchReports =
       "overall": 8.9,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781806286000
   },
   {
@@ -3266,6 +3777,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781805881000
   },
   {
@@ -3304,6 +3820,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781805475000
   },
   {
@@ -3342,6 +3863,11 @@ export const generatedResearchReports =
       "overall": 8.2,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781802000000
   },
   {
@@ -3380,6 +3906,11 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781800200000
   },
   {
@@ -3418,6 +3949,11 @@ export const generatedResearchReports =
       "overall": 7.9,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781799486000
   },
   {
@@ -3456,6 +3992,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781799193000
   },
   {
@@ -3494,6 +4035,11 @@ export const generatedResearchReports =
       "overall": 8.6,
       "classification": "Biological Resilience Signal"
     },
+    "whyItMatters": "This matters because it may improve biological resilience, health systems, longevity, and adaptive capacity.",
+    "strategicRelevance": "Strategically relevant for health infrastructure, biosecurity, diagnostics, therapeutics, and human adaptive capacity.",
+    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotech infrastructure, and healthcare delivery.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781796572000
   },
   {
@@ -3532,6 +4078,11 @@ export const generatedResearchReports =
       "overall": 7.8,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781795971000
   },
   {
@@ -3570,6 +4121,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781795700000
   },
   {
@@ -3608,6 +4164,11 @@ export const generatedResearchReports =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781793466000
   },
   {
@@ -3646,6 +4207,11 @@ export const generatedResearchReports =
       "overall": 8.8,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781793443000
   },
   {
@@ -3684,6 +4250,11 @@ export const generatedResearchReports =
       "overall": 7.6,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781792970000
   },
   {
@@ -3722,83 +4293,12 @@ export const generatedResearchReports =
       "overall": 7.5,
       "classification": "Emerging Future Signal"
     },
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, infrastructure, institutions, or long-term adaptation.",
+    "strategicRelevance": "Strategically relevant as an early signal for research prioritization, monitoring, and future opportunity mapping.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, or infrastructure relevance emerges.",
+    "civilizationFunction": "Adaptive Capacity",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781789322000
-  },
-  {
-    "slug": "general-china-sets-framework-for-advanced-therapeutic-development",
-    "title": "China Sets Framework for Advanced Therapeutic Development",
-    "category": "General",
-    "source": "Genetic Engineering News",
-    "originalUrl": "https://www.genengnews.com/topics/translational-medicine/china-sets-framework-for-advanced-therapeutic-development/",
-    "summary": "China’s Order 818 signals the country’s intent to accelerate local innovation and standardize the drug development environment, thereby becoming a more important player in advanced therapy development and manufacturing. …",
-    "scientificSignal": "China’s Order 818 signals the country’s intent to accelerate local innovation and standardize the drug development environment, thereby becoming a more important player in advanced therapy development and manufacturing. …",
-    "implementationPotential": "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
-    "infrastructureImpact": "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
-    "technologyRoadmap": [
-      "Scientific process discovery",
-      "Prototype manufacturing method",
-      "Automation and quality control",
-      "Industrial production integration",
-      "Resilient manufacturing infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Pilot deployment and industrial validation.",
-      "mid": "5–15 Years: Broad manufacturing integration and automation.",
-      "far": "15–30 Years: Self-optimizing industrial ecosystems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.7,
-      "economic": 9.3,
-      "civilization": 9.1,
-      "overall": 9.1,
-      "classification": "Industrial Capability Signal"
-    },
-    "ts": 1781788815000
-  },
-  {
-    "slug": "bio-how-many-americans-can-afford-high-quality-health-care-a-new-poll-finds-the-numb",
-    "title": "How many Americans can afford high-quality health care? A new poll finds the number has fallen",
-    "category": "Bio",
-    "source": "STAT",
-    "originalUrl": "https://www.statnews.com/2026/06/18/how-many-americans-can-afford-their-healthcare/?utm_campaign=rss",
-    "summary": "A new poll shows only about half of U.S. adults could afford their health care and had access to quality care last year.",
-    "scientificSignal": "A new poll shows only about half of U.S. adults could afford their health care and had access to quality care last year.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 8.3,
-      "economic": 8.8,
-      "civilization": 9.4,
-      "overall": 8.9,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1781788106000
   }
 ];
 
@@ -3840,6 +4340,11 @@ export const archeNovaTopSignals =
       "overall": 9.7,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781877300000
   },
   {
@@ -3878,6 +4383,11 @@ export const archeNovaTopSignals =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781870400000
   },
   {
@@ -3916,6 +4426,11 @@ export const archeNovaTopSignals =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781897220000
   },
   {
@@ -3954,6 +4469,11 @@ export const archeNovaTopSignals =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781813621000
   },
   {
@@ -3992,6 +4512,11 @@ export const archeNovaTopSignals =
       "overall": 9.6,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Capability Expansion",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781812827000
   },
   {
@@ -4030,6 +4555,11 @@ export const archeNovaTopSignals =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781811925000
   },
   {
@@ -4068,6 +4598,11 @@ export const archeNovaTopSignals =
       "overall": 9.5,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Capability Expansion",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000
   },
   {
@@ -4106,6 +4641,11 @@ export const archeNovaTopSignals =
       "overall": 9.5,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781859600000
   },
   {
@@ -4144,6 +4684,11 @@ export const archeNovaTopSignals =
       "overall": 9.4,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781880731000
   },
   {
@@ -4182,6 +4727,11 @@ export const archeNovaTopSignals =
       "overall": 9.4,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781852400000
   }
 ];
@@ -4224,6 +4774,11 @@ export const archeNovaWatchlist =
       "overall": 9.7,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781877300000,
     "trend": "Top Signal",
     "rank": 1
@@ -4264,6 +4819,11 @@ export const archeNovaWatchlist =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781897220000,
     "trend": "High Priority",
     "rank": 2
@@ -4304,6 +4864,11 @@ export const archeNovaWatchlist =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781870400000,
     "trend": "High Priority",
     "rank": 3
@@ -4344,6 +4909,11 @@ export const archeNovaWatchlist =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781813621000,
     "trend": "High Priority",
     "rank": 4
@@ -4384,6 +4954,11 @@ export const archeNovaWatchlist =
       "overall": 9.6,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Capability Expansion",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781812827000,
     "trend": "High Priority",
     "rank": 5
@@ -4424,6 +4999,11 @@ export const archeNovaWatchlist =
       "overall": 9.6,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781811925000,
     "trend": "High Priority",
     "rank": 6
@@ -4464,6 +5044,11 @@ export const archeNovaWatchlist =
       "overall": 9.5,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Capability Expansion",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000,
     "trend": "High Priority",
     "rank": 7
@@ -4504,6 +5089,11 @@ export const archeNovaWatchlist =
       "overall": 9.5,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781859600000,
     "trend": "High Priority",
     "rank": 8
@@ -4544,6 +5134,11 @@ export const archeNovaWatchlist =
       "overall": 9.4,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781880731000,
     "trend": "Stable",
     "rank": 9
@@ -4584,6 +5179,11 @@ export const archeNovaWatchlist =
       "overall": 9.4,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781852400000,
     "trend": "Stable",
     "rank": 10
@@ -4624,6 +5224,11 @@ export const archeNovaWatchlist =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000,
     "trend": "Stable",
     "rank": 11
@@ -4664,6 +5269,11 @@ export const archeNovaWatchlist =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781874000000,
     "trend": "Stable",
     "rank": 12
@@ -4704,6 +5314,11 @@ export const archeNovaWatchlist =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781856000000,
     "trend": "Stable",
     "rank": 13
@@ -4744,6 +5359,11 @@ export const archeNovaWatchlist =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781846902000,
     "trend": "Stable",
     "rank": 14
@@ -4784,6 +5404,11 @@ export const archeNovaWatchlist =
       "overall": 9.3,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781806761000,
     "trend": "Stable",
     "rank": 15
@@ -4824,6 +5449,11 @@ export const archeNovaWatchlist =
       "overall": 9.2,
       "classification": "Civilization Energy Signal"
     },
+    "whyItMatters": "This matters because energy capacity determines the scale, stability, and freedom of advanced civilization.",
+    "strategicRelevance": "Strategically relevant for energy security, industrial scaling, grid resilience, and long-term infrastructure independence.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, and industrial energy.",
+    "civilizationFunction": "Capability Expansion",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781841600000,
     "trend": "Stable",
     "rank": 16
@@ -4864,49 +5494,14 @@ export const archeNovaWatchlist =
       "overall": 9.1,
       "classification": "Intelligence Infrastructure Signal"
     },
+    "whyItMatters": "This matters because computation increases prediction, coordination, automation, and strategic intelligence.",
+    "strategicRelevance": "Strategically relevant for AI infrastructure, chips, data centers, simulation, automation, and decision systems.",
+    "capitalImplication": "Capital implication: monitor for opportunities in AI infrastructure, semiconductors, cloud platforms, and computational systems.",
+    "civilizationFunction": "Civilization Engineering",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781928000000,
     "trend": "Stable",
     "rank": 17
-  },
-  {
-    "slug": "general-china-sets-framework-for-advanced-therapeutic-development",
-    "title": "China Sets Framework for Advanced Therapeutic Development",
-    "category": "General",
-    "source": "Genetic Engineering News",
-    "originalUrl": "https://www.genengnews.com/topics/translational-medicine/china-sets-framework-for-advanced-therapeutic-development/",
-    "summary": "China’s Order 818 signals the country’s intent to accelerate local innovation and standardize the drug development environment, thereby becoming a more important player in advanced therapy development and manufacturing. …",
-    "scientificSignal": "China’s Order 818 signals the country’s intent to accelerate local innovation and standardize the drug development environment, thereby becoming a more important player in advanced therapy development and manufacturing. …",
-    "implementationPotential": "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
-    "infrastructureImpact": "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
-    "technologyRoadmap": [
-      "Scientific process discovery",
-      "Prototype manufacturing method",
-      "Automation and quality control",
-      "Industrial production integration",
-      "Resilient manufacturing infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Pilot deployment and industrial validation.",
-      "mid": "5–15 Years: Broad manufacturing integration and automation.",
-      "far": "15–30 Years: Self-optimizing industrial ecosystems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.7,
-      "economic": 9.3,
-      "civilization": 9.1,
-      "overall": 9.1,
-      "classification": "Industrial Capability Signal"
-    },
-    "ts": 1781788815000,
-    "trend": "Stable",
-    "rank": 18
   },
   {
     "slug": "ai-mda-space-to-buy-blue-canyon-technologies-to-gain-foothold-in-u-s-market",
@@ -4944,9 +5539,14 @@ export const archeNovaWatchlist =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781885030000,
     "trend": "Stable",
-    "rank": 19
+    "rank": 18
   },
   {
     "slug": "space-the-voice-in-orbit-talking-to-astronauts-in-space-esa-explores-20",
@@ -4984,7 +5584,57 @@ export const archeNovaWatchlist =
       "overall": 9,
       "classification": "Expansion Capability Signal"
     },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
     "ts": 1781877600000,
+    "trend": "Stable",
+    "rank": 19
+  },
+  {
+    "slug": "space-nasa-selects-mission-to-study-space-weather-interaction-with-earth-s-atmosphere",
+    "title": "NASA selects mission to study space weather interaction with Earth’s atmosphere",
+    "category": "Space",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/nasa-selects-mission-to-study-space-weather-interaction-with-earths-atmosphere/",
+    "summary": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
+    "scientificSignal": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.5,
+      "engineering": 9.3,
+      "economic": 8.1,
+      "civilization": 9.8,
+      "overall": 9,
+      "classification": "Expansion Capability Signal"
+    },
+    "whyItMatters": "This matters because space systems expand observation, communication, logistics, and long-term civilizational reach.",
+    "strategicRelevance": "Strategically relevant for orbital infrastructure, remote sensing, communications, logistics, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, and orbital infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "ts": 1781870438000,
     "trend": "Stable",
     "rank": 20
   }

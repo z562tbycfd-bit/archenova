@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-20T05:17:36.606Z",
+  "updated": "2026-06-20T08:08:47.072Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Belgian Nobel laureate Francois Englert dies aged 93",
+      "url": "https://phys.org/news/2026-06-belgian-nobel-laureate-francois-englert.html",
+      "summary": "Belgian scientist Francois Englert, a particle physics specialist who won the Nobel Prize in 2013 for his work on the Higgs boson, has died at 93.",
+      "ts": 1781939401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia detects first case of contagious H5 bird flu",
+      "url": "https://phys.org/news/2026-06-australia-case-contagious-h5-bird.html",
+      "summary": "Scientists have detected the H5 strain of bird flu in Australia for the first time, the country's agriculture minister said Saturday, meaning the highly contagious variant has now spread to every continent.",
+      "ts": 1781938527000
+    },
     {
       "source": "arXiv AI",
       "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
@@ -686,20 +700,6 @@
       "title": "Bistable by Construction: Wall-Clock-Calibrated State Monitors Have No Moment-Detection Regime at Agent Cadence",
       "url": "https://arxiv.org/abs/2606.19386",
       "summary": "arXiv:2606.19386v1 Announce Type: cross Abstract: Runtime monitors for autonomous agents commonly threshold an accumulated internal state - a behavioural baseline, a drift statistic, or, in our prior work, a modelled aff…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Interpretable and Verifiable Hardware Generation with LLM-Driven Stepwise Refinement",
-      "url": "https://arxiv.org/abs/2606.19387",
-      "summary": "arXiv:2606.19387v1 Announce Type: cross Abstract: Large language models (LLMs) have achieved remarkable success in software development. However, they are susceptible to hallucinations, meaning that they can introduce su…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Execution-bound advisory automation for agentic AI: a reproducible AIBOM-driven CSAF-VEX framework",
-      "url": "https://arxiv.org/abs/2606.19390",
-      "summary": "arXiv:2606.19390v1 Announce Type: cross Abstract: A protocol driven framework is presented that binds SBOM and AIBOM artefacts to deterministic environment capture and structured runtime telemetry. Exploitability is comp…",
       "ts": 1781928000000
     }
   ],
