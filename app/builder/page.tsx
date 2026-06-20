@@ -138,54 +138,6 @@ export default function ArcheNovaBuilderPage() {
         </Link>
       </section>
 
-      <section className="glass-block builder-cosmos-block">
-        <h2>Reality Realization Loop</h2>
-
-        <div className="research-roadmap">
-          {[
-            "Signal",
-            "Intelligence",
-            "Episteme",
-            "Builder",
-            "Deployment",
-            "Reality",
-          ].map((step, index) => (
-            <div
-              key={step}
-              className="research-roadmap-step"
-            >
-              <div className="research-roadmap-index">
-                {String(index + 1).padStart(2, "0")}
-              </div>
-
-              <div className="research-roadmap-node">
-                {step}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="glass-block">
-        <h2>Long-Term Mission</h2>
-
-        <p>
-          The long-term purpose of Builder is not merely
-          software generation.
-        </p>
-
-        <p>
-          Its purpose is the transformation of possibility
-          into operational reality.
-        </p>
-
-        <p>
-          ArcheNova Builder exists to expand civilization’s
-          capacity to realize knowledge, deploy capability,
-          and continuously convert intelligence into action.
-        </p>
-      </section>
-
       <div className="page-foot">
         <Link href="/home" className="back-link">
           ← Back to Home
