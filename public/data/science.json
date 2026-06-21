@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-21T10:32:29.072Z",
+  "updated": "2026-06-21T13:09:10.986Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Today's housing emergency is nearly 200 years in the making, says new report",
+      "url": "https://phys.org/news/2026-06-today-housing-emergency-years.html",
+      "summary": "Many of the problems facing the more than 134,000 households living in temporary accommodation in England today—including more than 176,000 children—are part of a pattern of failure stretching back nearly 200 years, acco…",
+      "ts": 1782046805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tropical ocean temperatures may drive changes in malaria cases in Malawi",
+      "url": "https://phys.org/news/2026-06-tropical-ocean-temperatures-malaria-cases.html",
+      "summary": "Malaria is one of the world's deadliest infectious diseases. Because it is transmitted by mosquitoes, malaria is extremely sensitive to environmental conditions like rainfall and temperature that affect mosquito survival…",
+      "ts": 1782046803000
+    },
     {
       "source": "Phys.org",
       "title": "Climate change boosts soybean production but worsens bean quality",
@@ -686,20 +700,6 @@
       "title": "Leveraging systems' non-linearity to tackle the scarcity of data in the design of Intelligent Fault Diagnosis Systems",
       "url": "https://arxiv.org/abs/2606.20323",
       "summary": "arXiv:2606.20323v1 Announce Type: new Abstract: Deep Transfer Learning (DTL) allows for the efficient building of Intelligent Fault Diagnosis Systems (IFDS). On the other hand, DTL methods still heavily rely on large amo…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "SoftSkill: Behavioral Compression for Contextual Adaptation",
-      "url": "https://arxiv.org/abs/2606.20333",
-      "summary": "arXiv:2606.20333v1 Announce Type: new Abstract: Agent skills are commonly deployed as natural-language Markdown files that encode answer policies, evidence-use habits, and task procedures. These files are readable and po…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Automating SKILL.md Generation for Computer-Using Agents via Interaction Trajectory Mining",
-      "url": "https://arxiv.org/abs/2606.20363",
-      "summary": "arXiv:2606.20363v1 Announce Type: new Abstract: Explicit skill libraries make computer-using agents easier to inspect, but it remains unclear whether such libraries can be mined from interaction data in a way that improv…",
       "ts": 1781928000000
     }
   ],
