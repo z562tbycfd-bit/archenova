@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-21T17:42:02.351Z",
+  "updated": "2026-06-21T19:46:51.432Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nanoscale CoAl design delivers 6 GPa strength with 15% plastic strain at room temperature",
+      "url": "https://phys.org/news/2026-06-nanoscale-coal-gpa-strength-plastic.html",
+      "summary": "Materials engineers have developed the ability to manipulate structure and matter at the nanoscale for solid-state alloys called intermetallics, making it possible to alter their properties for improved performance.",
+      "ts": 1782068402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "White roofs and urban parks reduce heat in cities, but do not offset extreme global warming",
+      "url": "https://phys.org/news/2026-06-white-roofs-urban-cities-offset.html",
+      "summary": "The implementation of reflective white roofs and new urban parks can significantly reduce temperatures in cities and decrease population vulnerability to heat waves, although these measures are not sufficient to countera…",
+      "ts": 1782066601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Modular nanorobot self-assembles, targets cancer cells and cuts viability",
+      "url": "https://phys.org/news/2026-06-modular-nanorobot-cancer-cells-viability.html",
+      "summary": "A team at the University of Basel, Switzerland, has developed a versatile nanorobot with propulsion and payload modules. The two reusable modules autonomously self-assemble and could be used in medicine or industry.",
+      "ts": 1782064803000
+    },
     {
       "source": "Phys.org",
       "title": "MINDY3: A hub between protein quality control and DNA repair",
@@ -679,27 +700,6 @@
       "title": "Apparent Psychological Profiles of Large Language Models are Largely a Measurement Artifact",
       "url": "https://arxiv.org/abs/2606.20205",
       "summary": "arXiv:2606.20205v1 Announce Type: new Abstract: Psychological instruments designed for humans are increasingly used to assign large language models (LLMs) stable psychological profiles that affect their usability, safety…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Beyond Accuracy: Measuring Logical Compliance of Predictive Models",
-      "url": "https://arxiv.org/abs/2606.20208",
-      "summary": "arXiv:2606.20208v1 Announce Type: new Abstract: Machine learning models are predominantly evaluated through predictive performance metrics such as ranking quality, prediction error, or classification accuracy. While thes…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Augmenting Game AI with Deep Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2606.20210",
-      "summary": "arXiv:2606.20210v1 Announce Type: new Abstract: Immersion in video games depends not only on graphics, audio, and game mechanics, but also on the quality of in-game characters. Producing believable characters, or game AI…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "QMFOL: Benchmarking Large Language Model Reasoning via Quantifiable Monadic First-Order Logic Test Case Generation",
-      "url": "https://arxiv.org/abs/2606.20227",
-      "summary": "arXiv:2606.20227v1 Announce Type: new Abstract: Large Language Models (LLMs) have made significant progress in reasoning, particularly in deductive reasoning, which is crucial for high-stakes decision-making. As models i…",
       "ts": 1781928000000
     }
   ],
