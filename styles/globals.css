@@ -11765,3 +11765,59 @@ html, body {
 .civilization-stack-card-core .civilization-stack-status {
   color: rgba(255, 230, 170, 0.9);
 }
+@media (max-width: 640px) {
+  #home-archenova-ventures .home-section-label {
+    font-size: 0.82rem;
+    letter-spacing: 0.28em;
+    line-height: 1.8;
+    max-width: 86vw;
+    margin-inline: auto;
+  }
+
+  #home-archenova-ventures .home-section-purpose {
+    font-size: 1.02rem;
+    line-height: 1.9;
+    max-width: 82vw;
+    margin: 1.4rem auto 2rem;
+  }
+
+  .civilization-stack-scroll {
+    gap: 1rem;
+    padding: 0.25rem 6vw 1.5rem;
+  }
+
+  .civilization-stack-card {
+    min-width: 82vw;
+    max-width: 82vw;
+    min-height: auto;
+    padding: 1.5rem 1.25rem;
+    border-radius: 22px;
+  }
+
+  .civilization-stack-number {
+    font-size: 0.72rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .civilization-stack-status {
+    font-size: 0.64rem;
+    letter-spacing: 0.18em;
+    margin-bottom: 0.9rem;
+  }
+
+  .civilization-stack-card h3 {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+  }
+
+  .civilization-stack-card p {
+    font-size: 0.98rem;
+    line-height: 1.75;
+  }
+
+  .civilization-stack-card .plaza-hint {
+    margin-top: 1.25rem;
+    font-size: 0.95rem;
+  }
+}
