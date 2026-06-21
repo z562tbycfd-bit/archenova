@@ -12138,3 +12138,62 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+.episteme-universe-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.episteme-universe-hero {
+  position: relative;
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 0 4rem;
+}
+
+.episteme-universe-hero h1 {
+  font-size: clamp(4rem, 14vw, 11rem);
+  line-height: 0.85;
+  margin: 1rem 0;
+  letter-spacing: -0.08em;
+  background: linear-gradient(90deg, #ffffff, #ffe4a3, #8bd0ff, #d0a8ff);
+  background-size: 240% 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: civilizationTextFlow 10s ease-in-out infinite;
+}
+
+.episteme-universe-glow {
+  position: absolute;
+  right: -12%;
+  top: 8%;
+  width: min(72vw, 760px);
+  height: min(72vw, 760px);
+  border-radius: 999px;
+  background:
+    radial-gradient(circle, rgba(255, 230, 170, 0.18), transparent 42%),
+    radial-gradient(circle at 70% 35%, rgba(140, 210, 255, 0.18), transparent 35%),
+    radial-gradient(circle at 40% 75%, rgba(210, 160, 255, 0.14), transparent 30%);
+  filter: blur(24px);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.episteme-status-block {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 230, 170, 0.1), transparent 34%),
+    radial-gradient(circle at 20% 80%, rgba(140, 210, 255, 0.1), transparent 34%),
+    rgba(255, 255, 255, 0.035);
+}
+
+@media (max-width: 760px) {
+  .episteme-universe-hero {
+    min-height: 62vh;
+  }
+
+  .episteme-universe-hero h1 {
+    font-size: clamp(3.5rem, 20vw, 6.5rem);
+    letter-spacing: -0.06em;
+  }
+}
