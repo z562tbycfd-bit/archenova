@@ -1,152 +1,129 @@
 import Link from "next/link";
 
-const cognitive = {
+const core = {
   title: "Episteme",
+  layer: "COGNITIVE CORE",
   subtitle: "Civilization Cognition Engine",
   description:
-    "The central intelligence layer of ArcheNova. Observation, reasoning, synthesis, memory, strategic interpretation, and civilization-scale learning.",
+    "Observation, reasoning, synthesis, memory, strategic interpretation, and civilization-scale learning.",
   href: "/episteme",
 };
 
-const intelligence = [
+const orbitSystems = [
   {
     title: "Research",
+    layer: "DISCOVERY",
     subtitle: "Scientific Discovery Engine",
     description:
-      "Explore scientific discovery, technological signals, and frontier research domains.",
+      "Explores frontier science, technological signals, and reality discovery.",
     href: "/arche-nova-research",
   },
   {
     title: "Intelligence Platform",
+    layer: "INTELLIGENCE",
     subtitle: "Signal Processing Engine",
     description:
-      "Signals, reports, watchlists, horizon scanning, and civilization intelligence.",
+      "Transforms sources into signals, reports, dashboards, horizons, and strategic intelligence.",
     href: "/intelligence-platform",
   },
-];
-
-const execution = [
   {
     title: "Builder",
+    layer: "CREATION",
     subtitle: "Civilization Creation Engine",
     description:
-      "Design, generate, prototype, and deploy systems, software, and future infrastructure.",
+      "Generates code, systems, interfaces, architecture, and deployable realities.",
     href: "/builder",
   },
   {
     title: "Institute",
+    layer: "INSTITUTION",
     subtitle: "Knowledge Institution Engine",
     description:
-      "Research programs, publications, governance frameworks, and civilization studies.",
+      "Preserves knowledge, publishes research, develops frameworks, and governs civilizational learning.",
     href: "/institute",
   },
   {
     title: "Capital",
+    layer: "ALLOCATION",
     subtitle: "Resource Allocation Engine",
     description:
-      "Capital formation for infrastructure, deep technology, energy, space, and Physical AI.",
+      "Allocates capital toward infrastructure, deep technology, energy, space, and Physical AI.",
     href: "/capital",
   },
 ];
 
+const flows = [
+  "Observation",
+  "Cognition",
+  "Discovery",
+  "Intelligence",
+  "Creation",
+  "Institution",
+  "Capital",
+  "Infrastructure",
+  "Civilization",
+];
+
 export default function ArchitecturePage() {
   return (
-    <main className="page-standard">
-      <div className="page-head">
+    <main className="page-standard architecture-universe-page">
+      <section className="architecture-universe-hero">
+        <div className="architecture-universe-glow" />
+
         <span className="home-section-label">
           ARCHENOVA CIVILIZATION ARCHITECTURE
         </span>
 
-        <h1>The Operating System for Civilization</h1>
+        <h1>Architecture Universe</h1>
 
         <p className="page-lead">
-          ArcheNova integrates cognition, intelligence, execution,
-          institutions, and capital into a unified civilization-scale
+          A civilization-scale operating system where cognition, discovery,
+          intelligence, creation, institutions, and capital form one recursive
           architecture.
         </p>
-      </div>
-
-      {/* Cognitive Layer */}
-
-      <section className="glass-block">
-        <div className="architecture-layer-label">
-          LAYER 01 · COGNITIVE CORE
-        </div>
-
-        <Link
-          href={cognitive.href}
-          className="research-report-card"
-        >
-          <h2>{cognitive.title}</h2>
-
-          <div className="plaza-hint">
-            {cognitive.subtitle}
-          </div>
-
-          <p>{cognitive.description}</p>
-
-          <div className="plaza-hint">
-            Open →
-          </div>
-        </Link>
       </section>
 
-      {/* Intelligence */}
+      <section className="glass-block architecture-universe-map">
+        <div className="architecture-core-card">
+          <div className="architecture-layer-label">{core.layer}</div>
 
-      <section className="glass-block">
-        <div className="architecture-layer-label">
-          LAYER 02 · INTELLIGENCE
+          <Link href={core.href} className="architecture-core-link">
+            <h2>{core.title}</h2>
+            <span>{core.subtitle}</span>
+            <p>{core.description}</p>
+            <div className="plaza-hint">Open Core →</div>
+          </Link>
         </div>
 
-        <div className="research-report-grid">
-          {intelligence.map((item) => (
+        <div className="architecture-orbit-grid">
+          {orbitSystems.map((item) => (
             <Link
               key={item.title}
               href={item.href}
-              className="research-report-card"
+              className="architecture-orbit-card"
             >
+              <div className="architecture-layer-label">{item.layer}</div>
               <h3>{item.title}</h3>
-
-              <div className="plaza-hint">
-                {item.subtitle}
-              </div>
-
+              <span>{item.subtitle}</span>
               <p>{item.description}</p>
-
-              <div className="plaza-hint">
-                Open →
-              </div>
+              <div className="plaza-hint">Open →</div>
             </Link>
           ))}
         </div>
       </section>
 
-      {/* Execution */}
-
       <section className="glass-block">
-        <div className="architecture-layer-label">
-          LAYER 03 · EXECUTION
-        </div>
+        <h2>Civilization Flow</h2>
 
-        <div className="research-report-grid">
-          {execution.map((item) => (
-            <Link
-              key={item.title}
-              href={item.href}
-              className="research-report-card"
-            >
-              <h3>{item.title}</h3>
-
-              <div className="plaza-hint">
-                {item.subtitle}
+        <div className="research-roadmap">
+          {flows.map((step, index) => (
+            <div key={step} className="research-roadmap-step">
+              <div className="research-roadmap-index">
+                {String(index + 1).padStart(2, "0")}
               </div>
 
-              <p>{item.description}</p>
-
-              <div className="plaza-hint">
-                Open →
-              </div>
-            </Link>
+              <div className="research-roadmap-node">{step}</div>
+            </div>
           ))}
         </div>
       </section>
@@ -155,27 +132,9 @@ export default function ArchitecturePage() {
         <h2>Architecture Logic</h2>
 
         <p>
-          Episteme observes and learns.
-        </p>
-
-        <p>
-          Research discovers.
-        </p>
-
-        <p>
-          Intelligence interprets.
-        </p>
-
-        <p>
-          Builder creates.
-        </p>
-
-        <p>
-          Institute preserves and governs.
-        </p>
-
-        <p>
-          Capital scales capability.
+          Episteme learns. Research discovers. Intelligence interprets. Builder
+          creates. Institute preserves. Capital scales. Together they form the
+          ArcheNova Civilization Architecture.
         </p>
       </section>
 
