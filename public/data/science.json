@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-21T00:10:38.280Z",
+  "updated": "2026-06-21T06:05:24.044Z",
   "items": [
     {
       "source": "Phys.org",
@@ -8,6 +8,41 @@
       "url": "https://phys.org/news/2026-06-climate-boosts-soybean-production-worsens.html",
       "summary": "A study published by Food Research International analyzed the triple effect of climate change on soybean quality—increased carbon dioxide (CO₂), high temperatures and drought. Using predictive modeling powered by artific…",
       "ts": 1782000002000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Attention modulates value normalization in human reinforcement learning by shaping reward encoding",
+      "url": "https://www.nature.com/articles/s41467-026-74747-w",
+      "summary": "",
+      "ts": 1782000000000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Structural superlubricity triboelectric nanogenerator with negligible wear and high triboelectrification efficiency",
+      "url": "https://www.nature.com/articles/s41467-026-74450-w",
+      "summary": "",
+      "ts": 1782000000000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Longitudinal antibody profiling after dengue reveals distinct dynamics by antibody specificity over 18 months",
+      "url": "https://www.nature.com/articles/s41467-026-74406-0",
+      "summary": "",
+      "ts": 1782000000000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Mitochondrial DNA heteroplasmy drives cortical neuronal disturbances in human organoids harbouring the common m.3243A&gt;G mutation",
+      "url": "https://www.nature.com/articles/s41467-026-74103-y",
+      "summary": "",
+      "ts": 1782000000000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "smDeepFLUOR: single-molecule deep learning fluorescence classification",
+      "url": "https://www.nature.com/articles/s41467-026-74716-3",
+      "summary": "",
+      "ts": 1782000000000
     },
     {
       "source": "Phys.org",
@@ -665,41 +700,6 @@
       "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages",
       "url": "https://arxiv.org/abs/2606.20517",
       "summary": "arXiv:2606.20517v1 Announce Type: new Abstract: LiveCodeBench (LCB) has recently become a widely adopted benchmark for evaluating large language models (LLMs) on code-generation tasks. By curating competitive programming…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS",
-      "url": "https://arxiv.org/abs/2606.20518",
-      "summary": "arXiv:2606.20518v1 Announce Type: new Abstract: Flow-matching text-to-speech systems achieve remarkable zero-shot quality but remain static after deployment: pronunciation errors on out-of-vocabulary proper nouns persist…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "DeepSWIP: Quotient-WMC Counterfactuals for Neural Probabilistic Logic Programs",
-      "url": "https://arxiv.org/abs/2606.20526",
-      "summary": "arXiv:2606.20526v1 Announce Type: new Abstract: Neurosymbolic systems such as DeepProbLog combine neural perception with probabilistic logic, but standard inference is associational. Counterfactual reasoning additionally…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents",
-      "url": "https://arxiv.org/abs/2606.20529",
-      "summary": "arXiv:2606.20529v1 Announce Type: new Abstract: Policy-adherent tool-calling agents in customer-service domains must maintain task states across turns while calling tools and obeying domain policies. Task states consist …",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech",
-      "url": "https://arxiv.org/abs/2606.20532",
-      "summary": "arXiv:2606.20532v1 Announce Type: new Abstract: Style-captioned text-to-speech systems use natural language to control voice characteristics, but how individual words influence acoustic output remains unclear. Understand…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Toward Calibrated Mixture-of-Experts Under Distribution Shift",
-      "url": "https://arxiv.org/abs/2606.20544",
-      "summary": "arXiv:2606.20544v1 Announce Type: new Abstract: Calibration aligns a model's predictive uncertainty with the frequencies of its empirical outcomes and is important for understanding and trusting reported probabilities. R…",
       "ts": 1781928000000
     }
   ],
