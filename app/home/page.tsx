@@ -81,11 +81,12 @@ export default function Home() {
   <ArcheNovaDiscoverySlider />
 </section>
 
-      {/* =========================
+     {/* =========================
     PAGE : ARCHENOVA CIVILIZATION ARCHITECTURE
    ========================= */}
+
 <section
-  id="home-archenova-ventures"
+  id="home-architecture"
   className="home-page"
   data-home-section
 >
@@ -95,14 +96,70 @@ export default function Home() {
         ARCHENOVA CIVILIZATION ARCHITECTURE
       </span>
 
-      <p className="home-section-purpose">
-        The organizational architecture through which scientific discovery
-        becomes intelligence, institutions, capital formation, and
-        civilization-scale capability.
+      <h2
+        style={{
+          fontSize: "clamp(2rem, 6vw, 4.5rem)",
+          fontWeight: 300,
+          letterSpacing: "-0.04em",
+          marginTop: "1rem",
+          marginBottom: "1.5rem",
+        }}
+      >
+        The Operating System
+        <br />
+        for Civilization
+      </h2>
+
+      <p
+        className="home-section-purpose"
+        style={{
+          maxWidth: "900px",
+          margin: "0 auto",
+        }}
+      >
+        ArcheNova integrates cognition, intelligence, creation,
+        institutions, and capital into a unified civilization-scale
+        architecture.
       </p>
 
-      <CivilizationArchitectureStack />
-      
+      <p
+        style={{
+          maxWidth: "760px",
+          margin: "1.5rem auto 0",
+          opacity: 0.7,
+          lineHeight: 1.8,
+        }}
+      >
+        Episteme learns.
+        Research discovers.
+        Intelligence interprets.
+        Builder creates.
+        Institute preserves.
+        Capital scales.
+      </p>
+
+      <div
+        style={{
+          marginTop: "3rem",
+        }}
+      >
+        <Link
+          href="/architecture"
+          className="hero-entry-card"
+        >
+          <div className="hero-entry-label">
+            CIVILIZATION STACK
+          </div>
+
+          <div className="hero-entry-title">
+            Open Architecture
+          </div>
+
+          <div className="hero-entry-hint">
+            Enter →
+          </div>
+        </Link>
+      </div>
     </div>
   </Reveal>
 </section>
