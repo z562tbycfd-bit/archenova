@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-21T19:46:51.432Z",
+  "updated": "2026-06-21T20:02:52.867Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Mars-like conditions fail to kill some Earth pathogens, experiments suggest",
+      "url": "https://phys.org/news/2026-06-mars-conditions-earth-pathogens.html",
+      "summary": "Microorganisms from our planet could survive on celestial bodies where water is present, such as Mars. That is the conclusion of Ph.D. candidate Tommaso Zaccaria after experiments with simulated space conditions. Our imm…",
+      "ts": 1782072001000
+    },
     {
       "source": "Phys.org",
       "title": "Nanoscale CoAl design delivers 6 GPa strength with 15% plastic strain at room temperature",
@@ -693,13 +700,6 @@
       "title": "Implicit Semantic-Aware Communication Based on Hypergraph Reasoning",
       "url": "https://arxiv.org/abs/2606.20162",
       "summary": "arXiv:2606.20162v1 Announce Type: new Abstract: Semantic-aware communication has emerged as a transformative paradigm for next-generation communication systems, shifting the fundamental goal from transmitting bit-level s…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Apparent Psychological Profiles of Large Language Models are Largely a Measurement Artifact",
-      "url": "https://arxiv.org/abs/2606.20205",
-      "summary": "arXiv:2606.20205v1 Announce Type: new Abstract: Psychological instruments designed for humans are increasingly used to assign large language models (LLMs) stable psychological profiles that affect their usability, safety…",
       "ts": 1781928000000
     }
   ],
