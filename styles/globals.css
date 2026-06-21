@@ -11963,3 +11963,178 @@ html, body {
     min-height: 62vh;
   }
 }
+.architecture-status-layer {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 230, 170, 0.1), transparent 32%),
+    radial-gradient(circle at 20% 80%, rgba(120, 200, 255, 0.1), transparent 34%),
+    rgba(255, 255, 255, 0.035);
+}
+
+.architecture-status-core,
+.architecture-status-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 30px;
+  padding: 2rem;
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.075), rgba(255,255,255,0.025));
+  border: 1px solid rgba(255,255,255,0.1);
+  transition:
+    transform .35s ease,
+    border-color .35s ease,
+    box-shadow .35s ease;
+}
+
+.architecture-status-core {
+  max-width: 860px;
+  margin: 1.5rem auto 2rem;
+  text-align: center;
+  border-color: rgba(255, 230, 170, 0.28);
+  box-shadow: 0 0 80px rgba(255, 230, 170, 0.08);
+}
+
+.architecture-status-core:hover,
+.architecture-status-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(140, 210, 255, 0.42);
+  box-shadow:
+    0 0 45px rgba(120, 180, 255, 0.14),
+    0 0 90px rgba(210, 160, 255, 0.08);
+}
+
+.architecture-status-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.architecture-status-head span,
+.architecture-status-head small {
+  font-size: .72rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  opacity: .68;
+}
+
+.architecture-status-head small {
+  color: rgba(255, 230, 170, .95);
+}
+
+.architecture-status-core h2 {
+  font-size: clamp(2.6rem, 9vw, 5.8rem);
+  line-height: .9;
+  margin: .5rem 0 1rem;
+  letter-spacing: -0.06em;
+  background: linear-gradient(90deg, #ffffff, #ffe4a3, #8bd0ff, #d0a8ff);
+  background-size: 240% 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: civilizationTextFlow 10s ease-in-out infinite;
+}
+
+.architecture-status-card h2 {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1;
+  margin: .5rem 0 .75rem;
+  letter-spacing: -0.04em;
+  background: linear-gradient(90deg, #ffffff, #8bd0ff, #d0a8ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.architecture-status-core h3,
+.architecture-status-card h3 {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+  opacity: .78;
+  font-weight: 500;
+}
+
+.architecture-status-core p,
+.architecture-status-card p {
+  opacity: .78;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.architecture-status-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .75rem;
+  margin: 1.5rem 0;
+}
+
+.architecture-status-card .architecture-status-metrics {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.architecture-status-metrics div {
+  border-radius: 18px;
+  padding: .9rem;
+  background: rgba(255,255,255,.045);
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+.architecture-status-metrics strong {
+  display: block;
+  font-size: 1rem;
+  color: rgba(255, 230, 170, .95);
+  margin-bottom: .2rem;
+}
+
+.architecture-status-metrics span {
+  display: block;
+  font-size: .72rem;
+  opacity: .6;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.architecture-status-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+@media (max-width: 760px) {
+  .architecture-status-core,
+  .architecture-status-card {
+    padding: 1.35rem;
+    border-radius: 24px;
+  }
+
+  .architecture-status-core {
+    text-align: left;
+    margin: 1rem 0 1.25rem;
+  }
+
+  .architecture-status-core h2 {
+    font-size: clamp(2.4rem, 14vw, 4.2rem);
+    line-height: .95;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+
+  .architecture-status-core h3 {
+    font-size: 1rem;
+  }
+
+  .architecture-status-core p,
+  .architecture-status-card p {
+    font-size: .95rem;
+    line-height: 1.65;
+  }
+
+  .architecture-status-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .architecture-status-metrics,
+  .architecture-status-card .architecture-status-metrics {
+    grid-template-columns: 1fr;
+  }
+}

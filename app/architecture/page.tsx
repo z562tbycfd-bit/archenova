@@ -7,9 +7,15 @@ const core = {
   description:
     "Observation, reasoning, synthesis, memory, strategic interpretation, and civilization-scale learning.",
   href: "/episteme",
+  status: "ACTIVE",
+  metrics: [
+    { label: "Role", value: "Core" },
+    { label: "Signals", value: "100" },
+    { label: "Reports", value: "100" },
+  ],
 };
 
-const orbitSystems = [
+const systems = [
   {
     title: "Research",
     layer: "DISCOVERY",
@@ -17,6 +23,11 @@ const orbitSystems = [
     description:
       "Explores frontier science, technological signals, and reality discovery.",
     href: "/arche-nova-research",
+    status: "ACTIVE",
+    metrics: [
+      { label: "Function", value: "Discover" },
+      { label: "Scope", value: "Frontier" },
+    ],
   },
   {
     title: "Intelligence Platform",
@@ -25,6 +36,11 @@ const orbitSystems = [
     description:
       "Transforms sources into signals, reports, dashboards, horizons, and strategic intelligence.",
     href: "/intelligence-platform",
+    status: "ACTIVE",
+    metrics: [
+      { label: "Signals", value: "100" },
+      { label: "Reports", value: "100" },
+    ],
   },
   {
     title: "Builder",
@@ -33,6 +49,11 @@ const orbitSystems = [
     description:
       "Generates code, systems, interfaces, architecture, and deployable realities.",
     href: "/builder",
+    status: "ACTIVE",
+    metrics: [
+      { label: "Runtime", value: "ON" },
+      { label: "Preview", value: "LIVE" },
+    ],
   },
   {
     title: "Institute",
@@ -41,6 +62,11 @@ const orbitSystems = [
     description:
       "Preserves knowledge, publishes research, develops frameworks, and governs civilizational learning.",
     href: "/institute",
+    status: "FORMING",
+    metrics: [
+      { label: "Role", value: "Preserve" },
+      { label: "Layer", value: "Govern" },
+    ],
   },
   {
     title: "Capital",
@@ -49,6 +75,11 @@ const orbitSystems = [
     description:
       "Allocates capital toward infrastructure, deep technology, energy, space, and Physical AI.",
     href: "/capital",
+    status: "FORMING",
+    metrics: [
+      { label: "Role", value: "Scale" },
+      { label: "Focus", value: "Infra" },
+    ],
   },
 ];
 
@@ -64,6 +95,39 @@ const flows = [
   "Civilization",
 ];
 
+function StatusCard({ item, core = false }: { item: any; core?: boolean }) {
+  return (
+    <Link
+      href={item.href}
+      className={core ? "architecture-status-core" : "architecture-status-card"}
+    >
+      <div className="architecture-status-head">
+        <span>{item.layer}</span>
+        <small>{item.status}</small>
+      </div>
+
+      <h2>{item.title}</h2>
+
+      <h3>{item.subtitle}</h3>
+
+      <p>{item.description}</p>
+
+      <div className="architecture-status-metrics">
+        {item.metrics.map((metric: any) => (
+          <div key={metric.label}>
+            <strong>{metric.value}</strong>
+            <span>{metric.label}</span>
+          </div>
+        ))}
+      </div>
+
+      <div className="plaza-hint">
+        {core ? "Open Core →" : "Open →"}
+      </div>
+    </Link>
+  );
+}
+
 export default function ArchitecturePage() {
   return (
     <main className="page-standard architecture-universe-page">
@@ -77,37 +141,22 @@ export default function ArchitecturePage() {
         <h1>Architecture Universe</h1>
 
         <p className="page-lead">
-          A civilization-scale operating system where cognition, discovery,
-          intelligence, creation, institutions, and capital form one recursive
-          architecture.
+          A living civilization-scale operating system where cognition,
+          discovery, intelligence, creation, institutions, and capital form one
+          recursive architecture.
         </p>
       </section>
 
-      <section className="glass-block architecture-universe-map">
-        <div className="architecture-core-card">
-          <div className="architecture-layer-label">{core.layer}</div>
-
-          <Link href={core.href} className="architecture-core-link">
-            <h2>{core.title}</h2>
-            <span>{core.subtitle}</span>
-            <p>{core.description}</p>
-            <div className="plaza-hint">Open Core →</div>
-          </Link>
+      <section className="glass-block architecture-status-layer">
+        <div className="architecture-layer-label">
+          LIVE ARCHITECTURE STATUS
         </div>
 
-        <div className="architecture-orbit-grid">
-          {orbitSystems.map((item) => (
-            <Link
-              key={item.title}
-              href={item.href}
-              className="architecture-orbit-card"
-            >
-              <div className="architecture-layer-label">{item.layer}</div>
-              <h3>{item.title}</h3>
-              <span>{item.subtitle}</span>
-              <p>{item.description}</p>
-              <div className="plaza-hint">Open →</div>
-            </Link>
+        <StatusCard item={core} core />
+
+        <div className="architecture-status-grid">
+          {systems.map((item) => (
+            <StatusCard key={item.title} item={item} />
           ))}
         </div>
       </section>
