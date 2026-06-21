@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-21T21:17:21.129Z",
+  "updated": "2026-06-21T23:17:17.729Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "ts": 1782082800000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "Astrobotic says sale to Voyager will allow it to scale up",
@@ -713,14 +721,6 @@
       "summary": "The Ross Prize recognizes biomedical scientists whose discoveries have transformed how medicine is practiced. This year's recipients are well known in immunotherapy circles for their efforts to develop CAR T cells now us…",
       "ts": 1781787269000,
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Boeing demonstrates quantum protocol in payload set for 2027 launch",
-      "url": "https://spacenews.com/boeing-demonstrates-quantum-protocol-in-payload-set-for-2027-launch/",
-      "summary": "PORTLAND, Ore. – Boeing demonstrated a key quantum networking protocol in ground testing of a compact payload ahead of on-orbit experiment in 2027. “High-fidelity entanglement swapping” was demonstrated earlier this […] …",
-      "ts": 1781785800000,
-      "categoryId": "space"
     }
   ],
   "categories": [

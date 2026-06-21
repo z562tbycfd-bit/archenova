@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-21T21:17:18.338Z",
+  "updated": "2026-06-21T23:17:12.932Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "El Niño is underway, satellite observations show",
+      "url": "https://phys.org/news/2026-06-el-nio-underway-satellite.html",
+      "summary": "El Niño, characterized by warmer-than-normal water temperatures in parts of the equatorial Pacific, made its return in June 2026. Observations of sea surface height from the Sentinel-6 Michael Freilich satellite that mon…",
+      "ts": 1782082801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum mechanics theory may work without imaginary numbers, new analysis suggests",
+      "url": "https://phys.org/news/2026-06-quantum-mechanics-theory-imaginary-analysis.html",
+      "summary": "Physicists from Heinrich Heine University Düsseldorf (HHU) have examined a fundamental property of quantum mechanics in collaboration with the German Aerospace Center (DLR). In an article published in the journal Physica…",
+      "ts": 1782080401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "If you're feeling down, maybe don't pet your cat, new study suggests",
+      "url": "https://phys.org/news/2026-06-youre-dont-pet-cat.html",
+      "summary": "You come home after a stressful day and reach out to your cat for a bit of comfort. It hisses. Maybe takes a swipe. Or simply flicks its tail and saunters off without so much as a meow. A dog, by contrast, greets you as …",
+      "ts": 1782079201000
+    },
     {
       "source": "Phys.org",
       "title": "Engineered bacterial spores reveal new protein targets for enzymes and vaccines",
@@ -679,27 +700,6 @@
       "title": "Learning to Prompt: Improving Student Engagement with Adaptive LLM-based High-School Tutoring",
       "url": "https://arxiv.org/abs/2606.20138",
       "summary": "arXiv:2606.20138v1 Announce Type: new Abstract: LLMs can personalize education, although current static-prompt tutoring systems struggle to adapt to diverse academic disciplines. We develop and test a system with subject…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "RACL: Reasoning-Agent Control Layers for Continuous Metaheuristic Learning",
-      "url": "https://arxiv.org/abs/2606.20142",
-      "summary": "arXiv:2606.20142v1 Announce Type: new Abstract: This paper introduces RACL, a Reasoning-Agent Control Layer for metaheuristics. RACL places a reasoning agent above an existing optimizer. The agent does not replace the op…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "BIM-Edit: Benchmarking Large Language Models for IFC-Based Building Information Modeling",
-      "url": "https://arxiv.org/abs/2606.20146",
-      "summary": "arXiv:2606.20146v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied to computer-aided design (CAD) to generate design artifacts from textual instructions. In engineering practice, this r…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Modularity-Free Conflict-Averse Training for Generalized PINNs",
-      "url": "https://arxiv.org/abs/2606.20156",
-      "summary": "arXiv:2606.20156v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) have become a powerful framework for solving PDEs by embedding physical laws into differentiable objectives. Despite their advances…",
       "ts": 1781928000000
     }
   ],
