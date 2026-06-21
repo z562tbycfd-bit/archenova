@@ -12197,3 +12197,94 @@ html, body {
     letter-spacing: -0.06em;
   }
 }
+.episteme-core-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.episteme-core-hero {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 0 4rem;
+}
+
+.episteme-core-hero h1 {
+  font-size: clamp(4rem, 15vw, 12rem);
+  line-height: 0.85;
+  margin: 1rem 0;
+  letter-spacing: -0.08em;
+  background: linear-gradient(90deg, #ffffff, #ffe4a3, #8bd0ff, #d0a8ff);
+  background-size: 240% 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: civilizationTextFlow 10s ease-in-out infinite;
+}
+
+.episteme-core-glow {
+  position: absolute;
+  right: -14%;
+  top: 5%;
+  width: min(72vw, 760px);
+  height: min(72vw, 760px);
+  border-radius: 999px;
+  background:
+    radial-gradient(circle, rgba(255, 230, 170, 0.18), transparent 42%),
+    radial-gradient(circle at 70% 35%, rgba(140, 210, 255, 0.18), transparent 35%),
+    radial-gradient(circle at 40% 75%, rgba(210, 160, 255, 0.14), transparent 30%);
+  filter: blur(24px);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.episteme-ask-block,
+.episteme-response-block {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 230, 170, 0.09), transparent 34%),
+    radial-gradient(circle at 20% 80%, rgba(140, 210, 255, 0.09), transparent 34%),
+    rgba(255, 255, 255, 0.035);
+}
+
+/* Architecture mobile Episteme fix */
+@media (max-width: 760px) {
+  .architecture-status-core {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .architecture-status-core h2 {
+    font-size: clamp(3rem, 17vw, 5rem);
+    line-height: 0.9;
+    letter-spacing: -0.07em;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    white-space: normal;
+  }
+
+  .architecture-status-core p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .architecture-status-head {
+    align-items: flex-start;
+  }
+
+  .architecture-status-metrics,
+  .architecture-status-card .architecture-status-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .episteme-core-hero {
+    min-height: 62vh;
+  }
+
+  .episteme-core-hero h1 {
+    font-size: clamp(3.5rem, 21vw, 6.5rem);
+    letter-spacing: -0.06em;
+  }
+}

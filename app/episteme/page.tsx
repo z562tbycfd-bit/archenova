@@ -1,168 +1,113 @@
+"use client";
+
+import { useMemo, useState } from "react";
 import Link from "next/link";
-import {
-  generatedResearchReports,
-  archeNovaWatchlist,
-} from "@/lib/generatedResearchReports";
+import { generatedResearchReports } from "@/lib/generatedResearchReports";
 
-const cognitionLayers = [
-  {
-    title: "Observation",
-    text:
-      "Episteme observes scientific, technological, institutional, and civilizational signals.",
-  },
-  {
-    title: "Reasoning",
-    text:
-      "Episteme interprets signals through systems thinking, causality, constraints, and long-term consequences.",
-  },
-  {
-    title: "Synthesis",
-    text:
-      "Episteme connects research, intelligence, architecture, builder outputs, institutions, and capital logic.",
-  },
-  {
-    title: "Memory",
-    text:
-      "Episteme preserves strategic knowledge so ArcheNova can accumulate understanding over time.",
-  },
-];
+function generateEpistemeResponse(prompt: string) {
+  const text = prompt.toLowerCase();
 
-const strategicPriorities = [
-  "Transform signals into intelligence.",
-  "Transform intelligence into architecture.",
-  "Transform architecture into executable systems.",
-  "Transform systems into civilization-scale capability.",
-];
+  if (!prompt.trim()) {
+    return "Ask Episteme about civilization, technology, architecture, intelligence, systems, or implementation.";
+  }
 
-const architectureNodes = [
-  {
-    title: "Architecture",
-    href: "/architecture",
-    text: "Civilization-scale operating structure.",
-  },
-  {
-    title: "Intelligence Platform",
-    href: "/intelligence-platform",
-    text: "Signals, reports, dashboards, horizons.",
-  },
-  {
-    title: "Builder",
-    href: "/builder",
-    text: "Code, preview, system design, execution.",
-  },
-  {
-    title: "Research",
-    href: "/arche-nova-research",
-    text: "Frontier discovery and scientific interpretation.",
-  },
-];
+  if (text.includes("builder") || text.includes("code")) {
+    return "Episteme interpretation: Builder is the execution core of ArcheNova. Its function is to convert cognition into code, code into interface, and interface into deployable reality.";
+  }
+
+  if (text.includes("architecture")) {
+    return "Episteme interpretation: Architecture is the organizing structure through which Episteme, Research, Intelligence, Builder, Institute, and Capital become one civilization-scale operating system.";
+  }
+
+  if (text.includes("capital")) {
+    return "Episteme interpretation: Capital is not merely funding. It is the allocation layer that determines which capabilities can scale into infrastructure.";
+  }
+
+  if (text.includes("research") || text.includes("science")) {
+    return "Episteme interpretation: Research expands reality discovery. Its value increases when discovery becomes intelligence, implementation, and institutional memory.";
+  }
+
+  return "Episteme interpretation: This should be evaluated as a civilization signal. Clarify the objective, identify the system layer, determine implementation path, and assess long-term capability impact.";
+}
 
 export default function EpistemePage() {
+  const [prompt, setPrompt] = useState("");
+  const [response, setResponse] = useState(
+    "Episteme is ready. Ask about civilization, technology, systems, architecture, or implementation."
+  );
+
   const reports = generatedResearchReports as any[];
-  const watchlist = archeNovaWatchlist as any[];
 
-  const topReports = [...reports]
-    .sort(
-      (a, b) =>
-        (b.archeNovaAssessment?.overall || 0) -
-        (a.archeNovaAssessment?.overall || 0)
-    )
-    .slice(0, 5);
+  const recentReports = useMemo(() => {
+    return [...reports]
+      .sort(
+        (a, b) =>
+          (b.archeNovaAssessment?.overall || 0) -
+          (a.archeNovaAssessment?.overall || 0)
+      )
+      .slice(0, 4);
+  }, [reports]);
 
-  const priorityWatchlist = [...watchlist].slice(0, 5);
-
-  const reportCount = reports.length;
-  const watchCount = watchlist.length;
-
-  const topSignal = topReports[0];
+  function askEpisteme() {
+    setResponse(generateEpistemeResponse(prompt));
+  }
 
   return (
-    <main className="page-standard episteme-universe-page">
-      <section className="episteme-universe-hero">
-        <div className="episteme-universe-glow" />
+    <main className="page-standard episteme-core-page">
+      <section className="episteme-core-hero">
+        <div className="episteme-core-glow" />
 
-        <span className="home-section-label">
-          EPISTEME UNIVERSE
-        </span>
+        <span className="home-section-label">EPISTEME</span>
 
         <h1>Episteme</h1>
 
         <p className="page-lead">
-          The cognitive core of ArcheNova. Episteme observes, reasons,
-          synthesizes, remembers, and guides the transformation of intelligence
-          into architecture, systems, and civilization-scale capability.
+          The civilization cognition engine of ArcheNova. Episteme is not
+          merely AI. It is the interpretive core that connects intelligence,
+          architecture, systems, implementation, and long-term civilizational
+          meaning.
         </p>
       </section>
 
-      <section className="glass-block episteme-status-block">
-        <h2>Cognitive Status</h2>
+      <section className="glass-block episteme-ask-block">
+        <h2>Ask Episteme</h2>
 
-        <div className="research-domain-grid">
-          <div className="research-domain-chip">
-            Status: Active
-          </div>
+        <textarea
+          value={prompt}
+          onChange={(event) => setPrompt(event.target.value)}
+          placeholder="Ask Episteme about ArcheNova, civilization architecture, Builder, technology, capital, systems, or implementation..."
+          style={{
+            width: "100%",
+            minHeight: "160px",
+            padding: "1rem",
+            borderRadius: "20px",
+            border: "1px solid rgba(255,255,255,0.12)",
+            background: "rgba(255,255,255,0.045)",
+            color: "inherit",
+            lineHeight: 1.7,
+          }}
+        />
 
-          <div className="research-domain-chip">
-            Reports: {reportCount}
-          </div>
+        <button
+          type="button"
+          onClick={askEpisteme}
+          className="back-link"
+          style={{ marginTop: "1rem" }}
+        >
+          Ask →
+        </button>
+      </section>
 
-          <div className="research-domain-chip">
-            Watchlist: {watchCount}
-          </div>
-
-          <div className="research-domain-chip">
-            Core Role: Cognition
-          </div>
-        </div>
+      <section className="glass-block episteme-response-block">
+        <h2>Episteme Response</h2>
+        <p>{response}</p>
       </section>
 
       <section className="glass-block">
-        <h2>Cognition Layers</h2>
-
-        <div className="research-report-grid">
-          {cognitionLayers.map((item) => (
-            <div key={item.title} className="research-report-card">
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="glass-block">
-        <h2>Current Focus</h2>
-
-        {topSignal ? (
-          <Link
-            href={`/intelligence-platform/reports/${topSignal.slug}`}
-            className="feed-row wide"
-          >
-            <div className="feed-source">
-              {topSignal.source} · {topSignal.category}
-            </div>
-
-            <div className="feed-title">
-              {topSignal.title}
-            </div>
-
-            {topSignal.coreInsight && (
-              <div className="feed-summary">
-                {topSignal.coreInsight}
-              </div>
-            )}
-          </Link>
-        ) : (
-          <div className="feed-empty">
-            No current focus available.
-          </div>
-        )}
-      </section>
-
-      <section className="glass-block">
-        <h2>Recent Intelligence</h2>
+        <h2>Current Intelligence Context</h2>
 
         <div className="feed-list">
-          {topReports.map((report) => (
+          {recentReports.map((report) => (
             <Link
               key={report.slug}
               href={`/intelligence-platform/reports/${report.slug}`}
@@ -173,14 +118,10 @@ export default function EpistemePage() {
                 {report.archeNovaAssessment?.overall ?? "—"} / 10
               </div>
 
-              <div className="feed-title">
-                {report.title}
-              </div>
+              <div className="feed-title">{report.title}</div>
 
               {report.whyItMatters && (
-                <div className="feed-summary">
-                  {report.whyItMatters}
-                </div>
+                <div className="feed-summary">{report.whyItMatters}</div>
               )}
             </Link>
           ))}
@@ -188,64 +129,26 @@ export default function EpistemePage() {
       </section>
 
       <section className="glass-block">
-        <h2>Strategic Priorities</h2>
-
-        <div className="research-roadmap">
-          {strategicPriorities.map((item, index) => (
-            <div key={item} className="research-roadmap-step">
-              <div className="research-roadmap-index">
-                {String(index + 1).padStart(2, "0")}
-              </div>
-
-              <div className="research-roadmap-node">
-                {item}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="glass-block">
-        <h2>Priority Watchlist</h2>
-
-        <div className="feed-list">
-          {priorityWatchlist.map((report) => (
-            <Link
-              key={report.slug}
-              href={`/intelligence-platform/reports/${report.slug}`}
-              className="feed-row wide"
-            >
-              <div className="feed-source">
-                Rank {report.rank ?? "—"} · {report.trend ?? "Stable"}
-              </div>
-
-              <div className="feed-title">
-                {report.title}
-              </div>
-
-              <div className="feed-summary">
-                {report.archeNovaAssessment?.classification}
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="glass-block">
-        <h2>Architecture Nodes</h2>
+        <h2>Core Connections</h2>
 
         <div className="research-report-grid">
-          {architectureNodes.map((item) => (
-            <Link
-              key={item.title}
-              href={item.href}
-              className="research-report-card"
-            >
-              <h3>{item.title}</h3>
-              <p>{item.text}</p>
-              <div className="plaza-hint">Open →</div>
-            </Link>
-          ))}
+          <Link href="/architecture" className="research-report-card">
+            <h3>Architecture</h3>
+            <p>The operating system of ArcheNova.</p>
+            <div className="plaza-hint">Open →</div>
+          </Link>
+
+          <Link href="/intelligence-platform" className="research-report-card">
+            <h3>Intelligence</h3>
+            <p>Signals, reports, dashboards, and horizons.</p>
+            <div className="plaza-hint">Open →</div>
+          </Link>
+
+          <Link href="/builder" className="research-report-card">
+            <h3>Builder</h3>
+            <p>Execution, code, preview, and system design.</p>
+            <div className="plaza-hint">Open →</div>
+          </Link>
         </div>
       </section>
 
