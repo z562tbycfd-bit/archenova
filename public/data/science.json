@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-20T22:11:25.560Z",
+  "updated": "2026-06-21T00:10:38.280Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate change boosts soybean production but worsens bean quality",
+      "url": "https://phys.org/news/2026-06-climate-boosts-soybean-production-worsens.html",
+      "summary": "A study published by Food Research International analyzed the triple effect of climate change on soybean quality—increased carbon dioxide (CO₂), high temperatures and drought. Using predictive modeling powered by artific…",
+      "ts": 1782000002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bat rays employ a chemical cue to warn others of danger",
+      "url": "https://phys.org/news/2026-06-rays-employ-chemical-cue-danger.html",
+      "summary": "Frightened bat rays produce a chemical cue to warn other rays of danger, a well-known anti-predator strategy for bony fish that has not been documented in cartilaginous fish until now. Oregon State University researchers…",
+      "ts": 1781994603000
+    },
     {
       "source": "Phys.org",
       "title": "Sonic booms from meteors can release the energy of hundreds of tons of TNT. Here's how they work",
@@ -686,20 +700,6 @@
       "title": "Toward Calibrated Mixture-of-Experts Under Distribution Shift",
       "url": "https://arxiv.org/abs/2606.20544",
       "summary": "arXiv:2606.20544v1 Announce Type: new Abstract: Calibration aligns a model's predictive uncertainty with the frequencies of its empirical outcomes and is important for understanding and trusting reported probabilities. R…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Human Universal Grasping",
-      "url": "https://arxiv.org/abs/2606.17054",
-      "summary": "arXiv:2606.17054v1 Announce Type: cross Abstract: Humans can grasp objects effortlessly, whereas multi-fingered robots are far from this level of generality. We argue that the most natural source of robot grasping data i…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Human-AI Agent Interaction in a Business Context",
-      "url": "https://arxiv.org/abs/2606.18716",
-      "summary": "arXiv:2606.18716v1 Announce Type: cross Abstract: As AI agents are increasingly integrated into core business processes, understanding and designing effective interaction patterns between humans and AI agents becomes cru…",
       "ts": 1781928000000
     }
   ],
