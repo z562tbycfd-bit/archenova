@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-21T20:25:50.170Z",
+  "updated": "2026-06-21T21:17:18.338Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Engineered bacterial spores reveal new protein targets for enzymes and vaccines",
+      "url": "https://phys.org/news/2026-06-bacterial-spores-reveal-protein-enzymes.html",
+      "summary": "A remarkable quality of bioengineering is that scientists can take biological processes honed by millions of years of evolution and use them to efficiently create drugs, chemicals and other products to improve our lives.…",
+      "ts": 1782075603000
+    },
     {
       "source": "Phys.org",
       "title": "Mars-like conditions fail to kill some Earth pathogens, experiments suggest",
@@ -693,13 +700,6 @@
       "title": "Modularity-Free Conflict-Averse Training for Generalized PINNs",
       "url": "https://arxiv.org/abs/2606.20156",
       "summary": "arXiv:2606.20156v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) have become a powerful framework for solving PDEs by embedding physical laws into differentiable objectives. Despite their advances…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Implicit Semantic-Aware Communication Based on Hypergraph Reasoning",
-      "url": "https://arxiv.org/abs/2606.20162",
-      "summary": "arXiv:2606.20162v1 Announce Type: new Abstract: Semantic-aware communication has emerged as a transformative paradigm for next-generation communication systems, shifting the fundamental goal from transmitting bit-level s…",
       "ts": 1781928000000
     }
   ],
