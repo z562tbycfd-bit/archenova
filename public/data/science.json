@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-06-21T15:55:00.346Z",
+  "updated": "2026-06-21T17:42:02.351Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "MINDY3: A hub between protein quality control and DNA repair",
+      "url": "https://phys.org/news/2026-06-mindy3-hub-protein-quality-dna.html",
+      "summary": "Researchers from the MRC Protein Phosphorylation and Ubiquitylation Unit at the University of Dundee, together with collaborators from ETH Zürich, the Malopolska Center of Biotechnology and the University of Veterinary M…",
+      "ts": 1782063001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Well-known planetary nebula's ear-like lobes rewrite its evolutionary timeline",
+      "url": "https://phys.org/news/2026-06-planetary-nebula-ear-lobes-rewrite.html",
+      "summary": "Using the Multi Unit Spectroscopic Explorer (MUSE) and the Manchester Echelle Spectrograph (MES), astronomers from Turkey and Mexico have investigated a planetary nebula discovered two centuries ago, known as NGC 6563. R…",
+      "ts": 1782062401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA testing advanced capabilities for moon, Mars rovers",
+      "url": "https://phys.org/news/2026-06-nasa-advanced-capabilities-moon-mars-1.html",
+      "summary": "On a bleak stretch of the Colorado Desert in Southern California, a compact four-wheeled rover recently trundled 16 miles (26 kilometers) with minimal intervention from the team of engineers trailing it. Called ERNEST (E…",
+      "ts": 1782061201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stress gives bees sharper vision and faster reactions, researchers discover",
+      "url": "https://phys.org/news/2026-06-stress-bees-sharper-vision-faster.html",
+      "summary": "Bumblebees see the world differently under stress, processing visual information more sharply and making quicker decisions, new research from Newcastle University reveals.",
+      "ts": 1782057603000
+    },
     {
       "source": "Phys.org",
       "title": "Can North America mine enough rare earth elements?",
@@ -672,34 +700,6 @@
       "title": "QMFOL: Benchmarking Large Language Model Reasoning via Quantifiable Monadic First-Order Logic Test Case Generation",
       "url": "https://arxiv.org/abs/2606.20227",
       "summary": "arXiv:2606.20227v1 Announce Type: new Abstract: Large Language Models (LLMs) have made significant progress in reasoning, particularly in deductive reasoning, which is crucial for high-stakes decision-making. As models i…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Thermodynamic Measure of Intelligence",
-      "url": "https://arxiv.org/abs/2606.20231",
-      "summary": "arXiv:2606.20231v1 Announce Type: new Abstract: Can intelligence be measured? We propose that intelligence can be defined as the lawful amplification of rare but valid futures: a system increases the probability of outco…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "A Multi-Agent system for Multi-Objective constrained optimization",
-      "url": "https://arxiv.org/abs/2606.20236",
-      "summary": "arXiv:2606.20236v1 Announce Type: new Abstract: Many decision-making problems in computing and networking systems can be naturally formulated as cost-minimization problems under performance constraints. In dynamic enviro…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Navigating Unreliable Parametric and Contextual Knowledge: Explicit Knowledge Conflict Resolution for LLM Inference",
-      "url": "https://arxiv.org/abs/2606.20245",
-      "summary": "arXiv:2606.20245v1 Announce Type: new Abstract: Large language models (LLMs) have achieved strong performance across a wide range of language-based tasks by leveraging both extensive parametric knowledge and in-context l…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Confidence-Aware Automated Assessment of Student-Drawn Scientific Models",
-      "url": "https://arxiv.org/abs/2606.20264",
-      "summary": "arXiv:2606.20264v1 Announce Type: new Abstract: Student-generated drawings are widely used in science education to assess learners' conceptual understanding in modeling-based tasks aligned with the Next Generation Scienc…",
       "ts": 1781928000000
     }
   ],
