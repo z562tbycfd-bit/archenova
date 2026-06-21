@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-21T13:09:10.986Z",
+  "updated": "2026-06-21T14:21:34.369Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Human sacrifice in Inca Empire may have been driven by political motives, not religion",
+      "url": "https://phys.org/news/2026-06-human-sacrifice-inca-empire-driven.html",
+      "summary": "Three decades ago, researchers working atop the Llullaillaco volcano, located on the border between Argentina and Chile, discovered exceptionally well-preserved remains. The find included the mummified bodies of three ch…",
+      "ts": 1782050404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "If aliens landed on Earth tomorrow, what would they eat?",
+      "url": "https://phys.org/news/2026-06-aliens-earth-tomorrow.html",
+      "summary": "With the release of \"Disclosure Day,\" Steven Spielberg's new film about aliens, a question as old as science fiction itself resurfaces: If aliens were to arrive on Earth, would they come to conquer us, to study us ... or…",
+      "ts": 1782050401000
+    },
     {
       "source": "Phys.org",
       "title": "Today's housing emergency is nearly 200 years in the making, says new report",
@@ -22,76 +36,6 @@
       "url": "https://phys.org/news/2026-06-climate-boosts-soybean-production-worsens.html",
       "summary": "A study published by Food Research International analyzed the triple effect of climate change on soybean quality—increased carbon dioxide (CO₂), high temperatures and drought. Using predictive modeling powered by artific…",
       "ts": 1782000002000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Neural similarity between choice options predicts group-level context effects",
-      "url": "https://www.nature.com/articles/s41467-026-74462-6",
-      "summary": "",
-      "ts": 1782000000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Attention modulates value normalization in human reinforcement learning by shaping reward encoding",
-      "url": "https://www.nature.com/articles/s41467-026-74747-w",
-      "summary": "",
-      "ts": 1782000000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "A structurally unique effector shared between vascular wilt fungi drives cotton and olive defoliation",
-      "url": "https://www.nature.com/articles/s41467-026-74504-z",
-      "summary": "",
-      "ts": 1782000000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Structural superlubricity triboelectric nanogenerator with negligible wear and high triboelectrification efficiency",
-      "url": "https://www.nature.com/articles/s41467-026-74450-w",
-      "summary": "",
-      "ts": 1782000000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Sensing centrosome amplification: the interface between centriole duplication and autophagy",
-      "url": "https://www.nature.com/articles/s41467-026-74702-9",
-      "summary": "",
-      "ts": 1782000000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Therapeutic targeting of <i>AREL1</i> in hepatic stellate cells attenuates MASH-related liver fibrosis",
-      "url": "https://www.nature.com/articles/s41467-026-74481-3",
-      "summary": "",
-      "ts": 1782000000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Longitudinal antibody profiling after dengue reveals distinct dynamics by antibody specificity over 18 months",
-      "url": "https://www.nature.com/articles/s41467-026-74406-0",
-      "summary": "",
-      "ts": 1782000000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Lipopolysaccharide hydrolysis-targeting nano-chimeras detoxify endotoxin through specific adsorption and efficient degradation",
-      "url": "https://www.nature.com/articles/s41467-026-74689-3",
-      "summary": "",
-      "ts": 1782000000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Mitochondrial DNA heteroplasmy drives cortical neuronal disturbances in human organoids harbouring the common m.3243A&gt;G mutation",
-      "url": "https://www.nature.com/articles/s41467-026-74103-y",
-      "summary": "",
-      "ts": 1782000000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "smDeepFLUOR: single-molecule deep learning fluorescence classification",
-      "url": "https://www.nature.com/articles/s41467-026-74716-3",
-      "summary": "",
-      "ts": 1782000000000
     },
     {
       "source": "Phys.org",
@@ -700,6 +644,62 @@
       "title": "Leveraging systems' non-linearity to tackle the scarcity of data in the design of Intelligent Fault Diagnosis Systems",
       "url": "https://arxiv.org/abs/2606.20323",
       "summary": "arXiv:2606.20323v1 Announce Type: new Abstract: Deep Transfer Learning (DTL) allows for the efficient building of Intelligent Fault Diagnosis Systems (IFDS). On the other hand, DTL methods still heavily rely on large amo…",
+      "ts": 1781928000000
+    },
+    {
+      "source": "arXiv AI",
+      "title": "SoftSkill: Behavioral Compression for Contextual Adaptation",
+      "url": "https://arxiv.org/abs/2606.20333",
+      "summary": "arXiv:2606.20333v1 Announce Type: new Abstract: Agent skills are commonly deployed as natural-language Markdown files that encode answer policies, evidence-use habits, and task procedures. These files are readable and po…",
+      "ts": 1781928000000
+    },
+    {
+      "source": "arXiv AI",
+      "title": "Automating SKILL.md Generation for Computer-Using Agents via Interaction Trajectory Mining",
+      "url": "https://arxiv.org/abs/2606.20363",
+      "summary": "arXiv:2606.20363v1 Announce Type: new Abstract: Explicit skill libraries make computer-using agents easier to inspect, but it remains unclear whether such libraries can be mined from interaction data in a way that improv…",
+      "ts": 1781928000000
+    },
+    {
+      "source": "arXiv AI",
+      "title": "Rethinking Shrinkage Bias in LLM FP4 Pretraining: Geometric Origin, Systemic Impact, and UFP4 Recipe",
+      "url": "https://arxiv.org/abs/2606.20381",
+      "summary": "arXiv:2606.20381v1 Announce Type: new Abstract: FP4 training promises substantial reductions in memory and computation cost for LLM pretraining, yet current FP4 hardware paths and recipes, including NVIDIA Blackwell/Rubi…",
+      "ts": 1781928000000
+    },
+    {
+      "source": "arXiv AI",
+      "title": "Interpretable Sperm Morphology Classification via Attention-Guided Deep Learning",
+      "url": "https://arxiv.org/abs/2606.20438",
+      "summary": "arXiv:2606.20438v1 Announce Type: new Abstract: Male infertility is a major cause of couple infertility, often linked to abnormal sperm morphology. While deep learning models offer automated analysis, most lack interpret…",
+      "ts": 1781928000000
+    },
+    {
+      "source": "arXiv AI",
+      "title": "Context-Aware Hierarchical Bayesian Modeling of IVF Laboratory Environmental Conditions",
+      "url": "https://arxiv.org/abs/2606.20459",
+      "summary": "arXiv:2606.20459v1 Announce Type: new Abstract: IVF pregnancy rates are routinely modeled using patient-level variables, while high-resolution laboratory environmental data remain underutilized. We show that this is a mi…",
+      "ts": 1781928000000
+    },
+    {
+      "source": "arXiv AI",
+      "title": "What Do Safety-Aligned LLMs Learn From Mixed Compliance Demonstrations?",
+      "url": "https://arxiv.org/abs/2606.20508",
+      "summary": "arXiv:2606.20508v1 Announce Type: new Abstract: Prior work has shown that in-context demonstrations can jailbreak language models, but it remains unclear how models interpret different types of compliance demonstrations.…",
+      "ts": 1781928000000
+    },
+    {
+      "source": "arXiv AI",
+      "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages",
+      "url": "https://arxiv.org/abs/2606.20517",
+      "summary": "arXiv:2606.20517v1 Announce Type: new Abstract: LiveCodeBench (LCB) has recently become a widely adopted benchmark for evaluating large language models (LLMs) on code-generation tasks. By curating competitive programming…",
+      "ts": 1781928000000
+    },
+    {
+      "source": "arXiv AI",
+      "title": "FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS",
+      "url": "https://arxiv.org/abs/2606.20518",
+      "summary": "arXiv:2606.20518v1 Announce Type: new Abstract: Flow-matching text-to-speech systems achieve remarkable zero-shot quality but remain static after deployment: pronunciation errors on out-of-vocabulary proper nouns persist…",
       "ts": 1781928000000
     }
   ],
