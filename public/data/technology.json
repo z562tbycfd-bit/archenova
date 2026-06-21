@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-21T23:17:17.729Z",
+  "updated": "2026-06-21T23:20:44.808Z",
   "items": [
     {
       "source": "OpenAI",
@@ -17,6 +17,30 @@
       "summary": "Lunar lander developer Astrobotic decided to sell to Voyager Technologies so it could quickly scale up to meet the projected demands of NASA’s lunar base initiative. The post Astrobotic says sale to Voyager will allow it…",
       "ts": 1781985105000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "From malaria to energy: Why solutions from the Global South aren’t reaching the people who need them most",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167759",
+      "summary": "Innovators – especially in the Global South – are too often locked out of funding and opportunity despite offering solutions to some of the world’s most pressing challenges.",
+      "ts": 1781956800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: Security Council warns of mass atrocity risk in El Obeid",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167773",
+      "summary": "The UN Security Council has expressed alarm over reports of substantial military reinforcements by the Rapid Support Forces (RSF) around El Obeid in Sudan, warning of the risk of a potential ground offensive on the city.",
+      "ts": 1781956800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola in DR Congo: One month on, scaled up response remains insufficient",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167763",
+      "summary": "One month after the Bundibugyo Ebola outbreak was declared in the Democratic Republic of the Congo (DRC) and Uganda, case numbers continue to rise.",
+      "ts": 1781956800000,
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -129,6 +153,14 @@
       "summary": "NASA has selected for development a space science mission that will study how space weather interacts with Earth’s atmosphere. The post NASA selects mission to study space weather interaction with Earth’s atmosphere appe…",
       "ts": 1781870438000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Art and culture can both fuel and counter hate, UN discussion hears on Juneteenth",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167772",
+      "summary": "From a gold collar worn by an enslaved African to music preserved for nearly a century after the Holocaust, a staged reconstruction of a hate radio broadcast or porcelain coffee cups laid out in participatory remembrance…",
+      "ts": 1781870400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -688,38 +720,6 @@
       "url": "https://www.statnews.com/2026/06/18/how-many-americans-can-afford-their-healthcare/?utm_campaign=rss",
       "summary": "A new poll shows only about half of U.S. adults could afford their health care and had access to quality care last year.",
       "ts": 1781788106000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "At Cannes Lions, NVIDIA Partners Reshape Advertising and Marketing With AI",
-      "url": "https://blogs.nvidia.com/blog/nvidia-ai-marketing-advertising-cannes-lions/",
-      "summary": "The digital era gave the advertising and marketing industry speed; the AI era is giving it autonomous operations. For companies building next-generation technologies for advertising and marketing, the question is no long…",
-      "ts": 1781787643000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Sync and Stream: GeForce NOW Connects to Members’ Game Libraries Across Devices",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-game-stores/",
-      "summary": "Play favorite titles from popular game libraries, keep progress synced and jump back into gaming sessions on virtually any device. That’s the power of GeForce NOW cloud gaming. From providing access to members’ favorite …",
-      "ts": 1781787632000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "What the satellite servicing economy can borrow from carbon credits",
-      "url": "https://spacenews.com/what-the-satellite-servicing-economy-can-borrow-from-carbon-credits/",
-      "summary": "In January 2026 alone, the Federal Communications Commission authorized 15,000 Starlink Gen2 satellites. Starcloud has filed for 88,000 orbital data center satellites. SpaceX has filed for 1 million. There is […] The pos…",
-      "ts": 1781787600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Perseverance, Persistence Key to CAR T Success, Say Ross Prize Winners Carl June and Michel Sadelain",
-      "url": "https://www.genengnews.com/topics/cancer/perseverance-persistence-key-to-car-t-success-say-ross-prize-winners-carl-june-and-michel-sadelain/",
-      "summary": "The Ross Prize recognizes biomedical scientists whose discoveries have transformed how medicine is practiced. This year's recipients are well known in immunotherapy circles for their efforts to develop CAR T cells now us…",
-      "ts": 1781787269000,
       "categoryId": "bio"
     }
   ],
