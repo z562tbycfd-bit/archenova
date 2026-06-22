@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-06-22T19:32:38.157Z",
+  "updated": "2026-06-22T22:05:19.702Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Trump executive order directs NASA to plan quantum space applications",
+      "url": "https://spacenews.com/trump-signs-executive-order-to-accelerate-quantum-space-infrastructure/",
+      "summary": "The White House has issued an executive order aiming to unify and accelerate U.S. development of quantum technologies, including space systems that could enable next-generation navigation, sensing and secure communicatio…",
+      "ts": 1782164228000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Closely watched Pfizer lung cancer drug falls short in clinical trial",
+      "url": "https://www.statnews.com/2026/06/22/pfizer-lung-cancer-sigvotatug-vedotin/?utm_campaign=rss",
+      "summary": "Pfizer said an experimental drug it hoped could replace a widely used chemotherapy in one of the most common forms of lung cancer fell short in a clinical trial.",
+      "ts": 1782164171000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Awards Solutions for Federal Enterprise Procurement Contracts",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-solutions-for-federal-enterprise-procurement-contracts/",
+      "summary": "NASA will begin processing the awards of multiple contracts for the Solutions for Enterprise‑wide Procurement (SEWP) VI Government-wide Acquisition Contract. The contract provides streamlined access to commercial product…",
+      "ts": 1782163452000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rocket Lab launches satellite for U.S. Space Force Victus Haze responsive space exercise",
+      "url": "https://spacenews.com/rocket-lab-launches-satellite-for-u-s-space-force-victus-haze-responsive-space-exercise/",
+      "summary": "The mission pairs Rocket Lab spacecraft with a True Anomaly vehicle in orbit to demonstrate rapid threat characterization and rendezvous operations The post Rocket Lab launches satellite for U.S. Space Force Victus Haze …",
+      "ts": 1782161921000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Sounding Rocket to Launch Student Experiments",
+      "url": "https://www.nasa.gov/centers-and-facilities/wallops/nasa-sounding-rocket-to-launch-student-experiments/",
+      "summary": "NASA’s Wallops Flight Facility in Virginia is scheduled to launch a sounding rocket carrying student-developed experiments for the agency’s RockSatX and RockOn programs Wednesday, June 24, between 5:30 and 9:30 a.m. EDT,…",
+      "ts": 1782160954000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Invites Media to Botswana Artemis Accords Signing Ceremony",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-botswana-artemis-accords-signing-ceremony/",
+      "summary": "The Republic of Botswana will sign the Artemis Accords during a ceremony at 9:30 a.m. EDT Thursday, June 25, at NASA Headquarters in Washington. NASA Deputy Administrator Matt Anderson will host Botswana’s Minister of Co…",
+      "ts": 1782156087000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "AI Discovers Potential Antimicrobial “Prionin” Peptides",
@@ -19,11 +67,35 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s Experimental Fabrication Branch Fuels Aircraft Innovation",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-experimental-fabrication-branch-fuels-aircraft-innovation/",
+      "summary": "At NASA, innovation begins well before an aircraft takes flight. The Experimental Fabrication Branch at NASA’s Armstrong Flight Research Center in Edwards, California, transforms engineering concepts into mission‑ready h…",
+      "ts": 1782150420000,
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Chinese spaceplane releases object into orbit, according to commercial space surveillance",
       "url": "https://spacenews.com/chinese-spaceplane-releases-object-into-orbit-according-to-commercial-space-surveillance/",
       "summary": "China’s secretive spaceplane has released an object into orbit during its ongoing fourth mission, according to space surveillance firm LeoLabs. The post Chinese spaceplane releases object into orbit, according to commerc…",
       "ts": 1782150179000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Chandra Finds Possible Supernova Remnant",
+      "url": "https://www.nasa.gov/image-article/nasas-chandra-finds-possible-supernova-remnant/",
+      "summary": "Using data from NASA’s Chandra X-ray Observatory, astronomers may have found a supernova remnant – seen in this June 11, 2026, image – in an intriguing neighborhood in the middle of the Milky Way galaxy. Supernova remnan…",
+      "ts": 1782149977000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Cover US Spacewalk 95, Host Preview News Conference",
+      "url": "https://www.nasa.gov/news-release/nasa-to-cover-us-spacewalk-95-host-preview-news-conference/",
+      "summary": "NASA astronauts will venture outside the International Space Station on Tuesday, June 30, to replace a wrist joint on the orbital complex’s Canadarm2 robotic arm. The spacewalk is scheduled to begin at approximately 8:35…",
+      "ts": 1782146724000,
       "categoryId": "space"
     },
     {
@@ -43,18 +115,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "ESA",
-      "title": "Webb finds clues to ancient origin of Comet 3I/ATLAS",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS",
-      "summary": "The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may be.",
-      "ts": 1782140400000,
-      "categoryId": "space"
-    },
-    {
       "source": "NASA",
       "title": "NASA’s Webb Finds Clues to Ancient, Distant Origin of Comet 3I/ATLAS",
       "url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-clues-to-ancient-distant-origin-of-comet-3i-atlas/",
       "summary": "As interstellar comet 3I/ATLAS began moving away from the Sun in December 2025, astronomers took the opportunity to turn NASA’s powerful James Webb Space Telescope in its direction and capture detailed measurements of it…",
+      "ts": 1782140400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Webb finds clues to ancient origin of Comet 3I/ATLAS",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS",
+      "summary": "The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may be.",
       "ts": 1782140400000,
       "categoryId": "space"
     },
@@ -116,17 +188,17 @@
     },
     {
       "source": "NVIDIA",
-      "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
-      "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
-      "summary": "At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter. The NVIDIA DAQIRI library and new N…",
+      "title": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
+      "summary": "Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. …",
       "ts": 1782133220000,
       "categoryId": "ai-compute"
     },
     {
       "source": "NVIDIA",
-      "title": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
-      "url": "https://blogs.nvidia.com/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
-      "summary": "Mission, Vision and Veritas — new Los Alamos National Laboratory (LANL) supercomputers to be built with HPE and NVIDIA — are tapping NVIDIA Vera CPUs to accelerate scientific discovery, unlocking agentic AI for science. …",
+      "title": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+      "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+      "summary": "At the ISC conference running in Hamburg this week, NVIDIA is introducing new software that speeds AI for science, from chemistry and materials discovery to the search for dark matter. The NVIDIA DAQIRI library and new N…",
       "ts": 1782133220000,
       "categoryId": "ai-compute"
     },
@@ -171,6 +243,70 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "United Nations News",
+      "title": "World News in Brief: Pope Leo urges action on hunger, humanitarian strain deepens in Gaza, families return to Lebanon",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167782",
+      "summary": "Pope Leo called on the international community to renew its commitment to tackling hunger and malnutrition, describing access to adequate food as a “fundamental human right” during a visit to the World Food Programme (WF…",
+      "ts": 1782129600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: Drone attacks endanger civilians and shut down critical services in El Obeid",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167781",
+      "summary": "Escalating violence in and around the Sudanese city of El Obeid is putting civilians at increased risk and disrupting essential services, the UN aid coordination office OCHA said on Monday.",
+      "ts": 1782129600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Warnings of ‘dangerous cycle of escalation’ in Ukraine",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167775",
+      "summary": "The Security Council is holding an open meeting on Ukraine on Monday afternoon, with warnings of a “dangerous cycle of escalation” amid drone and missile attacks in briefings by Mohamed Khaled Khiari, Assistant Secretary…",
+      "ts": 1782129600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World at ‘perilous moment’ as leaders warn HIV gains are at risk",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167780",
+      "summary": "Four decades after AIDS first emerged as a global crisis, world leaders, advocates and community representatives gathered at UN Headquarters on Monday issued a stark warning: progress against HIV is slowing just as finan…",
+      "ts": 1782129600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Better future for Syria remains within reach,’ UN Security Council hears",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167779",
+      "summary": "Syria has emerged after more than a decade of crisis with “clear signs of progress”, but acute needs remain and efforts must boost support so the country can “move from survival towards recovery”, UN officials told the S…",
+      "ts": 1782129600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Myanmar: Aid decline compounds suffering amid ongoing military attacks",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167777",
+      "summary": "A decline in humanitarian assistance is worsening the suffering of millions of people in Myanmar after five years of conflict-related violence, the UN human rights office, OHCHR, said in a report published on Monday.",
+      "ts": 1782129600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "AI is getting women wrong as gender bias persists, data reveals",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167776",
+      "summary": "As artificial intelligence reshapes how people work, communicate and access information, UN Women warned on Monday that the technology is reproducing old gender stereotypes, which amplify online abuse and leave women out…",
+      "ts": 1782129600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Afghanistan in crisis: Drought, malnutrition and a worsening humanitarian situation",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167774",
+      "summary": "Imagine being one of a family of nine and sitting down to a meal of potato peelings and other scraps, boiled up into a soup. This is the harsh reality for many of Afghanistan’s most vulnerable families, forced on them by…",
+      "ts": 1782129600000,
+      "categoryId": "global-governance"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: AbbVie to buy Apogee Therapeutics in nearly $11B deal",
       "url": "https://www.statnews.com/2026/06/22/abbvie-apogee-acquisition-immunology-zumilokibart/?utm_campaign=rss",
@@ -204,17 +340,17 @@
     },
     {
       "source": "OpenAI",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "url": "https://openai.com/index/patch-the-planet",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
       "ts": 1782122400000,
       "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
       "ts": 1782122400000,
       "categoryId": "ai-compute"
     },
@@ -585,142 +721,6 @@
       "summary": "There are plenty of useful things a metric can reveal. There are even more it can obscure or corrupt. It took me well over a decade of tracking my own life in ever greater detail to fully appreciate this duality, which p…",
       "ts": 1781859600000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Brain-computer interface trials are taking off",
-      "url": "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
-      "summary": "This week, I covered the story of Casey Harrell—a man with ALS who is “the first power user” of a brain implant, according to the researchers who worked with him. Harrell is paralyzed and unable to speak coherently witho…",
-      "ts": 1781859600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Federal grant delays could jeopardize essential disability services, research",
-      "url": "https://www.statnews.com/2026/06/19/federal-grant-delays-jeopardize-essential-disability-services-research/?utm_campaign=rss",
-      "summary": "Disability researchers across the country worry about their jobs, and the future of their institutions, as a delay in issuing federal grants drags on.",
-      "ts": 1781857800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Tennessee pharmacies sell potent ivermectin, led by anti-vaccine doctor who’s taken ‘bucketloads’",
-      "url": "https://www.statnews.com/2026/06/19/tennessee-ivermectin-market-how-to-create-booming-sales-unproven-drug/?utm_campaign=rss",
-      "summary": "Tennessee pharmacies are selling potent versions of the antiparasitic drug ivermectin, led by an anti-vaccine doctor who’s taken \"bucketloads.\"",
-      "ts": 1781857800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: STAT+: The real work for making dramatic gains against pancreatic cancer is just beginning",
-      "url": "https://www.statnews.com/2026/06/19/daraxonrasib-pancreatic-cancer-miracle-drug-oncosystems-ai/?utm_campaign=rss",
-      "summary": "The co-founders of Darwin Health write that the real work for making dramatic gains against pancreatic cancers is just beginning.",
-      "ts": 1781857800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Maternity deserts aren’t accidents. They’re the result of a design flaw",
-      "url": "https://www.statnews.com/2026/06/19/maternity-desert-physician-shortage-obstetrics-pregnancy-residency-south-dakota/?utm_campaign=rss",
-      "summary": "Shrinking fertility should mean less strain on doctors. But nearly half of U.S. counties lack a practicing obstetrician or gynecologist.",
-      "ts": 1781857800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space celebrates 1000 images",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_celebrates_1000_images",
-      "summary": "Image: ESA’s Earth from Space series reaches its 1000th image with a return to the vibrant waters of southern Florida, Cuba and the Bahamas – the same region featured in the very first edition in 2004.",
-      "ts": 1781856000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Austrian propulsion startup joins sovereign space funding surge",
-      "url": "https://spacenews.com/austrian-propulsion-startup-joins-sovereign-space-funding-surge/",
-      "summary": "Austrian satellite propulsion startup Gate Space has won 6.3 million euros in funding from Europe’s government-backed accelerator program, joining a wave of European companies attracting capital for greater space soverei…",
-      "ts": 1781852400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Meet the Winners of the IAEA Innovations in Nuclear Fuel Supply Chain Challenge",
-      "url": "http://www.iaea.org/newscenter/news/meet-the-winners-of-the-iaea-innovations-in-nuclear-fuel-supply-chain-challenge",
-      "summary": "Four winning projects in the IAEA Innovations in Nuclear Fuel Supply Chain Challenge showcase new ideas to strengthen nuclear fuel supply chains and support the future of clean energy.",
-      "ts": 1781852400000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Project Launched on Use of Nuclear Technique to Target New World Screwworm Outbreak in Central America, Mexico and the United States",
-      "url": "http://www.iaea.org/newscenter/pressreleases/project-launched-on-use-of-nuclear-technique-to-target-new-world-screwworm-outbreak-in-central-america-mexico-and-the-united-states",
-      "summary": "",
-      "ts": 1781846902000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Tropical Storm Arthur",
-      "url": "https://science.nasa.gov/earth/earth-observatory/tropical-storm-arthur/",
-      "summary": "The first named storm of the 2026 Atlantic hurricane season brought intense rainfall and the threat of flash flooding to the U.S. Gulf Coast.",
-      "ts": 1781841600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BioHarness: Substrate-Aware Evidence Assembly for Biomedical Question Answering across Literature, Knowledge Bases, and Biological Atlases",
-      "url": "https://arxiv.org/abs/2606.19396",
-      "summary": "arXiv:2606.19396v1 Announce Type: new Abstract: Motivation: Biomedical question answering often requires evidence beyond topically retrieved literature, including gene alias resolution, database identifier normalization,…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multi-type branching inference on contact trees with application to COVID-19",
-      "url": "https://arxiv.org/abs/2606.19405",
-      "summary": "arXiv:2606.19405v1 Announce Type: new Abstract: Inferring epidemiological parameters from transmission trees is essential for understanding infectious disease dynamics. Existing tree-based likelihood methods, including t…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Robust probabilistic measurement of structural-functional module consistency in infant brain development",
-      "url": "https://arxiv.org/abs/2606.19739",
-      "summary": "arXiv:2606.19739v1 Announce Type: new Abstract: Brain network is commonly divided into modules for analyzing their functionally segregated roles for group-level analysis in neuroimaging studies. Here, we introduce stocha…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Oscillations and Spatial Patterns in Large-Scale Stochastic Gene Regulatory Networks",
-      "url": "https://arxiv.org/abs/2606.19762",
-      "summary": "arXiv:2606.19762v1 Announce Type: new Abstract: Gene regulatory networks (GRNs) are fundamental to cellular growth and tissue formation, orchestrating spatially and temporally regulated gene expression during development…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "bioETH-Beacon: A Confidential On-Chain Genomic Beacon with Encrypted Counts, Filters, and Bounded Noise over a Fully Homomorphic EVM",
-      "url": "https://arxiv.org/abs/2606.20315",
-      "summary": "arXiv:2606.20315v1 Announce Type: new Abstract: The Global Alliance for Genomics and Health (GA4GH) Beacon protocol lets researchers ask whether a genomic variant has been observed in a participating cohort and receive a…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "West Nile virus outbreak in Italy modelled with the quantum Game of Life",
-      "url": "https://arxiv.org/abs/2606.20489",
-      "summary": "arXiv:2606.20489v1 Announce Type: new Abstract: In the last years, an anomalously high spreading of West Nile virus (WNV) has been observed in Italy, with particularly high peaks of infections in southern Lazio, Campania…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PepALD: Macrocyclic Peptide Generation via Autoregressive Latent Diffusion",
-      "url": "https://arxiv.org/abs/2606.14510",
-      "summary": "arXiv:2606.14510v1 Announce Type: cross Abstract: Macrocyclic peptides are promising therapeutic candidates for intracellular targets, but their design requires simultaneous control over non-natural monomer chemistry, ri…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
