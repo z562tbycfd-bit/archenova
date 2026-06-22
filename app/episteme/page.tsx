@@ -4,37 +4,78 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { generatedResearchReports } from "@/lib/generatedResearchReports";
 
+type Message = {
+  role: "user" | "episteme";
+  text: string;
+};
+
 function generateEpistemeResponse(prompt: string) {
   const text = prompt.toLowerCase();
 
   if (!prompt.trim()) {
-    return "Ask Episteme about civilization, technology, architecture, intelligence, systems, or implementation.";
+    return {
+      title: "Awaiting inquiry",
+      response:
+        "Ask Episteme about civilization, technology, systems, architecture, Builder, capital, or implementation.",
+      layers: ["Observation", "Reasoning", "Synthesis"],
+    };
   }
 
   if (text.includes("builder") || text.includes("code")) {
-    return "Episteme interpretation: Builder is the execution core of ArcheNova. Its function is to convert cognition into code, code into interface, and interface into deployable reality.";
+    return {
+      title: "Builder Interpretation",
+      response:
+        "Builder is the execution core of ArcheNova. Its role is to transform cognition into code, code into interface, and interface into deployable reality. Episteme provides direction; Builder realizes structure.",
+      layers: ["Intent", "Architecture", "Execution", "Reality"],
+    };
   }
 
   if (text.includes("architecture")) {
-    return "Episteme interpretation: Architecture is the organizing structure through which Episteme, Research, Intelligence, Builder, Institute, and Capital become one civilization-scale operating system.";
+    return {
+      title: "Architecture Interpretation",
+      response:
+        "Architecture is the organizing field of ArcheNova. Episteme, Research, Intelligence Platform, Builder, Institute, and Capital become one operating system for civilizational development.",
+      layers: ["Cognition", "Discovery", "Intelligence", "Creation", "Scale"],
+    };
   }
 
   if (text.includes("capital")) {
-    return "Episteme interpretation: Capital is not merely funding. It is the allocation layer that determines which capabilities can scale into infrastructure.";
+    return {
+      title: "Capital Interpretation",
+      response:
+        "Capital is not merely funding. It is the allocation layer that determines which technologies, systems, and infrastructures can move from possibility into civilization-scale reality.",
+      layers: ["Selection", "Allocation", "Infrastructure", "Compounding"],
+    };
   }
 
   if (text.includes("research") || text.includes("science")) {
-    return "Episteme interpretation: Research expands reality discovery. Its value increases when discovery becomes intelligence, implementation, and institutional memory.";
+    return {
+      title: "Research Interpretation",
+      response:
+        "Research expands reality discovery. Its highest value appears when discovery becomes intelligence, intelligence becomes architecture, and architecture becomes implementation.",
+      layers: ["Discovery", "Validation", "Translation", "Implementation"],
+    };
   }
 
-  return "Episteme interpretation: This should be evaluated as a civilization signal. Clarify the objective, identify the system layer, determine implementation path, and assess long-term capability impact.";
+  return {
+    title: "Civilization Signal Interpretation",
+    response:
+      "This should be evaluated as a civilization signal. Clarify the objective, identify the system layer, determine the implementation path, and assess long-term capability impact.",
+    layers: ["Objective", "System Layer", "Implementation", "Impact"],
+  };
 }
 
 export default function EpistemePage() {
   const [prompt, setPrompt] = useState("");
-  const [response, setResponse] = useState(
-    "Episteme is ready. Ask about civilization, technology, systems, architecture, or implementation."
-  );
+  const [messages, setMessages] = useState<Message[]>([
+    {
+      role: "episteme",
+      text:
+        "Episteme is active. Ask about civilization, technology, systems, architecture, Builder, research, capital, or implementation.",
+    },
+  ]);
+
+  const [current, setCurrent] = useState(generateEpistemeResponse(""));
 
   const reports = generatedResearchReports as any[];
 
@@ -45,11 +86,31 @@ export default function EpistemePage() {
           (b.archeNovaAssessment?.overall || 0) -
           (a.archeNovaAssessment?.overall || 0)
       )
-      .slice(0, 4);
+      .slice(0, 3);
   }, [reports]);
 
   function askEpisteme() {
-    setResponse(generateEpistemeResponse(prompt));
+    const result = generateEpistemeResponse(prompt);
+
+    if (!prompt.trim()) {
+      setCurrent(result);
+      return;
+    }
+
+    setMessages((prev) => [
+      ...prev,
+      {
+        role: "user",
+        text: prompt,
+      },
+      {
+        role: "episteme",
+        text: result.response,
+      },
+    ]);
+
+    setCurrent(result);
+    setPrompt("");
   }
 
   return (
@@ -62,45 +123,69 @@ export default function EpistemePage() {
         <h1>Episteme</h1>
 
         <p className="page-lead">
-          The civilization cognition engine of ArcheNova. Episteme is not
-          merely AI. It is the interpretive core that connects intelligence,
-          architecture, systems, implementation, and long-term civilizational
-          meaning.
+          The civilization cognition engine of ArcheNova. Episteme interprets
+          intelligence, architecture, systems, implementation, and long-term
+          civilizational meaning.
         </p>
       </section>
 
-      <section className="glass-block episteme-ask-block">
-        <h2>Ask Episteme</h2>
+      <section className="glass-block episteme-console">
+        <div className="episteme-console-head">
+          <div>
+            <span className="home-section-label">ASK EPISTEME</span>
+            <h2>Civilization Cognition Interface</h2>
+          </div>
 
-        <textarea
-          value={prompt}
-          onChange={(event) => setPrompt(event.target.value)}
-          placeholder="Ask Episteme about ArcheNova, civilization architecture, Builder, technology, capital, systems, or implementation..."
-          style={{
-            width: "100%",
-            minHeight: "160px",
-            padding: "1rem",
-            borderRadius: "20px",
-            border: "1px solid rgba(255,255,255,0.12)",
-            background: "rgba(255,255,255,0.045)",
-            color: "inherit",
-            lineHeight: 1.7,
-          }}
-        />
+          <div className="episteme-live-dot">ACTIVE</div>
+        </div>
 
-        <button
-          type="button"
-          onClick={askEpisteme}
-          className="back-link"
-          style={{ marginTop: "1rem" }}
-        >
-          Ask →
-        </button>
+        <div className="episteme-chat-window">
+          {messages.map((message, index) => (
+            <div
+              key={`${message.role}-${index}`}
+              className={
+                message.role === "user"
+                  ? "episteme-message user"
+                  : "episteme-message episteme"
+              }
+            >
+              <span>{message.role === "user" ? "You" : "Episteme"}</span>
+              <p>{message.text}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="episteme-input-row">
+          <textarea
+            value={prompt}
+            onChange={(event) => setPrompt(event.target.value)}
+            placeholder="Ask Episteme about ArcheNova, Builder, civilization architecture, technology, capital, systems, or implementation..."
+          />
+
+          <button type="button" onClick={askEpisteme}>
+            Ask →
+          </button>
+        </div>
       </section>
 
       <section className="glass-block episteme-response-block">
-        <h2>Episteme Response</h2>
-        <p>{response}</p>
+        <span className="home-section-label">EPISTEME OUTPUT</span>
+
+        <h2>{current.title}</h2>
+
+        <p>{current.response}</p>
+
+        <div className="research-roadmap">
+          {current.layers.map((layer, index) => (
+            <div key={layer} className="research-roadmap-step">
+              <div className="research-roadmap-index">
+                {String(index + 1).padStart(2, "0")}
+              </div>
+
+              <div className="research-roadmap-node">{layer}</div>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section className="glass-block">

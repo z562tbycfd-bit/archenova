@@ -12288,3 +12288,117 @@ html, body {
     letter-spacing: -0.06em;
   }
 }
+.episteme-console {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(140, 210, 255, 0.12), transparent 34%),
+    radial-gradient(circle at 80% 30%, rgba(210, 160, 255, 0.1), transparent 34%),
+    rgba(255, 255, 255, 0.035);
+}
+
+.episteme-console-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.episteme-live-dot {
+  font-size: .72rem;
+  letter-spacing: .14em;
+  color: rgba(255, 230, 170, .95);
+  border: 1px solid rgba(255, 230, 170, .24);
+  border-radius: 999px;
+  padding: .5rem .75rem;
+}
+
+.episteme-chat-window {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.episteme-message {
+  border-radius: 24px;
+  padding: 1rem;
+  border: 1px solid rgba(255,255,255,.09);
+  background: rgba(255,255,255,.045);
+}
+
+.episteme-message.user {
+  background: rgba(140, 210, 255, .075);
+}
+
+.episteme-message.episteme {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(255, 230, 170, .08), transparent 40%),
+    rgba(255,255,255,.045);
+}
+
+.episteme-message span {
+  display: block;
+  font-size: .72rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  opacity: .62;
+  margin-bottom: .5rem;
+}
+
+.episteme-message p {
+  margin: 0;
+  line-height: 1.75;
+}
+
+.episteme-input-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: .85rem;
+  align-items: stretch;
+}
+
+.episteme-input-row textarea {
+  min-height: 120px;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.28);
+  color: inherit;
+  line-height: 1.7;
+  resize: vertical;
+}
+
+.episteme-input-row button {
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.08);
+  color: inherit;
+  border-radius: 20px;
+  padding: 0 1.25rem;
+  cursor: pointer;
+}
+
+.episteme-input-row button:hover {
+  border-color: rgba(140, 210, 255, .45);
+}
+
+@media (max-width: 760px) {
+  .episteme-input-row {
+    grid-template-columns: 1fr;
+  }
+
+  .episteme-input-row button {
+    min-height: 54px;
+  }
+
+  .architecture-status-core h2 {
+    font-size: clamp(2.4rem, 13.5vw, 4.2rem) !important;
+    letter-spacing: -0.08em;
+    line-height: .9;
+    max-width: 100%;
+    overflow: visible;
+  }
+
+  .architecture-status-core {
+    padding-left: 1.15rem;
+    padding-right: 1.15rem;
+  }
+}
