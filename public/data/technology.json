@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-21T23:20:44.808Z",
+  "updated": "2026-06-22T04:44:01.467Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Positive Phase III Data Sells Investors on Intellia",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-positive-phase-iii-data-sells-investors-on-intellia/",
+      "summary": "The data was strong enough for Intellia to continue the rolling Biologics License Application (BLA) submission that it began in April. The company expects to complete the BLA filing by year’s end and hopes to gain FDA ap…",
+      "ts": 1782085259000,
+      "categoryId": "bio"
+    },
     {
       "source": "OpenAI",
       "title": "Samsung Electronics brings ChatGPT and Codex to employees",
@@ -712,14 +720,6 @@
       "url": "https://www.genengnews.com/topics/translational-medicine/china-sets-framework-for-advanced-therapeutic-development/",
       "summary": "China’s Order 818 signals the country’s intent to accelerate local innovation and standardize the drug development environment, thereby becoming a more important player in advanced therapy development and manufacturing. …",
       "ts": 1781788815000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "How many Americans can afford high-quality health care? A new poll finds the number has fallen",
-      "url": "https://www.statnews.com/2026/06/18/how-many-americans-can-afford-their-healthcare/?utm_campaign=rss",
-      "summary": "A new poll shows only about half of U.S. adults could afford their health care and had access to quality care last year.",
-      "ts": 1781788106000,
       "categoryId": "bio"
     }
   ],

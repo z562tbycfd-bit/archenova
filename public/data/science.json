@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-21T23:20:40.871Z",
+  "updated": "2026-06-22T04:43:53.282Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The giant viruses that orchestrate life in the polar regions",
+      "url": "https://phys.org/news/2026-06-giant-viruses-orchestrate-life-polar.html",
+      "summary": "Viruses play a major role in the functioning of ecosystems. They profoundly influence the dynamics of microbial communities, the flow of matter and global biogeochemical cycles. Yet despite their abundance and ecological…",
+      "ts": 1782088204000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Spatiotemporal modulation of surface texture for information encoding and object manipulation",
+      "url": "https://www.nature.com/articles/s41467-026-74794-3",
+      "summary": "",
+      "ts": 1782086400000
+    },
     {
       "source": "Phys.org",
       "title": "El Niño is underway, satellite observations show",
@@ -686,20 +700,6 @@
       "title": "Multi-Head Attention-Based Feature Extractor Integration with Soft Actor-Critic for Porosity Prediction and Process Parameter Optimization in Additive Manufacturing",
       "url": "https://arxiv.org/abs/2606.20087",
       "summary": "arXiv:2606.20087v1 Announce Type: new Abstract: Additive manufacturing process optimization requires precise parameter control to minimize defects such as porosity. Traditional reinforcement learning (RL) approaches usin…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ScaffoldAgent: Utility-Guided Dynamic Outline Optimization for Open-Ended Deep Research",
-      "url": "https://arxiv.org/abs/2606.20122",
-      "summary": "arXiv:2606.20122v1 Announce Type: new Abstract: Open-ended deep research (OEDR) requires systems to acquire knowledge through multi-round retrieval and generate coherent long-form reports. The outline plays a central rol…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Learning to Prompt: Improving Student Engagement with Adaptive LLM-based High-School Tutoring",
-      "url": "https://arxiv.org/abs/2606.20138",
-      "summary": "arXiv:2606.20138v1 Announce Type: new Abstract: LLMs can personalize education, although current static-prompt tutoring systems struggle to adapt to diverse academic disciplines. We develop and test a system with subject…",
       "ts": 1781928000000
     }
   ],
