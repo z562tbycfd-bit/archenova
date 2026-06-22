@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-06-22T15:55:01.641Z",
+  "updated": "2026-06-22T19:32:38.157Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI Discovers Potential Antimicrobial “Prionin” Peptides",
+      "url": "https://www.genengnews.com/topics/translational-medicine/ai-discovers-potential-antimicrobial-prionin-peptides/",
+      "summary": "Researchers used AI to discover antibiotic-like molecules inside prion and prion-like proteins, including candidates that reduced A. baumannii burden in mice, with efficacy comparable to polymyxin B in the model tested. …",
+      "ts": 1782156020000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Three things to watch amid Anthropic’s latest feud with the government",
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the …",
+      "ts": 1782151200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Chinese spaceplane releases object into orbit, according to commercial space surveillance",
+      "url": "https://spacenews.com/chinese-spaceplane-releases-object-into-orbit-according-to-commercial-space-surveillance/",
+      "summary": "China’s secretive spaceplane has released an object into orbit during its ongoing fourth mission, according to space surveillance firm LeoLabs. The post Chinese spaceplane releases object into orbit, according to commerc…",
+      "ts": 1782150179000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "AbbVie to Acquire Apogee Therapeutics for $10.9B",
+      "url": "https://www.genengnews.com/topics/translational-medicine/abbvie-to-acquire-apogee-therapeutics-for-10-9b/",
+      "summary": "Apogee’s lead candidate zumilokibart, an IL-13 inhibitor also called APG777, is a long-acting treatment that, according to the company, holds “pipeline-in-a-product potential” because of the opportunity it has for treati…",
+      "ts": 1782143704000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA to launch pilot program to speed up early-stage clinical trials",
@@ -11,18 +43,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "NASA’s Webb Finds Clues to Ancient, Distant Origin of Comet 3I/ATLAS",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-clues-to-ancient-distant-origin-of-comet-3i-atlas/",
-      "summary": "As interstellar comet 3I/ATLAS began moving away from the Sun in December 2025, astronomers took the opportunity to turn NASA’s powerful James Webb Space Telescope in its direction and capture detailed measurements of it…",
-      "ts": 1782140400000,
-      "categoryId": "space"
-    },
-    {
       "source": "ESA",
       "title": "Webb finds clues to ancient origin of Comet 3I/ATLAS",
       "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS",
       "summary": "The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may be.",
+      "ts": 1782140400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Finds Clues to Ancient, Distant Origin of Comet 3I/ATLAS",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-clues-to-ancient-distant-origin-of-comet-3i-atlas/",
+      "summary": "As interstellar comet 3I/ATLAS began moving away from the Sun in December 2025, astronomers took the opportunity to turn NASA’s powerful James Webb Space Telescope in its direction and capture detailed measurements of it…",
       "ts": 1782140400000,
       "categoryId": "space"
     },
@@ -171,6 +203,22 @@
       "categoryId": "energy-climate"
     },
     {
+      "source": "OpenAI",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "ts": 1782122400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "ts": 1782122400000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "Health equity researchers fear unseen level of scrutiny under White House proposal",
       "url": "https://www.statnews.com/2026/06/22/health-disparity-research-new-dei-rule-threat-nih-grants/?utm_campaign=rss",
@@ -241,6 +289,14 @@
       "summary": "Drifting sea ice fragments near Alaska’s Saint Lawrence and Nunivak islands and colorful water around the Yukon Delta heralded the approach of the summer solstice.",
       "ts": 1782100860000,
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Codex-maxxing for long-running work",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+      "ts": 1782086400000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "Genetic Engineering News",
@@ -663,62 +719,6 @@
       "title": "PepALD: Macrocyclic Peptide Generation via Autoregressive Latent Diffusion",
       "url": "https://arxiv.org/abs/2606.14510",
       "summary": "arXiv:2606.14510v1 Announce Type: cross Abstract: Macrocyclic peptides are promising therapeutic candidates for intracellular targets, but their design requires simultaneous control over non-natural monomer chemistry, ri…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quadratic Forms for Measuring Geometric Trees in 3-dimensional Space",
-      "url": "https://arxiv.org/abs/2606.20096",
-      "summary": "arXiv:2606.20096v1 Announce Type: cross Abstract: Tree-like structures appear in many areas of science, and their shapes can help understand the underlying processes they drive or that give rise to them. By thinking of t…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MedRLM: Recursive Multimodal Health Intelligence for Long-Context Clinical Reasoning, Sensor-Guided Screening, Evidence-Grounded Decision Support, and Community-to-Tertiary Referral Optimization",
-      "url": "https://arxiv.org/abs/2606.20164",
-      "summary": "arXiv:2606.20164v1 Announce Type: cross Abstract: Real-world clinical decision support requires reasoning over heterogeneous and longitudinal patient information rather than answering isolated medical questions. However,…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DeepForestVisionV2: Ecology-Driven Taxonomy Expansion for Camera-Trap Monitoring in African Tropical Forests",
-      "url": "https://arxiv.org/abs/2606.20223",
-      "summary": "arXiv:2606.20223v1 Announce Type: cross Abstract: Camera-trap monitoring in African tropical forests increasingly extends beyond closed-canopy interiors to riverbanks, clearings, and park edges. Among available open tool…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Synchronization modes in bipartite oscillator networks",
-      "url": "https://arxiv.org/abs/2606.20345",
-      "summary": "arXiv:2606.20345v1 Announce Type: cross Abstract: Collective oscillations in neuronal systems often arise from interactions between excitatory and inhibitory populations rather than from recurrent coupling within a singl…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Deep Generative Model for Resting-State EEG Synthesis and Transferable Representation Learning",
-      "url": "https://arxiv.org/abs/2503.02636",
-      "summary": "arXiv:2503.02636v5 Announce Type: replace Abstract: Resting-state EEG provides a non-invasive view of spontaneous brain activity, but extracting meaningful patterns is often limited by scarce high-quality data and relian…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Overlooked weak structural connections support human cognition under nonlinear connectome scaling",
-      "url": "https://arxiv.org/abs/2505.24125",
-      "summary": "arXiv:2505.24125v3 Announce Type: replace Abstract: Human cognition depends on large scale communication constrained by white matter architecture. Although weak connections are abundant in mammalian connectomes, they hav…",
-      "ts": 1781841600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Imperfect molecular detection can renormalize apparent kinetic rates in stochastic gene regulatory networks",
-      "url": "https://arxiv.org/abs/2512.02908",
-      "summary": "arXiv:2512.02908v2 Announce Type: replace Abstract: Imperfect molecular detection in single-cell experiments introduces technical noise that obscures the true stochastic dynamics of gene regulatory networks. While binomi…",
       "ts": 1781841600000,
       "categoryId": "bio"
     }
