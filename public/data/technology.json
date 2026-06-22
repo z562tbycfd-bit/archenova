@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-06-22T04:44:01.467Z",
+  "updated": "2026-06-22T10:41:29.973Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Health equity researchers fear unseen level of scrutiny under White House proposal",
+      "url": "https://www.statnews.com/2026/06/22/health-disparity-research-new-dei-rule-threat-nih-grants/?utm_campaign=rss",
+      "summary": "Health disparities researchers say a new White House proposal could disqualify much of their work from federal funding — perhaps the most serious threat yet to the future of their…",
+      "ts": 1782117000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharma goes on a spending spree, snapping up biotechs in a hurry",
+      "url": "https://www.statnews.com/2026/06/22/pharma-biotech-ma-boom-2026-deals-total-123-billion/?utm_campaign=rss",
+      "summary": "Pharmaceutical companies are hungry to make deals, and they’re making more than they have in years.",
+      "ts": 1782117000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I work in a psychiatric ER. I’m watching the system fail people in real time",
+      "url": "https://www.statnews.com/2026/06/22/psychiatric-er-detox-caregivers-autism-emergency/?utm_campaign=rss",
+      "summary": "The psychiatric ER is “a detox center for those with no safe place to withdraw and a respite center for caregivers at their breaking point,” writes a psychiatrist.",
+      "ts": 1782117000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: Enough, already: the problem with clinical trial data collection",
+      "url": "https://www.statnews.com/2026/06/22/clinical-trial-data-how-much-is-too-much/?utm_campaign=rss",
+      "summary": "“Nearly 30% of the data collected in clinical trials do not directly inform key decisions, yet patients are still asked to provide it.”",
+      "ts": 1782117000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Inside the world’s deepest and longest subsea road tunnel",
+      "url": "https://www.technologyreview.com/2026/06/22/1138821/inside-worlds-deepest-longest-subsea-road-tunnel/",
+      "summary": "It’s cold, it’s very, very noisy, and—if I can be quite honest with you—I’m not feeling super relaxed. I’m currently around 300 meters, or 1,000 feet, beneath the North Sea, in a dark, dank cave. It smells weird. And I a…",
+      "ts": 1782115200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Sanofi names new R&D head as it tries to jumpstart pipeline",
+      "url": "https://www.statnews.com/2026/06/22/sanofi-paulo-fontoura-houman-ashrafian-research-and-development/?utm_campaign=rss",
+      "summary": "Sanofi said that Paulo Fontoura, the chief medical officer at Xaira, would be taking over as its head of R&D, as the company tries to jumpstart its pipeline.",
+      "ts": 1782111238000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Releases First Public Tool to Map the World's Spent Nuclear Fuel",
+      "url": "http://www.iaea.org/newscenter/news/iaea-releases-first-public-tool-to-map-the-worlds-spent-nuclear-fuel",
+      "summary": "",
+      "ts": 1782109805000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
+      "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+      "summary": "Hot tubs sit at about 38 to 40 degrees Celsius, warm enough that most people can only soak for about 15 minutes. NVIDIA’s newest AI servers can run their cooling liquid even hotter — up to 45 degrees Celsius, or 113 degr…",
+      "ts": 1782104422000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "StockWatch: Positive Phase III Data Sells Investors on Intellia",
@@ -17,6 +81,14 @@
       "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "ts": 1782082800000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Conflicts command headlines…protecting peace, less so: The UN Peacebuilding Fund explained",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167764",
+      "summary": "Wars regularly make headlines. Preventing them rarely does.",
+      "ts": 1782043200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -648,78 +720,6 @@
       "url": "https://www.genengnews.com/topics/translational-medicine/idbs-and-alchemi-agree-to-accelerate-ai-driven-biopharma-regulatory-filings/",
       "summary": "IDBS and Alchemi partnered to connect AI agents with data in the IDBS Polar platform, creating a governed data foundation that enables reliable, compliant agentic AI use throughout drug development. The post IDBS and Alc…",
       "ts": 1781799486000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Stages of Star Formation",
-      "url": "https://www.nasa.gov/image-article/stages-of-star-formation/",
-      "summary": "This image, captured by NASA’s James Webb Space Telescope and released on June 5, 2026, shows just a small portion of one of the Orion Molecular Clouds, a long and massive filament of cold gas and dust beyond the Orion N…",
-      "ts": 1781799193000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Do wearables actually help people with cardiovascular disease?",
-      "url": "https://www.statnews.com/2026/06/18/do-wearables-actually-help-people-with-cardiovascular-disease/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: A look at what researchers found about if using wearables help people with cardiovascular diseases, and more.",
-      "ts": 1781796572000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cambrian’s experimental longevity drug mimics exercise",
-      "url": "https://www.statnews.com/2026/06/18/biotech-news-cambrians-experimental-longevity-drug-mimics-exercise/?utm_campaign=rss",
-      "summary": "What Soon-Shiong has delivered, Encanta's RSV antiviral, and other biotech news from The Readout",
-      "ts": 1781795971000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Sophie Adenot's mid-mission highlights",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Sophie_Adenot_s_mid-mission_highlights",
-      "summary": "Video: 00:02:03 Sophie is halfway through the εpsilon mission onboard the ISS, and she has already accomplished so much. Between hundreds of hours of scientific research and thousands of photographs taken from space, she…",
-      "ts": 1781795700000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Chinese startup Spark Space tests engine, raises funds for electric-pump rocket",
-      "url": "https://spacenews.com/chinese-startup-spark-space-tests-engine-raises-funds-for-electric-pump-rocket/",
-      "summary": "Chinese startup Spark Space has secured a series of funding rounds for what it claims will be the world's largest electric-pump-fed rocket, following engine tests. The post Chinese startup Spark Space tests engine, raise…",
-      "ts": 1781793466000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "A legacy to help solve the space workforce pipeline",
-      "url": "https://spacenews.com/a-legacy-to-help-solve-the-space-workforce-pipeline/",
-      "summary": "In this episode of Space Minds, David Ariosto talks with Mike Kincaid, president and chief executive of the Challenger Center. They discuss the space workforce pipeline and the center’s role […] The post A legacy to help…",
-      "ts": 1781793443000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Shingles vaccine may lower dementia risk, new study finds",
-      "url": "https://www.statnews.com/2026/06/18/shingles-vaccine-may-lower-dementia-risk-new-study/?utm_campaign=rss",
-      "summary": "Nursing home residents who received at least one dose of shingles vaccine were 24 percent less likely to develop dementia, a new study found.",
-      "ts": 1781792970000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about an FDA review of Moderna’s flu shot, J&J’s focus on cancer, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/06/18/fda-panel-vote-moderna-flu-vaccine-jnj-cancer-drugs/?utm_campaign=rss",
-      "summary": "Johnson & Johnson has no plans to enter the booming obesity market, opting instead to focus on diseases such as cancer",
-      "ts": 1781789322000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "China Sets Framework for Advanced Therapeutic Development",
-      "url": "https://www.genengnews.com/topics/translational-medicine/china-sets-framework-for-advanced-therapeutic-development/",
-      "summary": "China’s Order 818 signals the country’s intent to accelerate local innovation and standardize the drug development environment, thereby becoming a more important player in advanced therapy development and manufacturing. …",
-      "ts": 1781788815000,
       "categoryId": "bio"
     }
   ],

@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-22T04:43:53.282Z",
+  "updated": "2026-06-22T10:41:26.280Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Europe sweats through new heat wave, with worse to come",
+      "url": "https://phys.org/news/2026-06-europe-worse.html",
+      "summary": "France banned alcohol in red-alert areas Sunday, Spain and Germany canceled or postponed sports events, and Britain warned of \"tropical nights\" as Europe sweltered through a heat wave threatening to break June temperatur…",
+      "ts": 1782119402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Algae microbots take aim at bladder cancer",
+      "url": "https://phys.org/news/2026-06-algae-microbots-aim-bladder-cancer.html",
+      "summary": "Tiny algae-based robots guided by magnets could improve bladder cancer treatment by boosting delivery of chemotherapy drugs into tumors, researchers say.",
+      "ts": 1782118804000
+    },
     {
       "source": "Phys.org",
       "title": "The giant viruses that orchestrate life in the polar regions",
@@ -13,6 +27,55 @@
       "source": "Nature Communications",
       "title": "Spatiotemporal modulation of surface texture for information encoding and object manipulation",
       "url": "https://www.nature.com/articles/s41467-026-74794-3",
+      "summary": "",
+      "ts": 1782086400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Deterministic, dynamically reconfigurable single quantum emitters enabled by tip-enhanced nano-optical trapping spectroscopy",
+      "url": "https://www.nature.com/articles/s41467-026-74532-9",
+      "summary": "",
+      "ts": 1782086400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "AOC1 regulates labor initiation through spermidine-induced autophagy of placental trophoblast cells via EIF5A hypusination",
+      "url": "https://www.nature.com/articles/s41467-026-74698-2",
+      "summary": "",
+      "ts": 1782086400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Structural basis for distinct protective mechanisms of IGHV3-23 antibodies targeting influenza hemagglutinin stem",
+      "url": "https://www.nature.com/articles/s41467-026-74658-w",
+      "summary": "",
+      "ts": 1782086400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Anion-exchange fluorinated ion conductors for stable high-voltage lithium battery",
+      "url": "https://www.nature.com/articles/s41467-026-74773-8",
+      "summary": "",
+      "ts": 1782086400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A natural variation in rice susceptibility factor <i>Rsf1</i> confers resistance to root-knot nematode",
+      "url": "https://www.nature.com/articles/s41467-026-74677-7",
+      "summary": "",
+      "ts": 1782086400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Enzyme-inspired single-molecule photocatalyst enables singlet-oxygen-driven asymmetric epoxidation and sulfoximination",
+      "url": "https://www.nature.com/articles/s41467-026-74592-x",
+      "summary": "",
+      "ts": 1782086400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Collaborative passive cooling of impact-hardening interfaces enabled by nacre-mimetic design",
+      "url": "https://www.nature.com/articles/s41467-026-74755-w",
       "summary": "",
       "ts": 1782086400000
     },
@@ -637,69 +700,6 @@
       "title": "eCNNTO: A Highly Generalizable ConvNet for Accelerating Topology Optimization",
       "url": "https://arxiv.org/abs/2606.19921",
       "summary": "arXiv:2606.19921v1 Announce Type: new Abstract: This work proposes an element-based Convolutional Neural Network (CNN) to accelerate density-based Topology Optimization (TO), termed eCNNTO. TO generally undergoes a large…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The Tao of Agency: Autotelic AI, Embedded Agency and Dissolution of the Self",
-      "url": "https://arxiv.org/abs/2606.19924",
-      "summary": "arXiv:2606.19924v1 Announce Type: new Abstract: Most artificial intelligence systems are built on the assumption that goals are exogenous and specified by the designer. Exploring what happens when an agent begins generat…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation",
-      "url": "https://arxiv.org/abs/2606.19935",
-      "summary": "arXiv:2606.19935v1 Announce Type: new Abstract: Humanoid robots require co-speech motions that are not only expressive and speech-aligned, but also physically executable under embodiment constraints. Existing co-speech g…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Advancing DialNav through Automatic Embodied Dialog Augmentation",
-      "url": "https://arxiv.org/abs/2606.19948",
-      "summary": "arXiv:2606.19948v1 Announce Type: new Abstract: For embodied agents capable of physical interaction, the capability to create and understand dialog is crucial to ensure both safety and effectiveness. While DialNav~\\cite{…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
-      "url": "https://arxiv.org/abs/2606.19980",
-      "summary": "arXiv:2606.19980v1 Announce Type: new Abstract: Achieving dexterous robotic manipulation in the real world heavily relies on human supervision and algorithm engineering, which becomes a central bottleneck in the pursuit …",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Reward as An Agent for Embodied World Models",
-      "url": "https://arxiv.org/abs/2606.19990",
-      "summary": "arXiv:2606.19990v1 Announce Type: new Abstract: While RL has become a promising tool for refining world models, existing methods largely rely on conservative rollouts near the training distribution, limiting exploration,…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Autonomous Event-Driven Multi-Agent Orchestration for Enterprise AI at Scale",
-      "url": "https://arxiv.org/abs/2606.20058",
-      "summary": "arXiv:2606.20058v1 Announce Type: new Abstract: Enterprise AI aims to move toward continuous event monitoring, detection, and action across specialist agents, yet existing multi-agent systems largely assume discrete requ…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Process-Verified Reinforcement Learning for Theorem Proving via Lean",
-      "url": "https://arxiv.org/abs/2606.20068",
-      "summary": "arXiv:2606.20068v1 Announce Type: new Abstract: While reinforcement learning from verifiable rewards (RLVR) typically has relied on a single binary verification signal, symbolic proof assistants in formal reasoning offer…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Residual-Space Evolutionary Optimization via Flow-based Generative Models",
-      "url": "https://arxiv.org/abs/2606.20084",
-      "summary": "arXiv:2606.20084v1 Announce Type: new Abstract: Data editing with generative methods typically requires differentiable objectives and gradient-based search. However, these assumptions break down in flow-based settings, w…",
-      "ts": 1781928000000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Multi-Head Attention-Based Feature Extractor Integration with Soft Actor-Critic for Porosity Prediction and Process Parameter Optimization in Additive Manufacturing",
-      "url": "https://arxiv.org/abs/2606.20087",
-      "summary": "arXiv:2606.20087v1 Announce Type: new Abstract: Additive manufacturing process optimization requires precise parameter control to minimize defects such as porosity. Traditional reinforcement learning (RL) approaches usin…",
       "ts": 1781928000000
     }
   ],
