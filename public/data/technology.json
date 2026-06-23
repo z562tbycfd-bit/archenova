@@ -1,7 +1,111 @@
 {
   "ok": true,
-  "updated": "2026-06-23T20:18:58.298Z",
+  "updated": "2026-06-23T22:16:33.964Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "NASA’s inspector general warns launch sites nearing capacity",
+      "url": "https://spacenews.com/nasas-inspector-general-warns-launch-sites-nearing-capacity/",
+      "summary": "A report by NASA’s inspector general is the latest to highlight the problems that the increasing number of launches is posing to spaceports. The post NASA’s inspector general warns launch sites nearing capacity appeared …",
+      "ts": 1782252948000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Boeing wins $2 billion Space Force contract for communications satellites",
+      "url": "https://spacenews.com/boeing-wins-2-billion-space-force-contract-for-communications-satellites/",
+      "summary": "WASHINGTON — Boeing won a contract worth up to $2 billion to build two next-generation military communications satellites for the U.S. Space Force, prevailing over Lockheed Martin in a competition […] The post Boeing win…",
+      "ts": 1782252456000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Names Sean Gallagher as Chief Information Officer",
+      "url": "https://www.nasa.gov/news-release/nasa-names-sean-gallagher-as-chief-information-officer/",
+      "summary": "NASA has selected Sean Gallagher as the agency’s chief information officer (CIO). In this role, he is responsible for the agency’s entire portfolio of Information Technology products and services. Gallagher has been serv…",
+      "ts": 1782250323000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Heads in the game",
+      "url": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/",
+      "summary": "The Argentina v. France final of the 2022 Men’s World Cup in Qatar was shaping up to be one of the most epic games in soccer history. With just 12 minutes remaining in the extra time added to the game to break a tie, the…",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Super Mario is mathier than you think",
+      "url": "https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/",
+      "summary": "Here’s a problem you probably didn’t solve in school: You’re an ambitious young plumber from Brooklyn in a world inhabited by violent human-size mushrooms called Goombas. The love of your life has been kidnapped, so you …",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A man of many words",
+      "url": "https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/",
+      "summary": "Brian Sietsema has a favorite word. It’s somewhat surprising that he can choose just one. He’s the person spellers rely on to confirm pronunciations and answer questions about the roots of the words they’re given at the …",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Sharing a love for calculus",
+      "url": "https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/",
+      "summary": "The national conversation about the value of education is currently dominated by speculation about the risks and positive potential of AI. Whatever your own perspective on that debate, I hope you’ll be glad to know that …",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Stand Up for Research, Innovation, and Education",
+      "url": "https://www.technologyreview.com/2026/06/23/1138274/stand-up-for-research-innovation-and-education-6/",
+      "summary": "Right now, MIT alumni and friends are voicing their support for: America’s scientific and technological leadership Merit-based admissions and affordable education Advances that increase US health, security, and prosperit…",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Ultrasound imaging turns a robot hand into a skillful mimic",
+      "url": "https://www.technologyreview.com/2026/06/23/1138279/ultrasound-imaging-turns-a-robot-hand-into-a-skillful-mimic/",
+      "summary": "Our hands are the nimblest parts of our bodies, coordinating 34 muscles, 27 joints, and over 100 tendons and ligaments to perform countless nuanced movements and gestures. So far, robots have been notoriously bad at mimi…",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Reinventing the zipper",
+      "url": "https://www.technologyreview.com/2026/06/23/1138282/reinventing-the-zipper/",
+      "summary": "With an adaptable fastener designed at CSAIL, pitching a tent or adjusting the cast for a broken bone could be almost as easy as zipping your coat. The researchers, led by associate professor Stefanie Mueller, were inspi…",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Engineered “mini livers” could be injected as an alternative to transplantation",
+      "url": "https://www.technologyreview.com/2026/06/23/1138285/engineered-mini-livers-could-be-injected-as-an-alternative-to-transplantation/",
+      "summary": "A technology developed by Professor Sangeeta Bhatia, SM ’93, PhD ’97, and colleagues could offer new hope to the thousands of Americans with chronic liver disease who are waiting for an organ transplant or not strong eno…",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Plants appear to detect the patter of falling rain",
+      "url": "https://www.technologyreview.com/2026/06/23/1138288/plants-appear-to-detect-the-patter-of-falling-rain/",
+      "summary": "MIT engineers have found the first direct evidence that plant seeds can sense sounds in nature: Rice submerged in shallow water germinated 30% to 40% more quickly when exposed to vibrations from water dripping on the sur…",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A breath test could diagnose pneumonia in minutes",
+      "url": "https://www.technologyreview.com/2026/06/23/1138291/a-breath-test-could-diagnose-pneumonia-in-minutes/",
+      "summary": "With a test being developed at MIT, diagnosing pneumonia and other lung conditions could someday be as easy as breathing into a tube. The test, dubbed PlasmoSniff, is a portable, chip-scale sensor that traps and detects …",
+      "ts": 1782248400000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "MIT Technology Review",
       "title": "Opening a door to mental-health help online",
@@ -24,6 +128,22 @@
       "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-new-associate-member/",
       "summary": "June 23, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Sophia Space, a company advancing orbital computing infrastructure for the next generation of space-based data processing, […] …",
       "ts": 1782241200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "CSDA Selects Eight Commercial Satellite Data Providers for On-Ramp 2 Contract Awards",
+      "url": "https://science.nasa.gov/science-research/earth-science/csda-selects-eight-commercial-satellite-data-providers-for-on-ramp-2-contract-awards/",
+      "summary": "Eight commercial data providers received contracts to provide a range of data in support of NASA’s Earth science priorities.",
+      "ts": 1782241036000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "58th Girl Scouts Unite Event",
+      "url": "https://science.nasa.gov/earth/58th-girl-scouts-unite-event/",
+      "summary": "58th Girl Scouts Unite Event, July 23-25, 2026 Join NASA in the Exhibit Hall (Booth #206) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. Thursday, July 23 11:00AM – 11:15 AMFrom Daisy to NASA En…",
+      "ts": 1782240707000,
       "categoryId": "space"
     },
     {
@@ -115,18 +235,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "ESA",
-      "title": "Paxi and the European Space Agency",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Paxi_and_the_European_Space_Agency",
-      "summary": "Video: 00:03:38 English: Paxi and the European Space Agency Did you know that space affects your life every single day? Join Paxi to discover all the ways the European Space Agency (ESA) makes life on Earth better every …",
-      "ts": 1782226800000,
-      "categoryId": "space"
-    },
-    {
       "source": "NASA",
       "title": "ARMD Research Solicitations (Updated June 23)",
       "url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
       "summary": "THIS PAGE WAS UPDATED ON JUNE 23, 2026 This Aeronautics Research Mission Directorate (ARMD) solicitations page compiles the opportunities to collaborate with NASA’s aeronautical innovators and/or contribute to their rese…",
+      "ts": 1782226800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Paxi and the European Space Agency",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Paxi_and_the_European_Space_Agency",
+      "summary": "Video: 00:03:38 English: Paxi and the European Space Agency Did you know that space affects your life every single day? Join Paxi to discover all the ways the European Space Agency (ESA) makes life on Earth better every …",
       "ts": 1782226800000,
       "categoryId": "space"
     },
@@ -249,6 +369,62 @@
       "summary": "Digital health startup Cadence has raised $100 million at a $1.23 billion valuation to expand its chronic disease management program.",
       "ts": 1782216000000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: UN launches Hormuz evacuation plan, UNICEF youth champion killed in Gaza, Lebanon ceasefire ‘largely holding’",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167793",
+      "summary": "The International Maritime Organization (IMO) will begin implementing an evacuation plan for more than 11,000 seafarers stranded in the Strait of Hormuz, the UN agency announced on Tuesday.",
+      "ts": 1782216000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Report details widespread use of sexual violence in Sudan war",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167792",
+      "summary": "A new UN human rights report issued on Tuesday details the brutality and scale of conflict-related sexual violence in Sudan since war erupted in April 2023 and its profound, long-term impacts on victims, families and com…",
+      "ts": 1782216000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Central African Republic peace gains must be preserved: UN envoy",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167791",
+      "summary": "The Central African Republic (CAR) “has made remarkable and tangible progress towards lasting peace and security” in recent years, but security remains fragile in border areas, including with war-torn Sudan, UN Special R…",
+      "ts": 1782216000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Israel continues to commit genocide, atrocity crimes by deliberately targeting Palestinian children, UN independent commission finds",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167790",
+      "summary": "Israeli authorities and security forces have deliberately targeted Palestinian children, resulting in genocide and atrocity crimes in the Gaza Strip and war crimes in the West Bank, a UN independent commission of inquiry…",
+      "ts": 1782216000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "New Security Council resolution upholds accountability for attacks against peacekeepers",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167789",
+      "summary": "The United Nations Security Council unanimously adopted a resolution on Tuesday that calls for accountability for crimes committed against UN peacekeepers.",
+      "ts": 1782216000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Global learning losses threaten an entire generation",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167787",
+      "summary": "Conflict, displacement and climate shocks are disrupting education for an estimated 258 million school-aged children and adolescents worldwide, raising fears that millions risk losing not only years of schooling but futu…",
+      "ts": 1782216000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola in DR Congo: first month of outbreak sees record number of cases – UN humanitarians",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167786",
+      "summary": "Ebola has been spreading at unprecedented speed in the eastern Democratic Republic of the Congo (DRC), bringing risk and fear into people’s daily lives, UN humanitarians said on Tuesday.",
+      "ts": 1782216000000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -543,182 +719,6 @@
       "title": "The adaptive nature of confirmation bias",
       "url": "https://arxiv.org/abs/2606.23325",
       "summary": "arXiv:2606.23325v1 Announce Type: new Abstract: In this paper, the phenomenon generally classified as confirmation bias is formulated on the space of square-root probabilities (or equivalently, using the structures of qu…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From Lab to Landscape: Assessing the Impact of Pesticides on Pollinator Populations Based on Laboratory Data by Combining ALMaSS and BufferGUTS",
-      "url": "https://arxiv.org/abs/2606.23470",
-      "summary": "arXiv:2606.23470v1 Announce Type: new Abstract: Pesticides are designed to eradicate pests from crops, fulfilling an important role in the current agricultural system. However, nature conservation requires that pesticide…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dissecting emerging slow rhythms in delay-coupled neural oscillators",
-      "url": "https://arxiv.org/abs/2606.20733",
-      "summary": "arXiv:2606.20733v1 Announce Type: cross Abstract: Synaptic transmission delays are ubiquitous in neural circuits and can alter the dynamical repertoire of coupled oscillators quantitatively and qualitatively. Here, we de…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dataset-Aware Cold-Start Active Learning for Annotation-Efficient 3D Medical Image Segmentation",
-      "url": "https://arxiv.org/abs/2606.20765",
-      "summary": "arXiv:2606.20765v1 Announce Type: cross Abstract: Deep learning for 3D medical image segmentation requires extensive manual annotations, a major bottleneck in volumetric medical imaging. Active learning aims to reduce th…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MMGNN: Multi-level, multi-color graph neural networks for molecular property prediction",
-      "url": "https://arxiv.org/abs/2606.20906",
-      "summary": "arXiv:2606.20906v1 Announce Type: cross Abstract: Molecular message-passing neural networks commonly propagate chemically diverse interactions through a single graph, which may mix interaction-specific signals and requir…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "HERO: Hypothesis-Driven Evidence Retrieval from Omics for Multi-Task Breast Cancer Analysis",
-      "url": "https://arxiv.org/abs/2606.21174",
-      "summary": "arXiv:2606.21174v1 Announce Type: cross Abstract: Matched multi-omics can improve WSI-based biomarker and prognosis prediction, but most existing pipelines use omics as a paral lel feature stream or textual context rathe…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamic dark-field FFOCT and dynamic reflection differential phase contrast for label-free functional imaging at reflective biomaterial interfaces",
-      "url": "https://arxiv.org/abs/2606.21314",
-      "summary": "arXiv:2606.21314v1 Announce Type: cross Abstract: Strong reflections from metallic and engineered substrates severely limit label-free functional imaging of living cells at biomaterial interfaces, neural electrodes, and …",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Soliton-like Waves in a Two-Dimensional Recurrent Spiking Neural Network with Weighted Spike-Timing-Dependent Plasticity",
-      "url": "https://arxiv.org/abs/2606.21432",
-      "summary": "arXiv:2606.21432v1 Announce Type: cross Abstract: We construct a minimal but biologically plausible spiking neuron model operating in discrete time, combining multiplicative spike-timing-dependent plasticity (WSTDP), div…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images",
-      "url": "https://arxiv.org/abs/2606.21608",
-      "summary": "arXiv:2606.21608v1 Announce Type: cross Abstract: Accurate segmentation of curvilinear structures remains challenging in biomedical imaging due to their thin geometry, complex topology, and sensitivity to noise. This is …",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Heavy-Tailed Dispersal Kernels from Stopped Subdiffusive Fractional Brownian Motion",
-      "url": "https://arxiv.org/abs/2606.21681",
-      "summary": "arXiv:2606.21681v1 Announce Type: cross Abstract: Subdiffusive fractional Brownian motions produce localized aggregation when particles are stopped at exponentially distributed times. In applications where clumping and l…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DevoTG: Temporal Graph Neural Networks for Modeling C. elegans Developmental Connectomics",
-      "url": "https://arxiv.org/abs/2606.21940",
-      "summary": "arXiv:2606.21940v1 Announce Type: cross Abstract: Understanding how a nervous system wires itself from birth to adulthood is a fundamental challenge in developmental neuroscience. We present DevoTG, a temporal graph fram…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BioMatrix: Towards a Comprehensive Biological Foundation Model Spanning the Modality Matrix of Sequences, Structures, and Language",
-      "url": "https://arxiv.org/abs/2606.22138",
-      "summary": "arXiv:2606.22138v1 Announce Type: cross Abstract: We present BioMatrix, the first multimodal foundation model that natively integrates sequences, structures, and natural language for both molecules and proteins within a …",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Glass-based physical models for tissue mechanics",
-      "url": "https://arxiv.org/abs/2606.22281",
-      "summary": "arXiv:2606.22281v1 Announce Type: cross Abstract: Techniques from glass art and fabrication provide a controllable physical platform for studying tissue mechanics in simple organisms. Here, we use glass-based physical mo…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Data-driven geometric phase in biological locomotion",
-      "url": "https://arxiv.org/abs/2606.22440",
-      "summary": "arXiv:2606.22440v1 Announce Type: cross Abstract: Geometric phase quantifies net locomotion in dissipative media via gauge theory, but linking this theoretical quantity to noisy, sparse, and weakly periodic biological sh…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Architecture for Health Initiative (Arch4Health): Computational Challenges in Health-Related Applications and the Role of Computer Architecture in Addressing Them",
-      "url": "https://arxiv.org/abs/2606.22685",
-      "summary": "arXiv:2606.22685v1 Announce Type: cross Abstract: Recent biotechnological advances enable high-throughput, low-cost, and accurate biological data generation. This wealth of data enables unique opportunities for advancing…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Retrieval-Augmented Multimodal Learning for Enzyme-Substrate Interaction Prediction Under Low-Homology Shift",
-      "url": "https://arxiv.org/abs/2606.22823",
-      "summary": "arXiv:2606.22823v1 Announce Type: cross Abstract: Enzyme substrate interaction (ESI) prediction is a fundamental computational task for biocatalyst discovery and reaction screening in large biochemical spaces. In practic…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Matter of Time: Towards a General Theory of Agency",
-      "url": "https://arxiv.org/abs/2606.23122",
-      "summary": "arXiv:2606.23122v1 Announce Type: cross Abstract: Agency is often invoked in research on philosophy, biology, and cognitive science without a clear account of how it originates from material organization. Building on tem…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reduced-Alphabet QUBO/Ising Formulation for Constraint-Driven Cyclic Peptide Sequence Design",
-      "url": "https://arxiv.org/abs/2606.23253",
-      "summary": "arXiv:2606.23253v1 Announce Type: cross Abstract: Cyclic peptide design requires balancing local residue preferences with constraints from ring-forming chemistry, residue spacing, topology, target compatibility, and deve…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Electrochemical DNA Hairpin Sensors for Differentiating Small Molecule Intercalation from Minor Groove Binding",
-      "url": "https://arxiv.org/abs/2606.23561",
-      "summary": "arXiv:2606.23561v1 Announce Type: cross Abstract: Small molecule double-stranded DNA intercalators have significant potential for therapeutic applications. However, screening for and confirming a drug candidate's interca…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A sub-Riemannian model of neural states in the primary motor cortex",
-      "url": "https://arxiv.org/abs/2501.03247",
-      "summary": "arXiv:2501.03247v4 Announce Type: replace Abstract: We develop a neurogeometric model for the arm area of motor cortex, which encodes complex motor primitives, ranging from simple movement features like movement directio…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Degeneracy of Two-Dimensional Zero-One Reaction Networks with Up to Three Species",
-      "url": "https://arxiv.org/abs/2507.09272",
-      "summary": "arXiv:2507.09272v3 Announce Type: replace Abstract: Zero-one biochemical reaction networks are widely recognized for their importance in analyzing signal transduction and cellular decision-making processes. Degenerate ne…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From Scarce Functional Labels to Label-Aware Generation in Homologous Protein Families",
-      "url": "https://arxiv.org/abs/2507.15651",
-      "summary": "arXiv:2507.15651v2 Announce Type: replace Abstract: Accurately annotating and controlling protein function from sequence data remains a major challenge in protein engineering, especially when functional labels are scarce…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Context-Dependent Autonomic Responses in Social Anxiety During Cognitive-Emotional Stress",
-      "url": "https://arxiv.org/abs/2507.15871",
-      "summary": "arXiv:2507.15871v2 Announce Type: replace Abstract: Social anxiety disorder (SAD) is associated with heightened physiological arousal during socially evaluative situations, yet it remains unclear whether similar autonomi…",
       "ts": 1782187200000,
       "categoryId": "bio"
     }

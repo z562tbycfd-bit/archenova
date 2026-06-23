@@ -1,7 +1,154 @@
 {
   "ok": true,
-  "updated": "2026-06-23T20:18:55.762Z",
+  "updated": "2026-06-23T22:16:31.007Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Wave-packet interferometry captures elusive dark excitons in organic superconductor",
+      "url": "https://phys.org/news/2026-06-packet-interferometry-captures-elusive-dark.html",
+      "summary": "In a recent study, Manish Garg, independent group leader at Max Planck Institute for Solid State Research (MPI FKF), succeeded in probing the local properties of bright and dark excitons in the organic superconductor cop…",
+      "ts": 1782252603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New algorithm identifies disease-linked changes in cells without prior training",
+      "url": "https://phys.org/news/2026-06-algorithm-disease-linked-cells-prior.html",
+      "summary": "A new algorithm could drive breakthroughs in understanding cancer, Alzheimer's disease and other potentially fatal conditions. Researchers from the University of Waterloo developed the machine-learning algorithm, called …",
+      "ts": 1782252601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A partner's touch can feel unsafe for people with a history of childhood maltreatment",
+      "url": "https://phys.org/news/2026-06-partner-unsafe-people-history-childhood.html",
+      "summary": "In romantic relationships, touch is usually considered part of everyday life: a quick back rub while cooking dinner, a hug after a long day at work or a lingering kiss before falling asleep. It's a simple way to show sup…",
+      "ts": 1782252007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oldest known asteroid impact on Earth dated to 3 billion years",
+      "url": "https://phys.org/news/2026-06-oldest-asteroid-impact-earth-dated.html",
+      "summary": "Curtin University researchers have determined the most precise age yet for the oldest known impact crater on Earth, providing new insight into how meteorite strikes shaped the planet during its earliest history.",
+      "ts": 1782252003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unique instruments automate sample preparation, quality control for cryo-electron microscopy",
+      "url": "https://phys.org/news/2026-06-unique-instruments-automate-sample-quality.html",
+      "summary": "Cryo-electron microscopy (cryo-EM) can help scientists determine the three-dimensional structure of proteins in unprecedented detail. Jacques Dubochet, former group leader at EMBL, shared the 2017 Nobel Prize in chemistr…",
+      "ts": 1782251404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanoparticles sneak antibodies into cells to inhibit cancer and inflammation",
+      "url": "https://phys.org/news/2026-06-nanoparticles-antibodies-cells-inhibit-cancer.html",
+      "summary": "A delivery system that uses lipid nanoparticles to sneak proteins into cells can accomplish the same feat by smuggling therapeutic antibodies, new research has found.",
+      "ts": 1782251401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers provide economic evidence base for shift away from animal testing",
+      "url": "https://phys.org/news/2026-06-economic-evidence-base-shift-animal.html",
+      "summary": "Researchers at Northumbria University have produced new economic evidence demonstrating the significant and growing commercial value of alternatives to animal testing in the U.K., with findings already featuring in parli…",
+      "ts": 1782250810000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Symbiotic partner-swapping or long-term fidelity? Partnership success between beetles and bacteria revealed",
+      "url": "https://phys.org/news/2026-06-symbiotic-partner-swapping-term-fidelity.html",
+      "summary": "Some insects and microbes develop symbiotic partnerships that become so interdependent they can no longer survive without each other. But how specific are these heritable symbioses? Is it possible for the same species of…",
+      "ts": 1782250805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Discovery of how cells maintain their DNA could shield key healthy cells from chemotherapy side effects",
+      "url": "https://phys.org/news/2026-06-discovery-cells-dna-shield-key.html",
+      "summary": "A new study conducted by scientists at the University of Sheffield in collaboration with researchers from UT Southwestern Medical Center in the U.S. has found a protein that could help guide which cells chemotherapies ta…",
+      "ts": 1782250201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hubble details early galaxy transforming neighborhood 1.4 billion years after Big Bang",
+      "url": "https://phys.org/news/2026-06-hubble-early-galaxy-neighborhood-billion.html",
+      "summary": "Astronomers using NASA's Hubble Space Telescope have found something they never expected—ultraviolet light from a galaxy that existed just 1.4 billion years after the Big Bang. That galaxy contains tightly clustered youn…",
+      "ts": 1782249606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Summer's silent killer: Why the world's heat waves are a global health emergency",
+      "url": "https://phys.org/news/2026-06-summer-silent-killer-world-global.html",
+      "summary": "Heat is no longer a future climate risk. It is already here.",
+      "ts": 1782249601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New energy-boosting quantum mechanism discovered in photosynthetic bacteria",
+      "url": "https://phys.org/news/2026-06-energy-boosting-quantum-mechanism-photosynthetic.html",
+      "summary": "Researchers have discovered how certain photosynthetic bacteria use a sophisticated quantum mechanism to increase their efficiency when capturing sunlight. The study, published today in the journal Nature Chemistry and l…",
+      "ts": 1782249001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New breakthrough spots deadly methanol without opening bottles",
+      "url": "https://phys.org/news/2026-06-breakthrough-deadly-methanol-bottles.html",
+      "summary": "A new optical technique developed by researchers at the University of St Andrews and Adelaide University allows toxic methanol in alcoholic spirits to be detected without opening the bottle. Published in the Journal of P…",
+      "ts": 1782248404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Real-time imaging reveals 'RNA hub' driving adaptive immune response",
+      "url": "https://phys.org/news/2026-06-real-imaging-reveals-rna-hub.html",
+      "summary": "A lot of things need to go right on a molecular level for immune cells to launch an adaptive response to an infection. B cells can produce different classes of antibodies tailored for specific infections through controll…",
+      "ts": 1782248402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Controlling ice crystal growth using polymer nanoparticles",
+      "url": "https://phys.org/news/2026-06-ice-crystal-growth-polymer-nanoparticles.html",
+      "summary": "Ice formation can damage biological samples, tissues and materials during freezing and thawing. In nature, specialized molecules known as ice-binding proteins prevent ice crystals from growing too large, helping organism…",
+      "ts": 1782247801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crop diversity and perennial grains could strengthen soil health under climate stress, study finds",
+      "url": "https://phys.org/news/2026-06-crop-diversity-perennial-grains-soil.html",
+      "summary": "A McGill University study suggests that diversifying crops and replacing annual wheat with a perennial grain could help protect soil health as climate change brings more variable rainfall. The research is published in th…",
+      "ts": 1782247208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Moose are native to Colorado, study shows",
+      "url": "https://phys.org/news/2026-06-moose-native-colorado.html",
+      "summary": "The modern Colorado moose is often considered just that: modern—brought to the state by wildlife officials in the late 1970s, preceded by very occasional reports of moose sightings in the 19th and early 20th centuries.",
+      "ts": 1782247204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Branched silver sensor offers more sensitive light-based drug measurements in blood plasma",
+      "url": "https://phys.org/news/2026-06-silver-sensor-sensitive-based-drug.html",
+      "summary": "Medications can save lives, yet for some drugs, the concentration in a patient's bloodstream determines whether a treatment is effective or whether harmful side effects may occur. Researchers at the Leibniz Institute of …",
+      "ts": 1782246604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Surprising diversity found among Europe's last Neanderthals",
+      "url": "https://phys.org/news/2026-06-diversity-europe-neanderthals.html",
+      "summary": "A new study published in Nature provides the most detailed picture to date of Neanderthal diversity in Western Europe shortly before their extinction.",
+      "ts": 1782246009000
+    },
+    {
+      "source": "Phys.org",
+      "title": "People avoid loss, regret rather than rely on 'risk-return' financial strategy",
+      "url": "https://phys.org/news/2026-06-people-loss-financial-strategy.html",
+      "summary": "People make financial choices to avoid losing money or experiencing regret, rather than simply balancing expected monetary returns with their tolerance for financial risk, according to a new study led by Lisa Posey, asso…",
+      "ts": 1782246005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Webb pinpoints millions of stars within Cigar galaxy",
+      "url": "https://phys.org/news/2026-06-webb-millions-stars-cigar-galaxy.html",
+      "summary": "Located 12 million light-years away and undergoing rapid star formation, edge-on spiral galaxy Messier 82 (M82) is a scientifically unique sight to behold, and now NASA's James Webb Space Telescope has revealed previousl…",
+      "ts": 1782246001000
+    },
     {
       "source": "Phys.org",
       "title": "Plant protein pair reveals new wood-formation mechanism",
@@ -409,6 +556,13 @@
       "ts": 1782212405000
     },
     {
+      "source": "APS PRX",
+      "title": "Ghost Mechanism: An Analytical Model of Abrupt Learning in Recurrent Networks",
+      "url": "http://link.aps.org/doi/10.1103/mjcl-lb4x",
+      "summary": "Author(s): Fatih Dinc, Ege Cirakman, Bariscan Kurtkaya, Mert Yuksekgonul, Yiqi Jiang, Mark J. Schnitzer, and Hidenori Tanaka This study establishes the ghost mechanism as an underlying mechanism for abrupt learning, wher…",
+      "ts": 1782208800000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Shake before Use: Universal Enhancement of Quantum Thermometry by Unitary Driving",
       "url": "http://link.aps.org/doi/10.1103/z6rz-d9sq",
@@ -547,160 +701,6 @@
       "url": "http://link.aps.org/doi/10.1103/923y-49z5",
       "summary": "Author(s): Anton V. Khvalyuk and Mikhail V. Feigel’man Microwave dissipation in strongly disordered superconductors is driven by localized collective modes within rare weak spots, a theoretical insight which provides a f…",
       "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Real-Space Topology and Charge Order in the Haldane-Holstein Model",
-      "url": "http://link.aps.org/doi/10.1103/s1my-sryj",
-      "summary": "Author(s): Sebastião dos A. Sousa-Júnior, Julián Faúndez, Tarik P. Cysne, Richard T. Scalettar, and Rubem Mondaini We study the half-filled Haldane-Holstein model, where a paradigmatic Chern insulator is coupled to fully…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Emergent Dynamical Kondo Coherence and Competing Magnetic Order in a Correlated Kagome Flat-Band Metal ${\\mathrm{CsCr}}_{6}{\\mathrm{Sb}}_{6}$",
-      "url": "http://link.aps.org/doi/10.1103/f8b9-q54m",
-      "summary": "Author(s): Xiangqi Liu, Xuefeng Zhang, Jiachen Jiao, Renjie Zhang, Kaiwen Chen, Ying Wang, Yunguan Ye, Zhenhai Yu, Chengyu Jiang, Xia Wang, Bei Jiang, Yaobo Huang, Lei Shu, Baiqing Lv, Gang Li, and Yanfeng Guo Correlated…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Topological Slot in Phononic Crystals",
-      "url": "http://link.aps.org/doi/10.1103/vf18-1kh7",
-      "summary": "Author(s): Qing Wang, Yinfei Zhang, Gangqiao Shao, Han Liu, Weiyin Deng, Hailong He, Liping Ye, Jiuyang Lu, Manzhu Ke, and Zhengyou Liu The hallmark of Chern insulators is the unidirectional propagation of chiral edge st…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Acoustic Non-Abelian Topological Insulator Induced by Artificial SU(2) Gauge Fields",
-      "url": "http://link.aps.org/doi/10.1103/wjh8-tlvd",
-      "summary": "Author(s): Haonan Wang, Hui Liu, Zhancheng Li, Yuanshuo Liu, Weiyin Deng, Hua Cheng, Zhengyou Liu, and Shuqi Chen Non-Abelian topological insulators, arising from a non-Abelian gauge field, not only link to particle phys…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Direct Observation of Sublattice-Dependent Magnetic Ordering and Strong Electron-Magnon Coupling in ${\\mathrm{Fe}}_{5}{\\mathrm{GeTe}}_{2}$",
-      "url": "http://link.aps.org/doi/10.1103/9t6n-4myf",
-      "summary": "Author(s): R. Xu, X. H. Chen, X. L. Li, Y. Z. Wang, J. H. Yao, Z. S. Zhao, S. Liao, S. W. Su, P. Li, Z. T. Liu, D. W. Shen, F. M. Li, Y. L. Wang, D. L. Feng, and J. Jiang The van der Waals room-temperature ferromagnet ${…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spectroscopic Demarcation of Emergent Photons and Spinons in a Dipolar-Octupolar Quantum Spin Liquid",
-      "url": "http://link.aps.org/doi/10.1103/svt2-m3pp",
-      "summary": "Author(s): Bin Gao, Zhengbang Zhou, Tingjun Zhang, Andrey Podlesnyak, Sang-Wook Cheong, Yong Baek Kim, and Pengcheng Dai The identification of fractionalized excitations in quantum spin liquids (QSLs) remains a central c…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Altermagnetic Order Switching in Bulk MnTe by Polarized Neutron Diffraction",
-      "url": "http://link.aps.org/doi/10.1103/yklc-9n6t",
-      "summary": "Author(s): Zheyuan Liu, Shinichiro Asai, Shingo Takahashi, Hiraku Saito, Taro Nakajima, and Takatsugu Masuda Altermagnetic order, characterized by the Néel vector, breaks time-reversal symmetry (TRS) even in the nonrelat…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Temporal Signature of Bosonic Stimulation Induced by Dark Exciton in a Two-Photon-Pumped Polariton Condensate",
-      "url": "http://link.aps.org/doi/10.1103/s7t5-l6xg",
-      "summary": "Author(s): Nadav Landau, Dmitry Panna, Sarit Feldman, Sebastian Brodbeck, Christian Schneider, Sven Höfling, and Alex Hayat Strongly coupled light-matter exciton-polaritons constitute an on-chip solid-state platform wher…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spontaneous Ratchet Currents and Transition Dynamics in Active Wetting",
-      "url": "http://link.aps.org/doi/10.1103/sq25-hfsb",
-      "summary": "Author(s): Noah Grodzinski, Robert L. Jack, and Michael E. Cates Active wetting is a true surface phase transition that has remarkable similarities to critical wetting transitions in equilibrium, but it also features imp…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Tripartite Kerr Soliton Ising Machine for Combinatorial Optimization",
-      "url": "http://link.aps.org/doi/10.1103/pb9b-6hyk",
-      "summary": "Author(s): Nitesh Chauhan, Yan Jin, Jizhao Zang, and Scott B. Papp We introduce and explore a Kerr soliton Ising machine with all-to-all connectivity and up to tripartite (cubic) interactions, unlocking efficient approac…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Memories of Amplitude and Direction Coexist and Compete in Non-Brownian Suspensions",
-      "url": "http://link.aps.org/doi/10.1103/ckl2-lcpl",
-      "summary": "Author(s): Surendra Padamata and Nathan C. Keim A new experiment elucidates the ability of some particle–fluid mixtures to behave in ways that depend on their previous flow. [Phys. Rev. Lett. 136, 258201] Published Tue J…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Ghost Mechanism: An Analytical Model of Abrupt Learning in Recurrent Networks",
-      "url": "http://link.aps.org/doi/10.1103/mjcl-lb4x",
-      "summary": "Author(s): Fatih Dinc, Ege Cirakman, Bariscan Kurtkaya, Mert Yuksekgonul, Yiqi Jiang, Mark J. Schnitzer, and Hidenori Tanaka This study establishes the ghost mechanism as an underlying mechanism for abrupt learning, wher…",
-      "ts": 1782208800000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Completing DNA replication triggers genomic instability in bacteria",
-      "url": "https://phys.org/news/2026-06-dna-replication-triggers-genomic-instability.html",
-      "summary": "If you are anything like us, whenever you plan a journey, you spend a remarkable amount of time thinking about the start and the middle. Is everything packed? What time should we leave? Will there be traffic? Is there a …",
-      "ts": 1782207601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Local species trends may flag global extinction risk, global study finds",
-      "url": "https://phys.org/news/2026-06-local-species-trends-flag-global.html",
-      "summary": "New research from the University of St. Andrews has shown that higher extinction risk is associated with a higher frequency of decreasing local prevalence of species, in an analysis of one of the most comprehensive long-…",
-      "ts": 1782205208000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Solid-state material turns visible light into high-energy UV at sunlight intensity, expanding solar energy potential",
-      "url": "https://phys.org/news/2026-06-solid-state-material-visible-high.html",
-      "summary": "Two cups of warm water don't make one cup of boiling water. But in the quantum world, multiple low-energy photons can combine to produce a single, higher-energy photon.",
-      "ts": 1782205205000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Einstein Probe detects mysterious X-ray transient that doesn't fit any known class",
-      "url": "https://phys.org/news/2026-06-einstein-probe-mysterious-ray-transient.html",
-      "summary": "Astronomers have reported the discovery of an unusual X-ray transient detected by the Einstein Probe that does not fit any known class of cosmic explosions. The paper presenting its multiwavelength analysis was published…",
-      "ts": 1782204002000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Total-Lagrangian vectorial lattice Boltzmann method for finite-strain hyperelasticity with curved boundaries",
-      "url": "https://arxiv.org/abs/2606.20646",
-      "summary": "arXiv:2606.20646v1 Announce Type: new Abstract: Finite-strain hyperelasticity on curved embedded domains poses a geometric challenge for lattice Boltzmann methods. After streaming across an embedded material surface, the…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mobility-Informed Coupling of ABM, PDE, and ODE Models for Pandemic Simulation in Germany",
-      "url": "https://arxiv.org/abs/2606.20652",
-      "summary": "arXiv:2606.20652v1 Announce Type: new Abstract: We present a hybrid modeling framework for simulating the spread of COVID-19 across Germany. Our approach couples high-resolution agent-based models (ABMs) incorporating mo…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Benchmark Generator of Realistic Logistic Transport Networks with Nonlinear Edge Costs and Transshipment Capacities",
-      "url": "https://arxiv.org/abs/2606.20653",
-      "summary": "arXiv:2606.20653v1 Announce Type: new Abstract: Routing many commodities through a logistic network at minimum joint cost of vehicle movements and transshipment at intermediate storages becomes substantially harder -- an…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Sustainability Paradox of Biodegradable Packaging: A Life Cycle Perspective on Chitosan-Based Food Packaging",
-      "url": "https://arxiv.org/abs/2606.20654",
-      "summary": "arXiv:2606.20654v1 Announce Type: new Abstract: Chitosan-based nanomaterials are being increasingly explored as sustainable alternatives to petroleum-derived food packaging, yet their environmental performance across the…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Input-schema identifiability limits in physics-informed surrogates for mechanics-governed flow",
-      "url": "https://arxiv.org/abs/2606.20655",
-      "summary": "arXiv:2606.20655v1 Announce Type: new Abstract: Physics-informed and data-driven surrogates are increasingly used to approximate mechanics-governed flow fields, but the target quantities assigned to such models are not a…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A tabletop demonstration of distributed friction: the spinning wine glass",
-      "url": "https://arxiv.org/abs/2606.20694",
-      "summary": "arXiv:2606.20694v1 Announce Type: new Abstract: When a wine glass is dragged on a table along a circular path, a spontaneous rotation about its vertical axis can develop even if the applied hand force does not directly i…",
-      "ts": 1782187200000
     }
   ],
   "sources": [
