@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-06-23T05:04:00.230Z",
+  "updated": "2026-06-23T09:46:16.347Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
+      "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
+      "summary": "News Highlights: NVIDIA technology runs 81% of the TOP500 and 90% of the systems new to the list. 26 systems on the TOP500 adopted the NVIDIA Grace CPU, up eight from the previous list. The top eight systems on the Green…",
+      "ts": 1782205238000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Elephant alert! AI warning systems aim to avoid deadly clashes",
+      "url": "https://www.technologyreview.com/2026/06/23/1138562/elephant-alert-ai-warning-systems-avoid-deadly-clashes-india/",
+      "summary": "India is home to about 60% of the world’s wild Asian elephants, and around 80% of the animals’ habitat lies outside protected areas, according to the Ministry of Environment, Forest, and Climate Change. That brings peopl…",
+      "ts": 1782205200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The $400 million machine powering the future of chipmaking",
+      "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+      "summary": "Jos Benschop is climbing a ladder to get to the top of his newest machine. It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in th…",
+      "ts": 1782205200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Eli Lilly gave extraordinary obesity drug access to a 79-year-old patient. Who was it?",
+      "url": "https://www.statnews.com/2026/06/23/eli-lilly-unusual-weight-loss-drug-trial-compassionate-use-retatrutide-trump/?utm_campaign=rss",
+      "summary": "Exclusive: STAT has learned that Eli Lilly and the FDA allowed a 79-year-old to gain extraordinary access to an experimental obesity drug through the agency’s “compassionate use” program.",
+      "ts": 1782203400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A sweeping new AI to detect heart conditions is coming to OpenEvidence",
+      "url": "https://www.statnews.com/2026/06/23/pathway-labs-echonext-ai-tool-heart-disease-detection/?utm_campaign=rss",
+      "summary": "EchoNext, a new AI tool cleared by the FDA, will let doctors use an EKG to easily screen patients for structural heart diseases.",
+      "ts": 1782203400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Ending birthright citizenship could be a public health disaster",
+      "url": "https://www.statnews.com/2026/06/23/birthright-citizenship-supreme-court-ruling-public-health/?utm_campaign=rss",
+      "summary": "If the Supreme Court upholds the executive order ending birthright citizenship, it could “have stark consequences at the intersection of bioethics and public health.”",
+      "ts": 1782203400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The Catch-22 for disabled workers hidden in Medicaid’s new work requirements",
+      "url": "https://www.statnews.com/2026/06/23/medicaid-work-requirements-disability-medically-frail/?utm_campaign=rss",
+      "summary": "“There's a particular cruelty buried in the new Medicaid work requirement rules,” write Maria Town and Nicole Jorwic.",
+      "ts": 1782203400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+      "url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+      "summary": "Telecom operators have seen remarkable returns from using generative AI to automate network management, customer care and back-office operations. Most of that impact has been task‑based: automation that speeds up predete…",
+      "ts": 1782194409000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "South Africa Advances Cancer Care Following First ImPACT Review",
+      "url": "http://www.iaea.org/newscenter/news/south-africa-advances-cancer-care-following-first-impact-review",
+      "summary": "",
+      "ts": 1782190834000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "Rising Waters Swamp Lake Naivasha",
+      "url": "https://science.nasa.gov/earth/earth-observatory/rising-waters-swamp-lake-naivasha/",
+      "summary": "Relentless rains are threatening a lake in Kenya’s Great Rift Valley that has become a key hub in the global flower trade.",
+      "ts": 1782187260000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "COLD-CI: A large-scale very high-resolution label polygon dataset for cocoa and non-cocoa classification in Cote d'Ivoire",
@@ -547,6 +627,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "How Omio is building the future of conversational travel",
+      "url": "https://openai.com/index/omio",
+      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "ts": 1782172800000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "Trump administration targets disability integration mandate in DOJ memo",
       "url": "https://www.statnews.com/2026/06/22/doj-memo-targets-disability-integration-olmstead-mandate/?utm_campaign=rss",
@@ -633,94 +721,6 @@
       "summary": "China’s secretive spaceplane has released an object into orbit during its ongoing fourth mission, according to space surveillance firm LeoLabs. The post Chinese spaceplane releases object into orbit, according to commerc…",
       "ts": 1782150179000,
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Chandra Finds Possible Supernova Remnant",
-      "url": "https://www.nasa.gov/image-article/nasas-chandra-finds-possible-supernova-remnant/",
-      "summary": "Using data from NASA’s Chandra X-ray Observatory, astronomers may have found a supernova remnant – seen in this June 11, 2026, image – in an intriguing neighborhood in the middle of the Milky Way galaxy. Supernova remnan…",
-      "ts": 1782149977000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Cover US Spacewalk 95, Host Preview News Conference",
-      "url": "https://www.nasa.gov/news-release/nasa-to-cover-us-spacewalk-95-host-preview-news-conference/",
-      "summary": "NASA astronauts will venture outside the International Space Station on Tuesday, June 30, to replace a wrist joint on the orbital complex’s Canadarm2 robotic arm. The spacewalk is scheduled to begin at approximately 8:35…",
-      "ts": 1782146724000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AbbVie to Acquire Apogee Therapeutics for $10.9B",
-      "url": "https://www.genengnews.com/topics/translational-medicine/abbvie-to-acquire-apogee-therapeutics-for-10-9b/",
-      "summary": "Apogee’s lead candidate zumilokibart, an IL-13 inhibitor also called APG777, is a long-acting treatment that, according to the company, holds “pipeline-in-a-product potential” because of the opportunity it has for treati…",
-      "ts": 1782143704000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA to launch pilot program to speed up early-stage clinical trials",
-      "url": "https://www.statnews.com/2026/06/22/fda-speed-up-early-stage-single-study-clinical-trials/?utm_campaign=rss",
-      "summary": "Federal health officials aim to speed up drug development and better compete with China.",
-      "ts": 1782143324000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Webb finds clues to ancient origin of Comet 3I/ATLAS",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS",
-      "summary": "The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may be.",
-      "ts": 1782140400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Finds Clues to Ancient, Distant Origin of Comet 3I/ATLAS",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-clues-to-ancient-distant-origin-of-comet-3i-atlas/",
-      "summary": "As interstellar comet 3I/ATLAS began moving away from the Sun in December 2025, astronomers took the opportunity to turn NASA’s powerful James Webb Space Telescope in its direction and capture detailed measurements of it…",
-      "ts": 1782140400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Confirmed Ebola cases in Congo outbreak top 1,000 with 254 deaths, authorities say",
-      "url": "https://www.statnews.com/2026/06/22/ebola-congo-1000-cases-254-deaths-civil-war-impedes-search-patient-zero/?utm_campaign=rss",
-      "summary": "Confirmed cases in the Ebola outbreak in eastern Congo have reached 1,003, including 254 deaths, officials said, as tracing those who had been in contact with patients remains a major challenge.",
-      "ts": 1782138472000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Brain-Infiltrating T Cells Linked to Social Deficits in Autism Mouse Model",
-      "url": "https://www.genengnews.com/topics/translational-medicine/brain-infiltrating-t-cells-linked-to-social-deficits-in-autism-mouse-model/",
-      "summary": "Brain-infiltrating γδ T cells accumulate in a genetic autism mouse model, contributing to social deficits. Removing or blocking these immune cells improved sociability, highlighting immune dysregulation as a potential th…",
-      "ts": 1782136467000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Breast Milk Fatty Acid Shapes Immune Development in Mice",
-      "url": "https://www.genengnews.com/topics/translational-medicine/breast-milk-fatty-acid-shapes-immune-development-in-mice/",
-      "summary": "TVA exposure during breastfeeding reprogrammed immune cells to improve responses to pathogens. Mice that were nursed on TVA-enriched milk responded faster to infections with viruses or common bacteria, even into adulthoo…",
-      "ts": 1782136126000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Another big deal, another sign biotech M&A is back",
-      "url": "https://www.statnews.com/2026/06/22/biotech-news-another-big-deal-another-sign-ma-is-back/?utm_campaign=rss",
-      "summary": "AbbVie buys Apogee Therapeutics, LSD therapy Phase 3 results, and more biotech news from The Readout",
-      "ts": 1782134506000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Despite transplant referrals, most kidney patients don’t make the waitlist",
-      "url": "https://www.statnews.com/2026/06/22/health-news-most-kidney-failure-patients-never-get-transplant/?utm_campaign=rss",
-      "summary": "An NIH grant proposal poses new threats, more cases of a livestock disease in Europe, and more health news from Morning Rounds",
-      "ts": 1782133431000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

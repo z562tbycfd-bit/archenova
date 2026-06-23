@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-06-23T05:03:57.580Z",
+  "updated": "2026-06-23T09:46:13.183Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Completing DNA replication triggers genomic instability in bacteria",
+      "url": "https://phys.org/news/2026-06-dna-replication-triggers-genomic-instability.html",
+      "summary": "If you are anything like us, whenever you plan a journey, you spend a remarkable amount of time thinking about the start and the middle. Is everything packed? What time should we leave? Will there be traffic? Is there a …",
+      "ts": 1782207601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Local species trends may flag global extinction risk, global study finds",
+      "url": "https://phys.org/news/2026-06-local-species-trends-flag-global.html",
+      "summary": "New research from the University of St. Andrews has shown that higher extinction risk is associated with a higher frequency of decreasing local prevalence of species, in an analysis of one of the most comprehensive long-…",
+      "ts": 1782205208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Solid-state material turns visible light into high-energy UV at sunlight intensity, expanding solar energy potential",
+      "url": "https://phys.org/news/2026-06-solid-state-material-visible-high.html",
+      "summary": "Two cups of warm water don't make one cup of boiling water. But in the quantum world, multiple low-energy photons can combine to produce a single, higher-energy photon.",
+      "ts": 1782205205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Einstein Probe detects mysterious X-ray transient that doesn't fit any known class",
+      "url": "https://phys.org/news/2026-06-einstein-probe-mysterious-ray-transient.html",
+      "summary": "Astronomers have reported the discovery of an unusual X-ray transient detected by the Einstein Probe that does not fit any known class of cosmic explosions. The paper presenting its multiwavelength analysis was published…",
+      "ts": 1782204002000
+    },
     {
       "source": "arXiv Physics",
       "title": "Total-Lagrangian vectorial lattice Boltzmann method for finite-strain hyperelasticity with curved boundaries",
@@ -672,34 +700,6 @@
       "title": "Perceiving exposure segregation with open urban imagery",
       "url": "https://arxiv.org/abs/2606.21858",
       "summary": "arXiv:2606.21858v1 Announce Type: new Abstract: Socioeconomic exposure segregation -- the lack of daily interaction between income groups -- erodes social capital and entrenches inequality, yet the specific physical feat…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revisiting Theoretical Modeling of Seebeck Coefficient of Semiconductors",
-      "url": "https://arxiv.org/abs/2606.21879",
-      "summary": "arXiv:2606.21879v1 Announce Type: new Abstract: We revisit the closed-form models of Seebeck coefficient, and identify the thermodynamic flaws in those extensively-used methodologies, essentially including the confusion …",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Per-Span Microwave Frequency Fiber Interferometry in Subsea Cables for Scalable Deep-Ocean Geophysical Monitoring",
-      "url": "https://arxiv.org/abs/2606.21905",
-      "summary": "arXiv:2606.21905v1 Announce Type: new Abstract: We demonstrate low-cost microwave frequency fibre interferometry for per-span monitoring of a 1,770 km operational subsea cable connecting Ireland and Iceland. Over four mo…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Comparative Evaluation of Sample Selection Algorithms for Multivariate Calibration in Near-Infrared Spectroscopic Analysis of Pharmaceutical Formulations",
-      "url": "https://arxiv.org/abs/2606.21914",
-      "summary": "arXiv:2606.21914v1 Announce Type: new Abstract: The construction of robust multivariate calibration models for near-infrared (NIR) spectroscopic analysis necessitates careful partitioning of samples into training and val…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pressure-strain redistribution as the mechanism for dissimilar heat transfer under spanwise wall oscillation waveforms",
-      "url": "https://arxiv.org/abs/2606.21942",
-      "summary": "arXiv:2606.21942v1 Announce Type: new Abstract: Spanwise wall oscillation can enhance convective heat transfer disproportionately to its drag penalty, a departure from the Reynolds analogy termed dissimilar heat transfer…",
       "ts": 1782187200000
     }
   ],
