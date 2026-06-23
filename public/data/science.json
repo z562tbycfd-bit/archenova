@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-06-22T22:05:15.151Z",
+  "updated": "2026-06-23T00:12:49.989Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Cluster replicability in single-cell and single-nucleus atlases of the mouse brain",
+      "url": "https://www.nature.com/articles/s41467-026-74171-0",
+      "summary": "",
+      "ts": 1782172800000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mosquito-borne viruses avoid killing hosts by limiting protein output, study reveals",
+      "url": "https://phys.org/news/2026-06-mosquito-borne-viruses-hosts-limiting.html",
+      "summary": "The increase in mosquito-borne virus infections is a growing public health concern. Diseases traditionally confined to tropical or subtropical regions, like dengue or West Nile virus, are expanding their geographic scope…",
+      "ts": 1782172201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Leaf-based fluorescence test speeds search for plant gene-editing targets",
+      "url": "https://phys.org/news/2026-06-leaf-based-fluorescence-gene.html",
+      "summary": "Gene editing of plant DNA has the potential to produce crops with increased performance and resilience, but it can take a long time to achieve these gains. To shorten this process, scientists often use screening tools to…",
+      "ts": 1782171603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Making sense of Mars' tiny moon Phobos",
+      "url": "https://phys.org/news/2026-06-mars-tiny-moon-phobos.html",
+      "summary": "Mars' innermost moon, Phobos, has long puzzled planetary scientists, who have continually debated whether it's a captured asteroid or formed from debris after a giant impactor struck the Martian surface. The key to solvi…",
+      "ts": 1782171601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Women negotiate as effectively as men—but leave people happier",
+      "url": "https://phys.org/news/2026-06-women-effectively-men-people-happier.html",
+      "summary": "Men and women achieve similar economic outcomes in negotiations, but female negotiators foster stronger interpersonal relationships, which lead in turn to greater satisfaction with the result and a greater desire to nego…",
+      "ts": 1782171001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanotube-based thermoelectrics open a new pathway to waste-heat energy conversion",
+      "url": "https://phys.org/news/2026-06-nanotube-based-thermoelectrics-pathway-energy.html",
+      "summary": "Whenever someone asks ChatGPT a question, heat is generated somewhere in the server room—a data center. When an electric vehicle battery generates heat during operation, the heat must be managed continuously. Manufacturi…",
+      "ts": 1782170401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Insects exhibit evidence of a daily body clock for humidity",
+      "url": "https://phys.org/news/2026-06-insects-evidence-daily-body-clock.html",
+      "summary": "In a novel experiment at the University of Cincinnati, researchers recently isolated kissing bugs, fruit flies, mosquitoes and spider beetles in a climate- and light-controlled environment and found that they responded p…",
+      "ts": 1782169801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seal pups and seabird chicks are suffering in extreme weather. How can we protect them?",
+      "url": "https://phys.org/news/2026-06-pups-seabird-chicks-extreme-weather.html",
+      "summary": "Extreme weather is becoming the new normal, disrupting human communities across the globe.",
+      "ts": 1782169203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Artificial light is keeping reef fish awake, and the effects may ripple across coral reefs",
+      "url": "https://phys.org/news/2026-06-artificial-reef-fish-effects-ripple.html",
+      "summary": "Artificial light spilling into coastal waters from cities, ports, roads and hotels is disrupting sleep in coral reef fish and is associated with changes in markers linked to brain health, according to a new study from Ba…",
+      "ts": 1782168601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "EU risks a crisis if it fails to halt pollinator loss, researchers warn",
+      "url": "https://phys.org/news/2026-06-eu-crisis-halt-pollinator-loss.html",
+      "summary": "A new white paper from eight major EU-funded pollinator projects warns that the resilience of Europe's vital societal functions and food security are at stake if the EU fails to halt and reverse wild pollinator declines …",
+      "ts": 1782168003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "California has lost more than half of its coastal sand dunes, first-ever assessment reveals",
+      "url": "https://phys.org/news/2026-06-california-lost-coastal-sand-dunes.html",
+      "summary": "A study conducted by UC Santa Barbara researchers and collaborators has found that California has lost more than half of its coastal dune systems. The researchers' assessment—the first of its kind for the California coas…",
+      "ts": 1782168001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bird-derived gene tool inserts plant DNA 30 times more efficiently than CRISPR",
+      "url": "https://phys.org/news/2026-06-bird-derived-gene-tool-inserts.html",
+      "summary": "In a rapidly changing climate landscape, the plants we rely on for food, textiles and more face a multitude of challenges, including rising temperatures, drought and disease. Caltech's Gözde Demirer, the Clare Boothe Luc…",
+      "ts": 1782167406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chaotic polymer vibrations may unlock stronger, flexible thermal insulators",
+      "url": "https://phys.org/news/2026-06-chaotic-polymer-vibrations-stronger-flexible.html",
+      "summary": "University of Massachusetts Amherst researchers have demonstrated a possible new avenue for developing flame-retardant and generally low-conductivity (low-heat-transfer) plastics that retain the benefits of being strong …",
+      "ts": 1782167401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Experiment upends beliefs on how electrons actually behave in warm dense matter",
+      "url": "https://phys.org/news/2026-06-upends-beliefs-electrons-dense.html",
+      "summary": "Researchers at European XFEL, Helmholtz-Zentrum Dresden-Rossendorf (HZDR), Rostock University and other collaborating institutions have used high-precision experiments to demonstrate that the most widely used models for …",
+      "ts": 1782166806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cats age like humans—could studying their brains reveal healthy aging secrets?",
+      "url": "https://phys.org/news/2026-06-cats-age-humans-brains-reveal.html",
+      "summary": "Domestic cats age in remarkably similar ways to humans and show comparable age-related patterns of brain deterioration, according to an international collaboration among the University of Bath in the U.K., Auburn Univers…",
+      "ts": 1782166203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How solar wind forecasting will help define heliosphere's boundaries",
+      "url": "https://phys.org/news/2026-06-solar-heliosphere-boundaries.html",
+      "summary": "Southwest Research Institute (SwRI) scientists are using a solar wind forecasting method combined with analytic and numerical heliosphere models to find out where the first plasma boundary of the outer heliosphere lies a…",
+      "ts": 1782166201000
+    },
     {
       "source": "Phys.org",
       "title": "Protein-tagging technology maps a hidden communication network between organs",
@@ -514,17 +626,17 @@
       "ts": 1782126001000
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Strings from Almost Nothing",
-      "url": "http://link.aps.org/doi/10.1103/cw4p-cqh7",
-      "summary": "Author(s): Clifford Cheung, Grant N. Remmen, Francesco Sciotti, and Michele Tarquini Using a “bootstrap” approach, researchers show that a small set of assumptions may naturally lead to a string-theory description of cer…",
-      "ts": 1782122400000
-    },
-    {
       "source": "APS PRX",
       "title": "Process Tensor Approaches to Non-Markovian Quantum Dynamics",
       "url": "http://link.aps.org/doi/10.1103/1ncg-11hz",
       "summary": "Author(s): Jonathan Keeling, E. Miles Stoudenmire, Mari-Carmen Bañuls, and David R. Reichman Researchers review the process tensor framework and demonstrate how efficient tensor-network representations enable the practic…",
+      "ts": 1782122400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Strings from Almost Nothing",
+      "url": "http://link.aps.org/doi/10.1103/cw4p-cqh7",
+      "summary": "Author(s): Clifford Cheung, Grant N. Remmen, Francesco Sciotti, and Michele Tarquini Using a “bootstrap” approach, researchers show that a small set of assumptions may naturally lead to a string-theory description of cer…",
       "ts": 1782122400000
     },
     {
@@ -564,6 +676,13 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Hierarchical interplay between H3K27ac and H3K4me3 in transcriptional regulation",
+      "url": "https://www.nature.com/articles/s41467-026-74693-7",
+      "summary": "",
+      "ts": 1782086400000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Non-equilibrium stratification in supercritical CO<sub>2</sub>",
       "url": "https://www.nature.com/articles/s41467-026-74538-3",
       "summary": "",
@@ -582,125 +701,6 @@
       "url": "https://www.nature.com/articles/s41467-026-74532-9",
       "summary": "",
       "ts": 1782086400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Enhanced energy storage performance of confined co-doping dielectric films via nanoparticle self-assembly in ferroelectric phases",
-      "url": "https://www.nature.com/articles/s41467-026-74471-5",
-      "summary": "",
-      "ts": 1782086400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "AOC1 regulates labor initiation through spermidine-induced autophagy of placental trophoblast cells via EIF5A hypusination",
-      "url": "https://www.nature.com/articles/s41467-026-74698-2",
-      "summary": "",
-      "ts": 1782086400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Algal δ<sup>13</sup>C reveals climate changes during the Cambrian Explosion",
-      "url": "https://www.nature.com/articles/s41467-026-74516-9",
-      "summary": "",
-      "ts": 1782086400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Structural basis for distinct protective mechanisms of IGHV3-23 antibodies targeting influenza hemagglutinin stem",
-      "url": "https://www.nature.com/articles/s41467-026-74658-w",
-      "summary": "",
-      "ts": 1782086400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Anion-exchange fluorinated ion conductors for stable high-voltage lithium battery",
-      "url": "https://www.nature.com/articles/s41467-026-74773-8",
-      "summary": "",
-      "ts": 1782086400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "A natural variation in rice susceptibility factor <i>Rsf1</i> confers resistance to root-knot nematode",
-      "url": "https://www.nature.com/articles/s41467-026-74677-7",
-      "summary": "",
-      "ts": 1782086400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Enzyme-inspired single-molecule photocatalyst enables singlet-oxygen-driven asymmetric epoxidation and sulfoximination",
-      "url": "https://www.nature.com/articles/s41467-026-74592-x",
-      "summary": "",
-      "ts": 1782086400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Collaborative passive cooling of impact-hardening interfaces enabled by nacre-mimetic design",
-      "url": "https://www.nature.com/articles/s41467-026-74755-w",
-      "summary": "",
-      "ts": 1782086400000
-    },
-    {
-      "source": "Phys.org",
-      "title": "El Niño is underway, satellite observations show",
-      "url": "https://phys.org/news/2026-06-el-nio-underway-satellite.html",
-      "summary": "El Niño, characterized by warmer-than-normal water temperatures in parts of the equatorial Pacific, made its return in June 2026. Observations of sea surface height from the Sentinel-6 Michael Freilich satellite that mon…",
-      "ts": 1782082801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Quantum mechanics theory may work without imaginary numbers, new analysis suggests",
-      "url": "https://phys.org/news/2026-06-quantum-mechanics-theory-imaginary-analysis.html",
-      "summary": "Physicists from Heinrich Heine University Düsseldorf (HHU) have examined a fundamental property of quantum mechanics in collaboration with the German Aerospace Center (DLR). In an article published in the journal Physica…",
-      "ts": 1782080401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "If you're feeling down, maybe don't pet your cat, new study suggests",
-      "url": "https://phys.org/news/2026-06-youre-dont-pet-cat.html",
-      "summary": "You come home after a stressful day and reach out to your cat for a bit of comfort. It hisses. Maybe takes a swipe. Or simply flicks its tail and saunters off without so much as a meow. A dog, by contrast, greets you as …",
-      "ts": 1782079201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Engineered bacterial spores reveal new protein targets for enzymes and vaccines",
-      "url": "https://phys.org/news/2026-06-bacterial-spores-reveal-protein-enzymes.html",
-      "summary": "A remarkable quality of bioengineering is that scientists can take biological processes honed by millions of years of evolution and use them to efficiently create drugs, chemicals and other products to improve our lives.…",
-      "ts": 1782075603000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Mars-like conditions fail to kill some Earth pathogens, experiments suggest",
-      "url": "https://phys.org/news/2026-06-mars-conditions-earth-pathogens.html",
-      "summary": "Microorganisms from our planet could survive on celestial bodies where water is present, such as Mars. That is the conclusion of Ph.D. candidate Tommaso Zaccaria after experiments with simulated space conditions. Our imm…",
-      "ts": 1782072001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Nanoscale CoAl design delivers 6 GPa strength with 15% plastic strain at room temperature",
-      "url": "https://phys.org/news/2026-06-nanoscale-coal-gpa-strength-plastic.html",
-      "summary": "Materials engineers have developed the ability to manipulate structure and matter at the nanoscale for solid-state alloys called intermetallics, making it possible to alter their properties for improved performance.",
-      "ts": 1782068402000
-    },
-    {
-      "source": "Phys.org",
-      "title": "White roofs and urban parks reduce heat in cities, but do not offset extreme global warming",
-      "url": "https://phys.org/news/2026-06-white-roofs-urban-cities-offset.html",
-      "summary": "The implementation of reflective white roofs and new urban parks can significantly reduce temperatures in cities and decrease population vulnerability to heat waves, although these measures are not sufficient to countera…",
-      "ts": 1782066601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Modular nanorobot self-assembles, targets cancer cells and cuts viability",
-      "url": "https://phys.org/news/2026-06-modular-nanorobot-cancer-cells-viability.html",
-      "summary": "A team at the University of Basel, Switzerland, has developed a versatile nanorobot with propulsion and payload modules. The two reusable modules autonomously self-assemble and could be used in medicine or industry.",
-      "ts": 1782064803000
-    },
-    {
-      "source": "Phys.org",
-      "title": "MINDY3: A hub between protein quality control and DNA repair",
-      "url": "https://phys.org/news/2026-06-mindy3-hub-protein-quality-dna.html",
-      "summary": "Researchers from the MRC Protein Phosphorylation and Ubiquitylation Unit at the University of Dundee, together with collaborators from ETH Zürich, the Malopolska Center of Biotechnology and the University of Veterinary M…",
-      "ts": 1782063001000
     }
   ],
   "sources": [

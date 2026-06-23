@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-22T22:05:19.702Z",
+  "updated": "2026-06-23T00:12:54.226Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Trump administration targets disability integration mandate in DOJ memo",
+      "url": "https://www.statnews.com/2026/06/22/doj-memo-targets-disability-integration-olmstead-mandate/?utm_campaign=rss",
+      "summary": "A new memo from the Department of Justice seeks to upend landmark disability laws and court rulings.",
+      "ts": 1782166837000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Trump executive order directs NASA to plan quantum space applications",
@@ -244,6 +252,14 @@
     },
     {
       "source": "United Nations News",
+      "title": "Global Ebola cases top 1,000 as UN races to reach DR Congo’s most vulnerable",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167783",
+      "summary": "As global confirmed Ebola cases reach 1,000, nearly three million children and adolescents are at risk in the eastern part of the Democratic Republic of the Congo (DRC), while efforts increase to treat prisoners near the…",
+      "ts": 1782129600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "World News in Brief: Pope Leo urges action on hunger, humanitarian strain deepens in Gaza, families return to Lebanon",
       "url": "https://news.un.org/feed/view/en/story/2026/06/1167782",
       "summary": "Pope Leo called on the international community to renew its commitment to tackling hunger and malnutrition, describing access to adequate food as a “fundamental human right” during a visit to the World Food Programme (WF…",
@@ -262,7 +278,7 @@
       "source": "United Nations News",
       "title": "Security Council LIVE: Warnings of ‘dangerous cycle of escalation’ in Ukraine",
       "url": "https://news.un.org/feed/view/en/story/2026/06/1167775",
-      "summary": "The Security Council is holding an open meeting on Ukraine on Monday afternoon, with warnings of a “dangerous cycle of escalation” amid drone and missile attacks in briefings by Mohamed Khaled Khiari, Assistant Secretary…",
+      "summary": "Deadly drone and missile attacks in Ukraine over the weekend represented a “dangerous cycle of escalation” in Russia’s full-scale four-year-old war, the Security Council heard on Monday from Mohamed Khaled Khiari, Assist…",
       "ts": 1782129600000,
       "categoryId": "global-governance"
     },
@@ -705,22 +721,6 @@
       "summary": "The many uses of electron beams in industry and environmental protection were the focus of a hands-on training workshop featuring the IAEA’s new Transportable E-beam System,",
       "ts": 1781863538000,
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "What Are Particle Accelerators?",
-      "url": "http://www.iaea.org/newscenter/news/what-are-particle-accelerators",
-      "summary": "Particle accelerators produce and accelerate beams of charged particles, such as electrons, protons and ions, of atomic and sub-atomic size.",
-      "ts": 1781861400000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The inevitable weakness of metrics",
-      "url": "https://www.technologyreview.com/2026/06/19/1138778/inevitable-weakness-metrics-quantified-life-book-review/",
-      "summary": "There are plenty of useful things a metric can reveal. There are even more it can obscure or corrupt. It took me well over a decade of tracking my own life in ever greater detail to fully appreciate this duality, which p…",
-      "ts": 1781859600000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
