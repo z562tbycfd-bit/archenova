@@ -1,8 +1,22 @@
 {
   "ok": true,
+<<<<<<< HEAD
   "updated": "2026-06-23T22:16:33.964Z",
   "items": [
     {
+=======
+  "updated": "2026-06-23T23:45:13.587Z",
+  "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA drops enforcement against Whoop after it tweaks blood pressure feature",
+      "url": "https://www.statnews.com/2026/06/23/fda-drops-enforcement-against-wearable-maker-whoop/?utm_campaign=rss",
+      "summary": "The FDA told wearable maker Whoop last week that it would not take further enforcement action over the company's blood pressure feature.",
+      "ts": 1782257769000,
+      "categoryId": "bio"
+    },
+    {
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "source": "SpaceNews",
       "title": "NASA’s inspector general warns launch sites nearing capacity",
       "url": "https://spacenews.com/nasas-inspector-general-warns-launch-sites-nearing-capacity/",
@@ -107,6 +121,7 @@
       "categoryId": "ai-compute"
     },
     {
+<<<<<<< HEAD
       "source": "MIT Technology Review",
       "title": "Opening a door to mental-health help online",
       "url": "https://www.technologyreview.com/2026/06/23/1138315/opening-a-door-to-mental-health-help-online/",
@@ -115,6 +130,8 @@
       "categoryId": "ai-compute"
     },
     {
+=======
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "source": "STAT",
       "title": "STAT+: Want high-quality generic drugs? One expert has ideas on how consumers can trust their supply",
       "url": "https://www.statnews.com/pharmalot/2026/06/23/high-quality-generic-drugs-lab-testing/?utm_campaign=rss",
@@ -339,6 +356,7 @@
       "categoryId": "bio"
     },
     {
+<<<<<<< HEAD
       "source": "MIT Technology Review",
       "title": "The Download: the future of chipmaking and Anthropic’s government clash",
       "url": "https://www.technologyreview.com/2026/06/23/1139483/the-download-chipmaking-future-asml-ai-anthropic-government-clash/",
@@ -347,6 +365,8 @@
       "categoryId": "ai-compute"
     },
     {
+=======
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "source": "Genetic Engineering News",
       "title": "Cytomos’ AuraCyt Digital Predictive Cell Analytics Platform Showcased at BIO Conference",
       "url": "https://www.genengnews.com/topics/bioprocessing/cytomos-auracyt-digital-predictive-cell-analytics-platform-showcased-at-bio-conference/",
@@ -464,6 +484,7 @@
       "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
       "summary": "News Highlights: NVIDIA technology runs 81% of the TOP500 and 90% of the systems new to the list. 26 systems on the TOP500 adopted the NVIDIA Grace CPU, up eight from the previous list. The top eight systems on the Green…",
       "ts": 1782205238000,
+<<<<<<< HEAD
       "categoryId": "ai-compute"
     },
     {
@@ -480,6 +501,8 @@
       "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
       "summary": "Jos Benschop is climbing a ladder to get to the top of his newest machine. It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in th…",
       "ts": 1782205200000,
+=======
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "categoryId": "ai-compute"
     },
     {
@@ -529,6 +552,7 @@
       "summary": "",
       "ts": 1782190834000,
       "categoryId": "energy-climate"
+<<<<<<< HEAD
     },
     {
       "source": "NASA",
@@ -537,6 +561,13 @@
       "summary": "Relentless rains are threatening a lake in Kenya’s Great Rift Valley that has become a key hub in the global flower trade.",
       "ts": 1782187260000,
       "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "COLD-CI: A large-scale very high-resolution label polygon dataset for cocoa and non-cocoa classification in Cote d'Ivoire",
+      "url": "https://arxiv.org/abs/2606.20767",
+      "summary": "arXiv:2606.20767v1 Announce Type: new Abstract: Spatially explicit information on cocoa cultivation is essential for land-use planning, deforestation monitoring, environmental assessment, and supply-chain analysis. Altho…",
+=======
     },
     {
       "source": "arXiv q-bio",
@@ -559,27 +590,69 @@
       "title": "Surveying the adaptive landscapes of 10,000 antibodies",
       "url": "https://arxiv.org/abs/2606.21351",
       "summary": "arXiv:2606.21351v1 Announce Type: new Abstract: Affinity maturation is the Darwinian process by which antibodies improve antigen binding through somatic hypermutation and selection. The adaptive landscape, which defines …",
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "ts": 1782187200000,
       "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
+<<<<<<< HEAD
+      "title": "Relational Gaze Transitions During Encoding Predict Episodic Recall of Naturalistic Scenes",
+      "url": "https://arxiv.org/abs/2606.20844",
+      "summary": "arXiv:2606.20844v1 Announce Type: new Abstract: Remembering a visual scene requires organizing distinct details into a cohesive event. This study investigates whether relation-guided gaze transitions provide a behavioura…",
+=======
       "title": "Mechanistic mathematical model of the in vitro infection dynamics of Bunyamwera and Batai viruses including MOI-dependent shortening of the eclipse phase",
       "url": "https://arxiv.org/abs/2606.21481",
       "summary": "arXiv:2606.21481v1 Announce Type: new Abstract: We develop a deterministic mathematical model to quantify the distinct in vitro infection dynamics of Bunyamwera virus (BUNV) and Batai virus (BATV) in A549 cells, incorpor…",
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "ts": 1782187200000,
       "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
+<<<<<<< HEAD
+      "title": "Surveying the adaptive landscapes of 10,000 antibodies",
+      "url": "https://arxiv.org/abs/2606.21351",
+      "summary": "arXiv:2606.21351v1 Announce Type: new Abstract: Affinity maturation is the Darwinian process by which antibodies improve antigen binding through somatic hypermutation and selection. The adaptive landscape, which defines …",
+=======
       "title": "Adaptive conduction delays and phase locking in spiking Haken Lighthouse networks",
       "url": "https://arxiv.org/abs/2606.21508",
       "summary": "arXiv:2606.21508v1 Announce Type: new Abstract: We develop a theory of phase-locked activity in delayed spiking networks using the Haken Lighthouse model as an analytically tractable event-based description of neural dyn…",
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "ts": 1782187200000,
       "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
+<<<<<<< HEAD
+      "title": "Mechanistic mathematical model of the in vitro infection dynamics of Bunyamwera and Batai viruses including MOI-dependent shortening of the eclipse phase",
+      "url": "https://arxiv.org/abs/2606.21481",
+      "summary": "arXiv:2606.21481v1 Announce Type: new Abstract: We develop a deterministic mathematical model to quantify the distinct in vitro infection dynamics of Bunyamwera virus (BUNV) and Batai virus (BATV) in A549 cells, incorpor…",
+=======
+      "title": "Delay coordinates synchronization and induces abrupt transition in excitable networks",
+      "url": "https://arxiv.org/abs/2606.21703",
+      "summary": "arXiv:2606.21703v1 Announce Type: new Abstract: Neuronal communication is inherently time-delayed, due to the finite speed of signal propagation. Although often considered challenging or disruptive, such time delays can …",
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+<<<<<<< HEAD
+      "title": "Adaptive conduction delays and phase locking in spiking Haken Lighthouse networks",
+      "url": "https://arxiv.org/abs/2606.21508",
+      "summary": "arXiv:2606.21508v1 Announce Type: new Abstract: We develop a theory of phase-locked activity in delayed spiking networks using the Haken Lighthouse model as an analytically tractable event-based description of neural dyn…",
+=======
+      "title": "Mostly-monocular responses and other visual functions in a multiscale network model of Macaque V1",
+      "url": "https://arxiv.org/abs/2606.21785",
+      "summary": "arXiv:2606.21785v1 Announce Type: new Abstract: Visual signals from the two eyes merge gradually as they pass through the primary visual cortex (V1). Here we use a computational model of Macaque V1 to study the first sta…",
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+<<<<<<< HEAD
       "title": "Delay coordinates synchronization and induces abrupt transition in excitable networks",
       "url": "https://arxiv.org/abs/2606.21703",
       "summary": "arXiv:2606.21703v1 Announce Type: new Abstract: Neuronal communication is inherently time-delayed, due to the finite speed of signal propagation. Although often considered challenging or disruptive, such time delays can …",
@@ -596,6 +669,8 @@
     },
     {
       "source": "arXiv q-bio",
+=======
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "title": "Dynamic Computerized Tumbling-E Testing for Temporal Reliability of Human Sequential Perceptual Decisions",
       "url": "https://arxiv.org/abs/2606.21818",
       "summary": "arXiv:2606.21818v1 Announce Type: new Abstract: OBJECTIVES: Visual acuity and tumbling-E tasks are often treated as static threshold measures, yet sequential perceptual decisions unfold over time. A computerized tumbling…",
@@ -720,6 +795,41 @@
       "url": "https://arxiv.org/abs/2606.23325",
       "summary": "arXiv:2606.23325v1 Announce Type: new Abstract: In this paper, the phenomenon generally classified as confirmation bias is formulated on the space of square-root probabilities (or equivalently, using the structures of qu…",
       "ts": 1782187200000,
+<<<<<<< HEAD
+=======
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "From Lab to Landscape: Assessing the Impact of Pesticides on Pollinator Populations Based on Laboratory Data by Combining ALMaSS and BufferGUTS",
+      "url": "https://arxiv.org/abs/2606.23470",
+      "summary": "arXiv:2606.23470v1 Announce Type: new Abstract: Pesticides are designed to eradicate pests from crops, fulfilling an important role in the current agricultural system. However, nature conservation requires that pesticide…",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Dissecting emerging slow rhythms in delay-coupled neural oscillators",
+      "url": "https://arxiv.org/abs/2606.20733",
+      "summary": "arXiv:2606.20733v1 Announce Type: cross Abstract: Synaptic transmission delays are ubiquitous in neural circuits and can alter the dynamical repertoire of coupled oscillators quantitatively and qualitatively. Here, we de…",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Dataset-Aware Cold-Start Active Learning for Annotation-Efficient 3D Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2606.20765",
+      "summary": "arXiv:2606.20765v1 Announce Type: cross Abstract: Deep learning for 3D medical image segmentation requires extensive manual annotations, a major bottleneck in volumetric medical imaging. Active learning aims to reduce th…",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MMGNN: Multi-level, multi-color graph neural networks for molecular property prediction",
+      "url": "https://arxiv.org/abs/2606.20906",
+      "summary": "arXiv:2606.20906v1 Announce Type: cross Abstract: Molecular message-passing neural networks commonly propagate chemically diverse interactions through a single graph, which may mix interaction-specific signals and requir…",
+      "ts": 1782187200000,
+>>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "categoryId": "bio"
     }
   ],

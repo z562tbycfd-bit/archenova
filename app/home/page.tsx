@@ -71,6 +71,37 @@ export default function Home() {
 </section>
 
 {/* =========================
+    PAGE 02 : CONSTITUTION
+   ========================= */}
+<section
+  id="home-constitution"
+  className="home-page"
+  data-home-section
+>
+  <Reveal>
+    <div className="home-section home-section-center">
+
+      <span className="home-section-label">
+        ARCHENOVA CONSTITUTION
+      </span>
+
+      <p className="home-section-purpose">
+        The foundational principles governing the evolution,
+        learning, intelligence, and long-term direction of ArcheNova.
+      </p>
+
+      <Link
+        href="/constitution"
+        className="back-link"
+      >
+        Open Constitution →
+      </Link>
+
+    </div>
+  </Reveal>
+</section>
+
+{/* =========================
     PAGE : ARCHENOVA GALAXY
    ========================= */}
 <section
