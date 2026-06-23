@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-06-23T15:51:14.998Z",
+  "updated": "2026-06-23T17:59:32.188Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Judge rules government can’t stop SNAP dollars from buying candy and sugary drinks",
+      "url": "https://www.statnews.com/2026/06/23/snap-dollars-buying-candy-sugary-drinks-judge-ruling/?utm_campaign=rss",
+      "summary": "The federal government can't block benefits from the nation's largest food aid program from being used to buy candy, soda, and other sugary drinks, a judge ruled.",
+      "ts": 1782237009000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Ubotica raises $11 million to scale maritime-intelligence platform",
+      "url": "https://spacenews.com/ubotica-raises-11-million-to-scale-maritime-intelligence-platform/",
+      "summary": "SAN FRANCISCO – Ubotica Technologies, an Irish company focused on artificial intelligence for spacecraft, has raised $11 million to expand commercial sales of its maritime-intelligence platform. The platform, Live Mariti…",
+      "ts": 1782236902000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Nextgen Platform Combines VectorBuilder and Maxcyte Technologies to Boost Clinical-Grade Cell Engineering",
+      "url": "https://www.genengnews.com/topics/bioprocessing/nextgen-platform-combines-vectorbuilder-and-maxcyte-technologies-to-boost-clinical-grade-cell-engineering/",
+      "summary": "The aim of the partnership is to provide a platform delivering high-end performance with an optimal cost-of-goods and price-per-dose model to ease scale-up, commercial strategy, and fundraising efforts for drug developer…",
+      "ts": 1782236731000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "ts": 1782234000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "2026 ALA Hyperwall Schedule",
+      "url": "https://science.nasa.gov/earth/2026-ala-hyperwall-schedule/",
+      "summary": "American Library Association (ALA) Annual Conference, June 25-29, 2026 Join NASA in the Exhibit Hall (Booth #2243) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. FRIDAY, JUNE 26 SATURDAY, JUNE 2…",
+      "ts": 1782231802000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "This is How NASA Flight Tests New Technology",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/this-is-how-nasa-flight-tests-new-technology/",
+      "summary": "Flight tests are a big part of how NASA turns breakthrough ideas into reality. From flying humans faster than the speed of sound to proving designs that helped shape the space shuttle, flight testing transforms bold conc…",
+      "ts": 1782230400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Sophia selects Apex bus for on-orbit computing demonstration",
+      "url": "https://spacenews.com/sophia-selects-apex-bus-for-on-orbit-computing-demonstration/",
+      "summary": "SAN FRANCISCO – Sophia Space announced the selection June 22 of an Apex bus for its first orbital computing node. Pasadena, California-based Sophia plans to demonstrate its Thermal Integrated LEO […] The post Sophia sele…",
+      "ts": 1782230218000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Hanging in the Balance",
+      "url": "https://www.nasa.gov/image-article/hanging-in-the-balance/",
+      "summary": "The Moon appears half-illuminated in this photo captured by the Artemis II crew on flight day 6. The terminator – the difference between light and darkness – provides a stark contrast and even greater perspective of the …",
+      "ts": 1782229434000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Texas doctor charged in $89M fraud case as administration pushes health care crackdown",
@@ -9,6 +73,14 @@
       "summary": "The Justice Department has charged a Texas doctor in an $89 million health care fraud scheme, accusing him of billing insurers for medically unnecessary cardiovascular screening tests.",
       "ts": 1782228511000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "ARMD Research Solicitations (Updated June 23)",
+      "url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
+      "summary": "THIS PAGE WAS UPDATED ON JUNE 23, 2026 This Aeronautics Research Mission Directorate (ARMD) solicitations page compiles the opportunities to collaborate with NASA’s aeronautical innovators and/or contribute to their rese…",
+      "ts": 1782226800000,
+      "categoryId": "space"
     },
     {
       "source": "ESA",
@@ -19,12 +91,36 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "I Am Artemis: Jason Peterson",
+      "url": "https://www.nasa.gov/humans-in-space/i-am-artemis-jason-peterson/",
+      "summary": "Jason Peterson’s responsibilities for NASA’s Artemis II mission went beyond his usual role as the range operations manager at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Peterson credits his military exp…",
+      "ts": 1782224849000,
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Exclusive: Mystery man gets experimental GLP-1",
       "url": "https://www.statnews.com/2026/06/23/eli-lilly-mystery-patient-congress-chinese-biotech-dc-diagnosis/?utm_campaign=rss",
       "summary": "Giving an individual special access to an experimental obesity drug is highly unusual.",
       "ts": 1782224538000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Details Early Galaxy Transforming Neighborhood",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-details-early-galaxy-transforming-neighborhood/",
+      "summary": "Astronomers using NASA’s Hubble Space Telescope have found something they never expected — ultraviolet light from a galaxy that existed just 1.4 billion years after the big bang.",
+      "ts": 1782223240000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Pinpoints Millions of Stars Within Cigar Galaxy",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-pinpoints-millions-of-stars-within-cigar-galaxy/",
+      "summary": "Located 12 million light-years away and undergoing rapid star formation, edge-on spiral galaxy Messier 82 (M82) is a scientifically unique sight to behold, and now NASA’s James Webb Space Telescope has revealed previousl…",
+      "ts": 1782223200000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -623,102 +719,6 @@
       "title": "The Modeler Schema Theory of Consciousness, with a Falsifiable Experiment",
       "url": "https://arxiv.org/abs/2512.01073",
       "summary": "arXiv:2512.01073v3 Announce Type: replace Abstract: We propose that consciousness arises from a single control agent, the Modeler-schema, which monitors the brain's Modeler as it constructs and updates the internal World…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification",
-      "url": "https://arxiv.org/abs/2603.04748",
-      "summary": "arXiv:2603.04748v3 Announce Type: replace Abstract: Motivation: Receptor-binding proteins (RBPs) initiate viral infection and determine host specificity, serving as key targets for phage engineering and therapy. However,…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Minimal Set of Questions for Theories of Consciousness: Toward a Unified Explanatory Framework",
-      "url": "https://arxiv.org/abs/2603.12662",
-      "summary": "arXiv:2603.12662v4 Announce Type: replace Abstract: A central challenge in consciousness research is the lack of agreement on what a theory of consciousness should explain, which makes it difficult to compare existing th…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Intracellular Measurement-Informed Multiscale Modeling for Scalable iPSC Manufacturing",
-      "url": "https://arxiv.org/abs/2603.17090",
-      "summary": "arXiv:2603.17090v2 Announce Type: replace Abstract: Scalable manufacturing of human induced pluripotent stem cells (iPSCs) is essential for industrial-scale production of cell therapies and regenerative medicines. Howeve…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Ecological systems in a modeling perspective",
-      "url": "https://arxiv.org/abs/2603.26860",
-      "summary": "arXiv:2603.26860v2 Announce Type: replace Abstract: May (1974,1976) opened the debate on whether biological populations might exhibit nonlinear dynamics and chaos. However, it has in general been difficult to verify nonl…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress",
-      "url": "https://arxiv.org/abs/2604.16642",
-      "summary": "arXiv:2604.16642v3 Announce Type: replace Abstract: Genome engineering has achieved sequence-level precision, yet predicting the transcriptomic state a cell will occupy after perturbation remains open. Single-cell CRISPR…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multi-type branching inference on contact trees with application to COVID-19",
-      "url": "https://arxiv.org/abs/2606.19405",
-      "summary": "arXiv:2606.19405v2 Announce Type: replace Abstract: Inferring epidemiological parameters from transmission trees is essential for understanding infectious disease dynamics. Existing tree-based likelihood methods, includi…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A polarity-aware multi-relational model for the signed interaction prediction in biological networks",
-      "url": "https://arxiv.org/abs/2407.07357",
-      "summary": "arXiv:2407.07357v4 Announce Type: replace-cross Abstract: Predicting signed interactions in biological networks is crucial for understanding drug mechanisms and facilitating drug repurposing. While deep graph models have…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A statistical physics framework for optimal learning",
-      "url": "https://arxiv.org/abs/2507.07907",
-      "summary": "arXiv:2507.07907v2 Announce Type: replace-cross Abstract: Learning is a complex dynamical process shaped by a range of interconnected decisions. Careful design of hyperparameter schedules for artificial neural networks o…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structure leads and dominates comprehension in naturalistic reading",
-      "url": "https://arxiv.org/abs/2509.23195",
-      "summary": "arXiv:2509.23195v3 Announce Type: replace-cross Abstract: The hierarchical account and statistical or sequential account have long been framed as rival theories in explaining online comprehension. A lot of evidence has s…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Region-Specific Calibration Achieves Excellent Inter-Device Reliability for Smartphone Dermatology: A Multi-Device Benchmark on Korean Facial Skin",
-      "url": "https://arxiv.org/abs/2512.21988",
-      "summary": "arXiv:2512.21988v3 Announce Type: replace-cross Abstract: Background: Smartphone-based dermatology requires inter-device colorimetric reliability that holds across calibration regimes, yet quantitative multi-device bench…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Can AI Detect Life? Lessons from Artificial Life",
-      "url": "https://arxiv.org/abs/2604.11915",
-      "summary": "arXiv:2604.11915v2 Announce Type: replace-cross Abstract: Modern machine learning methods have been proposed to detect life in extraterrestrial samples, drawing on their ability to distinguish biotic from abiotic samples…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Brain-DiT: A Universal Multi-state fMRI Foundation Model with Metadata-Conditioned Pretraining",
-      "url": "https://arxiv.org/abs/2604.12683",
-      "summary": "arXiv:2604.12683v2 Announce Type: replace-cross Abstract: Current fMRI foundation models primarily rely on a limited range of brain states and mismatched pretraining tasks, restricting their ability to learn generalized …",
       "ts": 1782187200000,
       "categoryId": "bio"
     }
