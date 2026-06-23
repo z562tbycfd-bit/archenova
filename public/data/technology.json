@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-06-23T17:59:32.188Z",
+  "updated": "2026-06-23T20:18:58.298Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Opening a door to mental-health help online",
+      "url": "https://www.technologyreview.com/2026/06/23/1138315/opening-a-door-to-mental-health-help-online/",
+      "summary": "Rob Morris, SM ’09, PhD ’15, didn’t know where to turn when he first felt symptoms of depression as a teenager: “I had no exposure to healthy coping strategies. I had no vocabulary for what was happening to me.” That exp…",
+      "ts": 1782244800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Want high-quality generic drugs? One expert has ideas on how consumers can trust their supply",
+      "url": "https://www.statnews.com/pharmalot/2026/06/23/high-quality-generic-drugs-lab-testing/?utm_campaign=rss",
+      "summary": "Can the quality of generic drugs in the U.S. be made more consistent? One expert has some ideas on how to do it.",
+      "ts": 1782244401000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Commercial Space Federation (CSF) Welcomes New Associate Member",
+      "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-new-associate-member/",
+      "summary": "June 23, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Sophia Space, a company advancing orbital computing infrastructure for the next generation of space-based data processing, […] …",
+      "ts": 1782241200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Three Subtypes of Severe Pneumonia Might Inform Personalized Therapies",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/three-subtypes-of-severe-pneumonia-might-inform-personalized-therapies/",
+      "summary": "An analysis of human lung fluid samples from hospitalized patients identified three different subtypes of severe pneumonia, a finding which the researchers say could help to explain different outcomes, and potentially in…",
+      "ts": 1782238823000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Nvidia Unveils Science Reasoning AI Suite with BioNeMo Agent Toolkit",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/nvidia-unveils-science-reasoning-ai-suite-with-bionemo-agent-toolkit/",
+      "summary": "The toolkit turns complex scientific workflows into agent-executable tasks and has applications across protein structure prediction, molecular docking, generative chemistry, genomic analysis, protein design, and biomarke…",
+      "ts": 1782237673000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Judge rules government can’t stop SNAP dollars from buying candy and sugary drinks",
@@ -68,25 +108,25 @@
     },
     {
       "source": "STAT",
-      "title": "Texas doctor charged in $89M fraud case as administration pushes health care crackdown",
+      "title": "Justice Department announces hundreds of charges in multibillion-dollar health care fraud crackdown",
       "url": "https://www.statnews.com/2026/06/23/texas-doctor-charged-fraud-case-cms-health-care-crackdown/?utm_campaign=rss",
       "summary": "The Justice Department has charged a Texas doctor in an $89 million health care fraud scheme, accusing him of billing insurers for medically unnecessary cardiovascular screening tests.",
       "ts": 1782228511000,
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "ARMD Research Solicitations (Updated June 23)",
-      "url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
-      "summary": "THIS PAGE WAS UPDATED ON JUNE 23, 2026 This Aeronautics Research Mission Directorate (ARMD) solicitations page compiles the opportunities to collaborate with NASA’s aeronautical innovators and/or contribute to their rese…",
-      "ts": 1782226800000,
-      "categoryId": "space"
-    },
-    {
       "source": "ESA",
       "title": "Paxi and the European Space Agency",
       "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Paxi_and_the_European_Space_Agency",
       "summary": "Video: 00:03:38 English: Paxi and the European Space Agency Did you know that space affects your life every single day? Join Paxi to discover all the ways the European Space Agency (ESA) makes life on Earth better every …",
+      "ts": 1782226800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "ARMD Research Solicitations (Updated June 23)",
+      "url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
+      "summary": "THIS PAGE WAS UPDATED ON JUNE 23, 2026 This Aeronautics Research Mission Directorate (ARMD) solicitations page compiles the opportunities to collaborate with NASA’s aeronautical innovators and/or contribute to their rese…",
       "ts": 1782226800000,
       "categoryId": "space"
     },
@@ -144,6 +184,14 @@
       "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
       "summary": "Companies are asking how to build specialized AI that fits with the way their workflows actually run. The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots…",
       "ts": 1782219607000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "ts": 1782219600000,
       "categoryId": "ai-compute"
     },
     {
@@ -671,54 +719,6 @@
       "title": "Context-Dependent Autonomic Responses in Social Anxiety During Cognitive-Emotional Stress",
       "url": "https://arxiv.org/abs/2507.15871",
       "summary": "arXiv:2507.15871v2 Announce Type: replace Abstract: Social anxiety disorder (SAD) is associated with heightened physiological arousal during socially evaluative situations, yet it remains unclear whether similar autonomi…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Meta-learning ecological priors from large language models explains human learning and decision making",
-      "url": "https://arxiv.org/abs/2509.00116",
-      "summary": "arXiv:2509.00116v3 Announce Type: replace Abstract: Human cognition is profoundly shaped by the environments in which it unfolds. Yet, it remains an open question whether learning and decision making can be explained as …",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Future of Brain Health: From Developmental Insights to Clinical Translation",
-      "url": "https://arxiv.org/abs/2509.21332",
-      "summary": "arXiv:2509.21332v2 Announce Type: replace Abstract: This review highlights brain health as a dynamic process shaped by both genetic and environmental influences throughout development. Critical periods provide unique win…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Principle of Isomorphism: A Theory of Population Activity in Grid Cells and Beyond",
-      "url": "https://arxiv.org/abs/2510.02853",
-      "summary": "arXiv:2510.02853v3 Announce Type: replace Abstract: Neural population activity organizes into low-dimensional manifolds embedded within high-dimensional state spaces, yet the principles governing the topology and geometr…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantum Generative Modeling of Single-Cell transcriptomes: Capturing Gene-Gene and Cell-Cell Interactions",
-      "url": "https://arxiv.org/abs/2510.12776",
-      "summary": "arXiv:2510.12776v4 Announce Type: replace Abstract: Single-cell RNA sequencing (scRNA-seq) data simulation is limited by classical methods relying on linear correlations, failing to capture nonlinear dependencies. No exi…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Maximum entropy models of neuronal populations at and off criticality",
-      "url": "https://arxiv.org/abs/2511.14872",
-      "summary": "arXiv:2511.14872v3 Announce Type: replace Abstract: Empirical evidence of scaling behaviors in neuronal avalanches suggests that neuronal populations in the brain operate near criticality. Departure from scaling in neuro…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Modeler Schema Theory of Consciousness, with a Falsifiable Experiment",
-      "url": "https://arxiv.org/abs/2512.01073",
-      "summary": "arXiv:2512.01073v3 Announce Type: replace Abstract: We propose that consciousness arises from a single control agent, the Modeler-schema, which monitors the brain's Modeler as it constructs and updates the internal World…",
       "ts": 1782187200000,
       "categoryId": "bio"
     }
