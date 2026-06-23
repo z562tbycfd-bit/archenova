@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-06-23T09:46:13.183Z",
+  "updated": "2026-06-23T12:35:31.307Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Horizon edge states gain finite description in string theory calculation",
+      "url": "https://phys.org/news/2026-06-horizon-edge-states-gain-finite.html",
+      "summary": "Modern physics theories highlight the key role of horizons—boundaries beyond which information cannot reach an observer—in a variety of cosmological and gravitational phenomena. Two renowned examples of these boundaries …",
+      "ts": 1782217201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are quarterly earnings pressures hurting companies' long-term innovation prospects?",
+      "url": "https://phys.org/news/2026-06-quarterly-pressures-companies-term-prospects.html",
+      "summary": "If public companies are increasingly focused on meeting quarterly earnings expectations, what happens to the innovations that require years of investment and patience to develop?",
+      "ts": 1782214802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bringing back the world's underwater forests starts with communities",
+      "url": "https://phys.org/news/2026-06-world-underwater-forests-communities.html",
+      "summary": "A global review of kelp conservation efforts has found the strongest restoration programs are built on unlikely partnerships among scientists, fishers, Indigenous groups and coastal communities.",
+      "ts": 1782213603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Venture debt acts as a bridge between funding stages for tech startups, global study finds",
+      "url": "https://phys.org/news/2026-06-venture-debt-bridge-funding-stages.html",
+      "summary": "A new international study has found that venture debt is reshaping how capital moves through technology startup ecosystems around the world. Analyzing data from 59 countries between 2015 and 2024, the researchers show th…",
+      "ts": 1782212405000
+    },
     {
       "source": "Phys.org",
       "title": "Completing DNA replication triggers genomic instability in bacteria",
@@ -672,34 +700,6 @@
       "title": "Material- and geometry-independent multishell cloaking device",
       "url": "https://arxiv.org/abs/2606.21825",
       "summary": "arXiv:2606.21825v1 Announce Type: new Abstract: In this paper we proposed a multi-shell generic cloaking system. A transparency condition independent of the object's optical and geometrical properties is proposed in the …",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "False Summit and Silent Drift: A Failure Taxonomy and Efficiency Analysis of LLM-Assisted Multiphysics Simulation in an Open-Source Framework",
-      "url": "https://arxiv.org/abs/2606.21841",
-      "summary": "arXiv:2606.21841v1 Announce Type: new Abstract: Multiphysics simulation of semiconductor processes requires simultaneous command of governing equations, numerical methods, software implementation, and process physics, cr…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma Flow Generation and Particle Acceleration from Expanding Magnetic Bubbles",
-      "url": "https://arxiv.org/abs/2606.21853",
-      "summary": "arXiv:2606.21853v1 Announce Type: new Abstract: Impulsive plasma dynamics in the laboratory are often driven by rising electric currents, yet their quantitative plasma response has not been well established. By means of …",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Constrained Synthetic Training for Sub-Terahertz Channel Rainfall Sensing",
-      "url": "https://arxiv.org/abs/2606.21857",
-      "summary": "arXiv:2606.21857v1 Announce Type: new Abstract: Terahertz channels can serve as opportunistic rainfall sensors because rain-induced extinction couples received power to rainfall intensity. Unlike satellite, radar, and co…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Perceiving exposure segregation with open urban imagery",
-      "url": "https://arxiv.org/abs/2606.21858",
-      "summary": "arXiv:2606.21858v1 Announce Type: new Abstract: Socioeconomic exposure segregation -- the lack of daily interaction between income groups -- erodes social capital and entrenches inequality, yet the specific physical feat…",
       "ts": 1782187200000
     }
   ],

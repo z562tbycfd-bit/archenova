@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-06-23T09:46:16.347Z",
+  "updated": "2026-06-23T12:35:33.780Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cytomos’ AuraCyt Digital Predictive Cell Analytics Platform Showcased at BIO Conference",
+      "url": "https://www.genengnews.com/topics/bioprocessing/cytomos-auracyt-digital-predictive-cell-analytics-platform-showcased-at-bio-conference/",
+      "summary": "Cytomos says its benchtop cell analytics intelligence system combines the compact Celledonia analyzer with the sensors of the AuraCyt modules to transform complex cellular data into actionable insights. The post Cytomos’…",
+      "ts": 1782216027000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Satellogic partners with SynMax to build intelligence services around upcoming Merlin constellation",
+      "url": "https://spacenews.com/satellogic-partners-with-synmax-to-build-intelligence-services-around-upcoming-merlin-constellation/",
+      "summary": "Companies are looking to fill demand from defense and intelligence agencies for persistent surveillance rather than one-off imagery purchases. The post Satellogic partners with SynMax to build intelligence services aroun…",
+      "ts": 1782216000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Cadence raises $100 million to automate chronic disease care with regulated AI",
+      "url": "https://www.statnews.com/2026/06/23/cadence-100-million-raise-automate-chronic-care-ai/?utm_campaign=rss",
+      "summary": "Digital health startup Cadence has raised $100 million at a $1.23 billion valuation to expand its chronic disease management program.",
+      "ts": 1782216000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Climate crisis: UN chief lays out solutions blueprint for clean energy transition",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167785",
+      "summary": "As a deadly heatwave continued to grip Europe on Tuesday, UN Secretary-General António Guterres issued an impassioned appeal for more ambitious global action on climate change caused by fossil fuels, to prevent irreversi…",
+      "ts": 1782216000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Gene-editing startup launches with $230 million and a Chinese licensing deal",
+      "url": "https://www.statnews.com/2026/06/23/gene-editing-startup-serapha-bio-aatd/?utm_campaign=rss",
+      "summary": "A new gene-editing startup negotiated contracts with a Chinese company, raised $230 million in funding, and executed a reverse-merger with a preexisting biotech company.",
+      "ts": 1782214200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "China appears to be developing 7-meter-diameter reusable rockets",
+      "url": "https://spacenews.com/china-appears-to-be-developing-7-meter-diameter-reusable-rockets/",
+      "summary": "A state-funded tender for tank tooling, a delivered stainless steel forging and launch pad planning suggest that China is developing 7-meter-diameter reusable rockets. The post China appears to be developing 7-meter-diam…",
+      "ts": 1782209277000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Report: U.S. needs framework for responding to hostile acts in space",
+      "url": "https://spacenews.com/report-u-s-needs-framework-for-responding-to-hostile-acts-in-space/",
+      "summary": "Mitchell Institute workshop participants found little consensus on where competition ends and conflict begins as China expands counterspace capabilities The post Report: U.S. needs framework for responding to hostile act…",
+      "ts": 1782208800000,
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
@@ -635,6 +691,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "Nature Energy",
+      "title": "Scaling vanadium flow battery for long-duration energy storage",
+      "url": "https://www.nature.com/articles/s41560-026-02053-2",
+      "summary": "",
+      "ts": 1782172800000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "Trump administration targets disability integration mandate in DOJ memo",
       "url": "https://www.statnews.com/2026/06/22/doj-memo-targets-disability-integration-olmstead-mandate/?utm_campaign=rss",
@@ -657,70 +721,6 @@
       "summary": "Pfizer said an experimental drug it hoped could replace a widely used chemotherapy in one of the most common forms of lung cancer fell short in a clinical trial.",
       "ts": 1782164171000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards Solutions for Federal Enterprise Procurement Contracts",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-solutions-for-federal-enterprise-procurement-contracts/",
-      "summary": "NASA will begin processing the awards of multiple contracts for the Solutions for Enterprise‑wide Procurement (SEWP) VI Government-wide Acquisition Contract. The contract provides streamlined access to commercial product…",
-      "ts": 1782163452000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rocket Lab launches satellite for U.S. Space Force Victus Haze responsive space exercise",
-      "url": "https://spacenews.com/rocket-lab-launches-satellite-for-u-s-space-force-victus-haze-responsive-space-exercise/",
-      "summary": "The mission pairs Rocket Lab spacecraft with a True Anomaly vehicle in orbit to demonstrate rapid threat characterization and rendezvous operations The post Rocket Lab launches satellite for U.S. Space Force Victus Haze …",
-      "ts": 1782161921000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Sounding Rocket to Launch Student Experiments",
-      "url": "https://www.nasa.gov/centers-and-facilities/wallops/nasa-sounding-rocket-to-launch-student-experiments/",
-      "summary": "NASA’s Wallops Flight Facility in Virginia is scheduled to launch a sounding rocket carrying student-developed experiments for the agency’s RockSatX and RockOn programs Wednesday, June 24, between 5:30 and 9:30 a.m. EDT,…",
-      "ts": 1782160954000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Invites Media to Botswana Artemis Accords Signing Ceremony",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-botswana-artemis-accords-signing-ceremony/",
-      "summary": "The Republic of Botswana will sign the Artemis Accords during a ceremony at 9:30 a.m. EDT Thursday, June 25, at NASA Headquarters in Washington. NASA Deputy Administrator Matt Anderson will host Botswana’s Minister of Co…",
-      "ts": 1782156087000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AI Discovers Potential Antimicrobial “Prionin” Peptides",
-      "url": "https://www.genengnews.com/topics/translational-medicine/ai-discovers-potential-antimicrobial-prionin-peptides/",
-      "summary": "Researchers used AI to discover antibiotic-like molecules inside prion and prion-like proteins, including candidates that reduced A. baumannii burden in mice, with efficacy comparable to polymyxin B in the model tested. …",
-      "ts": 1782156020000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Three things to watch amid Anthropic’s latest feud with the government",
-      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the …",
-      "ts": 1782151200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Experimental Fabrication Branch Fuels Aircraft Innovation",
-      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-experimental-fabrication-branch-fuels-aircraft-innovation/",
-      "summary": "At NASA, innovation begins well before an aircraft takes flight. The Experimental Fabrication Branch at NASA’s Armstrong Flight Research Center in Edwards, California, transforms engineering concepts into mission‑ready h…",
-      "ts": 1782150420000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Chinese spaceplane releases object into orbit, according to commercial space surveillance",
-      "url": "https://spacenews.com/chinese-spaceplane-releases-object-into-orbit-according-to-commercial-space-surveillance/",
-      "summary": "China’s secretive spaceplane has released an object into orbit during its ongoing fourth mission, according to space surveillance firm LeoLabs. The post Chinese spaceplane releases object into orbit, according to commerc…",
-      "ts": 1782150179000,
-      "categoryId": "space"
     }
   ],
   "categories": [
