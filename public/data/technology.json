@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-06-24T21:38:28.497Z",
+  "updated": "2026-06-24T23:06:36.944Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Drug Targets LDL Receptor Pathway to Control Cholesterol",
+      "url": "https://www.genengnews.com/topics/drug-discovery/drug-targets-ldl-receptor-pathway-to-control-cholesterol/",
+      "summary": "Researchers uncovered a biological pathway that explains why high-cholesterol diets reduce the body's ability to clear harmful LDL cholesterol from the blood and identified a clinical-stage drug candidate that could pote…",
+      "ts": 1782339631000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA at the Ion: Orion Lessons from Artemis II Shape NASA’s Moon to Mars Path",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-at-the-ion-orion-lessons-from-artemis-ii-shape-nasas-moon-to-mars-path/",
+      "summary": "Seven weeks after the Orion spacecraft returned four astronauts from humanity’s first crewed journey around the Moon since Apollo, Artemis II Orion Vehicle Manager Branelle Rodriguez reflected on the mission’s achievemen…",
+      "ts": 1782336556000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Space Force seeks fresh bidders for satellite-control antennas",
@@ -703,22 +719,6 @@
       "title": "CMADiff: Cross-Modal Aligned Diffusion for Controllable Protein Generation",
       "url": "https://arxiv.org/abs/2503.21450",
       "summary": "arXiv:2503.21450v4 Announce Type: replace-cross Abstract: AI-assisted protein design has emerged as a critical tool for advancing biotechnology, as deep generative models have demonstrated their reliability in this domai…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Predicting brain tumour enhancement from non-contrast MR imaging with artificial intelligence: a multi-cohort retrospective diagnostic accuracy study",
-      "url": "https://arxiv.org/abs/2508.16650",
-      "summary": "arXiv:2508.16650v3 Announce Type: replace-cross Abstract: Brain tumour MRI typically requires both pre- and post-contrast imaging, but gadolinium is not always desirable (frequent follow-up, renal impairment, allergy, pa…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Computing Evolutionarily Stable Strategies in Imperfect-Information Games",
-      "url": "https://arxiv.org/abs/2512.10279",
-      "summary": "arXiv:2512.10279v3 Announce Type: replace-cross Abstract: We present an algorithm for computing evolutionarily stable strategies (ESSs) in symmetric perfect-recall extensive-form games of imperfect information. Our main …",
       "ts": 1782273600000,
       "categoryId": "bio"
     }
