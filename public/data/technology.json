@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-06-24T17:57:18.960Z",
+  "updated": "2026-06-24T19:57:36.211Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "BIO 2026: CEO Calls for U.S. Biotech Urgency and International Competitiveness",
+      "url": "https://www.genengnews.com/topics/translational-medicine/bio-2026-ceo-calls-for-u-s-biotech-urgency-and-international-competitiveness/",
+      "summary": "John Crowley emphasized industry modernization and solving \"man-made problems\" to outcompete rivals like China through improved U.S. innovation ecosystems. The post BIO 2026: CEO Calls for U.S. Biotech Urgency and Intern…",
+      "ts": 1782330818000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Roman Telescope Comes to Kennedy",
+      "url": "https://www.nasa.gov/image-article/roman-telescope-comes-to-kennedy/",
+      "summary": "In this June 21, 2026, photo, NASA’s Nancy Grace Roman Space Telescope arrives at the agency’s Kennedy Space Center in Florida aboard NASA’s Pegasus barge. After offloading and transportation to the spaceport’s Payload H…",
+      "ts": 1782330154000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "MDA Space wins contract for Radarsat replenishment satellite",
+      "url": "https://spacenews.com/mda-space-wins-contract-for-radarsat-replenishment-satellite/",
+      "summary": "MDA Space will build a radar imaging satellite for the Canadian Space Agency as the government studies options for a next-generation satellite system. The post MDA Space wins contract for Radarsat replenishment satellite…",
+      "ts": 1782329443000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s HiRISE Captures Perseverance Marking a Milestone on Mars",
+      "url": "https://science.nasa.gov/photojournal/nasas-hirise-captures-perseverance-marking-a-milestone-on-mars/",
+      "summary": "Description NASA’s Perseverance rover appears as a green speck on the Martian surface on June 13, 2026, a day before the robotic explorer marked a distance milestone, having traveled a full marathon (26.2 miles, or 42.19…",
+      "ts": 1782327328000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Euclid View of Milky Way Heart Previews Core Survey by NASA’s Roman",
+      "url": "https://www.nasa.gov/missions/roman-space-telescope/euclid-view-of-milky-way-heart-previews-core-survey-by-nasas-roman/",
+      "summary": "A new look at the heart of our Milky Way galaxy by Euclid, an ESA (European Space Agency) mission with NASA contributions, overlaps with a region scientists will observe with NASA’s Nancy Grace Roman Space Telescope, lau…",
+      "ts": 1782326505000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Judge temporarily blocks subpoenas in criminal probe of transgender care at New York hospitals",
@@ -104,6 +144,14 @@
       "url": "https://spacenews.com/vast-signs-additional-partners-for-commercial-space-station-microgravity-research/",
       "summary": "Commercial space station company Vast announced June 24 the addition of several companies and organizations to its network of partners for microgravity research and manufacturing. The post Vast signs additional partners …",
       "ts": 1782308527000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Career Spotlight: Electrician (Ages 14-18)",
+      "url": "https://www.nasa.gov/learning-resources/career-spotlight-electrician-ages-14-18/",
+      "summary": "What does an electrician do? Electricity powers the world, and electricians are the ones who get it where it needs to go. An electrician is an expert who is trained to make sure electrical systems and equipment are insta…",
+      "ts": 1782308261000,
       "categoryId": "space"
     },
     {
@@ -217,6 +265,14 @@
       "summary": "A startup developing treatments for eye diseases has raised $330 million from investors as it readies for late-stage testing.",
       "ts": 1782298800000,
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Barbados Signs its First Country Programme Framework (CPF) for 2026–2031",
+      "url": "http://www.iaea.org/newscenter/news/barbados-signs-its-first-country-programme-framework-cpf-for-2026-2031",
+      "summary": "HE Matthew Anthony Wilson, Ambassador and Permanent Representative of Barbados to the United Nations, WTO and other International Organisations in Geneva, and Mr Hua Liu, IAEA Deputy Director General and Head of the Depa…",
+      "ts": 1782297023000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "Genetic Engineering News",
@@ -665,62 +721,6 @@
       "summary": "WASHINGTON — Boeing won a contract worth up to $2 billion to build two next-generation military communications satellites for the U.S. Space Force, prevailing over Lockheed Martin in a competition […] The post Boeing win…",
       "ts": 1782252456000,
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Names Sean Gallagher as Chief Information Officer",
-      "url": "https://www.nasa.gov/news-release/nasa-names-sean-gallagher-as-chief-information-officer/",
-      "summary": "NASA has selected Sean Gallagher as the agency’s chief information officer (CIO). In this role, he is responsible for the agency’s entire portfolio of Information Technology products and services. Gallagher has been serv…",
-      "ts": 1782250323000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Heads in the game",
-      "url": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/",
-      "summary": "The Argentina v. France final of the 2022 Men’s World Cup in Qatar was shaping up to be one of the most epic games in soccer history. With just 12 minutes remaining in the extra time added to the game to break a tie, the…",
-      "ts": 1782248400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Super Mario is mathier than you think",
-      "url": "https://www.technologyreview.com/2026/06/23/1138262/super-mario-is-mathier-than-you-think/",
-      "summary": "Here’s a problem you probably didn’t solve in school: You’re an ambitious young plumber from Brooklyn in a world inhabited by violent human-size mushrooms called Goombas. The love of your life has been kidnapped, so you …",
-      "ts": 1782248400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "A man of many words",
-      "url": "https://www.technologyreview.com/2026/06/23/1138267/a-man-of-many-words/",
-      "summary": "Brian Sietsema has a favorite word. It’s somewhat surprising that he can choose just one. He’s the person spellers rely on to confirm pronunciations and answer questions about the roots of the words they’re given at the …",
-      "ts": 1782248400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Sharing a love for calculus",
-      "url": "https://www.technologyreview.com/2026/06/23/1138271/sharing-a-love-for-calculus/",
-      "summary": "The national conversation about the value of education is currently dominated by speculation about the risks and positive potential of AI. Whatever your own perspective on that debate, I hope you’ll be glad to know that …",
-      "ts": 1782248400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Stand Up for Research, Innovation, and Education",
-      "url": "https://www.technologyreview.com/2026/06/23/1138274/stand-up-for-research-innovation-and-education-6/",
-      "summary": "Right now, MIT alumni and friends are voicing their support for: America’s scientific and technological leadership Merit-based admissions and affordable education Advances that increase US health, security, and prosperit…",
-      "ts": 1782248400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Ultrasound imaging turns a robot hand into a skillful mimic",
-      "url": "https://www.technologyreview.com/2026/06/23/1138279/ultrasound-imaging-turns-a-robot-hand-into-a-skillful-mimic/",
-      "summary": "Our hands are the nimblest parts of our bodies, coordinating 34 muscles, 27 joints, and over 100 tendons and ligaments to perform countless nuanced movements and gestures. So far, robots have been notoriously bad at mimi…",
-      "ts": 1782248400000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
