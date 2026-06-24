@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-06-24T09:35:37.638Z",
+  "updated": "2026-06-24T12:21:16.862Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: introducing the Engineering issue",
+      "url": "https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Engineering issue We can’t fix everything, but we can be ambitiou…",
+      "ts": 1782303000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Stripe, Anthropic and OpenAI are backing an effort to stop respiratory infections",
+      "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
+      "summary": "The common cold comes for us all—often more than once a year. And there is no way to prevent it. The best you can do is take vitamin C and stay away from people with the sniffles. Now, the payment company Stripe, founded…",
+      "ts": 1782302400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The emergence of the web data infrastructure layer for AI",
+      "url": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
+      "summary": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits…",
+      "ts": 1782302394000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Wagering on FDA changes, Regenxbio will submit Duchenne gene therapy for approval",
+      "url": "https://www.statnews.com/2026/06/24/regenxbio-duchenne-gene-therapy-fda-submission/?utm_campaign=rss",
+      "summary": "Regenxbio plans to submit its Duchenne gene therapy for FDA approval, just a month after it said that regulators wanted to see another trial.",
+      "ts": 1782302138000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "FDA finally analyzed its own youth tobacco data",
+      "url": "https://www.statnews.com/2026/06/24/health-news-fda-finally-analyzed-its-own-youth-tobacco-data/?utm_campaign=rss",
+      "summary": "Government can't restrict SNAP dollars on candy, diminishing returns for IVF add-ons, and other health news",
+      "ts": 1782302005000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX launches secretive Starfall reentry demo mission",
+      "url": "https://spacenews.com/spacex-launches-secretive-starfall-reentry-demo-mission/",
+      "summary": "SpaceX launched the first test flight of its Starfall reentry capsule June 23, but the mission remained as secretive as the program itself. The post SpaceX launches secretive Starfall reentry demo mission appeared first …",
+      "ts": 1782301199000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Ophthalmology venture grabs investors’ attention, raises $330 million ",
+      "url": "https://www.statnews.com/2026/06/24/ophthalmology-biotech-ollin-biosciences/?utm_campaign=rss",
+      "summary": "A startup developing treatments for eye diseases has raised $330 million from investors as it readies for late-stage testing.",
+      "ts": 1782298800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "California Still Golden Despite Job Losses: Industry Group",
+      "url": "https://www.genengnews.com/topics/translational-medicine/california-still-golden-despite-job-losses-industry-group/",
+      "summary": "BIOCOM California quantified the economic impact of the Golden State’s life sciences industry as generating $394 billion in economic output in 2025—a figure that goes beyond the direct impact of the 406,505 people employ…",
+      "ts": 1782296313000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA’s Euclid captures the Milky Way’s crowded heart ",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/ESA_s_Euclid_captures_the_Milky_Way_s_crowded_heart",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/euclid_s_view_of_our_galaxy_s_bulge_16_9_cutout/27320856-1-eng-GB/Euclid_s_view_of_our_galaxy_s_bulge_16_9_cutout_card_full.jpg\" alt=\"Euc…",
+      "ts": 1782295200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NGSO trade association launches without industry giant SpaceX",
+      "url": "https://spacenews.com/ngso-trade-association-launches-without-industry-giant-spacex/",
+      "summary": "Amazon and several other non-geostationary satellite operators have formed a trade association to represent their fast-growing market, with SpaceX notably absent despite having by far the largest NGSO constellation. The …",
+      "ts": 1782295200000,
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "This flying solar-powered platform could deliver better internet from the air",
@@ -41,6 +121,30 @@
       "summary": "An abandoned heart-failure trial offers a rare window into devices that the FDA deems \"breakthrough\" but never reach patients.",
       "ts": 1782289800000,
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Director General Joins International Experts Sampling Seawater Near Fukushima",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-director-general-joins-international-experts-sampling-seawater-near-fukushima",
+      "summary": "",
+      "ts": 1782286067000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 4927–4933: Let’s Drive to That Smooth Area",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4927-4933-lets-drive-to-that-smooth-area/",
+      "summary": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Thursday, June 18, 2026 In the area Curiosity is currently exploring, the science team has mapped several areas w…",
+      "ts": 1782275677000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Playing the Moon Game ",
+      "url": "https://science.nasa.gov/earth/earth-observatory/playing-the-moon-game/",
+      "summary": "Apollo astronauts previewed their roles as lunar field geologists in Alaska’s Valley of Ten Thousand Smokes.",
+      "ts": 1782273660000,
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -339,6 +443,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "Nature Energy",
+      "title": "Flowing zinc slurry for long-duration energy storage",
+      "url": "https://www.nature.com/articles/s41560-026-02091-w",
+      "summary": "",
+      "ts": 1782259200000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: FDA drops enforcement against Whoop after it tweaks blood pressure feature",
       "url": "https://www.statnews.com/2026/06/23/fda-drops-enforcement-against-wearable-maker-whoop/?utm_campaign=rss",
@@ -571,18 +683,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "ESA",
-      "title": "Paxi and the European Space Agency",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Paxi_and_the_European_Space_Agency",
-      "summary": "Video: 00:03:38 English: Paxi and the European Space Agency Did you know that space affects your life every single day? Join Paxi to discover all the ways the European Space Agency (ESA) makes life on Earth better every …",
-      "ts": 1782226800000,
-      "categoryId": "space"
-    },
-    {
       "source": "NASA",
       "title": "ARMD Research Solicitations (Updated June 23)",
       "url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
       "summary": "THIS PAGE WAS UPDATED ON JUNE 23, 2026 This Aeronautics Research Mission Directorate (ARMD) solicitations page compiles the opportunities to collaborate with NASA’s aeronautical innovators and/or contribute to their rese…",
+      "ts": 1782226800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Paxi and the European Space Agency",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Paxi_and_the_European_Space_Agency",
+      "summary": "Video: 00:03:38 English: Paxi and the European Space Agency Did you know that space affects your life every single day? Join Paxi to discover all the ways the European Space Agency (ESA) makes life on Earth better every …",
       "ts": 1782226800000,
       "categoryId": "space"
     },
@@ -609,118 +721,6 @@
       "summary": "Astronomers using NASA’s Hubble Space Telescope have found something they never expected — ultraviolet light from a galaxy that existed just 1.4 billion years after the big bang.",
       "ts": 1782223240000,
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Pinpoints Millions of Stars Within Cigar Galaxy",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-pinpoints-millions-of-stars-within-cigar-galaxy/",
-      "summary": "Located 12 million light-years away and undergoing rapid star formation, edge-on spiral galaxy Messier 82 (M82) is a scientifically unique sight to behold, and now NASA’s James Webb Space Telescope has revealed previousl…",
-      "ts": 1782223200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about FDA reforming clinical trials, a Pfizer setback, and much more news",
-      "url": "https://www.statnews.com/pharmalot/2026/06/23/fda-reforming-clinical-trials-pfizer-setback-lilly-trump-obesity/?utm_campaign=rss",
-      "summary": "The latest pharmaceutical news from the Pharmalot campus via the Pharmalittle newsletter",
-      "ts": 1782220858000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lilly’s retatrutide has been offered to a single person via ‘compassionate use’ program",
-      "url": "https://www.statnews.com/2026/06/23/biotech-news-why-did-one-person-get-special-retatrutide-access-eli-lilly/?utm_campaign=rss",
-      "summary": "The \"triple-G\" weight loss drug, Pfizer's lung cancer trial results, and more biotech news from The Readout",
-      "ts": 1782219984000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How Businesses Are Building Specialized AI They Can Trust",
-      "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents/",
-      "summary": "Companies are asking how to build specialized AI that fits with the way their workflows actually run. The first wave of enterprise AI was about access. Companies experimented with new frontier and open models, ran pilots…",
-      "ts": 1782219607000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Helping build shared standards for advanced AI",
-      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "ts": 1782219600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Loft Orbital to test AI models on spacecraft for Earth observation",
-      "url": "https://spacenews.com/loft-orbital-to-test-ai-models-on-spacecraft-for-earth-observation/",
-      "summary": "Loft Orbital is working with NASA’s Jet Propulsion Laboratory to test the use of artificial intelligence on spacecraft to improve Earth science monitoring. The post Loft Orbital to test AI models on spacecraft for Earth …",
-      "ts": 1782219600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: OpenEvidence will add FDA-cleared AI to detect heart disease",
-      "url": "https://www.statnews.com/2026/06/23/openevidence-fda-cleared-heart-disease-ai-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: OpenEvidence adds AI to detect heart disease, and Cadence raises $100 million, and more.",
-      "ts": 1782219266000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "HHS has sent drug for Ebola clinical trial",
-      "url": "https://www.statnews.com/2026/06/23/health-news-hhs-sent-drug-for-ebola-clinical-trial/?utm_campaign=rss",
-      "summary": "FDA's early-stage clinical trial program, a mysterious single patient gets retatrutide access, and more health news from Morning Rounds",
-      "ts": 1782218745000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cytomos’ AuraCyt Digital Predictive Cell Analytics Platform Showcased at BIO Conference",
-      "url": "https://www.genengnews.com/topics/bioprocessing/cytomos-auracyt-digital-predictive-cell-analytics-platform-showcased-at-bio-conference/",
-      "summary": "Cytomos says its benchtop cell analytics intelligence system combines the compact Celledonia analyzer with the sensors of the AuraCyt modules to transform complex cellular data into actionable insights. The post Cytomos’…",
-      "ts": 1782216027000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Satellogic partners with SynMax to build intelligence services around upcoming Merlin constellation",
-      "url": "https://spacenews.com/satellogic-partners-with-synmax-to-build-intelligence-services-around-upcoming-merlin-constellation/",
-      "summary": "Companies are looking to fill demand from defense and intelligence agencies for persistent surveillance rather than one-off imagery purchases. The post Satellogic partners with SynMax to build intelligence services aroun…",
-      "ts": 1782216000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cadence raises $100 million to automate chronic disease care with regulated AI",
-      "url": "https://www.statnews.com/2026/06/23/cadence-100-million-raise-automate-chronic-care-ai/?utm_campaign=rss",
-      "summary": "Digital health startup Cadence has raised $100 million at a $1.23 billion valuation to expand its chronic disease management program.",
-      "ts": 1782216000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: UN launches Hormuz evacuation plan, UNICEF youth champion killed in Gaza, Lebanon ceasefire ‘largely holding’",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167793",
-      "summary": "The International Maritime Organization (IMO) will begin implementing an evacuation plan for more than 11,000 seafarers stranded in the Strait of Hormuz, the UN agency announced on Tuesday.",
-      "ts": 1782216000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Report details widespread use of sexual violence in Sudan war",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167792",
-      "summary": "A new UN human rights report issued on Tuesday details the brutality and scale of conflict-related sexual violence in Sudan since war erupted in April 2023 and its profound, long-term impacts on victims, families and com…",
-      "ts": 1782216000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Central African Republic peace gains must be preserved: UN envoy",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167791",
-      "summary": "The Central African Republic (CAR) “has made remarkable and tangible progress towards lasting peace and security” in recent years, but security remains fragile in border areas, including with war-torn Sudan, UN Special R…",
-      "ts": 1782216000000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

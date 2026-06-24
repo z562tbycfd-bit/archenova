@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-24T09:35:34.558Z",
+  "updated": "2026-06-24T12:20:44.867Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hospital workers' phones carry deadly superbugs",
+      "url": "https://phys.org/news/2026-06-hospital-workers-deadly-superbugs.html",
+      "summary": "The largest study of its kind has found hospital workers' phones are carrying the same superbugs that kill millions of people worldwide each year. An international team of researchers, including several from Bond Univers…",
+      "ts": 1782303603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Buyer beware: Your sustainable shopping choices may not be as green as they look",
+      "url": "https://phys.org/news/2026-06-buyer-beware-sustainable-choices-green.html",
+      "summary": "New research reveals that many \"green\" claims are almost impossible to verify, often masking the full truth. University of Technology (UTS) professor of marketing Natalina Zlatevska said shoppers often rely on the labels…",
+      "ts": 1782298801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oldest example of preserved tube feet reveals clues about the lives of 452-million-year-old sea lilies",
+      "url": "https://phys.org/news/2026-06-oldest-tube-feet-reveals-clues.html",
+      "summary": "Echinoderms, such as starfish, sea urchins and sea lilies, use small, flexible, tubular projections called \"tube feet\" for locomotion, feeding, respiration and sensory perception. Crinoids, a subgroup of echinoderms, are…",
+      "ts": 1782297601000
+    },
     {
       "source": "Phys.org",
       "title": "Heat waves threaten health of both young and old",
@@ -679,27 +700,6 @@
       "title": "On the localization transition from MAA to AA models",
       "url": "https://arxiv.org/abs/2606.24720",
       "summary": "arXiv:2606.24720v1 Announce Type: cross Abstract: Despite their potential similarity between the mosaic Aubry-Andr\\'e (MAA) and AA models, the MAA model allows mobility edges (MEs), whereas the AA model does not. Here we…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coupled atmospHere Interior modeL Intercomparison (CHILI). I. Evolutionary Modelling -- Primordial Magma Oceans of Earth and Venus",
-      "url": "https://arxiv.org/abs/2606.24757",
-      "summary": "arXiv:2606.24757v1 Announce Type: cross Abstract: Earth and Venus represent two evolutionary outcomes arising from initially molten 'magma ocean' periods, followed by lifetimes of chemical and geophysical divergence. The…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A new perspective in linear Cauchy Elasticity: variational minimum principles for statics, dynamics, and heterogeneous materials",
-      "url": "https://arxiv.org/abs/2606.24782",
-      "summary": "arXiv:2606.24782v1 Announce Type: cross Abstract: A variational minimum principle for linear elastodynamics of a possibly heterogeneous material without a stored energy function is developed. It involves a change of vari…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact log-odds representation and mean-field criticality of a growing social group model",
-      "url": "https://arxiv.org/abs/2606.24818",
-      "summary": "arXiv:2606.24818v1 Announce Type: cross Abstract: We present an exact analytical reformulation of a growing social group model -- a Hamiltonian-free nonequilibrium process in which a group grows by noisy, consensus-drive…",
       "ts": 1782273600000
     }
   ],
