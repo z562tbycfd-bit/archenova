@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-06-24T12:21:16.862Z",
+  "updated": "2026-06-24T15:34:12.478Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: A dispatch on AI from BIOtech’s big summer bash",
+      "url": "https://www.statnews.com/2026/06/24/dispatch-from-bio-biotech-big-summer-bash-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of STAT's AI Prognosis: Brittany Trang brings the latest from BIO on how biotech companies are approaching artificial intelligence.",
+      "ts": 1782314480000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AI wades into a vexing medical mystery: What causes sudden cardiac death?",
+      "url": "https://www.statnews.com/2026/06/24/artificial-intelligence-model-cause-of-sudden-cardiac-death/?utm_campaign=rss",
+      "summary": "A new study published in Nature uses artificial intelligence to identify people at high risk for sudden cardiac death, and pinpoints a possible reason.",
+      "ts": 1782313275000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: At BIO, a glimpse behind Lilly and Chai’s partnership",
+      "url": "https://www.statnews.com/2026/06/24/biotech-news-bio-2026-glimpse-behind-lilly-and-chai-partnership/?utm_campaign=rss",
+      "summary": "RIP Sangamo, onshoring with drug manufacturing, and more biotech news from The Readout",
+      "ts": 1782310469000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Medra Launches Reasoning Layer for Drug Discovery Robotics",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/medra-launches-reasoning-layer-for-drug-discovery-robotics/",
+      "summary": "The physical AI system, named AI Experimentalist, translates research goals from natural language into executable workflows that span the entire experimental cycle, from literature review, wet-lab execution, data analysi…",
+      "ts": 1782308965000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Spotlight on RNA Therapeutics",
+      "url": "https://www.genengnews.com/multimedia/summits/spotlight-on-rna-therapeutics/",
+      "summary": "This GEN Spotlight on RNA Therapeutics brings you three interlinked sessions that feature outstanding researchers exploring various aspects of RNA biology and therapeutics. The post Spotlight on RNA Therapeutics appeared…",
+      "ts": 1782308532000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Vast signs additional partners for commercial space station microgravity research",
+      "url": "https://spacenews.com/vast-signs-additional-partners-for-commercial-space-station-microgravity-research/",
+      "summary": "Commercial space station company Vast announced June 24 the addition of several companies and organizations to its network of partners for microgravity research and manufacturing. The post Vast signs additional partners …",
+      "ts": 1782308527000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "York satellite demonstrates two-way UHF communications from low Earth orbit",
+      "url": "https://spacenews.com/york-satellite-demonstrates-two-way-uhf-communications-from-low-earth-orbit/",
+      "summary": "WASHINGTON — York Space Systems said June 24 that a satellite it built for the U.S. Space Force successfully demonstrated two-way tactical communications using ultra-high-frequency (UHF) links from low Earth […] The post…",
+      "ts": 1782306151000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about an FDA commissioner candidate, Germany’s plans for drug prices, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/06/24/fda-commissioner-candidate-germany-plans-for-drug-prices/?utm_campaign=rss",
+      "summary": "Regenxbio plans to apply for accelerated approval for its gene therapy for Duchenne muscular dystrophy.",
+      "ts": 1782306037000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "How space weather could bust the AI boom",
+      "url": "https://spacenews.com/how-space-weather-could-bust-the-ai-boom/",
+      "summary": "America’s electric grid is entering a period of unprecedented strain. Utilities across the country are scrambling to keep up as power-hungry AI data centers expand at a staggering pace, often […] The post How space weath…",
+      "ts": 1782306000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Vantor selects BAE Systems to build next-generation imaging satellites",
+      "url": "https://spacenews.com/vantor-selects-bae-systems-to-build-next-generation-imaging-satellites/",
+      "summary": "WASHINGTON — Vantor has chosen BAE Systems to build its next generation of high-resolution imaging satellites. The selection reunites Vantor with the former Ball Aerospace business that helped develop DigitalGlobe’s […] …",
+      "ts": 1782304200000,
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: introducing the Engineering issue",
@@ -11,12 +91,36 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-egypt-is-committed-to-strengthening-its-national-regulatory-framework-for-safety",
+      "summary": "",
+      "ts": 1782302491000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "Stripe, Anthropic and OpenAI are backing an effort to stop respiratory infections",
       "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
       "summary": "The common cold comes for us all—often more than once a year. And there is no way to prevent it. The best you can do is take vitamin C and stay away from people with the sniffles. Now, the payment company Stripe, founded…",
       "ts": 1782302400000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Open debate on children and armed conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167795",
+      "summary": "The UN Security Council is meeting on Thursday for an open debate on strengthening protections for children caught in armed conflict. The Secretary-General's latest report reveals that in 2025, soldiers and Government fo…",
+      "ts": 1782302400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Stranded Hormuz seafarers begin mass evacuation operation",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167794",
+      "summary": "As the UN International Maritime Organization (IMO) released more details of its plan to evacuate more than 11,000 seafarers stranded in the Strait of Hormuz, one mariner caught up in the emergency has described the ever…",
+      "ts": 1782302400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "MIT Technology Review",
@@ -129,6 +233,14 @@
       "summary": "",
       "ts": 1782286067000,
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "ts": 1782280800000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -609,118 +721,6 @@
       "summary": "The toolkit turns complex scientific workflows into agent-executable tasks and has applications across protein structure prediction, molecular docking, generative chemistry, genomic analysis, protein design, and biomarke…",
       "ts": 1782237673000,
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Judge rules government can’t stop SNAP dollars from buying candy and sugary drinks",
-      "url": "https://www.statnews.com/2026/06/23/snap-dollars-buying-candy-sugary-drinks-judge-ruling/?utm_campaign=rss",
-      "summary": "The federal government can't block benefits from the nation's largest food aid program from being used to buy candy, soda, and other sugary drinks, a judge ruled.",
-      "ts": 1782237009000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Ubotica raises $11 million to scale maritime-intelligence platform",
-      "url": "https://spacenews.com/ubotica-raises-11-million-to-scale-maritime-intelligence-platform/",
-      "summary": "SAN FRANCISCO – Ubotica Technologies, an Irish company focused on artificial intelligence for spacecraft, has raised $11 million to expand commercial sales of its maritime-intelligence platform. The platform, Live Mariti…",
-      "ts": 1782236902000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Nextgen Platform Combines VectorBuilder and Maxcyte Technologies to Boost Clinical-Grade Cell Engineering",
-      "url": "https://www.genengnews.com/topics/bioprocessing/nextgen-platform-combines-vectorbuilder-and-maxcyte-technologies-to-boost-clinical-grade-cell-engineering/",
-      "summary": "The aim of the partnership is to provide a platform delivering high-end performance with an optimal cost-of-goods and price-per-dose model to ease scale-up, commercial strategy, and fundraising efforts for drug developer…",
-      "ts": 1782236731000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "url": "https://openai.com/index/gpt-5-immunology-mystery",
-      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "ts": 1782234000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "2026 ALA Hyperwall Schedule",
-      "url": "https://science.nasa.gov/earth/2026-ala-hyperwall-schedule/",
-      "summary": "American Library Association (ALA) Annual Conference, June 25-29, 2026 Join NASA in the Exhibit Hall (Booth #2243) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. FRIDAY, JUNE 26 SATURDAY, JUNE 2…",
-      "ts": 1782231802000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "This is How NASA Flight Tests New Technology",
-      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/this-is-how-nasa-flight-tests-new-technology/",
-      "summary": "Flight tests are a big part of how NASA turns breakthrough ideas into reality. From flying humans faster than the speed of sound to proving designs that helped shape the space shuttle, flight testing transforms bold conc…",
-      "ts": 1782230400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Sophia selects Apex bus for on-orbit computing demonstration",
-      "url": "https://spacenews.com/sophia-selects-apex-bus-for-on-orbit-computing-demonstration/",
-      "summary": "SAN FRANCISCO – Sophia Space announced the selection June 22 of an Apex bus for its first orbital computing node. Pasadena, California-based Sophia plans to demonstrate its Thermal Integrated LEO […] The post Sophia sele…",
-      "ts": 1782230218000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Hanging in the Balance",
-      "url": "https://www.nasa.gov/image-article/hanging-in-the-balance/",
-      "summary": "The Moon appears half-illuminated in this photo captured by the Artemis II crew on flight day 6. The terminator – the difference between light and darkness – provides a stark contrast and even greater perspective of the …",
-      "ts": 1782229434000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Justice Department announces hundreds of charges in multibillion-dollar health care fraud crackdown",
-      "url": "https://www.statnews.com/2026/06/23/texas-doctor-charged-fraud-case-cms-health-care-crackdown/?utm_campaign=rss",
-      "summary": "The Justice Department has charged a Texas doctor in an $89 million health care fraud scheme, accusing him of billing insurers for medically unnecessary cardiovascular screening tests.",
-      "ts": 1782228511000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "ARMD Research Solicitations (Updated June 23)",
-      "url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
-      "summary": "THIS PAGE WAS UPDATED ON JUNE 23, 2026 This Aeronautics Research Mission Directorate (ARMD) solicitations page compiles the opportunities to collaborate with NASA’s aeronautical innovators and/or contribute to their rese…",
-      "ts": 1782226800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Paxi and the European Space Agency",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Paxi_and_the_European_Space_Agency",
-      "summary": "Video: 00:03:38 English: Paxi and the European Space Agency Did you know that space affects your life every single day? Join Paxi to discover all the ways the European Space Agency (ESA) makes life on Earth better every …",
-      "ts": 1782226800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "I Am Artemis: Jason Peterson",
-      "url": "https://www.nasa.gov/humans-in-space/i-am-artemis-jason-peterson/",
-      "summary": "Jason Peterson’s responsibilities for NASA’s Artemis II mission went beyond his usual role as the range operations manager at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Peterson credits his military exp…",
-      "ts": 1782224849000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Exclusive: Mystery man gets experimental GLP-1",
-      "url": "https://www.statnews.com/2026/06/23/eli-lilly-mystery-patient-congress-chinese-biotech-dc-diagnosis/?utm_campaign=rss",
-      "summary": "Giving an individual special access to an experimental obesity drug is highly unusual.",
-      "ts": 1782224538000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Details Early Galaxy Transforming Neighborhood",
-      "url": "https://science.nasa.gov/missions/hubble/hubble-details-early-galaxy-transforming-neighborhood/",
-      "summary": "Astronomers using NASA’s Hubble Space Telescope have found something they never expected — ultraviolet light from a galaxy that existed just 1.4 billion years after the big bang.",
-      "ts": 1782223240000,
-      "categoryId": "space"
     }
   ],
   "categories": [

@@ -1,7 +1,140 @@
 {
   "ok": true,
-  "updated": "2026-06-24T12:20:44.867Z",
+  "updated": "2026-06-24T15:34:09.637Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why female guppies prefer rare males and how this might shape evolution",
+      "url": "https://phys.org/news/2026-06-female-guppies-rare-males-evolution.html",
+      "summary": "When it comes to choosing a partner, some species prefer males that stand out from the crowd. Evolutionary biologists call the resulting process negative frequency-dependent selection. It means that a male has a huge mat…",
+      "ts": 1782314405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Teaching with and about GenAI in classrooms",
+      "url": "https://phys.org/news/2026-06-genai-classrooms.html",
+      "summary": "It is important that teachers and students are aware of and understand the major shortcomings of technology, state Norwegian researchers who have studied the use of AI in the classroom.",
+      "ts": 1782314401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Asteroid zooming past Earth on Saturday visible to stargazers",
+      "url": "https://phys.org/news/2026-06-asteroid-earth-saturday-visible-stargazers.html",
+      "summary": "A large asteroid that will zoom harmlessly past Earth on Saturday will be visible to stargazers using a small telescope or large binoculars, the European Space Agency announced Wednesday.",
+      "ts": 1782313847000
+    },
+    {
+      "source": "Phys.org",
+      "title": "By making key signaling molecules called β-arrestins into druggable targets, scientists crack long-standing challenge",
+      "url": "https://phys.org/news/2026-06-key-molecules-arrestins-druggable-scientists.html",
+      "summary": "To function normally, nearly every cell in the human body relies on G-protein-coupled receptors (GPCRs) to receive and send signals. That's why GPCRs are targeted by roughly one-third of all FDA-approved drugs.",
+      "ts": 1782313216000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Surprising diversity found among Europe's last Neanderthals",
+      "url": "https://phys.org/news/2026-06-diversity-europe-neanderthals.html",
+      "summary": "A new study published in Nature provides the most detailed picture to date of Neanderthal diversity in Western Europe shortly before their extinction.",
+      "ts": 1782313211000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First complete map of world's seagrass offers warnings and hope for conservation",
+      "url": "https://phys.org/news/2026-06-world-seagrass.html",
+      "summary": "It's time we gave seagrass the credit it's due. This hero of a plant protects coastlines, stores vast amounts of carbon and supports ecosystems that people and wildlife depend on. But we don't often hear about it when it…",
+      "ts": 1782313203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Turning low-value diamond dust into high-performance quantum materials",
+      "url": "https://phys.org/news/2026-06-diamond-high-quantum-materials.html",
+      "summary": "Diamonds have long been coveted for their beauty. Their dazzling color and clarity make them perfect candidates for luxury jewelry. However, it's their other unique characteristics, including their hardness, thermal cond…",
+      "ts": 1782313201000
+    },
+    {
+      "source": "Science News",
+      "title": "A potential hindrance to fusion power may help instead",
+      "url": "https://www.sciencenews.org/article/nuclear-fusion-alpha-particles-reactor",
+      "summary": "Researchers were unsure whether alpha particles would aid or hinder fusion. Simulations suggest they help, by dampening turbulence.",
+      "ts": 1782313200000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum squeezing sidesteps the limits on mechanical transducers",
+      "url": "https://phys.org/news/2026-06-quantum-sidesteps-limits-mechanical-transducers.html",
+      "summary": "From detecting the ripples of colliding black holes to imaging individual chemical bonds, mechanical transducers have repeatedly transformed our understanding of the universe. So far, however, the sensitivity of these de…",
+      "ts": 1782312002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Axolotl-inspired skin matrix may help heal wounds with less scarring",
+      "url": "https://phys.org/news/2026-06-axolotl-skin-matrix-wounds-scarring.html",
+      "summary": "Researchers in Taiwan have developed a cell-free extracellular matrix material from axolotl skin that helped mouse burn wounds close faster and show signs of reduced fibrotic scarring. The findings suggest that one of na…",
+      "ts": 1782310805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists catch classical space-time crystals moving like Majorana quasiparticles",
+      "url": "https://phys.org/news/2026-06-scientists-classical-space-crystals-majorana.html",
+      "summary": "A research team from Hiroshima University, the University of Colorado, and other collaborators have demonstrated that space-time crystals—exotic structures that, under external drive, loop endlessly through both space an…",
+      "ts": 1782310044000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Voluntary corporate climate goals are viewed favorably by investors, researchers discover",
+      "url": "https://phys.org/news/2026-06-voluntary-corporate-climate-goals-viewed.html",
+      "summary": "As companies face increasing pressure to address climate change, many are choosing to publicly announce voluntary carbon-elimination goals.",
+      "ts": 1782309606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sugar-coated nanoparticles show promise for treating most aggressive form of brain cancer",
+      "url": "https://phys.org/news/2026-06-sugar-coated-nanoparticles-aggressive-brain.html",
+      "summary": "Researchers at Oregon State University have potentially found a new way to treat the most aggressive form of brain cancer, glioblastoma, whose two-year survival rate is less than 30%.",
+      "ts": 1782309604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Five years of aerosol remote sensing in Mindelo—a milestone in atmospheric research in the Atlantic",
+      "url": "https://phys.org/news/2026-06-years-aerosol-remote-mindelo-milestone.html",
+      "summary": "For five years now, a distinctive green laser beam has been shining at night up to 30 kilometers (19 miles) above the harbor of the island's capital. It forms part of a high-energy lidar with which the Leibniz Institute …",
+      "ts": 1782308403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "From virtue to vice: How the morality of popular music lyrics has changed since the 1960s",
+      "url": "https://phys.org/news/2026-06-virtue-vice-morality-popular-music.html",
+      "summary": "Popular music may be reflecting a growing culture of vices, according to new research from the Center for Digital Music at Queen Mary University of London. The analysis of musical evolution found that song lyrics have be…",
+      "ts": 1782308401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hot Jupiter endures star-powered barbecue",
+      "url": "https://phys.org/news/2026-06-hot-jupiter-star-powered-barbecue.html",
+      "summary": "You're the grillmaster at the annual family Fourth of July barbecue, and you're sweating bullets standing over the grill in the sweltering summer heat. You're trying to stay cool by pressing a cold beer can to your foreh…",
+      "ts": 1782307207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Do hyenas eat livestock and rhinos? Behavioral biologists investigate a surprisingly charming population",
+      "url": "https://phys.org/news/2026-06-hyenas-livestock-rhinos-behavioral-biologists.html",
+      "summary": "For conservation and the management of human–wildlife conflicts, it is of great interest to know which species are eaten by carnivores. Scientists from the Ngorongoro Hyena Project at the Leibniz Institute for Zoo and Wi…",
+      "ts": 1782307203000
+    },
+    {
+      "source": "Science News",
+      "title": "The world’s largest scorpion lived 415 million years ago",
+      "url": "https://www.sciencenews.org/article/largest-scorpion-lived-415-million-years-ago",
+      "summary": "A prehistoric scorpion was the largest ever to exist, and it may have preyed on land and freshwater species.",
+      "ts": 1782306000000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Interlayer self-doping could unlock room-temperature multiferroics in atom-thin materials",
+      "url": "https://phys.org/news/2026-06-interlayer-doping-room-temperature-multiferroics.html",
+      "summary": "Multiferroics are materials that exhibit more than one prominent \"ferroic\" property, such as ferromagnetism and ferroelectricity. One of their most advantageous features is that they allow engineers to control their magn…",
+      "ts": 1782304801000
+    },
     {
       "source": "Phys.org",
       "title": "Hospital workers' phones carry deadly superbugs",
@@ -567,139 +700,6 @@
       "title": "The Degeneracy Distillery",
       "url": "https://arxiv.org/abs/2606.23838",
       "summary": "arXiv:2606.23838v1 Announce Type: cross Abstract: When two or more parameters or labels produce similar data, they are degenerate, or hard to distinguish. Degeneracies render both label prediction and inverse problems di…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Astrobiology in the Time of Artificial Intelligence",
-      "url": "https://arxiv.org/abs/2606.23854",
-      "summary": "arXiv:2606.23854v1 Announce Type: cross Abstract: The Viking missions showcased multiple spaceflight technologies representing state-of-the-art capabilities: from digital line-scan imaging to the operation of complex onb…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Augmenting Imaginary-Time Evolution with Local Geometric Information",
-      "url": "https://arxiv.org/abs/2606.23934",
-      "summary": "arXiv:2606.23934v1 Announce Type: cross Abstract: Imaginary-time evolution (ITE) underpins a broad family of algorithms for ground-state preparation in quantum simulation and quantum many-body physics. In these methods, …",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measurements of Bremsstrahlung-Averaged Cross Sections for Reactions on Natural Nickel Targets at Eendpoint = 40MeV",
-      "url": "https://arxiv.org/abs/2606.23966",
-      "summary": "arXiv:2606.23966v1 Announce Type: cross Abstract: Bremsstrahlung activation measurements were performed to study the production of $^{57}\\mathrm{Ni}$, $^{56}\\mathrm{Ni}$, $^{58}\\mathrm{Co}$, $^{57}\\mathrm{Co}$, $^{56}\\ma…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diagonal Frog: High-order positivity-preserving FD schemes for anisotropic Fokker-Planck equations",
-      "url": "https://arxiv.org/abs/2606.23980",
-      "summary": "arXiv:2606.23980v1 Announce Type: cross Abstract: The Fokker-Planck equation is fundamental to statistical mechanics, yet in settings with multiple state variables, anisotropic (cross-) diffusion, and jumps, conventional…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Picosecond Schr\\\"odinger cat states for ultrafast optical quantum processing",
-      "url": "https://arxiv.org/abs/2606.24002",
-      "summary": "arXiv:2606.24002v1 Announce Type: cross Abstract: Non-Gaussian states are essential resources for universal, fault-tolerant optical quantum computing, but their generation rate remains limited by low heralding probabilit…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rapid FinFET Modelling Using an Autoencoder",
-      "url": "https://arxiv.org/abs/2606.24046",
-      "summary": "arXiv:2606.24046v1 Announce Type: cross Abstract: This work presents a machine learning framework that leverages an autoencoder (AE) for the efficient modeling of FinFET. We first calibrated a BSIM-CMG model to generate …",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-temperature magnetic-field-driven thermal oscillator based on metal-superconductor joint",
-      "url": "https://arxiv.org/abs/2606.24100",
-      "summary": "arXiv:2606.24100v1 Announce Type: cross Abstract: Thermal control is one of the important technologies for fundamental science and thermal management. Among them, thermal oscillators have been in demands in the field of …",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamical low-rank methods for the Wigner equation I: separable difference potential",
-      "url": "https://arxiv.org/abs/2606.24190",
-      "summary": "arXiv:2606.24190v1 Announce Type: cross Abstract: Recent advances in dynamical low-rank approximation (DLRA) have demonstrated its effectiveness in high-dimensional simulations. However, existing DLRA algorithms still fa…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ground-State Energy Solutions of the Lithium Atom: Zeroth-, First-, and Second-Order Perturbation Theory and the Variational Method",
-      "url": "https://arxiv.org/abs/2606.24238",
-      "summary": "arXiv:2606.24238v1 Announce Type: cross Abstract: In this work, the ground-state energy of the lithium atom is systematically investigated using both time-independent perturbation theory and the variational method to pro…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hierarchical models for large chemical reaction networks",
-      "url": "https://arxiv.org/abs/2606.24246",
-      "summary": "arXiv:2606.24246v1 Announce Type: cross Abstract: The quest for the origin of life, especially in the metabolism-first scenario inspired by the celebrated Miller-Urey experiment, has triggered a research program dedicate…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Discovery of connectivity-trainability trade-off of IQP Circuits for Hamiltonian Optimization",
-      "url": "https://arxiv.org/abs/2606.24264",
-      "summary": "arXiv:2606.24264v1 Announce Type: cross Abstract: Instantaneous Quantum Polynomial-time (IQP) circuits are promising candidates for near-term quantum advantage due to the conjectured classical hardness of their sampling …",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Broadband molecular dynamics simulation of fluid inertial effects in confined Brownian motion",
-      "url": "https://arxiv.org/abs/2606.24291",
-      "summary": "arXiv:2606.24291v1 Announce Type: cross Abstract: Hydrodynamic memory governs Brownian motion over a broad range of timescales, from acoustic wave propagation at short times to diffusive relaxation at long times. While c…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Extraction of Quantum Critical Exponents and Phase Transitions via Tailored Hilbert Space",
-      "url": "https://arxiv.org/abs/2606.24312",
-      "summary": "arXiv:2606.24312v1 Announce Type: cross Abstract: Finite-size scaling and the renormalization group form the central toolkit for analyzing quantum phase transitions (QPTs). In this Letter, we introduce a novel Hilbert-sp…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wigner's Phase Space Current for Variable Beam Splitters -- Phase Space Rotations and Newtonian Trajectories",
-      "url": "https://arxiv.org/abs/2606.24334",
-      "summary": "arXiv:2606.24334v1 Announce Type: cross Abstract: Beam splitters allow us to superpose two continuous single mode quantum systems. To study the behaviour of beam splitters' strongly mode mixing dynamics we consider varia…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Graph-based analysis of inflammatory profiles in New Onset Refractory Status Epilepticus (NORSE)",
-      "url": "https://arxiv.org/abs/2606.24351",
-      "summary": "arXiv:2606.24351v1 Announce Type: cross Abstract: Background and Objectives: Cryptogenic new-onset refractory status epilepticus (cNORSE) represents one of the most severe forms of status epilepticus, occurring in patien…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multilevel Stochastic Plug-and-Play for Sparse-View CT Reconstruction",
-      "url": "https://arxiv.org/abs/2606.24567",
-      "summary": "arXiv:2606.24567v1 Announce Type: cross Abstract: Sparse-view computed tomography (SVCT) reduces radiation exposure and acquisition time, but the limited number of projection views makes the reconstruction problem severe…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Vector and Canonical Components of the Momentum Operator in 3D Euclidean Space Spanned by General Curvilinear Coordinates",
-      "url": "https://arxiv.org/abs/2606.24572",
-      "summary": "arXiv:2606.24572v1 Announce Type: cross Abstract: We construct the Hermitian vector and canonical components of the momentum operator in 3D Euclidean space spanned by general curvilinear coordinates (GCC's) using a simpl…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extended pseudo-spectral physics-informed neural networks for phase-field models",
-      "url": "https://arxiv.org/abs/2606.24660",
-      "summary": "arXiv:2606.24660v1 Announce Type: cross Abstract: Phase-field models play a central role in the continuum description of phase separation, in which the bulk free-energy density and the interfacial thickness parameter det…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the localization transition from MAA to AA models",
-      "url": "https://arxiv.org/abs/2606.24720",
-      "summary": "arXiv:2606.24720v1 Announce Type: cross Abstract: Despite their potential similarity between the mosaic Aubry-Andr\\'e (MAA) and AA models, the MAA model allows mobility edges (MEs), whereas the AA model does not. Here we…",
       "ts": 1782273600000
     }
   ],
