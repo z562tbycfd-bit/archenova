@@ -1,7 +1,105 @@
 {
   "ok": true,
-  "updated": "2026-06-24T19:57:33.425Z",
+  "updated": "2026-06-24T21:38:25.847Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ultrafast X-rays allow researchers to 'watch' how molecules rearrange during a chemical reaction controlled by light",
+      "url": "https://phys.org/news/2026-06-ultrafast-rays-molecules-rearrange-chemical.html",
+      "summary": "Since the 1980s, researchers have sought to use laser light to control chemical reactions relevant to photochemistry, catalysis and light-responsive materials. But this technique, known as coherent control, has a blind s…",
+      "ts": 1782336601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "CleanFinder brings browser-based genome editing analysis to labs without coding",
+      "url": "https://phys.org/news/2026-06-cleanfinder-browser-based-genome-analysis.html",
+      "summary": "Genome editing lets scientists rewrite DNA, the instruction manual inside every living cell, with a precision that was unthinkable a generation ago. Technologies such as CRISPR have made this almost routine, and its uses…",
+      "ts": 1782336009000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Three million years after Lucy walked upright in Africa, the inside story of another landmark journey",
+      "url": "https://phys.org/news/2026-06-million-years-lucy-upright-africa.html",
+      "summary": "There is a special gallery inside the Natural History Museum Abu Dhabi where visitors slow down, lower their voices and often fall silent. In front of them, carefully lit and disarmingly small, lies the skeleton of Lucy,…",
+      "ts": 1782336007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Piecing the puzzle of how proteins fit together: Simpler model outperforms leading methods",
+      "url": "https://phys.org/news/2026-06-piecing-puzzle-proteins-simpler-outperforms.html",
+      "summary": "How the proteins in our bodies bind together to form protein complexes plays a critical role in numerous cell functions—staving off diseases, for instance, or transporting ions across cell membranes. A better understandi…",
+      "ts": 1782335401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Talking edible robot deepens human perception of food culture and ethics",
+      "url": "https://phys.org/news/2026-06-edible-robot-deepens-human-perception.html",
+      "summary": "A research group led by Associate Professor Yoshihiro Nakata from the Graduate School of Informatics and Engineering at the University of Electro-Communications, Japan, in collaboration with researchers from Doshisha Uni…",
+      "ts": 1782334805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Image: Roman Telescope arrives at Kennedy Space Center",
+      "url": "https://phys.org/news/2026-06-image-roman-telescope-kennedy-space.html",
+      "summary": "In this photo from June 21, 2026, NASA's Nancy Grace Roman Space Telescope arrives at the agency's Kennedy Space Center in Florida aboard NASA's Pegasus barge. After offloading and transportation to the spaceport's Paylo…",
+      "ts": 1782334801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Contagious cancer likely crossed an ocean, triggering severe outbreak in Pacific Northwest clams",
+      "url": "https://phys.org/news/2026-06-contagious-cancer-ocean-triggering-severe.html",
+      "summary": "Researchers have identified a severe outbreak of a rare contagious cancer in soft-shell clams in Washington state's Puget Sound and found evidence that the disease was recently introduced to the Pacific Northwest from At…",
+      "ts": 1782334201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How mitochondria build their protein factories could help explain energy‑linked disease",
+      "url": "https://phys.org/news/2026-06-mitochondria-protein-factories-energylinked-disease.html",
+      "summary": "In a study published in Nature Communications, researchers at Karolinska Institutet have mapped key steps in the assembly of the mitochondrial ribosome, offering new clues to how defects in this process can lead to disea…",
+      "ts": 1782333608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When glaciers disappear, so do deities",
+      "url": "https://phys.org/news/2026-06-glaciers-deities.html",
+      "summary": "In a recent viewpoint published in Nature Climate Change, six researchers from South America, Asia and Africa examine how glacier retreat in the Andes, Himalayas and other high-altitude regions is reshaping the cultural …",
+      "ts": 1782333606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oysters used as living labs reveal unexpected stability in ocean virus populations",
+      "url": "https://phys.org/news/2026-06-oysters-labs-reveal-unexpected-stability.html",
+      "summary": "Oysters filter seawater for food. In the process, they concentrate a wide variety of microorganisms from their environment—including bacteria and viruses—into a tiny space.",
+      "ts": 1782332412000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fair Workweek laws improve work schedules without cutting pay or benefits, according to research",
+      "url": "https://phys.org/news/2026-06-fair-workweek-laws-pay-benefits.html",
+      "summary": "A study examining Fair Workweek laws across five major U.S. jurisdictions finds that labor regulations have made work schedules more predictable for service-sector workers, without triggering wage cuts or benefit reducti…",
+      "ts": 1782332408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Images: Perseverance reaches 'marathon' milestone on Mars",
+      "url": "https://phys.org/news/2026-06-images-perseverance-marathon-milestone-mars.html",
+      "summary": "NASA's Perseverance rover appears as a green speck on the Martian surface on June 13, 2026, a day before the robotic explorer marked a distance milestone, having traveled a full marathon (26.2 miles, or 42.195 kilometers…",
+      "ts": 1782332404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are algorithms unfairly screening out immigrant job applications?",
+      "url": "https://phys.org/news/2026-06-algorithms-unfairly-screening-immigrant-job.html",
+      "summary": "Canada's new artificial intelligence strategy, AI for All, presents an ambitious vision for the country's future. Artificial intelligence, the federal government argues, can boost productivity, strengthen competitiveness…",
+      "ts": 1782331208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Preserving wooden heritage in the Arctic as thaw, rot and tourism converge",
+      "url": "https://phys.org/news/2026-06-wooden-heritage-arctic-tourism-converge.html",
+      "summary": "Historic wooden structures across Svalbard are crumbling under the combined weight of climate change and human activity. Longer, warmer, and wetter seasons fuel wood-decaying fungi, while tourism adds physical wear to si…",
+      "ts": 1782331207000
+    },
     {
       "source": "Phys.org",
       "title": "Scientists design 'tunable' biomolecules to probe how sugars behave",
@@ -381,6 +479,13 @@
       "ts": 1782297601000
     },
     {
+      "source": "APS PRX",
+      "title": "Complexity-Theoretic Foundations of BosonSampling with a Linear Number of Modes",
+      "url": "http://link.aps.org/doi/10.1103/xc7b-sjm5",
+      "summary": "Author(s): Adam Bouland, Daniel Brod, Ishaun Datta, Bill Fefferman, Daniel Grier, Felipe Hernández, and Michał Oszmaniec Experimental demonstrations of quantum advantage in photonic systems operate in the “saturated regi…",
+      "ts": 1782295200000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Probing Quantum States over Spacetime through Interferometry",
       "url": "http://link.aps.org/doi/10.1103/t6jg-z17r",
@@ -521,13 +626,6 @@
       "ts": 1782295200000
     },
     {
-      "source": "APS PRX",
-      "title": "Complexity-Theoretic Foundations of BosonSampling with a Linear Number of Modes",
-      "url": "http://link.aps.org/doi/10.1103/xc7b-sjm5",
-      "summary": "Author(s): Adam Bouland, Daniel Brod, Ishaun Datta, Bill Fefferman, Daniel Grier, Felipe Hernández, and Michał Oszmaniec Experimental demonstrations of quantum advantage in photonic systems operate in the “saturated regi…",
-      "ts": 1782295200000
-    },
-    {
       "source": "Phys.org",
       "title": "Heat waves threaten health of both young and old",
       "url": "https://phys.org/news/2026-06-threaten-health-young.html",
@@ -602,104 +700,6 @@
       "title": "Scalable reflective communication for microscopic electronics",
       "url": "https://arxiv.org/abs/2606.23916",
       "summary": "arXiv:2606.23916v1 Announce Type: new Abstract: Untethered microscopic electronic circuits hold the potential for extraordinary advances in many fields such as neural transmitting and distributed sensing. However, establ…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Prediction of Viscoelastic Droplet Impact Dynamics Using a Vision Transformer-Based Approach",
-      "url": "https://arxiv.org/abs/2606.23940",
-      "summary": "arXiv:2606.23940v1 Announce Type: new Abstract: Droplet impact on solid surfaces is a complex fluid dynamics problem with applications in spray cooling, inkjet printing, and pharmaceutical processing. Although numerical …",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design of a Doppler backscattering diagnostic for the Wisconsin HTS Axisymmetric Mirror (WHAM)",
-      "url": "https://arxiv.org/abs/2606.23947",
-      "summary": "arXiv:2606.23947v1 Announce Type: new Abstract: The Wisconsin HTS Axisymmetric Mirror (WHAM) is a compact high-field magnetic mirror. In such magnetic mirrors, cross-field transport is dominated by the flute instability …",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Atmospheric carbon-14 production from neutron leakage in fusion energy systems",
-      "url": "https://arxiv.org/abs/2606.23953",
-      "summary": "arXiv:2606.23953v1 Announce Type: new Abstract: Neutron-producing fusion systems can generate atmospheric carbon-14 when neutrons leak into nitrogen-containing gas. We use MCNP6.2 neutron-transport calculations to estima…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dual-isotope narrow-line MOT of dysprosium by phase modulation",
-      "url": "https://arxiv.org/abs/2606.23958",
-      "summary": "arXiv:2606.23958v1 Announce Type: new Abstract: We report on the characterization of a narrow-line magneto-optical trap (MOT), where two different isotopes of the dysprosium (Dy) atom can be simultaneously loaded and tra…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-Shot Realization of 10000-Mode Octave-Spanning Artificial Gauge Fields",
-      "url": "https://arxiv.org/abs/2606.23960",
-      "summary": "arXiv:2606.23960v1 Announce Type: new Abstract: Artificial gauge fields (AGFs) enable photons and other bosons to emulate fermionic phenomena such as chiral edge transport and quantum Hall phases; however, existing theor…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The science of compressional heating on the LM26 magnetized target fusion experiment",
-      "url": "https://arxiv.org/abs/2606.23974",
-      "summary": "arXiv:2606.23974v1 Announce Type: new Abstract: The Lawson Machine 26 (LM26) at General Fusion has demonstrated compressional heating of a spherical tokamak deuterium plasma as it was compressed by an imploding solid lit…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Attenuation scaling and error analysis of 2f and 4f architectures for free-space optical matrix-vector multiplication",
-      "url": "https://arxiv.org/abs/2606.23988",
-      "summary": "arXiv:2606.23988v1 Announce Type: new Abstract: Free-space optical computing has been suggested as a scalable, high speed, and energy efficient platform for performing matrix-vector multiplication (MVM). We present two f…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effects of mean flow skew on turbulent shear layers. Part I. Numerical investigation",
-      "url": "https://arxiv.org/abs/2606.24012",
-      "summary": "arXiv:2606.24012v1 Announce Type: new Abstract: Skewed turbulent shear layers, formed by the interaction between two non-aligned turbulent boundary layers, are investigated using high-fidelity large eddy simulations in a…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Broadband and flat-baseline dual-comb cavity mode dispersion spectroscopy using fiber-based frequency combs",
-      "url": "https://arxiv.org/abs/2606.24034",
-      "summary": "arXiv:2606.24034v1 Announce Type: new Abstract: We demonstrate broadband dual-comb cavity mode dispersion spectroscopy using mode-locked erbium-fiber frequency combs and a length-tunable optical cavity. The flat baseline…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Giant and Continuous Ionic Current Oscillation Induced by Dynamic Surface Charge Regulation in Cylindrical Mesopores",
-      "url": "https://arxiv.org/abs/2606.24045",
-      "summary": "arXiv:2606.24045v1 Announce Type: new Abstract: Nanofluidic ionic oscillators based on the dynamic regulation of surface charges hold great promise for neuromorphic computing, biosensing, and ionic circuits. Here, by dyn…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolution of Quadrupole Wakefield Driven by Transversely Asymmetric Electron Beams in Hollow Plasma Channels",
-      "url": "https://arxiv.org/abs/2606.24067",
-      "summary": "arXiv:2606.24067v1 Announce Type: new Abstract: Plasma wakefield acceleration in hollow plasma channels has emerged as a promising approach for positron acceleration, since an electron beam can drive wakes with a transve…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Regimes of Influence in Trust-Uncertainty Gated Networks",
-      "url": "https://arxiv.org/abs/2606.24095",
-      "summary": "arXiv:2606.24095v1 Announce Type: new Abstract: In many social communities, individuals can simultaneously trust and distrust the same source, a feature standard opinion-dynamics models often ignore. We formalize this am…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamics of diffusive-convective staircases in the ocean",
-      "url": "https://arxiv.org/abs/2606.24128",
-      "summary": "arXiv:2606.24128v1 Announce Type: new Abstract: Diffusive-convective (DC) staircases in the ocean are observed across a wide range of settings, but their formation, structure, and persistence are not fully understood. Th…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Time-Domain Simulation of USV Motions in Short-Crested Irregular Waves Using an IRF-Based Framework",
-      "url": "https://arxiv.org/abs/2606.24130",
-      "summary": "arXiv:2606.24130v1 Announce Type: new Abstract: Traditional time-domain prediction of vessel motions in irregular waves usually relies on superposing responses from many regular-wave components, which is computationally …",
       "ts": 1782273600000
     }
   ],

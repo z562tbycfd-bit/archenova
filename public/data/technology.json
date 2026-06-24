@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-06-24T19:57:36.211Z",
+  "updated": "2026-06-24T21:38:28.497Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Space Force seeks fresh bidders for satellite-control antennas",
+      "url": "https://spacenews.com/space-force-seeks-fresh-bidders-for-satellite-control-antennas/",
+      "summary": "After terminating $1.7 billion contract, Space Force to relaunch SCAR The post Space Force seeks fresh bidders for satellite-control antennas appeared first on SpaceNews.",
+      "ts": 1782336389000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "La NASA compartirá los últimos avances del programa Base Lunar",
+      "url": "https://www.nasa.gov/news-release/la-nasa-compartira-los-ultimos-avances-del-programa-base-lunar/",
+      "summary": "Lea esta nota de prensa en inglés aquí. El administrador de la NASA, Jared Isaacman, ofrecerá una conversación virtual el martes 30 de junio a las 2:30 p.m. EDT (hora del este) para compartir las novedades más recientes …",
+      "ts": 1782335860000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Share Latest Moon Base Mission Progress",
+      "url": "https://www.nasa.gov/news-release/nasa-to-share-latest-moon-base-mission-progress/",
+      "summary": "NASA Administrator Jared Isaacman will host a virtual conversation at 2:30 p.m. EDT, Tuesday, June 30, to share updates to NASA’s plans to build a Moon Base on the lunar surface. Administrator Isaacman and Carlos García-…",
+      "ts": 1782335583000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Shield Space and ClearSpace partner to defend satellites from orbital threats",
+      "url": "https://spacenews.com/shield-space-and-clearspace-partner-to-defend-satellites-from-orbital-threats/",
+      "summary": "British startup Shield Space plans to combine its autonomous satellite operations software with ClearSpace’s in-orbit servicing capabilities to address emerging orbital threats. The post Shield Space and ClearSpace partn…",
+      "ts": 1782335440000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "First-in-Human Stem Cell Therapy Trial for Huntington’s Disease Begins at UCI Health",
+      "url": "https://www.genengnews.com/topics/translational-medicine/first-in-human-stem-cell-therapy-trial-for-huntingtons-disease-begins-at-uci-health/",
+      "summary": "UCI Health has launched the world’s first human clinical trial using embryonic stem cell-derived neural cells for Huntington’s disease, testing MRI-guided surgical brain delivery to evaluate safety and early therapeutic …",
+      "ts": 1782331446000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Eli Lilly dives into hair loss treatments with investment in AI startup Absci",
+      "url": "https://www.statnews.com/2026/06/24/eli-lilly-absci-hair-loss-treatments/?utm_campaign=rss",
+      "summary": "Eli Lilly is investing in a small startup developing a medication to spur hair growth, and potentially also treat endometriosis.",
+      "ts": 1782331260000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: U.S. health spending rose sharply in 2025, thanks to GLP-1 use and more care",
+      "url": "https://www.statnews.com/2026/06/24/health-care-spending-up-7-point-3-percent-6-trillion-dollars-2026/?utm_campaign=rss",
+      "summary": "People are getting more care and using lots of GLP-1 drugs, fueling a sharp increase in health care spending.",
+      "ts": 1782331200000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "BIO 2026: CEO Calls for U.S. Biotech Urgency and International Competitiveness",
@@ -209,6 +265,38 @@
       "summary": "The common cold comes for us all—often more than once a year. And there is no way to prevent it. The best you can do is take vitamin C and stay away from people with the sniffles. Now the payment company Stripe, founded …",
       "ts": 1782302400000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN chief: Targeting methane is a climate battle ‘we can win’",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167802",
+      "summary": "Amid efforts to cool global warming, the battle hinges on targeting such super-pollutants as methane, which emits one third of the world’s greenhouse gases and “is a fight we can win”, the UN chief on Wednesday.",
+      "ts": 1782302400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Lives at risk in DR Congo as Ebola outbreak continues to outpace response",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167801",
+      "summary": "The Ebola outbreak in the Democratic Republic of the Congo (DRC) continues to spread faster than aid efforts can keep pace, despite significant gains in treatment capacity and growing community engagement, the World Heal…",
+      "ts": 1782302400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "How the stories we tell about ageing shape our future",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167799",
+      "summary": "The way societies talk about ageing can shape everything from public policy to people's own expectations of later life, the United Nations Economic Commission for Europe (UNECE) said on Wednesday in a new report that cal…",
+      "ts": 1782302400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "New global rules clear the road for driverless vehicles",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167797",
+      "summary": "A UN vehicle standards forum has approved the first global regulations for fully autonomous driving systems (ADS), marking a major step towards the safe deployment of self-driving vehicles.",
+      "ts": 1782302400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -633,94 +721,6 @@
       "summary": "arXiv:2512.10279v3 Announce Type: replace-cross Abstract: We present an algorithm for computing evolutionarily stable strategies (ESSs) in symmetric perfect-recall extensive-form games of imperfect information. Our main …",
       "ts": 1782273600000,
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Discrete turn strategies emerge in information-limited navigation",
-      "url": "https://arxiv.org/abs/2602.23324",
-      "summary": "arXiv:2602.23324v2 Announce Type: replace-cross Abstract: Navigation up a smooth sensory gradient is one of the simplest behavioural tasks, and some organisms solve it by making continuous adjustments to their course. Ba…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "OHB raises funding for expansion, acquisitions",
-      "url": "https://spacenews.com/ohb-raises-funding-for-expansion-acquisitions/",
-      "summary": "German space company OHB will raise about half a billion euros through a stock sale to allow the company to expand facilities and pursue potential acquisitions. The post OHB raises funding for expansion, acquisitions app…",
-      "ts": 1782270588000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Gene Editing Pioneer Sangamo Files for Chapter 11 Bankruptcy; Agrees to Sell Assets",
-      "url": "https://www.genengnews.com/topics/genome-editing/gene-editing-pioneer-sangamo-files-for-chapter-11-bankruptcy-agrees-to-sell-assets/",
-      "summary": "Eli Lilly has agreed to acquire Sangamo’s capsid delivery platform, zinc finger nuclease (ZFN) platform, modular integrase (MINT) platform, and prion disease program, ST-506. Astellas Pharma has agreed to take over Sanga…",
-      "ts": 1782270115000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
-      "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
-      "summary": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest wo…",
-      "ts": 1782259537000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Quantifying X-ray damage",
-      "url": "https://www.nature.com/articles/s41560-026-02098-3",
-      "summary": "",
-      "ts": 1782259200000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Interacting causes of mini-grid failure",
-      "url": "https://www.nature.com/articles/s41560-026-02100-y",
-      "summary": "",
-      "ts": 1782259200000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Open-air perovskite fabrication",
-      "url": "https://www.nature.com/articles/s41560-026-02099-2",
-      "summary": "",
-      "ts": 1782259200000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Flowing zinc slurry for long-duration energy storage",
-      "url": "https://www.nature.com/articles/s41560-026-02091-w",
-      "summary": "",
-      "ts": 1782259200000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA drops enforcement against Whoop after it tweaks blood pressure feature",
-      "url": "https://www.statnews.com/2026/06/23/fda-drops-enforcement-against-wearable-maker-whoop/?utm_campaign=rss",
-      "summary": "The FDA told wearable maker Whoop last week that it would not take further enforcement action over the company's blood pressure feature.",
-      "ts": 1782257769000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NASA’s inspector general warns launch sites nearing capacity",
-      "url": "https://spacenews.com/nasas-inspector-general-warns-launch-sites-nearing-capacity/",
-      "summary": "A report by NASA’s inspector general is the latest to highlight the problems that the increasing number of launches is posing to spaceports. The post NASA’s inspector general warns launch sites nearing capacity appeared …",
-      "ts": 1782252948000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Boeing wins $2 billion Space Force contract for communications satellites",
-      "url": "https://spacenews.com/boeing-wins-2-billion-space-force-contract-for-communications-satellites/",
-      "summary": "WASHINGTON — Boeing won a contract worth up to $2 billion to build two next-generation military communications satellites for the U.S. Space Force, prevailing over Lockheed Martin in a competition […] The post Boeing win…",
-      "ts": 1782252456000,
-      "categoryId": "space"
     }
   ],
   "categories": [
