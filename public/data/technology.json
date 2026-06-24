@@ -1,11 +1,6 @@
 {
   "ok": true,
-<<<<<<< HEAD
-  "updated": "2026-06-23T22:16:33.964Z",
-  "items": [
-    {
-=======
-  "updated": "2026-06-23T23:45:13.587Z",
+  "updated": "2026-06-24T00:00:57.519Z",
   "items": [
     {
       "source": "STAT",
@@ -16,7 +11,6 @@
       "categoryId": "bio"
     },
     {
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "source": "SpaceNews",
       "title": "NASA’s inspector general warns launch sites nearing capacity",
       "url": "https://spacenews.com/nasas-inspector-general-warns-launch-sites-nearing-capacity/",
@@ -30,14 +24,6 @@
       "url": "https://spacenews.com/boeing-wins-2-billion-space-force-contract-for-communications-satellites/",
       "summary": "WASHINGTON — Boeing won a contract worth up to $2 billion to build two next-generation military communications satellites for the U.S. Space Force, prevailing over Lockheed Martin in a competition […] The post Boeing win…",
       "ts": 1782252456000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Names Sean Gallagher as Chief Information Officer",
-      "url": "https://www.nasa.gov/news-release/nasa-names-sean-gallagher-as-chief-information-officer/",
-      "summary": "NASA has selected Sean Gallagher as the agency’s chief information officer (CIO). In this role, he is responsible for the agency’s entire portfolio of Information Technology products and services. Gallagher has been serv…",
-      "ts": 1782250323000,
       "categoryId": "space"
     },
     {
@@ -121,17 +107,6 @@
       "categoryId": "ai-compute"
     },
     {
-<<<<<<< HEAD
-      "source": "MIT Technology Review",
-      "title": "Opening a door to mental-health help online",
-      "url": "https://www.technologyreview.com/2026/06/23/1138315/opening-a-door-to-mental-health-help-online/",
-      "summary": "Rob Morris, SM ’09, PhD ’15, didn’t know where to turn when he first felt symptoms of depression as a teenager: “I had no exposure to healthy coping strategies. I had no vocabulary for what was happening to me.” That exp…",
-      "ts": 1782244800000,
-      "categoryId": "ai-compute"
-    },
-    {
-=======
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "source": "STAT",
       "title": "STAT+: Want high-quality generic drugs? One expert has ideas on how consumers can trust their supply",
       "url": "https://www.statnews.com/pharmalot/2026/06/23/high-quality-generic-drugs-lab-testing/?utm_campaign=rss",
@@ -145,22 +120,6 @@
       "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-new-associate-member/",
       "summary": "June 23, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome Sophia Space, a company advancing orbital computing infrastructure for the next generation of space-based data processing, […] …",
       "ts": 1782241200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "CSDA Selects Eight Commercial Satellite Data Providers for On-Ramp 2 Contract Awards",
-      "url": "https://science.nasa.gov/science-research/earth-science/csda-selects-eight-commercial-satellite-data-providers-for-on-ramp-2-contract-awards/",
-      "summary": "Eight commercial data providers received contracts to provide a range of data in support of NASA’s Earth science priorities.",
-      "ts": 1782241036000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "58th Girl Scouts Unite Event",
-      "url": "https://science.nasa.gov/earth/58th-girl-scouts-unite-event/",
-      "summary": "58th Girl Scouts Unite Event, July 23-25, 2026 Join NASA in the Exhibit Hall (Booth #206) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. Thursday, July 23 11:00AM – 11:15 AMFrom Daisy to NASA En…",
-      "ts": 1782240707000,
       "categoryId": "space"
     },
     {
@@ -212,35 +171,11 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "NASA",
-      "title": "2026 ALA Hyperwall Schedule",
-      "url": "https://science.nasa.gov/earth/2026-ala-hyperwall-schedule/",
-      "summary": "American Library Association (ALA) Annual Conference, June 25-29, 2026 Join NASA in the Exhibit Hall (Booth #2243) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. FRIDAY, JUNE 26 SATURDAY, JUNE 2…",
-      "ts": 1782231802000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "This is How NASA Flight Tests New Technology",
-      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/this-is-how-nasa-flight-tests-new-technology/",
-      "summary": "Flight tests are a big part of how NASA turns breakthrough ideas into reality. From flying humans faster than the speed of sound to proving designs that helped shape the space shuttle, flight testing transforms bold conc…",
-      "ts": 1782230400000,
-      "categoryId": "space"
-    },
-    {
       "source": "SpaceNews",
       "title": "Sophia selects Apex bus for on-orbit computing demonstration",
       "url": "https://spacenews.com/sophia-selects-apex-bus-for-on-orbit-computing-demonstration/",
       "summary": "SAN FRANCISCO – Sophia Space announced the selection June 22 of an Apex bus for its first orbital computing node. Pasadena, California-based Sophia plans to demonstrate its Thermal Integrated LEO […] The post Sophia sele…",
       "ts": 1782230218000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Hanging in the Balance",
-      "url": "https://www.nasa.gov/image-article/hanging-in-the-balance/",
-      "summary": "The Moon appears half-illuminated in this photo captured by the Artemis II crew on flight day 6. The terminator – the difference between light and darkness – provides a stark contrast and even greater perspective of the …",
-      "ts": 1782229434000,
       "categoryId": "space"
     },
     {
@@ -252,27 +187,11 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "ARMD Research Solicitations (Updated June 23)",
-      "url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
-      "summary": "THIS PAGE WAS UPDATED ON JUNE 23, 2026 This Aeronautics Research Mission Directorate (ARMD) solicitations page compiles the opportunities to collaborate with NASA’s aeronautical innovators and/or contribute to their rese…",
-      "ts": 1782226800000,
-      "categoryId": "space"
-    },
-    {
       "source": "ESA",
       "title": "Paxi and the European Space Agency",
       "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Paxi_and_the_European_Space_Agency",
       "summary": "Video: 00:03:38 English: Paxi and the European Space Agency Did you know that space affects your life every single day? Join Paxi to discover all the ways the European Space Agency (ESA) makes life on Earth better every …",
       "ts": 1782226800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "I Am Artemis: Jason Peterson",
-      "url": "https://www.nasa.gov/humans-in-space/i-am-artemis-jason-peterson/",
-      "summary": "Jason Peterson’s responsibilities for NASA’s Artemis II mission went beyond his usual role as the range operations manager at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Peterson credits his military exp…",
-      "ts": 1782224849000,
       "categoryId": "space"
     },
     {
@@ -282,22 +201,6 @@
       "summary": "Giving an individual special access to an experimental obesity drug is highly unusual.",
       "ts": 1782224538000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Details Early Galaxy Transforming Neighborhood",
-      "url": "https://science.nasa.gov/missions/hubble/hubble-details-early-galaxy-transforming-neighborhood/",
-      "summary": "Astronomers using NASA’s Hubble Space Telescope have found something they never expected — ultraviolet light from a galaxy that existed just 1.4 billion years after the big bang.",
-      "ts": 1782223240000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Pinpoints Millions of Stars Within Cigar Galaxy",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-pinpoints-millions-of-stars-within-cigar-galaxy/",
-      "summary": "Located 12 million light-years away and undergoing rapid star formation, edge-on spiral galaxy Messier 82 (M82) is a scientifically unique sight to behold, and now NASA’s James Webb Space Telescope has revealed previousl…",
-      "ts": 1782223200000,
-      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -356,17 +259,6 @@
       "categoryId": "bio"
     },
     {
-<<<<<<< HEAD
-      "source": "MIT Technology Review",
-      "title": "The Download: the future of chipmaking and Anthropic’s government clash",
-      "url": "https://www.technologyreview.com/2026/06/23/1139483/the-download-chipmaking-future-asml-ai-anthropic-government-clash/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The $400 million machine powering the future of chipmaking It’s a bit of a schlep …",
-      "ts": 1782216600000,
-      "categoryId": "ai-compute"
-    },
-    {
-=======
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "source": "Genetic Engineering News",
       "title": "Cytomos’ AuraCyt Digital Predictive Cell Analytics Platform Showcased at BIO Conference",
       "url": "https://www.genengnews.com/topics/bioprocessing/cytomos-auracyt-digital-predictive-cell-analytics-platform-showcased-at-bio-conference/",
@@ -484,25 +376,6 @@
       "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
       "summary": "News Highlights: NVIDIA technology runs 81% of the TOP500 and 90% of the systems new to the list. 26 systems on the TOP500 adopted the NVIDIA Grace CPU, up eight from the previous list. The top eight systems on the Green…",
       "ts": 1782205238000,
-<<<<<<< HEAD
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Elephant alert! AI warning systems aim to avoid deadly clashes",
-      "url": "https://www.technologyreview.com/2026/06/23/1138562/elephant-alert-ai-warning-systems-avoid-deadly-clashes-india/",
-      "summary": "India is home to about 60% of the world’s wild Asian elephants, and around 80% of the animals’ habitat lies outside protected areas, according to the Ministry of Environment, Forest, and Climate Change. That brings peopl…",
-      "ts": 1782205200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The $400 million machine powering the future of chipmaking",
-      "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
-      "summary": "Jos Benschop is climbing a ladder to get to the top of his newest machine. It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in th…",
-      "ts": 1782205200000,
-=======
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "categoryId": "ai-compute"
     },
     {
@@ -552,22 +425,6 @@
       "summary": "",
       "ts": 1782190834000,
       "categoryId": "energy-climate"
-<<<<<<< HEAD
-    },
-    {
-      "source": "NASA",
-      "title": "Rising Waters Swamp Lake Naivasha",
-      "url": "https://science.nasa.gov/earth/earth-observatory/rising-waters-swamp-lake-naivasha/",
-      "summary": "Relentless rains are threatening a lake in Kenya’s Great Rift Valley that has become a key hub in the global flower trade.",
-      "ts": 1782187260000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "COLD-CI: A large-scale very high-resolution label polygon dataset for cocoa and non-cocoa classification in Cote d'Ivoire",
-      "url": "https://arxiv.org/abs/2606.20767",
-      "summary": "arXiv:2606.20767v1 Announce Type: new Abstract: Spatially explicit information on cocoa cultivation is essential for land-use planning, deforestation monitoring, environmental assessment, and supply-chain analysis. Altho…",
-=======
     },
     {
       "source": "arXiv q-bio",
@@ -590,69 +447,27 @@
       "title": "Surveying the adaptive landscapes of 10,000 antibodies",
       "url": "https://arxiv.org/abs/2606.21351",
       "summary": "arXiv:2606.21351v1 Announce Type: new Abstract: Affinity maturation is the Darwinian process by which antibodies improve antigen binding through somatic hypermutation and selection. The adaptive landscape, which defines …",
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "ts": 1782187200000,
       "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
-<<<<<<< HEAD
-      "title": "Relational Gaze Transitions During Encoding Predict Episodic Recall of Naturalistic Scenes",
-      "url": "https://arxiv.org/abs/2606.20844",
-      "summary": "arXiv:2606.20844v1 Announce Type: new Abstract: Remembering a visual scene requires organizing distinct details into a cohesive event. This study investigates whether relation-guided gaze transitions provide a behavioura…",
-=======
       "title": "Mechanistic mathematical model of the in vitro infection dynamics of Bunyamwera and Batai viruses including MOI-dependent shortening of the eclipse phase",
       "url": "https://arxiv.org/abs/2606.21481",
       "summary": "arXiv:2606.21481v1 Announce Type: new Abstract: We develop a deterministic mathematical model to quantify the distinct in vitro infection dynamics of Bunyamwera virus (BUNV) and Batai virus (BATV) in A549 cells, incorpor…",
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "ts": 1782187200000,
       "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
-<<<<<<< HEAD
-      "title": "Surveying the adaptive landscapes of 10,000 antibodies",
-      "url": "https://arxiv.org/abs/2606.21351",
-      "summary": "arXiv:2606.21351v1 Announce Type: new Abstract: Affinity maturation is the Darwinian process by which antibodies improve antigen binding through somatic hypermutation and selection. The adaptive landscape, which defines …",
-=======
       "title": "Adaptive conduction delays and phase locking in spiking Haken Lighthouse networks",
       "url": "https://arxiv.org/abs/2606.21508",
       "summary": "arXiv:2606.21508v1 Announce Type: new Abstract: We develop a theory of phase-locked activity in delayed spiking networks using the Haken Lighthouse model as an analytically tractable event-based description of neural dyn…",
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "ts": 1782187200000,
       "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
-<<<<<<< HEAD
-      "title": "Mechanistic mathematical model of the in vitro infection dynamics of Bunyamwera and Batai viruses including MOI-dependent shortening of the eclipse phase",
-      "url": "https://arxiv.org/abs/2606.21481",
-      "summary": "arXiv:2606.21481v1 Announce Type: new Abstract: We develop a deterministic mathematical model to quantify the distinct in vitro infection dynamics of Bunyamwera virus (BUNV) and Batai virus (BATV) in A549 cells, incorpor…",
-=======
-      "title": "Delay coordinates synchronization and induces abrupt transition in excitable networks",
-      "url": "https://arxiv.org/abs/2606.21703",
-      "summary": "arXiv:2606.21703v1 Announce Type: new Abstract: Neuronal communication is inherently time-delayed, due to the finite speed of signal propagation. Although often considered challenging or disruptive, such time delays can …",
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-<<<<<<< HEAD
-      "title": "Adaptive conduction delays and phase locking in spiking Haken Lighthouse networks",
-      "url": "https://arxiv.org/abs/2606.21508",
-      "summary": "arXiv:2606.21508v1 Announce Type: new Abstract: We develop a theory of phase-locked activity in delayed spiking networks using the Haken Lighthouse model as an analytically tractable event-based description of neural dyn…",
-=======
-      "title": "Mostly-monocular responses and other visual functions in a multiscale network model of Macaque V1",
-      "url": "https://arxiv.org/abs/2606.21785",
-      "summary": "arXiv:2606.21785v1 Announce Type: new Abstract: Visual signals from the two eyes merge gradually as they pass through the primary visual cortex (V1). Here we use a computational model of Macaque V1 to study the first sta…",
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-<<<<<<< HEAD
       "title": "Delay coordinates synchronization and induces abrupt transition in excitable networks",
       "url": "https://arxiv.org/abs/2606.21703",
       "summary": "arXiv:2606.21703v1 Announce Type: new Abstract: Neuronal communication is inherently time-delayed, due to the finite speed of signal propagation. Although often considered challenging or disruptive, such time delays can …",
@@ -669,8 +484,6 @@
     },
     {
       "source": "arXiv q-bio",
-=======
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
       "title": "Dynamic Computerized Tumbling-E Testing for Temporal Reliability of Human Sequential Perceptual Decisions",
       "url": "https://arxiv.org/abs/2606.21818",
       "summary": "arXiv:2606.21818v1 Announce Type: new Abstract: OBJECTIVES: Visual acuity and tumbling-E tasks are often treated as static threshold measures, yet sequential perceptual decisions unfold over time. A computerized tumbling…",
@@ -795,8 +608,6 @@
       "url": "https://arxiv.org/abs/2606.23325",
       "summary": "arXiv:2606.23325v1 Announce Type: new Abstract: In this paper, the phenomenon generally classified as confirmation bias is formulated on the space of square-root probabilities (or equivalently, using the structures of qu…",
       "ts": 1782187200000,
-<<<<<<< HEAD
-=======
       "categoryId": "bio"
     },
     {
@@ -829,7 +640,86 @@
       "url": "https://arxiv.org/abs/2606.20906",
       "summary": "arXiv:2606.20906v1 Announce Type: cross Abstract: Molecular message-passing neural networks commonly propagate chemically diverse interactions through a single graph, which may mix interaction-specific signals and requir…",
       "ts": 1782187200000,
->>>>>>> 56197bc5 (Add ArcheNova Senate civilization deliberation chamber)
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "HERO: Hypothesis-Driven Evidence Retrieval from Omics for Multi-Task Breast Cancer Analysis",
+      "url": "https://arxiv.org/abs/2606.21174",
+      "summary": "arXiv:2606.21174v1 Announce Type: cross Abstract: Matched multi-omics can improve WSI-based biomarker and prognosis prediction, but most existing pipelines use omics as a paral lel feature stream or textual context rathe…",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Dynamic dark-field FFOCT and dynamic reflection differential phase contrast for label-free functional imaging at reflective biomaterial interfaces",
+      "url": "https://arxiv.org/abs/2606.21314",
+      "summary": "arXiv:2606.21314v1 Announce Type: cross Abstract: Strong reflections from metallic and engineered substrates severely limit label-free functional imaging of living cells at biomaterial interfaces, neural electrodes, and …",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Soliton-like Waves in a Two-Dimensional Recurrent Spiking Neural Network with Weighted Spike-Timing-Dependent Plasticity",
+      "url": "https://arxiv.org/abs/2606.21432",
+      "summary": "arXiv:2606.21432v1 Announce Type: cross Abstract: We construct a minimal but biologically plausible spiking neuron model operating in discrete time, combining multiplicative spike-timing-dependent plasticity (WSTDP), div…",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images",
+      "url": "https://arxiv.org/abs/2606.21608",
+      "summary": "arXiv:2606.21608v1 Announce Type: cross Abstract: Accurate segmentation of curvilinear structures remains challenging in biomedical imaging due to their thin geometry, complex topology, and sensitivity to noise. This is …",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Heavy-Tailed Dispersal Kernels from Stopped Subdiffusive Fractional Brownian Motion",
+      "url": "https://arxiv.org/abs/2606.21681",
+      "summary": "arXiv:2606.21681v1 Announce Type: cross Abstract: Subdiffusive fractional Brownian motions produce localized aggregation when particles are stopped at exponentially distributed times. In applications where clumping and l…",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "DevoTG: Temporal Graph Neural Networks for Modeling C. elegans Developmental Connectomics",
+      "url": "https://arxiv.org/abs/2606.21940",
+      "summary": "arXiv:2606.21940v1 Announce Type: cross Abstract: Understanding how a nervous system wires itself from birth to adulthood is a fundamental challenge in developmental neuroscience. We present DevoTG, a temporal graph fram…",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "BioMatrix: Towards a Comprehensive Biological Foundation Model Spanning the Modality Matrix of Sequences, Structures, and Language",
+      "url": "https://arxiv.org/abs/2606.22138",
+      "summary": "arXiv:2606.22138v1 Announce Type: cross Abstract: We present BioMatrix, the first multimodal foundation model that natively integrates sequences, structures, and natural language for both molecules and proteins within a …",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Glass-based physical models for tissue mechanics",
+      "url": "https://arxiv.org/abs/2606.22281",
+      "summary": "arXiv:2606.22281v1 Announce Type: cross Abstract: Techniques from glass art and fabrication provide a controllable physical platform for studying tissue mechanics in simple organisms. Here, we use glass-based physical mo…",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Data-driven geometric phase in biological locomotion",
+      "url": "https://arxiv.org/abs/2606.22440",
+      "summary": "arXiv:2606.22440v1 Announce Type: cross Abstract: Geometric phase quantifies net locomotion in dissipative media via gauge theory, but linking this theoretical quantity to noisy, sparse, and weakly periodic biological sh…",
+      "ts": 1782187200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Architecture for Health Initiative (Arch4Health): Computational Challenges in Health-Related Applications and the Role of Computer Architecture in Addressing Them",
+      "url": "https://arxiv.org/abs/2606.22685",
+      "summary": "arXiv:2606.22685v1 Announce Type: cross Abstract: Recent biotechnological advances enable high-throughput, low-cost, and accurate biological data generation. This wealth of data enables unique opportunities for advancing…",
+      "ts": 1782187200000,
       "categoryId": "bio"
     }
   ],
