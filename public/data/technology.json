@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-06-24T05:03:16.265Z",
+  "updated": "2026-06-24T09:35:37.638Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "This flying solar-powered platform could deliver better internet from the air",
+      "url": "https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/",
+      "summary": "As soon as August, a giant silver bullet will cut its way through the dry air of the southwestern US and cross the Pacific to reach the coast of Japan. Once there, the roughly 200-foot-long craft, built by the New Mexico…",
+      "ts": 1782291600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "All challenges big and small",
+      "url": "https://www.technologyreview.com/2026/06/24/1138853/editors-letter-july-2026/",
+      "summary": "When I was 18, I skipped my high school graduation and headed to Kuwait. It was 1991, the first Gulf War had just ended, and the country was in complete chaos. There was little to no electricity, aside from generator pow…",
+      "ts": 1782291600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How I used public radio to recruit 20,000 participants for a peer-reviewed study on walking breaks",
+      "url": "https://www.statnews.com/2026/06/24/short-walking-breaks-sitting-health-research/?utm_campaign=rss",
+      "summary": "“With the right structure, Americans will roll up their sleeves, do the science, and trust the result,” Manoush Zomorodi writes.",
+      "ts": 1782289800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: New human embryo editing advances require tough conversations on ethical boundaries",
+      "url": "https://www.statnews.com/2026/06/24/embryo-editing-dieter-egli-ethical-boundaries-moratorium/?utm_campaign=rss",
+      "summary": "Scientists can’t ignore the ethical complexities of new embryo editing advances.",
+      "ts": 1782289800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: What an abandoned heart failure trial says about ‘breakthrough’ devices that don’t reach patients",
+      "url": "https://www.statnews.com/2026/06/24/fda-breakthrough-devices-what-we-learned-livanova-vitaria-results/?utm_campaign=rss",
+      "summary": "An abandoned heart-failure trial offers a rare window into devices that the FDA deems \"breakthrough\" but never reach patients.",
+      "ts": 1782289800000,
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Germination capacity of pistachio (Pistacia vera L.) seeds related to genotypic variation and phytochemical contents",
@@ -679,46 +719,6 @@
       "title": "Central African Republic peace gains must be preserved: UN envoy",
       "url": "https://news.un.org/feed/view/en/story/2026/06/1167791",
       "summary": "The Central African Republic (CAR) “has made remarkable and tangible progress towards lasting peace and security” in recent years, but security remains fragile in border areas, including with war-torn Sudan, UN Special R…",
-      "ts": 1782216000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Israel continues to commit genocide, atrocity crimes by deliberately targeting Palestinian children, UN independent commission finds",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167790",
-      "summary": "Israeli authorities and security forces have deliberately targeted Palestinian children, resulting in genocide and atrocity crimes in the Gaza Strip and war crimes in the West Bank, a UN independent commission of inquiry…",
-      "ts": 1782216000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New Security Council resolution upholds accountability for attacks against peacekeepers",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167789",
-      "summary": "The United Nations Security Council unanimously adopted a resolution on Tuesday that calls for accountability for crimes committed against UN peacekeepers.",
-      "ts": 1782216000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Global learning losses threaten an entire generation",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167787",
-      "summary": "Conflict, displacement and climate shocks are disrupting education for an estimated 258 million school-aged children and adolescents worldwide, raising fears that millions risk losing not only years of schooling but futu…",
-      "ts": 1782216000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ebola in DR Congo: first month of outbreak sees record number of cases – UN humanitarians",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167786",
-      "summary": "Ebola has been spreading at unprecedented speed in the eastern Democratic Republic of the Congo (DRC), bringing risk and fear into people’s daily lives, UN humanitarians said on Tuesday.",
-      "ts": 1782216000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Climate crisis: UN chief lays out solutions blueprint for clean energy transition",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167785",
-      "summary": "As a deadly heatwave continued to grip Europe on Tuesday, UN Secretary-General António Guterres issued an impassioned appeal for more ambitious global action on climate change caused by fossil fuels, to prevent irreversi…",
       "ts": 1782216000000,
       "categoryId": "global-governance"
     }

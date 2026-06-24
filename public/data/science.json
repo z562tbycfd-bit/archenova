@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-06-24T05:03:13.299Z",
+  "updated": "2026-06-24T09:35:34.558Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Heat waves threaten health of both young and old",
+      "url": "https://phys.org/news/2026-06-threaten-health-young.html",
+      "summary": "A brutal heat wave blanketing much of Europe has prompted reminders that extreme heat poses a particular threat to the health of children and the elderly.",
+      "ts": 1782290405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "ALMA spots a nine-member stellar family in the act of formation",
+      "url": "https://phys.org/news/2026-06-alma-member-stellar-family-formation.html",
+      "summary": "Massive stars much bigger than our sun always come in pairs or groups, not alone. But astronomers don't fully understand how these groupings form. In a new study, astronomers using ALMA have serendipitously discovered a …",
+      "ts": 1782290401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "H5 bird flu detected in second Australia state",
+      "url": "https://phys.org/news/2026-06-h5-bird-flu-australia-state.html",
+      "summary": "Scientists have detected the highly contagious H5 bird flu strain in a second Australian state, the nation's agriculture minister said Wednesday.",
+      "ts": 1782288602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Major power outage in France as Europe wilts under record heat",
+      "url": "https://phys.org/news/2026-06-major-power-outage-france-europe.html",
+      "summary": "Europe braced Wednesday for another day of a sweltering heat wave that has smashed records, left tens of thousands of people without power and sent air conditioner sales zooming on a continent unused to and ill-equipped …",
+      "ts": 1782287496000
+    },
     {
       "source": "arXiv Physics",
       "title": "Unified Entropic Dynamics Framework for Classical, and Quantum Wave Equations",
@@ -672,34 +700,6 @@
       "title": "Exact log-odds representation and mean-field criticality of a growing social group model",
       "url": "https://arxiv.org/abs/2606.24818",
       "summary": "arXiv:2606.24818v1 Announce Type: cross Abstract: We present an exact analytical reformulation of a growing social group model -- a Hamiltonian-free nonequilibrium process in which a group grows by noisy, consensus-drive…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mechanism of Band Gap Formation in Beam Networks",
-      "url": "https://arxiv.org/abs/2606.24860",
-      "summary": "arXiv:2606.24860v1 Announce Type: cross Abstract: Band gaps are commonly attributed to Bragg scattering or local resonance, yet it remains unclear whether these mechanisms govern band gap formation in beam networks. In t…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rapid Cavity-Based Mid-Circuit Measurement and Feedforward in a Neutral Atom Array",
-      "url": "https://arxiv.org/abs/2606.24869",
-      "summary": "arXiv:2606.24869v1 Announce Type: cross Abstract: Measuring part of a quantum system in the midst of its evolution and acting on the result in real time is essential for numerous quantum information protocols. Neutral-at…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Colliders",
-      "url": "https://arxiv.org/abs/2011.01638",
-      "summary": "arXiv:2011.01638v4 Announce Type: replace Abstract: Modern particle physics relies on high energy particle accelerators to provide collisions of various types of elementary particles in order to deduce fundamental laws o…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automated optimization of force field parameters against ensemble-averaged measurements with Bayesian Inference of Conformational Populations",
-      "url": "https://arxiv.org/abs/2402.11169",
-      "summary": "arXiv:2402.11169v3 Announce Type: replace Abstract: Accurate force fields are essential for reliable molecular simulations. These models are refined against quantum mechanical calculations and experimental measurements, …",
       "ts": 1782273600000
     }
   ],
