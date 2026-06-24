@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-06-24T15:34:09.637Z",
+  "updated": "2026-06-24T17:57:14.563Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Machine learning rediscovers equations governing ocean biogeochemistry",
+      "url": "https://phys.org/news/2026-06-machine-rediscovers-equations-ocean-biogeochemistry.html",
+      "summary": "Climate and ocean models use a series of equations to represent complex natural processes. However, the equations used in these models are often derived from limited observations and a series of assumptions.",
+      "ts": 1782322804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Earth's oldest crater really is more than 3 billion years old, new study confirms",
+      "url": "https://phys.org/news/2026-06-earth-oldest-crater-billion-years.html",
+      "summary": "In the Pilbara of Western Australia, some of Earth's oldest rocks lie beneath the sky, as they have for billions of years. They are dark, weathered volcanic rocks, close to 3.5 billion years old, cut by veins and stewed …",
+      "ts": 1782322802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Binary black hole signal probes event horizon region for first time",
+      "url": "https://phys.org/news/2026-06-binary-black-hole-probes-event.html",
+      "summary": "If, in space, no one can hear you scream, it seems that you can actually hear the sound of a crash when two black holes collide. Using the loudest gravitational wave ever heard, two Australian scientists and colleagues h…",
+      "ts": 1782321609000
+    },
+    {
+      "source": "Phys.org",
+      "title": "We discovered a new rock type containing garnet inside a meteorite fragment from Mars",
+      "url": "https://phys.org/news/2026-06-garnet-meteorite-fragment-mars.html",
+      "summary": "On Earth, garnet is best known as the fiery red January birthstone—popular in jewelry since the Bronze Age and valued highly by ancient Egyptians.",
+      "ts": 1782321601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden botanical treasures in war-torn Kyiv need global support, study shows",
+      "url": "https://phys.org/news/2026-06-hidden-botanical-treasures-war-torn.html",
+      "summary": "One of the world's most significant collections of plant specimens is under threat from the ongoing war in Ukraine, prompting an international call for urgent digitization and global collaboration to preserve an irreplac…",
+      "ts": 1782320411000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient proteins hint at all-female Homo naledi burial site in Rising Star cave system",
+      "url": "https://phys.org/news/2026-06-ancient-proteins-hint-female-homo.html",
+      "summary": "Scientists have extracted and analyzed the first-ever ancient proteins from the fossils of Homo naledi, revealing a potential all-female burial site. The study, published in the journal Cell, raises the possibility that …",
+      "ts": 1782320406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Language-based screeners may miss kids who struggle to read due to visual-processing issues",
+      "url": "https://phys.org/news/2026-06-language-based-screeners-kids-struggle.html",
+      "summary": "Reading difficulties, like dyslexia, are common and often affect achievement and outcomes during school and later in life. A new study, published in Current Biology, reports that current methods used to test for reading …",
+      "ts": 1782320401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate warnings need to be told in tangible ways to prevent disaster",
+      "url": "https://phys.org/news/2026-06-climate-told-tangible-ways-disaster.html",
+      "summary": "England is sweltering under a red heat health alert and could see its hottest June day on record. In North America, football fans and players are suffering, with a quarter of this summer's World Cup matches forecast to b…",
+      "ts": 1782319209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Euclid captures 60 million stars in sharpest broad view of Milky Way's core",
+      "url": "https://phys.org/news/2026-06-euclid-captures-million-stars-sharpest.html",
+      "summary": "For just one day, our dark universe detective, Euclid, turned its gaze toward the light: the extremely bright inner region of our Milky Way galaxy, known as the galactic bulge. This special request came from astronomers …",
+      "ts": 1782319201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Does the Netherlands feed the world? Study challenges a familiar view of Dutch agriculture",
+      "url": "https://phys.org/news/2026-06-netherlands-world-familiar-view-dutch.html",
+      "summary": "The Netherlands is a major agricultural exporter. But look beyond euros to land, animal feed, calories and protein, and a different picture emerges. In a study published in Nature Food, researchers at Wageningen Universi…",
+      "ts": 1782318004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Geometric anti-spring works near absolute zero, suppressing vibrations below 0.185 hertz",
+      "url": "https://phys.org/news/2026-06-geometric-anti-absolute-suppressing-vibrations.html",
+      "summary": "Physicists and instrument makers in Leiden have succeeded in optimizing a spring that almost completely filters out vibrations at temperatures near absolute zero. This breakthrough opens the door to a new generation of h…",
+      "ts": 1782318001000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "How Physicists Track and Trap the Elusive Neutrino",
+      "url": "https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/",
+      "summary": "The hunt for these ghostly particles has required some of the most audacious experiment setups ever built. The post How Physicists Track and Trap the Elusive Neutrino first appeared on Quanta Magazine",
+      "ts": 1782317072000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Automated system detects early signs of nanomaterials toxicity",
+      "url": "https://phys.org/news/2026-06-automated-early-nanomaterials-toxicity.html",
+      "summary": "Korea Research Institute of Standards and Science has developed a toxicity assessment system that automatically measures and analyzes the heart rate of Daphnia magna. Capable of processing heart rate data from approximat…",
+      "ts": 1782316806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Artificial DNA tiles could deliver drugs and monitor neurons non-disruptively",
+      "url": "https://phys.org/news/2026-06-artificial-dna-tiles-drugs-neurons.html",
+      "summary": "Living cells constantly exchange ions (i.e., charged particles) via the thin barrier that surrounds their interior, known as the outer membrane. Neuroscientists and medical researchers have long been trying to devise eff…",
+      "ts": 1782316801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New giant wormlion fly species identified on the southern slopes of the Himalayas",
+      "url": "https://phys.org/news/2026-06-giant-wormlion-fly-species-southern.html",
+      "summary": "An enigmatic new species of wormlion fly, whose larvae construct clever pitfall traps to capture prey, has been revealed in a study led by researchers at Dali University in China.",
+      "ts": 1782315606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "More people today have a stronger belief in their own ability to shape their lives",
+      "url": "https://phys.org/news/2026-06-people-today-stronger-belief-ability.html",
+      "summary": "People living in Germany have more confidence in themselves today than 20 years ago. They have more faith in their ability to influence their own lives and key life events. This has now been shown in a long-term study co…",
+      "ts": 1782315604000
+    },
     {
       "source": "Phys.org",
       "title": "Why female guppies prefer rare males and how this might shape evolution",
@@ -155,6 +267,13 @@
       "url": "https://phys.org/news/2026-06-oldest-tube-feet-reveals-clues.html",
       "summary": "Echinoderms, such as starfish, sea urchins and sea lilies, use small, flexible, tubular projections called \"tube feet\" for locomotion, feeding, respiration and sensory perception. Crinoids, a subgroup of echinoderms, are…",
       "ts": 1782297601000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Complexity-Theoretic Foundations of BosonSampling with a Linear Number of Modes",
+      "url": "http://link.aps.org/doi/10.1103/xc7b-sjm5",
+      "summary": "Author(s): Adam Bouland, Daniel Brod, Ishaun Datta, Bill Fefferman, Daniel Grier, Felipe Hernández, and Michał Oszmaniec Experimental demonstrations of quantum advantage in photonic systems operate in the “saturated regi…",
+      "ts": 1782295200000
     },
     {
       "source": "Phys.org",
@@ -581,125 +700,6 @@
       "title": "Bode-Fano Limits to Broadband Absorption by Small Particles",
       "url": "https://arxiv.org/abs/2606.24658",
       "summary": "arXiv:2606.24658v1 Announce Type: new Abstract: Nanostructures can be designed to absorb light efficiently at resonance despite their subwavelength footprint, but causality and passivity fundamentally limit the bandwidth…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear refractive index of warm rubidium vapor",
-      "url": "https://arxiv.org/abs/2606.24676",
-      "summary": "arXiv:2606.24676v1 Announce Type: new Abstract: The potential to precisely control both the linear and nonlinear index of refraction through optical manipulation of the atomic states has recently pushed warm alkali vapor…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Billion Dollar Surprise: How Solar Cycle 25 Cut Satellite Lifetimes in LEO",
-      "url": "https://arxiv.org/abs/2606.24687",
-      "summary": "arXiv:2606.24687v1 Announce Type: new Abstract: Solar Cycle 25 has run far stronger than the 2019 consensus forecast issued by the NOAA/NASA/ISES prediction panel, with densities in low Earth orbit from 2022-2026 holding…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Widely tunable optical parametric oscillation and visible light generation in 4H-SiC microresonators",
-      "url": "https://arxiv.org/abs/2606.24690",
-      "summary": "arXiv:2606.24690v1 Announce Type: new Abstract: Widely separated optical parametric oscillation (OPO) represents a powerful method for coherent wavelength conversion across infrared and visible spectra. While such genera…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Physics-Informed Fourier-Wavelet Transformer for Multiscale Computational Fluid Dynamics Surrogate Modeling",
-      "url": "https://arxiv.org/abs/2606.24696",
-      "summary": "arXiv:2606.24696v1 Announce Type: new Abstract: Physics-informed surrogate models can accelerate computational fluid dynamics simulations. However, many existing methods reproduce global flow patterns more reliably than …",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Grounded Evidence-Retrieval Benchmark and Hybrid RAG Framework for Silicon Pixel Detector R&D",
-      "url": "https://arxiv.org/abs/2606.24725",
-      "summary": "arXiv:2606.24725v1 Announce Type: new Abstract: The rapid growth of silicon pixel detector literature has made systematic evidence retrieval a practical bottleneck for detector R&D. Large language models alone are insuff…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum nuclear and band-dispersion effects recover near-UV absorption in short-hydrogen-bonded organic crystals",
-      "url": "https://arxiv.org/abs/2606.24750",
-      "summary": "arXiv:2606.24750v1 Announce Type: new Abstract: Near-UV optical absorption is increasingly reported in hydrogen-bonded organic and biomolecular materials lacking aromatic or extended pi-conjugated chromophores, yet its m…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Material identification using laboratory X-ray beam tracking: quantitativeness and signal-to-noise ratio requirements",
-      "url": "https://arxiv.org/abs/2606.24753",
-      "summary": "arXiv:2606.24753v1 Announce Type: new Abstract: Simultaneous structural and elemental characterisation of a specimen in a non-destructive manner is an instrumental approach with applications in a variety of fields includ…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Offset-continuation-trajectory stacking based on common-reflection-point kinematics for five-dimensional prestack dataset regularization and enhancement",
-      "url": "https://arxiv.org/abs/2606.24760",
-      "summary": "arXiv:2606.24760v1 Announce Type: new Abstract: Prestack seismic data regularization and enhancement are critical steps for reliable imaging and inversion, particularly in five-dimensional (5D) dataset geometries affecte…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-Electron Effects Extend High-Harmonic Generation into the keV Regime",
-      "url": "https://arxiv.org/abs/2606.24765",
-      "summary": "arXiv:2606.24765v1 Announce Type: new Abstract: Two-electron processes can generate high harmonics beyond the conventional single-active-electron cutoff. Motivated by recent experimental evidence of an extended secondary…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "LF-MightyPix: A second HV-MAPS prototype for the {LHCb} Mighty-Tracker",
-      "url": "https://arxiv.org/abs/2606.24794",
-      "summary": "arXiv:2606.24794v1 Announce Type: new Abstract: For the future high-luminosity operation of the LHCb experiment, the downstream tracker will be upgraded to the Mighty-Tracker. A key part of this upgrade is the introducti…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polyatomic Thermal Radiative Dissociation in Microcavities",
-      "url": "https://arxiv.org/abs/2606.24866",
-      "summary": "arXiv:2606.24866v1 Announce Type: new Abstract: Blackbody infrared radiative dissociation (BIRD) activates molecules through successive absorption of ambient thermal photons until the internal energy reaches a dissociati…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effective hyperuniformity in time-integrated stochastic Turing patterns",
-      "url": "https://arxiv.org/abs/2606.23677",
-      "summary": "arXiv:2606.23677v1 Announce Type: cross Abstract: Demographic noise generates stochastic Turing patterns even when reaction-diffusion systems are deterministically stable. We show analytically and verify numerically in t…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "FEM-Based Dispersion and Mode Analysis of Rectangular, Circular, and Ridge Waveguide Geometries",
-      "url": "https://arxiv.org/abs/2606.23703",
-      "summary": "arXiv:2606.23703v1 Announce Type: cross Abstract: This paper presents a two-dimensional finite element method (FEM) solver for computing modal field distributions and dispersion characteristics of hollow metallic wavegui…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum-enhanced estimation of stimulated Raman optical activity",
-      "url": "https://arxiv.org/abs/2606.23722",
-      "summary": "arXiv:2606.23722v1 Announce Type: cross Abstract: In recent times there has been growing interest in Raman optical activity (ROA) for its label free detection of absolute configuration, conformation, and stereochemical s…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Connecting Quantum Tomography and Quantum Retrodiction",
-      "url": "https://arxiv.org/abs/2606.23777",
-      "summary": "arXiv:2606.23777v1 Announce Type: cross Abstract: Quantum tomography and quantum retrodiction are traditionally viewed as separate inference tasks: tomography reconstructs quantum states from measurement data, whereas re…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mode-selective nonlinear interference for high-brightness and high-purity fiber-coupled SPDC sources",
-      "url": "https://arxiv.org/abs/2606.23836",
-      "summary": "arXiv:2606.23836v1 Announce Type: cross Abstract: Single-mode-fiber-coupled spontaneous parametric down-conversion (SPDC) sources are a key resource for photonic quantum technologies, but in single-crystal geometries bri…",
-      "ts": 1782273600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Degeneracy Distillery",
-      "url": "https://arxiv.org/abs/2606.23838",
-      "summary": "arXiv:2606.23838v1 Announce Type: cross Abstract: When two or more parameters or labels produce similar data, they are degenerate, or hard to distinguish. Degeneracies render both label prediction and inverse problems di…",
       "ts": 1782273600000
     }
   ],
