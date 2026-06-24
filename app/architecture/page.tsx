@@ -162,22 +162,6 @@ export default function ArchitecturePage() {
       </section>
 
       <section className="glass-block">
-        <h2>Civilization Flow</h2>
-
-        <div className="research-roadmap">
-          {flows.map((step, index) => (
-            <div key={step} className="research-roadmap-step">
-              <div className="research-roadmap-index">
-                {String(index + 1).padStart(2, "0")}
-              </div>
-
-              <div className="research-roadmap-node">{step}</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="glass-block">
         <h2>Architecture Logic</h2>
 
         <p>

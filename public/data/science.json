@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-06-24T00:00:54.495Z",
+  "updated": "2026-06-24T01:11:20.910Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How sperm whale vocal dialects evolve as they adopt new calls while still remembering the old",
+      "url": "https://phys.org/news/2026-06-sperm-whale-vocal-dialects-evolve.html",
+      "summary": "New research from the University of St. Andrews shows how sperm whale vocal dialects evolve as they adopt new calls while still remembering the old. An international team of researchers studying vocal dialects in the end…",
+      "ts": 1782262803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simple acknowledgment boosts repeat customer participation in take-back programs",
+      "url": "https://phys.org/news/2026-06-simple-acknowledgment-boosts-customer.html",
+      "summary": "Companies may only need to send an acknowledgment message to boost repeat customer participation in recycling and reuse programs for used goods like laptops and coffee pods, according to a new study led by Penn State res…",
+      "ts": 1782262801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Listening for quantum oscillations in the Kondo insulator ytterbium dodecaboride",
+      "url": "https://phys.org/news/2026-06-quantum-oscillations-kondo-insulator-ytterbium.html",
+      "summary": "Magnetic quantum oscillations have been unexpectedly observed in insulators, where freely moving charge carriers are not expected to exist. A joint study by researchers from Tokyo University of Science, The University of…",
+      "ts": 1782261601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "This tiny Australian spider uses a high‑powered web catapult to trap and eat aggressive ants",
+      "url": "https://phys.org/news/2026-06-tiny-australian-spider-highpowered-web.html",
+      "summary": "There's more than one way a spider can spin its web. Some construct large vertical orb webs, while others build horizontal sheet webs or tangled cobwebs that ensnare crawling insects.",
+      "ts": 1782260404000
+    },
     {
       "source": "Phys.org",
       "title": "How reading shapes and enhances our cognitive activity",
@@ -672,34 +700,6 @@
       "title": "Mid-infrared-to-ultraviolet supercontinuum generation in low-loss tantalum pentoxide nanophotonic waveguides",
       "url": "https://arxiv.org/abs/2606.21118",
       "summary": "arXiv:2606.21118v1 Announce Type: new Abstract: Optical frequency combs on photonic integrated platforms are revolutionizing precision metrology, bio-imaging, atomic and molecular sensing, and ultrafast photonics, yet mo…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interfacial Roughness Spectra and Finite-Depth Salt-Finger Mixing at a Two-Layer Thermohaline Interface",
-      "url": "https://arxiv.org/abs/2606.21131",
-      "summary": "arXiv:2606.21131v1 Announce Type: new Abstract: Salt fingering drives diapycnal scalar exchange across thermohaline interfaces that are statically stable but double-diffusively unstable. Oceanic interfaces are finite-dep…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Test Particle Study of EDI Driven Electron Transport in a Hall Thruster Using PIC Derived Electric Fields",
-      "url": "https://arxiv.org/abs/2606.21143",
-      "summary": "arXiv:2606.21143v1 Announce Type: new Abstract: Electron transport in a Hall thruster is investigated at the test particle level using prescribed electric fields derived from the electron drift instability (EDI) resolvin…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bounds on the Topological Charge of Photonic Systems",
-      "url": "https://arxiv.org/abs/2606.21175",
-      "summary": "arXiv:2606.21175v1 Announce Type: new Abstract: Topology has become a central concept in understanding physical phenomena, leading to important advances in condensed matter and photonics. Recent work has established a un…",
-      "ts": 1782187200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rankine-Hugoniot conditions in Q-variables: a wave-aligned formulation of MHD discontinuities",
-      "url": "https://arxiv.org/abs/2606.21193",
-      "summary": "arXiv:2606.21193v1 Announce Type: new Abstract: The recently developed Q-variable formalism generalises the Els\\\"asser representation by providing a wave-aligned representation applicable to a broad class of magnetohydro…",
       "ts": 1782187200000
     }
   ],

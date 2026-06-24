@@ -12627,3 +12627,314 @@ height: 90px;
 font-size: 0.72rem;
 }
 }
+.senate-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.senate-hero {
+  position: relative;
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 0 4rem;
+}
+
+.senate-hero h1 {
+  font-size: clamp(3.4rem, 11vw, 9rem);
+  line-height: 0.88;
+  margin: 1rem 0;
+  letter-spacing: -0.08em;
+  background: linear-gradient(90deg, #ffffff, #ffe4a3, #8bd0ff, #d0a8ff);
+  background-size: 240% 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: civilizationTextFlow 10s ease-in-out infinite;
+}
+
+.senate-cosmic-glow {
+  position: absolute;
+  right: -14%;
+  top: 6%;
+  width: min(74vw, 820px);
+  height: min(74vw, 820px);
+  border-radius: 999px;
+  background:
+    radial-gradient(circle, rgba(255, 230, 170, 0.18), transparent 42%),
+    radial-gradient(circle at 70% 35%, rgba(140, 210, 255, 0.16), transparent 35%),
+    radial-gradient(circle at 40% 75%, rgba(210, 160, 255, 0.14), transparent 30%);
+  filter: blur(24px);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.senate-roundtable-block {
+  background:
+    radial-gradient(circle at 50% 45%, rgba(255, 230, 170, 0.16), transparent 28%),
+    radial-gradient(circle at 20% 80%, rgba(120, 200, 255, 0.1), transparent 34%),
+    radial-gradient(circle at 80% 20%, rgba(210, 160, 255, 0.1), transparent 34%),
+    rgba(255, 255, 255, 0.035);
+}
+
+.senate-roundtable {
+  position: relative;
+  min-height: 520px;
+  display: grid;
+  place-items: center;
+}
+
+.senate-core {
+  width: min(58vw, 360px);
+  height: min(58vw, 360px);
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem;
+  background:
+    radial-gradient(circle, rgba(255, 230, 170, 0.18), transparent 62%),
+    rgba(255, 255, 255, 0.055);
+  border: 1px solid rgba(255, 230, 170, 0.26);
+  box-shadow:
+    0 0 80px rgba(255, 230, 170, 0.12),
+    0 0 160px rgba(120, 180, 255, 0.08);
+}
+
+.senate-core span,
+.senate-core small,
+.senate-orbit-node span {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  opacity: 0.68;
+}
+
+.senate-core strong {
+  display: block;
+  font-size: clamp(2rem, 6vw, 4rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+  background: linear-gradient(90deg, #ffffff, #ffe4a3, #8bd0ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.senate-orbit-node {
+  position: absolute;
+  width: min(34vw, 210px);
+  border-radius: 24px;
+  padding: 1rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.055);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.senate-orbit-node strong {
+  display: block;
+  margin-top:  0.6rem;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+}
+
+.senate-node-episteme {
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.senate-node-research {
+  top: 24%;
+  left: 6%;
+}
+
+.senate-node-capital {
+  top: 24%;
+  right: 6%;
+}
+
+.senate-node-builder {
+  bottom: 12%;
+  left: 10%;
+}
+
+.senate-node-institute {
+  bottom: 12%;
+  right: 10%;
+}
+
+.senate-node-intelligence {
+  bottom: -2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.senate-flow-line {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.18;
+}
+
+.senate-flow-line::before,
+.senate-flow-line::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min(72vw, 640px);
+  height: min(72vw, 640px);
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transform: translate(-50%, -50%);
+}
+
+.senate-flow-line::after {
+  width: min(88vw, 780px);
+  height: min(88vw, 780px);
+  border-color: rgba(255, 230, 170, 0.12);
+}
+
+.senate-stage-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.senate-stage-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  padding: 1.5rem;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.05),
+      rgba(255,255,255,0.02)
+    );
+  border: 1px solid rgba(255,255,255,0.08);
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.senate-stage-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255,230,170,0.22);
+}
+
+.senate-stage-card h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.15rem;
+}
+
+.senate-stage-card p {
+  opacity: 0.84;
+  line-height: 1.7;
+}
+
+.senate-resolution {
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 32px;
+  background:
+    radial-gradient(
+      circle,
+      rgba(255,230,170,0.14),
+      transparent 65%
+    ),
+    rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,230,170,0.18);
+}
+
+.senate-resolution h2 {
+  font-size: clamp(2rem, 6vw, 4rem);
+  margin-bottom: 1rem;
+  letter-spacing: -0.05em;
+}
+
+.senate-resolution p {
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.9;
+  opacity: 0.88;
+}
+
+@keyframes civilizationTextFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .senate-roundtable {
+    min-height: 760px;
+  }
+
+  .senate-core {
+    width: min(78vw, 320px);
+    height: min(78vw, 320px);
+  }
+
+  .senate-orbit-node {
+    width: min(42vw, 180px);
+  }
+}
+
+@media (max-width: 768px) {
+  .senate-stage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .senate-roundtable {
+    min-height: 980px;
+  }
+
+  .senate-core {
+    width: 260px;
+    height: 260px;
+    padding: 1.5rem;
+  }
+
+  .senate-orbit-node {
+    width: 150px;
+    font-size: 0.85rem;
+    padding: 0.85rem;
+  }
+
+  .senate-node-episteme {
+    top: 0;
+  }
+
+  .senate-node-research {
+    top: 18%;
+    left: 0;
+  }
+
+  .senate-node-capital {
+    top: 18%;
+    right: 0;
+  }
+
+  .senate-node-builder {
+    bottom: 18%;
+    left: 0;
+  }
+
+  .senate-node-institute {
+    bottom: 18%;
+    right: 0;
+  }
+
+  .senate-node-intelligence {
+    bottom: 0;
+  }
+}

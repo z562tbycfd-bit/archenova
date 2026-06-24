@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-24T00:00:57.519Z",
+  "updated": "2026-06-24T01:11:29.318Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+      "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+      "summary": "Building AI systems at scale is demanding, requiring low-latency inference, fast vector search, strong GPU price-performance and infrastructure that can grow without multiplying operational complexity. NVIDIA’s latest wo…",
+      "ts": 1782259537000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA drops enforcement against Whoop after it tweaks blood pressure feature",
@@ -24,6 +32,14 @@
       "url": "https://spacenews.com/boeing-wins-2-billion-space-force-contract-for-communications-satellites/",
       "summary": "WASHINGTON — Boeing won a contract worth up to $2 billion to build two next-generation military communications satellites for the U.S. Space Force, prevailing over Lockheed Martin in a competition […] The post Boeing win…",
       "ts": 1782252456000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Names Sean Gallagher as Chief Information Officer",
+      "url": "https://www.nasa.gov/news-release/nasa-names-sean-gallagher-as-chief-information-officer/",
+      "summary": "NASA has selected Sean Gallagher as the agency’s chief information officer (CIO). In this role, he is responsible for the agency’s entire portfolio of Information Technology products and services. Gallagher has been serv…",
+      "ts": 1782250323000,
       "categoryId": "space"
     },
     {
@@ -123,6 +139,22 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "CSDA Selects Eight Commercial Satellite Data Providers for On-Ramp 2 Contract Awards",
+      "url": "https://science.nasa.gov/science-research/earth-science/csda-selects-eight-commercial-satellite-data-providers-for-on-ramp-2-contract-awards/",
+      "summary": "Eight commercial data providers received contracts to provide a range of data in support of NASA’s Earth science priorities.",
+      "ts": 1782241036000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "58th Girl Scouts Unite Event",
+      "url": "https://science.nasa.gov/earth/58th-girl-scouts-unite-event/",
+      "summary": "58th Girl Scouts Unite Event, July 23-25, 2026 Join NASA in the Exhibit Hall (Booth #206) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. Thursday, July 23 11:00AM – 11:15 AMFrom Daisy to NASA En…",
+      "ts": 1782240707000,
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Three Subtypes of Severe Pneumonia Might Inform Personalized Therapies",
       "url": "https://www.genengnews.com/topics/infectious-diseases/three-subtypes-of-severe-pneumonia-might-inform-personalized-therapies/",
@@ -171,11 +203,35 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "NASA",
+      "title": "2026 ALA Hyperwall Schedule",
+      "url": "https://science.nasa.gov/earth/2026-ala-hyperwall-schedule/",
+      "summary": "American Library Association (ALA) Annual Conference, June 25-29, 2026 Join NASA in the Exhibit Hall (Booth #2243) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. FRIDAY, JUNE 26 SATURDAY, JUNE 2…",
+      "ts": 1782231802000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "This is How NASA Flight Tests New Technology",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/this-is-how-nasa-flight-tests-new-technology/",
+      "summary": "Flight tests are a big part of how NASA turns breakthrough ideas into reality. From flying humans faster than the speed of sound to proving designs that helped shape the space shuttle, flight testing transforms bold conc…",
+      "ts": 1782230400000,
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Sophia selects Apex bus for on-orbit computing demonstration",
       "url": "https://spacenews.com/sophia-selects-apex-bus-for-on-orbit-computing-demonstration/",
       "summary": "SAN FRANCISCO – Sophia Space announced the selection June 22 of an Apex bus for its first orbital computing node. Pasadena, California-based Sophia plans to demonstrate its Thermal Integrated LEO […] The post Sophia sele…",
       "ts": 1782230218000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Hanging in the Balance",
+      "url": "https://www.nasa.gov/image-article/hanging-in-the-balance/",
+      "summary": "The Moon appears half-illuminated in this photo captured by the Artemis II crew on flight day 6. The terminator – the difference between light and darkness – provides a stark contrast and even greater perspective of the …",
+      "ts": 1782229434000,
       "categoryId": "space"
     },
     {
@@ -187,11 +243,27 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "ARMD Research Solicitations (Updated June 23)",
+      "url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
+      "summary": "THIS PAGE WAS UPDATED ON JUNE 23, 2026 This Aeronautics Research Mission Directorate (ARMD) solicitations page compiles the opportunities to collaborate with NASA’s aeronautical innovators and/or contribute to their rese…",
+      "ts": 1782226800000,
+      "categoryId": "space"
+    },
+    {
       "source": "ESA",
       "title": "Paxi and the European Space Agency",
       "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Paxi_and_the_European_Space_Agency",
       "summary": "Video: 00:03:38 English: Paxi and the European Space Agency Did you know that space affects your life every single day? Join Paxi to discover all the ways the European Space Agency (ESA) makes life on Earth better every …",
       "ts": 1782226800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "I Am Artemis: Jason Peterson",
+      "url": "https://www.nasa.gov/humans-in-space/i-am-artemis-jason-peterson/",
+      "summary": "Jason Peterson’s responsibilities for NASA’s Artemis II mission went beyond his usual role as the range operations manager at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Peterson credits his military exp…",
+      "ts": 1782224849000,
       "categoryId": "space"
     },
     {
@@ -201,6 +273,22 @@
       "summary": "Giving an individual special access to an experimental obesity drug is highly unusual.",
       "ts": 1782224538000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Details Early Galaxy Transforming Neighborhood",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-details-early-galaxy-transforming-neighborhood/",
+      "summary": "Astronomers using NASA’s Hubble Space Telescope have found something they never expected — ultraviolet light from a galaxy that existed just 1.4 billion years after the big bang.",
+      "ts": 1782223240000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Pinpoints Millions of Stars Within Cigar Galaxy",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-pinpoints-millions-of-stars-within-cigar-galaxy/",
+      "summary": "Located 12 million light-years away and undergoing rapid star formation, edge-on spiral galaxy Messier 82 (M82) is a scientifically unique sight to behold, and now NASA’s James Webb Space Telescope has revealed previousl…",
+      "ts": 1782223200000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -374,7 +462,7 @@
       "source": "NVIDIA",
       "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
       "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026/",
-      "summary": "News Highlights: NVIDIA technology runs 81% of the TOP500 and 90% of the systems new to the list. 26 systems on the TOP500 adopted the NVIDIA Grace CPU, up eight from the previous list. The top eight systems on the Green…",
+      "summary": "NVIDIA technologies power more than 400 of the world’s 500 fastest supercomputers — 81% of the TOP500 — according to the latest rankings released this week at the ISC High Performance conference in Hamburg, Germany.",
       "ts": 1782205238000,
       "categoryId": "ai-compute"
     },
@@ -631,94 +719,6 @@
       "title": "Dataset-Aware Cold-Start Active Learning for Annotation-Efficient 3D Medical Image Segmentation",
       "url": "https://arxiv.org/abs/2606.20765",
       "summary": "arXiv:2606.20765v1 Announce Type: cross Abstract: Deep learning for 3D medical image segmentation requires extensive manual annotations, a major bottleneck in volumetric medical imaging. Active learning aims to reduce th…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MMGNN: Multi-level, multi-color graph neural networks for molecular property prediction",
-      "url": "https://arxiv.org/abs/2606.20906",
-      "summary": "arXiv:2606.20906v1 Announce Type: cross Abstract: Molecular message-passing neural networks commonly propagate chemically diverse interactions through a single graph, which may mix interaction-specific signals and requir…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "HERO: Hypothesis-Driven Evidence Retrieval from Omics for Multi-Task Breast Cancer Analysis",
-      "url": "https://arxiv.org/abs/2606.21174",
-      "summary": "arXiv:2606.21174v1 Announce Type: cross Abstract: Matched multi-omics can improve WSI-based biomarker and prognosis prediction, but most existing pipelines use omics as a paral lel feature stream or textual context rathe…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamic dark-field FFOCT and dynamic reflection differential phase contrast for label-free functional imaging at reflective biomaterial interfaces",
-      "url": "https://arxiv.org/abs/2606.21314",
-      "summary": "arXiv:2606.21314v1 Announce Type: cross Abstract: Strong reflections from metallic and engineered substrates severely limit label-free functional imaging of living cells at biomaterial interfaces, neural electrodes, and …",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Soliton-like Waves in a Two-Dimensional Recurrent Spiking Neural Network with Weighted Spike-Timing-Dependent Plasticity",
-      "url": "https://arxiv.org/abs/2606.21432",
-      "summary": "arXiv:2606.21432v1 Announce Type: cross Abstract: We construct a minimal but biologically plausible spiking neuron model operating in discrete time, combining multiplicative spike-timing-dependent plasticity (WSTDP), div…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CurvSegFlow: Time-Conditioned Flow Matching for Robust Segmentation of Curvilinear Structures in Noisy Biomedical Images",
-      "url": "https://arxiv.org/abs/2606.21608",
-      "summary": "arXiv:2606.21608v1 Announce Type: cross Abstract: Accurate segmentation of curvilinear structures remains challenging in biomedical imaging due to their thin geometry, complex topology, and sensitivity to noise. This is …",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Heavy-Tailed Dispersal Kernels from Stopped Subdiffusive Fractional Brownian Motion",
-      "url": "https://arxiv.org/abs/2606.21681",
-      "summary": "arXiv:2606.21681v1 Announce Type: cross Abstract: Subdiffusive fractional Brownian motions produce localized aggregation when particles are stopped at exponentially distributed times. In applications where clumping and l…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DevoTG: Temporal Graph Neural Networks for Modeling C. elegans Developmental Connectomics",
-      "url": "https://arxiv.org/abs/2606.21940",
-      "summary": "arXiv:2606.21940v1 Announce Type: cross Abstract: Understanding how a nervous system wires itself from birth to adulthood is a fundamental challenge in developmental neuroscience. We present DevoTG, a temporal graph fram…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BioMatrix: Towards a Comprehensive Biological Foundation Model Spanning the Modality Matrix of Sequences, Structures, and Language",
-      "url": "https://arxiv.org/abs/2606.22138",
-      "summary": "arXiv:2606.22138v1 Announce Type: cross Abstract: We present BioMatrix, the first multimodal foundation model that natively integrates sequences, structures, and natural language for both molecules and proteins within a …",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Glass-based physical models for tissue mechanics",
-      "url": "https://arxiv.org/abs/2606.22281",
-      "summary": "arXiv:2606.22281v1 Announce Type: cross Abstract: Techniques from glass art and fabrication provide a controllable physical platform for studying tissue mechanics in simple organisms. Here, we use glass-based physical mo…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Data-driven geometric phase in biological locomotion",
-      "url": "https://arxiv.org/abs/2606.22440",
-      "summary": "arXiv:2606.22440v1 Announce Type: cross Abstract: Geometric phase quantifies net locomotion in dissipative media via gauge theory, but linking this theoretical quantity to noisy, sparse, and weakly periodic biological sh…",
-      "ts": 1782187200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Architecture for Health Initiative (Arch4Health): Computational Challenges in Health-Related Applications and the Role of Computer Architecture in Addressing Them",
-      "url": "https://arxiv.org/abs/2606.22685",
-      "summary": "arXiv:2606.22685v1 Announce Type: cross Abstract: Recent biotechnological advances enable high-throughput, low-cost, and accurate biological data generation. This wealth of data enables unique opportunities for advancing…",
       "ts": 1782187200000,
       "categoryId": "bio"
     }
