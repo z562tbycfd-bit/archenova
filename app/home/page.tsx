@@ -102,6 +102,68 @@ export default function Home() {
 </section>
 
 {/* =========================
+PAGE03 : ARCHENOVA SENATE
+========================= */}
+
+<section id="home-senate" className="home-page" data-home-section > <Reveal> <div className="home-section home-section-center">
+
+  <span className="home-section-label">
+    ARCHENOVA SENATE
+  </span>
+
+  <p className="home-section-purpose">
+    A civilizational deliberation chamber where intelligence,
+    signals, reports, institutions, capital, and implementation
+    converge into strategic direction.
+  </p>
+
+  <Link
+    href="/senate"
+    className="senate-portal-card"
+  >
+    <div className="senate-orbit">
+
+      <div className="senate-core" />
+
+      <div className="senate-node senate-node-1">
+        Episteme
+      </div>
+
+      <div className="senate-node senate-node-2">
+        Research
+      </div>
+
+      <div className="senate-node senate-node-3">
+        Intelligence
+      </div>
+
+      <div className="senate-node senate-node-4">
+        Builder
+      </div>
+
+      <div className="senate-node senate-node-5">
+        Institute
+      </div>
+
+      <div className="senate-node senate-node-6">
+        Capital
+      </div>
+
+    </div>
+
+    <div className="senate-title">
+      Civilizational Deliberation Chamber
+    </div>
+
+    <div className="plaza-hint">
+      Enter Senate →
+    </div>
+  </Link>
+
+</div>
+</Reveal> </section>
+
+{/* =========================
     PAGE : ARCHENOVA GALAXY
    ========================= */}
 <section
