@@ -1,7 +1,105 @@
 {
   "ok": true,
-  "updated": "2026-06-25T10:45:28.521Z",
+  "updated": "2026-06-25T13:21:48.575Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tiny water droplets transmutate aniline into pyridine in ambient and catalyst-free conditions",
+      "url": "https://phys.org/news/2026-06-tiny-droplets-transmutate-aniline-pyridine.html",
+      "summary": "Aniline can now be transformed into pyridine without adding any catalysts, oxidants or toxic reagents. In a recent study published in the Journal of the American Chemical Society, researchers achieved skeletal editing, i…",
+      "ts": 1782393609000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Discovery of enzymes that control pores on leaf surfaces could lead to drought-resistant crops",
+      "url": "https://phys.org/news/2026-06-discovery-enzymes-pores-leaf-surfaces.html",
+      "summary": "A research team at the Ruhr University Bochum Department of Molecular and Cellular Botany, led by Professor Christopher Grefen, has uncovered how plants form the tiny pores on their leaves responsible for gas exchange an…",
+      "ts": 1782393605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Growing up gets less scary with time, research finds",
+      "url": "https://phys.org/news/2026-06-scary.html",
+      "summary": "As young adults, many millennials feared growing up more than past generations. But they've come around to it as they age, research published in the journal Developmental Psychology has found.",
+      "ts": 1782392407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How fair climate action works: Findings from 88 countries with 5 billion people",
+      "url": "https://phys.org/news/2026-06-fair-climate-action-countries-billion.html",
+      "summary": "A study by the Potsdam Institute for Climate Impact Research (PIK) now sheds light, for the first time, on the carbon intensity of household consumption across much of the world—and thus on the distributional impact of c…",
+      "ts": 1782392405000
+    },
+    {
+      "source": "Science News",
+      "title": "We’ve had fire for longer than we thought",
+      "url": "https://www.sciencenews.org/article/hominids-had-fire-longer-than-thought",
+      "summary": "Archaeologists have unearthed new evidence that indicates hominids used fire up to 1.79 million years ago.",
+      "ts": 1782392400000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How ancient subduction zones helped create hotspots of mineral wealth",
+      "url": "https://phys.org/news/2026-06-ancient-subduction-zones-hotspots-mineral.html",
+      "summary": "A study led by geoscientists at the University of Sydney has revealed why some ancient continental edges became fertile sites for major mineral deposits, while others with apparently similar geology did not.",
+      "ts": 1782391208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why climate change could make staple crops less nutritious—and how CRISPR may help",
+      "url": "https://phys.org/news/2026-06-climate-staple-crops-nutritious-crispr.html",
+      "summary": "At present, more than 700 million people live with caloric hunger, and more than 2 billion suffer from micronutrient deficiencies, known as \"hidden hunger.\" By prioritizing high yield over nutritional quality, global cal…",
+      "ts": 1782391201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A turquoise tint for the Black Sea caused by phytoplankton",
+      "url": "https://phys.org/news/2026-06-turquoise-tint-black-sea-phytoplankton.html",
+      "summary": "The Black Sea sits at the boundary between Europe and Asia and connects to the Mediterranean Sea via a chain of waterways. Its surface often appears dark, but each spring and summer it transforms into a striking expanse …",
+      "ts": 1782390005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A thermodynamic approach to gravity could explain cosmic acceleration without dark energy",
+      "url": "https://phys.org/news/2026-06-thermodynamic-approach-gravity-cosmic-dark.html",
+      "summary": "Gravity, the force that attracts objects toward each other, is currently framed by Albert Einstein's theory of general relativity. This framework describes gravity as the curvature of spacetime, the invisible four-dimens…",
+      "ts": 1782390001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Image: Galaxy pair NGC 3504 and NGC 3512",
+      "url": "https://phys.org/news/2026-06-image-galaxy-pair-ngc.html",
+      "summary": "This striking pair of galaxies located 80 million light-years from Earth lies in the constellation Leo against a backdrop of distant galaxies. The barred spiral galaxy NGC 3504 is seen on the right, and the spiral galaxy…",
+      "ts": 1782388808000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Location-specific solutions needed to manage heat across northern Australia, say researchers",
+      "url": "https://phys.org/news/2026-06-specific-solutions-northern-australia.html",
+      "summary": "Place-specific strategies for adapting to increasing temperatures are crucial to keeping remote towns and communities across northern Australia habitable, according to a recent study on the future impacts of climate chan…",
+      "ts": 1782387603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient geology helps explain why Australia holds some of world's richest gold",
+      "url": "https://phys.org/news/2026-06-ancient-geology-australia-world-richest.html",
+      "summary": "Gold has long held a special place in Australia's history, shaping the nation's economic fortunes and driving waves of migration since the 1850s gold rushes. Today, Australia stands as one of the world's largest gold pro…",
+      "ts": 1782386403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Miniature satellite tags reveal diving behavior of juvenile sea turtles",
+      "url": "https://phys.org/news/2026-06-miniature-satellite-tags-reveal-behavior.html",
+      "summary": "Until recently, researchers were unable to conduct satellite-tracking studies on juvenile turtles because of their small body sizes and immediate dispersal into the ocean, leaving this period of their lives enigmatic and…",
+      "ts": 1782386401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists target soybean cyst nematode by cutting off its food supply",
+      "url": "https://phys.org/news/2026-06-scientists-soybean-cyst-nematode-food.html",
+      "summary": "Agricultural scientists are rethinking their battle plans against plant parasites that cause billions of dollars in annual yield losses for American farmers.",
+      "ts": 1782385203000
+    },
     {
       "source": "Phys.org",
       "title": "Quantum waves reveal one-sided motion marking elusive critical states",
@@ -602,104 +700,6 @@
       "title": "Quantum Geometry in the Continuum: Solitons in Shallow Lattices",
       "url": "https://arxiv.org/abs/2606.25064",
       "summary": "arXiv:2606.25064v1 Announce Type: cross Abstract: The quantum geometry of electronic, photonic, and atomic lattice systems quantifies the distance in Hilbert space between Bloch states at neighboring lattice momenta. Thi…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diffeomorphism-Invariant Quantities in Phase Space: More than Correlations",
-      "url": "https://arxiv.org/abs/2606.25072",
-      "summary": "arXiv:2606.25072v1 Announce Type: cross Abstract: A popular view in the foundations of diffeomorphism-invariant theories is that their physical content is encoded in correlations or `observables': a set of phase space fu…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "No 3D Matrices: A Unified Tensor-Product View of Matrix-Free Cartesian PDE Solvers",
-      "url": "https://arxiv.org/abs/2606.25148",
-      "summary": "arXiv:2606.25148v1 Announce Type: cross Abstract: Every Cartesian three-dimensional PDE solver hides a structural secret that production CFD codes have used for half a century and that graduate-level textbooks rarely sta…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accelerating Chemical Potential Calculations with Minimal Normalizing Flows",
-      "url": "https://arxiv.org/abs/2606.25229",
-      "summary": "arXiv:2606.25229v1 Announce Type: cross Abstract: Chemical potentials are among the most important properties that can be obtained from a molecular simulation since they define many technologically relevant collective pr…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometric Blow-Up Criteria for Viscoelastic Flows: Oldroyd-B and FENE-P Models",
-      "url": "https://arxiv.org/abs/2606.25258",
-      "summary": "arXiv:2606.25258v1 Announce Type: cross Abstract: This paper proves geometric continuation criteria for two-dimensional stress-diffusion-free Oldroyd--B and FENE-P flows. In both models the conformation tensor is transpo…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rapid and robust laser-frequency auto-locking using Bayesian-optimization and discrete-wavelet-transformation algorithms",
-      "url": "https://arxiv.org/abs/2606.25267",
-      "summary": "arXiv:2606.25267v1 Announce Type: cross Abstract: Rapid and robust laser-frequency auto-locking is essential for the field deployment of quantum communications, quantum computing, and precision-measurement technologies; …",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Competitive satellite placement and the geography of orbital risk: evidence from the geostationary arc",
-      "url": "https://arxiv.org/abs/2606.25283",
-      "summary": "arXiv:2606.25283v1 Announce Type: cross Abstract: Some orbital locations are crowded while others remain unoccupied. We explain why using the geostationary orbit as a near-ideal laboratory: a mature, one-dimensional orbi…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sharp Residual-Work Criteria for Positive-Cone Oldroyd-B and FENE-P Reynolds States",
-      "url": "https://arxiv.org/abs/2606.25309",
-      "summary": "arXiv:2606.25309v1 Announce Type: cross Abstract: We prove sharp residual-work criteria for entropy-admissible Reynolds states in viscoelastic models whose elastic variables are constrained by a positive cone or by a fin…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Informed Neural Networks for the Time-Domain Maxwell Equations with Split-Field Perfectly Matched Layers",
-      "url": "https://arxiv.org/abs/2606.25323",
-      "summary": "arXiv:2606.25323v1 Announce Type: cross Abstract: Physics informed neural networks (PINNs) incorporate Maxwell's equations, initial conditions, boundary conditions, and measurement data directly into the learning process…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum tomography of free electrons",
-      "url": "https://arxiv.org/abs/2606.25397",
-      "summary": "arXiv:2606.25397v1 Announce Type: cross Abstract: Determining the quantum state of a given quantum-mechanical system is a fundamental task in physics. Quantum-state tomography has been pivotal for establishing quantum op…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-Dimensional Positive-Cone Oldroyd-B Flows:Geometric Continuation and Residual-Work Criteria",
-      "url": "https://arxiv.org/abs/2606.25438",
-      "summary": "arXiv:2606.25438v1 Announce Type: cross Abstract: We prove a three-dimensional positive-cone continuation criterion for the stress-diffusion-free Oldroyd-B system on the periodic torus. Writing the positive conformation …",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Differentiable DFT-Based Framework for Inverse Materials Design",
-      "url": "https://arxiv.org/abs/2606.25502",
-      "summary": "arXiv:2606.25502v1 Announce Type: cross Abstract: Discovering solid-state materials with target properties remains a central challenge in computational materials science. Existing approaches -- high-throughput screening,…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Preparing two-mode magnonic Schr\\\"odinger cat states in a cavity-magnon-qubit system",
-      "url": "https://arxiv.org/abs/2606.25511",
-      "summary": "arXiv:2606.25511v1 Announce Type: cross Abstract: The cavity-magnon-qubit system has recently been demonstrated as a new platform for preparing macroscopic quantum states in magnonic systems. Here, we propose to prepare …",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A topology-tuned pressure valve across the isoreticular RHO zeolite family",
-      "url": "https://arxiv.org/abs/2606.25557",
-      "summary": "arXiv:2606.25557v1 Announce Type: cross Abstract: The isoreticular index of the eight-member embedded RHO zeolite hierarchy operates as a phenomenological design knob that tunes the mechanical critical pressure of the fr…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-dimensional Hyperbolic RNN Neural Quantum State",
-      "url": "https://arxiv.org/abs/2606.25600",
-      "summary": "arXiv:2606.25600v1 Announce Type: cross Abstract: In the first part of this work, we construct the first type of two-dimensional (2D) hyperbolic neural quantum state (NQS) in the form of the Lorentz 2DRNN (Recurrent Neur…",
       "ts": 1782360000000
     }
   ],

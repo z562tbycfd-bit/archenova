@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-06-25T10:45:33.113Z",
+  "updated": "2026-06-25T13:21:51.289Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about weight loss drug spending, launch prices for medicines, and much more",
+      "url": "https://www.statnews.com/pharmalot/2026/06/25/weight-loss-drug-spending-launch-prices-for-medicines/?utm_campaign=rss",
+      "summary": "The latest pharmaceutical news from the Pharmalot campus via the Pharmalittle newsletter",
+      "ts": 1782392587000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
+      "summary": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls …",
+      "ts": 1782392434000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Europe’s heat wave hits the grid, and IBM’s chip targets Moore’s Law",
+      "url": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Europe’s extreme heat is shutting down power plants Europe is in the middle of a r…",
+      "ts": 1782389400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "InduPro Licenses Lonza’s Linker Payload Technologies and Bioconjugation Platforms",
+      "url": "https://www.genengnews.com/topics/cancer/indupro-licenses-lonzas-linker-payload-technologies-and-bioconjugation-platforms/",
+      "summary": "Lonza and InduPro signed the licensing agreement to develop differentiated therapeutic approaches designed to address complex diseases such as cancer, where precision targeting and efficacy remain critically important. T…",
+      "ts": 1782388811000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA gives generative AI in radiology two breakthrough designation nods",
+      "url": "https://www.statnews.com/2026/06/25/radiology-generative-ai-cognita-aidoc-fda-breakthrough-designation/?utm_campaign=rss",
+      "summary": "FDA has granted breakthrough designation to two devices that use generative AI to interpret chest X-rays and draft the radiology reports.",
+      "ts": 1782388800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Another roadblock for DOJ campaign against trans health",
+      "url": "https://www.statnews.com/2026/06/25/health-news-another-roadblock-for-doj-campaign-against-trans-health/?utm_campaign=rss",
+      "summary": "New bill proposes expanding methadone access, $5.7 trillion on U.S. health care, and more health news from Morning Rounds",
+      "ts": 1782388120000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "House Appropriations Committee approves $55.5 billion for U.S. Space Force",
+      "url": "https://spacenews.com/house-appropriations-committee-approves-55-5-billion-for-u-s-space-force/",
+      "summary": "Committee urges more competition in satellite communications and criticizes reliance on reconciliation to fund Golden Dome The post House Appropriations Committee approves $55.5 billion for U.S. Space Force appeared firs…",
+      "ts": 1782386260000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Canceled NASA exploration projects suffered billions of dollars in overruns",
+      "url": "https://spacenews.com/canceled-nasa-exploration-projects-suffered-billions-of-dollars-in-overruns/",
+      "summary": "Four NASA exploration projects that the agency stopped earlier this year had suffered overruns that saw their costs more than double, with more than $1 billion in additional increases expected. The post Canceled NASA exp…",
+      "ts": 1782385367000,
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "What Europe’s heat wave means for the power grid",
@@ -249,6 +313,30 @@
       "summary": "NASA has revealed two new “super-puff” planets, giant worlds so light that their density is comparable to cotton candy. Scientists calculate that these Jupiter-sized planets are the “puffiest” worlds ever found.",
       "ts": 1782349456000,
       "categoryId": "space"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "A coloured radiative cooling coating with high solar reflectance",
+      "url": "https://www.nature.com/articles/s41560-026-02085-8",
+      "summary": "",
+      "ts": 1782345600000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "A cascade hole-transfer strategy towards stable hybrid perovskite solar cells",
+      "url": "https://www.nature.com/articles/s41560-026-02088-5",
+      "summary": "",
+      "ts": 1782345600000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Batteries versus fuel cells for decarbonizing medium- and heavy-duty vehicles across applications",
+      "url": "https://www.nature.com/articles/s41560-026-02095-6",
+      "summary": "",
+      "ts": 1782345600000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "Genetic Engineering News",
@@ -499,6 +587,14 @@
       "categoryId": "space"
     },
     {
+      "source": "IAEA News",
+      "title": "Morocco Expands Health Cooperation with IAEA through New Practical Arrangement",
+      "url": "http://www.iaea.org/newscenter/news/morocco-expands-health-cooperation-with-iaea-through-new-practical-arrangement",
+      "summary": "IAEA and Morocco’s Mohammed VI Foundation of Health Sciences strengthen cooperation in cancer care, medical training and radiation medicine research.",
+      "ts": 1782305400000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "SpaceNews",
       "title": "Vantor selects BAE Systems to build next-generation imaging satellites",
       "url": "https://spacenews.com/vantor-selects-bae-systems-to-build-next-generation-imaging-satellites/",
@@ -625,102 +721,6 @@
       "summary": "SpaceX launched the first test flight of its Starfall reentry capsule June 23, but the mission remained as secretive as the program itself. The post SpaceX launches secretive Starfall reentry demo mission appeared first …",
       "ts": 1782301199000,
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Ophthalmology venture grabs investors’ attention, raises $330 million ",
-      "url": "https://www.statnews.com/2026/06/24/ophthalmology-biotech-ollin-biosciences/?utm_campaign=rss",
-      "summary": "A startup developing treatments for eye diseases has raised $330 million from investors as it readies for late-stage testing.",
-      "ts": 1782298800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Barbados Signs its First Country Programme Framework (CPF) for 2026–2031",
-      "url": "http://www.iaea.org/newscenter/news/barbados-signs-its-first-country-programme-framework-cpf-for-2026-2031",
-      "summary": "HE Matthew Anthony Wilson, Ambassador and Permanent Representative of Barbados to the United Nations, WTO and other International Organisations in Geneva, and Mr Hua Liu, IAEA Deputy Director General and Head of the Depa…",
-      "ts": 1782297023000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "California Still Golden Despite Job Losses: Industry Group",
-      "url": "https://www.genengnews.com/topics/translational-medicine/california-still-golden-despite-job-losses-industry-group/",
-      "summary": "BIOCOM California quantified the economic impact of the Golden State’s life sciences industry as generating $394 billion in economic output in 2025—a figure that goes beyond the direct impact of the 406,505 people employ…",
-      "ts": 1782296313000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA’s Euclid captures the Milky Way’s crowded heart ",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/ESA_s_Euclid_captures_the_Milky_Way_s_crowded_heart",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/euclid_s_view_of_our_galaxy_s_bulge_16_9_cutout/27320856-1-eng-GB/Euclid_s_view_of_our_galaxy_s_bulge_16_9_cutout_card_full.jpg\" alt=\"Euc…",
-      "ts": 1782295200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NGSO trade association launches without industry giant SpaceX",
-      "url": "https://spacenews.com/ngso-trade-association-launches-without-industry-giant-spacex/",
-      "summary": "Amazon and several other non-geostationary satellite operators have formed a trade association to represent their fast-growing market, with SpaceX notably absent despite having by far the largest NGSO constellation. The …",
-      "ts": 1782295200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "This flying solar-powered platform could deliver better internet from the air",
-      "url": "https://www.technologyreview.com/2026/06/24/1138771/solar-powered-platform-delivers-better-internet/",
-      "summary": "As soon as August, a giant silver bullet will cut its way through the dry air of the southwestern US and cross the Pacific to reach the coast of Japan. Once there, the roughly 200-foot-long craft, built by the New Mexico…",
-      "ts": 1782291600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "All challenges big and small",
-      "url": "https://www.technologyreview.com/2026/06/24/1138853/editors-letter-july-2026/",
-      "summary": "When I was 18, I skipped my high school graduation and headed to Kuwait. It was 1991, the first Gulf War had just ended, and the country was in complete chaos. There was little to no electricity, aside from generator pow…",
-      "ts": 1782291600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: How I used public radio to recruit 20,000 participants for a peer-reviewed study on walking breaks",
-      "url": "https://www.statnews.com/2026/06/24/short-walking-breaks-sitting-health-research/?utm_campaign=rss",
-      "summary": "“With the right structure, Americans will roll up their sleeves, do the science, and trust the result,” Manoush Zomorodi writes.",
-      "ts": 1782289800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: New human embryo editing advances require tough conversations on ethical boundaries",
-      "url": "https://www.statnews.com/2026/06/24/embryo-editing-dieter-egli-ethical-boundaries-moratorium/?utm_campaign=rss",
-      "summary": "Scientists can’t ignore the ethical complexities of new embryo editing advances.",
-      "ts": 1782289800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What an abandoned heart failure trial says about ‘breakthrough’ devices that don’t reach patients",
-      "url": "https://www.statnews.com/2026/06/24/fda-breakthrough-devices-what-we-learned-livanova-vitaria-results/?utm_campaign=rss",
-      "summary": "An abandoned heart-failure trial offers a rare window into devices that the FDA deems \"breakthrough\" but never reach patients.",
-      "ts": 1782289800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Director General Joins International Experts Sampling Seawater Near Fukushima",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-director-general-joins-international-experts-sampling-seawater-near-fukushima",
-      "summary": "",
-      "ts": 1782286067000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "ts": 1782280800000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
