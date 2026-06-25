@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-06-25T07:48:28.732Z",
+  "updated": "2026-06-25T10:45:33.113Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "What Europe’s heat wave means for the power grid",
+      "url": "https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/",
+      "summary": "It’s been hard to look away from headlines about the European heat wave this week. Temperatures are breaking records across the continent, and the weather is threatening lives, shutting down schools, and in one particula…",
+      "ts": 1782381600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "IBM has unveiled chip technology that could help extend Moore’s Law another decade",
+      "url": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
+      "summary": "IBM has built a new prototype chip with around 100 billion transistors on an area the size of a fingernail, which is twice the density of the company’s previous state-of-the-art technology announced in 2021. The design c…",
+      "ts": 1782381600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "China schedules Long March 10B rocket launch and recovery attempt",
+      "url": "https://spacenews.com/china-schedules-long-march-10b-rocket-launch-and-recovery-attempt/",
+      "summary": "HELSINKI — China is set for a debut flight of its Long March 10B rocket in July and attempt to recover the first stage at sea. Recently issued airspace and […] The post China schedules Long March 10B rocket launch and re…",
+      "ts": 1782381575000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Facing a brutal run, battered vaccine makers still see cause for hope ",
+      "url": "https://www.statnews.com/2026/06/25/vaccine-industry-dark-period-causes-for-hope/?utm_campaign=rss",
+      "summary": "It's an unusual time to be in the vaccine business. But in the view of those gathered at the BIO conference this week, it’s not altogether a bleak one.",
+      "ts": 1782376200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: My adult daughter has Down syndrome. Her life is entirely different from what experts expected",
+      "url": "https://www.statnews.com/2026/06/25/prenatal-down-syndrome-diagnosis-screening-life-expectancy-health-facts/?utm_campaign=rss",
+      "summary": "“Women are fully capable of making difficult decisions, but meaningful choice requires trusted, vetted information,” writes Michelle Sie Whitten of the Global Down Syndrome Foundation.",
+      "ts": 1782376200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Bipartisan bill seeks to allow direct prescribing of methadone for opioid addiction",
+      "url": "https://www.statnews.com/2026/06/25/bipartisan-bill-methadone-prescription-pharmacy-pickup/?utm_campaign=rss",
+      "summary": "Methadone for opioid addiction has been available only at specialty clinics. A bipartisan bill would greatly expand access.",
+      "ts": 1782376200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Biosecure didn’t stop China’s rise in biotech. Some lawmakers want to do more",
+      "url": "https://www.statnews.com/2026/06/25/china-biotech-next-steps-after-biosecure-act/?utm_campaign=rss",
+      "summary": "They're laying the groundwork for legislation and regulation to counter Chinese biopharma companies.",
+      "ts": 1782376200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How a 1976 murder case changed doctor-patient confidentiality",
+      "url": "https://www.statnews.com/2026/06/25/tarasoff-50th-anniversary-murder-doctor-patient-confidentiality/?utm_campaign=rss",
+      "summary": "The Tarasoff case remains a pivotal marker in bioethics at the bicentennial as we now reach the country’s 250th birthday.",
+      "ts": 1782376200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "European Flight Ticket Initiative opens to more launch service providers",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/European_Flight_Ticket_Initiative_opens_to_more_launch_service_providers",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2025/08/flight_ticket_initiative/26849504-2-eng-GB/Flight_Ticket_Initiative_card_full.jpg\" alt=\"Flight Ticket Initiative\">",
+      "ts": 1782375360000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Smile reaches science orbit",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Smile_reaches_science_orbit",
+      "summary": "Image: Smile reaches science orbit",
+      "ts": 1782374400000,
+      "categoryId": "space"
+    },
     {
       "source": "ESA",
       "title": "A first: EarthCARE cloud data sharpen weather forecasts",
@@ -153,6 +233,14 @@
       "summary": "arXiv:2602.06020v3 Announce Type: replace-cross Abstract: How do protein structure prediction models fold proteins? We investigate this question through causal interventions on the folding trunks of ESMFold, OpenFold, an…",
       "ts": 1782360000000,
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "ts": 1782352800000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -633,94 +721,6 @@
       "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
       "ts": 1782280800000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 4927–4933: Let’s Drive to That Smooth Area",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4927-4933-lets-drive-to-that-smooth-area/",
-      "summary": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Thursday, June 18, 2026 In the area Curiosity is currently exploring, the science team has mapped several areas w…",
-      "ts": 1782275677000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Playing the Moon Game ",
-      "url": "https://science.nasa.gov/earth/earth-observatory/playing-the-moon-game/",
-      "summary": "Apollo astronauts previewed their roles as lunar field geologists in Alaska’s Valley of Ten Thousand Smokes.",
-      "ts": 1782273660000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Germination capacity of pistachio (Pistacia vera L.) seeds related to genotypic variation and phytochemical contents",
-      "url": "https://arxiv.org/abs/2606.23733",
-      "summary": "arXiv:2606.23733v1 Announce Type: new Abstract: Genetic diversity and phytochemical components are the endogenous factors that influence seed germination. The current study aimed to compare the seed germination capacity …",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Performance and Interpretability of Convolutional, Transformer, and Hybrid Deep Learning Models in Colorectal Histology Classification",
-      "url": "https://arxiv.org/abs/2606.23744",
-      "summary": "arXiv:2606.23744v1 Announce Type: new Abstract: Deep learning has become an important tool in computational pathology, enabling automated analysis of histopathological images. While convolutional neural networks (CNNs) h…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "JEDEL: Zero-Shot DNA-Encoded Library Design for Early-Stage Drug Discovery",
-      "url": "https://arxiv.org/abs/2606.23745",
-      "summary": "arXiv:2606.23745v1 Announce Type: new Abstract: We present JEDEL, a framework for generating synthesis-ready DNA-encoded libraries (DELs) directly from three-dimensional pharmacophore representations of active ligands. J…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Identifying structural design principles shaping the computational abilities of recurrent neural networks",
-      "url": "https://arxiv.org/abs/2606.23874",
-      "summary": "arXiv:2606.23874v1 Announce Type: new Abstract: Understanding how the architecture of neural networks shapes the computations they carry is a central challenge in neuroscience and machine learning. While specific circuit…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mutant Fixation for a Stochastic Evolutionary Model in Fragmented Populations",
-      "url": "https://arxiv.org/abs/2606.23946",
-      "summary": "arXiv:2606.23946v1 Announce Type: new Abstract: Population fragmentation is a common feature of many biological systems. Understanding mutant fixation in such systems is challenging because the underlying stochastic dyna…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Morality Game: An online multiplayer platform to standardize, expedite, and expand research on cooperation",
-      "url": "https://arxiv.org/abs/2606.24037",
-      "summary": "arXiv:2606.24037v1 Announce Type: new Abstract: This paper presents the Morality Game, a platform designed to standardize and accelerate research on cooperation and morality through game theory-based experiments. The Mor…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hierarchical models for large chemical reaction networks",
-      "url": "https://arxiv.org/abs/2606.24246",
-      "summary": "arXiv:2606.24246v1 Announce Type: new Abstract: The quest for the origin of life, especially in the metabolism-first scenario inspired by the celebrated Miller-Urey experiment, has triggered a research program dedicated …",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Graph-based analysis of inflammatory profiles in New Onset Refractory Status Epilepticus (NORSE)",
-      "url": "https://arxiv.org/abs/2606.24351",
-      "summary": "arXiv:2606.24351v1 Announce Type: new Abstract: Background and Objectives: Cryptogenic new-onset refractory status epilepticus (cNORSE) represents one of the most severe forms of status epilepticus, occurring in patients…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Machine learning-based modeling to predict inhibitors for targets of Alzheimer's Disease",
-      "url": "https://arxiv.org/abs/2606.24372",
-      "summary": "arXiv:2606.24372v1 Announce Type: new Abstract: Alzheimer's Disease is a chronic neurodegenerative disorder projected to affect 115 million people by 2050, driven by mechanisms like the cholinergic and amyloid hypotheses…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

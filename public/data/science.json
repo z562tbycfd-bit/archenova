@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-06-25T07:48:15.752Z",
+  "updated": "2026-06-25T10:45:28.521Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Quantum waves reveal one-sided motion marking elusive critical states",
+      "url": "https://phys.org/news/2026-06-quantum-reveal-sided-motion-elusive.html",
+      "summary": "Sound waves, light waves and other types of waves, generally spread freely through space and over time. In 1958, physicist Philip W. Anderson first described a phenomenon via which irregularities or other sources of diso…",
+      "ts": 1782384001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Self-propelled actin filaments may explain how cells change shape spontaneously",
+      "url": "https://phys.org/news/2026-06-propelled-actin-filaments-cells-spontaneously.html",
+      "summary": "Cells can spontaneously change shape even without external signals, but the underlying mechanisms behind this form of self-organization have remained unclear. Now, researchers from Japan have discovered self-propelled tr…",
+      "ts": 1782378003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Space shuttle ready for new mission in California",
+      "url": "https://phys.org/news/2026-06-space-shuttle-ready-mission-california.html",
+      "summary": "The space shuttle Endeavour, which took astronauts into orbit 25 times, went on display at the California Science Center on its final mission Wednesday.",
+      "ts": 1782377401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia's under-16 social media ban shows little early effect on teen use: Research",
+      "url": "https://phys.org/news/2026-06-australia-social-media-early-effect.html",
+      "summary": "Australia's social media ban for under-16s has had little impact on teenagers' scrolling habits, researchers said Thursday in one of the first evaluations of the world-leading measures.",
+      "ts": 1782375636000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Secret cameras, mics and AI reveal rare Cambodia wildlife",
+      "url": "https://phys.org/news/2026-06-secret-cameras-mics-ai-reveal.html",
+      "summary": "Above the patter of rain cascading through the jungle canopy comes the haunting call of a pileated gibbon singing to fend off intruders in Cambodia's Cardamom Mountains.",
+      "ts": 1782375512000
+    },
     {
       "source": "Phys.org",
       "title": "Shorter front-leg strides can be an early warning sign of dementia in senior dogs",
@@ -665,41 +700,6 @@
       "title": "Two-dimensional Hyperbolic RNN Neural Quantum State",
       "url": "https://arxiv.org/abs/2606.25600",
       "summary": "arXiv:2606.25600v1 Announce Type: cross Abstract: In the first part of this work, we construct the first type of two-dimensional (2D) hyperbolic neural quantum state (NQS) in the form of the Lorentz 2DRNN (Recurrent Neur…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards Robust Optimal Measurements Against Noise in Quantum Metrology",
-      "url": "https://arxiv.org/abs/2606.25638",
-      "summary": "arXiv:2606.25638v1 Announce Type: cross Abstract: Quantum parameter estimation utilizes quantum mechanical effects to attain higher measurement precision than classical schemes. In practical implementations, however, noi…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Detectability in Invisibility Cloaks",
-      "url": "https://arxiv.org/abs/2606.25666",
-      "summary": "arXiv:2606.25666v1 Announce Type: cross Abstract: Classical invisibility cloaks are designed to suppress selected scattering signatures and thereby make an object appear absent to external electromagnetic probes. However…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rate Programmable Ionic-Redox Switching with Tunable Volatility in CuCrP2S6",
-      "url": "https://arxiv.org/abs/2606.25679",
-      "summary": "arXiv:2606.25679v1 Announce Type: cross Abstract: Metal thiophosphates are emerging as a multifunctional material platform for neuromorphic electronics due to their accessible polar phases and ion dynamics on biologicall…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-Organized Stabilization of Straight Dark Solitons in Stripe Supersolids",
-      "url": "https://arxiv.org/abs/2606.25687",
-      "summary": "arXiv:2606.25687v1 Announce Type: cross Abstract: Straight dark solitons in two-dimensional (2D) quantum fluids usually decay by transverse modulational instability, with no intrinsic suppression in contact-interacting B…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gradient-based inverse lithography for EUV masks via the waveguide method and a physics-informed neural operator",
-      "url": "https://arxiv.org/abs/2606.25753",
-      "summary": "arXiv:2606.25753v1 Announce Type: cross Abstract: Gradient-based inverse lithography technology~(ILT) for extreme ultraviolet~(EUV) masks is presented. A novel framework treats the differentiable waveguide method and the…",
       "ts": 1782360000000
     }
   ],
