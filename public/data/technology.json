@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-06-25T19:07:24.021Z",
+  "updated": "2026-06-25T21:46:22.557Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Antibiotics Trigger Protein Sharing Among Bacteria, Aiding Persister Cells",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/antibiotics-trigger-protein-sharing-among-bacteria-aiding-persister-cells/",
+      "summary": "Using a genetic system in E. coli, researchers discovered how bacteria work as a team to survive antibiotics, with donor cells exporting and sharing vesicle-bound proteins with populations of less active persister cells.…",
+      "ts": 1782423358000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, US Small Business Administration to Announce Partnership",
+      "url": "https://www.nasa.gov/news-release/nasa-us-small-business-administration-to-announce-partnership/",
+      "summary": "NASA and the U.S. Small Business Administration will sign a memorandum of agreement during a ceremony at 1 p.m. EDT, Monday, June 29, at NASA Headquarters in Washington. The agreement will create a new interagency initia…",
+      "ts": 1782421838000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes Botswana as 68th Artemis Accords Signatory  ",
+      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-botswana-as-68th-artemis-accords-signatory/",
+      "summary": "The Republic of Botswana signed the Artemis Accords Thursday during a ceremony hosted by NASA at the agency’s headquarters in Washington, becoming the sixth African nation to join a growing community of nations committed…",
+      "ts": 1782421782000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Botswana signs the Artemis Accords",
+      "url": "https://spacenews.com/botswana-signs-the-artemis-accords/",
+      "summary": "The African nation of Botswana is the latest country to sign the Artemis Accords outlining best practices for space exploration. The post Botswana signs the Artemis Accords appeared first on SpaceNews.",
+      "ts": 1782420012000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "New ACIP charter broadens criteria for members, calls for review of alternatives to vaccines",
+      "url": "https://www.statnews.com/2026/06/25/acip-charter-responsibilities-rfk-jr/?utm_campaign=rss",
+      "summary": "A new charter for the panel that advises the CDC on vaccine use substantially refocuses the responsibilities of the committee, downplaying its role in recommending the use of new vaccines.",
+      "ts": 1782418540000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Selects Rocket Lab to Launch Sun, Earth Science Missions",
+      "url": "https://www.nasa.gov/missions/tsis-2/nasa-selects-rocket-lab-to-launch-sun-earth-science-missions/",
+      "summary": "NASA has selected Rocket Lab to provide the launch service for both the agency’s PolSIR (Polarized Submillimeter Ice-cloud Radiometer) and Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) missions. The two selection…",
+      "ts": 1782418000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: At BIO 2026, industry wrestled with Washington politics, and making AI work better",
+      "url": "https://www.statnews.com/2026/06/25/bio-2026-biotech-conference-san-diego-key-takeaways/?utm_campaign=rss",
+      "summary": "Biotech executives reveal concerns over Chinese biotech, the profitability of AI, and the durability of Trump's drug price moves.",
+      "ts": 1782415166000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Merck KGaA to Acquire Bio-Techne for $11.3B, Expanding Life Science Tools Presence",
+      "url": "https://www.genengnews.com/topics/bioprocessing/merck-kgaa-to-acquire-bio-techne-for-11-3b-expanding-life-science-tools-presence/",
+      "summary": "The deal would add Bio-Techne’s multiomics offerings, analytical technologies, and integrated workflow solutions to German Merck’s platforms and services in research, bioprocessing and advanced therapeutics, with the aim…",
+      "ts": 1782414755000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "BIO 2026: FDA Leadership Confront Workforce Losses, China Competition in Drug Development",
@@ -153,6 +217,62 @@
       "summary": "FDA has granted breakthrough designation to two devices that use generative AI to interpret chest X-rays and draft the radiology reports.",
       "ts": 1782388800000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Middle East: From Lebanon to the Strait of Hormuz, a region hangs on fragile peace talks",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167811",
+      "summary": "Since Tuesday, United Nations peacekeepers have detected no airstrikes or new missile fire in southern Lebanon. The lull remains fragile, however, as Israeli drones continue to fly over the area and military operations c…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN envoy warns of growing risks in El Obeid as Sudan conflict drags on",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167810",
+      "summary": "The United Nations Secretary-General’s Personal Envoy for Sudan voiced alarm on Wednesday over escalating violence in and around the city of El Obeid, warning that further military escalation could put thousands of civil…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "LIVE: From conflict to stability, how the UN is supporting peacebuilding around the world",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167800",
+      "summary": "As wars persist in different parts of the world, it’s perhaps easy to lose sight of the many countries that have managed to recover from past violence, sustain peace and prevent conflict. The UN Peacebuilding Fund, which…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Thousands trapped in southern Ukraine struggle to survive",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167809",
+      "summary": "Thousands of civilians trapped in frontline communities in southern Ukraine are facing a deepening humanitarian crisis as access to food, medical care and evacuation routes continues to shrink, the UN Human Rights Monito…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Europe heatwave breaks records as UN agencies ramp up health warnings",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167808",
+      "summary": "As a record-breaking heatwave grips large parts of Europe, the World Meteorological Organization (WMO), national weather services and partners are mobilising heat-health action plans for millions of people facing dangero…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela earthquakes LIVE: UN rapidly deploys aid and rescue teams",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167806",
+      "summary": "Two deadly earthquakes struck Venezuela less than a minute apart on Wednesday, with magnitudes of 7.2 and 7.5, causing at least 164 deaths and widespread destruction in and around the capital, Caracas as international as…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela quake disaster: UN urges collective effort to help victims",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167805",
+      "summary": "UN teams scrambled on Thursday in support of the international response to the devastating double earthquake disaster in Venezuela, where buildings lie flattened and people are likely still trapped in the capital, Caraca…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -600,126 +720,6 @@
       "url": "https://science.nasa.gov/photojournal/nasas-hirise-captures-perseverance-marking-a-milestone-on-mars/",
       "summary": "Description NASA’s Perseverance rover appears as a green speck on the Martian surface on June 13, 2026, a day before the robotic explorer marked a distance milestone, having traveled a full marathon (26.2 miles, or 42.19…",
       "ts": 1782327328000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Euclid View of Milky Way Heart Previews Core Survey by NASA’s Roman",
-      "url": "https://www.nasa.gov/missions/roman-space-telescope/euclid-view-of-milky-way-heart-previews-core-survey-by-nasas-roman/",
-      "summary": "A new look at the heart of our Milky Way galaxy by Euclid, an ESA (European Space Agency) mission with NASA contributions, overlaps with a region scientists will observe with NASA’s Nancy Grace Roman Space Telescope, lau…",
-      "ts": 1782326505000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Judge temporarily blocks subpoenas in criminal probe of transgender care at New York hospitals",
-      "url": "https://www.statnews.com/2026/06/24/judge-blocks-subpoena-probe-transgender-care-new-york-hospitals/?utm_campaign=rss",
-      "summary": "A judge temporarily blocked federal prosecutors in Texas from getting access to the medical records of transgender patients treated at New York hospitals on Wednesday.",
-      "ts": 1782322475000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Clinical trial set to test two drugs for fast-growing Ebola outbreak",
-      "url": "https://www.statnews.com/2026/06/24/ebola-treatment-trials-gilead-remdesivir-mappbio-mbp-134/?utm_campaign=rss",
-      "summary": "A clinical trial testing two drugs against the Bundibugyo ebolavirus, which is driving a fast-moving outbreak in Central Africa, is set to begin next week, WHO officials said.",
-      "ts": 1782318740000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Novel Feeder Cell Line Dramatically Expands NK Cell Production",
-      "url": "https://www.genengnews.com/topics/bioprocessing/new-feeder-cell-line-dramatically-expands-nk-cell-production/",
-      "summary": "A new feeder cell line multiplies NK cells by more than 100,000-fold in one month, making it easier to produce these therapeutic cells at commercial quantities and thus develop off-the-shelf cancer immunotherapies. The p…",
-      "ts": 1782316850000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Recoded E. coli Promises More Scalable Weight Loss Drug Production",
-      "url": "https://www.genengnews.com/topics/bioprocessing/recoded-e-coli-promises-more-scalable-weight-loss-drug-production/",
-      "summary": "Manufacturing weight loss drugs at high volume at lower cost with less wastage could get easier thanks to a recoded E.coli strain that can produce long peptide chains containing non-natural chemistries. The post Recoded …",
-      "ts": 1782316831000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Scaling Stem-Cell Manufacturing for Therapies",
-      "url": "https://www.genengnews.com/topics/bioprocessing/scaling-stem-cell-manufacturing-for-therapies/",
-      "summary": "As more than 100 clinical trials test human pluripotent stem cell-derived therapies, researchers are shifting focus from proving large-scale production is possible to building standardized, AI-enabled manufacturing syste…",
-      "ts": 1782316811000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "WHO Selects NIBRT as Training Hub to Help LMICs Build Biopharma Capacity",
-      "url": "https://www.genengnews.com/topics/bioprocessing/who-selects-nibrt-as-training-hub-to-help-lmics-build-biopharma-capacity/",
-      "summary": "The WHO has selected Ireland’s NIBRT as its European hub for engineering education. The aim is to give production staff skills in automation, AI, and other advanced techniques so they can build local manufacturing capaci…",
-      "ts": 1782316806000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Europe’s extreme heat is shutting down power plants",
-      "url": "https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/",
-      "summary": "Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits as people turn to fans and air-conditioning to try to stay cool. Some power plants won’t be online to help handle the loa…",
-      "ts": 1782314728000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A dispatch on AI from BIOtech’s big summer bash",
-      "url": "https://www.statnews.com/2026/06/24/dispatch-from-bio-biotech-big-summer-bash-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of STAT's AI Prognosis: Brittany Trang brings the latest from BIO on how biotech companies are approaching artificial intelligence.",
-      "ts": 1782314480000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AI wades into a vexing medical mystery: What causes sudden cardiac death?",
-      "url": "https://www.statnews.com/2026/06/24/artificial-intelligence-model-cause-of-sudden-cardiac-death/?utm_campaign=rss",
-      "summary": "A new study published in Nature uses artificial intelligence to identify people at high risk for sudden cardiac death, and pinpoints a possible reason.",
-      "ts": 1782313275000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: At BIO, a glimpse behind Lilly and Chai’s partnership",
-      "url": "https://www.statnews.com/2026/06/24/biotech-news-bio-2026-glimpse-behind-lilly-and-chai-partnership/?utm_campaign=rss",
-      "summary": "RIP Sangamo, onshoring with drug manufacturing, and more biotech news from The Readout",
-      "ts": 1782310469000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Medra Launches Reasoning Layer for Drug Discovery Robotics",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/medra-launches-reasoning-layer-for-drug-discovery-robotics/",
-      "summary": "The physical AI system, named AI Experimentalist, translates research goals from natural language into executable workflows that span the entire experimental cycle, from literature review, wet-lab execution, data analysi…",
-      "ts": 1782308965000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Spotlight on RNA Therapeutics",
-      "url": "https://www.genengnews.com/multimedia/summits/spotlight-on-rna-therapeutics/",
-      "summary": "This GEN Spotlight on RNA Therapeutics brings you three interlinked sessions that feature outstanding researchers exploring various aspects of RNA biology and therapeutics. The post Spotlight on RNA Therapeutics appeared…",
-      "ts": 1782308532000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Vast signs additional partners for commercial space station microgravity research",
-      "url": "https://spacenews.com/vast-signs-additional-partners-for-commercial-space-station-microgravity-research/",
-      "summary": "Commercial space station company Vast announced June 24 the addition of several companies and organizations to its network of partners for microgravity research and manufacturing. The post Vast signs additional partners …",
-      "ts": 1782308527000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Career Spotlight: Electrician (Ages 14-18)",
-      "url": "https://www.nasa.gov/learning-resources/career-spotlight-electrician-ages-14-18/",
-      "summary": "What does an electrician do? Electricity powers the world, and electricians are the ones who get it where it needs to go. An electrician is an expert who is trained to make sure electrical systems and equipment are insta…",
-      "ts": 1782308261000,
       "categoryId": "space"
     }
   ],
