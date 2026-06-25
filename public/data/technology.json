@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-24T23:06:36.944Z",
+  "updated": "2026-06-25T03:51:48.621Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA’s TESS Mission Reveals the “Puffiest” Planets Ever Found",
+      "url": "https://science.nasa.gov/missions/tess/nasas-tess-mission-reveals-the-puffiest-planets-ever-found/",
+      "summary": "NASA has revealed two new “super-puff” planets, giant worlds so light that their density is comparable to cotton candy. Scientists calculate that these Jupiter-sized planets are the “puffiest” worlds ever found.",
+      "ts": 1782349456000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Drug Targets LDL Receptor Pathway to Control Cholesterol",
@@ -711,14 +719,6 @@
       "title": "Genealogical processes of sequential Monte Carlo methods and other non-neutral population models under rapid mutation",
       "url": "https://arxiv.org/abs/2406.16465",
       "summary": "arXiv:2406.16465v3 Announce Type: replace-cross Abstract: We show that genealogical trees arising from a broad class of non-neutral models of population evolution converge to the Kingman coalescent under a suitable resca…",
-      "ts": 1782273600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CMADiff: Cross-Modal Aligned Diffusion for Controllable Protein Generation",
-      "url": "https://arxiv.org/abs/2503.21450",
-      "summary": "arXiv:2503.21450v4 Announce Type: replace-cross Abstract: AI-assisted protein design has emerged as a critical tool for advancing biotechnology, as deep generative models have demonstrated their reliability in this domai…",
       "ts": 1782273600000,
       "categoryId": "bio"
     }

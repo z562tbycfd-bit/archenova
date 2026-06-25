@@ -1,7 +1,112 @@
 {
   "ok": true,
-  "updated": "2026-06-24T23:06:33.764Z",
+  "updated": "2026-06-25T03:51:46.009Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Precious drops: Spray helps crop farmers facing declining rainfall",
+      "url": "https://phys.org/news/2026-06-precious-spray-crop-farmers-declining.html",
+      "summary": "A spray made from a biodegradable polymer capable of capturing and redirecting water to crop seeds could be the key to drought-proofing Western Australian farms.",
+      "ts": 1782357601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Designer proteins unlock near-infrared and SWIR glow for deeper tissue imaging",
+      "url": "https://phys.org/news/2026-06-proteins-infrared-swir-deeper-tissue.html",
+      "summary": "Researchers at the National Center for Tumor Diseases (NCT/UCC) in Dresden, including Oliver Bruns and Dr. Bernardo Arús, are participating in an international study that has, for the first time, developed novel proteins…",
+      "ts": 1782355201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient stories inform modern understanding of volcanic eruptions",
+      "url": "https://phys.org/news/2026-06-ancient-stories-modern-volcanic-eruptions.html",
+      "summary": "A new international study has found that Indigenous oral traditions, some thousands of years old, hold valuable and often overlooked insights into volcanic eruptions—offering important lessons for modern disaster prepare…",
+      "ts": 1782352801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Fingerprints' of black hole's event horizon detected for first time",
+      "url": "https://phys.org/news/2026-06-fingerprints-black-hole-event-horizon.html",
+      "summary": "Scientists have detected the \"fingerprints\" of a black hole's event horizon—the boundary from which nothing can escape—for the first time, according to research published Wednesday.",
+      "ts": 1782350401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Super-puff' planets lighter than candy floss discovered by international team",
+      "url": "https://phys.org/news/2026-06-super-puff-planets-lighter-candy.html",
+      "summary": "An international collaboration has discovered two of the lowest-density giant planets ever detected: rare \"super-puff\" planets with densities lower than candy floss. The study—led by the University of Oxford, in collabor…",
+      "ts": 1782349802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pesticide widespread in blood of French Indies adults: Study",
+      "url": "https://phys.org/news/2026-06-pesticide-widespread-blood-french-indies.html",
+      "summary": "Eight in 10 adults in the French West Indies have a toxic pesticide in their blood decades after banana growers stopped using it, a study said Wednesday.",
+      "ts": 1782346804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Did gravitational tides cause Earth's extinctions?",
+      "url": "https://phys.org/news/2026-06-gravitational-tides-earth-extinctions.html",
+      "summary": "Life on Earth took a long evolutionary journey that eventually created us, the purportedly intelligent species that dominates the planet. But there was no grand plan or design, only happenstance, nature and luck. Life on…",
+      "ts": 1782345601000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Interfacial epitaxy of single-crystalline Al<sub>2</sub>(MoO<sub>4</sub>)<sub>3</sub> flakes for anisotropic phonon polaritons",
+      "url": "https://www.nature.com/articles/s41467-026-74681-x",
+      "summary": "",
+      "ts": 1782345600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Magma convection favors ephemeral melt-rich bodies within mushy reservoirs",
+      "url": "https://www.nature.com/articles/s41467-026-74815-1",
+      "summary": "",
+      "ts": 1782345600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Solution-processed aqueous-insensitive transparent conductors for bio-optoelectronics",
+      "url": "https://www.nature.com/articles/s41467-026-74901-4",
+      "summary": "",
+      "ts": 1782345600000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laser experiments push helium to record shock pressures",
+      "url": "https://phys.org/news/2026-06-laser-helium-pressures.html",
+      "summary": "Deep inside gas giants like Jupiter and Saturn, hydrogen and helium coexist under pressures millions of times greater than Earth's atmosphere. Under those conditions, helium may separate from hydrogen and influence a pla…",
+      "ts": 1782345001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How longer exciton lifetimes could ease efficiency trade-off in organic solar cells",
+      "url": "https://phys.org/news/2026-06-longer-exciton-lifetimes-ease-efficiency.html",
+      "summary": "Although the efficiency of organic solar cells has now risen to more than 20%, there are physical limits that make it difficult to further increase their performance. A research team from Linköping University in Sweden, …",
+      "ts": 1782344405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mathematical modeling helps advance use of magnetic particles in targeted drug-delivery systems",
+      "url": "https://phys.org/news/2026-06-mathematical-advance-magnetic-particles-drug.html",
+      "summary": "A Florida State University computational scientist is paving the way for future medical breakthroughs by developing mathematical models and simulations to predict the behavior of a unique drug-delivery method, which aims…",
+      "ts": 1782343801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drifting tuna gear creates risks for wildlife in protected marine areas",
+      "url": "https://phys.org/news/2026-06-drifting-tuna-gear-wildlife-marine.html",
+      "summary": "An international study co-authored by a University of Hawaiʻi at Mānoa researcher has found that drifting devices used by the global tuna fishing industry are entering marine protected areas around the world, creating po…",
+      "ts": 1782343201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Web archive lets you easily search millions of government documents",
+      "url": "https://phys.org/news/2026-06-web-archive-easily-millions-documents.html",
+      "summary": "At the end of every presidential term, the End of Term Web Archive preserves that administration's web presence as a vast trove of documents and webpages. The archive began in 2008, with George W. Bush's second term, and…",
+      "ts": 1782342604000
+    },
     {
       "source": "Phys.org",
       "title": "A magnetic field that kills superconductivity can also bring it back",
@@ -596,111 +701,6 @@
       "url": "https://phys.org/news/2026-06-oldest-tube-feet-reveals-clues.html",
       "summary": "Echinoderms, such as starfish, sea urchins and sea lilies, use small, flexible, tubular projections called \"tube feet\" for locomotion, feeding, respiration and sensory perception. Crinoids, a subgroup of echinoderms, are…",
       "ts": 1782297601000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Complexity-Theoretic Foundations of BosonSampling with a Linear Number of Modes",
-      "url": "http://link.aps.org/doi/10.1103/xc7b-sjm5",
-      "summary": "Author(s): Adam Bouland, Daniel Brod, Ishaun Datta, Bill Fefferman, Daniel Grier, Felipe Hernández, and Michał Oszmaniec Experimental demonstrations of quantum advantage in photonic systems operate in the “saturated regi…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Probing Quantum States over Spacetime through Interferometry",
-      "url": "http://link.aps.org/doi/10.1103/t6jg-z17r",
-      "summary": "Author(s): Seok Hyung Lie and Hyukjoon Kwon Establishing a notion of the quantum state that applies consistently across space and time could be a crucial step toward formulating a relativistic quantum theory. We give an …",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Trion Formation and Ordering in the Attractive SU(3) Fermi-Hubbard Model",
-      "url": "http://link.aps.org/doi/10.1103/vnbs-r69s",
-      "summary": "Author(s): Jonathan Stepp, Eduardo Ibarra-García-Padilla, Richard T. Scalettar, and Kaden R. A. Hazzard Recent advances in microwave shielding have increased the stability and control of large numbers of polar molecules,…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Black Hole Mergers Beyond General Relativity: A Self-Force Approach",
-      "url": "http://link.aps.org/doi/10.1103/7zjr-l5p8",
-      "summary": "Author(s): Ayush Roy, Lorenzo Küchler, Adam Pound, and Rodrigo Panosso Macedo A modular framework within the self-force formalism that applies to a large class of effective field theories of gravity in order to perform t…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Thermodynamics of Black Holes, Far from Equilibrium",
-      "url": "http://link.aps.org/doi/10.1103/3c1r-v8f1",
-      "summary": "Author(s): Abhay Ashtekar, Daniel E. Paraizo, and Jonathan Shu The first law of black hole mechanics has been extended to dynamical horizons so that the law applies to black holes arbitrarily far from equilibrium, a fund…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Nonperturbative $S$-Matrix Renormalization",
-      "url": "http://link.aps.org/doi/10.1103/jxcl-q2vt",
-      "summary": "Author(s): Laurent Freidel, José Padua-Argüelles, Susanne Schander, and Marc Schiffer We propose a renormalization group flow equation for a functional that generates $S$-matrix elements and which captures similarities t…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Enhancing Nonreciprocity through Squeezing-Induced Symmetry Breaking",
-      "url": "http://link.aps.org/doi/10.1103/kh36-7z76",
-      "summary": "Author(s): B.-B. Liu, D.-Y. Wang, J. Tang, G. Chen, H. Jing, Shi-Lei Su, and F. Nori Reservoir engineering enables unidirectional energy and signal flow. We establish squeezing-induced symmetry breaking between two cavit…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Novel Chiroptical Spectroscopy Technique",
-      "url": "http://link.aps.org/doi/10.1103/crdw-pxcs",
-      "summary": "Author(s): Jorge Olmos-Trigo, Cristina Sanz-Fernández, and Ivan Fernandez-Corbaton Chiral objects typically exhibit a different extinction for the two circular polarizations of light. Researchers often detect the chirali…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Thermodynamic Irreversibility in Optical Bistability",
-      "url": "http://link.aps.org/doi/10.1103/mx51-8hbw",
-      "summary": "Author(s): G. Keijsers, R. M. de Boer, B. Verdonschot, K. J. H. Peters, and S. R. K. Rodriguez We demonstrate thermodynamic irreversibility in the stochastic switching of a coherently driven bistable optical cavity. We p…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Fluid Flow and Spatiotemporal Chaos in Chemically Active Emulsions",
-      "url": "http://link.aps.org/doi/10.1103/z1hs-ydjc",
-      "summary": "Author(s): Charu Datt, Jonathan Bauermann, Nazmi Burak Budanur, and Frank Jülicher We study phase-separating fluid mixtures as they demix in the presence of chemical reactions that maintain them away from thermodynamic e…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Relating Rates of Global Change, Evolutionary Adaptation, and Extinction",
-      "url": "http://link.aps.org/doi/10.1103/62jn-xgqy",
-      "summary": "Author(s): Daniel H. Rothman and Sergei Petrovskii It is widely assumed that extinction occurs when environmental change outpaces a species’ capacity to adapt. However, this hypothesis lacks support at the scale of globa…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Linear Scaling of Superconductivity with Crystal Orientation at $\\mathrm{a}\\text{−}{\\mathrm{LaAlO}}_{3}/{\\mathrm{KTaO}}_{3}$ Interfaces",
-      "url": "http://link.aps.org/doi/10.1103/bbn3-bzs3",
-      "summary": "Author(s): Xueshan Cao, Meng Zhang, Yishuai Wang, Ming Qin, Yi Zhou, and Yanwu Xie The superconducting transition temperature ${T}_{c}$ at ${\\text{KTaO}}_{3}$-based oxide interfaces exhibits a dramatic dependence on crys…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Geometric Time-Dependent Density Functional Theory",
-      "url": "http://link.aps.org/doi/10.1103/xtjx-r2lm",
-      "summary": "Author(s): Éric Cancès, Théo Duez, Jari van Gog, Asbjørn Bækgaard Lauritsen, Mathieu Lewin, and Julien Toulouse A geometric reformulation of time-dependent density-functional theory better describes nonequilibrium system…",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Emergent Spacetime Supersymmetry at 2D Fractionalized Quantum Criticality",
-      "url": "http://link.aps.org/doi/10.1103/zqnh-tb1d",
-      "summary": "Author(s): Zhengzhi Wu, Zhou-Quan Wan, Shao-Kai Jian, and Hong Yao While experimental evidence for spacetime supersymmetry (SUSY) in particle physics remains elusive, condensed matter systems offer a promising arena for …",
-      "ts": 1782295200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Dynamics of Superconducting Pairs in the Two-Dimensional Hubbard Model",
-      "url": "http://link.aps.org/doi/10.1103/22h2-jxh4",
-      "summary": "Author(s): G. Sordi, E. M. O’Callaghan, C. Walsh, M. Charlebois, P. Sémon, and A.-M. S. Tremblay The frequency structure of the superconducting correlations in cuprates gives insights on the pairing mechanism. Here we pr…",
-      "ts": 1782295200000
     }
   ],
   "sources": [
