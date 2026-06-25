@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-06-25T13:21:51.289Z",
+  "updated": "2026-06-25T16:28:07.085Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Proposed CDC science office could tighten political control at agency",
+      "url": "https://www.statnews.com/2026/06/25/cdc-new-science-office-tighter-political-control/?utm_campaign=rss",
+      "summary": "Under President Trump, political leaders are exerting more control across federal health agencies.",
+      "ts": 1782403832000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Small satellite operators confront a bottleneck to space access",
+      "url": "https://spacenews.com/small-satellite-operators-confront-a-bottleneck-to-space-access/",
+      "summary": "For years, small satellite manufacturers have built their business plans around the idea that SpaceX could launch their payload to space. Through its Falcon 9 Transporter and Bandwagon rideshare missions, […] The post Sm…",
+      "ts": 1782403266000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Democrats press White House on who got special access to Eli Lilly’s new obesity drug",
+      "url": "https://www.statnews.com/2026/06/25/senate-hassan-questions-rfk-jr-eli-lilly-retatrutide-trial-trump/?utm_campaign=rss",
+      "summary": "The unusual access to an experimental drug has captured the attention of the American public as well.",
+      "ts": 1782399837000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Next-gen CRISPR tools improve editing accuracy in embryos, but also stoke ethical concerns",
+      "url": "https://www.statnews.com/2026/06/25/crispr-base-editing-human-embryo-study/?utm_campaign=rss",
+      "summary": "The use of genome editing in early embryos has pulled back the curtain on the role of one of the key genes that orchestrates the first stages of human development,…",
+      "ts": 1782399600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Finding solutions to jamming and spoofing",
+      "url": "https://spacenews.com/finding-solutions-to-jamming-and-spoofing/",
+      "summary": "In this episode of Space Minds, Mike Gruss talks with Iridium’s Tim Last. They discuss competition in the direct-to-device and Internet-of-Things sector as well as solutions to GPS jamming problems […] The post Finding s…",
+      "ts": 1782399095000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Repositioning retail for the AI era",
+      "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+      "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisio…",
+      "ts": 1782397379000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The China debate gets louder in Washington",
+      "url": "https://www.statnews.com/2026/06/25/biotech-news-the-china-debate-gets-louder-in-washington/?utm_campaign=rss",
+      "summary": "A boom in GLP-1s and health care costs, AI-designed hair growth drugs, and more biotech news from The Readout",
+      "ts": 1782397237000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA’s breakthrough pipeline fills up with generative AI devices",
+      "url": "https://www.statnews.com/2026/06/25/fda-breakthrough-generative-ai-devices-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: FDA drops enforcement against Whoop, more AI devices get FDA 'breakthrough' label, and more.",
+      "ts": 1782394988000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about weight loss drug spending, launch prices for medicines, and much more",
@@ -17,6 +81,14 @@
       "summary": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls …",
       "ts": 1782392434000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Europe faces the heat",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Europe_faces_the_heat",
+      "summary": "Video: 00:02:07 Europe is facing an intense heatwave, with record temperatures and several cities under red alert. On 23 June, France recorded its hottest June day ever. This image was captured the same day by the Copern…",
+      "ts": 1782392400000,
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -315,6 +387,54 @@
       "categoryId": "space"
     },
     {
+      "source": "Cell",
+      "title": "Excessive vascular integrity restricts anti-tumor immunity",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00634-3?rss=yes",
+      "summary": "Vessel normalization aims to correct the abnormal vasculature in the tumor to improve drug delivery and immune control. In this issue of Cell, Wang et al. identify an immune-excluding vasculature in small-cell lung cance…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "A new sense for electrical fields",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00638-0?rss=yes",
+      "summary": "Most cells polarize and migrate in response to electrical fields. In this issue of Cell, Belliveau et al. identify TMEM154/Galvanin, a receptor that serves as a cellular antenna to sense electrical gradients and guide mi…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "CAR T targets: AI takes the wheel",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00652-5?rss=yes",
+      "summary": "Identifying safe and effective targets remains a major bottleneck for CAR T cell therapies. In this issue of Cell, Baker and colleagues developed a large language model (LLM)-assisted scoring framework to streamline this…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "The cGAS-STING pathway: Mechanism and medical implications",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00650-1?rss=yes",
+      "summary": "This review covers the biology of the cGAS-STING pathway, the cell’s alarm system that shapes immune and stress responses with impacts on a range of processes, from antiviral defense and tumor immunity to chronic inflamm…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "AI-driven discovery of GPNMB CAR T cells as a multi-cancer therapy",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00651-3?rss=yes",
+      "summary": "An AI-guided framework integrating high-resolution cellular atlases, public knowledge databases, and large language models enables a modular framework for CAR T cell target discovery. GPNMB emerged as a versatile candida…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "A disinhibitory basal forebrain-to-cortex projection supports sustained attention",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00646-X?rss=yes",
+      "summary": "A long-range inhibitory projection from the basal forebrain disinhibits the cortex to amplify sensory responses. This circuit encodes motivational salience and predicts moment-to-moment attentional performance, providing…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
       "source": "Nature Energy",
       "title": "A coloured radiative cooling coating with high solar reflectance",
       "url": "https://www.nature.com/articles/s41560-026-02085-8",
@@ -600,126 +720,6 @@
       "url": "https://spacenews.com/vantor-selects-bae-systems-to-build-next-generation-imaging-satellites/",
       "summary": "WASHINGTON — Vantor has chosen BAE Systems to build its next generation of high-resolution imaging satellites. The selection reunites Vantor with the former Ball Aerospace business that helped develop DigitalGlobe’s […] …",
       "ts": 1782304200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: introducing the Engineering issue",
-      "url": "https://www.technologyreview.com/2026/06/24/1139658/the-download-introducing-engineering-issue/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Engineering issue We can’t fix everything, but we can be ambitiou…",
-      "ts": 1782303000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Mission Says Egypt is Committed to Strengthening its National Regulatory Framework for Safety",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-egypt-is-committed-to-strengthening-its-national-regulatory-framework-for-safety",
-      "summary": "",
-      "ts": 1782302491000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Stripe, Anthropic, and OpenAI are backing an effort to stop respiratory infections",
-      "url": "https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/",
-      "summary": "The common cold comes for us all—often more than once a year. And there is no way to prevent it. The best you can do is take vitamin C and stay away from people with the sniffles. Now the payment company Stripe, founded …",
-      "ts": 1782302400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Students injured in Sudan drone strike, dangerous returns in south Lebanon, celebrating women diplomats",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167804",
-      "summary": "Ongoing fighting in the Sudanese city of El Obeid continues to endanger civilians and damage infrastructure, the United Nations said on Wednesday.",
-      "ts": 1782302400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Young peacebuilders: Funding matters, but so do trust and partnerships",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167803",
-      "summary": "Young people working on promoting peace in some of the world’s most fragile and polarized places say financial support remains essential, but money alone will not sustain their efforts to organize youth to participate in…",
-      "ts": 1782302400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN chief: Targeting methane is a climate battle ‘we can win’",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167802",
-      "summary": "Amid efforts to cool global warming, the battle hinges on targeting such super-pollutants as methane, which emits one third of the world’s greenhouse gases and “is a fight we can win”, the UN chief on Wednesday.",
-      "ts": 1782302400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Lives at risk in DR Congo as Ebola outbreak continues to outpace response",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167801",
-      "summary": "The Ebola outbreak in the Democratic Republic of the Congo (DRC) continues to spread faster than aid efforts can keep pace, despite significant gains in treatment capacity and growing community engagement, the World Heal…",
-      "ts": 1782302400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "How the stories we tell about ageing shape our future",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167799",
-      "summary": "The way societies talk about ageing can shape everything from public policy to people's own expectations of later life, the United Nations Economic Commission for Europe (UNECE) said on Wednesday in a new report that cal…",
-      "ts": 1782302400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New global rules clear the road for driverless vehicles",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167797",
-      "summary": "A UN vehicle standards forum has approved the first global regulations for fully autonomous driving systems (ADS), marking a major step towards the safe deployment of self-driving vehicles.",
-      "ts": 1782302400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Open debate on children and armed conflict",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167795",
-      "summary": "The UN Security Council held on open debate on Thursday focused on strengthening protections for children caught in armed conflict. The Secretary-General's latest report reveals that in 2025, soldiers and Government forc…",
-      "ts": 1782302400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Stranded Hormuz seafarers begin mass evacuation operation",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167794",
-      "summary": "As the UN International Maritime Organization (IMO) released more details of its plan to evacuate more than 11,000 seafarers stranded in the Strait of Hormuz, one mariner caught up in the emergency has described the ever…",
-      "ts": 1782302400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The emergence of the web data infrastructure layer for AI",
-      "url": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
-      "summary": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits…",
-      "ts": 1782302394000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Wagering on FDA changes, Regenxbio will submit Duchenne gene therapy for approval",
-      "url": "https://www.statnews.com/2026/06/24/regenxbio-duchenne-gene-therapy-fda-submission/?utm_campaign=rss",
-      "summary": "Regenxbio plans to submit its Duchenne gene therapy for FDA approval, just a month after it said that regulators wanted to see another trial.",
-      "ts": 1782302138000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "FDA finally analyzed its own youth tobacco data",
-      "url": "https://www.statnews.com/2026/06/24/health-news-fda-finally-analyzed-its-own-youth-tobacco-data/?utm_campaign=rss",
-      "summary": "Government can't restrict SNAP dollars on candy, diminishing returns for IVF add-ons, and other health news",
-      "ts": 1782302005000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SpaceX launches secretive Starfall reentry demo mission",
-      "url": "https://spacenews.com/spacex-launches-secretive-starfall-reentry-demo-mission/",
-      "summary": "SpaceX launched the first test flight of its Starfall reentry capsule June 23, but the mission remained as secretive as the program itself. The post SpaceX launches secretive Starfall reentry demo mission appeared first …",
-      "ts": 1782301199000,
       "categoryId": "space"
     }
   ],
