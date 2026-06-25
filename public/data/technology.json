@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-06-25T16:28:07.085Z",
+  "updated": "2026-06-25T19:07:24.021Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "BIO 2026: FDA Leadership Confront Workforce Losses, China Competition in Drug Development",
+      "url": "https://www.genengnews.com/topics/drug-discovery/bio-2026-fda-leadership-confront-workforce-losses-china-competition-in-drug-development/",
+      "summary": "The panel, which featured the acting directors of Center for Drug Evaluation and Research and the Center for Biologics Evaluation and Research, and the acting chief of staff, focused on the FDA’s current priorities and i…",
+      "ts": 1782414008000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "The mysterious case of Eli Lilly’s obesity drug",
+      "url": "https://www.statnews.com/2026/06/25/readout-loud-podcast-eli-lilly-fda-obesity-trump-absci-regenxbio/?utm_campaign=rss",
+      "summary": "Who got exclusive access to Eli Lilly's highly anticipated obesity candidate? And why are drugmakers spending so much on acquisitions? Find out on this week's \"Readout LOUD.\"",
+      "ts": 1782413924000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Cassidy proposes bill to rein in 340B drug discount program",
+      "url": "https://www.statnews.com/2026/06/25/cassidy-bill-rein-in-340b-drug-discount-program/?utm_campaign=rss",
+      "summary": "Placing new limits on the 340B drug discount program would be a fresh challenge for hospitals as they confront funding cuts.",
+      "ts": 1782408759000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Supreme Court ruling blocks thousands of lawsuits against maker of Roundup weedkiller",
+      "url": "https://www.statnews.com/2026/06/25/supreme-court-blocks-thousands-lawsuits-roundup-weedkiller-cancer/?utm_campaign=rss",
+      "summary": "The Supreme Court sided with the maker of Roundup weedkiller in a ruling expected to block thousands of lawsuits alleging it failed to warn people the product could cause cancer.",
+      "ts": 1782407758000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Millions of Stars in Cigar Galaxy",
+      "url": "https://www.nasa.gov/image-article/millions-of-stars-in-cigar-galaxy/",
+      "summary": "NASA’s James Webb Space Telescope recently observed edge-on starburst galaxy Messier 82 (M82), nicknamed the Cigar Galaxy. Webb’s new view of M82, added to archival data from NASA’s Hubble Space Telescope, gives us a mor…",
+      "ts": 1782404663000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Proposed CDC science office could tighten political control at agency",
@@ -680,46 +720,6 @@
       "url": "https://www.nasa.gov/learning-resources/career-spotlight-electrician-ages-14-18/",
       "summary": "What does an electrician do? Electricity powers the world, and electricians are the ones who get it where it needs to go. An electrician is an expert who is trained to make sure electrical systems and equipment are insta…",
       "ts": 1782308261000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "York satellite demonstrates two-way UHF communications from low Earth orbit",
-      "url": "https://spacenews.com/york-satellite-demonstrates-two-way-uhf-communications-from-low-earth-orbit/",
-      "summary": "WASHINGTON — York Space Systems said June 24 that a satellite it built for the U.S. Space Force successfully demonstrated two-way tactical communications using ultra-high-frequency (UHF) links from low Earth […] The post…",
-      "ts": 1782306151000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about an FDA commissioner candidate, Germany’s plans for drug prices, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/06/24/fda-commissioner-candidate-germany-plans-for-drug-prices/?utm_campaign=rss",
-      "summary": "Regenxbio plans to apply for accelerated approval for its gene therapy for Duchenne muscular dystrophy.",
-      "ts": 1782306037000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "How space weather could bust the AI boom",
-      "url": "https://spacenews.com/how-space-weather-could-bust-the-ai-boom/",
-      "summary": "America’s electric grid is entering a period of unprecedented strain. Utilities across the country are scrambling to keep up as power-hungry AI data centers expand at a staggering pace, often […] The post How space weath…",
-      "ts": 1782306000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Morocco Expands Health Cooperation with IAEA through New Practical Arrangement",
-      "url": "http://www.iaea.org/newscenter/news/morocco-expands-health-cooperation-with-iaea-through-new-practical-arrangement",
-      "summary": "IAEA and Morocco’s Mohammed VI Foundation of Health Sciences strengthen cooperation in cancer care, medical training and radiation medicine research.",
-      "ts": 1782305400000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Vantor selects BAE Systems to build next-generation imaging satellites",
-      "url": "https://spacenews.com/vantor-selects-bae-systems-to-build-next-generation-imaging-satellites/",
-      "summary": "WASHINGTON — Vantor has chosen BAE Systems to build its next generation of high-resolution imaging satellites. The selection reunites Vantor with the former Ball Aerospace business that helped develop DigitalGlobe’s […] …",
-      "ts": 1782304200000,
       "categoryId": "space"
     }
   ],
