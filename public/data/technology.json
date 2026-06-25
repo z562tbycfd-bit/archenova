@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-06-25T21:46:22.557Z",
+  "updated": "2026-06-25T23:21:12.049Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI Framework Surfaces New CAR T Target with Multi‑Cancer Potential",
+      "url": "https://www.genengnews.com/topics/cancer/ai-framework-surfaces-new-car-t-target-with-multi%e2%80%91cancer-potential/",
+      "summary": "A human‑in‑the‑loop AI framework rapidly nominates CAR T targets, leading to a GPNMB‑directed CAR T cell with activity across melanoma, leukemia, and colorectal cancer in preclinical studies. The post AI Framework Surfac…",
+      "ts": 1782426286000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rocket Lab wins NASA award for three Electron launches",
+      "url": "https://spacenews.com/rocket-lab-wins-nasa-award-for-three-electron-launches/",
+      "summary": "NASA has selected Rocket Lab to launch a pair of science missions on three Electron rockets in 2027. The post Rocket Lab wins NASA award for three Electron launches appeared first on SpaceNews.",
+      "ts": 1782426141000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Weather Stream releases first light imagery from GEMS2 microwave radiometer",
+      "url": "https://spacenews.com/weather-stream-releases-first-light-imagery-from-gems2-microwave-radiometer/",
+      "summary": "SAN FRANCISCO – Weather Stream, a Boulder, Colorado, commercial weather satellite operator, is collecting global atmospheric observations with its GEMS2-Amethyst satellite. Launched March 30 aboard the SpaceX Transporter…",
+      "ts": 1782425178000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force’s new MUOS satellites to use Boeing’s 702MP spacecraft platform",
+      "url": "https://spacenews.com/space-forces-new-muos-satellites-to-use-boeings-702mp-spacecraft-platform/",
+      "summary": "Boeing's 702MP platform has been used for commercial and wideband military missions The post Space Force’s new MUOS satellites to use Boeing’s 702MP spacecraft platform appeared first on SpaceNews.",
+      "ts": 1782424419000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Antibiotics Trigger Protein Sharing Among Bacteria, Aiding Persister Cells",
@@ -387,14 +419,6 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "A Turquoise Tint for the Black Sea",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-turquoise-tint-for-the-black-sea/",
-      "summary": "Phytoplankton added a milky blue hue to the waters of the Black Sea and nearby waterways in spring and summer 2026.",
-      "ts": 1782360000000,
-      "categoryId": "space"
-    },
-    {
       "source": "arXiv q-bio",
       "title": "Privacy-preserving federated tensor decomposition of single-cell immune data: recovering multicellular programs across institutions",
       "url": "https://arxiv.org/abs/2606.24938",
@@ -529,6 +553,14 @@
       "summary": "arXiv:2602.06020v3 Announce Type: replace-cross Abstract: How do protein structure prediction models fold proteins? We investigate this question through causal interventions on the folding trunks of ESMFold, OpenFold, an…",
       "ts": 1782360000000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "A Turquoise Tint for the Black Sea",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-turquoise-tint-for-the-black-sea/",
+      "summary": "Phytoplankton added a milky blue hue to the waters of the Black Sea and nearby waterways in spring and summer 2026.",
+      "ts": 1782360000000,
+      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -689,38 +721,6 @@
       "summary": "People are getting more care and using lots of GLP-1 drugs, fueling a sharp increase in health care spending.",
       "ts": 1782331200000,
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "BIO 2026: CEO Calls for U.S. Biotech Urgency and International Competitiveness",
-      "url": "https://www.genengnews.com/topics/translational-medicine/bio-2026-ceo-calls-for-u-s-biotech-urgency-and-international-competitiveness/",
-      "summary": "John Crowley emphasized industry modernization and solving \"man-made problems\" to outcompete rivals like China through improved U.S. innovation ecosystems. The post BIO 2026: CEO Calls for U.S. Biotech Urgency and Intern…",
-      "ts": 1782330818000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Roman Telescope Comes to Kennedy",
-      "url": "https://www.nasa.gov/image-article/roman-telescope-comes-to-kennedy/",
-      "summary": "In this June 21, 2026, photo, NASA’s Nancy Grace Roman Space Telescope arrives at the agency’s Kennedy Space Center in Florida aboard NASA’s Pegasus barge. After offloading and transportation to the spaceport’s Payload H…",
-      "ts": 1782330154000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "MDA Space wins contract for Radarsat replenishment satellite",
-      "url": "https://spacenews.com/mda-space-wins-contract-for-radarsat-replenishment-satellite/",
-      "summary": "MDA Space will build a radar imaging satellite for the Canadian Space Agency as the government studies options for a next-generation satellite system. The post MDA Space wins contract for Radarsat replenishment satellite…",
-      "ts": 1782329443000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s HiRISE Captures Perseverance Marking a Milestone on Mars",
-      "url": "https://science.nasa.gov/photojournal/nasas-hirise-captures-perseverance-marking-a-milestone-on-mars/",
-      "summary": "Description NASA’s Perseverance rover appears as a green speck on the Martian surface on June 13, 2026, a day before the robotic explorer marked a distance milestone, having traveled a full marathon (26.2 miles, or 42.19…",
-      "ts": 1782327328000,
-      "categoryId": "space"
     }
   ],
   "categories": [

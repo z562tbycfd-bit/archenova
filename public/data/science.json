@@ -1,7 +1,77 @@
 {
   "ok": true,
-  "updated": "2026-06-25T21:46:18.921Z",
+  "updated": "2026-06-25T23:21:07.516Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Microscale hydrogel fibers could enable imaging inside tiny tissue structures",
+      "url": "https://phys.org/news/2026-06-microscale-hydrogel-fibers-enable-imaging.html",
+      "summary": "Researchers have developed light-transmitting hydrogel fibers that are just hundreds of micrometers in diameter. With further development, these soft fibers could one day make it possible to use imaging techniques to det…",
+      "ts": 1782429603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "After parenthood, same-sex parents diverge from different-sex norms—and from each other, researcher finds",
+      "url": "https://phys.org/news/2026-06-parenthood-sex-parents-diverge-norms.html",
+      "summary": "Research by Penn sociologist Pilar Gonalons-Pons and others has shown that after a man and a woman have a child, the couple's relative share of paid and unpaid labor tends to change dramatically, with the father speciali…",
+      "ts": 1782429601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Social media messages may help counter youth loneliness epidemic by encouraging real-world connection",
+      "url": "https://phys.org/news/2026-06-social-media-messages-counter-youth.html",
+      "summary": "Loneliness among young adults has reached what the U.S. surgeon general has called an \"epidemic,\" with recent estimates suggesting that roughly half of U.S. adults report feeling lonely, and rates are particularly high a…",
+      "ts": 1782428406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why old nuclear-site concrete could become a tool for trapping strontium-90",
+      "url": "https://phys.org/news/2026-06-nuclear-site-concrete-tool-strontium.html",
+      "summary": "Crushed concrete from legacy nuclear facilities could play a far greater role in safely managing radioactive land than previously understood. Research published in ACS ES&T Water and conducted by scientists from the Univ…",
+      "ts": 1782428401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden molecular code in tosyl groups directs pillararene formation and assembly, study finds",
+      "url": "https://phys.org/news/2026-06-hidden-molecular-code-tosyl-groups.html",
+      "summary": "A research team at Mahidol University, Thailand, has discovered that tosyl groups, long regarded as routine synthetic handles, can actively guide the formation and behavior of pillararenes—a class of pillar-shaped macroc…",
+      "ts": 1782427203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Centuries-old planktonic shell mystery solved with discovery of self-assembling proteins",
+      "url": "https://phys.org/news/2026-06-centuries-planktonic-shell-mystery-discovery.html",
+      "summary": "Biomaterials with extraordinary properties, such as spider silk, have so far been known primarily from animals. Researchers at the University of Salzburg in Austria have now deciphered a surprising counterpart from the w…",
+      "ts": 1782427201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The cask is the shipping container of the late Middle Ages",
+      "url": "https://phys.org/news/2026-06-cask-shipping-late-middle-ages.html",
+      "summary": "What do wooden casks tell us about trade and everyday life between 1300 and 1800? Ph.D. candidate Jeroen Oosterbaan studied the life cycle of this shipping container and has shown how these everyday objects played a key …",
+      "ts": 1782426004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why these birds meet again in Africa: Flycatcher study reveals how genes and environment guide 13,000‑km migrations",
+      "url": "https://phys.org/news/2026-06-birds-africa-flycatcher-reveals-genes.html",
+      "summary": "Migratory birds such as the pied flycatcher typically have wintering locations in Africa close to others from the same breeding population. That means that birds breeding in the Netherlands run into each other again in A…",
+      "ts": 1782426002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How soil pH shapes rice stink bug outbreaks by controlling key bacteria",
+      "url": "https://phys.org/news/2026-06-soil-ph-rice-bug-outbreaks.html",
+      "summary": "Researchers at the National Institute of Advanced Industrial Science and Technology (AIST), in collaboration with researchers from the University of the Ryukyus and the University of Electro-Communications, have discover…",
+      "ts": 1782424806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plankton-linked vapors could speed cloud seed formation over cold oceans",
+      "url": "https://phys.org/news/2026-06-plankton-linked-vapors-cloud-seed.html",
+      "summary": "For nearly 50 years, scientists have suspected that microscopic marine plankton play a role in cloud formation over the oceans. Now, an experiment led by the University of Helsinki suggests that it may be more important …",
+      "ts": 1782424801000
+    },
     {
       "source": "Phys.org",
       "title": "AI in policing: Safeguards can't keep up, new research warns",
@@ -630,76 +700,6 @@
       "title": "Generation of continuous-wave laser light at 148.4 nm using cavity-enhanced second harmonic generation in $BaMgF_4$",
       "url": "https://arxiv.org/abs/2606.25046",
       "summary": "arXiv:2606.25046v1 Announce Type: new Abstract: We experimentally investigate the potential of $BaMgF_4$ crystals to create a continuous-wave (CW) solid state laser at the vacuum ultraviolet (VUV) wavelength of 148.4 nm …",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solver Exactness, Learned Flexibility: Equivariant Boundary-Correction Operators for Stokes Flow",
-      "url": "https://arxiv.org/abs/2606.25075",
-      "summary": "arXiv:2606.25075v1 Announce Type: new Abstract: The drag and mobility of bodies in viscous (Stokes) flow govern problems in shape design, suspensions, or microorganism swimming. Classical solvers compute them accurately …",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine learning is revolutionizing weather forecasting -- the next step is a change in how we work",
-      "url": "https://arxiv.org/abs/2606.25076",
-      "summary": "arXiv:2606.25076v1 Announce Type: new Abstract: Following the success of machine learning in producing weather predictions with competitive skill compared to complex traditional systems, this article shifts attention fro…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Liquid Jet in Crossflow: Review of Breakup modes and Injector Geometry Effects",
-      "url": "https://arxiv.org/abs/2606.25125",
-      "summary": "arXiv:2606.25125v1 Announce Type: new Abstract: This review focuses on the liquid jet in crossflow (LJIC) configuration. LJIC is one of the most common strategies used for fuel injection in aerospace applications. It is …",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Slow Extraction Beam Commissioning for the Mu2e Experiment at Fermilab",
-      "url": "https://arxiv.org/abs/2606.25140",
-      "summary": "arXiv:2606.25140v1 Announce Type: new Abstract: Following the successful completion of the Muon g-2 experiment run at Fermilab, the Muon Campus facility has been reconfigured from delivering 3 GeV muon beams to the g-2 s…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wasserstein recurrence networks for multiscale time series pattern analysis",
-      "url": "https://arxiv.org/abs/2606.25155",
-      "summary": "arXiv:2606.25155v1 Announce Type: new Abstract: Time series data are often generated by systems which operate on multiple temporal scales, of which Earth's climate system is a paramount example. Variations in global clim…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accelerator Complex Evolution at Fermilab",
-      "url": "https://arxiv.org/abs/2606.25159",
-      "summary": "arXiv:2606.25159v1 Announce Type: new Abstract: The largest hadron accelerator facility in the US is undergoing radical changes and the undertaking of new HEP-driven neutrino research. This talk will discuss the wide-ran…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Oscillatory liquid-metal flow in a channel under rapidly decaying applied magnetic field",
-      "url": "https://arxiv.org/abs/2606.25167",
-      "summary": "arXiv:2606.25167v1 Announce Type: new Abstract: The channel flow of a liquid metal driven by a rapidly varying applied magnetic field is analyzed. The flow configuration, physical properties, and parameters correspond to…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-Cost Continuous-Wave Diffusive Microtomography with Fiber-Scanned White-Light Illumination",
-      "url": "https://arxiv.org/abs/2606.25183",
-      "summary": "arXiv:2606.25183v1 Announce Type: new Abstract: Tomographic microscopy enables three-dimensional internal imaging but often requires expensive optical or X-ray instrumentation. Here we present an ultra-low-cost continuou…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling and Analysis of Phase Instability in Photonic Processor",
-      "url": "https://arxiv.org/abs/2606.25196",
-      "summary": "arXiv:2606.25196v1 Announce Type: new Abstract: Achieving both reconfigurability and stable output signals is a critical challenge in the development of integrated photonic circuits for large-scale optical quantum inform…",
-      "ts": 1782360000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Leveraging Population Dynamics to Steer Efficient Search in Large-Scale Combinatorial Optimization",
-      "url": "https://arxiv.org/abs/2606.25203",
-      "summary": "arXiv:2606.25203v1 Announce Type: new Abstract: Combinatorial optimization problems pose substantial computational challenges because their feasible solution spaces grow exponentially with problem size. This paper presen…",
       "ts": 1782360000000
     }
   ],
