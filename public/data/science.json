@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-06-26T07:59:43.516Z",
+  "updated": "2026-06-26T11:11:43.838Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study challenges idea that simply playing sports makes kids less prone to violent behavior",
+      "url": "https://phys.org/news/2026-06-idea-simply-playing-sports-kids.html",
+      "summary": "Contrary to popular belief, simply playing organized youth sports does not reduce the likelihood of committing violence in one's lifetime and, in some cases, may increase it, according to a new study.",
+      "ts": 1782471603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sea anemones reveal antiviral defense that reverses human immune playbook",
+      "url": "https://phys.org/news/2026-06-sea-anemones-reveal-antiviral-defense.html",
+      "summary": "A new study has uncovered a previously unknown antiviral defense mechanism in sea anemones, revealing that animals may have evolved more than one way to fight viral infections. Researchers discovered that a protein resem…",
+      "ts": 1782464408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How a 'copper economy' helps fungi and bacteria build stubborn biofilms",
+      "url": "https://phys.org/news/2026-06-copper-economy-fungi-bacteria-stubborn.html",
+      "summary": "Scientists have discovered that two common human pathogens can work together by managing copper in their shared environment—a finding that could open new ways to break down stubborn mixed biofilms.",
+      "ts": 1782464406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists find evidence of vast hidden magma systems inside Mars",
+      "url": "https://phys.org/news/2026-06-scientists-evidence-vast-hidden-magma.html",
+      "summary": "Researchers from the University of Oxford have uncovered evidence that Mars once hosted enormous, Earth-like magmatic systems deep beneath its surface—despite the planet lacking the plate tectonics long thought necessary…",
+      "ts": 1782464404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wastewater management reverses widespread freshwater deoxygenation in China",
+      "url": "https://phys.org/news/2026-06-wastewater-reverses-widespread-freshwater-deoxygenation.html",
+      "summary": "Freshwater ecosystems worldwide have been suffering from declining oxygen levels—a trend known as deoxygenation—that threatens biodiversity, fisheries and ecosystem stability. However, a new study published in Nature Geo…",
+      "ts": 1782464402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What to know about earthquake early warning systems",
+      "url": "https://phys.org/news/2026-06-earthquake-early.html",
+      "summary": "As earthquakes struck from California to Venezuela to Japan, millions of people received warnings on their mobile phones, providing critical seconds to seek protection.",
+      "ts": 1782462601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's extreme heat would be impossible without climate change, scientists say",
+      "url": "https://phys.org/news/2026-06-europe-extreme-impossible-climate-scientists.html",
+      "summary": "The record-breaking heat that's scorching Europe day and night this month would not have been possible without climate change, according to a new study.",
+      "ts": 1782461401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hospitals overwhelmed as Europe heat wave shifts east",
+      "url": "https://phys.org/news/2026-06-hospitals-overwhelmed-europe-shifts-east.html",
+      "summary": "A deadly European heat wave that has saturated hospitals as temperatures soared to record highs was shifting east Friday, with authorities warning of more misery on a continent not used to stretches of punishing heat.",
+      "ts": 1782461098000
+    },
     {
       "source": "Phys.org",
       "title": "The 'water-saving' effect of vegetation under rising CO₂ may be overestimated",
@@ -644,62 +700,6 @@
       "title": "An Arbitrary-Lagrangian-Eulerian solver for relativistic detonation waves",
       "url": "https://arxiv.org/abs/2606.27113",
       "summary": "arXiv:2606.27113v1 Announce Type: cross Abstract: In this paper we study the dynamics of relativistic detonation waves theoretically and numerically. The reaction is physically accounted for by an extra term in the defin…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kolmogorov Arnold networks (KAN) for aerodynamic prediction: a comparison with MLPs and GNNs",
-      "url": "https://arxiv.org/abs/2606.27126",
-      "summary": "arXiv:2606.27126v1 Announce Type: cross Abstract: Kolmogorov Arnold networks (KAN) have recently been introduced as a (deep) neural network architecture whose trainable parameters adapt the activation functions, instead …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unraveling Internal Friction in a Coarse-Grained Protein Model",
-      "url": "https://arxiv.org/abs/2606.27133",
-      "summary": "arXiv:2606.27133v1 Announce Type: cross Abstract: Understanding the dynamic behavior of complex biomolecules requires simplified models that not only make computations feasible but also reveal fundamental mechanisms. Coa…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Organic Semiconductor Alignment via Confinement in Vapor-Guided Droplets",
-      "url": "https://arxiv.org/abs/2606.27207",
-      "summary": "arXiv:2606.27207v1 Announce Type: cross Abstract: Organic semiconductors are lightweight, solution-processable materials with strong potential for printed and flexible electronics, from deformable displays to wearable se…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A hardware-safety-gated system for LLM-written native ARTIQ control code on a trapped-ion platform",
-      "url": "https://arxiv.org/abs/2606.27231",
-      "summary": "arXiv:2606.27231v1 Announce Type: cross Abstract: Large-language-model (LLM) agents can write and run experimental control code. This allows laboratory work to be conducted autonomously. However, this autonomy raises a s…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum computer architecture with ions in tweezer arrays",
-      "url": "https://arxiv.org/abs/2606.27249",
-      "summary": "arXiv:2606.27249v1 Announce Type: cross Abstract: We propose a quantum computer architecture based on ions confined in optical tweezer arrays, combining the long coherence times of trapped-ion qubits with the reconfigura…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weak-Flow Induced Dielectric Axes Rotation in Dipolar Suspensions",
-      "url": "https://arxiv.org/abs/2606.27296",
-      "summary": "arXiv:2606.27296v1 Announce Type: cross Abstract: Conventional rheodielectric studies of dipolar suspensions primarily examine flow-induced variations in the principal permittivity components. In contrast, an asymptotic …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3D Imaging of Complex Skyrmion and Hopf Topologies in an Extended Sample",
-      "url": "https://arxiv.org/abs/2606.27365",
-      "summary": "arXiv:2606.27365v1 Announce Type: cross Abstract: Spin textures are key for emergent magnetic phenomena such as topological protection and underpin novel spintronic device paradigms based on racetrack memory, logic gates…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Telomeres in Lamin-A Depleted Cells Exhibit Directed Motion and Dynamic Coherence",
-      "url": "https://arxiv.org/abs/2407.08899",
-      "summary": "arXiv:2407.08899v2 Announce Type: replace Abstract: Investigating the dynamics of chromatin loci and the factors that influence them provides valuable insights into the organization and functionality of the genome within…",
       "ts": 1782446400000
     }
   ],

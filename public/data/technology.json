@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-06-26T07:59:47.008Z",
+  "updated": "2026-06-26T11:11:46.190Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Europe’s next security challenge is in orbit",
+      "url": "https://spacenews.com/europes-next-security-challenge-is-in-orbit/",
+      "summary": "Across the European Union, satellite navigations alone is thought to underpin more than 10% of GDP. Satellite-dependent activity on the whole is responsible for much more. According to INSEE and […] The post Europe’s nex…",
+      "ts": 1782471600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
+      "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
+      "summary": "It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the weather app on my phone confi…",
+      "ts": 1782464400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "What is pulmonary hypertension and why would a new GLP-1 help?",
+      "url": "https://www.statnews.com/2026/06/26/what-is-pulmonary-hypertension-and-would-glp-1-help/?utm_campaign=rss",
+      "summary": "A report about unusual access to an experimental obesity drug has raised interest in the condition pulmonary hypertension.",
+      "ts": 1782462600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Joseph Fraumeni Jr., pioneering cancer genetics researcher, devoted his life to families like mine",
+      "url": "https://www.statnews.com/2026/06/26/joseph-fraumeni-li-syndrome-hereditary-cancer-obituary/?utm_campaign=rss",
+      "summary": "“They don't make many like Joe Fraumeni anymore,” writes Lawrence Ingrassia, author of “A Fatal Inheritance.”",
+      "ts": 1782462600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: ‘The Hot Zone’ led me to work with Ebola patients. Now I have mixed feelings about the book",
+      "url": "https://www.statnews.com/2026/06/26/the-hot-zone-richard-preston-ebola-narrative/?utm_campaign=rss",
+      "summary": "“The reality of Ebola is simultaneously less sensational and far more challenging than most people imagine,” writes Krutika Kuppalli.",
+      "ts": 1782462600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Jails are the frontline in fielding dangerous new type of drug withdrawal",
+      "url": "https://www.statnews.com/2026/06/26/medetomidine-opioid-withdrawal-crisis-jails/?utm_campaign=rss",
+      "summary": "Medetomidine-laced opioids cause severe, life-threatening withdrawal in jails. Here's why many facilities remain ill-equipped to treat a growing crisis.",
+      "ts": 1782462600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Cave training lab",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Cave_training_lab",
+      "summary": "Image: Cave training lab",
+      "ts": 1782462060000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Desert cropland",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Desert_cropland",
+      "summary": "Image: These Copernicus Sentinel-2 images show agricultural development in the desert of southern Egypt, close to the border with Sudan.",
+      "ts": 1782460800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "The Battle for Sullivan’s Island",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
+      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
+      "ts": 1782446400000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Sensitivity of evolutionary entropy in Lefkovitch matrices",
@@ -211,19 +283,27 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "The Battle for Sullivan’s Island",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
-      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
-      "ts": 1782446400000,
-      "categoryId": "space"
-    },
-    {
       "source": "IAEA News",
       "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
       "url": "http://www.iaea.org/newscenter/pressreleases/update-355-iaea-director-general-statement-on-situation-in-ukraine",
       "summary": "",
       "ts": 1782440467000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Accessible solar tower power plant data to accelerate solar energy research",
+      "url": "https://www.nature.com/articles/s41560-026-02069-8",
+      "summary": "",
+      "ts": 1782432000000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Mitigation of hydrogen crossover in liquid alkaline water electrolysers using gas recombination catalysts",
+      "url": "https://www.nature.com/articles/s41560-026-02094-7",
+      "summary": "",
+      "ts": 1782432000000,
       "categoryId": "energy-climate"
     },
     {
@@ -640,86 +720,6 @@
       "url": "https://www.statnews.com/2026/06/25/tarasoff-50th-anniversary-murder-doctor-patient-confidentiality/?utm_campaign=rss",
       "summary": "The Tarasoff case remains a pivotal marker in bioethics at the bicentennial as we now reach the country’s 250th birthday.",
       "ts": 1782376200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "European Flight Ticket Initiative opens to more launch service providers",
-      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Boost/European_Flight_Ticket_Initiative_opens_to_more_launch_service_providers",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2025/08/flight_ticket_initiative/26849504-2-eng-GB/Flight_Ticket_Initiative_card_full.jpg\" alt=\"Flight Ticket Initiative\">",
-      "ts": 1782375360000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Smile reaches science orbit",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Smile_reaches_science_orbit",
-      "summary": "Image: Smile reaches science orbit",
-      "ts": 1782374400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Launches New Research Project on Dietary Protein Quality and Requirements",
-      "url": "http://www.iaea.org/newscenter/news/iaea-launches-new-research-project-on-dietary-protein-quality-and-requirements",
-      "summary": "New IAEA research project will assess protein quality from alternative protein sources to improve nutrition and health outcomes.",
-      "ts": 1782373080000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "ESA",
-      "title": "A first: EarthCARE cloud data sharpen weather forecasts",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE/A_first_EarthCARE_cloud_data_sharpen_weather_forecasts",
-      "summary": "The European Space Agency’s EarthCARE satellite was developed to make a unique set of simultaneous measurements that shed new light on the role that clouds and aerosols play in regulating Earth’s climate. Now, in a remar…",
-      "ts": 1782370800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "A Turquoise Tint for the Black Sea",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-turquoise-tint-for-the-black-sea/",
-      "summary": "Phytoplankton added a milky blue hue to the waters of the Black Sea and nearby waterways in spring and summer 2026.",
-      "ts": 1782360000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How agents are transforming work",
-      "url": "https://openai.com/index/how-agents-are-transforming-work",
-      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "ts": 1782352800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s TESS Mission Reveals the “Puffiest” Planets Ever Found",
-      "url": "https://science.nasa.gov/missions/tess/nasas-tess-mission-reveals-the-puffiest-planets-ever-found/",
-      "summary": "NASA has revealed two new “super-puff” planets, giant worlds so light that their density is comparable to cotton candy. Scientists calculate that these Jupiter-sized planets are the “puffiest” worlds ever found.",
-      "ts": 1782349456000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Cell",
-      "title": "Excessive vascular integrity restricts anti-tumor immunity",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00634-3?rss=yes",
-      "summary": "Vessel normalization aims to correct the abnormal vasculature in the tumor to improve drug delivery and immune control. In this issue of Cell, Wang et al. identify an immune-excluding vasculature in small-cell lung cance…",
-      "ts": 1782345600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "A new sense for electrical fields",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00638-0?rss=yes",
-      "summary": "Most cells polarize and migrate in response to electrical fields. In this issue of Cell, Belliveau et al. identify TMEM154/Galvanin, a receptor that serves as a cellular antenna to sense electrical gradients and guide mi…",
-      "ts": 1782345600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "CAR T targets: AI takes the wheel",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00652-5?rss=yes",
-      "summary": "Identifying safe and effective targets remains a major bottleneck for CAR T cell therapies. In this issue of Cell, Baker and colleagues developed a large language model (LLM)-assisted scoring framework to streamline this…",
-      "ts": 1782345600000,
       "categoryId": "bio"
     }
   ],
