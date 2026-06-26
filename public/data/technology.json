@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-26T19:53:26.774Z",
+  "updated": "2026-06-26T21:21:10.557Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Spain-backed fund joins FOSSA’s sovereign satellite communications push",
+      "url": "https://spacenews.com/spain-backed-fund-joins-fossas-sovereign-satellite-communications-push/",
+      "summary": "Spanish startup FOSSA Systems has raised about $10.5 million to expand its connectivity constellation in a funding round that included a technology investment vehicle backed by Spain’s government. The post Spain-backed f…",
+      "ts": 1782507597000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Backed by $165M, Bionyra Pharma Launches to Advance Inflammatory Disease Biologics",
@@ -9,6 +17,14 @@
       "summary": "The company, which emerged from stealth this week, is using the funds to develop and test three therapeutic assets that it licensed from external partners as well as to progress some additional preclinical assets. The po…",
       "ts": 1782503136000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Announces Winners for 2026 Human Lander Challenge",
+      "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-announces-winners-for-2026-human-lander-challenge/",
+      "summary": "NASA has announced the top student-developed solutions for environmental control and life support systems in future crewed lunar landers from participants in the 2026 Human Lander Challenge. The announcement marks the cu…",
+      "ts": 1782503088000,
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -705,22 +721,6 @@
       "summary": "For years, small satellite manufacturers have built their business plans around the idea that SpaceX could launch their payload to space. Through its Falcon 9 Transporter and Bandwagon rideshare missions, […] The post Sm…",
       "ts": 1782403266000,
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Democrats press White House on who got special access to Eli Lilly’s new obesity drug",
-      "url": "https://www.statnews.com/2026/06/25/senate-hassan-questions-rfk-jr-eli-lilly-retatrutide-trial-trump/?utm_campaign=rss",
-      "summary": "The unusual access to an experimental drug has captured the attention of the American public as well.",
-      "ts": 1782399837000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Next-gen CRISPR tools improve editing accuracy in embryos, but also stoke ethical concerns",
-      "url": "https://www.statnews.com/2026/06/25/crispr-base-editing-human-embryo-study/?utm_campaign=rss",
-      "summary": "The use of genome editing in early embryos has pulled back the curtain on the role of one of the key genes that orchestrates the first stages of human development,…",
-      "ts": 1782399600000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

@@ -1,7 +1,49 @@
 {
   "ok": true,
-  "updated": "2026-06-26T19:53:23.328Z",
+  "updated": "2026-06-26T21:21:07.885Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Clean crystal surface lets single molecules hit ultimate quantum limit",
+      "url": "https://phys.org/news/2026-06-crystal-surface-molecules-ultimate-quantum.html",
+      "summary": "Scientists at the Max Planck Institute for the Science of Light (MPL) have developed a technique for interrogating molecules on surfaces with spectroscopic precision, thereby reaching the ultimate quantum limit for the f…",
+      "ts": 1782507601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ocean warming above 1.5°C triggered year-round marine disruption across globe, study shows",
+      "url": "https://phys.org/news/2026-06-ocean-15c-triggered-year-marine.html",
+      "summary": "Researchers at King Abdullah University of Science and Technology (KAUST) led one of the first global assessments of how marine ecosystems responded during the first year when global temperatures temporarily exceeded 1.5…",
+      "ts": 1782506401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan's small cities may face higher care burdens under the compact city policy",
+      "url": "https://phys.org/news/2026-06-japan-small-cities-higher-burdens.html",
+      "summary": "As populations decline and age across the developed world, compact city strategies, which oversee the consolidation of urban facilities and guide residents toward transit-served hubs, have become mainstream policies. Yet…",
+      "ts": 1782505203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "ROS-producing enzymes guide plant cell division and tissue patterning, gene-editing study shows",
+      "url": "https://phys.org/news/2026-06-ros-enzymes-cell-division-tissue.html",
+      "summary": "Reactive oxygen species (ROS) produced naturally during cellular metabolism often cause oxidative damage to cells. However, these molecules also play an important role in normal cellular signaling. While ROS are establis…",
+      "ts": 1782505201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pegasus launch to deploy LINK for months‑long orbit boost of aging Swift",
+      "url": "https://phys.org/news/2026-06-pegasus-deploy-link-monthslong-orbit.html",
+      "summary": "A mission to raise the orbit of NASA's Neil Gehrels Swift Observatory is poised for launch no earlier than Tuesday, June 30, at 6:23 a.m. EDT (10:23 p.m. UTC+12), from Kwajalein Atoll, part of the Republic of the Marshal…",
+      "ts": 1782504003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plasma and graphene combine to protect metal surfaces from corrosion",
+      "url": "https://phys.org/news/2026-06-plasma-graphene-combine-metal-surfaces.html",
+      "summary": "Plasma is an ionized gas, often referred to as the fourth state of matter. Plasmas, which are created artificially by applying energy to a gas, are found in the fluorescent tubes that illuminate kitchens. However, they h…",
+      "ts": 1782504001000
+    },
     {
       "source": "Phys.org",
       "title": "Glass cells of atoms offer a new path to smarter, cheaper sensors",
@@ -658,48 +700,6 @@
       "title": "Giant Second-Harmonic Generation in 3R-MoS2/MLM Hybrid Metasurfaces Cavities",
       "url": "https://arxiv.org/abs/2606.26751",
       "summary": "arXiv:2606.26751v1 Announce Type: new Abstract: Nonlinear 2D materials such as 3R-phase molybdenum disulfide (3R-MoS2) offer strong second-order optical nonlinearities in an atomically thin platform, making them attracti…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Iterative Dual-Channel Neural Quantum State Algorithm for Selected Configuration Interaction",
-      "url": "https://arxiv.org/abs/2606.26760",
-      "summary": "arXiv:2606.26760v1 Announce Type: new Abstract: Accurately solving the electronic Schr\\\"{o}dinger equation for strongly correlated systems remains a central challenge in quantum chemistry, where the exponential growth of…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magnetic Cloud Boundary Identification Using a Local-Normalized Magnetic Field Parameter",
-      "url": "https://arxiv.org/abs/2606.26779",
-      "summary": "arXiv:2606.26779v1 Announce Type: new Abstract: Due to the lack of quantitative and reproducible criteria for identifying magnetic cloud (MC) boundaries, we propose a parameter that characterizes short-timescale variabil…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectral condensation in a finite nonequilibrium atmospheric transition",
-      "url": "https://arxiv.org/abs/2606.26789",
-      "summary": "arXiv:2606.26789v1 Announce Type: new Abstract: Order parameters are difficult to define in high-dimensional nonequilibrium systems that lack a Hamiltonian, a thermodynamic limit or an observed control coordinate. Here w…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "pyDOF: a Python library for the design of discrete forward and inverse filters",
-      "url": "https://arxiv.org/abs/2606.26830",
-      "summary": "arXiv:2606.26830v1 Announce Type: new Abstract: In this work, we present pyDOF, a Python-based software library which provides a domain-specific framework for the design of symmetric, physical-space, forward as well as i…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Taming the single-cylinder scattering through time-modulation -- The role of the modulation phase",
-      "url": "https://arxiv.org/abs/2606.26840",
-      "summary": "arXiv:2606.26840v1 Announce Type: new Abstract: Dielectric particles with time-modulated electromagnetic properties exhibit intriguing scattering phenomena, entailing unique response and possibilities in meta-structures …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Excursion-set structure factor of the auroral electric field",
-      "url": "https://arxiv.org/abs/2606.26854",
-      "summary": "arXiv:2606.26854v1 Announce Type: new Abstract: We treat coherent radar echoes from aurorae as a finite point process and measure its structure factor $S(k)$ from pairwise echo separations. Backscatter requires electron …",
       "ts": 1782446400000
     }
   ],
