@@ -1,82 +1,63 @@
-// app/crossing-gate/page.tsx
 "use client";
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { supabase } from "../../lib/supabaseClient";
 
-const PRESETS = [
-  "Quantum error correction is becoming engineering.",
-  "Physical AI is entering deployment phase.",
-  "Fusion increases strategic autonomy.",
-  "Infrastructure determines which futures remain possible.",
-  "Civilization advances when knowledge becomes reproducible capability.",
+const POST_TYPES = [
+  "Observation",
+  "Question",
+  "Perspective",
+  "Proposal",
+  "Discussion",
+  "Announcement",
+  "Civilization Question",
 ];
 
-const SOURCE_TYPES = [
-  "Nature",
+const TOPICS = [
+  "Civilization",
   "Science",
-  "Cell",
-  "NASA",
-  "ESA",
-  "arXiv",
-  "GitHub",
-  "Company",
-  "YouTube",
-  "X",
-  "Other",
+  "Technology",
+  "Architecture",
+  "Space",
+  "Energy",
+  "AI",
+  "Governance",
+  "Education",
+  "Capital",
 ];
 
-const CATEGORIES = ["Science", "Technology", "Civilization"];
+const AUTHOR_TYPES = [
+  "Observer",
+  "Builder",
+  "Architect",
+  "Researcher",
+  "Founder",
+  "Citizen",
+];
 
-const AUTHOR_TYPES = ["Observer", "Builder", "Architect"];
-
-const trustScoreMap: Record<string, number> = {
-  Nature: 100,
-  Science: 98,
-  Cell: 98,
-  NASA: 97,
-  ESA: 97,
-  arXiv: 80,
-  GitHub: 70,
-  Company: 60,
-  YouTube: 45,
-  X: 40,
-  Other: 20,
-};
-
-function getVerificationStatus(
-  sourceType: string,
-  trustScore: number
-) {
-  if (
-    ["Nature", "Science", "Cell", "NASA", "ESA"]
-      .includes(sourceType)
-  ) {
-    return "verified";
-  }
-
-  if (trustScore >= 70) {
-    return "candidate";
-  }
-
-  return "community";
-}
+const PRESETS = [
+  "What future should civilization prepare for next?",
+  "This discovery may change how we think about infrastructure.",
+  "Should this capability become a Builder project?",
+  "The long-term consequence matters more than the immediate headline.",
+  "Civilization advances when knowledge becomes shared capability.",
+];
 
 function randomId() {
   return Math.floor(100 + Math.random() * 900);
 }
 
 export default function CrossingGatePage() {
-  const [category, setCategory] = useState("Science");
+  const [postType, setPostType] = useState("Observation");
+  const [topic, setTopic] = useState("Civilization");
   const [authorType, setAuthorType] = useState("Observer");
-  const [sourceType, setSourceType] = useState("Nature");
   const [url, setUrl] = useState("");
   const [text, setText] = useState("");
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
 
-  const remaining = useMemo(() => Math.max(0, 180 - text.length), [text.length]);
+  const remaining = useMemo(() => Math.max(0, 280 - text.length), [text.length]);
 
   const submit = async () => {
     setMsg(null);
@@ -85,17 +66,21 @@ export default function CrossingGatePage() {
     const cleanUrl = url.trim();
 
     if (t.length < 6) {
-      setMsg("Write a short crossing fragment (min 6 chars).");
+      setMsg("Write a crossing fragment of at least 6 characters.");
       return;
     }
 
-    if (t.length > 180) {
-      setMsg("Keep the fragment within 180 characters.");
+    if (t.length > 280) {
+      setMsg("Keep the crossing within 280 characters.");
       return;
     }
 
-    if (cleanUrl && !cleanUrl.startsWith("http://") && !cleanUrl.startsWith("https://")) {
-      setMsg("Source URL must start with http:// or https://.");
+    if (
+      cleanUrl &&
+      !cleanUrl.startsWith("http://") &&
+      !cleanUrl.startsWith("https://")
+    ) {
+      setMsg("Reference URL must start with http:// or https://.");
       return;
     }
 
@@ -104,47 +89,39 @@ export default function CrossingGatePage() {
     try {
       const author = `${authorType} #${randomId()}`;
 
-const trustScore =
-  trustScoreMap[sourceType] ?? 0;
-
-const verificationStatus =
-  getVerificationStatus(
-    sourceType,
-    trustScore
-  );
-
-const { data, error } = await supabase
-  .from("gate_fragments")
-  .insert({
-    category,
-    source_type: sourceType,
-    url: cleanUrl || null,
-
-    verification_status:
-      verificationStatus,
-
-    trust_score:
-      trustScore,
-
-    text: t,
-    author,
-    likes: 0,
-    reposts: 0,
-    replies: 0,
-  })
-  .select();
+      const { error } = await supabase.from("gate_fragments").insert({
+        category: topic,
+        post_type: postType,
+        topic,
+        discussion_status: "open",
+        source_type: "Community",
+        url: cleanUrl || null,
+        verification_status: "community",
+        trust_score: 50,
+        text: t,
+        author,
+        likes: 0,
+        reposts: 0,
+        replies: 0,
+        support_count: 0,
+        challenge_count: 0,
+        expand_count: 0,
+        is_civilization_question: postType === "Civilization Question",
+        builder_candidate: false,
+        senate_reference: false,
+        featured: postType === "Civilization Question",
+        support_threshold: 100,
+      });
 
       if (error) {
         console.error("SUPABASE INSERT ERROR", error);
-        setMsg(`Failed to record: ${error.message}`);
+        setMsg(`Failed to post: ${error.message}`);
         return;
       }
 
-      console.log("INSERTED", data);
-
-      window.location.href = "/home";
+      window.location.href = "/crossings";
     } catch {
-      setMsg("Failed to record. Try again.");
+      setMsg("Failed to post. Try again.");
     } finally {
       setBusy(false);
     }
@@ -154,32 +131,49 @@ const { data, error } = await supabase
     <main className="gate">
       <div className="gate-inner">
         <div className="gate-head">
+          <span className="home-section-label">ARCHENOVA CROSSINGS</span>
+
           <h1 className="gate-title">Crossing Gate</h1>
 
           <p className="gate-sub">
-            Leave a knowledge fragment for the ArcheNova crossing layer.
+            Enter a thought into the Global Forum for Civilization.
           </p>
         </div>
 
         <div className="glass-block gate-block">
           <p className="text">
-            Crossings is a community knowledge layer.
-            <br />
-            Signals remain verified separately through official sources.
+            Crossings is for dialogue, questions, perspectives, proposals, and
+            open discussion. It is a public communication layer, not an official
+            research signal.
           </p>
 
           <div className="gate-field">
-            <label className="gate-label">Category</label>
+            <label className="gate-label">Post Type</label>
 
             <div className="gate-presets">
-              {CATEGORIES.map((c) => (
+              {POST_TYPES.map((item) => (
                 <button
-                  key={c}
+                  key={item}
                   type="button"
-                  className={`gate-preset ${category === c ? "active" : ""}`}
-                  onClick={() => setCategory(c)}
+                  className={`gate-preset ${postType === item ? "active" : ""}`}
+                  onClick={() => setPostType(item)}
                 >
-                  {c}
+                  {item}
+                </button>
+              ))}
+            </div>
+
+            <label className="gate-label">Topic</label>
+
+            <div className="gate-presets">
+              {TOPICS.map((item) => (
+                <button
+                  key={item}
+                  type="button"
+                  className={`gate-preset ${topic === item ? "active" : ""}`}
+                  onClick={() => setTopic(item)}
+                >
+                  {item}
                 </button>
               ))}
             </div>
@@ -187,34 +181,21 @@ const { data, error } = await supabase
             <label className="gate-label">Identity</label>
 
             <div className="gate-presets">
-              {AUTHOR_TYPES.map((a) => (
+              {AUTHOR_TYPES.map((item) => (
                 <button
-                  key={a}
+                  key={item}
                   type="button"
-                  className={`gate-preset ${authorType === a ? "active" : ""}`}
-                  onClick={() => setAuthorType(a)}
+                  className={`gate-preset ${
+                    authorType === item ? "active" : ""
+                  }`}
+                  onClick={() => setAuthorType(item)}
                 >
-                  {a}
+                  {item}
                 </button>
               ))}
             </div>
 
-            <label className="gate-label">Source Type</label>
-
-            <div className="gate-presets">
-              {SOURCE_TYPES.map((s) => (
-                <button
-                  key={s}
-                  type="button"
-                  className={`gate-preset ${sourceType === s ? "active" : ""}`}
-                  onClick={() => setSourceType(s)}
-                >
-                  {s}
-                </button>
-              ))}
-            </div>
-
-            <label className="gate-label">Source URL</label>
+            <label className="gate-label">Reference URL</label>
 
             <input
               className="gate-input"
@@ -224,33 +205,33 @@ const { data, error } = await supabase
               placeholder="https://..."
             />
 
-            <label className="gate-label">Leave a crossing fragment</label>
+            <label className="gate-label">Crossing</label>
 
             <textarea
               className="gate-input"
               value={text}
               onChange={(e) => setText(e.target.value)}
-              placeholder='Example: "Physical AI is entering deployment phase."'
-              rows={4}
-              maxLength={180}
+              placeholder="Share an observation, question, perspective, proposal, or discussion point."
+              rows={5}
+              maxLength={280}
             />
 
             <div className="gate-meta">
               <span className="gate-hint">
-                Crossings are community posts. Signals remain official.
+                Open discussion. Public dialogue. Civilization-scale thinking.
               </span>
               <span className="gate-count">{remaining}</span>
             </div>
 
             <div className="gate-presets">
-              {PRESETS.map((p) => (
+              {PRESETS.map((item) => (
                 <button
-                  key={p}
+                  key={item}
                   type="button"
                   className="gate-preset"
-                  onClick={() => setText(p)}
+                  onClick={() => setText(item)}
                 >
-                  {p}
+                  {item}
                 </button>
               ))}
             </div>
@@ -259,15 +240,18 @@ const { data, error } = await supabase
 
             <div className="gate-actions">
               <button className="inline-link" onClick={submit} disabled={busy}>
-                {busy ? "Recording…" : "Enter Crossing →"}
+                {busy ? "Posting…" : "Enter Crossing →"}
               </button>
+
+              <Link href="/crossings" className="inline-link">
+                View Crossings →
+              </Link>
             </div>
           </div>
         </div>
 
         <p className="gate-foot">
-          Community knowledge is collected here. Official intelligence remains
-          separated from Signals.
+          Crossings is the living conversation layer of ArcheNova.
         </p>
       </div>
     </main>

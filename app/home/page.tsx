@@ -2,6 +2,7 @@ import Link from "next/link";
 import Reveal from "../components/Reveal";
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
+import GateFragments from "../components/GateFragments";
 
 export default function Home() {
   return (
@@ -150,40 +151,10 @@ export default function Home() {
               technology, capital, law, governance, education, and knowledge.
             </p>
 
-            <div className="an-grid-3">
-              <div className="an-card">
-                <strong>Space</strong>
-                <p>Space, architecture, cities, infrastructure, and habitats.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Science</strong>
-                <p>basic science, observation, theory, and models.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Technology</strong>
-                <p>Engineering, AI, energy, manufacturing, and implementation.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Capital</strong>
-                <p>Business creation, industrialization, markets, investment, and scale.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Law / Governance</strong>
-                <p>Institutions, law, legitimacy, governance, and standards.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Education / Knowledge</strong>
-               <p>Knowledge inheritance, learning, preservation, and archives.</p>
-              </div>
-            </div>
-
             <Link href="/civilization" className="an-button">
+            <p>
               Enter Civilization →
+              </p>
             </Link>
           </div>
         </Reveal>
@@ -421,55 +392,81 @@ export default function Home() {
           </div>
         </Reveal>
       </section>
-
-      {/* PAGE 09 : RECENT CROSSINGS */}
+       {/* PAGE 09 : CROSSINGS */}
       <section
-  id="home-crossings"
+        id="home-crossings"
+        data-home-section
+        className="home-page twin-page"
+      >
+        <Reveal>
+          <div className="an-section">
+            <GateFragments />
+          </div>
+        </Reveal>
+      </section>
+    {/* =========================
+    CHAPTER : PROGRAMS
+   ========================= */}
+<section
+  id="home-chapter-programs"
   data-home-section
-  className="home-page twin-page"
+  className="home-page twin-page home-chapter-page"
 >
   <Reveal>
-    <div className="crossings-portal">
-      <span className="crossings-portal-label">
-        ARCHENOVA CROSSINGS
-      </span>
+    <div className="home-chapter">
+      <span className="home-chapter-label">CHAPTER III</span>
 
-      <h2 className="crossings-portal-title">
-        A civilization
+      <div className="home-chapter-line" />
+
+      <h2 className="home-chapter-title">
+        Programs
         <br />
-        signal network.
+        Builders
+        <br />
+        Implementation
       </h2>
 
-      <p className="crossings-portal-text">
-        Crossings is ArcheNova&apos;s public signal layer — a place to observe,
-        post, verify, discuss, and promote civilizational signals across
-        science, technology, space, capital, governance, and knowledge.
+      <p className="home-chapter-text">
+        From dialogue and deliberation to projects, programs, collaboration,
+        and civilizational implementation.
       </p>
 
-      <div className="crossings-portal-flow">
-        <span>Observe</span>
-        <span>Post</span>
-        <span>Verify</span>
-        <span>Discuss</span>
-        <span>Promote</span>
-      </div>
-
-      <div className="crossings-portal-links">
-        <Link href="/crossings" className="hero-entry-card">
-          <div className="hero-entry-label">SIGNAL FEED</div>
-          <div className="hero-entry-title">View Crossings</div>
-          <div className="hero-entry-hint">Open →</div>
-        </Link>
-
-        <Link href="/crossing-gate" className="hero-entry-card">
-          <div className="hero-entry-label">SIGNAL GATE</div>
-          <div className="hero-entry-title">Enter Crossing Gate</div>
-          <div className="hero-entry-hint">Open →</div>
-        </Link>
-      </div>
+      <div className="home-chapter-scroll">Continue ↓</div>
     </div>
   </Reveal>
 </section>
+
+      {/* PAGE 08 : PROGRAMS */}
+      <section
+        id="home-programs"
+        data-home-section
+        className="home-page twin-page"
+      >
+        <Reveal>
+          <div className="an-section">
+            <span className="an-label">CIVILIZATION PROGRAMS</span>
+
+            <h2 className="an-heading">
+              Turning civilizational
+              <br />
+              thought into programs.
+            </h2>
+
+            <p className="an-body">
+              Civilization Programs translate constitutional principles,
+              public dialogue, evidence, Senate deliberation, and strategic
+              priorities into organized initiatives for implementation.
+            </p>
+
+            <div className="an-grid-4">
+              <Link href="/programs" className="an-card">
+                <strong>Active Programs</strong>
+                <p>Ongoing initiatives moving from knowledge into capability.</p>
+              </Link>
+            </div>
+          </div>
+        </Reveal>
+      </section>
     </main>
   );
 }

@@ -1,8 +1,86 @@
 {
   "ok": true,
+<<<<<<< HEAD
   "updated": "2026-06-26T14:30:11.002Z",
   "items": [
     {
+=======
+  "updated": "2026-06-26T16:47:43.290Z",
+  "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genome Editing at the Turning Point—Bringing CRISPR to Clinical Reality",
+      "url": "https://www.genengnews.com/multimedia/gen-live/genome-editing-at-the-turning-point-bringing-crispr-to-clinical-reality/",
+      "summary": "This GEN Live show will bring together a panel of leading experts to break down the latest advances, innovations, and challenges shaping genome editing. The post Genome Editing at the Turning Point—Bringing CRISPR to Cli…",
+      "ts": 1782492450000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Intravesical CAR T-Cell Therapy Reduces Bladder Cancer Growth in Preclinical Model",
+      "url": "https://www.genengnews.com/topics/cancer/intravesical-car-t-cell-therapy-reduces-bladder-cancer-growth-in-preclinical-model/",
+      "summary": "Researchers identified the protein MUC16 as a clinically relevant target for bladder cancer, and engineered MUC16-targeting CAR T cells that, when delivered into the bladder via a catheter, controlled bladder tumors in m…",
+      "ts": 1782489810000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Identifies More Than 40 Space Technologies for Collaboration",
+      "url": "https://www.nasa.gov/news-release/nasa-identifies-more-than-40-space-technologies-for-collaboration/",
+      "summary": "NASA selected 41 proposals from 37 companies to advance technologies in support of the agency’s goals to establish a long-term presence on the Moon and enable human exploration of Mars. These American companies, picked f…",
+      "ts": 1782488278000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Nipah and Hendra Viruses: Antibody Cocktail Provides Complete Protection in Hamster Model",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/nipah-and-hendra-viruses-antibody-cocktail-provides-complete-protection-in-hamster-model/",
+      "summary": "Researchers developed the first human antibody cocktail to completely protect against the lethal Nipah and Hendra virus infection in preclinical models, advancing a promising dual-target strategy for future outbreaks. Th…",
+      "ts": 1782487306000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Euclid Sees Heart of Milky Way",
+      "url": "https://www.nasa.gov/image-article/euclid-sees-heart-of-milky-way/",
+      "summary": "Euclid, an ESA (European Space Agency) mission with NASA contributions, took a new look at the heart of our Milky Way galaxy, seen in this image released on June 24, 2026. This observation overlaps with a region scientis…",
+      "ts": 1782487278000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "From Lab to Orbit | Turning Space Science into Reality | ESA Explores #21",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/From_Lab_to_Orbit_Turning_Space_Science_into_Reality_ESA_Explores_21",
+      "summary": "Video: 00:18:53 Go behind the scenes at ESA’s European Astronaut Centre in Cologne, Germany, and discover how space experiments are prepared long before they reach orbit. Meet the ECOS team, as Deputy Manager Salvi Verma…",
+      "ts": 1782486000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/06/26/up-down-ladder-jobs-pharma-biotech-sanofi-biogen-lilly-pfizer/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1782485803000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Bringing Signals to NASA",
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/bringing-signals-to-nasa/",
+      "summary": "Growing up on the central California coast, watching rocket launches with his father was part of Eric Fernandez’s childhood routine. Fernandez had posters of rockets on the wall, but despite being fascinated by them, he …",
+      "ts": 1782484137000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s PACE Mission Studies Smoke, Fires",
+      "url": "https://science.nasa.gov/earth/nasas-pace-mission-studies-smoke-fires/",
+      "summary": "With the North American fire season underway, and a record number of acres already burned nationwide, NASA’s Plankton, Aerosol, Cloud, and ocean Ecosystem (PACE) satellite’s three instruments are observing vegetation pre…",
+      "ts": 1782482400000,
+      "categoryId": "space"
+    },
+    {
+>>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "source": "STAT",
       "title": "988’s LGBTQ+ hotline to relaunch this year. But the group that helped start it might be excluded",
       "url": "https://www.statnews.com/2026/06/26/988-lgbtq-hotline-relaunch-trevor-project/?utm_campaign=rss",
@@ -19,6 +97,17 @@
       "categoryId": "bio"
     },
     {
+<<<<<<< HEAD
+=======
+      "source": "NASA",
+      "title": "Hubble Spies Starry Chandelier",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-spies-starry-chandelier/",
+      "summary": "This NASA/ESA Hubble Space Telescope image features the globular cluster NGC 6723, sometimes called the Chandelier Cluster.",
+      "ts": 1782481212000,
+      "categoryId": "space"
+    },
+    {
+>>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about a bill to overhaul the 340B program, a new FDA commissioner candidate, and more",
       "url": "https://www.statnews.com/pharmalot/2026/06/26/bill-overhaul-340b-program-new-fda-commisioner-candidate/?utm_campaign=rss",
@@ -67,6 +156,33 @@
       "categoryId": "space"
     },
     {
+<<<<<<< HEAD
+=======
+      "source": "United Nations News",
+      "title": "Deaths in US immigration custody must be investigated: UN rights chief",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167816",
+      "summary": "UN High Commissioner for Human Rights Volker Türk on Friday called for stronger independent oversight of the United States immigration detention system and investigations into all deaths in US Immigration and Customs Enf…",
+      "ts": 1782475200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela earthquakes LIVE: Death toll rises amid recovery and rescue efforts",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167815",
+      "summary": "Nearly seven million Venezuelans could be affected by this week’s double earthquakes as the death toll rises to at least 235 people amid massive, growing needs and ongoing emergency search and rescue efforts, UN agencies…",
+      "ts": 1782475200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela quake: ‘People still terrified to re-enter what were their homes’",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167814",
+      "summary": "Aid agencies on Friday highlighted massive needs across Venezuela caused by a double earthquake disaster that has killed at least 235 people so far, with search and rescue for people trapped under the rubble still the to…",
+      "ts": 1782475200000,
+      "categoryId": "global-governance"
+    },
+    {
+>>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "source": "SpaceNews",
       "title": "ISS repair spacewalk highlights concerns about station health",
       "url": "https://spacenews.com/iss-repair-spacewalk-highlights-concerns-about-station-health/",
@@ -83,6 +199,25 @@
       "categoryId": "bio"
     },
     {
+<<<<<<< HEAD
+=======
+      "source": "IAEA News",
+      "title": "IAEA Director General in Japan Supporting Nuclear Energy, Safety and Cancer Care",
+      "url": "http://www.iaea.org/newscenter/news/iaea-director-general-in-japan-supporting-nuclear-energy-safety-and-cancer-care",
+      "summary": "IAEA Director General Rafael Mariano Grossi visited Japan this week to strengthen cooperation in nuclear energy, safety, environmental remediation, and cancer care.",
+      "ts": 1782473405000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Workshop on Stakeholder Engagement for SMRs Tackles Challenges",
+      "url": "http://www.iaea.org/newscenter/news/iaea-workshop-on-stakeholder-engagement-for-smrs-tackles-challenges",
+      "summary": "",
+      "ts": 1782472753000,
+      "categoryId": "energy-climate"
+    },
+    {
+>>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "source": "SpaceNews",
       "title": "Europe’s next security challenge is in orbit",
       "url": "https://spacenews.com/europes-next-security-challenge-is-in-orbit/",
@@ -144,6 +279,17 @@
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Desert_cropland",
       "summary": "Image: These Copernicus Sentinel-2 images show agricultural development in the desert of southern Egypt, close to the border with Sudan.",
       "ts": 1782460800000,
+<<<<<<< HEAD
+=======
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "The Battle for Sullivan’s Island",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
+      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
+      "ts": 1782446400000,
+>>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "categoryId": "space"
     },
     {
@@ -406,7 +552,7 @@
       "source": "SpaceNews",
       "title": "Weather Stream releases first light imagery from GEMS2 microwave radiometer",
       "url": "https://spacenews.com/weather-stream-releases-first-light-imagery-from-gems2-microwave-radiometer/",
-      "summary": "SAN FRANCISCO – Weather Stream, a Boulder, Colorado, commercial weather satellite operator, is collecting global atmospheric observations with its GEMS2-Amethyst satellite. Launched March 30 aboard the SpaceX Transporter…",
+      "summary": "Updated with comments from Weather Stream CEO Michael Hurowitz. SAN FRANCISCO – Weather Stream, a Boulder, Colorado, commercial weather satellite operator, is collecting global atmospheric observations with its GEMS2-Ame…",
       "ts": 1782425178000,
       "categoryId": "space"
     },
@@ -601,6 +747,7 @@
       "summary": "The latest pharmaceutical news from the Pharmalot campus via the Pharmalittle newsletter",
       "ts": 1782392587000,
       "categoryId": "bio"
+<<<<<<< HEAD
     },
     {
       "source": "NVIDIA",
@@ -721,6 +868,8 @@
       "summary": "New bill proposes expanding methadone access, $5.7 trillion on U.S. health care, and more health news from Morning Rounds",
       "ts": 1782388120000,
       "categoryId": "bio"
+=======
+>>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
     }
   ],
   "categories": [

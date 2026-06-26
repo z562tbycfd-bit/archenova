@@ -3,11 +3,13 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { supabase } from "../../lib/supabaseClient";
-import { getSignalPromotion } from "../../lib/crossingPromotion";
 
 type Crossing = {
   id: string;
   category: string;
+  post_type?: string;
+  topic?: string;
+  discussion_status?: string;
   source_type?: string;
   url?: string;
   verification_status?: string;
@@ -20,183 +22,107 @@ type Crossing = {
   created_at: string;
 };
 
-const fallbackCrossings: Crossing[] = [
-  {
-    id: "fallback-1",
-    category: "Science",
-    source_type: "Nature",
-    url: "https://www.nature.com",
-    verification_status: "verified",
-    trust_score: 100,
-    text: "Quantum error correction is becoming engineering.",
-    author: "Observer #472",
-    likes: 12,
-    reposts: 3,
-    replies: 5,
-    created_at: new Date().toISOString(),
-  },
-  {
-    id: "fallback-2",
-    category: "Technology",
-    source_type: "GitHub",
-    url: "https://github.com",
-    verification_status: "community",
-    trust_score: 70,
-    text: "Physical AI is entering deployment phase.",
-    author: "Builder #118",
-    likes: 24,
-    reposts: 8,
-    replies: 9,
-    created_at: new Date().toISOString(),
-  },
-  {
-    id: "fallback-3",
-    category: "Civilization",
-    source_type: "Science",
-    url: "https://www.science.org",
-    verification_status: "verified",
-    trust_score: 98,
-    text: "Fusion increases strategic autonomy.",
-    author: "Architect #221",
-    likes: 41,
-    reposts: 12,
-    replies: 18,
-    created_at: new Date().toISOString(),
-  },
-];
+const fallbackCrossing: Crossing = {
+  id: "fallback-crossing",
+  category: "Civilization",
+  post_type: "Question",
+  topic: "Civilization",
+  discussion_status: "open",
+  source_type: "Community",
+  verification_status: "community",
+  trust_score: 50,
+  text: "What future should civilization prepare for next?",
+  author: "Observer #001",
+  likes: 0,
+  reposts: 0,
+  replies: 0,
+  created_at: new Date().toISOString(),
+};
 
-export default function GateFragments({ limit = 5 }: { limit?: number }) {
-  const [items, setItems] = useState<Crossing[] | null>(null);
+export default function GateFragments() {
+  const [latest, setLatest] = useState<Crossing | null>(null);
 
   useEffect(() => {
     let cancelled = false;
 
-    async function loadCrossings() {
+    async function loadLatestCrossing() {
       const { data, error } = await supabase
         .from("gate_fragments")
         .select("*")
         .order("created_at", { ascending: false })
-        .limit(limit);
+        .limit(1)
+        .maybeSingle();
 
       if (cancelled) return;
 
       if (error) {
         console.error("SUPABASE SELECT ERROR", error);
-        setItems(fallbackCrossings);
+        setLatest(fallbackCrossing);
         return;
       }
 
-      setItems(data && data.length ? data : fallbackCrossings);
+      setLatest(data ?? fallbackCrossing);
     }
 
-    loadCrossings();
+    loadLatestCrossing();
 
     return () => {
       cancelled = true;
     };
-  }, [limit]);
+  }, []);
 
-  const crossings = items ?? fallbackCrossings;
-
-  const handleLike = async (item: Crossing) => {
-    const nextLikes = item.likes + 1;
-
-    setItems((prev) =>
-      (prev ?? fallbackCrossings).map((x) =>
-        x.id === item.id ? { ...x, likes: nextLikes } : x
-      )
-    );
-
-    if (item.id.startsWith("fallback")) return;
-
-    const { error } = await supabase
-      .from("gate_fragments")
-      .update({ likes: nextLikes })
-      .eq("id", item.id);
-
-    if (error) {
-      console.error("LIKE UPDATE ERROR", error);
-    }
-  };
+  const item = latest ?? fallbackCrossing;
 
   return (
     <section className="gate-fragments">
-      <div className="x-card crossings-card">
-        <div className="crossings-title">Today&apos;s Crossings</div>
+      <div className="x-card crossings-card home-crossings-card">
+        <span className="home-section-label">ARCHENOVA CROSSINGS</span>
 
-        <div className="crossings-feed">
-          {crossings.map((item) => {
-            const promotion = getSignalPromotion(item);
+        <h2 className="crossings-portal-title">
+          The Global Forum
+          <br />
+          for Civilization
+        </h2>
 
-            return (
-              <article key={item.id} className="crossing-post">
-                <div className="crossing-category">
-                  [{item.category}]
-                  {item.source_type && (
-                    <span className="crossing-source">
-                      {" "}
-                      • {item.source_type}
-                    </span>
-                  )}
-                </div>
+        <p className="crossings-portal-text">
+          A public crossing layer for dialogue, real-time knowledge sharing,
+          civilization-scale perspectives, proposals, and open discussion.
+        </p>
 
-                <p className="crossing-text">{item.text}</p>
+        <div className="home-crossing-latest">
+          <div className="crossing-category">
+            [{item.post_type ?? "Observation"}]
+            <span className="crossing-source">
+              {" "}
+              • {item.topic ?? item.category}
+            </span>
+          </div>
 
-                {item.url && (
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="crossing-link"
-                  >
-                    Open Source ↗
-                  </a>
-                )}
+          <p className="crossing-text">{item.text}</p>
 
-                <div
-                  className={`crossing-verification verification-${
-                    item.verification_status ?? "community"
-                  }`}
-                >
-                  Status: {item.verification_status ?? "community"}
-                  {" • "}
-                  Trust: {item.trust_score ?? 0}
-                </div>
+          <div className="crossing-author">{item.author}</div>
 
-                <div
-                  className={`crossing-promotion promotion-${promotion.level}`}
-                  title={promotion.description}
-                >
-                  {promotion.label}
-                </div>
+          <div className="crossing-stats">
+            <span>♥ {item.likes}</span>
+            <span>↺ {item.reposts}</span>
+            <span>💬 {item.replies}</span>
+          </div>
+        </div>
 
-                <div className="crossing-author">{item.author}</div>
-
-                <div className="crossing-stats">
-                  <button
-                    type="button"
-                    className="crossing-action"
-                    onClick={() => handleLike(item)}
-                  >
-                    ♥ {item.likes}
-                  </button>
-
-                  <span>↺ {item.reposts}</span>
-
-                  <span>💬 {item.replies}</span>
-                </div>
-              </article>
-            );
-          })}
+        <div className="crossings-portal-flow">
+          <span>Dialogue</span>
+          <span>Knowledge Sharing</span>
+          <span>Civilization Signals</span>
+          <span>Open Discussion</span>
         </div>
 
         <div className="crossing-gate-wrap">
           <Link href="/crossings" className="crossing-gate-link">
-            View Feed →
+            Open Crossings →
           </Link>
 
           <Link href="/crossing-gate" className="crossing-gate-link">
-            Enter Gate →
+            Create Crossing →
           </Link>
         </div>
       </div>
