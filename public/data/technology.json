@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-26T21:21:10.557Z",
+  "updated": "2026-06-26T23:09:22.318Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Rocket Lab launches 10th Synspective satellite",
+      "url": "https://spacenews.com/rocket-lab-launches-10th-synspective-satellite/",
+      "summary": "Rocket Lab launched a radar-imaging satellite for Japanese company Synspective on June 26, a flight delayed by a responsive space mission. The post Rocket Lab launches 10th Synspective satellite appeared first on SpaceNe…",
+      "ts": 1782512258000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Spain-backed fund joins FOSSA’s sovereign satellite communications push",
@@ -201,6 +209,46 @@
       "summary": "Former SpaceX engineers who helped build and scale Starlink have launched a startup aiming to deliver megaconstellations for governments and companies seeking more control over space-based infrastructure. The post Starli…",
       "ts": 1782475200000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Violence displaces thousands in Haiti and Lebanon, Gaza updates, UN food agency delivers in Ebola-stricken DR Congo",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167823",
+      "summary": "More than 2,600 people were displaced in the Artibonite department of Haiti following clashes between armed groups last week as the humanitarian situation continues to worsen, according to the UN’s Office for the Coordin…",
+      "ts": 1782475200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: Window is closing to prevent wider escalation in El Obeid",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167821",
+      "summary": "A senior United Nations official warned on Friday that the opportunity to prevent a major escalation in the Sudanese city of El Obeid is “rapidly narrowing” as fighting intensifies in and around the North Kordofan state …",
+      "ts": 1782475200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Guterres urges renewed commitment to multilateralism on UN Charter Day",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167820",
+      "summary": "Secretary-General António Guterres and General Assembly President Annalena Baerbock reaffirmed the principles outlined in the UN Charter and called for a renewed commitment to multilateralism at a General Assembly meetin…",
+      "ts": 1782475200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Strait of Hormuz: UN evacuates 2,500 seafarers before attack freezes rescue operation",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167818",
+      "summary": "The United Nations’ maritime agency said on Friday that it had successfully evacuated about 2,500 stranded seafarers from the Persian Gulf before suspending the operation, after an attack on a commercial vessel exposed u…",
+      "ts": 1782475200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Global drug use reaches record high as increasingly potent synthetic drugs spread",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167817",
+      "summary": "More people are using drugs than ever before, while synthetic substances are reshaping illicit markets and exposing vulnerable communities to greater health risks, according to the UN World Drug Report 2026, released on …",
+      "ts": 1782475200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -673,54 +721,6 @@
       "summary": "The deal would add Bio-Techne’s multiomics offerings, analytical technologies, and integrated workflow solutions to German Merck’s platforms and services in research, bioprocessing and advanced therapeutics, with the aim…",
       "ts": 1782414755000,
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "BIO 2026: FDA Leadership Confront Workforce Losses, China Competition in Drug Development",
-      "url": "https://www.genengnews.com/topics/drug-discovery/bio-2026-fda-leadership-confront-workforce-losses-china-competition-in-drug-development/",
-      "summary": "The panel, which featured the acting directors of Center for Drug Evaluation and Research and the Center for Biologics Evaluation and Research, and the acting chief of staff, focused on the FDA’s current priorities and i…",
-      "ts": 1782414008000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "The mysterious case of Eli Lilly’s obesity drug",
-      "url": "https://www.statnews.com/2026/06/25/readout-loud-podcast-eli-lilly-fda-obesity-trump-absci-regenxbio/?utm_campaign=rss",
-      "summary": "Who got exclusive access to Eli Lilly's highly anticipated obesity candidate? And why are drugmakers spending so much on acquisitions? Find out on this week's \"Readout LOUD.\"",
-      "ts": 1782413924000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cassidy proposes bill to rein in 340B drug discount program",
-      "url": "https://www.statnews.com/2026/06/25/cassidy-bill-rein-in-340b-drug-discount-program/?utm_campaign=rss",
-      "summary": "Placing new limits on the 340B drug discount program would be a fresh challenge for hospitals as they confront funding cuts.",
-      "ts": 1782408759000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Supreme Court ruling blocks thousands of lawsuits against maker of Roundup weedkiller",
-      "url": "https://www.statnews.com/2026/06/25/supreme-court-blocks-thousands-lawsuits-roundup-weedkiller-cancer/?utm_campaign=rss",
-      "summary": "The Supreme Court sided with the maker of Roundup weedkiller in a ruling expected to block thousands of lawsuits alleging it failed to warn people the product could cause cancer.",
-      "ts": 1782407758000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Proposed CDC science office could tighten political control at agency",
-      "url": "https://www.statnews.com/2026/06/25/cdc-new-science-office-tighter-political-control/?utm_campaign=rss",
-      "summary": "Under President Trump, political leaders are exerting more control across federal health agencies.",
-      "ts": 1782403832000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Small satellite operators confront a bottleneck to space access",
-      "url": "https://spacenews.com/small-satellite-operators-confront-a-bottleneck-to-space-access/",
-      "summary": "For years, small satellite manufacturers have built their business plans around the idea that SpaceX could launch their payload to space. Through its Falcon 9 Transporter and Bandwagon rideshare missions, […] The post Sm…",
-      "ts": 1782403266000,
-      "categoryId": "space"
     }
   ],
   "categories": [

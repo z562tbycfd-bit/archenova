@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-26T21:21:07.885Z",
+  "updated": "2026-06-26T23:09:18.318Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Proactive employees with high emotional intelligence do a better job, study finds",
+      "url": "https://phys.org/news/2026-06-proactive-employees-high-emotional-intelligence.html",
+      "summary": "In many organizations, large hierarchical gaps exist within work teams, raising the question of how frontline employees can strive for upward mobility in their careers. A recent study by the Department of Psychology at L…",
+      "ts": 1782512403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Coal pollution reaches one of Earth's most remote mountain regions",
+      "url": "https://phys.org/news/2026-06-coal-pollution-earth-remote-mountain.html",
+      "summary": "The Himalayas are often seen as one of Earth's great natural barriers, separating the heavily populated and industrialized regions of South Asia from the remote Tibetan Plateau. But new research, published in Geophysical…",
+      "ts": 1782511201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why Ho Chi Minh City's pollution sources may have been misread for years",
+      "url": "https://phys.org/news/2026-06-ho-chi-minh-city-pollution.html",
+      "summary": "Biomass burning, including the combustion of wood, charcoal and agricultural residues, is a major source of PM2.5, a fine particulate matter that degrades air quality and poses risks to human health. Much of this polluti…",
+      "ts": 1782510002000
+    },
     {
       "source": "Phys.org",
       "title": "Clean crystal surface lets single molecules hit ultimate quantum limit",
@@ -679,27 +700,6 @@
       "title": "Identification of MHD equilibrium $\\beta$ limits for CFQS plasmas",
       "url": "https://arxiv.org/abs/2606.26675",
       "summary": "arXiv:2606.26675v1 Announce Type: new Abstract: The magnetohydrodynamic (MHD) equilibrium $\\beta$ limits in the Chinese First QuasiAxisymmetric Stellarator (CFQS) are investigated using the NTEC code, for both the standa…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modelling convective cell occurrence in proximity to cold fronts using extreme gradient boosting",
-      "url": "https://arxiv.org/abs/2606.26699",
-      "summary": "arXiv:2606.26699v1 Announce Type: new Abstract: Machine learning is emerging as a valuable tool for convection-related applications such as post-processing numerical weather prediction output, improving understanding of …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development and Characterization of Low-Scattering Vanadium Nanoparticle Targets for Short-Range Interaction Searches",
-      "url": "https://arxiv.org/abs/2606.26732",
-      "summary": "arXiv:2606.26732v1 Announce Type: new Abstract: We developed high-purity vanadium-based nanoparticle targets for neutron scattering experiments aimed at exploring gravity-like short-range new interactions in the submicro…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Giant Second-Harmonic Generation in 3R-MoS2/MLM Hybrid Metasurfaces Cavities",
-      "url": "https://arxiv.org/abs/2606.26751",
-      "summary": "arXiv:2606.26751v1 Announce Type: new Abstract: Nonlinear 2D materials such as 3R-phase molybdenum disulfide (3R-MoS2) offer strong second-order optical nonlinearities in an atomically thin platform, making them attracti…",
       "ts": 1782446400000
     }
   ],
