@@ -5,28 +5,28 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 const ITEMS = [
-  { href: "/", label: "Home" },
-  { href: "/capital-responsibility", label: "Capital & Responsibility" },
-  { href: "/institutional-position", label: "Institutional Position" },
-  { href: "/identity", label: "About / Identity" },
-  { href: "/contact", label: "Contact / Access" },
+  { href: "/home", label: "Home", note: "ArcheNova entrance" },
+  { href: "/civilization", label: "Civilization", note: "Integrated civilization model" },
+  { href: "/architecture", label: "Architecture", note: "Civilization design architecture" },
+  { href: "/senate", label: "Senate", note: "Civilizational deliberation" },
+  { href: "/constitution", label: "Constitution", note: "Principles and continuity" },
+  { href: "/research", label: "Observatory", note: "Signals, reports, models" },
+  { href: "/equation", label: "Equation", note: "ArcheNova equation" },
+  { href: "/orientation", label: "Orientation", note: "Framework and domains" },
+  { href: "/contact", label: "Contact", note: "Access and connection" },
 ];
 
 export default function Menu() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-
-  // ★閉じる“吸い込み”のために、closing状態を短時間保持
   const [closing, setClosing] = useState(false);
-
   const panelRef = useRef<HTMLDivElement | null>(null);
 
   const requestClose = () => {
-    // すでに閉じ処理中なら何もしない
     if (closing) return;
 
     setClosing(true);
-    // CSSアニメが終わるまで描画を残す（後述CSSと合わせて 260ms）
+
     window.setTimeout(() => {
       setOpen(false);
       setClosing(false);
@@ -37,6 +37,7 @@ export default function Menu() {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") requestClose();
     };
+
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [closing]);
@@ -50,10 +51,14 @@ export default function Menu() {
     return pathname?.startsWith(href);
   };
 
-  const showOverlay = open || closing; // ★closing中も表示を残す
+  const showOverlay = open || closing;
 
   return (
-    <div className={`menu ${open ? "is-open" : ""} ${closing ? "is-closing" : ""}`}>
+    <div
+      className={`menu ${open ? "is-open" : ""} ${
+        closing ? "is-closing" : ""
+      }`}
+    >
       {!showOverlay && (
         <button
           type="button"
@@ -68,7 +73,6 @@ export default function Menu() {
 
       {showOverlay && (
         <div className="menu-overlay">
-          {/* 背景クリックで閉じる領域（panelの外だけ） */}
           <button
             type="button"
             className="menu-backdrop"
@@ -76,12 +80,13 @@ export default function Menu() {
             onClick={requestClose}
           />
 
-          {/* panel */}
           <div className="menu-panel" ref={panelRef} tabIndex={-1}>
             <div className="menu-top">
               <div>
                 <span className="menu-brand-title">ArcheNova</span>
-                <span className="menu-brand-sub">Irreversible initial conditions</span>
+                <span className="menu-brand-sub">
+                  Founder-led civilization design initiative
+                </span>
               </div>
 
               <button
@@ -94,15 +99,29 @@ export default function Menu() {
               </button>
             </div>
 
+            <div className="menu-index-label">
+              Founder / Civilization / Imagination / Design
+            </div>
+
             <nav className="menu-nav">
-              {ITEMS.map((it) => (
+              {ITEMS.map((it, index) => (
                 <Link
                   key={it.href}
                   href={it.href}
                   className={`menu-item ${isActive(it.href) ? "active" : ""}`}
                   onClick={requestClose}
                 >
-                  {it.label}
+                  <span className="menu-item-main">
+                    <span className="menu-item-number">
+                      {String(index).padStart(2, "0")}
+                    </span>
+
+                    <span className="menu-item-text">
+                      <strong>{it.label}</strong>
+                      <small>{it.note}</small>
+                    </span>
+                  </span>
+
                   <span className="menu-arrow">→</span>
                 </Link>
               ))}
@@ -114,14 +133,23 @@ export default function Menu() {
                 rel="noreferrer"
                 onClick={requestClose}
               >
-                X (ArcheNova_X)
+                <span className="menu-item-main">
+                  <span className="menu-item-number">X</span>
+
+                  <span className="menu-item-text">
+                    <strong>ArcheNova_X</strong>
+                    <small>Public signal channel</small>
+                  </span>
+                </span>
+
                 <span className="menu-arrow">↗</span>
               </a>
             </nav>
 
             <div className="menu-foot">
               <span className="menu-foot-note">
-                What matters is not control — only constraints that cannot be reversed.
+                Not a company. Not an institution. A living architecture of
+                civilizational imagination.
               </span>
             </div>
           </div>

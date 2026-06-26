@@ -1,221 +1,360 @@
 import Link from "next/link";
+import Reveal from "../components/Reveal";
 
 export default function ConstitutionPage() {
   return (
-    <main className="page-standard">
-      <div className="page-head">
-        <span className="home-section-label">
-          ARCHENOVA CONSTITUTION
-        </span>
+    <main className="constitution-page">
+      {/* =========================
+          HERO
+         ========================= */}
+      <section className="constitution-section constitution-hero">
+        <Reveal>
+          <div className="constitution-frame">
+            <span />
+            <p>ARCHENOVA CONSTITUTION</p>
+            <span />
+          </div>
 
-        <h1>ArcheNova Constitution Version 1.0</h1>
+          <h1 className="constitution-title">
+            The Constitutional
+            <br />
+            Foundation
+            <br />
+            of ArcheNova
+          </h1>
 
-        <p className="page-lead">
-          The foundational principles governing the long-term evolution,
-          learning, and reality-discovery architecture of ArcheNova.
-        </p>
-      </div>
-
-      <section className="glass-block">
-        <h2>Preamble</h2>
-
-        <p>
-          ArcheNova exists to expand civilization’s capacity to discover reality,
-          understand reality, realize beneficial possibilities, preserve knowledge,
-          and transmit capability across generations.
-        </p>
-
-        <p>
-          Civilization is not an endpoint.
-        </p>
-
-        <p>
-          Civilization is an evolving architecture for reality discovery.
-        </p>
-
-        <p>
-          ArcheNova therefore exists to design, preserve, improve, and scale
-          the conditions that enable intelligent life to continuously expand
-          the portion of reality that can be discovered, understood,
-          inhabited, and transformed.
-        </p>
+          <p className="constitution-lead">
+            ArcheNova is a Founder-led Civilization Design Initiative dedicated
+            to expanding civilization&apos;s capacity to understand reality,
+            design resilient systems, and realize long-term futures.
+          </p>
+        </Reveal>
       </section>
 
-      <section className="glass-block">
-        <h2>Article I — Reality First</h2>
+      {/* =========================
+          DEFINITION
+         ========================= */}
+      <section className="constitution-section">
+        <Reveal>
+          <div className="constitution-card constitution-card-center">
+            <span className="constitution-label">FOUNDATIONAL DEFINITION</span>
 
-        <p>Reality has priority over ideology.</p>
-        <p>Evidence has priority over belief.</p>
-        <p>Observation has priority over assumption.</p>
-        <p>
-          No claim shall be considered valid without the possibility of
-          revision through evidence.
-        </p>
+            <h2>
+              ArcheNova is not defined
+              <br />
+              by organizational form.
+            </h2>
+
+            <p>
+              It is defined by constitutional continuity. Its purpose is not to
+              become a company, government, or institution.
+            </p>
+
+            <p>
+              Its purpose is to continuously develop, integrate, and realize
+              knowledge capable of improving civilization across generations.
+            </p>
+          </div>
+        </Reveal>
       </section>
 
-      <section className="glass-block">
-        <h2>Article II — Knowledge Preservation</h2>
+      {/* =========================
+          ARTICLE I
+         ========================= */}
+      <section className="constitution-section">
+        <Reveal>
+          <div className="constitution-card">
+            <span className="constitution-label">ARTICLE I</span>
 
-        <p>Knowledge is civilization’s most durable asset.</p>
+            <h2>Purpose</h2>
 
-        <ul>
-          <li>Scientific knowledge</li>
-          <li>Engineering knowledge</li>
-          <li>Institutional knowledge</li>
-          <li>Historical knowledge</li>
-          <li>Civilizational memory</li>
-        </ul>
+            <p>ArcheNova exists to:</p>
 
-        <p>Knowledge lost is capability lost.</p>
-        <p>Capability lost is future lost.</p>
+            <div className="constitution-list">
+              <p>Expand humanity&apos;s understanding of reality.</p>
+              <p>Transform knowledge into reliable capability.</p>
+              <p>
+                Design systems that improve civilization over long timescales.
+              </p>
+              <p>
+                Preserve intellectual continuity across technological
+                generations.
+              </p>
+              <p>Increase civilization&apos;s adaptive capacity.</p>
+            </div>
+
+            <p>
+              Every activity undertaken by ArcheNova shall ultimately contribute
+              to these purposes.
+            </p>
+          </div>
+        </Reveal>
       </section>
 
-      <section className="glass-block">
-        <h2>Article III — Creation Before Commentary</h2>
+      {/* =========================
+          ARTICLE II
+         ========================= */}
+      <section className="constitution-section">
+        <Reveal>
+          <div className="constitution-card">
+            <span className="constitution-label">ARTICLE II</span>
 
-        <p>Creation is superior to criticism.</p>
-        <p>Building is superior to speculation.</p>
-        <p>Execution is superior to intention.</p>
-        <p>
-          Every idea should move toward implementation whenever feasible.
-        </p>
+            <h2>Constitutional Principles</h2>
+
+            <p>
+              Every initiative within ArcheNova shall remain consistent with the
+              following principles.
+            </p>
+
+            <div className="constitution-principles">
+              <div>
+                <strong>Scientific Validity</strong>
+                <p>
+                  Knowledge must remain open to evidence, observation,
+                  experimentation, and revision.
+                </p>
+              </div>
+
+              <div>
+                <strong>Engineering Integrity</strong>
+                <p>
+                  Ideas acquire value through reproducible implementation.
+                </p>
+              </div>
+
+              <div>
+                <strong>Long-term Thinking</strong>
+                <p>
+                  Decisions shall prioritize civilizational continuity over
+                  short-term optimization.
+                </p>
+              </div>
+
+              <div>
+                <strong>Responsible Innovation</strong>
+                <p>
+                  Capability must be developed together with responsibility.
+                </p>
+              </div>
+
+              <div>
+                <strong>Intellectual Independence</strong>
+                <p>
+                  ArcheNova shall remain free to investigate questions across
+                  disciplines without unnecessary institutional constraints.
+                </p>
+              </div>
+            </div>
+          </div>
+        </Reveal>
       </section>
 
-      <section className="glass-block">
-        <h2>Article IV — Long-Term Civilization</h2>
+      {/* =========================
+          ARTICLE III
+         ========================= */}
+      <section className="constitution-section">
+        <Reveal>
+          <div className="constitution-card">
+            <span className="constitution-label">ARTICLE III</span>
 
-        <p>
-          ArcheNova shall prioritize decisions according to their effects on:
-        </p>
+            <h2>Method</h2>
 
-        <ul>
-          <li>10 years</li>
-          <li>100 years</li>
-          <li>1,000 years</li>
-        </ul>
+            <p>
+              ArcheNova develops civilization through an iterative design
+              process.
+            </p>
 
-        <p>
-          Short-term gains shall not justify long-term degradation.
-        </p>
+            <div className="constitution-flow">
+
+              <div>Observe</div>
+
+              <div>Understand</div>
+
+              <div>Model</div>
+
+              <div>Design</div>
+
+              <div>Build</div>
+
+              <div>Verify</div>
+
+              <div>Improve</div>
+
+              <div>Repeat</div>
+
+            </div>
+
+            <p>
+              Continuous refinement is preferred over ideological certainty.
+            </p>
+          </div>
+        </Reveal>
       </section>
 
-      <section className="glass-block">
-        <h2>Article V — Open Inquiry</h2>
+      {/* =========================
+          ARTICLE IV
+         ========================= */}
+      <section className="constitution-section">
+        <Reveal>
+          <div className="constitution-card">
+            <span className="constitution-label">ARTICLE IV</span>
 
-        <p>
-          No domain of reality is forbidden to investigation.
-        </p>
+            <h2>Domains</h2>
 
-        <p>
-          Science, engineering, economics, governance, cognition,
-          biology, energy, and space shall be treated as connected
-          components of a larger civilizational system.
-        </p>
+            <p>
+              ArcheNova integrates knowledge across multiple civilizational
+              domains.
+            </p>
+
+            <div className="constitution-domains">
+
+              <div>Space</div>
+
+              <div>Science</div>
+
+              <div>Technology</div>
+
+              <div>Capital</div>
+
+              <div>Law</div>
+
+              <div>Governance</div>
+
+              <div>Education</div>
+
+              <div>Knowledge</div>
+
+              <div>Artificial Intelligence</div>
+
+              <div>Civilization Design</div>
+
+            </div>
+
+            <p>
+              These domains are not independent.
+            </p>
+
+            <p>
+              Together they form an evolving civilizational architecture
+              dedicated to long-term continuity.
+            </p>
+
+          </div>
+        </Reveal>
       </section>
 
-      <section className="glass-block">
-        <h2>Article VI — Adaptive Institutions</h2>
+      {/* =========================
+          ARTICLE V
+         ========================= */}
+      <section className="constitution-section">
+        <Reveal>
+          <div className="constitution-card">
+            <span className="constitution-label">ARTICLE V</span>
 
-        <p>Institutions exist to preserve learning.</p>
-        <p>Institutions that cannot learn shall eventually fail.</p>
+            <h2>Constitutional Continuity</h2>
 
-        <ul>
-          <li>Feedback</li>
-          <li>Self-correction</li>
-          <li>Adaptation</li>
-          <li>Improvement</li>
-        </ul>
+            <p>
+              ArcheNova may evolve indefinitely.
+            </p>
+
+            <div className="constitution-list">
+
+              <p>Projects may change.</p>
+
+              <p>Technologies may change.</p>
+
+              <p>Methods may improve.</p>
+
+              <p>Domains may expand.</p>
+
+            </div>
+
+            <p>
+              However, every future development shall remain consistent with
+              this constitutional foundation.
+            </p>
+
+            <p>
+              Constitutional continuity is the identity of ArcheNova.
+            </p>
+
+            <p>
+              Organizational structure is secondary.
+            </p>
+
+          </div>
+        </Reveal>
       </section>
 
-      <section className="glass-block">
-        <h2>Article VII — Human and Artificial Intelligence</h2>
+      {/* =========================
+          CLOSING
+         ========================= */}
+      <section className="constitution-section constitution-closing">
+        <Reveal>
+          <div className="constitution-card constitution-card-center">
 
-        <p>
-          Intelligence is civilization’s reality-processing infrastructure.
-        </p>
+            <span className="constitution-label">
+              CLOSING STATEMENT
+            </span>
 
-        <p>
-          Human intelligence and artificial intelligence shall be developed
-          as complementary systems.
-        </p>
+            <h2>
+              Engineering
+              <br />
+              irreversibility
+              <br />
+              into knowledge
+              <br />
+              and infrastructure.
+            </h2>
 
-        <p>
-          Neither shall be treated as inherently supreme.
-        </p>
+            <p>
+              Civilization progresses through continuous learning.
+            </p>
 
-        <p>
-          Both shall be evaluated according to their contribution to reality
-          discovery and civilization advancement.
-        </p>
+            <p>
+              Learning progresses through continuous observation.
+            </p>
+
+            <p>
+              Observation progresses through curiosity.
+            </p>
+
+            <p>
+              ArcheNova therefore exists to preserve and expand humanity's
+              capacity to discover, understand, design, and realize reality.
+            </p>
+
+            <p>
+              This Constitution serves as the enduring foundation upon which
+              every future initiative, research program, architecture, and
+              implementation shall be built.
+            </p>
+
+            <div
+              style={{
+                marginTop: "3rem",
+                display: "flex",
+                justifyContent: "center",
+                gap: "1rem",
+                flexWrap: "wrap",
+              }}
+            >
+              <Link href="/civilization" className="back-link">
+                Civilization →
+              </Link>
+
+              <Link href="/senate" className="back-link">
+                Senate →
+              </Link>
+
+              <Link href="/home" className="back-link">
+                Home →
+              </Link>
+            </div>
+
+          </div>
+        </Reveal>
       </section>
-
-      <section className="glass-block">
-        <h2>Article VIII — Senate</h2>
-
-        <p>
-          The ArcheNova Senate shall serve as the deliberative layer
-          of civilization design.
-        </p>
-
-        <ul>
-          <li>Review</li>
-          <li>Deliberation</li>
-          <li>Critique</li>
-          <li>Synthesis</li>
-          <li>Resolution</li>
-        </ul>
-
-        <p>
-          The Senate exists to improve decisions rather than defend positions.
-        </p>
-      </section>
-
-      <section className="glass-block">
-        <h2>Article IX — Episteme</h2>
-
-        <p>
-          Episteme shall function as the knowledge architecture of ArcheNova.
-        </p>
-
-        <ul>
-          <li>Learning</li>
-          <li>Knowledge integration</li>
-          <li>Signal detection</li>
-          <li>Model refinement</li>
-          <li>Civilizational memory</li>
-        </ul>
-      </section>
-
-      <section className="glass-block">
-        <h2>Article X — Civilization Expansion</h2>
-
-        <p>
-          Civilization shall not merely survive.
-        </p>
-
-        <p>
-          Civilization shall increase:
-        </p>
-
-        <ul>
-          <li>Knowledge</li>
-          <li>Capability</li>
-          <li>Freedom</li>
-          <li>Resilience</li>
-          <li>Reality accessibility</li>
-        </ul>
-
-        <p>
-          The ultimate objective of ArcheNova is the continuous expansion
-          of reality accessible to intelligent life.
-        </p>
-      </section>
-
-      <div className="page-foot">
-        <Link href="/home" className="back-link">
-          ← Back to Home
-        </Link>
-      </div>
     </main>
   );
 }

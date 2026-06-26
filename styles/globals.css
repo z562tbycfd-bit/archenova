@@ -12938,3 +12938,1234 @@ font-size: 0.72rem;
     bottom: 0;
   }
 }
+
+
+
+
+/* =========================================================
+   ARCHENOVA LAYOUT / FIT ONLY
+   Do not change glass backgrounds or card colors
+   ========================================================= */
+
+/* 1画面ずつめくる */
+.home-snap,
+.civilization-snap {
+  height: 100svh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+/* 各ページを1画面内に収める */
+.home-page,
+.twin-page,
+.civilization-hero,
+.civilization-map,
+.civilization-flow,
+.civilization-synthesis {
+  height: 100svh;
+  min-height: 100svh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  padding: 4.2rem 1.2rem 5rem;
+}
+
+/* 中身の最大高さを制限してはみ出し防止 */
+.an-container,
+.an-section,
+.twin-section,
+.twin-hero,
+.twin-closing,
+.civilization-hero > div:not(.civilization-orbit),
+.civilization-map > div,
+.civilization-flow > div,
+.civilization-synthesis > div,
+.home-section {
+  max-height: calc(100svh - 9rem);
+  overflow: hidden;
+}
+
+/* 文字サイズを旧版寄りに抑える */
+.an-title,
+.twin-title,
+.civilization-hero h1,
+.hero-title {
+  font-size: clamp(3rem, 10vw, 7rem);
+  line-height: 0.92;
+}
+
+.an-heading,
+.twin-section h2,
+.twin-closing h2,
+.civilization-map h2,
+.civilization-flow h2,
+.civilization-synthesis h2,
+.twin-statement,
+.civilization-lead,
+.hero-statement {
+  font-size: clamp(1.7rem, 4.8vw, 3.9rem);
+  line-height: 1.05;
+}
+
+.an-body,
+.an-lead,
+.twin-section p,
+.twin-definition,
+.civilization-definition,
+.civilization-synthesis p,
+.hero-definition,
+.home-section-purpose {
+  font-size: clamp(0.78rem, 1.1vw, 0.98rem);
+  line-height: 1.58;
+}
+
+/* カード量を画面内に収める */
+.an-grid-3,
+.an-grid-4,
+.twin-grid,
+.twin-entry-grid,
+.civilization-domain-grid,
+.civilization-flow-grid,
+.hero-entry-grid {
+  margin-top: 1.2rem;
+  gap: 0.7rem;
+}
+
+/* カード内テキストのはみ出し防止 */
+.an-card,
+.twin-card,
+.twin-entry-card,
+.civilization-domain-card,
+.civilization-flow-grid > div,
+.hero-entry-card {
+  min-height: auto;
+  padding: 0.9rem 1rem;
+  overflow: hidden;
+}
+
+.an-card strong,
+.twin-card strong,
+.twin-entry-card strong,
+.civilization-domain-card strong {
+  margin-top: 0.65rem;
+  font-size: clamp(0.84rem, 1.05vw, 1rem);
+  line-height: 1.2;
+}
+
+.an-card p,
+.twin-card p,
+.twin-entry-card p,
+.civilization-domain-card p,
+.civilization-flow-grid p,
+.hero-entry-hint {
+  font-size: clamp(0.64rem, 0.85vw, 0.76rem);
+  line-height: 1.42;
+}
+
+/* スマホではカードを縦積みにして、表示量を抑える */
+@media (max-width: 768px) {
+  .home-page,
+  .twin-page,
+  .civilization-hero,
+  .civilization-map,
+  .civilization-flow,
+  .civilization-synthesis {
+    padding: 4rem 0.9rem 5.2rem;
+  }
+
+  .an-grid-3,
+  .an-grid-4,
+  .twin-grid,
+  .twin-entry-grid,
+  .civilization-domain-grid,
+  .civilization-flow-grid,
+  .hero-entry-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin-top: 0.9rem;
+  }
+
+  .an-title,
+  .twin-title,
+  .civilization-hero h1,
+  .hero-title {
+    font-size: clamp(2.8rem, 15vw, 5rem);
+  }
+
+  .an-heading,
+  .twin-section h2,
+  .twin-closing h2,
+  .civilization-map h2,
+  .civilization-flow h2,
+  .civilization-synthesis h2,
+  .twin-statement,
+  .civilization-lead,
+  .hero-statement {
+    font-size: clamp(1.45rem, 7.2vw, 2.65rem);
+  }
+
+  .an-body,
+  .an-lead,
+  .twin-section p,
+  .twin-definition,
+  .civilization-definition,
+  .civilization-synthesis p,
+  .hero-definition,
+  .home-section-purpose {
+    font-size: 0.74rem;
+    line-height: 1.48;
+  }
+
+  .civilization-domain-card:nth-child(n + 5),
+  .civilization-flow-grid > div:nth-child(n + 5),
+  .an-grid-3 .an-card:nth-child(n + 5),
+  .an-grid-4 .an-card:nth-child(n + 5) {
+    display: none;
+  }
+}
+
+/* =========================================================
+   ARCHENOVA MENU CSS
+   Glass navigation only
+   ========================================================= */
+
+.menu {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 120;
+}
+
+.menu-btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.035);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  cursor: pointer;
+}
+
+.menu-icon,
+.menu-icon::before,
+.menu-icon::after {
+  display: block;
+  width: 1.05rem;
+  height: 1px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.86);
+  content: "";
+}
+
+.menu-icon::before {
+  transform: translateY(-6px);
+}
+
+.menu-icon::after {
+  transform: translateY(5px);
+}
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 130;
+}
+
+.menu-backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: rgba(0, 0, 0, 0.48);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.menu-panel {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: min(430px, calc(100vw - 2rem));
+  max-height: calc(100svh - 2rem);
+  overflow-y: auto;
+  padding: 1.1rem;
+  border-radius: 30px;
+  color: rgba(255, 255, 255, 0.94);
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(22px) saturate(130%);
+  -webkit-backdrop-filter: blur(22px) saturate(130%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 28px 90px rgba(0, 0, 0, 0.42);
+  animation: menuEnter 260ms ease both;
+}
+
+.menu.is-closing .menu-panel {
+  animation: menuExit 260ms ease both;
+}
+
+@keyframes menuEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes menuExit {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.97);
+  }
+}
+
+.menu-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.35rem 0.35rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-brand-title {
+  display: block;
+  font-size: 1.25rem;
+  letter-spacing: -0.04em;
+  font-weight: 300;
+}
+
+.menu-brand-sub {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.68rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.48);
+}
+
+.menu-close {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.045);
+  color: rgba(255, 255, 255, 0.82);
+  cursor: pointer;
+}
+
+.menu-index-label {
+  margin: 1rem 0 0.8rem;
+  padding: 0 0.35rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.46);
+}
+
+.menu-nav {
+  display: grid;
+  gap: 0.28rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem;
+  padding: 0.78rem 0.75rem;
+  border-radius: 18px;
+  color: inherit;
+  text-decoration: none;
+  background: transparent;
+  transition:
+    background 220ms ease,
+    transform 220ms ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.menu-item.active {
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.menu-item-main {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  min-width: 0;
+}
+
+.menu-item-number {
+  min-width: 1.8rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.menu-item-text {
+  display: grid;
+  gap: 0.18rem;
+  min-width: 0;
+}
+
+.menu-item-text strong {
+  font-size: 0.94rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.menu-item-text small {
+  font-size: 0.68rem;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.48);
+}
+
+.menu-arrow {
+  color: rgba(255, 255, 255, 0.42);
+}
+
+.menu-foot {
+  margin-top: 0.9rem;
+  padding: 0.9rem 0.35rem 0.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.menu-foot-note {
+  display: block;
+  font-size: 0.68rem;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.52);
+}
+
+@media (max-width: 768px) {
+  .menu {
+    top: 0.85rem;
+    right: 0.85rem;
+  }
+
+  .menu-panel {
+    top: 0.75rem;
+    right: 0.75rem;
+    left: 0.75rem;
+    width: auto;
+    max-height: calc(100svh - 1.5rem);
+    border-radius: 26px;
+    padding: 0.95rem;
+  }
+
+  .menu-brand-title {
+    font-size: 1.1rem;
+  }
+
+  .menu-brand-sub {
+    font-size: 0.64rem;
+  }
+
+  .menu-item {
+    padding: 0.72rem 0.65rem;
+  }
+
+  .menu-item-text strong {
+    font-size: 0.88rem;
+  }
+
+  .menu-item-text small {
+    font-size: 0.64rem;
+  }
+}
+
+
+/* =========================================================
+   ARCHENOVA COMPONENT FIT OVERRIDE
+   Prevent imported components from overflowing HOME pages
+   ========================================================= */
+
+/* HOME内コンポーネント全体をページ内に収める */
+.home-page > *,
+.twin-page > * {
+  max-width: 100%;
+  max-height: calc(100svh - 8.8rem);
+  box-sizing: border-box;
+}
+
+/* GateFragments / Crossings系のはみ出し防止 */
+#home-crossings {
+  overflow: hidden;
+}
+
+#home-crossings > * {
+  max-width: min(100%, calc(100vw - 1.5rem));
+  max-height: calc(100svh - 8.8rem);
+  overflow: hidden;
+}
+
+/* Crossings内のカード・グリッドが広がりすぎる場合 */
+#home-crossings [class*="grid"],
+#home-crossings [class*="fragment"],
+#home-crossings [class*="gate"],
+#home-crossings [class*="card"] {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* DiscoverySlider / Galaxy系のはみ出し防止 */
+#home-galaxy {
+  overflow: hidden;
+}
+
+#home-galaxy > * {
+  width: 100%;
+  max-width: 100%;
+  max-height: calc(100svh - 7.5rem);
+  overflow: hidden;
+}
+
+/* Slider内部が横にはみ出す場合 */
+#home-galaxy [class*="slider"],
+#home-galaxy [class*="carousel"],
+#home-galaxy [class*="track"],
+#home-galaxy [class*="galaxy"] {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Senateカードが大きすぎる場合 */
+.senate-portal-card {
+  max-width: min(720px, 100%);
+  max-height: calc(100svh - 14rem);
+  overflow: hidden;
+}
+
+/* Orbit系の巨大表示を抑える */
+.senate-orbit {
+  max-width: min(420px, 82vw);
+  max-height: min(420px, 42svh);
+  margin-inline: auto;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .home-page > *,
+  .twin-page > * {
+    max-height: calc(100svh - 9.8rem);
+  }
+
+  #home-crossings > *,
+  #home-galaxy > * {
+    max-height: calc(100svh - 10rem);
+  }
+
+  .senate-portal-card {
+    max-height: calc(100svh - 13rem);
+  }
+
+  .senate-orbit {
+    max-width: 72vw;
+    max-height: 30svh;
+  }
+}
+
+/* =========================================================
+   ARCHENOVA COMPONENT SIZE FIT
+   Senate
+   ========================================================= */
+
+/* SENATE：円形オブジェクトを1画面内に収める */
+#home-senate .senate-portal-card {
+  width: min(620px, 92vw) !important;
+  height: auto !important;
+  max-height: calc(100svh - 18rem) !important;
+  margin: 1.2rem auto 0 !important;
+  padding: 0.8rem !important;
+  display: grid !important;
+  place-items: center !important;
+  overflow: hidden !important;
+}
+
+#home-senate .senate-orbit {
+  width: min(360px, 70vw) !important;
+  height: min(360px, 70vw) !important;
+  max-height: 38svh !important;
+  margin: 0 auto !important;
+  transform: scale(0.82);
+  transform-origin: center;
+}
+
+#home-senate .senate-title {
+  margin-top: 0.6rem !important;
+  font-size: clamp(0.85rem, 2vw, 1.1rem) !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+}
+
+#home-senate .plaza-hint {
+  margin-top: 0.35rem !important;
+  font-size: 0.72rem !important;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  #home-senate .senate-portal-card {
+    width: min(340px, 88vw) !important;
+    max-height: calc(100svh - 17rem) !important;
+    padding: 0.5rem !important;
+  }
+
+  #home-senate .senate-orbit {
+    width: min(260px, 68vw) !important;
+    height: min(260px, 68vw) !important;
+    max-height: 30svh !important;
+    transform: scale(0.72);
+  }
+}
+
+
+/* =========================================================
+   HOME CROSSINGS PORTAL
+   HOME only / no feed display
+   ========================================================= */
+
+.crossings-portal {
+  width: min(820px, 100%);
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.crossings-portal-label {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+.crossings-portal-title {
+  margin: 0.85rem 0 0;
+  font-size: clamp(2.1rem, 5.6vw, 4.8rem);
+  line-height: 0.95;
+  font-weight: 300;
+  letter-spacing: -0.06em;
+}
+
+.crossings-portal-text {
+  width: min(680px, 100%);
+  margin: 1.25rem auto 0;
+  font-size: clamp(0.82rem, 1.25vw, 1rem);
+  line-height: 1.7;
+  opacity: 0.68;
+}
+
+.crossings-portal-flow {
+  width: min(680px, 100%);
+  margin: 1.5rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.crossings-portal-flow span {
+  padding: 0.65rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  font-size: 0.72rem;
+  opacity: 0.72;
+}
+
+.crossings-portal-links {
+  width: min(680px, 100%);
+  margin: 1.5rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .crossings-portal {
+    width: min(100%, calc(100vw - 1.5rem));
+  }
+
+  .crossings-portal-title {
+    font-size: clamp(2rem, 10vw, 3.2rem);
+  }
+
+  .crossings-portal-text {
+    font-size: 0.76rem;
+    line-height: 1.55;
+  }
+
+  .crossings-portal-flow {
+    grid-template-columns: 1fr;
+    gap: 0.42rem;
+  }
+
+  .crossings-portal-links {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+}
+
+
+
+
+
+/* =========================================================
+   HOME CHAPTER DIVIDER
+   ========================================================= */
+
+.home-chapter-page{
+  display:grid;
+  place-items:center;
+}
+
+.home-chapter{
+  width:min(760px,100%);
+  text-align:center;
+}
+
+.home-chapter-label{
+
+display:block;
+
+font-size:.72rem;
+
+letter-spacing:.28em;
+
+text-transform:uppercase;
+
+color:rgba(255,255,255,.45);
+
+}
+
+.home-chapter-line{
+
+width:1px;
+
+height:120px;
+
+margin:1.4rem auto;
+
+background:
+
+linear-gradient(
+
+180deg,
+
+transparent,
+
+rgba(255,255,255,.65),
+
+transparent
+
+);
+
+}
+
+.home-chapter-title{
+
+margin:0;
+
+font-size:clamp(2.6rem,7vw,5.6rem);
+
+line-height:.95;
+
+font-weight:300;
+
+letter-spacing:-.06em;
+
+}
+
+.home-chapter-text{
+
+width:min(520px,100%);
+
+margin:1.6rem auto 0;
+
+font-size:clamp(.9rem,1.3vw,1rem);
+
+line-height:1.8;
+
+color:rgba(255,255,255,.62);
+
+}
+
+.home-chapter-scroll{
+
+margin-top:3rem;
+
+font-size:.78rem;
+
+letter-spacing:.18em;
+
+text-transform:uppercase;
+
+opacity:.45;
+
+animation:chapterFloat 2.8s ease-in-out infinite;
+
+}
+
+@keyframes chapterFloat{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(8px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.home-chapter-line{
+
+height:84px;
+
+}
+
+.home-chapter-title{
+
+font-size:clamp(2rem,11vw,3.4rem);
+
+}
+
+.home-chapter-text{
+
+font-size:.8rem;
+
+line-height:1.6;
+
+}
+
+}
+/* =========================================================
+   HOME CHAPTER DIVIDER
+   ========================================================= */
+
+.home-chapter-page {
+  display: grid;
+  place-items: center;
+}
+
+.home-chapter {
+  width: min(760px, 100%);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.home-chapter-label {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+}
+
+.home-chapter-line {
+  width: 1px;
+  height: 110px;
+  margin: 1.4rem auto;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(255,255,255,0.65),
+    transparent
+  );
+}
+
+.home-chapter-title {
+  margin: 0;
+  font-size: clamp(2.4rem, 7vw, 5.4rem);
+  line-height: 0.96;
+  font-weight: 300;
+  letter-spacing: -0.06em;
+}
+
+.home-chapter-text {
+  width: min(520px,100%);
+  margin: 1.5rem auto 0;
+  font-size: clamp(0.86rem,1.3vw,1rem);
+  line-height: 1.75;
+  color: rgba(255,255,255,0.62);
+}
+
+.home-chapter-scroll {
+  margin-top: 2.4rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.45;
+  animation: chapterFloat 2.8s ease-in-out infinite;
+}
+
+@keyframes chapterFloat {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+  100% { transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .home-chapter-line {
+    height: 78px;
+  }
+
+  .home-chapter-title {
+    font-size: clamp(2rem, 10vw, 3.4rem);
+  }
+
+  .home-chapter-text {
+    font-size: 0.78rem;
+    line-height: 1.6;
+  }
+}
+
+
+
+/* =========================================================
+   ARCHENOVA CONSTITUTION
+   ========================================================= */
+
+.constitution-page{
+  background:transparent;
+}
+
+.constitution-section{
+  min-height:100svh;
+  display:grid;
+  place-items:center;
+  padding:5rem 1.5rem;
+}
+
+.constitution-frame{
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  align-items:center;
+  gap:1rem;
+  width:min(900px,100%);
+  margin:0 auto 2rem;
+}
+
+.constitution-frame span{
+  height:1px;
+  background:linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,.45),
+    transparent
+  );
+}
+
+.constitution-frame p{
+  margin:0;
+  font-size:.68rem;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+
+.constitution-title{
+
+margin:0;
+
+text-align:center;
+
+font-size:clamp(4rem,10vw,8rem);
+
+line-height:.9;
+
+font-weight:300;
+
+letter-spacing:-.07em;
+
+}
+
+.constitution-lead{
+
+width:min(760px,100%);
+
+margin:2rem auto 0;
+
+text-align:center;
+
+font-size:1rem;
+
+line-height:1.8;
+
+color:rgba(255,255,255,.65);
+
+}
+
+.constitution-card{
+
+width:min(900px,100%);
+
+margin:auto;
+
+padding:3rem;
+
+}
+
+.constitution-card-center{
+
+text-align:center;
+
+}
+
+.constitution-label{
+
+display:block;
+
+margin-bottom:1rem;
+
+font-size:.7rem;
+
+letter-spacing:.22em;
+
+text-transform:uppercase;
+
+color:rgba(255,255,255,.45);
+
+}
+
+.constitution-card h2{
+
+margin:0;
+
+font-size:clamp(2rem,5vw,4.5rem);
+
+line-height:.95;
+
+font-weight:300;
+
+letter-spacing:-.05em;
+
+}
+
+.constitution-card p{
+
+margin-top:1.4rem;
+
+font-size:1rem;
+
+line-height:1.8;
+
+color:rgba(255,255,255,.68);
+
+}
+
+.constitution-list{
+
+margin-top:2rem;
+
+display:grid;
+
+gap:.8rem;
+
+}
+
+.constitution-list p{
+
+margin:0;
+
+}
+
+.constitution-principles{
+
+margin-top:2rem;
+
+display:grid;
+
+grid-template-columns:repeat(2,minmax(0,1fr));
+
+gap:1rem;
+
+}
+
+.constitution-principles div{
+
+padding:1.4rem;
+
+}
+
+.constitution-principles strong{
+
+display:block;
+
+margin-bottom:.8rem;
+
+font-size:1rem;
+
+font-weight:400;
+
+}
+
+.constitution-principles p{
+
+margin:0;
+
+font-size:.9rem;
+
+line-height:1.65;
+
+}
+
+.constitution-flow{
+
+margin-top:2rem;
+
+display:grid;
+
+grid-template-columns:repeat(4,minmax(0,1fr));
+
+gap:.75rem;
+
+}
+
+.constitution-flow div{
+
+padding:.9rem;
+
+border-radius:999px;
+
+font-size:.82rem;
+
+text-align:center;
+
+}
+
+.constitution-domains{
+
+margin-top:2rem;
+
+display:grid;
+
+grid-template-columns:repeat(5,minmax(0,1fr));
+
+gap:.75rem;
+
+}
+
+.constitution-domains div{
+
+padding:.9rem;
+
+border-radius:999px;
+
+text-align:center;
+
+font-size:.82rem;
+
+}
+
+.constitution-closing{
+
+padding-bottom:8rem;
+
+}
+
+@media(max-width:768px){
+
+.constitution-section{
+
+padding:3rem 1rem;
+
+}
+
+.constitution-frame{
+
+gap:.6rem;
+
+}
+
+.constitution-frame p{
+
+font-size:.55rem;
+
+letter-spacing:.12em;
+
+}
+
+.constitution-title{
+
+font-size:clamp(3rem,16vw,5rem);
+
+}
+
+.constitution-lead{
+
+font-size:.82rem;
+
+line-height:1.6;
+
+}
+
+.constitution-card{
+
+padding:1.25rem;
+
+}
+
+.constitution-card h2{
+
+font-size:clamp(2rem,9vw,3rem);
+
+}
+
+.constitution-card p{
+
+font-size:.82rem;
+
+line-height:1.6;
+
+}
+
+.constitution-principles{
+
+grid-template-columns:1fr;
+
+}
+
+.constitution-flow{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.constitution-domains{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}

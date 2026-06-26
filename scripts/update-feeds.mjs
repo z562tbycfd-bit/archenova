@@ -1000,6 +1000,8 @@ function makeArcheNovaSignal(item, index) {
   };
 }
 
+
+
 function writeArcheNovaSignals(scienceItems, technologyItems) {
   const items = [...scienceItems, ...technologyItems]
     .filter((item) => item.title && item.url)
@@ -1116,11 +1118,97 @@ export function getGeneratedResearchReport(slug: string) {
   console.log(`Generated lib/generatedResearchReports.ts: ${reports.length} reports`);
 }
 
+function writeGeneratedSenate(scienceItems, technologyItems) {
+  const rawItems = [...scienceItems, ...technologyItems]
+    .filter((item) => item.title && item.url)
+    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+    .filter(
+      (item, index, array) =>
+        array.findIndex((x) => x.url === item.url) === index
+    );
+
+  const reports = applySourceQuota(rawItems, 100).map(makeReport);
+
+  const agenda = reports
+    .sort(
+      (a, b) =>
+        (b.archeNovaAssessment?.overall || 0) -
+        (a.archeNovaAssessment?.overall || 0)
+    )
+    .slice(0, 12)
+    .map((report, index) => ({
+      id: `agenda-${index + 1}`,
+      rank: index + 1,
+      title: report.title,
+      slug: report.slug,
+      category: report.category,
+      source: report.source,
+      score: report.archeNovaAssessment?.overall || 0,
+      priority:
+        report.archeNovaAssessment?.overall >= 9.5
+          ? "Critical"
+          : report.archeNovaAssessment?.overall >= 9
+          ? "High"
+          : report.archeNovaAssessment?.overall >= 8
+          ? "Review"
+          : "Watch",
+
+      stage:
+        report.archeNovaAssessment?.overall >= 9
+          ? "Open Deliberation"
+          : "Evidence Review",
+
+      constitutionalQuestion:
+        report.category === "Energy"
+          ? "Should ArcheNova prioritize this energy capability?"
+          : report.category === "Space"
+          ? "Does this capability expand civilization beyond Earth?"
+          : report.category === "AI"
+          ? "How should this intelligence capability be governed?"
+          : report.category === "Bio"
+          ? "Does this strengthen adaptive capacity?"
+          : report.category === "Quantum"
+          ? "Does this expand reality discovery?"
+          : "How should this signal influence civilization?",
+
+      whyItMatters: report.whyItMatters,
+
+      architectureHandoff:
+        report.category === "Energy"
+          ? "Civilization Energy Architecture"
+          : report.category === "Space"
+          ? "Orbital Infrastructure"
+          : report.category === "AI"
+          ? "Intelligence Infrastructure"
+          : report.category === "Bio"
+          ? "Adaptive Capacity Systems"
+          : report.category === "Quantum"
+          ? "Reality Discovery Systems"
+          : "Civilization Architecture",
+
+      status: "Open",
+    }));
+
+  const output = `export const senateAgenda =
+${JSON.stringify(agenda, null, 2)};
+`;
+
+  fs.writeFileSync(
+    path.join(process.cwd(), "lib", "generatedSenate.ts"),
+    output
+  );
+
+  console.log(
+    "Generated lib/generatedSenate.ts: " + agenda.length + " agenda items"
+  );
+}
+
 const scienceItems = await buildScience();
 const technologyItems = await buildTechnology();
 
 writeGeneratedResearchReports(scienceItems, technologyItems);
 writeArcheNovaSignals(scienceItems, technologyItems);
+writeGeneratedSenate(scienceItems, technologyItems);
 
 console.log("Feed update completed");
 process.exit(0);

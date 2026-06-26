@@ -1,6 +1,10 @@
 {
   "ok": true,
+<<<<<<< HEAD
   "updated": "2026-06-25T23:21:12.049Z",
+=======
+  "updated": "2026-06-26T02:20:17.702Z",
+>>>>>>> 6ac16edf (Add Evidence Engine and Senate generation pipeline)
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -44,6 +48,17 @@
     },
     {
       "source": "NASA",
+<<<<<<< HEAD
+=======
+      "title": "Expedition 73 Crew Reflects on Science, Teamwork, and Life in Orbit ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/expedition-73-crew-reflects-on-science-teamwork-and-life-in-orbit/",
+      "summary": "On June 16, astronauts and cosmonauts gathered at Space Center Houston to share stories from their missions aboard the International Space Station and recognize the teamwork and people on the ground that made their missi…",
+      "ts": 1782423032000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+>>>>>>> 6ac16edf (Add Evidence Engine and Senate generation pipeline)
       "title": "NASA, US Small Business Administration to Announce Partnership",
       "url": "https://www.nasa.gov/news-release/nasa-us-small-business-administration-to-announce-partnership/",
       "summary": "NASA and the U.S. Small Business Administration will sign a memorandum of agreement during a ceremony at 1 p.m. EDT, Monday, June 29, at NASA Headquarters in Washington. The agreement will create a new interagency initia…",
@@ -251,6 +266,7 @@
       "categoryId": "bio"
     },
     {
+<<<<<<< HEAD
       "source": "United Nations News",
       "title": "Middle East: From Lebanon to the Strait of Hormuz, a region hangs on fragile peace talks",
       "url": "https://news.un.org/feed/view/en/story/2026/06/1167811",
@@ -307,6 +323,8 @@
       "categoryId": "global-governance"
     },
     {
+=======
+>>>>>>> 6ac16edf (Add Evidence Engine and Senate generation pipeline)
       "source": "STAT",
       "title": "Another roadblock for DOJ campaign against trans health",
       "url": "https://www.statnews.com/2026/06/25/health-news-another-roadblock-for-doj-campaign-against-trans-health/?utm_campaign=rss",
@@ -408,6 +426,16 @@
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Smile_reaches_science_orbit",
       "summary": "Image: Smile reaches science orbit",
       "ts": 1782374400000,
+<<<<<<< HEAD
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "A first: EarthCARE cloud data sharpen weather forecasts",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE/A_first_EarthCARE_cloud_data_sharpen_weather_forecasts",
+      "summary": "The European Space Agency’s EarthCARE satellite was developed to make a unique set of simultaneous measurements that shed new light on the role that clouds and aerosols play in regulating Earth’s climate. Now, in a remar…",
+      "ts": 1782370800000,
+=======
       "categoryId": "space"
     },
     {
@@ -419,11 +447,21 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "A Turquoise Tint for the Black Sea",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-turquoise-tint-for-the-black-sea/",
+      "summary": "Phytoplankton added a milky blue hue to the waters of the Black Sea and nearby waterways in spring and summer 2026.",
+      "ts": 1782360000000,
+>>>>>>> 6ac16edf (Add Evidence Engine and Senate generation pipeline)
+      "categoryId": "space"
+    },
+    {
       "source": "arXiv q-bio",
       "title": "Privacy-preserving federated tensor decomposition of single-cell immune data: recovering multicellular programs across institutions",
       "url": "https://arxiv.org/abs/2606.24938",
       "summary": "arXiv:2606.24938v1 Announce Type: new Abstract: Tensor decomposition of donor $\\times$ cell-type $\\times$ gene single-cell data recovers \\emph{multicellular programs}: coordinated axes of inter-individual transcriptional…",
       "ts": 1782360000000,
+<<<<<<< HEAD
       "categoryId": "bio"
     },
     {
@@ -561,6 +599,137 @@
       "summary": "Phytoplankton added a milky blue hue to the waters of the Black Sea and nearby waterways in spring and summer 2026.",
       "ts": 1782360000000,
       "categoryId": "space"
+=======
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Stable-Shift: Biologically Structured Prediction of Transcriptional Responses to Unseen Gene Perturbations",
+      "url": "https://arxiv.org/abs/2606.24940",
+      "summary": "arXiv:2606.24940v1 Announce Type: new Abstract: Predicting transcriptional responses to genetic perturbations could reduce the experimental burden of functional genomics, but extrapolation to genes that were never pertur…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "ML-MAWS: Alignment-Free Maximum Likelihood Phylogeny Estimation Using Minimal Absent Words",
+      "url": "https://arxiv.org/abs/2606.25584",
+      "summary": "arXiv:2606.25584v1 Announce Type: new Abstract: Alignment-free methods in phylogenetic tree construction have major benefits in computational efficiency over alignment-based methods, but most sacrifice sequence informati…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Molexar: A Unified Multimodal Molecular Foundation Model for Drug Design",
+      "url": "https://arxiv.org/abs/2606.25865",
+      "summary": "arXiv:2606.25865v1 Announce Type: new Abstract: Molecular generation is a central challenge in drug discovery, requiring models that explore vast chemical space while satisfying diverse design constraints. We present Mol…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Topology-Dependent Emergence of Polychronous Neuronal Groups: A Recurrence-Plot Characterization",
+      "url": "https://arxiv.org/abs/2606.25874",
+      "summary": "arXiv:2606.25874v1 Announce Type: new Abstract: Polychronous Neuronal Groups (PNGs) reproducible, time-locked spatiotemporal firing cascades stabilised by Spike-Timing-Dependent Plasticity (STDP) and heterogeneous axonal…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Are Tabular Foundation Models Robust to Realistic Query Distribution Shifts in Microbiome Data?",
+      "url": "https://arxiv.org/abs/2606.24995",
+      "summary": "arXiv:2606.24995v1 Announce Type: cross Abstract: Tabular foundation models (TFMs) achieve strong performance on microbiome abundance data, yet their robustness under realistic distribution shift remains poorly character…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Weight geometry governs functional memory in complex systems",
+      "url": "https://arxiv.org/abs/2606.25826",
+      "summary": "arXiv:2606.25826v1 Announce Type: cross Abstract: Complex systems, from gene regulatory networks to neural circuits and transportation infrastructures, exhibit rich functional behaviour that topology alone does not captu…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Deviance-style normalization for jointly overdispersed counts",
+      "url": "https://arxiv.org/abs/2606.26061",
+      "summary": "arXiv:2606.26061v1 Announce Type: cross Abstract: We introduce a Dirichlet--multinomial (DM) deviance residualization for sparse, jointly overdispersed count matrices, the regime that dominates sequencing-based biochemic…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Collective dynamics in spiking neural networks: A systematic review",
+      "url": "https://arxiv.org/abs/2410.23876",
+      "summary": "arXiv:2410.23876v3 Announce Type: replace Abstract: This study aims to identify typical collective phenomena that emerge in excitatory and inhibitory (E-I) spiking neural networks as reported in recent computational stud…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The illusory simplicity of the feedforward pass: evidence for the dynamical nature of stimulus encoding along the primate ventral stream",
+      "url": "https://arxiv.org/abs/2604.12825",
+      "summary": "arXiv:2604.12825v2 Announce Type: replace Abstract: In studying primate vision, a large body of work focuses on the first feedforward sweep. During this initial time window, information is thought to pass through ventral…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "SC-TauPath: A Structural Connectivity Attribution Framework for Mapping Tau Propagation Pathways in Alzheimer's Disease",
+      "url": "https://arxiv.org/abs/2606.04066",
+      "summary": "arXiv:2606.04066v2 Announce Type: replace Abstract: Understanding how structural connections are associated with tau propagation in Alzheimer's disease (AD) remains a central open question, yet existing computational mod…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Prospective Coding and Path Integration Emerge as Equilibrium Solutions of Self-Organizing Neural Networks with Firing-Rate Adaptation",
+      "url": "https://arxiv.org/abs/2606.14649",
+      "summary": "arXiv:2606.14649v2 Announce Type: replace Abstract: Continuous Attractor Neural Networks (CANNs) traditionally rely on pre-wired recurrent connectivity to model spatial representations, path integration, and anticipatory…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "OmegAMP: Targeted AMP Discovery via Biologically Informed Generation",
+      "url": "https://arxiv.org/abs/2504.17247",
+      "summary": "arXiv:2504.17247v3 Announce Type: replace-cross Abstract: Deep learning-based antimicrobial peptide (AMP) discovery faces critical challenges such as limited controllability, lack of representations that efficiently mode…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Why Pool When You Can Flow? Active Learning with GFlowNets",
+      "url": "https://arxiv.org/abs/2509.00704",
+      "summary": "arXiv:2509.00704v2 Announce Type: replace-cross Abstract: The scalability of pool-based active learning is limited by the computational cost of evaluating large unlabeled datasets, a challenge that is particularly acute …",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Control of neural field equations with step-function inputs",
+      "url": "https://arxiv.org/abs/2510.22022",
+      "summary": "arXiv:2510.22022v2 Announce Type: replace-cross Abstract: Wilson-Cowan and Amari-type models capture nonlinear neural population dynamics, providing a fundamental framework for modeling how sensory and other exogenous in…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The Urysohn Ladder: Recursive Metric Contraction for Scalable Continual Learning",
+      "url": "https://arxiv.org/abs/2512.18471",
+      "summary": "arXiv:2512.18471v2 Announce Type: replace-cross Abstract: Continual learning systems face a fundamental geometric obstacle: as experience accumulates on a fixed-capacity manifold, covering numbers grow linearly with time…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks",
+      "url": "https://arxiv.org/abs/2602.06020",
+      "summary": "arXiv:2602.06020v3 Announce Type: replace-cross Abstract: How do protein structure prediction models fold proteins? We investigate this question through causal interventions on the folding trunks of ESMFold, OpenFold, an…",
+      "ts": 1782360000000,
+      "categoryId": "bio"
+>>>>>>> 6ac16edf (Add Evidence Engine and Senate generation pipeline)
     },
     {
       "source": "OpenAI",
@@ -584,6 +753,88 @@
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00634-3?rss=yes",
       "summary": "Vessel normalization aims to correct the abnormal vasculature in the tumor to improve drug delivery and immune control. In this issue of Cell, Wang et al. identify an immune-excluding vasculature in small-cell lung cance…",
       "ts": 1782345600000,
+<<<<<<< HEAD
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "A new sense for electrical fields",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00638-0?rss=yes",
+      "summary": "Most cells polarize and migrate in response to electrical fields. In this issue of Cell, Belliveau et al. identify TMEM154/Galvanin, a receptor that serves as a cellular antenna to sense electrical gradients and guide mi…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "CAR T targets: AI takes the wheel",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00652-5?rss=yes",
+      "summary": "Identifying safe and effective targets remains a major bottleneck for CAR T cell therapies. In this issue of Cell, Baker and colleagues developed a large language model (LLM)-assisted scoring framework to streamline this…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "The cGAS-STING pathway: Mechanism and medical implications",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00650-1?rss=yes",
+      "summary": "This review covers the biology of the cGAS-STING pathway, the cell’s alarm system that shapes immune and stress responses with impacts on a range of processes, from antiviral defense and tumor immunity to chronic inflamm…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "AI-driven discovery of GPNMB CAR T cells as a multi-cancer therapy",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00651-3?rss=yes",
+      "summary": "An AI-guided framework integrating high-resolution cellular atlases, public knowledge databases, and large language models enables a modular framework for CAR T cell target discovery. GPNMB emerged as a versatile candida…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Cell",
+      "title": "A disinhibitory basal forebrain-to-cortex projection supports sustained attention",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00646-X?rss=yes",
+      "summary": "A long-range inhibitory projection from the basal forebrain disinhibits the cortex to amplify sensory responses. This circuit encodes motivational salience and predicts moment-to-moment attentional performance, providing…",
+      "ts": 1782345600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "A coloured radiative cooling coating with high solar reflectance",
+      "url": "https://www.nature.com/articles/s41560-026-02085-8",
+      "summary": "",
+      "ts": 1782345600000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "A cascade hole-transfer strategy towards stable hybrid perovskite solar cells",
+      "url": "https://www.nature.com/articles/s41560-026-02088-5",
+      "summary": "",
+      "ts": 1782345600000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Batteries versus fuel cells for decarbonizing medium- and heavy-duty vehicles across applications",
+      "url": "https://www.nature.com/articles/s41560-026-02095-6",
+      "summary": "",
+      "ts": 1782345600000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Drug Targets LDL Receptor Pathway to Control Cholesterol",
+      "url": "https://www.genengnews.com/topics/drug-discovery/drug-targets-ldl-receptor-pathway-to-control-cholesterol/",
+      "summary": "Researchers uncovered a biological pathway that explains why high-cholesterol diets reduce the body's ability to clear harmful LDL cholesterol from the blood and identified a clinical-stage drug candidate that could pote…",
+      "ts": 1782339631000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA at the Ion: Orion Lessons from Artemis II Shape NASA’s Moon to Mars Path",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-at-the-ion-orion-lessons-from-artemis-ii-shape-nasas-moon-to-mars-path/",
+      "summary": "Seven weeks after the Orion spacecraft returned four astronauts from humanity’s first crewed journey around the Moon since Apollo, Artemis II Orion Vehicle Manager Branelle Rodriguez reflected on the mission’s achievemen…",
+      "ts": 1782336556000,
+=======
       "categoryId": "bio"
     },
     {
@@ -720,6 +971,108 @@
       "url": "https://www.statnews.com/2026/06/24/health-care-spending-up-7-point-3-percent-6-trillion-dollars-2026/?utm_campaign=rss",
       "summary": "People are getting more care and using lots of GLP-1 drugs, fueling a sharp increase in health care spending.",
       "ts": 1782331200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "BIO 2026: CEO Calls for U.S. Biotech Urgency and International Competitiveness",
+      "url": "https://www.genengnews.com/topics/translational-medicine/bio-2026-ceo-calls-for-u-s-biotech-urgency-and-international-competitiveness/",
+      "summary": "John Crowley emphasized industry modernization and solving \"man-made problems\" to outcompete rivals like China through improved U.S. innovation ecosystems. The post BIO 2026: CEO Calls for U.S. Biotech Urgency and Intern…",
+      "ts": 1782330818000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Roman Telescope Comes to Kennedy",
+      "url": "https://www.nasa.gov/image-article/roman-telescope-comes-to-kennedy/",
+      "summary": "In this June 21, 2026, photo, NASA’s Nancy Grace Roman Space Telescope arrives at the agency’s Kennedy Space Center in Florida aboard NASA’s Pegasus barge. After offloading and transportation to the spaceport’s Payload H…",
+      "ts": 1782330154000,
+>>>>>>> 6ac16edf (Add Evidence Engine and Senate generation pipeline)
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+<<<<<<< HEAD
+      "title": "Space Force seeks fresh bidders for satellite-control antennas",
+      "url": "https://spacenews.com/space-force-seeks-fresh-bidders-for-satellite-control-antennas/",
+      "summary": "After terminating $1.7 billion contract, Space Force to relaunch SCAR The post Space Force seeks fresh bidders for satellite-control antennas appeared first on SpaceNews.",
+      "ts": 1782336389000,
+=======
+      "title": "MDA Space wins contract for Radarsat replenishment satellite",
+      "url": "https://spacenews.com/mda-space-wins-contract-for-radarsat-replenishment-satellite/",
+      "summary": "MDA Space will build a radar imaging satellite for the Canadian Space Agency as the government studies options for a next-generation satellite system. The post MDA Space wins contract for Radarsat replenishment satellite…",
+      "ts": 1782329443000,
+>>>>>>> 6ac16edf (Add Evidence Engine and Senate generation pipeline)
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+<<<<<<< HEAD
+      "title": "La NASA compartirá los últimos avances del programa Base Lunar",
+      "url": "https://www.nasa.gov/news-release/la-nasa-compartira-los-ultimos-avances-del-programa-base-lunar/",
+      "summary": "Lea esta nota de prensa en inglés aquí. El administrador de la NASA, Jared Isaacman, ofrecerá una conversación virtual el martes 30 de junio a las 2:30 p.m. EDT (hora del este) para compartir las novedades más recientes …",
+      "ts": 1782335860000,
+=======
+      "title": "NASA’s HiRISE Captures Perseverance Marking a Milestone on Mars",
+      "url": "https://science.nasa.gov/photojournal/nasas-hirise-captures-perseverance-marking-a-milestone-on-mars/",
+      "summary": "Description NASA’s Perseverance rover appears as a green speck on the Martian surface on June 13, 2026, a day before the robotic explorer marked a distance milestone, having traveled a full marathon (26.2 miles, or 42.19…",
+      "ts": 1782327328000,
+>>>>>>> 6ac16edf (Add Evidence Engine and Senate generation pipeline)
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+<<<<<<< HEAD
+      "title": "NASA to Share Latest Moon Base Mission Progress",
+      "url": "https://www.nasa.gov/news-release/nasa-to-share-latest-moon-base-mission-progress/",
+      "summary": "NASA Administrator Jared Isaacman will host a virtual conversation at 2:30 p.m. EDT, Tuesday, June 30, to share updates to NASA’s plans to build a Moon Base on the lunar surface. Administrator Isaacman and Carlos García-…",
+      "ts": 1782335583000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Shield Space and ClearSpace partner to defend satellites from orbital threats",
+      "url": "https://spacenews.com/shield-space-and-clearspace-partner-to-defend-satellites-from-orbital-threats/",
+      "summary": "British startup Shield Space plans to combine its autonomous satellite operations software with ClearSpace’s in-orbit servicing capabilities to address emerging orbital threats. The post Shield Space and ClearSpace partn…",
+      "ts": 1782335440000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "First-in-Human Stem Cell Therapy Trial for Huntington’s Disease Begins at UCI Health",
+      "url": "https://www.genengnews.com/topics/translational-medicine/first-in-human-stem-cell-therapy-trial-for-huntingtons-disease-begins-at-uci-health/",
+      "summary": "UCI Health has launched the world’s first human clinical trial using embryonic stem cell-derived neural cells for Huntington’s disease, testing MRI-guided surgical brain delivery to evaluate safety and early therapeutic …",
+      "ts": 1782331446000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Eli Lilly dives into hair loss treatments with investment in AI startup Absci",
+      "url": "https://www.statnews.com/2026/06/24/eli-lilly-absci-hair-loss-treatments/?utm_campaign=rss",
+      "summary": "Eli Lilly is investing in a small startup developing a medication to spur hair growth, and potentially also treat endometriosis.",
+      "ts": 1782331260000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: U.S. health spending rose sharply in 2025, thanks to GLP-1 use and more care",
+      "url": "https://www.statnews.com/2026/06/24/health-care-spending-up-7-point-3-percent-6-trillion-dollars-2026/?utm_campaign=rss",
+      "summary": "People are getting more care and using lots of GLP-1 drugs, fueling a sharp increase in health care spending.",
+      "ts": 1782331200000,
+=======
+      "title": "Euclid View of Milky Way Heart Previews Core Survey by NASA’s Roman",
+      "url": "https://www.nasa.gov/missions/roman-space-telescope/euclid-view-of-milky-way-heart-previews-core-survey-by-nasas-roman/",
+      "summary": "A new look at the heart of our Milky Way galaxy by Euclid, an ESA (European Space Agency) mission with NASA contributions, overlaps with a region scientists will observe with NASA’s Nancy Grace Roman Space Telescope, lau…",
+      "ts": 1782326505000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Judge temporarily blocks subpoenas in criminal probe of transgender care at New York hospitals",
+      "url": "https://www.statnews.com/2026/06/24/judge-blocks-subpoena-probe-transgender-care-new-york-hospitals/?utm_campaign=rss",
+      "summary": "A judge temporarily blocked federal prosecutors in Texas from getting access to the medical records of transgender patients treated at New York hospitals on Wednesday.",
+      "ts": 1782322475000,
+>>>>>>> 6ac16edf (Add Evidence Engine and Senate generation pipeline)
       "categoryId": "bio"
     }
   ],
