@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-26T16:57:01.971Z",
+  "updated": "2026-06-26T17:02:16.241Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "BIO 2026: AI, federal policy impacts, and general vibes",
+      "url": "https://www.statnews.com/2026/06/26/bio-2026-san-diego-key-takeaways-status-report-alex-hogan/?utm_campaign=rss",
+      "summary": "What were the vibes like at BIO 2026? STAT reporters take you inside the annual industry conference on the latest episode of STATus Report.",
+      "ts": 1782493090000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Genome Editing at the Turning Point—Bringing CRISPR to Clinical Reality",
@@ -209,6 +217,14 @@
       "summary": "Across the European Union, satellite navigations alone is thought to underpin more than 10% of GDP. Satellite-dependent activity on the whole is responsible for much more. According to INSEE and […] The post Europe’s nex…",
       "ts": 1782471600000,
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "ts": 1782468000000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "MIT Technology Review",
@@ -705,22 +721,6 @@
       "summary": "In this edition of STAT Health Tech: FDA drops enforcement against Whoop, more AI devices get FDA 'breakthrough' label, and more.",
       "ts": 1782394988000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
-      "summary": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls …",
-      "ts": 1782392434000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Europe faces the heat",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Europe_faces_the_heat",
-      "summary": "Video: 00:02:07 Europe is facing an intense heatwave, with record temperatures and several cities under red alert. On 23 June, France recorded its hottest June day ever. This image was captured the same day by the Copern…",
-      "ts": 1782392400000,
-      "categoryId": "space"
     }
   ],
   "categories": [

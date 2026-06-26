@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-26T16:56:56.289Z",
+  "updated": "2026-06-26T17:02:13.667Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Semiconductor quantum dots 'reawaken' predicted Rabi oscillations, boosting quantum control",
+      "url": "https://phys.org/news/2026-06-semiconductor-quantum-dots-reawaken-rabi.html",
+      "summary": "Physicists at Paderborn University have, for the first time, experimentally demonstrated the so-called \"return\" of Rabi oscillations in semiconductor quantum dots. The phenomenon, which was first predicted theoretically …",
+      "ts": 1782493204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "By saving ecosystems, environmental regulations help prevent biodiversity loss",
+      "url": "https://phys.org/news/2026-06-ecosystems-environmental-biodiversity-loss.html",
+      "summary": "Long-term conservation policies may help restore freshwater ecosystems and prevent extreme species loss, new research suggests.",
+      "ts": 1782493203000
+    },
+    {
+      "source": "Science News",
+      "title": "How big a cybersecurity threat are the latest AI models, really?",
+      "url": "https://www.sciencenews.org/article/cybersecurity-threat-new-ai-models",
+      "summary": "New AI models are accelerating the game of cat-and-mouse as cybersecurity experts try to keep ahead of would-be hackers. An AI expert explains the risks.",
+      "ts": 1782493200000
+    },
     {
       "source": "Phys.org",
       "title": "Screen reveals new proteins that control RNA processing",
@@ -232,6 +253,97 @@
       "url": "https://phys.org/news/2026-06-ocean-gains-huge-murray-gave.html",
       "summary": "For decades, the rivers of the Murray-Darling Basin have been heavily regulated by dams and irrigation networks. As a result, the volume of water entering the ocean is about 60% smaller than 100 years ago. But nature bro…",
       "ts": 1782475201000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Dissipative Phase Transition of Interacting Nonreciprocal Fermions",
+      "url": "http://link.aps.org/doi/10.1103/n8xv-kygx",
+      "summary": "Author(s): Rafael D. Soares, Matteo Brunelli, and Marco Schirò While nonreciprocal couplings are ubiquitous in classical systems, their impact on quantum many-body criticality and entanglement remains largely unexplored.…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Continuous Time Crystals as a $\\mathcal{P}\\mathcal{T}$ Symmetric State and the Emergence of Critical Exceptional Points",
+      "url": "http://link.aps.org/doi/10.1103/4w7y-kjzk",
+      "summary": "Author(s): Yuma Nakanishi, Ryo Hanai, and Tomohiro Sasamoto Continuous time-translation symmetry is often spontaneously broken in open quantum systems, and the condition for their emergence has been actively investigated…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Crystalline Spectral Form Factors",
+      "url": "http://link.aps.org/doi/10.1103/94cc-zdbl",
+      "summary": "Author(s): Dmitrii A. Trunin and David A. Huse We investigate crystallinelike behavior of the spectral form factor in unitary quantum systems with extremely strong eigenvalue repulsion. Using a low-temperature Coulomb ga…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Superbunching from Coherently Driven Atoms in a Waveguide",
+      "url": "http://link.aps.org/doi/10.1103/6fcg-2zns",
+      "summary": "Author(s): Zeidan Zeidan, Therese Karmstrand, Maryam Khanahmadi, and Göran Johansson We investigate the scattered field from $N$ identical two-level atoms resonantly driven by a weak coherent field in a one-dimensional w…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays Due to An Interplanetary Coronal Mass Ejection",
+      "url": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
+      "summary": "Author(s): Zhen Cao et al. (LHAASO Collaboration) A solar storm hitting Earth appears to have reduced the amount of incoming high-energy cosmic rays, suggesting a new way of measuring solar activity. [Phys. Rev. Lett. 13…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Pattern Formation during Melting of Lamellar Eutectics",
+      "url": "http://link.aps.org/doi/10.1103/qtst-bdmt",
+      "summary": "Author(s): Rahul Nellissery Rajan, Rajesh Kumari Rajendran, Guillaume Boussinot, Kamal Sbargoud, Sabine Bottin-Rousseau, and Silvère Akamatsu A rich diversity of patterns emerge during melting of a two-phase eutectic sol…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Real-Space Dynamic Electron Correlation in Beryllium",
+      "url": "http://link.aps.org/doi/10.1103/vzrc-5m39",
+      "summary": "Author(s): Rudra B. Bista, Yuya Shinohara, Wojciech Dmowski, Chae Woo Ryu, Jung Ho Kim, Mary Upton, Hlynur Gretarsson, Martin Sundermann, and Takeshi Egami The size of the exchange-correlation hole in beryllium is about …",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Many-Body Perturbation Theory for Driven Dissipative Quasiparticle Flows and Fluctuations",
+      "url": "http://link.aps.org/doi/10.1103/8k84-ntqz",
+      "summary": "Author(s): Thomas Blommel, Enrico Perfetto, Gianluca Stefanucci, and Vojtech Vlcek We present a unified many-body perturbation theory for open quantum systems that treats dissipation, correlations, and external driving o…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Ferromagnetism versus Antiferromagnetism in Narrow-Band Systems: Competition between Quantum Geometry and Band Dispersion",
+      "url": "http://link.aps.org/doi/10.1103/zdyq-3m9x",
+      "summary": "Author(s): Haoyu Hu, Oskar Vafek, Kristjan Haule, and B. Andrei Bernevig Magnetism in narrow-band systems arises from the interplay between electronic correlations, quantum geometry, and band dispersion. In particular, b…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Exciton-Anyon Binding in Fractional Chern Insulators: Spectral Fingerprints",
+      "url": "http://link.aps.org/doi/10.1103/8bp8-g8g4",
+      "summary": "Author(s): Tianhong Lu and Luiz H. Santos Transition-metal dichalcogenides (TMDs) uniquely combine topological electronic states realized without external magnetic fields with a strong optical response arising from long-…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Profile and Dynamics of Antiferromagnetic Domain Walls under Spin-Orbit Torque",
+      "url": "http://link.aps.org/doi/10.1103/rj3x-133s",
+      "summary": "Author(s): G. Theodorou and S. Komineas Domain walls in antiferromagnets under spin-polarized current present dynamics that is not observed in ferromagnets and it is tunable by the current polarization. Propagating walls…",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Synthetic Spatiotemporal Plasmonic Vortices on Chip",
+      "url": "http://link.aps.org/doi/10.1103/db9j-jc1k",
+      "summary": "Author(s): Qian Chen, Shuoshuo Zhang, Guoyu Xian, Haoqiang Hu, Xiaohua Wu, Xiaofei Wu, Jer-Shing Huang, Chen-Bin Huang, Jin-Hui Zhong, Yuquan Zhang, Xiaocong Yuan, Changjun Min, and Yanan Dai Spatiotemporal vortices are …",
+      "ts": 1782468000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Revisiting the Ratchet Principle: When Hidden Conservation Laws Prevent Directed Currents in Stochastic Systems",
+      "url": "http://link.aps.org/doi/10.1103/q415-4knr",
+      "summary": "Author(s): Jessica Metzger, Sunghan Ro, and Julien Tailleur The emergence of nonequilibrium currents has attracted a lot of attention. The “ratchet principle” identifies the violation of any form of parity and time-rever…",
+      "ts": 1782468000000
     },
     {
       "source": "arXiv Physics",
@@ -588,118 +700,6 @@
       "title": "Learning Climate Variability from Scarce Data with Diffusion Models: A Test Case for ENSO",
       "url": "https://arxiv.org/abs/2606.27094",
       "summary": "arXiv:2606.27094v1 Announce Type: new Abstract: Diffusion models are increasingly applied to climate emulation, but whether they capture the correct modes of variability remains unclear, a concern amplified by data scarc…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural Networks for Inverse Design of Cascaded-Mode Near-Field Landscapes",
-      "url": "https://arxiv.org/abs/2606.27099",
-      "summary": "arXiv:2606.27099v1 Announce Type: new Abstract: Structuring optical near-fields is important for applications in microscopy and nanoparticle manipulation. Traditionally, near-fields are structured using antenna nanostruc…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A possible approach to overcome the saturation of the neutron yield in a Plasma Focus and to achieve breakeven",
-      "url": "https://arxiv.org/abs/2606.27108",
-      "summary": "arXiv:2606.27108v1 Announce Type: new Abstract: Saturation of the neutron yield with increasing energy of the condenser bank in a Plasma Focus led to the shutdown of PF research focussed on controlled nuclear fusion in t…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Effects of Decentralized Moderation on Network Robustness and Information Diffusion in Mastodon",
-      "url": "https://arxiv.org/abs/2606.27149",
-      "summary": "arXiv:2606.27149v1 Announce Type: new Abstract: Decentralized online social networks such as Mastodon distribute moderation power across thousands of independently governed servers, raising fundamental questions about ho…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real Quantum Chemistry With Complex Orbitals",
-      "url": "https://arxiv.org/abs/2606.27160",
-      "summary": "arXiv:2606.27160v1 Announce Type: new Abstract: We follow up our study of basis set truncation errors for atoms in magnetic fields [{\\AA}str\\\"om and Lehtola, J. Phys. Chem. A, 2023, 127, 10872]. Our previous study employ…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasmonic coated scatterers for tunable coherent perfect absorption",
-      "url": "https://arxiv.org/abs/2606.27218",
-      "summary": "arXiv:2606.27218v1 Announce Type: new Abstract: We derive, in closed-form, the surface conductivity required for coated subwavelength-scale spherical and cylindrical scatterers to perfectly absorb incident coherent light…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modular molecular toolkit for photochemical energy conversion in a self-assembling nanocontainer",
-      "url": "https://arxiv.org/abs/2606.27238",
-      "summary": "arXiv:2606.27238v1 Announce Type: new Abstract: Production of useful chemicals using photoelectrochemical biohybrid devices offers an environmentally friendly alternative to existing energetically demanding processes. Th…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ion firehose and ion cyclotron instability with subtracted-Kappa distributions",
-      "url": "https://arxiv.org/abs/2606.27253",
-      "summary": "arXiv:2606.27253v1 Announce Type: new Abstract: In the present paper we discuss numerical solutions of the dispersion relation for electromagnetic waves propagating along the lines of an ambient magnetic field, consideri…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sparse Sensor Placement for Reducing Forecast Errors in Ensemble Kalman Filtering",
-      "url": "https://arxiv.org/abs/2606.27267",
-      "summary": "arXiv:2606.27267v1 Announce Type: new Abstract: Designing efficient observation networks for reducing forecast errors is a fundamental challenge in numerical weather prediction. Data-driven sparse sensor placement (SSP) …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unpinning of trapped oil droplets via non-resonant acoustic streaming in capillary tubes",
-      "url": "https://arxiv.org/abs/2606.27331",
-      "summary": "arXiv:2606.27331v1 Announce Type: new Abstract: We establish a self-consistent analytical model demonstrating that trapped non-wetting liquid phases in narrow capillary channels can be successfully unpinned via non-reson…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accessing both electrochemical SEIRA and SERS with ultrasensitive metamaterials for enhanced molecular identification",
-      "url": "https://arxiv.org/abs/2606.27367",
-      "summary": "arXiv:2606.27367v1 Announce Type: new Abstract: Surface-enhanced IR absorption (SEIRA) and surface-enhanced Raman spectroscopy (SERS) are complementary techniques that allow for ultrasensitive chemical fingerprinting. No…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rethinking the green power grid for stability, not just for climate",
-      "url": "https://arxiv.org/abs/2606.23805",
-      "summary": "arXiv:2606.23805v1 Announce Type: cross Abstract: The 2025 Iberian blackout has renewed concerns about the resilience of power grids with high shares of renewable generation. This commentary argues that renewable generat…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reinforcement Learning Enables Autonomous Microrobot Navigation and Intervention in Simulated Blood Capillaries",
-      "url": "https://arxiv.org/abs/2606.26154",
-      "summary": "arXiv:2606.26154v1 Announce Type: cross Abstract: Autonomous microrobots navigating biological vasculature could enable targeted drug delivery and thrombolysis, yet training control policies for realistic environments re…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "\\chisao{}: A GPU-Native Parallel Optimizer for Multimodal Black-Box Functions via Convergence-Anticonvergence Oscillation",
-      "url": "https://arxiv.org/abs/2606.26164",
-      "summary": "arXiv:2606.26164v1 Announce Type: cross Abstract: Finding all modes of a multimodal black-box function is a fundamental challenge in optimization, Bayesian inference, and scientific computing. Existing approaches -- basi…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Morphology-Specific Closed-Loop Control of Logarithmic-Spiral Continuum Arms via Online Jacobian Error Compensation",
-      "url": "https://arxiv.org/abs/2606.26188",
-      "summary": "arXiv:2606.26188v1 Announce Type: cross Abstract: Logarithmic spirals are ubiquitous in biological appendages and provide an attractive morphology for continuum manipulators capable of reaching, wrapping, and grasping. R…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Latent thermal instability",
-      "url": "https://arxiv.org/abs/2606.26227",
-      "summary": "arXiv:2606.26227v1 Announce Type: cross Abstract: Multiscale temperature fluctuations are abundant in the intracluster medium (ICM) outside of galaxy cluster cores ($\\sim 100~{\\rm kpc}$). Their origin is often attributed…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Odd Diffusion in Three-Dimensional Isotropic Media",
-      "url": "https://arxiv.org/abs/2606.26238",
-      "summary": "arXiv:2606.26238v1 Announce Type: cross Abstract: Odd diffusion is a hallmark of chiral active matter, generating currents transverse to density gradients. Existing theories rely on a linear antisymmetric transport coeff…",
       "ts": 1782446400000
     }
   ],
