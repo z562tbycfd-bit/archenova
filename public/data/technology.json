@@ -1,15 +1,7 @@
 {
   "ok": true,
-  "updated": "2026-06-26T05:36:41.230Z",
+  "updated": "2026-06-26T07:59:47.008Z",
   "items": [
-    {
-      "source": "NASA",
-      "title": "The Battle for Sullivan’s Island",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
-      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
-      "ts": 1782446400000,
-      "categoryId": "space"
-    },
     {
       "source": "arXiv q-bio",
       "title": "Sensitivity of evolutionary entropy in Lefkovitch matrices",
@@ -217,6 +209,14 @@
       "summary": "arXiv:2606.18640v2 Announce Type: replace-cross Abstract: Glucose forecasting algorithms are an important aspect of glycemic control management in type 1 diabetes. So far, the research community has developed numerous al…",
       "ts": 1782446400000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "The Battle for Sullivan’s Island",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
+      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
+      "ts": 1782446400000,
+      "categoryId": "space"
     },
     {
       "source": "IAEA News",
@@ -659,6 +659,14 @@
       "categoryId": "space"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA Launches New Research Project on Dietary Protein Quality and Requirements",
+      "url": "http://www.iaea.org/newscenter/news/iaea-launches-new-research-project-on-dietary-protein-quality-and-requirements",
+      "summary": "New IAEA research project will assess protein quality from alternative protein sources to improve nutrition and health outcomes.",
+      "ts": 1782373080000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "ESA",
       "title": "A first: EarthCARE cloud data sharpen weather forecasts",
       "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE/A_first_EarthCARE_cloud_data_sharpen_weather_forecasts",
@@ -711,14 +719,6 @@
       "title": "CAR T targets: AI takes the wheel",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00652-5?rss=yes",
       "summary": "Identifying safe and effective targets remains a major bottleneck for CAR T cell therapies. In this issue of Cell, Baker and colleagues developed a large language model (LLM)-assisted scoring framework to streamline this…",
-      "ts": 1782345600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "The cGAS-STING pathway: Mechanism and medical implications",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00650-1?rss=yes",
-      "summary": "This review covers the biology of the cGAS-STING pathway, the cell’s alarm system that shapes immune and stress responses with impacts on a range of processes, from antiviral defense and tumor immunity to chronic inflamm…",
       "ts": 1782345600000,
       "categoryId": "bio"
     }
