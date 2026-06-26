@@ -14593,39 +14593,3 @@ grid-template-columns:repeat(2,1fr);
     max-height: calc(100dvh - 10rem) !important;
   }
 }
-
-
-
-
-/* =========================================================
-   Civilization Mobile Scroll
-   ========================================================= */
-
-@media (max-width: 768px) {
-
-  .civilization-page{
-    height:auto !important;
-    min-height:100dvh !important;
-
-    overflow-y:auto !important;
-    overflow-x:hidden !important;
-
-    -webkit-overflow-scrolling:touch;
-
-    padding-top:4.5rem !important;
-    padding-bottom:6rem !important;
-  }
-
-  .civilization-page main,
-  .civilization-page section,
-  .civilization-page .civilization-container{
-    height:auto !important;
-    max-height:none !important;
-    overflow:visible !important;
-  }
-
-  .civilization-page::-webkit-scrollbar{
-    width:0;
-  }
-
-}
