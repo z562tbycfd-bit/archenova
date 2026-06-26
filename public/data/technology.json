@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-06-26T17:02:16.241Z",
+  "updated": "2026-06-26T19:53:26.774Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Backed by $165M, Bionyra Pharma Launches to Advance Inflammatory Disease Biologics",
+      "url": "https://www.genengnews.com/topics/drug-discovery/backed-by-165m-bionyra-pharma-launches-to-advance-inflammatory-disease-biologics/",
+      "summary": "The company, which emerged from stealth this week, is using the funds to develop and test three therapeutic assets that it licensed from external partners as well as to progress some additional preclinical assets. The po…",
+      "ts": 1782503136000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Tests New Refuel Device for Future In-Space Refueling Missions",
+      "url": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/cryogenic-fluid-management-cfm/nasa-tests-new-refuel-device-for-future-in-space-refueling-missions/",
+      "summary": "For NASA’s next generation of deep space exploration missions, spacecraft may need to refuel in Earth orbit before pushing farther into the solar system. Similar to how a gas pump needs a nozzle to fit your fuel tank, fu…",
+      "ts": 1782499447000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Partners, NASA Ready for June Launch of Swift Boost Mission",
+      "url": "https://science.nasa.gov/missions/swift/swift-boost-mission/partners-nasa-ready-for-june-launch-of-swift-boost-mission/",
+      "summary": "A mission to raise the orbit of NASA’s Swift observatory is poised for launch June 30.",
+      "ts": 1782494182000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "BIO 2026: AI, federal policy impacts, and general vibes",
@@ -33,6 +57,14 @@
       "summary": "NASA selected 41 proposals from 37 companies to advance technologies in support of the agency’s goals to establish a long-term presence on the Moon and enable human exploration of Mars. These American companies, picked f…",
       "ts": 1782488278000,
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA and Japan Cooperate on Managed Recycling of Removed Soil Arising from Decontamination Activities after the Accident of the Fukushima Daiichi Nuclear Power Station",
+      "url": "http://www.iaea.org/newscenter/news/iaea-and-japan-cooperate-on-managed-recycling-of-removed-soil-arising-from-decontamination-activities-after-the-accident-of-the-fukushima-daiichi-nuclear-power-station",
+      "summary": "The IAEA and Japan have reinforced their collaboration on recovering the environment in Fukushima Prefecture.",
+      "ts": 1782487805000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "Genetic Engineering News",
@@ -688,38 +720,6 @@
       "url": "https://www.statnews.com/2026/06/25/crispr-base-editing-human-embryo-study/?utm_campaign=rss",
       "summary": "The use of genome editing in early embryos has pulled back the curtain on the role of one of the key genes that orchestrates the first stages of human development,…",
       "ts": 1782399600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Finding solutions to jamming and spoofing",
-      "url": "https://spacenews.com/finding-solutions-to-jamming-and-spoofing/",
-      "summary": "In this episode of Space Minds, Mike Gruss talks with Iridium’s Tim Last. They discuss competition in the direct-to-device and Internet-of-Things sector as well as solutions to GPS jamming problems […] The post Finding s…",
-      "ts": 1782399095000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Repositioning retail for the AI era",
-      "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
-      "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisio…",
-      "ts": 1782397379000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The China debate gets louder in Washington",
-      "url": "https://www.statnews.com/2026/06/25/biotech-news-the-china-debate-gets-louder-in-washington/?utm_campaign=rss",
-      "summary": "A boom in GLP-1s and health care costs, AI-designed hair growth drugs, and more biotech news from The Readout",
-      "ts": 1782397237000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA’s breakthrough pipeline fills up with generative AI devices",
-      "url": "https://www.statnews.com/2026/06/25/fda-breakthrough-generative-ai-devices-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: FDA drops enforcement against Whoop, more AI devices get FDA 'breakthrough' label, and more.",
-      "ts": 1782394988000,
       "categoryId": "bio"
     }
   ],

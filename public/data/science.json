@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-06-26T17:02:13.667Z",
+  "updated": "2026-06-26T19:53:23.328Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Glass cells of atoms offer a new path to smarter, cheaper sensors",
+      "url": "https://phys.org/news/2026-06-glass-cells-atoms-path-smarter.html",
+      "summary": "More accurate navigation systems and improved wireless communications may not come from traditional electronics, but rather from atoms. Researchers at Penn State and the National Institute of Standards and Technology (NI…",
+      "ts": 1782502804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hubble spies ancient 'Chandelier Cluster' forming stars in two bursts",
+      "url": "https://phys.org/news/2026-06-hubble-spies-ancient-chandelier-cluster.html",
+      "summary": "The subject of today's NASA/ESA Hubble Space Telescope image is an ancient inhabitant of our galaxy. This sparkling scene features a globular cluster: a collection of tens of thousands to millions of stars, all tightly b…",
+      "ts": 1782502801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beetle-like borings in 70-million-year-old titanosaur fossils reshape Lo Hueco fossil story",
+      "url": "https://phys.org/news/2026-06-beetle-million-year-titanosaur-fossils.html",
+      "summary": "Traces or perforations caused by living organisms after an animal's death can be found on various dinosaur bone remains. These perforations, known as bioerosion structures, provide information that helps us understand re…",
+      "ts": 1782501604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA's PACE mission studies smoke and fires",
+      "url": "https://phys.org/news/2026-06-nasa-pace-mission.html",
+      "summary": "With the North American fire season underway, and a record number of acres already burned nationwide, NASA's Plankton, Aerosol, Cloud, and ocean Ecosystem (PACE) satellite's three instruments are observing vegetation pre…",
+      "ts": 1782501601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unknown 4,000-year-old stone circle in Belfast uncovered by archaeologists",
+      "url": "https://phys.org/news/2026-06-unknown-year-stone-circle-belfast.html",
+      "summary": "Archaeologists have uncovered an unknown stone circle that dates back at least 4,000 years to the Late Neolithic or Early Bronze Age and was most likely used for ritual activities.",
+      "ts": 1782500403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How atomic defects can program carbon quantum dots for future light-based technologies",
+      "url": "https://phys.org/news/2026-06-atomic-defects-carbon-quantum-dots.html",
+      "summary": "Carbon quantum dots (CQDs) are tiny carbon-based nanomaterials that have attracted increasing attention as environmentally friendly alternatives to conventional heavy-metal quantum dots. They are lightweight, photostable…",
+      "ts": 1782500401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Evidence identifies ancient Aboriginal mining in the Riverland",
+      "url": "https://phys.org/news/2026-06-evidence-ancient-aboriginal-riverland.html",
+      "summary": "Flinders University researchers, in partnership with the River Murray and Mallee Aboriginal Corporation, have found evidence that points to 7,000 years of Aboriginal mining of stone at Sugarloaf Hill in South Australia's…",
+      "ts": 1782499204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Apple rootstock response varies to threshold water management during 6 weeks of progressing drought",
+      "url": "https://phys.org/news/2026-06-apple-rootstock-response-varies-threshold.html",
+      "summary": "As drought and water uncertainty put increasing pressure on orchard systems, researchers at the USDA Agricultural Research Service's Appalachian Fruit Research Station in Kearneysville, West Virginia, launched a study in…",
+      "ts": 1782499202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Far-red radiation and elevated CO₂ boost biomass accumulation in young leaf lettuce indoors",
+      "url": "https://phys.org/news/2026-06-red-elevated-boost-biomass-accumulation.html",
+      "summary": "A new study from scientists at Purdue University reports that far-red radiation, in combination with increased carbon dioxide (CO₂) concentration, significantly enhances biomass production in young leaf lettuce grown und…",
+      "ts": 1782498004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rising heat and humidity challenge energy-efficient data center cooling worldwide",
+      "url": "https://phys.org/news/2026-06-humidity-energy-efficient-center-cooling.html",
+      "summary": "Reliable operation of data centers has become essential to nearly all sectors of modern society, including health care, education, government services, power grid operation, banking, defense and disaster relief. New rese…",
+      "ts": 1782498003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How coworkers shape careers: Learning and competition pull in opposite directions",
+      "url": "https://phys.org/news/2026-06-coworkers-careers-competition.html",
+      "summary": "New research, published by the Rockwool Foundation Berlin (RFBerlin), shows that co-workers can have powerful—but opposing—effects on the careers of young workers. While some colleagues foster learning and long-term succ…",
+      "ts": 1782496807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "May 2024 superstorm drew most ring current ions from Earth, not solar wind, research reveals",
+      "url": "https://phys.org/news/2026-06-superstorm-drew-current-ions-earth.html",
+      "summary": "In May 2024, auroras were observed at unusually low latitudes across the globe, lighting up skies that rarely see such displays. Inside Earth's magnetosphere, the region of space surrounding our planet and dominated by i…",
+      "ts": 1782496801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Three ways climate action can be more inclusive for 1.3 billion disabled people",
+      "url": "https://phys.org/news/2026-06-ways-climate-action-inclusive-billion.html",
+      "summary": "Imagine a global political summit that shapes the future of our planet, where one of the most populous countries in the world does not have a voice. This may seem unlikely, but currently 1.3 billion disabled people (near…",
+      "ts": 1782495602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Novel crystal strategy delivers near-perfect zero thermal expansion from 11 K to 893 K",
+      "url": "https://phys.org/news/2026-06-crystal-strategy-thermal-expansion.html",
+      "summary": "Almost every material expands when heated. Well-known examples include railroad tracks and concrete roadways, which feature visible expansion gaps to accommodate this effect. However, thermal expansion poses a far more a…",
+      "ts": 1782495601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How NASA taught four astronauts to read the moon",
+      "url": "https://phys.org/news/2026-06-nasa-taught-astronauts-moon.html",
+      "summary": "How do you teach someone to look at the moon? Not glance at it, the way we all have on a clear night, but truly read it, the way a geologist reads a hillside. That was the challenge NASA set itself before Artemis II, bec…",
+      "ts": 1782494405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "An iron-driven chain reaction may trigger mass death of harmful algae blooms",
+      "url": "https://phys.org/news/2026-06-iron-driven-chain-reaction-trigger.html",
+      "summary": "Over recent decades, harmful algal blooms have become increasingly common. These blooms often consist of bacteria called \"cyanobacteria\" in freshwater ecosystems. They can produce debilitating toxins, suffocate marine li…",
+      "ts": 1782494401000
+    },
     {
       "source": "Phys.org",
       "title": "Semiconductor quantum dots 'reawaken' predicted Rabi oscillations, boosting quantum control",
@@ -346,6 +458,13 @@
       "ts": 1782468000000
     },
     {
+      "source": "APS PRX",
+      "title": "Rare Cage Escapes Drive Relaxation in Deeply Supercooled Liquids",
+      "url": "http://link.aps.org/doi/10.1103/7m7x-zxqv",
+      "summary": "Author(s): Francesco Rusciano, Raffaele Pastore, Francesco Greco, and Walter Kob Simulations conducted significantly below the mode coupling temperature allow dynamic properties of glass forming systems to be uncovered. …",
+      "ts": 1782468000000
+    },
+    {
       "source": "arXiv Physics",
       "title": "Gender expression appraisals in introductory physics courses: A cross-institutional replication",
       "url": "https://arxiv.org/abs/2606.26143",
@@ -581,125 +700,6 @@
       "title": "Excursion-set structure factor of the auroral electric field",
       "url": "https://arxiv.org/abs/2606.26854",
       "summary": "arXiv:2606.26854v1 Announce Type: new Abstract: We treat coherent radar echoes from aurorae as a finite point process and measure its structure factor $S(k)$ from pairwise echo separations. Backscatter requires electron …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-Threshold Degenerate Optical Parametric Oscillations in Bichromatically-Pumped Normal-Dispersion Photonic-Crystal Microresonator",
-      "url": "https://arxiv.org/abs/2606.26860",
-      "summary": "arXiv:2606.26860v1 Announce Type: new Abstract: The process of excitation of degenerate optical parametric oscillations via bichromatic pump is studied numerically in normal-dispersion photonic-crystal microresonator. It…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Human adaptive variability stabilises collective traffic dynamics",
-      "url": "https://arxiv.org/abs/2606.26868",
-      "summary": "arXiv:2606.26868v1 Announce Type: new Abstract: Automated systems are often designed on the assumption that replacing human behavioural variability with precise, uniform algorithmic control improves collective performanc…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "HERETIX: A Hermetic, Enriched, Rare-Event Time Projection Chamber in Xenon",
-      "url": "https://arxiv.org/abs/2606.26876",
-      "summary": "arXiv:2606.26876v1 Announce Type: new Abstract: Xenon-based time projection chambers have established themselves as one of the most powerful technologies for rare-event searches. HERETIX is a proposed multi-tonne liquid …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of Park's Two-Temperature Model Control Temperature on the Flow Properties in Hypersonic Reentry Conditions",
-      "url": "https://arxiv.org/abs/2606.26906",
-      "summary": "arXiv:2606.26906v1 Announce Type: new Abstract: Numerical simulations of reactive hypersonic flows under thermochemical non-equilibrium conditions are presented for the FIRE II and Mars Pathfinder capsules. An 11-species…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High order harmonic Optical Reconstruction by delayed time-depeNdent Ellipticity perturbaTion: HORNET",
-      "url": "https://arxiv.org/abs/2606.26908",
-      "summary": "arXiv:2606.26908v1 Announce Type: new Abstract: We present and demonstrate an all-optical \\textit{in situ} method for temporal characterisation of high-order harmonics generated in gas with a linearly polarised intense i…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Givens-exchange ansatz for molecular variational eigensolvers",
-      "url": "https://arxiv.org/abs/2606.26912",
-      "summary": "arXiv:2606.26912v1 Announce Type: new Abstract: Molecular ground-state energies help determine conformer rankings, reaction energetics, and electronic effects in computational drug discovery, but accurate calculations be…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Perturbatively Corrected Linear Response Selected Configuration Interaction",
-      "url": "https://arxiv.org/abs/2606.26941",
-      "summary": "arXiv:2606.26941v1 Announce Type: new Abstract: Selected configuration interaction (SCI) methods have emerged as powerful, lower-cost alternatives to full configuration interaction (FCI) for ground- and excited-state ene…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrodynamic theory of premixed flames under Darcy's law: Interfacial conditions and effects of nonunity Lewis number and heat loss",
-      "url": "https://arxiv.org/abs/2606.26953",
-      "summary": "arXiv:2606.26953v1 Announce Type: new Abstract: Premixed flames propagating in porous media or Hele-Shaw channels are governed by Darcy's law, which accounts for the strong frictional forces imposed by the solid matrix o…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Refractive indices of Y$_2$SiO$_5$ in the near-infrared",
-      "url": "https://arxiv.org/abs/2606.26971",
-      "summary": "arXiv:2606.26971v1 Announce Type: new Abstract: Y$_2$SiO$_5$ is a reference birefringent material for optical quantum technologies. The refractive index is primarily known in the visible spectrum, whereas this crystal is…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Excitation of non-modal perturbations in hypersonic boundary layers by free stream forcing. Part II: asymptotic theory and key mechanisms",
-      "url": "https://arxiv.org/abs/2606.26976",
-      "summary": "arXiv:2606.26976v1 Announce Type: new Abstract: Recently, Zhao & Dong (J. Fluid Mech. 2025, vol. 1013: A44) developed a high-efficiency, high-accuracy numerical framework, the shock-fitting harmonic linearised Navier-Sto…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum statistics on atom-ion Feshbach resonances",
-      "url": "https://arxiv.org/abs/2606.26995",
-      "summary": "arXiv:2606.26995v1 Announce Type: new Abstract: We investigate three-body recombination in a hybrid atom-ion system consisting of a single trapped Ba$^+$ ion immersed in a two-component Fermi gas of Li atoms near an atom…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Temporal wave trapping from dynamical pump pulses",
-      "url": "https://arxiv.org/abs/2606.27015",
-      "summary": "arXiv:2606.27015v1 Announce Type: new Abstract: Temporal reflection in nonlinear optical fibers provides a powerful framework for manipulatinglight. In this work, we theoretically and experimentally demonstrate a novel m…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In-plane vector-field imaging of propagating surface phonon polaritons",
-      "url": "https://arxiv.org/abs/2606.27030",
-      "summary": "arXiv:2606.27030v1 Announce Type: new Abstract: Polariton interferometry through optical near-field microscopy has become a powerful tool in nanophotonics, enabling direct spatial access to the propagation characteristic…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of Non-Hermitian Skin Dynamics in the Liouvillian Regime",
-      "url": "https://arxiv.org/abs/2606.27043",
-      "summary": "arXiv:2606.27043v1 Announce Type: new Abstract: Open quantum systems generally do not perfectly preserve phase coherence: coupling to uncontrolled environments requires a density-matrix description based on the Liouvilli…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Proton Relay Orchestrated by Covalent Bond Switching of Active Amino Acids in Protein Channels",
-      "url": "https://arxiv.org/abs/2606.27081",
-      "summary": "arXiv:2606.27081v1 Announce Type: new Abstract: Through systematic mutational simulations of the key site in a proton channel, we find that 13 of the 20 canonical amino acid residues are active for proton transfer throug…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GPU-accelerated superiorization on constrained physical problems with SupPy",
-      "url": "https://arxiv.org/abs/2606.27086",
-      "summary": "arXiv:2606.27086v1 Announce Type: new Abstract: The superiorization method (SM) is situated between feasibility-seeking and constrained optimization. Instead of aiming at the minimum of a given objective function over a …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning Climate Variability from Scarce Data with Diffusion Models: A Test Case for ENSO",
-      "url": "https://arxiv.org/abs/2606.27094",
-      "summary": "arXiv:2606.27094v1 Announce Type: new Abstract: Diffusion models are increasingly applied to climate emulation, but whether they capture the correct modes of variability remains unclear, a concern amplified by data scarc…",
       "ts": 1782446400000
     }
   ],
