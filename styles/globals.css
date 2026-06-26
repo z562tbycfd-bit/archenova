@@ -14173,256 +14173,111 @@ grid-template-columns:repeat(2,1fr);
 
 
 /* =========================================================
-   ARCHENOVA MOBILE HARDENING
-   iPhone / mobile viewport / no horizontal overflow
-   ========================================================= */
-
-html,
-body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden !important;
-}
-
-body {
-  overscroll-behavior-x: none;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-img,
-svg,
-canvas,
-video,
-iframe {
-  max-width: 100%;
-}
-
-/* =========================================================
-   GLOBAL WIDTH SAFETY
-   ========================================================= */
-
-main,
-.page-standard,
-.home-page,
-.twin-page,
-.constitution-page,
-.civilization-page,
-.archenova-twin-home {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden !important;
-}
-
-.page-standard,
-.home-page,
-.twin-page,
-.constitution-section,
-.civilization-hero,
-.civilization-map,
-.civilization-flow,
-.civilization-synthesis {
-  padding-left: max(1rem, env(safe-area-inset-left)) !important;
-  padding-right: max(1rem, env(safe-area-inset-right)) !important;
-}
-
-/* =========================================================
-   CARD / GLASS BLOCK WIDTH FIX
-   ========================================================= */
-
-.glass-block,
-.x-card,
-.crossings-card,
-.research-report-card,
-.hero-entry-card,
-.home-portal-card,
-.home-crossing-card,
-.constitution-card,
-.civilization-domain-card,
-.civilization-flow-grid > div,
-.twin-card,
-.twin-entry-card,
-.an-card {
-  max-width: 100% !important;
-  min-width: 0 !important;
-  overflow-wrap: anywhere;
-  word-break: normal;
-}
-
-.glass-block,
-.x-card,
-.crossings-card {
-  width: min(100%, 980px) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* =========================================================
-   GRID MOBILE SAFETY
-   ========================================================= */
-
-.research-report-grid,
-.home-grid,
-.architecture-grid,
-.civilization-domain-grid,
-.civilization-flow-grid,
-.twin-grid,
-.twin-entry-grid,
-.an-grid-3,
-.an-grid-4,
-.crossings-portal-links,
-.home-crossing-links {
-  width: 100% !important;
-  max-width: 100% !important;
-  min-width: 0 !important;
-}
-
-.research-report-grid > *,
-.home-grid > *,
-.architecture-grid > *,
-.civilization-domain-grid > *,
-.civilization-flow-grid > *,
-.twin-grid > *,
-.twin-entry-grid > *,
-.an-grid-3 > *,
-.an-grid-4 > * {
-  min-width: 0 !important;
-}
-
-/* =========================================================
-   HOME PAGER MOBILE FIX
-   ========================================================= */
-
-.hs-pager {
-  left: 50% !important;
-  right: auto !important;
-  bottom: max(0.75rem, env(safe-area-inset-bottom)) !important;
-  transform: translateX(-50%) !important;
-  width: min(calc(100vw - 1.5rem), 760px) !important;
-  max-width: calc(100vw - 1.5rem) !important;
-  overflow: hidden !important;
-}
-
-.hs-dots {
-  min-width: 0 !important;
-  overflow: hidden !important;
-}
-
-.hs-dot {
-  flex: 0 0 auto;
-}
-
-/* =========================================================
-   MENU MOBILE FIX
-   ========================================================= */
-
-.menu {
-  top: max(0.85rem, env(safe-area-inset-top)) !important;
-  right: max(0.85rem, env(safe-area-inset-right)) !important;
-  z-index: 999 !important;
-}
-
-.menu-btn {
-  width: 3.15rem !important;
-  height: 3.15rem !important;
-}
-
-.menu-panel {
-  width: min(430px, calc(100vw - 1.5rem)) !important;
-  max-width: calc(100vw - 1.5rem) !important;
-  max-height: calc(100svh - 1.5rem) !important;
-  overflow-y: auto !important;
-  overflow-x: hidden !important;
-}
-
-/* =========================================================
-   MOBILE ONLY
+   ARCHENOVA MOBILE ONLY FIX
+   Applies only to mobile / tablet narrow screens
    ========================================================= */
 
 @media (max-width: 768px) {
   html,
   body {
-    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
   }
 
-  main {
-    min-width: 0 !important;
+  body {
+    overscroll-behavior-x: none;
   }
 
-  .page-standard {
-    padding: 4.75rem 1rem 6.5rem !important;
+  main,
+  .home-page,
+  .twin-page,
+  .page-standard,
+  .archenova-twin-home,
+  .civilization-page,
+  .constitution-page {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
   }
 
   .home-page,
   .twin-page {
     min-height: 100svh !important;
     height: auto !important;
-    padding: 4.75rem 1rem 6.25rem !important;
+    padding: 4.75rem 1rem 6.75rem !important;
     display: grid !important;
     place-items: center !important;
-    overflow: hidden !important;
   }
 
   .home-page > *,
   .twin-page > * {
     width: 100% !important;
-    max-width: 100% !important;
+    max-width: calc(100vw - 2rem) !important;
     min-width: 0 !important;
   }
 
-  .twin-hero,
-  .twin-section,
-  .twin-closing,
-  .an-section,
-  .an-container,
-  .civilization-hero > div:not(.civilization-orbit),
-  .civilization-map > div,
-  .civilization-flow > div,
-  .civilization-synthesis > div {
-    width: min(100%, calc(100vw - 2rem)) !important;
-    max-width: calc(100vw - 2rem) !important;
+  .twin-page::after,
+  .home-page::after {
+    inset: 0.85rem !important;
+    border-radius: 28px !important;
   }
 
   .glass-block,
   .x-card,
   .crossings-card,
-  .constitution-card,
-  .research-report-card,
+  .crossings-portal,
   .hero-entry-card,
   .home-portal-card,
   .home-crossing-card,
+  .research-report-card,
+  .constitution-card,
   .civilization-domain-card,
   .civilization-flow-grid > div,
   .twin-card,
   .twin-entry-card,
   .an-card {
     width: 100% !important;
-    padding: 1.15rem !important;
+    max-width: calc(100vw - 2rem) !important;
+    min-width: 0 !important;
+    padding: 1rem !important;
     border-radius: 24px !important;
-  }
-
-  .glass-block {
-    margin-bottom: 1.25rem !important;
+    overflow: visible !important;
+    overflow-wrap: anywhere;
   }
 
   .research-report-grid,
   .home-grid,
   .architecture-grid,
+  .crossings-portal-links,
+  .crossings-portal-flow,
+  .home-crossing-links,
   .civilization-domain-grid,
   .civilization-flow-grid,
   .twin-grid,
   .twin-entry-grid,
   .an-grid-3,
-  .an-grid-4,
-  .crossings-portal-links,
-  .home-crossing-links {
+  .an-grid-4 {
+    width: 100% !important;
+    max-width: 100% !important;
     display: grid !important;
     grid-template-columns: 1fr !important;
-    gap: 0.75rem !important;
+    gap: 0.7rem !important;
+  }
+
+  .research-report-grid > *,
+  .home-grid > *,
+  .architecture-grid > *,
+  .crossings-portal-links > *,
+  .crossings-portal-flow > *,
+  .home-crossing-links > *,
+  .civilization-domain-grid > *,
+  .civilization-flow-grid > *,
+  .twin-grid > *,
+  .twin-entry-grid > *,
+  .an-grid-3 > *,
+  .an-grid-4 > * {
+    min-width: 0 !important;
   }
 
   h1,
@@ -14430,10 +14285,10 @@ main,
   .an-title,
   .constitution-title,
   .civilization-hero h1 {
-    font-size: clamp(3.1rem, 15vw, 5rem) !important;
-    line-height: 0.95 !important;
-    letter-spacing: -0.07em !important;
     max-width: 100% !important;
+    font-size: clamp(2.65rem, 13vw, 4.4rem) !important;
+    line-height: 0.96 !important;
+    letter-spacing: -0.065em !important;
   }
 
   h2,
@@ -14446,17 +14301,17 @@ main,
   .civilization-flow h2,
   .civilization-synthesis h2,
   .an-heading {
-    font-size: clamp(2rem, 10vw, 3.45rem) !important;
-    line-height: 1.02 !important;
-    letter-spacing: -0.055em !important;
     max-width: 100% !important;
+    font-size: clamp(1.75rem, 8.5vw, 3rem) !important;
+    line-height: 1.04 !important;
+    letter-spacing: -0.05em !important;
   }
 
   h3,
   .research-report-card h3,
   .hero-entry-title,
   .feed-title {
-    font-size: clamp(1.05rem, 5.5vw, 1.55rem) !important;
+    font-size: clamp(1rem, 5.3vw, 1.45rem) !important;
     line-height: 1.2 !important;
   }
 
@@ -14469,33 +14324,37 @@ main,
   .crossings-portal-text,
   .home-crossing-text,
   .feed-summary {
-    font-size: 0.92rem !important;
-    line-height: 1.65 !important;
     max-width: 100% !important;
+    font-size: 0.82rem !important;
+    line-height: 1.52 !important;
   }
 
   .home-section-label,
   .crossings-portal-label,
   .constitution-label,
-  .feed-source,
-  .hero-entry-label {
-    font-size: 0.58rem !important;
-    letter-spacing: 0.18em !important;
+  .hero-entry-label,
+  .feed-source {
+    font-size: 0.56rem !important;
+    letter-spacing: 0.16em !important;
     line-height: 1.4 !important;
   }
 
-  .crossings-portal-flow {
+  .crossings-portal-flow span,
+  .home-crossing-flow span {
     width: 100% !important;
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    gap: 0.55rem !important;
-    margin-top: 1.2rem !important;
+    padding: 0.78rem 1rem !important;
+    border-radius: 999px !important;
   }
 
-  .crossings-portal-flow span {
-    width: 100% !important;
-    padding: 0.85rem 1rem !important;
-    border-radius: 999px !important;
+  .menu {
+    top: max(0.8rem, env(safe-area-inset-top)) !important;
+    right: max(0.8rem, env(safe-area-inset-right)) !important;
+    z-index: 999 !important;
+  }
+
+  .menu-btn {
+    width: 3rem !important;
+    height: 3rem !important;
   }
 
   .menu-panel {
@@ -14503,61 +14362,66 @@ main,
     right: max(0.75rem, env(safe-area-inset-right)) !important;
     left: max(0.75rem, env(safe-area-inset-left)) !important;
     width: auto !important;
+    max-width: none !important;
+    max-height: calc(100svh - 1.5rem) !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
     border-radius: 28px !important;
   }
 
   .hs-pager {
+    left: 50% !important;
+    right: auto !important;
+    bottom: max(0.85rem, env(safe-area-inset-bottom)) !important;
+    transform: translateX(-50%) !important;
+    width: min(calc(100vw - 1.25rem), 680px) !important;
+    max-width: calc(100vw - 1.25rem) !important;
     padding: 0.55rem !important;
-    border-radius: 28px !important;
+    overflow: hidden !important;
   }
 
   .hs-btn {
-    width: 2.85rem !important;
-    height: 2.85rem !important;
-    min-width: 2.85rem !important;
+    width: 2.75rem !important;
+    height: 2.75rem !important;
+    min-width: 2.75rem !important;
   }
 
   .hs-dots {
-    gap: 0.45rem !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+    gap: 0.42rem !important;
   }
 
   .hs-dot {
-    width: 1.15rem !important;
-    height: 0.48rem !important;
+    flex: 0 0 auto !important;
+    width: 1rem !important;
+    height: 0.45rem !important;
   }
 }
 
-/* =========================================================
-   SMALL iPHONE
-   ========================================================= */
-
 @media (max-width: 430px) {
-  .page-standard {
-    padding-left: 0.85rem !important;
-    padding-right: 0.85rem !important;
-  }
-
   .home-page,
   .twin-page {
-    padding-left: 0.85rem !important;
-    padding-right: 0.85rem !important;
+    padding: 4.5rem 0.85rem 6.6rem !important;
   }
 
+  .home-page > *,
+  .twin-page > *,
   .glass-block,
   .x-card,
   .crossings-card,
-  .constitution-card,
-  .research-report-card,
+  .crossings-portal,
   .hero-entry-card,
   .home-portal-card,
   .home-crossing-card,
+  .research-report-card,
+  .constitution-card,
   .civilization-domain-card,
   .civilization-flow-grid > div,
   .twin-card,
   .twin-entry-card,
   .an-card {
-    padding: 1rem !important;
-    border-radius: 22px !important;
+    max-width: calc(100vw - 1.7rem) !important;
   }
 
   h1,
@@ -14565,7 +14429,7 @@ main,
   .an-title,
   .constitution-title,
   .civilization-hero h1 {
-    font-size: clamp(2.75rem, 14vw, 4.4rem) !important;
+    font-size: clamp(2.45rem, 12vw, 3.9rem) !important;
   }
 
   h2,
@@ -14578,7 +14442,7 @@ main,
   .civilization-flow h2,
   .civilization-synthesis h2,
   .an-heading {
-    font-size: clamp(1.85rem, 9vw, 3rem) !important;
+    font-size: clamp(1.55rem, 7.8vw, 2.6rem) !important;
   }
 
   p,
@@ -14590,7 +14454,17 @@ main,
   .crossings-portal-text,
   .home-crossing-text,
   .feed-summary {
-    font-size: 0.84rem !important;
-    line-height: 1.58 !important;
+    font-size: 0.76rem !important;
+    line-height: 1.48 !important;
+  }
+
+  .hs-btn {
+    width: 2.55rem !important;
+    height: 2.55rem !important;
+    min-width: 2.55rem !important;
+  }
+
+  .hs-dot {
+    width: 0.92rem !important;
   }
 }
