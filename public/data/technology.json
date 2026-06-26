@@ -1,7 +1,231 @@
 {
   "ok": true,
-  "updated": "2026-06-26T03:58:12.177Z",
+  "updated": "2026-06-26T04:34:44.484Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "The Battle for Sullivan’s Island",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
+      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
+      "ts": 1782446400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Sensitivity of evolutionary entropy in Lefkovitch matrices",
+      "url": "https://arxiv.org/abs/2606.26170",
+      "summary": "arXiv:2606.26170v1 Announce Type: new Abstract: Evolutionary entropy, introduced by Demetrius, is a demographic invariant that quantifies the temporal organization of structured populations. Explicit sensitivity expressi…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "An Investigation of Additional Food Models with Generalised Functional Response",
+      "url": "https://arxiv.org/abs/2606.26340",
+      "summary": "arXiv:2606.26340v1 Announce Type: new Abstract: Additional food sources are often used to improve the effectiveness of predators in controlling pest populations. However, the non-symmetric structure of additional food pr…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Smoothly Time-Varying Continuous Time Markov Chains in Phylogenetics",
+      "url": "https://arxiv.org/abs/2606.26402",
+      "summary": "arXiv:2606.26402v1 Announce Type: new Abstract: The dependence of evolutionary rate estimates on the timeframe of sampling poses a fundamental challenge for reconstructing evolutionary histories from molecular sequence d…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Closing the Loop to Discover Psychological Theories with an Automated Cognitive Scientist",
+      "url": "https://arxiv.org/abs/2606.26448",
+      "summary": "arXiv:2606.26448v1 Announce Type: new Abstract: Across the sciences, autonomous systems are increasingly being used in closed-loop discovery, proposing new theories and designing and running experiments to test them. Thi…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "scBench-Long: Verifiable Benchmarking of Long-Horizon Single-Cell Biology",
+      "url": "https://arxiv.org/abs/2606.26563",
+      "summary": "arXiv:2606.26563v1 Announce Type: new Abstract: Single-cell studies require analysts to convert raw measurements into specific biological claims through multi-step workflows and integration of metadata, assay context, an…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Budget-Constrained Compound Library Prioritization with Risk Awareness and Uncertainty Quantification",
+      "url": "https://arxiv.org/abs/2606.26624",
+      "summary": "arXiv:2606.26624v1 Announce Type: new Abstract: Early discovery projects often face a budgeted prioritization problem: many structures can be enumerated or purchased, but only a small fraction can be tested, reviewed, or…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "pVACtools v6: A comprehensive suite for neoantigen prediction, visualization, and therapy design",
+      "url": "https://arxiv.org/abs/2606.26659",
+      "summary": "arXiv:2606.26659v1 Announce Type: new Abstract: With the rise of checkpoint blockade therapies and neoantigen-based vaccines reaching later-stage trials, there is a growing need for computational tools to identify and pr…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Semialgebraic Conditions for Identifying Triangles in Phylogenetic Networks",
+      "url": "https://arxiv.org/abs/2606.26673",
+      "summary": "arXiv:2606.26673v1 Announce Type: new Abstract: An important consideration for a model-based method of phylogenetic network inference is the identifiability of the network parameter of the model. A recurring theme in pre…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "On-farm management strategies for reducing H5N1 transmission in dairy cattle",
+      "url": "https://arxiv.org/abs/2606.26674",
+      "summary": "arXiv:2606.26674v1 Announce Type: new Abstract: Introductions of H5N1 clade 2.3.4.4b into dairy cattle have resulted in outbreaks on dairy farms across the United States since early-2024. Outbreaks have significant conse…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Surviving by Serving: Functional Relevance Drives Self-Organization in Complex Adaptive Systems",
+      "url": "https://arxiv.org/abs/2606.26733",
+      "summary": "arXiv:2606.26733v1 Announce Type: new Abstract: Complex adaptive systems often develop organized structures without centralized control. Yet the local mechanisms by which functional organization emerges and persists rema…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Hyperiax and Phylogenetic Inference from Shape Data",
+      "url": "https://arxiv.org/abs/2606.26974",
+      "summary": "arXiv:2606.26974v1 Announce Type: new Abstract: Phylogenetic inference on high-dimensional morphological traits requires algorithms that account for both the nonlinear geometry of the shape data and the phylogenetic tree…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Deep learning model emulators for marine biogeochemistry forecasting from days to decades",
+      "url": "https://arxiv.org/abs/2606.27168",
+      "summary": "arXiv:2606.27168v1 Announce Type: new Abstract: Deep-learning emulators have emerged as a promising approach for reducing the computational cost of Earth System Models while potentially improving forecasting skill. Here,…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Implementation of reinforcement learning in chemical reaction networks: application to phototaxis as curiosity-driven exploration",
+      "url": "https://arxiv.org/abs/2606.26168",
+      "summary": "arXiv:2606.26168v1 Announce Type: cross Abstract: Living systems navigate environments using noisy and incomplete sensory signals. In unicellular algae, phototaxis is often modeled as a mechanistic run--tumble process dr…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "KG-TRACE: A Neuro-Symbolic Framework for Mechanistic Grounding in Antimicrobial Resistance Prediction",
+      "url": "https://arxiv.org/abs/2606.26179",
+      "summary": "arXiv:2606.26179v1 Announce Type: cross Abstract: While WGS-based AMR prediction has reached high accuracy, existing models lack a mechanism to ground neural attributions in established biological pathways. We present KG…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Beyond Single-Source Cognitive Taskonomy:Multi-Source Task Relations through fMRI Transfer Learning",
+      "url": "https://arxiv.org/abs/2606.26279",
+      "summary": "arXiv:2606.26279v1 Announce Type: cross Abstract: Cognitive tasks are organized by shared and specialized neural processes. Masked fMRI reconstruction provides a common self-supervised objective for quantifying transfer …",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Frustrated shapes of solid domains in fluid membrane vesicles: From rolls and folds to crumples and wrinkles",
+      "url": "https://arxiv.org/abs/2606.26433",
+      "summary": "arXiv:2606.26433v1 Announce Type: cross Abstract: Fluid-solid composite vesicles, comprising 2D solid domains integrated into a topologically-closed fluid bilayer membrane, exhibit complex morphologies arising from the g…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "GRAINS: Storage-Aware Algorithm-Architecture Co-Design Enabling High-Performance and Low-Cost Graph-Based Genome Analysis",
+      "url": "https://arxiv.org/abs/2606.26468",
+      "summary": "arXiv:2606.26468v1 Announce Type: cross Abstract: Graph-based representations of genome sequences have emerged as a powerful approach for representing massive genomic databases in an expressive and efficient way. Despite…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Shape-Constrained Bayesian Active Learning of Self-Limiting Saturation Curves",
+      "url": "https://arxiv.org/abs/2606.26577",
+      "summary": "arXiv:2606.26577v1 Announce Type: cross Abstract: Self-limiting saturation curves, monotone responses that rise from zero to a plateau, govern gas adsorption, enzyme kinetics, dose-response pharmacology, and the growth p…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "State-Specific Respiratory Signatures for Affective and Stress Recognition: Interpretable Respiratory Markers, Autocorrelation Lags, and Compact CNN Models",
+      "url": "https://arxiv.org/abs/2606.26723",
+      "summary": "arXiv:2606.26723v1 Announce Type: cross Abstract: Respiratory activity is a direct and interpretable physiological channel for wearable stress and affective-state recognition, yet many studies emphasize classification ac…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The parental parsimony problem on binary, tree-child phylogenetic networks",
+      "url": "https://arxiv.org/abs/2606.26919",
+      "summary": "arXiv:2606.26919v1 Announce Type: cross Abstract: Phylogenetic reconstruction is one of the major challenges in computational biology. Among existing reconstruction methods for phylogenetic networks, an important subtask…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Power-Law Scaling in the Classification Performance of Small-Scale Spiking Neural Networks",
+      "url": "https://arxiv.org/abs/2601.14961",
+      "summary": "arXiv:2601.14961v2 Announce Type: replace Abstract: This paper investigates the classification capability of small-scale spiking neural networks based on the Leaky Integrate-and-Fire (LIF) neuron model. We analyze the re…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The Where and How of Touch: A Review of Tactile Localization Research",
+      "url": "https://arxiv.org/abs/2601.23023",
+      "summary": "arXiv:2601.23023v2 Announce Type: replace Abstract: Tactile localization is the seemingly simple ability to 'tell' where a touch has occurred. However, how this ability is assessed, and what conclusions are drawn from ex…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Linguistics and Human Brain: A Perspective of Computational Neuroscience",
+      "url": "https://arxiv.org/abs/2602.08275",
+      "summary": "arXiv:2602.08275v3 Announce Type: replace Abstract: Elucidating the language-brain relationship requires bridging the methodological gap between the abstract theoretical frameworks of linguistics and the empirical neural…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "From Lab to Landscape: Assessing the Impact of Pesticides on Pollinator Populations Based on Laboratory Data by Combining ALMaSS and BufferGUTS",
+      "url": "https://arxiv.org/abs/2606.23470",
+      "summary": "arXiv:2606.23470v2 Announce Type: replace Abstract: Pesticides are designed to eradicate pests from crops, fulfilling an important role in the current agricultural system. However, nature conservation requires that pesti…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Optimal Calibration of the Endpoint-corrected Hilbert Transform",
+      "url": "https://arxiv.org/abs/2601.13962",
+      "summary": "arXiv:2601.13962v2 Announce Type: replace-cross Abstract: Accurate, low-latency estimates of the instantaneous phase of oscillations are essential for closed-loop sensing and actuation, including (but not limited to) pha…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MetaboNet-Bench: A Multi-modal Benchmark for Glucose Forecasting in Type 1 Diabetes",
+      "url": "https://arxiv.org/abs/2606.18640",
+      "summary": "arXiv:2606.18640v2 Announce Type: replace-cross Abstract: Glucose forecasting algorithms are an important aspect of glycemic control management in type 1 diabetes. So far, the research community has developed numerous al…",
+      "ts": 1782446400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-355-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1782440467000,
+      "categoryId": "energy-climate"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "AI Framework Surfaces New CAR T Target with Multi‑Cancer Potential",
@@ -259,6 +483,78 @@
       "categoryId": "bio"
     },
     {
+      "source": "United Nations News",
+      "title": "Security Council extends critical stabilisation force in Syria",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167813",
+      "summary": "The 15-member Security Council unanimously adopted a draft resolution on Thursday renewing the mandate of the UN Disengagement Observer Force (UNDOF) for six months.",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Ebola prevention, Yemen child deaths, Colombia elections, Japan climate campaign",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167812",
+      "summary": "The UN's top humanitarian has allocated $8 million in funding to help Burundi and South Sudan prepare for the potential spread of Ebola.",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "From Lebanon to the Strait of Hormuz, a Middle East hanging on fragile peace talks",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167811",
+      "summary": "Since Tuesday, United Nations peacekeepers have detected no airstrikes or new missile fire in southern Lebanon. The lull remains fragile, however, as Israeli drones continue to fly over the area and military operations c…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN envoy warns of growing risks in El Obeid as Sudan conflict drags on",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167810",
+      "summary": "The United Nations Secretary-General’s Personal Envoy for Sudan voiced alarm on Wednesday over escalating violence in and around the city of El Obeid, warning that further military escalation could put thousands of civil…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "LIVE: From conflict to stability, how the UN is supporting peacebuilding around the world",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167800",
+      "summary": "As wars persist in different parts of the world, it’s perhaps easy to lose sight of the many countries that have managed to recover from past violence, sustain peace and prevent conflict. The UN Peacebuilding Fund, which…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Thousands trapped in southern Ukraine struggle to survive",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167809",
+      "summary": "Thousands of civilians trapped in frontline communities in southern Ukraine are facing a deepening humanitarian crisis as access to food, medical care and evacuation routes continues to shrink, the UN Human Rights Monito…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Europe heatwave breaks records as UN agencies ramp up health warnings",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167808",
+      "summary": "As a record-breaking heatwave grips large parts of Europe, the World Meteorological Organization (WMO), national weather services and partners are mobilising heat-health action plans for millions of people facing dangero…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela earthquakes LIVE: UN rapidly deploys aid and rescue teams",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167806",
+      "summary": "Two deadly earthquakes struck Venezuela less than a minute apart on Wednesday, with magnitudes of 7.2 and 7.5, causing at least 164 deaths and widespread destruction in and around the capital, Caracas as international as…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela quake disaster: UN urges collective effort to help victims",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167805",
+      "summary": "UN teams scrambled on Thursday in support of the international response to the devastating double earthquake disaster in Venezuela, where buildings lie flattened and people are likely still trapped in the capital, Caraca…",
+      "ts": 1782388800000,
+      "categoryId": "global-governance"
+    },
+    {
       "source": "STAT",
       "title": "Another roadblock for DOJ campaign against trans health",
       "url": "https://www.statnews.com/2026/06/25/health-news-another-roadblock-for-doj-campaign-against-trans-health/?utm_campaign=rss",
@@ -379,142 +675,6 @@
       "categoryId": "space"
     },
     {
-      "source": "arXiv q-bio",
-      "title": "Privacy-preserving federated tensor decomposition of single-cell immune data: recovering multicellular programs across institutions",
-      "url": "https://arxiv.org/abs/2606.24938",
-      "summary": "arXiv:2606.24938v1 Announce Type: new Abstract: Tensor decomposition of donor $\\times$ cell-type $\\times$ gene single-cell data recovers \\emph{multicellular programs}: coordinated axes of inter-individual transcriptional…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stable-Shift: Biologically Structured Prediction of Transcriptional Responses to Unseen Gene Perturbations",
-      "url": "https://arxiv.org/abs/2606.24940",
-      "summary": "arXiv:2606.24940v1 Announce Type: new Abstract: Predicting transcriptional responses to genetic perturbations could reduce the experimental burden of functional genomics, but extrapolation to genes that were never pertur…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "ML-MAWS: Alignment-Free Maximum Likelihood Phylogeny Estimation Using Minimal Absent Words",
-      "url": "https://arxiv.org/abs/2606.25584",
-      "summary": "arXiv:2606.25584v1 Announce Type: new Abstract: Alignment-free methods in phylogenetic tree construction have major benefits in computational efficiency over alignment-based methods, but most sacrifice sequence informati…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Molexar: A Unified Multimodal Molecular Foundation Model for Drug Design",
-      "url": "https://arxiv.org/abs/2606.25865",
-      "summary": "arXiv:2606.25865v1 Announce Type: new Abstract: Molecular generation is a central challenge in drug discovery, requiring models that explore vast chemical space while satisfying diverse design constraints. We present Mol…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Topology-Dependent Emergence of Polychronous Neuronal Groups: A Recurrence-Plot Characterization",
-      "url": "https://arxiv.org/abs/2606.25874",
-      "summary": "arXiv:2606.25874v1 Announce Type: new Abstract: Polychronous Neuronal Groups (PNGs) reproducible, time-locked spatiotemporal firing cascades stabilised by Spike-Timing-Dependent Plasticity (STDP) and heterogeneous axonal…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Are Tabular Foundation Models Robust to Realistic Query Distribution Shifts in Microbiome Data?",
-      "url": "https://arxiv.org/abs/2606.24995",
-      "summary": "arXiv:2606.24995v1 Announce Type: cross Abstract: Tabular foundation models (TFMs) achieve strong performance on microbiome abundance data, yet their robustness under realistic distribution shift remains poorly character…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Weight geometry governs functional memory in complex systems",
-      "url": "https://arxiv.org/abs/2606.25826",
-      "summary": "arXiv:2606.25826v1 Announce Type: cross Abstract: Complex systems, from gene regulatory networks to neural circuits and transportation infrastructures, exhibit rich functional behaviour that topology alone does not captu…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Deviance-style normalization for jointly overdispersed counts",
-      "url": "https://arxiv.org/abs/2606.26061",
-      "summary": "arXiv:2606.26061v1 Announce Type: cross Abstract: We introduce a Dirichlet--multinomial (DM) deviance residualization for sparse, jointly overdispersed count matrices, the regime that dominates sequencing-based biochemic…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Collective dynamics in spiking neural networks: A systematic review",
-      "url": "https://arxiv.org/abs/2410.23876",
-      "summary": "arXiv:2410.23876v3 Announce Type: replace Abstract: This study aims to identify typical collective phenomena that emerge in excitatory and inhibitory (E-I) spiking neural networks as reported in recent computational stud…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The illusory simplicity of the feedforward pass: evidence for the dynamical nature of stimulus encoding along the primate ventral stream",
-      "url": "https://arxiv.org/abs/2604.12825",
-      "summary": "arXiv:2604.12825v2 Announce Type: replace Abstract: In studying primate vision, a large body of work focuses on the first feedforward sweep. During this initial time window, information is thought to pass through ventral…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SC-TauPath: A Structural Connectivity Attribution Framework for Mapping Tau Propagation Pathways in Alzheimer's Disease",
-      "url": "https://arxiv.org/abs/2606.04066",
-      "summary": "arXiv:2606.04066v2 Announce Type: replace Abstract: Understanding how structural connections are associated with tau propagation in Alzheimer's disease (AD) remains a central open question, yet existing computational mod…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Prospective Coding and Path Integration Emerge as Equilibrium Solutions of Self-Organizing Neural Networks with Firing-Rate Adaptation",
-      "url": "https://arxiv.org/abs/2606.14649",
-      "summary": "arXiv:2606.14649v2 Announce Type: replace Abstract: Continuous Attractor Neural Networks (CANNs) traditionally rely on pre-wired recurrent connectivity to model spatial representations, path integration, and anticipatory…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "OmegAMP: Targeted AMP Discovery via Biologically Informed Generation",
-      "url": "https://arxiv.org/abs/2504.17247",
-      "summary": "arXiv:2504.17247v3 Announce Type: replace-cross Abstract: Deep learning-based antimicrobial peptide (AMP) discovery faces critical challenges such as limited controllability, lack of representations that efficiently mode…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Why Pool When You Can Flow? Active Learning with GFlowNets",
-      "url": "https://arxiv.org/abs/2509.00704",
-      "summary": "arXiv:2509.00704v2 Announce Type: replace-cross Abstract: The scalability of pool-based active learning is limited by the computational cost of evaluating large unlabeled datasets, a challenge that is particularly acute …",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Control of neural field equations with step-function inputs",
-      "url": "https://arxiv.org/abs/2510.22022",
-      "summary": "arXiv:2510.22022v2 Announce Type: replace-cross Abstract: Wilson-Cowan and Amari-type models capture nonlinear neural population dynamics, providing a fundamental framework for modeling how sensory and other exogenous in…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Urysohn Ladder: Recursive Metric Contraction for Scalable Continual Learning",
-      "url": "https://arxiv.org/abs/2512.18471",
-      "summary": "arXiv:2512.18471v2 Announce Type: replace-cross Abstract: Continual learning systems face a fundamental geometric obstacle: as experience accumulates on a fixed-capacity manifold, covering numbers grow linearly with time…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks",
-      "url": "https://arxiv.org/abs/2602.06020",
-      "summary": "arXiv:2602.06020v3 Announce Type: replace-cross Abstract: How do protein structure prediction models fold proteins? We investigate this question through causal interventions on the folding trunks of ESMFold, OpenFold, an…",
-      "ts": 1782360000000,
-      "categoryId": "bio"
-    },
-    {
       "source": "OpenAI",
       "title": "How agents are transforming work",
       "url": "https://openai.com/index/how-agents-are-transforming-work",
@@ -561,166 +721,6 @@
       "summary": "This review covers the biology of the cGAS-STING pathway, the cell’s alarm system that shapes immune and stress responses with impacts on a range of processes, from antiviral defense and tumor immunity to chronic inflamm…",
       "ts": 1782345600000,
       "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "AI-driven discovery of GPNMB CAR T cells as a multi-cancer therapy",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00651-3?rss=yes",
-      "summary": "An AI-guided framework integrating high-resolution cellular atlases, public knowledge databases, and large language models enables a modular framework for CAR T cell target discovery. GPNMB emerged as a versatile candida…",
-      "ts": 1782345600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Cell",
-      "title": "A disinhibitory basal forebrain-to-cortex projection supports sustained attention",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00646-X?rss=yes",
-      "summary": "A long-range inhibitory projection from the basal forebrain disinhibits the cortex to amplify sensory responses. This circuit encodes motivational salience and predicts moment-to-moment attentional performance, providing…",
-      "ts": 1782345600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Drug Targets LDL Receptor Pathway to Control Cholesterol",
-      "url": "https://www.genengnews.com/topics/drug-discovery/drug-targets-ldl-receptor-pathway-to-control-cholesterol/",
-      "summary": "Researchers uncovered a biological pathway that explains why high-cholesterol diets reduce the body's ability to clear harmful LDL cholesterol from the blood and identified a clinical-stage drug candidate that could pote…",
-      "ts": 1782339631000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA at the Ion: Orion Lessons from Artemis II Shape NASA’s Moon to Mars Path",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-at-the-ion-orion-lessons-from-artemis-ii-shape-nasas-moon-to-mars-path/",
-      "summary": "Seven weeks after the Orion spacecraft returned four astronauts from humanity’s first crewed journey around the Moon since Apollo, Artemis II Orion Vehicle Manager Branelle Rodriguez reflected on the mission’s achievemen…",
-      "ts": 1782336556000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Force seeks fresh bidders for satellite-control antennas",
-      "url": "https://spacenews.com/space-force-seeks-fresh-bidders-for-satellite-control-antennas/",
-      "summary": "After terminating $1.7 billion contract, Space Force to relaunch SCAR The post Space Force seeks fresh bidders for satellite-control antennas appeared first on SpaceNews.",
-      "ts": 1782336389000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "La NASA compartirá los últimos avances del programa Base Lunar",
-      "url": "https://www.nasa.gov/news-release/la-nasa-compartira-los-ultimos-avances-del-programa-base-lunar/",
-      "summary": "Lea esta nota de prensa en inglés aquí. El administrador de la NASA, Jared Isaacman, ofrecerá una conversación virtual el martes 30 de junio a las 2:30 p.m. EDT (hora del este) para compartir las novedades más recientes …",
-      "ts": 1782335860000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Share Latest Moon Base Mission Progress",
-      "url": "https://www.nasa.gov/news-release/nasa-to-share-latest-moon-base-mission-progress/",
-      "summary": "NASA Administrator Jared Isaacman will host a virtual conversation at 2:30 p.m. EDT, Tuesday, June 30, to share updates to NASA’s plans to build a Moon Base on the lunar surface. Administrator Isaacman and Carlos García-…",
-      "ts": 1782335583000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Shield Space and ClearSpace partner to defend satellites from orbital threats",
-      "url": "https://spacenews.com/shield-space-and-clearspace-partner-to-defend-satellites-from-orbital-threats/",
-      "summary": "British startup Shield Space plans to combine its autonomous satellite operations software with ClearSpace’s in-orbit servicing capabilities to address emerging orbital threats. The post Shield Space and ClearSpace partn…",
-      "ts": 1782335440000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "First-in-Human Stem Cell Therapy Trial for Huntington’s Disease Begins at UCI Health",
-      "url": "https://www.genengnews.com/topics/translational-medicine/first-in-human-stem-cell-therapy-trial-for-huntingtons-disease-begins-at-uci-health/",
-      "summary": "UCI Health has launched the world’s first human clinical trial using embryonic stem cell-derived neural cells for Huntington’s disease, testing MRI-guided surgical brain delivery to evaluate safety and early therapeutic …",
-      "ts": 1782331446000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Eli Lilly dives into hair loss treatments with investment in AI startup Absci",
-      "url": "https://www.statnews.com/2026/06/24/eli-lilly-absci-hair-loss-treatments/?utm_campaign=rss",
-      "summary": "Eli Lilly is investing in a small startup developing a medication to spur hair growth, and potentially also treat endometriosis.",
-      "ts": 1782331260000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: U.S. health spending rose sharply in 2025, thanks to GLP-1 use and more care",
-      "url": "https://www.statnews.com/2026/06/24/health-care-spending-up-7-point-3-percent-6-trillion-dollars-2026/?utm_campaign=rss",
-      "summary": "People are getting more care and using lots of GLP-1 drugs, fueling a sharp increase in health care spending.",
-      "ts": 1782331200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "BIO 2026: CEO Calls for U.S. Biotech Urgency and International Competitiveness",
-      "url": "https://www.genengnews.com/topics/translational-medicine/bio-2026-ceo-calls-for-u-s-biotech-urgency-and-international-competitiveness/",
-      "summary": "John Crowley emphasized industry modernization and solving \"man-made problems\" to outcompete rivals like China through improved U.S. innovation ecosystems. The post BIO 2026: CEO Calls for U.S. Biotech Urgency and Intern…",
-      "ts": 1782330818000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "MDA Space wins contract for Radarsat replenishment satellite",
-      "url": "https://spacenews.com/mda-space-wins-contract-for-radarsat-replenishment-satellite/",
-      "summary": "MDA Space will build a radar imaging satellite for the Canadian Space Agency as the government studies options for a next-generation satellite system. The post MDA Space wins contract for Radarsat replenishment satellite…",
-      "ts": 1782329443000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Novel Feeder Cell Line Dramatically Expands NK Cell Production",
-      "url": "https://www.genengnews.com/topics/bioprocessing/new-feeder-cell-line-dramatically-expands-nk-cell-production/",
-      "summary": "A new feeder cell line multiplies NK cells by more than 100,000-fold in one month, making it easier to produce these therapeutic cells at commercial quantities and thus develop off-the-shelf cancer immunotherapies. The p…",
-      "ts": 1782316850000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Recoded E. coli Promises More Scalable Weight Loss Drug Production",
-      "url": "https://www.genengnews.com/topics/bioprocessing/recoded-e-coli-promises-more-scalable-weight-loss-drug-production/",
-      "summary": "Manufacturing weight loss drugs at high volume at lower cost with less wastage could get easier thanks to a recoded E.coli strain that can produce long peptide chains containing non-natural chemistries. The post Recoded …",
-      "ts": 1782316831000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Europe’s extreme heat is shutting down power plants",
-      "url": "https://www.technologyreview.com/2026/06/24/1139676/europe-heat-power-plants/",
-      "summary": "Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits as people turn to fans and air-conditioning to try to stay cool. Some power plants won’t be online to help handle the loa…",
-      "ts": 1782314728000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Vast signs additional partners for commercial space station microgravity research",
-      "url": "https://spacenews.com/vast-signs-additional-partners-for-commercial-space-station-microgravity-research/",
-      "summary": "Commercial space station company Vast announced June 24 the addition of several companies and organizations to its network of partners for microgravity research and manufacturing. The post Vast signs additional partners …",
-      "ts": 1782308527000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "York satellite demonstrates two-way UHF communications from low Earth orbit",
-      "url": "https://spacenews.com/york-satellite-demonstrates-two-way-uhf-communications-from-low-earth-orbit/",
-      "summary": "WASHINGTON — York Space Systems said June 24 that a satellite it built for the U.S. Space Force successfully demonstrated two-way tactical communications using ultra-high-frequency (UHF) links from low Earth […] The post…",
-      "ts": 1782306151000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "How space weather could bust the AI boom",
-      "url": "https://spacenews.com/how-space-weather-could-bust-the-ai-boom/",
-      "summary": "America’s electric grid is entering a period of unprecedented strain. Utilities across the country are scrambling to keep up as power-hungry AI data centers expand at a staggering pace, often […] The post How space weath…",
-      "ts": 1782306000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Morocco Expands Health Cooperation with IAEA through New Practical Arrangement",
-      "url": "http://www.iaea.org/newscenter/news/morocco-expands-health-cooperation-with-iaea-through-new-practical-arrangement",
-      "summary": "IAEA and Morocco’s Mohammed VI Foundation of Health Sciences strengthen cooperation in cancer care, medical training and radiation medicine research.",
-      "ts": 1782305400000,
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [

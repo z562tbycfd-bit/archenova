@@ -33,6 +33,21 @@ export const senateAgenda =
   {
     "id": "agenda-3",
     "rank": 3,
+    "title": "Power-Law Scaling in the Classification Performance of Small-Scale Spiking Neural Networks",
+    "slug": "energy-power-law-scaling-in-the-classification-performance-of-small-scale-spiking-neura",
+    "category": "Energy",
+    "source": "arXiv q-bio",
+    "score": 9.6,
+    "priority": "Critical",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "architectureHandoff": "Civilization Energy Architecture",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-4",
+    "rank": 4,
     "title": "Weather Stream releases first light imagery from GEMS2 microwave radiometer",
     "slug": "space-weather-stream-releases-first-light-imagery-from-gems2-microwave-radiometer",
     "category": "Space",
@@ -46,8 +61,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-4",
-    "rank": 4,
+    "id": "agenda-5",
+    "rank": 5,
     "title": "What Europe’s heat wave means for the power grid",
     "slug": "energy-what-europe-s-heat-wave-means-for-the-power-grid",
     "category": "Energy",
@@ -61,8 +76,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-5",
-    "rank": 5,
+    "id": "agenda-6",
+    "rank": 6,
     "title": "A first: EarthCARE cloud data sharpen weather forecasts",
     "slug": "space-a-first-earthcare-cloud-data-sharpen-weather-forecasts",
     "category": "Space",
@@ -76,25 +91,10 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-6",
-    "rank": 6,
-    "title": "New science on algae die-offs is too late for the Reflecting Pool",
-    "slug": "energy-new-science-on-algae-die-offs-is-too-late-for-the-reflecting-pool",
-    "category": "Energy",
-    "source": "Science News",
-    "score": 9.5,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
-    "status": "Open"
-  },
-  {
     "id": "agenda-7",
     "rank": 7,
-    "title": "Rise Time Effects of a Portable Inductive Energy Storage Pulse Generator on NO Production in Spark Discharges",
-    "slug": "energy-rise-time-effects-of-a-portable-inductive-energy-storage-pulse-generator-on-no-p",
+    "title": "Application of surface coating for radon mitigation in rare-event searches",
+    "slug": "energy-application-of-surface-coating-for-radon-mitigation-in-rare-event-searches",
     "category": "Energy",
     "source": "arXiv Physics",
     "score": 9.5,
@@ -108,8 +108,38 @@ export const senateAgenda =
   {
     "id": "agenda-8",
     "rank": 8,
-    "title": "ConSolv: Solvent-Conditional Machine Learning Implicit Solvent Potential",
-    "slug": "ai-consolv-solvent-conditional-machine-learning-implicit-solvent-potential",
+    "title": "Single-Shot Intensity-Correlation Diffractive X-ray Imaging of ICF Plasmas",
+    "slug": "energy-single-shot-intensity-correlation-diffractive-x-ray-imaging-of-icf-plasmas",
+    "category": "Energy",
+    "source": "arXiv Physics",
+    "score": 9.5,
+    "priority": "Critical",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "architectureHandoff": "Civilization Energy Architecture",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-9",
+    "rank": 9,
+    "title": "Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets",
+    "slug": "energy-droplet-fusion-as-a-relaxation-process-comparison-with-shape-recovery-of-newtoni",
+    "category": "Energy",
+    "source": "arXiv Physics",
+    "score": 9.5,
+    "priority": "Critical",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "architectureHandoff": "Civilization Energy Architecture",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-10",
+    "rank": 10,
+    "title": "Sampling sea state using a diffusion model",
+    "slug": "ai-sampling-sea-state-using-a-diffusion-model",
     "category": "AI",
     "source": "arXiv Physics",
     "score": 9.5,
@@ -121,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-9",
-    "rank": 9,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "Small satellite operators confront a bottleneck to space access",
     "slug": "space-small-satellite-operators-confront-a-bottleneck-to-space-access",
     "category": "Space",
@@ -136,8 +166,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-12",
+    "rank": 12,
     "title": "House Appropriations Committee approves $55.5 billion for U.S. Space Force",
     "slug": "space-house-appropriations-committee-approves-55-5-billion-for-u-s-space-force",
     "category": "Space",
@@ -148,36 +178,6 @@ export const senateAgenda =
     "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
     "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
     "architectureHandoff": "Orbital Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-11",
-    "rank": 11,
-    "title": "Leveraging Population Dynamics to Steer Efficient Search in Large-Scale Combinatorial Optimization",
-    "slug": "space-leveraging-population-dynamics-to-steer-efficient-search-in-large-scale-combinat",
-    "category": "Space",
-    "source": "arXiv Physics",
-    "score": 9.4,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Orbital Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-12",
-    "rank": 12,
-    "title": "Rocket Lab wins NASA award for three Electron launches",
-    "slug": "ai-rocket-lab-wins-nasa-award-for-three-electron-launches",
-    "category": "AI",
-    "source": "SpaceNews",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "How should this intelligence capability be governed?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Intelligence Infrastructure",
     "status": "Open"
   }
 ];
