@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-06-26T11:11:46.190Z",
+  "updated": "2026-06-26T14:30:11.002Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "988’s LGBTQ+ hotline to relaunch this year. But the group that helped start it might be excluded",
+      "url": "https://www.statnews.com/2026/06/26/988-lgbtq-hotline-relaunch-trevor-project/?utm_campaign=rss",
+      "summary": "The Trump administration is moving to restart the specialized LGBTQ+ option for youth who contact the 988 crisis line, but the group that helped pioneer the idea is being shut…",
+      "ts": 1782482127000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Embryo editing advances reignite ethical debates",
+      "url": "https://www.statnews.com/2026/06/26/biotech-news-embryo-editing-advances-reignite-ethics-debates/?utm_campaign=rss",
+      "summary": "Cassidy targets 340B, Eli Lilly's mysterious retatrutide patient, and more biotech news from The Readout",
+      "ts": 1782481244000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a bill to overhaul the 340B program, a new FDA commissioner candidate, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/06/26/bill-overhaul-340b-program-new-fda-commisioner-candidate/?utm_campaign=rss",
+      "summary": "And so, another working week will soon draw to a close. Not a moment too soon, yes? This is, you may recall, our treasured signal to daydream about weekend plans.…",
+      "ts": 1782479879000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 22-26 June 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_22-26_June_2026",
+      "summary": "Week in images: 22-26 June 2026 Discover our week through the lens",
+      "ts": 1782479400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: European antitrust regulators probe Sanofi for allegedly disparaging a rival flu vaccine",
+      "url": "https://www.statnews.com/pharmalot/2026/06/26/european-antitrust-regulators-probe-sanofi-for-allegedly-disparaging-rival-flu-vaccine/?utm_campaign=rss",
+      "summary": "The European Commission is investigating Sanofi for allegedly breaching antitrust rules by running a “misleading” campaign about a flu vaccine.",
+      "ts": 1782476965000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
+      "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica…",
+      "ts": 1782475800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Circio’s circVec and Tcelltech’s nanoSMAR Technologies Combined to Generate Nextgen In vivo CAR-T and TCR-T Cells",
+      "url": "https://www.genengnews.com/topics/bioprocessing/circios-circvec-and-tcelltechs-nanosmar-technologies-combined-to-generate-nextgen-in-vivo-car-t-and-tcr-t-cells/",
+      "summary": "Circio and Tcelltech will combine Circio's circVec circular RNA expression technology with Tcelltech's non-viral, high-cargo capacity nanoSMAR vector platform and evaluate the combination in engineered T cells through st…",
+      "ts": 1782475229000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Starlink veterans launch startup to broaden megaconstellation ownership",
+      "url": "https://spacenews.com/starlink-veterans-launch-startup-to-broaden-megaconstellation-ownership/",
+      "summary": "Former SpaceX engineers who helped build and scale Starlink have launched a startup aiming to deliver megaconstellations for governments and companies seeking more control over space-based infrastructure. The post Starli…",
+      "ts": 1782475200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "ISS repair spacewalk highlights concerns about station health",
+      "url": "https://spacenews.com/iss-repair-spacewalk-highlights-concerns-about-station-health/",
+      "summary": "NASA astronauts on the International Space Station are preparing for a spacewalk to repair a robotic arm as advisers raise concerns about the long-term health of the station and spacesuits. The post ISS repair spacewalk …",
+      "ts": 1782475073000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Supreme Court rules in weedkiller cancer case",
+      "url": "https://www.statnews.com/2026/06/26/health-news-supreme-court-rules-in-weedkiller-roundup-cancer-case/?utm_campaign=rss",
+      "summary": "Dems want to unmask Eli Lilly's obesity drug user, a new genome-editing tool raises ethics questions, and more health news",
+      "ts": 1782474070000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Europe’s next security challenge is in orbit",
@@ -64,14 +144,6 @@
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Desert_cropland",
       "summary": "Image: These Copernicus Sentinel-2 images show agricultural development in the desert of southern Egypt, close to the border with Sudan.",
       "ts": 1782460800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "The Battle for Sullivan’s Island",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
-      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
-      "ts": 1782446400000,
       "categoryId": "space"
     },
     {
@@ -281,6 +353,14 @@
       "summary": "arXiv:2606.18640v2 Announce Type: replace-cross Abstract: Glucose forecasting algorithms are an important aspect of glycemic control management in type 1 diabetes. So far, the research community has developed numerous al…",
       "ts": 1782446400000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "The Battle for Sullivan’s Island",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
+      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
+      "ts": 1782446400000,
+      "categoryId": "space"
     },
     {
       "source": "IAEA News",
@@ -640,86 +720,6 @@
       "url": "https://www.statnews.com/2026/06/25/health-news-another-roadblock-for-doj-campaign-against-trans-health/?utm_campaign=rss",
       "summary": "New bill proposes expanding methadone access, $5.7 trillion on U.S. health care, and more health news from Morning Rounds",
       "ts": 1782388120000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "House Appropriations Committee approves $55.5 billion for U.S. Space Force",
-      "url": "https://spacenews.com/house-appropriations-committee-approves-55-5-billion-for-u-s-space-force/",
-      "summary": "Committee urges more competition in satellite communications and criticizes reliance on reconciliation to fund Golden Dome The post House Appropriations Committee approves $55.5 billion for U.S. Space Force appeared firs…",
-      "ts": 1782386260000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Canceled NASA exploration projects suffered billions of dollars in overruns",
-      "url": "https://spacenews.com/canceled-nasa-exploration-projects-suffered-billions-of-dollars-in-overruns/",
-      "summary": "Four NASA exploration projects that the agency stopped earlier this year had suffered overruns that saw their costs more than double, with more than $1 billion in additional increases expected. The post Canceled NASA exp…",
-      "ts": 1782385367000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "What Europe’s heat wave means for the power grid",
-      "url": "https://www.technologyreview.com/2026/06/25/1139690/europe-heat-wave-grid/",
-      "summary": "It’s been hard to look away from headlines about the European heat wave this week. Temperatures are breaking records across the continent, and the weather is threatening lives, shutting down schools, and in one particula…",
-      "ts": 1782381600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "IBM has unveiled chip technology that could help extend Moore’s Law another decade",
-      "url": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip/",
-      "summary": "IBM has built a new prototype chip with around 100 billion transistors on an area the size of a fingernail, which is twice the density of the company’s previous state-of-the-art technology announced in 2021. The design c…",
-      "ts": 1782381600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "China schedules Long March 10B rocket launch and recovery attempt",
-      "url": "https://spacenews.com/china-schedules-long-march-10b-rocket-launch-and-recovery-attempt/",
-      "summary": "HELSINKI — China is set for a debut flight of its Long March 10B rocket in July and attempt to recover the first stage at sea. Recently issued airspace and […] The post China schedules Long March 10B rocket launch and re…",
-      "ts": 1782381575000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Facing a brutal run, battered vaccine makers still see cause for hope ",
-      "url": "https://www.statnews.com/2026/06/25/vaccine-industry-dark-period-causes-for-hope/?utm_campaign=rss",
-      "summary": "It's an unusual time to be in the vaccine business. But in the view of those gathered at the BIO conference this week, it’s not altogether a bleak one.",
-      "ts": 1782376200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: My adult daughter has Down syndrome. Her life is entirely different from what experts expected",
-      "url": "https://www.statnews.com/2026/06/25/prenatal-down-syndrome-diagnosis-screening-life-expectancy-health-facts/?utm_campaign=rss",
-      "summary": "“Women are fully capable of making difficult decisions, but meaningful choice requires trusted, vetted information,” writes Michelle Sie Whitten of the Global Down Syndrome Foundation.",
-      "ts": 1782376200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Bipartisan bill seeks to allow direct prescribing of methadone for opioid addiction",
-      "url": "https://www.statnews.com/2026/06/25/bipartisan-bill-methadone-prescription-pharmacy-pickup/?utm_campaign=rss",
-      "summary": "Methadone for opioid addiction has been available only at specialty clinics. A bipartisan bill would greatly expand access.",
-      "ts": 1782376200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Biosecure didn’t stop China’s rise in biotech. Some lawmakers want to do more",
-      "url": "https://www.statnews.com/2026/06/25/china-biotech-next-steps-after-biosecure-act/?utm_campaign=rss",
-      "summary": "They're laying the groundwork for legislation and regulation to counter Chinese biopharma companies.",
-      "ts": 1782376200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: How a 1976 murder case changed doctor-patient confidentiality",
-      "url": "https://www.statnews.com/2026/06/25/tarasoff-50th-anniversary-murder-doctor-patient-confidentiality/?utm_campaign=rss",
-      "summary": "The Tarasoff case remains a pivotal marker in bioethics at the bicentennial as we now reach the country’s 250th birthday.",
-      "ts": 1782376200000,
       "categoryId": "bio"
     }
   ],
