@@ -14468,3 +14468,128 @@ grid-template-columns:repeat(2,1fr);
     width: 0.92rem !important;
   }
 }
+/* =========================================================
+   ARCHENOVA MOBILE CONTENT FIT FIX
+   Mobile only / prevents card content from being clipped
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .home-page,
+  .twin-page {
+    height: 100dvh !important;
+    min-height: 100dvh !important;
+    max-height: 100dvh !important;
+    overflow: hidden !important;
+    padding: 4.25rem 0.9rem 5.8rem !important;
+  }
+
+  .home-page > *,
+  .twin-page > * {
+    width: 100% !important;
+    max-width: calc(100vw - 1.8rem) !important;
+    max-height: calc(100dvh - 10.5rem) !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .glass-block,
+  .x-card,
+  .crossings-card,
+  .crossings-portal,
+  .hero-entry-card,
+  .home-portal-card,
+  .home-crossing-card,
+  .research-report-card,
+  .constitution-card,
+  .twin-card,
+  .twin-entry-card,
+  .an-card {
+    max-height: calc(100dvh - 10.5rem) !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .glass-block::-webkit-scrollbar,
+  .x-card::-webkit-scrollbar,
+  .crossings-card::-webkit-scrollbar,
+  .crossings-portal::-webkit-scrollbar,
+  .hero-entry-card::-webkit-scrollbar,
+  .home-portal-card::-webkit-scrollbar,
+  .home-crossing-card::-webkit-scrollbar,
+  .research-report-card::-webkit-scrollbar,
+  .constitution-card::-webkit-scrollbar,
+  .twin-card::-webkit-scrollbar,
+  .twin-entry-card::-webkit-scrollbar,
+  .an-card::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .twin-title,
+  .an-title,
+  .constitution-title,
+  h1 {
+    font-size: clamp(2.25rem, 11vw, 3.7rem) !important;
+    line-height: 0.96 !important;
+  }
+
+  .twin-statement,
+  .crossings-portal-title,
+  .home-portal-card h2,
+  h2 {
+    font-size: clamp(1.45rem, 7vw, 2.35rem) !important;
+    line-height: 1.05 !important;
+  }
+
+  p,
+  .page-lead,
+  .twin-definition,
+  .crossings-portal-text,
+  .home-crossing-text,
+  .feed-summary {
+    font-size: 0.72rem !important;
+    line-height: 1.42 !important;
+  }
+
+  .crossings-portal-flow,
+  .crossings-portal-links,
+  .home-crossing-links {
+    gap: 0.5rem !important;
+  }
+
+  .crossings-portal-flow span,
+  .home-crossing-flow span {
+    padding: 0.68rem 0.9rem !important;
+  }
+
+  .hs-pager {
+    bottom: max(0.65rem, env(safe-area-inset-bottom)) !important;
+    z-index: 900 !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .home-page,
+  .twin-page {
+    padding: 4rem 0.75rem 5.6rem !important;
+  }
+
+  .home-page > *,
+  .twin-page > *,
+  .glass-block,
+  .x-card,
+  .crossings-card,
+  .crossings-portal,
+  .hero-entry-card,
+  .home-portal-card,
+  .home-crossing-card,
+  .research-report-card,
+  .constitution-card,
+  .twin-card,
+  .twin-entry-card,
+  .an-card {
+    max-height: calc(100dvh - 10rem) !important;
+  }
+}
