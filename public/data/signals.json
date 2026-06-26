@@ -1,7 +1,32 @@
 {
   "ok": true,
-  "updated": "2026-06-26T16:47:43.318Z",
+  "updated": "2026-06-26T16:57:02.000Z",
   "items": [
+    {
+      "id": "adaptive-capacity-screen-reveals-new-proteins-that-control-rna-processing",
+      "title": "Screen reveals new proteins that control RNA processing",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-screen-reveals-proteins-rna.html",
+      "category": "Adaptive Capacity",
+      "observation": "Researchers at the University of California San Diego have developed a large-scale screening approach that identifies proteins controlling a fundamental step in gene expression known as alternative polyadenylation (APA).…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "Screen reveals new proteins that control RNA processing should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.9,
+        "capabilityExpansion": 6,
+        "infrastructureImpact": 6,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 7.2,
+        "overall": 6.5
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Adaptive Capacity",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1782492818000
+    },
     {
       "id": "civilization-engineering-genome-editing-at-the-turning-point-bringing-crispr-to-clinical-reality",
       "title": "Genome Editing at the Turning Point—Bringing CRISPR to Clinical Reality",
@@ -726,31 +751,6 @@
       "civilizationFunction": "Civilization Engineering",
       "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
       "ts": 1782482404000
-    },
-    {
-      "id": "civilization-engineering-secrets-of-how-we-see-color-revealed-at-the-molecular-level",
-      "title": "Secrets of how we see color revealed at the molecular level",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-secrets-revealed-molecular.html",
-      "category": "Civilization Engineering",
-      "observation": "A global team has cracked a decades-old mystery, revealing the atomic structures of the molecules in our eyes that allow us to see colors. \"To understand how we detect light and perceive colors, we need to know the exact…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Secrets of how we see color revealed at the molecular level should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1782482402000
     },
     {
       "id": "infrastructure-formation-nasa-s-pace-mission-studies-smoke-fires",

@@ -1,11 +1,6 @@
 {
   "ok": true,
-<<<<<<< HEAD
-  "updated": "2026-06-26T14:30:11.002Z",
-  "items": [
-    {
-=======
-  "updated": "2026-06-26T16:47:43.290Z",
+  "updated": "2026-06-26T16:57:01.971Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -80,7 +75,6 @@
       "categoryId": "space"
     },
     {
->>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "source": "STAT",
       "title": "988’s LGBTQ+ hotline to relaunch this year. But the group that helped start it might be excluded",
       "url": "https://www.statnews.com/2026/06/26/988-lgbtq-hotline-relaunch-trevor-project/?utm_campaign=rss",
@@ -97,8 +91,6 @@
       "categoryId": "bio"
     },
     {
-<<<<<<< HEAD
-=======
       "source": "NASA",
       "title": "Hubble Spies Starry Chandelier",
       "url": "https://science.nasa.gov/missions/hubble/hubble-spies-starry-chandelier/",
@@ -107,7 +99,6 @@
       "categoryId": "space"
     },
     {
->>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about a bill to overhaul the 340B program, a new FDA commissioner candidate, and more",
       "url": "https://www.statnews.com/pharmalot/2026/06/26/bill-overhaul-340b-program-new-fda-commisioner-candidate/?utm_campaign=rss",
@@ -156,8 +147,6 @@
       "categoryId": "space"
     },
     {
-<<<<<<< HEAD
-=======
       "source": "United Nations News",
       "title": "Deaths in US immigration custody must be investigated: UN rights chief",
       "url": "https://news.un.org/feed/view/en/story/2026/06/1167816",
@@ -182,7 +171,6 @@
       "categoryId": "global-governance"
     },
     {
->>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "source": "SpaceNews",
       "title": "ISS repair spacewalk highlights concerns about station health",
       "url": "https://spacenews.com/iss-repair-spacewalk-highlights-concerns-about-station-health/",
@@ -199,8 +187,6 @@
       "categoryId": "bio"
     },
     {
-<<<<<<< HEAD
-=======
       "source": "IAEA News",
       "title": "IAEA Director General in Japan Supporting Nuclear Energy, Safety and Cancer Care",
       "url": "http://www.iaea.org/newscenter/news/iaea-director-general-in-japan-supporting-nuclear-energy-safety-and-cancer-care",
@@ -217,7 +203,6 @@
       "categoryId": "energy-climate"
     },
     {
->>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "source": "SpaceNews",
       "title": "Europe’s next security challenge is in orbit",
       "url": "https://spacenews.com/europes-next-security-challenge-is-in-orbit/",
@@ -279,8 +264,6 @@
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Desert_cropland",
       "summary": "Image: These Copernicus Sentinel-2 images show agricultural development in the desert of southern Egypt, close to the border with Sudan.",
       "ts": 1782460800000,
-<<<<<<< HEAD
-=======
       "categoryId": "space"
     },
     {
@@ -289,7 +272,6 @@
       "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
       "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
       "ts": 1782446400000,
->>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "categoryId": "space"
     },
     {
@@ -501,14 +483,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "The Battle for Sullivan’s Island",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
-      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
-      "ts": 1782446400000,
-      "categoryId": "space"
-    },
-    {
       "source": "IAEA News",
       "title": "Update 355 – IAEA Director General Statement on Situation in Ukraine",
       "url": "http://www.iaea.org/newscenter/pressreleases/update-355-iaea-director-general-statement-on-situation-in-ukraine",
@@ -669,14 +643,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Millions of Stars in Cigar Galaxy",
-      "url": "https://www.nasa.gov/image-article/millions-of-stars-in-cigar-galaxy/",
-      "summary": "NASA’s James Webb Space Telescope recently observed edge-on starburst galaxy Messier 82 (M82), nicknamed the Cigar Galaxy. Webb’s new view of M82, added to archival data from NASA’s Hubble Space Telescope, gives us a mor…",
-      "ts": 1782404663000,
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "STAT+: Proposed CDC science office could tighten political control at agency",
       "url": "https://www.statnews.com/2026/06/25/cdc-new-science-office-tighter-political-control/?utm_campaign=rss",
@@ -741,15 +707,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about weight loss drug spending, launch prices for medicines, and much more",
-      "url": "https://www.statnews.com/pharmalot/2026/06/25/weight-loss-drug-spending-launch-prices-for-medicines/?utm_campaign=rss",
-      "summary": "The latest pharmaceutical news from the Pharmalot campus via the Pharmalittle newsletter",
-      "ts": 1782392587000,
-      "categoryId": "bio"
-<<<<<<< HEAD
-    },
-    {
       "source": "NVIDIA",
       "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026/",
@@ -764,112 +721,6 @@
       "summary": "Video: 00:02:07 Europe is facing an intense heatwave, with record temperatures and several cities under red alert. On 23 June, France recorded its hottest June day ever. This image was captured the same day by the Copern…",
       "ts": 1782392400000,
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Europe’s heat wave hits the grid, and IBM’s chip targets Moore’s Law",
-      "url": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Europe’s extreme heat is shutting down power plants Europe is in the middle of a r…",
-      "ts": 1782389400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "InduPro Licenses Lonza’s Linker Payload Technologies and Bioconjugation Platforms",
-      "url": "https://www.genengnews.com/topics/cancer/indupro-licenses-lonzas-linker-payload-technologies-and-bioconjugation-platforms/",
-      "summary": "Lonza and InduPro signed the licensing agreement to develop differentiated therapeutic approaches designed to address complex diseases such as cancer, where precision targeting and efficacy remain critically important. T…",
-      "ts": 1782388811000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA gives generative AI in radiology two breakthrough designation nods",
-      "url": "https://www.statnews.com/2026/06/25/radiology-generative-ai-cognita-aidoc-fda-breakthrough-designation/?utm_campaign=rss",
-      "summary": "FDA has granted breakthrough designation to two devices that use generative AI to interpret chest X-rays and draft the radiology reports.",
-      "ts": 1782388800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council extends critical stabilisation force in Syria",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167813",
-      "summary": "The 15-member Security Council unanimously adopted a draft resolution on Thursday renewing the mandate of the UN Disengagement Observer Force (UNDOF) for six months.",
-      "ts": 1782388800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Ebola prevention, Yemen child deaths, Colombia elections, Japan climate campaign",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167812",
-      "summary": "The UN's top humanitarian has allocated $8 million in funding to help Burundi and South Sudan prepare for the potential spread of Ebola.",
-      "ts": 1782388800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "From Lebanon to the Strait of Hormuz, a Middle East hanging on fragile peace talks",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167811",
-      "summary": "Since Tuesday, United Nations peacekeepers have detected no airstrikes or new missile fire in southern Lebanon. The lull remains fragile, however, as Israeli drones continue to fly over the area and military operations c…",
-      "ts": 1782388800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN envoy warns of growing risks in El Obeid as Sudan conflict drags on",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167810",
-      "summary": "The United Nations Secretary-General’s Personal Envoy for Sudan voiced alarm on Wednesday over escalating violence in and around the city of El Obeid, warning that further military escalation could put thousands of civil…",
-      "ts": 1782388800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "LIVE: From conflict to stability, how the UN is supporting peacebuilding around the world",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167800",
-      "summary": "As wars persist in different parts of the world, it’s perhaps easy to lose sight of the many countries that have managed to recover from past violence, sustain peace and prevent conflict. The UN Peacebuilding Fund, which…",
-      "ts": 1782388800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Thousands trapped in southern Ukraine struggle to survive",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167809",
-      "summary": "Thousands of civilians trapped in frontline communities in southern Ukraine are facing a deepening humanitarian crisis as access to food, medical care and evacuation routes continues to shrink, the UN Human Rights Monito…",
-      "ts": 1782388800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Europe heatwave breaks records as UN agencies ramp up health warnings",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167808",
-      "summary": "As a record-breaking heatwave grips large parts of Europe, the World Meteorological Organization (WMO), national weather services and partners are mobilising heat-health action plans for millions of people facing dangero…",
-      "ts": 1782388800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela earthquakes LIVE: UN rapidly deploys aid and rescue teams",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167806",
-      "summary": "Two deadly earthquakes struck Venezuela less than a minute apart on Wednesday, with magnitudes of 7.2 and 7.5, causing at least 164 deaths and widespread destruction in and around the capital, Caracas as international as…",
-      "ts": 1782388800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela quake disaster: UN urges collective effort to help victims",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167805",
-      "summary": "UN teams scrambled on Thursday in support of the international response to the devastating double earthquake disaster in Venezuela, where buildings lie flattened and people are likely still trapped in the capital, Caraca…",
-      "ts": 1782388800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Another roadblock for DOJ campaign against trans health",
-      "url": "https://www.statnews.com/2026/06/25/health-news-another-roadblock-for-doj-campaign-against-trans-health/?utm_campaign=rss",
-      "summary": "New bill proposes expanding methadone access, $5.7 trillion on U.S. health care, and more health news from Morning Rounds",
-      "ts": 1782388120000,
-      "categoryId": "bio"
-=======
->>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
     }
   ],
   "categories": [

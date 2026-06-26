@@ -1,13 +1,14 @@
 {
   "ok": true,
-<<<<<<< HEAD
-  "updated": "2026-06-26T14:30:05.163Z",
+  "updated": "2026-06-26T16:56:56.289Z",
   "items": [
     {
       "source": "Phys.org",
-=======
-  "updated": "2026-06-26T16:47:35.304Z",
-  "items": [
+      "title": "Screen reveals new proteins that control RNA processing",
+      "url": "https://phys.org/news/2026-06-screen-reveals-proteins-rna.html",
+      "summary": "Researchers at the University of California San Diego have developed a large-scale screening approach that identifies proteins controlling a fundamental step in gene expression known as alternative polyadenylation (APA).…",
+      "ts": 1782492818000
+    },
     {
       "source": "Phys.org",
       "title": "Chemically primitive galaxy from 13 billion years ago reveals record-low oxygen",
@@ -136,7 +137,6 @@
     },
     {
       "source": "Phys.org",
->>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "title": "Swiss glaciers have exhausted their snow reserves",
       "url": "https://phys.org/news/2026-06-swiss-glaciers-exhausted-reserves.html",
       "summary": "From June 29 onward, Switzerland's glaciers will have exhausted their snow reserves. Every liter of meltwater now causes them to lose mass—this is Glacier Loss Day. Between the extreme years of 2003 and 2022 alone, 200 s…",
@@ -234,93 +234,6 @@
       "ts": 1782475201000
     },
     {
-      "source": "Phys.org",
-      "title": "First Nations women in fire: A vital opportunity to boost the workforce and increase community safety",
-      "url": "https://phys.org/news/2026-06-nations-women-vital-opportunity-boost.html",
-      "summary": "A groundbreaking report has revealed that supporting First Nations women in fire and land management is a critical, yet untapped, strategy for protecting Australian communities from escalating climate disasters.",
-      "ts": 1782474006000
-    },
-    {
-<<<<<<< HEAD
-      "source": "Phys.org",
-      "title": "Metal hydride molecule trapped with laser light opens path to ultracold hydrogen",
-      "url": "https://phys.org/news/2026-06-metal-hydride-molecule-laser-path.html",
-      "summary": "Controlling and trapping molecules, units of a substance consisting of two or more chemically bound atoms, with laser light is significantly more challenging than trapping individual atoms. This is because molecules exhi…",
-      "ts": 1782474001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "New research outlines human-centered AI framework for online student success",
-      "url": "https://phys.org/news/2026-06-outlines-human-centered-ai-framework.html",
-      "summary": "University of Phoenix College of Doctoral Studies scholars Pamayla E. Darbyshire, DHA, MSN/CNS, and Carl Beitsayadeh, MS, have published the article, \"Enhancing Student Success through GAI and Predictive Analytics,\" in I…",
-      "ts": 1782472801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Study challenges idea that simply playing sports makes kids less prone to violent behavior",
-      "url": "https://phys.org/news/2026-06-idea-simply-playing-sports-kids.html",
-      "summary": "Contrary to popular belief, simply playing organized youth sports does not reduce the likelihood of committing violence in one's lifetime and, in some cases, may increase it, according to a new study.",
-      "ts": 1782471603000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Sea anemones reveal antiviral defense that reverses human immune playbook",
-      "url": "https://phys.org/news/2026-06-sea-anemones-reveal-antiviral-defense.html",
-      "summary": "A new study has uncovered a previously unknown antiviral defense mechanism in sea anemones, revealing that animals may have evolved more than one way to fight viral infections. Researchers discovered that a protein resem…",
-      "ts": 1782464408000
-    },
-    {
-      "source": "Phys.org",
-      "title": "How a 'copper economy' helps fungi and bacteria build stubborn biofilms",
-      "url": "https://phys.org/news/2026-06-copper-economy-fungi-bacteria-stubborn.html",
-      "summary": "Scientists have discovered that two common human pathogens can work together by managing copper in their shared environment—a finding that could open new ways to break down stubborn mixed biofilms.",
-      "ts": 1782464406000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Scientists find evidence of vast hidden magma systems inside Mars",
-      "url": "https://phys.org/news/2026-06-scientists-evidence-vast-hidden-magma.html",
-      "summary": "Researchers from the University of Oxford have uncovered evidence that Mars once hosted enormous, Earth-like magmatic systems deep beneath its surface—despite the planet lacking the plate tectonics long thought necessary…",
-      "ts": 1782464404000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Wastewater management reverses widespread freshwater deoxygenation in China",
-      "url": "https://phys.org/news/2026-06-wastewater-reverses-widespread-freshwater-deoxygenation.html",
-      "summary": "Freshwater ecosystems worldwide have been suffering from declining oxygen levels—a trend known as deoxygenation—that threatens biodiversity, fisheries and ecosystem stability. However, a new study published in Nature Geo…",
-      "ts": 1782464402000
-    },
-    {
-      "source": "Phys.org",
-      "title": "What to know about earthquake early warning systems",
-      "url": "https://phys.org/news/2026-06-earthquake-early.html",
-      "summary": "As earthquakes struck from California to Venezuela to Japan, millions of people received warnings on their mobile phones, providing critical seconds to seek protection.",
-      "ts": 1782462601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Europe's extreme heat would be impossible without climate change, scientists say",
-      "url": "https://phys.org/news/2026-06-europe-extreme-impossible-climate-scientists.html",
-      "summary": "The record-breaking heat that's scorching Europe day and night this month would not have been possible without climate change, according to a new study.",
-      "ts": 1782461401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Hospitals overwhelmed as Europe heat wave shifts east",
-      "url": "https://phys.org/news/2026-06-hospitals-overwhelmed-europe-shifts-east.html",
-      "summary": "A deadly European heat wave that has saturated hospitals as temperatures soared to record highs was shifting east Friday, with authorities warning of more misery on a continent not used to stretches of punishing heat.",
-      "ts": 1782461098000
-    },
-    {
-      "source": "Phys.org",
-      "title": "The 'water-saving' effect of vegetation under rising CO₂ may be overestimated",
-      "url": "https://phys.org/news/2026-06-effect-vegetation-overestimated.html",
-      "summary": "Climate warming is intensifying terrestrial water scarcity and drought risks worldwide. Meanwhile, rising atmospheric CO2 reduces plant stomatal conductance—the openness of leaf pores that governs both CO2 intake and wat…",
-      "ts": 1782460569000
-    },
-    {
-=======
->>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
       "source": "arXiv Physics",
       "title": "Gender expression appraisals in introductory physics courses: A cross-institutional replication",
       "url": "https://arxiv.org/abs/2606.26143",
@@ -788,58 +701,6 @@
       "url": "https://arxiv.org/abs/2606.26238",
       "summary": "arXiv:2606.26238v1 Announce Type: cross Abstract: Odd diffusion is a hallmark of chiral active matter, generating currents transverse to density gradients. Existing theories rely on a linear antisymmetric transport coeff…",
       "ts": 1782446400000
-<<<<<<< HEAD
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Complex frequency-dependent quadrature squeezing in semiconductor lasers",
-      "url": "https://arxiv.org/abs/2606.26266",
-      "summary": "arXiv:2606.26266v1 Announce Type: cross Abstract: We present a comprehensive study of quadrature squeezing in a quantum well laser based on a fully quantum Langevin approach. We compute the frequency-resolved squeezing m…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Challenging the $p$-type Paradigm: Intrinsic $n$-type Mobility in Antiferromagnetic Cr$_2$O$_3$",
-      "url": "https://arxiv.org/abs/2606.26269",
-      "summary": "arXiv:2606.26269v1 Announce Type: cross Abstract: Chromium oxide (Cr$_2$O$_3$) is widely considered a $p$-type transparent conducting oxide despite ongoing debate regarding its intrinsic transport character. Here, we res…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mechanisms governing photon-pair generation and emission directionality in quantum metasurfaces",
-      "url": "https://arxiv.org/abs/2606.26303",
-      "summary": "arXiv:2606.26303v1 Announce Type: cross Abstract: Metasurfaces are emerging as a promising platform for photon-pair generation through spontaneous parametric down-conversion, thanks to their compactness, integrability, a…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Does Aurora Encode Atmospheric Structure? Latent Regime Analysis and Attribution",
-      "url": "https://arxiv.org/abs/2606.26361",
-      "summary": "arXiv:2606.26361v1 Announce Type: cross Abstract: ML foundation models are able to emulate atmospheric dynamics accurately and efficiently but operate as opaque ``black boxes''. We investigate the internal representation…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A new formulation of metriplectic dynamics with an application to quasigeostrophic ocean modeling with advected quantities",
-      "url": "https://arxiv.org/abs/2606.26388",
-      "summary": "arXiv:2606.26388v1 Announce Type: cross Abstract: A general formulation of metriplectic dynamics is presented, where the metriplectic four-bracket is constructed by multiplying two skew-symmetric brackets. The new formul…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-Hermitian Bloch Oscillations",
-      "url": "https://arxiv.org/abs/2606.26480",
-      "summary": "arXiv:2606.26480v1 Announce Type: cross Abstract: We establish a general framework for non-Hermitian Bloch oscillations by investigating the wave-packet dynamics in one-dimensional non-Hermitian lattices driven by a dc f…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scattering theory for cavity-assisted spin-motion-photon interactions",
-      "url": "https://arxiv.org/abs/2606.26542",
-      "summary": "arXiv:2606.26542v1 Announce Type: cross Abstract: Cavity-assisted photon scattering (CAPS) is a powerful mechanism for realizing strong interactions between the internal states of stationary qubits and flying photons, un…",
-      "ts": 1782446400000
-=======
->>>>>>> 5e0ea39f (Implement Chapter III Programs and Senate Chamber)
     }
   ],
   "sources": [

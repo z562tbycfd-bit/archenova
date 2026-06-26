@@ -15255,3 +15255,329 @@ grid-template-columns:repeat(2,1fr);
     line-height: 1.6;
   }
 }
+
+
+/* =========================================================
+   Mobile only fixes for recent ArcheNova updates
+   Applies to: Home Chapter III / Crossings / Programs / Senate
+   ========================================================= */
+
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .home-page,
+  .twin-page,
+  .page-standard,
+  .programs-page,
+  .senate-page {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .home-chapter,
+  .an-section,
+  .programs-hero,
+  .glass-block {
+    width: 100% !important;
+    max-width: calc(100vw - 2rem) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .home-chapter-title,
+  .an-heading,
+  .programs-hero h1,
+  .senate-page .programs-hero h1 {
+    font-size: clamp(2rem, 10vw, 3.8rem) !important;
+    line-height: 0.98 !important;
+    letter-spacing: -0.055em !important;
+    word-break: break-word !important;
+  }
+
+  .home-chapter-text,
+  .an-body,
+  .page-lead,
+  .glass-block p {
+    font-size: 0.82rem !important;
+    line-height: 1.58 !important;
+    max-width: 100% !important;
+  }
+
+  .an-grid-4,
+  .an-grid-3,
+  .research-report-grid,
+  .crossings-feed,
+  .feed-list {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 0.8rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .an-card,
+  .research-report-card,
+  .crossing-post,
+  .feed-row,
+  .home-crossings-card,
+  .home-crossing-latest {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
+  }
+
+  .crossing-gate-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+    width: 100% !important;
+  }
+
+  .crossing-gate-link,
+  .an-button,
+  .back-link,
+  .inline-link {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .gate-presets {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.45rem !important;
+    width: 100% !important;
+  }
+
+  .gate-preset {
+    font-size: 0.72rem !important;
+    padding: 0.45rem 0.75rem !important;
+  }
+
+  .gate-input {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .crossing-category,
+  .feed-source,
+  .plaza-hint {
+    font-size: 0.72rem !important;
+    line-height: 1.5 !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .crossing-text,
+  .feed-summary,
+  .program-evidence-list,
+  .senate-opinion-block p,
+  .senate-implication-block p {
+    font-size: 0.82rem !important;
+    line-height: 1.6 !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .crossing-stats,
+  .crossing-badges {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+  }
+
+  .senate-score-grid {
+    width: 100% !important;
+  }
+
+  .senate-score-row {
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 1rem !important;
+    width: 100% !important;
+  }
+
+  .research-roadmap,
+  .research-roadmap-step,
+  .research-roadmap-node {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .home-chapter,
+  .an-section,
+  .programs-hero,
+  .glass-block {
+    max-width: calc(100vw - 1.5rem) !important;
+  }
+
+  .home-chapter-title,
+  .an-heading,
+  .programs-hero h1,
+  .senate-page .programs-hero h1 {
+    font-size: clamp(1.8rem, 9.5vw, 3.2rem) !important;
+  }
+
+  .home-chapter-text,
+  .an-body,
+  .page-lead,
+  .glass-block p {
+    font-size: 0.76rem !important;
+    line-height: 1.5 !important;
+  }
+}
+
+/* =========================================================
+   Mobile Enhancement v2
+   Chapter III / Programs / Senate
+   ========================================================= */
+
+@media (max-width:768px){
+
+/* ---------- Section spacing ---------- */
+
+.programs-page section,
+.senate-page section{
+    margin-bottom:32px;
+}
+
+/* ---------- Glass ---------- */
+
+.programs-page .glass-block,
+.senate-page .glass-block{
+    padding:22px 18px;
+    border-radius:22px;
+}
+
+/* ---------- Program cards ---------- */
+
+.programs-page .research-report-card,
+.senate-page .research-report-card{
+    padding:18px;
+}
+
+.programs-page .research-report-card h3,
+.senate-page .research-report-card h3{
+    font-size:1.08rem;
+    line-height:1.35;
+}
+
+/* ---------- Feed Source ---------- */
+
+.feed-source{
+    font-size:.70rem;
+    letter-spacing:.08em;
+}
+
+/* ---------- Evidence List ---------- */
+
+.program-evidence-list{
+    margin:0;
+    padding-left:18px;
+}
+
+.program-evidence-list li{
+    line-height:1.65;
+    margin-bottom:.45rem;
+}
+
+/* ---------- Senate Opinion ---------- */
+
+.senate-opinion-block{
+    padding-top:16px;
+    margin-top:16px;
+}
+
+.senate-opinion-block strong{
+    display:block;
+    margin-bottom:6px;
+}
+
+/* ---------- Deliberation Score ---------- */
+
+.senate-score-grid{
+    margin-top:14px;
+}
+
+.senate-score-row{
+    padding:8px 0;
+}
+
+.senate-score-row span{
+    font-size:.84rem;
+}
+
+.senate-score-row strong{
+    font-size:.90rem;
+}
+
+/* ---------- Roadmap ---------- */
+
+.research-roadmap{
+    gap:14px;
+}
+
+.research-roadmap-index{
+    width:34px;
+    height:34px;
+}
+
+.research-roadmap-node{
+    padding:14px;
+}
+
+/* ---------- Buttons ---------- */
+
+.crossing-gate-link,
+.an-button,
+.back-link{
+    min-height:48px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ---------- Hero ---------- */
+
+.programs-hero{
+    padding-top:54px;
+    padding-bottom:24px;
+}
+
+.programs-hero .page-lead{
+    max-width:100%;
+}
+
+/* ---------- Statistics ---------- */
+
+.an-card strong{
+    font-size:1.1rem;
+}
+
+.an-card p{
+    line-height:1.55;
+}
+
+/* ---------- Prevent overflow ---------- */
+
+img,
+svg,
+canvas,
+iframe,
+video{
+    max-width:100%;
+    height:auto;
+}
+
+}
