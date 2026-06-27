@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-27T05:26:03.513Z",
+  "updated": "2026-06-27T06:54:37.147Z",
   "items": [
     {
       "source": "Phys.org",
@@ -39,6 +39,13 @@
     },
     {
       "source": "Nature Communications",
+      "title": "NAD+ modulates mitochondrial vulnerability in MERTK-associated models of retinitis pigmentosa",
+      "url": "https://www.nature.com/articles/s41467-026-74400-6",
+      "summary": "",
+      "ts": 1782518400000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Ecological multifunctionality of watersheds increases with tree species richness",
       "url": "https://www.nature.com/articles/s41467-026-74914-z",
       "summary": "",
@@ -48,6 +55,20 @@
       "source": "Nature Communications",
       "title": "Multiple human transgenes prolong survival of triple-carbohydrate knockout porcine kidney xenografts in nonhuman primates",
       "url": "https://www.nature.com/articles/s41467-026-74933-w",
+      "summary": "",
+      "ts": 1782518400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "3D nanoprinting of metals by spatiotemporally confined hot electrons via multiple-electron excitations in nanocrystals",
+      "url": "https://www.nature.com/articles/s41467-026-74926-9",
+      "summary": "",
+      "ts": 1782518400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Structural basis for multivitamin recognition and transport by human SMVT",
+      "url": "https://www.nature.com/articles/s41467-026-74948-3",
       "summary": "",
       "ts": 1782518400000
     },
@@ -333,7 +354,7 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays Due to An Interplanetary Coronal Mass Ejection",
+      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
       "url": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
       "summary": "Author(s): Zhen Cao et al. (LHAASO Collaboration) A solar storm hitting Earth appears to have reduced the amount of incoming high-energy cosmic rays, suggesting a new way of measuring solar activity. [Phys. Rev. Lett. 13…",
       "ts": 1782468000000
@@ -679,27 +700,6 @@
       "title": "A Givens-exchange ansatz for molecular variational eigensolvers",
       "url": "https://arxiv.org/abs/2606.26912",
       "summary": "arXiv:2606.26912v1 Announce Type: new Abstract: Molecular ground-state energies help determine conformer rankings, reaction energetics, and electronic effects in computational drug discovery, but accurate calculations be…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Perturbatively Corrected Linear Response Selected Configuration Interaction",
-      "url": "https://arxiv.org/abs/2606.26941",
-      "summary": "arXiv:2606.26941v1 Announce Type: new Abstract: Selected configuration interaction (SCI) methods have emerged as powerful, lower-cost alternatives to full configuration interaction (FCI) for ground- and excited-state ene…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrodynamic theory of premixed flames under Darcy's law: Interfacial conditions and effects of nonunity Lewis number and heat loss",
-      "url": "https://arxiv.org/abs/2606.26953",
-      "summary": "arXiv:2606.26953v1 Announce Type: new Abstract: Premixed flames propagating in porous media or Hele-Shaw channels are governed by Darcy's law, which accounts for the strong frictional forces imposed by the solid matrix o…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Refractive indices of Y$_2$SiO$_5$ in the near-infrared",
-      "url": "https://arxiv.org/abs/2606.26971",
-      "summary": "arXiv:2606.26971v1 Announce Type: new Abstract: Y$_2$SiO$_5$ is a reference birefringent material for optical quantum technologies. The refractive index is primarily known in the visible spectrum, whereas this crystal is…",
       "ts": 1782446400000
     }
   ],

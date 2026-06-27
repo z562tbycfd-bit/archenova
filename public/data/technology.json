@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-27T05:26:06.965Z",
+  "updated": "2026-06-27T06:54:40.513Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -209,6 +209,14 @@
       "summary": "Former SpaceX engineers who helped build and scale Starlink have launched a startup aiming to deliver megaconstellations for governments and companies seeking more control over space-based infrastructure. The post Starli…",
       "ts": 1782475200000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN envoy urges parties to ‘stay the course’ towards peace in eastern DR Congo",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167824",
+      "summary": "The new head of the UN mission in the Democratic Republic of the Congo (DRC) has urged parties to the peace processes for the volatile eastern region to maintain momentum and fully implement their commitments.",
+      "ts": 1782475200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -712,14 +720,6 @@
       "url": "https://www.statnews.com/2026/06/25/readout-loud-podcast-eli-lilly-fda-obesity-trump-absci-regenxbio/?utm_campaign=rss",
       "summary": "Who got exclusive access to Eli Lilly's highly anticipated obesity candidate? And why are drugmakers spending so much on acquisitions? Find out on this week's \"Readout LOUD.\"",
       "ts": 1782413924000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Cassidy proposes bill to rein in 340B drug discount program",
-      "url": "https://www.statnews.com/2026/06/25/cassidy-bill-rein-in-340b-drug-discount-program/?utm_campaign=rss",
-      "summary": "Placing new limits on the 340B drug discount program would be a fresh challenge for hospitals as they confront funding cuts.",
-      "ts": 1782408759000,
       "categoryId": "bio"
     }
   ],
