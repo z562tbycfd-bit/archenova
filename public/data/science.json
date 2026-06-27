@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-27T21:06:46.639Z",
+  "updated": "2026-06-27T23:04:34.539Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Female baboons keep family bonds strong: Research reveals the benefits",
+      "url": "https://phys.org/news/2026-06-female-baboons-family-bonds-strong.html",
+      "summary": "Baboons are one of the most widespread of Africa's primate groups. They range across sub-Saharan Africa and into the Arabian Peninsula. Baboons' ability to spread across such a vast geographic area is based on their grea…",
+      "ts": 1782601201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When the rapid adaptation of sales channels pays off",
+      "url": "https://phys.org/news/2026-06-rapid-sales-channels-pays.html",
+      "summary": "Greater agility in the sales system—that is, a company's ability to rapidly adapt its sales channels to changing market conditions—is associated with higher operating profit, but only under certain conditions. That is th…",
+      "ts": 1782595801000
+    },
     {
       "source": "Phys.org",
       "title": "Peptide alternative to antibiotics could combat antimicrobial resistance crisis",
@@ -686,20 +700,6 @@
       "title": "Fiber Bragg grating-based acoustic sensing system enabled by ML-trained, sub-picometer-tunable hybrid III-V/SiN lasers",
       "url": "https://arxiv.org/abs/2606.26306",
       "summary": "arXiv:2606.26306v1 Announce Type: new Abstract: Distributed acoustic emission (AE) sensing is critical for early detection of structural degradation, yet conventional electrical sensors are difficult to scale and fiber-b…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generalized vibration curves for apodization and super-resolution in far-field diffraction",
-      "url": "https://arxiv.org/abs/2606.26349",
-      "summary": "arXiv:2606.26349v1 Announce Type: new Abstract: The Cornu spiral, widely used to analyze Fresnel diffraction, is a familiar example of a vibration curve, also known as an amplitude-phase curve or phasor diagram. A relate…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Variational derivation of a moist thermal rotating shallow water model",
-      "url": "https://arxiv.org/abs/2606.26353",
-      "summary": "arXiv:2606.26353v1 Announce Type: new Abstract: We introduce a new energy-conserving, moist shallow water model with thermal stratification and rotation. The model is derived from a variational principle, using a Lagrang…",
       "ts": 1782446400000
     }
   ],
