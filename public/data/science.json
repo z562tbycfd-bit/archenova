@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-27T14:56:05.643Z",
+  "updated": "2026-06-27T15:17:41.362Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Non-Hermitian geometry reveals when quantum amplification depends only on start and end points",
+      "url": "https://phys.org/news/2026-06-hermitian-geometry-reveals-quantum-amplification.html",
+      "summary": "In quantum mechanics, the geometry of quantum states has emerged as a powerful framework for understanding phenomena ranging from electrical conductivity to superconductivity. One research direction aims to extend these …",
+      "ts": 1782572402000
+    },
     {
       "source": "Phys.org",
       "title": "Research team cuts cost of building reconstituted cell-free systems by 95%",
@@ -431,7 +438,7 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays Due to An Interplanetary Coronal Mass Ejection",
+      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
       "url": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
       "summary": "Author(s): Zhen Cao et al. (LHAASO Collaboration) A solar storm hitting Earth appears to have reduced the amount of incoming high-energy cosmic rays, suggesting a new way of measuring solar activity. [Phys. Rev. Lett. 13…",
       "ts": 1782468000000
@@ -693,13 +700,6 @@
       "title": "Giant Second-Harmonic Generation in 3R-MoS2/MLM Hybrid Metasurfaces Cavities",
       "url": "https://arxiv.org/abs/2606.26751",
       "summary": "arXiv:2606.26751v1 Announce Type: new Abstract: Nonlinear 2D materials such as 3R-phase molybdenum disulfide (3R-MoS2) offer strong second-order optical nonlinearities in an atomically thin platform, making them attracti…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Iterative Dual-Channel Neural Quantum State Algorithm for Selected Configuration Interaction",
-      "url": "https://arxiv.org/abs/2606.26760",
-      "summary": "arXiv:2606.26760v1 Announce Type: new Abstract: Accurately solving the electronic Schr\\\"{o}dinger equation for strongly correlated systems remains a central challenge in quantum chemistry, where the exponential growth of…",
       "ts": 1782446400000
     }
   ],
