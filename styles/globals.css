@@ -15930,3 +15930,633 @@ scroll-behavior:auto;
   }
 }
 
+
+
+
+
+
+
+
+.builder-input,
+.builder-code {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  color: inherit;
+  padding: 1rem;
+  line-height: 1.7;
+}
+
+.builder-input {
+  min-height: 140px;
+}
+
+.builder-code {
+  min-height: 520px;
+  background: rgba(0,0,0,0.38);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.builder-actions,
+.builder-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.builder-tab {
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.72);
+  padding: 0.55rem 0.9rem;
+  cursor: pointer;
+}
+
+.builder-tab.active {
+  background: rgba(255,255,255,0.16);
+  color: rgba(255,255,255,0.96);
+}
+
+.builder-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 0.9fr);
+  gap: 1rem;
+}
+
+.builder-iframe {
+  width: 100%;
+  min-height: 620px;
+  margin-top: 0.75rem;
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.35);
+}
+
+@media (max-width: 900px) {
+  .builder-workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .builder-code {
+    min-height: 360px;
+  }
+
+  .builder-iframe {
+    min-height: 520px;
+  }
+}
+
+@media (max-width: 520px) {
+  .builder-actions,
+  .builder-tabs {
+    flex-direction: column;
+  }
+
+  .builder-actions .back-link,
+  .builder-tab {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+
+
+.builder-thinking-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.builder-thinking-step {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.04);
+}
+
+.builder-thinking-step span {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.25);
+}
+
+.builder-thinking-step.done span {
+  background: rgba(140, 220, 180, 0.95);
+}
+
+.builder-thinking-step.active span {
+  background: rgba(150, 200, 255, 0.95);
+  box-shadow: 0 0 18px rgba(150, 200, 255, 0.45);
+}
+
+.builder-thinking-step p {
+  margin: 0;
+}
+
+
+
+
+
+
+/* =========================================================
+   ArcheNova Builder v2.0
+   Part 1: Core Desktop / Common Styles
+   ========================================================= */
+
+.builder-cosmos-page {
+  overflow-x: hidden;
+}
+
+.builder-agent-shell {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.builder-panel {
+  min-width: 0;
+  padding: 1.15rem;
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.035);
+  box-sizing: border-box;
+}
+
+.builder-panel h2 {
+  margin-top: 0.65rem;
+}
+
+.builder-chat {
+  display: grid;
+  gap: 0.75rem;
+  max-height: 340px;
+  overflow-y: auto;
+  padding-right: 0.35rem;
+  margin: 1rem 0;
+}
+
+.builder-message {
+  padding: 0.9rem 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(0,0,0,0.22);
+}
+
+.builder-message strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.78);
+}
+
+.builder-message p {
+  margin: 0;
+  color: rgba(255,255,255,0.72);
+  line-height: 1.65;
+}
+
+.builder-input,
+.builder-code {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.045);
+  color: inherit;
+  padding: 1rem;
+  line-height: 1.7;
+}
+
+.builder-input {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.builder-code {
+  min-height: 560px;
+  resize: vertical;
+  background: rgba(0,0,0,0.38);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.84rem;
+}
+
+.builder-actions,
+.builder-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.builder-program-list {
+  display: grid;
+  gap: 0.65rem;
+  margin: 1rem 0;
+}
+
+.builder-program,
+.builder-tab,
+.builder-file {
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.045);
+  color: rgba(255,255,255,0.72);
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.builder-program {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  text-align: left;
+}
+
+.builder-program:hover,
+.builder-program.active,
+.builder-tab:hover,
+.builder-tab.active,
+.builder-file:hover,
+.builder-file.active {
+  background: rgba(255,255,255,0.16);
+  color: rgba(255,255,255,0.96);
+}
+
+.builder-file-tree {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.builder-file {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0.9rem;
+  text-align: left;
+}
+
+.builder-file span {
+  overflow-wrap: anywhere;
+}
+
+.builder-file small {
+  opacity: 0.55;
+}
+
+.builder-tab {
+  padding: 0.55rem 0.9rem;
+}
+
+.builder-tab:disabled {
+  cursor: default;
+  opacity: 1;
+}
+
+.builder-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(420px, 0.95fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.builder-editor,
+.builder-preview {
+  min-width: 0;
+}
+
+.builder-preview-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.builder-tabs.compact {
+  margin-top: 0;
+}
+
+.builder-terminal {
+  margin: 1rem 0 0;
+  padding: 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(0,0,0,0.4);
+  color: rgba(255,255,255,0.78);
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   ArcheNova Builder v2.0
+   Part 2: Preview / Diff / Approval
+   ========================================================= */
+
+.builder-preview-frame {
+  width: 100%;
+  min-height: 640px;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(0,0,0,0.28);
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.builder-preview-desktop {
+  max-width: 100%;
+}
+
+.builder-preview-tablet {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.builder-preview-mobile {
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+.builder-iframe {
+  width: 100%;
+  min-height: 620px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 22px;
+  background: rgba(0,0,0,0.35);
+}
+
+.builder-preview-tablet .builder-iframe {
+  min-height: 760px;
+}
+
+.builder-preview-mobile .builder-iframe {
+  min-height: 780px;
+}
+
+.builder-thinking-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.builder-thinking-step {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.04);
+}
+
+.builder-thinking-step span {
+  width: 0.7rem;
+  height: 0.7rem;
+  flex: 0 0 0.7rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.25);
+}
+
+.builder-thinking-step.done span {
+  background: rgba(140,220,180,0.95);
+}
+
+.builder-thinking-step.active span {
+  background: rgba(150,200,255,0.95);
+  box-shadow: 0 0 18px rgba(150,200,255,0.45);
+}
+
+.builder-thinking-step p {
+  margin: 0;
+  color: rgba(255,255,255,0.76);
+}
+
+.builder-diff-file,
+.builder-approval-card {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.builder-diff-code {
+  margin-top: 0.85rem;
+  padding: 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(0,0,0,0.38);
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.75);
+}
+
+.builder-actions .back-link:disabled,
+.back-link:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.builder-cosmos-page .feed-row.wide {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.builder-cosmos-page .an-card {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+
+
+
+
+
+/* =========================================================
+   ArcheNova Builder v2.0
+   Part 3: Mobile Optimization
+   ========================================================= */
+
+@media (max-width: 1024px) {
+  .builder-agent-shell,
+  .builder-workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .builder-code {
+    min-height: 420px;
+  }
+
+  .builder-preview-frame {
+    min-height: 560px;
+  }
+
+  .builder-iframe {
+    min-height: 540px;
+  }
+}
+
+@media (max-width: 768px) {
+  .builder-cosmos-page {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .builder-cosmos-page .page-head h1 {
+    font-size: clamp(2.3rem, 11vw, 4rem);
+    line-height: 0.96;
+    letter-spacing: -0.055em;
+    word-break: break-word;
+  }
+
+  .builder-cosmos-page .page-lead {
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .builder-agent-shell,
+  .builder-workspace {
+    gap: 0.85rem;
+  }
+
+  .builder-panel,
+  .builder-cosmos-page .glass-block {
+    padding: 1rem;
+    border-radius: 22px;
+  }
+
+  .builder-chat {
+    max-height: 280px;
+  }
+
+  .builder-message {
+    padding: 0.8rem 0.85rem;
+  }
+
+  .builder-message p,
+  .builder-thinking-step p,
+  .builder-cosmos-page .feed-summary {
+    font-size: 0.82rem;
+    line-height: 1.6;
+  }
+
+  .builder-input {
+    min-height: 120px;
+  }
+
+  .builder-code {
+    min-height: 360px;
+    font-size: 0.76rem;
+    line-height: 1.6;
+  }
+
+  .builder-actions,
+  .builder-tabs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .builder-actions .back-link,
+  .builder-tab,
+  .builder-program,
+  .builder-file {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .builder-file {
+    text-align: left;
+  }
+
+  .builder-preview-head {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .builder-preview-frame {
+    min-height: 520px;
+    padding: 0.75rem;
+    border-radius: 20px;
+  }
+
+  .builder-preview-tablet,
+  .builder-preview-mobile {
+    max-width: 100%;
+  }
+
+  .builder-iframe,
+  .builder-preview-tablet .builder-iframe,
+  .builder-preview-mobile .builder-iframe {
+    min-height: 500px;
+    border-radius: 18px;
+  }
+
+  .builder-terminal {
+    font-size: 0.76rem;
+    line-height: 1.6;
+  }
+
+  .builder-thinking-step {
+    align-items: flex-start;
+    padding: 0.75rem 0.85rem;
+  }
+
+  .builder-cosmos-page .an-grid-3,
+  .builder-cosmos-page .an-grid-4,
+  .builder-cosmos-page .research-report-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .builder-cosmos-page .page-head h1 {
+    font-size: clamp(2rem, 10vw, 3.3rem);
+  }
+
+  .builder-panel,
+  .builder-cosmos-page .glass-block {
+    padding: 0.9rem;
+  }
+
+  .builder-input {
+    min-height: 110px;
+  }
+
+  .builder-code {
+    min-height: 320px;
+  }
+
+  .builder-preview-frame {
+    min-height: 460px;
+    padding: 0.55rem;
+  }
+
+  .builder-iframe,
+  .builder-preview-tablet .builder-iframe,
+  .builder-preview-mobile .builder-iframe {
+    min-height: 440px;
+  }
+
+  .builder-program,
+  .builder-file,
+  .builder-tab {
+    font-size: 0.78rem;
+  }
+}
