@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-27T03:59:26.893Z",
+  "updated": "2026-06-27T05:26:03.513Z",
   "items": [
     {
       "source": "Phys.org",
@@ -34,6 +34,13 @@
       "source": "Nature Communications",
       "title": "Highly robust molecular information carriers for traceability of plastic materials",
       "url": "https://www.nature.com/articles/s41467-026-73889-1",
+      "summary": "",
+      "ts": 1782518400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Ecological multifunctionality of watersheds increases with tree species richness",
+      "url": "https://www.nature.com/articles/s41467-026-74914-z",
       "summary": "",
       "ts": 1782518400000
     },
@@ -693,13 +700,6 @@
       "title": "Refractive indices of Y$_2$SiO$_5$ in the near-infrared",
       "url": "https://arxiv.org/abs/2606.26971",
       "summary": "arXiv:2606.26971v1 Announce Type: new Abstract: Y$_2$SiO$_5$ is a reference birefringent material for optical quantum technologies. The refractive index is primarily known in the visible spectrum, whereas this crystal is…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Excitation of non-modal perturbations in hypersonic boundary layers by free stream forcing. Part II: asymptotic theory and key mechanisms",
-      "url": "https://arxiv.org/abs/2606.26976",
-      "summary": "arXiv:2606.26976v1 Announce Type: new Abstract: Recently, Zhao & Dong (J. Fluid Mech. 2025, vol. 1013: A44) developed a high-efficiency, high-accuracy numerical framework, the shock-fitting harmonic linearised Navier-Sto…",
       "ts": 1782446400000
     }
   ],

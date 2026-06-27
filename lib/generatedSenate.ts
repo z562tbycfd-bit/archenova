@@ -93,21 +93,6 @@ export const senateAgenda =
   {
     "id": "agenda-7",
     "rank": 7,
-    "title": "Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets",
-    "slug": "energy-droplet-fusion-as-a-relaxation-process-comparison-with-shape-recovery-of-newtoni",
-    "category": "Energy",
-    "source": "arXiv Physics",
-    "score": 9.5,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-8",
-    "rank": 8,
     "title": "Spain-backed fund joins FOSSA’s sovereign satellite communications push",
     "slug": "ai-spain-backed-fund-joins-fossa-s-sovereign-satellite-communications-push",
     "category": "AI",
@@ -121,8 +106,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-9",
-    "rank": 9,
+    "id": "agenda-8",
+    "rank": 8,
     "title": "NASA's PACE mission studies smoke and fires",
     "slug": "space-nasa-s-pace-mission-studies-smoke-and-fires",
     "category": "Space",
@@ -136,8 +121,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-9",
+    "rank": 9,
     "title": "NASA’s PACE Mission Studies Smoke, Fires",
     "slug": "space-nasa-s-pace-mission-studies-smoke-fires",
     "category": "Space",
@@ -151,8 +136,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-10",
+    "rank": 10,
     "title": "Euclid Sees Heart of Milky Way",
     "slug": "space-euclid-sees-heart-of-milky-way",
     "category": "Space",
@@ -166,12 +151,27 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-12",
-    "rank": 12,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "Uranus, Neptune may be magma worlds, not ice giants",
     "slug": "ai-uranus-neptune-may-be-magma-worlds-not-ice-giants",
     "category": "AI",
     "source": "Phys.org",
+    "score": 9.2,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-12",
+    "rank": 12,
+    "title": "IAEA and Japan Cooperate on Managed Recycling of Removed Soil Arising from Decontamination Activities after the Accident of the Fukushima Daiichi Nuclear Power Station",
+    "slug": "ai-iaea-and-japan-cooperate-on-managed-recycling-of-removed-soil-arising-from-decon",
+    "category": "AI",
+    "source": "IAEA News",
     "score": 9.2,
     "priority": "High",
     "stage": "Open Deliberation",

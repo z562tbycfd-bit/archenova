@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-27T03:59:30.939Z",
+  "updated": "2026-06-27T05:26:06.991Z",
   "items": [
     {
       "id": "civilization-engineering-participatory-theater-helps-young-people-become-active-citizens",
@@ -125,6 +125,31 @@
       "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
       "civilizationFunction": "Capability Expansion",
       "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1782518400000
+    },
+    {
+      "id": "adaptive-capacity-ecological-multifunctionality-of-watersheds-increases-with-tree-species-richness",
+      "title": "Ecological multifunctionality of watersheds increases with tree species richness",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-74914-z",
+      "category": "Adaptive Capacity",
+      "observation": "Ecological multifunctionality of watersheds increases with tree species richness",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "Ecological multifunctionality of watersheds increases with tree species richness should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+      "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+      "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+      "civilizationFunction": "Adaptive Capacity",
+      "watchpoint": "Watch whether this moves from observation into decision systems, infrastructure adaptation, governance response, and measurable resilience outcomes.",
       "ts": 1782518400000
     },
     {
@@ -2475,31 +2500,6 @@
       "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
       "civilizationFunction": "Civilization Engineering",
       "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1782446400000
-    },
-    {
-      "id": "capability-expansion-droplet-fusion-as-a-relaxation-process-comparison-with-shape-recovery-of-newtoni",
-      "title": "Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets",
-      "source": "arXiv Physics",
-      "originalUrl": "https://arxiv.org/abs/2606.26272",
-      "category": "Capability Expansion",
-      "observation": "arXiv:2606.26272v1 Announce Type: new Abstract: Biomolecular condensates formed by phase separation often exhibit viscoelastic behavior, yet their shape recovery and fusion dynamics are frequently interpreted using purel…",
-      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "commentary": "Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 8.7,
-        "infrastructureImpact": 6.8,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 5.8,
-        "overall": 6.4
-      },
-      "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-      "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-      "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-      "civilizationFunction": "Capability Expansion",
-      "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
       "ts": 1782446400000
     }
   ]
