@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-27T06:54:37.147Z",
+  "updated": "2026-06-27T09:30:11.703Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Two humpback whales set records swimming between Australia and Brazil",
+      "url": "https://phys.org/news/2026-05-humpback-whales-australia-brazil.html",
+      "summary": "Scientists have spotted two humpback whales that made separate, record-breaking crossings between Australia and Brazil.",
+      "ts": 1782550802000
+    },
     {
       "source": "Phys.org",
       "title": "Participatory theater helps young people become active citizens",
@@ -29,6 +36,13 @@
       "url": "https://phys.org/news/2026-06-vulnerable-butterfly-botanical-garden-uppsala.html",
       "summary": "The Botanical Garden in Uppsala was recently visited by animal ecology researchers, who conducted a BioBlitz to find, identify and record as many insects as possible in the Botanical Garden. One of the finds was an endan…",
       "ts": 1782520804000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Prediction error correlates in the striosome-dopamine circuit emerge from information gain",
+      "url": "https://www.nature.com/articles/s41467-026-73994-1",
+      "summary": "",
+      "ts": 1782518400000
     },
     {
       "source": "Nature Communications",
@@ -354,7 +368,7 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
+      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays Due to An Interplanetary Coronal Mass Ejection",
       "url": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
       "summary": "Author(s): Zhen Cao et al. (LHAASO Collaboration) A solar storm hitting Earth appears to have reduced the amount of incoming high-energy cosmic rays, suggesting a new way of measuring solar activity. [Phys. Rev. Lett. 13…",
       "ts": 1782468000000
@@ -686,20 +700,6 @@
       "title": "Influence of Park's Two-Temperature Model Control Temperature on the Flow Properties in Hypersonic Reentry Conditions",
       "url": "https://arxiv.org/abs/2606.26906",
       "summary": "arXiv:2606.26906v1 Announce Type: new Abstract: Numerical simulations of reactive hypersonic flows under thermochemical non-equilibrium conditions are presented for the FIRE II and Mars Pathfinder capsules. An 11-species…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High order harmonic Optical Reconstruction by delayed time-depeNdent Ellipticity perturbaTion: HORNET",
-      "url": "https://arxiv.org/abs/2606.26908",
-      "summary": "arXiv:2606.26908v1 Announce Type: new Abstract: We present and demonstrate an all-optical \\textit{in situ} method for temporal characterisation of high-order harmonics generated in gas with a linearly polarised intense i…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Givens-exchange ansatz for molecular variational eigensolvers",
-      "url": "https://arxiv.org/abs/2606.26912",
-      "summary": "arXiv:2606.26912v1 Announce Type: new Abstract: Molecular ground-state energies help determine conformer rankings, reaction energetics, and electronic effects in computational drug discovery, but accurate calculations be…",
       "ts": 1782446400000
     }
   ],
