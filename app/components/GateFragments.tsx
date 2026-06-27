@@ -104,16 +104,7 @@ export default function GateFragments() {
 
           <div className="crossing-stats">
             <span>♥ {item.likes}</span>
-            <span>↺ {item.reposts}</span>
-            <span>💬 {item.replies}</span>
           </div>
-        </div>
-
-        <div className="crossings-portal-flow">
-          <span>Dialogue</span>
-          <span>Knowledge Sharing</span>
-          <span>Civilization Signals</span>
-          <span>Open Discussion</span>
         </div>
 
         <div className="crossing-gate-wrap">

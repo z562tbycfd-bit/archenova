@@ -696,7 +696,7 @@ export default function Home() {
               trajectory of civilization.
             </p>
 
-            <Link href="/crossings/signals" className="an-button">
+            <Link href="/signals" className="an-button">
               <p>Enter Signals →</p>
             </Link>
           </div>
@@ -721,7 +721,7 @@ export default function Home() {
               Builder, Programs, and Court.
             </p>
 
-            <Link href="/research" className="an-button">
+            <Link href="/reports" className="an-button">
               <p>Enter Reports →</p>
             </Link>
           </div>

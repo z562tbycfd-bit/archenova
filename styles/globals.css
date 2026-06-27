@@ -17922,3 +17922,109 @@ font-size:1.7rem;
 }
 
 }
+/* ==========================================================
+   Mobile Home Section Overflow Fix
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .home-page.twin-page {
+    min-height: 100svh;
+    height: auto !important;
+    overflow-y: auto;
+    padding-top: 5.5rem;
+    padding-bottom: 8rem;
+  }
+
+  .home-page .an-section,
+  .home-section,
+  .home-section-center {
+    width: 100%;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .an-grid-3,
+  .an-grid-4 {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem;
+  }
+
+  .an-card {
+    min-height: auto;
+  }
+
+  .an-heading {
+    font-size: clamp(3.1rem, 14vw, 5.4rem);
+  }
+
+  .an-body {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+}
+
+
+
+
+
+/* ==========================================================
+   Mobile Chapter Pager Compact Fix
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .chapter-navigator {
+    left: 50% !important;
+    right: auto !important;
+    bottom: calc(0.75rem + env(safe-area-inset-bottom)) !important;
+    transform: translateX(-50%) !important;
+
+    width: calc(100vw - 1rem) !important;
+    max-width: 100vw !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+
+    gap: 0.35rem !important;
+    padding: 0.42rem !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    border-radius: 999px !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .chapter-navigator::-webkit-scrollbar {
+    display: none;
+  }
+
+  .chapter-nav-item {
+    width: 2.15rem !important;
+    height: 2.15rem !important;
+    min-width: 2.15rem !important;
+    flex: 0 0 auto !important;
+
+    font-size: 0.72rem !important;
+  }
+
+  .chapter-nav-label {
+    display: none !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .chapter-nav-item {
+    width: 2rem !important;
+    height: 2rem !important;
+    min-width: 2rem !important;
+    font-size: 0.68rem !important;
+  }
+
+  .chapter-navigator {
+    gap: 0.28rem !important;
+    padding: 0.36rem !important;
+  }
+}
