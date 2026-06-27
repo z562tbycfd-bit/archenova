@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-27T01:52:09.943Z",
+  "updated": "2026-06-27T03:41:13.601Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Participatory theater helps young people become active citizens",
+      "url": "https://phys.org/news/2026-06-participatory-theater-young-people-citizens.html",
+      "summary": "In Estonian schools, social studies classes provide a thorough education on what democracy is and what it means to be a citizen. However, knowledge alone is not enough to foster active citizenship or reduce the differenc…",
+      "ts": 1782530401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "By co-operating with local governments, organizations, universities have a vital role to play in tackling climate change",
+      "url": "https://phys.org/news/2026-06-local-universities-vital-role-play.html",
+      "summary": "Governments, corporations and other institutions must all play constructive roles in mitigating the impacts of climate change. Universities, too, can and must help with that effort.",
+      "ts": 1782526802000
+    },
     {
       "source": "Phys.org",
       "title": "Investigative interviews are key to solving crimes—should AI be helping police with their inquiries?",
@@ -15,6 +29,27 @@
       "url": "https://phys.org/news/2026-06-vulnerable-butterfly-botanical-garden-uppsala.html",
       "summary": "The Botanical Garden in Uppsala was recently visited by animal ecology researchers, who conducted a BioBlitz to find, identify and record as many insects as possible in the Botanical Garden. One of the finds was an endan…",
       "ts": 1782520804000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Highly robust molecular information carriers for traceability of plastic materials",
+      "url": "https://www.nature.com/articles/s41467-026-73889-1",
+      "summary": "",
+      "ts": 1782518400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Confined ionic order in atomic nanowires of rare-earth chlorides unveiled via symmetry-guided structural screening",
+      "url": "https://www.nature.com/articles/s41467-026-74793-4",
+      "summary": "",
+      "ts": 1782518400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Broadband Radiative Heat Transfer Suppression via Dispersion-Engineered Metasurfaces",
+      "url": "https://www.nature.com/articles/s41467-026-74805-3",
+      "summary": "",
+      "ts": 1782518400000
     },
     {
       "source": "Phys.org",
@@ -665,41 +700,6 @@
       "title": "In-plane vector-field imaging of propagating surface phonon polaritons",
       "url": "https://arxiv.org/abs/2606.27030",
       "summary": "arXiv:2606.27030v1 Announce Type: new Abstract: Polariton interferometry through optical near-field microscopy has become a powerful tool in nanophotonics, enabling direct spatial access to the propagation characteristic…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of Non-Hermitian Skin Dynamics in the Liouvillian Regime",
-      "url": "https://arxiv.org/abs/2606.27043",
-      "summary": "arXiv:2606.27043v1 Announce Type: new Abstract: Open quantum systems generally do not perfectly preserve phase coherence: coupling to uncontrolled environments requires a density-matrix description based on the Liouvilli…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Proton Relay Orchestrated by Covalent Bond Switching of Active Amino Acids in Protein Channels",
-      "url": "https://arxiv.org/abs/2606.27081",
-      "summary": "arXiv:2606.27081v1 Announce Type: new Abstract: Through systematic mutational simulations of the key site in a proton channel, we find that 13 of the 20 canonical amino acid residues are active for proton transfer throug…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "GPU-accelerated superiorization on constrained physical problems with SupPy",
-      "url": "https://arxiv.org/abs/2606.27086",
-      "summary": "arXiv:2606.27086v1 Announce Type: new Abstract: The superiorization method (SM) is situated between feasibility-seeking and constrained optimization. Instead of aiming at the minimum of a given objective function over a …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning Climate Variability from Scarce Data with Diffusion Models: A Test Case for ENSO",
-      "url": "https://arxiv.org/abs/2606.27094",
-      "summary": "arXiv:2606.27094v1 Announce Type: new Abstract: Diffusion models are increasingly applied to climate emulation, but whether they capture the correct modes of variability remains unclear, a concern amplified by data scarc…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural Networks for Inverse Design of Cascaded-Mode Near-Field Landscapes",
-      "url": "https://arxiv.org/abs/2606.27099",
-      "summary": "arXiv:2606.27099v1 Announce Type: new Abstract: Structuring optical near-fields is important for applications in microscopy and nanoparticle manipulation. Traditionally, near-fields are structured using antenna nanostruc…",
       "ts": 1782446400000
     }
   ],
