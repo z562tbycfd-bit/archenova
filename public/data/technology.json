@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-27T09:30:14.192Z",
+  "updated": "2026-06-27T11:37:06.598Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: Supreme Court ruling on Roundup points to a confusing difference between the law and science",
+      "url": "https://www.statnews.com/2026/06/27/roundup-glyphosate-cancer-monsanto-v-durnell-supreme-court/?utm_campaign=rss",
+      "summary": "The Supreme Court’s ruling on Roundup shows science and law use the same word — causation — while asking different questions, writes epidemiologist.",
+      "ts": 1782558000000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Rocket Lab launches 10th Synspective satellite",
@@ -712,14 +720,6 @@
       "url": "https://www.genengnews.com/topics/drug-discovery/bio-2026-fda-leadership-confront-workforce-losses-china-competition-in-drug-development/",
       "summary": "The panel, which featured the acting directors of Center for Drug Evaluation and Research and the Center for Biologics Evaluation and Research, and the acting chief of staff, focused on the FDA’s current priorities and i…",
       "ts": 1782414008000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "The mysterious case of Eli Lilly’s obesity drug",
-      "url": "https://www.statnews.com/2026/06/25/readout-loud-podcast-eli-lilly-fda-obesity-trump-absci-regenxbio/?utm_campaign=rss",
-      "summary": "Who got exclusive access to Eli Lilly's highly anticipated obesity candidate? And why are drugmakers spending so much on acquisitions? Find out on this week's \"Readout LOUD.\"",
-      "ts": 1782413924000,
       "categoryId": "bio"
     }
   ],

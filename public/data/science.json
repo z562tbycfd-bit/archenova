@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-06-27T09:30:11.703Z",
+  "updated": "2026-06-27T11:36:59.037Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Farmers fear drought as Italy's longest river runs dry",
+      "url": "https://phys.org/news/2026-06-farmers-drought-italy-longest-river.html",
+      "summary": "Seawater is seeping into Italy's longest river as the waterway starts to run dry in the heat wave, hitting a farming heartland that produces the milk for Parmesan cheese.",
+      "ts": 1782559203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Germany sees hottest temperature on record of 41.3C: Weather service",
+      "url": "https://phys.org/news/2026-06-germany-hottest-temperature-413c-weather.html",
+      "summary": "Germany saw its highest temperature ever recorded Friday at 41.3°C (106.3°F), according to preliminary weather service data, as the country braces for the possibility of even higher temperatures over the weekend.",
+      "ts": 1782559201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A large, harmless asteroid will zip past Earth this weekend",
+      "url": "https://phys.org/news/2026-06-large-harmless-asteroid-earth-weekend.html",
+      "summary": "A large asteroid will zip past Earth this weekend, but don't worry: It poses no danger.",
+      "ts": 1782558095000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thawing ground, future questions: Decoding Arctic climate in a lab",
+      "url": "https://phys.org/news/2026-06-ground-future-decoding-arctic-climate.html",
+      "summary": "In a Penn State lab, a small cylinder of soil sits wired with sensors, slowly cooling as it mimics conditions thousands of miles away.",
+      "ts": 1782555601000
+    },
     {
       "source": "Phys.org",
       "title": "Two humpback whales set records swimming between Australia and Brazil",
@@ -672,34 +700,6 @@
       "title": "Excursion-set structure factor of the auroral electric field",
       "url": "https://arxiv.org/abs/2606.26854",
       "summary": "arXiv:2606.26854v1 Announce Type: new Abstract: We treat coherent radar echoes from aurorae as a finite point process and measure its structure factor $S(k)$ from pairwise echo separations. Backscatter requires electron …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-Threshold Degenerate Optical Parametric Oscillations in Bichromatically-Pumped Normal-Dispersion Photonic-Crystal Microresonator",
-      "url": "https://arxiv.org/abs/2606.26860",
-      "summary": "arXiv:2606.26860v1 Announce Type: new Abstract: The process of excitation of degenerate optical parametric oscillations via bichromatic pump is studied numerically in normal-dispersion photonic-crystal microresonator. It…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Human adaptive variability stabilises collective traffic dynamics",
-      "url": "https://arxiv.org/abs/2606.26868",
-      "summary": "arXiv:2606.26868v1 Announce Type: new Abstract: Automated systems are often designed on the assumption that replacing human behavioural variability with precise, uniform algorithmic control improves collective performanc…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "HERETIX: A Hermetic, Enriched, Rare-Event Time Projection Chamber in Xenon",
-      "url": "https://arxiv.org/abs/2606.26876",
-      "summary": "arXiv:2606.26876v1 Announce Type: new Abstract: Xenon-based time projection chambers have established themselves as one of the most powerful technologies for rare-event searches. HERETIX is a proposed multi-tonne liquid …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of Park's Two-Temperature Model Control Temperature on the Flow Properties in Hypersonic Reentry Conditions",
-      "url": "https://arxiv.org/abs/2606.26906",
-      "summary": "arXiv:2606.26906v1 Announce Type: new Abstract: Numerical simulations of reactive hypersonic flows under thermochemical non-equilibrium conditions are presented for the FIRE II and Mars Pathfinder capsules. An 11-species…",
       "ts": 1782446400000
     }
   ],
