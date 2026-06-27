@@ -14374,6 +14374,7 @@ grid-template-columns:repeat(2,1fr);
     font-size: 0.76rem !important;
     line-height: 1.48 !important;
   }
+
 }
 /* =========================================================
    ARCHENOVA MOBILE CONTENT FIT FIX
@@ -15493,19 +15494,7 @@ video{
    Chapter Navigator
    Desktop + Mobile
    ========================================================= */
-
-.chapter-navigator {
-  right: 1.25rem !important;
-  left: auto !important;
-  bottom: 50% !important;
-  transform: translateY(50%) !important;
-  width: auto !important;
-  max-width: none !important;
-  flex-direction: column !important;
-  gap: 0.55rem !important;
-  padding: 0.65rem !important;
-}
-
+   
 .chapter-nav-list {
   display: flex;
   flex-direction: column;
@@ -15940,3 +15929,4 @@ scroll-behavior:auto;
     min-width: 2.15rem;
   }
 }
+
