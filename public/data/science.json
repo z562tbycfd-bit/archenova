@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-06-27T19:24:34.195Z",
+  "updated": "2026-06-27T21:06:46.639Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Peptide alternative to antibiotics could combat antimicrobial resistance crisis",
+      "url": "https://phys.org/news/2026-06-peptide-alternative-antibiotics-combat-antimicrobial.html",
+      "summary": "A University of Alberta research team has designed a promising alternative for treating antimicrobial-resistant infections, a pressing global health issue. In a paper recently published in Cell Biomaterials, the team des…",
+      "ts": 1782594003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Burned-home soils showed uneven lead, arsenic contamination after Los Angeles wildfires",
+      "url": "https://phys.org/news/2026-06-home-soils-uneven-arsenic-contamination.html",
+      "summary": "A chemical analysis of residential soils and ash around California homes burned by the Eaton and Palisades wildfires in early 2025 revealed wide variation in contamination by potentially harmful elements, including lead,…",
+      "ts": 1782590405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research identifies types of dishonesty that occur in a relationship—and their consequences",
+      "url": "https://phys.org/news/2026-06-dishonesty-relationship-consequences.html",
+      "summary": "From \"harmless\" white lies to infidelity, dishonesty in romantic relationships is a complex phenomenon that takes on many forms. New research from the University of Copenhagen shows that while dishonesty between partners…",
+      "ts": 1782590402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "World's largest particle smasher halts for upgrade to boost hunt for dark matter",
+      "url": "https://phys.org/news/2026-06-world-largest-particle-smasher-halts.html",
+      "summary": "The world's most powerful particle accelerator will shutter operations Monday for four years of renovations to dramatically boost its collision capacity and the potential for unlocking one of the greatest mysteries of th…",
+      "ts": 1782588587000
+    },
     {
       "source": "Phys.org",
       "title": "Lithium-doped carbon nanorings show promise for next-generation optical devices",
@@ -176,6 +204,13 @@
       "url": "https://phys.org/news/2026-06-vulnerable-butterfly-botanical-garden-uppsala.html",
       "summary": "The Botanical Garden in Uppsala was recently visited by animal ecology researchers, who conducted a BioBlitz to find, identify and record as many insects as possible in the Botanical Garden. One of the finds was an endan…",
       "ts": 1782520804000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Hyperbranched dielectric polymer networks exhibiting giant energy storage density at 250 °C",
+      "url": "https://www.nature.com/articles/s41467-026-74830-2",
+      "summary": "",
+      "ts": 1782518400000
     },
     {
       "source": "Nature Communications",
@@ -665,41 +700,6 @@
       "title": "Variational derivation of a moist thermal rotating shallow water model",
       "url": "https://arxiv.org/abs/2606.26353",
       "summary": "arXiv:2606.26353v1 Announce Type: new Abstract: We introduce a new energy-conserving, moist shallow water model with thermal stratification and rotation. The model is derived from a variational principle, using a Lagrang…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Integrating Gyrokinetic Flux Predictions with Ideal MHD Stability Boundaries",
-      "url": "https://arxiv.org/abs/2606.26362",
-      "summary": "arXiv:2606.26362v1 Announce Type: new Abstract: Accurate prediction of pedestal height and width in tokamaks remains a critical issue as it strongly influences the predicted plasma performance of all future reactors. We …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometry-Driven Passive Fluid Transport in Paper-Based Microdevices",
-      "url": "https://arxiv.org/abs/2606.26374",
-      "summary": "arXiv:2606.26374v1 Announce Type: new Abstract: Channel geometry strongly influences capillary-driven fluid transport in paper-based devices, yet systematic comparative studies correlating geometric design with flow beha…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-dimensional Dynamics of the Social Compass Model",
-      "url": "https://arxiv.org/abs/2606.26378",
-      "summary": "arXiv:2606.26378v1 Announce Type: new Abstract: The social compass model has been recently proposed as a model for depolarization in populations where individuals have multiple, possibly correlated, opinions. Previous wo…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sampling sea state using a diffusion model",
-      "url": "https://arxiv.org/abs/2606.26389",
-      "summary": "arXiv:2606.26389v1 Announce Type: new Abstract: Sea state prediction is essential for operational maritime applications and coupled earth system modeling, yet current spectral wave models remain computationally prohibiti…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calibration and Performance of Germanium High Voltage Detectors for SuperCDMS SNOLAB",
-      "url": "https://arxiv.org/abs/2606.26391",
-      "summary": "arXiv:2606.26391v1 Announce Type: new Abstract: As SuperCDMS SNOLAB is getting ready to search for low mass dark matter particles, using cryogenic Ge and Si detectors, a set of six of the new SuperCDMS High Voltage (HV) …",
       "ts": 1782446400000
     }
   ],
