@@ -18028,3 +18028,57 @@ font-size:1.7rem;
     padding: 0.36rem !important;
   }
 }
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Mobile Chapter Pager — Remove Arrows
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .chapter-nav-arrow,
+  .chapter-arrow,
+  .chapter-nav-up,
+  .chapter-nav-down {
+    display: none !important;
+  }
+
+  .chapter-navigator {
+    width: auto !important;
+    max-width: calc(100vw - 1.5rem) !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: calc(0.85rem + env(safe-area-inset-bottom)) !important;
+    transform: translateX(-50%) !important;
+    justify-content: center !important;
+    overflow: visible !important;
+    gap: 0.45rem !important;
+    padding: 0.5rem 0.65rem !important;
+  }
+
+  .chapter-nav-item {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+    min-width: 2.25rem !important;
+    font-size: 0.72rem !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .chapter-navigator {
+    gap: 0.35rem !important;
+    padding: 0.45rem 0.55rem !important;
+  }
+
+  .chapter-nav-item {
+    width: 2.05rem !important;
+    height: 2.05rem !important;
+    min-width: 2.05rem !important;
+  }
+}

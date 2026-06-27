@@ -70,6 +70,39 @@ export default function Home() {
         </div>
       </section>
 
+      {/* =========================
+          ◈ FOUNDATION
+      ========================= */}
+      <section
+        id="chapter-foundation"
+        data-home-section
+        className="home-page twin-page home-chapter-page"
+      >
+        <Reveal>
+          <div className="home-chapter">
+            <span className="home-chapter-label">◈ FOUNDATION</span>
+
+            <div className="home-chapter-line" />
+
+            <h2 className="home-chapter-title">
+              Imperial
+              <br />
+              Constitution
+              <br />
+              Foundation
+            </h2>
+
+            <p className="home-chapter-text">
+              Foundation contains the symbolic origin, constitutional
+              continuity, and shared constraints that all ArcheNova systems
+              must respect.
+            </p>
+
+            <div className="home-chapter-scroll">Continue ↓</div>
+          </div>
+        </Reveal>
+      </section>
+
       {/* ORIGIN */}
       <section id="home-origin" data-home-section className="home-page twin-page">
         <Reveal>
@@ -195,39 +228,6 @@ export default function Home() {
                 <p>Governance, education, legitimacy, memory, knowledge.</p>
               </div>
             </div>
-          </div>
-        </Reveal>
-      </section>
-
-      {/* =========================
-          ◈ FOUNDATION
-      ========================= */}
-      <section
-        id="chapter-foundation"
-        data-home-section
-        className="home-page twin-page home-chapter-page"
-      >
-        <Reveal>
-          <div className="home-chapter">
-            <span className="home-chapter-label">◈ FOUNDATION</span>
-
-            <div className="home-chapter-line" />
-
-            <h2 className="home-chapter-title">
-              Imperial
-              <br />
-              Constitution
-              <br />
-              Foundation
-            </h2>
-
-            <p className="home-chapter-text">
-              Foundation contains the symbolic origin, constitutional
-              continuity, and shared constraints that all ArcheNova systems
-              must respect.
-            </p>
-
-            <div className="home-chapter-scroll">Continue ↓</div>
           </div>
         </Reveal>
       </section>
@@ -411,15 +411,15 @@ export default function Home() {
             </p>
 
             <div className="an-grid-3">
-              <Link href="/crossings/signals" className="an-card">
-                <strong>Signals</strong>
-                <p>Observe changes from science, technology, and civilization.</p>
-              </Link>
+              <Link href="/architecture" className="an-card">
+  <strong>Signals</strong>
+  <p>Observe changes from science, technology, and civilization.</p>
+</Link>
 
-              <Link href="/research" className="an-card">
-                <strong>Reports</strong>
-                <p>Convert signals into structured knowledge and context.</p>
-              </Link>
+              <Link href="/architecture" className="an-card">
+  <strong>Reports</strong>
+  <p>Convert signals into structured knowledge and context.</p>
+</Link>
 
               <Link href="/senate" className="an-card">
                 <strong>Senate</strong>
@@ -696,8 +696,8 @@ export default function Home() {
               trajectory of civilization.
             </p>
 
-            <Link href="/signals" className="an-button">
-              <p>Enter Signals →</p>
+            <Link href="/architecture" className="an-button">
+            <p>Enter Signals →</p>
             </Link>
           </div>
         </Reveal>
@@ -721,8 +721,8 @@ export default function Home() {
               Builder, Programs, and Court.
             </p>
 
-            <Link href="/reports" className="an-button">
-              <p>Enter Reports →</p>
+            <Link href="/architecture" className="an-button">
+            <p>Enter Reports →</p>
             </Link>
           </div>
         </Reveal>
