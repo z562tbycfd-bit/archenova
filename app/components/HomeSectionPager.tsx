@@ -1,75 +1,101 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+
+type ChapterTarget = {
+  id: string;
+  mark: string;
+  title: string;
+  subtitle: string;
+};
+
+const CHAPTER_TARGETS: ChapterTarget[] = [
+  { id: "home-hero", mark: "⚬", title: "Core", subtitle: "ArcheNova" },
+  { id: "chapter-foundation", mark: "Ⅰ", title: "Foundation", subtitle: "Principles / Senate" },
+  { id: "chapter-intelligence", mark: "Ⅱ", title: "Intelligence", subtitle: "Signals / Architecture" },
+  { id: "chapter-programs", mark: "Ⅲ", title: "Program OS", subtitle: "Programs / Builder" },
+  { id: "chapter-dialogue", mark: "✦", title: "Dialogue", subtitle: "Crossings" },
+];
+
+function scrollToChapter(id: string) {
+  document.getElementById(id)?.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+}
 
 export default function HomeSectionPager() {
-  const [ids, setIds] = useState<string[]>([]);
-  const [index, setIndex] = useState(0);
+  const [activeId, setActiveId] = useState(CHAPTER_TARGETS[0].id);
+  const targets = useMemo(() => CHAPTER_TARGETS, []);
 
   useEffect(() => {
-    const sections = Array.from(document.querySelectorAll<HTMLElement>("[data-home-section]"));
-    const list = sections.map((s) => s.id).filter(Boolean);
-    setIds(list);
-
-    const io = new IntersectionObserver(
+    const observer = new IntersectionObserver(
       (entries) => {
-        const vis = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0))[0];
-        if (!vis?.target) return;
-        const id = (vis.target as HTMLElement).id;
-        const i = list.indexOf(id);
-        if (i >= 0) setIndex(i);
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+        if (visible?.target?.id) setActiveId(visible.target.id);
       },
-      { threshold: [0.55] }
+      { threshold: [0.25, 0.45, 0.65] }
     );
 
-    sections.forEach((s) => io.observe(s));
-    return () => io.disconnect();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    targets.forEach((target) => {
+      const el = document.getElementById(target.id);
+      if (el) observer.observe(el);
+    });
 
-  const go = (i: number) => {
-    const next = Math.max(0, Math.min(i, ids.length - 1));
-    const el = document.getElementById(ids[next]);
-    el?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
+    return () => observer.disconnect();
+  }, [targets]);
 
-  if (ids.length <= 1) return null;
+  const currentIndex = targets.findIndex((target) => target.id === activeId);
 
   return (
-    <div className="hs-pager" aria-hidden="true">
+    <nav className="chapter-navigator" aria-label="Home chapter navigation">
       <button
         type="button"
-        className="hs-btn"
-        onClick={() => go(index - 1)}
-        disabled={index <= 0}
-        aria-label="Previous section"
+        className="chapter-nav-arrow"
+        onClick={() =>
+          scrollToChapter(targets[Math.max(0, currentIndex - 1)].id)
+        }
+        aria-label="Previous chapter"
       >
-        ←
+        ↑
       </button>
 
-      <div className="hs-dots">
-        {ids.map((_, i) => (
+      <div className="chapter-nav-list">
+        {targets.map((target) => (
           <button
-            key={i}
+            key={target.id}
             type="button"
-            className={`hs-dot ${i === index ? "active" : ""}`}
-            onClick={() => go(i)}
-            aria-label={`Go to section ${i + 1}`}
-          />
+            className={`chapter-nav-item ${
+              activeId === target.id ? "active" : ""
+            }`}
+            onClick={() => scrollToChapter(target.id)}
+            aria-label={`Go to ${target.title}`}
+            title={`${target.title} · ${target.subtitle}`}
+          >
+            <span className="chapter-nav-mark">{target.mark}</span>
+            <span className="chapter-nav-copy">
+              <strong>{target.title}</strong>
+              <small>{target.subtitle}</small>
+            </span>
+          </button>
         ))}
       </div>
 
       <button
         type="button"
-        className="hs-btn"
-        onClick={() => go(index + 1)}
-        disabled={index >= ids.length - 1}
-        aria-label="Next section"
+        className="chapter-nav-arrow"
+        onClick={() =>
+          scrollToChapter(
+            targets[Math.min(targets.length - 1, currentIndex + 1)].id
+          )
+        }
+        aria-label="Next chapter"
       >
-        →
+        ↓
       </button>
-    </div>
+    </nav>
   );
 }

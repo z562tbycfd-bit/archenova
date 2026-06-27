@@ -207,7 +207,7 @@ export default function Home() {
     CHAPTER : GOVERNANCE
    ========================= */}
 <section
-  id="home-chapter-governance"
+  id="chapter-foundation"
   data-home-section
   className="home-page twin-page home-chapter-page"
 >
@@ -304,7 +304,7 @@ export default function Home() {
     CHAPTER : INTELLIGENCE
    ========================= */}
 <section
-  id="home-chapter-intelligence"
+  id="chapter-intelligence"
   data-home-section
   className="home-page twin-page home-chapter-page"
 >
@@ -392,23 +392,12 @@ export default function Home() {
           </div>
         </Reveal>
       </section>
-       {/* PAGE 09 : CROSSINGS */}
-      <section
-        id="home-crossings"
-        data-home-section
-        className="home-page twin-page"
-      >
-        <Reveal>
-          <div className="an-section">
-            <GateFragments />
-          </div>
-        </Reveal>
-      </section>
+
     {/* =========================
     CHAPTER : PROGRAMS
    ========================= */}
 <section
-  id="home-chapter-programs"
+  id="chapter-programs"
   data-home-section
   className="home-page twin-page home-chapter-page"
 >
@@ -464,6 +453,48 @@ export default function Home() {
                 <p>Ongoing initiatives moving from knowledge into capability.</p>
               </Link>
             </div>
+          </div>
+        </Reveal>
+      </section>
+
+{/* =========================
+    CHAPTER : DIALOGUE
+========================= */}
+<section
+  id="chapter-dialogue"
+  data-home-section
+  className="home-page twin-page home-chapter-page"
+>
+  <Reveal>
+    <div className="home-chapter">
+      <span className="home-chapter-label">DIALOGUE</span>
+      <div className="home-chapter-line" />
+      <h2 className="home-chapter-title">
+        Global
+        <br />
+        Civilization
+        <br />
+        Dialogue
+      </h2>
+      <p className="home-chapter-text">
+        Open discussions, shared observations, and civilizational knowledge
+        from the global community.
+      </p>
+      <div className="home-chapter-scroll">
+        Continue ↓
+      </div>
+    </div>
+  </Reveal>
+</section>
+ {/* PAGE 09 : CROSSINGS */}
+      <section
+        id="home-crossings"
+        data-home-section
+        className="home-page twin-page"
+      >
+        <Reveal>
+          <div className="an-section">
+            <GateFragments />
           </div>
         </Reveal>
       </section>
