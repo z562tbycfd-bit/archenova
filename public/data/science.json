@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-27T03:41:13.601Z",
+  "updated": "2026-06-27T03:59:26.893Z",
   "items": [
     {
       "source": "Phys.org",
@@ -39,6 +39,20 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Multiple human transgenes prolong survival of triple-carbohydrate knockout porcine kidney xenografts in nonhuman primates",
+      "url": "https://www.nature.com/articles/s41467-026-74933-w",
+      "summary": "",
+      "ts": 1782518400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Production of aromatics from high density polyethylene over a hierarchical zeolite synthesised from steam-assisted crystallisation",
+      "url": "https://www.nature.com/articles/s41467-026-74562-3",
+      "summary": "",
+      "ts": 1782518400000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Confined ionic order in atomic nanowires of rare-earth chlorides unveiled via symmetry-guided structural screening",
       "url": "https://www.nature.com/articles/s41467-026-74793-4",
       "summary": "",
@@ -48,6 +62,13 @@
       "source": "Nature Communications",
       "title": "Broadband Radiative Heat Transfer Suppression via Dispersion-Engineered Metasurfaces",
       "url": "https://www.nature.com/articles/s41467-026-74805-3",
+      "summary": "",
+      "ts": 1782518400000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Harnessing interfacial click polymerization using pyridinium-yne films as photochromic, radical generation and sensing platforms",
+      "url": "https://www.nature.com/articles/s41467-026-74956-3",
       "summary": "",
       "ts": 1782518400000
     },
@@ -679,27 +700,6 @@
       "title": "Excitation of non-modal perturbations in hypersonic boundary layers by free stream forcing. Part II: asymptotic theory and key mechanisms",
       "url": "https://arxiv.org/abs/2606.26976",
       "summary": "arXiv:2606.26976v1 Announce Type: new Abstract: Recently, Zhao & Dong (J. Fluid Mech. 2025, vol. 1013: A44) developed a high-efficiency, high-accuracy numerical framework, the shock-fitting harmonic linearised Navier-Sto…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum statistics on atom-ion Feshbach resonances",
-      "url": "https://arxiv.org/abs/2606.26995",
-      "summary": "arXiv:2606.26995v1 Announce Type: new Abstract: We investigate three-body recombination in a hybrid atom-ion system consisting of a single trapped Ba$^+$ ion immersed in a two-component Fermi gas of Li atoms near an atom…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Temporal wave trapping from dynamical pump pulses",
-      "url": "https://arxiv.org/abs/2606.27015",
-      "summary": "arXiv:2606.27015v1 Announce Type: new Abstract: Temporal reflection in nonlinear optical fibers provides a powerful framework for manipulatinglight. In this work, we theoretically and experimentally demonstrate a novel m…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In-plane vector-field imaging of propagating surface phonon polaritons",
-      "url": "https://arxiv.org/abs/2606.27030",
-      "summary": "arXiv:2606.27030v1 Announce Type: new Abstract: Polariton interferometry through optical near-field microscopy has become a powerful tool in nanophotonics, enabling direct spatial access to the propagation characteristic…",
       "ts": 1782446400000
     }
   ],
