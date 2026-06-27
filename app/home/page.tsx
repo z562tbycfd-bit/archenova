@@ -16,7 +16,6 @@ export default function Home() {
         data-home-section
         className="home-page twin-page twin-hero-page"
       >
-
         <div className="an-container" style={{ textAlign: "center" }}>
           <Reveal>
             <div className="an-frame">
@@ -57,21 +56,21 @@ export default function Home() {
                 <p>Founder / Imagination / Civilization</p>
               </Link>
 
-              <Link href="/civilization" className="an-card">
-                <strong>Civilization</strong>
-                <p>Space / Science / Technology / Systems</p>
+              <Link href="#chapter-foundation" className="an-card">
+                <strong>Foundation</strong>
+                <p>Imperial House / Constitution / Core</p>
               </Link>
 
-              <Link href="/senate" className="an-card">
-                <strong>Senate</strong>
-                <p>Deliberation / Judgment / Direction</p>
+              <Link href="#chapter-governance" className="an-card">
+                <strong>Governance</strong>
+                <p>Senate / Court / Judgment</p>
               </Link>
             </div>
           </Reveal>
         </div>
       </section>
 
-      {/* PAGE 01 : ORIGIN */}
+      {/* ORIGIN */}
       <section id="home-origin" data-home-section className="home-page twin-page">
         <Reveal>
           <div className="an-section">
@@ -99,7 +98,7 @@ export default function Home() {
         </Reveal>
       </section>
 
-      {/* PAGE 02 : MISSION */}
+      {/* MISSION */}
       <section id="home-mission" data-home-section className="home-page twin-page">
         <Reveal>
           <div className="an-section">
@@ -122,12 +121,11 @@ export default function Home() {
               civilization to discover reality, create knowledge, build
               capability, preserve continuity, and expand future possibility.
             </p>
-
           </div>
         </Reveal>
       </section>
 
-      {/* PAGE 03 : CIVILIZATION */}
+      {/* CIVILIZATION */}
       <section
         id="home-civilization"
         data-home-section
@@ -152,15 +150,13 @@ export default function Home() {
             </p>
 
             <Link href="/civilization" className="an-button">
-            <p>
-              Enter Civilization →
-              </p>
+              <p>Enter Civilization →</p>
             </Link>
           </div>
         </Reveal>
       </section>
 
-      {/* PAGE 04 : SCALE */}
+      {/* SCALE */}
       <section id="home-scale" data-home-section className="home-page twin-page">
         <Reveal>
           <div className="an-section">
@@ -204,165 +200,566 @@ export default function Home() {
       </section>
 
       {/* =========================
-    CHAPTER : GOVERNANCE
-   ========================= */}
-<section
-  id="chapter-foundation"
-  data-home-section
-  className="home-page twin-page home-chapter-page"
->
-  <Reveal>
-    <div className="home-chapter">
-      <span className="home-chapter-label">CHAPTER I</span>
+          ◈ FOUNDATION
+      ========================= */}
+      <section
+        id="chapter-foundation"
+        data-home-section
+        className="home-page twin-page home-chapter-page"
+      >
+        <Reveal>
+          <div className="home-chapter">
+            <span className="home-chapter-label">◈ FOUNDATION</span>
 
-      <div className="home-chapter-line" />
+            <div className="home-chapter-line" />
 
-      <h2 className="home-chapter-title">
-        Principles
-        <br />
-        And Deliberation
-      </h2>
+            <h2 className="home-chapter-title">
+              Imperial
+              <br />
+              Constitution
+              <br />
+              Foundation
+            </h2>
 
-      <p className="home-chapter-text">
-        The constitutional and deliberative foundations of ArcheNova begin here.
-      </p>
+            <p className="home-chapter-text">
+              Foundation contains the symbolic origin, constitutional
+              continuity, and shared constraints that all ArcheNova systems
+              must respect.
+            </p>
 
-      <div className="home-chapter-scroll">Continue ↓</div>
-    </div>
-  </Reveal>
-</section>
+            <div className="home-chapter-scroll">Continue ↓</div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* IMPERIAL HOUSE */}
+      <section
+        id="chapter-imperial-house"
+        data-home-section
+        className="home-page twin-page home-chapter-page imperial-house-page"
+      >
+        <Reveal>
+          <div className="home-chapter imperial-house-chapter">
+            <span className="home-chapter-label">✺ IMPERIAL HOUSE</span>
+
+            <div className="home-chapter-line" />
+
+            <h2 className="home-chapter-title">
+              Emperor
+              <br />
+              Constitution
+              <br />
+              Foundation
+            </h2>
+
+            <p className="home-chapter-text">
+              The symbolic house of ArcheNova: founder intention,
+              constitutional continuity, and the Foundation that constrains
+              every system.
+            </p>
+
+            <div className="home-chapter-scroll">Continue ↓</div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* EMPEROR */}
+      <section
+        id="home-emperor"
+        data-home-section
+        className="home-page twin-page imperial-emperor-page"
+      >
+        <Reveal>
+          <div className="imperial-emperor-wrap">
+            <span className="home-section-label">EMPEROR</span>
+
+            <Link
+              href="/emperor"
+              className="emperor-avatar-link"
+              aria-label="Open Emperor Chamber"
+            >
+              <img
+                src="/images/emperor-avatar.jpeg"
+                alt="Emperor Founder Avatar"
+                className="emperor-avatar-image"
+              />
+            </Link>
+
+            <p className="imperial-emperor-caption">Founder&apos;s Symbol</p>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* CONSTITUTION */}
+      <section
+        id="home-imperial-constitution"
+        data-home-section
+        className="home-page twin-page"
+      >
+        <Reveal>
+          <div className="home-section home-section-center">
+            <span className="home-section-label">CONSTITUTION</span>
+
+            <p className="home-section-purpose">
+              The constitutional foundation that preserves ArcheNova&apos;s
+              continuity, legitimacy, principles, and civilizational direction.
+            </p>
+
+            <Link href="/constitution" className="back-link">
+              Read Constitution →
+            </Link>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* FOUNDATION CORE */}
+      <section
+        id="home-foundation-core"
+        data-home-section
+        className="home-page twin-page"
+      >
+        <Reveal>
+          <div className="an-section">
+            <span className="an-label">ARCHENOVA FOUNDATION</span>
+
+            <h2 className="an-heading">
+              The axis that constrains
+              <br />
+              every ArcheNova system.
+            </h2>
+
+            <p className="an-body">
+              Foundation is the shared constitutional engine read by Senate,
+              Court, Episteme, Builder, Programs, Observatory, Institute, and
+              Capital.
+            </p>
+
+            <div className="an-grid-4">
+              <div className="an-card">
+                <strong>Constitution</strong>
+                <p>Preserves invariant principles and continuity.</p>
+              </div>
+
+              <div className="an-card">
+                <strong>Core</strong>
+                <p>Applies shared reasoning and constraints.</p>
+              </div>
+
+              <div className="an-card">
+                <strong>Protocol</strong>
+                <p>Connects systems through common structured outputs.</p>
+              </div>
+
+              <div className="an-card">
+                <strong>Knowledge</strong>
+                <p>Interprets signals, evidence, and institutional memory.</p>
+              </div>
+            </div>
+          </div>
+        </Reveal>
+      </section>
 
       {/* =========================
-    PAGE : ARCHENOVA CONSTITUTION
-   ========================= */}
-<section
-  id="home-constitution"
-  data-home-section
-  className="home-page twin-page"
->
-  <Reveal>
-    <div className="home-section home-section-center">
-      <span className="home-section-label">
-        ARCHENOVA CONSTITUTION
-      </span>
-
-      <p className="home-section-purpose">
-        The constitutional foundation guiding ArcheNova&apos;s principles,
-        direction, continuity, and civilizational design.
-      </p>
-
-      <Link
-        href="/constitution"
-        className="back-link"
+          Ⅰ GOVERNANCE
+      ========================= */}
+      <section
+        id="chapter-governance"
+        data-home-section
+        className="home-page twin-page home-chapter-page"
       >
-        Read Constitution →
-      </Link>
-    </div>
-  </Reveal>
-</section>
+        <Reveal>
+          <div className="home-chapter">
+            <span className="home-chapter-label">Ⅰ GOVERNANCE</span>
 
-      {/* PAGE 06 : SENATE */}
+            <div className="home-chapter-line" />
+
+            <h2 className="home-chapter-title">
+              Senate
+              <br />
+              Court
+              <br />
+              Judgment
+            </h2>
+
+            <p className="home-chapter-text">
+              Governance transforms Signals, Reports, Evidence, and Programs
+              into deliberation, then submits judgment to Court for coherence
+              against the Constitution and Foundation.
+            </p>
+
+            <div className="home-chapter-scroll">Continue ↓</div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* SENATE */}
       <section id="home-senate" data-home-section className="home-page twin-page">
         <Reveal>
           <div className="an-section">
             <span className="an-label">ARCHENOVA SENATE</span>
 
             <h2 className="an-heading">
-              A deliberation chamber
+              Signals become
               <br />
-              for civilizational judgment.
+              deliberation.
             </h2>
 
             <p className="an-body">
-              A chamber where space, science, technology, capital, governance,
-              education, knowledge, and implementation converge into strategic
+              Senate reads Signals, Reports, Evidence, and Programs to
+              deliberate on the direction of ArcheNova before action moves
+              toward implementation.
+            </p>
+
+            <div className="an-grid-3">
+              <Link href="/crossings/signals" className="an-card">
+                <strong>Signals</strong>
+                <p>Observe changes from science, technology, and civilization.</p>
+              </Link>
+
+              <Link href="/research" className="an-card">
+                <strong>Reports</strong>
+                <p>Convert signals into structured knowledge and context.</p>
+              </Link>
+
+              <Link href="/senate" className="an-card">
+                <strong>Senate</strong>
+                <p>Deliberate before resolution, program direction, or execution.</p>
+              </Link>
+            </div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* COURT */}
+      <section id="home-court" data-home-section className="home-page twin-page">
+        <Reveal>
+          <div className="an-section">
+            <span className="an-label">ARCHENOVA COURT</span>
+
+            <h2 className="an-heading">
+              Judgment must
+              <br />
+              remain coherent.
+            </h2>
+
+            <p className="an-body">
+              Court reviews Senate deliberations through the Constitution and
+              Foundation. It protects coherence, constraint, legitimacy, and
+              long-term continuity before decisions become institutional
               direction.
             </p>
 
-            <Link href="/senate" className="senate-portal-card">
-              <div className="senate-orbit">
-                <div className="senate-core" />
-                <div className="senate-node senate-node-1">Space</div>
-                <div className="senate-node senate-node-2">Science</div>
-                <div className="senate-node senate-node-3">Technology</div>
-                <div className="senate-node senate-node-4">Capital</div>
-                <div className="senate-node senate-node-5">Law</div>
-                <div className="senate-node senate-node-6">Knowledge</div>
-              </div>
+            <div className="an-grid-3">
+              <Link href="/constitution" className="an-card">
+                <strong>Constitution</strong>
+                <p>Preserve the principles that constrain every judgment.</p>
+              </Link>
 
-              <div className="senate-title">
-                Civilizational Deliberation Chamber
-              </div>
+              <Link href="/architecture" className="an-card">
+                <strong>Foundation</strong>
+                <p>Apply the shared reasoning axis across ArcheNova systems.</p>
+              </Link>
 
-              <div className="plaza-hint">Enter Senate →</div>
+              <Link href="/court" className="an-card">
+                <strong>Court</strong>
+                <p>Review, affirm, return, or constrain Senate resolutions.</p>
+              </Link>
+            </div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* =========================
+          Ⅱ INTELLIGENCE
+      ========================= */}
+      <section
+        id="chapter-intelligence"
+        data-home-section
+        className="home-page twin-page home-chapter-page"
+      >
+        <Reveal>
+          <div className="home-chapter">
+            <span className="home-chapter-label">Ⅱ INTELLIGENCE</span>
+
+            <div className="home-chapter-line" />
+
+            <h2 className="home-chapter-title">
+              Episteme
+              <br />
+              Builder
+              <br />
+              Generation
+            </h2>
+
+            <p className="home-chapter-text">
+              Intelligence transforms questions into reasoning and reasoning
+              into safe generation.
+            </p>
+
+            <div className="home-chapter-scroll">Continue ↓</div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* EPISTEME */}
+      <section id="home-episteme" data-home-section className="home-page twin-page">
+        <Reveal>
+          <div className="an-section">
+            <span className="an-label">EPISTEME</span>
+
+            <h2 className="an-heading">
+              Question becomes
+              <br />
+              thinking space.
+            </h2>
+
+            <p className="an-body">
+              Episteme is the reasoning core that transforms questions into
+              intent, knowledge, constraints, possibilities, trade-offs,
+              judgment, and application.
+            </p>
+
+            <Link href="/episteme" className="an-button">
+              <p>Enter Episteme →</p>
+            </Link>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* BUILDER */}
+      <section id="home-builder" data-home-section className="home-page twin-page">
+        <Reveal>
+          <div className="an-section">
+            <span className="an-label">BUILDER</span>
+
+            <h2 className="an-heading">
+              Prompt becomes
+              <br />
+              code.
+            </h2>
+
+            <p className="an-body">
+              Builder is the execution layer that generates safe code outputs
+              through a simplified Prompt → Episteme → Code workflow.
+            </p>
+
+            <Link href="/builder" className="an-button">
+              <p>Enter Builder →</p>
             </Link>
           </div>
         </Reveal>
       </section>
 
       {/* =========================
-    CHAPTER : INTELLIGENCE
-   ========================= */}
-<section
-  id="chapter-intelligence"
-  data-home-section
-  className="home-page twin-page home-chapter-page"
->
-  <Reveal>
-    <div className="home-chapter">
-      <span className="home-chapter-label">CHAPTER II</span>
-
-      <div className="home-chapter-line" />
-
-      <h2 className="home-chapter-title">
-        Signals
-        <br />
-        Intelligence
-        <br />
-        Architecture
-      </h2>
-
-      <p className="home-chapter-text">
-        From observation to research, architecture, and civilizational design.
-      </p>
-
-      <div className="home-chapter-scroll">Continue ↓</div>
-    </div>
-  </Reveal>
-</section>
-
-      {/* PAGE 05 : OBSERVATORY */}
+          Ⅲ CIVILIZATION
+      ========================= */}
       <section
-        id="home-observatory"
+        id="chapter-civilization"
         data-home-section
-        className="home-page twin-page"
+        className="home-page twin-page home-chapter-page"
       >
         <Reveal>
+          <div className="home-chapter">
+            <span className="home-chapter-label">Ⅲ CIVILIZATION</span>
+
+            <div className="home-chapter-line" />
+
+            <h2 className="home-chapter-title">
+              Programs
+              <br />
+              Capital
+              <br />
+              Implementation
+            </h2>
+
+            <p className="home-chapter-text">
+              Civilization converts judgment into organized initiatives,
+              capital allocation, and implementation pathways.
+            </p>
+
+            <div className="home-chapter-scroll">Continue ↓</div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* PROGRAMS */}
+      <section id="home-programs" data-home-section className="home-page twin-page">
+        <Reveal>
           <div className="an-section">
-            <span className="an-label">RESEARCH OBSERVATORY</span>
+            <span className="an-label">CIVILIZATION PROGRAMS</span>
 
             <h2 className="an-heading">
-              Signals, reports,
+              Judgment becomes
               <br />
-              models, and archives.
+              organized action.
             </h2>
 
             <p className="an-body">
-              The Observatory tracks scientific, technological, spatial,
-              economic, legal, and educational signals that may alter the
-              long-term trajectory of civilization.
+              Programs translate constitutional principles, public dialogue,
+              evidence, Senate deliberation, and strategic priorities into
+              organized initiatives for implementation.
             </p>
 
-            <Link href="/research" className="an-button">
-            <p>
-              Enter Observatory →
-              </p>
+            <div className="an-grid-3">
+              <Link href="/programs" className="an-card">
+                <strong>Active Programs</strong>
+                <p>Ongoing initiatives moving from knowledge into capability.</p>
+              </Link>
+
+              <Link href="/projects" className="an-card">
+                <strong>Projects</strong>
+                <p>Concrete implementation paths and experimental work.</p>
+              </Link>
+
+              <Link href="/implementations" className="an-card">
+                <strong>Implementation</strong>
+                <p>Translate programs into operational capability.</p>
+              </Link>
+            </div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* CAPITAL */}
+      <section id="home-capital" data-home-section className="home-page twin-page">
+        <Reveal>
+          <div className="an-section">
+            <span className="an-label">CAPITAL</span>
+
+            <h2 className="an-heading">
+              Resources become
+              <br />
+              direction.
+            </h2>
+
+            <p className="an-body">
+              Capital evaluates resources, timing, legitimacy, partnerships,
+              and allocation so that civilizational priorities can move toward
+              sustainable implementation.
+            </p>
+
+            <Link href="/capital" className="an-button">
+              <p>Enter Capital →</p>
             </Link>
           </div>
         </Reveal>
       </section>
 
-      {/* PAGE 07 : ARCHITECTURE */}
+      {/* =========================
+          Ⅳ OBSERVATORY
+      ========================= */}
+      <section
+        id="chapter-observatory"
+        data-home-section
+        className="home-page twin-page home-chapter-page"
+      >
+        <Reveal>
+          <div className="home-chapter">
+            <span className="home-chapter-label">Ⅳ OBSERVATORY</span>
+
+            <div className="home-chapter-line" />
+
+            <h2 className="home-chapter-title">
+              Signals
+              <br />
+              Reports
+              <br />
+              Knowledge
+            </h2>
+
+            <p className="home-chapter-text">
+              Observatory collects signals, turns them into reports, and feeds
+              knowledge back into Episteme, Senate, Court, Programs, and
+              Builder.
+            </p>
+
+            <div className="home-chapter-scroll">Continue ↓</div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* SIGNALS */}
+      <section id="home-signals" data-home-section className="home-page twin-page">
+        <Reveal>
+          <div className="an-section">
+            <span className="an-label">SIGNALS</span>
+
+            <h2 className="an-heading">
+              Change becomes
+              <br />
+              observable.
+            </h2>
+
+            <p className="an-body">
+              Signals track scientific, technological, spatial, economic,
+              legal, and educational changes that may alter the long-term
+              trajectory of civilization.
+            </p>
+
+            <Link href="/crossings/signals" className="an-button">
+              <p>Enter Signals →</p>
+            </Link>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* REPORTS */}
+      <section id="home-reports" data-home-section className="home-page twin-page">
+        <Reveal>
+          <div className="an-section">
+            <span className="an-label">REPORTS</span>
+
+            <h2 className="an-heading">
+              Signals become
+              <br />
+              structured knowledge.
+            </h2>
+
+            <p className="an-body">
+              Reports convert observed signals into context, interpretation,
+              archives, and knowledge that can be used by Senate, Episteme,
+              Builder, Programs, and Court.
+            </p>
+
+            <Link href="/research" className="an-button">
+              <p>Enter Reports →</p>
+            </Link>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* =========================
+          Ⅴ ARCHITECTURE
+      ========================= */}
+      <section
+        id="chapter-architecture"
+        data-home-section
+        className="home-page twin-page home-chapter-page"
+      >
+        <Reveal>
+          <div className="home-chapter">
+            <span className="home-chapter-label">Ⅴ ARCHITECTURE</span>
+
+            <div className="home-chapter-line" />
+
+            <h2 className="home-chapter-title">
+              Civilization
+              <br />
+              Architecture
+            </h2>
+
+            <p className="home-chapter-text">
+              Architecture integrates Foundation, Governance, Intelligence,
+              Civilization, and Observatory into a single civilizational
+              operating structure.
+            </p>
+
+            <div className="home-chapter-scroll">Continue ↓</div>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* ARCHITECTURE */}
       <section
         id="home-architecture"
         data-home-section
@@ -379,114 +776,50 @@ export default function Home() {
             </h2>
 
             <p className="an-body">
-              ArcheNova integrates space, science, technology, capital, law,
-              governance, education, and knowledge into a unified
-              civilization-scale design architecture.
+              ArcheNova integrates Imperial House, Constitution, Foundation,
+              Senate, Court, Episteme, Builder, Programs, Capital, Signals,
+              Reports, and knowledge into a unified civilization-scale design
+              architecture.
             </p>
 
             <Link href="/architecture" className="an-button">
-            <p>
-              Enter Architecture →
-              </p>
+              <p>Enter Architecture →</p>
             </Link>
           </div>
         </Reveal>
       </section>
 
-    {/* =========================
-    CHAPTER : PROGRAMS
-   ========================= */}
-<section
-  id="chapter-programs"
-  data-home-section
-  className="home-page twin-page home-chapter-page"
->
-  <Reveal>
-    <div className="home-chapter">
-      <span className="home-chapter-label">CHAPTER III</span>
-
-      <div className="home-chapter-line" />
-
-      <h2 className="home-chapter-title">
-        Programs
-        <br />
-        Builders
-        <br />
-        Implementation
-      </h2>
-
-      <p className="home-chapter-text">
-        From dialogue and deliberation to projects, programs, collaboration,
-        and civilizational implementation.
-      </p>
-
-      <div className="home-chapter-scroll">Continue ↓</div>
-    </div>
-  </Reveal>
-</section>
-
-      {/* PAGE 08 : PROGRAMS */}
+      {/* DIALOGUE */}
       <section
-        id="home-programs"
+        id="chapter-dialogue"
         data-home-section
-        className="home-page twin-page"
+        className="home-page twin-page home-chapter-page"
       >
         <Reveal>
-          <div className="an-section">
-            <span className="an-label">CIVILIZATION PROGRAMS</span>
+          <div className="home-chapter">
+            <span className="home-chapter-label">⟡ DIALOGUE</span>
 
-            <h2 className="an-heading">
-              Turning civilizational
+            <div className="home-chapter-line" />
+
+            <h2 className="home-chapter-title">
+              Global
               <br />
-              thought into programs.
+              Civilization
+              <br />
+              Dialogue
             </h2>
 
-            <p className="an-body">
-              Civilization Programs translate constitutional principles,
-              public dialogue, evidence, Senate deliberation, and strategic
-              priorities into organized initiatives for implementation.
+            <p className="home-chapter-text">
+              Open discussions, shared observations, and civilizational
+              knowledge from the global community.
             </p>
 
-            <div className="an-grid-4">
-              <Link href="/programs" className="an-card">
-                <strong>Active Programs</strong>
-                <p>Ongoing initiatives moving from knowledge into capability.</p>
-              </Link>
-            </div>
+            <div className="home-chapter-scroll">Continue ↓</div>
           </div>
         </Reveal>
       </section>
 
-{/* =========================
-    CHAPTER : DIALOGUE
-========================= */}
-<section
-  id="chapter-dialogue"
-  data-home-section
-  className="home-page twin-page home-chapter-page"
->
-  <Reveal>
-    <div className="home-chapter">
-      <span className="home-chapter-label">DIALOGUE</span>
-      <div className="home-chapter-line" />
-      <h2 className="home-chapter-title">
-        Global
-        <br />
-        Civilization
-        <br />
-        Dialogue
-      </h2>
-      <p className="home-chapter-text">
-        Open discussions, shared observations, and civilizational knowledge
-        from the global community.
-      </p>
-      <div className="home-chapter-scroll">
-        Continue ↓
-      </div>
-    </div>
-  </Reveal>
-</section>
- {/* PAGE 09 : CROSSINGS */}
+      {/* CROSSINGS */}
       <section
         id="home-crossings"
         data-home-section

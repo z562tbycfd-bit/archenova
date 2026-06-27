@@ -9,12 +9,53 @@ type ChapterTarget = {
   subtitle: string;
 };
 
-const CHAPTER_TARGETS: ChapterTarget[] = [
-  { id: "home-hero", mark: "⚬", title: "Core", subtitle: "ArcheNova" },
-  { id: "chapter-foundation", mark: "Ⅰ", title: "Foundation", subtitle: "Principles / Senate" },
-  { id: "chapter-intelligence", mark: "Ⅱ", title: "Intelligence", subtitle: "Signals / Architecture" },
-  { id: "chapter-programs", mark: "Ⅲ", title: "Program OS", subtitle: "Programs / Builder" },
-  { id: "chapter-dialogue", mark: "✦", title: "Dialogue", subtitle: "Crossings" },
+  const CHAPTER_TARGETS: ChapterTarget[] = [
+  {
+    id: "chapter-foundation",
+    mark: "◈",
+    title: "FOUNDATION",
+    subtitle: "ARCHENOVA",
+  },
+  { id: "chapter-imperial-house",
+    mark: "✺",
+    title: "IMPERIAL HOUSE",
+    subtitle: "Emperor / Constitutions",},
+   {
+    id: "chapter-governance",
+    mark: "Ⅰ",
+    title: "GOVERNANCE",
+    subtitle: "Senate · Court",
+  },
+  {
+    id: "chapter-intelligence",
+    mark: "Ⅱ",
+    title: "INTELLIGENCE",
+    subtitle: "Episteme · Builder",
+  },
+  {
+    id: "chapter-civilization",
+    mark: "Ⅲ",
+    title: "CIVILIZATION",
+    subtitle: "Programs · Capital",
+  },
+  {
+    id: "chapter-observatory",
+    mark: "Ⅳ",
+    title: "OBSERVATORY",
+    subtitle: "Signals · Reports",
+  },
+  {
+    id: "chapter-architecture",
+    mark: "Ⅴ",
+    title: "ARCHITECTURE",
+    subtitle: "Civilization Architecture",
+  },
+  {
+    id: "chapter-dialogue",
+    mark: "⟡",
+    title: "DIALOGUE",
+    subtitle: "Crossings",
+  },
 ];
 
 function scrollToChapter(id: string) {

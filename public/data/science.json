@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-27T13:48:14.714Z",
+  "updated": "2026-06-27T14:19:47.793Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Research team cuts cost of building reconstituted cell-free systems by 95%",
+      "url": "https://phys.org/news/2026-06-team-reconstituted-cell-free.html",
+      "summary": "A research team led by Professor Joongoo Lee in the Department of Chemical Engineering at POSTECH (Pohang University of Science and Technology) has developed an automated, modular method for assembling reconstituted cell…",
+      "ts": 1782568801000
+    },
     {
       "source": "Phys.org",
       "title": "Coastal and estuarine carbon removal technique may backfire when pushed too far",
@@ -123,29 +130,8 @@
     },
     {
       "source": "Nature Communications",
-      "title": "Enhancing molecular property prediction of transformer models with dual graph representation",
-      "url": "https://www.nature.com/articles/s41467-026-75005-9",
-      "summary": "",
-      "ts": 1782518400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Prediction error correlates in the striosome-dopamine circuit emerge from information gain",
-      "url": "https://www.nature.com/articles/s41467-026-73994-1",
-      "summary": "",
-      "ts": 1782518400000
-    },
-    {
-      "source": "Nature Communications",
       "title": "Highly robust molecular information carriers for traceability of plastic materials",
       "url": "https://www.nature.com/articles/s41467-026-73889-1",
-      "summary": "",
-      "ts": 1782518400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "NAD+ modulates mitochondrial vulnerability in MERTK-associated models of retinitis pigmentosa",
-      "url": "https://www.nature.com/articles/s41467-026-74400-6",
       "summary": "",
       "ts": 1782518400000
     },
@@ -160,27 +146,6 @@
       "source": "Nature Communications",
       "title": "Multiple human transgenes prolong survival of triple-carbohydrate knockout porcine kidney xenografts in nonhuman primates",
       "url": "https://www.nature.com/articles/s41467-026-74933-w",
-      "summary": "",
-      "ts": 1782518400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "3D nanoprinting of metals by spatiotemporally confined hot electrons via multiple-electron excitations in nanocrystals",
-      "url": "https://www.nature.com/articles/s41467-026-74926-9",
-      "summary": "",
-      "ts": 1782518400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Multidirectional strain-insensitive stretchable RF electronics",
-      "url": "https://www.nature.com/articles/s41467-026-74900-5",
-      "summary": "",
-      "ts": 1782518400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Structural basis for multivitamin recognition and transport by human SMVT",
-      "url": "https://www.nature.com/articles/s41467-026-74948-3",
       "summary": "",
       "ts": 1782518400000
     },
@@ -466,7 +431,7 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
+      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays Due to An Interplanetary Coronal Mass Ejection",
       "url": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
       "summary": "Author(s): Zhen Cao et al. (LHAASO Collaboration) A solar storm hitting Earth appears to have reduced the amount of incoming high-energy cosmic rays, suggesting a new way of measuring solar activity. [Phys. Rev. Lett. 13…",
       "ts": 1782468000000
@@ -700,6 +665,41 @@
       "title": "Systematic Derivation of Reliable Wake Functions for Complex Structures from Mesh-Based Wakefield Simulations",
       "url": "https://arxiv.org/abs/2606.26514",
       "summary": "arXiv:2606.26514v1 Announce Type: new Abstract: Wakefield calculations are essential for analyzing beam-driven electromagnetic structures in accelerators. Although analytical wake functions are available for simple symme…",
+      "ts": 1782446400000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Identification of MHD equilibrium $\\beta$ limits for CFQS plasmas",
+      "url": "https://arxiv.org/abs/2606.26675",
+      "summary": "arXiv:2606.26675v1 Announce Type: new Abstract: The magnetohydrodynamic (MHD) equilibrium $\\beta$ limits in the Chinese First QuasiAxisymmetric Stellarator (CFQS) are investigated using the NTEC code, for both the standa…",
+      "ts": 1782446400000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Modelling convective cell occurrence in proximity to cold fronts using extreme gradient boosting",
+      "url": "https://arxiv.org/abs/2606.26699",
+      "summary": "arXiv:2606.26699v1 Announce Type: new Abstract: Machine learning is emerging as a valuable tool for convection-related applications such as post-processing numerical weather prediction output, improving understanding of …",
+      "ts": 1782446400000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Development and Characterization of Low-Scattering Vanadium Nanoparticle Targets for Short-Range Interaction Searches",
+      "url": "https://arxiv.org/abs/2606.26732",
+      "summary": "arXiv:2606.26732v1 Announce Type: new Abstract: We developed high-purity vanadium-based nanoparticle targets for neutron scattering experiments aimed at exploring gravity-like short-range new interactions in the submicro…",
+      "ts": 1782446400000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Giant Second-Harmonic Generation in 3R-MoS2/MLM Hybrid Metasurfaces Cavities",
+      "url": "https://arxiv.org/abs/2606.26751",
+      "summary": "arXiv:2606.26751v1 Announce Type: new Abstract: Nonlinear 2D materials such as 3R-phase molybdenum disulfide (3R-MoS2) offer strong second-order optical nonlinearities in an atomically thin platform, making them attracti…",
+      "ts": 1782446400000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "An Iterative Dual-Channel Neural Quantum State Algorithm for Selected Configuration Interaction",
+      "url": "https://arxiv.org/abs/2606.26760",
+      "summary": "arXiv:2606.26760v1 Announce Type: new Abstract: Accurately solving the electronic Schr\\\"{o}dinger equation for strongly correlated systems remains a central challenge in quantum chemistry, where the exponential growth of…",
       "ts": 1782446400000
     }
   ],
