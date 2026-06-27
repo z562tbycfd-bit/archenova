@@ -1,10 +1,6 @@
 {
   "ok": true,
-<<<<<<< HEAD
-  "updated": "2026-06-26T23:09:22.318Z",
-=======
-  "updated": "2026-06-27T01:22:50.641Z",
->>>>>>> 4fa36e5e (Update generated research feeds)
+  "updated": "2026-06-27T01:52:18.418Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -671,22 +667,6 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "NASA, US Small Business Administration to Announce Partnership",
-      "url": "https://www.nasa.gov/news-release/nasa-us-small-business-administration-to-announce-partnership/",
-      "summary": "NASA and the U.S. Small Business Administration will sign a memorandum of agreement during a ceremony at 1 p.m. EDT, Monday, June 29, at NASA Headquarters in Washington. The agreement will create a new interagency initia…",
-      "ts": 1782421838000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Welcomes Botswana as 68th Artemis Accords Signatory  ",
-      "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-botswana-as-68th-artemis-accords-signatory/",
-      "summary": "The Republic of Botswana signed the Artemis Accords Thursday during a ceremony hosted by NASA at the agency’s headquarters in Washington, becoming the sixth African nation to join a growing community of nations committed…",
-      "ts": 1782421782000,
-      "categoryId": "space"
-    },
-    {
       "source": "SpaceNews",
       "title": "Botswana signs the Artemis Accords",
       "url": "https://spacenews.com/botswana-signs-the-artemis-accords/",
@@ -703,14 +683,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "NASA Selects Rocket Lab to Launch Sun, Earth Science Missions",
-      "url": "https://www.nasa.gov/missions/tsis-2/nasa-selects-rocket-lab-to-launch-sun-earth-science-missions/",
-      "summary": "NASA has selected Rocket Lab to provide the launch service for both the agency’s PolSIR (Polarized Submillimeter Ice-cloud Radiometer) and Total and Spectral Solar Irradiance Sensor-2 (TSIS-2) missions. The two selection…",
-      "ts": 1782418000000,
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "STAT+: At BIO 2026, industry wrestled with Washington politics, and making AI work better",
       "url": "https://www.statnews.com/2026/06/25/bio-2026-biotech-conference-san-diego-key-takeaways/?utm_campaign=rss",
@@ -724,6 +696,30 @@
       "url": "https://www.genengnews.com/topics/bioprocessing/merck-kgaa-to-acquire-bio-techne-for-11-3b-expanding-life-science-tools-presence/",
       "summary": "The deal would add Bio-Techne’s multiomics offerings, analytical technologies, and integrated workflow solutions to German Merck’s platforms and services in research, bioprocessing and advanced therapeutics, with the aim…",
       "ts": 1782414755000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "BIO 2026: FDA Leadership Confront Workforce Losses, China Competition in Drug Development",
+      "url": "https://www.genengnews.com/topics/drug-discovery/bio-2026-fda-leadership-confront-workforce-losses-china-competition-in-drug-development/",
+      "summary": "The panel, which featured the acting directors of Center for Drug Evaluation and Research and the Center for Biologics Evaluation and Research, and the acting chief of staff, focused on the FDA’s current priorities and i…",
+      "ts": 1782414008000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "The mysterious case of Eli Lilly’s obesity drug",
+      "url": "https://www.statnews.com/2026/06/25/readout-loud-podcast-eli-lilly-fda-obesity-trump-absci-regenxbio/?utm_campaign=rss",
+      "summary": "Who got exclusive access to Eli Lilly's highly anticipated obesity candidate? And why are drugmakers spending so much on acquisitions? Find out on this week's \"Readout LOUD.\"",
+      "ts": 1782413924000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Cassidy proposes bill to rein in 340B drug discount program",
+      "url": "https://www.statnews.com/2026/06/25/cassidy-bill-rein-in-340b-drug-discount-program/?utm_campaign=rss",
+      "summary": "Placing new limits on the 340B drug discount program would be a fresh challenge for hospitals as they confront funding cuts.",
+      "ts": 1782408759000,
       "categoryId": "bio"
     }
   ],
