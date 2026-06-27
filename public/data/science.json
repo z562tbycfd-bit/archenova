@@ -1,9 +1,37 @@
 {
   "ok": true,
+<<<<<<< HEAD
   "updated": "2026-06-26T23:09:18.318Z",
   "items": [
     {
       "source": "Phys.org",
+=======
+  "updated": "2026-06-27T01:22:46.600Z",
+  "items": [
+    {
+      "source": "Phys.org",
+      "title": "Investigative interviews are key to solving crimes—should AI be helping police with their inquiries?",
+      "url": "https://phys.org/news/2026-06-key-crimes-ai-police-inquiries.html",
+      "summary": "Investigative interviewing—the process of obtaining accurate and complete accounts from victims, witnesses and suspects—is the lifeblood of the criminal justice system.",
+      "ts": 1782523201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Vulnerable butterfly recorded in the Botanical Garden at Uppsala",
+      "url": "https://phys.org/news/2026-06-vulnerable-butterfly-botanical-garden-uppsala.html",
+      "summary": "The Botanical Garden in Uppsala was recently visited by animal ecology researchers, who conducted a BioBlitz to find, identify and record as many insects as possible in the Botanical Garden. One of the finds was an endan…",
+      "ts": 1782520804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uranus, Neptune may be magma worlds, not ice giants",
+      "url": "https://phys.org/news/2026-06-uranus-neptune-magma-worlds-ice.html",
+      "summary": "Uranus and Neptune remain two of the most mysterious objects in the solar system, primarily because they have been visited only by NASA's Voyager 2 spacecraft in 1986 and 1989, respectively. Their \"ice giant\" moniker com…",
+      "ts": 1782516001000
+    },
+    {
+      "source": "Phys.org",
+>>>>>>> 4fa36e5e (Update generated research feeds)
       "title": "Proactive employees with high emotional intelligence do a better job, study finds",
       "url": "https://phys.org/news/2026-06-proactive-employees-high-emotional-intelligence.html",
       "summary": "In many organizations, large hierarchical gaps exist within work teams, raising the question of how frontline employees can strive for upward mobility in their careers. A recent study by the Department of Psychology at L…",
@@ -680,6 +708,7 @@
       "url": "https://arxiv.org/abs/2606.26484",
       "summary": "arXiv:2606.26484v1 Announce Type: new Abstract: The nonlinear space-charge effect plays a significant role in high-intensity accelerators and has been extensively studied using multi-particle tracking methods. In this pa…",
       "ts": 1782446400000
+<<<<<<< HEAD
     },
     {
       "source": "arXiv Physics",
@@ -701,6 +730,8 @@
       "url": "https://arxiv.org/abs/2606.26675",
       "summary": "arXiv:2606.26675v1 Announce Type: new Abstract: The magnetohydrodynamic (MHD) equilibrium $\\beta$ limits in the Chinese First QuasiAxisymmetric Stellarator (CFQS) are investigated using the NTEC code, for both the standa…",
       "ts": 1782446400000
+=======
+>>>>>>> 4fa36e5e (Update generated research feeds)
     }
   ],
   "sources": [
