@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-27T17:13:22.404Z",
+  "updated": "2026-06-27T19:24:34.195Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Lithium-doped carbon nanorings show promise for next-generation optical devices",
+      "url": "https://phys.org/news/2026-06-lithium-doped-carbon-nanorings-generation.html",
+      "summary": "Nonlinear optical materials are essential for advanced photonics and laser technologies, but researchers are still searching for ways to optimize organic, carbon-based alternatives. Using computational modeling, scientis…",
+      "ts": 1782585001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly identified fossil sheds light on evolutionary history of saber-toothed cats",
+      "url": "https://phys.org/news/2026-06-newly-fossil-evolutionary-history-saber.html",
+      "summary": "Fossils tucked away in a museum drawer and identified merely as \"feline\" are actually from a very ancient and enigmatic saber-toothed cat that inhabited North America more than 5 million years ago. Newly identified by a …",
+      "ts": 1782583201000
+    },
     {
       "source": "Phys.org",
       "title": "Laser-based 3D imaging system enables precise detection and quantification of methane leakage",
@@ -686,20 +700,6 @@
       "title": "Calibration and Performance of Germanium High Voltage Detectors for SuperCDMS SNOLAB",
       "url": "https://arxiv.org/abs/2606.26391",
       "summary": "arXiv:2606.26391v1 Announce Type: new Abstract: As SuperCDMS SNOLAB is getting ready to search for low mass dark matter particles, using cryogenic Ge and Si detectors, a set of six of the new SuperCDMS High Voltage (HV) …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Consistent Initial States with Constant Circuit Depth for Quantum Computational Chemistry",
-      "url": "https://arxiv.org/abs/2606.26393",
-      "summary": "arXiv:2606.26393v1 Announce Type: new Abstract: Variational quantum eigensolvers have been extensively studied, yet there are still no methods that offer black-box applicability with consistent performance. Separable pai…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-Driven by Design: Building a Reflective Physics Graduate Program",
-      "url": "https://arxiv.org/abs/2606.26405",
-      "summary": "arXiv:2606.26405v1 Announce Type: new Abstract: Well-documented research on physics graduate education has demonstrated long-standing issues that hinder equitable student access and participation. Addressing these challe…",
       "ts": 1782446400000
     }
   ],
