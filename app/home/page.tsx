@@ -3,6 +3,7 @@ import Reveal from "../components/Reveal";
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import GateFragments from "../components/GateFragments";
+import CivilizationOrbitEngine from "../components/CivilizationOrbitEngine";
 
 export default function Home() {
   return (
@@ -51,13 +52,13 @@ export default function Home() {
 
           <Reveal delay={180}>
             <div className="an-grid-3">
-              <Link href="#home-origin" className="an-card">
+              <Link href="#chapter-origin" className="an-card">
                 <strong>Origin</strong>
-                <p>Founder / Imagination / Civilization</p>
+                <p>Exists / Mission / Scale</p>
               </Link>
 
-              <Link href="#chapter-foundation" className="an-card">
-                <strong>Foundation</strong>
+              <Link href="#chapter-imperial-house" className="an-card">
+                <strong>Imperial House</strong>
                 <p>Imperial House / Constitution / Core</p>
               </Link>
 
@@ -71,166 +72,178 @@ export default function Home() {
       </section>
 
       {/* =========================
-          ◈ ORIGIN
-      ========================= */}
-      <section
-        id="chapter-origin"
-        data-home-section
-        className="home-page twin-page home-chapter-page"
-      >
-        <Reveal>
-          <div className="home-chapter">
-            <span className="home-chapter-label">◈ ORIGIN</span>
+    ◈ ORIGIN
+========================= */}
+<section
+  id="chapter-origin"
+  data-home-section
+  className="home-page twin-page origin-orbit-page"
+>
+  <Reveal>
+    <CivilizationOrbitEngine
+      mark="◈"
+      label="ARCHENOVA ORIGIN"
+      title="Origin"
+      lead="Origin connects why ArcheNova exists, what it seeks, what civilization means, and the scale at which it must operate."
+      layers={[
+        { inset: 4, speed: 42, direction: "cw" },
+        { inset: 16, speed: 58, direction: "ccw" },
+        { inset: 28, speed: 78, direction: "cw" },
+      ]}
+      nodes={[
+        {
+          title: "Exists",
+          subtitle: "Why ArcheNova exists",
+          href: "#home-origin",
+        },
+        {
+          title: "Mission",
+          subtitle: "Observe, understand, imagine, design, create",
+          href: "#home-mission",
+        },
+        {
+          title: "Civilization",
+          subtitle: "The integrated structure ArcheNova studies",
+          href: "#home-civilization",
+        },
+        {
+          title: "Scale",
+          subtitle: "The capacity civilization requires",
+          href: "#home-scale",
+        },
+      ]}
+    />
+  </Reveal>
+</section>
 
-            <div className="home-chapter-line" />
+{/* ORIGIN */}
+<section id="home-origin" data-home-section className="home-page twin-page">
+  <Reveal>
+    <div className="an-section">
+      <span className="an-label">WHY ARCHENOVA EXISTS</span>
 
-            <h2 className="home-chapter-title">
-              Exists
-              <br />
-              Mission
-              <br />
-              Scale
-            </h2>
+      <h2 className="an-heading">
+        A digital twin
+        <br />
+        of civilizational
+        <br />
+        imagination.
+      </h2>
 
-            <p className="home-chapter-text">
-              Foundation contains the symbolic origin, constitutional
-              continuity, and shared constraints that all ArcheNova systems
-              must respect.
-            </p>
+      <p className="an-body">
+        ArcheNova externalizes the founder&apos;s continuous interest in
+        civilization into a living architecture of thought, design,
+        research, and creation.
+      </p>
 
-            <div className="home-chapter-scroll">Continue ↓</div>
-          </div>
-        </Reveal>
-      </section>
+      <p className="an-body">
+        Its purpose is not to represent an organization, but to give form
+        to a way of thinking directed toward civilization itself.
+      </p>
+    </div>
+  </Reveal>
+</section>
 
-      {/* ORIGIN */}
-      <section id="home-origin" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">WHY ARCHENOVA EXISTS</span>
+{/* MISSION */}
+<section id="home-mission" data-home-section className="home-page twin-page">
+  <Reveal>
+    <div className="an-section">
+      <span className="an-label">ARCHENOVA MISSION</span>
 
-            <h2 className="an-heading">
-              A digital twin
-              <br />
-              of civilizational
-              <br />
-              imagination.
-            </h2>
+      <h2 className="an-heading">
+        Observe civilization.
+        <br />
+        Understand civilization.
+        <br />
+        Imagine civilization.
+        <br />
+        Design civilization.
+        <br />
+        Create civilization.
+      </h2>
 
-            <p className="an-body">
-              ArcheNova externalizes the founder&apos;s continuous interest in
-              civilization into a living architecture of thought, design,
-              research, and creation.
-            </p>
+      <p className="an-body">
+        ArcheNova exists to explore the structures required for civilization
+        to discover reality, create knowledge, build capability, preserve
+        continuity, and expand future possibility.
+      </p>
+    </div>
+  </Reveal>
+</section>
 
-            <p className="an-body">
-              Its purpose is not to represent an organization, but to give form
-              to a way of thinking directed toward civilization itself.
-            </p>
-          </div>
-        </Reveal>
-      </section>
+{/* CIVILIZATION */}
+<section
+  id="home-civilization"
+  data-home-section
+  className="home-page twin-page"
+>
+  <Reveal>
+    <div className="an-section">
+      <span className="an-label">CIVILIZATION</span>
 
-      {/* MISSION */}
-      <section id="home-mission" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">ARCHENOVA MISSION</span>
+      <h2 className="an-heading">
+        Civilization is the
+        <br />
+        integrated structure
+        <br />
+        ArcheNova studies.
+      </h2>
 
-            <h2 className="an-heading">
-              Observe civilization.
-              <br />
-              Understand civilization.
-              <br />
-              Imagine civilization.
-              <br />
-              Design civilization.
-              <br />
-              Create civilization.
-            </h2>
+      <p className="an-body">
+        Civilization is not a single organization, industry, nation, or
+        technology. It is a synchronized architecture of space, science,
+        technology, capital, law, governance, education, and knowledge.
+      </p>
 
-            <p className="an-body">
-              ArcheNova exists to explore the structures required for
-              civilization to discover reality, create knowledge, build
-              capability, preserve continuity, and expand future possibility.
-            </p>
-          </div>
-        </Reveal>
-      </section>
+      <Link href="/civilization" className="an-button">
+        <p>Enter Civilization →</p>
+      </Link>
+    </div>
+  </Reveal>
+</section>
 
-      {/* CIVILIZATION */}
-      <section
-        id="home-civilization"
-        data-home-section
-        className="home-page twin-page"
-      >
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">CIVILIZATION</span>
+{/* SCALE */}
+<section id="home-scale" data-home-section className="home-page twin-page">
+  <Reveal>
+    <div className="an-section">
+      <span className="an-label">CIVILIZATIONAL SCALE</span>
 
-            <h2 className="an-heading">
-              Civilization is the
-              <br />
-              integrated structure
-              <br />
-              ArcheNova studies.
-            </h2>
+      <h2 className="an-heading">
+        Designing at the scale
+        <br />
+        civilization requires.
+      </h2>
 
-            <p className="an-body">
-              Civilization is not a single organization, industry, nation, or
-              technology. It is a synchronized architecture of space, science,
-              technology, capital, law, governance, education, and knowledge.
-            </p>
+      <p className="an-body">
+        ArcheNova transforms scale into civilization-scale capacity:
+        spatial expansion, scientific discovery, technological implementation,
+        institutional legitimacy, and knowledge continuity.
+      </p>
 
-            <Link href="/civilization" className="an-button">
-              <p>Enter Civilization →</p>
-            </Link>
-          </div>
-        </Reveal>
-      </section>
+      <div className="an-grid-4">
+        <div className="an-card">
+          <strong>Spatial Capacity</strong>
+          <p>Architecture, cities, orbital habitats, and settlement.</p>
+        </div>
 
-      {/* SCALE */}
-      <section id="home-scale" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">CIVILIZATIONAL SCALE</span>
+        <div className="an-card">
+          <strong>Discovery Capacity</strong>
+          <p>Observation, theory, models, signals, and archives.</p>
+        </div>
 
-            <h2 className="an-heading">
-              Designing at the scale
-              <br />
-              civilization requires.
-            </h2>
+        <div className="an-card">
+          <strong>Implementation Capacity</strong>
+          <p>Engineering, energy, manufacturing, infrastructure.</p>
+        </div>
 
-            <p className="an-body">
-              ArcheNova transforms scale into civilization-scale capacity:
-              spatial expansion, scientific discovery, technological
-              implementation, institutional legitimacy, and knowledge continuity.
-            </p>
-
-            <div className="an-grid-4">
-              <div className="an-card">
-                <strong>Spatial Capacity</strong>
-                <p>Architecture, cities, orbital habitats, and settlement.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Discovery Capacity</strong>
-                <p>Observation, theory, models, signals, and archives.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Implementation Capacity</strong>
-                <p>Engineering, energy, manufacturing, infrastructure.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Continuity Capacity</strong>
-                <p>Governance, education, legitimacy, memory, knowledge.</p>
-              </div>
-            </div>
-          </div>
-        </Reveal>
-      </section>
+        <div className="an-card">
+          <strong>Continuity Capacity</strong>
+          <p>Governance, education, legitimacy, memory, knowledge.</p>
+        </div>
+      </div>
+    </div>
+  </Reveal>
+</section>
 
       {/* IMPERIAL HOUSE */}
       <section

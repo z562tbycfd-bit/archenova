@@ -18082,3 +18082,710 @@ font-size:1.7rem;
     min-width: 2.05rem !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Civilization Orbit Engine — Core + Ring Restore
+   ========================================================== */
+
+.civ-orbit-stage {
+  --node-radius: min(32vw, 285px);
+  position: relative !important;
+  width: min(78vw, 720px) !important;
+  aspect-ratio: 1 !important;
+  margin: 2rem auto 0 !important;
+  display: grid !important;
+  place-items: center !important;
+}
+
+.civ-orbit-core {
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 4;
+
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 0.35rem;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(255,255,255,0.22),
+      rgba(255,232,170,0.08) 42%,
+      rgba(120,180,255,0.055) 66%,
+      transparent 78%
+    );
+
+  border: 1px solid rgba(255,255,255,0.16);
+
+  box-shadow:
+    0 0 70px rgba(255,232,170,0.18),
+    0 0 140px rgba(120,180,255,0.14);
+
+  animation: civCorePulse 9s ease-in-out infinite;
+}
+
+.civ-orbit-core span {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.civ-orbit-core strong {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.civ-orbit-ring {
+  position: absolute !important;
+  inset: var(--orbit-inset) !important;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  pointer-events: none;
+  z-index: 1;
+
+  animation-duration: var(--orbit-speed);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.civ-orbit-ring-forward {
+  animation-name: civOrbitForward;
+}
+
+.civ-orbit-ring-reverse {
+  animation-name: civOrbitReverse;
+}
+
+@keyframes civOrbitForward {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes civOrbitReverse {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes civCorePulse {
+  0%, 100% {
+    opacity: 0.92;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .civ-orbit-stage {
+    width: min(92vw, 420px) !important;
+    min-height: 700px !important;
+    aspect-ratio: auto !important;
+    display: block !important;
+  }
+
+  .civ-orbit-ring {
+    display: none !important;
+  }
+
+  .civ-orbit-core {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+
+    width: 138px;
+    height: 138px;
+    margin: 0 auto 2rem;
+  }
+}
+
+
+/* ==========================================================
+   Civilization Orbit Engine — Stable Layout Fix
+   ========================================================== */
+
+.civ-orbit-stage {
+  --node-radius: min(32vw, 285px);
+  position: relative;
+  width: min(78vw, 720px);
+  aspect-ratio: 1;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+
+.civ-orbit-node {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 5;
+  width: 168px;
+  text-decoration: none;
+  color: inherit;
+
+  transform:
+    translate(-50%, -50%)
+    rotate(var(--node-angle))
+    translateX(var(--node-radius))
+    rotate(calc(-1 * var(--node-angle)));
+}
+
+.civ-orbit-node-inner {
+  min-height: 92px;
+  padding: 1rem;
+  border-radius: 24px;
+  text-align: left;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.045);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  transition: 0.35s ease;
+}
+
+.civ-orbit-node:hover .civ-orbit-node-inner {
+  transform: scale(1.045);
+  background: rgba(255,255,255,0.09);
+  box-shadow: 0 0 38px rgba(140,190,255,0.22);
+}
+
+.civ-orbit-node-inner p {
+  margin: 0.35rem 0 0;
+  font-size: 0.78rem;
+  opacity: 0.62;
+  line-height: 1.45;
+}
+
+/* Mobile: orbit becomes vertical list */
+@media (max-width: 768px) {
+  .civ-orbit-stage {
+    width: min(92vw, 420px);
+    min-height: 700px;
+    aspect-ratio: auto;
+    display: block;
+  }
+
+  .civ-orbit-ring {
+    display: none;
+  }
+
+  .civ-orbit-core {
+    position: relative;
+    margin: 0 auto 2rem;
+    width: 138px;
+    height: 138px;
+  }
+
+  .civ-orbit-node {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: min(84vw, 320px);
+    margin: 0.85rem auto;
+    transform: none !important;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+/* ==========================================================
+   Origin Orbit Theme
+   Civilization begins here
+   ========================================================== */
+
+.origin-orbit-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.origin-orbit-page::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      circle at 50% 42%,
+      rgba(255, 232, 170, 0.13),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 28% 30%,
+      rgba(120, 190, 255, 0.12),
+      transparent 26%
+    ),
+    radial-gradient(
+      circle at 72% 68%,
+      rgba(210, 160, 255, 0.09),
+      transparent 28%
+    );
+  opacity: 0.9;
+}
+
+.origin-orbit-page .civ-orbit-engine {
+  position: relative;
+  z-index: 1;
+}
+
+.origin-orbit-page .civ-orbit-core {
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.24),
+      rgba(255, 224, 150, 0.1) 42%,
+      rgba(120, 180, 255, 0.055) 66%,
+      transparent 78%
+    );
+  box-shadow:
+    0 0 70px rgba(255, 232, 170, 0.2),
+    0 0 140px rgba(120, 180, 255, 0.16),
+    0 0 220px rgba(210, 160, 255, 0.08);
+}
+
+.origin-orbit-page .civ-orbit-ring {
+  border-color: rgba(255, 232, 170, 0.15);
+  opacity: 0.68;
+}
+
+.origin-orbit-page .civ-orbit-ring:nth-child(2) {
+  border-color: rgba(120, 190, 255, 0.16);
+}
+
+.origin-orbit-page .civ-orbit-ring:nth-child(3) {
+  border-color: rgba(210, 160, 255, 0.14);
+}
+
+.origin-orbit-page .civ-orbit-node {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 232, 170, 0.06),
+      rgba(255, 255, 255, 0.035)
+    );
+}
+
+.origin-orbit-page .civ-orbit-node:hover {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 232, 170, 0.12),
+      rgba(120, 180, 255, 0.055)
+    );
+  box-shadow:
+    0 0 34px rgba(255, 232, 170, 0.14),
+    0 0 70px rgba(120, 180, 255, 0.12);
+}
+
+@media (max-width: 768px) {
+  .origin-orbit-page::before {
+    inset: -10%;
+    opacity: 0.72;
+  }
+}
+
+
+
+
+/* ==========================================================
+   Origin Nebula Background
+   ========================================================== */
+
+.origin-orbit-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.origin-orbit-page::after {
+  content: "";
+
+  position: absolute;
+  inset: -25%;
+
+  pointer-events: none;
+
+  background:
+
+    radial-gradient(
+      circle at 28% 32%,
+      rgba(120,190,255,.13),
+      transparent 22%
+    ),
+
+    radial-gradient(
+      circle at 72% 68%,
+      rgba(255,226,170,.11),
+      transparent 24%
+    ),
+
+    radial-gradient(
+      circle at 48% 56%,
+      rgba(188,140,255,.09),
+      transparent 26%
+    );
+
+  filter: blur(55px);
+
+  opacity: .9;
+
+  animation:
+    originNebulaFloat 40s ease-in-out infinite alternate;
+}
+
+.origin-orbit-page::before{
+  content:"";
+
+  position:absolute;
+  inset:-20%;
+
+  pointer-events:none;
+
+  background:
+
+    radial-gradient(
+      circle,
+      rgba(255,255,255,.03),
+      transparent 70%
+    );
+
+  animation:
+    originNebulaRotate 140s linear infinite;
+}
+
+@keyframes originNebulaFloat{
+
+  0%{
+    transform:
+      translate(-3%,-2%)
+      scale(1);
+  }
+
+  50%{
+    transform:
+      translate(2%,3%)
+      scale(1.06);
+  }
+
+  100%{
+    transform:
+      translate(-2%,1%)
+      scale(.98);
+  }
+
+}
+
+@keyframes originNebulaRotate{
+
+  from{
+    transform:rotate(0deg);
+  }
+
+  to{
+    transform:rotate(360deg);
+  }
+
+}
+
+
+
+
+
+
+
+/* ==========================================================
+   Origin Orbit — Genesis Light
+   ========================================================== */
+
+.origin-orbit-page .civ-orbit-stage::before {
+  content: "";
+  position: absolute;
+  inset: 22%;
+  border-radius: 999px;
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 236, 180, 0.18),
+      rgba(120, 190, 255, 0.08) 42%,
+      transparent 72%
+    );
+  filter: blur(18px);
+  animation: originGenesisPulse 8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.origin-orbit-page .civ-orbit-stage::after {
+  content: "";
+  position: absolute;
+  inset: 4%;
+  border-radius: 999px;
+  background:
+    conic-gradient(
+      from 0deg,
+      transparent,
+      rgba(255, 236, 180, 0.12),
+      transparent,
+      rgba(120, 190, 255, 0.1),
+      transparent
+    );
+  filter: blur(22px);
+  opacity: 0.55;
+  animation: originNebulaRotate 46s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.origin-orbit-page .civ-orbit-core {
+  box-shadow:
+    0 0 60px rgba(255, 236, 180, 0.28),
+    0 0 140px rgba(120, 190, 255, 0.18),
+    0 0 240px rgba(210, 160, 255, 0.1);
+}
+
+@keyframes originGenesisPulse {
+  0%,
+  100% {
+    opacity: 0.48;
+    transform: scale(0.96);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes originNebulaRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .origin-orbit-page .civ-orbit-stage::before,
+  .origin-orbit-page .civ-orbit-stage::after {
+    display: none;
+  }
+}
+
+/* ==========================================================
+   Origin Orbit — Mobile Genesis Flow
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .origin-orbit-page .civ-orbit-stage {
+    position: relative;
+  }
+
+  .origin-orbit-page .civ-orbit-stage::before {
+    content: "";
+    position: absolute;
+    top: 150px;
+    bottom: 1.5rem;
+    left: 50%;
+    width: 1px;
+    transform: translateX(-50%);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 236, 180, 0),
+      rgba(255, 236, 180, 0.42),
+      rgba(120, 190, 255, 0.28),
+      rgba(255, 236, 180, 0)
+    );
+    box-shadow:
+      0 0 18px rgba(255, 236, 180, 0.24),
+      0 0 34px rgba(120, 190, 255, 0.16);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .origin-orbit-page .civ-orbit-stage::after {
+    content: "";
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    transform: translateX(-50%);
+    background: rgba(255, 246, 210, 0.92);
+    box-shadow:
+      0 0 18px rgba(255, 236, 180, 0.75),
+      0 0 42px rgba(120, 190, 255, 0.35);
+    animation: originMobileParticle 5.8s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .origin-orbit-page .civ-orbit-core {
+    position: relative;
+    z-index: 3;
+    overflow: visible;
+    animation:
+      civCorePulse 9s ease-in-out infinite,
+      originMobileCoreBreath 6.8s ease-in-out infinite;
+    box-shadow:
+      0 0 42px rgba(255, 236, 180, 0.36),
+      0 0 90px rgba(120, 190, 255, 0.22),
+      0 0 150px rgba(210, 160, 255, 0.12);
+  }
+
+  .origin-orbit-page .civ-orbit-core::before {
+    content: "";
+    position: absolute;
+    inset: -18px;
+    border-radius: 999px;
+    background:
+      radial-gradient(
+        circle,
+        rgba(255, 236, 180, 0.22),
+        rgba(120, 190, 255, 0.08) 42%,
+        transparent 70%
+      );
+    filter: blur(10px);
+    opacity: 0.78;
+    animation: originMobileHalo 7.4s ease-in-out infinite;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .origin-orbit-page .civ-orbit-core::after {
+    content: "";
+    position: absolute;
+    inset: -34px;
+    border-radius: 999px;
+    background:
+      conic-gradient(
+        from 0deg,
+        transparent,
+        rgba(255, 236, 180, 0.18),
+        transparent,
+        rgba(120, 190, 255, 0.12),
+        transparent
+      );
+    filter: blur(18px);
+    opacity: 0.42;
+    animation: originMobileCoreDrift 18s linear infinite;
+    pointer-events: none;
+    z-index: -2;
+  }
+
+  .origin-orbit-page .civ-orbit-node {
+    position: relative;
+    z-index: 2;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -18px;
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    transform: translateX(-50%);
+    background: rgba(255, 246, 210, 0.78);
+    box-shadow:
+      0 0 18px rgba(255, 236, 180, 0.45),
+      0 0 28px rgba(120, 190, 255, 0.22);
+    opacity: 0.5;
+  }
+}
+
+@keyframes originMobileCoreBreath {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.045);
+  }
+}
+
+@keyframes originMobileHalo {
+  0%,
+  100% {
+    opacity: 0.48;
+    transform: scale(0.96);
+  }
+
+  50% {
+    opacity: 0.95;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes originMobileCoreDrift {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes originMobileParticle {
+  0% {
+    top: 145px;
+    opacity: 0;
+  }
+
+  14% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.9;
+  }
+
+  100% {
+    top: calc(100% - 2rem);
+    opacity: 0;
+  }
+}
