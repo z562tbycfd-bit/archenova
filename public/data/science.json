@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-28T04:04:49.892Z",
+  "updated": "2026-06-28T08:23:03.315Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Wild tomato genome assemblies reveal structural variants and repeat content act as recombination barriers",
+      "url": "https://www.nature.com/articles/s41467-026-74784-5",
+      "summary": "",
+      "ts": 1782604800000
+    },
     {
       "source": "Phys.org",
       "title": "Female baboons keep family bonds strong: Research reveals the benefits",
@@ -693,13 +700,6 @@
       "title": "Production and installation of wavelength-shifting reflective light enhancers for the Short-Baseline Near Detector",
       "url": "https://arxiv.org/abs/2606.26284",
       "summary": "arXiv:2606.26284v1 Announce Type: new Abstract: We report on the design, production, and installation of a wavelength-shifting reflective system on the cathode of the Short-Baseline Near Detector (SBND), a liquid argon t…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fiber Bragg grating-based acoustic sensing system enabled by ML-trained, sub-picometer-tunable hybrid III-V/SiN lasers",
-      "url": "https://arxiv.org/abs/2606.26306",
-      "summary": "arXiv:2606.26306v1 Announce Type: new Abstract: Distributed acoustic emission (AE) sensing is critical for early detection of structural degradation, yet conventional electrical sensors are difficult to scale and fiber-b…",
       "ts": 1782446400000
     }
   ],
