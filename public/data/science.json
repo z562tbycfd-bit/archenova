@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-28T13:52:08.634Z",
+  "updated": "2026-06-28T15:19:46.417Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Everyone experiences loss and grief, but that doesn't make it any easier to talk with kids about it",
+      "url": "https://phys.org/news/2026-06-loss-grief-doesnt-easier-kids.html",
+      "summary": "When I was a school social worker, a teary-eyed father once came to the school to tell his 4-year-old daughter's teacher that the child's mother had been in an accident. He did not speak to his child as she looked on, bu…",
+      "ts": 1782658801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The sun's outbursts may briefly weaken rain and snow events across North America",
+      "url": "https://phys.org/news/2026-06-sun-outbursts-briefly-weaken-events.html",
+      "summary": "For decades, scientists have searched for a clear link between the sun's explosive storms and the weather that occurs on Earth. A breakthrough study from the University of New Hampshire reveals that in the hours and days…",
+      "ts": 1782655204000
+    },
     {
       "source": "Phys.org",
       "title": "Scientists uncover evolutionary edge behind plant invasions",
@@ -686,20 +700,6 @@
       "title": "Infinite-time surface flux for full-dimensional three-body breakup dynamics",
       "url": "https://arxiv.org/abs/2606.26178",
       "summary": "arXiv:2606.26178v1 Announce Type: new Abstract: We derive an infinite-time surface-flux formulation for full-dimensional three-body breakup dynamics in intense laser fields. The method is designed as a post-pulse extensi…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Application of surface coating for radon mitigation in rare-event searches",
-      "url": "https://arxiv.org/abs/2606.26190",
-      "summary": "arXiv:2606.26190v1 Announce Type: new Abstract: Rare-event searches offer a powerful avenue for investigating some of the most fundamental questions in modern physics, most prominently the particle nature of dark matter …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-Shot Intensity-Correlation Diffractive X-ray Imaging of ICF Plasmas",
-      "url": "https://arxiv.org/abs/2606.26198",
-      "summary": "arXiv:2606.26198v1 Announce Type: new Abstract: X-ray radiography of inertial confinement fusion plasmas is currently limited to several-micron resolution by geometric blur, diffraction, and photon-throughput tradeoffs. …",
       "ts": 1782446400000
     }
   ],
