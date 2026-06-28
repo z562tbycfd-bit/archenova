@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-28T17:16:01.559Z",
+  "updated": "2026-06-28T19:24:36.386Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Injectable silk-kudzu hydrogel achieves complete wound closure in laboratory tests",
+      "url": "https://phys.org/news/2026-06-silk-kudzu-hydrogel-wound-closure.html",
+      "summary": "Researchers at the Terasaki Institute for Biomedical Innovation have developed an injectable hydrogel, a water-based gel material, made from silk proteins and a plant-derived compound. In laboratory tests, the material p…",
+      "ts": 1782673201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Reanalysis suggests 'Phoebe' is a variable star, not a primordial black hole",
+      "url": "https://phys.org/news/2026-06-reanalysis-phoebe-variable-star-primordial.html",
+      "summary": "A new study debunks a recent claim that astronomers may have detected a lunar-mass primordial black hole. In a reanalysis of observations from the Dark Energy Camera (DECam), researchers found that the star nicknamed \"Ph…",
+      "ts": 1782670801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "12 billion years old, this interstellar comet is older than our solar system",
+      "url": "https://phys.org/news/2026-06-billion-years-interstellar-comet-older.html",
+      "summary": "One year ago, on July 1, 2025, astronomers discovered a fascinating new object moving through the solar system. Detected by the Asteroid Terrestrial-impact Last Alert System (ATLAS), the object was quickly recognized as …",
+      "ts": 1782669601000
+    },
     {
       "source": "Phys.org",
       "title": "Ancient algal defenses against UV may have helped plants conquer land",
@@ -679,27 +700,6 @@
       "title": "Many-Body Perturbation Theory for Driven Dissipative Quasiparticle Flows and Fluctuations",
       "url": "http://link.aps.org/doi/10.1103/8k84-ntqz",
       "summary": "Author(s): Thomas Blommel, Enrico Perfetto, Gianluca Stefanucci, and Vojtech Vlcek We present a unified many-body perturbation theory for open quantum systems that treats dissipation, correlations, and external driving o…",
-      "ts": 1782468000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Ferromagnetism versus Antiferromagnetism in Narrow-Band Systems: Competition between Quantum Geometry and Band Dispersion",
-      "url": "http://link.aps.org/doi/10.1103/zdyq-3m9x",
-      "summary": "Author(s): Haoyu Hu, Oskar Vafek, Kristjan Haule, and B. Andrei Bernevig Magnetism in narrow-band systems arises from the interplay between electronic correlations, quantum geometry, and band dispersion. In particular, b…",
-      "ts": 1782468000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Exciton-Anyon Binding in Fractional Chern Insulators: Spectral Fingerprints",
-      "url": "http://link.aps.org/doi/10.1103/8bp8-g8g4",
-      "summary": "Author(s): Tianhong Lu and Luiz H. Santos Transition-metal dichalcogenides (TMDs) uniquely combine topological electronic states realized without external magnetic fields with a strong optical response arising from long-…",
-      "ts": 1782468000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Profile and Dynamics of Antiferromagnetic Domain Walls under Spin-Orbit Torque",
-      "url": "http://link.aps.org/doi/10.1103/rj3x-133s",
-      "summary": "Author(s): G. Theodorou and S. Komineas Domain walls in antiferromagnets under spin-polarized current present dynamics that is not observed in ferromagnets and it is tunable by the current polarization. Propagating walls…",
       "ts": 1782468000000
     }
   ],
