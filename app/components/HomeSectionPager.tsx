@@ -11,7 +11,7 @@ type ChapterTarget = {
 
   const CHAPTER_TARGETS: ChapterTarget[] = [
   {
-    id: "chapter-foundation",
+    id: "chapter-origin",
     mark: "◈",
     title: "ORIGIN",
     subtitle: "ARCHENOVA",
