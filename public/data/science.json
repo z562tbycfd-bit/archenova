@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-28T20:48:41.956Z",
+  "updated": "2026-06-28T21:04:53.368Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The solar gravitational lens could map white dwarfs and black holes",
+      "url": "https://phys.org/news/2026-06-solar-gravitational-lens-white-dwarfs.html",
+      "summary": "It feels like every few months we get to report on another academic paper singing the praises of the Solar Gravitational Lens (SGL). Partly, this is due to Dr. Slava Turyshev's astounding productivity in pumping out acad…",
+      "ts": 1782680421000
+    },
     {
       "source": "Phys.org",
       "title": "Europe swelters as heat wave moves east",
@@ -693,13 +700,6 @@
       "title": "Real-Space Dynamic Electron Correlation in Beryllium",
       "url": "http://link.aps.org/doi/10.1103/vzrc-5m39",
       "summary": "Author(s): Rudra B. Bista, Yuya Shinohara, Wojciech Dmowski, Chae Woo Ryu, Jung Ho Kim, Mary Upton, Hlynur Gretarsson, Martin Sundermann, and Takeshi Egami The size of the exchange-correlation hole in beryllium is about …",
-      "ts": 1782468000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Many-Body Perturbation Theory for Driven Dissipative Quasiparticle Flows and Fluctuations",
-      "url": "http://link.aps.org/doi/10.1103/8k84-ntqz",
-      "summary": "Author(s): Thomas Blommel, Enrico Perfetto, Gianluca Stefanucci, and Vojtech Vlcek We present a unified many-body perturbation theory for open quantum systems that treats dissipation, correlations, and external driving o…",
       "ts": 1782468000000
     }
   ],
