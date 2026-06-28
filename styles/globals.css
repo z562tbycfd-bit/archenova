@@ -18789,3 +18789,65 @@ font-size:1.7rem;
     opacity: 0;
   }
 }
+
+/* ==========================================================
+   Origin Orbit — Mobile Refinement
+   ========================================================== */
+
+@media (max-width:768px){
+
+  .origin-orbit-page .an-label{
+    font-size:.82rem;
+    letter-spacing:.22em;
+  }
+
+  .origin-orbit-page .civ-orbit-heading{
+    font-size:2.6rem;
+    line-height:.95;
+    margin-bottom:1rem;
+  }
+
+  .origin-orbit-page .civ-orbit-lead{
+    max-width:92%;
+    margin:0 auto 1.8rem;
+    font-size:.98rem;
+    line-height:1.75;
+  }
+
+  .origin-orbit-page .civ-orbit-core{
+    width:118px;
+    height:118px;
+    margin-bottom:1.8rem;
+  }
+
+  .origin-orbit-page .civ-orbit-core span{
+    font-size:1.9rem;
+  }
+
+  .origin-orbit-page .civ-orbit-core strong{
+    font-size:.64rem;
+    letter-spacing:.18em;
+  }
+
+  .origin-orbit-page .civ-orbit-node{
+    width:min(78vw,300px);
+    margin:0 auto 1rem;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner{
+    padding:1rem 1.15rem;
+    border-radius:20px;
+    min-height:76px;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner strong{
+    font-size:1.35rem;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner p{
+    font-size:.82rem;
+    line-height:1.55;
+    margin-top:.4rem;
+  }
+
+}
