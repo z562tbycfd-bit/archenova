@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-28T11:09:56.770Z",
+  "updated": "2026-06-28T13:52:08.634Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists uncover evolutionary edge behind plant invasions",
+      "url": "https://phys.org/news/2026-06-scientists-uncover-evolutionary-edge-invasions.html",
+      "summary": "Plants that become invasive may owe their success to an advantage shaped long before they arrive, according to new research led by King's College London.",
+      "ts": 1782653401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Off-center stellar death points to wandering supermassive black hole stripped of its own galaxy",
+      "url": "https://phys.org/news/2026-06-center-stellar-death-supermassive-black.html",
+      "summary": "Astronomers have uncovered new details about the black hole that ripped apart a star in a tidal disruption event named AT2024tvd. Findings suggest it is a wandering supermassive black hole—the kind that is not located at…",
+      "ts": 1782652801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oxygen atoms in 15‑million‑year‑old giant eggshells reveal how plants reacted to a hotter Earth",
+      "url": "https://phys.org/news/2026-06-oxygen-atoms-15millionyearold-giant-eggshells.html",
+      "summary": "Some periods in Earth's history are so different from our own that they may as well belong to another planet. Many people are interested in the age of dinosaurs or the Ice Ages, but it is an intermediate world, the Mioce…",
+      "ts": 1782648001000
+    },
     {
       "source": "Phys.org",
       "title": "Climate change to blame for intensity of Europe heat wave: Scientists",
@@ -679,27 +700,6 @@
       "title": "Single-Shot Intensity-Correlation Diffractive X-ray Imaging of ICF Plasmas",
       "url": "https://arxiv.org/abs/2606.26198",
       "summary": "arXiv:2606.26198v1 Announce Type: new Abstract: X-ray radiography of inertial confinement fusion plasmas is currently limited to several-micron resolution by geometric blur, diffraction, and photon-throughput tradeoffs. …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interpreting \"Interpretability\" and Explaining \"Explainability\" in Machine Learning in Physics",
-      "url": "https://arxiv.org/abs/2606.26228",
-      "summary": "arXiv:2606.26228v1 Announce Type: new Abstract: We review the concepts of interpretability and explainability as they apply to machine learning in physics. We define interpretability as concerning the structural transpar…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Routes to Chaos in Class-B laser Dimer Necklaces",
-      "url": "https://arxiv.org/abs/2606.26271",
-      "summary": "arXiv:2606.26271v1 Announce Type: new Abstract: Linear $\\mathcal{PT}$-symmetric dimer necklaces use cyclic coupling to organize phase-locked modes, while class-B laser--resonator dimers use carrier inversion to destabili…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets",
-      "url": "https://arxiv.org/abs/2606.26272",
-      "summary": "arXiv:2606.26272v1 Announce Type: new Abstract: Biomolecular condensates formed by phase separation often exhibit viscoelastic behavior, yet their shape recovery and fusion dynamics are frequently interpreted using purel…",
       "ts": 1782446400000
     }
   ],
