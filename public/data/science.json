@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-28T08:23:03.315Z",
+  "updated": "2026-06-28T11:09:56.770Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate change to blame for intensity of Europe heat wave: Scientists",
+      "url": "https://phys.org/news/2026-06-climate-blame-intensity-europe-scientists.html",
+      "summary": "Human-caused climate change is \"unequivocally\" responsible for the intensity of a record-breaking heat wave scorching Europe, scientists said Friday.",
+      "ts": 1782642001000
+    },
     {
       "source": "Nature Communications",
       "title": "Wild tomato genome assemblies reveal structural variants and repeat content act as recombination barriers",
@@ -693,13 +700,6 @@
       "title": "Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets",
       "url": "https://arxiv.org/abs/2606.26272",
       "summary": "arXiv:2606.26272v1 Announce Type: new Abstract: Biomolecular condensates formed by phase separation often exhibit viscoelastic behavior, yet their shape recovery and fusion dynamics are frequently interpreted using purel…",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Production and installation of wavelength-shifting reflective light enhancers for the Short-Baseline Near Detector",
-      "url": "https://arxiv.org/abs/2606.26284",
-      "summary": "arXiv:2606.26284v1 Announce Type: new Abstract: We report on the design, production, and installation of a wavelength-shifting reflective system on the cathode of the Short-Baseline Near Detector (SBND), a liquid argon t…",
       "ts": 1782446400000
     }
   ],
