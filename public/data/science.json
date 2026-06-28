@@ -1,7 +1,49 @@
 {
   "ok": true,
-  "updated": "2026-06-28T15:19:46.417Z",
+  "updated": "2026-06-28T17:16:01.559Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ancient algal defenses against UV may have helped plants conquer land",
+      "url": "https://phys.org/news/2026-06-ancient-algal-defenses-uv-conquer.html",
+      "summary": "A new study sheds light on how the ancestors of modern land plants survived one of the most challenging aspects of life outside water: exposure to harmful ultraviolet (UV) radiation. By examining a microscopic alga close…",
+      "ts": 1782666001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Better unemployment welfare could curb rise of populism",
+      "url": "https://phys.org/news/2026-06-unemployment-welfare-curb-populism.html",
+      "summary": "The study, by researchers Chase Foster (King's College London) and Jeffry Frieden (Columbia University), analyzed 134 national elections in 16 countries between 1990 and 2021, alongside data from 11 waves of the European…",
+      "ts": 1782664202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia boosts shark-spotting drone coverage at Sydney beaches",
+      "url": "https://phys.org/news/2026-06-australia-boosts-shark-drone-coverage.html",
+      "summary": "Australia will expand shark-spotting drone coverage year-round at beaches across Sydney and beyond from July 1, authorities said Sunday, following a rise in attacks and sightings.",
+      "ts": 1782661204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shining blue light on gold-graphene nanodots achieves wound healing trifecta",
+      "url": "https://phys.org/news/2026-06-blue-gold-graphene-nanodots-wound.html",
+      "summary": "Closing wounds, burns and deep cuts isn't enough to kick-start healing. A wound needs a clean environment, free of bacterial infection and interruption. That calls for three components working together—one to kill bacter…",
+      "ts": 1782661202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA races to save Swift telescope from falling back to Earth with daring rescue mission",
+      "url": "https://phys.org/news/2026-06-nasa-swift-telescope-falling-earth.html",
+      "summary": "NASA is racing to save an aging telescope from falling back to Earth with a daring rescue mission.",
+      "ts": 1782660214000
+    },
+    {
+      "source": "Phys.org",
+      "title": "More than 1,300 excess deaths recorded in Europe heat wave: WHO",
+      "url": "https://phys.org/news/2026-06-excess-deaths-europe.html",
+      "summary": "The World Health Organization said Sunday that more than 1,300 excess deaths had been recorded in Europe since June 21 in connection with the record-breaking heat wave roasting much of the continent.",
+      "ts": 1782660080000
+    },
     {
       "source": "Phys.org",
       "title": "Everyone experiences loss and grief, but that doesn't make it any easier to talk with kids about it",
@@ -659,48 +701,6 @@
       "url": "http://link.aps.org/doi/10.1103/rj3x-133s",
       "summary": "Author(s): G. Theodorou and S. Komineas Domain walls in antiferromagnets under spin-polarized current present dynamics that is not observed in ferromagnets and it is tunable by the current polarization. Propagating walls…",
       "ts": 1782468000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Synthetic Spatiotemporal Plasmonic Vortices on Chip",
-      "url": "http://link.aps.org/doi/10.1103/db9j-jc1k",
-      "summary": "Author(s): Qian Chen, Shuoshuo Zhang, Guoyu Xian, Haoqiang Hu, Xiaohua Wu, Xiaofei Wu, Jer-Shing Huang, Chen-Bin Huang, Jin-Hui Zhong, Yuquan Zhang, Xiaocong Yuan, Changjun Min, and Yanan Dai Spatiotemporal vortices are …",
-      "ts": 1782468000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Revisiting the Ratchet Principle: When Hidden Conservation Laws Prevent Directed Currents in Stochastic Systems",
-      "url": "http://link.aps.org/doi/10.1103/q415-4knr",
-      "summary": "Author(s): Jessica Metzger, Sunghan Ro, and Julien Tailleur The emergence of nonequilibrium currents has attracted a lot of attention. The “ratchet principle” identifies the violation of any form of parity and time-rever…",
-      "ts": 1782468000000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Rare Cage Escapes Drive Relaxation in Deeply Supercooled Liquids",
-      "url": "http://link.aps.org/doi/10.1103/7m7x-zxqv",
-      "summary": "Author(s): Francesco Rusciano, Raffaele Pastore, Francesco Greco, and Walter Kob Simulations conducted significantly below the mode coupling temperature allow dynamic properties of glass forming systems to be uncovered. …",
-      "ts": 1782468000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gender expression appraisals in introductory physics courses: A cross-institutional replication",
-      "url": "https://arxiv.org/abs/2606.26143",
-      "summary": "arXiv:2606.26143v1 Announce Type: new Abstract: Quantitative studies of gender in physics education have often used categorical gender identity measures, which are valuable for documenting broad inequities across gender …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Microparticles manipulation with a three-dimensional closed optical trap",
-      "url": "https://arxiv.org/abs/2606.26159",
-      "summary": "arXiv:2606.26159v1 Announce Type: new Abstract: Gaussian optical tweezers have strong phototoxicity to bioactive substances and it is difficult to achieve capture and manipulation of multiple particles. Moreover, vortex …",
-      "ts": 1782446400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Infinite-time surface flux for full-dimensional three-body breakup dynamics",
-      "url": "https://arxiv.org/abs/2606.26178",
-      "summary": "arXiv:2606.26178v1 Announce Type: new Abstract: We derive an infinite-time surface-flux formulation for full-dimensional three-body breakup dynamics in intense laser fields. The method is designed as a post-pulse extensi…",
-      "ts": 1782446400000
     }
   ],
   "sources": [
