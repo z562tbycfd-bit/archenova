@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-28T21:04:53.368Z",
+  "updated": "2026-06-28T23:05:26.308Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Human activity has driven retreat of Antarctica's fastest melting glacier",
+      "url": "https://phys.org/news/2026-06-human-driven-retreat-antarctica-fastest.html",
+      "summary": "Human-driven climate change significantly intensified the retreat of one of the most important glaciers in Antarctica during the 20th century. The Pine Island Glacier, which drains a large part of the West Antarctic Ice …",
+      "ts": 1782687601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bird flu is deadly for backyard chickens—and even cats. A vet expert explains",
+      "url": "https://phys.org/news/2026-06-bird-flu-deadly-backyard-chickens.html",
+      "summary": "The deadly H5N1 strain of bird flu has been found in seabirds in two Australian states.",
+      "ts": 1782685801000
+    },
     {
       "source": "Phys.org",
       "title": "The solar gravitational lens could map white dwarfs and black holes",
@@ -686,20 +700,6 @@
       "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
       "url": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
       "summary": "Author(s): Zhen Cao et al. (LHAASO Collaboration) A solar storm hitting Earth appears to have reduced the amount of incoming high-energy cosmic rays, suggesting a new way of measuring solar activity. [Phys. Rev. Lett. 13…",
-      "ts": 1782468000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Pattern Formation during Melting of Lamellar Eutectics",
-      "url": "http://link.aps.org/doi/10.1103/qtst-bdmt",
-      "summary": "Author(s): Rahul Nellissery Rajan, Rajesh Kumari Rajendran, Guillaume Boussinot, Kamal Sbargoud, Sabine Bottin-Rousseau, and Silvère Akamatsu A rich diversity of patterns emerge during melting of a two-phase eutectic sol…",
-      "ts": 1782468000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Real-Space Dynamic Electron Correlation in Beryllium",
-      "url": "http://link.aps.org/doi/10.1103/vzrc-5m39",
-      "summary": "Author(s): Rudra B. Bista, Yuya Shinohara, Wojciech Dmowski, Chae Woo Ryu, Jung Ho Kim, Mary Upton, Hlynur Gretarsson, Martin Sundermann, and Takeshi Egami The size of the exchange-correlation hole in beryllium is about …",
       "ts": 1782468000000
     }
   ],
