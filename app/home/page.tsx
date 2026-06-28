@@ -71,25 +71,25 @@ export default function Home() {
       </section>
 
       {/* =========================
-          ◈ FOUNDATION
+          ◈ ORIGIN
       ========================= */}
       <section
-        id="chapter-foundation"
+        id="chapter-origin"
         data-home-section
         className="home-page twin-page home-chapter-page"
       >
         <Reveal>
           <div className="home-chapter">
-            <span className="home-chapter-label">◈ FOUNDATION</span>
+            <span className="home-chapter-label">◈ ORIGIN</span>
 
             <div className="home-chapter-line" />
 
             <h2 className="home-chapter-title">
-              Imperial
+              Exists
               <br />
-              Constitution
+              Mission
               <br />
-              Foundation
+              Scale
             </h2>
 
             <p className="home-chapter-text">

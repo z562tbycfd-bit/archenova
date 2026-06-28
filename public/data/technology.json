@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-28T19:24:39.027Z",
+  "updated": "2026-06-28T20:39:17.907Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Insilico, SK Launch Up-to-$2.5B Neuroimmune AI Drug Collaboration",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/insilico-sk-launch-up-to-2-5b-neuroimmune-ai-drug-collaboration/",
+      "summary": "Insilico agreed to apply its Pharma.AI platform, which addresses target validation, generative chemistry, and molecule optimization, along with its preclinical drug discovery expertise to discover, design, and optimize c…",
+      "ts": 1782677849000,
+      "categoryId": "bio"
+    },
     {
       "source": "United Nations News",
       "title": "Venezuela earthquakes: International rescue teams join the search for survivors as death toll surpasses 1,400",
@@ -712,14 +720,6 @@
       "url": "https://www.statnews.com/2026/06/25/bio-2026-biotech-conference-san-diego-key-takeaways/?utm_campaign=rss",
       "summary": "Biotech executives reveal concerns over Chinese biotech, the profitability of AI, and the durability of Trump's drug price moves.",
       "ts": 1782415166000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Merck KGaA to Acquire Bio-Techne for $11.3B, Expanding Life Science Tools Presence",
-      "url": "https://www.genengnews.com/topics/bioprocessing/merck-kgaa-to-acquire-bio-techne-for-11-3b-expanding-life-science-tools-presence/",
-      "summary": "The deal would add Bio-Techne’s multiomics offerings, analytical technologies, and integrated workflow solutions to German Merck’s platforms and services in research, bioprocessing and advanced therapeutics, with the aim…",
-      "ts": 1782414755000,
       "categoryId": "bio"
     }
   ],

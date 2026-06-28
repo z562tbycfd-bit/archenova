@@ -13,7 +13,7 @@ type ChapterTarget = {
   {
     id: "chapter-foundation",
     mark: "◈",
-    title: "FOUNDATION",
+    title: "ORIGIN",
     subtitle: "ARCHENOVA",
   },
   { id: "chapter-imperial-house",

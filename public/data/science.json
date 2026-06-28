@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-06-28T19:24:36.386Z",
+  "updated": "2026-06-28T20:39:10.902Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Europe swelters as heat wave moves east",
+      "url": "https://phys.org/news/2026-06-europe-swelters-east.html",
+      "summary": "Europe's deadly heat wave pushed east Sunday, with hundreds of millions still sweltering across the continent despite fleeting relief from overnight storms, notably in France and Belgium.",
+      "ts": 1782677975000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanopattern method unlocks precise control of disorder for wave-guiding devices",
+      "url": "https://phys.org/news/2026-06-nanopattern-method-precise-disorder-devices.html",
+      "summary": "A research team has developed a methodology to precisely design and control the \"degree of disorder\" in nanopattern arrays using metal-infiltrated block copolymer (BCP) thin films. The work was led by Professor So Youn K…",
+      "ts": 1782676801000
+    },
     {
       "source": "Phys.org",
       "title": "Injectable silk-kudzu hydrogel achieves complete wound closure in laboratory tests",
@@ -377,20 +391,6 @@
       "source": "Nature Communications",
       "title": "Multiple human transgenes prolong survival of triple-carbohydrate knockout porcine kidney xenografts in nonhuman primates",
       "url": "https://www.nature.com/articles/s41467-026-74933-w",
-      "summary": "",
-      "ts": 1782518400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "3D nanoprinting of metals by spatiotemporally confined hot electrons via multiple-electron excitations in nanocrystals",
-      "url": "https://www.nature.com/articles/s41467-026-74926-9",
-      "summary": "",
-      "ts": 1782518400000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Systemic atopy and upper-airway disease define susceptibility to incident asthma after COVID-19 in Korea",
-      "url": "https://www.nature.com/articles/s41467-026-74860-w",
       "summary": "",
       "ts": 1782518400000
     },
