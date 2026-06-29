@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-06-29T14:07:00.701Z",
+  "updated": "2026-06-29T17:39:58.931Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "5 takeaways from STAT’s investigation into microhospital operator Nutex Health",
+      "url": "https://www.statnews.com/2026/06/29/nutex-health-investigation-takeaways-stat-news-no-surprises-act/?utm_campaign=rss",
+      "summary": "Read the takeaways from STAT's investigation into Nutex, which used the No Surprises Act to fuel a stunning financial turnaround.",
+      "ts": 1782754096000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Unredacted comments from California hospital lawsuits show stunning admissions and a ‘forced’ McKinsey collaboration",
+      "url": "https://www.statnews.com/2026/06/29/healthcare-news-unredacted-ca-hospital-lawsuit-sad-mckinsey-tax/?utm_campaign=rss",
+      "summary": "Who controls the Medicaid market, GLP-1 usage and pizza household costs, and more from Health Care Inc.",
+      "ts": 1782752593000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
+      "url": "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
+      "summary": "Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build auton…",
+      "ts": 1782752419000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Longevity, wellness physicians named to panel advising FDA on peptides",
+      "url": "https://www.statnews.com/2026/06/29/new-fda-peptide-advisers-compounding-committee-conflicts/?utm_campaign=rss",
+      "summary": "The panel will soon consider whether to relax restrictions on certain peptides.",
+      "ts": 1782751895000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "ESA to seek lunar mapping capability for Argonaut lander",
+      "url": "https://spacenews.com/esa-to-seek-lunar-mapping-capability-for-argonaut-lander/",
+      "summary": "MILAN — The European Space Agency will rely on external lunar topographic data during the design phase of its Argonaut lunar lander, and possibly for its first mission, while working […] The post ESA to seek lunar mappin…",
+      "ts": 1782746691000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Beck: Iridium acquisition the “logical next step” for Rocket Lab",
+      "url": "https://spacenews.com/beck-iridium-acquisition-the-logical-next-step-for-rocket-lab/",
+      "summary": "Rocket Lab’s chief executive says the company’s acquisition of Iridium was the “logical next step” in his ambitions to tap into the lucrative space services market. The post Beck: Iridium acquisition the “logical next st…",
+      "ts": 1782746445000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut Chris Williams Preps for Spacewalk",
+      "url": "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-preps-for-spacewalk/",
+      "summary": "Flight engineer Sophie Adenot of ESA (European Space Agency) helps flight engineer Chris Williams of NASA as he tries on his spacesuit on June 23, 2026, testing its comfort and mobility as well as its communications and …",
+      "ts": 1782746323000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Mapping Earth’s Observations, featuring Betsy Ford",
+      "url": "https://www.nasa.gov/general/mapping-earths-observations-featuring-betsy-ford/",
+      "summary": "NASA’s Earth-observing satellites track an enormous range of phenomena: how aerosols move through the atmosphere, how moisture descends through soil, how land-cover shifts over decades. It’s some of the most consequentia…",
+      "ts": 1782746204000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time",
+      "url": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
+      "summary": "",
+      "ts": 1782745204000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NextSTEP-3 A: Lunar Enabling Technology",
+      "url": "https://www.nasa.gov/directorates/stmd/nextstep-3-a-lunar-enabling-technology/",
+      "summary": "Solicitation Number: 80GRC026R0008 May 19, 2026 – Synopsis issued June 29, 2026 – Draft BAA and Appendix A Issued | News Release NASA issued a draft Broad Agency Announcement under NextSTEP‑3, Appendix A, on June 29, 202…",
+      "ts": 1782745014000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Seeks Industry Input to Accelerate Lunar Surface Technologies",
+      "url": "https://www.nasa.gov/directorates/stmd/nasa-seeks-industry-input-to-accelerate-lunar-surface-technologies/",
+      "summary": "Long-term lunar exploration requires technology, infrastructure, and operations that function together cohesively on the surface of the Moon. To accelerate the development of key lunar surface systems and reduce risk, NA…",
+      "ts": 1782744988000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Agent confidence on the technical frontier",
+      "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
+      "summary": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and te…",
+      "ts": 1782744241000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Discovering the Universe – Astrophysics Flagship Space Observatories Offer Insights to Key Questions",
+      "url": "https://spacenews.com/discovering-the-universe-astrophysics-flagship-space-observatories-offer-insights-to-key-questions/",
+      "summary": "From observing distant galaxies to exploring exoplanets and their atmospheres, BAE Systems enables cutting-edge technology to expand our knowledge of the universe. As a major partner in each of NASA’s […] The post Discov…",
+      "ts": 1782743277000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "This Month at ESA: June 2026",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/This_Month_at_ESA_June_2026",
+      "summary": "Video: 00:03:15 What did space have in store for Europe this month? This June, ESA astronaut Luca Parmitano was named pilot of NASA's Artemis III mission, Ariane 6 set a new European launch record, Proba-3 returned to op…",
+      "ts": 1782741600000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Talawar bets bispecific approach can shake up eczema market",
@@ -17,6 +129,14 @@
       "summary": "The search for affordability wins is leading U.S. senators back to capping the cost of insulin at $35 in the private insurance market and for the uninsured",
       "ts": 1782738455000,
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Sentinel-1 shows ground displacement after Venezuela earthquakes",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Sentinel-1_shows_ground_displacement_after_Venezuela_earthquakes",
+      "summary": "Image: The map is an interferogram derived from the comparison of Sentinel-1 data on two dates: on the 18 June before the earthquakes and on 25 June a day after.",
+      "ts": 1782738000000,
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -57,6 +177,30 @@
       "summary": "Agentic AI will allow laboratories to move beyond traditional monitoring and reactive troubleshooting toward proactive actions that help prevent issues before they impact performance, quality, or scientific outcomes. The…",
       "ts": 1782734404000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Middle East conflict leaves developing countries paying the price",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167831",
+      "summary": "With another weekend of strikes involving the United States and Iran, renewed diplomatic efforts on Monday have eased immediate fears of escalation, but the economic shockwaves are already taking a heavy toll on some of …",
+      "ts": 1782734400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Spotlight on Israeli settlements in occupied Palestinian territory",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167830",
+      "summary": "Israeli settlement activities in occupied Palestinian territory, declared illegal under a decade-old resolution, are under the spotlight at the Security Council’s open meeting at 10am local time on Monday, with updates f…",
+      "ts": 1782734400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela quake: Search goes on for survivors amid ‘impossible odds’",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167829",
+      "summary": "Emergency response teams pressed on with their lifesaving mission in Venezuela on Monday as countless local responders and families continued their search for missing relatives “against impossible odds”, five days since …",
+      "ts": 1782734400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -137,6 +281,14 @@
       "summary": "The hospital operator Nutex enriched itself by exploiting loopholes in laws meant to protect patients, STAT found.",
       "ts": 1782721800000,
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Hosts Global Conference on Nuclear Installation Safety",
+      "url": "http://www.iaea.org/newscenter/news/iaea-hosts-global-conference-on-nuclear-installation-safety",
+      "summary": "",
+      "ts": 1782719404000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "OpenAI",
@@ -569,158 +721,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica…",
       "ts": 1782475800000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Circio’s circVec and Tcelltech’s nanoSMAR Technologies Combined to Generate Nextgen In vivo CAR-T and TCR-T Cells",
-      "url": "https://www.genengnews.com/topics/bioprocessing/circios-circvec-and-tcelltechs-nanosmar-technologies-combined-to-generate-nextgen-in-vivo-car-t-and-tcr-t-cells/",
-      "summary": "Circio and Tcelltech will combine Circio's circVec circular RNA expression technology with Tcelltech's non-viral, high-cargo capacity nanoSMAR vector platform and evaluate the combination in engineered T cells through st…",
-      "ts": 1782475229000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Starlink veterans launch startup to broaden megaconstellation ownership",
-      "url": "https://spacenews.com/starlink-veterans-launch-startup-to-broaden-megaconstellation-ownership/",
-      "summary": "Former SpaceX engineers who helped build and scale Starlink have launched a startup aiming to deliver megaconstellations for governments and companies seeking more control over space-based infrastructure. The post Starli…",
-      "ts": 1782475200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN envoy urges parties to ‘stay the course’ towards peace in eastern DR Congo",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167824",
-      "summary": "The new head of the UN mission in the Democratic Republic of the Congo (DRC) has urged parties to the peace processes for the volatile eastern region to maintain momentum and fully implement their commitments.",
-      "ts": 1782475200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Violence displaces thousands in Haiti and Lebanon, Gaza updates, UN food agency delivers in Ebola-stricken DR Congo",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167823",
-      "summary": "More than 2,600 people were displaced in the Artibonite department of Haiti following clashes between armed groups last week as the humanitarian situation continues to worsen, according to the UN’s Office for the Coordin…",
-      "ts": 1782475200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan: Window is closing to prevent wider escalation in El Obeid",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167821",
-      "summary": "A senior United Nations official warned on Friday that the opportunity to prevent a major escalation in the Sudanese city of El Obeid is “rapidly narrowing” as fighting intensifies in and around the North Kordofan state …",
-      "ts": 1782475200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Guterres urges renewed commitment to multilateralism on UN Charter Day",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167820",
-      "summary": "Secretary-General António Guterres and General Assembly President Annalena Baerbock reaffirmed the principles outlined in the UN Charter and called for a renewed commitment to multilateralism at a General Assembly meetin…",
-      "ts": 1782475200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Strait of Hormuz: UN evacuates 2,500 seafarers before attack freezes rescue operation",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167818",
-      "summary": "The United Nations’ maritime agency said on Friday that it had successfully evacuated about 2,500 stranded seafarers from the Persian Gulf before suspending the operation, after an attack on a commercial vessel exposed u…",
-      "ts": 1782475200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Global drug use reaches record high as increasingly potent synthetic drugs spread",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167817",
-      "summary": "More people are using drugs than ever before, while synthetic substances are reshaping illicit markets and exposing vulnerable communities to greater health risks, according to the UN World Drug Report 2026, released on …",
-      "ts": 1782475200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Deaths in US immigration custody must be investigated: UN rights chief",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167816",
-      "summary": "UN High Commissioner for Human Rights Volker Türk on Friday called for stronger independent oversight of the United States immigration detention system and investigations into all deaths in US Immigration and Customs Enf…",
-      "ts": 1782475200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela earthquakes LIVE: Death toll rises amid recovery and rescue efforts",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167815",
-      "summary": "Nearly seven million Venezuelans could be affected by this week’s double earthquakes as the death toll rises to at least 235 people amid massive, growing needs and ongoing emergency search and rescue efforts, UN agencies…",
-      "ts": 1782475200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela quake: ‘People still terrified to re-enter what were their homes’",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167814",
-      "summary": "Aid agencies on Friday highlighted massive needs across Venezuela caused by a double earthquake disaster that has killed at least 235 people so far, with search and rescue for people trapped under the rubble still the to…",
-      "ts": 1782475200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "ISS repair spacewalk highlights concerns about station health",
-      "url": "https://spacenews.com/iss-repair-spacewalk-highlights-concerns-about-station-health/",
-      "summary": "NASA astronauts on the International Space Station are preparing for a spacewalk to repair a robotic arm as advisers raise concerns about the long-term health of the station and spacesuits. The post ISS repair spacewalk …",
-      "ts": 1782475073000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Supreme Court rules in weedkiller cancer case",
-      "url": "https://www.statnews.com/2026/06/26/health-news-supreme-court-rules-in-weedkiller-roundup-cancer-case/?utm_campaign=rss",
-      "summary": "Dems want to unmask Eli Lilly's obesity drug user, a new genome-editing tool raises ethics questions, and more health news",
-      "ts": 1782474070000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Director General in Japan Supporting Nuclear Energy, Safety and Cancer Care",
-      "url": "http://www.iaea.org/newscenter/news/iaea-director-general-in-japan-supporting-nuclear-energy-safety-and-cancer-care",
-      "summary": "IAEA Director General Rafael Mariano Grossi visited Japan this week to strengthen cooperation in nuclear energy, safety, environmental remediation, and cancer care.",
-      "ts": 1782473405000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Workshop on Stakeholder Engagement for SMRs Tackles Challenges",
-      "url": "http://www.iaea.org/newscenter/news/iaea-workshop-on-stakeholder-engagement-for-smrs-tackles-challenges",
-      "summary": "",
-      "ts": 1782472753000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Europe’s next security challenge is in orbit",
-      "url": "https://spacenews.com/europes-next-security-challenge-is-in-orbit/",
-      "summary": "Across the European Union, satellite navigations alone is thought to underpin more than 10% of GDP. Satellite-dependent activity on the whole is responsible for much more. According to INSEE and […] The post Europe’s nex…",
-      "ts": 1782471600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "ts": 1782468000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
-      "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
-      "summary": "It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the weather app on my phone confi…",
-      "ts": 1782464400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "What is pulmonary hypertension and why would a new GLP-1 help?",
-      "url": "https://www.statnews.com/2026/06/26/what-is-pulmonary-hypertension-and-would-glp-1-help/?utm_campaign=rss",
-      "summary": "A report about unusual access to an experimental obesity drug has raised interest in the condition pulmonary hypertension.",
-      "ts": 1782462600000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
