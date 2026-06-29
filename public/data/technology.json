@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-06-29T09:28:27.393Z",
+  "updated": "2026-06-29T14:07:00.701Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Talawar bets bispecific approach can shake up eczema market",
+      "url": "https://www.statnews.com/2026/06/29/biotech-news-talawar-bets-bispecific-approach-for-eczema/?utm_campaign=rss",
+      "summary": "Moderna still bullish on mRNA, Ipsen's acquisition of Kartos, and more biotech news from The Readout",
+      "ts": 1782741168000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a broader $35 insulin cap, a former FDA cancer drug chief, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/06/29/insulin-cap-revival-former-fda-cancer-drug-chief/?utm_campaign=rss",
+      "summary": "The search for affordability wins is leading U.S. senators back to capping the cost of insulin at $35 in the private insurance market and for the uninsured",
+      "ts": 1782738455000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Quantum computing is about to become a national security problem in orbit",
+      "url": "https://spacenews.com/quantum-computing-is-about-to-become-a-national-security-problem-in-orbit/",
+      "summary": "Quantum computing is advancing fast, and nations are racing to field the first machines powerful enough to break modern encryption. This race has direct consequences for the commercial space industry, […] The post Quantu…",
+      "ts": 1782738000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rocket Lab to acquire Iridium",
+      "url": "https://spacenews.com/rocket-lab-to-acquire-iridium/",
+      "summary": "Rocket Lab is acquiring satellite telecommunications company Iridium for $8 billion as part of its effort to become an end-to-end space company. The post Rocket Lab to acquire Iridium appeared first on SpaceNews.",
+      "ts": 1782735049000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: metric weaknesses and AI elephant warnings",
+      "url": "https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-ai-elephant-warnings/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The inevitable weakness of metrics There are plenty of useful things a metric can …",
+      "ts": 1782735000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "What’s next for 988 LGBTQ+ services?",
+      "url": "https://www.statnews.com/2026/06/29/health-news-whats-next-for-988-lgbtq-services/?utm_campaign=rss",
+      "summary": "Private ERs, pulmonary hypertension, and other health news from Morning Rounds",
+      "ts": 1782734682000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Tecan Integrates Agentic AI Into Its Introspect Lab Analytics Platform",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/tecan-integrates-agentic-ai-into-its-introspect-lab-analytics-platform/",
+      "summary": "Agentic AI will allow laboratories to move beyond traditional monitoring and reactive troubleshooting toward proactive actions that help prevent issues before they impact performance, quality, or scientific outcomes. The…",
+      "ts": 1782734404000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SatVu restarts commercial operations with HotSat-2",
+      "url": "https://spacenews.com/satvu-restarts-commercial-operations-with-hotsat-2/",
+      "summary": "British thermal imaging startup SatVu announced the start of commercial services June 29 for HotSat-2, marking a return to revenue-generating operations after its debut satellite failed in low Earth orbit in 2023. The po…",
+      "ts": 1782731502000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
+      "url": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+      "summary": "Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. government agencies. Open source soft…",
+      "ts": 1782730778000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "Craft Prospect selected for The Sunday Times Scotland Fast 50",
@@ -65,6 +137,14 @@
       "summary": "The hospital operator Nutex enriched itself by exploiting loopholes in laws meant to protect patients, STAT found.",
       "ts": 1782721800000,
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "ts": 1782716400000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -251,6 +331,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "Nature Energy",
+      "title": "The interplay between stack pressure, mechanical expansion and degradation pathways in lithium-ion batteries",
+      "url": "https://www.nature.com/articles/s41560-026-02087-6",
+      "summary": "",
+      "ts": 1782691200000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Insilico, SK Launch Up-to-$2.5B Neuroimmune AI Drug Collaboration",
       "url": "https://www.genengnews.com/topics/artificial-intelligence/insilico-sk-launch-up-to-2-5b-neuroimmune-ai-drug-collaboration/",
@@ -265,6 +353,14 @@
       "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
       "ts": 1782666000000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela earthquakes leave 680,000 children in need of assistance: UNICEF",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167826",
+      "summary": "Some 680,000 children are among the 1.8 million people in need of humanitarian assistance following the earthquakes that struck Venezuela on 24 June, the UN child rights agency UNICEF reported on Sunday as rescue efforts…",
+      "ts": 1782648000000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -624,102 +720,6 @@
       "url": "https://www.statnews.com/2026/06/26/what-is-pulmonary-hypertension-and-would-glp-1-help/?utm_campaign=rss",
       "summary": "A report about unusual access to an experimental obesity drug has raised interest in the condition pulmonary hypertension.",
       "ts": 1782462600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Joseph Fraumeni Jr., pioneering cancer genetics researcher, devoted his life to families like mine",
-      "url": "https://www.statnews.com/2026/06/26/joseph-fraumeni-li-syndrome-hereditary-cancer-obituary/?utm_campaign=rss",
-      "summary": "“They don't make many like Joe Fraumeni anymore,” writes Lawrence Ingrassia, author of “A Fatal Inheritance.”",
-      "ts": 1782462600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: ‘The Hot Zone’ led me to work with Ebola patients. Now I have mixed feelings about the book",
-      "url": "https://www.statnews.com/2026/06/26/the-hot-zone-richard-preston-ebola-narrative/?utm_campaign=rss",
-      "summary": "“The reality of Ebola is simultaneously less sensational and far more challenging than most people imagine,” writes Krutika Kuppalli.",
-      "ts": 1782462600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Jails are the frontline in fielding dangerous new type of drug withdrawal",
-      "url": "https://www.statnews.com/2026/06/26/medetomidine-opioid-withdrawal-crisis-jails/?utm_campaign=rss",
-      "summary": "Medetomidine-laced opioids cause severe, life-threatening withdrawal in jails. Here's why many facilities remain ill-equipped to treat a growing crisis.",
-      "ts": 1782462600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Cave training lab",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Cave_training_lab",
-      "summary": "Image: Cave training lab",
-      "ts": 1782462060000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Desert cropland",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Desert_cropland",
-      "summary": "Image: These Copernicus Sentinel-2 images show agricultural development in the desert of southern Egypt, close to the border with Sudan.",
-      "ts": 1782460800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "The Battle for Sullivan’s Island",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-battle-for-sullivans-island/",
-      "summary": "Marshy, sandy terrain and an impassable inlet helped colonial forces repel British forces during a pivotal battle on the barrier island near Charleston, South Carolina, on June 28, 1776.",
-      "ts": 1782446400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sensitivity of evolutionary entropy in Lefkovitch matrices",
-      "url": "https://arxiv.org/abs/2606.26170",
-      "summary": "arXiv:2606.26170v1 Announce Type: new Abstract: Evolutionary entropy, introduced by Demetrius, is a demographic invariant that quantifies the temporal organization of structured populations. Explicit sensitivity expressi…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An Investigation of Additional Food Models with Generalised Functional Response",
-      "url": "https://arxiv.org/abs/2606.26340",
-      "summary": "arXiv:2606.26340v1 Announce Type: new Abstract: Additional food sources are often used to improve the effectiveness of predators in controlling pest populations. However, the non-symmetric structure of additional food pr…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Smoothly Time-Varying Continuous Time Markov Chains in Phylogenetics",
-      "url": "https://arxiv.org/abs/2606.26402",
-      "summary": "arXiv:2606.26402v1 Announce Type: new Abstract: The dependence of evolutionary rate estimates on the timeframe of sampling poses a fundamental challenge for reconstructing evolutionary histories from molecular sequence d…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Closing the Loop to Discover Psychological Theories with an Automated Cognitive Scientist",
-      "url": "https://arxiv.org/abs/2606.26448",
-      "summary": "arXiv:2606.26448v1 Announce Type: new Abstract: Across the sciences, autonomous systems are increasingly being used in closed-loop discovery, proposing new theories and designing and running experiments to test them. Thi…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "scBench-Long: Verifiable Benchmarking of Long-Horizon Single-Cell Biology",
-      "url": "https://arxiv.org/abs/2606.26563",
-      "summary": "arXiv:2606.26563v1 Announce Type: new Abstract: Single-cell studies require analysts to convert raw measurements into specific biological claims through multi-step workflows and integration of metadata, assay context, an…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Budget-Constrained Compound Library Prioritization with Risk Awareness and Uncertainty Quantification",
-      "url": "https://arxiv.org/abs/2606.26624",
-      "summary": "arXiv:2606.26624v1 Announce Type: new Abstract: Early discovery projects often face a budgeted prioritization problem: many structures can be enumerated or purchased, but only a small fraction can be tested, reviewed, or…",
-      "ts": 1782446400000,
       "categoryId": "bio"
     }
   ],
