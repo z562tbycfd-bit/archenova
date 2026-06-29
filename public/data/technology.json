@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-06-29T04:11:47.836Z",
+  "updated": "2026-06-29T09:28:27.393Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Craft Prospect selected for The Sunday Times Scotland Fast 50",
+      "url": "https://spacenews.com/craft-prospect-selected-for-the-sunday-times-scotland-fast-50/",
+      "summary": "(Glasgow, UK) Glasgow-based space engineering company Craft Prospect has been selected for inclusion in the inaugural edition of The Sunday Times Scotland Fast 50, a new annual list recognising some […] The post Craft Pr…",
+      "ts": 1782723600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "China establishes VLEO industry alliance as satellites demonstrate sustained low-orbit operations",
+      "url": "https://spacenews.com/china-establishes-vleo-industry-alliance-as-satellites-demonstrate-sustained-low-orbit-operations/",
+      "summary": "HELSINKI — China has established a national very low Earth orbit industry alliance, as multiple satellites demonstrate sustained operations below 300 kilometers and propulsion startups attract investment. China establish…",
+      "ts": 1782723192000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Moderna co-founder Kenneth Chien on the future of mRNA — and Moderna ",
+      "url": "https://www.statnews.com/2026/06/29/moderna-founder-kenneth-chien-on-cancer-vaccine-and-mrna-future/?utm_campaign=rss",
+      "summary": "In a Q&A, Kenneth Chien, no longer with Moderna, predicts the company's mRNA cancer vaccine will be transformative for biotech.",
+      "ts": 1782721800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Investor Clive Meanwell on designing biotechs for population health, and AI’s role as a catalyst",
+      "url": "https://www.statnews.com/2026/06/29/clive-meanwell-population-health-partners-on-ai-biotech/?utm_campaign=rss",
+      "summary": "Clive Meanwell, chairman of investment firm Population Health Partners, was an AI skeptic until recently. Now, he thinks it's a catalyst.",
+      "ts": 1782721800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Sword Health contracted to provide AI-supported physical therapy for an entire country",
+      "url": "https://www.statnews.com/2026/06/29/sword-health-portugal-deal-ai-supported-physical-therapy/?utm_campaign=rss",
+      "summary": "Portugal's National Health Service signed a deal with digital health company Sword for its AI-assisted virtual physical therapy care.",
+      "ts": 1782721800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: The U.S.-China biotech crackdown may hurt the scientists America needs the most",
+      "url": "https://www.statnews.com/2026/06/29/china-biotech-perpetual-foreigner-chinese-american-scientists/?utm_campaign=rss",
+      "summary": "“There is a difference between a policy based on evidence and a broad legislative response that targets China-origin entities as inherently suspicious,” writes Brian Yang.",
+      "ts": 1782721800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Banning gender-affirming care doesn’t protect children — it makes it harder to help them",
+      "url": "https://www.statnews.com/2026/06/29/gender-affirming-care-trans-youth-plastic-surgeons-statement/?utm_campaign=rss",
+      "summary": "“Physician groups betraying the public’s trust out of fear of government retaliation has permanent consequences,” writes a plastic surgeon.",
+      "ts": 1782721800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The ERs that can turn patients away — and are reaping millions",
+      "url": "https://www.statnews.com/2026/06/29/nutex-health-micro-hospitals-er-loophole-idr-profits/?utm_campaign=rss",
+      "summary": "The hospital operator Nutex enriched itself by exploiting loopholes in laws meant to protect patients, STAT found.",
+      "ts": 1782721800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AI scientist company Edison Scientific tapped by team behind Metsera to create new biotechs",
+      "url": "https://www.statnews.com/2026/06/29/edison-scientific-population-health-partners-deal-to-create-new-biotechs/?utm_campaign=rss",
+      "summary": "Edison Scientific and investment firm Population Health Partners are teaming up to leverage AI agents in drug discovery and development.",
+      "ts": 1782707400000,
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "GRAFT: Biological Graph and Hypergraph Benchmarks for Linked Gene Expression and Phenotypic Trait Prediction in Arabidopsis thaliana",
@@ -647,78 +719,6 @@
       "title": "Budget-Constrained Compound Library Prioritization with Risk Awareness and Uncertainty Quantification",
       "url": "https://arxiv.org/abs/2606.26624",
       "summary": "arXiv:2606.26624v1 Announce Type: new Abstract: Early discovery projects often face a budgeted prioritization problem: many structures can be enumerated or purchased, but only a small fraction can be tested, reviewed, or…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "pVACtools v6: A comprehensive suite for neoantigen prediction, visualization, and therapy design",
-      "url": "https://arxiv.org/abs/2606.26659",
-      "summary": "arXiv:2606.26659v1 Announce Type: new Abstract: With the rise of checkpoint blockade therapies and neoantigen-based vaccines reaching later-stage trials, there is a growing need for computational tools to identify and pr…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Semialgebraic Conditions for Identifying Triangles in Phylogenetic Networks",
-      "url": "https://arxiv.org/abs/2606.26673",
-      "summary": "arXiv:2606.26673v1 Announce Type: new Abstract: An important consideration for a model-based method of phylogenetic network inference is the identifiability of the network parameter of the model. A recurring theme in pre…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On-farm management strategies for reducing H5N1 transmission in dairy cattle",
-      "url": "https://arxiv.org/abs/2606.26674",
-      "summary": "arXiv:2606.26674v1 Announce Type: new Abstract: Introductions of H5N1 clade 2.3.4.4b into dairy cattle have resulted in outbreaks on dairy farms across the United States since early-2024. Outbreaks have significant conse…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Surviving by Serving: Functional Relevance Drives Self-Organization in Complex Adaptive Systems",
-      "url": "https://arxiv.org/abs/2606.26733",
-      "summary": "arXiv:2606.26733v1 Announce Type: new Abstract: Complex adaptive systems often develop organized structures without centralized control. Yet the local mechanisms by which functional organization emerges and persists rema…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hyperiax and Phylogenetic Inference from Shape Data",
-      "url": "https://arxiv.org/abs/2606.26974",
-      "summary": "arXiv:2606.26974v1 Announce Type: new Abstract: Phylogenetic inference on high-dimensional morphological traits requires algorithms that account for both the nonlinear geometry of the shape data and the phylogenetic tree…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Deep learning model emulators for marine biogeochemistry forecasting from days to decades",
-      "url": "https://arxiv.org/abs/2606.27168",
-      "summary": "arXiv:2606.27168v1 Announce Type: new Abstract: Deep-learning emulators have emerged as a promising approach for reducing the computational cost of Earth System Models while potentially improving forecasting skill. Here,…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Implementation of reinforcement learning in chemical reaction networks: application to phototaxis as curiosity-driven exploration",
-      "url": "https://arxiv.org/abs/2606.26168",
-      "summary": "arXiv:2606.26168v1 Announce Type: cross Abstract: Living systems navigate environments using noisy and incomplete sensory signals. In unicellular algae, phototaxis is often modeled as a mechanistic run--tumble process dr…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "KG-TRACE: A Neuro-Symbolic Framework for Mechanistic Grounding in Antimicrobial Resistance Prediction",
-      "url": "https://arxiv.org/abs/2606.26179",
-      "summary": "arXiv:2606.26179v1 Announce Type: cross Abstract: While WGS-based AMR prediction has reached high accuracy, existing models lack a mechanism to ground neural attributions in established biological pathways. We present KG…",
-      "ts": 1782446400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beyond Single-Source Cognitive Taskonomy:Multi-Source Task Relations through fMRI Transfer Learning",
-      "url": "https://arxiv.org/abs/2606.26279",
-      "summary": "arXiv:2606.26279v1 Announce Type: cross Abstract: Cognitive tasks are organized by shared and specialized neural processes. Masked fMRI reconstruction provides a common self-supervised objective for quantifying transfer …",
       "ts": 1782446400000,
       "categoryId": "bio"
     }

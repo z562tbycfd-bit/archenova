@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-29T04:11:43.623Z",
+  "updated": "2026-06-29T09:28:23.607Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Toward experiment-guided AlphaFold: Researchers overcome AI tool's single-conformation limitation",
+      "url": "https://phys.org/news/2026-06-alphafold-ai-tool-conformation-limitation.html",
+      "summary": "The AI-based program AlphaFold predicts a protein's 3D structure with remarkable accuracy. However, it tends to reduce heterogeneous structures to a single dominant conformation, or shape, and overlooks experimental cond…",
+      "ts": 1782723601000
+    },
     {
       "source": "Phys.org",
       "title": "The order of species loss alters how grasslands maintain stability, study finds",
@@ -693,13 +700,6 @@
       "title": "How Withheld Punishment Enables Authoritarian Persistence: An Evolutionary Dynamics Approach",
       "url": "https://arxiv.org/abs/2512.06245",
       "summary": "arXiv:2512.06245v3 Announce Type: replace Abstract: Democratic backsliding is often framed as a contest between pro-democratic defenders and anti-institutional norm-breakers. That framing can miss a third behavior, a pub…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantitative mobile gamma-ray spectrometry through Bayesian inference",
-      "url": "https://arxiv.org/abs/2512.18769",
-      "summary": "arXiv:2512.18769v4 Announce Type: replace Abstract: Accurate quantitative mapping of gamma-ray sources is critical for applications ranging from radiological emergency response and environmental monitoring to nuclear sec…",
       "ts": 1782705600000
     }
   ],
