@@ -19204,3 +19204,61 @@ font-size:1.7rem;
     opacity: 1;
   }
 }
+
+
+
+/* ==========================================================
+   Orbit Engine Mobile Card Clipping Fix
+   Origin / Imperial House / Foundation
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .origin-orbit-page,
+  .imperial-orbit-page,
+  .foundation-orbit-page {
+    overflow: visible !important;
+  }
+
+  .origin-orbit-page .civ-orbit-stage,
+  .imperial-orbit-page .civ-orbit-stage,
+  .foundation-orbit-page .civ-orbit-stage {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: visible !important;
+    padding-inline: 0 !important;
+  }
+
+  .origin-orbit-page .civ-orbit-node,
+  .imperial-orbit-page .civ-orbit-node,
+  .foundation-orbit-page .civ-orbit-node {
+    width: min(72vw, 280px) !important;
+    max-width: 280px !important;
+    margin: 0.85rem auto !important;
+    overflow: visible !important;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner,
+  .imperial-orbit-page .civ-orbit-node-inner,
+  .foundation-orbit-page .civ-orbit-node-inner {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+
+    padding: 0.95rem 1rem !important;
+    border-radius: 22px !important;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner strong,
+  .imperial-orbit-page .civ-orbit-node-inner strong,
+  .foundation-orbit-page .civ-orbit-node-inner strong {
+    font-size: 1.18rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner p,
+  .imperial-orbit-page .civ-orbit-node-inner p,
+  .foundation-orbit-page .civ-orbit-node-inner p {
+    font-size: 0.78rem !important;
+    line-height: 1.45 !important;
+  }
+}
