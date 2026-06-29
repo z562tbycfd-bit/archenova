@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-06-28T23:21:10.534Z",
+  "updated": "2026-06-29T00:10:40.826Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Lost megalodon vertebrae resurface, confirming 80-foot size estimate",
+      "url": "https://phys.org/news/2026-06-lost-megalodon-vertebrae-resurface-foot.html",
+      "summary": "An associated set of gigantic vertebrae belonging to the iconic extinct megalodon, or megatooth shark, that had been missing in action since the 1980s was discovered, providing new information about the shark's lifestyle…",
+      "ts": 1782691801000
+    },
     {
       "source": "Phys.org",
       "title": "Human activity has driven retreat of Antarctica's fastest melting glacier",
@@ -693,13 +700,6 @@
       "title": "Superbunching from Coherently Driven Atoms in a Waveguide",
       "url": "http://link.aps.org/doi/10.1103/6fcg-2zns",
       "summary": "Author(s): Zeidan Zeidan, Therese Karmstrand, Maryam Khanahmadi, and Göran Johansson We investigate the scattered field from $N$ identical two-level atoms resonantly driven by a weak coherent field in a one-dimensional w…",
-      "ts": 1782468000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
-      "url": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
-      "summary": "Author(s): Zhen Cao et al. (LHAASO Collaboration) A solar storm hitting Earth appears to have reduced the amount of incoming high-energy cosmic rays, suggesting a new way of measuring solar activity. [Phys. Rev. Lett. 13…",
       "ts": 1782468000000
     }
   ],

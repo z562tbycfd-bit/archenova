@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-06-28T23:21:17.070Z",
+  "updated": "2026-06-29T00:10:49.115Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -9,6 +9,14 @@
       "summary": "Insilico agreed to apply its Pharma.AI platform, which addresses target validation, generative chemistry, and molecule optimization, along with its preclinical drug discovery expertise to discover, design, and optimize c…",
       "ts": 1782677849000,
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "ts": 1782666000000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "United Nations News",
@@ -712,14 +720,6 @@
       "url": "https://www.statnews.com/2026/06/25/acip-charter-responsibilities-rfk-jr/?utm_campaign=rss",
       "summary": "A new charter for the panel that advises the CDC on vaccine use substantially refocuses the responsibilities of the committee, downplaying its role in recommending the use of new vaccines.",
       "ts": 1782418540000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: At BIO 2026, industry wrestled with Washington politics, and making AI work better",
-      "url": "https://www.statnews.com/2026/06/25/bio-2026-biotech-conference-san-diego-key-takeaways/?utm_campaign=rss",
-      "summary": "Biotech executives reveal concerns over Chinese biotech, the profitability of AI, and the durability of Trump's drug price moves.",
-      "ts": 1782415166000,
       "categoryId": "bio"
     }
   ],

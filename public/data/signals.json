@@ -1,7 +1,32 @@
 {
   "ok": true,
-  "updated": "2026-06-28T23:21:17.097Z",
+  "updated": "2026-06-29T00:10:49.142Z",
   "items": [
+    {
+      "id": "civilization-engineering-lost-megalodon-vertebrae-resurface-confirming-80-foot-size-estimate",
+      "title": "Lost megalodon vertebrae resurface, confirming 80-foot size estimate",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-06-lost-megalodon-vertebrae-resurface-foot.html",
+      "category": "Civilization Engineering",
+      "observation": "An associated set of gigantic vertebrae belonging to the iconic extinct megalodon, or megatooth shark, that had been missing in action since the 1980s was discovered, providing new information about the shark's lifestyle…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Lost megalodon vertebrae resurface, confirming 80-foot size estimate should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1782691801000
+    },
     {
       "id": "adaptive-capacity-human-activity-has-driven-retreat-of-antarctica-s-fastest-melting-glacier",
       "title": "Human activity has driven retreat of Antarctica's fastest melting glacier",
@@ -253,6 +278,31 @@
       "ts": 1782666001000
     },
     {
+      "id": "civilization-engineering-hp-inc-launches-frontier-strategic-partnership-with-openai",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "source": "OpenAI",
+      "originalUrl": "https://openai.com/index/hp-frontier-partnership",
+      "category": "Civilization Engineering",
+      "observation": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "HP Inc. launches Frontier strategic partnership with OpenAI should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.7,
+        "infrastructureImpact": 6.7,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.6
+      },
+      "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+      "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+      "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+      "civilizationFunction": "Civilization Engineering",
+      "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "ts": 1782666000000
+    },
+    {
       "id": "civilization-engineering-better-unemployment-welfare-could-curb-rise-of-populism",
       "title": "Better unemployment welfare could curb rise of populism",
       "source": "Phys.org",
@@ -501,31 +551,6 @@
       "civilizationFunction": "Reality Discovery",
       "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
       "ts": 1782648001000
-    },
-    {
-      "id": "adaptive-capacity-climate-change-to-blame-for-intensity-of-europe-heat-wave-scientists",
-      "title": "Climate change to blame for intensity of Europe heat wave: Scientists",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-06-climate-blame-intensity-europe-scientists.html",
-      "category": "Adaptive Capacity",
-      "observation": "Human-caused climate change is \"unequivocally\" responsible for the intensity of a record-breaking heat wave scorching Europe, scientists said Friday.",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Climate change to blame for intensity of Europe heat wave: Scientists should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
-      "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
-      "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
-      "civilizationFunction": "Adaptive Capacity",
-      "watchpoint": "Watch whether this moves from observation into decision systems, infrastructure adaptation, governance response, and measurable resilience outcomes.",
-      "ts": 1782642001000
     },
     {
       "id": "civilization-engineering-wild-tomato-genome-assemblies-reveal-structural-variants-and-repeat-content-act-",
@@ -1978,6 +2003,31 @@
       "ts": 1782471600000
     },
     {
+      "id": "synchronization-systems-previewing-gpt-5-6-sol-a-next-generation-model",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "source": "OpenAI",
+      "originalUrl": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "category": "Synchronization Systems",
+      "observation": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "implication": "This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
+      "commentary": "Previewing GPT-5.6 Sol: a next-generation model should not be interpreted only as a news item. From the ArcheNova perspective, it is a Synchronization Systems signal: This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
+      "score": {
+        "realityDiscovery": 5.9,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 6.5,
+        "synchronizationImpact": 8.8,
+        "adaptiveCapacity": 6.4,
+        "civilizationImpact": 7,
+        "overall": 6.6
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Synchronization Systems",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1782468000000
+    },
+    {
       "id": "reality-discovery-dissipative-phase-transition-of-interacting-nonreciprocal-fermions",
       "title": "Dissipative Phase Transition of Interacting Nonreciprocal Fermions",
       "source": "APS Physical Review Letters",
@@ -2074,56 +2124,6 @@
       "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
       "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
       "civilizationFunction": "Civilization Engineering",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1782468000000
-    },
-    {
-      "id": "reality-discovery-transient-large-scale-anisotropy-in-tev-cosmic-rays-due-to-an-interplanetary-cor",
-      "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
-      "source": "APS Physical Review Letters",
-      "originalUrl": "http://link.aps.org/doi/10.1103/mkk2-hbq5",
-      "category": "Reality Discovery",
-      "observation": "Author(s): Zhen Cao et al. (LHAASO Collaboration) A solar storm hitting Earth appears to have reduced the amount of incoming high-energy cosmic rays, suggesting a new way of measuring solar activity. [Phys. Rev. Lett. 13…",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 9.1,
-        "capabilityExpansion": 6,
-        "infrastructureImpact": 6,
-        "synchronizationImpact": 5.9,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.6,
-        "overall": 6.6
-      },
-      "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-      "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-      "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-      "civilizationFunction": "Reality Discovery",
-      "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "ts": 1782468000000
-    },
-    {
-      "id": "synchronization-systems-previewing-gpt-5-6-sol-a-next-generation-model",
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "source": "OpenAI",
-      "originalUrl": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "category": "Synchronization Systems",
-      "observation": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "implication": "This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
-      "commentary": "Previewing GPT-5.6 Sol: a next-generation model should not be interpreted only as a news item. From the ArcheNova perspective, it is a Synchronization Systems signal: This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 6.5,
-        "synchronizationImpact": 8.8,
-        "adaptiveCapacity": 6.4,
-        "civilizationImpact": 7,
-        "overall": 6.6
-      },
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Synchronization Systems",
       "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
       "ts": 1782468000000
     },

@@ -3,21 +3,6 @@ export const senateAgenda =
   {
     "id": "agenda-1",
     "rank": 1,
-    "title": "Transient Large-Scale Anisotropy in TeV Cosmic Rays due to an Interplanetary Coronal Mass Ejection",
-    "slug": "energy-transient-large-scale-anisotropy-in-tev-cosmic-rays-due-to-an-interplanetary-cor",
-    "category": "Energy",
-    "source": "APS Physical Review Letters",
-    "score": 9.8,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-2",
-    "rank": 2,
     "title": "Rocket Lab launches 10th Synspective satellite",
     "slug": "space-rocket-lab-launches-10th-synspective-satellite",
     "category": "Space",
@@ -31,8 +16,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-3",
-    "rank": 3,
+    "id": "agenda-2",
+    "rank": 2,
     "title": "Starlink veterans launch startup to broaden megaconstellation ownership",
     "slug": "ai-starlink-veterans-launch-startup-to-broaden-megaconstellation-ownership",
     "category": "AI",
@@ -46,8 +31,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-4",
-    "rank": 4,
+    "id": "agenda-3",
+    "rank": 3,
     "title": "NASA Tests New Refuel Device for Future In-Space Refueling Missions",
     "slug": "space-nasa-tests-new-refuel-device-for-future-in-space-refueling-missions",
     "category": "Space",
@@ -58,6 +43,21 @@ export const senateAgenda =
     "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "architectureHandoff": "Orbital Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-4",
+    "rank": 4,
+    "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+    "slug": "ai-hp-inc-launches-frontier-strategic-partnership-with-openai",
+    "category": "AI",
+    "source": "OpenAI",
+    "score": 9.4,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Intelligence Infrastructure",
     "status": "Open"
   },
   {

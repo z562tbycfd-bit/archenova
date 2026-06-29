@@ -18851,3 +18851,356 @@ font-size:1.7rem;
   }
 
 }
+
+
+
+
+
+
+/* ==========================================================
+   Imperial House Orbit Theme
+   Quiet convergence / symbolic authority
+   ========================================================== */
+
+.imperial-orbit-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.imperial-orbit-page::before {
+  content: "";
+  position: absolute;
+  inset: -18%;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      circle at 50% 46%,
+      rgba(255, 218, 140, 0.12),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 50% 58%,
+      rgba(255, 255, 255, 0.055),
+      transparent 36%
+    );
+  filter: blur(18px);
+  opacity: 0.9;
+}
+
+.imperial-orbit-page .civ-orbit-engine {
+  position: relative;
+  z-index: 1;
+}
+
+.imperial-orbit-page .civ-orbit-heading {
+  font-weight: 240;
+  letter-spacing: -0.065em;
+}
+
+.imperial-orbit-page .civ-orbit-core {
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.24),
+      rgba(255, 218, 140, 0.12) 44%,
+      rgba(255, 255, 255, 0.04) 68%,
+      transparent 80%
+    );
+  box-shadow:
+    0 0 70px rgba(255, 218, 140, 0.25),
+    0 0 150px rgba(255, 255, 255, 0.08);
+}
+
+.imperial-orbit-page .civ-orbit-ring {
+  border-color: rgba(255, 218, 140, 0.15);
+  opacity: 0.55;
+  animation-timing-function: ease-in-out;
+}
+
+.imperial-orbit-page .civ-orbit-ring-forward,
+.imperial-orbit-page .civ-orbit-ring-reverse {
+  animation-name: imperialRingBreath;
+}
+
+.imperial-orbit-page .civ-orbit-node-inner {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 218, 140, 0.07),
+      rgba(255, 255, 255, 0.035)
+    );
+  border-color: rgba(255, 218, 140, 0.14);
+}
+
+.imperial-orbit-page .civ-orbit-node:hover .civ-orbit-node-inner {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 218, 140, 0.13),
+      rgba(255, 255, 255, 0.055)
+    );
+  box-shadow:
+    0 0 36px rgba(255, 218, 140, 0.18),
+    0 0 80px rgba(255, 255, 255, 0.08);
+}
+
+@keyframes imperialRingBreath {
+  0%,
+  100% {
+    transform: scale(0.985);
+    opacity: 0.38;
+  }
+
+  50% {
+    transform: scale(1.035);
+    opacity: 0.72;
+  }
+}
+
+/* ==========================================================
+   Orbit Engine Mobile Layout Fix
+   prevents card clipping on Origin / Imperial / Foundation
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .origin-orbit-page.home-page,
+  .imperial-orbit-page.home-page,
+  .foundation-orbit-page.home-page {
+    min-height: 100svh;
+    height: auto !important;
+    overflow-y: auto !important;
+    padding-top: 5.25rem !important;
+    padding-bottom: 9.5rem !important;
+  }
+
+  .origin-orbit-page .civ-orbit-engine,
+  .imperial-orbit-page .civ-orbit-engine,
+  .foundation-orbit-page .civ-orbit-engine {
+    width: min(100%, 92vw);
+    padding-bottom: 2rem;
+  }
+
+  .origin-orbit-page .civ-orbit-heading,
+  .imperial-orbit-page .civ-orbit-heading,
+  .foundation-orbit-page .civ-orbit-heading {
+    font-size: 2.45rem;
+    line-height: 0.95;
+    margin: 0.85rem 0 0.9rem;
+  }
+
+  .origin-orbit-page .civ-orbit-lead,
+  .imperial-orbit-page .civ-orbit-lead,
+  .foundation-orbit-page .civ-orbit-lead {
+    max-width: 92%;
+    margin: 0 auto 1.6rem;
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .origin-orbit-page .civ-orbit-stage,
+  .imperial-orbit-page .civ-orbit-stage,
+  .foundation-orbit-page .civ-orbit-stage {
+    min-height: auto !important;
+    padding-bottom: 2.5rem;
+  }
+
+  .origin-orbit-page .civ-orbit-core,
+  .imperial-orbit-page .civ-orbit-core,
+  .foundation-orbit-page .civ-orbit-core {
+    width: 112px;
+    height: 112px;
+    margin-bottom: 1.55rem;
+  }
+
+  .origin-orbit-page .civ-orbit-core span,
+  .imperial-orbit-page .civ-orbit-core span,
+  .foundation-orbit-page .civ-orbit-core span {
+    font-size: 1.85rem;
+  }
+
+  .origin-orbit-page .civ-orbit-core strong,
+  .imperial-orbit-page .civ-orbit-core strong,
+  .foundation-orbit-page .civ-orbit-core strong {
+    font-size: 0.58rem;
+    letter-spacing: 0.18em;
+  }
+
+  .origin-orbit-page .civ-orbit-node,
+  .imperial-orbit-page .civ-orbit-node,
+  .foundation-orbit-page .civ-orbit-node {
+    width: min(76vw, 292px);
+    margin: 0.72rem auto;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner,
+  .imperial-orbit-page .civ-orbit-node-inner,
+  .foundation-orbit-page .civ-orbit-node-inner {
+    min-height: auto;
+    padding: 0.9rem 1rem;
+    border-radius: 19px;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner strong,
+  .imperial-orbit-page .civ-orbit-node-inner strong,
+  .foundation-orbit-page .civ-orbit-node-inner strong {
+    font-size: 1.18rem;
+  }
+
+  .origin-orbit-page .civ-orbit-node-inner p,
+  .imperial-orbit-page .civ-orbit-node-inner p,
+  .foundation-orbit-page .civ-orbit-node-inner p {
+    font-size: 0.78rem;
+    line-height: 1.45;
+  }
+}
+
+
+
+
+/* ==========================================================
+   Imperial House — Imperial Seal
+   ========================================================== */
+
+.imperial-orbit-page .civ-orbit-core {
+  position: relative;
+  overflow: visible;
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.28),
+      rgba(255, 221, 150, 0.15) 38%,
+      rgba(255, 221, 150, 0.055) 64%,
+      transparent 78%
+    );
+  border-color: rgba(255, 221, 150, 0.28);
+  box-shadow:
+    0 0 42px rgba(255, 232, 180, 0.34),
+    0 0 96px rgba(255, 210, 120, 0.2),
+    0 0 180px rgba(255, 255, 255, 0.08);
+  animation: imperialSealBreath 8.5s ease-in-out infinite;
+}
+
+.imperial-orbit-page .civ-orbit-core::before {
+  content: "";
+  position: absolute;
+  inset: -28px;
+  border-radius: 999px;
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 232, 180, 0.26),
+      rgba(255, 210, 120, 0.11) 42%,
+      transparent 72%
+    );
+  filter: blur(18px);
+  opacity: 0.72;
+  animation: imperialSealHalo 10s ease-in-out infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.imperial-orbit-page .civ-orbit-core::after {
+  content: "";
+  position: absolute;
+  inset: -54px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 224, 160, 0.12);
+  box-shadow:
+    inset 0 0 36px rgba(255, 224, 160, 0.08),
+    0 0 54px rgba(255, 224, 160, 0.08);
+  opacity: 0.65;
+  animation: imperialSealOuterPulse 13s ease-in-out infinite;
+  pointer-events: none;
+  z-index: -2;
+}
+
+.imperial-orbit-page .civ-orbit-core span {
+  color: rgba(255, 247, 225, 0.96);
+  text-shadow:
+    0 0 18px rgba(255, 232, 180, 0.5),
+    0 0 42px rgba(255, 210, 120, 0.24);
+}
+
+.imperial-orbit-page .civ-orbit-core strong {
+  color: rgba(255, 247, 225, 0.84);
+}
+
+@keyframes imperialSealBreath {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.92;
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.035);
+    opacity: 1;
+  }
+}
+
+@keyframes imperialSealHalo {
+  0%,
+  100% {
+    opacity: 0.42;
+    transform: scale(0.96);
+  }
+
+  50% {
+    opacity: 0.86;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes imperialSealOuterPulse {
+  0%,
+  100% {
+    opacity: 0.28;
+    transform: scale(0.98);
+  }
+
+  50% {
+    opacity: 0.7;
+    transform: scale(1.04);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .imperial-orbit-page .civ-orbit-core {
+    width: 118px;
+    height: 118px;
+    animation: imperialSealMobileBreath 8s ease-in-out infinite;
+  }
+
+  .imperial-orbit-page .civ-orbit-core::before {
+    inset: -20px;
+    filter: blur(14px);
+  }
+
+  .imperial-orbit-page .civ-orbit-core::after {
+    inset: -36px;
+    opacity: 0.45;
+  }
+
+  .imperial-orbit-page .civ-orbit-core span {
+    font-size: 1.95rem;
+  }
+
+  .imperial-orbit-page .civ-orbit-core strong {
+    font-size: 0.56rem;
+    letter-spacing: 0.18em;
+  }
+}
+
+@keyframes imperialSealMobileBreath {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.92;
+  }
+
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+}

@@ -59,7 +59,7 @@ export default function Home() {
 
               <Link href="#chapter-imperial-house" className="an-card">
                 <strong>Imperial House</strong>
-                <p>Imperial House / Constitution / Core</p>
+                <p>Symbol / Constitution / Core</p>
               </Link>
 
               <Link href="#chapter-governance" className="an-card">
@@ -82,7 +82,7 @@ export default function Home() {
   <Reveal>
     <CivilizationOrbitEngine
       mark="◈"
-      label="ARCHENOVA ORIGIN"
+      label="ARCHENOVA"
       title="Origin"
       lead="Origin connects why ArcheNova exists, what it seeks, what civilization means, and the scale at which it must operate."
       layers={[
@@ -246,131 +246,135 @@ export default function Home() {
 </section>
 
       {/* IMPERIAL HOUSE */}
-      <section
-        id="chapter-imperial-house"
-        data-home-section
-        className="home-page twin-page home-chapter-page imperial-house-page"
+<section
+  id="chapter-imperial-house"
+  data-home-section
+  className="home-page twin-page imperial-orbit-page"
+>
+  <Reveal>
+    <CivilizationOrbitEngine
+      mark="✺"
+      label="symbol"
+      title="Imperial House"
+      lead="Imperial House is the symbolic center of ArcheNova: the Emperor, the Constitution, and the Foundation converge into direction, continuity, and constraint."
+      layers={[
+        { inset: 6, speed: 90, direction: "cw" },
+        { inset: 18, speed: 120, direction: "ccw" },
+        { inset: 30, speed: 160, direction: "cw" },
+      ]}
+      nodes={[
+        {
+          title: "Emperor",
+          subtitle: "Founder symbol",
+          href: "#home-emperor",
+        },
+        {
+          title: "Constitution",
+          subtitle: "Continuity and legitimacy",
+          href: "#home-imperial-constitution",
+        },
+        {
+          title: "Foundation",
+          subtitle: "Shared system constraint",
+          href: "#home-foundation-core",
+        },
+      ]}
+    />
+  </Reveal>
+</section>
+
+{/* EMPEROR */}
+<section
+  id="home-emperor"
+  data-home-section
+  className="home-page twin-page imperial-emperor-page"
+>
+  <Reveal>
+    <div className="imperial-emperor-wrap">
+      <span className="home-section-label">EMPEROR</span>
+
+      <Link
+        href="/emperor"
+        className="emperor-avatar-link"
+        aria-label="Open Emperor Chamber"
       >
-        <Reveal>
-          <div className="home-chapter imperial-house-chapter">
-            <span className="home-chapter-label">✺ IMPERIAL HOUSE</span>
+        <img
+          src="/images/emperor-avatar.jpeg"
+          alt="Emperor Founder Avatar"
+          className="emperor-avatar-image"
+        />
+      </Link>
 
-            <div className="home-chapter-line" />
+      <p className="imperial-emperor-caption">Founder&apos;s Symbol</p>
+    </div>
+  </Reveal>
+</section>
 
-            <h2 className="home-chapter-title">
-              Emperor
-              <br />
-              Constitution
-              <br />
-              Foundation
-            </h2>
+{/* CONSTITUTION */}
+<section
+  id="home-imperial-constitution"
+  data-home-section
+  className="home-page twin-page"
+>
+  <Reveal>
+    <div className="home-section home-section-center">
+      <span className="home-section-label">CONSTITUTION</span>
 
-            <p className="home-chapter-text">
-              The symbolic house of ArcheNova: founder intention,
-              constitutional continuity, and the Foundation that constrains
-              every system.
-            </p>
+      <p className="home-section-purpose">
+        The constitutional foundation that preserves ArcheNova&apos;s
+        continuity, legitimacy, principles, and civilizational direction.
+      </p>
 
-            <div className="home-chapter-scroll">Continue ↓</div>
-          </div>
-        </Reveal>
-      </section>
+      <Link href="/constitution" className="back-link">
+        Read Constitution →
+      </Link>
+    </div>
+  </Reveal>
+</section>
 
-      {/* EMPEROR */}
-      <section
-        id="home-emperor"
-        data-home-section
-        className="home-page twin-page imperial-emperor-page"
-      >
-        <Reveal>
-          <div className="imperial-emperor-wrap">
-            <span className="home-section-label">EMPEROR</span>
-
-            <Link
-              href="/emperor"
-              className="emperor-avatar-link"
-              aria-label="Open Emperor Chamber"
-            >
-              <img
-                src="/images/emperor-avatar.jpeg"
-                alt="Emperor Founder Avatar"
-                className="emperor-avatar-image"
-              />
-            </Link>
-
-            <p className="imperial-emperor-caption">Founder&apos;s Symbol</p>
-          </div>
-        </Reveal>
-      </section>
-
-      {/* CONSTITUTION */}
-      <section
-        id="home-imperial-constitution"
-        data-home-section
-        className="home-page twin-page"
-      >
-        <Reveal>
-          <div className="home-section home-section-center">
-            <span className="home-section-label">CONSTITUTION</span>
-
-            <p className="home-section-purpose">
-              The constitutional foundation that preserves ArcheNova&apos;s
-              continuity, legitimacy, principles, and civilizational direction.
-            </p>
-
-            <Link href="/constitution" className="back-link">
-              Read Constitution →
-            </Link>
-          </div>
-        </Reveal>
-      </section>
-
-      {/* FOUNDATION CORE */}
-      <section
-        id="home-foundation-core"
-        data-home-section
-        className="home-page twin-page"
-      >
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">ARCHENOVA FOUNDATION</span>
-
-            <h2 className="an-heading">
-              The axis that constrains
-              <br />
-              every ArcheNova system.
-            </h2>
-
-            <p className="an-body">
-              Foundation is the shared constitutional engine read by Senate,
-              Court, Episteme, Builder, Programs, Observatory, Institute, and
-              Capital.
-            </p>
-
-            <div className="an-grid-4">
-              <div className="an-card">
-                <strong>Constitution</strong>
-                <p>Preserves invariant principles and continuity.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Core</strong>
-                <p>Applies shared reasoning and constraints.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Protocol</strong>
-                <p>Connects systems through common structured outputs.</p>
-              </div>
-
-              <div className="an-card">
-                <strong>Knowledge</strong>
-                <p>Interprets signals, evidence, and institutional memory.</p>
-              </div>
-            </div>
-          </div>
-        </Reveal>
-      </section>
+{/* FOUNDATION CORE */}
+<section
+  id="home-foundation-core"
+  data-home-section
+  className="home-page twin-page foundation-orbit-page"
+>
+  <Reveal>
+    <CivilizationOrbitEngine
+      mark="◇"
+      label="ARCHENOVA FOUNDATION"
+      title="Foundation"
+      lead="Foundation is the shared constitutional axis connecting Constitution, Core, Protocol, and Knowledge."
+      layers={[
+        { inset: 4, speed: 38, direction: "cw" },
+        { inset: 16, speed: 56, direction: "ccw" },
+        { inset: 28, speed: 76, direction: "cw" },
+        { inset: 40, speed: 96, direction: "ccw" },
+      ]}
+      nodes={[
+        {
+          title: "Constitution",
+          subtitle: "Invariant principles",
+          href: "/constitution",
+        },
+        {
+          title: "Core",
+          subtitle: "Shared reasoning",
+          href: "/architecture",
+        },
+        {
+          title: "Protocol",
+          subtitle: "Common structure",
+          href: "/architecture",
+        },
+        {
+          title: "Knowledge",
+          subtitle: "Evidence memory",
+          href: "/architecture",
+        },
+      ]}
+    />
+  </Reveal>
+</section>
 
       {/* =========================
           Ⅰ GOVERNANCE
