@@ -1,7 +1,140 @@
 {
   "ok": true,
-  "updated": "2026-06-29T20:01:25.708Z",
+  "updated": "2026-06-29T22:10:07.406Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New cellular model for rare and deadly melanomas enables study of immunotherapy resistance",
+      "url": "https://phys.org/news/2026-06-cellular-rare-deadly-melanomas-enables.html",
+      "summary": "A research team at the University of Turku in Finland has developed a reliable laboratory model to study BAP1-deficient melanomas, which are a rare type of melanoma that evade the immune system once they have metastasize…",
+      "ts": 1782770408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What science tells us about the algae bloom in the Lincoln Memorial Reflecting Pool",
+      "url": "https://phys.org/news/2026-06-science-algae-bloom-lincoln-memorial.html",
+      "summary": "Algal blooms in the Lincoln Memorial Reflecting Pool in Washington, D.C., have long been a visible public nuisance. When the pool turned green again on June 15, less than two weeks after President Donald Trump's US$14 mi…",
+      "ts": 1782770401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deep-sea extremophile yields protein that forms super stable biofilm",
+      "url": "https://phys.org/news/2026-06-deep-sea-extremophile-yields-protein.html",
+      "summary": "Scientists discovered a protein secreted by a deep-sea extremophile—an organism adapted to extreme environmental conditions—that self-assembles into a biofilm and is highly stable, boosting its potential for biomedical a…",
+      "ts": 1782769801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Urban growth may slow by 2100, leaving big cities smaller than expected",
+      "url": "https://phys.org/news/2026-06-urban-growth-big-cities-smaller.html",
+      "summary": "The world is urbanizing fast. In 1975, about 11% of the global population lived in cities with more than 1 million inhabitants. \"Today, we estimate that share to be about 24%,\" says Andrea Musso, junior fellow at the Com…",
+      "ts": 1782769206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA tests new refuel device for future in-space refueling missions",
+      "url": "https://phys.org/news/2026-06-nasa-refuel-device-future-space.html",
+      "summary": "For NASA's next generation of deep-space exploration missions, spacecraft may need to refuel in Earth orbit before pushing farther into the solar system. Similar to how a gas pump needs a nozzle to fit your fuel tank, fu…",
+      "ts": 1782769201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cyclic sealing and drainage on the Gofar Oceanic Transform Fault revealed",
+      "url": "https://phys.org/news/2026-06-cyclic-drainage-gofar-oceanic-fault.html",
+      "summary": "Oceanic transform faults are strike-slip boundaries—faults that move horizontally rather than up and down and connect offset mid-ocean ridge segments. They have long been regarded as simple \"conservative\" plate boundarie…",
+      "ts": 1782768601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Great Barrier Reef drilling reveals repeated collapse, regrowth and migration since last ice age",
+      "url": "https://phys.org/news/2026-06-great-barrier-reef-drilling-reveals.html",
+      "summary": "An international expedition including University of Sydney researchers has pieced together the clearest picture yet of how the Great Barrier Reef responded to dramatic environmental change over the past 30,000 years. Mul…",
+      "ts": 1782768008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Venezuela earthquakes add tragic new layer to the country's humanitarian crisis",
+      "url": "https://phys.org/news/2026-06-venezuela-earthquakes-tragic-layer-country.html",
+      "summary": "Venezuela has a well-documented vulnerability to earthquakes. The country sits on the boundary between the Caribbean and South American tectonic plates, resulting in routine tremors and causing historical earthquake disa…",
+      "ts": 1782768001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Structural blueprint for RNA therapeutics reveals why some siRNA molecules work better than others",
+      "url": "https://phys.org/news/2026-06-blueprint-rna-therapeutics-reveals-sirna.html",
+      "summary": "RNA interference is a natural mechanism for living cells to control whether specific genes are being used. Crowned with the 2006 Nobel Prize in Physiology or Medicine, the discovery of RNA interference has since been har…",
+      "ts": 1782767404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Table sugar could hold a cheaper, quicker key to making vital drugs",
+      "url": "https://phys.org/news/2026-06-table-sugar-cheaper-quicker-key.html",
+      "summary": "Pioneering research has developed a new way of creating carbohydrate-based medicines that could ultimately replace costly drugs for common health conditions, using two cheap basic ingredients—table sugar and vinegar.",
+      "ts": 1782766809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Video games are helping players imagine the realities of climate migration",
+      "url": "https://phys.org/news/2026-06-video-games-players-realities-climate.html",
+      "summary": "While many people migrate because of social and economic inequalities, forced migration is caused by political conflicts, lack of access to food and—increasingly—a lack of access to water.",
+      "ts": 1782766807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cultural values may decide when comforting others feels like real support",
+      "url": "https://phys.org/news/2026-06-cultural-values-comforting-real.html",
+      "summary": "When someone you love is upset, your first instinct may be to comfort them. To reassure them. To make them feel better. But what if that instinct isn't universal?",
+      "ts": 1782766203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: What happens when warming streams push young salmon beyond their limits",
+      "url": "https://phys.org/news/2026-06-qa-streams-young-salmon-limits.html",
+      "summary": "As climate change warms rivers across British Columbia, young salmon are facing increasing heat stress at vulnerable stages of their lives. Two studies from UBC's Pacific Salmon Ecology and Conservation Lab have found th…",
+      "ts": 1782766201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Some boreal forest species fail to recover even 100 years after clearcutting",
+      "url": "https://phys.org/news/2026-06-boreal-forest-species-recover-years.html",
+      "summary": "Boreal forests are being clear-cut faster than some of their wildlife and plant species can recover, with a few failing to return even 100 years after harvesting, according to University of Alberta-led research.",
+      "ts": 1782765606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "England's public library collections are in danger of being hollowed out, new research warns",
+      "url": "https://phys.org/news/2026-06-england-library-danger-hollowed.html",
+      "summary": "England's public libraries are being quietly eroded, according to a major new study from the University of Sheffield. With physical collections shrinking and maintenance budgets falling in real terms, the research warns …",
+      "ts": 1782765601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New data shows drop in Scotland's harbor seal numbers and sparks concern for gray seal population",
+      "url": "https://phys.org/news/2026-06-scotland-harbor-gray-population.html",
+      "summary": "New research from the University of St Andrews has shown that there is a marked drop in the status of Scotland's harbor seal population, as well as in summer gray seal abundance, according to surveys conducted by the Sea…",
+      "ts": 1782764411000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Understudied enzyme helps S. aureus pathogen prosper, study finds",
+      "url": "https://phys.org/news/2026-06-understudied-enzyme-aureus-pathogen-prosper.html",
+      "summary": "A new study published in the Proceedings of the National Academy of Sciences has offered insight into how Staphylococcus aureus, a major human pathogen, fine-tunes its internal machinery to survive stress and potentially…",
+      "ts": 1782764405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why Europe's rising plant diversity may signal habitat disruption, not ecological recovery",
+      "url": "https://phys.org/news/2026-06-europe-diversity-habitat-disruption-ecological.html",
+      "summary": "The number of plant species in many ecosystems in Europe has grown rather than shrunk over the last 100 years. However, this is not necessarily cause for celebration, as this local increase is primarily due to generalist…",
+      "ts": 1782764401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Synthetic chemical framework can switch magnetic spin states at near ambient temperatures",
+      "url": "https://phys.org/news/2026-06-synthetic-chemical-framework-magnetic-states.html",
+      "summary": "There is growing demand for smart materials that can change their physical properties in response to various external stimuli such as light, heat, pressure, magnetic fields and electric fields. One such physical property…",
+      "ts": 1782763801000
+    },
     {
       "source": "Phys.org",
       "title": "Gold-laced nanoparticles could eventually spot and treat endometriosis without surgery",
@@ -567,139 +700,6 @@
       "title": "Direct imaging of enantiomer-specific orientation dynamics in unidirectionally rotating chiral molecules",
       "url": "https://arxiv.org/abs/2606.27458",
       "summary": "arXiv:2606.27458v1 Announce Type: new Abstract: Selectively controlling the dynamics of molecular enantiomers underlies advances across chemistry, biology, and physics, yet direct imaging of enantiomer-specific motion ha…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Freezing of Vibrational Polariton Transport via Mesoscale Simulations",
-      "url": "https://arxiv.org/abs/2606.27463",
-      "summary": "arXiv:2606.27463v1 Announce Type: new Abstract: Two-dimensional real-space imaging of vibrational polariton transport in planar Fabry--P\\'erot microcavities is numerically simulated via the mesoscale cavity molecular dyn…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal framework for the design of near-zero refractive index photonic crystals",
-      "url": "https://arxiv.org/abs/2606.27470",
-      "summary": "arXiv:2606.27470v1 Announce Type: new Abstract: Near-zero-index (NZI) media are of great interest for controlling light-matter interactions, but homogeneous NZI materials in the telecom band remain limited and often suff…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-dipole effects in two-photon double ionization of the K-shell of a beryllium-like atomic ion",
-      "url": "https://arxiv.org/abs/2606.27489",
-      "summary": "arXiv:2606.27489v1 Announce Type: new Abstract: In the second order of the non-relativistic quantum perturbation theory and outside the framework of the dipole approximation for the operator of the radiation transition b…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward a Hybrid Digital Twin of Society: Quantifying Cognitive-Spatial Linkages Through Online-Offline Feedback Networks",
-      "url": "https://arxiv.org/abs/2606.27513",
-      "summary": "arXiv:2606.27513v1 Announce Type: new Abstract: Digital platforms increasingly shape how people experience and navigate cities, linking virtual information seeking with physical mobility. Despite this interdependence, on…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantitative interpretation of Brookfield DV3TLV measurements: shear rate conversion, correction factors, and applicability limits",
-      "url": "https://arxiv.org/abs/2606.27524",
-      "summary": "arXiv:2606.27524v1 Announce Type: new Abstract: The flow behavior and hydrodynamic characteristics of fluids in rotational viscometry systems are investigated using the Brookfield DV3TLV viscometer, with emphasis on meas…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ridge-filter crosstalk in conformal proton FLASH planning: dependence on beamlet pitch and iterative mitigation",
-      "url": "https://arxiv.org/abs/2606.27534",
-      "summary": "arXiv:2606.27534v1 Announce Type: new Abstract: Objective: Patient-specific ridge filters (PSRFs) can enable conformal single-energy proton FLASH delivery without energy switching. However, converting optimized spot-base…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The multifractal nature of turbulent energy dissipation",
-      "url": "https://arxiv.org/abs/2606.27540",
-      "summary": "arXiv:2606.27540v1 Announce Type: new Abstract: The intermittency of the rate of turbulent energy dissipation ${\\epsilon}$ is investigated experimentally, with special emphasis on its scale-similar facets. This is done u…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-Dimensional Locally Adaptive Non-Hydrostatic Extension of Shallow Water Equations",
-      "url": "https://arxiv.org/abs/2606.27562",
-      "summary": "arXiv:2606.27562v1 Announce Type: new Abstract: We introduce a two-dimensional non-hydrostatic model for shallow water wave dispersion. The model is based on a locally adapted application of a non-hydrostatic correction …",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward a Universal Framework for the Internal Gravity Wave Spectrum",
-      "url": "https://arxiv.org/abs/2606.27597",
-      "summary": "arXiv:2606.27597v1 Announce Type: new Abstract: The Garrett-Munk (GM) spectrum has long provided a canonical model of the oceanic internal gravity wave field. However, it relies on hydrostatic assumptions and idealized s…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhancing Co-packaging Optics Enabled Silicon Photonics Security Assurance Hardware Fingerprinting",
-      "url": "https://arxiv.org/abs/2606.27612",
-      "summary": "arXiv:2606.27612v1 Announce Type: new Abstract: Silicon photonics enables integration of optical components using standard semiconductor processes, greatly improving data communication bandwidth and energy efficiency. Ho…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interface tracking with Microscale Topological Surgery for two-dimensional filament breakup",
-      "url": "https://arxiv.org/abs/2606.27615",
-      "summary": "arXiv:2606.27615v1 Announce Type: new Abstract: We design and implement a Microscale Topological Surgery (MTS) algorithm to detect and enforce topological transitions in two-dimensional tracked interfaces. The method com…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inferring solar-wind plasma structures from sparse probe trajectories using recurrent reduced-order learning",
-      "url": "https://arxiv.org/abs/2606.27620",
-      "summary": "arXiv:2606.27620v1 Announce Type: new Abstract: In space plasma studies, spacecraft measurements often provide time histories of the solar-wind plasma. However, many heliospheric plasma processes are organized over spati…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-organized robustness in mean-field interacting systems",
-      "url": "https://arxiv.org/abs/2606.27626",
-      "summary": "arXiv:2606.27626v1 Announce Type: new Abstract: Self-organization is a defining feature of living systems, with order often maintained through interactions between constituent units rather than centralized feedback. We i…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optothermal Actuation of Unidirectional Thermo-osmotic Flows",
-      "url": "https://arxiv.org/abs/2606.27735",
-      "summary": "arXiv:2606.27735v1 Announce Type: new Abstract: In this paper, we experimentally demonstrate the microscale direction control of thermoosmotic flows using a focused-laser heating. The key is the off-center laser irradiat…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical equilibria of two-dimensional turbulent flows for generic initial vorticity fields on a sphere, calculated on the basis of the original Miller-Robert-Sommeria theory",
-      "url": "https://arxiv.org/abs/2606.27778",
-      "summary": "arXiv:2606.27778v1 Announce Type: new Abstract: Based on the original Miller-Robert-Sommeria theory, we explicitly compute a statistical equilibrium of two-dimensional turbulent flow on a sphere for a generic initial vor…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collisionless dynamo seeds from phase mixing-induced electron slippage",
-      "url": "https://arxiv.org/abs/2606.27833",
-      "summary": "arXiv:2606.27833v1 Announce Type: new Abstract: Magnetic fields permeating the Universe on the largest astrophysical scales are thought to result from dynamo amplification in weakly collisional turbulence, but the origin…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extracting behavioural properties from face-to-face interactions temporal networks: a measure of egonet persistency",
-      "url": "https://arxiv.org/abs/2606.27860",
-      "summary": "arXiv:2606.27860v1 Announce Type: new Abstract: Understanding how individuals repeat social interactions over time is a central problem in the analysis of temporal networks. In social systems, repeated interactions shape…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ocean-atmosphere interaction at the Gulf Stream sea surface temperature front: variability and impacts on midlatitude atmospheric circulation",
-      "url": "https://arxiv.org/abs/2606.27873",
-      "summary": "arXiv:2606.27873v1 Announce Type: new Abstract: Sea surface temperature (SST) gradients associated with western boundary currents affect the atmospheric circulation across a range of spatial and temporal scales. Yet, sev…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electrons with Anomalous Energy Generated in Gas-Filled and Vacuum Diodes",
-      "url": "https://arxiv.org/abs/2606.27889",
-      "summary": "arXiv:2606.27889v1 Announce Type: new Abstract: It is shown that, when high-voltage pulses (with a voltage amplitude exceeding 100 kV in centimeter gaps) with a leading edge duration of 1 ns or shorter are applied to gas…",
       "ts": 1782705600000
     }
   ],

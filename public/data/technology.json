@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-06-29T20:01:29.263Z",
+  "updated": "2026-06-29T22:10:09.497Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA’s top gene therapy regulator is leaving his role",
+      "url": "https://www.statnews.com/2026/06/29/vijay-kumar-exits-fda-office-of-therapeutic-products/?utm_campaign=rss",
+      "summary": "The departure of Vijay Kumar follows a broader leadership shakeup at the FDA.",
+      "ts": 1782769566000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, SBA Announce New Initiative to Scale American Space Economy ",
+      "url": "https://www.nasa.gov/news-release/nasa-sba-announce-new-initiative-to-scale-american-space-economy/",
+      "summary": "NASA and the U.S. Small Business Administration (SBA) launched the SBIC-NASA Initiative on Monday to increase investment in American manufacturers of industrial components and providers of technologies critical to space …",
+      "ts": 1782765597000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Newest Wind Tunnel Builds on Legacy of Innovation",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasas-newest-wind-tunnel-builds-on-legacy-of-innovation/",
+      "summary": "For more than 100 years, wind tunnels at NASA’s Langley Research Center in Hampton, Virginia, have helped shape the future of flight. Now, two of NASA’s longest-serving facilities — the 12-Foot Low-Speed Tunnel and the 2…",
+      "ts": 1782765503000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AstraZeneca to pay $34 million to settle kickback charges filed by Texas attorney general",
+      "url": "https://www.statnews.com/pharmalot/2026/06/29/astrazeneca-kickback-charges-texas-settlement/?utm_campaign=rss",
+      "summary": "AstraZeneca agreed to pay $34 million to settle claims that the company paid kickbacks to improperly influence prescriptions paid for by Texas Medicaid.",
+      "ts": 1782764263000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: 26 states sue to block Medicaid work requirements",
+      "url": "https://www.statnews.com/2026/06/29/state-lawsuit-block-medicaid-work-requirements/?utm_campaign=rss",
+      "summary": "States argue the rules will make it too hard for people to get the Medicaid coverage they're entitled too.",
+      "ts": 1782763907000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Schistosomiasis Vaccine Shows Strong Immune Memory in Early Clinical Trials",
@@ -681,46 +721,6 @@
       "summary": "The IAEA and Japan have reinforced their collaboration on recovering the environment in Fukushima Prefecture.",
       "ts": 1782487805000,
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Nipah and Hendra Viruses: Antibody Cocktail Provides Complete Protection in Hamster Model",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/nipah-and-hendra-viruses-antibody-cocktail-provides-complete-protection-in-hamster-model/",
-      "summary": "Researchers developed the first human antibody cocktail to completely protect against the lethal Nipah and Hendra virus infection in preclinical models, advancing a promising dual-target strategy for future outbreaks. Th…",
-      "ts": 1782487306000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Euclid Sees Heart of Milky Way",
-      "url": "https://www.nasa.gov/image-article/euclid-sees-heart-of-milky-way/",
-      "summary": "Euclid, an ESA (European Space Agency) mission with NASA contributions, took a new look at the heart of our Milky Way galaxy, seen in this image released on June 24, 2026. This observation overlaps with a region scientis…",
-      "ts": 1782487278000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "From Lab to Orbit | Turning Space Science into Reality | ESA Explores #21",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/From_Lab_to_Orbit_Turning_Space_Science_into_Reality_ESA_Explores_21",
-      "summary": "Video: 00:18:53 Go behind the scenes at ESA’s European Astronaut Centre in Cologne, Germany, and discover how space experiments are prepared long before they reach orbit. Meet the ECOS team, as Deputy Manager Salvi Verma…",
-      "ts": 1782486000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/06/26/up-down-ladder-jobs-pharma-biotech-sanofi-biogen-lilly-pfizer/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1782485803000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Bringing Signals to NASA",
-      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/bringing-signals-to-nasa/",
-      "summary": "Growing up on the central California coast, watching rocket launches with his father was part of Eric Fernandez’s childhood routine. Fernandez had posters of rockets on the wall, but despite being fascinated by them, he …",
-      "ts": 1782484137000,
-      "categoryId": "space"
     }
   ],
   "categories": [
