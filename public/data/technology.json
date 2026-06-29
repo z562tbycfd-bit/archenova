@@ -1,10 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-06-29T17:39:58.931Z",
+  "updated": "2026-06-29T20:01:29.263Z",
   "items": [
     {
+      "source": "Genetic Engineering News",
+      "title": "Schistosomiasis Vaccine Shows Strong Immune Memory in Early Clinical Trials",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/schistosomiasis-vaccine-shows-strong-immune-memory-in-early-clinical-trials/",
+      "summary": "The experimental SchistoShield vaccine, against schistosomiasis, triggered strong B-cell and T-cell immune memory in early U.S. and African clinical trials, marking a promising step toward preventing and treating the par…",
+      "ts": 1782760434000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Iron Accumulation Drives Neurodegeneration via Chronic Stress Pathway",
+      "url": "https://www.genengnews.com/topics/drug-discovery/iron-accumulation-drives-neurodegeneration-via-chronic-stress-pathway/",
+      "summary": "Iron accumulation is a key target in the effort to predict, prevent, and treat neurodegenerative diseases. A new stress pathway is a promising therapeutic route for boosting neuron resilience. The post Iron Accumulation …",
+      "ts": 1782758360000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Shilpa Commissions Integrated ADC Drug Substance GMP Manufacturing Facility",
+      "url": "https://www.genengnews.com/topics/bioprocessing/shilpa-commissions-integrated-adc-drug-substance-gmp-manufacturing-facility/",
+      "summary": "The manufacturing of highly potent compounds has been a core pillar of Shilpa’s identity, and this ADC drug substance facility adds a new sophisticated dimension to the Shilpa group’s capabilities. The post Shilpa Commis…",
+      "ts": 1782756019000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "AI agents are not your “coworkers”",
+      "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The wo…",
+      "ts": 1782756000000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
-      "title": "5 takeaways from STAT’s investigation into microhospital operator Nutex Health",
+      "title": "5 takeaways from STAT’s investigation into micro hospital operator Nutex Health",
       "url": "https://www.statnews.com/2026/06/29/nutex-health-investigation-takeaways-stat-news-no-surprises-act/?utm_campaign=rss",
       "summary": "Read the takeaways from STAT's investigation into Nutex, which used the No Surprises Act to fuel a stunning financial turnaround.",
       "ts": 1782754096000,
@@ -16,6 +48,14 @@
       "url": "https://www.statnews.com/2026/06/29/healthcare-news-unredacted-ca-hospital-lawsuit-sad-mckinsey-tax/?utm_campaign=rss",
       "summary": "Who controls the Medicaid market, GLP-1 usage and pizza household costs, and more from Health Care Inc.",
       "ts": 1782752593000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "CCRM Ireland Would Be Established to Hasten Translation of Advanced Therapies Into Patient Treatments",
+      "url": "https://www.genengnews.com/topics/translational-medicine/ccrm-ireland-would-be-established-to-hasten-translation-of-advanced-therapies-into-patient-treatments/",
+      "summary": "The partnership will explore how to advance the design and clinical translation and delivery of personalized immune cell therapies, while also leveraging Ireland’s biopharmaceutical manufacturing skills. The post CCRM Ir…",
+      "ts": 1782752456000,
       "categoryId": "bio"
     },
     {
@@ -177,6 +217,30 @@
       "summary": "Agentic AI will allow laboratories to move beyond traditional monitoring and reactive troubleshooting toward proactive actions that help prevent issues before they impact performance, quality, or scientific outcomes. The…",
       "ts": 1782734404000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Afghanistan airstrikes, rights violations in DR Congo, Gaza displacement",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167835",
+      "summary": "At least 28 civilians were killed and 49 injured in airstrikes carried out in Paktya, Paktika and Kunar provinces in Afghanistan on Sunday evening, the UN Mission in the country has reported.",
+      "ts": 1782734400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "International cooperation critical as terrorism threat evolves",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167834",
+      "summary": "Terrorism is evolving amid global instability characterised by heightened geopolitical tensions, protracted conflicts and growing fragmentation – and the international response must also evolve to meet the challenge.",
+      "ts": 1782734400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN details humanitarian toll of strikes on Ukrainian power industry",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167833",
+      "summary": "Missile and drone attacks killed at least a dozen civilians in Russia and Ukraine over the weekend as both countries continue to launch long-range drone strikes.",
+      "ts": 1782734400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -657,70 +721,6 @@
       "summary": "Growing up on the central California coast, watching rocket launches with his father was part of Eric Fernandez’s childhood routine. Fernandez had posters of rockets on the wall, but despite being fascinated by them, he …",
       "ts": 1782484137000,
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s PACE Mission Studies Smoke, Fires",
-      "url": "https://science.nasa.gov/earth/nasas-pace-mission-studies-smoke-fires/",
-      "summary": "With the North American fire season underway, and a record number of acres already burned nationwide, NASA’s Plankton, Aerosol, Cloud, and ocean Ecosystem (PACE) satellite’s three instruments are observing vegetation pre…",
-      "ts": 1782482400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "988’s LGBTQ+ hotline to relaunch this year. But the group that helped start it might be excluded",
-      "url": "https://www.statnews.com/2026/06/26/988-lgbtq-hotline-relaunch-trevor-project/?utm_campaign=rss",
-      "summary": "The Trump administration is moving to restart the specialized LGBTQ+ option for youth who contact the 988 crisis line, but the group that helped pioneer the idea is being shut…",
-      "ts": 1782482127000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Embryo editing advances reignite ethical debates",
-      "url": "https://www.statnews.com/2026/06/26/biotech-news-embryo-editing-advances-reignite-ethics-debates/?utm_campaign=rss",
-      "summary": "Cassidy targets 340B, Eli Lilly's mysterious retatrutide patient, and more biotech news from The Readout",
-      "ts": 1782481244000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Spies Starry Chandelier",
-      "url": "https://science.nasa.gov/missions/hubble/hubble-spies-starry-chandelier/",
-      "summary": "This NASA/ESA Hubble Space Telescope image features the globular cluster NGC 6723, sometimes called the Chandelier Cluster.",
-      "ts": 1782481212000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a bill to overhaul the 340B program, a new FDA commissioner candidate, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/06/26/bill-overhaul-340b-program-new-fda-commisioner-candidate/?utm_campaign=rss",
-      "summary": "And so, another working week will soon draw to a close. Not a moment too soon, yes? This is, you may recall, our treasured signal to daydream about weekend plans.…",
-      "ts": 1782479879000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 22-26 June 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_22-26_June_2026",
-      "summary": "Week in images: 22-26 June 2026 Discover our week through the lens",
-      "ts": 1782479400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: European antitrust regulators probe Sanofi for allegedly disparaging a rival flu vaccine",
-      "url": "https://www.statnews.com/pharmalot/2026/06/26/european-antitrust-regulators-probe-sanofi-for-allegedly-disparaging-rival-flu-vaccine/?utm_campaign=rss",
-      "summary": "The European Commission is investigating Sanofi for allegedly breaching antitrust rules by running a “misleading” campaign about a flu vaccine.",
-      "ts": 1782476965000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
-      "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Heat waves mess with your brain. Scientists are trying to figure out why. —Jessica…",
-      "ts": 1782475800000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
