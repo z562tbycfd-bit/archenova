@@ -341,7 +341,7 @@ export default function Home() {
   <Reveal>
     <CivilizationOrbitEngine
       mark="◇"
-      label="ARCHENOVA FOUNDATION"
+      label="ARCHENOVA CORE"
       title="Foundation"
       lead="Foundation is the shared constitutional axis connecting Constitution, Core, Protocol, and Knowledge."
       layers={[
