@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-06-29T22:10:07.406Z",
+  "updated": "2026-06-30T00:06:47.361Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI tool reliably predicts the flame resistance of new materials",
+      "url": "https://phys.org/news/2026-06-ai-tool-reliably-flame-resistance.html",
+      "summary": "Researchers at IMDEA Materials Institute have developed an artificial intelligence (AI)-based strategy to predict and assess the fire resistance of epoxy resins, one of the most widely used polymers in industry.",
+      "ts": 1782777604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Testing the orbital mechanics of giant mirrors",
+      "url": "https://phys.org/news/2026-06-orbital-mechanics-giant-mirrors.html",
+      "summary": "Giant mirrors in space have been a staple of science fiction for decades. But so far, there's been very little work looking at the actual physics behind the concept—possibly because we're still so far from making them ou…",
+      "ts": 1782776407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unexpected pathway turns water and CO₂ into climate‑neutral methane on nickel–zirconia",
+      "url": "https://phys.org/news/2026-06-unexpected-pathway-climateneutral-methane-nickelzirconia.html",
+      "summary": "Natural gas still plays an important role in many industrial sectors, but it is a climate-damaging fossil fuel. TU Wien and the University of Innsbruck have now discovered an unexpected reaction pathway that makes it pos…",
+      "ts": 1782776403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plutonium compound unlocks rare topological quantum behavior with potential nuclear science applications",
+      "url": "https://phys.org/news/2026-06-plutonium-compound-rare-topological-quantum.html",
+      "summary": "Plutonium is one of the most complex elements in the periodic table. First synthesized and isolated in 1940 by scientists at the University of California, Berkeley, plutonium has been studied closely for more than eight …",
+      "ts": 1782775801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New Horizons tracks solar wind slowdown as interstellar atoms add drag",
+      "url": "https://phys.org/news/2026-06-horizons-tracks-solar-slowdown-interstellar.html",
+      "summary": "A new Southwest Research Institute (SwRI) study based on data from NASA's New Horizons spacecraft has uncovered insights into why the solar wind gradually slows as it moves toward the edge of the solar system and the bou…",
+      "ts": 1782775231000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What DC's algal bloom reveals about a growing water threat",
+      "url": "https://phys.org/news/2026-06-dc-algal-bloom-reveals-threat.html",
+      "summary": "When bright green water appeared in the newly renovated Lincoln Memorial Reflecting Pool, it drew national attention and sparked political finger-pointing. The culprit: cyanobacteria—sometimes called blue-green algae—a t…",
+      "ts": 1782775229000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cochlea network model reveals how inner ear may sort sound from noise",
+      "url": "https://phys.org/news/2026-06-cochlea-network-reveals-ear-noise.html",
+      "summary": "Over 70 million people in the U.S. are impacted by hearing loss, and age-related hearing loss is the second most common health problem in older adults, according to the Advanced Research Projects Agency for Health. Howev…",
+      "ts": 1782774601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First-of-a-kind laser spring opens up new avenues for plasma control",
+      "url": "https://phys.org/news/2026-06-kind-laser-avenues-plasma.html",
+      "summary": "When a high-intensity laser interacts with plasma, the charged particles typically oscillate back and forth like waves on the ocean. But what if the laser itself could twist like a whirlpool? Researchers have now demonst…",
+      "ts": 1782774007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The 20km ripple effect: How mines can trigger distant deforestation in Africa",
+      "url": "https://phys.org/news/2026-06-20km-ripple-effect-trigger-distant.html",
+      "summary": "The global push for a transition to green energy has sparked demand for critical minerals such as lithium, vanadium, copper and cobalt. These are needed for electric vehicles, wind turbines and solar panels. Sub-Saharan …",
+      "ts": 1782774002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deep inside crocodile skulls, 100 million years of brain evolution barely registers",
+      "url": "https://phys.org/news/2026-06-deep-crocodile-skulls-million-years.html",
+      "summary": "Although modern crocodiles, alligators, caimans and gharials are restricted to the tropics, their fossil record tells a very different story. Ancient crocodylians once inhabited much of the globe and exhibited a remarkab…",
+      "ts": 1782773402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Breakthrough for aquaculture: Oral vaccine protects fish from fatal nervous necrosis virus",
+      "url": "https://phys.org/news/2026-06-breakthrough-aquaculture-oral-vaccine-fish.html",
+      "summary": "Disease management is a significant aspect of aquaculture, a vital industry and major food source. One of the most serious threats is a disease caused by the nervous necrosis virus (NNV), which can wipe out large populat…",
+      "ts": 1782772805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Graphene can hold multiple states of superconductivity, a new study finds",
+      "url": "https://phys.org/news/2026-06-graphene-multiple-states-superconductivity.html",
+      "summary": "The ordinary graphite in pencil lead is proving to be surprisingly multifaceted at the microscale. In a study published in the journal Nature, MIT researchers report that a certain microscopic structure found in natural …",
+      "ts": 1782772801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Faster tests reveal six fluoropolymer microplastics, including four rarely tracked types",
+      "url": "https://phys.org/news/2026-06-faster-reveal-fluoropolymer-microplastics-rarely.html",
+      "summary": "Scientists around the world have been searching food, water and other environmental media for microplastics and for per- and polyfluoroalkyl substances (PFAS). But microfluoroplastics (MFPs), the intersection between the…",
+      "ts": 1782772201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rare inner ear cells point to regenerative hearing treatments",
+      "url": "https://phys.org/news/2026-06-rare-ear-cells-regenerative-treatments.html",
+      "summary": "A study by a team of researchers from the Gray Faculty of Medical and Health Sciences at Tel Aviv University offers new hope to millions of people with irreversible hearing loss. The researchers identified a unique biolo…",
+      "ts": 1782771607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Does traffic drive street crime? Our study investigated",
+      "url": "https://phys.org/news/2026-06-traffic-street-crime.html",
+      "summary": "Picture a busy road running through a residential neighborhood. The noise, the fumes, the danger to cyclists and pedestrians—all familiar concerns. But here is one you might not have considered: Traffic may also be makin…",
+      "ts": 1782771601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Disorder creates direction-dependent optics in compound semiconductors",
+      "url": "https://phys.org/news/2026-06-disorder-optics-compound-semiconductors.html",
+      "summary": "An international research team has demonstrated that the intrinsic disorder of the compound semiconductor CuInSnS₄ can be exploited to influence its optical properties. While the atomic vibrations also sense the local di…",
+      "ts": 1782771002000
+    },
     {
       "source": "Phys.org",
       "title": "New cellular model for rare and deadly melanomas enables study of immunotherapy resistance",
@@ -549,6 +661,34 @@
       "ts": 1782728401000
     },
     {
+      "source": "APS PRX",
+      "title": "Observation of Synchronization between Two Quantum van der Pol Oscillators in Trapped Ions",
+      "url": "http://link.aps.org/doi/10.1103/w1bm-wjl4",
+      "summary": "Author(s): Jiarui Liu, Qiming Wu, Joel E. Moore, Hartmut Haeffner, and Christopher W. Wächtler Synchronization between two quantum van der Pol oscillators is achieved by engineering dissipation in a trapped-ion quantum s…",
+      "ts": 1782727200000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Photocurrent-equilibrium mechanism for charge management of gravitational-wave detection",
+      "url": "http://link.aps.org/doi/10.1103/6v6r-95w6",
+      "summary": "Author(s): Bingxue Chen, Runfa Zhou, Wei Hong, Honggang Li, Li Liu, Yanzheng Bai, and Zebing Zhou Controlling the residual potential of test masses via the photocurrent-equilibrium mechanism is a promising method for spa…",
+      "ts": 1782727200000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Simulating quantum turbulence with matrix-product states",
+      "url": "http://link.aps.org/doi/10.1103/x5xg-whh1",
+      "summary": "Author(s): Felipe Gómez-Lozada, Nicolas Perico-García, Nikita Gourianov, Hayder Salman, and Juan José Mendoza-Arenas Quantum turbulence is a hallmark of nonequilibrium quantum dynamics, arising in systems ranging from su…",
+      "ts": 1782727200000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Multitarget DMRG-X algorithm and its application to circuit quantum electrodynamics",
+      "url": "http://link.aps.org/doi/10.1103/qz9v-p4j5",
+      "summary": "Author(s): Sofía González-García, Aaron Szasz, Alice Pagano, Dvir Kafri, Guifré Vidal, and Agustin Di Paolo Obtaining accurate representations of the eigenstates of an array of coupled superconducting qubits is a crucial…",
+      "ts": 1782727200000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Measurement- and Feedback-Driven Nonequilibrium Phase Transitions on a Quantum Processor",
       "url": "http://link.aps.org/doi/10.1103/2c1p-8vx9",
@@ -561,146 +701,6 @@
       "url": "http://link.aps.org/doi/10.1103/951q-j8kq",
       "summary": "Author(s): Yueshan Xu et al. Observation and modulation of the quantum Mpemba effect on an all-to-all connected, tunable-coupling superconducting processor. [Phys. Rev. Lett. 137, 010402] Published Mon Jun 29, 2026",
       "ts": 1782727200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Multifaceted Decay of $^{116}\\mathrm{Cs}$",
-      "url": "http://link.aps.org/doi/10.1103/ztcl-lpdf",
-      "summary": "Author(s): J. Dey, U. Datta, O. Tengblad, P. Das, A. Rahaman, B. K. Agrawal, S. Chakraborty, A. Gottberg, M. Kowalska, K. Mahata, S. Mandal, M. Madurga, E. Nacher, E. Rapisarda, N. Warr, W. Sengupta, C. Sharma, and T. St…",
-      "ts": 1782727200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Elinvar Effect by Nanoscale Displacive Phase Transformation in Martensites",
-      "url": "http://link.aps.org/doi/10.1103/1ft8-9hkv",
-      "summary": "Author(s): Die Liu, Yao Liu, Junming Gou, Tianyu Ma, and Xiaobing Ren Ferroelastic alloys suffer modulus softening prior to the martensitic transformation, but still exhibit normal cooling-hardening effect below the mart…",
-      "ts": 1782727200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "High-$Q$ Nonlocal Resonances in Mirror-Enhanced Plasmonic Lattices",
-      "url": "http://link.aps.org/doi/10.1103/ybrp-jdrm",
-      "summary": "Author(s): Xiaoqiong Bi, Chenghao Bai, Zhuang Li, Yangjian Cai, and Xianyu Ao Plasmonic nanoparticle arrays stand as a versatile platform for enhancing light-matter interactions at the nanoscale. Ultrahigh-quality-factor…",
-      "ts": 1782727200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "General-Purpose Inverse Design of Heterogeneous Finite-Sized Assemblies",
-      "url": "http://link.aps.org/doi/10.1103/w4s1-rtqm",
-      "summary": "Author(s): Livia A. J. Guttieres, Ryan K. Krueger, Remi Drolet, and Michael P. Brenner Designing heterogeneous, self-assembling systems is a central challenge in soft matter and biology. We present a framework that uses …",
-      "ts": 1782727200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Nonreciprocity as a Generic Mechanism for Demixing in Flocking Mixtures",
-      "url": "http://link.aps.org/doi/10.1103/v435-qnhl",
-      "summary": "Author(s): Charlotte Myin and Benoît Mahault We show that even weak nonreciprocal alignment leads to large-scale structure formation in flocking mixtures. By combining numerical simulations of a binary Vicsek model and t…",
-      "ts": 1782727200000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Observation of Synchronization between Two Quantum van der Pol Oscillators in Trapped Ions",
-      "url": "http://link.aps.org/doi/10.1103/w1bm-wjl4",
-      "summary": "Author(s): Jiarui Liu, Qiming Wu, Joel E. Moore, Hartmut Haeffner, and Christopher W. Wächtler Synchronization between two quantum van der Pol oscillators is achieved by engineering dissipation in a trapped-ion quantum s…",
-      "ts": 1782727200000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Toward experiment-guided AlphaFold: Researchers overcome AI tool's single-conformation limitation",
-      "url": "https://phys.org/news/2026-06-alphafold-ai-tool-conformation-limitation.html",
-      "summary": "The AI-based program AlphaFold predicts a protein's 3D structure with remarkable accuracy. However, it tends to reduce heterogeneous structures to a single dominant conformation, or shape, and overlooks experimental cond…",
-      "ts": 1782723601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "The order of species loss alters how grasslands maintain stability, study finds",
-      "url": "https://phys.org/news/2026-06-species-loss-grasslands-stability.html",
-      "summary": "Grasslands account for roughly 40% of terrestrial ecosystems and are paramount to global food security. Wild grasslands provide food for livestock and habitat for pollinators and act as a carbon sink in the era of climat…",
-      "ts": 1782706206000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Meaning of Localization in Non-Local Quantum Field Theory",
-      "url": "https://arxiv.org/abs/2606.27387",
-      "summary": "arXiv:2606.27387v1 Announce Type: new Abstract: In this paper we explore and derive an uncertainty principle for an ultraviolet complete nonlocal quantum field theory where under our hypothesises of an induced equal time…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solar System and Atomic Clock Bounds on Locally Coupled Swampland Scalars",
-      "url": "https://arxiv.org/abs/2606.27388",
-      "summary": "arXiv:2606.27388v1 Announce Type: new Abstract: We study how local measurements can constrain light scalar fields that are relevant for late time cosmic acceleration and are often discussed in connection with swampland c…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magnetron Sputtering Formation of Nanoparticles from Natural Olivine Rock for Atmospheric CO2 Capture",
-      "url": "https://arxiv.org/abs/2606.27389",
-      "summary": "arXiv:2606.27389v1 Announce Type: new Abstract: The two-birds-one-stone mineralization of CO2 by olivine, is a promising method to both capture carbon directly from the atmosphere and at the same time locking it for stor…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum-Conditioned Curvatures in Spacetime Surrounding Kerr-Newmann Black Hole",
-      "url": "https://arxiv.org/abs/2606.27390",
-      "summary": "arXiv:2606.27390v1 Announce Type: new Abstract: This research examines the possibility whether the curvatures found in conventional General Relativity (GR) are the only existing ones, using both analytical and numerical …",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Testing the CCC+TL cosmology with cosmic-chronometer measurements of the Hubble parameter",
-      "url": "https://arxiv.org/abs/2606.27391",
-      "summary": "arXiv:2606.27391v1 Announce Type: new Abstract: In a recent paper, it was shown that the Covarying Coupling Constants and Tired Light (CCC+TL) hybrid model yields the Hubble parameter $H(z)$ that is substantially differe…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistics of non-conserved observables in Lindblad master equations",
-      "url": "https://arxiv.org/abs/2606.27392",
-      "summary": "arXiv:2606.27392v1 Announce Type: new Abstract: We study the dynamics of observables that are conserved under the Hamiltonian evolution of a closed quantum system, but cease to be conserved when the system is coupled to …",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Why does walking to the center of a merry-go-round feel so hard? Coriolis stabilization and the metabolic cost of staying on track",
-      "url": "https://arxiv.org/abs/2606.27400",
-      "summary": "arXiv:2606.27400v1 Announce Type: new Abstract: A standard undergraduate problem has a student walk radially inward on a rotating, frictionless merry-go-round. The textbook analysis -- angular momentum is conserved, so t…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collective modes and screening in an electric-magnetic dual plasma",
-      "url": "https://arxiv.org/abs/2606.27404",
-      "summary": "arXiv:2606.27404v1 Announce Type: new Abstract: We study the linear response of an effective relativistic two-fluid medium carrying separately conserved electric and magnetic charge currents. The model is defined by the …",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analysis of Nonlinear Random Polarization in Dispersive Dielectrics",
-      "url": "https://arxiv.org/abs/2606.27445",
-      "summary": "arXiv:2606.27445v1 Announce Type: new Abstract: We present a study on the time-domain propagation of electromagnetic waves in dielectric materials modeled by a nonlinear Debye medium with random perturbations. Polynomial…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sawtooth suppression by flux pumping on HBT-EP",
-      "url": "https://arxiv.org/abs/2606.27450",
-      "summary": "arXiv:2606.27450v1 Announce Type: new Abstract: This study examines the mechanisms underlying sawtooth suppression in the High Beta Tokamak-Extended Pulse (HBT-EP) device. It is observed that strong-intensity sawtooth ac…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gyrokinetic Theory of Linear Gravitational Flute Interchanges with Flow Shear Stabilization",
-      "url": "https://arxiv.org/abs/2606.27453",
-      "summary": "arXiv:2606.27453v1 Announce Type: new Abstract: A collisionless electrostatic gyrokinetic theory is developed to describe how the presence of a differential velocity shear can help stabilize linear gravitational flute in…",
-      "ts": 1782705600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct imaging of enantiomer-specific orientation dynamics in unidirectionally rotating chiral molecules",
-      "url": "https://arxiv.org/abs/2606.27458",
-      "summary": "arXiv:2606.27458v1 Announce Type: new Abstract: Selectively controlling the dynamics of molecular enantiomers underlies advances across chemistry, biology, and physics, yet direct imaging of enantiomer-specific motion ha…",
-      "ts": 1782705600000
     }
   ],
   "sources": [

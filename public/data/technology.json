@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-06-29T22:10:09.497Z",
+  "updated": "2026-06-30T00:06:49.626Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Northwest Earth and Space Science Pathways Project Celebrates Student Innovation Through ROADS from Earth to Venus National Challenge",
+      "url": "https://science.nasa.gov/learning-resources/science-activation/northwest-earth-and-space-science-pathways-project-celebrates-student-innovation-through-roads-from-earth-to-venus-national-challenge/",
+      "summary": "The Northwest Earth and Space Science Pathways (NESSP) project recently concluded its 2025–2026 ROADS (Rover Observation And Discoveries in Space) from Earth to Venus National Challenge, a NASA Science Activation program…",
+      "ts": 1782770758000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA’s top gene therapy regulator is leaving his role",
@@ -713,14 +721,6 @@
       "summary": "NASA selected 41 proposals from 37 companies to advance technologies in support of the agency’s goals to establish a long-term presence on the Moon and enable human exploration of Mars. These American companies, picked f…",
       "ts": 1782488278000,
       "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA and Japan Cooperate on Managed Recycling of Removed Soil Arising from Decontamination Activities after the Accident of the Fukushima Daiichi Nuclear Power Station",
-      "url": "http://www.iaea.org/newscenter/news/iaea-and-japan-cooperate-on-managed-recycling-of-removed-soil-arising-from-decontamination-activities-after-the-accident-of-the-fukushima-daiichi-nuclear-power-station",
-      "summary": "The IAEA and Japan have reinforced their collaboration on recovering the environment in Fukushima Prefecture.",
-      "ts": 1782487805000,
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
