@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-06-30T05:06:43.702Z",
+  "updated": "2026-06-30T09:41:47.079Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Asteroid Day & eight other key dates in asteroid history",
+      "url": "https://www.esa.int/Space_Safety/Planetary_Defence/Asteroid_Day_eight_other_key_dates_in_asteroid_history",
+      "summary": "Happy Asteroid Day! Today is the annual UN-recognised global event to promote public education on asteroids and planetary defence. But why today, of all days? Read on to find out – and find out the other key dates in our…",
+      "ts": 1782811800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Ames Science Stars of the Month July 2026",
+      "url": "https://www.nasa.gov/general/ames-stars-of-the-month-july-2026/",
+      "summary": "NASA Ames Science Stars of the Month: July 2026 The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Sungshin Choi, Yi-Chun Chen, Emma Yates, Eduardo Bendek. Their commit…",
+      "ts": 1782810764000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Short-sighted new student loan caps elevate chiropractic care over critical health care professions",
+      "url": "https://www.statnews.com/2026/06/30/graduate-student-loan-caps-health-care-nursing-chiropractors/?utm_campaign=rss",
+      "summary": "“This administrative logic is hopelessly out of touch with the empirical reality of American health care,” writes David S. Shapiro.",
+      "ts": 1782808200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The loophole in Trump’s obesity drug deal with Eli Lilly and Novo Nordisk",
+      "url": "https://www.statnews.com/2026/06/30/medicare-medicaid-glp1-costs-explained-balance-out-bridge-in/?utm_campaign=rss",
+      "summary": "The Trump administration's grand bargain with drugmakers isn't working out as planned.",
+      "ts": 1782808200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Florida is the first state to require EKGs for high school athletes. It’s a mistake",
+      "url": "https://www.statnews.com/2026/06/30/florida-ekg-law-high-school-athletes/?utm_campaign=rss",
+      "summary": "“There are better ways for schools to protect student athletes,” writes Katherine Hofmann.",
+      "ts": 1782808200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How the Trump administration derailed alcohol addiction research and prevention",
+      "url": "https://www.statnews.com/2026/06/30/maha-trump-ignores-alcohol-risk-deadliest-drug-part-6/?utm_campaign=rss",
+      "summary": "A STAT investigation has found that the Trump administration has downplayed alcohol’s risks and actively derailed efforts to understand and prevent drinking-related harms.",
+      "ts": 1782808200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Abivax seeks to ease safety concerns with new data, boosting shares",
+      "url": "https://www.statnews.com/2026/06/30/abivax-obefazimod-ulcerative-colitis-maintenance-trial-safety-data/?utm_campaign=rss",
+      "summary": "Safety concerns tied to Abivax's experimental bowel disease drug tanked company shares just weeks ago. But a new analysis sent them climbing.",
+      "ts": 1782803122000,
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Metabolic scaling, von Bertalanffy growth and an exponent equation",
@@ -665,62 +721,6 @@
       "summary": "Five days after powerful earthquakes struck central-northern Venezuela, the death toll continues to climb along with the intense rescue operation and the UN coordinates humanitarian assistance, warning that recovery “is …",
       "ts": 1782734400000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Afghanistan airstrikes, rights violations in DR Congo, Gaza displacement",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167835",
-      "summary": "At least 28 civilians were killed and 49 injured in airstrikes carried out in Paktya, Paktika and Kunar provinces in Afghanistan on Sunday evening, the UN Mission in the country has reported.",
-      "ts": 1782734400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "International cooperation critical as terrorism threat evolves",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167834",
-      "summary": "Terrorism is evolving amid global instability characterised by heightened geopolitical tensions, protracted conflicts and growing fragmentation – and the international response must also evolve to meet the challenge.",
-      "ts": 1782734400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN details humanitarian toll of strikes on Ukrainian power industry",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167833",
-      "summary": "Missile and drone attacks killed at least a dozen civilians in Russia and Ukraine over the weekend as both countries continue to launch long-range drone strikes.",
-      "ts": 1782734400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Middle East conflict leaves developing countries paying the price",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167831",
-      "summary": "With another weekend of strikes involving the United States and Iran, renewed diplomatic efforts on Monday have eased immediate fears of escalation, but the economic shockwaves are already taking a heavy toll on some of …",
-      "ts": 1782734400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Spotlight on Israeli settlements in occupied Palestinian territory",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167830",
-      "summary": "Israeli settlement activities in occupied Palestinian territory, declared illegal under a decade-old resolution, are under the spotlight at the Security Council’s open meeting at 10am local time on Monday, with updates f…",
-      "ts": 1782734400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela quake: Search goes on for survivors amid ‘impossible odds’",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167829",
-      "summary": "Emergency response teams pressed on with their lifesaving mission in Venezuela on Monday as countless local responders and families continued their search for missing relatives “against impossible odds”, five days since …",
-      "ts": 1782734400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SatVu restarts commercial operations with HotSat-2",
-      "url": "https://spacenews.com/satvu-restarts-commercial-operations-with-hotsat-2/",
-      "summary": "British thermal imaging startup SatVu announced the start of commercial services June 29 for HotSat-2, marking a return to revenue-generating operations after its debut satellite failed in low Earth orbit in 2023. The po…",
-      "ts": 1782731502000,
-      "categoryId": "space"
     }
   ],
   "categories": [

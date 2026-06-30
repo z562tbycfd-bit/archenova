@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-06-30T05:06:40.820Z",
+  "updated": "2026-06-30T09:41:42.004Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How cricket mothers control the developmental timing of their offspring",
+      "url": "https://phys.org/news/2026-06-cricket-mothers-developmental-offspring.html",
+      "summary": "Diapause is a fascinating form of biological dormancy employed by a broad array of animals as a survival strategy to endure adverse environmental conditions. To overcome the problems associated with seasons that are unsu…",
+      "ts": 1782810007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How embryonic cells 'read' their boundaries to organize themselves",
+      "url": "https://phys.org/news/2026-06-embryonic-cells-boundaries.html",
+      "summary": "In the earliest stages of life, mammalian embryos start as a disorganized cluster of cells. As development progresses, these cells become organized into well-defined shapes and structures. This process happens again and …",
+      "ts": 1782810001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA launches robot to rescue aging Swift telescope from fiery demise",
+      "url": "https://phys.org/news/2026-06-nasa-robot-aging-swift-telescope.html",
+      "summary": "NASA on Tuesday is set to launch a daring robotic rescue mission, a long-shot bid to prevent one of its aging telescopes from vanishing into dust.",
+      "ts": 1782805625000
+    },
     {
       "source": "arXiv Physics",
       "title": "The Optics of Shadow Bands",
@@ -679,27 +700,6 @@
       "title": "Pulses, waves, and cascades in collective migration dynamics",
       "url": "https://arxiv.org/abs/2606.30604",
       "summary": "arXiv:2606.30604v1 Announce Type: new Abstract: Decisions to migrate depend on others' decisions. Dependence can produce nontrivial dynamics. We propose a minimal migration model that accounts for social influence alongs…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-linear control variate in {\\delta}f particle-in-cell methods using symplectic neural networks",
-      "url": "https://arxiv.org/abs/2606.30622",
-      "summary": "arXiv:2606.30622v1 Announce Type: new Abstract: We present a novel {\\delta}f particle-in-cell (PIC) method for the kinetic simulation of electrostatic plasmas in which the bulk density, acting as a control variate, is ev…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lieb-Mattis states for robust entangled differential phase sensing",
-      "url": "https://arxiv.org/abs/2506.10151",
-      "summary": "arXiv:2506.10151v4 Announce Type: cross Abstract: We explore a two-node, entanglement-enhanced sensor network for differential phase sensing that exploits decoherence-free subspaces to suppress common-mode noise, a prima…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polarization-Based Eye Tracking with Personalized Siamese Architectures",
-      "url": "https://arxiv.org/abs/2603.25889",
-      "summary": "arXiv:2603.25889v1 Announce Type: cross Abstract: Head-mounted devices integrated with eye tracking promise a solution for natural human-computer interaction. However, they typically require per-user calibration for opti…",
       "ts": 1782792000000
     }
   ],
