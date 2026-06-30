@@ -59,7 +59,7 @@ export default function Home() {
 
               <Link href="#chapter-imperial-house" className="an-card">
                 <strong>Imperial House</strong>
-                <p>Symbol / Constitution / Core</p>
+                <p>Symbol / Constitution / Foundation</p>
               </Link>
 
               <Link href="#chapter-governance" className="an-card">
@@ -275,7 +275,7 @@ export default function Home() {
         },
         {
           title: "Foundation",
-          subtitle: "Shared system constraint",
+          subtitle: "Constitutional foundation",
           href: "#home-foundation-core",
         },
       ]}
@@ -340,39 +340,39 @@ export default function Home() {
 >
   <Reveal>
     <CivilizationOrbitEngine
-      mark="◇"
-      label="ARCHENOVA CORE"
-      title="Foundation"
-      lead="Foundation is the shared constitutional axis connecting Constitution, Core, Protocol, and Knowledge."
-      layers={[
-        { inset: 4, speed: 38, direction: "cw" },
-        { inset: 16, speed: 56, direction: "ccw" },
-        { inset: 28, speed: 76, direction: "cw" },
-        { inset: 40, speed: 96, direction: "ccw" },
-      ]}
-      nodes={[
-        {
-          title: "Constitution",
-          subtitle: "Invariant principles",
-          href: "/constitution",
-        },
-        {
-          title: "Core",
-          subtitle: "Shared reasoning",
-          href: "/architecture",
-        },
-        {
-          title: "Protocol",
-          subtitle: "Common structure",
-          href: "/architecture",
-        },
-        {
-          title: "Knowledge",
-          subtitle: "Evidence memory",
-          href: "/architecture",
-        },
-      ]}
-    />
+  mark="◇"
+  label="ARCHENOVA FOUNDATION"
+  title="Foundation"
+  lead="Foundation is not a legal foundation. It is ArcheNova's constitutional base: the shared structure connecting Constitution, Core, Protocol, and Knowledge."
+  layers={[
+    { inset: 4, speed: 38, direction: "cw" },
+    { inset: 16, speed: 56, direction: "ccw" },
+    { inset: 28, speed: 76, direction: "cw" },
+    { inset: 40, speed: 96, direction: "ccw" },
+  ]}
+  nodes={[
+    {
+      title: "Constitution",
+      subtitle: "Invariant principles",
+      href: "/constitution",
+    },
+    {
+      title: "Core",
+      subtitle: "Shared reasoning",
+      href: "/architecture",
+    },
+    {
+      title: "Protocol",
+      subtitle: "Common structure",
+      href: "/architecture",
+    },
+    {
+      title: "Knowledge",
+      subtitle: "Evidence memory",
+      href: "/architecture",
+    },
+  ]}
+/>
   </Reveal>
 </section>
 
