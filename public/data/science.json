@@ -1,7 +1,126 @@
 {
   "ok": true,
-  "updated": "2026-06-30T17:58:15.970Z",
+  "updated": "2026-06-30T20:10:13.534Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Sound waves reconstruct Alaska fireball path after cameras miss key details",
+      "url": "https://phys.org/news/2026-06-reconstruct-alaska-fireball-path-cameras.html",
+      "summary": "When a bright fireball streaked across the Alaska sky last spring, the usual tools scientists rely on to track such events—cameras and satellites—did not provide a detailed picture. But the meteoroid left behind somethin…",
+      "ts": 1782849610000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prehistoric plague could have caused population collapse in Stone Age Europe",
+      "url": "https://phys.org/news/2026-06-prehistoric-plague-population-collapse-stone.html",
+      "summary": "Did a major epidemic of plague trigger a prolonged collapse in Europe's population in late Neolithic times—from around 5,600 to 4,000 years ago?",
+      "ts": 1782849606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Ragebait' culture on social media exposed in new study",
+      "url": "https://phys.org/news/2026-06-ragebait-culture-social-media-exposed.html",
+      "summary": "A new study has revealed how social media creators are turning anger into entertainment, and what that means for public debate. Research by Dr. Nicholas John from the University of Manchester and Dr. CJ Reynolds from the…",
+      "ts": 1782848407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "3D genome analysis of germ cell formation tracks 350 million years of vertebrate evolution",
+      "url": "https://phys.org/news/2026-06-3d-genome-analysis-germ-cell.html",
+      "summary": "A research team led by the Universitat Autònoma de Barcelona (UAB) has revealed how the genome is reorganized in 3D during male germ cell formation in vertebrates, leading to important new insights into how biodiversity …",
+      "ts": 1782848406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI deciphers long-range DNA signals behind RNA splicing",
+      "url": "https://phys.org/news/2026-06-ai-deciphers-range-dna-rna.html",
+      "summary": "Accurate RNA splicing is essential for gene expression and human health, yet predicting how DNA sequence variations affect splicing remains a major challenge. Although recent artificial intelligence (AI) models have impr…",
+      "ts": 1782847208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "East Coast broccoli lowers costs and risks from California drought",
+      "url": "https://phys.org/news/2026-06-east-coast-broccoli-lowers-california.html",
+      "summary": "The burgeoning East Coast broccoli industry is helping lower costs slightly and reduce reliance on the drought-prone West. Those were findings from a new supply chain model study that showed expanding production outside …",
+      "ts": 1782847204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Atomic zoom' brings gum disease bacteria into sharp focus",
+      "url": "https://phys.org/news/2026-06-atomic-gum-disease-bacteria-sharp.html",
+      "summary": "The technology at the center of the growing \"resolution revolution\" has again shown its value to scientists at Yale by revealing the secrets of gum disease.",
+      "ts": 1782846601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why some wolves react more strongly to trespassers: Breeders may hold key to scent-based barriers",
+      "url": "https://phys.org/news/2026-06-wolves-react-strongly-trespassers-breeders.html",
+      "summary": "Wolves use their urine to communicate with each other. A recent study looked at the reactions of a pack to the marking of an intruder. This is a first step toward understanding what attracts or repels canids.",
+      "ts": 1782846005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Legalized online sports betting drives fuel addiction's rise, study finds",
+      "url": "https://phys.org/news/2026-06-legalized-online-sports-fuel-addiction.html",
+      "summary": "Since the Supreme Court's 2018 invalidation of the Professional and Amateur Sports Protection Act (PASPA), dozens of states have legalized sports betting.",
+      "ts": 1782846003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Industrial-era pollution and warming reshape Tibetan lake after 1,000 years of climate swings",
+      "url": "https://phys.org/news/2026-06-industrial-era-pollution-reshape-tibetan.html",
+      "summary": "The Tibetan Plateau, together with the Hindu Kush–Karakorum–Himalaya region, has more snow and ice than any other region on Earth apart from the polar regions. As a result, this high-altitude region is particularly sensi…",
+      "ts": 1782845401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "PFAS in most medicines can be replaced with alternatives",
+      "url": "https://phys.org/news/2026-06-pfas-medicines-alternatives.html",
+      "summary": "Certain medicines contain per- and polyfluorinated alkyl compounds, known as PFAS, which are causing increasing environmental harm because of their long-lasting effects. A study published in Sustainable Chemistry and Pha…",
+      "ts": 1782844807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Computer scientists develop a new AI tool that rivals AlphaFold 3 in mapping RNA",
+      "url": "https://phys.org/news/2026-06-scientists-ai-tool-rivals-alphafold.html",
+      "summary": "The same family of artificial intelligence that powers today's image generators is now being aimed at one of biology's hardest puzzles: the ever-changing, three-dimensional shapes of RNA. These are the molecules behind m…",
+      "ts": 1782844803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How a sugar building block influences viral attachment",
+      "url": "https://phys.org/news/2026-06-sugar-block-viral.html",
+      "summary": "Sialic acid is a natural sugar building block found on the surfaces of our cells. It acts as a protective and recognition molecule and plays a central role in the development of the nervous system. Following the modular …",
+      "ts": 1782843605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI-powered platform lays the foundation for a new era of catalyst discovery",
+      "url": "https://phys.org/news/2026-06-ai-powered-platform-lays-foundation.html",
+      "summary": "Artificial intelligence is rapidly changing how scientists search for new catalysts—the materials that speed up chemical reactions essential for producing fuels, chemicals and clean energy technologies. However, despite …",
+      "ts": 1782843603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists teach human cells to compute like tiny computers",
+      "url": "https://phys.org/news/2026-06-scientists-human-cells-tiny.html",
+      "summary": "Researchers have developed a way to program human cells to perform calculations and make autonomous decisions, similar to how computer chips work.",
+      "ts": 1782843001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New way to clean up environmental pollution using phage bioaugmentation",
+      "url": "https://phys.org/news/2026-06-environmental-pollution-phage-bioaugmentation.html",
+      "summary": "The ability of bacteria to remove pollutants from soil, water, mine waste and other environments could be supercharged by a \"friendly\" compatible virus, according to a study led by Flinders University. The new insights, …",
+      "ts": 1782842408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study could unlock key to more reliable truffle cultivation",
+      "url": "https://phys.org/news/2026-06-key-reliable-truffle-cultivation.html",
+      "summary": "As one of the world's most revered gourmet foods, some truffles can sell for more than €1,000 per kilogram, making cultivation a lucrative business. However, the industry remains unpredictable, with some trees capable of…",
+      "ts": 1782842404000
+    },
     {
       "source": "Phys.org",
       "title": "Nearby 'Super Earth' may be a better candidate for life than previously thought",
@@ -311,6 +430,13 @@
       "ts": 1782815939000
     },
     {
+      "source": "APS PRX",
+      "title": "Multiscale Interfacial Mechanics of Soft Solids",
+      "url": "http://link.aps.org/doi/10.1103/8msx-l8s7",
+      "summary": "Author(s): Nicolas Bain, Lawrence A. Wilen, Dominic Gerber, Mengjie Zu, Carl P. Goodrich, Senthilkumar Duraivel, Kaarthik Varma, Harsha Koganti, Robert W. Style, and Eric R. Dufresne Using high-precision 3D location and …",
+      "ts": 1782813600000
+    },
+    {
       "source": "Phys.org",
       "title": "How cricket mothers control the developmental timing of their offspring",
       "url": "https://phys.org/news/2026-06-cricket-mothers-developmental-offspring.html",
@@ -574,132 +700,6 @@
       "title": "Peculiarities Of High-Speed Dynamics Of Two-Photon Absorption In Si Nanowire Waveguides",
       "url": "https://arxiv.org/abs/2606.29127",
       "summary": "arXiv:2606.29127v1 Announce Type: new Abstract: We investigate the complete dynamical pathway of photon-electron interactions involved in two-photon absorption (TPA) in a silicon nanowire waveguide using three independen…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "CORDEX-ML-Bench: A Benchmark for Data-Driven Regional Climate Downscaling -Experiment Design and Overview",
-      "url": "https://arxiv.org/abs/2606.29172",
-      "summary": "arXiv:2606.29172v1 Announce Type: new Abstract: Machine learning (ML) has emerged as a cost-effective approach to complement dynamical downscaling for producing high-resolution regional climate projections. However, the …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Detecting Quantum Stochastic Effects in Radiation Reaction via Laser-Produced Surface QED Plasmas",
-      "url": "https://arxiv.org/abs/2606.29214",
-      "summary": "arXiv:2606.29214v1 Announce Type: new Abstract: We propose a method to detect quantum stochastic effects in radiation reaction by irradiating a V-shaped plasma cavity with an ultra-intense laser pulse. The pulse accelera…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Latent Genetic Algorithm for Crystal Structure Prediction",
-      "url": "https://arxiv.org/abs/2606.29220",
-      "summary": "arXiv:2606.29220v1 Announce Type: new Abstract: Predicting crystal structures requires navigating rugged energy landscapes in which favorable local motifs must be inherited across candidates with incompatible cells, dens…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-energy positron scattering from metastable helium",
-      "url": "https://arxiv.org/abs/2606.29253",
-      "summary": "arXiv:2606.29253v1 Announce Type: new Abstract: Low-energy positron scattering from singlet and triplet metastable He($1s2s$) is investigated using the $R$-matrix propagation method in hyperspherical coordinates. Elastic…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two kinds of robustness are not the same: disentangling fault tolerance and low-SNR robustness in multi-domain event detection on real data",
-      "url": "https://arxiv.org/abs/2606.29339",
-      "summary": "arXiv:2606.29339v1 Announce Type: new Abstract: Reliable event detection underpins induced-seismicity monitoring for Carbon dioxide Capture and Storage (CCS) and geothermal operations, distributed acoustic sensing (DAS),…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coupling Efficiency and Laser-Induced Damage Threshold Characterization of an End-Capped Optical Fiber with a Sub-Nanosecond Pulsed Laser",
-      "url": "https://arxiv.org/abs/2606.29383",
-      "summary": "arXiv:2606.29383v1 Announce Type: new Abstract: This report presents experimental measurements of coupling efficiency and laser-induced damage thresholds for a polarization-maintaining (PM) fiber patchcord with integrate…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flow-polarity decoupling and universal mobility enhancement in dense bacterial active fluids with mesoscale order",
-      "url": "https://arxiv.org/abs/2606.29410",
-      "summary": "arXiv:2606.29410v1 Announce Type: new Abstract: Active fluids consisting of living cells or synthetic microswimmers display rich emergent behavior and nonequilibrium mechanical properties, which not only shed light on va…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "All-directional gamma-ray imaging using a NaI(Tl) scintillator with double-sided SiPM readout",
-      "url": "https://arxiv.org/abs/2606.29411",
-      "summary": "arXiv:2606.29411v1 Announce Type: new Abstract: Gamma-ray imaging systems capable of determining the direction of incident radiation are essential for homeland security, nuclear non-proliferation, environmental monitorin…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First-in-human quantum entanglement imaging",
-      "url": "https://arxiv.org/abs/2606.29421",
-      "summary": "arXiv:2606.29421v1 Announce Type: new Abstract: Annihilation photons are quantum-entangled in polarization, a phenomenon that has not been exploited in medical diagnostics so far. We present the first in vivo imaging of …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entropic Time, Psychophysics, and Deformed Neural Dynamics: A Unified Physical Theory for Human Time Perception",
-      "url": "https://arxiv.org/abs/2606.29427",
-      "summary": "arXiv:2606.29427v1 Announce Type: new Abstract: We present a unified physical theory demonstrating that human subjective time perception does not track geometric coordinate time $t$, but instead emerges from a local metr…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-point statistical moments of the nonhomogeneous stochastic advection equation in the small correlation length limit",
-      "url": "https://arxiv.org/abs/2606.29479",
-      "summary": "arXiv:2606.29479v1 Announce Type: new Abstract: This paper presents the derivation of closed-form expressions of the single-point statistical moments of a solution to a nonhomogeneous stochastic advection equation with a…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nanometric voids as optical antennas for rewritable momentum-engineered photonics in silicon",
-      "url": "https://arxiv.org/abs/2606.29551",
-      "summary": "arXiv:2606.29551v1 Announce Type: new Abstract: Optical antennas are widely used to localize electromagnetic fields far below the diffraction limit, enabling enhanced light-matter interactions across nanophotonics. Yet t…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometric Algebra Meets Cartesian Tensors: Higher-Order Equivariance for Interatomic Potentials",
-      "url": "https://arxiv.org/abs/2606.29584",
-      "summary": "arXiv:2606.29584v1 Announce Type: new Abstract: $\\mathrm{Cl}(3,0)$ interatomic potentials, despite their algebraic elegance, predict force magnitudes accurately but force directions poorly. Across ten rMD17 molecules, ev…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Monolithic kinetic algorithm for heterogeneous porous media systems using a continuous one-domain approach",
-      "url": "https://arxiv.org/abs/2606.29619",
-      "summary": "arXiv:2606.29619v1 Announce Type: new Abstract: We propose a lattice Boltzmann model (LBM) on standard lattices for simulating multi-dimensional, weakly compressible, isothermal flows within and around isotropic heteroge…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kriging and neural network models for pressure losses across perforated plates",
-      "url": "https://arxiv.org/abs/2606.29628",
-      "summary": "arXiv:2606.29628v1 Announce Type: new Abstract: In this paper, two novel data-driven models based on kriging and neural networks (NN) are proposed to predict pressure losses across perforated plates with circular perfora…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Mapping Sheath with Thermally Drawn Multi-Electrode Basket for Cardiac Electrophysiological Recording and Ablation Catheter Delivery",
-      "url": "https://arxiv.org/abs/2606.29634",
-      "summary": "arXiv:2606.29634v1 Announce Type: new Abstract: Cardiac arrhythmias, particularly atrial fibrillation, represent a major cardiovascular health burden and underscore the need for efficient and integrated strategies for el…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sub-Terahertz Channel Performance under Snowfall",
-      "url": "https://arxiv.org/abs/2606.29637",
-      "summary": "arXiv:2606.29637v1 Announce Type: new Abstract: The terahertz (THz) band promises terabit-per-second links but is highly sensitive to snowfall. Natural snowflakes are non-spherical. Yet existing THz studies treat them as…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "What Naturalness Measures: Fine-Tuning and Informational Invariants in Cosmology and Dark Matter",
-      "url": "https://arxiv.org/abs/2606.29660",
-      "summary": "arXiv:2606.29660v1 Announce Type: new Abstract: Naturalness is commonly presented as an objective constraint on physical theories: a model requiring fine-tuning is judged implausible. This presentation conflates a repres…",
       "ts": 1782792000000
     }
   ],

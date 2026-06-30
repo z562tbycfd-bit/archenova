@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-06-30T17:58:18.732Z",
+  "updated": "2026-06-30T20:10:16.726Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Republican Tom Kean Jr. reveals depression diagnosis after his four-month absence from Congress",
+      "url": "https://www.statnews.com/2026/06/30/republican-tom-kean-jr-reveals-depression-after-absence-from-congress/?utm_campaign=rss",
+      "summary": "Depression, the New Jersey congressman said, “is physical, it is emotional, and until you experience it yourself, it is difficult to fully understand how powerful this illness can be.”",
+      "ts": 1782848401000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force fields mobile satellite-jamming system ",
+      "url": "https://spacenews.com/space-force-fields-mobile-satellite-jamming-system/",
+      "summary": "The system known as Meadowlands is transitioning to operational use as the military places greater emphasis on electronic warfare The post Space Force fields mobile satellite-jamming system appeared first on SpaceNews.",
+      "ts": 1782847889000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Claude Science is Here, Antibiotics Designed by Text Prompt Among Applications",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/claude-science-is-here-antibiotics-designed-by-text-prompt-among-applications/",
+      "summary": "Anthropic has released Claude Science, an AI workbench for scientists that consolidates fragmented research tools into a single reasoning layer. Basecamp Research’s antibiotic design and vaccine prediction AI models are …",
+      "ts": 1782843076000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Matthew Williams Joins the Commercial Space Federation as Senior Advisor, National Security",
+      "url": "https://spacenews.com/matthew-williams-joins-the-commercial-space-federation-as-senior-advisor-national-security/",
+      "summary": "June 30, 2026 – Washington, D.C. — The Commercial Space Federation (CSF) announced today that Matthew Williams, a former Principal Deputy Assistant Secretary of Defense and Chief of Staff to […] The post Matthew Williams…",
+      "ts": 1782842400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body",
+      "url": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/",
+      "summary": "Listen to the session or watch below Billions of dollars are flooding into efforts to reverse aging as scientists explore ways to return cells to a younger state. But how far off are these experimental treatments? Will t…",
+      "ts": 1782841008000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "iPSC-Derived Retinal Endothelial Cells Offer Platform for Studying Diseases",
@@ -169,6 +209,46 @@
       "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry…",
       "ts": 1782820800000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Strait of Hormuz: Gradual re-opening is no quick fix for developing nations, UN warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167844",
+      "summary": "Re-opening the Strait of Hormuz would bring vital relief for many economies, but developing countries will continue to grapple with increased food and fuel costs, according to a new UN report released on Tuesday.",
+      "ts": 1782820800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "New WHO plan urges stronger action against fungal disease",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167842",
+      "summary": "The World Health Organization (WHO) has published new guidance to help countries confront the rising burden of fungal disease and antifungal resistance - one of the most neglected global health threats, yet still largely…",
+      "ts": 1782820800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Children are turning to AI for homework – and life advice",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167841",
+      "summary": "Millions of children across the globe are already using artificial intelligence to learn, solve problems and even seek advice about personal worries, while safeguards are failing to keep pace with the technology's rapid …",
+      "ts": 1782820800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela quake: Key services crippled and health workers missing",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167840",
+      "summary": "Search and rescue operations continued in Venezuela on Tuesday as thousands of displaced survivors struggled to find shelter and humanitarians issued an alert over the spread of infectious disease.",
+      "ts": 1782820800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Amid crushing European heatwave, things are about to get hotter for transport systems",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167839",
+      "summary": "As European transport officials scramble to deal with melting train tracks and buckling roads amid a crushing heatwave, a UN report released Tuesday warns of more extreme weather in the decades ahead for Europe, Central …",
+      "ts": 1782820800000,
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -641,86 +721,6 @@
       "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
       "ts": 1782777600000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "ts": 1782777600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Inside Genebench-Pro",
-      "url": "https://openai.com/index/genebench-pro/case-studies",
-      "summary": "",
-      "ts": 1782777600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Northwest Earth and Space Science Pathways Project Celebrates Student Innovation Through ROADS from Earth to Venus National Challenge",
-      "url": "https://science.nasa.gov/learning-resources/science-activation/northwest-earth-and-space-science-pathways-project-celebrates-student-innovation-through-roads-from-earth-to-venus-national-challenge/",
-      "summary": "The Northwest Earth and Space Science Pathways (NESSP) project recently concluded its 2025–2026 ROADS (Rover Observation And Discoveries in Space) from Earth to Venus National Challenge, a NASA Science Activation program…",
-      "ts": 1782770758000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA’s top gene therapy regulator is leaving his role",
-      "url": "https://www.statnews.com/2026/06/29/vijay-kumar-exits-fda-office-of-therapeutic-products/?utm_campaign=rss",
-      "summary": "The departure of Vijay Kumar follows a broader leadership shakeup at the FDA.",
-      "ts": 1782769566000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA, SBA Announce New Initiative to Scale American Space Economy ",
-      "url": "https://www.nasa.gov/news-release/nasa-sba-announce-new-initiative-to-scale-american-space-economy/",
-      "summary": "NASA and the U.S. Small Business Administration (SBA) launched the SBIC-NASA Initiative on Monday to increase investment in American manufacturers of industrial components and providers of technologies critical to space …",
-      "ts": 1782765597000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Newest Wind Tunnel Builds on Legacy of Innovation",
-      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasas-newest-wind-tunnel-builds-on-legacy-of-innovation/",
-      "summary": "For more than 100 years, wind tunnels at NASA’s Langley Research Center in Hampton, Virginia, have helped shape the future of flight. Now, two of NASA’s longest-serving facilities — the 12-Foot Low-Speed Tunnel and the 2…",
-      "ts": 1782765503000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AstraZeneca to pay $34 million to settle kickback charges filed by Texas attorney general",
-      "url": "https://www.statnews.com/pharmalot/2026/06/29/astrazeneca-kickback-charges-texas-settlement/?utm_campaign=rss",
-      "summary": "AstraZeneca agreed to pay $34 million to settle claims that the company paid kickbacks to improperly influence prescriptions paid for by Texas Medicaid.",
-      "ts": 1782764263000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: 26 states sue to block Medicaid work requirements",
-      "url": "https://www.statnews.com/2026/06/29/state-lawsuit-block-medicaid-work-requirements/?utm_campaign=rss",
-      "summary": "States argue the rules will make it too hard for people to get the Medicaid coverage they're entitled too.",
-      "ts": 1782763907000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Schistosomiasis Vaccine Shows Strong Immune Memory in Early Clinical Trials",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/schistosomiasis-vaccine-shows-strong-immune-memory-in-early-clinical-trials/",
-      "summary": "The experimental SchistoShield vaccine, against schistosomiasis, triggered strong B-cell and T-cell immune memory in early U.S. and African clinical trials, marking a promising step toward preventing and treating the par…",
-      "ts": 1782760434000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Iron Accumulation Drives Neurodegeneration via Chronic Stress Pathway",
-      "url": "https://www.genengnews.com/topics/drug-discovery/iron-accumulation-drives-neurodegeneration-via-chronic-stress-pathway/",
-      "summary": "Iron accumulation is a key target in the effort to predict, prevent, and treat neurodegenerative diseases. A new stress pathway is a promising therapeutic route for boosting neuron resilience. The post Iron Accumulation …",
-      "ts": 1782758360000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
