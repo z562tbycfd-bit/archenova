@@ -1,13 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-06-30T15:34:19.331Z",
+  "updated": "2026-06-30T17:58:18.732Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "iPSC-Derived Retinal Endothelial Cells Offer Platform for Studying Diseases",
+      "url": "https://www.genengnews.com/topics/translational-medicine/ipsc-derived-retinal-endothelial-cells-offer-platform-for-studying-diseases/",
+      "summary": "Researchers developed iPSC-derived retinal endothelial cells that in mouse retinal disease models integrated into damaged tissue, regenerating blood vessels and restoring retinal function, and in vitro formed functional …",
+      "ts": 1782840145000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
+      "url": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
+      "summary": "Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-…",
+      "ts": 1782838838000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Anthropic releases Claude Science, a product aimed at researchers, the pharma industry",
+      "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/?utm_campaign=rss",
+      "summary": "Anthropic released Claude Science, an application that optimizes its large language model for scientists and, especially, those doing research at pharma companies.",
+      "ts": 1782838800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "A Most “Pleasantly Situated” Estate",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-most-pleasantly-situated-estate-153949/",
+      "summary": "The farms and gardens of Mount Vernon played a central role in the life of America’s first president.",
+      "ts": 1782835200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Marburg outbreak is reported in Uganda, threatening to complicate Ebola response in region",
+      "url": "https://www.statnews.com/2026/06/30/marburg-virus-cases-ugandan-ebola-outbreak-zone/?utm_campaign=rss",
+      "summary": "Sources confirm to STAT that Marburg cases have been detected in western Uganda, adding another viral hemorrhagic fever outbreak in central Africa.",
+      "ts": 1782835099000,
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Apply now to ESA's Junior Professional Programme",
       "url": "https://www.esa.int/About_Us/Careers_at_ESA/Apply_now_to_ESA_s_Junior_Professional_Programme",
       "summary": "Are you passionate about space and looking to build a long-term career in the European space sector? Do you have less than three years of professional experience and a Master’s degree? The European Space Agency is offeri…",
       "ts": 1782833400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Starry Chandelier Cluster",
+      "url": "https://www.nasa.gov/image-article/starry-chandelier-cluster/",
+      "summary": "This image released on June 26, 2026, features the globular cluster NGC 6723, sometimes called the Chandelier Cluster. Like its namesake, it sparkles with countless lights. However, each ‘lightbulb’ in this chandelier is…",
+      "ts": 1782831779000,
       "categoryId": "space"
     },
     {
@@ -107,6 +155,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "Genetic Engineering News",
+      "title": "New Agentic Capabilities for Tasks Across the Complete Research Workflow",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/new-agentic-capabilities-for-tasks-across-the-complete-research-workflow/",
+      "summary": "Officials at Elsevier say the company is expanding LeapSpace, a research-grade AI workspace, with new agentic capabilities that help “researchers carry out an even greater range of tasks within their complex workflow to …",
+      "ts": 1782820849000,
+      "categoryId": "bio"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "Agriculture is ready for AI, but its data isn’t",
       "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
@@ -145,6 +201,14 @@
       "summary": "NASA Ames Science Stars of the Month: July 2026 The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Sungshin Choi, Yi-Chun Chen, Emma Yates, Eduardo Bendek. Their commit…",
       "ts": 1782810764000,
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How ChatGPT adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "ts": 1782810000000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -571,6 +635,30 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "ts": 1782777600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "ts": 1782777600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Inside Genebench-Pro",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "summary": "",
+      "ts": 1782777600000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NASA",
       "title": "Northwest Earth and Space Science Pathways Project Celebrates Student Innovation Through ROADS from Earth to Venus National Challenge",
       "url": "https://science.nasa.gov/learning-resources/science-activation/northwest-earth-and-space-science-pathways-project-celebrates-student-innovation-through-roads-from-earth-to-venus-national-challenge/",
@@ -633,94 +721,6 @@
       "summary": "Iron accumulation is a key target in the effort to predict, prevent, and treat neurodegenerative diseases. A new stress pathway is a promising therapeutic route for boosting neuron resilience. The post Iron Accumulation …",
       "ts": 1782758360000,
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Shilpa Commissions Integrated ADC Drug Substance GMP Manufacturing Facility",
-      "url": "https://www.genengnews.com/topics/bioprocessing/shilpa-commissions-integrated-adc-drug-substance-gmp-manufacturing-facility/",
-      "summary": "The manufacturing of highly potent compounds has been a core pillar of Shilpa’s identity, and this ADC drug substance facility adds a new sophisticated dimension to the Shilpa group’s capabilities. The post Shilpa Commis…",
-      "ts": 1782756019000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AI agents are not your “coworkers”",
-      "url": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The wo…",
-      "ts": 1782756000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "5 takeaways from STAT’s investigation into microhospital operator Nutex Health",
-      "url": "https://www.statnews.com/2026/06/29/nutex-health-investigation-takeaways-stat-news-no-surprises-act/?utm_campaign=rss",
-      "summary": "Read the takeaways from STAT's investigation into Nutex, which used the No Surprises Act to fuel a stunning financial turnaround.",
-      "ts": 1782754096000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Unredacted comments from California hospital lawsuits show stunning admissions and a ‘forced’ McKinsey collaboration",
-      "url": "https://www.statnews.com/2026/06/29/healthcare-news-unredacted-ca-hospital-lawsuit-sad-mckinsey-tax/?utm_campaign=rss",
-      "summary": "Who controls the Medicaid market, GLP-1 usage and pizza household costs, and more from Health Care Inc.",
-      "ts": 1782752593000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "CCRM Ireland Would Be Established to Hasten Translation of Advanced Therapies Into Patient Treatments",
-      "url": "https://www.genengnews.com/topics/translational-medicine/ccrm-ireland-would-be-established-to-hasten-translation-of-advanced-therapies-into-patient-treatments/",
-      "summary": "The partnership will explore how to advance the design and clinical translation and delivery of personalized immune cell therapies, while also leveraging Ireland’s biopharmaceutical manufacturing skills. The post CCRM Ir…",
-      "ts": 1782752456000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
-      "url": "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
-      "summary": "Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build auton…",
-      "ts": 1782752419000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Longevity, wellness physicians named to panel advising FDA on peptides",
-      "url": "https://www.statnews.com/2026/06/29/new-fda-peptide-advisers-compounding-committee-conflicts/?utm_campaign=rss",
-      "summary": "The panel will soon consider whether to relax restrictions on certain peptides.",
-      "ts": 1782751895000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "ESA to seek lunar mapping capability for Argonaut lander",
-      "url": "https://spacenews.com/esa-to-seek-lunar-mapping-capability-for-argonaut-lander/",
-      "summary": "MILAN — The European Space Agency will rely on external lunar topographic data during the design phase of its Argonaut lunar lander, and possibly for its first mission, while working […] The post ESA to seek lunar mappin…",
-      "ts": 1782746691000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Beck: Iridium acquisition the “logical next step” for Rocket Lab",
-      "url": "https://spacenews.com/beck-iridium-acquisition-the-logical-next-step-for-rocket-lab/",
-      "summary": "Rocket Lab’s chief executive says the company’s acquisition of Iridium was the “logical next step” in his ambitions to tap into the lucrative space services market. The post Beck: Iridium acquisition the “logical next st…",
-      "ts": 1782746445000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut Chris Williams Preps for Spacewalk",
-      "url": "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-preps-for-spacewalk/",
-      "summary": "Flight engineer Sophie Adenot of ESA (European Space Agency) helps flight engineer Chris Williams of NASA as he tries on his spacesuit on June 23, 2026, testing its comfort and mobility as well as its communications and …",
-      "ts": 1782746323000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Mapping Earth’s Observations, featuring Betsy Ford",
-      "url": "https://www.nasa.gov/general/mapping-earths-observations-featuring-betsy-ford/",
-      "summary": "NASA’s Earth-observing satellites track an enormous range of phenomena: how aerosols move through the atmosphere, how moisture descends through soil, how land-cover shifts over decades. It’s some of the most consequentia…",
-      "ts": 1782746204000,
-      "categoryId": "space"
     }
   ],
   "categories": [
