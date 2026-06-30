@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-06-30T09:41:47.079Z",
+  "updated": "2026-06-30T12:11:39.157Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Orbital files plans for 100,000 orbital data centers",
+      "url": "https://spacenews.com/orbital-files-plans-for-100000-orbital-data-centers/",
+      "summary": "Five-month-old startup Orbital has asked the Federal Communications Commission for permission to deploy up to 100,000 data center satellites, aiming to bring 10 gigawatts of computing power from space to meet rising arti…",
+      "ts": 1782820707000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Building tech in the world’s secret R&D hub",
+      "url": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
+      "summary": "Apple. Anthropic. Disney Research. Google. Meta. Microsoft. NVIDIA. OpenAI. Few places outside Silicon Valley can claim R&D hubs from all of these companies. Fewer still are concentrated in a city of just over 400,000 pe…",
+      "ts": 1782815010000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "ESA",
       "title": "Asteroid Day & eight other key dates in asteroid history",
@@ -705,22 +721,6 @@
       "summary": "Agentic AI will allow laboratories to move beyond traditional monitoring and reactive troubleshooting toward proactive actions that help prevent issues before they impact performance, quality, or scientific outcomes. The…",
       "ts": 1782734404000,
       "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan: UN welcomes extension of vital aid corridor amid rising insecurity",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167836",
-      "summary": "The United Nations has welcomed Sudan’s decision to extend the opening of an aid corridor with neighbouring Chad and continues to express concern over the ongoing escalation in El Obeid, capital of North Kordofan state.",
-      "ts": 1782734400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela earthquake death toll passes 1,700 as UN continues to scale up response",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167837",
-      "summary": "Five days after powerful earthquakes struck central-northern Venezuela, the death toll continues to climb along with the intense rescue operation and the UN coordinates humanitarian assistance, warning that recovery “is …",
-      "ts": 1782734400000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

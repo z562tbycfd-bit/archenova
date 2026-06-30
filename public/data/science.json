@@ -1,7 +1,49 @@
 {
   "ok": true,
-  "updated": "2026-06-30T09:41:42.004Z",
+  "updated": "2026-06-30T12:11:36.430Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study investigates stress, coping among adult siblings of individuals with intellectual and developmental disabilities",
+      "url": "https://phys.org/news/2026-06-stress-coping-adult-siblings-individuals.html",
+      "summary": "Assistant professor of practice, psychology and human development, and VKC member Jessika Boles, Ph.D., and colleagues have published results of a research study detailing the complex lived experiences of adult siblings …",
+      "ts": 1782820801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How guaranteed income can support working families facing economic hardship",
+      "url": "https://phys.org/news/2026-06-income-families-economic-hardship.html",
+      "summary": "An innovative partnership between George Mason University, Fairfax County and the United Way is shedding light on how guaranteed income can support working families facing economic hardship.",
+      "ts": 1782819604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The blueprint to reducing Lismore floods by up to 2 meters",
+      "url": "https://phys.org/news/2026-06-blueprint-lismore-meters.html",
+      "summary": "CSIRO hydrologist Dr. Jai Vaze has lost count of how many times over the past four years he has been asked if he can flood-proof the Northern Rivers region of New South Wales.",
+      "ts": 1782818401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stop the sting! Fire ant control tips",
+      "url": "https://phys.org/news/2026-06-ant.html",
+      "summary": "Fire ants are a common nuisance across much of the United States, known for their painful stings and unsightly dirt mounds in lawns and outdoor spaces. However, for individuals who are allergic, these pests can cause pot…",
+      "ts": 1782817203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "One of the most distant 'leaky' galaxies ever found may reveal how the universe reionized",
+      "url": "https://phys.org/news/2026-06-distant-leaky-galaxies-reveal-universe.html",
+      "summary": "Astronomers have identified one of the most distant candidate galaxies known to leak ionizing radiation—the same kind of radiation thought to have transformed the early universe during the epoch of reionization.",
+      "ts": 1782816001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "World Cup research reveals strategy to give teams a penalty-shootout edge",
+      "url": "https://phys.org/news/2026-06-world-cup-reveals-strategy-teams.html",
+      "summary": "One of football's most iconic moments—the penalty shootout—may be far more strategic than previously thought, with new research challenging the notion that the team kicking first holds a major advantage.",
+      "ts": 1782815939000
+    },
     {
       "source": "Phys.org",
       "title": "How cricket mothers control the developmental timing of their offspring",
@@ -658,48 +700,6 @@
       "title": "Modulation theory formulation of atomic light-matter interaction",
       "url": "https://arxiv.org/abs/2606.30427",
       "summary": "arXiv:2606.30427v1 Announce Type: new Abstract: We provide a re-formulation of the light-matter interaction of trapped-atom systems in terms of classical modulation theory. We introduce commuting ``mean'' quadrature oper…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collective cooperation without individual fidelity in LLM agents",
-      "url": "https://arxiv.org/abs/2606.30454",
-      "summary": "arXiv:2606.30454v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as agents in simulations of social systems, yet it remains unclear when their behavior can be interpreted as a faithful p…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Offline accuracy is not enough: closed-loop instability and stabilisation of a wall-sensor neural estimator in opposition control",
-      "url": "https://arxiv.org/abs/2606.30484",
-      "summary": "arXiv:2606.30484v1 Announce Type: new Abstract: Opposition control reduces skin-friction drag by opposing the wall-normal velocity on a near-wall detection plane, but the detection-plane velocity it requires is not avail…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Detector-aware target definitions for full-event particle reconstruction",
-      "url": "https://arxiv.org/abs/2606.30485",
-      "summary": "arXiv:2606.30485v1 Announce Type: new Abstract: Hit-level ML-based particle reconstruction methods have recently shown promising results. However, the reconstruction models are currently provided with targets that are un…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantization and Biphoton Statistics of k-Gap Solitons in Nonlinear Photonic Time Crystals",
-      "url": "https://arxiv.org/abs/2606.30508",
-      "summary": "arXiv:2606.30508v1 Announce Type: new Abstract: Nonlinear photonic time crystals (PTCs) can support solitons inside momentum k gaps, where the amplification of k gap modes is saturated by Kerr nonlinearity, forming spati…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electrophoretic motion of a liquid droplet with Brinkman-screened internal hydrodynamics",
-      "url": "https://arxiv.org/abs/2606.30515",
-      "summary": "arXiv:2606.30515v1 Announce Type: new Abstract: We develop a theory for the electrophoresis of a spherical porous liquid droplet with prescribed uniform surface charge. The exterior electrokinetics is governed by the Poi…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pulses, waves, and cascades in collective migration dynamics",
-      "url": "https://arxiv.org/abs/2606.30604",
-      "summary": "arXiv:2606.30604v1 Announce Type: new Abstract: Decisions to migrate depend on others' decisions. Dependence can produce nontrivial dynamics. We propose a minimal migration model that accounts for social influence alongs…",
       "ts": 1782792000000
     }
   ],
