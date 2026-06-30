@@ -1,7 +1,126 @@
 {
   "ok": true,
-  "updated": "2026-06-30T20:10:13.534Z",
+  "updated": "2026-06-30T22:16:32.634Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tens of millions swelter as heat wave blasts US",
+      "url": "https://phys.org/news/2026-06-tens-millions-swelter-blasts.html",
+      "summary": "Tens of millions of Americans sweltered under furnace-like temperatures Tuesday as central and eastern cities hunkered down for a heat wave set to last through the July 4 holiday weekend.",
+      "ts": 1782856806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black locust deploys peptides to steer root bacteria into nitrogen fixation",
+      "url": "https://phys.org/news/2026-06-black-locust-deploys-peptides-root.html",
+      "summary": "Plants need nitrogen to grow. Many legumes meet this need through a symbiotic relationship: They harbor bacteria that fix atmospheric nitrogen and make it available to the plant. Until now, it was largely unclear how a p…",
+      "ts": 1782856803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Jellyfish reveal rapid repair system behind scar-free healing",
+      "url": "https://phys.org/news/2026-06-jellyfish-reveal-rapid-scar-free.html",
+      "summary": "A decade ago this summer, at the Marine Biological Laboratory, Jocelyn Malamy watched jellyfish cells \"walk\" toward each other to close a wound for the first time. An associate professor of molecular genetics and cell bi…",
+      "ts": 1782856201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chandra releases 'red, white, and blue' universe for US 250th",
+      "url": "https://phys.org/news/2026-06-chandra-red-white-blue-universe.html",
+      "summary": "In celebration of the 250th birthday of the United States, NASA has unveiled four cosmic images from its Chandra X-ray Observatory, rendered in red, white and blue, that represent the wonders of the universe the agency e…",
+      "ts": 1782855606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers find an enigmatic source that is most likely a Little Red Dot in formation",
+      "url": "https://phys.org/news/2026-06-astronomers-enigmatic-source-red-dot.html",
+      "summary": "Astronomers have, for the first time, found a source in the process of becoming a Little Red Dot, using the James Webb Space Telescope (JWST). Little Red Dots are likely early galaxies and some of the most intriguing obj…",
+      "ts": 1782855603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bacteria use linked motors to reel in resistance DNA with extreme force",
+      "url": "https://phys.org/news/2026-06-bacteria-linked-motors-reel-resistance.html",
+      "summary": "Every year, bacteria kill more than a million people worldwide through infections that no longer respond to antibiotics. In many cases, why those bacteria are so hard to stop comes down to their uniquely powerful structu…",
+      "ts": 1782855001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Warming can shift freshwater crustaceans to a 'greener' diet",
+      "url": "https://phys.org/news/2026-06-shift-freshwater-crustaceans-greener-diet.html",
+      "summary": "Climate change is not only warming our lakes and rivers, it is also changing what invasive species eat. A new experimental study published in Limnology and Oceanography Letters shows that temperature-driven diet shifts i…",
+      "ts": 1782854410000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly discovered corn trait may help improve crop drought tolerance",
+      "url": "https://phys.org/news/2026-06-newly-corn-trait-crop-drought.html",
+      "summary": "Researchers report some corn plants are genetically predisposed to develop longer, less constricted water-conducting tissues and deeper roots, which helps them deal with drought. That's the conclusion of a team led by Pe…",
+      "ts": 1782854401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Layered ZnPS₃ emits single photons, opening new path for quantum chips",
+      "url": "https://phys.org/news/2026-06-layered-znps-emits-photons-path.html",
+      "summary": "Scientists from the Faculty of Physics at the University of Warsaw, in collaboration with teams from the National University of Singapore and Radboud University in the Netherlands, have observed single-photon emission fr…",
+      "ts": 1782853801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "One‑step process generates high entropy alloy nanoparticles in milliseconds for catalyst creation",
+      "url": "https://phys.org/news/2026-06-onestep-generates-high-entropy-alloy.html",
+      "summary": "A University at Buffalo-led team of researchers has developed a method for producing advanced nanoparticles that could accelerate the discovery of new materials for energy and electronic applications. The study, publishe…",
+      "ts": 1782853208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The strange history of Czech cactus hunters, and why some see themselves as Robin Hood figures",
+      "url": "https://phys.org/news/2026-06-strange-history-czech-cactus-hunters.html",
+      "summary": "Four Czech men were arrested at Guarulhos International Airport in São Paulo, Brazil, in February this year on charges of smuggling native species.",
+      "ts": 1782853202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Medici brothers' remains reveal Renaissance-era malaria strains, closing the book on a murder mystery",
+      "url": "https://phys.org/news/2026-06-medici-brothers-reveal-renaissance-era.html",
+      "summary": "In 1562, Cardinal Giovanni de Medici, a scion of the dynastic family that dominated politics and banking in Tuscany during the Renaissance, died of malaria. Twenty-five years later, his older brother, Grand Duke Francesc…",
+      "ts": 1782852601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Should AI chatbots simulate care for students? Alberta teachers say no",
+      "url": "https://phys.org/news/2026-06-ai-chatbots-simulate-students-alberta.html",
+      "summary": "Should schools allow AI systems that don't just answer students, but appear to care for them?",
+      "ts": 1782852005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Super-deep diamond discovery may rewrite Earth's role in preserving the building blocks of life",
+      "url": "https://phys.org/news/2026-06-super-deep-diamond-discovery-rewrite.html",
+      "summary": "Two diamonds formed 700 kilometers below the Earth's surface reveal a life-giving synchronicity between shifting continents and the cycling of phosphorus, a vital building block of DNA and cell membranes.",
+      "ts": 1782852004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Extreme droughts in the rainforest reduce important feedback between soil and atmosphere, study finds",
+      "url": "https://phys.org/news/2026-06-extreme-droughts-rainforest-important-feedback.html",
+      "summary": "Isoprene is a volatile organic compound (VOC) that is produced naturally by plants. More than 500 megatonnes of isoprene are emitted each year into Earth's atmosphere, primarily from tropical forests. Soils are recognize…",
+      "ts": 1782851401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mice actively seek better views to make visual decisions, virtual reality experiments show",
+      "url": "https://phys.org/news/2026-06-mice-views-visual-decisions-virtual.html",
+      "summary": "Animals don't experience the world passively. A hawk tilts its head to track prey. A person leans forward to read a sign. Scientists call this \"active sensing\": moving the body to gather better information. A specific ve…",
+      "ts": 1782850805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Data suggest greater glacial flood risk faced by Bhutan",
+      "url": "https://phys.org/news/2026-06-greater-glacial-bhutan.html",
+      "summary": "Researchers at Newcastle University have carried out the first comprehensive modeling of glacial lake outburst flood (GLOF) risk in Bhutan and identified previously unrecognized high-risk lakes.",
+      "ts": 1782850801000
+    },
     {
       "source": "Phys.org",
       "title": "Sound waves reconstruct Alaska fireball path after cameras miss key details",
@@ -581,125 +700,6 @@
       "title": "Engineering Collective Microbial Dynamics for Sustainable Thermal Management",
       "url": "https://arxiv.org/abs/2606.28646",
       "summary": "arXiv:2606.28646v1 Announce Type: new Abstract: The rapid growth of energy-intensive technologies, including artificial intelligence, large-scale computing, and thermal management systems, has intensified global energy d…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "NGSE-Corr: A technique for objective clinical evaluation of quantitative-imaging methods without a gold standard",
-      "url": "https://arxiv.org/abs/2606.28704",
-      "summary": "arXiv:2606.28704v1 Announce Type: new Abstract: Objective evaluation of quantitative-imaging (QI) methods based on how reliably they measure true values is important for clinical translation. Performing such evaluation w…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulation Study of Coupling Effects Between a Hall Thruster and a Power Processing Unit",
-      "url": "https://arxiv.org/abs/2606.28743",
-      "summary": "arXiv:2606.28743v1 Announce Type: new Abstract: The complex and nonlinear load characteristics of Hall thrusters remain a key challenge in the design of propulsion power-supply output stages. In existing power-supply sim…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reflection and Refraction at Nonlinear Temporal Boundaries in Synthetic Lattices",
-      "url": "https://arxiv.org/abs/2606.28748",
-      "summary": "arXiv:2606.28748v1 Announce Type: new Abstract: Temporal boundaries in time-modulated media provide a powerful route toward wave manipulation beyond conventional spatial boundaries. Here, we investigate nonlinear tempora…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quadruple decomposition of boundary vorticity flux",
-      "url": "https://arxiv.org/abs/2606.28761",
-      "summary": "arXiv:2606.28761v1 Announce Type: new Abstract: First introduced by Lighthill in 1963 for two-dimensional flows and later generalized by Jie-Zhi Wu to three-dimensional scenarios since 1986, the boundary vorticity flux (…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The intrinsic decomposition of vorticity dynamics on an arbitrarily moving and deforming boundary",
-      "url": "https://arxiv.org/abs/2606.28763",
-      "summary": "arXiv:2606.28763v1 Announce Type: new Abstract: Boundary vorticity dynamics provides a rigorous theoretical foundation for understanding vorticity creation at boundaries, vorticity-boundary interactions, as well as the r…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Classical Coherence and Biological Aging",
-      "url": "https://arxiv.org/abs/2606.28838",
-      "summary": "arXiv:2606.28838v1 Announce Type: new Abstract: In previous work it was argued that the cells of a multicellular organism form a classically coherent system and that such coherence is essential for life. Here we make thi…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The unreasonable effectiveness of the cathetus rule in ancient and modern optics",
-      "url": "https://arxiv.org/abs/2606.28851",
-      "summary": "arXiv:2606.28851v1 Announce Type: new Abstract: The \"cathetus rule\" in optics alleges that the image of an object-point, formed by reflection or refraction at a surface, lies on the perpendicular (\"cathetus\") from the ob…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Testing the Validity of Embedding-Based Similarity and Clustering for Handwritten Physics Solutions",
-      "url": "https://arxiv.org/abs/2606.28872",
-      "summary": "arXiv:2606.28872v1 Announce Type: new Abstract: Text embeddings are increasingly used in physics education research to organize, compare, and cluster large collections of written text. Their appeal is clear: once student…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unit-Circle Moment Closure",
-      "url": "https://arxiv.org/abs/2606.28894",
-      "summary": "arXiv:2606.28894v1 Announce Type: new Abstract: Moment closure is a central problem in reduced descriptions of stochastic, kinetic, and quantum dynamics, where equations for low-order observables are coupled to an unreso…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Premixed flames in a stagnation point flow under Darcy's law",
-      "url": "https://arxiv.org/abs/2606.28909",
-      "summary": "arXiv:2606.28909v1 Announce Type: new Abstract: Premixed flames in stagnation point flows are traditionally described using Navier--Stokes equations where inertia and density variations play an important part in determin…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vertical $\\beta$-Ga$_2$O$_3$ Schottky Diodes with Deep-Etch Field Termination using Plasma-free Ga-assisted Etching",
-      "url": "https://arxiv.org/abs/2606.28942",
-      "summary": "arXiv:2606.28942v1 Announce Type: new Abstract: A deep-etch field termination strategy using a Ga-assisted plasma-free etching technique in a low-pressure chemical vapor deposition (LPCVD) system is demonstrated for $\\be…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Continuous modal spectrum in nonreciprocal cavities",
-      "url": "https://arxiv.org/abs/2606.28979",
-      "summary": "arXiv:2606.28979v1 Announce Type: new Abstract: Nonreciprocal systems enable asymmetric energy transport and suppress backscattering, giving rise to unconventional wave phenomena. Here, we show that nonreciprocal cavitie…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermal and electromechanical response of ultra-thin carbon-strip polarimeter targets in relativistic bunched beams",
-      "url": "https://arxiv.org/abs/2606.29005",
-      "summary": "arXiv:2606.29005v1 Announce Type: new Abstract: Thin carbon-strip targets provide fast relative hadron beam polarimetry, but their response in intense relativistic bunched beams is not governed by local stopping-power he…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optically dense nanowire metamaterials are transparent to polarization",
-      "url": "https://arxiv.org/abs/2606.29019",
-      "summary": "arXiv:2606.29019v1 Announce Type: new Abstract: We study the transport of light through dense opaque anisotropic metamaterials consisting of oriented nanowires. The nanowires consist of polymer photoresist that is struct…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Optimal Contact-Mechanically Consistent and Flow-Separation Adapted Modeling of Vocal Fold Dynamics",
-      "url": "https://arxiv.org/abs/2606.29071",
-      "summary": "arXiv:2606.29071v1 Announce Type: new Abstract: Single mass-spring-damper models of vocal folds have been effective in simulating vocal fold vibrations without added complexity. However, single-degree-of-freedom models c…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "$4\\pi$ Combination of Gaussian Laser Beams",
-      "url": "https://arxiv.org/abs/2606.29096",
-      "summary": "arXiv:2606.29096v1 Announce Type: new Abstract: This work is a generalization of our previous study [arXiv:2406.17944], which dealt with the coherent and incoherent combination of linearly polarized Gaussian laser beams …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Peculiarities Of High-Speed Dynamics Of Two-Photon Absorption In Si Nanowire Waveguides",
-      "url": "https://arxiv.org/abs/2606.29127",
-      "summary": "arXiv:2606.29127v1 Announce Type: new Abstract: We investigate the complete dynamical pathway of photon-electron interactions involved in two-photon absorption (TPA) in a silicon nanowire waveguide using three independen…",
       "ts": 1782792000000
     }
   ],
