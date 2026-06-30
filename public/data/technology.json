@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-06-30T12:11:39.157Z",
+  "updated": "2026-06-30T15:34:19.331Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Apply now to ESA's Junior Professional Programme",
+      "url": "https://www.esa.int/About_Us/Careers_at_ESA/Apply_now_to_ESA_s_Junior_Professional_Programme",
+      "summary": "Are you passionate about space and looking to build a long-term career in the European space sector? Do you have less than three years of professional experience and a Master’s degree? The European Space Agency is offeri…",
+      "ts": 1782833400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+      "url": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+      "summary": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and wit…",
+      "ts": 1782831657000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How Jaiveer Singh Is Helping Robots — and Developers — Move Faster",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/",
+      "summary": "When Jaiveer Singh talks about robots, he doesn’t begin with spectacle. He begins with infrastructure: the boards inside machines, the software that lets developers see through a robot’s cameras and the engineering requi…",
+      "ts": 1782831649000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: All of Us tests a new approach to collect real-world data for research",
+      "url": "https://www.statnews.com/2026/06/30/nih-all-of-us-program-taps-ehr-records-fill-data-gaps/?utm_campaign=rss",
+      "summary": "The NIH All of Us Research Program has secured thousands of electronic medical records through an innovative use of patient data-sharing networks",
+      "ts": 1782828000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Investors double down on Bain-backed startup",
+      "url": "https://www.statnews.com/2026/06/30/biotech-news-investors-double-down-on-bain-backed-capital/?utm_campaign=rss",
+      "summary": "FDA's top gene therapy regulator steps down, Trump's plan to lower GLP-1 prices, and more biotech news",
+      "ts": 1782826824000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA digital leader hints at coming AI policy updates",
+      "url": "https://www.statnews.com/2026/06/30/health-tech-fda-digital-leader-hints-at-coming-ai-policy-updates/?utm_campaign=rss",
+      "summary": "Today's health tech news includes virtual PT for a whole country, what the FDA is considering on AI policy, and more",
+      "ts": 1782826326000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Chinese trial sites being probed, RFK Jr. and peptides, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/06/30/china-clinical-trials-probe-rfk-jr-peptides-compounders/?utm_campaign=rss",
+      "summary": "U.S. lawmakers are investigating whether several large drugmakers have been involved ​in clinical trials in China that helped fuel its military capability",
+      "ts": 1782826280000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
+      "url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
+      "summary": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. Visio…",
+      "ts": 1782824427000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Vast names Isakowitz as a senior adviser",
+      "url": "https://spacenews.com/vast-names-isakowitz-as-a-senior-adviser/",
+      "summary": "Commercial space station developer Vast named the former president and chief executive of The Aerospace Corp. as an adviser while the company awaits the next phase of a NASA program. The post Vast names Isakowitz as a se…",
+      "ts": 1782824400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Time to say goodbye to Sentinel-1A",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Time_to_say_goodbye_to_Sentinel-1A",
+      "summary": "After 12 years of exceptional service, the pioneering Copernicus Sentinel-1A radar satellite has reached the end of its mission. Originally designed for a seven-year life in orbit, the satellite has exceeded expectations…",
+      "ts": 1782822600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SSC Space, Firefly set 2028 target for first orbital launch from Sweden’s Esrange",
+      "url": "https://spacenews.com/ssc-space-firefly-set-2028-target-for-first-orbital-launch-from-swedens-esrange/",
+      "summary": "HELSINKI — SSC Space and Firefly have set a 2028 target for the first orbital launch from Esrange, with key infrastructure and regulatory pieces falling into place. The companies announced […] The post SSC Space, Firefly…",
+      "ts": 1782822116000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Half of states sue over Medicaid work requirements",
+      "url": "https://www.statnews.com/2026/06/30/health-news-half-of-states-sue-over-medicaid-work-requirements/?utm_campaign=rss",
+      "summary": "FDA peptide panelists, a new study on Covid and flu shots, and more health news from Morning Rounds",
+      "ts": 1782821665000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI “coworkers” and stratospheric internet",
+      "url": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI agents are not your “coworkers” Imagine coming in to work to learn that a new u…",
+      "ts": 1782821400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Agriculture is ready for AI, but its data isn’t",
+      "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry…",
+      "ts": 1782820800000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "Orbital files plans for 100,000 orbital data centers",
@@ -609,118 +721,6 @@
       "summary": "NASA’s Earth-observing satellites track an enormous range of phenomena: how aerosols move through the atmosphere, how moisture descends through soil, how land-cover shifts over decades. It’s some of the most consequentia…",
       "ts": 1782746204000,
       "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time",
-      "url": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
-      "summary": "",
-      "ts": 1782745204000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NextSTEP-3 A: Lunar Enabling Technology",
-      "url": "https://www.nasa.gov/directorates/stmd/nextstep-3-a-lunar-enabling-technology/",
-      "summary": "Solicitation Number: 80GRC026R0008 May 19, 2026 – Synopsis issued June 29, 2026 – Draft BAA and Appendix A Issued | News Release NASA issued a draft Broad Agency Announcement under NextSTEP‑3, Appendix A, on June 29, 202…",
-      "ts": 1782745014000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Seeks Industry Input to Accelerate Lunar Surface Technologies",
-      "url": "https://www.nasa.gov/directorates/stmd/nasa-seeks-industry-input-to-accelerate-lunar-surface-technologies/",
-      "summary": "Long-term lunar exploration requires technology, infrastructure, and operations that function together cohesively on the surface of the Moon. To accelerate the development of key lunar surface systems and reduce risk, NA…",
-      "ts": 1782744988000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Agent confidence on the technical frontier",
-      "url": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
-      "summary": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and te…",
-      "ts": 1782744241000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Discovering the Universe – Astrophysics Flagship Space Observatories Offer Insights to Key Questions",
-      "url": "https://spacenews.com/discovering-the-universe-astrophysics-flagship-space-observatories-offer-insights-to-key-questions/",
-      "summary": "From observing distant galaxies to exploring exoplanets and their atmospheres, BAE Systems enables cutting-edge technology to expand our knowledge of the universe. As a major partner in each of NASA’s […] The post Discov…",
-      "ts": 1782743277000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "This Month at ESA: June 2026",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/This_Month_at_ESA_June_2026",
-      "summary": "Video: 00:03:15 What did space have in store for Europe this month? This June, ESA astronaut Luca Parmitano was named pilot of NASA's Artemis III mission, Ariane 6 set a new European launch record, Proba-3 returned to op…",
-      "ts": 1782741600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Talawar bets bispecific approach can shake up eczema market",
-      "url": "https://www.statnews.com/2026/06/29/biotech-news-talawar-bets-bispecific-approach-for-eczema/?utm_campaign=rss",
-      "summary": "Moderna still bullish on mRNA, Ipsen's acquisition of Kartos, and more biotech news from The Readout",
-      "ts": 1782741168000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a broader $35 insulin cap, a former FDA cancer drug chief, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/06/29/insulin-cap-revival-former-fda-cancer-drug-chief/?utm_campaign=rss",
-      "summary": "The search for affordability wins is leading U.S. senators back to capping the cost of insulin at $35 in the private insurance market and for the uninsured",
-      "ts": 1782738455000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Sentinel-1 shows ground displacement after Venezuela earthquakes",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Sentinel-1_shows_ground_displacement_after_Venezuela_earthquakes",
-      "summary": "Image: The map is an interferogram derived from the comparison of Sentinel-1 data on two dates: on the 18 June before the earthquakes and on 25 June a day after.",
-      "ts": 1782738000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Quantum computing is about to become a national security problem in orbit",
-      "url": "https://spacenews.com/quantum-computing-is-about-to-become-a-national-security-problem-in-orbit/",
-      "summary": "Quantum computing is advancing fast, and nations are racing to field the first machines powerful enough to break modern encryption. This race has direct consequences for the commercial space industry, […] The post Quantu…",
-      "ts": 1782738000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rocket Lab to acquire Iridium",
-      "url": "https://spacenews.com/rocket-lab-to-acquire-iridium/",
-      "summary": "Rocket Lab is acquiring satellite telecommunications company Iridium for $8 billion as part of its effort to become an end-to-end space company. The post Rocket Lab to acquire Iridium appeared first on SpaceNews.",
-      "ts": 1782735049000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: metric weaknesses and AI elephant warnings",
-      "url": "https://www.technologyreview.com/2026/06/29/1139834/the-download-metric-weaknesses-ai-elephant-warnings/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The inevitable weakness of metrics There are plenty of useful things a metric can …",
-      "ts": 1782735000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "What’s next for 988 LGBTQ+ services?",
-      "url": "https://www.statnews.com/2026/06/29/health-news-whats-next-for-988-lgbtq-services/?utm_campaign=rss",
-      "summary": "Private ERs, pulmonary hypertension, and other health news from Morning Rounds",
-      "ts": 1782734682000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Tecan Integrates Agentic AI Into Its Introspect Lab Analytics Platform",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/tecan-integrates-agentic-ai-into-its-introspect-lab-analytics-platform/",
-      "summary": "Agentic AI will allow laboratories to move beyond traditional monitoring and reactive troubleshooting toward proactive actions that help prevent issues before they impact performance, quality, or scientific outcomes. The…",
-      "ts": 1782734404000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

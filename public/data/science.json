@@ -1,7 +1,147 @@
 {
   "ok": true,
-  "updated": "2026-06-30T12:11:36.430Z",
+  "updated": "2026-06-30T15:34:16.363Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Could this be Australia's warmest winter ever?",
+      "url": "https://phys.org/news/2026-06-australia-warmest-winter.html",
+      "summary": "Many parts of Australia have already broken early winter maximum and minimum temperature records.",
+      "ts": 1782832812000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The little red galaxies that may be sending us neutrinos",
+      "url": "https://phys.org/news/2026-06-red-galaxies-neutrinos.html",
+      "summary": "Peering far into the distant, high-redshift universe, the James Webb telescope has discovered an abundance of small red galaxies known as the Little Red Dots. From their observations, astronomers believe that at least so…",
+      "ts": 1782832810000
+    },
+    {
+      "source": "Phys.org",
+      "title": "An iconic spear-throwing device likely wasn't used by prehistoric hunters until around 10,000 years ago",
+      "url": "https://phys.org/news/2026-06-iconic-spear-device-wasnt-prehistoric.html",
+      "summary": "Archaeologists have long pictured prehistoric hunters taking down mammoths and other megafauna using the atlatl, a handheld spear-throwing device that uses leverage to achieve greater velocity and force when throwing dar…",
+      "ts": 1782832804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Alive and kicking—walking soccer players defy stereotypes and show fitness is for everyone",
+      "url": "https://phys.org/news/2026-06-alive-soccer-players-defy-stereotypes.html",
+      "summary": "Older people are defying stereotypes of aging by playing walking soccer, research from Cardiff University shows. Walking soccer is advertised as an accessible sport that provides a safe, sociable and inclusive physical a…",
+      "ts": 1782831610000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New findings on how malaria parasites invade human cells yield proof of concept for new antimalarial drug",
+      "url": "https://phys.org/news/2026-06-malaria-parasites-invade-human-cells.html",
+      "summary": "For nearly half a century, scientists have known that malaria parasites force their way into human red blood cells through a ring-shaped structure called the moving junction. What no one could work out was what it actual…",
+      "ts": 1782831601000
+    },
+    {
+      "source": "Science News",
+      "title": "This microbe turns into a cannibalistic ‘Hulk’",
+      "url": "https://www.sciencenews.org/article/microbe-cannibalistic-hulk",
+      "summary": "Euplotes gigatrox’s shape-shifting may reveal how early life learned to act in surprisingly complex ways.",
+      "ts": 1782831600000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Conflict increases food prices in far-flung locations, study finds",
+      "url": "https://phys.org/news/2026-06-conflict-food-prices-flung.html",
+      "summary": "Fighting along key transport routes pushes up food prices in areas far from the conflict itself, according to a new study. Researchers examined the price of maize and other staples during the war in Somalia between gover…",
+      "ts": 1782830409000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gut parasite alters honey bee smell as infection progresses, potentially changing hive behavior",
+      "url": "https://phys.org/news/2026-06-gut-parasite-honey-bee-infection.html",
+      "summary": "Honey bees infected with a gut parasite smell different, which could allow bee colonies to detect disease and influence behavior inside the hive, new research finds.",
+      "ts": 1782830401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A severe El Niño could threaten something essential to half of humanity—rice",
+      "url": "https://phys.org/news/2026-06-severe-el-nio-threaten-essential.html",
+      "summary": "Forecasters expect the El Niño now underway in the tropical Pacific to strengthen into a strong or very strong climate driver later this year.",
+      "ts": 1782829205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "School smartphone bans are overly simplistic and not supported by young people, study finds",
+      "url": "https://phys.org/news/2026-06-school-smartphone-overly-simplistic-young.html",
+      "summary": "Outright smartphone bans in schools are likely to be ineffective and undermine students' trust without addressing core issues like harmful online content, cyberbullying and addictive platform design, a new UCL report fin…",
+      "ts": 1782829203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dads want to work from home, but fear career penalties",
+      "url": "https://phys.org/news/2026-06-dads-home-career-penalties.html",
+      "summary": "Working from home could improve family well-being, gender equality, fertility and staff retention, but only if fathers can use it without stigma or career penalties, new research from King's College London finds. The res…",
+      "ts": 1782828008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Camouflaging snails change color in the rain",
+      "url": "https://phys.org/news/2026-06-camouflaging-snails.html",
+      "summary": "How does a stripy tree snail hide from hungry birds? The Hypselostyla camelopardalis from the Philippines and Reinia variegata from Japan have both evolved a form of dynamic camouflage to survive. Their light-colored pat…",
+      "ts": 1782828003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rice grown on the moon? Air-to-fertilizer technology helps rice grow in lunar soil simulant",
+      "url": "https://phys.org/news/2026-06-rice-grown-moon-air-fertilizer.html",
+      "summary": "Securing sustainable food supplies is a key challenge for long-term human exploration and potential habitation of the moon. The moon's soil contains no organic material, and essential plant nitrogen sources like ammonia …",
+      "ts": 1782826806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Women hold just 3% of jobs in tourism's biggest transport sector, global study finds",
+      "url": "https://phys.org/news/2026-06-women-jobs-tourism-biggest-sector.html",
+      "summary": "Women remain vastly underrepresented in tourism transport jobs worldwide, making up just 3% of land passenger transport workers (such as bus and train staff) in countries with available data, according to a University of…",
+      "ts": 1782826803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Open cluster NGC 6134 in Norma is 1.38 billion years old and hosts a core, tidal tail and diffuse halo",
+      "url": "https://phys.org/news/2026-06-cluster-ngc-norma-billion-years.html",
+      "summary": "Indonesian astronomers have conducted a comprehensive study of an open cluster in the constellation Norma, known as NGC 6134. Results of the new study, available in a research paper published June 23 on the preprint serv…",
+      "ts": 1782825606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Linguistic reason Barbie's iconic speech became a cultural moment, and what Aristotle has to do with it",
+      "url": "https://phys.org/news/2026-06-linguistic-barbie-iconic-speech-cultural.html",
+      "summary": "Everyone remembers where they were when Gloria lost it. The Barbie movie's big speech—America Ferrera, voice breaking, listing every single impossible thing the world expects women to be—hit something that felt almost to…",
+      "ts": 1782825604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study of 2 million online posts shows persistent anti‑Jew and anti‑Muslim hate in Australia",
+      "url": "https://phys.org/news/2026-06-million-online-persistent-antijew-antimuslim.html",
+      "summary": "Australia has spent much of the past two years responding to anti-Jewish and anti-Muslim hate as separate problems. But our latest research suggests they have something important in common.",
+      "ts": 1782824406000
+    },
+    {
+      "source": "Science News",
+      "title": "Crabs can’t hide from an octopus with a mirror",
+      "url": "https://www.sciencenews.org/article/octopus-hunt-crabs-with-mirror",
+      "summary": "New experiments show that octopuses can understand where an item is based solely on its reflection.",
+      "ts": 1782824400000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Isolation as a form of discipline: How should schools manage poor student behavior?",
+      "url": "https://phys.org/news/2026-06-isolation-discipline-schools-poor-student.html",
+      "summary": "Last week, a group of parents strongly criticized prestigious Victorian private school Geelong Grammar for using isolation as a form of discipline during a yearlong boarding school program. The disciplinary action was ta…",
+      "ts": 1782823203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "By 2050, many Sydney apartments built to today's standards could be too hot for weeks at a time",
+      "url": "https://phys.org/news/2026-06-sydney-apartments-built-today-standards.html",
+      "summary": "Sydney is no stranger to extreme heat. In January 2020, Penrith in western Sydney reached 48.9°C, the highest temperature ever recorded in Greater Sydney.",
+      "ts": 1782822008000
+    },
     {
       "source": "Phys.org",
       "title": "Study investigates stress, coping among adult siblings of individuals with intellectual and developmental disabilities",
@@ -560,146 +700,6 @@
       "title": "Exact analytical solutions for the piston effect in supercritical fluids under post-acoustic approximation -- Short-time asymptotics, thermal penetration depth and comparison with the Spacelab D-2 experiments",
       "url": "https://arxiv.org/abs/2606.30006",
       "summary": "arXiv:2606.30006v1 Announce Type: new Abstract: Near the liquid-vapor critical point, fluids become highly compressible, giving rise to a special, strongly coupled thermo-mechanical process: the piston effect. In this ph…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probing Light-Matter Interaction with Topological Data Analysis",
-      "url": "https://arxiv.org/abs/2606.30007",
-      "summary": "arXiv:2606.30007v1 Announce Type: new Abstract: We explore application of Topological Data Analysis to study light matter interaction through scattering response data in different dimensions. This method is robust agains…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improving Muon-Scattering Material Identification via Coarse Momentum Encoding and Unsupervised Domain Adaptation",
-      "url": "https://arxiv.org/abs/2606.30028",
-      "summary": "arXiv:2606.30028v1 Announce Type: new Abstract: Cosmic-ray muon scattering has shown considerable potential for detecting nuclear materials and other dense contraband, but practical deployment remains challenging. A majo…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Wall-Modeled High-Order Compact Gas-Kinetic Scheme for Compressible Turbulent Flows",
-      "url": "https://arxiv.org/abs/2606.30061",
-      "summary": "arXiv:2606.30061v1 Announce Type: new Abstract: Scale-resolving simulations of wall-bounded turbulent flows remain prohibitively expensive at high Reynolds numbers, owing to the stringent near-wall resolution requirement…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Adversarial robustness of a U-Net-based model observer for CT protocol optimization",
-      "url": "https://arxiv.org/abs/2606.30115",
-      "summary": "arXiv:2606.30115v1 Announce Type: new Abstract: Artificial intelligence is increasingly used in medical imaging, yet its robustness to input perturbations remains a critical concern for a wide clinical adoption. To this …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kinetic energy from the cubic sum rule of the dynamic structure factor",
-      "url": "https://arxiv.org/abs/2606.30123",
-      "summary": "arXiv:2606.30123v1 Announce Type: new Abstract: The third frequency moment sum rule of the dynamic structure factor $S(\\mathbf{q},\\omega)$ is explored for the first time as an alternative estimator of the kinetic energy …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Seismic full waveform inversion via a physics-guided Fourier representation neural network",
-      "url": "https://arxiv.org/abs/2606.30126",
-      "summary": "arXiv:2606.30126v1 Announce Type: new Abstract: Accurate subsurface velocity models are essential for seismic imaging, yet conventional full waveform inversion (FWI) often suffers from cycle skipping, noise sensitivity, …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Charge sharing and alignment performance of bent ALPIDEs measured with low-energy protons",
-      "url": "https://arxiv.org/abs/2606.30150",
-      "summary": "arXiv:2606.30150v1 Announce Type: new Abstract: The upgrade of the ALICE experiments Inner Tracking System (ITS3) aims to replace its innermost detection layers with bent wafer-scale CMOS MAPS sensors. This study examine…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fusion-power amplification by compressive hydrodynamic fluctuations",
-      "url": "https://arxiv.org/abs/2606.30155",
-      "summary": "arXiv:2606.30155v1 Announce Type: new Abstract: Compressive fluctuations in hot plasma, including acoustic waves and compressible turbulence, increase the rate of fusion reactions. This power amplification comprises hydr…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physically-Constrained Harmonic Separation for Robust Heart and Respiratory Rate Estimation from Wrist Photoplethysmography",
-      "url": "https://arxiv.org/abs/2606.30156",
-      "summary": "arXiv:2606.30156v1 Announce Type: new Abstract: Wrist-worn photoplethysmography (PPG) enables continuous monitoring of cardiopulmonary physiology, but reliable heart rate (HR) and respiratory rate (RR) estimation in free…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Compact deep learning pipeline for particle track reconstruction in the pCT detector system",
-      "url": "https://arxiv.org/abs/2606.30158",
-      "summary": "arXiv:2606.30158v1 Announce Type: new Abstract: Proton computed tomography (pCT) requires both fast and accurate reconstruction of particle trajectories and kinetic energies to achieve clinically viable image formation. …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Test of a partly instrumented highly compact and granular electromagnetic calorimeter in an electron beam of 1 to 6 GeV",
-      "url": "https://arxiv.org/abs/2606.30181",
-      "summary": "arXiv:2606.30181v1 Announce Type: new Abstract: Highly compact and finely segmented silicon-tungsten electromagnetic calorimeters are being developed within the FCAL collaboration for applications in the LUXE experiment …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Arduino based interferometer stabilizer equipped with a digital lock-in amplifier",
-      "url": "https://arxiv.org/abs/2606.30199",
-      "summary": "arXiv:2606.30199v1 Announce Type: new Abstract: Interferometric sensors are ubiquitous in precision metrology, yet their performance is fundamentally limited by environmental noise and thermal drift. To achieve maximum s…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comb-enabled spectral-domain image transport through perturbation-prone multimode fibers",
-      "url": "https://arxiv.org/abs/2606.30203",
-      "summary": "arXiv:2606.30203v1 Announce Type: new Abstract: Multimode fibers (MMFs) offer a compact platform for imaging, sensing, and information transport, but their practical deployment is hindered by sensitivity to fiber perturb…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "All-Optical Control of Birefringence in a Cold Atomic Ensemble",
-      "url": "https://arxiv.org/abs/2606.30216",
-      "summary": "arXiv:2606.30216v1 Announce Type: new Abstract: We demonstrate all-optical control of birefringence in a cold atomic cloud of ytterbium. By optically dressing the excited $^{3}\\mathrm{P}_1$ state via an off-resonant coup…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How is Water released in Hydrogen-Based Metal Oxide Reduction? Unraveling the Kinetic Bottleneck in Sustainable Metal Production",
-      "url": "https://arxiv.org/abs/2606.30221",
-      "summary": "arXiv:2606.30221v1 Announce Type: new Abstract: Hydrogen-based direct reduction of metal oxides is a ubiquitous solid-gas redox process central to geophysics, sustainable metallurgy, redox energy cycles and catalysis. Du…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sudden expansion stability thresholds modified by lateral flows",
-      "url": "https://arxiv.org/abs/2606.30269",
-      "summary": "arXiv:2606.30269v1 Announce Type: new Abstract: We study the flow in a symmetric three-dimensional confined sudden expansion with lateral inflow at Reynolds number below 300 and varying lateral-to-central flow rate ratio…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact Helicity-Orbital Coupled Dynamics in Chiral Media: An Optical Dirac Framework for Photonic Rabi Oscillations",
-      "url": "https://arxiv.org/abs/2606.30295",
-      "summary": "arXiv:2606.30295v1 Announce Type: new Abstract: We demonstrate that light propagation in reciprocal chiral photonic media admits a unified description in terms of an emergent Dirac structure in helicity space. Starting f…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Size Effects in the Strong-Field Ionization and Dissociation Dynamics of (H$_2$O)$_n$ (n=1-4)",
-      "url": "https://arxiv.org/abs/2606.30331",
-      "summary": "arXiv:2606.30331v1 Announce Type: new Abstract: The size-dependent strong-field ionization and dissociation dynamics of (H$_2$O)$_n$ (n=1-4) are investigated using real-time time-dependent density functional theory (RT-T…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Decision-support strategies for photovoltaic self-consumption under declining electricity prices and limited remuneration of surplus generation",
-      "url": "https://arxiv.org/abs/2606.30359",
-      "summary": "arXiv:2606.30359v1 Announce Type: new Abstract: The success of distributed photovoltaics may be undermining its own future. As solar penetration increases, electricity prices decline during periods of peak generation, re…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modulation theory formulation of atomic light-matter interaction",
-      "url": "https://arxiv.org/abs/2606.30427",
-      "summary": "arXiv:2606.30427v1 Announce Type: new Abstract: We provide a re-formulation of the light-matter interaction of trapped-atom systems in terms of classical modulation theory. We introduce commuting ``mean'' quadrature oper…",
       "ts": 1782792000000
     }
   ],
