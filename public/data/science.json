@@ -1,7 +1,98 @@
 {
   "ok": true,
-  "updated": "2026-07-01T20:07:17.685Z",
+  "updated": "2026-07-01T22:19:24.368Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Fish in a polluted Mexican river may mate with the wrong species, leading to hybrid offspring",
+      "url": "https://phys.org/news/2026-07-fish-polluted-mexican-river-wrong.html",
+      "summary": "The byproducts of modern society appear to be messing with the love life of two tiny fish species that have long coexisted in Mexican rivers.",
+      "ts": 1782943207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists devise new method for tracing environmental PFAS contamination better",
+      "url": "https://phys.org/news/2026-07-scientists-method-environmental-pfas-contamination.html",
+      "summary": "Perfluoroalkyl and polyfluoroalkyl substances (PFAS) are a class of synthetic chemicals widely used in industrial processes and consumer products because of their resistance to heat, water and oil. However, these same pr…",
+      "ts": 1782943205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden toll: Interpersonal violence drives most of the world's annual cost of up to US $34 trillion",
+      "url": "https://phys.org/news/2026-07-hidden-toll-interpersonal-violence-world.html",
+      "summary": "The media is full of news of war, terrorism and armed conflict, and this shapes our perceptions of violence. However, if we look at the costs resulting from these forms of violence, the numbers are surprising: About 12% …",
+      "ts": 1782942004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lake Chad supports 2.48 million waterbirds, emerging as one of Africa's top wetland refuges",
+      "url": "https://phys.org/news/2026-07-lake-chad-million-waterbirds-emerging.html",
+      "summary": "A study titled \"Monitoring major biodiversity stronghold in war zones: model predicts Lake Chad remains Africa's most important wetland for waterbirds\" estimates that Lake Chad supports nearly 2.5 million waterbirds, mak…",
+      "ts": 1782942001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tree size, not age, may speed habitat recovery for endangered Indiana bats",
+      "url": "https://phys.org/news/2026-07-tree-size-age-habitat-recovery.html",
+      "summary": "Bugs run rampant in the summer, and if you have ever suffered a mosquito bite and regretted not putting on bug spray, you should know about nature's insect repellent: the Indiana bat. Federally endangered since 1967, the…",
+      "ts": 1782940809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nautilus array to track missing exoplanet atmospheres",
+      "url": "https://phys.org/news/2026-07-nautilus-array-track-exoplanet-atmospheres.html",
+      "summary": "Exoplanet atmospheres have become prime targets for astrobiologists in the search for life beyond Earth. This is because exoplanet surfaces can't be directly imaged yet, so astronomers must get creative in how they searc…",
+      "ts": 1782940801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why Facebook, video calls and artificial intelligence matter for age-friendly communities",
+      "url": "https://phys.org/news/2026-07-facebook-video-artificial-intelligence-age.html",
+      "summary": "Contrary to common stereotypes, seniors' digital savvy is surging. New research from Rutgers University-New Brunswick suggests one reason: Digital tools are essential for the development and maintenance of age-friendly i…",
+      "ts": 1782939607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Superworms could be the future of skeleton cleaning",
+      "url": "https://phys.org/news/2026-07-superworms-future-skeleton.html",
+      "summary": "Superworms, a mealworm-like form of beetle larva commonly used as pet food, are efficient cleaners of skeletons, according to a study published in PLOS One by Fatemeh Rastekar of Ferdowsi University of Mashhad, Iran, and…",
+      "ts": 1782939603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Acceptor molecule upconverts low-energy green light to high-energy purple with high efficiency",
+      "url": "https://phys.org/news/2026-07-acceptor-molecule-upconverts-energy-green.html",
+      "summary": "Solar cells and photocatalysts can be surprisingly inefficient. Despite light consisting of many wavelengths, the range that even highly efficient devices use is limited. Other wavelengths, especially long wavelengths, s…",
+      "ts": 1782938402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Residential environment linked to subjective well-being through life-domain satisfaction",
+      "url": "https://phys.org/news/2026-07-residential-environment-linked-subjective-life.html",
+      "summary": "Well-being is increasingly regarded as an important indicator of societal progress, extending beyond economic growth to capture how people experience and evaluate their lives. It is also closely connected to health, long…",
+      "ts": 1782938401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scrolling for science: How a Twitter post discovered a new wasp in Fukuoka, Japan",
+      "url": "https://phys.org/news/2026-07-scrolling-science-twitter-wasp-fukuoka.html",
+      "summary": "The next time you post a nature photo online, you might be contributing to a major scientific breakthrough—just as several citizen scientists did when they helped discover the wasp Eupelmus curvator in Japan.",
+      "ts": 1782937209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "England breaks record for warmest June: Met Office",
+      "url": "https://phys.org/news/2026-07-england-warmest-june-met-office.html",
+      "summary": "England chalked up its warmest June since records began in 1884, the United Kingdom's weather agency said Wednesday, after a month that saw temperatures soar to new highs.",
+      "ts": 1782937206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Breathing under pressure: Addressing recurrent laryngeal neuropathy in horses",
+      "url": "https://phys.org/news/2026-07-pressure-recurrent-laryngeal-neuropathy-horses.html",
+      "summary": "In the northern hemisphere, the summer season is rolling in, and the heat is on the rise. For horses, these high temperatures also mean an increased risk of respiratory issues, such as recurrent laryngeal neuropathy (RLN…",
+      "ts": 1782937204000
+    },
     {
       "source": "Phys.org",
       "title": "Portugal braces for high temperatures in new heat wave",
@@ -431,13 +522,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Heisenberg-Scaling Characterization of a Two-Channel Optical Network via Two-Port Homodyne Detection",
-      "url": "http://link.aps.org/doi/10.1103/y9wq-hhg2",
-      "summary": "Author(s): Atmadev Rai, Paolo Facchi, and Vincenzo Tamma We present a fully Gaussian and experimentally feasible scheme for the simultaneous estimation of the four real parameters that characterize a two-channel optical …",
-      "ts": 1782900000000
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Controlling Isomer Population Using a Dual-Oscillator Infrared Free-Electron Laser",
       "url": "http://link.aps.org/doi/10.1103/2hy7-w3qb",
       "summary": "Author(s): América Y. Torres-Boy, Anoushka Ghosh, Myles B. T. Osenton, Akash C. Behera, Sandy Gewinner, Marco De Pas, Heinz Junkes, Wieland Schöllkopf, Alexander Paarmann, Gert von Helden, and Gerard Meijer We report on …",
@@ -468,7 +552,7 @@
       "source": "APS Physical Review Letters",
       "title": "Continuous Ring of Unidirectional Guided Resonances Induced by Isotropic Interband Coupling",
       "url": "http://link.aps.org/doi/10.1103/qlgy-fj7k",
-      "summary": "Author(s): Zengping Su, Wei Li, Jue Li, Haoye Qin, Yongkang Wang, Wenjing Lv, Mengyao Li, Bo Li, and Qinghua Song Topologically protected, continuous ring of unidirectional guided resonances that locks vortex laser emiss…",
+      "summary": "Author(s): Zengping Su, Wei Li, Jue Li, Haoye Qin, Yongkang Wang, Wenjing Lv, Mengyao Li, Bo Li, and Qinghua Song Unidirectional guided resonances (UGRs)—topological polarization singularities in momentum space with intr…",
       "ts": 1782900000000
     },
     {
@@ -483,6 +567,13 @@
       "title": "<i>Ab Initio</i> Free-Energy Surfaces for Coupled Ion-Electron Transfer",
       "url": "http://link.aps.org/doi/10.1103/dct7-q652",
       "summary": "Author(s): Ethan Abraham, Martin Z. Bazant, and Troy Van Voorhis A physically consistent formalism provides a first-principles route to electrochemical current-overpotential relations by computing finite-temperature coup…",
+      "ts": 1782900000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Heisenberg-Scaling Characterization of a Two-Channel Optical Network via Two-Port Homodyne Detection",
+      "url": "http://link.aps.org/doi/10.1103/y9wq-hhg2",
+      "summary": "Author(s): Atmadev Rai, Paolo Facchi, and Vincenzo Tamma We present a fully Gaussian and experimentally feasible scheme for the simultaneous estimation of the four real parameters that characterize a two-channel optical …",
       "ts": 1782900000000
     },
     {
@@ -609,97 +700,6 @@
       "title": "Extension of openCOSMO-RS Into a Full Open-Source Equation of State: Implementation, Parameterization, and Benchmarking",
       "url": "https://arxiv.org/abs/2606.30892",
       "summary": "arXiv:2606.30892v1 Announce Type: new Abstract: The COSMO-SAC-Phi model developed by Soares et al. extends the COSMO-SAC activity-coefficient framework into a full equation of state by explicitly accounting for pressure …",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dripping-onto-droplet rheometry of sodium alginate solutions",
-      "url": "https://arxiv.org/abs/2606.30907",
-      "summary": "arXiv:2606.30907v1 Announce Type: new Abstract: In this experimental and theoretical study, we assess the extensional relaxation time of sodium alginate solutions by using dripping-onto-droplet capillary breakup rheometr…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectral DiffuserScope: a compact snapshot hyperspectral microscope",
-      "url": "https://arxiv.org/abs/2606.30915",
-      "summary": "arXiv:2606.30915v1 Announce Type: new Abstract: Hyperspectral fluorescence microscopy enables important biological and clinical applications, but conventional systems are bulky or require scanning, limiting temporal reso…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Unified Perspective on Causality and One-Sided System Responses in Time and Space Across Physical and Fourier Domains",
-      "url": "https://arxiv.org/abs/2606.30916",
-      "summary": "arXiv:2606.30916v1 Announce Type: new Abstract: The principle of causality has long been mathematically associated with the frameworks of Titchmarsh's theorem and the Kramers--Kronig relations. While these relations aris…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conditional Tropical Cyclogenesis Rates via Rare-Event Sampling in a Neural Weather Emulator",
-      "url": "https://arxiv.org/abs/2606.30920",
-      "summary": "arXiv:2606.30920v1 Announce Type: new Abstract: We couple Forward Flux Sampling (FFS), a non-equilibrium rare-event technique from statistical mechanics, to a neural weather emulator (SDL-WXFormer, 1{\\deg} grid spacing) …",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ElemeNet: Multiscale Molecular Machine Learning with Uncertainty Quantification Across the Periodic Table",
-      "url": "https://arxiv.org/abs/2606.30961",
-      "summary": "arXiv:2606.30961v1 Announce Type: new Abstract: Advances in deep learning architectures and representations have enabled ML-driven chemical property prediction, but state-of-the-art (SOTA) models have remained largely co…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Enhanced RPA-LDA Model for Ion Stopping Power from Cold Matter to High-Energy Density Plasmas: A Unified, Open-Source Framework",
-      "url": "https://arxiv.org/abs/2606.30978",
-      "summary": "arXiv:2606.30978v1 Announce Type: new Abstract: We present an enhanced random-phase-approximation--local-density-approximation (e-RPA-LDA) model for the stopping power of ions that is valid over a wide range of condition…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Landau Collisions Without Collision Tensors",
-      "url": "https://arxiv.org/abs/2606.31035",
-      "summary": "arXiv:2606.31035v1 Announce Type: new Abstract: Far-from-equilibrium plasmas require nonlinear Coulomb collisions, but direct three-dimensional Hermite discretization of the Landau operator needs an impractical dense ten…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical Amplification with Large Goos-H$\\ddot{a}$nchen Shift Driven by Non-Hermitian Bilayer Meta-Grating",
-      "url": "https://arxiv.org/abs/2606.31060",
-      "summary": "arXiv:2606.31060v1 Announce Type: new Abstract: Optical Goos-H$\\ddot{a}$nchen shifts can be enhanced by resonant mode with high quality factor, such as quasi-bound states in the continuum in meta-grating. Coexistence of …",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rare Earth Ion Coupling Implements Attention-Like Reservoir Computing",
-      "url": "https://arxiv.org/abs/2606.31062",
-      "summary": "arXiv:2606.31062v1 Announce Type: new Abstract: We present a physical computing paradigm that harnesses the intrinsic nonlinear dynamics of rare earth doped core shell nanoparticles as a computational substrate. By direc…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Relaxation of Incommensurate Structures via Quantum Models",
-      "url": "https://arxiv.org/abs/2606.31104",
-      "summary": "arXiv:2606.31104v1 Announce Type: new Abstract: Accurately modeling structural relaxation in incommensurate systems is intrinsically challenging due to the absence of global translational symmetry. In this work, we devel…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radical-Fragment Many-Body Expansion for Linear Alkane Quantum Chemistry",
-      "url": "https://arxiv.org/abs/2606.31117",
-      "summary": "arXiv:2606.31117v1 Announce Type: new Abstract: We introduce a radical-fragment many-body expansion at the two-body level (MBE2) for quantum chemistry of linear alkanes. Instead of heterolytic bond cleavage with hydrogen…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Role of Edge Resonant Magnetic Perturbations in Edge-Localized-Mode Suppression and Density Pump-out in low-collisionality DIII-D Plasmas",
-      "url": "https://arxiv.org/abs/2606.31138",
-      "summary": "arXiv:2606.31138v1 Announce Type: new Abstract: Two-fluid nonlinear MHD simulations using the TM1 code demonstrate that the formation of magnetic islands at the top and bottom of the H-mode pedestal, together with the st…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "New numerical methods for calculating statistical equilibria of two-dimensional turbulent flows, strictly based on the Miller-Robert-Sommeria theory",
-      "url": "https://arxiv.org/abs/2606.31141",
-      "summary": "arXiv:2606.31141v1 Announce Type: new Abstract: New numerical methods are proposed for the mixing entropy maximization problem in the context of Miller-Robert-Sommeria's (MRS) statistical mechanics theory of two-dimensio…",
       "ts": 1782878400000
     }
   ],

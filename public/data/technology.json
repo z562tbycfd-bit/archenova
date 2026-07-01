@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-01T20:07:22.121Z",
+  "updated": "2026-07-01T22:19:29.397Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Report links Starliner problems to overconfidence and unrealistic schedules",
+      "url": "https://spacenews.com/report-links-starliner-problems-to-overconfidence-and-unrealistic-schedules/",
+      "summary": "A new report links the long-running technical problems with Boeing’s CST-100 Starliner commercial crew vehicle to a combination of overconfidence, unrealistic schedules and NASA’s lack of insight into the vehicle. The po…",
+      "ts": 1782944341000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "First 3D Structure of Malaria’s “Moving Junction” Solves Infection Mystery",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/first-3d-structure-of-malarias-moving-junction-solves-infection-mystery/",
+      "summary": "Scientists visualized how the malaria parasite gains entry into RBCs through the ring-shaped moving junction, finding that the structure actively remodels the host cell’s membrane, and also confirming that binders to the…",
+      "ts": 1782941441000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "FCC to vote on satellite licensing overhaul July 22",
@@ -705,22 +721,6 @@
       "summary": "Today's health tech news includes virtual PT for a whole country, what the FDA is considering on AI policy, and more",
       "ts": 1782826326000,
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Chinese trial sites being probed, RFK Jr. and peptides, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/06/30/china-clinical-trials-probe-rfk-jr-peptides-compounders/?utm_campaign=rss",
-      "summary": "U.S. lawmakers are investigating whether several large drugmakers have been involved ​in clinical trials in China that helped fuel its military capability",
-      "ts": 1782826280000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
-      "url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
-      "summary": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. Visio…",
-      "ts": 1782824427000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
