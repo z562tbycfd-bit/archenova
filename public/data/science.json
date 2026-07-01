@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-01T15:44:30.865Z",
+  "updated": "2026-07-01T17:59:26.956Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Can AI plan for heat emergencies better than simple rules? It depends",
+      "url": "https://phys.org/news/2026-07-ai-emergencies-simple.html",
+      "summary": "The thermometer reads 95°F (35°C) in Brooklyn, and vulnerable individuals need information to take appropriate action. New York City officials must gather facts quickly to provide updates on cooling centers, power outage…",
+      "ts": 1782927610000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Meditation and speaking in tongues: The surprising similarities between two spiritual practices",
+      "url": "https://phys.org/news/2026-07-meditation-tongues-similarities-spiritual.html",
+      "summary": "Do the world's religions and contemplative traditions send people to the same place—compassion, bliss, awe, a sense of God, awareness or the universe?",
+      "ts": 1782927608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Single-atom catalyst turns lignin into valuable chemicals with near-complete conversion",
+      "url": "https://phys.org/news/2026-07-atom-catalyst-lignin-valuable-chemicals.html",
+      "summary": "Researchers at The University of Manchester and Hebei University of Technology have identified how a new class of catalyst can break down lignin into useful chemical building blocks, offering a more sustainable route to …",
+      "ts": 1782927607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crystal-design principle reveals how competing molecular forces control structure, color and phase transitions",
+      "url": "https://phys.org/news/2026-07-crystal-principle-reveals-molecular-phase.html",
+      "summary": "Organic molecular crystals can respond to external stimuli such as heat, light, and mechanical force, making them attractive candidates for next-generation functional materials. However, predicting how multiple intermole…",
+      "ts": 1782926410000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Venezuela earthquakes highlight the limits of early warning systems",
+      "url": "https://phys.org/news/2026-07-venezuela-earthquakes-highlight-limits-early.html",
+      "summary": "Earthquakes still arrive without warning. That is the hard truth scientists have been forced to accept, despite a decade of advances in artificial intelligence, satellite monitoring and dense seismic networks.",
+      "ts": 1782926403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "World's first synthetic cell with a complete life cycle could revolutionize biological engineering",
+      "url": "https://phys.org/news/2026-07-world-synthetic-cell-life-revolutionize.html",
+      "summary": "While many of life's mysteries remain unsolved, every biologist can describe the basic processes performed by a living organism, including energy use, reproduction, growth and development. While these characteristics can…",
+      "ts": 1782925496000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New bioelectronic microdevices enable remote cell stimulation using ultrasound",
+      "url": "https://phys.org/news/2026-07-bioelectronic-microdevices-enable-remote-cell.html",
+      "summary": "The Universitat Autònoma de Barcelona (UAB) and the Institute of Microelectronics of Barcelona (IMB-CNM-CSIC) have developed a new generation of wireless piezoelectric microdevices capable of electrically stimulating liv…",
+      "ts": 1782925206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The universe is less uniform than we thought—cosmology may need a radical rethink",
+      "url": "https://phys.org/news/2026-07-universe-uniform-thought-cosmology-radical.html",
+      "summary": "Modern cosmology rests on a simple assumption: If we look on large enough scales, matter should be distributed evenly, with no preferred direction within the cosmos. This is known as the cosmological principle.",
+      "ts": 1782925205000
+    },
+    {
+      "source": "Science News",
+      "title": "Young gulls’ drab plumage may help them avoid adult attacks",
+      "url": "https://www.sciencenews.org/article/young-gulls-plumage-adult-attacks",
+      "summary": "Fake, painted decoys suggest immature coloring acts as a social signal, reducing aggression from territorial nesting gulls.",
+      "ts": 1782925200000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mobile learning output expanded rapidly from 2017 to 2026, analysis of 2,500 papers shows",
+      "url": "https://phys.org/news/2026-07-mobile-output-rapidly-analysis-papers.html",
+      "summary": "A bibliometric analysis of mobile learning research published between 2017 and 2026 shows a sharp expansion in output. There was a big surge between 2020 and 2022 associated with pandemic-driven shifts in higher educatio…",
+      "ts": 1782924218000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate resilience of brown bears over 175,000 years revealed in 3D analyses of their jaws",
+      "url": "https://phys.org/news/2026-07-climate-resilience-brown-years-revealed.html",
+      "summary": "European brown bears are masters of survival: These animals have weathered Pleistocene climate fluctuations and survived the cycles of ice ages and interglacial periods to the present day. Zoologists have now investigate…",
+      "ts": 1782924011000
+    },
+    {
+      "source": "Phys.org",
+      "title": "13,000 tons of space junk clutters Earth orbit. Here's how it could be cleaned up",
+      "url": "https://phys.org/news/2026-07-tons-space-junk-clutters-earth.html",
+      "summary": "Seventy years ago, Earth had only one satellite: the moon. Now it has more than 15,000—about 10,000 of which are owned by Elon Musk's SpaceX. The world's first trillionaire plans to launch 1 million more satellites, each…",
+      "ts": 1782924004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prickly starfish and urchins are decimating Australia's reefs. But we could find ways to protect them",
+      "url": "https://phys.org/news/2026-07-starfish-urchins-decimating-australia-reefs.html",
+      "summary": "Australia is home to some of the world's most beautiful reefs. This includes the lush Great Southern Reef, which wraps around Australia's southern coastline, and the world-renowned Great Barrier Reef.",
+      "ts": 1782922807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "XMM-Newton and Chandra help revise distance to Milky Way's outer spiral arms",
+      "url": "https://phys.org/news/2026-07-xmm-newton-chandra-distance-milky.html",
+      "summary": "The European Space Agency's XMM-Newton and NASA's Chandra X-ray space telescopes have spotted the aftermath of three bright explosions echoing through the outer spiral arms of our galaxy, the Milky Way. By measuring the …",
+      "ts": 1782922806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tooth fossil analysis suggests 'brawn before bite' in early Asian mammals",
+      "url": "https://phys.org/news/2026-07-tooth-fossil-analysis-brawn-early.html",
+      "summary": "An analysis of fossil teeth from mammals that lived in China following the most recent major mass extinction suggests size came before both shape and function as diets diversified.",
+      "ts": 1782921605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'I hate you!': What little kids really mean when they say this",
+      "url": "https://phys.org/news/2026-07-kids.html",
+      "summary": "\"I hate you. You're the worst mum in the world!\" It's a sentence that can feel heartbreaking to parents. You try to set a boundary with your little one, and they lash out with \"I hate you.\"",
+      "ts": 1782921601000
+    },
     {
       "source": "Phys.org",
       "title": "Martian dust storms may generate atmospheric electrical conditions that could impact future missions",
@@ -588,118 +700,6 @@
       "title": "Information-Epidemic Dynamics in Cyber-Physical Systems: A Hypergraph Framework with Interpersonal Relationships",
       "url": "https://arxiv.org/abs/2606.31782",
       "summary": "arXiv:2606.31782v1 Announce Type: new Abstract: Understanding how information propagation affects epidemic dynamics has become an emerging topic of interest. However, the influence of interpersonal relationship heterogen…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma double layer development during high power EUV exposure",
-      "url": "https://arxiv.org/abs/2606.31797",
-      "summary": "arXiv:2606.31797v1 Announce Type: new Abstract: The development of electrostatic plasma double layer (DL) at the boundary of Extreme Ultra Violet (EUV) exposed and un-exposed region in the bulk volume has been confirmed …",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Feedback dynamics in matching networks drive behavioral differentiation despite overlapping objectives",
-      "url": "https://arxiv.org/abs/2606.31802",
-      "summary": "arXiv:2606.31802v1 Announce Type: new Abstract: Many bipartite social networks exhibit pronounced asymmetries in selectivity and matching opportunities: members of one side can afford to be highly selective, while member…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Navigating committor landscape of biomolecules with a general pairwise interaction model",
-      "url": "https://arxiv.org/abs/2606.31832",
-      "summary": "arXiv:2606.31832v1 Announce Type: new Abstract: Sampling rare conformation transitions between metastable states is a central challenge in atomistic simulations. While the committor function serve as an ideal reaction co…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conical Intersections Enable Ultrafast Molecular Spin Control in a Chromium Complex",
-      "url": "https://arxiv.org/abs/2606.31905",
-      "summary": "arXiv:2606.31905v1 Announce Type: new Abstract: Molecular spintronics seeks to control spin states in single molecules for ultrafast switching and efficient information processing. Transition metal complexes are promisin…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conditional Normalizing Flow for Gas-Surface Scattering from Thermal to Hypersonic Velocities",
-      "url": "https://arxiv.org/abs/2606.31928",
-      "summary": "arXiv:2606.31928v1 Announce Type: new Abstract: Accurate aerodynamic modeling of satellites in very low Earth orbit (VLEO) requires gas-surface interaction (GSI) models that capture the full velocity spectrum from therma…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resonant and collective modification of London dispersion interactions under vibrational strong coupling",
-      "url": "https://arxiv.org/abs/2606.31932",
-      "summary": "arXiv:2606.31932v1 Announce Type: new Abstract: Experiments have shown that, by tuning a microcavity to resonance with a vibrational mode of the molecules contained within it, one can modify chemical properties, such as …",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cesium Based Laser-Atomic Oscillator",
-      "url": "https://arxiv.org/abs/2606.32019",
-      "summary": "arXiv:2606.32019v1 Announce Type: new Abstract: We report the first demonstration of a laser-atomic oscillator with cesium (Cs) atoms. A laser-atomic oscillator (LAO) is analogous to an active mode-locked laser with a se…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flexibility as a Universal Nature-Inspired Mechanism for Thrust Enhancement",
-      "url": "https://arxiv.org/abs/2606.32021",
-      "summary": "arXiv:2606.32021v1 Announce Type: new Abstract: Nature has equipped jet-propelled swimmers with flexible nozzles that outperform rigid ones, yet the origin of this advantage has remained unexplained. By tracking where an…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computing Arlequin coupling coefficient for concurrent FE-MD approaches",
-      "url": "https://arxiv.org/abs/2104.09746",
-      "summary": "arXiv:2104.09746v1 Announce Type: cross Abstract: Arlequin coupling coefficient is essential for concurrent FE-MD models with overlapping domains, but the calculation of its value is quite difficult when the geometry of …",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interpolation of Microscale Stress and Strain Fields Based on Mechanical Models",
-      "url": "https://arxiv.org/abs/2104.09749",
-      "summary": "arXiv:2104.09749v1 Announce Type: cross Abstract: In this short contribution we introduce a new procedure to recover the stress and strain fields for particle systems by mechanical models. Numerical tests for simple load…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Locker-based Truck-Drone Routing with Integrated Considerations of Pickups, Deliveries, and No-Fly Zones",
-      "url": "https://arxiv.org/abs/2606.30680",
-      "summary": "arXiv:2606.30680v1 Announce Type: cross Abstract: Truck-drone delivery is an emerging last-mile logistics mode combining the long-haul capacity of trucks with the flexible service capability of drones. In locker-based op…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cascading Impacts of the USA--China Trade War on Global Oilseed Supply Chain",
-      "url": "https://arxiv.org/abs/2606.30685",
-      "summary": "arXiv:2606.30685v1 Announce Type: cross Abstract: Global supply chains are highly interconnected, making them vulnerable to cascading disruptions induced by trade policy shocks. Understanding how such disruptions propaga…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Joint discovery of governing partial differential equations from multi-source datasets by competitive optimization",
-      "url": "https://arxiv.org/abs/2606.30699",
-      "summary": "arXiv:2606.30699v1 Announce Type: cross Abstract: Discovering governing equations directly from observational data is a key step towards interpretable scientific machine learning. Current data-driven approaches typically…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "LinApart3: efficient algorithm for multivariate partial fraction decomposition with linear denominators",
-      "url": "https://arxiv.org/abs/2606.30708",
-      "summary": "arXiv:2606.30708v1 Announce Type: cross Abstract: We present LinApart3, an efficient multivariate partial fraction decomposition algorithm for rational functions with linear denominators. Our decomposition algorithm guar…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Introducing AuriGLOBES: the effect of compressive tides, compact object-induced mass loss, and size evolution on modelling globular clusters",
-      "url": "https://arxiv.org/abs/2606.30746",
-      "summary": "arXiv:2606.30746v1 Announce Type: cross Abstract: Globular clusters (GCs) are long time survivors of galaxy assembly and evolution yet their emergence from an initial cluster population is still poorly constrained. We pr…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The forgotten bright star: Theta Eridani as a millenary stellar transient observed by Hipparchus, Ptolemy and al-Sufi",
-      "url": "https://arxiv.org/abs/2606.30748",
-      "summary": "arXiv:2606.30748v1 Announce Type: cross Abstract: Theta Eridani is a V=2.9 star that was nonetheless reported as one of the thirteen brightest stars in the night sky by both Ptolemy in his Almagest (137 AD) and by al-Suf…",
       "ts": 1782878400000
     }
   ],

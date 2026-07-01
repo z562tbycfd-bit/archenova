@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-01T15:44:33.767Z",
+  "updated": "2026-07-01T17:59:30.394Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Seeks Volunteers for New Yearlong Simulated Moon, Mars Mission",
+      "url": "https://www.nasa.gov/humans-in-space/nasa-seeks-volunteers-for-new-yearlong-simulated-moon-mars-mission/",
+      "summary": "NASA is recruiting research participants for the agency’s next simulated deep space mission. Beginning no earlier than August 2027, research volunteers will spend one year living and working in interplanetary environment…",
+      "ts": 1782922514000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Digitize or Fall Behind",
+      "url": "https://www.genengnews.com/topics/bioprocessing/digitize-or-fall-behind/",
+      "summary": "Autolomous CEO Alexander Seyf warns that bioprocessing’s biggest obstacle is not science but data. He argues that digitization, collaboration, and sharing lessons from failed experiments are essential to accelerating inn…",
+      "ts": 1782921634000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Standardizing Personalized CRISPR Gene-Editing Therapies",
+      "url": "https://www.genengnews.com/topics/bioprocessing/standardizing-personalized-crispr-gene-editing-therapies/",
+      "summary": "Successfully treating Baby KJ with a personalized CRISPR gene-editing therapy is spurring the industry to investigate how to develop standardized manufacturing platforms as well as how individualized gene-editing product…",
+      "ts": 1782921611000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Blueprint to Fill the Manufacturing Talent Gap",
+      "url": "https://www.genengnews.com/topics/bioprocessing/a-blueprint-to-fill-the-manufacturing-talent-gap/",
+      "summary": "Manus’ new biomanufacturing apprentice program is designed as a blueprint to share with the industry, delivering in-depth, hands-on training and industry-ready work skills in only six months. The post Blueprint to Fill t…",
+      "ts": 1782921608000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Trait Combining Key to More Effective Vector Production Hosts",
+      "url": "https://www.genengnews.com/topics/bioprocessing/combining-traits-is-the-key-to-more-effective-vector-production-hosts/",
+      "summary": "Currently available cell lines used to make viral vectors for gene therapy production have significant shortcomings, according to new analysis, which suggests efforts to develop alternatives should focus on engineering p…",
+      "ts": 1782921606000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "LINK Spacecraft Set for Mission to Boost NASA’s Swift Observatory",
@@ -681,46 +721,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI agents are not your “coworkers” Imagine coming in to work to learn that a new u…",
       "ts": 1782821400000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "New Agentic Capabilities for Tasks Across the Complete Research Workflow",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/new-agentic-capabilities-for-tasks-across-the-complete-research-workflow/",
-      "summary": "Officials at Elsevier say the company is expanding LeapSpace, a research-grade AI workspace, with new agentic capabilities that help “researchers carry out an even greater range of tasks within their complex workflow to …",
-      "ts": 1782820849000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Agriculture is ready for AI, but its data isn’t",
-      "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry…",
-      "ts": 1782820800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN scraps rule forcing it to repay money it never received",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167849",
-      "summary": "The United Nations has overhauled a decades-old “Kafkaesque financial rule” that requires it to return unspent funds to Member States - even when those funds had never been deposited in the first place.",
-      "ts": 1782820800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Quake latest: Food grows scarcer for thousands of Venezuelan families",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167846",
-      "summary": "The deadly Venezuela quakes have deepened hardship for families who already needed support and left others without homes, income or regular access to food.",
-      "ts": 1782820800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Aid convoy attacked in South Sudan, Ebola threatens livelihoods, UN deplores death penalty",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167847",
-      "summary": "Five humanitarian workers have been killed after a clearly marked aid convoy was ambushed in Jonglei State, South Sudan.",
-      "ts": 1782820800000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
