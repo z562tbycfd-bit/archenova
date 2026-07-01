@@ -84,10 +84,18 @@ function readSignalsJson(): SignalsJson {
   }
 }
 
-function getSignalPriority(score: number): SenateExternalIssue["priority"] {
-  if (score >= 9.5) return "Critical";
-  if (score >= 9) return "High";
-  if (score >= 8) return "Review";
+function normalizeSenatePriority(
+  priority: string,
+): SenateExternalIssue["priority"] {
+  if (
+    priority === "Critical" ||
+    priority === "High" ||
+    priority === "Review" ||
+    priority === "Watch"
+  ) {
+    return priority;
+  }
+
   return "Watch";
 }
 
@@ -131,11 +139,11 @@ export function getSenateExternalIntelligence(): SenateExternalIntelligence {
     }));
 
   const issues: SenateExternalIssue[] = senateAgenda.slice(0, 8).map((item) => ({
-    id: item.id,
-    title: item.title,
-    priority: item.priority,
-    rationale: item.constitutionalQuestion,
-  }));
+  id: item.id,
+  title: item.title,
+  priority: normalizeSenatePriority(item.priority),
+  rationale: item.constitutionalQuestion,
+}));
 
   const questions: SenateExternalQuestion[] = senateAgenda
     .slice(0, 8)
