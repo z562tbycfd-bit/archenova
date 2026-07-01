@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-01T05:23:36.772Z",
+  "updated": "2026-07-01T09:53:12.284Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: What Ebola and Marburg are teaching us about the next pandemic",
+      "url": "https://www.statnews.com/2026/07/01/ebola-virus-outbreak-bundibugyo-marburg-testing-krutika-kuppalli/?utm_campaign=rss",
+      "summary": "“What is urgently needed is a shift from pathogen-specific diagnostics toward pathogen-agnostic diagnostic systems,” write Krutika Kuppalli and Placide Mbala.",
+      "ts": 1782894600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Maryland Gov. Wes Moore: How to improve young men’s mental health",
+      "url": "https://www.statnews.com/2026/07/01/young-men-mental-health-loneliness-despair-maryland-wes-moore/?utm_campaign=rss",
+      "summary": "“We need to stop treating our young men and boys as problems to be solved, and start treating them as people to be invested in,” writes Gov. Wes Moore.",
+      "ts": 1782894600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The biotech scorecard for the third quarter: 15 stock-moving events to watch",
+      "url": "https://www.statnews.com/2026/07/01/q3-biotech-scorecard-readouts-approval-decisions/?utm_campaign=rss",
+      "summary": "Here is STAT’s biotech scorecard, our regular ledger of stock-moving biotech events, for the third quarter.",
+      "ts": 1782894600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Booze schmooze: The alcohol industry, frazzled by headwinds, wields its power behind the scenes",
+      "url": "https://www.statnews.com/2026/07/01/alcohol-lobby-immense-power-explored-deadliest-drug-part-7/?utm_campaign=rss",
+      "summary": "Demand for alcohol is declining. The industry is fighting harder and more creatively than ever against limits — and winning.",
+      "ts": 1782894600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Thousands of planets are hidden in this photo",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Thousands_of_planets_are_hidden_in_this_photo",
+      "summary": "Video: 00:10:45 Millions of stars. Thousands of hidden worlds. One unprecedented view of our galaxy. Three years since launch, ESA’s Euclid space telescope reveals the Milky Way galaxy’s centre in extraordinary detail: a…",
+      "ts": 1782892800000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Pattern formation in a Reaction-Diffusion Model for Amyloid-$\\beta$ and Tau Interactions in Alzheimer's Disease",
@@ -603,6 +643,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA Reviews Progress of Uzbekistan’s Nuclear Power Infrastructure Development",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-reviews-progress-of-uzbekistans-nuclear-power-infrastructure-development",
+      "summary": "",
+      "ts": 1782807409000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Abivax seeks to ease safety concerns with new data, boosting shares",
       "url": "https://www.statnews.com/2026/06/30/abivax-obefazimod-ulcerative-colitis-maintenance-trial-safety-data/?utm_campaign=rss",
@@ -671,54 +719,6 @@
       "title": "Manganese-Functionalized GelMA Hydrogels for MRI-Guided Immunotheranostics in Precision Oncology",
       "url": "https://arxiv.org/abs/2606.29599",
       "summary": "arXiv:2606.29599v1 Announce Type: new Abstract: Precision oncology requires multifunctional platforms capable of integrating accurate tumor diagnosis, localized therapeutic delivery, immune modulation, and real-time moni…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Geometric Stability of Neural Population Codes: Regional Variation, Behavioral Relevance, and Circuit Dependence",
-      "url": "https://arxiv.org/abs/2606.29655",
-      "summary": "arXiv:2606.29655v1 Announce Type: new Abstract: Current models of representational reliability in neural populations focus on temporal stability: whether population centroids are preserved across sessions and days. This …",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Clear Mind: Meditation and the Brain's Signal-to-Noise Ratio",
-      "url": "https://arxiv.org/abs/2606.29698",
-      "summary": "arXiv:2606.29698v1 Announce Type: new Abstract: Meditation is quintessentially associated with a clear mind. This paper proposes that diverse findings in the science of meditation can be mapped onto a single, empirically…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DNA Language Models: An Assessment of Pre-Training for Fine-Tuning Tasks",
-      "url": "https://arxiv.org/abs/2606.30140",
-      "summary": "arXiv:2606.30140v1 Announce Type: new Abstract: Recent breakthroughs in foundation models and Large Language Models (LLMs) have introduced new opportunities for studying and decoding genomic sequences. Several state-of-t…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pathway variability, coat stiffening and mechanical adaptation during clathrin-mediated endocytosis",
-      "url": "https://arxiv.org/abs/2606.30267",
-      "summary": "arXiv:2606.30267v1 Announce Type: new Abstract: Clathrin assemblies in cells can persist as flat plaques, abort after partial invagination, or close into clathrin-coated vesicles, but the determinants of these different …",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cohort-amortized personalization: navigating the privacy-utility frontier for virtual brain twins",
-      "url": "https://arxiv.org/abs/2606.30329",
-      "summary": "arXiv:2606.30329v1 Announce Type: new Abstract: Personalized generative brain models require individual neuroimaging data that privacy constraints and re-identification risk make difficult to share, while per-subject fit…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mean-field theory of rich oscillatory dynamics in low-rank recurrent networks with activity-dependent adaptation",
-      "url": "https://arxiv.org/abs/2606.30366",
-      "summary": "arXiv:2606.30366v1 Announce Type: new Abstract: We develop a dynamical mean-field theory for random recurrent networks with low-rank structure and firing-rate-driven adaptation. When the random connectivity is strong eno…",
       "ts": 1782792000000,
       "categoryId": "bio"
     }
