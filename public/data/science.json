@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-01T09:53:08.176Z",
+  "updated": "2026-07-01T12:35:54.387Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Helping children navigate the emotional aftershocks of an earthquake",
+      "url": "https://phys.org/news/2026-07-children-emotional-aftershocks-earthquake.html",
+      "summary": "The devastating earthquake in Venezuela has left countless families grieving, displaced and searching for loved ones. For many South Florida families with ties to the region, the tragedy feels especially close to home.",
+      "ts": 1782906004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Galaxy groups hiding in the universe's emptiest places",
+      "url": "https://phys.org/news/2026-07-galaxy-groups-universe-emptiest.html",
+      "summary": "Imagine standing in the emptiest place the universe has to offer, a stretch of cosmic ocean so vast that light takes tens of millions of years to cross it, and yet still finding company. That is the puzzle behind a new s…",
+      "ts": 1782904804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Darwin residents want answers on toxic gas emissions: Science shows their concerns are warranted",
+      "url": "https://phys.org/news/2026-07-darwin-residents-toxic-gas-emissions.html",
+      "summary": "For years, Darwin residents have been concerned about toxic chemicals emitted by the city's two gas export facilities. In fact, some locals are so worried about these airborne chemicals—particularly benzene—they recently…",
+      "ts": 1782903601000
+    },
     {
       "source": "Phys.org",
       "title": "Himalayan pangolin emerges as distinct species, confirmed with DNA from 19th-century specimen",
@@ -679,27 +700,6 @@
       "title": "From Materials Database to Materials Bank: Assetizing Data for AI Driven Materials Innovation",
       "url": "https://arxiv.org/abs/2606.31366",
       "summary": "arXiv:2606.31366v1 Announce Type: cross Abstract: Driven by high-throughput experimentation, computational modeling, and artificial intelligence (AI), materials data has expanded at an unprecedented rate. Conventional ma…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Side-Chain Tuning of Thermal-Expansion Crossover in Metal-Organic Frameworks",
-      "url": "https://arxiv.org/abs/2606.31417",
-      "summary": "arXiv:2606.31417v1 Announce Type: cross Abstract: Achieving continuous control over macroscopic thermal expansion remains a fundamental challenge in solid-state physics. Using classical and path-integral molecular dynami…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Role of SKA in Advancing Remote Measurements of Magnetic Fields of Solar Coronal Mass Ejections",
-      "url": "https://arxiv.org/abs/2606.31440",
-      "summary": "arXiv:2606.31440v1 Announce Type: cross Abstract: Coronal Mass Ejections (CMEs) are large expulsions of magnetized plasma from the Sun into interplanetary space and are the primary drivers of extreme space weather variat…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Schr\\\"odinger equations: Symmetries, superposition, and classicality from a Bohmian perspective",
-      "url": "https://arxiv.org/abs/2606.31529",
-      "summary": "arXiv:2606.31529v1 Announce Type: cross Abstract: Interference is commonly regarded as the most direct manifestation of the superposition principle. This association is natural for the linear Schr\\\"odinger equation, wher…",
       "ts": 1782878400000
     }
   ],
