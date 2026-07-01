@@ -1,7 +1,154 @@
 {
   "ok": true,
-  "updated": "2026-07-01T12:35:54.387Z",
+  "updated": "2026-07-01T15:44:30.865Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Martian dust storms may generate atmospheric electrical conditions that could impact future missions",
+      "url": "https://phys.org/news/2026-07-martian-storms-generate-atmospheric-electrical.html",
+      "summary": "A new study by a doctoral researcher at The University of Alabama in Huntsville (UAH), part of The University of Alabama System, suggests global dust storms on Mars may organize the Martian atmosphere into regions favora…",
+      "ts": 1782920403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "ESA outlines high-tech lander instruments for 2050 Enceladus",
+      "url": "https://phys.org/news/2026-07-esa-outlines-high-tech-lander.html",
+      "summary": "Saturn's moon Enceladus has become a prime solar system target for astrobiologists. This is because the small moon, which is just over 10% the diameter of Earth's moon, harbors a vast subsurface ocean beneath its icy cru…",
+      "ts": 1782919203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Orbit overload could devastate astronomy if 1.7 million proposed satellites brighten night sky",
+      "url": "https://phys.org/news/2026-07-orbit-overload-devastate-astronomy-million.html",
+      "summary": "A new European Southern Observatory (ESO) study has found that current proposals to launch more than 1.7 million satellites into orbit, including extremely bright ones, would have \"devastating consequences for astronomy.…",
+      "ts": 1782919201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How a giant planet survived its star's death, then migrated inward",
+      "url": "https://phys.org/news/2026-06-giant-planet-survived-star-death.html",
+      "summary": "When astronomers discovered a giant planet orbiting a dead star in 2020, they wondered how it survived its star's violent demise. Now, observations from NASA's James Webb Space Telescope (JWST) may finally explain the pl…",
+      "ts": 1782918014000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Urokodia! 518-million-year-old fossil shows beginning of spider's bite",
+      "url": "https://phys.org/news/2026-07-urokodia-million-year-fossil-spider.html",
+      "summary": "The earliest evidence of spiders' fangs has been identified in a 518-million-year-old fossil by scientists at the University of Leicester and Yunnan University.",
+      "ts": 1782918010000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Algae may have launched coral reefs by hijacking coral cells, genetic experiments suggest",
+      "url": "https://phys.org/news/2026-07-algae-coral-reefs-hijacking-cells.html",
+      "summary": "The reefs scattered throughout the tropics arose only after algae took up full-time residence in coral cells, supplying corals with abundant food and enabling them to build extensive shallow-water communities. But with w…",
+      "ts": 1782918001000
+    },
+    {
+      "source": "Science News",
+      "title": "This space telescope is falling. A robotic spacecraft may save it",
+      "url": "https://www.sciencenews.org/article/space-telescope-rescue-mission-nasa-swift",
+      "summary": "A private rocket mission aims to boost NASA’s Swift telescope before its orbit decays, extending its hunt for gamma-ray bursts.",
+      "ts": 1782918000000
+    },
+    {
+      "source": "Phys.org",
+      "title": "From fields to space farming, new tool detects crop drought stress before it's visible",
+      "url": "https://phys.org/news/2026-07-fields-space-farming-tool-crop.html",
+      "summary": "When it comes to drought stress, timing can be the difference between saving a crop and losing it, whether in a greenhouse or in the high-stakes environment of future space missions. In a recent study published in Plant …",
+      "ts": 1782916803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Perfluorooctanoic acid in the Seto Inland Sea: Variability, transport, and fate",
+      "url": "https://phys.org/news/2026-07-perfluorooctanoic-acid-seto-inland-sea.html",
+      "summary": "Perfluorooctanoic acid (PFOA) is one of the per- and polyfluoroalkyl substances (PFAS), a class of substances within a broader universe of organofluorine compounds. PFOA has potential adverse effects on human health and …",
+      "ts": 1782916801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black-box optimization weather intervention method supports future disaster mitigation",
+      "url": "https://phys.org/news/2026-07-black-optimization-weather-intervention-method.html",
+      "summary": "In recent years, the frequency of weather-related natural disasters—cyclones, torrential rains, floods—has increased as a consequence of global warming. These disasters cause billions of dollars in damage and losses ever…",
+      "ts": 1782916539000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Video: Thousands of planets are hidden in this image",
+      "url": "https://phys.org/news/2026-07-video-thousands-planets-hidden-image.html",
+      "summary": "Millions of stars. Thousands of hidden worlds. One unprecedented view of our galaxy. Three years since launch, ESA's Euclid space telescope reveals the center of the Milky Way galaxy in extraordinary detail: a mosaic of …",
+      "ts": 1782915603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Woodcock charge deer to defend nests, footage reveals",
+      "url": "https://phys.org/news/2026-07-woodcock-deer-defend-footage-reveals.html",
+      "summary": "American woodcock, short, plump shorebirds with long, thin beaks, are widely known for their bobbing stride and nasally \"peent\" calls, but not for being aggressive. Yet one April afternoon, when a deer sniffed around a w…",
+      "ts": 1782915601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "400-year-old painting reveals a bat's secret diet",
+      "url": "https://phys.org/news/2026-07-year-reveals-secret-diet.html",
+      "summary": "Natural historians have many observational techniques in their toolkit for learning about the natural world: tagging animals with tracking devices, recording sounds, analyzing droppings or simply watching and counting. A…",
+      "ts": 1782914404000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "For the First Time, a Cell Built From Scratch Grows and Divides",
+      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "summary": "Scientists built a synthetic cell that combines more lifelike properties than ever before — proof of concept that it’s possible to bring nonliving materials to life, or something close to it, in the lab. The post For the…",
+      "ts": 1782914402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are you 'happee' or are you 'happeh?' Study links accents to social classes",
+      "url": "https://phys.org/news/2026-07-happee-happeh-links-accents-social.html",
+      "summary": "Our accents give away more about social class than we think, according to new research led by Lancaster University. The new sociolinguistic study focusing on Mancunian accents, published in the journal, Language Variatio…",
+      "ts": 1782914401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mismatched work–life boundaries while working from home can push couples toward breaking up",
+      "url": "https://phys.org/news/2026-07-mismatched-worklife-boundaries-home-couples.html",
+      "summary": "The COVID-19 pandemic transformed the way people work, making remote and work-from-home (WFH) jobs far more common than ever before. Even after social distancing ended, many companies and employees chose to stick with th…",
+      "ts": 1782913203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What made trees possible? New research points to drought",
+      "url": "https://phys.org/news/2026-07-trees-drought.html",
+      "summary": "A study is reframing a fundamental question in plant evolution: What made trees possible? Researchers from Cal Poly Humboldt, Yale University, the University of Hohenheim in Germany and the Czech Academy of Sciences set …",
+      "ts": 1782912003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Were Clovis foragers in Late Pleistocene North America big-game hunters, or just big-game scavengers?",
+      "url": "https://phys.org/news/2026-06-clovis-foragers-late-pleistocene-north.html",
+      "summary": "There are currently 15 well-documented Late Pleistocene localities in North America in which Clovis points are found associated with proboscidean remains (of mammoth, mastodon and gomphothere). Archaeologists routinely a…",
+      "ts": 1782910804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why taking a sick day depends on more than being sick",
+      "url": "https://phys.org/news/2026-07-sick-day.html",
+      "summary": "As winter illness spreads and households face cost-of-living pressure, many Australians cannot treat a sick day as a simple health decision. They may be too sick to work—but their job is too insecure to stay home. New re…",
+      "ts": 1782910803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Webb reveals merger scars in galaxies that stopped forming stars 9 billion years ago",
+      "url": "https://phys.org/news/2026-06-webb-reveals-merger-scars-galaxies.html",
+      "summary": "Research has shed new light on why some distant galaxies suddenly stop forming stars. An international team led by astronomers at the University of Nottingham has used the James Webb Space Telescope to study a large samp…",
+      "ts": 1782910801000
+    },
+    {
+      "source": "Science News",
+      "title": "A new species of walking shark has been found in Papua New Guinea",
+      "url": "https://www.sciencenews.org/article/new-species-walking-shark-dudgeon",
+      "summary": "Walking sharks crawl on their fins across reefs and even out into tide pools. The newfound Dudgeon walking shark brings the known species count to 10.",
+      "ts": 1782910800000
+    },
     {
       "source": "Phys.org",
       "title": "Helping children navigate the emotional aftershocks of an earthquake",
@@ -48,7 +195,7 @@
       "source": "Phys.org",
       "title": "World's oceans break June heat record: EU monitor",
       "url": "https://phys.org/news/2026-07-world-oceans-june-eu.html",
-      "summary": "The world's oceans just experienced their hottest June on record and could set fresh highs in the months ahead as El Niño and climate change drive temperatures even higher, scientists said Wednesday.",
+      "summary": "The world's oceans just experienced their hottest June on record and could set fresh highs in the months ahead as El Nino and climate change drive temperatures even higher, scientists said Wednesday.",
       "ts": 1782886057000
     },
     {
@@ -553,153 +700,6 @@
       "title": "The forgotten bright star: Theta Eridani as a millenary stellar transient observed by Hipparchus, Ptolemy and al-Sufi",
       "url": "https://arxiv.org/abs/2606.30748",
       "summary": "arXiv:2606.30748v1 Announce Type: cross Abstract: Theta Eridani is a V=2.9 star that was nonetheless reported as one of the thirteen brightest stars in the night sky by both Ptolemy in his Almagest (137 AD) and by al-Suf…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deep Reinforcement Learning for Individual Atomic Control and Cooling",
-      "url": "https://arxiv.org/abs/2606.30765",
-      "summary": "arXiv:2606.30765v1 Announce Type: cross Abstract: Real-time feedback control of quantum systems is often limited by partial observations, nonlinear dynamics and measurement noise, which make accurate model-based controll…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ReactionAtlas: Ab origine exploration of chemical reaction networks with machine learning",
-      "url": "https://arxiv.org/abs/2606.30778",
-      "summary": "arXiv:2606.30778v1 Announce Type: cross Abstract: Mapping a chemical reaction network, the graph of minima and transition states (TS) and the elementary reactions connecting them, is the natural language of chemistry, fr…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magnetic Dipole in a Cuboidal Superconducting Trap",
-      "url": "https://arxiv.org/abs/2606.30808",
-      "summary": "arXiv:2606.30808v1 Announce Type: cross Abstract: We derive the exact image-dipole potential of a point dipole inside a closed cuboidal superconducting trap. The construction generalises the parallel-plate result to a ge…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time-dependent adaptive mesh refinement solver for the Gross-Pitaevskii-Poisson equations",
-      "url": "https://arxiv.org/abs/2606.30827",
-      "summary": "arXiv:2606.30827v1 Announce Type: cross Abstract: This work presents a new numerical code for solving the time--dependent Gross--Pitaevskii--Poisson (GPP) system using adaptive mesh refinement (AMR). The code is designed…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental Realization of Synthetic Magnonic Lattice via Floquet Engineering",
-      "url": "https://arxiv.org/abs/2606.30845",
-      "summary": "arXiv:2606.30845v1 Announce Type: cross Abstract: Magnonic systems, which exploit spin-wave excitations in magnetic materials, offer a promising platform for coherent information processing due to their low dissipation, …",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Carbon encapsulation of levitated Au nanoparticles",
-      "url": "https://arxiv.org/abs/2606.30858",
-      "summary": "arXiv:2606.30858v1 Announce Type: cross Abstract: We investigate the formation of a barrier to evaporation that develops when levitated nanoscale Au nanoparticles are exposed to pulses of 532 nm laser radiation in a high…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Overcoming Configuration Bottleneck: Modular Pathways to Stable Semiconductor Spin-Qubit Arrays",
-      "url": "https://arxiv.org/abs/2606.30883",
-      "summary": "arXiv:2606.30883v1 Announce Type: cross Abstract: Over the past decade, semiconductor spin qubits have progressed from few-qubit demonstrations towards larger-scale devices fabricated in increasingly reproducible academi…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multipolar Magnetic-Field Inference for PSR J0740+6620 with Neural-Network-Accelerated NICER Pulse-Profile Modeling",
-      "url": "https://arxiv.org/abs/2606.30886",
-      "summary": "arXiv:2606.30886v1 Announce Type: cross Abstract: We investigate the multipolar surface magnetic-field structure of the high-mass millisecond pulsar PSR J0740+6620 using the 32-bin bolometric NICER pulse profile of Dittm…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimal Design of Tubular Perfectly Conducting Objects in Electromagnetic Chirality",
-      "url": "https://arxiv.org/abs/2606.30891",
-      "summary": "arXiv:2606.30891v1 Announce Type: cross Abstract: This work is about the shape optimization of long tubular objects in electromagnetic chirality (em-chirality). Em-chirality is a property of individual scattering objects…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bridging electrode preparation and electrocatalyst performance with physics-based causal AI",
-      "url": "https://arxiv.org/abs/2606.30898",
-      "summary": "arXiv:2606.30898v1 Announce Type: cross Abstract: State-of-the-art artificial intelligence (AI) and Machine-Learning (ML) tools have not yet enabled rapid design of next-generation materials. Detailed physical understand…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Role of polarity in the growth of cubic GaN within silicon inverted pyramids",
-      "url": "https://arxiv.org/abs/2606.30924",
-      "summary": "arXiv:2606.30924v1 Announce Type: cross Abstract: A lack of spontaneous internal polarization makes cubic GaN (c-GaN) a well-suited material for emerging micro-LED-based short-range communication, where c-GaN promises in…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Prebiotic Chemistry Assemblies of L-Cysteine on Defect-Free Pyrite Terraces",
-      "url": "https://arxiv.org/abs/2606.30929",
-      "summary": "arXiv:2606.30929v1 Announce Type: cross Abstract: W\\\"achtersh\\\"auser's theory proposes iron-sulfur minerals as key platforms for molecular synthesis and supramolecular organization in prebiotic environments. However, def…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computed materials proposals depart from the structural memory of experimental discovery",
-      "url": "https://arxiv.org/abs/2606.30967",
-      "summary": "arXiv:2606.30967v1 Announce Type: cross Abstract: Generative AI and high-throughput DFT pipelines propose millions of inorganic crystal structures, but lack a calibrated reference frame against experimentally realized ch…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Imaging via Kurtosis-Difference Weighted Covariance on 2D Camera",
-      "url": "https://arxiv.org/abs/2606.31005",
-      "summary": "arXiv:2606.31005v1 Announce Type: cross Abstract: Camera-based quantum imaging detects spatially correlated photon pairs from spontaneous parametric down-conversion (SPDC). Conventional covariance methods typically requi…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hidden ordered compound-layer and its tailoring of the electronic/optical property in Ge2Sb2SexTe5-x alloys",
-      "url": "https://arxiv.org/abs/2606.31047",
-      "summary": "arXiv:2606.31047v1 Announce Type: cross Abstract: Ge2Sb2SexTe5-x (GSST) alloys represent an emerging class of phase-change materials for integrated photonics. However, the microscopic origins underlying their superior pe…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pauli Weight Hamiltonian Term Selection for Optimized Machine Learning Based Quantum Error Mitigation",
-      "url": "https://arxiv.org/abs/2606.31195",
-      "summary": "arXiv:2606.31195v1 Announce Type: cross Abstract: Machine learning provides a scalable solution for quantum error mitigation. However, the selection of appropriate Pauli strings for inclusion in training data remains a c…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "FPGA-based LQG controller and hardware-in-the-loop simulator implementation for nanomechanical systems",
-      "url": "https://arxiv.org/abs/2606.31228",
-      "summary": "arXiv:2606.31228v1 Announce Type: cross Abstract: We present an open-source framework for real-time Linear Quadratic Gaussian (LQG) control and hardware-in-the-loop (HIL) simulation on the affordable Red Pitaya STEMlab F…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probabilistic Inversion with Flow Matching",
-      "url": "https://arxiv.org/abs/2606.31288",
-      "summary": "arXiv:2606.31288v1 Announce Type: cross Abstract: We demonstrate the application of Flow Matching, a technique originating from generative Artificial Intelligence, to probabilistic inversion in geophysical settings, such…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Full-Wave Green's-Function Modeling of Collective Single-Photon Emission in Non-Markovian Open-System QED with Finite-Bandwidth Compensation of Dispersive Interactions",
-      "url": "https://arxiv.org/abs/2606.31317",
-      "summary": "arXiv:2606.31317v1 Announce Type: cross Abstract: This work presents a full-wave Green's function framework for modeling collective and coherent single-photon emission from multiple quantum emitters embedded in complex e…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Relativistic magnetohydrodynamics from kinetic theory",
-      "url": "https://arxiv.org/abs/2606.31327",
-      "summary": "arXiv:2606.31327v1 Announce Type: cross Abstract: This thesis develops a kinetic-theory framework for relativistic dissipative magnetohydrodynamics under strong electromagnetic fields, motivated by quark-gluon plasma in …",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Materials Database to Materials Bank: Assetizing Data for AI Driven Materials Innovation",
-      "url": "https://arxiv.org/abs/2606.31366",
-      "summary": "arXiv:2606.31366v1 Announce Type: cross Abstract: Driven by high-throughput experimentation, computational modeling, and artificial intelligence (AI), materials data has expanded at an unprecedented rate. Conventional ma…",
       "ts": 1782878400000
     }
   ],

@@ -1,7 +1,111 @@
 {
   "ok": true,
-  "updated": "2026-07-01T12:35:57.102Z",
+  "updated": "2026-07-01T15:44:33.767Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "LINK Spacecraft Set for Mission to Boost NASA’s Swift Observatory",
+      "url": "https://www.nasa.gov/image-article/link-spacecraft-set-for-mission-to-boost-nasas-swift-observatory/",
+      "summary": "A first-of-its-kind mission to raise the orbit of NASA’s Neil Gehrels Swift Observatory is poised for launch no earlier than Thursday, July 2, 5:09 a.m. EDT (9:09 p.m. UTC+12), from Kwajalein Atoll, part of the Republic …",
+      "ts": 1782919229000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The moment Anthropic convinced me it’s serious about science",
+      "url": "https://www.statnews.com/2026/07/01/anthropic-claude-science-convinced-me-its-serious-ai-prognosis/?utm_campaign=rss",
+      "summary": "AI Prognosis: The release of Claude Science suggests big model makers are getting serious about real science, and not just flashy problems.",
+      "ts": 1782918707000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
+      "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
+      "ts": 1782918000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Webb studies how a planet survived the death of its star",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
+      "ts": 1782918000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 4934-4940: In the Land of the Polygons",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4934-4940-in-the-land-of-the-polygons/",
+      "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, June 26, 2026 There were two planning cycles over this span of sols. The Monday planning took place with Curiosi…",
+      "ts": 1782916906000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "summary": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “A…",
+      "ts": 1782916516000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Synthetic biology researchers think they’ve made a cell. Is it alive?",
+      "url": "https://www.statnews.com/2026/07/01/synthethic-biology-researcher-announce-creation-spud-cells/?utm_campaign=rss",
+      "summary": "Researchers have created what they say may count as the first synthetic cell, and have started a public benefit corporation to share the technology with other scientists. It’s a piece…",
+      "ts": 1782915439000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Caltech Welcomes Astrophysicist Ray Jayawardhana as New President",
+      "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-welcomes-astrophysicist-ray-jayawardhana-as-new-president/",
+      "summary": "Ray Jayawardhana begins his tenure today as the 10th president of the California Institute of Technology. His selection as Caltech’s president, and as the Sonja and William Davidow Presidential Chair and professor of ast…",
+      "ts": 1782915388000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Anthropic drug development goals, Trump drug plan snags, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/01/anthropic-drug-development-goals-trump-plan-hitting-snag/?utm_campaign=rss",
+      "summary": "Anthropic announced the availability of Claude Science, which optimizes its large language model for use in scientific labs and by drugmakers",
+      "ts": 1782913283000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: More signs that GLP-1s may help with peripheral artery disease",
+      "url": "https://www.statnews.com/2026/07/01/biotech-news-glp-1s-may-help-with-peripheral-artery-disease/?utm_campaign=rss",
+      "summary": "Anthropic will begin developing drugs, BridgeBio pockets a billion, and more biotech news from The Readout",
+      "ts": 1782913078000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and Partners Build in America, for America",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "summary": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discove…",
+      "ts": 1782910847000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Unseen threats overhead: Drones endanger U.S. rocket launch sites",
+      "url": "https://spacenews.com/unseen-threats-overhead-drones-endanger-u-s-rocket-launch-sites/",
+      "summary": "One small, errant drone can scrub a space launch at the cost of millions of dollars in delays, with further repercussions spanning across multiple commercial and government launch service providers. […] The post Unseen t…",
+      "ts": 1782910800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s TESS Mission Finds Planetary System in New Way",
+      "url": "https://science.nasa.gov/missions/tess/nasas-tess-mission-finds-planetary-system-in-new-way/",
+      "summary": "For the first time, NASA’s TESS (Transiting Exoplanet Survey Satellite) mission has identified a planet orbiting a distant star thanks to ripples in space-time. Unlike the star-hugging transiting planets TESS regularly r…",
+      "ts": 1782909814000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Vantor offers up-to-date imagery with WorldView 3D",
@@ -19,6 +123,14 @@
       "categoryId": "space"
     },
     {
+      "source": "MIT Technology Review",
+      "title": "The Download: Anthropic launches Claude Science, and California’s carbon manure math",
+      "url": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Claude Science is Anthropic’s newest flagship product At an event for pharmaceutic…",
+      "ts": 1782907800000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "Latitude plans to conduct first launch from Oman",
       "url": "https://spacenews.com/latitude-plans-to-conduct-first-launch-from-oman/",
@@ -33,6 +145,22 @@
       "summary": "The European Space Agency’s XMM-Newton and NASA’s Chandra X-ray space telescopes have spotted the aftermath of three bright explosions echoing through the outer spiral arms of our galaxy, the Milky Way. By measuring the …",
       "ts": 1782907200000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela earthquake disaster: needs ‘skyrocketing’, say relief agencies",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167850",
+      "summary": "In Venezuela, a rescue operation in La Guaira has succeeded in getting a toddler out alive from under the rubble, six days since the double-earthquake disaster.",
+      "ts": 1782907200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "AI explained: Why the world needs to act now",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167848",
+      "summary": "Artificial intelligence (AI) is moving faster than governments can keep up.",
+      "ts": 1782907200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -388,7 +516,7 @@
     },
     {
       "source": "Genetic Engineering News",
-      "title": "Claude Science is Here, Antibiotics Designed by Text Prompt Among Applications",
+      "title": "Claude Science Is Here, Antibiotics Designed by Text Prompt Among Applications",
       "url": "https://www.genengnews.com/topics/artificial-intelligence/claude-science-is-here-antibiotics-designed-by-text-prompt-among-applications/",
       "summary": "Anthropic has released Claude Science, an AI workbench for scientists that consolidates fragmented research tools into a single reasoning layer. Basecamp Research’s antibiotic design and vaccine prediction AI models are …",
       "ts": 1782843076000,
@@ -593,134 +721,6 @@
       "summary": "Five humanitarian workers have been killed after a clearly marked aid convoy was ambushed in Jonglei State, South Sudan.",
       "ts": 1782820800000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Despite record $100 million shortfall, Palestine relief agency still ‘a critical platform’ for Gaza recovery",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167845",
-      "summary": "The UN agency serving 5.9 million Palestine refugees, UNRWA, continues to strive to deliver on its mandate while facing an unprecedented $100 million budget shortfall, a gap it hopes to narrow during Tuesday’s pledging c…",
-      "ts": 1782820800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Strait of Hormuz: Gradual re-opening is no quick fix for developing nations, UN warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167844",
-      "summary": "Re-opening the Strait of Hormuz would bring vital relief for many economies, but developing countries will continue to grapple with increased food and fuel costs, according to a new UN report released on Tuesday.",
-      "ts": 1782820800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New WHO plan urges stronger action against fungal disease",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167842",
-      "summary": "The World Health Organization (WHO) has published new guidance to help countries confront the rising burden of fungal disease and antifungal resistance - one of the most neglected global health threats, yet still largely…",
-      "ts": 1782820800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Children are turning to AI for homework – and life advice",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167841",
-      "summary": "Millions of children across the globe are already using artificial intelligence to learn, solve problems and even seek advice about personal worries, while safeguards are failing to keep pace with the technology's rapid …",
-      "ts": 1782820800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela quake: Key services crippled and health workers missing",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167840",
-      "summary": "Search and rescue operations continued in Venezuela on Tuesday as thousands of displaced survivors struggled to find shelter and humanitarians issued an alert over the spread of infectious disease.",
-      "ts": 1782820800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Amid crushing European heatwave, things are about to get hotter for transport systems",
-      "url": "https://news.un.org/feed/view/en/story/2026/06/1167839",
-      "summary": "As European transport officials scramble to deal with melting train tracks and buckling roads amid a crushing heatwave, a UN report released Tuesday warns of more extreme weather in the decades ahead for Europe, Central …",
-      "ts": 1782820800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Orbital files plans for 100,000 orbital data centers",
-      "url": "https://spacenews.com/orbital-files-plans-for-100000-orbital-data-centers/",
-      "summary": "Five-month-old startup Orbital has asked the Federal Communications Commission for permission to deploy up to 100,000 data center satellites, aiming to bring 10 gigawatts of computing power from space to meet rising arti…",
-      "ts": 1782820707000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Building tech in the world’s secret R&D hub",
-      "url": "https://www.technologyreview.com/2026/06/30/1139661/building-tech-in-the-worlds-secret-rd-hub/",
-      "summary": "Apple. Anthropic. Disney Research. Google. Meta. Microsoft. NVIDIA. OpenAI. Few places outside Silicon Valley can claim R&D hubs from all of these companies. Fewer still are concentrated in a city of just over 400,000 pe…",
-      "ts": 1782815010000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Asteroid Day & eight other key dates in asteroid history",
-      "url": "https://www.esa.int/Space_Safety/Planetary_Defence/Asteroid_Day_eight_other_key_dates_in_asteroid_history",
-      "summary": "Happy Asteroid Day! Today is the annual UN-recognised global event to promote public education on asteroids and planetary defence. But why today, of all days? Read on to find out – and find out the other key dates in our…",
-      "ts": 1782811800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Ames Science Stars of the Month July 2026",
-      "url": "https://www.nasa.gov/general/ames-stars-of-the-month-july-2026/",
-      "summary": "NASA Ames Science Stars of the Month: July 2026 The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Sungshin Choi, Yi-Chun Chen, Emma Yates, Eduardo Bendek. Their commit…",
-      "ts": 1782810764000,
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How ChatGPT adoption has expanded",
-      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-      "ts": 1782810000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Short-sighted new student loan caps elevate chiropractic care over critical health care professions",
-      "url": "https://www.statnews.com/2026/06/30/graduate-student-loan-caps-health-care-nursing-chiropractors/?utm_campaign=rss",
-      "summary": "“This administrative logic is hopelessly out of touch with the empirical reality of American health care,” writes David S. Shapiro.",
-      "ts": 1782808200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The loophole in Trump’s obesity drug deal with Eli Lilly and Novo Nordisk",
-      "url": "https://www.statnews.com/2026/06/30/medicare-medicaid-glp1-costs-explained-balance-out-bridge-in/?utm_campaign=rss",
-      "summary": "The Trump administration's grand bargain with drugmakers isn't working out as planned.",
-      "ts": 1782808200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Florida is the first state to require EKGs for high school athletes. It’s a mistake",
-      "url": "https://www.statnews.com/2026/06/30/florida-ekg-law-high-school-athletes/?utm_campaign=rss",
-      "summary": "“There are better ways for schools to protect student athletes,” writes Katherine Hofmann.",
-      "ts": 1782808200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Even with MAHA, Trump administration has gone soft on alcohol",
-      "url": "https://www.statnews.com/2026/06/30/maha-trump-ignores-alcohol-risk-deadliest-drug-part-6/?utm_campaign=rss",
-      "summary": "A STAT investigation has found that the Trump administration has downplayed alcohol’s risks and actively derailed efforts to understand and prevent drinking-related harms.",
-      "ts": 1782808200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Reviews Progress of Uzbekistan’s Nuclear Power Infrastructure Development",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-reviews-progress-of-uzbekistans-nuclear-power-infrastructure-development",
-      "summary": "",
-      "ts": 1782807409000,
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
