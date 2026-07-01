@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-01T22:19:29.397Z",
+  "updated": "2026-07-01T23:55:42.545Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Statins and blood pressure drugs changing health risks of obesity, study suggests",
+      "url": "https://www.statnews.com/2026/07/01/lancet-obesity-blood-pressure-cholesterol-study/?utm_campaign=rss",
+      "summary": "New research shows obesity patients over 40 are managing blood pressure and cholesterol as well as healthy-weight peers, but younger adults remain at risk.",
+      "ts": 1782945000000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Report links Starliner problems to overconfidence and unrealistic schedules",
@@ -17,6 +25,14 @@
       "summary": "Scientists visualized how the malaria parasite gains entry into RBCs through the ring-shaped moving junction, finding that the structure actively remodels the host cell’s membrane, and also confirming that binders to the…",
       "ts": 1782941441000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Chandra Examines Milky Way at Arms’ Length",
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-examines-milky-way-at-arms-length/",
+      "summary": "A new result using NASA’s Chandra X-ray Observatory shows that the outer spiral arms in the Milky Way galaxy may reach wider than previously thought. This finding may lead astronomers to adjust their understanding of our…",
+      "ts": 1782937040000,
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -99,18 +115,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "ESA",
-      "title": "Webb studies how a planet survived the death of its star",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
-      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
-      "ts": 1782918000000,
-      "categoryId": "space"
-    },
-    {
       "source": "NASA",
       "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
       "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
       "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
+      "ts": 1782918000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Webb studies how a planet survived the death of its star",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
       "ts": 1782918000000,
       "categoryId": "space"
     },
@@ -225,6 +241,22 @@
       "summary": "The European Space Agency’s XMM-Newton and NASA’s Chandra X-ray space telescopes have spotted the aftermath of three bright explosions echoing through the outer spiral arms of our galaxy, the Milky Way. By measuring the …",
       "ts": 1782907200000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "'Everything blew up': A baseball stadium becomes a refuge in Venezuela",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167857",
+      "summary": "Where children once trained as baseball players, families now sleep under tarpaulins. The stadium at Playa Grande, on Venezuela's central coast, has become an emergency shelter for people who lost their homes – or cannot…",
+      "ts": 1782907200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Risk of atrocities in Sudan, UN programme prevents climate displacement, more civilians killed in Ukraine",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167856",
+      "summary": "Drone attacks by advancing rebel fighters who are besieging El Obeid, Sudan, continue to result in civilian casualties, putting around half a million civilians at grave risk of large-scale atrocities.",
+      "ts": 1782907200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -689,38 +721,6 @@
       "summary": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and wit…",
       "ts": 1782831657000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How Jaiveer Singh Is Helping Robots — and Developers — Move Faster",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-jaiveer-singh/",
-      "summary": "When Jaiveer Singh talks about robots, he doesn’t begin with spectacle. He begins with infrastructure: the boards inside machines, the software that lets developers see through a robot’s cameras and the engineering requi…",
-      "ts": 1782831649000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: All of Us tests a new approach to collect real-world data for research",
-      "url": "https://www.statnews.com/2026/06/30/nih-all-of-us-program-taps-ehr-records-fill-data-gaps/?utm_campaign=rss",
-      "summary": "The NIH All of Us Research Program has secured thousands of electronic medical records through an innovative use of patient data-sharing networks",
-      "ts": 1782828000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Investors double down on Bain-backed startup",
-      "url": "https://www.statnews.com/2026/06/30/biotech-news-investors-double-down-on-bain-backed-capital/?utm_campaign=rss",
-      "summary": "FDA's top gene therapy regulator steps down, Trump's plan to lower GLP-1 prices, and more biotech news",
-      "ts": 1782826824000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA digital leader hints at coming AI policy updates",
-      "url": "https://www.statnews.com/2026/06/30/health-tech-fda-digital-leader-hints-at-coming-ai-policy-updates/?utm_campaign=rss",
-      "summary": "Today's health tech news includes virtual PT for a whole country, what the FDA is considering on AI policy, and more",
-      "ts": 1782826326000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
