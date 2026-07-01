@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-06-30T22:16:36.084Z",
+  "updated": "2026-07-01T00:07:46.185Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "NASA awards nearly $600 million in lunar lander missions",
+      "url": "https://spacenews.com/nasa-awards-nearly-600-million-in-lunar-lander-missions/",
+      "summary": "NASA selected three companies to fly four lunar lander missions worth nearly $600 million as part of its lunar base ambitions, as it weighs also launching a spare Mars rover. The post NASA awards nearly $600 million in l…",
+      "ts": 1782863849000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AI company Anthropic announces it will begin developing drugs of its own",
+      "url": "https://www.statnews.com/2026/06/30/anthropic-ai-drug-development/?utm_campaign=rss",
+      "summary": "AI giant Anthropic has already become a dominant player in technology and a household name for everyday users of artificial intelligence. Can it make drugs too?",
+      "ts": 1782859708000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "TechnoMile Recognized among Notable Vendors in Contract Lifecycle Management Platforms Landscape Report",
+      "url": "https://spacenews.com/technomile-recognized-among-notable-vendors-in-contract-lifecycle-management-platforms-landscape-report/",
+      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, today announced it has been included in Forrester’s report, The Contract Lifecycle Management Platforms Landscape, Q…",
+      "ts": 1782858080000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Cytiva Completes Doubling of Utah Site’s Liquid Media Production Capacity",
@@ -265,6 +289,38 @@
       "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry…",
       "ts": 1782820800000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN scraps rule forcing it to repay money it never received",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167849",
+      "summary": "The United Nations has overthrown a decades-old “Kafkaesque financial rule” that requires it to return unspent funds to Member States - even when those funds had never been deposited in the first place.",
+      "ts": 1782820800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Quake latest: Food grows scarcer for thousands of Venezuelan families",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167846",
+      "summary": "The deadly Venezuela quakes have deepened hardship for families who already needed support and left others without homes, income or regular access to food.",
+      "ts": 1782820800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Aid convoy attacked in South Sudan, Ebola threatens livelihoods, UN deplores death penalty",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167847",
+      "summary": "Five humanitarian workers have been killed after a clearly marked aid convoy was ambushed in Jonglei State, South Sudan.",
+      "ts": 1782820800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Despite record $100 million shortfall, Palestine relief agency still ‘a critical platform’ for Gaza recovery",
+      "url": "https://news.un.org/feed/view/en/story/2026/06/1167845",
+      "summary": "The UN agency serving 5.9 million Palestine refugees, UNRWA, continues to strive to deliver on its mandate while facing an unprecedented $100 million budget shortfall, a gap it hopes to narrow during Tuesday’s pledging c…",
+      "ts": 1782820800000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -663,62 +719,6 @@
       "title": "Hypergraphs from multivariate connectivity: caCOH-based EEG/MEG representation",
       "url": "https://arxiv.org/abs/2606.01357",
       "summary": "arXiv:2606.01357v2 Announce Type: replace Abstract: Hypergraphs provide a natural framework for representing neurophysiological interactions distributed across sets of sensors. A key methodological question is how hypere…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Oxygenation and spatial heterogeneity shape radiotherapy protocol ranking through phenotypic adaptation",
-      "url": "https://arxiv.org/abs/2606.04004",
-      "summary": "arXiv:2606.04004v2 Announce Type: replace Abstract: Tumor response to radiotherapy is strongly influenced by oxygen availability and phenotypic heterogeneity, yet their combined impact on the relative performance of frac…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A structural causal framework for interventions on evolutionary accumulation models",
-      "url": "https://arxiv.org/abs/2606.12597",
-      "summary": "arXiv:2606.12597v2 Announce Type: replace Abstract: Evolutionary accumulation models (EvAMs), also known as cancer progression models (CPMs), infer dependencies in the order of accumulation of mutations during tumor prog…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Accelerating scientific discovery with Co-Scientist",
-      "url": "https://arxiv.org/abs/2502.18864",
-      "summary": "arXiv:2502.18864v2 Announce Type: replace-cross Abstract: Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this proce…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stimulus Motion Perception Studies Imply Specific Neural Computations in Human Visual Stabilization",
-      "url": "https://arxiv.org/abs/2506.13506",
-      "summary": "arXiv:2506.13506v3 Announce Type: replace-cross Abstract: Even during fixation the human eye is constantly in low amplitude motion, jittering over small angles in random directions at up to 100Hz. This motion results in …",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Open Questions about Time and Self-reference in Living Systems",
-      "url": "https://arxiv.org/abs/2508.11423",
-      "summary": "arXiv:2508.11423v2 Announce Type: replace-cross Abstract: Living systems exhibit a range of fundamental characteristics: they are active, self-referential, self-modifying systems. This paper explores how these characteri…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spike-frequency and h-current based adaptation are dynamically equivalent in a Wilson-Cowan field model",
-      "url": "https://arxiv.org/abs/2510.08436",
-      "summary": "arXiv:2510.08436v4 Announce Type: replace-cross Abstract: During slow-wave sleep, the brain produces traveling waves of slow oscillations (SOs; $\\leq 2$ Hz), characterized by the propagation of alternating high- and low-…",
-      "ts": 1782792000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Large-Scale Dataset for Molecular Structure-Language Description via a Rule-Regularized Method",
-      "url": "https://arxiv.org/abs/2602.02320",
-      "summary": "arXiv:2602.02320v4 Announce Type: replace-cross Abstract: Molecular function is largely determined by structure. Accurately aligning molecular structure with natural language is therefore essential for enabling large lan…",
       "ts": 1782792000000,
       "categoryId": "bio"
     }

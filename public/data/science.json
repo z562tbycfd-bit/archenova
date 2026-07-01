@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-06-30T22:16:32.634Z",
+  "updated": "2026-07-01T00:07:43.336Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Cosmic eruption caught in the act by submillimeter array's new fastest response system",
+      "url": "https://phys.org/news/2026-06-cosmic-eruption-caught-submillimeter-array.html",
+      "summary": "On Jan. 26, 2026, the Submillimeter Array (SMA) on Maunakea crossed an important threshold for time-domain astronomy. For the first time, scientists from the Center for Astrophysics | Harvard & Smithsonian (CfA) demonstr…",
+      "ts": 1782862804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Abundant catalyst converts methane into valuable liquid chemicals",
+      "url": "https://phys.org/news/2026-06-abundant-catalyst-methane-valuable-liquid.html",
+      "summary": "Scientists at the U.S. Department of Energy's (DOE) Brookhaven National Laboratory and their collaborators have demonstrated a promising new approach for converting methane—the primary component of natural gas—into liqui…",
+      "ts": 1782861603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Grasslands could lose four times more carbon uptake under future drought conditions",
+      "url": "https://phys.org/news/2026-06-grasslands-carbon-uptake-future-drought.html",
+      "summary": "The effects of individual climate factors on ecosystems are usually considered in isolation. However, in reality, they occur simultaneously and influence each other. Increasing CO2 concentrations in the atmosphere contri…",
+      "ts": 1782860406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shark‑spotting drones are about reassurance—not full protection",
+      "url": "https://phys.org/news/2026-06-sharkspotting-drones-reassurance-full.html",
+      "summary": "Sharks are front of mind for many Sydneysiders and coastal New South Wales residents. In January, a teenager died amid a spate of attacks in and around Sydney. This month, a woman was bitten by a large great white while …",
+      "ts": 1782860403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Loss of DNA protector gene exposes vulnerabilities in cancerous cells",
+      "url": "https://phys.org/news/2026-06-loss-dna-protector-gene-exposes.html",
+      "summary": "Every time a cell copies its DNA, parts of the genome are exposed and vulnerable to damage or errors. Molecular biologist Simon Boulton is interested in how cells spot and repair damage to their DNA, and what happens if …",
+      "ts": 1782859203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum computer simulates hadronization, reproducing string breaking with 104 qubits",
+      "url": "https://phys.org/news/2026-06-quantum-simulates-hadronization-qubits.html",
+      "summary": "By remotely accessing an IBM quantum computer, a research scientist at Lawrence Berkeley National Laboratory has successfully simulated a key process in particle physics: hadronization. Although based on a simplified mod…",
+      "ts": 1782859201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "3,000-year-old Irish Bronze Age site may be one of Europe's earliest 'town-like' settlements",
+      "url": "https://phys.org/news/2026-06-year-irish-bronze-age-site.html",
+      "summary": "A major prehistoric center in Ireland was among the first large, organized settlements to develop in Western Europe more than 3,000 years ago, new research reveals. The study, published today in Antiquity, identifies Hau…",
+      "ts": 1782858005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Earth microbes can survive individual martian hazards—and evade astronaut immune systems",
+      "url": "https://phys.org/news/2026-06-earth-microbes-survive-individual-martian.html",
+      "summary": "Hopefully, we're about to travel back to the moon relatively soon. And while the original \"giant leap for mankind\" was taken by a human, Neil Armstrong brought a plethora of other forms of life along with him. Humans the…",
+      "ts": 1782858003000
+    },
     {
       "source": "Phys.org",
       "title": "Tens of millions swelter as heat wave blasts US",
@@ -644,62 +700,6 @@
       "title": "A transition to elasto-viscoplastic turbulence in inertialess channel flow?",
       "url": "https://arxiv.org/abs/2606.28580",
       "summary": "arXiv:2606.28580v1 Announce Type: new Abstract: We conduct 2D numerical simulations employing a widely used constitutive law for elasto-viscoplastic fluids to show that linear instability leads to spatio-temporal complex…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Constructor-Theoretic Optical Time: Delay, Phase, and Fisher Distinguishability as Physical Tasks",
-      "url": "https://arxiv.org/abs/2606.28586",
-      "summary": "arXiv:2606.28586v1 Announce Type: new Abstract: We develop a constructor-theoretic formulation of optical time in which delay, phase, temporal ordering, synchronization, and detector records are described as physical tas…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PT-symmetric time delay oscillator modelling beyond the weak coupling limit via a scattering matrix formulation",
-      "url": "https://arxiv.org/abs/2606.28595",
-      "summary": "arXiv:2606.28595v1 Announce Type: new Abstract: Parity-time (PT) symmetry in time-delay oscillators such as lasers and optoelectronic oscillators provides a potential route to enhanced spectral purity, including reduced …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Confinement-Induced Suppression of Jet Drop Size by Bubble Bursting in Shallow Liquids",
-      "url": "https://arxiv.org/abs/2606.28609",
-      "summary": "arXiv:2606.28609v1 Announce Type: new Abstract: Bubble bursting is a major source of aerosol generation in a wide range of natural and industrial systems. While the resulting jet dynamics have been extensively studied in…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Semi-Implicit Stellarator Magnetohydrodynamics with Nodal Spectral Elements",
-      "url": "https://arxiv.org/abs/2606.28613",
-      "summary": "arXiv:2606.28613v1 Announce Type: new Abstract: Nonlinear time-dependent computation of macroscale dynamics in stellarators is motivated by laboratory results showing the possibility of robust operation in conditions whe…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wave Activity at MHD-ion Scales Associated with Switchbacks",
-      "url": "https://arxiv.org/abs/2606.28614",
-      "summary": "arXiv:2606.28614v1 Announce Type: new Abstract: Magnetic switchbacks (SB) -- the localized magnetic structures with magnetic field direction inclined at an angle $\\theta$ relative to the background $B_0$ -- in the young …",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automated Vector-Scanning Spectroscopy for Large-Scale Characterization of Single Quantum Emitters",
-      "url": "https://arxiv.org/abs/2606.28624",
-      "summary": "arXiv:2606.28624v1 Announce Type: new Abstract: The inherent spatial randomness and broad spectral heterogeneity of epitaxial quantum dots (QDs) -- one of the most mature classes of solid-state quantum emitters -- remain…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An extension of Lambertson method to horizontally asymmetric Beam Position Monitors",
-      "url": "https://arxiv.org/abs/2606.28638",
-      "summary": "arXiv:2606.28638v1 Announce Type: new Abstract: Lambertson method is a classical approach that can indirectly measure the electrical center offset in the beam position monitor (BPM) due to imperfections in the pickup but…",
-      "ts": 1782792000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Engineering Collective Microbial Dynamics for Sustainable Thermal Management",
-      "url": "https://arxiv.org/abs/2606.28646",
-      "summary": "arXiv:2606.28646v1 Announce Type: new Abstract: The rapid growth of energy-intensive technologies, including artificial intelligence, large-scale computing, and thermal management systems, has intensified global energy d…",
       "ts": 1782792000000
     }
   ],
