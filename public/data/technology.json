@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-01T17:59:30.394Z",
+  "updated": "2026-07-01T20:07:22.121Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "FCC to vote on satellite licensing overhaul July 22",
+      "url": "https://spacenews.com/fcc-to-vote-on-satellite-licensing-overhaul-july-22/",
+      "summary": "The FCC is set to vote July 22 on an order to overhaul its satellite application process, creating a “licensing assembly line” to keep up with increasingly large and complex constellation plans. The post FCC to vote on s…",
+      "ts": 1782935136000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "In Huntington’s Mouse, Optogenetic Activation of VIP Neurons Restores Brain Function",
+      "url": "https://www.genengnews.com/topics/translational-medicine/in-huntingtons-mouse-optogenetic-activation-of-vip-neurons-restores-brain-function/",
+      "summary": "Researchers identified VIP inhibitory neurons in Huntington’s disease and used optogenetics to restore motor neuron activity in mice, revealing a promising brain circuit target for future therapies. The post In Huntingto…",
+      "ts": 1782932161000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Biological Order Emerges from Tissue Boundaries, Drives Embryo Development",
+      "url": "https://www.genengnews.com/topics/drug-discovery/biological-order-emerges-from-tissue-boundaries-drives-embryo-development/",
+      "summary": "The edges of biological tissues create boundaries that help cells position in a magnet-like manner, giving order to developing embryos. The post Biological Order Emerges from Tissue Boundaries, Drives Embryo Development …",
+      "ts": 1782931640000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Seeks Volunteers for New Yearlong Simulated Moon, Mars Mission",
@@ -59,18 +83,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
-      "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
-      "ts": 1782918000000,
-      "categoryId": "space"
-    },
-    {
       "source": "ESA",
       "title": "Webb studies how a planet survived the death of its star",
       "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
       "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
+      "ts": 1782918000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
+      "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
       "ts": 1782918000000,
       "categoryId": "space"
     },
@@ -185,6 +209,22 @@
       "summary": "The European Space Agency’s XMM-Newton and NASA’s Chandra X-ray space telescopes have spotted the aftermath of three bright explosions echoing through the outer spiral arms of our galaxy, the Milky Way. By measuring the …",
       "ts": 1782907200000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘The science is here’: UN chief welcomes first global AI assessment",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167853",
+      "summary": "Fresh scientific evidence and options for harnessing artificial intelligence (AI) were unveiled Wednesday following the launch of the first global, independent scientific assessment of opportunities, risks and impacts by…",
+      "ts": 1782907200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Expanding areas under Israeli control in Gaza increase risks to civilians, UN warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167852",
+      "summary": "The continued expansion of areas under Israeli control in Gaza since October’s ceasefire agreement is placing civilians at greater risk and severely constraining humanitarian operations, the UN and humanitarian partners …",
+      "ts": 1782907200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -680,46 +720,6 @@
       "url": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
       "summary": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. Visio…",
       "ts": 1782824427000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Vast names Isakowitz as a senior adviser",
-      "url": "https://spacenews.com/vast-names-isakowitz-as-a-senior-adviser/",
-      "summary": "Commercial space station developer Vast named the former president and chief executive of The Aerospace Corp. as an adviser while the company awaits the next phase of a NASA program. The post Vast names Isakowitz as a se…",
-      "ts": 1782824400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Time to say goodbye to Sentinel-1A",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Time_to_say_goodbye_to_Sentinel-1A",
-      "summary": "After 12 years of exceptional service, the pioneering Copernicus Sentinel-1A radar satellite has reached the end of its mission. Originally designed for a seven-year life in orbit, the satellite has exceeded expectations…",
-      "ts": 1782822600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SSC Space, Firefly set 2028 target for first orbital launch from Sweden’s Esrange",
-      "url": "https://spacenews.com/ssc-space-firefly-set-2028-target-for-first-orbital-launch-from-swedens-esrange/",
-      "summary": "HELSINKI — SSC Space and Firefly have set a 2028 target for the first orbital launch from Esrange, with key infrastructure and regulatory pieces falling into place. The companies announced […] The post SSC Space, Firefly…",
-      "ts": 1782822116000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Half of states sue over Medicaid work requirements",
-      "url": "https://www.statnews.com/2026/06/30/health-news-half-of-states-sue-over-medicaid-work-requirements/?utm_campaign=rss",
-      "summary": "FDA peptide panelists, a new study on Covid and flu shots, and more health news from Morning Rounds",
-      "ts": 1782821665000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI “coworkers” and stratospheric internet",
-      "url": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI agents are not your “coworkers” Imagine coming in to work to learn that a new u…",
-      "ts": 1782821400000,
       "categoryId": "ai-compute"
     }
   ],
