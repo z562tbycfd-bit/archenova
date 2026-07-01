@@ -19262,3 +19262,737 @@ font-size:1.7rem;
     line-height: 1.45 !important;
   }
 }
+
+
+
+
+
+/* ==========================================================
+   Senate — Cosmic Deliberation Chamber
+   PC + Mobile
+   ========================================================== */
+
+.senate-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.senate-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 50% 12%, rgba(140, 190, 255, 0.13), transparent 34%),
+    radial-gradient(circle at 18% 42%, rgba(255, 220, 150, 0.08), transparent 28%),
+    radial-gradient(circle at 82% 62%, rgba(190, 150, 255, 0.1), transparent 30%),
+    #030610;
+  z-index: -2;
+}
+
+.senate-page::after {
+  content: "";
+  position: fixed;
+  inset: -20%;
+  pointer-events: none;
+  background:
+    conic-gradient(
+      from 120deg,
+      transparent,
+      rgba(120, 190, 255, 0.06),
+      transparent,
+      rgba(255, 220, 150, 0.045),
+      transparent
+    );
+  filter: blur(40px);
+  opacity: 0.7;
+  animation: senateNebulaDrift 90s linear infinite;
+  z-index: -1;
+}
+
+.senate-hero {
+  min-height: 92vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.senate-hero h1 {
+  max-width: 1100px;
+  margin: 1.2rem auto;
+  font-size: clamp(4rem, 9vw, 8.5rem);
+  line-height: 0.9;
+  letter-spacing: -0.075em;
+  font-weight: 240;
+}
+
+.senate-page .glass-block {
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(140, 190, 255, 0.11);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.025));
+  box-shadow:
+    0 0 70px rgba(120, 180, 255, 0.06),
+    inset 0 0 42px rgba(255,255,255,0.015);
+}
+
+.senate-page .glass-block::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(140, 190, 255, 0.09), transparent 36%),
+    linear-gradient(90deg, transparent, rgba(255,255,255,0.035), transparent);
+  opacity: 0.75;
+}
+
+.senate-page .glass-block > * {
+  position: relative;
+  z-index: 1;
+}
+
+.senate-intelligence-block {
+  border-color: rgba(255, 220, 150, 0.14);
+}
+
+.senate-page .research-roadmap {
+  margin-top: 2rem;
+}
+
+.senate-page .research-roadmap-step {
+  background: rgba(255,255,255,0.035);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 0 28px rgba(120, 180, 255, 0.055);
+}
+
+.senate-page .research-roadmap-index {
+  color: rgba(255, 224, 170, 0.78);
+}
+
+.senate-page .research-roadmap-node {
+  color: rgba(255,255,255,0.9);
+}
+
+.senate-page .research-report-card,
+.senate-page .an-card {
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(255,255,255,0.1);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.028));
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease,
+    background 0.35s ease;
+}
+
+.senate-page .research-report-card::before,
+.senate-page .an-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 24% 0%, rgba(140, 190, 255, 0.08), transparent 42%),
+    radial-gradient(circle at 88% 100%, rgba(255, 220, 150, 0.055), transparent 42%);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.senate-page .research-report-card:hover,
+.senate-page .an-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(160, 210, 255, 0.22);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.085), rgba(255,255,255,0.036));
+  box-shadow:
+    0 0 42px rgba(120, 180, 255, 0.12),
+    0 18px 60px rgba(0,0,0,0.24);
+}
+
+.senate-page .research-report-card:hover::before,
+.senate-page .an-card:hover::before {
+  opacity: 1;
+}
+
+.senate-signal-card {
+  border-color: rgba(120, 190, 255, 0.16) !important;
+}
+
+.senate-report-card {
+  border-color: rgba(255, 220, 150, 0.14) !important;
+}
+
+.senate-agenda-card {
+  border-color: rgba(190, 150, 255, 0.14) !important;
+}
+
+.senate-page .feed-source {
+  color: rgba(255, 224, 170, 0.72);
+}
+
+.senate-page h2 {
+  letter-spacing: -0.055em;
+}
+
+.senate-score-grid {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1.2rem;
+}
+
+.senate-score-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0.85rem;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.07);
+}
+
+.senate-score-row span {
+  opacity: 0.7;
+}
+
+.senate-score-row strong {
+  color: rgba(255, 224, 170, 0.88);
+}
+
+.senate-opinion-block,
+.senate-implication-block {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.senate-opinion-block strong {
+  display: block;
+  color: rgba(255, 224, 170, 0.85);
+  margin-bottom: 0.4rem;
+}
+
+.senate-implication-block p {
+  margin: 0.65rem 0 0;
+  color: rgba(255,255,255,0.66);
+}
+
+@keyframes senateNebulaDrift {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+
+  to {
+    transform: rotate(360deg) scale(1.04);
+  }
+}
+
+@media (max-width: 768px) {
+  .senate-page::after {
+    opacity: 0.42;
+    filter: blur(34px);
+  }
+
+  .senate-hero {
+    min-height: 82vh;
+    padding: 5rem 1rem 3rem;
+  }
+
+  .senate-hero h1 {
+    font-size: clamp(3rem, 14vw, 5.2rem);
+    line-height: 0.92;
+  }
+
+  .senate-hero .page-lead {
+    font-size: 0.96rem;
+    line-height: 1.7;
+  }
+
+  .senate-page .glass-block {
+    margin-inline: 0.9rem;
+    padding: 1.35rem;
+    border-radius: 26px;
+  }
+
+  .senate-page .research-report-grid,
+  .senate-page .an-grid-4 {
+    grid-template-columns: 1fr !important;
+    gap: 1rem;
+  }
+
+  .senate-page .research-report-card,
+  .senate-page .an-card {
+    border-radius: 22px;
+    padding: 1.15rem;
+  }
+
+  .senate-page .research-roadmap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+
+  .senate-page .research-roadmap-step {
+    display: grid;
+    grid-template-columns: 2.4rem 1fr;
+    align-items: center;
+    text-align: left;
+    padding: 0.8rem;
+    border-radius: 18px;
+  }
+
+  .senate-score-row {
+    padding: 0.7rem 0.75rem;
+    font-size: 0.88rem;
+  }
+}
+
+
+
+
+
+
+
+/* ==========================================================
+   Home Senate Gate — Safe Fit Layout
+   PC + Mobile
+   ========================================================== */
+
+.home-senate-gate-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  padding: 4rem 1.5rem;
+}
+
+.senate-gate {
+  width: min(920px, 92vw);
+  max-height: calc(100svh - 7rem);
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  align-content: center;
+}
+
+.senate-gate-seal {
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 1.2rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  border: 1px solid rgba(255, 224, 170, 0.22);
+  background: rgba(255, 255, 255, 0.045);
+  box-shadow: 0 0 42px rgba(255, 224, 170, 0.12);
+}
+
+.senate-gate-title {
+  margin: 0 auto 1rem;
+  font-size: clamp(2.8rem, 6.8vw, 6.2rem);
+  line-height: 0.92;
+  letter-spacing: -0.065em;
+  font-weight: 260;
+}
+
+.senate-gate-lead {
+  max-width: 680px;
+  margin: 0 auto 1.6rem;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.senate-gate-pillars {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.4rem;
+}
+
+.senate-gate-pillar {
+  width: min(480px, 88vw);
+  padding: 1.35rem 1.45rem;
+  border-radius: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.065),
+    rgba(255, 255, 255, 0.025)
+  );
+  transition: 0.3s ease;
+}
+
+.senate-gate-pillar:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 224, 170, 0.24);
+  box-shadow: 0 0 34px rgba(255, 224, 170, 0.1);
+}
+
+.senate-gate-pillar span {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  color: rgba(255, 224, 170, 0.72);
+}
+
+.senate-gate-pillar strong {
+  display: block;
+  margin-bottom: 0.55rem;
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  font-weight: 420;
+}
+
+.senate-gate-pillar p {
+  margin: 0 auto;
+  max-width: 380px;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 768px) {
+  .home-senate-gate-page {
+    min-height: 100svh;
+    height: auto !important;
+    padding: 4.5rem 1rem 7.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .senate-gate {
+    width: min(100%, 92vw);
+    max-height: none;
+  }
+
+  .senate-gate-seal {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 1rem;
+    font-size: 1.65rem;
+  }
+
+  .senate-gate-title {
+    font-size: clamp(2.35rem, 11.5vw, 3.6rem);
+    line-height: 0.96;
+    margin-bottom: 0.85rem;
+  }
+
+  .senate-gate-lead {
+    max-width: 92%;
+    margin-bottom: 1.2rem;
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+
+  .senate-gate-pillars {
+    margin-top: 1.1rem;
+  }
+
+  .senate-gate-pillar {
+    width: min(78vw, 300px);
+    padding: 1rem 0.95rem;
+    border-radius: 20px;
+  }
+
+  .senate-gate-pillar span {
+    margin-bottom: 0.55rem;
+    font-size: 0.62rem;
+  }
+
+  .senate-gate-pillar strong {
+    font-size: 1.18rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .senate-gate-pillar p {
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
+}
+
+@media (max-height: 720px) and (max-width: 768px) {
+  .home-senate-gate-page {
+    padding-top: 3.6rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .senate-gate-seal {
+    width: 62px;
+    height: 62px;
+    font-size: 1.45rem;
+  }
+
+  .senate-gate-title {
+    font-size: clamp(2.05rem, 10vw, 3rem);
+  }
+
+  .senate-gate-lead {
+    font-size: 0.82rem;
+  }
+}
+
+
+
+
+
+
+
+/* =========================================================
+   Senate Gate
+========================================================= */
+
+.home-senate-gate-page{
+    position:relative;
+
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction:column;
+
+    min-height:100vh;
+
+    padding:7rem 1.5rem 5rem;
+
+    overflow-y:auto;
+}
+
+
+/* ---------------------------------------------------------
+   Main
+--------------------------------------------------------- */
+
+.senate-gate{
+
+    width:min(880px,100%);
+    margin:0 auto;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    text-align:center;
+
+    gap:1.6rem;
+}
+
+
+/* ---------------------------------------------------------
+   Symbol
+--------------------------------------------------------- */
+
+.senate-gate-symbol{
+
+    font-size:4.8rem;
+    line-height:1;
+
+    color:#e7ddc3;
+
+    text-shadow:
+        0 0 16px rgba(255,235,180,.45),
+        0 0 40px rgba(255,220,120,.18);
+}
+
+
+/* ---------------------------------------------------------
+   Label
+--------------------------------------------------------- */
+
+.senate-gate-label{
+
+    font-size:.72rem;
+
+    letter-spacing:.34em;
+
+    text-transform:uppercase;
+
+    color:rgba(230,230,230,.72);
+}
+
+
+/* ---------------------------------------------------------
+   Title
+--------------------------------------------------------- */
+
+.senate-gate-title{
+
+    margin:0;
+
+    font-size:clamp(2.5rem,4vw,4.8rem);
+
+    line-height:1.06;
+
+    font-weight:200;
+
+    letter-spacing:.03em;
+}
+
+
+/* ---------------------------------------------------------
+   Lead
+--------------------------------------------------------- */
+
+.senate-gate-lead{
+
+    width:min(680px,100%);
+
+    margin:0 auto;
+
+    font-size:1rem;
+
+    line-height:1.85;
+
+    color:rgba(240,240,240,.78);
+}
+
+
+/* ---------------------------------------------------------
+   Card
+--------------------------------------------------------- */
+
+.senate-gate-card{
+
+    width:min(520px,100%);
+
+    display:flex;
+    flex-direction:column;
+
+    gap:.7rem;
+
+    padding:1.8rem;
+
+    border-radius:26px;
+
+    text-decoration:none;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,.055),
+            rgba(255,255,255,.02)
+        );
+
+    border:1px solid rgba(255,255,255,.10);
+
+    backdrop-filter:blur(18px);
+
+    transition:.35s;
+}
+
+
+.senate-gate-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(230,210,160,.55);
+
+    box-shadow:
+        0 0 34px rgba(255,225,170,.16);
+}
+
+
+.senate-gate-card strong{
+
+    font-size:1.35rem;
+
+    color:#f5edd6;
+}
+
+
+.senate-gate-card p{
+
+    margin:0;
+
+    line-height:1.75;
+
+    color:rgba(235,235,235,.78);
+}
+
+
+/* =========================================================
+   Mobile
+========================================================= */
+
+@media (max-width:768px){
+
+.home-senate-gate-page{
+
+    padding-top:5.4rem;
+    padding-bottom:5rem;
+
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+
+.senate-gate{
+
+    gap:1.15rem;
+}
+
+
+.senate-gate-symbol{
+
+    font-size:3.2rem;
+}
+
+
+.senate-gate-label{
+
+    font-size:.64rem;
+
+    letter-spacing:.26em;
+}
+
+
+.senate-gate-title{
+
+    font-size:2rem;
+
+    line-height:1.18;
+}
+
+
+.senate-gate-lead{
+
+    width:100%;
+
+    font-size:.9rem;
+
+    line-height:1.72;
+}
+
+
+.senate-gate-card{
+
+    width:100%;
+
+    padding:1.35rem;
+
+    border-radius:20px;
+}
+
+
+.senate-gate-card strong{
+
+    font-size:1.12rem;
+}
+
+
+.senate-gate-card p{
+
+    font-size:.88rem;
+
+    line-height:1.65;
+}
+
+}

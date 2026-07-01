@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-01T00:07:46.185Z",
+  "updated": "2026-07-01T01:38:57.504Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -147,14 +147,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "A Most “Pleasantly Situated” Estate",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-most-pleasantly-situated-estate-153949/",
-      "summary": "The farms and gardens of Mount Vernon played a central role in the life of America’s first president.",
-      "ts": 1782835200000,
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "Marburg outbreak is reported in Uganda, threatening to complicate Ebola response in region",
       "url": "https://www.statnews.com/2026/06/30/marburg-virus-cases-ugandan-ebola-outbreak-zone/?utm_campaign=rss",
@@ -294,7 +286,7 @@
       "source": "United Nations News",
       "title": "UN scraps rule forcing it to repay money it never received",
       "url": "https://news.un.org/feed/view/en/story/2026/06/1167849",
-      "summary": "The United Nations has overthrown a decades-old “Kafkaesque financial rule” that requires it to return unspent funds to Member States - even when those funds had never been deposited in the first place.",
+      "summary": "The United Nations has overhauled a decades-old “Kafkaesque financial rule” that requires it to return unspent funds to Member States - even when those funds had never been deposited in the first place.",
       "ts": 1782820800000,
       "categoryId": "global-governance"
     },
@@ -719,6 +711,14 @@
       "title": "Hypergraphs from multivariate connectivity: caCOH-based EEG/MEG representation",
       "url": "https://arxiv.org/abs/2606.01357",
       "summary": "arXiv:2606.01357v2 Announce Type: replace Abstract: Hypergraphs provide a natural framework for representing neurophysiological interactions distributed across sets of sensors. A key methodological question is how hypere…",
+      "ts": 1782792000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Oxygenation and spatial heterogeneity shape radiotherapy protocol ranking through phenotypic adaptation",
+      "url": "https://arxiv.org/abs/2606.04004",
+      "summary": "arXiv:2606.04004v2 Announce Type: replace Abstract: Tumor response to radiotherapy is strongly influenced by oxygen availability and phenotypic heterogeneity, yet their combined impact on the relative performance of frac…",
       "ts": 1782792000000,
       "categoryId": "bio"
     }

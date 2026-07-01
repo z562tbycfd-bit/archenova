@@ -410,42 +410,32 @@ export default function Home() {
       </section>
 
       {/* SENATE */}
-      <section id="home-senate" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">ARCHENOVA SENATE</span>
+<section id="home-senate" data-home-section className="home-page twin-page home-senate-gate-page">
+ <Reveal>
+   <div className="senate-gate">
+     <span className="an-label">ARCHENOVA SENATE</span>
 
-            <h2 className="an-heading">
-              Signals become
-              <br />
-              deliberation.
-            </h2>
+     <h2 className="senate-gate-title">
+       The chamber where
+       <br />
+       signals become judgment.
+     </h2>
 
-            <p className="an-body">
-              Senate reads Signals, Reports, Evidence, and Programs to
-              deliberate on the direction of ArcheNova before action moves
-              toward implementation.
-            </p>
+     <p className="senate-gate-lead">
+       Senate receives Signals, Reports, Evidence, and Programs, then submits
+       deliberation toward resolution, Court review, and civilizational
+       direction.
+     </p>
 
-            <div className="an-grid-3">
-              <Link href="/architecture" className="an-card">
-  <strong>Signals</strong>
-  <p>Observe changes from science, technology, and civilization.</p>
-</Link>
-
-              <Link href="/architecture" className="an-card">
-  <strong>Reports</strong>
-  <p>Convert signals into structured knowledge and context.</p>
-</Link>
-
-              <Link href="/senate" className="an-card">
-                <strong>Senate</strong>
-                <p>Deliberate before resolution, program direction, or execution.</p>
-              </Link>
-            </div>
-          </div>
-        </Reveal>
-      </section>
+     <div className="senate-gate-pillars">
+       <Link href="/senate" className="senate-gate-pillar senate-gate-primary">
+         <strong>Enter Senate</strong>
+         <p>Open deliberation, opinions, agenda, and resolutions.</p>
+       </Link>
+     </div>
+   </div>
+ </Reveal>
+</section>
 
       {/* COURT */}
       <section id="home-court" data-home-section className="home-page twin-page">
