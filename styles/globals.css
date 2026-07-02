@@ -21243,3 +21243,106 @@ transform:none;
     line-height: 1.55;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Senate Agenda Engine — Mobile Visibility Fix
+   ========================================================== */
+
+.senate-agenda-engine-block {
+  position: relative;
+  overflow: visible !important;
+}
+
+.senate-agenda-engine-block > * {
+  position: relative;
+  z-index: 2;
+}
+
+.senate-agenda-engine-grid {
+  align-items: start;
+}
+
+.senate-agenda-engine-card {
+  position: relative !important;
+  display: block !important;
+  height: auto !important;
+  min-height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.senate-agenda-engine-card * {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .senate-agenda-engine-block {
+    min-height: auto !important;
+    height: auto !important;
+    padding: 1.25rem !important;
+    overflow: visible !important;
+  }
+
+  .senate-agenda-engine-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+    margin-top: 1.6rem !important;
+    overflow: visible !important;
+  }
+
+  .senate-agenda-engine-card {
+    width: 100% !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    padding: 1.05rem !important;
+    border-radius: 22px !important;
+    overflow: visible !important;
+    background: linear-gradient(
+      180deg,
+      rgba(255,255,255,0.07),
+      rgba(255,255,255,0.028)
+    ) !important;
+  }
+
+  .senate-agenda-engine-meta,
+  .senate-agenda-engine-card h3,
+  .senate-agenda-question,
+  .senate-agenda-detail,
+  .senate-agenda-action {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+    max-height: none !important;
+  }
+
+  .senate-agenda-engine-card h3 {
+    font-size: 1.12rem !important;
+    line-height: 1.28 !important;
+    margin-bottom: 0.85rem !important;
+  }
+
+  .senate-agenda-question,
+  .senate-agenda-detail p,
+  .senate-agenda-action p {
+    font-size: 0.8rem !important;
+    line-height: 1.55 !important;
+  }
+}
