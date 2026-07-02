@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-02T21:16:56.492Z",
+  "updated": "2026-07-02T22:09:50.001Z",
   "items": [
     {
       "source": "STAT",
@@ -209,6 +209,30 @@
       "summary": "FO utilizes an osmotic pressure difference across a membrane to remove water from liquids, achieving highly concentrated API solutions under mild conditions. MD leverages a vapor pressure difference across a membrane. Th…",
       "ts": 1782993633000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela's earthquake-hit hospitals pushed to the brink as disease risk grows",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167868",
+      "summary": "A week after earthquakes tore through northern Venezuela, hospitals in La Guaira are buckling under the weight of the disaster – and the risk of disease outbreaks in shelters is rising fast.",
+      "ts": 1782993600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Taking the world’s temperature: WHO chief spotlights global health emergencies",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167865",
+      "summary": "The hantavirus global outbreak is officially over, Ebola outbreaks are growing in Africa and responders are helping recovery efforts in quake-hit Venezuela, the World Health Organization (WHO) chief said on Thursday, ann…",
+      "ts": 1782993600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Racism significantly impacts access to sport: Independent expert",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167863",
+      "summary": "From high participation costs and restrictions on Palestinian athletes – to bans on Muslim women wearing hijabs – racism continues to shape who gets to participate in sport, a new UN report published on Thursday has foun…",
+      "ts": 1782993600000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -697,30 +721,6 @@
       "summary": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discove…",
       "ts": 1782910847000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Unseen threats overhead: Drones endanger U.S. rocket launch sites",
-      "url": "https://spacenews.com/unseen-threats-overhead-drones-endanger-u-s-rocket-launch-sites/",
-      "summary": "One small, errant drone can scrub a space launch at the cost of millions of dollars in delays, with further repercussions spanning across multiple commercial and government launch service providers. […] The post Unseen t…",
-      "ts": 1782910800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s TESS Mission Finds Planetary System in New Way",
-      "url": "https://science.nasa.gov/missions/tess/nasas-tess-mission-finds-planetary-system-in-new-way/",
-      "summary": "For the first time, NASA’s TESS (Transiting Exoplanet Survey Satellite) mission has identified a planet orbiting a distant star thanks to ripples in space-time. Unlike the star-hugging transiting planets TESS regularly r…",
-      "ts": 1782909814000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Vantor offers up-to-date imagery with WorldView 3D",
-      "url": "https://spacenews.com/vantor-offers-up-to-date-imagery-with-worldview-3d/",
-      "summary": "SAN FRANCISCO – Vantor, the company previously known as Maxar Intelligence, unveiled WorldView 3D July 1, to provide customers with updated and high-definition imagery. “WorldView 3D is driving towards currency,” […] The…",
-      "ts": 1782909000000,
-      "categoryId": "space"
     }
   ],
   "categories": [

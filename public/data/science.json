@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-02T21:16:52.826Z",
+  "updated": "2026-07-02T22:09:47.364Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Modern life may be outpacing the human mind",
+      "url": "https://phys.org/news/2026-07-modern-life-outpacing-human-mind.html",
+      "summary": "The human brain evolved for a world of familiar faces, immediate threats and small social groups. But the world around us is changing far faster than human biology can keep pace. That mismatch may help explain some of th…",
+      "ts": 1783029604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Could 'Trojan horse'-type microorganisms that exploit symbiotic systems be candidates for new biological pesticides?",
+      "url": "https://phys.org/news/2026-07-trojan-horse-microorganisms-exploit-symbiotic.html",
+      "summary": "Researchers at National Institute of Advanced Industrial Science and Technology (AIST), in collaboration with researchers from The University of Electro-Communications (UEC) and Akita Prefectural University, have discove…",
+      "ts": 1783029602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Purine-heavy DNA sequences protect Bacillus subtilis genes from Rho termination",
+      "url": "https://phys.org/news/2026-07-purine-heavy-dna-sequences-bacillus.html",
+      "summary": "In the study of bacteria, a longstanding dogma has held that two molecular machines—RNA polymerase, which leads the way in transcribing DNA into RNA, and ribosomes, which bring up the rear translating RNA into proteins—w…",
+      "ts": 1783029002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Brown leaves before fall could signal lasting heat damage, researchers warn",
+      "url": "https://phys.org/news/2026-07-brown-fall.html",
+      "summary": "Due to increasing heat and drought, forests are turning brown more often before autumn, when leaf senescence normally occurs. It is often unclear whether the trees are actively shedding foliage to avoid a breakdown in wa…",
+      "ts": 1783028405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "World Cup data reveals initiative alone doesn't improve team performance",
+      "url": "https://phys.org/news/2026-07-world-cup-reveals-doesnt-team.html",
+      "summary": "Team members' initiative can help teams succeed, but only when it is paired with strong coordination, according to new research from Washington State University.",
+      "ts": 1783028401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Compromise drives shared risky decisions, but biased blame and credit can break teamwork",
+      "url": "https://phys.org/news/2026-07-compromise-risky-decisions-biased-blame.html",
+      "summary": "Relationships are all about compromise. From deciding on where to eat dinner with a friend to negotiating chore lists at home, we often experience situations that require some flexibility. But what happens when we must w…",
+      "ts": 1783027802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seaweeds are not plants, and six other surprising facts about aquatic flora",
+      "url": "https://phys.org/news/2026-07-seaweeds-facts-aquatic-flora.html",
+      "summary": "Hidden beneath the water's surface is a botanical world that is among nature's most innovative and ecologically important.",
+      "ts": 1783027203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Diffractive networks enable optical information transfer through random and unknown diffusers",
+      "url": "https://phys.org/news/2026-07-diffractive-networks-enable-optical-random.html",
+      "summary": "The transmission of optical information through random scattering media is a major challenge in optics, biomedical imaging, telecommunications and remote sensing. When light passes through a turbid or diffusive medium, s…",
+      "ts": 1783027201000
+    },
     {
       "source": "Phys.org",
       "title": "Orbitronics clears key hurdle with direct orbital currents, boosting signals 100-fold",
@@ -644,62 +700,6 @@
       "title": "In-Situ Polarimetry in Collimated Magneto-Infrared Spectroscopy System",
       "url": "https://arxiv.org/abs/2607.00689",
       "summary": "arXiv:2607.00689v1 Announce Type: new Abstract: Magneto-infrared spectroscopy under strong magnetic fields provides a powerful probe of Landau quantization and field-induced collective excitations, yet its full potential…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Near-Field Characterisation of Guided Modes in WS2 Nanobeams and Quasi-Bulk Crystals",
-      "url": "https://arxiv.org/abs/2607.00694",
-      "summary": "arXiv:2607.00694v1 Announce Type: new Abstract: The exceptionally high in-plane refractive index, low sub-bandgap absorption, and strong optical anisotropy of WS2 make it a promising material platform for next-generation…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Design Path for Optomechanical Crystals and One-dimensional Photonic Crystals",
-      "url": "https://arxiv.org/abs/2607.00706",
-      "summary": "arXiv:2607.00706v1 Announce Type: new Abstract: We have shown a pattern that connects the refractive index, area and the cavity modes of the optomechanical crystals (OMCs) by the same order function. By keeping the funda…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On-Demand Coherent Nanolaser Metalens and Beam Steering Enabled by Physics-Informed Neural Networks",
-      "url": "https://arxiv.org/abs/2607.00739",
-      "summary": "arXiv:2607.00739v1 Announce Type: new Abstract: The integration of artificial intelligence with physical modeling offers a transformative route for accelerating the design of active nanophotonic devices. Here, we present…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development for the Belle II vertex detector upgrade with depleted monolithic active pixel sensors",
-      "url": "https://arxiv.org/abs/2607.00741",
-      "summary": "arXiv:2607.00741v1 Announce Type: new Abstract: The vertex detector upgrade project for the Belle II experiment, based on CMOS depleted monolithic active pixel sensor technology, is planned to be carried out in conjuncti…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "LSR-Net: Long-Short-Range Operator Learning for Pattern Dynamics on Manifolds",
-      "url": "https://arxiv.org/abs/2607.00750",
-      "summary": "arXiv:2607.00750v1 Announce Type: new Abstract: We propose the Long-Short-Range Neural Network (LSR-Net), an extensible operator-learning framework for predicting pattern dynamics on planar domains, spherical surfaces, a…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In Memoriam: Igal Talmi (1925-2026)",
-      "url": "https://arxiv.org/abs/2607.00787",
-      "summary": "arXiv:2607.00787v1 Announce Type: new Abstract: A brief obituary of Igal Talmi (1925-2026) focusing on his scientific heritage. Published in Nuclear Physics News 36 (2026) 39-40.",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inelastic electron scattering induced quantum coherence: isotope effect",
-      "url": "https://arxiv.org/abs/2607.00806",
-      "summary": "arXiv:2607.00806v1 Announce Type: new Abstract: Recent discoveries of electron-induced coherence in both resonant and non-resonant interactions have introduced new perspectives in the field. In non-resonant processes, co…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Visualization of Inertial and Kelvin Waves on the Quantum Vortex Lattice in Superfluid Helium",
-      "url": "https://arxiv.org/abs/2607.00821",
-      "summary": "arXiv:2607.00821v1 Announce Type: new Abstract: Superfluid $^4$He subjected to steady rotation develops a regular lattice of quantum vortices aligned with the rotation axis. We prepare this lattice in a rotating cryostat…",
       "ts": 1782964800000
     }
   ],
