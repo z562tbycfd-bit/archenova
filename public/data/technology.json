@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-02T11:36:11.113Z",
+  "updated": "2026-07-02T14:07:35.387Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Making satellite communications more resilient",
+      "url": "https://spacenews.com/making-satellite-communications-more-resilient/",
+      "summary": "In this episode of Space Minds, Mike Gruss talks with Kymeta’s Ryan Stevenson. They discuss the benefits and challenges of multi-orbit and multi-band connectivity in a single terminal. About Space […] The post Making sat…",
+      "ts": 1783000247000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a court win for Amgen, Novo seeking supplier discounts, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/02/amgen-court-win-novo-seeking-supplier-discounts/?utm_campaign=rss",
+      "summary": "U.S. judge blocked a Colorado state panel from placing a cap on the price of Amgen's blockbuster drug Enbrel",
+      "ts": 1782998704000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Joyride Through July With 12 Games Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/",
+      "summary": "Summer is heating up — and GeForce NOW is taking players along for the ride. Start the month with Monopoly: Star Wars Heroes vs. Villains, bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 …",
+      "ts": 1782997223000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: U.S. judge blocks Colorado’s first-of-its-kind price cap on an Amgen drug",
+      "url": "https://www.statnews.com/pharmalot/2026/07/02/judge-blocks-colorado-price-cap-on-amgen-enbrel/?utm_campaign=rss",
+      "summary": "A federal judge blocked a Colorado state panel from placing a cap on the price of Enbrel, a blockbuster drug sold by Amgen",
+      "ts": 1782996880000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Teaching AI to run with the turbines",
+      "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physi…",
+      "ts": 1782996704000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a startup has a solution for AI’s groupthink problem",
+      "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Ope…",
+      "ts": 1782994200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Peptistar Began Operation of the Asahi Kasei FO-MD System at Manufacturing Scale",
+      "url": "https://www.genengnews.com/topics/bioprocessing/peptistar-began-operation-of-the-asahi-kasei-fo-md-system-at-manufacturing-scale/",
+      "summary": "FO utilizes an osmotic pressure difference across a membrane to remove water from liquids, achieving highly concentrated API solutions under mild conditions. MD leverages a vapor pressure difference across a membrane. Th…",
+      "ts": 1782993633000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: More frequent, more intense, and longer heat waves pose health risks for Americans",
@@ -395,18 +451,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "ESA",
-      "title": "Webb studies how a planet survived the death of its star",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
-      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
-      "ts": 1782918000000,
-      "categoryId": "space"
-    },
-    {
       "source": "NASA",
       "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
       "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
       "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
+      "ts": 1782918000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Webb studies how a planet survived the death of its star",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
       "ts": 1782918000000,
       "categoryId": "space"
     },
@@ -663,62 +719,6 @@
       "title": "Pattern formation in a Reaction-Diffusion Model for Amyloid-$\\beta$ and Tau Interactions in Alzheimer's Disease",
       "url": "https://arxiv.org/abs/2606.30681",
       "summary": "arXiv:2606.30681v1 Announce Type: new Abstract: Alzheimer's disease (AD) is characterized by the accumulation of Amyloid-$\\beta$ ($A\\beta$) plaques and hyperphosphorylated Tau proteins. However, many individuals exhibit …",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DiSTILL: A Hybrid Cloud-HPC Workflow System for Reproducible Spatial Transcriptomics Analysis",
-      "url": "https://arxiv.org/abs/2606.30693",
-      "summary": "arXiv:2606.30693v1 Announce Type: new Abstract: Spatial transcriptomics workflows increasingly combine large annotated data objects, notebook-based analyses, and resource-intensive statistical models that must be execute…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling Cell-Cycle-Aware Single-Cell Drug Perturbation Responses",
-      "url": "https://arxiv.org/abs/2606.30695",
-      "summary": "arXiv:2606.30695v1 Announce Type: new Abstract: Single-cell drug perturbation models should predict not only transcriptional response magnitude, but also whether a treatment alters the proliferative state of a cell. This…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structure-Regularized Interpretable TCR-Epitope Prediction",
-      "url": "https://arxiv.org/abs/2606.30902",
-      "summary": "arXiv:2606.30902v1 Announce Type: new Abstract: T cell receptor (TCR)-epitope binding prediction is essential for understanding adaptive immunity and developing immunotherapies. Existing sequence- and structure-based mod…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Head Kinematics and Brain Tissue Deformation from Soccer Heading: A Review of Implications for Brain Injury Risk",
-      "url": "https://arxiv.org/abs/2606.30946",
-      "summary": "arXiv:2606.30946v1 Announce Type: new Abstract: Purpose: Repeated heading of soccer balls has raised concerns of potential long-term neurological effects. Consequently, numerous studies have estimated head kinematics and…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Persistence, Thresholds, and Trait Composition in a Regulated Mutation-Selection Model",
-      "url": "https://arxiv.org/abs/2606.31146",
-      "summary": "arXiv:2606.31146v1 Announce Type: new Abstract: We study a population model in which individuals carry one of two traits and evolve under mutation, selection, and density-dependent regulation. A deterministic large-popul…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A conceptual model for the evo-devo role of transposable elements and its implications for the ageing phenomenon",
-      "url": "https://arxiv.org/abs/2606.31733",
-      "summary": "arXiv:2606.31733v1 Announce Type: new Abstract: The Evolvable Soma Theory of Ageing is a recently proposed model that frames development as a continuous process of change accompanying organisms throughout the lifespan. T…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Nonlinear Feedbacks Between Host Behavior and Vector Adaptation in a Multi-Host Vector-Borne Disease Model",
-      "url": "https://arxiv.org/abs/2606.31768",
-      "summary": "arXiv:2606.31768v1 Announce Type: new Abstract: Insecticide-treated nets (ITN) are an effective and low-cost intervention for controlling vector-borne disease (VBD), however, their use depends on individual decisions bas…",
       "ts": 1782878400000,
       "categoryId": "bio"
     }

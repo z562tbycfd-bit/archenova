@@ -1,7 +1,84 @@
 {
   "ok": true,
-  "updated": "2026-07-02T11:36:08.861Z",
+  "updated": "2026-07-02T14:07:29.619Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Enriching conversations with toddlers",
+      "url": "https://phys.org/news/2026-07-enriching-conversations-toddlers.html",
+      "summary": "Asking open-ended questions and weaving conversations into everyday activities helps toddlers' communication skills, new research shows. Three recently published University of Otago–Ōtākou Whakaihu Waka studies analyzed …",
+      "ts": 1783000805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum semiconductor design could expand search for dark matter",
+      "url": "https://phys.org/news/2026-07-quantum-semiconductor-dark.html",
+      "summary": "Dark matter accounts for 85% of the matter in the universe, but scientists still do not know what it is made of. A study, published in Physical Review Letters, by Rice University researchers proposes a detector design th…",
+      "ts": 1783000803000
+    },
+    {
+      "source": "Science News",
+      "title": "The natural history of every U.S. state is on display at a new D.C. exhibit",
+      "url": "https://www.sciencenews.org/article/review-smithsonian-from-these-lands-250",
+      "summary": "The Smithsonian Natural History Museum’s latest exhibit, “From These Lands,” connects visitors with America’s natural history.",
+      "ts": 1783000800000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI could bring satellite crop monitoring to the world's most vulnerable farms",
+      "url": "https://phys.org/news/2026-07-ai-satellite-crop-world-vulnerable.html",
+      "summary": "Small farms grow much of the world's food, but from space they are nearly invisible. Their fields are tiny and ill-defined, and the satellite tools built to track crops were designed for the large, uniform fields of indu…",
+      "ts": 1783000344000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Abandoned farmland restored to wildflower meadow without sowing seeds",
+      "url": "https://phys.org/news/2026-07-abandoned-farmland-wildflower-meadow-seeds.html",
+      "summary": "Abandoned farmland can be transformed into wildflower-rich grassland habitat without the need for expensive and labor-intensive seeding, a new study by UCL researchers finds.",
+      "ts": 1782999606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Analog gravity advance offers new insights into Hawking radiation from black holes",
+      "url": "https://phys.org/news/2026-07-analog-gravity-advance-insights-hawking.html",
+      "summary": "Hawking radiation is a form of radiation emitted by black holes, as theoretically predicted by Stephen Hawking. It suggests that black holes do not merely swallow matter—as had previously been assumed—but also emit very …",
+      "ts": 1782999603000
+    },
+    {
+      "source": "Science News",
+      "title": "The animal behind most aggressive wildlife encounters may surprise you",
+      "url": "https://www.sciencenews.org/article/aggressive-wildlife-encounters-elk-bear",
+      "summary": "Analysis of 3,000 incidents in Canada reveals which animal–human activity combos are especially risky. Of note: Elk and campgrounds are a bad mix.",
+      "ts": 1782998496000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change may prop up urban plant growth in the face of development—provided cities build slowly enough",
+      "url": "https://phys.org/news/2026-07-climate-prop-urban-growth-cities.html",
+      "summary": "Worsened drought stress, changing rainfall patterns, flowers and pollinators thrown out of sync: These only scratch the surface of the ways climate change challenges plant life. But warmer air and higher carbon dioxide l…",
+      "ts": 1782998405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spider venoms could stop deadly varroa mites killing honey bees",
+      "url": "https://phys.org/news/2026-07-spider-venoms-deadly-varroa-mites.html",
+      "summary": "Spider venoms contain ingredients that could lead to a new treatment to protect honeybees from the deadly Varroa destructor mite, according to a study led by the University of the Sunshine Coast. Researchers identified c…",
+      "ts": 1782998403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Harsh UVB bursts leave tadpoles with more DNA damage than longer exposure",
+      "url": "https://phys.org/news/2026-07-harsh-uvb-tadpoles-dna-longer.html",
+      "summary": "Sunburn is a serious problem in the Southern Hemisphere, where depleted ozone provides less protection from UVB. Tadpoles are at particular risk because they are growing rapidly, making them vulnerable to UVB DNA damage.…",
+      "ts": 1782997206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Swimming crab trapped in plastic bottle survives two months at sea",
+      "url": "https://phys.org/news/2026-07-crab-plastic-bottle-survives-months.html",
+      "summary": "How did a large crab end up trapped inside a plastic bottle with an opening smaller than its body? Hiroshima University researchers investigated this unusual marine mystery, revealing a lesser-known impact of marine plas…",
+      "ts": 1782997201000
+    },
     {
       "source": "Phys.org",
       "title": "Temporary protective status workers play critical role in state economy, view US as home, research suggests",
@@ -623,83 +700,6 @@
       "title": "A First-Order Assessment of Permanent Magnet Deflection for Space Radiation Protection",
       "url": "https://arxiv.org/abs/2607.00759",
       "summary": "arXiv:2607.00759v1 Announce Type: cross Abstract: We present a preliminary feasibility assessment of a magnetic shield designed to protect a space probe from cosmic radiation via magnetic deflection using neodymium perma…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kolmogorov turbulence across multi-fractal gas in Polaris Flare",
-      "url": "https://arxiv.org/abs/2607.00872",
-      "summary": "arXiv:2607.00872v1 Announce Type: cross Abstract: We reveal a pristine, scale-invariant 3D Kolmogorov velocity cascade ($\\alpha_V^{\\mathrm{3D}} \\sim 2/3$) spanning $0.05$--$20$~pc in the Polaris Flare using \\texttt{PPCOS…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling Falling Backgrounds with Exponential Mixtures",
-      "url": "https://arxiv.org/abs/2607.00884",
-      "summary": "arXiv:2607.00884v1 Announce Type: cross Abstract: Searches for new physics at the LHC often look for localized excesses on smoothly falling background distributions. Several classes of background models have been conside…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diffusiophoretic transport of colloids and emulsions in complex environments",
-      "url": "https://arxiv.org/abs/2607.01031",
-      "summary": "arXiv:2607.01031v1 Announce Type: cross Abstract: Chemical gradients are ubiquitous in porous and crowded environments, including soils, filters, fabrics, tissues, hydrogels, biofilms and living cells. They arise from di…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental and theoretical investigation of drag loads on side-by-side flexible blades in a uniform current",
-      "url": "https://arxiv.org/abs/2501.03215",
-      "summary": "arXiv:2501.03215v2 Announce Type: replace Abstract: This study investigates the hydrodynamic drag force on side-by-side flexible blades in a uniform steady current through experimental and theoretical approaches. Four di…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Properties of Adjoint Solutions of the Full-potential Equations for Two-Dimensional Subcritical Flow",
-      "url": "https://arxiv.org/abs/2506.16886",
-      "summary": "arXiv:2506.16886v4 Announce Type: replace Abstract: The adjoint full-potential equations are studied for two-dimensional (2D) steady subcritical flows. In contrast with the incompressible case, explicit closed-form solut…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First direct search for light dark matter interactions in a transition-edge sensor",
-      "url": "https://arxiv.org/abs/2506.18982",
-      "summary": "arXiv:2506.18982v4 Announce Type: replace Abstract: We propose the use of transition-edge sensor (TES) single-photon detectors as a simultaneous target and sensor for direct dark matter searches, and report results from …",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Boosting Ensembles for Statistics of Tails at Conditionally Optimal Advance Split Times",
-      "url": "https://arxiv.org/abs/2507.22310",
-      "summary": "arXiv:2507.22310v3 Announce Type: replace Abstract: Climate science needs more efficient ways to study high-impact, low-probability extreme events. Ensemble boosting, a form of rare event sampling, offers a novel strateg…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topological Localisation in Time from PT Symmetry",
-      "url": "https://arxiv.org/abs/2509.06679",
-      "summary": "arXiv:2509.06679v3 Announce Type: replace Abstract: Time has entered the domain of topological phases in the field of non-Hermitian physics. Previous studies have relied on periodic modulation in time to make an intuitiv…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Digital holographic imaging for free surfaces of superfluid helium",
-      "url": "https://arxiv.org/abs/2509.10235",
-      "summary": "arXiv:2509.10235v2 Announce Type: replace Abstract: Visualising the free surface of superfluid helium offers a rare opportunity to explore wave dynamics in the limit of vanishing viscosity. Such measurements are nonethel…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An active Transverse Energy Filter based on microstructured Si-PIN diodes with an angular-selective detection efficiency",
-      "url": "https://arxiv.org/abs/2510.02598",
-      "summary": "arXiv:2510.02598v2 Announce Type: replace Abstract: Si-PIN detectors can be microstructured to achieve angular-selective particle detection capabilities, which we call active Transverse Energy Filter (aTEF). The microstr…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Equilateral triangular waveguides, modal structure, attenuation characteristics and quality factor",
-      "url": "https://arxiv.org/abs/2510.03976",
-      "summary": "arXiv:2510.03976v2 Announce Type: replace Abstract: Equilateral triangular waveguides are one of the very few special kind of waveguides, whose field solutions can be constructed without necessarily solving the Maxwell's…",
       "ts": 1782964800000
     }
   ],
