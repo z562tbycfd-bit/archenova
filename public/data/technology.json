@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-02T18:26:44.954Z",
+  "updated": "2026-07-02T20:20:34.752Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare takes another swing at 340B cuts to hospitals",
+      "url": "https://www.statnews.com/2026/07/02/medicare-hospital-payment-340b-drugs-cut/?utm_campaign=rss",
+      "summary": "Reducing Medicare payments for 340B drugs is the latest proposal focused on the hotly debated drug discount program.",
+      "ts": 1783021939000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Lawmakers urge HHS to force Eli Lilly to provide 340B drug discounts to hospitals",
+      "url": "https://www.statnews.com/pharmalot/2026/07/02/lawmakers-urge-lilly-to-provide-340b-drug-discounts-to-hospitals/?utm_campaign=rss",
+      "summary": "Lawmakers step into a dispute between Eli Lilly and hospitals about the 340b drug discount program.",
+      "ts": 1783021934000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Perovskite solar panel startup Verde Technologies shifts focus to space",
+      "url": "https://spacenews.com/perovskite-solar-panel-startup-verde-technologies-shifts-focus-to-space/",
+      "summary": "Verde Technologies is turning to space to commercialize perovskite-based solar panels, shifting its initial focus away from rooftops in a bet that the thin-film material can help power orbital data centers and other larg…",
+      "ts": 1783020456000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Synthetic Organizers Aid Creation of Reproducible Kidney Organoids from Stem Cells",
+      "url": "https://www.genengnews.com/topics/translational-medicine/synthetic-organizers-aid-creation-of-reproducible-kidney-organoids-from-stem-cells/",
+      "summary": "Using techniques including spatial transcriptomics, researchers identified a developmental axis that helps organize developing kidney nephrons, and engineered Wnt-secreting “synthetic organizer” cells to recreate aspects…",
+      "ts": 1783018158000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Elevance sues government over $115 million tied to Medicare Advantage star ratings",
+      "url": "https://www.statnews.com/2026/07/02/elevance-lawsuit-medicare-advantage-star-ratings-clover/?utm_campaign=rss",
+      "summary": "The health insurer says CMS didn't calculate its star ratings appropriately.",
+      "ts": 1783017245000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Isar Aerospace to launch German-built Planet imaging satellite",
@@ -17,6 +57,22 @@
       "summary": "Elixirgen's lead program is an ex vivo autologous therapy based on proprietary tech that targets telomere biology disorders, rare genetic diseases characterized by short telomeres and telomerase mutations. The post Elixi…",
       "ts": 1783016048000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Artemis II Breaks Agency Streaming Record",
+      "url": "https://www.nasa.gov/general/nasas-artemis-ii-breaks-agency-streaming-record/",
+      "summary": "NASA’s live coverage of the Artemis II mission mission drew unprecedented public interest – including more than 149.4 million views of the launch, lunar flyby, splashdown on NASA-owned platforms, including the 24/7 strea…",
+      "ts": 1783015341000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Students Get Airborne View of Atmospheric Science at Ellington Field",
+      "url": "https://www.nasa.gov/general/nasa-students-get-airborne-view-of-atmospheric-science-at-ellington-field/",
+      "summary": "From June 3 to 13, aircraft at Ellington Field in Houston gave students a firsthand look at how scientists study Earth from the air. Through NASA’s Student Airborne Research Program, or SARP, students learned how airborn…",
+      "ts": 1783014343000,
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -563,18 +619,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "ESA",
-      "title": "Webb studies how a planet survived the death of its star",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
-      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
-      "ts": 1782918000000,
-      "categoryId": "space"
-    },
-    {
       "source": "NASA",
       "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
       "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
       "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
+      "ts": 1782918000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Webb studies how a planet survived the death of its star",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
       "ts": 1782918000000,
       "categoryId": "space"
     },
@@ -665,62 +721,6 @@
       "summary": "SAN FRANCISCO – Vantor, the company previously known as Maxar Intelligence, unveiled WorldView 3D July 1, to provide customers with updated and high-definition imagery. “WorldView 3D is driving towards currency,” […] The…",
       "ts": 1782909000000,
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "EchoStar’s satellite TV and wireless subsidiaries file for bankruptcy",
-      "url": "https://spacenews.com/echostars-satellite-tv-and-wireless-subsidiaries-file-for-bankruptcy/",
-      "summary": "EchoStar subsidiaries tied to its satellite TV and abandoned 5G network businesses have filed for Chapter 11 bankruptcy protection, advancing a prepackaged restructuring plan to repay debt early after selling spectrum to…",
-      "ts": 1782908530000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Anthropic launches Claude Science, and California’s carbon manure math",
-      "url": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Claude Science is Anthropic’s newest flagship product At an event for pharmaceutic…",
-      "ts": 1782907800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Latitude plans to conduct first launch from Oman",
-      "url": "https://spacenews.com/latitude-plans-to-conduct-first-launch-from-oman/",
-      "summary": "French startup Latitude intends to perform the first launch of its small launch vehicle from a spaceport in Oman in late 2027. The post Latitude plans to conduct first launch from Oman appeared first on SpaceNews.",
-      "ts": 1782907438000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "XMM-Newton helps revise distance to outer spiral arms",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/XMM-Newton/XMM-Newton_helps_revise_distance_to_outer_spiral_arms",
-      "summary": "The European Space Agency’s XMM-Newton and NASA’s Chandra X-ray space telescopes have spotted the aftermath of three bright explosions echoing through the outer spiral arms of our galaxy, the Milky Way. By measuring the …",
-      "ts": 1782907200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "'Everything blew up': A baseball stadium becomes a refuge in Venezuela",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167857",
-      "summary": "Where children once trained as baseball players, families now sleep under tarpaulins. The stadium at Playa Grande, on Venezuela's central coast, has become an emergency shelter for people who lost their homes – or cannot…",
-      "ts": 1782907200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Risk of atrocities in Sudan, UN programme prevents climate displacement, more civilians killed in Ukraine",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167856",
-      "summary": "Drone attacks by advancing rebel fighters who are besieging El Obeid, Sudan, continue to result in civilian casualties, putting around half a million civilians at grave risk of large-scale atrocities.",
-      "ts": 1782907200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘The science is here’: UN chief welcomes first global AI assessment",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167853",
-      "summary": "Fresh scientific evidence and options for harnessing artificial intelligence (AI) were unveiled Wednesday following the launch of the first global, independent scientific assessment of opportunities, risks and impacts by…",
-      "ts": 1782907200000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

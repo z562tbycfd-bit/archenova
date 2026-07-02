@@ -1,7 +1,98 @@
 {
   "ok": true,
-  "updated": "2026-07-02T18:26:42.249Z",
+  "updated": "2026-07-02T20:20:32.188Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Most Europeans see economic growth as essential for a sustainable future",
+      "url": "https://phys.org/news/2026-07-europeans-economic-growth-essential-sustainable.html",
+      "summary": "According to a new study by the Institute of Environmental Science and Technology of the Universitat Autònoma de Barcelona (ICTA-UAB), most European citizens consider economic growth a necessary condition, rather than an…",
+      "ts": 1783023603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prescribed burns may generate over 20% of fine particle pollution in southeastern US",
+      "url": "https://phys.org/news/2026-07-generate-fine-particle-pollution-southeastern.html",
+      "summary": "Prescribed fires are vital for reducing wildfire risk and sustaining forest biodiversity. But they also contribute significantly to air pollution and smoke exposure, according to new research from the University of Georg…",
+      "ts": 1783023601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to stop a mouse plague",
+      "url": "https://phys.org/news/2026-07-mouse-plague.html",
+      "summary": "The scenes are biblical. Tens of thousands of rodents scattering across canola fields, behind sheds, into machinery. River fish with bellies full of mice. Carcasses littering the street, the sidewalk, outside your home. …",
+      "ts": 1783022403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light flips bacterial signaling enzyme between two shapes, unlocking how signals travel",
+      "url": "https://phys.org/news/2026-07-flips-bacterial-enzyme.html",
+      "summary": "Researchers at the University of Bayreuth and Forschungszentrum Jülich have demonstrated that specific light-sensitive enzymes—so-called sensor histidine kinases (SHKs)—transmit their signal through a light-controlled ch…",
+      "ts": 1783022401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI analysis of data from multiple sensors can improve earthquake detection",
+      "url": "https://phys.org/news/2026-07-ai-analysis-multiple-sensors-earthquake.html",
+      "summary": "One seismometer is often not enough to reliably detect earthquakes or human activity such as underground nuclear tests. Rather, researchers combine readings from seismometers distributed across a small geographic area to…",
+      "ts": 1783021204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The broader a fungus's diet, the better it kills insects and helps plants",
+      "url": "https://phys.org/news/2026-07-broader-fungus-diet-insects.html",
+      "summary": "Many fungi lead triple lives—acting as deadly insect pathogens, decomposers in the soil, and helpful partners living inside and transferring insect-derived nitrogen to plant roots. Scientists have long wondered what allo…",
+      "ts": 1783021201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spontaneous current loops in a kagome metal point to hidden quantum order",
+      "url": "https://phys.org/news/2026-07-spontaneous-current-loops-kagome-metal.html",
+      "summary": "Quantum materials, materials exhibiting physical behavior governed by the laws of quantum mechanics, have proved promising for the development of numerous advanced technologies, including quantum technologies, memory dev…",
+      "ts": 1783020007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop a new predictive model for designing 2D perovskites",
+      "url": "https://phys.org/news/2026-07-2d-perovskites.html",
+      "summary": "Two-dimensional (2D) perovskites are increasingly recognized as promising candidate materials for the next generation of optoelectronic devices. These materials combine key characteristics of both 2D semiconductors and t…",
+      "ts": 1783020005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plant DNA harbors virus 'fossils' that reflect 300 million years of evolution",
+      "url": "https://phys.org/news/2026-07-dna-harbors-virus-fossils-million.html",
+      "summary": "Is it possible to study the history of viruses that emerged several hundred million years ago? An international team of INRAE and CIRAD researchers answered this question by exploring plant genomes to find the molecular …",
+      "ts": 1783020003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New polymer design could make everyday plastics easier to break down without losing performance",
+      "url": "https://phys.org/news/2026-07-polymer-everyday-plastics-easier.html",
+      "summary": "An Ehime University research team directed by H. Shimomoto and E. Ihara has developed a new molecular design strategy that imparts degradability to carbon–carbon (C–C) backbone polymers. The study, published in Macromole…",
+      "ts": 1783018805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hunting behavior drives the evolution of spider eye arrangements, study finds",
+      "url": "https://phys.org/news/2026-07-behavior-evolution-spider-eye.html",
+      "summary": "Vision shapes how many animals find food, avoid danger and navigate their world. In animals with two eyes, eye placement is often linked to lifestyle: predators such as lions tend to have forward-facing eyes that help th…",
+      "ts": 1783018803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why shorter lists win: Researchers study how people misread rankings",
+      "url": "https://phys.org/news/2026-07-shorter-people-misread.html",
+      "summary": "Math is great when it's simple, but then our brain gets involved and complicates everything. Imagine you are on the leadership team for a Big 4 and choosing between two employees for a director-level promotion. One is ra…",
+      "ts": 1783017608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microtubules in ovarian cell bridges may be key to fertility",
+      "url": "https://phys.org/news/2026-07-microtubules-ovarian-cell-bridges-key.html",
+      "summary": "Female fertility depends on the successful growth and maturation of eggs (oocytes) within ovarian follicles. Within these follicles, the oocyte is surrounded by granulosa cells that supply nutrients, signaling molecules …",
+      "ts": 1783017601000
+    },
     {
       "source": "Phys.org",
       "title": "Gallium uses visible light to activate aryl iodides in rare bond-breaking reaction",
@@ -609,97 +700,6 @@
       "title": "Axion Polarimetric Experiment (APE)",
       "url": "https://arxiv.org/abs/2607.00822",
       "summary": "arXiv:2607.00822v1 Announce Type: new Abstract: We present the Axion Polarimetric Experiment (APE), a cavity-enhanced polarimeter designed to search for ultralight axion and axion-like-particle dark matter through a time…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamical noisy canalization in morphogenesis: lessons from Hydra regeneration",
-      "url": "https://arxiv.org/abs/2607.00823",
-      "summary": "arXiv:2607.00823v1 Announce Type: new Abstract: Developmental robustness is framed as progress through a fixed Waddington-type landscape. We argue that in morphogenesis this landscape evolves through coupled bio-signalin…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-Time FPGA-Based SiPM Detector Emulation Using a Temporally Quantized Model",
-      "url": "https://arxiv.org/abs/2607.00841",
-      "summary": "arXiv:2607.00841v1 Announce Type: new Abstract: We present a real-time hardware implementation of a versatile detector emulator capable of reproducing realistic silicon photomultiplier signals. Our approach builds upon t…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reexamination of collisional ionization cross sections including double photoionization processes",
-      "url": "https://arxiv.org/abs/2607.00875",
-      "summary": "arXiv:2607.00875v1 Announce Type: new Abstract: Collisional ionization (CI) cross sections in dense plasmas remain difficult to constrain due to uncertainties in plasma conditions and the overlapping spectral signatures …",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The effect of 20th century industrialization: Power station, acid rains, over-pumping, on an erstwhile uniform freshwater dune aquifer in Haifa Bay, Israel",
-      "url": "https://arxiv.org/abs/2607.00893",
-      "summary": "arXiv:2607.00893v1 Announce Type: new Abstract: A small phreatic sand dune aquifer lies along the shore of Haifa Bay. It has been exploited for its freshwater resources since the 1930s. During this time the salinity has …",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-time simulation of charge migration within the time-dependent Kohn-Sham DFT",
-      "url": "https://arxiv.org/abs/2607.00898",
-      "summary": "arXiv:2607.00898v1 Announce Type: new Abstract: Attosecond technologies provide unique opportunities to study electron dynamics and electron correlation on their intrinsic timescales. From a theoretical perspective, this…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "TD-Link: A Daisy-Chain Optical Architecture for Integrated Data Readout and Deterministic Timing Distribution in Large-Scale Detector Systems",
-      "url": "https://arxiv.org/abs/2607.00904",
-      "summary": "arXiv:2607.00904v1 Announce Type: new Abstract: TD-Link is a custom optical communication architecture that combines high-throughput data readout and sub-nanosecond timing synchronization over a single optical fiber for …",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Visualizing Lagrangian Heat Transport Paths and Density Structures in Unsteady Heat Transfer",
-      "url": "https://arxiv.org/abs/2607.00909",
-      "summary": "arXiv:2607.00909v1 Announce Type: new Abstract: Convective heat transfer is traditionally visualized from a Eulerian perspective using scalar temperature fields, offering limited insight into the underlying transport mec…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Identity and Self as Physical Signatures of Life in Dictyostelium and Multicellular Systems",
-      "url": "https://arxiv.org/abs/2607.00923",
-      "summary": "arXiv:2607.00923v1 Announce Type: new Abstract: In previous work we sought to address the fundamental question ``What is life?''. Building on that conceptual foundation, we here integrate traditional criteria for living …",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamics of charge fluctuations in nanocapacitors: effects of salt concentration and electrode metallicity from Brownian dynamics",
-      "url": "https://arxiv.org/abs/2607.00932",
-      "summary": "arXiv:2607.00932v1 Announce Type: new Abstract: Electric double-layer capacitors (EDLCs) rely on the dynamical response of confined electrolytes to store and release charge, yet the interplay between ion transport, elect…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plant-On-a-Disc (POD): A Phytofluidic platform enabling In Situ Root Analysis",
-      "url": "https://arxiv.org/abs/2607.00942",
-      "summary": "arXiv:2607.00942v1 Announce Type: new Abstract: Phytofluidic platforms have enabled controlled studies of plant roots, however, most existing systems either impose geometric confinement without flow or introduce hydrodyn…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lock-exchange flow regimes under low air Froude number bubble curtains",
-      "url": "https://arxiv.org/abs/2607.00960",
-      "summary": "arXiv:2607.00960v1 Announce Type: new Abstract: The flow and density field characteristics around a bubble curtain in a laboratory scale lock-exchange setup are investigated using two-phase large-eddy simulations. We stu…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-performance parallel implementation of high-order coupled-cluster theories",
-      "url": "https://arxiv.org/abs/2607.00981",
-      "summary": "arXiv:2607.00981v1 Announce Type: new Abstract: High-order coupled-cluster theories with iterative triples (CCSDT), perturbative quadruples [CCSDT(Q)], and iterative quadruples (CCSDTQ) provide benchmark-quality correlat…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parts-per-million-accurate determination of the K${\\alpha}$ photoionization resonance of Be-like oxygen with resolution of its $^{16}$O-$^{18}$O isotopic shift",
-      "url": "https://arxiv.org/abs/2607.00996",
-      "summary": "arXiv:2607.00996v1 Announce Type: new Abstract: We determine with high accuracy the energy of the inner-shell transition $1s^2 2s^2~{}^1\\mathrm{S}_0 \\rightarrow 1s~2s^2~2p_{3/2}~{}^1\\mathrm{P}_1$ ${}^{16}\\mathrm{O}_{K\\al…",
       "ts": 1782964800000
     }
   ],
