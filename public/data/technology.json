@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-02T16:38:13.191Z",
+  "updated": "2026-07-02T16:51:50.361Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "ASMS 2026: Solving Proteomics’ Next Bottleneck",
+      "url": "https://www.genengnews.com/topics/omics/asms-2026-solving-proteomics-next-bottleneck/",
+      "summary": "At the 74th ASMS Conference, the obvious story was hardware. But after several days at the conference, it became clear that the field is beginning to look past the instrument toward the future of proteomics. The post ASM…",
+      "ts": 1783010945000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: What does DeGette’s loss mean for pharma?",
@@ -515,18 +523,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
-      "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
-      "ts": 1782918000000,
-      "categoryId": "space"
-    },
-    {
       "source": "ESA",
       "title": "Webb studies how a planet survived the death of its star",
       "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
       "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
+      "ts": 1782918000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
+      "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
       "ts": 1782918000000,
       "categoryId": "space"
     },
@@ -713,14 +721,6 @@
       "summary": "The FDA approved a T-cell therapy from Orca Bio that reduces the risk of a debilitating immune reaction in patients with blood cancers undergoing stem cell transplants.",
       "ts": 1782905897000,
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Blue Origin outlines new launch pad approach as it pushes to return New Glenn to flight",
-      "url": "https://spacenews.com/blue-origin-outlines-new-launch-pad-approach-as-it-pushes-to-return-new-glenn-to-flight/",
-      "summary": "A month after a devastating pad explosion, Blue Origin reiterated plans to return its New Glenn vehicle to flight from a rebuilt launch pad by the end of the year. The post Blue Origin outlines new launch pad approach as…",
-      "ts": 1782904575000,
-      "categoryId": "space"
     }
   ],
   "categories": [

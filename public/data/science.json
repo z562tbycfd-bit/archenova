@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-02T16:38:05.667Z",
+  "updated": "2026-07-02T16:51:47.500Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What makes a star a star? A strange 'in‑between' celestial object is testing astronomers' boundaries",
+      "url": "https://phys.org/news/2026-07-star-strange-inbetween-celestial-astronomers.html",
+      "summary": "A star called TOI-2155 lies around 1,350 light-years (839 trillion miles) from Earth. It is a little bigger, heavier and hotter than the sun, and it is not particularly interesting or unusual in itself.",
+      "ts": 1783010408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Workplace depression is common. Managers can make it worse, or better",
+      "url": "https://phys.org/news/2026-07-workplace-depression-common-worse.html",
+      "summary": "Australia has a mental health crisis. The Productivity Commission has found mental health issues cost Australia up to A$200 billion to A$220 billion per year—one-tenth of annual economic output.",
+      "ts": 1783010407000
+    },
     {
       "source": "Phys.org",
       "title": "Quantum gravity tests may mistake ordinary spacetime for superposition",
@@ -686,20 +700,6 @@
       "title": "The Fleeting Laboratory: An Experimental Guide for Total Solar Eclipses",
       "url": "https://arxiv.org/abs/2607.00014",
       "summary": "arXiv:2607.00014v1 Announce Type: cross Abstract: Since times immemorial, total solar eclipses have inspired awe and wonder. In the modern scientific era they have transformed into exclusive natural laboratories, offerin…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gravitating Tubes Beyond World Line Paradigm In General Relativity",
-      "url": "https://arxiv.org/abs/2607.00036",
-      "summary": "arXiv:2607.00036v1 Announce Type: cross Abstract: The simplest point-particle description of classical matter is incompatible with Einstein's General Relativity because the stress-energy tensor of a point particle is dis…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulation of Axion-Induced Electromagnetic Signal Detection Using Plasmonic Metasurfaces and Diamond NV Centers",
-      "url": "https://arxiv.org/abs/2607.00068",
-      "summary": "arXiv:2607.00068v1 Announce Type: cross Abstract: The axion represents a strong candidate for weakly interacting dark matter. To date, high sensitivity lab based experiments and astrophysical observations have ruled out …",
       "ts": 1782964800000
     }
   ],
