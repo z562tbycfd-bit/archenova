@@ -21067,3 +21067,65 @@ transform:none;
     margin-top: 4rem !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Senate Agenda Engine Refinement
+   ========================================================== */
+
+.senate-agenda-card {
+  border-color: rgba(255, 224, 170, 0.16) !important;
+}
+
+.senate-agenda-card .senate-opinion-block {
+  margin-top: 1.1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.senate-agenda-card .senate-opinion-block strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: rgba(255, 224, 170, 0.86);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.senate-agenda-card .senate-opinion-block p {
+  margin: 0;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.65;
+}
+
+.senate-agenda-card .plaza-hint {
+  margin-top: 1.2rem;
+  color: rgba(160, 210, 255, 0.78);
+  line-height: 1.55;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .senate-agenda-card .senate-opinion-block {
+    margin-top: 0.9rem;
+    padding-top: 0.85rem;
+  }
+
+  .senate-agenda-card .senate-opinion-block strong {
+    font-size: 0.72rem;
+  }
+
+  .senate-agenda-card .senate-opinion-block p,
+  .senate-agenda-card .plaza-hint {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
