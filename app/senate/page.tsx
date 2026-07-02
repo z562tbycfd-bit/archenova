@@ -6,6 +6,7 @@ import { getProgramEvidence } from "@/lib/programEvidence";
 import { getLatestResolutions } from "@/lib/senateResolutions";
 import { getSenateChamberAgenda } from "@/lib/senateChamber";
 import { getSenateExternalIntelligence } from "@/lib/senateExternalIntelligence";
+import { getSenateAgendaFromReports } from "@/lib/senateAgendaEngine";
 
 const deliberationFlow = [
   "Sources",
@@ -58,6 +59,7 @@ export default function SenatePage() {
 
   const latestResolutions = getLatestResolutions(6);
   const chamberAgenda = getSenateChamberAgenda();
+  const generatedAgenda = getSenateAgendaFromReports(8);
 
   return (
     <main className="page-standard senate-page">
@@ -72,7 +74,7 @@ export default function SenatePage() {
           </h1>
 
           <p className="page-lead">
-            Senate reads RSS-derived Signals, generated Reports, external
+            Senate reads Signals, generated Reports, external
             evidence, and ArcheNova Programs before forming civilizational
             resolutions.
           </p>
@@ -249,29 +251,44 @@ export default function SenatePage() {
       </section>
 
       <section className="glass-block">
-        <Reveal>
-          <span className="home-section-label">SENATE AGENDA</span>
+ <Reveal>
+   <span className="home-section-label">SENATE AGENDA ENGINE</span>
 
-          <h2>Derived issues requiring deliberation.</h2>
+   <h2>Reports become deliberation agenda.</h2>
 
-          <div className="research-report-grid">
-            {external.issues.slice(0, 6).map((issue) => (
-              <article
-                key={issue.id}
-                className="research-report-card senate-agenda-card"
-              >
-                <div className="feed-source">
-                  {issue.id} · {issue.priority}
-                </div>
+   <div className="research-report-grid">
+     {generatedAgenda.map((item) => (
+       <article>
+         key={item.id}
+         className="research-report-card senate-agenda-card"
 
-                <h3>{issue.title}</h3>
+         <div className="feed-source">
+           Rank {item.rank} · {item.category} · Score {item.score}/10 ·{" "}
+           {item.priority}
+         </div>
 
-                <p>{issue.rationale}</p>
-              </article>
-            ))}
-          </div>
-        </Reveal>
-      </section>
+         <h3>{item.title}</h3>
+
+         <p>{item.question}</p>
+
+         <div className="senate-opinion-block">
+           <strong>Rationale</strong>
+           <p>{item.rationale}</p>
+         </div>
+
+         <div className="senate-opinion-block">
+           <strong>Constitutional Concern</strong>
+           <p>{item.constitutionalConcern}</p>
+         </div>
+
+         <div className="plaza-hint">
+           Action: {item.action} · {item.recommendedPath}
+         </div>
+       </article>
+     ))}
+   </div>
+ </Reveal>
+</section>
 
       <section className="glass-block">
         <Reveal>
