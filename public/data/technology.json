@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-02T00:11:07.725Z",
+  "updated": "2026-07-02T00:45:00.628Z",
   "items": [
     {
       "source": "STAT",
@@ -115,18 +115,18 @@
       "categoryId": "bio"
     },
     {
-      "source": "ESA",
-      "title": "Webb studies how a planet survived the death of its star",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
-      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
-      "ts": 1782918000000,
-      "categoryId": "space"
-    },
-    {
       "source": "NASA",
       "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
       "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
       "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
+      "ts": 1782918000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Webb studies how a planet survived the death of its star",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
       "ts": 1782918000000,
       "categoryId": "space"
     },

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Reveal from "../components/Reveal";
-import SenateCrossingsPanel from "../components/SenateCrossingsPanel";
 
 import { programs } from "@/lib/programs";
 import { getProgramEvidence } from "@/lib/programEvidence";
@@ -17,6 +16,34 @@ const deliberationFlow = [
   "Court",
   "Resolution",
   "Programs",
+];
+
+const timelineStages = [
+  {
+    title: "Incoming Signals",
+    status: "completed",
+    body: "Latest scientific, technological, and civilizational changes are collected through Signals.",
+  },
+  {
+    title: "Agenda Formation",
+    status: "completed",
+    body: "Reports are organized into constitutional questions before entering the Senate.",
+  },
+  {
+    title: "Current Deliberation",
+    status: "current",
+    body: "The Senate evaluates evidence, implications, coherence, and long-term civilizational impact.",
+  },
+  {
+    title: "Institution Opinions",
+    status: "pending",
+    body: "Episteme, Builder, Institute, and Capital provide institutional perspectives.",
+  },
+  {
+    title: "Draft Resolution",
+    status: "pending",
+    body: "The Senate prepares a provisional direction before Court review.",
+  },
 ];
 
 export default function SenatePage() {
@@ -86,6 +113,87 @@ export default function SenatePage() {
         </Reveal>
       </section>
 
+      <section className="glass-block senate-timeline-block">
+        <Reveal>
+          <span className="home-section-label">DELIBERATION TIMELINE</span>
+
+          <h2>Current stage of Senate deliberation.</h2>
+
+          <div className="senate-timeline">
+            {timelineStages.map((stage) => (
+              <div
+                key={stage.title}
+                className={`senate-stage ${stage.status}`}
+              >
+                <div className="senate-stage-dot" />
+
+                <div className="senate-stage-content">
+                  <strong>{stage.title}</strong>
+                  <p>{stage.body}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </Reveal>
+      </section>
+
+      <section className="glass-block senate-chamber-block">
+        <Reveal>
+          <span className="home-section-label">SENATE CHAMBER</span>
+
+          <h2>
+            The Great Round Table of
+            <br />
+            Civilizational Deliberation.
+          </h2>
+
+          <p className="page-lead">
+            Every Signal, Report, Program, and Evidence converges into a single
+            deliberation space before constitutional judgment.
+          </p>
+
+          <div className="senate-chamber">
+            <div className="senate-node north">
+              <span>Signals</span>
+            </div>
+
+            <div className="senate-node west">
+              <span>Reports</span>
+            </div>
+
+            <div className="senate-node east">
+              <span>Programs</span>
+            </div>
+
+            <div className="senate-node southwest">
+              <span>Evidence</span>
+            </div>
+
+            <div className="senate-node southeast">
+              <span>Opinions</span>
+            </div>
+
+            <div className="senate-node south">
+              <span>Resolution</span>
+            </div>
+
+            <div className="senate-roundtable">
+              <div className="senate-roundtable-core">
+                <div className="senate-core-symbol">◎</div>
+
+                <h3>
+                  Current
+                  <br />
+                  Deliberation
+                </h3>
+
+                <p>Constitutional evaluation in progress</p>
+              </div>
+            </div>
+          </div>
+        </Reveal>
+      </section>
+
       <section className="glass-block">
         <Reveal>
           <span className="home-section-label">DERIVED SIGNALS</span>
@@ -93,7 +201,7 @@ export default function SenatePage() {
           <h2>Signals under observation.</h2>
 
           <div className="research-report-grid">
-            {external.signals.map((signal) => (
+            {external.signals.slice(0, 6).map((signal) => (
               <a
                 key={signal.id}
                 href={signal.href}
@@ -121,7 +229,7 @@ export default function SenatePage() {
           <h2>Signals converted into structured interpretation.</h2>
 
           <div className="research-report-grid">
-            {external.reports.map((report) => (
+            {external.reports.slice(0, 6).map((report) => (
               <Link
                 key={report.slug}
                 href={report.href}
@@ -147,7 +255,7 @@ export default function SenatePage() {
           <h2>Derived issues requiring deliberation.</h2>
 
           <div className="research-report-grid">
-            {external.issues.map((issue) => (
+            {external.issues.slice(0, 6).map((issue) => (
               <article
                 key={issue.id}
                 className="research-report-card senate-agenda-card"
@@ -159,29 +267,6 @@ export default function SenatePage() {
                 <h3>{issue.title}</h3>
 
                 <p>{issue.rationale}</p>
-              </article>
-            ))}
-          </div>
-        </Reveal>
-      </section>
-
-      <section className="glass-block">
-        <Reveal>
-          <span className="home-section-label">DELIBERATION QUESTIONS</span>
-
-          <h2>Questions before the Senate.</h2>
-
-          <div className="research-report-grid">
-            {external.questions.map((item) => (
-              <article key={item.id} className="research-report-card">
-                <div className="feed-source">Senate Question</div>
-
-                <h3>{item.question}</h3>
-
-                <p>
-                  This question is derived from the latest Signals, Reports, and
-                  generated Senate agenda.
-                </p>
               </article>
             ))}
           </div>
@@ -221,35 +306,6 @@ export default function SenatePage() {
                 </Link>
               );
             })}
-          </div>
-        </Reveal>
-      </section>
-
-      <SenateCrossingsPanel />
-
-      <section className="glass-block">
-        <Reveal>
-          <span className="home-section-label">SENATE CHAMBER</span>
-
-          <h2>Agenda, opinions, and draft resolutions.</h2>
-
-          <div className="research-report-grid">
-            {chamberAgenda.map((agenda) => (
-              <article key={agenda.programSlug} className="research-report-card">
-                <div className="feed-source">
-                  {agenda.programId} · {agenda.status} · {agenda.priority}
-                </div>
-
-                <h3>{agenda.title}</h3>
-
-                <p>{agenda.question}</p>
-
-                <div className="plaza-hint">
-                  Evidence {agenda.evidenceCount} · Lifecycle{" "}
-                  {agenda.lifecycle}
-                </div>
-              </article>
-            ))}
           </div>
         </Reveal>
       </section>
@@ -317,22 +373,114 @@ export default function SenatePage() {
         </Reveal>
       </section>
 
-      <section className="glass-block">
+      <section className="glass-block senate-resolution-document-block">
         <Reveal>
-          <span className="home-section-label">DRAFT RESOLUTIONS</span>
+          <span className="home-section-label">SENATE RESOLUTION</span>
 
-          <h2>Provisional Senate direction.</h2>
+          <h2>
+            Provisional acts of
+            <br />
+            civilizational direction.
+          </h2>
 
-          <div className="research-report-grid">
-            {chamberAgenda.map((agenda) => (
-              <article key={agenda.programSlug} className="research-report-card">
-                <div className="feed-source">{agenda.programId} · Draft</div>
+          <div className="senate-resolution-documents">
+            {chamberAgenda.slice(0, 3).map((agenda, index) => (
+              <article
+                key={agenda.programSlug}
+                className="senate-resolution-document"
+              >
+                <div className="senate-resolution-header">
+                  <span>Resolution</span>
+                  <strong>ARSN-{String(index + 1).padStart(3, "0")}</strong>
+                </div>
+
+                <div className="senate-resolution-seal">Ⅰ</div>
 
                 <h3>{agenda.title}</h3>
 
-                <p>{agenda.resolutionDraft}</p>
+                <p className="senate-resolution-question">
+                  {agenda.question}
+                </p>
 
-                <div className="plaza-hint">Next: {agenda.nextAction}</div>
+                <div className="senate-resolution-body">
+                  <p>
+                    The Senate provisionally recognizes this agenda as requiring
+                    structured civilizational review under the principles of
+                    evidence, feasibility, continuity, and constitutional
+                    coherence.
+                  </p>
+
+                  <p>
+                    Recommended direction:{" "}
+                    <strong>{agenda.recommendation}</strong>
+                  </p>
+
+                  <p>Draft resolution: {agenda.resolutionDraft}</p>
+                </div>
+
+                <div className="senate-resolution-footer">
+                  <span>Status: Draft</span>
+                  <span>Next: {agenda.nextAction}</span>
+                </div>
+              </article>
+            ))}
+          </div>
+        </Reveal>
+      </section>
+
+      <section className="glass-block senate-constitution-check-block">
+        <Reveal>
+          <span className="home-section-label">CONSTITUTION CHECK</span>
+
+          <h2>
+            Every resolution must pass
+            <br />
+            constitutional coherence.
+          </h2>
+
+          <p className="page-lead">
+            Senate resolutions remain provisional until they are tested against
+            the Constitution, Foundation, evidence quality, and long-term
+            continuity.
+          </p>
+
+          <div className="senate-check-grid">
+            {chamberAgenda.slice(0, 4).map((agenda) => (
+              <article key={agenda.programSlug} className="senate-check-card">
+                <div className="senate-check-header">
+                  <span>{agenda.programId}</span>
+                  <strong>Under Review</strong>
+                </div>
+
+                <h3>{agenda.title}</h3>
+
+                <div className="senate-check-list">
+                  <div className="senate-check-row passed">
+                    <span>Constitution</span>
+                    <strong>Aligned</strong>
+                  </div>
+
+                  <div className="senate-check-row passed">
+                    <span>Foundation</span>
+                    <strong>Coherent</strong>
+                  </div>
+
+                  <div className="senate-check-row caution">
+                    <span>Evidence</span>
+                    <strong>Requires review</strong>
+                  </div>
+
+                  <div className="senate-check-row pending">
+                    <span>Court</span>
+                    <strong>Pending</strong>
+                  </div>
+                </div>
+
+                <p className="senate-check-note">
+                  This agenda may proceed only after Court confirms that the
+                  draft direction remains consistent with ArcheNova&apos;s
+                  constitutional constraints.
+                </p>
               </article>
             ))}
           </div>
@@ -343,7 +491,7 @@ export default function SenatePage() {
         <Reveal>
           <span className="home-section-label">RESOLUTION HISTORY</span>
 
-          <h2>Recent Senate Resolutions</h2>
+          <h2>Recent Senate Resolutions.</h2>
 
           <div className="research-report-grid">
             {latestResolutions.map((resolution) => (

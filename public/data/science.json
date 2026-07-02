@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-02T00:11:02.912Z",
+  "updated": "2026-07-02T00:44:54.890Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Sun-powered sponges may generate 11% of tropical coral reef productivity",
+      "url": "https://phys.org/news/2026-07-sun-powered-sponges-generate-tropical.html",
+      "summary": "In marine environments, sponges tend to eat other organisms to get their nutrients. But a study published in Functional Ecology by researchers at the University of Amsterdam's Institute for Biodiversity and Ecosystem Dyn…",
+      "ts": 1782952801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How extreme weather impacts white stork survival in Bulgaria",
+      "url": "https://phys.org/news/2026-07-extreme-weather-impacts-white-stork.html",
+      "summary": "A comprehensive 15-year study published in Biodiversity Data Journal details the growing threat of extreme weather to white storks (Ciconia ciconia) in Bulgaria. The research, which is part of the topical collection \"Res…",
+      "ts": 1782951601000
+    },
     {
       "source": "Phys.org",
       "title": "Earliest Americans specialized in megafauna hunting from Alaska to South America, analysis of 50 sites reveals",
@@ -294,6 +308,13 @@
       "title": "<i>Ab Initio</i> Free-Energy Surfaces for Coupled Ion-Electron Transfer",
       "url": "http://link.aps.org/doi/10.1103/dct7-q652",
       "summary": "Author(s): Ethan Abraham, Martin Z. Bazant, and Troy Van Voorhis A physically consistent formalism provides a first-principles route to electrochemical current-overpotential relations by computing finite-temperature coup…",
+      "ts": 1782900000000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Editorial: Physical Review X at Fifteen",
+      "url": "http://link.aps.org/doi/10.1103/v8ky-vf6d",
+      "summary": "Author(s): Denis Bartolo and Brent Grocholski [Phys. Rev. X 16, 030001] Published Wed Jul 01, 2026",
       "ts": 1782900000000
     },
     {
@@ -679,27 +700,6 @@
       "title": "Feedback dynamics in matching networks drive behavioral differentiation despite overlapping objectives",
       "url": "https://arxiv.org/abs/2606.31802",
       "summary": "arXiv:2606.31802v1 Announce Type: new Abstract: Many bipartite social networks exhibit pronounced asymmetries in selectivity and matching opportunities: members of one side can afford to be highly selective, while member…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Navigating committor landscape of biomolecules with a general pairwise interaction model",
-      "url": "https://arxiv.org/abs/2606.31832",
-      "summary": "arXiv:2606.31832v1 Announce Type: new Abstract: Sampling rare conformation transitions between metastable states is a central challenge in atomistic simulations. While the committor function serve as an ideal reaction co…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conical Intersections Enable Ultrafast Molecular Spin Control in a Chromium Complex",
-      "url": "https://arxiv.org/abs/2606.31905",
-      "summary": "arXiv:2606.31905v1 Announce Type: new Abstract: Molecular spintronics seeks to control spin states in single molecules for ultrafast switching and efficient information processing. Transition metal complexes are promisin…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conditional Normalizing Flow for Gas-Surface Scattering from Thermal to Hypersonic Velocities",
-      "url": "https://arxiv.org/abs/2606.31928",
-      "summary": "arXiv:2606.31928v1 Announce Type: new Abstract: Accurate aerodynamic modeling of satellites in very low Earth orbit (VLEO) requires gas-surface interaction (GSI) models that capture the full velocity spectrum from therma…",
       "ts": 1782878400000
     }
   ],

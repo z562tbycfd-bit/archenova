@@ -1,7 +1,57 @@
 {
   "ok": true,
-  "updated": "2026-07-01T23:55:42.574Z",
+  "updated": "2026-07-02T00:45:00.657Z",
   "items": [
+    {
+      "id": "adaptive-capacity-sun-powered-sponges-may-generate-11-of-tropical-coral-reef-productivity",
+      "title": "Sun-powered sponges may generate 11% of tropical coral reef productivity",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-07-sun-powered-sponges-generate-tropical.html",
+      "category": "Adaptive Capacity",
+      "observation": "In marine environments, sponges tend to eat other organisms to get their nutrients. But a study published in Functional Ecology by researchers at the University of Amsterdam's Institute for Biodiversity and Ecosystem Dyn…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "Sun-powered sponges may generate 11% of tropical coral reef productivity should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+      "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+      "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+      "civilizationFunction": "Adaptive Capacity",
+      "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "ts": 1782952801000
+    },
+    {
+      "id": "adaptive-capacity-how-extreme-weather-impacts-white-stork-survival-in-bulgaria",
+      "title": "How extreme weather impacts white stork survival in Bulgaria",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-07-extreme-weather-impacts-white-stork.html",
+      "category": "Adaptive Capacity",
+      "observation": "A comprehensive 15-year study published in Biodiversity Data Journal details the growing threat of extreme weather to white storks (Ciconia ciconia) in Bulgaria. The research, which is part of the topical collection \"Res…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "How extreme weather impacts white stork survival in Bulgaria should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8,
+        "civilizationImpact": 6.5,
+        "overall": 6
+      },
+      "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+      "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+      "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+      "civilizationFunction": "Adaptive Capacity",
+      "watchpoint": "Watch whether this moves from observation into decision systems, infrastructure adaptation, governance response, and measurable resilience outcomes.",
+      "ts": 1782951601000
+    },
     {
       "id": "civilization-engineering-earliest-americans-specialized-in-megafauna-hunting-from-alaska-to-south-america",
       "title": "Earliest Americans specialized in megafauna hunting from Alaska to South America, analysis of 50 sites reveals",
@@ -526,56 +576,6 @@
       "civilizationFunction": "Adaptive Capacity",
       "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
       "ts": 1782938401000
-    },
-    {
-      "id": "civilization-engineering-scrolling-for-science-how-a-twitter-post-discovered-a-new-wasp-in-fukuoka-japan",
-      "title": "Scrolling for science: How a Twitter post discovered a new wasp in Fukuoka, Japan",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-07-scrolling-science-twitter-wasp-fukuoka.html",
-      "category": "Civilization Engineering",
-      "observation": "The next time you post a nature photo online, you might be contributing to a major scientific breakthrough—just as several citizen scientists did when they helped discover the wasp Eupelmus curvator in Japan.",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "Scrolling for science: How a Twitter post discovered a new wasp in Fukuoka, Japan should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1782937209000
-    },
-    {
-      "id": "civilization-engineering-england-breaks-record-for-warmest-june-met-office",
-      "title": "England breaks record for warmest June: Met Office",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-07-england-warmest-june-met-office.html",
-      "category": "Civilization Engineering",
-      "observation": "England chalked up its warmest June since records began in 1884, the United Kingdom's weather agency said Wednesday, after a month that saw temperatures soar to new highs.",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "England breaks record for warmest June: Met Office should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
-      "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
-      "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
-      "civilizationFunction": "Civilization Engineering",
-      "watchpoint": "Watch whether this moves from observation into decision systems, infrastructure adaptation, governance response, and measurable resilience outcomes.",
-      "ts": 1782937206000
     },
     {
       "id": "civilization-engineering-nasa-s-chandra-examines-milky-way-at-arms-length",
@@ -1803,6 +1803,31 @@
       "ts": 1782900000000
     },
     {
+      "id": "civilization-engineering-editorial-physical-review-x-at-fifteen",
+      "title": "Editorial: Physical Review X at Fifteen",
+      "source": "APS PRX",
+      "originalUrl": "http://link.aps.org/doi/10.1103/v8ky-vf6d",
+      "category": "Civilization Engineering",
+      "observation": "Author(s): Denis Bartolo and Brent Grocholski [Phys. Rev. X 16, 030001] Published Wed Jul 01, 2026",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Editorial: Physical Review X at Fifteen should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1782900000000
+    },
+    {
       "id": "civilization-engineering-opinion-what-ebola-and-marburg-are-teaching-us-about-the-next-pandemic",
       "title": "Opinion: What Ebola and Marburg are teaching us about the next pandemic",
       "source": "STAT",
@@ -2475,31 +2500,6 @@
       "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
       "civilizationFunction": "Capability Expansion",
       "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "ts": 1782878400000
-    },
-    {
-      "id": "civilization-engineering-distill-a-hybrid-cloud-hpc-workflow-system-for-reproducible-spatial-transcriptom",
-      "title": "DiSTILL: A Hybrid Cloud-HPC Workflow System for Reproducible Spatial Transcriptomics Analysis",
-      "source": "arXiv q-bio",
-      "originalUrl": "https://arxiv.org/abs/2606.30693",
-      "category": "Civilization Engineering",
-      "observation": "arXiv:2606.30693v1 Announce Type: new Abstract: Spatial transcriptomics workflows increasingly combine large annotated data objects, notebook-based analyses, and resource-intensive statistical models that must be execute…",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "DiSTILL: A Hybrid Cloud-HPC Workflow System for Reproducible Spatial Transcriptomics Analysis should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.6,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.6,
-        "overall": 6.5
-      },
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
       "ts": 1782878400000
     }
   ]
