@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-07-02T08:19:30.866Z",
+  "updated": "2026-07-02T11:36:11.113Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: More frequent, more intense, and longer heat waves pose health risks for Americans",
+      "url": "https://www.statnews.com/2026/07/02/health-news-frequent-intense-heat-waves-pose-health-risks-for-americans/?utm_campaign=rss",
+      "summary": "The presidential fitness test is back, surprising new data on the health risks of obesity, and more Morning Rounds news",
+      "ts": 1782991499000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Halfway into the year, biotech is booming",
+      "url": "https://www.statnews.com/2026/07/02/biotech-sector-booms-capricor-fda-meeting/?utm_campaign=rss",
+      "summary": "The biotech stock rally that began in April 2025 has not stopped, and if anything, has accelerated.",
+      "ts": 1782988200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Surface CubeSat contracted for Ramses asteroid mission",
+      "url": "https://www.esa.int/Space_Safety/Planetary_Defence/Surface_CubeSat_contracted_for_Ramses_asteroid_mission",
+      "summary": "The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid. Don Quijote is a shoebox-sized spacecraft that will be deployed onto the Apophis ast…",
+      "ts": 1782987360000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Final Atlas 5 Amazon Leo mission launches",
+      "url": "https://spacenews.com/final-atlas-5-amazon-leo-mission-launches/",
+      "summary": "An Atlas 5 lifted off July 2 carrying a set of Amazon Leo satellites in the final launch by that vehicle to carry a satellite payload. The post Final Atlas 5 Amazon Leo mission launches appeared first on SpaceNews.",
+      "ts": 1782986065000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Why California’s carbon manure math doesn’t add up",
+      "url": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
+      "summary": "Something stinks in California’s climate policies. Years ago, the state set up a system that pays cattle farmers across the country to turn the methane emitted from cattle manure into natural gas, encouraging the dairy s…",
+      "ts": 1782982800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A ‘historic’ FDA clearance raises the question: Is the LLM an interface or the decision-maker?",
+      "url": "https://www.statnews.com/2026/07/02/fda-clearance-raises-questions-updoc-use-generative-ai-diabetes-treatment/?utm_campaign=rss",
+      "summary": "The newly cleared device is based around an app that helps a patient manage their diabetes using a treatment plan defined by their doctor.",
+      "ts": 1782981000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "The new presidential fitness test is a positive step, not the solution, experts say",
+      "url": "https://www.statnews.com/2026/07/02/presidential-fitness-test-will-it-boost-physical-activity-youth/?utm_campaign=rss",
+      "summary": "Physical activity needs to be fun to keep kids engaged. And the test risks embarrassing them, instead.",
+      "ts": 1782981000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A year after distressed buyout, what’s become of Bluebird Bio?",
+      "url": "https://www.statnews.com/2026/07/02/genetix-david-meek-bluebird-bio-turnaround-effort/?utm_campaign=rss",
+      "summary": "Bluebird Bio was a dark biotech morality tale when David Meek bought it. He says the new company, Genetix, is already making money.",
+      "ts": 1782981000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A former AI regulator, now in industry, says biopharma is reading FDA’s guidance wrong",
+      "url": "https://www.statnews.com/2026/07/02/fda-ai-guidance-pharma-industry-caution-tala-fakhouri-explains/?utm_campaign=rss",
+      "summary": "Companies are being too conservative in how they interpret FDA's AI guidance, but the agency can do more to help, too, Tala Fakhouri says.",
+      "ts": 1782981000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: CDC leadership continues to try manufacture a scientific debate on vaccines where none exists",
+      "url": "https://www.statnews.com/2026/07/02/measuring-vaccine-effectiveness-test-negative-design-cdc/?utm_campaign=rss",
+      "summary": "CDC leadership continues to try manufacture a scientific debate on vaccines where none exists, writes Ben Lopman.",
+      "ts": 1782981000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Teens are turning to chatbots for mental health help. We need rules to keep them safe",
+      "url": "https://www.statnews.com/2026/07/02/teens-chatbots-mental-health-rules-bans/?utm_campaign=rss",
+      "summary": "The share of young people using AI chatbots for mental health advice rose more than 40% in a single year, researcher writes.",
+      "ts": 1782981000000,
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Authorisation paves the way for Aeolus-2 wind mission ",
@@ -185,6 +273,14 @@
       "summary": "A predawn Moon-and-planets meetup, a returning comet, a great chance to see the Milky Way, and Saturn’s rings at a new angle. Skywatching Highlights Transcript An early morning hangout with the Moon and planets, a comet …",
       "ts": 1782951742000,
       "categoryId": "space"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Critical surface strain regime for stable and active epitaxial platinum oxygen reduction electrocatalysts",
+      "url": "https://www.nature.com/articles/s41560-026-02108-4",
+      "summary": "",
+      "ts": 1782950400000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -623,102 +719,6 @@
       "title": "Nonlinear Feedbacks Between Host Behavior and Vector Adaptation in a Multi-Host Vector-Borne Disease Model",
       "url": "https://arxiv.org/abs/2606.31768",
       "summary": "arXiv:2606.31768v1 Announce Type: new Abstract: Insecticide-treated nets (ITN) are an effective and low-cost intervention for controlling vector-borne disease (VBD), however, their use depends on individual decisions bas…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Invasion with size-dependent dispersion range",
-      "url": "https://arxiv.org/abs/2606.31942",
-      "summary": "arXiv:2606.31942v1 Announce Type: new Abstract: The coalescing colony model provides a minimal framework for biological invasions with long-range dispersion. In its standard formulation, the dispersion range is assumed i…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stationary covariance spectra of discrete-time non-normal random recurrent dynamics",
-      "url": "https://arxiv.org/abs/2606.31944",
-      "summary": "arXiv:2606.31944v1 Announce Type: new Abstract: Principal component analysis is widely used to characterize structure in the dynamics of recurrent neural networks. For stationary noise-driven dynamics, the distribution o…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Emergent Culture in Minimal LLM Systems",
-      "url": "https://arxiv.org/abs/2606.30668",
-      "summary": "arXiv:2606.30668v1 Announce Type: cross Abstract: What happens when LLM agents operate with no context outside a turn, minimal prompting, and simple tools? Inspired by swarm engineering, we give collectives of three agen…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Listening Between the Lines: Joint Learning of ASR Embeddings and LLM-Augmented Linguistics for Dementia Detection",
-      "url": "https://arxiv.org/abs/2606.30675",
-      "summary": "arXiv:2606.30675v1 Announce Type: cross Abstract: Early detection of dementia through speech analysis offers a non-invasive screening alternative, but capturing both acoustic and linguistic biomarkers remains challenging…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Transferable Learned Temporal Prior for Transmission Reconstruction and Decision-Relevant Uncertainty in Real Outbreak Labels",
-      "url": "https://arxiv.org/abs/2606.30842",
-      "summary": "arXiv:2606.30842v1 Announce Type: cross Abstract: Outbreak transmission reconstruction treats epidemiological timing and transmission labels as deterministic ground truth; neither has been systematically evaluated. We tr…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?",
-      "url": "https://arxiv.org/abs/2606.31126",
-      "summary": "arXiv:2606.31126v1 Announce Type: cross Abstract: Predicting biomolecular properties from limited labeled data is a central bottleneck in protein engineering and small-molecule design. As strong pretrained encoders now s…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Resolving superposition in AI for interpretability and cross-modal alignment in patient-neuronal images",
-      "url": "https://arxiv.org/abs/2606.31394",
-      "summary": "arXiv:2606.31394v1 Announce Type: cross Abstract: Artificial intelligence is transforming our capability to solve biological challenges. In dimensionality bottleneck regimes exacerbated by high-dimensional biological dat…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Cooperation Ceiling: Extrinsic Population Dynamics and the Intrinsic Escape",
-      "url": "https://arxiv.org/abs/2606.31740",
-      "summary": "arXiv:2606.31740v1 Announce Type: cross Abstract: Evolutionary game theory provides a framework by which to study the emergence of cooperation in a population of self-interested actors. In such a framework, players' deci…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Triplication: an important component of the modern scientific method",
-      "url": "https://arxiv.org/abs/2201.10960",
-      "summary": "arXiv:2201.10960v5 Announce Type: replace Abstract: A scientific-study protocol (defined) is designed to deliver results from which inductive inference is allowed. In the nineteenth century, triplication was introduced i…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Human Ancestries Simulation and Inference: a Review of Ancestral Recombination Graph-Based Approaches",
-      "url": "https://arxiv.org/abs/2601.09634",
-      "summary": "arXiv:2601.09634v4 Announce Type: replace Abstract: There is little debate about the importance of the ancestral recombination graph in population genetics. An important theoretical tool, the main obstacle to its widespr…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Genealogical Expansions of Positive Fredholm Operators via a Reference-Point Method",
-      "url": "https://arxiv.org/abs/2602.03228",
-      "summary": "arXiv:2602.03228v5 Announce Type: replace Abstract: We study positive Fredholm integral operators that arise as next-generation operators in structured population models. The main problem is to represent the dominant eig…",
-      "ts": 1782878400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Comprehensive Inference-Time Augmentation Framework in Physiological Signals: Application to PPG-Based AF Detection",
-      "url": "https://arxiv.org/abs/2606.10410",
-      "summary": "arXiv:2606.10410v2 Announce Type: replace-cross Abstract: Objective: Accurate classification of physiological signals in real-world deployments is challenged by sensor noise, motion artifacts, and distribution shifts bet…",
       "ts": 1782878400000,
       "categoryId": "bio"
     }

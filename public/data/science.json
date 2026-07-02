@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-02T08:19:28.571Z",
+  "updated": "2026-07-02T11:36:08.861Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Temporary protective status workers play critical role in state economy, view US as home, research suggests",
+      "url": "https://phys.org/news/2026-07-temporary-status-workers-play-critical.html",
+      "summary": "Immigrant workers protected by a key humanitarian status make significant contributions to New York state's economy and communities, according to new Cornell University research.",
+      "ts": 1782990005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New biosensor reveals rare lipid gathers in membrane hotspots during cell stress",
+      "url": "https://phys.org/news/2026-06-biosensor-reveals-rare-lipid-membrane.html",
+      "summary": "Inside every cell are lipid molecules that make up cellular membranes, helping organelles communicate and respond to stress. Researchers have struggled to observe lipids in action because current detection tools lack suf…",
+      "ts": 1782982804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Gus' the T. rex presented in New York ahead of auction",
+      "url": "https://phys.org/news/2026-07-gus-rex-york-auction.html",
+      "summary": "One of the world's most complete Tyrannosaurus rex skeletons, nicknamed \"Gus,\" was showcased Wednesday at Sotheby's auction house in New York ahead of its sale later this month.",
+      "ts": 1782981602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sightings of humpback whales surge in Rio de Janeiro, fueling demand for whale-watching trips",
+      "url": "https://phys.org/news/2026-07-sightings-humpback-whales-surge-rio.html",
+      "summary": "Sightings of humpback whales off Rio de Janeiro's coast are surging as they recover from decimation due to commercial whaling, prompting an acceleration in the demand for whale-watching excursions to spot the huge marine…",
+      "ts": 1782980652000
+    },
     {
       "source": "Phys.org",
       "title": "Beyond the dust: Families describe daily health challenges near the Salton Sea",
@@ -672,34 +700,6 @@
       "title": "Equilateral triangular waveguides, modal structure, attenuation characteristics and quality factor",
       "url": "https://arxiv.org/abs/2510.03976",
       "summary": "arXiv:2510.03976v2 Announce Type: replace Abstract: Equilateral triangular waveguides are one of the very few special kind of waveguides, whose field solutions can be constructed without necessarily solving the Maxwell's…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear evolution of perturbatively driven kinetic instabilities far from marginal stability",
-      "url": "https://arxiv.org/abs/2510.08735",
-      "summary": "arXiv:2510.08735v2 Announce Type: replace Abstract: Kinetic instabilities develop when a system's distribution function deviates from thermal equilibrium in such a way that allows free energy from that distribution to dr…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Performance of FBK VUV-HD3 and HPK VUV4 SiPMs in the Light-only Liquid Xenon (LoLX) Detector",
-      "url": "https://arxiv.org/abs/2510.15270",
-      "summary": "arXiv:2510.15270v4 Announce Type: replace Abstract: Silicon Photomultipliers (SiPMs) are a critical technology for the next generation of rare-event search experiments using liquid xenon (LXe). LXe scintillation is emitt…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "TRIDS: AI-native molecular docking framework for accelerating high-throughput virtual screening with physically valid binding poses",
-      "url": "https://arxiv.org/abs/2510.24186",
-      "summary": "arXiv:2510.24186v2 Announce Type: replace Abstract: Molecular docking is a cornerstone of drug discovery for unveiling the mechanism of ligand-receptor interactions. With the recent advances of deep learning (DL), AI-pow…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatio-temporal equilibrium thermodynamics of guided optical waves at positive and negative temperatures",
-      "url": "https://arxiv.org/abs/2512.07784",
-      "summary": "arXiv:2512.07784v2 Announce Type: replace Abstract: Optical thermalization has been recently studied in the 2D spatial evolution of (quasi-)monochromatic light waves propagating in multimode waveguides. Here, we investig…",
       "ts": 1782964800000
     }
   ],
