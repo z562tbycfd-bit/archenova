@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-02T14:07:35.387Z",
+  "updated": "2026-07-02T16:38:13.191Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: What does DeGette’s loss mean for pharma?",
+      "url": "https://www.statnews.com/2026/07/02/degette-loses-to-kiros-pharma-presidential-fitness-test-dc-diagnosis/?utm_campaign=rss",
+      "summary": "Colorado Democratic Rep. Diana DeGette, who lost her primary, was knowledgeable about biopharma, if not always a friend to the industry.",
+      "ts": 1783008588000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Achieving operational excellence with AI",
+      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasi…",
+      "ts": 1783006628000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Good Morning, Earth!",
+      "url": "https://www.nasa.gov/image-article/good-morning-earth/",
+      "summary": "NASA astronaut Chris Williams took this photo of an orbital sunrise from the International Space Station on June 26, 2026. In 24 hours, the space station makes 16 orbits of Earth, traveling through 16 sunrises and sunset…",
+      "ts": 1783003284000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Roche drug sets new standard for KRAS-driven lung cancer ",
+      "url": "https://www.statnews.com/2026/07/02/biotech-news-roche-drug-sets-new-standard-for-kras-driven-lung-cancer/?utm_campaign=rss",
+      "summary": "Biotech's bull market, Vertex's gene therapy expansion, and more news from The Readout",
+      "ts": 1783001607000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Reveals Stars Sparking to Life in Cosmic Celebration",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-stars-sparking-to-life-in-cosmic-celebration/",
+      "summary": "NASA’s James Webb Space Telescope has captured the infrared light of numerous features that previously were impossible to see beyond the thick dust of the FS Tau star system. In addition to myriad background galaxies tha…",
+      "ts": 1783000800000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Making satellite communications more resilient",
@@ -43,6 +83,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "IAEA News",
+      "title": "Update 356 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-356-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1782996391000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "The Download: a startup has a solution for AI’s groupthink problem",
       "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
@@ -57,6 +105,22 @@
       "summary": "FO utilizes an osmotic pressure difference across a membrane to remove water from liquids, achieving highly concentrated API solutions under mild conditions. MD leverages a vapor pressure difference across a membrane. Th…",
       "ts": 1782993633000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Emergency meeting on Iranian attack in Bahrain",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167860",
+      "summary": "The 15-member Security Council is meeting in emergency session on Thursday morning to address the escalating tensions in the Gulf region following Iran attacks in recent days on Bahrain and Kuwait while Tehran and Washin…",
+      "ts": 1782993600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: Rescuers work to save trapped residents after wave of Russian attacks",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167858",
+      "summary": "Aid agencies in Ukraine on Thursday rushed to respond to a massive uptick in deadly strikes by Russia, including one of the largest attacks on Kyiv to date.",
+      "ts": 1782993600000,
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -132,7 +196,7 @@
     },
     {
       "source": "STAT",
-      "title": "Opinion: CDC leadership continues to try manufacture a scientific debate on vaccines where none exists",
+      "title": "Opinion: CDC leadership continues to try to manufacture a scientific debate on vaccines where none exists",
       "url": "https://www.statnews.com/2026/07/02/measuring-vaccine-effectiveness-test-negative-design-cdc/?utm_campaign=rss",
       "summary": "CDC leadership continues to try manufacture a scientific debate on vaccines where none exists, writes Ben Lopman.",
       "ts": 1782981000000,
@@ -657,70 +721,6 @@
       "summary": "A month after a devastating pad explosion, Blue Origin reiterated plans to return its New Glenn vehicle to flight from a rebuilt launch pad by the end of the year. The post Blue Origin outlines new launch pad approach as…",
       "ts": 1782904575000,
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The SpaceX IPO tells one story. Here is the more important one.",
-      "url": "https://spacenews.com/the-spacex-ipo-tells-one-story-here-is-the-more-important-one/",
-      "summary": "When SpaceX publicly listed, the coverage focused on the rockets, the valuation, and the personalities. That’s understandable. But the more important story is what the IPO signals about where the […] The post The SpaceX …",
-      "ts": 1782903600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: What Ebola and Marburg are teaching us about the next pandemic",
-      "url": "https://www.statnews.com/2026/07/01/ebola-virus-outbreak-bundibugyo-marburg-testing-krutika-kuppalli/?utm_campaign=rss",
-      "summary": "“What is urgently needed is a shift from pathogen-specific diagnostics toward pathogen-agnostic diagnostic systems,” write Krutika Kuppalli and Placide Mbala.",
-      "ts": 1782894600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Maryland Gov. Wes Moore: How to improve young men’s mental health",
-      "url": "https://www.statnews.com/2026/07/01/young-men-mental-health-loneliness-despair-maryland-wes-moore/?utm_campaign=rss",
-      "summary": "“We need to stop treating our young men and boys as problems to be solved, and start treating them as people to be invested in,” writes Gov. Wes Moore.",
-      "ts": 1782894600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The biotech scorecard for the third quarter: 15 stock-moving events to watch",
-      "url": "https://www.statnews.com/2026/07/01/q3-biotech-scorecard-readouts-approval-decisions/?utm_campaign=rss",
-      "summary": "Here is STAT’s biotech scorecard, our regular ledger of stock-moving biotech events, for the third quarter.",
-      "ts": 1782894600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Booze schmooze: The alcohol industry, frazzled by headwinds, wields its power behind the scenes",
-      "url": "https://www.statnews.com/2026/07/01/alcohol-lobby-immense-power-explored-deadliest-drug-part-7/?utm_campaign=rss",
-      "summary": "Demand for alcohol is declining. The industry is fighting harder and more creatively than ever against limits — and winning.",
-      "ts": 1782894600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Thousands of planets are hidden in this photo",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Thousands_of_planets_are_hidden_in_this_photo",
-      "summary": "Video: 00:10:45 Millions of stars. Thousands of hidden worlds. One unprecedented view of our galaxy. Three years since launch, ESA’s Euclid space telescope reveals the Milky Way galaxy’s centre in extraordinary detail: a…",
-      "ts": 1782892800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "The space under ",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_space_under",
-      "summary": "Five explorers from three space agencies have successfully completed ESA’s CAVES training course in Italy.",
-      "ts": 1782889200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pattern formation in a Reaction-Diffusion Model for Amyloid-$\\beta$ and Tau Interactions in Alzheimer's Disease",
-      "url": "https://arxiv.org/abs/2606.30681",
-      "summary": "arXiv:2606.30681v1 Announce Type: new Abstract: Alzheimer's disease (AD) is characterized by the accumulation of Amyloid-$\\beta$ ($A\\beta$) plaques and hyperphosphorylated Tau proteins. However, many individuals exhibit …",
-      "ts": 1782878400000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
