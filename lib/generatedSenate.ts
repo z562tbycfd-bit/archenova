@@ -123,21 +123,6 @@ export const senateAgenda =
   {
     "id": "agenda-9",
     "rank": 9,
-    "title": "Pattern formation in a Reaction-Diffusion Model for Amyloid-$\\beta$ and Tau Interactions in Alzheimer's Disease",
-    "slug": "energy-pattern-formation-in-a-reaction-diffusion-model-for-amyloid-beta-and-tau-interac",
-    "category": "Energy",
-    "source": "arXiv q-bio",
-    "score": 9.5,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-10",
-    "rank": 10,
     "title": "FCC to vote on satellite licensing overhaul July 22",
     "slug": "space-fcc-to-vote-on-satellite-licensing-overhaul-july-22",
     "category": "Space",
@@ -151,8 +136,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-10",
+    "rank": 10,
     "title": "Report links Starliner problems to overconfidence and unrealistic schedules",
     "slug": "space-report-links-starliner-problems-to-overconfidence-and-unrealistic-schedules",
     "category": "Space",
@@ -166,10 +151,25 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-12",
-    "rank": 12,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "NASA’s Chandra Examines Milky Way at Arms’ Length",
     "slug": "space-nasa-s-chandra-examines-milky-way-at-arms-length",
+    "category": "Space",
+    "source": "NASA",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Orbital Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-12",
+    "rank": 12,
+    "title": "NASA Seeks Volunteers for New Yearlong Simulated Moon, Mars Mission",
+    "slug": "space-nasa-seeks-volunteers-for-new-yearlong-simulated-moon-mars-mission",
     "category": "Space",
     "source": "NASA",
     "score": 9.3,

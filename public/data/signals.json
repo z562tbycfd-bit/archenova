@@ -1,7 +1,32 @@
 {
   "ok": true,
-  "updated": "2026-07-02T00:59:13.675Z",
+  "updated": "2026-07-02T01:31:45.670Z",
   "items": [
+    {
+      "id": "civilization-engineering-huge-specially-designed-heat-pump-saves-a-norwegian-agricultural-cooperative-mil",
+      "title": "Huge, specially designed heat pump saves a Norwegian agricultural cooperative millions",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-07-huge-specially-norwegian-agricultural-cooperative.html",
+      "category": "Civilization Engineering",
+      "observation": "There are some magical limits to how much energy we can get out of a heat pump. This story is about pushing the technical limits. It is about getting more energy out than you put in. And it's about how SINTEF—one of Euro…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Huge, specially designed heat pump saves a Norwegian agricultural cooperative millions should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1782954001000
+    },
     {
       "id": "adaptive-capacity-sun-powered-sponges-may-generate-11-of-tropical-coral-reef-productivity",
       "title": "Sun-powered sponges may generate 11% of tropical coral reef productivity",
@@ -51,6 +76,31 @@
       "civilizationFunction": "Adaptive Capacity",
       "watchpoint": "Watch whether this moves from observation into decision systems, infrastructure adaptation, governance response, and measurable resilience outcomes.",
       "ts": 1782951601000
+    },
+    {
+      "id": "adaptive-capacity-intracellular-assembly-of-artificial-enzymes-for-cytoplasmic-enantioselective-ma",
+      "title": "Intracellular assembly of artificial enzymes for cytoplasmic enantioselective Mannich reactions",
+      "source": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-75059-9",
+      "category": "Adaptive Capacity",
+      "observation": "Intracellular assembly of artificial enzymes for cytoplasmic enantioselective Mannich reactions",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "Intracellular assembly of artificial enzymes for cytoplasmic enantioselective Mannich reactions should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Adaptive Capacity",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1782950400000
     },
     {
       "id": "civilization-engineering-earliest-americans-specialized-in-megafauna-hunting-from-alaska-to-south-america",
@@ -551,31 +601,6 @@
       "civilizationFunction": "Adaptive Capacity",
       "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
       "ts": 1782938402000
-    },
-    {
-      "id": "adaptive-capacity-residential-environment-linked-to-subjective-well-being-through-life-domain-sati",
-      "title": "Residential environment linked to subjective well-being through life-domain satisfaction",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-07-residential-environment-linked-subjective-life.html",
-      "category": "Adaptive Capacity",
-      "observation": "Well-being is increasingly regarded as an important indicator of societal progress, extending beyond economic growth to capture how people experience and evaluate their lives. It is also closely connected to health, long…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Residential environment linked to subjective well-being through life-domain satisfaction should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-      "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-      "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-      "civilizationFunction": "Adaptive Capacity",
-      "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "ts": 1782938401000
     },
     {
       "id": "civilization-engineering-nasa-s-chandra-examines-milky-way-at-arms-length",
@@ -2475,31 +2500,6 @@
       "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
       "civilizationFunction": "Reality Discovery",
       "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1782878400000
-    },
-    {
-      "id": "capability-expansion-pattern-formation-in-a-reaction-diffusion-model-for-amyloid-beta-and-tau-interac",
-      "title": "Pattern formation in a Reaction-Diffusion Model for Amyloid-$\\beta$ and Tau Interactions in Alzheimer's Disease",
-      "source": "arXiv q-bio",
-      "originalUrl": "https://arxiv.org/abs/2606.30681",
-      "category": "Capability Expansion",
-      "observation": "arXiv:2606.30681v1 Announce Type: new Abstract: Alzheimer's disease (AD) is characterized by the accumulation of Amyloid-$\\beta$ ($A\\beta$) plaques and hyperphosphorylated Tau proteins. However, many individuals exhibit …",
-      "implication": "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "commentary": "Pattern formation in a Reaction-Diffusion Model for Amyloid-$\\beta$ and Tau Interactions in Alzheimer's Disease should not be interpreted only as a news item. From the ArcheNova perspective, it is a Capability Expansion signal: This signal may strengthen the conversion of knowledge into reproducible technical capability.",
-      "score": {
-        "realityDiscovery": 5.9,
-        "capabilityExpansion": 8.7,
-        "infrastructureImpact": 6.8,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 6.4,
-        "civilizationImpact": 6.2,
-        "overall": 6.6
-      },
-      "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-      "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-      "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-      "civilizationFunction": "Capability Expansion",
-      "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
       "ts": 1782878400000
     }
   ]

@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-02T00:59:07.631Z",
+  "updated": "2026-07-02T01:31:36.912Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Huge, specially designed heat pump saves a Norwegian agricultural cooperative millions",
+      "url": "https://phys.org/news/2026-07-huge-specially-norwegian-agricultural-cooperative.html",
+      "summary": "There are some magical limits to how much energy we can get out of a heat pump. This story is about pushing the technical limits. It is about getting more energy out than you put in. And it's about how SINTEF—one of Euro…",
+      "ts": 1782954001000
+    },
     {
       "source": "Phys.org",
       "title": "Sun-powered sponges may generate 11% of tropical coral reef productivity",
@@ -15,6 +22,13 @@
       "url": "https://phys.org/news/2026-07-extreme-weather-impacts-white-stork.html",
       "summary": "A comprehensive 15-year study published in Biodiversity Data Journal details the growing threat of extreme weather to white storks (Ciconia ciconia) in Bulgaria. The research, which is part of the topical collection \"Res…",
       "ts": 1782951601000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Intracellular assembly of artificial enzymes for cytoplasmic enantioselective Mannich reactions",
+      "url": "https://www.nature.com/articles/s41467-026-75059-9",
+      "summary": "",
+      "ts": 1782950400000
     },
     {
       "source": "Phys.org",
@@ -686,20 +700,6 @@
       "title": "Information-Epidemic Dynamics in Cyber-Physical Systems: A Hypergraph Framework with Interpersonal Relationships",
       "url": "https://arxiv.org/abs/2606.31782",
       "summary": "arXiv:2606.31782v1 Announce Type: new Abstract: Understanding how information propagation affects epidemic dynamics has become an emerging topic of interest. However, the influence of interpersonal relationship heterogen…",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma double layer development during high power EUV exposure",
-      "url": "https://arxiv.org/abs/2606.31797",
-      "summary": "arXiv:2606.31797v1 Announce Type: new Abstract: The development of electrostatic plasma double layer (DL) at the boundary of Extreme Ultra Violet (EUV) exposed and un-exposed region in the bulk volume has been confirmed …",
-      "ts": 1782878400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Feedback dynamics in matching networks drive behavioral differentiation despite overlapping objectives",
-      "url": "https://arxiv.org/abs/2606.31802",
-      "summary": "arXiv:2606.31802v1 Announce Type: new Abstract: Many bipartite social networks exhibit pronounced asymmetries in selectivity and matching opportunities: members of one side can afford to be highly selective, while member…",
       "ts": 1782878400000
     }
   ],

@@ -250,44 +250,45 @@ export default function SenatePage() {
         </Reveal>
       </section>
 
-      <section className="glass-block">
- <Reveal>
-   <span className="home-section-label">SENATE AGENDA ENGINE</span>
+      <section className="glass-block senate-agenda-engine-block">
+  <Reveal>
+    <span className="home-section-label">SENATE AGENDA ENGINE</span>
 
-   <h2>Reports become deliberation agenda.</h2>
+    <h2>Reports become deliberation agenda.</h2>
 
-   <div className="research-report-grid">
-     {generatedAgenda.map((item) => (
-       <article>
-         key={item.id}
-         className="research-report-card senate-agenda-card"
+    <div className="senate-agenda-engine-grid">
+      {generatedAgenda.map((item) => (
+        <article
+          key={item.id}
+          className="senate-agenda-engine-card"
+        >
+          <div className="senate-agenda-engine-meta">
+            Rank {item.rank} · {item.category} · Score {item.score}/10 ·{" "}
+            {item.priority}
+          </div>
 
-         <div className="feed-source">
-           Rank {item.rank} · {item.category} · Score {item.score}/10 ·{" "}
-           {item.priority}
-         </div>
+          <h3>{item.title}</h3>
 
-         <h3>{item.title}</h3>
+          <p className="senate-agenda-question">{item.question}</p>
 
-         <p>{item.question}</p>
+          <div className="senate-agenda-detail">
+            <strong>Rationale</strong>
+            <p>{item.rationale}</p>
+          </div>
 
-         <div className="senate-opinion-block">
-           <strong>Rationale</strong>
-           <p>{item.rationale}</p>
-         </div>
+          <div className="senate-agenda-detail">
+            <strong>Constitutional Concern</strong>
+            <p>{item.constitutionalConcern}</p>
+          </div>
 
-         <div className="senate-opinion-block">
-           <strong>Constitutional Concern</strong>
-           <p>{item.constitutionalConcern}</p>
-         </div>
-
-         <div className="plaza-hint">
-           Action: {item.action} · {item.recommendedPath}
-         </div>
-       </article>
-     ))}
-   </div>
- </Reveal>
+          <div className="senate-agenda-action">
+            <span>{item.action}</span>
+            <p>{item.recommendedPath}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </Reveal>
 </section>
 
       <section className="glass-block">
