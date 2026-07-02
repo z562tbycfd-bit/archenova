@@ -21346,3 +21346,65 @@ transform:none;
     line-height: 1.55 !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Mobile Only — Senate Agenda Engine / Program Agenda Overlap Fix
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .senate-page .senate-agenda-engine-block {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    display: block !important;
+    padding-bottom: 4.5rem !important;
+    margin-bottom: 5.5rem !important;
+  }
+
+  .senate-page .senate-agenda-engine-block > * {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .senate-page .senate-agenda-engine-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.6rem !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .senate-page .senate-agenda-engine-card {
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 1.15rem !important;
+    margin: 0 0 1.4rem !important;
+    box-sizing: border-box !important;
+  }
+
+  .senate-page .senate-agenda-engine-block + .glass-block {
+    margin-top: 6rem !important;
+    clear: both !important;
+  }
+}
