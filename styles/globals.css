@@ -21495,3 +21495,1385 @@ transform:none;
     scrollbar-width: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Senate Entrance Hall
+========================================================== */
+
+.senate-entrance{
+
+min-height:92vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.senate-entrance::before{
+
+content:"";
+
+position:absolute;
+
+width:900px;
+
+height:900px;
+
+border-radius:50%;
+
+left:50%;
+
+top:42%;
+
+transform:translate(-50%,-50%);
+
+background:
+
+radial-gradient(
+
+circle,
+
+rgba(255,220,150,.09),
+
+transparent 70%
+
+);
+
+pointer-events:none;
+
+}
+
+.senate-entrance-seal{
+
+display:flex;
+
+justify-content:center;
+
+margin-bottom:2.8rem;
+
+}
+
+.senate-entrance-ring{
+
+width:170px;
+
+height:170px;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+border:
+
+1px solid rgba(255,225,170,.18);
+
+box-shadow:
+
+0 0 70px rgba(255,220,150,.18);
+
+background:
+
+rgba(255,255,255,.02);
+
+}
+
+.senate-entrance-core{
+
+font-size:3.2rem;
+
+color:#f4ddb2;
+
+text-shadow:
+
+0 0 28px rgba(255,225,170,.6);
+
+}
+
+.senate-entrance h1{
+
+font-size:.82rem;
+
+letter-spacing:.36em;
+
+text-transform:uppercase;
+
+opacity:.72;
+
+margin-bottom:.9rem;
+
+}
+
+.senate-entrance-title{
+
+font-size:clamp(4rem,7vw,7rem);
+
+line-height:.9;
+
+font-weight:250;
+
+letter-spacing:-.06em;
+
+margin-bottom:2rem;
+
+}
+
+.senate-entrance-statement{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:1.4rem;
+
+margin:3rem auto;
+
+max-width:920px;
+
+}
+
+.senate-entrance-statement div{
+
+padding:1.4rem;
+
+border-radius:22px;
+
+background:
+
+rgba(255,255,255,.035);
+
+border:
+
+1px solid rgba(255,255,255,.08);
+
+backdrop-filter:blur(18px);
+
+}
+
+.senate-entrance-statement span{
+
+display:block;
+
+font-size:.72rem;
+
+letter-spacing:.18em;
+
+color:
+
+rgba(255,220,150,.7);
+
+margin-bottom:.5rem;
+
+}
+
+.senate-entrance-statement strong{
+
+font-size:1rem;
+
+font-weight:500;
+
+}
+
+@media(max-width:768px){
+
+.senate-entrance{
+
+padding-top:6rem;
+
+padding-bottom:4rem;
+
+min-height:auto;
+
+}
+
+.senate-entrance-ring{
+
+width:120px;
+
+height:120px;
+
+}
+
+.senate-entrance-core{
+
+font-size:2.2rem;
+
+}
+
+.senate-entrance-title{
+
+font-size:3rem;
+
+}
+
+.senate-entrance-statement{
+
+grid-template-columns:1fr;
+
+gap:.9rem;
+
+}
+
+}
+
+
+
+
+/* ==========================================================
+   Current Deliberation Chamber
+========================================================== */
+
+.senate-current-deliberation{
+
+margin-top:5rem;
+
+}
+
+.senate-current-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,minmax(0,1fr));
+
+gap:1.5rem;
+
+margin-top:3rem;
+
+}
+
+.senate-current-card{
+
+position:relative;
+
+padding:2rem;
+
+border-radius:28px;
+
+overflow:hidden;
+
+background:
+
+linear-gradient(
+180deg,
+rgba(255,255,255,.06),
+rgba(255,255,255,.025)
+);
+
+border:
+
+1px solid rgba(255,220,160,.16);
+
+transition:.35s;
+
+}
+
+.senate-current-card:hover{
+
+transform:
+
+translateY(-6px);
+
+border-color:
+
+rgba(255,220,160,.34);
+
+box-shadow:
+
+0 0 50px rgba(255,220,150,.14);
+
+}
+
+.senate-current-rank{
+
+position:absolute;
+
+top:1.2rem;
+
+right:1.4rem;
+
+font-size:2.6rem;
+
+font-weight:200;
+
+color:
+
+rgba(255,220,160,.18);
+
+}
+
+.senate-current-card h3{
+
+margin:
+
+1rem 0;
+
+font-size:1.6rem;
+
+line-height:1.15;
+
+}
+
+.senate-current-question{
+
+margin-top:1rem;
+
+line-height:1.7;
+
+color:
+
+rgba(255,255,255,.72);
+
+}
+
+.senate-current-status{
+
+margin-top:2rem;
+
+padding:.7rem 1rem;
+
+border-radius:999px;
+
+display:inline-flex;
+
+background:
+
+rgba(255,220,150,.08);
+
+border:
+
+1px solid rgba(255,220,150,.18);
+
+font-size:.72rem;
+
+letter-spacing:.16em;
+
+text-transform:uppercase;
+
+color:
+
+rgba(255,220,150,.9);
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media(max-width:768px){
+
+.senate-current-grid{
+
+grid-template-columns:1fr;
+
+gap:1rem;
+
+}
+
+.senate-current-card{
+
+padding:1.25rem;
+
+}
+
+.senate-current-rank{
+
+font-size:2rem;
+
+top:.9rem;
+
+right:1rem;
+
+}
+
+.senate-current-card h3{
+
+font-size:1.2rem;
+
+}
+
+.senate-current-question{
+
+font-size:.84rem;
+
+line-height:1.6;
+
+}
+
+}
+
+
+
+
+
+/* ==========================================================
+   Senate Great Chamber
+========================================================== */
+
+.senate-great-chamber-block {
+  position: relative;
+  overflow: hidden;
+}
+
+.senate-great-chamber {
+  position: relative;
+  width: min(980px, 100%);
+  height: 760px;
+  margin: 4rem auto 1rem;
+}
+
+.senate-great-chamber::before {
+  content: "";
+  position: absolute;
+  inset: 8%;
+  border-radius: 999px;
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 224, 170, 0.10),
+      rgba(120, 180, 255, 0.045) 42%,
+      transparent 72%
+    );
+  filter: blur(28px);
+  pointer-events: none;
+}
+
+.senate-great-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 224, 170, 0.12);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.senate-great-orbit-1 {
+  width: 360px;
+  height: 360px;
+}
+
+.senate-great-orbit-2 {
+  width: 540px;
+  height: 540px;
+  border-color: rgba(120, 180, 255, 0.10);
+}
+
+.senate-great-orbit-3 {
+  width: 720px;
+  height: 720px;
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.senate-great-table {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 320px;
+  height: 320px;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 224, 170, 0.24);
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 224, 170, 0.12),
+      rgba(255, 255, 255, 0.035) 58%,
+      transparent 78%
+    );
+  box-shadow:
+    0 0 80px rgba(255, 224, 170, 0.14),
+    inset 0 0 80px rgba(255, 255, 255, 0.025);
+}
+
+.senate-great-table-inner {
+  width: 210px;
+  height: 210px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 1.2rem;
+  border: 1px solid rgba(255, 224, 170, 0.2);
+  background: rgba(5, 8, 18, 0.82);
+  backdrop-filter: blur(18px);
+}
+
+.senate-great-symbol {
+  font-size: 2.4rem;
+  color: rgba(255, 224, 170, 0.95);
+  text-shadow: 0 0 26px rgba(255, 224, 170, 0.55);
+  margin-bottom: 0.7rem;
+}
+
+.senate-great-table-inner strong {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.1;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.senate-great-table-inner p {
+  margin: 0.7rem 0 0;
+  max-width: 160px;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.senate-great-node {
+  position: absolute;
+  width: 132px;
+  height: 132px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 0 38px rgba(120, 180, 255, 0.045);
+}
+
+.senate-great-node span {
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.senate-great-node-north {
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.senate-great-node-west {
+  left: 5%;
+  top: 30%;
+}
+
+.senate-great-node-east {
+  right: 5%;
+  top: 30%;
+}
+
+.senate-great-node-southwest {
+  left: 17%;
+  bottom: 14%;
+}
+
+.senate-great-node-southeast {
+  right: 17%;
+  bottom: 14%;
+}
+
+.senate-great-node-south {
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.senate-great-node-court {
+  right: 12%;
+  top: 6%;
+  border-color: rgba(255, 224, 170, 0.16);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .senate-great-chamber {
+    height: auto;
+    margin-top: 2.4rem;
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .senate-great-chamber::before,
+  .senate-great-orbit {
+    display: none;
+  }
+
+  .senate-great-table {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    width: 240px;
+    height: 240px;
+    margin: 0 auto 1rem;
+    order: -1;
+  }
+
+  .senate-great-table-inner {
+    width: 160px;
+    height: 160px;
+  }
+
+  .senate-great-symbol {
+    font-size: 1.8rem;
+  }
+
+  .senate-great-table-inner strong {
+    font-size: 1rem;
+  }
+
+  .senate-great-node {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    transform: none;
+    width: 100%;
+    height: auto;
+    min-height: 58px;
+    border-radius: 18px;
+  }
+
+  .senate-great-node span {
+    font-size: 0.72rem;
+  }
+}
+
+
+
+/* ==========================================================
+   Senate Evidence Wall
+========================================================== */
+
+.senate-evidence-wall-block {
+  position: relative;
+  overflow: hidden;
+}
+
+.senate-evidence-wall {
+  display: grid;
+  grid-template-columns: 0.9fr 1.2fr 0.9fr;
+  gap: 1.2rem;
+  margin-top: 3rem;
+}
+
+.senate-evidence-column {
+  display: grid;
+  gap: 0.9rem;
+  align-content: start;
+  padding: 1rem;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.045),
+      rgba(255, 255, 255, 0.018)
+    );
+}
+
+.senate-evidence-column-main {
+  border-color: rgba(255, 224, 170, 0.16);
+  box-shadow: 0 0 48px rgba(255, 224, 170, 0.06);
+}
+
+.senate-evidence-column-head {
+  padding: 0.7rem 0.8rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.senate-evidence-column-head span {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  color: rgba(255, 224, 170, 0.7);
+}
+
+.senate-evidence-column-head strong {
+  display: block;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.senate-evidence-item {
+  display: block;
+  padding: 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.085);
+  background: rgba(255, 255, 255, 0.035);
+  transition: 0.3s ease;
+}
+
+.senate-evidence-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 224, 170, 0.22);
+  box-shadow: 0 0 34px rgba(255, 224, 170, 0.08);
+}
+
+.senate-evidence-item span {
+  display: block;
+  margin-bottom: 0.55rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  color: rgba(255, 224, 170, 0.68);
+  text-transform: uppercase;
+}
+
+.senate-evidence-item strong {
+  display: block;
+  font-size: 0.98rem;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.senate-evidence-item p {
+  margin: 0.55rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.58);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .senate-evidence-wall {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .senate-evidence-column {
+    padding: 0.85rem;
+    border-radius: 22px;
+  }
+
+  .senate-evidence-column-head {
+    padding: 0.6rem 0.65rem 0.85rem;
+  }
+
+  .senate-evidence-column-head strong {
+    font-size: 1.05rem;
+  }
+
+  .senate-evidence-item {
+    padding: 0.9rem;
+    border-radius: 18px;
+  }
+
+  .senate-evidence-item strong {
+    font-size: 0.92rem;
+  }
+
+  .senate-evidence-item p {
+    font-size: 0.78rem;
+  }
+}
+
+
+
+
+
+
+/* ==========================================================
+   Institution Debate
+========================================================== */
+
+.senate-debate-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(2,minmax(0,1fr));
+
+gap:1.8rem;
+
+margin-top:3rem;
+
+}
+
+
+.senate-debate-card{
+
+padding:2rem;
+
+border-radius:28px;
+
+background:
+
+linear-gradient(
+
+180deg,
+
+rgba(255,255,255,.055),
+
+rgba(255,255,255,.025)
+
+);
+
+border:
+
+1px solid rgba(255,225,170,.14);
+
+box-shadow:
+
+0 0 50px rgba(255,225,170,.05);
+
+}
+
+
+.senate-debate-header{
+
+display:flex;
+
+justify-content:space-between;
+
+margin-bottom:1.4rem;
+
+font-size:.72rem;
+
+letter-spacing:.16em;
+
+text-transform:uppercase;
+
+color:
+
+rgba(255,225,170,.7);
+
+}
+
+
+.senate-debate-card h3{
+
+margin-bottom:1.6rem;
+
+font-size:
+
+clamp(1.6rem,2.2vw,2.4rem);
+
+line-height:1.15;
+
+}
+
+
+.senate-debate-opinion{
+
+display:flex;
+
+gap:1rem;
+
+margin-bottom:1.3rem;
+
+padding-bottom:1.3rem;
+
+border-bottom:
+
+1px solid rgba(255,255,255,.07);
+
+}
+
+
+.senate-role{
+
+width:110px;
+
+flex-shrink:0;
+
+font-size:.72rem;
+
+letter-spacing:.12em;
+
+text-transform:uppercase;
+
+color:
+
+rgba(255,225,170,.88);
+
+}
+
+
+.senate-role-body strong{
+
+display:block;
+
+margin-bottom:.45rem;
+
+font-size:.95rem;
+
+color:white;
+
+}
+
+
+.senate-role-body p{
+
+margin:0;
+
+line-height:1.65;
+
+color:
+
+rgba(255,255,255,.64);
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.senate-debate-grid{
+
+grid-template-columns:1fr;
+
+gap:1rem;
+
+}
+
+.senate-debate-card{
+
+padding:1.2rem;
+
+border-radius:22px;
+
+}
+
+.senate-debate-opinion{
+
+display:block;
+
+}
+
+.senate-role{
+
+width:auto;
+
+margin-bottom:.5rem;
+
+}
+
+.senate-role-body strong{
+
+font-size:.9rem;
+
+}
+
+.senate-role-body p{
+
+font-size:.82rem;
+
+}
+
+}
+
+
+
+
+
+/* ==========================================================
+   Senate Consensus
+========================================================== */
+
+.senate-consensus-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(2,minmax(0,1fr));
+
+gap:1.6rem;
+
+margin-top:3rem;
+
+}
+
+.senate-consensus-card{
+
+padding:2rem;
+
+border-radius:30px;
+
+background:
+
+linear-gradient(
+180deg,
+rgba(255,255,255,.055),
+rgba(255,255,255,.025)
+);
+
+border:
+
+1px solid rgba(255,225,170,.14);
+
+box-shadow:
+
+0 0 55px rgba(255,225,170,.06);
+
+}
+
+.senate-consensus-card h3{
+
+margin:.8rem 0 1.5rem;
+
+font-size:
+
+clamp(1.5rem,2vw,2.4rem);
+
+line-height:1.15;
+
+}
+
+.senate-consensus-section{
+
+margin-bottom:1.4rem;
+
+padding-bottom:1.2rem;
+
+border-bottom:
+
+1px solid rgba(255,255,255,.08);
+
+}
+
+.senate-consensus-section strong{
+
+display:block;
+
+margin-bottom:.55rem;
+
+font-size:.8rem;
+
+letter-spacing:.14em;
+
+text-transform:uppercase;
+
+color:
+
+rgba(255,225,170,.88);
+
+}
+
+.senate-consensus-section p{
+
+margin:0;
+
+line-height:1.7;
+
+color:
+
+rgba(255,255,255,.66);
+
+}
+
+.senate-consensus-final{
+
+margin-top:1.8rem;
+
+padding:1.2rem;
+
+border-radius:18px;
+
+background:
+
+rgba(255,225,170,.06);
+
+border:
+
+1px solid rgba(255,225,170,.18);
+
+text-align:center;
+
+}
+
+.senate-consensus-final span{
+
+display:block;
+
+margin-bottom:.45rem;
+
+font-size:.72rem;
+
+letter-spacing:.16em;
+
+text-transform:uppercase;
+
+color:
+
+rgba(255,225,170,.74);
+
+}
+
+.senate-consensus-final strong{
+
+font-size:1.15rem;
+
+color:white;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.senate-consensus-grid{
+
+grid-template-columns:1fr;
+
+gap:1rem;
+
+}
+
+.senate-consensus-card{
+
+padding:1.25rem;
+
+border-radius:22px;
+
+}
+
+.senate-consensus-card h3{
+
+font-size:1.3rem;
+
+}
+
+.senate-consensus-section p{
+
+font-size:.83rem;
+
+}
+
+}
+
+
+
+
+
+/* ==========================================================
+   Senate Resolution Hall
+========================================================== */
+
+.senate-resolution-hall {
+  display: grid;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.senate-resolution-act {
+  position: relative;
+  padding: 2.4rem;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 224, 170, 0.2);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.07),
+      rgba(255, 255, 255, 0.025)
+    );
+  box-shadow:
+    0 0 60px rgba(255, 224, 170, 0.08),
+    inset 0 0 50px rgba(255, 255, 255, 0.018);
+}
+
+.senate-resolution-act::before {
+  content: "";
+  position: absolute;
+  inset: 1.1rem;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 224, 170, 0.08);
+  pointer-events: none;
+}
+
+.senate-resolution-act-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 224, 170, 0.75);
+}
+
+.senate-resolution-act-seal {
+  width: 76px;
+  height: 76px;
+  margin-bottom: 1.6rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  color: rgba(255, 244, 220, 0.96);
+  border: 1px solid rgba(255, 224, 170, 0.26);
+  background: rgba(255, 255, 255, 0.045);
+  box-shadow: 0 0 38px rgba(255, 224, 170, 0.16);
+}
+
+.senate-resolution-act h3 {
+  max-width: 980px;
+  margin: 0 0 1.6rem;
+  font-size: clamp(1.8rem, 3vw, 3.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+}
+
+.senate-resolution-act-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.8rem 0;
+}
+
+.senate-resolution-act-meta div {
+  padding: 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.senate-resolution-act-meta span {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 224, 170, 0.68);
+}
+
+.senate-resolution-act-meta strong {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.senate-resolution-act-body {
+  margin-top: 1.6rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.senate-resolution-act-body p,
+.senate-resolution-act-clause p {
+  max-width: 980px;
+  color: rgba(255, 255, 255, 0.68);
+  line-height: 1.75;
+}
+
+.senate-resolution-act-body strong,
+.senate-resolution-act-clause strong {
+  color: rgba(255, 224, 170, 0.92);
+}
+
+.senate-resolution-act-clause {
+  margin-top: 1.6rem;
+  padding: 1.2rem 1.3rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 224, 170, 0.14);
+  background: rgba(255, 224, 170, 0.045);
+}
+
+.senate-resolution-act-clause strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.76rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.senate-resolution-act-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.7rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+  color: rgba(255, 224, 170, 0.7);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .senate-resolution-hall {
+    gap: 1.2rem;
+    margin-top: 2rem;
+  }
+
+  .senate-resolution-act {
+    padding: 1.25rem;
+    border-radius: 24px;
+  }
+
+  .senate-resolution-act::before {
+    inset: 0.65rem;
+    border-radius: 18px;
+  }
+
+  .senate-resolution-act-top {
+    display: grid;
+    gap: 0.35rem;
+    margin-bottom: 1.3rem;
+    font-size: 0.62rem;
+  }
+
+  .senate-resolution-act-seal {
+    width: 58px;
+    height: 58px;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .senate-resolution-act h3 {
+    font-size: 1.45rem;
+    line-height: 1.18;
+  }
+
+  .senate-resolution-act-meta {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+    margin: 1.2rem 0;
+  }
+
+  .senate-resolution-act-meta div {
+    padding: 0.85rem;
+    border-radius: 16px;
+  }
+
+  .senate-resolution-act-body p,
+  .senate-resolution-act-clause p {
+    font-size: 0.84rem;
+    line-height: 1.65;
+  }
+
+  .senate-resolution-act-clause {
+    padding: 1rem;
+    border-radius: 18px;
+  }
+
+  .senate-resolution-act-footer {
+    display: grid;
+    gap: 0.4rem;
+    font-size: 0.66rem;
+  }
+}

@@ -7,6 +7,8 @@ import { getLatestResolutions } from "@/lib/senateResolutions";
 import { getSenateChamberAgenda } from "@/lib/senateChamber";
 import { getSenateExternalIntelligence } from "@/lib/senateExternalIntelligence";
 import { getSenateAgendaFromReports } from "@/lib/senateAgendaEngine";
+import { getSenateConsensus } from "@/lib/senateConsensusEngine";
+
 
 const deliberationFlow = [
   "Sources",
@@ -60,36 +62,117 @@ export default function SenatePage() {
   const latestResolutions = getLatestResolutions(6);
   const chamberAgenda = getSenateChamberAgenda();
   const generatedAgenda = getSenateAgendaFromReports(8);
+  const consensus=getSenateConsensus();
 
   return (
     <main className="page-standard senate-page">
-      <section className="programs-hero senate-hero">
-        <Reveal>
-          <span className="home-section-label">ARCHENOVA SENATE</span>
+     <section className="programs-hero senate-hero senate-entrance">
 
-          <h1>
-            Signals become
-            <br />
-            deliberation.
-          </h1>
+ <Reveal>
 
-          <p className="page-lead">
-            Senate reads Signals, generated Reports, external
-            evidence, and ArcheNova Programs before forming civilizational
-            resolutions.
-          </p>
+   <span className="home-section-label">
+     ARCHENOVA SENATE
+   </span>
 
-          <div className="crossing-gate-wrap">
-            <Link href="/architecture" className="crossing-gate-link">
-              Signals & Reports →
-            </Link>
+   <div className="senate-entrance-seal">
 
-            <Link href="/court" className="crossing-gate-link">
-              Court Review →
-            </Link>
-          </div>
-        </Reveal>
-      </section>
+     <div className="senate-entrance-ring">
+
+       <div className="senate-entrance-core">
+         ◎
+       </div>
+
+     </div>
+
+   </div>
+
+   <h1>
+     Entrance Hall
+   </h1>
+
+   <h2 className="senate-entrance-title">
+     The Great Senate
+     <br />
+     of ArcheNova
+   </h2>
+
+   <p className="page-lead">
+
+     Every scientific discovery,
+
+     technological capability,
+
+     institutional proposal,
+
+     and civilizational question
+
+     enters this chamber
+
+     before becoming direction.
+
+   </p>
+
+   <div className="senate-entrance-statement">
+
+     <div>
+
+       <span>MISSION</span>
+
+       <strong>
+
+         Preserve constitutional coherence.
+
+       </strong>
+
+     </div>
+
+     <div>
+
+       <span>PURPOSE</span>
+
+       <strong>
+
+         Transform evidence into civilization.
+
+       </strong>
+
+     </div>
+
+     <div>
+
+       <span>CURRENT STATUS</span>
+
+       <strong>
+
+         Deliberation in Progress
+
+       </strong>
+
+     </div>
+
+   </div>
+
+   <div className="crossing-gate-wrap">
+
+     <Link
+     href="/architecture"
+     className="crossing-gate-link">
+
+       Evidence →
+     </Link>
+
+     <Link
+     href="/court"
+     className="crossing-gate-link">
+
+       Constitutional Review →
+     </Link>
+
+   </div>
+
+ </Reveal>
+
+</section>
 
       <section className="glass-block senate-intelligence-block">
         <Reveal>
@@ -139,62 +222,231 @@ export default function SenatePage() {
         </Reveal>
       </section>
 
-      <section className="glass-block senate-chamber-block">
-        <Reveal>
-          <span className="home-section-label">SENATE CHAMBER</span>
+      <section className="glass-block senate-current-deliberation">
 
-          <h2>
-            The Great Round Table of
-            <br />
-            Civilizational Deliberation.
-          </h2>
+  <Reveal>
 
-          <p className="page-lead">
-            Every Signal, Report, Program, and Evidence converges into a single
-            deliberation space before constitutional judgment.
-          </p>
+    <span className="home-section-label">
+      CURRENT DELIBERATION
+    </span>
 
-          <div className="senate-chamber">
-            <div className="senate-node north">
-              <span>Signals</span>
-            </div>
+    <h2>
+      Matters currently
+      <br />
+      before the Senate.
+    </h2>
 
-            <div className="senate-node west">
-              <span>Reports</span>
-            </div>
+    <p className="page-lead">
+      The Senate is presently evaluating the highest-priority
+      scientific, technological, and civilizational questions
+      generated from live Signals, Reports, and institutional
+      evidence.
+    </p>
 
-            <div className="senate-node east">
-              <span>Programs</span>
-            </div>
+    <div className="senate-current-grid">
 
-            <div className="senate-node southwest">
-              <span>Evidence</span>
-            </div>
+      {generatedAgenda.slice(0,3).map((item)=>(
 
-            <div className="senate-node southeast">
-              <span>Opinions</span>
-            </div>
+        <article
+          key={item.id}
+          className="senate-current-card"
+        >
 
-            <div className="senate-node south">
-              <span>Resolution</span>
-            </div>
+          <div className="senate-current-rank">
 
-            <div className="senate-roundtable">
-              <div className="senate-roundtable-core">
-                <div className="senate-core-symbol">◎</div>
+            #{item.rank}
 
-                <h3>
-                  Current
-                  <br />
-                  Deliberation
-                </h3>
-
-                <p>Constitutional evaluation in progress</p>
-              </div>
-            </div>
           </div>
-        </Reveal>
-      </section>
+
+          <div className="feed-source">
+
+            {item.category}
+
+            ·
+
+            Score {item.score}/10
+
+          </div>
+
+          <h3>
+
+            {item.title}
+
+          </h3>
+
+          <div className="senate-current-question">
+
+            {item.question}
+
+          </div>
+
+          <div className="senate-current-status">
+
+            Deliberation in Progress
+
+          </div>
+
+        </article>
+
+      ))}
+
+    </div>
+
+  </Reveal>
+
+</section>
+
+      <section className="glass-block senate-great-chamber-block">
+  <Reveal>
+    <span className="home-section-label">GREAT CHAMBER</span>
+
+    <h2>
+      The Great Round Table
+      <br />
+      of Civilizational Deliberation.
+    </h2>
+
+    <p className="page-lead">
+      Signals, Reports, Programs, Evidence, Opinions, Court, and Resolution
+      converge around a single chamber of constitutional judgment.
+    </p>
+
+    <div className="senate-great-chamber">
+      <div className="senate-great-orbit senate-great-orbit-1" />
+      <div className="senate-great-orbit senate-great-orbit-2" />
+      <div className="senate-great-orbit senate-great-orbit-3" />
+
+      <div className="senate-great-node senate-great-node-north">
+        <span>Signals</span>
+      </div>
+
+      <div className="senate-great-node senate-great-node-west">
+        <span>Reports</span>
+      </div>
+
+      <div className="senate-great-node senate-great-node-east">
+        <span>Programs</span>
+      </div>
+
+      <div className="senate-great-node senate-great-node-southwest">
+        <span>Evidence</span>
+      </div>
+
+      <div className="senate-great-node senate-great-node-southeast">
+        <span>Opinions</span>
+      </div>
+
+      <div className="senate-great-node senate-great-node-south">
+        <span>Resolution</span>
+      </div>
+
+      <div className="senate-great-node senate-great-node-court">
+        <span>Court</span>
+      </div>
+
+      <div className="senate-great-table">
+        <div className="senate-great-table-inner">
+          <div className="senate-great-symbol">◎</div>
+
+          <strong>
+            Current
+            <br />
+            Deliberation
+          </strong>
+
+          <p>Constitutional judgment in progress</p>
+        </div>
+      </div>
+    </div>
+  </Reveal>
+</section>
+
+<section className="glass-block senate-evidence-wall-block">
+  <Reveal>
+    <span className="home-section-label">EVIDENCE WALL</span>
+
+    <h2>
+      Signals, Reports,
+      <br />
+      and Programs converge.
+    </h2>
+
+    <p className="page-lead">
+      Evidence Wall integrates external Signals, generated Reports, and
+      ArcheNova Programs into one review surface before Senate deliberation.
+    </p>
+
+    <div className="senate-evidence-wall">
+      <div className="senate-evidence-column">
+        <div className="senate-evidence-column-head">
+          <span>01</span>
+          <strong>Signals</strong>
+        </div>
+
+        {external.signals.slice(0, 4).map((signal) => (
+          <a
+            key={signal.id}
+            href={signal.href}
+            target="_blank"
+            rel="noreferrer"
+            className="senate-evidence-item"
+          >
+            <span>{signal.source} · {signal.category}</span>
+            <strong>{signal.title}</strong>
+            <p>Score {signal.score}/10</p>
+          </a>
+        ))}
+      </div>
+
+      <div className="senate-evidence-column senate-evidence-column-main">
+        <div className="senate-evidence-column-head">
+          <span>02</span>
+          <strong>Reports</strong>
+        </div>
+
+        {external.reports.slice(0, 4).map((report) => (
+          <Link
+            key={report.slug}
+            href={report.href}
+            className="senate-evidence-item"
+          >
+            <span>{report.source} · {report.category}</span>
+            <strong>{report.title}</strong>
+            <p>{report.summary}</p>
+          </Link>
+        ))}
+      </div>
+
+      <div className="senate-evidence-column">
+        <div className="senate-evidence-column-head">
+          <span>03</span>
+          <strong>Programs</strong>
+        </div>
+
+        {agendaPrograms.slice(0, 4).map((program) => {
+          const evidence = getProgramEvidence(program);
+
+          return (
+            <Link
+              key={program.slug}
+              href={`/programs/${program.slug}`}
+              className="senate-evidence-item"
+            >
+              <span>
+                {program.ledger.programId} · {program.status}
+              </span>
+              <strong>{program.title}</strong>
+              <p>
+                Signals {evidence.signals.length} · Reports{" "}
+                {evidence.reports.length} · Senate {evidence.senate.length}
+              </p>
+            </Link>
+          );
+        })}
+      </div>
+    </div>
+  </Reveal>
+</section>
 
       <section className="glass-block">
         <Reveal>
@@ -364,87 +616,242 @@ export default function SenatePage() {
         </Reveal>
       </section>
 
-      <section className="glass-block">
-        <Reveal>
-          <span className="home-section-label">SENATE OPINIONS</span>
+      <section className="glass-block senate-debate-block">
+  <Reveal>
+    <span className="home-section-label">
+      INSTITUTION DEBATE
+    </span>
 
-          <h2>Deliberation by institutional lens.</h2>
+    <h2>
+      Four institutions debate
+      <br />
+      before constitutional judgment.
+    </h2>
 
-          <div className="research-report-grid">
-            {chamberAgenda.map((agenda) => (
-              <article key={agenda.programSlug} className="research-report-card">
-                <div className="feed-source">{agenda.programId}</div>
+    <p className="page-lead">
+      Every agenda is examined from four permanent institutional
+      perspectives before the Senate prepares a Resolution.
+    </p>
 
-                <h3>{agenda.title}</h3>
+    <div className="senate-debate-grid">
 
-                {agenda.opinions.map((opinion) => (
-                  <div key={opinion.role} className="senate-opinion-block">
-                    <strong>
-                      {opinion.role} · {opinion.title}
-                    </strong>
-                    <p>{opinion.opinion}</p>
-                  </div>
-                ))}
-              </article>
-            ))}
+      {chamberAgenda.slice(0,4).map((agenda)=>(
+
+        <article
+          key={agenda.programSlug}
+          className="senate-debate-card"
+        >
+
+          <div className="senate-debate-header">
+
+            <span>{agenda.programId}</span>
+
+            <strong>
+              Under Debate
+            </strong>
+
           </div>
-        </Reveal>
-      </section>
 
-      <section className="glass-block senate-resolution-document-block">
-        <Reveal>
-          <span className="home-section-label">SENATE RESOLUTION</span>
+          <h3>{agenda.title}</h3>
 
-          <h2>
-            Provisional acts of
-            <br />
-            civilizational direction.
-          </h2>
+          {agenda.opinions.map((opinion)=>(
 
-          <div className="senate-resolution-documents">
-            {chamberAgenda.slice(0, 3).map((agenda, index) => (
-              <article
-                key={agenda.programSlug}
-                className="senate-resolution-document"
-              >
-                <div className="senate-resolution-header">
-                  <span>Resolution</span>
-                  <strong>ARSN-{String(index + 1).padStart(3, "0")}</strong>
-                </div>
+            <div
+              key={opinion.role}
+              className="senate-debate-opinion"
+            >
 
-                <div className="senate-resolution-seal">Ⅰ</div>
+              <div className="senate-role">
 
-                <h3>{agenda.title}</h3>
+                {opinion.role}
 
-                <p className="senate-resolution-question">
-                  {agenda.question}
+              </div>
+
+              <div className="senate-role-body">
+
+                <strong>
+                  {opinion.title}
+                </strong>
+
+                <p>
+                  {opinion.opinion}
                 </p>
 
-                <div className="senate-resolution-body">
-                  <p>
-                    The Senate provisionally recognizes this agenda as requiring
-                    structured civilizational review under the principles of
-                    evidence, feasibility, continuity, and constitutional
-                    coherence.
-                  </p>
+              </div>
 
-                  <p>
-                    Recommended direction:{" "}
-                    <strong>{agenda.recommendation}</strong>
-                  </p>
+            </div>
 
-                  <p>Draft resolution: {agenda.resolutionDraft}</p>
-                </div>
+          ))}
 
-                <div className="senate-resolution-footer">
-                  <span>Status: Draft</span>
-                  <span>Next: {agenda.nextAction}</span>
-                </div>
-              </article>
-            ))}
+        </article>
+
+      ))}
+
+    </div>
+
+  </Reveal>
+</section>
+
+<section className="glass-block senate-consensus-block">
+  <Reveal>
+
+    <span className="home-section-label">
+      CONSENSUS FORMATION
+    </span>
+
+    <h2>
+      Consensus emerges
+      <br />
+      from institutional debate.
+    </h2>
+
+    <p className="page-lead">
+      The Senate compares institutional positions before drafting a
+      constitutional direction.
+    </p>
+
+    <div className="senate-consensus-grid">
+
+      {chamberAgenda.slice(0,4).map((agenda)=>(
+
+        <article
+          key={agenda.programSlug}
+          className="senate-consensus-card"
+        >
+
+          <div className="feed-source">
+
+            {agenda.programId}
+
           </div>
-        </Reveal>
-      </section>
+
+          <h3>{agenda.title}</h3>
+
+          <div className="senate-consensus-section">
+
+            <strong>
+              Areas of Agreement
+            </strong>
+
+            <p>
+              Scientific validity, engineering feasibility,
+              institutional preservation,
+              and long-term civilization value are broadly supported.
+            </p>
+
+          </div>
+
+          <div className="senate-consensus-section">
+
+            <strong>
+              Points of Debate
+            </strong>
+
+            <p>
+              Resource allocation,
+              implementation timing,
+              operational risk,
+              and constitutional priority remain under discussion.
+            </p>
+
+          </div>
+
+          <div className="senate-consensus-final">
+
+            <span>
+              Senate Consensus
+            </span>
+
+            <strong>
+              {agenda.recommendation}
+            </strong>
+
+          </div>
+
+        </article>
+
+      ))}
+
+    </div>
+
+  </Reveal>
+</section>
+
+      <section className="glass-block senate-resolution-hall-block">
+  <Reveal>
+    <span className="home-section-label">RESOLUTION HALL</span>
+
+    <h2>
+      Provisional resolutions
+      <br />
+      become institutional acts.
+    </h2>
+
+    <p className="page-lead">
+      Resolution Hall formalizes Senate consensus into provisional acts of
+      civilizational direction before Court review.
+    </p>
+
+    <div className="senate-resolution-hall">
+      {consensus.slice(0, 3).map((item, index) => (
+        <article key={item.programSlug} className="senate-resolution-act">
+          <div className="senate-resolution-act-top">
+            <span>ArcheNova Senate Resolution</span>
+            <strong>ARSN-{String(index + 1).padStart(3, "0")}</strong>
+          </div>
+
+          <div className="senate-resolution-act-seal">Ⅰ</div>
+
+          <h3>{item.title}</h3>
+
+          <div className="senate-resolution-act-meta">
+            <div>
+              <span>Consensus</span>
+              <strong>{item.consensusLevel}</strong>
+            </div>
+
+            <div>
+              <span>Score</span>
+              <strong>{item.consensusScore}/10</strong>
+            </div>
+
+            <div>
+              <span>Next</span>
+              <strong>{item.nextInstitution}</strong>
+            </div>
+          </div>
+
+          <div className="senate-resolution-act-body">
+            <p>
+              The Senate provisionally recognizes this agenda as requiring
+              institutional direction under the principles of evidence,
+              feasibility, continuity, and constitutional coherence.
+            </p>
+
+            <p>
+              <strong>Final Recommendation:</strong>{" "}
+              {item.finalRecommendation}
+            </p>
+          </div>
+
+          <div className="senate-resolution-act-clause">
+            <strong>Resolved</strong>
+            <p>
+              This matter shall proceed according to the Senate&apos;s
+              provisional recommendation and remain subject to constitutional
+              review before execution.
+            </p>
+          </div>
+
+          <div className="senate-resolution-act-footer">
+            <span>Status: Provisional</span>
+            <span>Pending: Court Review</span>
+          </div>
+        </article>
+      ))}
+    </div>
+  </Reveal>
+</section>
 
       <section className="glass-block senate-constitution-check-block">
         <Reveal>

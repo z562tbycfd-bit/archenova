@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-02T20:20:32.188Z",
+  "updated": "2026-07-02T21:14:16.683Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Orbitronics clears key hurdle with direct orbital currents, boosting signals 100-fold",
+      "url": "https://phys.org/news/2026-07-orbitronics-key-hurdle-orbital-currents.html",
+      "summary": "Researchers at Johannes Gutenberg University Mainz (JGU) are the first to directly utilize orbital currents without the need for conversion of the orbital current into a spin current.",
+      "ts": 1783026601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How signals in the embryo tell cells what to become: A lab's final discovery",
+      "url": "https://phys.org/news/2026-07-embryo-cells-lab-discovery.html",
+      "summary": "Getting it over the finish line was a labor of love—and now, more than five years after her death, the lab of former Sloan Kettering Institute Developmental Biology Chair Kathryn Anderson, Ph.D., is publishing its final …",
+      "ts": 1783026008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How winter conditions shape future jellyfish blooms",
+      "url": "https://phys.org/news/2026-07-winter-conditions-future-jellyfish-blooms.html",
+      "summary": "Marine scientists at the University of Chester have discovered that environmental conditions experienced by jellyfish before winter can have lasting effects on the size and intensity of jellyfish blooms many months later…",
+      "ts": 1783026005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "More gray seals counted in the Wadden Sea",
+      "url": "https://phys.org/news/2026-07-gray-wadden-sea.html",
+      "summary": "This year's surveys of gray seals in the Wadden Sea and on Helgoland once again show an upward trend. During the 2025–2026 survey year, 3,385 pups and 12,497 gray seals were recorded during the molting period. The result…",
+      "ts": 1783024803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Instant digital rewards may make hard thinking feel less worthwhile",
+      "url": "https://phys.org/news/2026-07-instant-digital-rewards-hard-worthwhile.html",
+      "summary": "Imagine opening a difficult book in a quiet room. The first page is dense. You read one paragraph, then reread it. Nothing \"clicks\" yet. Your brain is doing what learning often requires: spending effort before the reward…",
+      "ts": 1783024801000
+    },
     {
       "source": "Phys.org",
       "title": "Most Europeans see economic growth as essential for a sustainable future",
@@ -186,34 +221,6 @@
     },
     {
       "source": "Phys.org",
-      "title": "Hidden role of garnet reveals how Earth's 660-km seismic boundary forms",
-      "url": "https://phys.org/news/2026-07-hidden-role-garnet-reveals-earth.html",
-      "summary": "Nearly 660 kilometers (410 miles) beneath Earth's surface lies one of the planet's most important internal boundaries. Known as the 660-km seismic discontinuity, it separates the mantle transition zone from the lower man…",
-      "ts": 1783011607000
-    },
-    {
-      "source": "Phys.org",
-      "title": "'Show some gratitude'—how this rhetoric shapes views on immigration, even for migrants",
-      "url": "https://phys.org/news/2026-07-gratitude-rhetoric-views-immigration-migrants.html",
-      "summary": "New Zealand First leader Winston Peters is known for targeting immigrants with inflammatory comments about their place in their new country. He made headlines last year when he urged immigrants who \"come here with their …",
-      "ts": 1783011603000
-    },
-    {
-      "source": "Phys.org",
-      "title": "What makes a star a star? A strange 'in‑between' celestial object is testing astronomers' boundaries",
-      "url": "https://phys.org/news/2026-07-star-strange-inbetween-celestial-astronomers.html",
-      "summary": "A star called TOI-2155 lies around 1,350 light-years (839 trillion miles) from Earth. It is a little bigger, heavier and hotter than the sun, and it is not particularly interesting or unusual in itself.",
-      "ts": 1783010408000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Workplace depression is common. Managers can make it worse, or better",
-      "url": "https://phys.org/news/2026-07-workplace-depression-common-worse.html",
-      "summary": "Australia has a mental health crisis. The Productivity Commission has found mental health issues cost Australia up to A$200 billion to A$220 billion per year—one-tenth of annual economic output.",
-      "ts": 1783010407000
-    },
-    {
-      "source": "Phys.org",
       "title": "Quantum gravity tests may mistake ordinary spacetime for superposition",
       "url": "https://phys.org/news/2026-07-quantum-gravity-ordinary-spacetime-superposition.html",
       "summary": "Everything around us, from atoms and molecules to planets and galaxies, is governed by two extraordinarily successful theories of physics: quantum mechanics and gravity. Quantum mechanics explains the behavior of the mic…",
@@ -242,9 +249,9 @@
     },
     {
       "source": "Phys.org",
-      "title": "Hot spell roasts eastern US ahead of holiday weekend",
+      "title": "Hot spell roasts eastern US as holiday weekend approaches",
       "url": "https://phys.org/news/2026-07-hot-roasts-eastern-holiday-weekend.html",
-      "summary": "Millions of Americans sweltered in stifling heat and humidity Thursday, with dangerous temperatures expected to hit major cities through the Fourth of July holiday weekend.",
+      "summary": "Millions of Americans sweltered in stifling heat and humidity Thursday, with dangerous temperatures expected to hit swaths of densely populated areas through the Fourth of July holiday weekend.",
       "ts": 1783006927000
     },
     {
@@ -693,13 +700,6 @@
       "title": "Visualization of Inertial and Kelvin Waves on the Quantum Vortex Lattice in Superfluid Helium",
       "url": "https://arxiv.org/abs/2607.00821",
       "summary": "arXiv:2607.00821v1 Announce Type: new Abstract: Superfluid $^4$He subjected to steady rotation develops a regular lattice of quantum vortices aligned with the rotation axis. We prepare this lattice in a rotating cryostat…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Axion Polarimetric Experiment (APE)",
-      "url": "https://arxiv.org/abs/2607.00822",
-      "summary": "arXiv:2607.00822v1 Announce Type: new Abstract: We present the Axion Polarimetric Experiment (APE), a cavity-enhanced polarimeter designed to search for ultralight axion and axion-like-particle dark matter through a time…",
       "ts": 1782964800000
     }
   ],
