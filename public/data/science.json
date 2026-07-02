@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-02T04:59:36.977Z",
+  "updated": "2026-07-02T08:19:28.571Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Beyond the dust: Families describe daily health challenges near the Salton Sea",
+      "url": "https://phys.org/news/2026-07-families-daily-health-salton-sea.html",
+      "summary": "A study examining air quality and respiratory health in communities surrounding the Salton Sea in Southern California shows how environmental conditions, poor housing quality and structural inequities combine to place ch…",
+      "ts": 1782978001000
+    },
     {
       "source": "Phys.org",
       "title": "Quiet outings linked to more frequent dangerous wildlife encounters",
@@ -693,13 +700,6 @@
       "title": "Spatio-temporal equilibrium thermodynamics of guided optical waves at positive and negative temperatures",
       "url": "https://arxiv.org/abs/2512.07784",
       "summary": "arXiv:2512.07784v2 Announce Type: replace Abstract: Optical thermalization has been recently studied in the 2D spatial evolution of (quasi-)monochromatic light waves propagating in multimode waveguides. Here, we investig…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bound-free electron-positron pair production in combined Coulomb and constant crossed electromagnetic fields: a Schwinger-like process with intrinsic assistance",
-      "url": "https://arxiv.org/abs/2512.10662",
-      "summary": "arXiv:2512.10662v2 Announce Type: replace Abstract: The bound-free channel of electron-positron pair production by a highly charged bare ion in the presence of a strong constant crossed electromagnetic field is studied. …",
       "ts": 1782964800000
     }
   ],
