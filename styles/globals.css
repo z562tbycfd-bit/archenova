@@ -21408,3 +21408,90 @@ transform:none;
     clear: both !important;
   }
 }
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Mobile Senate Page — Horizontal Scroll Mode
+   PC版には影響なし
+   ========================================================== */
+
+@media (max-width: 768px) {
+  .senate-page.page-standard {
+    height: 100svh !important;
+    min-height: 100svh !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .senate-page.page-standard > section,
+  .senate-page.page-standard > .page-foot {
+    flex: 0 0 100vw !important;
+    width: 100vw !important;
+    height: 100svh !important;
+    min-height: 100svh !important;
+
+    scroll-snap-align: start;
+
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+
+    box-sizing: border-box !important;
+
+    margin: 0 !important;
+    padding: 5rem 1rem 6.5rem !important;
+  }
+
+  .senate-page .senate-hero {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .senate-page .glass-block {
+    border-radius: 0 !important;
+  }
+
+  .senate-page .research-report-grid,
+  .senate-page .senate-agenda-engine-grid,
+  .senate-page .senate-resolution-documents,
+  .senate-page .senate-check-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .senate-page .research-report-card,
+  .senate-page .senate-agenda-engine-card,
+  .senate-page .senate-resolution-document,
+  .senate-page .senate-check-card {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .senate-page.page-standard::-webkit-scrollbar {
+    display: none;
+  }
+
+  .senate-page.page-standard {
+    scrollbar-width: none;
+  }
+}
