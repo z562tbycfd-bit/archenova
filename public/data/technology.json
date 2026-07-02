@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-02T16:51:50.361Z",
+  "updated": "2026-07-02T18:26:44.954Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Isar Aerospace to launch German-built Planet imaging satellite",
+      "url": "https://spacenews.com/isar-aerospace-to-launch-german-built-planet-imaging-satellite/",
+      "summary": "Isar Aerospace won a contract from Planet’s German subsidiary to launch an imaging satellite, demonstrating an end-to-end space capability for the country. The post Isar Aerospace to launch German-built Planet imaging sa…",
+      "ts": 1783016448000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Elixirgen Builds Rare Disease Pipeline Around Telomere Biology Disorders and DMD",
+      "url": "https://www.genengnews.com/topics/drug-discovery/elixirgen-builds-rare-disease-pipeline-around-telomere-biology-disorders-and-dmd/",
+      "summary": "Elixirgen's lead program is an ex vivo autologous therapy based on proprietary tech that targets telomere biology disorders, rare genetic diseases characterized by short telomeres and telomerase mutations. The post Elixi…",
+      "ts": 1783016048000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Polish space tech company Sybilla Technologies secures funds to enter U.S. market",
+      "url": "https://spacenews.com/polish-space-tech-company-sybilla-technologies-secures-funds-to-enter-u-s-market/",
+      "summary": "WARSAW, Poland — The Polish state-owned bank BGK and European venture capital firm 3TS Capital Partners have unveiled an investment of around 35 million zloty ($10 million) in Poland’s space […] The post Polish space tec…",
+      "ts": 1783013930000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/07/02/pharma-biotech-jobs-ladder-vertex-gilead-astrazeneca-lilly/?utm_campaign=rss",
+      "summary": "Hired someone new and exciting? Promoted a rising star? Finally solved that hard-to-fill spot? Share the news with us, and we’ll share it with others.",
+      "ts": 1783013529000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Merck and Insilico Make Deals, Claude Science’s Debut, Vaccines for Neglected Diseases",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/merck-and-insilico-make-deals-claude-sciences-debut-vaccines-for-neglected-diseases/",
+      "summary": "In this episode of GEN's Touching Base, editors talk about the multi-billion-dollar Merck KGaA Bio-Techne acquisition and Insilico–SK collaboration, AI antibiotic design with Claude Science, and progress in vaccines agai…",
+      "ts": 1783011358000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "ASMS 2026: Solving Proteomics’ Next Bottleneck",
@@ -681,46 +721,6 @@
       "summary": "Fresh scientific evidence and options for harnessing artificial intelligence (AI) were unveiled Wednesday following the launch of the first global, independent scientific assessment of opportunities, risks and impacts by…",
       "ts": 1782907200000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Expanding areas under Israeli control in Gaza increase risks to civilians, UN warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167852",
-      "summary": "The continued expansion of areas under Israeli control in Gaza since October’s ceasefire agreement is placing civilians at greater risk and severely constraining humanitarian operations, the UN and humanitarian partners …",
-      "ts": 1782907200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela earthquake disaster: needs ‘skyrocketing’, say relief agencies",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167850",
-      "summary": "In Venezuela, a rescue operation in La Guaira has succeeded in getting a toddler out alive from under the rubble, six days since the double-earthquake disaster.",
-      "ts": 1782907200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "AI explained: Why the world needs to act now",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167848",
-      "summary": "Artificial intelligence (AI) is moving faster than governments can keep up.",
-      "ts": 1782907200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "FDA says Zyn can market its pouches as safer than cigarettes ",
-      "url": "https://www.statnews.com/2026/07/01/health-news-fda-says-zyn-can-market-pouches-as-safer-than-cigarettes/?utm_campaign=rss",
-      "summary": "The influence of the alcohol industry on policy, AI Claude for scientists, and more health news from Morning Rounds",
-      "ts": 1782906618000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA approves Orca Bio’s T cell therapy for blood cancer patients",
-      "url": "https://www.statnews.com/2026/07/01/fda-approves-orca-bio-treatment-blood-cancer/?utm_campaign=rss",
-      "summary": "The FDA approved a T-cell therapy from Orca Bio that reduces the risk of a debilitating immune reaction in patients with blood cancers undergoing stem cell transplants.",
-      "ts": 1782905897000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
