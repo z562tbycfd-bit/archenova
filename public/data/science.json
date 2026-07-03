@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-03T13:58:02.863Z",
+  "updated": "2026-07-03T14:11:27.875Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Fighting an emerging threat to strawberry crops",
+      "url": "https://phys.org/news/2026-07-emerging-threat-strawberry-crops.html",
+      "summary": "A few years ago, Austin Wrenn noticed something unsettling in his strawberry greenhouses at Wrenn's Farm in Zebulon, North Carolina. He was one of the first growers in the state to experience losses from an unexpected, a…",
+      "ts": 1783087207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Natural born killers—tracking immune cells as they cluster around cancer",
+      "url": "https://phys.org/news/2026-06-natural-born-killers-tracking-immune.html",
+      "summary": "There is a constant war going on in your body. Working against you are viruses and cancer cells growing uncontrollably, threatening your tissues and organs. Fighting on your side are immune cells such as lymphocytes, a t…",
+      "ts": 1783087203000
+    },
     {
       "source": "Phys.org",
       "title": "The discovery of an ancient child's skull sheds light on the early prehistoric farmers of Norway",
@@ -686,20 +700,6 @@
       "title": "Predicting Novel Stable Materials for Experimental Synthesis",
       "url": "https://arxiv.org/abs/2607.01713",
       "summary": "arXiv:2607.01713v1 Announce Type: cross Abstract: Machine-learning-accelerated materials discovery has yielded large numbers of computationally stable compounds, yet many remain experimentally unrealized, underscoring a …",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Identifiability Limits of Physics-Informed Inference for Spatial Stochastic Dynamics from Static Snapshots",
-      "url": "https://arxiv.org/abs/2607.01749",
-      "summary": "arXiv:2607.01749v1 Announce Type: cross Abstract: Despite increasing scale and resolution, many biological measurements remain destructive, revealing only spatial information rather than the dynamics it encodes. By combi…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Performance of a two-mode coherent superposed channel in continuous-variable quantum teleportation",
-      "url": "https://arxiv.org/abs/2607.01786",
-      "summary": "arXiv:2607.01786v1 Announce Type: cross Abstract: Glauber's coherent state is denoted by $\\ket{\\alpha}$ and its two-mode extension is represented by $\\ket{\\alpha,\\beta}$. In this work, we introduce a two-mode superpositi…",
       "ts": 1783051200000
     }
   ],
