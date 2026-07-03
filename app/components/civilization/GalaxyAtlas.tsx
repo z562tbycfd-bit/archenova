@@ -44,7 +44,6 @@ export default function GalaxyAtlas() {
         <header className="an-galaxy-header">
           <span>ARCHENOVA MAP</span>
           <h2>Civilization Architecture Galaxy</h2>
-          <p>Choose a galaxy to enter the architectural layer</p>
         </header>
 
         <div className="an-galaxy-map">
