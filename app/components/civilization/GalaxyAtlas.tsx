@@ -91,16 +91,7 @@ export default function GalaxyAtlas() {
             </Link>
           ))}
         </div>
-
-        <footer className="an-galaxy-footer">
-          <span>Observe</span>
-          <i />
-          <span>Integrate</span>
-          <i />
-          <span>Realize</span>
-          <i />
-          <span>Expand</span>
-        </footer>
+        
       </div>
     </section>
   );
