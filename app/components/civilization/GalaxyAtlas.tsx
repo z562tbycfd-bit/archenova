@@ -82,11 +82,12 @@ export default function GalaxyAtlas() {
               style={{ left: `${node.x}%`, top: `${node.y}%` }}
             >
               <SpiralGalaxy />
-              <span className="an-galaxy-label">
-                <b>{node.no}</b>
-                <strong>{node.title}</strong>
-                <small>{node.subtitle}</small>
-              </span>
+             <span className="an-galaxy-number">{node.no}</span>
+
+<span className="an-galaxy-tooltip">
+  <strong>{node.title}</strong>
+  <small>{node.subtitle}</small>
+</span>
             </Link>
           ))}
         </div>
