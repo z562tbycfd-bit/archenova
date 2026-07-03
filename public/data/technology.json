@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-03T18:14:33.709Z",
+  "updated": "2026-07-03T20:16:39.829Z",
   "items": [
     {
       "source": "MIT Technology Review",
@@ -60,6 +60,22 @@
     },
     {
       "source": "United Nations News",
+      "title": "Civilian dangers multiply as drones transform Ukraine's battlefield",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167854",
+      "summary": "As drones reshape the battlefield in Ukraine, they are also creating new and increasingly complex dangers for civilians, threatening recovery efforts, agriculture and global food security long after the fighting ends.",
+      "ts": 1783080000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan’s people subject to ‘relentless’ drone strikes in El Obeid",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167871",
+      "summary": "The war in Sudan threatens to spiral further as the strategically-important town of El Obeid continues to face “relentless” drone attacks by advancing paramilitary militias, the UN’s human rights chief, Volker Türk, said…",
+      "ts": 1783080000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "El Niño forecast to intensify, increasing likelihood of extreme weather",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167870",
       "summary": "More blistering heatwaves and other weather extremes are becoming increasingly likely across the world now and in coming months, linked to strengthening El Niño conditions in the tropical Pacific, the UN World Meteorolog…",
@@ -89,14 +105,6 @@
       "summary": "Agricultural systems worldwide are losing vital nutrients, reducing crop productivity, increasing costs for farmers and contributing to environmental pollution.",
       "ts": 1783064667000,
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "The Birthplace of the United States",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-birthplace-of-the-united-states-90513/",
-      "summary": "It was here the founders shaped the future of American government.",
-      "ts": 1783051200000,
-      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -305,6 +313,14 @@
       "summary": "arXiv:2606.31394v2 Announce Type: replace-cross Abstract: Artificial intelligence is transforming our capability to solve biological challenges. In dimensionality bottleneck regimes exacerbated by high-dimensional biolog…",
       "ts": 1783051200000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "The Birthplace of the United States",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-birthplace-of-the-united-states-90513/",
+      "summary": "It was here the founders shaped the future of American government.",
+      "ts": 1783051200000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -703,22 +719,6 @@
       "title": "DRIADA: A Python Toolkit for Cross-Scale Analysis of Single-Neuron Selectivity and Population Dynamics",
       "url": "https://arxiv.org/abs/2607.00851",
       "summary": "arXiv:2607.00851v1 Announce Type: new Abstract: Brain activity spans single-neuron, population, and network levels, and core questions in neural coding require moving between them. Yet current tools target a single parad…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Commutative Algebra Learning for Protein Flexibility Analysis",
-      "url": "https://arxiv.org/abs/2607.00879",
-      "summary": "arXiv:2607.00879v1 Announce Type: new Abstract: Protein flexibility, commonly quantified by B-factors, is closely related to protein structure and function. However, accurate B-factor prediction remains challenging due t…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Immune history shapes recurrent epidemics of antigenically related variants",
-      "url": "https://arxiv.org/abs/2607.00905",
-      "summary": "arXiv:2607.00905v1 Announce Type: new Abstract: Population immunity carried over from past epidemics of an antigenically variable pathogen influences the epidemic of new variants based on their antigenic similarity to th…",
       "ts": 1782964800000,
       "categoryId": "bio"
     }

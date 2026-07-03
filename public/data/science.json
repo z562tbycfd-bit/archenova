@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-03T18:14:31.528Z",
+  "updated": "2026-07-03T20:16:37.272Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Gentle nudges for increased animal welfare",
+      "url": "https://phys.org/news/2026-07-gentle-nudges-animal-welfare.html",
+      "summary": "Gentle purchase incentives can lead customers to choose groceries with higher animal husbandry standards more often. A recent study at the University of Bonn at least suggests this. The researchers used two different ani…",
+      "ts": 1783108804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Free-text answers and LLMs reveal hidden reasons behind human choices",
+      "url": "https://phys.org/news/2026-07-free-text-llms-reveal-hidden.html",
+      "summary": "Why do people make the choices they do? Researchers from the Center Synergy of Systems (SynoSys) at TUD Dresden University of Technology, the Max Planck Institute for Human Development, and the University of Basel presen…",
+      "ts": 1783105201000
+    },
     {
       "source": "Phys.org",
       "title": "Giant wheat starch granules—a leap forward in biological engineering with potential benefits for diet, manufacturing",
@@ -686,20 +700,6 @@
       "title": "Effect of surfactant kinetics on the wetting following the drop impact onto rough surfaces",
       "url": "https://arxiv.org/abs/2607.02309",
       "summary": "arXiv:2607.02309v1 Announce Type: new Abstract: We experimentally analyze the effect of a surfactant on wetting following drop impact on rough surfaces, paying special attention to the role of dynamic surface tension. To…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pressure-drop localization and momentum insulation in liquid-gas coexistence Poiseuille flow",
-      "url": "https://arxiv.org/abs/2607.02310",
-      "summary": "arXiv:2607.02310v1 Announce Type: new Abstract: We study pressure-driven Poiseuille flow of a one-component fluid between adiabatic plates in liquid-gas coexistence. The analysis uses Poiseuille flow and Fourier heat con…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Molecular interpretability of the bulk electrochemical impedance of concentrated electrolytes",
-      "url": "https://arxiv.org/abs/2607.02316",
-      "summary": "arXiv:2607.02316v1 Announce Type: new Abstract: Electrochemical impedance spectroscopy (EIS) is a widely used technique to understand time-dependent response and relaxation under applied voltage. While these spectra cont…",
       "ts": 1783051200000
     }
   ],
