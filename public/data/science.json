@@ -1,7 +1,105 @@
 {
   "ok": true,
-  "updated": "2026-07-02T22:09:47.364Z",
+  "updated": "2026-07-03T00:08:59.743Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Postwar research compact fueled U.S. prosperity for eight decades, argues commentary",
+      "url": "https://phys.org/news/2026-07-postwar-compact-fueled-prosperity-decades.html",
+      "summary": "As the United States celebrates 250 years of independence, Science has published a commentary by Johns Hopkins University President Ron Daniels highlighting the impact of the reimagining of the American university pionee…",
+      "ts": 1783036803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "This satellite constellation transformed earth science by creatively tuning in to GPS signals",
+      "url": "https://phys.org/news/2026-07-satellite-constellation-earth-science-creatively.html",
+      "summary": "When NASA's Cyclone Global Navigation Satellite System, or CYGNSS, launched into orbit in 2016, none of the University of Michigan Engineering researchers who developed the system expected it to transform earth science. …",
+      "ts": 1783035604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanozymes map nanoparticle routes inside live cells without genetic engineering",
+      "url": "https://phys.org/news/2026-07-nanozymes-nanoparticle-routes-cells-genetic.html",
+      "summary": "Nanoparticles are widely used in medicine to deliver drugs, genes or imaging agents to specific parts of the body. Once a nanoparticle reaches a cell, however, many things can happen—it can reach its target, be degraded,…",
+      "ts": 1783035601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simulation reveals how glaciers transported rocks across the Alps 24,000 years ago",
+      "url": "https://phys.org/news/2026-07-simulation-reveals-glaciers-alps-years.html",
+      "summary": "Many of the boulders scattered across the Swiss landscape did not originate where they now stand. Instead, they were carried by ice nearly 24,000 years ago. For the first time, researchers at the University of Lausanne (…",
+      "ts": 1783034405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beyond the 24-hour day: How employee biological clocks and beliefs drive workplace cooperation",
+      "url": "https://phys.org/news/2026-07-hour-day-employee-biological-clocks.html",
+      "summary": "Employees' biological clocks do more than determine when they reach for coffee; they fundamentally shape how, when and why people help each other at work. A study published in Organizational Behavior and Human Decision P…",
+      "ts": 1783034401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Coral loss may erase up to $3 billion in Hawaiʻi reef recreation by 2100",
+      "url": "https://phys.org/news/2026-07-coral-loss-erase-billion-hawaii.html",
+      "summary": "Coral reef decline driven by climate change could cost Hawaiʻi residents between $1.8 billion and $3 billion in lost reef-related activities by 2100, according to a new study published in Ecological Economics. The resear…",
+      "ts": 1783033204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Discarded plastic bottles help save dolphins from fishing nets",
+      "url": "https://phys.org/news/2026-07-discarded-plastic-bottles-dolphins-fishing.html",
+      "summary": "Newcastle University researchers have demonstrated that plastic bottles attached to fishing nets can help dolphins detect and avoid being caught and killed in the deadly gear.",
+      "ts": 1783033201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "More Canadian than the beaver? Scientists discover a western toad found only in Canada",
+      "url": "https://phys.org/news/2026-07-canadian-beaver-scientists-western-toad.html",
+      "summary": "The beaver and moose may be enduring symbols of Canadian wildlife, but neither is uniquely Canadian from a genetic perspective. But a team of researchers from the University of Ottawa has now discovered something rare: a…",
+      "ts": 1783032601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Migration is dropping, but public concern is climbing. Why?",
+      "url": "https://phys.org/news/2026-07-migration-climbing.html",
+      "summary": "Net overseas migration is declining. It peaked in 2023, and as of mid-2026 it has dropped by 45%.",
+      "ts": 1783032005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ecological factors, not social behavior, explain brain size in cephalopods",
+      "url": "https://phys.org/news/2026-07-ecological-factors-social-behavior-brain.html",
+      "summary": "Octopuses, squid and cuttlefish may have evolved large brains because of the challenges posed by their environments rather than the demands of social life, according to a new study published in iScience today.",
+      "ts": 1783032003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Zero-waste plastic and color recycling: The end of colored plastic downgrading could be near",
+      "url": "https://phys.org/news/2026-07-plastic-recycling-downgrading.html",
+      "summary": "In the world of market competition, having the best and brightest package could send company sales into the millions. On the other hand, the amount of colored plastic waste increases, adding to the growing challenge of r…",
+      "ts": 1783031404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Single ion maps 3D electromagnetic fields above chips with record sensitivity",
+      "url": "https://phys.org/news/2026-07-ion-3d-electromagnetic-fields-chips.html",
+      "summary": "Researchers at ETH Zurich have developed a method that uses a single ion to detect electromagnetic fields above a surface and to create a three-dimensional map of them. In the future, this approach can be used to improve…",
+      "ts": 1783030804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Awe and the 'overview effect' may shape how students learn geography",
+      "url": "https://phys.org/news/2026-07-awe-overview-effect-students-geography.html",
+      "summary": "University of Phoenix College of General Studies announced the publication of a new article in The Geography Teacher, authored by Jacquelyn Kelly, Ph.D., associate dean, College of General Studies; Dianna Gielstra, Ph.D.…",
+      "ts": 1783030803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Synchronized infrared lasers control molecular shape changes and expose hidden fingerprints",
+      "url": "https://phys.org/news/2026-07-synchronized-infrared-lasers-molecular-expose.html",
+      "summary": "Researchers from the Molecular Physics and Physical Chemistry departments of the Fritz Haber Institute have shown how two highly synchronized infrared (IR) laser beams can control molecules as they switch between differe…",
+      "ts": 1783030201000
+    },
     {
       "source": "Phys.org",
       "title": "Modern life may be outpacing the human mind",
@@ -602,104 +700,6 @@
       "title": "The Solar Neutrino and Astro-Particle PhYsics (SNAPPY) CubeSat Development",
       "url": "https://arxiv.org/abs/2607.00295",
       "summary": "arXiv:2607.00295v1 Announce Type: new Abstract: The SNAPPY CubeSat, which was launched May 3, 2026, will demonstrate and space qualify the nuSol neutrino-detection technology. The nuSol technology detects solar neutrinos…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Correct Asymptotic Wavefunctions for Calculating Photoelectron Angular Distributions of O2- and NO-",
-      "url": "https://arxiv.org/abs/2607.00336",
-      "summary": "arXiv:2607.00336v1 Announce Type: new Abstract: The ab initio calculation of photoelectron angular distributions (PADs) for negative ions remains a significant theoretical challenge. In this work, we report a joint exper…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A bilayer cellular Potts model of epithelial docking",
-      "url": "https://arxiv.org/abs/2607.00400",
-      "summary": "arXiv:2607.00400v1 Announce Type: new Abstract: Fusion of two epithelial cell sheets brought together in a bilayer configuration is a common step in animal morphogenesis, yet, in contrast to other epithelial fusion proce…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "VLBI Tracking of the JUICE Mission: Two Years of Cruise Phase Operations and Performance Analysis",
-      "url": "https://arxiv.org/abs/2607.00414",
-      "summary": "arXiv:2607.00414v1 Announce Type: new Abstract: The JUpiter ICy moons Explorer (JUICE) mission, launched by the European Space Agency (ESA) in April 2023, represents one of the most ambitious deep space exploration endea…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Finite-Size Effect Induced Spatial-Spectral Mode Splitting in Membrane Metasurfaces",
-      "url": "https://arxiv.org/abs/2607.00468",
-      "summary": "arXiv:2607.00468v1 Announce Type: new Abstract: This work reports the spatial-spectral engineering and finite-size quantization of optical modes within a triangular-lattice silicon nitride membrane metasurface. Truncatin…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When is vaccine prioritization worth optimizing?",
-      "url": "https://arxiv.org/abs/2607.00484",
-      "summary": "arXiv:2607.00484v1 Announce Type: new Abstract: Optimizing vaccine prioritization is often treated as the default policy response when vaccine supply is limited. Yet optimized prioritization carries administrative, ethic…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Closed-loop coupling of personalised and foundation models for real-time treatment guidance with MRI",
-      "url": "https://arxiv.org/abs/2607.00500",
-      "summary": "arXiv:2607.00500v1 Announce Type: new Abstract: Image-guided therapies, including radiotherapy, biopsy and deep brain stimulation, rely on real-time targeting of anatomical structures. However, in the presence of motion,…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Surface charges in a Rydberg atom-nanowaveguide hybrid quantum system",
-      "url": "https://arxiv.org/abs/2607.00513",
-      "summary": "arXiv:2607.00513v1 Announce Type: new Abstract: Hybrid quantum platforms based on highly excited Rydberg atoms coupled to nanophotonics devices offer a promising route toward scalable quantum networks and integrated quan…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nuclear-size correction to the one-loop self-energy in hydrogenlike ions",
-      "url": "https://arxiv.org/abs/2607.00554",
-      "summary": "arXiv:2607.00554v1 Announce Type: new Abstract: The nuclear-size effect on both diagonal and off-diagonal one-loop self-energy matrix elements is considered for hydrogenlike ions with $Z=60$, $82$, $90$, and $92$. Specif…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nondipole Contributions to Attosecond Chiral Photoionization Asymmetries",
-      "url": "https://arxiv.org/abs/2607.00598",
-      "summary": "arXiv:2607.00598v1 Announce Type: new Abstract: Photoelectron circular dichroism (PECD) reads molecular chirality from forward-backward asymmetries in photoelectron emission, but the same observable can also contain non-…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ai2-Kit: Streamlining AI-Accelerated Ab Initio Workflows for Complex Chemical Systems",
-      "url": "https://arxiv.org/abs/2607.00613",
-      "summary": "arXiv:2607.00613v1 Announce Type: new Abstract: Molecular simulations of complex chemical systems, such as catalysis, electrochemistry, and energy storage, often need to capture the interplay of effects such as electroni…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evanescent absorption spectroscopy of transition metal dichalcogenide materials using guided photoluminescence in Si$_3$N$_4$ photonic waveguides",
-      "url": "https://arxiv.org/abs/2607.00615",
-      "summary": "arXiv:2607.00615v1 Announce Type: new Abstract: On-chip integration of two-dimensional transition metal dichalcogenides (TMDs) with photonic waveguides underpins a growing class of compact optoelectronic and sensing devi…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generation of strongly localized skin solitons in non-Hermitian waveguide arrays with the Kerr effect",
-      "url": "https://arxiv.org/abs/2607.00618",
-      "summary": "arXiv:2607.00618v1 Announce Type: new Abstract: We address two distinct nonlinear propagation problems in nonlinear optical waveguide arrays (WGAs) with non-reciprocal (non-Hermitian) couplings. First, we investigate the…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-selected phase-matched second harmonic generation in nonlinear optical materials: from phenomenon to applications",
-      "url": "https://arxiv.org/abs/2607.00657",
-      "summary": "arXiv:2607.00657v1 Announce Type: new Abstract: Self-selected phase-matched second harmonic generation is introduced as an all-optical probe of refractive-index dispersion in birefringent nonlinear optical materials. Rat…",
-      "ts": 1782964800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In-Situ Polarimetry in Collimated Magneto-Infrared Spectroscopy System",
-      "url": "https://arxiv.org/abs/2607.00689",
-      "summary": "arXiv:2607.00689v1 Announce Type: new Abstract: Magneto-infrared spectroscopy under strong magnetic fields provides a powerful probe of Landau quantization and field-induced collective excitations, yet its full potential…",
       "ts": 1782964800000
     }
   ],
