@@ -23562,3 +23562,308 @@ font-size:.83rem;
     height: 15px !important;
   }
 }
+
+/* ==========================================================
+   HOME Horizontal Deck
+========================================================== */
+
+.home-horizontal-deck-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  padding: 4rem 0;
+}
+
+.home-horizontal-deck {
+  width: min(1180px, 92vw);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(320px, 520px);
+  gap: 1.2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  padding: 1rem 1rem 1.5rem;
+  scrollbar-width: none;
+}
+
+.home-horizontal-deck::-webkit-scrollbar {
+  display: none;
+}
+
+.home-horizontal-card {
+  min-height: min(620px, 72svh);
+  scroll-snap-align: center;
+  display: grid;
+  place-items: center;
+  border-radius: 34px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.025));
+  backdrop-filter: blur(22px);
+  box-shadow: 0 30px 90px rgba(0,0,0,0.28);
+  padding: 2rem;
+}
+
+.home-horizontal-card .an-section,
+.home-horizontal-card .home-section {
+  width: 100%;
+  max-width: 420px;
+}
+
+.home-horizontal-card .an-heading {
+  font-size: clamp(2rem, 4vw, 4rem);
+}
+
+.home-horizontal-card .an-body,
+.home-horizontal-card .home-section-purpose {
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .home-horizontal-deck-page {
+    height: auto;
+    min-height: 100svh;
+    padding: 4.5rem 0;
+  }
+
+  .home-horizontal-deck {
+    width: 94vw;
+    grid-auto-columns: minmax(270px, 82vw);
+    padding-inline: 0.5rem;
+  }
+
+  .home-horizontal-card {
+    min-height: 560px;
+    padding: 1.4rem;
+  }
+}
+
+
+
+
+
+
+/* ==========================================================
+   HOME Horizontal Deck — Compact Layout
+========================================================== */
+
+.home-horizontal-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-horizontal-card .an-section,
+.home-horizontal-card .home-section,
+.home-horizontal-card .imperial-emperor-wrap,
+.home-horizontal-card .senate-gate {
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* label */
+
+.home-horizontal-card .an-label,
+.home-horizontal-card .home-section-label{
+  font-size:.62rem;
+  letter-spacing:.24em;
+}
+
+/* title */
+
+.home-horizontal-card .an-heading,
+.home-horizontal-card .home-section h2,
+.home-horizontal-card .senate-gate-title{
+
+  font-size:clamp(1.6rem,2vw,2.5rem);
+
+  line-height:1.08;
+
+  margin:.8rem 0 1rem;
+
+}
+
+/* body */
+
+.home-horizontal-card .an-body,
+.home-horizontal-card .home-section-purpose,
+.home-horizontal-card .senate-gate-lead{
+
+  font-size:.88rem;
+
+  line-height:1.75;
+
+}
+
+/* cards */
+
+.home-horizontal-card .an-grid-3,
+.home-horizontal-card .an-grid-4{
+
+  grid-template-columns:1fr;
+
+  gap:.8rem;
+
+}
+
+.home-horizontal-card .an-card{
+
+  padding:1rem;
+
+}
+
+/* button */
+
+.home-horizontal-card .an-button,
+.home-horizontal-card .back-link,
+.home-horizontal-card .senate-gate-pillar{
+
+  margin-top:1.2rem;
+
+}
+
+/* emperor */
+
+.home-horizontal-card .emperor-avatar-image{
+
+  width:140px;
+
+  height:140px;
+
+}
+
+/* mobile */
+
+@media(max-width:768px){
+
+.home-horizontal-card{
+
+padding:1.2rem;
+
+}
+
+.home-horizontal-card .an-heading{
+
+font-size:1.6rem;
+
+}
+
+.home-horizontal-card .an-body{
+
+font-size:.82rem;
+
+}
+
+}
+
+
+
+
+
+
+/* ==========================================================
+   HOME Horizontal Deck — Inner Vertical Scroll
+========================================================== */
+
+.home-horizontal-card {
+  overflow: hidden !important;
+}
+
+.home-horizontal-card > * {
+  width: 100%;
+  max-height: calc(100% - 1rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 0.35rem;
+  scrollbar-width: thin;
+}
+
+.home-horizontal-card > *::-webkit-scrollbar {
+  width: 5px;
+}
+
+.home-horizontal-card > *::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.04);
+  border-radius: 999px;
+}
+
+.home-horizontal-card > *::-webkit-scrollbar-thumb {
+  background: rgba(245,216,162,0.35);
+  border-radius: 999px;
+}
+
+.home-horizontal-card > *::-webkit-scrollbar-thumb:hover {
+  background: rgba(245,216,162,0.55);
+}
+
+@media (max-width: 768px) {
+  .home-horizontal-card {
+    max-height: 72svh !important;
+  }
+
+  .home-horizontal-card > * {
+    max-height: 68svh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   HOME Horizontal Deck — Final Card Fixes
+========================================================== */
+
+/* ② Senate card compact fix */
+.home-horizontal-card .senate-gate {
+  max-width: 360px !important;
+  padding: 0 !important;
+}
+
+.home-horizontal-card .senate-gate-title {
+  font-size: clamp(1.45rem, 2vw, 2.15rem) !important;
+}
+
+.home-horizontal-card .senate-gate-lead {
+  font-size: 0.82rem !important;
+  line-height: 1.65 !important;
+}
+
+.home-horizontal-card .senate-gate-pillars {
+  display: block !important;
+  margin-top: 1rem !important;
+}
+
+.home-horizontal-card .senate-gate-pillar {
+  width: 100% !important;
+  padding: 1rem !important;
+  min-height: auto !important;
+}
+
+/* ③ Civilization Programs center fix */
+#home-programs.home-horizontal-card {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#home-programs.home-horizontal-card .an-section {
+  text-align: center !important;
+  margin-inline: auto !important;
+}
+
+#home-programs.home-horizontal-card .an-body {
+  max-width: 340px !important;
+  margin-inline: auto !important;
+}

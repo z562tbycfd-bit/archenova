@@ -73,7 +73,7 @@ export default function Home() {
       </section>
 
      {/* =========================
-   CIVILIZATION ARCHITECTURE ATLAS
+   CIVILIZATION ARCHITECTURE GALAXY
 ========================= */}
 <GalaxyAtlas />
 
@@ -122,9 +122,14 @@ export default function Home() {
   </Reveal>
 </section>
 
-{/* ORIGIN */}
-<section id="home-origin" data-home-section className="home-page twin-page">
-  <Reveal>
+<section
+  id="origin-deck"
+  data-home-section
+  className="home-page twin-page home-horizontal-deck-page"
+>
+  <div className="home-horizontal-deck">
+    <section id="home-origin" className="home-horizontal-card">
+     <Reveal>
     <div className="an-section">
       <span className="an-label">WHY ARCHENOVA EXISTS</span>
 
@@ -148,11 +153,10 @@ export default function Home() {
       </p>
     </div>
   </Reveal>
-</section>
+    </section>
 
-{/* MISSION */}
-<section id="home-mission" data-home-section className="home-page twin-page">
-  <Reveal>
+    <section id="home-mission" className="home-horizontal-card">
+     <Reveal>
     <div className="an-section">
       <span className="an-label">ARCHENOVA MISSION</span>
 
@@ -175,15 +179,10 @@ export default function Home() {
       </p>
     </div>
   </Reveal>
-</section>
+    </section>
 
-{/* CIVILIZATION */}
-<section
-  id="home-civilization"
-  data-home-section
-  className="home-page twin-page"
->
-  <Reveal>
+    <section id="home-civilization" className="home-horizontal-card">
+     <Reveal>
     <div className="an-section">
       <span className="an-label">CIVILIZATION</span>
 
@@ -206,11 +205,10 @@ export default function Home() {
       </Link>
     </div>
   </Reveal>
-</section>
+    </section>
 
-{/* SCALE */}
-<section id="home-scale" data-home-section className="home-page twin-page">
-  <Reveal>
+    <section id="home-scale" className="home-horizontal-card">
+    <Reveal>
     <div className="an-section">
       <span className="an-label">CIVILIZATIONAL SCALE</span>
 
@@ -249,6 +247,8 @@ export default function Home() {
       </div>
     </div>
   </Reveal>
+    </section>
+  </div>
 </section>
 
       {/* IMPERIAL HOUSE */}
@@ -415,72 +415,56 @@ export default function Home() {
         </Reveal>
       </section>
 
-      {/* SENATE */}
-<section id="home-senate" data-home-section className="home-page twin-page home-senate-gate-page">
- <Reveal>
-   <div className="senate-gate">
-     <span className="an-label">ARCHENOVA SENATE</span>
+      <section
+  id="governance-deck"
+  data-home-section
+  className="home-page twin-page home-horizontal-deck-page"
+>
+  <div className="home-horizontal-deck">
+    <section id="home-senate" className="home-horizontal-card">
+      <Reveal>
+        <div className="senate-gate">
+          <span className="an-label">ARCHENOVA SENATE</span>
+          <h2 className="senate-gate-title">
+            The chamber where
+            <br />
+            signals become judgment.
+          </h2>
+          <p className="senate-gate-lead">
+            Senate receives Signals, Reports, Evidence, and Programs, then
+            submits deliberation toward resolution, Court review, and
+            civilizational direction.
+          </p>
+          <Link href="/senate" className="senate-gate-pillar senate-gate-primary">
+            <strong>Enter Senate</strong>
+            <p>Open deliberation, opinions, agenda, and resolutions.</p>
+          </Link>
+        </div>
+      </Reveal>
+    </section>
 
-     <h2 className="senate-gate-title">
-       The chamber where
-       <br />
-       signals become judgment.
-     </h2>
-
-     <p className="senate-gate-lead">
-       Senate receives Signals, Reports, Evidence, and Programs, then submits
-       deliberation toward resolution, Court review, and civilizational
-       direction.
-     </p>
-
-     <div className="senate-gate-pillars">
-       <Link href="/senate" className="senate-gate-pillar senate-gate-primary">
-         <strong>Enter Senate</strong>
-         <p>Open deliberation, opinions, agenda, and resolutions.</p>
-       </Link>
-     </div>
-   </div>
- </Reveal>
+    <section id="home-court" className="home-horizontal-card">
+      <Reveal>
+        <div className="an-section">
+          <span className="an-label">ARCHENOVA COURT</span>
+          <h2 className="an-heading">
+            Judgment must
+            <br />
+            remain coherent.
+          </h2>
+          <p className="an-body">
+            Court reviews Senate deliberations through the Constitution and
+            Foundation. It protects coherence, constraint, legitimacy, and
+            long-term continuity before decisions become institutional direction.
+          </p>
+          <Link href="/court" className="an-button">
+            <p>Enter Court →</p>
+          </Link>
+        </div>
+      </Reveal>
+    </section>
+  </div>
 </section>
-
-      {/* COURT */}
-      <section id="home-court" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">ARCHENOVA COURT</span>
-
-            <h2 className="an-heading">
-              Judgment must
-              <br />
-              remain coherent.
-            </h2>
-
-            <p className="an-body">
-              Court reviews Senate deliberations through the Constitution and
-              Foundation. It protects coherence, constraint, legitimacy, and
-              long-term continuity before decisions become institutional
-              direction.
-            </p>
-
-            <div className="an-grid-3">
-              <Link href="/constitution" className="an-card">
-                <strong>Constitution</strong>
-                <p>Preserve the principles that constrain every judgment.</p>
-              </Link>
-
-              <Link href="/architecture" className="an-card">
-                <strong>Foundation</strong>
-                <p>Apply the shared reasoning axis across ArcheNova systems.</p>
-              </Link>
-
-              <Link href="/court" className="an-card">
-                <strong>Court</strong>
-                <p>Review, affirm, return, or constrain Senate resolutions.</p>
-              </Link>
-            </div>
-          </div>
-        </Reveal>
-      </section>
 
       {/* =========================
           Ⅱ INTELLIGENCE
@@ -514,54 +498,54 @@ export default function Home() {
         </Reveal>
       </section>
 
-      {/* EPISTEME */}
-      <section id="home-episteme" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">EPISTEME</span>
+      <section
+  id="intelligence-deck"
+  data-home-section
+  className="home-page twin-page home-horizontal-deck-page"
+>
+  <div className="home-horizontal-deck">
+    <section id="home-episteme" className="home-horizontal-card">
+      <Reveal>
+        <div className="an-section">
+          <span className="an-label">EPISTEME</span>
+          <h2 className="an-heading">
+            Question becomes
+            <br />
+            thinking space.
+          </h2>
+          <p className="an-body">
+            Episteme is the reasoning core that transforms questions into
+            intent, knowledge, constraints, possibilities, trade-offs, judgment,
+            and application.
+          </p>
+          <Link href="/episteme" className="an-button">
+            <p>Enter Episteme →</p>
+          </Link>
+        </div>
+      </Reveal>
+    </section>
 
-            <h2 className="an-heading">
-              Question becomes
-              <br />
-              thinking space.
-            </h2>
-
-            <p className="an-body">
-              Episteme is the reasoning core that transforms questions into
-              intent, knowledge, constraints, possibilities, trade-offs,
-              judgment, and application.
-            </p>
-
-            <Link href="/episteme" className="an-button">
-              <p>Enter Episteme →</p>
-            </Link>
-          </div>
-        </Reveal>
-      </section>
-
-      {/* BUILDER */}
-      <section id="home-builder" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">BUILDER</span>
-
-            <h2 className="an-heading">
-              Prompt becomes
-              <br />
-              code.
-            </h2>
-
-            <p className="an-body">
-              Builder is the execution layer that generates safe code outputs
-              through a simplified Prompt → Episteme → Code workflow.
-            </p>
-
-            <Link href="/builder" className="an-button">
-              <p>Enter Builder →</p>
-            </Link>
-          </div>
-        </Reveal>
-      </section>
+    <section id="home-builder" className="home-horizontal-card">
+      <Reveal>
+        <div className="an-section">
+          <span className="an-label">BUILDER</span>
+          <h2 className="an-heading">
+            Prompt becomes
+            <br />
+            code.
+          </h2>
+          <p className="an-body">
+            Builder is the execution layer that generates safe code outputs
+            through a simplified Prompt → Episteme → Code workflow.
+          </p>
+          <Link href="/builder" className="an-button">
+            <p>Enter Builder →</p>
+          </Link>
+        </div>
+      </Reveal>
+    </section>
+  </div>
+</section>
 
       {/* =========================
           Ⅲ CIVILIZATION
@@ -595,68 +579,59 @@ export default function Home() {
         </Reveal>
       </section>
 
-      {/* PROGRAMS */}
-      <section id="home-programs" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">CIVILIZATION PROGRAMS</span>
+      <section
+  id="civilization-deck"
+  data-home-section
+  className="home-page twin-page home-horizontal-deck-page"
+>
+  <div className="home-horizontal-deck">
+    <section id="home-programs" className="home-horizontal-card">
+      <Reveal>
+        <div className="an-section">
+          <span className="an-label">CIVILIZATION PROGRAMS</span>
+          <h2 className="an-heading">
+            Judgment
+            <br />
+            becomes
+            <br />
+            organized
+            <br />
+            action.
+          </h2>
+          <p className="an-body">
+            Programs translate constitutional principles, public dialogue,
+            evidence, Senate deliberation, and strategic priorities into
+            organized initiatives for implementation.
+          </p>
+          <Link href="/programs" className="an-button">
+            <p>Enter Programs →</p>
+          </Link>
+        </div>
+      </Reveal>
+    </section>
 
-            <h2 className="an-heading">
-              Judgment becomes
-              <br />
-              organized action.
-            </h2>
-
-            <p className="an-body">
-              Programs translate constitutional principles, public dialogue,
-              evidence, Senate deliberation, and strategic priorities into
-              organized initiatives for implementation.
-            </p>
-
-            <div className="an-grid-3">
-              <Link href="/programs" className="an-card">
-                <strong>Active Programs</strong>
-                <p>Ongoing initiatives moving from knowledge into capability.</p>
-              </Link>
-
-              <Link href="/projects" className="an-card">
-                <strong>Projects</strong>
-                <p>Concrete implementation paths and experimental work.</p>
-              </Link>
-
-              <Link href="/implementations" className="an-card">
-                <strong>Implementation</strong>
-                <p>Translate programs into operational capability.</p>
-              </Link>
-            </div>
-          </div>
-        </Reveal>
-      </section>
-
-      {/* CAPITAL */}
-      <section id="home-capital" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">CAPITAL</span>
-
-            <h2 className="an-heading">
-              Resources become
-              <br />
-              direction.
-            </h2>
-
-            <p className="an-body">
-              Capital evaluates resources, timing, legitimacy, partnerships,
-              and allocation so that civilizational priorities can move toward
-              sustainable implementation.
-            </p>
-
-            <Link href="/capital" className="an-button">
-              <p>Enter Capital →</p>
-            </Link>
-          </div>
-        </Reveal>
-      </section>
+    <section id="home-capital" className="home-horizontal-card">
+      <Reveal>
+        <div className="an-section">
+          <span className="an-label">CAPITAL</span>
+          <h2 className="an-heading">
+            Resources become
+            <br />
+            direction.
+          </h2>
+          <p className="an-body">
+            Capital evaluates resources, timing, legitimacy, partnerships, and
+            allocation so that civilizational priorities can move toward
+            sustainable implementation.
+          </p>
+          <Link href="/capital" className="an-button">
+            <p>Enter Capital →</p>
+          </Link>
+        </div>
+      </Reveal>
+    </section>
+  </div>
+</section>
 
       {/* =========================
           Ⅳ OBSERVATORY
@@ -691,55 +666,55 @@ export default function Home() {
         </Reveal>
       </section>
 
-      {/* SIGNALS */}
-      <section id="home-signals" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">SIGNALS</span>
-
-            <h2 className="an-heading">
-              Change becomes
-              <br />
-              observable.
-            </h2>
-
-            <p className="an-body">
-              Signals track scientific, technological, spatial, economic,
-              legal, and educational changes that may alter the long-term
-              trajectory of civilization.
-            </p>
-
-            <Link href="/architecture" className="an-button">
+      <section
+  id="observatory-deck"
+  data-home-section
+  className="home-page twin-page home-horizontal-deck-page"
+>
+  <div className="home-horizontal-deck">
+    <section id="home-signals" className="home-horizontal-card">
+      <Reveal>
+        <div className="an-section">
+          <span className="an-label">SIGNALS</span>
+          <h2 className="an-heading">
+            Change becomes
+            <br />
+            observable.
+          </h2>
+          <p className="an-body">
+            Signals track scientific, technological, spatial, economic, legal,
+            and educational changes that may alter the long-term trajectory of
+            civilization.
+          </p>
+          <Link href="/architecture" className="an-button">
             <p>Enter Signals →</p>
-            </Link>
-          </div>
-        </Reveal>
-      </section>
+          </Link>
+        </div>
+      </Reveal>
+    </section>
 
-      {/* REPORTS */}
-      <section id="home-reports" data-home-section className="home-page twin-page">
-        <Reveal>
-          <div className="an-section">
-            <span className="an-label">REPORTS</span>
-
-            <h2 className="an-heading">
-              Signals become
-              <br />
-              structured knowledge.
-            </h2>
-
-            <p className="an-body">
-              Reports convert observed signals into context, interpretation,
-              archives, and knowledge that can be used by Senate, Episteme,
-              Builder, Programs, and Court.
-            </p>
-
-            <Link href="/architecture" className="an-button">
+    <section id="home-reports" className="home-horizontal-card">
+      <Reveal>
+        <div className="an-section">
+          <span className="an-label">REPORTS</span>
+          <h2 className="an-heading">
+            Signals become
+            <br />
+            structured knowledge.
+          </h2>
+          <p className="an-body">
+            Reports convert observed signals into context, interpretation,
+            archives, and knowledge that can be used by Senate, Episteme,
+            Builder, Programs, and Court.
+          </p>
+          <Link href="/architecture" className="an-button">
             <p>Enter Reports →</p>
-            </Link>
-          </div>
-        </Reveal>
-      </section>
+          </Link>
+        </div>
+      </Reveal>
+    </section>
+  </div>
+</section>
 
       {/* =========================
           Ⅴ ARCHITECTURE
