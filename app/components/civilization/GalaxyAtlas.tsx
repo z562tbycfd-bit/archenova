@@ -43,7 +43,7 @@ export default function GalaxyAtlas() {
       <div className="an-galaxy-shell">
         <header className="an-galaxy-header">
           <span>ARCHENOVA</span>
-          <h2>Civilization Architecture Atlas</h2>
+          <h2>Civilization Architecture Galaxy</h2>
           <p>Choose a galaxy to enter the architectural layer</p>
         </header>
 
