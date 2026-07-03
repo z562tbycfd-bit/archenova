@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-03T20:16:37.272Z",
+  "updated": "2026-07-03T22:06:51.097Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How generative AI and physics can help design new antibiotics",
+      "url": "https://phys.org/news/2026-07-generative-ai-physics-antibiotics.html",
+      "summary": "By 2050, scientists estimate that antibiotic-resistant infections will be associated with more than 8 million deaths around the world every year.",
+      "ts": 1783116001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Megalodon's legendary life revealed by fossil rediscovery",
+      "url": "https://phys.org/news/2026-07-megalodon-legendary-life-revealed-fossil.html",
+      "summary": "Museums are supposed to be havens for the collective cultural and scientific heritage of the planet, but specimens sometimes go missing.",
+      "ts": 1783113602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Small-molecule switches put therapeutic CRISPR editing under on-demand control in living tissues",
+      "url": "https://phys.org/news/2026-07-small-molecule-therapeutic-crispr-demand.html",
+      "summary": "In a study published in Science Translational Medicine, a team of researchers led by Dr. Wang Yu from the Shenzhen Institutes of Advanced Technology of the Chinese Academy of Sciences developed PRINCE and Little Prince, …",
+      "ts": 1783111201000
+    },
     {
       "source": "Phys.org",
       "title": "Gentle nudges for increased animal welfare",
@@ -679,27 +700,6 @@
       "title": "Revealing Sharp Spectral Features with Complex Frequency Excitations: Challenges and Opportunities",
       "url": "https://arxiv.org/abs/2607.02211",
       "summary": "arXiv:2607.02211v1 Announce Type: new Abstract: Broadening of spectral and spatial responses due to intrinsic loss in real materials often hides sharp features. One recently recognized route to recover those features is …",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Storm Track Self-Reinforcement Through Cloud Radiative Effects",
-      "url": "https://arxiv.org/abs/2607.02213",
-      "summary": "arXiv:2607.02213v1 Announce Type: new Abstract: Traditionally, midlatitude storm tracks are viewed as being driven by meridional temperature gradients maintained by differential solar heating. Yet in the Southern Hemisph…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Patagium and tail morphology shape aerodynamic performance and control authority in gliding-mammal-inspired wings",
-      "url": "https://arxiv.org/abs/2607.02246",
-      "summary": "arXiv:2607.02246v1 Announce Type: new Abstract: Gliding mammals exhibit diverse patagium and tail/uropatagium morphologies that may influence aerodynamic performance and maneuverability. Here, we use computational fluid …",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of surfactant kinetics on the wetting following the drop impact onto rough surfaces",
-      "url": "https://arxiv.org/abs/2607.02309",
-      "summary": "arXiv:2607.02309v1 Announce Type: new Abstract: We experimentally analyze the effect of a surfactant on wetting following drop impact on rough surfaces, paying special attention to the role of dynamic surface tension. To…",
       "ts": 1783051200000
     }
   ],

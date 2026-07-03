@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-03T20:16:39.829Z",
+  "updated": "2026-07-03T22:06:53.124Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Pegasus launches Swift reboost mission",
+      "url": "https://spacenews.com/pegasus-launches-swift-reboost-mission/",
+      "summary": "A Pegasus XL launched a mission to reboost a NASA astrophysics spacecraft on what may be the final flight of that rocket. The post Pegasus launches Swift reboost mission appeared first on SpaceNews.",
+      "ts": 1783112134000,
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": " A device that revives eyeballs from dead donors could make eye transplants possible",
@@ -711,14 +719,6 @@
       "title": "Effective population sizes for asymmetrically regulated birth-death processes",
       "url": "https://arxiv.org/abs/2607.00628",
       "summary": "arXiv:2607.00628v1 Announce Type: new Abstract: In multispecies birth-death processes, how population regulation -- through suppressed replication, elevated mortality, or both -- affects macroscopic stochastic dynamics h…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DRIADA: A Python Toolkit for Cross-Scale Analysis of Single-Neuron Selectivity and Population Dynamics",
-      "url": "https://arxiv.org/abs/2607.00851",
-      "summary": "arXiv:2607.00851v1 Announce Type: new Abstract: Brain activity spans single-neuron, population, and network levels, and core questions in neural coding require moving between them. Yet current tools target a single parad…",
       "ts": 1782964800000,
       "categoryId": "bio"
     }
