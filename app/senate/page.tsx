@@ -297,6 +297,7 @@ export default function SenatePage() {
 </section>
 
 
+
 <section className="glass-block senate-evidence-wall-block">
   <Reveal>
     <span className="home-section-label">EVIDENCE WALL</span>
