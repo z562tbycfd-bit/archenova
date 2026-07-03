@@ -4,8 +4,7 @@ import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import GateFragments from "../components/GateFragments";
 import CivilizationOrbitEngine from "../components/CivilizationOrbitEngine";
-import CivilizationCapabilityScale from "../components/civilization/CivilizationConstellation";
-import CivilizationConstellation from "../components/civilization/CivilizationConstellation";
+import GalaxyAtlas from "../components/civilization/GalaxyAtlas";
 
 export default function Home() {
   return (
@@ -76,7 +75,7 @@ export default function Home() {
      {/* =========================
    CIVILIZATION ARCHITECTURE ATLAS
 ========================= */}
-<CivilizationConstellation />
+<GalaxyAtlas />
 
       {/* =========================
     ◈ ORIGIN

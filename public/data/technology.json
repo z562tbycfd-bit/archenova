@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-03T11:34:57.737Z",
+  "updated": "2026-07-03T13:40:46.535Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Week in images: 29 June - 03 July 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_29_June_-_03_July_2026",
+      "summary": "Week in images: 29 June - 03 July 2026 Discover our week through the lens",
+      "ts": 1783084500000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Chinese satellite manufacturer Hongqing raises $191 million",
+      "url": "https://spacenews.com/chinese-satellite-manufacturer-hongqing-raises-191-million/",
+      "summary": "HELSINKI — Hongqing Technology, the satellite manufacturing affiliate of launch firm Landspace, has secured one of the largest single raises for a Chinese commercial satellite maker. The funding round, announced […] The …",
+      "ts": 1783084237000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Spots Star-Spangled Cosmic Scene",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spots-star-spangled-cosmic-scene/",
+      "summary": "More than 500,000 stars blaze red, white, and blue in this NASA Hubble image of the globular cluster Messier 3 (M3).",
+      "ts": 1783082523000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a smoking “endgame” and a new Elizabeth Bear story",
+      "url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The UK’s generational tobacco ban might not work. I’m supporting it anyway. —Jessi…",
+      "ts": 1783080600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "El Niño forecast to intensify, increasing likelihood of extreme weather",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167870",
+      "summary": "More blistering heatwaves and other weather extremes are becoming increasingly likely across the world now and in coming months, linked to strengthening El Niño conditions in the tropical Pacific, the UN World Meteorolog…",
+      "ts": 1783080000000,
+      "categoryId": "global-governance"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
@@ -17,6 +57,14 @@
       "summary": "Image: The Grand Canyon, a stunning natural feature in the landscape of Arizona, US, is featured in these two satellite views.",
       "ts": 1783065600000,
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Nuclear Science Boosts Crop Nutrition and Climate Resilience",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-science-boosts-crop-nutrition-and-climate-resilience",
+      "summary": "Agricultural systems worldwide are losing vital nutrients, reducing crop productivity, increasing costs for farmers and contributing to environmental pollution.",
+      "ts": 1783064667000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "arXiv q-bio",
@@ -671,54 +719,6 @@
       "title": "Active-GRPO: Adaptive Imitation and Self-Improving Reasoning for Molecular Optimization",
       "url": "https://arxiv.org/abs/2607.00531",
       "summary": "arXiv:2607.00531v1 Announce Type: cross Abstract: Scientific reasoning is an increasingly important capability of large language models, yet improving the robustness and efficiency of training such reasoning remains a ke…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PETIMOT: A Novel Framework for Inferring Protein Motions from Sparse Data Using SE(3)-Equivariant Graph Neural Networks",
-      "url": "https://arxiv.org/abs/2504.02839",
-      "summary": "arXiv:2504.02839v2 Announce Type: replace Abstract: Proteins move and deform to ensure their biological functions. Despite significant progress in protein structure prediction, approximating conformational ensembles at p…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reward function compression facilitates goal-dependent reinforcement learning",
-      "url": "https://arxiv.org/abs/2509.06810",
-      "summary": "arXiv:2509.06810v3 Announce Type: replace Abstract: Humans can uniquely assign value to novel, abstract outcomes to support reinforcement learning. However, this flexibility is cognitively costly and reduces learning eff…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neuronal electricality founded in murburn-thermodynamic principles: 1. Background and basic theoretical formulation",
-      "url": "https://arxiv.org/abs/2604.24772",
-      "summary": "arXiv:2604.24772v2 Announce Type: replace Abstract: Trans-membrane ion-gradients and fluxes are central to conventional electrical activity in aerobic cells/organelles. The Murburn concept offers novel physico-chemical m…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Host diversity and adaptive vector feeding preferences shape disease burden in vector-borne diseases",
-      "url": "https://arxiv.org/abs/2604.27113",
-      "summary": "arXiv:2604.27113v2 Announce Type: replace Abstract: Vector-borne diseases often involve multiple host species that differ in their ability to sustain transmission. At the same time, vector feeding preferences can change …",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Neuronal electricality founded in murburn-thermodynamic principles: 2. Comparisons, evidenced explanations, and predictions",
-      "url": "https://arxiv.org/abs/2605.00014",
-      "summary": "arXiv:2605.00014v2 Announce Type: replace Abstract: The analyses presented herein demonstrate that neuronal electrical activity can be consistently interpreted as a manifestation of murburn redox-mediated electronic dyna…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "scDataset: Scalable Data Loading for Deep Learning on Large-Scale Single-Cell Omics",
-      "url": "https://arxiv.org/abs/2506.01883",
-      "summary": "arXiv:2506.01883v3 Announce Type: replace-cross Abstract: Training deep learning models on single-cell datasets with hundreds of millions of cells requires loading data from disk, as these datasets exceed available memor…",
       "ts": 1782964800000,
       "categoryId": "bio"
     }

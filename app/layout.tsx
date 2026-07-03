@@ -1,4 +1,5 @@
-import "../styles/globals.css";
+import "@/styles/globals.css";
+import "@/styles/galaxy-atlas.css";
 import Menu from "./components/Menu";
 
 export const metadata = {
