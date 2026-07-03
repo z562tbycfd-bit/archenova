@@ -1,15 +1,7 @@
 {
   "ok": true,
-  "updated": "2026-07-03T04:30:55.196Z",
+  "updated": "2026-07-03T04:43:34.943Z",
   "items": [
-    {
-      "source": "NASA",
-      "title": "The Birthplace of the United States",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-birthplace-of-the-united-states-90513/",
-      "summary": "It was here the founders shaped the future of American government.",
-      "ts": 1783051200000,
-      "categoryId": "space"
-    },
     {
       "source": "arXiv q-bio",
       "title": "Noninvasive H3 K27M screening in pediatric diffuse midline glioma using radiomics on heterogeneous T2-weighted MRI",
@@ -217,6 +209,14 @@
       "summary": "arXiv:2606.31394v2 Announce Type: replace-cross Abstract: Artificial intelligence is transforming our capability to solve biological challenges. In dimensionality bottleneck regimes exacerbated by high-dimensional biolog…",
       "ts": 1783051200000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "The Birthplace of the United States",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-birthplace-of-the-united-states-90513/",
+      "summary": "It was here the founders shaped the future of American government.",
+      "ts": 1783051200000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
