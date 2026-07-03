@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-03T14:11:30.432Z",
+  "updated": "2026-07-03T16:27:24.489Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Captures Crimson Cloud Sparkling with White, Blue Stars",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-captures-crimson-cloud-sparkling-with-white-blue-stars/",
+      "summary": "Blue and white stars shine brightly against crimson gas in this image from NASA’s Hubble Space Telescope.",
+      "ts": 1783090877000,
+      "categoryId": "space"
+    },
     {
       "source": "ESA",
       "title": "Week in images: 29 June - 03 July 2026",
@@ -711,14 +719,6 @@
       "title": "Radial Interaction Tomography: Recognizing Non-Transitive Evolutionary Games from One Range-Expansion Image",
       "url": "https://arxiv.org/abs/2607.00378",
       "summary": "arXiv:2607.00378v1 Announce Type: cross Abstract: Colored sectors in a microbial range expansion encode more than lineage survival counts. We formulate a computer-vision inverse problem: from one endpoint image of an acc…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Active-GRPO: Adaptive Imitation and Self-Improving Reasoning for Molecular Optimization",
-      "url": "https://arxiv.org/abs/2607.00531",
-      "summary": "arXiv:2607.00531v1 Announce Type: cross Abstract: Scientific reasoning is an increasingly important capability of large language models, yet improving the robustness and efficiency of training such reasoning remains a ke…",
       "ts": 1782964800000,
       "categoryId": "bio"
     }

@@ -1,7 +1,98 @@
 {
   "ok": true,
-  "updated": "2026-07-03T14:11:27.875Z",
+  "updated": "2026-07-03T16:27:22.614Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "If we force online platforms to control harmful content, where does that leave sex ed?",
+      "url": "https://phys.org/news/2026-07-online-platforms-content-sex-ed.html",
+      "summary": "Most of us have attended sex ed classes in school. If we're lucky, we'll learn about consent and how to roll a condom onto a banana. But the classroom rarely goes into the specifics of sexual health and well-being—includ…",
+      "ts": 1783095604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultrafast scanning tunneling microscopy reaches the quantum mechanical space-time limit for the first time",
+      "url": "https://phys.org/news/2026-07-ultrafast-scanning-tunneling-microscopy-quantum.html",
+      "summary": "Werner Heisenberg's famous uncertainty principle describes one of the most intriguing features of quantum physics: certain pairs of physical quantities describing a particle, such as position and momentum, cannot simulta…",
+      "ts": 1783094406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study reveals systemic barriers slowing down circular plastics transition",
+      "url": "https://phys.org/news/2026-07-reveals-barriers-circular-plastics-transition.html",
+      "summary": "A new study from the University of Eastern Finland shows that the transition toward a circular plastics economy is hindered by systemic interdependencies and internal contradictions within ecosystems.",
+      "ts": 1783094401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Paleontological study shows climate change makes marine animals shrink",
+      "url": "https://phys.org/news/2026-07-paleontological-climate-marine-animals.html",
+      "summary": "Whether mussels, crustaceans or fish, marine animals have been responding to environmental crises with a reduction in body size for hundreds of millions of years. A new study by Friedrich-Alexander-Universität Erlangen-N…",
+      "ts": 1783093205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First assessment of online global trade in brachyuran land crabs",
+      "url": "https://phys.org/news/2026-07-online-global-brachyuran-crabs.html",
+      "summary": "New research has begun to lift the lid on the global online trade in land crabs, leading scientists to call for closer monitoring and regulation to better understand any effects it may be having on native populations and…",
+      "ts": 1783093204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers recreate a lost Ming Dynasty goldworking technique to make replica royal jewelry",
+      "url": "https://phys.org/news/2026-07-recreate-lost-ming-dynasty-goldworking.html",
+      "summary": "Chinese goldsmiths working during the Ming Dynasty were masters of their craft, capable of creating intricate and elaborate jewelry pieces. The evidence is there in the abundance of finds in royal and noble tombs across …",
+      "ts": 1783092003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tax-avoiding firms more likely to greenwash, analysis of 391 ASX companies suggests",
+      "url": "https://phys.org/news/2026-07-companies-tax-greenwash.html",
+      "summary": "Businesses today face growing dual pressures to deliver strong financial performance while also demonstrating environmental and social responsibility. New research from Murdoch University published in Business Strategy &…",
+      "ts": 1783092001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hot Jupiter winds reveal exoplanet magnetic fields for first time",
+      "url": "https://phys.org/news/2026-06-hot-jupiter-reveal-exoplanet-magnetic.html",
+      "summary": "Planets beyond our solar system can have magnetic fields similar to those closer to home, astronomers said Tuesday after observing extreme winds on scorching worlds known as \"hot Jupiters.\"",
+      "ts": 1783091402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Long-lived radio outburst from black hole exhibits properties of the early universe",
+      "url": "https://phys.org/news/2026-07-radio-outburst-black-hole-properties.html",
+      "summary": "Short-lived sources of radio radiation in the sky, known as radio transients, can originate in the vicinity of supermassive black holes in the centers of galaxies. They are the result of processes that take place under e…",
+      "ts": 1783090801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Narrow time windows shaped passage for salmon, trout and lamprey at Haringvliet sluices, 18-year analysis shows",
+      "url": "https://phys.org/news/2026-07-narrow-windows-passage-salmon-trout.html",
+      "summary": "A new study published in Movement Ecology describes how migratory fish passed through the Haringvliet Sluices before the introduction of Kierbeheer (the partial opening of the Haringvliet Sluices to allow limited saltwat…",
+      "ts": 1783089606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "JWST discovers a new barred spiral galaxy",
+      "url": "https://phys.org/news/2026-07-jwst-barred-spiral-galaxy.html",
+      "summary": "An international team of astronomers reports the discovery of a new massive barred spiral galaxy. The newfound galaxy, designated M1149-BSG-z5, was identified using the James Webb Space Telescope (JWST). The finding was …",
+      "ts": 1783089603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study demonstrates neurotransmitter communication in immune cells directly for the first time",
+      "url": "https://phys.org/news/2026-07-neurotransmitter-communication-immune-cells.html",
+      "summary": "Researchers at the University of Münster and Ruhr University Bochum have demonstrated for the first time in real time that the body's own defense cells use catecholamines—neurotransmitters such as dopamine and adrenaline…",
+      "ts": 1783088409000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How transformative competencies can be integrated into existing degree programs",
+      "url": "https://phys.org/news/2026-07-degree.html",
+      "summary": "Enabling people to reflect critically on societal changes and participate in meeting major challenges is the purpose of teaching transformative competencies. In a Perspective article published in the journal npj Climate …",
+      "ts": 1783088407000
+    },
     {
       "source": "Phys.org",
       "title": "Fighting an emerging threat to strawberry crops",
@@ -609,97 +700,6 @@
       "title": "Direct numerical simulations of turbulent drag reduction via piezoelectric actuation",
       "url": "https://arxiv.org/abs/2607.02398",
       "summary": "arXiv:2607.02398v1 Announce Type: new Abstract: We have conducted Direct Numerical Simulations of turbulent half-channel flow over realistic surface deformations at friction Reynolds number $Re_\\tau=200$. We generated th…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "APEIRON: composing smart TDAQ systems for high energy physics experiments",
-      "url": "https://arxiv.org/abs/2607.02429",
-      "summary": "arXiv:2607.02429v1 Announce Type: new Abstract: We present APEIRON, a distributed heterogeneous processing framework comprising both hardware architecture and software stack for multi-FPGA systems. Targeting smart trigge…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Microwave shielding of ultracold polar molecules on the transition $\\boldsymbol{n=1 \\rightarrow 2}$",
-      "url": "https://arxiv.org/abs/2607.02470",
-      "summary": "arXiv:2607.02470v1 Announce Type: new Abstract: We show that microwave shielding on the rotational transition $n=1\\rightarrow 2$ can be effective in preventing destructive collisions between ultracold polar molecules. It…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cryogenic RF characterization of the MAGO cavity for high-frequency gravitational-wave detection",
-      "url": "https://arxiv.org/abs/2607.02476",
-      "summary": "arXiv:2607.02476v1 Announce Type: new Abstract: Superconducting radio-frequency (SRF) cavities are promising resonant sensors for gravitational-wave detection in the kHz-MHz frequency range. We report the cryogenic RF ch…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strategic commitments shape collective cybersecurity under AI inequality",
-      "url": "https://arxiv.org/abs/2605.09415",
-      "summary": "arXiv:2605.09415v2 Announce Type: cross Abstract: The growing integration of AI into cybersecurity is reshaping the balance between attackers and defenders. When access to advanced AI-enabled defence tools is uneven, res…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SIMBA: ABidirectional Retrieval Forward Simulation Framework for Modeling FY-4A GIIRS Hyperspectral Infrared Radiances Toward NWP Applications",
-      "url": "https://arxiv.org/abs/2606.19943",
-      "summary": "arXiv:2606.19943v1 Announce Type: cross Abstract: Hyperspectral infrared observations are an important data source for numerical weather prediction (NWP) because they provide rich information on the vertical structure of…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact quantum time compatible with positive energy",
-      "url": "https://arxiv.org/abs/2607.01296",
-      "summary": "arXiv:2607.01296v1 Announce Type: cross Abstract: What would it be like to be in a superposition of yesterday, today, and tomorrow? This question may seem at best entertaining, but it is necessary, and exploring it allow…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hybrid Two-Level Transport Method with Solution Decomposition in Macro and Micro Components",
-      "url": "https://arxiv.org/abs/2607.01346",
-      "summary": "arXiv:2607.01346v1 Announce Type: cross Abstract: This paper presents a new hybrid MC/deterministic method for solving the one-group steady-state Boltzmann transport equation based on decomposition of solution in macro a…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stark-Broadened Profiles for Ionized Helium Lines Using Computer Simulations",
-      "url": "https://arxiv.org/abs/2607.01373",
-      "summary": "arXiv:2607.01373v1 Announce Type: cross Abstract: We present new and improved calculations of Stark-broadened profiles for ionized helium, a key ingredient in the spectroscopic analysis of helium-atmosphere DO white dwar…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The theory of electric dipole moments: the view from below",
-      "url": "https://arxiv.org/abs/2607.01443",
-      "summary": "arXiv:2607.01443v1 Announce Type: cross Abstract: Permanent electric dipole moments (EDMs) of nucleons, nuclei, atoms, and molecules are among the most sensitive probes of CP violation beyond the Standard Model and are i…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elasto-Hydrodynamic Propulsion of a Magnetically Actuated Filament",
-      "url": "https://arxiv.org/abs/2607.01512",
-      "summary": "arXiv:2607.01512v1 Announce Type: cross Abstract: We investigate the low-Reynolds-number propulsion of a slender elastic filament with a dipolar magnetic head actuated by an oscillating field in a viscous fluid by studyi…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mixing induced by microswimmers as probed by mutual information",
-      "url": "https://arxiv.org/abs/2607.01547",
-      "summary": "arXiv:2607.01547v1 Announce Type: cross Abstract: We investigate fluid mixing induced by microswimmers using mutual information as a global, information-theoretic measure of mixing efficiency. For a two-dimensional squir…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symmetry conservation with Trotterization and Quantum Phase Estimation",
-      "url": "https://arxiv.org/abs/2607.01560",
-      "summary": "arXiv:2607.01560v1 Announce Type: cross Abstract: Quantum algorithms for quantum chemistry and other many-body fermionic systems work by expressing the Hamiltonian in a basis of qubits and fragmenting the Hamiltonian int…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Predicting Novel Stable Materials for Experimental Synthesis",
-      "url": "https://arxiv.org/abs/2607.01713",
-      "summary": "arXiv:2607.01713v1 Announce Type: cross Abstract: Machine-learning-accelerated materials discovery has yielded large numbers of computationally stable compounds, yet many remain experimentally unrealized, underscoring a …",
       "ts": 1783051200000
     }
   ],
