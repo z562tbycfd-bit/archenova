@@ -3076,3 +3076,46 @@
     display: none !important;
   }
 }
+
+/* Galaxy Atlas — Mobile Final Polish */
+
+@media (max-width: 768px) {
+  .an-galaxy-header h2 {
+    font-size: clamp(1.35rem, 6.2vw, 1.9rem) !important;
+    letter-spacing: 0.06em !important;
+    line-height: 1.12 !important;
+    max-width: 82vw !important;
+    margin-inline: auto !important;
+  }
+
+  .an-galaxy-header p {
+    max-width: 70vw !important;
+    font-size: 0.48rem !important;
+    letter-spacing: 0.14em !important;
+  }
+
+  .an-galaxy-map {
+    margin-top: -1.2rem !important;
+    transform: scale(0.92) !important;
+    transform-origin: center !important;
+  }
+
+  .an-galaxy-label strong {
+    white-space: nowrap !important;
+    font-size: 0.42rem !important;
+    letter-spacing: 0.06em !important;
+  }
+
+  .an-galaxy-node-integration .an-galaxy-label strong::after,
+  .an-galaxy-node-expansion .an-galaxy-label strong::after,
+  .an-galaxy-node-dialogue .an-galaxy-label strong::after,
+  .an-galaxy-node-sustainable .an-galaxy-label strong::after {
+    content: none !important;
+  }
+
+  .an-galaxy-footer {
+    margin-top: -0.8rem !important;
+    font-size: 0.52rem !important;
+    letter-spacing: 0.11em !important;
+  }
+}
