@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-03T04:43:31.605Z",
+  "updated": "2026-07-03T08:11:30.808Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Wildfires rage in southern France, 3,000 people evacuated",
+      "url": "https://phys.org/news/2026-07-wildfires-rage-southern-france-people.html",
+      "summary": "Nearly 3,000 people have been evacuated in southwestern France as Prime Minister Sebastien Lecornu sounded the alarm over an early outbreak of wildfires in the wake of a record-breaking heat wave.",
+      "ts": 1783065602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan deploys bear cameras in mountains as attacks surge",
+      "url": "https://phys.org/news/2026-07-japan-deploys-cameras-mountains-surge.html",
+      "summary": "Japan has begun installing hundreds of cameras in its northern mountains as part of a nationwide survey of the bear population following a surge in maulings, an official told AFP on Thursday.",
+      "ts": 1783063801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two centuries on, experts unlock secrets of Red Sea and Gulf of Aden sailing chart",
+      "url": "https://phys.org/news/2026-07-centuries-experts-secrets-red-sea.html",
+      "summary": "Experts have unlocked secrets hidden for two hundred years in a beautiful navigational chart made for 18th century seafarers negotiating the Red Sea and Gulf of Aden. The paper scroll is evidence seafaring communities in…",
+      "ts": 1783063201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat dome roasts eastern US ahead of holiday weekend",
+      "url": "https://phys.org/news/2026-07-dome-roasts-eastern-holiday-weekend.html",
+      "summary": "Pools were packed and power grids strained as millions of Americans sweltered in stifling heat and humidity Thursday, with dangerous temperatures expected to hit major cities through the Fourth of July holiday weekend.",
+      "ts": 1783062784000
+    },
     {
       "source": "Phys.org",
       "title": "Bottlenose dolphins in the Adriatic Sea seem to be heavily reliant on trawlers for food",
@@ -672,34 +700,6 @@
       "title": "Analyses on Christoph Clavius' Reports of Total Solar Eclipses in 1560 and 1567: Key References for the Centennial Variations of the Earth's Rotation Speed and the Solar Radius",
       "url": "https://arxiv.org/abs/2607.02347",
       "summary": "arXiv:2607.02347v1 Announce Type: cross Abstract: Variations in solar radius (hereafter R_Sun) is a key reference for solar magnetic activity in time. The sunlight amount may have varied with R_Sun and had an effect on t…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "New constraints on non-unitary neutrino mixing from 8 years of IceCube DeepCore atmospheric neutrino data",
-      "url": "https://arxiv.org/abs/2607.02355",
-      "summary": "arXiv:2607.02355v1 Announce Type: cross Abstract: The mixing between flavor and mass eigenstates of active neutrinos is described by a $3\\times3$ unitary matrix. However, the presence of additional heavy sterile neutrino…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Complex dynamics in the Sherrington-Kirkpatrick game",
-      "url": "https://arxiv.org/abs/2607.02422",
-      "summary": "arXiv:2607.02422v1 Announce Type: cross Abstract: We study the outcome of adaptive learning of a large number of players engaging in sets of two-strategy two-player games. We are interested in typical games, and generate…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-Auditing Residual Drifting for Pathology-Preserving Accelerated Knee MRI",
-      "url": "https://arxiv.org/abs/2607.02428",
-      "summary": "arXiv:2607.02428v1 Announce Type: cross Abstract: Accelerated magnetic resonance imaging reduces acquisition time, but reconstruction from undersampled k-space can blur diagnostically relevant structures or introduce fai…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond Adam: SOAP and Muon for Faster, Label-Efficient Training of Machine Learning Interatomic Potentials",
-      "url": "https://arxiv.org/abs/2607.02499",
-      "summary": "arXiv:2607.02499v1 Announce Type: cross Abstract: Machine learning interatomic potentials (MLIPs) have become a hallmark of AI for scientific simulation. While efforts on new architectures and datasets have led to increa…",
       "ts": 1783051200000
     }
   ],
