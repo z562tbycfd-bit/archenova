@@ -4,6 +4,8 @@ import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import GateFragments from "../components/GateFragments";
 import CivilizationOrbitEngine from "../components/CivilizationOrbitEngine";
+import CivilizationCapabilityScale from "../components/civilization/CivilizationConstellation";
+import CivilizationConstellation from "../components/civilization/CivilizationConstellation";
 
 export default function Home() {
   return (
@@ -70,6 +72,11 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
+
+     {/* =========================
+   CIVILIZATION ARCHITECTURE ATLAS
+========================= */}
+<CivilizationConstellation />
 
       {/* =========================
     ◈ ORIGIN

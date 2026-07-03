@@ -79,7 +79,7 @@ export default function SenatePage() {
      <div className="senate-entrance-ring">
 
        <div className="senate-entrance-core">
-         ◎
+         ♖
        </div>
 
      </div>
@@ -853,64 +853,67 @@ export default function SenatePage() {
   </Reveal>
 </section>
 
-      <section className="glass-block senate-constitution-check-block">
-        <Reveal>
-          <span className="home-section-label">CONSTITUTION CHECK</span>
+      <section className="glass-block senate-constitution-review-block">
+  <Reveal>
+    <span className="home-section-label">CONSTITUTION REVIEW</span>
 
-          <h2>
-            Every resolution must pass
-            <br />
-            constitutional coherence.
-          </h2>
+    <h2>
+      Every resolution must pass
+      <br />
+      constitutional review.
+    </h2>
 
-          <p className="page-lead">
-            Senate resolutions remain provisional until they are tested against
-            the Constitution, Foundation, evidence quality, and long-term
-            continuity.
-          </p>
+    <p className="page-lead">
+      Before execution, each Senate Resolution is reviewed against the
+      Constitution, Foundation, Evidence, Continuity, and Court authority.
+    </p>
 
-          <div className="senate-check-grid">
-            {chamberAgenda.slice(0, 4).map((agenda) => (
-              <article key={agenda.programSlug} className="senate-check-card">
-                <div className="senate-check-header">
-                  <span>{agenda.programId}</span>
-                  <strong>Under Review</strong>
-                </div>
-
-                <h3>{agenda.title}</h3>
-
-                <div className="senate-check-list">
-                  <div className="senate-check-row passed">
-                    <span>Constitution</span>
-                    <strong>Aligned</strong>
-                  </div>
-
-                  <div className="senate-check-row passed">
-                    <span>Foundation</span>
-                    <strong>Coherent</strong>
-                  </div>
-
-                  <div className="senate-check-row caution">
-                    <span>Evidence</span>
-                    <strong>Requires review</strong>
-                  </div>
-
-                  <div className="senate-check-row pending">
-                    <span>Court</span>
-                    <strong>Pending</strong>
-                  </div>
-                </div>
-
-                <p className="senate-check-note">
-                  This agenda may proceed only after Court confirms that the
-                  draft direction remains consistent with ArcheNova&apos;s
-                  constitutional constraints.
-                </p>
-              </article>
-            ))}
+    <div className="senate-review-grid">
+      {consensus.slice(0, 4).map((item) => (
+        <article key={item.programSlug} className="senate-review-card">
+          <div className="senate-review-header">
+            <span>{item.programId}</span>
+            <strong>{item.nextInstitution}</strong>
           </div>
-        </Reveal>
-      </section>
+
+          <h3>{item.title}</h3>
+
+          <div className="senate-review-checklist">
+            <div className="senate-review-row passed">
+              <span>Constitution</span>
+              <strong>Aligned</strong>
+            </div>
+
+            <div className="senate-review-row passed">
+              <span>Foundation</span>
+              <strong>Coherent</strong>
+            </div>
+
+            <div className="senate-review-row caution">
+              <span>Evidence</span>
+              <strong>Review Required</strong>
+            </div>
+
+            <div className="senate-review-row pending">
+              <span>Court</span>
+              <strong>Pending</strong>
+            </div>
+
+            <div className="senate-review-row passed">
+              <span>Continuity</span>
+              <strong>Preserved</strong>
+            </div>
+          </div>
+
+          <div className="senate-review-verdict">
+            <span>Review Verdict</span>
+            <strong>{item.finalRecommendation}</strong>
+          </div>
+        </article>
+      ))}
+    </div>
+  </Reveal>
+</section>
 
       <section className="glass-block">
         <Reveal>

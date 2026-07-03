@@ -1,7 +1,223 @@
 {
   "ok": true,
-  "updated": "2026-07-03T00:09:04.187Z",
+  "updated": "2026-07-03T04:30:55.196Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "The Birthplace of the United States",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-birthplace-of-the-united-states-90513/",
+      "summary": "It was here the founders shaped the future of American government.",
+      "ts": 1783051200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Noninvasive H3 K27M screening in pediatric diffuse midline glioma using radiomics on heterogeneous T2-weighted MRI",
+      "url": "https://arxiv.org/abs/2607.01497",
+      "summary": "arXiv:2607.01497v1 Announce Type: new Abstract: Histone H3K27M mutation status defines a clinically aggressive subgroup of pediatric diffuse midline glioma and informs prognosis and trial eligibility, but confirmation us…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "scMTNI: Leveraging cellular trajectory and context to infer dynamic GRNs from single-cell multi-omics data",
+      "url": "https://arxiv.org/abs/2607.01508",
+      "summary": "arXiv:2607.01508v1 Announce Type: new Abstract: Transcriptional gene regulatory networks (GRNs) depict the directed relationships between regulators and target genes, determining gene expression patterns in a cell-type-s…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "GlycoMAC: A Multiscale Metabolic-Glycosylation Framework for Predicting Glycosylation Across Conditions in Mammalian Cell Cultures",
+      "url": "https://arxiv.org/abs/2607.01725",
+      "summary": "arXiv:2607.01725v1 Announce Type: new Abstract: Antibody productivity and glycosylation quality in CHO cultures arise from a dynamically evolving metabolic environment, yet models often work in isolation or at a single s…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Identifiability Limits of Physics-Informed Inference for Spatial Stochastic Dynamics from Static Snapshots",
+      "url": "https://arxiv.org/abs/2607.01749",
+      "summary": "arXiv:2607.01749v1 Announce Type: new Abstract: Despite increasing scale and resolution, many biological measurements remain destructive, revealing only spatial information rather than the dynamics it encodes. By combini…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MERLIN-SUITE: Probabilistic modular GRN inference from multi-omics data integrating regulatory priors and transcription factor activity",
+      "url": "https://arxiv.org/abs/2607.01791",
+      "summary": "arXiv:2607.01791v1 Announce Type: new Abstract: Accurately reconstructing gene regulatory networks (GRNs) is essential for understanding transcriptional processes in development and disease. MERLIN-SUITE (https://github.…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Operant Conditioning in Indian Free-Ranging Dogs: Effects of Positive and Threatening Cues on Sociability",
+      "url": "https://arxiv.org/abs/2607.02056",
+      "summary": "arXiv:2607.02056v1 Announce Type: new Abstract: Sociability toward humans is a key adaptive trait in free-ranging dogs, enabling them to access resources while navigating risks associated with human interactions. In this…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Structured Gaussian Processes for Uncertainty-Aware Classification of High-Dimensional, Small-Sampled Omics Data",
+      "url": "https://arxiv.org/abs/2607.02103",
+      "summary": "arXiv:2607.02103v1 Announce Type: new Abstract: Classifying heterogeneous omics data remains a fundamental challenge in computational biology, particularly in high-dimensional, small-sample settings where nonlinear inter…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Affinage: genome-scale mechanistic gene annotation from the published literature",
+      "url": "https://arxiv.org/abs/2607.02217",
+      "summary": "arXiv:2607.02217v1 Announce Type: new Abstract: Understanding the mechanistic function of a gene is a critical starting point for biology. However, for much of the human proteome that knowledge is scattered across thousa…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Novel Machine Learning Approach for Central Nervous System Tumor Classification from DNA Methylation",
+      "url": "https://arxiv.org/abs/2607.01307",
+      "summary": "arXiv:2607.01307v1 Announce Type: cross Abstract: NA methylation profiling has become a powerful approach for central nervous system (CNS) tumor classification, yet important challenges remain regarding cross-cohort tran…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Enerzyme: A Framework for Efficient Training of Reactive Neural Network Potentials for Enzyme Catalysis with Application to Methyltransferases",
+      "url": "https://arxiv.org/abs/2607.01362",
+      "summary": "arXiv:2607.01362v1 Announce Type: cross Abstract: Quantum mechanical (QM) cluster models provide an effective framework for mechanistic studies of enzymatic reactions but remain computationally demanding. Neural network …",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps",
+      "url": "https://arxiv.org/abs/2607.01400",
+      "summary": "arXiv:2607.01400v1 Announce Type: cross Abstract: Deep multimodal brain-encoding models now predict fMRI responses to naturalistic video with high accuracy. Whether their predicted neural signals also forecast behavioral…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The Turning Point of 3D Plant Phenotyping: 3D Foundation Models Enable Minute-to-Second Cross-Crop Reconstruction and Beyond",
+      "url": "https://arxiv.org/abs/2607.01753",
+      "summary": "arXiv:2607.01753v1 Announce Type: cross Abstract: 3D plant phenotyping is notoriously known to be procedure-complicated and of low throughput due to the extensive multi-view imaging, the fragile 3D reconstruction pipelin…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MolSight: A Graph-Aware Vision-Language Model for Unified Chemical Image Understanding",
+      "url": "https://arxiv.org/abs/2607.01982",
+      "summary": "arXiv:2607.01982v1 Announce Type: cross Abstract: Using molecular large language models (LLMs) as a unified framework for understanding molecular structures and functions is emerging as a new trend in tasks such as molec…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Analysis of Evolving Cortical Neuronal Networks Using Visual Informatics",
+      "url": "https://arxiv.org/abs/2502.20862",
+      "summary": "arXiv:2502.20862v2 Announce Type: replace Abstract: Understanding how neuronal population activity changes during development and after stimulation is essential for studying neuronal network dynamics. This work examines …",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "One-step decellularization of porcine uterine tissue for developing alginate-decellularized uterine ECM hydrogel for uterine tissue engineering",
+      "url": "https://arxiv.org/abs/2506.15857",
+      "summary": "arXiv:2506.15857v2 Announce Type: replace Abstract: Decellularized uterine extracellular matrix (dUECM) is promising for uterine tissue engineering because of its inherent bioactivity and structural complexity. However, …",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Data-driven discovery of dynamical models in biology",
+      "url": "https://arxiv.org/abs/2509.06735",
+      "summary": "arXiv:2509.06735v2 Announce Type: replace Abstract: Dynamical systems theory provides a mathematical framework for describing how interacting biological components evolve over time and space, from molecular oscillators t…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Gravity-Awareness: Deep Learning Models and LLM Simulation of Human Awareness in Altered Gravity",
+      "url": "https://arxiv.org/abs/2511.05536",
+      "summary": "arXiv:2511.05536v2 Announce Type: replace Abstract: Earth s gravity fundamentally shapes human behaviour. The brain encodes this force as an internal model of gravity, enabling the prediction and interpretation of gravit…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Spatiotemporal bursting in simulated cultures of cortical neurons",
+      "url": "https://arxiv.org/abs/2602.22364",
+      "summary": "arXiv:2602.22364v2 Announce Type: replace Abstract: Cultures of neurons grown on multi-electrode arrays have become a common experimental preparation for investigating developing neural networks. Experiment and simulatio…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A frozen rate operator from the complete larval connectome: degree and weight govern the gross response, exact wiring governs input routing and mushroom-body modes",
+      "url": "https://arxiv.org/abs/2606.17745",
+      "summary": "arXiv:2606.17745v2 Announce Type: replace Abstract: Connectome-constrained models now reproduce neural activity in several systems, yet each inherits a circuit's degree and weight statistics along with its exact wiring, …",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Meta-Representational Predictive Coding: Neuroscience-Informed Self-Supervised Learning",
+      "url": "https://arxiv.org/abs/2503.21796",
+      "summary": "arXiv:2503.21796v2 Announce Type: replace-cross Abstract: Self-supervised learning has become an increasingly important paradigm in the domain of machine intelligence. Furthermore, evidence for self-supervised adaptation…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Stimulus Motion Perception Studies Imply Specific Neural Computations in Human Visual Stabilization",
+      "url": "https://arxiv.org/abs/2506.13506",
+      "summary": "arXiv:2506.13506v4 Announce Type: replace-cross Abstract: Even during fixation the human eye is constantly in low amplitude motion, jittering over small angles in random directions at up to 100Hz. This motion results in …",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Emergence: from physics to biology, sociology, and computer science",
+      "url": "https://arxiv.org/abs/2508.08548",
+      "summary": "arXiv:2508.08548v4 Announce Type: replace-cross Abstract: Many systems involve numerous interacting parts and the whole system can have properties that the individual parts do not. I take this novelty as the defining cha…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Psychological Imagination Networks Show Cross-Population Centrality and Clustering Alignment in Humans That Large Language Models Fail to Replicate",
+      "url": "https://arxiv.org/abs/2510.04391",
+      "summary": "arXiv:2510.04391v5 Announce Type: replace-cross Abstract: Mental imagery vividness is a stable individual trait, yet whether imagined scenarios share relational structure across human and synthetic large language model (…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Region-Specific Calibration Achieves Excellent Inter-Device Reliability for Smartphone Dermatology: A Multi-Device Benchmark on Korean Facial Skin",
+      "url": "https://arxiv.org/abs/2512.21988",
+      "summary": "arXiv:2512.21988v4 Announce Type: replace-cross Abstract: Background: Smartphone-based dermatology requires inter-device colorimetric reliability that holds across calibration regimes, yet quantitative multi-device bench…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "You ain't seen nothing, and yet: Future biochemical concentrations can be predicted with surprisingly high accuracy",
+      "url": "https://arxiv.org/abs/2602.00261",
+      "summary": "arXiv:2602.00261v2 Announce Type: replace-cross Abstract: Accurate sensing of chemical concentrations is essential for numerous biological processes. The accuracy of this sensing, for small numbers of molecules, is limit…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Resolving superposition in AI for interpretability and cross-modal alignment in patient-neuronal images",
+      "url": "https://arxiv.org/abs/2606.31394",
+      "summary": "arXiv:2606.31394v2 Announce Type: replace-cross Abstract: Artificial intelligence is transforming our capability to solve biological challenges. In dimensionality bottleneck regimes exacerbated by high-dimensional biolog…",
+      "ts": 1783051200000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Medicare takes another swing at 340B cuts to hospitals",
@@ -505,222 +721,6 @@
       "summary": "arXiv:2512.10279v4 Announce Type: replace-cross Abstract: We present an algorithm for computing evolutionarily stable strategies (ESSs) in symmetric perfect-recall extensive-form games of imperfect information. Our main …",
       "ts": 1782964800000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
-      "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
-      "summary": "As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale,…",
-      "ts": 1782963288000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "What’s Up: July 2026 Skywatching Tips from NASA",
-      "url": "https://science.nasa.gov/solar-system/whats-up-july-2026-skywatching-tips-from-nasa/",
-      "summary": "A predawn Moon-and-planets meetup, a returning comet, a great chance to see the Milky Way, and Saturn’s rings at a new angle. Skywatching Highlights Transcript An early morning hangout with the Moon and planets, a comet …",
-      "ts": 1782951742000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Critical surface strain regime for stable and active epitaxial platinum oxygen reduction electrocatalysts",
-      "url": "https://www.nature.com/articles/s41560-026-02108-4",
-      "summary": "",
-      "ts": 1782950400000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Statins and blood pressure drugs changing health risks of obesity, study suggests",
-      "url": "https://www.statnews.com/2026/07/01/lancet-obesity-blood-pressure-cholesterol-study/?utm_campaign=rss",
-      "summary": "New research shows obesity patients over 40 are managing blood pressure and cholesterol as well as healthy-weight peers, but younger adults remain at risk.",
-      "ts": 1782945000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Report links Starliner problems to overconfidence and unrealistic schedules",
-      "url": "https://spacenews.com/report-links-starliner-problems-to-overconfidence-and-unrealistic-schedules/",
-      "summary": "A new report links the long-running technical problems with Boeing’s CST-100 Starliner commercial crew vehicle to a combination of overconfidence, unrealistic schedules and NASA’s lack of insight into the vehicle. The po…",
-      "ts": 1782944341000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "First 3D Structure of Malaria’s “Moving Junction” Solves Infection Mystery",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/first-3d-structure-of-malarias-moving-junction-solves-infection-mystery/",
-      "summary": "Scientists visualized how the malaria parasite gains entry into RBCs through the ring-shaped moving junction, finding that the structure actively remodels the host cell’s membrane, and also confirming that binders to the…",
-      "ts": 1782941441000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Chandra Examines Milky Way at Arms’ Length",
-      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-examines-milky-way-at-arms-length/",
-      "summary": "A new result using NASA’s Chandra X-ray Observatory shows that the outer spiral arms in the Milky Way galaxy may reach wider than previously thought. This finding may lead astronomers to adjust their understanding of our…",
-      "ts": 1782937040000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "FCC to vote on satellite licensing overhaul July 22",
-      "url": "https://spacenews.com/fcc-to-vote-on-satellite-licensing-overhaul-july-22/",
-      "summary": "The FCC is set to vote July 22 on an order to overhaul its satellite application process, creating a “licensing assembly line” to keep up with increasingly large and complex constellation plans. The post FCC to vote on s…",
-      "ts": 1782935136000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "In Huntington’s Mouse, Optogenetic Activation of VIP Neurons Restores Brain Function",
-      "url": "https://www.genengnews.com/topics/translational-medicine/in-huntingtons-mouse-optogenetic-activation-of-vip-neurons-restores-brain-function/",
-      "summary": "Researchers identified VIP inhibitory neurons in Huntington’s disease and used optogenetics to restore motor neuron activity in mice, revealing a promising brain circuit target for future therapies. The post In Huntingto…",
-      "ts": 1782932161000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Biological Order Emerges from Tissue Boundaries, Drives Embryo Development",
-      "url": "https://www.genengnews.com/topics/drug-discovery/biological-order-emerges-from-tissue-boundaries-drives-embryo-development/",
-      "summary": "The edges of biological tissues create boundaries that help cells position in a magnet-like manner, giving order to developing embryos. The post Biological Order Emerges from Tissue Boundaries, Drives Embryo Development …",
-      "ts": 1782931640000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Seeks Volunteers for New Yearlong Simulated Moon, Mars Mission",
-      "url": "https://www.nasa.gov/humans-in-space/nasa-seeks-volunteers-for-new-yearlong-simulated-moon-mars-mission/",
-      "summary": "NASA is recruiting research participants for the agency’s next simulated deep space mission. Beginning no earlier than August 2027, research volunteers will spend one year living and working in interplanetary environment…",
-      "ts": 1782922514000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Digitize or Fall Behind",
-      "url": "https://www.genengnews.com/topics/bioprocessing/digitize-or-fall-behind/",
-      "summary": "Autolomous CEO Alexander Seyf warns that bioprocessing’s biggest obstacle is not science but data. He argues that digitization, collaboration, and sharing lessons from failed experiments are essential to accelerating inn…",
-      "ts": 1782921634000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Standardizing Personalized CRISPR Gene-Editing Therapies",
-      "url": "https://www.genengnews.com/topics/bioprocessing/standardizing-personalized-crispr-gene-editing-therapies/",
-      "summary": "Successfully treating Baby KJ with a personalized CRISPR gene-editing therapy is spurring the industry to investigate how to develop standardized manufacturing platforms as well as how individualized gene-editing product…",
-      "ts": 1782921611000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Blueprint to Fill the Manufacturing Talent Gap",
-      "url": "https://www.genengnews.com/topics/bioprocessing/a-blueprint-to-fill-the-manufacturing-talent-gap/",
-      "summary": "Manus’ new biomanufacturing apprentice program is designed as a blueprint to share with the industry, delivering in-depth, hands-on training and industry-ready work skills in only six months. The post Blueprint to Fill t…",
-      "ts": 1782921608000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Trait Combining Key to More Effective Vector Production Hosts",
-      "url": "https://www.genengnews.com/topics/bioprocessing/combining-traits-is-the-key-to-more-effective-vector-production-hosts/",
-      "summary": "Currently available cell lines used to make viral vectors for gene therapy production have significant shortcomings, according to new analysis, which suggests efforts to develop alternatives should focus on engineering p…",
-      "ts": 1782921606000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "LINK Spacecraft Set for Mission to Boost NASA’s Swift Observatory",
-      "url": "https://www.nasa.gov/image-article/link-spacecraft-set-for-mission-to-boost-nasas-swift-observatory/",
-      "summary": "A first-of-its-kind mission to raise the orbit of NASA’s Neil Gehrels Swift Observatory is poised for launch no earlier than Thursday, July 2, 5:09 a.m. EDT (9:09 p.m. UTC+12), from Kwajalein Atoll, part of the Republic …",
-      "ts": 1782919229000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The moment Anthropic convinced me it’s serious about science",
-      "url": "https://www.statnews.com/2026/07/01/anthropic-claude-science-convinced-me-its-serious-ai-prognosis/?utm_campaign=rss",
-      "summary": "AI Prognosis: The release of Claude Science suggests big model makers are getting serious about real science, and not just flashy problems.",
-      "ts": 1782918707000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
-      "summary": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Su…",
-      "ts": 1782918000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Webb studies how a planet survived the death of its star",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
-      "summary": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecti…",
-      "ts": 1782918000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 4934-4940: In the Land of the Polygons",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4934-4940-in-the-land-of-the-polygons/",
-      "summary": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, June 26, 2026 There were two planning cycles over this span of sols. The Monday planning took place with Curiosi…",
-      "ts": 1782916906000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
-      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
-      "summary": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “A…",
-      "ts": 1782916516000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Synthetic biology researchers think they’ve made a cell. Is it alive?",
-      "url": "https://www.statnews.com/2026/07/01/synthethic-biology-researcher-announce-creation-spud-cells/?utm_campaign=rss",
-      "summary": "Researchers have created what they say may count as the first synthetic cell, and have started a public benefit corporation to share the technology with other scientists. It’s a piece…",
-      "ts": 1782915439000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Caltech Welcomes Astrophysicist Ray Jayawardhana as New President",
-      "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-welcomes-astrophysicist-ray-jayawardhana-as-new-president/",
-      "summary": "Ray Jayawardhana begins his tenure today as the 10th president of the California Institute of Technology. His selection as Caltech’s president, and as the Sonja and William Davidow Presidential Chair and professor of ast…",
-      "ts": 1782915388000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Mediterranean Sea breaks June surface heat record",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Mediterranean_Sea_breaks_June_surface_heat_record",
-      "summary": "Image: This image shows the sea surface temperature anomaly detected in the Mediterranean Sea on 29 June 2026.",
-      "ts": 1782913500000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Anthropic drug development goals, Trump drug plan snags, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/01/anthropic-drug-development-goals-trump-plan-hitting-snag/?utm_campaign=rss",
-      "summary": "Anthropic announced the availability of Claude Science, which optimizes its large language model for use in scientific labs and by drugmakers",
-      "ts": 1782913283000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: More signs that GLP-1s may help with peripheral artery disease",
-      "url": "https://www.statnews.com/2026/07/01/biotech-news-glp-1s-may-help-with-peripheral-artery-disease/?utm_campaign=rss",
-      "summary": "Anthropic will begin developing drugs, BridgeBio pockets a billion, and more biotech news from The Readout",
-      "ts": 1782913078000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and Partners Build in America, for America",
-      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
-      "summary": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discove…",
-      "ts": 1782910847000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
