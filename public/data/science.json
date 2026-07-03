@@ -1,7 +1,49 @@
 {
   "ok": true,
-  "updated": "2026-07-03T16:27:22.614Z",
+  "updated": "2026-07-03T18:14:31.528Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Giant wheat starch granules—a leap forward in biological engineering with potential benefits for diet, manufacturing",
+      "url": "https://phys.org/news/2026-07-giant-wheat-starch-granules-biological.html",
+      "summary": "Scientists have grown wheat containing supersized starch granules—a leap forward in biological engineering with potential benefits for our daily diets and a raft of industrial applications.",
+      "ts": 1783101610000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newfound family ties link Scythian elite burials across the Eurasian steppe",
+      "url": "https://phys.org/news/2026-07-newfound-family-link-scythian-elite.html",
+      "summary": "A new ancient DNA study published in Science Advances provides evidence that political power among Scythian elites may have been inherited through family lineages that extended across multiple burial sites. By combining …",
+      "ts": 1783101609000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mammals use the same underlying system—preserved through evolution—to process smells",
+      "url": "https://phys.org/news/2026-07-mammals-underlying-evolution.html",
+      "summary": "Picture a mouse taking rapid, staccato sniffs of a crumb it's found while foraging for food. Now compare that with a human leaning in for a single, deep inhale to gauge whether a cantaloupe is ripe. New research from Nor…",
+      "ts": 1783101606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A benchmark for how different disturbances influence the loss and recovery of carbon and CO₂ in tropical forests",
+      "url": "https://phys.org/news/2026-07-benchmark-disturbances-loss-recovery-carbon.html",
+      "summary": "Tropical moist forests account for 70% of global living biomass. Deforestation and degradation—that is, the partial damage to tree stands—as well as the subsequent regeneration of forests therefore play a pivotal role in…",
+      "ts": 1783101604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Antarctic ozone loss drove unexpected Southern Ocean cooling, climate model shows",
+      "url": "https://phys.org/news/2026-07-antarctic-ozone-loss-drove-unexpected.html",
+      "summary": "The Southern Ocean has long stood out as an oddity in the global climate system. While most of the planet's surface oceans have warmed in response to rising greenhouse gases, waters circling Antarctica showed an unexpect…",
+      "ts": 1783099201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Colony connections determine ant wound care: Transitional workers treat injured nestmates",
+      "url": "https://phys.org/news/2026-07-colony-ant-wound-transitional-workers.html",
+      "summary": "Patients in hospitals generally trust the nursing staff. After all, they have undergone training and, in some cases, have several years of professional experience. In the case of carpenter ants, it is not nursing experti…",
+      "ts": 1783098001000
+    },
     {
       "source": "Phys.org",
       "title": "If we force online platforms to control harmful content, where does that leave sex ed?",
@@ -658,48 +700,6 @@
       "title": "Molecular interpretability of the bulk electrochemical impedance of concentrated electrolytes",
       "url": "https://arxiv.org/abs/2607.02316",
       "summary": "arXiv:2607.02316v1 Announce Type: new Abstract: Electrochemical impedance spectroscopy (EIS) is a widely used technique to understand time-dependent response and relaxation under applied voltage. While these spectra cont…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transiently Driven Reflectionless Resonant Microwave Plasmas via Virtual Critical Coupling",
-      "url": "https://arxiv.org/abs/2607.02323",
-      "summary": "arXiv:2607.02323v1 Announce Type: new Abstract: Microwave plasma sources play a critical role in scientific research and a wide range of industrial, biomedical, and space applications. Resonant microwave structures have …",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Limits to Ground-State Cooling of Traveling Hypersound Phonons",
-      "url": "https://arxiv.org/abs/2607.02350",
-      "summary": "arXiv:2607.02350v1 Announce Type: new Abstract: The steady final phonon occupation in waveguide optomechanical systems based on backward stimulated Brillouin-Mandelstam scattering has not been established in the strong-c…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topology optimized plasmonic metasurfaces for optical trapping of nanoparticles",
-      "url": "https://arxiv.org/abs/2607.02352",
-      "summary": "arXiv:2607.02352v1 Announce Type: new Abstract: Smart metasurfaces capable of employing the momentum of light for manipulating nanoparticles hold the key to potential applications in science and nanotechnology. This arti…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Brilliant multi-GeV Compton gamma-ray source seeded by a photon accelerator",
-      "url": "https://arxiv.org/abs/2607.02373",
-      "summary": "arXiv:2607.02373v1 Announce Type: new Abstract: High-brilliance sources of polarized gamma rays are widely sought after to pump and probe matter at subatomic length scales. However, existing accelerator facilities and op…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Inner-Scaled Linear Contribution to Wall-Pressure Variance at High Reynolds Number",
-      "url": "https://arxiv.org/abs/2607.02395",
-      "summary": "arXiv:2607.02395v1 Announce Type: new Abstract: In canonical turbulent wall-bounded flows, the inner-scaled wall-pressure variance is empirically well described by a constant offset plus a slope logarithmic in the fricti…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct numerical simulations of turbulent drag reduction via piezoelectric actuation",
-      "url": "https://arxiv.org/abs/2607.02398",
-      "summary": "arXiv:2607.02398v1 Announce Type: new Abstract: We have conducted Direct Numerical Simulations of turbulent half-channel flow over realistic surface deformations at friction Reynolds number $Re_\\tau=200$. We generated th…",
       "ts": 1783051200000
     }
   ],

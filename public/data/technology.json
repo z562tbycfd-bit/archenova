@@ -1,13 +1,29 @@
 {
   "ok": true,
-  "updated": "2026-07-03T16:27:24.489Z",
+  "updated": "2026-07-03T18:14:33.709Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": " A device that revives eyeballs from dead donors could make eye transplants possible",
+      "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
+      "summary": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted ey…",
+      "ts": 1783100077000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "NASA’s Hubble Captures Crimson Cloud Sparkling with White, Blue Stars",
       "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-captures-crimson-cloud-sparkling-with-white-blue-stars/",
       "summary": "Blue and white stars shine brightly against crimson gas in this image from NASA’s Hubble Space Telescope.",
       "ts": 1783090877000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "The most spectacular aurora of the εpsilon mission (so far!)",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/The_most_spectacular_aurora_of_the_epsilon_mission_so_far!",
+      "summary": "Video: 00:01:17 This timelapse was published on social media by ESA astronaut Sophie Adenot with the following caption: Day 139, orbit 2155 — After the pictures (available in HD on my Flickr account), I'm so happy to fin…",
+      "ts": 1783089000000,
       "categoryId": "space"
     },
     {
@@ -73,6 +89,14 @@
       "summary": "Agricultural systems worldwide are losing vital nutrients, reducing crop productivity, increasing costs for farmers and contributing to environmental pollution.",
       "ts": 1783064667000,
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "The Birthplace of the United States",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-birthplace-of-the-united-states-90513/",
+      "summary": "It was here the founders shaped the future of American government.",
+      "ts": 1783051200000,
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -281,14 +305,6 @@
       "summary": "arXiv:2606.31394v2 Announce Type: replace-cross Abstract: Artificial intelligence is transforming our capability to solve biological challenges. In dimensionality bottleneck regimes exacerbated by high-dimensional biolog…",
       "ts": 1783051200000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "The Birthplace of the United States",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-birthplace-of-the-united-states-90513/",
-      "summary": "It was here the founders shaped the future of American government.",
-      "ts": 1783051200000,
-      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -703,22 +719,6 @@
       "title": "Immune history shapes recurrent epidemics of antigenically related variants",
       "url": "https://arxiv.org/abs/2607.00905",
       "summary": "arXiv:2607.00905v1 Announce Type: new Abstract: Population immunity carried over from past epidemics of an antigenically variable pathogen influences the epidemic of new variants based on their antigenic similarity to th…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Approximating Peak Prevalence in Multistage SIR Epidemics",
-      "url": "https://arxiv.org/abs/2607.01014",
-      "summary": "arXiv:2607.01014v1 Announce Type: new Abstract: Estimating peak prevalence is a central problem in epidemic modeling because it determines the period of greatest infectious burden and is closely linked to health-care dem…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Radial Interaction Tomography: Recognizing Non-Transitive Evolutionary Games from One Range-Expansion Image",
-      "url": "https://arxiv.org/abs/2607.00378",
-      "summary": "arXiv:2607.00378v1 Announce Type: cross Abstract: Colored sectors in a microbial range expansion encode more than lineage survival counts. We formulate a computer-vision inverse problem: from one endpoint image of an acc…",
       "ts": 1782964800000,
       "categoryId": "bio"
     }
