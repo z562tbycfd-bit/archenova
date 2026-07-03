@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-03T08:11:33.892Z",
+  "updated": "2026-07-03T11:34:57.737Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
+      "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
+      "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And the…",
+      "ts": 1783069200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Grand Canyon, US",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Grand_Canyon_US",
+      "summary": "Image: The Grand Canyon, a stunning natural feature in the landscape of Arizona, US, is featured in these two satellite views.",
+      "ts": 1783065600000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Noninvasive H3 K27M screening in pediatric diffuse midline glioma using radiomics on heterogeneous T2-weighted MRI",
@@ -703,22 +719,6 @@
       "title": "scDataset: Scalable Data Loading for Deep Learning on Large-Scale Single-Cell Omics",
       "url": "https://arxiv.org/abs/2506.01883",
       "summary": "arXiv:2506.01883v3 Announce Type: replace-cross Abstract: Training deep learning models on single-cell datasets with hundreds of millions of cells requires loading data from disk, as these datasets exceed available memor…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Unifying Statistical and Mathematical Modeling Through a Causal Inference Lens",
-      "url": "https://arxiv.org/abs/2511.01960",
-      "summary": "arXiv:2511.01960v3 Announce Type: replace-cross Abstract: Within the biological, physical, and social sciences, there are two broad quantitative traditions: statistical and mathematical modeling. Both traditions have the…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Computing Evolutionarily Stable Strategies in Imperfect-Information Games",
-      "url": "https://arxiv.org/abs/2512.10279",
-      "summary": "arXiv:2512.10279v4 Announce Type: replace-cross Abstract: We present an algorithm for computing evolutionarily stable strategies (ESSs) in symmetric perfect-recall extensive-form games of imperfect information. Our main …",
       "ts": 1782964800000,
       "categoryId": "bio"
     }

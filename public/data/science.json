@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-03T08:11:30.808Z",
+  "updated": "2026-07-03T11:34:55.881Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ph.D. project gives critical insights into vulnerable green turtles",
+      "url": "https://phys.org/news/2026-07-phd-critical-insights-vulnerable-green.html",
+      "summary": "A study into the foraging habits of green turtles in the Northern Territory has used an innovative surveying technique that could become a critical tool in monitoring marine habitats in remote and challenging environment…",
+      "ts": 1783077606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Congo River freshwater rides 49-day Atlantic eddy to travel 200 kilometers offshore",
+      "url": "https://phys.org/news/2026-07-congo-river-freshwater-day-atlantic.html",
+      "summary": "The Congo River is the second-largest river in the world, releasing an average of 40,000 cubic meters of water per second into the Atlantic Ocean. This huge discharge rate creates a large plume of fresh water that fans o…",
+      "ts": 1783077604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Complex food webs sustain ecosystem functioning",
+      "url": "https://phys.org/news/2026-07-complex-food-webs-sustain-ecosystem.html",
+      "summary": "Healthy ecosystems depend on more than just having lots of species—they rely on the complex relationships between plants, prey and predators, according to new international research led by the University of Waikato and t…",
+      "ts": 1783076401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Modest meat and dairy cuts could help Scotland lower emissions and keep diets affordable",
+      "url": "https://phys.org/news/2026-07-modest-meat-dairy-scotland-emissions.html",
+      "summary": "Modest changes to meat and dairy consumption could help Scotland meet climate goals while improving health and nutrition, research shows. A modeling study appearing in Nature Food found that using vegetables, beans and e…",
+      "ts": 1783069203000
+    },
     {
       "source": "Phys.org",
       "title": "Wildfires rage in southern France, 3,000 people evacuated",
@@ -672,34 +700,6 @@
       "title": "Efficient Large-Scale STEM-EELS Simulations With Torched-TACAW",
       "url": "https://arxiv.org/abs/2607.02236",
       "summary": "arXiv:2607.02236v1 Announce Type: cross Abstract: The time auto-correlation of auxiliary wave functions (TACAW) method enables efficient simulations of ultra-low-loss electron energy loss spectra (EELS) arising from vibr…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A transition-metal qubit in diamond with all-optical control and millisecond quantum memory",
-      "url": "https://arxiv.org/abs/2607.02258",
-      "summary": "arXiv:2607.02258v1 Announce Type: cross Abstract: Quantum networks require qubits that combine efficient optical access, coherent control, and long-lived quantum memory, but realizing all three in one scalable platform r…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time-Reversal and Reversible Dynamics in Cavity QED for Quantum Metrology",
-      "url": "https://arxiv.org/abs/2607.02320",
-      "summary": "arXiv:2607.02320v1 Announce Type: cross Abstract: Quantum-enhanced metrology relies on entanglement to achieve sensitivities beyond the standard quantum limit. While remarkable progress has been made in generating highly…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics",
-      "url": "https://arxiv.org/abs/2607.02329",
-      "summary": "arXiv:2607.02329v1 Announce Type: cross Abstract: Autonomous-research agents have demonstrated end-to-end LLM automation in machine-learning sandboxes where execution provides calibration. Frontier physical science diffe…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analyses on Christoph Clavius' Reports of Total Solar Eclipses in 1560 and 1567: Key References for the Centennial Variations of the Earth's Rotation Speed and the Solar Radius",
-      "url": "https://arxiv.org/abs/2607.02347",
-      "summary": "arXiv:2607.02347v1 Announce Type: cross Abstract: Variations in solar radius (hereafter R_Sun) is a key reference for solar magnetic activity in time. The sunlight amount may have varied with R_Sun and had an effect on t…",
       "ts": 1783051200000
     }
   ],
