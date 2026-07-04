@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-04T16:05:21.829Z",
+  "updated": "2026-07-04T18:03:31.905Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Common nanostructures may explain shared photoproperties in two widespread dark materials",
+      "url": "https://phys.org/news/2026-06-common-nanostructures-photoproperties-widespread-dark.html",
+      "summary": "A newly developed framework for understanding the photoproperties of both natural organic matter and eumelanin, a natural pigment responsible for dark colors in organisms, may inspire advanced sustainable technologies, s…",
+      "ts": 1783188001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "BC and Alberta fall behind on fracking safety distances for residents",
+      "url": "https://phys.org/news/2026-07-bc-alberta-fall-fracking-safety.html",
+      "summary": "In May, Prime Minister Mark Carney announced plans to double the capacity of Canada's electricity grid by 2050, using natural gas in the name of \"powering Canada strong.\" Almost all Canadian natural gas these days is der…",
+      "ts": 1783184405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Greenland meltwater adds to AMOC weakening, but updated model finds no tipping point in sight",
+      "url": "https://phys.org/news/2026-07-greenland-meltwater-amoc-weakening-sight.html",
+      "summary": "The state of the Atlantic Meridional Overturning Circulation (AMOC) has been a hot topic among climate scientists in recent years. The AMOC is crucial for climate regulation because it pulls warm surface water from the t…",
+      "ts": 1783184401000
+    },
     {
       "source": "Phys.org",
       "title": "A rare dinosaur fossil from Antarctica is found tucked away in a drawer",
@@ -97,6 +118,20 @@
       "source": "Nature Communications",
       "title": "Widespread controls of precipitation sensitivity on drought recovery of global forests",
       "url": "https://www.nature.com/articles/s41467-026-75320-1",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Dielectric-dependent hybrid functional based on meta-GGA",
+      "url": "https://www.nature.com/articles/s41467-026-75146-x",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "The BRCA1-A complex restricts replication fork reversal-dependent DNA repair in ATM deficient cells",
+      "url": "https://www.nature.com/articles/s41467-026-75271-7",
       "summary": "",
       "ts": 1783123200000
     },
@@ -665,41 +700,6 @@
       "title": "Development of a thin-target hard X-ray bremsstrahlung detection system to study confined runaway electrons in Aditya-U Tokamak",
       "url": "https://arxiv.org/abs/2607.01488",
       "summary": "arXiv:2607.01488v1 Announce Type: new Abstract: A specially shielded CdTe detector based hard X-ray (HXR) monitoring system equipped with a lead collimator has been developed and installed on the Aditya-U tokamak to inve…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards triggerless four-dimensional detectors for High Energy Physics collider experiments",
-      "url": "https://arxiv.org/abs/2607.01496",
-      "summary": "arXiv:2607.01496v1 Announce Type: new Abstract: High Energy Physics experiments at flagship colliders produce and process some of the biggest datasets on Earth, with the current generation of flagship experiments at the …",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Monolithic Integration of Piezo-Optomechanical Photonics and CMOS Electronics",
-      "url": "https://arxiv.org/abs/2607.01514",
-      "summary": "arXiv:2607.01514v1 Announce Type: new Abstract: Next-generation photonic architectures for AI, sensing, and quantum computing require thousands to millions of reprogrammable photonic devices on a chip[1]. The monolithic …",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Selling the Stock, Not the Cream: The Soviet \\'Emigr\\'e Career Premium of the 1990s",
-      "url": "https://arxiv.org/abs/2607.01521",
-      "summary": "arXiv:2607.01521v1 Announce Type: new Abstract: In the early-mid 1990s, scientists emigrating from the former Soviet Union to the United States -- especially physicists, engineers, chemists, and biologists -- frequently …",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symmetry and Topology in Wavepacket Dynamics near Conical Intersections",
-      "url": "https://arxiv.org/abs/2607.01529",
-      "summary": "arXiv:2607.01529v1 Announce Type: new Abstract: Whether topology directly shapes chemical dynamics remains an open question in theoretical chemistry. The issue arises because degeneracies of adiabatic electronic states c…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-dimensional simulations of hydrodynamic spin coupling in a two-rotor corral",
-      "url": "https://arxiv.org/abs/2607.01533",
-      "summary": "arXiv:2607.01533v1 Announce Type: new Abstract: We study hydrodynamic spin coupling in a two-rotor corral using DNS of 2D incompressible viscous fluid flow. An active rotor is driven at angular velocity W, and a nearby t…",
       "ts": 1783051200000
     }
   ],
