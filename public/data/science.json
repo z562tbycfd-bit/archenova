@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-04T20:11:09.670Z",
+  "updated": "2026-07-04T22:00:58.874Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "When companies face hostile takeover threats, they turn to ESG, and the whole community benefits",
+      "url": "https://phys.org/news/2026-06-companies-hostile-takeover-threats-esg.html",
+      "summary": "When a company faces the prospect of a hostile takeover, its board may reach for traditional anti-takeover defenses. \"Poison pills,\" for instance, allow existing shareholders to buy additional shares at a discount, dilut…",
+      "ts": 1783198801000
+    },
     {
       "source": "Phys.org",
       "title": "Optical writing of antiferromagnets points toward new storage devices and energy efficient information systems",
@@ -693,13 +700,6 @@
       "title": "Near-Term Emission Targets Need Immediate Attention in the USA",
       "url": "https://arxiv.org/abs/2607.01471",
       "summary": "arXiv:2607.01471v1 Announce Type: new Abstract: Given recent changes in federal climate policy, the United States is unlikely to meet its original 2030 Paris Agreement emission target of a 50-52% reduction from 2005 leve…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extended topological mode in a one-dimensional non-Hermitian acoustic crystal",
-      "url": "https://arxiv.org/abs/2607.01472",
-      "summary": "arXiv:2607.01472v1 Announce Type: new Abstract: In Hermitian topological systems, topological modes (TMs) are bound to interfaces or defects of a lattice. Recent discoveries show that non-Hermitian effects can reshape th…",
       "ts": 1783051200000
     }
   ],
