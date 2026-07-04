@@ -10,52 +10,22 @@ type ChapterTarget = {
 };
 
   const CHAPTER_TARGETS: ChapterTarget[] = [
+
+ 
   {
-    id: "chapter-origin",
-    mark: "◈",
-    title: "ORIGIN",
-    subtitle: "ARCHENOVA",
+    id: "home-hero",
+    mark: "✬",
+    title: "HERO",
+    subtitle: "ArcheNova",
   },
-  { id: "chapter-imperial-house",
-    mark: "✺",
-    title: "IMPERIAL HOUSE",
-    subtitle: "Emperor / Constitutions",},
-   {
-    id: "chapter-governance",
-    mark: "Ⅰ",
-    title: "GOVERNANCE",
-    subtitle: "Senate · Court",
-  },
+
   {
-    id: "chapter-intelligence",
-    mark: "Ⅱ",
-    title: "INTELLIGENCE",
-    subtitle: "Episteme · Builder",
+    id: "galaxy-atlas",
+    mark: "❂",
+    title: "GALAXY",
+    subtitle: "ArcheNova MAP",
   },
-  {
-    id: "chapter-civilization",
-    mark: "Ⅲ",
-    title: "CIVILIZATION",
-    subtitle: "Programs · Capital",
-  },
-  {
-    id: "chapter-observatory",
-    mark: "Ⅳ",
-    title: "OBSERVATORY",
-    subtitle: "Signals · Reports",
-  },
-  {
-    id: "chapter-architecture",
-    mark: "Ⅴ",
-    title: "ARCHITECTURE",
-    subtitle: "Civilization Architecture",
-  },
-  {
-    id: "chapter-dialogue",
-    mark: "⟡",
-    title: "DIALOGUE",
-    subtitle: "Crossings",
-  },
+
 ];
 
 function scrollToChapter(id: string) {

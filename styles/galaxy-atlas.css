@@ -3222,3 +3222,671 @@
     display: none;
   }
 }
+
+
+
+
+
+/* ==========================================================
+   Galaxy Atlas — Mature Galaxy Cluster Map Upgrade
+========================================================== */
+
+/* Central gravity */
+.an-galaxy-center {
+  width: min(430px, 38vw) !important;
+  height: min(250px, 22vw) !important;
+  box-shadow:
+    0 0 110px rgba(255,255,255,.18),
+    0 0 190px rgba(245,216,162,.30),
+    0 0 320px rgba(120,180,255,.16) !important;
+}
+
+/* Distant galaxy field */
+.an-galaxy-map::before {
+  content: "";
+  position: absolute;
+  inset: -16%;
+  z-index: 1;
+  pointer-events: none;
+  opacity: .42;
+  background:
+    radial-gradient(circle at 14% 22%, rgba(120,180,255,.28), transparent 5%),
+    radial-gradient(circle at 84% 18%, rgba(245,216,162,.22), transparent 5%),
+    radial-gradient(circle at 90% 78%, rgba(180,140,255,.20), transparent 6%),
+    radial-gradient(circle at 9% 82%, rgba(255,150,120,.15), transparent 5%),
+    radial-gradient(circle at 50% 12%, rgba(255,255,255,.14), transparent 4%),
+    radial-gradient(circle at 55% 92%, rgba(150,220,255,.14), transparent 4%);
+  filter: blur(10px);
+}
+
+/* Softer constellation lines */
+.an-galaxy-network {
+  stroke: rgba(245,216,162,.22) !important;
+  stroke-width: .22 !important;
+  opacity: .7 !important;
+}
+
+.an-galaxy-link {
+  stroke: rgba(255,255,255,.08) !important;
+  stroke-width: .16 !important;
+}
+
+/* Node scale hierarchy */
+.an-galaxy-node {
+  filter: saturate(1.08);
+}
+
+.an-galaxy-node:hover {
+  transform: translate(-50%, -50%) scale(1.12) !important;
+}
+
+/* Role colors */
+.an-galaxy-node-observatory .an-galaxy-core {
+  box-shadow: 0 0 28px rgba(120,190,255,.75), 0 0 70px rgba(120,190,255,.28) !important;
+}
+
+.an-galaxy-node-governance .an-galaxy-core {
+  box-shadow: 0 0 28px rgba(180,150,255,.75), 0 0 70px rgba(180,150,255,.28) !important;
+}
+
+.an-galaxy-node-intelligence .an-galaxy-core {
+  box-shadow: 0 0 28px rgba(255,255,255,.75), 0 0 70px rgba(245,216,162,.24) !important;
+}
+
+.an-galaxy-node-realization .an-galaxy-core {
+  box-shadow: 0 0 28px rgba(255,160,120,.72), 0 0 70px rgba(255,160,120,.26) !important;
+}
+
+.an-galaxy-node-structure .an-galaxy-core {
+  box-shadow: 0 0 28px rgba(210,225,255,.72), 0 0 70px rgba(210,225,255,.24) !important;
+}
+
+.an-galaxy-node-dialogue .an-galaxy-core {
+  box-shadow: 0 0 28px rgba(160,210,255,.72), 0 0 70px rgba(190,160,255,.22) !important;
+}
+
+/* Astronomical labels */
+.an-galaxy-tooltip.always {
+  background: rgba(2,4,10,.42) !important;
+  border: 1px solid rgba(255,255,255,.08) !important;
+  box-shadow: 0 14px 40px rgba(0,0,0,.26) !important;
+  backdrop-filter: blur(16px) !important;
+}
+
+.an-galaxy-tooltip.always::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -18px;
+  width: 1px;
+  height: 18px;
+  background: linear-gradient(transparent, rgba(255,255,255,.28));
+}
+
+.an-galaxy-tooltip.always strong {
+  color: rgba(255,246,224,.92) !important;
+}
+
+.an-galaxy-tooltip.always small {
+  color: rgba(255,255,255,.52) !important;
+}
+
+/* Mobile refinement */
+@media (max-width: 768px) {
+  .an-galaxy-center {
+    width: 225px !important;
+    height: 140px !important;
+  }
+
+  .an-galaxy-map::before {
+    opacity: .28;
+    filter: blur(8px);
+  }
+
+  .an-galaxy-tooltip.always::before {
+    display: none;
+  }
+}
+
+
+
+
+
+/* ==========================================================
+   Galaxy Atlas — Imperial House Center Alignment Fix
+========================================================== */
+
+.an-galaxy-imperial {
+  display: grid !important;
+  place-items: center !important;
+  text-align: center !important;
+}
+
+.an-galaxy-imperial > span {
+  grid-area: 1 / 1 !important;
+}
+
+.an-galaxy-imperial strong,
+.an-galaxy-imperial small {
+  grid-area: 1 / 1 !important;
+  position: relative !important;
+  z-index: 8 !important;
+  margin: 0 !important;
+  transform: translateY(0) !important;
+}
+
+.an-galaxy-imperial strong {
+  align-self: center !important;
+  justify-self: center !important;
+  margin-top: -0.15rem !important;
+}
+
+.an-galaxy-imperial small {
+  align-self: center !important;
+  justify-self: center !important;
+  margin-top: 2rem !important;
+}
+
+@media (max-width: 768px) {
+  .an-galaxy-imperial strong {
+    margin-top: 0 !important;
+  }
+
+  .an-galaxy-imperial small {
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Imperial House — Accretion Ring / Gravitational Core
+========================================================== */
+
+.an-galaxy-imperial {
+  position: relative !important;
+  isolation: isolate !important;
+}
+
+/* central dark gravitational core */
+.an-galaxy-imperial::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: 210px !important;
+  height: 210px !important;
+  transform: translate(-50%, -50%) !important;
+  border-radius: 50% !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.95) 0%,
+      rgba(3, 5, 10, 0.9) 34%,
+      rgba(255, 255, 255, 0.035) 48%,
+      transparent 70%
+    );
+
+  box-shadow:
+    inset 0 0 36px rgba(255, 255, 255, 0.045),
+    0 0 40px rgba(210, 220, 235, 0.08),
+    0 0 90px rgba(245, 216, 162, 0.08);
+}
+
+/* accretion disk */
+.an-galaxy-imperial .an-imperial-disk {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 310px;
+  height: 118px;
+  transform: translate(-50%, -50%) rotate(-8deg);
+  border-radius: 50%;
+  z-index: 2;
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse,
+      transparent 38%,
+      rgba(235, 240, 248, 0.16) 43%,
+      rgba(245, 216, 162, 0.16) 48%,
+      rgba(120, 180, 255, 0.08) 56%,
+      transparent 72%
+    );
+
+  filter: blur(0.4px);
+  opacity: 0.78;
+  animation: imperialDiskRotate 70s linear infinite;
+}
+
+/* silver horizontal shimmer */
+.an-galaxy-imperial .an-imperial-shine {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 280px;
+  height: 1px;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(235, 240, 248, 0.22),
+      rgba(255, 255, 255, 0.56),
+      rgba(235, 240, 248, 0.22),
+      transparent
+    );
+
+  opacity: 0;
+  animation: imperialQuietShine 52s ease-in-out infinite;
+}
+
+/* keep text above the gravitational core */
+.an-galaxy-imperial strong,
+.an-galaxy-imperial small {
+  z-index: 8 !important;
+}
+
+/* motion */
+@keyframes imperialDiskRotate {
+  from {
+    transform: translate(-50%, -50%) rotate(-8deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(352deg);
+  }
+}
+
+@keyframes imperialQuietShine {
+  0%,
+  84%,
+  100% {
+    opacity: 0;
+    transform: translate(-65%, -50%) scaleX(0.45);
+  }
+
+  90% {
+    opacity: 0.75;
+    transform: translate(-50%, -50%) scaleX(1);
+  }
+
+  96% {
+    opacity: 0;
+    transform: translate(-35%, -50%) scaleX(0.45);
+  }
+}
+
+@media (max-width: 768px) {
+  .an-galaxy-imperial::after {
+    width: 145px !important;
+    height: 145px !important;
+  }
+
+  .an-galaxy-imperial .an-imperial-disk {
+    width: 205px;
+    height: 78px;
+  }
+
+  .an-galaxy-imperial .an-imperial-shine {
+    width: 180px;
+  }
+}
+
+
+
+/* ==========================================================
+   Galaxy Atlas — Orbital Balance Upgrade
+========================================================== */
+
+/* map space slightly wider */
+.an-galaxy-map {
+  width: min(1040px, 82vw) !important;
+  height: min(520px, 54svh) !important;
+}
+
+/* outer galaxies move outward for central gravity */
+.an-galaxy-node-observatory {
+  left: 16% !important;
+  top: 34% !important;
+}
+
+.an-galaxy-node-governance {
+  left: 50% !important;
+  top: 14% !important;
+}
+
+.an-galaxy-node-intelligence {
+  left: 84% !important;
+  top: 34% !important;
+}
+
+.an-galaxy-node-realization {
+  left: 80% !important;
+  top: 72% !important;
+}
+
+.an-galaxy-node-structure {
+  left: 50% !important;
+  top: 88% !important;
+}
+
+.an-galaxy-node-dialogue {
+  left: 18% !important;
+  top: 72% !important;
+}
+
+/* smaller, more distant surrounding galaxies */
+.an-galaxy-node {
+  transform: translate(-50%, -50%) scale(0.92) !important;
+}
+
+.an-galaxy-node:hover {
+  transform: translate(-50%, -50%) scale(1.02) !important;
+}
+
+/* make labels quieter */
+.an-galaxy-tooltip.always {
+  opacity: 0.86 !important;
+  padding: 0.48rem 0.62rem !important;
+}
+
+.an-galaxy-tooltip.always strong {
+  font-size: 0.52rem !important;
+  letter-spacing: 0.11em !important;
+}
+
+.an-galaxy-tooltip.always small {
+  font-size: 0.48rem !important;
+}
+
+/* orbit lines adapt to larger center */
+.an-orbit.orbit-a {
+  opacity: 0.32 !important;
+}
+
+.an-orbit.orbit-b {
+  opacity: 0.26 !important;
+}
+
+.an-orbit.orbit-c {
+  opacity: 0.2 !important;
+}
+
+.an-galaxy-network,
+.an-galaxy-link {
+  opacity: 0.42 !important;
+}
+
+/* mobile balance */
+@media (max-width: 768px) {
+  .an-galaxy-map {
+    width: min(350px, 92vw) !important;
+    height: 420px !important;
+  }
+
+  .an-galaxy-node-observatory {
+    left: 15% !important;
+    top: 30% !important;
+  }
+
+  .an-galaxy-node-governance {
+    left: 50% !important;
+    top: 15% !important;
+  }
+
+  .an-galaxy-node-intelligence {
+    left: 85% !important;
+    top: 30% !important;
+  }
+
+  .an-galaxy-node-realization {
+    left: 82% !important;
+    top: 70% !important;
+  }
+
+  .an-galaxy-node-structure {
+    left: 50% !important;
+    top: 84% !important;
+  }
+
+  .an-galaxy-node-dialogue {
+    left: 18% !important;
+    top: 70% !important;
+  }
+
+  .an-galaxy-node {
+    transform: translate(-50%, -50%) scale(0.76) !important;
+  }
+
+  .an-galaxy-tooltip.always {
+    opacity: 0.82 !important;
+  }
+}
+
+
+
+
+/* ==========================================================
+   Galaxy Atlas — Frame Safe Balance Fix
+========================================================== */
+
+.an-galaxy-map {
+  width: min(900px, 76vw) !important;
+  height: min(480px, 50svh) !important;
+  overflow: visible !important;
+}
+
+/* surrounding galaxies return inside frame */
+.an-galaxy-node-observatory {
+  left: 20% !important;
+  top: 34% !important;
+}
+
+.an-galaxy-node-governance {
+  left: 50% !important;
+  top: 18% !important;
+}
+
+.an-galaxy-node-intelligence {
+  left: 78% !important;
+  top: 35% !important;
+}
+
+.an-galaxy-node-realization {
+  left: 76% !important;
+  top: 68% !important;
+}
+
+.an-galaxy-node-structure {
+  left: 50% !important;
+  top: 82% !important;
+}
+
+.an-galaxy-node-dialogue {
+  left: 22% !important;
+  top: 68% !important;
+}
+
+/* keep visual balance without overflow */
+.an-galaxy-node {
+  transform: translate(-50%, -50%) scale(0.86) !important;
+}
+
+.an-galaxy-node:hover {
+  transform: translate(-50%, -50%) scale(0.96) !important;
+}
+
+.an-galaxy-tooltip.always {
+  max-width: 130px !important;
+  white-space: normal !important;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .an-galaxy-map {
+    width: min(330px, 90vw) !important;
+    height: 390px !important;
+  }
+
+  .an-galaxy-center {
+    width: 210px !important;
+    height: 130px !important;
+  }
+
+  .an-galaxy-node {
+    transform: translate(-50%, -50%) scale(0.68) !important;
+  }
+
+  .an-galaxy-node:hover {
+    transform: translate(-50%, -50%) scale(0.72) !important;
+  }
+
+  .an-galaxy-tooltip.always {
+    max-width: 96px !important;
+    padding: 0.32rem 0.42rem !important;
+  }
+}
+
+
+
+/* ==========================================================
+   Galaxy Atlas — True Center Alignment
+========================================================== */
+
+.an-galaxy-map{
+    position:relative !important;
+
+    left:50% !important;
+    transform:translateX(-50%) !important;
+
+    margin-inline:auto !important;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* 中央銀河を完全中央 */
+
+.an-galaxy-center{
+
+    position:absolute !important;
+
+    left:50% !important;
+    top:50% !important;
+
+    transform:translate(-50%,-50%) !important;
+
+}
+
+/* モバイル */
+
+@media (max-width:768px){
+
+.an-galaxy-map{
+
+    left:50% !important;
+
+    transform:translateX(-50%) !important;
+
+}
+
+}
+
+
+
+
+/* ==========================================================
+   Galaxy Atlas — Visual Center Balance Fix
+========================================================== */
+
+/* map itself */
+.an-galaxy-map {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* node layout: remove right-heavy grid */
+.an-galaxy-node {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 132px !important;
+  text-align: center !important;
+
+  transform: translate(-50%, -50%) scale(0.82) !important;
+}
+
+.an-galaxy-node:hover {
+  transform: translate(-50%, -50%) scale(0.92) !important;
+}
+
+/* galaxy visual center */
+.an-galaxy-visual {
+  margin: 0 auto !important;
+}
+
+/* label centered under each galaxy */
+.an-galaxy-tooltip.always {
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  transform: none !important;
+
+  margin-top: 0.45rem !important;
+  width: max-content !important;
+  max-width: 130px !important;
+
+  text-align: center !important;
+}
+
+/* remove vertical guide line causing visual bias */
+.an-galaxy-tooltip.always::before {
+  display: none !important;
+}
+
+/* central galaxy exact center */
+.an-galaxy-center {
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .an-galaxy-node {
+    width: 92px !important;
+    transform: translate(-50%, -50%) scale(0.68) !important;
+  }
+
+  .an-galaxy-node:hover {
+    transform: translate(-50%, -50%) scale(0.72) !important;
+  }
+
+  .an-galaxy-tooltip.always {
+    max-width: 90px !important;
+    margin-top: 0.25rem !important;
+  }
+}
