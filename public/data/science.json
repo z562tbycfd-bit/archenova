@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-04T10:12:50.418Z",
+  "updated": "2026-07-04T12:08:44.393Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A young gull's mottled brown plumage acts as a 'not a threat' signal to territorial adults",
+      "url": "https://phys.org/news/2026-07-young-gull-mottled-brown-plumage.html",
+      "summary": "Birds are known for their distinctive plumage that helps them attract mates during the breeding season. For some birds, the path to adulthood is quite linear. One day they are chicks, and a few months later they are full…",
+      "ts": 1783166404000
+    },
     {
       "source": "Phys.org",
       "title": "El Nino set to be 'strong', UN warns",
@@ -60,6 +67,13 @@
     },
     {
       "source": "Nature Communications",
+      "title": "A multi-fidelity tabular prior-data fitted network model for accurate prediction and uncertainty quantification",
+      "url": "https://www.nature.com/articles/s41467-026-75163-w",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Ancient plume-reinforced lithosphere modulates present-day crustal fluid migration and deformation",
       "url": "https://www.nature.com/articles/s41467-026-75203-5",
       "summary": "",
@@ -90,6 +104,13 @@
       "source": "Nature Communications",
       "title": "Electric field tunable coupling strength and quantum metric hot spots in a moiré flatband superconductor",
       "url": "https://www.nature.com/articles/s41467-026-74848-6",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Signaling downstream of tumor–stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity",
+      "url": "https://www.nature.com/articles/s41467-026-75127-0",
       "summary": "",
       "ts": 1783123200000
     },
@@ -679,27 +700,6 @@
       "title": "Hypergraph Minority Game with Local Hyperedge Payoffs",
       "url": "https://arxiv.org/abs/2607.01719",
       "summary": "arXiv:2607.01719v1 Announce Type: new Abstract: We provide a theoretical derivation of the Hypergraph Minority Game with Local Hyperedge Payoffs (HMG-L), in which $N$ adaptive agents compete simultaneously in multiple ov…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Is the 2026 East Asia Summer Extreme Heat Forecast Credible?",
-      "url": "https://arxiv.org/abs/2607.01781",
-      "summary": "arXiv:2607.01781v1 Announce Type: new Abstract: The limited predictive skill of forecasts makes it difficult for decision-makers to act decisively. Advance assessment of real-time forecast credibility can strengthen deci…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Benchmarking SOPPA-based methods for the calculation of static and dynamic polarizabilities",
-      "url": "https://arxiv.org/abs/2607.01801",
-      "summary": "arXiv:2607.01801v1 Announce Type: new Abstract: Static and frequency-dependent polarizabilities were computed for 41 molecules using RPA, RPA(D), HRPA, HRPA(D), SOPPA, SOPPA(CC2), and SOPPA(CCSD) with the aug-cc-pVTZ bas…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Subsoil acidity causes long delays in inorganic carbon sequestration by Enhanced Weathering",
-      "url": "https://arxiv.org/abs/2607.01835",
-      "summary": "arXiv:2607.01835v1 Announce Type: new Abstract: While a looming atmospheric CO$_2$ overshoot calls for immediate carbon sequestration, delays associated to Enhanced Weathering (EW) carbon dioxide removal are being invest…",
       "ts": 1783051200000
     }
   ],

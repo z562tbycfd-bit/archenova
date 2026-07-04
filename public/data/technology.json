@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-04T10:12:53.785Z",
+  "updated": "2026-07-04T12:08:46.683Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "GAO flags satellite costs, launch risks in Space Force portfolio",
+      "url": "https://spacenews.com/gao-flags-satellite-costs-launch-risks-in-space-force-portfolio/",
+      "summary": "Watchdog cites growing costs for missile-warning satellites, digital engineering gaps and workforce reductions that could slow national security launches The post GAO flags satellite costs, launch risks in Space Force po…",
+      "ts": 1783160226000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Pegasus launches Swift reboost mission",
@@ -711,14 +719,6 @@
       "title": "Optimal control on a heterogeneous SI epidemic model",
       "url": "https://arxiv.org/abs/2607.00584",
       "summary": "arXiv:2607.00584v1 Announce Type: new Abstract: This work addresses an optimal control problem for a SI epidemic model incorporating heterogeneities in resistance and viral load at the population level. Building upon the…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Effective population sizes for asymmetrically regulated birth-death processes",
-      "url": "https://arxiv.org/abs/2607.00628",
-      "summary": "arXiv:2607.00628v1 Announce Type: new Abstract: In multispecies birth-death processes, how population regulation -- through suppressed replication, elevated mortality, or both -- affects macroscopic stochastic dynamics h…",
       "ts": 1782964800000,
       "categoryId": "bio"
     }
