@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-04T14:39:33.168Z",
+  "updated": "2026-07-04T16:05:21.829Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A rare dinosaur fossil from Antarctica is found tucked away in a drawer",
+      "url": "https://phys.org/news/2026-06-rare-dinosaur-fossil-antarctica-tucked.html",
+      "summary": "Scientists have stumbled on a rare dinosaur fossil from Antarctica, tucked away for decades in a drawer.",
+      "ts": 1783180801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bacterial protein reveals a hidden rule for controlling calcium",
+      "url": "https://phys.org/news/2026-07-bacterial-protein-reveals-hidden-calcium.html",
+      "summary": "A small change in acidity can transform the world around us. A squeeze of lemon changes the taste of food. Vinegar preserves vegetables. Stomach acid helps break down a meal. These familiar effects come from protons—tiny…",
+      "ts": 1783178401000
+    },
     {
       "source": "Phys.org",
       "title": "Rising seas make once-rare coastal floods 12 times more likely",
@@ -686,20 +700,6 @@
       "title": "Two-dimensional simulations of hydrodynamic spin coupling in a two-rotor corral",
       "url": "https://arxiv.org/abs/2607.01533",
       "summary": "arXiv:2607.01533v1 Announce Type: new Abstract: We study hydrodynamic spin coupling in a two-rotor corral using DNS of 2D incompressible viscous fluid flow. An active rotor is driven at angular velocity W, and a nearby t…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning Effective Soliton Dynamics from Scattering Data",
-      "url": "https://arxiv.org/abs/2607.01545",
-      "summary": "arXiv:2607.01545v1 Announce Type: new Abstract: The inverse scattering transform (IST) provides the standard theoretical framework for deriving soliton dynamics. Traditionally, such derivations have been of an analytical…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A second-order diffusive-interface immersed boundary method for incompressible flow with phase change and moving interfaces",
-      "url": "https://arxiv.org/abs/2607.01575",
-      "summary": "arXiv:2607.01575v1 Announce Type: new Abstract: Accurately resolving interfacial gradients is critical for simulating two-phase flows, particularly those involving phase transitions or active matter. The traditional diff…",
       "ts": 1783051200000
     }
   ],

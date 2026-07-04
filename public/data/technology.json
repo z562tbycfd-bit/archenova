@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-04T14:39:36.894Z",
+  "updated": "2026-07-04T16:05:24.398Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "Invisible peacebuilders: How ‘diplomacy works’ to prevent conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167866",
+      "summary": "Described as “sometimes modest, sometimes historic,” UN special political missions have quietly been preventing the escalation of conflicts during the organization’s 80-year history, becoming a key instrument for maintai…",
+      "ts": 1783166400000,
+      "categoryId": "global-governance"
+    },
     {
       "source": "NASA",
       "title": "NASA’s Hubble Spies Stellar Sparkler for July 4th",
@@ -711,14 +719,6 @@
       "title": "NeuroCogMap Reveals Cognitive Organization of Large Language Models",
       "url": "https://arxiv.org/abs/2607.00397",
       "summary": "arXiv:2607.00397v1 Announce Type: new Abstract: Understanding how complex cognitive functions are organized within artificial systems is central to interpreting large language models (LLMs) and relating them to biologica…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How Environment and Urbanization Shape Bird Diversity in Sri Lanka",
-      "url": "https://arxiv.org/abs/2607.00582",
-      "summary": "arXiv:2607.00582v1 Announce Type: new Abstract: This study presents a comprehensive analysis of bird diversity across Sri Lanka by integrating spatial, temporal, and environmental data. Bird observation records were comb…",
       "ts": 1782964800000,
       "categoryId": "bio"
     }
