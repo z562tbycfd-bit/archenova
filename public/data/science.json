@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-04T04:37:05.503Z",
+  "updated": "2026-07-04T07:48:50.900Z",
   "items": [
     {
       "source": "Phys.org",
@@ -18,6 +18,13 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Personalized neoantigen-pulsed autologous dendritic cells in newly-diagnosed glioblastoma: a phase Ib trial",
+      "url": "https://www.nature.com/articles/s41467-026-75066-w",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Ancient plume-reinforced lithosphere modulates present-day crustal fluid migration and deformation",
       "url": "https://www.nature.com/articles/s41467-026-75203-5",
       "summary": "",
@@ -25,8 +32,29 @@
     },
     {
       "source": "Nature Communications",
+      "title": "The BZR1-BLH1-PIF4 feedback module acts as a molecular amplifier for precise thermomorphogenesis in Arabidopsis",
+      "url": "https://www.nature.com/articles/s41467-026-75154-x",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Sub-parts-per-billion CO<sub>2</sub> Detection based on Dissipative Whispering Gallery Mode Microcavity Sensor",
       "url": "https://www.nature.com/articles/s41467-026-75218-y",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Visual learning at fast and slow timescales is driven by distinct plasticity rules in primate inferotemporal cortex",
+      "url": "https://www.nature.com/articles/s41467-026-74791-6",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Electric field tunable coupling strength and quantum metric hot spots in a moiré flatband superconductor",
+      "url": "https://www.nature.com/articles/s41467-026-74848-6",
       "summary": "",
       "ts": 1783123200000
     },
@@ -672,34 +700,6 @@
       "title": "Accelerating MRI Colon Volume Measurements and Reducing Inter-Observer Variation through Automatic Segmentation and Human-in-the-Loop Correction",
       "url": "https://arxiv.org/abs/2607.01963",
       "summary": "arXiv:2607.01963v1 Announce Type: new Abstract: The movement distribution, and volume of both chyme and gas in the colon, are important metrics to understand colonic function in health, disease, and the effects of treatm…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The ring wants to be broken",
-      "url": "https://arxiv.org/abs/2607.01967",
-      "summary": "arXiv:2607.01967v1 Announce Type: new Abstract: The Ramsey community number $r_\\kappa$ is the minimum network size at which a graph's connectivity is better described by a partition into communities than by no partition,…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy transfer, Intermittency and Mixing in Shear-Driven Stratified Turbulence",
-      "url": "https://arxiv.org/abs/2607.01981",
-      "summary": "arXiv:2607.01981v1 Announce Type: new Abstract: We investigate a stably stratified flow driven by deterministic Kolmogorov forcing that generates horizontal shear, using direct numerical simulations over a broad range of…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Meshfree versus grid-based Schr\\\"odinger solvers for modeling the interactions between free-electron wave packets and light",
-      "url": "https://arxiv.org/abs/2607.01996",
-      "summary": "arXiv:2607.01996v1 Announce Type: new Abstract: The interaction of free-electron wave packets with electromagnetic fields provides a powerful route toward coherent electron control, enabling the generation of energy comb…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Four-channel prototype using coherent combining of ultrashort laser pulses for dipole configuration approximation",
-      "url": "https://arxiv.org/abs/2607.02040",
-      "summary": "arXiv:2607.02040v1 Announce Type: new Abstract: This paper presents a four-channel prototype system for the geometric combining and coherent addition of tightly focused femtosecond laser radiation into a standing-wave fi…",
       "ts": 1783051200000
     }
   ],
