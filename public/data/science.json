@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-04T18:03:31.905Z",
+  "updated": "2026-07-04T20:11:09.670Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Optical writing of antiferromagnets points toward new storage devices and energy efficient information systems",
+      "url": "https://phys.org/news/2026-07-optical-antiferromagnets-storage-devices-energy.html",
+      "summary": "A German-Japanese research team involving the University of Augsburg has made a significant breakthrough in the use of antiferromagnets. For the first time, the team has succeeded in writing magnetic information using on…",
+      "ts": 1783195203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's baked rice bowl seeks escape from drought",
+      "url": "https://phys.org/news/2026-07-europe-rice-bowl-drought.html",
+      "summary": "Summer came too early to Europe's most important rice-growing region, and weeds are taking over Sharon Angoli's parched paddies in Italy's Pavia province.",
+      "ts": 1783195201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient teeth from Siberia rewrite the plague's timeline, dating back to over 5,500 years ago",
+      "url": "https://phys.org/news/2026-06-ancient-teeth-siberia-rewrite-plague.html",
+      "summary": "Scientists have found the oldest known evidence of the plague, which sparked deadly outbreaks dating back about 5,500 years ago—some 200 years earlier than previously thought.",
+      "ts": 1783190401000
+    },
     {
       "source": "Phys.org",
       "title": "Common nanostructures may explain shared photoproperties in two widespread dark materials",
@@ -679,27 +700,6 @@
       "title": "Extended topological mode in a one-dimensional non-Hermitian acoustic crystal",
       "url": "https://arxiv.org/abs/2607.01472",
       "summary": "arXiv:2607.01472v1 Announce Type: new Abstract: In Hermitian topological systems, topological modes (TMs) are bound to interfaces or defects of a lattice. Recent discoveries show that non-Hermitian effects can reshape th…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Understanding Non-Gaussian Chorus Wave Statistics via the Benjamin-Feir Index",
-      "url": "https://arxiv.org/abs/2607.01475",
-      "summary": "arXiv:2607.01475v1 Announce Type: new Abstract: We derive an extended wave action model for equatorial chorus waves, identifying a wave activity index (a version of the Benjamin-Feir index, BFI) which indicates non-Gauss…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Beam-Quality Meta-Grating Couplers for Large Collimated Free-Space Beams on Silicon-on-Insulator",
-      "url": "https://arxiv.org/abs/2607.01477",
-      "summary": "arXiv:2607.01477v1 Announce Type: new Abstract: Photonic integrated circuits on the silicon-on-insulator (SOI) platform typically interface with free space via grating couplers, but scaling these to collimated beams with…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a thin-target hard X-ray bremsstrahlung detection system to study confined runaway electrons in Aditya-U Tokamak",
-      "url": "https://arxiv.org/abs/2607.01488",
-      "summary": "arXiv:2607.01488v1 Announce Type: new Abstract: A specially shielded CdTe detector based hard X-ray (HXR) monitoring system equipped with a lead collimator has been developed and installed on the Aditya-U tokamak to inve…",
       "ts": 1783051200000
     }
   ],
