@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-03T22:06:51.097Z",
+  "updated": "2026-07-04T00:07:14.437Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Conservation genomics faces growing calls to center Indigenous knowledge and data rights",
+      "url": "https://phys.org/news/2026-07-genomics-center-indigenous-knowledge-rights.html",
+      "summary": "Throughout human ecological history, we have played a variety of roles within ecosystems around the world. In this so-called Anthropocene era, genomic innovations have given us new and powerful ways to influence the envi…",
+      "ts": 1783122001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plug-and-play single-photon source can work at room temperature",
+      "url": "https://phys.org/news/2026-07-play-photon-source-room-temperature.html",
+      "summary": "The Korea Research Institute of Standards and Science (KRISS) has developed a room-temperature single-photon source built into a compact 19-inch rack-mounted device that operates without cryogenic cooling. Designed as a …",
+      "ts": 1783118401000
+    },
     {
       "source": "Phys.org",
       "title": "How generative AI and physics can help design new antibiotics",
@@ -686,20 +700,6 @@
       "title": "Mathematical Exploration of Earth Gravitational Field Impact on Seasonal Wind Flux in a Tropical Region",
       "url": "https://arxiv.org/abs/2607.02161",
       "summary": "arXiv:2607.02161v1 Announce Type: new Abstract: The Earth's gravitational field exerts a significant influence on atmospheric dynamics, including the behavior of seasonal wind flux, defined by periodic variations in wind…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Free-breathing Pulmonary Relaxometry at 0.55T",
-      "url": "https://arxiv.org/abs/2607.02200",
-      "summary": "arXiv:2607.02200v1 Announce Type: new Abstract: Purpose: To evaluate the feasibility of an integrated, free-breathing workflow for automated 2D pulmonary relaxometry (T1, T2) at 0.55T. Methods: A 2D inversion recovery ul…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revealing Sharp Spectral Features with Complex Frequency Excitations: Challenges and Opportunities",
-      "url": "https://arxiv.org/abs/2607.02211",
-      "summary": "arXiv:2607.02211v1 Announce Type: new Abstract: Broadening of spectral and spatial responses due to intrinsic loss in real materials often hides sharp features. One recently recognized route to recover those features is …",
       "ts": 1783051200000
     }
   ],
