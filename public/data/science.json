@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-04T12:08:44.393Z",
+  "updated": "2026-07-04T14:39:33.168Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rising seas make once-rare coastal floods 12 times more likely",
+      "url": "https://phys.org/news/2026-06-seas-rare-coastal.html",
+      "summary": "Extreme floods that once swamped coastal communities only rarely are becoming far more common as climate change caused by humans pushes sea levels higher, according to new research published Wednesday. Experts say the fi…",
+      "ts": 1783175401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers may have caught an early galaxy in the process of dying",
+      "url": "https://phys.org/news/2026-06-astronomers-caught-early-galaxy-dying.html",
+      "summary": "Astronomers have spotted many \"red and dead\" galaxies in the early universe. These are massive systems that stopped forming stars surprisingly early in cosmic history. Now, they may have found evidence of one in the act …",
+      "ts": 1783172401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trained AI outperforms biologists at spotting salmon lice",
+      "url": "https://phys.org/news/2026-07-ai-outperforms-biologists-salmon-lice.html",
+      "summary": "Researchers have taken over 120,000 images of salmon lice larvae in seawater and used them to train AI models. The models were much faster and more accurate than experienced biologists at identifying the parasites that f…",
+      "ts": 1783170001000
+    },
     {
       "source": "Phys.org",
       "title": "A young gull's mottled brown plumage acts as a 'not a threat' signal to territorial adults",
@@ -60,8 +81,57 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Widespread controls of precipitation sensitivity on drought recovery of global forests",
+      "url": "https://www.nature.com/articles/s41467-026-75320-1",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "North Pacific meltwater weakens the Atlantic Meridional Overturning Circulation and preconditions Heinrich Stadial 1",
+      "url": "https://www.nature.com/articles/s41467-026-75199-y",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A likelihood-based method for identifying replay from spike sequences",
+      "url": "https://www.nature.com/articles/s41467-026-74822-2",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Multiscale artificial spider web for comprehensive pressure sensing and human-machine interaction",
+      "url": "https://www.nature.com/articles/s41467-026-74200-y",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Personalized neoantigen-pulsed autologous dendritic cells in newly-diagnosed glioblastoma: a phase Ib trial",
       "url": "https://www.nature.com/articles/s41467-026-75066-w",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Specificity and exon target space of splicing modifying compounds",
+      "url": "https://www.nature.com/articles/s41467-026-74594-9",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Dual-interface stabilization of low-iridium anodes for durable proton exchange membrane water electrolysis",
+      "url": "https://www.nature.com/articles/s41467-026-75113-6",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "CAF-derived PAI-1 serves as an EGFR ligand and fuels KRAS-mutant pancreatic cancer",
+      "url": "https://www.nature.com/articles/s41467-026-75132-3",
       "summary": "",
       "ts": 1783123200000
     },
@@ -630,76 +700,6 @@
       "title": "A second-order diffusive-interface immersed boundary method for incompressible flow with phase change and moving interfaces",
       "url": "https://arxiv.org/abs/2607.01575",
       "summary": "arXiv:2607.01575v1 Announce Type: new Abstract: Accurately resolving interfacial gradients is critical for simulating two-phase flows, particularly those involving phase transitions or active matter. The traditional diff…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Verification and Performance Assessment of NuDEAL, a GPU-Accelerated Deterministic Transport Framework on Unstructured Meshes",
-      "url": "https://arxiv.org/abs/2607.01591",
-      "summary": "arXiv:2607.01591v1 Announce Type: new Abstract: High-fidelity neutronic analyses of advanced reactors require deterministic transport solvers capable of handling complex unstructured geometries while maintaining computat…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calibration of DOI-Capable PET Detector Panels Using Uncollimated Front-Face Irradiation",
-      "url": "https://arxiv.org/abs/2607.01592",
-      "summary": "arXiv:2607.01592v1 Announce Type: new Abstract: Objective. Gold-standard depth-of-interaction (DOI) calibration using collimated gamma-ray irradiation is time-consuming and impractical for system-level calibration of det…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Identical-Particle Symmetry-Enabled Complete Coherent Control of Ultracold Atomic and Molecular Collisions",
-      "url": "https://arxiv.org/abs/2607.01620",
-      "summary": "arXiv:2607.01620v1 Announce Type: new Abstract: We show that exchange symmetry in collisions of identical particles enables symmetry-protected coherent control of the total scattering cross section. For identical fermion…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Joint elastic full waveform inversion of multi-component geophone and distributed acoustic sensing data",
-      "url": "https://arxiv.org/abs/2607.01649",
-      "summary": "arXiv:2607.01649v1 Announce Type: new Abstract: Joint full waveform inversion (FWI) of distributed acoustic sensing (DAS) and ocean-bottom node (OBN) data typically requires converting measured strain to particle velocit…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computed emissivity of carbon dioxide, water vapor, and their mixtures for a wide range of temperatures and pressure-pathlengths",
-      "url": "https://arxiv.org/abs/2607.01650",
-      "summary": "arXiv:2607.01650v1 Announce Type: new Abstract: This article describes a dataset of total (spectrally-integrated rather than wavelength-dependent) emissivity values pertaining to gaseous media containing carbon dioxide (…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparative analysis of resistive immersed surface and immersed boundary methods for aortic valve simulation",
-      "url": "https://arxiv.org/abs/2607.01662",
-      "summary": "arXiv:2607.01662v1 Announce Type: new Abstract: Numerical modeling of aortic valve dynamics is essential for understanding the complex fluid-structure interaction (FSI) governing valve biomechanics in health and disease.…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Substrate-Agnostic 3x: Biosignatures, Technosignatures, Ecologies",
-      "url": "https://arxiv.org/abs/2607.01664",
-      "summary": "arXiv:2607.01664v1 Announce Type: new Abstract: Substrate-agnostic perspectives are currently attracting increased attention. For example, it has become customary to refer to agnostic biosignatures to reflect the range o…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Deep Learning Earth System Model Simulation of Indian Monsoon Intraseasonal and Interannual Variability",
-      "url": "https://arxiv.org/abs/2607.01676",
-      "summary": "arXiv:2607.01676v1 Announce Type: new Abstract: With the data-driven artificial intelligence/machine learning (AI/ML) models having demonstrated their ability to extend the prediction horizon of large-scale weather at a …",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Prediction of Radiotherapy-Induced Hematologic Toxicity in Cervical Cancer with Cohort-Aware Framework",
-      "url": "https://arxiv.org/abs/2607.01714",
-      "summary": "arXiv:2607.01714v1 Announce Type: new Abstract: Hematologic toxicity (HT) is a major dose-limiting complication of pelvic radiotherapy for cervical cancer. Although radiomic and dosiomic features improve HT prediction be…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hypergraph Minority Game with Local Hyperedge Payoffs",
-      "url": "https://arxiv.org/abs/2607.01719",
-      "summary": "arXiv:2607.01719v1 Announce Type: new Abstract: We provide a theoretical derivation of the Hypergraph Minority Game with Local Hyperedge Payoffs (HMG-L), in which $N$ adaptive agents compete simultaneously in multiple ov…",
       "ts": 1783051200000
     }
   ],

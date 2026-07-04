@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-04T12:08:46.683Z",
+  "updated": "2026-07-04T14:39:36.894Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Spies Stellar Sparkler for July 4th",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-stellar-sparkler-for-july-4th/",
+      "summary": "Red, white, and blue stars glitter like a sparkler being waved on a dark night in this new image from NASA’s Hubble Space Telescope.",
+      "ts": 1783163737000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "GAO flags satellite costs, launch risks in Space Force portfolio",
@@ -711,14 +719,6 @@
       "title": "How Environment and Urbanization Shape Bird Diversity in Sri Lanka",
       "url": "https://arxiv.org/abs/2607.00582",
       "summary": "arXiv:2607.00582v1 Announce Type: new Abstract: This study presents a comprehensive analysis of bird diversity across Sri Lanka by integrating spatial, temporal, and environmental data. Bird observation records were comb…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Optimal control on a heterogeneous SI epidemic model",
-      "url": "https://arxiv.org/abs/2607.00584",
-      "summary": "arXiv:2607.00584v1 Announce Type: new Abstract: This work addresses an optimal control problem for a SI epidemic model incorporating heterogeneities in resistance and viral load at the population level. Building upon the…",
       "ts": 1782964800000,
       "categoryId": "bio"
     }
