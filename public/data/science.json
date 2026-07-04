@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-04T07:48:50.900Z",
+  "updated": "2026-07-04T10:12:50.418Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "El Nino set to be 'strong', UN warns",
+      "url": "https://phys.org/news/2026-07-el-nino-strong.html",
+      "summary": "El Nino is here and will quickly develop into a strong event between July and September, fueling the likelihood of extreme weather, the United Nations' climate agency warned Friday.",
+      "ts": 1783159201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "One for the history books: What we know about the European heat wave",
+      "url": "https://phys.org/news/2026-07-history-european.html",
+      "summary": "Europe is still taking stock of a powerful heat wave in late June, but experts are already confident it ranks among the worst ever recorded—even rivaling a freak 2003 episode.",
+      "ts": 1783152601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists find yeast in ancient Iceman's guts—and make bread",
+      "url": "https://phys.org/news/2026-06-scientists-yeast-ancient-iceman-guts.html",
+      "summary": "Yeast has been growing in the guts of a frozen mummy called Oetzi the Iceman for thousands of years, scientists have discovered, telling AFP they used it to make a tasty sourdough bread.",
+      "ts": 1783152001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New species of ghost shark may have been found in Costa Rica",
+      "url": "https://phys.org/news/2026-07-species-ghost-shark-costa-rica.html",
+      "summary": "Costa Rican scientists may have discovered a new species of ghost shark in Pacific waters near Cabo Blanco and Cano Island.",
+      "ts": 1783151420000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dangerous heat wave roasts America's big birthday party",
+      "url": "https://phys.org/news/2026-07-dangerous-roasts-america-big-birthday.html",
+      "summary": "A punishing heat wave threatened America's July Fourth celebrations, World Cup matches and power grids as near-record temperatures scorched the eastern United States on Friday.",
+      "ts": 1783151389000
+    },
     {
       "source": "Phys.org",
       "title": "AI must be built with Indigenous Knowledges, not against them",
@@ -665,41 +700,6 @@
       "title": "Subsoil acidity causes long delays in inorganic carbon sequestration by Enhanced Weathering",
       "url": "https://arxiv.org/abs/2607.01835",
       "summary": "arXiv:2607.01835v1 Announce Type: new Abstract: While a looming atmospheric CO$_2$ overshoot calls for immediate carbon sequestration, delays associated to Enhanced Weathering (EW) carbon dioxide removal are being invest…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The slope of the friction law of hertzian-asperity--based metainterfaces has a finite positive lower bound",
-      "url": "https://arxiv.org/abs/2607.01892",
-      "summary": "arXiv:2607.01892v1 Announce Type: new Abstract: Metainterfaces can realize specified evolutions of their friction force as a function of the confining normal force (friction law), thanks to the design of the individual r…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-based self-supervised learning of a deep network for single-shot in-line hologram reconstruction",
-      "url": "https://arxiv.org/abs/2607.01922",
-      "summary": "arXiv:2607.01922v1 Announce Type: new Abstract: Digital in-line holographic microscopy is a computational imaging method useful for characterizing the refractive properties of a sample, i.e. the phase shift and absorptio…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mapping Source-Resolved Phase-Noise Transfer in Soliton Microcombs",
-      "url": "https://arxiv.org/abs/2607.01932",
-      "summary": "arXiv:2607.01932v1 Announce Type: new Abstract: Phase noise limits the coherence and stability of soliton microcombs, yet its origin is difficult to trace because multiple noise sources act simultaneously. It is often re…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robust for the Wrong Reasons: The Representational Geometry of LLM Robustness to Science Skepticism",
-      "url": "https://arxiv.org/abs/2607.01951",
-      "summary": "arXiv:2607.01951v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly consulted on contested scientific questions, raising the concern that they will sycophantically retreat from established conse…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accelerating MRI Colon Volume Measurements and Reducing Inter-Observer Variation through Automatic Segmentation and Human-in-the-Loop Correction",
-      "url": "https://arxiv.org/abs/2607.01963",
-      "summary": "arXiv:2607.01963v1 Announce Type: new Abstract: The movement distribution, and volume of both chyme and gas in the colon, are important metrics to understand colonic function in health, disease, and the effects of treatm…",
       "ts": 1783051200000
     }
   ],
