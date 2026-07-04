@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-04T00:07:14.437Z",
+  "updated": "2026-07-04T04:37:05.503Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI must be built with Indigenous Knowledges, not against them",
+      "url": "https://phys.org/news/2026-07-ai-built-indigenous-knowledges.html",
+      "summary": "As Australia marks 50 years of NAIDOC Week, honoring the world's oldest living culture, humanity's newest technology has yet to reckon with a simple principle: \"nothing about us, without us.\" The concern is that artifici…",
+      "ts": 1783131601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Insect-borne diseases in the Amazon linked to land use and rural economies",
+      "url": "https://phys.org/news/2026-07-insect-borne-diseases-amazon-linked.html",
+      "summary": "Diseases spread by insects in the Brazilian Amazon are not randomly distributed but form distinct regional patterns linked to land use, rural economies and environmental change, according to new research led by the Envir…",
+      "ts": 1783125601000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Ancient plume-reinforced lithosphere modulates present-day crustal fluid migration and deformation",
+      "url": "https://www.nature.com/articles/s41467-026-75203-5",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Sub-parts-per-billion CO<sub>2</sub> Detection based on Dissipative Whispering Gallery Mode Microcavity Sensor",
+      "url": "https://www.nature.com/articles/s41467-026-75218-y",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Ectomesenchyme contributes to epidermal stem cell formation through mesenchymal-to-epithelial transition",
+      "url": "https://www.nature.com/articles/s41467-026-75278-0",
+      "summary": "",
+      "ts": 1783123200000
+    },
     {
       "source": "Phys.org",
       "title": "Conservation genomics faces growing calls to center Indigenous knowledge and data rights",
@@ -665,41 +700,6 @@
       "title": "Four-channel prototype using coherent combining of ultrashort laser pulses for dipole configuration approximation",
       "url": "https://arxiv.org/abs/2607.02040",
       "summary": "arXiv:2607.02040v1 Announce Type: new Abstract: This paper presents a four-channel prototype system for the geometric combining and coherent addition of tightly focused femtosecond laser radiation into a standing-wave fi…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energetic particle-mediated interplanetary shocks observed by Solar Orbiter",
-      "url": "https://arxiv.org/abs/2607.02044",
-      "summary": "arXiv:2607.02044v1 Announce Type: new Abstract: Context: In collisionless shocks, energetic particles can carry sufficient pressure to modify the upstream plasma and the shock structure itself, a regime often invoked in …",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Symplectic Propagation of the Spin-MInt Algorithm for Non-Adiabatic Quantum Dynamics",
-      "url": "https://arxiv.org/abs/2607.02058",
-      "summary": "arXiv:2607.02058v1 Announce Type: new Abstract: Mapping methods are often used for the numerical simulation of nonadiabatic systems by propagating classical mapping variable trajectories. A recently popularised mapping m…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "WavePID: Low-energy flavor identification using single-PMT time series in IceCube",
-      "url": "https://arxiv.org/abs/2607.02078",
-      "summary": "arXiv:2607.02078v1 Announce Type: new Abstract: The IceCube Neutrino Observatory, a cubic-kilometer detector at the South Pole, identifies neutrino flavor through event morphology. Sparse photon detection makes this clas…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Black Boxes in Black Hole Imaging",
-      "url": "https://arxiv.org/abs/2607.02110",
-      "summary": "arXiv:2607.02110v1 Announce Type: new Abstract: We investigate the epistemic opacity of computer simulations and machine learning methods in the context of black hole imaging. We argue that there are forms of opacity-inc…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mathematical Exploration of Earth Gravitational Field Impact on Seasonal Wind Flux in a Tropical Region",
-      "url": "https://arxiv.org/abs/2607.02161",
-      "summary": "arXiv:2607.02161v1 Announce Type: new Abstract: The Earth's gravitational field exerts a significant influence on atmospheric dynamics, including the behavior of seasonal wind flux, defined by periodic variations in wind…",
       "ts": 1783051200000
     }
   ],
