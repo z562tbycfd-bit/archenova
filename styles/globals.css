@@ -25395,3 +25395,122 @@ margin-bottom:2.2rem;
   }
 
 }
+
+
+
+
+
+
+
+/* ==========================================================
+   Mobile HOME — Hero / Origin Alignment Fix
+========================================================== */
+
+@media (max-width: 768px) {
+  /* HERO全体 */
+  #home-hero {
+    display: grid !important;
+    place-items: center !important;
+    overflow: hidden !important;
+    padding-inline: 0 !important;
+  }
+
+  #home-hero .an-container,
+  #home-hero .an-hero-inner {
+    width: min(86vw, 380px) !important;
+    margin-inline: auto !important;
+    text-align: center !important;
+  }
+
+  #home-hero .an-frame {
+    width: min(320px, 82vw) !important;
+    margin-inline: auto !important;
+    justify-content: center !important;
+    transform: none !important;
+  }
+
+  #home-hero .an-title {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: clamp(3rem, 13vw, 4.2rem) !important;
+    line-height: 0.95 !important;
+    letter-spacing: 0.02em !important;
+    margin-inline: auto !important;
+  }
+
+  #home-hero .twin-statement {
+    width: 100% !important;
+    max-width: 330px !important;
+    margin-inline: auto !important;
+    text-align: center !important;
+    font-size: clamp(1.05rem, 6.2vw, 1.75rem) !important;
+    line-height: 1.22 !important;
+  }
+
+  #home-hero .an-lead {
+    width: 100% !important;
+    max-width: 330px !important;
+    margin-inline: auto !important;
+    text-align: center !important;
+  }
+
+  #home-hero .an-lead p {
+    font-size: 0.78rem !important;
+    line-height: 1.62 !important;
+    text-align: center !important;
+  }
+
+  /* ORIGIN GATE */
+  #origin-gate {
+    display: grid !important;
+    place-items: center !important;
+    overflow: hidden !important;
+    padding-inline: 0 !important;
+  }
+
+  #origin-gate .an-container {
+    width: min(86vw, 380px) !important;
+    margin-inline: auto !important;
+    text-align: center !important;
+  }
+
+  #origin-gate .an-frame {
+    width: min(240px, 72vw) !important;
+    margin-inline: auto !important;
+    justify-content: center !important;
+    transform: none !important;
+  }
+
+  #origin-gate .an-heading {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin-inline: auto !important;
+    text-align: center !important;
+    font-size: clamp(2.3rem, 12vw, 3.4rem) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.035em !important;
+  }
+
+  #origin-gate .an-body {
+    width: 100% !important;
+    max-width: 330px !important;
+    margin-inline: auto !important;
+    text-align: center !important;
+    font-size: 0.82rem !important;
+    line-height: 1.75 !important;
+  }
+
+  #origin-gate .an-button {
+    width: min(320px, 82vw) !important;
+    margin-inline: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  #origin-gate .an-button p {
+    text-align: center !important;
+    font-size: 0.78rem !important;
+    letter-spacing: 0.14em !important;
+  }
+}

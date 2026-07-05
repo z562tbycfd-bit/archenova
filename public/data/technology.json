@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-05T23:03:33.198Z",
+  "updated": "2026-07-05T23:27:36.158Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -17,14 +17,6 @@
       "summary": "The European Space Agency has selected Airbus Defence and Space to start work on the successor to a wind-monitoring satellite. The post Airbus to build Aeolus-2 wind-monitoring satellite appeared first on SpaceNews.",
       "ts": 1783264667000,
       "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "A safe return home: Tackling stigma on Uganda's Ebola frontline",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167859",
-      "summary": "As Uganda works to contain an Ebola outbreak that is also affecting neighbouring Democratic Republic of the Congo (DRC), health workers are doing more than responding to a deadly virus. They are helping families navigate…",
-      "ts": 1783166400000,
-      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -721,6 +713,14 @@
       "summary": "Building on the remarkable success of the Earth Explorer Aeolus wind mission, the European Space Agency has given Airbus Defence and Space in the UK the authorisation to proceed to begin the development of Aeolus’ succes…",
       "ts": 1782979200000,
       "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "SF-Cluster: Frustration-Guided MSA Subsampling for Alternative Protein Conformation Recovery",
+      "url": "https://arxiv.org/abs/2607.00180",
+      "summary": "arXiv:2607.00180v1 Announce Type: new Abstract: Deep-learning structure predictors are sensitive to their multiple sequence alignment (MSA) input, making MSA subsampling a practical route to recovering alternative confor…",
+      "ts": 1782964800000,
+      "categoryId": "bio"
     }
   ],
   "categories": [

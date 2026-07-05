@@ -3890,3 +3890,879 @@
     margin-top: 0.25rem !important;
   }
 }
+
+
+/* ==========================================================
+   Galaxy Atlas — Physics UI Rebuild
+========================================================== */
+
+.gx-page {
+  position: relative;
+  width: 100%;
+  height: 100svh;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  background: #02040a;
+  color: #fff;
+  isolation: isolate;
+}
+
+/* Space */
+
+.gx-space {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 50% 48%, rgba(245, 216, 162, 0.08), transparent 24%),
+    radial-gradient(circle at 24% 35%, rgba(120, 180, 255, 0.09), transparent 26%),
+    radial-gradient(circle at 78% 45%, rgba(120, 180, 255, 0.1), transparent 28%),
+    radial-gradient(circle at 50% 78%, rgba(245, 216, 162, 0.06), transparent 22%),
+    linear-gradient(180deg, #010208 0%, #04070d 48%, #010208 100%);
+}
+
+.gx-space::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,.55) 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(245,216,162,.3) 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(120,180,255,.26) 1px, transparent 1.5px);
+  background-size: 90px 90px, 150px 150px, 240px 240px;
+  opacity: 0.22;
+}
+
+.gx-space::after {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background:
+    conic-gradient(
+      from 180deg,
+      transparent,
+      rgba(120,180,255,.05),
+      transparent,
+      rgba(245,216,162,.055),
+      transparent
+    );
+  filter: blur(56px);
+  opacity: .8;
+  animation: gxNebula 120s linear infinite;
+}
+
+/* Frame */
+
+.gx-frame {
+  position: relative;
+  z-index: 2;
+  width: min(1500px, 96vw);
+  height: min(900px, 94svh);
+  overflow: hidden;
+  border: 1px solid rgba(245,216,162,.22);
+  background: rgba(1, 3, 8, .42);
+  box-shadow:
+    0 40px 140px rgba(0,0,0,.55),
+    inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+.gx-border {
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(255,255,255,.06);
+  pointer-events: none;
+  z-index: 20;
+}
+
+/* Topbar */
+
+.gx-topbar {
+  position: absolute;
+  top: 28px;
+  left: 34px;
+  right: 34px;
+  z-index: 30;
+  display: grid;
+  grid-template-columns: 220px 1fr 120px;
+  align-items: center;
+}
+
+.gx-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .8rem;
+  color: rgba(255,246,224,.95);
+  text-decoration: none;
+}
+
+.gx-brand-mark {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(245,216,162,.28);
+  border-radius: 50%;
+  color: rgba(245,216,162,.88);
+}
+
+.gx-brand strong {
+  font-size: 1.45rem;
+  font-weight: 280;
+  letter-spacing: .04em;
+}
+
+.gx-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.gx-nav a,
+.gx-contact {
+  color: rgba(255,255,255,.7);
+  text-decoration: none;
+  font-size: .72rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.gx-contact {
+  justify-self: end;
+  padding: .8rem 1.1rem;
+  border: 1px solid rgba(245,216,162,.22);
+}
+
+/* Intro */
+
+.gx-intro {
+  position: absolute;
+  left: 42px;
+  top: 120px;
+  width: 300px;
+  z-index: 25;
+}
+
+.gx-intro span {
+  display: block;
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  letter-spacing: .2em;
+  color: rgba(255,246,224,.95);
+}
+
+.gx-intro h2 {
+  margin: .8rem 0 1.3rem;
+  font-size: 1rem;
+  font-weight: 350;
+  color: rgba(245,216,162,.8);
+}
+
+.gx-intro p {
+  margin: 0;
+  font-size: .82rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,.58);
+}
+
+/* Panels */
+
+.gx-system-data,
+.gx-physics,
+.gx-status {
+  position: absolute;
+  z-index: 25;
+  width: 210px;
+  padding: 1rem;
+  border: 1px solid rgba(245,216,162,.18);
+  background: rgba(2,4,10,.42);
+  backdrop-filter: blur(18px);
+}
+
+.gx-system-data {
+  left: 42px;
+  top: 340px;
+}
+
+.gx-physics {
+  left: 42px;
+  bottom: 48px;
+}
+
+.gx-status {
+  right: 42px;
+  bottom: 48px;
+}
+
+.gx-system-data span,
+.gx-physics span,
+.gx-status span {
+  display: block;
+  margin-bottom: .9rem;
+  font-size: .68rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: rgba(245,216,162,.82);
+}
+
+.gx-system-data dl,
+.gx-status dl {
+  margin: 0;
+  display: grid;
+  gap: .55rem;
+}
+
+.gx-system-data div,
+.gx-status div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .6rem;
+}
+
+.gx-system-data dt,
+.gx-status dt,
+.gx-system-data dd,
+.gx-status dd {
+  margin: 0;
+  font-size: .68rem;
+  color: rgba(255,255,255,.58);
+}
+
+.gx-physics ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: .8rem;
+  list-style: none;
+}
+
+.gx-physics li {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  font-size: .68rem;
+  color: rgba(255,255,255,.58);
+}
+
+.gx-physics i {
+  display: inline-block;
+  width: 34px;
+  height: 1px;
+  background: rgba(245,216,162,.5);
+}
+
+.gx-physics .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.gx-physics .dash {
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(245,216,162,.6) 0 5px,
+    transparent 5px 10px
+  );
+}
+
+.gx-physics .weak {
+  opacity: .35;
+}
+
+.gx-physics .arrow::after {
+  content: "→";
+  margin-left: 28px;
+}
+
+/* Map */
+
+.gx-map {
+  position: absolute;
+  left: 50%;
+  top: 53%;
+  width: min(1050px, 72vw);
+  height: min(620px, 68svh);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.gx-lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.gx-orbit {
+  fill: none;
+  stroke-linecap: round;
+}
+
+.gx-orbit.stable {
+  stroke: rgba(245,216,162,.24);
+  stroke-width: .22;
+}
+
+.gx-orbit.resonance {
+  stroke: rgba(245,216,162,.16);
+  stroke-width: .18;
+  stroke-dasharray: 2 1.6;
+  animation: gxOrbitFlow 40s linear infinite;
+}
+
+.gx-network {
+  fill: none;
+  stroke: rgba(245,216,162,.22);
+  stroke-width: .22;
+  stroke-dasharray: 2 1.5;
+}
+
+.gx-link {
+  stroke: rgba(255,255,255,.12);
+  stroke-width: .16;
+}
+
+/* Imperial */
+
+.gx-imperial {
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  width: 430px;
+  height: 250px;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  z-index: 12;
+}
+
+.gx-imperial-disk {
+  position: absolute;
+  width: 430px;
+  height: 160px;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      ellipse,
+      transparent 34%,
+      rgba(245,216,162,.34) 42%,
+      rgba(255,255,255,.34) 48%,
+      rgba(120,180,255,.16) 58%,
+      transparent 76%
+    );
+  filter: blur(.5px);
+  animation: gxDiskRotate 80s linear infinite;
+}
+
+.gx-imperial-core {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, rgba(0,0,0,1), rgba(2,4,10,.98) 56%, transparent 74%);
+  box-shadow:
+    inset 0 0 40px rgba(255,255,255,.035),
+    0 0 100px rgba(245,216,162,.2);
+  z-index: 2;
+}
+
+.gx-imperial-shine {
+  position: absolute;
+  width: 360px;
+  height: 1px;
+  background:
+    linear-gradient(90deg, transparent, rgba(255,255,255,.7), transparent);
+  z-index: 5;
+  opacity: .55;
+}
+
+.gx-imperial strong {
+  z-index: 8;
+  font-size: 1rem;
+  font-weight: 320;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #fff, #b8bec7, #fff);
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gxSilverFlow 34s linear infinite;
+}
+
+.gx-imperial small {
+  z-index: 8;
+  margin-top: 2.4rem;
+  font-size: .62rem;
+  color: rgba(245,216,162,.78);
+}
+
+/* Nodes */
+
+.gx-node {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 260px;
+  min-height: 110px;
+  color: white;
+  text-decoration: none;
+  z-index: 14;
+  transition: transform .35s ease, filter .35s ease;
+}
+
+.gx-node:hover {
+  transform: translate(-50%, -50%) scale(1.04);
+  filter: brightness(1.15);
+}
+
+.gx-galaxy {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 120px;
+  height: 78px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.gx-galaxy-core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff, rgba(245,216,162,.72), transparent 78%);
+  box-shadow: 0 0 28px rgba(245,216,162,.55);
+  z-index: 3;
+}
+
+.gx-galaxy-arm {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 118px;
+  height: 38px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(ellipse, rgba(255,255,255,.22), rgba(120,180,255,.16), transparent 72%);
+  filter: blur(2px);
+  animation: gxMiniGalaxy 28s linear infinite;
+}
+
+.gx-galaxy-arm.arm-b {
+  transform: translate(-50%, -50%) rotate(62deg);
+  animation-duration: 38s;
+  animation-direction: reverse;
+}
+
+.gx-galaxy-arm.arm-c {
+  transform: translate(-50%, -50%) rotate(124deg);
+  opacity: .7;
+  animation-duration: 48s;
+}
+
+.gx-galaxy-star {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 12px rgba(255,255,255,.8);
+}
+
+.gx-galaxy-star.star-a { left: 22%; top: 32%; }
+.gx-galaxy-star.star-b { right: 20%; top: 58%; }
+.gx-galaxy-star.star-c { left: 58%; bottom: 18%; }
+
+.gx-node-marker {
+  position: absolute;
+  left: 132px;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: 1px solid rgba(245,216,162,.72);
+  background: rgba(2,4,10,.72);
+  box-shadow: 0 0 24px rgba(245,216,162,.32);
+}
+
+.gx-node-label {
+  position: absolute;
+  left: 160px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  gap: .34rem;
+}
+
+.gx-node-label strong {
+  font-size: .9rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: rgba(255,246,224,.94);
+}
+
+.gx-node-label em {
+  display: none;
+}
+
+.gx-node-label small {
+  font-size: .72rem;
+  color: rgba(245,216,162,.74);
+}
+
+/* Bottom */
+
+.gx-bottom {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.gx-bottom span {
+  width: 230px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(245,216,162,.5), transparent);
+}
+
+.gx-bottom p {
+  margin: 0;
+  font-size: .72rem;
+  letter-spacing: .42em;
+  color: rgba(245,216,162,.68);
+}
+
+/* Motion */
+
+@keyframes gxNebula {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes gxOrbitFlow {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: 120; }
+}
+
+@keyframes gxDiskRotate {
+  from { transform: rotate(-8deg); }
+  to { transform: rotate(352deg); }
+}
+
+@keyframes gxSilverFlow {
+  from { background-position: -220% 50%; }
+  to { background-position: 220% 50%; }
+}
+
+@keyframes gxMiniGalaxy {
+  from { rotate: 0deg; }
+  to { rotate: 360deg; }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .gx-frame {
+    width: 100vw;
+    height: 100svh;
+    border: 0;
+  }
+
+  .gx-border,
+  .gx-nav,
+  .gx-contact,
+  .gx-system-data,
+  .gx-physics,
+  .gx-status {
+    display: none;
+  }
+
+  .gx-topbar {
+    top: 22px;
+    left: 22px;
+    right: 22px;
+    grid-template-columns: 1fr;
+  }
+
+  .gx-brand {
+    justify-content: center;
+  }
+
+  .gx-intro {
+    left: 50%;
+    top: 86px;
+    width: 86vw;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .gx-intro span {
+    font-size: 1.7rem;
+  }
+
+  .gx-intro h2 {
+    font-size: .82rem;
+  }
+
+  .gx-intro p {
+    display: none;
+  }
+
+  .gx-map {
+    width: 94vw;
+    height: 58svh;
+    top: 55%;
+  }
+
+  .gx-imperial {
+    width: 230px;
+    height: 150px;
+  }
+
+  .gx-imperial-disk {
+    width: 230px;
+    height: 86px;
+  }
+
+  .gx-imperial-core {
+    width: 110px;
+    height: 110px;
+  }
+
+  .gx-imperial strong {
+    font-size: .62rem;
+    letter-spacing: .16em;
+  }
+
+  .gx-imperial small {
+    display: none;
+  }
+
+  .gx-node {
+    width: 104px;
+    min-height: 76px;
+  }
+
+  .gx-galaxy {
+    left: 50%;
+    top: 0;
+    width: 64px;
+    height: 44px;
+    transform: translateX(-50%);
+  }
+
+  .gx-galaxy-arm {
+    width: 64px;
+    height: 22px;
+  }
+
+  .gx-galaxy-core {
+    width: 16px;
+    height: 16px;
+  }
+
+  .gx-node-marker {
+    display: none;
+  }
+
+  .gx-node-label {
+    left: 50%;
+    top: 52px;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .gx-node-label strong {
+    font-size: .48rem;
+    letter-spacing: .08em;
+  }
+
+  .gx-node-label small {
+    display: none;
+  }
+
+  .gx-bottom {
+    bottom: 24px;
+    gap: .8rem;
+  }
+
+  .gx-bottom span {
+    width: 54px;
+  }
+
+  .gx-bottom p {
+    font-size: .52rem;
+    letter-spacing: .2em;
+  }
+}
+
+
+
+
+
+
+
+/* ==========================================================
+   Galaxy Atlas — Label Fit & Typography Refinement
+========================================================== */
+
+/* 全体を枠内へ収める */
+.gx-map {
+  width: min(960px, 68vw) !important;
+  height: min(560px, 62svh) !important;
+  top: 54% !important;
+}
+
+/* ノード全体を少しコンパクト化 */
+.gx-node {
+  width: 210px !important;
+  min-height: 92px !important;
+}
+
+/* 銀河本体は維持しつつ少しだけ縮小 */
+.gx-galaxy {
+  width: 98px !important;
+  height: 66px !important;
+}
+
+.gx-galaxy-arm {
+  width: 96px !important;
+  height: 32px !important;
+}
+
+.gx-galaxy-core {
+  width: 21px !important;
+  height: 21px !important;
+}
+
+/* マーカーと文字位置を近づける */
+.gx-node-marker {
+  left: 108px !important;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.gx-node-label {
+  left: 132px !important;
+  max-width: 128px !important;
+  gap: 0.22rem !important;
+}
+
+/* 宇宙空間に合う細く上品な文字 */
+.gx-node-label strong {
+  font-size: 0.66rem !important;
+  line-height: 1.15 !important;
+  letter-spacing: 0.18em !important;
+  font-weight: 320 !important;
+  color: rgba(232, 236, 242, 0.92) !important;
+  text-shadow:
+    0 0 10px rgba(255,255,255,0.12),
+    0 0 26px rgba(120,180,255,0.08) !important;
+}
+
+.gx-node-label small {
+  font-size: 0.56rem !important;
+  line-height: 1.35 !important;
+  color: rgba(245,216,162,0.62) !important;
+  letter-spacing: 0.05em !important;
+}
+
+/* 左側ノードは文字を左側へ出して重なり回避 */
+.gx-node-observatory .gx-galaxy,
+.gx-node-dialogue .gx-galaxy {
+  left: auto !important;
+  right: 0 !important;
+}
+
+.gx-node-observatory .gx-node-marker,
+.gx-node-dialogue .gx-node-marker {
+  left: auto !important;
+  right: 108px !important;
+}
+
+.gx-node-observatory .gx-node-label,
+.gx-node-dialogue .gx-node-label {
+  left: auto !important;
+  right: 132px !important;
+  text-align: right !important;
+}
+
+/* 下部Structureは中央配置にして重なり回避 */
+.gx-node-structure {
+  width: 170px !important;
+}
+
+.gx-node-structure .gx-galaxy {
+  left: 50% !important;
+  top: 0 !important;
+  transform: translateX(-50%) !important;
+}
+
+.gx-node-structure .gx-node-marker {
+  display: none !important;
+}
+
+.gx-node-structure .gx-node-label {
+  left: 50% !important;
+  top: 74px !important;
+  transform: translateX(-50%) !important;
+  text-align: center !important;
+}
+
+/* hoverも枠内で控えめに */
+.gx-node:hover {
+  transform: translate(-50%, -50%) scale(1.025) !important;
+}
+
+/* モバイルはさらに文字を抑える */
+@media (max-width: 768px) {
+  .gx-map {
+    width: 92vw !important;
+    height: 56svh !important;
+    top: 56% !important;
+  }
+
+  .gx-node {
+    width: 88px !important;
+    min-height: 68px !important;
+  }
+
+  .gx-node-label strong {
+    font-size: 0.42rem !important;
+    letter-spacing: 0.06em !important;
+  }
+
+  .gx-node-label small {
+    display: none !important;
+  }
+
+  .gx-galaxy {
+    width: 54px !important;
+    height: 38px !important;
+  }
+
+  .gx-galaxy-arm {
+    width: 54px !important;
+    height: 18px !important;
+  }
+
+  .gx-node-label {
+    top: 46px !important;
+    max-width: 82px !important;
+  }
+}

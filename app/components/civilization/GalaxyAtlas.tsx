@@ -15,116 +15,103 @@ const galaxyNodes: GalaxyNode[] = [
   {
     id: "observatory",
     title: "Observatory",
-    subtitle: "Signals / Reports",
-    href: "/observatory2",
-    x: 20,
-    y: 34,
+    subtitle: "Observation and Record",
+    href: "/observatory",
+    x: 25,
+    y: 39,
   },
   {
     id: "governance",
     title: "Governance",
-    subtitle: "Senate / Court",
+    subtitle: "Order and Structure",
     href: "/governance",
     x: 50,
-    y: 20,
+    y: 22,
   },
   {
     id: "intelligence",
     title: "Intelligence",
-    subtitle: "Episteme / Builder",
+    subtitle: "Intelligence and Analysis",
     href: "/intelligence",
-    x: 78,
-    y: 36,
+    x: 75,
+    y: 39,
   },
   {
     id: "realization",
     title: "Realization",
-    subtitle: "Programs",
+    subtitle: "Implementation and Creation",
     href: "/realization",
-    x: 74,
-    y: 68,
+    x: 76,
+    y: 69,
   },
   {
     id: "structure",
     title: "Structure",
-    subtitle: "Civilization Architecture",
+    subtitle: "System and Succession",
     href: "/architecture",
     x: 50,
-    y: 80,
+    y: 82,
   },
   {
     id: "dialogue",
     title: "Dialogue",
-    subtitle: "Crossing",
+    subtitle: "Dialogue and Resonance",
     href: "/dialogue",
-    x: 22,
-    y: 66,
+    x: 24,
+    y: 69,
   },
 ];
 
-function MiniGalaxy() {
+function SpiralGalaxy({ id }: { id: string }) {
   return (
-    <span className="an-galaxy-visual" aria-hidden="true">
-      <span className="an-galaxy-core" />
-      <span className="an-galaxy-arm arm-a" />
-      <span className="an-galaxy-arm arm-b" />
-      <span className="an-galaxy-arm arm-c" />
-      <span className="an-galaxy-spark spark-a" />
-      <span className="an-galaxy-spark spark-b" />
-      <span className="an-galaxy-spark spark-c" />
+    <span className={`gx-galaxy gx-galaxy-${id}`} aria-hidden="true">
+      <span className="gx-galaxy-core" />
+      <span className="gx-galaxy-arm arm-a" />
+      <span className="gx-galaxy-arm arm-b" />
+      <span className="gx-galaxy-arm arm-c" />
+      <span className="gx-galaxy-star star-a" />
+      <span className="gx-galaxy-star star-b" />
+      <span className="gx-galaxy-star star-c" />
     </span>
   );
 }
 
 export default function GalaxyAtlas() {
   return (
-    <section
-      id="galaxy-atlas"
-      data-home-section
-      className="home-page an-galaxy-page"
-    >
-      <div className="an-galaxy-bg" aria-hidden="true" />
+    <section id="galaxy-atlas" data-home-section className="home-page gx-page">
+      <div className="gx-space" aria-hidden="true" />
 
-      <div className="an-galaxy-shell">
-        <header className="an-galaxy-header">
-          <span>ARCHENOVA MAP</span>
+      <div className="gx-frame">
+        <div className="gx-border" aria-hidden="true" />
 
-          <h2>Civilization Architecture Galaxy</h2>
+        <header className="gx-topbar">
+          <Link href="/home" className="gx-brand" aria-label="ArcheNova Home">
+            <strong>ArcheNova</strong>
+          </Link>
 
+          <nav className="gx-nav" aria-label="ArcheNova Galaxy Navigation">
+            <Link href="/home">Home</Link>
+            <Link href="/origin">Origin</Link>
+            <Link href="/architecture">Architecture</Link>
+            <Link href="/dialogue">Dialogue</Link>
+          </nav>
         </header>
 
-        <div className="an-galaxy-map">
+        <main className="gx-map">
           <svg
-            className="an-galaxy-lines"
+            className="gx-lines"
             viewBox="0 0 100 100"
             preserveAspectRatio="none"
             aria-hidden="true"
           >
-            <ellipse
-              cx="50"
-              cy="52"
-              rx="37"
-              ry="20"
-              className="an-orbit orbit-a"
-            />
-            <ellipse
-              cx="50"
-              cy="52"
-              rx="29"
-              ry="15"
-              className="an-orbit orbit-b"
-            />
-            <ellipse
-              cx="50"
-              cy="52"
-              rx="20"
-              ry="10"
-              className="an-orbit orbit-c"
-            />
+            <ellipse cx="50" cy="52" rx="42" ry="25" className="gx-orbit stable one" />
+            <ellipse cx="50" cy="52" rx="35" ry="20" className="gx-orbit stable two" />
+            <ellipse cx="50" cy="52" rx="28" ry="15" className="gx-orbit resonance three" />
+            <ellipse cx="50" cy="52" rx="48" ry="30" className="gx-orbit resonance four" />
 
             <polyline
-              points="20,34 50,20 78,36 74,68 50,80 22,66 20,34"
-              className="an-galaxy-network"
+              points="25,39 50,22 75,39 76,69 50,82 24,69 25,39"
+              className="gx-network"
             />
 
             {galaxyNodes.map((node) => (
@@ -134,56 +121,49 @@ export default function GalaxyAtlas() {
                 y1="52"
                 x2={node.x}
                 y2={node.y}
-                className="an-galaxy-link"
+                className="gx-link"
               />
             ))}
           </svg>
 
-          <span className="an-galaxy-center" aria-hidden="true">
-            <span className="an-galaxy-core" />
-            <span className="an-galaxy-arm arm-a" />
-            <span className="an-galaxy-arm arm-b" />
-            <span className="an-galaxy-arm arm-c" />
-            <span className="an-galaxy-spark spark-a" />
-            <span className="an-galaxy-spark spark-b" />
-            <span className="an-galaxy-spark spark-c" />
-          </span>
-            <span />
+          <Link
+            href="/imperial-house"
+            className="gx-imperial"
+            aria-label="Enter Imperial House"
+          >
+            <span className="gx-imperial-disk" />
+            <span className="gx-imperial-core" />
+            <span className="gx-imperial-shine" />
 
-            <Link
-  href="/imperial-house"
-  className="an-galaxy-center an-galaxy-imperial"
-  aria-label="Enter Imperial House"
->
-  <span />
-  <i className="an-imperial-disk" />
-  <i className="an-imperial-shine" />
-  <strong>Imperial House</strong>
-  <small>Symbol / Constitution / Foundation</small>
-
+            <strong>Imperial House</strong>
+            <small>Symbol / Constitution / Foundation</small>
           </Link>
 
           {galaxyNodes.map((node) => (
             <Link
               key={node.id}
               href={node.href}
-              className={`an-galaxy-node an-galaxy-node-${node.id}`}
-              style={{
-                left: `${node.x}%`,
-                top: `${node.y}%`,
-              }}
+              className={`gx-node gx-node-${node.id}`}
+              style={{ left: `${node.x}%`, top: `${node.y}%` }}
               aria-label={`Enter ${node.title}`}
             >
-              <MiniGalaxy />
+              <SpiralGalaxy id={node.id} />
 
-              <span className="an-galaxy-tooltip always">
+              <span className="gx-node-marker" />
+
+              <span className="gx-node-label">
                 <strong>{node.title}</strong>
                 <small>{node.subtitle}</small>
               </span>
             </Link>
           ))}
-        </div>
+        </main>
 
+        <footer className="gx-bottom">
+          <span />
+          <p>IN ORDER, THERE IS FREEDOM.</p>
+          <span />
+        </footer>
       </div>
     </section>
   );
