@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-04T22:00:58.874Z",
+  "updated": "2026-07-05T00:03:44.678Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How proteins are inserted into cell membranes",
+      "url": "https://phys.org/news/2026-06-proteins-inserted-cell-membranes.html",
+      "summary": "Researchers from Heinrich Heine University Düsseldorf (HHU) have—in collaboration with colleagues from Ludwig Maximilian University (LMU) in Munich—analyzed the complex biochemical processes that bacteria use to insert p…",
+      "ts": 1783207801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Planned 1.7 million satellites 'devastating' for astronomy: Study",
+      "url": "https://phys.org/news/2026-07-million-satellites-devastating-astronomy.html",
+      "summary": "The 1.7 million satellites that companies are aiming to launch into Earth's orbit in the coming years will have \"devastating consequences for astronomy,\" new research warned Wednesday.",
+      "ts": 1783203601000
+    },
     {
       "source": "Phys.org",
       "title": "When companies face hostile takeover threats, they turn to ESG, and the whole community benefits",
@@ -144,6 +158,13 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Proton shuttling at electrochemical interfaces under alkaline hydrogen evolution",
+      "url": "https://www.nature.com/articles/s41467-026-75400-2",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Widespread controls of precipitation sensitivity on drought recovery of global forests",
       "url": "https://www.nature.com/articles/s41467-026-75320-1",
       "summary": "",
@@ -167,6 +188,20 @@
       "source": "Nature Communications",
       "title": "North Pacific meltwater weakens the Atlantic Meridional Overturning Circulation and preconditions Heinrich Stadial 1",
       "url": "https://www.nature.com/articles/s41467-026-75199-y",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Closed-loop readout of anterior insula high-gamma activity steers value-based decisions",
+      "url": "https://www.nature.com/articles/s41467-026-75265-5",
+      "summary": "",
+      "ts": 1783123200000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Glutamatergic signaling underlies brain structural organization for mathematical and reading abilities in children",
+      "url": "https://www.nature.com/articles/s41467-026-75102-9",
       "summary": "",
       "ts": 1783123200000
     },
@@ -665,41 +700,6 @@
       "title": "Lagrangian evaluation of polymeric stress in viscoelastic fluids",
       "url": "https://arxiv.org/abs/2607.01380",
       "summary": "arXiv:2607.01380v1 Announce Type: new Abstract: Polymeric stresses in viscoelastic flows arise from the deformation of polymer chains and are commonly computed using Eulerian constitutive models, in which the conformatio…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of the Radial Index on the Stability of Laguerre-Gaussian Vortex Beams in Turbulent Media",
-      "url": "https://arxiv.org/abs/2607.01397",
-      "summary": "arXiv:2607.01397v1 Announce Type: new Abstract: This paper explores the selective suppression of Laguerre-Gaussian modes that are most vulnerable to atmospheric turbulence. Decomposing these modes into an orthogonal Zern…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser stabilized to a room temperature cavity with AlGaAs coatings reaching $4.2 \\times 10^{-17}$ fractional frequency instability",
-      "url": "https://arxiv.org/abs/2607.01406",
-      "summary": "arXiv:2607.01406v1 Announce Type: new Abstract: We present a laser system referenced to a room-temperature ultrastable cavity employing crystalline AlGaAs coatings. We demonstrate a fractional frequency instability of $4…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How effective normal stress oscillations advance failure in fault gouge: frequency dependence, non-failure window, and the role of dilation",
-      "url": "https://arxiv.org/abs/2607.01448",
-      "summary": "arXiv:2607.01448v1 Announce Type: new Abstract: Cyclic pore-pressure or normal stress variations arise both in relation to natural earthquakes and in engineered subsurface systems, yet their effect on fault stability rem…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A quantum model of opinion dynamics on networks",
-      "url": "https://arxiv.org/abs/2607.01452",
-      "summary": "arXiv:2607.01452v1 Announce Type: new Abstract: Classical models of opinion dynamics represent individual opinions as scalar or vector values governed by the classical probability theory, either as deterministic quantiti…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Near-Term Emission Targets Need Immediate Attention in the USA",
-      "url": "https://arxiv.org/abs/2607.01471",
-      "summary": "arXiv:2607.01471v1 Announce Type: new Abstract: Given recent changes in federal climate policy, the United States is unlikely to meet its original 2030 Paris Agreement emission target of a 50-52% reduction from 2005 leve…",
       "ts": 1783051200000
     }
   ],
