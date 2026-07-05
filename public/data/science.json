@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-05T17:14:29.356Z",
+  "updated": "2026-07-05T19:21:33.244Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Deuterium in comets tells interesting tales",
+      "url": "https://phys.org/news/2026-06-deuterium-comets-tales.html",
+      "summary": "Comets have played an interesting role in the history of astronomy. Since antiquity, many cultures saw them as omens or spirits, portending good or bad news for kings, queens and emperors. Over the past few hundred years…",
+      "ts": 1783276801000
+    },
     {
       "source": "Phys.org",
       "title": "European cities short on shade as heat waves hit, urban mapping reveals",
@@ -694,13 +701,6 @@
       "url": "https://phys.org/news/2026-07-france-deaths-rose-heatwave.html",
       "summary": "France endured a rise of nearly 30% in the number of deaths recorded during the week starting June 22, the peak of a record-breaking heat wave that battered the country, the public health authority said Friday.",
       "ts": 1783079242000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rescue mission launches to save NASA telescope that's falling back to Earth",
-      "url": "https://phys.org/news/2026-07-mission-nasa-telescope-falling-earth.html",
-      "summary": "A three-armed spacecraft rocketed into orbit Friday to rescue a NASA telescope that's in danger of crashing back to Earth.",
-      "ts": 1783079009000
     }
   ],
   "sources": [
