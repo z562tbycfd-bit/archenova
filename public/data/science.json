@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-05T00:03:44.678Z",
+  "updated": "2026-07-05T04:58:24.314Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'This was something new': What people in Greenland told us about learning to live with wildfires",
+      "url": "https://phys.org/news/2026-06-people-greenland-told-wildfires.html",
+      "summary": "After several quieter years, wildfires have returned to western Greenland.",
+      "ts": 1783219801000
+    },
     {
       "source": "Phys.org",
       "title": "How proteins are inserted into cell membranes",
@@ -693,13 +700,6 @@
       "title": "Enerzyme: A Framework for Efficient Training of Reactive Neural Network Potentials for Enzyme Catalysis with Application to Methyltransferases",
       "url": "https://arxiv.org/abs/2607.01362",
       "summary": "arXiv:2607.01362v1 Announce Type: new Abstract: Quantum mechanical (QM) cluster models provide an effective framework for mechanistic studies of enzymatic reactions but remain computationally demanding. Neural network po…",
-      "ts": 1783051200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lagrangian evaluation of polymeric stress in viscoelastic fluids",
-      "url": "https://arxiv.org/abs/2607.01380",
-      "summary": "arXiv:2607.01380v1 Announce Type: new Abstract: Polymeric stresses in viscoelastic flows arise from the deformation of polymer chains and are commonly computed using Eulerian constitutive models, in which the conformatio…",
       "ts": 1783051200000
     }
   ],
