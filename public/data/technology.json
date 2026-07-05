@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-05T21:03:59.740Z",
+  "updated": "2026-07-05T23:03:33.198Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: New UC Data Sparks Smoother Sailing for Abivax",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-new-uc-data-sparks-smoother-sailing-for-abivax/",
+      "summary": "Less than a month after its stock roller-coastered on safety signals associated with its late-stage ulcerative colitis (UC) drug candidate obefazimod, shares of Abivax (Euronext Paris and Nasdaq: ABVX) enjoyed smoother s…",
+      "ts": 1783286158000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Airbus to build Aeolus-2 wind-monitoring satellite",
@@ -713,14 +721,6 @@
       "summary": "Building on the remarkable success of the Earth Explorer Aeolus wind mission, the European Space Agency has given Airbus Defence and Space in the UK the authorisation to proceed to begin the development of Aeolus’ succes…",
       "ts": 1782979200000,
       "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SF-Cluster: Frustration-Guided MSA Subsampling for Alternative Protein Conformation Recovery",
-      "url": "https://arxiv.org/abs/2607.00180",
-      "summary": "arXiv:2607.00180v1 Announce Type: new Abstract: Deep-learning structure predictors are sensitive to their multiple sequence alignment (MSA) input, making MSA subsampling a practical route to recovering alternative confor…",
-      "ts": 1782964800000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

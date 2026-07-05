@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-05T21:03:57.586Z",
+  "updated": "2026-07-05T23:03:29.032Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The world's oceans are the hottest on record for June—and El Niño is set to turn up the heat even more",
+      "url": "https://phys.org/news/2026-07-world-oceans-hottest-june-el.html",
+      "summary": "The world's oceans are the hottest on record for June, pushing past records set during the 2023–24 El Niño years.",
+      "ts": 1783292401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "An island of calm at the violent heart of the galaxy",
+      "url": "https://phys.org/news/2026-06-island-calm-violent-heart-galaxy.html",
+      "summary": "Where would you go to watch a star being born? Probably not the heart of the Milky Way, which is about the most violent neighborhood our galaxy has to offer, a maelstrom of gas churning so fast and so chaotically that yo…",
+      "ts": 1783287001000
+    },
     {
       "source": "Phys.org",
       "title": "Rats show empathy, according to model",
@@ -687,20 +701,6 @@
       "url": "https://phys.org/news/2026-07-founding-father-american-literature-charles.html",
       "summary": "Murder, suicide, spontaneous combustion, sleepwalking, ventriloquism: These are some of the sensational events in the novels of Charles Brockden Brown (1771–1810). As the United States' first professional author, Brown i…",
       "ts": 1783081208000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Songs play a greater role than plumage color in limiting bird hybridization, study suggests",
-      "url": "https://phys.org/news/2026-06-songs-play-greater-role-plumage.html",
-      "summary": "When trying to attract and recognize potential mates, animals are known to rely on various signals, traits and behaviors. In the case of birds, these signals can typically include a wide range of sounds—such as trills, w…",
-      "ts": 1783081204000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Could this asteroid be a piece of the moon? A Chinese spacecraft is about to find out",
-      "url": "https://phys.org/news/2026-07-asteroid-piece-moon-chinese-spacecraft.html",
-      "summary": "The moon is not the only natural object traveling through space alongside Earth. Several small asteroids travel around the sun in near lockstep with our planet. And just like Earth, these space rocks also take a year to …",
-      "ts": 1783080008000
     }
   ],
   "sources": [
