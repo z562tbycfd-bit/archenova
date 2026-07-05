@@ -25514,3 +25514,65 @@ margin-bottom:2.2rem;
     letter-spacing: 0.14em !important;
   }
 }
+
+
+/* ==========================================================
+   Mobile Center Alignment Fix
+========================================================== */
+
+@media (max-width:768px){
+
+/* ---------- HERO ---------- */
+
+#home-hero .an-frame{
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+    margin:0 auto 2rem !important;
+    width:min(330px,86vw) !important;
+    text-align:center !important;
+}
+
+#home-hero .an-frame p{
+    width:100%;
+    text-align:center !important;
+}
+
+/* ---------- ORIGIN ---------- */
+
+#origin-gate .an-frame{
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+    margin:0 auto 2rem !important;
+    width:min(260px,72vw) !important;
+    text-align:center !important;
+}
+
+#origin-gate .an-frame p{
+    width:100%;
+    text-align:center !important;
+}
+
+/* ---------- ENTER ORIGIN ---------- */
+
+#origin-gate .an-button{
+    display:flex !important;
+    justify-content:center !important;
+    align-items:center !important;
+
+    width:min(330px,86vw) !important;
+
+    margin:2.2rem auto 0 !important;
+
+    text-align:center !important;
+}
+
+#origin-gate .an-button p{
+    width:100%;
+    margin:0 !important;
+    text-align:center !important;
+    display:block !important;
+}
+
+}

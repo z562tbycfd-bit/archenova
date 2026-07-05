@@ -4766,3 +4766,124 @@
     max-width: 82px !important;
   }
 }
+
+/* ==========================================================
+   Galaxy Atlas Mobile Layout Fix
+========================================================== */
+
+@media (max-width:768px){
+
+.gx-map{
+    position:absolute;
+    left:50%;
+    top:54%;
+    transform:translate(-50%,-50%) scale(.72);
+    transform-origin:center;
+    width:520px !important;
+    height:520px !important;
+}
+
+/* 中央銀河 */
+.gx-imperial{
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ノード全体 */
+.gx-node{
+
+    width:150px;
+
+}
+
+/* 左 */
+.gx-node-observatory{
+
+left:18%!important;
+top:40%!important;
+
+}
+
+.gx-node-dialogue{
+
+left:18%!important;
+top:68%!important;
+
+}
+
+/* 上 */
+.gx-node-governance{
+
+left:50%!important;
+top:18%!important;
+
+}
+
+/* 右 */
+.gx-node-intelligence{
+
+left:82%!important;
+top:40%!important;
+
+}
+
+.gx-node-realization{
+
+left:82%!important;
+top:68%!important;
+
+}
+
+/* 下 */
+
+.gx-node-structure{
+
+left:50%!important;
+top:84%!important;
+
+}
+
+/* ラベル */
+
+.gx-node-label{
+
+left:50%!important;
+
+top:68px!important;
+
+transform:translateX(-50%)!important;
+
+text-align:center;
+
+max-width:120px;
+
+}
+
+.gx-node-label strong{
+
+font-size:.52rem!important;
+
+letter-spacing:.08em;
+
+}
+
+.gx-node-label small{
+
+display:none;
+
+}
+
+.gx-node-marker{
+
+display:none;
+
+}
+
+.gx-bottom{
+
+bottom:26px;
+
+}
+
+}
