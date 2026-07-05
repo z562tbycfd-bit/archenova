@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-05T11:05:41.906Z",
+  "updated": "2026-07-05T13:45:22.291Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rare 309-million-year-old fossils suggest early tetrapods developed without tadpole phase",
+      "url": "https://phys.org/news/2026-06-rare-million-year-fossils-early.html",
+      "summary": "Scientists have long posited that the earliest water animals to transition to land had amphibious tadpole features, going through a metamorphosis akin to that of today's frogs.",
+      "ts": 1783257601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mini monitor measures artificial heartbeat",
+      "url": "https://phys.org/news/2026-06-mini-artificial-heartbeat.html",
+      "summary": "An international team, including the University of Tokyo, has created a sensor inspired by the lateral line in fish—their \"sixth sense\" organ—which measures the pulse of lab-grown 3D heart tissue (cardiac organoids). The…",
+      "ts": 1783256404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wild yeast discovery enables non-GM brewing of ornithine-enriched craft beer",
+      "url": "https://phys.org/news/2026-07-wild-yeast-discovery-enables-gm.html",
+      "summary": "As consumer interest grows in foods and beverages with added nutritional value, brewers are exploring ways to improve fermentation itself rather than relying on post-production additives. Ornithine, a naturally occurring…",
+      "ts": 1783251604000
+    },
     {
       "source": "Phys.org",
       "title": "Spain data on 5.5 million convictions challenges immigration-crime link",
@@ -680,27 +701,6 @@
       "url": "https://phys.org/news/2026-07-wildfires-rage-southern-france-people.html",
       "summary": "Nearly 3,000 people have been evacuated in southwestern France as Prime Minister Sebastien Lecornu sounded the alarm over an early outbreak of wildfires in the wake of a record-breaking heat wave.",
       "ts": 1783065602000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Japan deploys bear cameras in mountains as attacks surge",
-      "url": "https://phys.org/news/2026-07-japan-deploys-cameras-mountains-surge.html",
-      "summary": "Japan has begun installing hundreds of cameras in its northern mountains as part of a nationwide survey of the bear population following a surge in maulings, an official told AFP on Thursday.",
-      "ts": 1783063801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Two centuries on, experts unlock secrets of Red Sea and Gulf of Aden sailing chart",
-      "url": "https://phys.org/news/2026-07-centuries-experts-secrets-red-sea.html",
-      "summary": "Experts have unlocked secrets hidden for two hundred years in a beautiful navigational chart made for 18th century seafarers negotiating the Red Sea and Gulf of Aden. The paper scroll is evidence seafaring communities in…",
-      "ts": 1783063201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Heat dome roasts eastern US ahead of holiday weekend",
-      "url": "https://phys.org/news/2026-07-dome-roasts-eastern-holiday-weekend.html",
-      "summary": "Pools were packed and power grids strained as millions of Americans sweltered in stifling heat and humidity Thursday, with dangerous temperatures expected to hit major cities through the Fourth of July holiday weekend.",
-      "ts": 1783062784000
     }
   ],
   "sources": [
