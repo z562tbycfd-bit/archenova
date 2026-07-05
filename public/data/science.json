@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-05T13:45:22.291Z",
+  "updated": "2026-07-05T15:15:02.359Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Japan space probe skims asteroid in test for planetary defense",
+      "url": "https://phys.org/news/2026-07-japan-space-probe-skims-asteroid.html",
+      "summary": "A Japanese space probe performed a flyby of a near-Earth asteroid on Sunday in a test mission for technology that could help protect the planet from space rocks.",
+      "ts": 1783261812000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scattered bronze bells in Chinese lord's 2,600-year-old tomb point to ritual deactivation",
+      "url": "https://phys.org/news/2026-06-bronze-bells-chinese-lord-year.html",
+      "summary": "When archaeologists opened the 2,600-year-old tomb of an ancient Chinese lord, they discovered his magnificent bronze bells had been scattered, their wooden hangings broken. But the most mysterious part of all: This was …",
+      "ts": 1783261201000
+    },
     {
       "source": "Phys.org",
       "title": "Rare 309-million-year-old fossils suggest early tetrapods developed without tadpole phase",
@@ -41,7 +55,7 @@
       "source": "Phys.org",
       "title": "'Very dangerous' super typhoon nears US Pacific islands",
       "url": "https://phys.org/news/2026-07-dangerous-super-typhoon-nears-pacific.html",
-      "summary": "People in Guam and the Northern Marianas moved to emergency evacuation centers and made last-minute preparations on Sunday, hours before a \"super typhoon\" was projected to bulldoze through the U.S. Pacific territories.",
+      "summary": "Howling winds and lashing rain battered Guam and the Northern Marianas late Sunday, hours before the projected arrival of a \"super typhoon\" with force equivalent to a Category 5 hurricane over the U.S. Pacific territorie…",
       "ts": 1783241751000
     },
     {
@@ -687,20 +701,6 @@
       "url": "https://phys.org/news/2026-07-complex-food-webs-sustain-ecosystem.html",
       "summary": "Healthy ecosystems depend on more than just having lots of species—they rely on the complex relationships between plants, prey and predators, according to new international research led by the University of Waikato and t…",
       "ts": 1783076401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Modest meat and dairy cuts could help Scotland lower emissions and keep diets affordable",
-      "url": "https://phys.org/news/2026-07-modest-meat-dairy-scotland-emissions.html",
-      "summary": "Modest changes to meat and dairy consumption could help Scotland meet climate goals while improving health and nutrition, research shows. A modeling study appearing in Nature Food found that using vegetables, beans and e…",
-      "ts": 1783069203000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Wildfires rage in southern France, 3,000 people evacuated",
-      "url": "https://phys.org/news/2026-07-wildfires-rage-southern-france-people.html",
-      "summary": "Nearly 3,000 people have been evacuated in southwestern France as Prime Minister Sebastien Lecornu sounded the alarm over an early outbreak of wildfires in the wake of a record-breaking heat wave.",
-      "ts": 1783065602000
     }
   ],
   "sources": [
