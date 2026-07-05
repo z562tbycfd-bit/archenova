@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-05T19:21:33.244Z",
+  "updated": "2026-07-05T21:03:57.586Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rats show empathy, according to model",
+      "url": "https://phys.org/news/2026-07-rats-empathy.html",
+      "summary": "A rat first frees a cagemate rat and then shares food with it. Is this animal just as empathetic as humans? In an American study from 2011, researchers observed that rats first freed their fellow rats from a cage and the…",
+      "ts": 1783281603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spring songbirds may help pollinate UK trees, with pollen on 89% of studied birds",
+      "url": "https://phys.org/news/2026-07-songbirds-pollinate-uk-trees-pollen.html",
+      "summary": "The warblers—those harbingers of spring in the U.K.—have an unappreciated talent of a different sort. Common U.K. birds, including chiffchaffs and blackcaps, are playing a real role in the pollination of plants, accordin…",
+      "ts": 1783281601000
+    },
     {
       "source": "Phys.org",
       "title": "Deuterium in comets tells interesting tales",
@@ -687,20 +701,6 @@
       "url": "https://phys.org/news/2026-07-asteroid-piece-moon-chinese-spacecraft.html",
       "summary": "The moon is not the only natural object traveling through space alongside Earth. Several small asteroids travel around the sun in near lockstep with our planet. And just like Earth, these space rocks also take a year to …",
       "ts": 1783080008000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Projected 'super typhoon' heads for US Pacific islands",
-      "url": "https://phys.org/news/2026-07-super-typhoon-pacific-islands.html",
-      "summary": "Residents of Guam and the Northern Marianas boarded up windows and stocked up Friday as a monster weather system forecast to become a \"super typhoon\" approached the U.S. Pacific territories.",
-      "ts": 1783079290000
-    },
-    {
-      "source": "Phys.org",
-      "title": "France deaths rose by 30% during heatwave",
-      "url": "https://phys.org/news/2026-07-france-deaths-rose-heatwave.html",
-      "summary": "France endured a rise of nearly 30% in the number of deaths recorded during the week starting June 22, the peak of a record-breaking heat wave that battered the country, the public health authority said Friday.",
-      "ts": 1783079242000
     }
   ],
   "sources": [
