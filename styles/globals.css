@@ -25576,3 +25576,77 @@ margin-bottom:2.2rem;
 }
 
 }
+
+
+
+
+
+
+/* ==========================================================
+   Mobile Hero / Origin Label Refinement
+========================================================== */
+
+@media (max-width:768px){
+
+/* HERO・ORIGIN 共通ラベル */
+
+#home-hero .an-frame,
+#origin-gate .an-frame{
+
+    min-height:58px;
+
+    padding:8px 22px !important;
+
+    border-radius:999px;
+
+    gap:12px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+/* 左右ライン */
+
+#home-hero .an-frame span,
+#origin-gate .an-frame span{
+
+    width:34px;
+
+}
+
+/* ラベル文字 */
+
+#home-hero .an-frame p,
+#origin-gate .an-frame p{
+
+    margin:0;
+
+    line-height:1.28;
+
+    font-size:.70rem;
+
+    letter-spacing:.28em;
+
+}
+
+/* HERO */
+
+#home-hero .an-frame{
+
+    margin-bottom:1.6rem !important;
+
+}
+
+/* ORIGIN */
+
+#origin-gate .an-frame{
+
+    margin-bottom:1.4rem !important;
+
+}
+
+}
