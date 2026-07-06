@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-06T20:54:49.542Z",
+  "updated": "2026-07-06T22:15:20.824Z",
   "items": [
     {
       "source": "STAT",
@@ -185,6 +185,22 @@
       "summary": "Paris, France | May 2026 – Novaspace’s latest In-Flight Connectivity report points to sustained, long-term growth in the In-Flight Connectivity (IFC) market, with connected aircraft numbers to exceed 70,000 by 2035. Simu…",
       "ts": 1783339200000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Afghanistan among the world’s largest displacement crises",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167881",
+      "summary": "Afghanistan faces one of the world’s biggest displacement crises amid poverty, drought and earthquakes, UN agencies warned on Monday.",
+      "ts": 1783339200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Occupied Palestinian Territory: Aid restrictions in Gaza, ‘senseless’ infant deaths in the West Bank",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167880",
+      "summary": "Ongoing restrictions and closures of border crossings continue to hamper delivery of critical supplies into the Gaza Strip, amid mounting concern for children there and in the West Bank, the United Nations said on Monday…",
+      "ts": 1783339200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -704,22 +720,6 @@
       "url": "https://arxiv.org/abs/2606.31394",
       "summary": "arXiv:2606.31394v2 Announce Type: replace-cross Abstract: Artificial intelligence is transforming our capability to solve biological challenges. In dimensionality bottleneck regimes exacerbated by high-dimensional biolog…",
       "ts": 1783051200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "The Birthplace of the United States",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-birthplace-of-the-united-states-90513/",
-      "summary": "It was here the founders shaped the future of American government.",
-      "ts": 1783051200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare takes another swing at 340B cuts to hospitals",
-      "url": "https://www.statnews.com/2026/07/02/medicare-hospital-payment-340b-drugs-cut/?utm_campaign=rss",
-      "summary": "Reducing Medicare payments for 340B drugs is the latest proposal focused on the hotly debated drug discount program.",
-      "ts": 1783021939000,
       "categoryId": "bio"
     }
   ],

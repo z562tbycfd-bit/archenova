@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-06T20:54:45.235Z",
+  "updated": "2026-07-06T22:15:17.364Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'Outed' by the algorithm—how social media is revealing queer identity ahead of self-disclosure",
+      "url": "https://phys.org/news/2026-07-outed-algorithm-social-media-revealing.html",
+      "summary": "Social media algorithms are increasingly revealing users' sexual orientation or gender identity before they have consciously come out to themselves or others, according to new research. The new study published in Gender,…",
+      "ts": 1783375203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Africa's wildlife laws follow a colonial model that separates people and animals: Why it's not working",
+      "url": "https://phys.org/news/2026-07-africa-wildlife-laws-colonial-people.html",
+      "summary": "Africa is home to many iconic national parks and marine reserves, such as Virunga in the Democratic Republic of the Congo, Niokolo-Koba in Senegal, Kruger National Park in South Africa and Serengeti National Park in Tanz…",
+      "ts": 1783374006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Storms impact the architecture of webs and the survival of spiders",
+      "url": "https://phys.org/news/2026-07-storms-impact-architecture-webs-survival.html",
+      "summary": "In the dense forests of the Ecuadorian Andes, the survival of a spider relies not only on its ability to prey on insects but also on its capacity to resist a threat coming from the skies. A new study revealed that the he…",
+      "ts": 1783374001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sea stars offer rare view of how embryonic tubes become complex organs",
+      "url": "https://phys.org/news/2026-07-sea-stars-rare-view-embryonic.html",
+      "summary": "Biologists have long puzzled over how organs develop into their final shapes, and the nearly transparent bodies of young sea stars may offer a unique window into the organ development process.",
+      "ts": 1783372808000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bringing rice back to Hawaiʻi: Japanese cultivars yield high-quality grains in just three months",
+      "url": "https://phys.org/news/2026-07-rice-hawaii-japanese-cultivars-yield.html",
+      "summary": "In a major step toward enhancing food security and exploring the potential to bring rice farming back to Hawaiʻi, an international research team has successfully cultivated premium Japanese rice varieties on Kauaʻi using…",
+      "ts": 1783372804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Modeling reveals Sydney's 1789 smallpox outbreak killed as many as 220,000 indigenous Australians",
+      "url": "https://phys.org/news/2026-07-reveals-sydney-smallpox-outbreak-indigenous.html",
+      "summary": "Groundbreaking modeling has revealed that as many as 220,000 Indigenous Australians died in a devastating 1789 smallpox outbreak that originated in Sydney, tracing its origins to the First Fleet. Soon after British ships…",
+      "ts": 1783371613000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new net-membrane could clean up some tricky space debris",
+      "url": "https://phys.org/news/2026-07-net-membrane-tricky-space-debris.html",
+      "summary": "We've reported on all kinds of wacky ideas for capturing and deorbiting space debris safely. From electric tethers to lasers, engineers and scientists have been trying everything they can think of to deal with the ever-i…",
+      "ts": 1783371611000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Atomic 'domino effect' found to drive phase changes in a two-dimensional crystal",
+      "url": "https://phys.org/news/2026-07-atomic-domino-effect-phase-dimensional.html",
+      "summary": "Phase transformations—in which a material changes from one crystal structure to another, thereby acquiring dramatically different properties—are ubiquitous in nature. Understanding the microscopic mechanisms of these tra…",
+      "ts": 1783371608000
+    },
     {
       "source": "Phys.org",
       "title": "Engineers discover 'unexpected motion' in drug-delivery robots",
@@ -514,6 +570,34 @@
       "ts": 1783334198000
     },
     {
+      "source": "APS Physical Review Letters",
+      "title": "Reference Quadrupole Moments of Transition Elements from Lamb Shifts in Muonic Atoms",
+      "url": "http://link.aps.org/doi/10.1103/lss3-jym7",
+      "summary": "Author(s): S. Rathi, K. von Schoeler, P. Indelicato, and B. Ohayon We present a novel method for accurately measuring the absolute electric quadrupole moments of light transition elements $(23≤Z≤30)$. Our approach is bas…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Self-Confinement of Relativistic Pair Beams in Magnetized Interstellar Plasmas: The Case of Pulsar X-Ray Filaments",
+      "url": "http://link.aps.org/doi/10.1103/2hrd-vv2q",
+      "summary": "Author(s): Luca Orusa and Lorenzo Sironi The observation of filamentary x-ray structures near bow-shock pulsar wind nebulae (PWNe)—such as the Guitar, Lighthouse, and PSR $\\mathrm{J}2030+4415$ nebulae—and of slow-diffusi…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "When Can Higher-Form Symmetries Be Made On Site",
+      "url": "http://link.aps.org/doi/10.1103/59dq-sl3m",
+      "summary": "Author(s): Yitao Feng, Yu-An Chen, Po-Shen Hsin, and Ryohei Kobayashi An internal symmetry in a lattice model is said to be onsiteable if it can be disentangled into an on-site action by introducing ancillas and conjugat…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "$\\mathcal{P}\\mathcal{T}$-Symmetric Magnon Lasing and Antilasing",
+      "url": "http://link.aps.org/doi/10.1103/21ts-5d39",
+      "summary": "Author(s): Xi-guang Wang, Tian-xiang Lu, Guang-hua Guo, Jamal Berakdar, and Hui Jing A mechanism for electrically tunable $\\mathcal{P}\\mathcal{T}$-symmetric magnonic lasing and antilasing is proposed along with a device …",
+      "ts": 1783332000000
+    },
+    {
       "source": "APS PR Applied",
       "title": "Complete characterization of beam deflection based on a double weak-value-amplification system",
       "url": "http://link.aps.org/doi/10.1103/symq-cg3s",
@@ -591,34 +675,6 @@
       "ts": 1783332000000
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Reference Quadrupole Moments of Transition Elements from Lamb Shifts in Muonic Atoms",
-      "url": "http://link.aps.org/doi/10.1103/lss3-jym7",
-      "summary": "Author(s): S. Rathi, K. von Schoeler, P. Indelicato, and B. Ohayon We present a novel method for accurately measuring the absolute electric quadrupole moments of light transition elements $(23≤Z≤30)$. Our approach is bas…",
-      "ts": 1783332000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Self-Confinement of Relativistic Pair Beams in Magnetized Interstellar Plasmas: The Case of Pulsar X-Ray Filaments",
-      "url": "http://link.aps.org/doi/10.1103/2hrd-vv2q",
-      "summary": "Author(s): Luca Orusa and Lorenzo Sironi The observation of filamentary x-ray structures near bow-shock pulsar wind nebulae (PWNe)—such as the Guitar, Lighthouse, and PSR $\\mathrm{J}2030+4415$ nebulae—and of slow-diffusi…",
-      "ts": 1783332000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "When Can Higher-Form Symmetries Be Made On Site",
-      "url": "http://link.aps.org/doi/10.1103/59dq-sl3m",
-      "summary": "Author(s): Yitao Feng, Yu-An Chen, Po-Shen Hsin, and Ryohei Kobayashi An internal symmetry in a lattice model is said to be onsiteable if it can be disentangled into an on-site action by introducing ancillas and conjugat…",
-      "ts": 1783332000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "$\\mathcal{P}\\mathcal{T}$-Symmetric Magnon Lasing and Antilasing",
-      "url": "http://link.aps.org/doi/10.1103/21ts-5d39",
-      "summary": "Author(s): Xi-guang Wang, Tian-xiang Lu, Guang-hua Guo, Jamal Berakdar, and Hui Jing A mechanism for electrically tunable $\\mathcal{P}\\mathcal{T}$-symmetric magnonic lasing and antilasing is proposed along with a device …",
-      "ts": 1783332000000
-    },
-    {
       "source": "Phys.org",
       "title": "Researchers use AI to evaluate a systematic framework to describe molecular order in liquid water",
       "url": "https://phys.org/news/2026-07-ai-systematic-framework-molecular-liquid.html",
@@ -645,62 +701,6 @@
       "url": "https://phys.org/news/2026-07-major-super-typhoon-islands.html",
       "summary": "A \"super typhoon\" with the force of a Category 5 hurricane tore through the U.S. Pacific territories of the Northern Marianas and Guam on Monday, with authorities saying they had received reports of \"major\" damage on the…",
       "ts": 1783326001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "China's space probe reaches asteroid after 1-billion-kilometer chase for first sample return",
-      "url": "https://phys.org/news/2026-07-china-space-probe-asteroid-billion.html",
-      "summary": "China's Tianwen-2 space probe, which is set to bring back samples from an asteroid for research, has reached its target after traveling 1 billion kilometers (620 million miles) over more than a year, the Chinese space ag…",
-      "ts": 1783325837000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Thousands flee raging wildfires in southern Europe",
-      "url": "https://phys.org/news/2026-07-thousands-raging-wildfires-southern-europe.html",
-      "summary": "Wildfires raged across Southern Europe on Monday, forcing thousands of people to evacuate their homes and prompting officials to ban spectators from a stage of the storied Tour de France cycling race.",
-      "ts": 1783325238000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Euclid discovers the most ancient quasars in the universe",
-      "url": "https://phys.org/news/2026-07-euclid-ancient-quasars-universe.html",
-      "summary": "The European Space Agency's Euclid space telescope has discovered 31 of the most ancient quasars ever found. Two of these giant and dazzling galaxy cores, powered by gargantuan black holes, are the earliest quasars yet o…",
-      "ts": 1783319401000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Embodied cognition-driven interpretable trajectory prediction of autonomous systems",
-      "url": "https://www.nature.com/articles/s41467-026-75091-9",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Embryo quality control via lineage-specific aneuploid cell elimination in embryos and stem cell-derived embryo models",
-      "url": "https://www.nature.com/articles/s41467-026-75054-0",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "An HMA-like integrated domain in the wheat tandem kinase WTK4 recognises an RNase-like pathogen effector",
-      "url": "https://www.nature.com/articles/s41467-026-74940-x",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Large-scale discovery and annotation of substructure patterns in mass spectrometry profiles",
-      "url": "https://www.nature.com/articles/s41467-026-75038-0",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Statescope: an integrative deconvolution framework for discovering cell states in tumors",
-      "url": "https://www.nature.com/articles/s41467-026-74997-8",
-      "summary": "",
-      "ts": 1783296000000
     }
   ],
   "sources": [
