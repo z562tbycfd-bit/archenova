@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-07-06T12:50:47.092Z",
+  "updated": "2026-07-06T16:22:43.609Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Chimeric Allergen Receptor Treg Cells Suppress Allergic Asthma in Mice",
+      "url": "https://www.genengnews.com/topics/translational-medicine/chimeric-allergen-receptor-treg-cells-suppress-allergic-asthma-in-mice/",
+      "summary": "Researchers developed regulatory T cells armed with chimeric allergen receptors—CAlleR Tregs—which in tests reduced or preventing asthma symptoms in mice sensitized to a birch tree pollen allergen, and suggest that their…",
+      "ts": 1783354413000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Pharma Races to Scale AI as Billions Flow into Drug Discovery",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery/",
+      "summary": "Investors unpack what it takes to succeed in an increasingly crowded AI biology ecosystem. The post Pharma Races to Scale AI as Billions Flow into Drug Discovery appeared first on GEN - Genetic Engineering and Biotechnol…",
+      "ts": 1783354269000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How Open Models Are Driving AI Research",
+      "url": "https://blogs.nvidia.com/blog/open-models-icml-2026/",
+      "summary": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and…",
+      "ts": 1783353600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NASA adds three European firms to the commercial data program",
+      "url": "https://spacenews.com/nasa-adds-three-european-firms-to-the-commercial-data-program/",
+      "summary": "MILAN — NASA’s Commercial Satellite Data Acquisition program (CSDA) announced June 23 contract awards with eight new commercial satellite data providers, three of which are European: Kuva Space (Finland), OroraTech […] T…",
+      "ts": 1783353430000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "How Nations Are Deploying AI for Strategic Priorities",
+      "url": "https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/",
+      "summary": "Nations have long invested in domestic infrastructure to advance their economies, protect and use their data, and take advantage of technology opportunities in areas such as transportation, communications, commerce, ente…",
+      "ts": 1783350025000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Online GLP-1 prescriptions are often fast, easy — and low on clinical oversight",
+      "url": "https://www.statnews.com/2026/07/06/glp-1-telehealth-prescriptions-jama-yale-secret-shopper-study/?utm_campaign=rss",
+      "summary": "A new secret-shopper study found that GLP-1 prescriptions from telehealth sites aren't often backed by appropriate clinical care.",
+      "ts": 1783350000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "ALS Drug Extends Survival in Mice, Targets TDP-43 Low-Complexity Domain",
+      "url": "https://www.genengnews.com/topics/drug-discovery/als-drug-extends-survival-in-mice-targets-tdp-43-low-complexity-domain/",
+      "summary": "A new therapeutic target shields nerve cells from the damage of ALS. A novel drug candidate extended median survival by approximately a week, protected nerve cells and reduced muscle weakness in mice. The post ALS Drug E…",
+      "ts": 1783348863000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Four major biotech updates to catch up on",
+      "url": "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations/?utm_campaign=rss",
+      "summary": "Anthropic CEO talks drug discovery, Medicare proposes steep 340B drug payment cuts, and more biotech news",
+      "ts": 1783345070000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants",
+      "url": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager a…",
+      "ts": 1783342800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The term ‘dual-use’ is misleading and dangerous",
+      "url": "https://spacenews.com/the-term-dual-use-is-misleading-and-dangerous/",
+      "summary": "There is only technology. How it is employed is a question of intent, context and political will, not of the technology itself. A precision optical payload captures imagery whether the […] The post The term ‘dual-use’ is…",
+      "ts": 1783342800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "BAE microchip designed for strategic defense missions passes radiation test",
+      "url": "https://spacenews.com/bae-microchip-designed-for-strategic-defense-missions-passes-radiation-test/",
+      "summary": "The company is positioning its Endura computing for classified and missile-defense satellite programs The post BAE microchip designed for strategic defense missions passes radiation test appeared first on SpaceNews.",
+      "ts": 1783342800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Novartis acquisition, Republicans backing clinical trial diversity, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss",
+      "summary": "Novartis is pushing deeper into antibody-drug conjugate development, paying $1.1 billion upfront to buy Myricx Bio",
+      "ts": 1783342579000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "The race for an Ebola therapy begins",
@@ -17,6 +113,14 @@
       "summary": "Paris, France | May 2026 – Novaspace’s latest In-Flight Connectivity report points to sustained, long-term growth in the In-Flight Connectivity (IFC) market, with connected aircraft numbers to exceed 70,000 by 2035. Simu…",
       "ts": 1783339200000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "From AI to ‘killer robots’: UN chief issues urgent governance call",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167873",
+      "summary": "UN chief António Guterres appealed on Monday for far-reaching, worldwide controls on Artificial Intelligence, as increasingly powerful AI chips that are designed for civilian use shift to the battlefield, where “killer r…",
+      "ts": 1783339200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -550,7 +654,7 @@
       "source": "Genetic Engineering News",
       "title": "Elixirgen Builds Rare Disease Pipeline Around Telomere Biology Disorders and DMD",
       "url": "https://www.genengnews.com/topics/drug-discovery/elixirgen-builds-rare-disease-pipeline-around-telomere-biology-disorders-and-dmd/",
-      "summary": "Elixirgen's lead program is an ex vivo autologous therapy based on proprietary tech that targets telomere biology disorders, rare genetic diseases characterized by short telomeres and telomerase mutations. The post Elixi…",
+      "summary": "Elixirgen's lead program is an ex vivo autologous therapy based on proprietary tech that targets telomere biology disorders, rare genetic diseases characterized by short telomeres, and telomerase mutations. The post Elix…",
       "ts": 1783016048000,
       "categoryId": "bio"
     },
@@ -617,110 +721,6 @@
       "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasi…",
       "ts": 1783006628000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Good Morning, Earth!",
-      "url": "https://www.nasa.gov/image-article/good-morning-earth/",
-      "summary": "NASA astronaut Chris Williams took this photo of an orbital sunrise from the International Space Station on June 26, 2026. In 24 hours, the space station makes 16 orbits of Earth, traveling through 16 sunrises and sunset…",
-      "ts": 1783003284000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Roche drug sets new standard for KRAS-driven lung cancer ",
-      "url": "https://www.statnews.com/2026/07/02/biotech-news-roche-drug-sets-new-standard-for-kras-driven-lung-cancer/?utm_campaign=rss",
-      "summary": "Biotech's bull market, Vertex's gene therapy expansion, and more news from The Readout",
-      "ts": 1783001607000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Reveals Stars Sparking to Life in Cosmic Celebration",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-stars-sparking-to-life-in-cosmic-celebration/",
-      "summary": "NASA’s James Webb Space Telescope has captured the infrared light of numerous features that previously were impossible to see beyond the thick dust of the FS Tau star system. In addition to myriad background galaxies tha…",
-      "ts": 1783000800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Making satellite communications more resilient",
-      "url": "https://spacenews.com/making-satellite-communications-more-resilient/",
-      "summary": "In this episode of Space Minds, Mike Gruss talks with Kymeta’s Ryan Stevenson. They discuss the benefits and challenges of multi-orbit and multi-band connectivity in a single terminal. About Space […] The post Making sat…",
-      "ts": 1783000247000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a court win for Amgen, Novo seeking supplier discounts, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/02/amgen-court-win-novo-seeking-supplier-discounts/?utm_campaign=rss",
-      "summary": "U.S. judge blocked a Colorado state panel from placing a cap on the price of Amgen's blockbuster drug Enbrel",
-      "ts": 1782998704000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Joyride Through July With 12 Games Coming to GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-july-2026-games-list/",
-      "summary": "Summer is heating up — and GeForce NOW is taking players along for the ride. Start the month with Monopoly: Star Wars Heroes vs. Villains, bringing a galaxy far, far away to the iconic board-game franchise, alongside 12 …",
-      "ts": 1782997223000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: U.S. judge blocks Colorado’s first-of-its-kind price cap on an Amgen drug",
-      "url": "https://www.statnews.com/pharmalot/2026/07/02/judge-blocks-colorado-price-cap-on-amgen-enbrel/?utm_campaign=rss",
-      "summary": "A federal judge blocked a Colorado state panel from placing a cap on the price of Enbrel, a blockbuster drug sold by Amgen",
-      "ts": 1782996880000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Teaching AI to run with the turbines",
-      "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physi…",
-      "ts": 1782996704000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 356 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-356-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1782996391000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a startup has a solution for AI’s groupthink problem",
-      "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Ope…",
-      "ts": 1782994200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Peptistar Began Operation of the Asahi Kasei FO-MD System at Manufacturing Scale",
-      "url": "https://www.genengnews.com/topics/bioprocessing/peptistar-began-operation-of-the-asahi-kasei-fo-md-system-at-manufacturing-scale/",
-      "summary": "FO utilizes an osmotic pressure difference across a membrane to remove water from liquids, achieving highly concentrated API solutions under mild conditions. MD leverages a vapor pressure difference across a membrane. Th…",
-      "ts": 1782993633000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela's earthquake-hit hospitals pushed to the brink as disease risk grows",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167868",
-      "summary": "A week after earthquakes tore through northern Venezuela, hospitals in La Guaira are buckling under the weight of the disaster – and the risk of disease outbreaks in shelters is rising fast.",
-      "ts": 1782993600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Taking the world’s temperature: WHO chief spotlights global health emergencies",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167865",
-      "summary": "The hantavirus global outbreak is officially over, Ebola outbreaks are growing in Africa and responders are helping recovery efforts in quake-hit Venezuela, the World Health Organization (WHO) chief said on Thursday, ann…",
-      "ts": 1782993600000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

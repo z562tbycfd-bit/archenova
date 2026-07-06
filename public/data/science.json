@@ -1,7 +1,189 @@
 {
   "ok": true,
-  "updated": "2026-07-06T12:50:44.649Z",
+  "updated": "2026-07-06T16:22:39.817Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Childhood trauma may erode adult relationships through daily communication struggles",
+      "url": "https://phys.org/news/2026-07-childhood-relationships.html",
+      "summary": "Traumatic events from your childhood could have a lingering impact on your adult relationships, according to new research from the University of Georgia.",
+      "ts": 1783354804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Universities must rethink how they prepare students for an AI-powered world, study argues",
+      "url": "https://phys.org/news/2026-07-universities-rethink-students-ai-powered.html",
+      "summary": "Universities need to rethink how they teach, assess and prepare students for employment as artificial intelligence becomes an increasingly important part of everyday life and work, according to a new study from the Unive…",
+      "ts": 1783354801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why Antarctica froze millions of years before the Arctic",
+      "url": "https://phys.org/news/2026-07-antarctica-froze-millions-years-arctic.html",
+      "summary": "East Antarctica hosts the largest ice sheet on Earth, containing enough water to raise global sea levels by 52 meters (171 feet) were it to fully melt. Yet scientists have been puzzled for decades about how and why this …",
+      "ts": 1783353610000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Traces of Earth's primordial magma ocean discovered in lava from a modern volcanic eruption",
+      "url": "https://phys.org/news/2026-07-earth-primordial-magma-ocean-lava.html",
+      "summary": "In May 2018, the island of Mayotte, between Madagascar and Mozambique, began to experience a series of earthquakes that led to the discovery of an underwater volcano, now called Fani Maoré. Multiple scientific expedition…",
+      "ts": 1783353606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers characterize 'improbable' system shaped by brown dwarf",
+      "url": "https://phys.org/news/2026-07-astronomers-characterize-improbable-brown-dwarf.html",
+      "summary": "In the course of studying planets beyond our solar system (6,316 confirmed exoplanets and counting), scientists have discovered some very interesting systems. Consider TOI-201, a compact system populated by three bodies,…",
+      "ts": 1783353601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanobubbles cleaned up the Lincoln reflecting pool: Here's how they could be used on dying seas and lakes",
+      "url": "https://phys.org/news/2026-07-nanobubbles-lincoln-pool-dying-seas.html",
+      "summary": "Ahead of the 250th anniversary of the Declaration of Independence in the U.S., an ozone nanobubble system has been used to keep the Lincoln Memorial Reflecting Pool clear. Months before the celebrations, a massive cleanu…",
+      "ts": 1783352409000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New approach boosts microplastic removal from wastewater",
+      "url": "https://phys.org/news/2026-07-approach-boosts-microplastic-wastewater.html",
+      "summary": "RMIT University researchers have tested a more effective way to capture microplastics from wastewater, using a combination of microbubbles and nanobubbles to achieve removal rates of more than 90%.",
+      "ts": 1783352405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A Super El Niño is coming: 5 hard‑won lessons the world can learn from Africa",
+      "url": "https://phys.org/news/2026-07-super-el-nio-hardwon-lessons.html",
+      "summary": "Climate prediction scientists announced in June 2026 that El Niño, a cycle that happens every two to seven years, had formed. It was expected to develop into one of the strongest on record—a \"super\" El Niño.",
+      "ts": 1783351209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Larger brain, smaller face: Human evolution took a different course than previously thought",
+      "url": "https://phys.org/news/2026-07-larger-brain-smaller-human-evolution.html",
+      "summary": "A new study, published July 6, 2026, in the journal Nature Communications, suggests that two of the best-known trends in human evolution—brain growth and the reduction in the size of the face and jaw—may be far less attr…",
+      "ts": 1783351208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan releases snowman-like asteroid image after flyby",
+      "url": "https://phys.org/news/2026-07-japan-snowman-asteroid-image-flyby.html",
+      "summary": "Rare images taken by a Japanese space probe during a flyby of a near-Earth asteroid have revealed that the space rock resembled a snowman, scientists said Monday.",
+      "ts": 1783350611000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Moving forests to save them: Here are the risks and rewards of assisted tree migration",
+      "url": "https://phys.org/news/2026-07-forests-rewards-tree-migration.html",
+      "summary": "Climate change is shifting forest conditions faster than local tree species can adapt. Higher temperatures, more frequent droughts and less predictable winters can weaken species that have been established in a region fo…",
+      "ts": 1783350010000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: How camera-equipped homing pigeons could improve robotic vision in flight",
+      "url": "https://phys.org/news/2026-07-qa-camera-equipped-homing-pigeons.html",
+      "summary": "Contrary to common assumptions, pigeons do not lock their eyes in place during flight. Instead, they make slow, subtle eye movements that may help them gather more information about their surroundings.",
+      "ts": 1783350008000
+    },
+    {
+      "source": "Science News",
+      "title": "Pickles glow when you plug them in. Science explains why",
+      "url": "https://www.sciencenews.org/article/pickle-glow-electricity-experiment",
+      "summary": "A scientist, a jar of pickles and a power strip walk into a room. The punchline involves physics, glowing condiments and a scientific party trick.",
+      "ts": 1783350000000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Webb uncovers dust-shrouded heart of Centaurus A after galaxy clash 2 billion years ago",
+      "url": "https://phys.org/news/2026-07-webb-uncovers-shrouded-heart-centaurus.html",
+      "summary": "In new images from NASA's James Webb Space Telescope to celebrate its fourth science anniversary, a familiar galaxy transforms into something far richer and far more complex than ever seen before. Webb's unprecedented se…",
+      "ts": 1783349383000
+    },
+    {
+      "source": "Phys.org",
+      "title": "We assume students see pictures in their minds as they learn. But not everyone can",
+      "url": "https://phys.org/news/2026-07-assume-students-pictures-minds.html",
+      "summary": "Picture a bright red apple. Most people can do this easily. They imagine the apple's shape, color and shine. But for others, the image is vague and blurry or they \"see\" nothing at all. This is known as aphantasia—a \"blin…",
+      "ts": 1783348809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover smart way to supercharge soft robotics and better support rehabilitation patients",
+      "url": "https://phys.org/news/2026-07-scientists-smart-supercharge-soft-robotics.html",
+      "summary": "Researchers have found an ingenious way to make soft robots and wearable technology more than three times more powerful by harnessing the surface tension of a tiny liquid metal droplet smaller than a raindrop.",
+      "ts": 1783348805000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Researchers Reveal the Power of ‘Quantum Proofs’",
+      "url": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
+      "summary": "When checking that solutions to certain problems are correct, it turns out, you can’t get around the inherent complexity of the quantum world. The post Researchers Reveal the Power of ‘Quantum Proofs’ first appeared on Q…",
+      "ts": 1783348436000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Upside‑down whales aren't sick or hurt—they're just resting",
+      "url": "https://phys.org/news/2026-07-upsidedown-whales-sick-theyre-resting.html",
+      "summary": "If you stand on one of Australia's southern shorelines at this time of year, you might be lucky enough to spot a southern right whale (Eubalaena australis) swimming in the shallow waters. These ocean giants have migrated…",
+      "ts": 1783347603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The evolutionary pressure behind sexual asymmetry revealed in yeast cell study",
+      "url": "https://phys.org/news/2026-07-evolutionary-pressure-sexual-asymmetry-revealed.html",
+      "summary": "A major transition in evolution is the shift from asexual to sexual reproduction in early organisms. But why would a yeast cell, which usually reproduces asexually, choose to mate with a very different partner in times o…",
+      "ts": 1783347601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A last dance before death: Binary stars and the origins of interacting supernovae",
+      "url": "https://phys.org/news/2026-07-death-binary-stars-interacting-supernovae.html",
+      "summary": "When massive stars die, they unleash some of the most powerful explosions in the universe. Yet not all supernovae are created equal. Some continue to shine brightly for months or even years as their expanding debris cras…",
+      "ts": 1783346412000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change is silencing the Pilbara barking gecko",
+      "url": "https://phys.org/news/2026-07-climate-silencing-pilbara-barking-gecko.html",
+      "summary": "New research from Monash University has provided the first comprehensive assessment of the Pilbara barking gecko (Underwoodisaurus seorsus) and revealed the species is facing a heightened risk of extinction under a rapid…",
+      "ts": 1783346401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient hobbit-like humans may have survived on meat left behind by Komodo dragons",
+      "url": "https://phys.org/news/2026-07-ancient-hobbit-humans-survived-meat.html",
+      "summary": "Arguably one of the most curious ancient human relatives is Homo floresiensis, a 3-foot-tall species that lived on the Indonesian island of Flores and has been nicknamed \"hobbit\" for its diminutive stature. Even though t…",
+      "ts": 1783346104000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists observe water's behavior in a single molecular layer",
+      "url": "https://phys.org/news/2026-07-scientists-behavior-molecular-layer.html",
+      "summary": "New research has revealed that water behaves differently when confined to spaces just one molecule thick. For the first time, scientists have directly measured the vibrational signatures of truly two-dimensional water. I…",
+      "ts": 1783344003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemists capture structure of the elusive borylnitrene trapped in a crystal using X-ray",
+      "url": "https://phys.org/news/2026-07-chemists-capture-elusive-borylnitrene-crystal.html",
+      "summary": "Nitrenes are the ghosts of synthetic chemistry, formed in an instant and gone just as quickly, rearranging into something entirely different. These highly reactive intermediates are widely used in synthesis, yet remain n…",
+      "ts": 1783342810000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Atomic-level engineering of Cu nanoclusters improves conversion of CO₂ to fuel",
+      "url": "https://phys.org/news/2026-07-atomic-cu-nanoclusters-conversion-fuel.html",
+      "summary": "Researchers at Tohoku University have discovered a promising strategy that converts harmful carbon dioxide into valuable fuels and chemicals by precisely altering nanoclusters made of copper.",
+      "ts": 1783342802000
+    },
+    {
+      "source": "Science News",
+      "title": "‘Hobbits’ likely scavenged dragons’ kills",
+      "url": "https://www.sciencenews.org/article/hobbits-scavenged-dragon-kills-flores",
+      "summary": "Homo floresiensis may have scavenged Komodo dragon leftovers instead of hunting small elephant relatives.",
+      "ts": 1783342800000
+    },
     {
       "source": "Phys.org",
       "title": "New workflow tool gives scientists a clearer view of how DNA is regulated",
@@ -92,6 +274,111 @@
       "url": "https://phys.org/news/2026-07-israel-basket-grocery-bills.html",
       "summary": "Researchers from the Coller School of Management at Tel Aviv University examined the Ministry of Economy's flagship \"Israel's Basket\" initiative and found that although it substantially reduced the prices of the 100 prod…",
       "ts": 1783334198000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Reference Quadrupole Moments of Transition Elements from Lamb Shifts in Muonic Atoms",
+      "url": "http://link.aps.org/doi/10.1103/lss3-jym7",
+      "summary": "Author(s): S. Rathi, K. von Schoeler, P. Indelicato, and B. Ohayon We present a novel method for accurately measuring the absolute electric quadrupole moments of light transition elements $(23≤Z≤30)$. Our approach is bas…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Self-Confinement of Relativistic Pair Beams in Magnetized Interstellar Plasmas: The Case of Pulsar X-Ray Filaments",
+      "url": "http://link.aps.org/doi/10.1103/2hrd-vv2q",
+      "summary": "Author(s): Luca Orusa and Lorenzo Sironi The observation of filamentary x-ray structures near bow-shock pulsar wind nebulae (PWNe)—such as the Guitar, Lighthouse, and PSR $\\mathrm{J}2030+4415$ nebulae—and of slow-diffusi…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "When Can Higher-Form Symmetries Be Made On Site",
+      "url": "http://link.aps.org/doi/10.1103/59dq-sl3m",
+      "summary": "Author(s): Yitao Feng, Yu-An Chen, Po-Shen Hsin, and Ryohei Kobayashi An internal symmetry in a lattice model is said to be onsiteable if it can be disentangled into an on-site action by introducing ancillas and conjugat…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "$\\mathcal{P}\\mathcal{T}$-Symmetric Magnon Lasing and Antilasing",
+      "url": "http://link.aps.org/doi/10.1103/21ts-5d39",
+      "summary": "Author(s): Xi-guang Wang, Tian-xiang Lu, Guang-hua Guo, Jamal Berakdar, and Hui Jing A mechanism for electrically tunable $\\mathcal{P}\\mathcal{T}$-symmetric magnonic lasing and antilasing is proposed along with a device …",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Complete characterization of beam deflection based on a double weak-value-amplification system",
+      "url": "http://link.aps.org/doi/10.1103/symq-cg3s",
+      "summary": "Author(s): Yu Wang, Rongguo Yang, Jing Zhang, Chenzhen Luo, Xiaomin Liu, Kui Liu, and Jiangrui Gao The precise measurement of spatial attitude parameters is critical for applications in inertial navigation, industrial mo…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Unconventional spectral signatures of a hybrid superconducting flux qubit based on a topological insulator",
+      "url": "http://link.aps.org/doi/10.1103/rtwk-dyzh",
+      "summary": "Author(s): Bing Li, Xiaopei Sun, Enna Zhuo, Zhaozheng Lyu, Yunxiao Zhang, Yuyang Huang, Duolin Wang, Xiang Wang, Yukun Shi, Xiaozhou Yang, Zenan Shi, Anqi Wang, Heng Zhang, Fucong Fei, Xiaohui Song, Guangtong Liu, Jie Sh…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Cross-resonant gates in hybrid fluxonium-transmon systems",
+      "url": "http://link.aps.org/doi/10.1103/2j47-b79k",
+      "summary": "Author(s): Nikola D. Dimitrov, Chen Wang, Vladimir E. Manucharyan, and Maxim G. Vavilov We propose a scalable dual-species fluxonium-transmon system that utilizes a central transmon to mediate high-fidelity gates and par…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Selective shuttling of electrons on helium using a CMOS control platform",
+      "url": "http://link.aps.org/doi/10.1103/pq6h-679f",
+      "summary": "Author(s): K. E. Castoria, H. Byeon, N. R. Beysengulov, E. O. Glen, M. Sammon, J. Pollanen, D. G. Rees, and S. A. Lyon Electrons bound to the surface of liquid helium are an emerging quantum computing platform, offering …",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Phonon-entropy-guided theoretical design of caloric cooling: PbO as a superior mechanocaloric material",
+      "url": "http://link.aps.org/doi/10.1103/jw2m-dx1q",
+      "summary": "Author(s): Zhiyi Xie, Hongyu He, Wei Liu, Chao Wu, Yi Tao, Yu Wu, Gang Zhang, Yunfei Chen, and Chenhan Liu Caloric cooling offers a promising solid-state alternative to conventional refrigeration. A traditional strategy …",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Solving the inverse parametric problem",
+      "url": "http://link.aps.org/doi/10.1103/1bdh-lcxq",
+      "summary": "Author(s): Michele Cortinovis, Fabio Lingua, and David B. Haviland We present a method to calculate the frequency components of a pump waveform driving a parametric oscillator, which realizes a desired frequency mixing o…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Quantum metrology of Newton’s constant with levitated mechanical systems",
+      "url": "http://link.aps.org/doi/10.1103/pm4s-gv8w",
+      "summary": "Author(s): Francis J. Headley, Alessio Belenchia, Mauro Paternostro, and Daniel Braun Newton’s constant is the least well measured among the fundamental constants of nature, and, indeed, its accurate measurement has long…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Watt-level coherent microwave emission from dissipation-engineered solid-state quantum batteries",
+      "url": "http://link.aps.org/doi/10.1103/2dw2-z21v",
+      "summary": "Author(s): Yuanjin Wang, Hao Wu, Mark Oxborrow, and Qing Zhao Recently proposed metastability-induced quantum batteries have shown particular promise for coherent microwave generation. However, achieving high-power coher…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Microwave-induced activation of phase-change nanodroplets using a directional ultrawideband microstrip antenna",
+      "url": "http://link.aps.org/doi/10.1103/vr64-pkdh",
+      "summary": "Author(s): Maryam Dorvashi, Hossam H. Sultan, Owen J. Harrison, Yuang You, Navid Ghavami, Gianluigi Tiberi, Enrico Grisan, Maya Thanou, Mohammad Ghavami, and Sevan Harput Phase-change nanodroplets (PCNDs) are stimuli-res…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "How geometry tames disorder in lattice fracture",
+      "url": "http://link.aps.org/doi/10.1103/634w-nkwl",
+      "summary": "Author(s): Matthaios Chouzouris, Leo de Waal, Antoine Sanner, Alessandra Lingua, David S. Kammer, and Marcelo A. Dias We investigate the fracture behavior of precracked triangular beam lattices whose elements have failur…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Spin pumping driven by magnon-polaritons in a ferromagnet–coplanar superconducting resonator hybrid system",
+      "url": "http://link.aps.org/doi/10.1103/3d5g-qydt",
+      "summary": "Author(s): Dinesh Wagle, Yi Li, Anish Rai, Tomas Polakovic, Valentine Novosad, and M. Benjamin Jungfleisch We demonstrate spin pumping driven by a strongly coupled magnon-photon system using a ferromagnet-coplanar superc…",
+      "ts": 1783332000000
     },
     {
       "source": "Phys.org",
@@ -414,293 +701,6 @@
       "url": "https://phys.org/news/2026-06-rare-dinosaur-fossil-antarctica-tucked.html",
       "summary": "Scientists have stumbled on a rare dinosaur fossil from Antarctica, tucked away for decades in a drawer.",
       "ts": 1783180801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bacterial protein reveals a hidden rule for controlling calcium",
-      "url": "https://phys.org/news/2026-07-bacterial-protein-reveals-hidden-calcium.html",
-      "summary": "A small change in acidity can transform the world around us. A squeeze of lemon changes the taste of food. Vinegar preserves vegetables. Stomach acid helps break down a meal. These familiar effects come from protons—tiny…",
-      "ts": 1783178401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rising seas make once-rare coastal floods 12 times more likely",
-      "url": "https://phys.org/news/2026-06-seas-rare-coastal.html",
-      "summary": "Extreme floods that once swamped coastal communities only rarely are becoming far more common as climate change caused by humans pushes sea levels higher, according to new research published Wednesday. Experts say the fi…",
-      "ts": 1783175401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Astronomers may have caught an early galaxy in the process of dying",
-      "url": "https://phys.org/news/2026-06-astronomers-caught-early-galaxy-dying.html",
-      "summary": "Astronomers have spotted many \"red and dead\" galaxies in the early universe. These are massive systems that stopped forming stars surprisingly early in cosmic history. Now, they may have found evidence of one in the act …",
-      "ts": 1783172401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Trained AI outperforms biologists at spotting salmon lice",
-      "url": "https://phys.org/news/2026-07-ai-outperforms-biologists-salmon-lice.html",
-      "summary": "Researchers have taken over 120,000 images of salmon lice larvae in seawater and used them to train AI models. The models were much faster and more accurate than experienced biologists at identifying the parasites that f…",
-      "ts": 1783170001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "A young gull's mottled brown plumage acts as a 'not a threat' signal to territorial adults",
-      "url": "https://phys.org/news/2026-07-young-gull-mottled-brown-plumage.html",
-      "summary": "Birds are known for their distinctive plumage that helps them attract mates during the breeding season. For some birds, the path to adulthood is quite linear. One day they are chicks, and a few months later they are full…",
-      "ts": 1783166404000
-    },
-    {
-      "source": "Phys.org",
-      "title": "El Nino set to be 'strong', UN warns",
-      "url": "https://phys.org/news/2026-07-el-nino-strong.html",
-      "summary": "El Nino is here and will quickly develop into a strong event between July and September, fueling the likelihood of extreme weather, the United Nations' climate agency warned Friday.",
-      "ts": 1783159201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "One for the history books: What we know about the European heat wave",
-      "url": "https://phys.org/news/2026-07-history-european.html",
-      "summary": "Europe is still taking stock of a powerful heat wave in late June, but experts are already confident it ranks among the worst ever recorded—even rivaling a freak 2003 episode.",
-      "ts": 1783152601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Scientists find yeast in ancient Iceman's guts—and make bread",
-      "url": "https://phys.org/news/2026-06-scientists-yeast-ancient-iceman-guts.html",
-      "summary": "Yeast has been growing in the guts of a frozen mummy called Oetzi the Iceman for thousands of years, scientists have discovered, telling AFP they used it to make a tasty sourdough bread.",
-      "ts": 1783152001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "New species of ghost shark may have been found in Costa Rica",
-      "url": "https://phys.org/news/2026-07-species-ghost-shark-costa-rica.html",
-      "summary": "Costa Rican scientists may have discovered a new species of ghost shark in Pacific waters near Cabo Blanco and Cano Island.",
-      "ts": 1783151420000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Dangerous heat wave roasts America's big birthday party",
-      "url": "https://phys.org/news/2026-07-dangerous-roasts-america-big-birthday.html",
-      "summary": "A punishing heat wave threatened America's July Fourth celebrations, World Cup matches and power grids as near-record temperatures scorched the eastern United States on Friday.",
-      "ts": 1783151389000
-    },
-    {
-      "source": "Phys.org",
-      "title": "AI must be built with Indigenous Knowledges, not against them",
-      "url": "https://phys.org/news/2026-07-ai-built-indigenous-knowledges.html",
-      "summary": "As Australia marks 50 years of NAIDOC Week, honoring the world's oldest living culture, humanity's newest technology has yet to reckon with a simple principle: \"nothing about us, without us.\" The concern is that artifici…",
-      "ts": 1783131601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Insect-borne diseases in the Amazon linked to land use and rural economies",
-      "url": "https://phys.org/news/2026-07-insect-borne-diseases-amazon-linked.html",
-      "summary": "Diseases spread by insects in the Brazilian Amazon are not randomly distributed but form distinct regional patterns linked to land use, rural economies and environmental change, according to new research led by the Envir…",
-      "ts": 1783125601000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Proton shuttling at electrochemical interfaces under alkaline hydrogen evolution",
-      "url": "https://www.nature.com/articles/s41467-026-75400-2",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Widespread controls of precipitation sensitivity on drought recovery of global forests",
-      "url": "https://www.nature.com/articles/s41467-026-75320-1",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Dielectric-dependent hybrid functional based on meta-GGA",
-      "url": "https://www.nature.com/articles/s41467-026-75146-x",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "The BRCA1-A complex restricts replication fork reversal-dependent DNA repair in ATM deficient cells",
-      "url": "https://www.nature.com/articles/s41467-026-75271-7",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "North Pacific meltwater weakens the Atlantic Meridional Overturning Circulation and preconditions Heinrich Stadial 1",
-      "url": "https://www.nature.com/articles/s41467-026-75199-y",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Closed-loop readout of anterior insula high-gamma activity steers value-based decisions",
-      "url": "https://www.nature.com/articles/s41467-026-75265-5",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Glutamatergic signaling underlies brain structural organization for mathematical and reading abilities in children",
-      "url": "https://www.nature.com/articles/s41467-026-75102-9",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "A likelihood-based method for identifying replay from spike sequences",
-      "url": "https://www.nature.com/articles/s41467-026-74822-2",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Multiscale artificial spider web for comprehensive pressure sensing and human-machine interaction",
-      "url": "https://www.nature.com/articles/s41467-026-74200-y",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Personalized neoantigen-pulsed autologous dendritic cells in newly-diagnosed glioblastoma: a phase Ib trial",
-      "url": "https://www.nature.com/articles/s41467-026-75066-w",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Specificity and exon target space of splicing modifying compounds",
-      "url": "https://www.nature.com/articles/s41467-026-74594-9",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Dual-interface stabilization of low-iridium anodes for durable proton exchange membrane water electrolysis",
-      "url": "https://www.nature.com/articles/s41467-026-75113-6",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "CAF-derived PAI-1 serves as an EGFR ligand and fuels KRAS-mutant pancreatic cancer",
-      "url": "https://www.nature.com/articles/s41467-026-75132-3",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "A multi-fidelity tabular prior-data fitted network model for accurate prediction and uncertainty quantification",
-      "url": "https://www.nature.com/articles/s41467-026-75163-w",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Ancient plume-reinforced lithosphere modulates present-day crustal fluid migration and deformation",
-      "url": "https://www.nature.com/articles/s41467-026-75203-5",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "The BZR1-BLH1-PIF4 feedback module acts as a molecular amplifier for precise thermomorphogenesis in Arabidopsis",
-      "url": "https://www.nature.com/articles/s41467-026-75154-x",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Sub-parts-per-billion CO<sub>2</sub> Detection based on Dissipative Whispering Gallery Mode Microcavity Sensor",
-      "url": "https://www.nature.com/articles/s41467-026-75218-y",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Visual learning at fast and slow timescales is driven by distinct plasticity rules in primate inferotemporal cortex",
-      "url": "https://www.nature.com/articles/s41467-026-74791-6",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Electric field tunable coupling strength and quantum metric hot spots in a moiré flatband superconductor",
-      "url": "https://www.nature.com/articles/s41467-026-74848-6",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Signaling downstream of tumor–stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity",
-      "url": "https://www.nature.com/articles/s41467-026-75127-0",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Ectomesenchyme contributes to epidermal stem cell formation through mesenchymal-to-epithelial transition",
-      "url": "https://www.nature.com/articles/s41467-026-75278-0",
-      "summary": "",
-      "ts": 1783123200000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Conservation genomics faces growing calls to center Indigenous knowledge and data rights",
-      "url": "https://phys.org/news/2026-07-genomics-center-indigenous-knowledge-rights.html",
-      "summary": "Throughout human ecological history, we have played a variety of roles within ecosystems around the world. In this so-called Anthropocene era, genomic innovations have given us new and powerful ways to influence the envi…",
-      "ts": 1783122001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Plug-and-play single-photon source can work at room temperature",
-      "url": "https://phys.org/news/2026-07-play-photon-source-room-temperature.html",
-      "summary": "The Korea Research Institute of Standards and Science (KRISS) has developed a room-temperature single-photon source built into a compact 19-inch rack-mounted device that operates without cryogenic cooling. Designed as a …",
-      "ts": 1783118401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "How generative AI and physics can help design new antibiotics",
-      "url": "https://phys.org/news/2026-07-generative-ai-physics-antibiotics.html",
-      "summary": "By 2050, scientists estimate that antibiotic-resistant infections will be associated with more than 8 million deaths around the world every year.",
-      "ts": 1783116001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Megalodon's legendary life revealed by fossil rediscovery",
-      "url": "https://phys.org/news/2026-07-megalodon-legendary-life-revealed-fossil.html",
-      "summary": "Museums are supposed to be havens for the collective cultural and scientific heritage of the planet, but specimens sometimes go missing.",
-      "ts": 1783113602000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Small-molecule switches put therapeutic CRISPR editing under on-demand control in living tissues",
-      "url": "https://phys.org/news/2026-07-small-molecule-therapeutic-crispr-demand.html",
-      "summary": "In a study published in Science Translational Medicine, a team of researchers led by Dr. Wang Yu from the Shenzhen Institutes of Advanced Technology of the Chinese Academy of Sciences developed PRINCE and Little Prince, …",
-      "ts": 1783111201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Gentle nudges for increased animal welfare",
-      "url": "https://phys.org/news/2026-07-gentle-nudges-animal-welfare.html",
-      "summary": "Gentle purchase incentives can lead customers to choose groceries with higher animal husbandry standards more often. A recent study at the University of Bonn at least suggests this. The researchers used two different ani…",
-      "ts": 1783108804000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Free-text answers and LLMs reveal hidden reasons behind human choices",
-      "url": "https://phys.org/news/2026-07-free-text-llms-reveal-hidden.html",
-      "summary": "Why do people make the choices they do? Researchers from the Center Synergy of Systems (SynoSys) at TUD Dresden University of Technology, the Max Planck Institute for Human Development, and the University of Basel presen…",
-      "ts": 1783105201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Giant wheat starch granules—a leap forward in biological engineering with potential benefits for diet, manufacturing",
-      "url": "https://phys.org/news/2026-07-giant-wheat-starch-granules-biological.html",
-      "summary": "Scientists have grown wheat containing supersized starch granules—a leap forward in biological engineering with potential benefits for our daily diets and a raft of industrial applications.",
-      "ts": 1783101610000
     }
   ],
   "sources": [
