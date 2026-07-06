@@ -1,7 +1,112 @@
 {
   "ok": true,
-  "updated": "2026-07-06T16:22:39.817Z",
+  "updated": "2026-07-06T18:56:32.335Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI could hurt employers in race for top talent",
+      "url": "https://phys.org/news/2026-07-ai-employers-talent.html",
+      "summary": "Companies embracing AI to recruit faster could be damaging their ability to compete for top talent, according to a major new study.",
+      "ts": 1783363205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Neighbors shape plant life more than expected, scientists find",
+      "url": "https://phys.org/news/2026-07-neighbors-life-scientists.html",
+      "summary": "Scientists at Leiden University have discovered that plants are strongly influenced by their neighbors, not just above ground but also through hidden networks in the soil. Their findings challenge long-held ideas about h…",
+      "ts": 1783363203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First synthetic protein motor moves along DNA in controlled, programmable steps",
+      "url": "https://phys.org/news/2026-07-synthetic-protein-motor-dna-programmable.html",
+      "summary": "Researchers from UNSW Sydney have built the first artificial protein motor capable of taking controlled, directional steps along a DNA track. The protein, dubbed Tumbleweed, moves by alternating between three \"feet\" that…",
+      "ts": 1783362007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Algorithm determines which firms have advanced capabilities—and what others must build first",
+      "url": "https://phys.org/news/2026-07-algorithm-firms-advanced-capabilities.html",
+      "summary": "Understanding how firms build their capabilities, such as managerial skills, technology adoption and innovation capacity, is important for explaining why some firms perform better and how others can improve. However, unl…",
+      "ts": 1783362002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "School-based program to reduce loneliness and improve help-seeking among adolescents",
+      "url": "https://phys.org/news/2026-07-school-based-loneliness-adolescents.html",
+      "summary": "Adolescents experiencing social isolation or loneliness are at increased risk of developing mental health problems, highlighting the need for preventive interventions before these challenges worsen. However, relatively f…",
+      "ts": 1783360809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Four new groups of indigenous cacao varieties discovered in Peru",
+      "url": "https://phys.org/news/2026-07-groups-indigenous-cacao-varieties-peru.html",
+      "summary": "A new genetic analysis of hundreds of cacao trees representing traditional Amazonian varieties grown on farms across Peru has revealed four previously unidentified, genetically distinct groups. Lambert Motilal, with coll…",
+      "ts": 1783360805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unexpected discovery yields new graphene oxide production method",
+      "url": "https://phys.org/news/2026-07-unexpected-discovery-yields-graphene-oxide.html",
+      "summary": "Researchers in the Texas A&M University J. Mike Walker '66 Department of Mechanical Engineering have developed a new method for producing graphene oxide, a high-value carbon nanomaterial used in batteries, electronics an…",
+      "ts": 1783359607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What do people really eat? New global database gives best answer yet",
+      "url": "https://phys.org/news/2026-07-people-global-database.html",
+      "summary": "A major new resource that provides one of the most comprehensive pictures yet of what people are eating around the world has been introduced in a new study by a UCL and University of Oxford researcher.",
+      "ts": 1783359603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Paleontologists make 'one in a million' discovery of soft tissue preserved in 450-million-year-old fossil",
+      "url": "https://phys.org/news/2026-07-paleontologists-million-discovery-soft-tissue.html",
+      "summary": "Before the oldest dinosaur, before animals or even plants had expanded onto dry land, ancient relatives of starfish called crinoids, resembling stalked sea flowers, were among the first creatures to flourish in Earth's e…",
+      "ts": 1783359463000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers spot an extremely rare galaxy mega-merger",
+      "url": "https://phys.org/news/2026-07-astronomers-extremely-rare-galaxy-mega.html",
+      "summary": "Scale in the universe is hard to understand from a purely human perspective. Many times, the math just doesn't sit well with our brains, which evolved to capture and process data about the world around us rather than gro…",
+      "ts": 1783358403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Alpine butterflies track warming uphill, but habitat loss may pose bigger risk",
+      "url": "https://phys.org/news/2026-07-alpine-butterflies-track-uphill-habitat.html",
+      "summary": "A new study published in the journal Alpine Entomology has found that alpine butterflies in the Swiss National Park are closely matching the pace of local warming in their range shift to higher elevations.",
+      "ts": 1783358401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Early parenting shapes the brain and socio-sexual behavior, rodent study shows",
+      "url": "https://phys.org/news/2026-07-early-parenting-brain-socio-sexual.html",
+      "summary": "Past psychology studies have consistently highlighted the importance of social bonds for survival, showing that enduring relationships are linked with a longer life expectancy, a more resilient immune system, better card…",
+      "ts": 1783357202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden fungal networks deliver carbon to green plants, experiment confirms",
+      "url": "https://phys.org/news/2026-07-hidden-fungal-networks-carbon-green.html",
+      "summary": "Beneath forests, grasslands and wetlands lies a hidden underground network of fungi known as mycorrhizal networks, sometimes nicknamed the \"wood-wide web.\" These fungi live in partnership with plant roots, helping plants…",
+      "ts": 1783357201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Satellites reveal when toxic algal blooms flare in Blue Mesa Reservoir",
+      "url": "https://phys.org/news/2026-07-satellites-reveal-toxic-algal-blooms.html",
+      "summary": "The summers of 2021 and 2022 were tough seasons for Colorado's Blue Mesa Reservoir. A severe drought gripped much of the western U.S., prompting emergency water releases that brought the reservoir to its lowest level sin…",
+      "ts": 1783356003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Discrepancies in AI lunar crater catalogs discovered",
+      "url": "https://phys.org/news/2026-07-discrepancies-ai-lunar-crater.html",
+      "summary": "A new Southwest Research Institute-led study compared eight AI-generated lunar crater catalogs, discovering that many of their published performance metrics drop sharply when the databases are evaluated using the same sc…",
+      "ts": 1783356001000
+    },
     {
       "source": "Phys.org",
       "title": "Childhood trauma may erode adult relationships through daily communication struggles",
@@ -431,6 +536,13 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Embodied cognition-driven interpretable trajectory prediction of autonomous systems",
+      "url": "https://www.nature.com/articles/s41467-026-75091-9",
+      "summary": "",
+      "ts": 1783296000000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Embryo quality control via lineage-specific aneuploid cell elimination in embryos and stem cell-derived embryo models",
       "url": "https://www.nature.com/articles/s41467-026-75054-0",
       "summary": "",
@@ -438,8 +550,29 @@
     },
     {
       "source": "Nature Communications",
+      "title": "An HMA-like integrated domain in the wheat tandem kinase WTK4 recognises an RNase-like pathogen effector",
+      "url": "https://www.nature.com/articles/s41467-026-74940-x",
+      "summary": "",
+      "ts": 1783296000000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Large-scale discovery and annotation of substructure patterns in mass spectrometry profiles",
       "url": "https://www.nature.com/articles/s41467-026-75038-0",
+      "summary": "",
+      "ts": 1783296000000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Statescope: an integrative deconvolution framework for discovering cell states in tumors",
+      "url": "https://www.nature.com/articles/s41467-026-74997-8",
+      "summary": "",
+      "ts": 1783296000000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Breaking the activity-selectivity dilemma in direct electrocatalytic hydrogenolysis of furfural into furanic biofuel",
+      "url": "https://www.nature.com/articles/s41467-026-74394-1",
       "summary": "",
       "ts": 1783296000000
     },
@@ -568,139 +701,6 @@
       "url": "https://phys.org/news/2026-07-japan-space-probe-skims-asteroid.html",
       "summary": "A Japanese space probe performed a flyby of a near-Earth asteroid on Sunday in a test mission for technology that could help protect the planet from space rocks.",
       "ts": 1783261812000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Scattered bronze bells in Chinese lord's 2,600-year-old tomb point to ritual deactivation",
-      "url": "https://phys.org/news/2026-06-bronze-bells-chinese-lord-year.html",
-      "summary": "When archaeologists opened the 2,600-year-old tomb of an ancient Chinese lord, they discovered his magnificent bronze bells had been scattered, their wooden hangings broken. But the most mysterious part of all: This was …",
-      "ts": 1783261201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rare 309-million-year-old fossils suggest early tetrapods developed without tadpole phase",
-      "url": "https://phys.org/news/2026-06-rare-million-year-fossils-early.html",
-      "summary": "Scientists have long posited that the earliest water animals to transition to land had amphibious tadpole features, going through a metamorphosis akin to that of today's frogs.",
-      "ts": 1783257601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Mini monitor measures artificial heartbeat",
-      "url": "https://phys.org/news/2026-06-mini-artificial-heartbeat.html",
-      "summary": "An international team, including the University of Tokyo, has created a sensor inspired by the lateral line in fish—their \"sixth sense\" organ—which measures the pulse of lab-grown 3D heart tissue (cardiac organoids). The…",
-      "ts": 1783256404000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Wild yeast discovery enables non-GM brewing of ornithine-enriched craft beer",
-      "url": "https://phys.org/news/2026-07-wild-yeast-discovery-enables-gm.html",
-      "summary": "As consumer interest grows in foods and beverages with added nutritional value, brewers are exploring ways to improve fermentation itself rather than relying on post-production additives. Ornithine, a naturally occurring…",
-      "ts": 1783251604000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Spain data on 5.5 million convictions challenges immigration-crime link",
-      "url": "https://phys.org/news/2026-07-spain-million-convictions-immigration-crime.html",
-      "summary": "When analyzing crime, the foreign population typically shows higher rates than the native population. However, crime statistics change significantly when comparing groups of the same age and gender. A detailed data analy…",
-      "ts": 1783249201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Controlling magnetic chirality could help memory pack in more data",
-      "url": "https://phys.org/news/2026-07-magnetic-chirality-memory.html",
-      "summary": "Magnetic storage devices, like a computer's hard disk drive, utilize magnets to represent binary data. However, as these devices are downsized, stray magnetic fields generated by individual magnetic components can intera…",
-      "ts": 1783248002000
-    },
-    {
-      "source": "Phys.org",
-      "title": "'Very dangerous' super typhoon nears US Pacific islands",
-      "url": "https://phys.org/news/2026-07-dangerous-super-typhoon-nears-pacific.html",
-      "summary": "Howling winds and lashing rain battered Guam and the Northern Marianas late Sunday, hours before the projected arrival of a \"super typhoon\" with force equivalent to a Category 5 hurricane over the U.S. Pacific territorie…",
-      "ts": 1783241751000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Astronomers find biggest super-puff planets yet that are lighter than cotton candy",
-      "url": "https://phys.org/news/2026-06-astronomers-biggest-super-puff-planets.html",
-      "summary": "Astronomers have uncovered a pair of giant planets that are lighter than cotton candy—super-puffs the size of Jupiter.",
-      "ts": 1783240801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "'This was something new': What people in Greenland told us about learning to live with wildfires",
-      "url": "https://phys.org/news/2026-06-people-greenland-told-wildfires.html",
-      "summary": "After several quieter years, wildfires have returned to western Greenland.",
-      "ts": 1783219801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "How proteins are inserted into cell membranes",
-      "url": "https://phys.org/news/2026-06-proteins-inserted-cell-membranes.html",
-      "summary": "Researchers from Heinrich Heine University Düsseldorf (HHU) have—in collaboration with colleagues from Ludwig Maximilian University (LMU) in Munich—analyzed the complex biochemical processes that bacteria use to insert p…",
-      "ts": 1783207801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Planned 1.7 million satellites 'devastating' for astronomy: Study",
-      "url": "https://phys.org/news/2026-07-million-satellites-devastating-astronomy.html",
-      "summary": "The 1.7 million satellites that companies are aiming to launch into Earth's orbit in the coming years will have \"devastating consequences for astronomy,\" new research warned Wednesday.",
-      "ts": 1783203601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "When companies face hostile takeover threats, they turn to ESG, and the whole community benefits",
-      "url": "https://phys.org/news/2026-06-companies-hostile-takeover-threats-esg.html",
-      "summary": "When a company faces the prospect of a hostile takeover, its board may reach for traditional anti-takeover defenses. \"Poison pills,\" for instance, allow existing shareholders to buy additional shares at a discount, dilut…",
-      "ts": 1783198801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Optical writing of antiferromagnets points toward new storage devices and energy efficient information systems",
-      "url": "https://phys.org/news/2026-07-optical-antiferromagnets-storage-devices-energy.html",
-      "summary": "A German-Japanese research team involving the University of Augsburg has made a significant breakthrough in the use of antiferromagnets. For the first time, the team has succeeded in writing magnetic information using on…",
-      "ts": 1783195203000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Europe's baked rice bowl seeks escape from drought",
-      "url": "https://phys.org/news/2026-07-europe-rice-bowl-drought.html",
-      "summary": "Summer came too early to Europe's most important rice-growing region, and weeds are taking over Sharon Angoli's parched paddies in Italy's Pavia province.",
-      "ts": 1783195201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Ancient teeth from Siberia rewrite the plague's timeline, dating back to over 5,500 years ago",
-      "url": "https://phys.org/news/2026-06-ancient-teeth-siberia-rewrite-plague.html",
-      "summary": "Scientists have found the oldest known evidence of the plague, which sparked deadly outbreaks dating back about 5,500 years ago—some 200 years earlier than previously thought.",
-      "ts": 1783190401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Common nanostructures may explain shared photoproperties in two widespread dark materials",
-      "url": "https://phys.org/news/2026-06-common-nanostructures-photoproperties-widespread-dark.html",
-      "summary": "A newly developed framework for understanding the photoproperties of both natural organic matter and eumelanin, a natural pigment responsible for dark colors in organisms, may inspire advanced sustainable technologies, s…",
-      "ts": 1783188001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "BC and Alberta fall behind on fracking safety distances for residents",
-      "url": "https://phys.org/news/2026-07-bc-alberta-fall-fracking-safety.html",
-      "summary": "In May, Prime Minister Mark Carney announced plans to double the capacity of Canada's electricity grid by 2050, using natural gas in the name of \"powering Canada strong.\" Almost all Canadian natural gas these days is der…",
-      "ts": 1783184405000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Greenland meltwater adds to AMOC weakening, but updated model finds no tipping point in sight",
-      "url": "https://phys.org/news/2026-07-greenland-meltwater-amoc-weakening-sight.html",
-      "summary": "The state of the Atlantic Meridional Overturning Circulation (AMOC) has been a hot topic among climate scientists in recent years. The AMOC is crucial for climate regulation because it pulls warm surface water from the t…",
-      "ts": 1783184401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "A rare dinosaur fossil from Antarctica is found tucked away in a drawer",
-      "url": "https://phys.org/news/2026-06-rare-dinosaur-fossil-antarctica-tucked.html",
-      "summary": "Scientists have stumbled on a rare dinosaur fossil from Antarctica, tucked away for decades in a drawer.",
-      "ts": 1783180801000
     }
   ],
   "sources": [

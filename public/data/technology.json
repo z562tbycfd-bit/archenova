@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-06T16:22:43.609Z",
+  "updated": "2026-07-06T18:56:34.783Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Takes Flight For America’s 250th",
+      "url": "https://www.nasa.gov/image-article/nasa-takes-flight-for-americas-250th/",
+      "summary": "NASA Administrator Jared Isaacman leads a flyover featuring his personally owned Northrop F-5 Tiger during the Great American State Fair on July 4, 2026, on the National Mall in Washington, D.C. For 250 years, America ha…",
+      "ts": 1783363100000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Your family’s $300 stake in OpenAI",
+      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wea…",
+      "ts": 1783360800000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Chimeric Allergen Receptor Treg Cells Suppress Allergic Asthma in Mice",
@@ -35,6 +51,22 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "NASA Seeks Industry Input on Second Phase of Commercial Space Stations",
+      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-seeks-industry-input-on-second-phase-of-commercial-space-stations/",
+      "summary": "On Monday, NASA released a draft Request for Proposals (RFP) seeking feedback from American companies on the next phase of its commercial space stations strategy, aimed at ensuring a seamless transition of activities in …",
+      "ts": 1783351980000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s CAPSTONE Completes Extended Mission Testing Lunar Technologies",
+      "url": "https://www.nasa.gov/technology/space-comms/nasas-capstone-completes-extended-mission-testing-lunar-technologies/",
+      "summary": "As NASA prepares for a sustained human presence on the Moon, missions will increasingly require spacecraft that can navigate and communicate without a direct connection to Earth. NASA’s Cislunar Autonomous Positioning Sy…",
+      "ts": 1783350054000,
+      "categoryId": "space"
+    },
+    {
       "source": "NVIDIA",
       "title": "How Nations Are Deploying AI for Strategic Priorities",
       "url": "https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/",
@@ -57,6 +89,14 @@
       "summary": "A new therapeutic target shields nerve cells from the damage of ALS. A novel drug candidate extended median survival by approximately a week, protected nerve cells and reduced muscle weakness in mice. The post ALS Drug E…",
       "ts": 1783348863000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Webb Uncovers Unusual Galaxy Shaped by Cosmic Collision",
+      "url": "https://science.nasa.gov/missions/webb/nasa-webb-uncovers-unusual-galaxy-shaped-by-cosmic-collision/",
+      "summary": "In new images from NASA’s James Webb Space Telescope to celebrate its fourth science anniversary, a familiar galaxy transforms into something far richer, and far more complex, than ever seen before. Webb’s unprecedented …",
+      "ts": 1783346400000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -113,6 +153,30 @@
       "summary": "Paris, France | May 2026 – Novaspace’s latest In-Flight Connectivity report points to sustained, long-term growth in the In-Flight Connectivity (IFC) market, with connected aircraft numbers to exceed 70,000 by 2035. Simu…",
       "ts": 1783339200000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN maritime agency seeks release of 44 detained seafarers as food runs low",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167876",
+      "summary": "The UN’s International Maritime Organization (IMO) appealed on Monday for the urgent release of 44 seafarers held captive in Somali waters by pirates and armed robbers.",
+      "ts": 1783339200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: Latest Russian assault leaves at least 14 dead in Kyiv",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167875",
+      "summary": "Russian strikes on the Ukrainian capital Kyiv killed at least 14 civilians and injured more than 80 others overnight on Monday, according to local authorities.",
+      "ts": 1783339200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: Amid lethal drone attacks, children bear brunt of escalating war",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167874",
+      "summary": "Children across Sudan continue to bear the brunt of a war that is becoming increasingly deadly, with at least 330 children reported killed or injured during the first six months of 2026, the UN Children’s Fund (UNICEF) s…",
+      "ts": 1783339200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -200,6 +264,14 @@
       "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_the_most_ancient_quasar_in_the_Universe",
       "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/artist_s_concept_of_an_ancient_quasar/27308353-1-eng-GB/Artist_s_concept_of_an_ancient_quasar_card_full.jpg\" alt=\"Artist’s concept of an …",
       "ts": 1783319400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Examining Algal Blooms in Blue Mesa",
+      "url": "https://science.nasa.gov/earth/earth-observatory/examining-algal-blooms-in-blue-mesa/",
+      "summary": "Using satellite data, researchers connected harmful algal blooms with warm water and low water levels at one of Colorado’s largest reservoirs.",
+      "ts": 1783310460000,
       "categoryId": "space"
     },
     {
@@ -649,78 +721,6 @@
       "summary": "Isar Aerospace won a contract from Planet’s German subsidiary to launch an imaging satellite, demonstrating an end-to-end space capability for the country. The post Isar Aerospace to launch German-built Planet imaging sa…",
       "ts": 1783016448000,
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Elixirgen Builds Rare Disease Pipeline Around Telomere Biology Disorders and DMD",
-      "url": "https://www.genengnews.com/topics/drug-discovery/elixirgen-builds-rare-disease-pipeline-around-telomere-biology-disorders-and-dmd/",
-      "summary": "Elixirgen's lead program is an ex vivo autologous therapy based on proprietary tech that targets telomere biology disorders, rare genetic diseases characterized by short telomeres, and telomerase mutations. The post Elix…",
-      "ts": 1783016048000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Artemis II Breaks Agency Streaming Record",
-      "url": "https://www.nasa.gov/general/nasas-artemis-ii-breaks-agency-streaming-record/",
-      "summary": "NASA’s live coverage of the Artemis II mission mission drew unprecedented public interest – including more than 149.4 million views of the launch, lunar flyby, splashdown on NASA-owned platforms, including the 24/7 strea…",
-      "ts": 1783015341000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Students Get Airborne View of Atmospheric Science at Ellington Field",
-      "url": "https://www.nasa.gov/general/nasa-students-get-airborne-view-of-atmospheric-science-at-ellington-field/",
-      "summary": "From June 3 to 13, aircraft at Ellington Field in Houston gave students a firsthand look at how scientists study Earth from the air. Through NASA’s Student Airborne Research Program, or SARP, students learned how airborn…",
-      "ts": 1783014343000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Polish space tech company Sybilla Technologies secures funds to enter U.S. market",
-      "url": "https://spacenews.com/polish-space-tech-company-sybilla-technologies-secures-funds-to-enter-u-s-market/",
-      "summary": "WARSAW, Poland — The Polish state-owned bank BGK and European venture capital firm 3TS Capital Partners have unveiled an investment of around 35 million zloty ($10 million) in Poland’s space […] The post Polish space tec…",
-      "ts": 1783013930000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/07/02/pharma-biotech-jobs-ladder-vertex-gilead-astrazeneca-lilly/?utm_campaign=rss",
-      "summary": "Hired someone new and exciting? Promoted a rising star? Finally solved that hard-to-fill spot? Share the news with us, and we’ll share it with others.",
-      "ts": 1783013529000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Merck and Insilico Make Deals, Claude Science’s Debut, Vaccines for Neglected Diseases",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/merck-and-insilico-make-deals-claude-sciences-debut-vaccines-for-neglected-diseases/",
-      "summary": "In this episode of GEN's Touching Base, editors talk about the multi-billion-dollar Merck KGaA Bio-Techne acquisition and Insilico–SK collaboration, AI antibiotic design with Claude Science, and progress in vaccines agai…",
-      "ts": 1783011358000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ASMS 2026: Solving Proteomics’ Next Bottleneck",
-      "url": "https://www.genengnews.com/topics/omics/asms-2026-solving-proteomics-next-bottleneck/",
-      "summary": "At the 74th ASMS Conference, the obvious story was hardware. But after several days at the conference, it became clear that the field is beginning to look past the instrument toward the future of proteomics. The post ASM…",
-      "ts": 1783010945000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What does DeGette’s loss mean for pharma?",
-      "url": "https://www.statnews.com/2026/07/02/degette-loses-to-kiros-pharma-presidential-fitness-test-dc-diagnosis/?utm_campaign=rss",
-      "summary": "Colorado Democratic Rep. Diana DeGette, who lost her primary, was knowledgeable about biopharma, if not always a friend to the industry.",
-      "ts": 1783008588000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Achieving operational excellence with AI",
-      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasi…",
-      "ts": 1783006628000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
