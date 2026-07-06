@@ -1,7 +1,140 @@
 {
   "ok": true,
-  "updated": "2026-07-06T18:56:32.335Z",
+  "updated": "2026-07-06T20:54:45.235Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Engineers discover 'unexpected motion' in drug-delivery robots",
+      "url": "https://phys.org/news/2026-07-unexpected-motion-drug-delivery-robots.html",
+      "summary": "One day, tiny swimming robots may travel through the human body to deliver drugs. The medication would target only areas of need—chemotherapy drugs for a tumor, for example—avoiding healthy tissue and minimizing side eff…",
+      "ts": 1783370405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What's the best way to support perfectionistic students? Teachers don't always agree",
+      "url": "https://phys.org/news/2026-07-perfectionistic-students-teachers-dont.html",
+      "summary": "Imagine a student spending hours meticulously erasing and rewriting a paragraph that is already excellent.",
+      "ts": 1783370401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "South Australian algal bloom species the world's most toxic harmful microalga yet recorded",
+      "url": "https://phys.org/news/2026-07-south-australian-algal-bloom-species.html",
+      "summary": "The marine microalgae responsible for the most devastating effects of the South Australian harmful algal bloom (HAB) has now been shown to be the most toxic species of its kind ever studied.",
+      "ts": 1783369205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fighting the world's deadliest infection with PAC-MAN and AI",
+      "url": "https://phys.org/news/2026-07-world-deadliest-infection-pac-ai.html",
+      "summary": "Tuberculosis, caused by the bacterium Mycobacterium tuberculosis (Mtb), is the world's deadliest single-agent infection, responsible for 1.23 million deaths in 2024, according to the World Health Organization. The bacter…",
+      "ts": 1783369204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The square kilometer array will revolutionize the hunt for alien life",
+      "url": "https://phys.org/news/2026-07-square-kilometer-array-revolutionize-alien.html",
+      "summary": "With new technologies come new opportunities. And that is especially true in astronomy—with every new advanced telescope, we have the potential to see (or in some cases, listen) farther and more clearly than ever before.…",
+      "ts": 1783369202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Record fireworks display choked Washington in toxic smoke",
+      "url": "https://phys.org/news/2026-07-fireworks-display-washington-toxic.html",
+      "summary": "The U.S. capital, Washington, saw its worst air quality of the year over the July 4 weekend, as smoke from a massive fireworks display sent pollution soaring to levels considered very unhealthy for the entire public, dat…",
+      "ts": 1783368601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electrical imbalances at grain boundaries help explain solid-state battery failure",
+      "url": "https://phys.org/news/2026-07-electrical-imbalances-grain-boundaries-solid.html",
+      "summary": "Next-generation batteries that use new electrolyte materials could achieve far higher energy density than today's lithium-ion batteries, without many of the safety concerns. But advanced batteries, such as those that use…",
+      "ts": 1783368037000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Preparing birds for life in the wild: New technique boosts survival after release",
+      "url": "https://phys.org/news/2026-07-birds-life-wild-technique-boosts.html",
+      "summary": "Every year, thousands of parrots confiscated from the illegal wildlife trade arrive at rehabilitation centers across Latin America. For many of these birds, rescue centers can provide safety but not necessarily a path ba…",
+      "ts": 1783368033000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Canadian Artemis II crew member to retire from space agency",
+      "url": "https://phys.org/news/2026-07-canadian-artemis-ii-crew-member.html",
+      "summary": "The Canadian astronaut who was part of the historic Artemis II crew that successfully voyaged around the moon earlier this year is retiring from the nation's space agency, officials said Monday.",
+      "ts": 1783368002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Survival comes at a price: Frog study links salt adaptation to increased risk of disease",
+      "url": "https://phys.org/news/2026-07-survival-price-frog-links-salt.html",
+      "summary": "Over generations, a small North American frog has learned how to survive in a world that's getting increasingly saltier. But new research from the University of Missouri suggests that adaptation comes with an unexpected …",
+      "ts": 1783368001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Flash flood warnings issued for parts of New York City and Northeast as heat wave breaks",
+      "url": "https://phys.org/news/2026-07-issued-york-city-northeast.html",
+      "summary": "Heavy rain and flooding are breaking a heat wave that gripped New York City and much of the Northeast last week.",
+      "ts": 1783367261000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study examines resilience training for children who stutter",
+      "url": "https://phys.org/news/2026-07-resilience-children-stutter.html",
+      "summary": "A new University of Mississippi-led study suggests that a telepractice resilience program may help children who stutter develop coping and self-advocacy skills.",
+      "ts": 1783366805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Detecting neutron sources by borrowing inference tools from cosmology",
+      "url": "https://phys.org/news/2026-07-neutron-sources-inference-tools-cosmology.html",
+      "summary": "Neutron sources can be directly identified from measured spectra rather than proxies using inference tools adapted from cosmology, according to a University of Michigan Engineering study published in Physical Review Appl…",
+      "ts": 1783366804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular nanostructures can be activated using ultrasound",
+      "url": "https://phys.org/news/2026-07-molecular-nanostructures-ultrasound.html",
+      "summary": "Researchers from Heinrich Heine University Düsseldorf (HHU) have taken an important step toward developing intelligent molecular materials. The team headed by Dr. Bernd M. Schmidt (Institute of Organic Chemistry and Macr…",
+      "ts": 1783365609000
+    },
+    {
+      "source": "Phys.org",
+      "title": "High levels of forever chemicals found on wastewater filters",
+      "url": "https://phys.org/news/2026-07-high-chemicals-wastewater-filters.html",
+      "summary": "As cities across the nation and the globe increasingly turn to advanced water purification systems to expand their drinking water supplies, researchers at Texas A&M University have identified a critical environmental saf…",
+      "ts": 1783365607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Did elephant energetics decide Hannibal's Alpine crossing route?",
+      "url": "https://phys.org/news/2026-07-elephant-energetics-hannibal-alpine-route.html",
+      "summary": "A new analysis sheds light on the most likely route for the Carthaginian general's famous crossing of the Alps. The study, led by the University of Oxford and iDiv/Friedrich Schiller University Jena, reveals that the Col…",
+      "ts": 1783364416000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cave finds reveal modern humans and Neanderthals may have shared long-term cultural continuity",
+      "url": "https://phys.org/news/2026-07-cave-reveal-modern-humans-neanderthals.html",
+      "summary": "Tens of thousands of years ago, Homo sapiens coexisted with Neanderthals, Homo neanderthalensis. Many of us living today carry a small amount of Neanderthal DNA, indicating that the two species may have shared much more …",
+      "ts": 1783364414000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physics-informed AI could accelerate development of controlled-release drug patches, bandages",
+      "url": "https://phys.org/news/2026-07-physics-ai-drug-patches-bandages.html",
+      "summary": "Brown University researchers have developed a new artificial intelligence method for predicting the rate at which materials used in controlled drug-release systems release therapeutic agents. The new method could slash t…",
+      "ts": 1783364413000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bees reveal emotion-like reactions, from 'lip licking' to head shaking, in new videos",
+      "url": "https://phys.org/news/2026-07-bees-reveal-emotion-reactions-lip.html",
+      "summary": "New research proving bumblebees exhibit emotion-like behaviors—previously thought to exist only in mammalian species—has implications for how scientists understand the consciousness of insects.",
+      "ts": 1783364411000
+    },
     {
       "source": "Phys.org",
       "title": "AI could hurt employers in race for top talent",
@@ -381,34 +514,6 @@
       "ts": 1783334198000
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Reference Quadrupole Moments of Transition Elements from Lamb Shifts in Muonic Atoms",
-      "url": "http://link.aps.org/doi/10.1103/lss3-jym7",
-      "summary": "Author(s): S. Rathi, K. von Schoeler, P. Indelicato, and B. Ohayon We present a novel method for accurately measuring the absolute electric quadrupole moments of light transition elements $(23≤Z≤30)$. Our approach is bas…",
-      "ts": 1783332000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Self-Confinement of Relativistic Pair Beams in Magnetized Interstellar Plasmas: The Case of Pulsar X-Ray Filaments",
-      "url": "http://link.aps.org/doi/10.1103/2hrd-vv2q",
-      "summary": "Author(s): Luca Orusa and Lorenzo Sironi The observation of filamentary x-ray structures near bow-shock pulsar wind nebulae (PWNe)—such as the Guitar, Lighthouse, and PSR $\\mathrm{J}2030+4415$ nebulae—and of slow-diffusi…",
-      "ts": 1783332000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "When Can Higher-Form Symmetries Be Made On Site",
-      "url": "http://link.aps.org/doi/10.1103/59dq-sl3m",
-      "summary": "Author(s): Yitao Feng, Yu-An Chen, Po-Shen Hsin, and Ryohei Kobayashi An internal symmetry in a lattice model is said to be onsiteable if it can be disentangled into an on-site action by introducing ancillas and conjugat…",
-      "ts": 1783332000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "$\\mathcal{P}\\mathcal{T}$-Symmetric Magnon Lasing and Antilasing",
-      "url": "http://link.aps.org/doi/10.1103/21ts-5d39",
-      "summary": "Author(s): Xi-guang Wang, Tian-xiang Lu, Guang-hua Guo, Jamal Berakdar, and Hui Jing A mechanism for electrically tunable $\\mathcal{P}\\mathcal{T}$-symmetric magnonic lasing and antilasing is proposed along with a device …",
-      "ts": 1783332000000
-    },
-    {
       "source": "APS PR Applied",
       "title": "Complete characterization of beam deflection based on a double weak-value-amplification system",
       "url": "http://link.aps.org/doi/10.1103/symq-cg3s",
@@ -483,6 +588,34 @@
       "title": "Spin pumping driven by magnon-polaritons in a ferromagnet–coplanar superconducting resonator hybrid system",
       "url": "http://link.aps.org/doi/10.1103/3d5g-qydt",
       "summary": "Author(s): Dinesh Wagle, Yi Li, Anish Rai, Tomas Polakovic, Valentine Novosad, and M. Benjamin Jungfleisch We demonstrate spin pumping driven by a strongly coupled magnon-photon system using a ferromagnet-coplanar superc…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Reference Quadrupole Moments of Transition Elements from Lamb Shifts in Muonic Atoms",
+      "url": "http://link.aps.org/doi/10.1103/lss3-jym7",
+      "summary": "Author(s): S. Rathi, K. von Schoeler, P. Indelicato, and B. Ohayon We present a novel method for accurately measuring the absolute electric quadrupole moments of light transition elements $(23≤Z≤30)$. Our approach is bas…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Self-Confinement of Relativistic Pair Beams in Magnetized Interstellar Plasmas: The Case of Pulsar X-Ray Filaments",
+      "url": "http://link.aps.org/doi/10.1103/2hrd-vv2q",
+      "summary": "Author(s): Luca Orusa and Lorenzo Sironi The observation of filamentary x-ray structures near bow-shock pulsar wind nebulae (PWNe)—such as the Guitar, Lighthouse, and PSR $\\mathrm{J}2030+4415$ nebulae—and of slow-diffusi…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "When Can Higher-Form Symmetries Be Made On Site",
+      "url": "http://link.aps.org/doi/10.1103/59dq-sl3m",
+      "summary": "Author(s): Yitao Feng, Yu-An Chen, Po-Shen Hsin, and Ryohei Kobayashi An internal symmetry in a lattice model is said to be onsiteable if it can be disentangled into an on-site action by introducing ancillas and conjugat…",
+      "ts": 1783332000000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "$\\mathcal{P}\\mathcal{T}$-Symmetric Magnon Lasing and Antilasing",
+      "url": "http://link.aps.org/doi/10.1103/21ts-5d39",
+      "summary": "Author(s): Xi-guang Wang, Tian-xiang Lu, Guang-hua Guo, Jamal Berakdar, and Hui Jing A mechanism for electrically tunable $\\mathcal{P}\\mathcal{T}$-symmetric magnonic lasing and antilasing is proposed along with a device …",
       "ts": 1783332000000
     },
     {
@@ -568,139 +701,6 @@
       "url": "https://www.nature.com/articles/s41467-026-74997-8",
       "summary": "",
       "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Breaking the activity-selectivity dilemma in direct electrocatalytic hydrogenolysis of furfural into furanic biofuel",
-      "url": "https://www.nature.com/articles/s41467-026-74394-1",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Bclaf1 drives heart failure by recruiting Srsf2 to enhance Hand2 pre-mRNA splicing and pathological hypertrophy",
-      "url": "https://www.nature.com/articles/s41467-026-75125-2",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Dipeptidyl peptidase 3 sets the threshold for immune activation and survival during experimental bacterial infection",
-      "url": "https://www.nature.com/articles/s41467-026-74740-3",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Time-resolved Coulomb explosion imaging of a photochemical ring opening reaction",
-      "url": "https://www.nature.com/articles/s41467-026-75191-6",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Triangulating evidence for genetic and environmental components of associations between parental behaviours and aggressive behaviour in children",
-      "url": "https://www.nature.com/articles/s41467-026-75095-5",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Programmed cryogenic fabrication of cuttlebone-inspired lightweight cellular materials with enhanced energy absorption",
-      "url": "https://www.nature.com/articles/s41467-026-75241-z",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "The H3K4 methyltransferase KMT2D is an essential cofactor for GATA1 at erythroid gene enhancers",
-      "url": "https://www.nature.com/articles/s41467-026-75253-9",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Sub1 contributes to heart failure with preserved ejection fraction driven by aging in mice",
-      "url": "https://www.nature.com/articles/s41467-026-75237-9",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Nature Communications",
-      "title": "Non-reciprocal coalescence-breakup dynamics in flowing concentrated emulsions",
-      "url": "https://www.nature.com/articles/s41467-026-75077-7",
-      "summary": "",
-      "ts": 1783296000000
-    },
-    {
-      "source": "Phys.org",
-      "title": "The world's oceans are the hottest on record for June—and El Niño is set to turn up the heat even more",
-      "url": "https://phys.org/news/2026-07-world-oceans-hottest-june-el.html",
-      "summary": "The world's oceans are the hottest on record for June, pushing past records set during the 2023–24 El Niño years.",
-      "ts": 1783292401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "An island of calm at the violent heart of the galaxy",
-      "url": "https://phys.org/news/2026-06-island-calm-violent-heart-galaxy.html",
-      "summary": "Where would you go to watch a star being born? Probably not the heart of the Milky Way, which is about the most violent neighborhood our galaxy has to offer, a maelstrom of gas churning so fast and so chaotically that yo…",
-      "ts": 1783287001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Rats show empathy, according to model",
-      "url": "https://phys.org/news/2026-07-rats-empathy.html",
-      "summary": "A rat first frees a cagemate rat and then shares food with it. Is this animal just as empathetic as humans? In an American study from 2011, researchers observed that rats first freed their fellow rats from a cage and the…",
-      "ts": 1783281603000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Spring songbirds may help pollinate UK trees, with pollen on 89% of studied birds",
-      "url": "https://phys.org/news/2026-07-songbirds-pollinate-uk-trees-pollen.html",
-      "summary": "The warblers—those harbingers of spring in the U.K.—have an unappreciated talent of a different sort. Common U.K. birds, including chiffchaffs and blackcaps, are playing a real role in the pollination of plants, accordin…",
-      "ts": 1783281601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Deuterium in comets tells interesting tales",
-      "url": "https://phys.org/news/2026-06-deuterium-comets-tales.html",
-      "summary": "Comets have played an interesting role in the history of astronomy. Since antiquity, many cultures saw them as omens or spirits, portending good or bad news for kings, queens and emperors. Over the past few hundred years…",
-      "ts": 1783276801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "European cities short on shade as heat waves hit, urban mapping reveals",
-      "url": "https://phys.org/news/2026-06-european-cities-short-urban-reveals.html",
-      "summary": "More than four in five homes and workplaces across 25 European cities have less nearby tree canopy than what is needed for meaningful cooling, according to an open-data analysis by an urban greening expert.",
-      "ts": 1783270804000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Mars express captures dozens of dust devils in Mars valley",
-      "url": "https://phys.org/news/2026-06-mars-captures-dozens-devils-valley.html",
-      "summary": "Dust devils are a regular feature on Mars. Just like those found on Earth, these mini whirlwinds form when parts of Mars are warmed by the sun, causing air above the surface to swirl upward and carry dust with it. But in…",
-      "ts": 1783270802000
-    },
-    {
-      "source": "Phys.org",
-      "title": "A nearby black hole as a window into the early universe",
-      "url": "https://phys.org/news/2026-07-nearby-black-hole-window-early.html",
-      "summary": "An international team led by Stefanie Komossa from the Max Planck Institute for Radio Astronomy (MPIfR) in Bonn has studied a galaxy that has been shining exceptionally brightly in the radio regime for more than eight ye…",
-      "ts": 1783267201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Laughter may date back 15 million years, shared by humans and great apes",
-      "url": "https://phys.org/news/2026-06-humans-great-apes-similar-giggles.html",
-      "summary": "Humans and great apes have been giggling in similar ways since branching off the evolutionary tree, a new study suggests.",
-      "ts": 1783264801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Japan space probe skims asteroid in test for planetary defense",
-      "url": "https://phys.org/news/2026-07-japan-space-probe-skims-asteroid.html",
-      "summary": "A Japanese space probe performed a flyby of a near-Earth asteroid on Sunday in a test mission for technology that could help protect the planet from space rocks.",
-      "ts": 1783261812000
     }
   ],
   "sources": [

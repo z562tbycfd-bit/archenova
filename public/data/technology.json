@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-06T18:56:34.783Z",
+  "updated": "2026-07-06T20:54:49.542Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Vertex acquires Crinetics Pharmaceuticals for $10 billion as biotech M&A booms",
+      "url": "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/?utm_campaign=rss",
+      "summary": "Vertex Pharmaceuticals will spend $10 billion to acquire Crinetics Pharmaceuticals and its drug for a rare endocrine disorder, the companies announced.",
+      "ts": 1783371149000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Blue Origin continues work on lunar landers during recovery from New Glenn explosion",
+      "url": "https://spacenews.com/blue-origin-continues-work-on-lunar-landers-during-recovery-from-new-glenn-explosion/",
+      "summary": "Blue Origin is continuing to develop its Blue Moon lunar landers, with seven vehicles in production, while recovering from the New Glenn pad explosion more than a month ago. The post Blue Origin continues work on lunar l…",
+      "ts": 1783368587000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Obamacare rolls shrank dramatically in many states over the past year, new federal data shows",
+      "url": "https://www.statnews.com/2026/07/06/obamacare-rolls-shrank-dramatically-affordable-care-act-states/?utm_campaign=rss",
+      "summary": "States across the country saw steep drops in the number of people covered by the Affordable Care Act over the past year, according to new federal data.",
+      "ts": 1783367903000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Iridium folds Aireon aviation safety service into Rocket Lab-bound business",
+      "url": "https://spacenews.com/iridium-folds-aireon-aviation-safety-service-into-rocket-lab-bound-business/",
+      "summary": "Iridium Communications has completed its takeover of Aireon, bringing the aircraft-tracking venture fully in-house ahead of the satellite operator’s planned $8 billion sale to Rocket Lab. The post Iridium folds Aireon av…",
+      "ts": 1783364552000,
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "NASA Takes Flight For America’s 250th",
@@ -153,6 +185,14 @@
       "summary": "Paris, France | May 2026 – Novaspace’s latest In-Flight Connectivity report points to sustained, long-term growth in the In-Flight Connectivity (IFC) market, with connected aircraft numbers to exceed 70,000 by 2035. Simu…",
       "ts": 1783339200000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela quake: UN continues to scale up as damage estimate reaches $37 billion",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167879",
+      "summary": "The UN and its partners are ramping up assistance for people affected by the earthquakes in Venezuela, working alongside the Government's response effort, as a new UN estimate puts direct physical damage at $37 billion.",
+      "ts": 1783339200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -681,46 +721,6 @@
       "summary": "Reducing Medicare payments for 340B drugs is the latest proposal focused on the hotly debated drug discount program.",
       "ts": 1783021939000,
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Lawmakers urge HHS to force Eli Lilly to provide 340B drug discounts to hospitals",
-      "url": "https://www.statnews.com/pharmalot/2026/07/02/lawmakers-urge-lilly-to-provide-340b-drug-discounts-to-hospitals/?utm_campaign=rss",
-      "summary": "Lawmakers step into a dispute between Eli Lilly and hospitals about the 340b drug discount program.",
-      "ts": 1783021934000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Perovskite solar panel startup Verde Technologies shifts focus to space",
-      "url": "https://spacenews.com/perovskite-solar-panel-startup-verde-technologies-shifts-focus-to-space/",
-      "summary": "Verde Technologies is turning to space to commercialize perovskite-based solar panels, shifting its initial focus away from rooftops in a bet that the thin-film material can help power orbital data centers and other larg…",
-      "ts": 1783020456000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Synthetic Organizers Aid Creation of Reproducible Kidney Organoids from Stem Cells",
-      "url": "https://www.genengnews.com/topics/translational-medicine/synthetic-organizers-aid-creation-of-reproducible-kidney-organoids-from-stem-cells/",
-      "summary": "Using techniques including spatial transcriptomics, researchers identified a developmental axis that helps organize developing kidney nephrons, and engineered Wnt-secreting “synthetic organizer” cells to recreate aspects…",
-      "ts": 1783018158000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Elevance sues government over $115 million tied to Medicare Advantage star ratings",
-      "url": "https://www.statnews.com/2026/07/02/elevance-lawsuit-medicare-advantage-star-ratings-clover/?utm_campaign=rss",
-      "summary": "The health insurer says CMS didn't calculate its star ratings appropriately.",
-      "ts": 1783017245000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Isar Aerospace to launch German-built Planet imaging satellite",
-      "url": "https://spacenews.com/isar-aerospace-to-launch-german-built-planet-imaging-satellite/",
-      "summary": "Isar Aerospace won a contract from Planet’s German subsidiary to launch an imaging satellite, demonstrating an end-to-end space capability for the country. The post Isar Aerospace to launch German-built Planet imaging sa…",
-      "ts": 1783016448000,
-      "categoryId": "space"
     }
   ],
   "categories": [
