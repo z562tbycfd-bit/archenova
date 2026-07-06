@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-06T01:20:02.818Z",
+  "updated": "2026-07-06T03:48:52.181Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "NASA and Small Business Administration partner on funding key space technologies",
+      "url": "https://spacenews.com/nasa-and-small-business-administration-partner-on-funding-key-space-technologies/",
+      "summary": "NASA is partnering with the U.S. Small Business Administration (SBA) on an effort to attract capital to invest in companies producing critical space components. The post NASA and Small Business Administration partner on …",
+      "ts": 1783302222000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "StockWatch: New UC Data Sparks Smoother Sailing for Abivax",
@@ -711,14 +719,6 @@
       "title": "Opinion: CDC leadership continues to try to manufacture a scientific debate on vaccines where none exists",
       "url": "https://www.statnews.com/2026/07/02/measuring-vaccine-effectiveness-test-negative-design-cdc/?utm_campaign=rss",
       "summary": "CDC leadership continues to try manufacture a scientific debate on vaccines where none exists, writes Ben Lopman.",
-      "ts": 1782981000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Teens are turning to chatbots for mental health help. We need rules to keep them safe",
-      "url": "https://www.statnews.com/2026/07/02/teens-chatbots-mental-health-rules-bans/?utm_campaign=rss",
-      "summary": "The share of young people using AI chatbots for mental health advice rose more than 40% in a single year, researcher writes.",
       "ts": 1782981000000,
       "categoryId": "bio"
     }

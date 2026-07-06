@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-06T01:19:55.516Z",
+  "updated": "2026-07-06T03:48:49.934Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Sub1 contributes to heart failure with preserved ejection fraction driven by aging in mice",
+      "url": "https://www.nature.com/articles/s41467-026-75237-9",
+      "summary": "",
+      "ts": 1783296000000
+    },
     {
       "source": "Phys.org",
       "title": "The world's oceans are the hottest on record for June—and El Niño is set to turn up the heat even more",
@@ -694,13 +701,6 @@
       "url": "https://phys.org/news/2026-07-climate-severe-zealand-homes-ready.html",
       "summary": "Europe's summer heat wave has exposed tens of millions of people to temperatures above 35°C, broken records and claimed hundreds of lives. Early climate attribution studies suggest Europe's event would have been \"virtual…",
       "ts": 1783082407000
-    },
-    {
-      "source": "Phys.org",
-      "title": "The founding father of American literature, Charles Brockden Brown saw his nation's dark side",
-      "url": "https://phys.org/news/2026-07-founding-father-american-literature-charles.html",
-      "summary": "Murder, suicide, spontaneous combustion, sleepwalking, ventriloquism: These are some of the sensational events in the novels of Charles Brockden Brown (1771–1810). As the United States' first professional author, Brown i…",
-      "ts": 1783081208000
     }
   ],
   "sources": [
