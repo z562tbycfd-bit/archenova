@@ -26,6 +26,13 @@ type ChapterTarget = {
     subtitle: "ArcheNova MAP",
   },
 
+  {
+    id: "library",
+    mark: "⎅",
+    title: "LIBRARY",
+    subtitle: "ArcheNova BOOK",
+  },
+
 ];
 
 function scrollToChapter(id: string) {

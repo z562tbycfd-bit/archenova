@@ -3,6 +3,7 @@ import Reveal from "../components/Reveal";
 import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import GalaxyAtlas from "../components/civilization/GalaxyAtlas";
+import CivilizationLibrary from "../components/CivilizationLibrary";
 
 export default function Home() {
   return (
@@ -89,6 +90,11 @@ export default function Home() {
    CIVILIZATION ARCHITECTURE GALAXY
 ========================= */}
 <GalaxyAtlas />
+
+{/* =========================
+  CIVILIZATION LIBRARY
+========================= */}
+<CivilizationLibrary />
 
 
     </main>

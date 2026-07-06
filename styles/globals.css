@@ -25681,3 +25681,160 @@ margin-bottom:2.2rem;
     flex: 0 0 18px !important;
   }
 }
+
+
+
+
+
+
+/* ==========================================================
+   HOME — Civilization Library
+========================================================== */
+
+.civ-library-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.civ-library-shell {
+  width: min(1180px, 92vw);
+  display: grid;
+  gap: 2.4rem;
+}
+
+.civ-library-header {
+  text-align: center;
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.civ-library-header span {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+  margin-bottom: 1rem;
+}
+
+.civ-library-header h2 {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 5rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.95);
+}
+
+.civ-library-header p {
+  margin: 1.2rem auto 0;
+  max-width: 640px;
+  font-size: 0.95rem;
+  line-height: 1.85;
+  color: rgba(255,255,255,0.58);
+}
+
+.civ-library-scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem 1rem 1.6rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.civ-library-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.civ-book {
+  position: relative;
+  flex: 0 0 min(360px, 78vw);
+  min-height: 420px;
+  scroll-snap-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+
+  background:
+    linear-gradient(90deg, rgba(255,255,255,0.08), rgba(255,255,255,0.018)),
+    radial-gradient(circle at 50% 0%, rgba(255,255,255,0.055), transparent 55%),
+    rgba(3,5,10,0.88);
+
+  border: 1px solid rgba(255,255,255,0.09);
+  box-shadow:
+    0 35px 100px rgba(0,0,0,0.42),
+    inset 18px 0 34px rgba(255,255,255,0.035),
+    inset -18px 0 34px rgba(0,0,0,0.35);
+}
+
+.civ-book::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  bottom: 18px;
+  width: 1px;
+  background: linear-gradient(transparent, rgba(255,255,255,0.22), transparent);
+}
+
+.civ-book span {
+  font-size: 0.62rem;
+  letter-spacing: 0.28em;
+  color: rgba(255,255,255,0.48);
+}
+
+.civ-book strong {
+  display: block;
+  margin-top: auto;
+  font-size: 1.8rem;
+  line-height: 1.12;
+  font-weight: 260;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.95);
+}
+
+.civ-book p {
+  margin: 1rem 0 0;
+  font-size: 0.88rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.58);
+}
+
+.civ-book em {
+  margin-top: 1.4rem;
+  font-style: normal;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  color: rgba(255,255,255,0.82);
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .civ-library-shell {
+    width: 92vw;
+  }
+
+  .civ-library-header h2 {
+    font-size: clamp(2rem, 9vw, 3rem);
+  }
+
+  .civ-library-header p {
+    font-size: 0.78rem;
+  }
+
+  .civ-book {
+    flex-basis: 76vw;
+    min-height: 360px;
+  }
+
+  .civ-book strong {
+    font-size: 1.45rem;
+  }
+}
