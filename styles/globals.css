@@ -25650,3 +25650,34 @@ margin-bottom:2.2rem;
 }
 
 }
+
+
+/* ==========================================================
+   MOBILE FIX 01
+   HERO frame inside page card
+========================================================== */
+
+@media (max-width: 768px) {
+  #home-hero .an-frame {
+    width: min(280px, 68vw) !important;
+    max-width: 68vw !important;
+    min-height: 54px !important;
+    padding: 8px 14px !important;
+    margin-inline: auto !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  #home-hero .an-frame p {
+    font-size: 0.58rem !important;
+    line-height: 1.35 !important;
+    letter-spacing: 0.22em !important;
+    text-align: center !important;
+    white-space: normal !important;
+  }
+
+  #home-hero .an-frame span {
+    width: 18px !important;
+    flex: 0 0 18px !important;
+  }
+}
