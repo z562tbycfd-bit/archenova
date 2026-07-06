@@ -33,6 +33,21 @@ export const senateAgenda =
   {
     "id": "agenda-3",
     "rank": 3,
+    "title": "As deadly as war and as powerful as governments, global organized crime remains in the shadows",
+    "slug": "ai-as-deadly-as-war-and-as-powerful-as-governments-global-organized-crime-remains-i",
+    "category": "AI",
+    "source": "United Nations News",
+    "score": 9.5,
+    "priority": "Critical",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-4",
+    "rank": 4,
     "title": "Chinese satellite manufacturer Hongqing raises $191 million",
     "slug": "ai-chinese-satellite-manufacturer-hongqing-raises-191-million",
     "category": "AI",
@@ -46,8 +61,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-4",
-    "rank": 4,
+    "id": "agenda-5",
+    "rank": 5,
     "title": "Earth from Space: Grand Canyon, US",
     "slug": "space-earth-from-space-grand-canyon-us",
     "category": "Space",
@@ -61,8 +76,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-5",
-    "rank": 5,
+    "id": "agenda-6",
+    "rank": 6,
     "title": "Isar Aerospace to launch German-built Planet imaging satellite",
     "slug": "space-isar-aerospace-to-launch-german-built-planet-imaging-satellite",
     "category": "Space",
@@ -76,8 +91,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-6",
-    "rank": 6,
+    "id": "agenda-7",
+    "rank": 7,
     "title": "NASA’s Artemis II Breaks Agency Streaming Record",
     "slug": "space-nasa-s-artemis-ii-breaks-agency-streaming-record",
     "category": "Space",
@@ -91,8 +106,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-7",
-    "rank": 7,
+    "id": "agenda-8",
+    "rank": 8,
     "title": "NASA’s Hubble Spies Stellar Sparkler for July 4th",
     "slug": "space-nasa-s-hubble-spies-stellar-sparkler-for-july-4th",
     "category": "Space",
@@ -106,8 +121,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-8",
-    "rank": 8,
+    "id": "agenda-9",
+    "rank": 9,
     "title": "Pegasus launches Swift reboost mission",
     "slug": "space-pegasus-launches-swift-reboost-mission",
     "category": "Space",
@@ -121,8 +136,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-9",
-    "rank": 9,
+    "id": "agenda-10",
+    "rank": 10,
     "title": "A Novel Machine Learning Approach for Central Nervous System Tumor Classification from DNA Methylation",
     "slug": "ai-a-novel-machine-learning-approach-for-central-nervous-system-tumor-classificatio",
     "category": "AI",
@@ -136,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "NASA Students Get Airborne View of Atmospheric Science at Ellington Field",
     "slug": "ai-nasa-students-get-airborne-view-of-atmospheric-science-at-ellington-field",
     "category": "AI",
@@ -151,8 +166,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-12",
+    "rank": 12,
     "title": "GAO flags satellite costs, launch risks in Space Force portfolio",
     "slug": "space-gao-flags-satellite-costs-launch-risks-in-space-force-portfolio",
     "category": "Space",
@@ -163,21 +178,6 @@ export const senateAgenda =
     "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
     "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
     "architectureHandoff": "Orbital Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-12",
-    "rank": 12,
-    "title": "Proton shuttling at electrochemical interfaces under alkaline hydrogen evolution",
-    "slug": "energy-proton-shuttling-at-electrochemical-interfaces-under-alkaline-hydrogen-evolution",
-    "category": "Energy",
-    "source": "Nature Communications",
-    "score": 9.2,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Civilization Energy Architecture",
     "status": "Open"
   }
 ];

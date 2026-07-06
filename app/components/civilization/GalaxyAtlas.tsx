@@ -162,7 +162,8 @@ export default function GalaxyAtlas() {
         <footer className="gx-bottom">
           <span />
           <p>IN ORDER, </p>
-          <p>THERE IS FREEDOM.</p>
+          <p>THERE IS </p>
+          <p>FREEDOM.</p>
           <span />
         </footer>
       </div>

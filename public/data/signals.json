@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-05T23:48:10.819Z",
+  "updated": "2026-07-06T01:20:02.843Z",
   "items": [
     {
       "id": "civilization-engineering-the-world-s-oceans-are-the-hottest-on-record-for-june-and-el-ni-o-is-set-to-turn",
@@ -378,6 +378,31 @@
       "ts": 1783256404000
     },
     {
+      "id": "civilization-engineering-as-deadly-as-war-and-as-powerful-as-governments-global-organized-crime-remains-i",
+      "title": "As deadly as war and as powerful as governments, global organized crime remains in the shadows",
+      "source": "United Nations News",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/07/1167867",
+      "category": "Civilization Engineering",
+      "observation": "When people think of the world’s deadliest threats, armed conflicts usually come to mind first. Yet every year, organized crime quietly claims a comparable number of lives.",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "As deadly as war and as powerful as governments, global organized crime remains in the shadows should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.6,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.6,
+        "overall": 6.5
+      },
+      "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+      "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+      "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+      "civilizationFunction": "Civilization Engineering",
+      "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "ts": 1783252800000
+    },
+    {
       "id": "civilization-engineering-wild-yeast-discovery-enables-non-gm-brewing-of-ornithine-enriched-craft-beer",
       "title": "Wild yeast discovery enables non-GM brewing of ornithine-enriched craft beer",
       "source": "Phys.org",
@@ -551,6 +576,31 @@
       "civilizationFunction": "Adaptive Capacity",
       "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
       "ts": 1783207801000
+    },
+    {
+      "id": "adaptive-capacity-a-safe-return-home-tackling-stigma-on-uganda-s-ebola-frontline",
+      "title": "A safe return home: Tackling stigma on Uganda's Ebola frontline",
+      "source": "United Nations News",
+      "originalUrl": "https://news.un.org/feed/view/en/story/2026/07/1167859",
+      "category": "Adaptive Capacity",
+      "observation": "As Uganda works to contain an Ebola outbreak that is also affecting neighbouring Democratic Republic of the Congo (DRC), health workers are doing more than responding to a deadly virus. They are helping families navigate…",
+      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "commentary": "A safe return home: Tackling stigma on Uganda's Ebola frontline should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+      "score": {
+        "realityDiscovery": 5.5,
+        "capabilityExpansion": 5.5,
+        "infrastructureImpact": 5.5,
+        "synchronizationImpact": 5.5,
+        "adaptiveCapacity": 8.9,
+        "civilizationImpact": 6.9,
+        "overall": 6.2
+      },
+      "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+      "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
+      "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
+      "civilizationFunction": "Adaptive Capacity",
+      "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
+      "ts": 1783166400000
     },
     {
       "id": "civilization-engineering-invisible-peacebuilders-how-diplomacy-works-to-prevent-conflict",
@@ -2451,56 +2501,6 @@
       "civilizationFunction": "Reality Discovery",
       "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
       "ts": 1783000800000
-    },
-    {
-      "id": "reality-discovery-making-satellite-communications-more-resilient",
-      "title": "Making satellite communications more resilient",
-      "source": "SpaceNews",
-      "originalUrl": "https://spacenews.com/making-satellite-communications-more-resilient/",
-      "category": "Reality Discovery",
-      "observation": "In this episode of Space Minds, Mike Gruss talks with Kymeta’s Ryan Stevenson. They discuss the benefits and challenges of multi-orbit and multi-band connectivity in a single terminal. About Space […] The post Making sat…",
-      "implication": "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "commentary": "Making satellite communications more resilient should not be interpreted only as a news item. From the ArcheNova perspective, it is a Reality Discovery signal: This signal may expand civilization's ability to observe, measure, model, and understand reality.",
-      "score": {
-        "realityDiscovery": 7.9,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 6.3,
-        "synchronizationImpact": 6.7,
-        "adaptiveCapacity": 5.5,
-        "civilizationImpact": 6.3,
-        "overall": 6.4
-      },
-      "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-      "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-      "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-      "civilizationFunction": "Reality Discovery",
-      "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "ts": 1783000247000
-    },
-    {
-      "id": "civilization-engineering-stat-pharmalittle-we-re-reading-about-a-court-win-for-amgen-novo-seeking-supplie",
-      "title": "STAT+: Pharmalittle: We’re reading about a court win for Amgen, Novo seeking supplier discounts, and more",
-      "source": "STAT",
-      "originalUrl": "https://www.statnews.com/pharmalot/2026/07/02/amgen-court-win-novo-seeking-supplier-discounts/?utm_campaign=rss",
-      "category": "Civilization Engineering",
-      "observation": "U.S. judge blocked a Colorado state panel from placing a cap on the price of Amgen's blockbuster drug Enbrel",
-      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "commentary": "STAT+: Pharmalittle: We’re reading about a court win for Amgen, Novo seeking supplier discounts, and more should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
-      "score": {
-        "realityDiscovery": 6.2,
-        "capabilityExpansion": 6.2,
-        "infrastructureImpact": 6.2,
-        "synchronizationImpact": 6.2,
-        "adaptiveCapacity": 6.2,
-        "civilizationImpact": 7.3,
-        "overall": 6.4
-      },
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Civilization Engineering",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1782998704000
     }
   ]
 }
