@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-06T03:48:52.181Z",
+  "updated": "2026-07-06T08:23:25.918Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "What does content creation do to mental health?",
+      "url": "https://www.statnews.com/2026/07/06/vidcon-topic-mental-health-content-creators-status-report-alex-hogan/?utm_campaign=rss",
+      "summary": "This year at Vidcon, I was struck by how much of the conference’s programming was dedicated to the mental health of content creators.",
+      "ts": 1783324800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Euclid discovers the most ancient quasar in the Universe",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_the_most_ancient_quasar_in_the_Universe",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/artist_s_concept_of_an_ancient_quasar/27308353-1-eng-GB/Artist_s_concept_of_an_ancient_quasar_card_full.jpg\" alt=\"Artist’s concept of an …",
+      "ts": 1783319400000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "NASA and Small Business Administration partner on funding key space technologies",
@@ -703,22 +719,6 @@
       "title": "STAT+: A year after distressed buyout, what’s become of Bluebird Bio?",
       "url": "https://www.statnews.com/2026/07/02/genetix-david-meek-bluebird-bio-turnaround-effort/?utm_campaign=rss",
       "summary": "Bluebird Bio was a dark biotech morality tale when David Meek bought it. He says the new company, Genetix, is already making money.",
-      "ts": 1782981000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A former AI regulator, now in industry, says biopharma is reading FDA’s guidance wrong",
-      "url": "https://www.statnews.com/2026/07/02/fda-ai-guidance-pharma-industry-caution-tala-fakhouri-explains/?utm_campaign=rss",
-      "summary": "Companies are being too conservative in how they interpret FDA's AI guidance, but the agency can do more to help, too, Tala Fakhouri says.",
-      "ts": 1782981000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: CDC leadership continues to try to manufacture a scientific debate on vaccines where none exists",
-      "url": "https://www.statnews.com/2026/07/02/measuring-vaccine-effectiveness-test-negative-design-cdc/?utm_campaign=rss",
-      "summary": "CDC leadership continues to try manufacture a scientific debate on vaccines where none exists, writes Ben Lopman.",
       "ts": 1782981000000,
       "categoryId": "bio"
     }
