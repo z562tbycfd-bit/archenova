@@ -1,7 +1,105 @@
 {
   "ok": true,
-  "updated": "2026-07-07T08:24:58.287Z",
+  "updated": "2026-07-07T11:53:06.340Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Bumblebees exposed to up to 7 times as much toxic metal as honeybees",
+      "url": "https://phys.org/news/2026-07-bumblebees-exposed-toxic-metal-honeybees.html",
+      "summary": "Bumblebees collect up to seven times the amount of toxic heavy metals as honeybees even when foraging in the same environment, new research from the University of Cambridge has found. Exposure to these metals can affect …",
+      "ts": 1783424409000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Massive calving episode in Greenland may foreshadow more rapid ice sheet loss",
+      "url": "https://phys.org/news/2026-07-massive-calving-episode-greenland-foreshadow.html",
+      "summary": "In November 2025, a study led by Adrien Wehrlé, a researcher in the Department of Geography at the University of Zürich, Switzerland, looked at the massive calving response of one of West Greenland's active glaciers, Ser…",
+      "ts": 1783424403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New beetle genus named after One Piece's Monkey D. Luffy, encompassing two new species",
+      "url": "https://phys.org/news/2026-07-beetle-genus-piece-monkey-d.html",
+      "summary": "A research team from the Natural History Museum of Denmark has published a compelling new study in insect taxonomy in the open-access journal ZooKeys, officially establishing a new genus of rove beetle: Luffy gen. nov. T…",
+      "ts": 1783423968000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why we need to consider city shapes to save energy, water, and the climate",
+      "url": "https://phys.org/news/2026-07-city-energy-climate.html",
+      "summary": "The world's future is in cities. It is estimated that by 2050, 7 out of 10 people will live in urban areas (although a recent CSH study suggests that the growth of large cities may be less dramatic than current projectio…",
+      "ts": 1783423894000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemical control dominates global fight against invasive alien plants",
+      "url": "https://phys.org/news/2026-07-chemical-dominates-global-invasive-alien.html",
+      "summary": "Efforts to manage invasive alien plant species in forests could be held back by a continued reliance on chemical methods, according to a new study. Research led by Lizzie Keen, a postgraduate researcher at Newcastle Univ…",
+      "ts": 1783423203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Cosmic wallflowers' may hold the key to the origin of globular clusters",
+      "url": "https://phys.org/news/2026-07-cosmic-wallflowers-key-globular-clusters.html",
+      "summary": "Astronomers using computer simulations have investigated whether a class of star clusters nicknamed \"cosmic wallflowers\" could be the long-sought ancestors of the globular clusters we see orbiting galaxies today. Their p…",
+      "ts": 1783422602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "It's disturbingly easy to trick AI into seeing aliens, say researchers",
+      "url": "https://phys.org/news/2026-07-disturbingly-easy-ai-aliens.html",
+      "summary": "Are we alone in the universe? Consider mysterious \"extraterrestrial\" radio signals. Unexplained gases on other planets. Things mistaken for UFOs.",
+      "ts": 1783422003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "EV-SELEX speeds GPCR drug discovery by capturing receptor-bound DNA aptamers",
+      "url": "https://phys.org/news/2026-07-ev-selex-gpcr-drug-discovery.html",
+      "summary": "G protein-coupled receptors (GPCRs) are the most abundantly expressed proteins in the human body, regulating diverse physiological processes ranging from pain perception to hormone signaling. Owing to their central roles…",
+      "ts": 1783418404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bulk ferromagnetic quasicrystals emerge without rapid quenching, unlocking stable magnetic studies",
+      "url": "https://phys.org/news/2026-07-bulk-ferromagnetic-quasicrystals-emerge-rapid.html",
+      "summary": "Ferromagnetism has long been studied in a wide range of periodic crystals and amorphous materials. In quasicrystals (QCs), which possess long-range quasiperiodic order and unconventional rotational symmetries, such as 10…",
+      "ts": 1783418401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists just measured the smallest possible contacts for future computer chips",
+      "url": "https://phys.org/news/2026-07-scientists-smallest-contacts-future-chips.html",
+      "summary": "The rise of AI has created an almost insatiable appetite for computing power. Training and running AI systems requires vast numbers of transistors, and engineers are now racing to pack more of them onto every chip. With …",
+      "ts": 1783417202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bacteria discovered with the ability to jettison cells as a survival mechanism",
+      "url": "https://phys.org/news/2026-07-bacteria-ability-jettison-cells-survival.html",
+      "summary": "Popular science fiction is no stranger to escape-pod scenarios, typically featuring characters who narrowly avoid their demise by jettisoning from a spaceship—think R2-D2 and C-3PO shooting away from a rebel spaceship in…",
+      "ts": 1783414814000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How proximity steals energy from nanoresonators",
+      "url": "https://phys.org/news/2026-07-proximity-energy-nanoresonators.html",
+      "summary": "Nanomechanical resonators are miniature vibrating structures on chips that oscillate at frequencies ranging from a few kilohertz to gigahertz. They are used as ultrasensitive detectors of mass and force, temperature and …",
+      "ts": 1783414809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Raptorial insect forelegs evolved repeatedly but never converged on one winning design",
+      "url": "https://phys.org/news/2026-07-raptorial-insect-forelegs-evolved-converged.html",
+      "summary": "The evolutionary paths that created snatching forelimbs in insects multiple times moved in a similar direction but didn't end at a single solution. Kobe University research is pioneering a study of how organs with simila…",
+      "ts": 1783414804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient rocks reveal how water reshaped Earth's interior 3.1 billion years ago",
+      "url": "https://phys.org/news/2026-07-ancient-reveal-reshaped-earth-interior.html",
+      "summary": "Geologists studying some of the planet's oldest volcanic rocks have uncovered new evidence that water was playing a major role in shaping Earth's interior and driving volcanic activity more than 3 billion years ago.",
+      "ts": 1783414801000
+    },
     {
       "source": "Phys.org",
       "title": "Death toll from China storms rises to 15, hundreds injured",
@@ -602,104 +700,6 @@
       "title": "OptiClear: Differentiable Curvilinear Design Rule Legalization for Inverse-Designed Photonic Devices",
       "url": "https://arxiv.org/abs/2607.03632",
       "summary": "arXiv:2607.03632v1 Announce Type: new Abstract: Photonic inverse design enables ultra-compact, high-performance devices with highly curvilinear and non-intuitive geometries, but the resulting layouts often violate fabric…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SCoReT: Super-Resolution Compression and Reconstruction of Turbulent Flows",
-      "url": "https://arxiv.org/abs/2607.03683",
-      "summary": "arXiv:2607.03683v1 Announce Type: new Abstract: High-fidelity simulations of the Navier--Stokes equations (NSE) generate massive amounts of data, motivating the need for efficient compression and reconstruction strategie…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Research and Development of High-Efficiency Compressed Transmission Technologies for Holographic Communication in Beyond 5G Networks",
-      "url": "https://arxiv.org/abs/2607.03687",
-      "summary": "arXiv:2607.03687v1 Announce Type: new Abstract: This report summarizes the research outcomes achieved by the research group at Hokkaido University under the funding program \"Innovative Information and Communications Tech…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Monolithic Barium Titanate Nanophotonics and Electro-optics",
-      "url": "https://arxiv.org/abs/2607.03690",
-      "summary": "arXiv:2607.03690v1 Announce Type: new Abstract: Barium titanate-on-insulator (BTOI) is a compelling material for high-speed integrated photonic modulators due to its large Pockels coefficient (r42 > 1200 pm/V in bulk), w…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient Analysis of Carrier Transport and TM-TE Emission in AlGaN UVC LEDs via Multi-band Localization Landscape Theory",
-      "url": "https://arxiv.org/abs/2607.03753",
-      "summary": "arXiv:2607.03753v1 Announce Type: new Abstract: AlGaN-based UVC LEDs (220-250 nm) suffer from poor hole confinement and strain-induced |Z>-band dominance at high Al content (>60%), leading to increased TM emission and re…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatially variant arbitrary polarization shaping for optical skyrmions generation",
-      "url": "https://arxiv.org/abs/2607.03756",
-      "summary": "arXiv:2607.03756v1 Announce Type: new Abstract: Polarization is fundamental degree of freedom of light, crucial for applications from imaging to quantum optics. Although numerous methods can spatially manipulate the pola…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A dual--continuum phase-field model for hydraulic fracturing: Viscosity-dominated regime and fluid lag",
-      "url": "https://arxiv.org/abs/2607.03776",
-      "summary": "arXiv:2607.03776v1 Announce Type: new Abstract: The phase-field model regularizes sharp fractures into a diffuse representation, blurring the boundary between the fracture and the intact material. This blurring makes it …",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Geometric Interpretation of Non-Singular Black Hole Interiors",
-      "url": "https://arxiv.org/abs/2607.03794",
-      "summary": "arXiv:2607.03794v1 Announce Type: new Abstract: Black hole singularities still remain a central challenge in gravitational physics. In this work, we present a geometric interpretation of non singular black hole cores wit…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-Scan Characterization of $^{14}$N Nuclei via $^1$H-Detected Rotating-Frame Relaxometry",
-      "url": "https://arxiv.org/abs/2607.03796",
-      "summary": "arXiv:2607.03796v1 Announce Type: new Abstract: $^{14}$N NMR is notoriously difficult to perform in liquids due to the very fast spin relaxation and the large quadrupolar couplings, which render many signals invisible. W…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A comprehensive Darcy-type law for viscoplastic fluids: II. Rheology & topology",
-      "url": "https://arxiv.org/abs/2607.03812",
-      "summary": "arXiv:2607.03812v1 Announce Type: new Abstract: We extend our recently proposed framework (Chaparian, Phys. Rev. Fluids 10(9) 093301, 2025) for deriving a Darcy-type law governing viscoplastic flows through porous media …",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Application of SAP-X2C to Spectroscopy and Comparison to Screened Nuclear Spin--Orbit Approximations",
-      "url": "https://arxiv.org/abs/2607.03814",
-      "summary": "arXiv:2607.03814v1 Announce Type: new Abstract: Recently, Surjuse and Valeev [\\textit{J. Chem. Theory Comput.} \\textbf{22}, 3443--3452 (2026).] suggested to use a simple superposition of atomic potentials to account for …",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tax Migration as Social Contagion: A Tipping-Point Model with Application to the Scandinavian Wealth Tax Debate",
-      "url": "https://arxiv.org/abs/2607.03868",
-      "summary": "arXiv:2607.03868v1 Announce Type: new Abstract: Blandhol (2025) estimates that wealth-tax-induced emigration from Norway reduces long-run GDP by 1.3%. Dansk Industri scaled this figure to argue that a Danish wealth tax w…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quench, Glow, or Stay Silent: Distance-Controlled Up-Conversion Emission near Metallic Nanowires",
-      "url": "https://arxiv.org/abs/2607.03873",
-      "summary": "arXiv:2607.03873v1 Announce Type: new Abstract: We demonstrate controlled transitions between competing radiative and nonradiative decay channels in the up-conversion luminescence of NaYF4:Er3+/Yb3+ nanocrystals placed i…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mechanisms of lift generation and drag invariance by asymmetric surface roughness on a sphere",
-      "url": "https://arxiv.org/abs/2607.03878",
-      "summary": "arXiv:2607.03878v1 Announce Type: new Abstract: The mechanisms governing transverse force generation on a sphere with asymmetric dimpled roughness are investigated using wall-resolved large eddy simulation at $Re=U_\\inft…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beam-Level Nonlinear Compton Spectra via a Neural Network Surrogate Model",
-      "url": "https://arxiv.org/abs/2607.03895",
-      "summary": "arXiv:2607.03895v1 Announce Type: new Abstract: Nonlinear Compton scattering enables sources of intense high-energy radiation. However, predicting source-level spectra for realistic electron beams typically requires comp…",
       "ts": 1783396800000
     }
   ],

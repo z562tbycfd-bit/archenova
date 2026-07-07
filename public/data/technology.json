@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-07-07T08:25:02.354Z",
+  "updated": "2026-07-07T11:53:08.358Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The foundational elements of AI architecture that IT leaders need to scale",
+      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leader…",
+      "ts": 1783422652000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX satellite wins test Pentagon’s commitment to competition",
+      "url": "https://spacenews.com/spacexs-wins-test-pentagons-commitment-to-competition/",
+      "summary": "As the military rushes to deploy proliferated networks, SpaceX’s dominance is attracting congressional scrutiny The post SpaceX satellite wins test Pentagon’s commitment to competition appeared first on SpaceNews.",
+      "ts": 1783422000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Why worms (and microbes) are catching on as a manure pollution solution",
+      "url": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
+      "summary": "Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips on his family’s land in Hickman, a tiny town in the state’s agricultural heartland. He reaches down with both…",
+      "ts": 1783418400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "5 takeaways from STAT’s series on the soaring cost of health insurance",
+      "url": "https://www.statnews.com/2026/07/07/why-health-insurance-costs-so-much-out-of-pocket-series-key-takeaways/?utm_campaign=rss",
+      "summary": "Read the 5 key takeaways from STAT's series \"Out of Pocket, Out of Reach,\" an examination of workplace health insurance.",
+      "ts": 1783413000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: What if this Ebola outbreak can’t be stopped?",
+      "url": "https://www.statnews.com/2026/07/07/ebola-outbreak-drc-uganda-endemic-control/?utm_campaign=rss",
+      "summary": "In the past, the possibility of endemic Ebola was unthinkable. This time is different, write Ivan Buendia Gayton and Eric D. Perakslis.",
+      "ts": 1783413000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: This whistleblower took on a health insurance giant and a political machine. She’s not stopping there",
+      "url": "https://www.statnews.com/2026/07/07/employer-based-insurance-whistleblower-out-of-pocket-series-part-3/?utm_campaign=rss",
+      "summary": "America’s employers must stop acting helpless in the face of health care industry profiteering, Chris Deacon says.",
+      "ts": 1783413000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: America’s small businesses are giving up on health insurance",
+      "url": "https://www.statnews.com/2026/07/07/small-business-health-insurance-costs-out-of-pocket-series-part-1/?utm_campaign=rss",
+      "summary": "America's employer-based health insurance system is crumbling. STAT investigates why, in our new series, “Out of Pocket, Out of Reach.”",
+      "ts": 1783413000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: For a Georgia entrepreneur, health coverage has never been affordable",
+      "url": "https://www.statnews.com/2026/07/07/aca-health-insurance-small-business-out-of-pocket-series-part-2/?utm_campaign=rss",
+      "summary": "Amy Bielawski is one of the 30 million people who run their own businesses. She's gone most of her life without health insurance.",
+      "ts": 1783413000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Medicine thinks Gen Z is too soft. It’s wrong",
+      "url": "https://www.statnews.com/2026/07/07/gen-z-doctors-too-soft/?utm_campaign=rss",
+      "summary": "“Gen Z physicians are on a collision course with institutions still built around older assumptions,” writes Frantz M. Berthaud.",
+      "ts": 1783413000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Unpacking Europe’s new weather imagers",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Unpacking_Europe_s_new_weather_imagers",
+      "summary": "The second Meteosat Third Generation Imager satellite (MTG-I2) has begun its launch campaign, during which it will go through final inspections before being fitted inside the fairing of the Ariane 6 rocket that will laun…",
+      "ts": 1783411200000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Isar Aerospace signs agreement for Canadian launch site",
@@ -641,86 +721,6 @@
       "summary": "Investors unpack what it takes to succeed in an increasingly crowded AI biology ecosystem. The post Pharma Races to Scale AI as Billions Flow into Drug Discovery appeared first on GEN - Genetic Engineering and Biotechnol…",
       "ts": 1783354269000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How Open Models Are Driving AI Research",
-      "url": "https://blogs.nvidia.com/blog/open-models-icml-2026/",
-      "summary": "Every year, the International Conference on Machine Learning (ICML) reveals where thousands of AI researchers have decided to put their work. This year’s accepted papers reveal a clear direction: open frontier models and…",
-      "ts": 1783353600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NASA adds three European firms to the commercial data program",
-      "url": "https://spacenews.com/nasa-adds-three-european-firms-to-the-commercial-data-program/",
-      "summary": "MILAN — NASA’s Commercial Satellite Data Acquisition program (CSDA) announced June 23 contract awards with eight new commercial satellite data providers, three of which are European: Kuva Space (Finland), OroraTech […] T…",
-      "ts": 1783353430000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Seeks Industry Input on Second Phase of Commercial Space Stations",
-      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-seeks-industry-input-on-second-phase-of-commercial-space-stations/",
-      "summary": "On Monday, NASA released a draft Request for Proposals (RFP) seeking feedback from American companies on the next phase of its commercial space stations strategy, aimed at ensuring a seamless transition of activities in …",
-      "ts": 1783351980000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s CAPSTONE Completes Extended Mission Testing Lunar Technologies",
-      "url": "https://www.nasa.gov/technology/space-comms/nasas-capstone-completes-extended-mission-testing-lunar-technologies/",
-      "summary": "As NASA prepares for a sustained human presence on the Moon, missions will increasingly require spacecraft that can navigate and communicate without a direct connection to Earth. NASA’s Cislunar Autonomous Positioning Sy…",
-      "ts": 1783350054000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "How Nations Are Deploying AI for Strategic Priorities",
-      "url": "https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/",
-      "summary": "Nations have long invested in domestic infrastructure to advance their economies, protect and use their data, and take advantage of technology opportunities in areas such as transportation, communications, commerce, ente…",
-      "ts": 1783350025000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Online GLP-1 prescriptions are often fast, easy — and low on clinical oversight",
-      "url": "https://www.statnews.com/2026/07/06/glp-1-telehealth-prescriptions-jama-yale-secret-shopper-study/?utm_campaign=rss",
-      "summary": "A new secret-shopper study found that GLP-1 prescriptions from telehealth sites aren't often backed by appropriate clinical care.",
-      "ts": 1783350000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "ALS Drug Extends Survival in Mice, Targets TDP-43 Low-Complexity Domain",
-      "url": "https://www.genengnews.com/topics/drug-discovery/als-drug-extends-survival-in-mice-targets-tdp-43-low-complexity-domain/",
-      "summary": "A new therapeutic target shields nerve cells from the damage of ALS. A novel drug candidate extended median survival by approximately a week, protected nerve cells and reduced muscle weakness in mice. The post ALS Drug E…",
-      "ts": 1783348863000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Webb Uncovers Unusual Galaxy Shaped by Cosmic Collision",
-      "url": "https://science.nasa.gov/missions/webb/nasa-webb-uncovers-unusual-galaxy-shaped-by-cosmic-collision/",
-      "summary": "In new images from NASA’s James Webb Space Telescope to celebrate its fourth science anniversary, a familiar galaxy transforms into something far richer, and far more complex, than ever seen before. Webb’s unprecedented …",
-      "ts": 1783346400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Four major biotech updates to catch up on",
-      "url": "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations/?utm_campaign=rss",
-      "summary": "Anthropic CEO talks drug discovery, Medicare proposes steep 340B drug payment cuts, and more biotech news",
-      "ts": 1783345070000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants",
-      "url": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager a…",
-      "ts": 1783342800000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
