@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-07-07T14:41:27.412Z",
+  "updated": "2026-07-07T17:18:40.866Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves Vera Therapeutics kidney disease treatment",
+      "url": "https://www.statnews.com/2026/07/07/vera-therapeutics-kidney-disease-treatment-approval/?utm_campaign=rss",
+      "summary": "The FDA approved a new medicine from the biotech company Vera Therapeutics for patients with a type of chronic autoimmune kidney disease.",
+      "ts": 1783442676000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Artemis II Crew and Apollo 14 Moon Tree",
+      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-and-apollo-14-moon-tree/",
+      "summary": "In this photograph, the Artemis II crew participates in the dedication of the Apollo 14 Moon tree at the Lunar Receiving Park at NASA’s Johnson Space Center on June 25, 2026. This tree is a second-generation Apollo Moon …",
+      "ts": 1783441010000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "July 2026 Satellite Puzzler",
+      "url": "https://science.nasa.gov/earth/earth-observatory/july-2026-satellite-puzzler/",
+      "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
+      "ts": 1783439296000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The crumbling employer-based health insurance system",
+      "url": "https://www.statnews.com/2026/07/07/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson/?utm_campaign=rss",
+      "summary": "Today's D.C. Diagnosis newsletter covers maintaining diversity in drug trials and troubling trends in employer-based health insurance.",
+      "ts": 1783438829000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX launches Transporter-17 amid concerns about rideshare program’s future",
+      "url": "https://spacenews.com/spacex-launches-transporter-17-amid-concerns-about-rideshare-programs-future/",
+      "summary": "SpaceX launched the latest in its Transporter series of rideshare missions July 7 as industry concerns about the program’s future reach what one rival company executive called a panic. The post SpaceX launches Transporte…",
+      "ts": 1783438295000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bioprocessing at Full Throttle",
+      "url": "https://www.genengnews.com/topics/bioprocessing/bioprocessing-at-full-throttle/",
+      "summary": "Intensified strategies are reshaping biologics manufacturing by boosting speed, flexibility, and productivity without expanding facilities or footprints. The post Bioprocessing at Full Throttle appeared first on GEN - Ge…",
+      "ts": 1783438088000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Compass says depression drug has long-lasting benefits",
+      "url": "https://www.statnews.com/2026/07/07/biotech-news-compass-reports-depression-drug-has-long-lasting-benefits/?utm_campaign=rss",
+      "summary": "Vertex makes its largest-ever deal, skyrocketing health insurance costs, and more biotech news from The Readout",
+      "ts": 1783436690000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+      "summary": "Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. Across the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learnin…",
+      "ts": 1783436452000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: America’s employer health insurance is decaying",
+      "url": "https://www.statnews.com/2026/07/07/insurance-affordability-crisis-health-care-inc-newsletter/?utm_campaign=rss",
+      "summary": "STAT's Bob Herman examines the under-the-radar crisis brewing in employer-based health insurance.",
+      "ts": 1783436286000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI Tackles Tuberculosis, Identifies Drugs that Penetrate Bacteria Membrane",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/ai-tackles-tuberculosis-identifies-drugs-that-penetrate-bacteria-membrane/",
+      "summary": "Researchers have developed a new AI approach to select chemical compounds that can penetrate the bacterial membrane to treat tuberculosis, one of the world’s deadliest single-agent caused infections. The post AI Tackles …",
+      "ts": 1783435535000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "KLK1 Expands Possibilities to Restore Vascular Health",
@@ -73,6 +153,14 @@
       "summary": "Scientists from the Cedars-Sinai Board of Governors Regenerative Medicine Institute, including investigators from the Cedars-Sinai Biomanufacturing Center, say they will share groundbreaking discoveries and discuss new f…",
       "ts": 1783425622000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "General Assembly LIVE: Debating US sanctions against Cuba",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167883",
+      "summary": "The UN General Assembly overwhelming votes to debate United States sanctions against Cuba in a meeting on Tuesday, at Havana’s request, to discuss the decades-long embargo amid warnings of increasing suffering on the Car…",
+      "ts": 1783425600000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -201,6 +289,14 @@
       "summary": "",
       "ts": 1783402200000,
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "The World Cup From 250 Miles Up",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-world-cup-from-250-miles-up/",
+      "summary": "Over the years, astronauts aboard the International Space Station have photographed several of the cities hosting the 2026 FIFA World Cup.",
+      "ts": 1783396800000,
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -623,102 +719,6 @@
       "title": "DrugAgent: Reliable Multi-Agent Integration of Conflicting Biomedical Evidence for Drug-Target Interaction Assessment",
       "url": "https://arxiv.org/abs/2408.13378",
       "summary": "arXiv:2408.13378v5 Announce Type: replace-cross Abstract: Workflows in drug-target interaction (DTI) assessment require integrating heterogeneous data from predictive models, curated resources, and observations from expe…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Classifying bioacoustic data without individual call annotations using temporal convolutional networks and feature extractors",
-      "url": "https://arxiv.org/abs/2410.17006",
-      "summary": "arXiv:2410.17006v4 Announce Type: replace-cross Abstract: Bioacoustic data from Passive Acoustic Monitoring (PAM) generates large datasets where obtaining detailed auditing and labelling is often impractical, resulting i…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cell as Point: One-Stage Framework for Efficient Cell Tracking",
-      "url": "https://arxiv.org/abs/2411.14833",
-      "summary": "arXiv:2411.14833v4 Announce Type: replace-cross Abstract: Conventional multi-stage cell tracking approaches rely heavily on detection or segmentation in each frame as a prerequisite, requiring substantial resources for h…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PDFBench: A Benchmark for De novo Protein Design from Function",
-      "url": "https://arxiv.org/abs/2505.20346",
-      "summary": "arXiv:2505.20346v3 Announce Type: replace-cross Abstract: Function-guided protein design is a crucial task with significant applications in drug discovery and enzyme engineering. However, the field lacks a unified and co…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Leveraging Natural Language Processing to Unravel the Mystery of Life: A Review of NLP Approaches in Genomics, Transcriptomics, and Proteomics",
-      "url": "https://arxiv.org/abs/2506.02212",
-      "summary": "arXiv:2506.02212v2 Announce Type: replace-cross Abstract: Natural Language Processing (NLP) has transformed various fields beyond linguistics by applying techniques originally developed for human language to the analysis…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Self-organized hyperuniformity in a minimal model of population dynamics",
-      "url": "https://arxiv.org/abs/2509.08077",
-      "summary": "arXiv:2509.08077v3 Announce Type: replace-cross Abstract: By generalizing a class of models recently introduced to account for protracted transients in biological systems, we identify a novel mechanism for hyperuniformit…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Out-of-Distribution Detection in Molecular Complexes via Diffusion Models for Irregular Graphs",
-      "url": "https://arxiv.org/abs/2512.18454",
-      "summary": "arXiv:2512.18454v3 Announce Type: replace-cross Abstract: Predictive machine learning models generally excel on in-distribution data, but their performance degrades on out-of-distribution (OOD) inputs. Reliable deploymen…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A whole-brain model of amyloid beta accumulation and cerebral hypoperfusion in Alzheimer's disease",
-      "url": "https://arxiv.org/abs/2601.08478",
-      "summary": "arXiv:2601.08478v2 Announce Type: replace-cross Abstract: Accumulation of amyloid beta proteins is a defining feature of Alzheimer's disease, and is usually accompanied by cerebrovascular pathology. Evidence suggests tha…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Human-like Object Grouping in Self-supervised Vision Transformers",
-      "url": "https://arxiv.org/abs/2603.13994",
-      "summary": "arXiv:2603.13994v2 Announce Type: replace-cross Abstract: Vision foundation models trained with self-supervised objectives achieve strong performance across diverse tasks and exhibit emergent object segmentation properti…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories",
-      "url": "https://arxiv.org/abs/2605.10840",
-      "summary": "arXiv:2605.10840v4 Announce Type: replace-cross Abstract: We present Clin-JEPA, a multi-phase co-training framework for joint-embedding predictive (JEPA) pretraining on EHR patient trajectories. JEPA architectures have e…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BioSEN: A Bio-acoustic Signal Enhancement Network for Animal Vocalizations",
-      "url": "https://arxiv.org/abs/2605.12534",
-      "summary": "arXiv:2605.12534v3 Announce Type: replace-cross Abstract: Most work in audio enhancement targets human speech, while bioacoustics is less studied due to noisy recordings and the distinct traits of animal sounds. To fill …",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Synchronization modes in bipartite oscillator networks",
-      "url": "https://arxiv.org/abs/2606.20345",
-      "summary": "arXiv:2606.20345v2 Announce Type: replace-cross Abstract: Collective oscillations in neuronal systems often arise from interactions between excitatory and inhibitory populations rather than from recurrent coupling within…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Lumping of reaction networks: Generic and critical parameters",
-      "url": "https://arxiv.org/abs/2606.28895",
-      "summary": "arXiv:2606.28895v2 Announce Type: replace-cross Abstract: We investigate linear lumping for parameter-dependent mass action reaction networks, distinguishing between generic and critical parameter regimes. For generic pa…",
       "ts": 1783396800000,
       "categoryId": "bio"
     }

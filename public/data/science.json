@@ -1,7 +1,161 @@
 {
   "ok": true,
-  "updated": "2026-07-07T14:41:25.399Z",
+  "updated": "2026-07-07T17:18:38.320Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tiny carbon rings enable a new form of quantum control",
+      "url": "https://phys.org/news/2026-07-tiny-carbon-enable-quantum.html",
+      "summary": "Quantum states can be precisely controlled with the help of tiny carbon rings measuring only a few nanometers in size. This is made possible by a class of rarely used electromagnetic dipoles called toroidal moments. Usin…",
+      "ts": 1783443608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rising human-elephant conflict in Southern Africa predicted",
+      "url": "https://phys.org/news/2026-07-human-elephant-conflict-southern-africa.html",
+      "summary": "A study predicts increasing human-elephant conflict in Southern Africa. A growing number of farmers and 290,000 African savanna elephants (Loxodonta africana) share space in Southern Africa, with conflicts arising from e…",
+      "ts": 1783443601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "This year's El Nino likely to become record-breaker: Top expert",
+      "url": "https://phys.org/news/2026-07-year-el-nino-breaker-expert.html",
+      "summary": "The current El Nino weather phenomenon is expected to break records for its overall strength, a top expert said Tuesday, as regions face the risk of droughts, floods and other extremes linked to the event.",
+      "ts": 1783443474000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Much of Earth's 'space dust' may come from unidentified near-Earth asteroids",
+      "url": "https://phys.org/news/2026-07-earth-space-unidentified-asteroids.html",
+      "summary": "Like a shelf in an old house, the Earth collects a lot of dust from its surroundings. This \"space dust\" is mostly made up of micrometeorites that survive atmospheric entry and provides researchers with a cheap and easy w…",
+      "ts": 1783443002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New ultrathin lens focuses light into an optical needle",
+      "url": "https://phys.org/news/2026-07-ultrathin-lens-focuses-optical-needle.html",
+      "summary": "Researchers have created a special flat lens that shapes light into an optical needle—a thin beam that stays tightly focused over a long distance. Combining this lens, which is about 7 microns thick, with optical coheren…",
+      "ts": 1783442643000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simple cell migration mechanism may explain how hair follicles organize before birth",
+      "url": "https://phys.org/news/2026-07-simple-cell-migration-mechanism-hair.html",
+      "summary": "In mammals, hair follicles emerge during embryonic development, forming geometric patterns that vary from one species to another. But how is the position of each hair determined? A team from the University of Geneva (UNI…",
+      "ts": 1783442406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study finds clear‑cut logging can dramatically increase flood risk",
+      "url": "https://phys.org/news/2026-07-clearcut.html",
+      "summary": "In the past 30 years, floods have affected more than 2.8 billion people worldwide and caused more than 500,000 deaths. In Canada, flooding has caused significant damage and disruption to communities across the country. T…",
+      "ts": 1783442403000
+    },
+    {
+      "source": "Science News",
+      "title": "Scientists say Beefalo are all beef, no -alo. Breeders disagree",
+      "url": "https://www.sciencenews.org/article/beefalo-no-buffalo-genes",
+      "summary": "A whole-genome analysis of Beefalo, a hybrid bison-cattle breed, suggests very few individuals have any bison DNA at all, a new study reports.",
+      "ts": 1783441800000
+    },
+    {
+      "source": "Phys.org",
+      "title": "From mother to offspring: Young birds show how 'forever chemicals' accumulate",
+      "url": "https://phys.org/news/2026-07-mother-offspring-young-birds-chemicals.html",
+      "summary": "New research has found young birds living near contaminated industrial and military sites in suburban Melbourne carry especially high concentrations of PFAS, so-called \"forever chemicals.\"",
+      "ts": 1783441205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tracking your employees doesn't make them more productive",
+      "url": "https://phys.org/news/2026-07-tracking-employees-doesnt-productive.html",
+      "summary": "In June, TD Bank told staff that it would begin running software called WorkiQ on their work computers, tracking time spent in browsers, internal chat and meeting apps. The rollout has revived public debate about workpla…",
+      "ts": 1783441203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop AI tool that finds the equations behind complex systems",
+      "url": "https://phys.org/news/2026-07-ai-tool-equations-complex.html",
+      "summary": "Clarkson University researchers have developed an artificial intelligence tool that can uncover the mathematical equations governing complex and chaotic systems directly from data. The technology, called KANDy—short for …",
+      "ts": 1783440005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "If you flirt with an AI companion, does that count as cheating?",
+      "url": "https://phys.org/news/2026-07-flirt-ai-companion.html",
+      "summary": "AI romantic companions—digital agents that can text, speak, flirt and are always available—are a rapidly growing social phenomenon.",
+      "ts": 1783440004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cultural safety isn't a buzzword—it's a vital part of First Nations health care and healing",
+      "url": "https://phys.org/news/2026-07-cultural-safety-isnt-buzzword-vital.html",
+      "summary": "First Nations people in Australia have worse health and a lower life expectancy than other Australians.",
+      "ts": 1783438806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Inferring multicellular interactions in tumors from standard pathology slides",
+      "url": "https://phys.org/news/2026-07-inferring-multicellular-interactions-tumors-standard.html",
+      "summary": "Understanding how cells within and around a tumor interact provides key information about a cancer's architecture, a patient's immune response to the disease and even how susceptible the cancer may be to various types of…",
+      "ts": 1783438801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "South Pole Telescope analysis releases new catalog of more than 7,000 galaxy clusters",
+      "url": "https://phys.org/news/2026-07-south-pole-telescope-analysis-galaxy.html",
+      "summary": "Researchers working with data from the South Pole Telescope have released a major catalog of galaxy clusters, giving scientists a powerful new tool for studying how the universe grew and changed over billions of years. T…",
+      "ts": 1783437610000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Red cards have more than tripled since the last World Cup, data show",
+      "url": "https://phys.org/news/2026-07-red-cards-tripled-world-cup.html",
+      "summary": "In a reversal Sunday, FIFA announced that it was suspending U.S. striker Florian Balogun's one-game red-card ban, allowing the star player to compete in the U.S.'s World Cup Round of 16 match against Belgium on Monday.",
+      "ts": 1783437607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sunlight-powered chemistry reduces hazardous oxidant risk",
+      "url": "https://phys.org/news/2026-07-sunlight-powered-chemistry-hazardous-oxidant.html",
+      "summary": "Researchers at the University of Osaka developed a light-driven method for synthesizing Davis reagents that generates the hazardous oxidant mCPBA only on demand and consumes it immediately. Kinetic analysis showed no det…",
+      "ts": 1783437604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI faces trusted more than faces of real people, warn researchers",
+      "url": "https://phys.org/news/2026-07-ai-real-people.html",
+      "summary": "Images of faces created by artificial intelligence (AI) are seen as more trustworthy than images of genuine faces, researchers say, warning of the risks of online fraud and other harms. This is the first study to examine…",
+      "ts": 1783436409000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wolves around the world have evolved different skull shapes—humans are also shaping their evolution",
+      "url": "https://phys.org/news/2026-07-wolves-world-evolved-skull-humans.html",
+      "summary": "A new international study led by researchers at the University of Oulu, Finland, shows that wolves living in different parts of the world are not anatomically identical. Their skulls differ in shape and size according to…",
+      "ts": 1783436407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Homegrown catnip lotion proves to be an effective mosquito repellent in rural Uganda",
+      "url": "https://phys.org/news/2026-07-homegrown-catnip-lotion-effective-mosquito.html",
+      "summary": "Plant researchers from Wales and Uganda have collaborated on a community enterprise project in rural Uganda, becoming the first to create an affordable and highly effective mosquito repellent distilled from locally grown…",
+      "ts": 1783436405000
+    },
+    {
+      "source": "Science News",
+      "title": "Many U.S. teens underestimate fentanyl’s deadly risk",
+      "url": "https://www.sciencenews.org/article/adolescents-fentanyl-risk-understanding",
+      "summary": "A majority of 8th-graders and roughly a third of 10th- and 12th-graders do not see great risk in using fentanyl once or twice, a study reports.",
+      "ts": 1783436400000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient jaw wound reveals possible violence in Homo sapiens 90,000 years ago",
+      "url": "https://phys.org/news/2026-07-ancient-jaw-wound-reveals-violence.html",
+      "summary": "Violence, the care of injured or ill individuals, and funerary behavior are among the most challenging aspects of the human past to reconstruct. A study published in Scientific Reports and led by researchers from the Cen…",
+      "ts": 1783435801000
+    },
     {
       "source": "Phys.org",
       "title": "Why Europe's trees are dying",
@@ -546,160 +700,6 @@
       "title": "An inertial slender-body theory",
       "url": "https://arxiv.org/abs/2607.02993",
       "summary": "arXiv:2607.02993v1 Announce Type: new Abstract: We present a fully inertial slender-body theory (SBT) that incorporates the effect of fluid inertia on the scale of the length (the \"outer\" region) as well as the character…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Heterogeneously Integrated Balanced Photodetector on an Ultra-Low Loss Silicon Nitride Delay Line Interferometer",
-      "url": "https://arxiv.org/abs/2607.03008",
-      "summary": "arXiv:2607.03008v1 Announce Type: new Abstract: Thin core silicon nitride photonics enables ultra-low loss, CMOS foundry compatible integration that supports wavelengths from the visible to shortwave infrared. Applicatio…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Community structure of the pseudofractal web",
-      "url": "https://arxiv.org/abs/2607.03010",
-      "summary": "arXiv:2607.03010v1 Announce Type: new Abstract: The Ramsey community number $r_\\kappa$ is the smallest network size at which a graph is better described by a partition into communities than by no partition, under a presc…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stability of gas flow past viscoelastic compliant solid",
-      "url": "https://arxiv.org/abs/2607.03016",
-      "summary": "arXiv:2607.03016v1 Announce Type: new Abstract: Stability of a high-speed gas flow past a compliant solid is impacted by two distinct features: high solid-to-fluid density ratio ($\\rho_r$), and flow compressibility when …",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MEMS Fiber-Tip Photoacoustic Spectrometer for In Situ Microscale Trace Gas Sensing",
-      "url": "https://arxiv.org/abs/2607.03021",
-      "summary": "arXiv:2607.03021v1 Announce Type: new Abstract: To meet the stringent requirements for miniaturized and highly sensitive trace gas sensing in space-constrained scenarios, including power equipment monitoring, minimally i…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A New High-Intensity Source for Ultracold Neutrons",
-      "url": "https://arxiv.org/abs/2607.03033",
-      "summary": "arXiv:2607.03033v1 Announce Type: new Abstract: The TRIUMF UltraCold Advanced Neutron (TUCAN) collaboration has completed a new superthermal source for ultracold neutrons (UCNs) at TRIUMF. It uses neutrons from a spallat…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contrary to Newtonian trends: Early flow transition and drag enhancement at low to intermediate Reynolds number flows of structured fluids",
-      "url": "https://arxiv.org/abs/2607.03037",
-      "summary": "arXiv:2607.03037v1 Announce Type: new Abstract: The flow of structured fluids, such as polymeric and micellar solutions, involves a strong two-way coupling between flow kinematics and internal microstructural dynamics, i…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Programmable Hybrid Exceptional Points in Passive Scattering Networks",
-      "url": "https://arxiv.org/abs/2607.03040",
-      "summary": "arXiv:2607.03040v1 Announce Type: new Abstract: Exceptional points (EPs) have long promised enhanced sensing of physical signals, but have practically been limited by simultaneous enhancement of noise. Aligning an EP's n…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Miniaturized Photoacoustic Spectroscopy Gas Probe for In-Situ Detection in Oil",
-      "url": "https://arxiv.org/abs/2607.03053",
-      "summary": "arXiv:2607.03053v1 Announce Type: new Abstract: This paper designs and develops a miniaturized photoacoustic spectroscopy gas probe with acoustic pressure enhancement for in-situ detection in oil-immersed power equipment…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robust optical design and closed-form tolerancing through autodiff-based Hessian spectral analysis",
-      "url": "https://arxiv.org/abs/2607.03067",
-      "summary": "arXiv:2607.03067v1 Announce Type: new Abstract: Robust optical design demands quantitative knowledge of how manufacturing and alignment tolerances degrade system performance. We show that analysing the perturbation eigen…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Complex Refractive Index Determination via Microspectroscopy Through Magnifying Optics: Challenges and Opportunities",
-      "url": "https://arxiv.org/abs/2607.03077",
-      "summary": "arXiv:2607.03077v1 Announce Type: new Abstract: For the design and optimization of optoelectronic devices, accurate knowledge of the complex refractive indices of the constituent materials is essential. Herein, we presen…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Free-space multipass optical parametric amplifier",
-      "url": "https://arxiv.org/abs/2607.03092",
-      "summary": "arXiv:2607.03092v1 Announce Type: new Abstract: Scaling the efficiency of optical parametric amplifiers (OPAs) without degrading spatio-temporal pulse quality is fundamentally limited by spatio-temporal walk-off, intensi…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exceptional light propagation via generalized bulk-edge correspondence",
-      "url": "https://arxiv.org/abs/2607.03136",
-      "summary": "arXiv:2607.03136v1 Announce Type: new Abstract: In topological photonics, the bulk-edge correspondence is conventionally imported by direct analogy with electronic systems, overlooking the fundamentally distinct spacetim…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bidirectional phase sensitivity in holographic phototransient microscopy",
-      "url": "https://arxiv.org/abs/2607.03170",
-      "summary": "arXiv:2607.03170v1 Announce Type: new Abstract: Mid-infrared photothermal microscopy combines the chemical specificity of infrared absorption with the spatial resolution of visible-light detection, but practical implemen…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calculation of the energy levels and hyperfine structure for Xe~II, Rn~II, and Og~II ions",
-      "url": "https://arxiv.org/abs/2607.03175",
-      "summary": "arXiv:2607.03175v1 Announce Type: new Abstract: Energy levels, Land\\'e $g$-factors, and hyperfine-structure constants are calculated for the singly ionized noble-gas atoms Xe II, Rn II, and Og II. The calculations are pe…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient broadband second-harmonic generation in a multi-pass cell",
-      "url": "https://arxiv.org/abs/2607.03192",
-      "summary": "arXiv:2607.03192v1 Announce Type: new Abstract: Second-harmonic generation (SHG) is a widely used nonlinear optical process that has been optimized for high frequency conversion efficiency, broad bandwidths, and optimum …",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Griffiths Anomalous Absorption in Sparse-Loss Photonic Lattices",
-      "url": "https://arxiv.org/abs/2607.03205",
-      "summary": "arXiv:2607.03205v1 Announce Type: new Abstract: Light absorption in photonic lattices with sparsely distributed loss sites exhibits behavior analogous to Griffiths physics. Under uniform excitation, the transmitted power…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Secondary electron yield from aluminium-coated foils for muon tagging and beam monitoring up to 60 MeV/c",
-      "url": "https://arxiv.org/abs/2607.03241",
-      "summary": "arXiv:2607.03241v1 Announce Type: new Abstract: The feasibility of foil-based muon tagging is investigated in the momentum range below 60 MeV/c, with particular focus on its applicability to the low-momentum range spanni…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a High-Performance Permanent Magnet System for Ion Trapping Experiments",
-      "url": "https://arxiv.org/abs/2607.03255",
-      "summary": "arXiv:2607.03255v1 Announce Type: new Abstract: This work presents the design and fabrication of a compact permanent magnet based on an optimized stacked structure of fifteen NdFeB rings. The tunable NS-SN-NS configurati…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Wigner-based volumetric transport framework for paraxial waves in random media",
-      "url": "https://arxiv.org/abs/2607.03262",
-      "summary": "arXiv:2607.03262v1 Announce Type: new Abstract: We develop a Wigner-based phase-space framework for mean paraxial wave propagation in random media. Starting from the random parabolic wave equation, we derive the exact ev…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Seidr update: photonic 'black magic' for high-contrast interferometry using kernel-nulling and photonic lanterns",
-      "url": "https://arxiv.org/abs/2607.03280",
-      "summary": "arXiv:2607.03280v1 Announce Type: new Abstract: Seidr is a new interferometric beam combiner within the Asgard Suite, utilizing infrastructure common to the Bifrost instrument at the Very Large Telescope Interferometer. …",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Overcoming the low signal-to-noise problem for hybrid mode-selective photonic lantern-based wavefront correction using machine learning",
-      "url": "https://arxiv.org/abs/2607.03285",
-      "summary": "arXiv:2607.03285v1 Announce Type: new Abstract: Hybrid mode-selective photonic lanterns transform an input complex point-spread function into several single-mode outputs, where a selected core feeds the fundamental mode …",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contextual Cellular Growth (ConCeG) of neural cells for realistic grey matter tissue generation for diffusion MRI simulations",
-      "url": "https://arxiv.org/abs/2607.03286",
-      "summary": "arXiv:2607.03286v1 Announce Type: new Abstract: Accurate interpretation of diffusion magnetic resonance imaging (dMRI) signals in grey matter (GM) remains challenging due to the complex, heterogeneous, and densely packed…",
       "ts": 1783396800000
     }
   ],
