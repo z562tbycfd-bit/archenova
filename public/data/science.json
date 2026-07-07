@@ -1,7 +1,56 @@
 {
   "ok": true,
-  "updated": "2026-07-07T21:37:41.055Z",
+  "updated": "2026-07-07T23:04:19.165Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Fishing for DNA: How a cup of river water can reveal secrets about human health, pollution and biodiversity",
+      "url": "https://phys.org/news/2026-07-fishing-dna-cup-river-reveal.html",
+      "summary": "The DNA in a single cup of water can track wildlife, monitor pollution and survey pathogens in waterways and their surroundings, all at the same time.",
+      "ts": 1783465205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Where rivers face collapse: New tool shows where conservation dollars can do most good",
+      "url": "https://phys.org/news/2026-07-rivers-collapse-tool-dollars-good.html",
+      "summary": "Freshwater ecosystems are under growing pressure worldwide, but conservation resources are limited. A framework developed by IIASA researchers and partners can help identify where conservation could prevent biodiversity …",
+      "ts": 1783465201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unique fossil record of marine mollusks helps scientists predict extinction risk—before it's too late",
+      "url": "https://phys.org/news/2026-07-unique-fossil-marine-mollusks-scientists.html",
+      "summary": "Scientists are increasingly worried we may be witnessing the start of the \"sixth mass extinction\"—the first to be caused by human activities.",
+      "ts": 1783464001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fungi communicate with one another in the presence of metal pollution in forests",
+      "url": "https://phys.org/news/2026-07-fungi-communicate-presence-metal-pollution.html",
+      "summary": "VUB researcher Maarten Ottaway investigated how trees and their invisible underground allies—the fungi—respond to soil pollution. His Ph.D. sheds new light on an age-old partnership that is crucial for healthy forests, a…",
+      "ts": 1783462802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When managing your money, take a chatbot's 'confidence' with a grain of salt",
+      "url": "https://phys.org/news/2026-07-money-chatbot-confidence-grain-salt.html",
+      "summary": "Consider the following scenario. Suzy is 63, recently retired and trying to decide when to start receiving Social Security and how to manage her retirement savings to minimize the tax hit.",
+      "ts": 1783461604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds sharing tax numbers boosts transparency, not confusion, for investors",
+      "url": "https://phys.org/news/2026-07-tax-boosts-transparency-investors.html",
+      "summary": "A new study finds that publicly traded companies that disclose more numbers related to what they pay in taxes improve their transparency, allowing the market to make more informed investing decisions. The finding highlig…",
+      "ts": 1783460406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Satellite record reveals US tidal wetland productivity rose 6% in 20 years",
+      "url": "https://phys.org/news/2026-07-satellite-reveals-tidal-wetland-productivity.html",
+      "summary": "Carbon sequestration, climate regulation, biodiversity support and shoreline protection: These are all benefits provided by tidal wetlands. As the climate changes, the amount of carbon captured by these vital ecosystems …",
+      "ts": 1783460404000
+    },
     {
       "source": "Phys.org",
       "title": "Isotope probing shows soil is packed with dormant viruses lying in wait",
@@ -651,55 +700,6 @@
       "title": "Worldsheet for Generalized Veneziano Amplitudes",
       "url": "http://link.aps.org/doi/10.1103/bplf-h1vx",
       "summary": "Author(s): Shota Komatsu and Pronobesh Maity We present a worldsheet action that reproduces a class of dual resonance amplitudes discussed in the literature, which generalize the Veneziano amplitude for open strings. Our…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Black Hole States in Quantum Spin Chains",
-      "url": "http://link.aps.org/doi/10.1103/5myp-jksn",
-      "summary": "Author(s): Charlotte Kristjansen and Konstantin Zarembo We define a black hole state in a spin chain by studying thermal correlators in holography. Focusing on the Heisenberg model we investigate the thermal and complexi…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "How Lorentz Boosts Reshape Relaxation Spectra",
-      "url": "http://link.aps.org/doi/10.1103/d2xr-rj7g",
-      "summary": "Author(s): L. Gavassino In relativity, relaxation processes are often assumed to undergo time dilation under Lorentz boosts. We show that this intuition fails generically. Because of relativity of simultaneity, Lorentz b…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Symmetry-Controlled Thermal Activation in Pyramidal Coulomb Clusters: Testing Kramers-Langer Theory",
-      "url": "http://link.aps.org/doi/10.1103/xsdn-srjd",
-      "summary": "Author(s): Akhil Ayyadevara, Anand Prakash, Shovan Dutta, Arun Paramekanti, and S. A. Rangwala Laser-cooled ions confined in electromagnetic traps provide a unique, tunable mesoscopic system where the interplay of the tr…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Metacavity Quantum Electrodynamics",
-      "url": "http://link.aps.org/doi/10.1103/j8gx-58hf",
-      "summary": "Author(s): Xueshi Li (李学诗), Ziwei Wang (王子维), Yan Chen (陈岩), Dong Liu ((刘栋), Kaili Xiong (熊凯莉), Guangfeng Wang (王光丰), Jiantao Ma (马剑涛), Ying Yu (喻颖), Jiawei Wang (王嘉威), Zhanling Wang (王占领), Xiao Li (李霄), Xianfeng Chen (陈…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Realization of Floquet-Engineered Topological Complex-Energy Band Braids in Single-Photon Interferometry",
-      "url": "http://link.aps.org/doi/10.1103/7wtv-p9l5",
-      "summary": "Author(s): Rui Tian, Yuanbang Wei, Yue Zhang, Hongyan Shi, Qihang Ying, Tianhao Wu, Shuai Li, Hong Gao, Fuli Li, Maksims Arzamasovs, and Bo Liu Floquet engineering, customizing a system using periodic driving, offers a p…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Microwave Vortex Beam Lasing via Photonic Time Crystals",
-      "url": "http://link.aps.org/doi/10.1103/6gn2-2v9b",
-      "summary": "Author(s): Lei Huang, Weixuan Zhang, Deyuan Zou, Jiacheng Bao, Fengxiao Di, Haoyu Qin, Long Qian, Houjun Sun, and Xiangdong Zhang Microwave lasing carrying orbital angular momentum (OAM) holds significant potential for a…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spectrally Uniform Continuous-Variable Quantum Microcombs",
-      "url": "http://link.aps.org/doi/10.1103/vjtv-2prg",
-      "summary": "Author(s): Kangkang Li, Yue Wang, Ze Wang, Xin Zhou, Jincheng Li, Yinke Cheng, Binyan Wu, Qihuang Gong, Bei-Bei Li, and Qi-Fan Yang Continuous-variable (CV) quantum microcombs generated in high-$Q$ microresonators provid…",
       "ts": 1783418400000
     }
   ],

@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-07T21:37:43.283Z",
+  "updated": "2026-07-07T23:04:23.656Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Orbit Fab hires new CEO and raises funding to support satellite refueling business",
+      "url": "https://spacenews.com/orbit-fab-hires-new-ceo-and-raises-funding-to-support-satellite-refueling-business/",
+      "summary": "With a new chief executive and funding round, satellite refueling company Orbit Fab hopes to make the transition from technology development to operations. The post Orbit Fab hires new CEO and raises funding to support s…",
+      "ts": 1783464309000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Vertex Eyes Expansion Beyond Cystic Fibrosis with Planned $10B Crinetics Buyout",
@@ -711,14 +719,6 @@
       "title": "Unraveling the temporal dependence of ecological interaction measures",
       "url": "https://arxiv.org/abs/2508.19197",
       "summary": "arXiv:2508.19197v2 Announce Type: replace Abstract: Identifying the network of species interactions is a fundamental step toward understanding ecosystem stability and biodiversity. However, the interpretability of empiri…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On a Geometry of Interbrain Networks",
-      "url": "https://arxiv.org/abs/2509.10650",
-      "summary": "arXiv:2509.10650v4 Announce Type: replace Abstract: Effective analysis in neuroscience benefits significantly from robust conceptual frameworks. Traditional metrics of interbrain synchrony in social neuroscience typicall…",
       "ts": 1783396800000,
       "categoryId": "bio"
     }
