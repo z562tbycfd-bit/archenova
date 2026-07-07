@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updated": "2026-07-06T22:15:20.824Z",
+  "updated": "2026-07-07T00:10:33.450Z",
   "items": [
     {
       "source": "STAT",
       "title": "STAT+: Vertex acquires Crinetics Pharmaceuticals for $10 billion as biotech M&A booms",
       "url": "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/?utm_campaign=rss",
-      "summary": "Vertex Pharmaceuticals will spend $10 billion to acquire Crinetics Pharmaceuticals and its drug for a rare endocrine disorder, the companies announced.",
+      "summary": "Vertex Pharmaceuticals will spend $10 billion to acquire Crinetics Pharmaceuticals and its drug for a rare endocrine disorder, the companies said.",
       "ts": 1783371149000,
       "categoryId": "bio"
     },
@@ -41,6 +41,14 @@
       "summary": "NASA Administrator Jared Isaacman leads a flyover featuring his personally owned Northrop F-5 Tiger during the Great American State Fair on July 4, 2026, on the National Mall in Washington, D.C. For 250 years, America ha…",
       "ts": 1783363100000,
       "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Unlocking Microbiome Function with Anaerobic Workflows and Metabolic Phenotyping",
+      "url": "https://www.genengnews.com/resources/ebooks/unlocking-microbiome-function-with-anaerobic-workflows-and-metabolic-phenotyping/",
+      "summary": "This eBook explores how researchers can move beyond correlation and towards mechanism in microbiome research—from preserving physiologically relevant microbial communities to directly measuring microbial function through…",
+      "ts": 1783362338000,
+      "categoryId": "bio"
     },
     {
       "source": "MIT Technology Review",
@@ -711,14 +719,6 @@
       "title": "You ain't seen nothing, and yet: Future biochemical concentrations can be predicted with surprisingly high accuracy",
       "url": "https://arxiv.org/abs/2602.00261",
       "summary": "arXiv:2602.00261v2 Announce Type: replace-cross Abstract: Accurate sensing of chemical concentrations is essential for numerous biological processes. The accuracy of this sensing, for small numbers of molecules, is limit…",
-      "ts": 1783051200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Resolving superposition in AI for interpretability and cross-modal alignment in patient-neuronal images",
-      "url": "https://arxiv.org/abs/2606.31394",
-      "summary": "arXiv:2606.31394v2 Announce Type: replace-cross Abstract: Artificial intelligence is transforming our capability to solve biological challenges. In dimensionality bottleneck regimes exacerbated by high-dimensional biolog…",
       "ts": 1783051200000,
       "categoryId": "bio"
     }

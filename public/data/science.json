@@ -1,7 +1,56 @@
 {
   "ok": true,
-  "updated": "2026-07-06T22:15:17.364Z",
+  "updated": "2026-07-07T00:10:31.118Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Cultural power distance limits classroom voices across three communication pathways, review finds",
+      "url": "https://phys.org/news/2026-07-cultural-power-distance-limits-classroom.html",
+      "summary": "A systematic review of research on intercultural communication in higher education finds that cultural \"power distance,\" which is the extent to which people accept unequal authority, continues to shape who speaks, who is…",
+      "ts": 1783382402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to create the blackest black ever known: From nature to nanotechnology",
+      "url": "https://phys.org/news/2026-07-blackest-black-nature-nanotechnology.html",
+      "summary": "Achieving the blackest of blacks has been one of humanity's enduring challenges. It is a frontier that unites modern nanotechnologists with nature's ancient color palette.",
+      "ts": 1783381202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stored water can develop slimy bacterial films: Nanotechnology may be a solution",
+      "url": "https://phys.org/news/2026-07-slimy-bacterial-nanotechnology-solution.html",
+      "summary": "When drinking water is stored in containers, a thin layer of microorganisms can grow at the interface of the container and water. This thin layer is called a biofilm. It's made up of bacteria that make the water unsafe t…",
+      "ts": 1783380001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Raft of targeted conservation efforts may help boost leopard numbers in sub-Saharan Africa, study suggests",
+      "url": "https://phys.org/news/2026-07-raft-efforts-boost-leopard-saharan.html",
+      "summary": "There could be fewer leopards living across sub-Saharan Africa than previously believed, according to a new study that has analyzed suitable habitat and conditions. It is hoped that the research, led by conservation scie…",
+      "ts": 1783378807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hummingbirds speed up pineapple family's evolution",
+      "url": "https://phys.org/news/2026-07-hummingbirds-pineapple-family-evolution.html",
+      "summary": "Hummingbirds make bromeliad plants split into new species twice as fast as other pollinators do, scientists at the University of Reading have found. The research team gathered records of which animals pollinate 403 types…",
+      "ts": 1783378803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat waves: Expert tips on redesigning UK homes to cope with hotter temperatures",
+      "url": "https://phys.org/news/2026-07-expert-redesigning-uk-homes-cope.html",
+      "summary": "As the UK prepares for the third heat wave of 2026, most people will be hoping to keep cool at home. Building regulations to protect homes from overheating were introduced in 2022. These require all new homes to be check…",
+      "ts": 1783377603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change means an earlier spring, which can be disorienting and threatening for migrating birds",
+      "url": "https://phys.org/news/2026-07-climate-earlier-disorienting-threatening-migrating.html",
+      "summary": "Spring migration has taken flight, but with rising temperatures and shifting seasons, birds are adjusting when and how they migrate to keep up with a rapidly warming climate. Morgan Tingley, a professor of ecology and ev…",
+      "ts": 1783376401000
+    },
     {
       "source": "Phys.org",
       "title": "'Outed' by the algorithm—how social media is revealing queer identity ahead of self-disclosure",
@@ -652,55 +701,6 @@
       "url": "http://link.aps.org/doi/10.1103/2dw2-z21v",
       "summary": "Author(s): Yuanjin Wang, Hao Wu, Mark Oxborrow, and Qing Zhao Recently proposed metastability-induced quantum batteries have shown particular promise for coherent microwave generation. However, achieving high-power coher…",
       "ts": 1783332000000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Microwave-induced activation of phase-change nanodroplets using a directional ultrawideband microstrip antenna",
-      "url": "http://link.aps.org/doi/10.1103/vr64-pkdh",
-      "summary": "Author(s): Maryam Dorvashi, Hossam H. Sultan, Owen J. Harrison, Yuang You, Navid Ghavami, Gianluigi Tiberi, Enrico Grisan, Maya Thanou, Mohammad Ghavami, and Sevan Harput Phase-change nanodroplets (PCNDs) are stimuli-res…",
-      "ts": 1783332000000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "How geometry tames disorder in lattice fracture",
-      "url": "http://link.aps.org/doi/10.1103/634w-nkwl",
-      "summary": "Author(s): Matthaios Chouzouris, Leo de Waal, Antoine Sanner, Alessandra Lingua, David S. Kammer, and Marcelo A. Dias We investigate the fracture behavior of precracked triangular beam lattices whose elements have failur…",
-      "ts": 1783332000000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Spin pumping driven by magnon-polaritons in a ferromagnet–coplanar superconducting resonator hybrid system",
-      "url": "http://link.aps.org/doi/10.1103/3d5g-qydt",
-      "summary": "Author(s): Dinesh Wagle, Yi Li, Anish Rai, Tomas Polakovic, Valentine Novosad, and M. Benjamin Jungfleisch We demonstrate spin pumping driven by a strongly coupled magnon-photon system using a ferromagnet-coplanar superc…",
-      "ts": 1783332000000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Researchers use AI to evaluate a systematic framework to describe molecular order in liquid water",
-      "url": "https://phys.org/news/2026-07-ai-systematic-framework-molecular-liquid.html",
-      "summary": "Water is the most abundant liquid on Earth's surface, and it is highly anomalous compared with other liquids because it expands upon freezing. The anomalies in water have been linked to how its microscopic structure chan…",
-      "ts": 1783328407000
-    },
-    {
-      "source": "Phys.org",
-      "title": "How we can coexist with coyotes, and other lessons from Stanley Park: Q&A with zoologists",
-      "url": "https://phys.org/news/2026-07-coexist-coyotes-lessons-stanley-qa.html",
-      "summary": "Researchers are sharing lessons from the unprecedented Stanley Park coyote attacks from 2020 to 2021 to help people better coexist with urban wildlife.",
-      "ts": 1783328405000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Neutral lipids enable precision control over supramolecular polymerization",
-      "url": "https://phys.org/news/2026-07-neutral-lipids-enable-precision-supramolecular.html",
-      "summary": "The formation of supramolecular polymers within living cells is an emerging strategy for regulating cellular functions, and lipid droplets (LDs) are promising environments for such processes. LDs are cellular organelles …",
-      "ts": 1783328403000
-    },
-    {
-      "source": "Phys.org",
-      "title": "'Major' damage as super typhoon hits US islands",
-      "url": "https://phys.org/news/2026-07-major-super-typhoon-islands.html",
-      "summary": "A \"super typhoon\" with the force of a Category 5 hurricane tore through the U.S. Pacific territories of the Northern Marianas and Guam on Monday, with authorities saying they had received reports of \"major\" damage on the…",
-      "ts": 1783326001000
     }
   ],
   "sources": [
