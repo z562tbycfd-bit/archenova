@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-07-07T11:53:08.358Z",
+  "updated": "2026-07-07T14:41:27.412Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "KLK1 Expands Possibilities to Restore Vascular Health",
+      "url": "https://www.genengnews.com/topics/drug-discovery/klk1-expands-possibilities-to-restore-vascular-health/",
+      "summary": "By restoring the body’s ability to produce KLK1, therapies are emerging for preeclampsia moms and for acute ischemic stroke who missed the tPA window. The post KLK1 Expands Possibilities to Restore Vascular Health appear…",
+      "ts": 1783434566000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "A New Development Playbook for PROTACs",
+      "url": "https://www.genengnews.com/topics/drug-discovery/a-new-development-playbook-for-protacs/",
+      "summary": "In this Thought Leader article from our July issue, Shanghao Li, PhD, explores why translation will define the next wave of success. The post A New Development Playbook for PROTACs appeared first on GEN - Genetic Enginee…",
+      "ts": 1783433875000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Republic of Cyprus Signs a Country Programme Framework (CPF) for 2026-2031",
+      "url": "http://www.iaea.org/newscenter/news/republic-of-cyprus-signs-a-country-programme-framework-cpf-for-2026-2031",
+      "summary": "HE Mr Andreas Ignatiou, Resident Representative, Permanent Mission of the Republic of Cyprus to the IAEA, and Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, signed the Repub…",
+      "ts": 1783433858000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: ‘Secret shopper’ study probes GLP-1 telehealth sites",
+      "url": "https://www.statnews.com/2026/07/07/secret-shopper-study-glp-1-telehealth-sites-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: A 'secret shopper' study of telehealth sites prescribing GLP-1s, news about Epic, Anthropic, and brain implants.",
+      "ts": 1783432071000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a $10 billion Vertex deal, the pace of FDA drug approvals, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/07/vertex-buying-crinetics-fda-drug-approvals-kept-pace/?utm_campaign=rss",
+      "summary": "Vertex Pharmaceuticals will spend $10 billion to acquire Crinetics Pharmaceuticals and its drug for a rare endocrine disorder",
+      "ts": 1783430041000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
+      "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Your family’s $300 stake in OpenAI Sam Altman’s proposal that Americans should sha…",
+      "ts": 1783426200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Ebola outbreak exposes a fractured outbreak response system ",
+      "url": "https://www.statnews.com/2026/07/07/health-news-ebola-outbreak-exposes-a-fractured-outbreak-response-system/?utm_campaign=rss",
+      "summary": "The costly threat to employer-based health care, Gen Z doctors, and more health news",
+      "ts": 1783426007000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Simera Sense to provide imagers for Canary Islands constellation",
+      "url": "https://spacenews.com/simera-sense-to-provide-imagers-for-canary-islands-constellation/",
+      "summary": "Belgium’s Simera Sense has won a contract to provide multispectral imagers for a small constellation being designed to track wildfires, volcanic activity and other regional priorities for the Canary Islands off the coast…",
+      "ts": 1783425701000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Biomanufacturing in Space to Be Key Topic at ISSCR 2026",
+      "url": "https://www.genengnews.com/topics/bioprocessing/biomanufacturing-in-space-to-be-key-topic-at-isscr-2026/",
+      "summary": "Scientists from the Cedars-Sinai Board of Governors Regenerative Medicine Institute, including investigators from the Cedars-Sinai Biomanufacturing Center, say they will share groundbreaking discoveries and discuss new f…",
+      "ts": 1783425622000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola continues to spread in DRC as death toll passes 500, WHO warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167882",
+      "summary": "The outbreak of the deadly Bundibugyo species of Ebola in the eastern Democratic Republic of the Congo (DRC) is expanding, while the push to accelerate testing and identify effective treatment options continues, the UN W…",
+      "ts": 1783425600000,
+      "categoryId": "global-governance"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The foundational elements of AI architecture that IT leaders need to scale",
@@ -75,6 +155,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "First IAEA Training on Public Communication in Nuclear Security",
+      "url": "http://www.iaea.org/newscenter/news/first-iaea-training-on-public-communication-in-nuclear-security",
+      "summary": "",
+      "ts": 1783412387000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "ESA",
       "title": "Unpacking Europe’s new weather imagers",
       "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Unpacking_Europe_s_new_weather_imagers",
@@ -91,6 +179,14 @@
       "categoryId": "space"
     },
     {
+      "source": "IAEA News",
+      "title": "Nuclear Liability: Ensuring Legal Certainty and Compensation for Nuclear Damage",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-liability-ensuring-legal-certainty-and-compensation-for-nuclear-damage",
+      "summary": "",
+      "ts": 1783409405000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NVIDIA",
       "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
       "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
@@ -105,14 +201,6 @@
       "summary": "",
       "ts": 1783402200000,
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "The World Cup From 250 Miles Up",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-world-cup-from-250-miles-up/",
-      "summary": "Over the years, astronauts aboard the International Space Station have photographed several of the cities hosting the 2026 FIFA World Cup.",
-      "ts": 1783396800000,
-      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -632,94 +720,6 @@
       "url": "https://arxiv.org/abs/2606.28895",
       "summary": "arXiv:2606.28895v2 Announce Type: replace-cross Abstract: We investigate linear lumping for parameter-dependent mass action reaction networks, distinguishing between generic and critical parameter regimes. For generic pa…",
       "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A global predicted-fMRI drive signal from TRIBE does not predict YouTube replay heatmaps",
-      "url": "https://arxiv.org/abs/2607.01400",
-      "summary": "arXiv:2607.01400v2 Announce Type: replace-cross Abstract: Deep multimodal brain-encoding models now predict fMRI responses to naturalistic video with high accuracy; whether their predicted neural signals also forecast be…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "New sa‑mRNA and LNP Platform to Support Korea’s Hantavirus Vaccine Initiative",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/new-sa-mrna-and-lnp-platform-to-support-koreas-hantavirus-vaccine-initiative/",
-      "summary": "Building on promising preclinical findings, researchers in South Korea are developing a hantavirus vaccine using self-amplifying mRNA technology, aiming to establish a domestically developed platform for rapid responses …",
-      "ts": 1783388101000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Vertex acquires Crinetics Pharmaceuticals for $10 billion as biotech M&A booms",
-      "url": "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/?utm_campaign=rss",
-      "summary": "Vertex Pharmaceuticals will spend $10 billion to acquire Crinetics Pharmaceuticals and its drug for a rare endocrine disorder, the companies said.",
-      "ts": 1783371149000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Blue Origin continues work on lunar landers during recovery from New Glenn explosion",
-      "url": "https://spacenews.com/blue-origin-continues-work-on-lunar-landers-during-recovery-from-new-glenn-explosion/",
-      "summary": "Blue Origin is continuing to develop its Blue Moon lunar landers, with seven vehicles in production, while recovering from the New Glenn pad explosion more than a month ago. The post Blue Origin continues work on lunar l…",
-      "ts": 1783368587000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Obamacare rolls shrank dramatically in many states over the past year, new federal data shows",
-      "url": "https://www.statnews.com/2026/07/06/obamacare-rolls-shrank-dramatically-affordable-care-act-states/?utm_campaign=rss",
-      "summary": "States across the country saw steep drops in the number of people covered by the Affordable Care Act over the past year, according to new federal data.",
-      "ts": 1783367903000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Iridium folds Aireon aviation safety service into Rocket Lab-bound business",
-      "url": "https://spacenews.com/iridium-folds-aireon-aviation-safety-service-into-rocket-lab-bound-business/",
-      "summary": "Iridium Communications has completed its takeover of Aireon, bringing the aircraft-tracking venture fully in-house ahead of the satellite operator’s planned $8 billion sale to Rocket Lab. The post Iridium folds Aireon av…",
-      "ts": 1783364552000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Takes Flight For America’s 250th",
-      "url": "https://www.nasa.gov/image-article/nasa-takes-flight-for-americas-250th/",
-      "summary": "NASA Administrator Jared Isaacman leads a flyover featuring his personally owned Northrop F-5 Tiger during the Great American State Fair on July 4, 2026, on the National Mall in Washington, D.C. For 250 years, America ha…",
-      "ts": 1783363100000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Unlocking Microbiome Function with Anaerobic Workflows and Metabolic Phenotyping",
-      "url": "https://www.genengnews.com/resources/ebooks/unlocking-microbiome-function-with-anaerobic-workflows-and-metabolic-phenotyping/",
-      "summary": "This eBook explores how researchers can move beyond correlation and towards mechanism in microbiome research—from preserving physiologically relevant microbial communities to directly measuring microbial function through…",
-      "ts": 1783362338000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Your family’s $300 stake in OpenAI",
-      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wea…",
-      "ts": 1783360800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Chimeric Allergen Receptor Treg Cells Suppress Allergic Asthma in Mice",
-      "url": "https://www.genengnews.com/topics/translational-medicine/chimeric-allergen-receptor-treg-cells-suppress-allergic-asthma-in-mice/",
-      "summary": "Researchers developed regulatory T cells armed with chimeric allergen receptors—CAlleR Tregs—which in tests reduced or preventing asthma symptoms in mice sensitized to a birch tree pollen allergen, and suggest that their…",
-      "ts": 1783354413000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Pharma Races to Scale AI as Billions Flow into Drug Discovery",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/pharma-races-to-scale-ai-as-billions-flow-into-drug-discovery/",
-      "summary": "Investors unpack what it takes to succeed in an increasingly crowded AI biology ecosystem. The post Pharma Races to Scale AI as Billions Flow into Drug Discovery appeared first on GEN - Genetic Engineering and Biotechnol…",
-      "ts": 1783354269000,
       "categoryId": "bio"
     }
   ],
