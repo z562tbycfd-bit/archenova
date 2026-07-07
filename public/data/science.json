@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-07T04:54:11.927Z",
+  "updated": "2026-07-07T08:24:58.287Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Death toll from China storms rises to 15, hundreds injured",
+      "url": "https://phys.org/news/2026-07-death-toll-china-storms-hundreds.html",
+      "summary": "The death toll from devastating storms in parts of China rose to 15 on Tuesday, with hundreds more injured and tens of thousands evacuated, state media reported, as President Xi Jinping urged \"all-out\" rescue efforts.",
+      "ts": 1783411986000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Making scents of cannabis: How cannabis cultivar and preparation methods influence aroma",
+      "url": "https://phys.org/news/2026-07-scents-cannabis-cultivar-methods-aroma.html",
+      "summary": "Ongoing research reveals how the aroma of cannabis is influenced not only by the chosen cultivar, but also by different drying and storage methods. Through a combination of high-resolution chromatography and human-percep…",
+      "ts": 1783409402000
+    },
     {
       "source": "Phys.org",
       "title": "New biobased polymers exhibit excellent tensile properties beyond polyolefins",
@@ -686,20 +700,6 @@
       "title": "Beam-Level Nonlinear Compton Spectra via a Neural Network Surrogate Model",
       "url": "https://arxiv.org/abs/2607.03895",
       "summary": "arXiv:2607.03895v1 Announce Type: new Abstract: Nonlinear Compton scattering enables sources of intense high-energy radiation. However, predicting source-level spectra for realistic electron beams typically requires comp…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Runaway electron induced explosions of graphite; modeling versus controlled DIII-D experiments",
-      "url": "https://arxiv.org/abs/2607.03914",
-      "summary": "arXiv:2607.03914v1 Announce Type: new Abstract: The state-of-the-art concerning the modeling of the thermomechanical response of graphite to runaway electron (RE) impact is based on one-way coupled linear thermoelasticit…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beam monitoring for radiotherapy from conventional to FLASH dose rates using Low Gain Avalanche Silicon detectors",
-      "url": "https://arxiv.org/abs/2607.03940",
-      "summary": "arXiv:2607.03940v1 Announce Type: new Abstract: We report the performance of low gain avalanche Silicon detectors (LGADs) for instantaneous electron and proton beam monitoring across dose rates ranging from conventional …",
       "ts": 1783396800000
     }
   ],

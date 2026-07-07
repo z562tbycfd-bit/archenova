@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-07T04:54:14.320Z",
+  "updated": "2026-07-07T08:25:02.354Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Isar Aerospace signs agreement for Canadian launch site",
+      "url": "https://spacenews.com/isar-aerospace-signs-agreement-for-canadian-launch-site/",
+      "summary": "Isar Aerospace has signed a contract to develop a Canadian launch site for its Spectrum rocket, an agreement linked to a deal to sell submarines to the Canadian military. The post Isar Aerospace signs agreement for Canad…",
+      "ts": 1783411200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
+      "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
+      "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmen…",
+      "ts": 1783404026000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Safety and Security of Radioactive Sources: Commitment in Action",
+      "url": "http://www.iaea.org/newscenter/news/safety-and-security-of-radioactive-sources-commitment-in-action",
+      "summary": "",
+      "ts": 1783402200000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "The World Cup From 250 Miles Up",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-world-cup-from-250-miles-up/",
+      "summary": "Over the years, astronauts aboard the International Space Station have photographed several of the cities hosting the 2026 FIFA World Cup.",
+      "ts": 1783396800000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Seed-applied biocontrol: towards a new generation of protective strategies",
@@ -689,38 +721,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager a…",
       "ts": 1783342800000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The term ‘dual-use’ is misleading and dangerous",
-      "url": "https://spacenews.com/the-term-dual-use-is-misleading-and-dangerous/",
-      "summary": "There is only technology. How it is employed is a question of intent, context and political will, not of the technology itself. A precision optical payload captures imagery whether the […] The post The term ‘dual-use’ is…",
-      "ts": 1783342800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "BAE microchip designed for strategic defense missions passes radiation test",
-      "url": "https://spacenews.com/bae-microchip-designed-for-strategic-defense-missions-passes-radiation-test/",
-      "summary": "The company is positioning its Endura computing for classified and missile-defense satellite programs The post BAE microchip designed for strategic defense missions passes radiation test appeared first on SpaceNews.",
-      "ts": 1783342800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Novartis acquisition, Republicans backing clinical trial diversity, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss",
-      "summary": "Novartis is pushing deeper into antibody-drug conjugate development, paying $1.1 billion upfront to buy Myricx Bio",
-      "ts": 1783342579000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "The race for an Ebola therapy begins",
-      "url": "https://www.statnews.com/2026/07/06/health-news-race-for-an-ebola-therapy-begins/?utm_campaign=rss",
-      "summary": "Male marathoners \"hit the wall,\" mental health in 2026, and more Morning Rounds news",
-      "ts": 1783339728000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
