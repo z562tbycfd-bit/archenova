@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-07T19:58:54.222Z",
+  "updated": "2026-07-07T21:37:41.055Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Isotope probing shows soil is packed with dormant viruses lying in wait",
+      "url": "https://phys.org/news/2026-07-isotope-probing-soil-dormant-viruses.html",
+      "summary": "A single gram of soil contains between 10 million and 1 billion viruses. Most of those viruses do not infect plants, animals or people, but they do target bacteria and other microbes. Because of their influence on microb…",
+      "ts": 1783459207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "More than half of Atlanta's restrooms inaccessible to the public, study finds",
+      "url": "https://phys.org/news/2026-07-atlanta-restrooms-inaccessible.html",
+      "summary": "More than half of publicly accessible restrooms in key areas of Atlanta are unavailable to the public, according to a new study by researchers at the Georgia State University School of Public Health. The consequences of …",
+      "ts": 1783458004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Teenagers understand social media algorithms but want more control, study finds",
+      "url": "https://phys.org/news/2026-07-teenagers-social-media-algorithms.html",
+      "summary": "Teenagers want a greater voice in the design and governance of platforms such as TikTok, Instagram and YouTube, according to new research led by University College Dublin. Rather than passive victims of social media algo…",
+      "ts": 1783456803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Magnetic octupole model captures domain-wall motion in noncollinear antiferromagnets",
+      "url": "https://phys.org/news/2026-07-magnetic-octupole-captures-domain-wall.html",
+      "summary": "Researchers from The Grainger College of Engineering at the University of Illinois Urbana-Champaign have developed the first magnetic multipole-based micromagnetic model for antiferromagnets. Published in Applied Physics…",
+      "ts": 1783455609000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bees 'facial expressions' may be a sign of their inner lives",
+      "url": "https://phys.org/news/2026-07-bees-facial.html",
+      "summary": "It's easy for us to tell if someone is enjoying their meal or not. They lick their lips if they like it, grimace if they don't.",
+      "ts": 1783455607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deep learning reveals nanoparticle shape from routine tracking analysis without new hardware",
+      "url": "https://phys.org/news/2026-07-deep-reveals-nanoparticle-routine-tracking.html",
+      "summary": "Researchers at the University of Tokyo and the Innovation Center of NanoMedicine (iCONM) have developed an artificial intelligence (AI) approach that identifies the morphology of nanoparticles in liquid using data from s…",
+      "ts": 1783455606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Upfront investment in native plants can pay dividends against buckthorn",
+      "url": "https://phys.org/news/2026-07-upfront-investment-native-pay-dividends.html",
+      "summary": "New University of Minnesota research offers land managers a practical strategy for keeping invasive buckthorn from returning: remove the shrub and sow native grasses and wildflowers as early as possible.",
+      "ts": 1783454403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI framework could speed battery, combustion and materials research by automating simulations",
+      "url": "https://phys.org/news/2026-07-ai-framework-battery-combustion-materials.html",
+      "summary": "Computers have made it easier than ever before to design the perfect material for a given problem: Scientists can create a virtual version and simulate how that material will behave. Building these atomically precise sim…",
+      "ts": 1783454401000
+    },
     {
       "source": "Phys.org",
       "title": "Steering light in a flash: New chip redirects light beams in less than a trillionth of a second",
@@ -507,200 +563,144 @@
       "ts": 1783418401000
     },
     {
-      "source": "APS PRX",
-      "title": "Universal Fault-Tolerant Quantum Computation in 2D without Getting Tied in Knots",
-      "url": "http://link.aps.org/doi/10.1103/vrty-qs5h",
-      "summary": "Author(s): Margarita Davydova, Andreas Bauer, Julio C. Magdalena de la Fuente, Mark Webster, Dominic J. Williamson, and Benjamin J. Brown Researchers have designed a way to perform complex logic gates in two-dimensional …",
+      "source": "APS Physical Review Letters",
+      "title": "Nonparametric Learning Non-Gaussian Quantum States of Continuous Variable Systems",
+      "url": "http://link.aps.org/doi/10.1103/xdcg-6df5",
+      "summary": "Author(s): Liubov Markovich, Xiaoyu Liu, and Jordi Tura Continuous-variable quantum systems are foundational to quantum computation, communication, and sensing. While traditional representations using wave functions or d…",
       "ts": 1783418400000
     },
     {
-      "source": "APS PR Applied",
-      "title": "Realization of rainbow large-area acoustic topological corner states",
-      "url": "http://link.aps.org/doi/10.1103/hqb3-pb78",
-      "summary": "Author(s): Xueyun Wen, Yafeng Chen, Zhihao Lan, Zhongming Gu, and Jie Zhu Acoustic higher-order topological insulators (AHTIs) hosting topological corner states provide a promising way for the robust localization of acou…",
+      "source": "APS Physical Review Letters",
+      "title": "Spontaneous Quantum Turbulence in a Newborn Bose-Einstein Condensate via the Kibble-Zurek Mechanism",
+      "url": "http://link.aps.org/doi/10.1103/b16v-hwp2",
+      "summary": "Author(s): Seong-Ho Shinn, Matteo Massaro, Mithun Thudiyangal, and Adolfo del Campo The Kibble-Zurek mechanism (KZM) predicts the spontaneous formation of topological defects in a continuous phase transition driven at a …",
       "ts": 1783418400000
     },
     {
-      "source": "APS PR Applied",
-      "title": "Convenient self-calibrating full-Stokes imaging polarimeter and its application to particle synthesis in reactive plasmas",
-      "url": "http://link.aps.org/doi/10.1103/5bl4-cdsv",
-      "summary": "Author(s): Alexander Schmitz, Andreas Petersen, and Franko Greiner Imaging polarimetry is becoming an increasingly significant tool, from remote sensing to material characterization. In reactive plasmas, polarimetry is a…",
+      "source": "APS Physical Review Letters",
+      "title": "Emergence of Universality in Transport of Noisy Free Fermions",
+      "url": "http://link.aps.org/doi/10.1103/v8x8-ft81",
+      "summary": "Author(s): João Costa, Pedro Ribeiro, and Andrea De Luca We analyze the effects of various forms of noise on one-dimensional systems of noninteracting fermions. In the strong noise limit, we demonstrate, under mild assum…",
       "ts": 1783418400000
     },
     {
-      "source": "APS PR Applied",
-      "title": "Perfect-entangler spectrum as a tool to analyze crosstalk",
-      "url": "http://link.aps.org/doi/10.1103/8nj6-qnzf",
-      "summary": "Author(s): Matthias G. Krauss and Christiane P. Koch Crosstalk is a key obstacle to scaling up quantum computers. It may arise from persistent qubit-qubit couplings or dynamically during gate operation, with the latter b…",
+      "source": "APS Physical Review Letters",
+      "title": "Entanglement Growth from Entangled States: A Unified Perspective on Entanglement Generation and Transport",
+      "url": "http://link.aps.org/doi/10.1103/xkh7-gdqm",
+      "summary": "Author(s): Chun-Yue Zhang, Zi-Xiang Li, and Shi-Xin Zhang Studies of entanglement dynamics in quantum many-body systems have focused largely on initial product states. Here, we investigate the far richer dynamics from in…",
       "ts": 1783418400000
     },
     {
-      "source": "APS PR Applied",
-      "title": "Zero-added-loss entanglement multiplexing using time-bin spectral shearing",
-      "url": "http://link.aps.org/doi/10.1103/c8ss-8vyh",
-      "summary": "Author(s): Joseph C. Chapman, Muneer Alshowkan, Jack Postlewaite, Saikat Guha, and Nageswara Rao High-quality quantum communications that enable important capabilities, such as distributed quantum computing and sensing, …",
+      "source": "APS Physical Review Letters",
+      "title": "Skeleton of Isometric Tensor Network States for Abelian String-Net Models",
+      "url": "http://link.aps.org/doi/10.1103/d3fz-5755",
+      "summary": "Author(s): Julian Boesl, Yu-Jie Liu, Frank Pollmann, and Michael Knap We construct parametrized isometric tensor network states—referred to as “skeletons”—that allow us to explore phases of Abelian topological order and …",
       "ts": 1783418400000
     },
     {
-      "source": "Phys.org",
-      "title": "Scientists just measured the smallest possible contacts for future computer chips",
-      "url": "https://phys.org/news/2026-07-scientists-smallest-contacts-future-chips.html",
-      "summary": "The rise of AI has created an almost insatiable appetite for computing power. Training and running AI systems requires vast numbers of transistors, and engineers are now racing to pack more of them onto every chip. With …",
-      "ts": 1783417202000
+      "source": "APS Physical Review Letters",
+      "title": "High-Temperature Fermionic Gibbs States are Mixtures of Gaussian States",
+      "url": "http://link.aps.org/doi/10.1103/qprk-k7wn",
+      "summary": "Author(s): Akshar Ramkumar, Yiyi Cai, Yu Tong, and Jiaqing Jiang Efficient simulation of a quantum system generally relies on structural properties of the quantum state. Motivated by the recent results by Bakshi et al. o…",
+      "ts": 1783418400000
     },
     {
-      "source": "Phys.org",
-      "title": "Bacteria discovered with the ability to jettison cells as a survival mechanism",
-      "url": "https://phys.org/news/2026-07-bacteria-ability-jettison-cells-survival.html",
-      "summary": "Popular science fiction is no stranger to escape-pod scenarios, typically featuring characters who narrowly avoid their demise by jettisoning from a spaceship—think R2-D2 and C-3PO shooting away from a rebel spaceship in…",
-      "ts": 1783414814000
+      "source": "APS Physical Review Letters",
+      "title": "Noise-Resilient Heisenberg-Limited Quantum Sensing via Indefinite-Causal-Order Error Correction",
+      "url": "http://link.aps.org/doi/10.1103/9mjc-nhxx",
+      "summary": "Author(s): Hang Xu, Xiaoyang Deng, Ze Zheng, Tailong Xiao, and Guihua Zeng Quantum resources can, in principle, enable Heisenberg-limited sensing, yet no-go theorems imply that Heisenberg-limited scaling is generically u…",
+      "ts": 1783418400000
     },
     {
-      "source": "Phys.org",
-      "title": "How proximity steals energy from nanoresonators",
-      "url": "https://phys.org/news/2026-07-proximity-energy-nanoresonators.html",
-      "summary": "Nanomechanical resonators are miniature vibrating structures on chips that oscillate at frequencies ranging from a few kilohertz to gigahertz. They are used as ultrasensitive detectors of mass and force, temperature and …",
-      "ts": 1783414809000
+      "source": "APS Physical Review Letters",
+      "title": "Environment-Assisted Generation of Non-Gaussian Wave-Packet Quantum States",
+      "url": "http://link.aps.org/doi/10.1103/dtd2-4vpn",
+      "summary": "Author(s): Maryam Khanahmadi and Klaus Mølmer Generating non-Gaussian states and converting them into traveling wave packets is crucial yet challenging for scalable, fault-tolerant quantum computing. We present a hardwar…",
+      "ts": 1783418400000
     },
     {
-      "source": "Phys.org",
-      "title": "Raptorial insect forelegs evolved repeatedly but never converged on one winning design",
-      "url": "https://phys.org/news/2026-07-raptorial-insect-forelegs-evolved-converged.html",
-      "summary": "The evolutionary paths that created snatching forelimbs in insects multiple times moved in a similar direction but didn't end at a single solution. Kobe University research is pioneering a study of how organs with simila…",
-      "ts": 1783414804000
+      "source": "APS Physical Review Letters",
+      "title": "Temporally Multimode Ion-Ion Entanglement over 1.2 Kilometer Fibers",
+      "url": "http://link.aps.org/doi/10.1103/9h14-sc8t",
+      "summary": "Author(s): Z.-B. Cui, Z.-Q. Wang, P.-Y. Liu, Y. Wang, P.-C. Lai, J.-X. Shi, Y.-D. Sun, Z.-C. Tian, H.-S. Sun, Y.-B. Liang, B.-X. Qi, Y.-Y. Huang, Z.-C. Zhou, Y.-K. Wu, Y. Xu, Y.-F. Pu, and L.-M. Duan Quantum networks and…",
+      "ts": 1783418400000
     },
     {
-      "source": "Phys.org",
-      "title": "Ancient rocks reveal how water reshaped Earth's interior 3.1 billion years ago",
-      "url": "https://phys.org/news/2026-07-ancient-reveal-reshaped-earth-interior.html",
-      "summary": "Geologists studying some of the planet's oldest volcanic rocks have uncovered new evidence that water was playing a major role in shaping Earth's interior and driving volcanic activity more than 3 billion years ago.",
-      "ts": 1783414801000
+      "source": "APS Physical Review Letters",
+      "title": "When Vacuum Breaks: A Self-Consistency Test for Astrophysical Environments in Extreme Mass Ratio Inspirals",
+      "url": "http://link.aps.org/doi/10.1103/pqcz-cvsv",
+      "summary": "Author(s): Lorenzo Copparoni, Rohit S. Chandramouli, and Enrico Barausse Gravitational-wave signals are typically interpreted under the vacuum hypothesis, i.e., assuming negligible influence from the astrophysical enviro…",
+      "ts": 1783418400000
     },
     {
-      "source": "Phys.org",
-      "title": "Death toll from China storms rises to 15, hundreds injured",
-      "url": "https://phys.org/news/2026-07-death-toll-china-storms-hundreds.html",
-      "summary": "The death toll from devastating storms in parts of China rose to 15 on Tuesday, with hundreds more injured and tens of thousands evacuated, state media reported, as President Xi Jinping urged \"all-out\" rescue efforts.",
-      "ts": 1783411986000
+      "source": "APS Physical Review Letters",
+      "title": "Maximum Entropy Conjecture for Black Hole Mergers",
+      "url": "http://link.aps.org/doi/10.1103/hvp6-ydbq",
+      "summary": "Author(s): Monica Rincon-Ramirez, Nathan K. Johnson-McDaniel, Eugenio Bianchi, Ish Gupta, Vaishak Prasad, and B. S. Sathyaprakash The remnant properties of black hole mergers may be governed by a maximum entropy bound su…",
+      "ts": 1783418400000
     },
     {
-      "source": "Phys.org",
-      "title": "Making scents of cannabis: How cannabis cultivar and preparation methods influence aroma",
-      "url": "https://phys.org/news/2026-07-scents-cannabis-cultivar-methods-aroma.html",
-      "summary": "Ongoing research reveals how the aroma of cannabis is influenced not only by the chosen cultivar, but also by different drying and storage methods. Through a combination of high-resolution chromatography and human-percep…",
-      "ts": 1783409402000
+      "source": "APS Physical Review Letters",
+      "title": "Aligned Hierarchical Black Hole Mergers in Active-Galactic-Nuclei Disks Revealed by GWTC-4",
+      "url": "http://link.aps.org/doi/10.1103/qyfv-wkv1",
+      "summary": "Author(s): Yin-Jie Li, Yuan-Zhu Wang, Shao-Peng Tang, and Yi-Zhong Fan The active galactic nucleus (AGN) accretion disks are ideal sites for hierarchical black hole (BH) mergers. To robustly probe such a possibility, we …",
+      "ts": 1783418400000
     },
     {
-      "source": "Phys.org",
-      "title": "New biobased polymers exhibit excellent tensile properties beyond polyolefins",
-      "url": "https://phys.org/news/2026-07-biobased-polymers-excellent-tensile-properties.html",
-      "summary": "The research group of Professor Kotohiro Nomura, Tokyo Metropolitan University, in cooperation with the research groups of Senior Researcher Hiroshi Hirano and Director Seiji Higashi of the Osaka Research Institute of In…",
-      "ts": 1783396802000
+      "source": "APS Physical Review Letters",
+      "title": "Worldsheet for Generalized Veneziano Amplitudes",
+      "url": "http://link.aps.org/doi/10.1103/bplf-h1vx",
+      "summary": "Author(s): Shota Komatsu and Pronobesh Maity We present a worldsheet action that reproduces a class of dual resonance amplitudes discussed in the literature, which generalize the Veneziano amplitude for open strings. Our…",
+      "ts": 1783418400000
     },
     {
-      "source": "arXiv Physics",
-      "title": "Precessing magnetic particles as ac magnetic field sensors",
-      "url": "https://arxiv.org/abs/2607.02532",
-      "summary": "arXiv:2607.02532v1 Announce Type: new Abstract: Electromagnetic waves are widely used including in defense, biomedicine, and fundamental science. Their efficient detection determines how we communicate, defend against ad…",
-      "ts": 1783396800000
+      "source": "APS Physical Review Letters",
+      "title": "Black Hole States in Quantum Spin Chains",
+      "url": "http://link.aps.org/doi/10.1103/5myp-jksn",
+      "summary": "Author(s): Charlotte Kristjansen and Konstantin Zarembo We define a black hole state in a spin chain by studying thermal correlators in holography. Focusing on the Heisenberg model we investigate the thermal and complexi…",
+      "ts": 1783418400000
     },
     {
-      "source": "arXiv Physics",
-      "title": "Tunable Light Scattering in Cast Organic Scintillators via BaSO$_4$ Nanoparticle Doping: A Short Summary",
-      "url": "https://arxiv.org/abs/2607.02538",
-      "summary": "arXiv:2607.02538v1 Announce Type: new Abstract: We summarize the fabrication and optical characterization of small-format (2 x 2 x 2 cm$^3$) cast organic scintillators based on Eljen EJ-290 resin, doped with barium sulfa…",
-      "ts": 1783396800000
+      "source": "APS Physical Review Letters",
+      "title": "How Lorentz Boosts Reshape Relaxation Spectra",
+      "url": "http://link.aps.org/doi/10.1103/d2xr-rj7g",
+      "summary": "Author(s): L. Gavassino In relativity, relaxation processes are often assumed to undergo time dilation under Lorentz boosts. We show that this intuition fails generically. Because of relativity of simultaneity, Lorentz b…",
+      "ts": 1783418400000
     },
     {
-      "source": "arXiv Physics",
-      "title": "Direct Time-of-Flight Measurement Accuracy Improvement With Perimeter-Gated SPADs",
-      "url": "https://arxiv.org/abs/2607.02546",
-      "summary": "arXiv:2607.02546v1 Announce Type: new Abstract: Direct time of flight (dToF) measurements are susceptible to errors because of system-level and circuit-level timing jitters. In addition, device-level uncertainty stemming…",
-      "ts": 1783396800000
+      "source": "APS Physical Review Letters",
+      "title": "Symmetry-Controlled Thermal Activation in Pyramidal Coulomb Clusters: Testing Kramers-Langer Theory",
+      "url": "http://link.aps.org/doi/10.1103/xsdn-srjd",
+      "summary": "Author(s): Akhil Ayyadevara, Anand Prakash, Shovan Dutta, Arun Paramekanti, and S. A. Rangwala Laser-cooled ions confined in electromagnetic traps provide a unique, tunable mesoscopic system where the interplay of the tr…",
+      "ts": 1783418400000
     },
     {
-      "source": "arXiv Physics",
-      "title": "CUORE Data Release for ML Applications: Pulse Shape Analysis Dataset",
-      "url": "https://arxiv.org/abs/2607.02548",
-      "summary": "arXiv:2607.02548v1 Announce Type: new Abstract: We present a public dataset from the CUORE (Cryogenic Underground Observatory for Rare Events) experiment, designed to support the development and benchmarking of Artificia…",
-      "ts": 1783396800000
+      "source": "APS Physical Review Letters",
+      "title": "Metacavity Quantum Electrodynamics",
+      "url": "http://link.aps.org/doi/10.1103/j8gx-58hf",
+      "summary": "Author(s): Xueshi Li (李学诗), Ziwei Wang (王子维), Yan Chen (陈岩), Dong Liu ((刘栋), Kaili Xiong (熊凯莉), Guangfeng Wang (王光丰), Jiantao Ma (马剑涛), Ying Yu (喻颖), Jiawei Wang (王嘉威), Zhanling Wang (王占领), Xiao Li (李霄), Xianfeng Chen (陈…",
+      "ts": 1783418400000
     },
     {
-      "source": "arXiv Physics",
-      "title": "Medical Physics and Biomedical Engineering Education, Training and Professional Development",
-      "url": "https://arxiv.org/abs/2607.02550",
-      "summary": "arXiv:2607.02550v1 Announce Type: new Abstract: Supporting and nurturing early career members is a vital component of succession planning for any profession or associations. Ensuring the thoughts and needs of newly-joine…",
-      "ts": 1783396800000
+      "source": "APS Physical Review Letters",
+      "title": "Realization of Floquet-Engineered Topological Complex-Energy Band Braids in Single-Photon Interferometry",
+      "url": "http://link.aps.org/doi/10.1103/7wtv-p9l5",
+      "summary": "Author(s): Rui Tian, Yuanbang Wei, Yue Zhang, Hongyan Shi, Qihang Ying, Tianhao Wu, Shuai Li, Hong Gao, Fuli Li, Maksims Arzamasovs, and Bo Liu Floquet engineering, customizing a system using periodic driving, offers a p…",
+      "ts": 1783418400000
     },
     {
-      "source": "arXiv Physics",
-      "title": "What if active and passive gravitational masses were not equal?",
-      "url": "https://arxiv.org/abs/2607.02614",
-      "summary": "arXiv:2607.02614v1 Announce Type: new Abstract: At first glance, combining Newton's laws of motion with his law of gravitation seems straightforward. Students learn to distinguish inertial from gravitational mass and tha…",
-      "ts": 1783396800000
+      "source": "APS Physical Review Letters",
+      "title": "Microwave Vortex Beam Lasing via Photonic Time Crystals",
+      "url": "http://link.aps.org/doi/10.1103/6gn2-2v9b",
+      "summary": "Author(s): Lei Huang, Weixuan Zhang, Deyuan Zou, Jiacheng Bao, Fengxiao Di, Haoyu Qin, Long Qian, Houjun Sun, and Xiangdong Zhang Microwave lasing carrying orbital angular momentum (OAM) holds significant potential for a…",
+      "ts": 1783418400000
     },
     {
-      "source": "arXiv Physics",
-      "title": "Viscosity of cooking oil: From kitchen to classroom",
-      "url": "https://arxiv.org/abs/2607.02625",
-      "summary": "arXiv:2607.02625v1 Announce Type: new Abstract: This paper presents a fun and relatable classroom experiment to measure the viscosity of cooking oil using household tools and ingredients like kitchen scales, mugs, and dr…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "RF Helicon Plasma Thruster for an Atmosphere-Breathing Electric Propulsion System (ABEP)",
-      "url": "https://arxiv.org/abs/2607.02635",
-      "summary": "arXiv:2607.02635v1 Announce Type: new Abstract: This dissertation focuses on Atmosphere-Breathing Electric Propulsion (ABEP) for propellant-less continuous orbiting in very low Earth orbits (VLEO) and very low Mars orbit…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast Third-Harmonic Spectral Modulation and Self-Action in Resonant Nonlocal Metasurfaces",
-      "url": "https://arxiv.org/abs/2607.02690",
-      "summary": "arXiv:2607.02690v1 Announce Type: new Abstract: Quasi-bound states in the continuum enable exceptional field confinement, strongly reducing the pump intensity threshold for nonlinear light-matter interaction in dielectri…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolution and Impact of Switchbacks Throughout the Heliosphere",
-      "url": "https://arxiv.org/abs/2607.02709",
-      "summary": "arXiv:2607.02709v1 Announce Type: new Abstract: Magnetic switchbacks are large-amplitude fluctuations in the interplanetary magnetic field, and appear frequently in the near-Sun solar wind explored recently by Parker Sol…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electric Field Propagation with Spinal Cord Stimulation",
-      "url": "https://arxiv.org/abs/2607.02710",
-      "summary": "arXiv:2607.02710v1 Announce Type: new Abstract: Spinal cord stimulation is routinely used for the treatment of chronic pain, and is increasingly being investigated for the restoration of movement after paralysis. However…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Helium Ground State Treated in Classical Physics with Classical Zero-Point Radiation",
-      "url": "https://arxiv.org/abs/2607.02727",
-      "summary": "arXiv:2607.02727v1 Announce Type: new Abstract: The ground state of the helium atom is considered within classical electrodynamics which includes classical electromagnetic zero-point radiation. Approximate energy balance…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Semi-analytical model for the rising sheet generated by droplet-pair impact",
-      "url": "https://arxiv.org/abs/2607.02730",
-      "summary": "arXiv:2607.02730v1 Announce Type: new Abstract: When two low-Ohnesorge-number drops impact a dry substrate simultaneously, their spreading lamellae collide and lift a free-standing vertical sheet. The sheet grows by iner…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast All-Optical Polarization Control via Symmetry Breaking in an Au Nanorod Dimer Metamaterial",
-      "url": "https://arxiv.org/abs/2607.02733",
-      "summary": "arXiv:2607.02733v1 Announce Type: new Abstract: The continuous evolution of ultrafast optical technologies requires advanced solutions for the dynamic and selective manipulation of light's degrees of freedom. While metam…",
-      "ts": 1783396800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A self-adaptive tube restraint for free-energy calculations along path collective variables",
-      "url": "https://arxiv.org/abs/2607.02735",
-      "summary": "arXiv:2607.02735v1 Announce Type: new Abstract: Path collective variables (PCVs) reduce a high-dimensional transition to a progress coordinate, s, and an orthogonal distance, z. Computing the free energy along s often re…",
-      "ts": 1783396800000
+      "source": "APS Physical Review Letters",
+      "title": "Spectrally Uniform Continuous-Variable Quantum Microcombs",
+      "url": "http://link.aps.org/doi/10.1103/vjtv-2prg",
+      "summary": "Author(s): Kangkang Li, Yue Wang, Ze Wang, Xin Zhou, Jincheng Li, Yinke Cheng, Binyan Wu, Qihuang Gong, Bei-Bei Li, and Qi-Fan Yang Continuous-variable (CV) quantum microcombs generated in high-$Q$ microresonators provid…",
+      "ts": 1783418400000
     }
   ],
   "sources": [

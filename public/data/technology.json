@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-07T19:58:57.018Z",
+  "updated": "2026-07-07T21:37:43.283Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Vertex Eyes Expansion Beyond Cystic Fibrosis with Planned $10B Crinetics Buyout",
+      "url": "https://www.genengnews.com/topics/translational-medicine/vertex-eyes-expansion-beyond-cystic-fibrosis-with-planned-10b-crinetics-buyout/",
+      "summary": "Based in San Diego, Crinetics focuses on discovering, developing, and commercializing therapeutics for endocrine diseases. The company’s first marketed drug Palsonify® (paltusotine), an oral SST2 agonist, was approved by…",
+      "ts": 1783456906000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "AI Reveals Hidden Brain Lesions in Multiple Sclerosis MRI",
@@ -385,14 +393,6 @@
       "summary": "",
       "ts": 1783402200000,
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "The World Cup From 250 Miles Up",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-world-cup-from-250-miles-up/",
-      "summary": "Over the years, astronauts aboard the International Space Station have photographed several of the cities hosting the 2026 FIFA World Cup.",
-      "ts": 1783396800000,
-      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
