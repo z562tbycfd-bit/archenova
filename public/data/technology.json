@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-07-07T17:18:40.866Z",
+  "updated": "2026-07-07T19:58:57.018Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI Reveals Hidden Brain Lesions in Multiple Sclerosis MRI",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/ai-reveals-hidden-brain-lesions-in-multiple-sclerosis-mri/",
+      "summary": "Researchers combined AI with multiple image processing methods to reliably measure on existing multiple sclerosis MRI scans cortical lesions strongly implicated in disability and cognitive, which would previously have re…",
+      "ts": 1783450467000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Spirit Electronics Announces Managed Access to U.S.-Based Advanced Semiconductor Manufacturing for Aerospace and Defense Programs",
+      "url": "https://spacenews.com/spirit-electronics-announces-managed-access-to-u-s-based-advanced-semiconductor-manufacturing-for-aerospace-and-defense-programs/",
+      "summary": "PHOENIX, AZ — June 09, 2026 — Spirit Electronics today announced a new managed-access offering that provides aerospace and defense customers with a secure pathway to advanced, U.S.-based semiconductor manufacturing in [……",
+      "ts": 1783450000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Apolink makes contact with first relay satellite",
+      "url": "https://spacenews.com/apolink-makes-contact-with-first-relay-satellite/",
+      "summary": "Apolink has made contact with its first satellite after launching on SpaceX’s July 7 rideshare mission, clearing the way for a data relay demonstration using a novel experimental license from the Federal Communications C…",
+      "ts": 1783447901000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Quest for Large-Scale DNA",
+      "url": "https://www.genengnews.com/topics/genome-editing/the-quest-for-large-scale-dna/",
+      "summary": "As genome editing therapies move through clinical trials to regulatory approval, scientists continue the quest for the holy grail of large-scale DNA editing.. The post The Quest for Large-Scale DNA appeared first on GEN …",
+      "ts": 1783447822000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Biotech and Biomed Engineering Grad and Certificate Programs to Debut at Auburn",
+      "url": "https://www.genengnews.com/topics/bioprocessing/biotech-and-biomed-engineering-grad-and-certificate-programs-to-debut-at-auburn/",
+      "summary": "Biomedical engineering focuses on developing technologies and systems that improve how diseases and injuries are understood, diagnosed, monitored, and treated. The post Biotech and Biomed Engineering Grad and Certificate…",
+      "ts": 1783447224000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Transfers ‘Hundred Acre Wood’ to Patuxent Research Refuge",
+      "url": "https://www.nasa.gov/centers-and-facilities/goddard/nasa-transfers-hundred-acre-wood-to-patuxent-research-refuge/",
+      "summary": "NASA ceremonially transferred ownership of about 105 acres of wooded land at its Goddard Space Flight Center’s Greenbelt, Maryland, campus Tuesday to the adjoining Patuxent Research Refuge, managed by the U.S. Fish and W…",
+      "ts": 1783447200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Arianespace opens door to GEO rideshare opportunities from 2029",
+      "url": "https://spacenews.com/arianespace-opens-door-to-geo-rideshare-opportunities-from-2029/",
+      "summary": "MILAN — Arianespace has signed a Memorandum of Understanding with French in-orbit servicing company Infinite Orbits to explore future collaboration on multiple direct-to-GEO rideshare launch services, the companies annou…",
+      "ts": 1783446750000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s New Horizons Spacecraft Wakes from Hibernation in Good Health",
+      "url": "https://science.nasa.gov/missions/new-horizons/nasas-new-horizons-spacecraft-wakes-from-hibernation-in-good-health/",
+      "summary": "Following its longest hibernation period ever of nearly a year, NASA’s New Horizons spacecraft has emerged in good health and is ready to begin transmitting science data gathered in the distant Kuiper Belt far beyond Plu…",
+      "ts": 1783446529000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA approves Vera Therapeutics kidney disease treatment",
@@ -92,6 +156,14 @@
     },
     {
       "source": "Genetic Engineering News",
+      "title": "A New Approach to Supporting Quality of Biologics",
+      "url": "https://www.genengnews.com/topics/bioprocessing/a-new-approach-to-supporting-quality-of-biologics/",
+      "summary": "The United States Pharmacopeia (USP) is proposing a new approach for its work to support the quality and availability of selected biologic medicines. Building on decades of experience in setting public standards […] The …",
+      "ts": 1783434332000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
       "title": "A New Development Playbook for PROTACs",
       "url": "https://www.genengnews.com/topics/drug-discovery/a-new-development-playbook-for-protacs/",
       "summary": "In this Thought Leader article from our July issue, Shanghao Li, PhD, explores why translation will define the next wave of success. The post A New Development Playbook for PROTACs appeared first on GEN - Genetic Enginee…",
@@ -153,6 +225,30 @@
       "summary": "Scientists from the Cedars-Sinai Board of Governors Regenerative Medicine Institute, including investigators from the Cedars-Sinai Biomanufacturing Center, say they will share groundbreaking discoveries and discuss new f…",
       "ts": 1783425622000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Peace hinges on people-centred policing, global summit hears",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167887",
+      "summary": "Policing is the cornerstone of peace, said top UN officials ahead of the fifth UN Chiefs of Police Summit, which begins on Tuesday.",
+      "ts": 1783425600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "When AI hurts people, who’s to blame? Global experts grapple with accountability",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167886",
+      "summary": "Who is legally responsible when Artificial Intelligence causes harm? The issue took centre stage on Tuesday – day two of the first ever UN summit on AI governance, where leading experts warned of mounting evidence of hum…",
+      "ts": 1783425600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Young people value partnership and parenthood but barriers block their dreams",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167885",
+      "summary": "Fertility rates are falling worldwide not because young people are rejecting marriage, children or family life but because many are facing economic and housing constraints.",
+      "ts": 1783425600000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -623,102 +719,6 @@
       "title": "On a Geometry of Interbrain Networks",
       "url": "https://arxiv.org/abs/2509.10650",
       "summary": "arXiv:2509.10650v4 Announce Type: replace Abstract: Effective analysis in neuroscience benefits significantly from robust conceptual frameworks. Traditional metrics of interbrain synchrony in social neuroscience typicall…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Distance by de-correlation: Computing distance with heterogeneous grid cells",
-      "url": "https://arxiv.org/abs/2511.08292",
-      "summary": "arXiv:2511.08292v2 Announce Type: replace Abstract: Encoding the distance between locations in space is essential for accurate navigation. Grid cells, a functional class of neurons in medial entorhinal cortex, are believ…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MOSAIC: Codon Harmonization of Monte Carlo-Based Simulated Annealing for Linked Codons in Heterologous Protein Expression",
-      "url": "https://arxiv.org/abs/2511.10708",
-      "summary": "arXiv:2511.10708v5 Announce Type: replace Abstract: Codon usage bias has a crucial impact on the translation efficiency and co-translational folding of proteins, necessitating the algorithmic development of codon optimiz…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Menopause averted a midlife energetic crisis with help from older dependent children and parents: A simulation study",
-      "url": "https://arxiv.org/abs/2601.13442",
-      "summary": "arXiv:2601.13442v2 Announce Type: replace Abstract: OBJECTIVES: The grandmother hypothesis proposes that ancestral women ceased reproduction midlife to instead provision their grandchildren. An alternative two-sex accoun…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Properties of biodiversity indices that incorporate future extinction risk",
-      "url": "https://arxiv.org/abs/2602.16059",
-      "summary": "arXiv:2602.16059v2 Announce Type: replace Abstract: The loss of biodiversity due to the likely widespread extinction of species in the near future is a focus of current concern in conservation biology. One approach to me…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An Active Learning Framework for Data-Efficient, Human-in-the-Loop Enzyme Function Prediction",
-      "url": "https://arxiv.org/abs/2602.23269",
-      "summary": "arXiv:2602.23269v2 Announce Type: replace Abstract: Generalizable protein function prediction is increasingly constrained by the growing mismatch between exponentially expanding sequences of environmental proteins and th…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "In-batch Relational Features Enhance Precision in An Unsupervised Medical Anomaly Detection Task",
-      "url": "https://arxiv.org/abs/2603.05534",
-      "summary": "arXiv:2603.05534v2 Announce Type: replace Abstract: Confounding pathology with normal anatomical variation remains a significant challenge in unsupervised medical-image anomaly detection, resulting in numerous false posi…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Obstruction of Absolute Concentration Robustness by Conservation Laws in Non-Redundant Zero-One Networks",
-      "url": "https://arxiv.org/abs/2604.14592",
-      "summary": "arXiv:2604.14592v4 Announce Type: replace Abstract: Absolute concentration robustness (ACR) characterizes systems where the steady-state concentration of a specific species remains invariant across all positive steady st…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Control Laws in Aging and Longevity: A Control Theory of Aging for Gerotherapeutic Drug Discovery",
-      "url": "https://arxiv.org/abs/2605.16781",
-      "summary": "arXiv:2605.16781v3 Announce Type: replace Abstract: Existing aging theories describe what changes with age but do not prescribe how to intervene. We propose a control-theoretic framework that is not merely descriptive bu…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SPIDER -- Stitched Power-spectra for Inferring Directed information flow from incomplete and asynchronous Experimental Recordings",
-      "url": "https://arxiv.org/abs/2606.22695",
-      "summary": "arXiv:2606.22695v2 Announce Type: replace Abstract: Mapping the directed flow of information between brain regions -- their effective connectivity -- is central to understanding brain function, yet large-scale recordings…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cohort-amortized personalization: navigating the privacy-utility frontier for virtual brain twins",
-      "url": "https://arxiv.org/abs/2606.30329",
-      "summary": "arXiv:2606.30329v2 Announce Type: replace Abstract: Personalized generative brain models require individual neuroimaging data that privacy constraints and re-identification risk make difficult to share, while per-subject…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling Cell-Cycle-Aware Single-Cell Drug Perturbation Responses",
-      "url": "https://arxiv.org/abs/2606.30695",
-      "summary": "arXiv:2606.30695v2 Announce Type: replace Abstract: Single-cell drug perturbation models should capture transcriptional response magnitude and whether a treatment changes the proliferative state of the cell. This is diff…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DrugAgent: Reliable Multi-Agent Integration of Conflicting Biomedical Evidence for Drug-Target Interaction Assessment",
-      "url": "https://arxiv.org/abs/2408.13378",
-      "summary": "arXiv:2408.13378v5 Announce Type: replace-cross Abstract: Workflows in drug-target interaction (DTI) assessment require integrating heterogeneous data from predictive models, curated resources, and observations from expe…",
       "ts": 1783396800000,
       "categoryId": "bio"
     }
