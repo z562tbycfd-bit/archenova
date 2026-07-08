@@ -2,13 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import EpistemeObservation from "../components/episteme/EpistemeObservation";
-import EpistemeUnderstanding from "../components/episteme/EpistemeUnderstanding";
-import EpistemeReasoning from "../components/episteme/EpistemeReasoning";
-import EpistemeDesign from "../components/episteme/EpistemeDesign";
-import EpistemeRealization from "../components/episteme/EpistemeRealization";
-import EpistemeMemory from "../components/episteme/EpistemeMemory";
-import EpistemeCognitiveSystem from "../components/episteme/EpistemeCognitiveSystem";
+
 
 
 type EpistemeStatus = "idle" | "thinking" | "ready";
@@ -143,23 +137,6 @@ export default function EpistemePage() {
           </button>
         </div>
       </section>
-
-
-      <EpistemeCognitiveSystem />
-      
-      <EpistemeObservation />
-      
-      <EpistemeUnderstanding /> 
-
-      <EpistemeReasoning />
-
-      <EpistemeDesign />
-
-      <EpistemeRealization />
-
-      <EpistemeMemory /> 
-
-
 
       <section className="glass-block">
         <span className="home-section-label">APPLICATION</span>

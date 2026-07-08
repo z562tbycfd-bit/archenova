@@ -28212,3 +28212,203 @@ line-height:1.75;
     max-height: 48svh !important;
   }
 }
+
+
+
+
+
+/* ==========================================================
+   Civilization Intelligence — Six Layer Gate
+========================================================== */
+
+.civ-intel-portal-page {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.civ-intel-portal {
+  width: min(920px, 88vw) !important;
+  max-width: 88vw !important;
+  max-height: 88svh !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+  display: grid !important;
+  gap: 1.6rem !important;
+  overflow: hidden !important;
+}
+
+.civ-intel-portal > span {
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+}
+
+.civ-intel-portal h2 {
+  margin: 0;
+  font-size: clamp(2.2rem, 4.8vw, 4.8rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.03em;
+  color: rgba(255,255,255,0.96);
+}
+
+.civ-intel-portal > p {
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.62);
+}
+
+.civ-intel-gate-scroll {
+  width: min(760px, 86vw);
+  max-width: 86vw;
+  margin-inline: auto;
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  padding: 0.45rem 0.45rem 1rem;
+  scrollbar-width: none;
+}
+
+.civ-intel-gate-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.civ-intel-gate-card {
+  position: relative;
+  flex: 0 0 220px;
+  width: 220px;
+  min-width: 220px;
+  min-height: 190px;
+  padding: 1.25rem;
+  border-radius: 28px;
+  scroll-snap-align: center;
+  text-align: left;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 50% 0%, rgba(245,216,162,0.08), transparent 52%),
+    linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.86);
+
+  border: 1px solid rgba(255,255,255,0.09);
+
+  box-shadow:
+    0 28px 90px rgba(0,0,0,0.36),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+.civ-intel-gate-card::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background:
+    conic-gradient(
+      from 180deg,
+      transparent,
+      rgba(120,180,255,0.08),
+      transparent,
+      rgba(245,216,162,0.08),
+      transparent
+    );
+  opacity: 0.32;
+  pointer-events: none;
+}
+
+.civ-intel-gate-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.civ-intel-gate-card span {
+  display: block;
+  font-size: 1.35rem;
+  color: rgba(245,216,162,0.82);
+}
+
+.civ-intel-gate-card strong {
+  display: block;
+  margin-top: 1.7rem;
+  font-size: 1.18rem;
+  line-height: 1.15;
+  font-weight: 310;
+  color: rgba(255,255,255,0.94);
+}
+
+.civ-intel-gate-card p {
+  margin: 0.7rem 0 0;
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: rgba(255,255,255,0.58);
+}
+
+.civ-intel-enter {
+  width: min(620px, 86vw) !important;
+  margin-inline: auto !important;
+}
+
+.civ-intel-enter p {
+  margin: 0 !important;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .civ-intel-portal {
+    width: 88vw !important;
+    max-width: 88vw !important;
+    max-height: 86svh !important;
+    gap: 1.25rem !important;
+  }
+
+  .civ-intel-portal > span {
+    font-size: 0.58rem !important;
+    letter-spacing: 0.28em !important;
+  }
+
+  .civ-intel-portal h2 {
+    font-size: clamp(1.9rem, 8.5vw, 2.8rem) !important;
+    line-height: 1.04 !important;
+  }
+
+  .civ-intel-portal > p {
+    font-size: 0.74rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .civ-intel-gate-scroll {
+    width: 88vw !important;
+    max-width: 88vw !important;
+    padding: 0.35rem 0.35rem 0.95rem !important;
+  }
+
+  .civ-intel-gate-card {
+    flex: 0 0 72vw !important;
+    width: 72vw !important;
+    min-width: 72vw !important;
+    min-height: 185px !important;
+    padding: 1.15rem !important;
+  }
+
+  .civ-intel-gate-card span {
+    font-size: 1.2rem !important;
+  }
+
+  .civ-intel-gate-card strong {
+    margin-top: 1.4rem !important;
+    font-size: 1.12rem !important;
+  }
+
+  .civ-intel-gate-card p {
+    font-size: 0.72rem !important;
+  }
+
+  .civ-intel-enter {
+    width: 88vw !important;
+    max-width: 88vw !important;
+  }
+}
