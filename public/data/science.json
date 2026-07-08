@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-08T08:33:01.107Z",
+  "updated": "2026-07-08T11:07:40.086Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Is the decline of newspapers taking the pressure off of corporate social responsibility programs? Research says 'yes'",
+      "url": "https://phys.org/news/2026-07-decline-newspapers-pressure-corporate-social.html",
+      "summary": "Local newspapers have long played a quiet but powerful role in corporate accountability: They scrutinize company behavior and give public visibility to good corporate citizenship. But as local newspapers continue to disa…",
+      "ts": 1783508402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The oldest deliberately collected fossil ichthyosaur was discovered in Roman Britain around 1,800 years ago",
+      "url": "https://phys.org/news/2026-07-oldest-deliberately-fossil-ichthyosaur-roman.html",
+      "summary": "Around 1,800 years ago, a fossilized spinal bone lay on the windswept beaches of Roman Britain until a curious passerby picked it up and carried it far away, only to drop it in a pit.",
+      "ts": 1783507201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hotter, drier weather could double water bills in some US cities, study finds",
+      "url": "https://phys.org/news/2026-07-hotter-drier-weather-bills-cities.html",
+      "summary": "Hotter, drier weather threatens to double water bills by midcentury in some cities, according to a Stanford-led study. The research, published in Nature Sustainability, is the first to comprehensively model how climate c…",
+      "ts": 1783501209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sensors, early starts: How Spain keeps working when heat hits",
+      "url": "https://phys.org/news/2026-07-sensors-early-spain.html",
+      "summary": "The morning sun beats down on Antonio Reina as he tends a public garden in Barcelona, but he works reassured that a simple wristband protects him in the summer heat.",
+      "ts": 1783501201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cambodia wants to bring tigers back, but should it?",
+      "url": "https://phys.org/news/2026-07-cambodia-tigers.html",
+      "summary": "Pan Sok still remembers his relative screaming as a tiger dragged him away one night, deep inside the Cambodian rainforest where they were tapping trees for resin.",
+      "ts": 1783500001000
+    },
     {
       "source": "Phys.org",
       "title": "What to know about the total solar eclipse due in August",
@@ -665,41 +700,6 @@
       "title": "Reduced NEXI protocol for the quantification of human gray matter microstructure on the Connectome 2.0 scanner",
       "url": "https://arxiv.org/abs/2509.09513",
       "summary": "arXiv:2509.09513v3 Announce Type: replace Abstract: Biophysical diffusion MRI models like Neurite Exchange Imaging (NEXI) are essential for probing gray matter microstructure, estimating compartment diffusivities, neurit…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pressure drop-flow rate nonlinearity in bubble trains through a capillary bundle",
-      "url": "https://arxiv.org/abs/2510.12588",
-      "summary": "arXiv:2510.12588v2 Announce Type: replace Abstract: We investigate the effective rheology of a train of elongated bubbles of negligible viscosity flowing in capillary tubes. Building upon the classical Bretherton theory …",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bidirectional yet asymmetric causality between urban systems and traffic dynamics in 30 cities worldwide",
-      "url": "https://arxiv.org/abs/2510.25155",
-      "summary": "arXiv:2510.25155v2 Announce Type: replace Abstract: Understanding how urban systems and traffic dynamics co-evolve is crucial for advancing sustainable and resilient cities. However, their bidirectional causal relationsh…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A carrier-wave factored one-way Navier--Stokes method for boundary-layer instability modelling",
-      "url": "https://arxiv.org/abs/2511.12605",
-      "summary": "arXiv:2511.12605v2 Announce Type: replace Abstract: We present M-OWNS, a spatial marching method that combines the carrier-wave factoring of the parabolised stability equations (PSE) with a recursive one-way Navier--Stok…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laminar and Turbulent Flow in Wavy Pipes under Strong Wall Modulations",
-      "url": "https://arxiv.org/abs/2511.17458",
-      "summary": "arXiv:2511.17458v3 Announce Type: replace Abstract: We study laminar, transitional and turbulent flow in wavy pipes using direct numerical simulations for bulk Reynolds numbers between 1-5300. Flow behaviors are analyzed…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Seismic amplitude-variation-with-offset inversion using an algebraically equivalent formulation of the exact Zoeppritz equations and a matrix-free adjoint-state framework",
-      "url": "https://arxiv.org/abs/2512.13172",
-      "summary": "arXiv:2512.13172v2 Announce Type: replace Abstract: The amplitude-variation-with-offset inversion techniques are formulated to estimate elastic properties by fitting modeled seismic responses to observed data. Solving in…",
       "ts": 1783483200000
     }
   ],

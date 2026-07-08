@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-08T08:33:04.387Z",
+  "updated": "2026-07-08T11:07:43.536Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "The government’s options to address strained spaceports",
+      "url": "https://spacenews.com/the-governments-options-to-address-strained-spaceports/",
+      "summary": "The May 28 explosion of a Blue Origin New Glenn rocket at Cape Canaveral’s Launch Complex 36 did more than destroy a rocket and severely damage a launch pad. The […] The post The government’s options to address strained …",
+      "ts": 1783508400000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Trump administration pursues more durable changes to science policy after setbacks in court",
@@ -40,6 +48,14 @@
       "url": "https://spacenews.com/space-force-adds-relativity-impulse-space-to-national-security-launch-program/",
       "summary": "The NSSL Phase 3 Lane 1 program opens door to newer companies competing for military missions The post Space Force adds Relativity, Impulse Space to national security launch program appeared first on SpaceNews.",
       "ts": 1783496882000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Cottonwood Fire Chars Utah",
+      "url": "https://science.nasa.gov/earth/earth-observatory/cottonwood-fire-chars-utah/",
+      "summary": "The blaze burned more than 150 square miles and swept through parts of a ski resort.",
+      "ts": 1783483260000,
       "categoryId": "space"
     },
     {
@@ -705,22 +721,6 @@
       "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmen…",
       "ts": 1783404026000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Safety and Security of Radioactive Sources: Commitment in Action",
-      "url": "http://www.iaea.org/newscenter/news/safety-and-security-of-radioactive-sources-commitment-in-action",
-      "summary": "",
-      "ts": 1783402200000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Seed-applied biocontrol: towards a new generation of protective strategies",
-      "url": "https://arxiv.org/abs/2607.02621",
-      "summary": "arXiv:2607.02621v1 Announce Type: new Abstract: Seeds are fundamental to agricultural productivity but also act as potential vectors for pathogens, leading to substantial losses at seedling emergence. This study focuses …",
-      "ts": 1783396800000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
