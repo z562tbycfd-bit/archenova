@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-08T05:55:05.924Z",
+  "updated": "2026-07-08T08:33:01.107Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What to know about the total solar eclipse due in August",
+      "url": "https://phys.org/news/2026-07-total-solar-eclipse-due-august.html",
+      "summary": "Day will briefly turn into night across a swath of northern Spain on Aug. 12, when the moon will completely cover the sun during a rare total solar eclipse.",
+      "ts": 1783499401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "UK museums at 'sharp end' of climate change challenge",
+      "url": "https://phys.org/news/2026-07-uk-museums-sharp-climate.html",
+      "summary": "As visitors peered at skeletons and preserved animals in a London zoological museum during a UK heat wave, staff focused on a different attraction: a computer screen glowing with red and green temperature indicators.",
+      "ts": 1783498202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Unique event': Solar eclipse fever fills empty Spain",
+      "url": "https://phys.org/news/2026-07-unique-event-solar-eclipse-fever.html",
+      "summary": "As a child, Enrique Bordallo would gaze in awe at the starry night sky in rural Spain. Next month's solar eclipse has now made his passion a popular obsession.",
+      "ts": 1783497616000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How foreign direct investments affect employment and income in rural areas of the US",
+      "url": "https://phys.org/news/2026-07-foreign-investments-affect-employment-income.html",
+      "summary": "Federal trade and industrial policies have triggered a new wave of foreign direct investment (FDI) in the United States, with some companies committing billions of dollars to U.S.-based manufacturing. Now, an analysis in…",
+      "ts": 1783494601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How climate change affects interactions between owls and their prey",
+      "url": "https://phys.org/news/2026-07-climate-affects-interactions-owls-prey.html",
+      "summary": "A study published in Ecography has assessed how climate change may be destabilizing interactions between predators and prey in the wild—specifically, how owl–prey interactions have responded to environmental variability …",
+      "ts": 1783494003000
+    },
     {
       "source": "Phys.org",
       "title": "Global warming, increasing wildfire risk threaten viability of some California winery regions",
@@ -665,41 +700,6 @@
       "title": "Seismic amplitude-variation-with-offset inversion using an algebraically equivalent formulation of the exact Zoeppritz equations and a matrix-free adjoint-state framework",
       "url": "https://arxiv.org/abs/2512.13172",
       "summary": "arXiv:2512.13172v2 Announce Type: replace Abstract: The amplitude-variation-with-offset inversion techniques are formulated to estimate elastic properties by fitting modeled seismic responses to observed data. Solving in…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Schrodinger's Wave Mechanics: Remarkable Dates and Place One Hundred Years Ago",
-      "url": "https://arxiv.org/abs/2601.05337",
-      "summary": "arXiv:2601.05337v5 Announce Type: replace Abstract: We discuss, at a level accessible to students and teachers of physics and mathematics, the fundamental transition from classical mechanics to wave equations made by Sch…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phonon Trapping Lateral Field Excited Suspended Bulk Acoustic Wave Resonators (XBARs)",
-      "url": "https://arxiv.org/abs/2601.05815",
-      "summary": "arXiv:2601.05815v2 Announce Type: replace Abstract: Film bulk acoustic wave resonators (FBARs) underpin modern wireless communication by enabling compact, high-performance RF filters in modern smartphones. Traditionally,…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Curvature-weighted spectra anticipate dissipation peaks in decaying three-dimensional turbulence",
-      "url": "https://arxiv.org/abs/2601.14043",
-      "summary": "arXiv:2601.14043v2 Announce Type: replace Abstract: We investigate the robustness of a curvature-weighted spectral precursor to dissipation in freely decaying three-dimensional incompressible turbulence. Building on our …",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ab initio calculations of the electronic structure of Ac$^+$",
-      "url": "https://arxiv.org/abs/2602.06528",
-      "summary": "arXiv:2602.06528v2 Announce Type: replace Abstract: Accurate spectroscopic investigations of the heaviest elements are inherently challenging, due to their short lifetimes and low production yields. Success of such measu…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Derivation of Phase-Space Metric in a Geometric Quantization Approach: General Relativity with Quantized Phase-Space Metric and Relative Spacetime",
-      "url": "https://arxiv.org/abs/2602.13219",
-      "summary": "arXiv:2602.13219v3 Announce Type: replace Abstract: Various extensions to Riemann geometry have been proposed since the inception of general relativity (GR). The aim has been and continues to be to construct a quantum an…",
       "ts": 1783483200000
     }
   ],

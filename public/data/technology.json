@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-08T05:55:10.131Z",
+  "updated": "2026-07-08T08:33:04.387Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump administration pursues more durable changes to science policy after setbacks in court",
+      "url": "https://www.statnews.com/2026/07/08/trump-research-funding-scientists-see-omb-overreach-control/?utm_campaign=rss",
+      "summary": "The White House has proposed sweeping changes to the bedrock regulation undergirding all federal contracts, empowering the executive branch to direct research, terminate grants, and external scientific reviews.",
+      "ts": 1783499400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Are glucose monitors a good thing for 2-year-olds? Experts look at risks, benefits",
+      "url": "https://www.statnews.com/2026/07/08/dexcom-stelo-cgm-risk-benefit-otc-glucose-monitoring-children/?utm_campaign=rss",
+      "summary": "The newly approved over-the-counter CGM offers a new approach to tackling childhood obesity but also raises a host of questions.",
+      "ts": 1783499400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The AI licensure debate is missing the point of licensure",
+      "url": "https://www.statnews.com/2026/07/08/licensing-ai-medicine-physician-responsibility/?utm_campaign=rss",
+      "summary": "“AI will reshape medicine. The physicians who answer for the outcome must lead the way it enters patient care,\" write Afnan R. Tariq and Ami Bhatt.",
+      "ts": 1783499400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: What’s the right role for AI in dementia care?",
+      "url": "https://www.statnews.com/2026/07/08/dementia-care-ai-artificial-intelligence-chatbots/?utm_campaign=rss",
+      "summary": "Three tricky questions about using AI in dementia care.",
+      "ts": 1783499400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force adds Relativity, Impulse Space to national security launch program",
+      "url": "https://spacenews.com/space-force-adds-relativity-impulse-space-to-national-security-launch-program/",
+      "summary": "The NSSL Phase 3 Lane 1 program opens door to newer companies competing for military missions The post Space Force adds Relativity, Impulse Space to national security launch program appeared first on SpaceNews.",
+      "ts": 1783496882000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Governable Individuals: An Identity Layer for Embodied Agents That Keep Learning",
@@ -679,46 +719,6 @@
       "title": "Seed-applied biocontrol: towards a new generation of protective strategies",
       "url": "https://arxiv.org/abs/2607.02621",
       "summary": "arXiv:2607.02621v1 Announce Type: new Abstract: Seeds are fundamental to agricultural productivity but also act as potential vectors for pathogens, leading to substantial losses at seedling emergence. This study focuses …",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling the Impact of Visual Brand Language on Attention, Object Recognition, and Memory Retrieval",
-      "url": "https://arxiv.org/abs/2607.02929",
-      "summary": "arXiv:2607.02929v1 Announce Type: new Abstract: Visual brand language is the set of visual properties that convey brand identity for a product. What is the impact of visual brand language on a person's ability to recogni…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cellular Adaptation to Signal Fluctuations as Learning",
-      "url": "https://arxiv.org/abs/2607.03545",
-      "summary": "arXiv:2607.03545v1 Announce Type: new Abstract: Cells represent one of the most fundamental units of life. Underlying their robust performance against environmental variability, such as temporal fluctuations of chemical …",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Shunting Inhibition and Dendritic Branching Shape Local Credit Assignment",
-      "url": "https://arxiv.org/abs/2607.03556",
-      "summary": "arXiv:2607.03556v1 Announce Type: new Abstract: Biological neurons assign credit across branching dendrites, where synaptic drive, dendritic conductance, local voltage, and somatic teaching signals interact to shape syna…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Diffusion learning reveals viable parameter manifolds and compensation geometry in biological dynamical systems",
-      "url": "https://arxiv.org/abs/2607.03671",
-      "summary": "arXiv:2607.03671v1 Announce Type: new Abstract: Models of complex systems often have many parameters, yet are constrained by far fewer experimentally accessible observables: similar activity can emerge from coordinated p…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Triple-Phase Multimodal Knowledge Aggregation Framework for Microbial Keratitis Subtype Diagnosis on Slit-Lamp Photography",
-      "url": "https://arxiv.org/abs/2607.03740",
-      "summary": "arXiv:2607.03740v1 Announce Type: new Abstract: Microbial keratitis requires rapid pathogen identification to guide treatment, but culture- and PCR-based diagnostics are slow and resource-intensive. We developed a triple…",
       "ts": 1783396800000,
       "categoryId": "bio"
     }
