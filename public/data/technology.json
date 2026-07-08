@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-07T23:04:23.656Z",
+  "updated": "2026-07-08T02:53:47.073Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Skyroot prepares for first orbital launch attempt",
+      "url": "https://spacenews.com/skyroot-prepares-for-first-orbital-launch-attempt/",
+      "summary": "Indian launch startup Skyroot Aerospace is preparing for its first orbital launch attempt as soon as July 12, with plans to quickly scale up to monthly launches. The post Skyroot prepares for first orbital launch attempt…",
+      "ts": 1783476630000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Novartis to Acquire Myricx Bio for Up to $1.5B, Adding Cancer-Fighting ADC Payload Platform",
+      "url": "https://www.genengnews.com/topics/cancer/novartis-to-acquire-myricx-bio-for-up-to-1-5b-adding-cancer-fighting-adc-payload-platform/",
+      "summary": "Myricx Bio specializes in developing ADCs that use N-myristoyltransferase inhibitor (NMTi) payloads, an approach designed to deliver a differentiated cancer-killing payload directly to tumor cells. Myricx says its ADC ap…",
+      "ts": 1783473601000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "D-Orbit signs launch-services contract with ArkEdge Space",
+      "url": "https://spacenews.com/d-orbit-signs-launch-services-contract-with-arkedge-space/",
+      "summary": "SAN FRANCISCO – Italian space logistics specialist D-Orbit will provide a series of launches aboard its ION Satellite Carrier for Japanese startup ArkEdge Space, under a contract announced July 8 […] The post D-Orbit sig…",
+      "ts": 1783472400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Germline‑Targeting HIV Vaccine Generates Broadly Neutralizing Antibodies in Primates",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/germline-targeting-hiv-vaccine-generates-broadly-neutralizing-antibodies-in-primates/",
+      "summary": "Rhesus macaques received a priming immunogen designed to activate naive B cells, followed by a sequence of booster shots that guided those cells through the necessary maturation steps. The post Germline‑Targeting HIV Vac…",
+      "ts": 1783469120000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Orbit Fab hires new CEO and raises funding to support satellite refueling business",
@@ -244,9 +276,33 @@
     },
     {
       "source": "United Nations News",
+      "title": "New coalition puts children’s rights at the centre of the AI age",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167891",
+      "summary": "A new international coalition launched in Geneva on Tuesday is setting out to make sure children's safety and rights are not an afterthought as artificial intelligence reshapes how they learn, play and grow up.",
+      "ts": 1783425600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Southwest Pacific’s last tropical glacier could vanish within months",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167889",
+      "summary": "The Southwest Pacific is facing mounting climate risks as its vast ocean expanse becomes hotter, more acidic and more dangerous for coastal communities, the World Meteorological Organization (WMO) said in a report publis…",
+      "ts": 1783425600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Shared blueprint for peace’: Development goals deliver for billions, but challenges remain",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167888",
+      "summary": "With fewer than five years left to achieve the Sustainable Development Goals (SDGs), a new UN report says sustained investment and international cooperation have improved billions of lives, but warns that governments mus…",
+      "ts": 1783425600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Peace hinges on people-centred policing, global summit hears",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167887",
-      "summary": "Policing is the cornerstone of peace, said top UN officials ahead of the fifth UN Chiefs of Police Summit, which begins on Tuesday.",
+      "summary": "Policing is the cornerstone of peace, said top UN officials ahead of the fifth UN Chiefs of Police Summit, which began on Tuesday.",
       "ts": 1783425600000,
       "categoryId": "global-governance"
     },
@@ -270,7 +326,7 @@
       "source": "United Nations News",
       "title": "General Assembly LIVE: Debating US sanctions against Cuba",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167883",
-      "summary": "The UN General Assembly overwhelming votes to debate United States sanctions against Cuba in a meeting on Tuesday, at Havana’s request, to discuss the decades-long embargo amid warnings of increasing suffering on the Car…",
+      "summary": "The UN General Assembly overwhelming voted to debate United States sanctions against Cuba in a meeting on Tuesday, at Havana’s request, to discuss the decades-long embargo amid warnings of increasing suffering on the Car…",
       "ts": 1783425600000,
       "categoryId": "global-governance"
     },
@@ -663,62 +719,6 @@
       "title": "Disguised complex balance via positive algebraic geometry",
       "url": "https://arxiv.org/abs/2607.04810",
       "summary": "arXiv:2607.04810v1 Announce Type: cross Abstract: We study dynamical systems arising from reaction networks under mass-action kinetics. For certain choices of the rate constants (parameters), such systems are complex-bal…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Data-Driven Soft Labeling Scales DNA Read Classification to Whole-Body Cell-Type Deconvolution",
-      "url": "https://arxiv.org/abs/2607.04987",
-      "summary": "arXiv:2607.04987v1 Announce Type: cross Abstract: Cell-type deconvolution, the task of estimating the proportions of constituent cell types in a heterogeneous biological sample, is a core problem in computational biology…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Geometric Causal Models",
-      "url": "https://arxiv.org/abs/2607.05153",
-      "summary": "arXiv:2607.05153v1 Announce Type: cross Abstract: Scientists often seek to draw causal inferences from structured data that is not independently and identically distributed, such as spatial data, network data, or molecul…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GestaltMML: Enhancing Rare Genetic Disease Diagnosis through Multimodal Machine Learning Combining Facial Images and Clinical Text",
-      "url": "https://arxiv.org/abs/2312.15320",
-      "summary": "arXiv:2312.15320v3 Announce Type: replace Abstract: Individuals with suspected rare genetic disorders often undergo multiple clinical evaluations, imaging studies, laboratory tests, and genetic tests over a prolonged per…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Batch effects can impair federated learning in multi-center omics studies",
-      "url": "https://arxiv.org/abs/2412.05894",
-      "summary": "arXiv:2412.05894v2 Announce Type: replace Abstract: Federated learning (FL) enables collaborative analysis of biomedical data without exchanging sensitive patient-level information, but its performance in multi-center st…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GenShin: Guiding Rational Liposome Design by Ranking Liposomal Protein Corona through a Docking-Pose-Free GNN",
-      "url": "https://arxiv.org/abs/2504.13853",
-      "summary": "arXiv:2504.13853v2 Announce Type: replace Abstract: Rational design of lipid nanoparticles (LNPs) for tissue-specific delivery critically depends on predicting the composition of the protein corona that forms on the lipi…",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Moo-ving mountains: grazing agents drive terracette formation on steep hillslopes",
-      "url": "https://arxiv.org/abs/2504.17496",
-      "summary": "arXiv:2504.17496v3 Announce Type: replace Abstract: Terracettes, striking, step-like landforms that stripe steep, vegetated hillslopes, have puzzled scientists for more than a century. Competing hypotheses invoke either …",
-      "ts": 1783396800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Unraveling the temporal dependence of ecological interaction measures",
-      "url": "https://arxiv.org/abs/2508.19197",
-      "summary": "arXiv:2508.19197v2 Announce Type: replace Abstract: Identifying the network of species interactions is a fundamental step toward understanding ecosystem stability and biodiversity. However, the interpretability of empiri…",
       "ts": 1783396800000,
       "categoryId": "bio"
     }

@@ -1,7 +1,105 @@
 {
   "ok": true,
-  "updated": "2026-07-07T23:04:19.165Z",
+  "updated": "2026-07-08T02:53:44.820Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How rocket launches could threaten Australia's coastal wildlife",
+      "url": "https://phys.org/news/2026-07-rocket-threaten-australia-coastal-wildlife.html",
+      "summary": "Space and rockets have been big news of late, from the successful Artemis 2 mission in April to the recent listing of SpaceX on the Nasdaq stock exchange.",
+      "ts": 1783476001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Migratory birds may carry fewer parasites between islands than expected, DNA shows",
+      "url": "https://phys.org/news/2026-07-migratory-birds-parasites-islands-dna.html",
+      "summary": "A new study published in the Journal of Helminthology by researchers from the Estonian University of Life Sciences and the Swedish University of Agricultural Sciences, together with collaborators from Greenland and the F…",
+      "ts": 1783474807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum vacuum could help break molecular bonds with less energy, simulations suggest",
+      "url": "https://phys.org/news/2026-07-quantum-vacuum-molecular-bonds-energy.html",
+      "summary": "A team of researchers led by Felipe Herrera, a professor at the University of Santiago and a researcher at the Millennium Institute for Research in Optics (MIRO), has identified a quantum phenomenon that enables chemical…",
+      "ts": 1783474806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Opportunities across childhood best predict degrees, earnings for low-income youth",
+      "url": "https://phys.org/news/2026-07-opportunities-childhood-degrees-income-youth.html",
+      "summary": "A new study led by a Boston College researcher has found that experiencing educational opportunities in all stages of childhood and adolescence is the best predictor of higher educational attainment and earnings for disa…",
+      "ts": 1783473604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA's New Horizons spacecraft wakes from its longest hibernation in good health",
+      "url": "https://phys.org/news/2026-07-nasa-horizons-spacecraft-hibernation-good.html",
+      "summary": "Following its longest hibernation period ever of nearly a year, NASA's New Horizons spacecraft has emerged in good health and is ready to begin transmitting science data gathered in the distant Kuiper Belt far beyond Plu…",
+      "ts": 1783472402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Island life changed how Brazil's Noronha skink reproduces, but the lizard's strategy might be failing",
+      "url": "https://phys.org/news/2026-07-island-life-brazil-noronha-skink.html",
+      "summary": "Visitors to the Fernando de Noronha archipelago, located about 340 miles (545 kilometers) off the coast of Pernambuco in northeastern Brazil, soon notice a small lizard. Seemingly ubiquitous, it roams among rocks, trails…",
+      "ts": 1783471204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black women academics in my study said their main allies were white men: What this reveals",
+      "url": "https://phys.org/news/2026-07-black-women-academics-main-allies.html",
+      "summary": "Universities have a role in challenging the status quo on issues such as gender, race, nationality and sexuality. But all too often, they replicate societal inequalities.",
+      "ts": 1783470006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Saturn-ring-like laser emission from chiral polymeric microspheres",
+      "url": "https://phys.org/news/2026-07-saturn-laser-emission-chiral-polymeric.html",
+      "summary": "Controlling light within microscopic spaces is crucial for next-generation optical devices such as photonic integrated circuits and localized sensors. Microspheres formed of luminescent π-conjugated polymers act as optic…",
+      "ts": 1783470001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Galaxy mergers aren't always obvious",
+      "url": "https://phys.org/news/2026-07-galaxy-mergers-obvious.html",
+      "summary": "The galaxy Centaurus A is about 11 million light-years away and is the fifth-brightest galaxy in the sky. Because it's so bright, it's been studied extensively by amateur and professional astronomers alike. Also called N…",
+      "ts": 1783468803000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Unlocking the capacity of Mn-based Prussian blue cathodes in capacitive deionization",
+      "url": "https://www.nature.com/articles/s41467-026-75403-z",
+      "summary": "",
+      "ts": 1783468800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Alternatively spliced killer–protector system confers <i>S19</i>-mediated hybrid male sterility in rice",
+      "url": "https://www.nature.com/articles/s41467-026-74581-0",
+      "summary": "",
+      "ts": 1783468800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Loss of the <i>USP22</i> deubiquitylase confers resistance to chemotherapy in small cell lung cancer",
+      "url": "https://www.nature.com/articles/s41467-026-75117-2",
+      "summary": "",
+      "ts": 1783468800000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Weak connection: Why influencers sometimes fail to influence",
+      "url": "https://phys.org/news/2026-07-weak.html",
+      "summary": "Conventional wisdom holds that targeting the best-connected individuals in a social network is an effective way to nudge a wider group of people to change their behavior. For example, public health officials launching a …",
+      "ts": 1783467603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Young women are identifying as less straight; young men, not so much",
+      "url": "https://phys.org/news/2026-07-young-women-straight-men.html",
+      "summary": "Young women are moving away from exclusive heterosexuality faster than young men.",
+      "ts": 1783466401000
+    },
     {
       "source": "Phys.org",
       "title": "Fishing for DNA: How a cup of river water can reveal secrets about human health, pollution and biodiversity",
@@ -603,104 +701,6 @@
       "url": "https://phys.org/news/2026-07-ev-selex-gpcr-drug-discovery.html",
       "summary": "G protein-coupled receptors (GPCRs) are the most abundantly expressed proteins in the human body, regulating diverse physiological processes ranging from pain perception to hormone signaling. Owing to their central roles…",
       "ts": 1783418404000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bulk ferromagnetic quasicrystals emerge without rapid quenching, unlocking stable magnetic studies",
-      "url": "https://phys.org/news/2026-07-bulk-ferromagnetic-quasicrystals-emerge-rapid.html",
-      "summary": "Ferromagnetism has long been studied in a wide range of periodic crystals and amorphous materials. In quasicrystals (QCs), which possess long-range quasiperiodic order and unconventional rotational symmetries, such as 10…",
-      "ts": 1783418401000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Nonparametric Learning Non-Gaussian Quantum States of Continuous Variable Systems",
-      "url": "http://link.aps.org/doi/10.1103/xdcg-6df5",
-      "summary": "Author(s): Liubov Markovich, Xiaoyu Liu, and Jordi Tura Continuous-variable quantum systems are foundational to quantum computation, communication, and sensing. While traditional representations using wave functions or d…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spontaneous Quantum Turbulence in a Newborn Bose-Einstein Condensate via the Kibble-Zurek Mechanism",
-      "url": "http://link.aps.org/doi/10.1103/b16v-hwp2",
-      "summary": "Author(s): Seong-Ho Shinn, Matteo Massaro, Mithun Thudiyangal, and Adolfo del Campo The Kibble-Zurek mechanism (KZM) predicts the spontaneous formation of topological defects in a continuous phase transition driven at a …",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Emergence of Universality in Transport of Noisy Free Fermions",
-      "url": "http://link.aps.org/doi/10.1103/v8x8-ft81",
-      "summary": "Author(s): João Costa, Pedro Ribeiro, and Andrea De Luca We analyze the effects of various forms of noise on one-dimensional systems of noninteracting fermions. In the strong noise limit, we demonstrate, under mild assum…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Entanglement Growth from Entangled States: A Unified Perspective on Entanglement Generation and Transport",
-      "url": "http://link.aps.org/doi/10.1103/xkh7-gdqm",
-      "summary": "Author(s): Chun-Yue Zhang, Zi-Xiang Li, and Shi-Xin Zhang Studies of entanglement dynamics in quantum many-body systems have focused largely on initial product states. Here, we investigate the far richer dynamics from in…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Skeleton of Isometric Tensor Network States for Abelian String-Net Models",
-      "url": "http://link.aps.org/doi/10.1103/d3fz-5755",
-      "summary": "Author(s): Julian Boesl, Yu-Jie Liu, Frank Pollmann, and Michael Knap We construct parametrized isometric tensor network states—referred to as “skeletons”—that allow us to explore phases of Abelian topological order and …",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "High-Temperature Fermionic Gibbs States are Mixtures of Gaussian States",
-      "url": "http://link.aps.org/doi/10.1103/qprk-k7wn",
-      "summary": "Author(s): Akshar Ramkumar, Yiyi Cai, Yu Tong, and Jiaqing Jiang Efficient simulation of a quantum system generally relies on structural properties of the quantum state. Motivated by the recent results by Bakshi et al. o…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Noise-Resilient Heisenberg-Limited Quantum Sensing via Indefinite-Causal-Order Error Correction",
-      "url": "http://link.aps.org/doi/10.1103/9mjc-nhxx",
-      "summary": "Author(s): Hang Xu, Xiaoyang Deng, Ze Zheng, Tailong Xiao, and Guihua Zeng Quantum resources can, in principle, enable Heisenberg-limited sensing, yet no-go theorems imply that Heisenberg-limited scaling is generically u…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Environment-Assisted Generation of Non-Gaussian Wave-Packet Quantum States",
-      "url": "http://link.aps.org/doi/10.1103/dtd2-4vpn",
-      "summary": "Author(s): Maryam Khanahmadi and Klaus Mølmer Generating non-Gaussian states and converting them into traveling wave packets is crucial yet challenging for scalable, fault-tolerant quantum computing. We present a hardwar…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Temporally Multimode Ion-Ion Entanglement over 1.2 Kilometer Fibers",
-      "url": "http://link.aps.org/doi/10.1103/9h14-sc8t",
-      "summary": "Author(s): Z.-B. Cui, Z.-Q. Wang, P.-Y. Liu, Y. Wang, P.-C. Lai, J.-X. Shi, Y.-D. Sun, Z.-C. Tian, H.-S. Sun, Y.-B. Liang, B.-X. Qi, Y.-Y. Huang, Z.-C. Zhou, Y.-K. Wu, Y. Xu, Y.-F. Pu, and L.-M. Duan Quantum networks and…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "When Vacuum Breaks: A Self-Consistency Test for Astrophysical Environments in Extreme Mass Ratio Inspirals",
-      "url": "http://link.aps.org/doi/10.1103/pqcz-cvsv",
-      "summary": "Author(s): Lorenzo Copparoni, Rohit S. Chandramouli, and Enrico Barausse Gravitational-wave signals are typically interpreted under the vacuum hypothesis, i.e., assuming negligible influence from the astrophysical enviro…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Maximum Entropy Conjecture for Black Hole Mergers",
-      "url": "http://link.aps.org/doi/10.1103/hvp6-ydbq",
-      "summary": "Author(s): Monica Rincon-Ramirez, Nathan K. Johnson-McDaniel, Eugenio Bianchi, Ish Gupta, Vaishak Prasad, and B. S. Sathyaprakash The remnant properties of black hole mergers may be governed by a maximum entropy bound su…",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Aligned Hierarchical Black Hole Mergers in Active-Galactic-Nuclei Disks Revealed by GWTC-4",
-      "url": "http://link.aps.org/doi/10.1103/qyfv-wkv1",
-      "summary": "Author(s): Yin-Jie Li, Yuan-Zhu Wang, Shao-Peng Tang, and Yi-Zhong Fan The active galactic nucleus (AGN) accretion disks are ideal sites for hierarchical black hole (BH) mergers. To robustly probe such a possibility, we …",
-      "ts": 1783418400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Worldsheet for Generalized Veneziano Amplitudes",
-      "url": "http://link.aps.org/doi/10.1103/bplf-h1vx",
-      "summary": "Author(s): Shota Komatsu and Pronobesh Maity We present a worldsheet action that reproduces a class of dual resonance amplitudes discussed in the literature, which generalize the Veneziano amplitude for open strings. Our…",
-      "ts": 1783418400000
     }
   ],
   "sources": [
