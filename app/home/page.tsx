@@ -4,6 +4,7 @@ import HomeSectionPager from "../components/HomeSectionPager";
 import MobileHomeScrollReset from "../components/MobileHomeScrollReset";
 import GalaxyAtlas from "../components/civilization/GalaxyAtlas";
 import CivilizationLibrary from "../components/CivilizationLibrary";
+import CivilizationIntelligencePortal from "../components/CivilizationIntelligencePortal";
 
 export default function Home() {
   return (
@@ -89,12 +90,40 @@ export default function Home() {
      {/* =========================
    CIVILIZATION ARCHITECTURE GALAXY
 ========================= */}
+<section
+  id="galaxy-atlas"
+  data-home-section
+  className="home-page twin-page civ-intel-portal-page"
+>
+
 <GalaxyAtlas />
+
+</section>
+
+{/* =========================
+   CIVILIZATION INTELLIGENCE
+========================= */}
+<section
+  id="civilization-intelligence"
+  data-home-section
+  className="home-page twin-page civ-intel-portal-page"
+>
+
+<CivilizationIntelligencePortal />
+
+</section>
 
 {/* =========================
   CIVILIZATION LIBRARY
 ========================= */}
+<section
+  id="civilization-library"
+  data-home-section
+  className="home-page twin-page civ-library-page"
+>
 <CivilizationLibrary />
+
+</section>
 
 
     </main>

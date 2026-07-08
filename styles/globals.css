@@ -25838,3 +25838,2377 @@ margin-bottom:2.2rem;
     font-size: 1.45rem;
   }
 }
+
+
+
+
+/* ==========================================================
+   Episteme — Observation Layer
+========================================================== */
+
+.ep-observation-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.ep-observation-shell {
+  width: min(1180px, 92vw);
+  display: grid;
+  gap: 2.6rem;
+}
+
+.ep-observation-head {
+  text-align: center;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.ep-observation-head span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+}
+
+.ep-observation-head h2 {
+  margin: 0;
+  font-size: clamp(2.6rem, 5.5vw, 5.4rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.96);
+}
+
+.ep-observation-head p {
+  max-width: 660px;
+  margin: 1.3rem auto 0;
+  font-size: 0.96rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.62);
+}
+
+.ep-observation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ep-observation-card {
+  position: relative;
+  min-height: 260px;
+  padding: 1.5rem;
+  border-radius: 28px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.86);
+
+  border: 1px solid rgba(255,255,255,0.09);
+
+  box-shadow:
+    0 28px 90px rgba(0,0,0,0.36),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.ep-observation-card::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255,255,255,0.08), transparent 46%),
+    conic-gradient(
+      from 180deg,
+      transparent,
+      rgba(120,180,255,0.08),
+      transparent,
+      rgba(245,216,162,0.08),
+      transparent
+    );
+  opacity: 0.34;
+  pointer-events: none;
+}
+
+.ep-observation-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.ep-observation-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255,255,255,0.18);
+  box-shadow:
+    0 34px 110px rgba(0,0,0,0.48),
+    0 0 70px rgba(255,255,255,0.055);
+}
+
+.ep-observation-card span {
+  font-size: 0.58rem;
+  letter-spacing: 0.28em;
+  color: rgba(245,216,162,0.72);
+}
+
+.ep-observation-card strong {
+  margin-top: auto;
+  font-size: 1.45rem;
+  line-height: 1.15;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-observation-card p {
+  margin: 1rem 0 0;
+  font-size: 0.84rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.58);
+}
+
+.ep-observation-card em {
+  margin-top: 1.4rem;
+  font-style: normal;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.82);
+}
+
+@media (max-width: 768px) {
+  .ep-observation-shell {
+    width: 90vw;
+    gap: 2rem;
+  }
+
+  .ep-observation-head h2 {
+    font-size: clamp(2.1rem, 9vw, 3rem);
+  }
+
+  .ep-observation-head p {
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  .ep-observation-grid {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 0.4rem 0.4rem 1.2rem;
+    scrollbar-width: none;
+  }
+
+  .ep-observation-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ep-observation-card {
+    flex: 0 0 78vw;
+    min-height: 300px;
+    scroll-snap-align: center;
+  }
+
+  .ep-observation-card strong {
+    font-size: 1.32rem;
+  }
+}
+
+
+
+
+/* ==========================================================
+   Episteme — Understanding Layer
+========================================================== */
+
+.ep-understanding-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.ep-understanding-shell {
+  width: min(1180px, 92vw);
+  display: grid;
+  gap: 2.6rem;
+}
+
+.ep-understanding-head {
+  text-align: center;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.ep-understanding-head span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+}
+
+.ep-understanding-head h2 {
+  margin: 0;
+  font-size: clamp(2.6rem, 5.5vw, 5.4rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.96);
+}
+
+.ep-understanding-head p {
+  max-width: 660px;
+  margin: 1.3rem auto 0;
+  font-size: 0.96rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.62);
+}
+
+.ep-understanding-board {
+  position: relative;
+  min-height: 430px;
+  border-radius: 36px;
+  border: 1px solid rgba(255,255,255,0.09);
+  background:
+    radial-gradient(circle at 50% 50%, rgba(245,216,162,0.08), transparent 28%),
+    linear-gradient(180deg, rgba(255,255,255,0.055), rgba(255,255,255,0.015)),
+    rgba(3,5,10,0.86);
+  box-shadow:
+    0 34px 110px rgba(0,0,0,0.42),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  overflow: hidden;
+}
+
+.ep-understanding-board::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px);
+  background-size: 52px 52px;
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+.ep-understanding-core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 260px;
+  height: 260px;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem;
+  background:
+    radial-gradient(circle, rgba(255,255,255,0.08), rgba(255,255,255,0.018) 58%, transparent 72%);
+  border: 1px solid rgba(245,216,162,0.16);
+  box-shadow:
+    0 0 70px rgba(245,216,162,0.08),
+    inset 0 0 40px rgba(255,255,255,0.035);
+}
+
+.ep-understanding-core span {
+  font-size: 0.58rem;
+  letter-spacing: 0.3em;
+  color: rgba(245,216,162,0.72);
+  text-transform: uppercase;
+}
+
+.ep-understanding-core strong {
+  font-size: 1.45rem;
+  line-height: 1.15;
+  font-weight: 300;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-understanding-core p {
+  margin: 0;
+  font-size: 0.74rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.55);
+}
+
+.ep-understanding-flow {
+  position: absolute;
+  inset: 0;
+}
+
+.ep-understanding-node {
+  position: absolute;
+  width: 250px;
+  min-height: 150px;
+  padding: 1.2rem;
+  border-radius: 24px;
+  text-decoration: none;
+  color: white;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.76);
+  border: 1px solid rgba(255,255,255,0.085);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 70px rgba(0,0,0,0.32);
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.ep-understanding-node:hover {
+  transform: translateY(-6px);
+  border-color: rgba(245,216,162,0.22);
+  box-shadow:
+    0 30px 90px rgba(0,0,0,0.46),
+    0 0 60px rgba(245,216,162,0.07);
+}
+
+.ep-understanding-node span {
+  display: block;
+  margin-bottom: 1.2rem;
+  font-size: 0.58rem;
+  letter-spacing: 0.28em;
+  color: rgba(245,216,162,0.72);
+}
+
+.ep-understanding-node strong {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 1.15;
+  font-weight: 320;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-understanding-node p {
+  margin: 0.85rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.58);
+}
+
+.ep-understanding-node.node-1 {
+  left: 5%;
+  top: 12%;
+}
+
+.ep-understanding-node.node-2 {
+  right: 5%;
+  top: 12%;
+}
+
+.ep-understanding-node.node-3 {
+  left: 5%;
+  bottom: 12%;
+}
+
+.ep-understanding-node.node-4 {
+  right: 5%;
+  bottom: 12%;
+}
+
+@media (max-width: 768px) {
+  .ep-understanding-shell {
+    width: 90vw;
+    gap: 2rem;
+  }
+
+  .ep-understanding-head h2 {
+    font-size: clamp(2.1rem, 9vw, 3rem);
+  }
+
+  .ep-understanding-head p {
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  .ep-understanding-board {
+    min-height: auto;
+    border-radius: 30px;
+    padding: 1rem;
+  }
+
+  .ep-understanding-core {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    width: 100%;
+    height: auto;
+    border-radius: 26px;
+    margin-bottom: 1rem;
+  }
+
+  .ep-understanding-flow {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+    scrollbar-width: none;
+  }
+
+  .ep-understanding-flow::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ep-understanding-node,
+  .ep-understanding-node.node-1,
+  .ep-understanding-node.node-2,
+  .ep-understanding-node.node-3,
+  .ep-understanding-node.node-4 {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    flex: 0 0 76vw;
+    min-height: 260px;
+    scroll-snap-align: center;
+  }
+}
+
+/* ==========================================================
+   Episteme — Reasoning Layer
+========================================================== */
+
+.ep-reasoning-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.ep-reasoning-shell {
+  width: min(1180px, 92vw);
+  display: grid;
+  gap: 2.6rem;
+}
+
+.ep-reasoning-head {
+  text-align: center;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.ep-reasoning-head span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+}
+
+.ep-reasoning-head h2 {
+  margin: 0;
+  font-size: clamp(2.6rem, 5.5vw, 5.4rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.96);
+}
+
+.ep-reasoning-head p {
+  max-width: 660px;
+  margin: 1.3rem auto 0;
+  font-size: 0.96rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.62);
+}
+
+.ep-reasoning-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ep-reasoning-card {
+  position: relative;
+  min-height: 340px;
+  padding: 1.45rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 50% 0%, rgba(245,216,162,0.08), transparent 48%),
+    linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.86);
+
+  border: 1px solid rgba(255,255,255,0.09);
+
+  box-shadow:
+    0 28px 90px rgba(0,0,0,0.36),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.ep-reasoning-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      120deg,
+      transparent,
+      rgba(255,255,255,0.06),
+      transparent
+    );
+  opacity: 0.32;
+  pointer-events: none;
+}
+
+.ep-reasoning-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(245,216,162,0.22);
+  box-shadow:
+    0 34px 110px rgba(0,0,0,0.48),
+    0 0 70px rgba(245,216,162,0.07);
+}
+
+.ep-reasoning-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.ep-reasoning-card span {
+  font-size: 0.58rem;
+  letter-spacing: 0.28em;
+  color: rgba(245,216,162,0.72);
+}
+
+.ep-reasoning-card strong {
+  margin-top: auto;
+  font-size: 1.35rem;
+  line-height: 1.15;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-reasoning-card p {
+  margin: 1rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.72;
+  color: rgba(255,255,255,0.58);
+}
+
+.ep-reasoning-card em {
+  margin-top: 1.4rem;
+  font-style: normal;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.82);
+}
+
+@media (max-width: 768px) {
+  .ep-reasoning-shell {
+    width: 90vw;
+    gap: 2rem;
+  }
+
+  .ep-reasoning-head h2 {
+    font-size: clamp(2.1rem, 9vw, 3rem);
+  }
+
+  .ep-reasoning-head p {
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  .ep-reasoning-grid {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 0.4rem 0.4rem 1.2rem;
+    scrollbar-width: none;
+  }
+
+  .ep-reasoning-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ep-reasoning-card {
+    flex: 0 0 78vw;
+    min-height: 300px;
+    scroll-snap-align: center;
+  }
+
+  .ep-reasoning-card strong {
+    font-size: 1.3rem;
+  }
+}
+
+/* ==========================================================
+   Episteme — Design Layer
+========================================================== */
+
+.ep-design-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.ep-design-shell {
+  width: min(1180px, 92vw);
+  display: grid;
+  gap: 2.6rem;
+}
+
+.ep-design-head {
+  text-align: center;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.ep-design-head span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+}
+
+.ep-design-head h2 {
+  margin: 0;
+  font-size: clamp(2.6rem, 5.5vw, 5.4rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.96);
+}
+
+.ep-design-head p {
+  max-width: 660px;
+  margin: 1.3rem auto 0;
+  font-size: 0.96rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.62);
+}
+
+.ep-design-system {
+  position: relative;
+  display: grid;
+  gap: 1.4rem;
+}
+
+.ep-design-axis {
+  min-height: 74px;
+  border-radius: 999px;
+  padding: 0 1.4rem;
+  display: grid;
+  grid-template-columns: 1fr 90px 1fr 90px 1fr;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.09);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.82);
+  box-shadow:
+    0 26px 80px rgba(0,0,0,0.34),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+.ep-design-axis span,
+.ep-design-axis strong {
+  font-size: 0.7rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.68);
+}
+
+.ep-design-axis strong {
+  color: rgba(245,216,162,0.86);
+}
+
+.ep-design-axis i {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(245,216,162,0.48),
+    transparent
+  );
+}
+
+.ep-design-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ep-design-card {
+  position: relative;
+  min-height: 310px;
+  padding: 1.45rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 50% 0%, rgba(120,180,255,0.08), transparent 50%),
+    linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.86);
+
+  border: 1px solid rgba(255,255,255,0.09);
+
+  box-shadow:
+    0 28px 90px rgba(0,0,0,0.36),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.ep-design-card::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background:
+    conic-gradient(
+      from 180deg,
+      transparent,
+      rgba(120,180,255,0.08),
+      transparent,
+      rgba(245,216,162,0.07),
+      transparent
+    );
+  opacity: 0.34;
+  pointer-events: none;
+}
+
+.ep-design-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(245,216,162,0.22);
+  box-shadow:
+    0 34px 110px rgba(0,0,0,0.48),
+    0 0 70px rgba(120,180,255,0.07);
+}
+
+.ep-design-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.ep-design-card span {
+  font-size: 0.58rem;
+  letter-spacing: 0.28em;
+  color: rgba(245,216,162,0.72);
+}
+
+.ep-design-card strong {
+  margin-top: auto;
+  font-size: 1.34rem;
+  line-height: 1.15;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-design-card p {
+  margin: 1rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.72;
+  color: rgba(255,255,255,0.58);
+}
+
+.ep-design-card em {
+  margin-top: 1.4rem;
+  font-style: normal;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.82);
+}
+
+@media (max-width: 768px) {
+  .ep-design-shell {
+    width: 90vw;
+    gap: 2rem;
+  }
+
+  .ep-design-head h2 {
+    font-size: clamp(2.1rem, 9vw, 3rem);
+  }
+
+  .ep-design-head p {
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  .ep-design-axis {
+    min-height: auto;
+    border-radius: 24px;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+
+  .ep-design-axis i {
+    width: 100%;
+  }
+
+  .ep-design-grid {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 0.4rem 0.4rem 1.2rem;
+    scrollbar-width: none;
+  }
+
+  .ep-design-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ep-design-card {
+    flex: 0 0 78vw;
+    min-height: 300px;
+    scroll-snap-align: center;
+  }
+
+  .ep-design-card strong {
+    font-size: 1.3rem;
+  }
+}
+
+
+/* ==========================================================
+   Episteme — Realization Layer
+========================================================== */
+
+.ep-realization-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.ep-realization-shell {
+  width: min(1180px, 92vw);
+  display: grid;
+  gap: 2.6rem;
+}
+
+.ep-realization-head {
+  text-align: center;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.ep-realization-head span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+}
+
+.ep-realization-head h2 {
+  margin: 0;
+  font-size: clamp(2.6rem, 5.5vw, 5.4rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.96);
+}
+
+.ep-realization-head p {
+  max-width: 660px;
+  margin: 1.3rem auto 0;
+  font-size: 0.96rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.62);
+}
+
+.ep-realization-track {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.ep-realization-track::before {
+  content: "";
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  top: 74px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(245,216,162,0.42),
+    rgba(120,180,255,0.24),
+    rgba(245,216,162,0.42),
+    transparent
+  );
+  pointer-events: none;
+}
+
+.ep-realization-step {
+  position: relative;
+  min-height: 330px;
+  padding: 1.45rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 50% 0%, rgba(245,216,162,0.10), transparent 50%),
+    linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.86);
+
+  border: 1px solid rgba(255,255,255,0.09);
+
+  box-shadow:
+    0 28px 90px rgba(0,0,0,0.36),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.ep-realization-step::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background:
+    conic-gradient(
+      from 180deg,
+      transparent,
+      rgba(245,216,162,0.10),
+      transparent,
+      rgba(120,180,255,0.08),
+      transparent
+    );
+  opacity: 0.32;
+  pointer-events: none;
+}
+
+.ep-realization-step:hover {
+  transform: translateY(-6px);
+  border-color: rgba(245,216,162,0.24);
+  box-shadow:
+    0 34px 110px rgba(0,0,0,0.48),
+    0 0 70px rgba(245,216,162,0.08);
+}
+
+.ep-realization-step > * {
+  position: relative;
+  z-index: 1;
+}
+
+.ep-realization-step span {
+  font-size: 0.58rem;
+  letter-spacing: 0.28em;
+  color: rgba(245,216,162,0.72);
+}
+
+.ep-realization-number {
+  width: 48px;
+  height: 48px;
+  margin-top: 1.6rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(245,216,162,0.28);
+  background: rgba(255,255,255,0.035);
+  color: rgba(255,246,224,0.92);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  box-shadow:
+    0 0 26px rgba(245,216,162,0.12),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+.ep-realization-step strong {
+  margin-top: auto;
+  font-size: 1.34rem;
+  line-height: 1.15;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-realization-step p {
+  margin: 1rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.72;
+  color: rgba(255,255,255,0.58);
+}
+
+.ep-realization-step em {
+  margin-top: 1.4rem;
+  font-style: normal;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.82);
+}
+
+@media (max-width: 768px) {
+  .ep-realization-shell {
+    width: 90vw;
+    gap: 2rem;
+  }
+
+  .ep-realization-head h2 {
+    font-size: clamp(2.1rem, 9vw, 3rem);
+  }
+
+  .ep-realization-head p {
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  .ep-realization-track {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 0.4rem 0.4rem 1.2rem;
+    scrollbar-width: none;
+  }
+
+  .ep-realization-track::before {
+    display: none;
+  }
+
+  .ep-realization-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ep-realization-step {
+    flex: 0 0 78vw;
+    min-height: 300px;
+    scroll-snap-align: center;
+  }
+
+  .ep-realization-step strong {
+    font-size: 1.3rem;
+  }
+}
+
+
+
+
+/* ==========================================================
+   Episteme — Memory Layer
+========================================================== */
+
+.ep-memory-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.ep-memory-shell {
+  width: min(1180px, 92vw);
+  display: grid;
+  gap: 2.6rem;
+}
+
+.ep-memory-head {
+  text-align: center;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.ep-memory-head span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+}
+
+.ep-memory-head h2 {
+  margin: 0;
+  font-size: clamp(2.6rem, 5.5vw, 5.4rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.96);
+}
+
+.ep-memory-head p {
+  max-width: 660px;
+  margin: 1.3rem auto 0;
+  font-size: 0.96rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.62);
+}
+
+.ep-memory-archive {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 1.2rem;
+  align-items: stretch;
+}
+
+.ep-memory-spine {
+  position: relative;
+  min-height: 420px;
+  border-radius: 34px;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 50% 0%, rgba(245,216,162,0.10), transparent 54%),
+    linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.88);
+
+  border: 1px solid rgba(255,255,255,0.09);
+
+  box-shadow:
+    0 32px 100px rgba(0,0,0,0.42),
+    inset 0 1px 0 rgba(255,255,255,0.06),
+    inset 18px 0 36px rgba(255,255,255,0.025);
+}
+
+.ep-memory-spine::before {
+  content: "";
+  position: absolute;
+  left: 26px;
+  top: 26px;
+  bottom: 26px;
+  width: 1px;
+  background: linear-gradient(
+    transparent,
+    rgba(245,216,162,0.36),
+    transparent
+  );
+}
+
+.ep-memory-spine span {
+  font-size: 0.58rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(245,216,162,0.72);
+}
+
+.ep-memory-spine strong {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  line-height: 1.12;
+  font-weight: 280;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-memory-spine p {
+  margin: 1rem 0 0;
+  font-size: 0.84rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.58);
+}
+
+.ep-memory-shelves {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.2rem 0.2rem 1.1rem;
+  scrollbar-width: none;
+}
+
+.ep-memory-shelves::-webkit-scrollbar {
+  display: none;
+}
+
+.ep-memory-book {
+  position: relative;
+  flex: 0 0 230px;
+  min-height: 420px;
+  scroll-snap-align: start;
+  border-radius: 28px;
+  padding: 1.3rem;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+
+  background:
+    linear-gradient(90deg, rgba(255,255,255,0.08), rgba(255,255,255,0.018)),
+    radial-gradient(circle at 50% 0%, rgba(255,255,255,0.055), transparent 55%),
+    rgba(3,5,10,0.88);
+
+  border: 1px solid rgba(255,255,255,0.09);
+
+  box-shadow:
+    0 30px 90px rgba(0,0,0,0.38),
+    inset 14px 0 26px rgba(255,255,255,0.035),
+    inset -18px 0 34px rgba(0,0,0,0.34);
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.ep-memory-book:hover {
+  transform: translateY(-6px);
+  border-color: rgba(245,216,162,0.22);
+  box-shadow:
+    0 36px 110px rgba(0,0,0,0.5),
+    0 0 70px rgba(245,216,162,0.075),
+    inset 14px 0 26px rgba(255,255,255,0.04),
+    inset -18px 0 34px rgba(0,0,0,0.36);
+}
+
+.ep-memory-book::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 18px;
+  bottom: 18px;
+  width: 1px;
+  background: linear-gradient(
+    transparent,
+    rgba(255,255,255,0.22),
+    transparent
+  );
+}
+
+.ep-memory-book > * {
+  position: relative;
+  z-index: 1;
+}
+
+.ep-memory-book span {
+  font-size: 0.56rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: rgba(245,216,162,0.72);
+}
+
+.ep-memory-book strong {
+  margin-top: auto;
+  font-size: 1.28rem;
+  line-height: 1.16;
+  font-weight: 300;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-memory-book p {
+  margin: 1rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.72;
+  color: rgba(255,255,255,0.58);
+}
+
+.ep-memory-book em {
+  margin-top: 1.2rem;
+  font-style: normal;
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.82);
+}
+
+@media (max-width: 768px) {
+  .ep-memory-shell {
+    width: 90vw;
+    gap: 2rem;
+  }
+
+  .ep-memory-head h2 {
+    font-size: clamp(2.1rem, 9vw, 3rem);
+  }
+
+  .ep-memory-head p {
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  .ep-memory-archive {
+    display: block;
+  }
+
+  .ep-memory-spine {
+    min-height: 260px;
+    margin-bottom: 1rem;
+  }
+
+  .ep-memory-shelves {
+    padding: 0.4rem 0.4rem 1.2rem;
+  }
+
+  .ep-memory-book {
+    flex: 0 0 76vw;
+    min-height: 320px;
+  }
+}
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Episteme — Six Layers Layout Fix
+========================================================== */
+
+/* 共通：右寄り防止 */
+.ep-observation-page,
+.ep-understanding-page,
+.ep-reasoning-page,
+.ep-design-page,
+.ep-realization-page,
+.ep-memory-page {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden !important;
+  display: grid !important;
+  place-items: center !important;
+  padding-inline: 0 !important;
+}
+
+.ep-observation-shell,
+.ep-understanding-shell,
+.ep-reasoning-shell,
+.ep-design-shell,
+.ep-realization-shell,
+.ep-memory-shell {
+  width: min(1080px, 88vw) !important;
+  max-width: 88vw !important;
+  margin-inline: auto !important;
+}
+
+/* PC：カード数が多い箇所を確実に収める */
+.ep-observation-grid,
+.ep-reasoning-grid,
+.ep-design-grid,
+.ep-realization-track {
+  width: 100% !important;
+  max-width: 100% !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  gap: 0.9rem !important;
+}
+
+.ep-observation-card,
+.ep-reasoning-card,
+.ep-design-card,
+.ep-realization-step {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Understanding board */
+.ep-understanding-board {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.ep-understanding-node {
+  width: min(230px, 22vw) !important;
+}
+
+/* Memory */
+.ep-memory-archive {
+  width: 100% !important;
+  max-width: 100% !important;
+  grid-template-columns: minmax(240px, 280px) minmax(0, 1fr) !important;
+}
+
+.ep-memory-shelves {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+}
+
+/* Typography compact */
+.ep-observation-head h2,
+.ep-understanding-head h2,
+.ep-reasoning-head h2,
+.ep-design-head h2,
+.ep-realization-head h2,
+.ep-memory-head h2 {
+  font-size: clamp(2.1rem, 4.4vw, 4.4rem) !important;
+}
+
+/* ==========================================================
+   Mobile
+========================================================== */
+
+@media (max-width: 768px) {
+  .ep-observation-shell,
+  .ep-understanding-shell,
+  .ep-reasoning-shell,
+  .ep-design-shell,
+  .ep-realization-shell,
+  .ep-memory-shell {
+    width: 90vw !important;
+    max-width: 90vw !important;
+  }
+
+  .ep-observation-head h2,
+  .ep-understanding-head h2,
+  .ep-reasoning-head h2,
+  .ep-design-head h2,
+  .ep-realization-head h2,
+  .ep-memory-head h2 {
+    font-size: clamp(1.85rem, 8vw, 2.6rem) !important;
+    line-height: 1.08 !important;
+  }
+
+  .ep-observation-head p,
+  .ep-understanding-head p,
+  .ep-reasoning-head p,
+  .ep-design-head p,
+  .ep-realization-head p,
+  .ep-memory-head p {
+    font-size: 0.76rem !important;
+    line-height: 1.75 !important;
+  }
+
+  .ep-observation-grid,
+  .ep-reasoning-grid,
+  .ep-design-grid,
+  .ep-realization-track,
+  .ep-memory-shelves {
+    display: flex !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    padding: 0.4rem 0.4rem 1.2rem !important;
+    scrollbar-width: none !important;
+  }
+
+  .ep-observation-grid::-webkit-scrollbar,
+  .ep-reasoning-grid::-webkit-scrollbar,
+  .ep-design-grid::-webkit-scrollbar,
+  .ep-realization-track::-webkit-scrollbar,
+  .ep-memory-shelves::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .ep-observation-card,
+  .ep-reasoning-card,
+  .ep-design-card,
+  .ep-realization-step,
+  .ep-memory-book {
+    flex: 0 0 78vw !important;
+    width: 78vw !important;
+    min-width: 78vw !important;
+    max-width: 78vw !important;
+    scroll-snap-align: center !important;
+  }
+
+  .ep-understanding-board {
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+
+  .ep-understanding-flow {
+    display: flex !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory !important;
+  }
+
+  .ep-understanding-node {
+    flex: 0 0 76vw !important;
+    width: 76vw !important;
+    min-width: 76vw !important;
+    max-width: 76vw !important;
+    scroll-snap-align: center !important;
+  }
+
+  .ep-memory-archive {
+    display: block !important;
+  }
+
+  .ep-memory-spine {
+    margin-bottom: 1rem !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Episteme — Unified Cognitive System
+========================================================== */
+
+.ep-system-page {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.ep-system-shell {
+  width: min(1180px, 92vw);
+  display: grid;
+  gap: 2.6rem;
+}
+
+.ep-system-head {
+  text-align: center;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.ep-system-head span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+}
+
+.ep-system-head h2 {
+  margin: 0;
+  font-size: clamp(2.6rem, 5.4vw, 5.2rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.96);
+}
+
+.ep-system-head p {
+  max-width: 660px;
+  margin: 1.3rem auto 0;
+  font-size: 0.96rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.62);
+}
+
+.ep-system-orbit {
+  position: relative;
+  width: min(860px, 86vw);
+  height: min(520px, 54svh);
+  margin-inline: auto;
+  border-radius: 40px;
+  border: 1px solid rgba(255,255,255,0.09);
+  background:
+    radial-gradient(circle at 50% 50%, rgba(245,216,162,0.10), transparent 28%),
+    linear-gradient(180deg, rgba(255,255,255,0.055), rgba(255,255,255,0.014)),
+    rgba(3,5,10,0.86);
+  box-shadow:
+    0 34px 110px rgba(0,0,0,0.42),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  overflow: hidden;
+}
+
+.ep-system-orbit::before {
+  content: "";
+  position: absolute;
+  inset: 12%;
+  border-radius: 50%;
+  border: 1px solid rgba(245,216,162,0.16);
+}
+
+.ep-system-orbit::after {
+  content: "";
+  position: absolute;
+  inset: 24%;
+  border-radius: 50%;
+  border: 1px dashed rgba(255,255,255,0.12);
+}
+
+.ep-system-core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 240px;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 1.4rem;
+  z-index: 4;
+  background:
+    radial-gradient(circle, rgba(255,255,255,0.09), rgba(255,255,255,0.018) 62%, transparent 78%);
+  border: 1px solid rgba(245,216,162,0.18);
+  box-shadow:
+    0 0 80px rgba(245,216,162,0.12),
+    inset 0 0 36px rgba(255,255,255,0.035);
+}
+
+.ep-system-core span {
+  font-size: 0.58rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(245,216,162,0.72);
+}
+
+.ep-system-core strong {
+  font-size: 1.15rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-system-node {
+  position: absolute;
+  width: 190px;
+  min-height: 120px;
+  padding: 1rem;
+  border-radius: 24px;
+  z-index: 5;
+  text-align: center;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.78);
+  border: 1px solid rgba(255,255,255,0.09);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 70px rgba(0,0,0,0.32);
+}
+
+.ep-system-node span {
+  display: block;
+  font-size: 1.2rem;
+  color: rgba(245,216,162,0.82);
+}
+
+.ep-system-node strong {
+  display: block;
+  margin-top: 0.45rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.94);
+}
+
+.ep-system-node p {
+  margin: 0.55rem 0 0;
+  font-size: 0.7rem;
+  line-height: 1.55;
+  color: rgba(255,255,255,0.58);
+}
+
+.ep-system-node-1 { left: 7%; top: 14%; }
+.ep-system-node-2 { left: 50%; top: 6%; transform: translateX(-50%); }
+.ep-system-node-3 { right: 7%; top: 14%; }
+.ep-system-node-4 { right: 7%; bottom: 14%; }
+.ep-system-node-5 { left: 50%; bottom: 6%; transform: translateX(-50%); }
+.ep-system-node-6 { left: 7%; bottom: 14%; }
+
+@media (max-width: 768px) {
+  .ep-system-shell {
+    width: 90vw;
+    gap: 2rem;
+  }
+
+  .ep-system-head h2 {
+    font-size: clamp(2rem, 9vw, 2.8rem);
+  }
+
+  .ep-system-head p {
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  .ep-system-orbit {
+    height: auto;
+    min-height: 620px;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .ep-system-core,
+  .ep-system-node,
+  .ep-system-node-1,
+  .ep-system-node-2,
+  .ep-system-node-3,
+  .ep-system-node-4,
+  .ep-system-node-5,
+  .ep-system-node-6 {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    transform: none;
+    width: 100%;
+    min-height: auto;
+  }
+
+  .ep-system-core {
+    height: auto;
+    border-radius: 28px;
+  }
+
+  .ep-system-orbit::before,
+  .ep-system-orbit::after {
+    display: none;
+  }
+}
+
+
+
+
+/* ==========================================================
+   Civilization Intelligence
+========================================================== */
+
+.civ-intel-portal-page,
+.civ-intel-page {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.civ-intel-portal,
+.civ-intel-shell {
+  width: min(1180px, 92vw);
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+  margin-inline: auto;
+}
+
+.civ-intel-portal > span,
+.civ-intel-head span {
+  font-size: 0.68rem;
+  letter-spacing: 0.34em;
+  color: rgba(255,255,255,0.52);
+}
+
+.civ-intel-portal h2,
+.civ-intel-head h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 5.4vw, 5.2rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.96);
+}
+
+.civ-intel-portal p,
+.civ-intel-head p {
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 0.96rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.62);
+}
+
+.civ-intel-preview {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.civ-intel-preview div,
+.civ-intel-layer {
+  min-height: 180px;
+  padding: 1.4rem;
+  border-radius: 30px;
+  text-align: left;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(245,216,162,0.08), transparent 50%),
+    linear-gradient(180deg, rgba(255,255,255,0.065), rgba(255,255,255,0.018)),
+    rgba(3,5,10,0.86);
+  border: 1px solid rgba(255,255,255,0.09);
+  box-shadow:
+    0 28px 90px rgba(0,0,0,0.36),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+.civ-intel-preview small,
+.civ-intel-layer > span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.58rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: rgba(245,216,162,0.72);
+}
+
+.civ-intel-preview strong,
+.civ-intel-layer strong {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 1.25;
+  font-weight: 320;
+  color: rgba(255,255,255,0.94);
+}
+
+.civ-intel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.civ-intel-layer p {
+  margin: 0.8rem 0 1rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.58);
+}
+
+.civ-intel-items {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.civ-intel-items a,
+.civ-intel-items em {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: rgba(255,255,255,0.74);
+}
+
+.civ-intel-items a:hover {
+  color: rgba(245,216,162,0.92);
+}
+
+@media (max-width: 768px) {
+  .civ-intel-portal,
+  .civ-intel-shell {
+    width: 90vw;
+  }
+
+  .civ-intel-portal h2,
+  .civ-intel-head h1 {
+    font-size: clamp(2rem, 9vw, 2.8rem);
+  }
+
+  .civ-intel-portal p,
+  .civ-intel-head p {
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  .civ-intel-preview,
+  .civ-intel-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    scroll-snap-type: x mandatory;
+    padding: 0.4rem 0.4rem 1.2rem;
+    scrollbar-width: none;
+  }
+
+  .civ-intel-preview::-webkit-scrollbar,
+  .civ-intel-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .civ-intel-preview div,
+  .civ-intel-layer {
+    flex: 0 0 78vw;
+    min-width: 78vw;
+    scroll-snap-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Civilization Intelligence Responsive Override
+========================================================== */
+
+/* ---------- 共通 ---------- */
+
+.civ-intel-portal-page,
+.civ-intel-page{
+    width:100%;
+    max-width:100vw;
+    overflow:hidden;
+    display:grid;
+    place-items:center;
+}
+
+.civ-intel-portal,
+.civ-intel-shell{
+    width:min(1180px,92vw);
+    max-width:92vw;
+    margin-inline:auto;
+}
+
+/* ---------- HOME Preview ---------- */
+
+.civ-intel-preview{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:18px;
+}
+
+.civ-intel-preview>div{
+    min-width:0;
+}
+
+/* ---------- Intelligence Page ---------- */
+
+.civ-intel-grid{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    align-items:start;
+}
+
+.civ-intel-layer{
+    width:100%;
+    min-width:0;
+    min-height:320px;
+}
+
+.civ-intel-items{
+    overflow:hidden;
+}
+
+.civ-intel-items a,
+.civ-intel-items em{
+    display:block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+/* ==========================================================
+   Mobile
+========================================================== */
+
+@media (max-width:768px){
+
+.civ-intel-portal,
+.civ-intel-shell{
+    width:90vw;
+    max-width:90vw;
+}
+
+/* Preview */
+
+.civ-intel-preview{
+
+display:flex;
+overflow-x:auto;
+overflow-y:hidden;
+
+scroll-snap-type:x mandatory;
+
+gap:16px;
+
+padding-bottom:14px;
+
+-webkit-overflow-scrolling:touch;
+
+scrollbar-width:none;
+
+}
+
+.civ-intel-preview::-webkit-scrollbar{
+
+display:none;
+
+}
+
+.civ-intel-preview>div{
+
+flex:0 0 78vw;
+
+min-width:78vw;
+
+scroll-snap-align:center;
+
+}
+
+/* Main */
+
+.civ-intel-grid{
+
+display:flex;
+
+overflow-x:auto;
+
+overflow-y:hidden;
+
+scroll-snap-type:x mandatory;
+
+gap:16px;
+
+padding-bottom:14px;
+
+-webkit-overflow-scrolling:touch;
+
+scrollbar-width:none;
+
+}
+
+.civ-intel-grid::-webkit-scrollbar{
+
+display:none;
+
+}
+
+.civ-intel-layer{
+
+flex:0 0 82vw;
+
+min-width:82vw;
+
+min-height:300px;
+
+scroll-snap-align:center;
+
+}
+
+.civ-intel-head h1,
+.civ-intel-portal h2{
+
+font-size:clamp(2rem,9vw,2.9rem);
+
+}
+
+.civ-intel-head p,
+.civ-intel-portal p{
+
+font-size:.78rem;
+
+line-height:1.75;
+
+}
+
+}
+
+
+
+
+
+
+
+/* ==========================================================
+   Civilization Intelligence — Strict Frame Fit
+========================================================== */
+
+.civ-intel-portal-page,
+.civ-intel-page {
+  height: 100svh !important;
+  min-height: 100svh !important;
+  max-height: 100svh !important;
+  overflow: hidden !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: 0 !important;
+}
+
+.civ-intel-portal,
+.civ-intel-shell {
+  width: min(1040px, 88vw) !important;
+  max-width: 88vw !important;
+  max-height: 88svh !important;
+  overflow: hidden !important;
+  gap: 1.4rem !important;
+}
+
+/* Header compact */
+.civ-intel-portal > span,
+.civ-intel-head span {
+  font-size: 0.58rem !important;
+  letter-spacing: 0.28em !important;
+}
+
+.civ-intel-portal h2,
+.civ-intel-head h1 {
+  font-size: clamp(2rem, 4.2vw, 4rem) !important;
+  line-height: 1 !important;
+}
+
+.civ-intel-portal p,
+.civ-intel-head p {
+  max-width: 620px !important;
+  font-size: 0.82rem !important;
+  line-height: 1.65 !important;
+}
+
+/* HOME preview: always horizontal, never overflow page */
+.civ-intel-preview {
+  display: flex !important;
+  gap: 0.9rem !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0.2rem 0.2rem 0.9rem !important;
+  scroll-snap-type: x mandatory !important;
+  scrollbar-width: none !important;
+}
+
+.civ-intel-preview::-webkit-scrollbar {
+  display: none !important;
+}
+
+.civ-intel-preview > div {
+  flex: 0 0 240px !important;
+  width: 240px !important;
+  min-width: 240px !important;
+  min-height: 150px !important;
+  padding: 1rem !important;
+  scroll-snap-align: center !important;
+}
+
+/* Dedicated page: compact horizontal layers */
+.civ-intel-grid {
+  display: flex !important;
+  gap: 0.9rem !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0.2rem 0.2rem 0.9rem !important;
+  scroll-snap-type: x mandatory !important;
+  scrollbar-width: none !important;
+}
+
+.civ-intel-grid::-webkit-scrollbar {
+  display: none !important;
+}
+
+.civ-intel-layer {
+  flex: 0 0 280px !important;
+  width: 280px !important;
+  min-width: 280px !important;
+  max-width: 280px !important;
+  min-height: 300px !important;
+  max-height: 44svh !important;
+  overflow: hidden !important;
+  padding: 1.1rem !important;
+  scroll-snap-align: center !important;
+}
+
+.civ-intel-items {
+  max-height: 150px !important;
+  overflow-y: auto !important;
+  padding-right: 0.25rem !important;
+}
+
+.civ-intel-items a,
+.civ-intel-items em {
+  white-space: normal !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+/* text compact inside cards */
+.civ-intel-preview strong,
+.civ-intel-layer strong {
+  font-size: 1rem !important;
+  line-height: 1.25 !important;
+}
+
+.civ-intel-layer p {
+  font-size: 0.72rem !important;
+  line-height: 1.5 !important;
+}
+
+/* Mobile strict fit */
+@media (max-width: 768px) {
+  .civ-intel-portal,
+  .civ-intel-shell {
+    width: 88vw !important;
+    max-width: 88vw !important;
+    max-height: 86svh !important;
+    gap: 1.1rem !important;
+  }
+
+  .civ-intel-portal h2,
+  .civ-intel-head h1 {
+    font-size: clamp(1.75rem, 8vw, 2.55rem) !important;
+  }
+
+  .civ-intel-portal p,
+  .civ-intel-head p {
+    font-size: 0.72rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .civ-intel-preview > div,
+  .civ-intel-layer {
+    flex: 0 0 76vw !important;
+    width: 76vw !important;
+    min-width: 76vw !important;
+    max-width: 76vw !important;
+  }
+
+  .civ-intel-layer {
+    max-height: 48svh !important;
+    min-height: 285px !important;
+  }
+}
+
+
+
+
+
+/* ==========================================================
+   Civilization Intelligence — Portal + Library Scroll Fix
+========================================================== */
+
+/* 入口全体は中央・他HOME入口と同じ見え方 */
+.civ-intel-portal {
+  width: min(920px, 88vw) !important;
+  max-width: 88vw !important;
+  margin-inline: auto !important;
+  text-align: center !important;
+}
+
+/* HOME入口カードの横幅を抑える */
+.civ-intel-preview {
+  width: min(760px, 86vw) !important;
+  max-width: 86vw !important;
+  margin-inline: auto !important;
+  display: flex !important;
+  gap: 1rem !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scroll-snap-type: x mandatory !important;
+  padding: 0.4rem 0.4rem 1.2rem !important;
+  scrollbar-width: none !important;
+}
+
+.civ-intel-preview::-webkit-scrollbar {
+  display: none !important;
+}
+
+.civ-intel-preview > div {
+  flex: 0 0 240px !important;
+  width: 240px !important;
+  min-width: 240px !important;
+  min-height: 150px !important;
+  scroll-snap-align: center !important;
+}
+
+/* 専用ページの項目カードをLibrary風横スクロールへ */
+.civ-intel-grid {
+  width: min(1040px, 88vw) !important;
+  max-width: 88vw !important;
+  margin-inline: auto !important;
+  display: flex !important;
+  gap: 1rem !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scroll-snap-type: x mandatory !important;
+  padding: 0.5rem 0.5rem 1.3rem !important;
+  scrollbar-width: none !important;
+}
+
+.civ-intel-grid::-webkit-scrollbar {
+  display: none !important;
+}
+
+.civ-intel-layer {
+  flex: 0 0 300px !important;
+  width: 300px !important;
+  min-width: 300px !important;
+  max-width: 300px !important;
+  scroll-snap-align: center !important;
+  min-height: 320px !important;
+  max-height: 46svh !important;
+  overflow: hidden !important;
+}
+
+/* カード内部だけ縦スクロール */
+.civ-intel-items {
+  max-height: 155px !important;
+  overflow-y: auto !important;
+  padding-right: 0.3rem !important;
+  scrollbar-width: thin !important;
+}
+
+.civ-intel-items::-webkit-scrollbar {
+  width: 4px;
+}
+
+.civ-intel-items::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.22);
+  border-radius: 999px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .civ-intel-portal {
+    width: min(340px, 88vw) !important;
+    max-width: 88vw !important;
+  }
+
+  .civ-intel-preview {
+    width: 88vw !important;
+    max-width: 88vw !important;
+  }
+
+  .civ-intel-preview > div {
+    flex: 0 0 76vw !important;
+    width: 76vw !important;
+    min-width: 76vw !important;
+  }
+
+  .civ-intel-grid {
+    width: 88vw !important;
+    max-width: 88vw !important;
+  }
+
+  .civ-intel-layer {
+    flex: 0 0 76vw !important;
+    width: 76vw !important;
+    min-width: 76vw !important;
+    max-width: 76vw !important;
+    max-height: 48svh !important;
+  }
+}

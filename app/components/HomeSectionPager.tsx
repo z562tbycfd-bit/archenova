@@ -27,7 +27,14 @@ type ChapterTarget = {
   },
 
   {
-    id: "library",
+    id: "civilization-intelligence",
+    mark: "☯︎",
+    title: "INTELIGENCE",
+    subtitle: "Knowledge",
+  },
+
+  {
+    id: "civilization-library",
     mark: "⎅",
     title: "LIBRARY",
     subtitle: "ArcheNova BOOK",

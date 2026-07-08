@@ -2,6 +2,14 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import EpistemeObservation from "../components/episteme/EpistemeObservation";
+import EpistemeUnderstanding from "../components/episteme/EpistemeUnderstanding";
+import EpistemeReasoning from "../components/episteme/EpistemeReasoning";
+import EpistemeDesign from "../components/episteme/EpistemeDesign";
+import EpistemeRealization from "../components/episteme/EpistemeRealization";
+import EpistemeMemory from "../components/episteme/EpistemeMemory";
+import EpistemeCognitiveSystem from "../components/episteme/EpistemeCognitiveSystem";
+
 
 type EpistemeStatus = "idle" | "thinking" | "ready";
 
@@ -136,53 +144,22 @@ export default function EpistemePage() {
         </div>
       </section>
 
-      <section className="glass-block episteme-thinking-space">
-        <div className="episteme-thinking-head">
-          <span className="home-section-label">THINKING SPACE</span>
 
-          <h2>Reasoning unfolding.</h2>
+      <EpistemeCognitiveSystem />
+      
+      <EpistemeObservation />
+      
+      <EpistemeUnderstanding /> 
 
-          <p className="plaza-hint">
-            {status === "idle"
-              ? "Waiting for question."
-              : status === "thinking"
-              ? "Thinking..."
-              : "Judgment formed."}
-          </p>
-        </div>
+      <EpistemeReasoning />
 
-        <div className="episteme-orbit">
-          {THINKING_STAGES.map((stage, index) => (
-            <div
-              key={stage}
-              className={`episteme-orbit-node ${
-                index < phase
-                  ? "done"
-                  : status === "thinking" && index === phase
-                  ? "active"
-                  : "pending"
-              }`}
-            >
-              <span>{String(index + 1).padStart(2, "0")}</span>
-              <strong>{stage}</strong>
-            </div>
-          ))}
-        </div>
+      <EpistemeDesign />
 
-        <div className="episteme-node-grid">
-          {nodes.map((node, index) => (
-            <article key={node.title} className="episteme-node-card">
-              <div className="feed-source">
-                {String(index + 1).padStart(2, "0")}
-              </div>
+      <EpistemeRealization />
 
-              <h3>{node.title}</h3>
+      <EpistemeMemory /> 
 
-              <p>{node.body}</p>
-            </article>
-          ))}
-        </div>
-      </section>
+
 
       <section className="glass-block">
         <span className="home-section-label">APPLICATION</span>

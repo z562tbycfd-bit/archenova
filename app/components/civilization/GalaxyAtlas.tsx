@@ -16,7 +16,7 @@ const galaxyNodes: GalaxyNode[] = [
     id: "observatory",
     title: "Observatory",
     subtitle: "Observation and Record",
-    href: "/observatory",
+    href: "/episteme",
     x: 25,
     y: 39,
   },
