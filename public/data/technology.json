@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-07-08T11:07:43.536Z",
+  "updated": "2026-07-08T14:18:53.396Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Astrocytes Preserve Memory Persistence Through Ankyrin-2 Protein in Mice",
+      "url": "https://www.genengnews.com/topics/drug-discovery/astrocytes-preserve-memory-persistence-through-ankyrin-2-protein-in-mice/",
+      "summary": "How certain memories persist over time for learning and cognitive function remains unclear. A new study suggests that astrocytes play a critical role in long-term memory through the regulatory protein ankyrin-2 (Ank2). T…",
+      "ts": 1783519767000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Prime Medicine claims victory in dispute over gene-editing technology with Beam Therapeutics",
+      "url": "https://www.statnews.com/2026/07/08/prime-medicine-beam-therapeutics-arbitration-outcome/?utm_campaign=rss",
+      "summary": "Prime Medicine said it had won an arbitration dispute against Beam Therapeutics, a clash that had pitted two well-backed gene-editing companies against each other.",
+      "ts": 1783518775000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Vera kidney drug approval, a U.K. Enhertu pricing deal, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss",
+      "summary": "The FDA approved a kidney disease drug from Vera Therapeutics called Trutakna, to treat IgA nephropathy",
+      "ts": 1783516296000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Fi expands Starlink direct-to-device capability into dog-tracking",
+      "url": "https://spacenews.com/fi-expands-starlink-direct-to-device-capability-into-dog-tracking/",
+      "summary": "Pet technology company Fi launched a dog tracker July 8 that uses T-Mobile’s Starlink-enabled T-Satellite service to remain connected across the United States, even outside the telco’s terrestrial network. The post Fi ex…",
+      "ts": 1783515600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The satellite industry’s most expensive problem isn’t in orbit",
+      "url": "https://spacenews.com/the-satellite-industrys-most-expensive-problem-isnt-in-orbit/",
+      "summary": "AST SpaceMobile recently deployed three more BlueBird satellites into low Earth orbit as it advances plans for a space-based cellular broadband network of 45 to 60 satellites by the end […] The post The satellite industr…",
+      "ts": 1783515600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Deep space software upgrade for Hera’s asteroid visit",
+      "url": "https://www.esa.int/Space_Safety/Hera/Deep_space_software_upgrade_for_Hera_s_asteroid_visit",
+      "summary": "Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids t…",
+      "ts": 1783514640000,
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Helps Latin American and the Caribbean Countries Prepare for Nuclear and Radiological Emergencies Coinciding with Other Crises",
+      "url": "http://www.iaea.org/newscenter/news/iaea-helps-latin-american-and-the-caribbean-countries-prepare-for-nuclear-and-radiological-emergencies-coinciding-with-other-crises",
+      "summary": "The IAEA helps countries prepare for nuclear and radiological emergencies through its safety standards and guidance, as well as capacity-building initiatives.",
+      "ts": 1783513819000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: worms fight pollution, and geoengineering faces reality",
+      "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why worms (and microbes) are catching on as a manure pollution solution Anthony Ag…",
+      "ts": 1783512600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Venus Aerospace raises $91 million to scale rocket engine technology",
+      "url": "https://spacenews.com/venus-aerospace-raises-91-million-to-scale-rocket-engine-technology/",
+      "summary": "Funding will support development and production of the company’s rotating detonation rocket engine The post Venus Aerospace raises $91 million to scale rocket engine technology appeared first on SpaceNews.",
+      "ts": 1783512000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Cancer cases could nearly double by 2050 without urgent action, WHO warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167890",
+      "summary": "The number of new cancer cases worldwide could rise to almost 35 million a year by 2050 unless countries take urgent action to strengthen prevention, early diagnosis and treatment, the World Health Organization (WHO) war…",
+      "ts": 1783512000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Grim homecoming: Devastation greets Lebanon's war-weary returnees",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167893",
+      "summary": "The ceasefire deal between Beirut and Tel Aviv has led to a marked reduction in hostilities between Hezbollah and the Israeli military sparked by the wider Iran-Israel-US war, but the situation remains uncertain for comm…",
+      "ts": 1783512000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "Another big premium hike on the horizon ",
+      "url": "https://www.statnews.com/2026/07/08/health-news-more-big-premium-hikes-on-the-horizon/?utm_campaign=rss",
+      "summary": "FDA's crackdown on online ketamine retailers, unprecedented health care premium hikes, and more health news from Morning Rounds",
+      "ts": 1783510999000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "The government’s options to address strained spaceports",
@@ -326,7 +422,7 @@
       "source": "Genetic Engineering News",
       "title": "AI Reveals Hidden Brain Lesions in Multiple Sclerosis MRI",
       "url": "https://www.genengnews.com/topics/artificial-intelligence/ai-reveals-hidden-brain-lesions-in-multiple-sclerosis-mri/",
-      "summary": "Researchers combined AI with multiple image processing methods to reliably measure on existing multiple sclerosis MRI scans cortical lesions strongly implicated in disability and cognitive, which would previously have re…",
+      "summary": "Researchers combined AI with multiple image-processing methods to reliably measure cortical lesions on existing MRI scans from patients with multiple sclerosis—lesions that are strongly implicated in disability and cogni…",
       "ts": 1783450467000,
       "categoryId": "bio"
     },
@@ -625,102 +721,6 @@
       "summary": "As the military rushes to deploy proliferated networks, SpaceX’s dominance is attracting congressional scrutiny The post SpaceX satellite wins test Pentagon’s commitment to competition appeared first on SpaceNews.",
       "ts": 1783422000000,
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Why worms (and microbes) are catching on as a manure pollution solution",
-      "url": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
-      "summary": "Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips on his family’s land in Hickman, a tiny town in the state’s agricultural heartland. He reaches down with both…",
-      "ts": 1783418400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "5 takeaways from STAT’s series on the soaring cost of health insurance",
-      "url": "https://www.statnews.com/2026/07/07/why-health-insurance-costs-so-much-out-of-pocket-series-key-takeaways/?utm_campaign=rss",
-      "summary": "Read the 5 key takeaways from STAT's series \"Out of Pocket, Out of Reach,\" an examination of workplace health insurance.",
-      "ts": 1783413000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: What if this Ebola outbreak can’t be stopped?",
-      "url": "https://www.statnews.com/2026/07/07/ebola-outbreak-drc-uganda-endemic-control/?utm_campaign=rss",
-      "summary": "In the past, the possibility of endemic Ebola was unthinkable. This time is different, write Ivan Buendia Gayton and Eric D. Perakslis.",
-      "ts": 1783413000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: This whistleblower took on a health insurance giant and a political machine. She’s not stopping there",
-      "url": "https://www.statnews.com/2026/07/07/employer-based-insurance-whistleblower-out-of-pocket-series-part-3/?utm_campaign=rss",
-      "summary": "America’s employers must stop acting helpless in the face of health care industry profiteering, Chris Deacon says.",
-      "ts": 1783413000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: America’s small businesses are giving up on health insurance",
-      "url": "https://www.statnews.com/2026/07/07/small-business-health-insurance-costs-out-of-pocket-series-part-1/?utm_campaign=rss",
-      "summary": "America's employer-based health insurance system is crumbling. STAT investigates why, in our new series, “Out of Pocket, Out of Reach.”",
-      "ts": 1783413000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: For a Georgia entrepreneur, health coverage has never been affordable",
-      "url": "https://www.statnews.com/2026/07/07/aca-health-insurance-small-business-out-of-pocket-series-part-2/?utm_campaign=rss",
-      "summary": "Amy Bielawski is one of the 30 million people who run their own businesses. She's gone most of her life without health insurance.",
-      "ts": 1783413000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Medicine thinks Gen Z is too soft. It’s wrong",
-      "url": "https://www.statnews.com/2026/07/07/gen-z-doctors-too-soft/?utm_campaign=rss",
-      "summary": "“Gen Z physicians are on a collision course with institutions still built around older assumptions,” writes Frantz M. Berthaud.",
-      "ts": 1783413000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "First IAEA Training on Public Communication in Nuclear Security",
-      "url": "http://www.iaea.org/newscenter/news/first-iaea-training-on-public-communication-in-nuclear-security",
-      "summary": "",
-      "ts": 1783412387000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "ESA",
-      "title": "Unpacking Europe’s new weather imagers",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Unpacking_Europe_s_new_weather_imagers",
-      "summary": "The second Meteosat Third Generation Imager satellite (MTG-I2) has begun its launch campaign, during which it will go through final inspections before being fitted inside the fairing of the Ariane 6 rocket that will laun…",
-      "ts": 1783411200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Isar Aerospace signs agreement for Canadian launch site",
-      "url": "https://spacenews.com/isar-aerospace-signs-agreement-for-canadian-launch-site/",
-      "summary": "Isar Aerospace has signed a contract to develop a Canadian launch site for its Spectrum rocket, an agreement linked to a deal to sell submarines to the Canadian military. The post Isar Aerospace signs agreement for Canad…",
-      "ts": 1783411200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Nuclear Liability: Ensuring Legal Certainty and Compensation for Nuclear Damage",
-      "url": "http://www.iaea.org/newscenter/news/nuclear-liability-ensuring-legal-certainty-and-compensation-for-nuclear-damage",
-      "summary": "",
-      "ts": 1783409405000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
-      "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
-      "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmen…",
-      "ts": 1783404026000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

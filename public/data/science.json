@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-08T11:07:40.086Z",
+  "updated": "2026-07-08T14:18:45.815Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What's in a name? AI associates Jewish names with stereotypical traits",
+      "url": "https://phys.org/news/2026-07-ai-associates-jewish-stereotypical-traits.html",
+      "summary": "A cynical doctor. A ruthless chemist. An arrogant billionaire. A calculating mafia boss. These are not only some of today's most iconic fictional characters—they are also the figures that artificial intelligence models f…",
+      "ts": 1783519208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Peru Amazon highway tied to 400% dengue surge within 5 kilometers of road",
+      "url": "https://phys.org/news/2026-07-peru-amazon-highway-dengue-surge.html",
+      "summary": "New roads bring changes to the regions they traverse. They can enable job opportunities, access to medicine and health care, and electricity. But they also disrupt local ecosystems and can have surprising consequences fo…",
+      "ts": 1783519207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black hole collisions may follow entropy law, offering simpler remnant predictions",
+      "url": "https://phys.org/news/2026-07-black-hole-collisions-entropy-law.html",
+      "summary": "When two black holes orbit each other, they eventually spiral inward and collide in one of the most violent phenomena in the universe. The event is so energetic that it significantly distorts the universe around it. It e…",
+      "ts": 1783519201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny Jurassic bird reveals a key step in bird evolution",
+      "url": "https://phys.org/news/2026-07-tiny-jurassic-bird-reveals-key.html",
+      "summary": "The transition from a lumbering, heavy dinosaur body to the flight-adapted bird body plan is one of many fascinating episodes in evolutionary history. Working out how this massive transformation took place relies heavily…",
+      "ts": 1783518006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quiet, please: Hatchery salmon raised amid noise are less likely to return to spawn",
+      "url": "https://phys.org/news/2026-07-quiet-hatchery-salmon-noise-spawn.html",
+      "summary": "Fish hatcheries are a critical part of the effort to restore salmon runs in the Pacific Northwest. But hatchery fish are less likely than wild ones to return from the ocean to spawn—and one reason may be hatchery noise.",
+      "ts": 1783518001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "It's been 30 years since Dolly the sheep was born—where is cloning technology now?",
+      "url": "https://phys.org/news/2026-07-years-dolly-sheep-born-cloning.html",
+      "summary": "When Dolly the sheep—the first cloned mammal—was born 30 years ago, she became one of the most famous animals in science history. Her arrival sparked predictions of a sci-fi future filled with cloned pets, cloned humans …",
+      "ts": 1783516801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Another success for Hayabusa 2 as it completes a flyby of asteroid Torifune",
+      "url": "https://phys.org/news/2026-07-success-hayabusa-flyby-asteroid-torifune.html",
+      "summary": "Hayabusa 2's primary mission is now well in the past. JAXA's asteroid-sampling spacecraft rendezvoused with asteroid Ryugu in June 2018. It studied the asteroid for 1.5 years and gathered a sample that was returned to Ea…",
+      "ts": 1783514404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "JWST's 'overmassive' early black holes may not be so massive after all",
+      "url": "https://phys.org/news/2026-07-jwst-overmassive-early-black-holes.html",
+      "summary": "Astronomers studying a population of unusually X-ray-silent and overmassive black holes discovered by the James Webb Space Telescope have found that they may not be as massive as they appear. The new paper, outlining a p…",
+      "ts": 1783514401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Robin study suggests fleeing isn't necessarily wildlife's first response to wildfire smoke",
+      "url": "https://phys.org/news/2026-07-robin-isnt-necessarily-wildlife-response.html",
+      "summary": "Research by Oregon State University biologists suggests that toxic air stemming from wildfires won't necessarily prompt animals to flee in search of better breathing conditions. The study of American robins led by OSU's …",
+      "ts": 1783513203000
+    },
+    {
+      "source": "Science News",
+      "title": "AI tools meant to vet science are surprisingly easy to fool",
+      "url": "https://www.sciencenews.org/article/ai-tools-science-peer-review-problems",
+      "summary": "The gold standard of scientific review, peer review by researchers’ colleagues, is in crisis. AI might offer a solution but has problems of its own.",
+      "ts": 1783512000000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study examines Miami-Dade County resilience plans",
+      "url": "https://phys.org/news/2026-07-miami-dade-county-resilience.html",
+      "summary": "A University of Miami study has developed a new approach to evaluate how multiple climate resilience plans work together—or fail to do so—in addressing the growing risks posed by climate-related hazards. The researchers …",
+      "ts": 1783510801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Social media influencers who match racial, ethnic identity of their audiences have a bigger—and unhealthy—impact",
+      "url": "https://phys.org/news/2026-07-social-media-racial-ethnic-identity.html",
+      "summary": "Food marketers increasingly use people for paid promotions who share the racial and ethnic identities of their target audiences because such \"identity congruence\" is seen as persuasive. This strategy has migrated to soci…",
+      "ts": 1783509604000
+    },
     {
       "source": "Phys.org",
       "title": "Is the decline of newspapers taking the pressure off of corporate social responsibility programs? Research says 'yes'",
@@ -616,90 +700,6 @@
       "title": "Self-Supervised Implicit CEST Reconstruction via Physics-Informed Lorentz Encoding",
       "url": "https://arxiv.org/abs/2607.06132",
       "summary": "arXiv:2607.06132v1 Announce Type: cross Abstract: Multi-Pool Chemical Exchange Saturation Transfer (CEST) MRI provides valuable metabolic information but is clinically limited by long acquisition times. Although sparse s…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermodynamic phase transitions in lattice spin systems with severe kinetic constraints: Numerical simulation results",
-      "url": "https://arxiv.org/abs/2607.06205",
-      "summary": "arXiv:2607.06205v1 Announce Type: cross Abstract: The Fredrickson-Andersen model with hyperparameter $K=1$ is a severely constrained kinetic lattice spin system, such that any site is temporarily blocked from changing it…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast Alternating Radial Beamforming for Speed-of-Sound Imaging Based on Apparent Speckle Shifts",
-      "url": "https://arxiv.org/abs/2607.06244",
-      "summary": "arXiv:2607.06244v1 Announce Type: cross Abstract: Pulse-echo speed-of-sound (SoS) imaging based on minute misalignments between consecutively acquired ultrasound images traditionally relies on images beamformed on Cartes…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robust q-negative Multifractal Detrended Cross-Correlation Coefficient",
-      "url": "https://arxiv.org/abs/2607.06324",
-      "summary": "arXiv:2607.06324v1 Announce Type: cross Abstract: The multifractal detrended cross-correlation coefficient $\\rho_q(n)$ is widely used to investigate scale-dependent interactions, but its application to negative fluctuati…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Informed Neural Embeddings of PDE Solution Families",
-      "url": "https://arxiv.org/abs/2607.06348",
-      "summary": "arXiv:2607.06348v1 Announce Type: cross Abstract: We introduce a physics-informed framework for learning finite-dimensional embeddings of solution families of partial differential equations. The method uses a multihead P…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamical Simulation of Membrane Bending by Flexible Protein Assemblies",
-      "url": "https://arxiv.org/abs/2607.06378",
-      "summary": "arXiv:2607.06378v1 Announce Type: cross Abstract: Membrane-deforming protein lattices play a key role in essential and pathogenic biological processes, including endocytosis and viral budding. Attaining the necessary len…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Attosecond metrology of bright quantum light",
-      "url": "https://arxiv.org/abs/2607.06395",
-      "summary": "arXiv:2607.06395v1 Announce Type: cross Abstract: Attosecond metrology is the ability to measure ultrafast optical light-wave oscillations, yet its approach has been limited to classical fields. Hence, the influence of t…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nested Volume-Surface Integral Equations for Acoustics",
-      "url": "https://arxiv.org/abs/2607.06429",
-      "summary": "arXiv:2607.06429v1 Announce Type: cross Abstract: The simulation of high-frequency acoustic wave propagation in unbounded domains with local heterogeneous materials and high-contrast interfaces poses significant challeng…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sedimentation equilibrium and gravity dependent stiffness coefficients of colloidal hard-spheres",
-      "url": "https://arxiv.org/abs/2607.06510",
-      "summary": "arXiv:2607.06510v1 Announce Type: cross Abstract: Spherical colloids with harsh repulsive forces have long been used as experimental analogs of the hard sphere model, with demonstrated good agreement with computer simula…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probability-turbulence divergence: A tunable allotaxonometric instrument for comparing heavy-tailed categorical distributions",
-      "url": "https://arxiv.org/abs/2008.13078",
-      "summary": "arXiv:2008.13078v4 Announce Type: replace Abstract: Real-world complex systems often comprise many distinct types of elements as well as many more types of networked interactions between elements. When the relative abund…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "External quantum efficiency above 100% in photovoltaic cells due to the technique raising efficiencies for all kinds of solar cells",
-      "url": "https://arxiv.org/abs/2409.20066",
-      "summary": "arXiv:2409.20066v3 Announce Type: replace Abstract: A V-shaped module (VSM) photovoltaic technique, which breaks traditional concepts, has been proven by European and American scientists to enable power-conversion-effici…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MAIA: A new detector concept for a 10 TeV muon collider",
-      "url": "https://arxiv.org/abs/2502.00181",
-      "summary": "arXiv:2502.00181v2 Announce Type: replace Abstract: Muon colliders offer a compelling opportunity to explore the TeV scale and conduct precision tests of the Standard Model, all within a relatively compact geographical f…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reduced NEXI protocol for the quantification of human gray matter microstructure on the Connectome 2.0 scanner",
-      "url": "https://arxiv.org/abs/2509.09513",
-      "summary": "arXiv:2509.09513v3 Announce Type: replace Abstract: Biophysical diffusion MRI models like Neurite Exchange Imaging (NEXI) are essential for probing gray matter microstructure, estimating compartment diffusivities, neurit…",
       "ts": 1783483200000
     }
   ],
