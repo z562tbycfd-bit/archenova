@@ -27,7 +27,7 @@ type ChapterTarget = {
   },
 
   {
-    id: "civilization-Intelligence",
+    id: "civilization-intelligence",
     mark: "⚛︎",
     title: "Intelligence",
     subtitle: "ArcheNova OS",
