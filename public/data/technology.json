@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-08T18:20:15.912Z",
+  "updated": "2026-07-08T20:22:32.037Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Epitope Editing Strategy Could Enable Less Toxic Stem Cell Transplants",
+      "url": "https://www.genengnews.com/topics/translational-medicine/epitope-editing-strategy-could-enable-less-toxic-stem-cell-transplants/",
+      "summary": "Researchers developed an epitope editing strategy to make donated stem cells invisible to pre-transplant antibody therapy, offering up a new approach that could make antibodies a less toxic alternative to chemotherapy fo…",
+      "ts": 1783537983000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Fujifilm Selected with Six Others in FDA PreCheck Pilot Manufacturing Program",
+      "url": "https://www.genengnews.com/topics/bioprocessing/fujifilm-selected-with-six-others-in-fda-precheck-pilot-manufacturing-program/",
+      "summary": "Fujifilm’s Holly Springs facility is one of North America's largest end-to-end cell culture biopharmaceutical manufacturing facilities and represents a key node in the company’s growing global manufacturing network. The …",
+      "ts": 1783537257000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: White House reviewing top contenders to lead FDA",
+      "url": "https://www.statnews.com/2026/07/08/new-fda-commissioner-finalists-under-white-house-review/?utm_campaign=rss",
+      "summary": "The White House is reviewing finalists for FDA commissioner, suggesting the highly anticipated decision may come soon.",
+      "ts": 1783536714000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Is this the year for a NASA authorization bill?",
@@ -12,7 +36,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Brigham and Women’s Hospital nurses walk out, beginning largest nurses strike in Massachusetts history",
+      "title": "STAT+: Mass General Brigham, nurses called to talk at State House amid biggest nursing strike in Mass.",
       "url": "https://www.statnews.com/2026/07/08/brigham-and-womens-hospital-boston-nurses-strike-largest-massachusetts-history/?utm_campaign=rss",
       "summary": "The Brigham, a nationally renowned Harvard teaching hospital, and MGB have have unsuccessfully been negotiating a new contract for months.",
       "ts": 1783531927000,
@@ -145,6 +169,14 @@
       "summary": "The FDA approved a kidney disease drug from Vera Therapeutics called Trutakna, to treat IgA nephropathy",
       "ts": 1783516296000,
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "ts": 1783515600000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -688,38 +720,6 @@
       "url": "https://www.statnews.com/2026/07/07/biotech-news-compass-reports-depression-drug-has-long-lasting-benefits/?utm_campaign=rss",
       "summary": "Vertex makes its largest-ever deal, skyrocketing health insurance costs, and more biotech news from The Readout",
       "ts": 1783436690000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
-      "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
-      "summary": "Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. Across the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learnin…",
-      "ts": 1783436452000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: America’s employer health insurance is decaying",
-      "url": "https://www.statnews.com/2026/07/07/insurance-affordability-crisis-health-care-inc-newsletter/?utm_campaign=rss",
-      "summary": "STAT's Bob Herman examines the under-the-radar crisis brewing in employer-based health insurance.",
-      "ts": 1783436286000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AI Tackles Tuberculosis, Identifies Drugs that Penetrate Bacteria Membrane",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/ai-tackles-tuberculosis-identifies-drugs-that-penetrate-bacteria-membrane/",
-      "summary": "Researchers have developed a new AI approach to select chemical compounds that can penetrate the bacterial membrane to treat tuberculosis, one of the world’s deadliest single-agent caused infections. The post AI Tackles …",
-      "ts": 1783435535000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "KLK1 Expands Possibilities to Restore Vascular Health",
-      "url": "https://www.genengnews.com/topics/drug-discovery/klk1-expands-possibilities-to-restore-vascular-health/",
-      "summary": "By restoring the body’s ability to produce KLK1, therapies are emerging for preeclampsia moms and for acute ischemic stroke who missed the tPA window. The post KLK1 Expands Possibilities to Restore Vascular Health appear…",
-      "ts": 1783434566000,
       "categoryId": "bio"
     }
   ],
