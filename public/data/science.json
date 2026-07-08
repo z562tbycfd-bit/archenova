@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-08T20:22:29.204Z",
+  "updated": "2026-07-08T22:09:34.568Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Brown howler monkeys rest more on long, hot days and when feeding on leaves",
+      "url": "https://phys.org/news/2026-07-brown-howler-monkeys-rest-hot.html",
+      "summary": "The daily movements of brown howler monkeys (Alouatta guariba) in the forest are determined by an interplay of environmental, behavioral and social factors. This is one of the conclusions of a study conducted in Brazil a…",
+      "ts": 1783548005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New deep-sea measurements show how the ocean floor forms",
+      "url": "https://phys.org/news/2026-07-deep-sea-ocean-floor.html",
+      "summary": "The first-known direct observations of a seafloor spreading event at a mid-ocean ridge in the Indian Ocean are presented in Nature. The observations offer insight into how new oceanic crust is created.",
+      "ts": 1783548003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Decoding of one of nature's largest enzymes reveals electron flow behind biological methane production",
+      "url": "https://phys.org/news/2026-07-decoding-nature-largest-enzymes-reveals.html",
+      "summary": "A research team at Marburg University has investigated one of the largest enzyme complexes found in nature to date and deciphered its remarkable structure. Under the supervision of Dr. Jan Schuller, Ph.D. student Sophia …",
+      "ts": 1783546809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nine out of 10 Brazilian cities have experienced climate-related disasters over the past three decades",
+      "url": "https://phys.org/news/2026-07-brazilian-cities-experienced-climate-disasters.html",
+      "summary": "Extreme weather events are becoming increasingly frequent and severe. The El Niño predicted for 2026–2027 is one such event. These events have caused environmental, economic and social impacts in Brazil, requiring specif…",
+      "ts": 1783546805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe risks a pollinator crisis, researchers warn",
+      "url": "https://phys.org/news/2026-07-europe-pollinator-crisis.html",
+      "summary": "Europe risks a severe crisis if the decline of wild pollinators continues. This is the key message of a new white paper prepared by 135 researchers from eight research consortia, including the projects BUTTERFLY, RestPol…",
+      "ts": 1783545605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indigenous peoples in the Amazon face massive cultural and ecological loss due to climate change",
+      "url": "https://phys.org/news/2026-07-indigenous-peoples-amazon-massive-cultural.html",
+      "summary": "The Amazon region, Earth's most important ecosystem, is home to more than 400 Indigenous groups that use thousands of rainforest plant species. They pass on their knowledge of the flora primarily through oral tradition, …",
+      "ts": 1783545601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Block-by-block AI maps uncover real urban air temperatures across 380 U.S. cities",
+      "url": "https://phys.org/news/2026-07-block-ai-uncover-real-urban.html",
+      "summary": "Cities are often described as \"heat islands,\" with media reports warning that some neighborhoods can be 20° F (7° C) hotter than others. But those temperatures are often based on satellite data rather than the conditions…",
+      "ts": 1783545001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dynamic population breeding improves turquoise killifish husbandry",
+      "url": "https://phys.org/news/2026-07-dynamic-population-turquoise-killifish-husbandry.html",
+      "summary": "Originally from southeastern Africa, the turquoise killifish (Nothobranchius furzeri) lives in seasonal bodies of water that form during the rainy season and disappear again during the dry season. The fish is highly adap…",
+      "ts": 1783544405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "X-pinch plasma achieves radial proton acceleration for crisp imaging",
+      "url": "https://phys.org/news/2026-07-plasma-radial-proton-crisp-imaging.html",
+      "summary": "Plasma pinches: From pursuits of nuclear fusion to an attractive point source of accelerated protons for proton radiography.",
+      "ts": 1783544401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Older adults are at risk in heat waves, but it's not just age: How public systems and policies are failing them",
+      "url": "https://phys.org/news/2026-07-older-adults-age-policies.html",
+      "summary": "Five years ago, British Columbia's heat dome became one of the deadliest weather disasters in Canadian history.",
+      "ts": 1783543205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover rare 'super-Jupiter' planet with 180-day long orbit",
+      "url": "https://phys.org/news/2026-07-scientists-rare-super-jupiter-planet.html",
+      "summary": "Scientists from Queen's University Belfast have led an international team in the discovery of a rare new planet, which is larger than Jupiter and orbits a distant star every 180 days. Named NGTS-38 b, it is an exoplanet—…",
+      "ts": 1783543202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers dig deep to find tiny dangerous space debris",
+      "url": "https://phys.org/news/2026-07-astronomers-deep-tiny-dangerous-space.html",
+      "summary": "In a new study, published in the Journal of the Astronautical Sciences, Warwick researchers led an international effort to uncover some of the faintest debris in geosynchronous orbit ever observed, finding fragments as s…",
+      "ts": 1783542601000
+    },
     {
       "source": "Phys.org",
       "title": "Heat-shrinking materials get cleaner production route with lower temperatures and finer particles",
@@ -617,90 +701,6 @@
       "url": "http://link.aps.org/doi/10.1103/q2cc-stbr",
       "summary": "Author(s): Qingzheng Qiu, Sae Hwan Chun, Jaeku Park, Dogeun Jang, Li Yue, Yeongkwan Kim, Yeojin Ahn, Mingi Jho, Kimoon Han, Xinyi Jiang, Qian Xiao, Tao Dong, Jia-Yi Ji, Nanlin Wang, Jeroen van den Brink, Jasper van Wezel…",
       "ts": 1783504800000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Time-frequency-correlated native <span class=\"sc\">ccz</span> gates in superconducting circuits",
-      "url": "http://link.aps.org/doi/10.1103/9st1-wvdl",
-      "summary": "Author(s): Chenhui Wang, Weilong Wang, Yangyang Fei, Zhiqiang Fan, Hanshi Zhao, Geyuyan Ma, and Zheng Shan Practical quantum advantage hinges on executing deep quantum circuits within the coherence limits of noisy interm…",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Agentic Exploration of Physics Models",
-      "url": "http://link.aps.org/doi/10.1103/xnqc-q6nt",
-      "summary": "Author(s): Maximilian Nägele and Florian Marquardt ꜱᴄɪᴇxᴘʟᴏʀᴇʀ, a generalist artificial scientist agent based on a large-language model, automates the process of scientific research and discovery and uncovers underlying …",
-      "ts": 1783504800000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Hotter, drier weather could double water bills in some US cities, study finds",
-      "url": "https://phys.org/news/2026-07-hotter-drier-weather-bills-cities.html",
-      "summary": "Hotter, drier weather threatens to double water bills by midcentury in some cities, according to a Stanford-led study. The research, published in Nature Sustainability, is the first to comprehensively model how climate c…",
-      "ts": 1783501209000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Sensors, early starts: How Spain keeps working when heat hits",
-      "url": "https://phys.org/news/2026-07-sensors-early-spain.html",
-      "summary": "The morning sun beats down on Antonio Reina as he tends a public garden in Barcelona, but he works reassured that a simple wristband protects him in the summer heat.",
-      "ts": 1783501201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Cambodia wants to bring tigers back, but should it?",
-      "url": "https://phys.org/news/2026-07-cambodia-tigers.html",
-      "summary": "Pan Sok still remembers his relative screaming as a tiger dragged him away one night, deep inside the Cambodian rainforest where they were tapping trees for resin.",
-      "ts": 1783500001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "What to know about the total solar eclipse due in August",
-      "url": "https://phys.org/news/2026-07-total-solar-eclipse-due-august.html",
-      "summary": "Day will briefly turn into night across a swath of northern Spain on Aug. 12, when the moon will completely cover the sun during a rare total solar eclipse.",
-      "ts": 1783499401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "UK museums at 'sharp end' of climate change challenge",
-      "url": "https://phys.org/news/2026-07-uk-museums-sharp-climate.html",
-      "summary": "As visitors peered at skeletons and preserved animals in a London zoological museum during a UK heat wave, staff focused on a different attraction: a computer screen glowing with red and green temperature indicators.",
-      "ts": 1783498202000
-    },
-    {
-      "source": "Phys.org",
-      "title": "'Unique event': Solar eclipse fever fills empty Spain",
-      "url": "https://phys.org/news/2026-07-unique-event-solar-eclipse-fever.html",
-      "summary": "As a child, Enrique Bordallo would gaze in awe at the starry night sky in rural Spain. Next month's solar eclipse has now made his passion a popular obsession.",
-      "ts": 1783497616000
-    },
-    {
-      "source": "Phys.org",
-      "title": "How foreign direct investments affect employment and income in rural areas of the US",
-      "url": "https://phys.org/news/2026-07-foreign-investments-affect-employment-income.html",
-      "summary": "Federal trade and industrial policies have triggered a new wave of foreign direct investment (FDI) in the United States, with some companies committing billions of dollars to U.S.-based manufacturing. Now, an analysis in…",
-      "ts": 1783494601000
-    },
-    {
-      "source": "Phys.org",
-      "title": "How climate change affects interactions between owls and their prey",
-      "url": "https://phys.org/news/2026-07-climate-affects-interactions-owls-prey.html",
-      "summary": "A study published in Ecography has assessed how climate change may be destabilizing interactions between predators and prey in the wild—specifically, how owl–prey interactions have responded to environmental variability …",
-      "ts": 1783494003000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Global warming, increasing wildfire risk threaten viability of some California winery regions",
-      "url": "https://phys.org/news/2026-07-global-wildfire-threaten-viability-california.html",
-      "summary": "The U.S. is the fourth-largest wine-producing country by output volume, and approximately 80% of its production occurs in California. Ever since the 19th century, California's premier wine-growing regions have been the N…",
-      "ts": 1783483203000
-    },
-    {
-      "source": "Phys.org",
-      "title": "How tall and short trees can coexist in old growth forests",
-      "url": "https://phys.org/news/2026-07-tall-short-trees-coexist-growth.html",
-      "summary": "Forests are shaped by light competition. The trees that grow the tallest have access to the most sunlight, blocking the rays and rendering the shaded space around them inhospitable to shorter trees below. In this stem ex…",
-      "ts": 1783483201000
     }
   ],
   "sources": [

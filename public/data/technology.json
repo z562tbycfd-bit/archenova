@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-08T20:22:32.037Z",
+  "updated": "2026-07-08T22:09:38.608Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "ispace to send larger payloads to the moon on SpaceX’s Starship",
+      "url": "https://spacenews.com/ispace-to-send-larger-payloads-to-the-moon-on-spacexs-starship/",
+      "summary": "Japanese lunar exploration company ispace is buying space on a future Starship lunar lander mission to deliver larger payloads to the moon. The post ispace to send larger payloads to the moon on SpaceX’s Starship appeare…",
+      "ts": 1783546096000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Students Connect NASA Science With Indigenous Knowledge to Study Coastal Erosion",
+      "url": "https://science.nasa.gov/learning-resources/science-activation/students-connect-nasa-science-with-indigenous-knowledge-to-study-coastal-erosion/",
+      "summary": "For the Pleasant Point Passamaquoddy Reservation, or Sipayik, the ocean has always been a teacher. Situated in what is known as Downeast Maine, along the shores of Passamaquoddy Bay, generations of Indigenous people have…",
+      "ts": 1783544654000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: RFK Jr. plans to create list of injuries caused by Covid-19 vaccines",
+      "url": "https://www.statnews.com/2026/07/08/hhs-to-propose-covid-19-countermeasures-injury-table/?utm_campaign=rss",
+      "summary": "It's not clear what conditions may make the list, but outside experts are watching it closely.",
+      "ts": 1783543261000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Epitope Editing Strategy Could Enable Less Toxic Stem Cell Transplants",
@@ -163,6 +187,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Our approach to government and national security partnerships",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "ts": 1783517400000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about a Vera kidney drug approval, a U.K. Enhertu pricing deal, and more",
       "url": "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss",
@@ -228,6 +260,46 @@
     },
     {
       "source": "United Nations News",
+      "title": "UN Syria inquiry presses for answers on missing detainees after wide-ranging visit",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167901",
+      "summary": "UN investigators have urged Syria’s Government to trace thousands of missing detainees and hold perpetrators to account after a week-long visit that took in bomb attacks in Damascus, prison visits in the northeast and re…",
+      "ts": 1783512000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Help is coming’: UN relief chief briefs on Venezuela quake recovery",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167899",
+      "summary": "The widespread solidarity shown to Venezuela must now be transformed into real, practical support for recovery from the deadly double earthquakes last month, UN relief chief Tom Fletcher said on Wednesday.",
+      "ts": 1783512000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "US-Iran war: Renewed attacks in Strait of Hormuz prompts another global energy alert",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167898",
+      "summary": "Renewed attacks on shipping in the Strait of Hormuz unsettled energy markets on Wednesday and prompted calls from the UN maritime agency, IMO, for “maximum restraint and de-escalation”.",
+      "ts": 1783512000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sudan: ‘El Obeid must not become the next crime scene’ warn UN investigators",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167897",
+      "summary": "Atrocities committed by the Rapid Support Forces (RSF) militia against Sudanese civilians in El Fasher in October – including mass killings, abductions and gang rapes – bear the markers of genocide, independent UN human …",
+      "ts": 1783512000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Open debate on sexual violence in conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167894",
+      "summary": "The UN Security Council is holding an open debate Tuesday honouring the promise of international law to survivors of sexual violence in conflict as more reports emerge about warring parties using rape as a weapon, action…",
+      "ts": 1783512000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Cancer cases could nearly double by 2050 without urgent action, WHO warns",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167890",
       "summary": "The number of new cancer cases worldwide could rise to almost 35 million a year by 2050 unless countries take urgent action to strengthen prevention, early diagnosis and treatment, the World Health Organization (WHO) war…",
@@ -238,7 +310,7 @@
       "source": "United Nations News",
       "title": "Grim homecoming: Devastation greets Lebanon's war-weary returnees",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167893",
-      "summary": "The ceasefire deal between Beirut and Tel Aviv has led to a marked reduction in hostilities between Hezbollah and the Israeli military sparked by the wider Iran-Israel-US war, but the situation remains uncertain for comm…",
+      "summary": "The ceasefire deal between Beirut and Tel Aviv has led to a marked reduction in hostilities between Hezbollah and the Israeli military, sparked by the wider Iran-Israel-US war, but the situation remains uncertain for com…",
       "ts": 1783512000000,
       "categoryId": "global-governance"
     },
@@ -649,78 +721,6 @@
       "summary": "NASA ceremonially transferred ownership of about 105 acres of wooded land at its Goddard Space Flight Center’s Greenbelt, Maryland, campus Tuesday to the adjoining Patuxent Research Refuge, managed by the U.S. Fish and W…",
       "ts": 1783447200000,
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Arianespace opens door to GEO rideshare opportunities from 2029",
-      "url": "https://spacenews.com/arianespace-opens-door-to-geo-rideshare-opportunities-from-2029/",
-      "summary": "MILAN — Arianespace has signed a Memorandum of Understanding with French in-orbit servicing company Infinite Orbits to explore future collaboration on multiple direct-to-GEO rideshare launch services, the companies annou…",
-      "ts": 1783446750000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s New Horizons Spacecraft Wakes from Hibernation in Good Health",
-      "url": "https://science.nasa.gov/missions/new-horizons/nasas-new-horizons-spacecraft-wakes-from-hibernation-in-good-health/",
-      "summary": "Following its longest hibernation period ever of nearly a year, NASA’s New Horizons spacecraft has emerged in good health and is ready to begin transmitting science data gathered in the distant Kuiper Belt far beyond Plu…",
-      "ts": 1783446529000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA approves Vera Therapeutics kidney disease treatment",
-      "url": "https://www.statnews.com/2026/07/07/vera-therapeutics-kidney-disease-treatment-approval/?utm_campaign=rss",
-      "summary": "The FDA approved a new medicine from the biotech company Vera Therapeutics for patients with a type of chronic autoimmune kidney disease.",
-      "ts": 1783442676000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Artemis II Crew and Apollo 14 Moon Tree",
-      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-and-apollo-14-moon-tree/",
-      "summary": "In this photograph, the Artemis II crew participates in the dedication of the Apollo 14 Moon tree at the Lunar Receiving Park at NASA’s Johnson Space Center on June 25, 2026. This tree is a second-generation Apollo Moon …",
-      "ts": 1783441010000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "July 2026 Satellite Puzzler",
-      "url": "https://science.nasa.gov/earth/earth-observatory/july-2026-satellite-puzzler/",
-      "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
-      "ts": 1783439296000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The crumbling employer-based health insurance system",
-      "url": "https://www.statnews.com/2026/07/07/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson/?utm_campaign=rss",
-      "summary": "Today's D.C. Diagnosis newsletter covers maintaining diversity in drug trials and troubling trends in employer-based health insurance.",
-      "ts": 1783438829000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SpaceX launches Transporter-17 amid concerns about rideshare program’s future",
-      "url": "https://spacenews.com/spacex-launches-transporter-17-amid-concerns-about-rideshare-programs-future/",
-      "summary": "SpaceX launched the latest in its Transporter series of rideshare missions July 7 as industry concerns about the program’s future reach what one rival company executive called a panic. The post SpaceX launches Transporte…",
-      "ts": 1783438295000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Bioprocessing at Full Throttle",
-      "url": "https://www.genengnews.com/topics/bioprocessing/bioprocessing-at-full-throttle/",
-      "summary": "Intensified strategies are reshaping biologics manufacturing by boosting speed, flexibility, and productivity without expanding facilities or footprints. The post Bioprocessing at Full Throttle appeared first on GEN - Ge…",
-      "ts": 1783438088000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Compass says depression drug has long-lasting benefits",
-      "url": "https://www.statnews.com/2026/07/07/biotech-news-compass-reports-depression-drug-has-long-lasting-benefits/?utm_campaign=rss",
-      "summary": "Vertex makes its largest-ever deal, skyrocketing health insurance costs, and more biotech news from The Readout",
-      "ts": 1783436690000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
