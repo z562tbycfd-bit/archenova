@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-07-08T14:18:53.396Z",
+  "updated": "2026-07-08T16:41:35.094Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "EmTech AI 2026: The Rise of the AI Platform",
+      "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
+      "summary": "",
+      "ts": 1783527970000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Bryan Johnson’s chronic disease is notoriously difficult to diagnose",
+      "url": "https://www.statnews.com/2026/07/08/bryan-johnson-autoimmune-gastritis-diagnosis-explained/?utm_campaign=rss",
+      "summary": "Why longevity entrepreneur Bryan Johnson’s chronic disease is notoriously difficult to diagnose.",
+      "ts": 1783527201000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Interface Mismatches Remain Key Barrier to Continuous Bioprocessing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/interface-mismatches-key-barrier-to-continuous-bioprocessing/",
+      "summary": "Fully-continuous, automated bioprocessing is achievable only when processes are tightly integrated and engineered to eliminate volume mismatches between steps and digitally managed to ensure system-wide visibility and in…",
+      "ts": 1783526446000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Local PBMC Isolation Enables Four-Hour Processing in San Diego",
+      "url": "https://www.genengnews.com/topics/bioprocessing/local-pbmc-isolation-enables-four-hour-processing-in-san-diego/",
+      "summary": "OrganaBio’s new San Diego cell processing site expands access to fast PBMC isolation and cryopreservation, thus improving quality, consistency, and supply chain surety for these vital CGT starting materials. The post Loc…",
+      "ts": 1783526431000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Plant Expression Platforms May Be Better Option for Biopharma in the Global South",
+      "url": "https://www.genengnews.com/topics/bioprocessing/plant-expression-platforms-a-better-option-for-biopharma-in-the-global-south/",
+      "summary": "Mammalian cell-based biopharmaceutical manufacturing systems are complex, expensive, and, say the authors of a new study, not suited to producing medicines in resource-constrained environments. Plant-based protein expres…",
+      "ts": 1783526424000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Perfusion Technologies Gain Momentum in Biomanufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/perfusion-technologies-gain-momentum-in-biomanufacturing/",
+      "summary": "As biologics developers face mounting pressure to increase output while controlling costs, perfusion-based manufacturing attracts renewed attention. Advances in media, automation, and AI-driven process control are helpin…",
+      "ts": 1783526408000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Oligonucleotide Therapeutic Industry Readies Itself to Move to the Next Phase",
+      "url": "https://www.genengnews.com/topics/bioprocessing/oligonucleotide-therapeutic-industry-readies-itself-to-move-to-the-next-phase/",
+      "summary": "As synthetic oligonucleotide therapeutics become validated and feasible for commercial production, manufacturers are being urged to become familiar with the Chemistry, Manufacturing, and Control (CMC) aspects of their bi…",
+      "ts": 1783526402000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Affordable Care Act insurers want more premium increases as enrollment sags",
+      "url": "https://www.statnews.com/2026/07/08/affordable-care-act-insurers-premium-increases-enrollment-dips/?utm_campaign=rss",
+      "summary": "For the second year in a row, many Affordable Care Act insurers are proposing double-digit premium increases, driven by rising medical costs as well as federal policy changes.",
+      "ts": 1783524681000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Ne…",
+      "ts": 1783522827000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Transplants extended survival for patients whose stage 4 lung cancer hadn’t spread, study says",
+      "url": "https://www.statnews.com/2026/07/08/lung-transplant-advanced-cancer-study-results-ethics-jama/?utm_campaign=rss",
+      "summary": "Lung cancer patients hadn't been seen as candidates for organ transplant. Now a study finds patients did well.",
+      "ts": 1783522800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Europe will accelerate its review of RevMed’s drug",
+      "url": "https://www.statnews.com/2026/07/08/biotech-news-europe-will-accelerate-its-review-of-revmed-cancer-drug/?utm_campaign=rss",
+      "summary": "Kailera's GLP-1 pill data raises concerns, FDA clears Vera autoimmune therapy, and more biotech news from The Readout",
+      "ts": 1783520693000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Captures Star-Studded Cluster",
+      "url": "https://www.nasa.gov/image-article/hubble-captures-star-studded-cluster/",
+      "summary": "This image from NASA’s Hubble Space Telescope showcases Messier 3 (M3), one of the Milky Way galaxy’s most massive globular clusters, or spherical collections of gravitationally bound stars. Globular clusters are made up…",
+      "ts": 1783520033000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Astrocytes Preserve Memory Persistence Through Ankyrin-2 Protein in Mice",
@@ -105,6 +201,22 @@
       "summary": "The May 28 explosion of a Blue Origin New Glenn rocket at Cape Canaveral’s Launch Complex 36 did more than destroy a rocket and severely damage a launch pad. The […] The post The government’s options to address strained …",
       "ts": 1783508400000,
       "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "New European exercise device begins testing with first rope-pulling workout in space ",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/New_European_exercise_device_begins_testing_with_first_rope-pulling_workout_in_space",
+      "summary": "ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the…",
+      "ts": 1783499760000,
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
+      "url": "http://www.iaea.org/newscenter/news/iaea-and-world-bank-group-collaborate-to-advance-nuclear-energy-for-development",
+      "summary": "",
+      "ts": 1783499405000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -609,118 +721,6 @@
       "summary": "Vertex Pharmaceuticals will spend $10 billion to acquire Crinetics Pharmaceuticals and its drug for a rare endocrine disorder",
       "ts": 1783430041000,
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
-      "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Your family’s $300 stake in OpenAI Sam Altman’s proposal that Americans should sha…",
-      "ts": 1783426200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Ebola outbreak exposes a fractured outbreak response system ",
-      "url": "https://www.statnews.com/2026/07/07/health-news-ebola-outbreak-exposes-a-fractured-outbreak-response-system/?utm_campaign=rss",
-      "summary": "The costly threat to employer-based health care, Gen Z doctors, and more health news",
-      "ts": 1783426007000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Simera Sense to provide imagers for Canary Islands constellation",
-      "url": "https://spacenews.com/simera-sense-to-provide-imagers-for-canary-islands-constellation/",
-      "summary": "Belgium’s Simera Sense has won a contract to provide multispectral imagers for a small constellation being designed to track wildfires, volcanic activity and other regional priorities for the Canary Islands off the coast…",
-      "ts": 1783425701000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Biomanufacturing in Space to Be Key Topic at ISSCR 2026",
-      "url": "https://www.genengnews.com/topics/bioprocessing/biomanufacturing-in-space-to-be-key-topic-at-isscr-2026/",
-      "summary": "Scientists from the Cedars-Sinai Board of Governors Regenerative Medicine Institute, including investigators from the Cedars-Sinai Biomanufacturing Center, say they will share groundbreaking discoveries and discuss new f…",
-      "ts": 1783425622000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New coalition puts children’s rights at the centre of the AI age",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167891",
-      "summary": "A new international coalition launched in Geneva on Tuesday is setting out to make sure children's safety and rights are not an afterthought as artificial intelligence reshapes how they learn, play and grow up.",
-      "ts": 1783425600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Southwest Pacific’s last tropical glacier could vanish within months",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167889",
-      "summary": "The Southwest Pacific is facing mounting climate risks as its vast ocean expanse becomes hotter, more acidic and more dangerous for coastal communities, the World Meteorological Organization (WMO) said in a report publis…",
-      "ts": 1783425600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Shared blueprint for peace’: Development goals deliver for billions, but challenges remain",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167888",
-      "summary": "With fewer than five years left to achieve the Sustainable Development Goals (SDGs), a new UN report says sustained investment and international cooperation have improved billions of lives, but warns that governments mus…",
-      "ts": 1783425600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Peace hinges on people-centred policing, global summit hears",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167887",
-      "summary": "Policing is the cornerstone of peace, said top UN officials ahead of the fifth UN Chiefs of Police Summit, which began on Tuesday.",
-      "ts": 1783425600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "When AI hurts people, who’s to blame? Global experts grapple with accountability",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167886",
-      "summary": "Who is legally responsible when Artificial Intelligence causes harm? The issue took centre stage on Tuesday – day two of the first ever UN summit on AI governance, where leading experts warned of mounting evidence of hum…",
-      "ts": 1783425600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Young people value partnership and parenthood but barriers block their dreams",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167885",
-      "summary": "Fertility rates are falling worldwide not because young people are rejecting marriage, children or family life but because many are facing economic and housing constraints.",
-      "ts": 1783425600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "General Assembly LIVE: Debating US sanctions against Cuba",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167883",
-      "summary": "The UN General Assembly overwhelming voted to debate United States sanctions against Cuba in a meeting on Tuesday, at Havana’s request, to discuss the decades-long embargo amid warnings of increasing suffering on the Car…",
-      "ts": 1783425600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ebola continues to spread in DRC as death toll passes 500, WHO warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167882",
-      "summary": "The outbreak of the deadly Bundibugyo species of Ebola in the eastern Democratic Republic of the Congo (DRC) is expanding, while the push to accelerate testing and identify effective treatment options continues, the UN W…",
-      "ts": 1783425600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The foundational elements of AI architecture that IT leaders need to scale",
-      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leader…",
-      "ts": 1783422652000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SpaceX satellite wins test Pentagon’s commitment to competition",
-      "url": "https://spacenews.com/spacexs-wins-test-pentagons-commitment-to-competition/",
-      "summary": "As the military rushes to deploy proliferated networks, SpaceX’s dominance is attracting congressional scrutiny The post SpaceX satellite wins test Pentagon’s commitment to competition appeared first on SpaceNews.",
-      "ts": 1783422000000,
-      "categoryId": "space"
     }
   ],
   "categories": [
