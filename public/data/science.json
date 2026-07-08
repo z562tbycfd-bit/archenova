@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-08T16:41:31.577Z",
+  "updated": "2026-07-08T18:20:13.345Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study compares machine learning models of raindrop formation",
+      "url": "https://phys.org/news/2026-07-machine-raindrop-formation.html",
+      "summary": "Raindrops form inside clouds when tiny particles of water collide and stick together, forming larger droplets that eventually fall to Earth. This process is hard to model accurately, with current approaches either imprec…",
+      "ts": 1783534802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "California wolves feed heavily on cattle and their presence causes significant stress among livestock",
+      "url": "https://phys.org/news/2026-07-california-wolves-heavily-cattle-presence.html",
+      "summary": "Two new studies examining gray wolves in California paint a complex picture of life on the state's ranching landscapes: Wolves eat cattle more than anything else, and the presence of the predators causes significant stre…",
+      "ts": 1783533623000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beavers thrive in river estuaries along North America's northwest coast",
+      "url": "https://phys.org/news/2026-07-beavers-river-estuaries-north-america.html",
+      "summary": "Beavers are widespread in estuaries and tidal wetlands in the Pacific Northwest of the United States, demonstrating that they are not restricted to rivers and streams, Gregory Hood at the Skagit River System Cooperative,…",
+      "ts": 1783533620000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nature's puncture tools reveal shape trade-offs between piercing power and strength",
+      "url": "https://phys.org/news/2026-07-nature-tools-reveal-offs-piercing.html",
+      "summary": "Nature has invented countless types of pointy appendages, and scientists have long sought to explain what makes these structures so effective at puncturing other things. A new study models the key physical characteristic…",
+      "ts": 1783533613000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Measuring what cupping therapy pulls from the skin",
+      "url": "https://phys.org/news/2026-07-cupping-therapy-skin.html",
+      "summary": "Cupping therapy is a traditional Chinese medicine (TCM) technique used to treat chronic pain, expedite muscle recovery and other conditions. It increases blood flow by creating suction on the skin. But what is released f…",
+      "ts": 1783533609000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists find gas emissions from rocks may have contributed to ancient climate swings, mass extinctions",
+      "url": "https://phys.org/news/2026-07-scientists-gas-emissions-contributed-ancient.html",
+      "summary": "An interdisciplinary team from Florida State University's Department of Earth, Ocean, and Atmospheric Science has uncovered new evidence about processes that may have contributed to ancient mass-extinction events, some o…",
+      "ts": 1783533606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "International team says science alone won't save coral reefs",
+      "url": "https://phys.org/news/2026-07-international-team-science-wont-coral.html",
+      "summary": "Coral reefs are disappearing at an unprecedented rate as climate change, marine heat waves, pollution and coastal development threaten one of Earth's richest ecosystems. While scientific research has greatly advanced und…",
+      "ts": 1783533601000
+    },
+    {
+      "source": "Science News",
+      "title": "Can geoengineering blunt El Niño’s fury?",
+      "url": "https://www.sciencenews.org/article/geoengineering-el-nino-extremes",
+      "summary": "Marine cloud brightening could cool part of the Pacific and weaken extreme El Niños, simulations suggest. But the approach could have risks.",
+      "ts": 1783533600000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Employees who feel overqualified view more work tasks as unreasonable",
+      "url": "https://phys.org/news/2026-07-employees-overqualified-view-tasks-unreasonable.html",
+      "summary": "Employers typically seek out well-qualified candidates, but a new study by researchers in the Penn State School of Hospitality Management highlights the potential risks associated with workers who feel overqualified for …",
+      "ts": 1783532406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simple treatment strengthens pineapple leaf fibers for sustainable composites",
+      "url": "https://phys.org/news/2026-07-simple-treatment-pineapple-leaf-fibers.html",
+      "summary": "Pineapple leaf fiber has long been valued in parts of Southeast Asia for traditional uses, including basketry in Malaysia and Thailand and textile applications in the Philippines. Its high cellulose content and ready ava…",
+      "ts": 1783532401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study explores social media's role in tornado disaster communication",
+      "url": "https://phys.org/news/2026-07-explores-social-media-role-tornado.html",
+      "summary": "When a powerful EF-4 tornado tore through Rolling Fork, Mississippi, on March 24, 2023, social media became a critical tool for sharing weather warnings, damage reports and recovery information. But a new study from Univ…",
+      "ts": 1783531205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Is the state of nature fair? Researchers measure how biomass is distributed in microbial communities",
+      "url": "https://phys.org/news/2026-07-state-nature-fair-biomass-microbial.html",
+      "summary": "The distribution of income and growing inequality are central themes in public debate. Far less attention has been paid to how resources are distributed in ecological communities, in the so-called state of nature, withou…",
+      "ts": 1783531202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What powers the Everglades? Study tracks how algae and plant matter fuel the food web",
+      "url": "https://phys.org/news/2026-07-powers-everglades-tracks-algae-fuel.html",
+      "summary": "Scientists thought dead plant material was primarily powering the Everglades. Algae says not so fast.",
+      "ts": 1783530601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How do World Cup crowds get synchronized so quickly? Researchers explain",
+      "url": "https://phys.org/news/2026-07-world-cup-crowds-synchronized-quickly.html",
+      "summary": "Some World Cup crowds are more in sync than others, but all have some common features, Northeastern experts say.",
+      "ts": 1783530009000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Traveling protein waves reveal how dividing cells set chromosome-splitting spindle size",
+      "url": "https://phys.org/news/2026-07-protein-reveal-cells-chromosome-spindle.html",
+      "summary": "When a human cell prepares to split into two daughter cells, it must first construct a tiny internal machine called the mitotic spindle—a structure of protein fibers that physically pulls chromosomes apart and deposits o…",
+      "ts": 1783530005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "From the lab to the moon: Lunar cement alternative survives 6 months on ISS and returned stronger in some tests",
+      "url": "https://phys.org/news/2026-07-lab-moon-lunar-cement-alternative.html",
+      "summary": "Building material samples from the University of Delaware spent six months mounted outside the International Space Station, where the harsh conditions of low Earth orbit tested their limits.",
+      "ts": 1783530003000
+    },
     {
       "source": "Phys.org",
       "title": "How cells keep genomic hitchhikers under control",
@@ -297,17 +409,17 @@
       "ts": 1783507201000
     },
     {
-      "source": "APS PRX",
-      "title": "Agentic Exploration of Physics Models",
-      "url": "http://link.aps.org/doi/10.1103/xnqc-q6nt",
-      "summary": "Author(s): Maximilian Nägele and Florian Marquardt ꜱᴄɪᴇxᴘʟᴏʀᴇʀ, a generalist artificial scientist agent based on a large-language model, automates the process of scientific research and discovery and uncovers underlying …",
-      "ts": 1783504800000
-    },
-    {
       "source": "APS PR Applied",
       "title": "Time-frequency-correlated native <span class=\"sc\">ccz</span> gates in superconducting circuits",
       "url": "http://link.aps.org/doi/10.1103/9st1-wvdl",
       "summary": "Author(s): Chenhui Wang, Weilong Wang, Yangyang Fei, Zhiqiang Fan, Hanshi Zhao, Geyuyan Ma, and Zheng Shan Practical quantum advantage hinges on executing deep quantum circuits within the coherence limits of noisy interm…",
+      "ts": 1783504800000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Agentic Exploration of Physics Models",
+      "url": "http://link.aps.org/doi/10.1103/xnqc-q6nt",
+      "summary": "Author(s): Maximilian Nägele and Florian Marquardt ꜱᴄɪᴇxᴘʟᴏʀᴇʀ, a generalist artificial scientist agent based on a large-language model, automates the process of scientific research and discovery and uncovers underlying …",
       "ts": 1783504800000
     },
     {
@@ -588,118 +700,6 @@
       "title": "Concurrent Phenomenological Analysis of STEM Career Aspirations in Underrepresented Youth: Role of Experiences and Identity",
       "url": "https://arxiv.org/abs/2607.06035",
       "summary": "arXiv:2607.06035v1 Announce Type: new Abstract: Despite numerous initiatives aimed at enhancing diversity and achieving equity in the STEM workforce, racially and ethnically minoritized individuals remain underrepresente…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Associations Between Event-Based (Mis)Recognition by STEM Authorities with STEM Identity and STEM Career Aspirations",
-      "url": "https://arxiv.org/abs/2607.06043",
-      "summary": "arXiv:2607.06043v1 Announce Type: new Abstract: Several programs for marginalized young people have been intentionally designed to increase the diversity in STEM careers; however, the participation of racially and ethnic…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-photon polarization tomography with an integrated metal-superconductor nanowire array",
-      "url": "https://arxiv.org/abs/2607.06047",
-      "summary": "arXiv:2607.06047v1 Announce Type: new Abstract: Light polarization is a primary degree of freedom for encoding quantum information. The scaling up of photonic quantum networks and computer architecture depends crucially …",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Long-range social pressure and the evolution of cooperation in multiplex networks",
-      "url": "https://arxiv.org/abs/2607.06056",
-      "summary": "arXiv:2607.06056v1 Announce Type: new Abstract: Social pressure -- the awareness of being observed by others -- is a fundamental driver of prosocial behavior in human societies. Yet it is typically assumed that only dire…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Breathing k-Gap Events and Instability on Instability in Nonlinear Photonic Time Crystals",
-      "url": "https://arxiv.org/abs/2607.06077",
-      "summary": "arXiv:2607.06077v1 Announce Type: new Abstract: Photonic time crystals (PTCs) host momentum bandgaps, or k gaps, that enable parametric amplification and lasing of seeded fields. In nonlinear PTCs, Kerr saturation dynami…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mass-Conserving Physics-Informed Neural Networks For The One-Dimensional Advection-Diffusion Equation",
-      "url": "https://arxiv.org/abs/2607.06091",
-      "summary": "arXiv:2607.06091v1 Announce Type: new Abstract: The advection-diffusion equation is a fundamental model of transport phenomena in which mass conservation is an essential physical constraint. While classical schemes such …",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Gravity to Confinement: Wealth Redistribution as Optimal Drift Design in the Fokker-Planck Framework",
-      "url": "https://arxiv.org/abs/2607.06153",
-      "summary": "arXiv:2607.06153v1 Announce Type: new Abstract: A proportional wealth tax acts as a uniform gravitational field on the wealth distribution: it shifts the drift of the Fokker-Planck equation without altering the diffusion…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transmissive extreme ultraviolet metagrating",
-      "url": "https://arxiv.org/abs/2607.06174",
-      "summary": "arXiv:2607.06174v1 Announce Type: new Abstract: Extreme ultraviolet (EUV) radiation is a key tool for attosecond physics and lithography. However, strong material absorption limits the availability of transmissive optica…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A systematic evaluation of the Richards equation for predicting soil moisture in Irish grasslands",
-      "url": "https://arxiv.org/abs/2607.06182",
-      "summary": "arXiv:2607.06182v1 Announce Type: new Abstract: The Richards equation (RE) is widely used to model water flow in unsaturated soils, but its performance in persistently wet grassland systems remains uncertain. This is par…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Millimeter-scale wide-field mid-infrared photothermal imaging enabled by a broadly tunable picosecond optical parametric oscillator",
-      "url": "https://arxiv.org/abs/2607.06208",
-      "summary": "arXiv:2607.06208v1 Announce Type: new Abstract: Wide-field mid-infrared photothermal (MIP) imaging enables chemically specific microscopy with submicron spatial resolution but remains fundamentally limited by the trade-o…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Validation of a Computational Respiratory System Model for Mechanical Ventilation",
-      "url": "https://arxiv.org/abs/2607.06210",
-      "summary": "arXiv:2607.06210v1 Announce Type: new Abstract: Computational modeling and simulation are powerful tools for the assessment of medical device performance and safety, particularly for in silico clinical trials for automat…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stable Sentiment and Persistent Dynamics in U.S. Economic News over 45 Years",
-      "url": "https://arxiv.org/abs/2607.06220",
-      "summary": "arXiv:2607.06220v1 Announce Type: new Abstract: Collective emotion is often inferred from the tone of mass media, but such emotion is not directly observed. One approximation is to extract sentiment from text and use sen…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterizing an inverse Compton X-ray source and determining its electron beam parameters using a genetic algorithm",
-      "url": "https://arxiv.org/abs/2607.06226",
-      "summary": "arXiv:2607.06226v1 Announce Type: new Abstract: Inverse Compton X-ray sources are laboratory-scale devices providing quasi-monochromatic synchrotron radiation which is generated by laser photons Compton-scattering off hi…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Redundant contacts and force redistribution stabilize limbless vertical climbing",
-      "url": "https://arxiv.org/abs/2607.06239",
-      "summary": "arXiv:2607.06239v1 Announce Type: new Abstract: Animals navigating complex vertical environments must secure stable footholds, a challenge for species without feet. While arboreal climbing has evolved repeatedly in snake…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse-designed photonic interfaces beyond eigenmode expansion limits",
-      "url": "https://arxiv.org/abs/2607.06243",
-      "summary": "arXiv:2607.06243v1 Announce Type: new Abstract: Photonic integrated circuits (PICs) enable optical systems with dramatically increased performance, cost-effectiveness, and scalability through enhanced light-matter intera…",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reversibilities and irreversibilities in thermoelectric energy conversion",
-      "url": "https://arxiv.org/abs/2607.06265",
-      "summary": "arXiv:2607.06265v1 Announce Type: new Abstract: Similarly to Thomson, we consider the thermoelectric generator at open circuit as a classical heat engine. It is shown that, as long as the Thomson coefficient is nonzero, …",
-      "ts": 1783483200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strain-Rate-Consistent $\\varepsilon$-Based Non-Premixed Flamelet Model",
-      "url": "https://arxiv.org/abs/2607.06322",
-      "summary": "arXiv:2607.06322v1 Announce Type: new Abstract: This numerical study examines a strain-rate inconsistency in the conventional flamelet/progress-variable (FPV) formulation for non-premixed combustion and proposes an alter…",
       "ts": 1783483200000
     }
   ],
