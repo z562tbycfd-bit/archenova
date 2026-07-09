@@ -1373,3 +1373,149 @@
 .ci2-more {
  color: rgba(255,226,176,.9) !important;
 }
+
+
+
+
+/* ==========================================================
+   CI — Nebula / Connector / Floating Refinement
+========================================================== */
+
+.ci2-stage::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 22% 18%, rgba(90,140,255,.22), transparent 22%),
+    radial-gradient(circle at 78% 16%, rgba(245,216,162,.20), transparent 24%),
+    radial-gradient(circle at 50% 52%, rgba(255,255,255,.12), transparent 28%);
+  filter: blur(42px);
+  opacity: .75;
+  z-index: 0;
+}
+
+.ci2-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,.75) 1px, transparent 1.6px),
+    radial-gradient(circle, rgba(245,216,162,.45) 1px, transparent 1.6px);
+  background-size: 110px 110px, 190px 190px;
+  opacity: .18;
+  z-index: 1;
+}
+
+.ci2-dna,
+.ci2-core,
+.ci2-cards {
+  position: absolute;
+  z-index: 5;
+}
+
+.ci2-card {
+  animation: ciCardFloat 8s ease-in-out infinite;
+}
+
+.ci2-card.card-2,
+.ci2-card.card-4,
+.ci2-card.card-6 {
+  animation-delay: -3s;
+}
+
+@keyframes ciCardFloat {
+  0%, 100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -8px;
+  }
+}
+
+.ci2-card::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.16),
+      transparent 28%,
+      transparent 70%,
+      rgba(245,216,162,.08)
+    );
+  opacity: .35;
+}
+
+.ci2-card::after {
+  opacity: .8 !important;
+  height: 1px !important;
+  box-shadow:
+    0 0 18px rgba(245,216,162,.28),
+    0 0 30px rgba(120,180,255,.12);
+}
+
+.ci2-dna-node {
+  animation: ciNodePulse 5s ease-in-out infinite;
+}
+
+.ci2-dna-node.node-2,
+.ci2-dna-node.node-4,
+.ci2-dna-node.node-6 {
+  animation-delay: -2.4s;
+}
+
+@keyframes ciNodePulse {
+  0%, 100% {
+    box-shadow:
+      0 0 52px rgba(245,216,162,.24),
+      0 0 90px rgba(120,180,255,.10),
+      inset 0 0 28px rgba(255,255,255,.06);
+  }
+  50% {
+    box-shadow:
+      0 0 72px rgba(245,216,162,.38),
+      0 0 120px rgba(120,180,255,.18),
+      inset 0 0 34px rgba(255,255,255,.08);
+  }
+}
+
+.ci2-core {
+  animation: ciCoreBreath 7s ease-in-out infinite;
+}
+
+@keyframes ciCoreBreath {
+  0%, 100% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.035;
+  }
+}
+
+@media (max-width: 768px) {
+  .ci2-card {
+    animation: none !important;
+  }
+
+  .ci2-core {
+    animation: none !important;
+  }
+
+  .ci2-dna-node {
+    animation: none !important;
+  }
+
+  .ci2-stage::before {
+    opacity: .45;
+    filter: blur(34px);
+  }
+
+  .ci2-stage::after {
+    opacity: .12;
+  }
+}
