@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-07-08T22:09:34.568Z",
+  "updated": "2026-07-09T00:13:13.611Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How economic expectations and political polarization influence fertility rates and the number of marriages",
+      "url": "https://phys.org/news/2026-07-economic-political-polarization-fertility-marriages.html",
+      "summary": "The University of Barcelona participated in a study that uses an unexpected change of government in Spain—the Spanish Socialist Workers' Party (PSOE) defeated the PP, against the odds, in the March 2004 general election—…",
+      "ts": 1783555201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Catching hydrogen in the act: Tracking the absorption process over time",
+      "url": "https://phys.org/news/2026-07-hydrogen-tracking-absorption.html",
+      "summary": "If you're looking for hydrogen on the elemental chart, it won't take you long to find it. It is right there at the beginning, the lightest possible material. One electron, one proton, one neutron. Simple, minimalistic, t…",
+      "ts": 1783554001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Planting the future: Researchers put AI to work on the farm",
+      "url": "https://phys.org/news/2026-07-future-ai-farm.html",
+      "summary": "Farmers are getting more tools in their toolbox, thanks to new research from the University of Missouri that shows how they can tweak planting practices to make the most of every acre.",
+      "ts": 1783552803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why some glasses break suddenly while others deform smoothly",
+      "url": "https://phys.org/news/2026-07-glasses-suddenly-deform-smoothly.html",
+      "summary": "If a liquid is cooled slowly to its freezing point, it becomes a crystal in which the constituent particles are arranged in an ordered pattern. In contrast, when the liquid is cooled very quickly, the particles are unabl…",
+      "ts": 1783551605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Should a chatbot manage your bank account? Probably not, according to analysis",
+      "url": "https://phys.org/news/2026-07-chatbot-bank-account-analysis.html",
+      "summary": "When it comes to managing your personal finances, you may want to stick with your accountant before turning to artificial intelligence, according to a new study from the University of Georgia.",
+      "ts": 1783550403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Satellites are transforming biodiversity monitoring for global nature targets, but major gaps remain",
+      "url": "https://phys.org/news/2026-07-satellites-biodiversity-global-nature-major.html",
+      "summary": "A new scientific review outlines how satellites and other remote sensing technologies are increasingly shaping how biodiversity and ecosystem health can be monitored at scale—offering new opportunities for countries repo…",
+      "ts": 1783550401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Slowing Atlantic current could fuel stronger California atmospheric rivers by century's end",
+      "url": "https://phys.org/news/2026-07-atlantic-current-fuel-stronger-california.html",
+      "summary": "A slowing Atlantic Ocean current is projected to intensify powerful storms in California while reducing snowfall over Greenland, according to a recent University of California, Riverside study. The Atlantic Meridional Ov…",
+      "ts": 1783549208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "South African fynbos soil delivers a new species of soil bacterium",
+      "url": "https://phys.org/news/2026-07-south-african-fynbos-soil-species.html",
+      "summary": "Microbiologists from Stellenbosch University in South Africa have discovered a previously unknown bacterial genus within the phylum Acidobacteriota. It is the first genus from this phylum to be described from Southern Af…",
+      "ts": 1783549204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Primordial mini-moons may explain meteorite composition",
+      "url": "https://phys.org/news/2026-07-primordial-mini-moons-meteorite-composition.html",
+      "summary": "A new Southwest Research Institute-led study proposes a solution to a longstanding puzzle in planetary science: What caused the concentration, assembly, and preservation of millimeter-sized, spherical mineral grains with…",
+      "ts": 1783549201000
+    },
     {
       "source": "Phys.org",
       "title": "Brown howler monkeys rest more on long, hot days and when feeding on leaves",
@@ -637,69 +700,6 @@
       "title": "Regge Trajectories from the Adjoint Sector of Matrix Quantum Mechanics",
       "url": "http://link.aps.org/doi/10.1103/mnwt-svrf",
       "summary": "Author(s): Igor R. Klebanov, Henry W. Lin, and Pavel Meshcheriakov We reexamine the large $N$ limit of $\\mathrm{SU}(N)$ symmetric quantum mechanics of a Hermitian matrix whose singlet sector is well known to be exactly s…",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Comprehensive Analysis of the ${B}^{0}→{K}^{*0}{μ}^{+}{μ}^{−}$ Decay",
-      "url": "http://link.aps.org/doi/10.1103/24g9-yn9d",
-      "summary": "Author(s): R. Aaij et al. (LHCb Collaboration) Does a new measurement of a rare decay of the neutral B meson portend new physics? [Phys. Rev. Lett. 137, 021802] Published Wed Jul 08, 2026",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of the Doubly Charmed Baryon ${\\mathrm{Ξ}}_{cc}^{+}$ with the LHCb Run 3 Detector",
-      "url": "http://link.aps.org/doi/10.1103/dmv6-7gdv",
-      "summary": "Author(s): R. Aaij et al. (LHCb Collaboration) The first observation of the doubly charmed baryon ${\\mathrm{Ξ}}_{cc}^{+}$ is reported through its decay to the ${\\mathrm{Λ}}_{c}^{+}{K}^{−}{π}^{+}$ final state, with a stat…",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Diffusion Equation is Compatible with Special Relativity",
-      "url": "http://link.aps.org/doi/10.1103/rkz9-xps2",
-      "summary": "Author(s): L. Gavassino Because of its parabolic character, the diffusion equation exhibits instantaneous spatial spreading and becomes unstable when Lorentz boosted. According to the conventional interpretation, these f…",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Exponential Linewidth Narrowing and Enhancement of Sensitivity in Ramsey Interferometry with an Optically Thick Ensemble of Atoms",
-      "url": "http://link.aps.org/doi/10.1103/bqzh-gy4n",
-      "summary": "Author(s): S. A. Moiseev, K. I. Gerasimov, M. M. Minnegaliev, I. V. Brekotkin, and E. S. Moiseev Ramsey resonance is a high-resolution technique used in spectroscopy, precise measurement of time and frequency, and the cr…",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Quantum Geometric Fluctuation-Dissipation Relation for Nonlinear Transport",
-      "url": "http://link.aps.org/doi/10.1103/6qcc-wdtx",
-      "summary": "Author(s): Rui Wang, Xinyue Liu, Fuming Xu, Jun Chen, Lei Zhang, and Jian Wang The fluctuation-dissipation theorem connects equilibrium noise to linear response and forms a cornerstone of statistical and quantum physics,…",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Unified First-Principles Formula for Time-Resolved ARPES Spectra of Coherent and Incoherent Excitons beyond the Dilute Limit",
-      "url": "http://link.aps.org/doi/10.1103/zhs1-rv1k",
-      "summary": "Author(s): Gianluca Stefanucci and Enrico Perfetto Despite major experimental progresses in time-resolved and angle-resolved photoemission spectroscopy, a quantitative, microscopic framework for interpreting exciton-indu…",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Tailoring Pure Valley-Zeeman Spin-Orbit Coupling in ${\\mathrm{WSe}}_{2}$-Encapsulated Monolayer Graphene",
-      "url": "http://link.aps.org/doi/10.1103/46n3-pryp",
-      "summary": "Author(s): Yaqing Han, Siqi Jiang, Jingkuan Xiao, Jiawei Jiang, Yulu Liu, Jiabei Huang, Yu Du, Di Zhang, Fuzhuo Lian, Wanting Xu, Siqin Wang, Kenji Watanabe, Takashi Taniguchi, Xiaoxiang Xi, Alexander S. Mayorov, Renjun …",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Comment on “Photoinduced Dynamics and Momentum Distribution of Chiral Charge Density Waves in $1T\\text{−}{\\mathrm{TiSe}}_{2}$”",
-      "url": "http://link.aps.org/doi/10.1103/p5d8-548h",
-      "summary": "Author(s): Chenhang Xu, Jackson McClellan, Patrick Liu, Sheng-Chih Lin, Shuaiwei Pan, Henry G. Bell, Patrick L. Kramer, Randy Lemons, Sharon S. Philip, Cameron J. R. Duncan, Brian Kaufman, Mianzhen Mo, Alexander H. Reid,…",
-      "ts": 1783504800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Qiu <i>et al.</i> Reply",
-      "url": "http://link.aps.org/doi/10.1103/q2cc-stbr",
-      "summary": "Author(s): Qingzheng Qiu, Sae Hwan Chun, Jaeku Park, Dogeun Jang, Li Yue, Yeongkwan Kim, Yeojin Ahn, Mingi Jho, Kimoon Han, Xinyi Jiang, Qian Xiao, Tao Dong, Jia-Yi Ji, Nanlin Wang, Jeroen van den Brink, Jasper van Wezel…",
       "ts": 1783504800000
     }
   ],
