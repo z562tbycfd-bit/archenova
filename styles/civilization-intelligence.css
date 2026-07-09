@@ -1519,3 +1519,353 @@
     opacity: .12;
   }
 }
+
+
+
+/* ==========================================================
+   CI — PC Card Position Refinement
+   Left 3 / Right 3 balanced layout
+========================================================== */
+
+@media (min-width: 769px) {
+  .ci2-stage {
+    height: min(760px, 74svh) !important;
+  }
+
+  .ci2-card {
+    width: 285px !important;
+    min-height: 265px !important;
+    max-height: 265px !important;
+  }
+
+  .ci2-card.card-1,
+  .ci2-card.card-3,
+  .ci2-card.card-5 {
+    left: 4.5% !important;
+  }
+
+  .ci2-card.card-2,
+  .ci2-card.card-4,
+  .ci2-card.card-6 {
+    right: 4.5% !important;
+  }
+
+  .ci2-card.card-1,
+  .ci2-card.card-2 {
+    top: 4.5% !important;
+  }
+
+  .ci2-card.card-3,
+  .ci2-card.card-4 {
+    top: 36.5% !important;
+  }
+
+  .ci2-card.card-5,
+  .ci2-card.card-6 {
+    top: 68.5% !important;
+  }
+
+  .ci2-dna {
+    width: 330px !important;
+    height: 670px !important;
+  }
+
+  .ci2-core {
+    top: 50% !important;
+    width: 260px !important;
+    height: 260px !important;
+  }
+
+  .ci2-card::after {
+    width: 110px !important;
+  }
+
+  .ci2-card.card-1::after,
+  .ci2-card.card-3::after,
+  .ci2-card.card-5::after {
+    right: -110px !important;
+  }
+
+  .ci2-card.card-2::after,
+  .ci2-card.card-4::after,
+  .ci2-card.card-6::after {
+    left: -110px !important;
+  }
+}
+
+/* ノートPCなど横幅が狭いPC向け */
+@media (min-width: 769px) and (max-width: 1280px) {
+  .ci2-card {
+    width: 240px !important;
+    min-height: 240px !important;
+    max-height: 240px !important;
+  }
+
+  .ci2-card.card-1,
+  .ci2-card.card-3,
+  .ci2-card.card-5 {
+    left: 2.5% !important;
+  }
+
+  .ci2-card.card-2,
+  .ci2-card.card-4,
+  .ci2-card.card-6 {
+    right: 2.5% !important;
+  }
+
+  .ci2-dna {
+    width: 280px !important;
+    height: 610px !important;
+  }
+
+  .ci2-core {
+    width: 220px !important;
+    height: 220px !important;
+  }
+
+  .ci2-card::after {
+    width: 60px !important;
+  }
+
+  .ci2-card.card-1::after,
+  .ci2-card.card-3::after,
+  .ci2-card.card-5::after {
+    right: -60px !important;
+  }
+
+  .ci2-card.card-2::after,
+  .ci2-card.card-4::after,
+  .ci2-card.card-6::after {
+    left: -60px !important;
+  }
+}
+
+
+
+/* ==========================================================
+   CI — DNA Helix Premium Glow
+========================================================== */
+
+@media (min-width: 769px) {
+  .ci2-dna::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 50% 18%, rgba(120,180,255,.35), transparent 12%),
+      radial-gradient(circle at 50% 38%, rgba(245,216,162,.34), transparent 13%),
+      radial-gradient(circle at 50% 58%, rgba(120,180,255,.28), transparent 13%),
+      radial-gradient(circle at 50% 78%, rgba(245,216,162,.30), transparent 12%);
+    filter: blur(18px);
+    opacity: .55;
+  }
+
+  .ci2-strand {
+    border-width: 1.4px !important;
+    opacity: .95 !important;
+  }
+
+  .ci2-dna-node {
+    text-shadow:
+      0 0 14px rgba(245,216,162,.55),
+      0 0 34px rgba(120,180,255,.24);
+  }
+
+  .ci2-core::before {
+    content: "";
+    position: absolute;
+    inset: -18%;
+    border-radius: 50%;
+    background:
+      radial-gradient(circle, rgba(245,216,162,.12), transparent 62%);
+    filter: blur(22px);
+    z-index: -1;
+  }
+
+  .ci2-core strong {
+    text-shadow:
+      0 0 18px rgba(255,255,255,.20),
+      0 0 38px rgba(245,216,162,.12);
+  }
+}
+
+
+
+/* ==========================================================
+   PHASE 5
+   CIVILIZATION FOOTER GATE
+========================================================== */
+
+.ci2-footer{
+    position:relative;
+    margin:120px auto 40px;
+    width:min(1100px,92vw);
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    gap:38px;
+}
+
+/* 背景オーラ */
+
+.ci2-footer::before{
+
+    content:"";
+
+    position:absolute;
+    inset:-80px;
+
+    background:
+
+    radial-gradient(circle at center,
+    rgba(90,130,255,.10),
+    transparent 60%),
+
+    radial-gradient(circle at center,
+    rgba(255,226,180,.10),
+    transparent 45%);
+
+    filter:blur(60px);
+
+    pointer-events:none;
+}
+
+/* ボタン */
+
+.ci2-home{
+
+    width:min(430px,90vw);
+
+    height:74px;
+
+    border-radius:999px;
+
+    border:1px solid rgba(255,255,255,.12);
+
+    background:
+
+    linear-gradient(
+    180deg,
+    rgba(255,255,255,.05),
+    rgba(255,255,255,.015));
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:16px;
+
+    color:#F6E3C2;
+
+    text-decoration:none;
+
+    font-size:1.15rem;
+
+    letter-spacing:.28em;
+
+    text-transform:uppercase;
+
+    transition:.45s;
+
+    backdrop-filter:blur(20px);
+
+    overflow:hidden;
+
+    position:relative;
+}
+
+.ci2-home::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,.15),
+    transparent);
+
+    transform:translateX(-120%);
+}
+
+.ci2-home:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+
+    0 0 40px rgba(120,170,255,.18),
+
+    0 0 70px rgba(245,216,162,.12);
+}
+
+.ci2-home:hover::before{
+
+    transform:translateX(120%);
+
+    transition:1.2s;
+}
+
+/* 引用 */
+
+.ci2-quote{
+
+    width:min(900px,94vw);
+
+    border-radius:999px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    padding:28px 60px;
+
+    text-align:center;
+
+    color:rgba(255,255,255,.70);
+
+    line-height:1.8;
+
+    font-size:1rem;
+
+    backdrop-filter:blur(12px);
+
+    position:relative;
+}
+
+.ci2-quote::before,
+.ci2-quote::after{
+
+    content:"✦";
+
+    position:absolute;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    color:#F4DFC0;
+
+    opacity:.9;
+
+    font-size:20px;
+}
+
+.ci2-quote::before{
+
+    left:28px;
+}
+
+.ci2-quote::after{
+
+    right:28px;
+}
