@@ -2472,3 +2472,128 @@
     font-size: 0.72rem !important;
   }
 }
+
+
+
+
+
+/* ==========================================================
+   CI — Mobile DNA Compact Layout
+   DNAは残す / カードは縦並び
+========================================================== */
+
+@media (max-width: 768px) {
+  .ci2-stage {
+    width: 88vw !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    display: grid !important;
+    gap: 1.2rem !important;
+    padding: 1.2rem 0 !important;
+    border-radius: 32px !important;
+    background:
+      radial-gradient(circle at 50% 24%, rgba(245,216,162,.10), transparent 34%),
+      radial-gradient(circle at 50% 42%, rgba(120,180,255,.08), transparent 38%),
+      rgba(3,5,10,.72) !important;
+  }
+
+  .ci2-dna {
+    display: block !important;
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    height: 300px !important;
+    margin: 0 auto !important;
+  }
+
+  .ci2-strand {
+    display: block !important;
+    width: 70px !important;
+    height: 290px !important;
+  }
+
+  .ci2-dna-node {
+    display: grid !important;
+    width: 38px !important;
+    height: 38px !important;
+    font-size: .9rem !important;
+  }
+
+  .ci2-core {
+    display: grid !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 56% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 138px !important;
+    height: 138px !important;
+    padding: .8rem !important;
+  }
+
+  .ci2-core span {
+    font-size: .38rem !important;
+    letter-spacing: .18em !important;
+  }
+
+  .ci2-core strong {
+    font-size: .9rem !important;
+    line-height: 1.12 !important;
+  }
+
+  .ci2-core p {
+    font-size: .44rem !important;
+    line-height: 1.35 !important;
+  }
+
+  .ci2-cards {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+    padding: 0 1rem 1rem !important;
+    box-sizing: border-box !important;
+  }
+
+  .ci2-card,
+  .ci2-card.card-1,
+  .ci2-card.card-2,
+  .ci2-card.card-3,
+  .ci2-card.card-4,
+  .ci2-card.card-5,
+  .ci2-card.card-6 {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+    max-height: none !important;
+
+    padding: 1.2rem !important;
+    border-radius: 26px !important;
+    box-sizing: border-box !important;
+  }
+
+  .ci2-card::before,
+  .ci2-card::after {
+    display: none !important;
+  }
+
+  .ci2-items {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+}
