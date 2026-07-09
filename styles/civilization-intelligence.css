@@ -1,0 +1,966 @@
+/* ==========================================================
+   Civilization Intelligence v2
+   Dedicated DNA / Cosmic Intelligence Interface
+   File: styles/civilization-intelligence.css
+========================================================== */
+
+/* ==========================================================
+   Page Foundation
+========================================================== */
+
+.ci2-page {
+  min-height: 100svh;
+  width: 100%;
+  overflow-x: hidden;
+  color: #fff;
+  background: #02040a;
+}
+
+.ci2-section {
+  position: relative;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  padding: 2.4rem 0;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 50% 8%, rgba(130, 180, 255, 0.12), transparent 28%),
+    radial-gradient(circle at 18% 24%, rgba(245, 216, 162, 0.08), transparent 26%),
+    radial-gradient(circle at 82% 22%, rgba(245, 216, 162, 0.10), transparent 28%),
+    radial-gradient(circle at 50% 74%, rgba(120, 180, 255, 0.07), transparent 30%),
+    linear-gradient(180deg, #02040a 0%, #030712 52%, #010208 100%);
+}
+
+.ci2-space {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,.58) 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(245,216,162,.30) 1px, transparent 1.5px),
+    radial-gradient(circle, rgba(120,180,255,.25) 1px, transparent 1.5px);
+  background-size: 96px 96px, 170px 170px, 260px 260px;
+  opacity: 0.16;
+}
+
+.ci2-space::before {
+  content: "";
+  position: absolute;
+  inset: -25%;
+  background:
+    conic-gradient(
+      from 180deg,
+      transparent,
+      rgba(120,180,255,.06),
+      transparent,
+      rgba(245,216,162,.07),
+      transparent
+    );
+  filter: blur(64px);
+  opacity: 0.9;
+}
+
+/* ==========================================================
+   Shell / Header
+========================================================== */
+
+.ci2-shell {
+  width: min(1280px, 94vw);
+  max-height: 94svh;
+  margin-inline: auto;
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ci2-header span {
+  display: block;
+  font-size: 0.62rem;
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+  color: rgba(245,216,162,.78);
+}
+
+.ci2-header h1 {
+  margin: 0.65rem 0 0;
+  font-size: clamp(2.1rem, 4.1vw, 4.55rem);
+  line-height: 0.98;
+  font-weight: 220;
+  letter-spacing: 0.02em;
+  color: rgba(255,255,255,.96);
+}
+
+.ci2-header p {
+  max-width: 640px;
+  margin: 0.75rem auto 0;
+  font-size: 0.84rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,.62);
+}
+
+/* ==========================================================
+   Stage
+========================================================== */
+
+.ci2-stage {
+  position: relative;
+  width: 100%;
+  height: min(640px, 64svh);
+  margin-inline: auto;
+  overflow: hidden;
+  border-radius: 44px;
+  border: 1px solid rgba(255,255,255,.08);
+  background:
+    radial-gradient(circle at 50% 50%, rgba(245,216,162,.08), transparent 24%),
+    radial-gradient(circle at 30% 34%, rgba(120,180,255,.05), transparent 26%),
+    radial-gradient(circle at 70% 66%, rgba(245,216,162,.05), transparent 26%),
+    linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.012)),
+    rgba(3,5,10,.70);
+  box-shadow:
+    0 40px 140px rgba(0,0,0,.48),
+    inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+/* orbital guide lines */
+.ci2-orbit {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.ci2-orbit.orbit-1 {
+  width: 36%;
+  height: 78%;
+  border: 1px solid rgba(245,216,162,.14);
+}
+
+.ci2-orbit.orbit-2 {
+  width: 52%;
+  height: 58%;
+  border: 1px dashed rgba(255,255,255,.10);
+}
+
+.ci2-orbit.orbit-3 {
+  width: 72%;
+  height: 42%;
+  border: 1px solid rgba(120,180,255,.08);
+}
+
+/* ==========================================================
+   DNA Helix
+========================================================== */
+
+.ci2-dna {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 310px;
+  height: 590px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.ci2-strand {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 118px;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid rgba(245,216,162,.28);
+  filter: drop-shadow(0 0 22px rgba(245,216,162,.18));
+}
+
+.ci2-strand::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid rgba(120,180,255,.18);
+  filter: blur(8px);
+}
+
+.ci2-strand.strand-left {
+  transform: translateX(-50%) rotate(18deg);
+}
+
+.ci2-strand.strand-right {
+  transform: translateX(-50%) rotate(-18deg);
+}
+
+.ci2-dna-node {
+  position: absolute;
+  left: 50%;
+  width: 66px;
+  height: 66px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-style: normal;
+  font-size: 1.55rem;
+  color: rgba(245,216,162,.95);
+  background:
+    radial-gradient(circle, rgba(245,216,162,.16), rgba(3,5,10,.95) 68%);
+  border: 1px solid rgba(245,216,162,.30);
+  box-shadow:
+    0 0 46px rgba(245,216,162,.16),
+    inset 0 0 26px rgba(255,255,255,.04);
+  backdrop-filter: blur(16px);
+  z-index: 4;
+}
+
+.ci2-dna-node.node-1 { top: 1%; }
+.ci2-dna-node.node-2 { top: 18%; }
+.ci2-dna-node.node-3 { top: 35%; }
+.ci2-dna-node.node-4 { top: 52%; }
+.ci2-dna-node.node-5 { top: 69%; }
+.ci2-dna-node.node-6 { top: 86%; }
+
+/* ==========================================================
+   Core
+========================================================== */
+
+.ci2-core {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 245px;
+  height: 245px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  padding: 1.7rem;
+  text-align: center;
+  z-index: 5;
+  background:
+    radial-gradient(circle, rgba(0,0,0,.97), rgba(2,4,10,.93) 68%, transparent 80%);
+  border: 1px solid rgba(245,216,162,.24);
+  box-shadow:
+    0 0 90px rgba(245,216,162,.16),
+    inset 0 0 40px rgba(255,255,255,.035);
+}
+
+.ci2-core span {
+  font-size: .54rem;
+  letter-spacing: .32em;
+  text-transform: uppercase;
+  color: rgba(245,216,162,.76);
+}
+
+.ci2-core strong {
+  font-size: 1.6rem;
+  line-height: 1.08;
+  font-weight: 260;
+  color: rgba(255,255,255,.96);
+}
+
+.ci2-core p {
+  margin: 0;
+  font-size: .64rem;
+  line-height: 1.55;
+  color: rgba(255,255,255,.62);
+}
+
+/* ==========================================================
+   Cards
+========================================================== */
+
+.ci2-cards {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  pointer-events: none;
+}
+
+.ci2-card {
+  position: absolute;
+  width: 268px;
+  min-height: 258px;
+  padding: 1.08rem;
+  border-radius: 26px;
+  text-align: left;
+  overflow: hidden;
+  pointer-events: auto;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(120,180,255,.09), transparent 50%),
+    linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.018)),
+    rgba(3,5,10,.88);
+  border: 1px solid rgba(255,255,255,.10);
+  box-shadow:
+    0 30px 90px rgba(0,0,0,.42),
+    inset 0 1px 0 rgba(255,255,255,.06);
+  backdrop-filter: blur(20px);
+  transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease;
+}
+
+.ci2-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(245,216,162,.24);
+  box-shadow:
+    0 38px 120px rgba(0,0,0,.55),
+    0 0 80px rgba(245,216,162,.08),
+    inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+.ci2-card::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 88px;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(245,216,162,.34), transparent);
+  opacity: .52;
+}
+
+.ci2-card.card-1,
+.ci2-card.card-3,
+.ci2-card.card-5 {
+  left: 7%;
+}
+
+.ci2-card.card-2,
+.ci2-card.card-4,
+.ci2-card.card-6 {
+  right: 7%;
+}
+
+.ci2-card.card-1 { top: 5%; }
+.ci2-card.card-2 { top: 5%; }
+.ci2-card.card-3 { top: 34%; }
+.ci2-card.card-4 { top: 34%; }
+.ci2-card.card-5 { top: 63%; }
+.ci2-card.card-6 { top: 63%; }
+
+.ci2-card.card-1::after,
+.ci2-card.card-3::after,
+.ci2-card.card-5::after {
+  right: -88px;
+}
+
+.ci2-card.card-2::after,
+.ci2-card.card-4::after,
+.ci2-card.card-6::after {
+  left: -88px;
+  background: linear-gradient(90deg, transparent, rgba(245,216,162,.34));
+}
+
+.ci2-card-head {
+  display: flex;
+  gap: .82rem;
+  align-items: flex-start;
+}
+
+.ci2-card-head > span {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  flex: 0 0 46px;
+  font-size: 1.25rem;
+  color: rgba(245,216,162,.88);
+  border: 1px solid rgba(245,216,162,.24);
+  background: rgba(255,255,255,.025);
+}
+
+.ci2-card-head strong {
+  display: block;
+  font-size: .76rem;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+  color: rgba(255,246,224,.96);
+}
+
+.ci2-card-head p {
+  margin: .42rem 0 0;
+  font-size: .66rem;
+  line-height: 1.42;
+  color: rgba(255,255,255,.62);
+}
+
+.ci2-line {
+  height: 1px;
+  margin: .82rem 0;
+  background: linear-gradient(90deg, rgba(255,255,255,.18), transparent);
+}
+
+.ci2-card small {
+  display: block;
+  margin-bottom: .58rem;
+  font-size: .50rem;
+  letter-spacing: .23em;
+  text-transform: uppercase;
+  color: rgba(245,216,162,.76);
+}
+
+.ci2-items {
+  display: grid;
+  gap: .46rem;
+  max-height: 72px;
+  overflow-y: auto;
+  padding-right: .25rem;
+}
+
+.ci2-items::-webkit-scrollbar {
+  width: 4px;
+}
+
+.ci2-items::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,.18);
+  border-radius: 999px;
+}
+
+.ci2-items a,
+.ci2-items em {
+  position: relative;
+  padding-left: .72rem;
+  text-decoration: none;
+  font-style: normal;
+  font-size: .61rem;
+  line-height: 1.35;
+  color: rgba(255,255,255,.74);
+}
+
+.ci2-items a::before,
+.ci2-items em::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: rgba(245,216,162,.8);
+}
+
+.ci2-more {
+  display: inline-block;
+  margin-top: .78rem;
+  text-decoration: none;
+  font-size: .60rem;
+  letter-spacing: .12em;
+  color: rgba(245,216,162,.84);
+}
+
+/* ==========================================================
+   Back
+========================================================== */
+
+.ci2-back {
+  width: min(300px, 80vw);
+  margin-inline: auto;
+  padding: .82rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: rgba(255,255,255,.86);
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(3,5,10,.72);
+}
+
+/* ==========================================================
+   Medium desktop fit
+========================================================== */
+
+@media (max-width: 1400px) {
+  .ci2-shell {
+    width: min(1180px, 94vw);
+  }
+
+  .ci2-card {
+    width: 250px;
+    min-height: 242px;
+    padding: 1rem;
+  }
+
+  .ci2-card.card-1,
+  .ci2-card.card-3,
+  .ci2-card.card-5 {
+    left: 4%;
+  }
+
+  .ci2-card.card-2,
+  .ci2-card.card-4,
+  .ci2-card.card-6 {
+    right: 4%;
+  }
+
+  .ci2-dna {
+    height: 560px;
+  }
+
+  .ci2-core {
+    width: 230px;
+    height: 230px;
+  }
+}
+
+/* ==========================================================
+   Mobile
+========================================================== */
+
+@media (max-width: 768px) {
+  .ci2-section {
+    min-height: 100svh;
+    padding: 2.4rem 0;
+    overflow-y: auto;
+  }
+
+  .ci2-shell {
+    width: 90vw;
+    max-height: none;
+    overflow: visible;
+    gap: 1.3rem;
+  }
+
+  .ci2-header span {
+    font-size: .54rem;
+    letter-spacing: .24em;
+  }
+
+  .ci2-header h1 {
+    font-size: clamp(2rem, 8vw, 2.8rem);
+    line-height: 1.05;
+  }
+
+  .ci2-header p {
+    font-size: .76rem;
+    line-height: 1.65;
+  }
+
+  .ci2-stage {
+    width: 90vw;
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+    border-radius: 34px;
+    padding: 1rem 0 1.2rem;
+    display: grid;
+    gap: 1rem;
+  }
+
+  .ci2-orbit {
+    display: none;
+  }
+
+  .ci2-dna {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    width: 100%;
+    height: 430px;
+    order: 1;
+    margin-inline: auto;
+  }
+
+  .ci2-strand {
+    width: 104px;
+  }
+
+  .ci2-dna-node {
+    width: 58px;
+    height: 58px;
+    font-size: 1.35rem;
+  }
+
+  .ci2-core {
+    position: absolute;
+    top: 50%;
+    width: 210px;
+    height: 210px;
+  }
+
+  .ci2-core strong {
+    font-size: 1.35rem;
+  }
+
+  .ci2-core p {
+    font-size: .62rem;
+  }
+
+  .ci2-cards {
+    position: relative;
+    inset: auto;
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    padding: 0.4rem 0.75rem 1rem;
+    scrollbar-width: none;
+    order: 2;
+    pointer-events: auto;
+  }
+
+  .ci2-cards::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ci2-card,
+  .ci2-card.card-1,
+  .ci2-card.card-2,
+  .ci2-card.card-3,
+  .ci2-card.card-4,
+  .ci2-card.card-5,
+  .ci2-card.card-6 {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    flex: 0 0 76vw;
+    width: 76vw;
+    min-width: 76vw;
+    min-height: 330px;
+    scroll-snap-align: center;
+  }
+
+  .ci2-card::after {
+    display: none;
+  }
+
+  .ci2-items {
+    max-height: 116px;
+  }
+
+  .ci2-items a,
+  .ci2-items em {
+    font-size: .70rem;
+    line-height: 1.45;
+  }
+
+  .ci2-back {
+    width: 88vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   Civilization Intelligence v2 — Emergency Frame Fit
+   Add this at the very bottom of styles/civilization-intelligence.css
+========================================================== */
+
+/* ---------- PC / Tablet Common ---------- */
+
+.ci2-page,
+.ci2-section {
+  width: 100% !important;
+  max-width: 100vw !important;
+  min-height: 100svh !important;
+  overflow: hidden !important;
+}
+
+.ci2-shell {
+  width: min(1120px, 90vw) !important;
+  max-width: 90vw !important;
+  height: 94svh !important;
+  max-height: 94svh !important;
+  margin-inline: auto !important;
+  display: grid !important;
+  grid-template-rows: auto minmax(0, 1fr) auto !important;
+  gap: 0.8rem !important;
+  overflow: hidden !important;
+}
+
+.ci2-header {
+  max-height: 22svh !important;
+  overflow: hidden !important;
+}
+
+.ci2-header h1 {
+  font-size: clamp(1.8rem, 3.4vw, 3.7rem) !important;
+  line-height: 1.02 !important;
+}
+
+.ci2-header p {
+  max-width: 560px !important;
+  font-size: 0.74rem !important;
+  line-height: 1.55 !important;
+}
+
+.ci2-stage {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: 62svh !important;
+  overflow: hidden !important;
+}
+
+/* DNAとカードを全体縮小 */
+.ci2-dna {
+  width: 240px !important;
+  height: 470px !important;
+}
+
+.ci2-strand {
+  width: 90px !important;
+}
+
+.ci2-dna-node {
+  width: 52px !important;
+  height: 52px !important;
+  font-size: 1.18rem !important;
+}
+
+.ci2-core {
+  width: 190px !important;
+  height: 190px !important;
+  padding: 1.25rem !important;
+}
+
+.ci2-core strong {
+  font-size: 1.18rem !important;
+}
+
+.ci2-core p {
+  font-size: 0.54rem !important;
+}
+
+/* カードを内側へ寄せて小型化 */
+.ci2-card {
+  width: 220px !important;
+  min-height: 190px !important;
+  max-height: 190px !important;
+  padding: 0.82rem !important;
+  border-radius: 22px !important;
+}
+
+.ci2-card.card-1,
+.ci2-card.card-3,
+.ci2-card.card-5 {
+  left: 3% !important;
+}
+
+.ci2-card.card-2,
+.ci2-card.card-4,
+.ci2-card.card-6 {
+  right: 3% !important;
+}
+
+.ci2-card.card-1,
+.ci2-card.card-2 {
+  top: 4% !important;
+}
+
+.ci2-card.card-3,
+.ci2-card.card-4 {
+  top: 35% !important;
+}
+
+.ci2-card.card-5,
+.ci2-card.card-6 {
+  top: 66% !important;
+}
+
+.ci2-card::after {
+  width: 50px !important;
+}
+
+.ci2-card.card-1::after,
+.ci2-card.card-3::after,
+.ci2-card.card-5::after {
+  right: -50px !important;
+}
+
+.ci2-card.card-2::after,
+.ci2-card.card-4::after,
+.ci2-card.card-6::after {
+  left: -50px !important;
+}
+
+.ci2-card-head {
+  gap: 0.58rem !important;
+}
+
+.ci2-card-head > span {
+  width: 34px !important;
+  height: 34px !important;
+  flex-basis: 34px !important;
+  font-size: 0.95rem !important;
+}
+
+.ci2-card-head strong {
+  font-size: 0.62rem !important;
+  letter-spacing: 0.12em !important;
+}
+
+.ci2-card-head p {
+  font-size: 0.54rem !important;
+  line-height: 1.35 !important;
+  margin-top: 0.28rem !important;
+}
+
+.ci2-line {
+  margin: 0.55rem 0 !important;
+}
+
+.ci2-card small {
+  font-size: 0.44rem !important;
+  margin-bottom: 0.42rem !important;
+}
+
+.ci2-items {
+  max-height: 44px !important;
+  gap: 0.28rem !important;
+}
+
+.ci2-items a,
+.ci2-items em {
+  font-size: 0.5rem !important;
+  line-height: 1.25 !important;
+}
+
+.ci2-more {
+  margin-top: 0.5rem !important;
+  font-size: 0.5rem !important;
+}
+
+.ci2-back {
+  padding: 0.7rem 1rem !important;
+  font-size: 0.72rem !important;
+}
+
+/* ---------- Smaller PC ---------- */
+
+@media (max-width: 1200px) {
+  .ci2-card {
+    width: 190px !important;
+  }
+
+  .ci2-card.card-1,
+  .ci2-card.card-3,
+  .ci2-card.card-5 {
+    left: 2% !important;
+  }
+
+  .ci2-card.card-2,
+  .ci2-card.card-4,
+  .ci2-card.card-6 {
+    right: 2% !important;
+  }
+
+  .ci2-dna {
+    width: 210px !important;
+  }
+
+  .ci2-core {
+    width: 170px !important;
+    height: 170px !important;
+  }
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+  .ci2-section {
+    padding: 1.4rem 0 !important;
+    overflow: hidden !important;
+  }
+
+  .ci2-shell {
+    width: 90vw !important;
+    max-width: 90vw !important;
+    height: 94svh !important;
+    max-height: 94svh !important;
+    grid-template-rows: auto minmax(0, 1fr) auto !important;
+    gap: 0.75rem !important;
+    overflow: hidden !important;
+  }
+
+  .ci2-header {
+    max-height: 25svh !important;
+  }
+
+  .ci2-header span {
+    font-size: 0.5rem !important;
+    letter-spacing: 0.2em !important;
+  }
+
+  .ci2-header h1 {
+    font-size: clamp(1.55rem, 7vw, 2.25rem) !important;
+    line-height: 1.08 !important;
+  }
+
+  .ci2-header p {
+    font-size: 0.66rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .ci2-stage {
+    width: 90vw !important;
+    height: 100% !important;
+    max-height: 58svh !important;
+    overflow: hidden !important;
+    padding: 0.8rem 0 !important;
+  }
+
+  .ci2-dna {
+    height: 300px !important;
+    width: 100% !important;
+  }
+
+  .ci2-strand {
+    width: 76px !important;
+  }
+
+  .ci2-dna-node {
+    width: 42px !important;
+    height: 42px !important;
+    font-size: 1rem !important;
+  }
+
+  .ci2-core {
+    width: 150px !important;
+    height: 150px !important;
+    padding: 1rem !important;
+  }
+
+  .ci2-core strong {
+    font-size: 1rem !important;
+  }
+
+  .ci2-core p {
+    font-size: 0.5rem !important;
+  }
+
+  .ci2-cards {
+    max-height: 210px !important;
+    padding: 0.35rem 0.55rem 0.7rem !important;
+  }
+
+  .ci2-card,
+  .ci2-card.card-1,
+  .ci2-card.card-2,
+  .ci2-card.card-3,
+  .ci2-card.card-4,
+  .ci2-card.card-5,
+  .ci2-card.card-6 {
+    flex: 0 0 72vw !important;
+    width: 72vw !important;
+    min-width: 72vw !important;
+    min-height: 190px !important;
+    max-height: 190px !important;
+    padding: 0.85rem !important;
+  }
+
+  .ci2-items {
+    max-height: 54px !important;
+  }
+
+  .ci2-back {
+    width: 86vw !important;
+    padding: 0.7rem 1rem !important;
+  }
+}
