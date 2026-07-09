@@ -28412,3 +28412,172 @@ line-height:1.75;
     max-width: 88vw !important;
   }
 }
+
+
+
+
+
+/* ==========================================================
+  Mobile Fix — Intelligence Portal + Dedicated Page
+========================================================== */
+
+@media (max-width: 768px) {
+ /* =========================
+    1. HOME Intelligence Gate
+ ========================= */
+
+ #civilization-intelligence {
+   overflow: hidden !important;
+ }
+
+ #civilization-intelligence .civ-intel-portal {
+   width: 86vw !important;
+   max-width: 86vw !important;
+   margin-inline: auto !important;
+   overflow: hidden !important;
+ }
+
+ #civilization-intelligence .civ-intel-gate-scroll {
+   width: 100% !important;
+   max-width: 100% !important;
+   padding: 0.35rem 0 0.9rem !important;
+   overflow-x: auto !important;
+   overflow-y: hidden !important;
+   scroll-snap-type: x mandatory !important;
+ }
+
+ #civilization-intelligence .civ-intel-gate-card {
+   flex: 0 0 82% !important;
+   width: 82% !important;
+   min-width: 82% !important;
+   max-width: 82% !important;
+   min-height: 250px !important;
+   box-sizing: border-box !important;
+   scroll-snap-align: center !important;
+ }
+
+ #civilization-intelligence .civ-intel-enter {
+   width: 100% !important;
+   max-width: 100% !important;
+   box-sizing: border-box !important;
+ }
+
+ /* =========================
+    2. Dedicated Page Mobile
+ ========================= */
+
+ .ci2-section {
+   min-height: 100svh !important;
+   height: auto !important;
+   padding: 1.6rem 0 2rem !important;
+   overflow-y: auto !important;
+   overflow-x: hidden !important;
+ }
+
+ .ci2-shell {
+   width: 88vw !important;
+   max-width: 88vw !important;
+   height: auto !important;
+   max-height: none !important;
+   overflow: visible !important;
+   gap: 1rem !important;
+ }
+
+ .ci2-header h1 {
+   font-size: clamp(1.65rem, 7.2vw, 2.35rem) !important;
+   line-height: 1.08 !important;
+ }
+
+ .ci2-header p {
+   font-size: 0.68rem !important;
+   line-height: 1.55 !important;
+ }
+
+ .ci2-stage {
+   width: 88vw !important;
+   height: auto !important;
+   max-height: none !important;
+   overflow: hidden !important;
+   display: grid !important;
+   grid-template-rows: auto auto !important;
+   gap: 0.8rem !important;
+   padding: 0.8rem 0 1rem !important;
+   border-radius: 30px !important;
+ }
+
+ .ci2-dna {
+   position: relative !important;
+   width: 100% !important;
+   height: 330px !important;
+   margin: 0 auto !important;
+ }
+
+ .ci2-strand {
+   width: 70px !important;
+   height: 320px !important;
+ }
+
+ .ci2-dna-node {
+   width: 40px !important;
+   height: 40px !important;
+   font-size: 0.95rem !important;
+ }
+
+ .ci2-core {
+   width: 145px !important;
+   height: 145px !important;
+   padding: 0.85rem !important;
+ }
+
+ .ci2-core strong {
+   font-size: 0.95rem !important;
+ }
+
+ .ci2-core p {
+   font-size: 0.48rem !important;
+   line-height: 1.35 !important;
+ }
+
+ .ci2-cards {
+   position: relative !important;
+   width: 100% !important;
+   height: auto !important;
+   max-height: none !important;
+   display: flex !important;
+   gap: 0.8rem !important;
+   overflow-x: auto !important;
+   overflow-y: hidden !important;
+   scroll-snap-type: x mandatory !important;
+   padding: 0.4rem 0.75rem 1rem !important;
+   box-sizing: border-box !important;
+ }
+
+ .ci2-card,
+ .ci2-card.card-1,
+ .ci2-card.card-2,
+ .ci2-card.card-3,
+ .ci2-card.card-4,
+ .ci2-card.card-5,
+ .ci2-card.card-6 {
+   flex: 0 0 78vw !important;
+   width: 78vw !important;
+   min-width: 78vw !important;
+   max-width: 78vw !important;
+   min-height: 300px !important;
+   max-height: 300px !important;
+   padding: 1rem !important;
+   scroll-snap-align: center !important;
+   box-sizing: border-box !important;
+ }
+
+ .ci2-items {
+   max-height: 112px !important;
+   overflow-y: auto !important;
+ }
+
+ .ci2-back {
+   width: 88vw !important;
+   max-width: 88vw !important;
+   box-sizing: border-box !important;
+ }
+}
