@@ -964,3 +964,113 @@
     padding: 0.7rem 1rem !important;
   }
 }
+
+
+
+
+
+
+
+
+/* ==========================================================
+   MOBILE FORCE LAYOUT
+========================================================== */
+
+@media (max-width:768px){
+
+/* PC配置を解除 */
+.ci2-stage{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    justify-content:flex-start !important;
+
+    width:100% !important;
+    height:auto !important;
+    max-height:none !important;
+
+    overflow:visible !important;
+}
+
+/* DNA */
+.ci2-dna{
+
+    position:relative !important;
+
+    left:auto !important;
+    right:auto !important;
+    top:auto !important;
+
+    transform:none !important;
+
+    width:220px !important;
+    height:520px !important;
+
+    margin:0 auto 32px;
+}
+
+/* 中央コア */
+
+.ci2-core{
+
+    width:170px !important;
+    height:170px !important;
+}
+
+/* カード群 */
+
+.ci2-cards{
+
+    position:relative !important;
+
+    width:100% !important;
+
+    display:flex !important;
+
+    overflow-x:auto !important;
+
+    overflow-y:hidden !important;
+
+    gap:18px;
+
+    padding:12px 18px 20px;
+
+    scroll-snap-type:x mandatory;
+
+}
+
+/* Ⅰ〜Ⅵ */
+
+.ci2-card{
+
+    position:relative !important;
+
+    left:auto !important;
+
+    right:auto !important;
+
+    top:auto !important;
+
+    bottom:auto !important;
+
+    transform:none !important;
+
+    flex:0 0 84% !important;
+
+    width:84% !important;
+
+    min-width:84% !important;
+
+    scroll-snap-align:center;
+
+}
+
+/* 接続線非表示 */
+
+.ci2-card::after{
+
+    display:none !important;
+
+}
+
+}
