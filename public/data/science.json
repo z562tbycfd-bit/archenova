@@ -1,7 +1,98 @@
 {
   "ok": true,
-  "updated": "2026-07-09T08:40:49.269Z",
+  "updated": "2026-07-09T12:06:43.425Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New genomic method to track disease outbreaks globally",
+      "url": "https://phys.org/news/2026-07-genomic-method-track-disease-outbreaks.html",
+      "summary": "Phylo-Plex, a new computational method, has been developed by Wellcome Sanger Institute scientists and their collaborators to allow cost-effective and scalable DNA sequencing of pathogens in laboratories with limited res…",
+      "ts": 1783598412000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The untapped potential of bowel cancer samples to boost understanding of other diseases",
+      "url": "https://phys.org/news/2026-07-untapped-potential-bowel-cancer-samples.html",
+      "summary": "About half a million samples are collected from over-50s in Scotland each year in a highly successful NHS program that significantly boosts early cancer detection. But only a tiny amount of the sent-in poo—mixed with flu…",
+      "ts": 1783598408000
+    },
+    {
+      "source": "Science News",
+      "title": "Neandertal babies were a lot like ours — but didn’t stay that way",
+      "url": "https://www.sciencenews.org/article/neandertal-human-growth-rate",
+      "summary": "Two studies of Neandertal remains suggest their newborns were about the same size as those of modern humans but developed faster through infancy.",
+      "ts": 1783598400000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new route to electrically controlled helimagnetic structures",
+      "url": "https://phys.org/news/2026-07-route-electrically-helimagnetic.html",
+      "summary": "Advanced magnetic memory and spintronic devices rely on the ability to control magnetic states using electricity. Today, such technologies work by manipulating relatively simple magnetic structures found in ferromagnets,…",
+      "ts": 1783597704000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop low-cost AI tool to help cities map urban tree canopy",
+      "url": "https://phys.org/news/2026-07-ai-tool-cities-urban-tree.html",
+      "summary": "As a heat dome drives dangerous temperatures across much of the United States and renews concerns about extreme heat, USC researchers have developed a new, freely available AI tool that could help cities better understan…",
+      "ts": 1783597205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "China's pollution declines came at a cost",
+      "url": "https://phys.org/news/2026-07-china-pollution-declines.html",
+      "summary": "More than 20 years ago, the Chinese government instituted the Scientific Outlook on Development (SOD) program, tying local leaders' job performance evaluations to environmental quality improvements. More than 350 river m…",
+      "ts": 1783596009000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uncovering the secrets of the basking shark's bizarre skin",
+      "url": "https://phys.org/news/2026-07-uncovering-secrets-basking-shark-bizarre.html",
+      "summary": "New research reveals the unusual shape, size and pattern of the dermal denticles that cover basking sharks—thought to be unique to this species. Researchers propose that the shape and arrangement of the skin's scales pro…",
+      "ts": 1783594801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "40.7 C heat shatters Barcelona record amid Spain's latest heat wave",
+      "url": "https://phys.org/news/2026-07-shatters-barcelona-spain-latest.html",
+      "summary": "Barcelona registered a maximum temperature of 40.7°C (105.3°F) on Wednesday, its highest figure in 112 years of records, weather agencies said as another heat wave struck Spain.",
+      "ts": 1783588801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Western Europe records its hottest June as heat waves surge: EU monitor",
+      "url": "https://phys.org/news/2026-07-western-europe-hottest-june-surge.html",
+      "summary": "Western Europe this year experienced its hottest June on record as a searing heat wave swept across a continent facing increasingly frequent and intense heat extremes, the European Union's climate monitor said Thursday.",
+      "ts": 1783588201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Taiwan warns of 'destructive' winds as typhoon nears",
+      "url": "https://phys.org/news/2026-07-taiwan-destructive-typhoon-nears.html",
+      "summary": "Taiwan's weather forecaster warned on Thursday of \"destructive\" winds as the biggest typhoon in years swept toward the island after pounding U.S. Pacific territories.",
+      "ts": 1783587609000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient fossil may reveal animal kingdom's earliest right-handedness at 550 million years old",
+      "url": "https://phys.org/news/2026-07-ancient-fossil-reveal-animal-kingdom.html",
+      "summary": "Scientists have uncovered what may be the earliest evidence of \"right-handedness\" in the animal kingdom, dating back more than half a billion years. The discovery comes from the fossil record of Spriggina floundersi, an …",
+      "ts": 1783587605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden deep-sea turbulence could alter climate and fisheries within one lifetime",
+      "url": "https://phys.org/news/2026-07-hidden-deep-sea-turbulence-climate.html",
+      "summary": "Tiny, invisible swirls and twirls—not much bigger than a coin—deep below the ocean's surface are silently shaping some of the biggest forces shaping our climate: sea level rise, fisheries collapse, extreme flooding and h…",
+      "ts": 1783587601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Artemis II astronauts reunite with their moonship 3 months after record-breaking flight",
+      "url": "https://phys.org/news/2026-07-artemis-ii-astronauts-reunite-moonship.html",
+      "summary": "The Artemis II astronauts reunited with their capsule Wednesday three months after flying around the moon and traveling deeper into space than anyone in history.",
+      "ts": 1783586460000
+    },
     {
       "source": "Phys.org",
       "title": "Young giant gas planet Beta Pic B refuses to reveal its origin",
@@ -609,97 +700,6 @@
       "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
       "url": "https://arxiv.org/abs/2607.07267",
       "summary": "arXiv:2607.07267v1 Announce Type: cross Abstract: Claims about the universality of human concepts have been predominantly assessed through linguistic similarity across languages and cultures. However, words are effective…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "BubbleSH: A Dataset of Rising Bubbles with Deformable Interfaces",
-      "url": "https://arxiv.org/abs/2607.07275",
-      "summary": "arXiv:2607.07275v1 Announce Type: cross Abstract: Bubbly flows exhibit complex multiscale dynamics, with deformable bubbles interacting through the surrounding liquid and giving rise to strongly coupled kinematic and mor…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Programmable Synchronization Graphs for Adaptive and Fault-Tolerant Modular Miniature Robots",
-      "url": "https://arxiv.org/abs/2607.07281",
-      "summary": "arXiv:2607.07281v1 Announce Type: cross Abstract: Modular miniature robots could provide scalable function in constrained environments, but coordinating many imperfect modules remains difficult when computation, communic…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermodynamic description of worldwide distribution of energy and carbon emission",
-      "url": "https://arxiv.org/abs/2607.07315",
-      "summary": "arXiv:2607.07315v1 Announce Type: cross Abstract: Based on public data, we analyze the distributions of energy and carbon emission over world countries on a scale of the last 40-50 years using their presentation via Lore…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Taming nonlinear energy diffusion: The case of time-crystal energy condensates",
-      "url": "https://arxiv.org/abs/2607.07325",
-      "summary": "arXiv:2607.07325v1 Announce Type: cross Abstract: We study a bulk-driven nonlinear variant of the Kipnis-Marchioro-Presutti model of stochastic energy diffusion in which local collisions are biased to induce a net energy…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum simulation of real-world nonlinear dynamics via Koopman method",
-      "url": "https://arxiv.org/abs/2607.07338",
-      "summary": "arXiv:2607.07338v1 Announce Type: cross Abstract: Nonlinear dynamics is ubiquitous in nature, ranging from chemical pattern formation to ocean circulation, yet its simulation on quantum computers is fundamentally limited…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Large Language Model-Driven Agent-Based Modeling Framework with Multi-Round Communication for Simulating Vaccine Opinion Dynamics",
-      "url": "https://arxiv.org/abs/2607.07387",
-      "summary": "arXiv:2607.07387v1 Announce Type: cross Abstract: Recently, Large Language Models (LLMs) have been utilized in various applications of computational social science and provide the possibility to integrate such models int…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spin Textures and Eigenstate Evolution of Isospectrally Patterned Lattices",
-      "url": "https://arxiv.org/abs/2607.07502",
-      "summary": "arXiv:2607.07502v1 Announce Type: cross Abstract: Isospectrally patterned lattices exhibit a composite band structure with a tunable ratio of localized versus delocalized eigenstates that is controlled by the underlying …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Asymmetric Focal Loss Improves Graph Neural Network Prediction of Drug-Drug Interactions",
-      "url": "https://arxiv.org/abs/2607.07611",
-      "summary": "arXiv:2607.07611v1 Announce Type: cross Abstract: Background: Graph neural networks improve computational prediction of polypharmacy side effects, but standard binary cross-entropy training allocates equal capacity to we…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Higher-Order Geometric Updates for Levenberg-Marquardt Method via Riemann Normal Coordinates",
-      "url": "https://arxiv.org/abs/2607.07623",
-      "summary": "arXiv:2607.07623v1 Announce Type: cross Abstract: Nonlinear least-squares optimization is central to regression, physics-informed neural networks, and other machine-learning tasks. Such problems have a natural geometric …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analysis of polarization drift of optical signals over deployed aerial-inground fiber connections",
-      "url": "https://arxiv.org/abs/2607.07629",
-      "summary": "arXiv:2607.07629v1 Announce Type: cross Abstract: Polarization measurements of a classical 1550-nm signal are collected and analyzed on 15-km hybrid aerial-inground fiber connections over 11 months. The spectral area and…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Are Machine Learning Interatomic Potentials Truly Practical? A Benchmark of 23 Mainstream Models",
-      "url": "https://arxiv.org/abs/2607.07647",
-      "summary": "arXiv:2607.07647v1 Announce Type: cross Abstract: Most MLIP benchmarks reward static accuracy while ignoring inference efficiency and hardware scalability -- driving model bloat with unclear real-world value. We benchmar…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extra Invariant in Magnetohydrodynamics of Planets and Stars",
-      "url": "https://arxiv.org/abs/2607.07654",
-      "summary": "arXiv:2607.07654v1 Announce Type: cross Abstract: The paper establishes extra invariant in magnetohydrodynamics (MHD) of rotating and stratified fluid layer. This invariant is conserved adiabatically, i.e. approximately …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Channel Dynamics on Higher-order Interactions of Oscillators",
-      "url": "https://arxiv.org/abs/2607.07662",
-      "summary": "arXiv:2607.07662v1 Announce Type: cross Abstract: Modeling higher-order interactions (HOIs) in nonlinear networks with static topologies is often physically restrictive. We demonstrate that standard 3-body Kuramoto coupl…",
       "ts": 1783569600000
     }
   ],
