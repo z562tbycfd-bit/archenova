@@ -28675,3 +28675,92 @@ line-height:1.75;
     white-space: nowrap !important;
   }
 }
+
+
+/* ==========================================================
+   HOME — Intelligence Gate Always Visible on Mobile
+========================================================== */
+
+@media (max-width: 768px) {
+  #civilization-intelligence .civ-intel-portal {
+    width: 82vw !important;
+    max-width: 82vw !important;
+    height: auto !important;
+    max-height: 78svh !important;
+    display: grid !important;
+    grid-template-rows: auto auto auto auto !important;
+    gap: 0.85rem !important;
+    overflow: visible !important;
+  }
+
+  #civilization-intelligence .civ-intel-portal h2 {
+    font-size: clamp(1.55rem, 6.2vw, 2.15rem) !important;
+    line-height: 1.05 !important;
+    margin: 0 !important;
+  }
+
+  #civilization-intelligence .civ-intel-portal > p {
+    font-size: 0.64rem !important;
+    line-height: 1.48 !important;
+    margin: 0 auto !important;
+    max-width: 76vw !important;
+  }
+
+  #civilization-intelligence .civ-intel-gate-scroll {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 210px !important;
+    max-height: 210px !important;
+    padding: 0.2rem 0 0.5rem !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important;
+    box-sizing: border-box !important;
+  }
+
+  #civilization-intelligence .civ-intel-gate-card {
+    flex: 0 0 68vw !important;
+    width: 68vw !important;
+    min-width: 68vw !important;
+    max-width: 68vw !important;
+    min-height: 190px !important;
+    max-height: 190px !important;
+    padding: 1rem !important;
+    border-radius: 24px !important;
+    box-sizing: border-box !important;
+  }
+
+  #civilization-intelligence .civ-intel-gate-card span {
+    font-size: 1rem !important;
+  }
+
+  #civilization-intelligence .civ-intel-gate-card strong {
+    margin-top: 1.15rem !important;
+    font-size: 1.02rem !important;
+  }
+
+  #civilization-intelligence .civ-intel-gate-card p {
+    font-size: 0.68rem !important;
+    line-height: 1.45 !important;
+  }
+
+  #civilization-intelligence .civ-intel-enter,
+  #civilization-intelligence .an-button.civ-intel-enter {
+    width: 74vw !important;
+    max-width: 74vw !important;
+    min-height: 58px !important;
+    height: 58px !important;
+    padding: 0 1rem !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  #civilization-intelligence .civ-intel-enter p {
+    font-size: 0.68rem !important;
+    letter-spacing: 0.18em !important;
+    white-space: nowrap !important;
+  }
+}
