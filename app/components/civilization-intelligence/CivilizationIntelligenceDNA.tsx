@@ -4,6 +4,8 @@ import {
   getCivilizationItemsByLayer,
   IntelligenceLayer,
 } from "@/lib/civilizationIntelligenceBase";
+import CivilizationIntelligenceMotion from "./CivilizationIntelligenceMotion";
+
 
 const layers: {
   key: IntelligenceLayer;
@@ -66,6 +68,7 @@ const layers: {
 export default function CivilizationIntelligenceDNA() {
   return (
     <main className="ci2-page">
+      <CivilizationIntelligenceMotion />
       <section className="ci2-section">
         <div className="ci2-space" aria-hidden="true" />
 
