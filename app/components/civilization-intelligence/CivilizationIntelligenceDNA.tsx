@@ -167,29 +167,7 @@ export default function CivilizationIntelligenceDNA() {
                 })}
               </div>
             </div>
-
-            <footer className="ci2-footer">
-
-    <Link
-        href="/home"
-        className="ci2-home"
-    >
-        ⌂ Back to Home →
-    </Link>
-
-    <div className="ci2-quote">
-
-        The mind of civilization is not a human invention.
-
-        <br />
-
-        It is the architecture through which intelligence
-        observes reality, transforms knowledge into design,
-        realizes civilization, and carries memory beyond generations.
-
-    </div>
-
-</footer>
+            
           </div>
         </Reveal>
       </section>
