@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-09T18:05:00.596Z",
+  "updated": "2026-07-09T20:48:41.471Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "The Exploration Company establishes US entity to pursue government contracts",
+      "url": "https://spacenews.com/the-exploration-company-establishes-us-entity-to-pursue-government-contracts/",
+      "summary": "JOHANNESBURG — The Exploration Company, a space transportation company based in Germany, established TEC Federal, a United States-based entity that will enable it to compete for government programs and contracts. […] The…",
+      "ts": 1783627953000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Whistleblower takes on health insurance and FDA commissioner candidates",
+      "url": "https://www.statnews.com/2026/07/09/readout-loud-podcast-fda-commissioner-candidates-health-insurance-costs/?utm_campaign=rss",
+      "summary": "This week on \"The Readout LOUD\" podcast: Why does getting family health insurance through a job cost as much as buying a new car? And who might be the new…",
+      "ts": 1783627674000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Environmental groups urge FCC to pause orbital data center applications",
+      "url": "https://spacenews.com/environmental-groups-seek-fcc-pause-on-orbital-data-center-constellations/",
+      "summary": "Environmental and scientific groups are calling for a halt to processing orbital data center applications, arguing the rush to move computing infrastructure into space has raised the stakes in a broader push for more meg…",
+      "ts": 1783625982000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Crohn’s Disease Phage Therapy Neutralizes Inflammatory E. coli in Mouse Model",
+      "url": "https://www.genengnews.com/topics/translational-medicine/crohns-disease-phage-therapy-neutralizes-inflammatory-e-coli-in-mouse-model/",
+      "summary": "Researchers developed a supportive bacteriophage therapy for Crohn’s disease that in a mouse model neutralized a type of E. coli bacteria that drives inflammation in the gut, and improved responses to low doses of a conv…",
+      "ts": 1783624328000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Engineered AAVs Harness Glymphatic System to Reach Brain Targets in Mice",
+      "url": "https://www.genengnews.com/topics/omics/engineered-aavs-harness-glymphatic-system-to-reach-brain-targets-in-mice/",
+      "summary": "By delivering engineered adeno-associated viruses through the brain's fluid transport network to target glial cells, scientists demonstrated a strategy that could bypass the blood-brain barrier and enable future brain-di…",
+      "ts": 1783623561000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Curiosity Sees Martian Sulfur Up Close",
@@ -147,6 +187,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "ts": 1783602000000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "Space Force awards Pulse Space $40 million to advance laser power technology",
       "url": "https://spacenews.com/space-force-awards-pulse-space-40-million-to-advance-laser-power-technology/",
@@ -185,6 +233,54 @@
       "summary": "Even as many details of Golden Dome remain unsettled, the missile-defense program has become a focal point for space and defense startups looking for new markets The post Golden Dome and the search for new space markets …",
       "ts": 1783598400000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Peak heat in Europe just broke historic 1970s records",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167911",
+      "summary": "This year marks the hottest June recorded for Western Europe and the second warmest globally, according to the latest report from a climate tracking service released on Thursday.",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World must move faster on Ebola response for DR Congo: UN relief chief",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167910",
+      "summary": "The world must move faster to contain the spread of Ebola in the Democratic Republic of the Congo (DRC), UN relief chief Tom Fletcher said on Thursday.",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Remembering the Srebrenica genocide: ‘Fear is all that kept me moving’",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167909",
+      "summary": "The United Nations paused on Wednesday to remember the more than 8,000 Bosnian Muslim men and boys killed in the town of Srebrenica in July 1995, and the women and survivors left to rebuild their lives in the aftermath.",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Use of explosive weapons ‘must stop’ in eastern DR Congo: Türk",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167906",
+      "summary": "UN High Commissioner for Human Rights Volker Türk urged the armed forces of the Democratic Republic of the Congo and the Rwanda-backed M23 armed group to cease hostilities as he deplored recent civilian deaths on Thursda…",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "US-Iran war leaves shipping at near-standstill in Hormuz again",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167905",
+      "summary": "Renewed hostilities between the United States and Iran reportedly brought shipping to a near-standstill in the Strait of Hormuz on Thursday, leaving around 6,000 seafarers stranded aboard hundreds of vessels and Gulf cou…",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: ‘Urgent de-escalation’ needed now in Ukraine amid spike in civilian deaths",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167904",
+      "summary": "The Security Council must use every tool and diplomatic channel to reach an urgent de-escalation, Rosemary DiCarlo, chief of UN political and peacebuilding affairs, told an emergency meeting on Thursday amid escalating d…",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -625,102 +721,6 @@
       "summary": "July 8, 2026 C.13 NASA Awards Contracts for Mars Advanced Surface Mobility Technology NASA has selected seven companies for contract awards under the Mars Exploration Program’s Science Transport and Robotic Innovation fo…",
       "ts": 1783527770000,
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Bryan Johnson’s chronic disease is notoriously difficult to diagnose",
-      "url": "https://www.statnews.com/2026/07/08/bryan-johnson-autoimmune-gastritis-diagnosis-explained/?utm_campaign=rss",
-      "summary": "Why longevity entrepreneur Bryan Johnson’s chronic disease is notoriously difficult to diagnose.",
-      "ts": 1783527201000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Interface Mismatches Remain Key Barrier to Continuous Bioprocessing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/interface-mismatches-key-barrier-to-continuous-bioprocessing/",
-      "summary": "Fully-continuous, automated bioprocessing is achievable only when processes are tightly integrated and engineered to eliminate volume mismatches between steps and digitally managed to ensure system-wide visibility and in…",
-      "ts": 1783526446000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Local PBMC Isolation Enables Four-Hour Processing in San Diego",
-      "url": "https://www.genengnews.com/topics/bioprocessing/local-pbmc-isolation-enables-four-hour-processing-in-san-diego/",
-      "summary": "OrganaBio’s new San Diego cell processing site expands access to fast PBMC isolation and cryopreservation, thus improving quality, consistency, and supply chain surety for these vital CGT starting materials. The post Loc…",
-      "ts": 1783526431000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Plant Expression Platforms May Be Better Option for Biopharma in the Global South",
-      "url": "https://www.genengnews.com/topics/bioprocessing/plant-expression-platforms-a-better-option-for-biopharma-in-the-global-south/",
-      "summary": "Mammalian cell-based biopharmaceutical manufacturing systems are complex, expensive, and, say the authors of a new study, not suited to producing medicines in resource-constrained environments. Plant-based protein expres…",
-      "ts": 1783526424000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Perfusion Technologies Gain Momentum in Biomanufacturing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/perfusion-technologies-gain-momentum-in-biomanufacturing/",
-      "summary": "As biologics developers face mounting pressure to increase output while controlling costs, perfusion-based manufacturing attracts renewed attention. Advances in media, automation, and AI-driven process control are helpin…",
-      "ts": 1783526408000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Oligonucleotide Therapeutic Industry Readies Itself to Move to the Next Phase",
-      "url": "https://www.genengnews.com/topics/bioprocessing/oligonucleotide-therapeutic-industry-readies-itself-to-move-to-the-next-phase/",
-      "summary": "As synthetic oligonucleotide therapeutics become validated and feasible for commercial production, manufacturers are being urged to become familiar with the Chemistry, Manufacturing, and Control (CMC) aspects of their bi…",
-      "ts": 1783526402000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Affordable Care Act insurers want more premium increases as enrollment sags",
-      "url": "https://www.statnews.com/2026/07/08/affordable-care-act-insurers-premium-increases-enrollment-dips/?utm_campaign=rss",
-      "summary": "For the second year in a row, many Affordable Care Act insurers are proposing double-digit premium increases, driven by rising medical costs as well as federal policy changes.",
-      "ts": 1783524681000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Ne…",
-      "ts": 1783522827000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Transplants extended survival for patients whose stage 4 lung cancer hadn’t spread, study says",
-      "url": "https://www.statnews.com/2026/07/08/lung-transplant-advanced-cancer-study-results-ethics-jama/?utm_campaign=rss",
-      "summary": "Lung cancer patients hadn't been seen as candidates for organ transplant. Now a study finds patients did well.",
-      "ts": 1783522800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Europe will accelerate its review of RevMed’s drug",
-      "url": "https://www.statnews.com/2026/07/08/biotech-news-europe-will-accelerate-its-review-of-revmed-cancer-drug/?utm_campaign=rss",
-      "summary": "Kailera's GLP-1 pill data raises concerns, FDA clears Vera autoimmune therapy, and more biotech news from The Readout",
-      "ts": 1783520693000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Captures Star-Studded Cluster",
-      "url": "https://www.nasa.gov/image-article/hubble-captures-star-studded-cluster/",
-      "summary": "This image from NASA’s Hubble Space Telescope showcases Messier 3 (M3), one of the Milky Way galaxy’s most massive globular clusters, or spherical collections of gravitationally bound stars. Globular clusters are made up…",
-      "ts": 1783520033000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Astrocytes Preserve Memory Persistence Through Ankyrin-2 Protein in Mice",
-      "url": "https://www.genengnews.com/topics/drug-discovery/astrocytes-preserve-memory-persistence-through-ankyrin-2-protein-in-mice/",
-      "summary": "How certain memories persist over time for learning and cognitive function remains unclear. A new study suggests that astrocytes play a critical role in long-term memory through the regulatory protein ankyrin-2 (Ank2). T…",
-      "ts": 1783519767000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
