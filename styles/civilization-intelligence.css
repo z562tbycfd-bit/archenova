@@ -1869,3 +1869,134 @@
 
     right:28px;
 }
+
+
+
+
+
+
+
+
+/* ==========================================================
+   CI — 3D Floating DNA Core
+========================================================== */
+
+@media (min-width: 769px) {
+  .ci2-stage {
+    perspective: 1200px;
+  }
+
+  .ci2-dna {
+    transform:
+      translate(-50%, -50%)
+      rotateX(10deg)
+      rotateY(-18deg)
+      rotateZ(-2deg) !important;
+
+    transform-style: preserve-3d;
+    animation: ciDnaFloat3D 12s ease-in-out infinite;
+    filter:
+      drop-shadow(0 0 38px rgba(245,216,162,.22))
+      drop-shadow(0 0 90px rgba(120,180,255,.12));
+  }
+
+  .ci2-strand.strand-left {
+    transform:
+      translateX(-50%)
+      rotateY(24deg)
+      rotateZ(18deg) !important;
+  }
+
+  .ci2-strand.strand-right {
+    transform:
+      translateX(-50%)
+      rotateY(-24deg)
+      rotateZ(-18deg) !important;
+  }
+
+  .ci2-dna-node {
+    transform:
+      translateX(-50%)
+      translateZ(42px) !important;
+  }
+
+  .ci2-dna-node:nth-of-type(even) {
+    transform:
+      translateX(-50%)
+      translateZ(-42px)
+      scale(.92) !important;
+
+    opacity: .78;
+    filter: blur(.15px);
+  }
+
+  .ci2-core {
+    transform:
+      translate(-50%, -50%)
+      translateZ(80px) !important;
+
+    transform-style: preserve-3d;
+  }
+
+  .ci2-core::after {
+    content: "";
+    position: absolute;
+    inset: -26%;
+    border-radius: 50%;
+    background:
+      conic-gradient(
+        from 180deg,
+        transparent,
+        rgba(245,216,162,.16),
+        transparent,
+        rgba(120,180,255,.12),
+        transparent
+      );
+    filter: blur(26px);
+    opacity: .72;
+    z-index: -2;
+    animation: ciCoreHaloSpin 26s linear infinite;
+  }
+
+  @keyframes ciDnaFloat3D {
+    0%, 100% {
+      transform:
+        translate(-50%, -50%)
+        rotateX(10deg)
+        rotateY(-18deg)
+        rotateZ(-2deg)
+        translateY(0);
+    }
+
+    50% {
+      transform:
+        translate(-50%, -50%)
+        rotateX(14deg)
+        rotateY(18deg)
+        rotateZ(2deg)
+        translateY(-12px);
+    }
+  }
+
+  @keyframes ciCoreHaloSpin {
+    from {
+      rotate: 0deg;
+    }
+
+    to {
+      rotate: 360deg;
+    }
+  }
+}
+
+/* Mobileは揺れ・崩れ防止のため軽量化 */
+@media (max-width: 768px) {
+  .ci2-dna {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .ci2-core::after {
+    display: none !important;
+  }
+}
