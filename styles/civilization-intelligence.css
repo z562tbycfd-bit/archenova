@@ -2000,3 +2000,170 @@
     display: none !important;
   }
 }
+
+
+
+
+
+
+
+/* ==========================================================
+   CI — Intelligence Network Beams
+   Connect Ⅰ〜Ⅵ cards to DNA
+========================================================== */
+
+@media (min-width: 769px) {
+  .ci2-card {
+    overflow: visible !important;
+  }
+
+  .ci2-card::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 50% !important;
+    height: 1px !important;
+    opacity: 0.95 !important;
+    pointer-events: none !important;
+    z-index: 2 !important;
+
+    background:
+      linear-gradient(
+        90deg,
+        rgba(245,216,162,0.72),
+        rgba(120,180,255,0.34),
+        transparent
+      ) !important;
+
+    box-shadow:
+      0 0 12px rgba(245,216,162,0.38),
+      0 0 30px rgba(120,180,255,0.20);
+  }
+
+  .ci2-card.card-1::after,
+  .ci2-card.card-3::after,
+  .ci2-card.card-5::after {
+    left: 100% !important;
+    right: auto !important;
+    width: clamp(90px, 11vw, 170px) !important;
+  }
+
+  .ci2-card.card-2::after,
+  .ci2-card.card-4::after,
+  .ci2-card.card-6::after {
+    right: 100% !important;
+    left: auto !important;
+    width: clamp(90px, 11vw, 170px) !important;
+
+    background:
+      linear-gradient(
+        270deg,
+        rgba(245,216,162,0.72),
+        rgba(120,180,255,0.34),
+        transparent
+      ) !important;
+  }
+
+  /* 光がDNAへ流れる粒子 */
+  .ci2-card::before {
+    content: "" !important;
+    position: absolute !important;
+    top: calc(50% - 2px) !important;
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 50% !important;
+    pointer-events: none !important;
+    z-index: 3 !important;
+
+    background: rgba(255, 236, 190, 0.95) !important;
+    box-shadow:
+      0 0 12px rgba(245,216,162,0.75),
+      0 0 24px rgba(120,180,255,0.34);
+  }
+
+  .ci2-card.card-1::before,
+  .ci2-card.card-3::before,
+  .ci2-card.card-5::before {
+    left: calc(100% + 4px) !important;
+    animation: ciBeamParticleRight 3.6s ease-in-out infinite;
+  }
+
+  .ci2-card.card-2::before,
+  .ci2-card.card-4::before,
+  .ci2-card.card-6::before {
+    right: calc(100% + 4px) !important;
+    animation: ciBeamParticleLeft 3.6s ease-in-out infinite;
+  }
+
+  .ci2-card.card-2::before,
+  .ci2-card.card-5::before {
+    animation-delay: -1.2s;
+  }
+
+  .ci2-card.card-3::before,
+  .ci2-card.card-6::before {
+    animation-delay: -2.4s;
+  }
+
+  @keyframes ciBeamParticleRight {
+    0%, 100% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+
+    18% {
+      opacity: 1;
+    }
+
+    72% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateX(clamp(90px, 11vw, 170px));
+      opacity: 0;
+    }
+  }
+
+  @keyframes ciBeamParticleLeft {
+    0%, 100% {
+      transform: translateX(0);
+      opacity: 0;
+    }
+
+    18% {
+      opacity: 1;
+    }
+
+    72% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateX(calc(-1 * clamp(90px, 11vw, 170px)));
+      opacity: 0;
+    }
+  }
+
+  /* DNA側の受信点のような発光 */
+  .ci2-dna-node::after {
+    content: "";
+    position: absolute;
+    inset: -7px;
+    border-radius: 50%;
+    border: 1px solid rgba(245,216,162,0.20);
+    box-shadow:
+      0 0 20px rgba(245,216,162,0.22),
+      0 0 34px rgba(120,180,255,0.12);
+    opacity: 0.75;
+    pointer-events: none;
+  }
+}
+
+/* モバイルでは接続線を非表示 */
+@media (max-width: 768px) {
+  .ci2-card::before,
+  .ci2-card::after,
+  .ci2-dna-node::after {
+    display: none !important;
+  }
+}
