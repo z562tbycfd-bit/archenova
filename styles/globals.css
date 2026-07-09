@@ -28645,3 +28645,33 @@ line-height:1.75;
     box-sizing: border-box !important;
   }
 }
+
+
+
+
+
+
+
+/* ==========================================================
+   HOME — Intelligence Enter Button Mobile Width Fix
+========================================================== */
+
+@media (max-width: 768px) {
+  #civilization-intelligence .civ-intel-enter,
+  #civilization-intelligence a.civ-intel-enter,
+  #civilization-intelligence .an-button.civ-intel-enter {
+    width: 74vw !important;
+    max-width: 74vw !important;
+    min-width: 0 !important;
+    margin-inline: auto !important;
+    padding-inline: 1rem !important;
+    box-sizing: border-box !important;
+    justify-self: center !important;
+  }
+
+  #civilization-intelligence .civ-intel-enter p {
+    font-size: 0.72rem !important;
+    letter-spacing: 0.22em !important;
+    white-space: nowrap !important;
+  }
+}
