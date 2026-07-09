@@ -28581,3 +28581,67 @@ line-height:1.75;
    box-sizing: border-box !important;
  }
 }
+
+
+
+
+
+
+/* ==========================================================
+   HOME — Civilization Intelligence Gate Mobile Fit
+========================================================== */
+
+@media (max-width: 768px) {
+  #civilization-intelligence {
+    overflow: hidden !important;
+  }
+
+  #civilization-intelligence .civ-intel-portal {
+    width: 82vw !important;
+    max-width: 82vw !important;
+    max-height: 84svh !important;
+    margin-inline: auto !important;
+    gap: 1.1rem !important;
+    overflow: hidden !important;
+  }
+
+  #civilization-intelligence .civ-intel-portal h2 {
+    font-size: clamp(1.75rem, 7.2vw, 2.55rem) !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.03em !important;
+  }
+
+  #civilization-intelligence .civ-intel-portal > p {
+    max-width: 78vw !important;
+    font-size: 0.72rem !important;
+    line-height: 1.6 !important;
+  }
+
+  #civilization-intelligence .civ-intel-gate-scroll {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0.25rem 0 0.85rem !important;
+    gap: 0.8rem !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  #civilization-intelligence .civ-intel-gate-card {
+    flex: 0 0 72vw !important;
+    width: 72vw !important;
+    min-width: 72vw !important;
+    max-width: 72vw !important;
+    min-height: 260px !important;
+    max-height: 260px !important;
+    padding: 1.15rem !important;
+    box-sizing: border-box !important;
+  }
+
+  #civilization-intelligence .civ-intel-enter {
+    width: 82vw !important;
+    max-width: 82vw !important;
+    margin-inline: auto !important;
+    box-sizing: border-box !important;
+  }
+}
