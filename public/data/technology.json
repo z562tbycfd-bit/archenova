@@ -1,7 +1,159 @@
 {
   "ok": true,
-  "updated": "2026-07-09T12:06:46.101Z",
+  "updated": "2026-07-09T15:58:11.170Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Scientists Take to Air and Space to Study Arctic Sea Ice",
+      "url": "https://www.nasa.gov/missions/airborne-science/nasa-scientists-take-to-air-and-space-to-study-arctic-sea-ice/",
+      "summary": "This month, engineers at NASA’s Jet Propulsion Laboratory in Southern California are testing a spacecraft sensor that will help measure how quickly Arctic sea ice is disappearing. And while that instrument won’t launch f…",
+      "ts": 1783611778000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Satellites in tandem reveal 30 years of Antarctic ice flow",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Satellites_in_tandem_reveal_30_years_of_Antarctic_ice_flow",
+      "summary": "Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar s…",
+      "ts": 1783609800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Outbreak of diarrhea-causing parasite grows to more than 1,000 cases",
+      "url": "https://www.statnews.com/2026/07/09/cyclospora-outbreak-faq-diarrhea-causing-parasite/?utm_campaign=rss",
+      "summary": "An outbreak of diarrhea-causing parasite has grown to more than 1,000 cases, making it one of the nation’s largest such outbreaks in years.",
+      "ts": 1783609287000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Volatility is often the price of ambition",
+      "url": "https://spacenews.com/volatility-is-often-the-price-of-ambition/",
+      "summary": "For the growing number of constellations being designed around Starship, the wild ups and downs in the early days of SpaceX’s historic IPO have a familiar rhythm. While some of […] The post Volatility is often the price …",
+      "ts": 1783609200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: ARPA-H launches $160 million effort to develop custom gene editing drugs",
+      "url": "https://www.statnews.com/2026/07/09/arpa-h-160-million-custom-gene-editing-funding-rare-disease/?utm_campaign=rss",
+      "summary": "An ARPA-H program to jump-start custom gene editing treatments was delayed by a change in administrations. Now seven labs will get sizable grants.",
+      "ts": 1783609200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA finalists under review",
+      "url": "https://www.statnews.com/2026/07/09/fda-commissioner-finalists-under-review-obamacare-premiums-surge-again/?utm_campaign=rss",
+      "summary": "Three top contenders to run the FDA are under review by the White House",
+      "ts": 1783608649000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Maintaining leadership in space with Victoria Coleman",
+      "url": "https://spacenews.com/maintaining-leadership-in-space-with-victoria-coleman/",
+      "summary": "In this episode of the Space Minds podcast, David Ariosto talks with Victoria Coleman, the former chief scientist for the U.S. Air Force who now serves as associate provost of […] The post Maintaining leadership in space…",
+      "ts": 1783608423000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force completes procurement reorganization, creating nine acquisition portfolios",
+      "url": "https://spacenews.com/space-force-completes-procurement-reorganization-creating-nine-acquisition-portfolios/",
+      "summary": "New portfolio acquisition executives will control requirements and modernization decisions across major mission areas The post Space Force completes procurement reorganization, creating nine acquisition portfolios appear…",
+      "ts": 1783607456000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Prime wins Beam arbitration, clearing path to clinic",
+      "url": "https://www.statnews.com/2026/07/09/biotech-news-prime-wins-beam-arbitration-clearing-path-to-clinic/?utm_campaign=rss",
+      "summary": "AstraZeneca, Ionis report major trial failure, White House pushes for American drug manufacturing, and more biotech news from The Readout",
+      "ts": 1783605921000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Ag Genomics Begins to Bear Fruit",
+      "url": "https://www.genengnews.com/topics/omics/ag-genomics-begins-to-bear-fruit/",
+      "summary": "Genomics tools—applied to agriculture—create commercially desirable traits in a fraction of the time required by standard breeding programs. The post Ag Genomics Begins to Bear Fruit appeared first on GEN - Genetic Engin…",
+      "ts": 1783605594000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Top 10 Best-Selling Drugs 2026",
+      "url": "https://www.genengnews.com/industry-news/top-10-best-selling-drugs-2026/",
+      "summary": "Thanks to booming sales of blockbuster obesity and diabetes treatments, the amount that Americans spent on prescription drugs this year is on track to surpass $1 trillion. Total aggregate value of the drugs generating th…",
+      "ts": 1783604557000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 357 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-357-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1783603673000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about FDA commissioner contenders, a heart drug failure, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/09/fda-commissioner-contenders-reviewed-astrazeneca-ionis-heart-drug-failed/?utm_campaign=rss",
+      "summary": "The White House is reviewing a list of three top contenders for the FDA commissioner post",
+      "ts": 1783603082000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: OpenEvidence backs study that finds it beats LLMs",
+      "url": "https://www.statnews.com/2026/07/09/openevidence-backs-study-that-finds-it-beats-llms-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: Dueling research pitting OpenEvidence against general purpose LLMs, use of Dexcom's CGM in children, and more.",
+      "ts": 1783602354000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Virtual Cells Go Multiscale to Predict Complex Biology",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/virtual-cells-go-multiscale-to-predict-complex-biology/",
+      "summary": "As the diversity of virtual cell models targets new dimensions of complex biology, every approach takes another step closer toward clinical impact. The post Virtual Cells Go Multiscale to Predict Complex Biology appeared…",
+      "ts": 1783602319000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "GeForce NOW Turns Up the Heat With New GeForce RTX 5080-Powered Toronto Server",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
+      "summary": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW. The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in th…",
+      "ts": 1783602055000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force awards Pulse Space $40 million to advance laser power technology",
+      "url": "https://spacenews.com/space-force-awards-pulse-space-40-million-to-advance-laser-power-technology/",
+      "summary": "The startup is developing laser systems that transmit power and data between spacecraft The post Space Force awards Pulse Space $40 million to advance laser power technology appeared first on SpaceNews.",
+      "ts": 1783602000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Advanced Cell Sorting Balances Precision, Scale, and Simplicity",
+      "url": "https://www.genengnews.com/topics/translational-medicine/advanced-cell-sorting-balances-precision-scale-and-simplicity/",
+      "summary": "Next-generation instruments improve rare-cell detection, sterility control, biosafety, and throughput for translational applications. The post Advanced Cell Sorting Balances Precision, Scale, and Simplicity appeared firs…",
+      "ts": 1783600427000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a nuclear landmark, and China eyes Nvidia chips",
+      "url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Four nuclear reactors hit a big milestone in the US —Casey Crownhart I was really …",
+      "ts": 1783599000000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Texas Biomed Enters Into a CRADA with U.S. Dept. of War to Help Protect Against Biological Threats",
@@ -569,158 +721,6 @@
       "summary": "Pet technology company Fi launched a dog tracker July 8 that uses T-Mobile’s Starlink-enabled T-Satellite service to remain connected across the United States, even outside the telco’s terrestrial network. The post Fi ex…",
       "ts": 1783515600000,
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The satellite industry’s most expensive problem isn’t in orbit",
-      "url": "https://spacenews.com/the-satellite-industrys-most-expensive-problem-isnt-in-orbit/",
-      "summary": "AST SpaceMobile recently deployed three more BlueBird satellites into low Earth orbit as it advances plans for a space-based cellular broadband network of 45 to 60 satellites by the end […] The post The satellite industr…",
-      "ts": 1783515600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Deep space software upgrade for Hera’s asteroid visit",
-      "url": "https://www.esa.int/Space_Safety/Hera/Deep_space_software_upgrade_for_Hera_s_asteroid_visit",
-      "summary": "Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids t…",
-      "ts": 1783514640000,
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Helps Latin American and the Caribbean Countries Prepare for Nuclear and Radiological Emergencies Coinciding with Other Crises",
-      "url": "http://www.iaea.org/newscenter/news/iaea-helps-latin-american-and-the-caribbean-countries-prepare-for-nuclear-and-radiological-emergencies-coinciding-with-other-crises",
-      "summary": "The IAEA helps countries prepare for nuclear and radiological emergencies through its safety standards and guidance, as well as capacity-building initiatives.",
-      "ts": 1783513819000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: worms fight pollution, and geoengineering faces reality",
-      "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why worms (and microbes) are catching on as a manure pollution solution Anthony Ag…",
-      "ts": 1783512600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Venus Aerospace raises $91 million to scale rocket engine technology",
-      "url": "https://spacenews.com/venus-aerospace-raises-91-million-to-scale-rocket-engine-technology/",
-      "summary": "Funding will support development and production of the company’s rotating detonation rocket engine The post Venus Aerospace raises $91 million to scale rocket engine technology appeared first on SpaceNews.",
-      "ts": 1783512000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Restoring dignity: Senegalese surgeon and Burundian foundation win reproductive health awards",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167903",
-      "summary": "A Senegalese surgeon who has dedicated his career to restoring the health and dignity of women living with obstetric fistula, and a Burundian foundation supporting vulnerable women and children, have been named the winne…",
-      "ts": 1783512000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN Syria inquiry presses for answers on missing detainees after wide-ranging visit",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167901",
-      "summary": "UN investigators have urged Syria’s Government to trace thousands of missing detainees and hold perpetrators to account after a week-long visit that took in bomb attacks in Damascus, prison visits in the northeast and re…",
-      "ts": 1783512000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Help is coming’: UN relief chief briefs on Venezuela quake recovery",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167899",
-      "summary": "The widespread solidarity shown to Venezuela must now be transformed into real, practical support for recovery from the deadly double earthquakes last month, UN relief chief Tom Fletcher said on Wednesday.",
-      "ts": 1783512000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "US-Iran war: Renewed attacks in Strait of Hormuz prompts another global energy alert",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167898",
-      "summary": "Renewed attacks on shipping in the Strait of Hormuz unsettled energy markets on Wednesday and prompted calls from the UN maritime agency, IMO, for “maximum restraint and de-escalation”.",
-      "ts": 1783512000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sudan: ‘El Obeid must not become the next crime scene’ warn UN investigators",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167897",
-      "summary": "Atrocities committed by the Rapid Support Forces (RSF) militia against Sudanese civilians in El Fasher in October – including mass killings, abductions and gang rapes – bear the markers of genocide, independent UN human …",
-      "ts": 1783512000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Open debate on sexual violence in conflict",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167894",
-      "summary": "The UN Security Council is holding an open debate Tuesday honouring the promise of international law to survivors of sexual violence in conflict as more reports emerge about warring parties using rape as a weapon, action…",
-      "ts": 1783512000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Cancer cases could nearly double by 2050 without urgent action, WHO warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167890",
-      "summary": "The number of new cancer cases worldwide could rise to almost 35 million a year by 2050 unless countries take urgent action to strengthen prevention, early diagnosis and treatment, the World Health Organization (WHO) war…",
-      "ts": 1783512000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Grim homecoming: Devastation greets Lebanon's war-weary returnees",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167893",
-      "summary": "The ceasefire deal between Beirut and Tel Aviv has led to a marked reduction in hostilities between Hezbollah and the Israeli military, sparked by the wider Iran-Israel-US war, but the situation remains uncertain for com…",
-      "ts": 1783512000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Another big premium hike on the horizon ",
-      "url": "https://www.statnews.com/2026/07/08/health-news-more-big-premium-hikes-on-the-horizon/?utm_campaign=rss",
-      "summary": "FDA's crackdown on online ketamine retailers, unprecedented health care premium hikes, and more health news from Morning Rounds",
-      "ts": 1783510999000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The government’s options to address strained spaceports",
-      "url": "https://spacenews.com/the-governments-options-to-address-strained-spaceports/",
-      "summary": "The May 28 explosion of a Blue Origin New Glenn rocket at Cape Canaveral’s Launch Complex 36 did more than destroy a rocket and severely damage a launch pad. The […] The post The government’s options to address strained …",
-      "ts": 1783508400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Helping K–12 educators build practical AI skills",
-      "url": "https://openai.com/index/k-12-educators-practical-skills",
-      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
-      "ts": 1783504800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "New European exercise device begins testing with first rope-pulling workout in space ",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/New_European_exercise_device_begins_testing_with_first_rope-pulling_workout_in_space",
-      "summary": "ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the…",
-      "ts": 1783499760000,
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
-      "url": "http://www.iaea.org/newscenter/news/iaea-and-world-bank-group-collaborate-to-advance-nuclear-energy-for-development",
-      "summary": "",
-      "ts": 1783499405000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump administration pursues more durable changes to science policy after setbacks in court",
-      "url": "https://www.statnews.com/2026/07/08/trump-research-funding-scientists-see-omb-overreach-control/?utm_campaign=rss",
-      "summary": "The White House has proposed sweeping changes to the bedrock regulation undergirding all federal contracts, empowering the executive branch to direct research, terminate grants, and external scientific reviews.",
-      "ts": 1783499400000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
