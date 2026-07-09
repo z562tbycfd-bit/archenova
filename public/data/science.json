@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-09T04:55:39.528Z",
+  "updated": "2026-07-09T08:40:49.269Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Young giant gas planet Beta Pic B refuses to reveal its origin",
+      "url": "https://phys.org/news/2026-07-young-giant-gas-planet-beta.html",
+      "summary": "The young planetary system of the 23-million-year-old star Beta Pictoris (short: Beta Pic) is regarded as an iconic circumstellar dust disk, which hosts at least three giant gas planets. Discovered in 2008 by direct imag…",
+      "ts": 1783584002000
+    },
     {
       "source": "arXiv Physics",
       "title": "Polyconvexity does not imply true-stress-true-strain monotonicity in the incompressible three-dimensional case",
@@ -693,13 +700,6 @@
       "title": "Impact of Channel Dynamics on Higher-order Interactions of Oscillators",
       "url": "https://arxiv.org/abs/2607.07662",
       "summary": "arXiv:2607.07662v1 Announce Type: cross Abstract: Modeling higher-order interactions (HOIs) in nonlinear networks with static topologies is often physically restrictive. We demonstrate that standard 3-body Kuramoto coupl…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-channel collective dissipation via the symmetric irreducible representation of SU(4)",
-      "url": "https://arxiv.org/abs/2607.07701",
-      "summary": "arXiv:2607.07701v1 Announce Type: cross Abstract: We specialize Agarwal's multi-level collective spontaneous-emission formalism to the four-level case by formulating it in the fully symmetric \\SU(4) representation of $N$…",
       "ts": 1783569600000
     }
   ],

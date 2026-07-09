@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-09T04:55:42.339Z",
+  "updated": "2026-07-09T08:40:51.654Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "What happens on ‘MAHA Monday’?",
+      "url": "https://www.statnews.com/2026/07/09/maha-mondays-great-american-state-fair-status-report-alex-hogan/?utm_campaign=rss",
+      "summary": "STAT's Alex Hogan and Chelsea Cirruzzo stopped by \"MAHA Monday\" at the Great American State Fair. Watch their report in this week's STATus Report.",
+      "ts": 1783585800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The quest to save Grace — and clear the way for rare disease patients everywhere",
+      "url": "https://www.statnews.com/2026/07/09/matt-wilsey-grace-science-rare-disease-drug-development-ngly1/?utm_campaign=rss",
+      "summary": "How a father’s quest may shape the future of rare disease gene therapy.",
+      "ts": 1783585800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Who benefits from classifying obesity as a disease?",
+      "url": "https://www.statnews.com/2026/07/09/obesity-disease-classification-glp-1-eli-lilly-novo-nordisk/?utm_campaign=rss",
+      "summary": "“The new wave of obesity pharmacotherapy has leaned heavily on disease framing,” writes Max Moser, drawing comparisons to the antidepressant revolution.",
+      "ts": 1783585800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Your grandparents are using cannabis. Doctors can help them do it safely",
+      "url": "https://www.statnews.com/2026/07/09/cannabis-seniors-medical-marijuana-legal-thc-cbd-chronic-pain/?utm_campaign=rss",
+      "summary": "Over the past 25 years, I have treated thousands of medical cannabis patients with extremely few ill effects, one doctor writes.",
+      "ts": 1783585800000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Super Typhoon Bavi",
@@ -687,38 +719,6 @@
       "title": "Network amplification of dengue declines as endemicity rises: climate-adjusted directional spread across Costa Rican cantons, 1993-2012",
       "url": "https://arxiv.org/abs/2607.05740",
       "summary": "arXiv:2607.05740v1 Announce Type: new Abstract: \\textbf{Background:} In Costa Rica, dengue is reported and controlled at the canton level, and outbreaks in one canton are often followed by outbreaks in others. Climate mo…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Using hierarchical statistical learning models to model individual statistical learning",
-      "url": "https://arxiv.org/abs/2607.05822",
-      "summary": "arXiv:2607.05822v1 Announce Type: new Abstract: Statistical learning is essential for individuals to discover structure in the sensory environment, especially during communication via speech or music. Individual differen…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Characterization of DLBCL cell of origin-phenotypes based on tumor microenvironment features",
-      "url": "https://arxiv.org/abs/2607.06129",
-      "summary": "arXiv:2607.06129v1 Announce Type: new Abstract: Diffuse large B-cell lymphoma (DLBCL) is an aggressive form of non-Hodgkin lymphoma with a high recurrence rate. The molecular profiling of DLBCL tumors culminated in sever…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modeling the Impact of Immune Boosting on Population-Level Vaccine Effectiveness",
-      "url": "https://arxiv.org/abs/2607.06235",
-      "summary": "arXiv:2607.06235v1 Announce Type: new Abstract: We extend the standard susceptible-infected-recovered framework to incorporate natural immune boosting during a short-scale outbreak. By deriving closed-form final size rel…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying Entrainment Evidence: A Comparison of Frequentist and Bayesian Approaches for Information Processing Pathway Maps",
-      "url": "https://arxiv.org/abs/2607.06284",
-      "summary": "arXiv:2607.06284v1 Announce Type: new Abstract: Information Processing Pathway Maps (IPPMs) offer a scalable framework for formalizing the complex sequence of mathematical transformations applied to sensory stimuli. Thes…",
       "ts": 1783483200000,
       "categoryId": "bio"
     }
