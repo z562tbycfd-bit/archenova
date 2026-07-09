@@ -2245,3 +2245,230 @@
     animation: none !important;
   }
 }
+
+
+/* ==========================================================
+   CI v2 — Mobile Dedicated Layout
+   Title → Compact DNA → Horizontal Cards → Back
+========================================================== */
+
+@media (max-width: 768px) {
+  .ci2-page {
+    min-height: 100svh !important;
+    overflow-x: hidden !important;
+    background: #02040a !important;
+  }
+
+  .ci2-section {
+    min-height: 100svh !important;
+    height: auto !important;
+    padding: 2rem 0 2.4rem !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  .ci2-shell {
+    width: 90vw !important;
+    max-width: 90vw !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    display: grid !important;
+    gap: 1.35rem !important;
+  }
+
+  .ci2-header {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .ci2-header span {
+    font-size: 0.52rem !important;
+    letter-spacing: 0.24em !important;
+  }
+
+  .ci2-header h1 {
+    margin-top: 0.65rem !important;
+    font-size: clamp(2rem, 8.5vw, 2.75rem) !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.025em !important;
+  }
+
+  .ci2-header p {
+    margin-top: 0.75rem !important;
+    max-width: 82vw !important;
+    font-size: 0.74rem !important;
+    line-height: 1.65 !important;
+  }
+
+  .ci2-stage {
+    width: 90vw !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: hidden !important;
+    border-radius: 34px !important;
+    padding: 1.1rem 0 1.2rem !important;
+    display: grid !important;
+    grid-template-rows: auto auto !important;
+    gap: 1rem !important;
+  }
+
+  .ci2-orbit {
+    display: none !important;
+  }
+
+  .ci2-dna {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    height: 340px !important;
+    margin: 0 auto !important;
+    order: 1 !important;
+  }
+
+  .ci2-strand {
+    width: 76px !important;
+    height: 330px !important;
+  }
+
+  .ci2-dna-node {
+    width: 42px !important;
+    height: 42px !important;
+    font-size: 1rem !important;
+  }
+
+  .ci2-core {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    width: 152px !important;
+    height: 152px !important;
+    transform: translate(-50%, -50%) !important;
+    padding: 0.9rem !important;
+  }
+
+  .ci2-core span {
+    font-size: 0.42rem !important;
+    letter-spacing: 0.2em !important;
+  }
+
+  .ci2-core strong {
+    font-size: 1rem !important;
+    line-height: 1.12 !important;
+  }
+
+  .ci2-core p {
+    font-size: 0.5rem !important;
+    line-height: 1.38 !important;
+  }
+
+  .ci2-cards {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    display: flex !important;
+    gap: 0.9rem !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important;
+    padding: 0.45rem 0.85rem 1rem !important;
+    box-sizing: border-box !important;
+    scrollbar-width: none !important;
+    order: 2 !important;
+  }
+
+  .ci2-cards::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .ci2-card,
+  .ci2-card.card-1,
+  .ci2-card.card-2,
+  .ci2-card.card-3,
+  .ci2-card.card-4,
+  .ci2-card.card-5,
+  .ci2-card.card-6 {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+
+    flex: 0 0 78vw !important;
+    width: 78vw !important;
+    min-width: 78vw !important;
+    max-width: 78vw !important;
+
+    min-height: 320px !important;
+    max-height: 320px !important;
+    padding: 1rem !important;
+    border-radius: 26px !important;
+    scroll-snap-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .ci2-card::before,
+  .ci2-card::after {
+    display: none !important;
+  }
+
+  .ci2-card-head {
+    gap: 0.75rem !important;
+  }
+
+  .ci2-card-head > span {
+    width: 44px !important;
+    height: 44px !important;
+    flex: 0 0 44px !important;
+    font-size: 1.15rem !important;
+  }
+
+  .ci2-card-head strong {
+    font-size: 0.72rem !important;
+    letter-spacing: 0.14em !important;
+  }
+
+  .ci2-card-head p {
+    font-size: 0.64rem !important;
+    line-height: 1.45 !important;
+  }
+
+  .ci2-line {
+    margin: 0.8rem 0 !important;
+  }
+
+  .ci2-card small {
+    font-size: 0.5rem !important;
+    letter-spacing: 0.18em !important;
+  }
+
+  .ci2-items {
+    max-height: 112px !important;
+    overflow-y: auto !important;
+    gap: 0.5rem !important;
+  }
+
+  .ci2-items a,
+  .ci2-items em {
+    font-size: 0.68rem !important;
+    line-height: 1.45 !important;
+  }
+
+  .ci2-more {
+    margin-top: 0.9rem !important;
+    font-size: 0.6rem !important;
+  }
+
+  .ci2-back {
+    width: 88vw !important;
+    max-width: 88vw !important;
+    box-sizing: border-box !important;
+    padding: 0.78rem 1rem !important;
+    font-size: 0.72rem !important;
+  }
+}
