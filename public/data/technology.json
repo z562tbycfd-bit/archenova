@@ -1,7 +1,239 @@
 {
   "ok": true,
-  "updated": "2026-07-09T00:13:18.550Z",
+  "updated": "2026-07-09T04:55:42.339Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Super Typhoon Bavi",
+      "url": "https://science.nasa.gov/earth/earth-observatory/super-typhoon-bavi/",
+      "summary": "The third category 5 tropical cyclone of 2026 crossed the U.S. Northern Mariana Islands and Guam before continuing toward Asia.",
+      "ts": 1783569660000,
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Towards a Pseudo-Labeling Workflow for Celltype-Classification from Explanted Brain Slice Recordings",
+      "url": "https://arxiv.org/abs/2607.06569",
+      "summary": "arXiv:2607.06569v1 Announce Type: new Abstract: This paper proposes an unsupervised workflow to pseudo-label extracellular spikes from human brain slice MEA recordings into two putative cell types: pyramidal cells and in…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Esports and Physiological Tremor a StarCraft 2 Tournament Study",
+      "url": "https://arxiv.org/abs/2607.06577",
+      "summary": "arXiv:2607.06577v1 Announce Type: new Abstract: Physiological tremor of the upper limb is a sensitive neuromuscular indicator that may be modulated by cognitive load and competitive stress, yet its behaviour in real espo…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Recovering Candidate Circadian Regulators of Arrhythmic Pituitary Hormone Genes Using Reliability-Weighted Magnetic Laplacian with rwMagLap",
+      "url": "https://arxiv.org/abs/2607.06579",
+      "summary": "arXiv:2607.06579v1 Announce Type: new Abstract: We study how to recover candidate circadian-clock regulators of pituitary hormone genes that are important for women's health but do not show a clear 24-hour rhythm in bulk…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Trajectory Inference of Human Aging from Cross-Sectional DNA Methylation Data",
+      "url": "https://arxiv.org/abs/2607.06583",
+      "summary": "arXiv:2607.06583v1 Announce Type: new Abstract: DNA methylation (DNAm) serves as one of the most robust molecular biomarkers of biological aging. While conventional epigenetic clocks accurately predict chronological age …",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Polynomial encoding of rooted trees with branch lengths",
+      "url": "https://arxiv.org/abs/2607.06591",
+      "summary": "arXiv:2607.06591v1 Announce Type: new Abstract: Phylogenetic trees are rooted trees with branch lengths that record genetic divergence or elapsed time, and quantifying differences between them is central to a wide range …",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Selection Mechanisms, Stationary Distributions, and Reversibility in Multiallelic Moran Models",
+      "url": "https://arxiv.org/abs/2607.06732",
+      "summary": "arXiv:2607.06732v1 Announce Type: new Abstract: The Moran process with selection and recurrent mutation is a classical model in population genetics, yet how the placement of selection within the update rule shapes the st…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Enhanced sampling and cryo-EM data resolve magnesium binding to RNA",
+      "url": "https://arxiv.org/abs/2607.07186",
+      "summary": "arXiv:2607.07186v1 Announce Type: new Abstract: Magnesium ions are essential for RNA structure but difficult to model due to slow binding kinetics and experimental limitations. We present an enhanced-sampling strategy th…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Bayesian Learning of Distance Metrics Beyond RMSD for Biomolecule Alignment, Clustering, and Domain Identification",
+      "url": "https://arxiv.org/abs/2607.07352",
+      "summary": "arXiv:2607.07352v1 Announce Type: new Abstract: Root-mean-square deviation (RMSD) is the standard metric of structural comparison in molecular dynamics (MD) simulations. In its conventional form, RMSD assigns equal weigh…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Reliable mechanistic operator recovery with biologically-informed neural networks: principles for architecture and optimisation design",
+      "url": "https://arxiv.org/abs/2607.07425",
+      "summary": "arXiv:2607.07425v1 Announce Type: new Abstract: Many biological processes are governed by complex dynamical mechanisms that remain incompletely understood despite increasing volumes of experimental data. Biologically-inf…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling",
+      "url": "https://arxiv.org/abs/2607.07666",
+      "summary": "arXiv:2607.07666v1 Announce Type: new Abstract: Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their stateless architecture fundamentally limits deployment in long-horizon research workfl…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Rethinking the Choice Behavior of Sugar Metabolism in Bacteria",
+      "url": "https://arxiv.org/abs/2607.07677",
+      "summary": "arXiv:2607.07677v1 Announce Type: new Abstract: Ramkrishna, Kompala, and Tsao proposed the cybernetic model of microbial growth, in which cells allocate enzyme synthesis resources according to a matching rule that mimics…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Reward Valuation in Vision Language Models: Causal Mechanisms Underlying Anhedonia",
+      "url": "https://arxiv.org/abs/2607.06626",
+      "summary": "arXiv:2607.06626v1 Announce Type: cross Abstract: Recent Vision-Language Models capture increasingly complex aspects of human cognition. Here we ask whether this alignment extends to reward valuation, which we assess in …",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "STST-JEPA: Shallow-Target Spatio-Temporal Joint Embedding Prediction Architecture For EEG Self-Supervised Learning",
+      "url": "https://arxiv.org/abs/2607.06629",
+      "summary": "arXiv:2607.06629v1 Announce Type: cross Abstract: Brain age -- the age inferred from a physiological recording -- is an emerging biomarker whose deviation from chronological age tracks neurological and psychiatric burden…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Dimension-dependent continuum limits in tissue mechanics",
+      "url": "https://arxiv.org/abs/2607.07000",
+      "summary": "arXiv:2607.07000v1 Announce Type: cross Abstract: Continuum descriptions of epithelial tissue mechanics can replace expensive individual-based simulations with tractable macroscopic models, yet the link between cell-scal…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Resource-Efficient Hybrid Quantum Neighborhood Selection for Large-Scale Molecular Diversity Optimization",
+      "url": "https://arxiv.org/abs/2607.07336",
+      "summary": "arXiv:2607.07336v1 Announce Type: cross Abstract: Large-scale combinatorial optimization remains demanding for classical heuristics, particularly when dense Quadratic Unconstrained Binary Optimization (QUBO) formulations…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Single-Entity Spiking Neuron Models: Survey",
+      "url": "https://arxiv.org/abs/2607.07429",
+      "summary": "arXiv:2607.07429v1 Announce Type: cross Abstract: In this work, we reviewed different approaches in mathematical modeling of biologically plausible neural systems. Models are characterized and classified based on their c…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Collaborate to decorrelate in path space: Hamiltonian replica exchange transition interface sampling (HRETIS)",
+      "url": "https://arxiv.org/abs/2607.07453",
+      "summary": "arXiv:2607.07453v1 Announce Type: cross Abstract: We present Hamiltonian Replica Exchange Transition Interface Sampling (HRETIS), a path sampling framework designed to efficiently sample rare events in systems with compl…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Equivalence testing in pesticide risk assessment -- Evaluation and practical guidance for design, analysis and interpretation",
+      "url": "https://arxiv.org/abs/2607.07543",
+      "summary": "arXiv:2607.07543v1 Announce Type: cross Abstract: Harmful pesticide effects exceeding specific protection goals (SPG) may go undetected in underpowered experimental designs. Regulatory honeybee field studies have consist…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Directional bias of a single polarized cell under confinement",
+      "url": "https://arxiv.org/abs/2607.07578",
+      "summary": "arXiv:2607.07578v1 Announce Type: cross Abstract: Chiral patterns have been observed in various processes from swirling bacterial colonies to tissue morphogenesis and cytoskeletal organization, yet the physical mechanism…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "An Investigation of the Channel Capacity of Bacterial Chemotactic Sensors for Low Chemoattractant Concentrations",
+      "url": "https://arxiv.org/abs/2601.02446",
+      "summary": "arXiv:2601.02446v4 Announce Type: replace Abstract: Bacterial chemotactic sensing converts noisy chemical signals into running and tumbling. We analyze the static sensing limits of mixed Tar/Tsr chemoreceptor clusters in…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Triple-Phase Multimodal Knowledge Aggregation Framework for Microbial Keratitis Subtype Diagnosis on Slit-Lamp Photography",
+      "url": "https://arxiv.org/abs/2607.03740",
+      "summary": "arXiv:2607.03740v2 Announce Type: replace Abstract: Microbial keratitis requires rapid pathogen identification to guide treatment, but culture- and PCR-based diagnostics are slow and resource-intensive. We developed a tr…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Hybrid ABM-PDE Framework for Real-World Infectious Disease Simulations",
+      "url": "https://arxiv.org/abs/2504.08430",
+      "summary": "arXiv:2504.08430v3 Announce Type: replace-cross Abstract: This paper presents a hybrid modeling approach that couples an Agent-Based Model (ABM) with a partial differential equation (PDE) model in an epidemic setting to …",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Experimentally accessible measurement of irreversibility in stochastic systems by categorizing single-molecule displacements",
+      "url": "https://arxiv.org/abs/2511.09183",
+      "summary": "arXiv:2511.09183v2 Announce Type: replace-cross Abstract: Quantifying the irreversibility and dissipation of non-equilibrium processes is crucial to understanding their behavior, assessing their possible capabilities, an…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Activation in Vesicle-Mediated Signaling Shaped by Batch Arrival Statistics",
+      "url": "https://arxiv.org/abs/2605.06456",
+      "summary": "arXiv:2605.06456v2 Announce Type: replace-cross Abstract: Vesicle-mediated secretion of ions or molecules is a central mechanism of cellular communication, for example in processes such as neurotransmission or hormone re…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Feynman Kac Reweighted Schr\\\"odinger Bridge Matching for Surface-Based Tau PET Harmonization",
+      "url": "https://arxiv.org/abs/2606.17420",
+      "summary": "arXiv:2606.17420v2 Announce Type: replace-cross Abstract: Tau positron emission tomography (PET) is widely used for the in vivo characterization of disease stage and progression in Alzheimer's disease (AD). With the adop…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?",
+      "url": "https://arxiv.org/abs/2606.31126",
+      "summary": "arXiv:2606.31126v2 Announce Type: replace-cross Abstract: Predicting biomolecular properties from limited labeled data is a central bottleneck in protein engineering and small-molecule design. As strong pretrained encode…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Data-Driven Soft Labeling Scales DNA Read Classification to Whole-Body Cell-Type Deconvolution",
+      "url": "https://arxiv.org/abs/2607.04987",
+      "summary": "arXiv:2607.04987v2 Announce Type: replace-cross Abstract: Cell-type deconvolution, the task of estimating the proportions of constituent cell types in a heterogeneous biological sample, is a core problem in computational…",
+      "ts": 1783569600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "New Singapore space agency seeks to build up the country’s space industry",
+      "url": "https://spacenews.com/new-singapore-space-agency-seeks-to-build-up-the-countrys-space-industry/",
+      "summary": "Singapore’s new space agency signed a cooperation agreement with its Japanese counterpart as part of its efforts to build up the country’s space industry. The post New Singapore space agency seeks to build up the country…",
+      "ts": 1783567910000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "ispace to send larger payloads to the moon on SpaceX’s Starship",
@@ -81,6 +313,14 @@
       "summary": "",
       "ts": 1783527970000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Awards Contracts for Mars Advanced Surface Mobility Technology",
+      "url": "https://science.nasa.gov/directorates/smd/planetary-science-division/mars-exploration-program/nasa-awards-contracts-for-mars-advanced-surface-mobility-technology/",
+      "summary": "July 8, 2026 C.13 NASA Awards Contracts for Mars Advanced Surface Mobility Technology NASA has selected seven companies for contract awards under the Mars Exploration Program’s Science Transport and Robotic Innovation fo…",
+      "ts": 1783527770000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -257,6 +497,14 @@
       "summary": "Funding will support development and production of the company’s rotating detonation rocket engine The post Venus Aerospace raises $91 million to scale rocket engine technology appeared first on SpaceNews.",
       "ts": 1783512000000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Restoring dignity: Senegalese surgeon and Burundian foundation win reproductive health awards",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167903",
+      "summary": "A Senegalese surgeon who has dedicated his career to restoring the health and dignity of women living with obstetric fistula, and a Burundian foundation supporting vulnerable women and children, have been named the winne…",
+      "ts": 1783512000000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -473,254 +721,6 @@
       "summary": "arXiv:2607.06284v1 Announce Type: new Abstract: Information Processing Pathway Maps (IPPMs) offer a scalable framework for formalizing the complex sequence of mathematical transformations applied to sensory stimuli. Thes…",
       "ts": 1783483200000,
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Design-CP: Context Parallelism for Design of Protein Nanoparticles",
-      "url": "https://arxiv.org/abs/2607.05439",
-      "summary": "arXiv:2607.05439v1 Announce Type: cross Abstract: Many all-atom generative protein models can in principle design large multimeric complexes by jointly modelling all chains, but their quadratic token- and atom-pair repre…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
-      "url": "https://arxiv.org/abs/2607.05456",
-      "summary": "arXiv:2607.05456v1 Announce Type: cross Abstract: While recent advances in large language models have enabled end-to-end automated manuscript generation, existing systems suffer from three critical deficiencies: (i) gene…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Three Centuries of the Laws of Cricket Reveal Core Principles of the Evolution of Regulatory Mechanisms",
-      "url": "https://arxiv.org/abs/2607.05586",
-      "summary": "arXiv:2607.05586v1 Announce Type: cross Abstract: Rules, regulations, and regulatory systems are central to societies, institutions, and organisms, yet surprisingly little is known about their evolution over long timesca…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Where to cut, how deep: BPE and Unigram-LM on chemistry SMILES",
-      "url": "https://arxiv.org/abs/2607.05691",
-      "summary": "arXiv:2607.05691v1 Announce Type: cross Abstract: Every chemical language model reading SMILES begins with a tokenizer, yet the field has inherited byte-pair encoding (BPE) from natural language with little scrutiny. In …",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Continuum modeling of fluidic and elastic flow during growth-driven wound closure in partial-EMT cell monolayers",
-      "url": "https://arxiv.org/abs/2607.05820",
-      "summary": "arXiv:2607.05820v1 Announce Type: cross Abstract: Large-scale circular gap closure occurs over a time scale on which cell growth and proliferation become important. Growth is the main driver of the closing process, while…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "AbICL: In-Context Learning for Antigen-Specific Antibody Affinity Ranking",
-      "url": "https://arxiv.org/abs/2607.05846",
-      "summary": "arXiv:2607.05846v1 Announce Type: cross Abstract: Accurate ranking of antibody candidates according to their binding affinity is essential for therapeutic antibody discovery. However, existing methods treat affinity comp…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Validation of a Computational Respiratory System Model for Mechanical Ventilation",
-      "url": "https://arxiv.org/abs/2607.06210",
-      "summary": "arXiv:2607.06210v1 Announce Type: cross Abstract: Computational modeling and simulation are powerful tools for the assessment of medical device performance and safety, particularly for in silico clinical trials for autom…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Compiling Bioinformatics Recurrences",
-      "url": "https://arxiv.org/abs/2607.06225",
-      "summary": "arXiv:2607.06225v1 Announce Type: cross Abstract: Many bioinformatics algorithms, such as sequence alignment and structure prediction, can be expressed as recurrence equations over a dynamic programming matrix. Efficient…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EntroPath: Maximum Entropy Path Ensemble Embedding for Manifold Learning",
-      "url": "https://arxiv.org/abs/2607.06497",
-      "summary": "arXiv:2607.06497v1 Announce Type: cross Abstract: We introduce EntroPath, a manifold learning method that recovers geodesic geometry from data graphs through ensembles of diffusion paths. Many existing graph-based embedd…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Aging health dynamics cross a tipping point near age 75",
-      "url": "https://arxiv.org/abs/2412.07795",
-      "summary": "arXiv:2412.07795v3 Announce Type: replace Abstract: Aging includes both continuous gradual decline, such as in physiological function, together with major deficit onset events such as morbidity, disability and ultimately…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A height-based metaconcept for rooted tree balance and its implications for the $B_1$ index",
-      "url": "https://arxiv.org/abs/2601.15219",
-      "summary": "arXiv:2601.15219v3 Announce Type: replace Abstract: Tree balance has received considerable attention in recent years, both in phylogenetics and in other areas. Numerous (im)balance indices have been proposed to quantify …",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From Organization to Viability: A Multi-Level Analysis of Gait Dynamics Under Occlusal Constraint",
-      "url": "https://arxiv.org/abs/2605.13893",
-      "summary": "arXiv:2605.13893v2 Announce Type: replace Abstract: Clinical interpretation often assumes that observable performance sufficiently reflects the organization of an adaptive system. However, similar observable performance …",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Minimum Network Level Forced by Hardwired Cluster Data",
-      "url": "https://arxiv.org/abs/2605.21945",
-      "summary": "arXiv:2605.21945v2 Announce Type: replace Abstract: Reticulate evolutionary events, such as hybridization, recombination, and horizontal transfer, can make a tree model inadequate. When evolutionary data are summarized a…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Archetypal Microbiome Profiles as Indicators of Nitrous Oxide Emission States in Activated Sludge",
-      "url": "https://arxiv.org/abs/2606.18295",
-      "summary": "arXiv:2606.18295v2 Announce Type: replace Abstract: Nitrous oxide (N2O) emissions from water resource recovery facilities (WRRFs) fluctuate over time and can arise from multiple microbial pathways, making source attribut…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "How Environment and Urbanization Shape Bird Diversity in Sri Lanka",
-      "url": "https://arxiv.org/abs/2607.00582",
-      "summary": "arXiv:2607.00582v2 Announce Type: replace Abstract: This study presents a comprehensive analysis of bird diversity across Sri Lanka by integrating spatial, temporal, and environmental data. Bird observation records were …",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Geometric Stability: The Missing Axis of Representations",
-      "url": "https://arxiv.org/abs/2601.09173",
-      "summary": "arXiv:2601.09173v5 Announce Type: replace-cross Abstract: Representational similarity analysis and related methods compare the internal geometries of neural networks, but they measure only alignment between spaces, leavi…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamic modelling and evaluation of preclinical trials in acute leukaemia",
-      "url": "https://arxiv.org/abs/2601.22971",
-      "summary": "arXiv:2601.22971v2 Announce Type: replace-cross Abstract: Dynamic models are widely used to mathematically describe biological phenomena that evolve over time. One important area of application is leukaemia research, whe…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Household Bubbling Strategies for Epidemic Control and Social Connectivity",
-      "url": "https://arxiv.org/abs/2603.14711",
-      "summary": "arXiv:2603.14711v2 Announce Type: replace-cross Abstract: During the COVID-19 crisis, policymakers have implemented social bubble merging strategies, which allowed people from different households to meet and interact. A…",
-      "ts": 1783483200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Skyroot prepares for first orbital launch attempt",
-      "url": "https://spacenews.com/skyroot-prepares-for-first-orbital-launch-attempt/",
-      "summary": "Indian launch startup Skyroot Aerospace is preparing for its first orbital launch attempt as soon as July 12, with plans to quickly scale up to monthly launches. The post Skyroot prepares for first orbital launch attempt…",
-      "ts": 1783476630000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Novartis to Acquire Myricx Bio for Up to $1.5B, Adding Cancer-Fighting ADC Payload Platform",
-      "url": "https://www.genengnews.com/topics/cancer/novartis-to-acquire-myricx-bio-for-up-to-1-5b-adding-cancer-fighting-adc-payload-platform/",
-      "summary": "Myricx Bio specializes in developing ADCs that use N-myristoyltransferase inhibitor (NMTi) payloads, an approach designed to deliver a differentiated cancer-killing payload directly to tumor cells. Myricx says its ADC ap…",
-      "ts": 1783473601000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "D-Orbit signs launch-services contract with ArkEdge Space",
-      "url": "https://spacenews.com/d-orbit-signs-launch-services-contract-with-arkedge-space/",
-      "summary": "SAN FRANCISCO – Italian space logistics specialist D-Orbit will provide a series of launches aboard its ION Satellite Carrier for Japanese startup ArkEdge Space, under a contract announced July 8 […] The post D-Orbit sig…",
-      "ts": 1783472400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Germline‑Targeting HIV Vaccine Generates Broadly Neutralizing Antibodies in Primates",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/germline-targeting-hiv-vaccine-generates-broadly-neutralizing-antibodies-in-primates/",
-      "summary": "Rhesus macaques received a priming immunogen designed to activate naive B cells, followed by a sequence of booster shots that guided those cells through the necessary maturation steps. The post Germline‑Targeting HIV Vac…",
-      "ts": 1783469120000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing GPT-Live",
-      "url": "https://openai.com/index/introducing-gpt-live",
-      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-      "ts": 1783468800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Orbit Fab hires new CEO and raises funding to support satellite refueling business",
-      "url": "https://spacenews.com/orbit-fab-hires-new-ceo-and-raises-funding-to-support-satellite-refueling-business/",
-      "summary": "With a new chief executive and funding round, satellite refueling company Orbit Fab hopes to make the transition from technology development to operations. The post Orbit Fab hires new CEO and raises funding to support s…",
-      "ts": 1783464309000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Vertex Eyes Expansion Beyond Cystic Fibrosis with Planned $10B Crinetics Buyout",
-      "url": "https://www.genengnews.com/topics/translational-medicine/vertex-eyes-expansion-beyond-cystic-fibrosis-with-planned-10b-crinetics-buyout/",
-      "summary": "Based in San Diego, Crinetics focuses on discovering, developing, and commercializing therapeutics for endocrine diseases. The company’s first marketed drug Palsonify® (paltusotine), an oral SST2 agonist, was approved by…",
-      "ts": 1783456906000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AI Reveals Hidden Brain Lesions in Multiple Sclerosis MRI",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/ai-reveals-hidden-brain-lesions-in-multiple-sclerosis-mri/",
-      "summary": "Researchers combined AI with multiple image-processing methods to reliably measure cortical lesions on existing MRI scans from patients with multiple sclerosis—lesions that are strongly implicated in disability and cogni…",
-      "ts": 1783450467000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Spirit Electronics Announces Managed Access to U.S.-Based Advanced Semiconductor Manufacturing for Aerospace and Defense Programs",
-      "url": "https://spacenews.com/spirit-electronics-announces-managed-access-to-u-s-based-advanced-semiconductor-manufacturing-for-aerospace-and-defense-programs/",
-      "summary": "PHOENIX, AZ — June 09, 2026 — Spirit Electronics today announced a new managed-access offering that provides aerospace and defense customers with a secure pathway to advanced, U.S.-based semiconductor manufacturing in [……",
-      "ts": 1783450000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Apolink makes contact with first relay satellite",
-      "url": "https://spacenews.com/apolink-makes-contact-with-first-relay-satellite/",
-      "summary": "Apolink has made contact with its first satellite after launching on SpaceX’s July 7 rideshare mission, clearing the way for a data relay demonstration using a novel experimental license from the Federal Communications C…",
-      "ts": 1783447901000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Quest for Large-Scale DNA",
-      "url": "https://www.genengnews.com/topics/genome-editing/the-quest-for-large-scale-dna/",
-      "summary": "As genome editing therapies move through clinical trials to regulatory approval, scientists continue the quest for the holy grail of large-scale DNA editing.. The post The Quest for Large-Scale DNA appeared first on GEN …",
-      "ts": 1783447822000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Biotech and Biomed Engineering Grad and Certificate Programs to Debut at Auburn",
-      "url": "https://www.genengnews.com/topics/bioprocessing/biotech-and-biomed-engineering-grad-and-certificate-programs-to-debut-at-auburn/",
-      "summary": "Biomedical engineering focuses on developing technologies and systems that improve how diseases and injuries are understood, diagnosed, monitored, and treated. The post Biotech and Biomed Engineering Grad and Certificate…",
-      "ts": 1783447224000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Transfers ‘Hundred Acre Wood’ to Patuxent Research Refuge",
-      "url": "https://www.nasa.gov/centers-and-facilities/goddard/nasa-transfers-hundred-acre-wood-to-patuxent-research-refuge/",
-      "summary": "NASA ceremonially transferred ownership of about 105 acres of wooded land at its Goddard Space Flight Center’s Greenbelt, Maryland, campus Tuesday to the adjoining Patuxent Research Refuge, managed by the U.S. Fish and W…",
-      "ts": 1783447200000,
-      "categoryId": "space"
     }
   ],
   "categories": [
