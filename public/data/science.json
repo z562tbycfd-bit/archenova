@@ -1,7 +1,133 @@
 {
   "ok": true,
-  "updated": "2026-07-09T15:58:07.946Z",
+  "updated": "2026-07-09T18:04:57.859Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Heat waves: Why British trees are shedding branches and dying",
+      "url": "https://phys.org/news/2026-07-british-trees-dying.html",
+      "summary": "If you visit the Royal Botanic Gardens at Kew, on the edge of London, you will see a brightly painted skeleton of a dead oak tree. The tree, known as the climate-changed oak, succumbed in the heat wave of 2022. Instead o…",
+      "ts": 1783620022000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sensors detect California cliff collapses hours to days before failure, report says",
+      "url": "https://phys.org/news/2026-07-sensors-california-cliff-collapses-hours.html",
+      "summary": "Following a four-year study, scientists at UC San Diego's Scripps Institution of Oceanography released a new report to determine whether an early warning system could detect a landslide before it happens. The \"California…",
+      "ts": 1783620020000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly identified 'saprotropism' helps roots avoid decaying plant matter—but not animal decay",
+      "url": "https://phys.org/news/2026-07-newly-saprotropism-roots-decaying-animal.html",
+      "summary": "Decaying matter shapes life in soil, but it can also create hostile zones for growing roots. Professor Jiří Friml of the Institute of Science and Technology Austria (ISTA) and international collaborators have now identif…",
+      "ts": 1783620009000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mouse found near 7,000 meters may rewrite limits of mammal survival",
+      "url": "https://phys.org/news/2026-07-uncover-mouse-survives-earth-harshest.html",
+      "summary": "A tiny mouse living nearly 7,000 meters (23,000 feet) above sea level in the Andes is helping scientists rethink the limits of life on Earth. The animal, a leaf-eared mouse, is the focus of a new international study co-a…",
+      "ts": 1783620001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "UK sets record for number of days over 34°C",
+      "url": "https://phys.org/news/2026-07-uk-days-34c.html",
+      "summary": "The UK on Thursday experienced its eighth day in 2026 with the mercury climbing above 34°C (94°F), the Met Office said, breaking the previous record by one day.",
+      "ts": 1783619239000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fast charging can cause irreversible lithium migration in solid-state batteries",
+      "url": "https://phys.org/news/2026-07-fast-irreversible-lithium-migration-solid.html",
+      "summary": "Solid-state batteries are often viewed as a promising path toward safer and more powerful energy storage. However, one key question has remained difficult to answer: How does lithium actually move inside the solid materi…",
+      "ts": 1783618807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The hidden benefits of privacy regulation",
+      "url": "https://phys.org/news/2026-07-hidden-benefits-privacy.html",
+      "summary": "The digital era is characterized by near-frictionless conversion of data into dollars—absent regulatory intervention, that is. Privacy laws such as the European Union's General Data Protection Regulation (GDPR) restrict …",
+      "ts": 1783618801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "High-throughput search tests 200 catalysts, revealing hidden routes for methane chemistry",
+      "url": "https://phys.org/news/2026-07-high-throughput-catalysts-revealing-hidden.html",
+      "summary": "Catalysts are the hidden engines of modern manufacturing, directly involved in more than 80% of chemical processes. However, catalyst development is highly complex because performance is governed by the interplay of the …",
+      "ts": 1783617609000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why India stopped mourning its dead daughters: Research reveals hidden structures behind dowry's deadly silence",
+      "url": "https://phys.org/news/2026-07-india-dead-daughters-reveals-hidden.html",
+      "summary": "New research from King's College London published in Public Culture has found that the uneven unfolding of a post-independence law designed to free Indian women from the constraints of Hindu kinship inadvertently created…",
+      "ts": 1783617607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study questions growing international trade in critically endangered sand tiger sharks",
+      "url": "https://phys.org/news/2026-07-international-critically-endangered-sand-tiger.html",
+      "summary": "In a new study led by University of Delaware researchers Aaron Carlisle and Ed Hale, researchers point to concerns in the international trade of sand tiger sharks, a critically endangered shark species globally, for disp…",
+      "ts": 1783616409000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient 100-kilometer Himalayan glacier once reached lower than many of India's famous hill stations",
+      "url": "https://phys.org/news/2026-07-ancient-kilometer-himalayan-glacier-india.html",
+      "summary": "A new study published in Quaternary Science Reviews dates the dramatic collapse of one of the largest glaciers ever documented in the Himalayas. The findings overturn a long-held assumption about what sustains wet-climat…",
+      "ts": 1783616401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "One in four managers withholds feedback from those they supervise, even when the news is positive",
+      "url": "https://phys.org/news/2026-07-feedback-news-positive.html",
+      "summary": "Performance feedback is critical for supporting career and education decisions, but in a new study published in Management Science, a research team from the University of Portsmouth, the University of Exeter and York Uni…",
+      "ts": 1783615205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Volcanoes and wildfires are adding water vapor to the stratosphere, raising climate concerns",
+      "url": "https://phys.org/news/2026-07-volcanoes-wildfires-adding-vapor-stratosphere.html",
+      "summary": "Moderate volcanic eruptions and extreme wildfires since 2005 have led to an increase in the amount of water vapor in the stratosphere, a layer of Earth's atmosphere above the weather-filled troposphere. That's potentiall…",
+      "ts": 1783614605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seagrass meadows could help nourish millions, new study finds",
+      "url": "https://phys.org/news/2026-07-seagrass-meadows-nourish-millions.html",
+      "summary": "Seagrass meadows play a largely overlooked role in providing nutrition for coastal communities, a new study published in Cell Reports Sustainability has found. The research, led by scientists at Project Seagrass and Stoc…",
+      "ts": 1783614603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New technique takes the heat out of 3D printing process",
+      "url": "https://phys.org/news/2026-07-technique-3d.html",
+      "summary": "Researchers have developed a new 3D printing technique that allows the printing of whole objects while controlling the temperature of the chemical reaction to stabilize the process. Academics in the University of Notting…",
+      "ts": 1783614601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The ghost in Orion's shell: Hydrogen maps show repeated stellar feedback sculpted around Orion Nebula",
+      "url": "https://phys.org/news/2026-07-ghost-orion-shell-hydrogen-stellar.html",
+      "summary": "An international team led by Juan Diego Soler at the University of Vienna used two of the world's most powerful radio telescopes to uncover previously hidden structures within the Orion Nebula. The project produced the s…",
+      "ts": 1783614001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mild enzymatic method gently refines algae oil for nutrition products",
+      "url": "https://phys.org/news/2026-07-mild-enzymatic-method-gently-refines.html",
+      "summary": "Algae oil is increasingly used as a sustainable source of important nutrients, including polyunsaturated fatty acids that support human health and development. One important example is arachidonic acid, or ARA, which is …",
+      "ts": 1783612807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unraveling the glass-like nature of epithelial tissues",
+      "url": "https://phys.org/news/2026-07-unraveling-glass-nature-epithelial-tissues.html",
+      "summary": "In a new study, researchers at the Indian Institute of Science (IISc) have resolved a longstanding mystery by showing how epithelial tissues exhibit slow-moving, glass-like behavior despite their fast-paced biological ac…",
+      "ts": 1783612806000
+    },
     {
       "source": "Phys.org",
       "title": "Newborn stars preserve organic-rich gas within ancient supernova debris",
@@ -113,6 +239,27 @@
       "url": "https://phys.org/news/2026-07-genetic-crossovers-defy-chromosome-length.html",
       "summary": "A Cornell-led study is challenging a decades-old explanation for how chromosomes exchange genetic material within the biological process that forms eggs and sperm in mammals.",
       "ts": 1783605604000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Vast World of Quantum Advantage",
+      "url": "http://link.aps.org/doi/10.1103/tn89-g1xz",
+      "summary": "Author(s): Hsin-Yuan Huang, Soonwon Choi, Jarrod R. McClean, and John Preskill Researchers explore quantum advantage across different domains, showing a picture much richer and more nuanced than commonly appreciated. [Ph…",
+      "ts": 1783605600000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Mitigation of resonator-photon-induced dephasing in a superconducting qubit using dynamical decoupling",
+      "url": "http://link.aps.org/doi/10.1103/ps27-f876",
+      "summary": "Author(s): Hayoung Jeong, Jiman Choi, Jiwan Song, Yong-Ho Lee, Changki Hong, and Hwan-Seop Yeo Resonator-photon-induced dephasing presents a critical challenge for superconducting qubit coherence. This study examines the…",
+      "ts": 1783605600000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Optimizing spin-based terahertz emission from magnetic heterostructures",
+      "url": "http://link.aps.org/doi/10.1103/dzc6-ndlr",
+      "summary": "Author(s): Francesco Foggetti, Francesco Cosco, Peter M. Oppeneer, Henri Jaffrès, Niloufar Nilforoushan, Juliette Mangeney, and Sukhdeep Dhillon Terahertz radiation pulses can be generated efficiently through femtosecond…",
+      "ts": 1783605600000
     },
     {
       "source": "Phys.org",
@@ -553,153 +700,6 @@
       "title": "Rayleigh Bound States in the Continuum",
       "url": "https://arxiv.org/abs/2607.07228",
       "summary": "arXiv:2607.07228v1 Announce Type: new Abstract: We predict a class of bound states in the continuum (BICs) in non-subwavelength periodic metasurfaces -- Rayleigh BICs -- that emerge precisely at Rayleigh anomalies, where…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Skin friction prediction for attached flows based on two-dimensional inviscid solutions",
-      "url": "https://arxiv.org/abs/2607.07246",
-      "summary": "arXiv:2607.07246v1 Announce Type: new Abstract: Boundary layer theory and its analytical methods for skin friction coefficients provide an important basis for aerodynamic analysis. However, classical analytical formulas …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond white- and black-box modeling tools in optical communications and optical computing: physics-informed data-driven modeling",
-      "url": "https://arxiv.org/abs/2607.07274",
-      "summary": "arXiv:2607.07274v1 Announce Type: new Abstract: Efficient optimization and control of photonic computing and communication systems increasingly rely on accurate surrogate models/digital twins. While data-driven models ma…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Super-Resolution of Radar/Raingauge-Analyzed Precipitation Using Gaussian Process Regression with a Steering Kernel",
-      "url": "https://arxiv.org/abs/2607.07290",
-      "summary": "arXiv:2607.07290v1 Announce Type: new Abstract: Super-resolution estimates a high-resolution image from a low-resolution image and has been used for downscaling and resolution enhancement of observations in meteorology. …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-dimensional global stability analysis of turbulent screeching jets",
-      "url": "https://arxiv.org/abs/2607.07300",
-      "summary": "arXiv:2607.07300v1 Announce Type: new Abstract: A three dimensional global stability analysis is performed to investigate the problem of screeching jets under turbulent conditions. The study employs an Unsteady Reynolds-…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collision and static widths of self-broadened line shapes in optically saturated high-density atomic vapor",
-      "url": "https://arxiv.org/abs/2607.07303",
-      "summary": "arXiv:2607.07303v1 Announce Type: new Abstract: We study the frequency derivatives of selective reflection from high-density rubidium vapor using a hole-burning technique. Saturation dips are observed inside the self-bro…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pulley coupler engineering for frequency comb generation based on the supermodal approach",
-      "url": "https://arxiv.org/abs/2607.07317",
-      "summary": "arXiv:2607.07317v1 Announce Type: new Abstract: Light coupling into integrated microresonators is typically achieved using straight bus couplers that are optimized to achieve critical coupling at the pump wavelength but …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time domain Stokes mechanism of pair correlated k gap solitons in nonlinear photonic time crystal slabs",
-      "url": "https://arxiv.org/abs/2607.07340",
-      "summary": "arXiv:2607.07340v1 Announce Type: new Abstract: Pair generation in time-varying media is commonly attributed to time reflection at temporal boundaries or to amplification inside momentum k gaps. Here we show that these t…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transmissibility, boundary-guided waves, and representative unit cell choice in finite-sized metamaterials",
-      "url": "https://arxiv.org/abs/2607.07349",
-      "summary": "arXiv:2607.07349v1 Announce Type: new Abstract: The implications of selecting different unit cells are often overlooked in both direct studies of microstructured materials and their homogenized equivalents. Investigating…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of Self-Similarity in the Magnetic Fields Generated by the Ablative Nonlinear Rayleigh-Taylor Instability",
-      "url": "https://arxiv.org/abs/2607.07356",
-      "summary": "arXiv:2607.07356v1 Announce Type: new Abstract: Magnetic fields generated by the nonlinear Rayleigh-Taylor growth of laser-seeded three-dimensional broadband perturbations were measured in laser-accelerated planar target…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultra-trace analysis of 40K in organic liquid scintillators",
-      "url": "https://arxiv.org/abs/2607.07376",
-      "summary": "arXiv:2607.07376v1 Announce Type: new Abstract: Rare-event searches require exceptionally low background levels, motivating the development of increasingly sophisticated screening methods to push sensitivity limits. Liqu…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stiffness by design in biological fibers: the influence of microstructure and temperature",
-      "url": "https://arxiv.org/abs/2607.07377",
-      "summary": "arXiv:2607.07377v1 Announce Type: new Abstract: Biological fibers exhibit exceptional mechanical properties such as high stiffness, toughness, and elasticity. The stiffness of bio-fibers is governed by a hierarchical mic…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Forced condensation and anti-condensation on heavy-tailed networks",
-      "url": "https://arxiv.org/abs/2607.07399",
-      "summary": "arXiv:2607.07399v1 Announce Type: new Abstract: We study a driven selection mechanism on a fixed heavy-tailed network. At each step fresh mass is injected, its direction is recomputed from the current mass profile by a p…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coexistence and manipulation of multiple singularities in a reconfigurable non-Hermitian metasurface",
-      "url": "https://arxiv.org/abs/2607.07402",
-      "summary": "arXiv:2607.07402v1 Announce Type: new Abstract: Non-Hermitian frameworks extend conventional Hermitian physics, offering a powerful paradigm for describing open systems. Central to this field are various singularities wi…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hyperlocal monitoring of urban activity reveals responses to heat exposure",
-      "url": "https://arxiv.org/abs/2607.07417",
-      "summary": "arXiv:2607.07417v1 Announce Type: new Abstract: Rising temperatures create new challenges for local heat adaptation. Yet, it remains unclear how urban activity changes during hot periods and which urban environments peop…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An improved fully one-sided diffuse-interface immersed boundary method with target-value reconstruction for compressible flows",
-      "url": "https://arxiv.org/abs/2607.07432",
-      "summary": "arXiv:2607.07432v1 Announce Type: new Abstract: Although one-sided spreading has been shown to improve the near-wall accuracy of diffuse-interface immersed boundary methods (DIBMs), the effect of its asymmetric kernel su…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A fully one-sided diffuse-interface immersed boundary method for wall-modeled large-eddy simulation",
-      "url": "https://arxiv.org/abs/2607.07443",
-      "summary": "arXiv:2607.07443v1 Announce Type: new Abstract: Diffuse-interface immersed boundary methods (DIBMs) provide a simple and robust approach for simulating flows involving complex geometries. However, their inherent diffusio…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chip-scale nanostructured chaotic billiards for broadband speckle spectrometry",
-      "url": "https://arxiv.org/abs/2607.07450",
-      "summary": "arXiv:2607.07450v1 Announce Type: new Abstract: Computational on-chip spectrometers are emerging as a powerful platform for portable spectral analysis, combining photonic integration with advanced signal processing to en…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collaborate to decorrelate in path space: Hamiltonian replica exchange transition interface sampling (HRETIS)",
-      "url": "https://arxiv.org/abs/2607.07453",
-      "summary": "arXiv:2607.07453v1 Announce Type: new Abstract: We present Hamiltonian Replica Exchange Transition Interface Sampling (HRETIS), a path sampling framework designed to efficiently sample rare events in systems with complex…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental evidence of Kelvin wave turbulence along a vortex core",
-      "url": "https://arxiv.org/abs/2607.07535",
-      "summary": "arXiv:2607.07535v1 Announce Type: new Abstract: Wave turbulence is a regime of interacting nonlinear waves occurring in most physical systems. Kelvin waves are helical distortions that propagate along vortex filaments an…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DNA handles bias force-dependent looping times",
-      "url": "https://arxiv.org/abs/2607.07561",
-      "summary": "arXiv:2607.07561v1 Announce Type: new Abstract: DNA loop formation is a key mechanism in gene regulation, and looping kinetics are sensitive to mechanical tension acting on the DNA. In both single-molecule experiments an…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Directional bias of a single polarized cell under confinement",
-      "url": "https://arxiv.org/abs/2607.07578",
-      "summary": "arXiv:2607.07578v1 Announce Type: new Abstract: Chiral patterns have been observed in various processes from swirling bacterial colonies to tissue morphogenesis and cytoskeletal organization, yet the physical mechanisms …",
       "ts": 1783569600000
     }
   ],

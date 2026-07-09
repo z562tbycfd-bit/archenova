@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-09T15:58:11.170Z",
+  "updated": "2026-07-09T18:05:00.596Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Curiosity Sees Martian Sulfur Up Close",
+      "url": "https://www.nasa.gov/image-article/curiosity-sees-martian-sulfur-up-close/",
+      "summary": "This close-up view shows fragments of sulfur crystals — the first ever seen on the Red Planet. The crystals were found after NASA’s Curiosity Mars rover happened to drive over a rock and crush it on May 30, 2024. Several…",
+      "ts": 1783614830000,
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "NASA Scientists Take to Air and Space to Study Arctic Sea Ice",
@@ -25,6 +33,14 @@
       "summary": "An outbreak of diarrhea-causing parasite has grown to more than 1,000 cases, making it one of the nation’s largest such outbreaks in years.",
       "ts": 1783609287000,
       "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Xona unveils program to verify Pulsar-compatible devices",
+      "url": "https://spacenews.com/xona-unveils-program-to-verify-pulsar-compatible-devices/",
+      "summary": "SAN FRANCISCO – Xona, the Silicon Valley startup establishing Pulsar, a precision positioning, navigation and timing (PNT) constellation, announced a high-profile roster of partners developing compatible equipment. Xona …",
+      "ts": 1783609200000,
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -201,6 +217,30 @@
       "summary": "Two years, six months, and 18 days have elapsed since Northwest Biotherapeutics submitted its brain cancer treatment for regulatory approval.",
       "ts": 1783593000000,
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "ts": 1783591200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "ts": 1783591200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "ts": 1783591200000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -681,46 +721,6 @@
       "summary": "How certain memories persist over time for learning and cognitive function remains unclear. A new study suggests that astrocytes play a critical role in long-term memory through the regulatory protein ankyrin-2 (Ank2). T…",
       "ts": 1783519767000,
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Prime Medicine claims victory in dispute over gene-editing technology with Beam Therapeutics",
-      "url": "https://www.statnews.com/2026/07/08/prime-medicine-beam-therapeutics-arbitration-outcome/?utm_campaign=rss",
-      "summary": "Prime Medicine said it had won an arbitration dispute against Beam Therapeutics, a clash that had pitted two well-backed gene-editing companies against each other.",
-      "ts": 1783518775000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Our approach to government and national security partnerships",
-      "url": "https://openai.com/index/government-national-security-partnerships",
-      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-      "ts": 1783517400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Vera kidney drug approval, a U.K. Enhertu pricing deal, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss",
-      "summary": "The FDA approved a kidney disease drug from Vera Therapeutics called Trutakna, to treat IgA nephropathy",
-      "ts": 1783516296000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Separating signal from noise in coding evaluations",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "ts": 1783515600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Fi expands Starlink direct-to-device capability into dog-tracking",
-      "url": "https://spacenews.com/fi-expands-starlink-direct-to-device-capability-into-dog-tracking/",
-      "summary": "Pet technology company Fi launched a dog tracker July 8 that uses T-Mobile’s Starlink-enabled T-Satellite service to remain connected across the United States, even outside the telco’s terrestrial network. The post Fi ex…",
-      "ts": 1783515600000,
-      "categoryId": "space"
     }
   ],
   "categories": [
