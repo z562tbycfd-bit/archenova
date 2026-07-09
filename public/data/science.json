@@ -1,7 +1,98 @@
 {
   "ok": true,
-  "updated": "2026-07-09T20:48:38.378Z",
+  "updated": "2026-07-09T22:24:34.834Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Carbon–bismuth bonds reveal that relativity blurs the textbook line between sigma and pi bonds",
+      "url": "https://phys.org/news/2026-07-carbonbismuth-bonds-reveal-blurs-textbook.html",
+      "summary": "Brown University chemists have provided direct evidence that upends the textbook explanation of how triple chemical bonds work in heavy elements. In a study published in Science, the researchers show evidence that when a…",
+      "ts": 1783635607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why employee AI adoption isn't one-size-fits-all",
+      "url": "https://phys.org/news/2026-07-employee-ai-isnt-size.html",
+      "summary": "As artificial intelligence becomes more deeply embedded in everyday life and work, organizations are investing heavily in tools and employee training. But new research from Texas A&M University suggests a one-size-fits-a…",
+      "ts": 1783634407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New catalyst could make mixed plastic waste recyclable in one chemical step",
+      "url": "https://phys.org/news/2026-07-catalyst-plastic-recyclable-chemical.html",
+      "summary": "Ever wondered where your plastics end up? A PET bottle can be washed, shredded, melted and given a second life. But most everyday items—toys, mattresses, car seats—are made from different plastics that refuse to mix when…",
+      "ts": 1783634406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Krill buildup could slow fin whale filter-feeding unless baleen stays 15% clear",
+      "url": "https://phys.org/news/2026-07-krill-buildup-fin-whale-filter.html",
+      "summary": "Usually there's safety in numbers, but it doesn't always work that way. Fin whales (Balaenoptera physalus) filter-feed on immense shoals of krill, engulfing colossal mouthfuls of water containing up to 144 kg of the crus…",
+      "ts": 1783634401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Programmable light simulates quantum matter across 300 processes without bigger circuits",
+      "url": "https://phys.org/news/2026-07-programmable-simulates-quantum-bigger-circuits.html",
+      "summary": "A team of researchers at the University of Ottawa and its Nexus for Quantum Technologies Institute, in collaboration with researchers from Federico II University in Italy, has developed a programmable quantum simulator t…",
+      "ts": 1783633206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pre-cooked seafood-based meals can absorb chemical contaminants during packaging and processing",
+      "url": "https://phys.org/news/2026-07-pre-cooked-seafood-based-meals.html",
+      "summary": "Ready meals containing fish and seafood can expose consumers to chemical contaminants that are present in the environment or introduced during processing and packaging. A study by the Universitat Rovira i Virgili (URV) h…",
+      "ts": 1783633204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum optics may turn this rare visual phenomenon into an eye test",
+      "url": "https://phys.org/news/2026-07-quantum-optics-rare-visual-phenomenon.html",
+      "summary": "Modern life depends on quantum physics. It makes technologies such as GPS navigation, MRI scanners and computer chips possible. Now, the same science may also lead to a new way to test the health of our eyes. A Universit…",
+      "ts": 1783633203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "From bursts to creep: Rewriting the story of mud volcano flows",
+      "url": "https://phys.org/news/2026-07-rewriting-story-mud-volcano.html",
+      "summary": "Mud volcanoes are often pictured as dramatic geological phenomena featuring the sudden eruption of large volumes of fiery mud in short, powerful bursts. By examining recent activity at the Lokbatan mud volcano in Azerbai…",
+      "ts": 1783632008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Neutron imaging reveals how water limits CO₂ storage in recycled concrete",
+      "url": "https://phys.org/news/2026-07-neutron-imaging-reveals-limits-storage.html",
+      "summary": "The construction sector faces two problems at once: it emits large amounts of CO₂ and produces vast quantities of concrete waste. But what if part of that waste could be used to trap carbon instead of ending up as rubble…",
+      "ts": 1783632001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Self-propelled microparticles scrub stubborn biofilms, improving wound care and instrument cleaning",
+      "url": "https://phys.org/news/2026-07-propelled-microparticles-stubborn-biofilms-wound.html",
+      "summary": "Newly developed microparticles can infiltrate stubborn bacterial matrices and release tiny oxygen bubbles to clean surfaces and wounds more efficiently than hydrogen peroxide or other cleaning agents alone, researchers a…",
+      "ts": 1783631404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Medieval Islamic societies considered lovesickness a distinct mental illness, research shows",
+      "url": "https://phys.org/news/2026-07-medieval-islamic-societies-lovesickness-distinct.html",
+      "summary": "Lovesickness was taken seriously as a distinct mental illness by physicians in the medieval Islamic world, new research shows. Islamic scholars considered lovesickness, which they called ʿishq, to be different from melan…",
+      "ts": 1783630876000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Animal tracking overlooks biodiversity hotspots, with 95% of studies in well-funded countries",
+      "url": "https://phys.org/news/2026-07-animal-tracking-overlooks-biodiversity-hotspots.html",
+      "summary": "A recent study reveals geographic biases in how aquatic animals have been tracked and researched across the globe, with a preference toward politically stable, English-speaking countries with high conservation funding. R…",
+      "ts": 1783630804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stress protection of Amazon trees, induced by climate warming, may alter atmosphere chemistry",
+      "url": "https://phys.org/news/2026-07-stress-amazon-trees-climate-atmosphere.html",
+      "summary": "The Amazon rainforest is one of the largest carbon reservoirs on Earth. It is also the world's largest source of biogenic volatile organic compounds (VOCs). These carbon-based gases are naturally released by vegetation. …",
+      "ts": 1783630803000
+    },
     {
       "source": "Phys.org",
       "title": "Ancient rocks reveal Earth's past warm periods were cooler than thought",
@@ -609,97 +700,6 @@
       "title": "An Innovative Computational Fluid Dynamics Discrete Dipole Approximation (CFD-DDA) Platform for Predicting Airborne Virus-in-Saliva Disinfection by Ultraviolet Irradiation",
       "url": "https://arxiv.org/abs/2607.06746",
       "summary": "arXiv:2607.06746v1 Announce Type: new Abstract: All published models of ultraviolet (UV) inactivation of airborne viruses in saliva droplets have neglected UV light scattering. To the best of our knowledge, this work pre…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design and Repeatability Assessment of an RF MEMS Switching Platform for Automated Microwave SOL Calibration",
-      "url": "https://arxiv.org/abs/2607.06747",
-      "summary": "arXiv:2607.06747v1 Announce Type: new Abstract: This work presents a compact RF MEMS switching platform for automated one-port SOL calibration of microwave lines. The system is based on a Menlo Micro MM5230 SP4T RF MEMS …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Five-Dimensional Beam Sigma Matrix Determination in Transport Lines with Differentiable Simulation",
-      "url": "https://arxiv.org/abs/2607.06759",
-      "summary": "arXiv:2607.06759v1 Announce Type: new Abstract: Precise measurement of the beam sigma matrix is essential for matching the optics in transport lines and ensuring reliable accelerator operation. In this work, we present a…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hydrogen-Bond Donor-Acceptor Imbalance in Low-Frequency Terahertz Water Spectra",
-      "url": "https://arxiv.org/abs/2607.06780",
-      "summary": "arXiv:2607.06780v1 Announce Type: new Abstract: The low-frequency dielectric response of liquid water is commonly described by a dominant Debye relaxation together with additional faster contributions whose microscopic o…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Microsecond-Scale Coherent Control of a Forbidden Clock Transition with Doppler-Free Multiphoton Excitations",
-      "url": "https://arxiv.org/abs/2607.06789",
-      "summary": "arXiv:2607.06789v1 Announce Type: new Abstract: We demonstrate two Doppler-free (DF) excitation schemes for coherent manipulation of the ${}^1\\!S_0 - {}^3\\!P_0$ clock transition in $^{88}$Sr that achieve microsecond-scal…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unified Framework for Binary-Choice Dynamics: Analysis and Applications",
-      "url": "https://arxiv.org/abs/2607.06803",
-      "summary": "arXiv:2607.06803v1 Announce Type: new Abstract: We demonstrate how the unified framework for binary-choice dynamics can be used to study the role of annealed and quenched disorders in homogeneous and heterogeneous system…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Will AstroForge Collapse the PGM Market?",
-      "url": "https://arxiv.org/abs/2607.06806",
-      "summary": "arXiv:2607.06806v1 Announce Type: new Abstract: AstroForge seeks to mine platinum group metals (PGM) from asteroids. Asteroid reserves appear to be unlimited, and at current market price the gross margin of asteroid mini…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Soft cells, Tubular Tilings and the Hidden Phases in Binary Mixtures",
-      "url": "https://arxiv.org/abs/2607.06810",
-      "summary": "arXiv:2607.06810v1 Announce Type: new Abstract: Biological and physical systems ranging from Fermi surfaces and skeletal structures to reaction--diffusion patterns and cosmological models may be viewed as binary mixtures…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatiotemporal Dynamics of Hydrogen Plasma Smelting Reduction of iron ore: A Multi-Species Diagnostic Approach",
-      "url": "https://arxiv.org/abs/2607.06840",
-      "summary": "arXiv:2607.06840v1 Announce Type: new Abstract: Plasma-based mineral-processing routes, such as hydrogen plasma smelting reduction (HPSR), which converts iron-ore fines directly to liquid metal in a single scalable step …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond Silica Assumptions: Optical Network Design in the Hollow-Core Era",
-      "url": "https://arxiv.org/abs/2607.06877",
-      "summary": "arXiv:2607.06877v1 Announce Type: new Abstract: Hollow-core fiber (HCF) is often presented as a modestly improved transmission medium that can be inserted into networks originally designed for solid-core silica. We argue…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physically consistent formulation for the bound vortex sheet strength in the Wagner model",
-      "url": "https://arxiv.org/abs/2607.06884",
-      "summary": "arXiv:2607.06884v1 Announce Type: new Abstract: Unsteady thin-airfoil theory (UTAT) coupled with discrete-vortex methods has been widely employed in reduced-order aerodynamic modeling. Due to the non-uniqueness of potent…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Variational Framework for Guiding-Center Kinetics, Anisotropic Equilibria, and Quasisymmetry in Stellarators",
-      "url": "https://arxiv.org/abs/2607.06903",
-      "summary": "arXiv:2607.06903v1 Announce Type: new Abstract: We present a variational framework in which (i) guiding-center kinetic theory, (ii) macroscopic force balance with gyrotropic/anisotropic pressure, and (iii) quasisymmetry …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exoplanet Detection Using Adaptive Quantum-Optimal Measurement",
-      "url": "https://arxiv.org/abs/2607.06931",
-      "summary": "arXiv:2607.06931v1 Announce Type: new Abstract: Detecting terrestrial exoplanets in the habitable zones of nearby stars remains a critical challenge. Such planets can be \\(10^8\\) to \\(10^{10}\\) times fainter than their h…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast proton radiography of the magnetic fields generated by a laser-driven coil current",
-      "url": "https://arxiv.org/abs/2607.06946",
-      "summary": "arXiv:2607.06946v1 Announce Type: new Abstract: Magnetic fields generated by a current flowing through a U-shaped coil connecting two copper foils were measured using ultrafast proton radiography. Two $\\sim$1.25 kJ, 1-ns…",
       "ts": 1783569600000
     }
   ],

@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-09T20:48:41.471Z",
+  "updated": "2026-07-09T22:24:36.957Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Stem Cell Therapy Shows Promise in First Human Parkinson’s Disease Trial",
+      "url": "https://www.genengnews.com/topics/drug-discovery/stem-cell-therapy-shows-promise-in-first-human-parkinsons-disease-trial/",
+      "summary": "One year findings from Phase I/II clinical study support the feasibility of transplanting stem-cell derived dopamine progenitor cells into the brain of Parkinson’s disease patients. The post Stem Cell Therapy Shows Promi…",
+      "ts": 1783633802000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from t…",
+      "ts": 1783628548000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "The Exploration Company establishes US entity to pursue government contracts",
@@ -705,22 +721,6 @@
       "summary": "Marco Rubio, RFK Jr., and Chris Klomp are urging industry leaders to make more medicines in the U.S.",
       "ts": 1783529070000,
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "EmTech AI 2026: The Rise of the AI Platform",
-      "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
-      "summary": "",
-      "ts": 1783527970000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards Contracts for Mars Advanced Surface Mobility Technology",
-      "url": "https://science.nasa.gov/directorates/smd/planetary-science-division/mars-exploration-program/nasa-awards-contracts-for-mars-advanced-surface-mobility-technology/",
-      "summary": "July 8, 2026 C.13 NASA Awards Contracts for Mars Advanced Surface Mobility Technology NASA has selected seven companies for contract awards under the Mars Exploration Program’s Science Transport and Robotic Innovation fo…",
-      "ts": 1783527770000,
-      "categoryId": "space"
     }
   ],
   "categories": [
