@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-10T18:26:31.780Z",
+  "updated": "2026-07-10T20:25:06.117Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Nominee for key federal health role has a history of questioning vaccines",
+      "url": "https://www.statnews.com/2026/07/10/sean-kaufman-hhs-nominee-past-statements-question-vaccine-safety/?utm_campaign=rss",
+      "summary": "Sean Kaufman's views on vaccines may put him at odds with Sen. Bill Cassidy during next week's confirmation hearing.",
+      "ts": 1783711656000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Early Career Faculty (ECF) 2025 Awards",
+      "url": "https://www.nasa.gov/directorates/stmd/space-tech-research-grants/ecf/early-career-faculty-ecf-2025-awards/",
+      "summary": "Back to ECF Home Advanced Diagnostics for High-Enthalpy Test Facilities Simulating Spacecraft Atmospheric Entry Planning for Autonomous Spacecraft Using Machine Learning Methods to Enable Onboard Guidance, Navigation, an…",
+      "ts": 1783711435000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Volunteers Help Zooniverse Reach 1 Billion Classifications",
+      "url": "https://science.nasa.gov/get-involved/citizen-science/nasa-volunteers-help-zooniverse-reach-1-billion-classifications/",
+      "summary": "The Zooniverse, a NASA grantee that runs the world’s largest platform for online people-powered research, has reached an extraordinary milestone: 1 billion classifications contributed by volunteers around the world. This…",
+      "ts": 1783710053000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Earth observation satellites pass telecom in European space industry sales",
@@ -25,6 +49,14 @@
       "summary": "By coating biodegradable nanoparticles with macrophage membranes, scientists developed a targeted antifungal delivery platform that increased drug accumulation at infection sites and improved treatment efficacy in precli…",
       "ts": 1783701652000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Photographer Captures Images from F-18 Over Washington",
+      "url": "https://www.nasa.gov/image-article/nasa-photographer-captures-images-from-f-18-over-washington/",
+      "summary": "NASA flight photographers capture history from a perspective few ever experience, getting a rare bird’s-eye view of the agency’s missions in action. Their photos document key NASA research and give the public a front-row…",
+      "ts": 1783701374000,
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -97,6 +129,30 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anth…",
       "ts": 1783685400000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: UN spotlights education aid solution, Sri Lanka prison violence, humanitarian aid to Venezuela",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167918",
+      "summary": "The UN Educational, Scientific and Cultural Organization (UNESCO) urged international lenders to expand debt-for-education swaps, warning in a Friday report that many developing countries are spending more on debt servic…",
+      "ts": 1783684800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "South Sudan: UN acts ahead of drought to protect thousands",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167915",
+      "summary": "As drought risk intensifies in South Sudan’s Eastern Equatoria state, a new UN-backed plan aims to protect thousands of people before the worst impacts take hold.",
+      "ts": 1783684800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: ‘Lost continuity of knowledge’ on Iran’s nuclear programme since US-Israel attacks, top UN official warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167914",
+      "summary": "Since the United States and Israel launched attacks on Iran in late February, there has been a “lost continuity of knowledge” on Tehran’s nuclear programme, Rosemary DiCarlo, the UN peace affairs chief, warned the Securi…",
+      "ts": 1783684800000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -192,6 +248,14 @@
       "url": "https://spacenews.com/china-becomes-second-country-to-recover-orbital-booster-with-long-march-10b/",
       "summary": "HELSINKI — China launched its Long March 10B rocket early Friday and successfully recovered the first stage, marking a huge step for the country’s reusable rocket efforts. The first Long […] The post China becomes second…",
       "ts": 1783666542000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Where Venezuela’s Earthquakes Shifted the Ground",
+      "url": "https://science.nasa.gov/earth/earth-observatory/where-venezuelas-earthquakes-shifted-the-ground/",
+      "summary": "Radar data from the NISAR satellite show that La Guaira and nearby areas experienced significant ground displacement from the June 2026 temblors.",
+      "ts": 1783656000000,
       "categoryId": "space"
     },
     {
@@ -345,14 +409,6 @@
       "summary": "arXiv:2607.06629v2 Announce Type: replace-cross Abstract: Brain age - the age inferred from a physiological recording - is an emerging biomarker whose deviation from chronological age tracks neurological and psychiatric …",
       "ts": 1783656000000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Where Venezuela’s Earthquakes Shifted the Ground",
-      "url": "https://science.nasa.gov/earth/earth-observatory/where-venezuelas-earthquakes-shifted-the-ground/",
-      "summary": "Radar data from the NISAR satellite show that La Guaira and nearby areas experienced significant ground displacement from the June 2026 temblors.",
-      "ts": 1783656000000,
-      "categoryId": "space"
     },
     {
       "source": "Nature Energy",
@@ -665,62 +721,6 @@
       "summary": "Even as many details of Golden Dome remain unsettled, the missile-defense program has become a focal point for space and defense startups looking for new markets The post Golden Dome and the search for new space markets …",
       "ts": 1783598400000,
       "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Diplomats go virtual to witness Gaza displacement site up close",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167912",
-      "summary": "Representatives from 12 countries carried out a “virtual diplomatic field visit” to a displacement site in the Gaza Strip and heard from some of the residents about their pressing needs, the United Nations said on Thursd…",
-      "ts": 1783598400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Peak heat in Europe just broke historic 1970s records",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167911",
-      "summary": "This year marks the hottest June recorded for Western Europe and the second warmest globally, according to the latest report from a climate tracking service released on Thursday.",
-      "ts": 1783598400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World must move faster on Ebola response for DR Congo: UN relief chief",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167910",
-      "summary": "The world must move faster to contain the spread of Ebola in the Democratic Republic of the Congo (DRC), UN relief chief Tom Fletcher said on Thursday.",
-      "ts": 1783598400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Remembering the Srebrenica genocide: ‘Fear is all that kept me moving’",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167909",
-      "summary": "The United Nations paused on Wednesday to remember the more than 8,000 Bosnian Muslim men and boys killed in the town of Srebrenica in July 1995, and the women and survivors left to rebuild their lives in the aftermath.",
-      "ts": 1783598400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Use of explosive weapons ‘must stop’ in eastern DR Congo: Türk",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167906",
-      "summary": "UN High Commissioner for Human Rights Volker Türk urged the armed forces of the Democratic Republic of the Congo and the Rwanda-backed M23 armed group to cease hostilities as he deplored recent civilian deaths on Thursda…",
-      "ts": 1783598400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "US-Iran war leaves shipping at near-standstill in Hormuz again",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167905",
-      "summary": "Renewed hostilities between the United States and Iran reportedly brought shipping to a near-standstill in the Strait of Hormuz on Thursday, leaving around 6,000 seafarers stranded aboard hundreds of vessels and Gulf cou…",
-      "ts": 1783598400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: ‘Urgent de-escalation’ needed now in Ukraine amid spike in civilian deaths",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167904",
-      "summary": "The Security Council must use every tool and diplomatic channel to reach an urgent de-escalation, Rosemary DiCarlo, chief of UN political and peacebuilding affairs, told an emergency meeting on Thursday amid escalating d…",
-      "ts": 1783598400000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

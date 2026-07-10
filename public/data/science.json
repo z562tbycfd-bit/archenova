@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-10T18:26:29.750Z",
+  "updated": "2026-07-10T20:25:03.922Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Children back group claims over evidence, but privacy reduces bias, experiments reveal",
+      "url": "https://phys.org/news/2026-07-children-group-evidence-privacy-bias.html",
+      "summary": "As we move closer to Election Day 2026, voting preferences are moving back into focus—and with them, analyses of what drives partisanship at the polls. However, less frequently asked is when Americans show evidence of pa…",
+      "ts": 1783714802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why natural forests survive heat waves better than planted forests",
+      "url": "https://phys.org/news/2026-07-natural-forests-survive.html",
+      "summary": "When a record-breaking drought and heat wave swept across China's Yangtze River Basin in 2022, forests across the region faced an extreme test. The event provided a rare opportunity for researchers to test how different …",
+      "ts": 1783712401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Moderate warming rewires one-third of microalga's genes, study finds",
+      "url": "https://phys.org/news/2026-07-moderate-rewires-microalga-genes.html",
+      "summary": "Researchers have demonstrated for the first time that the microalga Chlamydomonas reinhardtii alters the activity of about one-third of its protein-coding genes in response even to moderate temperature changes. The study…",
+      "ts": 1783710001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What is 'social media'? Study highlights public confusion about the term",
+      "url": "https://phys.org/news/2026-07-social-media-highlights-term.html",
+      "summary": "Research from Aston University has shown that the public has no clearly accepted definition for the term \"social media\" or agreement about which websites and platforms are classified as such.",
+      "ts": 1783708804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Visible light triggers three-step cascade to make 3D drug-like molecules",
+      "url": "https://phys.org/news/2026-07-visible-triggers-cascade-3d-drug.html",
+      "summary": "A team led by chemist Frank Glorius, a professor at the Institute of Organic Chemistry at the University of Münster, has developed a new light-driven reaction sequence. In this triple catalysis, one reaction step trigger…",
+      "ts": 1783708802000
+    },
     {
       "source": "Phys.org",
       "title": "Giant kangaroos survived until 6,500 years ago on the New Guinea coast",
@@ -665,41 +700,6 @@
       "title": "Ion-Implanted Silicon Nanoregions Enable Ultra-Low-Loss Trimming of Cladded Photonic Integrated Circuits",
       "url": "https://arxiv.org/abs/2607.08266",
       "summary": "arXiv:2607.08266v1 Announce Type: new Abstract: Photonic integrated circuits (PICs) have emerged as a key platform for information processing, including optical communication and computing. As PIC complexity increases, f…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Do Indian Drivers Conform to Newells Car Following Model?",
-      "url": "https://arxiv.org/abs/2607.08287",
-      "summary": "arXiv:2607.08287v1 Announce Type: new Abstract: Newell's simplified car-following model is known for its parsimony and behavioural interpretability, but the effects of finite interaction boundaries on parameter estimatio…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sensitivity of a low-shear heliotron configuration to localised ferrite perturbations",
-      "url": "https://arxiv.org/abs/2607.08290",
-      "summary": "arXiv:2607.08290v1 Announce Type: new Abstract: The influence of ferritic steel on low-shear stellarator/heliotron magnetic configurations is investigated for the Heliotron J device using a point dipole magnetisation mod…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tracking the boundary between absolute/convective instability using adjoint equations",
-      "url": "https://arxiv.org/abs/2607.08305",
-      "summary": "arXiv:2607.08305v1 Announce Type: new Abstract: Determining absolute/convective instability boundaries conventionally requires repeated saddle searches in the complex-wavenumber plane and a subsequent scan of the physica…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design, Modeling, and Validation of Curvature-Based Shape-Aware Flexible Phased Arrays",
-      "url": "https://arxiv.org/abs/2607.08309",
-      "summary": "arXiv:2607.08309v1 Announce Type: new Abstract: Knowledge of the shape of deformed, mechanically flexible phased arrays plays an important role in the ability to maintain their beam pattern. This work presents the design…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse-designed meta processing units for multi-task near-field photonic computing",
-      "url": "https://arxiv.org/abs/2607.08360",
-      "summary": "arXiv:2607.08360v1 Announce Type: new Abstract: Integrated photonic neural networks require optical operators that are simultaneously compact, matrix-general and compatible with task-level reconfigurability. Here we intr…",
       "ts": 1783656000000
     }
   ],
