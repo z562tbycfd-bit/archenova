@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-10T20:29:24.757Z",
+  "updated": "2026-07-10T22:06:29.818Z",
   "items": [
     {
       "source": "STAT",
@@ -132,14 +132,6 @@
     },
     {
       "source": "United Nations News",
-      "title": "World News in Brief: UN spotlights education aid solution, Sri Lanka prison violence, humanitarian aid to Venezuela",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167918",
-      "summary": "The UN Educational, Scientific and Cultural Organization (UNESCO) urged international lenders to expand debt-for-education swaps, warning in a Friday report that many developing countries are spending more on debt servic…",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
       "title": "South Sudan: UN acts ahead of drought to protect thousands",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167915",
       "summary": "As drought risk intensifies in South Sudan’s Eastern Equatoria state, a new UN-backed plan aims to protect thousands of people before the worst impacts take hold.",
@@ -167,6 +159,14 @@
       "title": "Aid cuts leave at least one million women and girls without vital support",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167908",
       "summary": "At least one million women and girls have lost access to critical humanitarian support since January 2025 as unprecedented aid cuts push women's organizations in crisis zones to the brink of collapse, the UN’s gender equ…",
+      "ts": 1783684800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: UN spotlights education aid solution, Sri Lanka prison violence, humanitarian aid to Venezuela",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167918",
+      "summary": "The UN Educational, Scientific and Cultural Organization (UNESCO) urged international lenders to expand debt-for-education swaps, warning in a Friday report that many developing countries are spending more on debt servic…",
       "ts": 1783684800000,
       "categoryId": "global-governance"
     },

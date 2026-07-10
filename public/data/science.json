@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-10T20:29:13.981Z",
+  "updated": "2026-07-10T22:06:25.733Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Dark energy flips its sign, but the Hubble tension refuses to budge",
+      "url": "https://phys.org/news/2026-07-dark-energy-flips-hubble-tension.html",
+      "summary": "For nearly a century, astronomers have known that the universe is expanding. In the late 1990s, two independent teams, the Supernova Cosmology Project, led by Saul Perlmutter, and the High-Z Supernova Search Team, led by…",
+      "ts": 1783719601000
+    },
     {
       "source": "Phys.org",
       "title": "Children back group claims over evidence, but privacy reduces bias, experiments reveal",
@@ -368,16 +375,9 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Extended Haloscope Search and Exclusion of a Candidate Signal near 1.036 GHz",
-      "url": "http://link.aps.org/doi/10.1103/2sn2-h97m",
-      "summary": "Author(s): Saebyeok Ahn et al. We report a follow-up axion haloscope search near 1.036 GHz that completes and extends our previous work [Ahn et al. Phys. Rev. X 14, 031023 (2024)], in which a portion of the HEMT-based da…",
-      "ts": 1783677600000
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Cavendish Tests of Millicharged Particles",
       "url": "http://link.aps.org/doi/10.1103/83fd-mnpk",
-      "summary": "Author(s): Asher Berlin, Zachary Bogorad, Peter W. Graham, and Harikrishnan Ramani Decades-old experiments have now been enlisted to set new bounds on the properties of a hypothetical particle that bears a tiny fraction …",
+      "summary": "Author(s): Asher Berlin, Zachary Bogorad, Peter W. Graham, and Harikrishnan Ramani Decades-old experiments have now been enlisted to set new bounds on the properties of a dark matter candidate that bears a tiny fraction …",
       "ts": 1783677600000
     },
     {
@@ -385,13 +385,6 @@
       "title": "Quadratic Band Touching and Nontrivial Winding Reveal Generalized Angular Momentum Conservation",
       "url": "http://link.aps.org/doi/10.1103/br8b-n4b4",
       "summary": "Author(s): Yihan Wang, Domenico Bongiovanni, Dario Jukić, Sihong Lei, Zhichan Hu, Daohong Song, Jingjun Xu, Roberto Morandotti, Hrvoje Buljan, and Zhigang Chen Angular momentum conservation stands as one of the most fund…",
-      "ts": 1783677600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "First Experimental Demonstration of Beam Storage by a Three-Dimensional Spiral Injection Scheme for Ultracompact Storage Rings",
-      "url": "http://link.aps.org/doi/10.1103/8nxx-srgz",
-      "summary": "Author(s): R. Matsushita, H. Iinuma, S. Ohsawa, H. Nakayama, K. Furukawa, S. Ogawa, N. Saito, T. Mibe, and M. A. Rehman Three-dimensional spiral injection enables beam storage in ultracompact rings with nanosecond revolu…",
       "ts": 1783677600000
     },
     {
@@ -434,6 +427,20 @@
       "title": "Erratum: Detecting Gravitational Wave Memory in the Next Galactic Core-Collapse Supernova [Phys. Rev. Lett. <b>133</b>, 231401 (2024)]",
       "url": "http://link.aps.org/doi/10.1103/zh1y-m96q",
       "summary": "Author(s): Colter J. Richardson, Haakon Andresen, Anthony Mezzacappa, Michele Zanolin, Michael G. Benjamin, Pedro Marronetti, Eric J. Lentz, and Marek J. Szczepańczyk [Phys. Rev. Lett. 137, 029901] Published Fri Jul 10, …",
+      "ts": 1783677600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Extended Haloscope Search and Exclusion of a Candidate Signal near 1.036 GHz",
+      "url": "http://link.aps.org/doi/10.1103/2sn2-h97m",
+      "summary": "Author(s): Saebyeok Ahn et al. We report a follow-up axion haloscope search near 1.036 GHz that completes and extends our previous work [Ahn et al. Phys. Rev. X 14, 031023 (2024)], in which a portion of the HEMT-based da…",
+      "ts": 1783677600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "First Experimental Demonstration of Beam Storage by a Three-Dimensional Spiral Injection Scheme for Ultracompact Storage Rings",
+      "url": "http://link.aps.org/doi/10.1103/8nxx-srgz",
+      "summary": "Author(s): R. Matsushita, H. Iinuma, S. Ohsawa, H. Nakayama, K. Furukawa, S. Ogawa, N. Saito, T. Mibe, and M. A. Rehman Three-dimensional spiral injection enables beam storage in ultracompact rings with nanosecond revolu…",
       "ts": 1783677600000
     },
     {
@@ -693,13 +700,6 @@
       "title": "Sensitivity of a low-shear heliotron configuration to localised ferrite perturbations",
       "url": "https://arxiv.org/abs/2607.08290",
       "summary": "arXiv:2607.08290v1 Announce Type: new Abstract: The influence of ferritic steel on low-shear stellarator/heliotron magnetic configurations is investigated for the Heliotron J device using a point dipole magnetisation mod…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tracking the boundary between absolute/convective instability using adjoint equations",
-      "url": "https://arxiv.org/abs/2607.08305",
-      "summary": "arXiv:2607.08305v1 Announce Type: new Abstract: Determining absolute/convective instability boundaries conventionally requires repeated saddle searches in the complex-wavenumber plane and a subsequent scan of the physica…",
       "ts": 1783656000000
     }
   ],
