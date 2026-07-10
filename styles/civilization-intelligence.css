@@ -5748,3 +5748,425 @@
     opacity: 0.52;
   }
 }
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   PHASE 5 PART 3
+   EPISTEME UI BRIDGE
+========================================================== */
+
+/* ==========================================================
+   1. Bridge foundation
+========================================================== */
+
+.episteme-os-bridge {
+  position: relative;
+
+  width: 100%;
+  min-height: 100%;
+
+  --episteme-cycle-progress: 0;
+  --episteme-health: 100;
+  --episteme-synchronization: 100;
+  --episteme-activity: 0;
+  --episteme-confidence: 0;
+  --episteme-active-index: 1;
+}
+
+/* Hidden semantic runtime information */
+.episteme-os-status {
+  position: fixed !important;
+
+  width: 1px !important;
+  height: 1px !important;
+
+  padding: 0 !important;
+  margin: -1px !important;
+
+  overflow: hidden !important;
+
+  clip: rect(0, 0, 0, 0) !important;
+  clip-path: inset(50%) !important;
+
+  white-space: nowrap !important;
+
+  border: 0 !important;
+}
+
+/* ==========================================================
+   2. Operating state
+========================================================== */
+
+.episteme-os-bridge.is-operating .ci2-core {
+  filter:
+    brightness(1.08)
+    saturate(1.06);
+}
+
+.episteme-os-bridge.is-operating .ci2-dna-aura {
+  opacity: 0.76;
+}
+
+/* ==========================================================
+   3. Active Organ
+========================================================== */
+
+.episteme-os-bridge
+  .ci2-organ {
+  transition:
+    opacity 0.55s ease,
+    filter 0.55s ease,
+    border-color 0.55s ease,
+    box-shadow 0.55s ease,
+    transform 0.55s ease;
+}
+
+.episteme-os-bridge
+  .ci2-organ:not(.is-os-active) {
+  opacity: 0.72;
+}
+
+/* Observation */
+.episteme-os-bridge[
+  data-active-organ="observation"
+]
+  .ci2-organ.card-1,
+
+/* Understanding */
+.episteme-os-bridge[
+  data-active-organ="understanding"
+]
+  .ci2-organ.card-2,
+
+/* Reasoning */
+.episteme-os-bridge[
+  data-active-organ="reasoning"
+]
+  .ci2-organ.card-3,
+
+/* Design */
+.episteme-os-bridge[
+  data-active-organ="design"
+]
+  .ci2-organ.card-4,
+
+/* Realization */
+.episteme-os-bridge[
+  data-active-organ="realization"
+]
+  .ci2-organ.card-5,
+
+/* Memory */
+.episteme-os-bridge[
+  data-active-organ="memory"
+]
+  .ci2-organ.card-6 {
+  opacity: 1;
+
+  filter:
+    brightness(1.14)
+    saturate(1.1);
+
+  border-color:
+    rgba(
+      var(--organ-color),
+      0.48
+    ) !important;
+
+  box-shadow:
+    0 34px 110px
+      rgba(0, 0, 0, 0.58),
+
+    0 0 42px
+      rgba(
+        var(--organ-color),
+        0.16
+      ),
+
+    0 0 88px
+      rgba(
+        var(--organ-color),
+        0.08
+      ),
+
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.12)
+      !important;
+}
+
+/* ==========================================================
+   4. Active DNA node
+========================================================== */
+
+.episteme-os-bridge[
+  data-active-organ-index="1"
+]
+  .ci2-dna-node.node-1,
+
+.episteme-os-bridge[
+  data-active-organ-index="2"
+]
+  .ci2-dna-node.node-2,
+
+.episteme-os-bridge[
+  data-active-organ-index="3"
+]
+  .ci2-dna-node.node-3,
+
+.episteme-os-bridge[
+  data-active-organ-index="4"
+]
+  .ci2-dna-node.node-4,
+
+.episteme-os-bridge[
+  data-active-organ-index="5"
+]
+  .ci2-dna-node.node-5,
+
+.episteme-os-bridge[
+  data-active-organ-index="6"
+]
+  .ci2-dna-node.node-6 {
+  filter:
+    brightness(1.42)
+    saturate(1.18);
+
+  box-shadow:
+    0 0 34px
+      rgba(255, 226, 180, 0.55),
+
+    0 0 78px
+      rgba(245, 216, 162, 0.34),
+
+    0 0 126px
+      rgba(111, 166, 255, 0.22),
+
+    inset 0 0 28px
+      rgba(255, 255, 255, 0.09)
+      !important;
+}
+
+/* ==========================================================
+   5. Packet activity
+========================================================== */
+
+.episteme-os-bridge.has-active-packet
+  .ci2-vital-signals {
+  opacity: 1;
+}
+
+.episteme-os-bridge.has-no-active-packet
+  .ci2-vital-signals {
+  opacity: 0.3;
+}
+
+.episteme-os-bridge.has-active-packet
+  .ci2-strand-current {
+  animation-duration: 4.8s !important;
+}
+
+/* ==========================================================
+   6. Core synchronization
+========================================================== */
+
+.episteme-os-bridge.is-synchronizing
+  .ci2-core {
+  animation:
+    epistemeCoreSynchronization
+    1.9s
+    ease-in-out
+    infinite !important;
+}
+
+.episteme-os-bridge.is-synchronizing
+  .ci2-core-wave {
+  animation-duration:
+    3.2s !important;
+}
+
+.episteme-os-bridge.is-synchronizing
+  .ci2-core-rays {
+  animation-duration:
+    16s !important;
+}
+
+@keyframes epistemeCoreSynchronization {
+  0%,
+  100% {
+    filter:
+      brightness(1)
+      saturate(1);
+  }
+
+  50% {
+    filter:
+      brightness(1.34)
+      saturate(1.2);
+
+    box-shadow:
+      0 0 48px
+        rgba(255, 233, 196, 0.42),
+
+      0 0 116px
+        rgba(245, 216, 162, 0.36),
+
+      0 0 190px
+        rgba(110, 161, 255, 0.22),
+
+      inset 0 0 60px
+        rgba(255, 255, 255, 0.075);
+  }
+}
+
+/* ==========================================================
+   7. Cycle complete
+========================================================== */
+
+.episteme-os-bridge.is-cycle-complete
+  .ci2-dna-node {
+  animation:
+    epistemeCycleCompleteNode
+    1.8s
+    ease-in-out
+    1;
+}
+
+@keyframes epistemeCycleCompleteNode {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter:
+      brightness(1.55)
+      saturate(1.2);
+  }
+}
+
+/* ==========================================================
+   8. Paused state
+========================================================== */
+
+.episteme-os-bridge.is-paused
+  .ci2-dna-aura,
+
+.episteme-os-bridge.is-paused
+  .ci2-strand-current,
+
+.episteme-os-bridge.is-paused
+  .ci2-vital-signal,
+
+.episteme-os-bridge.is-paused
+  .ci2-core-star,
+
+.episteme-os-bridge.is-paused
+  .ci2-core-wave {
+  animation-play-state:
+    paused !important;
+}
+
+.episteme-os-bridge.is-paused
+  .ci2-stage {
+  filter:
+    saturate(0.72)
+    brightness(0.88);
+}
+
+/* ==========================================================
+   9. Error state
+========================================================== */
+
+.episteme-os-bridge.has-system-error
+  .ci2-core {
+  border-color:
+    rgba(255, 118, 118, 0.42)
+    !important;
+
+  box-shadow:
+    0 0 50px
+      rgba(255, 84, 84, 0.18),
+
+    0 0 100px
+      rgba(255, 84, 84, 0.08),
+
+    inset 0 0 42px
+      rgba(255, 84, 84, 0.045)
+      !important;
+}
+
+/* ==========================================================
+   10. Mobile safety
+========================================================== */
+
+@media (max-width: 768px) {
+  .episteme-os-bridge[
+    data-active-organ="observation"
+  ]
+    .ci2-organ.card-1,
+
+  .episteme-os-bridge[
+    data-active-organ="understanding"
+  ]
+    .ci2-organ.card-2,
+
+  .episteme-os-bridge[
+    data-active-organ="reasoning"
+  ]
+    .ci2-organ.card-3,
+
+  .episteme-os-bridge[
+    data-active-organ="design"
+  ]
+    .ci2-organ.card-4,
+
+  .episteme-os-bridge[
+    data-active-organ="realization"
+  ]
+    .ci2-organ.card-5,
+
+  .episteme-os-bridge[
+    data-active-organ="memory"
+  ]
+    .ci2-organ.card-6 {
+    transform: none !important;
+  }
+
+  .episteme-os-bridge.is-synchronizing
+    .ci2-core {
+    animation-duration:
+      2.8s !important;
+  }
+}
+
+/* ==========================================================
+   11. Reduced motion
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .episteme-os-bridge
+    .ci2-organ,
+
+  .episteme-os-bridge
+    .ci2-dna-node,
+
+  .episteme-os-bridge
+    .ci2-core {
+    transition: none !important;
+  }
+
+  .episteme-os-bridge.is-synchronizing
+    .ci2-core,
+
+  .episteme-os-bridge.is-cycle-complete
+    .ci2-dna-node {
+    animation: none !important;
+  }
+}

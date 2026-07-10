@@ -1,85 +1,13 @@
 {
   "ok": true,
-  "updated": "2026-07-10T20:25:06.117Z",
+  "updated": "2026-07-10T14:34:32.157Z",
   "items": [
-    {
-      "source": "STAT",
-      "title": "Nominee for key federal health role has a history of questioning vaccines",
-      "url": "https://www.statnews.com/2026/07/10/sean-kaufman-hhs-nominee-past-statements-question-vaccine-safety/?utm_campaign=rss",
-      "summary": "Sean Kaufman's views on vaccines may put him at odds with Sen. Bill Cassidy during next week's confirmation hearing.",
-      "ts": 1783711656000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Early Career Faculty (ECF) 2025 Awards",
-      "url": "https://www.nasa.gov/directorates/stmd/space-tech-research-grants/ecf/early-career-faculty-ecf-2025-awards/",
-      "summary": "Back to ECF Home Advanced Diagnostics for High-Enthalpy Test Facilities Simulating Spacecraft Atmospheric Entry Planning for Autonomous Spacecraft Using Machine Learning Methods to Enable Onboard Guidance, Navigation, an…",
-      "ts": 1783711435000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Volunteers Help Zooniverse Reach 1 Billion Classifications",
-      "url": "https://science.nasa.gov/get-involved/citizen-science/nasa-volunteers-help-zooniverse-reach-1-billion-classifications/",
-      "summary": "The Zooniverse, a NASA grantee that runs the world’s largest platform for online people-powered research, has reached an extraordinary milestone: 1 billion classifications contributed by volunteers around the world. This…",
-      "ts": 1783710053000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Earth observation satellites pass telecom in European space industry sales",
-      "url": "https://spacenews.com/earth-observation-satellites-pass-telecom-in-european-space-industry-sales/",
-      "summary": "MILAN – European space industry sales rebounded in 2025 after a contraction in 2024, Eurospace reported in its latest Facts and Figures report, presented July 7. The growth is driven […] The post Earth observation satell…",
-      "ts": 1783707144000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "China unveils members of state-backed commercial space consortium",
-      "url": "https://spacenews.com/china-unveils-members-of-state-backed-commercial-space-consortium/",
-      "summary": "HELSINKI — A Chinese government body has published a national commercial space consortium membership list, offering a rare indication of which companies the state considers established players. The list was […] The post …",
-      "ts": 1783703276000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Macrophage Membrane-Derived Nanoparticles Shows Potential Against Candida Infections",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/macrophage-membrane-derived-nanoparticles-shows-potential-against-candida-infections/",
-      "summary": "By coating biodegradable nanoparticles with macrophage membranes, scientists developed a targeted antifungal delivery platform that increased drug accumulation at infection sites and improved treatment efficacy in precli…",
-      "ts": 1783701652000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Photographer Captures Images from F-18 Over Washington",
-      "url": "https://www.nasa.gov/image-article/nasa-photographer-captures-images-from-f-18-over-washington/",
-      "summary": "NASA flight photographers capture history from a perspective few ever experience, getting a rare bird’s-eye view of the agency’s missions in action. Their photos document key NASA research and give the public a front-row…",
-      "ts": 1783701374000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Waxing Gibbous Moon",
-      "url": "https://www.nasa.gov/image-article/waxing-gibbous-moon-6/",
-      "summary": "The waxing gibbous moon is nestled in the darkness of space in this June 26, 2026, image from the International Space Station. The space station was 264 miles above the Indian Ocean southeast of Madagascar at the time. T…",
-      "ts": 1783696139000,
-      "categoryId": "space"
-    },
     {
       "source": "SpaceNews",
       "title": "The space industry is weighing ambitious hiring against heritage",
       "url": "https://spacenews.com/the-space-industry-is-weighing-ambitious-hiring-against-heritage/",
       "summary": "Space is hard, as the decades-old adage goes. For much of the industry’s history, “rocket science” was as much a barrier to entry as a byword for difficulty. But now […] The post The space industry is weighing ambitious …",
       "ts": 1783692300000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "8 things to know about this year’s solar eclipse",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/8_things_to_know_about_this_year_s_solar_eclipse",
-      "summary": "Video: 00:02:34 From the path of totality and the spectacular Baily's beads to why this eclipse will be especially beautiful at sunset, discover what makes the 12 August 2026 total solar eclipse so special. Featuring ESA…",
-      "ts": 1783690560000,
       "categoryId": "space"
     },
     {
@@ -129,30 +57,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anth…",
       "ts": 1783685400000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: UN spotlights education aid solution, Sri Lanka prison violence, humanitarian aid to Venezuela",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167918",
-      "summary": "The UN Educational, Scientific and Cultural Organization (UNESCO) urged international lenders to expand debt-for-education swaps, warning in a Friday report that many developing countries are spending more on debt servic…",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "South Sudan: UN acts ahead of drought to protect thousands",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167915",
-      "summary": "As drought risk intensifies in South Sudan’s Eastern Equatoria state, a new UN-backed plan aims to protect thousands of people before the worst impacts take hold.",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: ‘Lost continuity of knowledge’ on Iran’s nuclear programme since US-Israel attacks, top UN official warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167914",
-      "summary": "Since the United States and Israel launched attacks on Iran in late February, there has been a “lost continuity of knowledge” on Tehran’s nuclear programme, Rosemary DiCarlo, the UN peace affairs chief, warned the Securi…",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -721,6 +625,102 @@
       "summary": "Even as many details of Golden Dome remain unsettled, the missile-defense program has become a focal point for space and defense startups looking for new markets The post Golden Dome and the search for new space markets …",
       "ts": 1783598400000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Diplomats go virtual to witness Gaza displacement site up close",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167912",
+      "summary": "Representatives from 12 countries carried out a “virtual diplomatic field visit” to a displacement site in the Gaza Strip and heard from some of the residents about their pressing needs, the United Nations said on Thursd…",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Peak heat in Europe just broke historic 1970s records",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167911",
+      "summary": "This year marks the hottest June recorded for Western Europe and the second warmest globally, according to the latest report from a climate tracking service released on Thursday.",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World must move faster on Ebola response for DR Congo: UN relief chief",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167910",
+      "summary": "The world must move faster to contain the spread of Ebola in the Democratic Republic of the Congo (DRC), UN relief chief Tom Fletcher said on Thursday.",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Remembering the Srebrenica genocide: ‘Fear is all that kept me moving’",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167909",
+      "summary": "The United Nations paused on Thursday to remember the more than 8,000 Bosnian Muslim men and boys killed in the town of Srebrenica in July 1995, and the women and survivors left to rebuild their lives in the aftermath.",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Use of explosive weapons ‘must stop’ in eastern DR Congo: Türk",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167906",
+      "summary": "UN High Commissioner for Human Rights Volker Türk urged the armed forces of the Democratic Republic of the Congo and the Rwanda-backed M23 armed group to cease hostilities as he deplored recent civilian deaths on Thursda…",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "US-Iran war leaves shipping at near-standstill in Hormuz again",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167905",
+      "summary": "Renewed hostilities between the United States and Iran reportedly brought shipping to a near-standstill in the Strait of Hormuz on Thursday, leaving around 6,000 seafarers stranded aboard hundreds of vessels and Gulf cou…",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: ‘Urgent de-escalation’ needed now in Ukraine amid spike in civilian deaths",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167904",
+      "summary": "The Security Council must use every tool and diplomatic channel to reach an urgent de-escalation, Rosemary DiCarlo, chief of UN political and peacebuilding affairs, told an emergency meeting on Thursday amid escalating d…",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Blue Origin seeks to raise $10 billion in outside capital",
+      "url": "https://spacenews.com/blue-origin-seeks-to-raise-10-billion-in-outside-capital/",
+      "summary": "Blue Origin is planning to raise $10 billion in the company’s first outside investment to support its ambitions in launch services and satellite constellations. The post Blue Origin seeks to raise $10 billion in outside …",
+      "ts": 1783598258000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Who’s going to run the FDA? ",
+      "url": "https://www.statnews.com/2026/07/09/health-news-whos-going-to-run-the-fda/?utm_campaign=rss",
+      "summary": "RFK Jr.'s list of Covid vaccine injuries, a father's quest to cure his daughter, and more health news from Morning Rounds",
+      "ts": 1783596276000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "MDA Space buys French Earth data analytics company CLS",
+      "url": "https://spacenews.com/mda-space-buys-french-earth-data-analytics-company-cls/",
+      "summary": "Canadian company MDA Space is buying a French Earth data analytics company in its second big acquisition in recent weeks, part of wave of mergers and acquisitions in the industry. The post MDA Space buys French Earth dat…",
+      "ts": 1783595902000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: 931 days. The drug approval scandal hiding in plain sight",
+      "url": "https://www.statnews.com/2026/07/09/northwest-biotherapeutics-brain-cancer-treatment/?utm_campaign=rss",
+      "summary": "Two years, six months, and 18 days have elapsed since Northwest Biotherapeutics submitted its brain cancer treatment for regulatory approval.",
+      "ts": 1783593000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "ts": 1783591200000,
+      "categoryId": "ai-compute"
     }
   ],
   "categories": [
