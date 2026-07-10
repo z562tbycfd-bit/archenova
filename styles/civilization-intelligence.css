@@ -4485,3 +4485,574 @@
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   PHASE 2 — LIVING DNA
+   Breathing Strands / Energy Rungs / Photon Flow
+   Existing sizes and positions remain unchanged
+========================================================== */
+
+/* ----------------------------------------------------------
+   1. DNA内部だけにアニメーション空間を設定
+---------------------------------------------------------- */
+
+.ci2-dna {
+  isolation: isolate !important;
+  transform-style: preserve-3d !important;
+}
+
+/* DNA全体の生命オーラ */
+.ci2-dna-aura {
+  animation:
+    ciLivingDnaAura 8.5s ease-in-out infinite,
+    ciLivingDnaAuraDrift 18s ease-in-out infinite alternate !important;
+}
+
+@keyframes ciLivingDnaAura {
+  0%,
+  100% {
+    opacity: 0.42;
+    filter: blur(22px);
+    transform: scaleX(0.94) scaleY(0.97);
+  }
+
+  50% {
+    opacity: 0.76;
+    filter: blur(28px);
+    transform: scaleX(1.07) scaleY(1.03);
+  }
+}
+
+@keyframes ciLivingDnaAuraDrift {
+  0% {
+    translate: -5px -8px;
+  }
+
+  100% {
+    translate: 7px 9px;
+  }
+}
+
+/* ----------------------------------------------------------
+   2. 二本の主鎖を呼吸させる
+---------------------------------------------------------- */
+
+.ci2-strand {
+  transform-origin: center center !important;
+  will-change: opacity, filter;
+}
+
+.ci2-strand.strand-left {
+  animation: ciLivingStrandLeft 9s ease-in-out infinite !important;
+}
+
+.ci2-strand.strand-right {
+  animation: ciLivingStrandRight 9s ease-in-out infinite !important;
+  animation-delay: -4.5s !important;
+}
+
+@keyframes ciLivingStrandLeft {
+  0%,
+  100% {
+    opacity: 0.72;
+    filter:
+      drop-shadow(0 0 7px rgba(245, 216, 162, 0.22))
+      drop-shadow(0 0 20px rgba(110, 165, 255, 0.10));
+  }
+
+  50% {
+    opacity: 1;
+    filter:
+      drop-shadow(0 0 13px rgba(255, 225, 180, 0.46))
+      drop-shadow(0 0 34px rgba(110, 165, 255, 0.24));
+  }
+}
+
+@keyframes ciLivingStrandRight {
+  0%,
+  100% {
+    opacity: 0.76;
+    filter:
+      drop-shadow(0 0 8px rgba(110, 165, 255, 0.18))
+      drop-shadow(0 0 18px rgba(245, 216, 162, 0.10));
+  }
+
+  50% {
+    opacity: 1;
+    filter:
+      drop-shadow(0 0 14px rgba(110, 171, 255, 0.42))
+      drop-shadow(0 0 35px rgba(245, 216, 162, 0.24));
+  }
+}
+
+/* ----------------------------------------------------------
+   3. 横桟を順番に発光
+---------------------------------------------------------- */
+
+.ci2-rung {
+  transform-origin: center center !important;
+  will-change: opacity, filter;
+  animation: ciLivingRungPulse 6.6s ease-in-out infinite;
+  animation-delay: calc(var(--rung-index) * -0.22s);
+}
+
+@keyframes ciLivingRungPulse {
+  0%,
+  100% {
+    filter: brightness(0.72);
+  }
+
+  18% {
+    filter: brightness(1.45);
+  }
+
+  34% {
+    filter: brightness(0.88);
+  }
+}
+
+.ci2-rung b {
+  position: relative !important;
+  overflow: visible !important;
+
+  animation: ciLivingRungLine 6.6s ease-in-out infinite;
+  animation-delay: calc(var(--rung-index) * -0.22s);
+}
+
+@keyframes ciLivingRungLine {
+  0%,
+  100% {
+    opacity: 0.46;
+    box-shadow:
+      0 0 4px rgba(255, 255, 255, 0.24),
+      0 0 10px rgba(245, 216, 162, 0.15);
+  }
+
+  18% {
+    opacity: 1;
+    box-shadow:
+      0 0 9px rgba(255, 255, 255, 0.76),
+      0 0 19px rgba(245, 216, 162, 0.55),
+      0 0 34px rgba(111, 166, 255, 0.30);
+  }
+
+  38% {
+    opacity: 0.64;
+  }
+}
+
+/* 横桟上を流れるエネルギー */
+.ci2-rung::after {
+  display: block !important;
+
+  content: "";
+  position: absolute;
+
+  left: 10px;
+  top: 50%;
+
+  width: 20px;
+  height: 2px;
+
+  border-radius: 999px;
+
+  transform: translateY(-50%);
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 248, 227, 0.98),
+      rgba(150, 193, 255, 0.84),
+      transparent
+    );
+
+  box-shadow:
+    0 0 8px rgba(255, 240, 204, 0.88),
+    0 0 18px rgba(115, 171, 255, 0.48);
+
+  opacity: 0;
+
+  animation: ciLivingRungEnergy 5.4s ease-in-out infinite;
+  animation-delay: calc(var(--rung-index) * -0.24s);
+}
+
+@keyframes ciLivingRungEnergy {
+  0% {
+    left: 8px;
+    opacity: 0;
+  }
+
+  12% {
+    opacity: 0.95;
+  }
+
+  62% {
+    opacity: 0.95;
+  }
+
+  82%,
+  100% {
+    left: calc(100% - 29px);
+    opacity: 0;
+  }
+}
+
+/* 横桟両端の結合点 */
+.ci2-rung-end {
+  animation: ciLivingBondPulse 4.8s ease-in-out infinite;
+  animation-delay: calc(var(--rung-index) * -0.17s);
+}
+
+@keyframes ciLivingBondPulse {
+  0%,
+  100% {
+    opacity: 0.52;
+    scale: 0.82;
+  }
+
+  44% {
+    opacity: 1;
+    scale: 1.14;
+
+    box-shadow:
+      0 0 11px rgba(245, 216, 162, 0.72),
+      0 0 25px rgba(111, 166, 255, 0.34);
+  }
+}
+
+/* ----------------------------------------------------------
+   4. DNA内部を上昇する光子
+---------------------------------------------------------- */
+
+.ci2-dna::before {
+  content: "" !important;
+
+  position: absolute !important;
+
+  left: 50% !important;
+  bottom: 5% !important;
+  top: auto !important;
+
+  width: 7px !important;
+  height: 7px !important;
+
+  border-radius: 50% !important;
+
+  transform: translateX(-50%) !important;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 225, 180, 0.9) 38%,
+      transparent 72%
+    ) !important;
+
+  box-shadow:
+    0 0 12px rgba(255, 239, 208, 0.9),
+    0 0 28px rgba(245, 216, 162, 0.52),
+    0 0 48px rgba(111, 166, 255, 0.28) !important;
+
+  opacity: 0;
+
+  z-index: 7 !important;
+  pointer-events: none !important;
+
+  animation: ciLivingPhotonRise 8.4s ease-in-out infinite !important;
+}
+
+/* 2個目の光子をafterで表現 */
+.ci2-dna::after {
+  content: "" !important;
+
+  position: absolute !important;
+
+  left: calc(50% + 13px) !important;
+  bottom: 12% !important;
+  top: auto !important;
+
+  width: 4px !important;
+  height: 4px !important;
+
+  border-radius: 50% !important;
+
+  background: rgba(157, 197, 255, 0.95) !important;
+
+  box-shadow:
+    0 0 10px rgba(157, 197, 255, 0.8),
+    0 0 25px rgba(111, 166, 255, 0.44) !important;
+
+  opacity: 0;
+
+  z-index: 7 !important;
+  pointer-events: none !important;
+
+  animation: ciLivingPhotonRiseSecondary 10.5s ease-in-out infinite !important;
+  animation-delay: -4.2s !important;
+}
+
+@keyframes ciLivingPhotonRise {
+  0% {
+    bottom: 5%;
+    margin-left: -12px;
+    opacity: 0;
+    scale: 0.64;
+  }
+
+  12% {
+    opacity: 1;
+  }
+
+  30% {
+    margin-left: 15px;
+  }
+
+  52% {
+    margin-left: -18px;
+    opacity: 0.92;
+    scale: 1.12;
+  }
+
+  74% {
+    margin-left: 13px;
+  }
+
+  90% {
+    opacity: 0.72;
+  }
+
+  100% {
+    bottom: 94%;
+    margin-left: -8px;
+    opacity: 0;
+    scale: 0.72;
+  }
+}
+
+@keyframes ciLivingPhotonRiseSecondary {
+  0% {
+    bottom: 12%;
+    margin-left: 7px;
+    opacity: 0;
+  }
+
+  14% {
+    opacity: 0.82;
+  }
+
+  40% {
+    margin-left: -17px;
+  }
+
+  68% {
+    margin-left: 15px;
+    opacity: 0.7;
+  }
+
+  100% {
+    bottom: 88%;
+    margin-left: -7px;
+    opacity: 0;
+  }
+}
+
+/* ----------------------------------------------------------
+   5. Ⅰ〜Ⅵノードを連鎖的に脈動
+---------------------------------------------------------- */
+
+.ci2-dna-node {
+  animation: ciLivingNodePulse 7.2s ease-in-out infinite !important;
+}
+
+.ci2-dna-node.node-1 {
+  animation-delay: 0s !important;
+}
+
+.ci2-dna-node.node-2 {
+  animation-delay: -1.2s !important;
+}
+
+.ci2-dna-node.node-3 {
+  animation-delay: -2.4s !important;
+}
+
+.ci2-dna-node.node-4 {
+  animation-delay: -3.6s !important;
+}
+
+.ci2-dna-node.node-5 {
+  animation-delay: -4.8s !important;
+}
+
+.ci2-dna-node.node-6 {
+  animation-delay: -6s !important;
+}
+
+@keyframes ciLivingNodePulse {
+  0%,
+  100% {
+    filter: brightness(0.84);
+    box-shadow:
+      0 0 20px rgba(245, 216, 162, 0.16),
+      0 0 44px rgba(111, 166, 255, 0.08),
+      inset 0 0 20px rgba(255, 255, 255, 0.04);
+  }
+
+  16% {
+    filter: brightness(1.32);
+
+    box-shadow:
+      0 0 30px rgba(255, 224, 178, 0.46),
+      0 0 68px rgba(245, 216, 162, 0.32),
+      0 0 105px rgba(111, 166, 255, 0.2),
+      inset 0 0 28px rgba(255, 255, 255, 0.08);
+  }
+
+  31% {
+    filter: brightness(0.96);
+  }
+}
+
+/* ----------------------------------------------------------
+   6. Episteme CoreとDNAを同期
+---------------------------------------------------------- */
+
+.ci2-dna > .ci2-core {
+  animation: ciLivingCorePulse 7.2s ease-in-out infinite !important;
+}
+
+@keyframes ciLivingCorePulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 30px rgba(245, 216, 162, 0.16),
+      0 0 76px rgba(245, 216, 162, 0.16),
+      0 0 125px rgba(110, 161, 255, 0.09),
+      inset 0 0 42px rgba(255, 255, 255, 0.035);
+  }
+
+  50% {
+    box-shadow:
+      0 0 43px rgba(255, 225, 180, 0.28),
+      0 0 101px rgba(245, 216, 162, 0.25),
+      0 0 166px rgba(110, 161, 255, 0.16),
+      inset 0 0 52px rgba(255, 255, 255, 0.055);
+  }
+}
+
+/* Core内部の柔らかな光 */
+.ci2-dna > .ci2-core::before {
+  animation: ciLivingCoreInner 7.2s ease-in-out infinite !important;
+}
+
+@keyframes ciLivingCoreInner {
+  0%,
+  100% {
+    opacity: 0.4;
+    scale: 0.94;
+  }
+
+  50% {
+    opacity: 0.82;
+    scale: 1.09;
+  }
+}
+
+/* ----------------------------------------------------------
+   7. PC：奥行きを少し強化
+---------------------------------------------------------- */
+
+@media (min-width: 769px) {
+  .ci2-rungs {
+    perspective: 760px !important;
+  }
+
+  .ci2-rung {
+    backface-visibility: visible !important;
+  }
+
+  .ci2-dna-node:nth-of-type(even) {
+    filter: brightness(0.86);
+  }
+}
+
+/* ----------------------------------------------------------
+   8. Mobile：生命感は維持しつつ軽量化
+---------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .ci2-dna-aura {
+    animation-duration: 13s, 28s !important;
+  }
+
+  .ci2-strand {
+    animation-duration: 13s !important;
+  }
+
+  .ci2-rung {
+    animation-duration: 9s !important;
+  }
+
+  .ci2-rung::after {
+    display: none !important;
+  }
+
+  .ci2-rung-end {
+    animation-duration: 7.5s !important;
+  }
+
+  .ci2-dna::before {
+    width: 5px !important;
+    height: 5px !important;
+    animation-duration: 12s !important;
+  }
+
+  .ci2-dna::after {
+    display: none !important;
+  }
+
+  .ci2-dna-node {
+    animation-duration: 10s !important;
+  }
+
+  .ci2-dna > .ci2-core {
+    animation-duration: 10s !important;
+  }
+}
+
+/* ----------------------------------------------------------
+   9. Reduced motion
+---------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .ci2-dna-aura,
+  .ci2-strand,
+  .ci2-rung,
+  .ci2-rung b,
+  .ci2-rung::after,
+  .ci2-rung-end,
+  .ci2-dna::before,
+  .ci2-dna::after,
+  .ci2-dna-node,
+  .ci2-dna > .ci2-core,
+  .ci2-dna > .ci2-core::before {
+    animation: none !important;
+  }
+
+  .ci2-dna::before,
+  .ci2-dna::after {
+    display: none !important;
+  }
+}
