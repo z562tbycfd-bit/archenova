@@ -6,6 +6,8 @@ import {
   IntelligenceLayer,
 } from "@/lib/civilizationIntelligenceBase";
 import CivilizationIntelligenceMotion from "./CivilizationIntelligenceMotion";
+import CivilizationCosmicField from "./CivilizationCosmicField";
+
 
 
 const layers: {
@@ -68,12 +70,15 @@ const layers: {
 
 export default function CivilizationIntelligenceDNA() {
   return (
-    <main className="ci2-page">
-      <CivilizationIntelligenceMotion />
-      <section className="ci2-section">
-        <div className="ci2-space" aria-hidden="true" />
+     <main className="ci2-page">
+ <CivilizationIntelligenceMotion />
 
-        <Reveal>
+ <section className="ci2-section">
+   <CivilizationCosmicField />
+
+   <div className="ci2-space" aria-hidden="true" />
+
+   <Reveal>
           <div className="ci2-shell">
             <header className="ci2-header">
               <span>CIVILIZATION INTELLIGENCE</span>
@@ -89,6 +94,7 @@ export default function CivilizationIntelligenceDNA() {
                 reasons, designs, realizes, and remembers civilization.
               </p>
             </header>
+            
 
             <div className="ci2-stage">
               <div className="ci2-orbit orbit-1" />

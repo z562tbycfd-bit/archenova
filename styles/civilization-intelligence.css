@@ -4156,3 +4156,332 @@
     padding: 0.5rem 1rem !important;
   }
 }
+
+
+
+
+
+
+/* ==========================================================
+   PHASE 1 — LIVING COSMIC FIELD
+   Stars / Nebula / Floating Particles
+========================================================== */
+
+.ci2-section {
+  isolation: isolate !important;
+}
+
+/* 宇宙演出全体 */
+
+.ci2-cosmos {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* ==========================================================
+   Nebula
+========================================================== */
+
+.ci2-nebula {
+  position: absolute;
+  width: min(760px, 62vw);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(100px);
+  mix-blend-mode: screen;
+  opacity: 0.2;
+  transform: translate3d(0, 0, 0);
+
+  animation:
+    ciNebulaBreath 16s ease-in-out infinite,
+    ciNebulaDrift 34s ease-in-out infinite alternate;
+}
+
+.ci2-nebula-blue {
+  left: -14%;
+  top: 4%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(83, 132, 255, 0.3) 0%,
+      rgba(57, 94, 198, 0.13) 36%,
+      transparent 72%
+    );
+}
+
+.ci2-nebula-gold {
+  right: -16%;
+  top: 10%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 211, 151, 0.25) 0%,
+      rgba(191, 138, 73, 0.1) 38%,
+      transparent 72%
+    );
+
+  animation-delay: -6s, -14s;
+}
+
+.ci2-nebula-violet {
+  left: 31%;
+  bottom: -37%;
+  width: min(880px, 70vw);
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(139, 104, 255, 0.2) 0%,
+      rgba(76, 55, 165, 0.08) 42%,
+      transparent 74%
+    );
+
+  animation-delay: -11s, -23s;
+}
+
+@keyframes ciNebulaBreath {
+  0%,
+  100% {
+    opacity: 0.14;
+    transform: scale(0.94);
+  }
+
+  50% {
+    opacity: 0.28;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes ciNebulaDrift {
+  0% {
+    translate: -18px -12px;
+    rotate: -4deg;
+  }
+
+  100% {
+    translate: 24px 18px;
+    rotate: 5deg;
+  }
+}
+
+/* ==========================================================
+   Stars
+========================================================== */
+
+.ci2-star-field {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.ci2-star {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(220, 232, 255, 0.78) 35%,
+      transparent 72%
+    );
+
+  box-shadow:
+    0 0 4px rgba(255, 255, 255, 0.65),
+    0 0 10px rgba(116, 165, 255, 0.25);
+
+  opacity: 0.25;
+  animation: ciStarTwinkle ease-in-out infinite;
+}
+
+.ci2-star:nth-child(3n) {
+  box-shadow:
+    0 0 5px rgba(255, 230, 186, 0.68),
+    0 0 13px rgba(245, 216, 162, 0.26);
+}
+
+.ci2-star:nth-child(5n) {
+  background:
+    radial-gradient(
+      circle,
+      rgba(197, 215, 255, 1) 0%,
+      rgba(115, 162, 255, 0.72) 38%,
+      transparent 74%
+    );
+}
+
+@keyframes ciStarTwinkle {
+  0%,
+  100% {
+    opacity: 0.16;
+    transform: scale(0.72);
+  }
+
+  38% {
+    opacity: 0.78;
+    transform: scale(1.08);
+  }
+
+  64% {
+    opacity: 0.34;
+    transform: scale(0.88);
+  }
+}
+
+/* ==========================================================
+   Floating particles
+========================================================== */
+
+.ci2-particle-field {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.ci2-particle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+
+  background: rgba(255, 236, 202, 0.8);
+
+  box-shadow:
+    0 0 8px rgba(245, 216, 162, 0.48),
+    0 0 18px rgba(107, 158, 255, 0.22);
+
+  opacity: 0;
+  animation: ciParticleDrift linear infinite;
+}
+
+.ci2-particle:nth-child(even) {
+  width: 2px;
+  height: 2px;
+  background: rgba(169, 196, 255, 0.78);
+}
+
+@keyframes ciParticleDrift {
+  0% {
+    transform:
+      translate3d(0, 28px, 0)
+      scale(0.72);
+
+    opacity: 0;
+  }
+
+  14% {
+    opacity: 0.52;
+  }
+
+  72% {
+    opacity: 0.42;
+  }
+
+  100% {
+    transform:
+      translate3d(
+        var(--ci-particle-drift),
+        -110px,
+        0
+      )
+      scale(1.08);
+
+    opacity: 0;
+  }
+}
+
+/* ==========================================================
+   Stage atmospheric depth
+========================================================== */
+
+.ci2-stage {
+  position: relative;
+}
+
+.ci2-stage::before {
+  animation: ciStageAtmosphere 13s ease-in-out infinite;
+}
+
+@keyframes ciStageAtmosphere {
+  0%,
+  100% {
+    opacity: 0.58;
+  }
+
+  50% {
+    opacity: 0.83;
+  }
+}
+
+/* ==========================================================
+   Mobile optimization
+========================================================== */
+
+@media (max-width: 768px) {
+  .ci2-nebula {
+    width: 520px;
+    filter: blur(86px);
+    opacity: 0.14;
+    animation-duration: 24s, 44s;
+  }
+
+  .ci2-nebula-blue {
+    left: -78%;
+    top: 8%;
+  }
+
+  .ci2-nebula-gold {
+    right: -84%;
+    top: 26%;
+  }
+
+  .ci2-nebula-violet {
+    left: -22%;
+    bottom: -14%;
+  }
+
+  .ci2-star-field .ci2-star:nth-child(n + 43) {
+    display: none;
+  }
+
+  .ci2-particle-field .ci2-particle:nth-child(n + 10) {
+    display: none;
+  }
+
+  .ci2-particle {
+    animation-duration: 32s !important;
+  }
+}
+
+/* ==========================================================
+   Reduced motion
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .ci2-nebula,
+  .ci2-star,
+  .ci2-particle,
+  .ci2-stage::before {
+    animation: none !important;
+  }
+
+  .ci2-nebula {
+    opacity: 0.16;
+  }
+
+  .ci2-star {
+    opacity: 0.32;
+  }
+
+  .ci2-particle {
+    display: none;
+  }
+}
