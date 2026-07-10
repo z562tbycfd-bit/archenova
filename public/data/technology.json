@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-07-10T11:54:31.533Z",
+  "updated": "2026-07-10T14:32:19.978Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "The space industry is weighing ambitious hiring against heritage",
+      "url": "https://spacenews.com/the-space-industry-is-weighing-ambitious-hiring-against-heritage/",
+      "summary": "Space is hard, as the decades-old adage goes. For much of the industry’s history, “rocket science” was as much a barrier to entry as a byword for difficulty. But now […] The post The space industry is weighing ambitious …",
+      "ts": 1783692300000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Roche ends Huntington’s gene-silencing programs",
+      "url": "https://www.statnews.com/2026/07/10/biotech-news-roche-ends-huntingtons-gene-silencing-program/?utm_campaign=rss",
+      "summary": "ARPA-H launches bespoke gene therapy push, Lilly and Novo to promote Bridge program, and more biotech news from The Readout",
+      "ts": 1783690537000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about bigger drug discounts in Germany, drugmakers embracing secrecy, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/10/germany-seeks-bigger-drug-discounts-drugmakers-embracing-secrecy/?utm_campaign=rss",
+      "summary": "German lawmakers passed a bill that would more than double the discount on branded medicines drugmakers must provide the government",
+      "ts": 1783689200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 06-10 July 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_06-10_July_2026",
+      "summary": "Week in images: 06-10 July 2026 Discover our week through the lens",
+      "ts": 1783689000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Startup testing nuclear battery technology in orbit",
+      "url": "https://spacenews.com/startup-testing-nuclear-battery-technology-in-orbit/",
+      "summary": "A City Labs mission aims to validate a tritium-powered electrical source for satellites and lunar systems that could operate where solar power falls short The post Startup testing nuclear battery technology in orbit appe…",
+      "ts": 1783688400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space capitalism needs more than a bull market",
+      "url": "https://spacenews.com/space-capitalism-needs-more-than-a-bull-market/",
+      "summary": "By most measures, commercial space is thriving. Washington produced a flurry of activity over the past year: two major executive orders, a raft of directives, and “space superiority” elevated to […] The post Space capita…",
+      "ts": 1783688400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Claude’s inner workings and OpenAI’s “super app”",
+      "url": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anth…",
+      "ts": 1783685400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "New cholera outbreak alert for Sudan’s war-weary communities",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167913",
+      "summary": "In war-torn Sudan, a deadly new cholera outbreak has already claimed more than 100 lives, heightening serious concerns for vulnerable communities including in besieged El-Obeid, where daily drone attacks have continued t…",
+      "ts": 1783684800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Aid cuts leave at least one million women and girls without vital support",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167908",
+      "summary": "At least one million women and girls have lost access to critical humanitarian support since January 2025 as unprecedented aid cuts push women's organizations in crisis zones to the brink of collapse, the UN’s gender equ…",
+      "ts": 1783684800000,
+      "categoryId": "global-governance"
+    },
     {
       "source": "STAT",
       "title": "FDA quietly pushes back deadline on electric shock ban",
@@ -17,6 +89,14 @@
       "summary": "A Japanese startup developing reentry vehicles is signing up customers and preparing for its first mission while keeping a watchful eye on SpaceX’s entry into the market. The post ElevationSpace advances work on commerci…",
       "ts": 1783682714000,
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA-Led Mission Sample ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-led-mission-sample-alps-treated-water-at-fukushima-daiichi-nuclear-power-station-under-additional-measures",
+      "summary": "",
+      "ts": 1783677004000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -574,7 +654,7 @@
       "source": "United Nations News",
       "title": "Remembering the Srebrenica genocide: ‘Fear is all that kept me moving’",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167909",
-      "summary": "The United Nations paused on Wednesday to remember the more than 8,000 Bosnian Muslim men and boys killed in the town of Srebrenica in July 1995, and the women and survivors left to rebuild their lives in the aftermath.",
+      "summary": "The United Nations paused on Thursday to remember the more than 8,000 Bosnian Muslim men and boys killed in the town of Srebrenica in July 1995, and the women and survivors left to rebuild their lives in the aftermath.",
       "ts": 1783598400000,
       "categoryId": "global-governance"
     },
@@ -641,86 +721,6 @@
       "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
       "ts": 1783591200000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "ts": 1783591200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "url": "https://openai.com/index/bio-bug-bounty",
-      "summary": "Details about the OpenAI Bio Bounty program",
-      "ts": 1783591200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AstraZeneca, Ionis report major trial failure with heart disease drug",
-      "url": "https://www.statnews.com/2026/07/09/astrazeneca-ionis-attr-wainua-trial-failure/?utm_campaign=rss",
-      "summary": "AstraZeneca and Ionis reported a notable trial failure Thursday in a heart disease that's become an increasingly competitive market for drugmakers.",
-      "ts": 1783588422000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "What happens on ‘MAHA Monday’?",
-      "url": "https://www.statnews.com/2026/07/09/maha-mondays-great-american-state-fair-status-report-alex-hogan/?utm_campaign=rss",
-      "summary": "STAT's Alex Hogan and Chelsea Cirruzzo stopped by \"MAHA Monday\" at the Great American State Fair. Watch their report in this week's STATus Report.",
-      "ts": 1783585800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The quest to save Grace — and clear the way for rare disease patients everywhere",
-      "url": "https://www.statnews.com/2026/07/09/matt-wilsey-grace-science-rare-disease-drug-development-ngly1/?utm_campaign=rss",
-      "summary": "How a father’s quest may shape the future of rare disease gene therapy.",
-      "ts": 1783585800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Who benefits from classifying obesity as a disease?",
-      "url": "https://www.statnews.com/2026/07/09/obesity-disease-classification-glp-1-eli-lilly-novo-nordisk/?utm_campaign=rss",
-      "summary": "“The new wave of obesity pharmacotherapy has leaned heavily on disease framing,” writes Max Moser, drawing comparisons to the antidepressant revolution.",
-      "ts": 1783585800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Your grandparents are using cannabis. Doctors can help them do it safely",
-      "url": "https://www.statnews.com/2026/07/09/cannabis-seniors-medical-marijuana-legal-thc-cbd-chronic-pain/?utm_campaign=rss",
-      "summary": "Over the past 25 years, I have treated thousands of medical cannabis patients with extremely few ill effects, one doctor writes.",
-      "ts": 1783585800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Four nuclear reactors hit a big milestone in the US",
-      "url": "https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/",
-      "summary": "I was really looking forward to July 4, and not just because I love a poolside barbecue. This year the American holiday also marked a big symbolic deadline for US nuclear power. Last year the Trump administration set a g…",
-      "ts": 1783584000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Super Typhoon Bavi",
-      "url": "https://science.nasa.gov/earth/earth-observatory/super-typhoon-bavi/",
-      "summary": "The third category 5 tropical cyclone of 2026 crossed the U.S. Northern Mariana Islands and Guam before continuing toward Asia.",
-      "ts": 1783569660000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Towards a Pseudo-Labeling Workflow for Celltype-Classification from Explanted Brain Slice Recordings",
-      "url": "https://arxiv.org/abs/2607.06569",
-      "summary": "arXiv:2607.06569v1 Announce Type: new Abstract: This paper proposes an unsupervised workflow to pseudo-label extracellular spikes from human brain slice MEA recordings into two putative cell types: pyramidal cells and in…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
