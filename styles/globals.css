@@ -28844,3 +28844,103 @@ line-height:1.75;
     box-shadow: none !important;
   }
 }
+
+
+
+
+
+
+
+
+/* ==========================================================
+   CI — PC Frame Fit Final Override
+========================================================== */
+
+@media (min-width: 769px) {
+  .ci2-section {
+    height: 100svh !important;
+    min-height: 100svh !important;
+    max-height: 100svh !important;
+    padding: 1.2rem 0 !important;
+    overflow: hidden !important;
+  }
+
+  .ci2-shell {
+    width: min(1160px, 92vw) !important;
+    height: 96svh !important;
+    max-height: 96svh !important;
+    display: grid !important;
+    grid-template-rows: auto minmax(0, 1fr) auto !important;
+    gap: 0.75rem !important;
+    overflow: hidden !important;
+  }
+
+  .ci2-header h1 {
+    font-size: clamp(2rem, 3.6vw, 4rem) !important;
+  }
+
+  .ci2-header p {
+    font-size: 0.78rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .ci2-stage {
+    height: 100% !important;
+    max-height: none !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .ci2-dna {
+    width: 260px !important;
+    height: 520px !important;
+  }
+
+  .ci2-core {
+    width: 210px !important;
+    height: 210px !important;
+  }
+
+  .ci2-card {
+    width: 235px !important;
+    min-height: 210px !important;
+    max-height: 210px !important;
+    padding: 0.95rem !important;
+  }
+
+  .ci2-card.card-1,
+  .ci2-card.card-3,
+  .ci2-card.card-5 {
+    left: 3% !important;
+  }
+
+  .ci2-card.card-2,
+  .ci2-card.card-4,
+  .ci2-card.card-6 {
+    right: 3% !important;
+  }
+
+  .ci2-card.card-1,
+  .ci2-card.card-2 {
+    top: 4% !important;
+  }
+
+  .ci2-card.card-3,
+  .ci2-card.card-4 {
+    top: 35% !important;
+  }
+
+  .ci2-card.card-5,
+  .ci2-card.card-6 {
+    top: 66% !important;
+  }
+
+  .ci2-items {
+    max-height: 58px !important;
+  }
+
+  .ci2-back {
+    padding: 0.68rem 1rem !important;
+    font-size: 0.7rem !important;
+  }
+}
