@@ -28764,3 +28764,83 @@ line-height:1.75;
     white-space: nowrap !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   HOME — Remove Double Outer Frames
+   PC / Mobile Common
+========================================================== */
+
+/* 外側に重なって見える不要な疑似枠を停止 */
+.home-page::before,
+.home-page::after,
+.twin-page::before,
+.twin-page::after,
+[data-home-section]::before,
+[data-home-section]::after {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* HOME各セクションの外側フレーム感を消す */
+.home-page,
+.twin-page,
+[data-home-section] {
+  outline: none !important;
+}
+
+/* 本体側の1枚枠だけを残す */
+.an-glass,
+.an-card,
+.an-frame,
+.civ-intel-portal,
+.civ-library-shell,
+.an-galaxy-stage,
+.an-galaxy-map,
+#home-hero .an-container,
+#origin-gate .an-container {
+  position: relative;
+}
+
+/* セクション内で二重化している外側ボーダーを無効化 */
+.archenova-twin-home .home-page {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* ページ枠は内側カード側のみで表現 */
+.archenova-twin-home .an-container,
+.archenova-twin-home .civ-intel-portal,
+.archenova-twin-home .civ-library-shell,
+.archenova-twin-home .an-galaxy-stage {
+  border-color: rgba(255,255,255,0.08) !important;
+}
+
+/* モバイルでも同様に二重枠を撤去 */
+@media (max-width: 768px) {
+  .home-page::before,
+  .home-page::after,
+  .twin-page::before,
+  .twin-page::after,
+  [data-home-section]::before,
+  [data-home-section]::after {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .archenova-twin-home .home-page {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
