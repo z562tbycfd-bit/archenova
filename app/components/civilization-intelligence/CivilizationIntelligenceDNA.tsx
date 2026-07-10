@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import Link from "next/link";
 import Reveal from "../Reveal";
 import {
@@ -95,15 +96,35 @@ export default function CivilizationIntelligenceDNA() {
               <div className="ci2-orbit orbit-3" />
 
               <div className="ci2-dna" aria-hidden="true">
-                <span className="ci2-strand strand-left" />
-                <span className="ci2-strand strand-right" />
+  <div className="ci2-dna-aura" />
 
-                {layers.map((layer, index) => (
-                  <i key={layer.no} className={`ci2-dna-node node-${index + 1}`}>
-                    {layer.no}
-                  </i>
-                ))}
-              </div>
+  <span className="ci2-strand strand-left" />
+  <span className="ci2-strand strand-right" />
+
+  <div className="ci2-rungs">
+    {Array.from({ length: 18 }).map((_, index) => (
+      <span
+        key={index}
+        className={`ci2-rung ci2-rung-${index + 1}`}
+        style={
+          {
+            "--rung-index": index,
+          } as CSSProperties
+        }
+        >
+        <i className="ci2-rung-end ci2-rung-end-left" />
+        <b />
+        <i className="ci2-rung-end ci2-rung-end-right" />
+      </span>
+    ))}
+  </div>
+
+  {layers.map((layer, index) => (
+    <i key={layer.no} className={`ci2-dna-node node-${index + 1}`}>
+      {layer.no}
+    </i>
+  ))}
+</div>
 
               <div className="ci2-core">
                 <span>Episteme</span>

@@ -3240,3 +3240,347 @@
     transition: none !important;
   }
 }
+
+
+/* ==========================================================
+   CI — True Double Helix with Luminous Rungs
+========================================================== */
+
+.ci2-dna {
+  --dna-height: 520px;
+  --dna-width: 260px;
+  --dna-rung-count: 18;
+
+  position: absolute;
+  isolation: isolate;
+  transform-style: preserve-3d;
+}
+
+/* DNA全体の発光領域 */
+.ci2-dna-aura {
+  position: absolute;
+  inset: -8% -24%;
+  z-index: -4;
+  pointer-events: none;
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 20%,
+      rgba(112, 168, 255, 0.24),
+      transparent 22%
+    ),
+    radial-gradient(
+      ellipse at 50% 48%,
+      rgba(245, 216, 162, 0.22),
+      transparent 31%
+    ),
+    radial-gradient(
+      ellipse at 50% 76%,
+      rgba(157, 121, 255, 0.18),
+      transparent 24%
+    );
+
+  filter: blur(26px);
+  opacity: 0.9;
+}
+
+/* 左右の主鎖 */
+.ci2-strand {
+  z-index: 3 !important;
+  width: 118px !important;
+  border-width: 1.4px !important;
+
+  border-color: rgba(255, 226, 183, 0.56) !important;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(120, 177, 255, 0.08),
+      rgba(245, 216, 162, 0.08),
+      rgba(166, 128, 255, 0.07),
+      rgba(245, 216, 162, 0.08)
+    );
+
+  box-shadow:
+    0 0 12px rgba(255, 225, 180, 0.28),
+    0 0 32px rgba(245, 216, 162, 0.18),
+    0 0 66px rgba(112, 165, 255, 0.13),
+    inset 0 0 18px rgba(255, 255, 255, 0.04) !important;
+}
+
+/* 横桟の格納層 */
+.ci2-rungs {
+  position: absolute;
+  inset: 4% 0;
+  z-index: 2;
+  pointer-events: none;
+  transform-style: preserve-3d;
+}
+
+/* 横桟1本 */
+.ci2-rung {
+  --phase: calc(var(--rung-index) * 34deg);
+
+  position: absolute;
+  left: 50%;
+  top: calc(
+    var(--rung-index) * (100% / var(--dna-rung-count))
+  );
+
+  width: 124px;
+  height: 12px;
+
+  display: grid;
+  grid-template-columns: 9px minmax(0, 1fr) 9px;
+  align-items: center;
+
+  transform:
+    translateX(-50%)
+    rotateY(var(--phase))
+    rotateZ(
+      calc(
+        sin(var(--phase)) * 13deg
+      )
+    );
+
+  transform-origin: center;
+  transform-style: preserve-3d;
+
+  opacity: calc(
+    0.48 + (cos(var(--phase)) * 0.34)
+  );
+}
+
+/*
+  一部ブラウザでCSS sin()/cos()が使えない場合にも
+  横桟自体は表示されるよう、下で個別角度を上書きします。
+*/
+.ci2-rung b {
+  display: block;
+  width: 100%;
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(114, 172, 255, 0.62),
+      rgba(255, 255, 255, 0.94) 46%,
+      rgba(255, 224, 177, 0.88) 54%,
+      rgba(245, 216, 162, 0.55)
+    );
+
+  box-shadow:
+    0 0 7px rgba(255, 255, 255, 0.54),
+    0 0 14px rgba(245, 216, 162, 0.36),
+    0 0 25px rgba(111, 166, 255, 0.18);
+}
+
+/* 横桟両端の塩基結合点 */
+.ci2-rung-end {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle at 35% 30%,
+      rgba(255, 255, 255, 0.96),
+      rgba(255, 225, 180, 0.78) 38%,
+      rgba(4, 8, 18, 0.94) 76%
+    );
+
+  border: 1px solid rgba(255, 229, 190, 0.45);
+
+  box-shadow:
+    0 0 9px rgba(245, 216, 162, 0.5),
+    0 0 18px rgba(110, 165, 255, 0.2);
+}
+
+.ci2-rung-end-left {
+  justify-self: start;
+}
+
+.ci2-rung-end-right {
+  justify-self: end;
+}
+
+/* 二重らせんとして見えるよう横桟を交互に傾ける */
+.ci2-rung-1  { transform: translateX(-50%) rotateY(0deg) rotateZ(0deg); opacity: 1; }
+.ci2-rung-2  { transform: translateX(-50%) rotateY(34deg) rotateZ(7deg); opacity: .82; }
+.ci2-rung-3  { transform: translateX(-50%) rotateY(68deg) rotateZ(12deg); opacity: .58; }
+.ci2-rung-4  { transform: translateX(-50%) rotateY(102deg) rotateZ(10deg); opacity: .42; }
+.ci2-rung-5  { transform: translateX(-50%) rotateY(136deg) rotateZ(5deg); opacity: .66; }
+.ci2-rung-6  { transform: translateX(-50%) rotateY(170deg) rotateZ(0deg); opacity: .96; }
+
+.ci2-rung-7  { transform: translateX(-50%) rotateY(204deg) rotateZ(-7deg); opacity: .78; }
+.ci2-rung-8  { transform: translateX(-50%) rotateY(238deg) rotateZ(-12deg); opacity: .52; }
+.ci2-rung-9  { transform: translateX(-50%) rotateY(272deg) rotateZ(-10deg); opacity: .4; }
+.ci2-rung-10 { transform: translateX(-50%) rotateY(306deg) rotateZ(-5deg); opacity: .68; }
+.ci2-rung-11 { transform: translateX(-50%) rotateY(340deg) rotateZ(0deg); opacity: .94; }
+
+.ci2-rung-12 { transform: translateX(-50%) rotateY(374deg) rotateZ(7deg); opacity: .82; }
+.ci2-rung-13 { transform: translateX(-50%) rotateY(408deg) rotateZ(12deg); opacity: .56; }
+.ci2-rung-14 { transform: translateX(-50%) rotateY(442deg) rotateZ(10deg); opacity: .42; }
+.ci2-rung-15 { transform: translateX(-50%) rotateY(476deg) rotateZ(5deg); opacity: .66; }
+.ci2-rung-16 { transform: translateX(-50%) rotateY(510deg) rotateZ(0deg); opacity: .96; }
+.ci2-rung-17 { transform: translateX(-50%) rotateY(544deg) rotateZ(-7deg); opacity: .76; }
+.ci2-rung-18 { transform: translateX(-50%) rotateY(578deg) rotateZ(-12deg); opacity: .52; }
+
+/* 横桟にエネルギーが流れる演出 */
+.ci2-rung::after {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: 50%;
+
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+
+  transform: translateY(-50%);
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 246, 220, 0.98),
+      transparent
+    );
+
+  filter: blur(0.3px);
+
+  box-shadow:
+    0 0 9px rgba(255, 235, 196, 0.8),
+    0 0 20px rgba(112, 170, 255, 0.38);
+
+  animation: ciRungEnergyFlow 4.8s ease-in-out infinite;
+  animation-delay: calc(var(--rung-index) * -0.19s);
+}
+
+@keyframes ciRungEnergyFlow {
+  0%,
+  100% {
+    left: 10px;
+    opacity: 0;
+  }
+
+  18% {
+    opacity: 0.95;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  100% {
+    left: calc(100% - 29px);
+    opacity: 0;
+  }
+}
+
+/* ノードをDNAの最前面へ */
+.ci2-dna-node {
+  z-index: 6 !important;
+}
+
+/* 中央核はさらに前面 */
+.ci2-core {
+  z-index: 9 !important;
+}
+
+/* ==========================================================
+   Desktop: 横桟の見え方を強化
+========================================================== */
+
+@media (min-width: 769px) {
+  .ci2-rungs {
+    perspective: 700px;
+  }
+
+  .ci2-rung {
+    backface-visibility: visible;
+  }
+
+  .ci2-rung:nth-child(3n + 1) b {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(110, 169, 255, 0.62),
+        rgba(235, 243, 255, 0.96),
+        rgba(255, 224, 176, 0.82)
+      );
+  }
+
+  .ci2-rung:nth-child(3n + 2) b {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(167, 129, 255, 0.5),
+        rgba(255, 255, 255, 0.94),
+        rgba(245, 216, 162, 0.75)
+      );
+  }
+
+  .ci2-rung:nth-child(3n) b {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(245, 216, 162, 0.62),
+        rgba(255, 249, 234, 0.98),
+        rgba(111, 166, 255, 0.62)
+      );
+  }
+}
+
+/* ==========================================================
+   Mobile: DNAを保ちながら軽量化
+========================================================== */
+
+@media (max-width: 768px) {
+  .ci2-rungs {
+    inset: 5% 0;
+  }
+
+  .ci2-rung {
+    width: 92px;
+    height: 9px;
+  }
+
+  .ci2-rung-end {
+    width: 5px;
+    height: 5px;
+  }
+
+  .ci2-rung b {
+    box-shadow:
+      0 0 5px rgba(255, 255, 255, 0.44),
+      0 0 11px rgba(245, 216, 162, 0.25);
+  }
+
+  .ci2-rung::after {
+    display: none;
+  }
+
+  .ci2-dna-aura {
+    opacity: 0.55;
+    filter: blur(19px);
+  }
+}
+
+/* ==========================================================
+   Reduced Motion
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .ci2-rung::after {
+    animation: none !important;
+    display: none;
+  }
+}
+
+.ci2-dna::before,
+.ci2-dna::after {
+  z-index: -3 !important;
+  pointer-events: none !important;
+}
