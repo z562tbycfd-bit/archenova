@@ -111,7 +111,7 @@ export default function CivilizationIntelligenceDNA() {
             "--rung-index": index,
           } as CSSProperties
         }
-        >
+      >
         <i className="ci2-rung-end ci2-rung-end-left" />
         <b />
         <i className="ci2-rung-end ci2-rung-end-right" />
@@ -124,21 +124,23 @@ export default function CivilizationIntelligenceDNA() {
       {layer.no}
     </i>
   ))}
-</div>
 
-              <div className="ci2-core">
-                <span>Episteme</span>
-                <strong>
-                  Civilization
-                  <br />
-                  Intelligence
-                </strong>
-                <p>
-                  Observe → Understand → Reason
-                  <br />
-                  Design → Realize → Remember
-                </p>
-              </div>
+  <div className="ci2-core">
+    <span>Episteme</span>
+
+    <strong>
+      Civilization
+      <br />
+      Intelligence
+    </strong>
+
+    <p>
+      Observe → Understand → Reason
+      <br />
+      Design → Realize → Remember
+    </p>
+  </div>
+</div>
 
               <div className="ci2-cards">
                 {layers.map((layer, index) => {

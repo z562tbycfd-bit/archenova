@@ -3584,3 +3584,66 @@
   z-index: -3 !important;
   pointer-events: none !important;
 }
+
+
+
+/* ==========================================================
+   CI — Core Locked Inside DNA
+   PC / Mobile Common
+========================================================== */
+
+.ci2-dna {
+  position: absolute;
+  isolation: isolate;
+}
+
+.ci2-dna > .ci2-core {
+  position: absolute !important;
+
+  left: 50% !important;
+  top: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+
+  margin: 0 !important;
+
+  transform:
+    translate(-50%, -50%)
+    translateZ(80px) !important;
+
+  transform-origin: center !important;
+  z-index: 20 !important;
+}
+
+/* PC */
+@media (min-width: 769px) {
+  .ci2-dna > .ci2-core {
+    width: 210px !important;
+    height: 210px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .ci2-dna {
+    position: relative !important;
+  }
+
+  .ci2-dna > .ci2-core {
+    display: grid !important;
+
+    left: 50% !important;
+    top: 54% !important;
+
+    width: 134px !important;
+    height: 134px !important;
+
+    padding: 0.8rem !important;
+
+    transform: translate(-50%, -50%) !important;
+    translate: none !important;
+    scale: 1 !important;
+
+    box-sizing: border-box !important;
+  }
+}
