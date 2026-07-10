@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-10T04:53:57.556Z",
+  "updated": "2026-07-10T08:24:47.122Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "US pushes for weaker truck pollution rules",
+      "url": "https://phys.org/news/2026-07-weaker-truck-pollution.html",
+      "summary": "President Donald Trump's administration on Thursday moved to loosen truck pollution regulations put in place by his predecessor, Joe Biden, in its latest environmental rollback benefiting makers of fossil fuel-burning ve…",
+      "ts": 1783671602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "H5 bird flu detected in Australian seabird for first time",
+      "url": "https://phys.org/news/2026-07-h5-bird-flu-australian-seabird.html",
+      "summary": "Scientists have detected the highly contagious H5 bird flu in an Australian seabird for the first time, the government said Friday.",
+      "ts": 1783671001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Capturing the cosmic 'drift' before a star is born",
+      "url": "https://phys.org/news/2026-07-capturing-cosmic-drift-star-born.html",
+      "summary": "Stars like our sun are formed from the collapse of stellar objects called prestellar cores, cold and dense concentrations of gas and dust held together by gravity. While many questions remain about the exact mechanisms o…",
+      "ts": 1783670402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wally Funk, aviation pioneer who was the oldest woman to travel into space, dies at 87",
+      "url": "https://phys.org/news/2026-07-wally-funk-aviation-oldest-woman.html",
+      "summary": "Wally Funk, an aviation pioneer who was the oldest woman to launch into space, has died. She was 87.",
+      "ts": 1783670248000
+    },
     {
       "source": "arXiv Physics",
       "title": "Phase-space structure and nonlinear dynamics of a charged particle on a helicoidal manifold under a magnetic field",
@@ -672,34 +700,6 @@
       "title": "Using covariance of node states to design early warning signals for network dynamics",
       "url": "https://arxiv.org/abs/2505.15982",
       "summary": "arXiv:2505.15982v2 Announce Type: replace Abstract: Real-life systems often experience regime shifts. An early warning signal (EWS) is a quantity that attempts to anticipate such a regime shift. Because complex systems o…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mapping fat-water separated R1, R2*, and proton density fat fraction with the multi-echo MP2RAGE sequence",
-      "url": "https://arxiv.org/abs/2509.23136",
-      "summary": "arXiv:2509.23136v2 Announce Type: replace Abstract: Purpose: To develop a technique for joint measurement of fat and water-specific longitudinal relaxation rates (R1f and R1w), effective transverse relaxation rate (R2*),…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mapping the strong-to-weak coupling crossover in polymer-film microcavity lasers",
-      "url": "https://arxiv.org/abs/2510.13384",
-      "summary": "arXiv:2510.13384v3 Announce Type: replace Abstract: Organic semiconductors are particularly attractive for polaritonics due to their large exciton binding energies and oscillator strengths. Among them, the ladder-type co…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Active control of the peak value of the Hanbury Brown-Twiss effect using coherent light by lensless holographic projection",
-      "url": "https://arxiv.org/abs/2510.20421",
-      "summary": "arXiv:2510.20421v2 Announce Type: replace Abstract: Computer-generated holography enables projection of target patterns onto designated planes, providing deterministic control over the probability density function of the…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determination of atomic number density in MEMS vapor cells via single-pass absorption spectroscopy (SPAS)",
-      "url": "https://arxiv.org/abs/2511.00526",
-      "summary": "arXiv:2511.00526v3 Announce Type: replace Abstract: Micro-electro-mechanical systems (MEMS)-based (chip-scale) alkali vapor cells are key components in emerging quantum technologies, where device performance critically d…",
       "ts": 1783656000000
     }
   ],

@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-10T04:53:59.580Z",
+  "updated": "2026-07-10T08:24:49.656Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Great Bear Lake, Canada",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Great_Bear_Lake_Canada",
+      "summary": "Image: The Copernicus Sentinel-2 mission captures Canada’s Great Bear Lake in striking colours.",
+      "ts": 1783670400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "China becomes second country to recover orbital booster with Long March 10B",
+      "url": "https://spacenews.com/china-becomes-second-country-to-recover-orbital-booster-with-long-march-10b/",
+      "summary": "HELSINKI — China launched its Long March 10B rocket early Friday and successfully recovered the first stage, marking a huge step for the country’s reusable rocket efforts. The first Long […] The post China becomes second…",
+      "ts": 1783666542000,
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "Where Venezuela’s Earthquakes Shifted the Ground",
@@ -703,22 +719,6 @@
       "title": "A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling",
       "url": "https://arxiv.org/abs/2607.07666",
       "summary": "arXiv:2607.07666v1 Announce Type: new Abstract: Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their stateless architecture fundamentally limits deployment in long-horizon research workfl…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Rethinking the Choice Behavior of Sugar Metabolism in Bacteria",
-      "url": "https://arxiv.org/abs/2607.07677",
-      "summary": "arXiv:2607.07677v1 Announce Type: new Abstract: Ramkrishna, Kompala, and Tsao proposed the cybernetic model of microbial growth, in which cells allocate enzyme synthesis resources according to a matching rule that mimics…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reward Valuation in Vision Language Models: Causal Mechanisms Underlying Anhedonia",
-      "url": "https://arxiv.org/abs/2607.06626",
-      "summary": "arXiv:2607.06626v1 Announce Type: cross Abstract: Recent Vision-Language Models capture increasingly complex aspects of human cognition. Here we ask whether this alignment extends to reward valuation, which we assess in …",
       "ts": 1783569600000,
       "categoryId": "bio"
     }
