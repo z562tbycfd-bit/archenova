@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-10T08:24:47.122Z",
+  "updated": "2026-07-10T11:54:28.615Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers link the mass extinction of once-dominant marine groups to intolerable heat, diminished oxygen in oceans",
+      "url": "https://phys.org/news/2026-07-link-mass-extinction-dominant-marine.html",
+      "summary": "A new Stanford-led study offers the clearest picture yet of how some ocean life survived our planet's biggest mass extinction while most animals did not. About 252 million years ago, 96% of marine species and 70% of land…",
+      "ts": 1783683729000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Darwin's 150‑year‑old hillside steps mystery may have a new answer from virtual grazing animals",
+      "url": "https://phys.org/news/2026-07-darwin-150yearold-hillside-mystery-virtual.html",
+      "summary": "Steep hillsides and mountainsides in many regions worldwide are often covered in characteristic step-like patterns, also known as terracettes. These repeating landforms have fascinated scientists for more than a century,…",
+      "ts": 1783683001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study underscores barriers for male survivor support",
+      "url": "https://phys.org/news/2026-07-underscores-barriers-male-survivor.html",
+      "summary": "Male survivors of intimate partner violence are less likely to seek help than female survivors, according to new research from Michigan State University's School of Social Work. As a result, these cases of intimate partn…",
+      "ts": 1783681201000
+    },
     {
       "source": "Phys.org",
       "title": "US pushes for weaker truck pollution rules",
@@ -679,27 +700,6 @@
       "title": "Water flow model on vegetated hillslopes with erosion",
       "url": "https://arxiv.org/abs/2408.12465",
       "summary": "arXiv:2408.12465v2 Announce Type: replace Abstract: The water circulation in the Soil-Plant-Atmosphere continuum and particularly the soil erosion induced by water are problems of main concern in the new era of climate c…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Earth's Infrared Background: A Physics-Based Null Hypothesis for the Global-Scale Subannual Variability of Outgoing Longwave Radiation",
-      "url": "https://arxiv.org/abs/2503.05288",
-      "summary": "arXiv:2503.05288v4 Announce Type: replace Abstract: Much of the Outgoing Longwave Radiation (OLR) emitted to space can be described as a noisy \"background\" of random variability. A rigorous characterization of this backg…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma-state metasurfaces for ultra-intensive field manipulation",
-      "url": "https://arxiv.org/abs/2505.15567",
-      "summary": "arXiv:2505.15567v2 Announce Type: replace Abstract: High-power lasers offer ultrahigh intensities for plasma interactions, but they lack advanced techniques to control the properties of the fields, because no optical ele…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Using covariance of node states to design early warning signals for network dynamics",
-      "url": "https://arxiv.org/abs/2505.15982",
-      "summary": "arXiv:2505.15982v2 Announce Type: replace Abstract: Real-life systems often experience regime shifts. An early warning signal (EWS) is a quantity that attempts to anticipate such a regime shift. Because complex systems o…",
       "ts": 1783656000000
     }
   ],

@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-07-10T08:24:49.656Z",
+  "updated": "2026-07-10T11:54:31.533Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "FDA quietly pushes back deadline on electric shock ban",
+      "url": "https://www.statnews.com/2026/07/10/health-news-fda-quietly-pushes-back-deadline-on-electric-shock-ban/?utm_campaign=rss",
+      "summary": "Massachusetts' biggest nursing strike ever, tackling the male loneliness epidemic, and other health news for Morning Rounds",
+      "ts": 1783684312000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "ElevationSpace advances work on commercial reentry vehicle",
+      "url": "https://spacenews.com/elevationspace-advances-work-on-commercial-reentry-vehicle/",
+      "summary": "A Japanese startup developing reentry vehicles is signing up customers and preparing for its first mission while keeping a watchful eye on SpaceX’s entry into the market. The post ElevationSpace advances work on commerci…",
+      "ts": 1783682714000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Sperm donors need limits, says a European fertility group",
+      "url": "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group/",
+      "summary": "Ties van der Meer doesn’t know how many siblings he has. The 47-year-old was conceived at a private fertility clinic in the Netherlands using sperm provided by an anonymous donor. After the Netherlands banned anonymous d…",
+      "ts": 1783674000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: How a Boston doctor built a following as a ‘loud and unafraid’ voice in the Trump era",
+      "url": "https://www.statnews.com/2026/07/10/jeremy-faust-inside-medicine-trump-era/?utm_campaign=rss",
+      "summary": "Jeremy Faust saves lives in the ER and breaks stories with his Inside Medicine newsletter. He’s also testing the bounds of news reporting.",
+      "ts": 1783672200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "New York boys club has a time-tested recipe to protect members’ mental health",
+      "url": "https://www.statnews.com/2026/07/10/bcny-approach-boys-mental-health-connection-belonging-mentors/?utm_campaign=rss",
+      "summary": "At a time when attention is deservedly being turned to the mental health crisis in boys, the Boys' Club of New York is a shelter from the storm for many…",
+      "ts": 1783672200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The primary care crisis paradox",
+      "url": "https://www.statnews.com/2026/07/10/primary-care-data-pcps-health-care-crisis-investment/?utm_campaign=rss",
+      "summary": "“Solving the health crisis in the United States will require confronting things far harder than readjusting a fee schedule.”",
+      "ts": 1783672200000,
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Earth from Space: Great Bear Lake, Canada",
@@ -9,6 +57,14 @@
       "summary": "Image: The Copernicus Sentinel-2 mission captures Canada’s Great Bear Lake in striking colours.",
       "ts": 1783670400000,
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "ts": 1783666800000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -177,6 +233,22 @@
       "summary": "arXiv:2607.06629v2 Announce Type: replace-cross Abstract: Brain age - the age inferred from a physiological recording - is an emerging biomarker whose deviation from chronological age tracks neurological and psychiatric …",
       "ts": 1783656000000,
       "categoryId": "bio"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Managing the impacts of EU electric vehicle import tariffs",
+      "url": "https://www.nature.com/articles/s41560-026-02102-w",
+      "summary": "",
+      "ts": 1783641600000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Distributional impacts of EU tariffs on Chinese electric vehicles across European markets",
+      "url": "https://www.nature.com/articles/s41560-026-02105-7",
+      "summary": "",
+      "ts": 1783641600000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "SpaceNews",
@@ -564,6 +636,14 @@
     },
     {
       "source": "OpenAI",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "ts": 1783591200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
       "title": "ChatGPT is now a partner for your most ambitious work",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
@@ -575,14 +655,6 @@
       "title": "GPT-5.5 Bio Bug Bounty",
       "url": "https://openai.com/index/bio-bug-bounty",
       "summary": "Details about the OpenAI Bio Bounty program",
-      "ts": 1783591200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "url": "https://openai.com/index/gpt-5-6",
-      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
       "ts": 1783591200000,
       "categoryId": "ai-compute"
     },
@@ -647,78 +719,6 @@
       "title": "Towards a Pseudo-Labeling Workflow for Celltype-Classification from Explanted Brain Slice Recordings",
       "url": "https://arxiv.org/abs/2607.06569",
       "summary": "arXiv:2607.06569v1 Announce Type: new Abstract: This paper proposes an unsupervised workflow to pseudo-label extracellular spikes from human brain slice MEA recordings into two putative cell types: pyramidal cells and in…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Esports and Physiological Tremor a StarCraft 2 Tournament Study",
-      "url": "https://arxiv.org/abs/2607.06577",
-      "summary": "arXiv:2607.06577v1 Announce Type: new Abstract: Physiological tremor of the upper limb is a sensitive neuromuscular indicator that may be modulated by cognitive load and competitive stress, yet its behaviour in real espo…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Recovering Candidate Circadian Regulators of Arrhythmic Pituitary Hormone Genes Using Reliability-Weighted Magnetic Laplacian with rwMagLap",
-      "url": "https://arxiv.org/abs/2607.06579",
-      "summary": "arXiv:2607.06579v1 Announce Type: new Abstract: We study how to recover candidate circadian-clock regulators of pituitary hormone genes that are important for women's health but do not show a clear 24-hour rhythm in bulk…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Trajectory Inference of Human Aging from Cross-Sectional DNA Methylation Data",
-      "url": "https://arxiv.org/abs/2607.06583",
-      "summary": "arXiv:2607.06583v1 Announce Type: new Abstract: DNA methylation (DNAm) serves as one of the most robust molecular biomarkers of biological aging. While conventional epigenetic clocks accurately predict chronological age …",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Polynomial encoding of rooted trees with branch lengths",
-      "url": "https://arxiv.org/abs/2607.06591",
-      "summary": "arXiv:2607.06591v1 Announce Type: new Abstract: Phylogenetic trees are rooted trees with branch lengths that record genetic divergence or elapsed time, and quantifying differences between them is central to a wide range …",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Selection Mechanisms, Stationary Distributions, and Reversibility in Multiallelic Moran Models",
-      "url": "https://arxiv.org/abs/2607.06732",
-      "summary": "arXiv:2607.06732v1 Announce Type: new Abstract: The Moran process with selection and recurrent mutation is a classical model in population genetics, yet how the placement of selection within the update rule shapes the st…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Enhanced sampling and cryo-EM data resolve magnesium binding to RNA",
-      "url": "https://arxiv.org/abs/2607.07186",
-      "summary": "arXiv:2607.07186v1 Announce Type: new Abstract: Magnesium ions are essential for RNA structure but difficult to model due to slow binding kinetics and experimental limitations. We present an enhanced-sampling strategy th…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bayesian Learning of Distance Metrics Beyond RMSD for Biomolecule Alignment, Clustering, and Domain Identification",
-      "url": "https://arxiv.org/abs/2607.07352",
-      "summary": "arXiv:2607.07352v1 Announce Type: new Abstract: Root-mean-square deviation (RMSD) is the standard metric of structural comparison in molecular dynamics (MD) simulations. In its conventional form, RMSD assigns equal weigh…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reliable mechanistic operator recovery with biologically-informed neural networks: principles for architecture and optimisation design",
-      "url": "https://arxiv.org/abs/2607.07425",
-      "summary": "arXiv:2607.07425v1 Announce Type: new Abstract: Many biological processes are governed by complex dynamical mechanisms that remain incompletely understood despite increasing volumes of experimental data. Biologically-inf…",
-      "ts": 1783569600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling",
-      "url": "https://arxiv.org/abs/2607.07666",
-      "summary": "arXiv:2607.07666v1 Announce Type: new Abstract: Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their stateless architecture fundamentally limits deployment in long-horizon research workfl…",
       "ts": 1783569600000,
       "categoryId": "bio"
     }
