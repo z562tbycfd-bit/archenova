@@ -1,13 +1,37 @@
 {
   "ok": true,
-  "updated": "2026-07-10T14:32:19.978Z",
+  "updated": "2026-07-10T16:58:00.446Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Macrophage Membrane-Derived Nanoparticles Shows Potential Against Candida Infections",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/macrophage-membrane-derived-nanoparticles-shows-potential-against-candida-infections/",
+      "summary": "By coating biodegradable nanoparticles with macrophage membranes, scientists developed a targeted antifungal delivery platform that increased drug accumulation at infection sites and improved treatment efficacy in precli…",
+      "ts": 1783701652000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Waxing Gibbous Moon",
+      "url": "https://www.nasa.gov/image-article/waxing-gibbous-moon-6/",
+      "summary": "The waxing gibbous moon is nestled in the darkness of space in this June 26, 2026, image from the International Space Station. The space station was 264 miles above the Indian Ocean southeast of Madagascar at the time. T…",
+      "ts": 1783696139000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "The space industry is weighing ambitious hiring against heritage",
       "url": "https://spacenews.com/the-space-industry-is-weighing-ambitious-hiring-against-heritage/",
       "summary": "Space is hard, as the decades-old adage goes. For much of the industry’s history, “rocket science” was as much a barrier to entry as a byword for difficulty. But now […] The post The space industry is weighing ambitious …",
       "ts": 1783692300000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "8 things to know about this year’s solar eclipse",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/8_things_to_know_about_this_year_s_solar_eclipse",
+      "summary": "Video: 00:02:34 From the path of totality and the spectacular Baily's beads to why this eclipse will be especially beautiful at sunset, discover what makes the 12 August 2026 total solar eclipse so special. Featuring ESA…",
+      "ts": 1783690560000,
       "categoryId": "space"
     },
     {
@@ -697,30 +721,6 @@
       "summary": "RFK Jr.'s list of Covid vaccine injuries, a father's quest to cure his daughter, and more health news from Morning Rounds",
       "ts": 1783596276000,
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "MDA Space buys French Earth data analytics company CLS",
-      "url": "https://spacenews.com/mda-space-buys-french-earth-data-analytics-company-cls/",
-      "summary": "Canadian company MDA Space is buying a French Earth data analytics company in its second big acquisition in recent weeks, part of wave of mergers and acquisitions in the industry. The post MDA Space buys French Earth dat…",
-      "ts": 1783595902000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: 931 days. The drug approval scandal hiding in plain sight",
-      "url": "https://www.statnews.com/2026/07/09/northwest-biotherapeutics-brain-cancer-treatment/?utm_campaign=rss",
-      "summary": "Two years, six months, and 18 days have elapsed since Northwest Biotherapeutics submitted its brain cancer treatment for regulatory approval.",
-      "ts": 1783593000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "url": "https://openai.com/index/gpt-5-6",
-      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "ts": 1783591200000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

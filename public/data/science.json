@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-10T14:32:17.048Z",
+  "updated": "2026-07-10T16:57:58.061Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Artificial hand reproduces human gestures using memory written into light-responsive polymers",
+      "url": "https://phys.org/news/2026-07-artificial-human-gestures-memory-written.html",
+      "summary": "Danqing Liu from Eindhoven University of Technology explores how interactions with digital systems can be improved through the sense of touch. To achieve this, she develops advanced liquid crystal polymers that respond t…",
+      "ts": 1783701603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "High-status Iron Age burials reveal early links to Roman Empire",
+      "url": "https://phys.org/news/2026-07-high-status-iron-age-burials.html",
+      "summary": "A large cemetery containing the lavishly adorned remains of unidentified high-status individuals dating from around 2,000 years ago has been uncovered by archaeologists from Archaeology South-East (UCL Institute of Archa…",
+      "ts": 1783701601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Report shows declining gun homicides, record gun suicides in 2024",
+      "url": "https://phys.org/news/2026-07-declining-gun-homicides-suicides.html",
+      "summary": "Nearly 45,000 people in the U.S. died by gun violence in 2024—one person every 12 minutes, on average—and an all-time high of 27,593 died by firearm suicide, according to the latest annual firearm mortality report from t…",
+      "ts": 1783700405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers discover genetic secrets of mung bean crops",
+      "url": "https://phys.org/news/2026-07-genetic-secrets-mung-bean-crops.html",
+      "summary": "Researchers at the Center for Crop and Food Innovation (CCFI) have made a significant contribution to a landmark study, uncovering tens of thousands of previously hidden structural variations influencing agriculturally i…",
+      "ts": 1783700403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA space telescope maps magnetic fields of 'Lighthouse' pulsar",
+      "url": "https://phys.org/news/2026-07-nasa-space-telescope-magnetic-fields.html",
+      "summary": "For the first time, scientists have used NASA's IXPE (Imaging X-ray Polarimetry Explorer) to directly measure the magnetic fields of PSR J1101−6101, a pulsar located within what is often referred to as the Lighthouse Neb…",
+      "ts": 1783699203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Report finds the justice system in England and Wales is failing to meet people's needs",
+      "url": "https://phys.org/news/2026-07-justice-england-wales-people.html",
+      "summary": "The justice system in England and Wales is failing to meet people's needs, with cuts to legal aid forming part of a wider pattern of declining investment and support, warns a new UCL–led report. The findings present a st…",
+      "ts": 1783699201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "As national drought deepens, a new AI model helps balance water demands",
+      "url": "https://phys.org/news/2026-07-national-drought-deepens-ai-demands.html",
+      "summary": "As drought strains water supplies across much of the United States, Virginia Tech researchers have developed an artificial intelligence (AI) model designed to help policymakers manage growing competition between agricult…",
+      "ts": 1783698003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genomic study of the Asian house shrew reveals a complex history of Indo-Pacific trade and human migration",
+      "url": "https://phys.org/news/2026-07-genomic-asian-house-shrew-reveals.html",
+      "summary": "Sometimes mistaken for a strange-looking mouse with a long, pointed snout, the Asian house shrew is a small, furry animal known for its musky odor. It's usually found lurking near homes and farms, ports and cities, acros…",
+      "ts": 1783698001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New Jurassic dinosaur species identified in Thailand from a single bone",
+      "url": "https://phys.org/news/2026-07-jurassic-dinosaur-species-thailand-bone.html",
+      "summary": "A new study published in Scientific Reports describes the identification of a new species of long-necked dinosaur found in the Phu Kradung Formation in Thailand. The team calls the dinosaur Uragasaurus kalasinensis and s…",
+      "ts": 1783697401000
+    },
+    {
+      "source": "Science News",
+      "title": "Here’s what happens when you put politicians in charge of science",
+      "url": "https://www.sciencenews.org/article/omb-politicians-lysenko-science-history",
+      "summary": "Proposed federal rules would rely on political appointees to decide how a lot of U.S. science gets done. History shows the consequences of such actions.",
+      "ts": 1783697400000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study links newspaper closures to distorted crime reporting",
+      "url": "https://phys.org/news/2026-07-links-newspaper-closures-distorted-crime.html",
+      "summary": "Local newspapers serve as a vital check on public institutions, including law enforcement, according to new research from the University at Buffalo School of Management. Published in the American Journal of Criminal Just…",
+      "ts": 1783696807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New model maps solar storms across 1 million miles around Earth",
+      "url": "https://phys.org/news/2026-07-solar-storms-million-miles-earth.html",
+      "summary": "A team at the Applied Physics Lab is working to understand the complex science behind predicting invisible threats that can quickly cripple electric grid infrastructure on Earth.",
+      "ts": 1783696805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Virtual tutoring: What started as a pandemic phenomenon has evolved from a temporary fix to an educational fixture",
+      "url": "https://phys.org/news/2026-07-virtual-pandemic-phenomenon-evolved-temporary.html",
+      "summary": "When Amanda Neitzel first evaluated a live virtual reading-tutoring program called AirReading two years ago, she found what most educators would have predicted: modest results. One semester of live video tutoring nudged …",
+      "ts": 1783695607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Could exoplanets locked in eternal day and endless night support life?",
+      "url": "https://phys.org/news/2026-07-exoplanets-eternal-day-endless-night.html",
+      "summary": "Ever so slightly bigger than Earth, the exoplanet LHS 3844b orbits its parent star, LHS 3844, a red dwarf 48.5 light-years from our solar system. Its rotational speed mirrors its orbital speed. The result? One side of LH…",
+      "ts": 1783695605000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.",
+      "url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "summary": "Researchers thought that what enabled complex fluids to break apart was their elasticity. But a crack in a nonelastic simple fluid has them questioning that idea. The post We Know Simple Fluids Can Flow. Turns Out, Some …",
+      "ts": 1783695108000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What happened to Australia's snow season? A climate expert explains",
+      "url": "https://phys.org/news/2026-07-australia-season-climate-expert.html",
+      "summary": "There's nothing like gliding down a snow-covered slope. That is, if you ask the thousands of people who make an annual pilgrimage to our alpine resorts during the Australian winter. But this year, the start to the snow s…",
+      "ts": 1783694401000
+    },
     {
       "source": "Phys.org",
       "title": "Hidden health risks found in New York City's free-roaming cats",
@@ -588,118 +700,6 @@
       "title": "Acceleration-based clustering reveals frequent gait switching in sprint sled dogs",
       "url": "https://arxiv.org/abs/2607.08644",
       "summary": "arXiv:2607.08644v1 Announce Type: new Abstract: Continuous video is difficult to obtain during field studies of sprint sled dogs, limiting analysis of stride-to-stride variation during load-pulling gallop. We developed a…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical inference of dynamical processes on networks",
-      "url": "https://arxiv.org/abs/2607.08672",
-      "summary": "arXiv:2607.08672v1 Announce Type: new Abstract: Mechanisms of interaction in spreading models are central to our quantitative understanding of networked contagion processes, from disease transmission to opinion dynamics.…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse Transfer and Coherence in Rotating Stratified Flow with Clouds and Phase Transitions",
-      "url": "https://arxiv.org/abs/2607.08673",
-      "summary": "arXiv:2607.08673v1 Announce Type: new Abstract: Inverse energy transfer to large-scale coherent structures in idealized models of geophysical flows has been of interest for over four decades. Extensive knowledge exists r…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Drift of interfaces in forced stably-stratified turbulence and the role of vertically-sheared helical structures",
-      "url": "https://arxiv.org/abs/2607.08678",
-      "summary": "arXiv:2607.08678v1 Announce Type: new Abstract: Experimental investigations of forced stably stratified turbulence (SST) have shown that the step-like density profile, made of well-mixed density layers and sharp interfac…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Precision mapping of laser-driven magnetic fields and their evolution in high-energy-density plasmas",
-      "url": "https://arxiv.org/abs/2607.08680",
-      "summary": "arXiv:2607.08680v1 Announce Type: new Abstract: Magnetic fields generated by the Rayleigh-Taylor instability were measured in laser-accelerated planar foils using ultrafast proton radiography. Thin plastic foils were irr…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynastic dynamics: Modelling powerful naming choices with stochastic prestige",
-      "url": "https://arxiv.org/abs/2607.08689",
-      "summary": "arXiv:2607.08689v1 Announce Type: new Abstract: The naming choices of powerful rulers encode millennia of cultural, political, and institutional influences. Consequently, the long-term onomastic dynamics within some of t…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Asymmetric high-harmonic generation from subwavelength bianisotropic resonators",
-      "url": "https://arxiv.org/abs/2607.08715",
-      "summary": "arXiv:2607.08715v1 Announce Type: new Abstract: High-harmonic generation (HHG) enables attosecond light pulses and table-top sources of coherent extreme-ultraviolet and soft X-ray radiation. Although HHG has long been as…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond Drug Discovery: The Nanotechnology Molecular Optimization (NMO) Benchmark",
-      "url": "https://arxiv.org/abs/2606.30170",
-      "summary": "arXiv:2606.30170v1 Announce Type: cross Abstract: Generative molecular design is shaped by simple proxy benchmarks for drug-like properties and models pretrained on large pharmaceutical datasets. This combination yields …",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contrarian Majority Dynamics: Violation of Detailed Balance and Nonequilibrium Steady States",
-      "url": "https://arxiv.org/abs/2607.02358",
-      "summary": "arXiv:2607.02358v1 Announce Type: cross Abstract: I revisit the Galam Majority Model (GMM) with contrarian agents from a statistical-mechanics perspective, revealing three fundamental features. First, in addition to the …",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Sensors for Chemistry and Materials Science",
-      "url": "https://arxiv.org/abs/2607.07848",
-      "summary": "arXiv:2607.07848v1 Announce Type: cross Abstract: The advancement of chemistry and materials science relies on transformative analytical tools which can overcome the sensitivity, spatial resolution, and throughput limita…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kime-Representation Formulations of Three Open Problems in the Foundations of Classical Mechanics: Uncertainty, Invariant Entropy, and Directional Degrees of Freedom",
-      "url": "https://arxiv.org/abs/2607.07851",
-      "summary": "arXiv:2607.07851v1 Announce Type: cross Abstract: We give mathematically self-contained formulations, in the complex-time (kime) representation, of three open problems from the foundations of classical mechanics: (I) the…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Dot Moir\\'e from Crossed MoS2 Nanoribbons",
-      "url": "https://arxiv.org/abs/2607.07871",
-      "summary": "arXiv:2607.07871v1 Announce Type: cross Abstract: Twisted atomically thin layers have attracted much attention for Moir\\'e potential and correlated quantum phenomena. However, existing Moir\\'e superlattices have largely …",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bulk Boundary Condition for Surface Calculations in Density Functional Theory",
-      "url": "https://arxiv.org/abs/2607.07894",
-      "summary": "arXiv:2607.07894v1 Announce Type: cross Abstract: We present a bulk boundary condition formalism for surface calculations in Kohn--Sham density functional theory. The approach exploits the nearsightedness of electronic i…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Understanding quorum sensing self-organization: Clustering and defect-induced ordering of diffusing particles",
-      "url": "https://arxiv.org/abs/2607.07906",
-      "summary": "arXiv:2607.07906v1 Announce Type: cross Abstract: Quorum sensing (QS) is known in biology as a form of intercellular communication mediated by signaling molecules called autoinducers. The QS protocol governs the transiti…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cluster-Weighted Training of Deep Surrogate Models for Subgrid Turbulent Transport",
-      "url": "https://arxiv.org/abs/2607.07925",
-      "summary": "arXiv:2607.07925v1 Announce Type: cross Abstract: Turbulence in the solar interior and atmosphere plays a crucial role in energy transport, yet modeling its subgrid-scale effects remains a major challenge. This study lev…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gate induced strain on a two-dimensional hole gas in silicon",
-      "url": "https://arxiv.org/abs/2607.07932",
-      "summary": "arXiv:2607.07932v1 Announce Type: cross Abstract: We show the effect of gate-induced strain on the valence band of a silicon (Si) metal oxide semiconductor (MOS) confined two-dimensional hole gas (2DHG). Increasing alumi…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evaluating the Generalizability of Foundation Models for Extreme Environmental Events: Case Study of California Wildfire PM2.5",
-      "url": "https://arxiv.org/abs/2607.07951",
-      "summary": "arXiv:2607.07951v1 Announce Type: cross Abstract: Wildfire smoke events produce extreme PM$_{2.5}$ concentrations that pose severe public health risks, yet forecasting rare, hazardous-level spikes remains a fundamental c…",
       "ts": 1783656000000
     }
   ],
