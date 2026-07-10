@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-09T22:24:34.834Z",
+  "updated": "2026-07-10T00:07:24.322Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Parents direct more threats toward school administrators than teachers",
+      "url": "https://phys.org/news/2026-07-parents-threats-school-administrators-teachers.html",
+      "summary": "In K–12 schools across the country, administrators are tasked with keeping everyone safe. New research shows they may be the most in need of protection.",
+      "ts": 1783640404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI reveals hidden San Andreas Fault movements",
+      "url": "https://phys.org/news/2026-07-ai-reveals-hidden-san-andreas.html",
+      "summary": "When people think about geological faults, they usually think about earthquakes. Yet faults do not move only during earthquakes. Sometimes they slip silently, without generating noticeable shaking, releasing stress over …",
+      "ts": 1783638005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Water worries: The dangers of dehydration in pets",
+      "url": "https://phys.org/news/2026-07-dangers-dehydration-pets.html",
+      "summary": "The summer heat can be unrelenting, sending pets who usually run straight to their owners after being outside in search of their water bowls instead. Rehydrating after playtime is important, so if a pet does not have pro…",
+      "ts": 1783636804000
+    },
     {
       "source": "Phys.org",
       "title": "Carbon–bismuth bonds reveal that relativity blurs the textbook line between sigma and pi bonds",
@@ -679,27 +700,6 @@
       "title": "Memory-like effects and kinematics of trajectories in Cyclotron motion",
       "url": "https://arxiv.org/abs/2607.06594",
       "summary": "arXiv:2607.06594v1 Announce Type: new Abstract: We investigate the collective dynamics of a bundle of charged particles undergoing cyclotron motion in a uniform magnetic field when subjected to a short-duration electric …",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Untethered Micro-Robots for Surface Sensing through Electric-Field Confined Motion",
-      "url": "https://arxiv.org/abs/2607.06705",
-      "summary": "arXiv:2607.06705v1 Announce Type: new Abstract: Surface characterization is essential for revealing the structural, chemical, and physical properties of materials. Yet high-resolution methods such as atomic force microsc…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Courant number on the results of numerical simulating of signal propagation in non-dispersive homogeneous media",
-      "url": "https://arxiv.org/abs/2607.06707",
-      "summary": "arXiv:2607.06707v1 Announce Type: new Abstract: The paper is devoted to the study of the connection between the numerical dispersion arising in FDTD modeling of electromagnetic signal propagation in nondispersive homogen…",
-      "ts": 1783569600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Innovative Computational Fluid Dynamics Discrete Dipole Approximation (CFD-DDA) Platform for Predicting Airborne Virus-in-Saliva Disinfection by Ultraviolet Irradiation",
-      "url": "https://arxiv.org/abs/2607.06746",
-      "summary": "arXiv:2607.06746v1 Announce Type: new Abstract: All published models of ultraviolet (UV) inactivation of airborne viruses in saliva droplets have neglected UV light scattering. To the best of our knowledge, this work pre…",
       "ts": 1783569600000
     }
   ],

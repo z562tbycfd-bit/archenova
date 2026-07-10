@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-09T22:24:36.957Z",
+  "updated": "2026-07-10T00:07:26.866Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Interior Department requests information on offshore launch options",
+      "url": "https://spacenews.com/interior-department-requests-information-on-offshore-launch-options/",
+      "summary": "An office of the U.S. Department of the Interior is seeking information on concepts for performing offshore orbital launches, part of a broader effort to reduce congestion at existing spaceports. The post Interior Depart…",
+      "ts": 1783639258000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Epigenomic Analysis Uncovers New AML Subgroups and Drug Sensitivities",
+      "url": "https://www.genengnews.com/topics/cancer/epigenomic-analysis-uncovers-new-aml-subgroups-and-drug-sensitivities/",
+      "summary": "New chromatin‑based analysis of 1,563 AML samples reveals 16 epigenomic subgroups that improve prognostic accuracy and highlight unexpected drug sensitivities. The post Epigenomic Analysis Uncovers New AML Subgroups and …",
+      "ts": 1783637376000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SDA TAP Lab Evolves Into BMC3I TAP Lab And In Partnership With Catalyst Campus Launches A New Multi-Phased Program To Accelerate Mission-Focused Technology Development",
+      "url": "https://spacenews.com/sda-tap-lab-evolves-into-bmc3i-tap-lab-and-in-partnership-with-catalyst-campus-launches-a-new-multi-phased-program-to-accelerate-mission-focused-technology-development/",
+      "summary": "Catalyst Campus for Technology and Innovation (CCTI) and the BMC3I TAP Lab Colorado are excited to announce a new multi-phased program designed to strengthen collaboration between commercial innovators and government […]…",
+      "ts": 1783636528000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Sets Coverage for Astronaut Anil Menon Launch to Space Station",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-astronaut-anil-menon-launch-to-space-station/",
+      "summary": "NASA astronaut Anil Menon will launch aboard the Roscosmos Soyuz MS-29 spacecraft to the International Space Station on Tuesday, July 14, accompanied by cosmonauts Pyotr Dubrov and Anna Kikina, where they will join the E…",
+      "ts": 1783634967000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Stem Cell Therapy Shows Promise in First Human Parkinson’s Disease Trial",
@@ -24,6 +56,14 @@
       "url": "https://spacenews.com/the-exploration-company-establishes-us-entity-to-pursue-government-contracts/",
       "summary": "JOHANNESBURG — The Exploration Company, a space transportation company based in Germany, established TEC Federal, a United States-based entity that will enable it to compete for government programs and contracts. […] The…",
       "ts": 1783627953000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Space Telescope Maps Magnetic Fields of ‘Lighthouse’ Pulsar",
+      "url": "https://science.nasa.gov/missions/ixpe/nasa-space-telescope-maps-magnetic-fields-of-lighthouse-pulsar/",
+      "summary": "For the first time, scientists have used NASA’s IXPE (Imaging X-ray Polarimetry Explorer) to directly measure the magnetic fields of PSR J1101−6101, a pulsar located within what is often referred to as the Lighthouse Neb…",
+      "ts": 1783627715000,
       "categoryId": "space"
     },
     {
@@ -57,6 +97,14 @@
       "summary": "By delivering engineered adeno-associated viruses through the brain's fluid transport network to target glial cells, scientists demonstrated a strategy that could bypass the blood-brain barrier and enable future brain-di…",
       "ts": 1783623561000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Principal Investigator and Quality Assessment Reports Evaluate Umbra Synthetic Aperture Radar Data",
+      "url": "https://science.nasa.gov/science-research/earth-science/principal-investigator-and-quality-assessment-reports-evaluate-umbra-synthetic-aperture-radar-data/",
+      "summary": "The reports add to the growing documentation on commercial data’s contributions to Earth science research and applications.",
+      "ts": 1783620861000,
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -249,6 +297,14 @@
       "summary": "Even as many details of Golden Dome remain unsettled, the missile-defense program has become a focal point for space and defense startups looking for new markets The post Golden Dome and the search for new space markets …",
       "ts": 1783598400000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Diplomats go virtual to witness Gaza displacement site up close",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167912",
+      "summary": "Representatives from 12 countries carried out a “virtual diplomatic field visit” to a displacement site in the Gaza Strip and heard from some of the residents about their pressing needs, the United Nations said on Thursd…",
+      "ts": 1783598400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -665,62 +721,6 @@
       "summary": "For the Pleasant Point Passamaquoddy Reservation, or Sipayik, the ocean has always been a teacher. Situated in what is known as Downeast Maine, along the shores of Passamaquoddy Bay, generations of Indigenous people have…",
       "ts": 1783544654000,
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: RFK Jr. plans to create list of injuries caused by Covid-19 vaccines",
-      "url": "https://www.statnews.com/2026/07/08/hhs-to-propose-covid-19-countermeasures-injury-table/?utm_campaign=rss",
-      "summary": "It's not clear what conditions may make the list, but outside experts are watching it closely.",
-      "ts": 1783543261000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Epitope Editing Strategy Could Enable Less Toxic Stem Cell Transplants",
-      "url": "https://www.genengnews.com/topics/translational-medicine/epitope-editing-strategy-could-enable-less-toxic-stem-cell-transplants/",
-      "summary": "Researchers developed an epitope editing strategy to make donated stem cells invisible to pre-transplant antibody therapy, offering up a new approach that could make antibodies a less toxic alternative to chemotherapy fo…",
-      "ts": 1783537983000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Fujifilm Selected with Six Others in FDA PreCheck Pilot Manufacturing Program",
-      "url": "https://www.genengnews.com/topics/bioprocessing/fujifilm-selected-with-six-others-in-fda-precheck-pilot-manufacturing-program/",
-      "summary": "Fujifilm’s Holly Springs facility is one of North America's largest end-to-end cell culture biopharmaceutical manufacturing facilities and represents a key node in the company’s growing global manufacturing network. The …",
-      "ts": 1783537257000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: White House reviewing top contenders to lead FDA",
-      "url": "https://www.statnews.com/2026/07/08/new-fda-commissioner-finalists-under-white-house-review/?utm_campaign=rss",
-      "summary": "The White House is reviewing finalists for FDA commissioner, suggesting the highly anticipated decision may come soon.",
-      "ts": 1783536714000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Is this the year for a NASA authorization bill?",
-      "url": "https://spacenews.com/is-this-the-year-for-a-nasa-authorization-bill/",
-      "summary": "Appropriators, like fans of hard-luck sports teams, say every year that this year will be different. That this will be the year that “regular order” returns to the appropriations process, […] The post Is this the year fo…",
-      "ts": 1783533999000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Mass General Brigham, nurses called to talk at State House amid biggest nursing strike in Mass.",
-      "url": "https://www.statnews.com/2026/07/08/brigham-and-womens-hospital-boston-nurses-strike-largest-massachusetts-history/?utm_campaign=rss",
-      "summary": "The Brigham, a nationally renowned Harvard teaching hospital, and MGB have have unsuccessfully been negotiating a new contract for months.",
-      "ts": 1783531927000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In private meeting, Trump officials push to onshore generic drugmaking",
-      "url": "https://www.statnews.com/2026/07/08/trump-officials-want-to-make-generic-medicines-in-the-us/?utm_campaign=rss",
-      "summary": "Marco Rubio, RFK Jr., and Chris Klomp are urging industry leaders to make more medicines in the U.S.",
-      "ts": 1783529070000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
