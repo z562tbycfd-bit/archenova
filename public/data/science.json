@@ -1,7 +1,112 @@
 {
   "ok": true,
-  "updated": "2026-07-10T16:57:58.061Z",
+  "updated": "2026-07-10T18:26:29.750Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Giant kangaroos survived until 6,500 years ago on the New Guinea coast",
+      "url": "https://phys.org/news/2026-07-giant-kangaroos-survived-years-guinea.html",
+      "summary": "Roughly 50,000 years ago, a kangaroo unlike any alive today lived in the mountain rainforests of New Guinea.",
+      "ts": 1783707604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dust in the wind: intense storms struck China, US in 2025, says UN",
+      "url": "https://phys.org/news/2026-07-intense-storms-struck-china.html",
+      "summary": "China and the southern United States were hit last year by some of their worst sand and dust storms in decades, the United Nations said Friday.",
+      "ts": 1783707602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New 3D COF structure could help tune porous materials for batteries and cleanup",
+      "url": "https://phys.org/news/2026-07-3d-cof-tune-porous-materials.html",
+      "summary": "A research team synthesized and determined the structure of a borate-linked 3D crystalline covalent organic framework, TCTP-COF, via electron diffraction for the first time. These findings will help scientists determine …",
+      "ts": 1783706408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers find simple solution for extending the lifespan of LEDs made from glowing quantum dots",
+      "url": "https://phys.org/news/2026-07-simple-solution-lifespan-quantum-dots.html",
+      "summary": "A new study led by MIT researchers could drive the development of more energy-efficient digital displays—such as flat-screen TVs, augmented and virtual reality headsets, smartphone screens, medical imaging devices and ev…",
+      "ts": 1783706406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient DNA challenges family assumptions in medieval Scandinavian graves",
+      "url": "https://phys.org/news/2026-07-ancient-dna-family-assumptions-medieval.html",
+      "summary": "When archaeologists find adults and children buried together in medieval graves, it is often assumed that they were members of the same family. A new study from Stockholm University in Science Advances suggests otherwise…",
+      "ts": 1783706404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Landslides kill 15 in Philippines as biggest typhoon in decades nears Taiwan",
+      "url": "https://phys.org/news/2026-07-landslides-philippines-biggest-typhoon-decades.html",
+      "summary": "Fifteen people were killed in landslides in the Philippines, and thousands in Taiwan were evacuated from their homes as the biggest typhoon in decades neared the region Friday.",
+      "ts": 1783706401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physical laws explain why most flies evolved similar flight, with mosquitoes as outliers",
+      "url": "https://phys.org/news/2026-07-physical-laws-flies-evolved-similar.html",
+      "summary": "A new study in PLOS Biology of 133 species of flies, mosquitoes and their relatives shows that most species fly in surprisingly similar ways. Physical and aerodynamic laws shape the evolution of their flight behavior mor…",
+      "ts": 1783705209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Does multitasking ability really differ by sex? Not in the way you'd think",
+      "url": "https://phys.org/news/2026-07-multitasking-ability-differ-sex-youd.html",
+      "summary": "Research simulates real-life multitasking performance to assess potential differences between men and women. When coordinating five different tasks, men ignored the conversational task more than twice as often as women, …",
+      "ts": 1783705208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Brazil deforestation hits new low in Amazon",
+      "url": "https://phys.org/news/2026-07-brazil-deforestation-amazon.html",
+      "summary": "Deforestation in the Brazilian Amazon fell to its lowest level in a decade in the first half of the year, according to official figures released Friday.",
+      "ts": 1783705202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "China takes a page from SpaceX and recaptures the first stage of a rocket to reuse it",
+      "url": "https://phys.org/news/2026-07-china-page-spacex-recaptures-stage.html",
+      "summary": "China successfully recaptured the first stage of a rocket after a launch on Friday in a breakthrough for the country's space program, state media said.",
+      "ts": 1783704601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Math reveals how honeybee hives balance the 'daring few, patient many' strategy",
+      "url": "https://phys.org/news/2026-07-math-reveals-honeybee-hives-patient.html",
+      "summary": "How do bees make group decisions without a leader? Math experts have determined that the best strategy is for a few to assume the risk of foraging under all conditions while the majority stay safely back and forage only …",
+      "ts": 1783704006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tropical forests can switch from carbon sinks to carbon sources during El Niño",
+      "url": "https://phys.org/news/2026-07-tropical-forests-carbon-sources-el.html",
+      "summary": "Tropical forests draw down and store large quantities of CO₂ from the atmosphere. The Amazon rainforest in South America, for example, stores approximately 123 billion tons of carbon—more than is stored in any other terr…",
+      "ts": 1783704004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research identifies farming practices that improve irrigation efficiency",
+      "url": "https://phys.org/news/2026-07-farming-irrigation-efficiency.html",
+      "summary": "Mississippi State scientists are building on two decades of irrigation research to identify production practices that help growers save water while improving crop yields.",
+      "ts": 1783702803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New test certifies quantum measurements that simpler methods cannot mimic",
+      "url": "https://phys.org/news/2026-07-certifies-quantum-simpler-methods-mimic.html",
+      "summary": "Proving that one quantum measurement is more powerful than another has long been difficult. Physicists from Heinrich Heine University Düsseldorf, Lund University and the University of Innsbruck have now developed and dem…",
+      "ts": 1783702801000
+    },
+    {
+      "source": "Science News",
+      "title": "Pluto has landslides",
+      "url": "https://www.sciencenews.org/article/pluto-landslides-nasa-new-horizons",
+      "summary": "New Horizons data reveal Pluto’s first six confirmed landslides along steep crater rims.",
+      "ts": 1783702800000
+    },
     {
       "source": "Phys.org",
       "title": "Artificial hand reproduces human gestures using memory written into light-responsive polymers",
@@ -239,6 +344,20 @@
       "url": "https://phys.org/news/2026-07-underscores-barriers-male-survivor.html",
       "summary": "Male survivors of intimate partner violence are less likely to seek help than female survivors, according to new research from Michigan State University's School of Social Work. As a result, these cases of intimate partn…",
       "ts": 1783681201000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Disorder-enhanced spin Hall effect in Ru-Pt alloy thin films",
+      "url": "http://link.aps.org/doi/10.1103/hvn3-gjfy",
+      "summary": "Author(s): Vineetha S. Bheemarasetty , Xinhao Wang, Shreya Shrestha, M. Benjamin Jungfleisch, Lars Gundlach, John Q. Xiao, and Gang Xiao The search for material systems exhibiting a large spin Hall effect is central to t…",
+      "ts": 1783677600000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Microwave radiometry of a quantum-critical hybrid Josephson array",
+      "url": "http://link.aps.org/doi/10.1103/75bl-mm3b",
+      "summary": "Author(s): Kristen W. Léonard, Anton V. Bubis, Melissa Mikalsen, William F. Schiela, Bassel H. Elfeky, William M. Strickland, Duc Phan, Javad Shabani, and Andrew P. Higginbotham Arrays of Josephson junctions can be tuned…",
+      "ts": 1783677600000
     },
     {
       "source": "APS Physical Review Letters",
@@ -581,125 +700,6 @@
       "title": "Inverse-designed meta processing units for multi-task near-field photonic computing",
       "url": "https://arxiv.org/abs/2607.08360",
       "summary": "arXiv:2607.08360v1 Announce Type: new Abstract: Integrated photonic neural networks require optical operators that are simultaneously compact, matrix-general and compatible with task-level reconfigurability. Here we intr…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Joint Discrete-Continuous Flow Matching for Open-Vocabulary Inverse Design of Multilayer Optical Coatings",
-      "url": "https://arxiv.org/abs/2607.08392",
-      "summary": "arXiv:2607.08392v1 Announce Type: new Abstract: Amortized neural inverse design typically remains closed-world: component choices are fixed vocabulary tokens, coordinate grids are frozen at training time, and continuous …",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the rectification of oscillatory flows by flexible leaflets in a confined geometry",
-      "url": "https://arxiv.org/abs/2607.08394",
-      "summary": "arXiv:2607.08394v1 Announce Type: new Abstract: Inspired by biological systems, extensive research has explored how fluid-structure interactions in compliant channels and confined geometries control fluid transport. Whil…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient photo-ionizing elimination of detrimental electric fields for Rydberg atoms",
-      "url": "https://arxiv.org/abs/2607.08418",
-      "summary": "arXiv:2607.08418v1 Announce Type: new Abstract: Rydberg atoms are highly sensitive to external electric fields due to their exaggerated electronic properties. This unique feature lays the foundation for many of their app…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fourier imaging of collective spontaneous emission modes in superradiant cold atomic clouds",
-      "url": "https://arxiv.org/abs/2607.08421",
-      "summary": "arXiv:2607.08421v1 Announce Type: new Abstract: We measure the spatial pattern associated with the superradiant emission from a cloud of cold 87Rb atoms using Fourier imaging. We observe a highly directional, ring-shaped…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Doubly resonant enhancement of second-harmonic generation with in-plane phase matching in plasmonic metasurfaces on an AlInP slab waveguide",
-      "url": "https://arxiv.org/abs/2607.08430",
-      "summary": "arXiv:2607.08430v1 Announce Type: new Abstract: Nonlinear metasurfaces have attracted significant interest by offering the possibility to circumvent conventional phase-matching requirements of bulk nonlinear crystals, op…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photon Acceleration in Magnetized Plasma: A Mechanism for Fast Radio Bursts",
-      "url": "https://arxiv.org/abs/2607.08464",
-      "summary": "arXiv:2607.08464v1 Announce Type: new Abstract: We propose a mechanism for fast radio bursts based on photon acceleration by relativistic shocks propagating through highly magnetized electron--positron plasmas, as expect…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "New features of the sea-surface slope distribution revealed by IASI observations: Directional properties, influence of the wave height, large wave tilts",
-      "url": "https://arxiv.org/abs/2607.08483",
-      "summary": "arXiv:2607.08483v1 Announce Type: new Abstract: By analysis of the reflected solar contribution to mid-infrared radiance spectra collected by the IASI instrument, we investigate the influences of both the wind and signif…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Repurposing acquisition devices into trigger-based timing synchronization of breakdown events during MITICA high voltage holding experiments",
-      "url": "https://arxiv.org/abs/2607.08501",
-      "summary": "arXiv:2607.08501v1 Announce Type: new Abstract: A critical requirement for MITICA -- a full-scale prototype of the heating Neutral Beam Injectors hosted at the Consorzio RFX Neutral Beam Test Facility for the ITER experi…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hele-Shaw Flow With Pressure and Shear Rate Dependent Viscosity",
-      "url": "https://arxiv.org/abs/2607.08509",
-      "summary": "arXiv:2607.08509v1 Announce Type: new Abstract: This paper investigates the behaviour of a fluid characterized by a viscosity simultaneously depending on pressure and shear rate within a Hele-Shaw cell featuring a sharp …",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The geopolitics of knowledge: tipping points, national fingerprints, and the unequal globalization of science",
-      "url": "https://arxiv.org/abs/2607.08512",
-      "summary": "arXiv:2607.08512v1 Announce Type: new Abstract: Science is often portrayed as a universal and self-contained system, driven solely by the internal logic of knowledge accumulation and isolated from the turbulences of the …",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Open-source MRI-informed computational model of human cortical folding",
-      "url": "https://arxiv.org/abs/2607.08534",
-      "summary": "arXiv:2607.08534v1 Announce Type: new Abstract: The human cerebral cortex, initially smooth, progressively folds during fetal brain development in utero, giving rise to cortical convolutions. Atypical cortical folding pa…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimal slit width for high-precision orbital angular momentum measurement using angular double-slit interferometry",
-      "url": "https://arxiv.org/abs/2607.08549",
-      "summary": "arXiv:2607.08549v1 Announce Type: new Abstract: We demonstrate an optimization of angular double-slit interferometry for accurate measurement of orbital angular momentum (OAM) of vortex beams. By scanning the dynamic dou…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Broadband silicon photonic phase shifters driven by gradient optical forces",
-      "url": "https://arxiv.org/abs/2607.08558",
-      "summary": "arXiv:2607.08558v1 Announce Type: new Abstract: While initially deployed for optical interconnects, silicon photonics is increasingly being explored as a hardware platform for programmable optical systems, including line…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Manifold-adapted radial basis functions for reduced-order modelling of chaotic flows",
-      "url": "https://arxiv.org/abs/2607.08571",
-      "summary": "arXiv:2607.08571v1 Announce Type: new Abstract: Chaotic systems often evolve on a low-dimensional attractor whose geometry varies from one region to another. We propose a non-intrusive reduced-order model that reads this…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intracellular luminescence thermometry: A story of disagreement, trust, and hope",
-      "url": "https://arxiv.org/abs/2607.08574",
-      "summary": "arXiv:2607.08574v1 Announce Type: new Abstract: Intracellular luminescence thermometry has long promised to reveal how heat is generated, dissipated, and regulated inside living cells. Yet, despite substantial progress, …",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Novel Hadronic Calorimeter With A Direct Neutron Readout",
-      "url": "https://arxiv.org/abs/2607.08587",
-      "summary": "arXiv:2607.08587v1 Announce Type: new Abstract: A neutron-sensitive sampling calorimeter based on alternating lead absorber and gadolinium-loaded liquid scintillator layers is investigated using detailed Geant4 Monte Car…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Acceleration-based clustering reveals frequent gait switching in sprint sled dogs",
-      "url": "https://arxiv.org/abs/2607.08644",
-      "summary": "arXiv:2607.08644v1 Announce Type: new Abstract: Continuous video is difficult to obtain during field studies of sprint sled dogs, limiting analysis of stride-to-stride variation during load-pulling gallop. We developed a…",
       "ts": 1783656000000
     }
   ],
