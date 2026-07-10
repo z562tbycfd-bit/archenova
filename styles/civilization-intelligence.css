@@ -3647,3 +3647,512 @@
     box-sizing: border-box !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   CIVILIZATION INTELLIGENCE
+   PC STAGE — DEFINITIVE FRAME FIT
+   DNA centered / cards locked into 3 × 2 grid
+========================================================== */
+
+@media (min-width: 769px) {
+
+  /* --------------------------------------------------------
+     1. Page and shell
+  -------------------------------------------------------- */
+
+  .ci2-page {
+    width: 100%;
+    min-height: 100svh;
+    overflow-x: hidden !important;
+  }
+
+  .ci2-section {
+    width: 100% !important;
+    height: 100svh !important;
+    min-height: 100svh !important;
+    max-height: 100svh !important;
+
+    padding: 1.1rem 0 !important;
+
+    display: grid !important;
+    place-items: center !important;
+
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  .ci2-shell {
+    width: min(1180px, 92vw) !important;
+    height: calc(100svh - 2.2rem) !important;
+    min-height: 0 !important;
+    max-height: calc(100svh - 2.2rem) !important;
+
+    margin: 0 auto !important;
+
+    display: grid !important;
+    grid-template-rows:
+      auto
+      minmax(0, 1fr)
+      auto !important;
+
+    gap: 0.7rem !important;
+
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+  }
+
+  /* --------------------------------------------------------
+     2. Compact header without changing visual identity
+  -------------------------------------------------------- */
+
+  .ci2-header {
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .ci2-header span {
+    font-size: 0.58rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .ci2-header h1 {
+    margin-top: 0.45rem !important;
+
+    font-size: clamp(1.9rem, 3.3vw, 3.65rem) !important;
+    line-height: 0.98 !important;
+  }
+
+  .ci2-header p {
+    margin-top: 0.55rem !important;
+
+    max-width: 600px !important;
+
+    font-size: 0.72rem !important;
+    line-height: 1.5 !important;
+  }
+
+  /* --------------------------------------------------------
+     3. Stage becomes a strict contained chamber
+  -------------------------------------------------------- */
+
+  .ci2-stage {
+    position: relative !important;
+
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 1rem !important;
+
+    overflow: hidden !important;
+
+    border-radius: 38px !important;
+    box-sizing: border-box !important;
+
+    isolation: isolate !important;
+  }
+
+  /* --------------------------------------------------------
+     4. DNA stays in the exact center
+  -------------------------------------------------------- */
+
+  .ci2-dna {
+    position: absolute !important;
+
+    left: 50% !important;
+    top: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: min(260px, 23vw) !important;
+    height: min(510px, 90%) !important;
+
+    margin: 0 !important;
+
+    transform:
+      translate(-50%, -50%)
+      rotateX(10deg)
+      rotateY(var(--ci-rotate, 0deg))
+      rotateZ(-2deg) !important;
+
+    transform-origin: center !important;
+
+    z-index: 5 !important;
+  }
+
+  /* Core is now inside DNA and remains locked to it */
+  .ci2-dna > .ci2-core {
+    position: absolute !important;
+
+    left: 50% !important;
+    top: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: clamp(150px, 15vw, 205px) !important;
+    height: clamp(150px, 15vw, 205px) !important;
+
+    margin: 0 !important;
+
+    transform:
+      translate(-50%, -50%)
+      translateZ(80px) !important;
+
+    z-index: 20 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* --------------------------------------------------------
+     5. Six cards: strict 3-row × 2-column grid
+  -------------------------------------------------------- */
+
+  .ci2-cards {
+    position: absolute !important;
+    inset: 1rem !important;
+
+    width: auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    display: grid !important;
+
+    grid-template-columns:
+      minmax(210px, 270px)
+      minmax(240px, 1fr)
+      minmax(210px, 270px) !important;
+
+    grid-template-rows:
+      repeat(3, minmax(0, 1fr)) !important;
+
+    column-gap: clamp(2rem, 8vw, 8.5rem) !important;
+    row-gap: 0.65rem !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    overflow: hidden !important;
+    pointer-events: none !important;
+
+    z-index: 6 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Reset every old absolute card position */
+  .ci2-card,
+  .ci2-card.card-1,
+  .ci2-card.card-2,
+  .ci2-card.card-3,
+  .ci2-card.card-4,
+  .ci2-card.card-5,
+  .ci2-card.card-6 {
+    position: relative !important;
+
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 270px !important;
+
+    height: 100% !important;
+    min-height: 0 !important;
+    max-height: none !important;
+
+    margin: 0 !important;
+    padding: 0.82rem !important;
+
+    transform: none !important;
+    translate: none !important;
+    scale: 1 !important;
+
+    align-self: stretch !important;
+
+    overflow: hidden !important;
+    pointer-events: auto !important;
+
+    border-radius: 22px !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Exact grid positions */
+  .ci2-card.card-1 {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    justify-self: start !important;
+  }
+
+  .ci2-card.card-2 {
+    grid-column: 3 !important;
+    grid-row: 1 !important;
+    justify-self: end !important;
+  }
+
+  .ci2-card.card-3 {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+    justify-self: start !important;
+  }
+
+  .ci2-card.card-4 {
+    grid-column: 3 !important;
+    grid-row: 2 !important;
+    justify-self: end !important;
+  }
+
+  .ci2-card.card-5 {
+    grid-column: 1 !important;
+    grid-row: 3 !important;
+    justify-self: start !important;
+  }
+
+  .ci2-card.card-6 {
+    grid-column: 3 !important;
+    grid-row: 3 !important;
+    justify-self: end !important;
+  }
+
+  /* --------------------------------------------------------
+     6. Card typography fitted to each grid cell
+  -------------------------------------------------------- */
+
+  .ci2-card-head {
+    display: grid !important;
+    grid-template-columns: 36px minmax(0, 1fr) !important;
+    align-items: start !important;
+    gap: 0.55rem !important;
+  }
+
+  .ci2-card-head > span {
+    width: 36px !important;
+    height: 36px !important;
+    min-width: 36px !important;
+    flex-basis: auto !important;
+
+    font-size: 0.92rem !important;
+  }
+
+  .ci2-card-head strong {
+    font-size: 0.58rem !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0.12em !important;
+  }
+
+  .ci2-card-head p {
+    margin-top: 0.24rem !important;
+
+    font-size: 0.5rem !important;
+    line-height: 1.3 !important;
+  }
+
+  .ci2-line {
+    margin: 0.5rem 0 !important;
+  }
+
+  .ci2-card small {
+    margin-bottom: 0.38rem !important;
+
+    font-size: 0.4rem !important;
+    line-height: 1.3 !important;
+    letter-spacing: 0.16em !important;
+  }
+
+  /* --------------------------------------------------------
+     7. Information remains readable through internal scroll
+  -------------------------------------------------------- */
+
+  .ci2-items {
+    width: 100% !important;
+
+    min-height: 0 !important;
+    max-height: clamp(38px, 7.5svh, 70px) !important;
+
+    display: grid !important;
+    gap: 0.3rem !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    padding-right: 0.18rem !important;
+  }
+
+  .ci2-items a,
+  .ci2-items em {
+    display: -webkit-box !important;
+
+    font-size: 0.48rem !important;
+    line-height: 1.3 !important;
+
+    overflow: hidden !important;
+
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+
+    overflow-wrap: anywhere !important;
+  }
+
+  .ci2-more {
+    margin-top: 0.42rem !important;
+
+    font-size: 0.47rem !important;
+    line-height: 1.25 !important;
+  }
+
+  /* --------------------------------------------------------
+     8. Connection beams adapt to grid
+  -------------------------------------------------------- */
+
+  .ci2-card::after {
+    top: 50% !important;
+
+    width: clamp(42px, 6vw, 86px) !important;
+
+    transform: translateY(-50%) !important;
+  }
+
+  .ci2-card.card-1::after,
+  .ci2-card.card-3::after,
+  .ci2-card.card-5::after {
+    left: 100% !important;
+    right: auto !important;
+  }
+
+  .ci2-card.card-2::after,
+  .ci2-card.card-4::after,
+  .ci2-card.card-6::after {
+    right: 100% !important;
+    left: auto !important;
+  }
+
+  /* --------------------------------------------------------
+     9. Footer / back gate
+  -------------------------------------------------------- */
+
+  .ci2-back,
+  .ci2-home {
+    width: min(300px, 76vw) !important;
+    min-height: 42px !important;
+    height: auto !important;
+
+    margin: 0 auto !important;
+    padding: 0.62rem 1rem !important;
+
+    font-size: 0.66rem !important;
+    box-sizing: border-box !important;
+  }
+
+  .ci2-footer {
+    margin: 0 !important;
+    gap: 0.55rem !important;
+  }
+
+  .ci2-quote {
+    display: none !important;
+  }
+}
+
+/* ==========================================================
+   Smaller desktop / laptop safety
+========================================================== */
+
+@media (min-width: 769px) and (max-width: 1180px) {
+  .ci2-shell {
+    width: 94vw !important;
+  }
+
+  .ci2-stage {
+    padding: 0.75rem !important;
+  }
+
+  .ci2-cards {
+    inset: 0.75rem !important;
+
+    grid-template-columns:
+      minmax(180px, 225px)
+      minmax(210px, 1fr)
+      minmax(180px, 225px) !important;
+
+    column-gap: clamp(1rem, 6vw, 4.5rem) !important;
+  }
+
+  .ci2-card {
+    max-width: 225px !important;
+    padding: 0.7rem !important;
+  }
+
+  .ci2-dna {
+    width: 220px !important;
+    height: min(470px, 88%) !important;
+  }
+
+  .ci2-dna > .ci2-core {
+    width: 165px !important;
+    height: 165px !important;
+  }
+
+  .ci2-card-head > span {
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+
+    font-size: 0.82rem !important;
+  }
+}
+
+/* ==========================================================
+   Short-height desktop safety
+========================================================== */
+
+@media (min-width: 769px) and (max-height: 760px) {
+  .ci2-section {
+    padding: 0.65rem 0 !important;
+  }
+
+  .ci2-shell {
+    height: calc(100svh - 1.3rem) !important;
+    max-height: calc(100svh - 1.3rem) !important;
+    gap: 0.45rem !important;
+  }
+
+  .ci2-header h1 {
+    margin-top: 0.3rem !important;
+    font-size: clamp(1.6rem, 2.8vw, 2.8rem) !important;
+  }
+
+  .ci2-header p {
+    margin-top: 0.35rem !important;
+    font-size: 0.62rem !important;
+  }
+
+  .ci2-stage {
+    border-radius: 30px !important;
+  }
+
+  .ci2-card {
+    padding: 0.65rem !important;
+  }
+
+  .ci2-dna {
+    height: min(430px, 88%) !important;
+  }
+
+  .ci2-back,
+  .ci2-home {
+    min-height: 36px !important;
+    padding: 0.5rem 1rem !important;
+  }
+}
