@@ -132,20 +132,40 @@ export default function CivilizationIntelligenceDNA() {
   ))}
 
   <div className="ci2-core">
-    <span>Episteme</span>
+  <div className="ci2-core-solar" aria-hidden="true">
+    <i className="ci2-core-star" />
+    <i className="ci2-core-corona corona-outer" />
+    <i className="ci2-core-corona corona-inner" />
+    <i className="ci2-core-ring ring-primary" />
+    <i className="ci2-core-ring ring-secondary" />
+    <i className="ci2-core-wave wave-1" />
+    <i className="ci2-core-wave wave-2" />
+    <i className="ci2-core-wave wave-3" />
 
-    <strong>
-      Civilization
-      <br />
-      Intelligence
-    </strong>
-
-    <p>
-      Observe → Understand → Reason
-      <br />
-      Design → Realize → Remember
-    </p>
+    <div className="ci2-core-rays">
+      {Array.from({ length: 12 }).map((_, index) => (
+        <i
+          key={index}
+          className={`ci2-core-ray ray-${index + 1}`}
+        />
+      ))}
+    </div>
   </div>
+
+  <span className="ci2-core-label">Episteme</span>
+
+  <strong className="ci2-core-title">
+    Civilization
+    <br />
+    Intelligence
+  </strong>
+
+  <p className="ci2-core-flow">
+    Observe → Understand → Reason
+    <br />
+    Design → Realize → Remember
+  </p>
+</div>
 </div>
 
               <div className="ci2-cards">
