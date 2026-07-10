@@ -2597,3 +2597,646 @@
     overflow: visible !important;
   }
 }
+
+
+
+
+
+/* ==========================================================
+   Civilization Intelligence
+   Premium Cosmic Visual Upgrade
+   Size and positions remain unchanged
+========================================================== */
+
+/* ----------------------------------------------------------
+   1. Cosmic background depth
+---------------------------------------------------------- */
+
+.ci2-section {
+  background:
+    radial-gradient(
+      ellipse at 50% 8%,
+      rgba(90, 135, 255, 0.16),
+      transparent 30%
+    ),
+    radial-gradient(
+      ellipse at 14% 26%,
+      rgba(104, 145, 255, 0.13),
+      transparent 25%
+    ),
+    radial-gradient(
+      ellipse at 86% 22%,
+      rgba(255, 211, 153, 0.15),
+      transparent 27%
+    ),
+    radial-gradient(
+      ellipse at 50% 55%,
+      rgba(132, 112, 255, 0.09),
+      transparent 36%
+    ),
+    linear-gradient(
+      180deg,
+      #02040a 0%,
+      #040918 42%,
+      #030712 72%,
+      #010208 100%
+    ) !important;
+}
+
+/* faint stellar field */
+.ci2-space {
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.82) 1px,
+      transparent 1.6px
+    ),
+    radial-gradient(
+      circle,
+      rgba(255, 223, 177, 0.52) 1px,
+      transparent 1.7px
+    ),
+    radial-gradient(
+      circle,
+      rgba(136, 179, 255, 0.44) 1px,
+      transparent 1.7px
+    ) !important;
+
+  background-size:
+    88px 88px,
+    157px 157px,
+    239px 239px !important;
+
+  opacity: 0.24 !important;
+}
+
+.ci2-space::before {
+  inset: -18% !important;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 30%,
+      rgba(119, 162, 255, 0.13),
+      transparent 30%
+    ),
+    conic-gradient(
+      from 180deg at 50% 52%,
+      transparent 0deg,
+      rgba(111, 157, 255, 0.08) 70deg,
+      transparent 130deg,
+      rgba(245, 216, 162, 0.09) 220deg,
+      transparent 300deg
+    ) !important;
+
+  filter: blur(54px) !important;
+  opacity: 0.9 !important;
+}
+
+/* ----------------------------------------------------------
+   2. Stage: darker transparent cosmic chamber
+---------------------------------------------------------- */
+
+.ci2-stage {
+  isolation: isolate;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 44%,
+      rgba(244, 214, 167, 0.1),
+      transparent 24%
+    ),
+    radial-gradient(
+      ellipse at 50% 53%,
+      rgba(115, 162, 255, 0.09),
+      transparent 37%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(10, 16, 30, 0.72),
+      rgba(3, 7, 17, 0.74)
+    ) !important;
+
+  border-color: rgba(255, 255, 255, 0.1) !important;
+
+  box-shadow:
+    0 42px 150px rgba(0, 0, 0, 0.58),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 0 110px rgba(101, 147, 255, 0.045),
+    0 0 80px rgba(70, 110, 200, 0.035) !important;
+}
+
+.ci2-stage::before {
+  content: "";
+  position: absolute;
+  inset: -12%;
+  z-index: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse at 24% 18%,
+      rgba(109, 153, 255, 0.22),
+      transparent 19%
+    ),
+    radial-gradient(
+      ellipse at 78% 17%,
+      rgba(255, 213, 155, 0.19),
+      transparent 21%
+    ),
+    radial-gradient(
+      ellipse at 50% 54%,
+      rgba(255, 255, 255, 0.09),
+      transparent 27%
+    );
+
+  filter: blur(38px);
+  opacity: 0.72;
+}
+
+.ci2-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.7) 1px,
+      transparent 1.7px
+    ),
+    radial-gradient(
+      circle,
+      rgba(247, 216, 167, 0.42) 1px,
+      transparent 1.7px
+    );
+
+  background-size:
+    105px 105px,
+    183px 183px;
+
+  opacity: 0.16;
+}
+
+/* ----------------------------------------------------------
+   3. Orbital lines
+---------------------------------------------------------- */
+
+.ci2-orbit {
+  z-index: 2;
+  filter:
+    drop-shadow(0 0 9px rgba(247, 216, 167, 0.1))
+    drop-shadow(0 0 16px rgba(113, 161, 255, 0.08));
+}
+
+.ci2-orbit.orbit-1 {
+  border-color: rgba(248, 217, 169, 0.24) !important;
+}
+
+.ci2-orbit.orbit-2 {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.ci2-orbit.orbit-3 {
+  border-color: rgba(118, 163, 255, 0.15) !important;
+}
+
+/* ----------------------------------------------------------
+   4. DNA depth and glow
+---------------------------------------------------------- */
+
+.ci2-dna {
+  z-index: 4 !important;
+
+  filter:
+    drop-shadow(0 0 24px rgba(245, 216, 162, 0.21))
+    drop-shadow(0 0 58px rgba(109, 157, 255, 0.14));
+}
+
+.ci2-dna::before {
+  content: "";
+  position: absolute;
+  inset: 0 16%;
+  z-index: -2;
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      ellipse at 50% 18%,
+      rgba(112, 169, 255, 0.48),
+      transparent 11%
+    ),
+    radial-gradient(
+      ellipse at 50% 40%,
+      rgba(255, 220, 169, 0.43),
+      transparent 13%
+    ),
+    radial-gradient(
+      ellipse at 50% 63%,
+      rgba(136, 114, 255, 0.28),
+      transparent 14%
+    ),
+    radial-gradient(
+      ellipse at 50% 84%,
+      rgba(255, 215, 160, 0.35),
+      transparent 12%
+    );
+
+  filter: blur(18px);
+  opacity: 0.66;
+}
+
+.ci2-dna::after {
+  content: "";
+  position: absolute;
+  inset: 4% 24%;
+  z-index: -1;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(117, 171, 255, 0.15),
+      rgba(245, 216, 162, 0.12),
+      rgba(132, 109, 255, 0.1),
+      rgba(245, 216, 162, 0.13)
+    );
+
+  filter: blur(28px);
+  border-radius: 50%;
+  opacity: 0.85;
+}
+
+.ci2-strand {
+  border-color: rgba(255, 224, 180, 0.54) !important;
+  border-width: 1.3px !important;
+
+  box-shadow:
+    0 0 12px rgba(255, 226, 180, 0.27),
+    0 0 34px rgba(111, 162, 255, 0.14),
+    inset 0 0 18px rgba(255, 255, 255, 0.035) !important;
+}
+
+.ci2-strand::before {
+  border-color: rgba(121, 176, 255, 0.29) !important;
+  filter: blur(5px) !important;
+}
+
+/* ----------------------------------------------------------
+   5. DNA nodes
+---------------------------------------------------------- */
+
+.ci2-dna-node {
+  color: rgba(255, 232, 193, 0.99) !important;
+
+  background:
+    radial-gradient(
+      circle at 38% 30%,
+      rgba(255, 235, 196, 0.27),
+      transparent 22%
+    ),
+    radial-gradient(
+      circle,
+      rgba(245, 216, 162, 0.19),
+      rgba(4, 7, 16, 0.97) 69%
+    ) !important;
+
+  border-color: rgba(255, 223, 174, 0.42) !important;
+
+  text-shadow:
+    0 0 12px rgba(255, 226, 181, 0.7),
+    0 0 28px rgba(115, 165, 255, 0.28) !important;
+
+  box-shadow:
+    0 0 24px rgba(245, 216, 162, 0.2),
+    0 0 54px rgba(245, 216, 162, 0.18),
+    0 0 88px rgba(107, 158, 255, 0.11),
+    inset 0 0 24px rgba(255, 255, 255, 0.06) !important;
+}
+
+/* distinct layer temperatures */
+.ci2-dna-node.node-1,
+.ci2-dna-node.node-2 {
+  box-shadow:
+    0 0 38px rgba(111, 168, 255, 0.26),
+    0 0 78px rgba(111, 168, 255, 0.13),
+    inset 0 0 24px rgba(255, 255, 255, 0.06) !important;
+}
+
+.ci2-dna-node.node-3,
+.ci2-dna-node.node-4 {
+  box-shadow:
+    0 0 38px rgba(183, 141, 255, 0.22),
+    0 0 78px rgba(183, 141, 255, 0.11),
+    inset 0 0 24px rgba(255, 255, 255, 0.06) !important;
+}
+
+.ci2-dna-node.node-5,
+.ci2-dna-node.node-6 {
+  box-shadow:
+    0 0 38px rgba(255, 214, 155, 0.27),
+    0 0 78px rgba(255, 214, 155, 0.13),
+    inset 0 0 24px rgba(255, 255, 255, 0.06) !important;
+}
+
+/* ----------------------------------------------------------
+   6. Episteme Core
+---------------------------------------------------------- */
+
+.ci2-core {
+  z-index: 7 !important;
+
+  background:
+    radial-gradient(
+      circle at 42% 30%,
+      rgba(255, 255, 255, 0.07),
+      transparent 24%
+    ),
+    radial-gradient(
+      circle,
+      rgba(3, 7, 17, 0.97),
+      rgba(0, 1, 6, 0.99) 72%
+    ) !important;
+
+  border-color: rgba(255, 222, 171, 0.37) !important;
+
+  box-shadow:
+    0 0 34px rgba(245, 216, 162, 0.19),
+    0 0 82px rgba(245, 216, 162, 0.2),
+    0 0 146px rgba(110, 161, 255, 0.12),
+    inset 0 0 48px rgba(255, 255, 255, 0.045) !important;
+}
+
+.ci2-core::before {
+  content: "";
+  position: absolute;
+  inset: -18%;
+  z-index: -2;
+  border-radius: 50%;
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(245, 216, 162, 0.14),
+      transparent 61%
+    );
+
+  filter: blur(18px);
+}
+
+.ci2-core::after {
+  content: "";
+  position: absolute;
+  inset: -10%;
+  z-index: -1;
+  border-radius: 50%;
+  pointer-events: none;
+
+  border: 1px solid rgba(245, 216, 162, 0.1);
+
+  box-shadow:
+    0 0 34px rgba(245, 216, 162, 0.08),
+    inset 0 0 34px rgba(112, 163, 255, 0.05);
+}
+
+.ci2-core span {
+  color: rgba(255, 215, 157, 0.91) !important;
+  text-shadow: 0 0 16px rgba(245, 216, 162, 0.26);
+}
+
+.ci2-core strong {
+  text-shadow:
+    0 0 16px rgba(255, 255, 255, 0.2),
+    0 0 36px rgba(245, 216, 162, 0.12);
+}
+
+/* ----------------------------------------------------------
+   7. Glass layer cards
+---------------------------------------------------------- */
+
+.ci2-card {
+  background:
+    radial-gradient(
+      circle at 18% 0%,
+      rgba(126, 171, 255, 0.12),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 86% 100%,
+      rgba(245, 216, 162, 0.06),
+      transparent 38%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(18, 26, 43, 0.89),
+      rgba(5, 10, 22, 0.9)
+    ) !important;
+
+  border-color: rgba(255, 255, 255, 0.13) !important;
+
+  box-shadow:
+    0 32px 100px rgba(0, 0, 0, 0.5),
+    0 0 32px rgba(89, 133, 223, 0.035),
+    inset 0 1px 0 rgba(255, 255, 255, 0.09),
+    inset 0 0 45px rgba(116, 164, 255, 0.035) !important;
+}
+
+.ci2-card:hover,
+.ci2-card-active {
+  border-color: rgba(255, 219, 165, 0.36) !important;
+
+  box-shadow:
+    0 38px 115px rgba(0, 0, 0, 0.58),
+    0 0 52px rgba(245, 216, 162, 0.12),
+    0 0 86px rgba(111, 162, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
+}
+
+/* layer-specific glass temperature */
+.ci2-card.card-1,
+.ci2-card.card-2 {
+  background:
+    radial-gradient(
+      circle at 18% 0%,
+      rgba(104, 161, 255, 0.14),
+      transparent 40%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(15, 25, 44, 0.9),
+      rgba(4, 9, 20, 0.92)
+    ) !important;
+}
+
+.ci2-card.card-3,
+.ci2-card.card-4 {
+  background:
+    radial-gradient(
+      circle at 18% 0%,
+      rgba(156, 119, 255, 0.12),
+      transparent 40%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(20, 20, 43, 0.9),
+      rgba(6, 8, 20, 0.92)
+    ) !important;
+}
+
+.ci2-card.card-5,
+.ci2-card.card-6 {
+  background:
+    radial-gradient(
+      circle at 18% 0%,
+      rgba(255, 204, 137, 0.1),
+      transparent 40%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(28, 23, 33, 0.9),
+      rgba(8, 8, 17, 0.92)
+    ) !important;
+}
+
+.ci2-card-head > span {
+  color: rgba(255, 228, 184, 0.97) !important;
+  border-color: rgba(255, 221, 171, 0.36) !important;
+
+  background:
+    radial-gradient(
+      circle at 38% 28%,
+      rgba(255, 236, 202, 0.14),
+      rgba(255, 255, 255, 0.025) 62%
+    ) !important;
+
+  box-shadow:
+    0 0 22px rgba(245, 216, 162, 0.12),
+    inset 0 0 18px rgba(255, 255, 255, 0.025);
+}
+
+.ci2-card-head strong {
+  color: rgba(255, 224, 180, 0.94) !important;
+  text-shadow: 0 0 13px rgba(245, 216, 162, 0.13);
+}
+
+.ci2-card small,
+.ci2-more {
+  color: rgba(255, 216, 157, 0.86) !important;
+}
+
+/* ----------------------------------------------------------
+   8. Intelligence connection beams
+---------------------------------------------------------- */
+
+@media (min-width: 769px) {
+  .ci2-card::after {
+    opacity: 0.82 !important;
+
+    background:
+      linear-gradient(
+        90deg,
+        rgba(255, 225, 178, 0.69),
+        rgba(111, 163, 255, 0.38),
+        transparent
+      ) !important;
+
+    box-shadow:
+      0 0 11px rgba(245, 216, 162, 0.32),
+      0 0 24px rgba(111, 163, 255, 0.16);
+  }
+
+  .ci2-card.card-2::after,
+  .ci2-card.card-4::after,
+  .ci2-card.card-6::after {
+    background:
+      linear-gradient(
+        270deg,
+        rgba(255, 225, 178, 0.69),
+        rgba(111, 163, 255, 0.38),
+        transparent
+      ) !important;
+  }
+}
+
+/* ----------------------------------------------------------
+   9. Header refinement
+---------------------------------------------------------- */
+
+.ci2-header span {
+  color: rgba(255, 213, 153, 0.86) !important;
+
+  text-shadow:
+    0 0 12px rgba(245, 216, 162, 0.2),
+    0 0 25px rgba(111, 163, 255, 0.08);
+}
+
+.ci2-header h1 {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1),
+      rgba(227, 231, 241, 0.91)
+    );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+
+  text-shadow:
+    0 0 38px rgba(255, 255, 255, 0.06);
+}
+
+/* ----------------------------------------------------------
+   10. Keep existing fit dimensions unchanged
+---------------------------------------------------------- */
+
+@media (min-width: 769px) {
+  .ci2-stage,
+  .ci2-dna,
+  .ci2-core,
+  .ci2-card {
+    box-sizing: border-box;
+  }
+}
+
+/* ----------------------------------------------------------
+   11. Mobile visual safety
+---------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .ci2-stage::before {
+    opacity: 0.42;
+    filter: blur(28px);
+  }
+
+  .ci2-stage::after {
+    opacity: 0.1;
+  }
+
+  .ci2-dna {
+    filter:
+      drop-shadow(0 0 20px rgba(245, 216, 162, 0.14))
+      drop-shadow(0 0 38px rgba(109, 157, 255, 0.09));
+  }
+
+  .ci2-card {
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+}
+
+/* ----------------------------------------------------------
+   12. Reduced-motion accessibility
+---------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .ci2-card,
+  .ci2-dna,
+  .ci2-dna-node,
+  .ci2-core {
+    animation: none !important;
+    transition: none !important;
+  }
+}
