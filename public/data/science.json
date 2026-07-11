@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-10T22:06:25.733Z",
+  "updated": "2026-07-11T00:00:26.392Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "To ancient astronomers, Theta Eridani was brighter for 1,000 years—now we know why",
+      "url": "https://phys.org/news/2026-07-ancient-astronomers-theta-eridani-brighter.html",
+      "summary": "There's a bit of a historical mystery surrounding the star Theta Eridani. Ptolemy in the second century A.D. and al-Sufi in A.D. 964 both recorded Theta Eridani as one of the 13 brightest stars in the sky. Hipparchus may…",
+      "ts": 1783725601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New sensors capture warning signs before fish deaths in Lake Victoria",
+      "url": "https://phys.org/news/2026-07-sensors-capture-fish-deaths-lake.html",
+      "summary": "Researchers from King's College London recorded the warning signs of a major low-oxygen event in Lake Victoria just hours before fish deaths were reported by local communities, demonstrating why earlier warning systems a…",
+      "ts": 1783722001000
+    },
     {
       "source": "Phys.org",
       "title": "Dark energy flips its sign, but the Hubble tension refuses to budge",
@@ -367,6 +381,27 @@
       "ts": 1783681201000
     },
     {
+      "source": "APS PRX",
+      "title": "Electric-Field Control of Interlayer Binding and Friction in $h$-BN Contacts",
+      "url": "http://link.aps.org/doi/10.1103/s32x-hjrx",
+      "summary": "Author(s): Penghua Ying, Michael Urbakh, and Oded Hod External electric fields can be used to control sliding resistance in layered materials, providing a way to control friction in some systems. [Phys. Rev. X 16, 031003…",
+      "ts": 1783677600000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Disorder-enhanced spin Hall effect in Ru-Pt alloy thin films",
+      "url": "http://link.aps.org/doi/10.1103/hvn3-gjfy",
+      "summary": "Author(s): Vineetha S. Bheemarasetty , Xinhao Wang, Shreya Shrestha, M. Benjamin Jungfleisch, Lars Gundlach, John Q. Xiao, and Gang Xiao The search for material systems exhibiting a large spin Hall effect is central to t…",
+      "ts": 1783677600000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Microwave radiometry of a quantum-critical hybrid Josephson array",
+      "url": "http://link.aps.org/doi/10.1103/75bl-mm3b",
+      "summary": "Author(s): Kristen W. Léonard, Anton V. Bubis, Melissa Mikalsen, William F. Schiela, Bassel H. Elfeky, William M. Strickland, Duc Phan, Javad Shabani, and Andrew P. Higginbotham Arrays of Josephson junctions can be tuned…",
+      "ts": 1783677600000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Accelerated Sequential Posterior Inference via Reuse for Gravitational-Wave Analyses",
       "url": "http://link.aps.org/doi/10.1103/5hvn-3lmh",
@@ -665,41 +700,6 @@
       "title": "Extracting inter-nuclear distances in the oxygen molecule interacting with an XFEL-pulse: a fundamental system for understanding Coulomb explosion imaging",
       "url": "https://arxiv.org/abs/2607.08211",
       "summary": "arXiv:2607.08211v1 Announce Type: new Abstract: We investigate the interaction of O$_{2}$ with an X-ray Free Electron laser (XFEL) pulse of short duration. We consider a photon energy of 570 eV, which allows for the form…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Trapping-loss transition via a saddle-node bifurcation in thermophoretic particle transport driven by a time-periodic vortex",
-      "url": "https://arxiv.org/abs/2607.08223",
-      "summary": "arXiv:2607.08223v1 Announce Type: new Abstract: The transport of inertial particles in unsteady flows is often governed by the competition between multiple migration mechanisms. We investigate the interplay between inert…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nanosecond Pulsed-Laser Treatment Couples Chloride Removal with Oxide Transformation in Salt-Corroded Carbon Steel",
-      "url": "https://arxiv.org/abs/2607.08229",
-      "summary": "arXiv:2607.08229v1 Announce Type: new Abstract: Maintaining carbon steel in marine environments requires surface treatments capable of simultaneously removing corrosion products and chloride contaminants whilst modifying…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ion-Implanted Silicon Nanoregions Enable Ultra-Low-Loss Trimming of Cladded Photonic Integrated Circuits",
-      "url": "https://arxiv.org/abs/2607.08266",
-      "summary": "arXiv:2607.08266v1 Announce Type: new Abstract: Photonic integrated circuits (PICs) have emerged as a key platform for information processing, including optical communication and computing. As PIC complexity increases, f…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Do Indian Drivers Conform to Newells Car Following Model?",
-      "url": "https://arxiv.org/abs/2607.08287",
-      "summary": "arXiv:2607.08287v1 Announce Type: new Abstract: Newell's simplified car-following model is known for its parsimony and behavioural interpretability, but the effects of finite interaction boundaries on parameter estimatio…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sensitivity of a low-shear heliotron configuration to localised ferrite perturbations",
-      "url": "https://arxiv.org/abs/2607.08290",
-      "summary": "arXiv:2607.08290v1 Announce Type: new Abstract: The influence of ferritic steel on low-shear stellarator/heliotron magnetic configurations is investigated for the Heliotron J device using a point dipole magnetisation mod…",
       "ts": 1783656000000
     }
   ],
