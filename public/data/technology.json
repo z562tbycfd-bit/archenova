@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-11T00:00:30.073Z",
+  "updated": "2026-07-11T03:34:33.469Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "FCC approves first Reflect Orbital satellite",
+      "url": "https://spacenews.com/fcc-approves-first-reflect-orbital-satellite/",
+      "summary": "The Federal Communications Commission has given its approval for a satellite that will test the ability to reflect sunlight into nighttime regions, a project sharply criticized by astronomers and environmentalists. The p…",
+      "ts": 1783729765000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Nominee for key federal health role has a history of questioning vaccines",
@@ -132,6 +140,14 @@
     },
     {
       "source": "United Nations News",
+      "title": "World News in Brief: UN spotlights education aid solution, Sri Lanka prison violence, humanitarian aid to Venezuela",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167918",
+      "summary": "The UN Educational, Scientific and Cultural Organization (UNESCO) urged international lenders to expand debt-for-education swaps, warning in a Friday report that many developing countries are spending more on debt servic…",
+      "ts": 1783684800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "South Sudan: UN acts ahead of drought to protect thousands",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167915",
       "summary": "As drought risk intensifies in South Sudan’s Eastern Equatoria state, a new UN-backed plan aims to protect thousands of people before the worst impacts take hold.",
@@ -159,14 +175,6 @@
       "title": "Aid cuts leave at least one million women and girls without vital support",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167908",
       "summary": "At least one million women and girls have lost access to critical humanitarian support since January 2025 as unprecedented aid cuts push women's organizations in crisis zones to the brink of collapse, the UN’s gender equ…",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: UN spotlights education aid solution, Sri Lanka prison violence, humanitarian aid to Venezuela",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167918",
-      "summary": "The UN Educational, Scientific and Cultural Organization (UNESCO) urged international lenders to expand debt-for-education swaps, warning in a Friday report that many developing countries are spending more on debt servic…",
       "ts": 1783684800000,
       "categoryId": "global-governance"
     },
@@ -248,14 +256,6 @@
       "url": "https://spacenews.com/china-becomes-second-country-to-recover-orbital-booster-with-long-march-10b/",
       "summary": "HELSINKI — China launched its Long March 10B rocket early Friday and successfully recovered the first stage, marking a huge step for the country’s reusable rocket efforts. The first Long […] The post China becomes second…",
       "ts": 1783666542000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Where Venezuela’s Earthquakes Shifted the Ground",
-      "url": "https://science.nasa.gov/earth/earth-observatory/where-venezuelas-earthquakes-shifted-the-ground/",
-      "summary": "Radar data from the NISAR satellite show that La Guaira and nearby areas experienced significant ground displacement from the June 2026 temblors.",
-      "ts": 1783656000000,
       "categoryId": "space"
     },
     {
@@ -409,6 +409,14 @@
       "summary": "arXiv:2607.06629v2 Announce Type: replace-cross Abstract: Brain age - the age inferred from a physiological recording - is an emerging biomarker whose deviation from chronological age tracks neurological and psychiatric …",
       "ts": 1783656000000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Where Venezuela’s Earthquakes Shifted the Ground",
+      "url": "https://science.nasa.gov/earth/earth-observatory/where-venezuelas-earthquakes-shifted-the-ground/",
+      "summary": "Radar data from the NISAR satellite show that La Guaira and nearby areas experienced significant ground displacement from the June 2026 temblors.",
+      "ts": 1783656000000,
+      "categoryId": "space"
     },
     {
       "source": "Nature Energy",
@@ -713,14 +721,6 @@
       "summary": "The CRADA framework is intended to ensure that critical resources for biological threats, whether from naturally emerging diseases or engineered risks, are ready and available on demand, rather than episodically. The pos…",
       "ts": 1783598459000,
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Golden Dome and the search for new space markets",
-      "url": "https://spacenews.com/golden-dome-and-the-search-for-new-space-markets/",
-      "summary": "Even as many details of Golden Dome remain unsettled, the missile-defense program has become a focal point for space and defense startups looking for new markets The post Golden Dome and the search for new space markets …",
-      "ts": 1783598400000,
-      "categoryId": "space"
     }
   ],
   "categories": [

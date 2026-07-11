@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-11T00:00:26.392Z",
+  "updated": "2026-07-11T03:34:31.006Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Collective agreements are least common where workers need them most",
+      "url": "https://phys.org/news/2026-07-agreements-common-workers.html",
+      "summary": "Workers earning the lowest wages are the least likely to be covered by collective agreements in Germany, despite being the group for whom these protections are arguably most important. In 2021, only 34% of workers in the…",
+      "ts": 1783736402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Understanding anti-blackness at Hispanic-serving research universities",
+      "url": "https://phys.org/news/2026-07-anti-blackness-hispanic-universities.html",
+      "summary": "At Hispanic-Serving Institutions (HSIs), conversations about diversity often center on supporting Hispanic/Latine students. New research from scholars at University of New Mexico highlights an important and sometimes ove…",
+      "ts": 1783732801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Geoscientists reveal how Earth's forces are shaping the 'Roof of the World'",
+      "url": "https://phys.org/news/2026-07-geoscientists-reveal-earth-roof-world.html",
+      "summary": "Geoscientists at the University of Glasgow have helped reveal new evidence about the formation of one of the highest mountainous areas on Earth—the Tibetan Plateau. A study by an international team of Chinese and U.K. ge…",
+      "ts": 1783730401000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Molecular imaging-guided discovery of a potent natural FAPα inhibitor for liver fibrosis therapy",
+      "url": "https://www.nature.com/articles/s41467-026-75493-9",
+      "summary": "",
+      "ts": 1783728000000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Distinct roles of the JADE and BRPF scaffolding subunits of the acetyltransferase HBO1 complex",
+      "url": "https://www.nature.com/articles/s41467-026-75379-w",
+      "summary": "",
+      "ts": 1783728000000
+    },
     {
       "source": "Phys.org",
       "title": "To ancient astronomers, Theta Eridani was brighter for 1,000 years—now we know why",
@@ -381,27 +416,6 @@
       "ts": 1783681201000
     },
     {
-      "source": "APS PRX",
-      "title": "Electric-Field Control of Interlayer Binding and Friction in $h$-BN Contacts",
-      "url": "http://link.aps.org/doi/10.1103/s32x-hjrx",
-      "summary": "Author(s): Penghua Ying, Michael Urbakh, and Oded Hod External electric fields can be used to control sliding resistance in layered materials, providing a way to control friction in some systems. [Phys. Rev. X 16, 031003…",
-      "ts": 1783677600000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Disorder-enhanced spin Hall effect in Ru-Pt alloy thin films",
-      "url": "http://link.aps.org/doi/10.1103/hvn3-gjfy",
-      "summary": "Author(s): Vineetha S. Bheemarasetty , Xinhao Wang, Shreya Shrestha, M. Benjamin Jungfleisch, Lars Gundlach, John Q. Xiao, and Gang Xiao The search for material systems exhibiting a large spin Hall effect is central to t…",
-      "ts": 1783677600000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Microwave radiometry of a quantum-critical hybrid Josephson array",
-      "url": "http://link.aps.org/doi/10.1103/75bl-mm3b",
-      "summary": "Author(s): Kristen W. Léonard, Anton V. Bubis, Melissa Mikalsen, William F. Schiela, Bassel H. Elfeky, William M. Strickland, Duc Phan, Javad Shabani, and Andrew P. Higginbotham Arrays of Josephson junctions can be tuned…",
-      "ts": 1783677600000
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Accelerated Sequential Posterior Inference via Reuse for Gravitational-Wave Analyses",
       "url": "http://link.aps.org/doi/10.1103/5hvn-3lmh",
@@ -410,9 +424,16 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Extended Haloscope Search and Exclusion of a Candidate Signal near 1.036 GHz",
+      "url": "http://link.aps.org/doi/10.1103/2sn2-h97m",
+      "summary": "Author(s): Saebyeok Ahn et al. We report a follow-up axion haloscope search near 1.036 GHz that completes and extends our previous work [Ahn et al. Phys. Rev. X 14, 031023 (2024)], in which a portion of the HEMT-based da…",
+      "ts": 1783677600000
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Cavendish Tests of Millicharged Particles",
       "url": "http://link.aps.org/doi/10.1103/83fd-mnpk",
-      "summary": "Author(s): Asher Berlin, Zachary Bogorad, Peter W. Graham, and Harikrishnan Ramani Decades-old experiments have now been enlisted to set new bounds on the properties of a dark matter candidate that bears a tiny fraction …",
+      "summary": "Author(s): Asher Berlin, Zachary Bogorad, Peter W. Graham, and Harikrishnan Ramani Decades-old experiments have now been enlisted to set new bounds on the properties of a hypothetical particle that bears a tiny fraction …",
       "ts": 1783677600000
     },
     {
@@ -420,6 +441,13 @@
       "title": "Quadratic Band Touching and Nontrivial Winding Reveal Generalized Angular Momentum Conservation",
       "url": "http://link.aps.org/doi/10.1103/br8b-n4b4",
       "summary": "Author(s): Yihan Wang, Domenico Bongiovanni, Dario Jukić, Sihong Lei, Zhichan Hu, Daohong Song, Jingjun Xu, Roberto Morandotti, Hrvoje Buljan, and Zhigang Chen Angular momentum conservation stands as one of the most fund…",
+      "ts": 1783677600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "First Experimental Demonstration of Beam Storage by a Three-Dimensional Spiral Injection Scheme for Ultracompact Storage Rings",
+      "url": "http://link.aps.org/doi/10.1103/8nxx-srgz",
+      "summary": "Author(s): R. Matsushita, H. Iinuma, S. Ohsawa, H. Nakayama, K. Furukawa, S. Ogawa, N. Saito, T. Mibe, and M. A. Rehman Three-dimensional spiral injection enables beam storage in ultracompact rings with nanosecond revolu…",
       "ts": 1783677600000
     },
     {
@@ -465,17 +493,24 @@
       "ts": 1783677600000
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Extended Haloscope Search and Exclusion of a Candidate Signal near 1.036 GHz",
-      "url": "http://link.aps.org/doi/10.1103/2sn2-h97m",
-      "summary": "Author(s): Saebyeok Ahn et al. We report a follow-up axion haloscope search near 1.036 GHz that completes and extends our previous work [Ahn et al. Phys. Rev. X 14, 031023 (2024)], in which a portion of the HEMT-based da…",
+      "source": "APS PRX",
+      "title": "Electric-Field Control of Interlayer Binding and Friction in $h$-BN Contacts",
+      "url": "http://link.aps.org/doi/10.1103/s32x-hjrx",
+      "summary": "Author(s): Penghua Ying, Michael Urbakh, and Oded Hod External electric fields can be used to control sliding resistance in layered materials, providing a way to control friction in some systems. [Phys. Rev. X 16, 031003…",
       "ts": 1783677600000
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "First Experimental Demonstration of Beam Storage by a Three-Dimensional Spiral Injection Scheme for Ultracompact Storage Rings",
-      "url": "http://link.aps.org/doi/10.1103/8nxx-srgz",
-      "summary": "Author(s): R. Matsushita, H. Iinuma, S. Ohsawa, H. Nakayama, K. Furukawa, S. Ogawa, N. Saito, T. Mibe, and M. A. Rehman Three-dimensional spiral injection enables beam storage in ultracompact rings with nanosecond revolu…",
+      "source": "APS PR Applied",
+      "title": "Disorder-enhanced spin Hall effect in Ru-Pt alloy thin films",
+      "url": "http://link.aps.org/doi/10.1103/hvn3-gjfy",
+      "summary": "Author(s): Vineetha S. Bheemarasetty , Xinhao Wang, Shreya Shrestha, M. Benjamin Jungfleisch, Lars Gundlach, John Q. Xiao, and Gang Xiao The search for material systems exhibiting a large spin Hall effect is central to t…",
+      "ts": 1783677600000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Microwave radiometry of a quantum-critical hybrid Josephson array",
+      "url": "http://link.aps.org/doi/10.1103/75bl-mm3b",
+      "summary": "Author(s): Kristen W. Léonard, Anton V. Bubis, Melissa Mikalsen, William F. Schiela, Bassel H. Elfeky, William M. Strickland, Duc Phan, Javad Shabani, and Andrew P. Higginbotham Arrays of Josephson junctions can be tuned…",
       "ts": 1783677600000
     },
     {
@@ -665,41 +700,6 @@
       "title": "State-Averaged Density Matrix Embedding Theory for Local Excitations",
       "url": "https://arxiv.org/abs/2607.08178",
       "summary": "arXiv:2607.08178v1 Announce Type: new Abstract: Density matrix embedding theory (DMET) provides an elegant framework in quantum chemistry to describe local properties of chemical systems that allows a high-level method b…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An advanced undergraduate derivation of acceleration thermality",
-      "url": "https://arxiv.org/abs/2607.08184",
-      "summary": "arXiv:2607.08184v1 Announce Type: new Abstract: The thermal radioactivity of beta-decay photons, described by a 1D Planck distribution, can be modeled as classical radiation emitted by an accelerated electron. Here, we p…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parallel simulation of rarefied gas flows on unstructured meshes using the DIG-augmented DSMC method",
-      "url": "https://arxiv.org/abs/2607.08195",
-      "summary": "arXiv:2607.08195v1 Announce Type: new Abstract: While the direct simulation Monte Carlo (DSMC) is a mainstream stochastic particle method for simulating rarefied gas flows, it incurs excessively high computational costs …",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a Silicon-Based Ultra-Fast X-Ray Beam Size Monitor for SuperKEKB",
-      "url": "https://arxiv.org/abs/2607.08205",
-      "summary": "arXiv:2607.08205v1 Announce Type: new Abstract: We present the development of a silicon-based ultra-fast X-ray beam size monitor (SiXRM) for SuperKEKB. The system enables, for the first time at SuperKEKB, bunch-by-bunch …",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learned Committors as Reaction Coordinates for Nucleation Rates",
-      "url": "https://arxiv.org/abs/2607.08207",
-      "summary": "arXiv:2607.08207v1 Announce Type: new Abstract: A central challenge in the analysis of first-order phase transitions is the identification of optimal reaction coordinates. In principle, the committor is the ideal choice;…",
-      "ts": 1783656000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extracting inter-nuclear distances in the oxygen molecule interacting with an XFEL-pulse: a fundamental system for understanding Coulomb explosion imaging",
-      "url": "https://arxiv.org/abs/2607.08211",
-      "summary": "arXiv:2607.08211v1 Announce Type: new Abstract: We investigate the interaction of O$_{2}$ with an X-ray Free Electron laser (XFEL) pulse of short duration. We consider a photon energy of 570 eV, which allows for the form…",
       "ts": 1783656000000
     }
   ],
