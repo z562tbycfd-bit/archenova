@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-11T13:24:36.352Z",
+  "updated": "2026-07-11T14:56:45.147Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Parabilis tests propulsion system for maneuverable cubesats",
+      "url": "https://spacenews.com/parabilis-tests-propulsion-system-for-maneuverable-cubesats/",
+      "summary": "The Space Force is backing the development of the company’s hybrid engine technology for small satellites The post Parabilis tests propulsion system for maneuverable cubesats appeared first on SpaceNews.",
+      "ts": 1783777178000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "FCC approves first Reflect Orbital satellite",
@@ -713,14 +721,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Four nuclear reactors hit a big milestone in the US —Casey Crownhart I was really …",
       "ts": 1783599000000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Texas Biomed Enters Into a CRADA with U.S. Dept. of War to Help Protect Against Biological Threats",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/texas-biomed-enters-into-a-crada-with-the-u-s-dept-of-war-to-help-protect-against-biological-threats/",
-      "summary": "The CRADA framework is intended to ensure that critical resources for biological threats, whether from naturally emerging diseases or engineered risks, are ready and available on demand, rather than episodically. The pos…",
-      "ts": 1783598459000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

@@ -1,6 +1,171 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "general-their-story-is-our-story-pigeons-and-humans-3-500-years-together",
+    "title": "'Their story is our story': Pigeons and humans, 3,500 years together",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-05-story-pigeons-humans-years.html",
+    "summary": "They have been our meat and our messengers, a source of fertilizer and a religious symbol: while pigeons are now mostly reviled as dirty city pests, they long played an important role in human society.",
+    "coreInsight": "'Their story is our story': Pigeons and humans, 3,500 years together is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "They have been our meat and our messengers, a source of fertilizer and a religious symbol: while pigeons are now mostly reviled as dirty city pests, they long played an important role in human society.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1783779601000
+  },
+  {
+    "slug": "general-cast-away-tracing-the-voyage-of-a-plastic-bottle-cap-and-its-hitchhiking-marine-",
+    "title": "Cast away: Tracing the voyage of a plastic bottle cap and its hitchhiking marine species",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-voyage-plastic-bottle-cap-hitchhiking.html",
+    "summary": "Researchers have traced the journey of a plastic bottle cap recovered near the waters of southern Japan by combining data from the label, chemical clues in tiny shells and ocean current simulations. They found 307 organi…",
+    "coreInsight": "Cast away: Tracing the voyage of a plastic bottle cap and its hitchhiking marine species indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
+    "scientificSignal": "Researchers have traced the journey of a plastic bottle cap recovered near the waters of southern Japan by combining data from the label, chemical clues in tiny shells and ocean current simulations. They found 307 organi…",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from observation into decision systems, infrastructure adaptation, governance response, and measurable resilience outcomes.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from observation into decision systems, infrastructure adaptation, governance response, and measurable resilience outcomes.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.1,
+      "engineering": 7.9,
+      "economic": 8,
+      "civilization": 9.2,
+      "overall": 8.4,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1783778401000
+  },
+  {
+    "slug": "space-parabilis-tests-propulsion-system-for-maneuverable-cubesats",
+    "title": "Parabilis tests propulsion system for maneuverable cubesats",
+    "category": "Space",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/parabilis-tests-propulsion-system-for-maneuverable-cubesats/",
+    "summary": "The Space Force is backing the development of the company’s hybrid engine technology for small satellites The post Parabilis tests propulsion system for maneuverable cubesats appeared first on SpaceNews.",
+    "coreInsight": "Parabilis tests propulsion system for maneuverable cubesats indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "The Space Force is backing the development of the company’s hybrid engine technology for small satellites The post Parabilis tests propulsion system for maneuverable cubesats appeared first on SpaceNews.",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.2,
+      "engineering": 10,
+      "economic": 8.8,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1783777178000
+  },
+  {
     "slug": "ai-the-safe-third-country-concept-turns-out-to-be-an-empty-shell",
     "title": "The 'safe third country' concept turns out to be an empty shell",
     "category": "AI",
@@ -5334,171 +5499,6 @@ export const generatedResearchReports =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1783609800000
-  },
-  {
-    "slug": "general-outbreak-of-diarrhea-causing-parasite-grows-to-more-than-1-000-cases",
-    "title": "Outbreak of diarrhea-causing parasite grows to more than 1,000 cases",
-    "category": "General",
-    "source": "STAT",
-    "originalUrl": "https://www.statnews.com/2026/07/09/cyclospora-outbreak-faq-diarrhea-causing-parasite/?utm_campaign=rss",
-    "summary": "An outbreak of diarrhea-causing parasite has grown to more than 1,000 cases, making it one of the nation’s largest such outbreaks in years.",
-    "coreInsight": "Outbreak of diarrhea-causing parasite grows to more than 1,000 cases is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "An outbreak of diarrhea-causing parasite has grown to more than 1,000 cases, making it one of the nation’s largest such outbreaks in years.",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1783609287000
-  },
-  {
-    "slug": "general-xona-unveils-program-to-verify-pulsar-compatible-devices",
-    "title": "Xona unveils program to verify Pulsar-compatible devices",
-    "category": "General",
-    "source": "SpaceNews",
-    "originalUrl": "https://spacenews.com/xona-unveils-program-to-verify-pulsar-compatible-devices/",
-    "summary": "SAN FRANCISCO – Xona, the Silicon Valley startup establishing Pulsar, a precision positioning, navigation and timing (PNT) constellation, announced a high-profile roster of partners developing compatible equipment. Xona …",
-    "coreInsight": "Xona unveils program to verify Pulsar-compatible devices is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "SAN FRANCISCO – Xona, the Silicon Valley startup establishing Pulsar, a precision positioning, navigation and timing (PNT) constellation, announced a high-profile roster of partners developing compatible equipment. Xona …",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1783609200000
-  },
-  {
-    "slug": "space-volatility-is-often-the-price-of-ambition",
-    "title": "Volatility is often the price of ambition",
-    "category": "Space",
-    "source": "SpaceNews",
-    "originalUrl": "https://spacenews.com/volatility-is-often-the-price-of-ambition/",
-    "summary": "For the growing number of constellations being designed around Starship, the wild ups and downs in the early days of SpaceX’s historic IPO have a familiar rhythm. While some of […] The post Volatility is often the price …",
-    "coreInsight": "Volatility is often the price of ambition indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "For the growing number of constellations being designed around Starship, the wild ups and downs in the early days of SpaceX’s historic IPO have a familiar rhythm. While some of […] The post Volatility is often the price …",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.3,
-      "engineering": 9.1,
-      "economic": 7.9,
-      "civilization": 9.6,
-      "overall": 8.8,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1783609200000
   }
 ];
 
@@ -5668,6 +5668,61 @@ export const archeNovaTopSignals =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1783710053000
+  },
+  {
+    "slug": "space-parabilis-tests-propulsion-system-for-maneuverable-cubesats",
+    "title": "Parabilis tests propulsion system for maneuverable cubesats",
+    "category": "Space",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/parabilis-tests-propulsion-system-for-maneuverable-cubesats/",
+    "summary": "The Space Force is backing the development of the company’s hybrid engine technology for small satellites The post Parabilis tests propulsion system for maneuverable cubesats appeared first on SpaceNews.",
+    "coreInsight": "Parabilis tests propulsion system for maneuverable cubesats indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "The Space Force is backing the development of the company’s hybrid engine technology for small satellites The post Parabilis tests propulsion system for maneuverable cubesats appeared first on SpaceNews.",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.2,
+      "engineering": 10,
+      "economic": 8.8,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1783777178000
   },
   {
     "slug": "space-fcc-approves-first-reflect-orbital-satellite",
@@ -5998,61 +6053,6 @@ export const archeNovaTopSignals =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1783625982000
-  },
-  {
-    "slug": "space-japan-s-space-agency-conducts-first-test-flight-for-experimental-reusable-rocket",
-    "title": "Japan's space agency conducts first test flight for experimental reusable rocket",
-    "category": "Space",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-07-japan-space-agency-flight-experimental.html",
-    "summary": "Japan's experimental reusable rocket took off and safely landed in a first test flight Saturday as the country seeks to achieve the technology key to cut launch costs and compete in the global space market dominated by S…",
-    "coreInsight": "Japan's space agency conducts first test flight for experimental reusable rocket indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "Japan's experimental reusable rocket took off and safely landed in a first test flight Saturday as the country seeks to achieve the technology key to cut launch costs and compete in the global space market dominated by S…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.8,
-      "engineering": 9.6,
-      "economic": 8.4,
-      "civilization": 10,
-      "overall": 9.3,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1783754383000
   }
 ];
 
@@ -6230,6 +6230,63 @@ export const archeNovaWatchlist =
     "rank": 3
   },
   {
+    "slug": "space-parabilis-tests-propulsion-system-for-maneuverable-cubesats",
+    "title": "Parabilis tests propulsion system for maneuverable cubesats",
+    "category": "Space",
+    "source": "SpaceNews",
+    "originalUrl": "https://spacenews.com/parabilis-tests-propulsion-system-for-maneuverable-cubesats/",
+    "summary": "The Space Force is backing the development of the company’s hybrid engine technology for small satellites The post Parabilis tests propulsion system for maneuverable cubesats appeared first on SpaceNews.",
+    "coreInsight": "Parabilis tests propulsion system for maneuverable cubesats indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "The Space Force is backing the development of the company’s hybrid engine technology for small satellites The post Parabilis tests propulsion system for maneuverable cubesats appeared first on SpaceNews.",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.2,
+      "engineering": 10,
+      "economic": 8.8,
+      "civilization": 10,
+      "overall": 9.6,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1783777178000,
+    "trend": "High Priority",
+    "rank": 4
+  },
+  {
     "slug": "space-fcc-approves-first-reflect-orbital-satellite",
     "title": "FCC approves first Reflect Orbital satellite",
     "category": "Space",
@@ -6284,7 +6341,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783729765000,
     "trend": "High Priority",
-    "rank": 4
+    "rank": 5
   },
   {
     "slug": "space-topological-decoding-of-grid-cell-activity-via-path-lifting-to-covering-spaces",
@@ -6341,7 +6398,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783656000000,
     "trend": "High Priority",
-    "rank": 5
+    "rank": 6
   },
   {
     "slug": "ai-ai-integrated-models-for-assessing-agricultural-resilience",
@@ -6398,7 +6455,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783742400000,
     "trend": "High Priority",
-    "rank": 6
+    "rank": 7
   },
   {
     "slug": "space-earth-observation-satellites-pass-telecom-in-european-space-industry-sales",
@@ -6455,7 +6512,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783707144000,
     "trend": "Stable",
-    "rank": 7
+    "rank": 8
   },
   {
     "slug": "ai-where-venezuela-s-earthquakes-shifted-the-ground",
@@ -6512,7 +6569,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783656000000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 9
   },
   {
     "slug": "ai-environmental-groups-urge-fcc-to-pause-orbital-data-center-applications",
@@ -6569,7 +6626,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783625982000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 10
   },
   {
     "slug": "space-japan-s-space-agency-conducts-first-test-flight-for-experimental-reusable-rocket",
@@ -6626,7 +6683,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783754383000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 11
   },
   {
     "slug": "ai-persona-cartography-charting-language-model-personality-traits-in-weight-space",
@@ -6683,7 +6740,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783742400000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 12
   },
   {
     "slug": "ai-agentic-neural-architecture-search",
@@ -6740,7 +6797,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783742400000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 13
   },
   {
     "slug": "ai-the-download-claude-s-inner-workings-and-openai-s-super-app",
@@ -6797,7 +6854,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783685400000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 14
   },
   {
     "slug": "space-elevationspace-advances-work-on-commercial-reentry-vehicle",
@@ -6854,7 +6911,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783682714000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 15
   },
   {
     "slug": "space-sda-tap-lab-evolves-into-bmc3i-tap-lab-and-in-partnership-with-catalyst-campus-l",
@@ -6911,7 +6968,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783636528000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 16
   },
   {
     "slug": "space-nasa-space-telescope-maps-magnetic-fields-of-lighthouse-pulsar",
@@ -6968,7 +7025,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783627715000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 17
   },
   {
     "slug": "space-curiosity-sees-martian-sulfur-up-close",
@@ -7025,7 +7082,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783614830000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 18
   },
   {
     "slug": "space-stat-roche-ends-huntington-s-gene-silencing-programs",
@@ -7082,7 +7139,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783690537000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 19
   },
   {
     "slug": "ai-iaea-led-mission-sample-alps-treated-water-at-fukushima-daiichi-nuclear-power-st",
@@ -7138,63 +7195,6 @@ export const archeNovaWatchlist =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1783677004000,
-    "trend": "Stable",
-    "rank": 19
-  },
-  {
-    "slug": "energy-projected-energy-matching-for-generative-3d-priors",
-    "title": "Projected Energy Matching for Generative 3D Priors",
-    "category": "Energy",
-    "source": "arXiv q-bio",
-    "originalUrl": "https://arxiv.org/abs/2607.07749",
-    "summary": "arXiv:2607.07749v1 Announce Type: cross Abstract: Energy Matching has emerged as a powerful generative framework that combines flow model efficiency with the explicit likelihood of Energy-Based Models (EBMs) via a single…",
-    "coreInsight": "Projected Energy Matching for Generative 3D Priors indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "arXiv:2607.07749v1 Announce Type: cross Abstract: Energy Matching has emerged as a powerful generative framework that combines flow model efficiency with the explicit likelihood of Energy-Based Models (EBMs) via a single…",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.7,
-      "engineering": 9.1,
-      "economic": 9.3,
-      "civilization": 9.7,
-      "overall": 9.2,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1783656000000,
     "trend": "Stable",
     "rank": 20
   }
