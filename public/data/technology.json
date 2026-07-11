@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-11T03:34:33.469Z",
+  "updated": "2026-07-11T06:16:20.631Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -259,6 +259,14 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "Where Venezuela’s Earthquakes Shifted the Ground",
+      "url": "https://science.nasa.gov/earth/earth-observatory/where-venezuelas-earthquakes-shifted-the-ground/",
+      "summary": "Radar data from the NISAR satellite show that La Guaira and nearby areas experienced significant ground displacement from the June 2026 temblors.",
+      "ts": 1783656000000,
+      "categoryId": "space"
+    },
+    {
       "source": "arXiv q-bio",
       "title": "UMA-Inverse: Ligand-Conditioned Protein Inverse Folding with a Distogram-Supervised Dense Pair Encoder",
       "url": "https://arxiv.org/abs/2607.07866",
@@ -409,14 +417,6 @@
       "summary": "arXiv:2607.06629v2 Announce Type: replace-cross Abstract: Brain age - the age inferred from a physiological recording - is an emerging biomarker whose deviation from chronological age tracks neurological and psychiatric …",
       "ts": 1783656000000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Where Venezuela’s Earthquakes Shifted the Ground",
-      "url": "https://science.nasa.gov/earth/earth-observatory/where-venezuelas-earthquakes-shifted-the-ground/",
-      "summary": "Radar data from the NISAR satellite show that La Guaira and nearby areas experienced significant ground displacement from the June 2026 temblors.",
-      "ts": 1783656000000,
-      "categoryId": "space"
     },
     {
       "source": "Nature Energy",
