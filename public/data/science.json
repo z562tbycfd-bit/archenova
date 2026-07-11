@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-11T16:00:03.737Z",
+  "updated": "2026-07-11T17:09:27.327Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A robot that reads bacteria by touch, without staining or chemical labels",
+      "url": "https://phys.org/news/2026-07-robot-bacteria-chemical.html",
+      "summary": "Fast identification of bacteria is important in health care, food safety, environmental monitoring and infection control. One of the most common first steps is gram classification, which separates bacteria into gram-posi…",
+      "ts": 1783789203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "World's largest whale graveyard discovered by Chinese sub",
+      "url": "https://phys.org/news/2026-06-world-largest-whale-graveyard-chinese.html",
+      "summary": "The world's largest whale graveyard has been discovered at the bottom of the Indian Ocean by Chinese scientists, who found that the vast expanse of both new and ancient carcasses supports huge communities of deep-sea lif…",
+      "ts": 1783788601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny worms reveal backup circuits that keep survival reflexes from failing",
+      "url": "https://phys.org/news/2026-07-tiny-worms-reveal-backup-circuits.html",
+      "summary": "A research team led by Professor Chaogu Zheng from the School of Biological Sciences at the University of Hong Kong (HKU), in collaboration with scientists from Princeton University and Columbia University, has discovere…",
+      "ts": 1783785603000
+    },
     {
       "source": "Phys.org",
       "title": "Could permanent magnets protect astronauts from solar storms?",
@@ -679,27 +700,6 @@
       "title": "When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning",
       "url": "https://arxiv.org/abs/2607.07976",
       "summary": "arXiv:2607.07976v1 Announce Type: cross Abstract: Reinforcement learning (RL) has achieved remarkable success in enhancing the reasoning capabilities of large language models (LLMs). However, widely used critic-free RL m…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "3100 Opinions on Code Review in an AI World: Building Causal Theory from Practitioner Discourse",
-      "url": "https://arxiv.org/abs/2607.07980",
-      "summary": "arXiv:2607.07980v1 Announce Type: cross Abstract: Coding agents now author entire pull requests, and practitioners sharply disagree about what this does to code review: whether it becomes the bottleneck, whether human re…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents",
-      "url": "https://arxiv.org/abs/2607.07985",
-      "summary": "arXiv:2607.07985v1 Announce Type: cross Abstract: We report the empirical reliability of Gemini models as audio judges that score full-duplex agent conversations directly from the raw stereo waveform, tested across three…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Who Broke the System? Failure Localization in LLM-Based Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2607.07989",
-      "summary": "arXiv:2607.07989v1 Announce Type: cross Abstract: Large language model (LLM) based multi-agent systems enable complex problem solving through coordinated reasoning and action, but their distributed structure also introdu…",
       "ts": 1783742400000
     }
   ],
