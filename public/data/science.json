@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-11T14:56:42.394Z",
+  "updated": "2026-07-11T16:00:03.737Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Could permanent magnets protect astronauts from solar storms?",
+      "url": "https://phys.org/news/2026-07-permanent-magnets-astronauts-solar-storms.html",
+      "summary": "Shielding astronauts from the deadly radiation they face is a central challenge for any designer of a deep-space crewed mission. Even relatively low levels of exposure over long periods can lead to everything from centra…",
+      "ts": 1783783801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "X-ray tracking reveals uneven expansion in young supernova remnant G292.0+1.8",
+      "url": "https://phys.org/news/2026-07-ray-tracking-reveals-uneven-expansion.html",
+      "summary": "By analyzing data from NASA's Chandra X-ray Observatory, Dutch astronomers have investigated a young, oxygen-rich supernova remnant known as G292.0+1.8. Results of the new study, published June 29 on the arXiv preprint s…",
+      "ts": 1783782002000
+    },
     {
       "source": "Phys.org",
       "title": "'Their story is our story': Pigeons and humans, 3,500 years together",
@@ -686,20 +700,6 @@
       "title": "Who Broke the System? Failure Localization in LLM-Based Multi-Agent Systems",
       "url": "https://arxiv.org/abs/2607.07989",
       "summary": "arXiv:2607.07989v1 Announce Type: cross Abstract: Large language model (LLM) based multi-agent systems enable complex problem solving through coordinated reasoning and action, but their distributed structure also introdu…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "SpO$_2$ Predictor-Guided Stage-Wise Time-Frequency Reconstruction of Low-Quality Dual-Wavelength PPG for Oxygen Saturation Estimation",
-      "url": "https://arxiv.org/abs/2607.07996",
-      "summary": "arXiv:2607.07996v1 Announce Type: cross Abstract: Continuous oxygen saturation (SpO$_2$) estimation from wearable photoplethysmography (PPG) is important for long-term health monitoring, but low-quality red and infrared …",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Reaction-network reasoning with frontier models for experimentally confirmed catalyst-selectivity hypotheses",
-      "url": "https://arxiv.org/abs/2607.08003",
-      "summary": "arXiv:2607.08003v1 Announce Type: cross Abstract: Catalysts are essential for sustainable chemical manufacturing, yet discovering novel architectures remains a bottleneck dominated by trial-and-error experimentation and …",
       "ts": 1783742400000
     }
   ],

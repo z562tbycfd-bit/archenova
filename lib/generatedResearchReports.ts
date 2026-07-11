@@ -1,6 +1,116 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "space-could-permanent-magnets-protect-astronauts-from-solar-storms",
+    "title": "Could permanent magnets protect astronauts from solar storms?",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-permanent-magnets-astronauts-solar-storms.html",
+    "summary": "Shielding astronauts from the deadly radiation they face is a central challenge for any designer of a deep-space crewed mission. Even relatively low levels of exposure over long periods can lead to everything from centra…",
+    "coreInsight": "Could permanent magnets protect astronauts from solar storms? indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Shielding astronauts from the deadly radiation they face is a central challenge for any designer of a deep-space crewed mission. Even relatively low levels of exposure over long periods can lead to everything from centra…",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Reality Discovery",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.5,
+      "engineering": 8.9,
+      "economic": 9.1,
+      "civilization": 9.5,
+      "overall": 9,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1783783801000
+  },
+  {
+    "slug": "space-x-ray-tracking-reveals-uneven-expansion-in-young-supernova-remnant-g292-0-1-8",
+    "title": "X-ray tracking reveals uneven expansion in young supernova remnant G292.0+1.8",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-ray-tracking-reveals-uneven-expansion.html",
+    "summary": "By analyzing data from NASA's Chandra X-ray Observatory, Dutch astronomers have investigated a young, oxygen-rich supernova remnant known as G292.0+1.8. Results of the new study, published June 29 on the arXiv preprint s…",
+    "coreInsight": "X-ray tracking reveals uneven expansion in young supernova remnant G292.0+1.8 indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "By analyzing data from NASA's Chandra X-ray Observatory, Dutch astronomers have investigated a young, oxygen-rich supernova remnant known as G292.0+1.8. Results of the new study, published June 29 on the arXiv preprint s…",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
+      "civilization": 10,
+      "overall": 9.3,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1783782002000
+  },
+  {
     "slug": "general-their-story-is-our-story-pigeons-and-humans-3-500-years-together",
     "title": "'Their story is our story': Pigeons and humans, 3,500 years together",
     "category": "General",
@@ -5389,176 +5499,11 @@ export const generatedResearchReports =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1783614830000
-  },
-  {
-    "slug": "ai-nasa-scientists-take-to-air-and-space-to-study-arctic-sea-ice",
-    "title": "NASA Scientists Take to Air and Space to Study Arctic Sea Ice",
-    "category": "AI",
-    "source": "NASA",
-    "originalUrl": "https://www.nasa.gov/missions/airborne-science/nasa-scientists-take-to-air-and-space-to-study-arctic-sea-ice/",
-    "summary": "This month, engineers at NASA’s Jet Propulsion Laboratory in Southern California are testing a spacecraft sensor that will help measure how quickly Arctic sea ice is disappearing. And while that instrument won’t launch f…",
-    "coreInsight": "NASA Scientists Take to Air and Space to Study Arctic Sea Ice indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "This month, engineers at NASA’s Jet Propulsion Laboratory in Southern California are testing a spacecraft sensor that will help measure how quickly Arctic sea ice is disappearing. And while that instrument won’t launch f…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.5,
-      "engineering": 9.3,
-      "economic": 8.1,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1783611778000
-  },
-  {
-    "slug": "energy-satellites-in-tandem-reveal-30-years-of-antarctic-ice-flow",
-    "title": "Satellites in tandem reveal 30 years of Antarctic ice flow",
-    "category": "Energy",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Satellites_in_tandem_reveal_30_years_of_Antarctic_ice_flow",
-    "summary": "Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar s…",
-    "coreInsight": "Satellites in tandem reveal 30 years of Antarctic ice flow indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar s…",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.7,
-      "engineering": 10,
-      "economic": 10,
-      "civilization": 10,
-      "overall": 9.9,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1783609800000
   }
 ];
 
 export const archeNovaTopSignals =
 [
-  {
-    "slug": "energy-satellites-in-tandem-reveal-30-years-of-antarctic-ice-flow",
-    "title": "Satellites in tandem reveal 30 years of Antarctic ice flow",
-    "category": "Energy",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Satellites_in_tandem_reveal_30_years_of_Antarctic_ice_flow",
-    "summary": "Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar s…",
-    "coreInsight": "Satellites in tandem reveal 30 years of Antarctic ice flow indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar s…",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.7,
-      "engineering": 10,
-      "economic": 10,
-      "civilization": 10,
-      "overall": 9.9,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1783609800000
-  },
   {
     "slug": "ai-startup-testing-nuclear-battery-technology-in-orbit",
     "title": "Startup testing nuclear battery technology in orbit",
@@ -6053,68 +5998,66 @@ export const archeNovaTopSignals =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1783625982000
+  },
+  {
+    "slug": "space-x-ray-tracking-reveals-uneven-expansion-in-young-supernova-remnant-g292-0-1-8",
+    "title": "X-ray tracking reveals uneven expansion in young supernova remnant G292.0+1.8",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-ray-tracking-reveals-uneven-expansion.html",
+    "summary": "By analyzing data from NASA's Chandra X-ray Observatory, Dutch astronomers have investigated a young, oxygen-rich supernova remnant known as G292.0+1.8. Results of the new study, published June 29 on the arXiv preprint s…",
+    "coreInsight": "X-ray tracking reveals uneven expansion in young supernova remnant G292.0+1.8 indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "By analyzing data from NASA's Chandra X-ray Observatory, Dutch astronomers have investigated a young, oxygen-rich supernova remnant known as G292.0+1.8. Results of the new study, published June 29 on the arXiv preprint s…",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
+      "civilization": 10,
+      "overall": 9.3,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1783782002000
   }
 ];
 
 export const archeNovaWatchlist =
 [
-  {
-    "slug": "energy-satellites-in-tandem-reveal-30-years-of-antarctic-ice-flow",
-    "title": "Satellites in tandem reveal 30 years of Antarctic ice flow",
-    "category": "Energy",
-    "source": "ESA",
-    "originalUrl": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Satellites_in_tandem_reveal_30_years_of_Antarctic_ice_flow",
-    "summary": "Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar s…",
-    "coreInsight": "Satellites in tandem reveal 30 years of Antarctic ice flow indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar s…",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
-    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
-    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
-    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Technical reliability",
-      "Grid or industrial integration",
-      "Capital intensity",
-      "Long-duration operational performance"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
-    "technologyRoadmap": [
-      "Energy mechanism discovery",
-      "Prototype conversion system",
-      "Industrial-scale validation",
-      "Grid or storage integration",
-      "Civilization-scale energy resilience"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Demonstration projects and industrial pilots.",
-      "mid": "5–15 Years: Grid integration and commercial deployment.",
-      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.7,
-      "engineering": 10,
-      "economic": 10,
-      "civilization": 10,
-      "overall": 9.9,
-      "classification": "Civilization Energy Signal"
-    },
-    "ts": 1783609800000,
-    "trend": "Top Signal",
-    "rank": 1
-  },
   {
     "slug": "energy-nasa-volunteers-help-zooniverse-reach-1-billion-classifications",
     "title": "NASA Volunteers Help Zooniverse Reach 1 Billion Classifications",
@@ -6169,8 +6112,8 @@ export const archeNovaWatchlist =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1783710053000,
-    "trend": "High Priority",
-    "rank": 2
+    "trend": "Top Signal",
+    "rank": 1
   },
   {
     "slug": "ai-startup-testing-nuclear-battery-technology-in-orbit",
@@ -6227,7 +6170,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783688400000,
     "trend": "High Priority",
-    "rank": 3
+    "rank": 2
   },
   {
     "slug": "space-parabilis-tests-propulsion-system-for-maneuverable-cubesats",
@@ -6284,7 +6227,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783777178000,
     "trend": "High Priority",
-    "rank": 4
+    "rank": 3
   },
   {
     "slug": "space-fcc-approves-first-reflect-orbital-satellite",
@@ -6341,7 +6284,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783729765000,
     "trend": "High Priority",
-    "rank": 5
+    "rank": 4
   },
   {
     "slug": "space-topological-decoding-of-grid-cell-activity-via-path-lifting-to-covering-spaces",
@@ -6398,7 +6341,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783656000000,
     "trend": "High Priority",
-    "rank": 6
+    "rank": 5
   },
   {
     "slug": "ai-ai-integrated-models-for-assessing-agricultural-resilience",
@@ -6455,7 +6398,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783742400000,
     "trend": "High Priority",
-    "rank": 7
+    "rank": 6
   },
   {
     "slug": "space-earth-observation-satellites-pass-telecom-in-european-space-industry-sales",
@@ -6512,7 +6455,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783707144000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 7
   },
   {
     "slug": "ai-where-venezuela-s-earthquakes-shifted-the-ground",
@@ -6569,7 +6512,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783656000000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 8
   },
   {
     "slug": "ai-environmental-groups-urge-fcc-to-pause-orbital-data-center-applications",
@@ -6625,6 +6568,63 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1783625982000,
+    "trend": "Stable",
+    "rank": 9
+  },
+  {
+    "slug": "space-x-ray-tracking-reveals-uneven-expansion-in-young-supernova-remnant-g292-0-1-8",
+    "title": "X-ray tracking reveals uneven expansion in young supernova remnant G292.0+1.8",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-ray-tracking-reveals-uneven-expansion.html",
+    "summary": "By analyzing data from NASA's Chandra X-ray Observatory, Dutch astronomers have investigated a young, oxygen-rich supernova remnant known as G292.0+1.8. Results of the new study, published June 29 on the arXiv preprint s…",
+    "coreInsight": "X-ray tracking reveals uneven expansion in young supernova remnant G292.0+1.8 indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "By analyzing data from NASA's Chandra X-ray Observatory, Dutch astronomers have investigated a young, oxygen-rich supernova remnant known as G292.0+1.8. Results of the new study, published June 29 on the arXiv preprint s…",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.8,
+      "engineering": 9.6,
+      "economic": 8.4,
+      "civilization": 10,
+      "overall": 9.3,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1783782002000,
     "trend": "Stable",
     "rank": 10
   },
