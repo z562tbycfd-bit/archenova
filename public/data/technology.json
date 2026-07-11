@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-11T17:09:31.249Z",
+  "updated": "2026-07-11T19:07:54.000Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -9,6 +9,14 @@
       "summary": "The Space Force is backing the development of the company’s hybrid engine technology for small satellites The post Parabilis tests propulsion system for maneuverable cubesats appeared first on SpaceNews.",
       "ts": 1783777178000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘We face a new ordeal’: Gaza's search for the dead goes on",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167922",
+      "summary": "After thousands of buildings were destroyed in the Gaza Strip during the Israel-Hamas war, local teams and civil defense personnel continue the arduous and delicate mission to remove rubble and search for the remains of …",
+      "ts": 1783771200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -713,14 +721,6 @@
       "summary": "Next-generation instruments improve rare-cell detection, sterility control, biosafety, and throughput for translational applications. The post Advanced Cell Sorting Balances Precision, Scale, and Simplicity appeared firs…",
       "ts": 1783600427000,
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a nuclear landmark, and China eyes Nvidia chips",
-      "url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Four nuclear reactors hit a big milestone in the US —Casey Crownhart I was really …",
-      "ts": 1783599000000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

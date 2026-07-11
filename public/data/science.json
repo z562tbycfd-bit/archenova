@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-11T17:09:27.327Z",
+  "updated": "2026-07-11T19:07:51.863Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ribosome-based gene circuit lets cells read six signals and trigger responses",
+      "url": "https://phys.org/news/2026-07-ribosome-based-gene-circuit-cells.html",
+      "summary": "The molecular machinery that normally builds proteins inside cells has now taken on a new role as a \"switch.\" A research team at POSTECH (Pohang University of Science and Technology) has developed a new 'RNA-based smart …",
+      "ts": 1783796406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The gap between forecasts and reality can change public emotions during disasters",
+      "url": "https://phys.org/news/2026-07-gap-reality-emotions-disasters.html",
+      "summary": "What happens when weather forecasts do not match reality? How does the public emotionally respond when a disaster unfolds differently from what they expected? A research team led by Professor Jonghun Kam and Kiru Kim fro…",
+      "ts": 1783796404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heavy traffic can turn flower-rich verges into bumblebee traps, study finds",
+      "url": "https://phys.org/news/2026-07-heavy-traffic-rich-verges-bumblebee.html",
+      "summary": "Flower-rich road verges may attract hungry bumblebees, but at the same time, they can be dangerous for the buzzing insects—if traffic is too heavy. The new research from Lund University in Sweden examined the role roadsi…",
+      "ts": 1783792803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Managing water with local wisdom and science",
+      "url": "https://phys.org/news/2026-07-local-wisdom-science.html",
+      "summary": "Across a narrow watershed in Asakura, a rural city in Fukuoka Prefecture, centuries-old stone channels still guide water through fields and into the river below. Today, those same systems are the focus of researchers at …",
+      "ts": 1783792801000
+    },
     {
       "source": "Phys.org",
       "title": "A robot that reads bacteria by touch, without staining or chemical labels",
@@ -672,34 +700,6 @@
       "title": "path_boost: A Python Package for Interpretable Graph-Level Prediction using Path-Based Gradient Boosting",
       "url": "https://arxiv.org/abs/2607.07935",
       "summary": "arXiv:2607.07935v1 Announce Type: cross Abstract: We present path_boost, a Python package for interpretable supervised learning on graph-structured input data. The package implements PathBoost, a gradient boosting algori…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Linear Attention Architectures: Mechanisms, Trade-offs, and Cross-Layer Routing",
-      "url": "https://arxiv.org/abs/2607.07953",
-      "summary": "arXiv:2607.07953v1 Announce Type: cross Abstract: Self-attention lets each token retrieve information from the full context, but its quadratic cost in sequence length limits training and inference at long context. This p…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Beyond Thermal Imaging: Inferring Thermophysical Properties from Time-Resolved Thermal Observations",
-      "url": "https://arxiv.org/abs/2607.07962",
-      "summary": "arXiv:2607.07962v1 Announce Type: cross Abstract: Inferring latent physical properties from sensory observations is a fundamental challenge in machine perception. Among available sensing modalities, thermal imaging is pa…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "A Multi-cluster Boundary Learning Method for Out-of-Scope Intent Detection via MiniLM Embedding",
-      "url": "https://arxiv.org/abs/2607.07974",
-      "summary": "arXiv:2607.07974v1 Announce Type: cross Abstract: Intent detection is a critical task that bridges human intents and system actions in human-machine interaction systems. However, there still exist challenges for detectin…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2607.07976",
-      "summary": "arXiv:2607.07976v1 Announce Type: cross Abstract: Reinforcement learning (RL) has achieved remarkable success in enhancing the reasoning capabilities of large language models (LLMs). However, widely used critic-free RL m…",
       "ts": 1783742400000
     }
   ],
