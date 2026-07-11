@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-11T06:16:18.428Z",
+  "updated": "2026-07-11T08:49:39.232Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Drought threatens irrigation in northern Italy",
+      "url": "https://phys.org/news/2026-07-drought-threatens-irrigation-northern-italy.html",
+      "summary": "Water reserves are being depleted rapidly in northern Italy, threatening farming as the region's main river dries up, local officials warned Friday.",
+      "ts": 1783758001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Brutal heat wave forecast for western US this weekend",
+      "url": "https://phys.org/news/2026-07-brutal-western-weekend.html",
+      "summary": "A \"widespread and significant\" heat wave is predicted to bring oppressive temperatures to drought-hit western U.S. states over the weekend, with all-time records at risk of falling, the National Weather Service said Frid…",
+      "ts": 1783756803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thousands shelter in Taiwan as typhoon lashes Japan islands",
+      "url": "https://phys.org/news/2026-07-thousands-taiwan-typhoon-lashes-japan.html",
+      "summary": "More than 14,000 people in Taiwan have fled their homes, and many shops remain closed, as a typhoon pounding Japan's remote southwestern islands swept toward China on Saturday.",
+      "ts": 1783755601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan's space agency conducts first test flight for experimental reusable rocket",
+      "url": "https://phys.org/news/2026-07-japan-space-agency-flight-experimental.html",
+      "summary": "Japan's experimental reusable rocket took off and safely landed in a first test flight Saturday as the country seeks to achieve the technology key to cut launch costs and compete in the global space market dominated by S…",
+      "ts": 1783754383000
+    },
     {
       "source": "arXiv AI",
       "title": "Context Graphs for Proactive Enterprise Agents",
@@ -672,34 +700,6 @@
       "title": "DKDNet: Dual Knowledge and Data-Driven Network for Cross-Domain Automatic Modulation Classification",
       "url": "https://arxiv.org/abs/2607.08031",
       "summary": "arXiv:2607.08031v1 Announce Type: cross Abstract: The dynamics of communication environments induce significant distribution shifts across domains, challenging the generalization of deep learning-based automatic modulati…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "PLURAL: A Global Dataset for Value Alignment",
-      "url": "https://arxiv.org/abs/2607.08034",
-      "summary": "arXiv:2607.08034v1 Announce Type: cross Abstract: Large language models (LLMs) are used worldwide, yet disproportionately reflect Western values, limiting their ability to represent diverse value systems. We introduce PL…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Aleena: Alignment Agent for Research Software Engineering Collaborations",
-      "url": "https://arxiv.org/abs/2607.08043",
-      "summary": "arXiv:2607.08043v1 Announce Type: cross Abstract: Research software collaborations span meetings, informal chats, pull requests, and GitHub issues. A decision surfaced in a Slack thread, refined in a meeting, and impleme…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness",
-      "url": "https://arxiv.org/abs/2607.08046",
-      "summary": "arXiv:2607.08046v1 Announce Type: cross Abstract: Large language models fine-tuned for forecasting can be accurate yet poorly calibrated, and their chain-of-thought (CoT) reasoning may not faithfully reflect the evidence…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Who Analyses the Analyser? Self-Validating LLM Hazard Analysis with Constitutional Meta-STPA",
-      "url": "https://arxiv.org/abs/2607.08054",
-      "summary": "arXiv:2607.08054v1 Announce Type: cross Abstract: Large language models (LLMs) are increasingly trusted to draft the artifacts of safety analysis such as, losses, hazards, Unsafe Control Actions (UCAs), and safety constr…",
       "ts": 1783742400000
     }
   ],
