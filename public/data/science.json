@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-11T11:54:53.793Z",
+  "updated": "2026-07-11T13:24:33.751Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The 'safe third country' concept turns out to be an empty shell",
+      "url": "https://phys.org/news/2026-07-safe-country-concept-shell.html",
+      "summary": "In her recently completed research, Dr. Gaia Romeo exposes the reality behind the EU's 'safe third country' policy. She focuses on the only case in which that policy has already been applied on a large scale: Greece. The…",
+      "ts": 1783774806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Saturday Citations: Blue zone longevity; soft tissue find predates dinosaurs; black hole collisions simplified",
+      "url": "https://phys.org/news/2026-07-saturday-citations-blue-zone-longevity.html",
+      "summary": "This week, researchers reported finding nanoplastics in Antarctic soils for the first time, suggesting they were delivered via long-range atmospheric transport. A study associates the use of hormonal birth control with t…",
+      "ts": 1783774804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Grasses provide most of the world's calories—but we're only now starting to learn how they grow",
+      "url": "https://phys.org/news/2026-07-grasses-world-calories.html",
+      "summary": "If we want to dismiss something as irrelevant, we'd say that it's \"as boring as watching the grass grow.\" And yet grasses—including corn, wheat and rice—make up most of the plant-based calories humans eat, as well as mos…",
+      "ts": 1783774801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Intricate molecular mechanisms help bacteria evade immune detection",
+      "url": "https://phys.org/news/2026-07-intricate-molecular-mechanisms-bacteria-evade.html",
+      "summary": "Northwestern Medicine scientists have identified a novel mechanism used by the bacteria responsible for gonorrhea to evade immune detection and achieve widespread infection, according to a recent study published in the P…",
+      "ts": 1783771210000
+    },
     {
       "source": "Phys.org",
       "title": "Drought threatens irrigation in northern Italy",
@@ -672,34 +700,6 @@
       "title": "Provably Optimal Learning Algorithms for Assistance Games",
       "url": "https://arxiv.org/abs/2607.08012",
       "summary": "arXiv:2607.08012v1 Announce Type: cross Abstract: This paper studies an online variant of the assistance games framework, where an informed agent and an uninformed agent repeatedly interact over $T$ timesteps to optimize…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Can We Trust LLM's Logic? Quantifying Uncertainty, Coherence, and Robustness via a Graph-Based Framework",
-      "url": "https://arxiv.org/abs/2607.08017",
-      "summary": "arXiv:2607.08017v1 Announce Type: cross Abstract: Large-Language Models (LLMs) can be prone to flawed and unfaithful reasoning that decoding strategies like Self-Consistency (SC) fail to detect as they evaluate only fina…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "APIVOT: Adaptive Planning with Interleaved Vision-Language Thoughts",
-      "url": "https://arxiv.org/abs/2607.08024",
-      "summary": "arXiv:2607.08024v1 Announce Type: cross Abstract: Long-horizon robot planning requires jointly reasoning over semantic task structure and geometric feasibility. To successfully execute a task, a robot must decompose goal…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Structured Pruning of Large Language Models via Power Transformation and Sign-Preserving Score Aggregation with Adaptive Feature Retention",
-      "url": "https://arxiv.org/abs/2607.08027",
-      "summary": "arXiv:2607.08027v1 Announce Type: cross Abstract: This paper proposes an improved structured pruning method for large language models (LLMs) that addresses key challenges in adapting Adaptive Feature Retention (AFR), an …",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "DKDNet: Dual Knowledge and Data-Driven Network for Cross-Domain Automatic Modulation Classification",
-      "url": "https://arxiv.org/abs/2607.08031",
-      "summary": "arXiv:2607.08031v1 Announce Type: cross Abstract: The dynamics of communication environments induce significant distribution shifts across domains, challenging the generalization of deep learning-based automatic modulati…",
       "ts": 1783742400000
     }
   ],
