@@ -1,6 +1,61 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "ai-secure-glass-containers-for-storing-chemical-waste-through-laser-welding",
+    "title": "Secure glass containers for storing chemical waste through laser welding",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-glass-chemical-laser-welding.html",
+    "summary": "As the adoption of electric vehicles continues to grow, so does the need for the safe and permanent storage of battery materials and industrial chemical waste. Certain waste streams require disposal in what are known as …",
+    "coreInsight": "Secure glass containers for storing chemical waste through laser welding indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "As the adoption of electric vehicles continues to grow, so does the need for the safe and permanent storage of battery materials and industrial chemical waste. Certain waste streams require disposal in what are known as …",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1783807203000
+  },
+  {
     "slug": "energy-synthetic-rotation-brings-black-hole-energy-theory-into-lab-amplifying-waves",
     "title": "Synthetic rotation brings black hole energy theory into lab, amplifying waves",
     "category": "Energy",
@@ -1099,61 +1154,6 @@ export const generatedResearchReports =
       "classification": "Emerging Future Signal"
     },
     "ts": 1783774801000
-  },
-  {
-    "slug": "bio-intricate-molecular-mechanisms-help-bacteria-evade-immune-detection",
-    "title": "Intricate molecular mechanisms help bacteria evade immune detection",
-    "category": "Bio",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-07-intricate-molecular-mechanisms-bacteria-evade.html",
-    "summary": "Northwestern Medicine scientists have identified a novel mechanism used by the bacteria responsible for gonorrhea to evade immune detection and achieve widespread infection, according to a recent study published in the P…",
-    "coreInsight": "Intricate molecular mechanisms help bacteria evade immune detection indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "Northwestern Medicine scientists have identified a novel mechanism used by the bacteria responsible for gonorrhea to evade immune detection and achieve widespread infection, according to a recent study published in the P…",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 8.3,
-      "economic": 8.8,
-      "civilization": 9.4,
-      "overall": 8.9,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1783771210000
   },
   {
     "slug": "ai-we-face-a-new-ordeal-gaza-s-search-for-the-dead-goes-on",
@@ -6914,6 +6914,63 @@ export const archeNovaWatchlist =
     "rank": 15
   },
   {
+    "slug": "ai-secure-glass-containers-for-storing-chemical-waste-through-laser-welding",
+    "title": "Secure glass containers for storing chemical waste through laser welding",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-glass-chemical-laser-welding.html",
+    "summary": "As the adoption of electric vehicles continues to grow, so does the need for the safe and permanent storage of battery materials and industrial chemical waste. Certain waste streams require disposal in what are known as …",
+    "coreInsight": "Secure glass containers for storing chemical waste through laser welding indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "As the adoption of electric vehicles continues to grow, so does the need for the safe and permanent storage of battery materials and industrial chemical waste. Certain waste streams require disposal in what are known as …",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1783807203000,
+    "trend": "Stable",
+    "rank": 16
+  },
+  {
     "slug": "space-stat-roche-ends-huntington-s-gene-silencing-programs",
     "title": "STAT+: Roche ends Huntington’s gene-silencing programs",
     "category": "Space",
@@ -6968,7 +7025,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783690537000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 17
   },
   {
     "slug": "ai-iaea-led-mission-sample-alps-treated-water-at-fukushima-daiichi-nuclear-power-st",
@@ -7025,7 +7082,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783677004000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 18
   },
   {
     "slug": "energy-projected-energy-matching-for-generative-3d-priors",
@@ -7082,7 +7139,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1783656000000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 19
   },
   {
     "slug": "energy-trackstudio-an-integrated-toolkit-for-markerless-tracking",
@@ -7138,63 +7195,6 @@ export const archeNovaWatchlist =
       "classification": "Biological Resilience Signal"
     },
     "ts": 1783656000000,
-    "trend": "Stable",
-    "rank": 19
-  },
-  {
-    "slug": "space-china-becomes-second-country-to-recover-orbital-booster-with-long-march-10b",
-    "title": "China becomes second country to recover orbital booster with Long March 10B",
-    "category": "Space",
-    "source": "SpaceNews",
-    "originalUrl": "https://spacenews.com/china-becomes-second-country-to-recover-orbital-booster-with-long-march-10b/",
-    "summary": "HELSINKI — China launched its Long March 10B rocket early Friday and successfully recovered the first stage, marking a huge step for the country’s reusable rocket efforts. The first Long […] The post China becomes second…",
-    "coreInsight": "China becomes second country to recover orbital booster with Long March 10B indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "HELSINKI — China launched its Long March 10B rocket early Friday and successfully recovered the first stage, marking a huge step for the country’s reusable rocket efforts. The first Long […] The post China becomes second…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Civilization Engineering",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.6,
-      "engineering": 9.4,
-      "economic": 8.2,
-      "civilization": 9.9,
-      "overall": 9.1,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1783666542000,
     "trend": "Stable",
     "rank": 20
   }

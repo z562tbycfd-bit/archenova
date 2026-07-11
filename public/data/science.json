@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-11T21:52:32.529Z",
+  "updated": "2026-07-11T22:52:11.714Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Secure glass containers for storing chemical waste through laser welding",
+      "url": "https://phys.org/news/2026-07-glass-chemical-laser-welding.html",
+      "summary": "As the adoption of electric vehicles continues to grow, so does the need for the safe and permanent storage of battery materials and industrial chemical waste. Certain waste streams require disposal in what are known as …",
+      "ts": 1783807203000
+    },
     {
       "source": "Phys.org",
       "title": "Synthetic rotation brings black hole energy theory into lab, amplifying waves",
@@ -693,13 +700,6 @@
       "title": "How Do I Know What to Say Next? Barenholtz's Autogenerative Theory as an Enrichment of Harrisean Integrationism",
       "url": "https://arxiv.org/abs/2607.07891",
       "summary": "arXiv:2607.07891v1 Announce Type: cross Abstract: Roy Harris's Integrationist linguistics offers a compelling critique of the referentialist tradition embedded deep at the heart of computational approaches to language, a…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Closed-Loop Dynamic Validator Node Scaling in Private Substrate Blockchains Using Takagi-Sugeno Fuzzy Inference",
-      "url": "https://arxiv.org/abs/2607.07901",
-      "summary": "arXiv:2607.07901v1 Announce Type: cross Abstract: Private blockchain networks run with fixed node configurations that cannot adapt to changing workload conditions. Too many nodes serving a light workload waste resources;…",
       "ts": 1783742400000
     }
   ],
