@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-11T20:52:13.437Z",
+  "updated": "2026-07-11T21:52:32.529Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Synthetic rotation brings black hole energy theory into lab, amplifying waves",
+      "url": "https://phys.org/news/2026-07-synthetic-rotation-black-hole-energy.html",
+      "summary": "More than half a century ago, Sir Roger Penrose envisioned a scenario in which energy could be extracted from a black hole spinning at extreme speeds. He proposed that a particle entering its ergosphere—a region of space…",
+      "ts": 1783803606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The Vikings were more than bearded marauders, but Scandinavia's national museums continue to project that image",
+      "url": "https://phys.org/news/2026-07-vikings-bearded-marauders-scandinavia-national.html",
+      "summary": "If you visit Scandinavia, you are likely to find yourself at an exhibition about Vikings. There are many to choose from.",
+      "ts": 1783803604000
+    },
     {
       "source": "Phys.org",
       "title": "Reimagining the furnace: How a new magnetic design could supercharge industrial plasma",
@@ -686,20 +700,6 @@
       "title": "Closed-Loop Dynamic Validator Node Scaling in Private Substrate Blockchains Using Takagi-Sugeno Fuzzy Inference",
       "url": "https://arxiv.org/abs/2607.07901",
       "summary": "arXiv:2607.07901v1 Announce Type: cross Abstract: Private blockchain networks run with fixed node configurations that cannot adapt to changing workload conditions. Too many nodes serving a light workload waste resources;…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Mechanistic Interpretability of LLM Jailbreaks via Internal Attribution Graphs",
-      "url": "https://arxiv.org/abs/2607.07903",
-      "summary": "arXiv:2607.07903v1 Announce Type: cross Abstract: Large language models (LLMs) exhibit remarkable capabilities but remain highly vulnerable to adversarial prompts and jailbreak attacks. Existing approaches primarily anal…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks",
-      "url": "https://arxiv.org/abs/2607.07907",
-      "summary": "arXiv:2607.07907v1 Announce Type: cross Abstract: With the growing adoption of VLMs, DMs, LLMs, and AFMs, these multimodal foundation models can inadvertently encode sensitive, copyrighted, biased, or unsafe cross-modal …",
       "ts": 1783742400000
     }
   ],
