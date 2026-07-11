@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-11T19:07:51.863Z",
+  "updated": "2026-07-11T20:52:13.437Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Reimagining the furnace: How a new magnetic design could supercharge industrial plasma",
+      "url": "https://phys.org/news/2026-07-reimagining-furnace-magnetic-supercharge-industrial.html",
+      "summary": "Imagine trying to trap a miniature star inside a machine without letting it touch the walls or burn itself out. This is the central, high-stakes challenge of high-temperature plasma engineering.",
+      "ts": 1783800006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Immune cells get transformed into fungus-fighting nanoparticles",
+      "url": "https://phys.org/news/2026-07-immune-cells-fungus-nanoparticles.html",
+      "summary": "Tiny particles made from the membranes of human immune cells could offer a promising new way to fight fungal infections that are becoming harder to treat. Engineers at the University of California San Diego created antif…",
+      "ts": 1783800004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When species are forced to move: Prediction models underestimate climate-related extinction risk",
+      "url": "https://phys.org/news/2026-07-species-underestimate-climate-extinction.html",
+      "summary": "Climate change threatens many plant and animal species not only when their habitats disappear as climatic conditions change, but also when those habitats shift. In a new study, a team of University of Potsdam researchers…",
+      "ts": 1783800001000
+    },
     {
       "source": "Phys.org",
       "title": "Ribosome-based gene circuit lets cells read six signals and trigger responses",
@@ -679,27 +700,6 @@
       "title": "Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks",
       "url": "https://arxiv.org/abs/2607.07907",
       "summary": "arXiv:2607.07907v1 Announce Type: cross Abstract: With the growing adoption of VLMs, DMs, LLMs, and AFMs, these multimodal foundation models can inadvertently encode sensitive, copyrighted, biased, or unsafe cross-modal …",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Efficient Safety Alignment of Language Models via Latent Personality Traits",
-      "url": "https://arxiv.org/abs/2607.07918",
-      "summary": "arXiv:2607.07918v1 Announce Type: cross Abstract: Current safety methods for large language models are known to be vulnerable to adversarial attacks, motivating research into robust alternatives. Latent Adversarial Train…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Adversarial Decoys: Misdirecting Attention-Based Defenses in ViT",
-      "url": "https://arxiv.org/abs/2607.07922",
-      "summary": "arXiv:2607.07922v1 Announce Type: cross Abstract: Vision Transformers (ViTs) remain vulnerable to localized adversarial attacks, e.g., adversarial patches, while recent test-time defenses mitigate them by suppressing ima…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "path_boost: A Python Package for Interpretable Graph-Level Prediction using Path-Based Gradient Boosting",
-      "url": "https://arxiv.org/abs/2607.07935",
-      "summary": "arXiv:2607.07935v1 Announce Type: cross Abstract: We present path_boost, a Python package for interpretable supervised learning on graph-structured input data. The package implements PathBoost, a gradient boosting algori…",
       "ts": 1783742400000
     }
   ],
