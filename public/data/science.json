@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-11T22:52:11.714Z",
+  "updated": "2026-07-11T23:57:45.597Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Drawing the line: Virtual fences trigger the same cattle behavior as physical ones",
+      "url": "https://phys.org/news/2026-07-line-virtual-trigger-cattle-behavior.html",
+      "summary": "Virtual fences could make managing grazing livestock on farms more flexible and more efficient while improving animal welfare. A new study by the University of Göttingen shows that virtual fences trigger behavior in catt…",
+      "ts": 1783810801000
+    },
     {
       "source": "Phys.org",
       "title": "Secure glass containers for storing chemical waste through laser welding",
@@ -693,13 +700,6 @@
       "title": "Time-to-Collision Based Dynamic Obstacle Avoidance Using Pretrained Vision Models for Robots in Unstructured Environments",
       "url": "https://arxiv.org/abs/2607.07885",
       "summary": "arXiv:2607.07885v1 Announce Type: cross Abstract: Dynamic obstacle avoidance in unstructured outdoor environments remains a critical challenge for autonomous mobile robots, particularly when large-scale robot-specific tr…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "How Do I Know What to Say Next? Barenholtz's Autogenerative Theory as an Enrichment of Harrisean Integrationism",
-      "url": "https://arxiv.org/abs/2607.07891",
-      "summary": "arXiv:2607.07891v1 Announce Type: cross Abstract: Roy Harris's Integrationist linguistics offers a compelling critique of the referentialist tradition embedded deep at the heart of computational approaches to language, a…",
       "ts": 1783742400000
     }
   ],
