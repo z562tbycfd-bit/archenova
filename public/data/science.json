@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-12T20:06:34.683Z",
+  "updated": "2026-07-12T21:53:48.005Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The public isn't bored with economists, management scholars and sociologists but engaging people has conditions",
+      "url": "https://phys.org/news/2026-07-isnt-economists-scholars-sociologists-engaging.html",
+      "summary": "For years, we've been told a familiar story: Social scientists such as economists, management scholars and sociologists talk, and the public shrugs. The claim goes that people don't find our work interesting, that our ex…",
+      "ts": 1783891804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny magnetic 'flowers' could expand how researchers image spintronic materials under stronger fields",
+      "url": "https://phys.org/news/2026-07-tiny-magnetic-image-spintronic-materials.html",
+      "summary": "Materials with magnetic nanostructures have a wide range of potential applications. One area is so-called spintronics, with devices that encode information in magnetic domains. These magnetic bits can be written, read an…",
+      "ts": 1783890003000
+    },
     {
       "source": "Phys.org",
       "title": "How simple changes to PowerPoint presentations can make a big difference for learners",
@@ -686,20 +700,6 @@
       "title": "Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance",
       "url": "https://arxiv.org/abs/2607.08602",
       "summary": "arXiv:2607.08602v1 Announce Type: new Abstract: Hepatocellular carcinoma (HCC) is a common malignancy and a leading cause of cancer-related mortality. Current guidelines and staging systems provide coarse categories, but…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The complexities of patient-centred conversational artificial intelligence",
-      "url": "https://arxiv.org/abs/2607.08625",
-      "summary": "arXiv:2607.08625v1 Announce Type: new Abstract: Consumer-facing health chatbots powered by large language models (LLMs) are increasingly used for symptom assessment. However, chatbot development and evaluation often rely…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Formal Mechanisms for Market Stability in Self-Interested Agent Societies: A Marketplace Simulation Study",
-      "url": "https://arxiv.org/abs/2607.08652",
-      "summary": "arXiv:2607.08652v1 Announce Type: new Abstract: Self-interested agents, left unconstrained, tend toward defection in repeated social dilemmas, causing cooperative gains from trade to collapse. This paper investigates wha…",
       "ts": 1783742400000
     }
   ],

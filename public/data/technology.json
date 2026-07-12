@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-12T20:06:37.783Z",
+  "updated": "2026-07-12T21:53:51.878Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Insilico Projects Profit, Revenue Leaps as AI-Developed Lead Candidate Moves to Phase III",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/stockwatch-insilico-projects-profit-revenue-leaps-as-ai-developed-lead-candidate-moves-to-phase-iii/",
+      "summary": "Insilico Medicine, an AI-based drug developer whose profile within biopharma has risen with its recent collaborations with industry giants, has offered investors an upbeat revenue and profit forecast for the first half o…",
+      "ts": 1783888553000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Tau in the spotlight at Alzheimer’s conference",
@@ -9,6 +17,14 @@
       "summary": "From STAT's AAIC in 30 newsletter: Researchers focus on tau, and progress on crossing the blood-brain barrier.",
       "ts": 1783886505000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "UN chief urges Iran and US to ‘urgently resume negotiations’ as Gulf strikes escalate",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167923",
+      "summary": "Renewed strikes and counterstrikes between Iran and the United States in the Gulf region have raised fears of a return to all‑out war, with Washington denying Tehran’s claim that it had closed the crucial Strait of Hormu…",
+      "ts": 1783857600000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -705,22 +721,6 @@
       "summary": "In this edition of STAT Health Tech: Dueling research pitting OpenEvidence against general purpose LLMs, use of Dexcom's CGM in children, and more.",
       "ts": 1783602354000,
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Virtual Cells Go Multiscale to Predict Complex Biology",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/virtual-cells-go-multiscale-to-predict-complex-biology/",
-      "summary": "As the diversity of virtual cell models targets new dimensions of complex biology, every approach takes another step closer toward clinical impact. The post Virtual Cells Go Multiscale to Predict Complex Biology appeared…",
-      "ts": 1783602319000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "GeForce NOW Turns Up the Heat With New GeForce RTX 5080-Powered Toronto Server",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
-      "summary": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW. The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in th…",
-      "ts": 1783602055000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
