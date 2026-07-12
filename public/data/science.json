@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-12T14:59:06.664Z",
+  "updated": "2026-07-12T16:05:31.159Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Patterned frozen soils get their shape from gravity and funky physics",
+      "url": "https://phys.org/news/2026-07-patterned-frozen-soils-gravity-funky.html",
+      "summary": "Hillslopes in Arctic regions with frozen soils can host a suite of geometric patterns, from circles and stripes to polygonal patterned ground. They can also have solifluction patterns, or markings left behind when partia…",
+      "ts": 1783872001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "In deep oceans, evolution is supercharged. This diversity could help unlock humanity's greatest challenges",
+      "url": "https://phys.org/news/2026-07-deep-oceans-evolution-supercharged-diversity.html",
+      "summary": "Far beneath the surface of the ocean lies the largest and least explored habitat on Earth. The deep sea is cold, dark, highly pressurized—and home to a huge amount of undiscovered life.",
+      "ts": 1783870201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Low-cost genome sequencing approach is powering genetics research on mental illness and many other studies",
+      "url": "https://phys.org/news/2026-07-genome-sequencing-approach-powering-genetics.html",
+      "summary": "For researchers on the hunt for the genetic roots of disease, the cost of deep whole-genome sequencing makes it challenging to conduct large genetic studies involving thousands of participants, which are needed to reveal…",
+      "ts": 1783868402000
+    },
     {
       "source": "Phys.org",
       "title": "Gravitational waves reveal hidden populations within black hole mergers",
@@ -679,27 +700,6 @@
       "title": "LLT: Local Linear Transformer for PDE Operator Learning",
       "url": "https://arxiv.org/abs/2607.07718",
       "summary": "arXiv:2607.07718v1 Announce Type: cross Abstract: Neural operators have become a common approach for learning PDE solution maps and accelerating numerical simulations. Transformer-based neural operators are of particular…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "ReCoLoRA: Spectrum-Aware Recursive Consolidation for Continual LLM Fine-Tuning",
-      "url": "https://arxiv.org/abs/2607.07719",
-      "summary": "arXiv:2607.07719v1 Announce Type: cross Abstract: Parameter-efficient fine-tuning adapts a large language model to one task cheaply, but across a task sequence LoRA-style methods keep stacking low-rank updates on the sam…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Omni-Sleep: A Sleep Foundation Model via Hierarchical Contrastive Learning of CNS--ANS Dynamic",
-      "url": "https://arxiv.org/abs/2607.07720",
-      "summary": "arXiv:2607.07720v1 Announce Type: cross Abstract: Sleep physiology arises from the coordinated dynamics of the central nervous system (CNS) and autonomic nervous system (ANS), as reflected by multimodal polysomnography s…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "SHIFT: Survival Prediction from Incomplete and Heterogeneous Genomic Data",
-      "url": "https://arxiv.org/abs/2607.07725",
-      "summary": "arXiv:2607.07725v1 Announce Type: cross Abstract: Genomic prediction models often fail to transfer across institutions because sequencing panels differ across sites, creating structural feature missingness at deployment.…",
       "ts": 1783742400000
     }
   ],
