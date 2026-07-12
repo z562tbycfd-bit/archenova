@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-12T06:35:47.865Z",
+  "updated": "2026-07-12T09:04:11.486Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Firefighters gain upper hand on deadly Spain wildfire",
+      "url": "https://phys.org/news/2026-07-firefighters-gain-upper-deadly-spain.html",
+      "summary": "Firefighters battling a wildfire in southern Spain that killed 12 people began to contain the blaze Saturday as the hardest-hit village remained deserted, with charred vegetation and blackened homes a grim reminder of th…",
+      "ts": 1783845001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Typhoon makes landfall in China, downgraded to severe tropical storm",
+      "url": "https://phys.org/news/2026-07-typhoon-landfall-china-downgraded-severe.html",
+      "summary": "Typhoon Bavi was downgraded to a severe tropical storm Sunday after making landfall in eastern China, where authorities had evacuated nearly 2 million people in its path.",
+      "ts": 1783843802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "In Sicily, drones at work to predict volcanic eruptions",
+      "url": "https://phys.org/news/2026-07-sicily-drones-volcanic-eruptions.html",
+      "summary": "Hovering over the volcano, a buzzing drone pauses in front of a laser beam on the crater's edge as researchers test whether the devices can measure gases to predict eruptions.",
+      "ts": 1783843203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why sharing-economy drivers are disengaging—and how platform design can win them back",
+      "url": "https://phys.org/news/2026-07-economy-drivers-disengaging-platform.html",
+      "summary": "Rideshare and delivery platforms operate in an unusually fluid labor market. Drivers can log off, switch apps or stop working at any moment, making engagement unpredictable. Companies often respond with bonuses, surge pr…",
+      "ts": 1783843082000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New heat wave blasts US, could break records",
+      "url": "https://phys.org/news/2026-07-blasts.html",
+      "summary": "Some 44 million Americans were under a heat wave warning Saturday as temperatures in the Rocky Mountains and northern Plains of the United States were expected to hit 43°C (110°F) over the weekend.",
+      "ts": 1783842557000
+    },
     {
       "source": "Phys.org",
       "title": "Almost a quarter of Dutch bee colonies did not survive last winter",
@@ -665,41 +700,6 @@
       "title": "Principled Analysis of Deep Reinforcement Learning Evaluation and Design Paradigms",
       "url": "https://arxiv.org/abs/2607.07769",
       "summary": "arXiv:2607.07769v1 Announce Type: cross Abstract: Starting from the utilization of deep neural networks to approximate the state-action value function that led to winning one of the most challenging games, to algorithmic…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Graph-Regularized Deep Learning for EEG-Based Emotion Recognition with Psychologically-Grounded Label Structure",
-      "url": "https://arxiv.org/abs/2607.07773",
-      "summary": "arXiv:2607.07773v1 Announce Type: cross Abstract: EEG-based emotion recognition is critical for mental health monitoring and affective brain-computer interfaces, yet existing deep learning approaches often treat emotion …",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier",
-      "url": "https://arxiv.org/abs/2607.07779",
-      "summary": "arXiv:2607.07779v1 Announce Type: cross Abstract: Recent developments in AI for Mathematics (AI4Math), especially Large Language Model (LLM)-driven theorem provers, has achieved remarkable success in formal proof generat…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "DreamCharacter-1: From 3D Generative Foundation Models to Product-Ready Character Generation",
-      "url": "https://arxiv.org/abs/2607.07817",
-      "summary": "arXiv:2607.07817v1 Announce Type: cross Abstract: We present DreamCharacter-1, a lightweight post-adaptation framework that calibrates pretrained 3D foundation models toward high-fidelity, production-ready 3D character g…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "From Triggers to Emotions: A CPM-Grounded Appraisal Multi-Agent for Dynamic Emotional Evolution in Persona-Based Dialogue",
-      "url": "https://arxiv.org/abs/2607.07824",
-      "summary": "arXiv:2607.07824v1 Announce Type: cross Abstract: Large Language Models (LLMs) have substantially advanced persona-based dialogue agents for emotion-sensitive role simulation in healthcare, education, counseling, custome…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Shift & Drift: A Zero-Shot Benchmark for Generalizable and Robust Autonomous Driving Motion Planning",
-      "url": "https://arxiv.org/abs/2607.07844",
-      "summary": "arXiv:2607.07844v1 Announce Type: cross Abstract: While closed-loop motion planners trained on large-scale, object-level datasets, e.g., nuPlan, demonstrate strong in-distribution (ID) performance, their generalization t…",
       "ts": 1783742400000
     }
   ],
