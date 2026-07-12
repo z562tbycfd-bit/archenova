@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-12T13:24:58.902Z",
+  "updated": "2026-07-12T14:59:06.664Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Gravitational waves reveal hidden populations within black hole mergers",
+      "url": "https://phys.org/news/2026-07-gravitational-reveal-hidden-populations-black.html",
+      "summary": "Since gravitational waves were first detected in 2015, instruments including LIGO, Virgo and KAGRA have picked up a steady stream of signals from colliding black holes, building a catalog that now numbers in the hundreds…",
+      "ts": 1783866001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Creating synthetic life in a lab? SpudCell falls short of the goal, but raises even more useful questions",
+      "url": "https://phys.org/news/2026-07-synthetic-life-lab-spudcell-falls.html",
+      "summary": "Nature is beautiful, powerful and essential. But nature is not always gentle. The same biological world that gives rise to forests, coral reefs and human life also produces infections, cancer, genetic disease, crop bligh…",
+      "ts": 1783864804000
+    },
     {
       "source": "Phys.org",
       "title": "Climate oscillations shape nature's coral refuges in a warming ocean",
@@ -686,20 +700,6 @@
       "title": "SHIFT: Survival Prediction from Incomplete and Heterogeneous Genomic Data",
       "url": "https://arxiv.org/abs/2607.07725",
       "summary": "arXiv:2607.07725v1 Announce Type: cross Abstract: Genomic prediction models often fail to transfer across institutions because sequencing panels differ across sites, creating structural feature missingness at deployment.…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Collective Intelligence with Foundation Models",
-      "url": "https://arxiv.org/abs/2607.07729",
-      "summary": "arXiv:2607.07729v1 Announce Type: cross Abstract: As foundation models grow in scale and diversity, coordinating multiple models into cooperative reasoning systems offers a path toward safer, more reliable AI. This chapt…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
-      "url": "https://arxiv.org/abs/2607.07740",
-      "summary": "arXiv:2607.07740v1 Announce Type: cross Abstract: Modern LLMs are increasingly deployed in long-context applications such as retrieval-augmented generation, repository-level coding, and agentic workflows whose accumulate…",
       "ts": 1783742400000
     }
   ],
