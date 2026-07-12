@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-12T18:00:28.962Z",
+  "updated": "2026-07-12T20:06:34.683Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How simple changes to PowerPoint presentations can make a big difference for learners",
+      "url": "https://phys.org/news/2026-07-simple-powerpoint-big-difference-learners.html",
+      "summary": "Microsoft PowerPoint has become the default tool for presenting learning materials in classrooms, universities, corporate training programs, webinars and remote learning environments. But is it being used effectively? Th…",
+      "ts": 1783886404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New imaging method offers fresh insight into LED materials",
+      "url": "https://phys.org/news/2026-07-imaging-method-fresh-insight-materials.html",
+      "summary": "Light Emitting Diodes (LEDs) are used in everything from household lighting and mobile phones to large display screens. Improving their efficiency could reduce energy use and enhance performance across a wide range of te…",
+      "ts": 1783886401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Textbook chemistry gains blue-light upgrade to build complex drug molecules in fewer steps",
+      "url": "https://phys.org/news/2026-07-textbook-chemistry-gains-blue-complex.html",
+      "summary": "In drug discovery, building complex molecules quickly is the name of the game.",
+      "ts": 1783883515000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change leaves northern tree swallows more vulnerable those in the southern US",
+      "url": "https://phys.org/news/2026-07-climate-northern-tree-swallows-vulnerable.html",
+      "summary": "Tree swallows in the northern U.S. and Canada face the greatest risk from climate change despite responding to temperature the same way as tree swallows in the southern U.S., according to a new study led by Cornell resea…",
+      "ts": 1783882801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "We assessed dozens of programs for men who use violence. Here's what we learned",
+      "url": "https://phys.org/news/2026-07-dozens-men-violence.html",
+      "summary": "Domestic and family violence is an epidemic. In 2024, the prime minister declared it a national crisis. Official statistics show time and again that this violence is overwhelmingly perpetrated by men. This is unlikely to…",
+      "ts": 1783881001000
+    },
     {
       "source": "Phys.org",
       "title": "Autonomous drones measure volcanic gas clouds, offering clearer eruption warning signs",
@@ -665,41 +700,6 @@
       "title": "Formal Mechanisms for Market Stability in Self-Interested Agent Societies: A Marketplace Simulation Study",
       "url": "https://arxiv.org/abs/2607.08652",
       "summary": "arXiv:2607.08652v1 Announce Type: new Abstract: Self-interested agents, left unconstrained, tend toward defection in repeated social dilemmas, causing cooperative gains from trade to collapse. This paper investigates wha…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets",
-      "url": "https://arxiv.org/abs/2607.08681",
-      "summary": "arXiv:2607.08681v1 Announce Type: new Abstract: As agentic AI systems are increasingly applied to cyber-physical environments, their evaluation requires assessment of both task performance and trustworthiness. In decentr…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
-      "url": "https://arxiv.org/abs/2607.08716",
-      "summary": "arXiv:2607.08716v1 Announce Type: new Abstract: In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
-      "url": "https://arxiv.org/abs/2607.08734",
-      "summary": "arXiv:2607.08734v1 Announce Type: new Abstract: Post-training quantization is widely used to deploy large language models in resource-constrained settings, yet its evaluation relies almost exclusively on accuracy and per…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
-      "url": "https://arxiv.org/abs/2607.08740",
-      "summary": "arXiv:2607.08740v1 Announce Type: new Abstract: Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval. Existing workflow systems…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
-      "url": "https://arxiv.org/abs/2607.08745",
-      "summary": "arXiv:2607.08745v1 Announce Type: new Abstract: Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, d…",
       "ts": 1783742400000
     }
   ],

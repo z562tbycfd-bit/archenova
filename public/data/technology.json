@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-12T18:00:33.350Z",
+  "updated": "2026-07-12T20:06:37.783Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Tau in the spotlight at Alzheimer’s conference",
+      "url": "https://www.statnews.com/2026/07/12/aaic-in-30-alzheimers-treaatments-focus-on-tau-blood-brain-barrier/?utm_campaign=rss",
+      "summary": "From STAT's AAIC in 30 newsletter: Researchers focus on tau, and progress on crossing the blood-brain barrier.",
+      "ts": 1783886505000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Reviving communities home by home in Gaza",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167921",
+      "summary": "Displacement has drastically reshaped every aspect of daily life in war-ravaged Gaza for 24-year-old Mayyada, who is seven months pregnant with twins and caring for her two-year-old daughter, but now she and her family a…",
+      "ts": 1783857600000,
+      "categoryId": "global-governance"
+    },
     {
       "source": "SpaceNews",
       "title": "Parabilis tests propulsion system for maneuverable cubesats",
@@ -9,6 +25,14 @@
       "summary": "The Space Force is backing the development of the company’s hybrid engine technology for small satellites The post Parabilis tests propulsion system for maneuverable cubesats appeared first on SpaceNews.",
       "ts": 1783777178000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Thai youth leaders push for inclusion, partnership and lasting change",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167917",
+      "summary": "From local communities to the global stage, a diverse group of young leaders from Thailand is helping shape conversations on public policy, climate action, inclusion, indigenous rights, disability access and youth wellbe…",
+      "ts": 1783771200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -697,30 +721,6 @@
       "summary": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW. The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in th…",
       "ts": 1783602055000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "ts": 1783602000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Force awards Pulse Space $40 million to advance laser power technology",
-      "url": "https://spacenews.com/space-force-awards-pulse-space-40-million-to-advance-laser-power-technology/",
-      "summary": "The startup is developing laser systems that transmit power and data between spacecraft The post Space Force awards Pulse Space $40 million to advance laser power technology appeared first on SpaceNews.",
-      "ts": 1783602000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Advanced Cell Sorting Balances Precision, Scale, and Simplicity",
-      "url": "https://www.genengnews.com/topics/translational-medicine/advanced-cell-sorting-balances-precision-scale-and-simplicity/",
-      "summary": "Next-generation instruments improve rare-cell detection, sterility control, biosafety, and throughput for translational applications. The post Advanced Cell Sorting Balances Precision, Scale, and Simplicity appeared firs…",
-      "ts": 1783600427000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
