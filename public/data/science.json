@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-12T21:53:48.005Z",
+  "updated": "2026-07-12T22:52:43.276Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Machine learning calibration of biosensors for microcystin toxin monitoring in freshwater",
+      "url": "https://phys.org/news/2026-07-machine-calibration-biosensors-microcystin-toxin.html",
+      "summary": "Portable screen-printed carbon electrode (SPCE) biosensors offer a rapid, low-cost way to detect microcystin-lysine-arginine (MC-LR), an extremely potent toxin produced by cyanobacteria during harmful algal blooms in fre…",
+      "ts": 1783894801000
+    },
     {
       "source": "Phys.org",
       "title": "The public isn't bored with economists, management scholars and sociologists but engaging people has conditions",
@@ -693,13 +700,6 @@
       "title": "SHAP-Weighted Cross-Modal Expert Fusion for Emotion and Sentiment Recognition: Evidence and Limits",
       "url": "https://arxiv.org/abs/2607.08573",
       "summary": "arXiv:2607.08573v1 Announce Type: new Abstract: Multimodal emotion and sentiment recognition is commonly addressed by early fusion, which concatenates modalities before classification, or late fusion, which combines inde…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Towards Precision Therapy in Hepatocellular Carcinoma: A Clinical-Reasoning LLM for Risk Stratification and Treatment Guidance",
-      "url": "https://arxiv.org/abs/2607.08602",
-      "summary": "arXiv:2607.08602v1 Announce Type: new Abstract: Hepatocellular carcinoma (HCC) is a common malignancy and a leading cause of cancer-related mortality. Current guidelines and staging systems provide coarse categories, but…",
       "ts": 1783742400000
     }
   ],
