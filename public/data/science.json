@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-12T22:52:43.276Z",
+  "updated": "2026-07-12T23:57:33.497Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Jellyfish videos reveal why science content sparks curiosity for some viewers",
+      "url": "https://phys.org/news/2026-07-jellyfish-videos-reveal-science-content.html",
+      "summary": "It can be easy to get sucked into social media for hours on end. Funny, cartoony science videos may be especially interesting, but not to everyone, according to a recent study from the University of Georgia.",
+      "ts": 1783897203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trees for hotter cities: New approach can bolster community input in meeting targets",
+      "url": "https://phys.org/news/2026-07-trees-hotter-cities-approach-bolster.html",
+      "summary": "Efforts to plant more trees in cities could be boosted thanks to a new tool for planners and community groups, published by an international group of researchers. Residents, policymakers and tree officers in Cardiff, Mil…",
+      "ts": 1783897201000
+    },
     {
       "source": "Phys.org",
       "title": "Machine learning calibration of biosensors for microcystin toxin monitoring in freshwater",
@@ -686,20 +700,6 @@
       "title": "AI-guided stimuli discovery and generation to optimize facial emotion perception studies in autism",
       "url": "https://arxiv.org/abs/2607.08533",
       "summary": "arXiv:2607.08533v1 Announce Type: new Abstract: Understanding perceptual differences between autistic and neurotypical adults requires behavioral assays that are sensitive, reliable, and mechanistically informative. Faci…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "CommuniWave:A Machine Learning Model for Quantifying the Degree of Temporary Informal Behavior in Urban Communities",
-      "url": "https://arxiv.org/abs/2607.08554",
-      "summary": "arXiv:2607.08554v1 Announce Type: new Abstract: For urban managers and designers, improving the functional attributes of urban communities to enhance territorial resilience in the face of complexity and uncertainty is cr…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "SHAP-Weighted Cross-Modal Expert Fusion for Emotion and Sentiment Recognition: Evidence and Limits",
-      "url": "https://arxiv.org/abs/2607.08573",
-      "summary": "arXiv:2607.08573v1 Announce Type: new Abstract: Multimodal emotion and sentiment recognition is commonly addressed by early fusion, which concatenates modalities before classification, or late fusion, which combines inde…",
       "ts": 1783742400000
     }
   ],
