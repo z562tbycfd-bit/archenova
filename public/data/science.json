@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-11T23:57:45.597Z",
+  "updated": "2026-07-12T03:43:16.949Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Almost a quarter of Dutch bee colonies did not survive last winter",
+      "url": "https://phys.org/news/2026-07-quarter-dutch-bee-colonies-survive.html",
+      "summary": "During the winter of 2025–2026, 24% of Dutch honeybee colonies were lost. The upward trend observed in recent years therefore continues. This is the fourth consecutive year in which winter mortality has exceeded 20%. The…",
+      "ts": 1783824001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Unforeseen consequences of the 'great aging' of America",
+      "url": "https://phys.org/news/2026-07-qa-unforeseen-consequences-great-aging.html",
+      "summary": "The average life span for Americans hovered around 40 years for the first 100 years of the nation's existence. But after 1880, breakthroughs in modern medicine and public health resulted in a dramatic rise in life expect…",
+      "ts": 1783814401000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Atmospheric CO₂-to-acetaldehyde artificial photosynthesis in metallo hydrogen-bonded organic frameworks",
+      "url": "https://www.nature.com/articles/s41467-026-75384-z",
+      "summary": "",
+      "ts": 1783814400000
+    },
     {
       "source": "Phys.org",
       "title": "Drawing the line: Virtual fences trigger the same cattle behavior as physical ones",
@@ -679,27 +700,6 @@
       "title": "Shift & Drift: A Zero-Shot Benchmark for Generalizable and Robust Autonomous Driving Motion Planning",
       "url": "https://arxiv.org/abs/2607.07844",
       "summary": "arXiv:2607.07844v1 Announce Type: cross Abstract: While closed-loop motion planners trained on large-scale, object-level datasets, e.g., nuPlan, demonstrate strong in-distribution (ID) performance, their generalization t…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Kime-Representation Formulations of Three Open Problems in the Foundations of Classical Mechanics: Uncertainty, Invariant Entropy, and Directional Degrees of Freedom",
-      "url": "https://arxiv.org/abs/2607.07851",
-      "summary": "arXiv:2607.07851v1 Announce Type: cross Abstract: We give mathematically self-contained formulations, in the complex-time (kime) representation, of three open problems from the foundations of classical mechanics: (I) the…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Multi-agent Autoformalization of Tensor Network Theory",
-      "url": "https://arxiv.org/abs/2607.07857",
-      "summary": "arXiv:2607.07857v1 Announce Type: cross Abstract: We build a team of specialized large language-model agents and present an agent-driven workflow for research-level formalization in theoretical physics, with the autoform…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Time-to-Collision Based Dynamic Obstacle Avoidance Using Pretrained Vision Models for Robots in Unstructured Environments",
-      "url": "https://arxiv.org/abs/2607.07885",
-      "summary": "arXiv:2607.07885v1 Announce Type: cross Abstract: Dynamic obstacle avoidance in unstructured outdoor environments remains a critical challenge for autonomous mobile robots, particularly when large-scale robot-specific tr…",
       "ts": 1783742400000
     }
   ],
