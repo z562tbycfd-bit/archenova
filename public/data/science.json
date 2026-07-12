@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-12T11:14:15.771Z",
+  "updated": "2026-07-12T13:24:58.902Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate oscillations shape nature's coral refuges in a warming ocean",
+      "url": "https://phys.org/news/2026-07-climate-oscillations-nature-coral-refuges.html",
+      "summary": "Why do some coral reefs weather marine heat waves better than others? A new study published in Scientific Reports shows that the answer may lie not only in local ocean conditions, but also in climate patterns that span e…",
+      "ts": 1783861204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oldest quasars ever discovered add to 'perplexing' space mystery",
+      "url": "https://phys.org/news/2026-07-oldest-quasars-perplexing-space-mystery.html",
+      "summary": "The Euclid space telescope has spotted the oldest quasars—the brightest objects in the universe—ever discovered, deepening a cosmic mystery that has been puzzling scientists.",
+      "ts": 1783860001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New method brings single-particle quality control to nanocrystal manufacturing",
+      "url": "https://phys.org/news/2026-07-method-particle-quality-nanocrystal.html",
+      "summary": "Nanocrystals are already used in millions of devices, including televisions, laptops and displays, and are considered key materials for the next generation of quantum, sensing and solar technologies. However, they have n…",
+      "ts": 1783857602000
+    },
     {
       "source": "Phys.org",
       "title": "Firefighters gain upper hand on deadly Spain wildfire",
@@ -679,27 +700,6 @@
       "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE",
       "url": "https://arxiv.org/abs/2607.07740",
       "summary": "arXiv:2607.07740v1 Announce Type: cross Abstract: Modern LLMs are increasingly deployed in long-context applications such as retrieval-augmented generation, repository-level coding, and agentic workflows whose accumulate…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Architecture Generalization with MetaNCA",
-      "url": "https://arxiv.org/abs/2607.07743",
-      "summary": "arXiv:2607.07743v1 Announce Type: cross Abstract: Self-organization is an emergent property of life, driven by the collective behavior of individual components acting on local information. Biological neurons, through loc…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "A Transdiagnostic Space of Disorder Like Phenotypes in Reinforcement Learning Agents",
-      "url": "https://arxiv.org/abs/2607.07753",
-      "summary": "arXiv:2607.07753v1 Announce Type: cross Abstract: Modelling psychological disorders in artificial agents offers both a testbed for computational psychiatry and a lens on the failure modes of affective control. Prior work…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "Principled Analysis of Deep Reinforcement Learning Evaluation and Design Paradigms",
-      "url": "https://arxiv.org/abs/2607.07769",
-      "summary": "arXiv:2607.07769v1 Announce Type: cross Abstract: Starting from the utilization of deep neural networks to approximate the state-action value function that led to winning one of the most challenging games, to algorithmic…",
       "ts": 1783742400000
     }
   ],
