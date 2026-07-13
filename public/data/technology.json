@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-07-13T13:26:41.865Z",
+  "updated": "2026-07-13T16:36:15.731Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: UnitedHealth’s questionable review, and more MA stars lawsuits",
+      "url": "https://www.statnews.com/2026/07/13/unitedhealth-housecalls-audit-report-medicare-advantage-stars-lawsuits/?utm_campaign=rss",
+      "summary": "UnitedHealth touts a new home care audit, and more health insurers sue CMS over Medicare Advantage quality ratings.",
+      "ts": 1783956545000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Accel and Prosus backed QOSMIC raises $3.33 Million to Build Optical Ground Stations for the Orbital Data Economy",
+      "url": "https://spacenews.com/accel-and-prosus-backed-qosmic-raises-3-33-million-to-build-optical-ground-stations-for-the-orbital-data-economy/",
+      "summary": "BENGALURU, India / July 15, 2026 — QOSMIC has raised $3.33 million in seed funding co-led by Accel and Prosus, with participation from South Park Commons, ARTPARK, and angel investor […] The post Accel and Prosus backed …",
+      "ts": 1783955408000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Martha Lillard, last U.S. polio patient using iron lung, dies at 78 in Oklahoma",
+      "url": "https://www.statnews.com/2026/07/13/martha-lillard-last-us-polio-patient-iron-lung-dies/?utm_campaign=rss",
+      "summary": "Martha Lillard, last U.S. polio patient using iron lung, has died at 78 in Oklahoma.",
+      "ts": 1783953401000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA releases 2026 Space Economy Report",
+      "url": "https://www.esa.int/About_Us/Business_with_ESA/ESA_releases_2026_Space_Economy_Report",
+      "summary": "The European Space Agency’s (ESA) newly released Space Economy Report gives a comprehensive overview of the latest developments shaping Europe's space sector.",
+      "ts": 1783951740000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Immune Evasion Uncovered by Virome-Wide Ubiquitin Ligase Discovery",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/immune-evasion-uncovered-by-virome-wide-ubiquitin-ligase-discovery/",
+      "summary": "Viruses hijack cells’ garbage-disposal systems to evade immune attack. The study proposes to speed basic discoveries in virology, and inform the development of new vaccines and treatments to protect against emerging path…",
+      "ts": 1783950148000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: All eyes on data on Biogen’s tau therapy",
+      "url": "https://www.statnews.com/2026/07/13/biotech-news-all-eyes-on-biogen-tau-therapy-data/?utm_campaign=rss",
+      "summary": "The year of daraxonrasib, a wearable for a myeloma drug, and more biotech news from The Readout",
+      "ts": 1783950008000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about an RFK Jr. push against psychiatric meds, a Sanofi blood cancer drug, and more",
@@ -388,6 +436,14 @@
     },
     {
       "source": "United Nations News",
+      "title": "From NASA to the classroom: The engineer bringing AI to those left behind",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167920",
+      "summary": "Nia Jetter spent two decades building spacecraft and robots. Now she is trying to make sure the artificial intelligence revolution doesn't leave anyone behind.",
+      "ts": 1783857600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "UN chief urges Iran and US to ‘urgently resume negotiations’ as Gulf strikes escalate",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167923",
       "summary": "Renewed strikes and counterstrikes between Iran and the United States in the Gulf region have raised fears of a return to all‑out war, with Washington denying Tehran’s claim that it had closed the crucial Strait of Hormu…",
@@ -665,62 +721,6 @@
       "summary": "Image: The Copernicus Sentinel-2 mission captures Canada’s Great Bear Lake in striking colours.",
       "ts": 1783670400000,
       "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Launches First Regional Radiation Protection Training Course for Caribbean States",
-      "url": "http://www.iaea.org/newscenter/news/iaea-launches-first-regional-radiation-protection-training-course-for-caribbean-states",
-      "summary": "The IAEA has launched its first Postgraduate Educational Course (PGEC) on Radiation Protection and the Safety of Radiation Sources for Caribbean countries, marking an important milestone in strengthening radiation safety…",
-      "ts": 1783670400000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "url": "https://openai.com/index/deutsche-telekom",
-      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "ts": 1783666800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "China becomes second country to recover orbital booster with Long March 10B",
-      "url": "https://spacenews.com/china-becomes-second-country-to-recover-orbital-booster-with-long-march-10b/",
-      "summary": "HELSINKI — China launched its Long March 10B rocket early Friday and successfully recovered the first stage, marking a huge step for the country’s reusable rocket efforts. The first Long […] The post China becomes second…",
-      "ts": 1783666542000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Where Venezuela’s Earthquakes Shifted the Ground",
-      "url": "https://science.nasa.gov/earth/earth-observatory/where-venezuelas-earthquakes-shifted-the-ground/",
-      "summary": "Radar data from the NISAR satellite show that La Guaira and nearby areas experienced significant ground displacement from the June 2026 temblors.",
-      "ts": 1783656000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "UMA-Inverse: Ligand-Conditioned Protein Inverse Folding with a Distogram-Supervised Dense Pair Encoder",
-      "url": "https://arxiv.org/abs/2607.07866",
-      "summary": "arXiv:2607.07866v1 Announce Type: new Abstract: Designing protein sequences that bind specific ligands benefits from an inverse-folding model conditioned on full ligand geometry. We present UMA-Inverse, which replaces th…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Anthropogenic disturbance expands the climatic limits of annual plant dominance",
-      "url": "https://arxiv.org/abs/2607.08251",
-      "summary": "arXiv:2607.08251v1 Announce Type: new Abstract: Disturbance regimes and nutrient inputs are changing worldwide, with consequences for the structure and functioning of plant communities. Classical life-history theory pred…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Non-Hermitian Potential Well Formalism for Conscious--Preconscious--Subliminal Processing",
-      "url": "https://arxiv.org/abs/2607.08302",
-      "summary": "arXiv:2607.08302v1 Announce Type: new Abstract: We propose a phenomenological model of the Global Neuronal Workspace (GNW) in which early sensory processing generates an effective complex-valued landscape governing the d…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
