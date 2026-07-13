@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-13T06:55:41.481Z",
+  "updated": "2026-07-13T10:30:10.113Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study suggests increased biotoxicity due to anaerobic decolorization of diazo dye by wetland-derived Clostridium",
+      "url": "https://phys.org/news/2026-07-biotoxicity-due-anaerobic-decolorization-diazo.html",
+      "summary": "Untreated synthetic dye effluents severely threaten aquatic ecosystems by blocking sunlight, depleting dissolved oxygen and releasing compounds with potential ecological toxicity. Among the various treatment strategies, …",
+      "ts": 1783938001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Banned chemicals continue to endanger environmental health in the Middle East and North Africa",
+      "url": "https://phys.org/news/2026-07-chemicals-endanger-environmental-health-middle.html",
+      "summary": "In a study recently published in the journal Environmental Research, scientists from the University of Sharjah have drawn renewed attention to contamination by polybrominated diphenyl ethers (PBDEs), a class of man-made …",
+      "ts": 1783936612000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Only 13% of biodiversity promises from 180 influential companies pass accountability test",
+      "url": "https://phys.org/news/2026-07-biodiversity-influential-companies-accountability.html",
+      "summary": "New research by the University of Oxford and the Stockholm Resilience Centre at Stockholm University has revealed that most biodiversity commitments made by large, influential companies are not precise enough to enable s…",
+      "ts": 1783936230000
+    },
+    {
+      "source": "Phys.org",
+      "title": "RNA-only repair enzyme reveals how primordial life could have protected genomes",
+      "url": "https://phys.org/news/2026-07-rna-enzyme-reveals-primordial-life.html",
+      "summary": "In most modern cells, DNA stores the genetic blueprint, and proteins replicate, repair and build from those blueprints. At the same time, proteins require instructions from DNA to be made in the first place.",
+      "ts": 1783933205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "World's first superconducting quantum heat engine offers path to larger quantum computers",
+      "url": "https://phys.org/news/2026-07-world-superconducting-quantum-path-larger.html",
+      "summary": "Recent improvements in our understanding of how the principles of thermodynamics apply in the quantum realm could give a boost to quantum technology, and a clearer picture of quantum thermodynamics could in turn enhance …",
+      "ts": 1783933201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat wave smashes records across central US",
+      "url": "https://phys.org/news/2026-07-central.html",
+      "summary": "A record-breaking heat wave baked the central United States on Sunday, smashing temperature records from the northern Plains to the Rocky Mountain region.",
+      "ts": 1783930803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "More than 2,700 died as result of heat waves in England, researchers say",
+      "url": "https://phys.org/news/2026-07-died-result-england.html",
+      "summary": "At least 2,700 people died in England and Wales as a result of heat waves that struck in May and June, according to a study released Monday.",
+      "ts": 1783930802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "China's 'Green Great Wall' tames desert growth, but scientists warn the fight is not over",
+      "url": "https://phys.org/news/2026-07-china-green-great-wall-growth.html",
+      "summary": "For half a century, millions of workers have repeated a task across the deserts in northern China: inserting forearm-length sticks into shifting sand, first in a row, then in an intersecting line, gradually forming a gri…",
+      "ts": 1783929713000
+    },
     {
       "source": "arXiv Physics",
       "title": "Self-similarity of mobility networks",
@@ -644,62 +700,6 @@
       "title": "Living droplets with mesoscale swimmers",
       "url": "https://arxiv.org/abs/2509.20005",
       "summary": "arXiv:2509.20005v4 Announce Type: replace-cross Abstract: We study the activity of 'living' droplets, which confine tens of swimming meso-organisms in 3D using a superhydrophobic substrate. With few swimmers, the droplet…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Field observation of soliton gases in the deep open ocean",
-      "url": "https://arxiv.org/abs/2510.04662",
-      "summary": "arXiv:2510.04662v2 Announce Type: replace-cross Abstract: Soliton gases are large ensembles of random solitons with distinct characteristics arising from integrable system dynamics. They have been widely studied in theor…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal valley filtering via uniform dissipation and velocity contrast",
-      "url": "https://arxiv.org/abs/2510.19588",
-      "summary": "arXiv:2510.19588v2 Announce Type: replace-cross Abstract: Valley, as a ubiquitous degree of freedom in lattices, has found wide applications in both electronic and classical-wave devices in recent years. However, achievi…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistics of correlations in nonlinear recurrent neural networks",
-      "url": "https://arxiv.org/abs/2510.21742",
-      "summary": "arXiv:2510.21742v3 Announce Type: replace-cross Abstract: The statistics of correlations are central quantities characterizing the collective dynamics of recurrent neural networks. We derive exact expressions for the sta…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimentally Mapping the Phase Diagrams of Photoexcited Small Polarons",
-      "url": "https://arxiv.org/abs/2512.17869",
-      "summary": "arXiv:2512.17869v2 Announce Type: replace-cross Abstract: Understanding the fundamental properties that dictate photoexcited polarons in materials is critical to tuning their properties. Theoretical models of polarons ha…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Soliton formation in a bound state in the continuum GaN waveguide polariton laser",
-      "url": "https://arxiv.org/abs/2512.23368",
-      "summary": "arXiv:2512.23368v2 Announce Type: replace-cross Abstract: We study polaritonic bound states in the continuum (BIC) created in GaN waveguides. The existence of symmetry-protected BICs is confirmed by the suppression of li…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum science with arrays of metastable helium-3 atoms",
-      "url": "https://arxiv.org/abs/2601.06763",
-      "summary": "arXiv:2601.06763v2 Announce Type: replace-cross Abstract: The motion of atoms in programmable optical tweezer arrays offers many new opportunities for neutral atom quantum science. These include inter- and intra-site ato…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectral Portfolio Theory: From SGD Weight Matrices to Wealth Dynamics",
-      "url": "https://arxiv.org/abs/2603.09006",
-      "summary": "arXiv:2603.09006v3 Announce Type: replace-cross Abstract: We develop spectral portfolio theory by establishing a direct identification: neural network weight matrices trained on stochastic processes are portfolio allocat…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamical thermalization and turbulence in social stratification models",
-      "url": "https://arxiv.org/abs/2603.24190",
-      "summary": "arXiv:2603.24190v2 Announce Type: replace-cross Abstract: We study the nonlinear chaotic dynamics in a system of linear oscillators coupled by social network links with an additional stratification of oscillator energies…",
       "ts": 1783915200000
     }
   ],

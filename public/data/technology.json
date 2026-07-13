@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-13T06:55:44.456Z",
+  "updated": "2026-07-13T10:30:15.761Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "ESA welcomes new UK space and defence gateway ",
+      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_welcomes_new_UK_space_and_defence_gateway",
+      "summary": "His Majesty King Charles III visited the UK’s largest space cluster on 10 July to launch a new initiative designed to shape the future of the space and defence economy.",
+      "ts": 1783941780000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: HHS presses ahead with effort to curb antidepressant use",
+      "url": "https://www.statnews.com/2026/07/13/hhs-ssri-deprescribing-experts-gather-clinical-withdrawal-guidance/?utm_campaign=rss",
+      "summary": "In a private meeting, HHS officials met with mental health professionals to work on guidance for stopping SSRIs.",
+      "ts": 1783931400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "As states absorb Medicaid funding cuts, family caregivers face financial ruin",
+      "url": "https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts/?utm_campaign=rss",
+      "summary": "Family caregivers of people with disabilities face a grim financial future as several states consider steep cuts to their wages.",
+      "ts": 1783931400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A breakthrough in pancreatic cancer has experts excited — and braced for what’s to come",
+      "url": "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/?utm_campaign=rss",
+      "summary": "Pancreatic cancer specialists are excited about the biggest breakthrough in the field in decades. They are also looking around the corner to what comes next.",
+      "ts": 1783931400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Is there a doctor on board? Yes, and airlines depend on it",
+      "url": "https://www.statnews.com/2026/07/13/doctors-airlines-volunteer-emergency-inflight-emergency-divert/?utm_campaign=rss",
+      "summary": "Physicians who volunteer on flights assume responsibility with no patient history, limited equipment, and an audience of 200 people.",
+      "ts": 1783931400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The shortage of forensic pathologists is hurting justice, public health, and families",
+      "url": "https://www.statnews.com/2026/07/13/forensic-pathologist-shortage-medical-examiners/?utm_campaign=rss",
+      "summary": "It’s time to solve the case of the missing pathologist.",
+      "ts": 1783931400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "China lines up methalox Long March 10C as commercial workhorse after first booster recovery",
+      "url": "https://spacenews.com/china-lines-up-methalox-long-march-10c-as-commercial-workhorse-after-first-booster-recovery/",
+      "summary": "HELSINKI — China confirmed a methalox Long March 10C as its commercial workhorse following its first successful booster recovery, while injecting fresh capital into commercial rocket ventures. The China Academy […] The p…",
+      "ts": 1783931361000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "DentiAsk: A VQA Benchmark for Multimodal Reasoning in Panoramic Dental Radiographs",
@@ -664,62 +720,6 @@
       "url": "https://arxiv.org/abs/2511.07624",
       "summary": "arXiv:2511.07624v3 Announce Type: replace-cross Abstract: Markerless motion tracking has advanced rapidly in the past 10 years and currently offers powerful opportunities for behavioural, clinical, and biomechanical rese…",
       "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Human-like Object Grouping in Self-supervised Vision Transformers",
-      "url": "https://arxiv.org/abs/2603.13994",
-      "summary": "arXiv:2603.13994v3 Announce Type: replace-cross Abstract: Vision foundation models trained with self-supervised objectives achieve strong performance across diverse tasks and exhibit emergent object segmentation properti…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Synchronization modes in bipartite oscillator networks",
-      "url": "https://arxiv.org/abs/2606.20345",
-      "summary": "arXiv:2606.20345v3 Announce Type: replace-cross Abstract: Collective oscillations in neuronal systems often arise from interactions between excitatory and inhibitory populations rather than from recurrent coupling within…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "STST-JEPA: Shallow-Target Spatio-Temporal Joint Embedding Prediction Architecture For EEG Self-Supervised Learning",
-      "url": "https://arxiv.org/abs/2607.06629",
-      "summary": "arXiv:2607.06629v2 Announce Type: replace-cross Abstract: Brain age - the age inferred from a physiological recording - is an emerging biomarker whose deviation from chronological age tracks neurological and psychiatric …",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Managing the impacts of EU electric vehicle import tariffs",
-      "url": "https://www.nature.com/articles/s41560-026-02102-w",
-      "summary": "",
-      "ts": 1783641600000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Distributional impacts of EU tariffs on Chinese electric vehicles across European markets",
-      "url": "https://www.nature.com/articles/s41560-026-02105-7",
-      "summary": "",
-      "ts": 1783641600000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Interior Department requests information on offshore launch options",
-      "url": "https://spacenews.com/interior-department-requests-information-on-offshore-launch-options/",
-      "summary": "An office of the U.S. Department of the Interior is seeking information on concepts for performing offshore orbital launches, part of a broader effort to reduce congestion at existing spaceports. The post Interior Depart…",
-      "ts": 1783639258000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Epigenomic Analysis Uncovers New AML Subgroups and Drug Sensitivities",
-      "url": "https://www.genengnews.com/topics/cancer/epigenomic-analysis-uncovers-new-aml-subgroups-and-drug-sensitivities/",
-      "summary": "New chromatin‑based analysis of 1,563 AML samples reveals 16 epigenomic subgroups that improve prognostic accuracy and highlight unexpected drug sensitivities. The post Epigenomic Analysis Uncovers New AML Subgroups and …",
-      "ts": 1783637376000,
       "categoryId": "bio"
     }
   ],
