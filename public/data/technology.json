@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-13T18:45:29.415Z",
+  "updated": "2026-07-13T20:17:30.165Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "New Lung Model Reveals RSV Immune Response, Points to Better Treatments",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/new-lung-model-reveals-rsv-immune-response-points-to-better-treatments/",
+      "summary": "Researchers used pediatric airway cells, blood vessel cells, and neutrophils to build an in vitro model of infant lungs that allowed them to investigate why respiratory syncytial virus makes infants sicker than adults, a…",
+      "ts": 1783971781000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Poland to host new ESA center as government boosts investments in space",
+      "url": "https://spacenews.com/poland-to-host-new-esa-center-as-government-boosts-investments-in-space/",
+      "summary": "WARSAW, Poland — Poland will host the first European Space Agency (ESA) center located in an eastern flank member state, one that will be focused on civil security and resilience. […] The post Poland to host new ESA cent…",
+      "ts": 1783969920000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Mung Bean Pan-Genome Study Maps Key Genes for Yield, Nutrition, and Pest Resistance",
@@ -35,6 +51,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA Astronaut Anil Menon",
+      "url": "https://www.nasa.gov/image-article/nasa-astronaut-anil-menon/",
+      "summary": "NASA astronaut Anil Menon poses in a spacesuit for a portrait at NASA’s Johnson Space Center in Houston, Texas on Jan. 8, 2026. Menon will launch aboard the Roscosmos Soyuz MS-29 spacecraft to the International Space Sta…",
+      "ts": 1783955476000,
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Accel and Prosus backed QOSMIC raises $3.33 Million to Build Optical Ground Stations for the Orbital Data Economy",
       "url": "https://spacenews.com/accel-and-prosus-backed-qosmic-raises-3-33-million-to-build-optical-ground-stations-for-the-orbital-data-economy/",
@@ -56,6 +80,14 @@
       "url": "https://www.esa.int/About_Us/Business_with_ESA/ESA_releases_2026_Space_Economy_Report",
       "summary": "The European Space Agency’s (ESA) newly released Space Economy Report gives a comprehensive overview of the latest developments shaping Europe's space sector.",
       "ts": 1783951740000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Discovers First of Star Cluster’s Missing Black Holes",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-discovers-first-of-star-clusters-missing-black-holes/",
+      "summary": "Astronomers using archival data from Hubble and supportive observations from Webb have located their first stellar-mass black hole in the star cluster Omega Centauri.",
+      "ts": 1783951200000,
       "categoryId": "space"
     },
     {
@@ -689,38 +721,6 @@
       "summary": "At least one million women and girls have lost access to critical humanitarian support since January 2025 as unprecedented aid cuts push women's organizations in crisis zones to the brink of collapse, the UN’s gender equ…",
       "ts": 1783684800000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "FDA quietly pushes back deadline on electric shock ban",
-      "url": "https://www.statnews.com/2026/07/10/health-news-fda-quietly-pushes-back-deadline-on-electric-shock-ban/?utm_campaign=rss",
-      "summary": "Massachusetts' biggest nursing strike ever, tackling the male loneliness epidemic, and other health news for Morning Rounds",
-      "ts": 1783684312000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "ElevationSpace advances work on commercial reentry vehicle",
-      "url": "https://spacenews.com/elevationspace-advances-work-on-commercial-reentry-vehicle/",
-      "summary": "A Japanese startup developing reentry vehicles is signing up customers and preparing for its first mission while keeping a watchful eye on SpaceX’s entry into the market. The post ElevationSpace advances work on commerci…",
-      "ts": 1783682714000,
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA-Led Mission Sample ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-led-mission-sample-alps-treated-water-at-fukushima-daiichi-nuclear-power-station-under-additional-measures",
-      "summary": "",
-      "ts": 1783677004000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Sperm donors need limits, says a European fertility group",
-      "url": "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group/",
-      "summary": "Ties van der Meer doesn’t know how many siblings he has. The 47-year-old was conceived at a private fertility clinic in the Netherlands using sperm provided by an anonymous donor. After the Netherlands banned anonymous d…",
-      "ts": 1783674000000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

@@ -1,7 +1,84 @@
 {
   "ok": true,
-  "updated": "2026-07-13T18:45:24.386Z",
+  "updated": "2026-07-13T20:17:25.885Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Scientists uncover molecular mechanism linking water-saving irrigation to cadmium accumulation in rice",
+      "url": "https://phys.org/news/2026-07-scientists-uncover-molecular-mechanism-linking.html",
+      "summary": "Water-saving irrigation practices, including intermittent irrigation, are essential for sustainable rice cultivation amid growing freshwater shortages. However, periodic drainage creates aerobic soil conditions that dras…",
+      "ts": 1783972806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI-powered electronic nose can distinguish tens of thousands of odors",
+      "url": "https://phys.org/news/2026-07-ai-powered-electronic-nose-distinguish.html",
+      "summary": "A research team has presented a roadmap for developing an \"artificial olfactory system\" that detects odors like the human nose and analyzes them using artificial intelligence (AI) by leveraging metal-organic frameworks (…",
+      "ts": 1783972801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hundreds of economists say 'we must act now' on AI's economic impact and job displacement risks",
+      "url": "https://phys.org/news/2026-07-hundreds-economists-ai-economic-impact.html",
+      "summary": "Hundreds of economists say in an open letter that institutions \"must act now\" to address how artificial intelligence could transform the economy and could put many people out of work.",
+      "ts": 1783971606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Where mainshocks strike may explain earthquake size patterns better than timing, data suggests",
+      "url": "https://phys.org/news/2026-07-mainshocks-earthquake-size-patterns.html",
+      "summary": "Japan is well known for its large earthquakes, but not all regions show the same patterns of earthquake activity. One way to understand which places tend to experience large or small earthquakes is the b-value, a key sta…",
+      "ts": 1783971604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Six massive landslides discovered on icy Pluto",
+      "url": "https://phys.org/news/2026-07-massive-landslides-icy-pluto.html",
+      "summary": "Scientists have detected evidence of landslides on Pluto for the first time. A paper published in the journal Icarus reports that images taken by the New Horizons spacecraft during a flyby revealed six large landslides i…",
+      "ts": 1783971002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New imaging method reveals how electric fields reshape ferroelectric materials",
+      "url": "https://phys.org/news/2026-07-imaging-method-reveals-electric-fields.html",
+      "summary": "New research is shedding light on longstanding debates over the behavior of ferroelectric materials when those materials are exposed to electric fields. The findings stem from the use of a novel technique that allows res…",
+      "ts": 1783970403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden barriers keep many Californians from coast, survey reveals",
+      "url": "https://phys.org/news/2026-07-hidden-barriers-californians-coast-survey.html",
+      "summary": "As locals and visitors from across the globe flock to California's famous beaches this summer, a collaboration of marine and social scientists, in partnership with grassroots organizations, has peeled back the so-called …",
+      "ts": 1783970401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists and citizens are more persuasive than government and industry in mobilizing action, study finds",
+      "url": "https://phys.org/news/2026-07-scientists-citizens-persuasive-industry-mobilizing.html",
+      "summary": "In environmental, health and technology crises, Americans are more persuaded to take action by scientists and public consensus than by leaders in government and industry, according to a study in the Proceedings of the Na…",
+      "ts": 1783969207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why climate scientists need to talk more about the very worst‑case scenarios",
+      "url": "https://phys.org/news/2026-07-climate-scientists-worstcase-scenarios.html",
+      "summary": "London is underwater. The Houses of Parliament, Buckingham Palace, St Paul's Cathedral and the Bank of England are all submerged. Far away, the West Antarctic and Greenland ice sheets have collapsed, triggering accelerat…",
+      "ts": 1783969204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Silly sprinklers' put in reverse to further unravel decades-old physics puzzle",
+      "url": "https://phys.org/news/2026-07-silly-sprinklers-reverse-unravel-decades.html",
+      "summary": "Each summer, lawns are marked by a familiar addition: \"silly sprinklers,\" whose loops and spirals spew water in creative ways. While seemingly frivolous in their construction, a team of mathematicians has used their desi…",
+      "ts": 1783969203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New 3D thermal cloak hides objects from heat in any direction",
+      "url": "https://phys.org/news/2026-07-3d-thermal-cloak.html",
+      "summary": "Researchers have designed and built the first 3D device that can make objects invisible to heat, an advance that could transform how we protect sensitive electronics, manage heat in microchips and shield equipment from t…",
+      "ts": 1783969026000
+    },
     {
       "source": "Phys.org",
       "title": "White-beam neutron device unlocks precise control of twisted quantum waves",
@@ -402,24 +479,17 @@
       "ts": 1783938001000
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Volume-Law Protection of Metrological Advantage",
-      "url": "http://link.aps.org/doi/10.1103/3gg8-wgdr",
-      "summary": "Author(s): Piotr Wysocki, Jan Chwedeńczuk, and Marcin Płodzień Although entanglement can boost metrological precision beyond the standard quantum limit, the advantage often disappears with particle loss. We demonstrate t…",
-      "ts": 1783936800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Edge of Safety: Charge-Charge Correlation in the Back-to-Back Limit",
-      "url": "http://link.aps.org/doi/10.1103/3pqk-qr64",
-      "summary": "Author(s): Pier Francesco Monni, Gherardo Vita, Zhen Xu, and Hua Xing Zhu We investigate the charge-charge correlation (QQC) in electron-positron annihilation as a probe of charge dynamics in quantum chromodynamics. Whil…",
-      "ts": 1783936800000
-    },
-    {
       "source": "APS PR Applied",
       "title": "Highly efficient microwave storage and retrieval using a superconducting chiral $\\mathrm{Λ}$-type molecule",
       "url": "http://link.aps.org/doi/10.1103/tmsk-wrqy",
       "summary": "Author(s): Kai-I Chu, Yung-Fu Chen, and Wen-Te Liao We theoretically investigate a high-efficiency and broadband microwave storage and retrieval scheme employing a superconducting artificial chiral molecule embedded in a…",
+      "ts": 1783936800000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Time-resolved observation of magnon splitting into vortex gyration and Floquet spin waves",
+      "url": "http://link.aps.org/doi/10.1103/kzlb-j3mw",
+      "summary": "Author(s): T. Devolder, R. Lopes Seeger, C. Heins, A. Jenkins, L. C. Benetti, A. Schulman, R. Ferreira, G. Philippe, C. Chappert, H. Schultheiss, K. Schultheiss, and J.-V. Kim Forced excitations at frequencies in the ran…",
       "ts": 1783936800000
     },
     {
@@ -434,6 +504,27 @@
       "title": "Implicit nucleation and competitive dynamics of electrogenerated gas nanobubbles",
       "url": "http://link.aps.org/doi/10.1103/8m4n-nplm",
       "summary": "Author(s): Nima Shakourifar, Nana Ofori-Opoku, and Benzhong Zhao Electrogenerated gas nanobubbles strongly influence the performance of electrochemical energy-conversion systems, yet their nucleation and early evolution …",
+      "ts": 1783936800000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Transverse superconducting diode without violation of parity- or time-reversal symmetry",
+      "url": "http://link.aps.org/doi/10.1103/thp3-b1tz",
+      "summary": "Author(s): Ruo-Peng Yu, Jin-Xin Hu, and Zi-Ting Sun Diode behavior is usually associated with broken reciprocity, so a superconducting diode without magnetic fields or structural-inversion symmetry breaking seems counter…",
+      "ts": 1783936800000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Volume-Law Protection of Metrological Advantage",
+      "url": "http://link.aps.org/doi/10.1103/3gg8-wgdr",
+      "summary": "Author(s): Piotr Wysocki, Jan Chwedeńczuk, and Marcin Płodzień Although entanglement can boost metrological precision beyond the standard quantum limit, the advantage often disappears with particle loss. We demonstrate t…",
+      "ts": 1783936800000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Edge of Safety: Charge-Charge Correlation in the Back-to-Back Limit",
+      "url": "http://link.aps.org/doi/10.1103/3pqk-qr64",
+      "summary": "Author(s): Pier Francesco Monni, Gherardo Vita, Zhen Xu, and Hua Xing Zhu We investigate the charge-charge correlation (QQC) in electron-positron annihilation as a probe of charge dynamics in quantum chromodynamics. Whil…",
       "ts": 1783936800000
     },
     {
@@ -609,97 +700,6 @@
       "title": "Heterogeneous Network Topology Induces the Widom Line",
       "url": "https://arxiv.org/abs/2607.09174",
       "summary": "arXiv:2607.09174v1 Announce Type: new Abstract: The Widom line, initially identified as a crossover line between liquid-like and gas-like behavior in water and supercritical fluids, separates these two types of behavior.…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mean field homogenization schemes for composites with prolate and oblate spheroids: use of the orientation tensors and computation of the strain second-moments",
-      "url": "https://arxiv.org/abs/2607.09213",
-      "summary": "arXiv:2607.09213v1 Announce Type: new Abstract: In this document we provide the homogenized stiffnesses from Mori-Tanaka scheme and Ponte-Casta{\\~n}eda and Willis scheme applied to composites with spheroidal inclusions. …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparison of DBS measurements of turbulence spectra by vertical-displacement and poloidal-angle scans using the Scotty synthetic diagnostic",
-      "url": "https://arxiv.org/abs/2607.09219",
-      "summary": "arXiv:2607.09219v1 Announce Type: new Abstract: Doppler backscattering (DBS) measures electron density fluctuations. The measured wavenumber is typically varied by changing the probe beam poloidal launch angle. As most D…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser-Induced Fluorescence for measuring salt mass fraction in evaporating saline solutions",
-      "url": "https://arxiv.org/abs/2607.09220",
-      "summary": "arXiv:2607.09220v1 Announce Type: new Abstract: A non-intrusive optical diagnostic based on Laser-Induced Fluorescence (LIF) is developed for measuring salt mass fraction in highly concentrated aqueous solutions relevant…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "I see you, do you see me? Perception-based crowdedness and behavioral responses in pedestrian dynamics",
-      "url": "https://arxiv.org/abs/2607.09221",
-      "summary": "arXiv:2607.09221v1 Announce Type: new Abstract: Pedestrian traffic is commonly characterized using local density, yet the interactions experienced by individuals depend on the relative positions and perceptual relevance …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy, time, and position resolution measurements of an array of large tapered LYSO crystals",
-      "url": "https://arxiv.org/abs/2607.09226",
-      "summary": "arXiv:2607.09226v1 Announce Type: new Abstract: We report on the performance of six custom-made tapered LYSO crystals of unprecedented volume, which constitute a sector of the 19 radiation length electromagnetic calorime…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tens of MeV, collimated, bright fluxes of protons from ordered nano-structured targets in ultra-relativistic laser-matter interaction",
-      "url": "https://arxiv.org/abs/2607.09229",
-      "summary": "arXiv:2607.09229v1 Announce Type: new Abstract: Laser-driven proton acceleration from nanostructured solid targets has been extensively studied, yet its performance under realistic temporal contrast conditions at petawat…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Serially Improved GTOs for Molecular Applications (SIGMA): basis sets from monovalent ions",
-      "url": "https://arxiv.org/abs/2607.09238",
-      "summary": "arXiv:2607.09238v1 Announce Type: new Abstract: A new family of ionic basis sets, denoted i{\\sigma}XZ1, is presented for molecular calculations on systems containing monovalent ions. The basis sets extend the SIGMA famil…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coherence does not always imply causality in wall-bounded turbulence",
-      "url": "https://arxiv.org/abs/2607.09241",
-      "summary": "arXiv:2607.09241v1 Announce Type: new Abstract: Compact structures of intense tangential Reynolds stress (Q events) are well-known components of wall-bounded turbulence, and have been shown to be coherent because they ap…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weak-Strong Steady-State Microbunching Accelerator Light Source",
-      "url": "https://arxiv.org/abs/2607.09243",
-      "summary": "arXiv:2607.09243v1 Announce Type: new Abstract: We propose a phase space manipulation involving one energy modulation sandwiched by two dispersion sections which converts a bunched particle beam or bunch train to ultra-h…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Co-design approach to aperture masking for imaging through atmospheric turbulence",
-      "url": "https://arxiv.org/abs/2607.09265",
-      "summary": "arXiv:2607.09265v1 Announce Type: new Abstract: Aperture masking interferometry is a technique originally designed to alleviate the influence of atmospheric turbulence on images recorded on ground-based telescopes. In th…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Neural Network Based Calibration and Control of Programmable Classical and Quantum Photonic Integrated Processors",
-      "url": "https://arxiv.org/abs/2607.09301",
-      "summary": "arXiv:2607.09301v1 Announce Type: new Abstract: Efficient calibration and control of programmable photonic integrated circuits are fundamental for scaling quantum and classical optical computing processors. While neural …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical Fourier Surfaces for Free-Space Computer-Generated Holography",
-      "url": "https://arxiv.org/abs/2607.09307",
-      "summary": "arXiv:2607.09307v1 Announce Type: new Abstract: Computer-generated holography can shape electromagnetic fields by encoding wavefront information in nanostructured surfaces. However, despite significant progress, hologram…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The fixed boundary plasma equilibrium basis for a one Gigawatt electric stellarator power plant",
-      "url": "https://arxiv.org/abs/2607.09346",
-      "summary": "arXiv:2607.09346v1 Announce Type: new Abstract: A fixed boundary stellarator equilibrium capable of producing 3 GW of fusion power (1 GW-electric) is presented as the design basis for the GIGA fusion power plant being de…",
       "ts": 1783915200000
     }
   ],
