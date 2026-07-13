@@ -1,7 +1,215 @@
 {
   "ok": true,
-  "updated": "2026-07-13T03:46:13.168Z",
+  "updated": "2026-07-13T06:55:44.456Z",
   "items": [
+    {
+      "source": "arXiv q-bio",
+      "title": "DentiAsk: A VQA Benchmark for Multimodal Reasoning in Panoramic Dental Radiographs",
+      "url": "https://arxiv.org/abs/2607.08790",
+      "summary": "arXiv:2607.08790v1 Announce Type: new Abstract: Accurate interpretation of panoramic dental radiographs requires the integration of multiple reasoning capabilities: detection, spatial localization, and quantitative asses…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "HemoPIC: A Physics-Informed Cerebral Hemodynamics Digital Twin for Brain Perfusion",
+      "url": "https://arxiv.org/abs/2607.08799",
+      "summary": "arXiv:2607.08799v1 Announce Type: new Abstract: Perfusion imaging guides clinical evaluation of stroke and brain tumors by characterizing tissue-level hemodynamics. Routine quantification relies on manual arterial input …",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "TheBioCollection: Unified Pre-Training Scale LLM Corpus for Biology",
+      "url": "https://arxiv.org/abs/2607.08803",
+      "summary": "arXiv:2607.08803v1 Announce Type: new Abstract: The push toward large language models for biology (BioLM) has created a need for training corpora that can endow models with a genuine understanding of biology. However, ex…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Spatial Neighboring Scattering Transform: A Cross-Channel Amplitude Coupling Measure for EEG Connectivity",
+      "url": "https://arxiv.org/abs/2607.08855",
+      "summary": "arXiv:2607.08855v1 Announce Type: new Abstract: The functional organization of the brain relies on coordinated activity across spatially distributed regions, making the analysis of inter-regional dependencies fundamental…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The Gaussian phenotype of biological measurements",
+      "url": "https://arxiv.org/abs/2607.08874",
+      "summary": "arXiv:2607.08874v1 Announce Type: new Abstract: Biological measurements are commonly assumed to approximate Gaussian distributions, and normality is routinely assessed as a prerequisite for statistical analysis. However,…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Model Predictive Controller to Regulate Cortisol Levels in Individuals With Adrenal Insufficiency",
+      "url": "https://arxiv.org/abs/2607.08902",
+      "summary": "arXiv:2607.08902v1 Announce Type: new Abstract: A model predictive controller (MPC) is used to construct a virtual assistant to aid a physician in prescribing cortisol replacement therapy for patients with adrenal insuff…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Structural Brain Predictors of Visual Attention Gradient Modulated by Trait Anxiety",
+      "url": "https://arxiv.org/abs/2607.09278",
+      "summary": "arXiv:2607.09278v1 Announce Type: new Abstract: Dynamic allocation of attention across the visual field, quantified as a visuospatial attention gradient, is essential for maintaining perceptual breadth. Disruptions to th…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Coupled chemotactic fronts in heterogeneous sensor-consumer cell mixtures",
+      "url": "https://arxiv.org/abs/2607.09296",
+      "summary": "arXiv:2607.09296v1 Announce Type: new Abstract: Chemotaxis underlies the collective migration of cell populations in developmental processes and immune responses. While the theoretical investigation of single-cell-type c…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "PesTwin: A modular agent-based framework for pest and vector population control",
+      "url": "https://arxiv.org/abs/2607.09420",
+      "summary": "arXiv:2607.09420v1 Announce Type: new Abstract: Species-specific pest and vector control strategies, including the sterile insect technique, Wolbachia-based interventions, and genetic control technologies, offer powerful…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
+      "url": "https://arxiv.org/abs/2607.09662",
+      "summary": "arXiv:2607.09662v1 Announce Type: new Abstract: Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under t…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Minimal Decision Dynamics and Contextual Probability: A Quantum Tug-of-War Model",
+      "url": "https://arxiv.org/abs/2601.10034",
+      "summary": "arXiv:2601.10034v2 Announce Type: cross Abstract: Decision making often exhibits context dependence that challenges classical probability theory. This paper develops a quantum-like extension of the Tug-of-War (QTOW) deci…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Reward Transport: Property Control in Flow Matching via Noise-Space Alignment",
+      "url": "https://arxiv.org/abs/2607.08781",
+      "summary": "arXiv:2607.08781v1 Announce Type: cross Abstract: The coupling in flow matching -- the rule pairing noise vectors with data points -- is typically treated as a computational choice. We show that this coupling can instead…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Quantum Logic as the Logic of Contexts",
+      "url": "https://arxiv.org/abs/2607.09032",
+      "summary": "arXiv:2607.09032v1 Announce Type: cross Abstract: Quantum logic is usually presented as a non-classical departure from ordinary reasoning forced on us by quantum mechanics, with classical logic kept as the secure startin…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Variable-Length Generative Protein Design via Generalized Poisson Flow",
+      "url": "https://arxiv.org/abs/2607.09039",
+      "summary": "arXiv:2607.09039v1 Announce Type: cross Abstract: The ability to generate variable-length proteins is crucial in protein design, where the optimal length is often unknown and tightly coupled to designability. Current dif…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Comprehensive identifiability analysis and reliable parameter estimation for an SEIR model",
+      "url": "https://arxiv.org/abs/2607.09137",
+      "summary": "arXiv:2607.09137v1 Announce Type: cross Abstract: The Susceptible-Exposed-Infectious-Removed (SEIR) model is a fundamental model in epidemiology. Model parameters such as the reciprocal transmission, incubation, and infe…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A multi-ensemble mean-field reduction method for networks of globally coupled phase oscillators with arbitrary parameter distributions",
+      "url": "https://arxiv.org/abs/2607.09516",
+      "summary": "arXiv:2607.09516v1 Announce Type: cross Abstract: Understanding the dynamical properties of coupled phase oscillator systems with heterogeneous oscillator frequencies has been a long-standing challenge of complex systems…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "CoCoT-EEG: Contrastive-Pretrained Multiscale Convolutional Transformer for EEG Decoding",
+      "url": "https://arxiv.org/abs/2607.09543",
+      "summary": "arXiv:2607.09543v1 Announce Type: cross Abstract: Self-supervised pretrained foundation models (FM) have shown early promise for non-invasive electroencephalogram (EEG) decoding applications. Many recent large-scale mode…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Modeling multiscale architecture of biofilm extracellular matrix and its role in oxygen transport",
+      "url": "https://arxiv.org/abs/2510.19947",
+      "summary": "arXiv:2510.19947v2 Announce Type: replace Abstract: The extracellular polymeric substances (EPS) matrix of microbial biofilms exhibits a complex structural heterogeneity that profoundly influences mass transport and meta…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Statistics of correlations in nonlinear recurrent neural networks",
+      "url": "https://arxiv.org/abs/2510.21742",
+      "summary": "arXiv:2510.21742v3 Announce Type: replace Abstract: The statistics of correlations are central quantities characterizing the collective dynamics of recurrent neural networks. We derive exact expressions for the statistic…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Explaining Human Choice Probabilities with Simple Vector Representations",
+      "url": "https://arxiv.org/abs/2511.03643",
+      "summary": "arXiv:2511.03643v3 Announce Type: replace Abstract: We formalize human choice behavior in a probabilistic hide-and-seek task. In our geometric construction, vectors represent participant choice frequencies as well as pro…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Topological bounds on the dynamical growth rate of chemical reaction networks",
+      "url": "https://arxiv.org/abs/2603.02627",
+      "summary": "arXiv:2603.02627v3 Announce Type: replace Abstract: Growth and decay are system-level properties of chemical reaction networks (CRNs) relevant from prebiotic chemistry to cellular metabolism. Their properties are typical…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Efficient Shapley values computation for Boolean network models of gene regulation",
+      "url": "https://arxiv.org/abs/2604.09403",
+      "summary": "arXiv:2604.09403v2 Announce Type: replace Abstract: Identifying dynamically influential nodes in biological networks is a central problem in systems biology, particularly for prioritizing intervention targets in gene reg…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Microsecond-precision sound localization emerges from slow equilibrium dynamics",
+      "url": "https://arxiv.org/abs/2607.03890",
+      "summary": "arXiv:2607.03890v2 Announce Type: replace Abstract: Precise sound localization relies on microsecond sensitivity to interaural time differences (ITDs), yet binaural perception exhibits sluggish tracking of dynamic acoust…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Uncovering smooth structures in single-cell data with PCS-guided neighbor embeddings",
+      "url": "https://arxiv.org/abs/2506.22228",
+      "summary": "arXiv:2506.22228v2 Announce Type: replace-cross Abstract: Single-cell sequencing is revolutionizing biology by enabling detailed investigations of cell-state transitions. Many biological processes unfold along continuous…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "3D Masked Autoencoders are Robust Learners of Volumetric and Multimodal Cellular Representations for Microscopy",
+      "url": "https://arxiv.org/abs/2606.23964",
+      "summary": "arXiv:2606.23964v2 Announce Type: replace-cross Abstract: Self-supervised learning in fluorescence microscopy often relies on 2D projections, despite the inherently three-dimensional nature of cells. We present a systema…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Causal ASCEND: Scalable Two-tier Causal Discovery on High Dimensional Multi-omics Data",
+      "url": "https://arxiv.org/abs/2607.04527",
+      "summary": "arXiv:2607.04527v2 Announce Type: replace-cross Abstract: Biological systems exhibit a hierarchical structure, characterised by directed flow from upstream regulators to downstream effects. Although this ordering provide…",
+      "ts": 1783915200000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "SpaceX gears up for Starship Flight 13",
@@ -512,214 +720,6 @@
       "url": "https://www.genengnews.com/topics/cancer/epigenomic-analysis-uncovers-new-aml-subgroups-and-drug-sensitivities/",
       "summary": "New chromatin‑based analysis of 1,563 AML samples reveals 16 epigenomic subgroups that improve prognostic accuracy and highlight unexpected drug sensitivities. The post Epigenomic Analysis Uncovers New AML Subgroups and …",
       "ts": 1783637376000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SDA TAP Lab Evolves Into BMC3I TAP Lab And In Partnership With Catalyst Campus Launches A New Multi-Phased Program To Accelerate Mission-Focused Technology Development",
-      "url": "https://spacenews.com/sda-tap-lab-evolves-into-bmc3i-tap-lab-and-in-partnership-with-catalyst-campus-launches-a-new-multi-phased-program-to-accelerate-mission-focused-technology-development/",
-      "summary": "Catalyst Campus for Technology and Innovation (CCTI) and the BMC3I TAP Lab Colorado are excited to announce a new multi-phased program designed to strengthen collaboration between commercial innovators and government […]…",
-      "ts": 1783636528000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Sets Coverage for Astronaut Anil Menon Launch to Space Station",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-astronaut-anil-menon-launch-to-space-station/",
-      "summary": "NASA astronaut Anil Menon will launch aboard the Roscosmos Soyuz MS-29 spacecraft to the International Space Station on Tuesday, July 14, accompanied by cosmonauts Pyotr Dubrov and Anna Kikina, where they will join the E…",
-      "ts": 1783634967000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Stem Cell Therapy Shows Promise in First Human Parkinson’s Disease Trial",
-      "url": "https://www.genengnews.com/topics/drug-discovery/stem-cell-therapy-shows-promise-in-first-human-parkinsons-disease-trial/",
-      "summary": "One year findings from Phase I/II clinical study support the feasibility of transplanting stem-cell derived dopamine progenitor cells into the brain of Parkinson’s disease patients. The post Stem Cell Therapy Shows Promi…",
-      "ts": 1783633802000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
-      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from t…",
-      "ts": 1783628548000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The Exploration Company establishes US entity to pursue government contracts",
-      "url": "https://spacenews.com/the-exploration-company-establishes-us-entity-to-pursue-government-contracts/",
-      "summary": "JOHANNESBURG — The Exploration Company, a space transportation company based in Germany, established TEC Federal, a United States-based entity that will enable it to compete for government programs and contracts. […] The…",
-      "ts": 1783627953000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Space Telescope Maps Magnetic Fields of ‘Lighthouse’ Pulsar",
-      "url": "https://science.nasa.gov/missions/ixpe/nasa-space-telescope-maps-magnetic-fields-of-lighthouse-pulsar/",
-      "summary": "For the first time, scientists have used NASA’s IXPE (Imaging X-ray Polarimetry Explorer) to directly measure the magnetic fields of PSR J1101−6101, a pulsar located within what is often referred to as the Lighthouse Neb…",
-      "ts": 1783627715000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Whistleblower takes on health insurance and FDA commissioner candidates",
-      "url": "https://www.statnews.com/2026/07/09/readout-loud-podcast-fda-commissioner-candidates-health-insurance-costs/?utm_campaign=rss",
-      "summary": "This week on \"The Readout LOUD\" podcast: Why does getting family health insurance through a job cost as much as buying a new car? And who might be the new…",
-      "ts": 1783627674000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Environmental groups urge FCC to pause orbital data center applications",
-      "url": "https://spacenews.com/environmental-groups-seek-fcc-pause-on-orbital-data-center-constellations/",
-      "summary": "Environmental and scientific groups are calling for a halt to processing orbital data center applications, arguing the rush to move computing infrastructure into space has raised the stakes in a broader push for more meg…",
-      "ts": 1783625982000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Crohn’s Disease Phage Therapy Neutralizes Inflammatory E. coli in Mouse Model",
-      "url": "https://www.genengnews.com/topics/translational-medicine/crohns-disease-phage-therapy-neutralizes-inflammatory-e-coli-in-mouse-model/",
-      "summary": "Researchers developed a supportive bacteriophage therapy for Crohn’s disease that in a mouse model neutralized a type of E. coli bacteria that drives inflammation in the gut, and improved responses to low doses of a conv…",
-      "ts": 1783624328000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Engineered AAVs Harness Glymphatic System to Reach Brain Targets in Mice",
-      "url": "https://www.genengnews.com/topics/omics/engineered-aavs-harness-glymphatic-system-to-reach-brain-targets-in-mice/",
-      "summary": "By delivering engineered adeno-associated viruses through the brain's fluid transport network to target glial cells, scientists demonstrated a strategy that could bypass the blood-brain barrier and enable future brain-di…",
-      "ts": 1783623561000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Principal Investigator and Quality Assessment Reports Evaluate Umbra Synthetic Aperture Radar Data",
-      "url": "https://science.nasa.gov/science-research/earth-science/principal-investigator-and-quality-assessment-reports-evaluate-umbra-synthetic-aperture-radar-data/",
-      "summary": "The reports add to the growing documentation on commercial data’s contributions to Earth science research and applications.",
-      "ts": 1783620861000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Sees Martian Sulfur Up Close",
-      "url": "https://www.nasa.gov/image-article/curiosity-sees-martian-sulfur-up-close/",
-      "summary": "This close-up view shows fragments of sulfur crystals — the first ever seen on the Red Planet. The crystals were found after NASA’s Curiosity Mars rover happened to drive over a rock and crush it on May 30, 2024. Several…",
-      "ts": 1783614830000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Scientists Take to Air and Space to Study Arctic Sea Ice",
-      "url": "https://www.nasa.gov/missions/airborne-science/nasa-scientists-take-to-air-and-space-to-study-arctic-sea-ice/",
-      "summary": "This month, engineers at NASA’s Jet Propulsion Laboratory in Southern California are testing a spacecraft sensor that will help measure how quickly Arctic sea ice is disappearing. And while that instrument won’t launch f…",
-      "ts": 1783611778000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Satellites in tandem reveal 30 years of Antarctic ice flow",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Satellites_in_tandem_reveal_30_years_of_Antarctic_ice_flow",
-      "summary": "Thirty years after the European Space Agency first demonstrated the power of flying two satellites in very close formation, the concept was recently recreated. By temporarily positioning two Copernicus Sentinel-1 radar s…",
-      "ts": 1783609800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Outbreak of diarrhea-causing parasite grows to more than 1,000 cases",
-      "url": "https://www.statnews.com/2026/07/09/cyclospora-outbreak-faq-diarrhea-causing-parasite/?utm_campaign=rss",
-      "summary": "An outbreak of diarrhea-causing parasite has grown to more than 1,000 cases, making it one of the nation’s largest such outbreaks in years.",
-      "ts": 1783609287000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Xona unveils program to verify Pulsar-compatible devices",
-      "url": "https://spacenews.com/xona-unveils-program-to-verify-pulsar-compatible-devices/",
-      "summary": "SAN FRANCISCO – Xona, the Silicon Valley startup establishing Pulsar, a precision positioning, navigation and timing (PNT) constellation, announced a high-profile roster of partners developing compatible equipment. Xona …",
-      "ts": 1783609200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Volatility is often the price of ambition",
-      "url": "https://spacenews.com/volatility-is-often-the-price-of-ambition/",
-      "summary": "For the growing number of constellations being designed around Starship, the wild ups and downs in the early days of SpaceX’s historic IPO have a familiar rhythm. While some of […] The post Volatility is often the price …",
-      "ts": 1783609200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: ARPA-H launches $160 million effort to develop custom gene editing drugs",
-      "url": "https://www.statnews.com/2026/07/09/arpa-h-160-million-custom-gene-editing-funding-rare-disease/?utm_campaign=rss",
-      "summary": "An ARPA-H program to jump-start custom gene editing treatments was delayed by a change in administrations. Now seven labs will get sizable grants.",
-      "ts": 1783609200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA finalists under review",
-      "url": "https://www.statnews.com/2026/07/09/fda-commissioner-finalists-under-review-obamacare-premiums-surge-again/?utm_campaign=rss",
-      "summary": "Three top contenders to run the FDA are under review by the White House",
-      "ts": 1783608649000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Maintaining leadership in space with Victoria Coleman",
-      "url": "https://spacenews.com/maintaining-leadership-in-space-with-victoria-coleman/",
-      "summary": "In this episode of the Space Minds podcast, David Ariosto talks with Victoria Coleman, the former chief scientist for the U.S. Air Force who now serves as associate provost of […] The post Maintaining leadership in space…",
-      "ts": 1783608423000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Force completes procurement reorganization, creating nine acquisition portfolios",
-      "url": "https://spacenews.com/space-force-completes-procurement-reorganization-creating-nine-acquisition-portfolios/",
-      "summary": "New portfolio acquisition executives will control requirements and modernization decisions across major mission areas The post Space Force completes procurement reorganization, creating nine acquisition portfolios appear…",
-      "ts": 1783607456000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Prime wins Beam arbitration, clearing path to clinic",
-      "url": "https://www.statnews.com/2026/07/09/biotech-news-prime-wins-beam-arbitration-clearing-path-to-clinic/?utm_campaign=rss",
-      "summary": "AstraZeneca, Ionis report major trial failure, White House pushes for American drug manufacturing, and more biotech news from The Readout",
-      "ts": 1783605921000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Ag Genomics Begins to Bear Fruit",
-      "url": "https://www.genengnews.com/topics/omics/ag-genomics-begins-to-bear-fruit/",
-      "summary": "Genomics tools—applied to agriculture—create commercially desirable traits in a fraction of the time required by standard breeding programs. The post Ag Genomics Begins to Bear Fruit appeared first on GEN - Genetic Engin…",
-      "ts": 1783605594000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Top 10 Best-Selling Drugs 2026",
-      "url": "https://www.genengnews.com/industry-news/top-10-best-selling-drugs-2026/",
-      "summary": "Thanks to booming sales of blockbuster obesity and diabetes treatments, the amount that Americans spent on prescription drugs this year is on track to surpass $1 trillion. Total aggregate value of the drugs generating th…",
-      "ts": 1783604557000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 357 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-357-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1783603673000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about FDA commissioner contenders, a heart drug failure, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/09/fda-commissioner-contenders-reviewed-astrazeneca-ionis-heart-drug-failed/?utm_campaign=rss",
-      "summary": "The White House is reviewing a list of three top contenders for the FDA commissioner post",
-      "ts": 1783603082000,
       "categoryId": "bio"
     }
   ],
