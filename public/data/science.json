@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-12T23:57:33.497Z",
+  "updated": "2026-07-13T03:46:10.178Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Bioinspired microcapsule reactor with engineered probiotics for IBD therapy",
+      "url": "https://www.nature.com/articles/s41467-026-72027-1",
+      "summary": "",
+      "ts": 1783900800000
+    },
     {
       "source": "Phys.org",
       "title": "Jellyfish videos reveal why science content sparks curiosity for some viewers",
@@ -693,13 +700,6 @@
       "title": "Drift-Aware Temporal Graph Rewiring (DATGR) for Adaptive Semantic Modeling in Biomedical Text",
       "url": "https://arxiv.org/abs/2607.08490",
       "summary": "arXiv:2607.08490v1 Announce Type: new Abstract: Biomedical language evolves rapidly as new discoveries emerge, causing traditional text models to lose semantic fidelity over time. Static embeddings and co-occurrence grap…",
-      "ts": 1783742400000
-    },
-    {
-      "source": "arXiv AI",
-      "title": "AI-guided stimuli discovery and generation to optimize facial emotion perception studies in autism",
-      "url": "https://arxiv.org/abs/2607.08533",
-      "summary": "arXiv:2607.08533v1 Announce Type: new Abstract: Understanding perceptual differences between autistic and neurotypical adults requires behavioral assays that are sensitive, reliable, and mechanistically informative. Faci…",
       "ts": 1783742400000
     }
   ],

@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-12T23:57:36.904Z",
+  "updated": "2026-07-13T03:46:13.168Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX gears up for Starship Flight 13",
+      "url": "https://spacenews.com/spacex-gears-up-for-starship-flight-13/",
+      "summary": "SpaceX plans to conduct its next Starship launch as soon as July 16 to test fixes to issues from the previous flight and deploy functioning Starlink satellites. The post SpaceX gears up for Starship Flight 13 appeared fi…",
+      "ts": 1783907084000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "StockWatch: Insilico Projects Profit, Revenue Leaps as AI-Developed Lead Candidate Moves to Phase III",
@@ -712,14 +720,6 @@
       "url": "https://www.statnews.com/pharmalot/2026/07/09/fda-commissioner-contenders-reviewed-astrazeneca-ionis-heart-drug-failed/?utm_campaign=rss",
       "summary": "The White House is reviewing a list of three top contenders for the FDA commissioner post",
       "ts": 1783603082000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: OpenEvidence backs study that finds it beats LLMs",
-      "url": "https://www.statnews.com/2026/07/09/openevidence-backs-study-that-finds-it-beats-llms-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: Dueling research pitting OpenEvidence against general purpose LLMs, use of Dexcom's CGM in children, and more.",
-      "ts": 1783602354000,
       "categoryId": "bio"
     }
   ],
