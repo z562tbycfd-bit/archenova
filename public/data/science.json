@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-13T20:17:25.885Z",
+  "updated": "2026-07-13T21:59:14.203Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Floating-electron catalyst withstands week in air while making ammonia under milder conditions",
+      "url": "https://phys.org/news/2026-07-electron-catalyst-week-air-ammonia.html",
+      "summary": "A surface electrene, BaSiN2:O, developed by researchers at Science Tokyo enables efficient ammonia synthesis under mild conditions while overcoming the long-standing air instability of electrene materials. Synthesized by…",
+      "ts": 1783975203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Carbon storage could curb more than 90% of AI data center emissions, study finds",
+      "url": "https://phys.org/news/2026-07-carbon-storage-curb-ai-center.html",
+      "summary": "As artificial intelligence accelerates demand for computing power across the U.S., a new study co-authored by Hon Chung Lau, adjunct professor in the Department of Chemical and Biomolecular Engineering at Rice University…",
+      "ts": 1783974003000
+    },
     {
       "source": "Phys.org",
       "title": "Scientists uncover molecular mechanism linking water-saving irrigation to cadmium accumulation in rice",
@@ -479,6 +493,20 @@
       "ts": 1783938001000
     },
     {
+      "source": "APS PRX",
+      "title": "Autonomous Stabilization of Remote Entanglement in a Cascaded Quantum Network",
+      "url": "http://link.aps.org/doi/10.1103/z6zz-vw5q",
+      "summary": "Author(s): Abdullah Irfan, Kaushik Singirikonda, Mingxing Yao, Andrew Lingenfelter, Michael Mollenhauer, Xi Cao, Aashish A. Clerk, and Wolfgang Pfaff Researchers have achieved stable remote entanglement between separate …",
+      "ts": 1783936800000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Distributing Stationary Qubit Entanglement through a Nonlocal Squeezed Reservoir",
+      "url": "http://link.aps.org/doi/10.1103/r4jt-j39w",
+      "summary": "Author(s): A. Andrés-Juanes, J. Agustí, R. Sett, E. S. Redchenko, L. N. Kapoor, S. Hawaldar, P. Rabl, and J. M. Fink A fully autonomous process is demonstrated that entangles two spatially separated superconducting qubit…",
+      "ts": 1783936800000
+    },
+    {
       "source": "APS PR Applied",
       "title": "Highly efficient microwave storage and retrieval using a superconducting chiral $\\mathrm{Λ}$-type molecule",
       "url": "http://link.aps.org/doi/10.1103/tmsk-wrqy",
@@ -672,34 +700,6 @@
       "title": "Physics informed wavelet Fourier representation for multiscale fluid dynamics",
       "url": "https://arxiv.org/abs/2607.09071",
       "summary": "arXiv:2607.09071v1 Announce Type: new Abstract: Multiscale fluid flows often contain localized flow structures, such as viscous shock layers, wet-dry fronts, steady viscous wakes, decaying vortical structures, and vortex…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chiral switching of elastic spin via dynamic encirclement of exceptional points",
-      "url": "https://arxiv.org/abs/2607.09083",
-      "summary": "arXiv:2607.09083v1 Announce Type: new Abstract: Dynamically encircling exceptional points (EPs) enables chiral state conversion in classical wave systems. However, whether this mechanism can be extended to chiral spin co…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symmetry-constrained low-energy effective Hamiltonian for topological RuC and OsC monolayers",
-      "url": "https://arxiv.org/abs/2607.09129",
-      "summary": "arXiv:2607.09129v1 Announce Type: new Abstract: We derive a low-energy $\\mathbf{k}\\cdot\\mathbf{p}$ effective Hamiltonian for monolayer osmium carbide (OsC) and ruthenium carbide (RuC) in a planar hexagonal configuration.…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sequential Multi-Step Nanoimprint Lithography Fabrication of Zero-Mode Waveguide Nanoaperture Arrays to Enhance Single Molecule Fluorescence Detection",
-      "url": "https://arxiv.org/abs/2607.09141",
-      "summary": "arXiv:2607.09141v1 Announce Type: new Abstract: Zero-mode waveguides (ZMWs) enable single-molecule fluorescence detection at micromolar concentrations by confining light to nanoscale volumes, overcoming the diffraction l…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Heterogeneous Network Topology Induces the Widom Line",
-      "url": "https://arxiv.org/abs/2607.09174",
-      "summary": "arXiv:2607.09174v1 Announce Type: new Abstract: The Widom line, initially identified as a crossover line between liquid-like and gas-like behavior in water and supercritical fluids, separates these two types of behavior.…",
       "ts": 1783915200000
     }
   ],

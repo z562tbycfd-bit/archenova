@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-13T20:17:30.165Z",
+  "updated": "2026-07-13T21:59:17.822Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "L3Harris, Sierra Space to build 36 satellites to expand U.S. missile-tracking network",
+      "url": "https://spacenews.com/l3harris-sierra-space-to-build-36-satellites-to-expand-u-s-missile-tracking-network/",
+      "summary": "The Space Development Agency awarded the companies a combined $1.75 billion for next batch of missile-tracking satellites The post L3Harris, Sierra Space to build 36 satellites to expand U.S. missile-tracking network app…",
+      "ts": 1783976882000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: AIDS activists slam Biden R&D deal with Gilead over HIV prevention drug patents",
+      "url": "https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents/?utm_campaign=rss",
+      "summary": "A group of AIDS activists obtained an R&D pact at the heart of a settlement between the U.S. government and Gilead Sciences over patents for HIV prevention.",
+      "ts": 1783976326000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Analytical Challenges for Antibody-Drug Conjugate (ADC) Manufacturing",
+      "url": "https://www.genengnews.com/resources/ebooks/analytical-challenges-for-antibody-drug-conjugate-adc-manufacturing/",
+      "summary": "This collection of articles and expert perspectives explores the critical challenges shaping The post Analytical Challenges for Antibody-Drug Conjugate (ADC) Manufacturing appeared first on GEN - Genetic Engineering and …",
+      "ts": 1783975499000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "New Lung Model Reveals RSV Immune Response, Points to Better Treatments",
@@ -695,30 +719,6 @@
       "title": "South Sudan: UN acts ahead of drought to protect thousands",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167915",
       "summary": "As drought risk intensifies in South Sudan’s Eastern Equatoria state, a new UN-backed plan aims to protect thousands of people before the worst impacts take hold.",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: ‘Lost continuity of knowledge’ on Iran’s nuclear programme since US-Israel attacks, top UN official warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167914",
-      "summary": "Since the United States and Israel launched attacks on Iran in late February, there has been a “lost continuity of knowledge” on Tehran’s nuclear programme, Rosemary DiCarlo, the UN peace affairs chief, warned the Securi…",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New cholera outbreak alert for Sudan’s war-weary communities",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167913",
-      "summary": "In war-torn Sudan, a deadly new cholera outbreak has already claimed more than 100 lives, heightening serious concerns for vulnerable communities including in besieged El-Obeid, where daily drone attacks have continued t…",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Aid cuts leave at least one million women and girls without vital support",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167908",
-      "summary": "At least one million women and girls have lost access to critical humanitarian support since January 2025 as unprecedented aid cuts push women's organizations in crisis zones to the brink of collapse, the UN’s gender equ…",
       "ts": 1783684800000,
       "categoryId": "global-governance"
     }
