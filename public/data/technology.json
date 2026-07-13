@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-13T21:59:17.822Z",
+  "updated": "2026-07-13T23:04:48.301Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genome-Scale CRISPRi Atlas Maps Gene Function Across Human iPSCs",
+      "url": "https://www.genengnews.com/topics/omics/genome-scale-crispri-atlas-maps-gene-function-across-human-ipscs/",
+      "summary": "A genome-scale CRISPRi atlas maps transcriptional consequences for 11,692 gene perturbations across more than 2.5 million human iPSCs. The resource reveals regulators of metabolism, pluripotency, and RNA editing—includin…",
+      "ts": 1783981732000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Defense spending lifts Europe’s space economy",
+      "url": "https://spacenews.com/defense-spending-lifts-europes-space-economy/",
+      "summary": "European government space spending jumped 12% to about $15.4 billion in 2025, according to a July 13 European Space Agency report, bucking a 3% global decline on the back of rising national defense budgets. The post Defe…",
+      "ts": 1783981130000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Study Points to Smoother Air Taxi Rides",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-study-points-to-smoother-air-taxi-rides/",
+      "summary": "No one wants to get into an uncomfortable aircraft. NASA research could help the emerging industry of air taxis —small, vertical-takeoff-and-landing aircraft meant for short trips — understand the relationship between co…",
+      "ts": 1783979171000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "L3Harris, Sierra Space to build 36 satellites to expand U.S. missile-tracking network",
@@ -697,30 +721,6 @@
       "summary": "By most measures, commercial space is thriving. Washington produced a flurry of activity over the past year: two major executive orders, a raft of directives, and “space superiority” elevated to […] The post Space capita…",
       "ts": 1783688400000,
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Claude’s inner workings and OpenAI’s “super app”",
-      "url": "https://www.technologyreview.com/2026/07/10/1140316/the-download-anthropic-claude-hidden-space-openai-super-app/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Anthropic found a hidden space where Claude puzzles over concepts The AI firm Anth…",
-      "ts": 1783685400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: UN spotlights education aid solution, Sri Lanka prison violence, humanitarian aid to Venezuela",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167918",
-      "summary": "The UN Educational, Scientific and Cultural Organization (UNESCO) urged international lenders to expand debt-for-education swaps, warning in a Friday report that many developing countries are spending more on debt servic…",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "South Sudan: UN acts ahead of drought to protect thousands",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167915",
-      "summary": "As drought risk intensifies in South Sudan’s Eastern Equatoria state, a new UN-backed plan aims to protect thousands of people before the worst impacts take hold.",
-      "ts": 1783684800000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

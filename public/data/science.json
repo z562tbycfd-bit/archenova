@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-13T21:59:14.203Z",
+  "updated": "2026-07-13T23:04:46.004Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hidden in Maya wall writings: A named astronomer emerges from 1,200-year-old calculations",
+      "url": "https://phys.org/news/2026-07-hidden-maya-wall-astronomer-emerges.html",
+      "summary": "Researchers have reconstructed and transcribed a mathematical formula from the site of Xultun, Guatemala, revealing the name of a Maya astronomer for the first time. During the Classic period (250–900 CE), mathematics an…",
+      "ts": 1783983601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate disclosure gives Canadian companies an edge with European investors, new research shows",
+      "url": "https://phys.org/news/2026-07-climate-disclosure-canadian-companies-edge.html",
+      "summary": "Canadian companies that disclose their climate-related risks and impacts have a considerable advantage over those that don't when it comes to attracting financing from European institutional investors, according to our r…",
+      "ts": 1783981202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Teachers are worried about students cheating with AI, but my survey suggests the deeper issue is learning",
+      "url": "https://phys.org/news/2026-07-teachers-students-ai-survey-deeper.html",
+      "summary": "The risk of students using AI to cheat tends to get a lot of attention—with good reason.",
+      "ts": 1783980002000
+    },
     {
       "source": "Phys.org",
       "title": "Floating-electron catalyst withstands week in air while making ammonia under milder conditions",
@@ -679,27 +700,6 @@
       "title": "Topological Signatures of Imperial Collapse and Fragmentation: Administrative Dissolution, Territorial Reorganization and Early-Warning Observables in the Han Dynasty Network (206~BCE\\,--\\,220~CE)",
       "url": "https://arxiv.org/abs/2607.09010",
       "summary": "arXiv:2607.09010v1 Announce Type: new Abstract: We extend the persistent homology formalism done in references~\\cite{paper1,paper2} to the Han Dynasty ($206~\\mathrm{BCE}$--$220~\\mathrm{CE}$), testing whether the collapse…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First Synchrotron Injection Attempt into The SuperKEKB High Energy Ring",
-      "url": "https://arxiv.org/abs/2607.09037",
-      "summary": "arXiv:2607.09037v1 Announce Type: new Abstract: A synchrotron injection scheme for the SuperKEKB electron high-energy ring (HER) was implemented and experimentally evaluated as the first attempt with a top-up injection d…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Implicit discretization schemes for full-kinetic ion and drift-kinetic electron simulations",
-      "url": "https://arxiv.org/abs/2607.09046",
-      "summary": "arXiv:2607.09046v1 Announce Type: new Abstract: We present a new electromagnetic plasma simulation model with full-kinetic ions and drift-kinetic electrons. This model (termed as FIDES) solves the electric field using th…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics informed wavelet Fourier representation for multiscale fluid dynamics",
-      "url": "https://arxiv.org/abs/2607.09071",
-      "summary": "arXiv:2607.09071v1 Announce Type: new Abstract: Multiscale fluid flows often contain localized flow structures, such as viscous shock layers, wet-dry fronts, steady viscous wakes, decaying vortical structures, and vortex…",
       "ts": 1783915200000
     }
   ],
