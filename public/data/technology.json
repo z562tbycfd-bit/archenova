@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-13T16:36:15.731Z",
+  "updated": "2026-07-13T18:45:29.415Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Mung Bean Pan-Genome Study Maps Key Genes for Yield, Nutrition, and Pest Resistance",
+      "url": "https://www.genengnews.com/topics/omics/mung-bean-pan-genome-study-maps-key-genes-for-yield-nutrition-and-pest-resistance/",
+      "summary": "Researchers have created the world's first graph-based mung bean pan-genome, revealing genetic variations linked to yield, nutrition, and pest resistance, and providing breeders with powerful tools to accelerate crop imp…",
+      "ts": 1783965962000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillio…",
+      "ts": 1783965600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Dementia study replicates promising outcomes following risk-reduction strategies",
+      "url": "https://www.statnews.com/2026/07/13/aaic-in-30-alzheimers-treaatments-dementia-day-2-conference/?utm_campaign=rss",
+      "summary": "A dementia prevention trial praised as a \"landmark\" effort further demonstrated the promise of structured programs tailored to local cultures.",
+      "ts": 1783961355000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: UnitedHealth’s questionable review, and more MA stars lawsuits",
@@ -105,6 +129,14 @@
       "summary": "The international team of scientists identified hundreds of previously unknown genes that govern bone health and revealed cells surrounding blood vessels as one of the drivers of bone repair. The post Genetic Map Opens D…",
       "ts": 1783944027000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Afghanistan: 3.7 million young lives at risk of malnutrition, UNICEF warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167925",
+      "summary": "Some 3.7 million children under five in Afghanistan are at heightened risk of malnutrition due to food insecurity, poor diets and inadequate access to basic services as the peak season for life-threatening wasting looms.",
+      "ts": 1783944000000,
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -689,38 +721,6 @@
       "summary": "Ties van der Meer doesn’t know how many siblings he has. The 47-year-old was conceived at a private fertility clinic in the Netherlands using sperm provided by an anonymous donor. After the Netherlands banned anonymous d…",
       "ts": 1783674000000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: How a Boston doctor built a following as a ‘loud and unafraid’ voice in the Trump era",
-      "url": "https://www.statnews.com/2026/07/10/jeremy-faust-inside-medicine-trump-era/?utm_campaign=rss",
-      "summary": "Jeremy Faust saves lives in the ER and breaks stories with his Inside Medicine newsletter. He’s also testing the bounds of news reporting.",
-      "ts": 1783672200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "New York boys club has a time-tested recipe to protect members’ mental health",
-      "url": "https://www.statnews.com/2026/07/10/bcny-approach-boys-mental-health-connection-belonging-mentors/?utm_campaign=rss",
-      "summary": "At a time when attention is deservedly being turned to the mental health crisis in boys, the Boys' Club of New York is a shelter from the storm for many…",
-      "ts": 1783672200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The primary care crisis paradox",
-      "url": "https://www.statnews.com/2026/07/10/primary-care-data-pcps-health-care-crisis-investment/?utm_campaign=rss",
-      "summary": "“Solving the health crisis in the United States will require confronting things far harder than readjusting a fee schedule.”",
-      "ts": 1783672200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Great Bear Lake, Canada",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Great_Bear_Lake_Canada",
-      "summary": "Image: The Copernicus Sentinel-2 mission captures Canada’s Great Bear Lake in striking colours.",
-      "ts": 1783670400000,
-      "categoryId": "space"
     }
   ],
   "categories": [

@@ -1,7 +1,126 @@
 {
   "ok": true,
-  "updated": "2026-07-13T16:36:13.144Z",
+  "updated": "2026-07-13T18:45:24.386Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "White-beam neutron device unlocks precise control of twisted quantum waves",
+      "url": "https://phys.org/news/2026-07-white-neutron-device-precise-quantum.html",
+      "summary": "CANISIUS is the official name of the new spin-echo neutron interferometer developed at Atominstitut, TU Wien. It enables precise control of neutron waves, something that was previously impossible.",
+      "ts": 1783968005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The family tree of viruses just grew, and it paves the way for a new approach to agricultural research",
+      "url": "https://phys.org/news/2026-07-family-tree-viruses-grew-paves.html",
+      "summary": "Researchers have discovered that a group of viruses known to infect an agriculturally important plant pathogen has remained genetically stable for an astonishing four decades. The discovery of a disease-fighting virus th…",
+      "ts": 1783968003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Despite the growth of some AI schools like Alpha, research doesn't show that AI tutors are better than human teachers",
+      "url": "https://phys.org/news/2026-07-growth-ai-schools-alpha-doesnt.html",
+      "summary": "Over the past decade, the AI-focused, for-profit Alpha School has grown from one campus in Austin, Texas, to more than 15 schools across the country, including in major cities like New York and San Francisco.",
+      "ts": 1783966805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Melting icebergs can weaken a massive, far-off ocean current system",
+      "url": "https://phys.org/news/2026-07-icebergs-weaken-massive-ocean-current.html",
+      "summary": "Melting and breaking icebergs in the far-off northeastern Pacific Ocean can weaken a massive current system in the Atlantic Ocean, according to a University of California, Davis study published in Nature Communications.",
+      "ts": 1783966801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Famous puzzle-solving chimps lost 20 years of life after harsh Berlin winters",
+      "url": "https://phys.org/news/2026-07-famous-puzzle-chimps-lost-years.html",
+      "summary": "A University of Auckland scientist has uncovered the fates of chimpanzees who starred in seminal psychological studies of the early 20th century.",
+      "ts": 1783966202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When disaster recovery becomes a way of life: Community disaster fatigue is on the rise with more frequent floods",
+      "url": "https://phys.org/news/2026-07-disaster-recovery-life-community-fatigue.html",
+      "summary": "Flash flooding has been tearing up communities across the U.S., with heavy downpours sending creeks and rivers rushing over their banks from Texas to Kentucky, across the Midwest and into the Mid-Atlantic states and the …",
+      "ts": 1783965606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Distant exoplanets may be hiding water beyond Webb Telescope's reach, study finds",
+      "url": "https://phys.org/news/2026-07-distant-exoplanets-webb-telescope.html",
+      "summary": "The planets that appear most common in the universe could have a lot of water—but it could be hiding where telescopes can't detect it, according to a new study led by scientists with the University of Chicago.",
+      "ts": 1783965601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shrimp feeding behavior observed under simulated microgravity",
+      "url": "https://phys.org/news/2026-07-shrimp-behavior-simulated-microgravity.html",
+      "summary": "The Space Aquaculture Project at Okayama University of Science is an ambitious research initiative aimed at cultivating fish and crustaceans on the moon and Mars, which are expected to serve as food production bases for …",
+      "ts": 1783965260000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Himalayan snowfall has been miscalculated for years, here's how we found a new way to measure it",
+      "url": "https://phys.org/news/2026-07-himalayan-snowfall-miscalculated-years.html",
+      "summary": "Mountain snow and meltwater from glaciers in the Himalayas determine how much water is available for drinking, farming and hydropower for millions of people in India, Pakistan, Nepal, China and Afghanistan.",
+      "ts": 1783964404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What one of Emperor Hadrian's latrines is telling us about the durability of Roman concrete",
+      "url": "https://phys.org/news/2026-07-emperor-hadrian-latrines-durability-roman.html",
+      "summary": "One of the many marvels of the Roman world is that some of its buildings are still with us. But why have they lasted for so long when some relatively modern structures are in a state of decay after a few decades?",
+      "ts": 1783963801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "For Black girls, puberty is more than physical—it transforms conversations about identity",
+      "url": "https://phys.org/news/2026-07-black-girls-puberty-physical-conversations.html",
+      "summary": "Some of the most meaningful changes during puberty may not happen in the body alone. They may also happen in conversation. A new University of Michigan study suggests that as Black girls move through puberty, conversatio…",
+      "ts": 1783963202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Zirconium tweak unlocks stronger cast aluminum alloy with ductility boost",
+      "url": "https://phys.org/news/2026-07-zirconium-tweak-stronger-aluminum-alloy.html",
+      "summary": "Researchers at the Department of Materials Engineering (MatE), Indian Institute of Science (IISc), and collaborators have developed a new lightweight cast aluminum alloy that is both exceptionally strong and remarkably d…",
+      "ts": 1783963201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hubble discovers first of star cluster's missing black holes",
+      "url": "https://phys.org/news/2026-07-hubble-star-cluster-black-holes.html",
+      "summary": "The massive globular star cluster Omega Centauri has puzzled astronomers for decades. It should be filled with black holes left behind by exploding stars, yet evidence for them is scarce. Now, astronomers using archival …",
+      "ts": 1783962326000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden in plain sight: Caribbean reef fish nestle in tube worms, revealing previously undocumented partnership",
+      "url": "https://phys.org/news/2026-07-hidden-plain-sight-caribbean-reef.html",
+      "summary": "On Caribbean coral reefs, an unlikely partnership has gone largely unnoticed: Tiny fish regularly nestle within the feathery structures of tube worms. While these sensitive worms typically snap shut at the slightest dist…",
+      "ts": 1783962006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why communities resist saving the planet even when sustainability promises a better future?",
+      "url": "https://phys.org/news/2026-07-communities-resist-planet-sustainability-future.html",
+      "summary": "When we talk about climate adaptation, conservation or sustainability, we often assume that resilience is something everyone wants. The logic seems straightforward: Stronger resilience means better protection from floods…",
+      "ts": 1783962004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Brazil's highland forest has been shaped by climate change and Indigenous people for 6,000 years",
+      "url": "https://phys.org/news/2026-07-brazil-highland-forest-climate-indigenous.html",
+      "summary": "When you think of a South American rainforest, you probably don't imagine biting winds, heavy frosts and freezing temperatures. But in the mountains of southern Brazil, that's exactly what you can find. On this highland …",
+      "ts": 1783960820000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Theorization of environmental justice in Chinese political philosophy",
+      "url": "https://phys.org/news/2026-07-theorization-environmental-justice-chinese-political.html",
+      "summary": "Shizhi Zhang, Linda Westman and Vanesa Castán Broto have published a paper in Political Geography that explores how classical Chinese political philosophy can contribute to contemporary debates on environmental justice (…",
+      "ts": 1783960815000
+    },
     {
       "source": "Phys.org",
       "title": "Wealthier and more populated metropolitan areas respond more strongly to early drought news by saving water",
@@ -581,125 +700,6 @@
       "title": "The fixed boundary plasma equilibrium basis for a one Gigawatt electric stellarator power plant",
       "url": "https://arxiv.org/abs/2607.09346",
       "summary": "arXiv:2607.09346v1 Announce Type: new Abstract: A fixed boundary stellarator equilibrium capable of producing 3 GW of fusion power (1 GW-electric) is presented as the design basis for the GIGA fusion power plant being de…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scale-Bridging Phase-Field Modeling of Microstructure Evolution by FE$^2$ Computational Homogenization",
-      "url": "https://arxiv.org/abs/2607.09356",
-      "summary": "arXiv:2607.09356v1 Announce Type: new Abstract: Phase-field models have become a standard tool for simulating complex microstructure evolution in materials, but their application to engineering-scale components is often …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Acceleration and Strain-Rate Elastic Wave Equation and its Finite-Difference Solution for Distributed Acoustic Sensing Seismic Simulations",
-      "url": "https://arxiv.org/abs/2607.09380",
-      "summary": "arXiv:2607.09380v1 Announce Type: new Abstract: Distributed Acoustic Sensing (DAS) is increasingly being adopted across various seismic disciplines due to its cost-effective acquisition capabilities and its high-resoluti…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reformation of Supercritical Perpendicular Shock",
-      "url": "https://arxiv.org/abs/2607.09389",
-      "summary": "arXiv:2607.09389v1 Announce Type: new Abstract: Super-critical collisionless shocks are not static structures but evolve continuously as they reflect incoming ions back upstream. The physical process responsible for this…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum phases in endofullerene zigzag chains",
-      "url": "https://arxiv.org/abs/2607.09396",
-      "summary": "arXiv:2607.09396v1 Announce Type: new Abstract: We employ large-scale density matrix renormalization group calculations to study the quantum phases of dipolar molecules confined in bent (zigzag) endofullerene chains, as …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two observables of one wall: how surface relaxivity can bias the diffusion intra-axonal fraction and the myelin water fraction",
-      "url": "https://arxiv.org/abs/2607.09401",
-      "summary": "arXiv:2607.09401v1 Announce Type: new Abstract: Surface relaxivity and time-dependent diffusion are two readouts of the same wall collisions on one substrate: the transverse rate that microstructure imaging fits is a bul…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the generation of astrophysically-relevant intermittent magnetic turbulence in the laboratory",
-      "url": "https://arxiv.org/abs/2607.09453",
-      "summary": "arXiv:2607.09453v1 Announce Type: new Abstract: Intermittent magnetic turbulence, namely the presence of non-ordered and clusterized fields, is a ubiquitous phenomenon in space and astrophysical plasmas. It is currently …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Report on the Advanced Linear Collider Study Group (ALEGRO) Workshop 2026",
-      "url": "https://arxiv.org/abs/2607.09457",
-      "summary": "arXiv:2607.09457v1 Announce Type: new Abstract: The 7th ALEGRO workshop, hosted by INFN Frascati National Laboratories from 3rd to 5th March 2026, brought together the international Advanced Novel Accelerators (ANA) comm…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3D Plasma plume characterization of an electrodeless thruster cluster in magnetic arch configuration",
-      "url": "https://arxiv.org/abs/2607.09509",
-      "summary": "arXiv:2607.09509v1 Announce Type: new Abstract: Clustering electrodeless plasma thrusters in pairs with opposing magnetic polarities offers an easy means to scale-up the propulsion system of future missions, and also, to…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rigorously justified local time stepping in UGKWP method for steady multiscale flow simulation",
-      "url": "https://arxiv.org/abs/2607.09552",
-      "summary": "arXiv:2607.09552v1 Announce Type: new Abstract: In this Letter, local time stepping (LTS) is incorporated into the unified gas-kinetic wave-particle (UGKWP) method for steady multiscale flow simulation. It accelerates co…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Disorder-Induced Localization of Molecular Polaritons Despite Spectroscopic Strong Coupling",
-      "url": "https://arxiv.org/abs/2607.09559",
-      "summary": "arXiv:2607.09559v1 Announce Type: new Abstract: Molecular polaritons are hybrid light--matter quasiparticles whose collective character is often associated with molecular excitations extending over many emitters. However…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entropy-Constrained Machine Learning with Residual Data Augmentation for Modeling Chemical Kinetics",
-      "url": "https://arxiv.org/abs/2607.09582",
-      "summary": "arXiv:2607.09582v1 Announce Type: new Abstract: We present a physics-constrained machine learning framework for accelerating the direct numerical simulation (DNS) of turbulent reacting flows. The model replaces the direc…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Semiclassical Gaussian Wavepacket Method for Non-Adiabatic Molecular Dynamics",
-      "url": "https://arxiv.org/abs/2607.09592",
-      "summary": "arXiv:2607.09592v1 Announce Type: new Abstract: We introduce two non-adiabatic semiclassical methods that employ two coupled Gaussian wavepackets, each one traveling on a separate diabatic potential energy surface. The w…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Numerical Simulation of Turbulent Concentric Annular Pipe Flow using One-Dimensional Turbulence (ODT): Part 2: Heat Transfer",
-      "url": "https://arxiv.org/abs/2607.09596",
-      "summary": "arXiv:2607.09596v1 Announce Type: new Abstract: Turbulent concentric coaxial (annular) pipe flow with passive heat transfer is theoretically analyzed and numerically modeled in an extended parametric range using the stoc…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterisation of a strontium cold atom source using fluorescence spectroscopy and time-of-flight",
-      "url": "https://arxiv.org/abs/2607.09604",
-      "summary": "arXiv:2607.09604v1 Announce Type: new Abstract: We demonstrate a characterisation methodology for a strontium atomic beam, produced by a two-dimensional magneto-optical trap and delivered via a resonant push beam, using …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inunda: A GPU-Native, Agent-enabled, Differentiable Solver for High-Resolution Flood Inundation Modeling",
-      "url": "https://arxiv.org/abs/2607.09614",
-      "summary": "arXiv:2607.09614v1 Announce Type: new Abstract: Predicting where floodwater goes and how deep it gets, at high resolution and across large domains, remains computationally expensive with conventional hydraulic solvers, w…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Brownian Bridge for Coherent State Path Integral Monte Carlo",
-      "url": "https://arxiv.org/abs/2607.08787",
-      "summary": "arXiv:2607.08787v1 Announce Type: cross Abstract: We propose a new Brownian bridge construction for our newly devised Coherent States Path Integral Monte Carlo algorithm. We apply it to the numerically exact calculation …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Explicit Higher-Order Dual Basis for a Multiplicatively Calder\\'on Preconditioned Electric Field Integral Equation",
-      "url": "https://arxiv.org/abs/2607.08848",
-      "summary": "arXiv:2607.08848v1 Announce Type: cross Abstract: One of the most effective means to precondition the electric field integral equation (EFIE) discretized with Rao-Wilton-Glisson (RWG) functions is the multiplicative Cald…",
       "ts": 1783915200000
     }
   ],
