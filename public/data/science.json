@@ -1,7 +1,112 @@
 {
   "ok": true,
-  "updated": "2026-07-13T10:30:10.113Z",
+  "updated": "2026-07-13T13:26:39.298Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Medieval plague survivors left us graffiti, court records and a lesson for COVID",
+      "url": "https://phys.org/news/2026-07-medieval-plague-survivors-left-graffiti.html",
+      "summary": "Memories of pandemics are often contentious. They can be disputed, uncomfortable and politically charged. As the COVID-19 pandemic begins to feel more distant, governments, communities and families have started asking ho…",
+      "ts": 1783948809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Atomic‐scale tracing of lithium trapped in copper current collectors",
+      "url": "https://phys.org/news/2026-07-atomicscale-lithium-copper-current-collectors.html",
+      "summary": "Any loss of lithium reduces the capacity and service life of lithium batteries. Recent research suggested that lithium is lost to the current collector during charging. Researchers at Ruhr University Bochum, Germany, wor…",
+      "ts": 1783948804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chitosan-based hydrogel membranes as transparent biomaterials for skin regeneration",
+      "url": "https://phys.org/news/2026-07-chitosan-based-hydrogel-membranes-transparent.html",
+      "summary": "IMDEA Materials Institute has developed mechanically tunable hydrogel membranes that closely mimic the mechanical environment of human skin while remaining highly biocompatible, representing an improved platform for skin…",
+      "ts": 1783947608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oobleck droplets reveal 5 ways cornstarch 'goo' behaves when hitting water",
+      "url": "https://phys.org/news/2026-07-oobleck-droplets-reveal-ways-cornstarch.html",
+      "summary": "Cornstarch can thicken soup or serve as a base for a DIY shampoo, but there's more to the humble pantry staple. Given the right conditions, it seems to defy the laws of physics. Mixing cornstarch with water creates \"oobl…",
+      "ts": 1783947607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Netflix's 'Heartstopper' sparked global book-buying boom, study finds",
+      "url": "https://phys.org/news/2026-07-netflix-heartstopper-global-buying-boom.html",
+      "summary": "A Netflix adaptation helped transform \"Heartstopper\" from a popular graphic novel into a global mainstream publishing success, according to new research from The University of Manchester and Princeton University.",
+      "ts": 1783946409000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study links sea level to Earth's carbon thermostat",
+      "url": "https://phys.org/news/2026-07-links-sea-earth-carbon-thermostat.html",
+      "summary": "Earth has a natural thermostat that has kept the planet habitable for more than 100 million years. Scientists have struggled to fully explain how it works, but new research identifies a missing link between phosphate ava…",
+      "ts": 1783946406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden fifth dimension could tune dark matter resonance, new theory proposes",
+      "url": "https://phys.org/news/2026-07-hidden-dimension-tune-dark-resonance.html",
+      "summary": "The mysterious substance that binds galaxies together could naturally be \"in tune\" with a hidden fifth dimension, according to a new University of Sheffield theory aiming to shed light on one of science's biggest enigmas…",
+      "ts": 1783945802000
+    },
+    {
+      "source": "Science News",
+      "title": "Meet the Milky Way’s puffiest planets",
+      "url": "https://www.sciencenews.org/article/puffiest-planets-milky-way-galaxy",
+      "summary": "Two “superpuff” planets orbiting a sunlike star over 1,000 light-years from Earth are as big as Jupiter and as dense as cotton candy.",
+      "ts": 1783945800000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Firefly brightness holds a cautionary tale about accepting older measurements",
+      "url": "https://phys.org/news/2026-07-firefly-brightness-cautionary-tale-older.html",
+      "summary": "For over a century, the accepted value for a firefly's brightness has mostly stood, tracing its origins to experiments carried out in 1912. Through rigorous new analysis published in the American Journal of Physics, Davi…",
+      "ts": 1783945209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the 'creeping normality' of large language models is quietly reshaping the life sciences",
+      "url": "https://phys.org/news/2026-07-large-language-quietly-reshaping-life.html",
+      "summary": "Large language models (LLMs) are gradually transforming research in the life sciences in ways that extend far beyond improving productivity, and they are becoming a new normal before scientists have agreed on the limits …",
+      "ts": 1783945207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research reveals how grassroots football could help tackle climate change",
+      "url": "https://phys.org/news/2026-07-reveals-grassroots-football-tackle-climate.html",
+      "summary": "With international football facing increasing criticism over its carbon footprint, University of Bath students are working with Bath City FC to show how community football could help tackle climate change.",
+      "ts": 1783944004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum-gravitational mechanism could explain the universe's homogeneity",
+      "url": "https://phys.org/news/2026-07-quantum-gravitational-mechanism-universe-homogeneity.html",
+      "summary": "Our universe is known to be remarkably homogeneous and isotropic. This essentially means that matter is distributed evenly throughout the universe and that it looks almost the same in all directions.",
+      "ts": 1783943445000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists strike invisible gold in the deep sea—locked inside fool's gold",
+      "url": "https://phys.org/news/2026-07-scientists-invisible-gold-deep-sea.html",
+      "summary": "Pyrite, an iron sulfide ore, is often known as fool's gold because its shiny metallic luster and pale brass-yellow color can easily fool the untrained eye into mistaking it for real gold. This time, however, 360 kilomete…",
+      "ts": 1783943203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New 200Gbps photodetector doubles optical reception capacity for data centers",
+      "url": "https://phys.org/news/2026-07-200gbps-photodetector-optical-reception-capacity.html",
+      "summary": "Korean researchers have developed, for the first time in Korea, a 200Gbps-class photodetector device for use in hyperscale AI data centers and 5G/6G mobile communications infrastructure. The technology enables ultrahigh-…",
+      "ts": 1783941601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Computer-guided electricity rapidly transforms flat nanofilms into 3D shapes on demand",
+      "url": "https://phys.org/news/2026-07-electricity-rapidly-flat-nanofilms-3d.html",
+      "summary": "Researchers at Nagoya University in Japan have developed a method to form dome-shaped bumps on nanofilms in water using a computer-guided electron beam. The bumps form within 10 seconds and can be flattened, reshaped or …",
+      "ts": 1783940401000
+    },
     {
       "source": "Phys.org",
       "title": "Study suggests increased biotoxicity due to anaerobic decolorization of diazo dye by wetland-derived Clostridium",
@@ -595,111 +700,6 @@
       "title": "Invariant Guided PINN for Fluid Flow Computation",
       "url": "https://arxiv.org/abs/2604.08002",
       "summary": "arXiv:2604.08002v3 Announce Type: replace Abstract: Physics-informed neural networks (PINNs) often become difficult to optimize for incompressible flow problems with large spatial domains, multiscale stresses, or long-ti…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unidirectional Transverse Scattering in Acoustic Dimers",
-      "url": "https://arxiv.org/abs/2604.20690",
-      "summary": "arXiv:2604.20690v2 Announce Type: replace Abstract: We study unidirectional transverse scattering in a two-dimensional acoustic dimer composed of two circular subwavelength scatterers. Using a coupled multipole model, we…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparison of Silvaco and Synopsys TCAD Predictions Including the Perugia Radiation Damage Model in Silicon Pixel Detectors for the HL-LHC",
-      "url": "https://arxiv.org/abs/2604.26386",
-      "summary": "arXiv:2604.26386v2 Announce Type: replace Abstract: At the High Luminosity Large Hadron Collider (HL-LHC), silicon pixel detectors will be exposed to radiation fluences about 5 to 10 times larger than those experienced b…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-field carrier mobilities in silicon irradiated to extreme fluences",
-      "url": "https://arxiv.org/abs/2605.18581",
-      "summary": "arXiv:2605.18581v2 Announce Type: replace Abstract: The low-field carrier mobilities in silicon were quantified as a function of the 1$\\,$MeV neutron-equivalent fluence up to $10^{18}\\,$cm$^{-2}$ and for temperatures bet…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "OAM Light Demultiplexing from an Intensity Profile using Orthogonality Restoration of Pair Modes",
-      "url": "https://arxiv.org/abs/2605.22220",
-      "summary": "arXiv:2605.22220v2 Announce Type: replace Abstract: Orbital Angular Momentum (OAM) of light is a promising degree of freedom for next-generation communication. By exploiting the orthogonality of OAM modes, multi-channel …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modelling the photocatalytic oxidation of methane and other air pollutants for applications in ventilation systems",
-      "url": "https://arxiv.org/abs/2605.23999",
-      "summary": "arXiv:2605.23999v2 Announce Type: replace Abstract: Photocatalytic oxidation (PCO) is a promising strategy for indoor air purification and outdoor pollutant abatement, potentially offering treatment for climate- and heal…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast chiral sensing with an ultraviolet vector beam",
-      "url": "https://arxiv.org/abs/2606.13402",
-      "summary": "arXiv:2606.13402v2 Announce Type: replace Abstract: We present a robust, ultrafast and highly efficient setup for distinguishing molecular enantiomers by combining ultrafast techniques with vector beams, a type of topolo…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Defining a physics person: Tensions in the identity development of undergraduate women in physics",
-      "url": "https://arxiv.org/abs/2606.16770",
-      "summary": "arXiv:2606.16770v2 Announce Type: replace Abstract: This qualitative study explores how undergraduate women define what it means to be a physics person alongside how they describe their own physics identity. Our team ana…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond classical similitude: group theoretic extrapolation of hypersonic stagnation-point boundary layers",
-      "url": "https://arxiv.org/abs/2606.21747",
-      "summary": "arXiv:2606.21747v2 Announce Type: replace Abstract: Motivated by the need to extrapolate the results from ground-based experiments to the conditions of high-speed flight, we present the Lie equivalence symmetry analysis …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generalizable turbulence closures across bluff-body shapes by PINN-based solver-agnostic training",
-      "url": "https://arxiv.org/abs/2607.04491",
-      "summary": "arXiv:2607.04491v2 Announce Type: replace Abstract: Data-driven turbulence closures are usually calibrated by inverse methods that embed a CFD solver in the loop, tying the model to a particular discretization and requir…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond Trade Openness: Network-Based Evidence on African Economic Integration",
-      "url": "https://arxiv.org/abs/2410.21019",
-      "summary": "arXiv:2410.21019v2 Announce Type: replace-cross Abstract: This paper develops a network-based methodology for measuring economic integration in Africa. Conventional indicators such as trade openness and intra-regional tr…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Growth of Highly Conductive PtSe2 Films Controlled by Raman Metrics for High-Frequency Photodetectors and Optoelectronic Mixers at 1.55 {\\mu}m",
-      "url": "https://arxiv.org/abs/2503.20659",
-      "summary": "arXiv:2503.20659v3 Announce Type: replace-cross Abstract: Two-dimensional PtSe2 exhibits outstanding intrinsic properties such as high carrier mobility, tunable bandgap, broadband absorption and air stability, making it …",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward quantum scaling advantage in approximate optimization",
-      "url": "https://arxiv.org/abs/2505.22514",
-      "summary": "arXiv:2505.22514v2 Announce Type: replace-cross Abstract: In a recent Letter [H. Munoz-Bauza and D. Lidar, Phys. Rev. Lett. 134, 160601 (2025)], quantum annealing was reported to exhibit a scaling advantage in approximat…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cascades on Networks with Functional Structure",
-      "url": "https://arxiv.org/abs/2505.24631",
-      "summary": "arXiv:2505.24631v2 Announce Type: replace-cross Abstract: We consider a version of the Watts threshold model on directed multiplex configuration model networks, and present a detailed analysis of the cascade size, single…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum-memory-assisted on-demand microwave-optical transduction",
-      "url": "https://arxiv.org/abs/2509.18834",
-      "summary": "arXiv:2509.18834v3 Announce Type: replace-cross Abstract: Microwave-optical transducers and quantum memories are essential for quantum repeaters enabling a quantum internet. Despite advances in both technologies, integra…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Living droplets with mesoscale swimmers",
-      "url": "https://arxiv.org/abs/2509.20005",
-      "summary": "arXiv:2509.20005v4 Announce Type: replace-cross Abstract: We study the activity of 'living' droplets, which confine tens of swimming meso-organisms in 3D using a superhydrophobic substrate. With few swimmers, the droplet…",
       "ts": 1783915200000
     }
   ],

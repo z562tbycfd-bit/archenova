@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-07-13T10:30:15.761Z",
+  "updated": "2026-07-13T13:26:41.865Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about an RFK Jr. push against psychiatric meds, a Sanofi blood cancer drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug/?utm_campaign=rss",
+      "summary": "U.S. health secretary Robert F. Kennedy Jr. is pressing forward with his effort to help Americans stop taking SSRI antidepressants",
+      "ts": 1783948114000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Reditus Space completes first reentry vehicle",
+      "url": "https://spacenews.com/reditus-space-completes-first-reentry-vehicle/",
+      "summary": "Reditus Space, a startup developing recoverable and reusable spacecraft, has completed its first vehicle for launch later this year. The post Reditus Space completes first reentry vehicle appeared first on SpaceNews.",
+      "ts": 1783947720000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Voyager completes acquisition of Astrobotic",
+      "url": "https://spacenews.com/voyager-completes-acquisition-of-astrobotic/",
+      "summary": "Voyager Technologies has completed its acquisition of lunar infrastructure company Astrobotic Technology, weeks after Astrobotic won two NASA lunar lander missions. The post Voyager completes acquisition of Astrobotic ap…",
+      "ts": 1783947660000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Getting ready for lunar planetary defense",
+      "url": "https://spacenews.com/getting-ready-for-lunar-planetary-defense/",
+      "summary": "Development in space is gaining serious momentum. Impressively, NASA recently unveiled plans for a new moon base — the first concrete step toward permanently moving human civilization off Earth. However, as we […] The po…",
+      "ts": 1783947600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA and Poland to establish a new civil security and resilience centre in Warsaw",
+      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_and_Poland_to_establish_a_new_civil_security_and_resilience_centre_in_Warsaw",
+      "summary": "The European Space Agency (ESA) and the Republic of Poland have announced that a new ESA centre focusing on civil security and resilience will be located in Warsaw, supporting the efficient and coordinated development of…",
+      "ts": 1783946040000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a donor conception cap and world models for AI",
+      "url": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Sperm donors need limits, says a European fertility group Ties van der Meer doesn’…",
+      "ts": 1783944600000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genetic Map Opens Door to Development of New Therapies to Reverse Bone Loss",
+      "url": "https://www.genengnews.com/topics/omics/genetic-map-opens-door-to-development-of-new-therapies-to-reverse-bone-loss/",
+      "summary": "The international team of scientists identified hundreds of previously unknown genes that govern bone health and revealed cells surrounding blood vessels as one of the drivers of bone repair. The post Genetic Map Opens D…",
+      "ts": 1783944027000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Caregivers brace for pay cuts, and maybe homelessness ",
+      "url": "https://www.statnews.com/2026/07/13/health-news-caregivers-brace-for-pay-cuts-maybe-homelessness/?utm_campaign=rss",
+      "summary": "A game-changer in pancreatic cancer, a vaccine skeptical HHS nom, and more health news from Morning Rounds",
+      "ts": 1783943184000,
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "ESA welcomes new UK space and defence gateway ",
@@ -9,6 +73,14 @@
       "summary": "His Majesty King Charles III visited the UK’s largest space cluster on 10 July to launch a new initiative designed to shape the future of the space and defence economy.",
       "ts": 1783941780000,
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-concludes-international-physical-protection-advisory-follow-up-mission-in-china",
+      "summary": "",
+      "ts": 1783939748000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -56,6 +128,14 @@
       "url": "https://spacenews.com/china-lines-up-methalox-long-march-10c-as-commercial-workhorse-after-first-booster-recovery/",
       "summary": "HELSINKI — China confirmed a methalox Long March 10C as its commercial workhorse following its first successful booster recovery, while injecting fresh capital into commercial rocket ventures. The China Academy […] The p…",
       "ts": 1783931361000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Wild, Scenic, and Increasingly Rusty",
+      "url": "https://science.nasa.gov/earth/earth-observatory/wild-scenic-and-increasingly-rusty/",
+      "summary": "Orange streams are now being spotted in hundreds of watersheds in permafrost areas throughout Alaska’s Brooks Range.",
+      "ts": 1783915260000,
       "categoryId": "space"
     },
     {
@@ -273,6 +353,22 @@
       "summary": "SpaceX plans to conduct its next Starship launch as soon as July 16 to test fixes to issues from the previous flight and deploy functioning Starlink satellites. The post SpaceX gears up for Starship Flight 13 appeared fi…",
       "ts": 1783907084000,
       "categoryId": "space"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Ligand-confined zinc slurries enable durable flow-based energy storage",
+      "url": "https://www.nature.com/articles/s41560-026-02096-5",
+      "summary": "",
+      "ts": 1783900800000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Early-stage local chemistry regulation enabling open-circuit voltage of 847 mV in wide-bandgap Cu<sub>2</sub>ZnSnS<sub>4</sub> solar cells",
+      "url": "https://www.nature.com/articles/s41560-026-02111-9",
+      "summary": "",
+      "ts": 1783900800000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "Genetic Engineering News",
@@ -571,6 +667,14 @@
       "categoryId": "space"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA Launches First Regional Radiation Protection Training Course for Caribbean States",
+      "url": "http://www.iaea.org/newscenter/news/iaea-launches-first-regional-radiation-protection-training-course-for-caribbean-states",
+      "summary": "The IAEA has launched its first Postgraduate Educational Course (PGEC) on Radiation Protection and the Safety of Radiation Sources for Caribbean countries, marking an important milestone in strengthening radiation safety…",
+      "ts": 1783670400000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "OpenAI",
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "url": "https://openai.com/index/deutsche-telekom",
@@ -615,110 +719,6 @@
       "title": "A Non-Hermitian Potential Well Formalism for Conscious--Preconscious--Subliminal Processing",
       "url": "https://arxiv.org/abs/2607.08302",
       "summary": "arXiv:2607.08302v1 Announce Type: new Abstract: We propose a phenomenological model of the Global Neuronal Workspace (GNW) in which early sensory processing generates an effective complex-valued landscape governing the d…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Impact of Nirsevimab prophylaxis on RSV dynamics: a stage-structured modelling study",
-      "url": "https://arxiv.org/abs/2607.08344",
-      "summary": "arXiv:2607.08344v1 Announce Type: new Abstract: Respiratory syncytial virus (RSV) is a leading cause of bronchiolitis and other lower respiratory tract infections in infants. Increased viral circulation in the post-COVID…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DrugGen 2: A disease-aware language model for enhancing drug discovery",
-      "url": "https://arxiv.org/abs/2607.08404",
-      "summary": "arXiv:2607.08404v1 Announce Type: new Abstract: Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting t…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SHIFT: Survival Prediction from Incomplete and Heterogeneous Genomic Data",
-      "url": "https://arxiv.org/abs/2607.07725",
-      "summary": "arXiv:2607.07725v1 Announce Type: cross Abstract: Genomic prediction models often fail to transfer across institutions because sequencing panels differ across sites, creating structural feature missingness at deployment.…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Projected Energy Matching for Generative 3D Priors",
-      "url": "https://arxiv.org/abs/2607.07749",
-      "summary": "arXiv:2607.07749v1 Announce Type: cross Abstract: Energy Matching has emerged as a powerful generative framework that combines flow model efficiency with the explicit likelihood of Energy-Based Models (EBMs) via a single…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Contravariance Theory: Strong Alignment for Minimal Solutions to Hard Tasks",
-      "url": "https://arxiv.org/abs/2607.08561",
-      "summary": "arXiv:2607.08561v1 Announce Type: cross Abstract: A series of results from the NeuroAI over the past fifteen years have raised core questions both about how to compare Deep Neural Network (DNN) models to the brain, and a…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stochastic dynamics at the back of a gene drive eradication wave",
-      "url": "https://arxiv.org/abs/2502.21268",
-      "summary": "arXiv:2502.21268v3 Announce Type: replace Abstract: Gene drive alleles bias their own inheritance to offspring. They can fix in a wild-type population in spite of a fitness cost, and even lead to the eradication of the t…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Decoding the Hot-Mitochondrion Paradox",
-      "url": "https://arxiv.org/abs/2507.16824",
-      "summary": "arXiv:2507.16824v3 Announce Type: replace Abstract: In a 2018 paper and a subsequent article published in 2023, researchers reported that mitochondria maintain temperatures 10oC-15oC higher than the surrounding cytoplasm…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Topological decoding of grid cell activity via path lifting to covering spaces",
-      "url": "https://arxiv.org/abs/2510.16216",
-      "summary": "arXiv:2510.16216v2 Announce Type: replace Abstract: High-dimensional neural activity often reside in a low-dimensional subspace, referred to as neural manifolds. Grid cells in the medial entorhinal cortex provide a perio…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The impact of nonheritable variation in division rates on population growth across environments",
-      "url": "https://arxiv.org/abs/2511.01905",
-      "summary": "arXiv:2511.01905v2 Announce Type: replace Abstract: Phenotypic heterogeneity is a pervasive feature of biological populations, yet its impact on population growth is often interpreted through changes in mean individual f…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Colorings of unrooted tree-based networks and related graphs",
-      "url": "https://arxiv.org/abs/2512.04693",
-      "summary": "arXiv:2512.04693v2 Announce Type: replace Abstract: In mathematical phylogenetics, evolutionary relationships are often represented by trees and networks. The latter are typically used whenever the relationships cannot b…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Amplification at Equilibrium: Structural and Thermodynamic Limitations, and Implementation",
-      "url": "https://arxiv.org/abs/2604.04285",
-      "summary": "arXiv:2604.04285v3 Announce Type: replace Abstract: Amplifying weak molecular signals is essential in both natural and engineered biochemical systems. While most amplification schemes operate out of equilibrium, relying …",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Extended predictive coding framework as variational free-energy minimisation under exponential-family assumption",
-      "url": "https://arxiv.org/abs/2605.30882",
-      "summary": "arXiv:2605.30882v2 Announce Type: replace Abstract: The sensory cortices of the brain perform perceptual inference efficiently through their complex networks of neurons. One of the theoretical accounts of this process is…",
-      "ts": 1783656000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "TrackStudio: An Integrated Toolkit for Markerless Tracking",
-      "url": "https://arxiv.org/abs/2511.07624",
-      "summary": "arXiv:2511.07624v3 Announce Type: replace-cross Abstract: Markerless motion tracking has advanced rapidly in the past 10 years and currently offers powerful opportunities for behavioural, clinical, and biomechanical rese…",
       "ts": 1783656000000,
       "categoryId": "bio"
     }
