@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-14T14:54:14.153Z",
+  "updated": "2026-07-14T16:17:56.532Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Onion-like chemical halos may surround phytoplankton that power half of global photosynthesis",
+      "url": "https://phys.org/news/2026-07-onion-chemical-halos-phytoplankton-power.html",
+      "summary": "The interactions between microscopic algal cells and bacteria in the oceans play a pivotal role in the global carbon cycle. Researchers at ETH Zurich have now taken an important step toward deciphering the chemical langu…",
+      "ts": 1784044806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the SKA will use fast radio bursts to decode the universe",
+      "url": "https://phys.org/news/2026-07-ska-fast-radio-decode-universe.html",
+      "summary": "There are parts of the universe that are extremely hard to see, even for our most advanced telescopes. Gas and dust don't emit light and are visible only by the light they block from stars and galaxies. Magnetic fields a…",
+      "ts": 1784044801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Data-driven tool can find mineral biosignatures on other worlds",
+      "url": "https://phys.org/news/2026-07-driven-tool-mineral-biosignatures-worlds.html",
+      "summary": "A technique for judging whether a common mineral formed through biological activity could aid the search for ancient life on Earth and Mars. Apatite is a ubiquitous phosphate mineral found in terrestrial and extraterrest…",
+      "ts": 1784044201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Direct observation of spontaneous magnon coherence at room temperature",
+      "url": "https://phys.org/news/2026-07-spontaneous-magnon-coherence-room-temperature.html",
+      "summary": "Researchers at RPTU University Kaiserslautern-Landau have achieved a key experimental breakthrough: For the first time, the spontaneous macroscopic coherence of magnons—the quantized excitations of magnetic materials—has…",
+      "ts": 1784043611000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First-ever koala chlamydia vaccine implant inserted into a wild koala",
+      "url": "https://phys.org/news/2026-07-koala-chlamydia-vaccine-implant-inserted.html",
+      "summary": "In what's been hailed as a \"massive breakthrough,\" a chlamydia vaccine implant has been administered to a wild koala for the first time. This is the only koala chlamydia vaccine that uses two doses. Now, thanks to the im…",
+      "ts": 1784043601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "DNA origami turns secret messages into nano–Morse code that acts as multiplayer molecular encryption",
+      "url": "https://phys.org/news/2026-07-dna-origami-secret-messages-nanomorse.html",
+      "summary": "Mathematics has always been at the core of securing information. From online banking to government communications, modern society relies on cryptography, in which complex mathematical algorithms transform readable inform…",
+      "ts": 1784042407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Do birds enjoy flying?",
+      "url": "https://phys.org/news/2026-07-birds-enjoy-flying.html",
+      "summary": "Who hasn't dreamed of flying like a bird? But do birds actually enjoy flying as much as we imagine? A new study by researchers at Utrecht University shows that galahs, Australian cockatoos, almost always choose to fly wh…",
+      "ts": 1784042404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How supermassive black holes feed themselves",
+      "url": "https://phys.org/news/2026-07-supermassive-black-holes.html",
+      "summary": "Astronomers are closer to solving the mystery of how supermassive black holes feed themselves thanks to new images from the James Webb Space Telescope, or JWST. The images provide the clearest view ever seen of gaseous f…",
+      "ts": 1784041410000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bio-metal: Exploring the metallic mystery of an ancient maw",
+      "url": "https://phys.org/news/2026-07-bio-metal-exploring-metallic-mystery.html",
+      "summary": "When playing the classic game \"20 Questions,\" one may begin with the common opener: \"Animal, vegetable, or mineral?\"",
+      "ts": 1784041211000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The customer isn't always right: Study reveals overlooked source of workplace discrimination",
+      "url": "https://phys.org/news/2026-07-customer-isnt-reveals-overlooked-source.html",
+      "summary": "New research from Adelaide University has found customers can be an overlooked source of workplace discrimination, leaving gay and bisexual men feeling they must choose between being authentic or protecting themselves fr…",
+      "ts": 1784041209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Haven or trap? Study finds sinkholes protect endangered tree at evolutionary cost",
+      "url": "https://phys.org/news/2026-07-haven-sinkholes-endangered-tree-evolutionary.html",
+      "summary": "Are giant sinkholes in China's karst mountains havens or traps for the rare plants that inhabit them? A new study finds they are both—offering refuge from heat and drought while gradually eroding the evolutionary potenti…",
+      "ts": 1784041201000
+    },
+    {
+      "source": "Science News",
+      "title": "A new map traces the sky’s water highways",
+      "url": "https://www.sciencenews.org/article/mapping-water-vapor-atmospheric-river",
+      "summary": "Atmospheric rivers bring heavy rain and floods, but if they don’t come around, it could mean drought. A new global map reveals little-known pathways.",
+      "ts": 1784041200000
+    },
     {
       "source": "Phys.org",
       "title": "Physicists confirm 20-year-old theory that could boost quantum technology",
@@ -204,6 +288,13 @@
       "url": "https://phys.org/news/2026-07-built-environment-mental-health-climate.html",
       "summary": "When people think about climate change, they often picture melting glaciers, stronger storms, rising temperatures, or prolonged droughts. These visible consequences dominate headlines and shape public discussions. Yet an…",
       "ts": 1784023201000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Topological Defect Propagation to Classify Knitted Fabrics",
+      "url": "http://link.aps.org/doi/10.1103/g565-3dyn",
+      "summary": "Author(s): Daisuke S. Shimamoto, Keiko Shimamoto, Sonia Mahmoudi, and Samuel Poincloux The ability of a fabric to be knitted into a textile can be determined on the basis of the topology of its pattern. [Phys. Rev. X 16,…",
+      "ts": 1784023200000
     },
     {
       "source": "Phys.org",
@@ -609,97 +700,6 @@
       "title": "Quality control and quality assurance evaluation of ALFE2, a large-dynamic-range front-end ASIC de-veloped for the ATLAS Liquid Argon Calorimeter high-luminosity LHC upgrade",
       "url": "https://arxiv.org/abs/2607.10458",
       "summary": "arXiv:2607.10458v1 Announce Type: new Abstract: ALFE2 is a front-end ASIC developed for the ATLAS Liquid Argon (LAr) Calorimeter upgrade during the High-Luminosity Large Hadron Collider (HL-LHC) phase. ALFE2 comprises fo…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mid-Infrared Single-Photon Detection via Enhanced Cross-Phase Modulation in Topology-Optimized Epsilon-Near-Zero Dual-Wavelength Nanocavities",
-      "url": "https://arxiv.org/abs/2607.10472",
-      "summary": "arXiv:2607.10472v1 Announce Type: new Abstract: We use the Green's tensor quantization theory for open resonant nanostructures with absorption losses to study the cross-phase modulation (XPM) process at the single photon…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Divergence Without Transition in Adiabatic Theory: Exact Cancellation in Reflectionless Potentials",
-      "url": "https://arxiv.org/abs/2607.10475",
-      "summary": "arXiv:2607.10475v1 Announce Type: new Abstract: Adiabatic invariants play a central role in plasma physics, from magnetic moment and bounce action to wave action in slowly varying media. Their perturbative constructions …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Investigation of transverse instability in efficient plasma-based accelerators",
-      "url": "https://arxiv.org/abs/2607.10497",
-      "summary": "arXiv:2607.10497v1 Announce Type: new Abstract: Simultaneously maximizing power-transfer efficiency and preserving beam quality in plasma-based accelerators is constrained by the transverse beam breakup instability. We p…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Theoretical study of electronic structure and spectroscopic properties of the TlO molecule",
-      "url": "https://arxiv.org/abs/2607.10514",
-      "summary": "arXiv:2607.10514v1 Announce Type: new Abstract: The electronic structure and properties of the thallium monoxide (TlO) molecule, as well as its cation and anion, have been systematically studied using both the relativist…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Temporal Evolution of Blackbody Radiation in a One-Dimensional Photonic Time-Crystal",
-      "url": "https://arxiv.org/abs/2607.10577",
-      "summary": "arXiv:2607.10577v1 Announce Type: new Abstract: Perhaps one of the most intriguing phenomena in time-varying-media photonics is the amplification of light in a photonic time crystal (PTC). However, studies to date have f…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The critical radius of compressible capillary drops: viscosity, thermodynamics, and diffuse-interface scales",
-      "url": "https://arxiv.org/abs/2607.10609",
-      "summary": "arXiv:2607.10609v1 Announce Type: new Abstract: A compressible capillary drop differs from an incompressible one in that its radius is a dynamical degree of freedom. When the drop is sufficiently small, this spherical mo…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sub-Hz Stability and Correlation in Pair-Generated Primary Kerr Comb Tones",
-      "url": "https://arxiv.org/abs/2607.10622",
-      "summary": "arXiv:2607.10622v1 Announce Type: new Abstract: Kerr microcombs provide a compact route to broadband optical frequency grids, yet the primary comb states formed at the onset of Kerr-comb generation have received little a…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electrohydrodynamic wind generation in planar DBDs: role of electrode symmetry and geometry",
-      "url": "https://arxiv.org/abs/2607.10670",
-      "summary": "arXiv:2607.10670v1 Announce Type: new Abstract: This study experimentally and numerically investigates the electrohydrodynamic (EHD) interaction produced by a surface dielectric barrier discharge (SDBD) plasma actuator a…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantification of Electron Energy-Loss Spectra",
-      "url": "https://arxiv.org/abs/2607.10693",
-      "summary": "arXiv:2607.10693v1 Announce Type: new Abstract: This manuscript summarizes the recent developments in EELS quantification flow as will be implemented in the CEOS Panta Rhei and TEMDM software. This should serve as a tech…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Secondary Flows and Near-Wall Turbulence in Channel Flow with Longitudinal Ribs",
-      "url": "https://arxiv.org/abs/2607.10699",
-      "summary": "arXiv:2607.10699v1 Announce Type: new Abstract: This study employs the Large Eddy Simulation (LES) to investigate secondary flows and near-wall turbulence induced by two types of surface-mounted longitudinal ribs, namely…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Structural Comparison of Indian Epics",
-      "url": "https://arxiv.org/abs/2607.10702",
-      "summary": "arXiv:2607.10702v1 Announce Type: new Abstract: The Mahabharata and Ramayana constitute the two major Sanskrit epics of ancient India. Traditionally they are viewed quite differently, with the former being seen as more h…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical Kerr nonlinearity enhancement in high-index metasurfaces via Mie void lattices",
-      "url": "https://arxiv.org/abs/2607.10719",
-      "summary": "arXiv:2607.10719v1 Announce Type: new Abstract: Recently, research in nanophotonics has turned toward Mie resonances in voids on the surface of high-refractive-index materials. The optical Kerr effect (OKE) in high-index…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Institutional Harm through Threshold Cascades",
-      "url": "https://arxiv.org/abs/2607.10726",
-      "summary": "arXiv:2607.10726v1 Announce Type: new Abstract: Can a population of people not individually inclined to harm others nonetheless produce harmful collective outcomes, purely because of the institutional structure they inha…",
       "ts": 1784001600000
     }
   ],

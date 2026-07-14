@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-14T14:54:18.622Z",
+  "updated": "2026-07-14T16:17:58.615Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Anthropic’s Claude Science is coming for Kendall Square",
+      "url": "https://www.statnews.com/2026/07/14/anthropic-claude-science-kendall-square/?utm_campaign=rss",
+      "summary": "AI still has the potential to do more than reduce corporate head counts. Watch out, Kendall Square.",
+      "ts": 1784043679000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Majority of new Ebola cases are ‘from unknown chains of transmission,’ WHO official says",
+      "url": "https://www.statnews.com/2026/07/14/ebola-outbreak-congo-new-cases-unknown-chains-of-transmission/?utm_campaign=rss",
+      "summary": "The Ebola outbreak in eastern Congo “continues to outpace the response efforts,” the WHO’s emergencies chief said on Tuesday after returning from a trip to one of the worst hit…",
+      "ts": 1784042330000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+      "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "summary": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that …",
+      "ts": 1784041220000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Antaris™ Establishes Aeonyx™ to Advance All-Domain Mission Virtualization for Defense",
+      "url": "https://spacenews.com/antaris-establishes-aeonyx-to-advance-all-domain-mission-virtualization-for-defense/",
+      "summary": "Antaris™ today announced a strategic reorganization establishing Aeonyx™, a mission virtualization company focused on helping defense organizations evaluate architectures, validate operational concepts, improve operation…",
+      "ts": 1784040988000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Akero team, backed by Fairmount, launches new immunology company",
@@ -65,6 +97,22 @@
       "summary": "Cellares plans to translate the manufacturing of SonomaBio’s SBT-77-7101 onto its Cell Shuttle and automate in-process and release testing through the Cell Q quality control system. The post Cellares and Sonoma Biotherap…",
       "ts": 1784030417000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "People continue to stand by refugees, Gen Z shows most empathy",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167934",
+      "summary": "Protection for refugees has been enshrined in international law for more than seven decades, but how much support is there today for those fleeing conflict and persecution?",
+      "ts": 1784030400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘This is a fire’: DRC Ebola outbreak is fastest-growing ever, warns WHO",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167933",
+      "summary": "Infections of the Bundibugyo species of Ebola in the Democratic Republic of the Congo (DRC) have reached record highs and a majority of new cases are coming from “unknown chains of transmission”, the UN World Health Orga…",
+      "ts": 1784030400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -603,6 +651,30 @@
       "categoryId": "space"
     },
     {
+      "source": "Nature Energy",
+      "title": "Author Correction: Thin membranes with Cu-ion crosslinking for high temperature polymer electrolyte membrane fuel cells",
+      "url": "https://www.nature.com/articles/s41560-026-02119-1",
+      "summary": "",
+      "ts": 1783987200000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Coordinated planning of European charging infrastructure and energy system for optimal V1G and V2G deployment",
+      "url": "https://www.nature.com/articles/s41560-026-02107-5",
+      "summary": "",
+      "ts": 1783987200000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Controlled solid-state crystallization with formamidinium acetate for fully vacuum-deposited perovskite solar cells",
+      "url": "https://www.nature.com/articles/s41560-026-02093-8",
+      "summary": "",
+      "ts": 1783987200000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Genome-Scale CRISPRi Atlas Maps Gene Function Across Human iPSCs",
       "url": "https://www.genengnews.com/topics/omics/genome-scale-crispri-atlas-maps-gene-function-across-human-ipscs/",
@@ -648,78 +720,6 @@
       "url": "https://www.genengnews.com/resources/ebooks/analytical-challenges-for-antibody-drug-conjugate-adc-manufacturing/",
       "summary": "This collection of articles and expert perspectives explores the critical challenges shaping The post Analytical Challenges for Antibody-Drug Conjugate (ADC) Manufacturing appeared first on GEN - Genetic Engineering and …",
       "ts": 1783975499000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "New Lung Model Reveals RSV Immune Response, Points to Better Treatments",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/new-lung-model-reveals-rsv-immune-response-points-to-better-treatments/",
-      "summary": "Researchers used pediatric airway cells, blood vessel cells, and neutrophils to build an in vitro model of infant lungs that allowed them to investigate why respiratory syncytial virus makes infants sicker than adults, a…",
-      "ts": 1783971781000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Poland to host new ESA center as government boosts investments in space",
-      "url": "https://spacenews.com/poland-to-host-new-esa-center-as-government-boosts-investments-in-space/",
-      "summary": "WARSAW, Poland — Poland will host the first European Space Agency (ESA) center located in an eastern flank member state, one that will be focused on civil security and resilience. […] The post Poland to host new ESA cent…",
-      "ts": 1783969920000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Mung Bean Pan-Genome Study Maps Key Genes for Yield, Nutrition, and Pest Resistance",
-      "url": "https://www.genengnews.com/topics/omics/mung-bean-pan-genome-study-maps-key-genes-for-yield-nutrition-and-pest-resistance/",
-      "summary": "Researchers have created the world's first graph-based mung bean pan-genome, revealing genetic variations linked to yield, nutrition, and pest resistance, and providing breeders with powerful tools to accelerate crop imp…",
-      "ts": 1783965962000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
-      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillio…",
-      "ts": 1783965600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Dementia study replicates promising outcomes following risk-reduction strategies",
-      "url": "https://www.statnews.com/2026/07/13/aaic-in-30-alzheimers-treaatments-dementia-day-2-conference/?utm_campaign=rss",
-      "summary": "A dementia prevention trial praised as a \"landmark\" effort further demonstrated the promise of structured programs tailored to local cultures.",
-      "ts": 1783961355000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: UnitedHealth’s questionable review, and more MA stars lawsuits",
-      "url": "https://www.statnews.com/2026/07/13/unitedhealth-housecalls-audit-report-medicare-advantage-stars-lawsuits/?utm_campaign=rss",
-      "summary": "UnitedHealth touts a new home care audit, and more health insurers sue CMS over Medicare Advantage quality ratings.",
-      "ts": 1783956545000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut Anil Menon",
-      "url": "https://www.nasa.gov/image-article/nasa-astronaut-anil-menon/",
-      "summary": "NASA astronaut Anil Menon poses in a spacesuit for a portrait at NASA’s Johnson Space Center in Houston, Texas on Jan. 8, 2026. Menon will launch aboard the Roscosmos Soyuz MS-29 spacecraft to the International Space Sta…",
-      "ts": 1783955476000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Accel and Prosus backed QOSMIC raises $3.33 Million to Build Optical Ground Stations for the Orbital Data Economy",
-      "url": "https://spacenews.com/accel-and-prosus-backed-qosmic-raises-3-33-million-to-build-optical-ground-stations-for-the-orbital-data-economy/",
-      "summary": "BENGALURU, India / July 15, 2026 — QOSMIC has raised $3.33 million in seed funding co-led by Accel and Prosus, with participation from South Park Commons, ARTPARK, and angel investor […] The post Accel and Prosus backed …",
-      "ts": 1783955408000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Martha Lillard, last U.S. polio patient using iron lung, dies at 78 in Oklahoma",
-      "url": "https://www.statnews.com/2026/07/13/martha-lillard-last-us-polio-patient-iron-lung-dies/?utm_campaign=rss",
-      "summary": "Martha Lillard, last U.S. polio patient using iron lung, has died at 78 in Oklahoma.",
-      "ts": 1783953401000,
       "categoryId": "bio"
     }
   ],
