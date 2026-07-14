@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-14T10:49:21.391Z",
+  "updated": "2026-07-14T12:16:06.578Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study reveals Hawaiian hotspot is getting hotter",
+      "url": "https://phys.org/news/2026-07-reveals-hawaiian-hotspot-hotter.html",
+      "summary": "Contrary to conventional geological thinking, the Hawaiian mantle plume has gotten hotter by about 250°C (480°F) over the past 47 million years. This discovery, led by Earth scientists at the University of Hawai'i at Mān…",
+      "ts": 1784030409000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Underwater microphones detect dolphins in Sea of Japan bays about once every ten days",
+      "url": "https://phys.org/news/2026-07-underwater-microphones-dolphins-sea-japan.html",
+      "summary": "When residents of two coastal communities along the Sea of Japan reported observing dolphins in nearby waters, it caught the attention of some scientists. The marine environment has been changing rapidly in the Sea of Ja…",
+      "ts": 1784030403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shear loading reveals sixfold damage growth around stiff particles in aluminum alloy",
+      "url": "https://phys.org/news/2026-07-reveals-sixfold-growth-stiff-particles.html",
+      "summary": "The resistance of materials to mechanical loads is a decisive factor in component safety, such as in aircraft. Working as part of an international team, researchers from the Karlsruhe Institute of Technology (KIT) have f…",
+      "ts": 1784029801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lower-skilled workers could earn more in an AI world, research indicates",
+      "url": "https://phys.org/news/2026-07-skilled-workers-ai-world.html",
+      "summary": "For anyone worried about AI's effects on jobs, here's good news: New research by Stanford economist Lukas Althoff concludes that artificial intelligence is likely to reshape jobs rather than eliminate entire occupations …",
+      "ts": 1784029203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Space cargo costs could fall more than 90% by 2040, study suggests",
+      "url": "https://phys.org/news/2026-07-space-cargo-fall.html",
+      "summary": "The expense of launching cargo into space will plummet over the next few years, with the cost of reaching orbit forecast to more than halve between now and the end of the decade, and fall by around 93% by 2040, according…",
+      "ts": 1784028902000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Frame-dragging observations validate Einstein yet again",
+      "url": "https://phys.org/news/2026-07-validate-einstein.html",
+      "summary": "More than a century after Albert Einstein first transformed our understanding of gravity, his general theory of relativity continues to withstand ever more demanding experimental tests. Now, an international team led by …",
+      "ts": 1784028601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Weather it together: Farmers speaking up about mental health",
+      "url": "https://phys.org/news/2026-07-weather-farmers-mental-health.html",
+      "summary": "Rain or shine, Aussie farmers and farming communities have always looked out for one another. But when it comes to their own mental health, asking for help hasn't always come easily.",
+      "ts": 1784028001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First-of-its-kind surgery performed on western lowland gorilla at the San Diego Zoo Safari Park",
+      "url": "https://phys.org/news/2026-07-kind-surgery-western-lowland-gorilla.html",
+      "summary": "Mizani, a 12-year-old male western lowland gorilla at the San Diego Zoo Safari Park, underwent a first-of-its-kind mastoidectomy to treat an infection that had spread into portions of his skull. The surgery was performed…",
+      "ts": 1784026804000
+    },
     {
       "source": "Phys.org",
       "title": "Research brings the era of microbial cell factories one step closer",
@@ -644,62 +700,6 @@
       "title": "Understanding the Theory--Experiment Discrepancy in Pressure Drop of Dilute Polymer Solutions in Channel Flows",
       "url": "https://arxiv.org/abs/2607.10973",
       "summary": "arXiv:2607.10973v1 Announce Type: new Abstract: For decades researchers have experimentally observed that the flow of dilute viscoelastic polymer solutions through contraction or contraction--expansion channels yields re…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-Abelian holonomic transformations in digitally coupled acoustic waveguides guided by the global adiabatic criterion",
-      "url": "https://arxiv.org/abs/2607.11000",
-      "summary": "arXiv:2607.11000v1 Announce Type: new Abstract: An acoustic platform is validated for implementing compact non-Abelian holonomic transformations (NHTs) guided by a global adiabatic criterion (GAC). A tripod model is mapp…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wall-scaled eddies and embedded shear layers in high-Reynolds-number moderate adverse-pressure-gradient boundary layers",
-      "url": "https://arxiv.org/abs/2607.11024",
-      "summary": "arXiv:2607.11024v1 Announce Type: new Abstract: This study compares high-Reynolds-number turbulent boundary layers under zero and low-to-moderate adverse pressure gradients, showing similar scaling and energy contributio…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient hot electron generation via low-coherence lasers",
-      "url": "https://arxiv.org/abs/2607.11045",
-      "summary": "arXiv:2607.11045v1 Announce Type: new Abstract: Hot electrons generated in laser-produced plasmas are a central focus in inertial confinement fusion, laboratory astrophysics, and high-energy-density physics. These electr…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Generalized Equivalent Uniform Dose (QgEUD): A Simulation Method for Phase-Dependent Radiobiological Dose Effects",
-      "url": "https://arxiv.org/abs/2607.11101",
-      "summary": "arXiv:2607.11101v1 Announce Type: new Abstract: The generalized equivalent uniform dose (gEUD) provides a biologically interpretable measure of heterogeneous dose distributions and is widely used in radiobiological model…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development and validation of a local neoclassical transport module in NLT with applications to EAST-relevant impurity transport and trapped-electron-mode stability",
-      "url": "https://arxiv.org/abs/2607.11103",
-      "summary": "arXiv:2607.11103v1 Announce Type: new Abstract: A local neoclassical transport module has been developed and validated in the semi-Lagrangian gyrokinetic code NLT for multi-species collisional plasmas. The module incorpo…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Multiscaling Fingerprint of Earthquake Diffusion in Seismic Swarms",
-      "url": "https://arxiv.org/abs/2607.11142",
-      "summary": "arXiv:2607.11142v1 Announce Type: new Abstract: Seismic swarms are commonly associated with fluid migration and other transient processes, yet their spatial migration remains difficult to quantify using conventional diff…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Abnormal motions of optical vortex-antivortex-coupled wavepackets in the parabolic potential",
-      "url": "https://arxiv.org/abs/2607.11181",
-      "summary": "arXiv:2607.11181v1 Announce Type: new Abstract: The (quasi)particles or structured wavepackets in parabolic potential exhibit well-known harmonic oscillations, typically described by the Lissajous equations. However, suc…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Leveraging Raman response in X-cut thin-film lithium tantalate for ultrabroadband combs and polychromatic visible light",
-      "url": "https://arxiv.org/abs/2607.11186",
-      "summary": "arXiv:2607.11186v1 Announce Type: new Abstract: X-cut thin-film lithium tantalate (TFLT) offers a unique combination of third nonlinearity, electro-optic effects, and a high optical damage threshold. However, its strong …",
       "ts": 1784001600000
     }
   ],

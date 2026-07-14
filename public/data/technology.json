@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-14T10:49:24.656Z",
+  "updated": "2026-07-14T12:16:12.768Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "U.K. government preparing to release new space strategy",
+      "url": "https://spacenews.com/u-k-government-preparing-to-release-new-space-strategy/",
+      "summary": "The British government is preparing to release a new space strategy that will provide a “whole-of-government” approach for space in the country. The post U.K. government preparing to release new space strategy appeared f…",
+      "ts": 1784030839000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cellares and Sonoma Biotherapeutics Agree to Automate Engineered Treg Cell Therapy Manufacturing",
+      "url": "https://www.genengnews.com/topics/translational-medicine/cellares-and-sonoma-biotherapeutics-agree-to-automate-engineered-treg-cell-therapy-manufacturing/",
+      "summary": "Cellares plans to translate the manufacturing of SonomaBio’s SBT-77-7101 onto its Cell Shuttle and automate in-process and release testing through the Cell Q quality control system. The post Cellares and Sonoma Biotherap…",
+      "ts": 1784030417000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "FDA authorized Zyn nicotine pouches without knowing what they were made of, says former agency scientist",
@@ -523,6 +539,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "How sales teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "ts": 1783987200000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "Flexell Space raises $20 Million in Series A round",
       "url": "https://spacenews.com/flexell-space-raises-20-million-in-series-a-round/",
@@ -696,30 +720,6 @@
       "url": "https://spacenews.com/reditus-space-completes-first-reentry-vehicle/",
       "summary": "Reditus Space, a startup developing recoverable and reusable spacecraft, has completed its first vehicle for launch later this year. The post Reditus Space completes first reentry vehicle appeared first on SpaceNews.",
       "ts": 1783947720000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Voyager completes acquisition of Astrobotic",
-      "url": "https://spacenews.com/voyager-completes-acquisition-of-astrobotic/",
-      "summary": "Voyager Technologies has completed its acquisition of lunar infrastructure company Astrobotic Technology, weeks after Astrobotic won two NASA lunar lander missions. The post Voyager completes acquisition of Astrobotic ap…",
-      "ts": 1783947660000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Getting ready for lunar planetary defense",
-      "url": "https://spacenews.com/getting-ready-for-lunar-planetary-defense/",
-      "summary": "Development in space is gaining serious momentum. Impressively, NASA recently unveiled plans for a new moon base — the first concrete step toward permanently moving human civilization off Earth. However, as we […] The po…",
-      "ts": 1783947600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA and Poland to establish a new civil security and resilience centre in Warsaw",
-      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_and_Poland_to_establish_a_new_civil_security_and_resilience_centre_in_Warsaw",
-      "summary": "The European Space Agency (ESA) and the Republic of Poland have announced that a new ESA centre focusing on civil security and resilience will be located in Warsaw, supporting the efficient and coordinated development of…",
-      "ts": 1783946040000,
       "categoryId": "space"
     }
   ],
