@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-14T16:17:58.615Z",
+  "updated": "2026-07-14T18:05:48.310Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Top Democrats question RFK Jr.’s health care advisory panel",
+      "url": "https://www.statnews.com/2026/07/14/senators-raise-question-hhs-healthcare-advisory-committee-members/?utm_campaign=rss",
+      "summary": "Democratic senators question presence of Trump donors, Tony Robbins on health care advisory panel.",
+      "ts": 1784051044000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Jets Turn Red, White, and Blue",
+      "url": "https://www.nasa.gov/image-article/nasa-jets-turn-red-white-and-blue/",
+      "summary": "In honor of America’s 250th birthday, two of NASA’s most iconic aircraft got a fresh coat of red, white, and blue paint ahead of a flyover in Washington on July 4, 2026, with other NASA aircraft. An F-15 and an F/A-18 fr…",
+      "ts": 1784049233000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Honoring the Innovators Driving AI’s Next Era in Life Sciences and Healthcare",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/honoring-the-innovators-driving-ais-next-era-in-life-sciences-and-healthcare/",
+      "summary": "AI Discovery Awards exist to accelerate momentum and connect the most promising teams with compute resources, investor networks, and mentorship needed to move from promising research to bringing products to market. The p…",
+      "ts": 1784048965000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Hospital chain HCA warns of lower profits as more patients go uninsured",
+      "url": "https://www.statnews.com/2026/07/14/hca-predicts-treating-uninsured-patients-will-trim-1-billion-in-profits/?utm_campaign=rss",
+      "summary": "It's an early indicator of the fallout from the end of extra ACA subsidies.",
+      "ts": 1784048508000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+      "url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
+      "summary": "Enterprises have plenty of powerful models to choose from. The real test is whether the AI an enterprise builds uniquely addresses the needs of the business: improving workflows, tapping into domain knowledge and exceedi…",
+      "ts": 1784047513000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Anthropic’s Claude Science is coming for Kendall Square",
@@ -12,7 +52,7 @@
     },
     {
       "source": "STAT",
-      "title": "Majority of new Ebola cases are ‘from unknown chains of transmission,’ WHO official says",
+      "title": "Majority of new Ebola cases in eastern Congo are from unknown chains, as outbreak outpaces response",
       "url": "https://www.statnews.com/2026/07/14/ebola-outbreak-congo-new-cases-unknown-chains-of-transmission/?utm_campaign=rss",
       "summary": "The Ebola outbreak in eastern Congo “continues to outpace the response efforts,” the WHO’s emergencies chief said on Tuesday after returning from a trip to one of the worst hit…",
       "ts": 1784042330000,
@@ -41,6 +81,14 @@
       "summary": "FDA approves injectable Leqembi, another post-Makary reversal, and other biotech news from The Readout",
       "ts": 1784040163000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Roman Telescope Will Spot Distant Black Holes That Shred Stars",
+      "url": "https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-telescope-will-spot-distant-black-holes-that-shred-stars/",
+      "summary": "Lee esta nota de prensa en español aquí. How do black holes at the center of galaxies form and grow over time? To answer this question, scientists need to detect and study supermassive black holes at great distances, whi…",
+      "ts": 1784037600000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -92,11 +140,43 @@
     },
     {
       "source": "Genetic Engineering News",
+      "title": "FDA Issues Proposal to Streamline Registration for Advanced Distributed Manufacturers",
+      "url": "https://www.genengnews.com/topics/bioprocessing/fda-issues-proposal-to-streamline-registration-for-advanced-distributed-manufacturers/",
+      "summary": "Distributed manufacturing establishments operate a hub-and-spoke model, with a central quality oversight hub and multiple equivalent manufacturing units at different locations. Regulations require each manufacturing unit…",
+      "ts": 1784030427000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
       "title": "Cellares and Sonoma Biotherapeutics Agree to Automate Engineered Treg Cell Therapy Manufacturing",
       "url": "https://www.genengnews.com/topics/translational-medicine/cellares-and-sonoma-biotherapeutics-agree-to-automate-engineered-treg-cell-therapy-manufacturing/",
       "summary": "Cellares plans to translate the manufacturing of SonomaBio’s SBT-77-7101 onto its Cell Shuttle and automate in-process and release testing through the Cell Q quality control system. The post Cellares and Sonoma Biotherap…",
       "ts": 1784030417000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Independent expert urges UK leaders to uphold Supreme Court ruling on women's rights",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167937",
+      "summary": "A UN independent human rights expert has urged political leaders in the United Kingdom to support implementation of a Supreme Court ruling on the legal definition of sex, warning that opposition to updated equality guida…",
+      "ts": 1784030400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Hunted’ by drones: UN reports worst month for Ukraine’s civilians since 2022",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167935",
+      "summary": "Civilian casualties in Ukraine soared during the first half of 2026 amid escalating Russian attacks and intensifying use of deadly weapons, the UN human rights monitoring mission in the country, HRMMU, said on Tuesday.",
+      "ts": 1784030400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Cycle of escalation must end’: UN condemns deadly Strait of Hormuz attacks",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167936",
+      "summary": "The UN maritime agency, IMO, condemned overnight attacks on shipping in and around the Strait of Hormuz that killed at least two seafarers as fresh strikes were reported early Tuesday in the escalating US-Iran war.",
+      "ts": 1784030400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -113,6 +193,14 @@
       "summary": "Infections of the Bundibugyo species of Ebola in the Democratic Republic of the Congo (DRC) have reached record highs and a majority of new cases are coming from “unknown chains of transmission”, the UN World Health Orga…",
       "ts": 1784030400000,
       "categoryId": "global-governance"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How to manage AI investments in the agentic era",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "ts": 1784023200000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -633,94 +721,6 @@
       "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "ts": 1783987200000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How data science teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "ts": 1783987200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Flexell Space raises $20 Million in Series A round",
-      "url": "https://spacenews.com/flexell-space-raises-20-million-in-series-a-round/",
-      "summary": "UIWANG, South Korea, July 14 — FLEXELL SPACE, a developer of next-generation space solar solutions, announced that it has completed a $20 million Series A funding round. Completed approximately two […] The post Flexell S…",
-      "ts": 1783987200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Author Correction: Thin membranes with Cu-ion crosslinking for high temperature polymer electrolyte membrane fuel cells",
-      "url": "https://www.nature.com/articles/s41560-026-02119-1",
-      "summary": "",
-      "ts": 1783987200000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Coordinated planning of European charging infrastructure and energy system for optimal V1G and V2G deployment",
-      "url": "https://www.nature.com/articles/s41560-026-02107-5",
-      "summary": "",
-      "ts": 1783987200000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Controlled solid-state crystallization with formamidinium acetate for fully vacuum-deposited perovskite solar cells",
-      "url": "https://www.nature.com/articles/s41560-026-02093-8",
-      "summary": "",
-      "ts": 1783987200000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Genome-Scale CRISPRi Atlas Maps Gene Function Across Human iPSCs",
-      "url": "https://www.genengnews.com/topics/omics/genome-scale-crispri-atlas-maps-gene-function-across-human-ipscs/",
-      "summary": "A genome-scale CRISPRi atlas maps transcriptional consequences for 11,692 gene perturbations across more than 2.5 million human iPSCs. The resource reveals regulators of metabolism, pluripotency, and RNA editing—includin…",
-      "ts": 1783981732000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Defense spending lifts Europe’s space economy",
-      "url": "https://spacenews.com/defense-spending-lifts-europes-space-economy/",
-      "summary": "European government space spending jumped 12% to about $15.4 billion in 2025, according to a July 13 European Space Agency report, bucking a 3% global decline on the back of rising national defense budgets. The post Defe…",
-      "ts": 1783981130000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Study Points to Smoother Air Taxi Rides",
-      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-study-points-to-smoother-air-taxi-rides/",
-      "summary": "No one wants to get into an uncomfortable aircraft. NASA research could help the emerging industry of air taxis —small, vertical-takeoff-and-landing aircraft meant for short trips — understand the relationship between co…",
-      "ts": 1783979171000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "L3Harris, Sierra Space to build 36 satellites to expand U.S. missile-tracking network",
-      "url": "https://spacenews.com/l3harris-sierra-space-to-build-36-satellites-to-expand-u-s-missile-tracking-network/",
-      "summary": "The Space Development Agency awarded the companies a combined $1.75 billion for next batch of missile-tracking satellites The post L3Harris, Sierra Space to build 36 satellites to expand U.S. missile-tracking network app…",
-      "ts": 1783976882000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: AIDS activists slam Biden R&D deal with Gilead over HIV prevention drug patents",
-      "url": "https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents/?utm_campaign=rss",
-      "summary": "A group of AIDS activists obtained an R&D pact at the heart of a settlement between the U.S. government and Gilead Sciences over patents for HIV prevention.",
-      "ts": 1783976326000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Analytical Challenges for Antibody-Drug Conjugate (ADC) Manufacturing",
-      "url": "https://www.genengnews.com/resources/ebooks/analytical-challenges-for-antibody-drug-conjugate-adc-manufacturing/",
-      "summary": "This collection of articles and expert perspectives explores the critical challenges shaping The post Analytical Challenges for Antibody-Drug Conjugate (ADC) Manufacturing appeared first on GEN - Genetic Engineering and …",
-      "ts": 1783975499000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

@@ -1,7 +1,154 @@
 {
   "ok": true,
-  "updated": "2026-07-14T16:17:56.532Z",
+  "updated": "2026-07-14T18:05:45.198Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'Uncanny valley' effect observed in macaques through 3D animated monkey avatars",
+      "url": "https://phys.org/news/2026-07-uncanny-valley-effect-macaques-3d.html",
+      "summary": "A new tool that allows researchers to create realistic full-body animations of monkeys has provided the first evidence that nonhuman primates experience the \"uncanny valley\" phenomenon for body avatars, according to a st…",
+      "ts": 1784052007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat deaths are a public health crisis rooted in housing inequality",
+      "url": "https://phys.org/news/2026-07-deaths-health-crisis-rooted-housing.html",
+      "summary": "The heat waves of late May and June killed an estimated 2,700 people in England and Wales, according to a recent analysis—around 550 in May, when west London hit 35.1°C (95°F), and 2,200 in June, as East Anglia reached 3…",
+      "ts": 1784052003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "US-Russian crew blast off for 8-month stint on the International Space Station",
+      "url": "https://phys.org/news/2026-07-russian-crew-blast-month-stint.html",
+      "summary": "A U.S.-Russian space crew blasted off successfully Tuesday on a mission to the International Space Station.",
+      "ts": 1784051287000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Record-smashing US heat wave surges from West to East",
+      "url": "https://phys.org/news/2026-07-surges-west-east.html",
+      "summary": "A record-smashing heat wave was spreading Tuesday from the West toward the East Coast, placing nearly 100 million Americans under heat alerts.",
+      "ts": 1784051208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First-of-its-kind computer model tackles antibiotic resistance",
+      "url": "https://phys.org/news/2026-07-kind-tackles-antibiotic-resistance.html",
+      "summary": "Faster and more effective ways to treat Pseudomonas aeruginosa, a bacterium identified by the World Health Organization (WHO) as one of the most life-threatening pathogens, could be possible thanks to a first-of-its-kind…",
+      "ts": 1784050807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lab-grown meat, gene editing and extreme fire: Researchers' predictions for life in the 2100s",
+      "url": "https://phys.org/news/2026-07-lab-grown-meat-gene-extreme.html",
+      "summary": "Lab-grown meat, gene editing and extreme fire: researchers' predictions for life in the 2100s",
+      "ts": 1784050804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The spin of Pluto's moon, Charon, may be slowing down",
+      "url": "https://phys.org/news/2026-07-pluto-moon-charon.html",
+      "summary": "Evidence of the slowing of Charon's spin period (despinning) is recorded in tectonic features on the surface of Pluto's icy moon, according to a modeling study published in Nature Communications. The findings offer insig…",
+      "ts": 1784050680000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Magnetic fingerprint of a cosmic explosion detected for the first time",
+      "url": "https://phys.org/news/2026-07-magnetic-fingerprint-cosmic-explosion.html",
+      "summary": "Astronomers have made a series of landmark observations of one of the universe's most violent events. Using the U.S. National Science Foundation Very Large Array (NSF VLA) radio telescope, which is operated by the U.S. N…",
+      "ts": 1784050201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New platform uncovers genetic edits that boost plant-derived compound production",
+      "url": "https://phys.org/news/2026-07-platform-uncovers-genetic-boost-derived.html",
+      "summary": "Microorganisms are increasingly being engineered to manufacture valuable compounds ranging from medicines and food ingredients to biofuels and industrial chemicals. However, turning microbes into efficient production pla…",
+      "ts": 1784049606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New mechanism shows how plants rapidly adapt to intense sunlight",
+      "url": "https://phys.org/news/2026-07-mechanism-rapidly-intense-sunlight.html",
+      "summary": "Plants do not wait hours to respond to intense sunlight—they react within minutes. Researchers at Bielefeld University and the Australian National University have discovered a new signaling pathway that enables plants to…",
+      "ts": 1784049603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Evolutionary history shapes plant carbon storage strategies worldwide",
+      "url": "https://phys.org/news/2026-07-evolutionary-history-carbon-storage-strategies.html",
+      "summary": "Two types of carbohydrates are important to plants—structural carbohydrates (which form cell walls) and nonstructural carbohydrates (NSCs). The latter group represents plants' stored energy reserves, which can be used to…",
+      "ts": 1784049002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop harder, longer-lasting silver plating",
+      "url": "https://phys.org/news/2026-07-harder-longer-silver-plating.html",
+      "summary": "A research team led by Seil Kim of the Korea Institute of Materials Science (KIMS) Energy & Environmental Materials Research Division has developed an Ag–PTFE composite plating technology that produces silver coatings wi…",
+      "ts": 1784048407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Moderate heat is enough to trigger signs of inflammation and coagulation in dairy cows",
+      "url": "https://phys.org/news/2026-07-moderate-trigger-inflammation-coagulation-dairy.html",
+      "summary": "Climate change is transforming livestock farming—and at a faster rate than many anticipate. More frequent and intense heat waves place a heavy physiological strain on dairy cows.",
+      "ts": 1784048405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI helps scientists improve prediction of which DNA sequences bind to each other",
+      "url": "https://phys.org/news/2026-07-ai-scientists-dna-sequences.html",
+      "summary": "Researchers have demonstrated a novel AI model that can predict which DNA molecules bind with other DNA molecules. A more thorough understanding of these hypercomplex binding relationships has utility in applications ran…",
+      "ts": 1784047802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient Roman farm women made wine, oil and profits. Historians dismissed them as 'housekeepers'",
+      "url": "https://phys.org/news/2026-07-ancient-roman-farm-women-wine.html",
+      "summary": "Female farm managers are hidden in plain sight in ancient Roman texts, mentioned in laws, literature and grave inscriptions across five centuries. Modern historians have generally assumed they were housekeepers, in charg…",
+      "ts": 1784047211000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Femcels feel doomed to loneliness",
+      "url": "https://phys.org/news/2026-07-femcels-doomed-loneliness.html",
+      "summary": "Women who identify as involuntary celibates have high levels of sexual anxiety and depression, a new study suggests. The term \"incel\"—for involuntarily celibate—is most often associated with men, but some women describe …",
+      "ts": 1784047205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ticking time bomb? Europe's aging population brings challenges",
+      "url": "https://phys.org/news/2026-07-europe-aging-population.html",
+      "summary": "The population of the 27-nation European Union will peak in 2029 before falling in the coming decades, according to a report published Tuesday that spotlights the major challenges the bloc faces from an aging population.",
+      "ts": 1784047202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why we may still be choosing our friends like it's the Stone Age",
+      "url": "https://phys.org/news/2026-07-friends-stone-age.html",
+      "summary": "Choosing friends may involve more than clicking with others who share our interests or outlooks. According to new research, people may select friends based on traits that made them valuable survival partners in our evolu…",
+      "ts": 1784046602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Gus' the T. rex fetches record $50.1 mn at US auction",
+      "url": "https://phys.org/news/2026-07-gus-rex-mn-auction.html",
+      "summary": "A Tyrannosaurus rex skeleton nicknamed \"Gus\" sold Tuesday for $50.1 million at Sotheby's in New York, making it the most valuable dinosaur fossil bought at auction after a 10-minute battle between seven bidders.",
+      "ts": 1784046408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "World-first neutron lens brings sharp focus to structures inside materials and objects",
+      "url": "https://phys.org/news/2026-07-world-neutron-lens-sharp-focus.html",
+      "summary": "Researchers at Paul Scherrer Institute (PSI) have developed the world's first achromatic lens for neutron imaging. The lens overcomes a longstanding obstacle in the field: focusing neutrons of different wavelengths well …",
+      "ts": 1784046006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New harvester ant species discovered in Bulgaria's Eastern Rhodopes Mountains",
+      "url": "https://phys.org/news/2026-07-harvester-ant-species-bulgaria-eastern.html",
+      "summary": "An international team of researchers has announced the discovery of a new species of harvester ant, officially named Messor odrysarum. The discovery was made by researchers Albena Lapeva-Gjonova of Sofia University in Bu…",
+      "ts": 1784046001000
+    },
     {
       "source": "Phys.org",
       "title": "Onion-like chemical halos may surround phytoplankton that power half of global photosynthesis",
@@ -553,153 +700,6 @@
       "title": "Lumerical-Based SiN Half-Band FIR Maximally Flat-Top Optical Filter with Low Insertion Loss and High Extinction Ratio at 193 THz",
       "url": "https://arxiv.org/abs/2607.10031",
       "summary": "arXiv:2607.10031v1 Announce Type: new Abstract: This paper presents a maximally flat-top half-band FIR optical filter on a silicon nitride (SiN) platform at 193 THz. Using a cascaded Mach-Zehnder Interferometer (MZI) top…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tracing the space-time causal origins of Earth system extremes",
-      "url": "https://arxiv.org/abs/2607.10033",
-      "summary": "arXiv:2607.10033v1 Announce Type: new Abstract: Identifying the causes of Earth's extremes is challenging because counterfactual experiments are not possible in the observed world, while numerical experiments are computa…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Are We Ready for AI-Driven Discovery? AI Verification Before the Next Fundamental Physics Breakthrough",
-      "url": "https://arxiv.org/abs/2607.10039",
-      "summary": "arXiv:2607.10039v1 Announce Type: new Abstract: Machine learning (ML) has become integral to fundamental physics, accelerating statistical workflows from data acquisition through inference and hypothesis testing. As ML s…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact Semiclassical Phase Shifts for Relativistic Atom Interferometers in Flat Spacetime",
-      "url": "https://arxiv.org/abs/2607.10042",
-      "summary": "arXiv:2607.10042v1 Announce Type: new Abstract: Atom interferometry is a sensitive tool for measuring relativistic effects, but there are no known non-trivial exact solutions for relativistic atom interferometer phase sh…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stochastic simulations of nonlinear reaction-diffusion equations using an exponential integrator",
-      "url": "https://arxiv.org/abs/2607.10065",
-      "summary": "arXiv:2607.10065v1 Announce Type: new Abstract: Stochastic simulations can be generated from deterministic reaction-diffusion equations by discretising in space and time and interpreting coefficients in the resulting sys…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasmon Gun: high-power mid-IR emission at a temporal interface",
-      "url": "https://arxiv.org/abs/2607.10117",
-      "summary": "arXiv:2607.10117v1 Announce Type: new Abstract: We propose a mechanism for the generation of intense ultrafast mid-infrared radiation from heavily doped semiconductors. An ultrafast optical pulse transfers a finite impul…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Anisotropy and intermittency in drift-wave turbulence with zonal flows: a two-dimensional continuous wavelet analysis",
-      "url": "https://arxiv.org/abs/2607.10136",
-      "summary": "arXiv:2607.10136v1 Announce Type: new Abstract: We examine anisotropy and spatial intermittency at small scales in drift-wave turbulence with zonal flows. We use a two-dimensional directional continuous wavelet transform…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An integral surface tension scheme for three-dimensional front tracking frameworks",
-      "url": "https://arxiv.org/abs/2607.10164",
-      "summary": "arXiv:2607.10164v1 Announce Type: new Abstract: Surface tension is central to many two-phase flows, making accurate numerical schemes essential for predicting its effects. The integral formulation introduced by Popinet a…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Immunization on Temporal Higher-Order Networks",
-      "url": "https://arxiv.org/abs/2607.10171",
-      "summary": "arXiv:2607.10171v1 Announce Type: new Abstract: Network immunization is a powerful tool for controlling contagion processes ranging from infectious diseases to misinformation diffusion. While prior works have focused on …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling Equations in Wave-Particle Turbulence Simulation",
-      "url": "https://arxiv.org/abs/2607.10176",
-      "summary": "arXiv:2607.10176v1 Announce Type: new Abstract: Recently, the wave-particle turbulence simulation (WPTS) has been proposed as a novel framework for non-equilibrium turbulence modeling and simulation. In this work, for th…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-thermal Atmospheric Pressure Plasma Combined with Benzoyl Peroxide to Enhance the Inhibition of Bacteria",
-      "url": "https://arxiv.org/abs/2607.10185",
-      "summary": "arXiv:2607.10185v1 Announce Type: new Abstract: This study aims to verify whether combining non-thermal equilibrium atmospheric pressure plasma with benzoyl peroxide (BPO) can enhance the inhibition of bacteria. This wor…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct Numerical Simulation of Fully Developed Turbulent Channel Flow Based on the Corrected Navier-Stokes Equations",
-      "url": "https://arxiv.org/abs/2607.10224",
-      "summary": "arXiv:2607.10224v1 Announce Type: new Abstract: Direct numerical simulations (DNS) of fully developed turbulent channel flows at Re_tau = 550 were performed to investigate the corrected Navier-Stokes (CNS) equations. Gro…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Relative dispersion and eddy diffusivity in laboratory experiments of $\\beta$-plane turbulence",
-      "url": "https://arxiv.org/abs/2607.10225",
-      "summary": "arXiv:2607.10225v1 Announce Type: new Abstract: We present the first experimental measures of relative dispersion and turbulent diffusion in rapidly-rotating turbulence in the zonostrophic regime, i.e., in the presence o…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Program-Synthesis-Driven Autodesign of Universal Unitary Operators",
-      "url": "https://arxiv.org/abs/2607.10295",
-      "summary": "arXiv:2607.10295v1 Announce Type: new Abstract: We demonstrate that AI-driven program synthesis can autonomously discover fundamental strategies for decomposing unitary matrices in photonic networks. By extending DreamCo…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tuning Plasma Frequency of Nested Wire Media",
-      "url": "https://arxiv.org/abs/2607.10303",
-      "summary": "arXiv:2607.10303v1 Announce Type: new Abstract: We study nested wire media possessing $C_6$ and $C_4$ rotational symmetries whose plasma frequencies can be controlled through breathing deformation. Numerical simulations …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gain-controlled directional scattering in core-shell nanoparticles mediated by magnetic toroidal dipoles",
-      "url": "https://arxiv.org/abs/2607.10330",
-      "summary": "arXiv:2607.10330v1 Announce Type: new Abstract: Toroidal dipole moments arise from poloidal current distributions and form a distinct class of electromagnetic excitations with unique near-field characteristics. Using Lor…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "NeuroForge: A Self-Correcting, Geometry-Native Neural CFD Engine with Calibrated Physics-Residual Trust",
-      "url": "https://arxiv.org/abs/2607.10333",
-      "summary": "arXiv:2607.10333v1 Announce Type: new Abstract: Machine-learning surrogates for computational fluid dynamics (CFD) predict steady flow fields orders of magnitude faster than classical solvers, but emit a single field wit…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Train-Resolved Statistical Recovery of Weak SAXS Signals in Liquids at the European XFEL",
-      "url": "https://arxiv.org/abs/2607.10349",
-      "summary": "arXiv:2607.10349v1 Announce Type: new Abstract: We present a train-resolved SAXS methodology for recovering weak scattering signals from high-repetition-rate XFEL datasets and apply it to aqueous L-cysteine solutions mea…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the measurability of Wigner time delays at shape resonances in photodetachment of polyatomic anions",
-      "url": "https://arxiv.org/abs/2607.10397",
-      "summary": "arXiv:2607.10397v1 Announce Type: new Abstract: The energy dependence of the complex phases of electron continuum wave functions carries information about electron dynamics. Streaking and attosecond interference experime…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase-controlled transport of Floquet-driven compact topological photonic states",
-      "url": "https://arxiv.org/abs/2607.10415",
-      "summary": "arXiv:2607.10415v1 Announce Type: new Abstract: The Aharonov-Bohm (AB) effect remains a cornerstone of fundamental and applied physics. In this work, we utilize the AB caging effect originated from an effective magnetic …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "VORA: Rapid Association of Earthquake Phases from Local to Global",
-      "url": "https://arxiv.org/abs/2607.10450",
-      "summary": "arXiv:2607.10450v1 Announce Type: new Abstract: Earthquake phase association, which groups seismic phase arrivals into common origins, is a key step towards more complete and reliable seismicity catalogs. It has become a…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quality control and quality assurance evaluation of ALFE2, a large-dynamic-range front-end ASIC de-veloped for the ATLAS Liquid Argon Calorimeter high-luminosity LHC upgrade",
-      "url": "https://arxiv.org/abs/2607.10458",
-      "summary": "arXiv:2607.10458v1 Announce Type: new Abstract: ALFE2 is a front-end ASIC developed for the ATLAS Liquid Argon (LAr) Calorimeter upgrade during the High-Luminosity Large Hadron Collider (HL-LHC) phase. ALFE2 comprises fo…",
       "ts": 1784001600000
     }
   ],
