@@ -1,7 +1,77 @@
 {
   "ok": true,
-  "updated": "2026-07-14T20:14:29.656Z",
+  "updated": "2026-07-14T21:59:59.516Z",
   "items": [
+    {
+      "source": "Science News",
+      "title": "A new sort of Alzheimer’s drug shows glimmers of promise",
+      "url": "https://www.sciencenews.org/article/new-alzheimers-drug-tau-promise",
+      "summary": "Clinical trial results show an experimental drug lowered tau levels in the brain and slowed some memory loss, but the data came with a surprise twist.",
+      "ts": 1784065705000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Photo: Hubble sees crimson cloud and stars",
+      "url": "https://phys.org/news/2026-07-photo-hubble-crimson-cloud-stars.html",
+      "summary": "Blue and white stars shine brilliantly against a crimson background of glowing gas in this July 3, 2026, image of stellar nursery LH 95 from NASA's Hubble Space Telescope.",
+      "ts": 1784065201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Television and movie content linked with racial bias in children",
+      "url": "https://phys.org/news/2026-07-television-movie-content-linked-racial.html",
+      "summary": "It has been well-established that the developmental roots of racial prejudices emerge in early childhood, but scientists have a less clear understanding of how various influences affect these attitudes.",
+      "ts": 1784064005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How tides and river water combine to amplify floods",
+      "url": "https://phys.org/news/2026-07-tides-river-combine-amplify.html",
+      "summary": "Ocean tides push upstream along coastal rivers, in some cases reaching hundreds of kilometers (hundreds of miles) inland. These inland stretches are known as tidal rivers, and they're the scene of complex interactions be…",
+      "ts": 1784064003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "With an eye toward exploration, researchers map moon's regolith thickness",
+      "url": "https://phys.org/news/2026-07-eye-exploration-moon-regolith-thickness.html",
+      "summary": "New research by lunar scientists from Brown University provides critical new insights into the thickness of the moon's regolith, the layer of loose dust and rock that drapes the entire lunar surface.",
+      "ts": 1784062809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Watchdog science journalism: Crucial yet precarious work, according to study",
+      "url": "https://phys.org/news/2026-07-watchdog-science-journalism-crucial-precarious.html",
+      "summary": "How do journalists act as watchdogs of science? New qualitative research led by University of Amsterdam media scholar Alice Fleerackers sheds light on the labor-intensive nature of watchdog science journalism, a form of …",
+      "ts": 1784062806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Low-altitude flights reveal Amazon methane emissions far above climate model estimates",
+      "url": "https://phys.org/news/2026-07-altitude-flights-reveal-amazon-methane.html",
+      "summary": "Methane (CH4) is a potent greenhouse gas whose concentration in the atmosphere has risen sharply in recent decades. Wetlands are the largest natural source of methane to the atmosphere, but large uncertainties remain abo…",
+      "ts": 1784061602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Producing food while restoring biodiversity: Study highlights the potential of agriwilding",
+      "url": "https://phys.org/news/2026-07-food-biodiversity-highlights-potential-agriwilding.html",
+      "summary": "Agriculture and biodiversity restoration do not have to be at odds. A new study by the WILD research group at the Vrije Universiteit Brussel (VUB) and UCLouvain, published in the journal Biological Conservation, demonstr…",
+      "ts": 1784061601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new smart coating could improve the cleanup of nuclear wastewater",
+      "url": "https://phys.org/news/2026-07-smart-coating-cleanup-nuclear-wastewater.html",
+      "summary": "Scientists in China have developed a smart coating that could make it easier to remove tritium (a radioactive form of hydrogen) from nuclear power plant wastewater.",
+      "ts": 1784060407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "UN statements help predict China's human rights compromises, analysis suggests",
+      "url": "https://phys.org/news/2026-07-statements-china-human-rights-compromises.html",
+      "summary": "A study of China's participation in United Nations human rights reviews argues that its public statements are more than diplomatic rhetoric. The paper published in the International Journal of Public Law and Policy also …",
+      "ts": 1784060403000
+    },
     {
       "source": "Phys.org",
       "title": "Hidden muscle machinery reveals 50 new gene subfamilies across vertebrates",
@@ -605,6 +675,13 @@
       "ts": 1784023200000
     },
     {
+      "source": "APS PRX",
+      "title": "Topological Defect Propagation to Classify Knitted Fabrics",
+      "url": "http://link.aps.org/doi/10.1103/g565-3dyn",
+      "summary": "Author(s): Daisuke S. Shimamoto, Keiko Shimamoto, Sonia Mahmoudi, and Samuel Poincloux The ability of a fabric to be knitted into a textile can be determined on the basis of the topology of its pattern. [Phys. Rev. X 16,…",
+      "ts": 1784023200000
+    },
+    {
       "source": "APS PR Applied",
       "title": "Improving the performance of transmon qubits with fluorine-based surface treatments",
       "url": "http://link.aps.org/doi/10.1103/x1gl-mx6f",
@@ -624,83 +701,6 @@
       "url": "http://link.aps.org/doi/10.1103/3655-6w65",
       "summary": "Author(s): Tobias Menold, Arianna Bertoluzza, Patrick Hildebrand, Ann-Kathrin Gottschalk, Daniel Braun, József Fortágh, and Andreas Günther This work investigates the behavior of a spin-exchange relaxation-free magnetome…",
       "ts": 1784023200000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Topological Defect Propagation to Classify Knitted Fabrics",
-      "url": "http://link.aps.org/doi/10.1103/g565-3dyn",
-      "summary": "Author(s): Daisuke S. Shimamoto, Keiko Shimamoto, Sonia Mahmoudi, and Samuel Poincloux The ability of a fabric to be knitted into a textile can be determined on the basis of the topology of its pattern. [Phys. Rev. X 16,…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "Phys.org",
-      "title": "No relief from the heat as many US cities will see record overnight temperatures",
-      "url": "https://phys.org/news/2026-07-relief-cities-overnight-temperatures.html",
-      "summary": "Another week of blistering heat will bring even more health risks in the coming days, as overnight temperatures won't provide much relief.",
-      "ts": 1784016305000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Halo structure and lensing signatures of a polytropic dark matter fluid",
-      "url": "https://arxiv.org/abs/2607.09679",
-      "summary": "arXiv:2607.09679v1 Announce Type: new Abstract: We investigate whether a minimal effective pressure in the dark matter sector can modify nonlinear halo structure while preserving the successful large-scale predictions of…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On a geometric interpretation of the 1/4 factor in black hole entropy",
-      "url": "https://arxiv.org/abs/2607.09699",
-      "summary": "arXiv:2607.09699v1 Announce Type: new Abstract: The Bekenstein--Hawking entropy $S = k_B A/4\\lp^2$ contains a coefficient $1/4$ that has been calculated by many approaches to quantum gravity. We show that this factor ari…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effective de Sitter-Schwarzschild Metrics",
-      "url": "https://arxiv.org/abs/2607.09707",
-      "summary": "arXiv:2607.09707v1 Announce Type: new Abstract: An earlier work that replaced the de Sitter-Schwarzschild metric for a cosmological constant Lambda <=0 by an effective anti-de Sitter black hole analytic at Lambda = 0 is …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamical dark energy in the Bianchi Type-V Universe with DESI DR2 BAO, SNIa compilation and RSD measurements",
-      "url": "https://arxiv.org/abs/2607.09718",
-      "summary": "arXiv:2607.09718v1 Announce Type: new Abstract: We investigate the cosmological implications of dynamical dark energy (DDE) models within an anisotropic, spatially homogeneous Bianchi Type-V spacetime framework using a $…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phenomenology of EDE-photon coupling I: constant photon-sector deviation",
-      "url": "https://arxiv.org/abs/2607.09719",
-      "summary": "arXiv:2607.09719v1 Announce Type: new Abstract: We investigate a phenomenological extension of the photon sector motivated by an early-time interaction between a scalar field component and radiation. The model is describ…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Varying Gravity from a Modified Fractional Model: Observational Constraints and Slow-Fast Dynamics",
-      "url": "https://arxiv.org/abs/2607.09722",
-      "summary": "arXiv:2607.09722v1 Announce Type: new Abstract: We investigate a fractional gravity model in which both the Hubble parameter and the gravitational constant evolve dynamically due to fractional renormalization-group effec…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Special Theory of Relativity and Electromagnetism",
-      "url": "https://arxiv.org/abs/2607.09723",
-      "summary": "arXiv:2607.09723v1 Announce Type: new Abstract: We present a formulation of the special theory of relativity which bears on F.A. Lindemann's assertion that this theory could have been reached \"by pure logic soon after Is…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Damour-Solodukhin Wormhole as a Black Hole Mimicker: The Role of Observers' Location",
-      "url": "https://arxiv.org/abs/2607.09724",
-      "summary": "arXiv:2607.09724v1 Announce Type: new Abstract: It has been recently argued that in semi-classical gravity, a minimal 2-sphere is not a horizon but a tiny throat of a wormhole, such as the Damour--Solodukhin wormhole (DS…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Thermodynamics of Electron Transport along Chains of Redox Centers",
-      "url": "https://arxiv.org/abs/2607.09728",
-      "summary": "arXiv:2607.09728v1 Announce Type: new Abstract: Intramolecular electron transport in biological systems is typically described as a diffusive hopping process, according to the semi-classical rate theories of Marcus and H…",
-      "ts": 1784001600000
     }
   ],
   "sources": [
