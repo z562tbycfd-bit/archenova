@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-07-14T12:16:12.768Z",
+  "updated": "2026-07-14T14:54:18.622Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Akero team, backed by Fairmount, launches new immunology company",
+      "url": "https://www.statnews.com/2026/07/14/biotech-news-akero-team-launches-new-immunology-company-with-chinese-drug/?utm_campaign=rss",
+      "summary": "FDA approves injectable Leqembi, another post-Makary reversal, and other biotech news from The Readout",
+      "ts": 1784040163000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "The risk of refusing a newborn’s vitamin K shot",
+      "url": "https://www.statnews.com/2026/07/14/healeth-news-the-risk-of-refusing-a-newborn-vitamin-k-shot/?utm_campaign=rss",
+      "summary": "Health care workers on strike at Ebola treatment center, how to tackle the U.S. alcohol epidemic, and more Morning Rounds news",
+      "ts": 1784036364000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Novel Epigenetic Therapy Targets Treatment-Resistant and TP53-Mutant AML",
+      "url": "https://www.genengnews.com/topics/drug-discovery/novel-epigenetic-therapy-targets-treatment-resistant-and-tp53-mutant-aml/",
+      "summary": "The results of a preclinical study across multiple models of acute myeloid leukemia found that the investigational hypomethylating agent, NTX-301 remained effective in treatment-resistant AML and TP53-mutant AML through …",
+      "ts": 1784035940000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a battle between Lilly and Teva, psychedelic drugs, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/14/lilly-teva-court-battle-psychedelic-drugs-guidance-finalized/?utm_campaign=rss",
+      "summary": "A U.S. appeals court revived a Teva Pharmaceuticals lawsuit accusing Eli Lilly of breaching ​an agreement allowing Teva to market a generic ‌version of Forteo",
+      "ts": 1784035000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Biogen Alzheimer’s drug slowed decline at rates on par with approved therapies, study shows",
+      "url": "https://www.statnews.com/2026/07/14/biogen-alzheimers-tau-diranersen-trial-results-ionis-aaic/?utm_campaign=rss",
+      "summary": "An experimental Alzheimer's drug from Biogen, one with a novel approach, slowed decline at comparable rates as approved drugs in a mid-stage study.",
+      "ts": 1784034900000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Claude’s inner workings, and the future of world models",
+      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O’Donnell When A…",
+      "ts": 1784031000000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "U.K. government preparing to release new space strategy",
@@ -532,17 +580,17 @@
     },
     {
       "source": "OpenAI",
-      "title": "How data science teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "title": "How sales teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "ts": 1783987200000,
       "categoryId": "ai-compute"
     },
     {
       "source": "OpenAI",
-      "title": "How sales teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "title": "How data science teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "ts": 1783987200000,
       "categoryId": "ai-compute"
     },
@@ -673,54 +721,6 @@
       "summary": "Martha Lillard, last U.S. polio patient using iron lung, has died at 78 in Oklahoma.",
       "ts": 1783953401000,
       "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA releases 2026 Space Economy Report",
-      "url": "https://www.esa.int/About_Us/Business_with_ESA/ESA_releases_2026_Space_Economy_Report",
-      "summary": "The European Space Agency’s (ESA) newly released Space Economy Report gives a comprehensive overview of the latest developments shaping Europe's space sector.",
-      "ts": 1783951740000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Discovers First of Star Cluster’s Missing Black Holes",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-discovers-first-of-star-clusters-missing-black-holes/",
-      "summary": "Astronomers using archival data from Hubble and supportive observations from Webb have located their first stellar-mass black hole in the star cluster Omega Centauri.",
-      "ts": 1783951200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Immune Evasion Uncovered by Virome-Wide Ubiquitin Ligase Discovery",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/immune-evasion-uncovered-by-virome-wide-ubiquitin-ligase-discovery/",
-      "summary": "Viruses hijack cells’ garbage-disposal systems to evade immune attack. The study proposes to speed basic discoveries in virology, and inform the development of new vaccines and treatments to protect against emerging path…",
-      "ts": 1783950148000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: All eyes on data on Biogen’s tau therapy",
-      "url": "https://www.statnews.com/2026/07/13/biotech-news-all-eyes-on-biogen-tau-therapy-data/?utm_campaign=rss",
-      "summary": "The year of daraxonrasib, a wearable for a myeloma drug, and more biotech news from The Readout",
-      "ts": 1783950008000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about an RFK Jr. push against psychiatric meds, a Sanofi blood cancer drug, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug/?utm_campaign=rss",
-      "summary": "U.S. health secretary Robert F. Kennedy Jr. is pressing forward with his effort to help Americans stop taking SSRI antidepressants",
-      "ts": 1783948114000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Reditus Space completes first reentry vehicle",
-      "url": "https://spacenews.com/reditus-space-completes-first-reentry-vehicle/",
-      "summary": "Reditus Space, a startup developing recoverable and reusable spacecraft, has completed its first vehicle for launch later this year. The post Reditus Space completes first reentry vehicle appeared first on SpaceNews.",
-      "ts": 1783947720000,
-      "categoryId": "space"
     }
   ],
   "categories": [

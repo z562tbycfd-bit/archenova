@@ -1,7 +1,140 @@
 {
   "ok": true,
-  "updated": "2026-07-14T12:16:06.578Z",
+  "updated": "2026-07-14T14:54:14.153Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Physicists confirm 20-year-old theory that could boost quantum technology",
+      "url": "https://phys.org/news/2026-07-physicists-year-theory-boost-quantum.html",
+      "summary": "Future quantum computing will require correlations between distant modules—a feature known as distributed entanglement. Traditionally, such entanglement has relied on active control and repeated measurements. Now, physic…",
+      "ts": 1784040004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study reveals children drive cultural change",
+      "url": "https://phys.org/news/2026-07-reveals-children-cultural.html",
+      "summary": "A new study led by our Psychology Department has revealed that children play a much bigger role in shaping human culture than previously thought. The research, published in the journal Behavioral and Brain Sciences, show…",
+      "ts": 1784040002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two atmospheric patterns may explain why some heat waves in Europe persist",
+      "url": "https://phys.org/news/2026-07-atmospheric-patterns-europe-persist.html",
+      "summary": "Many parts of Western Europe are currently wilting under a heat wave. These blistering spells can last for a week or more, and although they are common in most summers, it is difficult to predict how long they will last.",
+      "ts": 1784039404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineers find a precise way to grow artificial blood vessels",
+      "url": "https://phys.org/news/2026-07-precise-artificial-blood-vessels.html",
+      "summary": "Tissue engineers are finding ways to grow living organs and tissues from cells, with the aim of replacing diseased and damaged counterparts in the body. Scientists have successfully grown artificial muscles, livers, kidn…",
+      "ts": 1784039402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Modern slavery is a business decision—not an accident",
+      "url": "https://phys.org/news/2026-07-modern-slavery-business-decision-accident.html",
+      "summary": "Modern slavery persists because the way global supply chains are designed allows it to remain hidden, according to new research led by Professor Glenn Parry from the University of Surrey and Dr. Mike Rogerson at the Univ…",
+      "ts": 1784038809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Six years of drought reshape soil microbiomes in tallgrass prairie, study finds",
+      "url": "https://phys.org/news/2026-07-years-drought-reshape-soil-microbiomes.html",
+      "summary": "A new study tracking soil microbial communities across six years of experimental drought in a tallgrass prairie finds that prolonged water stress diminishes biodiversity, pushing communities toward less predictable, hard…",
+      "ts": 1784038801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Statistical test helps judge the value of personalization",
+      "url": "https://phys.org/news/2026-07-statistical-personalization.html",
+      "summary": "From precision medicine to personalized job training, customizing interventions for individuals is often assumed to produce better outcomes than a one-size-fits-all approach. But personalization also comes with costs: it…",
+      "ts": 1784037608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "35 years of Florida scrub-jay research reveals benefits of long-term pair bonds",
+      "url": "https://phys.org/news/2026-07-years-florida-jay-reveals-benefits.html",
+      "summary": "At Archbold Biological Station, decades of field observations are helping scientists better understand one of nature's oldest relationship strategies: long-term monogamy.",
+      "ts": 1784037603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heavy-element exotic dust may solve a neutron star merger mystery",
+      "url": "https://phys.org/news/2026-07-heavy-element-exotic-neutron-star.html",
+      "summary": "When neutron stars merge, they create a powerful explosion called a kilonova that flings out neutron-rich material, some of which decays into heavy elements through a process called the r-process. Recent observations of …",
+      "ts": 1784036406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Widespread misuse of crowd-control weapons by law enforcement at immigration enforcement protests",
+      "url": "https://phys.org/news/2026-07-widespread-misuse-crowd-weapons-law.html",
+      "summary": "Law enforcement agents misused crowd-control weapons during protests against the Trump administration's immigration enforcement operations in 412 verified incidents across 16 U.S. cities from when immigration enforcement…",
+      "ts": 1784036402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "For time-critical events: NINJA prepares for first on-sky observations",
+      "url": "https://phys.org/news/2026-07-critical-events-ninja-sky.html",
+      "summary": "This summer, Subaru Telescope will welcome a new near-infrared spectrograph, NINJA, for its first on-sky engineering observations. NINJA is a new spectrograph designed for time-critical observations of rapidly evolving c…",
+      "ts": 1784035203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Twisted ultrathin magnet retains magnetization after field changes, study finds",
+      "url": "https://phys.org/news/2026-07-ultrathin-magnet-retains-magnetization-field.html",
+      "summary": "The properties of ultrathin magnets can be specifically altered by a slight twist between two atomic monolayers. This is the conclusion reached by an international research team led by TU Darmstadt in a study published i…",
+      "ts": 1784035201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "As Chagos governance is slated to shift, new research reveals the true scale of fishing",
+      "url": "https://phys.org/news/2026-07-chagos-slated-shift-reveals-true.html",
+      "summary": "Domestic fisheries catches in the Chagos Archipelago are 25 times higher than official statistics show, according to a recent study by Sea Around Us—Indian Ocean and Sea Around Us researchers.",
+      "ts": 1784034601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers define new frontier in quantum materials",
+      "url": "https://phys.org/news/2026-07-frontier-quantum-materials.html",
+      "summary": "Researchers at City College of New York physicist Vinod M. Menon's Laboratory for Nano and Micro Photonics (LaNMP) have outlined an emerging frontier in quantum materials: atomically thin systems in which light, magnetis…",
+      "ts": 1784034002000
+    },
+    {
+      "source": "Science News",
+      "title": "A quasar breaks the record for most distant supermassive black hole",
+      "url": "https://www.sciencenews.org/article/record-black-hole-euclj1729-quasar",
+      "summary": "The Euclid space telescope discovery could help researchers understand how black holes grew so massive so quickly in the early universe.",
+      "ts": 1784034000000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researcher creates seawater isotope database to improve climate data reconstructions and projections",
+      "url": "https://phys.org/news/2026-07-seawater-isotope-database-climate-reconstructions.html",
+      "summary": "A Florida State University paleoclimatologist led the creation of a global database hosting thousands of seawater isotope measurements collected over almost 50 years that will aid scientists in generating more accurate c…",
+      "ts": 1784032805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Highly filled liquid epoxy for smaller, more reliable chip packaging",
+      "url": "https://phys.org/news/2026-07-highly-liquid-epoxy-smaller-reliable.html",
+      "summary": "As computer chips become more powerful and compact, the materials that protect them must perform better than ever. In advanced chip packaging, liquid epoxy is widely used because it can flow into tiny spaces before curin…",
+      "ts": 1784032801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Well-designed urban street plantings provide relief from summer heat",
+      "url": "https://phys.org/news/2026-07-urban-street-relief-summer.html",
+      "summary": "New research shows that improvements in tree, shrub and grass plantings along city streets in Queensland can substantially improve pedestrians' thermal comfort.",
+      "ts": 1784031612000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Disturbance has a greater effect on giant kelp productivity than resource availability",
+      "url": "https://phys.org/news/2026-07-disturbance-greater-effect-giant-kelp.html",
+      "summary": "Marine scientists at UC Santa Barbara have found that disturbances to giant kelp forests have a major influence on their net primary productivity (NPP)—an indicator of an ecosystem's health and its ability to support its…",
+      "ts": 1784031601000
+    },
     {
       "source": "Phys.org",
       "title": "Study reveals Hawaiian hotspot is getting hotter",
@@ -567,139 +700,6 @@
       "title": "Institutional Harm through Threshold Cascades",
       "url": "https://arxiv.org/abs/2607.10726",
       "summary": "arXiv:2607.10726v1 Announce Type: new Abstract: Can a population of people not individually inclined to harm others nonetheless produce harmful collective outcomes, purely because of the institutional structure they inha…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Life in a tight spot: Coupled dynamics of bacteria and soil across scales",
-      "url": "https://arxiv.org/abs/2607.10734",
-      "summary": "arXiv:2607.10734v1 Announce Type: new Abstract: Soil harbors much of Earth's bacterial life. The activity of these bacteria governs plant growth, carbon and nitrogen cycling, and the response of land to a changing climat…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accessing 100 GHz Mechanical Modes in Bulk Crystals at Cryogenic Temperatures",
-      "url": "https://arxiv.org/abs/2607.10737",
-      "summary": "arXiv:2607.10737v1 Announce Type: new Abstract: Sub-terahertz electromechanics offers a promising route to probe mechanical quantum motion at experimentally friendly Kelvin temperatures. Traditionally, high-frequency mec…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-dimensional excitonic dipole anisotropy enables ultrabroadband polarization photodetection in CrCl3",
-      "url": "https://arxiv.org/abs/2607.10752",
-      "summary": "arXiv:2607.10752v1 Announce Type: new Abstract: Simultaneous detection of the spectral and polarization properties of light is highly desirable for integrated imaging and photonic technologies but typically requires comp…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Functional Expansion Tallies of Matrix Operators for Prediction for Integrated Autocorrelation Time in Batch Monte Carlo: an Analytic 2D Scattering Chain Benchmark",
-      "url": "https://arxiv.org/abs/2607.10758",
-      "summary": "arXiv:2607.10758v1 Announce Type: new Abstract: We investigate functional expansion tallies as a reduced-basis representation for predicting inter-cycle correlations in Monte Carlo transport. Using an analytic two-dimens…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Three-Degree-of-Freedom Chesnavich Model for Roaming: Derivation, Phase-Space Geometry, NHIM-Anchored Dividing Surfaces, and Roaming Transport",
-      "url": "https://arxiv.org/abs/2607.10761",
-      "summary": "arXiv:2607.10761v1 Announce Type: new Abstract: Roaming reactions, in which a dissociating fragment moves through a flat region of the potential surface rather than down the minimum-energy path, lie outside the assumptio…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Understanding Chemical Short-Range Order in CoNiV via Mode Analysis",
-      "url": "https://arxiv.org/abs/2607.10775",
-      "summary": "arXiv:2607.10775v1 Announce Type: new Abstract: We analyze chemical short-range order in equiatomic fcc NiCoV using molecular-dynamics snapshots generated with a machine-learned interatomic potential. Radial distribution…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SpectraSensML Software: Mastering Complete Spectral Information for Luminescence Thermometry 2.0",
-      "url": "https://arxiv.org/abs/2607.10807",
-      "summary": "arXiv:2607.10807v1 Announce Type: new Abstract: Luminescence thermometry has evolved through decades of research focused on optimising materials and on extracting temperature information from isolated spectral features s…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Small but Tubby: A Magnetic Loop Antenna Made from 100 mm Copper Tubing",
-      "url": "https://arxiv.org/abs/2607.10828",
-      "summary": "arXiv:2607.10828v1 Announce Type: new Abstract: This paper presents the electrical model, key equations, and practical construction of a small transmitting magnetic loop antenna built from unusually large 100 mm diameter…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thawed Gaussian Ehrenfest dynamics",
-      "url": "https://arxiv.org/abs/2607.10847",
-      "summary": "arXiv:2607.10847v1 Announce Type: new Abstract: Ehrenfest dynamics is a widely used mixed quantum--classical approach for nonadiabatic molecular dynamics, whereas thawed Gaussian wavepacket dynamics provides an efficient…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrashort pulsed laser atmospheric filament properties and microwave radiation inferred from S-band guided wave interaction and self-emission",
-      "url": "https://arxiv.org/abs/2607.10852",
-      "summary": "arXiv:2607.10852v1 Announce Type: new Abstract: The electrical conductivity $\\sigma$ of the plasma filament left behind by an ultrashort pulsed laser (USPL) optical pulse after it is geometrically then self-focused in ai…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Autonomous Transition State Search with Soft Actor-Critic Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2607.10854",
-      "summary": "arXiv:2607.10854v1 Announce Type: new Abstract: Transition state (TS) search is a crucial step in understanding chemical reactivity and mechanisms, yet conventional algorithms remain computationally intensive and heavily…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spreading and rupture dynamics of soluble surfactant-laden thin film flow down a slippery incline in presence of external shear",
-      "url": "https://arxiv.org/abs/2607.10875",
-      "summary": "arXiv:2607.10875v1 Announce Type: new Abstract: The spreading and rupture of local distribution of surfactant on a slippery inclined thin film flow in the presence of external shear is explored in this article. The surfa…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vernier-assisted mode-selective PT symmetry in optoelectronic oscillators",
-      "url": "https://arxiv.org/abs/2607.10882",
-      "summary": "arXiv:2607.10882v1 Announce Type: new Abstract: Mode-selective PT-symmetry is the manifestation of Vernier-assisted cross-injection between oscillators with unequal delays. PT-symmetry has been proposed as a mechanism fo…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy",
-      "url": "https://arxiv.org/abs/2607.10887",
-      "summary": "arXiv:2607.10887v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLPs) have revolutionized atomistic modeling, offering the potential to replace traditional methods like Density Functional Theory …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multiple Band-Gaps through the Coupling of Unit Cells from the Same Metamaterial: the Dual Cell method",
-      "url": "https://arxiv.org/abs/2607.10916",
-      "summary": "arXiv:2607.10916v1 Announce Type: new Abstract: This study investigates how the coupling of two unit cells belonging to the same mechanical metamaterial into a dual unit cell configuration, can produce a new metamaterial…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Emergence of Astroparticle Physics: From Cosmic-Ray Physics to a new Scientific Field",
-      "url": "https://arxiv.org/abs/2607.10927",
-      "summary": "arXiv:2607.10927v1 Announce Type: new Abstract: Astroparticle physics emerged during the late twentieth century as a new interdisciplinary field at the intersection of particle physics, astrophysics, and cosmology. This …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Student Perspectives on Traditional Pedagogy Used in Graduate Physics Coursework",
-      "url": "https://arxiv.org/abs/2607.10955",
-      "summary": "arXiv:2607.10955v1 Announce Type: new Abstract: Graduate programs in STEM disciplines are central to preparing future researchers and professors. Program requirements for students often include taking several graduate-le…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structure-preserving variational neural fields: Uncertainty-quantified reduced-order modeling of nonlinear conservation laws",
-      "url": "https://arxiv.org/abs/2607.10965",
-      "summary": "arXiv:2607.10965v1 Announce Type: new Abstract: Reduced-order models, such as latent dynamics models, are becoming mainstream for accelerating simulations for parameterized physical systems governed by nonlinear conserva…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Understanding the Theory--Experiment Discrepancy in Pressure Drop of Dilute Polymer Solutions in Channel Flows",
-      "url": "https://arxiv.org/abs/2607.10973",
-      "summary": "arXiv:2607.10973v1 Announce Type: new Abstract: For decades researchers have experimentally observed that the flow of dilute viscoelastic polymer solutions through contraction or contraction--expansion channels yields re…",
       "ts": 1784001600000
     }
   ],
