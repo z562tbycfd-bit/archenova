@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-14T08:10:21.674Z",
+  "updated": "2026-07-14T10:49:21.391Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Research brings the era of microbial cell factories one step closer",
+      "url": "https://phys.org/news/2026-07-era-microbial-cell-factories-closer.html",
+      "summary": "The era of \"biomanufacturing,\" in which microbes, not petroleum, produce chemical products, is one step closer. A KAIST research team has analyzed the key challenges limiting the commercialization of biomanufacturing and…",
+      "ts": 1784025314000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the built environment can help protect mental health in a changing climate",
+      "url": "https://phys.org/news/2026-07-built-environment-mental-health-climate.html",
+      "summary": "When people think about climate change, they often picture melting glaciers, stronger storms, rising temperatures, or prolonged droughts. These visible consequences dominate headlines and shape public discussions. Yet an…",
+      "ts": 1784023201000
+    },
     {
       "source": "Phys.org",
       "title": "No relief from the heat as many US cities will see record overnight temperatures",
@@ -686,20 +700,6 @@
       "title": "Leveraging Raman response in X-cut thin-film lithium tantalate for ultrabroadband combs and polychromatic visible light",
       "url": "https://arxiv.org/abs/2607.11186",
       "summary": "arXiv:2607.11186v1 Announce Type: new Abstract: X-cut thin-film lithium tantalate (TFLT) offers a unique combination of third nonlinearity, electro-optic effects, and a high optical damage threshold. However, its strong …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Compact and Stable Representation of Real-Frequency Spectral Functions for Machine Learning",
-      "url": "https://arxiv.org/abs/2607.11190",
-      "summary": "arXiv:2607.11190v1 Announce Type: new Abstract: We introduce a compact and stable moment representation for real-frequency Green's functions, hybridization functions, and self-energies for machine-learning applications, …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "VSC: A Zero-Dimensional Fusion Design Platform for Multiple Magnetic Configurations",
-      "url": "https://arxiv.org/abs/2607.11208",
-      "summary": "arXiv:2607.11208v1 Announce Type: new Abstract: The VeloAlpha System Code (VSC) is a computational framework for zero-dimensional fusion power-balance studies across five magnetic-confinement configurations: tokamaks, ma…",
       "ts": 1784001600000
     }
   ],

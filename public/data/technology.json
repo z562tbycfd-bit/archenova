@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-14T08:10:24.645Z",
+  "updated": "2026-07-14T10:49:24.656Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "FDA authorized Zyn nicotine pouches without knowing what they were made of, says former agency scientist",
+      "url": "https://www.statnews.com/2026/07/14/zyn-nicotine-pouches-fda-approval-microplastic-risk/?utm_campaign=rss",
+      "summary": "A former FDA toxicologist has accused the agency of authorizing Zyn nicotine pouches without fully reviewing their safety",
+      "ts": 1784021400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Drug metabolism AI competition results show that bigger may not always be better",
+      "url": "https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio/?utm_campaign=rss",
+      "summary": "The results of a recent AI competition show that better data trumps bigger models when it comes to predicting properties of drug candidates.",
+      "ts": 1784017800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "12 ideas for tackling the U.S. alcohol epidemic",
+      "url": "https://www.statnews.com/2026/07/14/alcohol-health-issues-deadliest-drug-series-final-installment-solutions/?utm_campaign=rss",
+      "summary": "The U.S. can save lives from excess alcohol use without taking drastic measures. Here are 12 steps that can help.",
+      "ts": 1784017800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: 10 charts that explain America’s hidden alcohol epidemic",
+      "url": "https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series/?utm_campaign=rss",
+      "summary": "America's hidden alcohol epidemic — the toll, emerging risks, shifting usage, and economic stakes — broken down in 10 charts.",
+      "ts": 1784017800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: It looks like your doctor and talks like your doctor. But it’s not your doctor",
+      "url": "https://www.statnews.com/2026/07/14/deepfakes-ai-generated-medicine-misinformation-regulation-video/?utm_campaign=rss",
+      "summary": "Deepfakes undermine the credibility that makes digital care — from telehealth visits to patient portals — possible.",
+      "ts": 1784017800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
+      "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
+      "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected t…",
+      "ts": 1784016000000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Artemis II astronauts visit ESA",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Artemis_II_astronauts_visit_ESA",
+      "summary": "Yesterday, the four Artemis II astronauts visited ESA’s technical site in the Netherlands, where they met the team behind the European Service Module that powered their Orion spacecraft around the Moon and safely back to…",
+      "ts": 1784015340000,
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "Fans of the Arctic",
@@ -459,6 +515,14 @@
       "categoryId": "space"
     },
     {
+      "source": "OpenAI",
+      "title": "How data science teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "ts": 1783987200000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "Flexell Space raises $20 Million in Series A round",
       "url": "https://spacenews.com/flexell-space-raises-20-million-in-series-a-round/",
@@ -657,70 +721,6 @@
       "summary": "The European Space Agency (ESA) and the Republic of Poland have announced that a new ESA centre focusing on civil security and resilience will be located in Warsaw, supporting the efficient and coordinated development of…",
       "ts": 1783946040000,
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a donor conception cap and world models for AI",
-      "url": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Sperm donors need limits, says a European fertility group Ties van der Meer doesn’…",
-      "ts": 1783944600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Genetic Map Opens Door to Development of New Therapies to Reverse Bone Loss",
-      "url": "https://www.genengnews.com/topics/omics/genetic-map-opens-door-to-development-of-new-therapies-to-reverse-bone-loss/",
-      "summary": "The international team of scientists identified hundreds of previously unknown genes that govern bone health and revealed cells surrounding blood vessels as one of the drivers of bone repair. The post Genetic Map Opens D…",
-      "ts": 1783944027000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "International Criminal Court ‘a critical cog’ in global justice efforts",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167932",
-      "summary": "The United Nations upheld the critical role of the International Criminal Court (ICC) on Monday in the global fight to end impunity for grave crimes, amid calls for it to be abolished.",
-      "ts": 1783944000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Aid deliveries to Gaza restricted, UN prepares El Nino response, El Salvador eliminates disease",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167930",
-      "summary": "The UN World Food Programme (WFP) is calling for greater humanitarian access to Gaza, warning that restrictions on aid deliveries, ongoing violence and funding shortages are severely limiting its ability to reach people …",
-      "ts": 1783944000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Strait of Hormuz: UN agencies call for diplomacy to end attacks",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167929",
-      "summary": "As both Washington and Tehran claim to control the critical commercial shipping route through the narrow Strait of Hormuz, UN agencies on Monday are calling for de-escalation amid the recent spike in strikes in the regio…",
-      "ts": 1783944000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Top UN officials call for de-escalation in Yemen",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167924",
-      "summary": "As the UN chief’s Special Envoy for Yemen, Hans Grundberg, calls for swift de-escalation following reports of Saudi Arabian airstrikes and Iranian aircraft landing in the country, the Security Council’s emergency meeting…",
-      "ts": 1783944000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Despite hurdles, don’t give up on Sustainable Development Goals, UN urges",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167927",
-      "summary": "In a world of “parallel realities” where stark inequalities seemingly divide people and challenge the promise of multilateralism, the vision of the Sustainable Development Goals (SDGs) is to bring people together and hel…",
-      "ts": 1783944000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Afghanistan: 3.7 million young lives at risk of malnutrition, UNICEF warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167925",
-      "summary": "Some 3.7 million children under five in Afghanistan are at heightened risk of malnutrition due to food insecurity, poor diets and inadequate access to basic services as the peak season for life-threatening wasting looms.",
-      "ts": 1783944000000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
