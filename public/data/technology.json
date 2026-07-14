@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-14T22:00:01.935Z",
+  "updated": "2026-07-14T23:06:11.609Z",
   "items": [
     {
       "source": "STAT",
@@ -212,7 +212,31 @@
     },
     {
       "source": "United Nations News",
-      "title": "Independent expert urges UK leaders to uphold Supreme Court ruling on women's rights",
+      "title": "World Cup football’s other goal: Helping young people talk about mental health",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167941",
+      "summary": "When Dr. Sahira Al Nahari founded Shifā Art, a Saudi Arabia-based organization using art to create conversations around mental health, she noticed that men attending her therapeutic art workshops often felt uncomfortable…",
+      "ts": 1784030400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167939",
+      "summary": "Humanitarians in the Gaza Strip continue to face significant challenges in reaching communities located near the so-called “Yellow Line” in northern Rafah, the UN aid coordination office OCHA said on Tuesday.",
+      "ts": 1784030400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "West Africa and the Sahel: Terrorism is changing its face",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167940",
+      "summary": "Jihadist groups are no longer content with launching attacks in West Africa and the Sahel: they administer territories, control trade routes, exploit new technologies and are gradually pushing their influence all the way…",
+      "ts": 1784030400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Independent expert urges UK leaders to uphold Supreme Court ruling on women’s rights",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167937",
       "summary": "A UN independent human rights expert has urged political leaders in the United Kingdom to support implementation of a Supreme Court ruling on the legal definition of sex, warning that opposition to updated equality guida…",
       "ts": 1784030400000,
@@ -695,30 +719,6 @@
       "title": "Diffusion-Based Quality Control of Medical Image Segmentations across Organs",
       "url": "https://arxiv.org/abs/2511.09588",
       "summary": "arXiv:2511.09588v3 Announce Type: replace-cross Abstract: Medical image segmentation using deep learning (DL) has enabled the development of automated analysis pipelines for large-scale population studies. However, state…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Frequency Locking to Environmental Forcing Suppresses Oscillatory Extinction in Phage-Bacteria Interactions",
-      "url": "https://arxiv.org/abs/2512.08224",
-      "summary": "arXiv:2512.08224v2 Announce Type: replace-cross Abstract: Bacteriophage-bacteria interactions are central to microbial ecology, influencing evolution, biogeochemical cycles, and pathogen behavior. Most theoretical models…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Accelerated MR Elastography Using Learned Neural Network Representation",
-      "url": "https://arxiv.org/abs/2601.11878",
-      "summary": "arXiv:2601.11878v2 Announce Type: replace-cross Abstract: To develop a deep-learning method for achieving fast high-resolution MR elastography from highly undersampled data without the need of high-quality training datas…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evolutionarily Stable Stackelberg Equilibrium",
-      "url": "https://arxiv.org/abs/2603.18385",
-      "summary": "arXiv:2603.18385v3 Announce Type: replace-cross Abstract: We present a new solution concept called evolutionarily stable Stackelberg equilibrium (SESS). We study the Stackelberg evolutionary game setting in which there i…",
       "ts": 1784001600000,
       "categoryId": "bio"
     }

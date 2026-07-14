@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-14T21:59:59.516Z",
+  "updated": "2026-07-14T23:06:08.399Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New technique for building ultra-thin material stacks promises quantum breakthrough",
+      "url": "https://phys.org/news/2026-07-technique-ultra-thin-material-stacks.html",
+      "summary": "Scientists have unveiled a new fabrication technique for the ultra-clean manufacturing of 2D heterostructures—materials just a few atoms thick—that could be used in quantum technology and electronics. Experts from Southa…",
+      "ts": 1784070012000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers uncover the earliest known signs of galaxy-building in action",
+      "url": "https://phys.org/news/2026-07-astronomers-uncover-earliest-galaxy-action.html",
+      "summary": "Astronomers at Durham University have made a major advance in understanding how galaxies formed and evolved in the early universe. Using powerful new observations, the team discovered the most distant example ever found …",
+      "ts": 1784070007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's last pagan state was already diverse: Medieval Vilnius drew migrants from Christian lands",
+      "url": "https://phys.org/news/2026-07-europe-pagan-state-diverse-medieval.html",
+      "summary": "Lithuania was famously the final pagan state in Europe. While the rest of the continent converted to Christianity, Lithuania remained officially pagan until Catholicism was adopted in AD 1387. Despite this, the extent to…",
+      "ts": 1784070002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ocean acidification emerging as a planetary signal linking today's carbon emissions to Earth's deep-time memory",
+      "url": "https://phys.org/news/2026-07-ocean-acidification-emerging-planetary-linking.html",
+      "summary": "When most people hear the phrase \"ocean acidification,\" they think of coral reefs, shellfish or declining fisheries. Those concerns are real. But while working on our recent research, I found myself asking a different qu…",
+      "ts": 1784066404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tailored limits could manage 350,000 chemicals better than zero-release goal",
+      "url": "https://phys.org/news/2026-07-tailored-limits-chemicals-goal.html",
+      "summary": "Man-made substances surround us everywhere in our daily lives. According to the current understanding of the \"Planetary Boundaries\" framework, the carrying capacity for so-called novel entities—which include chemicals, m…",
+      "ts": 1784066403000
+    },
     {
       "source": "Science News",
       "title": "A new sort of Alzheimer’s drug shows glimmers of promise",
@@ -605,6 +640,13 @@
       "ts": 1784023201000
     },
     {
+      "source": "APS PRX",
+      "title": "Topological Defect Propagation to Classify Knitted Fabrics",
+      "url": "http://link.aps.org/doi/10.1103/g565-3dyn",
+      "summary": "Author(s): Daisuke S. Shimamoto, Keiko Shimamoto, Sonia Mahmoudi, and Samuel Poincloux The ability of a fabric to be knitted into a textile can be determined on the basis of the topology of its pattern. [Phys. Rev. X 16,…",
+      "ts": 1784023200000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Anomalous Heat Flows and Quantum Otto Engine with (In)definite Causal Order",
       "url": "http://link.aps.org/doi/10.1103/sx1m-pdhz",
@@ -658,48 +700,6 @@
       "title": "Commensurate-Incommensurate Mott Transition without Magnetic Field: Emergence of Nematic Luttinger Liquid in XXZ Chain",
       "url": "http://link.aps.org/doi/10.1103/5j3k-hztz",
       "summary": "Author(s): Julien Fitouchi and Natalia Chepiga We investigate the zero magnetization and ground state phase diagram of a spin-$1/2$ chain with competing ferromagnetic nearest-neighbor and antiferromagnetic next-nearest-n…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Pseudochiral Phonons from Octupolar Magnetic Order",
-      "url": "http://link.aps.org/doi/10.1103/n11w-csdh",
-      "summary": "Author(s): Ruairidh Sutcliffe, Kathleen Hart, Swati Chaudhary, and Arun Paramekanti Motivated by the recent discovery of anomalously large magnetic response of chiral phonons in dipolar magnets, we introduce the concept …",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Geometric Pathway for Tuning Ferroelectric Properties via Polar State Reconfiguration",
-      "url": "http://link.aps.org/doi/10.1103/8m3c-4dkr",
-      "summary": "Author(s): Hao-Cheng Thong, Bo Wu, Fan Hu, Pedro B. Groszewicz, Chen-Bo-Wen Li, Jun Chen, Mao-Hua Zhang, Dragan Damjanovic, Ben Xu, and Ke Wang We report the discovery of a geometric pathway for tuning ferroelectric prop…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Topological Defect Propagation to Classify Knitted Fabrics",
-      "url": "http://link.aps.org/doi/10.1103/g565-3dyn",
-      "summary": "Author(s): Daisuke S. Shimamoto, Keiko Shimamoto, Sonia Mahmoudi, and Samuel Poincloux The ability of a fabric to be knitted into a textile can be determined on the basis of the topology of its pattern. [Phys. Rev. X 16,…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Improving the performance of transmon qubits with fluorine-based surface treatments",
-      "url": "http://link.aps.org/doi/10.1103/x1gl-mx6f",
-      "summary": "Author(s): Michael A. Gingras, Bethany M. Niedzielski, Kevin A. Grossklaus, Duncan Miller, Felipe Contipelli, Kate Azar, Luke D. Burkhart, Gregory Calusine, Daniel Davis, Renée DePencier Piñero, Jeffrey M. Gertler, Thoma…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Stimulated electromagnetic property evolution of gas for quench monitoring in high-temperature-superconductor magnets",
-      "url": "http://link.aps.org/doi/10.1103/q98n-fsmh",
-      "summary": "Author(s): I. V. Konoplev, S. Chouhan, O. Fernández-Serracanta, A. Horvat, X. Chen, J. Zhang, R. Dubrovka, and M. Zhang High-temperature superconductors (HTS) are considered for broad applications from medical devices an…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Bandwidth-enhanced noise-suppressed current source enabled by a spin-exchange relaxation-free magnetometer",
-      "url": "http://link.aps.org/doi/10.1103/3655-6w65",
-      "summary": "Author(s): Tobias Menold, Arianna Bertoluzza, Patrick Hildebrand, Ann-Kathrin Gottschalk, Daniel Braun, József Fortágh, and Andreas Günther This work investigates the behavior of a spin-exchange relaxation-free magnetome…",
       "ts": 1784023200000
     }
   ],
