@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-14T05:33:50.777Z",
+  "updated": "2026-07-14T08:10:21.674Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "No relief from the heat as many US cities will see record overnight temperatures",
+      "url": "https://phys.org/news/2026-07-relief-cities-overnight-temperatures.html",
+      "summary": "Another week of blistering heat will bring even more health risks in the coming days, as overnight temperatures won't provide much relief.",
+      "ts": 1784016305000
+    },
     {
       "source": "arXiv Physics",
       "title": "Halo structure and lensing signatures of a polytropic dark matter fluid",
@@ -693,13 +700,6 @@
       "title": "VSC: A Zero-Dimensional Fusion Design Platform for Multiple Magnetic Configurations",
       "url": "https://arxiv.org/abs/2607.11208",
       "summary": "arXiv:2607.11208v1 Announce Type: new Abstract: The VeloAlpha System Code (VSC) is a computational framework for zero-dimensional fusion power-balance studies across five magnetic-confinement configurations: tokamaks, ma…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Uncertainty-Aware Structure-Property Mapping of Spinodoid Metamaterials via Heteroscedastic Gaussian Process Regression",
-      "url": "https://arxiv.org/abs/2607.11209",
-      "summary": "arXiv:2607.11209v1 Announce Type: new Abstract: Spinodoid metamaterials offer a broad, tunable design space for anisotropic mechanical properties, yet their structure-property relationships are commonly treated as repres…",
       "ts": 1784001600000
     }
   ],
