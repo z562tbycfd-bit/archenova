@@ -1,7 +1,105 @@
 {
   "ok": true,
-  "updated": "2026-07-14T18:05:45.198Z",
+  "updated": "2026-07-14T20:14:29.656Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hidden muscle machinery reveals 50 new gene subfamilies across vertebrates",
+      "url": "https://phys.org/news/2026-07-hidden-muscle-machinery-reveals-gene.html",
+      "summary": "Within every muscle of every living species with a backbone, a protein called myosin tugs on a partner protein to generate a muscle contraction. This function, discovered in mammals a century ago, has been presumed by sc…",
+      "ts": 1784059203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "VLA sky survey sets new standard for high-resolution, wide-area radio astronomy",
+      "url": "https://phys.org/news/2026-07-vla-sky-survey-standard-high.html",
+      "summary": "The U.S. National Science Foundation National Radio Astronomy Observatory (NSF NRAO) has completed observations for the Very Large Array Sky Survey (VLASS), the most detailed radio survey of the sky ever conducted, provi…",
+      "ts": 1784059201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New cell imaging method shines a light on blind spots",
+      "url": "https://phys.org/news/2026-07-cell-imaging-method.html",
+      "summary": "Cells are crowded, dynamic places where thousands of molecules interact in tight quarters. Until now, scientists lacked a reliable way to see many of these molecular interactions as they happen. Researchers at the Univer…",
+      "ts": 1784058005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What is no‑till farming, and is it actually better for the environment?",
+      "url": "https://phys.org/news/2026-07-notill-farming-environment.html",
+      "summary": "Humans have been turning seeds and soil into food for thousands of years.",
+      "ts": 1784058001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Roman telescope will spot distant black holes that shred stars",
+      "url": "https://phys.org/news/2026-07-roman-telescope-distant-black-holes.html",
+      "summary": "How do black holes at the centers of galaxies form and grow over time? To answer this question, scientists need to detect and study supermassive black holes at great distances that existed much earlier in the universe's …",
+      "ts": 1784056806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study analyzes how electronic trading is changing the retail investment market",
+      "url": "https://phys.org/news/2026-07-electronic-retail-investment.html",
+      "summary": "The decades-long switch from human-centered to electronically-based trading has changed the way investors participate in and access financial markets. In a new article, researchers analyze how technology has shaped the r…",
+      "ts": 1784056801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers suggest ways to improve US sentencing guidelines",
+      "url": "https://phys.org/news/2026-07-ways-sentencing-guidelines.html",
+      "summary": "The U.S. Sentencing Guidelines play a pivotal role in some of the federal government's most consequential drug policy decisions. Two recurring themes have been the balancing—or lack of balancing—between drug weight and t…",
+      "ts": 1784055608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New atomic trap boosts quantum performance by using surface forces",
+      "url": "https://phys.org/news/2026-07-atomic-boosts-quantum-surface.html",
+      "summary": "Researchers at Humboldt-Universität zu Berlin have developed a new method for trapping and controlling atoms near an ultrathin glass fiber. This has significantly improved the atoms' ability to store quantum information—…",
+      "ts": 1784055607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change is forcing amphibians to change their diet—but they can only adapt so far",
+      "url": "https://phys.org/news/2026-07-climate-amphibians-diet.html",
+      "summary": "New research involving Queen Mary University of London reveals that amphibians can change what they eat to cope with rising temperatures, but that this natural survival strategy has limits.",
+      "ts": 1784055001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lakes that 'breathe' ancient carbon: A surprising find in the Congo Basin",
+      "url": "https://phys.org/news/2026-07-lakes-ancient-carbon-congo-basin.html",
+      "summary": "In the heart of the Congo Basin's Cuvette Centrale, a large depression that hosts the world's largest tropical wetland complex, lie two vast, shallow blackwater lakes, Lake Tumba and Lake Mai Ndombe. Together, they are r…",
+      "ts": 1784054408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Human noise pushes Alaska predators toward night foraging, altering salmon nutrient pathways",
+      "url": "https://phys.org/news/2026-07-human-noise-alaska-predators-night.html",
+      "summary": "The age-old question asks, \"If a tree falls in a forest and no one is around to hear it, does it make a sound?\" While philosophers and scientists alike have pondered this question for centuries, the more relevant questio…",
+      "ts": 1784054405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Amazing moths': Study pinpoints insect habitat that draws grizzlies to glacier peaks",
+      "url": "https://phys.org/news/2026-07-amazing-moths-insect-habitat-grizzlies.html",
+      "summary": "When grizzly bears clamber onto the talus slopes high in Glacier National Park, they're searching for an abundant, fatty meal: army cutworm moths. The inch-long (2.5-centimeter-long) moths hatch on the Great Plains and f…",
+      "ts": 1784053207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Composting and water cremation: How the eco credentials of alternatives to burial add up",
+      "url": "https://phys.org/news/2026-07-composting-cremation-eco-credentials-alternatives.html",
+      "summary": "There's growing interest in alternatives to traditional burials and in making the process more environmentally friendly in many countries. For many people, it's about the environmental impact of the funeral industry glob…",
+      "ts": 1784053202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Honey bees' sense of smell changes from larval to adult life stages, study finds",
+      "url": "https://phys.org/news/2026-07-honey-bees-larval-adult-life.html",
+      "summary": "Honey bee larvae lack the sophisticated olfactory capabilities of adult honey bees, a new study finds. Scientists point to this temporary loss of function as a side effect of the nurse bees' heroic level of brood care, c…",
+      "ts": 1784052601000
+    },
     {
       "source": "Phys.org",
       "title": "'Uncanny valley' effect observed in macaques through 3D animated monkey avatars",
@@ -18,9 +116,9 @@
     },
     {
       "source": "Phys.org",
-      "title": "US-Russian crew blast off for 8-month stint on the International Space Station",
+      "title": "US-Russian crew arrives at the International Space Station for 8-month mission",
       "url": "https://phys.org/news/2026-07-russian-crew-blast-month-stint.html",
-      "summary": "A U.S.-Russian space crew blasted off successfully Tuesday on a mission to the International Space Station.",
+      "summary": "A U.S.-Russian space crew arrived Tuesday at the International Space Station after launching from the Russia-leased Baikonur cosmodrome in Kazakhstan.",
       "ts": 1784051287000
     },
     {
@@ -437,6 +535,97 @@
       "ts": 1784023201000
     },
     {
+      "source": "APS Physical Review Letters",
+      "title": "Anomalous Heat Flows and Quantum Otto Engine with (In)definite Causal Order",
+      "url": "http://link.aps.org/doi/10.1103/sx1m-pdhz",
+      "summary": "Author(s): Qing-Feng Xue, Qi Zhang, Xu-Cai Zhuang, Ying-Jie Zhang, Yun-Jie Xia, Enrico Russo, Giulio Chiribella, Rosario Lo Franco, and Zhong-Xiao Man The principle that heat spontaneously flows from higher temperatures …",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Hidden Sector Custodial Naturalness",
+      "url": "http://link.aps.org/doi/10.1103/g4wr-5vfy",
+      "summary": "Author(s): Thede de Boer, Manfred Lindner, and Andreas Trautner Custodial naturalness is a recently introduced idea that combines conformal and scalar sector custodial symmetry to address the electroweak (EW) scale hiera…",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Demonstration of Deuterium’s Enhanced Sensitivity to Symmetry Violations Governed by the Standard-Model Extension",
+      "url": "http://link.aps.org/doi/10.1103/dqvd-15q4",
+      "summary": "Author(s): A. Nanda, D. Comparat, O. Dulieu, S. Lahs, C. Malbrunot, L. Nowak, M. C. Simon, and E. Widmann We have performed hyperfine spectroscopy of two transitions in ground-state deuterium and searched for violations …",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Study of the Reactions $\\overline{n}p→2{π}^{+}{π}^{−}$, $2{π}^{+}{π}^{−}{π}^{0}$, and $2{π}^{+}{π}^{−}2{π}^{0}$ Using $J/ψ→p{π}^{−}\\overline{n}$",
+      "url": "http://link.aps.org/doi/10.1103/nm5t-qk3h",
+      "summary": "Author(s): M. Ablikim et al. (BESIII Collaboration) We report an experimental investigation of the reactions $\\overline{n}p→2{π}^{+}{π}^{−}$, $\\overline{n}p→2{π}^{+}{π}^{−}{π}^{0}$, and $\\overline{n}p→2{π}^{+}{π}^{−}2{π}…",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Atomic Clock Frequency Ratios with Fractional Uncertainty $≤3.2×{10}^{−18}$",
+      "url": "http://link.aps.org/doi/10.1103/g865-9mk1",
+      "summary": "Author(s): Alexander Aeppli et al. (BACON Collaboration) We report high-precision frequency ratio measurements between optical atomic clocks based on $^{27}{\\mathrm{Al}}^{+}$, $^{171}\\mathrm{Yb}$, and $^{87}\\mathrm{Sr}$.…",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Significance of Microtearing Turbulence in Turbulence-Reduced High-Density-Gradient Plasmas in Wendelstein 7-X",
+      "url": "http://link.aps.org/doi/10.1103/nd3p-yb9t",
+      "summary": "Author(s): H. Cu-Castillo, A. Bañón Navarro, G. Merlo, F. Reimold, T. Romba, O. Ford, S. Bannmann, L. Vanó, M. Wappl, J. Geiger, A. Goodman, A. Zocco, F. Jenko, and W7-X Team Gyrokinetic simulations of a turbulence-reduc…",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Deep Indentation of Soft Thin Films Beyond the $10%$ Rule",
+      "url": "http://link.aps.org/doi/10.1103/8s5j-63xf",
+      "summary": "Author(s): Huang Lu and Zhaohe Dai Indentation is one of the simplest ways to feel the stiffness of matter. Interpreting indentation, however, requires care, especially for thin films—such as biological cells or soft coa…",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Commensurate-Incommensurate Mott Transition without Magnetic Field: Emergence of Nematic Luttinger Liquid in XXZ Chain",
+      "url": "http://link.aps.org/doi/10.1103/5j3k-hztz",
+      "summary": "Author(s): Julien Fitouchi and Natalia Chepiga We investigate the zero magnetization and ground state phase diagram of a spin-$1/2$ chain with competing ferromagnetic nearest-neighbor and antiferromagnetic next-nearest-n…",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Pseudochiral Phonons from Octupolar Magnetic Order",
+      "url": "http://link.aps.org/doi/10.1103/n11w-csdh",
+      "summary": "Author(s): Ruairidh Sutcliffe, Kathleen Hart, Swati Chaudhary, and Arun Paramekanti Motivated by the recent discovery of anomalously large magnetic response of chiral phonons in dipolar magnets, we introduce the concept …",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Geometric Pathway for Tuning Ferroelectric Properties via Polar State Reconfiguration",
+      "url": "http://link.aps.org/doi/10.1103/8m3c-4dkr",
+      "summary": "Author(s): Hao-Cheng Thong, Bo Wu, Fan Hu, Pedro B. Groszewicz, Chen-Bo-Wen Li, Jun Chen, Mao-Hua Zhang, Dragan Damjanovic, Ben Xu, and Ke Wang We report the discovery of a geometric pathway for tuning ferroelectric prop…",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Improving the performance of transmon qubits with fluorine-based surface treatments",
+      "url": "http://link.aps.org/doi/10.1103/x1gl-mx6f",
+      "summary": "Author(s): Michael A. Gingras, Bethany M. Niedzielski, Kevin A. Grossklaus, Duncan Miller, Felipe Contipelli, Kate Azar, Luke D. Burkhart, Gregory Calusine, Daniel Davis, Renée DePencier Piñero, Jeffrey M. Gertler, Thoma…",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Stimulated electromagnetic property evolution of gas for quench monitoring in high-temperature-superconductor magnets",
+      "url": "http://link.aps.org/doi/10.1103/q98n-fsmh",
+      "summary": "Author(s): I. V. Konoplev, S. Chouhan, O. Fernández-Serracanta, A. Horvat, X. Chen, J. Zhang, R. Dubrovka, and M. Zhang High-temperature superconductors (HTS) are considered for broad applications from medical devices an…",
+      "ts": 1784023200000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Bandwidth-enhanced noise-suppressed current source enabled by a spin-exchange relaxation-free magnetometer",
+      "url": "http://link.aps.org/doi/10.1103/3655-6w65",
+      "summary": "Author(s): Tobias Menold, Arianna Bertoluzza, Patrick Hildebrand, Ann-Kathrin Gottschalk, Daniel Braun, József Fortágh, and Andreas Günther This work investigates the behavior of a spin-exchange relaxation-free magnetome…",
+      "ts": 1784023200000
+    },
+    {
       "source": "APS PRX",
       "title": "Topological Defect Propagation to Classify Knitted Fabrics",
       "url": "http://link.aps.org/doi/10.1103/g565-3dyn",
@@ -511,195 +700,6 @@
       "title": "Quantum Thermodynamics of Electron Transport along Chains of Redox Centers",
       "url": "https://arxiv.org/abs/2607.09728",
       "summary": "arXiv:2607.09728v1 Announce Type: new Abstract: Intramolecular electron transport in biological systems is typically described as a diffusive hopping process, according to the semi-classical rate theories of Marcus and H…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstruction of a dark energy model for the Dirac-Born-Infeld scalar field with the Hubble and DESI data via Gaussian process",
-      "url": "https://arxiv.org/abs/2607.09731",
-      "summary": "arXiv:2607.09731v1 Announce Type: new Abstract: In this study, we reconstruct the dark energy (DE) as a Dirac-Born-Infeld (DBI) scalar field from the Hubble dataset (32 CC + 26 BAO) and the DESI dataset using the Gaussia…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Late-time cosmological constraints on three holographic dark energy models with DESI DR2 BAO and Type Ia supernovae",
-      "url": "https://arxiv.org/abs/2607.09732",
-      "summary": "arXiv:2607.09732v1 Announce Type: new Abstract: We constrain three holographic-inspired dark energy models, namely holographic dark energy (HDE), agegraphic dark energy (ADE), and Ricci dark energy (RDE), using late-time…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Why Do Light Nuclei Survive at the Large Hadron Collider?",
-      "url": "https://arxiv.org/abs/2607.09733",
-      "summary": "arXiv:2607.09733v1 Announce Type: new Abstract: Light nuclei and antinuclei, such as deuterons, are produced abundantly at the Large Hadron Collider (LHC) in hadronic and nuclear collisions. Even though their binding ene…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Classical Limit of Quantum Mechanics",
-      "url": "https://arxiv.org/abs/2607.09735",
-      "summary": "arXiv:2607.09735v1 Announce Type: new Abstract: One of the main unsolved question in Quantum Mechanics (QM) is its compatibility with classical mechanics. The laws of QM, which describe the microscopic world, must merge …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Q-Score: A Quantum-Native Scoring Function for Molecular Docking",
-      "url": "https://arxiv.org/abs/2607.09737",
-      "summary": "arXiv:2607.09737v1 Announce Type: new Abstract: Molecular docking predicts how a small molecule binds to a protein and is a key bottleneck in drug discovery. Classical scoring functions sum empirical pairwise contacts, b…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Induced Couplings and Causal Bounds from Nondegenerate Dirac Lagrangians",
-      "url": "https://arxiv.org/abs/2607.09738",
-      "summary": "arXiv:2607.09738v1 Announce Type: new Abstract: The standard Dirac Lagrangian is linear in the field derivatives and therefore has a vanishing Hessian. We identify the minimal null deformations of this Lagrangian that ma…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Constraints on unimodular diffusion models with latest observables",
-      "url": "https://arxiv.org/abs/2607.09750",
-      "summary": "arXiv:2607.09750v1 Announce Type: new Abstract: Cosmological models incorporating a time-dependent equation of state have recently been explored \\cite{DESI:2025fii}, showing a preference for a dynamical dark energy compo…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The application of theory of probability to the modelling of chemical kinetics systems",
-      "url": "https://arxiv.org/abs/2607.09758",
-      "summary": "arXiv:2607.09758v1 Announce Type: new Abstract: We consider a model of chemical kinetics for which the derivation of equations does not rely on the law of mass action, but is rather based on such principles as the joint …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Challenges in the simulation of enzymatic transition states with emerging multireference character",
-      "url": "https://arxiv.org/abs/2607.09769",
-      "summary": "arXiv:2607.09769v1 Announce Type: new Abstract: Highly successful drugs, such as transition-state inhibitors, were designed by mimicking the precise geometry of enzymatic transition states, a strategy that requires quant…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The New Tractatus Program: Quantum Mechanics, Anti-Totalitarian Ontology, and Consciousness",
-      "url": "https://arxiv.org/abs/2607.09819",
-      "summary": "arXiv:2607.09819v1 Announce Type: new Abstract: This article reads two recent tractatus-style texts - Niccolo Covoni and Carlo Rovelli's Tractatus Quanticus (arXiv:2512.06034) and Mikolaj Sienicki and Krzysztof Sienicki'…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spacetime from Entanglement: The Emergence of Metric, Gravity, or Topology",
-      "url": "https://arxiv.org/abs/2607.09823",
-      "summary": "arXiv:2607.09823v1 Announce Type: new Abstract: In AdS/CFT, one often finds claims along the lines that ``spacetime emerges from entanglement.\" This paper argues that behind these general statements hide three distinct e…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dark Optical Trapping of Resonant Transition-Metal Dichalcogenide Particles",
-      "url": "https://arxiv.org/abs/2607.09896",
-      "summary": "arXiv:2607.09896v1 Announce Type: new Abstract: Mitigating recoil events and minimizing optically induced heating are central challenges in the precise control and cooling of macroscopic particles. To overcome this, we p…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photonic Theta Cavity: Engineering Bound States in the Continuum in Topological Resonators Beyond the Limitations of Near Field Coupling",
-      "url": "https://arxiv.org/abs/2607.09915",
-      "summary": "arXiv:2607.09915v1 Announce Type: new Abstract: The Theta Cavity is a unique topological resonator architecture which utilizes interferometric coupling to overcome fundamental design limitations associated with near-fiel…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flow and Heat Transfer Characteristics of Forced Convection Past an Isoflux Circular Cylinder in Galinstan for Reynolds Numbers up to 600",
-      "url": "https://arxiv.org/abs/2607.09922",
-      "summary": "arXiv:2607.09922v1 Announce Type: new Abstract: A numerical investigation of steady forced convection heat transfer from an isoflux circular cylinder immersed in the liquid metal Galinstan is presented. The governing str…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Multispecies ESBGK Model for Gas Mixtures with Variable Hard Sphere Transport: Theory and Verification",
-      "url": "https://arxiv.org/abs/2607.09934",
-      "summary": "arXiv:2607.09934v1 Announce Type: new Abstract: A multi-species Bhatnagar-Gross-Krook (BGK) model for gas mixtures is presented that achieves the correct species-wise relaxation of velocities, temperatures, and pressure …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "APHABAMAS: An analytical phantom-based scheme for assessing the accuracy of high-resolution 3D MRI motion-artifact simulations",
-      "url": "https://arxiv.org/abs/2607.09945",
-      "summary": "arXiv:2607.09945v1 Announce Type: new Abstract: Purpose: Motion compromises the utility of high-resolution 3D MRI, an established tool in quantitative neuroimaging research. Deep learning-based methods have shown promise…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Artificial Intelligence Across the Cardiac Amyloidosis Diagnostic Pathway: From Single-Modality Detection to Multimodal Clinical Integration",
-      "url": "https://arxiv.org/abs/2607.09948",
-      "summary": "arXiv:2607.09948v1 Announce Type: new Abstract: Cardiac amyloidosis (CA) is increasingly recognized but remains substantially underdiagnosed, because its clinical and imaging phenotype overlaps with more common cardiomyo…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse-IMPRESSION: A Graph-based Platform for Molecular Structure Elucidation from Experimental NMR Spectroscopic Properties",
-      "url": "https://arxiv.org/abs/2607.09978",
-      "summary": "arXiv:2607.09978v1 Announce Type: new Abstract: Here, we present a platform built on our inverted Graph Transformer Network, IMPRESSION-G2, which can accurately and rapidly reconstruct molecular bonding directly from exp…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Batchelor's formula and infrared renormalization for sedimentation",
-      "url": "https://arxiv.org/abs/2607.09995",
-      "summary": "arXiv:2607.09995v1 Announce Type: new Abstract: We study the sedimentation of stationary random suspensions of rigid particles in Stokes flow. Batchelor's formula predicts the first dilute correction to the infinite-volu…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Differentiable Fast Far-Field Transform in Cylindrical Coordinates for Large-Area Cascaded Metalens Optics",
-      "url": "https://arxiv.org/abs/2607.10005",
-      "summary": "arXiv:2607.10005v1 Announce Type: new Abstract: We present a fully differentiable far-field transform in cylindrical coordinates for full-area point spread function (PSF) evaluation and optimization of large axisymmetric…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symmetry-adapted generalised normal-ordered coupled-cluster theory for excited states",
-      "url": "https://arxiv.org/abs/2607.10007",
-      "summary": "arXiv:2607.10007v1 Announce Type: new Abstract: Ground and excited electronic states in highly symmetric systems typically possess high degrees of spatial degeneracy as a consequence of point-group symmetry. However, man…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantitative Analysis of Exciton Composition and Dynamics in Y6 Films for Single-Component Solar Cells",
-      "url": "https://arxiv.org/abs/2607.10009",
-      "summary": "arXiv:2607.10009v1 Announce Type: new Abstract: Non-fullerene acceptors such as Y6 have enabled high-efficiency organic photovoltaic devices and motivated the development of single-component architectures; however, the m…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fourth-order Optoelectronic Response from Cascaded Circular Photogalvanic and Nonlinear Hall Effects",
-      "url": "https://arxiv.org/abs/2607.10012",
-      "summary": "arXiv:2607.10012v1 Announce Type: new Abstract: The interplay between nonlinear optical transitions and topological band structure offers a route to control photocurrents. We reveal a fourth-order optoelectronic response…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optically-powered Low Power Low Noise Amplifiers for MRI",
-      "url": "https://arxiv.org/abs/2607.10019",
-      "summary": "arXiv:2607.10019v1 Announce Type: new Abstract: Purpose: Fully optical receive coils can potentially allow dense receiver arrays with a large channel count, reduced channel crosstalk, and less cable clutter. The power re…",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photonic-Crystal Microresonator Frequency Combs in the O-band",
-      "url": "https://arxiv.org/abs/2607.10025",
-      "summary": "arXiv:2607.10025v1 Announce Type: new Abstract: Photonic-crystal microresonators (PhCRs) are a powerful platform for generating Kerr frequency combs. Because Kerr-soliton dynamics in PhCRs are largely decoupled from the …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scale interactions and energy transfer in the turbulent wake of a bluff body",
-      "url": "https://arxiv.org/abs/2607.10028",
-      "summary": "arXiv:2607.10028v1 Announce Type: new Abstract: Turbulent bluff-body wakes exemplify the coexistence of large-scale coherent structures and fine-scale turbulence -- two ends of a wide dynamical range of scales connected …",
-      "ts": 1784001600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lumerical-Based SiN Half-Band FIR Maximally Flat-Top Optical Filter with Low Insertion Loss and High Extinction Ratio at 193 THz",
-      "url": "https://arxiv.org/abs/2607.10031",
-      "summary": "arXiv:2607.10031v1 Announce Type: new Abstract: This paper presents a maximally flat-top half-band FIR optical filter on a silicon nitride (SiN) platform at 193 THz. Using a cascaded Mach-Zehnder Interferometer (MZI) top…",
       "ts": 1784001600000
     }
   ],

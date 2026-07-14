@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-07-14T18:05:48.310Z",
+  "updated": "2026-07-14T20:14:31.965Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Sales from controversial U.S. drug discount program rose to $100 billion last year",
+      "url": "https://www.statnews.com/pharmalot/2026/07/14/sales-from-controversial-drug-discount-program-rose-to-100-billion-last-year/?utm_campaign=rss",
+      "summary": "Prescription drug purchased under a controversial government discount program amounted to $100 billion in 2025, a 22.8% increase from the previous year.",
+      "ts": 1784059043000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "As cyclospora illnesses surge to a record, Michigan officials eye lettuce as a possible cause",
+      "url": "https://www.statnews.com/2026/07/14/cyclosporiasis-outbreak-cases-top-previous-record-4700-cases/?utm_campaign=rss",
+      "summary": "Infections from the diarrhea-causing parasite cyclospora are surging, and officials say early information points to lettuce or salad greens as a possible culprit.",
+      "ts": 1784056435000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space acquisition and NRO picks face SASC",
+      "url": "https://spacenews.com/space-acquisition-and-nro-picks-face-sasc/",
+      "summary": "Erich Hernandez-Baquero, nominated to become the Air Force’s top civilian space acquisition official, and Roger Mason, the administration’s choice to lead the National Reconnaissance Office, appeared before the Senate Ar…",
+      "ts": 1784055993000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Protein Design’s AI Revolution: Inside David Baker’s “Communal Brain”",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/protein-designs-ai-revolution-inside-david-bakers-communal-brain/",
+      "summary": "A Nobel laureate’s decades-long commitment to open science is reshaping biotechnology in the AI era. Deep learning methods can now design novel proteins across pharmaceuticals, vaccines, biosensors, and more. The post Pr…",
+      "ts": 1784054550000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut Anil Menon, Crewmates Arrive at Space Station",
+      "url": "https://www.nasa.gov/news-release/nasa-astronaut-anil-menon-crewmates-arrive-at-space-station/",
+      "summary": "NASA astronaut Anil Menon, along with Roscosmos cosmonauts Pyotr Dubrov and Anna Kikina, arrived safely at the International Space Station Tuesday, bringing the orbiting laboratory’s crew to 10 for about the next two wee…",
+      "ts": 1784053562000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Sees Crimson Cloud and Stars",
+      "url": "https://www.nasa.gov/image-article/hubble-sees-crimson-cloud-and-stars/",
+      "summary": "Blue and white stars shine brilliantly against a crimson background of glowing gas in this July 3, 2026, image of stellar nursery LH 95 from NASA’s Hubble Space Telescope. LH 95 is a region in the Large Magellanic Cloud,…",
+      "ts": 1784052393000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Top Democrats question RFK Jr.’s health care advisory panel",
@@ -673,54 +721,6 @@
       "summary": "arXiv:2604.10614v2 Announce Type: replace-cross Abstract: We introduce new kinetic equations to describe epidemics' spread while accounting for individuals' opinions on protective behaviors. Opinion exchanges occur on a …",
       "ts": 1784001600000,
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Observable Performance Does Not Fully Reflect Adaptive System Organization: A Multi-Level Analysis of Gait Dynamics Under Occlusal Constraint",
-      "url": "https://arxiv.org/abs/2605.00778",
-      "summary": "arXiv:2605.00778v2 Announce Type: replace-cross Abstract: In biomechanical systems, observable performance is often used as a proxy for underlying organization, although similar outputs may arise from different adaptive …",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Developmental Scaffoldings to Guide Self-Organisation",
-      "url": "https://arxiv.org/abs/2605.14998",
-      "summary": "arXiv:2605.14998v4 Announce Type: replace-cross Abstract: From subcellular structures to entire organisms, many natural systems generate complex organisation through self-organisation: local interactions that collectivel…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From Observed Viability to Internal Predictive Approximation: A Single-Subject Latent-Space Analysis of Gait Dynamics Under Occlusal Constraint",
-      "url": "https://arxiv.org/abs/2605.15862",
-      "summary": "arXiv:2605.15862v2 Announce Type: replace-cross Abstract: Understanding adaptive biomechanical systems requires distinguishing observable performance, static multivariate representation, longitudinal displacement, and in…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Geometric Causal Models",
-      "url": "https://arxiv.org/abs/2607.05153",
-      "summary": "arXiv:2607.05153v2 Announce Type: replace-cross Abstract: Scientists often seek to draw causal inferences from structured data that is not independently and identically distributed, such as spatial data, network data, or…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 4941-4947: (Pin)Stripes on the Fourth of July",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4941-4947-pinstripes-on-the-fourth-of-july/",
-      "summary": "Written by Deborah Padgett, MSL Operations Product Ground System Task Lead at NASA’s Jet Propulsion Laboratory Earth planning date: Thursday, July 2, 2026 Curiosity spent the week leading up to the Fourth of July holiday…",
-      "ts": 1783991044000,
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How sales teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "ts": 1783987200000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
