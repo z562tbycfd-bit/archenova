@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-13T23:04:48.301Z",
+  "updated": "2026-07-14T02:41:27.685Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Flexell Space raises $20 Million in Series A round",
+      "url": "https://spacenews.com/flexell-space-raises-20-million-in-series-a-round/",
+      "summary": "UIWANG, South Korea, July 14 — FLEXELL SPACE, a developer of next-generation space solar solutions, announced that it has completed a $20 million Series A funding round. Completed approximately two […] The post Flexell S…",
+      "ts": 1783987200000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Genome-Scale CRISPRi Atlas Maps Gene Function Across Human iPSCs",
@@ -711,14 +719,6 @@
       "title": "Startup testing nuclear battery technology in orbit",
       "url": "https://spacenews.com/startup-testing-nuclear-battery-technology-in-orbit/",
       "summary": "A City Labs mission aims to validate a tritium-powered electrical source for satellites and lunar systems that could operate where solar power falls short The post Startup testing nuclear battery technology in orbit appe…",
-      "ts": 1783688400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space capitalism needs more than a bull market",
-      "url": "https://spacenews.com/space-capitalism-needs-more-than-a-bull-market/",
-      "summary": "By most measures, commercial space is thriving. Washington produced a flurry of activity over the past year: two major executive orders, a raft of directives, and “space superiority” elevated to […] The post Space capita…",
       "ts": 1783688400000,
       "categoryId": "space"
     }

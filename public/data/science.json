@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-13T23:04:46.004Z",
+  "updated": "2026-07-14T02:41:25.365Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Most of the moon's water likely remains chemically bound in its deep interior",
+      "url": "https://phys.org/news/2026-07-moon-chemically-bound-deep-interior.html",
+      "summary": "After decades of analyzing reams of lunar rocks back here on Earth, the canonical view of the moon was that it was anhydrous; that it had extraordinarily little water. That all began to change in 2009 with new data from …",
+      "ts": 1783995601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Typhoons mix up bacteria and biochemistry",
+      "url": "https://phys.org/news/2026-07-typhoons-bacteria-biochemistry.html",
+      "summary": "After a typhoon surprised a research cruise, scientists took advantage of the unique sampling opportunity to reveal rapid changes in bacterioplankton communities and biogeochemical cycling.",
+      "ts": 1783993204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How redefining one word strips the Endangered Species Act's ability to protect vital habitat",
+      "url": "https://phys.org/news/2026-07-redefining-word-endangered-species-ability.html",
+      "summary": "It wouldn't make much sense to prohibit people from shooting a threatened woodpecker while allowing its forest to be cut down, or to bar killing endangered salmon while allowing a dam to dry out their habitat.",
+      "ts": 1783989604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dead stars in our cosmic backyard: Astronomers spot four white dwarfs hiding under our noses",
+      "url": "https://phys.org/news/2026-07-dead-stars-cosmic-backyard-astronomers.html",
+      "summary": "Researchers at the University of Warwick and the University of Colorado Boulder have directly observed, for the first time, four white dwarfs in binary star systems in our nearby region of space. These stellar binaries a…",
+      "ts": 1783987201000
+    },
     {
       "source": "Phys.org",
       "title": "Hidden in Maya wall writings: A named astronomer emerges from 1,200-year-old calculations",
@@ -672,34 +700,6 @@
       "title": "Implications of Doppler-shift for High Frequency Ocean Waves Measured Using Drifting Buoys",
       "url": "https://arxiv.org/abs/2607.08947",
       "summary": "arXiv:2607.08947v1 Announce Type: new Abstract: The advent of expendable wave buoys has greatly expanded the data available for evaluating and calibrating wave models. Ideally, the newer buoys now drifting around the wor…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-similar Worthington jets",
-      "url": "https://arxiv.org/abs/2607.08972",
-      "summary": "arXiv:2607.08972v1 Announce Type: new Abstract: When a micron-sized bubble bursts, capillary waves deform the cavity into a cone that ejects a Worthington jet. The jet is born by inertial focusing, and the local collapse…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Performance and User Response of Android's Smartphone-Based Alerts in the 2025 Marmara Ereglisi Earthquake",
-      "url": "https://arxiv.org/abs/2607.08975",
-      "summary": "arXiv:2607.08975v1 Announce Type: new Abstract: This study presents a comprehensive evaluation of Googles Android Earthquake Alert (AEA) system during the Mw 6.2 Marmara Ereglisi, Turkiye earthquake. AEA detected the eve…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Benchmarking Universal Machine Learning Force Fields for Molecular Dynamics of Lunar Regolith Minerals",
-      "url": "https://arxiv.org/abs/2607.09005",
-      "summary": "arXiv:2607.09005v1 Announce Type: new Abstract: Universal machine-learning interatomic potentials provide a promising route for accelerating molecular dynamics simulations of materials, but their transferability to lunar…",
-      "ts": 1783915200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topological Signatures of Imperial Collapse and Fragmentation: Administrative Dissolution, Territorial Reorganization and Early-Warning Observables in the Han Dynasty Network (206~BCE\\,--\\,220~CE)",
-      "url": "https://arxiv.org/abs/2607.09010",
-      "summary": "arXiv:2607.09010v1 Announce Type: new Abstract: We extend the persistent homology formalism done in references~\\cite{paper1,paper2} to the Han Dynasty ($206~\\mathrm{BCE}$--$220~\\mathrm{CE}$), testing whether the collapse…",
       "ts": 1783915200000
     }
   ],
