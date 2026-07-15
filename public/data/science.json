@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-15T08:16:34.034Z",
+  "updated": "2026-07-15T10:52:36.517Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Biodiversity boosts productivity most during extreme drought in drier grasslands",
+      "url": "https://phys.org/news/2026-07-biodiversity-boosts-productivity-extreme-drought.html",
+      "summary": "When extreme drought strikes, drier grasslands receive the greatest productivity benefit from biodiversity. By contrast, forests did not show the same context-dependent pattern under drought, according to a new global sy…",
+      "ts": 1784106011000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Generative AI's power sparks fears of dumbing humans down",
+      "url": "https://phys.org/news/2026-07-generative-ai-power-dumbing-humans.html",
+      "summary": "Generative AI chatbots capable of writing emails and computer code, translating, organizing a trip or coming up with gift ideas are now readily available, prompting some to ask whether human brainpower could suffer for l…",
+      "ts": 1784106008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The secret to hydrogen's quantum behavior lies in symmetry",
+      "url": "https://phys.org/news/2026-07-secret-hydrogen-quantum-behavior-symmetry.html",
+      "summary": "As interest in clean hydrogen power grows, so does the need for safe storage and transportation materials. One such material, vanadium, is a leading candidate because it readily absorbs hydrogen and allows it to move thr…",
+      "ts": 1784106003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfires expose millions in the Midwest and Northeast US to dangerous smoke",
+      "url": "https://phys.org/news/2026-07-wildfires-expose-millions-midwest-northeast.html",
+      "summary": "Heavy smoke from several large wildfires blazing in Canada and Minnesota is expected to engulf large swaths of the Midwest and Northeast U.S. this week, exposing millions of people to dangerous air pollution.",
+      "ts": 1784104821000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Face-to-face with ancient Rome: Exhibition in Hungary brings forgotten faces to life",
+      "url": "https://phys.org/news/2026-07-ancient-rome-hungary-forgotten-life.html",
+      "summary": "A blacksmith, a stable boy, a soldier, a slave: The faces and stories of these and other residents of an ancient Roman city in modern Hungary have been brought to life in remarkable fidelity for a new exhibition in Budap…",
+      "ts": 1784104802000
+    },
     {
       "source": "Phys.org",
       "title": "Elephants turn footsteps into messages through ground and skull vibrations",
@@ -665,41 +700,6 @@
       "title": "Coordinate Systems and Transforms in Space Physics: Terms, Definitions, Implementations, and Recommendations for Reproducibility",
       "url": "https://arxiv.org/abs/2601.07605",
       "summary": "arXiv:2601.07605v4 Announce Type: replace Abstract: In space physics, acronyms for coordinate systems (e.g., \\texttt{GEI}, \\texttt{GSM}) are commonly used; however, differences in their definitions and implementations ca…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PINN-based short-term forecasting of fault slip evolution during the 2010 slow slip event in the Bungo Channel, Japan",
-      "url": "https://arxiv.org/abs/2601.21516",
-      "summary": "arXiv:2601.21516v2 Announce Type: replace Abstract: Monitoring and forecasting fault slip evolution are fundamental for understanding earthquake cycles and assessing future seismic hazards. This study proposes a physics-…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse Engineering of Optical Constants in Photochromic Micron-Scale Hybrid Films",
-      "url": "https://arxiv.org/abs/2602.16180",
-      "summary": "arXiv:2602.16180v2 Announce Type: replace Abstract: Photochromic materials enable dynamic optical modulation through reversible transitions between distinct absorption states, with broad potential for smart windows, adap…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine Learning Based Mesh Movement for Non-Hydrostatic Tsunami Simulation",
-      "url": "https://arxiv.org/abs/2603.06152",
-      "summary": "arXiv:2603.06152v2 Announce Type: replace Abstract: This study investigates the use of machine learning based mesh movement method, specifically the Universal Mesh Movement Network (UM2N), with depth integrated non-hydro…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lasing from a Quantum-Dot-Like Buried Heterostructure in an InP Nanobeam Cavity",
-      "url": "https://arxiv.org/abs/2603.16636",
-      "summary": "arXiv:2603.16636v2 Announce Type: replace Abstract: We report lasing from a lithographically defined buried heterostructure with an estimated lateral footprint of (107 nm)^2, embedded in an InP photonic-crystal nanobeam …",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Investigating students' gender expression and its relation to sense of belonging in introductory physics courses",
-      "url": "https://arxiv.org/abs/2603.17966",
-      "summary": "arXiv:2603.17966v2 Announce Type: replace Abstract: Despite nation efforts to promote diversity and inclusion, women and gender minorities remain underrepresented in physics. One common approach to studying gender in phy…",
       "ts": 1784088000000
     }
   ],

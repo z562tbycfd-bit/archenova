@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-07-15T08:16:37.998Z",
+  "updated": "2026-07-15T10:52:39.794Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Japan seeks to ramp up launch activity",
+      "url": "https://spacenews.com/japan-seeks-to-ramp-up-launch-activity/",
+      "summary": "The Japanese government wants to sharply increase the number of launches despite struggles with both current and new launch vehicles. The post Japan seeks to ramp up launch activity appeared first on SpaceNews.",
+      "ts": 1784111278000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Isaacman attends Soyuz launch of ISS crew",
+      "url": "https://spacenews.com/isaacman-attends-soyuz-launch-of-iss-crew/",
+      "summary": "A new crew arrived at the International Space Station on July 14 on a launch witnessed in person by NASA Administrator Jared Isaacman. The post Isaacman attends Soyuz launch of ISS crew appeared first on SpaceNews.",
+      "ts": 1784107297000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Metallic waves on ancient Mars",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Metallic_waves_on_ancient_Mars",
+      "summary": "The European Space Agency’s Mars Express has spotted a swathe of metallic-looking waves filling Mars’s large Kaiser Crater – an ancient and otherworldly dune field sculpted by wind.",
+      "ts": 1784106000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare Advantage insurers face new bipartisan scrutiny over AI and care denials",
+      "url": "https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/?utm_campaign=rss",
+      "summary": "Blumenthal, Hawley press UnitedHealth, Humana, CVS for documents related to using AI to deny or delay care.",
+      "ts": 1784106000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Flood of comments on White House grantmaking overhaul is largely negative, analysis shows",
+      "url": "https://www.statnews.com/2026/07/15/trump-omb-grant-funding-proposal-comments-95-percent-opposed/?utm_campaign=rss",
+      "summary": "An analysis of public comments on a White House proposal to change the way federal contracts and grants are doled out shows widespread opposition",
+      "ts": 1784104200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Swing Therapeutics acquired by medical VR platform XR Health",
+      "url": "https://www.statnews.com/2026/07/15/swing-therapeutics-acquired-by-xr-health/?utm_campaign=rss",
+      "summary": "Swing Therapeutics, developer of a digital treatment for fibromyalgia, has been acquired by medical virtual reality company XR Health.",
+      "ts": 1784104200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Why we still don’t know what foods are the source of the cyclospora outbreak",
+      "url": "https://www.statnews.com/2026/07/15/why-cyclospora-source-remains-unknown-epidemiologist-explains/?utm_campaign=rss",
+      "summary": "“You cannot thin a system, defer the tools that would speed it up, and then wonder why the public is left guessing,” writes epidemiologist Katrine Wallace.",
+      "ts": 1784104200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A new biotech startup tries to tackle obesity, but not in the way you might expect",
+      "url": "https://www.statnews.com/2026/07/15/mwyngil-therapeutics-weight-loss-drugs-startup/?utm_campaign=rss",
+      "summary": "A new startup is making a bold move in the world of obesity drug development: It’s not working with the GLP-1 target that has taken the world by storm.",
+      "ts": 1784104200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Under a new leader, the FDA’s biologics center moves to steady itself after stormy chapter",
+      "url": "https://www.statnews.com/2026/07/15/fda-cber-acting-director-karim-mikhail-return-normal-vinay-prasad/?utm_campaign=rss",
+      "summary": "After his predecessor's turbulent tenure, Karim Mikhail is working to restore staff morale and revisit controversial rejections.",
+      "ts": 1784104200000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Curiosity Blog, Sols 4947-4953: Gale Crater Then and Now",
@@ -647,78 +719,6 @@
       "title": "Quantum Thermodynamics of Electron Transport along Chains of Redox Centers",
       "url": "https://arxiv.org/abs/2607.09728",
       "summary": "arXiv:2607.09728v1 Announce Type: cross Abstract: Intramolecular electron transport in biological systems is typically described as a diffusive hopping process, according to the semi-classical rate theories of Marcus and…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Life as Plasmas: Autonomy and Interactivism in-materio",
-      "url": "https://arxiv.org/abs/2607.09747",
-      "summary": "arXiv:2607.09747v1 Announce Type: cross Abstract: When is a material system a candidate for life at all? We argue that this question is prior to behavior, functional architecture, or computational capacity, and that at r…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cross-Subject Modeling for Widefield Calcium Imaging via Atlas-Aligned Spatiotemporal Tokenization",
-      "url": "https://arxiv.org/abs/2607.09754",
-      "summary": "arXiv:2607.09754v1 Announce Type: cross Abstract: Large-scale, multi-subject widefield calcium imaging provides unprecedented access to brain-wide cortical dynamics. However, the high dimensionality, complex spatiotempor…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Prompting-MammAlps: Fine-Grained Text-to-Video Retrieval for Camera-Trap Data",
-      "url": "https://arxiv.org/abs/2607.09876",
-      "summary": "arXiv:2607.09876v1 Announce Type: cross Abstract: Automatically retrieving videos from large camera-trap datasets remains challenging. Text-to-Video retrieval (TVR) methods based on large video-language models (VLMs) hav…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Vilya-1: An all-atom foundation model for macrocycle structure prediction and design",
-      "url": "https://arxiv.org/abs/2607.09998",
-      "summary": "arXiv:2607.09998v1 Announce Type: cross Abstract: Macrocyclic peptides are an increasingly important therapeutic modality, but existing computational methods for modeling their structures and properties are limited in sc…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Threat Vectors and the State of the Art in Defense Methods for Security in Neurotechnology",
-      "url": "https://arxiv.org/abs/2607.10451",
-      "summary": "arXiv:2607.10451v1 Announce Type: cross Abstract: Brain-computer interfaces (BCIs) are a class of diverse hardware modalities, associated software, and connected devices which are widely used in a variety of fields, incl…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Enhanced diffusion of colloidal tracers due to enzymatic activity",
-      "url": "https://arxiv.org/abs/2607.10646",
-      "summary": "arXiv:2607.10646v1 Announce Type: cross Abstract: Enzymatic catalysis can generate nonequilibrium fluctuations, but how these couple to tracer motion at larger length scales depends on physical context. Here, we investig…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Scaffold splits hide structural-frontier failures in ADMET models",
-      "url": "https://arxiv.org/abs/2607.10729",
-      "summary": "arXiv:2607.10729v1 Announce Type: cross Abstract: Molecular property models are commonly evaluated by holding out Bemis--Murcko scaffolds, yet a scaffold identifier is only one notion of chemical unfamiliarity. We introd…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Life in a tight spot: Coupled dynamics of bacteria and soil across scales",
-      "url": "https://arxiv.org/abs/2607.10734",
-      "summary": "arXiv:2607.10734v1 Announce Type: cross Abstract: Soil harbors much of Earth's bacterial life. The activity of these bacteria governs plant growth, carbon and nitrogen cycling, and the response of land to a changing clim…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On the Existence of Almost Periodic Solutions with Applications to Global Entrainment",
-      "url": "https://arxiv.org/abs/2607.10838",
-      "summary": "arXiv:2607.10838v1 Announce Type: cross Abstract: This paper provides two results that are useful in the study of the existence and the stability properties of almost periodic solutions for a given dynamical system. The …",
       "ts": 1784001600000,
       "categoryId": "bio"
     }
