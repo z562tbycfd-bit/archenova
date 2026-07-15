@@ -1,7 +1,112 @@
 {
   "ok": true,
-  "updated": "2026-07-15T18:10:01.803Z",
+  "updated": "2026-07-15T20:11:35.000Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Marsupial newborns get early arms as embryos bypass usual limb-building sequence",
+      "url": "https://phys.org/news/2026-07-marsupial-newborns-early-arms-embryos.html",
+      "summary": "Scientists have discovered that marsupial forelimbs (arms) develop much earlier before birth than previously thought, providing new insights into evolutionary innovation and biology.",
+      "ts": 1784146201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny water droplets convert stubborn plastic waste into valuable acids, study finds",
+      "url": "https://phys.org/news/2026-07-tiny-droplets-stubborn-plastic-valuable.html",
+      "summary": "A new way of converting stubborn plastic waste into high-value chemicals using only water and oxygen has been developed by an international team of scientists.",
+      "ts": 1784145605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New algorithm improves gene expression marker identification across diverse biological systems",
+      "url": "https://phys.org/news/2026-07-algorithm-gene-marker-identification-diverse.html",
+      "summary": "Researchers have developed a new computational approach that enables more accurate selection of genes that characterize different cellular states from mRNA-seq data, offering a more interpretable way to analyze complex b…",
+      "ts": 1784145604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new class of root-dwelling fungi named after the King of Sweden",
+      "url": "https://phys.org/news/2026-07-class-root-fungi-king-sweden.html",
+      "summary": "Researchers at Uppsala University have discovered a completely new fungal species, which they named after the king of Sweden. The species has been given the Latin name Semicentenialea rex, which means the king's 50th ann…",
+      "ts": 1784144406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists explain how nucleolus sub-compartments drive ribosome assembly",
+      "url": "https://phys.org/news/2026-07-scientists-nucleolus-compartments-ribosome.html",
+      "summary": "The nucleolus is a liquid-like cellular organelle where protein factories called ribosomes are assembled. Researchers knew of three distinct compartments within the nucleolus, but how these compartments function to drive…",
+      "ts": 1784144401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crab-dug tunnels boost methane-eating microbes in coastal wetlands, study finds",
+      "url": "https://phys.org/news/2026-07-crab-dug-tunnels-boost-methane.html",
+      "summary": "Wetlands are a significant producer of methane, a greenhouse gas more potent than carbon dioxide. Yet not all of it escapes into the atmosphere. One reason is crabs. A study published in the journal Environmental Science…",
+      "ts": 1784143803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "BESSY II: New sample environment allows glimpse into thermocatalytic processes",
+      "url": "https://phys.org/news/2026-07-bessy-ii-sample-environment-glimpse.html",
+      "summary": "A novel measurement cell allows, for the first time, soft and hard X-ray investigations under pressures of up to 20 bar and temperatures of up to 400°C. This provides new insights into thermocatalytic processes, such as …",
+      "ts": 1784143207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers find nearby planets to be small, strange, and utterly uninhabitable",
+      "url": "https://phys.org/news/2026-07-astronomers-nearby-planets-small-strange.html",
+      "summary": "Scientists have painted the most detailed portrait yet of the planetary system orbiting Barnard's Star—the sun's closest neighbor after Alpha Centauri, just under six light-years from Earth.",
+      "ts": 1784143201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Asteroid breakup may explain inner solar system bombardment 800 million years ago",
+      "url": "https://phys.org/news/2026-07-asteroid-breakup-solar-bombardment-million.html",
+      "summary": "A Southwest Research Institute-led study has proposed a connection between a specific collision in the main asteroid belt and an inner-solar-system-wide bombardment episode that may have had measurable biological and geo…",
+      "ts": 1784142012000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What if disabled astronauts are just better suited to space?",
+      "url": "https://phys.org/news/2026-07-disabled-astronauts-space.html",
+      "summary": "The UK Space Agency and space startup Vast just signed an agreement to send Paralympic sprinter and below-knee amputee John McFall into orbit as early as 2027. Most coverage framed it as a victory for inclusion. As a spa…",
+      "ts": 1784142006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How school choice may sustain income segregation in US classrooms",
+      "url": "https://phys.org/news/2026-07-school-choice-sustain-income-segregation.html",
+      "summary": "Schools in the U.S. are often segregated by income as well as race, a reality frequently attributed to residential segregation. Students assigned to K-12 schools based on where they live will, by extension, typically exp…",
+      "ts": 1784140807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "T. rex babies were born ready to run and feed themselves",
+      "url": "https://phys.org/news/2026-07-rex-babies-born-ready.html",
+      "summary": "Tyrannosaurus rex was a giant of the prehistoric world, standing up to 13 feet (4 meters) tall and weighing around 9 tons (8 tonnes). So you might expect that its hatchlings were also a considerable size.",
+      "ts": 1784140803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prey accessibility, not abundance, may shape predator behavior in penguins",
+      "url": "https://phys.org/news/2026-07-prey-accessibility-abundance-predator-behavior.html",
+      "summary": "Large seabird colonies have a surrounding boundary known as Ashmole's halo, where food sources are depleted, forcing the birds to travel farther to gather the food they need. The reason seems obvious—the more birds, the …",
+      "ts": 1784139606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deforestation decline is not driven by corporate commitments",
+      "url": "https://phys.org/news/2026-07-deforestation-decline-driven-corporate-commitments.html",
+      "summary": "Tropical forests are essential for biodiversity, climate regulation and carbon storage. Yet they continue to disappear at an alarming rate. Many companies have adopted zero-deforestation commitments to reduce this trend.…",
+      "ts": 1784139605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New method scales up twist-engineered oxide materials for future electronics",
+      "url": "https://phys.org/news/2026-07-method-scales-oxide-materials-future.html",
+      "summary": "Researchers have shown it is possible to expand the field of twistronics—literally. They have demonstrated a technique that allows them to fabricate oxide twistronic materials at much larger scales while also controlling…",
+      "ts": 1784139001000
+    },
     {
       "source": "Phys.org",
       "title": "Scientists find hidden individuality in viral infections",
@@ -423,6 +528,20 @@
       "ts": 1784113201000
     },
     {
+      "source": "APS PRX",
+      "title": "Covariant Path Integrals for Quantum Fields Backreacting on Classical Space-Time",
+      "url": "http://link.aps.org/doi/10.1103/2rcd-dzcf",
+      "summary": "Author(s): Jonathan Oppenheim and Zachary Weller-Davies Researchers have developed a mathematical framework to bridge the gap between Einstein’s classical gravity and quantum mechanics. Their theory allows matter to rema…",
+      "ts": 1784109600000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Electronic Structure of Compressively Strained Bilayer Nickelate Thin Film",
+      "url": "http://link.aps.org/doi/10.1103/4h5x-btvx",
+      "summary": "Author(s): Bai Yang Wang, Sebastien N. Abadi, Yidi Liu, Yu Zhang, Yong Zhong, Yijun Yu, Berit H. Goodge, Xiaoliang Zhang, Yi-Ming Wu, Ruohan Wang, Jiarui Li, Yaoju Tarn, Eun Kyo Ko, Vivek Thampy, Chun Lin, Makoto Hashimo…",
+      "ts": 1784109600000
+    },
+    {
       "source": "Phys.org",
       "title": "Biodiversity boosts productivity most during extreme drought in drier grasslands",
       "url": "https://phys.org/news/2026-07-biodiversity-boosts-productivity-extreme-drought.html",
@@ -581,125 +700,6 @@
       "title": "Full-Path Nonlinear Modeling of Microwave Power Transmission Through Ionospheric Plasma for Space Solar Power Station",
       "url": "https://arxiv.org/abs/2607.12294",
       "summary": "arXiv:2607.12294v1 Announce Type: new Abstract: Space Solar Power Station (SSPS) concepts rely on gigawatt-class microwave beams to carry orbital solar energy through the ionosphere, where the beam and the plasma form a …",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Selective avoidance of multiple line-of-sight obstacles at 130~m using locally bending space-time wave packets",
-      "url": "https://arxiv.org/abs/2607.12311",
-      "summary": "arXiv:2607.12311v1 Announce Type: new Abstract: Self-accelerating optical beams follow curved trajectories rather than propagating rectilinearly, which raises the prospect for avoiding line-of-sight (LoS) obstacles block…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Peak-Decomposition-Free Inverse Metrology of Hyperspectral Moir\\'e Photoluminescence",
-      "url": "https://arxiv.org/abs/2607.12325",
-      "summary": "arXiv:2607.12325v1 Announce Type: new Abstract: Hyperspectral photoluminescence (PL) of moir\\'e transition-metal dichalcogenide heterobilayers encodes spatially varying exciton landscapes, but extracting that information…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Space-Time Modulated vs 2-Bit Reflect-Arrays: A Comparison of Main Beam Gain and Sidelobe Level Performance",
-      "url": "https://arxiv.org/abs/2607.12342",
-      "summary": "arXiv:2607.12342v1 Announce Type: new Abstract: This paper presents a comprehensive analysis of the phase errors introduced by 2-bit reflectarray architectures and investigates their impact on aperture synthesis for beam…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct Observation of Nanoscale Chiral Light-Matter Interactions Governed by Optical Chirality",
-      "url": "https://arxiv.org/abs/2607.12435",
-      "summary": "arXiv:2607.12435v1 Announce Type: new Abstract: Optical chirality has been proposed as the fundamental quantity governing chiral light-matter interactions, but direct experimental verification has remained elusive. Here …",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergent coordination and propulsion of a model spherical ciliate",
-      "url": "https://arxiv.org/abs/2607.12436",
-      "summary": "arXiv:2607.12436v1 Announce Type: new Abstract: A longstanding challenge in biofluid dynamics research is a mechanistic understanding of the coordinated movement of motile cilia and its resulting ability to facilitate fl…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radiation reaction measurements via single-shot energy-loss determination in high-intensity laser-electron collisions",
-      "url": "https://arxiv.org/abs/2607.12439",
-      "summary": "arXiv:2607.12439v1 Announce Type: new Abstract: Effects of radiation reaction are considered a key factor for lasers-plasma-interactions at ultra-high intensities, and gaining precise understanding of these phenomena wil…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Residual Angular Chirp in a Petawatt-class Laser System on Laser-driven Proton Acceleration",
-      "url": "https://arxiv.org/abs/2607.12451",
-      "summary": "arXiv:2607.12451v1 Announce Type: new Abstract: Laser-driven proton acceleration has attracted considerable interest owing to its appealing potential in versatile applications including cancer therapy. Proton energies de…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Variable-Lattice-Density Optimization of Pin-Fin Heat Sinks under High-Reynolds-Number Flow Conditions",
-      "url": "https://arxiv.org/abs/2607.12473",
-      "summary": "arXiv:2607.12473v1 Announce Type: new Abstract: This study extends variable-lattice-density optimization to high-Reynolds-number flows for the design of periodically arranged pin-fin heat sinks. Effective permeability an…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First reduced model for integrated computations of helicon wave heating and current drive in magnetic fusion plasmas",
-      "url": "https://arxiv.org/abs/2607.12512",
-      "summary": "arXiv:2607.12512v1 Announce Type: new Abstract: Fast predictive modelling of radio-frequency heating and current drive is important for integrated tokamak scenario design, yet kinetic calculations of helicon-wave absorpt…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coherence enhancement of Rydberg polaritons",
-      "url": "https://arxiv.org/abs/2607.12513",
-      "summary": "arXiv:2607.12513v1 Announce Type: new Abstract: Quantum nonlinear optics by Rydberg polaritons can enable single-photon transistor and switch, single-photon source, and deterministic quantum information processing. A maj…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optically Derived Radio-Frequency Benchmark in Methanol: A Sub-kHz Reference for Astrophysical Tests of Fundamental Physics",
-      "url": "https://arxiv.org/abs/2607.12533",
-      "summary": "arXiv:2607.12533v1 Announce Type: new Abstract: Methanol radio lines observed in space provide sensitive probes of whether the proton-to-electron mass ratio has changed over cosmic time, but such tests require laboratory…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Aerosol generation by the splashing of low viscosity drops impacting liquid layers",
-      "url": "https://arxiv.org/abs/2607.12594",
-      "summary": "arXiv:2607.12594v1 Announce Type: new Abstract: Using theory and numerical simulations, here we describe the early stages of the impact with a velocity $V$ of a drop of radius $R_d$ of a low viscosity liquid such as wate…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unraveling the Generation Mechanism of a Mid-Latitude Plasma Blob and the Evidence of Its Rare Interaction with a MSTID Phase Front",
-      "url": "https://arxiv.org/abs/2607.12601",
-      "summary": "arXiv:2607.12601v1 Announce Type: new Abstract: We report observations of two distinct nighttime F-region irregularities, plasma blob (localized density enhancement) and medium-scale traveling ionospheric disturbance (MS…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gradient-free learning of a closed-loop wall controller for turbulent drag reduction",
-      "url": "https://arxiv.org/abs/2607.12626",
-      "summary": "arXiv:2607.12626v1 Announce Type: new Abstract: Closed-loop wall control learnt by multi-agent reinforcement learning can lower skin-friction drag in turbulent channels, but these gradient-based policies are trained on s…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploiting the latent space of deep AutoEncoders for the identification of signal pulses in noisy time-series",
-      "url": "https://arxiv.org/abs/2607.12632",
-      "summary": "arXiv:2607.12632v1 Announce Type: new Abstract: We propose a data-driven procedure, based on convolutional variational autoencoders, to identify the presence of signal pulses in long time-series. The dataset consists of …",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nanoparticle Arrays for Efficient Organic Light-Emitting Diode Emission Management",
-      "url": "https://arxiv.org/abs/2607.12635",
-      "summary": "arXiv:2607.12635v1 Announce Type: new Abstract: OLEDs are increasingly applied in illumination and displays because they offer excellent color quality, are mechanically flexible, and are self-emissive. However, their usa…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A critical consideration of X-ray detectors based on Ga2O3: excitation, carrier transport mechanisms and performance standardization",
-      "url": "https://arxiv.org/abs/2607.12638",
-      "summary": "arXiv:2607.12638v1 Announce Type: new Abstract: X-ray detection underpins a wide range of applications in medicine, security, industrial inspection, scientific research for non-destructive imaging and material analysis. …",
       "ts": 1784088000000
     }
   ],

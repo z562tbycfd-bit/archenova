@@ -1,10 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-15T18:10:04.379Z",
+  "updated": "2026-07-15T20:11:38.231Z",
   "items": [
     {
+      "source": "Genetic Engineering News",
+      "title": "Ketogenic Diet Shows Opposite Effects on Cancer Risk in Mouse Small Intestine and Colon",
+      "url": "https://www.genengnews.com/topics/cancer/ketogenic-diet-shows-opposite-effects-on-cancer-risk-in-mouse-small-intestine-and-colon/",
+      "summary": "Ketogenic diets increased small intestinal tumors but suppressed colon tumors in mice. The effects were driven by dietary fat metabolism—not ketone bodies—highlighting tissue-specific cancer risks and benefits. The post …",
+      "ts": 1784145484000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force awards Slingshot $69 million for AI-enabled training technology",
+      "url": "https://spacenews.com/space-force-awards-slingshot-69-million-for-ai-enabled-training-technology/",
+      "summary": "The 4½-year award will fund simulated satellite-defense scenarios The post Space Force awards Slingshot $69 million for AI-enabled training technology appeared first on SpaceNews.",
+      "ts": 1784142257000,
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
-      "title": "STAT+: Improvements in testing could make diagnostics more accessible, informative",
+      "title": "STAT+: New study untangles how Epstein-Barr viral infection triggers immune response in multiple sclerosis",
+      "url": "https://www.statnews.com/2026/07/15/epstein-barr-virus-immune-response-multiple-sclerosis-new-study/?utm_campaign=rss",
+      "summary": "A new study claims to have uncovered how Epstein-Barr virus launches immune responses seen in people with multiple sclerosis.",
+      "ts": 1784139471000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Saltzman’s farewell warning: Prepare for war in space to preserve peace",
+      "url": "https://spacenews.com/saltzmans-farewell-warning-prepare-for-war-in-space-to-preserve-peace/",
+      "summary": "In his final public speech as Space Force chief, Gen. Chance Saltzman called for combat credibility, stronger alliances and realism about the limits of procurement reform The post Saltzman’s farewell warning: Prepare for…",
+      "ts": 1784139260000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Improvements in Alzheimer’s testing could make diagnostics more accessible, informative",
       "url": "https://www.statnews.com/2026/07/15/aaic-in-30-alzheimers-treaatments-dementia-conference-diagnostics-treatments/?utm_campaign=rss",
       "summary": "Alzheimer's research is moving in new directions, finding ways to make testing much more accessible, and offering more nuanced results.",
       "ts": 1784138924000,
@@ -688,38 +720,6 @@
       "url": "https://www.statnews.com/2026/07/14/biotech-news-akero-team-launches-new-immunology-company-with-chinese-drug/?utm_campaign=rss",
       "summary": "FDA approves injectable Leqembi, another post-Makary reversal, and other biotech news from The Readout",
       "ts": 1784040163000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Roman Telescope Will Spot Distant Black Holes That Shred Stars",
-      "url": "https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-telescope-will-spot-distant-black-holes-that-shred-stars/",
-      "summary": "Lee esta nota de prensa en español aquí. How do black holes at the center of galaxies form and grow over time? To answer this question, scientists need to detect and study supermassive black holes at great distances, whi…",
-      "ts": 1784037600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "The risk of refusing a newborn’s vitamin K shot",
-      "url": "https://www.statnews.com/2026/07/14/healeth-news-the-risk-of-refusing-a-newborn-vitamin-k-shot/?utm_campaign=rss",
-      "summary": "Health care workers on strike at Ebola treatment center, how to tackle the U.S. alcohol epidemic, and more Morning Rounds news",
-      "ts": 1784036364000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Novel Epigenetic Therapy Targets Treatment-Resistant and TP53-Mutant AML",
-      "url": "https://www.genengnews.com/topics/drug-discovery/novel-epigenetic-therapy-targets-treatment-resistant-and-tp53-mutant-aml/",
-      "summary": "The results of a preclinical study across multiple models of acute myeloid leukemia found that the investigational hypomethylating agent, NTX-301 remained effective in treatment-resistant AML and TP53-mutant AML through …",
-      "ts": 1784035940000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a battle between Lilly and Teva, psychedelic drugs, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/14/lilly-teva-court-battle-psychedelic-drugs-guidance-finalized/?utm_campaign=rss",
-      "summary": "A U.S. appeals court revived a Teva Pharmaceuticals lawsuit accusing Eli Lilly of breaching ​an agreement allowing Teva to market a generic ‌version of Forteo",
-      "ts": 1784035000000,
       "categoryId": "bio"
     }
   ],
