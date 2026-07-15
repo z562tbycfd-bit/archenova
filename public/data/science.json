@@ -1,7 +1,112 @@
 {
   "ok": true,
-  "updated": "2026-07-15T12:17:13.457Z",
+  "updated": "2026-07-15T14:53:00.090Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "People overestimate legal protections for dogs, study finds",
+      "url": "https://phys.org/news/2026-07-people-overestimate-legal-dogs.html",
+      "summary": "Most people in the U.K. don't fully understand dog laws in the country and often believe stronger protections exist than actually exist, according to a new University of Stirling study. The research, led by psychologist …",
+      "ts": 1784127005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New process turns mixed plastic waste directly into hydrogen fuel without sorting",
+      "url": "https://phys.org/news/2026-07-plastic-hydrogen-fuel.html",
+      "summary": "Plastic has become a ubiquitous part of modern life—in water bottles, shopping bags and car dashboards. But once discarded, it is among the hardest materials on Earth to recycle. Most recycling processes require plastics…",
+      "ts": 1784127003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Antarctic change drives slowdown of global ocean circulation",
+      "url": "https://phys.org/news/2026-07-antarctic-slowdown-global-ocean-circulation.html",
+      "summary": "New Antarctic research shows the deepest layer of the Southern Ocean is shrinking faster than scientists realized, with the rate of change accelerating over the past decade. This is of worldwide significance because as i…",
+      "ts": 1784126408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mapping the seafloor: How deep can we go?",
+      "url": "https://phys.org/news/2026-07-seafloor-deep.html",
+      "summary": "Australia's ocean territory is vast and covers an area more than 1.5 times the nation's landmass. Within these waters is a diversity of resources, marine species and habitats. And they're deep. Excluding Antarctic waters…",
+      "ts": 1784126405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stealth anticancer nanoparticles made from mussel proteins that 'lie in wait and attack only cancer cells'",
+      "url": "https://phys.org/news/2026-07-stealth-anticancer-nanoparticles-mussel-proteins.html",
+      "summary": "Pancreatic cancer is considered one of the deadliest cancers because it is often diagnosed late and is difficult to treat. However, a South Korean research team has developed \"smart nanoparticles\" that remain hidden in n…",
+      "ts": 1784125207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seals filter sound through blood-filled tissue to hear underwater, study reveals",
+      "url": "https://phys.org/news/2026-07-filter-blood-tissue-underwater-reveals.html",
+      "summary": "The secret of how seals can hear in air and water has been revealed, thanks to pioneering research led by Natural History Museum scientists.",
+      "ts": 1784124603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Metallic waves on ancient Mars",
+      "url": "https://phys.org/news/2026-07-metallic-ancient-mars.html",
+      "summary": "The European Space Agency's Mars Express has spotted a swath of metallic-looking waves filling Mars's large Kaiser Crater—an ancient and otherworldly dune field sculpted by wind.",
+      "ts": 1784124601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "GRS 0917+75 is a giant radio galaxy, observations find",
+      "url": "https://phys.org/news/2026-07-grs-giant-radio-galaxy.html",
+      "summary": "European astronomers have conducted optical and radio observations of an enigmatic radio source designated GRS 0917+75. As a result, they found that GRS 0917+75 is a giant radio galaxy and determined its properties. The …",
+      "ts": 1784124005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New evidence of the transition from the last hunter-gatherers to early farming communities",
+      "url": "https://phys.org/news/2026-07-evidence-transition-hunter-early-farming.html",
+      "summary": "Archaeological work conducted at the Coves del Fem (Ulldemolins, Priorat)—located within the Serra de Montsant Natural Park—between May 30 and June 28, 2026, has yielded important new evidence for understanding the prehi…",
+      "ts": 1784124004000
+    },
+    {
+      "source": "Science News",
+      "title": "AI is not ready to fly solo in space",
+      "url": "https://www.sciencenews.org/article/ai-task-completion-ability-space-scifi",
+      "summary": "In sci-fi, AI can navigate the unknowns and — ideally — keep human travelers safe. But it’s not intelligent enough to do that yet.",
+      "ts": 1784124000000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Faster quantum computers can learn from their own mistakes",
+      "url": "https://phys.org/news/2026-07-faster-quantum.html",
+      "summary": "Quantum computers promise to solve problems that would take even the fastest conventional supercomputers a vast amount of time, but the quantum information they store and process is extremely sensitive to even tiny distu…",
+      "ts": 1784122812000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uncovering the hidden impacts of a hurricane on food supply",
+      "url": "https://phys.org/news/2026-07-uncovering-hidden-impacts-hurricane-food.html",
+      "summary": "When Hurricanes Helene and Milton struck in 2024, the storms not only left behind a trail of destruction but also exposed an often-overlooked challenge for local emergency responders: how hurricanes can disrupt the food …",
+      "ts": 1784122809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Diacylglycerols for cleaner oil processing, functional foods and medical nutrition",
+      "url": "https://phys.org/news/2026-07-diacylglycerols-cleaner-oil-functional-foods.html",
+      "summary": "Fats and oils are essential to life. They provide energy, support the absorption of fat-soluble vitamins, contribute to the structure of cell membranes, and give foods their flavor, texture and mouthfeel. Yet the way fat…",
+      "ts": 1784121601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultraviolet light uncovers the first known juveniles of a mysterious Jurassic fish family",
+      "url": "https://phys.org/news/2026-07-ultraviolet-uncovers-juveniles-mysterious-jurassic.html",
+      "summary": "For more than 150 years, fossils of Jurassic fish scattered across Europe's museums were studied and drawn by generations of scientists. However, when a paleontologist decided to shine an ultraviolet light on them, a hid…",
+      "ts": 1784120401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Model highlights patterns in how humans move across different locations",
+      "url": "https://phys.org/news/2026-07-highlights-patterns-humans.html",
+      "summary": "Every day, billions of people travel from their homes to work, schools, health care facilities, restaurants, public venues and other destinations. The complex patterns that shape how people move between these different l…",
+      "ts": 1784118601000
+    },
     {
       "source": "Phys.org",
       "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
@@ -595,111 +700,6 @@
       "title": "Constructing mode-resolved quantum optical models for emitters in photonic crystals",
       "url": "https://arxiv.org/abs/2607.12603",
       "summary": "arXiv:2607.12603v1 Announce Type: cross Abstract: Recent advances are enabling quantum emitters to interact with photonic crystals, whose electromagnetic modes exhibit complex dispersion relations, spatial mode structure…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Frequency Gravitational Wave Constraints from Precision Spectroscopy",
-      "url": "https://arxiv.org/abs/2607.12617",
-      "summary": "arXiv:2607.12617v1 Announce Type: cross Abstract: Gravitational waves affect the propagation of electromagnetic waves in laser cavities, modulating the frequency of emitted photons. We use this effect to search for high-…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum metrology with undetected mid-infrared photons for applied non-destructive testing",
-      "url": "https://arxiv.org/abs/2607.12653",
-      "summary": "arXiv:2607.12653v1 Announce Type: cross Abstract: Metrology with undetected photons is an emerging technique that leverages quantum effects and photon correlations (entanglement) to retrieve valuable information in a tar…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contrasting statistical patterns in melodic and molecular evolution reveal distinctive constraints in a culturally evolving system",
-      "url": "https://arxiv.org/abs/2607.12673",
-      "summary": "arXiv:2607.12673v1 Announce Type: cross Abstract: Evolved sequences can be used to infer the rules of evolution. Orally transmitted folk melodies are evolved sequences whose similarity to protein sequences (one-dimension…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entanglement and Optical Nonreciprocity in spontaneous Raman Scattering",
-      "url": "https://arxiv.org/abs/2607.12676",
-      "summary": "arXiv:2607.12676v1 Announce Type: cross Abstract: Inelastic light scattering is a central tool for sample characterization and label-free imaging across the physical and life sciences. Recent work has suggested that scat…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A genetic algorithm for peer-review panel composition",
-      "url": "https://arxiv.org/abs/2607.12757",
-      "summary": "arXiv:2607.12757v1 Announce Type: cross Abstract: The composition of scientific review panels is a constrained optimization problem in which a finite pool of experts must be distributed among multiple panels while balanc…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entropy-Driven Initiation and Cellular Uptake Mediated by Viscoelastic Cytoskeleton: A Kinetic Phase Diagram from Onsager Variational Principle",
-      "url": "https://arxiv.org/abs/2607.12766",
-      "summary": "arXiv:2607.12766v1 Announce Type: cross Abstract: A fundamental question in receptor-mediated endocytosis remains unanswered: what initial driving force brings ligands and receptors into close proximity? While previous m…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evaluating KAGRA upgrade scenarios for multimessenger observations of binary neutron stars",
-      "url": "https://arxiv.org/abs/2607.12769",
-      "summary": "arXiv:2607.12769v1 Announce Type: cross Abstract: Binary neutron star mergers are key targets for multimessenger astronomy, motivating future upgrades of gravitational-wave detectors. For KAGRA, both broadband sensitivit…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Supernova Neutrinos and the Origin of Biomolecular Homochirality",
-      "url": "https://arxiv.org/abs/2607.12813",
-      "summary": "arXiv:2607.12813v1 Announce Type: cross Abstract: We investigate the role of parity-violating interactions between supernova neutrinos and chiral molecules in nearby interstellar molecular clouds as a potential source of…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Quantum Computing Approach to Track Reconstruction in Strip-Type Detectors",
-      "url": "https://arxiv.org/abs/2607.12821",
-      "summary": "arXiv:2607.12821v1 Announce Type: cross Abstract: This study investigates the use of quantum annealing for particle track reconstruction in strip-type gaseous detectors. In such detectors, ghost hits and multiple hit com…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "End-to-End Quantum Key Distribution Across Hybrid Fiber and Free-Space Links with All-Optical Encoding Conversion",
-      "url": "https://arxiv.org/abs/2607.12837",
-      "summary": "arXiv:2607.12837v1 Announce Type: cross Abstract: Quantum key distribution (QKD) promises information-theoretically secure communication, but future networks must bridge fiber and free-space links that naturally employ d…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sensing the properties of virtual objects without physical feedback",
-      "url": "https://arxiv.org/abs/2607.12978",
-      "summary": "arXiv:2607.12978v1 Announce Type: cross Abstract: People who have interacted with simulated worlds and simulated objects in extended reality (XR) often have a sense that they can 'feel' the objects being simulated despit…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "picoMUX: microcontroller based time-domain multiplexing readout for kilopixel TES arrays",
-      "url": "https://arxiv.org/abs/2607.13004",
-      "summary": "arXiv:2607.13004v1 Announce Type: cross Abstract: Advances in cryogenic SQUID-based time-domain multiplexing (TDM) have outpaced their warm readout electronics. Next generation CMB telescopes are baselining kilopixel TES…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pr10+ as a candidate for a high-accuracy optical clock for tests of fundamental physics",
-      "url": "https://arxiv.org/abs/2407.17610",
-      "summary": "arXiv:2407.17610v2 Announce Type: replace Abstract: We propose In-like Pr10+ as a candidate for the development of a high-accuracy optical clock with high sensitivity to a time variation of the fine-structure constant, (…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ground and excited potential energy surfaces for CaF+Ca interactions and isotope exchange reactions",
-      "url": "https://arxiv.org/abs/2510.23303",
-      "summary": "arXiv:2510.23303v2 Announce Type: replace Abstract: We investigate the intermolecular interactions between laser-cooled CaF and Ca, in their ground and excited electronic states, aiming to understand atom-exchange reacti…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determination of atomic number density in MEMS vapor cells via single-pass absorption spectroscopy (SPAS)",
-      "url": "https://arxiv.org/abs/2511.00526",
-      "summary": "arXiv:2511.00526v4 Announce Type: replace Abstract: Micro-electro-mechanical systems (MEMS)-based (chip-scale) alkali vapor cells are key components in emerging quantum technologies, where device performance critically d…",
       "ts": 1784088000000
     }
   ],

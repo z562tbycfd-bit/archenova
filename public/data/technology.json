@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-07-15T12:17:16.304Z",
+  "updated": "2026-07-15T14:53:02.987Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Chronic Pancreatitis Therapies Informed by Patient-Derived Organoids",
+      "url": "https://www.genengnews.com/topics/drug-discovery/chronic-pancreatitis-therapies-informed-by-patient-derived-organoids/",
+      "summary": "Organoids have become a prevalent tool to bridge the gap between cell and human studies. A new organoid study uncovers chronic pancreatitis development and identifies possible therapeutic strategies. The post Chronic Pan…",
+      "ts": 1784126030000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Startup working with University of Texas focuses on trapping small debris",
+      "url": "https://spacenews.com/new-startup-working-with-university-of-texas-seeks-to-trap-small-debris/",
+      "summary": "NAPA, Calif. – Florida startup Satellite Orbital Access and Removal (SOAR) announced a partnership July 15 with the University of Texas, El Paso, (UTEP) to develop a passive system to […] The post Startup working with Un…",
+      "ts": 1784124000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "More health workers strike as Ebola cases in Congo exceed 2,000, including 754 deaths",
+      "url": "https://www.statnews.com/2026/07/15/ebola-outbreak-congo-2000-cases-health-workers-strike/?utm_campaign=rss",
+      "summary": "The number of confirmed cases of Ebola in Congo has reached 2,011, including 754 deaths, making it the the fastest-growing outbreak on record, authorities say.",
+      "ts": 1784123880000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Biogen Alzheimer’s drug, skyrocketing 340B drug sales, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/15/biogen-alzheimer-drug-skyrocketing-340b-drug-sales/?utm_campaign=rss",
+      "summary": "An Alzheimer’s drug from Biogen slowed cognitive decline in a mid-stage trial at roughly comparable rates as approved medicines",
+      "ts": 1784120800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Icarus Robotics taps KULR to provide batteries for Space Station robots",
+      "url": "https://spacenews.com/icarus-robotics-taps-kulr-to-provide-batteries-for-space-station-robots/",
+      "summary": "NAPA, Calif. – Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, selected KULR Technology Group to provide batteries for Joy, a free-flying platform destined for […] The post Ic…",
+      "ts": 1784120400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Laying the groundwork for the first human mission to Mars",
+      "url": "https://spacenews.com/laying-the-groundwork-for-the-first-human-mission-to-mars/",
+      "summary": "Sending humans to Mars and returning them safely to Earth would be one of the most complex endeavors that humans have ever carried out. The number of issues that must […] The post Laying the groundwork for the first huma…",
+      "ts": 1784120400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Volunteer Measures Record Louisiana Rainfall ",
+      "url": "https://science.nasa.gov/get-involved/citizen-science/volunteer-measures-record-louisiana-rainfall/",
+      "summary": "Join a national community of precipitation reporters providing critical data to improve scientific understanding and forecasts.",
+      "ts": 1784118720000,
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Draws Safeguards Conclusions for 179 States – IAEA Report",
+      "url": "http://www.iaea.org/newscenter/news/iaea-draws-safeguards-conclusions-for-179-states-iaea-report",
+      "summary": "",
+      "ts": 1784118609000,
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
+      "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. PsiQuantum has a plan to make a massive quantum computer out of light The machine …",
+      "ts": 1784117400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Discovers Hidden Planet in Famous Star System",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-discovers-hidden-planet-in-famous-star-system/",
+      "summary": "Astronomers using NASA’s James Webb Space Telescope have discovered a giant planet outside our solar system, called an exoplanet, hiding within one of the most intensely studied planetary systems in our Milky Way galaxy.…",
+      "ts": 1784116800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167944",
+      "summary": "Alongside gold, the little-known Sudanese commodity gum arabic – used in soft drinks, food, cosmetics and pharmaceuticals – continues to fuel the war.",
+      "ts": 1784116800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Childhood vaccination rate increases slightly, but millions remain unprotected",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167942",
+      "summary": "Global childhood immunization programmes continued to recover in 2025, but conflict, poverty and growing vaccine hesitancy are still leaving millions vulnerable to preventable diseases, according to new UN data released …",
+      "ts": 1784116800000,
+      "categoryId": "global-governance"
+    },
     {
       "source": "STAT",
       "title": "What to know about the parasitic diarrhea outbreak",
@@ -97,6 +193,14 @@
       "summary": "After his predecessor's turbulent tenure, Karim Mikhail is working to restore staff morale and revisit controversial rejections.",
       "ts": 1784104200000,
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Nuclear Science is Transforming Rainbow Trout Farming in Latin America",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-science-is-transforming-rainbow-trout-farming-in-latin-america",
+      "summary": "",
+      "ts": 1784099130000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -508,6 +612,14 @@
     },
     {
       "source": "United Nations News",
+      "title": "Skills for an uncertain future: How youth can navigate a changing job market",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167943",
+      "summary": "Choosing a path for the future has never been easy, but for young people today, such rapid technological change as artificial intelligence (AI) is making it increasingly difficult to predict which skills will remain rele…",
+      "ts": 1784030400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "World Cup football’s other goal: Helping young people talk about mental health",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167941",
       "summary": "When Dr. Sahira Al Nahari founded Shifā Art, a Saudi Arabia-based organization using art to create conversations around mental health, she noticed that men attending her therapeutic art workshops often felt uncomfortable…",
@@ -608,118 +720,6 @@
       "url": "https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series/?utm_campaign=rss",
       "summary": "America's hidden alcohol epidemic — the toll, emerging risks, shifting usage, and economic stakes — broken down in 10 charts.",
       "ts": 1784017800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: It looks like your doctor and talks like your doctor. But it’s not your doctor",
-      "url": "https://www.statnews.com/2026/07/14/deepfakes-ai-generated-medicine-misinformation-regulation-video/?utm_campaign=rss",
-      "summary": "Deepfakes undermine the credibility that makes digital care — from telehealth visits to patient portals — possible.",
-      "ts": 1784017800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
-      "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
-      "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected t…",
-      "ts": 1784016000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Artemis II astronauts visit ESA",
-      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Artemis_II_astronauts_visit_ESA",
-      "summary": "Yesterday, the four Artemis II astronauts visited ESA’s technical site in the Netherlands, where they met the team behind the European Service Module that powered their Orion spacecraft around the Moon and safely back to…",
-      "ts": 1784015340000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Fans of the Arctic",
-      "url": "https://science.nasa.gov/earth/earth-observatory/fans-of-the-arctic/",
-      "summary": "Sediment eroded from ice-capped mountains splays out across a broad river valley on Russia’s Severny Island.",
-      "ts": 1784001660000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Longitudinal MRI template of the baboon brain from birth to adolescence",
-      "url": "https://arxiv.org/abs/2607.09746",
-      "summary": "arXiv:2607.09746v1 Announce Type: new Abstract: The baboon (Papio) is an invaluable resource within nonhuman primate research, having the advantage of being a cercopithecoid (Old World monkey) with one of the largest bra…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "G2P Explorer: A Native iOS Framework for Residue-Level Genomics to Proteomics Visualization and Structural Variant Interpretation",
-      "url": "https://arxiv.org/abs/2607.09838",
-      "summary": "arXiv:2607.09838v1 Announce Type: new Abstract: Genetic testing reports coding variants far faster than they can be interpreted, and placing a variant in its biophysical context, the domain it perturbs, whether its resid…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Differential Framework for Dynamic Programming in Biological Sequence Analysis",
-      "url": "https://arxiv.org/abs/2607.09872",
-      "summary": "arXiv:2607.09872v1 Announce Type: new Abstract: Background: Dynamic programming in biological sequence analysis computes probabilities or partition functions by summing over exponentially many latent paths, alignments, d…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Emergent Generalization by Representation Learning in Artificial Neural Networks",
-      "url": "https://arxiv.org/abs/2607.10430",
-      "summary": "arXiv:2607.10430v1 Announce Type: new Abstract: Dimensionality reduction has proven powerful for identifying neural manifolds, which are low-dimensional structures underlying high-dimensional neural activity. These low-d…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning the Brain's Dynamics as a Port-Hamiltonian System",
-      "url": "https://arxiv.org/abs/2607.10439",
-      "summary": "arXiv:2607.10439v1 Announce Type: new Abstract: We model human motor cortex during a wrist-extension BCI task as a port-Hamiltonian system (pHS): a conservative interconnection (gyroscopic coupling between neural phasors…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Sandscapes: self-modifying energy landscapes with emergent branching and flips",
-      "url": "https://arxiv.org/abs/2607.10903",
-      "summary": "arXiv:2607.10903v1 Announce Type: new Abstract: Energy landscapes provide a common framework for describing learning, embryonic development, and collective dynamics. Although such landscapes may evolve over time, their d…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fast Whole-Brain, Geometry-Aware Functional Alignment for Cross-Subject Decoding",
-      "url": "https://arxiv.org/abs/2607.10931",
-      "summary": "arXiv:2607.10931v1 Announce Type: new Abstract: Decoding brain activity is useful for characterizing brain processes and understanding the functional architecture underlying cognition. However, the inter-individual varia…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Branching-Time Signatures of Growth Regime in Tumor Birth-Death Models",
-      "url": "https://arxiv.org/abs/2607.11011",
-      "summary": "arXiv:2607.11011v1 Announce Type: new Abstract: Tumor evolution is shaped by cell division, cell death, competition, and constraints imposed by the local microenvironment. Because these dynamics are usually not observed …",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stochastic individual-bases models",
-      "url": "https://arxiv.org/abs/2607.11520",
-      "summary": "arXiv:2607.11520v1 Announce Type: new Abstract: These are lecture notes for an advanced topics course in the master's programme at Bonn University. It aims to give a concise review of some of the work that has been done …",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Introducing entropy measures to PK/PD models in propofol anesthesia as a replacement of BIS",
-      "url": "https://arxiv.org/abs/2607.11535",
-      "summary": "arXiv:2607.11535v1 Announce Type: new Abstract: Depth of anesthesia is a complex but important vital state to analyze during a surgery or other procedure. One parameter to estimate this state is the bispectral index (BIS…",
-      "ts": 1784001600000,
       "categoryId": "bio"
     }
   ],
