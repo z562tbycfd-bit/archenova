@@ -1,6 +1,61 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "general-curiosity-blog-sols-4947-4953-gale-crater-then-and-now",
+    "title": "Curiosity Blog, Sols 4947-4953: Gale Crater Then and Now",
+    "category": "General",
+    "source": "NASA",
+    "originalUrl": "https://science.nasa.gov/blog/curiosity-blog-sols-4947-4953-gale-crater-then-and-now/",
+    "summary": "Written by Alex Innanen, Atmospheric Scientist at York University, Toronto Earth planning date: Friday, July 10, 2026 Curiosity had a successful long weekend and came into this week ready to explore some more. We’ve been…",
+    "coreInsight": "Curiosity Blog, Sols 4947-4953: Gale Crater Then and Now is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Written by Alex Innanen, Atmospheric Scientist at York University, Toronto Earth planning date: Friday, July 10, 2026 Curiosity had a successful long weekend and came into this week ready to explore some more. We’ve been…",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1784093130000
+  },
+  {
     "slug": "general-heat-dome-broils-the-western-u-s",
     "title": "Heat Dome Broils the Western U.S.",
     "category": "General",

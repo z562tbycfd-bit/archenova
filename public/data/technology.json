@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-15T05:34:38.680Z",
+  "updated": "2026-07-15T08:16:37.998Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 4947-4953: Gale Crater Then and Now",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4947-4953-gale-crater-then-and-now/",
+      "summary": "Written by Alex Innanen, Atmospheric Scientist at York University, Toronto Earth planning date: Friday, July 10, 2026 Curiosity had a successful long weekend and came into this week ready to explore some more. We’ve been…",
+      "ts": 1784093130000,
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "Heat Dome Broils the Western U.S.",
@@ -711,14 +719,6 @@
       "title": "On the Existence of Almost Periodic Solutions with Applications to Global Entrainment",
       "url": "https://arxiv.org/abs/2607.10838",
       "summary": "arXiv:2607.10838v1 Announce Type: cross Abstract: This paper provides two results that are useful in the study of the existence and the stability properties of almost periodic solutions for a given dynamical system. The …",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy",
-      "url": "https://arxiv.org/abs/2607.10887",
-      "summary": "arXiv:2607.10887v1 Announce Type: cross Abstract: Machine learning interatomic potentials (MLPs) have revolutionized atomistic modeling, offering the potential to replace traditional methods like Density Functional Theor…",
       "ts": 1784001600000,
       "categoryId": "bio"
     }
