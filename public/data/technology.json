@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-15T10:52:39.794Z",
+  "updated": "2026-07-15T12:17:16.304Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "What to know about the parasitic diarrhea outbreak",
+      "url": "https://www.statnews.com/2026/07/15/health-news-what-to-know-about-cyclosporiasis-parasitic-diarrhea/?utm_campaign=rss",
+      "summary": "Fallout from the end of ACA subsidies, the FDA CBER acting director \"on planet Earth,\" and more health news from Morning Rounds",
+      "ts": 1784116695000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Satellite investment sets annual record halfway through 2026",
+      "url": "https://spacenews.com/satellite-investment-sets-annual-record-halfway-through-2026/",
+      "summary": "Investment in satellite companies reached $8.1 billion in the first half of 2026, already surpassing every previous annual total tracked by early-stage investor Space Capital. The post Satellite investment sets annual re…",
+      "ts": 1784113572000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
+      "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
+      "summary": "Home to leading manufacturers, robotics pioneers and infrastructure builders, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. NVIDIA and its partners in Japan are this…",
+      "ts": 1784112697000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "Japan seeks to ramp up launch activity",
@@ -695,30 +719,6 @@
       "title": "Introducing entropy measures to PK/PD models in propofol anesthesia as a replacement of BIS",
       "url": "https://arxiv.org/abs/2607.11535",
       "summary": "arXiv:2607.11535v1 Announce Type: new Abstract: Depth of anesthesia is a complex but important vital state to analyze during a surgery or other procedure. One parameter to estimate this state is the bispectral index (BIS…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Targeting DNA Methylation: New Paradigms and the Advent of Gene-Selective Tools",
-      "url": "https://arxiv.org/abs/2607.11697",
-      "summary": "arXiv:2607.11697v1 Announce Type: new Abstract: DNA methylation can function as a toxic alkylation reaction exploited by chemotherapeutic agents to induce cancer cell death. However, finely tuned DNA methylation plays a …",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A quantitative model for the emergent population dynamics of the melanoma MITF rheostat",
-      "url": "https://arxiv.org/abs/2607.11820",
-      "summary": "arXiv:2607.11820v1 Announce Type: new Abstract: Cancer progression is driven by the ability of cells with identical driver mutations to adopt biologically distinct adaptive phenotypes. Yet the population dynamics implied…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantum Thermodynamics of Electron Transport along Chains of Redox Centers",
-      "url": "https://arxiv.org/abs/2607.09728",
-      "summary": "arXiv:2607.09728v1 Announce Type: cross Abstract: Intramolecular electron transport in biological systems is typically described as a diffusive hopping process, according to the semi-classical rate theories of Marcus and…",
       "ts": 1784001600000,
       "categoryId": "bio"
     }

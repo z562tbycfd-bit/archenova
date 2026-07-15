@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-15T10:52:36.517Z",
+  "updated": "2026-07-15T12:17:13.457Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
+      "url": "https://phys.org/news/2026-07-faintest-planet-imaged-earth-years.html",
+      "summary": "A team of astronomers has discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b—the first planet discovered in the same system—and is among …",
+      "ts": 1784116806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cave reveals influence of Antarctica and El Niño on extreme rainfall in the South of Brazil",
+      "url": "https://phys.org/news/2026-07-cave-reveals-antarctica-el-nio.html",
+      "summary": "A cave in the interior of Paraná state in Brazil contains a \"climate archive\" that enabled Brazilian researchers to reconstruct the history of extreme rainfall in Brazil's South Region over the past 7,500 years. Their fi…",
+      "ts": 1784115602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new stellar census strengthens the case for a 13.8-billion-year-old universe",
+      "url": "https://phys.org/news/2026-07-stellar-census-case-billion-year.html",
+      "summary": "Astronomers have used the ages of more than 155,000 stars in the Milky Way to independently estimate the age of the universe, and their findings may be good news for the standard cosmological model. The new research was …",
+      "ts": 1784115003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hydrology professor develops simple outdoor flood alarm to save lives",
+      "url": "https://phys.org/news/2026-07-hydrology-professor-simple-outdoor-alarm.html",
+      "summary": "In the aftermath of the devastating July 4, 2025, floods that took 139 lives in Central Texas, an associate professor at The University of Texas at Austin set out to make a new type of outdoor flood alarm: a low-tech, lo…",
+      "ts": 1784114402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: What does the 2026 World Cup reveal about modern sport?",
+      "url": "https://phys.org/news/2026-07-qa-world-cup-reveal-modern.html",
+      "summary": "It's the final week of the 2026 FIFA Men's World Cup. Over the last month, there have been plenty of highs and lows both on and off the pitch, from the overnight popularity of Cape Verde's goalkeeper Vozinha and the Norw…",
+      "ts": 1784113201000
+    },
     {
       "source": "Phys.org",
       "title": "Biodiversity boosts productivity most during extreme drought in drier grasslands",
@@ -665,41 +700,6 @@
       "title": "Determination of atomic number density in MEMS vapor cells via single-pass absorption spectroscopy (SPAS)",
       "url": "https://arxiv.org/abs/2511.00526",
       "summary": "arXiv:2511.00526v4 Announce Type: replace Abstract: Micro-electro-mechanical systems (MEMS)-based (chip-scale) alkali vapor cells are key components in emerging quantum technologies, where device performance critically d…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "2.5D Transformer: An Efficient 3D Seismic Interpolation Method without Full 3D Training",
-      "url": "https://arxiv.org/abs/2511.10033",
-      "summary": "arXiv:2511.10033v3 Announce Type: replace Abstract: Transformer has emerged as a powerful deep-learning technique for two-dimensional (2D) seismic data interpolation, owing to its global modeling ability. However, its co…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Merging the characteristics of an exceptional point and a quasi-bound state in the continuum in nanophotonic cavities",
-      "url": "https://arxiv.org/abs/2512.07494",
-      "summary": "arXiv:2512.07494v3 Announce Type: replace Abstract: In conventional eigenvalue analyses of non Hermitian two mode systems, mode coupling cannot produce the simultaneous occurrence of an exceptional point (EP) and a quasi…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Divide and conquer complex flows. Part I: cluster and manifold-based local analysis",
-      "url": "https://arxiv.org/abs/2601.05117",
-      "summary": "arXiv:2601.05117v2 Announce Type: replace Abstract: This work is a two-part study on the description and prediction of complex fluid flows through the partitioning of the flow domain. In this first part, we propose a fra…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of bending parameters on crystalline undulator radiation peak stability for 530 MeV positron channelling",
-      "url": "https://arxiv.org/abs/2601.06921",
-      "summary": "arXiv:2601.06921v2 Announce Type: replace Abstract: We investigate the stability of crystalline undulator radiation (CUR) peaks emitted by 530 MeV positron channelling in periodically bent C(110) crystals with varying be…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coordinate Systems and Transforms in Space Physics: Terms, Definitions, Implementations, and Recommendations for Reproducibility",
-      "url": "https://arxiv.org/abs/2601.07605",
-      "summary": "arXiv:2601.07605v4 Announce Type: replace Abstract: In space physics, acronyms for coordinate systems (e.g., \\texttt{GEI}, \\texttt{GSM}) are commonly used; however, differences in their definitions and implementations ca…",
       "ts": 1784088000000
     }
   ],
