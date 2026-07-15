@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-15T16:24:43.310Z",
+  "updated": "2026-07-15T18:10:04.379Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Improvements in testing could make diagnostics more accessible, informative",
+      "url": "https://www.statnews.com/2026/07/15/aaic-in-30-alzheimers-treaatments-dementia-conference-diagnostics-treatments/?utm_campaign=rss",
+      "summary": "Alzheimer's research is moving in new directions, finding ways to make testing much more accessible, and offering more nuanced results.",
+      "ts": 1784138924000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Commercial Space Federation Launches State and Local Council to Align States on National Space Capacity and Strengthen the U.S. Industrial Base",
+      "url": "https://spacenews.com/commercial-space-federation-launches-state-and-local-council-to-align-states-on-national-space-capacity-and-strengthen-the-u-s-industrial-base/",
+      "summary": "Washington, D.C. — July 15, 2026 — The Commercial Space Federation (CSF), the leading trade association representing the commercial space industry, today announced the launch of its State and Local […] The post Commercia…",
+      "ts": 1784138400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Cassidy grills Trump nominee on  past vaccine comments in heated exchange",
+      "url": "https://www.statnews.com/2026/07/15/bill-cassidy-sean-kaufman-confirmation-clash-mrna-hepatitis-b-vaccines/?utm_campaign=rss",
+      "summary": "Sean Kaufman, Trump's pick for a key pandemic preparedness role, has questioned vaccines and criticized the CDC.",
+      "ts": 1784138212000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Bipartisan lawmakers want to require U.S. to probe reliance on foreign-made drugs, ingredients",
+      "url": "https://www.statnews.com/pharmalot/2026/07/15/bill-would-require-us-probe-reliance-on-foreign-made-drugs-and-ingredients/?utm_campaign=rss",
+      "summary": "A trio of bipartisan lawmakers reintroduced a bill requiring the FTC and Treasury to investigate whether the U.S. relies too heavily on foreign countries as part of its pharmaceutical supply…",
+      "ts": 1784136409000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Elevance plots a Medicaid retreat as costs remain high",
+      "url": "https://www.statnews.com/2026/07/15/elevance-health-shrink-medicaid-portfolio-high-costs/?utm_campaign=rss",
+      "summary": "Elevance Health, the country’s second-biggest health insurer, said it plans to further shrink its Medicaid portfolio in the coming year, just as states roll out work requirements.",
+      "ts": 1784135576000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship…",
+      "ts": 1784135377000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The whistleblower, The Lab, and the fine print",
+      "url": "https://www.statnews.com/2026/07/15/mayo-whistleblower-sutter-abridge-lawsuit-news-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this AI Prognosis news roundup: Mayo's AI whistleblower, Sutter Health's reply to lawsuit over Abridge scribe, and more.",
+      "ts": 1784132912000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Glenmark to pay $29.6 million to settle price-fixing allegations in long-running battle with states",
@@ -73,6 +129,14 @@
       "summary": "Organoids have become a prevalent tool to bridge the gap between cell and human studies. A new organoid study uncovers chronic pancreatitis development and identifies possible therapeutic strategies. The post Chronic Pan…",
       "ts": 1784126030000,
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 358 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-358-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1784125434000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "SpaceNews",
@@ -209,6 +273,14 @@
       "summary": "The Japanese government wants to sharply increase the number of launches despite struggles with both current and new launch vehicles. The post Japan seeks to ramp up launch activity appeared first on SpaceNews.",
       "ts": 1784111278000,
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "ts": 1784109600000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -649,78 +721,6 @@
       "summary": "A U.S. appeals court revived a Teva Pharmaceuticals lawsuit accusing Eli Lilly of breaching ​an agreement allowing Teva to market a generic ‌version of Forteo",
       "ts": 1784035000000,
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Biogen Alzheimer’s drug slowed decline at rates on par with approved therapies, study shows",
-      "url": "https://www.statnews.com/2026/07/14/biogen-alzheimers-tau-diranersen-trial-results-ionis-aaic/?utm_campaign=rss",
-      "summary": "An experimental Alzheimer's drug from Biogen, one with a novel approach, slowed decline at comparable rates as approved drugs in a mid-stage study.",
-      "ts": 1784034900000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Claude’s inner workings, and the future of world models",
-      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O’Donnell When A…",
-      "ts": 1784031000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "U.K. government preparing to release new space strategy",
-      "url": "https://spacenews.com/u-k-government-preparing-to-release-new-space-strategy/",
-      "summary": "The British government is preparing to release a new space strategy that will provide a “whole-of-government” approach for space in the country. The post U.K. government preparing to release new space strategy appeared f…",
-      "ts": 1784030839000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "FDA Issues Proposal to Streamline Registration for Advanced Distributed Manufacturers",
-      "url": "https://www.genengnews.com/topics/bioprocessing/fda-issues-proposal-to-streamline-registration-for-advanced-distributed-manufacturers/",
-      "summary": "Distributed manufacturing establishments operate a hub-and-spoke model, with a central quality oversight hub and multiple equivalent manufacturing units at different locations. Regulations require each manufacturing unit…",
-      "ts": 1784030427000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cellares and Sonoma Biotherapeutics Agree to Automate Engineered Treg Cell Therapy Manufacturing",
-      "url": "https://www.genengnews.com/topics/translational-medicine/cellares-and-sonoma-biotherapeutics-agree-to-automate-engineered-treg-cell-therapy-manufacturing/",
-      "summary": "Cellares plans to translate the manufacturing of SonomaBio’s SBT-77-7101 onto its Cell Shuttle and automate in-process and release testing through the Cell Q quality control system. The post Cellares and Sonoma Biotherap…",
-      "ts": 1784030417000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Skills for an uncertain future: How youth can navigate a changing job market",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167943",
-      "summary": "Choosing a path for the future has never been easy, but for young people today, such rapid technological change as artificial intelligence (AI) is making it increasingly difficult to predict which skills will remain rele…",
-      "ts": 1784030400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World Cup football’s other goal: Helping young people talk about mental health",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167941",
-      "summary": "When Dr. Sahira Al Nahari founded Shifā Art, a Saudi Arabia-based organization using art to create conversations around mental health, she noticed that men attending her therapeutic art workshops often felt uncomfortable…",
-      "ts": 1784030400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167939",
-      "summary": "Humanitarians in the Gaza Strip continue to face significant challenges in reaching communities located near the so-called “Yellow Line” in northern Rafah, the UN aid coordination office OCHA said on Tuesday.",
-      "ts": 1784030400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "West Africa and the Sahel: Terrorism is changing its face",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167940",
-      "summary": "Jihadist groups are no longer content with launching attacks in West Africa and the Sahel: they administer territories, control trade routes, exploit new technologies and are gradually pushing their influence all the way…",
-      "ts": 1784030400000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
