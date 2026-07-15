@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-15T20:11:38.231Z",
+  "updated": "2026-07-15T22:03:36.521Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: At key hearing, Kennedy’s ouster of former CDC director looms over nominee to replace her",
+      "url": "https://www.statnews.com/2026/07/15/schwartz-kaufman-senate-confirmation-hearing-key-takeaways/?utm_campaign=rss",
+      "summary": "Erica Schwartz and Sean Kaufman navigated tough questions about vaccines, political independence, and pushing back on RFK Jr.",
+      "ts": 1784147164000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Increased Levels of Micro- and Nanoplastics Found in the Blood of Heart Attack Patients",
+      "url": "https://www.genengnews.com/topics/translational-medicine/increased-levels-of-micro-and-nanoplastics-found-in-the-blood-of-heart-attack-patients/",
+      "summary": "A human study showed that heart attack patients had higher levels of micro- and nanoplastics in their blood, compared with patients diagnosed with chronic ischemic heart disease and normal controls. The post Increased Le…",
+      "ts": 1784146561000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Ketogenic Diet Shows Opposite Effects on Cancer Risk in Mouse Small Intestine and Colon",
@@ -249,6 +265,46 @@
       "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "ts": 1784116800000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Schools closed in West Bank, AI in healthcare, Indigenous rights",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167950",
+      "summary": "Access to education continues to worsen in the West Bank, the United Nations reported on Wednesday.",
+      "ts": 1784116800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167949",
+      "summary": "UN Secretary-General António Guterres voiced deep concern on Wednesday over the continuing military escalation in the Middle East amid ongoing strikes by the United States and Iran over control of the Strait of Hormuz.",
+      "ts": 1784116800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: International Criminal Court briefs on Darfur",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167945",
+      "summary": "On Wednesday, the Security Council heard an update on the International Criminal Court's work in Sudan's Darfur region, referred to the Court back in 2005. Focus has recently turned to atrocities in the ongoing war betwe…",
+      "ts": 1784116800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "New guidance offers hope for reducing the global toll of dementia",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167948",
+      "summary": "The World Health Organization (WHO) has issued updated global guidelines aimed at reducing the risk of cognitive decline and dementia, saying that up to 45 per cent of cases may be preventable or delayed by addressing mo…",
+      "ts": 1784116800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Colombia: Pockets of insecurity challenge ‘vibrant democracy’, Security Council told",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167946",
+      "summary": "As Colombia awaits the inauguration of its newly elected president, pockets of insecurity remain a challenge for a nation that has overcome decades of conflict, the head of the UN verification team there told the Securit…",
+      "ts": 1784116800000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -664,62 +720,6 @@
       "url": "https://www.genengnews.com/topics/artificial-intelligence/honoring-the-innovators-driving-ais-next-era-in-life-sciences-and-healthcare/",
       "summary": "AI Discovery Awards exist to accelerate momentum and connect the most promising teams with compute resources, investor networks, and mentorship needed to move from promising research to bringing products to market. The p…",
       "ts": 1784048965000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Hospital chain HCA warns of lower profits as more patients go uninsured",
-      "url": "https://www.statnews.com/2026/07/14/hca-predicts-treating-uninsured-patients-will-trim-1-billion-in-profits/?utm_campaign=rss",
-      "summary": "It's an early indicator of the fallout from the end of extra ACA subsidies.",
-      "ts": 1784048508000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
-      "url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
-      "summary": "Enterprises have plenty of powerful models to choose from. The real test is whether the AI an enterprise builds uniquely addresses the needs of the business: improving workflows, tapping into domain knowledge and exceedi…",
-      "ts": 1784047513000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Anthropic’s Claude Science is coming for Kendall Square",
-      "url": "https://www.statnews.com/2026/07/14/anthropic-claude-science-kendall-square/?utm_campaign=rss",
-      "summary": "AI still has the potential to do more than reduce corporate head counts. Watch out, Kendall Square.",
-      "ts": 1784043679000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Majority of new Ebola cases in eastern Congo are from unknown chains, as outbreak outpaces response",
-      "url": "https://www.statnews.com/2026/07/14/ebola-outbreak-congo-new-cases-unknown-chains-of-transmission/?utm_campaign=rss",
-      "summary": "The Ebola outbreak in eastern Congo “continues to outpace the response efforts,” the WHO’s emergencies chief said on Tuesday after returning from a trip to one of the worst hit…",
-      "ts": 1784042330000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
-      "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
-      "summary": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that …",
-      "ts": 1784041220000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Antaris™ Establishes Aeonyx™ to Advance All-Domain Mission Virtualization for Defense",
-      "url": "https://spacenews.com/antaris-establishes-aeonyx-to-advance-all-domain-mission-virtualization-for-defense/",
-      "summary": "Antaris™ today announced a strategic reorganization establishing Aeonyx™, a mission virtualization company focused on helping defense organizations evaluate architectures, validate operational concepts, improve operation…",
-      "ts": 1784040988000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Akero team, backed by Fairmount, launches new immunology company",
-      "url": "https://www.statnews.com/2026/07/14/biotech-news-akero-team-launches-new-immunology-company-with-chinese-drug/?utm_campaign=rss",
-      "summary": "FDA approves injectable Leqembi, another post-Makary reversal, and other biotech news from The Readout",
-      "ts": 1784040163000,
       "categoryId": "bio"
     }
   ],
