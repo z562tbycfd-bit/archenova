@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-07-15T14:53:02.987Z",
+  "updated": "2026-07-15T16:24:43.310Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Glenmark to pay $29.6 million to settle price-fixing allegations in long-running battle with states",
+      "url": "https://www.statnews.com/pharmalot/2026/07/15/glenmark-pay-29-million-settle-price-fixing-allegations/?utm_campaign=rss",
+      "summary": "Glenmark Pharmaceuticals agreed to pay $29.6 million to settle price-fixing allegations in a long-running battle with dozens of states.",
+      "ts": 1784132468000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Modular Modeling Drives Smarter mRNA Manufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/modular-modeling-drives-smarter-mrna-manufacturing/",
+      "summary": "A modular mechanistic modeling framework is helping transform mRNA in vitro transcription by enabling faster optimization, streamlined scale-up, and quality-by-design strategies, giving bioprocess developers a powerful d…",
+      "ts": 1784131259000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Free-Floating Bioelectronic Sensors for Fermentation Monitoring",
+      "url": "https://www.genengnews.com/topics/bioprocessing/free-floating-bioelectronic-sensors-for-fermentation-monitoring/",
+      "summary": "A network of free-floating hybrid microbial-electronic sensors could provide data on solution mixing and transit time, as well as DO, temperature, pH, and other standard parameters, improving process monitoring and predi…",
+      "ts": 1784131252000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI Could Give CGT Sector Deeper Manufacturing Insights and Greater Control",
+      "url": "https://www.genengnews.com/topics/bioprocessing/ai-could-give-cgt-sector-greater-manufacturing-insights-and-control/",
+      "summary": "AI can help cell and gene therapy firms gain deeper insights about their complex production processes. The ultimate benefit of the technology will be helping industry move from reactive to predictive manufacturing. The p…",
+      "ts": 1784131238000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "In vivo CAR T Industry Leaps Forward with Challenges Ahead",
+      "url": "https://www.genengnews.com/topics/bioprocessing/in-vivo-car-t-industry-leaps-forward-with-challenges-ahead/",
+      "summary": "The emerging new class of in vivo CAR T therapeutics is seen by regulators as gene therapies with risks of off-target effects to patients. Manufacturers need to rise to the challenge. The post <i>In vivo</i> CAR T Indust…",
+      "ts": 1784131229000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: In a major policy shift, Medicare proposes to ban vendors from providing remote monitoring services",
+      "url": "https://www.statnews.com/2026/07/15/cms-proposes-ban-medicare-remote-patient-monitoring-vendors/?utm_campaign=rss",
+      "summary": "Medicare is proposing to ban vendors from providing remote patient monitoring services on behalf of doctors.",
+      "ts": 1784130110000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Celcuity’s breast cancer drug approved, its first",
+      "url": "https://www.statnews.com/2026/07/15/biotech-news-celcuity-breast-cancer-drug-approved-in-a-first/?utm_campaign=rss",
+      "summary": "FDA's new CBER chief promises normalcy, an weight loss drug without GLP-1s, and more biotech news from The Readout",
+      "ts": 1784128161000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Deaths from coronary artery disease have fallen, but more progress is within reach",
+      "url": "https://www.statnews.com/2026/07/15/coronary-artery-disease-progress-prevention-jama-study/?utm_campaign=rss",
+      "summary": "Managing risk factors is the key to further progress in reducing deaths from coronary artery disease, a new study finds.",
+      "ts": 1784127600000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Chronic Pancreatitis Therapies Informed by Patient-Derived Organoids",
@@ -33,6 +97,14 @@
       "summary": "An Alzheimer’s drug from Biogen slowed cognitive decline in a mid-stage trial at roughly comparable rates as approved medicines",
       "ts": 1784120800000,
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Replay of the online media briefing on the total solar eclipse",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Replay_of_the_online_media_briefing_on_the_total_solar_eclipse",
+      "summary": "Video: 00:57:42 ESA experts explain the science of eclipses, including visibility and key opportunities for scientific observation.",
+      "ts": 1784120400000,
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -75,12 +147,12 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "NASA",
-      "title": "NASA’s Webb Discovers Hidden Planet in Famous Star System",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-discovers-hidden-planet-in-famous-star-system/",
-      "summary": "Astronomers using NASA’s James Webb Space Telescope have discovered a giant planet outside our solar system, called an exoplanet, hiding within one of the most intensely studied planetary systems in our Milky Way galaxy.…",
+      "source": "OpenAI",
+      "title": "The US is advancing AI safety through state and federal action",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
       "ts": 1784116800000,
-      "categoryId": "space"
+      "categoryId": "ai-compute"
     },
     {
       "source": "United Nations News",
@@ -97,6 +169,14 @@
       "summary": "Global childhood immunization programmes continued to recover in 2025, but conflict, poverty and growing vaccine hesitancy are still leaving millions vulnerable to preventable diseases, according to new UN data released …",
       "ts": 1784116800000,
       "categoryId": "global-governance"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Webb Discovers Hidden Planet in Famous Star System",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-discovers-hidden-planet-in-famous-star-system/",
+      "summary": "Astronomers using NASA’s James Webb Space Telescope have discovered a giant planet outside our solar system, called an exoplanet, hiding within one of the most intensely studied planetary systems in our Milky Way galaxy.…",
+      "ts": 1784116800000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -118,7 +198,7 @@
       "source": "NVIDIA",
       "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
       "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
-      "summary": "Home to leading manufacturers, robotics pioneers and infrastructure builders, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. NVIDIA and its partners in Japan are this…",
+      "summary": "Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This …",
       "ts": 1784112697000,
       "categoryId": "ai-compute"
     },
@@ -641,86 +721,6 @@
       "summary": "Jihadist groups are no longer content with launching attacks in West Africa and the Sahel: they administer territories, control trade routes, exploit new technologies and are gradually pushing their influence all the way…",
       "ts": 1784030400000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Independent expert urges UK leaders to uphold Supreme Court ruling on women’s rights",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167937",
-      "summary": "A UN independent human rights expert has urged political leaders in the United Kingdom to support implementation of a Supreme Court ruling on the legal definition of sex, warning that opposition to updated equality guida…",
-      "ts": 1784030400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Hunted’ by drones: UN reports worst month for Ukraine’s civilians since 2022",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167935",
-      "summary": "Civilian casualties in Ukraine soared during the first half of 2026 amid escalating Russian attacks and intensifying use of deadly weapons, the UN human rights monitoring mission in the country, HRMMU, said on Tuesday.",
-      "ts": 1784030400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Cycle of escalation must end’: UN condemns deadly Strait of Hormuz attacks",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167936",
-      "summary": "The UN maritime agency, IMO, condemned overnight attacks on shipping in and around the Strait of Hormuz that killed at least two seafarers as fresh strikes were reported early Tuesday in the escalating US-Iran war.",
-      "ts": 1784030400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "People continue to stand by refugees, Gen Z shows most empathy",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167934",
-      "summary": "Protection for refugees has been enshrined in international law for more than seven decades, but how much support is there today for those fleeing conflict and persecution?",
-      "ts": 1784030400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘This is a fire’: DRC Ebola outbreak is fastest-growing ever, warns WHO",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167933",
-      "summary": "Infections of the Bundibugyo species of Ebola in the Democratic Republic of the Congo (DRC) have reached record highs and a majority of new cases are coming from “unknown chains of transmission”, the UN World Health Orga…",
-      "ts": 1784030400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How to manage AI investments in the agentic era",
-      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "ts": 1784023200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "FDA authorized Zyn nicotine pouches without knowing what they were made of, says former agency scientist",
-      "url": "https://www.statnews.com/2026/07/14/zyn-nicotine-pouches-fda-approval-microplastic-risk/?utm_campaign=rss",
-      "summary": "A former FDA toxicologist has accused the agency of authorizing Zyn nicotine pouches without fully reviewing their safety",
-      "ts": 1784021400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Drug metabolism AI competition results show that bigger may not always be better",
-      "url": "https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio/?utm_campaign=rss",
-      "summary": "The results of a recent AI competition show that better data trumps bigger models when it comes to predicting properties of drug candidates.",
-      "ts": 1784017800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "12 ideas for tackling the U.S. alcohol epidemic",
-      "url": "https://www.statnews.com/2026/07/14/alcohol-health-issues-deadliest-drug-series-final-installment-solutions/?utm_campaign=rss",
-      "summary": "The U.S. can save lives from excess alcohol use without taking drastic measures. Here are 12 steps that can help.",
-      "ts": 1784017800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: 10 charts that explain America’s hidden alcohol epidemic",
-      "url": "https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series/?utm_campaign=rss",
-      "summary": "America's hidden alcohol epidemic — the toll, emerging risks, shifting usage, and economic stakes — broken down in 10 charts.",
-      "ts": 1784017800000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

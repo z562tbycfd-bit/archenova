@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-15T14:53:00.090Z",
+  "updated": "2026-07-15T16:24:39.981Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Plasma agriculture makes strides toward super-seeding conventional methods",
+      "url": "https://phys.org/news/2026-07-plasma-agriculture-super-seeding-conventional.html",
+      "summary": "Occasionally, the sun unleashes powerful flares and coronal mass ejections, which hurl plasma and energetic particles into space. On the infant Earth, this solar activity drove cascades of atmospheric chemical reactions …",
+      "ts": 1784132404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Not the greatest glider: First study puts Australia's biggest glider to the test",
+      "url": "https://phys.org/news/2026-07-greatest-glider-australia-biggest.html",
+      "summary": "Australia's largest gliding marsupial may not be the country's best glider after all, according to new research from The Australian National University (ANU) that challenges a decades-old belief about how far southern gr…",
+      "ts": 1784132401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What does it mean to feel hot? New research argues temperature is a matter of power",
+      "url": "https://phys.org/news/2026-07-hot-temperature-power.html",
+      "summary": "On a summer day in Nashville, one person escapes the heat in an air-conditioned office while another delivers packages in a metal truck that absorbs heat or labors outdoors for hours under the sun.",
+      "ts": 1784131206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study reveals what drives the evolution of remarkable eyes in deep‑sea hyperiid amphipods",
+      "url": "https://phys.org/news/2026-07-reveals-evolution-remarkable-eyes-deepsea.html",
+      "summary": "Hyperiid amphipods are a small but anatomically diverse group of shrimp-like crustaceans with remarkable adaptations for life in the ocean's twilight zone. A team of researchers from MBARI, the Smithsonian National Museu…",
+      "ts": 1784131201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sensitive measurements uncover dual superconducting states in atom-thin NbSe₂ and TaS₂",
+      "url": "https://phys.org/news/2026-07-sensitive-uncover-dual-superconducting-states.html",
+      "summary": "A new study reveals that two widely studied ultrathin superconducting materials are more sophisticated than they appear. Although they seem to behave like simple superconductors with a single energy gap, they actually co…",
+      "ts": 1784130007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sustainability reports: What 10 years of corporate data reveal—and conceal",
+      "url": "https://phys.org/news/2026-07-sustainability-years-corporate-reveal-conceal.html",
+      "summary": "A new study finds that companies are increasingly disclosing climate data—yet coverage of value chains and social factors remains patchy. Using an AI-powered method, a team from LMU Munich and the University of Cologne a…",
+      "ts": 1784130003000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Thermodynamic Computers Go With the (Energy) Flow",
+      "url": "https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715/",
+      "summary": "Today’s computers need safeguards against random energy fluctuations. Thermodynamic computers would put those fluctuations to use. The post Thermodynamic Computers Go With the (Energy) Flow first appeared on Quanta Magaz…",
+      "ts": 1784129073000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum currents turn a nano 'soccer ball' into a powerful molecular electromagnet",
+      "url": "https://phys.org/news/2026-07-quantum-currents-nano-soccer-ball.html",
+      "summary": "Driving an electric current through a molecule can create a magnetic field. Yet in practice, such fields are often too weak to be detected experimentally. Through theoretical modeling, researchers at the Institute of Sci…",
+      "ts": 1784128810000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Kohlrabi greenhouse trial shows nutrients recovered from human excreta can replace mineral fertilizer",
+      "url": "https://phys.org/news/2026-07-kohlrabi-greenhouse-trial-nutrients-recovered.html",
+      "summary": "A new study by Caroline Ganglo and Stefan Karlowsky from the Leibniz Institute for Horticultural Sciences (IGZ) investigated whether human excreta-derived fertilizers are suitable for replacing mineral fertilizer in kohl…",
+      "ts": 1784128808000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Asteroid with unexplained orbital shift turns out to be a 'dark comet'",
+      "url": "https://phys.org/news/2026-07-asteroid-unexplained-orbital-shift-dark.html",
+      "summary": "Typically, astronomers identify comets by their distinct atmospheres, or comae, and their tails, which are created as the sun vaporizes a comet's ice. These features emit a glow when sunlight bounces off dust and water d…",
+      "ts": 1784128303000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists create first room-temperature quantum material",
+      "url": "https://phys.org/news/2026-07-physicists-room-temperature-quantum-material.html",
+      "summary": "Quantum materials could transform technologies ranging from powerful computers and ultrasecure communications to advanced energy systems. But there has always been one major obstacle.",
+      "ts": 1784127635000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Naked mole-rat queens produce an odorous chemical that ensures that only they can reproduce",
+      "url": "https://phys.org/news/2026-07-naked-mole-rat-queens-odorous.html",
+      "summary": "An international team led by Dr. Gary Lewin, group leader of the Molecular Physiology of Somatosensory Perception lab at the Max Delbrück Center in Berlin, has discovered that the queens of naked mole-rat colonies releas…",
+      "ts": 1784127633000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Desert dust in Europe is increasing with implications for health and solar energy installations",
+      "url": "https://phys.org/news/2026-07-europe-implications-health-solar-energy.html",
+      "summary": "While particulate matter air pollution from human activity in transportation, households and industry is decreasing in Europe, thanks to strict regulations, another source is developing in the opposite direction: desert …",
+      "ts": 1784127625000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study pinpoints Europe's most critical wetlands for climate action",
+      "url": "https://phys.org/news/2026-07-europe-critical-wetlands-climate-action.html",
+      "summary": "Wetlands have shaped human life in Europe since ancient times. These ecosystems provided essential resources and safe havens for plants and animals, and in many regions they also held spiritual and ritual significance. F…",
+      "ts": 1784127613000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Healthier, more sustainable diets could reshape global agriculture: New study shows by how much",
+      "url": "https://phys.org/news/2026-07-healthier-sustainable-diets-reshape-global.html",
+      "summary": "There is a clear need to shift toward healthier and more sustainable food systems. According to the 2025 EAT-Lancet Commission Report, global adoption of a flexitarian Planetary Health Diet could prevent around 15 millio…",
+      "ts": 1784127608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Risks of solar storms may be underestimated, warn researchers",
+      "url": "https://phys.org/news/2026-07-solar-storms-underestimated.html",
+      "summary": "The effects of extreme space weather may be larger than previously thought, research in the journal Nature reveals. The paper, titled \"Regression to the mean can explain saturation of geomagnetic storms,\" is led by Dr. N…",
+      "ts": 1784127606000
+    },
     {
       "source": "Phys.org",
       "title": "People overestimate legal protections for dogs, study finds",
@@ -588,118 +700,6 @@
       "title": "A cryogenic neutral-atom platform with full optical access and 2-hour trap lifetime",
       "url": "https://arxiv.org/abs/2607.12988",
       "summary": "arXiv:2607.12988v1 Announce Type: new Abstract: Neutral-atom quantum processors are rapidly scaling toward system sizes of more than ten thousand qubits, allowing for the realization of a new class of quantum computing a…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstruction-Independent Resolution Limits in Preclinical Cone-Beam Micro-CT: A Closed-Form Analysis",
-      "url": "https://arxiv.org/abs/2607.12998",
-      "summary": "arXiv:2607.12998v1 Announce Type: new Abstract: Spatial resolution in preclinical cone-beam micro-CT is bounded by two reconstruction-independent limits, a photon-noise limit from the projection-domain signal-known-exact…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-fidelity entanglement of polar molecules by dynamic geometric control",
-      "url": "https://arxiv.org/abs/2607.13008",
-      "summary": "arXiv:2607.13008v1 Announce Type: new Abstract: In quantum information systems made of optical tweezer arrays of ultracold molecules, thermal motion of molecules degrades the coherence of their interactions, which limits…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Shortcut to Statistically Steady-State Turbulence with Flow Matching",
-      "url": "https://arxiv.org/abs/2607.13022",
-      "summary": "arXiv:2607.13022v1 Announce Type: new Abstract: Many nonlinear physical systems exhibit an initial transient phase in which perturbations grow before nonlinear interactions lead to a statistically steady state. While thi…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-intrusive MEMS microphone sensing of acoustic field state in resonant acoustic levitators",
-      "url": "https://arxiv.org/abs/2607.13026",
-      "summary": "arXiv:2607.13026v1 Announce Type: new Abstract: Reliable operation of resonant acoustic levitators requires knowledge of the acoustic field state because the optimum transducer-reflector distance and resonant operating c…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "OmniPMNet: Bridging discrete and gridded PM10 forecasts via omni-query neural processes",
-      "url": "https://arxiv.org/abs/2607.11896",
-      "summary": "arXiv:2607.11896v1 Announce Type: cross Abstract: Forecasting particulate matter (PM10) requires both station-scale accuracy and continuous spatial fields, especially during severe dust storms. Chemical transport models …",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-Healing Coordination in Cognitive Swarm Agents with Bloch-Type Perceptual Memory",
-      "url": "https://arxiv.org/abs/2607.11960",
-      "summary": "arXiv:2607.11960v1 Announce Type: cross Abstract: Reactive flocking models usually map current local observations directly to motion, leaving limited room for internal perceptual state to shape recovery after disruption.…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Density evolution at fluid-fluid interfaces: A generalized Gibbs-Duhem theory",
-      "url": "https://arxiv.org/abs/2607.11988",
-      "summary": "arXiv:2607.11988v1 Announce Type: cross Abstract: The classical Gibbs-Duhem relation applies to quasi-static processes and neglects kinetic effects, leaving a fundamental gap between Gibbs thermodynamics and Newtonian me…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Harvesting Reshapes Dynamical Populations",
-      "url": "https://arxiv.org/abs/2607.12093",
-      "summary": "arXiv:2607.12093v1 Announce Type: cross Abstract: Harvesting -- the periodic removal of individuals above or below a threshold trait value -- reshapes heterogeneous populations without altering their underlying stochasti…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stop using Media Bias/Fact Check in research",
-      "url": "https://arxiv.org/abs/2607.12108",
-      "summary": "arXiv:2607.12108v1 Announce Type: cross Abstract: Media Bias/Fact Check (MBFC) purports to quantify the bias, credibility, and factuality of reporting for roughly 10,000 media sources, and the resulting data is commonly …",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Homothetic Self-Similar Solutions to the Incompressible Navier-Stokes Equations",
-      "url": "https://arxiv.org/abs/2607.12159",
-      "summary": "arXiv:2607.12159v1 Announce Type: cross Abstract: We investigate homothetic forward self-similar solutions of the incompressible Navier-Stokes equations: the solutions $\\overline{U}$ for which both $\\overline{U}$ and $\\b…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Log-Gaussian Scale-Space Limiter for Hybrid Continuum--Ballistic Gas Dynamics",
-      "url": "https://arxiv.org/abs/2607.12218",
-      "summary": "arXiv:2607.12218v1 Announce Type: cross Abstract: We propose a log-Gaussian scale-space limiter for hybrid continuum-ballistic gas dynamics. The method defines complementary continuum and ballistic weights as Gaussian cu…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Demystifying image-recovery from radio interferometers: toward a multiscale predictive model",
-      "url": "https://arxiv.org/abs/2607.12396",
-      "summary": "arXiv:2607.12396v1 Announce Type: cross Abstract: Radio interferometers suffer from the missing short-spacing problem, losing large-scale diffuse emission. This missing flux underestimates gas mass and biases key metrics…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantized Photocurrents in Gapless Topological Matter",
-      "url": "https://arxiv.org/abs/2607.12420",
-      "summary": "arXiv:2607.12420v1 Announce Type: cross Abstract: The quantum Hall effect in gapped systems represents a defining signature of nontrivial topology. Realizing this principle in gapless matter has remained a central challe…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Discrimination of Tectonic, Swarm and Impact-related Marsquakes using Spectral Characteristics",
-      "url": "https://arxiv.org/abs/2607.12493",
-      "summary": "arXiv:2607.12493v1 Announce Type: cross Abstract: The NASA InSight mission observed over 2000 marsquakes in the course of its three year mission. These quakes varied in magnitude between 1.5 and 4.5, as well as in spectr…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symbolic Weak-form Recovery of 2-D Stochastic Generators",
-      "url": "https://arxiv.org/abs/2607.12502",
-      "summary": "arXiv:2607.12502v1 Announce Type: cross Abstract: Recovering two-dimensional Ito generators from trajectory data is difficult because drift increments have low signal-to-noise, bivariate weak designs can be ill-condition…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Constructing mode-resolved quantum optical models for emitters in photonic crystals",
-      "url": "https://arxiv.org/abs/2607.12603",
-      "summary": "arXiv:2607.12603v1 Announce Type: cross Abstract: Recent advances are enabling quantum emitters to interact with photonic crystals, whose electromagnetic modes exhibit complex dispersion relations, spatial mode structure…",
       "ts": 1784088000000
     }
   ],
