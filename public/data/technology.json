@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-14T23:06:11.609Z",
+  "updated": "2026-07-15T02:39:34.251Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "AstraZeneca Licenses Global Rights to Dizal Lung Cancer Drug for Up-to-$1.5B",
+      "url": "https://www.genengnews.com/topics/cancer/astrazeneca-licenses-global-rights-to-dizal-lung-cancer-drug-for-up-to-1-5b/",
+      "summary": "Dizal has been pursuing approvals from the FDA and China’s Center for Drug Evaluation (CDE) for a new indication for Zegfrovy, as a first-line treatment for NSCLC with exon 20 insertion EGFR mutations. The post AstraZene…",
+      "ts": 1784079950000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Tick-Borne Nairoviruses Use OTU Proteases to Evade Human Antiviral Signals",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/tick-borne-nairoviruses-use-otu-proteases-to-evade-human-antiviral-signals/",
+      "summary": "Beyond familiar tick‑borne diseases, nairoviruses are quietly rising. New biochemical and structural work shows how their OTU proteases strip immune‑signaling tags, offering a foundation for biosurveillance as human infe…",
+      "ts": 1784070767000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Invites Media to Serbia Artemis Accords Signing Ceremony",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-serbia-artemis-accords-signing-ceremony/",
+      "summary": "The Republic of Serbia will sign the Artemis Accords at 5 p.m. EDT Thursday, July 16, during a ceremony at NASA Headquarters in Washington. NASA Deputy Administrator Matt Anderson will host Serbia’s Minister of Foreign A…",
+      "ts": 1784063009000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FTC settles lawsuit with CVS Caremark over charges it manipulated insulin prices, impeded access",
@@ -430,7 +454,7 @@
       "source": "arXiv q-bio",
       "title": "Imputation-free transformer learning enables robust Alzheimer's disease prediction and calibrated uncertainty quantification across heterogeneous clinical cohorts",
       "url": "https://arxiv.org/abs/2607.11656",
-      "summary": "arXiv:2607.11656v1 Announce Type: new Abstract: Accurate diagnostic classification and disease-severity prediction for Alzheimer's disease are hampered by the incompleteness and heterogeneity of real-world clinical data.…",
+      "summary": "arXiv:2607.11656v2 Announce Type: new Abstract: Accurate diagnostic classification and disease-severity prediction for Alzheimer's disease are hampered by the incompleteness and heterogeneity of real-world clinical data.…",
       "ts": 1784001600000,
       "categoryId": "bio"
     },
@@ -695,30 +719,6 @@
       "title": "A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling",
       "url": "https://arxiv.org/abs/2607.07666",
       "summary": "arXiv:2607.07666v2 Announce Type: replace Abstract: Large language models (LLMs) demonstrate remarkable reasoning capabilities, yet their stateless architecture fundamentally limits deployment in long-horizon research wo…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Rethinking the Choice Behavior of Sugar Metabolism in Bacteria",
-      "url": "https://arxiv.org/abs/2607.07677",
-      "summary": "arXiv:2607.07677v2 Announce Type: replace Abstract: Ramkrishna, Kompala, and Tsao proposed the cybernetic model of microbial growth, in which cells allocate enzyme synthesis resources according to a matching rule that mi…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Control strategies and trends to equilibrium for kinetic models of opinion dynamics driven by social activity",
-      "url": "https://arxiv.org/abs/2506.07840",
-      "summary": "arXiv:2506.07840v3 Announce Type: replace-cross Abstract: We introduce new kinetic equations modeling opinion dynamics inside a population of individuals, whose propensity to interact with each other is described by thei…",
-      "ts": 1784001600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Diffusion-Based Quality Control of Medical Image Segmentations across Organs",
-      "url": "https://arxiv.org/abs/2511.09588",
-      "summary": "arXiv:2511.09588v3 Announce Type: replace-cross Abstract: Medical image segmentation using deep learning (DL) has enabled the development of automated analysis pipelines for large-scale population studies. However, state…",
       "ts": 1784001600000,
       "categoryId": "bio"
     }

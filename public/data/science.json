@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-14T23:06:08.399Z",
+  "updated": "2026-07-15T02:39:31.746Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "When words signal conflict: Measuring exclusionary nationalism in prewar Japan",
+      "url": "https://phys.org/news/2026-07-words-conflict-exclusionary-nationalism-prewar.html",
+      "summary": "Why do countries go to war? While economic, military and geopolitical factors are often part of the answer, researchers have also pointed to exclusionary nationalism—the belief that one's own nation is superior to others…",
+      "ts": 1784082001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Low carbon dioxide levels improve microbial production of biodegradable plastic",
+      "url": "https://phys.org/news/2026-07-carbon-dioxide-microbial-production-biodegradable.html",
+      "summary": "In an innovative gas fermentation process, reducing the concentration of carbon dioxide was found to significantly improve microbial production of the biodegradable plastic poly[(R)-3-hydroxybutyrate]. Researchers found …",
+      "ts": 1784079604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Report details ecological characterization of peatlands and coastal lagoons in EU",
+      "url": "https://phys.org/news/2026-07-ecological-characterization-peatlands-coastal-lagoons.html",
+      "summary": "A new synthesis report, titled \"Ecological Characterisation of Peatlands and Coastal Lagoons in Europe,\" has been published to support the assessment, monitoring and restoration of European wetlands under EU environmenta…",
+      "ts": 1784078401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are we missing the universe's 'noosignatures?'",
+      "url": "https://phys.org/news/2026-07-universe-noosignatures.html",
+      "summary": "Astrobiology has long been split into two camps: a search for \"biosignatures\" and a search for \"intelligence.\" These look for very different things, but they also leave a huge gap in between. It took 3.5 billion years fo…",
+      "ts": 1784076002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mystery of why some toads survive deadly fungus revealed",
+      "url": "https://phys.org/news/2026-07-mystery-toads-survive-deadly-fungus.html",
+      "summary": "The mystery of why some amphibian populations recover following outbreaks of a deadly fungus has been solved in a new study led by University College London (UCL), ZSL and Imperial College London.",
+      "ts": 1784073606000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Exogenous creatine supplementation promotes tumor metastasis via megakaryocyte creatine kinase B-STAT5B signaling",
+      "url": "https://www.nature.com/articles/s41467-026-74639-z",
+      "summary": "",
+      "ts": 1784073600000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Profiling the gut resistome to unlock antimicrobial resistance biology and inform clinical risk",
+      "url": "https://www.nature.com/articles/s41467-026-75659-5",
+      "summary": "",
+      "ts": 1784073600000
+    },
+    {
+      "source": "Phys.org",
+      "title": "More than 50% of Australian university assignments used AI. How should universities respond?",
+      "url": "https://phys.org/news/2026-07-australian-university-assignments-ai-universities.html",
+      "summary": "Last week, the U.S. software company Turnitin revealed 53.6% of Australian tertiary education submissions run through its system used some form of AI in the period from October 2025–April 2026. The company, whose plagiar…",
+      "ts": 1784071204000
+    },
     {
       "source": "Phys.org",
       "title": "New technique for building ultra-thin material stacks promises quantum breakthrough",
@@ -640,66 +696,10 @@
       "ts": 1784023201000
     },
     {
-      "source": "APS PRX",
-      "title": "Topological Defect Propagation to Classify Knitted Fabrics",
-      "url": "http://link.aps.org/doi/10.1103/g565-3dyn",
-      "summary": "Author(s): Daisuke S. Shimamoto, Keiko Shimamoto, Sonia Mahmoudi, and Samuel Poincloux The ability of a fabric to be knitted into a textile can be determined on the basis of the topology of its pattern. [Phys. Rev. X 16,…",
-      "ts": 1784023200000
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Anomalous Heat Flows and Quantum Otto Engine with (In)definite Causal Order",
       "url": "http://link.aps.org/doi/10.1103/sx1m-pdhz",
       "summary": "Author(s): Qing-Feng Xue, Qi Zhang, Xu-Cai Zhuang, Ying-Jie Zhang, Yun-Jie Xia, Enrico Russo, Giulio Chiribella, Rosario Lo Franco, and Zhong-Xiao Man The principle that heat spontaneously flows from higher temperatures …",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Hidden Sector Custodial Naturalness",
-      "url": "http://link.aps.org/doi/10.1103/g4wr-5vfy",
-      "summary": "Author(s): Thede de Boer, Manfred Lindner, and Andreas Trautner Custodial naturalness is a recently introduced idea that combines conformal and scalar sector custodial symmetry to address the electroweak (EW) scale hiera…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Demonstration of Deuterium’s Enhanced Sensitivity to Symmetry Violations Governed by the Standard-Model Extension",
-      "url": "http://link.aps.org/doi/10.1103/dqvd-15q4",
-      "summary": "Author(s): A. Nanda, D. Comparat, O. Dulieu, S. Lahs, C. Malbrunot, L. Nowak, M. C. Simon, and E. Widmann We have performed hyperfine spectroscopy of two transitions in ground-state deuterium and searched for violations …",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Study of the Reactions $\\overline{n}p→2{π}^{+}{π}^{−}$, $2{π}^{+}{π}^{−}{π}^{0}$, and $2{π}^{+}{π}^{−}2{π}^{0}$ Using $J/ψ→p{π}^{−}\\overline{n}$",
-      "url": "http://link.aps.org/doi/10.1103/nm5t-qk3h",
-      "summary": "Author(s): M. Ablikim et al. (BESIII Collaboration) We report an experimental investigation of the reactions $\\overline{n}p→2{π}^{+}{π}^{−}$, $\\overline{n}p→2{π}^{+}{π}^{−}{π}^{0}$, and $\\overline{n}p→2{π}^{+}{π}^{−}2{π}…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Atomic Clock Frequency Ratios with Fractional Uncertainty $≤3.2×{10}^{−18}$",
-      "url": "http://link.aps.org/doi/10.1103/g865-9mk1",
-      "summary": "Author(s): Alexander Aeppli et al. (BACON Collaboration) We report high-precision frequency ratio measurements between optical atomic clocks based on $^{27}{\\mathrm{Al}}^{+}$, $^{171}\\mathrm{Yb}$, and $^{87}\\mathrm{Sr}$.…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Significance of Microtearing Turbulence in Turbulence-Reduced High-Density-Gradient Plasmas in Wendelstein 7-X",
-      "url": "http://link.aps.org/doi/10.1103/nd3p-yb9t",
-      "summary": "Author(s): H. Cu-Castillo, A. Bañón Navarro, G. Merlo, F. Reimold, T. Romba, O. Ford, S. Bannmann, L. Vanó, M. Wappl, J. Geiger, A. Goodman, A. Zocco, F. Jenko, and W7-X Team Gyrokinetic simulations of a turbulence-reduc…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Deep Indentation of Soft Thin Films Beyond the $10%$ Rule",
-      "url": "http://link.aps.org/doi/10.1103/8s5j-63xf",
-      "summary": "Author(s): Huang Lu and Zhaohe Dai Indentation is one of the simplest ways to feel the stiffness of matter. Interpreting indentation, however, requires care, especially for thin films—such as biological cells or soft coa…",
-      "ts": 1784023200000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Commensurate-Incommensurate Mott Transition without Magnetic Field: Emergence of Nematic Luttinger Liquid in XXZ Chain",
-      "url": "http://link.aps.org/doi/10.1103/5j3k-hztz",
-      "summary": "Author(s): Julien Fitouchi and Natalia Chepiga We investigate the zero magnetization and ground state phase diagram of a spin-$1/2$ chain with competing ferromagnetic nearest-neighbor and antiferromagnetic next-nearest-n…",
       "ts": 1784023200000
     }
   ],
