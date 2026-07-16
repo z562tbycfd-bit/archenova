@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-16T06:21:29.597Z",
+  "updated": "2026-07-16T09:17:35.103Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: CMS signals intent to revamp how it pays for clinical software and AI",
+      "url": "https://www.statnews.com/2026/07/16/cms-to-revamp-payments-for-clinical-software-ai/?utm_campaign=rss",
+      "summary": "CMS wants to build a standardized payment structure for clinical software and AI that factors in their impact on patient outcomes.",
+      "ts": 1784190600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Medicaid and SNAP cuts are exacerbating the intertwined problems of hunger and mental illness ",
+      "url": "https://www.statnews.com/2026/07/16/snap-cuts-mental-illness-hunger-psychiatric-emergency/?utm_campaign=rss",
+      "summary": "“No one built a psychiatric unit to solve hunger,” writes clinical dietician Cole Hanson. But patients come anyway.",
+      "ts": 1784190600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The growing fang-to-pharmacy pipeline",
+      "url": "https://www.statnews.com/2026/07/16/glp-1-weight-loss-drugs-gila-monster-venom-pharmaceuticals/?utm_campaign=rss",
+      "summary": "“Some of the most powerful medicines we will ever find are already here, carried in the fangs, stingers, and saliva of creatures we’ve been taught to fear,” writes Steve Midway.",
+      "ts": 1784190600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
+      "summary": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch ca…",
+      "ts": 1784185200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Swissto12 raises $70 million to accelerate small GEO satellite production",
+      "url": "https://spacenews.com/swissto12-raises-70-million-to-accelerate-small-geo-satellite-production/",
+      "summary": "Swissto12 said it has raised $70 million in fresh funding to keep up with growing demand for its small geostationary satellite manufacturing business. The post Swissto12 raises $70 million to accelerate small GEO satelli…",
+      "ts": 1784185200000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "AlphaFunctor: Bridging The Gap Between Protein Function Annotation and Property Prediction",
@@ -681,46 +721,6 @@
       "summary": "",
       "ts": 1784099130000,
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 4947-4953: Gale Crater Then and Now",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4947-4953-gale-crater-then-and-now/",
-      "summary": "Written by Alex Innanen, Atmospheric Scientist at York University, Toronto Earth planning date: Friday, July 10, 2026 Curiosity had a successful long weekend and came into this week ready to explore some more. We’ve been…",
-      "ts": 1784093130000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Heat Dome Broils the Western U.S.",
-      "url": "https://science.nasa.gov/earth/earth-observatory/heat-dome-broils-the-western-u-s/",
-      "summary": "A ridge of high pressure fueled record-breaking temperatures in Montana, Utah, and Wyoming on July 12, 2026.",
-      "ts": 1784088060000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AstraZeneca Licenses Global Rights to Dizal Lung Cancer Drug for Up-to-$1.5B",
-      "url": "https://www.genengnews.com/topics/cancer/astrazeneca-licenses-global-rights-to-dizal-lung-cancer-drug-for-up-to-1-5b/",
-      "summary": "Dizal has been pursuing approvals from the FDA and China’s Center for Drug Evaluation (CDE) for a new indication for Zegfrovy, as a first-line treatment for NSCLC with exon 20 insertion EGFR mutations. The post AstraZene…",
-      "ts": 1784079950000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Tick-Borne Nairoviruses Use OTU Proteases to Evade Human Antiviral Signals",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/tick-borne-nairoviruses-use-otu-proteases-to-evade-human-antiviral-signals/",
-      "summary": "Beyond familiar tick‑borne diseases, nairoviruses are quietly rising. New biochemical and structural work shows how their OTU proteases strip immune‑signaling tags, offering a foundation for biosurveillance as human infe…",
-      "ts": 1784070767000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Invites Media to Serbia Artemis Accords Signing Ceremony",
-      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-serbia-artemis-accords-signing-ceremony/",
-      "summary": "The Republic of Serbia will sign the Artemis Accords at 5 p.m. EDT Thursday, July 16, during a ceremony at NASA Headquarters in Washington. NASA Deputy Administrator Matt Anderson will host Serbia’s Minister of Foreign A…",
-      "ts": 1784063009000,
-      "categoryId": "space"
     }
   ],
   "categories": [

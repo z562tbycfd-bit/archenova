@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-16T06:21:26.871Z",
+  "updated": "2026-07-16T09:17:31.855Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "FIFA and pop superstars should discount tickets for fans to keep climate costs of 'mega-events' down, say researchers",
+      "url": "https://phys.org/news/2026-07-fifa-superstars-discount-tickets-fans.html",
+      "summary": "The vast majority of carbon emissions caused by \"mega-events\" such as World Cups and global concert tours come from audience travel, according to University of Cambridge researchers. In a new study, researchers estimate …",
+      "ts": 1784192406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Frog protein could become first antidote to deadly red tide toxin",
+      "url": "https://phys.org/news/2026-07-frog-protein-antidote-deadly-red.html",
+      "summary": "The \"red tide\" algal blooms that are becoming more frequent along the Pacific coast produce one of the most potent neurotoxins known: saxitoxin, or STX. The toxin accumulates in shellfish and causes paralytic shellfish p…",
+      "ts": 1784192401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change makes extreme West Africa rainfall five times likelier, study finds",
+      "url": "https://phys.org/news/2026-07-climate-extreme-west-africa-rainfall.html",
+      "summary": "Climate change has made extreme rainfall in West Africa five times more likely than in the late 19th century, scientists said Thursday, after regional floods killed nearly 100 people last month.",
+      "ts": 1784191801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Toronto air ranked among world's worst as wildfire smoke billows south",
+      "url": "https://phys.org/news/2026-07-toronto-air-world-worst-wildfire.html",
+      "summary": "Toronto had the worst air quality of any major city in the world Wednesday, the Swiss firm IQAir said, as Canadian authorities urged people to stay indoors.",
+      "ts": 1784191201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heavy smoke from wildfires blankets the US Midwest and Northeast, prompting evacuations",
+      "url": "https://phys.org/news/2026-07-heavy-wildfires-blankets-midwest-northeast.html",
+      "summary": "Thousands of visitors were told to evacuate a remote Minnesota wilderness area accessible only by boat as wildfires send dangerously heavy smoke over the U.S. Midwest and Northeast this week.",
+      "ts": 1784189980000
+    },
     {
       "source": "arXiv Physics",
       "title": "Dry dam-break over parabolic bathymetry",
@@ -665,41 +700,6 @@
       "title": "Beyond Constant Error: Heteroscedastic Bayesian Model Combination for Modeling Unmeasured Nuclei",
       "url": "https://arxiv.org/abs/2607.14039",
       "summary": "arXiv:2607.14039v1 Announce Type: cross Abstract: Experimentally inaccessible regions of the nuclear chart remain a challenge for global models of atomic nuclei to predict. This includes exotic nuclei near particle drip …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sail membranes for optomechanical accelerometry",
-      "url": "https://arxiv.org/abs/2607.14089",
-      "summary": "arXiv:2607.14089v1 Announce Type: cross Abstract: Strained membrane resonators have emerged as a promising platform for optomechanical accelerometry; however, the desired combination of low frequency and high $Q$-mass pr…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ionization rate vs. laser intensity determined from ion count vs. peak intensity due to neutral gas exposure to an 800 nm ultrashort pulsed laser",
-      "url": "https://arxiv.org/abs/2508.07500",
-      "summary": "arXiv:2508.07500v3 Announce Type: replace Abstract: The optical cycle-averaged ionization rate of Ar, O$_{2}$, and N$_{2}$ vs. local instantaneous laser intensity $I$ for linear polarized $800$ nm light is determined up …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AEGISS -- Atomic orbital and Entropy-based Guided Inference for Space Selection -- A novel semi-automated active space selection workflow for quantum chemistry and quantum computing applications",
-      "url": "https://arxiv.org/abs/2508.10671",
-      "summary": "arXiv:2508.10671v3 Announce Type: replace Abstract: The selection of a balanced active space is a critical step in multi-reference quantum chemistry calculations, particularly for systems with strong electron correlation…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Temperature and mean axial momentum vs. laser intensity of electrons released from O$_2$ by an 800 nm ultrashort pulsed laser",
-      "url": "https://arxiv.org/abs/2509.10986",
-      "summary": "arXiv:2509.10986v2 Announce Type: replace Abstract: A semi-empirical model is presented for the thermalized temperature $T$ and mean momentum in the direction of laser propagation of electrons released from O$_{2}$ after…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conformational Dynamics of 8-Oxoguanine Mispairing Reveal a Mechanism of Polymerase {\\lambda} Misincorporation",
-      "url": "https://arxiv.org/abs/2509.15520",
-      "summary": "arXiv:2509.15520v2 Announce Type: replace Abstract: Experimental evidence has shown the stability of oxygen-stress-damaged guanine, known as 8-oxoguanine. This common oxygen-damaged nucleobase is often found in the prese…",
       "ts": 1784174400000
     }
   ],
