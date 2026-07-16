@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-16T17:20:06.635Z",
+  "updated": "2026-07-16T19:15:29.375Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: GOP blocks effort to end Medicare test of AI prior authorization",
+      "url": "https://www.statnews.com/2026/07/16/medicare-ai-prior-authorization-pilot-wiser-senate-vote/?utm_campaign=rss",
+      "summary": "The Trump administration is testing the use of AI in Medicare to approve some medical services.",
+      "ts": 1784228003000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Study Finds Near-Earth Asteroid Is Actually Comet",
+      "url": "https://www.nasa.gov/solar-system/comets/nasa-study-finds-near-earth-asteroid-is-actually-comet/",
+      "summary": "New research led by scientists at NASA’s Jet Propulsion Laboratory in Southern California has revealed the identity of a puzzling near-Earth object by precisely tracking its motion through space and using powerful observ…",
+      "ts": 1784227226000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI-Designed Synthetic CRISPR-Like Nucleases Show Activity in Cells",
+      "url": "https://www.genengnews.com/topics/genome-editing/ai-designed-synthetic-crispr-like-nucleases-show-activity-in-cells/",
+      "summary": "Scientists used artificial intelligence to design CRISPR nucleases with properties not found in nature, achieving activity that matches or exceeds natural enzymes despite the proteins' complex, multi-domain structure. Th…",
+      "ts": 1784225755000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Despite earnings celebration, UnitedHealth signals more financial pain for employers",
+      "url": "https://www.statnews.com/2026/07/16/unitedhealth-employer-insurance-costs-medical-spending/?utm_campaign=rss",
+      "summary": "Insurance giant UnitedHealth signals the cost of providing workers with health insurance will climb even higher.",
+      "ts": 1784223241000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Pete Hegseth’s announcement of annual testosterone screenings for service members divides medical experts",
+      "url": "https://www.statnews.com/2026/07/16/hegseth-testosterone-testing-proposal-reactions-range-promising-crazy/?utm_campaign=rss",
+      "summary": "Medical experts are divided on Defense Secretary Pete Hegseth’s announcement that U.S. service members will undergo annual testosterone screenings.",
+      "ts": 1784222431000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "WHO: Uganda is silent on updates following disclosure of Marburg outbreak",
@@ -140,7 +180,7 @@
     },
     {
       "source": "United Nations News",
-      "title": "Countries vow faster action on development financing in annual declaration",
+      "title": "As aid dries up, countries pledge to close the $4 trillion development gap",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167957",
       "summary": "UN Member States reaffirmed their commitment to the Sustainable Development Goals (SDGs) by adopting a declaration on Wednesday that they will implement reforms to help close the $4 trillion SDG financing gap.",
       "ts": 1784203200000,
@@ -240,6 +280,14 @@
       "url": "https://spacenews.com/swissto12-raises-70-million-to-accelerate-small-geo-satellite-production/",
       "summary": "Swissto12 said it has raised $70 million in fresh funding to keep up with growing demand for its small geostationary satellite manufacturing business. The post Swissto12 raises $70 million to accelerate small GEO satelli…",
       "ts": 1784185200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Ontario Wildfire Smoke Moves East",
+      "url": "https://science.nasa.gov/earth/earth-observatory/ontario-wildfire-smoke-moves-east/",
+      "summary": "Canadian wildfires sent plumes of smoke streaming over Ontario, Quebec, and parts of the U.S. Midwest and Northeast.",
+      "ts": 1784174400000,
       "categoryId": "space"
     },
     {
@@ -401,14 +449,6 @@
       "summary": "arXiv:2603.01568v2 Announce Type: replace-cross Abstract: Efficient coding theory predicts that biological perceptual systems compress sensory input optimally under resource constraints, with the systematic structure of …",
       "ts": 1784174400000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Ontario Wildfire Smoke Moves East",
-      "url": "https://science.nasa.gov/earth/earth-observatory/ontario-wildfire-smoke-moves-east/",
-      "summary": "Canadian wildfires sent plumes of smoke streaming over Ontario, Quebec, and parts of the U.S. Midwest and Northeast.",
-      "ts": 1784174400000,
-      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -680,46 +720,6 @@
       "url": "https://www.statnews.com/2026/07/15/biotech-news-celcuity-breast-cancer-drug-approved-in-a-first/?utm_campaign=rss",
       "summary": "FDA's new CBER chief promises normalcy, an weight loss drug without GLP-1s, and more biotech news from The Readout",
       "ts": 1784128161000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Deaths from coronary artery disease have fallen, but more progress is within reach",
-      "url": "https://www.statnews.com/2026/07/15/coronary-artery-disease-progress-prevention-jama-study/?utm_campaign=rss",
-      "summary": "Managing risk factors is the key to further progress in reducing deaths from coronary artery disease, a new study finds.",
-      "ts": 1784127600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Chronic Pancreatitis Therapies Informed by Patient-Derived Organoids",
-      "url": "https://www.genengnews.com/topics/drug-discovery/chronic-pancreatitis-therapies-informed-by-patient-derived-organoids/",
-      "summary": "Organoids have become a prevalent tool to bridge the gap between cell and human studies. A new organoid study uncovers chronic pancreatitis development and identifies possible therapeutic strategies. The post Chronic Pan…",
-      "ts": 1784126030000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 358 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-358-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1784125434000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Startup working with University of Texas focuses on trapping small debris",
-      "url": "https://spacenews.com/new-startup-working-with-university-of-texas-seeks-to-trap-small-debris/",
-      "summary": "NAPA, Calif. – Florida startup Satellite Orbital Access and Removal (SOAR) announced a partnership July 15 with the University of Texas, El Paso, (UTEP) to develop a passive system to […] The post Startup working with Un…",
-      "ts": 1784124000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "More health workers strike as Ebola cases in Congo exceed 2,000, including 754 deaths",
-      "url": "https://www.statnews.com/2026/07/15/ebola-outbreak-congo-2000-cases-health-workers-strike/?utm_campaign=rss",
-      "summary": "The number of confirmed cases of Ebola in Congo has reached 2,011, including 754 deaths, making it the the fastest-growing outbreak on record, authorities say.",
-      "ts": 1784123880000,
       "categoryId": "bio"
     }
   ],
