@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-16T09:17:31.855Z",
+  "updated": "2026-07-16T11:42:14.145Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rare mutations are helping dangerous hospital bacteria slip past the last-line antibiotic defense",
+      "url": "https://phys.org/news/2026-07-rare-mutations-dangerous-hospital-bacteria.html",
+      "summary": "Another last-resort antibiotic has fallen victim to the rapid evolution of drug-resistant superbugs. The powerful antibiotic combination ceftazidime-avibactam (CZA), widely used to treat severe hospital-acquired infectio…",
+      "ts": 1784202010000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How NASA's Artemis III lander test will pave way for moon landings",
+      "url": "https://phys.org/news/2026-07-nasa-artemis-iii-lander-pave.html",
+      "summary": "Before Artemis astronauts land on the moon's surface in 2028, NASA will conduct the Artemis III demonstration mission in 2027, allowing teams on Earth and in orbit to practice rendezvous and docking operations between co…",
+      "ts": 1784202008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research shows how to expand the pool of tomorrow's leaders",
+      "url": "https://phys.org/news/2026-07-pool-tomorrow-leaders.html",
+      "summary": "Americans are dissatisfied with the state of leadership in the United States across several sectors—business, education, government and health care—a Harris poll showed in 2025. The survey raised a foundational question …",
+      "ts": 1784200802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Agri-food, trade, national security leaders call for food security to become a national security priority",
+      "url": "https://phys.org/news/2026-07-agri-food-national-leaders-priority.html",
+      "summary": "Hosted by the University of Calgary Faculty of Veterinary Medicine (UCVM), The Simpson Center for Food & Agricultural Policy, Canadian Federation of Agriculture and the Canadian Pork Council, the two-day workshop brought…",
+      "ts": 1784199603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tunas and other ocean predators may have evolved more slowly than previous research predicted",
+      "url": "https://phys.org/news/2026-07-tunas-ocean-predators-evolved-slowly.html",
+      "summary": "Today, oceans host a large variety of fast, resilient marine predators, including tunas, mackerels and various other fish species. Many of these fish belong to a lineage known as Scombridae, whose members are characteriz…",
+      "ts": 1784199601000
+    },
     {
       "source": "Phys.org",
       "title": "FIFA and pop superstars should discount tickets for fans to keep climate costs of 'mega-events' down, say researchers",
@@ -665,41 +700,6 @@
       "title": "NNStar: An end-to-end AI agent for nuclear matter and neutron star physics",
       "url": "https://arxiv.org/abs/2607.13930",
       "summary": "arXiv:2607.13930v1 Announce Type: cross Abstract: Constraining the equation of state of dense matter requires confronting effective models with massive data that spans many orders of magnitude in scale, from sub-saturati…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A novel unsupervised machine learning strategy to handle multimodal cardiac PET/MRI data",
-      "url": "https://arxiv.org/abs/2607.13936",
-      "summary": "arXiv:2607.13936v1 Announce Type: cross Abstract: Arrhythmogenic left ventricular cardiomyopathy is a genetic myocardial disease difficult to diagnose due to the lack of gold standard criteria. Simultaneous PET/MR imagin…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum observables for probabilistic classical particles",
-      "url": "https://arxiv.org/abs/2607.13937",
-      "summary": "arXiv:2607.13937v1 Announce Type: cross Abstract: The classical observables of position and momentum are not well adapted to particles in a microphysical situation where typical probability distributions are characterize…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-precision measurement of the kaonic hydrogen 1s level shift and width with SIDDHARTA-2",
-      "url": "https://arxiv.org/abs/2607.13952",
-      "summary": "arXiv:2607.13952v1 Announce Type: cross Abstract: Kaonic atoms provide a unique experimental probe of strong interaction in the low-energy regime. In particular, the strong-interaction-induced shift ($\\varepsilon_{1\\text…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "$\\texttt{iNORG}$: An open-source quantum impurity solver package based on the natural orbitals renormalization group",
-      "url": "https://arxiv.org/abs/2607.13993",
-      "summary": "arXiv:2607.13993v1 Announce Type: cross Abstract: In the context of dynamical mean-field theory (DMFT) calculations for strongly correlated electron systems, quantum impurity solvers play a central computational role in …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond Constant Error: Heteroscedastic Bayesian Model Combination for Modeling Unmeasured Nuclei",
-      "url": "https://arxiv.org/abs/2607.14039",
-      "summary": "arXiv:2607.14039v1 Announce Type: cross Abstract: Experimentally inaccessible regions of the nuclear chart remain a challenge for global models of atomic nuclei to predict. This includes exotic nuclei near particle drip …",
       "ts": 1784174400000
     }
   ],
