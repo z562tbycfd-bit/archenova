@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-15T22:03:36.521Z",
+  "updated": "2026-07-16T00:00:26.719Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Graham’s death from aortic dissection raises questions about preventing the rare disorder",
+      "url": "https://www.statnews.com/2026/07/15/lindsay-graham-death-aortic-dissection-risk-prediction-warning-signs/?utm_campaign=rss",
+      "summary": "When the body’s most important blood vessel tears from the inside, it’s a medical emergency that can be years in the making.",
+      "ts": 1784156568000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
+      "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+      "summary": "General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers capable of running foundation models at th…",
+      "ts": 1784156454000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Uses Subscale Aircraft to Accelerate Flight Innovation",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-uses-subscale-aircraft-to-accelerate-flight-innovation/",
+      "summary": "Testing new aerospace concepts in flight remains one of NASA’s most effective ways to advance knowledge and reduce risk. The Dale Reed Subscale Flight Research Laboratory at NASA’s Armstrong Flight Research Center in Edw…",
+      "ts": 1784152598000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: At key hearing, Kennedy’s ouster of former CDC director looms over nominee to replace her",
@@ -27,11 +51,35 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA Study of Pristine Meteorite Adds to Story of Ancient Asteroids",
+      "url": "https://science.nasa.gov/science-research/astromaterials/nasa-study-of-pristine-meteorite-adds-to-story-of-ancient-asteroids/",
+      "summary": "A meteorite recovered immediately upon its fall to Earth on July 16, 2024, is helping NASA scientists uncover new clues about ancient water, the chemical evolution of primitive asteroids, and the ingredients that may hav…",
+      "ts": 1784143733000,
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Space Force awards Slingshot $69 million for AI-enabled training technology",
       "url": "https://spacenews.com/space-force-awards-slingshot-69-million-for-ai-enabled-training-technology/",
       "summary": "The 4½-year award will fund simulated satellite-defense scenarios The post Space Force awards Slingshot $69 million for AI-enabled training technology appeared first on SpaceNews.",
       "ts": 1784142257000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "How NASA’s Artemis III Lander Test Will Pave Way for Moon Landings",
+      "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/",
+      "summary": "Before Artemis astronauts land on the Moon’s surface in 2028, NASA will conduct the Artemis III demonstration mission in 2027, allowing teams on Earth and in orbit to practice rendezvous and docking operations between co…",
+      "ts": 1784141452000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Anil Menon Launches to Space Station",
+      "url": "https://www.nasa.gov/image-article/anil-menon-launches-to-space-station/",
+      "summary": "NASA astronaut candidate Anna Menon and her children watch as a Soyuz rocket launches to the International Space Station with NASA astronaut Anil Menon and Roscosmos cosmonauts Pyotr Dubrov and Anna Kikina, Tuesday, July…",
+      "ts": 1784141316000,
       "categoryId": "space"
     },
     {
@@ -41,6 +89,14 @@
       "summary": "A new study claims to have uncovered how Epstein-Barr virus launches immune responses seen in people with multiple sclerosis.",
       "ts": 1784139471000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Finds Evidence of an Ancient Sandstorm",
+      "url": "https://science.nasa.gov/photojournal/curiosity-finds-evidence-of-an-ancient-sandstorm/",
+      "summary": "Description Billions of years ago, an hours-long Martian sandstorm blew so intensely that sand ripples began to climb upon one another as they moved across the surface. These layers of sediment eventually hardened into t…",
+      "ts": 1784139405000,
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -67,12 +123,28 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s Perseverance Rover Provides Sweeping View of Broom Point",
+      "url": "https://science.nasa.gov/photojournal/nasas-perseverance-rover-provides-sweeping-view-of-broom-point/",
+      "summary": "Description This view looking back up at the outside lip of the 490-foot-tall (150-meter-tall) rim of Jezero Crater was taken by the Mastcam-Z instrument aboard NASA’s Perseverance on May 15, 2025, the 1,505th day, or so…",
+      "ts": 1784138390000,
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "Cassidy grills Trump nominee on  past vaccine comments in heated exchange",
       "url": "https://www.statnews.com/2026/07/15/bill-cassidy-sean-kaufman-confirmation-clash-mrna-hepatitis-b-vaccines/?utm_campaign=rss",
       "summary": "Sean Kaufman, Trump's pick for a key pandemic preparedness role, has questioned vaccines and criticized the CDC.",
       "ts": 1784138212000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Perseverance’s Trip to ‘Broom Point’",
+      "url": "https://science.nasa.gov/photojournal/perseverances-trip-to-broom-point/",
+      "summary": "Description This orbital map shows the path NASA’s Perseverance Mars rover took to get to a location the science team has dubbed the “Broom Point member,” a sequence of layered bedrock likely more than 3.9 billion years …",
+      "ts": 1784136430000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -153,6 +225,14 @@
       "summary": "Medicare is proposing to ban vendors from providing remote patient monitoring services on behalf of doctors.",
       "ts": 1784130110000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Perseverance Rover Reads Record of Ancient Mars Impacts",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-reads-record-of-ancient-mars-impacts/",
+      "summary": "NASA’s Perseverance Mars rover has uncovered evidence that a 245-foot-thick (75-meter-thick) stack of ancient rock on the rim of Jezero Crater was built by repeated asteroid impacts. Referred to as the “Broom Point membe…",
+      "ts": 1784129404000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -267,6 +347,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s Webb Discovers Hidden Planet in Famous Star System",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-discovers-hidden-planet-in-famous-star-system/",
+      "summary": "Astronomers using NASA’s James Webb Space Telescope have discovered a giant planet outside our solar system, called an exoplanet, hiding within one of the most intensely studied planetary systems in our Milky Way galaxy.…",
+      "ts": 1784116800000,
+      "categoryId": "space"
+    },
+    {
       "source": "United Nations News",
       "title": "World News in Brief: Schools closed in West Bank, AI in healthcare, Indigenous rights",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167950",
@@ -321,14 +409,6 @@
       "summary": "Global childhood immunization programmes continued to recover in 2025, but conflict, poverty and growing vaccine hesitancy are still leaving millions vulnerable to preventable diseases, according to new UN data released …",
       "ts": 1784116800000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Discovers Hidden Planet in Famous Star System",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-discovers-hidden-planet-in-famous-star-system/",
-      "summary": "Astronomers using NASA’s James Webb Space Telescope have discovered a giant planet outside our solar system, called an exoplanet, hiding within one of the most intensely studied planetary systems in our Milky Way galaxy.…",
-      "ts": 1784116800000,
-      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -641,86 +721,6 @@
       "summary": "The Republic of Serbia will sign the Artemis Accords at 5 p.m. EDT Thursday, July 16, during a ceremony at NASA Headquarters in Washington. NASA Deputy Administrator Matt Anderson will host Serbia’s Minister of Foreign A…",
       "ts": 1784063009000,
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FTC settles lawsuit with CVS Caremark over charges it manipulated insulin prices, impeded access",
-      "url": "https://www.statnews.com/pharmalot/2026/07/14/ftc-settles-lawsuit-cvs-caremark-insulin-prices-access/?utm_campaign=rss",
-      "summary": "The FTC settled a lawsuit against CVS Caremark over allegations that the company artificially inflated the price of insulin and impeded access to the diabetes treatment.",
-      "ts": 1784062549000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Sales from controversial U.S. drug discount program rose to $100 billion last year",
-      "url": "https://www.statnews.com/pharmalot/2026/07/14/sales-from-controversial-drug-discount-program-rose-to-100-billion-last-year/?utm_campaign=rss",
-      "summary": "Prescription drugs purchased under a controversial government discount program amounted to $100 billion in 2025, a 22.8% increase from the previous year.",
-      "ts": 1784059043000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "As cyclospora illnesses surge to a record, Michigan officials eye lettuce as a possible cause",
-      "url": "https://www.statnews.com/2026/07/14/cyclosporiasis-outbreak-cases-top-previous-record-4700-cases/?utm_campaign=rss",
-      "summary": "Infections from the diarrhea-causing parasite cyclospora are surging, and officials say early information points to lettuce or salad greens as a possible culprit.",
-      "ts": 1784056435000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space acquisition and NRO picks face SASC",
-      "url": "https://spacenews.com/space-acquisition-and-nro-picks-face-sasc/",
-      "summary": "Erich Hernandez-Baquero, nominated to become the Air Force’s top civilian space acquisition official, and Roger Mason, the administration’s choice to lead the National Reconnaissance Office, appeared before the Senate Ar…",
-      "ts": 1784055993000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Protein Design’s AI Revolution: Inside David Baker’s “Communal Brain”",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/protein-designs-ai-revolution-inside-david-bakers-communal-brain/",
-      "summary": "A Nobel laureate’s decades-long commitment to open science is reshaping biotechnology in the AI era. Deep learning methods can now design novel proteins across pharmaceuticals, vaccines, biosensors, and more. The post Pr…",
-      "ts": 1784054550000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut Anil Menon, Crewmates Arrive at Space Station",
-      "url": "https://www.nasa.gov/news-release/nasa-astronaut-anil-menon-crewmates-arrive-at-space-station/",
-      "summary": "NASA astronaut Anil Menon, along with Roscosmos cosmonauts Pyotr Dubrov and Anna Kikina, arrived safely at the International Space Station Tuesday, bringing the orbiting laboratory’s crew to 10 for about the next two wee…",
-      "ts": 1784053562000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Hubble Sees Crimson Cloud and Stars",
-      "url": "https://www.nasa.gov/image-article/hubble-sees-crimson-cloud-and-stars/",
-      "summary": "Blue and white stars shine brilliantly against a crimson background of glowing gas in this July 3, 2026, image of stellar nursery LH 95 from NASA’s Hubble Space Telescope. LH 95 is a region in the Large Magellanic Cloud,…",
-      "ts": 1784052393000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Top Democrats question RFK Jr.’s health care advisory panel",
-      "url": "https://www.statnews.com/2026/07/14/senators-raise-question-hhs-healthcare-advisory-committee-members/?utm_campaign=rss",
-      "summary": "Democratic senators question presence of Trump donors, Tony Robbins on health care advisory panel.",
-      "ts": 1784051044000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Jets Turn Red, White, and Blue",
-      "url": "https://www.nasa.gov/image-article/nasa-jets-turn-red-white-and-blue/",
-      "summary": "In honor of America’s 250th birthday, two of NASA’s most iconic aircraft got a fresh coat of red, white, and blue paint ahead of a flyover in Washington on July 4, 2026, with other NASA aircraft. An F-15 and an F/A-18 fr…",
-      "ts": 1784049233000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Honoring the Innovators Driving AI’s Next Era in Life Sciences and Healthcare",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/honoring-the-innovators-driving-ais-next-era-in-life-sciences-and-healthcare/",
-      "summary": "AI Discovery Awards exist to accelerate momentum and connect the most promising teams with compute resources, investor networks, and mentorship needed to move from promising research to bringing products to market. The p…",
-      "ts": 1784048965000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

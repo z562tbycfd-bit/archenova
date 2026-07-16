@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-15T22:03:33.617Z",
+  "updated": "2026-07-16T00:00:18.983Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Unhoused people and wildlife are increasingly coming into contact. Here's what can be done to protect them",
+      "url": "https://phys.org/news/2026-07-unhoused-people-wildlife-contact.html",
+      "summary": "As homelessness increases around the world, more unhoused people are turning to parks and other urban green spaces to seek shelter. However, these places are also home to animals that live in and around urban areas.",
+      "ts": 1784158801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds carbon-based pricing encourages greener tourist intentions",
+      "url": "https://phys.org/news/2026-07-carbon-based-pricing-greener-tourist.html",
+      "summary": "Hotels have long encouraged guests to reuse towels, limit linen changes and conserve energy. Yet tourism remains a significant source of carbon emissions, and voluntary sustainability programs often struggle to achieve l…",
+      "ts": 1784156401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "India's monsoon rain depends on where air gets cleaner",
+      "url": "https://phys.org/news/2026-07-india-monsoon-air-cleaner.html",
+      "summary": "Cleaning up pollution around the world could bring significantly more rainfall to India's monsoon than regional action alone, research from the University of Reading shows and highlights the value of international cooper…",
+      "ts": 1784155201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Adolescent social media restrictions may reduce some harms while shifting others, warn experts",
+      "url": "https://phys.org/news/2026-07-adolescent-social-media-restrictions-shifting.html",
+      "summary": "Amrit Kaur Purba and colleagues argue that social media restrictions operate within a wider system of adolescents, families, schools, governments and commercial actors—and therefore should be treated as complex systems i…",
+      "ts": 1784154604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spiral arms and bars are galactic fuel pumps for star formation",
+      "url": "https://phys.org/news/2026-07-spiral-arms-bars-galactic-fuel.html",
+      "summary": "Peak star formation took place during cosmic noon, between 2–3 billion years after the Big Bang. The star formation rate (SFR) back then was up to 100 times greater than it is today. For the SFR to be so high, gas had to…",
+      "ts": 1784154004000
+    },
     {
       "source": "Phys.org",
       "title": "Researcher details US biobank's value as global resource in study of roots of disease, health",
@@ -666,41 +701,6 @@
       "url": "https://phys.org/news/2026-07-ancient-rome-hungary-forgotten-life.html",
       "summary": "A blacksmith, a stable boy, a soldier, a slave: The faces and stories of these and other residents of an ancient Roman city in modern Hungary have been brought to life in remarkable fidelity for a new exhibition in Budap…",
       "ts": 1784104802000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Elephants turn footsteps into messages through ground and skull vibrations",
-      "url": "https://phys.org/news/2026-07-elephants-footsteps-messages-ground-skull.html",
-      "summary": "Elephants can communicate with other elephants across distances of up to five kilometers (3 miles) by producing sounds that travel through the air. However, they have a second way of sending signals: seismic waves travel…",
-      "ts": 1784088007000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Predictive Modeling of High-Altitude Clear Air Turbulence in the United States: A Machine Learning Approach",
-      "url": "https://arxiv.org/abs/2607.11899",
-      "summary": "arXiv:2607.11899v1 Announce Type: new Abstract: High-altitude Clear Air Turbulence (CAT) poses significant risks to aviation safety due to its unpredictability and challenges in detection. This study leverages machine le…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct Observation of Wilsonian Electrons in Thunderstorms",
-      "url": "https://arxiv.org/abs/2607.11901",
-      "summary": "arXiv:2607.11901v1 Announce Type: new Abstract: We analyze electron rich Thunderstorm Ground Enhancements (TGEs) detected at Aragats using the SEVAN Light spectrometer, which can separate charged and neutral particles an…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Positron acceleration in thunderstorms",
-      "url": "https://arxiv.org/abs/2607.11902",
-      "summary": "arXiv:2607.11902v1 Announce Type: new Abstract: Thunderstorm Ground Enhancements (TGEs) are known manifestations of relativistic runaway electron avalanches (RREAs) developing inside thunderclouds. However, the role of p…",
-      "ts": 1784088000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolution of Thunderstorm Charge Structure Revealed by Particle Composition and Near-Surface Electric Field",
-      "url": "https://arxiv.org/abs/2607.11903",
-      "summary": "arXiv:2607.11903v1 Announce Type: new Abstract: Thunderstorm Ground Enhancements (TGEs) provide a direct particle-physics diagnostic of accelerating electric fields within thunderclouds. During 12 15 May 2026, Aragats de…",
-      "ts": 1784088000000
     }
   ],
   "sources": [
