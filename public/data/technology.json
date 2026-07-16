@@ -1,7 +1,167 @@
 {
   "ok": true,
-  "updated": "2026-07-16T03:30:00.800Z",
+  "updated": "2026-07-16T06:21:29.597Z",
   "items": [
+    {
+      "source": "arXiv q-bio",
+      "title": "AlphaFunctor: Bridging The Gap Between Protein Function Annotation and Property Prediction",
+      "url": "https://arxiv.org/abs/2607.12196",
+      "summary": "arXiv:2607.12196v1 Announce Type: new Abstract: The fundamental relationship among protein sequence, structure, function, and physicochemical properties is a central principle in biology. While in principle protein funct…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Contrasting statistical patterns in melodic and molecular evolution reveal distinctive constraints in a culturally evolving system",
+      "url": "https://arxiv.org/abs/2607.12673",
+      "summary": "arXiv:2607.12673v1 Announce Type: new Abstract: Evolved sequences can be used to infer the rules of evolution. Orally transmitted folk melodies are evolved sequences whose similarity to protein sequences (one-dimensional…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Real-time fall detection based on vision for low-power edge platforms",
+      "url": "https://arxiv.org/abs/2607.12909",
+      "summary": "arXiv:2607.12909v1 Announce Type: new Abstract: Falling detection is vital for elderly care and intelligent surveillance; however, prevailing vision-based approaches predominantly frame it as static pose classification o…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "On Tree-Network Distinguishability and Full Identifiability of Phylogenetic Networks",
+      "url": "https://arxiv.org/abs/2607.12919",
+      "summary": "arXiv:2607.12919v1 Announce Type: new Abstract: Phylogenetic networks generalize phylogenetic trees to evolutionary histories that include reticulate events such as recombination, horizontal gene transfer, and hybridizat…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Optimal photostimulation selection for iterative activity maps",
+      "url": "https://arxiv.org/abs/2607.12930",
+      "summary": "arXiv:2607.12930v1 Announce Type: new Abstract: All-optical two-photon holographic optogenetics enables causal circuit mapping by stimulating defined neurons or ensembles while imaging population activity. Yet exhaustive…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Constructed Reality, Contested Priors: Decoupling and the Architecture of Cognitive Relapse Under the Free Energy Principle",
+      "url": "https://arxiv.org/abs/2607.11958",
+      "summary": "arXiv:2607.11958v1 Announce Type: cross Abstract: Under the free energy principle, a predictive system does not observe reality directly; it maintains a generative model of the world and experiences that model's best cur…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Harvesting Reshapes Dynamical Populations",
+      "url": "https://arxiv.org/abs/2607.12093",
+      "summary": "arXiv:2607.12093v1 Announce Type: cross Abstract: Harvesting -- the periodic removal of individuals above or below a threshold trait value -- reshapes heterogeneous populations without altering their underlying stochasti…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Differentiable Clone-Structured Causal Graphs for End-to-End Cognitive Map Learning from Image Sequences",
+      "url": "https://arxiv.org/abs/2607.12382",
+      "summary": "arXiv:2607.12382v1 Announce Type: cross Abstract: How can an agent build a structured map of its world from nothing but an ongoing sequence of raw sensory input and its own movements, especially when natural variation me…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Entropy-Driven Initiation and Cellular Uptake Mediated by Viscoelastic Cytoskeleton: A Kinetic Phase Diagram from Onsager Variational Principle",
+      "url": "https://arxiv.org/abs/2607.12766",
+      "summary": "arXiv:2607.12766v1 Announce Type: cross Abstract: A fundamental question in receptor-mediated endocytosis remains unanswered: what initial driving force brings ligands and receptors into close proximity? While previous m…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Learning Mechanistic Reasoning for Chemical Reactions with Large Language Models",
+      "url": "https://arxiv.org/abs/2607.12771",
+      "summary": "arXiv:2607.12771v1 Announce Type: cross Abstract: Reaction mechanisms consist of the step-by-step sequences of elementary reactions that explain chemical transformations. Learning the mechanism logic is therefore essenti…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Can deleterious mutations surf deterministic population waves?",
+      "url": "https://arxiv.org/abs/2607.12864",
+      "summary": "arXiv:2607.12864v1 Announce Type: cross Abstract: In spatially structured populations, rare neutral mutations can spread through large regions during a range expansion, a phenomenon known as gene surfing. Whether deleter…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Metric-Guided Synthetic Image Data Rendering for Deep Learning compatible with Agentic AI",
+      "url": "https://arxiv.org/abs/2607.12874",
+      "summary": "arXiv:2607.12874v1 Announce Type: cross Abstract: Deep learning computer vision for scientific applications requires collecting and annotating large datasets in a laborious, expensive and error-prone process. Synthetic d…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Phylogenetic network models as graphical models",
+      "url": "https://arxiv.org/abs/2507.23056",
+      "summary": "arXiv:2507.23056v2 Announce Type: replace Abstract: The displayed tree phylogenetic network model is shown to sit as a natural submodel of the graphical model associated to a directed acyclic graph (DAG). This representa…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Teaching signal synchronization in deep neural networks with prospective neurons",
+      "url": "https://arxiv.org/abs/2511.14917",
+      "summary": "arXiv:2511.14917v2 Announce Type: replace Abstract: Working memory requires the brain to maintain information from the recent past to guide ongoing behavior. Neurons can contribute to this capacity by slowly integrating …",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Rethinking the Choice Behavior of Sugar Metabolism in Bacteria",
+      "url": "https://arxiv.org/abs/2607.07677",
+      "summary": "arXiv:2607.07677v3 Announce Type: replace Abstract: Ramkrishna, Kompala, and Tsao proposed the cybernetic model of microbial growth, in which cells allocate enzyme synthesis resources according to a matching rule that mi…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Imputation-free transformer learning enables robust Alzheimer's disease prediction and calibrated uncertainty quantification across heterogeneous clinical cohorts",
+      "url": "https://arxiv.org/abs/2607.11656",
+      "summary": "arXiv:2607.11656v2 Announce Type: replace Abstract: Accurate diagnostic classification and disease-severity prediction for Alzheimer's disease are hampered by the incompleteness and heterogeneity of real-world clinical d…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The TopCoW Challenge -- Topology-Aware Circle of Willis Segmentation for CT and MR Angiography",
+      "url": "https://arxiv.org/abs/2312.17670",
+      "summary": "arXiv:2312.17670v5 Announce Type: replace-cross Abstract: The Circle of Willis (CoW) is an important network of arteries connecting major circulations of the brain. Its vascular architecture is believed to influence the …",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A robust, scalable K-statistic for quantifying immune cell clustering in spatial proteomics data",
+      "url": "https://arxiv.org/abs/2412.08498",
+      "summary": "arXiv:2412.08498v3 Announce Type: replace-cross Abstract: Spatial summary statistics based on point process theory are widely used to quantify the spatial organization of cell populations in single-cell spatial proteomic…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
+      "url": "https://arxiv.org/abs/2512.14461",
+      "summary": "arXiv:2512.14461v2 Announce Type: replace-cross Abstract: Sleep is essential for health, yet studying its dynamics requires manual sleep staging, a labor-intensive step in research and clinical care. Across centers, poly…",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Same Compression Principle, Different Geometry: Rate-Distortion Signatures Dissociate Biological and Artificial Visual Systems",
+      "url": "https://arxiv.org/abs/2603.01568",
+      "summary": "arXiv:2603.01568v2 Announce Type: replace-cross Abstract: Efficient coding theory predicts that biological perceptual systems compress sensory input optimally under resource constraints, with the systematic structure of …",
+      "ts": 1784174400000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Graham’s death from aortic dissection raises questions about preventing the rare disorder",
@@ -537,166 +697,6 @@
       "summary": "A ridge of high pressure fueled record-breaking temperatures in Montana, Utah, and Wyoming on July 12, 2026.",
       "ts": 1784088060000,
       "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "AlphaFunctor: Bridging The Gap Between Protein Function Annotation and Property Prediction",
-      "url": "https://arxiv.org/abs/2607.12196",
-      "summary": "arXiv:2607.12196v1 Announce Type: new Abstract: The fundamental relationship among protein sequence, structure, function, and physicochemical properties is a central principle in biology. While in principle protein funct…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Contrasting statistical patterns in melodic and molecular evolution reveal distinctive constraints in a culturally evolving system",
-      "url": "https://arxiv.org/abs/2607.12673",
-      "summary": "arXiv:2607.12673v1 Announce Type: new Abstract: Evolved sequences can be used to infer the rules of evolution. Orally transmitted folk melodies are evolved sequences whose similarity to protein sequences (one-dimensional…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Real-time fall detection based on vision for low-power edge platforms",
-      "url": "https://arxiv.org/abs/2607.12909",
-      "summary": "arXiv:2607.12909v1 Announce Type: new Abstract: Falling detection is vital for elderly care and intelligent surveillance; however, prevailing vision-based approaches predominantly frame it as static pose classification o…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On Tree-Network Distinguishability and Full Identifiability of Phylogenetic Networks",
-      "url": "https://arxiv.org/abs/2607.12919",
-      "summary": "arXiv:2607.12919v1 Announce Type: new Abstract: Phylogenetic networks generalize phylogenetic trees to evolutionary histories that include reticulate events such as recombination, horizontal gene transfer, and hybridizat…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Optimal photostimulation selection for iterative activity maps",
-      "url": "https://arxiv.org/abs/2607.12930",
-      "summary": "arXiv:2607.12930v1 Announce Type: new Abstract: All-optical two-photon holographic optogenetics enables causal circuit mapping by stimulating defined neurons or ensembles while imaging population activity. Yet exhaustive…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Constructed Reality, Contested Priors: Decoupling and the Architecture of Cognitive Relapse Under the Free Energy Principle",
-      "url": "https://arxiv.org/abs/2607.11958",
-      "summary": "arXiv:2607.11958v1 Announce Type: cross Abstract: Under the free energy principle, a predictive system does not observe reality directly; it maintains a generative model of the world and experiences that model's best cur…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Harvesting Reshapes Dynamical Populations",
-      "url": "https://arxiv.org/abs/2607.12093",
-      "summary": "arXiv:2607.12093v1 Announce Type: cross Abstract: Harvesting -- the periodic removal of individuals above or below a threshold trait value -- reshapes heterogeneous populations without altering their underlying stochasti…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Differentiable Clone-Structured Causal Graphs for End-to-End Cognitive Map Learning from Image Sequences",
-      "url": "https://arxiv.org/abs/2607.12382",
-      "summary": "arXiv:2607.12382v1 Announce Type: cross Abstract: How can an agent build a structured map of its world from nothing but an ongoing sequence of raw sensory input and its own movements, especially when natural variation me…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Entropy-Driven Initiation and Cellular Uptake Mediated by Viscoelastic Cytoskeleton: A Kinetic Phase Diagram from Onsager Variational Principle",
-      "url": "https://arxiv.org/abs/2607.12766",
-      "summary": "arXiv:2607.12766v1 Announce Type: cross Abstract: A fundamental question in receptor-mediated endocytosis remains unanswered: what initial driving force brings ligands and receptors into close proximity? While previous m…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Mechanistic Reasoning for Chemical Reactions with Large Language Models",
-      "url": "https://arxiv.org/abs/2607.12771",
-      "summary": "arXiv:2607.12771v1 Announce Type: cross Abstract: Reaction mechanisms consist of the step-by-step sequences of elementary reactions that explain chemical transformations. Learning the mechanism logic is therefore essenti…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Can deleterious mutations surf deterministic population waves?",
-      "url": "https://arxiv.org/abs/2607.12864",
-      "summary": "arXiv:2607.12864v1 Announce Type: cross Abstract: In spatially structured populations, rare neutral mutations can spread through large regions during a range expansion, a phenomenon known as gene surfing. Whether deleter…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Metric-Guided Synthetic Image Data Rendering for Deep Learning compatible with Agentic AI",
-      "url": "https://arxiv.org/abs/2607.12874",
-      "summary": "arXiv:2607.12874v1 Announce Type: cross Abstract: Deep learning computer vision for scientific applications requires collecting and annotating large datasets in a laborious, expensive and error-prone process. Synthetic d…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Phylogenetic network models as graphical models",
-      "url": "https://arxiv.org/abs/2507.23056",
-      "summary": "arXiv:2507.23056v2 Announce Type: replace Abstract: The displayed tree phylogenetic network model is shown to sit as a natural submodel of the graphical model associated to a directed acyclic graph (DAG). This representa…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Teaching signal synchronization in deep neural networks with prospective neurons",
-      "url": "https://arxiv.org/abs/2511.14917",
-      "summary": "arXiv:2511.14917v2 Announce Type: replace Abstract: Working memory requires the brain to maintain information from the recent past to guide ongoing behavior. Neurons can contribute to this capacity by slowly integrating …",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Rethinking the Choice Behavior of Sugar Metabolism in Bacteria",
-      "url": "https://arxiv.org/abs/2607.07677",
-      "summary": "arXiv:2607.07677v3 Announce Type: replace Abstract: Ramkrishna, Kompala, and Tsao proposed the cybernetic model of microbial growth, in which cells allocate enzyme synthesis resources according to a matching rule that mi…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Imputation-free transformer learning enables robust Alzheimer's disease prediction and calibrated uncertainty quantification across heterogeneous clinical cohorts",
-      "url": "https://arxiv.org/abs/2607.11656",
-      "summary": "arXiv:2607.11656v2 Announce Type: replace Abstract: Accurate diagnostic classification and disease-severity prediction for Alzheimer's disease are hampered by the incompleteness and heterogeneity of real-world clinical d…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The TopCoW Challenge -- Topology-Aware Circle of Willis Segmentation for CT and MR Angiography",
-      "url": "https://arxiv.org/abs/2312.17670",
-      "summary": "arXiv:2312.17670v5 Announce Type: replace-cross Abstract: The Circle of Willis (CoW) is an important network of arteries connecting major circulations of the brain. Its vascular architecture is believed to influence the …",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A robust, scalable K-statistic for quantifying immune cell clustering in spatial proteomics data",
-      "url": "https://arxiv.org/abs/2412.08498",
-      "summary": "arXiv:2412.08498v3 Announce Type: replace-cross Abstract: Spatial summary statistics based on point process theory are widely used to quantify the spatial organization of cell populations in single-cell spatial proteomic…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
-      "url": "https://arxiv.org/abs/2512.14461",
-      "summary": "arXiv:2512.14461v2 Announce Type: replace-cross Abstract: Sleep is essential for health, yet studying its dynamics requires manual sleep staging, a labor-intensive step in research and clinical care. Across centers, poly…",
-      "ts": 1784088000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Same Compression Principle, Different Geometry: Rate-Distortion Signatures Dissociate Biological and Artificial Visual Systems",
-      "url": "https://arxiv.org/abs/2603.01568",
-      "summary": "arXiv:2603.01568v2 Announce Type: replace-cross Abstract: Efficient coding theory predicts that biological perceptual systems compress sensory input optimally under resource constraints, with the systematic structure of …",
-      "ts": 1784088000000,
-      "categoryId": "bio"
     },
     {
       "source": "Genetic Engineering News",
