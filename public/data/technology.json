@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-16T21:02:41.572Z",
+  "updated": "2026-07-16T22:58:51.916Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes Serbia as Newest Artemis Accords Signatory ",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-serbia-as-newest-artemis-accords-signatory/",
+      "summary": "The Republic of Serbia signed the Artemis Accords Thursday during a ceremony hosted by NASA at the agency’s Headquarters in Washington, becoming the 69th nation to join a large community of like-minded nations committed …",
+      "ts": 1784241439000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Fresh turmoil roils American Diabetes Association following controversy at conference",
+      "url": "https://www.statnews.com/2026/07/16/american-diabetes-association-annual-conference-controversy-continues/?utm_campaign=rss",
+      "summary": "Turmoil at the ADA has taken a fresh turn, with leaders blocking editors at its flagship journal from publishing pieces detailing a controversy at the group’s annual meeting.",
+      "ts": 1784237884000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "SpaceX launches 21 satellites for military data network ",
@@ -704,22 +720,6 @@
       "url": "https://www.statnews.com/2026/07/15/mayo-whistleblower-sutter-abridge-lawsuit-news-ai-prognosis/?utm_campaign=rss",
       "summary": "In this AI Prognosis news roundup: Mayo's AI whistleblower, Sutter Health's reply to lawsuit over Abridge scribe, and more.",
       "ts": 1784132912000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Glenmark to pay $29.6 million to settle price-fixing allegations in long-running battle with states",
-      "url": "https://www.statnews.com/pharmalot/2026/07/15/glenmark-pay-29-million-settle-price-fixing-allegations/?utm_campaign=rss",
-      "summary": "Glenmark Pharmaceuticals agreed to pay $29.6 million to settle price-fixing allegations in a long-running battle with dozens of states.",
-      "ts": 1784132468000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Modular Modeling Drives Smarter mRNA Manufacturing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/modular-modeling-drives-smarter-mrna-manufacturing/",
-      "summary": "A modular mechanistic modeling framework is helping transform mRNA in vitro transcription by enabling faster optimization, streamlined scale-up, and quality-by-design strategies, giving bioprocess developers a powerful d…",
-      "ts": 1784131259000,
       "categoryId": "bio"
     }
   ],

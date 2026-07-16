@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-16T21:02:37.711Z",
+  "updated": "2026-07-16T22:58:49.218Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Algae fed by farm waste carpet Italy's warm River Po",
+      "url": "https://phys.org/news/2026-07-algae-fed-farm-carpet-italy.html",
+      "summary": "Rowers on the River Po in Turin are battling vast blooms of algae, as high temperatures in northwest Italy and runoff from farms create ideal conditions for rampant plant growth.",
+      "ts": 1784240404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Single fission experiment maps excess gamma rays from more than a dozen unstable nuclei",
+      "url": "https://phys.org/news/2026-07-fission-excess-gamma-rays-dozen.html",
+      "summary": "In a single experiment, physicists have measured the \"excess\" emission of high-energy gamma rays from more than a dozen heavy, unstable atomic nuclei. Mapping the gamma-ray emissions of so many isotopes produced in nucle…",
+      "ts": 1784238001000
+    },
     {
       "source": "Phys.org",
       "title": "Political representatives found more polarized on climate change than their constituents",
@@ -472,6 +486,34 @@
       "ts": 1784199601000
     },
     {
+      "source": "APS PRX",
+      "title": "Candidate for a Fractional Topological Insulator in Twisted ${\\mathrm{MoTe}}_{2}$",
+      "url": "http://link.aps.org/doi/10.1103/bvrb-z4hj",
+      "summary": "Author(s): Yiping Wang, Gillian E. Minarik, Weijie Li, Yves Kwan, Shuai Yuan, Eric Anderson, Chaowei Hu, Julian Ingham, Jeongheon Choe, Takashi Taniguchi, Kenji Watanabe, Xavier Roy, Jiun-Haw Chu, Raquel Queiroz, James C…",
+      "ts": 1784196000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "$β{\\text{-Ga}}_{2}{\\mathrm{O}}_{3}$-based heterojunctions: Effects of growth orientation and alloying on electronic properties",
+      "url": "http://link.aps.org/doi/10.1103/3vmk-vfcz",
+      "summary": "Author(s): Mohamed Abdelilah Fadla, Khushabu Agrawal, Paolo La Torraca, Myrta Grüning, Karim Cherkaoui, and Lorenzo Stella We investigate the effects of alloying and growth orientation on the electronic properties of the…",
+      "ts": 1784196000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Design of nonvolatile decoder based on two-dimensional ${\\mathrm{GaTe}/\\mathrm{In}}_{2}{\\mathrm{Se}}_{3}$ van der Waals heterostructure",
+      "url": "http://link.aps.org/doi/10.1103/bxd5-yhwc",
+      "summary": "Author(s): Ruiya Xu, Baoxing Zhai, Yongjie Fan, Qian Chen, Zhuo Xu, Yanrong Wang, Ruohao Hong, Caixia Guo, Ruiqing Cheng, Chao Jiang, and Jun He Decoders, which function as the “precision translators” in digital systems,…",
+      "ts": 1784196000000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Doping-induced itinerant ferromagnetism and enhanced ferroelectricity in bilayer InSe",
+      "url": "http://link.aps.org/doi/10.1103/sbfw-ygb7",
+      "summary": "Author(s): Junlan Shi, Li Chen, Jiani Zhang, and Botao Fu The microscopic coexistence of ferroelectricity and ferromagnetism in solids remains a fundamental challenge in condensed matter physics, with far-reaching implic…",
+      "ts": 1784196000000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Synchronized Aharonov-Bohm Motifs via Engineered Dissipation",
       "url": "http://link.aps.org/doi/10.1103/lllj-4k5y",
@@ -658,48 +700,6 @@
       "title": "Reliable isomorphic physics problem generation with large language models",
       "url": "https://arxiv.org/abs/2607.13190",
       "summary": "arXiv:2607.13190v1 Announce Type: new Abstract: This study presents an AI-powered system for generating isomorphic physics problems using large language model (LLM)-based agent workflows. The system is designed around th…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generating synthetic evolution of turbulent flames with an experimental data-based spatiotemporal diffusion model",
-      "url": "https://arxiv.org/abs/2607.13193",
-      "summary": "arXiv:2607.13193v1 Announce Type: new Abstract: In this study, a conditional diffusion model -- a class of generative machine learning models -- is developed to generate synthetic, experimental data-based trajectories of…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reverse translocation of a nascent polypeptide through the ribosomal exit tunnels",
-      "url": "https://arxiv.org/abs/2607.13195",
-      "summary": "arXiv:2607.13195v1 Announce Type: new Abstract: Before they mature, all known proteins translocate through the ribosomal exit tunnel in a form of extended or partially folded nascent polypeptide. This translocation occur…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards stealthy hyperuniform networks with optimal isotropic complete photonic band gaps using a novel inverse design procedure",
-      "url": "https://arxiv.org/abs/2607.13199",
-      "summary": "arXiv:2607.13199v1 Announce Type: new Abstract: We present a two-stage inverse design procedure for producing disordered stealthy hyperuniform trivalent photonic networks in two dimensions with isotropic complete photoni…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Estimation of Elastic Parameters with Guidance-based Diffusion model",
-      "url": "https://arxiv.org/abs/2607.13207",
-      "summary": "arXiv:2607.13207v1 Announce Type: new Abstract: Elastic parameters are fundamental rock properties for reservoir characterization, but their reliable estimation from angle-stack seismic data remains challenging due to st…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conflict, mobility and fragmentation in the African interurban network",
-      "url": "https://arxiv.org/abs/2607.13231",
-      "summary": "arXiv:2607.13231v1 Announce Type: new Abstract: Roads make regional integration possible, but they also concentrate risk. When violence reaches a corridor that carries regional movement, the consequences can extend beyon…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Aromatic Molecule Solvation in Liquid Water with Coupled Cluster Accuracy: The Balance of Pi-Interactions and Hydrophobicity",
-      "url": "https://arxiv.org/abs/2607.13261",
-      "summary": "arXiv:2607.13261v1 Announce Type: new Abstract: Aromatic organic solutes in water exhibit a delicate balance between hydrophobic solvation and directional O-H$\\cdots \\pi$ hydrogen bonds, yet widely used force fields and …",
       "ts": 1784174400000
     }
   ],
