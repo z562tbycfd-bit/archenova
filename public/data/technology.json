@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-16T19:15:29.375Z",
+  "updated": "2026-07-16T21:02:41.572Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX launches 21 satellites for military data network ",
+      "url": "https://spacenews.com/spacex-launches-21-satellites-for-military-data-network/",
+      "summary": "With the launch of 21 York Space Systems satellites, the Space Development Agency has now placed half of its planned Tranche 1 Transport Layer constellation in orbit The post SpaceX launches 21 satellites for military da…",
+      "ts": 1784235610000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Nature study identifies a new way to spot nuclear weapons in orbit",
+      "url": "https://spacenews.com/nature-study-identifies-a-new-way-to-spot-nuclear-weapons-in-orbit/",
+      "summary": "NEW YORK — A study published last week in Nature Astronomy has proposed a new satellite design and technique to detect thermonuclear warheads in space. Funded in part by the […] The post Nature study identifies a new way…",
+      "ts": 1784234172000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Predicting biotech clinical trials & a new Alzheimer’s drug controversy",
+      "url": "https://www.statnews.com/2026/07/16/readout-loud-podcast-predicting-clinical-trials-biogen-alzheimers-tau/?utm_campaign=rss",
+      "summary": "This week on \"The Readout LOUD\" podcast: a new Alzheimer's drug controversy and prediction markets for clinical trials and FDA drug reviews. Listen now.",
+      "ts": 1784232403000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: GOP blocks effort to end Medicare test of AI prior authorization",
@@ -177,6 +201,30 @@
       "summary": "Prediction markets have permeated the worlds of sports, politics, and reality television shows. Now, the biopharma industry could be next.",
       "ts": 1784203200000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Peacekeepers step up support as families return to south Lebanon",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167961",
+      "summary": "With violence in south Lebanon significantly decreased since mid-June, UN peacekeepers there have returned to core functions such as protecting humanitarian aid and restoring critical infrastructure as families continue …",
+      "ts": 1784203200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza farmers battle to rebuild as WFP warns of West Bank settler violence",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167960",
+      "summary": "The UN is supporting farmers in Gaza who are struggling to rebuild their smallholdings in areas devastated by the Hamas-Israel war.",
+      "ts": 1784203200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "WHO warns DR Congo Ebola outbreak is outpacing response as Uganda reaches milestone",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167959",
+      "summary": "The Ebola outbreak in the Democratic Republic of the Congo (DRC) has become the third largest on record and is spreading faster than any previous one during the first month of exposure, the head of the World Health Organ…",
+      "ts": 1784203200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -672,54 +720,6 @@
       "url": "https://www.genengnews.com/topics/bioprocessing/modular-modeling-drives-smarter-mrna-manufacturing/",
       "summary": "A modular mechanistic modeling framework is helping transform mRNA in vitro transcription by enabling faster optimization, streamlined scale-up, and quality-by-design strategies, giving bioprocess developers a powerful d…",
       "ts": 1784131259000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Free-Floating Bioelectronic Sensors for Fermentation Monitoring",
-      "url": "https://www.genengnews.com/topics/bioprocessing/free-floating-bioelectronic-sensors-for-fermentation-monitoring/",
-      "summary": "A network of free-floating hybrid microbial-electronic sensors could provide data on solution mixing and transit time, as well as DO, temperature, pH, and other standard parameters, improving process monitoring and predi…",
-      "ts": 1784131252000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AI Could Give CGT Sector Deeper Manufacturing Insights and Greater Control",
-      "url": "https://www.genengnews.com/topics/bioprocessing/ai-could-give-cgt-sector-greater-manufacturing-insights-and-control/",
-      "summary": "AI can help cell and gene therapy firms gain deeper insights about their complex production processes. The ultimate benefit of the technology will be helping industry move from reactive to predictive manufacturing. The p…",
-      "ts": 1784131238000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "In vivo CAR T Industry Leaps Forward with Challenges Ahead",
-      "url": "https://www.genengnews.com/topics/bioprocessing/in-vivo-car-t-industry-leaps-forward-with-challenges-ahead/",
-      "summary": "The emerging new class of in vivo CAR T therapeutics is seen by regulators as gene therapies with risks of off-target effects to patients. Manufacturers need to rise to the challenge. The post <i>In vivo</i> CAR T Indust…",
-      "ts": 1784131229000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In a major policy shift, Medicare proposes to ban vendors from providing remote monitoring services",
-      "url": "https://www.statnews.com/2026/07/15/cms-proposes-ban-medicare-remote-patient-monitoring-vendors/?utm_campaign=rss",
-      "summary": "Medicare is proposing to ban vendors from providing remote patient monitoring services on behalf of doctors.",
-      "ts": 1784130110000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Perseverance Rover Reads Record of Ancient Mars Impacts",
-      "url": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-reads-record-of-ancient-mars-impacts/",
-      "summary": "NASA’s Perseverance Mars rover has uncovered evidence that a 245-foot-thick (75-meter-thick) stack of ancient rock on the rim of Jezero Crater was built by repeated asteroid impacts. Referred to as the “Broom Point membe…",
-      "ts": 1784129404000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Celcuity’s breast cancer drug approved, its first",
-      "url": "https://www.statnews.com/2026/07/15/biotech-news-celcuity-breast-cancer-drug-approved-in-a-first/?utm_campaign=rss",
-      "summary": "FDA's new CBER chief promises normalcy, an weight loss drug without GLP-1s, and more biotech news from The Readout",
-      "ts": 1784128161000,
       "categoryId": "bio"
     }
   ],

@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-16T19:15:25.510Z",
+  "updated": "2026-07-16T21:02:37.711Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Political representatives found more polarized on climate change than their constituents",
+      "url": "https://phys.org/news/2026-07-political-polarized-climate-constituents.html",
+      "summary": "It is no surprise that there are political disagreements over climate protection measures. Parties differ in their assessments of which measures they consider effective, fair or economically acceptable. However, the ques…",
+      "ts": 1784235601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Graphene nanoribbons survive gamma radiation, revealing potential sensors for fusion reactors",
+      "url": "https://phys.org/news/2026-07-graphene-nanoribbons-survive-gamma-revealing.html",
+      "summary": "University of Arizona researchers have demonstrated a promising new application for graphene nanoribbons, a nanoscale semiconductor material with the potential to withstand extreme environments. The team's findings could…",
+      "ts": 1784233395000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change reshapes waterborne disease risks as pathogens respond differently, review finds",
+      "url": "https://phys.org/news/2026-07-climate-reshapes-waterborne-disease-pathogens.html",
+      "summary": "Climate change is altering the spread of waterborne diseases around the world, according to a comprehensive review published today in Nature Reviews Microbiology. The publication is the most up-to-date, comprehensive ana…",
+      "ts": 1784232005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The starry night redux: Dark energy camera captures stars, nebulae, clusters, and more in a rich, van Gogh-esque scene",
+      "url": "https://phys.org/news/2026-07-starry-night-redux-dark-energy.html",
+      "summary": "The 570-megapixel Department of Energy-fabricated Dark Energy Camera (DECam) captures a vibrant scene filled with swirls and stars reminiscent of Van Gogh's The Starry Night. This new cosmic masterpiece features the glow…",
+      "ts": 1784230802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can bacteria reveal hidden pollution? New river study says yes",
+      "url": "https://phys.org/news/2026-07-bacteria-reveal-hidden-pollution-river.html",
+      "summary": "The Guadalquivir is the most important river in Andalusia. Stretching 657 kilometers (408 miles), it forms the backbone of Andalusia, from its source in the Sierra de Cazorla mountains to its mouth in Sanlúcar de Barrame…",
+      "ts": 1784229601000
+    },
     {
       "source": "Phys.org",
       "title": "How the trend for turning front gardens into driveways is adding to night‑time heat",
@@ -665,41 +700,6 @@
       "title": "Aromatic Molecule Solvation in Liquid Water with Coupled Cluster Accuracy: The Balance of Pi-Interactions and Hydrophobicity",
       "url": "https://arxiv.org/abs/2607.13261",
       "summary": "arXiv:2607.13261v1 Announce Type: new Abstract: Aromatic organic solutes in water exhibit a delicate balance between hydrophobic solvation and directional O-H$\\cdots \\pi$ hydrogen bonds, yet widely used force fields and …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct Measurement of Out-of-Plane Thermal Conductivity via Transient Depth Thermography",
-      "url": "https://arxiv.org/abs/2607.13262",
-      "summary": "arXiv:2607.13262v1 Announce Type: new Abstract: Accurate measurement of out-of-plane thermal conductivity remains challenging, particularly for multilayer thin-film materials, due to the reliance of existing techniques o…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exactly Solvable Diffraction-Grating Scattering Problems for TE and TM waves",
-      "url": "https://arxiv.org/abs/2607.13287",
-      "summary": "arXiv:2607.13287v1 Announce Type: new Abstract: In J.~Phys.~A {\\bf 31}, 3493 (1998), Berry provides an analytic solution of the problem of determining the diffracted beam intensities for atoms incident upon a grating giv…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Engineering Nanophotonic Modes via the Radiation Continuum",
-      "url": "https://arxiv.org/abs/2607.13288",
-      "summary": "arXiv:2607.13288v1 Announce Type: new Abstract: We demonstrate, experimentally and theoretically, a universal mechanism for combining nanophotonic modes relying on radiative-loss-mediated couplings. For the case of two m…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unveiling Structured Optical Coherence in Nonlinear Optics",
-      "url": "https://arxiv.org/abs/2607.13296",
-      "summary": "arXiv:2607.13296v1 Announce Type: new Abstract: Nonlinear optical interactions are typically driven by coherent sources. Recently, however, incoherent sources have also been shown to offer new opportunities in nonlinear …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structural Requirements for Ion-Acoustic Double Layers: A Parametric Perturbation Analysis of the Maxwellian Limit",
-      "url": "https://arxiv.org/abs/2607.13306",
-      "summary": "arXiv:2607.13306v1 Announce Type: new Abstract: Standard Maxwellian plasmas exhibit a mathematical \\textit{rigidity}, possessing insufficient degrees of freedom to support electrostatic double layers (DLs) and yielding o…",
       "ts": 1784174400000
     }
   ],
