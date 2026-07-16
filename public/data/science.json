@@ -1,7 +1,56 @@
 {
   "ok": true,
-  "updated": "2026-07-16T00:00:18.983Z",
+  "updated": "2026-07-16T03:29:56.808Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Understanding Bavaria's Indigeneity",
+      "url": "https://phys.org/news/2026-07-bavaria-indigeneity.html",
+      "summary": "When I tell people that I am a proud Boarisch-Schwob—Bavarian-Swabian—Indigenous person, I am often met with disbelief. I am white. I am European. I come from Bavaria, one of Europe's wealthiest regions. For some people,…",
+      "ts": 1784172001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When disaster strikes, people often flee to places that feel familiar",
+      "url": "https://phys.org/news/2026-07-disaster-people-familiar.html",
+      "summary": "When the Marshall Fire tore through suburban Colorado in late 2021, residents had only hours to decide where to go. Some fled to nearby towns. Others stayed farther away for weeks or months. Now, a recent study published…",
+      "ts": 1784169601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "To measure a black hole's ultimate spin, we have to go to space",
+      "url": "https://phys.org/news/2026-07-black-hole-ultimate-space.html",
+      "summary": "Despite their depiction as massive monsters that simply suck in everything, including light, astronomers know black holes actually spin. And they spin really, really quickly. Determining just how quickly is key to unders…",
+      "ts": 1784168401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ireland's first cement-free, 3D-printed geopolymer",
+      "url": "https://phys.org/news/2026-07-ireland-cement-free-3d-geopolymer.html",
+      "summary": "Researchers from Trinity's School of Engineering have successfully demonstrated the geopolymer, showcasing its potential as a scalable option for circular construction.",
+      "ts": 1784166001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What science loses when T. rex becomes a trophy",
+      "url": "https://phys.org/news/2026-07-science-rex-trophy.html",
+      "summary": "On July 14, 2026, \"Gus,\" one of the most complete specimens of Tyrannosaurus rex, went to an as-yet-unidentified buyer for $50.1 million. This auction at Sotheby's set a record for the most valuable fossil ever sold. Ano…",
+      "ts": 1784164801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Doughnut‑shaped topology reveals new way to classify knitting, crochet and other textiles",
+      "url": "https://phys.org/news/2026-07-doughnutshaped-topology-reveals-crochet-textiles.html",
+      "summary": "Fabrics are made by repeatedly intertwining yarns into characteristic patterns. Many of their properties, such as stretchiness, arise not only from the material itself but also from how the yarns are arranged and entangl…",
+      "ts": 1784162401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trump wants to make daylight saving time permanent—but some fear the move would be a nightmare",
+      "url": "https://phys.org/news/2026-07-trump-daylight-permanent-nightmare.html",
+      "summary": "One of the most intractable, contentious and niche issues in U.S. politics has come back into the spotlight. This week, the U.S. House of Representatives voted to make daylight saving time permanent in the United States.",
+      "ts": 1784161201000
+    },
     {
       "source": "Phys.org",
       "title": "Unhoused people and wildlife are increasingly coming into contact. Here's what can be done to protect them",
@@ -626,10 +675,17 @@
       "ts": 1784113201000
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Kondo Effect in Nonreciprocal Response",
-      "url": "http://link.aps.org/doi/10.1103/y243-ygbf",
-      "summary": "Author(s): Hajime Murata and Hiroaki Ishizuka Chiral magnetic states give rise to rich phenomena, from the anomalous Hall effect and the nonlinear electrical current to multiferroics and magnetochiral dichroism. Most of …",
+      "source": "APS PRX",
+      "title": "Covariant Path Integrals for Quantum Fields Backreacting on Classical Space-Time",
+      "url": "http://link.aps.org/doi/10.1103/2rcd-dzcf",
+      "summary": "Author(s): Jonathan Oppenheim and Zachary Weller-Davies Researchers have developed a mathematical framework to bridge the gap between Einstein’s classical gravity and quantum mechanics. Their theory allows matter to rema…",
+      "ts": 1784109600000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Electronic Structure of Compressively Strained Bilayer Nickelate Thin Film",
+      "url": "http://link.aps.org/doi/10.1103/4h5x-btvx",
+      "summary": "Author(s): Bai Yang Wang, Sebastien N. Abadi, Yidi Liu, Yu Zhang, Yong Zhong, Yijun Yu, Berit H. Goodge, Xiaoliang Zhang, Yi-Ming Wu, Ruohan Wang, Jiarui Li, Yaoju Tarn, Eun Kyo Ko, Vivek Thampy, Chun Lin, Makoto Hashimo…",
       "ts": 1784109600000
     },
     {
@@ -645,62 +701,6 @@
       "url": "http://link.aps.org/doi/10.1103/mmc7-nftd",
       "summary": "Author(s): Min Namkung, Dong-Hyun Kim, Seongjin Hong, Yong-Su Kim, Su-Yong Lee, and Hyang-Tag Lim Privacy is a fundamental requirement in distributed quantum sensor networks, where multiple clients estimate spatially dis…",
       "ts": 1784109600000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Gigahertz-frequency Lamb-wave resonator cavities on suspended lithium niobate for quantum acoustics",
-      "url": "http://link.aps.org/doi/10.1103/xt9r-h1q9",
-      "summary": "Author(s): Michele Diego, Hong Qiao, Byunggi Kim, Minseok Ryu, Shiheng Li, Gustav Andersson, Masahiro Nomura, and Andrew N. Cleland Phononic nanodevices offer a promising route toward quantum technologies, as phonons com…",
-      "ts": 1784109600000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Covariant Path Integrals for Quantum Fields Backreacting on Classical Space-Time",
-      "url": "http://link.aps.org/doi/10.1103/2rcd-dzcf",
-      "summary": "Author(s): Jonathan Oppenheim and Zachary Weller-Davies Researchers have developed a mathematical framework to bridge the gap between Einstein’s classical gravity and quantum mechanics. Their theory allows matter to rema…",
-      "ts": 1784109600000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Electronic Structure of Compressively Strained Bilayer Nickelate Thin Film",
-      "url": "http://link.aps.org/doi/10.1103/4h5x-btvx",
-      "summary": "Author(s): Bai Yang Wang, Sebastien N. Abadi, Yidi Liu, Yu Zhang, Yong Zhong, Yijun Yu, Berit H. Goodge, Xiaoliang Zhang, Yi-Ming Wu, Ruohan Wang, Jiarui Li, Yaoju Tarn, Eun Kyo Ko, Vivek Thampy, Chun Lin, Makoto Hashimo…",
-      "ts": 1784109600000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Biodiversity boosts productivity most during extreme drought in drier grasslands",
-      "url": "https://phys.org/news/2026-07-biodiversity-boosts-productivity-extreme-drought.html",
-      "summary": "When extreme drought strikes, drier grasslands receive the greatest productivity benefit from biodiversity. By contrast, forests did not show the same context-dependent pattern under drought, according to a new global sy…",
-      "ts": 1784106011000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Generative AI's power sparks fears of dumbing humans down",
-      "url": "https://phys.org/news/2026-07-generative-ai-power-dumbing-humans.html",
-      "summary": "Generative AI chatbots capable of writing emails and computer code, translating, organizing a trip or coming up with gift ideas are now readily available, prompting some to ask whether human brainpower could suffer for l…",
-      "ts": 1784106008000
-    },
-    {
-      "source": "Phys.org",
-      "title": "The secret to hydrogen's quantum behavior lies in symmetry",
-      "url": "https://phys.org/news/2026-07-secret-hydrogen-quantum-behavior-symmetry.html",
-      "summary": "As interest in clean hydrogen power grows, so does the need for safe storage and transportation materials. One such material, vanadium, is a leading candidate because it readily absorbs hydrogen and allows it to move thr…",
-      "ts": 1784106003000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Wildfires expose millions in the Midwest and Northeast US to dangerous smoke",
-      "url": "https://phys.org/news/2026-07-wildfires-expose-millions-midwest-northeast.html",
-      "summary": "Heavy smoke from several large wildfires blazing in Canada and Minnesota is expected to engulf large swaths of the Midwest and Northeast U.S. this week, exposing millions of people to dangerous air pollution.",
-      "ts": 1784104821000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Face-to-face with ancient Rome: Exhibition in Hungary brings forgotten faces to life",
-      "url": "https://phys.org/news/2026-07-ancient-rome-hungary-forgotten-life.html",
-      "summary": "A blacksmith, a stable boy, a soldier, a slave: The faces and stories of these and other residents of an ancient Roman city in modern Hungary have been brought to life in remarkable fidelity for a new exhibition in Budap…",
-      "ts": 1784104802000
     }
   ],
   "sources": [
