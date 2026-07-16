@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-07-16T11:42:16.310Z",
+  "updated": "2026-07-16T13:58:20.081Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Kalshi bets on clinical trials, a Merck cholesterol pill, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/16/kalshi-bets-on-clinical-trials-merck-cholesterol-pill/?utm_campaign=rss",
+      "summary": "Kalshi, one of the world’s largest prediction market exchanges, plans to take bets on clinical trials and regulatory approvals",
+      "ts": 1784207684000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves Merck’s oral PCSK9 drug, a first",
+      "url": "https://www.statnews.com/2026/07/16/biotech-news-fda-approves-merck-oral-pcsk9-drug-in-a-first/?utm_campaign=rss",
+      "summary": "Kalshi allows bets on clinical trial outcomes, Eli Lilly buys a psychedelic medicine, and more biotech news from The Readout",
+      "ts": 1784207076000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Sharpen the Sword, Skip the Downloads — ‘Onimusha: Way of the Sword’ Is Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-onimusha-coming/",
+      "summary": "Onimusha: Way of the Sword is coming to GeForce NOW at launch, with the playable demo available this week. It’s joined by Denshattack! rolling in with five new games arriving in the cloud. Plus, GeForce NOW officially la…",
+      "ts": 1784206834000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
+      "url": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has…",
+      "ts": 1784203800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Office of Space Commerce makes its case for mission authorization",
+      "url": "https://spacenews.com/office-of-space-commerce-makes-its-case-for-mission-authorization/",
+      "summary": "The Office of Space Commerce defended its proposal for a mission authorization scheme for novel space activities, arguing it would provide certainty for companies while limiting regulatory burdens. The post Office of Spa…",
+      "ts": 1784203560000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Autolomous and Cellular Origins Expand Cell Therapy Manufacturing Process",
+      "url": "https://www.genengnews.com/topics/bioprocessing/autolomous-and-cellular-origins-expand-cell-therapy-manufacturing-process/",
+      "summary": "The combined solution using Constellation and autoloMATE overcomes fragmentation, limited visibility, and the absence of standardized, interoperable data flows without replacing existing processes, enabling manufacturers…",
+      "ts": 1784203245000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Bluestaq Launches BLUESTAQ / ARQ Defense-Grade Data Infrastructure Now Available for Commercial, Government, and Enterprise Organizations",
+      "url": "https://spacenews.com/bluestaq-launches-bluestaq-arq-defense-grade-data-infrastructure-now-available-for-commercial-government-and-enterprise-organizations/",
+      "summary": "COLORADO SPRINGS, CO, July 16, 2026 – Bluestaq today announced the launch of BLUESTAQ / ARQ, the company’s commercial data infrastructure platform. / ARQ is built for organizations in healthcare, […] The post Bluestaq La…",
+      "ts": 1784203200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Kalshi comes for biopharma, with prediction markets for clinical trials and FDA approvals",
+      "url": "https://www.statnews.com/2026/07/16/kalshi-new-offering-prediction-market-clinical-trials-fda-approvals/?utm_campaign=rss",
+      "summary": "Prediction markets have permeated the worlds of sports, politics, and reality television shows. Now, the biopharma industry could be next.",
+      "ts": 1784203200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Expedition Sound podcast series",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Expedition_Sound_podcast_series",
+      "summary": "Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavá…",
+      "ts": 1784201400000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Eli Lilly to acquire psychedelics-focused biotech AtaiBeckley",
@@ -249,6 +321,14 @@
       "summary": "",
       "ts": 1784160000000,
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "STAT",
+      "title": "Graham’s death from aortic dissection raises questions about preventing the rare disorder",
+      "url": "https://www.statnews.com/2026/07/15/lindsey-graham-death-aortic-dissection-risk-prediction-warning-signs/?utm_campaign=rss",
+      "summary": "When the body’s most important blood vessel tears from the inside, it’s a medical emergency that can be years in the making.",
+      "ts": 1784156568000,
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
@@ -641,86 +721,6 @@
       "summary": "Alongside gold, the little-known Sudanese commodity gum arabic – used in soft drinks, food, cosmetics and pharmaceuticals – continues to fuel the war.",
       "ts": 1784116800000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Childhood vaccination rate increases slightly, but millions remain unprotected",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167942",
-      "summary": "Global childhood immunization programmes continued to recover in 2025, but conflict, poverty and growing vaccine hesitancy are still leaving millions vulnerable to preventable diseases, according to new UN data released …",
-      "ts": 1784116800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Webb Discovers Hidden Planet in Famous Star System",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-discovers-hidden-planet-in-famous-star-system/",
-      "summary": "Astronomers using NASA’s James Webb Space Telescope have discovered a giant planet outside our solar system, called an exoplanet, hiding within one of the most intensely studied planetary systems in our Milky Way galaxy.…",
-      "ts": 1784116800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "What to know about the parasitic diarrhea outbreak",
-      "url": "https://www.statnews.com/2026/07/15/health-news-what-to-know-about-cyclosporiasis-parasitic-diarrhea/?utm_campaign=rss",
-      "summary": "Fallout from the end of ACA subsidies, the FDA CBER acting director \"on planet Earth,\" and more health news from Morning Rounds",
-      "ts": 1784116695000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Satellite investment sets annual record halfway through 2026",
-      "url": "https://spacenews.com/satellite-investment-sets-annual-record-halfway-through-2026/",
-      "summary": "Investment in satellite companies reached $8.1 billion in the first half of 2026, already surpassing every previous annual total tracked by early-stage investor Space Capital. The post Satellite investment sets annual re…",
-      "ts": 1784113572000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
-      "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
-      "summary": "Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This …",
-      "ts": 1784112697000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Japan seeks to ramp up launch activity",
-      "url": "https://spacenews.com/japan-seeks-to-ramp-up-launch-activity/",
-      "summary": "The Japanese government wants to sharply increase the number of launches despite struggles with both current and new launch vehicles. The post Japan seeks to ramp up launch activity appeared first on SpaceNews.",
-      "ts": 1784111278000,
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "ts": 1784109600000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Isaacman attends Soyuz launch of ISS crew",
-      "url": "https://spacenews.com/isaacman-attends-soyuz-launch-of-iss-crew/",
-      "summary": "A new crew arrived at the International Space Station on July 14 on a launch witnessed in person by NASA Administrator Jared Isaacman. The post Isaacman attends Soyuz launch of ISS crew appeared first on SpaceNews.",
-      "ts": 1784107297000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Metallic waves on ancient Mars",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Metallic_waves_on_ancient_Mars",
-      "summary": "The European Space Agency’s Mars Express has spotted a swathe of metallic-looking waves filling Mars’s large Kaiser Crater – an ancient and otherworldly dune field sculpted by wind.",
-      "ts": 1784106000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare Advantage insurers face new bipartisan scrutiny over AI and care denials",
-      "url": "https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/?utm_campaign=rss",
-      "summary": "Blumenthal, Hawley press UnitedHealth, Humana, CVS for documents related to using AI to deny or delay care.",
-      "ts": 1784106000000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

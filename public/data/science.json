@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-16T11:42:14.145Z",
+  "updated": "2026-07-16T13:58:16.711Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hourly data reveal Alpine 100-year floods could arrive every 45 to 80 years",
+      "url": "https://phys.org/news/2026-07-hourly-reveal-alpine-year-years.html",
+      "summary": "Heavy precipitation becomes more intense with every degree Earth warms. This affects flooding. Using hourly data from 384 rivers in the Alps, researchers from the WSL Institute for Snow and Avalanche Research SLF modeled…",
+      "ts": 1784209207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researcher studies how people shift attention during everyday and high-stakes tasks",
+      "url": "https://phys.org/news/2026-07-people-shift-attention-everyday-high.html",
+      "summary": "Sustaining attention over long periods affects everything from routine tasks to high-stakes decisions. Whether it is an umpire making a split-second call or a driver glancing at a navigation system, even small lapses in …",
+      "ts": 1784209201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists achieve all-electrical control of single-molecule quantum states",
+      "url": "https://phys.org/news/2026-07-scientists-electrical-molecule-quantum-states.html",
+      "summary": "Quantum technologies promise revolutionary advances in computing, sensing and information processing. However, controlling individual quantum bits (qubits) at the atomic scale remains a major challenge because convention…",
+      "ts": 1784208603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cave-dwelling snail discovered in Greece, named after Hermes and the nymph who nurtured him",
+      "url": "https://phys.org/news/2026-07-cave-snail-greece-hermes-nymph.html",
+      "summary": "A team of researchers from the National and Kapodistrian University of Athens has discovered a completely new genus and species of subterranean freshwater snail in the Peloponnese region of southern Greece. The species, …",
+      "ts": 1784208601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rare Australian wattle is on the brink of extinction",
+      "url": "https://phys.org/news/2026-07-rare-australian-wattle-brink-extinction.html",
+      "summary": "The spidery wattle (Acacia araneosa) is a national treasure. The plant is named for its spidery, leaflike phyllodes and shares the same iconic golden flowers as Australia's floral emblem, the golden wattle (Acacia pycnan…",
+      "ts": 1784208007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new 'library' for Feynman integrals",
+      "url": "https://phys.org/news/2026-07-library-feynman.html",
+      "summary": "Theoretical physicists at Johannes Gutenberg University Mainz (JGU) have developed a new method of ordering Feynman integrals. This critical step in making theoretical predictions for high-energy precision measurements h…",
+      "ts": 1784208005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Americans increasingly view illicit drug policy through a partisan lens, new analysis finds",
+      "url": "https://phys.org/news/2026-07-americans-view-illicit-drug-policy.html",
+      "summary": "Since the early 1970s, when the Nixon administration launched the \"war on drugs,\" Gallup has been asking Americans how they feel about problems surrounding illicit drugs. But the war has not gone well and Gallup's survey…",
+      "ts": 1784206807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How ions flow like a liquid through a solid crystal",
+      "url": "https://phys.org/news/2026-07-ions-liquid-solid-crystal.html",
+      "summary": "A research team led by the University of Osaka, working with the National Institute of Advanced Industrial Science and Technology (AIST), RIKEN and the Institute of Science Tokyo, has uncovered a fundamental mechanism be…",
+      "ts": 1784206801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Braided, exotic particles could build reliable, universal quantum computers",
+      "url": "https://phys.org/news/2026-07-braided-exotic-particles-reliable-universal.html",
+      "summary": "A truly useful quantum computer must be able to run any algorithm, with the same versatility an ordinary laptop offers. Physicists have now shown a new way to give a quantum computer exactly that flexibility, harnessing …",
+      "ts": 1784206201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum teleportation could reduce photon loss in long-distance communications",
+      "url": "https://phys.org/news/2026-07-quantum-teleportation-photon-loss-distance.html",
+      "summary": "Quantum technologies, which leverage the principles of quantum mechanics, have been found to outperform their classical counterparts on specific tasks. Among other things, past studies have highlighted the potential of q…",
+      "ts": 1784205607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Natural peptide switches from calmodulin to the cancer-associated protein midkine depending on the ion environment",
+      "url": "https://phys.org/news/2026-07-natural-peptide-calmodulin-cancer-protein.html",
+      "summary": "Proteins regulate a wide range of biological processes inside and outside cells by binding to specific molecular partners. In recent years, short peptides that can selectively recognize disease-related proteins have attr…",
+      "ts": 1784205602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genetic databases as the key to global benefit-sharing",
+      "url": "https://phys.org/news/2026-07-genetic-databases-key-global-benefit.html",
+      "summary": "An international research team led by the Science Policy and Internationalization Department at the Leibniz Institute DSMZ-German Collection of Microorganisms and Cell Cultures has published a practical guide in the jour…",
+      "ts": 1784204409000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny gene edit cuts cadmium in rice by 48% without reducing yields",
+      "url": "https://phys.org/news/2026-07-tiny-gene-cadmium-rice-yields.html",
+      "summary": "Cadmium (Cd) contamination poses a serious threat to global food safety. As a toxic and carcinogenic heavy metal, cadmium can accumulate in agricultural soils through industrialization and urbanization before entering th…",
+      "ts": 1784204403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Roadless rule helps protect clean drinking water for 25 million Americans, new study shows",
+      "url": "https://phys.org/news/2026-07-roadless-million-americans.html",
+      "summary": "Approximately 90% of the U.S. population relies on public water systems. A significant portion of the water supplying those systems comes from forested lands, which means policies affecting forests also affect water acce…",
+      "ts": 1784203205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds LLMs nudge users toward smart savings and investing habits—but the guidance skews",
+      "url": "https://phys.org/news/2026-07-llms-nudge-users-smart-investing.html",
+      "summary": "Would you trust a large language model to help plan your financial future? Many Americans already do. In a 2025 survey, more than half said they'd asked AI for financial advice. By comparison, about 40% have worked with …",
+      "ts": 1784203203000
+    },
+    {
+      "source": "Science News",
+      "title": "An ancient Maya astronomer finally has a name",
+      "url": "https://www.sciencenews.org/article/ancient-maya-astronomer-name-sak-tahn-waax",
+      "summary": "A Maya calendar formula bears the name Sak Tahn Waax, the first known Classic Maya mathematician-astronomer directly credited for such work.",
+      "ts": 1784203200000
+    },
     {
       "source": "Phys.org",
       "title": "Rare mutations are helping dangerous hospital bacteria slip past the last-line antibiotic defense",
@@ -588,118 +700,6 @@
       "title": "Multiwavelength Raman investigation of mono- and few-layer MoS2 grown by Pulsed Laser Deposition on SiO2",
       "url": "https://arxiv.org/abs/2607.13211",
       "summary": "arXiv:2607.13211v1 Announce Type: cross Abstract: Molybdenum disulfide (MoS$_2$) is a semiconductor whose vibrational and excitonic properties are highly sensitive to layer number and structural disorder. We demonstrate …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fundamental Relation between Conductance of Biomolecules and the Fukui Function",
-      "url": "https://arxiv.org/abs/2607.13309",
-      "summary": "arXiv:2607.13309v1 Announce Type: cross Abstract: The finite-temperature conductance of a molecule coupled to metallic leads is derived entirely within the framework of density functional theory (DFT) and its time-depend…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data driven non-equilibrium moist phase exchanges for atmospheric convection within a discontinuous Galerkin model of the compressible Euler equations",
-      "url": "https://arxiv.org/abs/2607.13360",
-      "summary": "arXiv:2607.13360v1 Announce Type: cross Abstract: A neural network is trained to learn the mass exchanges between vapour, liquid and ice phases in atmospheric convection. The network is trained on convection resolving ou…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Residual-Christoffel Sampling for Random Feature Collocation of Linear PDEs",
-      "url": "https://arxiv.org/abs/2607.13382",
-      "summary": "arXiv:2607.13382v1 Announce Type: cross Abstract: Random feature collocation fixes a randomly generated trial space and determines its coefficients from a linear least-squares system. Stability then depends on whether th…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ion-Scale Current Sheets Embedded in Reconnection Jet Shear Layer of the Near-Sun Heliospheric Current Sheet",
-      "url": "https://arxiv.org/abs/2607.13534",
-      "summary": "arXiv:2607.13534v1 Announce Type: cross Abstract: Context. Magnetic reconnection in the heliospheric current sheet (HCS) plays an important role in restructuring the solar wind magnetic topology and generating plasma jet…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Proof of concept of heterodyne interferometry at 10.6 um using photonic correlation",
-      "url": "https://arxiv.org/abs/2607.13671",
-      "summary": "arXiv:2607.13671v1 Announce Type: cross Abstract: The task of imaging complex dust environments such as the inner astronomical units of a planet-forming disks requires dedicated mid-infrared (MIR) interferometric facilit…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Microstructure-Conditioned Surrogate Models for Graded Multiscale Optimization of Mycelium Composites",
-      "url": "https://arxiv.org/abs/2607.13688",
-      "summary": "arXiv:2607.13688v1 Announce Type: cross Abstract: Emerging sustainable materials increasingly rely on engineered hierarchy and microstructure to achieve control of their properties and mechanical behavior. Optimizing the…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nuclear Charge Radius of $^9$Be from Muonic Atom Spectroscopy Using a Microcalorimeter",
-      "url": "https://arxiv.org/abs/2607.13690",
-      "summary": "arXiv:2607.13690v1 Announce Type: cross Abstract: The $2p\\to1s$ transition energy in muonic $^9$Be was measured using a metallic magnetic calorimeter, resulting in $E_{2p\\to 1s}=33\\,391.48(34)\\,$eV. The result is 30 time…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Social Simulations: from Agent-Based Modeling to Digital Twins",
-      "url": "https://arxiv.org/abs/2607.13693",
-      "summary": "arXiv:2607.13693v1 Announce Type: cross Abstract: This book chapter covers the evolution of social simulation from classical agent-based models, in which agents interact according to explicitly defined behavioral rules, …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Microscopic constitutive theory of stress overshoot, yielding, and strain hardening in amorphous materials",
-      "url": "https://arxiv.org/abs/2607.13734",
-      "summary": "arXiv:2607.13734v1 Announce Type: cross Abstract: We develop a microscopic constitutive theory for the nonlinear deformation of metallic and polymer glasses based on nonaffine elasticity coupled to irreversible many-body…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Momentum Distribution and Contact Parameters of a mass-imbalanced three-body system across the Efimov-Unatomic transition",
-      "url": "https://arxiv.org/abs/2607.13769",
-      "summary": "arXiv:2607.13769v1 Announce Type: cross Abstract: We investigate the single-particle momentum distribution and contact parameters of mass-imbalanced three-body systems at the critical dimension Dc, where the transition b…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cooling rate and glassy behavior in the Fermi--Pasta--Ulam system",
-      "url": "https://arxiv.org/abs/2607.13833",
-      "summary": "arXiv:2607.13833v1 Announce Type: cross Abstract: In this work, we numerically studied the cooling process of a Fermi--Pasta--Ulam system, which occurs when the FPU system is placed in contact with a gas whose temperatur…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wireless millikelvin interconnects for superconducting quantum hardware",
-      "url": "https://arxiv.org/abs/2607.13834",
-      "summary": "arXiv:2607.13834v1 Announce Type: cross Abstract: Scalable quantum computing is limited by the dense network of electrical interconnects linking cryogenic quantum processors to room-temperature control electronics. To ov…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Continuous limit of the square well problem in quantum mechanics",
-      "url": "https://arxiv.org/abs/2607.13872",
-      "summary": "arXiv:2607.13872v1 Announce Type: cross Abstract: The free-particle and square-well potentials are two of the most emblematic problems in quantum mechanics, illustrating essential concepts such as matter waves, energy qu…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Long-Baseline VLF Observations of Solar Flares from Antarctica",
-      "url": "https://arxiv.org/abs/2607.13913",
-      "summary": "arXiv:2607.13913v1 Announce Type: cross Abstract: We present long-baseline Very Low Frequency (VLF) observations of solar flare-induced ionospheric disturbances obtained at the Bulgarian Polar Astronomical Observatory (S…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Detecting unusual trading patterns on cryptocurrency exchanges by means of complexity measures",
-      "url": "https://arxiv.org/abs/2607.13916",
-      "summary": "arXiv:2607.13916v1 Announce Type: cross Abstract: Artificial transaction generation remains an important source of potential market manipulation on cryptocurrency exchanges, as it may distort reported liquidity and reduc…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "NNStar: An end-to-end AI agent for nuclear matter and neutron star physics",
-      "url": "https://arxiv.org/abs/2607.13930",
-      "summary": "arXiv:2607.13930v1 Announce Type: cross Abstract: Constraining the equation of state of dense matter requires confronting effective models with massive data that spans many orders of magnitude in scale, from sub-saturati…",
       "ts": 1784174400000
     }
   ],
