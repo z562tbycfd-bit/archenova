@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-16T15:42:34.320Z",
+  "updated": "2026-07-16T17:20:06.635Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "WHO: Uganda is silent on updates following disclosure of Marburg outbreak",
+      "url": "https://www.statnews.com/2026/07/16/world-health-organization-wants-marburg-virus-update-from-uganda/?utm_campaign=rss",
+      "summary": "The government of Uganda has gone quiet on an outbreak of the deadly Marburg virus that it reported late last month, the WHO acknowledged.",
+      "ts": 1784218927000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Why teens deserve access to safe AI",
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "ts": 1784217600000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "See, Blind Mice: Consortium’s Drugs Restore Sight",
@@ -124,6 +140,22 @@
     },
     {
       "source": "United Nations News",
+      "title": "Countries vow faster action on development financing in annual declaration",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167957",
+      "summary": "UN Member States reaffirmed their commitment to the Sustainable Development Goals (SDGs) by adopting a declaration on Wednesday that they will implement reforms to help close the $4 trillion SDG financing gap.",
+      "ts": 1784203200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Heat deaths are not inevitable’: WHO pushes Europe to heat‑proof its hospitals",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167955",
+      "summary": "As Europe battles a deadly record-breaking heatwave, the World Health Organization (WHO) issued new guidance on Thursday to help countries face scorching temperatures now and in the future.",
+      "ts": 1784203200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "More than 500 people feared dead in double Myanmar shipwreck tragedy",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167951",
       "summary": "There is growing concern for at least 500 people believed to have been aboard two boats that reportedly capsized off Myanmar’s coast in recent days.",
@@ -208,14 +240,6 @@
       "url": "https://spacenews.com/swissto12-raises-70-million-to-accelerate-small-geo-satellite-production/",
       "summary": "Swissto12 said it has raised $70 million in fresh funding to keep up with growing demand for its small geostationary satellite manufacturing business. The post Swissto12 raises $70 million to accelerate small GEO satelli…",
       "ts": 1784185200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Ontario Wildfire Smoke Moves East",
-      "url": "https://science.nasa.gov/earth/earth-observatory/ontario-wildfire-smoke-moves-east/",
-      "summary": "Canadian wildfires sent plumes of smoke streaming over Ontario, Quebec, and parts of the U.S. Midwest and Northeast.",
-      "ts": 1784174400000,
       "categoryId": "space"
     },
     {
@@ -377,6 +401,22 @@
       "summary": "arXiv:2603.01568v2 Announce Type: replace-cross Abstract: Efficient coding theory predicts that biological perceptual systems compress sensory input optimally under resource constraints, with the systematic structure of …",
       "ts": 1784174400000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Ontario Wildfire Smoke Moves East",
+      "url": "https://science.nasa.gov/earth/earth-observatory/ontario-wildfire-smoke-moves-east/",
+      "summary": "Canadian wildfires sent plumes of smoke streaming over Ontario, Quebec, and parts of the U.S. Midwest and Northeast.",
+      "ts": 1784174400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "url": "https://openai.com/index/cars24",
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "ts": 1784160000000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "Nature Energy",
@@ -681,46 +721,6 @@
       "summary": "The number of confirmed cases of Ebola in Congo has reached 2,011, including 754 deaths, making it the the fastest-growing outbreak on record, authorities say.",
       "ts": 1784123880000,
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Biogen Alzheimer’s drug, skyrocketing 340B drug sales, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/15/biogen-alzheimer-drug-skyrocketing-340b-drug-sales/?utm_campaign=rss",
-      "summary": "An Alzheimer’s drug from Biogen slowed cognitive decline in a mid-stage trial at roughly comparable rates as approved medicines",
-      "ts": 1784120800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Replay of the online media briefing on the total solar eclipse",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Replay_of_the_online_media_briefing_on_the_total_solar_eclipse",
-      "summary": "Video: 00:57:42 ESA experts explain the science of eclipses, including visibility and key opportunities for scientific observation.",
-      "ts": 1784120400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Icarus Robotics taps KULR to provide batteries for Space Station robots",
-      "url": "https://spacenews.com/icarus-robotics-taps-kulr-to-provide-batteries-for-space-station-robots/",
-      "summary": "NAPA, Calif. – Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, selected KULR Technology Group to provide batteries for Joy, a free-flying platform destined for […] The post Ic…",
-      "ts": 1784120400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Laying the groundwork for the first human mission to Mars",
-      "url": "https://spacenews.com/laying-the-groundwork-for-the-first-human-mission-to-mars/",
-      "summary": "Sending humans to Mars and returning them safely to Earth would be one of the most complex endeavors that humans have ever carried out. The number of issues that must […] The post Laying the groundwork for the first huma…",
-      "ts": 1784120400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Volunteer Measures Record Louisiana Rainfall ",
-      "url": "https://science.nasa.gov/get-involved/citizen-science/volunteer-measures-record-louisiana-rainfall/",
-      "summary": "Join a national community of precipitation reporters providing critical data to improve scientific understanding and forecasts.",
-      "ts": 1784118720000,
-      "categoryId": "space"
     }
   ],
   "categories": [
