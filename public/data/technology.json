@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-16T13:58:20.081Z",
+  "updated": "2026-07-16T15:42:34.320Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "See, Blind Mice: Consortium’s Drugs Restore Sight",
+      "url": "https://www.genengnews.com/topics/drug-discovery/see-blind-mice-consortiums-drugs-restore-sight/",
+      "summary": "Researchers developed a series of light-activated small molecule drugs that mimic the function of the light-sensing photoreceptor cells that degenerate in diseases such as age-related macular degeneration and retinitis p…",
+      "ts": 1784216035000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Defense Innovation Unit seeks commercial path to deliver electrical power from orbit",
+      "url": "https://spacenews.com/defense-innovation-unit-seeks-commercial-path-to-deliver-electrical-power-from-orbit/",
+      "summary": "DIU solicitation aims to move long-studied technology toward military use by fiscal 2030 The post Defense Innovation Unit seeks commercial path to deliver electrical power from orbit appeared first on SpaceNews.",
+      "ts": 1784215785000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Building the infrastructure for a shifting space economy with Massi Ladovaz",
+      "url": "https://spacenews.com/building-the-infrastructure-for-a-shifting-space-economy-with-massi-ladovaz/",
+      "summary": "In this episode, David Ariosto speaks with SpinLaunch CEO Massi Ladovaz. They discuss what attracted Ladovaz to reimagining how to launch spacecraft, the changing needs and challenges of building constellations […] The p…",
+      "ts": 1784215440000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Trump’s pick to lead Space Force defends plan to more than double budget",
+      "url": "https://spacenews.com/trumps-pick-to-lead-space-force-defends-plan-to-more-than-double-budget/",
+      "summary": "Lt. Gen. Douglas Schiess, to be the next chief of space operations of the U.S. Space Force, testified July 16 before the Senate Armed Services Committee in a confirmation hearing The post Trump’s pick to lead Space Force…",
+      "ts": 1784214196000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Brain implant restores the sensation of touch in a person with quadriplegia",
+      "url": "https://www.statnews.com/2026/07/16/brain-computer-interface-implant-restores-sensation-double-neural-bypass/?utm_campaign=rss",
+      "summary": "A brain-computer interface helped restore movement and sensation in a 48-year old man with quadriplegia, researchers say.",
+      "ts": 1784214000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare wants to shake up how it pays for clinical AI",
+      "url": "https://www.statnews.com/2026/07/16/medicare-shake-clinical-ai-rpm-payments-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: Centers for Medicare and Medicaid Services proposes major changes to RPM, clinical AI payment models.",
+      "ts": 1784213299000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Young Galaxy Cluster",
+      "url": "https://www.nasa.gov/image-article/young-galaxy-cluster/",
+      "summary": "NASA’s James Webb Space Telescope takes us 4.4 billion years in the past with this July 3, 2026, image of a young galaxy cluster, MACS J0553.4-3342. The cluster is composed of two actively merging sub-clusters, roughly e…",
+      "ts": 1784212546000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about Kalshi bets on clinical trials, a Merck cholesterol pill, and more",
@@ -65,6 +121,14 @@
       "summary": "Prediction markets have permeated the worlds of sports, politics, and reality television shows. Now, the biopharma industry could be next.",
       "ts": 1784203200000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "More than 500 people feared dead in double Myanmar shipwreck tragedy",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167951",
+      "summary": "There is growing concern for at least 500 people believed to have been aboard two boats that reportedly capsized off Myanmar’s coast in recent days.",
+      "ts": 1784203200000,
+      "categoryId": "global-governance"
     },
     {
       "source": "ESA",
@@ -144,6 +208,14 @@
       "url": "https://spacenews.com/swissto12-raises-70-million-to-accelerate-small-geo-satellite-production/",
       "summary": "Swissto12 said it has raised $70 million in fresh funding to keep up with growing demand for its small geostationary satellite manufacturing business. The post Swissto12 raises $70 million to accelerate small GEO satelli…",
       "ts": 1784185200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Ontario Wildfire Smoke Moves East",
+      "url": "https://science.nasa.gov/earth/earth-observatory/ontario-wildfire-smoke-moves-east/",
+      "summary": "Canadian wildfires sent plumes of smoke streaming over Ontario, Quebec, and parts of the U.S. Midwest and Northeast.",
+      "ts": 1784174400000,
       "categoryId": "space"
     },
     {
@@ -649,78 +721,6 @@
       "summary": "Join a national community of precipitation reporters providing critical data to improve scientific understanding and forecasts.",
       "ts": 1784118720000,
       "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Draws Safeguards Conclusions for 179 States – IAEA Report",
-      "url": "http://www.iaea.org/newscenter/news/iaea-draws-safeguards-conclusions-for-179-states-iaea-report",
-      "summary": "",
-      "ts": 1784118609000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
-      "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. PsiQuantum has a plan to make a massive quantum computer out of light The machine …",
-      "ts": 1784117400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "The US is advancing AI safety through state and federal action",
-      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "ts": 1784116800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Schools closed in West Bank, AI in healthcare, Indigenous rights",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167950",
-      "summary": "Access to education continues to worsen in the West Bank, the United Nations reported on Wednesday.",
-      "ts": 1784116800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gulf crisis: Guterres calls for de-escalation, warns against return to full-on war",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167949",
-      "summary": "UN Secretary-General António Guterres voiced deep concern on Wednesday over the continuing military escalation in the Middle East amid ongoing strikes by the United States and Iran over control of the Strait of Hormuz.",
-      "ts": 1784116800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: International Criminal Court briefs on Darfur",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167945",
-      "summary": "On Wednesday, the Security Council heard an update on the International Criminal Court's work in Sudan's Darfur region, referred to the Court back in 2005. Focus has recently turned to atrocities in the ongoing war betwe…",
-      "ts": 1784116800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New guidance offers hope for reducing the global toll of dementia",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167948",
-      "summary": "The World Health Organization (WHO) has issued updated global guidelines aimed at reducing the risk of cognitive decline and dementia, saying that up to 45 per cent of cases may be preventable or delayed by addressing mo…",
-      "ts": 1784116800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Colombia: Pockets of insecurity challenge ‘vibrant democracy’, Security Council told",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167946",
-      "summary": "As Colombia awaits the inauguration of its newly elected president, pockets of insecurity remain a challenge for a nation that has overcome decades of conflict, the head of the UN verification team there told the Securit…",
-      "ts": 1784116800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Looted gold and gum arabic are bankrolling Sudan's war, UN warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167944",
-      "summary": "Alongside gold, the little-known Sudanese commodity gum arabic – used in soft drinks, food, cosmetics and pharmaceuticals – continues to fuel the war.",
-      "ts": 1784116800000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

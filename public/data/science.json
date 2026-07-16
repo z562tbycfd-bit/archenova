@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-16T13:58:16.711Z",
+  "updated": "2026-07-16T15:42:30.055Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Schrödinger‑like charges in six‑molecule clusters point to new quantum components",
+      "url": "https://phys.org/news/2026-07-schrdingerlike-sixmolecule-clusters-quantum-components.html",
+      "summary": "Researchers from the University of Basel have published details of how electrons within a cluster of molecules interact with one another and can be controlled. Their findings pave the way for new approaches to developing…",
+      "ts": 1784216413000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why some primates have even tougher births than humans",
+      "url": "https://phys.org/news/2026-07-primates-tougher-births-humans.html",
+      "summary": "Scientists have long thought humans have a uniquely difficult birth compared with other primates. And it's true that, from an evolutionary perspective, we face an obstetrical dilemma. As we evolved to walk on two feet, o…",
+      "ts": 1784216406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "UK launches hi-tech mission to study Greenland ice melt",
+      "url": "https://phys.org/news/2026-07-uk-tech-mission-greenland-ice.html",
+      "summary": "A team of international scientists sets sail Thursday from Britain for Greenland to study its rapidly melting ice using drones, mini-submarines and autonomous swimming robots.",
+      "ts": 1784215803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How bacteria sacrifice themselves to render antibiotics ineffective",
+      "url": "https://phys.org/news/2026-07-bacteria-sacrifice-antibiotics-ineffective.html",
+      "summary": "Bacteria can defend themselves against antibiotics with the help of an enzyme released by dying cells, according to a study by a team from the Institute for Biological Physics at the University of Cologne and Wageningen …",
+      "ts": 1784215801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Statistical method broadens forecasts by modeling uncertainty beyond average outcomes",
+      "url": "https://phys.org/news/2026-07-statistical-method-broadens-uncertainty-average.html",
+      "summary": "When it comes to statistics, we usually expect to be informed about what happens \"on average.\" But sometimes the key information lies in deviations from that mean: how likely is heavy rain, and how likely is it to remain…",
+      "ts": 1784215203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds choice of team car could decide the Tour de France",
+      "url": "https://phys.org/news/2026-07-choice-team-car-de-france.html",
+      "summary": "Elite athletes competing in the Tour de France could gain more than eight seconds in the individual time trial depending solely on the type of team car following them, a new study has revealed.",
+      "ts": 1784215201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "South Africa's rooibos heads to space",
+      "url": "https://phys.org/news/2026-07-south-africa-rooibos-space.html",
+      "summary": "Seeds from South Africa's world-famous rooibos tea are headed to the International Space Station to see how they respond to space conditions in the first such experiment for Africa, organizers announced Thursday.",
+      "ts": 1784214791000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Driving the speed limit could slash fuel use and emissions at the cost of only 54 extra seconds a day",
+      "url": "https://phys.org/news/2026-07-limit-slash-fuel-emissions-extra.html",
+      "summary": "Speeding in your car to work, to pick up your children from school, or go from one errand to the next not only wastes money in gas and sends harmful emissions into the air, it barely saves you time, new research says.",
+      "ts": 1784214669000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black Sea waters reshaped Eastern Mediterranean circulation 11,000 years ago",
+      "url": "https://phys.org/news/2026-07-black-sea-reshaped-eastern-mediterranean.html",
+      "summary": "A new study led by the University of Barcelona reveals that freshwater exported from the Black Sea to the Aegean Sea triggered major environmental changes across the Eastern Mediterranean.",
+      "ts": 1784214601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What animals do before going to war",
+      "url": "https://phys.org/news/2026-07-animals-war.html",
+      "summary": "Social animals use a suite of preemptive behaviors in anticipation of conflict, including staying quiet, monitoring their surroundings, conducting raids and bonding through play. In a review published in Trends in Ecolog…",
+      "ts": 1784214003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new record holder for the world's oldest amber discovered in China",
+      "url": "https://phys.org/news/2026-07-holder-world-oldest-amber-china.html",
+      "summary": "Paleontologists in China have discovered the oldest chemically verified amber ever found, dating to 385 million years ago. That's approximately 140 million years before dinosaurs roamed Earth. The previous record holder …",
+      "ts": 1784213377000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Webb telescope discovers hidden planet in famous star system",
+      "url": "https://phys.org/news/2026-07-webb-telescope-hidden-planet-famous.html",
+      "summary": "Astronomers using NASA's James Webb Space Telescope have discovered a giant planet outside our solar system, called an exoplanet, hiding within one of the most intensely studied planetary systems in the Milky Way galaxy.",
+      "ts": 1784212803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemists shrink gallium nitride, the material behind LED lighting, into nanocrystals",
+      "url": "https://phys.org/news/2026-07-chemists-gallium-nitride-material-nanocrystals.html",
+      "summary": "Nanocrystals are so useful that they formed the basis of the 2023 Nobel Prize in Chemistry. But despite their usefulness, scientists have so far been able to make these microscopic crystals from only a limited palette of…",
+      "ts": 1784211607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Listening to 'ringing' black holes unlocks future gravitational-wave astronomy",
+      "url": "https://phys.org/news/2026-07-black-holes-future-gravitational-astronomy.html",
+      "summary": "Listening to the \"ringing\" produced by black holes after they collide and merge could allow scientists to test Einstein's theory of general relativity under the most extreme conditions in the universe while unlocking the…",
+      "ts": 1784211001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New computational imaging method cuts X-ray dose while preserving high resolution",
+      "url": "https://phys.org/news/2026-07-imaging-method-ray-dose-high.html",
+      "summary": "Researchers have shown that it's possible to take clear, high-resolution X-ray images using very little radiation. With more development, the new approach could eventually make medical X-ray diagnostics less risky and mo…",
+      "ts": 1784210409000
+    },
+    {
+      "source": "Science News",
+      "title": "Genes offer new clues to stopping Huntington’s disease in its tracks",
+      "url": "https://www.sciencenews.org/article/genes-huntingtons-therapy-expansion",
+      "summary": "A new generation of therapies aims to intervene at a recently discovered gap between the disease’s molecular march and its neurological consequences.",
+      "ts": 1784210400000
+    },
     {
       "source": "Phys.org",
       "title": "Hourly data reveal Alpine 100-year floods could arrive every 45 to 80 years",
@@ -588,118 +700,6 @@
       "title": "Radiation effects on surface and bulk properties of ATLAS18 silicon sensors under low- and high-dose gamma irradiation and annealing",
       "url": "https://arxiv.org/abs/2607.13932",
       "summary": "arXiv:2607.13932v1 Announce Type: new Abstract: Silicon strip detectors for the ATLAS Inner Tracker (ITk) at the HL-LHC must withstand harsh radiation conditions, including fluences of up to 1.6E15 1 MeV n$_{eq}$/cm$^{2}…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polariton Topological Insulators with Disclinations",
-      "url": "https://arxiv.org/abs/2607.13948",
-      "summary": "arXiv:2607.13948v1 Announce Type: new Abstract: We introduce polariton topological insulator on aperiodic array of microcavity pillars with disclination. This unique dissipative and nonlinear topological system can have …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ZPAN: An Organic Nonlinear Optical Crystal for High Intensity THz Generation",
-      "url": "https://arxiv.org/abs/2607.13954",
-      "summary": "arXiv:2607.13954v1 Announce Type: new Abstract: We report an optimized synthesis and crystal growth protocol as well as structural, optical, and terahertz (THz) generation characteristics of the organic nonlinear optical…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Metamorphosis of transition between states of limit cycle oscillations in aeroacoustic system",
-      "url": "https://arxiv.org/abs/2607.13956",
-      "summary": "arXiv:2607.13956v1 Announce Type: new Abstract: Dynamical systems undergoing transition to oscillatory state exhibit change in the nature of the transition from supercritical to subcritical Hopf bifurcation or vice versa…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Temporal Fourier Optics Reveals Hidden Hybridized Light-Matter States",
-      "url": "https://arxiv.org/abs/2607.13957",
-      "summary": "arXiv:2607.13957v1 Announce Type: new Abstract: Spectral measurements provide fundamental insights into wave systems by revealing resonances, mode hybridization, and light-matter interactions. However, intrinsic dissipat…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kaleidoscopic-ray-tracing-based model of the scintillation flash energy deposition in the photomultipliers attached to a strip scintillator",
-      "url": "https://arxiv.org/abs/2607.13963",
-      "summary": "arXiv:2607.13963v1 Announce Type: new Abstract: Strip scintillator detectors are used nowadays in many fields of applied physics, particularly in medicine, civil engineering, mapping of underground resources, and securit…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Confinement effects on protein stability in a freezing water environment",
-      "url": "https://arxiv.org/abs/2607.13966",
-      "summary": "arXiv:2607.13966v1 Announce Type: new Abstract: Understanding how proteins behave at low temperatures remains a central challenge in biophysics, with direct implications for cold denaturation and cryopreservation. While …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contact-resolved deployment of the Contour Neurovascular System in patient-specific intracranial aneurysms",
-      "url": "https://arxiv.org/abs/2607.13972",
-      "summary": "arXiv:2607.13972v1 Announce Type: new Abstract: While intrasaccular flow disruptors are widely used to treat wide-neck intracranial aneurysms, state-of-the-art patient-specific computational models routinely neglect the …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magneto-optical hologram lens with microsecond focal switching in magnetic garnet",
-      "url": "https://arxiv.org/abs/2607.13985",
-      "summary": "arXiv:2607.13985v1 Announce Type: new Abstract: Active lenses based on metasurfaces have been demonstrated across broad applications, and their response speeds remain limited to the microsecond range. Here we report the …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Wulff bio-heat transfer model revisited: directional blood enthalpy transport, the biological Peclet number, and implications for laser-induced thermal therapy",
-      "url": "https://arxiv.org/abs/2607.14017",
-      "summary": "arXiv:2607.14017v1 Announce Type: new Abstract: Bio-heat transfer models play a fundamental role in predicting temperature fields during laser-induced thermal therapy (LITT). Among continuum bio-heat transfer models, the…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamics of a microroller under confinement",
-      "url": "https://arxiv.org/abs/2607.14053",
-      "summary": "arXiv:2607.14053v1 Announce Type: new Abstract: Rotating particles can translate when placed near a surface, forming microrollers with a wide range of biomedical and microfluidic applications. In this work, we investigat…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A general framework for knowledge integration in machine learning for electromagnetic scattering using quasinormal modes",
-      "url": "https://arxiv.org/abs/2509.06130",
-      "summary": "arXiv:2509.06130v2 Announce Type: cross Abstract: Neural networks have been demonstrated to be able to accelerate the modeling and inverse design of optical and electromagnetic devices by serving as fast surrogates for e…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Symmetry-Informed Deep Learning for Electromagnetic Scattering",
-      "url": "https://arxiv.org/abs/2607.12810",
-      "summary": "arXiv:2607.12810v1 Announce Type: cross Abstract: Deep learning can accelerate the modeling of electromagnetic devices by replacing costly simulations with neural networks trained to map design parameters to scattering p…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Risk assessment of muon single-event effects for low-altitude aircraft",
-      "url": "https://arxiv.org/abs/2607.13064",
-      "summary": "arXiv:2607.13064v1 Announce Type: cross Abstract: With the rapid development of low-altitude economy, the radiation environment safety of low-altitude aircraft such as drones and electric vertical take-off and landing ai…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Reconstructions of Konrad Zuse's Z3 Computer",
-      "url": "https://arxiv.org/abs/2607.13089",
-      "summary": "arXiv:2607.13089v1 Announce Type: cross Abstract: This paper reviews the various reconstructions of Konrad Zuse's Z3 computer, built in 1941. The first is the reconstruction made by Zuse himself in the 1960s, which is no…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tensor-Network Finite Elements for Analytic Operator Equations",
-      "url": "https://arxiv.org/abs/2607.13129",
-      "summary": "arXiv:2607.13129v1 Announce Type: cross Abstract: Operator equations (OEs) underpin quantitative modeling across science and engineering. Finite-element (FE) methods discretize continuous OEs into finite-dimensional alge…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multiwavelength Raman investigation of mono- and few-layer MoS2 grown by Pulsed Laser Deposition on SiO2",
-      "url": "https://arxiv.org/abs/2607.13211",
-      "summary": "arXiv:2607.13211v1 Announce Type: cross Abstract: Molybdenum disulfide (MoS$_2$) is a semiconductor whose vibrational and excitonic properties are highly sensitive to layer number and structural disorder. We demonstrate …",
       "ts": 1784174400000
     }
   ],
