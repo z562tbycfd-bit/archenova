@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-17T20:58:33.281Z",
+  "updated": "2026-07-17T22:01:15.566Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tuberculosis drug discovery gets smarter with AI",
+      "url": "https://phys.org/news/2026-07-tuberculosis-drug-discovery-smarter-ai.html",
+      "summary": "When researchers screen potential tuberculosis drugs, they often end up with too many options. Some look promising but later prove to be costly dead ends. \"We might get thousands of compounds from a screen and then have …",
+      "ts": 1784324403000
+    },
+    {
+      "source": "Science News",
+      "title": "Inside the fight against the parasite Cyclospora",
+      "url": "https://www.sciencenews.org/article/cyclospora-outbreak-lettuce-diarrhea",
+      "summary": "Parasite-induced cases of explosive diarrhea are sweeping the United States. Containing the outbreak won’t be easy.",
+      "ts": 1784323569000
+    },
     {
       "source": "Phys.org",
       "title": "Herbularyo card game blends Filipino folklore and organic chemistry",
@@ -686,20 +700,6 @@
       "title": "Summary of quality control (QC) of ATLAS18 production ITk strip sensors",
       "url": "https://arxiv.org/abs/2607.14691",
       "summary": "arXiv:2607.14691v1 Announce Type: new Abstract: To address the demanding operational requirements of the High-Luminosity upgrade of the Large Hadron Collider (HL-LHC), the ATLAS experiment is replacing its current Inner …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computational studies of giant edge islands and unpaired X-points in HSX and W7-X by manipulating coil currents",
-      "url": "https://arxiv.org/abs/2607.14722",
-      "summary": "arXiv:2607.14722v1 Announce Type: new Abstract: We present magnetic configurations in the Helically Symmetric eXperiment (HSX) and Wendelstein 7-X (W7-X), in which the edge magnetic structure is dominated by island chain…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3D scanning microscopy through scattering surfaces using the optical memory effect",
-      "url": "https://arxiv.org/abs/2607.14751",
-      "summary": "arXiv:2607.14751v1 Announce Type: new Abstract: Wavefront shaping allows light to be focused through scattering objects. However, the wavefront correction found is only valid in a small region called the isoplanatic patc…",
       "ts": 1784260800000
     }
   ],

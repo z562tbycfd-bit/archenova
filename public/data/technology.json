@@ -1,14 +1,46 @@
 {
   "ok": true,
-  "updated": "2026-07-17T20:58:36.837Z",
+  "updated": "2026-07-17T22:01:19.245Z",
   "items": [
     {
+      "source": "NASA",
+      "title": "Establishing a VTE Risk Score for Astronauts Algorithm",
+      "url": "https://www.nasa.gov/organizations/ochmo/establishing-a-vte-risk-score-for-astronauts-algorithm/",
+      "summary": "In April 2026, NASA’s Office of the Chief Health and Medical Officer (OCHMO) initiated a working group to review updated VTE case information, additional data gathered revealing altered blood flow status within a cohort …",
+      "ts": 1784322098000,
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
-      "title": "Opinion: What the 20th century war on smog tells us about today’s wildfire smoke",
+      "title": "Opinion: What the 20th-century war on smog tells us about today’s wildfire smoke",
       "url": "https://www.statnews.com/2026/07/17/wildfire-smoke-air-quality-smog-policy-climate-change/?utm_campaign=rss",
       "summary": "The evolution of air pollution policy shows how to respond to the dangerous haze caused by Canadian wildfires, experts write in opinion piece.",
       "ts": 1784321290000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Awards Facilities Support Services Contract for Ames Research Center ",
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-awards-facilities-support-services-contract-for-ames-research-center/",
+      "summary": "CONTRACT RELEASE NASA has selected Chugach Intelligence Solutions LLC to provide comprehensive operations, maintenance, and repair services for NASA’s Ames Research Center in California’s Silicon Valley. The Ames Facilit…",
+      "ts": 1784320499000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Chandra and IXPE Study Pulsar in Lighthouse Nebula",
+      "url": "https://www.nasa.gov/image-article/nasas-chandra-and-ixpe-study-pulsar-in-lighthouse-nebula/",
+      "summary": "This composite image, released on July 9, 2026, shows the region around a pulsar – a neutron star with a strong magnetic field that spins incredibly fast – within the Lighthouse nebula. The image contains X-ray data from…",
+      "ts": 1784318723000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "La NASA invita a los medios de comunicación al lanzamiento del telescopio espacial Roman",
+      "url": "https://www.nasa.gov/news-release/la-nasa-invita-a-los-medios-de-comunicacion-al-lanzamiento-del-telescopio-espacial-roman/",
+      "summary": "Read this release in English here. Ya está abierto el plazo de acreditación de los medios de comunicación para el lanzamiento de la misión del telescopio espacial Nancy Grace Roman de la NASA. El lanzamiento del telescop…",
+      "ts": 1784316426000,
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -153,6 +185,30 @@
       "summary": "Avenue Biosciences´ machine learning-powered platform engineers and screens signal peptide variants to increase protein secretion from cells. Circio’s circVec technology has demonstrated significantly enhanced and durabl…",
       "ts": 1784289607000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "US-Iran war: UN chief calls for new diplomatic push following attacks on civilian areas",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167973",
+      "summary": "The UN Secretary-General remains deeply concerned by the continuing deadly military escalation between Iran and the United States, his spokesperson said on Friday as attacks destroyed key civilian and military infrastruc…",
+      "ts": 1784289600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Djibouti: Emergency alert spotlights sharp hunger spike",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167971",
+      "summary": "More than 256,000 people in Djibouti – around 25 per cent of the population – are likely to face crisis or emergency level hunger over the coming months, a UN-backed global food monitoring network warned in a new report …",
+      "ts": 1784289600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Appeal for calm in Kashmir, women on the move, increased Ebola deaths in communities, 12th anniversary of MH17",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167970",
+      "summary": "The UN human rights chief, Volker Türk, has appealed for calm in Pakistan-Administered Kashmir amid unrest ahead of regional elections.",
+      "ts": 1784289600000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -665,62 +721,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has…",
       "ts": 1784203800000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Office of Space Commerce makes its case for mission authorization",
-      "url": "https://spacenews.com/office-of-space-commerce-makes-its-case-for-mission-authorization/",
-      "summary": "The Office of Space Commerce defended its proposal for a mission authorization scheme for novel space activities, arguing it would provide certainty for companies while limiting regulatory burdens. The post Office of Spa…",
-      "ts": 1784203560000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Autolomous and Cellular Origins Expand Cell Therapy Manufacturing Process",
-      "url": "https://www.genengnews.com/topics/bioprocessing/autolomous-and-cellular-origins-expand-cell-therapy-manufacturing-process/",
-      "summary": "The combined solution using Constellation and autoloMATE overcomes fragmentation, limited visibility, and the absence of standardized, interoperable data flows without replacing existing processes, enabling manufacturers…",
-      "ts": 1784203245000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Bluestaq Launches BLUESTAQ / ARQ Defense-Grade Data Infrastructure Now Available for Commercial, Government, and Enterprise Organizations",
-      "url": "https://spacenews.com/bluestaq-launches-bluestaq-arq-defense-grade-data-infrastructure-now-available-for-commercial-government-and-enterprise-organizations/",
-      "summary": "COLORADO SPRINGS, CO, July 16, 2026 – Bluestaq today announced the launch of BLUESTAQ / ARQ, the company’s commercial data infrastructure platform. / ARQ is built for organizations in healthcare, […] The post Bluestaq La…",
-      "ts": 1784203200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Kalshi comes for biopharma, with prediction markets for clinical trials and FDA approvals",
-      "url": "https://www.statnews.com/2026/07/16/kalshi-new-offering-prediction-market-clinical-trials-fda-approvals/?utm_campaign=rss",
-      "summary": "Prediction markets have permeated the worlds of sports, politics, and reality television shows. Now, the biopharma industry could be next.",
-      "ts": 1784203200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Breaking the silence: Zimbabwean youth leader calls for urgent investment in mental health",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167956",
-      "summary": "For Tanatswa Amanda Chikaura, mental health advocacy began with a personal loss: while studying psychology at the University of Zimbabwe, she learned that a fellow student had died by suicide.",
-      "ts": 1784203200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Haiti: Training the next generation to fight corruption",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167931",
-      "summary": "How do you tackle corruption in a country grappling with insecurity, weak institutions and widespread impunity? In Haiti, the Government and the United Nations are betting on the country's youth.",
-      "ts": 1784203200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Venezuela: IOM warns of potential El Niño threat to families displaced by earthquake",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167964",
-      "summary": "Thousands of people remain displaced three weeks after the devastating earthquakes in Venezuela and the possible formation of a strong El Niño climate pattern could worsen their already dire situation, the International …",
-      "ts": 1784203200000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
