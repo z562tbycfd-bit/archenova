@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-17T19:14:23.495Z",
+  "updated": "2026-07-17T20:58:36.837Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: What the 20th century war on smog tells us about today’s wildfire smoke",
+      "url": "https://www.statnews.com/2026/07/17/wildfire-smoke-air-quality-smog-policy-climate-change/?utm_campaign=rss",
+      "summary": "The evolution of air pollution policy shows how to respond to the dangerous haze caused by Canadian wildfires, experts write in opinion piece.",
+      "ts": 1784321290000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "NASA Invites Media to Roman Space Telescope, Crew-13 Launches",
@@ -182,7 +190,7 @@
       "source": "OpenAI",
       "title": "A scorecard for the AI age",
       "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "summary": "Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
       "ts": 1784282400000,
       "categoryId": "ai-compute"
     },
@@ -711,14 +719,6 @@
       "title": "Venezuela: IOM warns of potential El Niño threat to families displaced by earthquake",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167964",
       "summary": "Thousands of people remain displaced three weeks after the devastating earthquakes in Venezuela and the possible formation of a strong El Niño climate pattern could worsen their already dire situation, the International …",
-      "ts": 1784203200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Peacekeepers step up support as families return to south Lebanon",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167961",
-      "summary": "With violence in south Lebanon significantly decreased since mid-June, UN peacekeepers there have returned to core functions such as protecting humanitarian aid and restoring critical infrastructure as families continue …",
       "ts": 1784203200000,
       "categoryId": "global-governance"
     }

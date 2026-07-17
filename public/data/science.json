@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-17T19:14:18.796Z",
+  "updated": "2026-07-17T20:58:33.281Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Herbularyo card game blends Filipino folklore and organic chemistry",
+      "url": "https://phys.org/news/2026-07-herbularyo-card-game-blends-filipino.html",
+      "summary": "Medicinal plants have long been a cornerstone of Philippine traditional medicine, dating back generations. Tawa-tawa, a low-growing herb that thrives in open grasslands, is a valued supplementary treatment for dengue; th…",
+      "ts": 1784320803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Amazon soy pact collapse could add 1.4 million hectares of deforestation by 2036",
+      "url": "https://phys.org/news/2026-07-amazon-soy-pact-collapse-million.html",
+      "summary": "The collapse of a landmark Amazon soy pact will drive at least 1.4 million hectares (3.5 million acres) of extra deforestation in Brazil over the next decade, releasing carbon emissions equal to Canada's annual output, a…",
+      "ts": 1784317202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fatal car crashes in the US rise the day after a major mass shooting incident, finds new study",
+      "url": "https://phys.org/news/2026-07-fatal-car-day-major-mass.html",
+      "summary": "Mass shooting incidents and car crashes may seem like two unrelated incidents, but a recent study has uncovered that there might be an unexpected link. Every year, more than a hundred mass shootings take place across the…",
+      "ts": 1784316001000
+    },
     {
       "source": "Phys.org",
       "title": "How Gravity from Entropy theory connects the second law of thermodynamics with the emergence of cosmic structure",
@@ -353,13 +374,6 @@
       "ts": 1784282403000
     },
     {
-      "source": "APS PRX",
-      "title": "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems",
-      "url": "http://link.aps.org/doi/10.1103/kgfb-5g2w",
-      "summary": "Author(s): Nicolas Casilli, Seunghwi Kim, Sunil Mittal, Marvin Onabajo, Andrea Alù, and Cristian Cassella The analog Floquet solver incorporates Floquet amplitude modulations to help it escape local minima, significantly…",
-      "ts": 1784282400000
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
       "url": "http://link.aps.org/doi/10.1103/xxxk-y6yp",
@@ -420,6 +434,13 @@
       "title": "Inverse Clausius Thermodynamics in Run-and-Tumble Dynamics",
       "url": "http://link.aps.org/doi/10.1103/h48q-1s1c",
       "summary": "Author(s): Oded Farago We establish a mapping between one-dimensional run-and-tumble particle dynamics in the presence of thermal noise, and overdamped Brownian motion in a spatially inhomogeneous temperature field. The …",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems",
+      "url": "http://link.aps.org/doi/10.1103/kgfb-5g2w",
+      "summary": "Author(s): Nicolas Casilli, Seunghwi Kim, Sunil Mittal, Marvin Onabajo, Andrea Alù, and Cristian Cassella The analog Floquet solver incorporates Floquet amplitude modulations to help it escape local minima, significantly…",
       "ts": 1784282400000
     },
     {
@@ -679,27 +700,6 @@
       "title": "3D scanning microscopy through scattering surfaces using the optical memory effect",
       "url": "https://arxiv.org/abs/2607.14751",
       "summary": "arXiv:2607.14751v1 Announce Type: new Abstract: Wavefront shaping allows light to be focused through scattering objects. However, the wavefront correction found is only valid in a small region called the isoplanatic patc…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Local Variance-Based Calibration of Programmable Photonic Interferometer Meshes",
-      "url": "https://arxiv.org/abs/2607.14759",
-      "summary": "arXiv:2607.14759v1 Announce Type: new Abstract: Programmable photonic interferometer meshes enable reconfigurable linear optical transformations, but their performance depends critically on accurate calibration of Mach-Z…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Motion-Based Beamshape Recovery Enables Precision Nanoparticle Sizing",
-      "url": "https://arxiv.org/abs/2607.14761",
-      "summary": "arXiv:2607.14761v1 Announce Type: new Abstract: Label-free all-optical nanosizing approaches based on interferometric or darkfield-imaging infer size, composition, or shape from single-particle scattering signals, but th…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Empirical verification of principal mode orthogonality and relative phase calibration in photonic lanterns",
-      "url": "https://arxiv.org/abs/2607.14767",
-      "summary": "arXiv:2607.14767v1 Announce Type: new Abstract: Photonic lanterns efficiently map input spatial modes to single-mode outputs for applications like high angular resolution imaging and nulling interferometry. However, manu…",
       "ts": 1784260800000
     }
   ],
