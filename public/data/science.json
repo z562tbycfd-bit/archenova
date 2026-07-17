@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-17T22:01:15.566Z",
+  "updated": "2026-07-17T23:54:26.823Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researcher finds several UK mosquito species are potential carriers of avian malaria",
+      "url": "https://phys.org/news/2026-07-uk-mosquito-species-potential-carriers.html",
+      "summary": "Mosquitoes are widely known for transmitting diseases such as malaria and dengue fever to humans, but less is known about the diseases they can transmit to wild birds. The Plasmodium parasite that causes avian malaria is…",
+      "ts": 1784330401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds high school track experience gives baseball players an edge MLB teams overlook",
+      "url": "https://phys.org/news/2026-07-high-school-track-baseball-players.html",
+      "summary": "A new study by a University of Florida sport management professor and colleagues challenges long-held assumptions about how young athletes should train and suggests that Major League Baseball teams might be missing playe…",
+      "ts": 1784328002000
+    },
     {
       "source": "Phys.org",
       "title": "Tuberculosis drug discovery gets smarter with AI",
@@ -388,6 +402,48 @@
       "ts": 1784282403000
     },
     {
+      "source": "APS PRX",
+      "title": "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems",
+      "url": "http://link.aps.org/doi/10.1103/kgfb-5g2w",
+      "summary": "Author(s): Nicolas Casilli, Seunghwi Kim, Sunil Mittal, Marvin Onabajo, Andrea Alù, and Cristian Cassella The analog Floquet solver incorporates Floquet amplitude modulations to help it escape local minima, significantly…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Optimization of high-fidelity single-qubit gates for fluxonium qubits using single-flux quantum control",
+      "url": "http://link.aps.org/doi/10.1103/dz26-n1jc",
+      "summary": "Author(s): Maxime Lapointe-Major, Boyan Torosov, Bohdan Kulchytskyy, and Pooya Ronagh We present a gradient-based method to construct memory-efficient, high-fidelity, single-qubit gates for fluxonium qubits. These gates …",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Digital-alloy Bragg mirrors in high-$Q$ microcavities for polariton lasing",
+      "url": "http://link.aps.org/doi/10.1103/3t7c-5mtg",
+      "summary": "Author(s): V. A. Stolyarov, A. S. Kurdyubov, A. V. Trifonov, M. Yu. Petrov, I. V. Ignatiev, M. S. Lozhkin, S. A. Eliseev, Yu. P. Efimov, V. A. Lovtcius, and A. V. Kavokin We present an approach to the molecular beam epit…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Variational quantum algorithm for anion exchange across an electrolyzer membrane",
+      "url": "http://link.aps.org/doi/10.1103/149q-4z6s",
+      "summary": "Author(s): Timur Gubaev, Philipp Pfeffer, Christian Dreßler, and Jörg Schumacher We present a variational quantum algorithm that solves the one-dimensional diffusion problem with a space-dependent diffusion constant $D(x…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Cation disorder in ${\\mathrm{AgSbTe}}_{2}$ leads to glasslike ultralow lattice thermal conductivity",
+      "url": "http://link.aps.org/doi/10.1103/vcln-3c8m",
+      "summary": "Author(s): Soongyu Kwon, Sung Yi, Soongkeun Hyun, James M. Hodges, and Yi Xia Thermoelectric efficiency benefits from suppressing lattice thermal conductivity (${κ}_{l}$), yet the microscopic origin of the glasslike ultr…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Breaking on/off-coupling loss degeneracies via bidirectional nonlinear optics",
+      "url": "http://link.aps.org/doi/10.1103/vb1f-x4br",
+      "summary": "Author(s): Bo-Han Wu, Mahmoud Jalali Mehrabad, Mengjie Yu, and Dirk Englund Accurate characterization of nonlinear photonic integrated circuits is fundamentally limited by the inability of linear transmission measurement…",
+      "ts": 1784282400000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
       "url": "http://link.aps.org/doi/10.1103/xxxk-y6yp",
@@ -448,41 +504,6 @@
       "title": "Inverse Clausius Thermodynamics in Run-and-Tumble Dynamics",
       "url": "http://link.aps.org/doi/10.1103/h48q-1s1c",
       "summary": "Author(s): Oded Farago We establish a mapping between one-dimensional run-and-tumble particle dynamics in the presence of thermal noise, and overdamped Brownian motion in a spatially inhomogeneous temperature field. The …",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems",
-      "url": "http://link.aps.org/doi/10.1103/kgfb-5g2w",
-      "summary": "Author(s): Nicolas Casilli, Seunghwi Kim, Sunil Mittal, Marvin Onabajo, Andrea Alù, and Cristian Cassella The analog Floquet solver incorporates Floquet amplitude modulations to help it escape local minima, significantly…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Optimization of high-fidelity single-qubit gates for fluxonium qubits using single-flux quantum control",
-      "url": "http://link.aps.org/doi/10.1103/dz26-n1jc",
-      "summary": "Author(s): Maxime Lapointe-Major, Boyan Torosov, Bohdan Kulchytskyy, and Pooya Ronagh We present a gradient-based method to construct memory-efficient, high-fidelity, single-qubit gates for fluxonium qubits. These gates …",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Digital-alloy Bragg mirrors in high-$Q$ microcavities for polariton lasing",
-      "url": "http://link.aps.org/doi/10.1103/3t7c-5mtg",
-      "summary": "Author(s): V. A. Stolyarov, A. S. Kurdyubov, A. V. Trifonov, M. Yu. Petrov, I. V. Ignatiev, M. S. Lozhkin, S. A. Eliseev, Yu. P. Efimov, V. A. Lovtcius, and A. V. Kavokin We present an approach to the molecular beam epit…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Variational quantum algorithm for anion exchange across an electrolyzer membrane",
-      "url": "http://link.aps.org/doi/10.1103/149q-4z6s",
-      "summary": "Author(s): Timur Gubaev, Philipp Pfeffer, Christian Dreßler, and Jörg Schumacher We present a variational quantum algorithm that solves the one-dimensional diffusion problem with a space-dependent diffusion constant $D(x…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Cation disorder in ${\\mathrm{AgSbTe}}_{2}$ leads to glasslike ultralow lattice thermal conductivity",
-      "url": "http://link.aps.org/doi/10.1103/vcln-3c8m",
-      "summary": "Author(s): Soongyu Kwon, Sung Yi, Soongkeun Hyun, James M. Hodges, and Yi Xia Thermoelectric efficiency benefits from suppressing lattice thermal conductivity (${κ}_{l}$), yet the microscopic origin of the glasslike ultr…",
       "ts": 1784282400000
     },
     {
@@ -679,27 +700,6 @@
       "title": "Criticality and reduced dynamical resilience in PM2.5 pollution systems",
       "url": "https://arxiv.org/abs/2607.14632",
       "summary": "arXiv:2607.14632v1 Announce Type: new Abstract: Concentration-based metrics underpin air-quality assessment, while dynamical persistence and recovery describe how rapidly high-PM2.5 episodes dissipate and how strongly th…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rate-Independent Epigenetics: a thermodynamically consistent framework for modelling epigenetic response",
-      "url": "https://arxiv.org/abs/2607.14664",
-      "summary": "arXiv:2607.14664v1 Announce Type: new Abstract: Epigenetic changes -- heritable, long-lived, yet actively reversible modifications of the chromatin state -- display memory, threshold activation and hysteresis, features t…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vortex-Beam Transient Absorption Microspectroscopy Resolves Ultrafast Free-Exciton and Polaron Diffusion in 2D Perovskites",
-      "url": "https://arxiv.org/abs/2607.14678",
-      "summary": "arXiv:2607.14678v1 Announce Type: new Abstract: Two-dimensional (2D) Ruddlesden Popper perovskites are promising optoelectronic materials with strongly confined excitonic properties; however, probing their ultrafast carr…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Summary of quality control (QC) of ATLAS18 production ITk strip sensors",
-      "url": "https://arxiv.org/abs/2607.14691",
-      "summary": "arXiv:2607.14691v1 Announce Type: new Abstract: To address the demanding operational requirements of the High-Luminosity upgrade of the Large Hadron Collider (HL-LHC), the ATLAS experiment is replacing its current Inner …",
       "ts": 1784260800000
     }
   ],
