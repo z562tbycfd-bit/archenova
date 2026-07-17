@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-17T10:00:05.498Z",
+  "updated": "2026-07-17T11:36:05.023Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "In the battle of the sexes, the pay gap persists",
+      "url": "https://phys.org/news/2026-07-sexes-pay-gap-persists.html",
+      "summary": "Conceived by famed sociologist Paula England in the mid-1990s, occupational devaluation theory helps explain why workers in occupations with more women get paid less than workers in occupations with more men.",
+      "ts": 1784287203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research finds that dropping SAT and ACT requirements may improve access, but may also hinder college admissions",
+      "url": "https://phys.org/news/2026-07-sat-requirements-access-hinder-college.html",
+      "summary": "Dropping standardized testing requirements may make college admission more accessible for some, but it can also make it harder for universities to identify high-potential students, according to new research published in …",
+      "ts": 1784286003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "At least 12,000 excess deaths in Europe's June heat wave",
+      "url": "https://phys.org/news/2026-07-excess-deaths-europe-june.html",
+      "summary": "At least 12,000 excess deaths were recorded across nine European countries during June's heat wave, national statistics indicated, a toll that could yet rise as more data are released, according to an AFP analysis.",
+      "ts": 1784284180000
+    },
+    {
+      "source": "Phys.org",
+      "title": "With climate ambitions in question, EU reforms carbon market",
+      "url": "https://phys.org/news/2026-07-climate-ambitions-eu-reforms-carbon.html",
+      "summary": "The European Union on Friday unveils reforms to its carbon market after fierce wrangling among countries, industry and activists over the pace of the bloc's climate push.",
+      "ts": 1784282403000
+    },
     {
       "source": "Phys.org",
       "title": "Wildfire smoke makes air unhealthy from the US Midwest to East Coast. Officials say stay inside",
@@ -672,34 +700,6 @@
       "title": "Amoeboid swimming of active vesicles",
       "url": "https://arxiv.org/abs/2607.14714",
       "summary": "arXiv:2607.14714v1 Announce Type: cross Abstract: We investigate the shape dynamics and migration of weakly deflated active vesicles driven by processes acting either directly in the membrane or transmitted by the cytosk…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Track fitting at the full LHC collision rate",
-      "url": "https://arxiv.org/abs/2607.14793",
-      "summary": "arXiv:2607.14793v1 Announce Type: cross Abstract: The LHCb experiment at the Large Hadron Collider underwent a major upgrade before the LHC Run 3 data taking period, employing an all-software approach in its trigger syst…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The distribution of eccentricities in random regular graphs",
-      "url": "https://arxiv.org/abs/2607.14799",
-      "summary": "arXiv:2607.14799v1 Announce Type: cross Abstract: We derive a closed-form analytical expression for the distribution of eccentricities (DoE) in random regular graphs (RRGs) that consist of $N$ nodes of degree $c$. The Do…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MIRA: a data management and education platform connecting students to robotic telescopes",
-      "url": "https://arxiv.org/abs/2607.14801",
-      "summary": "arXiv:2607.14801v1 Announce Type: cross Abstract: Hands-on telescope experience is often used to drive student engagement in astronomy education, but scaling access to larger groups of students is operationally challengi…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SevenNet-Polar for MultiTask Prediction of Energy, Forces, Stress, and Born Effective Charges: Development and Application to ZrO$_2$, Li$_3$PO$_4$, and Perovskites",
-      "url": "https://arxiv.org/abs/2607.14827",
-      "summary": "arXiv:2607.14827v1 Announce Type: cross Abstract: Accurate prediction of the Born effective charge (BEC) tensor is crucial for modeling materials under electric fields but remains computationally expensive. To bridge thi…",
       "ts": 1784260800000
     }
   ],

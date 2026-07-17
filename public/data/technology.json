@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-17T10:00:18.707Z",
+  "updated": "2026-07-17T11:36:07.646Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Serbia signs the Artemis Accords",
+      "url": "https://spacenews.com/serbia-signs-the-artemis-accords/",
+      "summary": "Serbia is the latest nation to sign the Artemis Accords, joining the U.S.-led effort more than two years after signing on to China’s lunar base project. The post Serbia signs the Artemis Accords appeared first on SpaceNe…",
+      "ts": 1784283348000,
+      "categoryId": "space"
+    },
     {
       "source": "ESA",
       "title": "European Service Module team meets Artemis II crew",
@@ -711,14 +719,6 @@
       "title": "Constructed Reality, Contested Priors: Decoupling and the Architecture of Cognitive Relapse Under the Free Energy Principle",
       "url": "https://arxiv.org/abs/2607.11958",
       "summary": "arXiv:2607.11958v1 Announce Type: cross Abstract: Under the free energy principle, a predictive system does not observe reality directly; it maintains a generative model of the world and experiences that model's best cur…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Harvesting Reshapes Dynamical Populations",
-      "url": "https://arxiv.org/abs/2607.12093",
-      "summary": "arXiv:2607.12093v1 Announce Type: cross Abstract: Harvesting -- the periodic removal of individuals above or below a threshold trait value -- reshapes heterogeneous populations without altering their underlying stochasti…",
       "ts": 1784174400000,
       "categoryId": "bio"
     }
