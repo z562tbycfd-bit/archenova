@@ -1,7 +1,77 @@
 {
   "ok": true,
-  "updated": "2026-07-17T15:16:28.518Z",
+  "updated": "2026-07-17T17:15:06.252Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Canadian wildfire smoke linked to fewer bird sightings in New York State",
+      "url": "https://phys.org/news/2026-07-canadian-wildfire-linked-bird-sightings.html",
+      "summary": "Despite burning hundreds of miles away, Canadian wildfires have become a familiar source of disruption in New York state.",
+      "ts": 1784307602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI‑designed gene‑editing enzymes expand the CRISPR toolbox",
+      "url": "https://phys.org/news/2026-07-aidesigned-geneediting-enzymes-crispr-toolbox.html",
+      "summary": "Scientists have made many advances using traditional CRISPR technology, especially in medicine, but they are now seeking ways to create genuinely new gene-editing enzymes with properties that have not already evolved nat…",
+      "ts": 1784307559000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tooth enamel reveals the origins of African slaves buried on St Helena",
+      "url": "https://phys.org/news/2026-07-tooth-enamel-reveals-african-slaves.html",
+      "summary": "In the mid-19th century, the remote island of St. Helena, located about 1,200 miles (1,900 kilometers) off the southwestern coast of Africa, became a receiving point for thousands of enslaved Africans rescued from illega…",
+      "ts": 1784306404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers identify 'dimmer switch' for plants' immune system",
+      "url": "https://phys.org/news/2026-07-dimmer-immune.html",
+      "summary": "As sulfur becomes increasingly scarce in soils worldwide, scientists are studying how plants decide whether to invest limited resources in growth or defense.",
+      "ts": 1784305201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study defines conditions for successful long-term biodiversity net gain",
+      "url": "https://phys.org/news/2026-07-conditions-successful-term-biodiversity-net.html",
+      "summary": "A new study identifying the ecological conditions needed for biodiversity offsetting to achieve conservation goals could provide important guidance for governments and industries as they expand biodiversity net gain (BNG…",
+      "ts": 1784304602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Reptile fossil found in Brazil helps shed light on the common origins of dinosaurs and crocodiles",
+      "url": "https://phys.org/news/2026-07-reptile-fossil-brazil-common-dinosaurs.html",
+      "summary": "Long before dinosaurs ruled the continents and modern crocodiles first appeared, their ancestors were already going through a decisive phase in their evolutionary history. It was in this ancient world, shortly after the …",
+      "ts": 1784304001000
+    },
+    {
+      "source": "Science News",
+      "title": "No, SpudCells aren’t alive. But they’re a step toward the first synthetic life",
+      "url": "https://www.sciencenews.org/article/spudcells-synthetic-life-lab-made-cell",
+      "summary": "The lab-made cells open a window into what’s possible for synthetic life, researchers say.",
+      "ts": 1784304000000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfire smoke kills tens of thousands of people a year. Here's how it attacks the body",
+      "url": "https://phys.org/news/2026-07-wildfire-tens-thousands-people-year.html",
+      "summary": "Smoke from wildfires—which are burning more of the Northern Hemisphere as Earth warms—attacks nearly every system in the human body, killing tens of thousands of people a year, numerous medical studies show.",
+      "ts": 1784302804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thinner wires, faster electrons: Quantum material challenges copper at chip scale",
+      "url": "https://phys.org/news/2026-07-thinner-wires-faster-electrons-quantum.html",
+      "summary": "Electrical interconnects may very well be the unsung heroes of modern microchips. These tiny wires—typically made of copper due to its high conductivity—string together the billions of transistors that drive our computer…",
+      "ts": 1784302801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "To learn how tough a material is, engineers find its breaking point",
+      "url": "https://phys.org/news/2026-07-tough-material.html",
+      "summary": "A recent study examined a transparent material used in high-impact applications such as helicopter windshields at the molecular level to measure its toughness. Researchers at the University of Illinois Urbana-Champaign a…",
+      "ts": 1784301603000
+    },
     {
       "source": "Phys.org",
       "title": "Sun holds 55% more silver than estimated, new model reveals",
@@ -199,6 +269,13 @@
       "ts": 1784282403000
     },
     {
+      "source": "APS PRX",
+      "title": "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems",
+      "url": "http://link.aps.org/doi/10.1103/kgfb-5g2w",
+      "summary": "Author(s): Nicolas Casilli, Seunghwi Kim, Sunil Mittal, Marvin Onabajo, Andrea Alù, and Cristian Cassella The analog Floquet solver incorporates Floquet amplitude modulations to help it escape local minima, significantly…",
+      "ts": 1784282400000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
       "url": "http://link.aps.org/doi/10.1103/xxxk-y6yp",
@@ -259,13 +336,6 @@
       "title": "Inverse Clausius Thermodynamics in Run-and-Tumble Dynamics",
       "url": "http://link.aps.org/doi/10.1103/h48q-1s1c",
       "summary": "Author(s): Oded Farago We establish a mapping between one-dimensional run-and-tumble particle dynamics in the presence of thermal noise, and overdamped Brownian motion in a spatially inhomogeneous temperature field. The …",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems",
-      "url": "http://link.aps.org/doi/10.1103/kgfb-5g2w",
-      "summary": "Author(s): Nicolas Casilli, Seunghwi Kim, Sunil Mittal, Marvin Onabajo, Andrea Alù, and Cristian Cassella The analog Floquet solver incorporates Floquet amplitude modulations to help it escape local minima, significantly…",
       "ts": 1784282400000
     },
     {
@@ -630,76 +700,6 @@
       "title": "Harnessing Machine Learning for Hybrid Constitutive Modelling of Viscoelastic Fluid Flows in Computational Rheology",
       "url": "https://arxiv.org/abs/2607.14944",
       "summary": "arXiv:2607.14944v1 Announce Type: new Abstract: Recent advances in data-driven modelling have highlighted the potential of hybrid approaches which combine Tensor Basis Neural Networks (TBNN) with Universal Differential E…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatially multiplexed concentric discrete optical vortices: Complex topological structures and unconventional rotational dynamics",
-      "url": "https://arxiv.org/abs/2607.14959",
-      "summary": "arXiv:2607.14959v1 Announce Type: new Abstract: Precise control over the rotational dynamics of structured lights has become a defining objective in contemporary photonics. It plays a central role in governing the functi…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hybrid Symmetry Breaking for Chiral Quasi-Bound States in the Continuum",
-      "url": "https://arxiv.org/abs/2607.14996",
-      "summary": "arXiv:2607.14996v1 Announce Type: new Abstract: Chiral optical modes provide a fundamental platform for spin selective light matter interactions and underpin emerging applications ranging from chiral emission to polariza…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An asymptotic-preserving five-moment two-species plasma model coupled to an external magnetohydrodynamic solver",
-      "url": "https://arxiv.org/abs/2607.15019",
-      "summary": "arXiv:2607.15019v1 Announce Type: new Abstract: Accurately modeling collisionless space plasmas requires capturing small-scale kinetic effects while keeping global-scale simulations computationally tractable. Traditional…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparative study and optimization of SDHCAL hadronic energy reconstruction methods",
-      "url": "https://arxiv.org/abs/2607.15023",
-      "summary": "arXiv:2607.15023v1 Announce Type: new Abstract: We present a detailed study of hadronic shower energy reconstruction methods for the Semi-Digital Hadronic Calorimeter (SDHCAL) within the ILD detector concept, using the P…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analysis of the Topology of a Plasmonic Target-Skyrmion Texture",
-      "url": "https://arxiv.org/abs/2607.15046",
-      "summary": "arXiv:2607.15046v1 Announce Type: new Abstract: Topological concepts are frequently used to describe structured optical fields, including plasmonic near fields. Topological descriptions in terms of skyrmion numbers impli…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interaction energies of H$_2$ and CO on transition-metal surfaces computed by a range-separated hybrid van der Waals density functional",
-      "url": "https://arxiv.org/abs/2607.15066",
-      "summary": "arXiv:2607.15066v1 Announce Type: new Abstract: Dissociative chemisorption (DC) of H$_2$ on the Cu(111) surface is a prototypical problem for understanding elements of heterogeneous catalysis [Science 326, 832 (2009)]. T…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mitigation of Initial Transients in Total-f Gyrokinetic Turbulence Simulations Using Neoclassically Relaxed Distribution Function",
-      "url": "https://arxiv.org/abs/2607.15072",
-      "summary": "arXiv:2607.15072v1 Announce Type: new Abstract: Total-f five-dimensional gyrokinetic simulations are essential for self-consistent studies of multi-scale, multiphysics transport in the edge region of diverted tokamak pla…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Thermodynamically Consistent Manifold Model for Premixed Deflagrations & Detonations",
-      "url": "https://arxiv.org/abs/2607.15078",
-      "summary": "arXiv:2607.15078v1 Announce Type: new Abstract: Accurate modeling of compressible premixed flames, encompassing both deflagrations and detonations, remains a significant challenge for predictive Large Eddy Simulation (LE…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Split Complex-Valued Physics-Informed Neural Networks for Forward and Inverse Nonlinear PDEs",
-      "url": "https://arxiv.org/abs/2607.15087",
-      "summary": "arXiv:2607.15087v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) have emerged as a powerful framework for solving forward and inverse partial differential equations (PDEs), but conventional real-v…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transformation of vector modes by the Faraday effect in strong magnetic fields",
-      "url": "https://arxiv.org/abs/2607.15088",
-      "summary": "arXiv:2607.15088v1 Announce Type: new Abstract: Large Faraday rotations can be generated by circular birefringence of atomic samples in an axial magnetic field in the vicinity of atomic resonance lines. The Faraday angle…",
       "ts": 1784260800000
     }
   ],

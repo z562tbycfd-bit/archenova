@@ -1,10 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-07-17T15:16:32.263Z",
+  "updated": "2026-07-17T17:15:08.936Z",
   "items": [
     {
+      "source": "STAT",
+      "title": "Quitting smoking is hard. A Medicare change may push doctors to give more help",
+      "url": "https://www.statnews.com/2026/07/17/medicare-smoking-cessation-reimbursement-increase/?utm_campaign=rss",
+      "summary": "Physicians who offer counseling on quitting cigarettes and alcohol during patient visits would get a 19% increase in reimbursement under a proposed Medicare change.",
+      "ts": 1784304304000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Parkinson’s in the Clinic, Insilico enters Phase III, Vertex Acquires Crinetics",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/parkinsons-in-the-clinic-insilico-enters-phase-iii-vertex-acquires-crinetics/",
+      "summary": "In this episode of GEN's Touching Base, editors talk about neuroscience research updates, insights into how investors are approaching the changing AI landscape, and business updates on profits and buyouts. The post Parki…",
+      "ts": 1784304005000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "KRAS-Targeted Vaccine Crosses First Clinical Milestone in Pancreatic Cancer Prevention",
+      "url": "https://www.genengnews.com/topics/cancer/kras-targeted-vaccine-crosses-first-clinical-milestone-in-pancreatic-cancer-prevention/",
+      "summary": "A first-in-human KRAS-targeted pancreatic cancer prevention vaccine was found to be safe, elicited durable immune responses in 90% of high-risk participants, and showed encouraging signs of slowing or reversing precancer…",
+      "ts": 1784303176000,
+      "categoryId": "bio"
+    },
+    {
       "source": "NVIDIA",
-      "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads – a Key Metric for Agentic AI",
+      "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
       "url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
       "summary": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
       "ts": 1784300414000,
@@ -17,6 +41,14 @@
       "summary": "Health officials have identified lettuce from Mexico served at Taco Bell locations across five U.S. states as a source of the outbreak of diarrhea-causing parasite cyclospora.",
       "ts": 1784299958000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Welcomes Mauritius as 70th Artemis Accords Signatory  ",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-mauritius-as-70th-artemis-accords-signatory/",
+      "summary": "The Republic of Mauritius has officially joined the global coalition committed to responsible space exploration, becoming the newest signatory and seventh African country to join the Artemis Accords. NASA’s Deputy Admini…",
+      "ts": 1784299707000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -689,38 +721,6 @@
       "summary": "As Europe battles a deadly record-breaking heatwave, the World Health Organization (WHO) issued new guidance on Thursday to help countries face scorching temperatures now and in the future.",
       "ts": 1784203200000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "More than 500 people feared dead in double Myanmar shipwreck tragedy",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167951",
-      "summary": "There is growing concern for at least 500 people believed to have been aboard two boats that reportedly capsized off Myanmar’s coast in recent days.",
-      "ts": 1784203200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "ESA",
-      "title": "Expedition Sound podcast series",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Expedition_Sound_podcast_series",
-      "summary": "Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavá…",
-      "ts": 1784201400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Eli Lilly to acquire psychedelics-focused biotech AtaiBeckley",
-      "url": "https://www.statnews.com/2026/07/16/eli-lilly-acquire-ataibeckley-psychedelics-depression/?utm_campaign=rss",
-      "summary": "Eli Lilly is buying the psychedelics-focused biotech AtaiBeckley for $2.8 billion upfront, a move that will expand its neuroscience pipeline.",
-      "ts": 1784201307000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Spring forward forever? Another daylight saving debate arrives in Congress",
-      "url": "https://www.statnews.com/2026/07/16/health-news-another-daylight-savings-debate-arrives-in-congress/?utm_campaign=rss",
-      "summary": "Trump's pandemic preparedness nominee testifies, the \"fang-to-pharmacy\" pipeline, and more health news from Morning Rounds",
-      "ts": 1784200167000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
