@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-17T17:15:06.252Z",
+  "updated": "2026-07-17T19:14:18.796Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How Gravity from Entropy theory connects the second law of thermodynamics with the emergence of cosmic structure",
+      "url": "https://phys.org/news/2026-07-gravity-entropy-theory-law-thermodynamics.html",
+      "summary": "A new study by Queen Mary University of London mathematician Professor Ginestra Bianconi proposes a new perspective on one of the deepest questions in modern physics: How can the universe become increasingly structured a…",
+      "ts": 1784314801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New optical chip design controls light speed in real time, simulations suggest",
+      "url": "https://phys.org/news/2026-07-optical-chip-real-simulations.html",
+      "summary": "Seoul National University College of Engineering announced that a joint research team led by Professor Namkyoo Park and Professor Sunkyu Yu of the Department of Electrical and Computer Engineering at SNU, in collaboratio…",
+      "ts": 1784313602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The Large Hadron Collider is being upgraded so that it can unlock the secrets of the Higgs boson",
+      "url": "https://phys.org/news/2026-07-large-hadron-collider-secrets-higgs.html",
+      "summary": "Deep beneath the French-Swiss border, the world's largest scientific instrument has fallen silent. After years of smashing protons together at nearly the speed of light, CERN's Large Hadron Collider (LHC) has stopped ope…",
+      "ts": 1784312403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Underwater oxygen loss threatens earth's stability, researchers warn",
+      "url": "https://phys.org/news/2026-07-underwater-oxygen-loss-threatens-earth.html",
+      "summary": "A new review in Limnology and Oceanography led by scientists at UC San Diego's Scripps Institution of Oceanography warns that the rapid loss of oxygen from the ocean and other aquatic ecosystems is pushing Earth toward a…",
+      "ts": 1784312401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wild snapdragons paint themselves in subtle shades to attract bees",
+      "url": "https://phys.org/news/2026-07-wild-snapdragons-subtle-bees.html",
+      "summary": "Just as careful blending of eye shadow can make a difference to our looks, a recent study has shown how flowers go to considerable trouble to fine-tune their shades. In the relentless competition to attract bees, a sligh…",
+      "ts": 1784311214000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers identify class of 'oddball' meteorite that killed the dinosaurs",
+      "url": "https://phys.org/news/2026-07-class-oddball-meteorite-dinosaurs.html",
+      "summary": "A rare CO chondrite meteorite was the probable impacter that struck Earth 66 million years ago, wiping out 75% of Earth's species, including nonavian dinosaurs. These findings are published in Science Advances. Researche…",
+      "ts": 1784311211000
+    },
+    {
+      "source": "Phys.org",
+      "title": "River bacteria consume methane but fall short as global warming boosts emissions",
+      "url": "https://phys.org/news/2026-07-river-bacteria-consume-methane-fall.html",
+      "summary": "Alberto Borges, oceanographer at the University of Liège, has conducted a comparative study in Belgium and Africa on the microbial oxidation of methane in rivers, a natural process in which certain bacteria consume this …",
+      "ts": 1784311207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfire smoke engulfs millions in US ahead of World Cup final",
+      "url": "https://phys.org/news/2026-07-wildfire-engulfs-millions-world-cup.html",
+      "summary": "Dense wildfire smoke billowing down from Canada set off unhealthy air quality alerts across the United States again on Friday, stirring concern over the weekend's World Cup final outside New York.",
+      "ts": 1784311203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Multiple origin points drive Southeast Asia's catastrophic fires, study finds",
+      "url": "https://phys.org/news/2026-07-multiple-southeast-asia-catastrophic.html",
+      "summary": "How do wildfires grow into catastrophic events? By tracing the earliest detectable origins of the devastating 2015 equatorial Southeast Asian fires, researchers found that most large fires had multiple origin points and …",
+      "ts": 1784310005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prototype bicycle tire uses silk to outperform nylon in strength and endurance",
+      "url": "https://phys.org/news/2026-07-prototype-bicycle-silk-outperform-nylon.html",
+      "summary": "Researchers in Thailand have developed a prototype high-performance bicycle tire that replaces conventional nylon fabric reinforcement with natural silk. The team combined laboratory-scale material testing with pilot-sca…",
+      "ts": 1784310001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI-designed proteins help scientists see inside living cells",
+      "url": "https://phys.org/news/2026-07-ai-proteins-scientists-cells.html",
+      "summary": "Cells are like metropolises, home to millions of molecular residents. If one were to stand atop a high-rise, trying to identify most of its inhabitants would seem an impossible task. Even with the sophisticated imaging t…",
+      "ts": 1784308806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Is that the time? Why messaging matters with crises on the horizon",
+      "url": "https://phys.org/news/2026-07-messaging-crises-horizon.html",
+      "summary": "Framing environmental risks in terms of how much time is left, rather than a future date, makes them feel more urgent and increases public engagement.",
+      "ts": 1784308804000
+    },
     {
       "source": "Phys.org",
       "title": "Canadian wildfire smoke linked to fewer bird sightings in New York State",
@@ -616,90 +700,6 @@
       "title": "Empirical verification of principal mode orthogonality and relative phase calibration in photonic lanterns",
       "url": "https://arxiv.org/abs/2607.14767",
       "summary": "arXiv:2607.14767v1 Announce Type: new Abstract: Photonic lanterns efficiently map input spatial modes to single-mode outputs for applications like high angular resolution imaging and nulling interferometry. However, manu…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultraviolet direct absorption microscopy for single particle protein/nucleic acid quantification",
-      "url": "https://arxiv.org/abs/2607.14780",
-      "summary": "arXiv:2607.14780v1 Announce Type: new Abstract: Bio-nanoparticles are pivotal to next generation nanotherapeutics, but providing single-particle biomolecular characterization remains a crucial challenge. Herein we presen…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photovoltaics beyond the panel: system-level net energy under grid and firming constraints",
-      "url": "https://arxiv.org/abs/2607.14784",
-      "summary": "arXiv:2607.14784v1 Announce Type: new Abstract: Photovoltaics can exhibit favourable installation-level energy return on investment (EROI), yet electricity must also be delivered when solar and wind generation are insuff…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inferring Non-Normal Amplification Geometry from Multivariate Time Series",
-      "url": "https://arxiv.org/abs/2607.14786",
-      "summary": "arXiv:2607.14786v1 Announce Type: new Abstract: Across hydrodynamics, ecology, neuroscience, network dynamics, non-Hermitian physics, and socio-economic systems, asymptotically stable dynamics can exhibit large transient…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring 2D turbulent properties in anisotropic and disordered Fourier space: Insights into inverse cascades and universal superdiffusion from randomly sampled triadic interaction",
-      "url": "https://arxiv.org/abs/2607.14796",
-      "summary": "arXiv:2607.14796v1 Announce Type: new Abstract: Two-dimensional turbulent properties are investigated within a ``low-density'' Galerkin-truncated system, with a focus on both Eulerian and Lagrangian characteristics. In p…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "RACiMo: Red Ambiental Ciudadana de Monitoreo: A Student-Centred Citizen Science Network for Environmental Monitoring, Data Literacy, and Climate Awareness in Colombia",
-      "url": "https://arxiv.org/abs/2607.14805",
-      "summary": "arXiv:2607.14805v1 Announce Type: new Abstract: This paper traces the evolution of Red Ambiental Ciudadana de Monitoreo (RACiMo), a citizen-science and environmental-education initiative developed by Universidad Industri…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Unified Conceptual Framework for Gravitational Instabilities: From Latent System State to Failure",
-      "url": "https://arxiv.org/abs/2607.14831",
-      "summary": "arXiv:2607.14831v1 Announce Type: new Abstract: Gravitational instabilities are among the most widespread natural hazards and are expected to become increasingly significant under ongoing environmental change. Despite su…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A flexible DAQ system for the Timepix4 ASIC in the 4DPHOTON project",
-      "url": "https://arxiv.org/abs/2607.14847",
-      "summary": "arXiv:2607.14847v1 Announce Type: new Abstract: This paper presents the design and implementation of a flexible data acquisition system13 developed for the Timepix4 ASIC within the 4DPHOTON project. The system is based o…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "One-for-All Adaptive Radiotherapy Planning Agent: A Foundation Framework for Daily CBCT-guided Radiotherapy",
-      "url": "https://arxiv.org/abs/2607.14870",
-      "summary": "arXiv:2607.14870v1 Announce Type: new Abstract: In this work, we introduce the One-for-All Adaptive Radiotherapy Planning Agent, a unified foundation-model-based system that performs complete, treatment-specific online a…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-Hermitian Interaction between Light and Photonic Time Crystal Beyond the Floquet Quasinormal Mode Approximation",
-      "url": "https://arxiv.org/abs/2607.14912",
-      "summary": "arXiv:2607.14912v1 Announce Type: new Abstract: We report non-Hermitian mode couplings in a photonic time crystal induced by the light within its momentum bandgap. When the relative phase between the light and the photon…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intrinsic Spatial Position Resolution of P-type Point-Contact Germanium Detector",
-      "url": "https://arxiv.org/abs/2607.14915",
-      "summary": "arXiv:2607.14915v1 Announce Type: new Abstract: The p-type point-contact germanium detectors have emerged as the ideal detection technology for rare-event experiments such as direct dark matter searches and neutrinoless …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coloring Black Holes: Epistemic and Aesthetic Choices in Astronomical Imaging",
-      "url": "https://arxiv.org/abs/2607.14928",
-      "summary": "arXiv:2607.14928v1 Announce Type: new Abstract: In 2019, the first image of a black hole's shadow based on observation was released by the Event Horizon Telescope Collaboration (EHT). This paper shows that despite the EH…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Harnessing Machine Learning for Hybrid Constitutive Modelling of Viscoelastic Fluid Flows in Computational Rheology",
-      "url": "https://arxiv.org/abs/2607.14944",
-      "summary": "arXiv:2607.14944v1 Announce Type: new Abstract: Recent advances in data-driven modelling have highlighted the potential of hybrid approaches which combine Tensor Basis Neural Networks (TBNN) with Universal Differential E…",
       "ts": 1784260800000
     }
   ],
