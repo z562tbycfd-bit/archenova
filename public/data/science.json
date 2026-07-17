@@ -1,7 +1,84 @@
 {
   "ok": true,
-  "updated": "2026-07-17T13:43:19.457Z",
+  "updated": "2026-07-17T15:16:28.518Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Sun holds 55% more silver than estimated, new model reveals",
+      "url": "https://phys.org/news/2026-07-sun-silver-reveals.html",
+      "summary": "Researchers at Uppsala University have calculated that the sun contains 55% more silver than previously estimated. The results are based on more realistic modeling of the sun's atmosphere and resolve a long-standing prob…",
+      "ts": 1784300404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A source of extremely high-energy particles in the Milky Way identified",
+      "url": "https://phys.org/news/2026-07-source-extremely-high-energy-particles.html",
+      "summary": "Cosmic rays are made primarily of protons with a few electrons sprinkled in, and they can reach energies even higher than what human-made accelerators can produce. Considering human-made accelerators, such as the Large H…",
+      "ts": 1784300402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Self-driving trucks will redraw US economic map",
+      "url": "https://phys.org/news/2026-07-trucks-redraw-economic.html",
+      "summary": "Technological advances in autonomous truck technology are poised to have significant economic ripple effects on U.S. interstate commerce, highway infrastructure and labor costs, according to new research co-written by a …",
+      "ts": 1784300401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global soil protections deliver measurable gains for farmland health",
+      "url": "https://phys.org/news/2026-07-global-soil-gains-farmland-health.html",
+      "summary": "Erosion, salinization and shrinking numbers of organisms such as worms and beneficial fungi can have a devastating effect on soil fertility, and so many parts of the world have passed laws to curb these processes. A stud…",
+      "ts": 1784299204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Portable system cuts PFAS testing time to hours",
+      "url": "https://phys.org/news/2026-07-portable-pfas-hours.html",
+      "summary": "For communities worried about PFAS contamination, waiting for test results can mean days of uncertainty. A University of Tasmania trial has used a mobile laboratory equipped with portable liquid chromatography-mass spect…",
+      "ts": 1784299202000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Martin Picard’s Mitochondrial Theory of Mind",
+      "url": "https://www.quantamagazine.org/martin-picards-mitochondrial-theory-of-mind-20260717/",
+      "summary": "The biologist’s bold “energetic view of life” looks to the body’s strangest organelles as the link between cells, health, and mind and the foundation of our experience of being alive. The post Martin Picard’s Mitochondri…",
+      "ts": 1784298665000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Giant planets could act as dark matter detectors",
+      "url": "https://phys.org/news/2026-07-giant-planets-dark-detectors.html",
+      "summary": "Researchers in the U.S. have carried out the most stringent tests to date of the idea that an ultraviolet glow in the atmospheres of giant planets could partly arise through the indirect interaction between dark matter a…",
+      "ts": 1784298006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New method makes epigenetic aging clocks accurate and easier to interpret",
+      "url": "https://phys.org/news/2026-07-method-epigenetic-aging-clocks-accurate.html",
+      "summary": "Epigenetic clocks are important tools in modern aging research. Typically, they use characteristic DNA methylation patterns in the genome to precisely predict a person's age and infer conclusions about the individual's b…",
+      "ts": 1784298001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ticks that survive pesticides can withstand colder winters",
+      "url": "https://phys.org/news/2026-07-survive-pesticides-colder-winters.html",
+      "summary": "Ticks that survive less-than-lethal doses of pesticide are able to withstand dangerous cold, which could help them spread tick-borne diseases farther north, a UC study has found. Biologists with the University of Cincinn…",
+      "ts": 1784296814000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How an influx of salt may affect microbial ecosystems in rivers, estuaries and coastal waters worldwide",
+      "url": "https://phys.org/news/2026-07-influx-salt-affect-microbial-ecosystems.html",
+      "summary": "As sea levels rise due to climate change, encroaching seawater will likely make freshwater environments saltier. In a new study, MIT researchers have shown how that increase in salinity might affect microbial ecosystems …",
+      "ts": 1784296812000
+    },
+    {
+      "source": "Science News",
+      "title": "Many universities hold seized human remains. What should they do with them?",
+      "url": "https://www.sciencenews.org/article/human-remains-ethics-fatimah-jackson",
+      "summary": "Biological anthropologist Fatimah Jackson is leading an effort to prevent history from repeating.",
+      "ts": 1784296800000
+    },
     {
       "source": "Phys.org",
       "title": "New map shows which neighborhoods are at risk of climate gentrification",
@@ -120,6 +197,104 @@
       "url": "https://phys.org/news/2026-07-climate-ambitions-eu-reforms-carbon.html",
       "summary": "The European Union on Friday unveils reforms to its carbon market after fierce wrangling among countries, industry and activists over the pace of the bloc's climate push.",
       "ts": 1784282403000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
+      "url": "http://link.aps.org/doi/10.1103/xxxk-y6yp",
+      "summary": "Author(s): Takashi Hara and Tatsuhiko Koike For a class of translation-invariant free-fermion systems including those with uniform nearest-neighbor hopping) on a $d$-dimensional $L×⋯×L$ hypercubic lattice, we prove that,…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
+      "url": "http://link.aps.org/doi/10.1103/fm3n-sy3f",
+      "summary": "Author(s): Tousif Islam, Tejaswi Venumadhav, and Digvijay Wadekar Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an in…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Hidden Chiral Ferroelectricity in ${\\mathrm{AgNbO}}_{3}$ Perovskite",
+      "url": "http://link.aps.org/doi/10.1103/kbfj-btly",
+      "summary": "Author(s): Ying Song, Lingzhi Cao, Jinming Zhai, Zhilong Yang, Yali Yang, Laurent Bellaiche, and Jiangang He ${\\mathrm{AgNbO}}_{3}$ is a lead-free perovskite with considerable potential for energy storage and optoelectro…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Chirality Cannot Be Ferroic in Phase Transitions Leading to Enantiomorphic Space-Group Pairs",
+      "url": "http://link.aps.org/doi/10.1103/ktz2-7yd5",
+      "summary": "Author(s): F. Gómez-Ortiz, S. Mamoudou Taganga, Emma E. McCabe, A. H. Romero, and E. Bousquet With growing interest in structural chirality in periodic solids, it has been suggested that chirality might constitute a new …",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Harnessing Spin-Texture Dynamics for Low-Noise, High-Sensitivity Magnetic Sensors",
+      "url": "http://link.aps.org/doi/10.1103/vf43-sxwq",
+      "summary": "Author(s): Kang Wang, Teng Xu, Meng Shi, Xinxiang Sun, Yizhou Liu, Huali Yang, Run-Wei Li, and Haifeng Du The development of low-noise, high-sensitivity magnetic sensors is essential for applications such as automotive s…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Emergent Trion Resonance Driven by Lattice Reconstruction in a Moiré Superlattice",
+      "url": "http://link.aps.org/doi/10.1103/yvhp-1sm6",
+      "summary": "Author(s): Zhida Liu, Haonan Wang, Xiaohui Liu, Yue Ni, Hongtao Yan, Frank Y. Gao, Saba Arash, Hyunsue Kim, Dong Seob Kim, Xiangcheng Liu, Xiaoxiao Yu, Yongxin Zeng, Jiamin Quan, Di Huang, Kenji Watanabe, Takashi Taniguc…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Probing Dielectric Screening in van der Waals Heterostructures via Pressure-Tuned Exciton Rydberg Series",
+      "url": "http://link.aps.org/doi/10.1103/245v-mgsb",
+      "summary": "Author(s): Shalini Badola, Adlen Smiri, Thomas Pelini, Aditi Moghe, Tristan Riccardi, Amit Pawbake, Kenji Watanabe, Takashi Taniguchi, Iann C. Gerber, and Clément Faugeras Excitons in two-dimensional semiconductors are d…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Experimental Evidence for Strong Emergent Correlations between Particles in a Switching Trap",
+      "url": "http://link.aps.org/doi/10.1103/jkn8-h939",
+      "summary": "Author(s): Marco Biroli, Sergio Ciliberto, Manas Kulkarni, Satya N. Majumdar, Artyom Petrosyan, and Grégory Schehr We experimentally study a system of $N=4$ two-dimensional Brownian particles, each confined in a harmonic…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Inverse Clausius Thermodynamics in Run-and-Tumble Dynamics",
+      "url": "http://link.aps.org/doi/10.1103/h48q-1s1c",
+      "summary": "Author(s): Oded Farago We establish a mapping between one-dimensional run-and-tumble particle dynamics in the presence of thermal noise, and overdamped Brownian motion in a spatially inhomogeneous temperature field. The …",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems",
+      "url": "http://link.aps.org/doi/10.1103/kgfb-5g2w",
+      "summary": "Author(s): Nicolas Casilli, Seunghwi Kim, Sunil Mittal, Marvin Onabajo, Andrea Alù, and Cristian Cassella The analog Floquet solver incorporates Floquet amplitude modulations to help it escape local minima, significantly…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Optimization of high-fidelity single-qubit gates for fluxonium qubits using single-flux quantum control",
+      "url": "http://link.aps.org/doi/10.1103/dz26-n1jc",
+      "summary": "Author(s): Maxime Lapointe-Major, Boyan Torosov, Bohdan Kulchytskyy, and Pooya Ronagh We present a gradient-based method to construct memory-efficient, high-fidelity, single-qubit gates for fluxonium qubits. These gates …",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Digital-alloy Bragg mirrors in high-$Q$ microcavities for polariton lasing",
+      "url": "http://link.aps.org/doi/10.1103/3t7c-5mtg",
+      "summary": "Author(s): V. A. Stolyarov, A. S. Kurdyubov, A. V. Trifonov, M. Yu. Petrov, I. V. Ignatiev, M. S. Lozhkin, S. A. Eliseev, Yu. P. Efimov, V. A. Lovtcius, and A. V. Kavokin We present an approach to the molecular beam epit…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Variational quantum algorithm for anion exchange across an electrolyzer membrane",
+      "url": "http://link.aps.org/doi/10.1103/149q-4z6s",
+      "summary": "Author(s): Timur Gubaev, Philipp Pfeffer, Christian Dreßler, and Jörg Schumacher We present a variational quantum algorithm that solves the one-dimensional diffusion problem with a space-dependent diffusion constant $D(x…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Cation disorder in ${\\mathrm{AgSbTe}}_{2}$ leads to glasslike ultralow lattice thermal conductivity",
+      "url": "http://link.aps.org/doi/10.1103/vcln-3c8m",
+      "summary": "Author(s): Soongyu Kwon, Sung Yi, Soongkeun Hyun, James M. Hodges, and Yi Xia Thermoelectric efficiency benefits from suppressing lattice thermal conductivity (${κ}_{l}$), yet the microscopic origin of the glasslike ultr…",
+      "ts": 1784282400000
     },
     {
       "source": "Phys.org",
@@ -525,181 +700,6 @@
       "title": "Transformation of vector modes by the Faraday effect in strong magnetic fields",
       "url": "https://arxiv.org/abs/2607.15088",
       "summary": "arXiv:2607.15088v1 Announce Type: new Abstract: Large Faraday rotations can be generated by circular birefringence of atomic samples in an axial magnetic field in the vicinity of atomic resonance lines. The Faraday angle…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accelerated descriptor-free path sampling for protein-ligand binding kinetics",
-      "url": "https://arxiv.org/abs/2607.15101",
-      "summary": "arXiv:2607.15101v1 Announce Type: new Abstract: The kinetics of protein-ligand binding systems are increasingly recognized as a key determinant of drug efficacy, yet remain far harder to compute than binding affinities. …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A fast summation method for the DFT-D3 dispersion correction",
-      "url": "https://arxiv.org/abs/2607.15103",
-      "summary": "arXiv:2607.15103v1 Announce Type: new Abstract: The DFT-D3 dispersion correction is routinely added to machine learning force fields (MLFFs) trained on dispersion-deficient functionals such as PBE. Its environment-depend…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Amplitude- and frequency-modulated combs from an actively locked metasurface external-cavity laser",
-      "url": "https://arxiv.org/abs/2607.15109",
-      "summary": "arXiv:2607.15109v1 Announce Type: new Abstract: Optical frequency combs are key components of several photonics applications including spectroscopy, communications, and ultrafast photonics. A central challenge in frequen…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Translation of transient acoustic fields",
-      "url": "https://arxiv.org/abs/2607.15138",
-      "summary": "arXiv:2607.15138v1 Announce Type: new Abstract: A method is presented for the translation of acoustic field data from a source to a target region. Field data are represented as spherical harmonic expansions on spheres su…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intriguing Electronic Structures of C8 and C12 Carbon Rings",
-      "url": "https://arxiv.org/abs/2607.15147",
-      "summary": "arXiv:2607.15147v1 Announce Type: new Abstract: We report on the ground and numerous excited electronic states. In the ground state the C4n rings are closed-shell systems possessing polyynic structures and can be classif…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Effect of Heat Loss During the Early Stages of Flame Propagation and Tulip Flame Formation",
-      "url": "https://arxiv.org/abs/2607.15155",
-      "summary": "arXiv:2607.15155v1 Announce Type: new Abstract: The dynamics of premixed flames propagating in two-dimensional and cylindrical channels are investigated using direct numerical simulations of the fully compressible reacti…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unified framework of optical thermodynamics and optical pressure",
-      "url": "https://arxiv.org/abs/2607.15162",
-      "summary": "arXiv:2607.15162v1 Announce Type: new Abstract: Optical thermodynamics is a newly developed framework that applies principles from statistical mechanics to describe the intricate behavior of weakly nonlinear, multimode p…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A re-entrant chip-free-space photonic interface for telecom-to-Rubidium spectroscopy",
-      "url": "https://arxiv.org/abs/2607.15186",
-      "summary": "arXiv:2607.15186v1 Announce Type: new Abstract: Photonic integrated circuits (PICs) generate, route, and process light with high efficiency, scalability, and functional density on a single chip. Yet the tightly confined …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "One more radiative-recoil correction to the Lamb shift in muonium",
-      "url": "https://arxiv.org/abs/2607.15188",
-      "summary": "arXiv:2607.15188v1 Announce Type: new Abstract: We calculate radiative-recoil contribution of order $Z^2\\alpha(Z\\alpha)^5(m/M)^2m$ to the Lamb shift in muonium. This correction is due to insertion of radiative photons in…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Detecting clear-air turbulence via beam broadening in a Rayleigh-scattering lidar system",
-      "url": "https://arxiv.org/abs/2607.15194",
-      "summary": "arXiv:2607.15194v1 Announce Type: new Abstract: The volume of clear-air turbulence (CAT) in the atmosphere at flight cruising altitudes is increasing rapidly, posing a growing problem for civil aviation and resulting in …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diffusioosmosis of electrolyte solutions in axisymmetric channels",
-      "url": "https://arxiv.org/abs/2607.15199",
-      "summary": "arXiv:2607.15199v1 Announce Type: new Abstract: We present a theory of a flow of salt solutions in long axisymmetric channels induced by concentration and pressure drops between their ends. The consideration is restricte…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interaction of degenerate higher order modes in periodic SRF accelerating structures",
-      "url": "https://arxiv.org/abs/2607.15206",
-      "summary": "arXiv:2607.15206v1 Announce Type: new Abstract: The paper considers the effect of degenerate higher-order mode (HOM) interaction, which may lead to the formation of trapped modes with high shunt impedance. Methods for el…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stochastic binary networks with asymmetric and time-delayed interactions",
-      "url": "https://arxiv.org/abs/2607.15215",
-      "summary": "arXiv:2607.15215v1 Announce Type: new Abstract: Stochastic binary networks are widely used to describe collective dynamics in complex systems and to perform neuromorphic computation, yet realistic networks often contain …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measuring Interaction-Induced Energy Shifts of Rydberg Atoms in Hot Vapor",
-      "url": "https://arxiv.org/abs/2607.15221",
-      "summary": "arXiv:2607.15221v1 Announce Type: new Abstract: We demonstrate a method to measure energy shifts of the top level in a four-level ladder setup induced by atom interactions in thermal vapors. It utilizes the observation o…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flow in a porous non-axisymmetric annular conduit: Coupling wall compliance and peristalsis",
-      "url": "https://arxiv.org/abs/2607.15239",
-      "summary": "arXiv:2607.15239v1 Announce Type: new Abstract: Coenen \\textit{et al.}\\ (\\textit{J. Fluid Mech.}, vol.~921, 2021, p.~R2) developed a reduced-order model of peristaltic pumping in non-axisymmetric annular conduits with ri…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Equivalence of the Compton and Bethe-Feynman Yield Formulas",
-      "url": "https://arxiv.org/abs/2607.15250",
-      "summary": "arXiv:2607.15250v1 Announce Type: new Abstract: The Bethe-Feynman formula has proven useful for estimating the explosive yields of simple fission weapons. However, derivations of the Bethe-Feynman formula found in the op…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ab initio calculations of $^{229}$Th band-to-band internal conversion rate in $^{229}$ThO$_2$",
-      "url": "https://arxiv.org/abs/2607.08941",
-      "summary": "arXiv:2607.08941v1 Announce Type: cross Abstract: We present an ab initio calculation of the band-to-band internal-conversion rate of the $\\hbar\\omega_{\\rm nuc} \\approx 8.35$ eV isomeric transition in $^{229}$ThO$_2$. Be…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Renormalisation of Inhomogeneous Random Graphs",
-      "url": "https://arxiv.org/abs/2607.12459",
-      "summary": "arXiv:2607.12459v1 Announce Type: cross Abstract: We consider inhomogeneous random graphs in which vertices are assigned i.i.d.\\ random weights, pairs of distinct vertices are connected by an edge independently with a pr…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The potential of quantum computers for Particle Image Velocimetry",
-      "url": "https://arxiv.org/abs/2607.13641",
-      "summary": "arXiv:2607.13641v1 Announce Type: cross Abstract: Particle Image Velocimetry (PIV) is the prime image-processing technique to measure and visualize velocity fields of laminar and turbulent flows. The velocity field vecto…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Benchmarking trigonometric continuous-variable gate primitives with trapped ions",
-      "url": "https://arxiv.org/abs/2607.14085",
-      "summary": "arXiv:2607.14085v1 Announce Type: cross Abstract: Hybrid continuous-discrete-variable quantum processors can represent bosonic degrees of freedom directly in oscillator modes, or qumodes, while using qubits for control, …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Operator-Informed Gaussian Processes for Complex Helmholtz Wavefields: From Synthetic Benchmarks to In Vivo Brain Elastography",
-      "url": "https://arxiv.org/abs/2607.14193",
-      "summary": "arXiv:2607.14193v1 Announce Type: cross Abstract: The Helmholtz equation governs time-harmonic wave propagation, and in dissipative media a complex modulus renders its squared wavenumber $\\kappa^2$ complex. Inferring suc…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultra-long simulations of collisionless relativistic shocks in front-comoving frame: evidence for a steady state and its properties",
-      "url": "https://arxiv.org/abs/2607.14235",
-      "summary": "arXiv:2607.14235v1 Announce Type: cross Abstract: We present a series of unprecedently long 2D3V PIC simulations of unmagnetized relativistic $e^{-}e^{+}$-pair shocks performed in a front-comoving frame. By implementing …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AutoHF: a general Hartree-Fock solver utilizing direct energy minimization with automatic differentiation",
-      "url": "https://arxiv.org/abs/2607.14263",
-      "summary": "arXiv:2607.14263v1 Announce Type: cross Abstract: We present autohf, a general, easy-to-use mean-field solver for quantum many-fermion Hamiltonians. It allows the user to bypass the process of deciphering the mean-field …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Worldline-Susceptibility Scheduling for Quantum Annealing Beyond Local-Adiabatic Evolution",
-      "url": "https://arxiv.org/abs/2607.14282",
-      "summary": "arXiv:2607.14282v1 Announce Type: cross Abstract: The performance of quantum annealing depends critically on how the available annealing time is distributed along the evolution. Although the Roland Cerf local adiabatic s…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A structure-preserving Numerical Method for the Compressible Resistive-Hall-MHD System",
-      "url": "https://arxiv.org/abs/2607.14286",
-      "summary": "arXiv:2607.14286v1 Announce Type: cross Abstract: In this paper, we present a structure-preserving method for the compressible resistive Hall-magnetohydrodynamics (MHD) model. The differential operator is split into two …",
       "ts": 1784260800000
     }
   ],
