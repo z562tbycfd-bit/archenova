@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-17T04:08:36.873Z",
+  "updated": "2026-07-17T07:18:58.502Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "A Tide-Fueled Trove of Biodiversity in Guinea-Bissau",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-tide-fueled-trove-of-biodiversity-in-guinea-bissau/",
+      "summary": "The expansive mudflats, sandy beaches, and mangrove forests of the Bijagós archipelago support an array of migratory shorebirds and large numbers of sea turtles.",
+      "ts": 1784260860000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "A vision foundation model for single-cell biology via spatial gene cartography",
@@ -713,14 +721,6 @@
       "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
       "ts": 1784160000000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Building chemical stability with mechanics",
-      "url": "https://www.nature.com/articles/s41560-026-02044-3",
-      "summary": "",
-      "ts": 1784160000000,
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
