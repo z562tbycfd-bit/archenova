@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-17T11:36:07.646Z",
+  "updated": "2026-07-17T13:43:23.094Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Week in images: 13-17 July 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_13-17_July_2026",
+      "summary": "Week in images: 13-17 July 2026 Discover our week through the lens",
+      "ts": 1784293800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/07/17/up-down-ladder-jobs-comings-goings/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1784293474000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about rising drug shortages, GSK coughing up a trial loss, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/17/rising-drug-shortages-gsk-abandons-chronic-cough-medication/?utm_campaign=rss",
+      "summary": "The number of active medication shortages in the U.S. rose to 227 in the second quarter of 2026",
+      "ts": 1784293331000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX’s only problem is finding more space to work with",
+      "url": "https://spacenews.com/spacexs-only-problem-is-finding-more-space-to-work-with/",
+      "summary": "SpaceX’s IPO marks the moment the space dream became a mainstream capital markets story. For decades, it has sold a vision of interplanetary civilization on behalf of the wider space […] The post SpaceX’s only problem is…",
+      "ts": 1784293200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: perimenopause misinformation and China’s latest AI leap",
+      "url": "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. There’s a lot of hype around perimenopause. Don’t buy it. Perimenopause used to be…",
+      "ts": 1784290200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Gene Therapy Partners Aim to Enhance Protein Expression",
+      "url": "https://www.genengnews.com/topics/genome-editing/gene-therapy-partners-aim-to-enhance-protein-expression/",
+      "summary": "Avenue Biosciences´ machine learning-powered platform engineers and screens signal peptide variants to increase protein secretion from cells. Circio’s circVec technology has demonstrated significantly enhanced and durabl…",
+      "ts": 1784289607000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Who can access testosterone hormone medication in the U.S.?",
+      "url": "https://www.statnews.com/2026/07/17/health-news-who-can-access-testosterone-hormone-therapy-in-us/?utm_campaign=rss",
+      "summary": "Wildfire smoke health hazards, a new idea for treating Duchenne, and more health news from Morning Rounds",
+      "ts": 1784289200000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Serbia signs the Artemis Accords",
@@ -9,6 +65,14 @@
       "summary": "Serbia is the latest nation to sign the Artemis Accords, joining the U.S.-led effort more than two years after signing on to China’s lunar base project. The post Serbia signs the Artemis Accords appeared first on SpaceNe…",
       "ts": 1784283348000,
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "A scorecard for the AI age",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "summary": "Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "ts": 1784282400000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "ESA",
@@ -657,70 +721,6 @@
       "summary": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch ca…",
       "ts": 1784185200000,
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Swissto12 raises $70 million to accelerate small GEO satellite production",
-      "url": "https://spacenews.com/swissto12-raises-70-million-to-accelerate-small-geo-satellite-production/",
-      "summary": "Swissto12 said it has raised $70 million in fresh funding to keep up with growing demand for its small geostationary satellite manufacturing business. The post Swissto12 raises $70 million to accelerate small GEO satelli…",
-      "ts": 1784185200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Ontario Wildfire Smoke Moves East",
-      "url": "https://science.nasa.gov/earth/earth-observatory/ontario-wildfire-smoke-moves-east/",
-      "summary": "Canadian wildfires sent plumes of smoke streaming over Ontario, Quebec, and parts of the U.S. Midwest and Northeast.",
-      "ts": 1784174400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "AlphaFunctor: Bridging The Gap Between Protein Function Annotation and Property Prediction",
-      "url": "https://arxiv.org/abs/2607.12196",
-      "summary": "arXiv:2607.12196v1 Announce Type: new Abstract: The fundamental relationship among protein sequence, structure, function, and physicochemical properties is a central principle in biology. While in principle protein funct…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Contrasting statistical patterns in melodic and molecular evolution reveal distinctive constraints in a culturally evolving system",
-      "url": "https://arxiv.org/abs/2607.12673",
-      "summary": "arXiv:2607.12673v1 Announce Type: new Abstract: Evolved sequences can be used to infer the rules of evolution. Orally transmitted folk melodies are evolved sequences whose similarity to protein sequences (one-dimensional…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Real-time fall detection based on vision for low-power edge platforms",
-      "url": "https://arxiv.org/abs/2607.12909",
-      "summary": "arXiv:2607.12909v1 Announce Type: new Abstract: Falling detection is vital for elderly care and intelligent surveillance; however, prevailing vision-based approaches predominantly frame it as static pose classification o…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On Tree-Network Distinguishability and Full Identifiability of Phylogenetic Networks",
-      "url": "https://arxiv.org/abs/2607.12919",
-      "summary": "arXiv:2607.12919v1 Announce Type: new Abstract: Phylogenetic networks generalize phylogenetic trees to evolutionary histories that include reticulate events such as recombination, horizontal gene transfer, and hybridizat…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Optimal photostimulation selection for iterative activity maps",
-      "url": "https://arxiv.org/abs/2607.12930",
-      "summary": "arXiv:2607.12930v1 Announce Type: new Abstract: All-optical two-photon holographic optogenetics enables causal circuit mapping by stimulating defined neurons or ensembles while imaging population activity. Yet exhaustive…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Constructed Reality, Contested Priors: Decoupling and the Architecture of Cognitive Relapse Under the Free Energy Principle",
-      "url": "https://arxiv.org/abs/2607.11958",
-      "summary": "arXiv:2607.11958v1 Announce Type: cross Abstract: Under the free energy principle, a predictive system does not observe reality directly; it maintains a generative model of the world and experiences that model's best cur…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
