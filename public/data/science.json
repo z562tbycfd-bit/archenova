@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-16T22:58:49.218Z",
+  "updated": "2026-07-17T00:06:51.449Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers discover rare freshwater mussels in Moosup River",
+      "url": "https://phys.org/news/2026-07-rare-freshwater-mussels-moosup-river.html",
+      "summary": "When University of Rhode Island researchers slipped beneath the surface of the Moosup River recently, they did not expect to find a living freshwater mussel community. The discovery marked the first documented record of …",
+      "ts": 1784246405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "For biodiversity to thrive across Europe, laws should treat wildlife as individuals capable of suffering, experts argue",
+      "url": "https://phys.org/news/2026-07-biodiversity-europe-laws-wildlife-individuals.html",
+      "summary": "Wildlife protection frameworks in both the EU and the UK need stronger and more consistent implementation—and must recognize animals as \"individuals capable of experiencing suffering,\" rather than mere ecological assets.",
+      "ts": 1784242801000
+    },
     {
       "source": "Phys.org",
       "title": "Algae fed by farm waste carpet Italy's warm River Po",
@@ -686,20 +700,6 @@
       "title": "Human population dynamics as a Bayesian inverse transport problem",
       "url": "https://arxiv.org/abs/2607.13171",
       "summary": "arXiv:2607.13171v1 Announce Type: new Abstract: Many open problems across physical, biological, and engineered systems involve non-equilibrium transport processes where the governing conservation laws are known, but the …",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards end-to-end optimization in multimaterial 3D printing",
-      "url": "https://arxiv.org/abs/2607.13174",
-      "summary": "arXiv:2607.13174v1 Announce Type: new Abstract: Multimaterial 3D printing enables the fabrication of functionally graded components, but optimizing their spatial material distribution alongside structural topology remain…",
-      "ts": 1784174400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reliable isomorphic physics problem generation with large language models",
-      "url": "https://arxiv.org/abs/2607.13190",
-      "summary": "arXiv:2607.13190v1 Announce Type: new Abstract: This study presents an AI-powered system for generating isomorphic physics problems using large language model (LLM)-based agent workflows. The system is designed around th…",
       "ts": 1784174400000
     }
   ],
