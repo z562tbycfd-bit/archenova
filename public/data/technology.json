@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-07-17T07:18:58.502Z",
+  "updated": "2026-07-17T10:00:18.707Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "European Service Module team meets Artemis II crew",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/European_Service_Module_team_meets_Artemis_II_crew",
+      "summary": "Image: From left to right, NASA astronauts Chrstina Koch, Reid Wiseman and Victor Glover, and Canadian Space Agency astronaut Jeremy Hansen, with ESA's European Service Module team behind them at ESTEC.",
+      "ts": 1784282400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "There’s a lot of hype around perimenopause. Don’t buy it.",
+      "url": "https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/",
+      "summary": "Perimenopause has entered the chat. Perimenopause—and its better-known relative, menopause—used to be considered taboo. Not anymore, thanks at least in part to TV doctors and social media influencers. Perhaps it’s my age…",
+      "ts": 1784278800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The risk of weather data sabotage is rising",
+      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds,…",
+      "ts": 1784278652000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Why affirming trans identities can be critical for suicide prevention counseling",
+      "url": "https://www.statnews.com/2026/07/17/trevor-project-suicide-prevention-counseling-for-trans-youth/?utm_campaign=rss",
+      "summary": "Advocates worry that excluding trans youth in some way from LGBTQ+ counseling services provided through the 988 crisis line could be harmful.",
+      "ts": 1784277000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: MDCalc is scoring the clinical calculators used by millions of doctors",
+      "url": "https://www.statnews.com/2026/07/17/mdcalc-quality-ratings-clinical-algorithms-for-bias-validity/?utm_campaign=rss",
+      "summary": "MDCalc is launching a quality-rating system for the more than 800 clinical calculators used to assess disease risk, transplant eligibility, and more.",
+      "ts": 1784277000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: MAHA is rewriting the vocabulary of American mental health care",
+      "url": "https://www.statnews.com/2026/07/17/maha-mental-health-care-vocabulary-rhetoric-wellness/?utm_campaign=rss",
+      "summary": "“‘Deprescribing’ elevated into a movement, and a cultural default, is a clinical hazard,” writes Sunny Patel.",
+      "ts": 1784277000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Can ultrasound unlock the power of gene therapy? A startup makes big claims",
+      "url": "https://www.statnews.com/2026/07/17/sonathera-ultrasound-duchenne-muscular-dystrophy-treatment/?utm_campaign=rss",
+      "summary": "Sonothera is developing a new way to deliver genes into cells that, if borne out, could have a big impact on muscular dystrophy and other diseases.",
+      "ts": 1784277000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Guinea-Bissau",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Guinea-Bissau",
+      "summary": "Image: This Copernicus Sentinel-2 image features part of the Republic of Guinea-Bissau in western Africa.",
+      "ts": 1784275200000,
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "A Tide-Fueled Trove of Biodiversity in Guinea-Bissau",
@@ -217,6 +281,14 @@
       "summary": "SpaceX aborted the launch of its latest Starship test flight July 16 when some of the vehicle’s engines failed to ignite. The post SpaceX aborts Starship Flight 13 launch attempt appeared first on SpaceNews.",
       "ts": 1784248805000,
       "categoryId": "space"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Challenges and trends in automotive battery recycling",
+      "url": "https://www.nature.com/articles/s41560-026-02092-9",
+      "summary": "",
+      "ts": 1784246400000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -436,6 +508,30 @@
     },
     {
       "source": "United Nations News",
+      "title": "Haiti: Training the next generation to fight corruption",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167931",
+      "summary": "How do you tackle corruption in a country grappling with insecurity, weak institutions and widespread impunity? In Haiti, the Government and the United Nations are betting on the country's youth.",
+      "ts": 1784203200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Breaking the silence: Zimbabwean youth leader calls for urgent investment in mental health",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167956",
+      "summary": "For Tanatswa Amanda Chikaura, mental health advocacy began with a personal loss: while studying psychology at the University of Zimbabwe, she learned that a fellow student had died by suicide.",
+      "ts": 1784203200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Venezuela: IOM warns of potential El Niño threat to families displaced by earthquake",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167964",
+      "summary": "Thousands of people remain displaced three weeks after the devastating earthquakes in Venezuela and the possible formation of a strong El Niño climate pattern could worsen their already dire situation, the International …",
+      "ts": 1784203200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Peacekeepers step up support as families return to south Lebanon",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167961",
       "summary": "With violence in south Lebanon significantly decreased since mid-June, UN peacekeepers there have returned to core functions such as protecting humanitarian aid and restoring critical infrastructure as families continue …",
@@ -625,102 +721,6 @@
       "summary": "arXiv:2607.12093v1 Announce Type: cross Abstract: Harvesting -- the periodic removal of individuals above or below a threshold trait value -- reshapes heterogeneous populations without altering their underlying stochasti…",
       "ts": 1784174400000,
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Differentiable Clone-Structured Causal Graphs for End-to-End Cognitive Map Learning from Image Sequences",
-      "url": "https://arxiv.org/abs/2607.12382",
-      "summary": "arXiv:2607.12382v1 Announce Type: cross Abstract: How can an agent build a structured map of its world from nothing but an ongoing sequence of raw sensory input and its own movements, especially when natural variation me…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Can deleterious mutations surf deterministic population waves?",
-      "url": "https://arxiv.org/abs/2607.12864",
-      "summary": "arXiv:2607.12864v1 Announce Type: cross Abstract: In spatially structured populations, rare neutral mutations can spread through large regions during a range expansion, a phenomenon known as gene surfing. Whether deleter…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Metric-Guided Synthetic Image Data Rendering for Deep Learning compatible with Agentic AI",
-      "url": "https://arxiv.org/abs/2607.12874",
-      "summary": "arXiv:2607.12874v1 Announce Type: cross Abstract: Deep learning computer vision for scientific applications requires collecting and annotating large datasets in a laborious, expensive and error-prone process. Synthetic d…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Phylogenetic network models as graphical models",
-      "url": "https://arxiv.org/abs/2507.23056",
-      "summary": "arXiv:2507.23056v2 Announce Type: replace Abstract: The displayed tree phylogenetic network model is shown to sit as a natural submodel of the graphical model associated to a directed acyclic graph (DAG). This representa…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Teaching signal synchronization in deep neural networks with prospective neurons",
-      "url": "https://arxiv.org/abs/2511.14917",
-      "summary": "arXiv:2511.14917v2 Announce Type: replace Abstract: Working memory requires the brain to maintain information from the recent past to guide ongoing behavior. Neurons can contribute to this capacity by slowly integrating …",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Rethinking the Choice Behavior of Sugar Metabolism in Bacteria",
-      "url": "https://arxiv.org/abs/2607.07677",
-      "summary": "arXiv:2607.07677v3 Announce Type: replace Abstract: Ramkrishna, Kompala, and Tsao proposed the cybernetic model of microbial growth, in which cells allocate enzyme synthesis resources according to a matching rule that mi…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Imputation-free transformer learning enables robust Alzheimer's disease prediction and calibrated uncertainty quantification across heterogeneous clinical cohorts",
-      "url": "https://arxiv.org/abs/2607.11656",
-      "summary": "arXiv:2607.11656v2 Announce Type: replace Abstract: Accurate diagnostic classification and disease-severity prediction for Alzheimer's disease are hampered by the incompleteness and heterogeneity of real-world clinical d…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The TopCoW Challenge -- Topology-Aware Circle of Willis Segmentation for CT and MR Angiography",
-      "url": "https://arxiv.org/abs/2312.17670",
-      "summary": "arXiv:2312.17670v5 Announce Type: replace-cross Abstract: The Circle of Willis (CoW) is an important network of arteries connecting major circulations of the brain. Its vascular architecture is believed to influence the …",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A robust, scalable K-statistic for quantifying immune cell clustering in spatial proteomics data",
-      "url": "https://arxiv.org/abs/2412.08498",
-      "summary": "arXiv:2412.08498v3 Announce Type: replace-cross Abstract: Spatial summary statistics based on point process theory are widely used to quantify the spatial organization of cell populations in single-cell spatial proteomic…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "AnySleep: a channel-agnostic deep learning system for high-resolution sleep staging in multi-center cohorts",
-      "url": "https://arxiv.org/abs/2512.14461",
-      "summary": "arXiv:2512.14461v2 Announce Type: replace-cross Abstract: Sleep is essential for health, yet studying its dynamics requires manual sleep staging, a labor-intensive step in research and clinical care. Across centers, poly…",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Same Compression Principle, Different Geometry: Rate-Distortion Signatures Dissociate Biological and Artificial Visual Systems",
-      "url": "https://arxiv.org/abs/2603.01568",
-      "summary": "arXiv:2603.01568v2 Announce Type: replace-cross Abstract: Efficient coding theory predicts that biological perceptual systems compress sensory input optimally under resource constraints, with the systematic structure of …",
-      "ts": 1784174400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "url": "https://openai.com/index/cars24",
-      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "ts": 1784160000000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

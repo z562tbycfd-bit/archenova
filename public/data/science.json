@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-17T07:18:51.871Z",
+  "updated": "2026-07-17T10:00:05.498Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Wildfire smoke makes air unhealthy from the US Midwest to East Coast. Officials say stay inside",
+      "url": "https://phys.org/news/2026-07-wildfire-air-unhealthy-midwest-east.html",
+      "summary": "Heavy, pungent wildfire smoke darkened skies in the U.S. on Thursday from the Great Lakes to parts of the East Coast, reducing visibility and prompting warnings that breathing the air outside could be dangerous.",
+      "ts": 1784280003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "SpaceX Starship launch aborted on the pad at the last moment",
+      "url": "https://phys.org/news/2026-07-spacex-starship-aborted-pad-moment.html",
+      "summary": "SpaceX's mega Starship rocket came within a second or so from blasting off on a test flight Thursday, but some of the engines failed to ignite, triggering a launch abort amid billowing clouds of smoke and vapor.",
+      "ts": 1784279275000
+    },
     {
       "source": "Phys.org",
       "title": "Bones reveal ancient Egyptian princesses born 4,000 years ago used weapons",
@@ -686,20 +700,6 @@
       "title": "SevenNet-Polar for MultiTask Prediction of Energy, Forces, Stress, and Born Effective Charges: Development and Application to ZrO$_2$, Li$_3$PO$_4$, and Perovskites",
       "url": "https://arxiv.org/abs/2607.14827",
       "summary": "arXiv:2607.14827v1 Announce Type: cross Abstract: Accurate prediction of the Born effective charge (BEC) tensor is crucial for modeling materials under electric fields but remains computationally expensive. To bridge thi…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Density-driven reentrant polymer transitions via saturable bridging crowders",
-      "url": "https://arxiv.org/abs/2607.14838",
-      "summary": "arXiv:2607.14838v1 Announce Type: cross Abstract: Reentrant coil-globule-coil transitions, in which a polymer collapses and then reexpands as a single parameter is varied, have been observed across diverse soft matter sy…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Millimetre-scale spectrographs for next-generation photonic instrumentation",
-      "url": "https://arxiv.org/abs/2607.14841",
-      "summary": "arXiv:2607.14841v1 Announce Type: cross Abstract: We present a set of ultra-compact spectrographs fabricated using two-photon polymerisation, each under 1 mm in length and printed directly onto an optical fiber. This ful…",
       "ts": 1784260800000
     }
   ],
