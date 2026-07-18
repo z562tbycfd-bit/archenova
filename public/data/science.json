@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-18T16:00:45.007Z",
+  "updated": "2026-07-18T17:56:38.879Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nanoparticles could remove harmful immune molecules from blood",
+      "url": "https://phys.org/news/2026-07-nanoparticles-immune-molecules-blood.html",
+      "summary": "The immune system, the body's defense network against infections and injuries, can sometimes become too active. In these cases, it can produce too many immune mediators, fragments of genetic material or proteins that reg…",
+      "ts": 1784396401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Butterfly experts are planting 15,000 milkweed plants along Florida roadsides to help monarchs",
+      "url": "https://phys.org/news/2026-07-butterfly-experts-milkweed-florida-roadsides.html",
+      "summary": "If you've driven down two-lane highways in rural parts of North Florida recently, you may have noticed a spate of new signs that designate the grassy knolls bordering the asphalt as wildflower areas. The signs likely fee…",
+      "ts": 1784395801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "More than 2,700 excess deaths estimated in England and Wales during May and June",
+      "url": "https://phys.org/news/2026-07-excess-deaths-england-wales-june.html",
+      "summary": "More than 2,700 people are estimated to have died from heat-related causes during the record-breaking May and June 2026 heat waves in England and Wales, according to a new rapid analysis report led by researchers from th…",
+      "ts": 1784391601000
+    },
     {
       "source": "Phys.org",
       "title": "Seasonal gene switch locks fruit flies in winter mode",
@@ -679,27 +700,6 @@
       "title": "Inverse Clausius Thermodynamics in Run-and-Tumble Dynamics",
       "url": "http://link.aps.org/doi/10.1103/h48q-1s1c",
       "summary": "Author(s): Oded Farago We establish a mapping between one-dimensional run-and-tumble particle dynamics in the presence of thermal noise, and overdamped Brownian motion in a spatially inhomogeneous temperature field. The …",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems",
-      "url": "http://link.aps.org/doi/10.1103/kgfb-5g2w",
-      "summary": "Author(s): Nicolas Casilli, Seunghwi Kim, Sunil Mittal, Marvin Onabajo, Andrea Alù, and Cristian Cassella The analog Floquet solver incorporates Floquet amplitude modulations to help it escape local minima, significantly…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Optimization of high-fidelity single-qubit gates for fluxonium qubits using single-flux quantum control",
-      "url": "http://link.aps.org/doi/10.1103/dz26-n1jc",
-      "summary": "Author(s): Maxime Lapointe-Major, Boyan Torosov, Bohdan Kulchytskyy, and Pooya Ronagh We present a gradient-based method to construct memory-efficient, high-fidelity, single-qubit gates for fluxonium qubits. These gates …",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Digital-alloy Bragg mirrors in high-$Q$ microcavities for polariton lasing",
-      "url": "http://link.aps.org/doi/10.1103/3t7c-5mtg",
-      "summary": "Author(s): V. A. Stolyarov, A. S. Kurdyubov, A. V. Trifonov, M. Yu. Petrov, I. V. Ignatiev, M. S. Lozhkin, S. A. Eliseev, Yu. P. Efimov, V. A. Lovtcius, and A. V. Kavokin We present an approach to the molecular beam epit…",
       "ts": 1784282400000
     }
   ],

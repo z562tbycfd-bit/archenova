@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-18T16:00:47.452Z",
+  "updated": "2026-07-18T17:56:41.663Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Space Force triples launch contract ceiling amid rising demand",
+      "url": "https://spacenews.com/space-force-triples-launch-contract-ceiling-amid-rising-demand/",
+      "summary": "The maximum value of the National Security Space Launch Phase 3 Lane 1 contract was raised from $5.6 billion to $17 billion The post Space Force triples launch contract ceiling amid rising demand appeared first on SpaceN…",
+      "ts": 1784396406000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Pentagon awards $7.1 million to expand U.S. production of cover glass for satellites",
+      "url": "https://spacenews.com/pentagon-awards-7-1-million-to-expand-u-s-production-of-cover-glass-for-satellites/",
+      "summary": "Defense Production Act funding was awarded to Martin Materials Solutions, a small business that makes radiation-resistant cover glass used on spacecraft solar arrays and thermal-control systems The post Pentagon awards $…",
+      "ts": 1784393996000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Organ Aging Linked to Breakdown in Immune Cell Interaction and Senescent Neutrophil Clearance",
+      "url": "https://www.genengnews.com/topics/translational-medicine/organ-aging-linked-to-breakdown-in-immune-cell-interaction-and-senescent-neutrophil-clearance/",
+      "summary": "A study in mice and in human cells found that blocking a single receptor on tissue-resident macrophages promoted clearance of accumulating senescent neutrophils, preserved the youthfulness of multiple organs in mice, and…",
+      "ts": 1784390866000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Opinion: STAT readers on the value of primary care, obesity as a disease, and more",
@@ -697,30 +721,6 @@
       "summary": "DIU solicitation aims to move long-studied technology toward military use by fiscal 2030 The post Defense Innovation Unit seeks commercial path to deliver electrical power from orbit appeared first on SpaceNews.",
       "ts": 1784215785000,
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Building the infrastructure for a shifting space economy with Massi Ladovaz",
-      "url": "https://spacenews.com/building-the-infrastructure-for-a-shifting-space-economy-with-massi-ladovaz/",
-      "summary": "In this episode, David Ariosto speaks with SpinLaunch CEO Massi Ladovaz. They discuss what attracted Ladovaz to reimagining how to launch spacecraft, the changing needs and challenges of building constellations […] The p…",
-      "ts": 1784215440000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Trump’s pick to lead Space Force defends plan to more than double budget",
-      "url": "https://spacenews.com/trumps-pick-to-lead-space-force-defends-plan-to-more-than-double-budget/",
-      "summary": "Lt. Gen. Douglas Schiess, to be the next chief of space operations of the U.S. Space Force, testified July 16 before the Senate Armed Services Committee in a confirmation hearing The post Trump’s pick to lead Space Force…",
-      "ts": 1784214196000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Brain implant restores the sensation of touch in a person with quadriplegia",
-      "url": "https://www.statnews.com/2026/07/16/brain-computer-interface-implant-restores-sensation-double-neural-bypass/?utm_campaign=rss",
-      "summary": "A brain-computer interface helped restore movement and sensation in a 48-year old man with quadriplegia, researchers say.",
-      "ts": 1784214000000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
