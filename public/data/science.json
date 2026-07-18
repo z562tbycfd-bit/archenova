@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-17T23:54:26.823Z",
+  "updated": "2026-07-18T02:41:09.130Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "South African genomics projects direct 10% of budgets to community-chosen benefits",
+      "url": "https://phys.org/news/2026-07-south-african-genomics-community-chosen.html",
+      "summary": "South Africa is pioneering new ways to embed ethical benefit sharing in genomics research through community-led decision-making. Speaking at the World Congress of Bioethics (WCB) in Johannesburg on 8–10 July, Ngoni Ngwar…",
+      "ts": 1784341201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers create strong 'super silk' that maintains shape after wetting",
+      "url": "https://phys.org/news/2026-07-strong-super-silk.html",
+      "summary": "Painstakingly woven from the cocoons of silkworms, silk has been valued for more than 4,000 years as a luxury material. More than just beautiful, silk is also lightweight, strong and biocompatible, allowing it to be used…",
+      "ts": 1784337601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scale can measure university students' confidence in using AI",
+      "url": "https://phys.org/news/2026-07-scale-university-students-confidence-ai.html",
+      "summary": "A study conducted at Koç University School of Nursing examined university students' perceived self-efficacy in using artificial intelligence technologies. Led by Associate Professor Remziye Semerci Şahin and Assistant Pr…",
+      "ts": 1784334001000
+    },
     {
       "source": "Phys.org",
       "title": "Researcher finds several UK mosquito species are potential carriers of avian malaria",
@@ -402,6 +423,97 @@
       "ts": 1784282403000
     },
     {
+      "source": "APS Physical Review Letters",
+      "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
+      "url": "http://link.aps.org/doi/10.1103/xxxk-y6yp",
+      "summary": "Author(s): Takashi Hara and Tatsuhiko Koike For a class of translation-invariant free-fermion systems including those with uniform nearest-neighbor hopping) on a $d$-dimensional $L×⋯×L$ hypercubic lattice, we prove that,…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Periodic Gravitational Lensing with Oscillating Boson Stars",
+      "url": "http://link.aps.org/doi/10.1103/6w3p-8ym2",
+      "summary": "Author(s): Xing-Yu Yang (杨星宇), Tan Chen (陈坦), and Rong-Gen Cai (蔡荣根) We show that oscillating (real-scalar) boson stars generically host an oscillating radial caustic. Sources near this caustic cross it every half period…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
+      "url": "http://link.aps.org/doi/10.1103/fm3n-sy3f",
+      "summary": "Author(s): Tousif Islam, Tejaswi Venumadhav, and Digvijay Wadekar Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an in…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Interference and Short-Range Correlation in Fermionic Hubbard Gases",
+      "url": "http://link.aps.org/doi/10.1103/hjpy-sx8w",
+      "summary": "Author(s): Yan-Song Zhu, Hou-Ji Shao, Yu-Xuan Wang, De-Zhi Zhu, Hao-Nan Sun, Si-Yuan Chen, Chi Zhang, Xing-Can Yao, Yu-Ao Chen, and Jian-Wei Pan The interference patterns of ultracold atoms, observed after ballistic expa…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Hidden Chiral Ferroelectricity in ${\\mathrm{AgNbO}}_{3}$ Perovskite",
+      "url": "http://link.aps.org/doi/10.1103/kbfj-btly",
+      "summary": "Author(s): Ying Song, Lingzhi Cao, Jinming Zhai, Zhilong Yang, Yali Yang, Laurent Bellaiche, and Jiangang He ${\\mathrm{AgNbO}}_{3}$ is a lead-free perovskite with considerable potential for energy storage and optoelectro…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Chirality Cannot Be Ferroic in Phase Transitions Leading to Enantiomorphic Space-Group Pairs",
+      "url": "http://link.aps.org/doi/10.1103/ktz2-7yd5",
+      "summary": "Author(s): F. Gómez-Ortiz, S. Mamoudou Taganga, Emma E. McCabe, A. H. Romero, and E. Bousquet With growing interest in structural chirality in periodic solids, it has been suggested that chirality might constitute a new …",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Antiferromagnetism and Stripe Channel Order in the $\\mathrm{SU}(N)$-Symmetric Two-Channel Kondo Lattice Model",
+      "url": "http://link.aps.org/doi/10.1103/n715-5r2y",
+      "summary": "Author(s): Elyasaf Y. Cohen, Fakher F. Assaad, and Snir Gazit We carry out large-scale, sign-problem-free determinant quantum Monte Carlo simulations of the square lattice $\\mathrm{SU}(N)$-symmetric two-channel Kondo lat…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Spin-Triplet Paired Wigner Crystal Stabilized by Quantum Geometry",
+      "url": "http://link.aps.org/doi/10.1103/ksxq-1l4q",
+      "summary": "Author(s): Dmitry Zverevich, Alex Levchenko, and Ilya Esterlis We have used variational states to analyze the effects of band geometry on the two-dimensional Wigner crystal with one and two electrons per unit cell. At su…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Harnessing Spin-Texture Dynamics for Low-Noise, High-Sensitivity Magnetic Sensors",
+      "url": "http://link.aps.org/doi/10.1103/vf43-sxwq",
+      "summary": "Author(s): Kang Wang, Teng Xu, Meng Shi, Xinxiang Sun, Yizhou Liu, Huali Yang, Run-Wei Li, and Haifeng Du The development of low-noise, high-sensitivity magnetic sensors is essential for applications such as automotive s…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Emergent Trion Resonance Driven by Lattice Reconstruction in a Moiré Superlattice",
+      "url": "http://link.aps.org/doi/10.1103/yvhp-1sm6",
+      "summary": "Author(s): Zhida Liu, Haonan Wang, Xiaohui Liu, Yue Ni, Hongtao Yan, Frank Y. Gao, Saba Arash, Hyunsue Kim, Dong Seob Kim, Xiangcheng Liu, Xiaoxiao Yu, Yongxin Zeng, Jiamin Quan, Di Huang, Kenji Watanabe, Takashi Taniguc…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Probing Dielectric Screening in van der Waals Heterostructures via Pressure-Tuned Exciton Rydberg Series",
+      "url": "http://link.aps.org/doi/10.1103/245v-mgsb",
+      "summary": "Author(s): Shalini Badola, Adlen Smiri, Thomas Pelini, Aditi Moghe, Tristan Riccardi, Amit Pawbake, Kenji Watanabe, Takashi Taniguchi, Iann C. Gerber, and Clément Faugeras Excitons in two-dimensional semiconductors are d…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Experimental Evidence for Strong Emergent Correlations between Particles in a Switching Trap",
+      "url": "http://link.aps.org/doi/10.1103/jkn8-h939",
+      "summary": "Author(s): Marco Biroli, Sergio Ciliberto, Manas Kulkarni, Satya N. Majumdar, Artyom Petrosyan, and Grégory Schehr We experimentally study a system of $N=4$ two-dimensional Brownian particles, each confined in a harmonic…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Inverse Clausius Thermodynamics in Run-and-Tumble Dynamics",
+      "url": "http://link.aps.org/doi/10.1103/h48q-1s1c",
+      "summary": "Author(s): Oded Farago We establish a mapping between one-dimensional run-and-tumble particle dynamics in the presence of thermal noise, and overdamped Brownian motion in a spatially inhomogeneous temperature field. The …",
+      "ts": 1784282400000
+    },
+    {
       "source": "APS PRX",
       "title": "Floquet-Based Ising Machines Escape Local Minima in QUBO Problems",
       "url": "http://link.aps.org/doi/10.1103/kgfb-5g2w",
@@ -441,69 +553,6 @@
       "title": "Breaking on/off-coupling loss degeneracies via bidirectional nonlinear optics",
       "url": "http://link.aps.org/doi/10.1103/vb1f-x4br",
       "summary": "Author(s): Bo-Han Wu, Mahmoud Jalali Mehrabad, Mengjie Yu, and Dirk Englund Accurate characterization of nonlinear photonic integrated circuits is fundamentally limited by the inability of linear transmission measurement…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
-      "url": "http://link.aps.org/doi/10.1103/xxxk-y6yp",
-      "summary": "Author(s): Takashi Hara and Tatsuhiko Koike For a class of translation-invariant free-fermion systems including those with uniform nearest-neighbor hopping) on a $d$-dimensional $L×⋯×L$ hypercubic lattice, we prove that,…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
-      "url": "http://link.aps.org/doi/10.1103/fm3n-sy3f",
-      "summary": "Author(s): Tousif Islam, Tejaswi Venumadhav, and Digvijay Wadekar Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an in…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Hidden Chiral Ferroelectricity in ${\\mathrm{AgNbO}}_{3}$ Perovskite",
-      "url": "http://link.aps.org/doi/10.1103/kbfj-btly",
-      "summary": "Author(s): Ying Song, Lingzhi Cao, Jinming Zhai, Zhilong Yang, Yali Yang, Laurent Bellaiche, and Jiangang He ${\\mathrm{AgNbO}}_{3}$ is a lead-free perovskite with considerable potential for energy storage and optoelectro…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Chirality Cannot Be Ferroic in Phase Transitions Leading to Enantiomorphic Space-Group Pairs",
-      "url": "http://link.aps.org/doi/10.1103/ktz2-7yd5",
-      "summary": "Author(s): F. Gómez-Ortiz, S. Mamoudou Taganga, Emma E. McCabe, A. H. Romero, and E. Bousquet With growing interest in structural chirality in periodic solids, it has been suggested that chirality might constitute a new …",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Harnessing Spin-Texture Dynamics for Low-Noise, High-Sensitivity Magnetic Sensors",
-      "url": "http://link.aps.org/doi/10.1103/vf43-sxwq",
-      "summary": "Author(s): Kang Wang, Teng Xu, Meng Shi, Xinxiang Sun, Yizhou Liu, Huali Yang, Run-Wei Li, and Haifeng Du The development of low-noise, high-sensitivity magnetic sensors is essential for applications such as automotive s…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Emergent Trion Resonance Driven by Lattice Reconstruction in a Moiré Superlattice",
-      "url": "http://link.aps.org/doi/10.1103/yvhp-1sm6",
-      "summary": "Author(s): Zhida Liu, Haonan Wang, Xiaohui Liu, Yue Ni, Hongtao Yan, Frank Y. Gao, Saba Arash, Hyunsue Kim, Dong Seob Kim, Xiangcheng Liu, Xiaoxiao Yu, Yongxin Zeng, Jiamin Quan, Di Huang, Kenji Watanabe, Takashi Taniguc…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Probing Dielectric Screening in van der Waals Heterostructures via Pressure-Tuned Exciton Rydberg Series",
-      "url": "http://link.aps.org/doi/10.1103/245v-mgsb",
-      "summary": "Author(s): Shalini Badola, Adlen Smiri, Thomas Pelini, Aditi Moghe, Tristan Riccardi, Amit Pawbake, Kenji Watanabe, Takashi Taniguchi, Iann C. Gerber, and Clément Faugeras Excitons in two-dimensional semiconductors are d…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Experimental Evidence for Strong Emergent Correlations between Particles in a Switching Trap",
-      "url": "http://link.aps.org/doi/10.1103/jkn8-h939",
-      "summary": "Author(s): Marco Biroli, Sergio Ciliberto, Manas Kulkarni, Satya N. Majumdar, Artyom Petrosyan, and Grégory Schehr We experimentally study a system of $N=4$ two-dimensional Brownian particles, each confined in a harmonic…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Inverse Clausius Thermodynamics in Run-and-Tumble Dynamics",
-      "url": "http://link.aps.org/doi/10.1103/h48q-1s1c",
-      "summary": "Author(s): Oded Farago We establish a mapping between one-dimensional run-and-tumble particle dynamics in the presence of thermal noise, and overdamped Brownian motion in a spatially inhomogeneous temperature field. The …",
       "ts": 1784282400000
     },
     {
@@ -651,55 +700,6 @@
       "title": "Full-data accuracy with fewer labels for training and fine-tuning machine-learning force fields",
       "url": "https://arxiv.org/abs/2607.14486",
       "summary": "arXiv:2607.14486v1 Announce Type: new Abstract: Machine-learning force fields (MLFFs) are reliable only near their training distribution, making efficient construction of diverse training sets a major bottleneck for both…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Microwave Resonant Discharges for Spatiotemporally Selective Plasma Breakdown Near Surfaces",
-      "url": "https://arxiv.org/abs/2607.14495",
-      "summary": "arXiv:2607.14495v1 Announce Type: new Abstract: Generating non-equilibrium plasmas close to surfaces remains a significant challenge for conventional plasma sources. Existing plasma generation schemes create volumetric d…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parameter Scan of Multi-Fluid Equilibria in Rotating p-11B Plasmas: Effects on Fusion Power and Bremsstrahlung Losses",
-      "url": "https://arxiv.org/abs/2607.14496",
-      "summary": "arXiv:2607.14496v1 Announce Type: new Abstract: We present VEQ-MF, a fast spectral parameter-scan framework for two-dimensional axisymmetric multi-fluid equilibria with prescribed species-dependent toroidal rotation. The…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transverse Optomechanical Interaction Mediated by Mechanically Induced Symmetry Breaking: Hamiltonian Dynamics",
-      "url": "https://arxiv.org/abs/2607.14502",
-      "summary": "arXiv:2607.14502v1 Announce Type: new Abstract: In cavity optomechanics, the interaction between light and motion is usually introduced via the shift of cavity resonances in response to mechanical displacement. Here we p…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Right Device, Right Place: Variation-Aware Placement and Design Optimization for Robust Photonic Lattice-Filter Demultiplexers",
-      "url": "https://arxiv.org/abs/2607.14526",
-      "summary": "arXiv:2607.14526v1 Announce Type: new Abstract: We propose a Bayesian co-optimization framework for robust integrated photonic lattice-filter demultiplexers, jointly optimizing device placement and design parameters unde…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast programmable Bragg reflection in photonic integrated circuits",
-      "url": "https://arxiv.org/abs/2607.14565",
-      "summary": "arXiv:2607.14565v1 Announce Type: new Abstract: Distributed Bragg reflectors (DBRs) are foundational building blocks of classical and quantum photonic technologies. However, their optical responses are typically fixed up…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine Learning for Complex Instrument Design and Optimization",
-      "url": "https://arxiv.org/abs/2607.14619",
-      "summary": "arXiv:2607.14619v1 Announce Type: new Abstract: In modern experimental physics, particle accelerators and gravitational-wave observatories enable a wide-range of research at the frontiers of science. These instruments ar…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Criticality and reduced dynamical resilience in PM2.5 pollution systems",
-      "url": "https://arxiv.org/abs/2607.14632",
-      "summary": "arXiv:2607.14632v1 Announce Type: new Abstract: Concentration-based metrics underpin air-quality assessment, while dynamical persistence and recovery describe how rapidly high-PM2.5 episodes dissipate and how strongly th…",
       "ts": 1784260800000
     }
   ],

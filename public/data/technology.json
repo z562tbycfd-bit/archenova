@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-17T23:54:29.502Z",
+  "updated": "2026-07-18T02:41:14.878Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "NASA terminates Draper lunar lander mission",
+      "url": "https://spacenews.com/nasa-terminates-draper-lunar-lander-mission/",
+      "summary": "NASA and Draper have terminated plans for a lunar lander mission after significant delays in development of the spacecraft. The post NASA terminates Draper lunar lander mission appeared first on SpaceNews.",
+      "ts": 1784332820000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Pushes New Wing Design to Find Structural Limits",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/",
+      "summary": "NASA researchers recently put a new wing design, appearing long and thin with a lightweight structural design, through a series of grueling tests to find its structural limits. What they found left them encouraged about …",
+      "ts": 1784329713000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "The Growing Crescent of Mars as NASA’s Psyche Mission Approaches",
+      "url": "https://science.nasa.gov/photojournal/the-growing-crescent-of-mars-as-nasas-psyche-mission-approaches/",
+      "summary": "Description This composite of images taken by NASA’s Psyche mission shows the crescent of Mars grow as the spacecraft approached the planet for a gravity assist from May 2 to May 15, 2026. The series begins with the smal…",
+      "ts": 1784327547000,
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "Establishing a VTE Risk Score for Astronauts Algorithm",
@@ -697,30 +721,6 @@
       "summary": "Kalshi, one of the world’s largest prediction market exchanges, plans to take bets on clinical trials and regulatory approvals",
       "ts": 1784207684000,
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA approves Merck’s oral PCSK9 drug, a first",
-      "url": "https://www.statnews.com/2026/07/16/biotech-news-fda-approves-merck-oral-pcsk9-drug-in-a-first/?utm_campaign=rss",
-      "summary": "Kalshi allows bets on clinical trial outcomes, Eli Lilly buys a psychedelic medicine, and more biotech news from The Readout",
-      "ts": 1784207076000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Sharpen the Sword, Skip the Downloads — ‘Onimusha: Way of the Sword’ Is Coming to GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-onimusha-coming/",
-      "summary": "Onimusha: Way of the Sword is coming to GeForce NOW at launch, with the playable demo available this week. It’s joined by Denshattack! rolling in with five new games arriving in the cloud. Plus, GeForce NOW officially la…",
-      "ts": 1784206834000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
-      "url": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has…",
-      "ts": 1784203800000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
