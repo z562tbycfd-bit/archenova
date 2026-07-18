@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-18T20:52:32.033Z",
+  "updated": "2026-07-18T21:53:46.812Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: Beware the unintended consequences of testosterone screening for military servicemembers",
+      "url": "https://www.statnews.com/2026/07/18/military-testosterone-screening-supplements/?utm_campaign=rss",
+      "summary": "“I fear that the widespread rollout of testosterone screening may lead to some surprising and unintended consequences,” writes a urologist who studies testosterone.",
+      "ts": 1784409670000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Mauritius becomes 70th nation to sign the Artemis Accords",
@@ -713,14 +721,6 @@
       "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
       "ts": 1784217600000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "See, Blind Mice: Consortium’s Drugs Restore Sight",
-      "url": "https://www.genengnews.com/topics/drug-discovery/see-blind-mice-consortiums-drugs-restore-sight/",
-      "summary": "Researchers developed a series of light-activated small molecule drugs that mimic the function of the light-sensing photoreceptor cells that degenerate in diseases such as age-related macular degeneration and retinitis p…",
-      "ts": 1784216035000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

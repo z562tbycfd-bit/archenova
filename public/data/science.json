@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-18T20:52:28.901Z",
+  "updated": "2026-07-18T21:53:43.936Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New environmental performance index highlights sustainability gains, and the challenges ahead",
+      "url": "https://phys.org/news/2026-07-environmental-index-highlights-sustainability-gains.html",
+      "summary": "European countries continue to lead the world in environmental performance, according to the 2026 Environmental Performance Index (EPI), a biennial assessment produced by researchers at the Yale Center for Environmental …",
+      "ts": 1784410201000
+    },
     {
       "source": "Phys.org",
       "title": "Florida bloom toxins turn up in air, suggesting inhalation risk beyond shorelines",
@@ -176,6 +183,20 @@
       "url": "https://phys.org/news/2026-07-scale-university-students-confidence-ai.html",
       "summary": "A study conducted at Koç University School of Nursing examined university students' perceived self-efficacy in using artificial intelligence technologies. Led by Associate Professor Remziye Semerci Şahin and Assistant Pr…",
       "ts": 1784334001000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Scale-bridging interface design enables high-performance sustainable thermoelectrics",
+      "url": "https://www.nature.com/articles/s41467-026-75865-1",
+      "summary": "",
+      "ts": 1784332800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Wavelength-encoded neuromorphic inference enabled by microcavity MoS<sub>2</sub> photodetector arrays",
+      "url": "https://www.nature.com/articles/s41467-026-75808-w",
+      "summary": "",
+      "ts": 1784332800000
     },
     {
       "source": "Nature Communications",
@@ -679,27 +700,6 @@
       "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
       "url": "http://link.aps.org/doi/10.1103/fm3n-sy3f",
       "summary": "Author(s): Tousif Islam, Tejaswi Venumadhav, and Digvijay Wadekar Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an in…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Interference and Short-Range Correlation in Fermionic Hubbard Gases",
-      "url": "http://link.aps.org/doi/10.1103/hjpy-sx8w",
-      "summary": "Author(s): Yan-Song Zhu, Hou-Ji Shao, Yu-Xuan Wang, De-Zhi Zhu, Hao-Nan Sun, Si-Yuan Chen, Chi Zhang, Xing-Can Yao, Yu-Ao Chen, and Jian-Wei Pan The interference patterns of ultracold atoms, observed after ballistic expa…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Hidden Chiral Ferroelectricity in ${\\mathrm{AgNbO}}_{3}$ Perovskite",
-      "url": "http://link.aps.org/doi/10.1103/kbfj-btly",
-      "summary": "Author(s): Ying Song, Lingzhi Cao, Jinming Zhai, Zhilong Yang, Yali Yang, Laurent Bellaiche, and Jiangang He ${\\mathrm{AgNbO}}_{3}$ is a lead-free perovskite with considerable potential for energy storage and optoelectro…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Chirality Cannot Be Ferroic in Phase Transitions Leading to Enantiomorphic Space-Group Pairs",
-      "url": "http://link.aps.org/doi/10.1103/ktz2-7yd5",
-      "summary": "Author(s): F. Gómez-Ortiz, S. Mamoudou Taganga, Emma E. McCabe, A. H. Romero, and E. Bousquet With growing interest in structural chirality in periodic solids, it has been suggested that chirality might constitute a new …",
       "ts": 1784282400000
     }
   ],
