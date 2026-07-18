@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-18T05:29:09.583Z",
+  "updated": "2026-07-18T07:55:26.976Z",
   "items": [
     {
       "source": "Phys.org",
@@ -29,6 +29,20 @@
       "url": "https://phys.org/news/2026-07-scale-university-students-confidence-ai.html",
       "summary": "A study conducted at Koç University School of Nursing examined university students' perceived self-efficacy in using artificial intelligence technologies. Led by Associate Professor Remziye Semerci Şahin and Assistant Pr…",
       "ts": 1784334001000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Learning ordinality-aware multimodal representations for composite materials design",
+      "url": "https://www.nature.com/articles/s41467-026-75615-3",
+      "summary": "",
+      "ts": 1784332800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Immune correlates of risk for SARS-CoV-2 infection in children: a prospective, community-based cohort study",
+      "url": "https://www.nature.com/articles/s41467-026-74684-8",
+      "summary": "",
+      "ts": 1784332800000
     },
     {
       "source": "Phys.org",
@@ -438,23 +452,9 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Periodic Gravitational Lensing with Oscillating Boson Stars",
-      "url": "http://link.aps.org/doi/10.1103/6w3p-8ym2",
-      "summary": "Author(s): Xing-Yu Yang (杨星宇), Tan Chen (陈坦), and Rong-Gen Cai (蔡荣根) We show that oscillating (real-scalar) boson stars generically host an oscillating radial caustic. Sources near this caustic cross it every half period…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
       "url": "http://link.aps.org/doi/10.1103/fm3n-sy3f",
       "summary": "Author(s): Tousif Islam, Tejaswi Venumadhav, and Digvijay Wadekar Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an in…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Interference and Short-Range Correlation in Fermionic Hubbard Gases",
-      "url": "http://link.aps.org/doi/10.1103/hjpy-sx8w",
-      "summary": "Author(s): Yan-Song Zhu, Hou-Ji Shao, Yu-Xuan Wang, De-Zhi Zhu, Hao-Nan Sun, Si-Yuan Chen, Chi Zhang, Xing-Can Yao, Yu-Ao Chen, and Jian-Wei Pan The interference patterns of ultracold atoms, observed after ballistic expa…",
       "ts": 1784282400000
     },
     {
@@ -469,20 +469,6 @@
       "title": "Chirality Cannot Be Ferroic in Phase Transitions Leading to Enantiomorphic Space-Group Pairs",
       "url": "http://link.aps.org/doi/10.1103/ktz2-7yd5",
       "summary": "Author(s): F. Gómez-Ortiz, S. Mamoudou Taganga, Emma E. McCabe, A. H. Romero, and E. Bousquet With growing interest in structural chirality in periodic solids, it has been suggested that chirality might constitute a new …",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Antiferromagnetism and Stripe Channel Order in the $\\mathrm{SU}(N)$-Symmetric Two-Channel Kondo Lattice Model",
-      "url": "http://link.aps.org/doi/10.1103/n715-5r2y",
-      "summary": "Author(s): Elyasaf Y. Cohen, Fakher F. Assaad, and Snir Gazit We carry out large-scale, sign-problem-free determinant quantum Monte Carlo simulations of the square lattice $\\mathrm{SU}(N)$-symmetric two-channel Kondo lat…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spin-Triplet Paired Wigner Crystal Stabilized by Quantum Geometry",
-      "url": "http://link.aps.org/doi/10.1103/ksxq-1l4q",
-      "summary": "Author(s): Dmitry Zverevich, Alex Levchenko, and Ilya Esterlis We have used variational states to analyze the effects of band geometry on the two-dimensional Wigner crystal with one and two electrons per unit cell. At su…",
       "ts": 1784282400000
     },
     {
@@ -553,6 +539,34 @@
       "title": "Cation disorder in ${\\mathrm{AgSbTe}}_{2}$ leads to glasslike ultralow lattice thermal conductivity",
       "url": "http://link.aps.org/doi/10.1103/vcln-3c8m",
       "summary": "Author(s): Soongyu Kwon, Sung Yi, Soongkeun Hyun, James M. Hodges, and Yi Xia Thermoelectric efficiency benefits from suppressing lattice thermal conductivity (${κ}_{l}$), yet the microscopic origin of the glasslike ultr…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Periodic Gravitational Lensing with Oscillating Boson Stars",
+      "url": "http://link.aps.org/doi/10.1103/6w3p-8ym2",
+      "summary": "Author(s): Xing-Yu Yang (杨星宇), Tan Chen (陈坦), and Rong-Gen Cai (蔡荣根) We show that oscillating (real-scalar) boson stars generically host an oscillating radial caustic. Sources near this caustic cross it every half period…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Interference and Short-Range Correlation in Fermionic Hubbard Gases",
+      "url": "http://link.aps.org/doi/10.1103/hjpy-sx8w",
+      "summary": "Author(s): Yan-Song Zhu, Hou-Ji Shao, Yu-Xuan Wang, De-Zhi Zhu, Hao-Nan Sun, Si-Yuan Chen, Chi Zhang, Xing-Can Yao, Yu-Ao Chen, and Jian-Wei Pan The interference patterns of ultracold atoms, observed after ballistic expa…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Antiferromagnetism and Stripe Channel Order in the $\\mathrm{SU}(N)$-Symmetric Two-Channel Kondo Lattice Model",
+      "url": "http://link.aps.org/doi/10.1103/n715-5r2y",
+      "summary": "Author(s): Elyasaf Y. Cohen, Fakher F. Assaad, and Snir Gazit We carry out large-scale, sign-problem-free determinant quantum Monte Carlo simulations of the square lattice $\\mathrm{SU}(N)$-symmetric two-channel Kondo lat…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Spin-Triplet Paired Wigner Crystal Stabilized by Quantum Geometry",
+      "url": "http://link.aps.org/doi/10.1103/ksxq-1l4q",
+      "summary": "Author(s): Dmitry Zverevich, Alex Levchenko, and Ilya Esterlis We have used variational states to analyze the effects of band geometry on the two-dimensional Wigner crystal with one and two electrons per unit cell. At su…",
       "ts": 1784282400000
     },
     {
@@ -686,20 +700,6 @@
       "title": "Confined acoustic phonon mode filtering in free-standing nanocrystalline silicon membranes",
       "url": "https://arxiv.org/abs/2607.14417",
       "summary": "arXiv:2607.14417v1 Announce Type: new Abstract: We report the femtosecond time-resolved measurements of confined acoustic phonons in free-standing nanocrystalline silicon membranes and compare them directly with the crys…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analytic descriptions of soft-edge quadrupoles for beamline design in multi-particle simulations",
-      "url": "https://arxiv.org/abs/2607.14454",
-      "summary": "arXiv:2607.14454v1 Announce Type: new Abstract: All physical quadrupoles have a fringe field falloff, giving rise to intrinsic higher order aberrations. It is especially important to consider these aberrations when desig…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Boosting Perovskite Light-Emitting Diodes Performance by Introducing High Work-function Metal Transition Layer",
-      "url": "https://arxiv.org/abs/2607.14471",
-      "summary": "arXiv:2607.14471v1 Announce Type: new Abstract: We investigated the impact of the anode's work-function on the performance of an all inorganic PeLED device which was hailed for stability and long lifetime with drift-diff…",
       "ts": 1784260800000
     }
   ],
