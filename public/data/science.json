@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-18T14:56:07.376Z",
+  "updated": "2026-07-18T16:00:45.007Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Seasonal gene switch locks fruit flies in winter mode",
+      "url": "https://phys.org/news/2026-07-seasonal-gene-fruit-flies-winter.html",
+      "summary": "Researchers at Washington State University have discovered a molecular \"winter lock\" that keeps animals in a less active winter state until favorable conditions return, a discovery that could improve pest control and lea…",
+      "ts": 1784390401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study demonstrates the importance of emotional support from pets for vulnerable people",
+      "url": "https://phys.org/news/2026-07-importance-emotional-pets-vulnerable-people.html",
+      "summary": "People experiencing homelessness, victims of domestic violence and economically vulnerable people are at higher risk of social exclusion. For them, pets are an important source of emotional support. A study by the Affini…",
+      "ts": 1784386801000
+    },
     {
       "source": "Phys.org",
       "title": "New super strong glue grips non-stick surfaces and wipes away easily",
@@ -686,20 +700,6 @@
       "title": "Digital-alloy Bragg mirrors in high-$Q$ microcavities for polariton lasing",
       "url": "http://link.aps.org/doi/10.1103/3t7c-5mtg",
       "summary": "Author(s): V. A. Stolyarov, A. S. Kurdyubov, A. V. Trifonov, M. Yu. Petrov, I. V. Ignatiev, M. S. Lozhkin, S. A. Eliseev, Yu. P. Efimov, V. A. Lovtcius, and A. V. Kavokin We present an approach to the molecular beam epit…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Variational quantum algorithm for anion exchange across an electrolyzer membrane",
-      "url": "http://link.aps.org/doi/10.1103/149q-4z6s",
-      "summary": "Author(s): Timur Gubaev, Philipp Pfeffer, Christian Dreßler, and Jörg Schumacher We present a variational quantum algorithm that solves the one-dimensional diffusion problem with a space-dependent diffusion constant $D(x…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Cation disorder in ${\\mathrm{AgSbTe}}_{2}$ leads to glasslike ultralow lattice thermal conductivity",
-      "url": "http://link.aps.org/doi/10.1103/vcln-3c8m",
-      "summary": "Author(s): Soongyu Kwon, Sung Yi, Soongkeun Hyun, James M. Hodges, and Yi Xia Thermoelectric efficiency benefits from suppressing lattice thermal conductivity (${κ}_{l}$), yet the microscopic origin of the glasslike ultr…",
       "ts": 1784282400000
     }
   ],
