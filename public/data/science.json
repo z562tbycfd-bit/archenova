@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-18T07:55:26.976Z",
+  "updated": "2026-07-18T09:28:24.112Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "UN to list more sites as 'in danger' from conflict or climate change",
+      "url": "https://phys.org/news/2026-07-sites-danger-conflict-climate.html",
+      "summary": "The United Nations looks set to list a Biblical site, Lebanese castles, an antelope migration path and the world's deepest lake as world treasures under threat, including from war or climate change.",
+      "ts": 1784365201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfire smoke from Canada and Minnesota pushes farther into the US and engulfs DC in haze",
+      "url": "https://phys.org/news/2026-07-wildfire-canada-minnesota-engulfs-dc.html",
+      "summary": "Millions of people in the Great Lakes, Northeast and Mid-Atlantic states muddled through another day of unhealthy air from uncontrolled wildfires on Friday.",
+      "ts": 1784363404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Chainsaw massacre': Europe mulls culls for fish-guzzling cormorant",
+      "url": "https://phys.org/news/2026-07-chainsaw-massacre-europe-mulls-culls.html",
+      "summary": "Europe's great cormorant has recovered from near extinction to overabundance in half a century, stoking a long-running debate over population control between fishers troubled by its voracious appetite and conservationist…",
+      "ts": 1784362803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Far above the Earth, NASA's Apollo lunar lander put astronauts on the moon",
+      "url": "https://phys.org/news/2026-07-earth-nasa-apollo-lunar-lander.html",
+      "summary": "America's most daring, extraordinary feat—landing astronauts on the moon—remains the pinnacle of achievement by anyone anywhere. Ever.",
+      "ts": 1784361634000
+    },
     {
       "source": "Phys.org",
       "title": "FCC approves first launch for space reflector constellation",
@@ -672,34 +700,6 @@
       "title": "Assessing AI in Introductory Physics Problem Solving",
       "url": "https://arxiv.org/abs/2607.14303",
       "summary": "arXiv:2607.14303v1 Announce Type: new Abstract: Reasoning or inference-scaling models are the new generation of Large Language Models (LLMs) capable of complex problem solving. To investigate their problem-solving capabi…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interfacial-Thermo-Fluid-Adhesion Dynamics of Evaporating Capillary Bridges between Curved Surfaces",
-      "url": "https://arxiv.org/abs/2607.14322",
-      "summary": "arXiv:2607.14322v1 Announce Type: new Abstract: We probe the evaporation mechanism, and the associated adhesion dynamics of liquid capillary bridges connecting two curved, solid substrates. The coupled thermo fluid speci…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Foundation of Three-Dimensional Spiral Beam Injection Using Canonical Angular Momentum and Symplectic Eigen-Modes",
-      "url": "https://arxiv.org/abs/2607.14354",
-      "summary": "arXiv:2607.14354v1 Announce Type: new Abstract: Aiming for high injection efficiency in three-dimensional spiral injection, the underlying physical principles governing beam formation and matching should be systematicall…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Smooth-Curvature Bend Design Guided by Variational Analysis for Adiabatic Multimode Integrated Photonics",
-      "url": "https://arxiv.org/abs/2607.14382",
-      "summary": "arXiv:2607.14382v1 Announce Type: new Abstract: Multimode photonic integrated circuits enable ultralow-loss on-chip optical interconnects and microwave-photonic processing, yet waveguide bends dominate both chip footprin…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Confined acoustic phonon mode filtering in free-standing nanocrystalline silicon membranes",
-      "url": "https://arxiv.org/abs/2607.14417",
-      "summary": "arXiv:2607.14417v1 Announce Type: new Abstract: We report the femtosecond time-resolved measurements of confined acoustic phonons in free-standing nanocrystalline silicon membranes and compare them directly with the crys…",
       "ts": 1784260800000
     }
   ],
