@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-18T13:20:50.473Z",
+  "updated": "2026-07-18T14:56:07.376Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New super strong glue grips non-stick surfaces and wipes away easily",
+      "url": "https://phys.org/news/2026-07-super-strong-surfaces-easily.html",
+      "summary": "In a research lab at the University of Tokyo, scientists have developed a new kind of glue. It's incredibly strong and highly stretchable, yet it washes away completely with a little alcohol.",
+      "ts": 1784385604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Half a century of sightings reveals Ireland remains a haven for endangered basking sharks",
+      "url": "https://phys.org/news/2026-07-century-sightings-reveals-ireland-haven.html",
+      "summary": "Ireland's waters continue to provide an important seasonal refuge for the endangered basking shark, according to a new study.",
+      "ts": 1784383204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat-stressed cells use nuclear stress bodies to restart RNA splicing, study finds",
+      "url": "https://phys.org/news/2026-07-stressed-cells-nuclear-stress-bodies.html",
+      "summary": "If you want to beat the heat of the summer sun, slowing down and doing less is a good strategy. However, researchers have long asked whether the same occurs at the cellular level. While cellular stress responses have bee…",
+      "ts": 1784383201000
+    },
     {
       "source": "Phys.org",
       "title": "How quantum circuits based on neutral atoms could find and fix errors",
@@ -109,6 +130,13 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Raphia hookeri seed-inspired weakly anisotropic nanocomposites",
+      "url": "https://www.nature.com/articles/s41467-026-75719-w",
+      "summary": "",
+      "ts": 1784332800000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Escape-induced temporally correlated noise driven crossover in growth kinetics and universality class",
       "url": "https://www.nature.com/articles/s41467-026-75545-0",
       "summary": "",
@@ -125,6 +153,13 @@
       "source": "Nature Communications",
       "title": "Stable high-valent iridium single atoms for high-temperature CO<sub>2</sub> electrolysis",
       "url": "https://www.nature.com/articles/s41467-026-75580-x",
+      "summary": "",
+      "ts": 1784332800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Engineering microbial consortia for distributed signal processing",
+      "url": "https://www.nature.com/articles/s41467-026-75739-6",
       "summary": "",
       "ts": 1784332800000
     },
@@ -666,41 +701,6 @@
       "url": "http://link.aps.org/doi/10.1103/vcln-3c8m",
       "summary": "Author(s): Soongyu Kwon, Sung Yi, Soongkeun Hyun, James M. Hodges, and Yi Xia Thermoelectric efficiency benefits from suppressing lattice thermal conductivity (${κ}_{l}$), yet the microscopic origin of the glasslike ultr…",
       "ts": 1784282400000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Breaking on/off-coupling loss degeneracies via bidirectional nonlinear optics",
-      "url": "http://link.aps.org/doi/10.1103/vb1f-x4br",
-      "summary": "Author(s): Bo-Han Wu, Mahmoud Jalali Mehrabad, Mengjie Yu, and Dirk Englund Accurate characterization of nonlinear photonic integrated circuits is fundamentally limited by the inability of linear transmission measurement…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Wildfire smoke makes air unhealthy from the US Midwest to East Coast. Officials say stay inside",
-      "url": "https://phys.org/news/2026-07-wildfire-air-unhealthy-midwest-east.html",
-      "summary": "Heavy, pungent wildfire smoke darkened skies in the U.S. on Thursday from the Great Lakes to parts of the East Coast, reducing visibility and prompting warnings that breathing the air outside could be dangerous.",
-      "ts": 1784280003000
-    },
-    {
-      "source": "Phys.org",
-      "title": "SpaceX Starship launch aborted on the pad at the last moment",
-      "url": "https://phys.org/news/2026-07-spacex-starship-aborted-pad-moment.html",
-      "summary": "SpaceX's mega Starship rocket came within a second or so from blasting off on a test flight Thursday, but some of the engines failed to ignite, triggering a launch abort amid billowing clouds of smoke and vapor.",
-      "ts": 1784279275000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Bones reveal ancient Egyptian princesses born 4,000 years ago used weapons",
-      "url": "https://phys.org/news/2026-07-bones-reveal-ancient-egyptian-princesses.html",
-      "summary": "For decades, scientists have disputed the meaning of the weapons found in the burial chambers of some ancient Egyptian princesses. Were they symbolic or practical tools? Now, a reassessment of five royal women's mummies …",
-      "ts": 1784260802000
-    },
-    {
-      "source": "Science News",
-      "title": "Ancient Egyptian princesses knew their way around weapons of war",
-      "url": "https://www.sciencenews.org/article/ancient-egyptian-princesses-weapons-war",
-      "summary": "Analysis of six mummies from ancient Egypt challenges the idea that the bows and daggers buried with some royal women were merely ceremonial.",
-      "ts": 1784260800000
     }
   ],
   "sources": [
