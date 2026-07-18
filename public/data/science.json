@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-18T19:12:06.363Z",
+  "updated": "2026-07-18T20:52:28.901Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Florida bloom toxins turn up in air, suggesting inhalation risk beyond shorelines",
+      "url": "https://phys.org/news/2026-07-florida-bloom-toxins-air-inhalation.html",
+      "summary": "Research on Southwest Florida cyanobacterial blooms shows that the toxins they produce are aerosolized and potentially inhaled by people far from contaminated water bodies.",
+      "ts": 1784404801000
+    },
     {
       "source": "Phys.org",
       "title": "Scientists use relay synthesis to create key building blocks of reserve antibiotic to combat resistance",
@@ -693,13 +700,6 @@
       "title": "Chirality Cannot Be Ferroic in Phase Transitions Leading to Enantiomorphic Space-Group Pairs",
       "url": "http://link.aps.org/doi/10.1103/ktz2-7yd5",
       "summary": "Author(s): F. Gómez-Ortiz, S. Mamoudou Taganga, Emma E. McCabe, A. H. Romero, and E. Bousquet With growing interest in structural chirality in periodic solids, it has been suggested that chirality might constitute a new …",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Antiferromagnetism and Stripe Channel Order in the $\\mathrm{SU}(N)$-Symmetric Two-Channel Kondo Lattice Model",
-      "url": "http://link.aps.org/doi/10.1103/n715-5r2y",
-      "summary": "Author(s): Elyasaf Y. Cohen, Fakher F. Assaad, and Snir Gazit We carry out large-scale, sign-problem-free determinant quantum Monte Carlo simulations of the square lattice $\\mathrm{SU}(N)$-symmetric two-channel Kondo lat…",
       "ts": 1784282400000
     }
   ],
