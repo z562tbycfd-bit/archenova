@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-18T11:06:06.145Z",
+  "updated": "2026-07-18T13:20:54.874Z",
   "items": [
     {
       "source": "STAT",
@@ -228,6 +228,14 @@
     },
     {
       "source": "United Nations News",
+      "title": "Baristas behind bars: Thai prisoners brew a path back to daily life",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167954",
+      "summary": "It looks like a regular coffee shop, albeit set up in an old red bus. Stairs lead up to a serving hatch, with a menu of drink options. A selection of jaunty coffee-related messages like “My one and only love: Americano” …",
+      "ts": 1784289600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "US-Iran war: UN chief calls for new diplomatic push following attacks on civilian areas",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167973",
       "summary": "The UN Secretary-General remains deeply concerned by the continuing deadly military escalation between Iran and the United States, his spokesperson said on Friday as attacks destroyed key civilian and military infrastruc…",
@@ -244,7 +252,7 @@
     },
     {
       "source": "United Nations News",
-      "title": "World News in Brief: Appeal for calm in Kashmir, women on the move, increased Ebola deaths in communities, 12th anniversary of MH17",
+      "title": "World News in Brief: Appeal for calm in Kashmir, women on the move, Ebola deaths mount, 12th anniversary of MH17",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167970",
       "summary": "The UN human rights chief, Volker Türk, has appealed for calm in Pakistan-Administered Kashmir amid unrest ahead of regional elections.",
       "ts": 1784289600000,
@@ -712,14 +720,6 @@
       "url": "https://www.statnews.com/2026/07/16/brain-computer-interface-implant-restores-sensation-double-neural-bypass/?utm_campaign=rss",
       "summary": "A brain-computer interface helped restore movement and sensation in a 48-year old man with quadriplegia, researchers say.",
       "ts": 1784214000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare wants to shake up how it pays for clinical AI",
-      "url": "https://www.statnews.com/2026/07/16/medicare-shake-clinical-ai-rpm-payments-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: Centers for Medicare and Medicaid Services proposes major changes to RPM, clinical AI payment models.",
-      "ts": 1784213299000,
       "categoryId": "bio"
     }
   ],

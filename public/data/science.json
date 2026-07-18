@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-18T11:06:02.049Z",
+  "updated": "2026-07-18T13:20:50.473Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How quantum circuits based on neutral atoms could find and fix errors",
+      "url": "https://phys.org/news/2026-07-quantum-circuits-based-neutral-atoms.html",
+      "summary": "Quantum computers, devices that process information by leveraging the laws of quantum mechanics, have been found to outperform classical computers in some advanced tasks. Instead of storing information in the form of cla…",
+      "ts": 1784380801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "India successfully launches first private orbital rocket",
+      "url": "https://phys.org/news/2026-07-india-successfully-private-orbital-rocket.html",
+      "summary": "India's first privately built orbital rocket took its maiden flight Saturday, its company said, marking a significant step for the South Asian giant as it eyes a bigger slice of the global space economy.",
+      "ts": 1784378206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How physics and mathematical modeling help us make better clothes",
+      "url": "https://phys.org/news/2026-07-physics-mathematical.html",
+      "summary": "A new paper in the journal Nature Physics offers insights into the physics of liquid droplets—and while many people may not appreciate the mathematical accomplishment, they will benefit from the athletic wear and raincoa…",
+      "ts": 1784377801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI unlocks QLED recipe that doubles efficiency and boosts lifetime 40-fold",
+      "url": "https://phys.org/news/2026-07-ai-qled-recipe-efficiency-boosts.html",
+      "summary": "A technology has been developed that allows artificial intelligence to inversely determine the process conditions for quantum-dot light-emitting diode (QLED) devices—conditions that previously required extensive trial an…",
+      "ts": 1784376009000
+    },
     {
       "source": "Science News",
       "title": "Who owns your bones?",
@@ -67,6 +95,13 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Convergent genomic trajectories shape adaptation to life on land across animal lineages",
+      "url": "https://www.nature.com/articles/s41467-026-75551-2",
+      "summary": "",
+      "ts": 1784332800000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Learning ordinality-aware multimodal representations for composite materials design",
       "url": "https://www.nature.com/articles/s41467-026-75615-3",
       "summary": "",
@@ -74,8 +109,36 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Escape-induced temporally correlated noise driven crossover in growth kinetics and universality class",
+      "url": "https://www.nature.com/articles/s41467-026-75545-0",
+      "summary": "",
+      "ts": 1784332800000
+    },
+    {
+      "source": "Nature Communications",
       "title": "Immune correlates of risk for SARS-CoV-2 infection in children: a prospective, community-based cohort study",
       "url": "https://www.nature.com/articles/s41467-026-74684-8",
+      "summary": "",
+      "ts": 1784332800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Stable high-valent iridium single atoms for high-temperature CO<sub>2</sub> electrolysis",
+      "url": "https://www.nature.com/articles/s41467-026-75580-x",
+      "summary": "",
+      "ts": 1784332800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Human imprints on global riverfronts",
+      "url": "https://www.nature.com/articles/s41467-026-75777-0",
+      "summary": "",
+      "ts": 1784332800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Imaging of gate-controlled suppression of superconductivity via the Meissner effect",
+      "url": "https://www.nature.com/articles/s41467-026-75567-8",
       "summary": "",
       "ts": 1784332800000
     },
@@ -487,9 +550,23 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Periodic Gravitational Lensing with Oscillating Boson Stars",
+      "url": "http://link.aps.org/doi/10.1103/6w3p-8ym2",
+      "summary": "Author(s): Xing-Yu Yang (杨星宇), Tan Chen (陈坦), and Rong-Gen Cai (蔡荣根) We show that oscillating (real-scalar) boson stars generically host an oscillating radial caustic. Sources near this caustic cross it every half period…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
       "url": "http://link.aps.org/doi/10.1103/fm3n-sy3f",
       "summary": "Author(s): Tousif Islam, Tejaswi Venumadhav, and Digvijay Wadekar Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an in…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Interference and Short-Range Correlation in Fermionic Hubbard Gases",
+      "url": "http://link.aps.org/doi/10.1103/hjpy-sx8w",
+      "summary": "Author(s): Yan-Song Zhu, Hou-Ji Shao, Yu-Xuan Wang, De-Zhi Zhu, Hao-Nan Sun, Si-Yuan Chen, Chi Zhang, Xing-Can Yao, Yu-Ao Chen, and Jian-Wei Pan The interference patterns of ultracold atoms, observed after ballistic expa…",
       "ts": 1784282400000
     },
     {
@@ -504,6 +581,20 @@
       "title": "Chirality Cannot Be Ferroic in Phase Transitions Leading to Enantiomorphic Space-Group Pairs",
       "url": "http://link.aps.org/doi/10.1103/ktz2-7yd5",
       "summary": "Author(s): F. Gómez-Ortiz, S. Mamoudou Taganga, Emma E. McCabe, A. H. Romero, and E. Bousquet With growing interest in structural chirality in periodic solids, it has been suggested that chirality might constitute a new …",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Antiferromagnetism and Stripe Channel Order in the $\\mathrm{SU}(N)$-Symmetric Two-Channel Kondo Lattice Model",
+      "url": "http://link.aps.org/doi/10.1103/n715-5r2y",
+      "summary": "Author(s): Elyasaf Y. Cohen, Fakher F. Assaad, and Snir Gazit We carry out large-scale, sign-problem-free determinant quantum Monte Carlo simulations of the square lattice $\\mathrm{SU}(N)$-symmetric two-channel Kondo lat…",
+      "ts": 1784282400000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Spin-Triplet Paired Wigner Crystal Stabilized by Quantum Geometry",
+      "url": "http://link.aps.org/doi/10.1103/ksxq-1l4q",
+      "summary": "Author(s): Dmitry Zverevich, Alex Levchenko, and Ilya Esterlis We have used variational states to analyze the effects of band geometry on the two-dimensional Wigner crystal with one and two electrons per unit cell. At su…",
       "ts": 1784282400000
     },
     {
@@ -577,34 +668,6 @@
       "ts": 1784282400000
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Periodic Gravitational Lensing with Oscillating Boson Stars",
-      "url": "http://link.aps.org/doi/10.1103/6w3p-8ym2",
-      "summary": "Author(s): Xing-Yu Yang (杨星宇), Tan Chen (陈坦), and Rong-Gen Cai (蔡荣根) We show that oscillating (real-scalar) boson stars generically host an oscillating radial caustic. Sources near this caustic cross it every half period…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Interference and Short-Range Correlation in Fermionic Hubbard Gases",
-      "url": "http://link.aps.org/doi/10.1103/hjpy-sx8w",
-      "summary": "Author(s): Yan-Song Zhu, Hou-Ji Shao, Yu-Xuan Wang, De-Zhi Zhu, Hao-Nan Sun, Si-Yuan Chen, Chi Zhang, Xing-Can Yao, Yu-Ao Chen, and Jian-Wei Pan The interference patterns of ultracold atoms, observed after ballistic expa…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Antiferromagnetism and Stripe Channel Order in the $\\mathrm{SU}(N)$-Symmetric Two-Channel Kondo Lattice Model",
-      "url": "http://link.aps.org/doi/10.1103/n715-5r2y",
-      "summary": "Author(s): Elyasaf Y. Cohen, Fakher F. Assaad, and Snir Gazit We carry out large-scale, sign-problem-free determinant quantum Monte Carlo simulations of the square lattice $\\mathrm{SU}(N)$-symmetric two-channel Kondo lat…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Spin-Triplet Paired Wigner Crystal Stabilized by Quantum Geometry",
-      "url": "http://link.aps.org/doi/10.1103/ksxq-1l4q",
-      "summary": "Author(s): Dmitry Zverevich, Alex Levchenko, and Ilya Esterlis We have used variational states to analyze the effects of band geometry on the two-dimensional Wigner crystal with one and two electrons per unit cell. At su…",
-      "ts": 1784282400000
-    },
-    {
       "source": "APS PR Applied",
       "title": "Breaking on/off-coupling loss degeneracies via bidirectional nonlinear optics",
       "url": "http://link.aps.org/doi/10.1103/vb1f-x4br",
@@ -637,69 +700,6 @@
       "title": "Ancient Egyptian princesses knew their way around weapons of war",
       "url": "https://www.sciencenews.org/article/ancient-egyptian-princesses-weapons-war",
       "summary": "Analysis of six mummies from ancient Egypt challenges the idea that the bows and daggers buried with some royal women were merely ceremonial.",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generalization of Rayleigh's high-frequency theory for the 2D Helmholtz equation in a half-space subject to a radiation condition at infinity and a Dirichlet condition on a 1D periodically-uneven boundary",
-      "url": "https://arxiv.org/abs/2607.14135",
-      "summary": "arXiv:2607.14135v1 Announce Type: new Abstract: The 2D Helmholtz equation, radiation condition and Dirichlet boundary condition, are the translation, in mathematical terms, of (at least) three physical 2D problems for th…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A scarab chart for visualizing mass patterns in light-hadron multiplets",
-      "url": "https://arxiv.org/abs/2607.14139",
-      "summary": "arXiv:2607.14139v1 Announce Type: new Abstract: Particle charts are useful teaching tools, but the usual quark-model multiplet diagrams emphasize symmetry labels more than mass ordering. This paper presents a compact ``s…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automated Outlier-Robust Bayesian Profile Fitting for Magnetically Confined Plasmas with Modified Tanh Profiles and Good-and-Bad Gaussian Mixture Likelihoods",
-      "url": "https://arxiv.org/abs/2607.14142",
-      "summary": "arXiv:2607.14142v1 Announce Type: new Abstract: We present an outlier-robust Bayesian approach for automated kinetic profile fitting in magnetically confined plasmas with the modified tanh (mtanh) parametrisation and dem…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimized finite-$\\beta$ tokamak-stellarator hybrid configurations achieved by planar dipole-field coils",
-      "url": "https://arxiv.org/abs/2607.14146",
-      "summary": "arXiv:2607.14146v1 Announce Type: new Abstract: Tokamak--stellarator hybrids seek to combine tokamak-like compactness and confinement with stellarator-like externally generated rotational transform and steady-state opera…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "OCELOT: Direct Atmospheric Forecasting from Heterogeneous Earth Observations Using a Graph-Transformer Hybrid Model",
-      "url": "https://arxiv.org/abs/2607.14196",
-      "summary": "arXiv:2607.14196v1 Announce Type: new Abstract: This study presents OCELOT (Observation-Centric Estimation and Learning for Outlook Trajectories), a global machine-learning forecasting system that predicts future Earth o…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The orientation of the Amazonian geoglyphs as a clue for their interpretation",
-      "url": "https://arxiv.org/abs/2607.14201",
-      "summary": "arXiv:2607.14201v1 Announce Type: new Abstract: Amazonian earthworks, also called geoglyphs, are thousands of man-made earthen structures, mostly of geometrical shape, which progressively emerged from the tropical forest…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-resolution single-molecule mass measurement of megadalton assemblies in solution",
-      "url": "https://arxiv.org/abs/2607.14283",
-      "summary": "arXiv:2607.14283v1 Announce Type: new Abstract: Resolving heterogeneity in megadalton assemblies requires precise single-molecule mass measurements in solution. Mass photometry infers mass from individual molecular surfa…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comprehensive study of timing resolution in plastic scintillator detectors with wavelength-shifting fiber and silicon photomultiplier readout",
-      "url": "https://arxiv.org/abs/2607.14290",
-      "summary": "arXiv:2607.14290v1 Announce Type: new Abstract: We present a comprehensive study of the timing resolution achievable in plastic scintillator detectors read out through wavelength-shifting (WLS) fibers coupled to silicon …",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Orientation Dynamics of Rigid Fibers in a Microfluidic Burgers-like Vortex",
-      "url": "https://arxiv.org/abs/2607.14298",
-      "summary": "arXiv:2607.14298v1 Announce Type: new Abstract: Fiber suspensions are common in biological and environmental flows and are widely used in industrial applications. Fiber transport and orientation dynamics are affected by …",
       "ts": 1784260800000
     }
   ],
