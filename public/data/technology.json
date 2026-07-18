@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-18T17:56:41.663Z",
+  "updated": "2026-07-18T19:12:10.196Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Mauritius becomes 70th nation to sign the Artemis Accords",
+      "url": "https://spacenews.com/mauritius-becomes-70th-nation-to-sign-the-artemis-accords/",
+      "summary": "The island nation of Mauritius signed the Artemis Accords July 17, becoming the 70th nation to do so in less than six years. The post Mauritius becomes 70th nation to sign the Artemis Accords appeared first on SpaceNews.",
+      "ts": 1784397791000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Space Force triples launch contract ceiling amid rising demand",
@@ -713,14 +721,6 @@
       "summary": "Researchers developed a series of light-activated small molecule drugs that mimic the function of the light-sensing photoreceptor cells that degenerate in diseases such as age-related macular degeneration and retinitis p…",
       "ts": 1784216035000,
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Defense Innovation Unit seeks commercial path to deliver electrical power from orbit",
-      "url": "https://spacenews.com/defense-innovation-unit-seeks-commercial-path-to-deliver-electrical-power-from-orbit/",
-      "summary": "DIU solicitation aims to move long-studied technology toward military use by fiscal 2030 The post Defense Innovation Unit seeks commercial path to deliver electrical power from orbit appeared first on SpaceNews.",
-      "ts": 1784215785000,
-      "categoryId": "space"
     }
   ],
   "categories": [
