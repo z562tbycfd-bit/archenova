@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-18T02:41:09.130Z",
+  "updated": "2026-07-18T05:29:09.583Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "FCC approves first launch for space reflector constellation",
+      "url": "https://phys.org/news/2026-07-fcc-space-reflector-constellation.html",
+      "summary": "Reflect Orbital moves ahead with the company's first Eärendil launch amid concerns from the astronomical community.",
+      "ts": 1784343601000
+    },
     {
       "source": "Phys.org",
       "title": "South African genomics projects direct 10% of budgets to community-chosen benefits",
@@ -577,6 +584,13 @@
       "ts": 1784260802000
     },
     {
+      "source": "Science News",
+      "title": "Ancient Egyptian princesses knew their way around weapons of war",
+      "url": "https://www.sciencenews.org/article/ancient-egyptian-princesses-weapons-war",
+      "summary": "Analysis of six mummies from ancient Egypt challenges the idea that the bows and daggers buried with some royal women were merely ceremonial.",
+      "ts": 1784260800000
+    },
+    {
       "source": "arXiv Physics",
       "title": "Generalization of Rayleigh's high-frequency theory for the 2D Helmholtz equation in a half-space subject to a radiation condition at infinity and a Dirichlet condition on a 1D periodically-uneven boundary",
       "url": "https://arxiv.org/abs/2607.14135",
@@ -686,20 +700,6 @@
       "title": "Boosting Perovskite Light-Emitting Diodes Performance by Introducing High Work-function Metal Transition Layer",
       "url": "https://arxiv.org/abs/2607.14471",
       "summary": "arXiv:2607.14471v1 Announce Type: new Abstract: We investigated the impact of the anode's work-function on the performance of an all inorganic PeLED device which was hailed for stability and long lifetime with drift-diff…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How Alkali Metal Cations Affect the Structure and Reactivity of the Hydrated Dielectron",
-      "url": "https://arxiv.org/abs/2607.14476",
-      "summary": "arXiv:2607.14476v1 Announce Type: new Abstract: Hydrated electrons of opposite spins pair to form dielectrons at sufficiently high concentrations that can be achieved by dissolution of alkali metals in water. While exper…",
-      "ts": 1784260800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Full-data accuracy with fewer labels for training and fine-tuning machine-learning force fields",
-      "url": "https://arxiv.org/abs/2607.14486",
-      "summary": "arXiv:2607.14486v1 Announce Type: new Abstract: Machine-learning force fields (MLFFs) are reliable only near their training distribution, making efficient construction of diverse training sets a major bottleneck for both…",
       "ts": 1784260800000
     }
   ],
