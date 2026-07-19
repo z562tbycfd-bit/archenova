@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-18T23:56:26.406Z",
+  "updated": "2026-07-19T03:21:27.510Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Students create chemical safety model for everyday exposures",
+      "url": "https://phys.org/news/2026-07-students-chemical-safety-everyday-exposures.html",
+      "summary": "In just one course, Georgia Tech student Diya Godavarti helped develop a tool that could improve workers' responses to chemical spills or open containers. Godavarti, then a second-year chemical and biomolecular engineeri…",
+      "ts": 1784419201000
+    },
     {
       "source": "Phys.org",
       "title": "New environmental performance index highlights sustainability gains, and the challenges ahead",
@@ -693,13 +700,6 @@
       "title": "Periodic Gravitational Lensing with Oscillating Boson Stars",
       "url": "http://link.aps.org/doi/10.1103/6w3p-8ym2",
       "summary": "Author(s): Xing-Yu Yang (杨星宇), Tan Chen (陈坦), and Rong-Gen Cai (蔡荣根) We show that oscillating (real-scalar) boson stars generically host an oscillating radial caustic. Sources near this caustic cross it every half period…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Progenitor of the Recoiling Supermassive Black Hole RBH-1 Identified Using HST and JWST Imaging",
-      "url": "http://link.aps.org/doi/10.1103/fm3n-sy3f",
-      "summary": "Author(s): Tousif Islam, Tejaswi Venumadhav, and Digvijay Wadekar Using a combination of Hubble Space Telescope and James Webb Space Telescope imaging, a runaway supermassive black hole was recently identified with an in…",
       "ts": 1784282400000
     }
   ],
