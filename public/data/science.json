@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-19T13:21:54.307Z",
+  "updated": "2026-07-19T14:58:16.335Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop methods for breaking down forever chemicals",
+      "url": "https://phys.org/news/2026-07-methods-chemicals.html",
+      "summary": "Researchers at the Helmholtz-Zentrum Dresden-Rossendorf (HZDR) have developed two processes—hydrodynamic cavitation and cold atmospheric plasma combined with gas dispersion—to break down per- and polyfluoroalkyl substanc…",
+      "ts": 1784469606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are workplaces safer? Harassment and violence persist, survey finds",
+      "url": "https://phys.org/news/2026-07-workplaces-safer-violence-persist-survey.html",
+      "summary": "A follow-up national survey developed by Western researchers shows workplace harassment and violence continue to be widespread in Canada, with some signs of improvement. The second national survey on harassment and viole…",
+      "ts": 1784469601000
+    },
     {
       "source": "Phys.org",
       "title": "Hybrid work blurs the line between work and home—here's how couples can set boundaries",
@@ -687,20 +701,6 @@
       "url": "https://phys.org/news/2026-07-metoo-marketplace-social-reform-impact.html",
       "summary": "Consumers have been quick to reject problematic sexual content since the #MeToo movement began in 2018, and new research from the University of Arizona concludes that sentiment has affected their wallets. When small chan…",
       "ts": 1784290803000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Tennessee canola acres increased in 2026",
-      "url": "https://phys.org/news/2026-07-tennessee-canola-acres.html",
-      "summary": "With high input costs and volatile crop markets affecting profitability, many Tennessee row crop producers are looking to diversify their farming operations in coming years. Canola, a cool-season crop, could serve as an …",
-      "ts": 1784289601000
-    },
-    {
-      "source": "Science News",
-      "title": "Math puzzle: A sequence of odd events",
-      "url": "https://www.sciencenews.org/article/math-puzzle-2026-august-odd-family",
-      "summary": "Solve the math puzzle from our August 2026 issue, in which a family investigates an odd happening.",
-      "ts": 1784289600000
     }
   ],
   "sources": [
