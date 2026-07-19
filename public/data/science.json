@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-19T14:58:16.335Z",
+  "updated": "2026-07-19T16:02:55.660Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A century-old stellar mystery may finally have an explanation",
+      "url": "https://phys.org/news/2026-07-century-stellar-mystery-explanation.html",
+      "summary": "For more than a century, astronomers have puzzled over a strange discrepancy in the historical record. Theta Eridani, a modest star in the constellation Eridanus, is the third-brightest star in its constellation, with a …",
+      "ts": 1784476801000
+    },
     {
       "source": "Phys.org",
       "title": "Researchers develop methods for breaking down forever chemicals",
@@ -694,13 +701,6 @@
       "url": "https://phys.org/news/2026-07-neil-behavior-marine-biologist.html",
       "summary": "Neil the Seal became a social media sensation almost overnight. Neil is a 5-year-old male southern elephant seal who weighs roughly 1 metric ton (1.1 tons). He was born on the Tasman Peninsula in October 2020 and has mad…",
       "ts": 1784292003000
-    },
-    {
-      "source": "Phys.org",
-      "title": "#MeToo and the marketplace: Can social reform impact consumer spending?",
-      "url": "https://phys.org/news/2026-07-metoo-marketplace-social-reform-impact.html",
-      "summary": "Consumers have been quick to reject problematic sexual content since the #MeToo movement began in 2018, and new research from the University of Arizona concludes that sentiment has affected their wallets. When small chan…",
-      "ts": 1784290803000
     }
   ],
   "sources": [
