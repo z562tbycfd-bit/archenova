@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-19T11:09:57.358Z",
+  "updated": "2026-07-19T13:21:58.587Z",
   "items": [
     {
       "source": "STAT",
@@ -41,6 +41,14 @@
       "summary": "A study in mice and in human cells found that blocking a single receptor on tissue-resident macrophages promoted clearance of accumulating senescent neutrophils, preserved the youthfulness of multiple organs in mice, and…",
       "ts": 1784390866000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "A former Ferrari boss has a blunt message: Your commute is more dangerous than his old job",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167974",
+      "summary": "Jean Todt spent decades around the deadliest motorsport on Earth. He was a rally co‑driver, then ran Ferrari’s Formula One team, then became president of world motorsport’s governing body. In his early years, a driver dy…",
+      "ts": 1784376000000,
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -713,14 +721,6 @@
       "summary": "The government of Uganda has gone quiet on an outbreak of the deadly Marburg virus that it reported late last month, the WHO acknowledged.",
       "ts": 1784218927000,
       "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Why teens deserve access to safe AI",
-      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-      "ts": 1784217600000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

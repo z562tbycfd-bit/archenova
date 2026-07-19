@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-19T11:09:54.705Z",
+  "updated": "2026-07-19T13:21:54.307Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hybrid work blurs the line between work and home—here's how couples can set boundaries",
+      "url": "https://phys.org/news/2026-07-hybrid-blurs-line-home-couples.html",
+      "summary": "Hybrid work has brought many real benefits. Greater flexibility can make it easier to manage work alongside family responsibilities, personal commitments and other demands. But it has also created new challenges, particu…",
+      "ts": 1784464201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plants that make real dairy protein? Scientists discover an unexpected shortcut",
+      "url": "https://phys.org/news/2026-07-real-dairy-protein-scientists-unexpected.html",
+      "summary": "What if the plants growing in a field could one day produce the same proteins that give milk its nutrition, texture and cheese-making properties? A new study brings that possibility a step closer by revealing an unexpect…",
+      "ts": 1784462401000
+    },
     {
       "source": "Phys.org",
       "title": "Observations investigate the nature of a peculiar supernova",
@@ -687,20 +701,6 @@
       "url": "https://www.sciencenews.org/article/math-puzzle-2026-august-odd-family",
       "summary": "Solve the math puzzle from our August 2026 issue, in which a family investigates an odd happening.",
       "ts": 1784289600000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Federal ginseng rules poorly predict plant health",
-      "url": "https://phys.org/news/2026-07-federal-ginseng-poorly-health.html",
-      "summary": "A YSE-led study published in Environmental Research Letters found that current federal rules regulating American ginseng harvest—based on plant age and leaf count—poorly predict the biological traits that matter most for…",
-      "ts": 1784288405000
-    },
-    {
-      "source": "Phys.org",
-      "title": "In the battle of the sexes, the pay gap persists",
-      "url": "https://phys.org/news/2026-07-sexes-pay-gap-persists.html",
-      "summary": "Conceived by famed sociologist Paula England in the mid-1990s, occupational devaluation theory helps explain why workers in occupations with more women get paid less than workers in occupations with more men.",
-      "ts": 1784287203000
     }
   ],
   "sources": [
