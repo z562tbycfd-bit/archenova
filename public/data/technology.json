@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-19T17:59:01.219Z",
+  "updated": "2026-07-19T19:19:08.433Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Lilly’s Up-to-$3.8B Deal for AtaiBeckley a Good Trip for Psychedelic Drugs, Analysts and Investors Agree",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-lillys-up-to-3-8b-deal-for-ataibeckley-a-good-trip-for-psychedelic-drugs-analysts-and-investors-agree/",
+      "summary": "Eli Lilly agreed to acquire AtaiBeckley for up to $3.8 billion—of which Lilly will pay $2.8 billion upfront. The deal, set to close in the third quarter, expands Lilly’s neuroscience portfolio by adding AtaiBeckley's pip…",
+      "ts": 1784485902000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Haiti: Signs of hope despite gang violence and political uncertainty",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167963",
+      "summary": "For millions of Haitians, daily life has become a struggle to stay safe, find enough food and simply move around their own neighbourhood.",
+      "ts": 1784462400000,
+      "categoryId": "global-governance"
+    },
     {
       "source": "STAT",
       "title": "Opinion: Beware the unintended consequences of testosterone screening for military servicemembers",
@@ -704,22 +720,6 @@
       "url": "https://www.statnews.com/2026/07/16/unitedhealth-employer-insurance-costs-medical-spending/?utm_campaign=rss",
       "summary": "Insurance giant UnitedHealth signals the cost of providing workers with health insurance will climb even higher.",
       "ts": 1784223241000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Pete Hegseth’s announcement of annual testosterone screenings for service members divides medical experts",
-      "url": "https://www.statnews.com/2026/07/16/hegseth-testosterone-testing-proposal-reactions-range-promising-crazy/?utm_campaign=rss",
-      "summary": "Medical experts are divided on Defense Secretary Pete Hegseth’s announcement that U.S. service members will undergo annual testosterone screenings.",
-      "ts": 1784222431000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "WHO: Uganda is silent on updates following disclosure of Marburg outbreak",
-      "url": "https://www.statnews.com/2026/07/16/world-health-organization-wants-marburg-virus-update-from-uganda/?utm_campaign=rss",
-      "summary": "The government of Uganda has gone quiet on an outbreak of the deadly Marburg virus that it reported late last month, the WHO acknowledged.",
-      "ts": 1784218927000,
       "categoryId": "bio"
     }
   ],

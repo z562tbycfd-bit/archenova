@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-19T17:58:58.611Z",
+  "updated": "2026-07-19T19:19:00.115Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Cinematic VR immerses viewers inside the narrative, research shows",
+      "url": "https://phys.org/news/2026-07-cinematic-vr-immerses-viewers-narrative.html",
+      "summary": "Virtual reality and the metaverse are being discussed more and more, but for many people, these concepts still seem foreign, technical and difficult to grasp. At the same time, there is increasing experimentation with st…",
+      "ts": 1784487603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Samples reveal how Earth slows solar wind striking moon's near side",
+      "url": "https://phys.org/news/2026-07-samples-reveal-earth-solar-moon.html",
+      "summary": "The moon has been bathed in solar wind for billions of years, but the two hemispheres are struck by solar wind of different speeds and energies.",
+      "ts": 1784487602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum entanglement without transport: Leaky qubits offer route around noisy channels",
+      "url": "https://phys.org/news/2026-07-quantum-entanglement-leaky-qubits-route.html",
+      "summary": "The inevitable leakage of energy and information from a quantum system into its surrounding environment is the enemy of quantum technology. Now, researchers have demonstrated that it can be exploited to generate entangle…",
+      "ts": 1784485201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AirPods-sized fluorescence analytical device holds promise for timely home molecular testing",
+      "url": "https://phys.org/news/2026-07-airpods-sized-fluorescence-analytical-device.html",
+      "summary": "Advances in medical technology have improved health in part by bringing key aspects of care, once difficult to access, into the home. Tracking symptoms and even screening for certain types of illness outside of a laborat…",
+      "ts": 1784484003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When work and family collide, job flexibility helps shape who adjusts",
+      "url": "https://phys.org/news/2026-07-family-collide-job-flexibility-adjusts.html",
+      "summary": "When schools closed and child care disappeared during the COVID-19 pandemic, millions of working parents faced the same difficult question: Whose job would have to change?",
+      "ts": 1784484002000
+    },
     {
       "source": "Phys.org",
       "title": "Carnaby's cockatoos exposed to dangerous pesticide concentrations in WA's Wheatbelt",
@@ -666,41 +701,6 @@
       "url": "https://phys.org/news/2026-07-exchange-linked-distinct-marine-communities.html",
       "summary": "Research carried out three years after installation at the Hollandse Kust Zuid offshore wind farm in the North Sea has found that distinct marine communities have developed inside offshore wind turbine foundations equipp…",
       "ts": 1784294882000
-    },
-    {
-      "source": "Phys.org",
-      "title": "A scheme to verify gates of a quantum computer without examining devices",
-      "url": "https://phys.org/news/2026-07-scheme-gates-quantum-devices.html",
-      "summary": "Quantum computers, systems that process information using the principles of quantum mechanics, could solve some problems that cannot be tackled by the classical computers currently used worldwide. Despite their potential…",
-      "ts": 1784294411000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Hazardous Canadian wildfire smoke choking millions in US",
-      "url": "https://phys.org/news/2026-07-hazardous-canadian-wildfire-millions.html",
-      "summary": "The Manhattan skyline was obscured by thick haze, and Chicago closed its beaches Thursday as out-of-control Canadian wildfires raged, sending smoke spewing into the United States and exposing millions of people to danger…",
-      "ts": 1784294406000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Aboriginal people harvested this native grass for millennia: Scientists find an odd trait in its DNA",
-      "url": "https://phys.org/news/2026-07-aboriginal-people-harvested-native-grass.html",
-      "summary": "Seen from the air, Channel Country resembles a vibrant, vast tapestry, with a network of waterways crisscrossing the land. Spread across more than 280,000 square kilometers (108,000 square miles) in outback Australia, it…",
-      "ts": 1784294401000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Australia's most diverse marsupial predators have been hiding their origins for millions of years",
-      "url": "https://phys.org/news/2026-07-australia-diverse-marsupial-predators-millions.html",
-      "summary": "When you think of carnivorous marsupials, you probably picture the Tasmanian devil or perhaps a spotted-tailed quoll. But these famous predators are only the largest members of a remarkable family of marsupials called da…",
-      "ts": 1784293211000
-    },
-    {
-      "source": "Phys.org",
-      "title": "India's private space industry shoots for the stars",
-      "url": "https://phys.org/news/2026-07-india-private-space-industry-stars.html",
-      "summary": "Private companies are reshaping India's space ambitions, building rockets and satellites as the country pushes to capture a bigger share of the global space economy.",
-      "ts": 1784293207000
     }
   ],
   "sources": [
