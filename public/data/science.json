@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-19T09:05:48.949Z",
+  "updated": "2026-07-19T11:09:54.705Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Observations investigate the nature of a peculiar supernova",
+      "url": "https://phys.org/news/2026-07-nature-peculiar-supernova.html",
+      "summary": "An international team of astronomers has performed follow-up observations of a peculiar Type Ia supernova designated SN 2023vjh. Results of the observational campaign, published July 9 on the preprint server arXiv, deliv…",
+      "ts": 1784458801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "State anti-DEI laws alter the graduate student experience, study finds",
+      "url": "https://phys.org/news/2026-07-state-anti-dei-laws-student.html",
+      "summary": "A new study by University of Delaware professor Jarett Haley and others explored how racially minoritized graduate students understood the impacts of proposed or enacted state anti–diversity, equity and inclusion (anti-D…",
+      "ts": 1784457001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Energy price shocks slow state economies; spur energy efficiency investments",
+      "url": "https://phys.org/news/2026-07-energy-price-state-economies-spur.html",
+      "summary": "Rising energy prices in the U.S. reduce states' economic output, but they also prompt investments in more efficient equipment and technologies that partially offset those output losses over time, according to a new study…",
+      "ts": 1784454004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Image: The growing crescent of Mars as NASA's psyche mission approaches",
+      "url": "https://phys.org/news/2026-07-image-crescent-mars-nasa-psyche.html",
+      "summary": "This composite of images taken by NASA's Psyche mission shows the crescent of Mars grow as the spacecraft approached the planet for a gravity assist from May 2 to May 15, 2026.",
+      "ts": 1784454001000
+    },
     {
       "source": "Phys.org",
       "title": "Wildfire haze hangs over eastern US—and World Cup final",
@@ -673,34 +701,6 @@
       "url": "https://phys.org/news/2026-07-sexes-pay-gap-persists.html",
       "summary": "Conceived by famed sociologist Paula England in the mid-1990s, occupational devaluation theory helps explain why workers in occupations with more women get paid less than workers in occupations with more men.",
       "ts": 1784287203000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Research finds that dropping SAT and ACT requirements may improve access, but may also hinder college admissions",
-      "url": "https://phys.org/news/2026-07-sat-requirements-access-hinder-college.html",
-      "summary": "Dropping standardized testing requirements may make college admission more accessible for some, but it can also make it harder for universities to identify high-potential students, according to new research published in …",
-      "ts": 1784286003000
-    },
-    {
-      "source": "Phys.org",
-      "title": "At least 12,000 excess deaths in Europe's June heat wave",
-      "url": "https://phys.org/news/2026-07-excess-deaths-europe-june.html",
-      "summary": "At least 12,000 excess deaths were recorded across nine European countries during June's heat wave, national statistics indicated, a toll that could yet rise as more data are released, according to an AFP analysis.",
-      "ts": 1784284180000
-    },
-    {
-      "source": "Phys.org",
-      "title": "With climate ambitions in question, EU reforms carbon market",
-      "url": "https://phys.org/news/2026-07-climate-ambitions-eu-reforms-carbon.html",
-      "summary": "The European Union on Friday unveils reforms to its carbon market after fierce wrangling among countries, industry and activists over the pace of the bloc's climate push.",
-      "ts": 1784282403000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
-      "url": "http://link.aps.org/doi/10.1103/xxxk-y6yp",
-      "summary": "Author(s): Takashi Hara and Tatsuhiko Koike For a class of translation-invariant free-fermion systems including those with uniform nearest-neighbor hopping) on a $d$-dimensional $L×⋯×L$ hypercubic lattice, we prove that,…",
-      "ts": 1784282400000
     }
   ],
   "sources": [
