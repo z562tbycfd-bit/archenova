@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-19T06:31:50.152Z",
+  "updated": "2026-07-19T09:05:48.949Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Wildfire haze hangs over eastern US—and World Cup final",
+      "url": "https://phys.org/news/2026-07-wildfire-haze-eastern-world-cup.html",
+      "summary": "Heavy, acrid wildfire smoke blanketed much of the eastern United States on Saturday, marring preparations for the weekend's highly anticipated World Cup final to be held in an open stadium in New Jersey.",
+      "ts": 1784450376000
+    },
     {
       "source": "Phys.org",
       "title": "Students create chemical safety model for everyday exposures",
@@ -693,13 +700,6 @@
       "title": "Timescale for Macroscopic Equilibration in Isolated Quantum Systems: A Rigorous Derivation for Free Fermions",
       "url": "http://link.aps.org/doi/10.1103/xxxk-y6yp",
       "summary": "Author(s): Takashi Hara and Tatsuhiko Koike For a class of translation-invariant free-fermion systems including those with uniform nearest-neighbor hopping) on a $d$-dimensional $L×⋯×L$ hypercubic lattice, we prove that,…",
-      "ts": 1784282400000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Periodic Gravitational Lensing with Oscillating Boson Stars",
-      "url": "http://link.aps.org/doi/10.1103/6w3p-8ym2",
-      "summary": "Author(s): Xing-Yu Yang (杨星宇), Tan Chen (陈坦), and Rong-Gen Cai (蔡荣根) We show that oscillating (real-scalar) boson stars generically host an oscillating radial caustic. Sources near this caustic cross it every half period…",
       "ts": 1784282400000
     }
   ],
