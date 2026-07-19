@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-19T16:02:55.660Z",
+  "updated": "2026-07-19T17:58:58.611Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Carnaby's cockatoos exposed to dangerous pesticide concentrations in WA's Wheatbelt",
+      "url": "https://phys.org/news/2026-07-carnaby-cockatoos-exposed-dangerous-pesticide.html",
+      "summary": "A new Murdoch University study has uncovered alarming levels of pesticide contamination in the food sources of endangered Carnaby's cockatoos in the Wheatbelt—including concentrations well above regulatory limits found i…",
+      "ts": 1784478601000
+    },
     {
       "source": "Phys.org",
       "title": "A century-old stellar mystery may finally have an explanation",
@@ -694,13 +701,6 @@
       "url": "https://phys.org/news/2026-07-india-private-space-industry-stars.html",
       "summary": "Private companies are reshaping India's space ambitions, building rockets and satellites as the country pushes to capture a bigger share of the global space economy.",
       "ts": 1784293207000
-    },
-    {
-      "source": "Phys.org",
-      "title": "What 'Neil the Seal' can teach us about seal behavior: Marine biologist explains",
-      "url": "https://phys.org/news/2026-07-neil-behavior-marine-biologist.html",
-      "summary": "Neil the Seal became a social media sensation almost overnight. Neil is a 5-year-old male southern elephant seal who weighs roughly 1 metric ton (1.1 tons). He was born on the Tasman Peninsula in October 2020 and has mad…",
-      "ts": 1784292003000
     }
   ],
   "sources": [
