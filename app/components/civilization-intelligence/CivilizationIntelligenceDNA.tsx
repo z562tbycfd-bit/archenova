@@ -45,6 +45,55 @@ type SearchEntry = {
   description: string;
   keywords: readonly string[];
   organId: OrganId;
+  detail?: IntelligenceDetail;
+};
+
+type IntelligenceDetailKind =
+  | "SEARCH"
+  | "ORGAN"
+  | "SIGNAL";
+
+type IntelligenceDetailSection = {
+  title: string;
+  content?: string;
+  items?: readonly string[];
+};
+
+type IntelligenceDetail = {
+  id: string;
+  kind: IntelligenceDetailKind;
+
+  eyebrow: string;
+  title: string;
+  category: string;
+
+  summary: string;
+  description?: string;
+
+  status?: string;
+  level?: SignalLevel;
+
+  source?: string;
+  sourceUrl?: string | null;
+
+  publishedAt?: string;
+  updatedAt?: string;
+
+  confidence?: number;
+  organId?: OrganId;
+
+  sections: readonly IntelligenceDetailSection[];
+};
+
+type RecentSignalView = DashboardSignal & {
+  id: string;
+  category: string;
+  title: string;
+  summary: string;
+  source: string;
+  sourceUrl: string | null;
+  state: string;
+  level: SignalLevel;
 };
 
 type SignalLevel =
@@ -350,6 +399,161 @@ function formatSynchronizationTime(
   }).format(date);
 }
 
+function formatIntelligenceDate(
+  value?: string,
+): string | null {
+  if (!value) return null;
+
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return null;
+  }
+
+  return new Intl.DateTimeFormat("en-GB", {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(date);
+}
+
+function createSearchDetail(
+  entry: SearchEntry,
+): IntelligenceDetail {
+  const organContent =
+    ORGAN_CONTENT[entry.organId];
+
+  return {
+    id: `search-${entry.id}`,
+    kind: "SEARCH",
+
+    eyebrow: "CIVILIZATION SEARCH",
+    title: entry.title,
+    category: entry.category,
+
+    summary: entry.description,
+
+    organId: entry.organId,
+
+    sections: [
+      {
+        title: "Intelligence Pathway",
+        content:
+          "This subject is connected to the ArcheNova civilization intelligence architecture.",
+      },
+      {
+        title: "Related Organ",
+        content: organContent.title,
+      },
+      {
+        title: "Civilizational Function",
+        content: organContent.description,
+      },
+      {
+        title: "Core Functions",
+        items: organContent.functions,
+      },
+    ],
+  };
+}
+
+function createOrganDetail(
+  organId: OrganId,
+  status: string,
+  progress: number,
+): IntelligenceDetail {
+  const content = ORGAN_CONTENT[organId];
+
+  return {
+    id: `organ-${organId}`,
+    kind: "ORGAN",
+
+    eyebrow: `${content.phase} · COGNITIVE ORGAN`,
+    title: content.title,
+    category: "Episteme Cognitive Architecture",
+
+    summary: content.statement,
+    description: content.description,
+
+    status,
+    confidence: progress,
+    organId,
+
+    sections: [
+      {
+        title: "Role in the Intelligence Cycle",
+        content: content.description,
+      },
+      {
+        title: "Core Functions",
+        items: content.functions,
+      },
+      {
+        title: "Current State",
+        content:
+          `${status} · ${formatPercentage(progress)}`,
+      },
+      {
+        title: "System Position",
+        content:
+          `This organ operates as the ${content.phase.toLowerCase()} layer of the ArcheNova intelligence cycle.`,
+      },
+    ],
+  };
+}
+
+function createSignalDetail(
+  signal: RecentSignalView,
+): IntelligenceDetail {
+  return {
+    id: `signal-${signal.id}`,
+    kind: "SIGNAL",
+
+    eyebrow: "LIVE INTELLIGENCE OBJECT",
+    title: signal.title,
+    category: signal.category,
+
+    summary: signal.summary,
+
+    status: signal.state,
+    level: signal.level,
+
+    source: signal.source,
+    sourceUrl: signal.sourceUrl,
+
+    publishedAt: signal.publishedAt,
+    updatedAt: signal.updatedAt,
+
+    sections: [
+      {
+        title: "Executive Summary",
+        content: signal.summary,
+      },
+      {
+        title: "Why It Matters",
+        content:
+          "This signal may influence scientific capability, technological systems, institutional decisions, or the long-term architecture of civilization.",
+      },
+      {
+        title: "Civilizational Implications",
+        items: [
+          "Potential effects across scientific and technological systems",
+          "Possible institutional or governance consequences",
+          "Long-term relevance to civilization design",
+        ],
+      },
+      {
+        title: "Uncertainty",
+        content:
+          "This intelligence object represents an observed signal. Its implications may change as additional evidence becomes available.",
+      },
+    ],
+  };
+}
+
 function bool(value: boolean): "true" | "false" {
   return value ? "true" : "false";
 }
@@ -432,9 +636,15 @@ function ArcheNovaSymbol() {
 function CivilizationSearch({
   activePacketTitle,
   activePacketSummary,
+  additionalEntries,
+  onOpenDetail,
 }: {
   activePacketTitle?: string;
   activePacketSummary?: string;
+  additionalEntries?: readonly SearchEntry[];
+  onOpenDetail: (
+    detail: IntelligenceDetail,
+  ) => void;
 }) {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
@@ -461,12 +671,20 @@ function CivilizationSearch({
           }
         : null;
 
-    const index = activeEntry
-      ? [activeEntry, ...SEARCH_INDEX]
-      : [...SEARCH_INDEX];
+    const index = [
+  ...(activeEntry ? [activeEntry] : []),
+  ...(additionalEntries ?? []),
+  ...SEARCH_INDEX,
+].filter(
+  (entry, index, entries) =>
+    entries.findIndex(
+      (candidate) =>
+        candidate.id === entry.id,
+    ) === index,
+);
 
     if (!normalizedQuery) {
-  return index.slice(0, 2);
+  return index.slice(0, 6);
 }
 
     return index
@@ -490,19 +708,24 @@ function CivilizationSearch({
   })
   .filter(({ score }) => score > 0)
   .sort((a, b) => b.score - a.score)
-  .slice(0, 2)
+  .slice(0, 8)
   .map(({ entry }) => entry);
   }, [
-    activePacketSummary,
-    activePacketTitle,
-    normalizedQuery,
-  ]);
+  activePacketSummary,
+  activePacketTitle,
+  additionalEntries,
+  normalizedQuery,
+]);
 
   function select(entry: SearchEntry) {
-    setQuery(entry.title);
-    setOpen(false);
-    scrollToOrgan(entry.organId);
-  }
+  setQuery(entry.title);
+  setOpen(false);
+
+  onOpenDetail(
+    entry.detail ??
+    createSearchDetail(entry),
+  );
+}
 
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -574,16 +797,289 @@ function CivilizationSearch({
   );
 }
 
+function IntelligenceDetailPanel({
+  detail,
+  onClose,
+}: {
+  detail: IntelligenceDetail | null;
+  onClose: () => void;
+}) {
+  useEffect(() => {
+    if (!detail) return;
+
+    function handleKeyDown(
+      event: KeyboardEvent,
+    ) {
+      if (event.key === "Escape") {
+        onClose();
+      }
+    }
+
+    const previousOverflow =
+      document.body.style.overflow;
+
+    document.body.style.overflow = "hidden";
+
+    window.addEventListener(
+      "keydown",
+      handleKeyDown,
+    );
+
+    return () => {
+      document.body.style.overflow =
+        previousOverflow;
+
+      window.removeEventListener(
+        "keydown",
+        handleKeyDown,
+      );
+    };
+  }, [detail, onClose]);
+
+  if (!detail) {
+    return null;
+  }
+
+  const publishedDate =
+    formatIntelligenceDate(
+      detail.publishedAt,
+    );
+
+  const updatedDate =
+    formatIntelligenceDate(
+      detail.updatedAt,
+    );
+
+  return (
+    <div
+      className="ci-detail-layer is-open"
+      role="presentation"
+    >
+      <button
+        type="button"
+        className="ci-detail-backdrop"
+        onClick={onClose}
+        aria-label="Close intelligence detail"
+      />
+
+      <aside
+        className="ci-detail-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="ci-detail-title"
+      >
+        <header className="ci-detail-header">
+          <div>
+            <span>{detail.eyebrow}</span>
+
+            <small>{detail.kind}</small>
+          </div>
+
+          <button
+            type="button"
+            className="ci-detail-close"
+            onClick={onClose}
+            aria-label="Close intelligence detail"
+          >
+            <span aria-hidden="true">×</span>
+          </button>
+        </header>
+
+        <div className="ci-detail-scroll">
+          <section className="ci-detail-hero">
+            <span>{detail.category}</span>
+
+            <h2 id="ci-detail-title">
+              {detail.title}
+            </h2>
+
+            <p>{detail.summary}</p>
+          </section>
+
+          {(detail.status ||
+            detail.level ||
+            typeof detail.confidence ===
+              "number") && (
+            <dl className="ci-detail-metrics">
+              {detail.status && (
+                <div>
+                  <dt>Status</dt>
+                  <dd>{detail.status}</dd>
+                </div>
+              )}
+
+              {detail.level && (
+                <div>
+                  <dt>Signal Level</dt>
+                  <dd>{detail.level}</dd>
+                </div>
+              )}
+
+              {typeof detail.confidence ===
+                "number" && (
+                <div>
+                  <dt>Progress</dt>
+                  <dd>
+                    {formatPercentage(
+                      detail.confidence,
+                    )}
+                  </dd>
+                </div>
+              )}
+            </dl>
+          )}
+
+          {(publishedDate ||
+            updatedDate ||
+            detail.source) && (
+            <section className="ci-detail-provenance">
+              <span>PROVENANCE</span>
+
+              <dl>
+                {detail.source && (
+                  <div>
+                    <dt>Source</dt>
+
+                    <dd>
+                      {detail.sourceUrl ? (
+                        <a
+                          href={detail.sourceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {detail.source}
+                        </a>
+                      ) : (
+                        detail.source
+                      )}
+                    </dd>
+                  </div>
+                )}
+
+                {publishedDate && (
+                  <div>
+                    <dt>Published</dt>
+                    <dd>{publishedDate}</dd>
+                  </div>
+                )}
+
+                {updatedDate && (
+                  <div>
+                    <dt>Updated</dt>
+                    <dd>{updatedDate}</dd>
+                  </div>
+                )}
+              </dl>
+            </section>
+          )}
+
+          <div className="ci-detail-sections">
+            {detail.sections.map(
+              (section) => (
+                <section
+                  key={section.title}
+                  className="ci-detail-section"
+                >
+                  <span>{section.title}</span>
+
+                  {section.content && (
+                    <p>{section.content}</p>
+                  )}
+
+                  {section.items && (
+                    <ul>
+                      {section.items.map(
+                        (item) => (
+                          <li key={item}>
+                            {item}
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  )}
+                </section>
+              ),
+            )}
+          </div>
+
+          {detail.organId && (
+            <button
+              type="button"
+              className="ci-detail-organ-link"
+              onClick={() => {
+                onClose();
+
+                window.setTimeout(() => {
+                  scrollToOrgan(
+                    detail.organId as OrganId,
+                  );
+                }, 220);
+              }}
+            >
+              <span>
+                Locate Cognitive Organ
+              </span>
+
+              <ArrowIcon />
+            </button>
+          )}
+
+          {detail.sourceUrl && (
+            <a
+              className="ci-detail-source-link"
+              href={detail.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Open Primary Source</span>
+
+              <ArrowIcon />
+            </a>
+          )}
+        </div>
+      </aside>
+    </div>
+  );
+}
+
+function ArrowIcon() {
+  return (
+    <svg
+      viewBox="0 0 20 20"
+      fill="none"
+      aria-hidden="true"
+    >
+      <path
+        d="m7 4 6 6-6 6"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 function CivilizationOrgan({
   organId,
+  onOpenDetail,
 }: {
   organId: OrganId;
+  onOpenDetail: (
+    detail: IntelligenceDetail,
+  ) => void;
 }) {
   const bridge = useEpistemeKernelBridge();
   const binding = bridge.organs[organId];
   const runtimeOrgan = bridge.runtime.organs[organId];
   const content = ORGAN_CONTENT[organId];
   const progress = normalizePercentage(runtimeOrgan.progress);
+ const status =
+  binding.isActive
+    ? "LIVE"
+    : binding.isCompleted
+      ? "PROCESSED"
+      : "READY"; 
 
   const className = [
     "ci-organ",
@@ -636,13 +1132,7 @@ function CivilizationOrgan({
 
   <div className="ci-organ-status">
     
-    <strong>
-      {binding.isActive
-        ? "LIVE"
-        : binding.isCompleted
-          ? "PROCESSED"
-          : "READY"}
-    </strong>
+    <strong>{status}</strong>
 
     <span>
       {formatPercentage(progress)}
@@ -652,7 +1142,25 @@ function CivilizationOrgan({
   
   </div>
 
-
+<div className="ci-organ-action">
+  <button
+    type="button"
+    className="ci-organ-open"
+    onClick={() =>
+      onOpenDetail(
+        createOrganDetail(
+          organId,
+          status,
+          progress,
+        ),
+      )
+    }
+    aria-label={`Inspect ${content.title}`}
+  >
+    Inspect
+    <ArrowIcon />
+  </button>
+</div>
 
 </div>
     </article>
@@ -669,6 +1177,17 @@ export default function CivilizationIntelligenceDNA({
 
 const [lastSynchronizedAt, setLastSynchronizedAt] =
   useState<Date | null>(null);
+
+  const [
+  selectedDetail,
+  setSelectedDetail,
+] = useState<IntelligenceDetail | null>(
+  null,
+);
+
+function closeDetail() {
+  setSelectedDetail(null);
+}
 
 useEffect(() => {
  let mounted = true;
@@ -900,6 +1419,41 @@ useEffect(() => {
     }));
 }, [dashboard]);
 
+const signalSearchEntries =
+  useMemo<SearchEntry[]>(
+    () =>
+      recentSignals.map(
+        (signal) => ({
+          id: `live-${signal.id}`,
+
+          title: signal.title,
+
+          category:
+            `${signal.category} · LIVE SIGNAL`,
+
+          description: signal.summary,
+
+          keywords: [
+            signal.title,
+            signal.category,
+            signal.source,
+            signal.level,
+          ],
+
+          organId:
+            signal.category === "SCIENCE"
+              ? "understanding"
+              : signal.category === "ENGINEERING"
+                ? "reasoning"
+                : "realization",
+
+          detail:
+            createSignalDetail(signal),
+        }),
+      ),
+    [recentSignals],
+  );
+
   return (
     <main
   className={rootClassName}
@@ -946,19 +1500,48 @@ useEffect(() => {
           </header>
 
           <CivilizationSearch
-            activePacketTitle={activePacket?.title}
-            activePacketSummary={activePacket?.summary}
-          />
+ activePacketTitle={activePacket?.title}
+ activePacketSummary={activePacket?.summary}
+ additionalEntries={signalSearchEntries}
+ onOpenDetail={setSelectedDetail}
+/>
 
-          <section className="ci-runtime-strip">
-            <div>
-              <small>Runtime Status</small>
-              <strong className={isOperating ? "online" : ""}>
-                <i />
-                {runtimeLabel}
-              </strong>
+<section className="ci-runtime-strip">
+ <div>
+   <small>Runtime Status</small>
 
- <div
+   <strong className={isOperating ? "online" : ""}>
+     <i />
+     {runtimeLabel}
+   </strong>
+ </div>
+
+ <div>
+   <small>Cycle</small>
+
+   <strong>
+     {String(runtime.cycle.number).padStart(2, "0")}
+   </strong>
+ </div>
+
+ <div>
+   <small>Cycle Progress</small>
+
+   <strong>
+     {formatPercentage(runtime.cycle.progress)}
+   </strong>
+ </div>
+
+ <div>
+   <small>Active Organ</small>
+
+   <strong>
+     {bridge.activeOrgan.title}
+   </strong>
+ </div>
+</section>
+
+<div
   className="ci-runtime-caption"
   aria-live="polite"
 >
@@ -967,40 +1550,16 @@ useEffect(() => {
   </span>
 
   <time
-    dateTime={
-      lastSynchronizedAt?.toISOString()
-    }
+    dateTime={lastSynchronizedAt?.toISOString()}
   >
     Last synchronized{" "}
-    {formatSynchronizationTime(
-      lastSynchronizedAt,
-    )}
+    {formatSynchronizationTime(lastSynchronizedAt)}
   </time>
 </div>
-
-            </div>
-
-            <div>
-              <small>Cycle</small>
-              <strong>
-                {String(runtime.cycle.number).padStart(2, "0")}
-              </strong>
-            </div>
-
-            <div>
-              <small>Cycle Progress</small>
-              <strong>
-                {formatPercentage(runtime.cycle.progress)}
-                </strong>
-                </div>
-                
-                <div>
-                  <small>Active Organ</small>
-                  <strong>{bridge.activeOrgan.title}</strong>
-                  </div>
-          </section>
-        </div>
-      </section>
+ 
+ </div>
+ 
+ </section>
 
       <section className="ci-organs">
         <div className="ci-shell">
@@ -1016,9 +1575,10 @@ useEffect(() => {
           <div className="ci-organ-list">
             {EPISTEME_ORGAN_ORDER.map((organId) => (
               <CivilizationOrgan
-                key={organId}
-                organId={organId}
-              />
+  key={organId}
+  organId={organId}
+  onOpenDetail={setSelectedDetail}
+/>
             ))}
           </div>
         </div>
@@ -1035,7 +1595,30 @@ useEffect(() => {
 
           <div className="ci-recent-grid">
             {recentSignals.map((signal) => (
-              <article key={signal.id} className="ci-signal-card">
+              <article
+  key={signal.id}
+  className="ci-signal-card"
+  tabIndex={0}
+  role="button"
+  aria-label={`Examine ${signal.title}`}
+  onClick={() =>
+    setSelectedDetail(
+      createSignalDetail(signal),
+    )
+  }
+  onKeyDown={(event) => {
+    if (
+      event.key === "Enter" ||
+      event.key === " "
+    ) {
+      event.preventDefault();
+
+      setSelectedDetail(
+        createSignalDetail(signal),
+      );
+    }
+  }}
+>
                 <div>
                   
                   <div className="ci-signal-meta">
@@ -1060,13 +1643,16 @@ useEffect(() => {
                 <footer>
   {signal.sourceUrl ? (
     <a
-      href={signal.sourceUrl}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label={`Open source: ${signal.source}`}
-    >
-      {signal.source}
-    </a>
+  href={signal.sourceUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label={`Open source: ${signal.source}`}
+  onClick={(event) =>
+    event.stopPropagation()
+  }
+>
+  {signal.source}
+</a>
   ) : (
     <span>{signal.source}</span>
   )}
@@ -1088,6 +1674,11 @@ useEffect(() => {
         </p>
         <span>ArcheNova</span>
       </footer>
+
+      <IntelligenceDetailPanel
+  detail={selectedDetail}
+  onClose={closeDetail}
+/>
 
     <style jsx global>{`
 
@@ -2230,7 +2821,75 @@ useEffect(() => {
           color: var(--dim);
         }
 
+        .ci-organ-action {
+  width: 100%;
 
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 24px;
+}
+
+.ci-organ-open {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 10px 16px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.1);
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.04);
+
+  color:
+    rgba(255, 255, 255, 0.86);
+
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.ci-organ-open:hover {
+  background:
+    rgba(158, 223, 255, 0.12);
+
+  border-color:
+    rgba(158, 223, 255, 0.28);
+
+  color: #ffffff;
+
+  transform:
+    translateX(3px);
+}
+
+.ci-organ-open:focus-visible {
+  outline:
+    1px solid
+    rgba(158, 223, 255, 0.72);
+
+  outline-offset: 4px;
+}
+
+.ci-organ-open svg {
+  width: 14px;
+  height: 14px;
+
+  flex: 0 0 auto;
+}
 
         .ci-runtime-stage {
         position: relative;
@@ -2717,6 +3376,37 @@ useEffect(() => {
           backdrop-filter: blur(18px);
         }
 
+        .ci-signal-card[role="button"] {
+  cursor: pointer;
+
+  transition:
+    transform 0.34s ease,
+    border-color 0.34s ease,
+    box-shadow 0.34s ease;
+}
+
+.ci-signal-card[role="button"]:hover {
+  transform:
+    translateY(-4px);
+
+  border-color:
+    rgba(158, 223, 255, 0.22);
+
+  box-shadow:
+    0 28px 70px
+      rgba(0, 0, 0, 0.2),
+    0 0 60px
+      rgba(120, 190, 255, 0.07);
+}
+
+.ci-signal-card[role="button"]:focus-visible {
+  outline:
+    1px solid
+    rgba(158, 223, 255, 0.66);
+
+  outline-offset: 4px;
+}
+
         .ci-signal-card > div {
           min-height: 82px;
           display: flex;
@@ -2908,6 +3598,527 @@ white-space:nowrap;
   text-align: center;
 }
 
+.ci-detail-layer {
+  position: fixed;
+  inset: 0;
+
+  z-index: 1000;
+
+  display: flex;
+  justify-content: flex-end;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition:
+    opacity 0.28s ease,
+    visibility 0.28s ease;
+}
+
+.ci-detail-layer.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.ci-detail-backdrop {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  border: 0;
+
+  background:
+    rgba(1, 5, 12, 0.66);
+
+  backdrop-filter:
+    blur(12px);
+
+  -webkit-backdrop-filter:
+    blur(12px);
+
+  cursor: default;
+}
+
+.ci-detail-panel {
+  position: relative;
+  z-index: 2;
+
+  width: min(620px, 92vw);
+  height: 100dvh;
+
+  overflow: hidden;
+
+  border-left:
+    1px solid
+    rgba(255, 255, 255, 0.12);
+
+  background:
+    radial-gradient(
+      circle at 82% 8%,
+      rgba(132, 205, 255, 0.13),
+      transparent 32%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.055),
+      rgba(255, 255, 255, 0.012)
+    ),
+    rgba(3, 12, 25, 0.94);
+
+  backdrop-filter:
+    saturate(155%)
+    blur(36px);
+
+  -webkit-backdrop-filter:
+    saturate(155%)
+    blur(36px);
+
+  box-shadow:
+    -34px 0 100px
+      rgba(0, 0, 0, 0.48);
+
+  transform:
+    translateX(100%);
+
+  transition:
+    transform 0.38s
+    cubic-bezier(
+      0.22,
+      1,
+      0.36,
+      1
+    );
+}
+
+.ci-detail-layer.is-open
+.ci-detail-panel {
+  transform:
+    translateX(0);
+}
+
+.ci-detail-header {
+  height: 86px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+
+  padding:
+    20px
+    28px;
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+}
+
+.ci-detail-header > div {
+  min-width: 0;
+}
+
+.ci-detail-header span {
+  display: block;
+
+  color:
+    rgba(220, 232, 247, 0.58);
+
+  font-size: 9px;
+  font-weight: 650;
+  letter-spacing: 0.22em;
+}
+
+.ci-detail-header small {
+  display: block;
+
+  margin-top: 5px;
+
+  color:
+    rgba(158, 223, 255, 0.8);
+
+  font-size: 8px;
+  letter-spacing: 0.16em;
+}
+
+.ci-detail-close {
+  width: 42px;
+  height: 42px;
+
+  flex: 0 0 auto;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.1);
+
+  border-radius: 50%;
+
+  background:
+    rgba(255, 255, 255, 0.035);
+
+  color: var(--text);
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.ci-detail-close:hover {
+  background:
+    rgba(255, 255, 255, 0.08);
+
+  border-color:
+    rgba(158, 223, 255, 0.24);
+
+  transform:
+    rotate(4deg);
+}
+
+.ci-detail-close span {
+  color: inherit;
+  font-size: 24px;
+  font-weight: 250;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.ci-detail-scroll {
+  height:
+    calc(100dvh - 86px);
+
+  overflow-y: auto;
+  overscroll-behavior: contain;
+
+  padding:
+    46px
+    34px
+    70px;
+
+  scrollbar-width: thin;
+
+  scrollbar-color:
+    rgba(158, 223, 255, 0.25)
+    transparent;
+}
+
+.ci-detail-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ci-detail-scroll::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+
+  background:
+    rgba(158, 223, 255, 0.22);
+}
+
+.ci-detail-hero > span,
+.ci-detail-provenance > span,
+.ci-detail-section > span {
+  display: block;
+
+  color:
+    rgba(158, 223, 255, 0.72);
+
+  font-size: 9px;
+  font-weight: 650;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.ci-detail-hero h2 {
+  margin: 17px 0 0;
+
+  font-size:
+    clamp(
+      36px,
+      4.2vw,
+      58px
+    );
+
+  font-weight: 290;
+  line-height: 1.04;
+  letter-spacing: -0.052em;
+}
+
+.ci-detail-hero p {
+  margin: 24px 0 0;
+
+  color: var(--muted);
+
+  font-size: 14px;
+  line-height: 1.82;
+}
+
+.ci-detail-metrics {
+  display: grid;
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  margin:
+    38px
+    0
+    0;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.085);
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+}
+
+.ci-detail-metrics div {
+  min-width: 0;
+
+  padding:
+    18px
+    16px;
+}
+
+.ci-detail-metrics div + div {
+  border-left:
+    1px solid
+    rgba(255, 255, 255, 0.075);
+}
+
+.ci-detail-metrics dt,
+.ci-detail-provenance dt {
+  color: var(--dim);
+
+  font-size: 8px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.ci-detail-metrics dd {
+  margin: 8px 0 0;
+
+  overflow: hidden;
+
+  color:
+    rgba(245, 250, 255, 0.92);
+
+  font-size: 12px;
+  font-weight: 520;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ci-detail-provenance {
+  margin-top: 34px;
+
+  padding:
+    25px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.075);
+
+  border-radius: 20px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+}
+
+.ci-detail-provenance dl {
+  display: grid;
+  gap: 15px;
+
+  margin: 20px 0 0;
+}
+
+.ci-detail-provenance dl div {
+  display: grid;
+  grid-template-columns:
+    90px
+    minmax(0, 1fr);
+
+  gap: 16px;
+}
+
+.ci-detail-provenance dd {
+  min-width: 0;
+
+  margin: 0;
+
+  color: var(--muted);
+
+  font-size: 11px;
+  line-height: 1.5;
+
+  overflow-wrap: anywhere;
+}
+
+.ci-detail-provenance a {
+  color:
+    rgba(195, 230, 255, 0.9);
+
+  text-decoration: none;
+}
+
+.ci-detail-provenance a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ci-detail-sections {
+  display: grid;
+  gap: 14px;
+
+  margin-top: 34px;
+}
+
+.ci-detail-section {
+  padding:
+    27px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.075);
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.038),
+      rgba(255, 255, 255, 0.009)
+    );
+}
+
+.ci-detail-section p {
+  margin: 16px 0 0;
+
+  color: var(--muted);
+
+  font-size: 13px;
+  line-height: 1.82;
+}
+
+.ci-detail-section ul {
+  display: grid;
+  gap: 11px;
+
+  margin:
+    18px
+    0
+    0;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.ci-detail-section li {
+  position: relative;
+
+  padding-left: 18px;
+
+  color:
+    rgba(231, 240, 249, 0.76);
+
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.ci-detail-section li::before {
+  content: "";
+
+  position: absolute;
+  top: 8px;
+  left: 0;
+
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+
+  background: var(--cyan);
+
+  box-shadow:
+    0 0 11px
+    rgba(158, 223, 255, 0.55);
+}
+
+.ci-detail-organ-link,
+.ci-detail-source-link {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+
+  margin-top: 14px;
+  padding:
+    17px
+    21px;
+
+  border:
+    1px solid
+    rgba(158, 223, 255, 0.16);
+
+  border-radius: 18px;
+
+  background:
+    rgba(158, 223, 255, 0.055);
+
+  color:
+    rgba(238, 248, 255, 0.9);
+
+  font-size: 11px;
+  font-weight: 520;
+  letter-spacing: 0.06em;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition:
+    background 0.24s ease,
+    border-color 0.24s ease,
+    transform 0.24s ease;
+}
+
+.ci-detail-organ-link:hover,
+.ci-detail-source-link:hover {
+  background:
+    rgba(158, 223, 255, 0.1);
+
+  border-color:
+    rgba(158, 223, 255, 0.28);
+
+  transform:
+    translateY(-2px);
+}
+
+.ci-detail-organ-link svg,
+.ci-detail-source-link svg {
+  width: 17px;
+  height: 17px;
+
+  flex: 0 0 auto;
+}
+
+
         @media (max-width: 380px) {
   .ci-hero-heading h1 {
     font-size: clamp(42px, 14vw, 58px);
@@ -3029,6 +4240,118 @@ white-space:nowrap;
         }
 
         @media (max-width: 540px) {
+
+        .ci-organ-action {
+  width: auto;
+
+  justify-content: flex-end;
+
+  margin-top: 0;
+}
+
+.ci-organ-open {
+  padding:
+    10px
+    15px;
+}
+
+        .ci-detail-layer {
+  align-items: flex-end;
+}
+
+.ci-detail-backdrop {
+  background:
+    rgba(1, 5, 12, 0.72);
+}
+
+.ci-detail-panel {
+  width: 100%;
+  height:
+    min(
+      92dvh,
+      920px
+    );
+
+  border-top:
+    1px solid
+    rgba(255, 255, 255, 0.13);
+
+  border-left: 0;
+
+  border-radius:
+    28px
+    28px
+    0
+    0;
+
+  transform:
+    translateY(100%);
+}
+
+.ci-detail-layer.is-open
+.ci-detail-panel {
+  transform:
+    translateY(0);
+}
+
+.ci-detail-header {
+  height: 76px;
+
+  padding:
+    17px
+    20px;
+}
+
+.ci-detail-scroll {
+  height:
+    calc(
+      min(92dvh, 920px) -
+      76px
+    );
+
+  padding:
+    32px
+    20px
+    54px;
+}
+
+.ci-detail-hero h2 {
+  font-size:
+    clamp(
+      34px,
+      11vw,
+      48px
+    );
+}
+
+.ci-detail-hero p {
+  font-size: 13px;
+}
+
+.ci-detail-metrics {
+  grid-template-columns: 1fr;
+}
+
+.ci-detail-metrics div + div {
+  border-top:
+    1px solid
+    rgba(255, 255, 255, 0.075);
+
+  border-left: 0;
+}
+
+.ci-detail-provenance {
+  padding: 21px;
+}
+
+.ci-detail-provenance dl div {
+  grid-template-columns: 1fr;
+  gap: 6px;
+}
+
+.ci-detail-section {
+  padding: 23px 21px;
+}
 
          .ci-hero::before {
     top: 0;

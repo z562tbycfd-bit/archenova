@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-20T16:25:25.862Z",
+  "updated": "2026-07-20T18:19:22.097Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "China’s AI models have Trump’s AI world at war with itself",
+      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Over the weekend, several current and former advisors to President Donald Trump on…",
+      "ts": 1784570400000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Memory Shaped by Brain Remodeling During Adolescence in Mice",
+      "url": "https://www.genengnews.com/topics/translational-medicine/memory-shaped-by-brain-remodeling-during-adolescence-in-mice/",
+      "summary": "Protective mesh-like structures, called perineuronal nets, stabilize memory circuits and unexpectedly diminish during late adolescence before rebuilding in adulthood. The post Memory Shaped by Brain Remodeling During Ado…",
+      "ts": 1784568652000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "From Hampton to Mars: How NASA Langley Helped Land on the Red Planet",
+      "url": "https://www.nasa.gov/general/from-hampton-to-mars-how-nasa-langley-helped-land-on-the-red-planet/",
+      "summary": "Fifty years ago, NASA’s Viking 1 and 2 landers made the first successful landings on Mars, opening a new era in planetary exploration. Behind that achievement was a team at NASA’s Langley Research Center in Hampton, Virg…",
+      "ts": 1784562435000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Our First View of the Surface of Mars",
+      "url": "https://www.nasa.gov/image-article/our-first-view-of-the-surface-of-mars/",
+      "summary": "“Touchdown, we have touchdown!” At 5:12 a.m. PDT, July 20, 1976, mission controllers at NASA’s Jet Propulsion Laboratory erupted in cheers as they learned that the Viking 1 lander had survived its descent through the thi…",
+      "ts": 1784561909000,
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
@@ -123,6 +155,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "ts": 1784541600000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "MIT Technology Review",
       "title": "AI is more likely than humans to form biases when hiring",
       "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
@@ -169,6 +209,14 @@
       "summary": "“My love for Randy and my professional experience were not enough to save him,” a physician writes about her husband’s suicide.",
       "ts": 1784536200000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Shaping the Emerald City",
+      "url": "https://science.nasa.gov/earth/earth-observatory/shaping-the-emerald-city/",
+      "summary": "The hills and basins of Seattle, Washington, have been sculpted by glaciers and modified by humans.",
+      "ts": 1784520060000,
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -673,54 +721,6 @@
       "summary": "Serbia is the latest nation to sign the Artemis Accords, joining the U.S.-led effort more than two years after signing on to China’s lunar base project. The post Serbia signs the Artemis Accords appeared first on SpaceNe…",
       "ts": 1784283348000,
       "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "A scorecard for the AI age",
-      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "ts": 1784282400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "European Service Module team meets Artemis II crew",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/European_Service_Module_team_meets_Artemis_II_crew",
-      "summary": "Image: From left to right, NASA astronauts Chrstina Koch, Reid Wiseman and Victor Glover, and Canadian Space Agency astronaut Jeremy Hansen, with ESA's European Service Module team behind them at ESTEC.",
-      "ts": 1784282400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "There’s a lot of hype around perimenopause. Don’t buy it.",
-      "url": "https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/",
-      "summary": "Perimenopause has entered the chat. Perimenopause—and its better-known relative, menopause—used to be considered taboo. Not anymore, thanks at least in part to TV doctors and social media influencers. Perhaps it’s my age…",
-      "ts": 1784278800000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The risk of weather data sabotage is rising",
-      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
-      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds,…",
-      "ts": 1784278652000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Why affirming trans identities can be critical for suicide prevention counseling",
-      "url": "https://www.statnews.com/2026/07/17/trevor-project-suicide-prevention-counseling-for-trans-youth/?utm_campaign=rss",
-      "summary": "Advocates worry that excluding trans youth in some way from LGBTQ+ counseling services provided through the 988 crisis line could be harmful.",
-      "ts": 1784277000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: MDCalc is scoring the clinical calculators used by millions of doctors",
-      "url": "https://www.statnews.com/2026/07/17/mdcalc-quality-ratings-clinical-algorithms-for-bias-validity/?utm_campaign=rss",
-      "summary": "MDCalc is launching a quality-rating system for the more than 800 clinical calculators used to assess disease risk, transplant eligibility, and more.",
-      "ts": 1784277000000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
