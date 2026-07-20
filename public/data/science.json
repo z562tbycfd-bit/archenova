@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-20T20:56:18.500Z",
+  "updated": "2026-07-20T22:01:45.390Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New cell imaging method measures protein folding in living organelles",
+      "url": "https://phys.org/news/2026-07-cell-imaging-method-protein-organelles.html",
+      "summary": "Protein aggregates are associated with the development of diseases like Alzheimer's and Parkinson's. These are found more often in certain areas of cells known as membraneless organelles. Do these organelles promote this…",
+      "ts": 1784584803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Narcissist' bosses are more likely to oppose work from home, studies show. But are they right?",
+      "url": "https://phys.org/news/2026-07-narcissist-bosses-oppose-home.html",
+      "summary": "Have you ever wondered why your boss wants you back in the office full-time, rather than allowing hybrid work, where you can combine work from home and in an office? A fascinating study just shed fresh light on this topi…",
+      "ts": 1784584801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "30,000 people tried for bigamy over the past 400 years in England and Wales, archives reveal",
+      "url": "https://phys.org/news/2026-07-people-bigamy-years-england-wales.html",
+      "summary": "Bigamy has been a rare crime during the past 400 years—and offenders have been harshly punished. It seems likely that no more than 30,000 individuals have ever been tried for bigamy in England and Wales during this perio…",
+      "ts": 1784583610000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecules stop carbon nanotubes clumping, unlocking record heat-to-electricity performance",
+      "url": "https://phys.org/news/2026-07-molecules-carbon-nanotubes-clumping-electricity.html",
+      "summary": "QUT researchers have overcome a challenge that has limited next-generation energy-harvesting materials for more than two decades, opening the door to more powerful wearable electronics and new ways of turning wasted heat…",
+      "ts": 1784583606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Carbon nanotube model reveals how smart sensors perform at aircraft-like extremes",
+      "url": "https://phys.org/news/2026-07-carbon-nanotube-reveals-smart-sensors.html",
+      "summary": "Researchers from Skoltech, in collaboration with the Harbin Institute of Technology and Jiangsu University (China), have published a study presenting the first empirical model to explain and predict the sensing behavior …",
+      "ts": 1784582405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Early career funding improves scientific influence and citations for women",
+      "url": "https://phys.org/news/2026-07-early-career-funding-scientific-citations.html",
+      "summary": "Early-career funding has a bigger impact on women than men when it comes to their careers in science, according to a new study from City St George's, University of London. While the study found that successful applicants…",
+      "ts": 1784582401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancestral variation, not new mutations, may impact survival of species facing climate change",
+      "url": "https://phys.org/news/2026-07-ancestral-variation-mutations-impact-survival.html",
+      "summary": "Research co-authored by an Oklahoma Museum of Natural History curator, her graduate student and an international team of scientists has shed new light on the evolutionary \"toolkit\" animals use to survive environmental ch…",
+      "ts": 1784581205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat shock reveals rapid protein-control system cells may use to survive",
+      "url": "https://phys.org/news/2026-07-reveals-rapid-protein-cells-survive.html",
+      "summary": "The planet is getting hotter, and life will need to adapt to rising temperatures to survive. One way cells adapt to changing conditions is by synthesizing new proteins. That works well when the environment changes slowly…",
+      "ts": 1784581203000
+    },
     {
       "source": "Phys.org",
       "title": "How rainfall timing can dramatically reshape entire plant communities",
@@ -644,62 +700,6 @@
       "title": "Role of Spatial Coherence in Single-Shot Lensless Image Reconstruction",
       "url": "https://arxiv.org/abs/2607.15765",
       "summary": "arXiv:2607.15765v1 Announce Type: new Abstract: Lensless imaging is a technique that recovers object information computationally from diffraction patterns recorded without imaging optics, making its performance strongly …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electromagnetically induced transparency lasing in distributed resonant feedback system",
-      "url": "https://arxiv.org/abs/2607.15783",
-      "summary": "arXiv:2607.15783v1 Announce Type: new Abstract: We demonstrate a loss-enabled mechanism that can realize single electromagnetically induced transparency (EIT) analogue in periodic waveguide-resonator structures. Unlike p…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Alignment and Timing Jitter in Flying-Focus Inverse Compton Scattering",
-      "url": "https://arxiv.org/abs/2607.15788",
-      "summary": "arXiv:2607.15788v1 Announce Type: new Abstract: Flying-focus laser pulses can extend the effective interaction length in inverse Compton sources by controlling the trajectory of the focal intensity. Their practical advan…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Triple-Resonance Spectroscopy Using a Cavity-Enhanced Frequency Comb Probe",
-      "url": "https://arxiv.org/abs/2607.15793",
-      "summary": "arXiv:2607.15793v1 Announce Type: new Abstract: Accurate experimentally verified models of molecular hot-band transitions are essential for interpreting high-temperature spectra in environments ranging from exoplanetary …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental demonstration of Flying-Focus enhanced Thomson scattering",
-      "url": "https://arxiv.org/abs/2607.15805",
-      "summary": "arXiv:2607.15805v1 Announce Type: new Abstract: We report the experimental demonstration of a spatiotemporally engineered \"Flying-Focus\" laser pulse for enhanced x-ray generation in relativistic Thomson scattering. A com…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Joint-decoupled iterative CBCT reconstruction with hybrid scatter estimation and voxel-adaptive beam hardening correction",
-      "url": "https://arxiv.org/abs/2607.15812",
-      "summary": "arXiv:2607.15812v1 Announce Type: new Abstract: Cone-beam computed tomography (CBCT) is fundamentally challenged by scatter and beam hardening artifacts, which originate from X-ray scattering and the polychromatic nature…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical State Dynamics Eigenmodes and Equilibria Form the Structural Basis of Couette Turbulence",
-      "url": "https://arxiv.org/abs/2607.15842",
-      "summary": "arXiv:2607.15842v1 Announce Type: new Abstract: Wide channel Couette (WCC) turbulence consists primarily of steady roll streak structures (RSS) maintained by a self-sustaining process, yet the Navier Stokes equations in …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conjugate phase-noise cancellation enables submicrometre dual-comb ranging with free-running megahertz-linewidth lasers",
-      "url": "https://arxiv.org/abs/2607.15843",
-      "summary": "arXiv:2607.15843v1 Announce Type: new Abstract: Frequency-domain dual-comb ranging combines rapid acquisition with interferometric sensitivity, but high-performance implementations often rely on mutually coherent or acti…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconfigurable Nonlocal Light-Emitting Metalens Nanolasers via Bound States in the Continuum",
-      "url": "https://arxiv.org/abs/2607.15852",
-      "summary": "arXiv:2607.15852v1 Announce Type: new Abstract: The development of on-chip, reconfigurable coherent light sources operating in the visible spectrum is critical for next-generation optical computing and high-speed data pr…",
       "ts": 1784520000000
     }
   ],
