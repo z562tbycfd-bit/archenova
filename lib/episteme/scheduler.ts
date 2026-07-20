@@ -1,248 +1,114 @@
 /* ==========================================================
-   Episteme Operating System
-   Scheduler
+   ArcheNova
+   Episteme Runtime Layer
 
    File:
    lib/episteme/scheduler.ts
 
-   PART 1 / 2
+   Responsibilities:
+   - Control Episteme Runtime timing
+   - Start / Pause / Resume / Stop execution
+   - Execute one Organ per Tick
+   - Coordinate synchronization timing
+   - Start subsequent civilization cycles
+   - Optionally generate idle Knowledge Packets
+   - Pause safely while the browser tab is hidden
 
-   Responsibilities in this part:
-   - Scheduler types
-   - Scheduler configuration
-   - Scheduler state
-   - Scheduler class definition
-   - Kernel subscription
-   - Start / stop / pause / resume
-   - Tick and automatic-loop management
+   Dependency direction:
+   types / constants / utils
+              ↓
+            store
+              ↓
+            engine
+              ↓
+          scheduler
+
+   Important:
+   - Scheduler does not own Episteme Runtime State.
+   - Runtime Store remains the single source of truth.
+   - Scheduler owns only timing and execution-control state.
 ========================================================== */
 
 import {
-  type OrganId,
-} from "./organ";
+  DEFAULT_EPISTEME_SCHEDULER_CONFIG,
+  DEFAULT_IDLE_PACKET_TITLES,
+  EPISTEME_ERROR_CODES,
+  EPISTEME_ORGANS,
+} from "./constants";
 
 import {
-  createEpistemeKernel,
-  type EpistemeKernel,
-  type EpistemeKernelConfig,
-  type EpistemeKernelInput,
-  type EpistemeKernelSnapshot,
-} from "./kernel";
+  createRuntimeId,
+  wait,
+} from "./utils";
 
 import type {
-  KnowledgePacket,
-} from "./packet";
+  EpistemeSchedulerConfig,
+  EpistemeSchedulerContract,
+  EpistemeSchedulerMode,
+  EpistemeSchedulerStatus,
+  KnowledgePacketInput,
+  OrganId,
+  SchedulerTickResult,
+} from "./types";
+
+import type {
+  EpistemeRuntimeStore,
+} from "./store";
+
+import type {
+  EpistemeEngine,
+} from "./engine";
 
 /* ==========================================================
-   Scheduler Status
-========================================================== */
-
-export type EpistemeSchedulerStatus =
-  | "offline"
-  | "starting"
-  | "running"
-  | "waiting"
-  | "paused"
-  | "stopping"
-  | "completed"
-  | "error"
-  | "destroyed";
-
-/* ==========================================================
-   Scheduler Mode
-========================================================== */
-
-export type EpistemeSchedulerMode =
-  | "automatic"
-  | "manual"
-  | "single-cycle";
-
-/* ==========================================================
-   Scheduler Tick Reason
-========================================================== */
-
-export type EpistemeTickReason =
-  | "initial"
-  | "automatic"
-  | "manual"
-  | "resume"
-  | "retry"
-  | "visibility-restored";
-
-/* ==========================================================
-   Packet Provider
-========================================================== */
-
-export type EpistemePacketProvider = (
-  context: EpistemeSchedulerContext,
-) =>
-  | EpistemeKernelInput
-  | null
-  | Promise<EpistemeKernelInput | null>;
-
-/* ==========================================================
-   Scheduler Configuration
-========================================================== */
-
-export interface EpistemeSchedulerConfig {
-  /**
-   * automatic:
-   * Continuously processes packets.
-   *
-   * manual:
-   * Only processes when tick() or processNext() is called.
-   *
-   * single-cycle:
-   * Processes one packet and then pauses.
-   */
-  mode: EpistemeSchedulerMode;
-
-  /**
-   * Delay before the first scheduler tick.
-   */
-  initialDelayMs: number;
-
-  /**
-   * Delay between automatic ticks.
-   */
-  tickIntervalMs: number;
-
-  /**
-   * Delay before retrying after an error.
-   */
-  retryDelayMs: number;
-
-  /**
-   * Maximum automatic retries.
-   */
-  maxRetries: number;
-
-  /**
-   * Automatically start after construction.
-   */
-  autoStart: boolean;
-
-  /**
-   * Pause when the browser tab becomes hidden.
-   */
-  pauseWhenHidden: boolean;
-
-  /**
-   * Resume when the browser tab becomes visible.
-   */
-  resumeWhenVisible: boolean;
-
-  /**
-   * Generate a Knowledge Packet when the queue is empty.
-   */
-  generatePacketsWhenIdle: boolean;
-
-  /**
-   * Minimum time between automatically generated packets.
-   */
-  generatedPacketIntervalMs: number;
-
-  /**
-   * Optional external packet provider.
-   */
-  packetProvider?: EpistemePacketProvider;
-
-  /**
-   * Kernel configuration passed to a newly created Kernel.
-   */
-  kernel: Partial<EpistemeKernelConfig>;
-}
-
-/* ==========================================================
-   Default Configuration
-========================================================== */
-
-export const DefaultEpistemeSchedulerConfig:
-  EpistemeSchedulerConfig = {
-    mode: "automatic",
-
-    initialDelayMs: 800,
-    tickIntervalMs: 1_500,
-
-    retryDelayMs: 3_000,
-    maxRetries: 3,
-
-    autoStart: false,
-
-    pauseWhenHidden: true,
-    resumeWhenVisible: true,
-
-    generatePacketsWhenIdle: true,
-    generatedPacketIntervalMs: 12_000,
-
-    packetProvider: undefined,
-
-    kernel: {
-      autoStart: false,
-      autoContinueCycles: false,
-      archiveCompletedPackets: true,
-    },
-  };
-
-/* ==========================================================
-   Scheduler Context
-========================================================== */
-
-export interface EpistemeSchedulerContext {
-  schedulerStatus: EpistemeSchedulerStatus;
-
-  schedulerMode: EpistemeSchedulerMode;
-
-  kernelSnapshot: EpistemeKernelSnapshot;
-
-  tickCount: number;
-  completedCycleCount: number;
-  generatedPacketCount: number;
-
-  retryCount: number;
-
-  lastTickAt?: number;
-  lastCycleAt?: number;
-  lastPacketGeneratedAt?: number;
-}
-
-/* ==========================================================
-   Scheduler State
+   Scheduler Public State
 ========================================================== */
 
 export interface EpistemeSchedulerState {
+  id: string;
+
   status: EpistemeSchedulerStatus;
 
   mode: EpistemeSchedulerMode;
 
-  activeOrgan: OrganId;
-  nextOrgan: OrganId;
+  running: boolean;
+
+  paused: boolean;
+
+  waiting: boolean;
+
+  processing: boolean;
+
+  destroyed: boolean;
 
   tickCount: number;
-  completedCycleCount: number;
-  generatedPacketCount: number;
 
-  retryCount: number;
+  cycleCount: number;
 
-  queueLength: number;
+  startedAt: number | null;
 
-  currentPacket?: KnowledgePacket;
+  stoppedAt: number | null;
 
-  startedAt?: number;
-  pausedAt?: number;
-  stoppedAt?: number;
+  lastTickAt: number | null;
 
-  lastTickAt?: number;
-  lastCycleAt?: number;
-  lastPacketGeneratedAt?: number;
+  nextTickAt: number | null;
 
-  nextScheduledAt?: number;
+  lastError: string | null;
 
-  hiddenByBrowser: boolean;
+  hiddenByDocument: boolean;
 
-  error?: string;
+  pausedByVisibility: boolean;
+}
 
-  updatedAt: number;
+/* ==========================================================
+   Scheduler Snapshot
+========================================================== */
+
+export interface EpistemeSchedulerSnapshot {
+  state: EpistemeSchedulerState;
+
+  revision: number;
+
+  timestamp: number;
 }
 
 /* ==========================================================
@@ -250,150 +116,85 @@ export interface EpistemeSchedulerState {
 ========================================================== */
 
 export type EpistemeSchedulerListener = (
-  state: EpistemeSchedulerState,
-  kernelSnapshot: EpistemeKernelSnapshot,
+  snapshot: EpistemeSchedulerSnapshot,
 ) => void;
 
 /* ==========================================================
-   Tick Result
+   Internal Tick Options
 ========================================================== */
 
-export interface EpistemeTickResult {
-  executed: boolean;
+interface SchedulerTickOptions {
+  ignoreMode?: boolean;
 
-  reason: EpistemeTickReason;
+  allowWhenPaused?: boolean;
 
-  packetId?: string;
-
-  completedCycleCount: number;
-
-  message: string;
+  scheduleNext?: boolean;
 }
 
 /* ==========================================================
-   Internal Utilities
+   Timer Type
 ========================================================== */
 
-function wait(milliseconds: number): Promise<void> {
-  return new Promise((resolve) => {
-    setTimeout(resolve, milliseconds);
-  });
-}
-
-function normalizeDelay(
-  value: number,
-  fallback: number,
-): number {
-  if (!Number.isFinite(value)) {
-    return fallback;
-  }
-
-  return Math.max(0, value);
-}
-
-function resolveErrorMessage(error: unknown): string {
-  if (error instanceof Error) {
-    return error.message;
-  }
-
-  if (typeof error === "string") {
-    return error;
-  }
-
-  return "Unknown Episteme Scheduler error.";
-}
+type SchedulerTimer =
+  ReturnType<typeof setTimeout>;
 
 /* ==========================================================
-   Initial Scheduler State
+   Default Idle Packet Factory
 ========================================================== */
 
-export function createInitialSchedulerState(
-  mode: EpistemeSchedulerMode = "automatic",
-): EpistemeSchedulerState {
-  return {
-    status: "offline",
-
-    mode,
-
-    activeOrgan: "observation",
-    nextOrgan: "understanding",
-
-    tickCount: 0,
-    completedCycleCount: 0,
-    generatedPacketCount: 0,
-
-    retryCount: 0,
-
-    queueLength: 0,
-
-    currentPacket: undefined,
-
-    startedAt: undefined,
-    pausedAt: undefined,
-    stoppedAt: undefined,
-
-    lastTickAt: undefined,
-    lastCycleAt: undefined,
-    lastPacketGeneratedAt: undefined,
-
-    nextScheduledAt: undefined,
-
-    hiddenByBrowser: false,
-
-    error: undefined,
-
-    updatedAt: Date.now(),
-  };
-}
-
-/* ==========================================================
-   Default Packet Provider Data
-========================================================== */
-
-const DefaultPacketTitles = [
-  "Emerging scientific and technological signals",
-  "Civilizational infrastructure transition",
-  "Institutional adaptation under uncertainty",
-  "Long-term knowledge preservation",
-  "Humanity's expanding operational capability",
-  "Planetary and interplanetary resilience",
-] as const;
-
-function createDefaultPacketInput(
-  context: EpistemeSchedulerContext,
-): EpistemeKernelInput {
-  const index =
-    context.generatedPacketCount %
-    DefaultPacketTitles.length;
-
-  const title = DefaultPacketTitles[index];
+function createIdlePacketInput(
+  index: number,
+): KnowledgePacketInput {
+  const title =
+    DEFAULT_IDLE_PACKET_TITLES[
+      index %
+        DEFAULT_IDLE_PACKET_TITLES.length
+    ];
 
   return {
     title,
 
     summary:
-      "A scheduled knowledge signal entering the Civilization Intelligence cycle.",
+      "A generated civilizational signal awaiting observation and cognitive processing.",
 
     content:
-      "This packet awaits observation, understanding, reasoning, design, realization, and memory.",
+      [
+        "Episteme generated this placeholder Knowledge Packet because the active queue was empty.",
+
+        "The packet begins at Observation and will move through Understanding, Reasoning, Design, Realization, and Memory.",
+
+        "Replace generated packets with verified ArcheNova signals before production intelligence outputs are presented as factual analysis.",
+      ].join("\n\n"),
 
     type: "signal",
-    priority: "normal",
 
-    source: {
-      name: "Episteme Scheduler",
-      provider: "ArcheNova",
-    },
+    priority: "normal",
 
     tags: [
       "episteme",
-      "civilization-intelligence",
-      "scheduled-cycle",
+      "generated-signal",
+      "runtime",
     ],
 
-    confidence: 52,
-    importance: 65,
-    relevance: 72,
+    confidence: 45,
+
+    importance: 50,
+
+    relevance: 55,
+
+    from: "memory",
+
+    to: "observation",
+
+    source: {
+      name: "Episteme Runtime",
+
+      provider:
+        "Idle Packet Generator",
+
+      retrievedAt:
+        Date.now(),
+    },
   };
 }
 
@@ -401,143 +202,179 @@ function createDefaultPacketInput(
    Episteme Scheduler
 ========================================================== */
 
-export class EpistemeScheduler {
-  private config: EpistemeSchedulerConfig;
+export class EpistemeScheduler
+  implements EpistemeSchedulerContract
+{
+  private readonly store:
+    EpistemeRuntimeStore;
 
-  private readonly kernel: EpistemeKernel;
+  private readonly engine:
+    EpistemeEngine;
 
-  private state: EpistemeSchedulerState;
+  private config:
+    EpistemeSchedulerConfig;
+
+  private state:
+    EpistemeSchedulerState;
+
+  private snapshot:
+    EpistemeSchedulerSnapshot;
+
+  private revision = 0;
+
+  private timer:
+    SchedulerTimer | null = null;
+
+  private startPromise:
+    Promise<void> | null = null;
+
+  private activeTickPromise:
+    Promise<SchedulerTickResult> | null =
+      null;
 
   private readonly listeners =
     new Set<EpistemeSchedulerListener>();
 
-  private kernelUnsubscribe:
-    | (() => void)
-    | null = null;
-
-  private loopPromise:
-    | Promise<void>
-    | null = null;
-
-  private tickPromise:
-    | Promise<EpistemeTickResult>
-    | null = null;
-
-  private loopToken = 0;
-
-  private pausedByUser = false;
-  private pausedByVisibility = false;
-
-  private destroyed = false;
-
-  private visibilityCleanup:
-    | (() => void)
-    | null = null;
+  private visibilityHandlerAttached =
+    false;
 
   /* ========================================================
      Constructor
   ======================================================== */
 
   constructor(
-    config: Partial<EpistemeSchedulerConfig> = {},
-    kernel?: EpistemeKernel,
-  ) {
-    this.config = {
-      ...DefaultEpistemeSchedulerConfig,
-      ...config,
+    store: EpistemeRuntimeStore,
 
-      kernel: {
-        ...DefaultEpistemeSchedulerConfig.kernel,
-        ...config.kernel,
-      },
+    engine: EpistemeEngine,
+
+    config:
+      Partial<
+        EpistemeSchedulerConfig
+      > = {},
+  ) {
+    this.store = store;
+
+    this.engine = engine;
+
+    this.config = {
+      ...DEFAULT_EPISTEME_SCHEDULER_CONFIG,
+      ...config,
     };
 
-    this.kernel =
-      kernel ??
-      createEpistemeKernel(this.config.kernel);
+    const hidden =
+      this.isDocumentHidden();
 
-    this.state = createInitialSchedulerState(
-      this.config.mode,
-    );
+    this.state = {
+      id:
+        createRuntimeId(
+          "scheduler",
+        ),
 
-    this.subscribeToKernel();
-    this.installVisibilityHandling();
+      status: "offline",
+
+      mode:
+        this.config.mode,
+
+      running: false,
+
+      paused: false,
+
+      waiting: false,
+
+      processing: false,
+
+      destroyed: false,
+
+      tickCount: 0,
+
+      cycleCount: 0,
+
+      startedAt: null,
+
+      stoppedAt: null,
+
+      lastTickAt: null,
+
+      nextTickAt: null,
+
+      lastError: null,
+
+      hiddenByDocument:
+        hidden,
+
+      pausedByVisibility:
+        false,
+    };
+
+    this.snapshot =
+      this.createSnapshot();
+
+    this.attachVisibilityHandler();
 
     if (this.config.autoStart) {
-      void this.start();
+      queueMicrotask(() => {
+        void this.start();
+      });
     }
   }
 
   /* ========================================================
-     State Access
+     Public Access
   ======================================================== */
 
-  getState(): EpistemeSchedulerState {
-    return this.state;
+  getStore():
+    EpistemeRuntimeStore {
+    return this.store;
   }
 
-  getKernel(): EpistemeKernel {
-    return this.kernel;
+  getEngine():
+    EpistemeEngine {
+    return this.engine;
   }
 
-  getKernelSnapshot(): EpistemeKernelSnapshot {
-    return this.kernel.getSnapshot();
-  }
-
-  getConfig(): Readonly<EpistemeSchedulerConfig> {
+  getConfig():
+    Readonly<EpistemeSchedulerConfig> {
     return this.config;
   }
 
-  getContext(): EpistemeSchedulerContext {
-    return {
-      schedulerStatus: this.state.status,
-
-      schedulerMode: this.state.mode,
-
-      kernelSnapshot: this.kernel.getSnapshot(),
-
-      tickCount: this.state.tickCount,
-
-      completedCycleCount:
-        this.state.completedCycleCount,
-
-      generatedPacketCount:
-        this.state.generatedPacketCount,
-
-      retryCount: this.state.retryCount,
-
-      lastTickAt: this.state.lastTickAt,
-      lastCycleAt: this.state.lastCycleAt,
-
-      lastPacketGeneratedAt:
-        this.state.lastPacketGeneratedAt,
-    };
+  getState():
+    EpistemeSchedulerState {
+    return this.state;
   }
 
-  /* ========================================================
-     Configuration Update
-  ======================================================== */
+  getSnapshot():
+    EpistemeSchedulerSnapshot {
+    return this.snapshot;
+  }
 
-  updateConfig(
-    config: Partial<EpistemeSchedulerConfig>,
-  ): void {
-    if (this.destroyed) return;
+  getServerSnapshot():
+    EpistemeSchedulerSnapshot {
+    return this.snapshot;
+  }
 
-    this.config = {
-      ...this.config,
-      ...config,
+  getStatus():
+    EpistemeSchedulerStatus {
+    return this.state.status;
+  }
 
-      kernel: {
-        ...this.config.kernel,
-        ...config.kernel,
-      },
-    };
+  isRunning(): boolean {
+    return (
+      this.state.running &&
+      !this.state.paused &&
+      !this.state.destroyed
+    );
+  }
 
-    if (config.mode) {
-      this.patchState({
-        mode: config.mode,
-      });
-    }
+  isPaused(): boolean {
+    return this.state.paused;
+  }
+
+  isProcessing(): boolean {
+    return this.state.processing;
+  }
+
+  isDestroyed(): boolean {
+    return this.state.destroyed;
   }
 
   /* ========================================================
@@ -545,89 +382,424 @@ export class EpistemeScheduler {
   ======================================================== */
 
   subscribe(
-    listener: EpistemeSchedulerListener,
+    listener:
+      EpistemeSchedulerListener,
   ): () => void {
-    if (this.destroyed) {
+    if (this.state.destroyed) {
       return () => undefined;
     }
 
     this.listeners.add(listener);
 
-    listener(
-      this.state,
-      this.kernel.getSnapshot(),
-    );
-
     return () => {
-      this.listeners.delete(listener);
+      this.listeners.delete(
+        listener,
+      );
     };
   }
 
   private notify(): void {
-    const snapshot = this.kernel.getSnapshot();
-
     for (const listener of this.listeners) {
       try {
-        listener(this.state, snapshot);
+        listener(this.snapshot);
       } catch (error) {
         console.error(
-          "Episteme Scheduler listener failed:",
+          "[Episteme Scheduler] listener failed:",
           error,
         );
       }
     }
   }
 
-  private patchState(
-    patch: Partial<EpistemeSchedulerState>,
-  ): void {
-    this.state = {
-      ...this.state,
-      ...patch,
-      updatedAt: Date.now(),
+  /* ========================================================
+     Snapshot
+  ======================================================== */
+
+  private createSnapshot():
+    EpistemeSchedulerSnapshot {
+    return {
+      state: this.state,
+
+      revision:
+        this.revision,
+
+      timestamp:
+        Date.now(),
     };
+  }
+
+  private updateState(
+    patch:
+      | Partial<EpistemeSchedulerState>
+      | ((
+          state:
+            EpistemeSchedulerState,
+        ) =>
+          EpistemeSchedulerState),
+  ): EpistemeSchedulerState {
+    if (this.state.destroyed) {
+      return this.state;
+    }
+
+    const nextState =
+      typeof patch === "function"
+        ? patch(this.state)
+        : {
+            ...this.state,
+            ...patch,
+          };
+
+    this.revision += 1;
+
+    this.state =
+      nextState;
+
+    this.snapshot =
+      this.createSnapshot();
 
     this.notify();
+
+    return this.state;
   }
 
   /* ========================================================
-     Kernel Subscription
+     Configuration
   ======================================================== */
 
-  private subscribeToKernel(): void {
-    this.kernelUnsubscribe = this.kernel.subscribe(
-      (kernelState) => {
-        const snapshot =
-          this.kernel.getSnapshot();
+  updateConfig(
+    config:
+      Partial<
+        EpistemeSchedulerConfig
+      >,
+  ): void {
+    if (this.state.destroyed) {
+      return;
+    }
 
-        const completedCycleCount =
-          kernelState.metrics.completedCycles;
+    this.config = {
+      ...this.config,
+      ...config,
+    };
 
-        const cycleWasCompleted =
-          completedCycleCount >
-          this.state.completedCycleCount;
+    this.updateState({
+      mode:
+        this.config.mode,
+    });
+  }
 
-        this.patchState({
-          activeOrgan:
-            kernelState.cycle.activeOrgan,
+  setMode(
+    mode:
+      EpistemeSchedulerMode,
+  ): void {
+    if (this.state.destroyed) {
+      return;
+    }
 
-          nextOrgan:
-            kernelState.cycle.nextOrgan,
+    this.config = {
+      ...this.config,
+      mode,
+    };
 
-          queueLength:
-            kernelState.queue.packets.length,
+    this.updateState({
+      mode,
+    });
 
-          currentPacket:
-            snapshot.activePacket ?? undefined,
+    if (
+      mode === "manual"
+    ) {
+      this.clearTimer();
 
-          completedCycleCount,
+      this.updateState({
+        nextTickAt: null,
+      });
+    } else if (
+      this.isRunning() &&
+      !this.state.processing
+    ) {
+      this.scheduleNextTick(
+        this.config.organIntervalMs,
+      );
+    }
+  }
 
-          lastCycleAt: cycleWasCompleted
-            ? Date.now()
-            : this.state.lastCycleAt,
-        });
+  /* ========================================================
+     Timer Management
+  ======================================================== */
+
+  private clearTimer(): void {
+    if (this.timer !== null) {
+      clearTimeout(this.timer);
+
+      this.timer = null;
+    }
+  }
+
+  private scheduleNextTick(
+    delayMs:
+      number = this.config
+        .organIntervalMs,
+  ): void {
+    this.clearTimer();
+
+    if (
+      !this.isRunning() ||
+      this.state.processing ||
+      this.state.mode ===
+        "manual" ||
+      this.state.destroyed
+    ) {
+      this.updateState({
+        nextTickAt: null,
+      });
+
+      return;
+    }
+
+    const delay =
+      Math.max(0, delayMs);
+
+    this.updateState({
+      status: "waiting",
+
+      waiting: true,
+
+      nextTickAt:
+        Date.now() + delay,
+    });
+
+    this.timer = setTimeout(
+      () => {
+        this.timer = null;
+
+        void this.tick();
       },
+      delay,
     );
+  }
+
+  /* ========================================================
+     Browser Visibility
+  ======================================================== */
+
+  private isDocumentHidden():
+    boolean {
+    return (
+      typeof document !==
+        "undefined" &&
+      document.hidden
+    );
+  }
+
+  private attachVisibilityHandler():
+    void {
+    if (
+      typeof document ===
+        "undefined" ||
+      this.visibilityHandlerAttached
+    ) {
+      return;
+    }
+
+    document.addEventListener(
+      "visibilitychange",
+      this.handleVisibilityChange,
+    );
+
+    this.visibilityHandlerAttached =
+      true;
+  }
+
+  private detachVisibilityHandler():
+    void {
+    if (
+      typeof document ===
+        "undefined" ||
+      !this.visibilityHandlerAttached
+    ) {
+      return;
+    }
+
+    document.removeEventListener(
+      "visibilitychange",
+      this.handleVisibilityChange,
+    );
+
+    this.visibilityHandlerAttached =
+      false;
+  }
+
+  private readonly handleVisibilityChange =
+    (): void => {
+      if (this.state.destroyed) {
+        return;
+      }
+
+      const hidden =
+        this.isDocumentHidden();
+
+      this.updateState({
+        hiddenByDocument:
+          hidden,
+      });
+
+      if (
+        hidden &&
+        this.config
+          .pauseWhenHidden &&
+        this.isRunning()
+      ) {
+        this.pauseForVisibility();
+
+        return;
+      }
+
+      if (
+        !hidden &&
+        this.config
+          .resumeWhenVisible &&
+        this.state
+          .pausedByVisibility
+      ) {
+        void this.resumeFromVisibility();
+      }
+    };
+
+  private pauseForVisibility():
+    void {
+    if (
+      this.state.destroyed ||
+      this.state.paused
+    ) {
+      return;
+    }
+
+    this.clearTimer();
+
+    this.store.pause();
+
+    this.updateState({
+      status: "paused",
+
+      paused: true,
+
+      waiting: false,
+
+      pausedByVisibility:
+        true,
+
+      nextTickAt: null,
+    });
+  }
+
+  private async resumeFromVisibility():
+    Promise<void> {
+    if (
+      this.state.destroyed ||
+      !this.state
+        .pausedByVisibility
+    ) {
+      return;
+    }
+
+    this.store.resume();
+
+    this.updateState({
+      status: "running",
+
+      running: true,
+
+      paused: false,
+
+      waiting: false,
+
+      pausedByVisibility:
+        false,
+
+      hiddenByDocument:
+        false,
+    });
+
+    if (
+      this.state.mode !==
+      "manual"
+    ) {
+      this.scheduleNextTick(
+        this.config.organIntervalMs,
+      );
+    }
+  }
+
+  /* ========================================================
+     Runtime Guards
+  ======================================================== */
+
+  private canExecute(
+    allowWhenPaused = false,
+  ): boolean {
+    if (
+      this.state.destroyed ||
+      this.store.isDestroyed() ||
+      this.engine.isDestroyed()
+    ) {
+      return false;
+    }
+
+    if (
+      this.state.paused &&
+      !allowWhenPaused
+    ) {
+      return false;
+    }
+
+    return true;
+  }
+
+  /* ========================================================
+     Idle Packet Generation
+  ======================================================== */
+
+  private generateIdlePacket():
+    string | null {
+    if (
+      !this.config
+        .generatePacketsWhenIdle
+    ) {
+      return null;
+    }
+
+    const input =
+      createIdlePacketInput(
+        this.state.tickCount,
+      );
+
+    const packet =
+      this.store.ingest(input);
+
+    return packet.id;
+  }
+
+  private ensurePacket():
+    string | null {
+    const activePacket =
+      this.store.getActivePacket();
+
+    if (activePacket) {
+      return activePacket.id;
+    }
+
+    const queuedPacket =
+      this.store
+        .getQueuedPackets()[0];
+
+    if (queuedPacket) {
+      this.store.setActivePacket(
+        queuedPacket.id,
+      );
+
+      return queuedPacket.id;
+    }
+
+    return this.generateIdlePacket();
   }
 
   /* ========================================================
@@ -635,317 +807,133 @@ export class EpistemeScheduler {
   ======================================================== */
 
   async start(): Promise<void> {
-    if (this.destroyed) {
-      throw new Error(
-        "Cannot start a destroyed Episteme Scheduler.",
-      );
-    }
-
-    if (this.loopPromise) {
-      return this.loopPromise;
-    }
-
-    this.pausedByUser = false;
-
-    this.patchState({
-      status: "starting",
-
-      startedAt:
-        this.state.startedAt ?? Date.now(),
-
-      pausedAt: undefined,
-      stoppedAt: undefined,
-
-      error: undefined,
-    });
-
-    const initialDelay = normalizeDelay(
-      this.config.initialDelayMs,
-      DefaultEpistemeSchedulerConfig.initialDelayMs,
-    );
-
-    if (initialDelay > 0) {
-      this.patchState({
-        nextScheduledAt:
-          Date.now() + initialDelay,
-      });
-
-      await wait(initialDelay);
-    }
-
     if (
-      this.destroyed ||
-      this.pausedByUser ||
-      this.pausedByVisibility
+      this.state.destroyed
     ) {
       return;
     }
 
-    const token = ++this.loopToken;
+    if (this.startPromise) {
+      return this.startPromise;
+    }
 
-    this.patchState({
-      status: "running",
-      nextScheduledAt: undefined,
-    });
+    if (
+      this.isRunning()
+    ) {
+      return;
+    }
 
-    this.loopPromise = this.runLoop(token).finally(
-      () => {
-        if (token === this.loopToken) {
-          this.loopPromise = null;
-        }
-      },
-    );
+    this.startPromise =
+      this.performStart();
 
-    return this.loopPromise;
+    try {
+      await this.startPromise;
+    } finally {
+      this.startPromise = null;
+    }
   }
 
-  /* ========================================================
-     Main Scheduler Loop
-  ======================================================== */
+  private async performStart():
+    Promise<void> {
+    const timestamp =
+      Date.now();
 
-  private async runLoop(token: number): Promise<void> {
-    while (
-      !this.destroyed &&
-      token === this.loopToken
-    ) {
-      if (
-        this.pausedByUser ||
-        this.pausedByVisibility
-      ) {
-        this.patchState({
-          status: "paused",
-          nextScheduledAt: undefined,
-        });
+    this.clearTimer();
 
-        await wait(250);
-        continue;
-      }
+    this.updateState({
+      status: "starting",
 
-      if (this.config.mode === "manual") {
-        this.patchState({
-          status: "waiting",
-          nextScheduledAt: undefined,
-        });
+      running: true,
 
-        await wait(250);
-        continue;
-      }
+      paused: false,
 
-      try {
-        const result = await this.tick(
-          this.state.tickCount === 0
-            ? "initial"
-            : "automatic",
-        );
+      waiting: false,
 
-        this.patchState({
-          retryCount: 0,
-          error: undefined,
+      processing: false,
 
-          status: result.executed
-            ? "running"
-            : "waiting",
-        });
-      } catch (error) {
-        const message =
-          resolveErrorMessage(error);
+      startedAt:
+        this.state.startedAt ??
+        timestamp,
 
-        const retryCount =
-          this.state.retryCount + 1;
+      stoppedAt: null,
 
-        this.patchState({
-          status: "error",
-          retryCount,
-          error: message,
-          nextScheduledAt: undefined,
-        });
+      lastError: null,
 
-        if (
-          retryCount > this.config.maxRetries
-        ) {
-          this.stop();
-          return;
-        }
+      pausedByVisibility:
+        false,
 
-        const retryDelay = normalizeDelay(
-          this.config.retryDelayMs,
-          DefaultEpistemeSchedulerConfig.retryDelayMs,
-        );
+      nextTickAt: null,
+    });
 
-        this.patchState({
-          nextScheduledAt:
-            Date.now() + retryDelay,
-        });
+    this.store.start();
 
-        await wait(retryDelay);
+    const packetId =
+      this.ensurePacket();
 
-        if (
-          this.destroyed ||
-          token !== this.loopToken
-        ) {
-          return;
-        }
-
-        continue;
-      }
-
-      if (
-        this.config.mode === "single-cycle"
-      ) {
-        this.pausedByUser = true;
-
-        this.kernel.pause();
-
-        this.patchState({
-          status: "completed",
-          pausedAt: Date.now(),
-          nextScheduledAt: undefined,
-        });
-
-        return;
-      }
-
-      const tickInterval = normalizeDelay(
-        this.config.tickIntervalMs,
-        DefaultEpistemeSchedulerConfig.tickIntervalMs,
+    if (!packetId) {
+      this.store.setStatus(
+        "waiting",
       );
 
-      this.patchState({
+      this.updateState({
         status: "waiting",
 
-        nextScheduledAt:
-          Date.now() + tickInterval,
+        waiting: true,
       });
-
-      await wait(tickInterval);
 
       if (
-        this.destroyed ||
-        token !== this.loopToken
+        this.state.mode !==
+        "manual"
       ) {
-        return;
+        this.scheduleNextTick(
+          this.config
+            .cycleIntervalMs,
+        );
       }
 
-      this.patchState({
-        status: "running",
-        nextScheduledAt: undefined,
-      });
-    }
-  }
-
-  /* ========================================================
-     Tick
-  ======================================================== */
-
-  async tick(
-    reason: EpistemeTickReason = "manual",
-  ): Promise<EpistemeTickResult> {
-    if (this.destroyed) {
-      return {
-        executed: false,
-        reason,
-        completedCycleCount:
-          this.state.completedCycleCount,
-        message:
-          "The Episteme Scheduler has been destroyed.",
-      };
+      return;
     }
 
-    if (this.tickPromise) {
-      return this.tickPromise;
+    const initialDelay =
+      Math.max(
+        0,
+        this.config
+          .initialDelayMs,
+      );
+
+    if (initialDelay > 0) {
+      await wait(initialDelay);
     }
 
-    this.tickPromise = this.executeTick(reason).finally(
-      () => {
-        this.tickPromise = null;
-      },
-    );
-
-    return this.tickPromise;
-  }
-
-  private async executeTick(
-    reason: EpistemeTickReason,
-  ): Promise<EpistemeTickResult> {
     if (
-      this.pausedByUser ||
-      this.pausedByVisibility
+      !this.isRunning()
     ) {
-      return {
-        executed: false,
-        reason,
-        completedCycleCount:
-          this.state.completedCycleCount,
-        message:
-          "The scheduler is currently paused.",
-      };
+      return;
     }
 
-    const tickCount =
-      this.state.tickCount + 1;
-
-    this.patchState({
+    this.updateState({
       status: "running",
 
-      tickCount,
-
-      lastTickAt: Date.now(),
-
-      nextScheduledAt: undefined,
-
-      error: undefined,
+      waiting: false,
     });
 
-    const packet =
-      await this.ensurePacketAvailable();
-
-    if (!packet) {
-      this.patchState({
-        status: "waiting",
-      });
-
-      return {
-        executed: false,
-        reason,
-        completedCycleCount:
-          this.state.completedCycleCount,
-        message:
-          "No Knowledge Packet is available for processing.",
-      };
+    if (
+      this.state.mode ===
+      "manual"
+    ) {
+      return;
     }
 
-    await this.kernel.processNextPacket();
+    if (
+      this.state.mode ===
+      "single-cycle"
+    ) {
+      await this.processNextCycle();
 
-    const completedCycleCount =
-      this.kernel.getState()
-        .metrics.completedCycles;
+      return;
+    }
 
-    this.patchState({
-      status: "completed",
-
-      completedCycleCount,
-
-      lastCycleAt: Date.now(),
-
-      queueLength:
-        this.kernel.getState()
-          .queue.packets.length,
-
-      currentPacket: undefined,
-    });
-
-    return {
-      executed: true,
-
-      reason,
-
-      packetId: packet.id,
-
-      completedCycleCount,
-
-      message:
-        "A Civilization Intelligence cycle was completed.",
-    };
+    this.scheduleNextTick(0);
   }
 
   /* ========================================================
@@ -954,20 +942,27 @@ export class EpistemeScheduler {
 
   pause(): void {
     if (
-      this.destroyed ||
-      this.pausedByUser
+      this.state.destroyed ||
+      this.state.paused
     ) {
       return;
     }
 
-    this.pausedByUser = true;
+    this.clearTimer();
 
-    this.kernel.pause();
+    this.store.pause();
 
-    this.patchState({
+    this.updateState({
       status: "paused",
-      pausedAt: Date.now(),
-      nextScheduledAt: undefined,
+
+      paused: true,
+
+      waiting: false,
+
+      nextTickAt: null,
+
+      pausedByVisibility:
+        false,
     });
   }
 
@@ -976,29 +971,49 @@ export class EpistemeScheduler {
   ======================================================== */
 
   async resume(): Promise<void> {
-    if (this.destroyed) return;
+    if (
+      this.state.destroyed ||
+      !this.state.paused
+    ) {
+      return;
+    }
 
-    this.pausedByUser = false;
+    this.store.resume();
 
-    this.patchState({
+    this.updateState({
       status: "running",
-      pausedAt: undefined,
-      error: undefined,
+
+      running: true,
+
+      paused: false,
+
+      waiting: false,
+
+      stoppedAt: null,
+
+      lastError: null,
+
+      pausedByVisibility:
+        false,
     });
 
-    await this.kernel.resume();
-
-    if (!this.loopPromise) {
-      const token = ++this.loopToken;
-
-      this.loopPromise = this.runLoop(token).finally(
-        () => {
-          if (token === this.loopToken) {
-            this.loopPromise = null;
-          }
-        },
-      );
+    if (
+      this.state.mode ===
+      "manual"
+    ) {
+      return;
     }
+
+    if (
+      this.state.mode ===
+      "single-cycle"
+    ) {
+      await this.processNextCycle();
+
+      return;
+    }
+
+    this.scheduleNextTick(0);
   }
 
   /* ========================================================
@@ -1006,632 +1021,859 @@ export class EpistemeScheduler {
   ======================================================== */
 
   stop(): void {
-    if (this.destroyed) return;
+    if (this.state.destroyed) {
+      return;
+    }
 
-    this.patchState({
-      status: "stopping",
-      nextScheduledAt: undefined,
-    });
+    this.clearTimer();
 
-    this.loopToken += 1;
+    this.store.stop();
 
-    this.pausedByUser = false;
-    this.pausedByVisibility = false;
-
-    this.kernel.stop();
-
-    this.loopPromise = null;
-    this.tickPromise = null;
-
-    this.patchState({
+    this.updateState({
       status: "offline",
+
+      running: false,
+
+      paused: false,
+
+      waiting: false,
+
+      processing: false,
 
       stoppedAt: Date.now(),
 
-      pausedAt: undefined,
-      nextScheduledAt: undefined,
+      nextTickAt: null,
 
-      currentPacket: undefined,
+      pausedByVisibility:
+        false,
     });
   }
 
   /* ========================================================
-     Process One Manual Cycle
+     Tick
   ======================================================== */
 
-  async processNext(): Promise<EpistemeTickResult> {
-    return this.tick("manual");
-  }
-
-  /* ========================================================
-     PART 1 ENDS HERE
-
-     Do not close the EpistemeScheduler class yet.
-     Append PART 2 immediately below this comment.
-  ======================================================== */
-
-  /* ========================================================
-     Ensure Packet Availability
-  ======================================================== */
-
-  private async ensurePacketAvailable():
-    Promise<KnowledgePacket | null> {
-    const existingPacket =
-      this.getNextAvailablePacket();
-
-    if (existingPacket) {
-      return existingPacket;
+  async tick():
+    Promise<SchedulerTickResult> {
+    if (this.activeTickPromise) {
+      return this.activeTickPromise;
     }
 
-    return this.generatePacketIfNeeded();
-  }
+    this.activeTickPromise =
+      this.executeTick({
+        scheduleNext: true,
+      });
 
-  /* ========================================================
-     Queue Selection
-  ======================================================== */
-
-  private getNextAvailablePacket():
-    KnowledgePacket | null {
-    const packets =
-      this.kernel.getState()
-        .queue.packets;
-
-    const candidates = packets.filter(
-      (packet) =>
-        packet.status === "created" ||
-        packet.status === "queued",
-    );
-
-    if (candidates.length === 0) {
-      return null;
+    try {
+      return await this.activeTickPromise;
+    } finally {
+      this.activeTickPromise = null;
     }
-
-    const priorityWeight: Record<
-      KnowledgePacket["priority"],
-      number
-    > = {
-      low: 1,
-      normal: 2,
-      high: 3,
-      critical: 4,
-    };
-
-    const sorted = [...candidates].sort(
-      (left, right) => {
-        const priorityDifference =
-          priorityWeight[right.priority] -
-          priorityWeight[left.priority];
-
-        if (priorityDifference !== 0) {
-          return priorityDifference;
-        }
-
-        return (
-          left.metadata.timestamp -
-          right.metadata.timestamp
-        );
-      },
-    );
-
-    return sorted[0] ?? null;
   }
 
-  /* ========================================================
-     Automatic Packet Generation
-  ======================================================== */
+  private async executeTick(
+    options:
+      SchedulerTickOptions = {},
+  ): Promise<SchedulerTickResult> {
+    const {
+      allowWhenPaused = false,
+      scheduleNext = true,
+    } = options;
 
-  private async generatePacketIfNeeded():
-    Promise<KnowledgePacket | null> {
+    const stateBefore =
+      this.store.getState();
+
+    const currentOrgan =
+      stateBefore.cycle
+        .activeOrgan;
+
     if (
-      !this.config.generatePacketsWhenIdle
+      !this.canExecute(
+        allowWhenPaused,
+      )
     ) {
-      return null;
+      return this.createTickResult(
+        false,
+        currentOrgan,
+        null,
+        "Scheduler is not available for execution.",
+      );
     }
 
-    const now = Date.now();
+    if (
+      !this.state.running &&
+      !allowWhenPaused
+    ) {
+      return this.createTickResult(
+        false,
+        currentOrgan,
+        null,
+        "Scheduler is not running.",
+      );
+    }
 
-    const lastGeneratedAt =
-      this.state.lastPacketGeneratedAt;
+    if (this.state.processing) {
+      return this.createTickResult(
+        false,
+        currentOrgan,
+        stateBefore.queue
+          .activePacketId,
+        "A Scheduler Tick is already processing.",
+      );
+    }
 
-    if (lastGeneratedAt !== undefined) {
-      const elapsed =
-        now - lastGeneratedAt;
+    this.clearTimer();
 
-      const minimumInterval =
-        normalizeDelay(
+    const packetId =
+      this.ensurePacket();
+
+    if (!packetId) {
+      this.store.setStatus(
+        "waiting",
+      );
+
+      this.updateState({
+        status: "waiting",
+
+        waiting: true,
+
+        processing: false,
+
+        lastTickAt:
+          Date.now(),
+
+        nextTickAt: null,
+      });
+
+      if (
+        scheduleNext &&
+        this.state.mode ===
+          "automatic"
+      ) {
+        this.scheduleNextTick(
           this.config
-            .generatedPacketIntervalMs,
-          DefaultEpistemeSchedulerConfig
-            .generatedPacketIntervalMs,
+            .cycleIntervalMs,
         );
-
-      if (elapsed < minimumInterval) {
-        return null;
       }
-    }
 
-    const context =
-      this.getContext();
-
-    const provider =
-      this.config.packetProvider;
-
-    const input = provider
-      ? await provider(context)
-      : createDefaultPacketInput(context);
-
-    if (!input) {
-      return null;
-    }
-
-    const packet =
-      this.kernel.ingest(input);
-
-    this.patchState({
-      generatedPacketCount:
-        this.state.generatedPacketCount + 1,
-
-      lastPacketGeneratedAt: now,
-
-      queueLength:
-        this.kernel.getState()
-          .queue.packets.length,
-    });
-
-    return packet;
-  }
-
-  /* ========================================================
-     Manual Packet Generation
-  ======================================================== */
-
-  async generatePacket():
-    Promise<KnowledgePacket | null> {
-    if (this.destroyed) {
-      return null;
-    }
-
-    const provider =
-      this.config.packetProvider;
-
-    const context =
-      this.getContext();
-
-    const input = provider
-      ? await provider(context)
-      : createDefaultPacketInput(context);
-
-    if (!input) {
-      return null;
-    }
-
-    const packet =
-      this.kernel.ingest(input);
-
-    this.patchState({
-      generatedPacketCount:
-        this.state.generatedPacketCount + 1,
-
-      lastPacketGeneratedAt:
-        Date.now(),
-
-      queueLength:
-        this.kernel.getState()
-          .queue.packets.length,
-    });
-
-    return packet;
-  }
-
-  /* ========================================================
-     External Knowledge Ingestion
-  ======================================================== */
-
-  ingest(
-    input: EpistemeKernelInput,
-  ): KnowledgePacket {
-    if (this.destroyed) {
-      throw new Error(
-        "Cannot ingest knowledge into a destroyed Episteme Scheduler.",
+      return this.createTickResult(
+        false,
+        currentOrgan,
+        null,
+        "No Knowledge Packet is available.",
       );
     }
 
-    const packet =
-      this.kernel.ingest(input);
-
-    this.patchState({
-      queueLength:
-        this.kernel.getState()
-          .queue.packets.length,
-    });
-
-    return packet;
-  }
-
-  /* ========================================================
-     Batch Ingestion
-  ======================================================== */
-
-  ingestMany(
-    inputs: EpistemeKernelInput[],
-  ): KnowledgePacket[] {
-    if (this.destroyed) {
-      throw new Error(
-        "Cannot ingest knowledge into a destroyed Episteme Scheduler.",
-      );
-    }
-
-    const packets =
-      inputs.map((input) =>
-        this.kernel.ingest(input),
-      );
-
-    this.patchState({
-      queueLength:
-        this.kernel.getState()
-          .queue.packets.length,
-    });
-
-    return packets;
-  }
-
-  /* ========================================================
-     Process Specific Packet
-  ======================================================== */
-
-  async processPacket(
-    packetId: string,
-  ): Promise<void> {
-    if (this.destroyed) {
-      return;
-    }
-
-    this.patchState({
+    this.updateState({
       status: "running",
-      error: undefined,
+
+      waiting: false,
+
+      processing: true,
+
+      nextTickAt: null,
+
+      lastError: null,
     });
 
     try {
-      await this.kernel.processPacket(
-        packetId,
-      );
+      const beforeProcessing =
+        this.store.getState();
 
-      this.patchState({
-        status: "completed",
+      const organId =
+        beforeProcessing.cycle
+          .activeOrgan;
 
-        completedCycleCount:
-          this.kernel.getState()
-            .metrics.completedCycles,
+      const result =
+        await this.engine
+          .processCurrentOrganDetailed();
 
-        lastCycleAt: Date.now(),
+      if (!result) {
+        this.updateState({
+          status: "waiting",
 
-        queueLength:
-          this.kernel.getState()
-            .queue.packets.length,
+          waiting: true,
 
-        currentPacket: undefined,
+          processing: false,
 
-        retryCount: 0,
-      });
-    } catch (error) {
-      const message =
-        resolveErrorMessage(error);
+          tickCount:
+            this.state.tickCount +
+            1,
 
-      this.patchState({
-        status: "error",
-        error: message,
-
-        retryCount:
-          this.state.retryCount + 1,
-      });
-
-      throw error;
-    }
-  }
-
-  /* ========================================================
-     Scheduler Mode
-  ======================================================== */
-
-  setMode(
-    mode: EpistemeSchedulerMode,
-  ): void {
-    if (this.destroyed) return;
-
-    this.config = {
-      ...this.config,
-      mode,
-    };
-
-    this.patchState({
-      mode,
-    });
-
-    if (mode === "manual") {
-      this.patchState({
-        status: "waiting",
-        nextScheduledAt: undefined,
-      });
-    }
-
-    if (
-      mode === "automatic" &&
-      !this.loopPromise &&
-      !this.pausedByUser &&
-      !this.pausedByVisibility
-    ) {
-      void this.start();
-    }
-  }
-
-  /* ========================================================
-     Automatic Mode Shortcut
-  ======================================================== */
-
-  enableAutomaticMode(): void {
-    this.setMode("automatic");
-  }
-
-  /* ========================================================
-     Manual Mode Shortcut
-  ======================================================== */
-
-  enableManualMode(): void {
-    this.setMode("manual");
-  }
-
-  /* ========================================================
-     Single Cycle Mode Shortcut
-  ======================================================== */
-
-  enableSingleCycleMode(): void {
-    this.setMode("single-cycle");
-  }
-
-  /* ========================================================
-     Browser Visibility Handling
-  ======================================================== */
-
-  private installVisibilityHandling():
-    void {
-    if (
-      typeof document === "undefined"
-    ) {
-      return;
-    }
-
-    const handleVisibilityChange = () => {
-      const hidden =
-        document.visibilityState ===
-        "hidden";
-
-      this.patchState({
-        hiddenByBrowser: hidden,
-      });
-
-      if (
-        hidden &&
-        this.config.pauseWhenHidden
-      ) {
-        this.pausedByVisibility = true;
-
-        this.kernel.pause();
-
-        this.patchState({
-          status: "paused",
-          nextScheduledAt: undefined,
+          lastTickAt:
+            Date.now(),
         });
 
-        return;
+        if (
+          scheduleNext &&
+          this.state.mode ===
+            "automatic"
+        ) {
+          this.scheduleNextTick(
+            this.config
+              .cycleIntervalMs,
+          );
+        }
+
+        return this.createTickResult(
+          false,
+          organId,
+          packetId,
+          "The current Organ did not produce a result.",
+        );
       }
 
       if (
-        !hidden &&
-        this.pausedByVisibility
+        result.organId ===
+        "memory"
       ) {
-        this.pausedByVisibility = false;
-
-        if (
-          this.config.resumeWhenVisible &&
-          !this.pausedByUser
-        ) {
-          void this.resumeAfterVisibility();
-        }
-      }
-    };
-
-    document.addEventListener(
-      "visibilitychange",
-      handleVisibilityChange,
-    );
-
-    this.visibilityCleanup = () => {
-      document.removeEventListener(
-        "visibilitychange",
-        handleVisibilityChange,
-      );
-    };
-  }
-
-  /* ========================================================
-     Visibility Resume
-  ======================================================== */
-
-  private async resumeAfterVisibility():
-    Promise<void> {
-    if (
-      this.destroyed ||
-      this.pausedByUser
-    ) {
-      return;
-    }
-
-    this.patchState({
-      status: "running",
-      hiddenByBrowser: false,
-      error: undefined,
-    });
-
-    await this.kernel.resume();
-
-    if (
-      !this.loopPromise &&
-      this.config.mode !== "manual"
-    ) {
-      const token = ++this.loopToken;
-
-      this.loopPromise =
-        this.runLoop(token).finally(
-          () => {
-            if (
-              token === this.loopToken
-            ) {
-              this.loopPromise = null;
-            }
-          },
+        await this.completeMemoryCycle(
+          result.packet.id,
         );
-    }
-  }
+      } else {
+        await this.engine
+          .advanceOrgan();
+      }
 
-  /* ========================================================
-     Retry
-  ======================================================== */
+      const afterProcessing =
+        this.store.getState();
 
-  async retry(): Promise<void> {
-    if (this.destroyed) return;
+      const cycleCompleted =
+        afterProcessing.cycle
+          .status ===
+        "completed";
 
-    this.patchState({
-      status: "starting",
-      error: undefined,
-    });
+      this.updateState(
+        (schedulerState) => ({
+          ...schedulerState,
 
-    const retryDelay =
-      normalizeDelay(
-        this.config.retryDelayMs,
-        DefaultEpistemeSchedulerConfig
-          .retryDelayMs,
+          status:
+            cycleCompleted
+              ? "completed"
+              : "running",
+
+          waiting: false,
+
+          processing: false,
+
+          tickCount:
+            schedulerState
+              .tickCount + 1,
+
+          cycleCount:
+            cycleCompleted
+              ? schedulerState
+                  .cycleCount + 1
+              : schedulerState
+                  .cycleCount,
+
+          lastTickAt:
+            Date.now(),
+
+          nextTickAt: null,
+        }),
       );
 
-    if (retryDelay > 0) {
-      this.patchState({
-        nextScheduledAt:
-          Date.now() + retryDelay,
+      if (cycleCompleted) {
+        await this.handleCompletedCycle(
+          scheduleNext,
+        );
+      } else if (
+        scheduleNext &&
+        this.state.mode ===
+          "automatic"
+      ) {
+        this.scheduleNextTick(
+          this.config
+            .organIntervalMs,
+        );
+      }
+
+      return this.createTickResult(
+        true,
+        result.organId,
+        result.packet.id,
+        cycleCompleted
+          ? "Civilization Intelligence cycle completed."
+          : `${EPISTEME_ORGANS[result.organId].title} completed. ${EPISTEME_ORGANS[result.nextOrganId].title} is next.`,
+      );
+    } catch (error) {
+      const message =
+        error instanceof Error
+          ? error.message
+          : "Unknown Scheduler failure.";
+
+      this.store.reportError(
+        EPISTEME_ERROR_CODES
+          .SCHEDULER_FAILURE,
+        message,
+        {
+          recoverable: true,
+
+          organId:
+            this.store.getState()
+              .cycle.activeOrgan,
+
+          packetId:
+            this.store.getState()
+              .queue
+              .activePacketId ??
+            undefined,
+
+          cycleId:
+            this.store.getState()
+              .cycle.id,
+        },
+      );
+
+      this.updateState({
+        status: "error",
+
+        waiting: false,
+
+        processing: false,
+
+        lastTickAt:
+          Date.now(),
+
+        nextTickAt: null,
+
+        lastError:
+          message,
       });
 
-      await wait(retryDelay);
+      return this.createTickResult(
+        false,
+        this.store.getState()
+          .cycle.activeOrgan,
+        packetId,
+        message,
+      );
+    }
+  }
+
+  /* ========================================================
+     Memory and Synchronization
+  ======================================================== */
+
+  private async completeMemoryCycle(
+    packetId: string,
+  ): Promise<void> {
+    const state =
+      this.store.getState();
+
+    this.store.setSynchronizing(
+      true,
+    );
+
+    this.store.emitEvent(
+      "synchronization_started",
+      `Civilization Intelligence cycle ${state.cycle.number} entered synchronization.`,
+      {
+        cycleId:
+          state.cycle.id,
+
+        organId: "memory",
+
+        packetId,
+      },
+    );
+
+    const synchronizationDelay =
+      Math.max(
+        0,
+        this.config
+          .synchronizationMs,
+      );
+
+    if (
+      synchronizationDelay > 0
+    ) {
+      await wait(
+        synchronizationDelay,
+      );
     }
 
-    if (this.destroyed) return;
-
-    this.patchState({
-      retryCount: 0,
-      nextScheduledAt: undefined,
-    });
-
-    if (this.config.mode === "manual") {
-      await this.processNext();
+    if (
+      this.state.destroyed
+    ) {
       return;
     }
 
-    await this.start();
+    await this.engine
+      .completeCycle();
   }
 
   /* ========================================================
-     Clear Error
+     Completed Cycle Handling
   ======================================================== */
 
-  clearError(): void {
-    if (this.destroyed) return;
+  private async handleCompletedCycle(
+    scheduleNext: boolean,
+  ): Promise<void> {
+    if (
+      this.state.mode ===
+      "single-cycle"
+    ) {
+      this.store.setRunning(
+        false,
+      );
 
-    this.kernel.clearErrors();
+      this.updateState({
+        status: "completed",
 
-    this.patchState({
-      error: undefined,
-      retryCount: 0,
+        running: false,
+
+        paused: false,
+
+        waiting: false,
+
+        processing: false,
+
+        stoppedAt:
+          Date.now(),
+
+        nextTickAt: null,
+      });
+
+      return;
+    }
+
+    if (
+      this.state.mode ===
+      "manual" ||
+      !scheduleNext
+    ) {
+      return;
+    }
+
+    const cycleDelay =
+      Math.max(
+        0,
+        this.config
+          .cycleIntervalMs,
+      );
+
+    this.updateState({
+      status: "waiting",
+
+      waiting: true,
+    });
+
+    this.scheduleNextTick(
+      cycleDelay,
+    );
+  }
+
+  /* ========================================================
+     Start a New Cycle When Needed
+  ======================================================== */
+
+  private prepareNextCycle():
+    boolean {
+    const state =
+      this.store.getState();
+
+    if (
+      state.cycle.status !==
+      "completed"
+    ) {
+      return true;
+    }
+
+    const packetId =
+      this.ensurePacket();
+
+    if (!packetId) {
+      return false;
+    }
+
+    this.store.startCycle();
+
+    return true;
+  }
+
+  /* ========================================================
+     Manual One-Step Processing
+  ======================================================== */
+
+  async processNextStep():
+    Promise<SchedulerTickResult> {
+    if (this.state.destroyed) {
+      return this.createTickResult(
+        false,
+        this.store.getState()
+          .cycle.activeOrgan,
+        null,
+        "Scheduler has been destroyed.",
+      );
+    }
+
+    const wasRunning =
+      this.state.running;
+
+    const wasPaused =
+      this.state.paused;
+
+    if (!wasRunning) {
+      this.store.start();
+
+      this.updateState({
+        status: "running",
+
+        running: true,
+
+        paused: false,
+
+        waiting: false,
+      });
+    }
+
+    this.prepareNextCycle();
+
+    const result =
+      await this.executeTick({
+        allowWhenPaused: true,
+
+        scheduleNext: false,
+      });
+
+    if (!wasRunning) {
+      this.store.stop();
+
+      this.updateState({
+        status:
+          result.status ===
+          "completed"
+            ? "completed"
+            : "offline",
+
+        running: false,
+
+        paused:
+          wasPaused,
+
+        waiting: false,
+
+        processing: false,
+
+        stoppedAt:
+          Date.now(),
+
+        nextTickAt: null,
+      });
+    }
+
+    return result;
+  }
+
+  /* ========================================================
+     Process Complete Cycle
+  ======================================================== */
+
+  async processNextCycle():
+    Promise<void> {
+    if (
+      !this.canExecute(true)
+    ) {
+      return;
+    }
+
+    this.clearTimer();
+
+    const packetId =
+      this.ensurePacket();
+
+    if (!packetId) {
+      this.store.setStatus(
+        "waiting",
+      );
+
+      this.updateState({
+        status: "waiting",
+
+        waiting: true,
+
+        processing: false,
+      });
+
+      return;
+    }
+
+    if (
+      this.store.getState()
+        .cycle.status ===
+      "completed"
+    ) {
+      this.store.startCycle();
+    }
+
+    if (
+      this.store.getState()
+        .cycle.status ===
+      "idle"
+    ) {
+      this.store.startCycle();
+    }
+
+    this.updateState({
+      status: "running",
+
+      running: true,
+
+      paused: false,
+
+      waiting: false,
+
+      processing: true,
+    });
+
+    try {
+      const maximumSteps = 6;
+
+      for (
+        let step = 0;
+        step < maximumSteps;
+        step += 1
+      ) {
+        if (
+          this.state.destroyed ||
+          this.state.paused
+        ) {
+          return;
+        }
+
+        const currentOrgan =
+          this.store.getState()
+            .cycle.activeOrgan;
+
+        const result =
+          await this.engine
+            .processCurrentOrganDetailed();
+
+        if (!result) {
+          break;
+        }
+
+        this.updateState(
+          (state) => ({
+            ...state,
+
+            tickCount:
+              state.tickCount + 1,
+
+            lastTickAt:
+              Date.now(),
+          }),
+        );
+
+        if (
+          currentOrgan ===
+          "memory"
+        ) {
+          await this.completeMemoryCycle(
+            result.packet.id,
+          );
+
+          break;
+        }
+
+        await this.engine
+          .advanceOrgan();
+
+        const organDelay =
+          Math.max(
+            0,
+            this.config
+              .organIntervalMs,
+          );
+
+        if (
+          organDelay > 0 &&
+          step <
+            maximumSteps - 1
+        ) {
+          await wait(organDelay);
+        }
+      }
+
+      const completed =
+        this.store.getState()
+          .cycle.status ===
+        "completed";
+
+      this.updateState(
+        (state) => ({
+          ...state,
+
+          status: completed
+            ? "completed"
+            : "waiting",
+
+          waiting:
+            !completed,
+
+          processing: false,
+
+          cycleCount:
+            completed
+              ? state.cycleCount +
+                1
+              : state.cycleCount,
+
+          lastTickAt:
+            Date.now(),
+        }),
+      );
+
+      if (
+        completed &&
+        this.state.mode ===
+          "automatic"
+      ) {
+        this.scheduleNextTick(
+          this.config
+            .cycleIntervalMs,
+        );
+      } else if (
+        completed &&
+        this.state.mode ===
+          "single-cycle"
+      ) {
+        this.store.setRunning(
+          false,
+        );
+
+        this.updateState({
+          running: false,
+
+          stoppedAt:
+            Date.now(),
+        });
+      }
+    } catch (error) {
+      const message =
+        error instanceof Error
+          ? error.message
+          : "Unknown cycle processing failure.";
+
+      this.store.reportError(
+        EPISTEME_ERROR_CODES
+          .SCHEDULER_FAILURE,
+        message,
+        {
+          recoverable: true,
+
+          organId:
+            this.store.getState()
+              .cycle.activeOrgan,
+
+          packetId:
+            this.store.getState()
+              .queue
+              .activePacketId ??
+            undefined,
+
+          cycleId:
+            this.store.getState()
+              .cycle.id,
+        },
+      );
+
+      this.updateState({
+        status: "error",
+
+        waiting: false,
+
+        processing: false,
+
+        lastError:
+          message,
+      });
+    }
+  }
+
+  /* ========================================================
+     Tick Result
+  ======================================================== */
+
+  private createTickResult(
+    executed: boolean,
+
+    organId: OrganId,
+
+    packetId:
+      string | null,
+
+    message: string,
+  ): SchedulerTickResult {
+    return {
+      executed,
 
       status:
-        this.pausedByUser ||
-        this.pausedByVisibility
-          ? "paused"
-          : "waiting",
-    });
-  }
+        this.state.status,
 
-  /* ========================================================
-     Queue Inspection
-  ======================================================== */
+      organId,
 
-  getQueuedPackets():
-    KnowledgePacket[] {
-    return this.kernel
-      .getState()
-      .queue.packets
-      .filter(
-        (packet) =>
-          packet.status === "queued" ||
-          packet.status === "created",
-      );
-  }
+      packetId,
 
-  getProcessingPackets():
-    KnowledgePacket[] {
-    return this.kernel
-      .getState()
-      .queue.packets
-      .filter(
-        (packet) =>
-          packet.status ===
-          "processing",
-      );
-  }
+      cycleNumber:
+        this.store.getState()
+          .cycle.number,
 
-  getArchivedPackets():
-    KnowledgePacket[] {
-    return [
-      ...this.kernel.getState()
-        .archive,
-    ];
-  }
-
-  getPacket(
-    packetId: string,
-  ): KnowledgePacket | null {
-    const state =
-      this.kernel.getState();
-
-    return (
-      state.queue.packets.find(
-        (packet) =>
-          packet.id === packetId,
-      ) ??
-      state.archive.find(
-        (packet) =>
-          packet.id === packetId,
-      ) ??
-      null
-    );
+      message,
+    };
   }
 
   /* ========================================================
      Reset
   ======================================================== */
 
-  reset(): void {
-    if (this.destroyed) return;
+  reset(
+    preserveArchive?: boolean,
+  ): void {
+    if (this.state.destroyed) {
+      return;
+    }
 
-    this.stop();
+    this.clearTimer();
 
-    this.kernel.reset();
+    this.store.reset(
+      preserveArchive,
+    );
 
-    this.state =
-      createInitialSchedulerState(
-        this.config.mode,
-      );
+    this.updateState({
+      status: "offline",
 
-    this.pausedByUser = false;
-    this.pausedByVisibility = false;
+      running: false,
 
-    this.notify();
+      paused: false,
+
+      waiting: false,
+
+      processing: false,
+
+      tickCount: 0,
+
+      cycleCount: 0,
+
+      startedAt: null,
+
+      stoppedAt:
+        Date.now(),
+
+      lastTickAt: null,
+
+      nextTickAt: null,
+
+      lastError: null,
+
+      hiddenByDocument:
+        this.isDocumentHidden(),
+
+      pausedByVisibility:
+        false,
+    });
   }
 
   /* ========================================================
@@ -1639,189 +1881,67 @@ export class EpistemeScheduler {
   ======================================================== */
 
   destroy(): void {
-    if (this.destroyed) return;
+    if (this.state.destroyed) {
+      return;
+    }
 
-    this.stop();
+    this.clearTimer();
 
-    this.kernelUnsubscribe?.();
-    this.kernelUnsubscribe = null;
+    this.detachVisibilityHandler();
 
-    this.visibilityCleanup?.();
-    this.visibilityCleanup = null;
+    this.store.stop();
 
-    this.listeners.clear();
-
-    this.kernel.destroy();
-
-    this.destroyed = true;
+    this.revision += 1;
 
     this.state = {
       ...this.state,
 
       status: "destroyed",
 
-      currentPacket: undefined,
-      nextScheduledAt: undefined,
+      running: false,
 
-      updatedAt: Date.now(),
+      paused: false,
+
+      waiting: false,
+
+      processing: false,
+
+      destroyed: true,
+
+      stoppedAt:
+        Date.now(),
+
+      nextTickAt: null,
     };
-  }
 
-  /* ========================================================
-     Status Helpers
-  ======================================================== */
+    this.snapshot =
+      this.createSnapshot();
 
-  isRunning(): boolean {
-    return (
-      this.state.status === "running" ||
-      this.state.status === "waiting"
-    );
-  }
+    this.notify();
 
-  isPaused(): boolean {
-    return (
-      this.pausedByUser ||
-      this.pausedByVisibility ||
-      this.state.status === "paused"
-    );
-  }
+    this.listeners.clear();
 
-  isDestroyed(): boolean {
-    return this.destroyed;
-  }
-
-  isAutomatic(): boolean {
-    return (
-      this.state.mode === "automatic"
-    );
-  }
-
-  hasQueuedPackets(): boolean {
-    return (
-      this.getQueuedPackets().length > 0
-    );
+    this.engine.destroy();
   }
 }
 
 /* ==========================================================
-   Default Scheduler Singleton
-========================================================== */
-
-let defaultScheduler:
-  | EpistemeScheduler
-  | null = null;
-
-/* ==========================================================
-   Get Default Scheduler
-========================================================== */
-
-export function getEpistemeScheduler(
-  config:
-    Partial<EpistemeSchedulerConfig> = {},
-): EpistemeScheduler {
-  if (!defaultScheduler) {
-    defaultScheduler =
-      new EpistemeScheduler(config);
-  }
-
-  return defaultScheduler;
-}
-
-/* ==========================================================
-   Independent Scheduler Factory
+   Scheduler Factory
 ========================================================== */
 
 export function createEpistemeScheduler(
+  store: EpistemeRuntimeStore,
+
+  engine: EpistemeEngine,
+
   config:
-    Partial<EpistemeSchedulerConfig> = {},
-  kernel?: EpistemeKernel,
+    Partial<
+      EpistemeSchedulerConfig
+    > = {},
 ): EpistemeScheduler {
   return new EpistemeScheduler(
+    store,
+    engine,
     config,
-    kernel,
   );
-}
-
-/* ==========================================================
-   Default Scheduler Reset
-========================================================== */
-
-export function resetDefaultEpistemeScheduler():
-  void {
-  if (defaultScheduler) {
-    defaultScheduler.destroy();
-  }
-
-  defaultScheduler = null;
-}
-
-/* ==========================================================
-   Scheduler Status Label
-========================================================== */
-
-export function getSchedulerStatusLabel(
-  status: EpistemeSchedulerStatus,
-): string {
-  switch (status) {
-    case "offline":
-      return "Offline";
-
-    case "starting":
-      return "Starting";
-
-    case "running":
-      return "Operating";
-
-    case "waiting":
-      return "Awaiting Signal";
-
-    case "paused":
-      return "Paused";
-
-    case "stopping":
-      return "Stopping";
-
-    case "completed":
-      return "Cycle Complete";
-
-    case "error":
-      return "System Error";
-
-    case "destroyed":
-      return "Destroyed";
-
-    default:
-      return "Unknown";
-  }
-}
-
-/* ==========================================================
-   Active Organ Operation Label
-========================================================== */
-
-export function getOrganOperationLabel(
-  organId: OrganId,
-): string {
-  switch (organId) {
-    case "observation":
-      return "Receiving";
-
-    case "understanding":
-      return "Integrating";
-
-    case "reasoning":
-      return "Evaluating";
-
-    case "design":
-      return "Architecting";
-
-    case "realization":
-      return "Executing";
-
-    case "memory":
-      return "Encoding";
-
-    default:
-      return "Processing";
-  }
 }

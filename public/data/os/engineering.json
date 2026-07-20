@@ -1,0 +1,908 @@
+{
+  "ok": true,
+  "updated": "2026-07-20T04:51:46.232Z",
+  "category": "engineering",
+  "total": 100,
+  "items": [
+    {
+      "id": "https-spacenews-com-mauritius-becomes-70th-nation-to-sign-the-artemis-accords",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Mauritius becomes 70th nation to sign the Artemis Accords",
+      "summary": "The island nation of Mauritius signed the Artemis Accords July 17, becoming the 70th nation to do so in less than six years. The post Mauritius becomes 70th nation to sign the Artemis Accords appeared first on SpaceNews.",
+      "url": "https://spacenews.com/mauritius-becomes-70th-nation-to-sign-the-artemis-accords/",
+      "ts": 1784397791000
+    },
+    {
+      "id": "https-spacenews-com-space-force-triples-launch-contract-ceiling-amid-rising-dema",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Space Force triples launch contract ceiling amid rising demand",
+      "summary": "The maximum value of the National Security Space Launch Phase 3 Lane 1 contract was raised from $5.6 billion to $17 billion The post Space Force triples launch contract ceiling amid rising demand appeared first on SpaceNews.",
+      "url": "https://spacenews.com/space-force-triples-launch-contract-ceiling-amid-rising-demand/",
+      "ts": 1784396406000
+    },
+    {
+      "id": "https-spacenews-com-pentagon-awards-7-1-million-to-expand-u-s-production-of-cove",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Pentagon awards $7.1 million to expand U.S. production of cover glass for satellites",
+      "summary": "Defense Production Act funding was awarded to Martin Materials Solutions, a small business that makes radiation-resistant cover glass used on spacecraft solar arrays and thermal-control systems The post Pentagon awards $7.1 million to expan…",
+      "url": "https://spacenews.com/pentagon-awards-7-1-million-to-expand-u-s-production-of-cover-glass-for-satellites/",
+      "ts": 1784393996000
+    },
+    {
+      "id": "https-spacenews-com-skyroot-aerospace-reaches-orbit-on-first-vikram-1-launch",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Skyroot Aerospace reaches orbit on first Vikram-1 launch",
+      "summary": "Skyroot Aerospace’s Vikram-1 rocket successfully lifted off on its inaugural flight July 18, becoming the first commercial Indian rocket to reach orbit. The post Skyroot Aerospace reaches orbit on first Vikram-1 launch appeared first on Spa…",
+      "url": "https://spacenews.com/skyroot-aerospace-reaches-orbit-on-first-vikram-1-launch/",
+      "ts": 1784361839000
+    },
+    {
+      "id": "https-spacenews-com-nasa-terminates-draper-lunar-lander-mission",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "NASA terminates Draper lunar lander mission",
+      "summary": "NASA and Draper have terminated plans for a lunar lander mission after significant delays in development of the spacecraft. The post NASA terminates Draper lunar lander mission appeared first on SpaceNews.",
+      "url": "https://spacenews.com/nasa-terminates-draper-lunar-lander-mission/",
+      "ts": 1784332820000
+    },
+    {
+      "id": "https-www-nasa-gov-centers-and-facilities-armstrong-nasa-pushes-new-wing-design-",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "NASA Pushes New Wing Design to Find Structural Limits",
+      "summary": "NASA researchers recently put a new wing design, appearing long and thin with a lightweight structural design, through a series of grueling tests to find its structural limits. What they found left them encouraged about the wing’s potential…",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/",
+      "ts": 1784329713000
+    },
+    {
+      "id": "https-science-nasa-gov-photojournal-the-growing-crescent-of-mars-as-nasas-psyche",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "The Growing Crescent of Mars as NASA’s Psyche Mission Approaches",
+      "summary": "Description This composite of images taken by NASA’s Psyche mission shows the crescent of Mars grow as the spacecraft approached the planet for a gravity assist from May 2 to May 15, 2026. The series begins with the smallest crescent at the…",
+      "url": "https://science.nasa.gov/photojournal/the-growing-crescent-of-mars-as-nasas-psyche-mission-approaches/",
+      "ts": 1784327547000
+    },
+    {
+      "id": "https-www-nasa-gov-organizations-ochmo-establishing-a-vte-risk-score-for-astrona",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "Establishing a VTE Risk Score for Astronauts Algorithm",
+      "summary": "In April 2026, NASA’s Office of the Chief Health and Medical Officer (OCHMO) initiated a working group to review updated VTE case information, additional data gathered revealing altered blood flow status within a cohort of astronauts, and d…",
+      "url": "https://www.nasa.gov/organizations/ochmo/establishing-a-vte-risk-score-for-astronauts-algorithm/",
+      "ts": 1784322098000
+    },
+    {
+      "id": "https-www-nasa-gov-centers-and-facilities-ames-nasa-awards-facilities-support-se",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "NASA Awards Facilities Support Services Contract for Ames Research Center ",
+      "summary": "CONTRACT RELEASE NASA has selected Chugach Intelligence Solutions LLC to provide comprehensive operations, maintenance, and repair services for NASA’s Ames Research Center in California’s Silicon Valley. The Ames Facilities Support Services…",
+      "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-awards-facilities-support-services-contract-for-ames-research-center/",
+      "ts": 1784320499000
+    },
+    {
+      "id": "https-www-nasa-gov-image-article-nasas-chandra-and-ixpe-study-pulsar-in-lighthou",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "NASA’s Chandra and IXPE Study Pulsar in Lighthouse Nebula",
+      "summary": "This composite image, released on July 9, 2026, shows the region around a pulsar – a neutron star with a strong magnetic field that spins incredibly fast – within the Lighthouse nebula. The image contains X-ray data from NASA’s Chandra X-ra…",
+      "url": "https://www.nasa.gov/image-article/nasas-chandra-and-ixpe-study-pulsar-in-lighthouse-nebula/",
+      "ts": 1784318723000
+    },
+    {
+      "id": "https-www-nasa-gov-news-release-la-nasa-invita-a-los-medios-de-comunicacion-al-l",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "La NASA invita a los medios de comunicación al lanzamiento del telescopio espacial Roman",
+      "summary": "Read this release in English here. Ya está abierto el plazo de acreditación de los medios de comunicación para el lanzamiento de la misión del telescopio espacial Nancy Grace Roman de la NASA. El lanzamiento del telescopio Roman está progra…",
+      "url": "https://www.nasa.gov/news-release/la-nasa-invita-a-los-medios-de-comunicacion-al-lanzamiento-del-telescopio-espacial-roman/",
+      "ts": 1784316426000
+    },
+    {
+      "id": "https-www-nasa-gov-news-release-nasa-invites-media-to-roman-space-telescope-crew",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "NASA Invites Media to Roman Space Telescope, Crew-13 Launches",
+      "summary": "Media accreditation now is open for the launch of NASA’s Nancy Grace Roman Space Telescope and the agency’s SpaceX Crew-13 missions, both targeting launch in the coming months. The Roman telescope is slated to launch no earlier than 7:20 a.…",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-roman-space-telescope-crew-13-launches/",
+      "ts": 1784311257000
+    },
+    {
+      "id": "https-science-nasa-gov-photojournal-nasas-psyche-mission-images-details-of-marti",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "NASA’s Psyche Mission Images Details of Martian Surface During Flyby",
+      "summary": "Description Captured by the multispectral imager instrument on NASA’s Psyche mission, this is an enhanced-color mosaic created from four individual images acquired on May 15, 2026, during the spacecraft’s flyby of Mars. Psyche was traveling…",
+      "url": "https://science.nasa.gov/photojournal/nasas-psyche-mission-images-details-of-martian-surface-during-flyby/",
+      "ts": 1784309918000
+    },
+    {
+      "id": "https-www-esa-int-esa-multimedia-images-2026-07-esa-s-mars-express-meets-nasa-s-",
+      "category": "engineering",
+      "source": "ESA",
+      "title": "ESA’s Mars Express meets NASA’s Psyche",
+      "summary": "Image: Mars Express image",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/ESA_s_Mars_Express_meets_NASA_s_Psyche",
+      "ts": 1784304000000
+    },
+    {
+      "id": "https-blogs-nvidia-com-blog-nvidia-vera-rubin-post-training-intelligence-per-dol",
+      "category": "engineering",
+      "source": "NVIDIA",
+      "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
+      "summary": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+      "ts": 1784300414000
+    },
+    {
+      "id": "https-www-nasa-gov-organizations-oiir-artemis-accords-nasa-welcomes-mauritius-as",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "NASA Welcomes Mauritius as 70th Artemis Accords Signatory  ",
+      "summary": "The Republic of Mauritius has officially joined the global coalition committed to responsible space exploration, becoming the newest signatory and seventh African country to join the Artemis Accords. NASA’s Deputy Administrator Matt Anderso…",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-mauritius-as-70th-artemis-accords-signatory/",
+      "ts": 1784299707000
+    },
+    {
+      "id": "https-www-esa-int-about-us-week-in-images-week-in-images-13-17-july-2026",
+      "category": "engineering",
+      "source": "ESA",
+      "title": "Week in images: 13-17 July 2026",
+      "summary": "Week in images: 13-17 July 2026 Discover our week through the lens",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_13-17_July_2026",
+      "ts": 1784293800000
+    },
+    {
+      "id": "https-spacenews-com-spacexs-only-problem-is-finding-more-space-to-work-with",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "SpaceX’s only problem is finding more space to work with",
+      "summary": "SpaceX’s IPO marks the moment the space dream became a mainstream capital markets story. For decades, it has sold a vision of interplanetary civilization on behalf of the wider space […] The post SpaceX’s only problem is finding more space …",
+      "url": "https://spacenews.com/spacexs-only-problem-is-finding-more-space-to-work-with/",
+      "ts": 1784293200000
+    },
+    {
+      "id": "http-www-iaea-org-node-289221",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "Healthy Soil, Healthy Crops in Seychelles",
+      "summary": "",
+      "url": "http://www.iaea.org/node/289221",
+      "ts": 1784291405000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-17-1140640-the-download-perimenopause-mis",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "The Download: perimenopause misinformation and China’s latest AI leap",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. There’s a lot of hype around perimenopause. Don’t buy it. Perimenopause used to be considered taboo, b…",
+      "url": "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
+      "ts": 1784290200000
+    },
+    {
+      "id": "https-spacenews-com-serbia-signs-the-artemis-accords",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Serbia signs the Artemis Accords",
+      "summary": "Serbia is the latest nation to sign the Artemis Accords, joining the U.S.-led effort more than two years after signing on to China’s lunar base project. The post Serbia signs the Artemis Accords appeared first on SpaceNews.",
+      "url": "https://spacenews.com/serbia-signs-the-artemis-accords/",
+      "ts": 1784283348000
+    },
+    {
+      "id": "https-www-esa-int-esa-multimedia-images-2026-07-european-service-module-team-mee",
+      "category": "engineering",
+      "source": "ESA",
+      "title": "European Service Module team meets Artemis II crew",
+      "summary": "Image: From left to right, NASA astronauts Chrstina Koch, Reid Wiseman and Victor Glover, and Canadian Space Agency astronaut Jeremy Hansen, with ESA's European Service Module team behind them at ESTEC.",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/European_Service_Module_team_meets_Artemis_II_crew",
+      "ts": 1784282400000
+    },
+    {
+      "id": "https-openai-com-index-a-scorecard-for-the-ai-age",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "A scorecard for the AI age",
+      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "ts": 1784282400000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-17-1140608-theres-a-lot-of-hype-around-pe",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "There’s a lot of hype around perimenopause. Don’t buy it.",
+      "summary": "Perimenopause has entered the chat. Perimenopause—and its better-known relative, menopause—used to be considered taboo. Not anymore, thanks at least in part to TV doctors and social media influencers. Perhaps it’s my age, but these days, bo…",
+      "url": "https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/",
+      "ts": 1784278800000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-17-1140622-weather-data-sabotage",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "The risk of weather data sabotage is rising",
+      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions…",
+      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+      "ts": 1784278652000
+    },
+    {
+      "id": "https-science-nasa-gov-earth-earth-observatory-a-tide-fueled-trove-of-biodiversi",
+      "category": "engineering",
+      "source": "NASA",
+      "title": "A Tide-Fueled Trove of Biodiversity in Guinea-Bissau",
+      "summary": "The expansive mudflats, sandy beaches, and mangrove forests of the Bijagós archipelago support an array of migratory shorebirds and large numbers of sea turtles.",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-tide-fueled-trove-of-biodiversity-in-guinea-bissau/",
+      "ts": 1784260860000
+    },
+    {
+      "id": "https-spacenews-com-spacex-aborts-starship-flight-13-launch-attempt",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "SpaceX aborts Starship Flight 13 launch attempt",
+      "summary": "SpaceX aborted the launch of its latest Starship test flight July 16 when some of the vehicle’s engines failed to ignite. The post SpaceX aborts Starship Flight 13 launch attempt appeared first on SpaceNews.",
+      "url": "https://spacenews.com/spacex-aborts-starship-flight-13-launch-attempt/",
+      "ts": 1784248805000
+    },
+    {
+      "id": "https-www-nature-com-articles-s41560-026-02092-9",
+      "category": "engineering",
+      "source": "Nature Energy",
+      "title": "Challenges and trends in automotive battery recycling",
+      "summary": "",
+      "url": "https://www.nature.com/articles/s41560-026-02092-9",
+      "ts": 1784246400000
+    },
+    {
+      "id": "https-spacenews-com-spacex-launches-21-satellites-for-military-data-network",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "SpaceX launches 21 satellites for military data network ",
+      "summary": "With the launch of 21 York Space Systems satellites, the Space Development Agency has now placed half of its planned Tranche 1 Transport Layer constellation in orbit The post SpaceX launches 21 satellites for military data network appeared …",
+      "url": "https://spacenews.com/spacex-launches-21-satellites-for-military-data-network/",
+      "ts": 1784235610000
+    },
+    {
+      "id": "https-spacenews-com-nature-study-identifies-a-new-way-to-spot-nuclear-weapons-in",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Nature study identifies a new way to spot nuclear weapons in orbit",
+      "summary": "NEW YORK — A study published last week in Nature Astronomy has proposed a new satellite design and technique to detect thermonuclear warheads in space. Funded in part by the […] The post Nature study identifies a new way to spot nuclear wea…",
+      "url": "https://spacenews.com/nature-study-identifies-a-new-way-to-spot-nuclear-weapons-in-orbit/",
+      "ts": 1784234172000
+    },
+    {
+      "id": "https-openai-com-index-why-teens-deserve-access-safe-ai",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "Why teens deserve access to safe AI",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "ts": 1784217600000
+    },
+    {
+      "id": "https-spacenews-com-defense-innovation-unit-seeks-commercial-path-to-deliver-ele",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Defense Innovation Unit seeks commercial path to deliver electrical power from orbit",
+      "summary": "DIU solicitation aims to move long-studied technology toward military use by fiscal 2030 The post Defense Innovation Unit seeks commercial path to deliver electrical power from orbit appeared first on SpaceNews.",
+      "url": "https://spacenews.com/defense-innovation-unit-seeks-commercial-path-to-deliver-electrical-power-from-orbit/",
+      "ts": 1784215785000
+    },
+    {
+      "id": "https-spacenews-com-building-the-infrastructure-for-a-shifting-space-economy-wit",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Building the infrastructure for a shifting space economy with Massi Ladovaz",
+      "summary": "In this episode, David Ariosto speaks with SpinLaunch CEO Massi Ladovaz. They discuss what attracted Ladovaz to reimagining how to launch spacecraft, the changing needs and challenges of building constellations […] The post Building the inf…",
+      "url": "https://spacenews.com/building-the-infrastructure-for-a-shifting-space-economy-with-massi-ladovaz/",
+      "ts": 1784215440000
+    },
+    {
+      "id": "https-spacenews-com-trumps-pick-to-lead-space-force-defends-plan-to-more-than-do",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Trump’s pick to lead Space Force defends plan to more than double budget",
+      "summary": "Lt. Gen. Douglas Schiess, to be the next chief of space operations of the U.S. Space Force, testified July 16 before the Senate Armed Services Committee in a confirmation hearing The post Trump’s pick to lead Space Force defends plan to mor…",
+      "url": "https://spacenews.com/trumps-pick-to-lead-space-force-defends-plan-to-more-than-double-budget/",
+      "ts": 1784214196000
+    },
+    {
+      "id": "https-blogs-nvidia-com-blog-geforce-now-thursday-onimusha-coming",
+      "category": "engineering",
+      "source": "NVIDIA",
+      "title": "Sharpen the Sword, Skip the Downloads — ‘Onimusha: Way of the Sword’ Is Coming to GeForce NOW",
+      "summary": "Onimusha: Way of the Sword is coming to GeForce NOW at launch, with the playable demo available this week. It’s joined by Denshattack! rolling in with five new games arriving in the cloud. Plus, GeForce NOW officially launches in India, mov…",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-onimusha-coming/",
+      "ts": 1784206834000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-16-1140600-the-download-openai-unveils-gp",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has built an LLM super-…",
+      "url": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
+      "ts": 1784203800000
+    },
+    {
+      "id": "https-spacenews-com-office-of-space-commerce-makes-its-case-for-mission-authoriz",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Office of Space Commerce makes its case for mission authorization",
+      "summary": "The Office of Space Commerce defended its proposal for a mission authorization scheme for novel space activities, arguing it would provide certainty for companies while limiting regulatory burdens. The post Office of Space Commerce makes it…",
+      "url": "https://spacenews.com/office-of-space-commerce-makes-its-case-for-mission-authorization/",
+      "ts": 1784203560000
+    },
+    {
+      "id": "https-spacenews-com-bluestaq-launches-bluestaq-arq-defense-grade-data-infrastruc",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Bluestaq Launches BLUESTAQ / ARQ Defense-Grade Data Infrastructure Now Available for Commercial, Government, and Enterprise Organizations",
+      "summary": "COLORADO SPRINGS, CO, July 16, 2026 – Bluestaq today announced the launch of BLUESTAQ / ARQ, the company’s commercial data infrastructure platform. / ARQ is built for organizations in healthcare, […] The post Bluestaq Launches BLUESTAQ / AR…",
+      "url": "https://spacenews.com/bluestaq-launches-bluestaq-arq-defense-grade-data-infrastructure-now-available-for-commercial-government-and-enterprise-organizations/",
+      "ts": 1784203200000
+    },
+    {
+      "id": "https-www-esa-int-science-exploration-space-science-expedition-sound-podcast-ser",
+      "category": "engineering",
+      "source": "ESA",
+      "title": "Expedition Sound podcast series",
+      "summary": "Expedition Sound is a podcast series by the European Space Agency (ESA) in which you’re invited to explore the Universe through your ears. Guided by sonifications – the translation of data into sound – host Zsófi Szalavári travels from our …",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Expedition_Sound_podcast_series",
+      "ts": 1784201400000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-16-1140505-heat-pump-sales-us",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "Why heat pumps are still so hot in the US",
+      "summary": "It feels as if it should be illegal to even think about heating appliances during the height of summer—seriously, these heat waves in New York have been brutal—but we need to talk about heat pumps. The appliances use electricity for heating…",
+      "url": "https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/",
+      "ts": 1784196000000
+    },
+    {
+      "id": "https-www-esa-int-applications-observing-the-earth-flex-and-sentinel-3c-arrive-a",
+      "category": "engineering",
+      "source": "ESA",
+      "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
+      "summary": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch campaigns. Over the co…",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
+      "ts": 1784185200000
+    },
+    {
+      "id": "https-spacenews-com-swissto12-raises-70-million-to-accelerate-small-geo-satellit",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Swissto12 raises $70 million to accelerate small GEO satellite production",
+      "summary": "Swissto12 said it has raised $70 million in fresh funding to keep up with growing demand for its small geostationary satellite manufacturing business. The post Swissto12 raises $70 million to accelerate small GEO satellite production appear…",
+      "url": "https://spacenews.com/swissto12-raises-70-million-to-accelerate-small-geo-satellite-production/",
+      "ts": 1784185200000
+    },
+    {
+      "id": "https-openai-com-index-cars24",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "url": "https://openai.com/index/cars24",
+      "ts": 1784160000000
+    },
+    {
+      "id": "https-www-nature-com-articles-s41560-026-02044-3",
+      "category": "engineering",
+      "source": "Nature Energy",
+      "title": "Building chemical stability with mechanics",
+      "summary": "",
+      "url": "https://www.nature.com/articles/s41560-026-02044-3",
+      "ts": 1784160000000
+    },
+    {
+      "id": "https-www-nature-com-articles-s41560-026-02109-3",
+      "category": "engineering",
+      "source": "Nature Energy",
+      "title": "Climate change reshapes resource adequacy risks and optimal renewable energy siting in wind and solar energy systems",
+      "summary": "",
+      "url": "https://www.nature.com/articles/s41560-026-02109-3",
+      "ts": 1784160000000
+    },
+    {
+      "id": "https-blogs-nvidia-com-blog-jetson-thor-robotics-edge-ai-agent",
+      "category": "engineering",
+      "source": "NVIDIA",
+      "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
+      "summary": "General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers capable of running foundation models at the edge. To meet that…",
+      "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+      "ts": 1784156454000
+    },
+    {
+      "id": "https-spacenews-com-space-force-awards-slingshot-69-million-for-ai-enabled-train",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Space Force awards Slingshot $69 million for AI-enabled training technology",
+      "summary": "The 4½-year award will fund simulated satellite-defense scenarios The post Space Force awards Slingshot $69 million for AI-enabled training technology appeared first on SpaceNews.",
+      "url": "https://spacenews.com/space-force-awards-slingshot-69-million-for-ai-enabled-training-technology/",
+      "ts": 1784142257000
+    },
+    {
+      "id": "https-spacenews-com-saltzmans-farewell-warning-prepare-for-war-in-space-to-prese",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Saltzman’s farewell warning: Prepare for war in space to preserve peace",
+      "summary": "In his final public speech as Space Force chief, Gen. Chance Saltzman called for combat credibility, stronger alliances and realism about the limits of procurement reform The post Saltzman’s farewell warning: Prepare for war in space to pre…",
+      "url": "https://spacenews.com/saltzmans-farewell-warning-prepare-for-war-in-space-to-preserve-peace/",
+      "ts": 1784139260000
+    },
+    {
+      "id": "https-spacenews-com-commercial-space-federation-launches-state-and-local-council",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Commercial Space Federation Launches State and Local Council to Align States on National Space Capacity and Strengthen the U.S. Industrial Base",
+      "summary": "Washington, D.C. — July 15, 2026 — The Commercial Space Federation (CSF), the leading trade association representing the commercial space industry, today announced the launch of its State and Local […] The post Commercial Space Federation L…",
+      "url": "https://spacenews.com/commercial-space-federation-launches-state-and-local-council-to-align-states-on-national-space-capacity-and-strengthen-the-u-s-industrial-base/",
+      "ts": 1784138400000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-15-1140514-meet-gpt-red-an-llm-super-hack",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenA…",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "ts": 1784135377000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-pressreleases-update-358-iaea-director-general-stat",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "Update 358 – IAEA Director General Statement on Situation in Ukraine",
+      "summary": "",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-358-iaea-director-general-statement-on-situation-in-ukraine",
+      "ts": 1784125434000
+    },
+    {
+      "id": "https-spacenews-com-new-startup-working-with-university-of-texas-seeks-to-trap-s",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Startup working with University of Texas focuses on trapping small debris",
+      "summary": "NAPA, Calif. – Florida startup Satellite Orbital Access and Removal (SOAR) announced a partnership July 15 with the University of Texas, El Paso, (UTEP) to develop a passive system to […] The post Startup working with University of Texas fo…",
+      "url": "https://spacenews.com/new-startup-working-with-university-of-texas-seeks-to-trap-small-debris/",
+      "ts": 1784124000000
+    },
+    {
+      "id": "https-www-esa-int-esa-multimedia-videos-2026-07-replay-of-the-online-media-brief",
+      "category": "engineering",
+      "source": "ESA",
+      "title": "Replay of the online media briefing on the total solar eclipse",
+      "summary": "Video: 00:57:42 ESA experts explain the science of eclipses, including visibility and key opportunities for scientific observation.",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Replay_of_the_online_media_briefing_on_the_total_solar_eclipse",
+      "ts": 1784120400000
+    },
+    {
+      "id": "https-spacenews-com-icarus-robotics-taps-kulr-to-provide-batteries-for-space-sta",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Icarus Robotics taps KULR to provide batteries for Space Station robots",
+      "summary": "NAPA, Calif. – Icarus Robotics, the New York startup developing dexterous mobile robots for space missions, selected KULR Technology Group to provide batteries for Joy, a free-flying platform destined for […] The post Icarus Robotics taps K…",
+      "url": "https://spacenews.com/icarus-robotics-taps-kulr-to-provide-batteries-for-space-station-robots/",
+      "ts": 1784120400000
+    },
+    {
+      "id": "https-spacenews-com-laying-the-groundwork-for-the-first-human-mission-to-mars",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Laying the groundwork for the first human mission to Mars",
+      "summary": "Sending humans to Mars and returning them safely to Earth would be one of the most complex endeavors that humans have ever carried out. The number of issues that must […] The post Laying the groundwork for the first human mission to Mars ap…",
+      "url": "https://spacenews.com/laying-the-groundwork-for-the-first-human-mission-to-mars/",
+      "ts": 1784120400000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-news-iaea-draws-safeguards-conclusions-for-179-stat",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "IAEA Draws Safeguards Conclusions for 179 States – IAEA Report",
+      "summary": "",
+      "url": "http://www.iaea.org/newscenter/news/iaea-draws-safeguards-conclusions-for-179-states-iaea-report",
+      "ts": 1784118609000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-15-1140498-the-download-useful-quantum-co",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. PsiQuantum has a plan to make a massive quantum computer out of light The machine that could change th…",
+      "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
+      "ts": 1784117400000
+    },
+    {
+      "id": "https-openai-com-index-advancing-ai-safety-through-state-and-federal-action",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "The US is advancing AI safety through state and federal action",
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "ts": 1784116800000
+    },
+    {
+      "id": "https-spacenews-com-satellite-investment-sets-annual-record-halfway-through-2026",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Satellite investment sets annual record halfway through 2026",
+      "summary": "Investment in satellite companies reached $8.1 billion in the first half of 2026, already surpassing every previous annual total tracked by early-stage investor Space Capital. The post Satellite investment sets annual record halfway through…",
+      "url": "https://spacenews.com/satellite-investment-sets-annual-record-halfway-through-2026/",
+      "ts": 1784113572000
+    },
+    {
+      "id": "https-blogs-nvidia-com-blog-japan-ecosystem-2026",
+      "category": "engineering",
+      "source": "NVIDIA",
+      "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
+      "summary": "Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This week NVIDIA and its …",
+      "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026/",
+      "ts": 1784112697000
+    },
+    {
+      "id": "https-spacenews-com-japan-seeks-to-ramp-up-launch-activity",
+      "category": "engineering",
+      "source": "SpaceNews",
+      "title": "Japan seeks to ramp up launch activity",
+      "summary": "The Japanese government wants to sharply increase the number of launches despite struggles with both current and new launch vehicles. The post Japan seeks to ramp up launch activity appeared first on SpaceNews.",
+      "url": "https://spacenews.com/japan-seeks-to-ramp-up-launch-activity/",
+      "ts": 1784111278000
+    },
+    {
+      "id": "https-openai-com-index-unlocking-self-improvement-gpt-red",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "ts": 1784109600000
+    },
+    {
+      "id": "https-www-esa-int-science-exploration-space-science-mars-express-metallic-waves-",
+      "category": "engineering",
+      "source": "ESA",
+      "title": "Metallic waves on ancient Mars",
+      "summary": "The European Space Agency’s Mars Express has spotted a swathe of metallic-looking waves filling Mars’s large Kaiser Crater – an ancient and otherworldly dune field sculpted by wind.",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Metallic_waves_on_ancient_Mars",
+      "ts": 1784106000000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-news-nuclear-science-is-transforming-rainbow-trout-",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "Nuclear Science is Transforming Rainbow Trout Farming in Latin America",
+      "summary": "",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-science-is-transforming-rainbow-trout-farming-in-latin-america",
+      "ts": 1784099130000
+    },
+    {
+      "id": "https-blogs-nvidia-com-blog-nemotron-open-models-ai-trust-control-customize",
+      "category": "engineering",
+      "source": "NVIDIA",
+      "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+      "summary": "Enterprises have plenty of powerful models to choose from. The real test is whether the AI an enterprise builds uniquely addresses the needs of the business: improving workflows, tapping into domain knowledge and exceeding standards for acc…",
+      "url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
+      "ts": 1784047513000
+    },
+    {
+      "id": "https-blogs-nvidia-com-blog-performance-per-watt-ai-infrastructure-efficiency",
+      "category": "engineering",
+      "source": "NVIDIA",
+      "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+      "summary": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only…",
+      "url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+      "ts": 1784041220000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-14-1140391-the-download-anthropic-claude-",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "The Download: Claude’s inner workings, and the future of world models",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O’Donnell When Anthropic announced l…",
+      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+      "ts": 1784031000000
+    },
+    {
+      "id": "https-openai-com-index-managing-ai-investments-in-agentic-era",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "How to manage AI investments in the agentic era",
+      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "ts": 1784023200000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-14-1140356-psiquantum-plan-massive-quantu",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
+      "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid…",
+      "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
+      "ts": 1784016000000
+    },
+    {
+      "id": "https-www-esa-int-science-exploration-human-and-robotic-exploration-artemis-ii-a",
+      "category": "engineering",
+      "source": "ESA",
+      "title": "Artemis II astronauts visit ESA",
+      "summary": "Yesterday, the four Artemis II astronauts visited ESA’s technical site in the Netherlands, where they met the team behind the European Service Module that powered their Orion spacecraft around the Moon and safely back to Earth.",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Artemis_II_astronauts_visit_ESA",
+      "ts": 1784015340000
+    },
+    {
+      "id": "https-openai-com-academy-codex-for-work-how-sales-teams-use-codex",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "How sales teams use ChatGPT Work",
+      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "ts": 1783987200000
+    },
+    {
+      "id": "https-openai-com-academy-codex-for-work-how-data-science-teams-use-codex",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "How data science teams use ChatGPT Work",
+      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "ts": 1783987200000
+    },
+    {
+      "id": "https-www-nature-com-articles-s41560-026-02119-1",
+      "category": "engineering",
+      "source": "Nature Energy",
+      "title": "Author Correction: Thin membranes with Cu-ion crosslinking for high temperature polymer electrolyte membrane fuel cells",
+      "summary": "",
+      "url": "https://www.nature.com/articles/s41560-026-02119-1",
+      "ts": 1783987200000
+    },
+    {
+      "id": "https-www-nature-com-articles-s41560-026-02107-5",
+      "category": "engineering",
+      "source": "Nature Energy",
+      "title": "Coordinated planning of European charging infrastructure and energy system for optimal V1G and V2G deployment",
+      "summary": "",
+      "url": "https://www.nature.com/articles/s41560-026-02107-5",
+      "ts": 1783987200000
+    },
+    {
+      "id": "https-www-nature-com-articles-s41560-026-02093-8",
+      "category": "engineering",
+      "source": "Nature Energy",
+      "title": "Controlled solid-state crystallization with formamidinium acetate for fully vacuum-deposited perovskite solar cells",
+      "summary": "",
+      "url": "https://www.nature.com/articles/s41560-026-02093-8",
+      "ts": 1783987200000
+    },
+    {
+      "id": "https-www-technologyreview-com-2026-07-13-1140343-what-anthropics-latest-ai-disc",
+      "category": "engineering",
+      "source": "MIT Technology Review",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a re…",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "ts": 1783965600000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-pressreleases-iaea-concludes-international-physical",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "IAEA Concludes International Physical Protection Advisory Follow-Up Mission in China",
+      "summary": "",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-concludes-international-physical-protection-advisory-follow-up-mission-in-china",
+      "ts": 1783939748000
+    },
+    {
+      "id": "https-www-nature-com-articles-s41560-026-02096-5",
+      "category": "engineering",
+      "source": "Nature Energy",
+      "title": "Ligand-confined zinc slurries enable durable flow-based energy storage",
+      "summary": "",
+      "url": "https://www.nature.com/articles/s41560-026-02096-5",
+      "ts": 1783900800000
+    },
+    {
+      "id": "https-www-nature-com-articles-s41560-026-02111-9",
+      "category": "engineering",
+      "source": "Nature Energy",
+      "title": "Early-stage local chemistry regulation enabling open-circuit voltage of 847 mV in wide-bandgap Cu<sub>2</sub>ZnSnS<sub>4</sub> solar cells",
+      "summary": "",
+      "url": "https://www.nature.com/articles/s41560-026-02111-9",
+      "ts": 1783900800000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-pressreleases-iaea-led-mission-sample-alps-treated-",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "IAEA-Led Mission Sample ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
+      "summary": "",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-led-mission-sample-alps-treated-water-at-fukushima-daiichi-nuclear-power-station-under-additional-measures",
+      "ts": 1783677004000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-news-iaea-launches-first-regional-radiation-protect",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "IAEA Launches First Regional Radiation Protection Training Course for Caribbean States",
+      "summary": "The IAEA has launched its first Postgraduate Educational Course (PGEC) on Radiation Protection and the Safety of Radiation Sources for Caribbean countries, marking an important milestone in strengthening radiation safety capacity across the…",
+      "url": "http://www.iaea.org/newscenter/news/iaea-launches-first-regional-radiation-protection-training-course-for-caribbean-states",
+      "ts": 1783670400000
+    },
+    {
+      "id": "https-openai-com-index-deutsche-telekom",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "ts": 1783666800000
+    },
+    {
+      "id": "https-openai-com-academy-getting-started",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "Getting started with ChatGPT",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "url": "https://openai.com/academy/getting-started",
+      "ts": 1783641600000
+    },
+    {
+      "id": "https-blogs-nvidia-com-blog-geforce-now-thursday-toronto-expansion",
+      "category": "engineering",
+      "source": "NVIDIA",
+      "title": "GeForce NOW Turns Up the Heat With New GeForce RTX 5080-Powered Toronto Server",
+      "summary": "This GFN Thursday brings more games, more power and more ways to play on GeForce NOW. The cloud gaming service is expanding with a new GeForce RTX 5080-powered server in Toronto, bringing dedicated high performance in the cloud closer to me…",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-toronto-expansion/",
+      "ts": 1783602055000
+    },
+    {
+      "id": "https-openai-com-index-gpt-5-6-preferred-model-microsoft-365-copilot",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "ts": 1783602000000
+    },
+    {
+      "id": "https-openai-com-index-bio-bug-bounty",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "ts": 1783591200000
+    },
+    {
+      "id": "https-openai-com-index-gpt-5-6",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "url": "https://openai.com/index/gpt-5-6",
+      "ts": 1783591200000
+    },
+    {
+      "id": "https-openai-com-index-chatgpt-for-your-most-ambitious-work",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "ts": 1783591200000
+    },
+    {
+      "id": "https-blogs-nvidia-com-blog-nemotron-langchain-agents-open-stack",
+      "category": "engineering",
+      "source": "NVIDIA",
+      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achi…",
+      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+      "ts": 1783522827000
+    },
+    {
+      "id": "https-openai-com-index-government-national-security-partnerships",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "Our approach to government and national security partnerships",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "ts": 1783517400000
+    },
+    {
+      "id": "https-openai-com-index-separating-signal-from-noise-coding-evaluations",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "Separating signal from noise in coding evaluations",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "ts": 1783515600000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-news-iaea-helps-latin-american-and-the-caribbean-co",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "IAEA Helps Latin American and the Caribbean Countries Prepare for Nuclear and Radiological Emergencies Coinciding with Other Crises",
+      "summary": "The IAEA helps countries prepare for nuclear and radiological emergencies through its safety standards and guidance, as well as capacity-building initiatives.",
+      "url": "http://www.iaea.org/newscenter/news/iaea-helps-latin-american-and-the-caribbean-countries-prepare-for-nuclear-and-radiological-emergencies-coinciding-with-other-crises",
+      "ts": 1783513819000
+    },
+    {
+      "id": "https-openai-com-index-k-12-educators-practical-skills",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "Helping K–12 educators build practical AI skills",
+      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "ts": 1783504800000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-news-iaea-and-world-bank-group-collaborate-to-advan",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "IAEA and World Bank Group Collaborate to Advance Nuclear Energy for Development",
+      "summary": "",
+      "url": "http://www.iaea.org/newscenter/news/iaea-and-world-bank-group-collaborate-to-advance-nuclear-energy-for-development",
+      "ts": 1783499405000
+    },
+    {
+      "id": "https-openai-com-index-introducing-gpt-live",
+      "category": "engineering",
+      "source": "OpenAI",
+      "title": "Introducing GPT-Live",
+      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "ts": 1783468800000
+    },
+    {
+      "id": "https-blogs-nvidia-com-blog-nvidia-vera-max-single-threaded-cpu-at-scale",
+      "category": "engineering",
+      "source": "NVIDIA",
+      "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+      "summary": "Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. Across the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the proc…",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+      "ts": 1783436452000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-news-republic-of-cyprus-signs-a-country-programme-f",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "Republic of Cyprus Signs a Country Programme Framework (CPF) for 2026-2031",
+      "summary": "HE Mr Andreas Ignatiou, Resident Representative, Permanent Mission of the Republic of Cyprus to the IAEA, and Mr Hua Liu, IAEA Deputy Director General and Head of the Department of Technical Cooperation, signed the Republic of Cyprus Countr…",
+      "url": "http://www.iaea.org/newscenter/news/republic-of-cyprus-signs-a-country-programme-framework-cpf-for-2026-2031",
+      "ts": 1783433858000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-news-iaea-launches-project-on-small-and-medium-size",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "IAEA Launches Project on Small and Medium Sized Magnetic Devices for Fusion Research",
+      "summary": "As fusion research expands across the public and private sectors and more countries seek to develop or join fusion research programmes, maintaining a diverse and globally connected experimental ecosystem is becoming increasingly important.",
+      "url": "http://www.iaea.org/newscenter/news/iaea-launches-project-on-small-and-medium-sized-magnetic-devices-for-fusion-research",
+      "ts": 1783415090000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-news-first-iaea-training-on-public-communication-in",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "First IAEA Training on Public Communication in Nuclear Security",
+      "summary": "",
+      "url": "http://www.iaea.org/newscenter/news/first-iaea-training-on-public-communication-in-nuclear-security",
+      "ts": 1783412387000
+    },
+    {
+      "id": "http-www-iaea-org-newscenter-news-nuclear-liability-ensuring-legal-certainty-and",
+      "category": "engineering",
+      "source": "IAEA",
+      "title": "Nuclear Liability: Ensuring Legal Certainty and Compensation for Nuclear Damage",
+      "summary": "",
+      "url": "http://www.iaea.org/newscenter/news/nuclear-liability-ensuring-legal-certainty-and-compensation-for-nuclear-damage",
+      "ts": 1783409405000
+    }
+  ]
+}

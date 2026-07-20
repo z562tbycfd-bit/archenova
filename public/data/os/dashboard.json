@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "updated": "2026-07-20T04:51:46.233Z",
+  "runtime": {
+    "status": "ONLINE",
+    "engine": "ArcheNova OS",
+    "version": "1.0",
+    "uptime": 0,
+    "lastSync": "2026-07-20T04:51:46.233Z",
+    "modules": [
+      "Science",
+      "Engineering",
+      "Governance"
+    ]
+  },
+  "counts": {
+    "science": 100,
+    "engineering": 100,
+    "governance": 100
+  },
+  "feeds": {
+    "science": {
+      "latest": {
+        "id": "https-phys-org-news-2026-07-underwater-drones-coral-reefs-benin-html",
+        "category": "science",
+        "source": "Phys.org",
+        "title": "Underwater drones discover coral reefs off Benin, long presumed dead, teeming with life",
+        "summary": "A coral reef, missing and presumed dead, has been found alive and well off the coast of Benin. Surveys in the 1960s, focused on identifying promising fishing areas, flagged a possible deep-water coral reef but assumed it must be dead. Now, …",
+        "url": "https://phys.org/news/2026-07-underwater-drones-coral-reefs-benin.html",
+        "ts": 1784520005000
+      },
+      "items": [
+        {
+          "id": "https-phys-org-news-2026-07-underwater-drones-coral-reefs-benin-html",
+          "category": "science",
+          "source": "Phys.org",
+          "title": "Underwater drones discover coral reefs off Benin, long presumed dead, teeming with life",
+          "summary": "A coral reef, missing and presumed dead, has been found alive and well off the coast of Benin. Surveys in the 1960s, focused on identifying promising fishing areas, flagged a possible deep-water coral reef but assumed it must be dead. Now, …",
+          "url": "https://phys.org/news/2026-07-underwater-drones-coral-reefs-benin.html",
+          "ts": 1784520005000
+        },
+        {
+          "id": "https-arxiv-org-abs-2607-15334",
+          "category": "science",
+          "source": "arXiv Physics",
+          "title": "Loss of positive definiteness is a symptom, not the cause, of high-Weissenberg-number breakdown",
+          "summary": "arXiv:2607.15334v1 Announce Type: new Abstract: Numerical breakdown at high Weissenberg number is often attributed to loss of symmetric positive definiteness (SPD) of the conformation tensor. That conclusion follows from Maxwell-type models…",
+          "url": "https://arxiv.org/abs/2607.15334",
+          "ts": 1784520000000
+        },
+        {
+          "id": "https-arxiv-org-abs-2607-15362",
+          "category": "science",
+          "source": "arXiv Physics",
+          "title": "Lattice Boltzmann Methods for Navier-Stokes Equations in General Orthogonal Coordinates for Efficient Flow Simulations using Nonuniform Clustered Grids",
+          "summary": "arXiv:2607.15362v1 Announce Type: new Abstract: Resolving multiscale fluid flows or boundary layers effectively requires the use of nonuniform meshes with local grid clustering. The standard lattice Boltzmann method (LBM), a kinetic theory-…",
+          "url": "https://arxiv.org/abs/2607.15362",
+          "ts": 1784520000000
+        }
+      ]
+    },
+    "engineering": {
+      "latest": {
+        "id": "https-spacenews-com-mauritius-becomes-70th-nation-to-sign-the-artemis-accords",
+        "category": "engineering",
+        "source": "SpaceNews",
+        "title": "Mauritius becomes 70th nation to sign the Artemis Accords",
+        "summary": "The island nation of Mauritius signed the Artemis Accords July 17, becoming the 70th nation to do so in less than six years. The post Mauritius becomes 70th nation to sign the Artemis Accords appeared first on SpaceNews.",
+        "url": "https://spacenews.com/mauritius-becomes-70th-nation-to-sign-the-artemis-accords/",
+        "ts": 1784397791000
+      },
+      "items": [
+        {
+          "id": "https-spacenews-com-mauritius-becomes-70th-nation-to-sign-the-artemis-accords",
+          "category": "engineering",
+          "source": "SpaceNews",
+          "title": "Mauritius becomes 70th nation to sign the Artemis Accords",
+          "summary": "The island nation of Mauritius signed the Artemis Accords July 17, becoming the 70th nation to do so in less than six years. The post Mauritius becomes 70th nation to sign the Artemis Accords appeared first on SpaceNews.",
+          "url": "https://spacenews.com/mauritius-becomes-70th-nation-to-sign-the-artemis-accords/",
+          "ts": 1784397791000
+        },
+        {
+          "id": "https-spacenews-com-space-force-triples-launch-contract-ceiling-amid-rising-dema",
+          "category": "engineering",
+          "source": "SpaceNews",
+          "title": "Space Force triples launch contract ceiling amid rising demand",
+          "summary": "The maximum value of the National Security Space Launch Phase 3 Lane 1 contract was raised from $5.6 billion to $17 billion The post Space Force triples launch contract ceiling amid rising demand appeared first on SpaceNews.",
+          "url": "https://spacenews.com/space-force-triples-launch-contract-ceiling-amid-rising-demand/",
+          "ts": 1784396406000
+        },
+        {
+          "id": "https-spacenews-com-pentagon-awards-7-1-million-to-expand-u-s-production-of-cove",
+          "category": "engineering",
+          "source": "SpaceNews",
+          "title": "Pentagon awards $7.1 million to expand U.S. production of cover glass for satellites",
+          "summary": "Defense Production Act funding was awarded to Martin Materials Solutions, a small business that makes radiation-resistant cover glass used on spacecraft solar arrays and thermal-control systems The post Pentagon awards $7.1 million to expan…",
+          "url": "https://spacenews.com/pentagon-awards-7-1-million-to-expand-u-s-production-of-cover-glass-for-satellites/",
+          "ts": 1784393996000
+        }
+      ]
+    },
+    "governance": {
+      "latest": {
+        "id": "https-ec-europa-eu-commission-presscorner-detail-en-speech-26-1650",
+        "category": "governance",
+        "source": "European Commission",
+        "title": "Remarks by Commissioner Albuquerque at the press conference on the Report on the competitiveness of the EU banking sector",
+        "summary": "European Commission Speech Brussels, 17 Jul 2026 Good afternoon, ladies and gentlemen, and thank you for your presence. Today, the Commission is presenting its report on the competitiveness of the banking sect...",
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1650",
+        "ts": 1784295834000
+      },
+      "items": [
+        {
+          "id": "https-ec-europa-eu-commission-presscorner-detail-en-speech-26-1650",
+          "category": "governance",
+          "source": "European Commission",
+          "title": "Remarks by Commissioner Albuquerque at the press conference on the Report on the competitiveness of the EU banking sector",
+          "summary": "European Commission Speech Brussels, 17 Jul 2026 Good afternoon, ladies and gentlemen, and thank you for your presence. Today, the Commission is presenting its report on the competitiveness of the banking sect...",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1650",
+          "ts": 1784295834000
+        },
+        {
+          "id": "https-ec-europa-eu-commission-presscorner-detail-en-ac-26-1649",
+          "category": "governance",
+          "source": "European Commission",
+          "title": "\"Ukraine has become a net security provider for Europe\": President von der Leyen unveils new defence partnership with Kyiv",
+          "summary": "European Commission News Brussels, 17 Jul 2026 President Ursula von der Leyen travelled to Kyiv on 15 July for her eleventh wartime visit to Ukraine, where she was awarded the inaugural Order of Europe, a n...",
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_1649",
+          "ts": 1784295381000
+        },
+        {
+          "id": "http-www-iaea-org-node-289221",
+          "category": "governance",
+          "source": "IAEA",
+          "title": "Healthy Soil, Healthy Crops in Seychelles",
+          "summary": "",
+          "url": "http://www.iaea.org/node/289221",
+          "ts": 1784291405000
+        }
+      ]
+    }
+  }
+}

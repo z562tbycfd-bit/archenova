@@ -1,0 +1,908 @@
+{
+  "ok": true,
+  "updated": "2026-07-20T04:51:43.956Z",
+  "category": "science",
+  "total": 100,
+  "items": [
+    {
+      "id": "https-phys-org-news-2026-07-underwater-drones-coral-reefs-benin-html",
+      "category": "science",
+      "source": "Phys.org",
+      "title": "Underwater drones discover coral reefs off Benin, long presumed dead, teeming with life",
+      "summary": "A coral reef, missing and presumed dead, has been found alive and well off the coast of Benin. Surveys in the 1960s, focused on identifying promising fishing areas, flagged a possible deep-water coral reef but assumed it must be dead. Now, …",
+      "url": "https://phys.org/news/2026-07-underwater-drones-coral-reefs-benin.html",
+      "ts": 1784520005000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15334",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Loss of positive definiteness is a symptom, not the cause, of high-Weissenberg-number breakdown",
+      "summary": "arXiv:2607.15334v1 Announce Type: new Abstract: Numerical breakdown at high Weissenberg number is often attributed to loss of symmetric positive definiteness (SPD) of the conformation tensor. That conclusion follows from Maxwell-type models…",
+      "url": "https://arxiv.org/abs/2607.15334",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15362",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Lattice Boltzmann Methods for Navier-Stokes Equations in General Orthogonal Coordinates for Efficient Flow Simulations using Nonuniform Clustered Grids",
+      "summary": "arXiv:2607.15362v1 Announce Type: new Abstract: Resolving multiscale fluid flows or boundary layers effectively requires the use of nonuniform meshes with local grid clustering. The standard lattice Boltzmann method (LBM), a kinetic theory-…",
+      "url": "https://arxiv.org/abs/2607.15362",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15377",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Controlled drop generation via ligament extraction from a static or vibrating liquid bath",
+      "summary": "arXiv:2607.15377v1 Announce Type: new Abstract: We introduce a simple method for generating droplets at the surface of a liquid bath by rapidly stretching a liquid ligament with a spring-loaded cylindrical probe. By varying the probe radius…",
+      "url": "https://arxiv.org/abs/2607.15377",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15393",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Contest between diverging k-vectors and astigmatism in an aberrated randomly scattered light",
+      "summary": "arXiv:2607.15393v1 Announce Type: new Abstract: The impact of astigmatism on randomly scattered light, here speckles which are generated from a ground glass (GG) plate, is investigated by studying the change in the shape of the intensity co…",
+      "url": "https://arxiv.org/abs/2607.15393",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15417",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "A termolecular reaction theory for gas-phase nucleation based on long-range intermolecular forces",
+      "summary": "arXiv:2607.15417v1 Announce Type: new Abstract: The birth of a new phase is usually described thermodynamically, but in the gas phase it begins as chemistry. Here, we show that gas-phase nucleation can be described as a termolecular reactio…",
+      "url": "https://arxiv.org/abs/2607.15417",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15425",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Electronic Structure Calculations from Occupation Numbers on Quantum Computers",
+      "summary": "arXiv:2607.15425v1 Announce Type: new Abstract: We present a quantum-classical algorithm for electronic structure calculations that dramatically reduces the quantum measurement cost of variational quantum eigensolver (VQE) approaches. While…",
+      "url": "https://arxiv.org/abs/2607.15425",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15444",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Computer-generated QIS tutorial feedback is valued by students, but does not replicate in-class collaboration",
+      "summary": "arXiv:2607.15444v1 Announce Type: new Abstract: PER has consistently demonstrated the effectiveness of small-group tutorials in helping students develop conceptual understanding and fluency, but instructor uptake is limited by resource cons…",
+      "url": "https://arxiv.org/abs/2607.15444",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15484",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Dependence of Momentum Transport on the Dominant Turbulence Regime in the DIII-D Tokamak",
+      "summary": "arXiv:2607.15484v1 Announce Type: new Abstract: Accurate prediction of toroidal plasma rotation is essential for optimizing confinement and stability in future fusion devices. This work investigates turbulent core momentum transport in the …",
+      "url": "https://arxiv.org/abs/2607.15484",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15489",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Circulation Statistics in Rayleigh-B\\'enard Convection",
+      "summary": "arXiv:2607.15489v1 Announce Type: new Abstract: Important statistical properties of velocity circulation in homogeneous isotropic turbulence (HIT) have been unveiled in recent years, raising the question of whether they persist, or are modi…",
+      "url": "https://arxiv.org/abs/2607.15489",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15492",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Differentiable Cardiac Electrophysiology Simulations for Dynamical State and Parameter Estimation",
+      "summary": "arXiv:2607.15492v1 Announce Type: new Abstract: The heart's contractions are triggered by action potential waves, which propagate through the cardiac muscle and exhibit diverse spatio-temporal dynamics during different heart rhythms. The dy…",
+      "url": "https://arxiv.org/abs/2607.15492",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15497",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "A Mesoscopic Ginzburg--Landau Model for Vibrational Strong Coupling Enhanced Rayleigh Scattering in Molecular Liquids",
+      "summary": "arXiv:2607.15497v1 Announce Type: new Abstract: Recent experiments by Sandeep \\textit{et al.} [Angew. Chem. Int. Ed. 65, e16917 (2026)] suggest that vibrational strong coupling (VSC) in molecular liquids can generate mesoscopic phenomena be…",
+      "url": "https://arxiv.org/abs/2607.15497",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15513",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "An exact N-strain epidemic model using bond percolation",
+      "summary": "arXiv:2607.15513v1 Announce Type: new Abstract: In this paper we examine the emergent structures of random networks that have undergone bond percolation an arbitrary, but finite, number of times. We define two types of sequential branching …",
+      "url": "https://arxiv.org/abs/2607.15513",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15518",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "A Tool-Invariant Framework for Teaching and Assessing Computational Methods in the Age of Agentic AI",
+      "summary": "arXiv:2607.15518v1 Announce Type: new Abstract: Learning a computational method has always meant learning to operate a tool -- pencil, slide rule, calculator, or programming language. Agentic artificial intelligence, which writes, executes,…",
+      "url": "https://arxiv.org/abs/2607.15518",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15519",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Degree correlations in graphs with clique clustering",
+      "summary": "arXiv:2607.15519v1 Announce Type: new Abstract: Correlations among the degrees of vertices in random graphs often occur when clustering is present. In this paper we define a joint-degree correlation function for vertices in the giant compon…",
+      "url": "https://arxiv.org/abs/2607.15519",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15526",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Enhanced Third-Harmonic Generation in Diamond Photonic Crystal Slabs via Doubly Resonant Quasi-Bound States in the Continuum",
+      "summary": "arXiv:2607.15526v1 Announce Type: new Abstract: We propose and numerically demonstrate doubly resonant third-harmonic generation (THG) in a diamond photonic crystal (PhC) slab, in which the fundamental harmonic (FH) and the third harmonic (…",
+      "url": "https://arxiv.org/abs/2607.15526",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15534",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Machine Learning-Driven Design of Mixed-Pitch Grating Couplers for Co-Packaged Optics Applications",
+      "summary": "arXiv:2607.15534v1 Announce Type: new Abstract: A mixed-pitch grating coupler which can couple a wide range of wavelengths is preferred in its application in co-packaged optics (CPO). However, the design and optimization of such grating cou…",
+      "url": "https://arxiv.org/abs/2607.15534",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15567",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Unified Deflection Estimation and Error Analysis for Background-Oriented Schlieren",
+      "summary": "arXiv:2607.15567v1 Announce Type: new Abstract: Background-Oriented Schlieren (BOS) has become a versatile quantitative diagnostic for density-varying flows, in which estimating the light-ray deflection from the measured displacement is the…",
+      "url": "https://arxiv.org/abs/2607.15567",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15614",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Basis-Independent Geometric Phase Modulation in Circularly Birefringent Plasmonic Structures",
+      "summary": "arXiv:2607.15614v1 Announce Type: new Abstract: Geometric phase in metasurfaces is conventionally realized using spatially rotated linearly birefringent meta-atoms under circularly polarized illumination. Here we demonstrate that full $\\sim…",
+      "url": "https://arxiv.org/abs/2607.15614",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15622",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Near-field Dressing of Thermal Emission",
+      "summary": "arXiv:2607.15622v1 Announce Type: new Abstract: Radiative heat transfer at subwavelength distances is generally understood as enhanced energy exchange mediated by photon tunnelling between neighboring bodies. While near-field interactions c…",
+      "url": "https://arxiv.org/abs/2607.15622",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15644",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Radially correlated partially coherent beams with a deterministic vortex structure",
+      "summary": "arXiv:2607.15644v1 Announce Type: new Abstract: Partially coherent beams have attracted considerable attention due to their intrinsic resilience against complex environmental perturbations. However, the intrinsic wavefront fluctuations make…",
+      "url": "https://arxiv.org/abs/2607.15644",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15677",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Green-Roof Energy Performance in New Zealand's Present and Future Climate Condition (2050)",
+      "summary": "arXiv:2607.15677v1 Announce Type: new Abstract: Green roofs are increasingly promoted as nature-based measures for reducing building energy demand, yet their performance in New Zealand's oceanic climates and under future weather remains ins…",
+      "url": "https://arxiv.org/abs/2607.15677",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15678",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Linear Gyrokinetic Simulations of Micro-tearing Mode: Local versus Global",
+      "summary": "arXiv:2607.15678v1 Announce Type: new Abstract: A systematic comparison of local and global linear gyrokinetic simulations of micro-tearing modes (MTMs) is performed using the GENE code. The analysis spans diverse plasma parameters, includi…",
+      "url": "https://arxiv.org/abs/2607.15678",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15695",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "$GW$ reduced density matrix from iterated linearized Dyson equation",
+      "summary": "arXiv:2607.15695v1 Announce Type: new Abstract: Iterating the Dyson equation with the static part of the self-energy leads to a concise and possibly improved expression of the one-body reduced density matrix from any self-energy approximati…",
+      "url": "https://arxiv.org/abs/2607.15695",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15725",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Mid- and long-wavelength infrared computational ghost spectroscopy",
+      "summary": "arXiv:2607.15725v1 Announce Type: new Abstract: Spectral-domain ghost imaging enables high-resolution spectroscopy with a single-pixel detector. The technique does not rely on spectrally resolved detectors, which makes it inherently robust …",
+      "url": "https://arxiv.org/abs/2607.15725",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15764",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Three-dimensional three-photon Stark spectroscopy of a single Rb Rydberg atom in an ultrahigh-vacuum glass cell with eight electrodes",
+      "summary": "arXiv:2607.15764v1 Announce Type: new Abstract: Quantum computing and quantum simulation with ultracold neutral atoms require Rydberg excitation of individual atoms in atomic arrays. Rydberg states are extremely sensitive to external electr…",
+      "url": "https://arxiv.org/abs/2607.15764",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15765",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Role of Spatial Coherence in Single-Shot Lensless Image Reconstruction",
+      "summary": "arXiv:2607.15765v1 Announce Type: new Abstract: Lensless imaging is a technique that recovers object information computationally from diffraction patterns recorded without imaging optics, making its performance strongly dependent on the for…",
+      "url": "https://arxiv.org/abs/2607.15765",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15783",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Electromagnetically induced transparency lasing in distributed resonant feedback system",
+      "summary": "arXiv:2607.15783v1 Announce Type: new Abstract: We demonstrate a loss-enabled mechanism that can realize single electromagnetically induced transparency (EIT) analogue in periodic waveguide-resonator structures. Unlike previously reported p…",
+      "url": "https://arxiv.org/abs/2607.15783",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15788",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Alignment and Timing Jitter in Flying-Focus Inverse Compton Scattering",
+      "summary": "arXiv:2607.15788v1 Announce Type: new Abstract: Flying-focus laser pulses can extend the effective interaction length in inverse Compton sources by controlling the trajectory of the focal intensity. Their practical advantage, however, depen…",
+      "url": "https://arxiv.org/abs/2607.15788",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15793",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Triple-Resonance Spectroscopy Using a Cavity-Enhanced Frequency Comb Probe",
+      "summary": "arXiv:2607.15793v1 Announce Type: new Abstract: Accurate experimentally verified models of molecular hot-band transitions are essential for interpreting high-temperature spectra in environments ranging from exoplanetary atmospheres to combu…",
+      "url": "https://arxiv.org/abs/2607.15793",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15805",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Experimental demonstration of Flying-Focus enhanced Thomson scattering",
+      "summary": "arXiv:2607.15805v1 Announce Type: new Abstract: We report the experimental demonstration of a spatiotemporally engineered \"Flying-Focus\" laser pulse for enhanced x-ray generation in relativistic Thomson scattering. A combination of longitud…",
+      "url": "https://arxiv.org/abs/2607.15805",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15812",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Joint-decoupled iterative CBCT reconstruction with hybrid scatter estimation and voxel-adaptive beam hardening correction",
+      "summary": "arXiv:2607.15812v1 Announce Type: new Abstract: Cone-beam computed tomography (CBCT) is fundamentally challenged by scatter and beam hardening artifacts, which originate from X-ray scattering and the polychromatic nature of the X-ray spectr…",
+      "url": "https://arxiv.org/abs/2607.15812",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15842",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Statistical State Dynamics Eigenmodes and Equilibria Form the Structural Basis of Couette Turbulence",
+      "summary": "arXiv:2607.15842v1 Announce Type: new Abstract: Wide channel Couette (WCC) turbulence consists primarily of steady roll streak structures (RSS) maintained by a self-sustaining process, yet the Navier Stokes equations in velocity variables a…",
+      "url": "https://arxiv.org/abs/2607.15842",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15843",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Conjugate phase-noise cancellation enables submicrometre dual-comb ranging with free-running megahertz-linewidth lasers",
+      "summary": "arXiv:2607.15843v1 Announce Type: new Abstract: Frequency-domain dual-comb ranging combines rapid acquisition with interferometric sensitivity, but high-performance implementations often rely on mutually coherent or actively stabilised comb…",
+      "url": "https://arxiv.org/abs/2607.15843",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15852",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Reconfigurable Nonlocal Light-Emitting Metalens Nanolasers via Bound States in the Continuum",
+      "summary": "arXiv:2607.15852v1 Announce Type: new Abstract: The development of on-chip, reconfigurable coherent light sources operating in the visible spectrum is critical for next-generation optical computing and high-speed data processing. Here, we d…",
+      "url": "https://arxiv.org/abs/2607.15852",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15857",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Surrogate modeling of drift-reduced Braginskii turbulence with resistivity-conditioned Koopman neural operators",
+      "summary": "arXiv:2607.15857v1 Announce Type: new Abstract: Machine-learning-driven surrogate operators are developed for three-dimensional, nonlinear, flux-driven simulations of boundary plasma turbulence based on the two-fluid drift-reduced Braginski…",
+      "url": "https://arxiv.org/abs/2607.15857",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15892",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Nuclotron internal target polarimeter for the measurements of the deuteron and proton beam polarization",
+      "summary": "arXiv:2607.15892v1 Announce Type: new Abstract: Studies of spin-dependent effects at the Nuclotron/NICA accelerator complex at JINR require precise measurements of the deuteron and proton beam polarization. The vector polarization of the de…",
+      "url": "https://arxiv.org/abs/2607.15892",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15910",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Precision positioning in free-space optical communication systems via PID control tuned by RL",
+      "summary": "arXiv:2607.15910v1 Announce Type: new Abstract: Accurate positioning of optical components is essential for maintaining beam alignment in free-space optical (FSO) communication systems. This work investigates reinforcement-learning-assisted…",
+      "url": "https://arxiv.org/abs/2607.15910",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15918",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Atomic Design Transformer: Scaffold-Conditioned 3D Molecule Generation via xTB-Reward Reinforcement Learning",
+      "summary": "arXiv:2607.15918v1 Announce Type: new Abstract: We present an SE(3)-invariant transformer for 3D-molecule generation, the Atomic Design Transformer (ADT). ADT places atoms one at a time, autoregressively. SE(3) invariance is achieved by tok…",
+      "url": "https://arxiv.org/abs/2607.15918",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15921",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Relativistic Scaling and Magnetization-Current Feedback in Stern Gerlach-Modified Pair-Plasma Reconnection: SpinPIC2D Validation and Nonlinear Regimes",
+      "summary": "arXiv:2607.15921v1 Announce Type: new Abstract: We investigate the relativistic scaling and electromagnetic feedback of Stern--Gerlach (SG) force driven spin transport in pair-plasma reconnection with SpinPIC2D. The model advances relativis…",
+      "url": "https://arxiv.org/abs/2607.15921",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15925",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Sub-microsecond conformational dynamics in an optical nanocavity",
+      "summary": "arXiv:2607.15925v1 Announce Type: new Abstract: Microsecond conformational changes underlie many protein functions, but ensemble averaging has been needed to observe them without labels. Single-shot measurements on individual proteins have …",
+      "url": "https://arxiv.org/abs/2607.15925",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15927",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Operation and performance of ProtoDUNE Dual Phase liquid argon time projection chamber",
+      "summary": "arXiv:2607.15927v1 Announce Type: new Abstract: ProtoDUNE-DP was the largest ever built Liquid Argon Time Projection Chamber (LArTPC) operating in Dual-Phase (DP) mode, with a liquid target and charge read-out placed in the gas. It had an a…",
+      "url": "https://arxiv.org/abs/2607.15927",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15938",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Vortex formation around islands in random waves",
+      "summary": "arXiv:2607.15938v1 Announce Type: new Abstract: Wave vortices are fundamental topological features of interference fields, occurring at nodal points where the wave amplitude vanishes. A distinct class of vortices can instead form around it …",
+      "url": "https://arxiv.org/abs/2607.15938",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15943",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "A Hydrogenated Amorphous Silicon Photodiode indirect flexible device for radiation flux measurements at low intensities",
+      "summary": "arXiv:2607.15943v1 Announce Type: new Abstract: The objective of the Photo-HASPIDE experiment is the construction and test of an indirect a-Si:H (Hydrogenated Amorphous Silicon) photo-detector plus scintillator device on a flexible substrat…",
+      "url": "https://arxiv.org/abs/2607.15943",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15953",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Cauchy-Paul wavelet transforms revisited: A framework for intermittent non-sinusoidal oscillations",
+      "summary": "arXiv:2607.15953v1 Announce Type: new Abstract: This paper revisits the continuous wavelet transform framework by establishing a rigorous physical and dimensional formulation of the Cauchy-Paul mother wavelet, tailored specifically for inte…",
+      "url": "https://arxiv.org/abs/2607.15953",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15968",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Sociocultural Influences on Opinion Formation: Word of Mouth Dynamics, Mass Media and Behavioural Development",
+      "summary": "arXiv:2607.15968v1 Announce Type: new Abstract: We study a society of agents belonging to a number of occupational or cultural groups that form opinions about others' situation in the same or different group. Opinions develop either by obse…",
+      "url": "https://arxiv.org/abs/2607.15968",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15976",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Harnessing resonant dipolar interactions in a hybrid atom-molecule quantum system",
+      "summary": "arXiv:2607.15976v1 Announce Type: new Abstract: Hybrid quantum systems offer a route to combining the complementary strengths of distinct quantum platforms while mitigating their limitations. A particularly promising architecture combines n…",
+      "url": "https://arxiv.org/abs/2607.15976",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15989",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Diffusion-induced instabilities promote cooperation in eco-evolutionary networks",
+      "summary": "arXiv:2607.15989v1 Announce Type: new Abstract: Understanding how cooperation persists despite the advantage of selfish behavior remains a central challenge in evolutionary dynamics. Classical models of public goods dilemmas predict dominan…",
+      "url": "https://arxiv.org/abs/2607.15989",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16026",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "One-loop self-energy using a numerical Green function",
+      "summary": "arXiv:2607.16026v1 Announce Type: new Abstract: We calculate the one-loop self-energy in hydrogenlike atoms using a numerical Green function obtained by solving the radial Dirac equation in an exponential basis set. The self-energy correcti…",
+      "url": "https://arxiv.org/abs/2607.16026",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16033",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Fast ungated five-dimensional cardiac MRI on a 1.5 T MR-linac for MRI-guided radiotherapy",
+      "summary": "arXiv:2607.16033v1 Announce Type: new Abstract: Background: Stereotactic arrhythmia radio-ablation (STAR) for patients with ventricular tachycardia is currently limited by complex cardiorespiratory motion. Current 5D-MRI motion models requi…",
+      "url": "https://arxiv.org/abs/2607.16033",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16048",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Collinear Laser Spectroscopy on a Fast Atomic Beam of Boron Generated by Photodetachment of Accelerated B- Ions",
+      "summary": "arXiv:2607.16048v1 Announce Type: new Abstract: Atomic beams for collinear laser spectroscopy are typically produced via charge exchange reactions in an in-beam vapor cell. This process is accompanied by the formation of a considerable amou…",
+      "url": "https://arxiv.org/abs/2607.16048",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16067",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Optical Control of Chirality by Ultrafast Symmetry Breaking in Membrane Metasurfaces",
+      "summary": "arXiv:2607.16067v1 Announce Type: new Abstract: Chirality Chirality underpins a wide range of light-matter interactions, yet methods for its dynamic control in photonic systems remain limited. Here, we demonstrate ultrafast all-optical cont…",
+      "url": "https://arxiv.org/abs/2607.16067",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16075",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Non-invasive monitoring of process-relevant plasma parameters by Fiber PROES in capacitively coupled Ar/CF$_4$ plasmas",
+      "summary": "arXiv:2607.16075v1 Announce Type: new Abstract: Monitoring changes of process-relevant plasma parameters, such as the electron density and ion flux to the wafer, is essential for the development and control of plasma processes. However, inv…",
+      "url": "https://arxiv.org/abs/2607.16075",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16125",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Global kilometer-scale climate simulations: new opportunities for climate services",
+      "summary": "arXiv:2607.16125v1 Announce Type: new Abstract: Climate services are essential for risk management and economic planning. This paper presents a century-long simulation performed with the ARP-GEM global atmosphere model at 2.6 km horizontal …",
+      "url": "https://arxiv.org/abs/2607.16125",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16127",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "CADAQUES: A Cost-Aware Dual Architecture for Query-Efficient Autonomous Discovery",
+      "summary": "arXiv:2607.16127v1 Announce Type: new Abstract: Autonomous discovery systems couple a resource that answers queries (a simulator, instrument, or analytic model) to an algorithm that selects what to query next. Most software frameworks for t…",
+      "url": "https://arxiv.org/abs/2607.16127",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16129",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Nonadiabatic excited-state dynamics with quantum Monte Carlo-trained machine learning: azomethane as a stringent test",
+      "summary": "arXiv:2607.16129v1 Announce Type: new Abstract: We introduce quantum Monte Carlo (QMC)-trained multi-state machine-learned (ML) force fields for nonadiabatic excited-state dynamics, targeting photochemical processes in which the electronic …",
+      "url": "https://arxiv.org/abs/2607.16129",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16149",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Data-driven identification of multiscale self-similarity and asymptotic matching",
+      "summary": "arXiv:2607.16149v1 Announce Type: new Abstract: A central problem in fluid mechanics is the identification of self-similarity, which reveals the underlying scaling behaviour of a flow. Recently, a data-driven framework proposed by Bempedeli…",
+      "url": "https://arxiv.org/abs/2607.16149",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16151",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Radiopurity material assays and radiation exposure projections for superconducting qubit measurements at SNOLAB",
+      "summary": "arXiv:2607.16151v1 Announce Type: new Abstract: Interactions of cosmic rays and other forms of ionizing radiation pose a significant challenge to the reliable operation of state-of-the-art quantum devices and error correction in quantum com…",
+      "url": "https://arxiv.org/abs/2607.16151",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16157",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Broadband Multi-Aperture Passive Scholte-Wave Imaging Using Seabed Distributed Acoustic Sensing",
+      "summary": "arXiv:2607.16157v1 Announce Type: new Abstract: Shallow-water ocean forcing provides strong broadband passive Scholte-wave illumination along a seabed distributed acoustic sensing cable on the Texas Gulf Coast. We exploit this illumination …",
+      "url": "https://arxiv.org/abs/2607.16157",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16176",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Quantum scanning synthetic optical holography",
+      "summary": "arXiv:2607.16176v1 Announce Type: new Abstract: Synthetic optical holography (SOH) introduced holographic reconstruction into scanning optical microscopy, enabling quantitative phase imaging with sequential acquisition and point detection. …",
+      "url": "https://arxiv.org/abs/2607.16176",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15347",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Polarization geometry of magnetohydrodynamic turbulence",
+      "summary": "arXiv:2607.15347v1 Announce Type: cross Abstract: We introduce a geometric framework that organizes the second-order statistics of the Elasser fields into polarization states on generalized Poincar\\'e spheres. In this representation, energy…",
+      "url": "https://arxiv.org/abs/2607.15347",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15358",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Spectral amplification for ground-state energy estimation of electronic structure in first quantization",
+      "summary": "arXiv:2607.15358v1 Announce Type: cross Abstract: We demonstrate an asymptotic gate complexity improvement in first-quantized ground-state energy estimation of electronic structure Hamiltonians in a plane wave basis by employing the sum-of-…",
+      "url": "https://arxiv.org/abs/2607.15358",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15365",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Induction-heated resonant reactors for electrified thermochemistry",
+      "summary": "arXiv:2607.15365v1 Announce Type: cross Abstract: We present induction-heated resonant reactors, a new concept in electrified thermochemistry in which the reactor itself serves as a volumetric electromagnetic resonator heated through resona…",
+      "url": "https://arxiv.org/abs/2607.15365",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15472",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Ptolemy's Equant Equates to a Universal Dynamical Clock via Machine Learning",
+      "summary": "arXiv:2607.15472v1 Announce Type: cross Abstract: Oscillatory dynamics arise ubiquitously in nonlinear systems, yet identifying a physically interpretable phase and phase dynamics in nonlinear, high-dimensional oscillations remains a centra…",
+      "url": "https://arxiv.org/abs/2607.15472",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15476",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "exa-PD: A scalable high-performance workflow for multi-element phase diagram construction",
+      "summary": "arXiv:2607.15476v1 Announce Type: cross Abstract: Exa-PD is a highly parallelizable workflow designed for the construction of multi-element phase diagrams (PDs). It uses standard sampling techniques, molecular dynamics (MD) and Monte Carlo …",
+      "url": "https://arxiv.org/abs/2607.15476",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15594",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "An Open-Source, Autonomous Platform for High-Resolution Energy Monitoring in Manufacturing",
+      "summary": "arXiv:2607.15594v1 Announce Type: cross Abstract: High-resolution energy data is increasingly central to Industry 4.0, where electrical signals such as three-phase voltage and current carry rich information about machine condition, tool wea…",
+      "url": "https://arxiv.org/abs/2607.15594",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15597",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Deterministic atom-shuttle interconnects via ultrafast atom-ion entangling gate",
+      "summary": "arXiv:2607.15597v1 Announce Type: cross Abstract: Neutral-atom arrays and trapped-ion crystals offer complementary strengths for fault-tolerant quantum computing but lack a fast way to deterministically interact. Here we propose a controlle…",
+      "url": "https://arxiv.org/abs/2607.15597",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15700",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Growth of quartet correlations in neutron-rich Tellurium isotopes within quartet Bardeen-Cooper-Schrieffer theory",
+      "summary": "arXiv:2607.15700v1 Announce Type: cross Abstract: Quartet correlations in neutron-rich Te isotopes are investigated within the quartet Bardeen-Cooper-Schrieffer (BCS) framework. Taking \\(^{100}\\)Sn as an inert core, we consider two valence …",
+      "url": "https://arxiv.org/abs/2607.15700",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15748",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Two-step growth of (In,Ga)N pseudo-substrates on GaN templates by plasma-assisted molecular beam epitaxy",
+      "summary": "arXiv:2607.15748v1 Announce Type: cross Abstract: (In,Ga)N layers are grown by plasma-assisted molecular beam epitaxy on GaN templates. We introduce a two-step protocol that involves switching the growth conditions from initially N-stable t…",
+      "url": "https://arxiv.org/abs/2607.15748",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-15975",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "A phenomenological multiscale framework for orientational interactions and viscoelasticity in migrating epithelial monolayers",
+      "summary": "arXiv:2607.15975v1 Announce Type: cross Abstract: Collective migration of epithelial monolayers emerges from the interplay between mechanical interactions and biochemical signalling. Here, we present a phenomenological mechanobiological fra…",
+      "url": "https://arxiv.org/abs/2607.15975",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16011",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Negative quantum friction in nanoscale water flows: the Wigner picture",
+      "summary": "arXiv:2607.16011v1 Announce Type: cross Abstract: We explore the phenomenon of \"quantum\" friction based on a single-particle model patterned after the Wigner equation describing electrons flow in a solid wall confining nanoscale water flows…",
+      "url": "https://arxiv.org/abs/2607.16011",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16035",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Dynamic models with $p$ parameters are identified by $2p+1$ random features",
+      "summary": "arXiv:2607.16035v1 Announce Type: cross Abstract: A foundational principle in nonlinear dynamics is that the structure of a dynamical system can be recovered from a small number of generic measurements or coordinates. We develop an analogou…",
+      "url": "https://arxiv.org/abs/2607.16035",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16046",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Growing Hypergraphs with Homophily",
+      "summary": "arXiv:2607.16046v1 Announce Type: cross Abstract: There are many extant models of hypergraphs with interactions governed by attribute-based homophily between nodes, but most assume independence between edges conditional on node parameters. …",
+      "url": "https://arxiv.org/abs/2607.16046",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16070",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Operator Entanglement in Quantum Dynamics Simulations: Formalism and Analysis Tools",
+      "summary": "arXiv:2607.16070v1 Announce Type: cross Abstract: We review the framework of operator Hilbert space and introduce the one- and two-particle super reduced density matrices (1-SRDMs and 2-SRDMs), as well as the super mutual information (SMI).…",
+      "url": "https://arxiv.org/abs/2607.16070",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2607-16183",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing",
+      "summary": "arXiv:2607.16183v1 Announce Type: cross Abstract: To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stack that leverages sto…",
+      "url": "https://arxiv.org/abs/2607.16183",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2501-05779",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "A toy model of turbulent shear flow using vortons",
+      "summary": "arXiv:2501.05779v3 Announce Type: replace Abstract: We introduce a novel toy model for shear flows, exploiting the spatial intermittency and the scale separation between large-scale flows and small-scale structures. The model is highly spar…",
+      "url": "https://arxiv.org/abs/2501.05779",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2502-00400",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Shoaling of Finite-Amplitude Rogue Waves",
+      "summary": "arXiv:2502.00400v4 Announce Type: replace Abstract: Rogue wave formation and enhancement over coastal areas have been documented over the last decade. However, this recent knowledge is in apparent contradiction with the established observat…",
+      "url": "https://arxiv.org/abs/2502.00400",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2502-04808",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Tracking electron capture processes in classical molecular dynamics simulations for spectral line broadening in plasmas",
+      "summary": "arXiv:2502.04808v3 Announce Type: replace Abstract: Plasma spectroscopy is a fundamental tool for diagnosing laboratory and astrophysical plasmas. Accurate interpretation of spectra depends upon precise modeling and comprehension of Stark b…",
+      "url": "https://arxiv.org/abs/2502.04808",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2505-01360",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Modelling ductile strain localization with evolutive stochastic rheologies",
+      "summary": "arXiv:2505.01360v3 Announce Type: replace Abstract: Plate Tectonics requires strain localization over the entire thickness of the plates. However, modelling strain localization in the deep sections of the plates, which deform by ductile pro…",
+      "url": "https://arxiv.org/abs/2505.01360",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2505-19909",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Empowering Neural Network-based Quantum Monte Carlo with Local Pseudopotentials",
+      "summary": "arXiv:2505.19909v2 Announce Type: replace Abstract: Neural Network-based Quantum Monte Carlo (NNQMC), an emerging method for solving many-body quantum systems with high accuracy, has been mainly applied to small systems due to demanding com…",
+      "url": "https://arxiv.org/abs/2505.19909",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2508-00521",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Material-Specific Mapping of Plasmonic Modal Dispersion via Discrete Momentum-Space Probes",
+      "summary": "arXiv:2508.00521v3 Announce Type: replace Abstract: Accurate measurement of surface plasmon polariton (SPP) dispersion remains challenging, as conventional angle-resolved techniques are limited by surface quality, diffraction artifacts, and…",
+      "url": "https://arxiv.org/abs/2508.00521",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2508-05321",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Unsupervised Deep Learning for Inverse Problems in Computed Tomography",
+      "summary": "arXiv:2508.05321v4 Announce Type: replace Abstract: Assume you encounter an inverse problem that shall be solved for a large number of data, but no ground-truth data is available. To emulate this, in this study we assume it is unknown how t…",
+      "url": "https://arxiv.org/abs/2508.05321",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2510-11600",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "A framework for realisable data-driven active flow control using model predictive control applied to a simplified truck wake",
+      "summary": "arXiv:2510.11600v3 Announce Type: replace Abstract: We present a data-driven active flow control framework designed for deployment with few non-intrusive sensors. The method builds upon Artificial Intelligence driven reduced-order predictiv…",
+      "url": "https://arxiv.org/abs/2510.11600",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2510-21971",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Revisiting the phenomenon of bouncing of inertial particles crossing density stratified interfaces",
+      "summary": "arXiv:2510.21971v3 Announce Type: replace Abstract: Inertial spheres settling through sharp density interfaces can arrest, reverse direction, and resume descent, a phenomenon known as bouncing. Using synchronized particle image velocimetry …",
+      "url": "https://arxiv.org/abs/2510.21971",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2511-00829",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Global Kilometer-Scale Simulations with ARP-GEM2: Effect of Parameterized Convection and Calibration",
+      "summary": "arXiv:2511.00829v2 Announce Type: replace Abstract: The objective of this paper is twofold. First, it documents the second version of the global atmospheric model ARP-GEM and its calibration at kilometer-scale resolution. The model is curre…",
+      "url": "https://arxiv.org/abs/2511.00829",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2512-03829",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "First Experimental Demonstration of Reinforcement Learning-Based Tuning on the PSI Injector 2 Cyclotron",
+      "summary": "arXiv:2512.03829v2 Announce Type: replace Abstract: Reliable operation of high-power proton cyclotrons is a critical requirement for Accelerator Driven Systems (ADS) and other large-scale applications. Beam tuning in such machines is tradit…",
+      "url": "https://arxiv.org/abs/2512.03829",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2512-08356",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Enzyme-driven phase separation",
+      "summary": "arXiv:2512.08356v2 Announce Type: replace Abstract: The formation of polarized signaling domains on cell membranes is a fundamental example of biological pattern formation. While such patterns resemble structures from equilibrium phase sepa…",
+      "url": "https://arxiv.org/abs/2512.08356",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2512-20609",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Revealing electron-ytterbium interactions through Rydberg molecular spectroscopy",
+      "summary": "arXiv:2512.20609v2 Announce Type: replace Abstract: Divalent atoms have emerged as powerful alternatives to alkalis in ultracold atom platforms, offering unique advantages arising from their two-electron structure. Among these species, ytte…",
+      "url": "https://arxiv.org/abs/2512.20609",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2512-21428",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Atomic clock frequency ratios with fractional uncertainty $\\leq 3.2 \\times 10^{-18}$",
+      "summary": "arXiv:2512.21428v2 Announce Type: replace Abstract: We report high-precision frequency ratio measurements between optical atomic clocks based on $^{27}$Al$^+$, $^{171}$Yb, and $^{87}$Sr. With total fractional uncertainties at or below $3.2 …",
+      "url": "https://arxiv.org/abs/2512.21428",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2602-03676",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Entropy Geometry and Condensation in Wealth Allocation",
+      "summary": "arXiv:2602.03676v2 Announce Type: replace Abstract: We develop a statistical framework for wealth allocation in which equilibrium-like statistics follow from unbiased counting of admissible configurations rather than postulated exchange rul…",
+      "url": "https://arxiv.org/abs/2602.03676",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2602-03745",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Transformation front kinetics in deformable ferromagnets",
+      "summary": "arXiv:2602.03745v2 Announce Type: replace Abstract: Materials such as magnetic shape-memory alloys possess an intrinsic coupling between material's magnetisation and mechanical deformation. These materials also undergo structural phase tran…",
+      "url": "https://arxiv.org/abs/2602.03745",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2602-15345",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Machine learning of electronic structure and atomistic properties from the external potential",
+      "summary": "arXiv:2602.15345v2 Announce Type: replace Abstract: Electronic structure calculations remain a major bottleneck in atomistic simulations and, not surprisingly, have attracted significant attention in machine learning (ML). Most existing app…",
+      "url": "https://arxiv.org/abs/2602.15345",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2602-24049",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Stellarator island divertor shape optimization for reduced peak heat fluxes",
+      "summary": "arXiv:2602.24049v2 Announce Type: replace Abstract: An automated algorithm to construct island divertors for stellarators is presented and is used to find divertors that meet heat load requirements determined by material limits. The algorit…",
+      "url": "https://arxiv.org/abs/2602.24049",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2604-21173",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "PsSource: an installable Geant4 extension for transport-coupled positronium annihilation with validated Ore-Powell three-photon physics",
+      "summary": "arXiv:2604.21173v3 Announce Type: replace Abstract: PsSource is an installable Geant4 extension for configurable positronium-aware terminal positron annihilation. Geant4 transports the positron normally, after which PsSource replaces only t…",
+      "url": "https://arxiv.org/abs/2604.21173",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2604-21466",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Gaussian pulse scattering by a chiral spherical shell",
+      "summary": "arXiv:2604.21466v2 Announce Type: replace Abstract: Theory was formulated for scattering by a coated chiral sphere of a plane wave of arbitrary polarization state with amplitude modulated by a Gaussian pulse. The spherical core and the conc…",
+      "url": "https://arxiv.org/abs/2604.21466",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2605-05441",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Development of a Proton Therapy Research Beamline with FLASH and Minibeam Capabilities at the 18 MeV Bern Medical Cyclotron",
+      "summary": "arXiv:2605.05441v3 Announce Type: replace Abstract: Advanced radiotherapy approaches such as FLASH irradiation and spatially fractionated radiotherapy (SFRT) show potential to improve the therapeutic ratio, yet their biological mechanisms a…",
+      "url": "https://arxiv.org/abs/2605.05441",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2605-12346",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "General and concise operator approach to the dyadic Green's function of layered media",
+      "summary": "arXiv:2605.12346v2 Announce Type: replace Abstract: Dyadic Green's function is an important tool of computational photonics, giving deeper insights into light-matter interaction. We present an operator approach to the derivation of the dyad…",
+      "url": "https://arxiv.org/abs/2605.12346",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2605-16243",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Stern--Gerlach Spin Sorting and Dynamical Feedback in Relativistic Pair-Plasma Reconnection",
+      "summary": "arXiv:2605.16243v2 Announce Type: replace Abstract: We derive a Stern--Gerlach control parameter, $\\Xi$, comparing spin-driven cross-sheet displacement with the relativistic Larmor radius. It places heliospheric plasmas and most astrophysic…",
+      "url": "https://arxiv.org/abs/2605.16243",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2606-05062",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Partisan voter model on complex networks: Dynamics of local ordering",
+      "summary": "arXiv:2606.05062v2 Announce Type: replace Abstract: We investigate the processes of local ordering for the partisan voter model on complex networks. In this model, agents hold a binary opinion and a fixed preference that biases updates towa…",
+      "url": "https://arxiv.org/abs/2606.05062",
+      "ts": 1784520000000
+    },
+    {
+      "id": "https-arxiv-org-abs-2606-11781",
+      "category": "science",
+      "source": "arXiv Physics",
+      "title": "Geometry-induced self-excited dynamo in a regular tetrahedron",
+      "summary": "arXiv:2606.11781v3 Announce Type: replace Abstract: We present a rotation-free magnetohydrodynamic dynamo driven by laminar thermal convection in a regular tetrahedral cavity. The tetrahedral boundaries organize the convective flow into a r…",
+      "url": "https://arxiv.org/abs/2606.11781",
+      "ts": 1784520000000
+    }
+  ]
+}

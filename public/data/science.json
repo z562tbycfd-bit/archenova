@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-20T08:07:29.192Z",
+  "updated": "2026-07-20T09:19:10.217Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI tool reveals climate shifts may have fueled bursts of bird evolution",
+      "url": "https://phys.org/news/2026-07-ai-tool-reveals-climate-shifts.html",
+      "summary": "University of Michigan researchers have used an AI tool to demonstrate that birds in the group Passeriformes evolved in rapid evolutionary bursts and that these bursts frequently coincided with climate shifts throughout …",
+      "ts": 1784538006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists map how the flu virus rewires the human cell from the inside",
+      "url": "https://phys.org/news/2026-07-scientists-flu-virus-rewires-human.html",
+      "summary": "Researchers at EMBL Hamburg and collaborators at the Leibniz Research Institute for Molecular Pharmacology (FMP) have mapped how the influenza A virus rewires infected human cells in unprecedented detail. To do this, the…",
+      "ts": 1784538004000
+    },
     {
       "source": "Phys.org",
       "title": "Underwater drones discover coral reefs off Benin, long presumed dead, teeming with life",
@@ -686,20 +700,6 @@
       "title": "Stern--Gerlach Spin Sorting and Dynamical Feedback in Relativistic Pair-Plasma Reconnection",
       "url": "https://arxiv.org/abs/2605.16243",
       "summary": "arXiv:2605.16243v2 Announce Type: replace Abstract: We derive a Stern--Gerlach control parameter, $\\Xi$, comparing spin-driven cross-sheet displacement with the relativistic Larmor radius. It places heliospheric plasmas …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Partisan voter model on complex networks: Dynamics of local ordering",
-      "url": "https://arxiv.org/abs/2606.05062",
-      "summary": "arXiv:2606.05062v2 Announce Type: replace Abstract: We investigate the processes of local ordering for the partisan voter model on complex networks. In this model, agents hold a binary opinion and a fixed preference that…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometry-induced self-excited dynamo in a regular tetrahedron",
-      "url": "https://arxiv.org/abs/2606.11781",
-      "summary": "arXiv:2606.11781v3 Announce Type: replace Abstract: We present a rotation-free magnetohydrodynamic dynamo driven by laminar thermal convection in a regular tetrahedral cavity. The tetrahedral boundaries organize the conv…",
       "ts": 1784520000000
     }
   ],

@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-20T08:07:32.099Z",
+  "updated": "2026-07-20T09:19:18.832Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "AI is more likely than humans to form biases when hiring",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from th…",
+      "ts": 1784536741000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: It’s time to treat pandemics as threats to national security",
+      "url": "https://www.statnews.com/2026/07/20/pandemics-national-security-threats/?utm_campaign=rss",
+      "summary": "“Pandemics should be viewed and combated as threats to national security,” write David Blumenthal and James A. Morone.",
+      "ts": 1784536200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: State audit of Medicaid records points to methods used by PBMs to obscure drug costs",
+      "url": "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban/?utm_campaign=rss",
+      "summary": "An audit of state Medicaid records revealed how PBMs are using complicated tactics for handling prescription drug claims that ultimately overcharge taxpayers.",
+      "ts": 1784536200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Telemedicine company touted by Novo Nordisk stressed profits over patient safety, ex-workers say",
+      "url": "https://www.statnews.com/2026/07/20/lifemd-weight-loss-drugs-novo-nordisk-telemedicine/?utm_campaign=rss",
+      "summary": "LifeMD, a popular telehealth company, has been accused by former employees of pressing clinicians to mete out prescriptions more rapidly without sufficient screening and follow-up.",
+      "ts": 1784536200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: My husband’s suicide shows there’s something very wrong with the U.S. insurance industry",
+      "url": "https://www.statnews.com/2026/07/20/psychiatric-insurance-coverage-suicide-denial-personal-essay/?utm_campaign=rss",
+      "summary": "“My love for Randy and my professional experience were not enough to save him,” a physician writes about her husband’s suicide.",
+      "ts": 1784536200000,
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Estimating Time-Dependent COVID-19 Parameters Using Kolmogorov-Arnold Network and Fourier Series",
@@ -147,22 +187,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "United Nations News",
-      "title": "Ukraine: UN condemns overnight attack on Kyiv",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167975",
-      "summary": "United Nations agencies have deplored a fresh Russian assault on the Ukrainian capital Kyiv which left at least one person dead and a dozen injured.",
-      "ts": 1784462400000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Haiti: Signs of hope despite gang violence and political uncertainty",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167963",
-      "summary": "For millions of Haitians, daily life has become a struggle to stay safe, find enough food and simply move around their own neighbourhood.",
-      "ts": 1784462400000,
-      "categoryId": "global-governance"
-    },
-    {
       "source": "STAT",
       "title": "Opinion: Beware the unintended consequences of testosterone screening for military servicemembers",
       "url": "https://www.statnews.com/2026/07/18/military-testosterone-screening-supplements/?utm_campaign=rss",
@@ -201,14 +225,6 @@
       "summary": "A study in mice and in human cells found that blocking a single receptor on tissue-resident macrophages promoted clearance of accumulating senescent neutrophils, preserved the youthfulness of multiple organs in mice, and…",
       "ts": 1784390866000,
       "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "A former Ferrari boss has a blunt message: Your commute is more dangerous than his old job",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167974",
-      "summary": "Jean Todt spent decades around the deadliest motorsport on Earth. He was a rally co‑driver, then ran Ferrari’s Formula One team, then became president of world motorsport’s governing body. In his early years, a driver dy…",
-      "ts": 1784376000000,
-      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -436,14 +452,6 @@
     },
     {
       "source": "United Nations News",
-      "title": "Baristas behind bars: Thai prisoners brew a path back to daily life",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167954",
-      "summary": "It looks like a regular coffee shop, albeit set up in an old red bus. Stairs lead up to a serving hatch, with a menu of drink options. A selection of jaunty coffee-related messages like “My one and only love: Americano” …",
-      "ts": 1784289600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
       "title": "US-Iran war: UN chief calls for new diplomatic push following attacks on civilian areas",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167973",
       "summary": "The UN Secretary-General remains deeply concerned by the continuing deadly military escalation between Iran and the United States, his spokesperson said on Friday as attacks destroyed key civilian and military infrastruc…",
@@ -460,7 +468,7 @@
     },
     {
       "source": "United Nations News",
-      "title": "World News in Brief: Appeal for calm in Kashmir, women on the move, Ebola deaths mount, 12th anniversary of MH17",
+      "title": "World News in Brief: Appeal for calm in Kashmir, women on the move, increased Ebola deaths in communities, 12th anniversary of MH17",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167970",
       "summary": "The UN human rights chief, Volker Türk, has appealed for calm in Pakistan-Administered Kashmir amid unrest ahead of regional elections.",
       "ts": 1784289600000,
@@ -481,6 +489,14 @@
       "summary": "UN Secretary-General António Guterres on Friday urged governments and technology companies to work together to ensure artificial intelligence (AI) benefits all countries.",
       "ts": 1784289600000,
       "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Research Project Applies AI to Isotope Hydrology to Strengthen Water Management",
+      "url": "http://www.iaea.org/newscenter/news/research-project-applies-ai-to-isotope-hydrology-to-strengthen-water-management",
+      "summary": "Water resources are under increasing pressure from drought, pollution, urban growth and climate variability. To manage these challenges effectively, countries need reliable tools to understand where water originates, how…",
+      "ts": 1784289457000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -561,14 +577,6 @@
       "summary": "Sonothera is developing a new way to deliver genes into cells that, if borne out, could have a big impact on muscular dystrophy and other diseases.",
       "ts": 1784277000000,
       "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Guinea-Bissau",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Guinea-Bissau",
-      "summary": "Image: This Copernicus Sentinel-2 image features part of the Republic of Guinea-Bissau in western Africa.",
-      "ts": 1784275200000,
-      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -711,14 +719,6 @@
       "title": "momenTUM: A schema-driven platform for designing, deploying, and exploring ecological momentary assessment studies",
       "url": "https://arxiv.org/abs/2607.13076",
       "summary": "arXiv:2607.13076v2 Announce Type: replace Abstract: Ecological momentary assessment (EMA) is widely used to collect repeated self-report data in participants' everyday lives using mobile devices. EMA studies often involv…",
-      "ts": 1784260800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Subjective functions",
-      "url": "https://arxiv.org/abs/2512.15948",
-      "summary": "arXiv:2512.15948v3 Announce Type: replace-cross Abstract: Where do objective functions come from? How do we select what goals to pursue? Human intelligence is adept at synthesizing new objective functions on the fly. How…",
       "ts": 1784260800000,
       "categoryId": "bio"
     }
