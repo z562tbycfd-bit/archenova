@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-19T22:56:20.904Z",
+  "updated": "2026-07-20T00:01:44.736Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Generating red blood cell-like cells from canine induced pluripotent stem cells",
+      "url": "https://phys.org/news/2026-07-generating-red-blood-cell-cells.html",
+      "summary": "Blood transfusions are crucial in human and veterinary medicine, yet human blood reserves are in constant need of donors, while blood bank systems in veterinary care are nearly nonexistent. This leaves canine transfusion…",
+      "ts": 1784505605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Creating a map of coral distribution with environmental DNA",
+      "url": "https://phys.org/news/2026-07-coral-environmental-dna.html",
+      "summary": "To track the impacts of environmental change and enable conservation efforts, we must first understand the composition of our ecosystems. A new online resource provides a comprehensive overview of hard coral distribution…",
+      "ts": 1784505601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the sun goes to 'sleep' could reveal future space weather when it wakes",
+      "url": "https://phys.org/news/2026-07-sun-reveal-future-space-weather.html",
+      "summary": "Scientists have developed a new way to predict the strength of the sun's next activity cycle up to seven years before it reaches its peak.",
+      "ts": 1784502003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Centuries before farming, hunter-gatherers introduced fish to the Norwegian mountains",
+      "url": "https://phys.org/news/2026-07-centuries-farming-hunter-fish-norwegian.html",
+      "summary": "Archaeologists have uncovered the remains of 7,000-year-old fish traps in the mountains of southern Norway, indicating that fish were intentionally introduced to upland lakes by Mesolithic hunter-fisher-gatherers and sho…",
+      "ts": 1784502001000
+    },
     {
       "source": "Phys.org",
       "title": "Polish families in Spain navigate cultural identity across generations, study finds",
@@ -673,34 +701,6 @@
       "url": "https://phys.org/news/2026-07-giant-planets-dark-detectors.html",
       "summary": "Researchers in the U.S. have carried out the most stringent tests to date of the idea that an ultraviolet glow in the atmospheres of giant planets could partly arise through the indirect interaction between dark matter a…",
       "ts": 1784298006000
-    },
-    {
-      "source": "Phys.org",
-      "title": "New method makes epigenetic aging clocks accurate and easier to interpret",
-      "url": "https://phys.org/news/2026-07-method-epigenetic-aging-clocks-accurate.html",
-      "summary": "Epigenetic clocks are important tools in modern aging research. Typically, they use characteristic DNA methylation patterns in the genome to precisely predict a person's age and infer conclusions about the individual's b…",
-      "ts": 1784298001000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Ticks that survive pesticides can withstand colder winters",
-      "url": "https://phys.org/news/2026-07-survive-pesticides-colder-winters.html",
-      "summary": "Ticks that survive less-than-lethal doses of pesticide are able to withstand dangerous cold, which could help them spread tick-borne diseases farther north, a UC study has found. Biologists with the University of Cincinn…",
-      "ts": 1784296814000
-    },
-    {
-      "source": "Phys.org",
-      "title": "How an influx of salt may affect microbial ecosystems in rivers, estuaries and coastal waters worldwide",
-      "url": "https://phys.org/news/2026-07-influx-salt-affect-microbial-ecosystems.html",
-      "summary": "As sea levels rise due to climate change, encroaching seawater will likely make freshwater environments saltier. In a new study, MIT researchers have shown how that increase in salinity might affect microbial ecosystems …",
-      "ts": 1784296812000
-    },
-    {
-      "source": "Science News",
-      "title": "Many universities hold seized human remains. What should they do with them?",
-      "url": "https://www.sciencenews.org/article/human-remains-ethics-fatimah-jackson",
-      "summary": "Biological anthropologist Fatimah Jackson is leading an effort to prevent history from repeating.",
-      "ts": 1784296800000
     }
   ],
   "sources": [
