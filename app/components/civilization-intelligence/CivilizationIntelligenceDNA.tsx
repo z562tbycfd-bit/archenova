@@ -1120,7 +1120,7 @@ useEffect(() => {
   width: 100dvw;
 
   z-index: 0;
-  
+
   background:
     linear-gradient(
       180deg,
@@ -2920,12 +2920,11 @@ white-space:nowrap;
 
     transform: none;
   }
-}
-
-        .ci-organ-functions {
+    
+  .ci-organ-functions {
   grid-template-columns: 1fr;
   gap: 9px;
-}
+  }
 
         .ci-organ-copy {
   padding:
@@ -3299,7 +3298,7 @@ white-space:nowrap;
   }
 }
 
-      `}</style>
-    </main>
-  );
+`}</style>
+</main>
+);
 }
