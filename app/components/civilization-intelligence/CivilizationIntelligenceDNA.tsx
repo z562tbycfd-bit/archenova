@@ -54,33 +54,75 @@ type SignalLevel =
  | "POLICY"
  | "RISK";
 
+ type DashboardSignal = {
+  title?: string;
+  summary?: string;
+  source?: string;
+  sourceUrl?: string;
+  url?: string;
+  state?: string;
+  publishedAt?: string;
+  updatedAt?: string;
+};
+
 type DashboardData = {
- runtime: {
-   status: string;
- };
 
- counts: {
-   science: number;
-   engineering: number;
-   governance: number;
- };
+  runtime: {
 
- feeds: {
-   science: {
-     latest: any;
-     items: any[];
-   };
+    status: string;
 
-   engineering: {
-     latest: any;
-     items: any[];
-   };
+    updatedAt?: string;
 
-   governance: {
-     latest: any;
-     items: any[];
-   };
- };
+    synchronizedAt?: string;
+
+  };
+
+
+
+  counts: {
+
+    science: number;
+
+    engineering: number;
+
+    governance: number;
+
+  };
+
+
+
+  feeds: {
+
+    science: {
+
+      latest: DashboardSignal | null;
+
+      items: DashboardSignal[];
+
+    };
+
+
+
+    engineering: {
+
+      latest: DashboardSignal | null;
+
+      items: DashboardSignal[];
+
+    };
+
+
+
+    governance: {
+
+      latest: DashboardSignal | null;
+
+      items: DashboardSignal[];
+
+    };
+
+  };
+
 };
 
 const ORGAN_CONTENT: Record<OrganId, OrganContent> = {
@@ -286,6 +328,28 @@ function formatPercentage(value: number): string {
   return `${Math.round(normalizePercentage(value))}%`;
 }
 
+function formatSynchronizationTime(
+  value: string | Date | null,
+): string {
+  if (!value) return "Not yet synchronized";
+
+  const date =
+    value instanceof Date
+      ? value
+      : new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return "Synchronization time unavailable";
+  }
+
+  return new Intl.DateTimeFormat("en-GB", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+    timeZoneName: "short",
+  }).format(date);
+}
+
 function bool(value: boolean): "true" | "false" {
   return value ? "true" : "false";
 }
@@ -351,13 +415,7 @@ function scrollToOrgan(organId: OrganId): void {
     });
 }
 
-function ArrowIcon() {
-  return (
-    <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
-      <path d="m7 4 6 6-6 6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
+
 
 function ArcheNovaSymbol() {
   return (
@@ -577,7 +635,7 @@ function CivilizationOrgan({
       <div className="ci-organ-live">
 
   <div className="ci-organ-status">
-
+    
     <strong>
       {binding.isActive
         ? "LIVE"
@@ -591,22 +649,10 @@ function CivilizationOrgan({
     </span>
 
     <small>{content.metric}</small>
-
+  
   </div>
 
-  <div className="ci-organ-action">
 
-    <button
-      type="button"
-      className="ci-organ-open"
-      onClick={() => scrollToOrgan(organId)}
-      aria-label={`Open ${content.title}`}
-    >
-      Open
-      <ArrowIcon />
-    </button>
-
-  </div>
 
 </div>
     </article>
@@ -619,7 +665,10 @@ export default function CivilizationIntelligenceDNA({
   const bridge = useEpistemeKernelBridge();
 
   const [dashboard, setDashboard] =
- useState<DashboardData | null>(null);
+  useState<DashboardData | null>(null);
+
+const [lastSynchronizedAt, setLastSynchronizedAt] =
+  useState<Date | null>(null);
 
 useEffect(() => {
  let mounted = true;
@@ -640,8 +689,26 @@ useEffect(() => {
      const json = await response.json();
 
      if (mounted) {
-       setDashboard(json);
-     }
+  setDashboard(json);
+
+  const synchronizationTimestamp =
+    json.runtime?.synchronizedAt ??
+    json.runtime?.updatedAt ??
+    null;
+
+  if (synchronizationTimestamp) {
+    const parsedDate =
+      new Date(synchronizationTimestamp);
+
+    setLastSynchronizedAt(
+      Number.isNaN(parsedDate.getTime())
+        ? new Date()
+        : parsedDate,
+    );
+  } else {
+    setLastSynchronizedAt(new Date());
+  }
+}
    } catch (error) {
      console.error(error);
    }
@@ -772,43 +839,65 @@ useEffect(() => {
     return [];
   }
 
-  const signals = [
+  const feedEntries = [
     {
-      ...dashboard.feeds.science.latest,
+
       id: "science",
       category: "SCIENCE",
-      level: getSignalLevel(
-        "science",
-        dashboard.feeds.science.latest?.title ?? "",
-      ),
+      signal: dashboard.feeds.science.latest,
     },
 
     {
-      ...dashboard.feeds.engineering.latest,
+
       id: "engineering",
       category: "ENGINEERING",
-      level: getSignalLevel(
-        "engineering",
-        dashboard.feeds.engineering.latest?.title ?? "",
-      ),
+      signal: dashboard.feeds.engineering.latest,
     },
 
     {
-      ...dashboard.feeds.governance.latest,
+
       id: "governance",
       category: "GOVERNANCE",
-      level: getSignalLevel(
-        "governance",
-        dashboard.feeds.governance.latest?.title ?? "",
-      ),
+      signal: dashboard.feeds.governance.latest,
     },
   ];
 
-  return signals.filter(
-    (signal) =>
-      typeof signal.title === "string" &&
-      signal.title.trim().length > 0,
-  );
+  return feedEntries
+    .filter(
+      (
+        entry,
+      ): entry is {
+        id: string;
+        category: string;
+        signal: DashboardSignal;
+      } =>
+        entry.signal !== null &&
+        typeof entry.signal.title === "string" &&
+        entry.signal.title.trim().length > 0,
+    )
+    .map(({ id, category, signal }) => ({
+      ...signal,
+      id,
+      category,
+      title: signal.title ?? "",
+      summary:
+        signal.summary ??
+        "Analysis is currently being processed.",
+      source:
+        signal.source ??
+        "ArcheNova Intelligence",
+      sourceUrl:
+        signal.sourceUrl ??
+        signal.url ??
+        null,
+      state:
+        signal.state ??
+        "OBSERVED",
+      level: getSignalLevel(
+        category,
+        signal.title ?? "",
+      ),
+    }));
 }, [dashboard]);
 
   return (
@@ -868,6 +957,27 @@ useEffect(() => {
                 <i />
                 {runtimeLabel}
               </strong>
+
+ <div
+  className="ci-runtime-caption"
+  aria-live="polite"
+>
+  <span>
+    Monitoring science, engineering, and governance sources.
+  </span>
+
+  <time
+    dateTime={
+      lastSynchronizedAt?.toISOString()
+    }
+  >
+    Last synchronized{" "}
+    {formatSynchronizationTime(
+      lastSynchronizedAt,
+    )}
+  </time>
+</div>
+
             </div>
 
             <div>
@@ -878,16 +988,16 @@ useEffect(() => {
             </div>
 
             <div>
-              <small>Knowledge Progress</small>
+              <small>Cycle Progress</small>
               <strong>
                 {formatPercentage(runtime.cycle.progress)}
-              </strong>
-            </div>
-
-            <div>
-              <small>Current Organ</small>
-              <strong>{bridge.activeOrgan.title}</strong>
-            </div>
+                </strong>
+                </div>
+                
+                <div>
+                  <small>Active Organ</small>
+                  <strong>{bridge.activeOrgan.title}</strong>
+                  </div>
           </section>
         </div>
       </section>
@@ -948,10 +1058,23 @@ useEffect(() => {
                 <p>{signal.summary}</p>
 
                 <footer>
-                  <span>{signal.source}</span>
-                  <i />
-                  <strong>{signal.state}</strong>
-                </footer>
+  {signal.sourceUrl ? (
+    <a
+      href={signal.sourceUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`Open source: ${signal.source}`}
+    >
+      {signal.source}
+    </a>
+  ) : (
+    <span>{signal.source}</span>
+  )}
+
+  <i />
+
+  <strong>{signal.state}</strong>
+</footer>
               </article>
             ))}
           </div>
@@ -1765,6 +1888,38 @@ useEffect(() => {
           box-shadow: 0 0 14px rgba(135, 241, 198, 0.8);
         }
 
+        .ci-runtime-caption {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  margin-top: 14px;
+  padding: 0 8px;
+
+  color: rgba(220, 232, 247, 0.46);
+
+  font-size: 10px;
+  font-weight: 420;
+  line-height: 1.5;
+  letter-spacing: 0.035em;
+}
+
+.ci-runtime-caption span,
+.ci-runtime-caption time {
+  display: block;
+}
+
+.ci-runtime-caption time {
+  flex: 0 0 auto;
+
+  color: rgba(220, 232, 247, 0.58);
+
+  white-space: nowrap;
+}
+
         .ci-organs,
         .ci-runtime,
         .ci-intelligence,
@@ -2075,59 +2230,7 @@ useEffect(() => {
           color: var(--dim);
         }
 
-      .ci-organ-action{
-      width:100%;
-      display:flex;
-      justify-content:flex-end;
-      margin-top:24px;
-      }
 
-.ci-organ-open{
-
-   display:inline-flex;
-   align-items:center;
-   gap:10px;
-
-   padding:10px 16px;
-
-   border:1px solid rgba(255,255,255,.08);
-   border-radius:999px;
-
-   background:rgba(255,255,255,.04);
-
-   color:rgba(255,255,255,.86);
-
-   font-size:12px;
-   font-weight:500;
-   letter-spacing:.04em;
-
-   cursor:pointer;
-
-   transition:
-       background .3s ease,
-       border-color .3s ease,
-       transform .3s ease,
-       color .3s ease;
-}
-
-.ci-organ-open:hover{
-
-   background:rgba(158,223,255,.12);
-
-   border-color:rgba(158,223,255,.28);
-
-   color:#ffffff;
-
-   transform:translateX(3px);
-}
-
-.ci-organ-open svg{
-
-   width:14px;
-   height:14px;
-
-   flex:0 0 auto;
-}
 
         .ci-runtime-stage {
         position: relative;
@@ -2704,6 +2807,30 @@ white-space:nowrap;
           background: currentColor;
         }
 
+        .ci-signal-card footer a {
+  color: inherit;
+
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.ci-signal-card footer a:hover {
+  color: rgba(235, 245, 255, 0.92);
+
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ci-signal-card footer strong {
+  color: rgba(158, 223, 255, 0.72);
+
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
         .ci-controls {
           padding: 20px 0 105px;
         }
@@ -2834,13 +2961,6 @@ white-space:nowrap;
       rgba(255, 255, 255, 0.075);
   }
 
-  .ci-organ-action {
-    width:
-      auto;
-
-    margin-top:
-      0;
-  }
 
   .ci-recent-grid {
     grid-template-columns:
@@ -2959,9 +3079,7 @@ white-space:nowrap;
   align-items: flex-start;
 }
 
-.ci-organ-action {
-  justify-content: flex-start;
-}
+
 
           .ci-shell {
             width: min(100% - 20px, 1240px);
@@ -3128,6 +3246,21 @@ white-space:nowrap;
   font-size: 15px;
 
   line-height: 1.35;
+}
+
+.ci-runtime-caption {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+
+  margin-top: 13px;
+  padding: 0 4px;
+
+  font-size: 9px;
+}
+
+.ci-runtime-caption time {
+  white-space: normal;
 }
 
           .ci-organs,
