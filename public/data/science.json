@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-20T22:01:45.390Z",
+  "updated": "2026-07-20T23:58:02.778Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Students enable widespread water monitoring in India",
+      "url": "https://phys.org/news/2026-07-students-enable-widespread-india.html",
+      "summary": "When a local community gets involved in environmental monitoring, its efforts can build awareness of local environmental issues and provide more abundant data than scientists can collect on their own. But how does the qu…",
+      "ts": 1784589601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unusual three-way bestows magnetic sense to single-celled organism",
+      "url": "https://phys.org/news/2026-07-unusual-bestows-magnetic-celled.html",
+      "summary": "How do microorganisms orient themselves to find the optimal habitat? Scientists have thoroughly investigated so-called magnetotactic bacteria, which use the Earth's magnetic field as a biological compass. Some eukaryotic…",
+      "ts": 1784588401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "One idea, two cosmic mysteries—linking Little Red Dots and globular clusters",
+      "url": "https://phys.org/news/2026-07-idea-cosmic-mysteries-linking-red.html",
+      "summary": "A new study led by astronomers at The University of Texas at Austin proposes a theory that could solve two astronomical riddles at once: the nature of Little Red Dots and the origin of globular clusters. Rather than repr…",
+      "ts": 1784587201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Transforming vibrations into clean fuels and chemicals through piezosynthesis",
+      "url": "https://phys.org/news/2026-07-vibrations-fuels-chemicals-piezosynthesis.html",
+      "summary": "From ocean waves and flowing rivers to the systems used to transport and treat water, vibrations are everywhere. But can vibrations do more than just shake water? Can they split water or drive the production of useful ch…",
+      "ts": 1784586001000
+    },
     {
       "source": "Phys.org",
       "title": "New cell imaging method measures protein folding in living organelles",
@@ -479,6 +507,139 @@
       "ts": 1784541603000
     },
     {
+      "source": "APS Physical Review Letters",
+      "title": "Essay: Pushing the Frontiers of High Energy Density Science toward Unexplored States of Matter",
+      "url": "http://link.aps.org/doi/10.1103/1d8y-2cmz",
+      "summary": "Author(s): Federica Coppari In this forward-looking PRL Essay, Federica Coppari presents a compelling perspective on high-energy-density science, centering on the remarkable behavior of matter under extreme conditions—su…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "On-Device Learning of Optimal Probes via Out-of-Time-Order Correlators in Noise-Adaptive Quantum Metrology",
+      "url": "http://link.aps.org/doi/10.1103/b834-zjgf",
+      "summary": "Author(s): Xinyue Long, Xiaodong Yang, Xiangyu Wang, Yufang Feng, Carlos H. S. Vieira, Ran Liu, Xinfang Nie, Jun Li, and Dawei Lu Quantum metrology promises to surpass classical precision limits by leveraging quantum res…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Baby Universes from Thermal Pure States in the Sachdev-Ye-Kitaev Model",
+      "url": "http://link.aps.org/doi/10.1103/8p6x-w737",
+      "summary": "Author(s): Martin Sasieta, Brian Swingle, and Alejandro Vilar López We construct a simple two-dimensional holographic model of a closed “baby” universe. The baby universe spacetime originates from the black hole interior…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Imprints of Asymptotic Freedom on Confining Strings",
+      "url": "http://link.aps.org/doi/10.1103/6399-gw3k",
+      "summary": "Author(s): Jan Albert and Alexandre Homrich We consider the Polyakov loop correlator in the confining phase of large $N$ Yang-Mills theory in three and four dimensions. It can be computed by summing over the exchange of …",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Program-Synthesis-Driven Autodesign of Universal Unitary Operators",
+      "url": "http://link.aps.org/doi/10.1103/49c3-4rp4",
+      "summary": "Author(s): Yifei Zhang, Dong Chen, Fan Wang, Wenrui Zhang, Yan Chen, Dingding Han, Jianmin Yuan, Xiangjin Kong, and Yu-Gang Ma We demonstrate that AI-driven program synthesis can autonomously discover fundamental strateg…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Integrated Soliton Microcombs beyond the Turnkey Limit",
+      "url": "http://link.aps.org/doi/10.1103/r8fh-vtps",
+      "summary": "Author(s): Ze Wang, Tianyu Xu, Yuanlei Wang, Kaixuan Zhu, Xinrui Luo, Haoyang Luo, Junqi Wang, Bo Ni, Yiwen Yang, Qihuang Gong, Yun-Feng Xiao, Bei-Bei Li, and Qi-Fan Yang Self-injection locking enables integrated soliton…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Dynamical Hysteresis in the Dissipation in Turbulent Flows",
+      "url": "http://link.aps.org/doi/10.1103/mt2v-yqtb",
+      "summary": "Author(s): M. Ahmad, P. D. Mininni, M. Obligado, and J. A. Farnsworth We present evidence of the dynamical hysteretic nature of dissipation in unsteady turbulent flows. Wind tunnel experiments and direct numerical simula…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Superfluidity in the Second Layer of $^{4}\\mathrm{He}$ on Graphite",
+      "url": "http://link.aps.org/doi/10.1103/xxsj-fs9j",
+      "summary": "Author(s): Jun Usami and Hiroshi Fukuyama Evidence for a new type of superfluid phase in second-layer $^{4}\\mathrm{He}$ on graphite has been obtained from simultaneous measurements of torsional-oscillator response and he…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Velocity-Independent Dry Friction on Mica: Realization of Ideal Amontons-Coulomb Friction",
+      "url": "http://link.aps.org/doi/10.1103/y3jy-nqcd",
+      "summary": "Author(s): Hiroshi Sakuma, Diane E. Moore, David A. Lockner, and Toshihiro Kogure The Amontons-Coulomb friction law assumes that the frictional force between materials is independent of sliding velocity. However, as Coul…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Heavy-Fermion Phase Diagram in Magic-Angle Twisted Trilayer Graphene",
+      "url": "http://link.aps.org/doi/10.1103/zzks-vkl2",
+      "summary": "Author(s): Le Zhang, Wenqiang Zhou, Xinjie Fang, Zhen Zhan, Kenji Watanabe, Takashi Taniguchi, Yi-feng Yang, and Shuigang Xu The interplay between localized magnetic moments and itinerant electrons gives rise to exotic q…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Deep-Learning Density Functional Theory Hamiltonian in Real Space",
+      "url": "http://link.aps.org/doi/10.1103/mbhs-vlby",
+      "summary": "Author(s): Zilong Yuan, Zechen Tang, Honggeng Tao, Xiaoxun Gong, Zezhou Chen, Yuxiang Wang, He Li, Yang Li, Zhiming Xu, Minghui Sun, Boheng Zhao, Chen Si, Chong Wang, Wenhui Duan, and Yong Xu Integrating essential physic…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "NMR Evidence for Spontaneous Electronic Chiral Order in URhSn",
+      "url": "http://link.aps.org/doi/10.1103/1vjx-4jfv",
+      "summary": "Author(s): Y. Tokunaga, T. Ishitobi, H. Sakai, S. Kambe, H. Harima, A. Nakamura, A. Maurya, D. Li, Y. Homma, F. Honda, D. Aoki, and Y. Shimizu The first direct evidence of spontaneous electronic chiral order in URhSn, a …",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Simulating Fermionic Fractional Chern Insulators with Infinite Projected Entangled-Pair States",
+      "url": "http://link.aps.org/doi/10.1103/c9dr-bpn4",
+      "summary": "Author(s): Hao Chen, Titus Neupert, and Juraj Hasik Infinite projected entangled-pair states (iPEPSs) provide a powerful variational framework for two-dimensional quantum matter and have been widely used to capture boson…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Bridging Constrained Random-Phase Approximation and Linear Response Theory for Computing Hubbard Parameters",
+      "url": "http://link.aps.org/doi/10.1103/nkm7-wycf",
+      "summary": "Author(s): Alberto Carta, Iurii Timrov, Sophie Beck, and Claude Ederer The predictive accuracy of popular extensions to density-functional theory (DFT) such as $\\mathrm{DFT}+U$ and DFT plus dynamical mean-field theory ($…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Relaxation toward an Ideal Chern Band through Coupling to a Markovian Bath",
+      "url": "http://link.aps.org/doi/10.1103/d766-sns5",
+      "summary": "Author(s): Bruno Mera and Tomoki Ozawa We propose a microscopic, weak-coupling mechanism by which generic Chern bands asymptotically relax toward ideal bands. We consider coupling interacting electrons to a Caldeira-Legg…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Exact Fractionalized Ground States in an Extended Spin-1 Kitaev Chain",
+      "url": "http://link.aps.org/doi/10.1103/fy4t-6bh8",
+      "summary": "Author(s): Alwyn Jose Raja and R. Ganesh Inspired by the Affleck-Kennedy-Lieb-Tasaki (AKLT) model, we present exact solutions for a spin-1 chain with Kitaev-like couplings. We consider an expanded Kitaev model with bilin…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Chiral Magnon Mixing by Symmetry-Breaking in Collinear Ferrimagnets",
+      "url": "http://link.aps.org/doi/10.1103/n1x2-mzzx",
+      "summary": "Author(s): Dhurba R. Jaishi, Tyler J. Slade, S. X. M. Riberolles, Bing Li, Tianxiong Han, D. M. Pajerowski, D. L. Abernathy, Barry Winn, Melissa Graves-Brook, B. G. Ueland, and R. J. McQueeney Magnons in ferromagnets pos…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Anomalous Reflection Phase of Slot Plasmons in an $\\mathrm{AlGaN}/\\mathrm{GaN}$ Plasmonic Crystal",
+      "url": "http://link.aps.org/doi/10.1103/2cst-5qdr",
+      "summary": "Author(s): A. R. Khisameeva, D. A. Khudaiberdiev, I. M. Moiseenko, P. A. Gusikhin, A. S. Astrakhantseva, A. Shuvaev, A. Pimenov, D. A. Svintsov, I. V. Kukushkin, and V. M. Muravev We experimentally investigate the terahe…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Engineered Molecular Clock Transitions for Precision Measurements",
+      "url": "http://link.aps.org/doi/10.1103/4t7q-d58r",
+      "summary": "Author(s): Yuiki Takahashi, Harish D. Ramachandran, Arian Jadbabaie, Yi Zeng, Chi Zhang, and Nicholas R. Hutzler Special clock transitions in heavy polar molecules have been engineered to probe physics beyond the standar…",
+      "ts": 1784541600000
+    },
+    {
       "source": "Phys.org",
       "title": "Greece braces for year's first heat wave",
       "url": "https://phys.org/news/2026-07-greece-braces-year.html",
@@ -539,167 +700,6 @@
       "title": "Controlled drop generation via ligament extraction from a static or vibrating liquid bath",
       "url": "https://arxiv.org/abs/2607.15377",
       "summary": "arXiv:2607.15377v1 Announce Type: new Abstract: We introduce a simple method for generating droplets at the surface of a liquid bath by rapidly stretching a liquid ligament with a spring-loaded cylindrical probe. By vary…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contest between diverging k-vectors and astigmatism in an aberrated randomly scattered light",
-      "url": "https://arxiv.org/abs/2607.15393",
-      "summary": "arXiv:2607.15393v1 Announce Type: new Abstract: The impact of astigmatism on randomly scattered light, here speckles which are generated from a ground glass (GG) plate, is investigated by studying the change in the shape…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A termolecular reaction theory for gas-phase nucleation based on long-range intermolecular forces",
-      "url": "https://arxiv.org/abs/2607.15417",
-      "summary": "arXiv:2607.15417v1 Announce Type: new Abstract: The birth of a new phase is usually described thermodynamically, but in the gas phase it begins as chemistry. Here, we show that gas-phase nucleation can be described as a …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electronic Structure Calculations from Occupation Numbers on Quantum Computers",
-      "url": "https://arxiv.org/abs/2607.15425",
-      "summary": "arXiv:2607.15425v1 Announce Type: new Abstract: We present a quantum-classical algorithm for electronic structure calculations that dramatically reduces the quantum measurement cost of variational quantum eigensolver (VQ…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computer-generated QIS tutorial feedback is valued by students, but does not replicate in-class collaboration",
-      "url": "https://arxiv.org/abs/2607.15444",
-      "summary": "arXiv:2607.15444v1 Announce Type: new Abstract: PER has consistently demonstrated the effectiveness of small-group tutorials in helping students develop conceptual understanding and fluency, but instructor uptake is limi…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dependence of Momentum Transport on the Dominant Turbulence Regime in the DIII-D Tokamak",
-      "url": "https://arxiv.org/abs/2607.15484",
-      "summary": "arXiv:2607.15484v1 Announce Type: new Abstract: Accurate prediction of toroidal plasma rotation is essential for optimizing confinement and stability in future fusion devices. This work investigates turbulent core moment…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Circulation Statistics in Rayleigh-B\\'enard Convection",
-      "url": "https://arxiv.org/abs/2607.15489",
-      "summary": "arXiv:2607.15489v1 Announce Type: new Abstract: Important statistical properties of velocity circulation in homogeneous isotropic turbulence (HIT) have been unveiled in recent years, raising the question of whether they …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Differentiable Cardiac Electrophysiology Simulations for Dynamical State and Parameter Estimation",
-      "url": "https://arxiv.org/abs/2607.15492",
-      "summary": "arXiv:2607.15492v1 Announce Type: new Abstract: The heart's contractions are triggered by action potential waves, which propagate through the cardiac muscle and exhibit diverse spatio-temporal dynamics during different h…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Mesoscopic Ginzburg--Landau Model for Vibrational Strong Coupling Enhanced Rayleigh Scattering in Molecular Liquids",
-      "url": "https://arxiv.org/abs/2607.15497",
-      "summary": "arXiv:2607.15497v1 Announce Type: new Abstract: Recent experiments by Sandeep \\textit{et al.} [Angew. Chem. Int. Ed. 65, e16917 (2026)] suggest that vibrational strong coupling (VSC) in molecular liquids can generate mes…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An exact N-strain epidemic model using bond percolation",
-      "url": "https://arxiv.org/abs/2607.15513",
-      "summary": "arXiv:2607.15513v1 Announce Type: new Abstract: In this paper we examine the emergent structures of random networks that have undergone bond percolation an arbitrary, but finite, number of times. We define two types of s…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Tool-Invariant Framework for Teaching and Assessing Computational Methods in the Age of Agentic AI",
-      "url": "https://arxiv.org/abs/2607.15518",
-      "summary": "arXiv:2607.15518v1 Announce Type: new Abstract: Learning a computational method has always meant learning to operate a tool -- pencil, slide rule, calculator, or programming language. Agentic artificial intelligence, whi…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Degree correlations in graphs with clique clustering",
-      "url": "https://arxiv.org/abs/2607.15519",
-      "summary": "arXiv:2607.15519v1 Announce Type: new Abstract: Correlations among the degrees of vertices in random graphs often occur when clustering is present. In this paper we define a joint-degree correlation function for vertices…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhanced Third-Harmonic Generation in Diamond Photonic Crystal Slabs via Doubly Resonant Quasi-Bound States in the Continuum",
-      "url": "https://arxiv.org/abs/2607.15526",
-      "summary": "arXiv:2607.15526v1 Announce Type: new Abstract: We propose and numerically demonstrate doubly resonant third-harmonic generation (THG) in a diamond photonic crystal (PhC) slab, in which the fundamental harmonic (FH) and …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine Learning-Driven Design of Mixed-Pitch Grating Couplers for Co-Packaged Optics Applications",
-      "url": "https://arxiv.org/abs/2607.15534",
-      "summary": "arXiv:2607.15534v1 Announce Type: new Abstract: A mixed-pitch grating coupler which can couple a wide range of wavelengths is preferred in its application in co-packaged optics (CPO). However, the design and optimization…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unified Deflection Estimation and Error Analysis for Background-Oriented Schlieren",
-      "url": "https://arxiv.org/abs/2607.15567",
-      "summary": "arXiv:2607.15567v1 Announce Type: new Abstract: Background-Oriented Schlieren (BOS) has become a versatile quantitative diagnostic for density-varying flows, in which estimating the light-ray deflection from the measured…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Basis-Independent Geometric Phase Modulation in Circularly Birefringent Plasmonic Structures",
-      "url": "https://arxiv.org/abs/2607.15614",
-      "summary": "arXiv:2607.15614v1 Announce Type: new Abstract: Geometric phase in metasurfaces is conventionally realized using spatially rotated linearly birefringent meta-atoms under circularly polarized illumination. Here we demonst…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Near-field Dressing of Thermal Emission",
-      "url": "https://arxiv.org/abs/2607.15622",
-      "summary": "arXiv:2607.15622v1 Announce Type: new Abstract: Radiative heat transfer at subwavelength distances is generally understood as enhanced energy exchange mediated by photon tunnelling between neighboring bodies. While near-…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radially correlated partially coherent beams with a deterministic vortex structure",
-      "url": "https://arxiv.org/abs/2607.15644",
-      "summary": "arXiv:2607.15644v1 Announce Type: new Abstract: Partially coherent beams have attracted considerable attention due to their intrinsic resilience against complex environmental perturbations. However, the intrinsic wavefro…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Green-Roof Energy Performance in New Zealand's Present and Future Climate Condition (2050)",
-      "url": "https://arxiv.org/abs/2607.15677",
-      "summary": "arXiv:2607.15677v1 Announce Type: new Abstract: Green roofs are increasingly promoted as nature-based measures for reducing building energy demand, yet their performance in New Zealand's oceanic climates and under future…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Linear Gyrokinetic Simulations of Micro-tearing Mode: Local versus Global",
-      "url": "https://arxiv.org/abs/2607.15678",
-      "summary": "arXiv:2607.15678v1 Announce Type: new Abstract: A systematic comparison of local and global linear gyrokinetic simulations of micro-tearing modes (MTMs) is performed using the GENE code. The analysis spans diverse plasma…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "$GW$ reduced density matrix from iterated linearized Dyson equation",
-      "url": "https://arxiv.org/abs/2607.15695",
-      "summary": "arXiv:2607.15695v1 Announce Type: new Abstract: Iterating the Dyson equation with the static part of the self-energy leads to a concise and possibly improved expression of the one-body reduced density matrix from any sel…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mid- and long-wavelength infrared computational ghost spectroscopy",
-      "url": "https://arxiv.org/abs/2607.15725",
-      "summary": "arXiv:2607.15725v1 Announce Type: new Abstract: Spectral-domain ghost imaging enables high-resolution spectroscopy with a single-pixel detector. The technique does not rely on spectrally resolved detectors, which makes i…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-dimensional three-photon Stark spectroscopy of a single Rb Rydberg atom in an ultrahigh-vacuum glass cell with eight electrodes",
-      "url": "https://arxiv.org/abs/2607.15764",
-      "summary": "arXiv:2607.15764v1 Announce Type: new Abstract: Quantum computing and quantum simulation with ultracold neutral atoms require Rydberg excitation of individual atoms in atomic arrays. Rydberg states are extremely sensitiv…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Role of Spatial Coherence in Single-Shot Lensless Image Reconstruction",
-      "url": "https://arxiv.org/abs/2607.15765",
-      "summary": "arXiv:2607.15765v1 Announce Type: new Abstract: Lensless imaging is a technique that recovers object information computationally from diffraction patterns recorded without imaging optics, making its performance strongly …",
       "ts": 1784520000000
     }
   ],

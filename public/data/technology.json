@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-20T22:01:48.172Z",
+  "updated": "2026-07-20T23:58:05.049Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Flu Virus Interaction with Host Cell Machinery Mapped Inside Infected Cells",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/flu-virus-interaction-with-host-cell-machinery-mapped-inside-infected-cells/",
+      "summary": "Researchers developed a customized experimental workflow combining cross-linking mass spectrometry with AlphaFold-based structural modeling and functional assays to directly map protein-protein interactions in influenza-…",
+      "ts": 1784585802000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "FDA still focused on lettuce supplier as source of parasite, despite faulty test result",
@@ -713,14 +721,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. There’s a lot of hype around perimenopause. Don’t buy it. Perimenopause used to be…",
       "ts": 1784290200000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Gene Therapy Partners Aim to Enhance Protein Expression",
-      "url": "https://www.genengnews.com/topics/genome-editing/gene-therapy-partners-aim-to-enhance-protein-expression/",
-      "summary": "Avenue Biosciences´ machine learning-powered platform engineers and screens signal peptide variants to increase protein secretion from cells. Circio’s circVec technology has demonstrated significantly enhanced and durabl…",
-      "ts": 1784289607000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
