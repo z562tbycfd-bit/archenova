@@ -2745,25 +2745,41 @@ white-space:nowrap;
         }
 
         .ci-footer {
-          padding: 55px 20px 75px;
-          text-align: center;
-        }
+  width: 100%;
+  padding: 55px 20px 75px;
 
-        .ci-footer p {
-          margin: 0;
-          color: rgba(235, 242, 251, 0.72);
-          font-family: Georgia, serif;
-          font-size: 16px;
-          font-style: italic;
-        }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-        .ci-footer span {
-          display: block;
-          margin-top: 17px;
-          color: var(--dim);
-          font-size: 10px;
-          letter-spacing: 0.24em;
-        }
+  text-align: center;
+}
+
+.ci-footer p {
+  width: min(760px, 100%);
+  margin: 0 auto;
+
+  color: rgba(235, 242, 251, 0.72);
+
+  font-family: Georgia, serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.8;
+
+  text-align: center;
+}
+
+.ci-footer span {
+  display: block;
+  margin: 17px auto 0;
+
+  color: var(--dim);
+
+  font-size: 10px;
+  letter-spacing: 0.24em;
+
+  text-align: center;
+}
 
         @media (max-width: 380px) {
   .ci-hero-heading h1 {
