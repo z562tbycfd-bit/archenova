@@ -1,7 +1,112 @@
 {
   "ok": true,
-  "updated": "2026-07-20T14:10:39.563Z",
+  "updated": "2026-07-20T16:25:21.774Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI falls short on context and cultural rhetoric in United Nations speech translations",
+      "url": "https://phys.org/news/2026-07-ai-falls-short-context-cultural.html",
+      "summary": "As generative artificial intelligence (AI) is increasingly used in translation, questions have been raised about whether it could eventually replace professional interpreters. A joint study led by Lingnan University foun…",
+      "ts": 1784564408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Exploring the use of accounts to manage reluctant participation in microteaching sessions",
+      "url": "https://phys.org/news/2026-07-exploring-accounts-reluctant-microteaching-sessions.html",
+      "summary": "Classrooms often fall silent when the teacher poses a question. The pause is not always due to a lack of knowledge. Students may be hesitant, unsure, shy or simply unwilling to participate, and these feelings are often s…",
+      "ts": 1784564403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers challenge evidence behind high-profile parental alienation study",
+      "url": "https://phys.org/news/2026-07-evidence-high-profile-parental-alienation.html",
+      "summary": "Researchers from Manchester and Canada have shown that the claim by the authors of a study published earlier this year that most of its participants had experienced parental alienating behaviors during childhood is serio…",
+      "ts": 1784563203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Red tape and conflicting priorities limit the impact of social businesses, research finds",
+      "url": "https://phys.org/news/2026-07-red-tape-conflicting-priorities-limit.html",
+      "summary": "Social businesses are being prevented from delivering lasting benefits to their regions because of complex policies, unclear guidance, financial constraints and poor use of resources, according to new research from the D…",
+      "ts": 1784562008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bee brains reveal how colonies divide work without central planning",
+      "url": "https://phys.org/news/2026-07-bee-brains-reveal-colonies-central.html",
+      "summary": "What determines which tasks bees perform in their colony? Biologists from Heinrich Heine University Düsseldorf (HHU) and the universities in Cologne and Frankfurt/Main have investigated the role neural activity plays in …",
+      "ts": 1784562003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Food labeling combined with higher prices for carbon-intensive foods could help reduce UK greenhouse gases by 5%",
+      "url": "https://phys.org/news/2026-07-food-combined-higher-prices-carbon.html",
+      "summary": "Economists say labeling supermarket food to show its environmental impact, combined with taxing the most carbon-intensive items, could slash UK greenhouse gas emissions by almost 5% while generating net gains for society…",
+      "ts": 1784560805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI may not make us stupid, but relying on it could weaken the skills built through practice",
+      "url": "https://phys.org/news/2026-07-ai-stupid-weaken-skills-built.html",
+      "summary": "The worry of becoming stupid isn't new; it dates back to the time of the Greek philosopher Socrates, who insisted that writing would destroy memory and weaken the mind. Then came calculators, GPS and computers, all of wh…",
+      "ts": 1784560201000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "The Organisms That Make Earth’s Harshest Places Home",
+      "url": "https://www.quantamagazine.org/the-organisms-that-make-earths-harshest-places-home-20260720/",
+      "summary": "Extremophiles that thrive in the most unforgiving environments aren’t just biological curiosities. Understanding their resilience has many implications for us. The post The Organisms That Make Earth’s Harshest Places Hom…",
+      "ts": 1784559828000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beyond proximity: New policy model to transform access to parks",
+      "url": "https://phys.org/news/2026-07-proximity-policy-access.html",
+      "summary": "Accessible urban green spaces could save the NHS up to £2.1 billion each year, but current policy fails to ensure parks are truly accessible, research shows. A new policy brief published by the university's Institute for…",
+      "ts": 1784559606000
+    },
+    {
+      "source": "Science News",
+      "title": "AI ‘ghosts’ can comfort mourners — even when the bots get the facts wrong",
+      "url": "https://www.sciencenews.org/article/ai-ghosts-grief-facts-wrong-chatbot",
+      "summary": "A small study suggests emotional fit, not perfect accuracy, may make chatbot versions of dead loved ones feel real.",
+      "ts": 1784559600000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prescribed burns may be lethal for lizards",
+      "url": "https://phys.org/news/2026-07-lethal-lizards.html",
+      "summary": "Scientists are calling for wildlife surveys to be conducted within hours of prescribed burns after new research revealed that evidence of animal deaths can disappear in less than two weeks, significantly underestimating …",
+      "ts": 1784558406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New machine-learning tool improves accuracy of genomics research",
+      "url": "https://phys.org/news/2026-07-machine-tool-accuracy-genomics.html",
+      "summary": "University of Virginia School of Medicine scientists have identified a widespread source of error in a popular method for studying the genome and created a machine-learning tool to correct it. The free tool could improve…",
+      "ts": 1784558402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deep-space CubeSat could stretch solar storm warnings from 15 minutes to 3 hours",
+      "url": "https://phys.org/news/2026-07-deep-space-cubesat-solar-storm.html",
+      "summary": "Space weather warnings could be received hours before Earth is hit rather than minutes with the help of a miniature UK-built instrument soon to be stationed in deep space. MAGIC (MAGnetometer from Imperial College) is pa…",
+      "ts": 1784557472000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can you guess your favorite World Cup team based on 'signature' passes?",
+      "url": "https://phys.org/news/2026-07-favorite-world-cup-team-based.html",
+      "summary": "Each World Cup team's passing patterns reveal distinctive \"signatures\" that show whether a team relies heavily on its star player or focuses its strategy on playing against an opponent's strengths, data shows.",
+      "ts": 1784557205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Archaeological dig reveals full extent of Roman villa with intricate mosaic and bath house",
+      "url": "https://phys.org/news/2026-07-archaeological-reveals-full-extent-roman.html",
+      "summary": "Archaeologists have uncovered a rare and intricate polychrome mosaic within the remains of a Roman villa beneath Devon farmland. Made up of thousands of red, white and dark blue-gray cubes, the 12 m2 (129 square feet) mo…",
+      "ts": 1784557201000
+    },
     {
       "source": "Phys.org",
       "title": "Giving bees a probiotic diet could help protect them from extreme temperatures",
@@ -120,6 +225,132 @@
       "url": "https://phys.org/news/2026-07-air-home-wildfires.html",
       "summary": "The eerie glow of an orange sun through thick wildfire smoke might be unnerving, but the biggest risk from the haze is something much harder to see.",
       "ts": 1784541603000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Essay: Pushing the Frontiers of High Energy Density Science toward Unexplored States of Matter",
+      "url": "http://link.aps.org/doi/10.1103/1d8y-2cmz",
+      "summary": "Author(s): Federica Coppari In this forward-looking PRL Essay, Federica Coppari presents a compelling perspective on high-energy-density science, centering on the remarkable behavior of matter under extreme conditions—su…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "On-Device Learning of Optimal Probes via Out-of-Time-Order Correlators in Noise-Adaptive Quantum Metrology",
+      "url": "http://link.aps.org/doi/10.1103/b834-zjgf",
+      "summary": "Author(s): Xinyue Long, Xiaodong Yang, Xiangyu Wang, Yufang Feng, Carlos H. S. Vieira, Ran Liu, Xinfang Nie, Jun Li, and Dawei Lu Quantum metrology promises to surpass classical precision limits by leveraging quantum res…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Imprints of Asymptotic Freedom on Confining Strings",
+      "url": "http://link.aps.org/doi/10.1103/6399-gw3k",
+      "summary": "Author(s): Jan Albert and Alexandre Homrich We consider the Polyakov loop correlator in the confining phase of large $N$ Yang-Mills theory in three and four dimensions. It can be computed by summing over the exchange of …",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Program-Synthesis-Driven Autodesign of Universal Unitary Operators",
+      "url": "http://link.aps.org/doi/10.1103/49c3-4rp4",
+      "summary": "Author(s): Yifei Zhang, Dong Chen, Fan Wang, Wenrui Zhang, Yan Chen, Dingding Han, Jianmin Yuan, Xiangjin Kong, and Yu-Gang Ma We demonstrate that AI-driven program synthesis can autonomously discover fundamental strateg…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Dynamical Hysteresis in the Dissipation in Turbulent Flows",
+      "url": "http://link.aps.org/doi/10.1103/mt2v-yqtb",
+      "summary": "Author(s): M. Ahmad, P. D. Mininni, M. Obligado, and J. A. Farnsworth We present evidence of the dynamical hysteretic nature of dissipation in unsteady turbulent flows. Wind tunnel experiments and direct numerical simula…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Superfluidity in the Second Layer of $^{4}\\mathrm{He}$ on Graphite",
+      "url": "http://link.aps.org/doi/10.1103/xxsj-fs9j",
+      "summary": "Author(s): Jun Usami and Hiroshi Fukuyama Evidence for a new type of superfluid phase in second-layer $^{4}\\mathrm{He}$ on graphite has been obtained from simultaneous measurements of torsional-oscillator response and he…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Velocity-Independent Dry Friction on Mica: Realization of Ideal Amontons-Coulomb Friction",
+      "url": "http://link.aps.org/doi/10.1103/y3jy-nqcd",
+      "summary": "Author(s): Hiroshi Sakuma, Diane E. Moore, David A. Lockner, and Toshihiro Kogure The Amontons-Coulomb friction law assumes that the frictional force between materials is independent of sliding velocity. However, as Coul…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Heavy-Fermion Phase Diagram in Magic-Angle Twisted Trilayer Graphene",
+      "url": "http://link.aps.org/doi/10.1103/zzks-vkl2",
+      "summary": "Author(s): Le Zhang, Wenqiang Zhou, Xinjie Fang, Zhen Zhan, Kenji Watanabe, Takashi Taniguchi, Yi-feng Yang, and Shuigang Xu The interplay between localized magnetic moments and itinerant electrons gives rise to exotic q…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "NMR Evidence for Spontaneous Electronic Chiral Order in URhSn",
+      "url": "http://link.aps.org/doi/10.1103/1vjx-4jfv",
+      "summary": "Author(s): Y. Tokunaga, T. Ishitobi, H. Sakai, S. Kambe, H. Harima, A. Nakamura, A. Maurya, D. Li, Y. Homma, F. Honda, D. Aoki, and Y. Shimizu The first direct evidence of spontaneous electronic chiral order in URhSn, a …",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Simulating Fermionic Fractional Chern Insulators with Infinite Projected Entangled-Pair States",
+      "url": "http://link.aps.org/doi/10.1103/c9dr-bpn4",
+      "summary": "Author(s): Hao Chen, Titus Neupert, and Juraj Hasik Infinite projected entangled-pair states (iPEPSs) provide a powerful variational framework for two-dimensional quantum matter and have been widely used to capture boson…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Bridging Constrained Random-Phase Approximation and Linear Response Theory for Computing Hubbard Parameters",
+      "url": "http://link.aps.org/doi/10.1103/nkm7-wycf",
+      "summary": "Author(s): Alberto Carta, Iurii Timrov, Sophie Beck, and Claude Ederer The predictive accuracy of popular extensions to density-functional theory (DFT) such as $\\mathrm{DFT}+U$ and DFT plus dynamical mean-field theory ($…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Relaxation toward an Ideal Chern Band through Coupling to a Markovian Bath",
+      "url": "http://link.aps.org/doi/10.1103/d766-sns5",
+      "summary": "Author(s): Bruno Mera and Tomoki Ozawa We propose a microscopic, weak-coupling mechanism by which generic Chern bands asymptotically relax toward ideal bands. We consider coupling interacting electrons to a Caldeira-Legg…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Exact Fractionalized Ground States in an Extended Spin-1 Kitaev Chain",
+      "url": "http://link.aps.org/doi/10.1103/fy4t-6bh8",
+      "summary": "Author(s): Alwyn Jose Raja and R. Ganesh Inspired by the Affleck-Kennedy-Lieb-Tasaki (AKLT) model, we present exact solutions for a spin-1 chain with Kitaev-like couplings. We consider an expanded Kitaev model with bilin…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Chiral Magnon Mixing by Symmetry-Breaking in Collinear Ferrimagnets",
+      "url": "http://link.aps.org/doi/10.1103/n1x2-mzzx",
+      "summary": "Author(s): Dhurba R. Jaishi, Tyler J. Slade, S. X. M. Riberolles, Bing Li, Tianxiong Han, D. M. Pajerowski, D. L. Abernathy, Barry Winn, Melissa Graves-Brook, B. G. Ueland, and R. J. McQueeney Magnons in ferromagnets pos…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Anomalous Reflection Phase of Slot Plasmons in an $\\mathrm{AlGaN}/\\mathrm{GaN}$ Plasmonic Crystal",
+      "url": "http://link.aps.org/doi/10.1103/2cst-5qdr",
+      "summary": "Author(s): A. R. Khisameeva, D. A. Khudaiberdiev, I. M. Moiseenko, P. A. Gusikhin, A. S. Astrakhantseva, A. Shuvaev, A. Pimenov, D. A. Svintsov, I. V. Kukushkin, and V. M. Muravev We experimentally investigate the terahe…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS PRX",
+      "title": "Engineered Molecular Clock Transitions for Precision Measurements",
+      "url": "http://link.aps.org/doi/10.1103/4t7q-d58r",
+      "summary": "Author(s): Yuiki Takahashi, Harish D. Ramachandran, Arian Jadbabaie, Yi Zeng, Chi Zhang, and Nicholas R. Hutzler Special clock transitions in heavy polar molecules have been engineered to probe physics beyond the standar…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Space-time-frequency multiplexed orbital angular momentum generation via acoustic rotating point sources: Methodology and coherence characterization",
+      "url": "http://link.aps.org/doi/10.1103/9pmr-mz15",
+      "summary": "Author(s): Rui Li, Xingxing Shi, Yiqi Liu, Jiu Hui Wu, and Fuyin Ma Optical and acoustic communications based on orbital angular momentum (OAM) offer an additional degree of freedom for enhancing information capacity, ye…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Correction-free robust cryptography with orbital angular momentum by nonlinear detection",
+      "url": "http://link.aps.org/doi/10.1103/qlq9-ryzz",
+      "summary": "Author(s): Moslem Mahdavifar, Sachleen Singh, Subith Kumar, Angela Dudley, Bereneice Sephton, Isaac Nape, and Andrew Forbes In this study, we report a robust cryptographic scheme operating over noisy channels, enabled by…",
+      "ts": 1784541600000
     },
     {
       "source": "Phys.org",
@@ -469,237 +700,6 @@
       "title": "Cauchy-Paul wavelet transforms revisited: A framework for intermittent non-sinusoidal oscillations",
       "url": "https://arxiv.org/abs/2607.15953",
       "summary": "arXiv:2607.15953v1 Announce Type: new Abstract: This paper revisits the continuous wavelet transform framework by establishing a rigorous physical and dimensional formulation of the Cauchy-Paul mother wavelet, tailored s…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sociocultural Influences on Opinion Formation: Word of Mouth Dynamics, Mass Media and Behavioural Development",
-      "url": "https://arxiv.org/abs/2607.15968",
-      "summary": "arXiv:2607.15968v1 Announce Type: new Abstract: We study a society of agents belonging to a number of occupational or cultural groups that form opinions about others' situation in the same or different group. Opinions de…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Harnessing resonant dipolar interactions in a hybrid atom-molecule quantum system",
-      "url": "https://arxiv.org/abs/2607.15976",
-      "summary": "arXiv:2607.15976v1 Announce Type: new Abstract: Hybrid quantum systems offer a route to combining the complementary strengths of distinct quantum platforms while mitigating their limitations. A particularly promising arc…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diffusion-induced instabilities promote cooperation in eco-evolutionary networks",
-      "url": "https://arxiv.org/abs/2607.15989",
-      "summary": "arXiv:2607.15989v1 Announce Type: new Abstract: Understanding how cooperation persists despite the advantage of selfish behavior remains a central challenge in evolutionary dynamics. Classical models of public goods dile…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "One-loop self-energy using a numerical Green function",
-      "url": "https://arxiv.org/abs/2607.16026",
-      "summary": "arXiv:2607.16026v1 Announce Type: new Abstract: We calculate the one-loop self-energy in hydrogenlike atoms using a numerical Green function obtained by solving the radial Dirac equation in an exponential basis set. The …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast ungated five-dimensional cardiac MRI on a 1.5 T MR-linac for MRI-guided radiotherapy",
-      "url": "https://arxiv.org/abs/2607.16033",
-      "summary": "arXiv:2607.16033v1 Announce Type: new Abstract: Background: Stereotactic arrhythmia radio-ablation (STAR) for patients with ventricular tachycardia is currently limited by complex cardiorespiratory motion. Current 5D-MRI…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collinear Laser Spectroscopy on a Fast Atomic Beam of Boron Generated by Photodetachment of Accelerated B- Ions",
-      "url": "https://arxiv.org/abs/2607.16048",
-      "summary": "arXiv:2607.16048v1 Announce Type: new Abstract: Atomic beams for collinear laser spectroscopy are typically produced via charge exchange reactions in an in-beam vapor cell. This process is accompanied by the formation of…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optical Control of Chirality by Ultrafast Symmetry Breaking in Membrane Metasurfaces",
-      "url": "https://arxiv.org/abs/2607.16067",
-      "summary": "arXiv:2607.16067v1 Announce Type: new Abstract: Chirality Chirality underpins a wide range of light-matter interactions, yet methods for its dynamic control in photonic systems remain limited. Here, we demonstrate ultraf…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-invasive monitoring of process-relevant plasma parameters by Fiber PROES in capacitively coupled Ar/CF$_4$ plasmas",
-      "url": "https://arxiv.org/abs/2607.16075",
-      "summary": "arXiv:2607.16075v1 Announce Type: new Abstract: Monitoring changes of process-relevant plasma parameters, such as the electron density and ion flux to the wafer, is essential for the development and control of plasma pro…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global kilometer-scale climate simulations: new opportunities for climate services",
-      "url": "https://arxiv.org/abs/2607.16125",
-      "summary": "arXiv:2607.16125v1 Announce Type: new Abstract: Climate services are essential for risk management and economic planning. This paper presents a century-long simulation performed with the ARP-GEM global atmosphere model a…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "CADAQUES: A Cost-Aware Dual Architecture for Query-Efficient Autonomous Discovery",
-      "url": "https://arxiv.org/abs/2607.16127",
-      "summary": "arXiv:2607.16127v1 Announce Type: new Abstract: Autonomous discovery systems couple a resource that answers queries (a simulator, instrument, or analytic model) to an algorithm that selects what to query next. Most softw…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonadiabatic excited-state dynamics with quantum Monte Carlo-trained machine learning: azomethane as a stringent test",
-      "url": "https://arxiv.org/abs/2607.16129",
-      "summary": "arXiv:2607.16129v1 Announce Type: new Abstract: We introduce quantum Monte Carlo (QMC)-trained multi-state machine-learned (ML) force fields for nonadiabatic excited-state dynamics, targeting photochemical processes in w…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-driven identification of multiscale self-similarity and asymptotic matching",
-      "url": "https://arxiv.org/abs/2607.16149",
-      "summary": "arXiv:2607.16149v1 Announce Type: new Abstract: A central problem in fluid mechanics is the identification of self-similarity, which reveals the underlying scaling behaviour of a flow. Recently, a data-driven framework p…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radiopurity material assays and radiation exposure projections for superconducting qubit measurements at SNOLAB",
-      "url": "https://arxiv.org/abs/2607.16151",
-      "summary": "arXiv:2607.16151v1 Announce Type: new Abstract: Interactions of cosmic rays and other forms of ionizing radiation pose a significant challenge to the reliable operation of state-of-the-art quantum devices and error corre…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Broadband Multi-Aperture Passive Scholte-Wave Imaging Using Seabed Distributed Acoustic Sensing",
-      "url": "https://arxiv.org/abs/2607.16157",
-      "summary": "arXiv:2607.16157v1 Announce Type: new Abstract: Shallow-water ocean forcing provides strong broadband passive Scholte-wave illumination along a seabed distributed acoustic sensing cable on the Texas Gulf Coast. We exploi…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum scanning synthetic optical holography",
-      "url": "https://arxiv.org/abs/2607.16176",
-      "summary": "arXiv:2607.16176v1 Announce Type: new Abstract: Synthetic optical holography (SOH) introduced holographic reconstruction into scanning optical microscopy, enabling quantitative phase imaging with sequential acquisition a…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polarization geometry of magnetohydrodynamic turbulence",
-      "url": "https://arxiv.org/abs/2607.15347",
-      "summary": "arXiv:2607.15347v1 Announce Type: cross Abstract: We introduce a geometric framework that organizes the second-order statistics of the Elasser fields into polarization states on generalized Poincar\\'e spheres. In this re…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectral amplification for ground-state energy estimation of electronic structure in first quantization",
-      "url": "https://arxiv.org/abs/2607.15358",
-      "summary": "arXiv:2607.15358v1 Announce Type: cross Abstract: We demonstrate an asymptotic gate complexity improvement in first-quantized ground-state energy estimation of electronic structure Hamiltonians in a plane wave basis by e…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Induction-heated resonant reactors for electrified thermochemistry",
-      "url": "https://arxiv.org/abs/2607.15365",
-      "summary": "arXiv:2607.15365v1 Announce Type: cross Abstract: We present induction-heated resonant reactors, a new concept in electrified thermochemistry in which the reactor itself serves as a volumetric electromagnetic resonator h…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ptolemy's Equant Equates to a Universal Dynamical Clock via Machine Learning",
-      "url": "https://arxiv.org/abs/2607.15472",
-      "summary": "arXiv:2607.15472v1 Announce Type: cross Abstract: Oscillatory dynamics arise ubiquitously in nonlinear systems, yet identifying a physically interpretable phase and phase dynamics in nonlinear, high-dimensional oscillati…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "exa-PD: A scalable high-performance workflow for multi-element phase diagram construction",
-      "url": "https://arxiv.org/abs/2607.15476",
-      "summary": "arXiv:2607.15476v1 Announce Type: cross Abstract: Exa-PD is a highly parallelizable workflow designed for the construction of multi-element phase diagrams (PDs). It uses standard sampling techniques, molecular dynamics (…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Open-Source, Autonomous Platform for High-Resolution Energy Monitoring in Manufacturing",
-      "url": "https://arxiv.org/abs/2607.15594",
-      "summary": "arXiv:2607.15594v1 Announce Type: cross Abstract: High-resolution energy data is increasingly central to Industry 4.0, where electrical signals such as three-phase voltage and current carry rich information about machine…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deterministic atom-shuttle interconnects via ultrafast atom-ion entangling gate",
-      "url": "https://arxiv.org/abs/2607.15597",
-      "summary": "arXiv:2607.15597v1 Announce Type: cross Abstract: Neutral-atom arrays and trapped-ion crystals offer complementary strengths for fault-tolerant quantum computing but lack a fast way to deterministically interact. Here we…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Growth of quartet correlations in neutron-rich Tellurium isotopes within quartet Bardeen-Cooper-Schrieffer theory",
-      "url": "https://arxiv.org/abs/2607.15700",
-      "summary": "arXiv:2607.15700v1 Announce Type: cross Abstract: Quartet correlations in neutron-rich Te isotopes are investigated within the quartet Bardeen-Cooper-Schrieffer (BCS) framework. Taking \\(^{100}\\)Sn as an inert core, we c…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-step growth of (In,Ga)N pseudo-substrates on GaN templates by plasma-assisted molecular beam epitaxy",
-      "url": "https://arxiv.org/abs/2607.15748",
-      "summary": "arXiv:2607.15748v1 Announce Type: cross Abstract: (In,Ga)N layers are grown by plasma-assisted molecular beam epitaxy on GaN templates. We introduce a two-step protocol that involves switching the growth conditions from …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A phenomenological multiscale framework for orientational interactions and viscoelasticity in migrating epithelial monolayers",
-      "url": "https://arxiv.org/abs/2607.15975",
-      "summary": "arXiv:2607.15975v1 Announce Type: cross Abstract: Collective migration of epithelial monolayers emerges from the interplay between mechanical interactions and biochemical signalling. Here, we present a phenomenological m…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Negative quantum friction in nanoscale water flows: the Wigner picture",
-      "url": "https://arxiv.org/abs/2607.16011",
-      "summary": "arXiv:2607.16011v1 Announce Type: cross Abstract: We explore the phenomenon of \"quantum\" friction based on a single-particle model patterned after the Wigner equation describing electrons flow in a solid wall confining n…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamic models with $p$ parameters are identified by $2p+1$ random features",
-      "url": "https://arxiv.org/abs/2607.16035",
-      "summary": "arXiv:2607.16035v1 Announce Type: cross Abstract: A foundational principle in nonlinear dynamics is that the structure of a dynamical system can be recovered from a small number of generic measurements or coordinates. We…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Growing Hypergraphs with Homophily",
-      "url": "https://arxiv.org/abs/2607.16046",
-      "summary": "arXiv:2607.16046v1 Announce Type: cross Abstract: There are many extant models of hypergraphs with interactions governed by attribute-based homophily between nodes, but most assume independence between edges conditional …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Operator Entanglement in Quantum Dynamics Simulations: Formalism and Analysis Tools",
-      "url": "https://arxiv.org/abs/2607.16070",
-      "summary": "arXiv:2607.16070v1 Announce Type: cross Abstract: We review the framework of operator Hilbert space and introduce the one- and two-particle super reduced density matrices (1-SRDMs and 2-SRDMs), as well as the super mutua…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Blueprint for Equilibrium-Based Differentiable Continuous-Variable Thermodynamic Computing",
-      "url": "https://arxiv.org/abs/2607.16183",
-      "summary": "arXiv:2607.16183v1 Announce Type: cross Abstract: To address the escalating energy and latency demands of machine-learning workloads, we introduce a blueprint for an energy-efficient and fast thermodynamic computing stac…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A toy model of turbulent shear flow using vortons",
-      "url": "https://arxiv.org/abs/2501.05779",
-      "summary": "arXiv:2501.05779v3 Announce Type: replace Abstract: We introduce a novel toy model for shear flows, exploiting the spatial intermittency and the scale separation between large-scale flows and small-scale structures. The …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Shoaling of Finite-Amplitude Rogue Waves",
-      "url": "https://arxiv.org/abs/2502.00400",
-      "summary": "arXiv:2502.00400v4 Announce Type: replace Abstract: Rogue wave formation and enhancement over coastal areas have been documented over the last decade. However, this recent knowledge is in apparent contradiction with the …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tracking electron capture processes in classical molecular dynamics simulations for spectral line broadening in plasmas",
-      "url": "https://arxiv.org/abs/2502.04808",
-      "summary": "arXiv:2502.04808v3 Announce Type: replace Abstract: Plasma spectroscopy is a fundamental tool for diagnosing laboratory and astrophysical plasmas. Accurate interpretation of spectra depends upon precise modeling and comp…",
       "ts": 1784520000000
     }
   ],
