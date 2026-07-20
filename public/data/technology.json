@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-20T18:53:56.607Z",
+  "updated": "2026-07-20T20:23:09.318Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Protein Protects Against Tau Tangles, Synaptic Loss in Mouse Model of Tauopathy",
+      "url": "https://www.genengnews.com/topics/drug-discovery/protein-protects-against-tau-tangles-synaptic-loss-in-mouse-model-of-tauopathy/",
+      "summary": "Scientists found that upregulating a protein known as SORLA offers protection against the effects of tau tangles in a mouse model, pointing to a potential therapeutic strategy for tauopathies including Alzheimer’s diseas…",
+      "ts": 1784576596000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Patient-Derived Tumor Organoids Show Promise for Personalizing Cancer Treatment",
+      "url": "https://www.genengnews.com/topics/cancer/patient-derived-tumor-organoids-show-promise-for-personalizing-cancer-treatment/",
+      "summary": "Researchers developed a 220-sample pan-cancer patient-derived organoid platform that faithfully mirrors tumors, identifies new treatment opportunities, and advances precision oncology by enabling personalized drug testin…",
+      "ts": 1784576340000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration",
+      "url": "https://www.nasa.gov/aeronautics/electrified-aircraft-propulsion/nasa-ge-hybrid-electric-flight/",
+      "summary": "An aircraft powered by a megawatt-class hybrid-electric engine developed in collaboration with NASA and built by GE Aerospace, demonstrated flight of an innovation that can inform new generations of fuel-saving aircraft …",
+      "ts": 1784573684000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "New NASA Earth Missions Gear Up to Start Science Flights  ",
+      "url": "https://science.nasa.gov/earth/new-nasa-earth-missions-gear-up-to-start-science-flights/",
+      "summary": "The first of six new airborne campaigns will hit the skies this summer.",
+      "ts": 1784571911000,
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "China’s AI models have Trump’s AI world at war with itself",
@@ -116,9 +148,17 @@
     },
     {
       "source": "United Nations News",
+      "title": "‘I consider it a miracle’: Pregnant woman pulled from post-quake rubble in Venezuela",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167978",
+      "summary": "When a 12-story apartment building pancaked in La Guaira, Venezuela, following two powerful earthquakes late last month, panic ensued to save people injured or trapped under the rubble.",
+      "ts": 1784548800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "LIVE: Haiti endures violence and hunger, but hopes grow for a more secure future",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167972",
-      "summary": "After years of violence perpetrated by gangs, widespread insecurity and the displacement of almost 1.5 million people as well as growing humanitarian needs, Haitians are glimpsing signs of hope as a path to democratic el…",
+      "summary": "Haiti’s future success depends on “security, political engagement, and humanitarian action reinforcing each other,” the UN’s most senior official in Haiti has told the UN Security Council which met in New York on Monday …",
       "ts": 1784548800000,
       "categoryId": "global-governance"
     },
@@ -681,46 +721,6 @@
       "summary": "The UN human rights chief, Volker Türk, has appealed for calm in Pakistan-Administered Kashmir amid unrest ahead of regional elections.",
       "ts": 1784289600000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Hunger deepens for displaced families in Sudan’s El Obeid",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167967",
-      "summary": "UN humanitarians working in war-torn Sudan on Friday highlighted rapidly growing needs among the more than 100,000 displaced people now sheltering in camps in the city of El Obeid.",
-      "ts": 1784289600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Guterres: AI must be shaped by 'all of humanity', not a handful of powers",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167965",
-      "summary": "UN Secretary-General António Guterres on Friday urged governments and technology companies to work together to ensure artificial intelligence (AI) benefits all countries.",
-      "ts": 1784289600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Research Project Applies AI to Isotope Hydrology to Strengthen Water Management",
-      "url": "http://www.iaea.org/newscenter/news/research-project-applies-ai-to-isotope-hydrology-to-strengthen-water-management",
-      "summary": "Water resources are under increasing pressure from drought, pollution, urban growth and climate variability. To manage these challenges effectively, countries need reliable tools to understand where water originates, how…",
-      "ts": 1784289457000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Who can access testosterone hormone medication in the U.S.?",
-      "url": "https://www.statnews.com/2026/07/17/health-news-who-can-access-testosterone-hormone-therapy-in-us/?utm_campaign=rss",
-      "summary": "Wildfire smoke health hazards, a new idea for treating Duchenne, and more health news from Morning Rounds",
-      "ts": 1784289200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Serbia signs the Artemis Accords",
-      "url": "https://spacenews.com/serbia-signs-the-artemis-accords/",
-      "summary": "Serbia is the latest nation to sign the Artemis Accords, joining the U.S.-led effort more than two years after signing on to China’s lunar base project. The post Serbia signs the Artemis Accords appeared first on SpaceNe…",
-      "ts": 1784283348000,
-      "categoryId": "space"
     }
   ],
   "categories": [

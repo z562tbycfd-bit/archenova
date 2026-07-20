@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-20T18:53:53.436Z",
+  "updated": "2026-07-20T20:23:04.824Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Acid-resistant nanocage shows promise for targeted gastric cancer therapy",
+      "url": "https://phys.org/news/2026-07-acid-resistant-nanocage-gastric-cancer.html",
+      "summary": "Researchers from the Yong Loo Lin School of Medicine, National University of Singapore (NUS Medicine), have developed a swallowable nanoscale delivery platform designed to transport therapeutic enzymes through the stomac…",
+      "ts": 1784578807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oystercatchers, known for sharp bills and beady eyes, are making a comeback thanks to conservation",
+      "url": "https://phys.org/news/2026-07-oystercatchers-sharp-bills-beady-eyes.html",
+      "summary": "On a pristine Rhode Island beach teeming with noisy seabirds, a group of biologists armed with nets sneak up on a pair of American oystercatcher chicks.",
+      "ts": 1784578806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New web tool maps fossil locations across ancient continents in seconds",
+      "url": "https://phys.org/news/2026-07-web-tool-fossil-ancient-continents.html",
+      "summary": "Calculating a fossil's position throughout geological history is a complex process. In paleontology and other disciplines, determining a location in the past is a challenge that requires refined computational tools to pr…",
+      "ts": 1784577607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Virtual reality reveals the role of stress in selecting the memories we store and the details we remember",
+      "url": "https://phys.org/news/2026-07-virtual-reality-reveals-role-stress.html",
+      "summary": "The brain is the machine that perceives, analyzes, sorts, stores and prioritizes our memories. However, not all experiences and perceptions are stored in the same way, and not everything is remembered equally, especially…",
+      "ts": 1784577601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Canada faces one of its most intense fire seasons",
+      "url": "https://phys.org/news/2026-07-canada-intense-seasons.html",
+      "summary": "With nearly 1,000 active fires and an area as large as Belgium already burned, Canadian Prime Minister Mark Carney says his country is facing one of the \"most intense\" wildfire seasons in its history.",
+      "ts": 1784576464000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Surfing webcams help demystify Oregon's coastal fog",
+      "url": "https://phys.org/news/2026-07-surfing-webcams-demystify-oregon-coastal.html",
+      "summary": "A summer beach day in Oregon often involves a cool, gray blanket of fog that not only shapes the experience of beachgoers but also affects the coastal and inland environment. Now, commercially available surfing webcams a…",
+      "ts": 1784576403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Move over quokkas—Rottnest's salt lake bacteria could be the island's next big claim to fame",
+      "url": "https://phys.org/news/2026-07-quokkas-rottnest-salt-lake-bacteria.html",
+      "summary": "Scientists at Murdoch University have read the full genetic code of bacteria from the salt lakes of Wadjemup (Rottnest Island), giving them their clearest picture yet of how these tiny organisms could be used to make bio…",
+      "ts": 1784576401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Now that the World Cup is over, can host cities turn their investment into a lasting social impact?",
+      "url": "https://phys.org/news/2026-07-world-cup-host-cities-investment.html",
+      "summary": "The 2026 World Cup has been a real moneymaker for FIFA. Revenue from TV broadcasting rights, ticket sales and other commercial sources is projected to amount to nearly $11 billion, which would make it the most financiall…",
+      "ts": 1784575203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Children and monkeys share common understanding of geometry",
+      "url": "https://phys.org/news/2026-07-children-monkeys-common-geometry.html",
+      "summary": "With their ability to use tools, remember faces and even learn how to communicate with humans through sign language, nonhuman primates are considered to be among the smartest creatures on Earth. However, some concepts—ge…",
+      "ts": 1784574011000
+    },
+    {
+      "source": "Phys.org",
+      "title": "What explains gender pay gaps in academia?",
+      "url": "https://phys.org/news/2026-07-gender-pay-gaps-academia.html",
+      "summary": "Gender pay gaps in academia are well documented. The harder question is why they persist. A new study published in the Proceedings of the National Academy of Sciences tested several leading answers to that question.",
+      "ts": 1784574010000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why do some people who trust in science also believe in scientific conspiracy theories?",
+      "url": "https://phys.org/news/2026-07-people-science-scientific-conspiracy-theories.html",
+      "summary": "In a world where trust in institutions is generally declining, trust in science remains relatively high. Yet belief in scientific conspiracy theories, such as hushed-up effects of vaccines or airplane \"chemtrails,\" is al…",
+      "ts": 1784574004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Arctic winter sea ice returns to significant decline, ending the temporary slowdown",
+      "url": "https://phys.org/news/2026-07-arctic-winter-sea-ice-significant.html",
+      "summary": "New analysis shows that a \"pause\" in Arctic winter sea ice decline seen in the early 2020s has ended following record lows in 2025 and early 2026. The study, led by the University of Southampton in collaboration with the…",
+      "ts": 1784574002000
+    },
     {
       "source": "Phys.org",
       "title": "Researchers complete new assessments of vulnerable Southern Ocean species",
@@ -325,6 +409,13 @@
       "ts": 1784541603000
     },
     {
+      "source": "APS PRX",
+      "title": "Engineered Molecular Clock Transitions for Precision Measurements",
+      "url": "http://link.aps.org/doi/10.1103/4t7q-d58r",
+      "summary": "Author(s): Yuiki Takahashi, Harish D. Ramachandran, Arian Jadbabaie, Yi Zeng, Chi Zhang, and Nicholas R. Hutzler Special clock transitions in heavy polar molecules have been engineered to probe physics beyond the standar…",
+      "ts": 1784541600000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Essay: Pushing the Frontiers of High Energy Density Science toward Unexplored States of Matter",
       "url": "http://link.aps.org/doi/10.1103/1d8y-2cmz",
@@ -609,97 +700,6 @@
       "title": "Mid- and long-wavelength infrared computational ghost spectroscopy",
       "url": "https://arxiv.org/abs/2607.15725",
       "summary": "arXiv:2607.15725v1 Announce Type: new Abstract: Spectral-domain ghost imaging enables high-resolution spectroscopy with a single-pixel detector. The technique does not rely on spectrally resolved detectors, which makes i…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-dimensional three-photon Stark spectroscopy of a single Rb Rydberg atom in an ultrahigh-vacuum glass cell with eight electrodes",
-      "url": "https://arxiv.org/abs/2607.15764",
-      "summary": "arXiv:2607.15764v1 Announce Type: new Abstract: Quantum computing and quantum simulation with ultracold neutral atoms require Rydberg excitation of individual atoms in atomic arrays. Rydberg states are extremely sensitiv…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Role of Spatial Coherence in Single-Shot Lensless Image Reconstruction",
-      "url": "https://arxiv.org/abs/2607.15765",
-      "summary": "arXiv:2607.15765v1 Announce Type: new Abstract: Lensless imaging is a technique that recovers object information computationally from diffraction patterns recorded without imaging optics, making its performance strongly …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electromagnetically induced transparency lasing in distributed resonant feedback system",
-      "url": "https://arxiv.org/abs/2607.15783",
-      "summary": "arXiv:2607.15783v1 Announce Type: new Abstract: We demonstrate a loss-enabled mechanism that can realize single electromagnetically induced transparency (EIT) analogue in periodic waveguide-resonator structures. Unlike p…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Alignment and Timing Jitter in Flying-Focus Inverse Compton Scattering",
-      "url": "https://arxiv.org/abs/2607.15788",
-      "summary": "arXiv:2607.15788v1 Announce Type: new Abstract: Flying-focus laser pulses can extend the effective interaction length in inverse Compton sources by controlling the trajectory of the focal intensity. Their practical advan…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Triple-Resonance Spectroscopy Using a Cavity-Enhanced Frequency Comb Probe",
-      "url": "https://arxiv.org/abs/2607.15793",
-      "summary": "arXiv:2607.15793v1 Announce Type: new Abstract: Accurate experimentally verified models of molecular hot-band transitions are essential for interpreting high-temperature spectra in environments ranging from exoplanetary …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental demonstration of Flying-Focus enhanced Thomson scattering",
-      "url": "https://arxiv.org/abs/2607.15805",
-      "summary": "arXiv:2607.15805v1 Announce Type: new Abstract: We report the experimental demonstration of a spatiotemporally engineered \"Flying-Focus\" laser pulse for enhanced x-ray generation in relativistic Thomson scattering. A com…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Joint-decoupled iterative CBCT reconstruction with hybrid scatter estimation and voxel-adaptive beam hardening correction",
-      "url": "https://arxiv.org/abs/2607.15812",
-      "summary": "arXiv:2607.15812v1 Announce Type: new Abstract: Cone-beam computed tomography (CBCT) is fundamentally challenged by scatter and beam hardening artifacts, which originate from X-ray scattering and the polychromatic nature…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical State Dynamics Eigenmodes and Equilibria Form the Structural Basis of Couette Turbulence",
-      "url": "https://arxiv.org/abs/2607.15842",
-      "summary": "arXiv:2607.15842v1 Announce Type: new Abstract: Wide channel Couette (WCC) turbulence consists primarily of steady roll streak structures (RSS) maintained by a self-sustaining process, yet the Navier Stokes equations in …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conjugate phase-noise cancellation enables submicrometre dual-comb ranging with free-running megahertz-linewidth lasers",
-      "url": "https://arxiv.org/abs/2607.15843",
-      "summary": "arXiv:2607.15843v1 Announce Type: new Abstract: Frequency-domain dual-comb ranging combines rapid acquisition with interferometric sensitivity, but high-performance implementations often rely on mutually coherent or acti…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconfigurable Nonlocal Light-Emitting Metalens Nanolasers via Bound States in the Continuum",
-      "url": "https://arxiv.org/abs/2607.15852",
-      "summary": "arXiv:2607.15852v1 Announce Type: new Abstract: The development of on-chip, reconfigurable coherent light sources operating in the visible spectrum is critical for next-generation optical computing and high-speed data pr…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Surrogate modeling of drift-reduced Braginskii turbulence with resistivity-conditioned Koopman neural operators",
-      "url": "https://arxiv.org/abs/2607.15857",
-      "summary": "arXiv:2607.15857v1 Announce Type: new Abstract: Machine-learning-driven surrogate operators are developed for three-dimensional, nonlinear, flux-driven simulations of boundary plasma turbulence based on the two-fluid dri…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nuclotron internal target polarimeter for the measurements of the deuteron and proton beam polarization",
-      "url": "https://arxiv.org/abs/2607.15892",
-      "summary": "arXiv:2607.15892v1 Announce Type: new Abstract: Studies of spin-dependent effects at the Nuclotron/NICA accelerator complex at JINR require precise measurements of the deuteron and proton beam polarization. The vector po…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Precision positioning in free-space optical communication systems via PID control tuned by RL",
-      "url": "https://arxiv.org/abs/2607.15910",
-      "summary": "arXiv:2607.15910v1 Announce Type: new Abstract: Accurate positioning of optical components is essential for maintaining beam alignment in free-space optical (FSO) communication systems. This work investigates reinforceme…",
       "ts": 1784520000000
     }
   ],
