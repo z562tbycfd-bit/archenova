@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-20T20:23:09.318Z",
+  "updated": "2026-07-20T20:56:26.873Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "FDA still focused on lettuce supplier as source of parasite, despite faulty test result",
+      "url": "https://www.statnews.com/2026/07/20/cyclospora-lettuce-tests-continue-restaurant-visits-decline/?utm_campaign=rss",
+      "summary": "The FDA said Monday it is still focused on lettuce from Taylor Farms as the source of a multistate outbreak of a diarrhea-causing parasite, despite a faulty test result.",
+      "ts": 1784579879000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Sets Briefings for SpaceX Crew-13 Mission to Space Station",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-13-mission-to-space-station/",
+      "summary": "NASA and its partners will discuss the upcoming crew rotation mission to the International Space Station during a pair of news conferences on Monday, Aug. 3, from the agency’s Johnson Space Center in Houston. Mission lea…",
+      "ts": 1784577652000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Protein Protects Against Tau Tangles, Synaptic Loss in Mouse Model of Tauopathy",
@@ -21,7 +37,7 @@
     {
       "source": "NASA",
       "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration",
-      "url": "https://www.nasa.gov/aeronautics/electrified-aircraft-propulsion/nasa-ge-hybrid-electric-flight/",
+      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
       "summary": "An aircraft powered by a megawatt-class hybrid-electric engine developed in collaboration with NASA and built by GE Aerospace, demonstrated flight of an innovation that can inform new generations of fuel-saving aircraft …",
       "ts": 1784573684000,
       "categoryId": "space"
@@ -145,6 +161,22 @@
       "summary": "The 2,000-square-meter BioReliance facility in Darmstadt, Germany, will also offer GMP-compliant stability studies for monoclonal antibodies and cell therapies, addressing the growing demand for biologics testing across …",
       "ts": 1784548834000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: Deadly Russian attacks severely damage aid warehouses",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167980",
+      "summary": "Russian attacks and drone strikes killed at least two children and injured dozens more across Ukraine over recent days while severely damaging three critical aid warehouses, UN agencies reported on Monday.",
+      "ts": 1784548800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Middle East: Civilians again under fire as US-Iran strikes continue",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167979",
+      "summary": "As the United States and Iran trade deadly attacks for a second week, the UN continues to call for de-escalation while highlighting the devastation caused to civilians and critical infrastructure across the Middle East.",
+      "ts": 1784548800000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -689,38 +721,6 @@
       "summary": "Avenue Biosciences´ machine learning-powered platform engineers and screens signal peptide variants to increase protein secretion from cells. Circio’s circVec technology has demonstrated significantly enhanced and durabl…",
       "ts": 1784289607000,
       "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Baristas behind bars: Thai prisoners brew a path back to daily life",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167954",
-      "summary": "It looks like a regular coffee shop, albeit set up in an old red bus. Stairs lead up to a serving hatch, with a menu of drink options. A selection of jaunty coffee-related messages like “My one and only love: Americano” …",
-      "ts": 1784289600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "US-Iran war: UN chief calls for new diplomatic push following attacks on civilian areas",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167973",
-      "summary": "The UN Secretary-General remains deeply concerned by the continuing deadly military escalation between Iran and the United States, his spokesperson said on Friday as attacks destroyed key civilian and military infrastruc…",
-      "ts": 1784289600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Djibouti: Emergency alert spotlights sharp hunger spike",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167971",
-      "summary": "More than 256,000 people in Djibouti – around 25 per cent of the population – are likely to face crisis or emergency level hunger over the coming months, a UN-backed global food monitoring network warned in a new report …",
-      "ts": 1784289600000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Appeal for calm in Kashmir, women on the move, Ebola deaths mount, 12th anniversary of MH17",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167970",
-      "summary": "The UN human rights chief, Volker Türk, has appealed for calm in Pakistan-Administered Kashmir amid unrest ahead of regional elections.",
-      "ts": 1784289600000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

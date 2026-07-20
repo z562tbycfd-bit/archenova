@@ -1,11 +1,13 @@
 "use client";
 
 import {
- useEffect,
- useMemo,
- useState,
- type CSSProperties,
- type FormEvent,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type CSSProperties,
+  type FormEvent,
 } from "react";
 
 import {
@@ -106,10 +108,17 @@ type SignalLevel =
  type DashboardSignal = {
   title?: string;
   summary?: string;
+
+  whyItMatters?: string;
+  implications?: string[];
+  uncertainty?: string;
+
   source?: string;
   sourceUrl?: string;
   url?: string;
+
   state?: string;
+
   publishedAt?: string;
   updatedAt?: string;
 };
@@ -124,7 +133,7 @@ type DashboardData = {
 
     synchronizedAt?: string;
 
-  };
+  }; 
 
 
 
@@ -173,6 +182,38 @@ type DashboardData = {
   };
 
 };
+
+function isRecord(
+  value: unknown,
+): value is Record<string, unknown> {
+  return (
+    typeof value === "object" &&
+    value !== null
+  );
+}
+
+function isDashboardData(
+  value: unknown,
+): value is DashboardData {
+  if (!isRecord(value)) {
+    return false;
+  }
+
+  if (
+    !isRecord(value.runtime) ||
+    !isRecord(value.feeds)
+  ) {
+    return false;
+  }
+
+  const feeds = value.feeds;
+
+  return (
+    isRecord(feeds.science) &&
+    isRecord(feeds.engineering) &&
+    isRecord(feeds.governance)
+  );
+}
 
 const ORGAN_CONTENT: Record<OrganId, OrganContent> = {
   observation: {
@@ -535,20 +576,22 @@ function createSignalDetail(
       {
         title: "Why It Matters",
         content:
-          "This signal may influence scientific capability, technological systems, institutional decisions, or the long-term architecture of civilization.",
+        signal.whyItMatters ??
+        "Civilizational relevance has not yet been assessed.",
       },
       {
         title: "Civilizational Implications",
-        items: [
-          "Potential effects across scientific and technological systems",
-          "Possible institutional or governance consequences",
-          "Long-term relevance to civilization design",
+        items:
+        signal.implications ??
+        [
+          "Civilizational implications have not yet been assessed.",
         ],
       },
       {
         title: "Uncertainty",
         content:
-          "This intelligence object represents an observed signal. Its implications may change as additional evidence becomes available.",
+        signal.uncertainty ??
+        "Uncertainty assessment is currently unavailable.",
       },
     ],
   };
@@ -558,54 +601,65 @@ function bool(value: boolean): "true" | "false" {
   return value ? "true" : "false";
 }
 
+function includesTerm(
+  text: string,
+  term: string,
+): boolean {
+  return text
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    .includes(term.toLowerCase());
+}
+
 function getSignalLevel(
- category: string,
- title: string
+  category: string,
+  title: string,
 ): SignalLevel {
+  const text =
+    `${category} ${title}`.toLowerCase();
 
- const text =
-   `${category} ${title}`.toLowerCase();
+  if (
+    includesTerm(text, "risk") ||
+    includesTerm(text, "war") ||
+    includesTerm(text, "conflict") ||
+    includesTerm(text, "crisis")
+  ) {
+    return "RISK";
+  }
 
- if (
-   text.includes("quantum") ||
-   text.includes("fusion") ||
-   text.includes("breakthrough") ||
-   text.includes("discovery") ||
-   text.includes("genome")
- ) {
-   return "BREAKTHROUGH";
- }
+  if (
+    includesTerm(text, "quantum") ||
+    includesTerm(text, "fusion") ||
+    includesTerm(text, "breakthrough") ||
+    includesTerm(text, "discovery") ||
+    includesTerm(text, "genome")
+  ) {
+    return "BREAKTHROUGH";
+  }
 
- if (
-   text.includes("nasa") ||
-   text.includes("space") ||
-   text.includes("engineering") ||
-   text.includes("semiconductor") ||
-   text.includes("robot")
- ) {
-   return "INFRASTRUCTURE";
- }
+  if (
+    includesTerm(text, "nasa") ||
+    includesTerm(text, "space") ||
+    includesTerm(text, "engineering") ||
+    includesTerm(text, "semiconductor") ||
+    includesTerm(text, "robot")
+  ) {
+    return "INFRASTRUCTURE";
+  }
 
- if (
-   text.includes("policy") ||
-   text.includes("government") ||
-   text.includes("commission") ||
-   text.includes("law") ||
-   text.includes("iaea") ||
-   text.includes("un")
- ) {
-   return "POLICY";
- }
+  if (
+    includesTerm(text, "policy") ||
+    includesTerm(text, "government") ||
+    includesTerm(text, "commission") ||
+    includesTerm(text, "law") ||
+    includesTerm(text, "iaea") ||
+    includesTerm(text, "un") ||
+    text.includes("united nations")
+  ) {
+    return "POLICY";
+  }
 
- if (
-   text.includes("risk") ||
-   text.includes("war") ||
-   text.includes("conflict")
- ) {
-   return "RISK";
- }
-
- return "DISCOVERY";
+  return "DISCOVERY";
 }
 
 function scrollToOrgan(organId: OrganId): void {
@@ -698,14 +752,25 @@ function CivilizationSearch({
       .join(" ")
       .toLowerCase();
 
+    const terms = normalizedQuery
+      .split(/\s+/)
+      .filter(Boolean);
+
+    const matchesAllTerms =
+      terms.every((term) =>
+        searchable.includes(term),
+      );
+
     return {
       entry,
       score:
         (entry.title.toLowerCase().includes(normalizedQuery) ? 8 : 0) +
         (entry.category.toLowerCase().includes(normalizedQuery) ? 4 : 0) +
-        (searchable.includes(normalizedQuery) ? 2 : 0),
+        (searchable.includes(normalizedQuery) ? 2 : 0) +
+        (matchesAllTerms ? 3 : 0),
     };
   })
+
   .filter(({ score }) => score > 0)
   .sort((a, b) => b.score - a.score)
   .slice(0, 8)
@@ -761,7 +826,7 @@ function CivilizationSearch({
             <strong>
               {normalizedQuery
                 ? `${results.length} intelligence pathways`
-                : "Explore the cognitive architecture"}
+                : "Suggested intelligence pathways"}
             </strong>
           </div>
 
@@ -804,6 +869,9 @@ function IntelligenceDetailPanel({
   detail: IntelligenceDetail | null;
   onClose: () => void;
 }) {
+  const closeButtonRef =
+    useRef<HTMLButtonElement>(null);
+
   useEffect(() => {
     if (!detail) return;
 
@@ -835,6 +903,19 @@ function IntelligenceDetailPanel({
       );
     };
   }, [detail, onClose]);
+
+  useEffect(() => {
+    if (!detail) return;
+
+    const frame =
+      window.requestAnimationFrame(() => {
+        closeButtonRef.current?.focus();
+      });
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+    };
+  }, [detail]);
 
   if (!detail) {
     return null;
@@ -869,21 +950,21 @@ function IntelligenceDetailPanel({
         aria-labelledby="ci-detail-title"
       >
         <header className="ci-detail-header">
-          <div>
-            <span>{detail.eyebrow}</span>
+  <div>
+    <span>{detail.eyebrow}</span>
+    <small>{detail.kind}</small>
+  </div>
 
-            <small>{detail.kind}</small>
-          </div>
-
-          <button
-            type="button"
-            className="ci-detail-close"
-            onClick={onClose}
-            aria-label="Close intelligence detail"
-          >
-            <span aria-hidden="true">×</span>
-          </button>
-        </header>
+  <button
+    ref={closeButtonRef}
+    type="button"
+    className="ci-detail-close"
+    onClick={onClose}
+    aria-label="Close intelligence detail"
+  >
+    <span aria-hidden="true">×</span>
+  </button>
+</header>
 
         <div className="ci-detail-scroll">
           <section className="ci-detail-hero">
@@ -1185,65 +1266,80 @@ const [lastSynchronizedAt, setLastSynchronizedAt] =
   null,
 );
 
-function closeDetail() {
+const closeDetail = useCallback(() => {
   setSelectedDetail(null);
-}
+}, []);
 
 useEffect(() => {
- let mounted = true;
+  let mounted = true;
 
- async function loadDashboard() {
-   try {
-     const response = await fetch(
-       "/data/os/dashboard.json",
-       {
-         cache: "no-store",
-       }
-     );
+  async function loadDashboard() {
+    try {
+      const response = await fetch(
+        "/data/os/dashboard.json",
+        {
+          cache: "no-store",
+        },
+      );
 
-     if (!response.ok) {
-       return;
-     }
+      if (!response.ok) {
+        console.error(
+          `[Civilization Intelligence] Failed to load dashboard.json: ${response.status}`,
+        );
+        return;
+      }
 
-     const json = await response.json();
+      const json: unknown =
+        await response.json();
 
-     if (mounted) {
-  setDashboard(json);
+      if (!isDashboardData(json)) {
+        throw new Error(
+          "Invalid dashboard.json structure",
+        );
+      }
 
-  const synchronizationTimestamp =
-    json.runtime?.synchronizedAt ??
-    json.runtime?.updatedAt ??
-    null;
+      if (!mounted) {
+        return;
+      }
 
-  if (synchronizationTimestamp) {
-    const parsedDate =
-      new Date(synchronizationTimestamp);
+      setDashboard(json);
 
-    setLastSynchronizedAt(
-      Number.isNaN(parsedDate.getTime())
-        ? new Date()
-        : parsedDate,
-    );
-  } else {
-    setLastSynchronizedAt(new Date());
+      const synchronizationTimestamp =
+        json.runtime.synchronizedAt ??
+        json.runtime.updatedAt ??
+        null;
+
+      if (!synchronizationTimestamp) {
+        setLastSynchronizedAt(null);
+        return;
+      }
+
+      const parsedDate =
+        new Date(synchronizationTimestamp);
+
+      setLastSynchronizedAt(
+        Number.isNaN(parsedDate.getTime())
+          ? null
+          : parsedDate,
+      );
+    } catch (error) {
+      console.error(
+        "[Civilization Intelligence] Dashboard loading failed:",
+        error,
+      );
+    }
   }
-}
-   } catch (error) {
-     console.error(error);
-   }
- }
 
- loadDashboard();
+  void loadDashboard();
 
- const timer = setInterval(
-   loadDashboard,
-   60000
- );
+  const timer = window.setInterval(() => {
+    void loadDashboard();
+  }, 60_000);
 
- return () => {
-   mounted = false;
-   clearInterval(timer);
- };
+  return () => {
+    mounted = false;
+    window.clearInterval(timer);
+  };
 }, []);
 
   const {
@@ -1353,7 +1449,8 @@ useEffect(() => {
           ? "PAUSED"
           : "STANDBY";
 
-  const recentSignals = useMemo(() => {
+  const recentSignals =
+ useMemo<RecentSignalView[]>(() => {
   if (!dashboard) {
     return [];
   }
@@ -1550,11 +1647,16 @@ const signalSearchEntries =
   </span>
 
   <time
-    dateTime={lastSynchronizedAt?.toISOString()}
-  >
-    Last synchronized{" "}
-    {formatSynchronizationTime(lastSynchronizedAt)}
-  </time>
+  dateTime={
+    lastSynchronizedAt?.toISOString()
+  }
+>
+  {lastSynchronizedAt
+    ? `Last synchronized ${formatSynchronizationTime(
+        lastSynchronizedAt,
+      )}`
+    : "Synchronization timestamp unavailable"}
+</time>
 </div>
  
  </div>
@@ -1595,73 +1697,59 @@ const signalSearchEntries =
 
           <div className="ci-recent-grid">
             {recentSignals.map((signal) => (
-              <article
+             <article
   key={signal.id}
   className="ci-signal-card"
-  tabIndex={0}
-  role="button"
-  aria-label={`Examine ${signal.title}`}
-  onClick={() =>
-    setSelectedDetail(
-      createSignalDetail(signal),
-    )
-  }
-  onKeyDown={(event) => {
-    if (
-      event.key === "Enter" ||
-      event.key === " "
-    ) {
-      event.preventDefault();
 
+>
+  <div>
+    <div className="ci-signal-meta">
+      <small>{signal.category}</small>
+
+      <div className="ci-signal-level">
+        {signal.level}
+      </div>
+    </div>
+
+    <span className="ci-symbol">
+      <ArcheNovaSymbol />
+    </span>
+  </div>
+
+  <h3>{signal.title}</h3>
+  <p>{signal.summary}</p>
+
+  <footer>
+    {signal.sourceUrl ? (
+      <a
+        href={signal.sourceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {signal.source}
+      </a>
+    ) : (
+      <span>{signal.source}</span>
+    )}
+
+    <i />
+
+    <strong>{signal.state}</strong>
+  </footer>
+
+  <button
+    type="button"
+    className="ci-signal-examine"
+    onClick={() =>
       setSelectedDetail(
         createSignalDetail(signal),
-      );
+      )
     }
-  }}
->
-                <div>
-                  
-                  <div className="ci-signal-meta">
-                    
-                    <small>{signal.category}</small>
-                    
-                    <div className="ci-signal-level">
-                      {signal.level}
-                      </div>
-                      
-                      </div>
-                      
-                      <span className="ci-symbol">
-                        <ArcheNovaSymbol />
-                        </span>
-                        
-                        </div>               
-
-                <h3>{signal.title}</h3>
-                <p>{signal.summary}</p>
-
-                <footer>
-  {signal.sourceUrl ? (
-    <a
-  href={signal.sourceUrl}
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label={`Open source: ${signal.source}`}
-  onClick={(event) =>
-    event.stopPropagation()
-  }
->
-  {signal.source}
-</a>
-  ) : (
-    <span>{signal.source}</span>
-  )}
-
-  <i />
-
-  <strong>{signal.state}</strong>
-</footer>
-              </article>
+  >
+    Examine Intelligence
+    <ArrowIcon />
+  </button>
+</article>
             ))}
           </div>
         </div>
@@ -3376,37 +3464,6 @@ const signalSearchEntries =
           backdrop-filter: blur(18px);
         }
 
-        .ci-signal-card[role="button"] {
-  cursor: pointer;
-
-  transition:
-    transform 0.34s ease,
-    border-color 0.34s ease,
-    box-shadow 0.34s ease;
-}
-
-.ci-signal-card[role="button"]:hover {
-  transform:
-    translateY(-4px);
-
-  border-color:
-    rgba(158, 223, 255, 0.22);
-
-  box-shadow:
-    0 28px 70px
-      rgba(0, 0, 0, 0.2),
-    0 0 60px
-      rgba(120, 190, 255, 0.07);
-}
-
-.ci-signal-card[role="button"]:focus-visible {
-  outline:
-    1px solid
-    rgba(158, 223, 255, 0.66);
-
-  outline-offset: 4px;
-}
-
         .ci-signal-card > div {
           min-height: 82px;
           display: flex;
@@ -3519,6 +3576,67 @@ white-space:nowrap;
 
   font-weight: 600;
   letter-spacing: 0.08em;
+}
+
+.ci-signal-examine {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+
+  margin-top: 20px;
+  padding: 12px 15px;
+
+  border:
+    1px solid
+    rgba(158, 223, 255, 0.16);
+
+  border-radius: 999px;
+
+  background:
+    rgba(158, 223, 255, 0.055);
+
+  color:
+    rgba(238, 248, 255, 0.88);
+
+  font-size: 10px;
+  font-weight: 550;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.ci-signal-examine:hover {
+  background:
+    rgba(158, 223, 255, 0.11);
+
+  border-color:
+    rgba(158, 223, 255, 0.3);
+
+  transform:
+    translateY(-2px);
+}
+
+.ci-signal-examine:focus-visible {
+  outline:
+    1px solid
+    rgba(158, 223, 255, 0.72);
+
+  outline-offset: 4px;
+}
+
+.ci-signal-examine svg {
+  width: 15px;
+  height: 15px;
+
+  flex: 0 0 auto;
 }
 
         .ci-controls {

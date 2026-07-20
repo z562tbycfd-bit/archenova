@@ -18,6 +18,21 @@ export const senateAgenda =
   {
     "id": "agenda-2",
     "rank": 2,
+    "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration",
+    "slug": "ai-nasa-ge-aerospace-work-enables-hybrid-electric-flight-demonstration",
+    "category": "AI",
+    "source": "NASA",
+    "score": 9.7,
+    "priority": "Critical",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-3",
+    "rank": 3,
     "title": "IAEA Launches New NUTEC Plastics Global Marine Monitoring Platform",
     "slug": "space-iaea-launches-new-nutec-plastics-global-marine-monitoring-platform",
     "category": "Space",
@@ -31,8 +46,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-3",
-    "rank": 3,
+    "id": "agenda-4",
+    "rank": 4,
     "title": "The RG-Flow Transformer: Encoding Scale-Free Dynamics in Scarce EEG",
     "slug": "ai-the-rg-flow-transformer-encoding-scale-free-dynamics-in-scarce-eeg",
     "category": "AI",
@@ -43,21 +58,6 @@ export const senateAgenda =
     "constitutionalQuestion": "How should this intelligence capability be governed?",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "architectureHandoff": "Intelligence Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-4",
-    "rank": 4,
-    "title": "Pentagon awards $7.1 million to expand U.S. production of cover glass for satellites",
-    "slug": "space-pentagon-awards-7-1-million-to-expand-u-s-production-of-cover-glass-for-satellit",
-    "category": "Space",
-    "source": "SpaceNews",
-    "score": 9.6,
-    "priority": "Critical",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
-    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
-    "architectureHandoff": "Orbital Infrastructure",
     "status": "Open"
   },
   {
@@ -93,6 +93,51 @@ export const senateAgenda =
   {
     "id": "agenda-7",
     "rank": 7,
+    "title": "NASA Sets Briefings for SpaceX Crew-13 Mission to Space Station",
+    "slug": "ai-nasa-sets-briefings-for-spacex-crew-13-mission-to-space-station",
+    "category": "AI",
+    "source": "NASA",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-8",
+    "rank": 8,
+    "title": "Patient-Derived Tumor Organoids Show Promise for Personalizing Cancer Treatment",
+    "slug": "ai-patient-derived-tumor-organoids-show-promise-for-personalizing-cancer-treatment",
+    "category": "AI",
+    "source": "Genetic Engineering News",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-9",
+    "rank": 9,
+    "title": "New NASA Earth Missions Gear Up to Start Science Flights  ",
+    "slug": "ai-new-nasa-earth-missions-gear-up-to-start-science-flights",
+    "category": "AI",
+    "source": "NASA",
+    "score": 9.3,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "How should this intelligence capability be governed?",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-10",
+    "rank": 10,
     "title": "From Hampton to Mars: How NASA Langley Helped Land on the Red Planet",
     "slug": "space-from-hampton-to-mars-how-nasa-langley-helped-land-on-the-red-planet",
     "category": "Space",
@@ -106,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-8",
-    "rank": 8,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "Our First View of the Surface of Mars",
     "slug": "space-our-first-view-of-the-surface-of-mars",
     "category": "Space",
@@ -121,23 +166,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-9",
-    "rank": 9,
-    "title": "Beyond proximity: New policy model to transform access to parks",
-    "slug": "ai-beyond-proximity-new-policy-model-to-transform-access-to-parks",
-    "category": "AI",
-    "source": "Phys.org",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "How should this intelligence capability be governed?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Intelligence Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-12",
+    "rank": 12,
     "title": "Pipelines to payloads: risk management lessons for the space economy",
     "slug": "energy-pipelines-to-payloads-risk-management-lessons-for-the-space-economy",
     "category": "Energy",
@@ -148,36 +178,6 @@ export const senateAgenda =
     "constitutionalQuestion": "Should ArcheNova prioritize this energy capability?",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "architectureHandoff": "Civilization Energy Architecture",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-11",
-    "rank": 11,
-    "title": "Mauritius becomes 70th nation to sign the Artemis Accords",
-    "slug": "space-mauritius-becomes-70th-nation-to-sign-the-artemis-accords",
-    "category": "Space",
-    "source": "SpaceNews",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this capability expand civilization beyond Earth?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Orbital Infrastructure",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-12",
-    "rank": 12,
-    "title": "Space Force triples launch contract ceiling amid rising demand",
-    "slug": "ai-space-force-triples-launch-contract-ceiling-amid-rising-demand",
-    "category": "AI",
-    "source": "SpaceNews",
-    "score": 9.3,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "How should this intelligence capability be governed?",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "architectureHandoff": "Intelligence Infrastructure",
     "status": "Open"
   }
 ];

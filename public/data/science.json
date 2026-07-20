@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-20T20:23:04.824Z",
+  "updated": "2026-07-20T20:56:18.500Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How rainfall timing can dramatically reshape entire plant communities",
+      "url": "https://phys.org/news/2026-07-rainfall-reshape-entire-communities.html",
+      "summary": "Every spring, millions of people around the world head outdoors to admire wildflowers. But flowering is much more than a beautiful seasonal display. It is one of the most important stages in a plant's life cycle, determi…",
+      "ts": 1784580007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light-driven chemistry steers electron transfers beyond redox limits",
+      "url": "https://phys.org/news/2026-07-driven-chemistry-electron-redox-limits.html",
+      "summary": "Chemists use single-electron transfers to synthesize complex, ring-shaped molecular structures found in many drug candidates and advanced materials, but current techniques still have limitations. A new study, accepted fo…",
+      "ts": 1784580003000
+    },
     {
       "source": "Phys.org",
       "title": "Acid-resistant nanocage shows promise for targeted gastric cancer therapy",
@@ -409,90 +423,6 @@
       "ts": 1784541603000
     },
     {
-      "source": "APS PRX",
-      "title": "Engineered Molecular Clock Transitions for Precision Measurements",
-      "url": "http://link.aps.org/doi/10.1103/4t7q-d58r",
-      "summary": "Author(s): Yuiki Takahashi, Harish D. Ramachandran, Arian Jadbabaie, Yi Zeng, Chi Zhang, and Nicholas R. Hutzler Special clock transitions in heavy polar molecules have been engineered to probe physics beyond the standar…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Essay: Pushing the Frontiers of High Energy Density Science toward Unexplored States of Matter",
-      "url": "http://link.aps.org/doi/10.1103/1d8y-2cmz",
-      "summary": "Author(s): Federica Coppari In this forward-looking PRL Essay, Federica Coppari presents a compelling perspective on high-energy-density science, centering on the remarkable behavior of matter under extreme conditions—su…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Superfluidity in the Second Layer of $^{4}\\mathrm{He}$ on Graphite",
-      "url": "http://link.aps.org/doi/10.1103/xxsj-fs9j",
-      "summary": "Author(s): Jun Usami and Hiroshi Fukuyama Evidence for a new type of superfluid phase in second-layer $^{4}\\mathrm{He}$ on graphite has been obtained from simultaneous measurements of torsional-oscillator response and he…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Velocity-Independent Dry Friction on Mica: Realization of Ideal Amontons-Coulomb Friction",
-      "url": "http://link.aps.org/doi/10.1103/y3jy-nqcd",
-      "summary": "Author(s): Hiroshi Sakuma, Diane E. Moore, David A. Lockner, and Toshihiro Kogure The Amontons-Coulomb friction law assumes that the frictional force between materials is independent of sliding velocity. However, as Coul…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Heavy-Fermion Phase Diagram in Magic-Angle Twisted Trilayer Graphene",
-      "url": "http://link.aps.org/doi/10.1103/zzks-vkl2",
-      "summary": "Author(s): Le Zhang, Wenqiang Zhou, Xinjie Fang, Zhen Zhan, Kenji Watanabe, Takashi Taniguchi, Yi-feng Yang, and Shuigang Xu The interplay between localized magnetic moments and itinerant electrons gives rise to exotic q…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "NMR Evidence for Spontaneous Electronic Chiral Order in URhSn",
-      "url": "http://link.aps.org/doi/10.1103/1vjx-4jfv",
-      "summary": "Author(s): Y. Tokunaga, T. Ishitobi, H. Sakai, S. Kambe, H. Harima, A. Nakamura, A. Maurya, D. Li, Y. Homma, F. Honda, D. Aoki, and Y. Shimizu The first direct evidence of spontaneous electronic chiral order in URhSn, a …",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Bridging Constrained Random-Phase Approximation and Linear Response Theory for Computing Hubbard Parameters",
-      "url": "http://link.aps.org/doi/10.1103/nkm7-wycf",
-      "summary": "Author(s): Alberto Carta, Iurii Timrov, Sophie Beck, and Claude Ederer The predictive accuracy of popular extensions to density-functional theory (DFT) such as $\\mathrm{DFT}+U$ and DFT plus dynamical mean-field theory ($…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Exact Fractionalized Ground States in an Extended Spin-1 Kitaev Chain",
-      "url": "http://link.aps.org/doi/10.1103/fy4t-6bh8",
-      "summary": "Author(s): Alwyn Jose Raja and R. Ganesh Inspired by the Affleck-Kennedy-Lieb-Tasaki (AKLT) model, we present exact solutions for a spin-1 chain with Kitaev-like couplings. We consider an expanded Kitaev model with bilin…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Chiral Magnon Mixing by Symmetry-Breaking in Collinear Ferrimagnets",
-      "url": "http://link.aps.org/doi/10.1103/n1x2-mzzx",
-      "summary": "Author(s): Dhurba R. Jaishi, Tyler J. Slade, S. X. M. Riberolles, Bing Li, Tianxiong Han, D. M. Pajerowski, D. L. Abernathy, Barry Winn, Melissa Graves-Brook, B. G. Ueland, and R. J. McQueeney Magnons in ferromagnets pos…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Anomalous Reflection Phase of Slot Plasmons in an $\\mathrm{AlGaN}/\\mathrm{GaN}$ Plasmonic Crystal",
-      "url": "http://link.aps.org/doi/10.1103/2cst-5qdr",
-      "summary": "Author(s): A. R. Khisameeva, D. A. Khudaiberdiev, I. M. Moiseenko, P. A. Gusikhin, A. S. Astrakhantseva, A. Shuvaev, A. Pimenov, D. A. Svintsov, I. V. Kukushkin, and V. M. Muravev We experimentally investigate the terahe…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Space-time-frequency multiplexed orbital angular momentum generation via acoustic rotating point sources: Methodology and coherence characterization",
-      "url": "http://link.aps.org/doi/10.1103/9pmr-mz15",
-      "summary": "Author(s): Rui Li, Xingxing Shi, Yiqi Liu, Jiu Hui Wu, and Fuyin Ma Optical and acoustic communications based on orbital angular momentum (OAM) offer an additional degree of freedom for enhancing information capacity, ye…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Correction-free robust cryptography with orbital angular momentum by nonlinear detection",
-      "url": "http://link.aps.org/doi/10.1103/qlq9-ryzz",
-      "summary": "Author(s): Moslem Mahdavifar, Sachleen Singh, Subith Kumar, Angela Dudley, Bereneice Sephton, Isaac Nape, and Andrew Forbes In this study, we report a robust cryptographic scheme operating over noisy channels, enabled by…",
-      "ts": 1784541600000
-    },
-    {
       "source": "Phys.org",
       "title": "Greece braces for year's first heat wave",
       "url": "https://phys.org/news/2026-07-greece-braces-year.html",
@@ -700,6 +630,76 @@
       "title": "Mid- and long-wavelength infrared computational ghost spectroscopy",
       "url": "https://arxiv.org/abs/2607.15725",
       "summary": "arXiv:2607.15725v1 Announce Type: new Abstract: Spectral-domain ghost imaging enables high-resolution spectroscopy with a single-pixel detector. The technique does not rely on spectrally resolved detectors, which makes i…",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Three-dimensional three-photon Stark spectroscopy of a single Rb Rydberg atom in an ultrahigh-vacuum glass cell with eight electrodes",
+      "url": "https://arxiv.org/abs/2607.15764",
+      "summary": "arXiv:2607.15764v1 Announce Type: new Abstract: Quantum computing and quantum simulation with ultracold neutral atoms require Rydberg excitation of individual atoms in atomic arrays. Rydberg states are extremely sensitiv…",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Role of Spatial Coherence in Single-Shot Lensless Image Reconstruction",
+      "url": "https://arxiv.org/abs/2607.15765",
+      "summary": "arXiv:2607.15765v1 Announce Type: new Abstract: Lensless imaging is a technique that recovers object information computationally from diffraction patterns recorded without imaging optics, making its performance strongly …",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Electromagnetically induced transparency lasing in distributed resonant feedback system",
+      "url": "https://arxiv.org/abs/2607.15783",
+      "summary": "arXiv:2607.15783v1 Announce Type: new Abstract: We demonstrate a loss-enabled mechanism that can realize single electromagnetically induced transparency (EIT) analogue in periodic waveguide-resonator structures. Unlike p…",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Alignment and Timing Jitter in Flying-Focus Inverse Compton Scattering",
+      "url": "https://arxiv.org/abs/2607.15788",
+      "summary": "arXiv:2607.15788v1 Announce Type: new Abstract: Flying-focus laser pulses can extend the effective interaction length in inverse Compton sources by controlling the trajectory of the focal intensity. Their practical advan…",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Triple-Resonance Spectroscopy Using a Cavity-Enhanced Frequency Comb Probe",
+      "url": "https://arxiv.org/abs/2607.15793",
+      "summary": "arXiv:2607.15793v1 Announce Type: new Abstract: Accurate experimentally verified models of molecular hot-band transitions are essential for interpreting high-temperature spectra in environments ranging from exoplanetary …",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Experimental demonstration of Flying-Focus enhanced Thomson scattering",
+      "url": "https://arxiv.org/abs/2607.15805",
+      "summary": "arXiv:2607.15805v1 Announce Type: new Abstract: We report the experimental demonstration of a spatiotemporally engineered \"Flying-Focus\" laser pulse for enhanced x-ray generation in relativistic Thomson scattering. A com…",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Joint-decoupled iterative CBCT reconstruction with hybrid scatter estimation and voxel-adaptive beam hardening correction",
+      "url": "https://arxiv.org/abs/2607.15812",
+      "summary": "arXiv:2607.15812v1 Announce Type: new Abstract: Cone-beam computed tomography (CBCT) is fundamentally challenged by scatter and beam hardening artifacts, which originate from X-ray scattering and the polychromatic nature…",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Statistical State Dynamics Eigenmodes and Equilibria Form the Structural Basis of Couette Turbulence",
+      "url": "https://arxiv.org/abs/2607.15842",
+      "summary": "arXiv:2607.15842v1 Announce Type: new Abstract: Wide channel Couette (WCC) turbulence consists primarily of steady roll streak structures (RSS) maintained by a self-sustaining process, yet the Navier Stokes equations in …",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Conjugate phase-noise cancellation enables submicrometre dual-comb ranging with free-running megahertz-linewidth lasers",
+      "url": "https://arxiv.org/abs/2607.15843",
+      "summary": "arXiv:2607.15843v1 Announce Type: new Abstract: Frequency-domain dual-comb ranging combines rapid acquisition with interferometric sensitivity, but high-performance implementations often rely on mutually coherent or acti…",
+      "ts": 1784520000000
+    },
+    {
+      "source": "arXiv Physics",
+      "title": "Reconfigurable Nonlocal Light-Emitting Metalens Nanolasers via Bound States in the Continuum",
+      "url": "https://arxiv.org/abs/2607.15852",
+      "summary": "arXiv:2607.15852v1 Announce Type: new Abstract: The development of on-chip, reconfigurable coherent light sources operating in the visible spectrum is critical for next-generation optical computing and high-speed data pr…",
       "ts": 1784520000000
     }
   ],
