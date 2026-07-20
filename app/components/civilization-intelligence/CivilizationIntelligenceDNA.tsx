@@ -1112,15 +1112,15 @@ useEffect(() => {
   top: 0;
   bottom: -180px;
 
-   left:
-calc(50% - 1px);
+  /*
+   * 親要素ではなく、常に画面幅を基準として
+   * フィルターを中央配置する
+   */
+  left: 50%;
+  width: 100dvw;
 
   z-index: 0;
-
-  width:
-    calc(100dvw + 4px);
-}
-
+  
   background:
     linear-gradient(
       180deg,
@@ -1131,29 +1131,10 @@ calc(50% - 1px);
       rgba(3, 9, 19, 0) 100%
     );
 
-  transform:
-    translateX(-50%);
+  transform: translateX(-50%);
 
-  pointer-events:
-    none;
+  pointer-events: none;
 }
-
-        .ci-hero::after {
-          content: "";
-          position: absolute;
-          left: 50%;
-          bottom: 0;
-          width: min(1180px, 92vw);
-          height: 1px;
-          background:
-            linear-gradient(
-              90deg,
-              transparent,
-              rgba(255, 255, 255, 0.16),
-              transparent
-            );
-          transform: translateX(-50%);
-        }
 
         .ci-hero-shell {
   position: relative;
@@ -2913,21 +2894,32 @@ white-space:nowrap;
 
         @media (max-width: 540px) {
 
-        .ci-hero::before {
-  top: 0;
-  bottom: -120px;
+         .ci-hero::before {
+    top: 0;
+    bottom: -120px;
 
-  width: 100dvw;
+    /*
+     * 画面中央から左右50dvwずつ広げるため、
+     * 親コンテナの幅や位置に影響されない
+     */
+    left: calc(50% - 50dvw);
+    right: calc(50% - 50dvw);
 
-  background:
-    linear-gradient(
-      180deg,
-      rgba(2, 7, 16, 0.88) 0%,
-      rgba(2, 8, 18, 0.72) 30%,
-      rgba(3, 10, 21, 0.48) 62%,
-      rgba(3, 9, 19, 0.18) 84%,
-      rgba(3, 9, 19, 0) 100%
-    );
+    width: auto;
+    min-width: 0;
+
+    background:
+      linear-gradient(
+        180deg,
+        rgba(2, 7, 16, 0.88) 0%,
+        rgba(2, 8, 18, 0.72) 30%,
+        rgba(3, 10, 21, 0.48) 62%,
+        rgba(3, 9, 19, 0.18) 84%,
+        rgba(3, 9, 19, 0) 100%
+      );
+
+    transform: none;
+  }
 }
 
         .ci-organ-functions {
