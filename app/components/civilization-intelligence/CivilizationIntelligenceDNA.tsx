@@ -1642,21 +1642,7 @@ const signalSearchEntries =
   className="ci-runtime-caption"
   aria-live="polite"
 >
-  <span>
-    Monitoring science, engineering, and governance sources.
-  </span>
-
-  <time
-  dateTime={
-    lastSynchronizedAt?.toISOString()
-  }
->
-  {lastSynchronizedAt
-    ? `Last synchronized ${formatSynchronizationTime(
-        lastSynchronizedAt,
-      )}`
-    : "Synchronization timestamp unavailable"}
-</time>
+  
 </div>
  
  </div>
