@@ -2994,14 +2994,76 @@ white-space:nowrap;
 }
 
           .ci-runtime-strip {
-            grid-template-columns: 1fr;
-          }
+  width: 100%;
 
-          .ci-runtime-strip > div + div,
-          .ci-runtime-strip > div:nth-child(3) {
-            border-left: 0;
-            border-top: 1px solid rgba(255, 255, 255, 0.08);
-          }
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  margin-top: 30px;
+
+  border-radius: 24px;
+
+  overflow: hidden;
+}
+
+.ci-runtime-strip > div {
+  min-width: 0;
+
+  min-height: 112px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  padding: 18px;
+}
+
+.ci-runtime-strip > div:nth-child(even) {
+  border-left:
+    1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ci-runtime-strip > div:nth-child(n + 3) {
+  border-top:
+    1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* 3番目だけ左線を消す */
+.ci-runtime-strip > div:nth-child(3) {
+  border-left: 0;
+}
+
+.ci-runtime-strip small {
+  font-size: 8px;
+
+  line-height: 1.4;
+
+  letter-spacing: 0.13em;
+}
+
+.ci-runtime-strip strong {
+  margin-top: 9px;
+
+  font-size: 17px;
+
+  line-height: 1.25;
+
+  white-space: normal;
+
+  overflow-wrap: anywhere;
+}
+
+.ci-runtime-strip > div:first-child strong {
+  font-size: 18px;
+}
+
+.ci-runtime-strip > div:nth-child(4) strong {
+  font-size: 15px;
+
+  line-height: 1.35;
+}
 
           .ci-organs,
           .ci-runtime,
