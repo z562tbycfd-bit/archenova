@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-20T04:36:42.895Z",
+  "updated": "2026-07-20T08:07:32.099Z",
   "items": [
     {
       "source": "arXiv q-bio",
@@ -145,6 +145,14 @@
       "summary": "Eli Lilly agreed to acquire AtaiBeckley for up to $3.8 billion—of which Lilly will pay $2.8 billion upfront. The deal, set to close in the third quarter, expands Lilly’s neuroscience portfolio by adding AtaiBeckley's pip…",
       "ts": 1784485902000,
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ukraine: UN condemns overnight attack on Kyiv",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167975",
+      "summary": "United Nations agencies have deplored a fresh Russian assault on the Ukrainian capital Kyiv which left at least one person dead and a dozen injured.",
+      "ts": 1784462400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -711,14 +719,6 @@
       "title": "Subjective functions",
       "url": "https://arxiv.org/abs/2512.15948",
       "summary": "arXiv:2512.15948v3 Announce Type: replace-cross Abstract: Where do objective functions come from? How do we select what goals to pursue? Human intelligence is adept at synthesizing new objective functions on the fly. How…",
-      "ts": 1784260800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Higher-Order Hit-&-Run Samplers for Linearly Constrained Densities",
-      "url": "https://arxiv.org/abs/2602.14616",
-      "summary": "arXiv:2602.14616v2 Announce Type: replace-cross Abstract: Markov chain Monte Carlo (MCMC) sampling of densities restricted to linearly constrained domains is an important task arising in Bayesian treatment of inverse pro…",
       "ts": 1784260800000,
       "categoryId": "bio"
     }
