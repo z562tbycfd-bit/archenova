@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-20T11:47:22.536Z",
+  "updated": "2026-07-20T14:10:39.563Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Giving bees a probiotic diet could help protect them from extreme temperatures",
+      "url": "https://phys.org/news/2026-07-bees-probiotic-diet-extreme-temperatures.html",
+      "summary": "Honeybees do not like cold weather. When temperatures dip, they can become sluggish and unable to fly. But no matter the conditions in the outside world, they try to keep their hives close to a comfortable 34°C–36°C (93°…",
+      "ts": 1784556006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: How do federal taxes impact local schools and services?",
+      "url": "https://phys.org/news/2026-07-qa-federal-taxes-impact-local.html",
+      "summary": "Increases to the standard federal tax deduction implemented in 2018 were made permanent a year ago, and researchers are beginning to understand the downstream effects on state and local governments. The increased deducti…",
+      "ts": 1784556003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Swiss researchers hoard vast trove of NASA climate data",
+      "url": "https://phys.org/news/2026-07-swiss-hoard-vast-trove-nasa.html",
+      "summary": "Researchers have copied massive quantities of publicly available climate and environmental data from NASA onto a Swiss supercomputer to train artificial intelligence models—and for safekeeping amid U.S. funding cuts.",
+      "ts": 1784555402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wealthier North Carolina neighborhoods may be hotspots for insecticide-resistant tiger mosquitoes",
+      "url": "https://phys.org/news/2026-07-wealthier-north-carolina-neighborhoods-hotspots.html",
+      "summary": "The choices people make to control mosquitoes in their own backyards may be helping some of those mosquitoes survive the very insecticides meant to kill them, according to two new studies from North Carolina State Univer…",
+      "ts": 1784554808000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why you let down your guard on ads when scrolling on social media",
+      "url": "https://phys.org/news/2026-07-ads-scrolling-social-media.html",
+      "summary": "My wife stared at me in shock as I ripped open the package. The FedEx driver hadn't even made it back to his truck as I held the item up overhead like a trophy. Fumbling for words, she asked: \"Why on earth did you buy a …",
+      "ts": 1784554803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Where do the world's biggest diamonds come from? Geology now has answers",
+      "url": "https://phys.org/news/2026-07-world-biggest-diamonds-geology.html",
+      "summary": "Some of the most extraordinary gems ever found belong to a rare class of diamonds known as CLIPPIRs (Cullinan-like, Large, Inclusion-Poor, Pure, Irregular, Resorbed). They make up less than 1% of all diamonds on Earth an…",
+      "ts": 1784553608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the most widespread parasite on Earth reads its genome",
+      "url": "https://phys.org/news/2026-07-widespread-parasite-earth-genome.html",
+      "summary": "A parasite carried by billions of people worldwide often causes harmful infections during pregnancy and in immunocompromised individuals and is a leading infectious cause of blindness in South America. Once it enters the…",
+      "ts": 1784553603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Weather and human activity impact lake extremophiles",
+      "url": "https://phys.org/news/2026-07-weather-human-impact-lake-extremophiles.html",
+      "summary": "The Great Salt Lake is separated by a 20-mile (32-kilometer) causeway into a super-salty north arm and a less-salty south arm, with each hosting distinct communities of extremophiles. These organisms mingle at a gap in t…",
+      "ts": 1784552403000
+    },
+    {
+      "source": "Science News",
+      "title": "In painted caves, ancient human DNA clings to the walls",
+      "url": "https://www.sciencenews.org/article/ancient-human-dna-cave-walls",
+      "summary": "Scientists recovered ancient human DNA from cave walls for the first time. Refined, the method could help link prehistoric paintings to their makers.",
+      "ts": 1784552400000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why AI's environmental footprint won't disappear into orbit",
+      "url": "https://phys.org/news/2026-07-ai-environmental-footprint-wont-orbit.html",
+      "summary": "AI companies increasingly want to move their operations into space. Elon Musk's SpaceX has applied to launch over a million AI data center satellites and ultimately build them on the moon.",
+      "ts": 1784551202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Worried about booking a holiday abroad? How travel operators can provide reassurance",
+      "url": "https://phys.org/news/2026-07-holiday-reassurance.html",
+      "summary": "Flying abroad for a summer vacation is not as simple as it used to be. Geopolitical uncertainty has already disrupted flight schedules and fuel prices this year. For many, staying closer to home will seem like a sensible…",
+      "ts": 1784550001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fourth-year vet students reveal clues to horse MEED and dog bone cancer",
+      "url": "https://phys.org/news/2026-07-fourth-year-vet-students-reveal.html",
+      "summary": "Texas Tech University's School of Veterinary Medicine fourth-year students Kayden Tanner and Marshall Mays have both been published in international journals after putting hundreds of hours into their research papers.",
+      "ts": 1784548804000
+    },
     {
       "source": "Phys.org",
       "title": "Researchers advance tech that could help scientists detect habitable worlds beyond our solar system",
@@ -616,90 +700,6 @@
       "title": "Tracking electron capture processes in classical molecular dynamics simulations for spectral line broadening in plasmas",
       "url": "https://arxiv.org/abs/2502.04808",
       "summary": "arXiv:2502.04808v3 Announce Type: replace Abstract: Plasma spectroscopy is a fundamental tool for diagnosing laboratory and astrophysical plasmas. Accurate interpretation of spectra depends upon precise modeling and comp…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modelling ductile strain localization with evolutive stochastic rheologies",
-      "url": "https://arxiv.org/abs/2505.01360",
-      "summary": "arXiv:2505.01360v3 Announce Type: replace Abstract: Plate Tectonics requires strain localization over the entire thickness of the plates. However, modelling strain localization in the deep sections of the plates, which d…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Empowering Neural Network-based Quantum Monte Carlo with Local Pseudopotentials",
-      "url": "https://arxiv.org/abs/2505.19909",
-      "summary": "arXiv:2505.19909v2 Announce Type: replace Abstract: Neural Network-based Quantum Monte Carlo (NNQMC), an emerging method for solving many-body quantum systems with high accuracy, has been mainly applied to small systems …",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Material-Specific Mapping of Plasmonic Modal Dispersion via Discrete Momentum-Space Probes",
-      "url": "https://arxiv.org/abs/2508.00521",
-      "summary": "arXiv:2508.00521v3 Announce Type: replace Abstract: Accurate measurement of surface plasmon polariton (SPP) dispersion remains challenging, as conventional angle-resolved techniques are limited by surface quality, diffra…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unsupervised Deep Learning for Inverse Problems in Computed Tomography",
-      "url": "https://arxiv.org/abs/2508.05321",
-      "summary": "arXiv:2508.05321v4 Announce Type: replace Abstract: Assume you encounter an inverse problem that shall be solved for a large number of data, but no ground-truth data is available. To emulate this, in this study we assume…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A framework for realisable data-driven active flow control using model predictive control applied to a simplified truck wake",
-      "url": "https://arxiv.org/abs/2510.11600",
-      "summary": "arXiv:2510.11600v3 Announce Type: replace Abstract: We present a data-driven active flow control framework designed for deployment with few non-intrusive sensors. The method builds upon Artificial Intelligence driven red…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revisiting the phenomenon of bouncing of inertial particles crossing density stratified interfaces",
-      "url": "https://arxiv.org/abs/2510.21971",
-      "summary": "arXiv:2510.21971v3 Announce Type: replace Abstract: Inertial spheres settling through sharp density interfaces can arrest, reverse direction, and resume descent, a phenomenon known as bouncing. Using synchronized particl…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Global Kilometer-Scale Simulations with ARP-GEM2: Effect of Parameterized Convection and Calibration",
-      "url": "https://arxiv.org/abs/2511.00829",
-      "summary": "arXiv:2511.00829v2 Announce Type: replace Abstract: The objective of this paper is twofold. First, it documents the second version of the global atmospheric model ARP-GEM and its calibration at kilometer-scale resolution…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First Experimental Demonstration of Reinforcement Learning-Based Tuning on the PSI Injector 2 Cyclotron",
-      "url": "https://arxiv.org/abs/2512.03829",
-      "summary": "arXiv:2512.03829v2 Announce Type: replace Abstract: Reliable operation of high-power proton cyclotrons is a critical requirement for Accelerator Driven Systems (ADS) and other large-scale applications. Beam tuning in suc…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enzyme-driven phase separation",
-      "url": "https://arxiv.org/abs/2512.08356",
-      "summary": "arXiv:2512.08356v2 Announce Type: replace Abstract: The formation of polarized signaling domains on cell membranes is a fundamental example of biological pattern formation. While such patterns resemble structures from eq…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revealing electron-ytterbium interactions through Rydberg molecular spectroscopy",
-      "url": "https://arxiv.org/abs/2512.20609",
-      "summary": "arXiv:2512.20609v2 Announce Type: replace Abstract: Divalent atoms have emerged as powerful alternatives to alkalis in ultracold atom platforms, offering unique advantages arising from their two-electron structure. Among…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Atomic clock frequency ratios with fractional uncertainty $\\leq 3.2 \\times 10^{-18}$",
-      "url": "https://arxiv.org/abs/2512.21428",
-      "summary": "arXiv:2512.21428v2 Announce Type: replace Abstract: We report high-precision frequency ratio measurements between optical atomic clocks based on $^{27}$Al$^+$, $^{171}$Yb, and $^{87}$Sr. With total fractional uncertainti…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entropy Geometry and Condensation in Wealth Allocation",
-      "url": "https://arxiv.org/abs/2602.03676",
-      "summary": "arXiv:2602.03676v2 Announce Type: replace Abstract: We develop a statistical framework for wealth allocation in which equilibrium-like statistics follow from unbiased counting of admissible configurations rather than pos…",
       "ts": 1784520000000
     }
   ],
