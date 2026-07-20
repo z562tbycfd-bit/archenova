@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-20T09:19:18.832Z",
+  "updated": "2026-07-20T11:47:25.144Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "AI rocket engine startup LegendSpace raises $29.5 million angel round",
+      "url": "https://spacenews.com/ai-rocket-engine-startup-legendspace-raises-29-5-million-angel-round/",
+      "summary": "HELSINKI — A six-month-old Chinese startup aiming to use artificial intelligence to compress rocket engine development cycles has raised $29.5 million in angel funding. LegendSpace, full name Linjie Hangtian (Beijing) [……",
+      "ts": 1784546293000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin ",
+      "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+      "summary": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. A…",
+      "ts": 1784545163000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Bristol Myers Squibb becomes latest company to claim it’s building pharma’s largest NVIDIA AI supercomputer",
+      "url": "https://www.statnews.com/2026/07/20/bms-nvidia-assembling-largest-pharma-ai-supercomputer/?utm_campaign=rss",
+      "summary": "Bristol Myers Squibb is the third drugmaker in nine months to announce it is building the largest AI supercomputer in the life sciences industry.",
+      "ts": 1784545140000,
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "AI is more likely than humans to form biases when hiring",
@@ -9,6 +33,14 @@
       "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from th…",
       "ts": 1784536741000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Artemis II crew at ESTEC",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Artemis_II_crew_at_ESTEC",
+      "summary": "Video: 00:19:14 The four Artemis II astronauts visited ESTEC, ESA’s technical centre in the Netherlands, on 13 July as the first stop in a series of post-flight visits to the European teams that made their mission possib…",
+      "ts": 1784536200000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -687,38 +719,6 @@
       "title": "Multimodal Semantic-Aware Contrastive Learning For False Negative Mitigation in 3D Medical Imaging",
       "url": "https://arxiv.org/abs/2607.14995",
       "summary": "arXiv:2607.14995v1 Announce Type: cross Abstract: Multimodal Contrastive Learning (CL) has shown significant performance in aligning representations across various data modalities and improving downstream tasks, especial…",
-      "ts": 1784260800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Machine Learning Benchmarking Framework for Lipid Nanoparticle Transfection Efficiency Prediction",
-      "url": "https://arxiv.org/abs/2507.03209",
-      "summary": "arXiv:2507.03209v2 Announce Type: replace Abstract: The discovery of new ionizable lipids for efficient lipid nanoparticle (LNP)-mediated RNA delivery remains a major bottleneck in RNA therapeutics development. Recent ad…",
-      "ts": 1784260800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "TRAECR: A Tool for Preprocessing Positron Emission Tomography Imaging for Statistical Modeling",
-      "url": "https://arxiv.org/abs/2511.04458",
-      "summary": "arXiv:2511.04458v2 Announce Type: replace Abstract: Positron emission tomography (PET) imaging is widely used in a number of clinical applications, including cancer and Alzheimer's disease (AD) diagnosis, monitoring of d…",
-      "ts": 1784260800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Training a force field for proteins and small molecules from scratch",
-      "url": "https://arxiv.org/abs/2603.16770",
-      "summary": "arXiv:2603.16770v2 Announce Type: replace Abstract: Force fields for molecular dynamics are usually developed manually, limiting their transferability and making systematic exploration of functional forms challenging. We…",
-      "ts": 1784260800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "momenTUM: A schema-driven platform for designing, deploying, and exploring ecological momentary assessment studies",
-      "url": "https://arxiv.org/abs/2607.13076",
-      "summary": "arXiv:2607.13076v2 Announce Type: replace Abstract: Ecological momentary assessment (EMA) is widely used to collect repeated self-report data in participants' everyday lives using mobile devices. EMA studies often involv…",
       "ts": 1784260800000,
       "categoryId": "bio"
     }

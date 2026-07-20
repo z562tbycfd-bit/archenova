@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-20T09:19:10.217Z",
+  "updated": "2026-07-20T11:47:22.536Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers advance tech that could help scientists detect habitable worlds beyond our solar system",
+      "url": "https://phys.org/news/2026-07-advance-tech-scientists-habitable-worlds.html",
+      "summary": "Are we alone in the universe? For scientists working on NASA's proposed Habitable Worlds Observatory, that question is no longer purely philosophical. It is increasingly becoming an engineering problem.",
+      "ts": 1784547601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Burnout isn't new: 18th‑century farm records show workers describing the same exhaustion",
+      "url": "https://phys.org/news/2026-07-burnout-isnt-18thcentury-farm-workers.html",
+      "summary": "Nearly 40% of Canadian workers say they feel burned out often or always, according to a 2025 survey by Mental Health Research Canada and Canada Life. The term has become part of a broader lexicon of modern work, alongsid…",
+      "ts": 1784546404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "On the hunt for Earth's first complex life",
+      "url": "https://phys.org/news/2026-07-earth-complex-life.html",
+      "summary": "How life started on our own planet may not seem as interesting as finding evidence of life on Mars or the icy moons Europa or Enceladus. But the search for the first eukaryotes on Earth remains as important to astrobiolo…",
+      "ts": 1784545205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Africa's wildfire season is actually getting shorter, scientists think they know why",
+      "url": "https://phys.org/news/2026-07-africa-wildfire-season-shorter-scientists.html",
+      "summary": "Africa is home to around 70% of the world's burned area—the total area of land scorched by wildfires each year—making it the planet's biggest wildfire hotspot. Yet despite this, satellite observations have revealed an un…",
+      "ts": 1784544001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to keep the air inside your home clean during wildfires",
+      "url": "https://phys.org/news/2026-07-air-home-wildfires.html",
+      "summary": "The eerie glow of an orange sun through thick wildfire smoke might be unnerving, but the biggest risk from the haze is something much harder to see.",
+      "ts": 1784541603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Greece braces for year's first heat wave",
+      "url": "https://phys.org/news/2026-07-greece-braces-year.html",
+      "summary": "Greece, which was spared the record heat that ravaged most of Europe in June, is finally bracing for its first heat wave of the year.",
+      "ts": 1784539801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Floating igloo leaves France for polar exploration mission",
+      "url": "https://phys.org/news/2026-07-igloo-france-polar-exploration-mission.html",
+      "summary": "A floating research station resembling a giant aluminum igloo on Sunday set out from France to begin a long-term mission in the Arctic that will see it drift with the polar ice in one of the most hostile environments.",
+      "ts": 1784539201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "5.5 magnitude earthquake hits Peru's Andes region and kills at least 6 people",
+      "url": "https://phys.org/news/2026-07-magnitude-earthquake-peru-andes-region.html",
+      "summary": "A 5.5 magnitude earthquake shook the Andes region of Peru, killing at least six people, injuring more than 30 and displacing 300, authorities said Sunday.",
+      "ts": 1784539153000
+    },
     {
       "source": "Phys.org",
       "title": "AI tool reveals climate shifts may have fueled bursts of bird evolution",
@@ -644,62 +700,6 @@
       "title": "Entropy Geometry and Condensation in Wealth Allocation",
       "url": "https://arxiv.org/abs/2602.03676",
       "summary": "arXiv:2602.03676v2 Announce Type: replace Abstract: We develop a statistical framework for wealth allocation in which equilibrium-like statistics follow from unbiased counting of admissible configurations rather than pos…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transformation front kinetics in deformable ferromagnets",
-      "url": "https://arxiv.org/abs/2602.03745",
-      "summary": "arXiv:2602.03745v2 Announce Type: replace Abstract: Materials such as magnetic shape-memory alloys possess an intrinsic coupling between material's magnetisation and mechanical deformation. These materials also undergo s…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine learning of electronic structure and atomistic properties from the external potential",
-      "url": "https://arxiv.org/abs/2602.15345",
-      "summary": "arXiv:2602.15345v2 Announce Type: replace Abstract: Electronic structure calculations remain a major bottleneck in atomistic simulations and, not surprisingly, have attracted significant attention in machine learning (ML…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stellarator island divertor shape optimization for reduced peak heat fluxes",
-      "url": "https://arxiv.org/abs/2602.24049",
-      "summary": "arXiv:2602.24049v2 Announce Type: replace Abstract: An automated algorithm to construct island divertors for stellarators is presented and is used to find divertors that meet heat load requirements determined by material…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PsSource: an installable Geant4 extension for transport-coupled positronium annihilation with validated Ore-Powell three-photon physics",
-      "url": "https://arxiv.org/abs/2604.21173",
-      "summary": "arXiv:2604.21173v3 Announce Type: replace Abstract: PsSource is an installable Geant4 extension for configurable positronium-aware terminal positron annihilation. Geant4 transports the positron normally, after which PsSo…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gaussian pulse scattering by a chiral spherical shell",
-      "url": "https://arxiv.org/abs/2604.21466",
-      "summary": "arXiv:2604.21466v2 Announce Type: replace Abstract: Theory was formulated for scattering by a coated chiral sphere of a plane wave of arbitrary polarization state with amplitude modulated by a Gaussian pulse. The spheric…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of a Proton Therapy Research Beamline with FLASH and Minibeam Capabilities at the 18 MeV Bern Medical Cyclotron",
-      "url": "https://arxiv.org/abs/2605.05441",
-      "summary": "arXiv:2605.05441v3 Announce Type: replace Abstract: Advanced radiotherapy approaches such as FLASH irradiation and spatially fractionated radiotherapy (SFRT) show potential to improve the therapeutic ratio, yet their bio…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "General and concise operator approach to the dyadic Green's function of layered media",
-      "url": "https://arxiv.org/abs/2605.12346",
-      "summary": "arXiv:2605.12346v2 Announce Type: replace Abstract: Dyadic Green's function is an important tool of computational photonics, giving deeper insights into light-matter interaction. We present an operator approach to the de…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stern--Gerlach Spin Sorting and Dynamical Feedback in Relativistic Pair-Plasma Reconnection",
-      "url": "https://arxiv.org/abs/2605.16243",
-      "summary": "arXiv:2605.16243v2 Announce Type: replace Abstract: We derive a Stern--Gerlach control parameter, $\\Xi$, comparing spin-driven cross-sheet displacement with the relativistic Larmor radius. It places heliospheric plasmas …",
       "ts": 1784520000000
     }
   ],
