@@ -1112,11 +1112,14 @@ useEffect(() => {
   top: 0;
   bottom: -180px;
 
-  left: 50%;
+   left:
+calc(50% - 1px);
 
   z-index: 0;
 
-  width: 100dvw;
+  width:
+    calc(100dvw + 4px);
+}
 
   background:
     linear-gradient(
