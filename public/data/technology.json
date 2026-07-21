@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-21T17:23:26.030Z",
+  "updated": "2026-07-21T19:26:57.378Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Commercial Space Federation (CSF) Welcomes Three New Associate Members",
+      "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-three-new-associate-members/",
+      "summary": "Washington, D.C.— July 21, 2026 —The Commercial Space Federation (CSF) is pleased to welcome Overview Energy, Loft Orbital, and Star Catcher as new associate members — companies advancing space-based energy, […] The post…",
+      "ts": 1784660400000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Rare disease drugmakers try to avoid Trump price cuts",
+      "url": "https://www.statnews.com/2026/07/21/rare-disease-drugmakers-avoid-trump-price-cuts-pbm-state-laws-dc-diagnosis/?utm_campaign=rss",
+      "summary": "Plus, GOP voters want a crackdown on health care fraud, and how PBMs are skirting state laws.",
+      "ts": 1784657854000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "US-India Satellite Delivers Data, Reveals ‘Hummingbird’ in Antarctica",
+      "url": "https://www.nasa.gov/missions/nisar/us-india-satellite-delivers-data-reveals-hummingbird-in-antarctica/",
+      "summary": "As of July 20, the public can access data from the two powerful radar instruments aboard the NISAR (NASA-ISRO Synthetic Aperture Radar) satellite. Teams in the United States and India will release files processed from th…",
+      "ts": 1784657692000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Langley Celebrates Community through Music with ‘Symphony Under the Stars’ Event ",
+      "url": "https://www.nasa.gov/general/nasa-langley-celebrates-community-through-music-with-symphony-under-the-stars-event/",
+      "summary": "NASA Langley’s “Stars, Stripes, and Supernovas – Symphony Under the Stars” event brought employees, families, and community members together for an evening filled with music, connection, and celebration. Organizers plann…",
+      "ts": 1784656843000,
+      "categoryId": "space"
+    },
     {
       "source": "OpenAI",
       "title": "Introducing the ChatGPT for small business program",
@@ -244,7 +276,7 @@
     },
     {
       "source": "SpaceNews",
-      "title": "Agile Space Industries Appoints new CTO and Board member.",
+      "title": "Agile Space Industries Appoints new CTO and Board member",
       "url": "https://spacenews.com/agile-space-industries-appoints-new-cto-and-board-member/",
       "summary": "Durango, Co – July 21, 2026 – Agile Space Industries today announced the appointment of Jake Mills as Chief Technology Officer (CTO) and Mark Pasquale as an independent member of […] The post Agile Space Industries Appoi…",
       "ts": 1784631600000,
@@ -689,38 +721,6 @@
       "summary": "Schistosomiasis affects more than 250 million people worldwide, with 90% of infections occurring in sub‑Saharan Africa. The post Early Genomic Indicators of Praziquantel Resistance in <i>Schistosoma mansoni</i> appeared …",
       "ts": 1784593319000,
       "categoryId": "bio"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Towards technology-smart green industrial policy",
-      "url": "https://www.nature.com/articles/s41560-026-02110-w",
-      "summary": "",
-      "ts": 1784592000000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Flu Virus Interaction with Host Cell Machinery Mapped Inside Infected Cells",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/flu-virus-interaction-with-host-cell-machinery-mapped-inside-infected-cells/",
-      "summary": "Researchers developed a customized experimental workflow combining cross-linking mass spectrometry with AlphaFold-based structural modeling and functional assays to directly map protein-protein interactions in influenza-…",
-      "ts": 1784585802000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "FDA still focused on lettuce supplier as source of parasite, despite faulty test result",
-      "url": "https://www.statnews.com/2026/07/20/cyclospora-lettuce-tests-continue-restaurant-visits-decline/?utm_campaign=rss",
-      "summary": "The FDA said Monday it is still focused on lettuce from Taylor Farms as the source of a multistate outbreak of a diarrhea-causing parasite, despite a faulty test result.",
-      "ts": 1784579879000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Sets Briefings for SpaceX Crew-13 Mission to Space Station",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-13-mission-to-space-station/",
-      "summary": "NASA and its partners will discuss the upcoming crew rotation mission to the International Space Station during a pair of news conferences on Monday, Aug. 3, from the agency’s Johnson Space Center in Houston. Mission lea…",
-      "ts": 1784577652000,
-      "categoryId": "space"
     }
   ],
   "categories": [
