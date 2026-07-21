@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-21T13:57:06.510Z",
+  "updated": "2026-07-21T15:47:25.079Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
+      "url": "https://blogs.nvidia.com/blog/vera-rubin/",
+      "summary": "NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350-plus fa…",
+      "ts": 1784648203000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NIAC 2026 Selections",
+      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/niac-2026-selections/",
+      "summary": "Phase I Saptarshi BandyopadhyayDimming the Sun (DimSun) Using Controllable Dust Cloud to Reduce Solar InsolationNASA Jet Propulsion LaboratoryPasadena, CA 91109-80012026 Phase I David BugbyCombinatory Architecture offeri…",
+      "ts": 1784647815000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection",
+      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/precision-astrometry-using-optically-independent-spacecraft-for-graviational-wave-detection/",
+      "summary": "Paul StankusBrookhaven Science Associates The scientific goal is to enable a new method for observing gravitational waves at low frequencies, based on the astrometric GW signature — gravitational waves passing by the Ear…",
+      "ts": 1784647434000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Mapping Alien Continents: Achieving Optical VLBI for Exoplanet Imaging ",
+      "url": "https://www.nasa.gov/directorates/stmd/mapping-alien-continents-achieving-optical-vlbi-for-exoplanet-imaging/",
+      "summary": "Paul StankusBrookhaven Science Associates The scientific goal of the proposed work will be reconstructing the image, ie resolving surface features, of an Earth-like exoplanet around a nearby star as seen in visible light…",
+      "ts": 1784647431000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Interworld Slingshot Resource Surveys",
+      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/interworld-slingshot-resource-surveys/",
+      "summary": "Pablo SobronSETI Institute This proposal explores a new class of reconnaissance spacecraft that map minerals from orbit using Raman spectroscopy during high-speed flybys–without landing, sample return, or extended dwell.…",
+      "ts": 1784647429000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness ",
+      "url": "https://www.nasa.gov/directorates/stmd/niac/robotically-assembled-electromagnetic-metamaterials-for-long-range-space-situational-awareness/",
+      "summary": "David SmithDuke University The increasing population of spacefaring vehicles and satellites motivates increasingly powerful technologies for space situational awareness (SSA). While the US space surveillance network (SSN…",
+      "ts": 1784647426000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Photophoretic Tracers for Near-Space Remote Sensing at 30-100 km Altitudes ",
+      "url": "https://www.nasa.gov/directorates/stmd/photophoretic-tracers-for-near-space-remote-sensing-at-30-100-km-altitudes/",
+      "summary": "Benjamin SchaferRarified Technologies, Inc. We propose a new approach to atmospheric sensing at 30-100 km altitudes using photophoretically levitating tracers. These lightweight structures harness sunlight to remain susp…",
+      "ts": 1784647423000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Actively Steerable Femtosat Constellations for In-situ Exploration of Saturn’s Rings, Atmosphere, and Magnetosphere",
+      "url": "https://www.nasa.gov/directorates/stmd/niac/actively-steerable-femtosat-constellations-for-in-situ-exploration-of-saturns-rings-atmosphere-and-magnetosphere/",
+      "summary": "Michael RubensteinNorthwestern University, Chicago We propose a mission to use ~10,000 actively steerable femtosats to map the ring composition, atmospheric composition and density, and the magnetic field distribution of…",
+      "ts": 1784647421000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "PRAXIS: Planetary Rings Autonomous EXploration with In-situ Sampling",
+      "url": "https://www.nasa.gov/directorates/stmd/niac/praxis-planetary-rings-autonomous-exploration-with-in-situ-sampling/",
+      "summary": "Marco QuadrelliNASA Jet Propulsion Laboratory Humanity has never touched the particles of a planetary ring, but if we were able to get close enough and sample them, it will transform understanding of ring structure and o…",
+      "ts": 1784647418000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "ECLIPSE – Efficient variable Conductivity Lunar Insulator for Passive Surveyor Environmental control",
+      "url": "https://www.nasa.gov/directorates/stmd/niac/eclipse-efficient-variable-conductivity-lunar-insulator-for-passive-surveyor-environmental-control/",
+      "summary": "Austin Phoenix Virginia Polytechnic Institute & State A disaggregated lunar infrastructure requires novel thermal management methods to enable future lunar operations. While thermal management solutions exist for large i…",
+      "ts": 1784647416000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Plasmon-Enhanced Radioisotope Thermophotovoltaic (PRTPV) Power Generation for Interstellar Missions",
+      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/plasmon-enhanced-radioisotope-thermophotovoltaic-prtpv-power-generation-for-interstellar-missions/",
+      "summary": "Keunhan ParkUniversity of Utah This proposal seeks to develop a transformative energy system — the plasmon-enhanced radioisotope Thermophotovoltaic (PRTPV) generator — that significantly surpasses the performance of curr…",
+      "ts": 1784647413000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Pete Hegseth, ‘The Odyssey,’ and the testosterone myth",
+      "url": "https://www.statnews.com/2026/07/21/connection-between-odyssey-military-tesosterone-screening/?utm_campaign=rss",
+      "summary": "The poet didn’t say “sing to me, Muse, of a man with optimized endocrine panels,\" writes urologist Elizabeth Dray.",
+      "ts": 1784646944000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
+      "url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+      "summary": "AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented …",
+      "ts": 1784646020000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Advocates say federal funding is being cut from groups fighting HIV",
+      "url": "https://www.statnews.com/2026/07/21/hiv-aids-prevention-advocates-fear-deep-cuts-cdc-funding/?utm_campaign=rss",
+      "summary": "The administration is shifting some funding to states, but community groups are set to lose out.",
+      "ts": 1784643872000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Is there an exodus underway at Epic?",
@@ -62,7 +174,7 @@
       "source": "SpaceNews",
       "title": "UK and Florida commit $400,000 to joint space projects",
       "url": "https://spacenews.com/uk-and-florida-commit-400000-to-joint-space-projects/",
-      "summary": "The British government and Florida’s space-focused economic development agency have each committed $200,000 to support joint research, innovation and commercialization projects. The post UK and Florida commit $400,000 to…",
+      "summary": "The British government and the Space Florida aerospace finance and development authority have each committed $200,000 to support joint research, innovation and commercialization projects. The post UK and Florida commit $…",
       "ts": 1784635200000,
       "categoryId": "space"
     },
@@ -176,14 +288,6 @@
       "url": "https://spacenews.com/italian-startup-oris-raises-funding-for-laser-power-beaming-technology/",
       "summary": "Italian startup ORiS has raised 5 million euros ($5.7 million) to help it develop wireless power-beaming technology for satellites using lasers. The post Italian startup ORiS raises funding for laser power-beaming techno…",
       "ts": 1784606501000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Why Maine’s Sandy Shorelines Turn Jagged",
-      "url": "https://science.nasa.gov/earth/earth-observatory/why-maines-sandy-shorelines-turn-jagged/",
-      "summary": "Differences in the underlying bedrock and how rivers distribute sediment make the coastlines west of Portland look unlike those northeast of the city.",
-      "ts": 1784606400000,
       "categoryId": "space"
     },
     {
@@ -547,6 +651,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Why Maine’s Sandy Shorelines Turn Jagged",
+      "url": "https://science.nasa.gov/earth/earth-observatory/why-maines-sandy-shorelines-turn-jagged/",
+      "summary": "Differences in the underlying bedrock and how rivers distribute sediment make the coastlines west of Portland look unlike those northeast of the city.",
+      "ts": 1784606400000,
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Early Genomic Indicators of Praziquantel Resistance in Schistosoma mansoni",
       "url": "https://www.genengnews.com/topics/infectious-diseases/early-genomic-indicators-of-praziquantel-resistance-in-schistosoma-mansoni/",
@@ -609,118 +721,6 @@
       "summary": "An aircraft powered by a megawatt-class hybrid-electric engine developed in collaboration with NASA and built by GE Aerospace, demonstrated flight of an innovation that can inform new generations of fuel-saving aircraft …",
       "ts": 1784573684000,
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "New NASA Earth Missions Gear Up to Start Science Flights  ",
-      "url": "https://science.nasa.gov/earth/new-nasa-earth-missions-gear-up-to-start-science-flights/",
-      "summary": "The first of six new airborne campaigns will hit the skies this summer.",
-      "ts": 1784571911000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "China’s AI models have Trump’s AI world at war with itself",
-      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Over the weekend, several current and former advisors to President Donald Trump on…",
-      "ts": 1784570400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Memory Shaped by Brain Remodeling During Adolescence in Mice",
-      "url": "https://www.genengnews.com/topics/translational-medicine/memory-shaped-by-brain-remodeling-during-adolescence-in-mice/",
-      "summary": "Protective mesh-like structures, called perineuronal nets, stabilize memory circuits and unexpectedly diminish during late adolescence before rebuilding in adulthood. The post Memory Shaped by Brain Remodeling During Ado…",
-      "ts": 1784568652000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "From Hampton to Mars: How NASA Langley Helped Land on the Red Planet",
-      "url": "https://www.nasa.gov/general/from-hampton-to-mars-how-nasa-langley-helped-land-on-the-red-planet/",
-      "summary": "Fifty years ago, NASA’s Viking 1 and 2 landers made the first successful landings on Mars, opening a new era in planetary exploration. Behind that achievement was a team at NASA’s Langley Research Center in Hampton, Virg…",
-      "ts": 1784562435000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Our First View of the Surface of Mars",
-      "url": "https://www.nasa.gov/image-article/our-first-view-of-the-surface-of-mars/",
-      "summary": "“Touchdown, we have touchdown!” At 5:12 a.m. PDT, July 20, 1976, mission controllers at NASA’s Jet Propulsion Laboratory erupted in cheers as they learned that the Viking 1 lander had survived its descent through the thi…",
-      "ts": 1784561909000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
-      "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
-      "summary": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
-      "ts": 1784559653000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The next step of site-neutral, and a fiery PBM hearing",
-      "url": "https://www.statnews.com/2026/07/20/site-neutral-payments-hospitals-health-insurance-earnings-season/?utm_campaign=rss",
-      "summary": "Medicare proposes to reduce payments to hospitals for certain drugs and imaging services.",
-      "ts": 1784558284000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A most-wanted fugitive appears to have been secretly working as a biotech executive",
-      "url": "https://www.statnews.com/2026/07/20/ronald-fischer-rhode-island-fugitive-richard-graydon-biotech/?utm_campaign=rss",
-      "summary": "A former doctor accused of sexual assault but on the run for 20 years appears to have been living a secret life as a biotech executive.",
-      "ts": 1784554456000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a telehealth firm and patient safety, PBMs overcharging, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/20/telehealth-firm-patient-safety-iowa-medicaid-pbms/?utm_campaign=rss",
-      "summary": "Some former employees say telehealth company LifeMD has sought to maximize the volume of GLP-1 prescriptions at the expense of patient safety",
-      "ts": 1784553010000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Launches New NUTEC Plastics Global Marine Monitoring Platform",
-      "url": "http://www.iaea.org/newscenter/news/iaea-launches-new-nutec-plastics-global-marine-monitoring-platform",
-      "summary": "",
-      "ts": 1784552970000,
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "HHS vaccine committee quietly gets new charter",
-      "url": "https://www.statnews.com/2026/07/20/health-news-hhs-vaccine-committee-quietly-gets-new-charter/?utm_campaign=rss",
-      "summary": "Lax clinical oversight for online GLP-1 prescriptions, proposed financial help for people who want to quit smoking, and more health news",
-      "ts": 1784552467000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Pipelines to payloads: risk management lessons for the space economy",
-      "url": "https://spacenews.com/pipelines-to-payloads-risk-management-lessons-for-the-space-economy/",
-      "summary": "The energy sector has spent decades learning how to manage complex disputes that touch on sovereign power, geopolitics, regulation and private capital. Those same dynamics are at play in the […] The post Pipelines to pay…",
-      "ts": 1784552400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Plato's electronics ready for space",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Plato_s_electronics_ready_for_space",
-      "summary": "Image: The European Space Agency’s terrestrial planet hunter Plato has recently completed a series of key tests inside the Maxwell Test Chamber at ESTEC, demonstrating that its electronic equipment is fit to work in spac…",
-      "ts": 1784550600000,
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI hiring biases, and weather data sabotage",
-      "url": "https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply f…",
-      "ts": 1784549400000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

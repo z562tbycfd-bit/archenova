@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-21T13:57:04.406Z",
+  "updated": "2026-07-21T15:47:22.982Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI awareness in Nebraska differs by age, education, income",
+      "url": "https://phys.org/news/2026-07-ai-awareness-nebraska-differs-age.html",
+      "summary": "Artificial intelligence is being adopted rapidly across industries, workplaces and personal use, with an estimated 1 in 4 Americans using it regularly, but there is a knowledge gap.",
+      "ts": 1784648406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists use dual-frequency images to explore black hole plasma physics",
+      "url": "https://phys.org/news/2026-07-scientists-dual-frequency-images-explore.html",
+      "summary": "The first-ever image of a black hole—a glowing, ring-like structure at the heart of galaxy M87—was unveiled to the world in a landmark moment in 2019. Now, researchers have taken the next big step—moving beyond capturing…",
+      "ts": 1784648404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trust, connection are key ingredients for Hawaiʻi's food security",
+      "url": "https://phys.org/news/2026-07-key-ingredients-hawaii-food.html",
+      "summary": "When talking about Hawaiʻi's food security, the conversation often focuses on physical infrastructure—warehouses, cold storage and doubling crop production to reduce the need to import 90% of food. A new policy article b…",
+      "ts": 1784647203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "From quantum error correction to emergent gravity: Probing holographic universes at QLab",
+      "url": "https://phys.org/news/2026-07-quantum-error-emergent-gravity-probing.html",
+      "summary": "One of the deepest ambitions in modern physics is understanding how the fabric of space and time could emerge from fundamental quantum degrees of freedom to establish a quantum theory of gravity.",
+      "ts": 1784646602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cosmic gymnastics: How the Milky Way once underwent a dramatic flip",
+      "url": "https://phys.org/news/2026-07-cosmic-gymnastics-milky-underwent-flip.html",
+      "summary": "The Milky Way may have undergone a dramatic change in orientation during its history, according to new research that helps explain a long-standing mystery about our galaxy. Using supercomputer simulations of galaxies lik…",
+      "ts": 1784646003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New geopolitical-economic order framework shows firm strategies vary under two types of state-market order",
+      "url": "https://phys.org/news/2026-07-geopolitical-economic-framework-firm-strategies.html",
+      "summary": "A new paper published in Global Strategy Journal develops a geopolitical-economic order framework suggesting that the extent of geopolitical competition incentivizes states to create one of two types of economic order: a…",
+      "ts": 1784646001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New NASA Earth missions gear up to start science flights",
+      "url": "https://phys.org/news/2026-07-nasa-earth-missions-gear-science.html",
+      "summary": "Landslides in Alaska. Air quality in Atlanta. Fire clouds out West. From the Arctic fringes to farm country, NASA's newest class of suborbital Earth Venture missions is gearing up to deliver science that will benefit com…",
+      "ts": 1784644806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New 'demon' cavefish lineage discovered in Alabama cave",
+      "url": "https://phys.org/news/2026-07-demon-cavefish-lineage-alabama-cave.html",
+      "summary": "For decades, scientists have crawled through Bobcat Cave on Redstone Arsenal in Huntsville, searching its dark pools and underground passages for rare life. The cave is home to the endangered Alabama cave shrimp, making …",
+      "ts": 1784644803000
+    },
+    {
+      "source": "Science News",
+      "title": "An experimental oral vaccine may prevent invasive bacterial diarrhea",
+      "url": "https://www.sciencenews.org/article/oral-vaccine-bacterial-diarrhea",
+      "summary": "Shigella causes about 450,000 U.S. infections each year. An experimental oral vaccine protected adults in a small human trial.",
+      "ts": 1784644200000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How community-led health and livelihood programs helped protect rainforests during the pandemic",
+      "url": "https://phys.org/news/2026-07-community-health-livelihood-rainforests-pandemic.html",
+      "summary": "As COVID-19 disrupted rural economies, communities living near protected rainforests faced rising uncertainty about jobs, health and basic needs. A new study in The Lancet Planetary Health shows that when communities wer…",
+      "ts": 1784643607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Geophysics brings clarity to the potential of natural hydrogen",
+      "url": "https://phys.org/news/2026-07-geophysics-clarity-potential-natural-hydrogen.html",
+      "summary": "Natural hydrogen is considered a potential low-carbon energy source. But how much is generated underground—and how quickly? An international research team led by the LIAG Institute for Applied Geophysics in Hannover has …",
+      "ts": 1784643603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Listening in on toads reveals expansion secrets",
+      "url": "https://phys.org/news/2026-07-toads-reveals-expansion-secrets.html",
+      "summary": "Analysis of more than 3 million toad calls from locations across Australia gives rare insights into toad breeding behavior—and offers new hope for halting their advance. James Cook University ecology researchers discover…",
+      "ts": 1784642404000
+    },
     {
       "source": "Phys.org",
       "title": "New wasp species named after Ernest Hemingway amid efforts to control destructive sugar beet pest",
@@ -616,90 +700,6 @@
       "title": "Biodegradable, Millimeter-Scale Light-Emitting Sensors for Distributed Environmental Monitoring-Functional Pixie Dust",
       "url": "https://arxiv.org/abs/2607.17623",
       "summary": "arXiv:2607.17623v1 Announce Type: new Abstract: Methods for large-area, precise monitoring across natural environments are of growing interest due to pressing needs for sustainable management of rapidly increasing anthro…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ghost-wave momentum bandgaps in anisotropic Floquet lattices",
-      "url": "https://arxiv.org/abs/2607.17636",
-      "summary": "arXiv:2607.17636v1 Announce Type: new Abstract: Momentum bandgaps, characterized by complex frequencies and non-resonant amplification effects, provide a powerful route for wave manipulation beyond conventional band theo…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vibrational Circular Dichroism enhancement in conformationally flexible transition metal complexes",
-      "url": "https://arxiv.org/abs/2607.17667",
-      "summary": "arXiv:2607.17667v1 Announce Type: new Abstract: We extend our previously developed approach for calculating enhanced vibrational circular dichroism (VCD) spectra of transition-metal complexes to systems for which conform…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Numerical Investigation of a 3D End-Firing Antenna Array Based on Two-Photon Polymerization on Thin-Film Lithium Niobate for Optical Beam Steering",
-      "url": "https://arxiv.org/abs/2607.17698",
-      "summary": "arXiv:2607.17698v1 Announce Type: new Abstract: Optical phased arrays (OPAs) are key components for solid-state beam steering in emerging photonic technologies such as LiDAR, optical communication, and adaptive optics. H…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generalized Reynolds Analogy for Compressible Turbulent Boundary Layers: Unified Velocity-Temperature Relations from Mean to Fluctuating Field",
-      "url": "https://arxiv.org/abs/2607.17702",
-      "summary": "arXiv:2607.17702v1 Announce Type: new Abstract: The Reynolds analogy between velocity and temperature fields is a central problem in the statistical theory of compressible wall turbulence. The generalized Reynolds analog…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multiple soliton regimes enabled by parametric down-conversion in $\\chi^{(2)}+\\chi^{(3)}$ microresonators",
-      "url": "https://arxiv.org/abs/2607.17706",
-      "summary": "arXiv:2607.17706v1 Announce Type: new Abstract: Half-harmonic generation in microresonators with mixed $\\chi^{(2)}$ and $\\chi^{(3)}$ nonlinearities provides access to a rich landscape of two-colour soliton states and fre…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ant swarm functional control via stigmergic Reinforcement Learning agents",
-      "url": "https://arxiv.org/abs/2607.17709",
-      "summary": "arXiv:2607.17709v1 Announce Type: new Abstract: In this work, we propose a novel framework for the functional controllability of the ant swarm model, a well-known and relevant model of collective behaviour. Our approach …",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Feedback-mediated circulation and persistence of stochastic fluctuations in gene regulatory circuits",
-      "url": "https://arxiv.org/abs/2607.17743",
-      "summary": "arXiv:2607.17743v1 Announce Type: new Abstract: Feedback plays a significant role in biochemical networks that govern a multitude of cellular functions, including development, adaptation, and homeostasis. Yet, how feedba…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-time THz ptychography using an optically modulated aperture",
-      "url": "https://arxiv.org/abs/2607.17796",
-      "summary": "arXiv:2607.17796v1 Announce Type: new Abstract: Ptychography allows ordinary cameras to perform both quantitative phase and intensity imaging. However, the requirement for relative object to probe motion and high measure…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photonic Memory as a Dynamical Phase for Neuromorphic Computing: A Unified Framework with Experimental Realization",
-      "url": "https://arxiv.org/abs/2607.17817",
-      "summary": "arXiv:2607.17817v1 Announce Type: new Abstract: Photonic memory underpins optical information processing, neuromorphic photonics, and photonic computing. Existing studies typically treat dispersive, nonlinear, and driven…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A coupled Eulerian Lagrangian approach for fluid and particle dynamics",
-      "url": "https://arxiv.org/abs/2607.17836",
-      "summary": "arXiv:2607.17836v1 Announce Type: new Abstract: We present a one-way coupled Eulerian-Lagrangian computational framework for simulating fluid and particle dynamics in two-dimensional incompressible flows. The framework e…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physically Consistent Outflow Boundary Conditions for Global Stability Analysis of Bluff Body Wakes",
-      "url": "https://arxiv.org/abs/2607.17864",
-      "summary": "arXiv:2607.17864v1 Announce Type: new Abstract: Global linear stability analysis of bluff body wake flows is performed using the matrix-forming method based on finite-difference discretization. Particular emphasis is pla…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Dynamics of Current-Carrying ELM Filaments: Spiral Vorticity, Rotation, and Velocity Suppression",
-      "url": "https://arxiv.org/abs/2607.17888",
-      "summary": "arXiv:2607.17888v1 Announce Type: new Abstract: In this work, we investigate the nonlinear dynamics of isolated current-carrying edge-localized mode (ELM) filaments using a reduced electromagnetic fluid model in slab geo…",
       "ts": 1784606400000
     }
   ],
