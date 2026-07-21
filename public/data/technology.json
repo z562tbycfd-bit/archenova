@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-07-21T11:48:31.279Z",
+  "updated": "2026-07-21T13:57:06.510Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Is there an exodus underway at Epic?",
+      "url": "https://www.statnews.com/2026/07/21/is-there-an-exodus-underway-at-epic-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: executive departures at Epic Systems, new CEO takes over at Nabla, and more health tech news.",
+      "ts": 1784641423000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Broad Institute, partners unveil new initiative to develop gene therapies for rare diseases",
+      "url": "https://www.statnews.com/2026/07/21/center-for-therapeutic-genetics-rare-disease-gene-therapies/?utm_campaign=rss",
+      "summary": "The Broad Institute, Boston Children’s Hospital, and Maine’s Jackson Laboratory announced a collaboration to develop rare disease gene therapies.",
+      "ts": 1784641053000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Anthropic deepens work with rare disease drugs",
+      "url": "https://www.statnews.com/2026/07/21/biotech-news-anthropic-deepens-work-with-rare-disease-drugs/?utm_campaign=rss",
+      "summary": "Novo Nordisk sues Eli Lilly over GLP-1s, Medicare pricing plans, and more biotech news from The Readout",
+      "ts": 1784640980000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Novo suing Lilly over ‘deceptive’ ads, a fugitive’s secret life in biotech, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/21/novo-sues-lilly-alleging-deceptive-ads-fugitive-secret-life-in-biotech/?utm_campaign=rss",
+      "summary": "Novo Nordisk sued Eli Lilly for allegedly running “deceptive” ads to make its obesity and diabetes drugs appear more effective",
+      "ts": 1784639319000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats",
+      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/a-new-compact-instrument-enables-high-fidelity-measurements-of-energetic-particles-on-cubesats/",
+      "summary": "A team of NASA-sponsored scientists and engineers has developed a novel approach to observing high-energy particles in the near-Earth space environment, incorporating miniaturized sensors into a compact, multi-view parti…",
+      "ts": 1784638800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Chinese AI divides the White House, and a record copyright payout",
+      "url": "https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. China’s AI models have Trump’s AI world at war with itself Last weekend, several c…",
+      "ts": 1784635800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Revvity Creates Program to Equip Young Biotechs with Scalable Informatics Capabilities Sooner than Later",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/revvity-creates-program-to-equip-young-biotechs-with-scalable-informatics-capabilities-sooner-than-later/",
+      "summary": "Built for early-stage biotechs, the program combines access to Signals software with guided onboarding and best-practice configurations for smaller biotechs to help accelerate innovation, improve scientific productivity,…",
+      "ts": 1784635211000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "UK and Florida commit $400,000 to joint space projects",
+      "url": "https://spacenews.com/uk-and-florida-commit-400000-to-joint-space-projects/",
+      "summary": "The British government and Florida’s space-focused economic development agency have each committed $200,000 to support joint research, innovation and commercialization projects. The post UK and Florida commit $400,000 to…",
+      "ts": 1784635200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Nabla’s new CEO on plan to gain market share in a competitive AI scribe environment",
+      "url": "https://www.statnews.com/2026/07/21/ai-scribe-nabla-new-ceo-plan-gain-marketshare/?utm_campaign=rss",
+      "summary": "Ambient scribe developer Nabla said Brian Manning will be the Paris-based company's new CEO as it looks to grow in a highly competitive market.",
+      "ts": 1784635200000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo: Ebola outbreak still expanding, WHO sees signs of stabilization",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167983",
+      "summary": "In the Democratic Republic of the Congo (DRC), UN health teams and partners are still racing to contain the rapidly expanding Ebola outbreak, despite ongoing insecurity in eastern areas where the virus has taken hold. As…",
+      "ts": 1784635200000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "German component supplier deltaVision raises 10.2 million euros",
+      "url": "https://spacenews.com/german-component-supplier-deltavision-raises-10-2-million-euros/",
+      "summary": "German spacecraft component developer deltaVision has raised 10.2 million euros ($11.6 million) to expand production of valves and related equipment, with a focus on enabling in-space refueling. The post German component…",
+      "ts": 1784635041000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Novo Nordisk sues Eli Lilly over GLP-1 drug ads it calls ‘deceptive’",
@@ -88,6 +176,14 @@
       "url": "https://spacenews.com/italian-startup-oris-raises-funding-for-laser-power-beaming-technology/",
       "summary": "Italian startup ORiS has raised 5 million euros ($5.7 million) to help it develop wireless power-beaming technology for satellites using lasers. The post Italian startup ORiS raises funding for laser power-beaming techno…",
       "ts": 1784606501000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Why Maine’s Sandy Shorelines Turn Jagged",
+      "url": "https://science.nasa.gov/earth/earth-observatory/why-maines-sandy-shorelines-turn-jagged/",
+      "summary": "Differences in the underlying bedrock and how rivers distribute sediment make the coastlines west of Portland look unlike those northeast of the city.",
+      "ts": 1784606400000,
       "categoryId": "space"
     },
     {
@@ -451,20 +547,20 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Why Maine’s Sandy Shorelines Turn Jagged",
-      "url": "https://science.nasa.gov/earth/earth-observatory/why-maines-sandy-shorelines-turn-jagged/",
-      "summary": "Differences in the underlying bedrock and how rivers distribute sediment make the coastlines west of Portland look unlike those northeast of the city.",
-      "ts": 1784606400000,
-      "categoryId": "space"
-    },
-    {
       "source": "Genetic Engineering News",
       "title": "Early Genomic Indicators of Praziquantel Resistance in Schistosoma mansoni",
       "url": "https://www.genengnews.com/topics/infectious-diseases/early-genomic-indicators-of-praziquantel-resistance-in-schistosoma-mansoni/",
       "summary": "Schistosomiasis affects more than 250 million people worldwide, with 90% of infections occurring in sub‑Saharan Africa. The post Early Genomic Indicators of Praziquantel Resistance in <i>Schistosoma mansoni</i> appeared …",
       "ts": 1784593319000,
       "categoryId": "bio"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Towards technology-smart green industrial policy",
+      "url": "https://www.nature.com/articles/s41560-026-02110-w",
+      "summary": "",
+      "ts": 1784592000000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "Genetic Engineering News",
@@ -624,102 +720,6 @@
       "url": "https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/",
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is more likely than humans to form biases when hiring The next time you apply f…",
       "ts": 1784549400000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "New €25 Million BioReliance Testing Facility Opens at Merck KGaA Global Headquarters in Germany",
-      "url": "https://www.genengnews.com/topics/bioprocessing/new-e25-million-bioreliance-testing-facility-opens-at-merck-kgaa-global-headquarters-in-germany/",
-      "summary": "The 2,000-square-meter BioReliance facility in Darmstadt, Germany, will also offer GMP-compliant stability studies for monoclonal antibodies and cell therapies, addressing the growing demand for biologics testing across …",
-      "ts": 1784548834000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "From the General Assembly to Harlem: Mandela’s call to action endures",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167981",
-      "summary": "Sixty-seven minutes. That is how long volunteers spent serving lunch to people experiencing food insecurity at Refettorio Harlem in New York City last week – one for every year Nelson Mandela gave to public service.",
-      "ts": 1784548800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Health response brings lifesaving care closer to thousands in Yemen",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167982",
-      "summary": "Thousands of people in some of Yemen's most conflict-affected communities are receiving lifesaving health care closer to home, thanks to funding from the UN aid coordination office (OCHA) through the Yemen Humanitarian F…",
-      "ts": 1784548800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ukraine: Deadly Russian attacks severely damage aid warehouses",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167980",
-      "summary": "Russian attacks and drone strikes killed at least two children and injured dozens more across Ukraine over recent days while severely damaging three critical aid warehouses, UN agencies reported on Monday.",
-      "ts": 1784548800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Middle East: Civilians again under fire as US-Iran strikes continue",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167979",
-      "summary": "As the United States and Iran trade deadly attacks for a second week, the UN continues to call for de-escalation while highlighting the devastation caused to civilians and critical infrastructure across the Middle East.",
-      "ts": 1784548800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘I consider it a miracle’: Pregnant woman pulled from post-quake rubble in Venezuela",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167978",
-      "summary": "When a 12-story apartment building pancaked in La Guaira, Venezuela, following two powerful earthquakes late last month, panic ensued to save people injured or trapped under the rubble.",
-      "ts": 1784548800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "LIVE: Haiti endures violence and hunger, but hopes grow for a more secure future",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167972",
-      "summary": "Haiti’s future success depends on “security, political engagement, and humanitarian action reinforcing each other,” the UN’s most senior official in Haiti has told the UN Security Council which met in New York on Monday …",
-      "ts": 1784548800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Moon Day focuses growing concerns around space junk",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167976",
-      "summary": "Amid surging lunar exploration, the UN on Monday urged governments to ensure that humanity's return to the Moon does not come at the expense of planet Earth – or the long-term sustainability of space.",
-      "ts": 1784548800000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "AI rocket engine startup LegendSpace raises $29.5 million angel round",
-      "url": "https://spacenews.com/ai-rocket-engine-startup-legendspace-raises-29-5-million-angel-round/",
-      "summary": "HELSINKI — A six-month-old Chinese startup aiming to use artificial intelligence to compress rocket engine development cycles has raised $29.5 million in angel funding. LegendSpace, full name Linjie Hangtian (Beijing) [……",
-      "ts": 1784546293000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin ",
-      "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
-      "summary": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. A…",
-      "ts": 1784545163000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Bristol Myers Squibb becomes latest company to claim it’s building pharma’s largest NVIDIA AI supercomputer",
-      "url": "https://www.statnews.com/2026/07/20/bms-nvidia-assembling-largest-pharma-ai-supercomputer/?utm_campaign=rss",
-      "summary": "Bristol Myers Squibb is the third drugmaker in nine months to announce it is building the largest AI supercomputer in the life sciences industry.",
-      "ts": 1784545140000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "ts": 1784541600000,
       "categoryId": "ai-compute"
     }
   ],

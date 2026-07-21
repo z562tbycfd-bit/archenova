@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-21T11:48:29.234Z",
+  "updated": "2026-07-21T13:57:04.406Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New wasp species named after Ernest Hemingway amid efforts to control destructive sugar beet pest",
+      "url": "https://phys.org/news/2026-07-wasp-species-ernest-hemingway-efforts.html",
+      "summary": "Earth remains full of undiscovered species and unexplored interactions that continue to fascinate us, including, in the most ordinary places, the fields where our food is grown.",
+      "ts": 1784641206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A star orbiting our galaxy's supermassive black hole tests the limits of relativity",
+      "url": "https://phys.org/news/2026-07-star-orbiting-galaxy-supermassive-black.html",
+      "summary": "Although general relativity (GR) is an elegant theory of gravity, we don't often need to use it. For most gravitational interactions, Newton's theory of universal gravitation works just fine. Newton's model is good enoug…",
+      "ts": 1784641202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A fairer world without destroying the planet? It's possible",
+      "url": "https://phys.org/news/2026-07-fairer-world-destroying-planet.html",
+      "summary": "Imagine a future where everyone has enough, on a planet that stays livable. A new report makes the case that it's within reach.",
+      "ts": 1784640007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Triassic inferno: Fires raged across Europe for millennia during past global warming",
+      "url": "https://phys.org/news/2026-07-triassic-inferno-raged-europe-millennia.html",
+      "summary": "The end-Triassic mass extinction, 201 million years ago, is linked to volcanism that resulted from the break-up of Pangea and which pumped out vast amounts of CO2 into the atmosphere, causing extreme global warming of 5 …",
+      "ts": 1784640005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New film highlights ESRC research on online harms",
+      "url": "https://phys.org/news/2026-07-highlights-esrc-online.html",
+      "summary": "HateLab, led by Professor Matthew Williams of Cardiff University, has shown that spikes in online hate speech can be followed by increases in hate crime offline.",
+      "ts": 1784638818000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mars's 2018 planetwide dust storm hints at possible solar influence on its weather",
+      "url": "https://phys.org/news/2026-07-mars-planetwide-storm-hints-solar.html",
+      "summary": "Solar storms may affect weather on Mars when they strike at the same time as major Martian dust storms, a new study suggests for the first time. Researchers found evidence of rising temperatures in the red planet's lower…",
+      "ts": 1784638801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Upside of online relationships",
+      "url": "https://phys.org/news/2026-07-upside-online-relationships.html",
+      "summary": "Last fall, students filed into Vilas Hall for the first session of Online Communication and Personal Relationships, a class with the potential to improve their friendships and family relationships. There was even a chanc…",
+      "ts": 1784637601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Students' emotional resources in high school linked to college completion",
+      "url": "https://phys.org/news/2026-07-students-emotional-resources-high-school.html",
+      "summary": "Academic achievement in high school has long been viewed as one of the strongest predictors of college success. But a new study from Penn State researchers suggests that students' emotional resources—including their moti…",
+      "ts": 1784635201000
+    },
     {
       "source": "Phys.org",
       "title": "AI agent helps prepare synchrotron X-ray experimental measurements, paving the way for autonomous operation",
@@ -644,62 +700,6 @@
       "title": "Nonlinear Dynamics of Current-Carrying ELM Filaments: Spiral Vorticity, Rotation, and Velocity Suppression",
       "url": "https://arxiv.org/abs/2607.17888",
       "summary": "arXiv:2607.17888v1 Announce Type: new Abstract: In this work, we investigate the nonlinear dynamics of isolated current-carrying edge-localized mode (ELM) filaments using a reduced electromagnetic fluid model in slab geo…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Portable surrogate-free 4D MRI from standard fast multi-slice 2D MRI via implicit neural representations",
-      "url": "https://arxiv.org/abs/2607.17906",
-      "summary": "arXiv:2607.17906v1 Announce Type: new Abstract: Four-dimensional MRI (4D MRI) characterizes respiratory organ motion, yet existing reconstruction pipelines are tightly coupled to specific acquisition platforms (e.g., non…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transition to chaos in two-dimensional Rayleigh-B\\'enard convection: the role of the magnetic field",
-      "url": "https://arxiv.org/abs/2607.17918",
-      "summary": "arXiv:2607.17918v1 Announce Type: new Abstract: The impact of an externally imposed magnetic field on numerical simulations of two-dimensional Rayleigh-B\\'enard convection (RBC) is investigated. Initially, the RBC model …",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Femtosecond-to-millisecond holographic imaging of laser ablation dynamics",
-      "url": "https://arxiv.org/abs/2607.17919",
-      "summary": "arXiv:2607.17919v1 Announce Type: new Abstract: Femtosecond laser ablation redistributes optically deposited energy across electronic, structural, mechanical, and thermal degrees of freedom over timescales from femtoseco…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Where onshore wind meets forests: electricity system planning with ecologically graded forests",
-      "url": "https://arxiv.org/abs/2607.17959",
-      "summary": "arXiv:2607.17959v1 Announce Type: new Abstract: Onshore wind is expected to supply much of the growth in renewables, yet its expansion increasingly extends into forests, where wind generation and forest conservation act …",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scanless quantum Fourier-transform mid-infrared spectroscopy for rapid high-sensitivity hyperspectral mapping",
-      "url": "https://arxiv.org/abs/2607.17964",
-      "summary": "arXiv:2607.17964v1 Announce Type: new Abstract: Fourier-transform infrared (FTIR) spectroscopy is a well-established technique for qualitative and quantitative chemical analysis. Classical FTIR systems rely, however, on …",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Review of oxygen measurement and relevance to the mechanisms of FLASH radiotherapy",
-      "url": "https://arxiv.org/abs/2607.17974",
-      "summary": "arXiv:2607.17974v1 Announce Type: new Abstract: FLASH radiotherapy (FLASH-RT) is the phenomenon of relative sparing of normal tissue when ultra-high dose rates (UHDR) are used compared with conventional dose rates (CDR) …",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "RuNNer 2.0: A Software Suite for High-Dimensional Neural Network Potentials",
-      "url": "https://arxiv.org/abs/2607.17978",
-      "summary": "arXiv:2607.17978v1 Announce Type: new Abstract: We present RuNNer 2.0, the \"Ruhr University Neural Network energy representation\", a highly optimized software suite for training and evaluating high-dimensional neural net…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A principled closure framework for higher-order SIS epidemic models on networks",
-      "url": "https://arxiv.org/abs/2607.18003",
-      "summary": "arXiv:2607.18003v1 Announce Type: new Abstract: Susceptible-infected-susceptible (SIS) epidemic models on networks are governed by hierarchical moment equations where the dynamics of smaller subsystems depend on the stat…",
       "ts": 1784606400000
     }
   ],
