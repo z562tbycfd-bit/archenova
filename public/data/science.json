@@ -1,7 +1,147 @@
 {
   "ok": true,
-  "updated": "2026-07-21T19:26:52.390Z",
+  "updated": "2026-07-21T21:12:38.162Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Most Salt Lake County residents concerned about Great Salt Lake decline",
+      "url": "https://phys.org/news/2026-07-salt-lake-county-residents-great.html",
+      "summary": "Residents of Salt Lake County, Utah, are highly concerned about the shrinking Great Salt Lake, according to new University of Utah–led research examining local perceptions of the lake's health and its economic and enviro…",
+      "ts": 1784668203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Decades-old strains reveal Brakhagea, a budding bacterial genus with bioactive potential",
+      "url": "https://phys.org/news/2026-07-decades-strains-reveal-brakhagea-budding.html",
+      "summary": "Some microorganisms that hold great promise for research have long lain dormant in historical collections. But only through new methods are their diversity and potential becoming apparent. The team led by Professor Chris…",
+      "ts": 1784668201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Truffles are on the menu for threatened marsupials returning to a World Heritage area",
+      "url": "https://phys.org/news/2026-07-truffles-menu-threatened-marsupials-world.html",
+      "summary": "A new study from Edith Cowan University (ECU) confirms that the presence of fungal food resources is important for supporting the reintroduction of two threatened marsupials to the Shark Bay World Heritage area, which co…",
+      "ts": 1784667609000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nostalgia and family traditions are major barriers to adoption of plant-based diets, study finds",
+      "url": "https://phys.org/news/2026-07-nostalgia-family-traditions-major-barriers.html",
+      "summary": "Nostalgia is a major barrier to preventing more people from adopting plant-based diets, according to a new University of Stirling study. Research led by Aga Kosla of the University's Faculty of Natural Sciences found tha…",
+      "ts": 1784667607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New simulation challenges leading explanation for why galaxies stop forming stars",
+      "url": "https://phys.org/news/2026-07-simulation-explanation-galaxies-stars.html",
+      "summary": "For decades, astronomers have cast galaxy mergers as the universe's ultimate relationship drama: two galaxies collide, chaos erupts, black holes awaken and star formation comes to a screeching halt. Upending this long-he…",
+      "ts": 1784667002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two-color lasers aim electron currents through semiconductor with no electric field",
+      "url": "https://phys.org/news/2026-07-lasers-aim-electron-currents-semiconductor.html",
+      "summary": "Researchers at the University of Michigan have created a device that enables them to control the flow of electrons through a semiconductor using only laser light—no electrical power source required. The device was built …",
+      "ts": 1784666408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uproar in France over reintroduction of bee-harming pesticides",
+      "url": "https://phys.org/news/2026-07-uproar-france-reintroduction-bee-pesticides.html",
+      "summary": "France's parliament on Tuesday backed a controversial bill authorizing farmers to use two bee-harming pesticides despite an outcry from environmentalists and left-wing politicians.",
+      "ts": 1784666407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New peptide strategy aims to make cancer targeting more precise",
+      "url": "https://phys.org/news/2026-07-peptide-strategy-aims-cancer-precise.html",
+      "summary": "Researchers at the University of Tennessee, Knoxville, are working on a promising strategy to make cancer therapies smarter and more precise, using peptides that switch on in the acidic environment surrounding tumors. Fr…",
+      "ts": 1784666403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Invasive plants boost mosquitoes in low-income areas of Baltimore and DC",
+      "url": "https://phys.org/news/2026-07-invasive-boost-mosquitoes-income-areas.html",
+      "summary": "In many urban areas, low-income neighborhoods have more mosquitoes, making residents more vulnerable to mosquito-borne diseases. A new study co-authored by scientists at Cary Institute of Ecosystem Studies found that inv…",
+      "ts": 1784665803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Jellyfish nebula may be the scene of two stars going supernova",
+      "url": "https://phys.org/news/2026-07-jellyfish-nebula-scene-stars-supernova.html",
+      "summary": "The star that formed the Jellyfish nebula may have had a partner star that exploded 100,000 years earlier, according to international researchers, who say that this may be the first known discovery of a binary star syste…",
+      "ts": 1784665801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum sensing microscope illuminates transistor design",
+      "url": "https://phys.org/news/2026-07-quantum-microscope-illuminates-transistor.html",
+      "summary": "Artificial intelligence faces an energy crisis stemming from a physical traffic jam inside modern computer chips. Processors must continually shuffle data, such as the billions of parameters in complex models, between se…",
+      "ts": 1784665211000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The 'forgotten children' of sexual abuse in family settings",
+      "url": "https://phys.org/news/2026-07-forgotten-children-sexual-abuse-family.html",
+      "summary": "When a child has been sexually abused by a family member, post-disclosure interventions prioritize the child who was victimized. Siblings who were not directly abused can also be deeply affected. New research from McGill…",
+      "ts": 1784665210000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Satellite imagery captures the impact of large U.S. dams on river temperatures over the last decade",
+      "url": "https://phys.org/news/2026-07-satellite-imagery-captures-impact-large.html",
+      "summary": "A team of Virginia Tech geoscientists has found a new way to examine the widespread effects of dams on river temperatures: using Landsat thermal infrared imagery to gather data on rivers across the United States. By usin…",
+      "ts": 1784664602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Novel antibiotic candidates starve resistant bacteria by blocking vitamin supply",
+      "url": "https://phys.org/news/2026-07-antibiotic-candidates-starve-resistant-bacteria.html",
+      "summary": "Bacteria have spent decades evolving resistance to virtually every antibiotic we have thrown at them. To stay ahead, new drugs must hit targets that existing antibiotics have never touched. A research team at the Helmhol…",
+      "ts": 1784664005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researcher shows how AI can personalize learning for homeschooling families",
+      "url": "https://phys.org/news/2026-07-ai-personalize-homeschooling-families.html",
+      "summary": "More than 3.4 million American children, or about 6% of the school-age population, now learn at home, and that group has grown at nearly three times the pre-pandemic rate. Homeschooling is also increasingly popular in co…",
+      "ts": 1784664001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Atomic channels can separate rare earth elements from each other without using toxic chemicals",
+      "url": "https://phys.org/news/2026-07-atomic-channels-rare-earth-elements.html",
+      "summary": "Rare earth elements like lanthanum, neodymium and dysprosium are used to build the electric motor in your car, the LED lights in your house and the MRI machine at your doctor's office. But first, they have to be mined an…",
+      "ts": 1784663403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop automated system to accelerate outbreak detection and disease surveillance",
+      "url": "https://phys.org/news/2026-07-automated-outbreak-disease-surveillance.html",
+      "summary": "Biomedical engineers at Brown University have developed a fully automated workflow that simplifies and accelerates the preparation of bacterial samples for genetic sequencing. The method, dubbed Pathogen2Read, streamline…",
+      "ts": 1784663401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Animals in prehistoric paintings reveal hidden pattern across nine Basque caves",
+      "url": "https://phys.org/news/2026-07-animals-prehistoric-reveal-hidden-pattern.html",
+      "summary": "Iñaki Intxaurbe, a researcher at the EHU-University of the Basque Country, analyzed the distribution of images in nine caves in the Basque Country using network-based analysis and statistical techniques.",
+      "ts": 1784662806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Family courts must do more to hear children's voices, study says",
+      "url": "https://phys.org/news/2026-07-family-courts-children-voices.html",
+      "summary": "Children involved in private family law proceedings in England can experience serious harm to their mental and physical health because their voices are too often ignored or dismissed, according to new research led by the…",
+      "ts": 1784662804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Human eyes needed, not AI, to study the Arctic sky",
+      "url": "https://phys.org/news/2026-07-human-eyes-ai-arctic-sky.html",
+      "summary": "Scientists studying space weather are turning to human volunteers rather than artificial intelligence to help sort through hundreds of thousands of images of the Arctic sky. The Clear Skies—Kiruna project is asking membe…",
+      "ts": 1784662201000
+    },
     {
       "source": "Phys.org",
       "title": "Sleeping sickness parasite reveals enzyme weak spot that could guide safer drugs",
@@ -560,146 +700,6 @@
       "title": "Observability of Finite-Depth Double-Diffusive Exchange from Sparse Temperature-Salinity Measurements",
       "url": "https://arxiv.org/abs/2607.16272",
       "summary": "arXiv:2607.16272v1 Announce Type: new Abstract: Double-diffusive interfaces can support exchange histories that are spatially organized but only sparsely observed. A resolved three-dimensional calculation contains the ro…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Quantum Learning Pyramid (QLP): A Novel, Holistic, Industry-Ready Curriculum and Pedagogical Methodology for Quantum Computing Education",
-      "url": "https://arxiv.org/abs/2607.16289",
-      "summary": "arXiv:2607.16289v1 Announce Type: new Abstract: Quantum computing education is becoming urgent as industry demand and national initiatives grow rapidly. This paper introduces the Quantum Learning Pyramid (QLP), a unified…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effects of anisotropic confinement on droplet rebound from superhydrophobic surfaces",
-      "url": "https://arxiv.org/abs/2607.16367",
-      "summary": "arXiv:2607.16367v1 Announce Type: new Abstract: On flat superhydrophobic surfaces, droplet rebound is well described by a single inertio-capillary time scale, yielding a contact-time that is independent of impact energy.…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulating neural network criticality and resource dynamics with Rydberg gases",
-      "url": "https://arxiv.org/abs/2607.16368",
-      "summary": "arXiv:2607.16368v1 Announce Type: new Abstract: Efficient operation of neural networks has been linked to criticality in their underlying non-equilibrium excitation dynamics. However, obtaining experimental evidence of t…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Theoretical adversarial collaboration: a template",
-      "url": "https://arxiv.org/abs/2607.16374",
-      "summary": "arXiv:2607.16374v1 Announce Type: new Abstract: Adversarial collaborations have become increasingly prominent in empirical science, where proponents of competing theories jointly design experiments capable of discriminat…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Realism about the external world: an adversarial collaboration",
-      "url": "https://arxiv.org/abs/2607.16379",
-      "summary": "arXiv:2607.16379v1 Announce Type: new Abstract: One of us is a realist and believes that reality fundamentally consists in an external physical world, governed by laws of physics. Observers are either emergent (physicali…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Triadic Interactions to Kolmogorov Scaling: A Deterministic, Scale-Resolved Formulation of Energy Flux",
-      "url": "https://arxiv.org/abs/2607.16381",
-      "summary": "arXiv:2607.16381v1 Announce Type: new Abstract: We develop a deterministic, scale-resolved formulation of energy transfer in the three-dimensional incompressible Navier-Stokes equations based on an explicit triadic decom…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-color solitons in Kerr third harmonic generation model",
-      "url": "https://arxiv.org/abs/2607.16435",
-      "summary": "arXiv:2607.16435v1 Announce Type: new Abstract: We investigate two-color, two dimensional spatially localized light modes in a resonant Kerr third-harmonic generation model. Using computational tools, we identify two dis…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sensitivity of silicon-to-water dose conversion and Bragg-peak metrics to stopping-power datasets in proton dosimetry",
-      "url": "https://arxiv.org/abs/2607.16441",
-      "summary": "arXiv:2607.16441v1 Announce Type: new Abstract: Accurate proton dosimetry requires consistent stopping-power data for detector-to-water conversion and Monte Carlo radiation transport. We quantify the sensitivity of water…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stochastic Resetting: A Non-Equilibrium Framework for Prediction, Inference and Design",
-      "url": "https://arxiv.org/abs/2607.16474",
-      "summary": "arXiv:2607.16474v1 Announce Type: new Abstract: Stochastic resetting has evolved from a simple model of diffusive search acceleration into a general framework for predicting, inferring, and controlling stochastic dynamic…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measuring the dipole phase of Bloch-trajectory harmonics using a monolithic interferometer",
-      "url": "https://arxiv.org/abs/2607.16477",
-      "summary": "arXiv:2607.16477v1 Announce Type: new Abstract: Uncovering the dipole phase of gas-phase high harmonic generation was instrumental to understanding the recollision physics underlying attosecond pulse generation. Correspo…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the collapse of three point vortices on surfaces",
-      "url": "https://arxiv.org/abs/2607.16490",
-      "summary": "arXiv:2607.16490v1 Announce Type: new Abstract: Point vortices represent an important reduced model describing two-dimensional ideal fluid dynamics. It is well known that there exist three-vortex configurations on the Eu…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Continuous 3-D Latent Diffusion for Medical Generation and Reconstruction",
-      "url": "https://arxiv.org/abs/2607.16491",
-      "summary": "arXiv:2607.16491v1 Announce Type: new Abstract: High-resolution three-dimensional (3-D) medical diffusion models remain constrained by the cost of processing full volumes, even when denoising is performed in a compact la…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Study of GeSn Selective Area Growth with Demonstration of SWIR Light Detection",
-      "url": "https://arxiv.org/abs/2607.16497",
-      "summary": "arXiv:2607.16497v1 Announce Type: new Abstract: As germanium-tin (GeSn) epitaxial growth quality continuously improves, the search for an efficient integration strategy of GeSn optoelectronics devices into complementary …",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Theoretical derivation of blood velocity from TOF-MRA based artery centerline",
-      "url": "https://arxiv.org/abs/2607.16498",
-      "summary": "arXiv:2607.16498v1 Announce Type: new Abstract: Time-of-flight magnetic resonance angiography (TOF-MRA) is widely used for structural vascular imaging, but extracting functional hemodynamics like blood velocity typically…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Assessment of 0-D L-H Power Threshold Scaling and Regression Stability in DIII-D with Applied 3D Magnetic Fields",
-      "url": "https://arxiv.org/abs/2607.16509",
-      "summary": "arXiv:2607.16509v1 Announce Type: new Abstract: A database of 192 L-H transitions in DIII-D is used to assess the effects of applied three-dimensional (3D) magnetic fields on the H-mode power threshold and the stability …",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bridging Relativistic Twisted Fermion Beams and Photonic OAM Flux in Gauged Hopf Lattices: Emergent Topological Analogs",
-      "url": "https://arxiv.org/abs/2607.16520",
-      "summary": "arXiv:2607.16520v1 Announce Type: new Abstract: Recent work has demonstrated non-diffractive topological spin textures (Skyrmion- and meron-like) that persist in the core of diffracting relativistic twisted fermion beams…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robust Fano-like Antiresonances in Large-Area Au-coated Ag-Nanoisland Ensembles",
-      "url": "https://arxiv.org/abs/2607.16525",
-      "summary": "arXiv:2607.16525v1 Announce Type: new Abstract: We investigate plasmonic resonances and Fano-like interference in Au-coated Ag nanoislands fabricated by solid-state dewetting followed by Au overgrowth. By combining elect…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantitative Infrared Thermographic Assessment of Hand Cooling Dynamics During Controlled Contact with Metal Plates",
-      "url": "https://arxiv.org/abs/2607.16536",
-      "summary": "arXiv:2607.16536v1 Announce Type: new Abstract: This study investigates the spatiotemporal thermal response of human hands during controlled contact cooling using short wave infrared (SWIR), mid wave infrared (MWIR), and…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Full-band reciprocal parametric amplification in coupled oscillator arrays",
-      "url": "https://arxiv.org/abs/2607.16539",
-      "summary": "arXiv:2607.16539v1 Announce Type: new Abstract: Parametric resonance provides a versatile mechanism to manipulate wave signals in time-modulated metamaterials, but typically operates within narrow wavelength or frequency…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A First Africa Wide Amateur Radio Contact Experiment with the International Space Station",
-      "url": "https://arxiv.org/abs/2607.16545",
-      "summary": "arXiv:2607.16545v1 Announce Type: new Abstract: The Amateur Radio on the International Space Station (ARISS) program is recognized by its great Science, Technology, Engineering, and Mathematics (STEM) impact: it brings s…",
       "ts": 1784606400000
     }
   ],

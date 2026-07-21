@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-21T19:26:57.378Z",
+  "updated": "2026-07-21T21:12:40.626Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Trump administration says it’s deferring $1B in Medicaid payments to California and Minnesota",
+      "url": "https://www.statnews.com/2026/07/21/medicaid-payments-1-billion-deferred-california-minnesota/?utm_campaign=rss",
+      "summary": "The Trump administration said it was deferring more than $1 billion in Medicaid payments to Minnesota and California because of “suspected fraud and noncompliance.”",
+      "ts": 1784664643000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Northrop adds to charges on Vulcan solid rocket motor program",
+      "url": "https://spacenews.com/northrop-adds-to-charges-on-vulcan-solid-rocket-motor-program/",
+      "summary": "Northrop Grumman took another charge for the solid rocket boosters it provides for the Vulcan Centaur and suggested updated motors might not be ready until the end of the year. The post Northrop adds to charges on Vulcan…",
+      "ts": 1784662851000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Commercial Space Federation (CSF) Welcomes Three New Associate Members",
@@ -62,7 +78,7 @@
       "source": "NVIDIA",
       "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
       "url": "https://blogs.nvidia.com/blog/vera-rubin/",
-      "summary": "NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350-plus fa…",
+      "summary": "NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factor…",
       "ts": 1784648203000,
       "categoryId": "ai-compute"
     },
@@ -329,6 +345,14 @@
       "summary": "THC drinks, which have exploded in popularity in recent years, are sold in retail stores beside sodas, iced tea, and even chocolate milk, often in violation of state laws.",
       "ts": 1784622600000,
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "ts": 1784617200000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -696,30 +720,6 @@
       "url": "https://arxiv.org/abs/2607.09747",
       "summary": "arXiv:2607.09747v2 Announce Type: replace-cross Abstract: When is a material system a candidate for life at all? We argue that this question is prior to behavior, functional architecture, or computational capacity, and t…",
       "ts": 1784606400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "LATTICE: Graph Self-Supervised Learning for Multimodal Spatial Omics Integration",
-      "url": "https://arxiv.org/abs/2607.14410",
-      "summary": "arXiv:2607.14410v2 Announce Type: replace-cross Abstract: Spatially resolved omics studies increasingly combine transcriptomic and epigenomic assays, yet downstream analysis is often still performed using single-modality…",
-      "ts": 1784606400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Why Maine’s Sandy Shorelines Turn Jagged",
-      "url": "https://science.nasa.gov/earth/earth-observatory/why-maines-sandy-shorelines-turn-jagged/",
-      "summary": "Differences in the underlying bedrock and how rivers distribute sediment make the coastlines west of Portland look unlike those northeast of the city.",
-      "ts": 1784606400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Early Genomic Indicators of Praziquantel Resistance in Schistosoma mansoni",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/early-genomic-indicators-of-praziquantel-resistance-in-schistosoma-mansoni/",
-      "summary": "Schistosomiasis affects more than 250 million people worldwide, with 90% of infections occurring in sub‑Saharan Africa. The post Early Genomic Indicators of Praziquantel Resistance in <i>Schistosoma mansoni</i> appeared …",
-      "ts": 1784593319000,
       "categoryId": "bio"
     }
   ],
