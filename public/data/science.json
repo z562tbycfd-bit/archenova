@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-21T21:12:38.162Z",
+  "updated": "2026-07-21T22:59:37.402Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A native California wildflower isn't keeping up with climate change",
+      "url": "https://phys.org/news/2026-07-native-california-wildflower-isnt-climate.html",
+      "summary": "The mountain jewelflower inhabits a wide swath of California and Oregon, from summer-scorched foothills to high mountains where snow falls during winter. But it is already suffering from climate change, with plants in th…",
+      "ts": 1784673603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simulations show distinct ground motion signatures of supershear earthquakes",
+      "url": "https://phys.org/news/2026-07-simulations-distinct-ground-motion-signatures.html",
+      "summary": "Sustained supershear earthquake ruptures produce distinct ground-motion characteristics compared with subshear earthquakes, according to a study published in the Bulletin of the Seismological Society of America, with pot…",
+      "ts": 1784673601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New technique enables LIGO to peer farther into the distant universe",
+      "url": "https://phys.org/news/2026-07-technique-enables-ligo-peer-distant.html",
+      "summary": "Scientists at the University of California, Riverside, have developed a new way to help gravitational-wave observatories see farther into the universe by solving one of their biggest challenges: tiny heat-induced distort…",
+      "ts": 1784673007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Universal patterns govern global fertility decline",
+      "url": "https://phys.org/news/2026-07-universal-patterns-global-fertility-decline.html",
+      "summary": "By examining 200 years of demographic data from 237 countries and territories, Kenji Itao, of the RIKEN Center for Brain Science in Japan, discovered that universal mathematical laws describe how fertility declines as so…",
+      "ts": 1784672405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black hole jet may be stirring gas cloud containing early 'red potato' galaxy",
+      "url": "https://phys.org/news/2026-07-black-hole-jet-gas-cloud.html",
+      "summary": "A black hole may be stirring a \"pot\" of gas containing a neighboring galaxy in the early universe, according to a new study published in Astronomy & Astrophysics that used observations from NASA's Chandra X-ray Observato…",
+      "ts": 1784672403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Students unearth rare, centuries-old pot at Florida Spanish mission site",
+      "url": "https://phys.org/news/2026-07-students-unearth-rare-centuries-pot.html",
+      "summary": "Some 400 years ago, a member of the Indigenous Potano-Timucua tribe scooped up some clay and carefully molded it into a modest vessel, small enough to rest in the palm of their hand. You can imagine their fingers pressin…",
+      "ts": 1784671801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cameras on whale sharks reveal they are the snackers of the sea",
+      "url": "https://phys.org/news/2026-07-cameras-whale-sharks-reveal-snackers.html",
+      "summary": "New video evidence has revealed whale sharks, the largest fish in the sea, are serial snackers, feeding on large amounts of small prey at all ocean depths, according to research led by the Australian Institute of Marine …",
+      "ts": 1784671206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cone snail venom peptide could enable injectable non-opioid pain relief",
+      "url": "https://phys.org/news/2026-07-cone-snail-venom-peptide-enable.html",
+      "summary": "An international research team led by the Medical University of Vienna has investigated a new peptide derived from cone snail venom that significantly reduced inflammation-induced pain in an animal model. Crucially, its …",
+      "ts": 1784671201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "US-India satellite delivers data, reveals 'hummingbird' in Antarctica",
+      "url": "https://phys.org/news/2026-07-india-satellite-reveals-hummingbird-antarctica.html",
+      "summary": "As of July 20, the public can access data from the two powerful radar instruments aboard the NISAR (NASA-ISRO Synthetic Aperture Radar) satellite. Teams in the United States and India will release files processed from th…",
+      "ts": 1784670603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI tool predicts how DNA sequences switch on genes across different cell types",
+      "url": "https://phys.org/news/2026-07-ai-tool-dna-sequences-genes.html",
+      "summary": "Deep learning approaches have transformed how scientists predict the activity and function of DNA sequences in the genome. A new AI tool called Corgi (Context-aware Regulatory Genomics Inference), developed by Martin Vin…",
+      "ts": 1784670601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uncovering multidimensional effects of generative AI on learning",
+      "url": "https://phys.org/news/2026-07-uncovering-multidimensional-effects-generative-ai.html",
+      "summary": "A research team consisting of researcher Somi Joo, Professor Changjun Lee and Professor Daeho Lee from the Sungkyunkwan University (SKKU) Department of Artificial Intelligence Convergence have published a study comprehen…",
+      "ts": 1784670006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient stone tools reveal complex nomadic lifestyles in Armenian Highlands",
+      "url": "https://phys.org/news/2026-07-ancient-stone-tools-reveal-complex.html",
+      "summary": "A team of international scientists led by Dr. Ariel Malinsky-Buller, together with Ph.D. students David Nora, Ioannis Oikonomou and Dominik Rogall from the Hebrew University of Jerusalem, has uncovered new insights into …",
+      "ts": 1784670004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "São Paulo archipelago serves as a breeding ground for endangered sharks",
+      "url": "https://phys.org/news/2026-07-paulo-archipelago-ground-endangered-sharks.html",
+      "summary": "The critically endangered sand tiger shark (Carcharias taurus) appears to have found a refuge off the northern coast of the state of São Paulo, Brazil, for mating and reproduction. This was revealed in a study conducted …",
+      "ts": 1784669404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Open-source AI predicts key peptide traits before costly lab testing",
+      "url": "https://phys.org/news/2026-07-source-ai-key-peptide-traits.html",
+      "summary": "Penn Engineers have developed PeptiVerse, an AI-powered platform that predicts key chemical and biological properties of peptides, strings of amino acids whose medical potential has been demonstrated by the success of GL…",
+      "ts": 1784669401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tapeworm hijacks worker ants, giving them queen-like metabolism and longer lives",
+      "url": "https://phys.org/news/2026-07-tapeworm-hijacks-worker-ants-queen.html",
+      "summary": "A tapeworm fundamentally changes the lives of ants: Workers of the species Temnothorax nylanderi infected with the tapeworm Anomotaenia brevis live several times longer than their uninfected nestmates. They are also less…",
+      "ts": 1784668809000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New evidence redraws Roman conquest's final conflict in ancient Catalonia",
+      "url": "https://phys.org/news/2026-07-evidence-redraws-roman-conquest-conflict.html",
+      "summary": "Researchers from the UAB have found the remains of a Roman camp linked to the suppression of the Ceretani revolt that took place in Cerdanya in 39 BCE. The research, based on archaeological surveys and the spatial distri…",
+      "ts": 1784668806000
+    },
     {
       "source": "Phys.org",
       "title": "Most Salt Lake County residents concerned about Great Salt Lake decline",
@@ -536,13 +648,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Observation of Genuine Tripartite Non-Gaussian Entanglement from a Superconducting Three-Photon Spontaneous Parametric Down-Conversion Source",
-      "url": "http://link.aps.org/doi/10.1103/4ts4-qj74",
-      "summary": "Author(s): Benjamin Jarvis-Frain, Andy Schang, Fernando Quijandría, Ibrahim Nsanzineza, Dmytro Dubyna, C. W. Sandbo Chang, Franco Nori, and C. M. Wilson The generation of entangled photons through spontaneous parametric …",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Magnetic Correlations in the SU(3) Triangular-Lattice $t\\text{−}J$ Model at Finite Doping",
       "url": "http://link.aps.org/doi/10.1103/x68w-lwvv",
       "summary": "Author(s): Annika Böhler, Fabian Grusdt, and Annabelle Bohrdt Ultracold alkaline-earth atoms and molecules now enable experimental realizations of SU(N)-symmetric Fermi-Hubbard models, yet theoretical understanding of th…",
@@ -557,13 +662,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Chase Orbits, not Time: A Scalable Paradigm for Long-Duration Eccentric Gravitational-Wave Surrogates",
-      "url": "http://link.aps.org/doi/10.1103/1thz-h7zt",
-      "summary": "Author(s): Akash Maurya, Prayush Kumar, Scott E. Field, Chandra Kant Mishra, Peter James Nee, Kaushik Paul, Harald P. Pfeiffer, Adhrit Ravichandran, and Vijay Varma Orbital eccentricity is a key tracer of the astrophysic…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "New Approach to Pulsar Timing Array Data Combination",
       "url": "http://link.aps.org/doi/10.1103/h9rb-5vdm",
       "summary": "Author(s): David Wright, Kalista Wayt, Jeffrey S. Hazboun, Xavier Siemens, Rutger van Haasteren, Levi Schult, and Stephen R. Taylor In 2023, after more than two decades of searching, pulsar timing array (PTA) collaborati…",
@@ -574,20 +672,6 @@
       "title": "How Zonal Fields Suppress Reversed Shear Alfvén Eigenmode in Tokamak Plasmas",
       "url": "http://link.aps.org/doi/10.1103/hh65-rgwv",
       "summary": "Author(s): Ruirui Ma, Pengfei Liu, Liu Chen, Fulvio Zonca, and Zhiyong Qiu Understanding nonlinear saturation of reversed-shear Alfvén eigenmodes (RSAEs) in tokamaks is crucial for high-performance burning plasmas. Emplo…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Radiation Reaction Effects on Coherent Emission in Relativistic Magnetized Shocks",
-      "url": "http://link.aps.org/doi/10.1103/49dm-cfgp",
-      "summary": "Author(s): Yu Zhang, Yuan-Pei Yang, and Liang-Liang Ji Relativistic magnetized shocks are natural sources of coherent radiation, representing a promising framework for fast radio bursts (FRBs). This Letter explores how t…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Four Regimes of Primary Radiation Damage in Tungsten",
-      "url": "http://link.aps.org/doi/10.1103/1kyk-k6n5",
-      "summary": "Author(s): J. Byggmästar, V-M. Yli-Suutala, A. Fellman, J. Åström, J. Westerholm, and F. Granberg We observe for the first time in silico the transition to a linear regime in the primary damage production in tungsten. As…",
       "ts": 1784628000000
     },
     {
@@ -612,95 +696,11 @@
       "ts": 1784628000000
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Scaling of Relaxation and Entropy in Buckled Colloidal Monolayers",
-      "url": "http://link.aps.org/doi/10.1103/jvzh-lwbh",
-      "summary": "Author(s): Yongming Zhang, Qingyu Qu, Qian-Yuan Tang, and Xiaoguang Ma By extracting spin configurations directly from a colloidal monolayer mimicking a 2D Ising lattice, entropy scaling laws for liquids and glasses are …",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Identifying Geometric Third-Order Nonlinear Transport in Disordered Materials",
-      "url": "http://link.aps.org/doi/10.1103/515g-qjq8",
-      "summary": "Author(s): Zhen-Hao Gong, Zhi-Hao Wei, Hai-Zhou Lu, and X. C. Xie A theoretical data-analysis tool resolves the chaotic interpretation of nonlinear electronic transport data, providing a structured method to extract quan…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS PRX",
-      "title": "Waves Maintain Large-Scale 2D Flows in Rotating Turbulence and Cause Their Demise",
-      "url": "http://link.aps.org/doi/10.1103/rjxp-pcy2",
-      "summary": "Author(s): Sébastien Gomé and Anna Frishman A first-principles approach helps explain energy transfer from 3D wave excitation to 2D structures in rotating turbulent flow. [Phys. Rev. X 16, 031013] Published Tue Jul 21, 2…",
-      "ts": 1784628000000
-    },
-    {
       "source": "APS PR Applied",
       "title": "Magnetic-field-induced topological transitions of spin textures in ferrimagnetic Gd/Fe thin films",
       "url": "http://link.aps.org/doi/10.1103/t253-8yj1",
       "summary": "Author(s): T. Schmidt, S. Koraltan, T. Niermann, L. Niermann, D. Suess, and M. Albrecht Magnetic skyrmions are topologically distinct spin textures that hold significant potential for applications in information storage …",
       "ts": 1784628000000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Enhanced anisotropy in magnetism and spin decay in slightly Ni-doped van der Waals ferromagnet ${\\mathrm{Fe}}_{5}{\\mathrm{GeTe}}_{2}$",
-      "url": "http://link.aps.org/doi/10.1103/wpgr-lv1t",
-      "summary": "Author(s): Yang Yang, Wei Liu, Fanying Meng, Jingjing Ma, Aina Wang, Min Ge, Xuguang Liu, Jun Zhao, Zhe Qu, and Lei Zhang Two-dimensional (2D) van der Waals (vdW) ferromagnet ${\\text{Fe}}_{5}{\\text{GeTe}}_{2}$ (F5GeT2) i…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Mode-resolved multiband ballistic transport and conductance thresholds in bilayer graphene junctions",
-      "url": "http://link.aps.org/doi/10.1103/zw2l-bkwp",
-      "summary": "Author(s): Dan-Na Liu, Jun Zheng, and Pierre A. Pantaleón We study ballistic transport in bilayer graphene junctions and show how electrostatic gating, interlayer bias, and homogeneous strain provide complementary contro…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Indigenous knowledge key to building healthier and more sustainable food systems",
-      "url": "https://phys.org/news/2026-07-indigenous-knowledge-key-healthier-sustainable.html",
-      "summary": "Traditional and Indigenous knowledge could play a vital role in addressing some of the world's most pressing challenges, including climate change, biodiversity loss and poor health and nutrition, according to a new revie…",
-      "ts": 1784624403000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Great Barrier Reef at risk of 'collapse', scientists warn",
-      "url": "https://phys.org/news/2026-07-great-barrier-reef-collapse-scientists.html",
-      "summary": "Australia's Great Barrier Reef is at very high risk of extreme and widespread bleaching and \"ecosystem collapse\" linked to this year's El Niño weather phenomenon, leading scientists warned Tuesday.",
-      "ts": 1784622002000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Fires in Brazil's Amazon dropped to historic low in 2025",
-      "url": "https://phys.org/news/2026-07-brazil-amazon-historic.html",
-      "summary": "Forest fires in the Brazilian Amazon fell to a historic low in 2025 after peaking the previous year, according to a report published Tuesday.",
-      "ts": 1784620802000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effects of stochastic and natural seismic noise on the performance of waveform cross-correlation used to recover low-magnitude seismicity prior to the July 29, 2025, Kamchatka earthquake",
-      "url": "https://arxiv.org/abs/2607.16226",
-      "summary": "arXiv:2607.16226v1 Announce Type: new Abstract: Waveform cross-correlation (WCC) applied to data from seismic arrays allows for the reduction of the detection threshold by approximately an order of magnitude. When applie…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Agentic Interface for End-to-End Probabilistic Seismic Hazard and Risk Analysis",
-      "url": "https://arxiv.org/abs/2607.16249",
-      "summary": "arXiv:2607.16249v1 Announce Type: new Abstract: Probabilistic seismic hazard and risk analyses are backbone to building codes, insurance pricing, and disaster management. Yet their open-engine pipelines remain accessible…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards Open Science: Monitoring Crustal Deformations in North America",
-      "url": "https://arxiv.org/abs/2607.16264",
-      "summary": "arXiv:2607.16264v1 Announce Type: new Abstract: The study of the Earth's behavior has greatly benefited from the widespread deployment of Global Navigation Satellite Systems (GNSS), enabling large-scale monitoring of cru…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observability of Finite-Depth Double-Diffusive Exchange from Sparse Temperature-Salinity Measurements",
-      "url": "https://arxiv.org/abs/2607.16272",
-      "summary": "arXiv:2607.16272v1 Announce Type: new Abstract: Double-diffusive interfaces can support exchange histories that are spatially organized but only sparsely observed. A resolved three-dimensional calculation contains the ro…",
-      "ts": 1784606400000
     }
   ],
   "sources": [
