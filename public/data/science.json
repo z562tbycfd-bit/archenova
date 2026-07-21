@@ -1,7 +1,49 @@
 {
   "ok": true,
-  "updated": "2026-07-20T23:58:02.778Z",
+  "updated": "2026-07-21T03:33:42.907Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Memorable visuals drive online ad purchases more than emotion, study suggests",
+      "url": "https://phys.org/news/2026-07-visuals-online-ad-emotion.html",
+      "summary": "A study of digital advertising in the International Journal of Business and Systems Research suggests that memorable visuals are more likely to encourage consumers to buy than campaigns that rely primarily on emotional i…",
+      "ts": 1784604003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Envisioning the next 150 years of crop research with the Alma Mater Plots",
+      "url": "https://phys.org/news/2026-07-envisioning-years-crop-alma-mater.html",
+      "summary": "A couple of miles south of the main quad at the University of Illinois Urbana-Champaign, a remarkable agricultural experiment is taking shape. The so-called Alma Mater Plots are unique in their setup—with 64 plots of 1 a…",
+      "ts": 1784601604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: How anaerobic digestion can help reduce emissions and increase income streams",
+      "url": "https://phys.org/news/2026-07-qa-anaerobic-digestion-emissions-income.html",
+      "summary": "An advanced technology that could benefit farmers' bottom line and help meet the rising demand for domestic energy production borrows a key ingredient from a centuries-old practice of burning dried manure to warm homes w…",
+      "ts": 1784599204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Eight lifesaving ways to improve wildfire risk management",
+      "url": "https://phys.org/news/2026-07-lifesaving-ways-wildfire.html",
+      "summary": "As the flames advanced toward the village of Bédar in Spain's Almería province, the mayor gave a desperate order to ring the church bells to warn residents. It was not enough. The July 9 Los Gallardos fire, which claimed…",
+      "ts": 1784595601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Decade of research reshapes multilingual learner policy",
+      "url": "https://phys.org/news/2026-07-decade-reshapes-multilingual-learner-policy.html",
+      "summary": "A lot of high school students load up on Advanced Placement courses to strengthen their college applications. But for many California students classified as English learners, access to even the basic college-preparatory …",
+      "ts": 1784592003000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "High-throughput antigen discovery using Functional Genomic Vaccinology (FGV) identifies protective <i>Streptococcus pneumoniae</i> vaccine candidates",
+      "url": "https://www.nature.com/articles/s41467-026-75848-2",
+      "summary": "",
+      "ts": 1784592000000
+    },
     {
       "source": "Phys.org",
       "title": "Students enable widespread water monitoring in India",
@@ -522,13 +564,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Baby Universes from Thermal Pure States in the Sachdev-Ye-Kitaev Model",
-      "url": "http://link.aps.org/doi/10.1103/8p6x-w737",
-      "summary": "Author(s): Martin Sasieta, Brian Swingle, and Alejandro Vilar López We construct a simple two-dimensional holographic model of a closed “baby” universe. The baby universe spacetime originates from the black hole interior…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Imprints of Asymptotic Freedom on Confining Strings",
       "url": "http://link.aps.org/doi/10.1103/6399-gw3k",
       "summary": "Author(s): Jan Albert and Alexandre Homrich We consider the Polyakov loop correlator in the confining phase of large $N$ Yang-Mills theory in three and four dimensions. It can be computed by summing over the exchange of …",
@@ -539,13 +574,6 @@
       "title": "Program-Synthesis-Driven Autodesign of Universal Unitary Operators",
       "url": "http://link.aps.org/doi/10.1103/49c3-4rp4",
       "summary": "Author(s): Yifei Zhang, Dong Chen, Fan Wang, Wenrui Zhang, Yan Chen, Dingding Han, Jianmin Yuan, Xiangjin Kong, and Yu-Gang Ma We demonstrate that AI-driven program synthesis can autonomously discover fundamental strateg…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Integrated Soliton Microcombs beyond the Turnkey Limit",
-      "url": "http://link.aps.org/doi/10.1103/r8fh-vtps",
-      "summary": "Author(s): Ze Wang, Tianyu Xu, Yuanlei Wang, Kaixuan Zhu, Xinrui Luo, Haoyang Luo, Junqi Wang, Bo Ni, Yiwen Yang, Qihuang Gong, Yun-Feng Xiao, Bei-Bei Li, and Qi-Fan Yang Self-injection locking enables integrated soliton…",
       "ts": 1784541600000
     },
     {
@@ -574,13 +602,6 @@
       "title": "Heavy-Fermion Phase Diagram in Magic-Angle Twisted Trilayer Graphene",
       "url": "http://link.aps.org/doi/10.1103/zzks-vkl2",
       "summary": "Author(s): Le Zhang, Wenqiang Zhou, Xinjie Fang, Zhen Zhan, Kenji Watanabe, Takashi Taniguchi, Yi-feng Yang, and Shuigang Xu The interplay between localized magnetic moments and itinerant electrons gives rise to exotic q…",
-      "ts": 1784541600000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Deep-Learning Density Functional Theory Hamiltonian in Real Space",
-      "url": "http://link.aps.org/doi/10.1103/mbhs-vlby",
-      "summary": "Author(s): Zilong Yuan, Zechen Tang, Honggeng Tao, Xiaoxun Gong, Zezhou Chen, Yuxiang Wang, He Li, Yang Li, Zhiming Xu, Minghui Sun, Boheng Zhao, Chen Si, Chong Wang, Wenhui Duan, and Yong Xu Integrating essential physic…",
       "ts": 1784541600000
     },
     {
@@ -640,67 +661,46 @@
       "ts": 1784541600000
     },
     {
+      "source": "APS PR Applied",
+      "title": "Space-time-frequency multiplexed orbital angular momentum generation via acoustic rotating point sources: Methodology and coherence characterization",
+      "url": "http://link.aps.org/doi/10.1103/9pmr-mz15",
+      "summary": "Author(s): Rui Li, Xingxing Shi, Yiqi Liu, Jiu Hui Wu, and Fuyin Ma Optical and acoustic communications based on orbital angular momentum (OAM) offer an additional degree of freedom for enhancing information capacity, ye…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Correction-free robust cryptography with orbital angular momentum by nonlinear detection",
+      "url": "http://link.aps.org/doi/10.1103/qlq9-ryzz",
+      "summary": "Author(s): Moslem Mahdavifar, Sachleen Singh, Subith Kumar, Angela Dudley, Bereneice Sephton, Isaac Nape, and Andrew Forbes In this study, we report a robust cryptographic scheme operating over noisy channels, enabled by…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Baby Universes from Thermal Pure States in the Sachdev-Ye-Kitaev Model",
+      "url": "http://link.aps.org/doi/10.1103/8p6x-w737",
+      "summary": "Author(s): Martin Sasieta, Brian Swingle, and Alejandro Vilar López We construct a simple two-dimensional holographic model of a closed “baby” universe. The baby universe spacetime originates from the black hole interior…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Integrated Soliton Microcombs beyond the Turnkey Limit",
+      "url": "http://link.aps.org/doi/10.1103/r8fh-vtps",
+      "summary": "Author(s): Ze Wang, Tianyu Xu, Yuanlei Wang, Kaixuan Zhu, Xinrui Luo, Haoyang Luo, Junqi Wang, Bo Ni, Yiwen Yang, Qihuang Gong, Yun-Feng Xiao, Bei-Bei Li, and Qi-Fan Yang Self-injection locking enables integrated soliton…",
+      "ts": 1784541600000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Deep-Learning Density Functional Theory Hamiltonian in Real Space",
+      "url": "http://link.aps.org/doi/10.1103/mbhs-vlby",
+      "summary": "Author(s): Zilong Yuan, Zechen Tang, Honggeng Tao, Xiaoxun Gong, Zezhou Chen, Yuxiang Wang, He Li, Yang Li, Zhiming Xu, Minghui Sun, Boheng Zhao, Chen Si, Chong Wang, Wenhui Duan, and Yong Xu Integrating essential physic…",
+      "ts": 1784541600000
+    },
+    {
       "source": "Phys.org",
       "title": "Greece braces for year's first heat wave",
       "url": "https://phys.org/news/2026-07-greece-braces-year.html",
       "summary": "Greece, which was spared the record heat that ravaged most of Europe in June, is finally bracing for its first heat wave of the year.",
       "ts": 1784539801000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Floating igloo leaves France for polar exploration mission",
-      "url": "https://phys.org/news/2026-07-igloo-france-polar-exploration-mission.html",
-      "summary": "A floating research station resembling a giant aluminum igloo on Sunday set out from France to begin a long-term mission in the Arctic that will see it drift with the polar ice in one of the most hostile environments.",
-      "ts": 1784539201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "5.5 magnitude earthquake hits Peru's Andes region and kills at least 6 people",
-      "url": "https://phys.org/news/2026-07-magnitude-earthquake-peru-andes-region.html",
-      "summary": "A 5.5 magnitude earthquake shook the Andes region of Peru, killing at least six people, injuring more than 30 and displacing 300, authorities said Sunday.",
-      "ts": 1784539153000
-    },
-    {
-      "source": "Phys.org",
-      "title": "AI tool reveals climate shifts may have fueled bursts of bird evolution",
-      "url": "https://phys.org/news/2026-07-ai-tool-reveals-climate-shifts.html",
-      "summary": "University of Michigan researchers have used an AI tool to demonstrate that birds in the group Passeriformes evolved in rapid evolutionary bursts and that these bursts frequently coincided with climate shifts throughout …",
-      "ts": 1784538006000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Scientists map how the flu virus rewires the human cell from the inside",
-      "url": "https://phys.org/news/2026-07-scientists-flu-virus-rewires-human.html",
-      "summary": "Researchers at EMBL Hamburg and collaborators at the Leibniz Research Institute for Molecular Pharmacology (FMP) have mapped how the influenza A virus rewires infected human cells in unprecedented detail. To do this, the…",
-      "ts": 1784538004000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Underwater drones discover coral reefs off Benin, long presumed dead, teeming with life",
-      "url": "https://phys.org/news/2026-07-underwater-drones-coral-reefs-benin.html",
-      "summary": "A coral reef, missing and presumed dead, has been found alive and well off the coast of Benin. Surveys in the 1960s, focused on identifying promising fishing areas, flagged a possible deep-water coral reef but assumed it…",
-      "ts": 1784520005000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Loss of positive definiteness is a symptom, not the cause, of high-Weissenberg-number breakdown",
-      "url": "https://arxiv.org/abs/2607.15334",
-      "summary": "arXiv:2607.15334v1 Announce Type: new Abstract: Numerical breakdown at high Weissenberg number is often attributed to loss of symmetric positive definiteness (SPD) of the conformation tensor. That conclusion follows from…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lattice Boltzmann Methods for Navier-Stokes Equations in General Orthogonal Coordinates for Efficient Flow Simulations using Nonuniform Clustered Grids",
-      "url": "https://arxiv.org/abs/2607.15362",
-      "summary": "arXiv:2607.15362v1 Announce Type: new Abstract: Resolving multiscale fluid flows or boundary layers effectively requires the use of nonuniform meshes with local grid clustering. The standard lattice Boltzmann method (LBM…",
-      "ts": 1784520000000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Controlled drop generation via ligament extraction from a static or vibrating liquid bath",
-      "url": "https://arxiv.org/abs/2607.15377",
-      "summary": "arXiv:2607.15377v1 Announce Type: new Abstract: We introduce a simple method for generating droplets at the surface of a liquid bath by rapidly stretching a liquid ligament with a spring-loaded cylindrical probe. By vary…",
-      "ts": 1784520000000
     }
   ],
   "sources": [

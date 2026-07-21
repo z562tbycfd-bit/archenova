@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-20T23:58:05.049Z",
+  "updated": "2026-07-21T03:33:47.129Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Early Genomic Indicators of Praziquantel Resistance in Schistosoma mansoni",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/early-genomic-indicators-of-praziquantel-resistance-in-schistosoma-mansoni/",
+      "summary": "Schistosomiasis affects more than 250 million people worldwide, with 90% of infections occurring in sub‑Saharan Africa. The post Early Genomic Indicators of Praziquantel Resistance in <i>Schistosoma mansoni</i> appeared …",
+      "ts": 1784593319000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Flu Virus Interaction with Host Cell Machinery Mapped Inside Infected Cells",
@@ -713,14 +721,6 @@
       "summary": "",
       "ts": 1784291405000,
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: perimenopause misinformation and China’s latest AI leap",
-      "url": "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. There’s a lot of hype around perimenopause. Don’t buy it. Perimenopause used to be…",
-      "ts": 1784290200000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
