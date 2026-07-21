@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-21T09:28:48.828Z",
+  "updated": "2026-07-21T11:48:31.279Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Novo Nordisk sues Eli Lilly over GLP-1 drug ads it calls ‘deceptive’",
+      "url": "https://www.statnews.com/pharmalot/2026/07/21/novo-nordisk-sues-eli-lilly-glp1-drug-ads/?utm_campaign=rss",
+      "summary": "Novo Nordisk sued Eli Lilly for allegedly running a “deceptive” ad campaign that uses “outdated clinical trials” to make its obesity and diabetes drugs appear more effective.",
+      "ts": 1784633700000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "A renewed push from the right against abortion pills",
+      "url": "https://www.statnews.com/2026/07/21/biotech-news-a-renewed-push-from-the-right-against-abortion-pills/?utm_campaign=rss",
+      "summary": "The latest on cyclospora, THC sodas at the grocery store, and more health news from Morning Rounds",
+      "ts": 1784633678000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Agile Space Industries Appoints new CTO and Board member.",
+      "url": "https://spacenews.com/agile-space-industries-appoints-new-cto-and-board-member/",
+      "summary": "Durango, Co – July 21, 2026 – Agile Space Industries today announced the appointment of Jake Mills as Chief Technology Officer (CTO) and Mark Pasquale as an independent member of […] The post Agile Space Industries Appoi…",
+      "ts": 1784631600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Advancing next-gen AI with materials science innovation",
+      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of inno…",
+      "ts": 1784630254000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "KBR organizes defense technology business to pursue Golden Dome work",
+      "url": "https://spacenews.com/kbr-organizes-defense-technology-business-to-pursue-golden-dome-work/",
+      "summary": "Company points to digital engineering, space tracking and missile-defense experience The post KBR organizes defense technology business to pursue Golden Dome work appeared first on SpaceNews.",
+      "ts": 1784628000000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Makers of rare disease drugs seek exemption from Trump’s price-cut pilots",
@@ -48,14 +88,6 @@
       "url": "https://spacenews.com/italian-startup-oris-raises-funding-for-laser-power-beaming-technology/",
       "summary": "Italian startup ORiS has raised 5 million euros ($5.7 million) to help it develop wireless power-beaming technology for satellites using lasers. The post Italian startup ORiS raises funding for laser power-beaming techno…",
       "ts": 1784606501000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Why Maine’s Sandy Shorelines Turn Jagged",
-      "url": "https://science.nasa.gov/earth/earth-observatory/why-maines-sandy-shorelines-turn-jagged/",
-      "summary": "Differences in the underlying bedrock and how rivers distribute sediment make the coastlines west of Portland look unlike those northeast of the city.",
-      "ts": 1784606400000,
       "categoryId": "space"
     },
     {
@@ -419,6 +451,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Why Maine’s Sandy Shorelines Turn Jagged",
+      "url": "https://science.nasa.gov/earth/earth-observatory/why-maines-sandy-shorelines-turn-jagged/",
+      "summary": "Differences in the underlying bedrock and how rivers distribute sediment make the coastlines west of Portland look unlike those northeast of the city.",
+      "ts": 1784606400000,
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Early Genomic Indicators of Praziquantel Resistance in Schistosoma mansoni",
       "url": "https://www.genengnews.com/topics/infectious-diseases/early-genomic-indicators-of-praziquantel-resistance-in-schistosoma-mansoni/",
@@ -596,6 +636,22 @@
     },
     {
       "source": "United Nations News",
+      "title": "From the General Assembly to Harlem: Mandela’s call to action endures",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167981",
+      "summary": "Sixty-seven minutes. That is how long volunteers spent serving lunch to people experiencing food insecurity at Refettorio Harlem in New York City last week – one for every year Nelson Mandela gave to public service.",
+      "ts": 1784548800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Health response brings lifesaving care closer to thousands in Yemen",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167982",
+      "summary": "Thousands of people in some of Yemen's most conflict-affected communities are receiving lifesaving health care closer to home, thanks to funding from the UN aid coordination office (OCHA) through the Yemen Humanitarian F…",
+      "ts": 1784548800000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Ukraine: Deadly Russian attacks severely damage aid warehouses",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167980",
       "summary": "Russian attacks and drone strikes killed at least two children and injured dozens more across Ukraine over recent days while severely damaging three critical aid warehouses, UN agencies reported on Monday.",
@@ -665,62 +721,6 @@
       "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
       "ts": 1784541600000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AI is more likely than humans to form biases when hiring",
-      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
-      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from th…",
-      "ts": 1784536741000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Artemis II crew at ESTEC",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Artemis_II_crew_at_ESTEC",
-      "summary": "Video: 00:19:14 The four Artemis II astronauts visited ESTEC, ESA’s technical centre in the Netherlands, on 13 July as the first stop in a series of post-flight visits to the European teams that made their mission possib…",
-      "ts": 1784536200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: It’s time to treat pandemics as threats to national security",
-      "url": "https://www.statnews.com/2026/07/20/pandemics-national-security-threats/?utm_campaign=rss",
-      "summary": "“Pandemics should be viewed and combated as threats to national security,” write David Blumenthal and James A. Morone.",
-      "ts": 1784536200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: State audit of Medicaid records points to methods used by PBMs to obscure drug costs",
-      "url": "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban/?utm_campaign=rss",
-      "summary": "An audit of state Medicaid records revealed how PBMs are using complicated tactics for handling prescription drug claims that ultimately overcharge taxpayers.",
-      "ts": 1784536200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Telemedicine company touted by Novo Nordisk stressed profits over patient safety, ex-workers say",
-      "url": "https://www.statnews.com/2026/07/20/lifemd-weight-loss-drugs-novo-nordisk-telemedicine/?utm_campaign=rss",
-      "summary": "LifeMD, a popular telehealth company, has been accused by former employees of pressing clinicians to mete out prescriptions more rapidly without sufficient screening and follow-up.",
-      "ts": 1784536200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: My husband’s suicide shows there’s something very wrong with the U.S. insurance industry",
-      "url": "https://www.statnews.com/2026/07/20/psychiatric-insurance-coverage-suicide-denial-personal-essay/?utm_campaign=rss",
-      "summary": "“My love for Randy and my professional experience were not enough to save him,” a physician writes about her husband’s suicide.",
-      "ts": 1784536200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Shaping the Emerald City",
-      "url": "https://science.nasa.gov/earth/earth-observatory/shaping-the-emerald-city/",
-      "summary": "The hills and basins of Seattle, Washington, have been sculpted by glaciers and modified by humans.",
-      "ts": 1784520060000,
-      "categoryId": "space"
     }
   ],
   "categories": [

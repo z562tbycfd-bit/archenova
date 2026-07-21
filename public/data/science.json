@@ -1,7 +1,49 @@
 {
   "ok": true,
-  "updated": "2026-07-21T09:28:46.458Z",
+  "updated": "2026-07-21T11:48:29.234Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI agent helps prepare synchrotron X-ray experimental measurements, paving the way for autonomous operation",
+      "url": "https://phys.org/news/2026-07-ai-agent-synchrotron-ray-experimental.html",
+      "summary": "Artificial intelligence (AI) models are now used daily by many people worldwide, both for professional and personal purposes. Over the past decades, scientists specialized in various disciplines have also started using t…",
+      "ts": 1784634004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Invisible microbes 'mining' toxic waste in the Flinders Ranges",
+      "url": "https://phys.org/news/2026-07-invisible-microbes-toxic-flinders-ranges.html",
+      "summary": "New research from Monash University revealed that microscopic life is actively breaking down decades-old mining waste in South Australia, turning stable radioactive and toxic metals into mobile nanoparticles that can eas…",
+      "ts": 1784634001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The best way to measure fire risk might be underground",
+      "url": "https://phys.org/news/2026-07-underground.html",
+      "summary": "When fire risk is high, Arizonans know the major warning signs: hot temperatures, low humidity and lots of wind.",
+      "ts": 1784632802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "For consumers, distrust outweighs trust",
+      "url": "https://phys.org/news/2026-07-consumers-distrust-outweighs.html",
+      "summary": "Anyone who has opened the door of a vacation rental after a long trip, only to find it hasn't been cleaned as promised, knows the burn of betrayal. That traveler is more likely to distrust the proprietor of their next va…",
+      "ts": 1784631602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Aligned graphite particles unlock stable levitation above magnets, study finds",
+      "url": "https://phys.org/news/2026-07-aligned-graphite-particles-stable-levitation.html",
+      "summary": "A diamagnetic substance is slightly repelled by magnetic fields. With a strong enough magnet, the diamagnetic force can override gravity, and the substance will float in the air. Graphite, the main component of pencil le…",
+      "ts": 1784628460000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers catch a recurring black hole eruption in real time",
+      "url": "https://phys.org/news/2026-07-astronomers-recurring-black-hole-eruption.html",
+      "summary": "For the third time in 35 years, the black hole at the center of the galaxy IC 3599 has erupted, and this time, astronomers were watching it closely. IC 3599, a galaxy roughly 280 million light-years away, has flared this…",
+      "ts": 1784628001000
+    },
     {
       "source": "Phys.org",
       "title": "Indigenous knowledge key to building healthier and more sustainable food systems",
@@ -658,48 +700,6 @@
       "title": "A principled closure framework for higher-order SIS epidemic models on networks",
       "url": "https://arxiv.org/abs/2607.18003",
       "summary": "arXiv:2607.18003v1 Announce Type: new Abstract: Susceptible-infected-susceptible (SIS) epidemic models on networks are governed by hierarchical moment equations where the dynamics of smaller subsystems depend on the stat…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Informed Neural Networks for Optimal Beam Shaping in Flat Optics",
-      "url": "https://arxiv.org/abs/2607.18012",
-      "summary": "arXiv:2607.18012v1 Announce Type: new Abstract: We introduce a physics-informed neural network (PINN) approach for designing phase profiles in flat optics that reshape an incident beam into a prescribed target intensity …",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modeling rare-earth and energy materials supply chains under theoretical China-outer-Mongolia political reunification scenarios",
-      "url": "https://arxiv.org/abs/2607.18019",
-      "summary": "arXiv:2607.18019v1 Announce Type: new Abstract: Critical rare earth elements, lithium, copper, and coal underpin global clean energy transitions and advanced manufacturing, yet China faces persistent supply volatility an…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fiber-Optic Communication and Torsion Sensing via a BB84-Inspired Polarization Scheme",
-      "url": "https://arxiv.org/abs/2607.18053",
-      "summary": "arXiv:2607.18053v1 Announce Type: new Abstract: Polarization-encoded optical-fiber links provide a useful platform for investigating the coexistence of communication and sensing functions in a shared optical channel. In …",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A machine-learned probability distribution in the phase space of turbulent channel flow for synthetic turbulence and flow reconstruction",
-      "url": "https://arxiv.org/abs/2607.18058",
-      "summary": "arXiv:2607.18058v1 Announce Type: new Abstract: Although a complete characterisation of the probability distribution in the phase space of turbulent flows remains elusive, accurately sampling this distribution is essenti…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Programmable photonics enabled by ferroionic two-dimensional materials",
-      "url": "https://arxiv.org/abs/2607.18061",
-      "summary": "arXiv:2607.18061v1 Announce Type: new Abstract: Artificial intelligence (AI) models are scaling rapidly, exposing fundamental limitations in conventional computing architectures, where the physical separation of memory a…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Implicit Time-Domain Harmonic Balance Method for Radio-Frequency Capacitively Coupled Plasma Simulations",
-      "url": "https://arxiv.org/abs/2607.18103",
-      "summary": "arXiv:2607.18103v1 Announce Type: new Abstract: Fast and accurate fluid simulation of radio-frequency capacitively coupled plasmas (RF CCPs) is of great importance for the iterative design and parameter optimization of m…",
       "ts": 1784606400000
     }
   ],
