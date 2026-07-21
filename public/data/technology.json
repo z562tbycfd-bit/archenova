@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-21T06:30:43.571Z",
+  "updated": "2026-07-21T09:28:48.828Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Makers of rare disease drugs seek exemption from Trump’s price-cut pilots",
+      "url": "https://www.statnews.com/2026/07/21/rare-disease-coalition-orphan-drug-exemption-medicare-pilot-price-programs/?utm_campaign=rss",
+      "summary": "A coalition of biotech firms is lobbying to exclude orphan drugs from new federal pilot programs aimed at lowering Medicare drug costs.",
+      "ts": 1784622600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Science and the public are learning the wrong lessons from Covid",
+      "url": "https://www.statnews.com/2026/07/21/covid-non-pharmaceutical-interventions-masks-distancing-research/?utm_campaign=rss",
+      "summary": "“Post-pandemic polarization threatens to lock our memories into attractive, untrue conclusions that will leave us unprotected next time,” write Marc Lipsitch and Sara Cody.",
+      "ts": 1784622600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How a controversial rule could hurt the NIH’s ability to manage risk",
+      "url": "https://www.statnews.com/2026/07/21/omb-nih-grant-review-politics-scientific-risk/?utm_campaign=rss",
+      "summary": "The proposed rule could “weaken the NIH’s benign influence over research risks,” writes Doni Bloomfield.",
+      "ts": 1784622600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "THC drinks are sold beside sodas, iced tea, and even chocolate milk, often in violation of state laws",
+      "url": "https://www.statnews.com/2026/07/21/thc-drinks-risk-accidental-ingestion-issue-labels-regulations/?utm_campaign=rss",
+      "summary": "THC drinks, which have exploded in popularity in recent years, are sold in retail stores beside sodas, iced tea, and even chocolate milk, often in violation of state laws.",
+      "ts": 1784622600000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "IHI explores Kuva hyperspectral satellites for Japan’s multi-sensor constellation",
+      "url": "https://spacenews.com/ihi-explores-kuva-hyperspectral-satellites-for-japans-multi-sensor-constellation/",
+      "summary": "Japan’s IHI is considering adding next-generation hyperspectral satellites from Finnish startup Kuva Space to its planned 100-strong, multi-sensor sovereign Earth observation constellation. The post IHI explores Kuva hyp…",
+      "ts": 1784617200000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Italian startup ORiS raises funding for laser power-beaming technology",
@@ -681,46 +721,6 @@
       "summary": "The hills and basins of Seattle, Washington, have been sculpted by glaciers and modified by humans.",
       "ts": 1784520060000,
       "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Estimating Time-Dependent COVID-19 Parameters Using Kolmogorov-Arnold Network and Fourier Series",
-      "url": "https://arxiv.org/abs/2607.15302",
-      "summary": "arXiv:2607.15302v1 Announce Type: new Abstract: We introduce a novel method for estimating COVID-19 time-varying parameters. These parameters are in the context of an SIRD compartmental differential equations. The time-d…",
-      "ts": 1784520000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Structural Compression for Phylogenetic Inference under Alignment Instability and Indel-Rich Evolution",
-      "url": "https://arxiv.org/abs/2607.15308",
-      "summary": "arXiv:2607.15308v1 Announce Type: new Abstract: Phylogenetic inference traditionally relies on aligned characters under substitution models, but this framework becomes less reliable when alignments are unstable or when e…",
-      "ts": 1784520000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "DyneTrion: A Spatio-temporally Coherent Generative Emulator for Protein Dynamics Across Timescales",
-      "url": "https://arxiv.org/abs/2607.15309",
-      "summary": "arXiv:2607.15309v1 Announce Type: new Abstract: Proteins function through coordinated motion across multiple spatial and temporal scales, underpinning processes such as ligand binding, allostery, and catalysis. However, …",
-      "ts": 1784520000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A New Method to Predict the Effect of an Intervention in the Host Population to Reduce the Magnitude of an Outbreak of a Vector-Borne Infection",
-      "url": "https://arxiv.org/abs/2607.15445",
-      "summary": "arXiv:2607.15445v1 Announce Type: new Abstract: In this paper, we propose a new model to estimate the impact of an intervention on human hosts of a vector-borne infection, such as dengue, which occurs in yearly outbreaks…",
-      "ts": 1784520000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "BODIESReg: An Open-Source Pipeline for Registering 3D Body Scans Using Pose-Aligned Initialization",
-      "url": "https://arxiv.org/abs/2607.15463",
-      "summary": "arXiv:2607.15463v1 Announce Type: new Abstract: Biomechanical models are used to quantify and optimize human movement in clinical rehabilitation, sports science, and occupational health. Personalizing these models requir…",
-      "ts": 1784520000000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

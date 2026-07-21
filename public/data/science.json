@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-21T06:30:41.190Z",
+  "updated": "2026-07-21T09:28:46.458Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Indigenous knowledge key to building healthier and more sustainable food systems",
+      "url": "https://phys.org/news/2026-07-indigenous-knowledge-key-healthier-sustainable.html",
+      "summary": "Traditional and Indigenous knowledge could play a vital role in addressing some of the world's most pressing challenges, including climate change, biodiversity loss and poor health and nutrition, according to a new revie…",
+      "ts": 1784624403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Great Barrier Reef at risk of 'collapse', scientists warn",
+      "url": "https://phys.org/news/2026-07-great-barrier-reef-collapse-scientists.html",
+      "summary": "Australia's Great Barrier Reef is at very high risk of extreme and widespread bleaching and \"ecosystem collapse\" linked to this year's El Niño weather phenomenon, leading scientists warned Tuesday.",
+      "ts": 1784622002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fires in Brazil's Amazon dropped to historic low in 2025",
+      "url": "https://phys.org/news/2026-07-brazil-amazon-historic.html",
+      "summary": "Forest fires in the Brazilian Amazon fell to a historic low in 2025 after peaking the previous year, according to a report published Tuesday.",
+      "ts": 1784620802000
+    },
     {
       "source": "arXiv Physics",
       "title": "Effects of stochastic and natural seismic noise on the performance of waveform cross-correlation used to recover low-magnitude seismicity prior to the July 29, 2025, Kamchatka earthquake",
@@ -679,27 +700,6 @@
       "title": "An Implicit Time-Domain Harmonic Balance Method for Radio-Frequency Capacitively Coupled Plasma Simulations",
       "url": "https://arxiv.org/abs/2607.18103",
       "summary": "arXiv:2607.18103v1 Announce Type: new Abstract: Fast and accurate fluid simulation of radio-frequency capacitively coupled plasmas (RF CCPs) is of great importance for the iterative design and parameter optimization of m…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Orbit-resolved spin holography: role of Coulomb focusing in target-dependent polarization",
-      "url": "https://arxiv.org/abs/2607.18118",
-      "summary": "arXiv:2607.18118v1 Announce Type: new Abstract: Strong-field photoelectron holography encodes ultrafast electron dynamics through momentum-space interference. However, the orbit-resolved origin of spider-like spin fringe…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Low-Storage Implicit Dual-Time Finite-Volume Framework for Radio-Frequency Capacitively Coupled Plasma Fluid Simulations",
-      "url": "https://arxiv.org/abs/2607.18123",
-      "summary": "arXiv:2607.18123v1 Announce Type: new Abstract: Radio-frequency (RF) capacitively coupled plasmas (CCPs) are widely utilized in semiconductor manufacturing. Efficiently and accurately solving the underlying fluid governi…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Physics Behind Ham Production",
-      "url": "https://arxiv.org/abs/2607.18173",
-      "summary": "arXiv:2607.18173v1 Announce Type: new Abstract: We analyze the physical mechanisms underlying the production of dry-cured hams, including prosciutto and jam\\'on. Key processes such as osmosis and diffusion govern water r…",
       "ts": 1784606400000
     }
   ],
