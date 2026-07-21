@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-21T15:47:25.079Z",
+  "updated": "2026-07-21T17:23:26.030Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Introducing the ChatGPT for small business program",
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "ts": 1784653200000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "10x Clinical Expansion Advances with CLIA Lab Plans, Cleveland Clinic Partnership",
+      "url": "https://www.genengnews.com/topics/omics/10x-clinical-expansion-advances-with-clia-lab-plans-cleveland-clinic-partnership/",
+      "summary": "Traditionally focused on research tools for academic, government, and industry customers, 10x has moved this year to launch clinical collaborations with top-tier institutions—the most recent of which was announced last m…",
+      "ts": 1784651408000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Blood Cancer Therapies Informed by Spatial Remodeling of Bone Marrow",
+      "url": "https://www.genengnews.com/topics/cancer/blood-cancer-therapies-informed-by-spatial-remodeling-of-bone-marrow/",
+      "summary": "An AI-based approach assesses disease severity in patients with myelodysplastic neoplasms (MDS), a form of blood cancer where one-third of patients progress to a more aggressive state called acute myeloid leukemia. The p…",
+      "ts": 1784650694000,
+      "categoryId": "bio"
+    },
     {
       "source": "NVIDIA",
       "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
@@ -38,7 +62,7 @@
       "source": "NASA",
       "title": "Interworld Slingshot Resource Surveys",
       "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/interworld-slingshot-resource-surveys/",
-      "summary": "Pablo SobronSETI Institute This proposal explores a new class of reconnaissance spacecraft that map minerals from orbit using Raman spectroscopy during high-speed flybys–without landing, sample return, or extended dwell.…",
+      "summary": "Pablo Sobron SanchezSETI Institute This proposal explores a new class of reconnaissance spacecraft that map minerals from orbit using Raman spectroscopy during high-speed flybys–without landing, sample return, or extende…",
       "ts": 1784647429000,
       "categoryId": "space"
     },
@@ -696,30 +720,6 @@
       "url": "https://www.nasa.gov/news-release/nasa-sets-briefings-for-spacex-crew-13-mission-to-space-station/",
       "summary": "NASA and its partners will discuss the upcoming crew rotation mission to the International Space Station during a pair of news conferences on Monday, Aug. 3, from the agency’s Johnson Space Center in Houston. Mission lea…",
       "ts": 1784577652000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Protein Protects Against Tau Tangles, Synaptic Loss in Mouse Model of Tauopathy",
-      "url": "https://www.genengnews.com/topics/drug-discovery/protein-protects-against-tau-tangles-synaptic-loss-in-mouse-model-of-tauopathy/",
-      "summary": "Scientists found that upregulating a protein known as SORLA offers protection against the effects of tau tangles in a mouse model, pointing to a potential therapeutic strategy for tauopathies including Alzheimer’s diseas…",
-      "ts": 1784576596000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Patient-Derived Tumor Organoids Show Promise for Personalizing Cancer Treatment",
-      "url": "https://www.genengnews.com/topics/cancer/patient-derived-tumor-organoids-show-promise-for-personalizing-cancer-treatment/",
-      "summary": "Researchers developed a 220-sample pan-cancer patient-derived organoid platform that faithfully mirrors tumors, identifies new treatment opportunities, and advances precision oncology by enabling personalized drug testin…",
-      "ts": 1784576340000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration",
-      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
-      "summary": "An aircraft powered by a megawatt-class hybrid-electric engine developed in collaboration with NASA and built by GE Aerospace, demonstrated flight of an innovation that can inform new generations of fuel-saving aircraft …",
-      "ts": 1784573684000,
       "categoryId": "space"
     }
   ],
