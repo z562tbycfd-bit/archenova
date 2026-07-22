@@ -1,7 +1,56 @@
 {
   "ok": true,
-  "updated": "2026-07-22T07:35:47.462Z",
+  "updated": "2026-07-22T10:27:26.164Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New multiplexing scheme accelerates long-distance quantum communication",
+      "url": "https://phys.org/news/2026-07-multiplexing-scheme-distance-quantum-communication.html",
+      "summary": "Quantum networks, systems consisting of multiple connected nodes or devices that can transmit quantum information to one another, have the potential to advance future communications. These networks typically leverage ent…",
+      "ts": 1784715601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Reversing soil degradation by 10% could feed 70 million more, global analysis finds",
+      "url": "https://phys.org/news/2026-07-reversing-soil-degradation-million-global.html",
+      "summary": "Factors such as erosion, dehydration and soil compaction are jeopardizing food supplies for broad swaths of the world's population, according to a study by the University of Bonn, the University of Minnesota, the Univers…",
+      "ts": 1784710801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nearly 3,000-year-old human remains unearthed in El Salvador",
+      "url": "https://phys.org/news/2026-07-year-human-unearthed-el-salvador.html",
+      "summary": "Archaeologists in El Salvador exhumed human remains believed to be nearly 3,000 years old Tuesday, the Ministry of Culture said.",
+      "ts": 1784709602000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Danish fish fossil cliffs set to gain UNESCO status",
+      "url": "https://phys.org/news/2026-07-danish-fish-fossil-cliffs-gain.html",
+      "summary": "Two Danish coastal cliffs where paleontologists have uncovered 55-million-year-old fossils of prehistoric wildlife are likely to gain World Heritage status as UNESCO's committee meets in South Korea.",
+      "ts": 1784708404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Private mission launches to extend life of out-of-gas communication satellites",
+      "url": "https://phys.org/news/2026-07-private-mission-life-gas-communication.html",
+      "summary": "A two-armed space robot blasted off on a private salvage operation Tuesday to slap life-extending jetpacks on old satellites running low on fuel thousands of miles up.",
+      "ts": 1784707806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan cities 'cruelly hot' for first time",
+      "url": "https://phys.org/news/2026-07-japan-cities-cruelly-hot.html",
+      "summary": "Japanese cities are experiencing \"cruelly hot days,\" a new meteorological term devised this year to warn people of intense heat above 40°C (104°F), with heatstroke alerts issued across nearly the entire country.",
+      "ts": 1784707802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "2,000 volunteers join a painstaking effort to restore massive skeleton of prehistoric predator",
+      "url": "https://phys.org/news/2026-07-volunteers-painstaking-effort-massive-skeleton.html",
+      "summary": "Volunteers armed with chisels, brushes and protective goggles chip away at rock encasing the bones of a massive prehistoric amphibian in a glass-walled laboratory on the ground floor of Warsaw's Copernicus Science Centre…",
+      "ts": 1784706908000
+    },
     {
       "source": "Phys.org",
       "title": "Analysis suggests debt may increase suicide risk",
@@ -651,55 +700,6 @@
       "title": "Quantum limits to chiroptical molecular discrimination",
       "url": "https://arxiv.org/abs/2607.19136",
       "summary": "arXiv:2607.19136v1 Announce Type: cross Abstract: Discriminating enantiomer pairs is of central importance in the molecular sciences. The preferential interaction between chiral light and matter is commonly employed in t…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The arrow of time, irreversibility, equilibrium and measurement in quantum mechanics",
-      "url": "https://arxiv.org/abs/2607.19142",
-      "summary": "arXiv:2607.19142v1 Announce Type: cross Abstract: Quantum mechanics is widely recognised as being incomplete. It is not consistent with the second law of thermodynamics and does not provide a scientifically credible phys…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "One geometric barrier unifies melting, vitrification and jamming of hard spheres in all dimensions",
-      "url": "https://arxiv.org/abs/2607.19185",
-      "summary": "arXiv:2607.19185v1 Announce Type: cross Abstract: The Lindemann criterion that a solid loses stability once atomic vibrations reach roughly a tenth of the interparticle spacing, has remained an empirical rule for over a …",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ATLAS: A Foundation Neural Sampler for Amorphous Materials",
-      "url": "https://arxiv.org/abs/2607.19198",
-      "summary": "arXiv:2607.19198v1 Announce Type: cross Abstract: Amorphous materials exhibit exceptional mechanical and functional properties, yet their rugged energy landscapes are notoriously difficult to sample. Below the glass-tran…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermodynamics-Informed Input Reparameterization for Neural Prediction of Real-Fluid Thermodynamic Properties in Supercritical Combustion",
-      "url": "https://arxiv.org/abs/2607.19241",
-      "summary": "arXiv:2607.19241v1 Announce Type: cross Abstract: Real-fluid thermodynamic property evaluation is a major computational cost in supercritical combustion simulations. In the enthalpy-based pressure-correction formulation,…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient quantum transport in disordered Floquet networks",
-      "url": "https://arxiv.org/abs/2607.19278",
-      "summary": "arXiv:2607.19278v1 Announce Type: cross Abstract: We propose a mechanism for fast and efficient quantum transport through disordered networks with variable on-site energies, inspired by photosynthetic complexes. The mech…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Metamodel-based methodology for uncertainty propagation and global sensitivity analysis of tailings dam-breach flows",
-      "url": "https://arxiv.org/abs/2607.19296",
-      "summary": "arXiv:2607.19296v1 Announce Type: cross Abstract: Tailings dam-breach analyses are essential for flood-hazard assessment, emergency planning and risk estimation, but their results are strongly affected by uncertainties i…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optomechanical transfer factors for scattered light noise estimations in the beamtubes of ground-based gravitational wave detectors",
-      "url": "https://arxiv.org/abs/2607.19299",
-      "summary": "arXiv:2607.19299v1 Announce Type: cross Abstract: Scattered light is a relevant noise source in current ground-based gravitational-wave detectors and a critical design concern for next-generation observatories. Beamtube …",
       "ts": 1784692800000
     }
   ],

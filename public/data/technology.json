@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-07-22T07:35:50.229Z",
+  "updated": "2026-07-22T10:27:28.304Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Artemis 2 astronaut advocates for equatorial lunar landings",
+      "url": "https://spacenews.com/artemis-2-astronaut-advocates-for-equatorial-lunar-landings/",
+      "summary": "The pilot of Artemis 2 says NASA’s return to the moon should start with human landings in less challenging equatorial regions rather than go directly to the south pole. The post Artemis 2 astronaut advocates for equatori…",
+      "ts": 1784714472000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: ‘Cochlear implant for blindness’ debuts in Europe, could launch in U.S. in 2027",
+      "url": "https://www.statnews.com/2026/07/22/prima-retinal-implant-for-macular-degeneration-us-timeline/?utm_campaign=rss",
+      "summary": "Science Corporation announced the European launch of its retinal implant for patients with age-related macular degeneration.",
+      "ts": 1784714400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Gravity-1 sea launch off Shanghai puts 9 satellites into orbit",
+      "url": "https://spacenews.com/gravity-1-sea-launch-off-shanghai-puts-9-satellites-into-orbit/",
+      "summary": "HELSINKI — Commercial launch firm Orienspace launched its third Gravity-1 solid rocket late Tuesday, sending nine satellites into orbit from waters off Shanghai. The 30-meter-long Gravity-1 solid rocket lifted off […] Th…",
+      "ts": 1784712731000,
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
+      "url": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
+      "summary": "When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first space-bound “active…",
+      "ts": 1784710800000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Federal health quality research grants worth $109 million ended early",
+      "url": "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding/?utm_campaign=rss",
+      "summary": "At least 78 AHRQ grants worth $200 million have been affected by \"non-award\" notices; it's estimated those grants had $109.2 million in funding remaining.",
+      "ts": 1784709000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: I’m a cardiologist. I’m not sure the new cholesterol drug enlicitide is a game-changer",
+      "url": "https://www.statnews.com/2026/07/22/lipfendra-enlicitide-merck-cholesterol-barriers/?utm_campaign=rss",
+      "summary": "“In truth, I don’t anticipate prescribing patterns changing immediately,” cardiologist Vishal Khetpal writes of the new cholesterol drug Lipfendra.",
+      "ts": 1784709000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: Hospitals’ AI may be drifting. Who’s watching?",
+      "url": "https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance/?utm_campaign=rss",
+      "summary": "Senior leaders must treat AI governance as their own daily job, not something the technology committee handles quarterly, write Peter Pronovost, Justin Norden, and Kedar Mate.",
+      "ts": 1784709000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "As Maui recovers from devastating fires, a study offers vision for new rural health model ",
+      "url": "https://www.statnews.com/2026/07/22/maui-wildfire-exposure-study-health-impacts-lahaina-hawaii/?utm_campaign=rss",
+      "summary": "A study of the long-term health impact of the Lahaina wildfires is inspiring a new model for disaster recovery and support.",
+      "ts": 1784709000000,
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: More workers hate their jobs, but keep them for the health insurance",
@@ -9,6 +73,14 @@
       "summary": "A new survey reveals 24% of U.S. workers stay in unwanted jobs to keep health insurance. Experts call it 'job lock.'",
       "ts": 1784692860000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "A Week of Smoky Skies Across North America",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/",
+      "summary": "Brown carbon, emitted by wildland fires and tracked over the span of a week in July 2026, worsened air quality in parts of the U.S. and Canada.",
+      "ts": 1784692800000,
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -281,6 +353,14 @@
       "summary": "UC San Diego has joined the Innovative Genomics Institute as its fourth UC partner, expanding collaboration to develop next-generation genome-editing technologies that address major health, climate, agriculture, and envi…",
       "ts": 1784684751000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NISAR’s L-Band Radar Reveals ‘Hummingbird’ in Antarctica",
+      "url": "https://science.nasa.gov/photojournal/nisars-l-band-radar-reveals-hummingbird-in-antarctica/",
+      "summary": "Description Data from the Earth-orbiting U.S.-India NISAR (NASA-ISRO Synthetic Aperture Radar) satellite’s L-band radar was used to produce an image of Nunatak Zaterjavshijsja — a mountaintop in East Antarctica — poking …",
+      "ts": 1784680388000,
+      "categoryId": "space"
     },
     {
       "source": "NVIDIA",
@@ -641,86 +721,6 @@
       "summary": "Durango, Co – July 21, 2026 – Agile Space Industries today announced the appointment of Jake Mills as Chief Technology Officer (CTO) and Mark Pasquale as an independent member of […] The post Agile Space Industries Appoi…",
       "ts": 1784631600000,
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Advancing next-gen AI with materials science innovation",
-      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
-      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of inno…",
-      "ts": 1784630254000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "KBR organizes defense technology business to pursue Golden Dome work",
-      "url": "https://spacenews.com/kbr-organizes-defense-technology-business-to-pursue-golden-dome-work/",
-      "summary": "Company points to digital engineering, space tracking and missile-defense experience The post KBR organizes defense technology business to pursue Golden Dome work appeared first on SpaceNews.",
-      "ts": 1784628000000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Makers of rare disease drugs seek exemption from Trump’s price-cut pilots",
-      "url": "https://www.statnews.com/2026/07/21/rare-disease-coalition-orphan-drug-exemption-medicare-pilot-price-programs/?utm_campaign=rss",
-      "summary": "A coalition of biotech firms is lobbying to exclude orphan drugs from new federal pilot programs aimed at lowering Medicare drug costs.",
-      "ts": 1784622600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Science and the public are learning the wrong lessons from Covid",
-      "url": "https://www.statnews.com/2026/07/21/covid-non-pharmaceutical-interventions-masks-distancing-research/?utm_campaign=rss",
-      "summary": "“Post-pandemic polarization threatens to lock our memories into attractive, untrue conclusions that will leave us unprotected next time,” write Marc Lipsitch and Sara Cody.",
-      "ts": 1784622600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: How a controversial rule could hurt the NIH’s ability to manage risk",
-      "url": "https://www.statnews.com/2026/07/21/omb-nih-grant-review-politics-scientific-risk/?utm_campaign=rss",
-      "summary": "The proposed rule could “weaken the NIH’s benign influence over research risks,” writes Doni Bloomfield.",
-      "ts": 1784622600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "THC drinks are sold beside sodas, iced tea, and even chocolate milk, often in violation of state laws",
-      "url": "https://www.statnews.com/2026/07/21/thc-drinks-risk-accidental-ingestion-issue-labels-regulations/?utm_campaign=rss",
-      "summary": "THC drinks, which have exploded in popularity in recent years, are sold in retail stores beside sodas, iced tea, and even chocolate milk, often in violation of state laws.",
-      "ts": 1784622600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "ts": 1784617200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "IHI explores Kuva hyperspectral satellites for Japan’s multi-sensor constellation",
-      "url": "https://spacenews.com/ihi-explores-kuva-hyperspectral-satellites-for-japans-multi-sensor-constellation/",
-      "summary": "Japan’s IHI is considering adding next-generation hyperspectral satellites from Finnish startup Kuva Space to its planned 100-strong, multi-sensor sovereign Earth observation constellation. The post IHI explores Kuva hyp…",
-      "ts": 1784617200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Italian startup ORiS raises funding for laser power-beaming technology",
-      "url": "https://spacenews.com/italian-startup-oris-raises-funding-for-laser-power-beaming-technology/",
-      "summary": "Italian startup ORiS has raised 5 million euros ($5.7 million) to help it develop wireless power-beaming technology for satellites using lasers. The post Italian startup ORiS raises funding for laser power-beaming techno…",
-      "ts": 1784606501000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Emergent topological structure in spontaneous brain-organoid activity",
-      "url": "https://arxiv.org/abs/2607.16517",
-      "summary": "arXiv:2607.16517v1 Announce Type: new Abstract: Neural activity is widely held to organize on low-dimensional structure embedded in a high-dimensional state space. Persistent homology reads such structure directly from t…",
-      "ts": 1784606400000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
