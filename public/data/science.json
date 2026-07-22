@@ -1,7 +1,35 @@
 {
   "ok": true,
-  "updated": "2026-07-22T04:18:13.262Z",
+  "updated": "2026-07-22T07:35:47.462Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Analysis suggests debt may increase suicide risk",
+      "url": "https://phys.org/news/2026-07-analysis-debt-suicide.html",
+      "summary": "In a study published in Economic Inquiry that analyzed debt and income across U.S. counties at the onset of the Great Recession in 2008, investigators uncovered evidence that debt may affect the likelihood of suicide.",
+      "ts": 1784703611000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Factors that affect the spininess of plants in different locations",
+      "url": "https://phys.org/news/2026-07-factors-affect-spininess.html",
+      "summary": "Plants often grow spines, thorns and prickles to defend against animals that feed on them, but why this happens in some places more than others has remained a mystery. Research in New Phytologist shows that plant spinine…",
+      "ts": 1784703608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Advance could enable enzymatic reactions for chemical manufacturing beyond the boiling point of water",
+      "url": "https://phys.org/news/2026-07-advance-enable-enzymatic-reactions-chemical.html",
+      "summary": "Enzymes are proteins that can be harnessed for chemical manufacturing, but they are typically restricted to mild temperatures because proteins unfold and lose their function under heat. In new research published in Angew…",
+      "ts": 1784703606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Circulating microRNAs offer insights for detecting and treating cachexia in senior dogs",
+      "url": "https://phys.org/news/2026-07-circulating-micrornas-insights-cachexia-senior.html",
+      "summary": "Cachexia—a syndrome characterized by progressive muscle wasting—affects both humans and dogs with chronic diseases such as cancer. A recent study in Molecular Oncology found that lower circulating levels of certain micro…",
+      "ts": 1784703604000
+    },
     {
       "source": "Phys.org",
       "title": "Australian cave discovery shows grass was burned for magic, cures and curses for 25,000 years",
@@ -672,34 +700,6 @@
       "title": "Optomechanical transfer factors for scattered light noise estimations in the beamtubes of ground-based gravitational wave detectors",
       "url": "https://arxiv.org/abs/2607.19299",
       "summary": "arXiv:2607.19299v1 Announce Type: cross Abstract: Scattered light is a relevant noise source in current ground-based gravitational-wave detectors and a critical design concern for next-generation observatories. Beamtube …",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-Dimensional Dust Distribution in the Jovian System from Juno/Waves Observations: Insights into the Halo Ring and Magnetospheric Dust",
-      "url": "https://arxiv.org/abs/2607.19304",
-      "summary": "arXiv:2607.19304v1 Announce Type: cross Abstract: Discoveries regarding the dusty rings of Jupiter and the Galilean satellites' dust environment have been continuously refined by orbiters and flybys. Leveraging Juno Wave…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Synchronization",
-      "url": "https://arxiv.org/abs/2607.19328",
-      "summary": "arXiv:2607.19328v1 Announce Type: cross Abstract: Natural and engineered classical systems are replete with examples of synchronization, understood as the adjustment of rhythms of physical systems. Such synchronization i…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multichannel Quantum Defect Theory with Numerical Reference Functions: Applications to Cold Atomic Collisions",
-      "url": "https://arxiv.org/abs/2004.09091",
-      "summary": "arXiv:2004.09091v4 Announce Type: replace Abstract: We develop a method for calculating multichannel wavefunctions in the spirit of quantum defect theory, based on numerically calculated reference functions. We benchmark…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Regression to the Mean can Explain Saturation of Geomagnetic Storms",
-      "url": "https://arxiv.org/abs/2201.02137",
-      "summary": "arXiv:2201.02137v4 Announce Type: replace Abstract: Extreme space weather events on Earth occur during intervals of strong solar wind driving. The solar wind drives plasma convection and currents in the near-Earth space …",
       "ts": 1784692800000
     }
   ],
