@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-22T10:27:28.304Z",
+  "updated": "2026-07-22T12:26:31.820Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Engitix Licenses Lonza’s Technology to Advance ADC Therapies",
+      "url": "https://www.genengnews.com/topics/bioprocessing/engitix-licenses-lonzas-technology-to-advance-adc-therapies/",
+      "summary": "Lonza, through one of its affiliated companies, is eligible to receive upfront, clinical, regulatory, and commercial milestone payments, plus royalties on the net sales of resulting products. The post Engitix Licenses Lo…",
+      "ts": 1784721624000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Relativity Space to expand Terran R production in Florida",
+      "url": "https://spacenews.com/relativity-space-to-expand-terran-r-production-in-florida/",
+      "summary": "Relativity Space struck a deal with Space Florida to build manufacturing and test facilities for its Terran R rocket on Florida’s Space Coast. The post Relativity Space to expand Terran R production in Florida appeared f…",
+      "ts": 1784721529000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Job dissatisfaction and health care access uncertainty grows in the U.S., new study finds",
+      "url": "https://www.statnews.com/2026/07/22/health-news-job-dissatisfaction-health-care-access-grows/?utm_campaign=rss",
+      "summary": "What Hawaii's wildfires can teach the nation about health recovery, 4.5 million people disenrolled from SNAP, and more health news",
+      "ts": 1784721178000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Artemis 2 astronaut advocates for equatorial lunar landings",
@@ -696,30 +720,6 @@
       "url": "https://spacenews.com/german-component-supplier-deltavision-raises-10-2-million-euros/",
       "summary": "German spacecraft component developer deltaVision has raised 10.2 million euros ($11.6 million) to expand production of valves and related equipment, with a focus on enabling in-space refueling. The post German component…",
       "ts": 1784635041000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Novo Nordisk sues Eli Lilly over GLP-1 drug ads it calls ‘deceptive’",
-      "url": "https://www.statnews.com/pharmalot/2026/07/21/novo-nordisk-sues-eli-lilly-glp1-drug-ads/?utm_campaign=rss",
-      "summary": "Novo Nordisk sued Eli Lilly for allegedly running a “deceptive” ad campaign that uses “outdated clinical trials” to make its obesity and diabetes drugs appear more effective.",
-      "ts": 1784633700000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "A renewed push from the right against abortion pills",
-      "url": "https://www.statnews.com/2026/07/21/biotech-news-a-renewed-push-from-the-right-against-abortion-pills/?utm_campaign=rss",
-      "summary": "The latest on cyclospora, THC sodas at the grocery store, and more health news from Morning Rounds",
-      "ts": 1784633678000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Agile Space Industries Appoints new CTO and Board member",
-      "url": "https://spacenews.com/agile-space-industries-appoints-new-cto-and-board-member/",
-      "summary": "Durango, Co – July 21, 2026 – Agile Space Industries today announced the appointment of Jake Mills as Chief Technology Officer (CTO) and Mark Pasquale as an independent member of […] The post Agile Space Industries Appoi…",
-      "ts": 1784631600000,
       "categoryId": "space"
     }
   ],

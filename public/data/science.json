@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-22T10:27:26.164Z",
+  "updated": "2026-07-22T12:26:29.428Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Early respiratory infections may lower higher education completion and adult income",
+      "url": "https://phys.org/news/2026-07-early-respiratory-infections-higher-adult.html",
+      "summary": "Infants exposed to respiratory illnesses through older siblings typically fare worse in education, income and health in adulthood, according to new research from the University of Copenhagen.",
+      "ts": 1784722807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Children become 'climate detectives' to help cool overheating schools",
+      "url": "https://phys.org/news/2026-07-children-climate-cool-overheating-schools.html",
+      "summary": "Elementary school children equipped with thermal cameras are helping redesign their schools to cope with hotter summers, thanks to a University of Surrey program that gives pupils the tools to spot dangerous heat hotspot…",
+      "ts": 1784722802000
+    },
+    {
+      "source": "Phys.org",
+      "title": "In Kyushu's decorated tombs, humans were never meant to be individuals",
+      "url": "https://phys.org/news/2026-07-kyushu-tombs-humans-meant-individuals.html",
+      "summary": "When you first step into Japan's Kyushu tombs, the first thing you notice is nothing at all. \"When you enter, you're engulfed by darkness; you can smell earth and stone, and you have the sensation of being enclosed …,\" s…",
+      "ts": 1784721608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can hedging make you a better communicator?",
+      "url": "https://phys.org/news/2026-07-hedging-communicator.html",
+      "summary": "\"People hedge all the time,\" says Wharton marketing professor Jonah Berger. \"Whether we are talking to a boss or a colleague, a salesperson talking to a client, a marketer trying to pitch something or even talking to fam…",
+      "ts": 1784721606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why a tiny social media post has mathematicians rethinking AI",
+      "url": "https://phys.org/news/2026-07-tiny-social-media-mathematicians-rethinking.html",
+      "summary": "As millions of people were coming down from the excitement of the FIFA World Cup final at the start of this week, a different kind of excitement was building within the mathematical community. Levent Alpöge, a mathematic…",
+      "ts": 1784720403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists turn radio telescopes into space scanners—sharpening view of hidden orbital threats",
+      "url": "https://phys.org/news/2026-07-scientists-radio-telescopes-space-scanners.html",
+      "summary": "Scientists have successfully demonstrated a breakthrough in how sensitive radio telescopes can be used to significantly improve the world's ability to detect, track and characterize satellites and space debris in orbit.",
+      "ts": 1784719201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New review highlights gaps in care for First Nations children in Canada",
+      "url": "https://phys.org/news/2026-07-highlights-gaps-nations-children-canada.html",
+      "summary": "A new study finds that First Nations children still face long-standing inequalities in health care access in Canada despite improvements made through the application of Jordan's Principle—a policy designed to ensure Firs…",
+      "ts": 1784718009000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: What happens when producers are responsible for recycling their products and packaging?",
+      "url": "https://phys.org/news/2026-07-qa-responsible-recycling-products-packaging.html",
+      "summary": "Who should pay when a product becomes waste—the company that made it or the public? That question sits at the center of extended producer responsibility (EPR), a policy strategy that shifts recycling costs onto manufactu…",
+      "ts": 1784718007000
+    },
     {
       "source": "Phys.org",
       "title": "New multiplexing scheme accelerates long-distance quantum communication",
@@ -644,62 +700,6 @@
       "title": "Enhanced NQS via Annealed Gradient Descent",
       "url": "https://arxiv.org/abs/2607.18865",
       "summary": "arXiv:2607.18865v1 Announce Type: cross Abstract: Neural quantum states offer expressive representations of quantum many-body wave functions, yet their practical accuracy can be limited by stochastic optimization rather …",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deterministic cascade coarsening in a Bistable Gene Toggle model",
-      "url": "https://arxiv.org/abs/2607.18891",
-      "summary": "arXiv:2607.18891v1 Announce Type: cross Abstract: We investigate deterministic coarsening dynamics in a spatially extended bistable gene toggle model with diffusive coupling. Unlike classical curvature-driven coarsening,…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy Conversion, Fluctuation Suppression, and Information Transfer in the Thermodynamic Performance of Kinesin",
-      "url": "https://arxiv.org/abs/2607.18905",
-      "summary": "arXiv:2607.18905v1 Announce Type: cross Abstract: Kinesin is a molecular motor that transports intracellular cargoes along microtubules. Recent studies have quantified kinesin performance using various efficiencies withi…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Imaging through rough interfaces: The shower curtain effect",
-      "url": "https://arxiv.org/abs/2607.18947",
-      "summary": "arXiv:2607.18947v1 Announce Type: cross Abstract: The quality of an image observed through a scattering layer, such as a shower curtain, depends strongly on the relative position of the scattering layer between the objec…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deep learning-based prediction of time-resolved adhesive forces in viscoelastic Hertzian contacts",
-      "url": "https://arxiv.org/abs/2607.19060",
-      "summary": "arXiv:2607.19060v1 Announce Type: cross Abstract: Fast prediction of the response of adhesive soft viscoelastic contacts represents a current challenge in soft robotics and for gripping and manipulation tasks. Determinin…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Predicting Activities in Aqueous Electrolyte Solutions with Hybrid Machine Learning",
-      "url": "https://arxiv.org/abs/2607.19114",
-      "summary": "arXiv:2607.19114v1 Announce Type: cross Abstract: Activities in aqueous electrolyte solutions, usually described by ionic activity and osmotic coefficients, are important properties for modeling many processes in industr…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Long-time asymptotic behavior for the defocusing Hirota equation on a finite-genus algebro-geometric background",
-      "url": "https://arxiv.org/abs/2607.19119",
-      "summary": "arXiv:2607.19119v1 Announce Type: cross Abstract: In this paper, we investigate the long-time asymptotics for the solution of the Cauchy problem of the defocusing Hirota equation on a finite-genus algebro-geometric backg…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast reconstruction of tensor tomographic X-ray scattering data for real-time applications",
-      "url": "https://arxiv.org/abs/2607.19124",
-      "summary": "arXiv:2607.19124v1 Announce Type: cross Abstract: X-ray scattering tensor tomography reveals nanoscale structural orientation in 3D, but its reliance on slow iterative reconstruction limits real-time use. We introduce an…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum limits to chiroptical molecular discrimination",
-      "url": "https://arxiv.org/abs/2607.19136",
-      "summary": "arXiv:2607.19136v1 Announce Type: cross Abstract: Discriminating enantiomer pairs is of central importance in the molecular sciences. The preferential interaction between chiral light and matter is commonly employed in t…",
       "ts": 1784692800000
     }
   ],
