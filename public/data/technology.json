@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-22T19:24:28.715Z",
+  "updated": "2026-07-22T21:11:23.534Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "New study supports testing of Merck’s Ebola vaccine in DRC outbreak",
+      "url": "https://www.statnews.com/2026/07/22/new-study-supports-testing-of-mercks-ebola-vaccine-in-drc-outbreak/?utm_campaign=rss",
+      "summary": "New data supports the idea that Merck’s Ebola vaccine Ervebo, licensed to target the Zaire species of ebolaviruses, could also offer some protection against another.",
+      "ts": 1784754000000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Showcase Agency’s Newest Wind Tunnel in Virginia",
+      "url": "https://www.nasa.gov/news-release/nasa-to-showcase-agencys-newest-wind-tunnel-in-virginia/",
+      "summary": "Media are invited to NASA’s Langley Research Center in Hampton, Virginia, on Friday, July 31, to attend a media tour and ribbon-cutting ceremony for the Flight Dynamics Research Facility, the agency’s first new wind tunn…",
+      "ts": 1784746025000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "FCC approves sweeping space reforms while clearing more C-band for 5G",
@@ -11,12 +27,28 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "Robotic Servicing Mission Launches with NASA Support",
+      "url": "https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support/",
+      "summary": "Following its liftoff from Cape Canaveral on July 21 aboard a SpaceX Falcon 9 rocket, the Mission Robotic Vehicle (MRV) hosting the NASA-supported Robotic Servicing of Geosynchronous Satellites (RSGS) payload is now en r…",
+      "ts": 1784743455000,
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Transmissible Cancer Discovered in Freshwater Fish",
       "url": "https://www.genengnews.com/topics/cancer/transmissible-cancer-discovered-in-freshwater-fish/",
       "summary": "Researchers identified a form of transmissible cancer in a freshwater fish species, in which the cancer cells behave more like parasites than conventional tumors, moving from fish to fish. The post Transmissible Cancer D…",
       "ts": 1784742726000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Sets Coverage for Astronaut Chris Williams, Crewmates Return",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-astronaut-chris-williams-crewmates-return/",
+      "summary": "NASA astronaut Chris Williams and Roscosmos cosmonauts Sergey Kud-Sverchkov and Sergei Mikaev are wrapping up their 241‑day mission aboard the International Space Station. The crew and its Soyuz MS-28 spacecraft will und…",
+      "ts": 1784740663000,
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -94,7 +126,7 @@
       "source": "NASA",
       "title": "NASA’s Juno Takes Temperature of Jupiter’s Fiery Moon Io",
       "url": "https://www.nasa.gov/missions/juno/nasas-juno-takes-temperature-of-jupiters-fiery-moon-io/",
-      "summary": "NASA’s Juno mission has provided the first measurements of the temperature below the surface of Jupiter’s moon Io, revealing significant heating within the shallow subsurface of the most volcanically active world in the …",
+      "summary": "Lee esta historia en español aquí. NASA’s Juno mission has provided the first measurements of the temperature below the surface of Jupiter’s moon Io, revealing significant heating within the shallow subsurface of the mos…",
       "ts": 1784732075000,
       "categoryId": "space"
     },
@@ -155,6 +187,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "ts": 1784725200000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "The strategic competition with China: winning the multi-domain race",
       "url": "https://spacenews.com/the-strategic-competition-with-china-winning-the-multi-domain-race/",
@@ -188,9 +228,33 @@
     },
     {
       "source": "United Nations News",
-      "title": "Security Council LIVE: Can critical minerals fuel peace instead of conflict?",
+      "title": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168000",
+      "summary": "UN partners launched the Winter Response Plan to help 2.1 million people in Ukraine survive another cold season as the country grapples with the on-going Russian invasion.",
+      "ts": 1784721600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Nicaragua continues to weaken political freedoms, UN warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167999",
+      "summary": "The UN human rights chief Volker Türk on Wednesday condemned new threats from Nicaragua’s co-president Daniel Ortega to hinder civil rights and prevent dissenting individuals and groups from participating in elections.",
+      "ts": 1784721600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Deadly Afghanistan floods kill at least 26 as aid agencies race to reach survivors",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1167996",
+      "summary": "Flash floods have killed at least 26 people across eastern Afghanistan, including 23 in the mountainous province of Nuristan, where homes, markets and roads were swept away and search teams continued looking for people r…",
+      "ts": 1784721600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Can critical minerals fuel peace and prosperity instead of conflict?",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167995",
-      "summary": "The Security Council meets this morning to debate critical minerals — the lithium, cobalt and copper powering the clean energy transition. Demand is set to triple by 2030. The question: will this mineral wealth build pea…",
+      "summary": "The Security Council is meeting now in New York to debate critical minerals — the lithium, cobalt and copper powering the clean energy transition. Demand is set to triple by 2030. The question: will this mineral wealth b…",
       "ts": 1784721600000,
       "categoryId": "global-governance"
     },
@@ -284,7 +348,7 @@
     },
     {
       "source": "STAT",
-      "title": "As Maui recovers from devastating fires, a study offers vision for new rural health model ",
+      "title": "As Maui recovers from devastating fires, a study offers vision for new rural health model",
       "url": "https://www.statnews.com/2026/07/22/maui-wildfire-exposure-study-health-impacts-lahaina-hawaii/?utm_campaign=rss",
       "summary": "A study of the long-term health impact of the Lahaina wildfires is inspiring a new model for disaster recovery and support.",
       "ts": 1784709000000,
@@ -305,6 +369,14 @@
       "summary": "A new survey reveals 24% of U.S. workers stay in unwanted jobs to keep health insurance. Experts call it 'job lock.'",
       "ts": 1784692860000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "A Week of Smoky Skies Across North America",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/",
+      "summary": "Brown carbon, emitted by wildland fires and tracked over the span of a week in July 2026, worsened air quality in parts of the U.S. and Canada.",
+      "ts": 1784692800000,
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -571,14 +643,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "A Week of Smoky Skies Across North America",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/",
-      "summary": "Brown carbon, emitted by wildland fires and tracked over the span of a week in July 2026, worsened air quality in parts of the U.S. and Canada.",
-      "ts": 1784692800000,
-      "categoryId": "space"
-    },
-    {
       "source": "Genetic Engineering News",
       "title": "UCSD, IGI Partnership Expands CRISPR Innovation Across Health, Agriculture, and the Environment",
       "url": "https://www.genengnews.com/topics/genome-editing/ucsd-igi-partnership-expands-crispr-innovation-across-health-agriculture-and-the-environment/",
@@ -657,70 +721,6 @@
       "summary": "Plus, GOP voters want a crackdown on health care fraud, and how PBMs are skirting state laws.",
       "ts": 1784657854000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "US-India Satellite Delivers Data, Reveals ‘Hummingbird’ in Antarctica",
-      "url": "https://www.nasa.gov/missions/nisar/us-india-satellite-delivers-data-reveals-hummingbird-in-antarctica/",
-      "summary": "As of July 20, the public can access data from the two powerful radar instruments aboard the NISAR (NASA-ISRO Synthetic Aperture Radar) satellite. Teams in the United States and India will release files processed from th…",
-      "ts": 1784657692000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Langley Celebrates Community through Music with ‘Symphony Under the Stars’ Event ",
-      "url": "https://www.nasa.gov/general/nasa-langley-celebrates-community-through-music-with-symphony-under-the-stars-event/",
-      "summary": "NASA Langley’s “Stars, Stripes, and Supernovas – Symphony Under the Stars” event brought employees, families, and community members together for an evening filled with music, connection, and celebration. Organizers plann…",
-      "ts": 1784656843000,
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing the ChatGPT for small business program",
-      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "ts": 1784653200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "10x Clinical Expansion Advances with CLIA Lab Plans, Cleveland Clinic Partnership",
-      "url": "https://www.genengnews.com/topics/omics/10x-clinical-expansion-advances-with-clia-lab-plans-cleveland-clinic-partnership/",
-      "summary": "Traditionally focused on research tools for academic, government, and industry customers, 10x has moved this year to launch clinical collaborations with top-tier institutions—the most recent of which was announced last m…",
-      "ts": 1784651408000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Blood Cancer Therapies Informed by Spatial Remodeling of Bone Marrow",
-      "url": "https://www.genengnews.com/topics/cancer/blood-cancer-therapies-informed-by-spatial-remodeling-of-bone-marrow/",
-      "summary": "An AI-based approach assesses disease severity in patients with myelodysplastic neoplasms (MDS), a form of blood cancer where one-third of patients progress to a more aggressive state called acute myeloid leukemia. The p…",
-      "ts": 1784650694000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin/",
-      "summary": "NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factor…",
-      "ts": 1784648203000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NIAC 2026 Selections",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/niac-2026-selections/",
-      "summary": "Phase I Saptarshi BandyopadhyayDimming the Sun (DimSun) Using Controllable Dust Cloud to Reduce Solar InsolationNASA Jet Propulsion LaboratoryPasadena, CA 91109-80012026 Phase I David BugbyCombinatory Architecture offeri…",
-      "ts": 1784647815000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/precision-astrometry-using-optically-independent-spacecraft-for-graviational-wave-detection/",
-      "summary": "Paul StankusBrookhaven Science Associates The scientific goal is to enable a new method for observing gravitational waves at low frequencies, based on the astrometric GW signature — gravitational waves passing by the Ear…",
-      "ts": 1784647434000,
-      "categoryId": "space"
     }
   ],
   "categories": [

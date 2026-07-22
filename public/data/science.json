@@ -1,7 +1,77 @@
 {
   "ok": true,
-  "updated": "2026-07-22T19:24:19.226Z",
+  "updated": "2026-07-22T21:11:17.094Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Shifting weather patterns drive 55% of Europe's summer drought trend, study finds",
+      "url": "https://phys.org/news/2026-07-shifting-weather-patterns-europe-summer.html",
+      "summary": "In a new study, researchers at Leipzig University have identified a major cause of the unusually severe summer soil drying and rising temperatures across Europe. They found that much of the trend can be attributed to cha…",
+      "ts": 1784754005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plasma design rules show how to preserve attosecond flashes for observing electrons",
+      "url": "https://phys.org/news/2026-07-plasma-attosecond-electrons.html",
+      "summary": "Researchers at Skoltech, together with a colleague from the Shanghai Institute of Optics and Fine Mechanics of the Chinese Academy of Sciences, working within the joint SIOM–Skoltech laboratory, have determined how to se…",
+      "ts": 1784754001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Neural networks unlock larger quantum simulations with lower computational costs",
+      "url": "https://phys.org/news/2026-07-neural-networks-larger-quantum-simulations.html",
+      "summary": "In recent years, research using artificial intelligence to predict material properties has advanced rapidly. Neural network quantum Monte Carlo methods have attracted attention as highly accurate simulation techniques. H…",
+      "ts": 1784752807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Detecting the body's magnetic fields with a low-power Ramsey-based magnetometer",
+      "url": "https://phys.org/news/2026-07-body-magnetic-fields-power-ramsey.html",
+      "summary": "Our bodies generate extremely weak magnetic fields as electric currents flow through the heart, brain and other tissues. These signals are used in magnetocardiography and magnetoencephalography to assess heart function a…",
+      "ts": 1784752806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Crowd reactions influence whether people receive controversial political messages positively or negatively",
+      "url": "https://phys.org/news/2026-07-crowd-reactions-people-controversial-political.html",
+      "summary": "Positive crowd reactions like applause and laughter can make controversial political messages more acceptable to viewers, according to new research by psychologist Dr. Carl Senior at Aston University. The research sugges…",
+      "ts": 1784751605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI and quantum chemistry combine to identify efficient blue OLED materials",
+      "url": "https://phys.org/news/2026-07-ai-quantum-chemistry-combine-efficient.html",
+      "summary": "Organic light-emitting diodes (OLEDs) have become a standard in modern devices with incredible contrast and sleek designs. While initially an expensive luxury, OLEDs are gradually becoming more financially accessible as …",
+      "ts": 1784751601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why river management is so crucial to protecting one of world's most important wetlands",
+      "url": "https://phys.org/news/2026-07-river-crucial-world-important-wetlands.html",
+      "summary": "A major new study led by Swansea University has shown that upstream river management, rather than local rainfall, is the primary driver of one of the world's most important wetlands. According to the research published i…",
+      "ts": 1784750403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Creating the largest-ever database on floating ocean plastic using smart cameras",
+      "url": "https://phys.org/news/2026-07-largest-database-ocean-plastic-smart.html",
+      "summary": "The first five years (2019–2024) of operations of The Ocean Cleanup's Automated Debris Imaging System (ADIS) have been reviewed, and the findings have been published in Environmental Research Communications. In addition …",
+      "ts": 1784750401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "CRISPR-Cas coordinates a layered bacterial defense network in innate immunity",
+      "url": "https://phys.org/news/2026-07-crispr-cas-layered-bacterial-defense.html",
+      "summary": "All cellular life—from humans to bacteria—possesses two layers of immunity: innate and adaptive. Scientists have long understood how these two types of immunity work together in higher organisms but not in the microbial …",
+      "ts": 1784749206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Listening with light—an innovative new technology for studying the seafloor",
+      "url": "https://phys.org/news/2026-07-qa-technology-seafloor.html",
+      "summary": "The seafloor plays an important ecological and societal role. Understanding the processes that shape this environment will help guide conservation policy and decision-making about underwater infrastructure and geohazards…",
+      "ts": 1784749201000
+    },
     {
       "source": "Phys.org",
       "title": "First ever reported cryo-EM visualization of E. coli TGT structure",
@@ -630,76 +700,6 @@
       "title": "Sky-blue Solution-processed TADF and Hyperfluorescent OLEDs via a High-Work-Function PEDOT:PSS:PFI Hole Injection Layer",
       "url": "https://arxiv.org/abs/2607.18474",
       "summary": "arXiv:2607.18474v1 Announce Type: new Abstract: Solution-processed OLEDs offer a scalable route to large-area devices, but achieving competitive efficiency in multilayer stacks remains a challenge due to difficulties in …",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evaluation-Recording Contamination in Learned Nano-Quadrotor Dynamics: A Fresh-Seed Audit",
-      "url": "https://arxiv.org/abs/2607.18482",
-      "summary": "arXiv:2607.18482v1 Announce Type: new Abstract: Learned flight-dynamics models are often trained on short windows extracted from longer recordings. Randomly splitting these windows can place dependent samples from the sa…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wave propagation and hybridization of plasmonic modes in Maxwell-Chern-Simons pseudo-electrodynamics",
-      "url": "https://arxiv.org/abs/2607.18520",
-      "summary": "arXiv:2607.18520v1 Announce Type: new Abstract: We investigate the propagation of classical plane waves and surface plasmon-polariton modes within the framework of pseudo-electrodynamics (PED) supplemented by a non-local…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AGENTS4GEOS: agentic platform for open-source multi-physics simulation",
-      "url": "https://arxiv.org/abs/2607.18557",
-      "summary": "arXiv:2607.18557v1 Announce Type: new Abstract: Multi-physics simulations are essential for understanding and monitoring intricate subsurface processes such as CO2 storage. Their computational demands call for surrogate …",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The power exhaust constrained SPARC separatrix operational space",
-      "url": "https://arxiv.org/abs/2607.18558",
-      "summary": "arXiv:2607.18558v1 Announce Type: new Abstract: In this work we extrapolate the separatrix operational space (SepOS) projections to SPARC and introduce detachment access criteria, thus formulating the combined power exha…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "P-A.I.R.: A Structured AI-Replication Framework for Active Learning in Introductory Physics",
-      "url": "https://arxiv.org/abs/2607.18587",
-      "summary": "arXiv:2607.18587v1 Announce Type: new Abstract: The growing use of generative AI tools among students raises an important pedagogical question: how can AI be structured to promote active learning rather than passive answ…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Isochoric thermodynamic preconditioning for resolving mechanically induced phase change in fractured porous media",
-      "url": "https://arxiv.org/abs/2607.18608",
-      "summary": "arXiv:2607.18608v1 Announce Type: new Abstract: Rapid pore-volume changes can trigger phase change on timescales shorter than characteristic transport times and may therefore be skipped by conventional nonlinear solves a…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Energy Microresonator Soliton Generation",
-      "url": "https://arxiv.org/abs/2607.18611",
-      "summary": "arXiv:2607.18611v1 Announce Type: new Abstract: Kerr resonators generate stable frequency combs in a compact platform with applications in coherent communications, sensing, quantum information processing, and astrophysic…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Temporal-Causal Unity as an Operational Framework for Collective Dynamics: Causal-Progress Clocks, Synchronization, and Polarization",
-      "url": "https://arxiv.org/abs/2607.18620",
-      "summary": "arXiv:2607.18620v1 Announce Type: new Abstract: This paper develops temporal-causal unity (TCU), a framework connecting a process-philosophical thesis -- time is the ordered unfolding of causal change -- to an operationa…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Current-Sheet Formation in Electron Magnetohydrodynamics with Split Fractional Dissipation",
-      "url": "https://arxiv.org/abs/2607.18648",
-      "summary": "arXiv:2607.18648v1 Announce Type: new Abstract: Thin current sheets are central small-scale structures in electron magnetohydrodynamics (EMHD), closely associated with energy dissipation and fast magnetic reconnection at…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Raman-Assisted Multiband Nonlinear Frequency-Conversion Network in a High-Q LTOI Microdisk",
-      "url": "https://arxiv.org/abs/2607.18729",
-      "summary": "arXiv:2607.18729v1 Announce Type: new Abstract: On-chip nonlinear frequency conversion offers a key route to broadband coherent light sources, but spanning telecom, visible, and ultraviolet wavelengths within a single re…",
       "ts": 1784692800000
     }
   ],
