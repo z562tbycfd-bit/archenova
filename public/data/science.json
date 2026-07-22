@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-07-21T22:59:37.402Z",
+  "updated": "2026-07-22T00:01:18.109Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "UN report: Global hunger levels ease for third consecutive year as regional disparities persist",
+      "url": "https://phys.org/news/2026-07-global-hunger-ease-consecutive-year.html",
+      "summary": "Global hunger declined for a third consecutive year in 2025, demonstrating that progress is possible. However, the improvements remain fragile, unevenly distributed and insufficient to achieve the Sustainable Development…",
+      "ts": 1784678401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Not so terrible, after all: Two‑year‑olds just want to be independent",
+      "url": "https://phys.org/news/2026-07-terrible-twoyearolds-independent.html",
+      "summary": "A 2-year-old is lying on the floor yelling, with their socks pulled off after spending 15 minutes trying to get them on in the first place. A caregiver might take a deep breath and think, \"Here we go again—another 'terri…",
+      "ts": 1784677203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ruthenium nanoparticles convert captured perchlorate into harmless chloride in water treatment waste",
+      "url": "https://phys.org/news/2026-07-ruthenium-nanoparticles-captured-perchlorate-harmless.html",
+      "summary": "For decades, water utilities have relied on giant tanks filled with ion-exchange resin beads to remove perchlorate, a harmful industrial pollutant, from drinking water. The system works by attracting negatively charged p…",
+      "ts": 1784677201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research explains psychology of helping others feel better about personal disappointments",
+      "url": "https://phys.org/news/2026-07-psychology-personal-disappointments.html",
+      "summary": "Personal and professional conversations about triumph and disappointment happen every day, but what is the most appropriate way to react when others share their news with us? New research by Bayes Business School (City S…",
+      "ts": 1784676005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gig platforms can simply 'wait out' workers to slash wages, research reveals",
+      "url": "https://phys.org/news/2026-07-gig-platforms-simply-workers-slash.html",
+      "summary": "Researchers from the Max Planck Institute for Intelligent Systems (MPI-IS), the Tübingen AI Center and Ellis Institute Tübingen have conducted a study that uncovers a mathematical strategy explaining how digital labor pl…",
+      "ts": 1784676001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study into humans' closest ape relatives suggests physical touch can promote social harmony",
+      "url": "https://phys.org/news/2026-07-humans-closest-ape-physical-social.html",
+      "summary": "Physical touch may be an important evolutionary tool to help manage social tension and keep the peace. That is according to a new study led by Durham University in the UK, analyzing behaviors of our closest ape relatives…",
+      "ts": 1784675402000
+    },
+    {
+      "source": "Science News",
+      "title": "Ape cuddles could prevent conflicts",
+      "url": "https://www.sciencenews.org/article/ape-physical-touch-stress-relief-chimps",
+      "summary": "Humans could learn from chimpanzees and bonobos, who turn to group members for physical comfort during tense moments.",
+      "ts": 1784674860000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mysterious gas 'bullets' race from Milky Way's only known helium nova at up to 20 million mph",
+      "url": "https://phys.org/news/2026-07-mysterious-gas-bullets-milky-helium.html",
+      "summary": "Mysterious high-speed \"bullets\"—clumps of possibly oxygen-rich gas traveling at up to 20 million miles per hour—have been discovered shooting out of the rarest stellar explosion in our galaxy.",
+      "ts": 1784674805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Legalization of sports betting has led to households saving significantly less money",
+      "url": "https://phys.org/news/2026-07-legalization-sports-households-significantly-money.html",
+      "summary": "As legalized sports betting becomes increasingly accessible through mobile apps such as DraftKings and FanDuel, a new study by BYU finance professors finds that people are saving less to fuel gambling habits.",
+      "ts": 1784674803000
+    },
     {
       "source": "Phys.org",
       "title": "A native California wildflower isn't keeping up with climate change",
@@ -638,69 +701,6 @@
       "url": "https://phys.org/news/2026-07-aligned-graphite-particles-stable-levitation.html",
       "summary": "A diamagnetic substance is slightly repelled by magnetic fields. With a strong enough magnet, the diamagnetic force can override gravity, and the substance will float in the air. Graphite, the main component of pencil le…",
       "ts": 1784628460000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Astronomers catch a recurring black hole eruption in real time",
-      "url": "https://phys.org/news/2026-07-astronomers-recurring-black-hole-eruption.html",
-      "summary": "For the third time in 35 years, the black hole at the center of the galaxy IC 3599 has erupted, and this time, astronomers were watching it closely. IC 3599, a galaxy roughly 280 million light-years away, has flared this…",
-      "ts": 1784628001000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Magnetic Correlations in the SU(3) Triangular-Lattice $t\\text{−}J$ Model at Finite Doping",
-      "url": "http://link.aps.org/doi/10.1103/x68w-lwvv",
-      "summary": "Author(s): Annika Böhler, Fabian Grusdt, and Annabelle Bohrdt Ultracold alkaline-earth atoms and molecules now enable experimental realizations of SU(N)-symmetric Fermi-Hubbard models, yet theoretical understanding of th…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Measurement of the Dispersion-Galaxy Cross-Power Spectrum with the Second CHIME/FRB Catalog",
-      "url": "http://link.aps.org/doi/10.1103/9th9-qc51",
-      "summary": "Author(s): Haochen Wang, Kiyoshi Masui, Shion Andrew, Mohit Bhardwaj, Emmanuel Fonseca, B. M. Gaensler, R. C. Joseph, Victoria M. Kaspi, Bikash Kharel, Adam E. Lanman, Calvin Leung, Lluis Mas-Ribas, Juan Mena-Parra, Kenz…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "New Approach to Pulsar Timing Array Data Combination",
-      "url": "http://link.aps.org/doi/10.1103/h9rb-5vdm",
-      "summary": "Author(s): David Wright, Kalista Wayt, Jeffrey S. Hazboun, Xavier Siemens, Rutger van Haasteren, Levi Schult, and Stephen R. Taylor In 2023, after more than two decades of searching, pulsar timing array (PTA) collaborati…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "How Zonal Fields Suppress Reversed Shear Alfvén Eigenmode in Tokamak Plasmas",
-      "url": "http://link.aps.org/doi/10.1103/hh65-rgwv",
-      "summary": "Author(s): Ruirui Ma, Pengfei Liu, Liu Chen, Fulvio Zonca, and Zhiyong Qiu Understanding nonlinear saturation of reversed-shear Alfvén eigenmodes (RSAEs) in tokamaks is crucial for high-performance burning plasmas. Emplo…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Displacive Quantum Critical Point in Superconducting Hydrides: The Case of ${\\mathrm{H}}_{3}\\mathrm{S}$",
-      "url": "http://link.aps.org/doi/10.1103/b1dd-gzf3",
-      "summary": "Author(s): Marco Cherubini, Abhishek Raghav, and Michele Casula ${\\mathrm{H}}_{3}\\mathrm{S}$ sulfur hydride has been widely investigated for its high superconducting critical temperature ${T}_{c}$ of 203 K at about ${p}_…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Sachdev-Ye-Kitaev Physics from the Hubbard Model: A Floquet-Engineering Approach",
-      "url": "http://link.aps.org/doi/10.1103/r8zs-qvj3",
-      "summary": "Author(s): Charles Creffield, Fernando Sols, Marco Schirò, and Nathan Goldman Ultracold atoms in an optical lattice could emulate a prominent model of quantum matter linked to black holes and high-temperature superconduc…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "High Temperature Ferromagnetism in Epitaxial Monolayers of Co-Doped ${\\mathrm{Fe}}_{5}{\\mathrm{GeTe}}_{2}$",
-      "url": "http://link.aps.org/doi/10.1103/j5rj-f4w4",
-      "summary": "Author(s): Jules Courtin, Fatima Ibrahim, Davide Benettin, Djordje Dosenovic, Roberto Sant, Pâmella Vasconcelos Borges Pinho, Vincent Polewczyk, Alain Marty, Isabelle Gomes de Moraes, Matthieu Jamet, Denis Jalabert, Fadi…",
-      "ts": 1784628000000
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Magnetic-field-induced topological transitions of spin textures in ferrimagnetic Gd/Fe thin films",
-      "url": "http://link.aps.org/doi/10.1103/t253-8yj1",
-      "summary": "Author(s): T. Schmidt, S. Koraltan, T. Niermann, L. Niermann, D. Suess, and M. Albrecht Magnetic skyrmions are topologically distinct spin textures that hold significant potential for applications in information storage …",
-      "ts": 1784628000000
     }
   ],
   "sources": [
