@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-22T21:11:23.534Z",
+  "updated": "2026-07-22T23:06:44.089Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: What is a ‘world model’? Nabla’s Alex LeBrun explains",
+      "url": "https://www.statnews.com/2026/07/22/what-is-a-world-model-nabla-alex-lebrun-explains-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of AI Prognosis, Brittany Trang talks to Alex LeBrun, AI scribe company Nabla's executive chairman, about an alternative to LLMs",
+      "ts": 1784755327000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "China’s Shijian-31 satellite is sweeping GEO using a unique orbit",
+      "url": "https://spacenews.com/chinas-shijian-31-satellite-is-sweeping-geo-using-a-unique-orbit/",
+      "summary": "HELSINKI — A classified satellite launched by China in June is operating in a creative orbit, giving it a unique vantage point over the geostationary belt. Shijian-31 launched on a […] The post China’s Shijian-31 satelli…",
+      "ts": 1784754788000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "New study supports testing of Merck’s Ebola vaccine in DRC outbreak",
@@ -228,6 +244,14 @@
     },
     {
       "source": "United Nations News",
+      "title": "Thousands prevented from returning home to southern Lebanon",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168003",
+      "summary": "As months of conflict continue to devastate communities across Lebanon, families are being left without shelter, healthcare and other essential services.",
+      "ts": 1784721600000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "World News in Brief: Aid for Ukraine, drone attacks in Sudan, DR Congo deaths, neurological disorders in the Americas",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168000",
       "summary": "UN partners launched the Winter Response Plan to help 2.1 million people in Ukraine survive another cold season as the country grapples with the on-going Russian invasion.",
@@ -254,7 +278,7 @@
       "source": "United Nations News",
       "title": "Security Council LIVE: Can critical minerals fuel peace and prosperity instead of conflict?",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1167995",
-      "summary": "The Security Council is meeting now in New York to debate critical minerals — the lithium, cobalt and copper powering the clean energy transition. Demand is set to triple by 2030. The question: will this mineral wealth b…",
+      "summary": "The Security Council met Wednesday in New York to debate critical minerals — the lithium, cobalt and copper powering the clean energy transition. Demand is set to triple by 2030. The question: will this mineral wealth bu…",
       "ts": 1784721600000,
       "categoryId": "global-governance"
     },
@@ -369,14 +393,6 @@
       "summary": "A new survey reveals 24% of U.S. workers stay in unwanted jobs to keep health insurance. Experts call it 'job lock.'",
       "ts": 1784692860000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "A Week of Smoky Skies Across North America",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/",
-      "summary": "Brown carbon, emitted by wildland fires and tracked over the span of a week in July 2026, worsened air quality in parts of the U.S. and Canada.",
-      "ts": 1784692800000,
-      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -643,6 +659,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "A Week of Smoky Skies Across North America",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/",
+      "summary": "Brown carbon, emitted by wildland fires and tracked over the span of a week in July 2026, worsened air quality in parts of the U.S. and Canada.",
+      "ts": 1784692800000,
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "UCSD, IGI Partnership Expands CRISPR Innovation Across Health, Agriculture, and the Environment",
       "url": "https://www.genengnews.com/topics/genome-editing/ucsd-igi-partnership-expands-crispr-innovation-across-health-agriculture-and-the-environment/",
@@ -697,30 +721,6 @@
       "summary": "Media are invited to join NASA for a virtual news conference at 2 p.m. EDT, Wednesday, July 29, to preview the Nancy Grace Roman Space Telescope mission, scheduled to launch from the agency’s Kennedy Space Center in Flor…",
       "ts": 1784664479000,
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Northrop adds to charges on Vulcan solid rocket motor program",
-      "url": "https://spacenews.com/northrop-adds-to-charges-on-vulcan-solid-rocket-motor-program/",
-      "summary": "Northrop Grumman took another charge for the solid rocket boosters it provides for the Vulcan Centaur and suggested updated motors might not be ready until the end of the year. The post Northrop adds to charges on Vulcan…",
-      "ts": 1784662851000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Commercial Space Federation (CSF) Welcomes Three New Associate Members",
-      "url": "https://spacenews.com/commercial-space-federation-csf-welcomes-three-new-associate-members/",
-      "summary": "Washington, D.C.— July 21, 2026 —The Commercial Space Federation (CSF) is pleased to welcome Overview Energy, Loft Orbital, and Star Catcher as new associate members — companies advancing space-based energy, […] The post…",
-      "ts": 1784660400000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Rare disease drugmakers try to avoid Trump price cuts",
-      "url": "https://www.statnews.com/2026/07/21/rare-disease-drugmakers-avoid-trump-price-cuts-pbm-state-laws-dc-diagnosis/?utm_campaign=rss",
-      "summary": "Plus, GOP voters want a crackdown on health care fraud, and how PBMs are skirting state laws.",
-      "ts": 1784657854000,
-      "categoryId": "bio"
     }
   ],
   "categories": [

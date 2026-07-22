@@ -1,7 +1,49 @@
 {
   "ok": true,
-  "updated": "2026-07-22T21:11:17.094Z",
+  "updated": "2026-07-22T23:06:41.686Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Marine animals first colonized empty seashells about 470 million years ago",
+      "url": "https://phys.org/news/2026-07-marine-animals-colonized-seashells-million.html",
+      "summary": "An international study led by researchers from the University of Tartu shows that approximately 470 million years ago, a significant ecological change took place in the world's oceans: For the first time, the interiors o…",
+      "ts": 1784761203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum internet leaves the lab with first real-world entanglement over busy telecom fiber",
+      "url": "https://phys.org/news/2026-07-quantum-internet-lab-real-world.html",
+      "summary": "Quantum information is notoriously fragile. Internet traffic is anything but. Yet Northwestern University scientists have demonstrated they can peacefully coexist inside the same fiber-optic cable.",
+      "ts": 1784760001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light-driven chemistry method could create antiviral compound libraries 10 to 100 times larger within weeks",
+      "url": "https://phys.org/news/2026-07-driven-chemistry-method-antiviral-compound.html",
+      "summary": "As the world faces new and often untreatable viral threats, Simon Fraser University researchers have found a way to cut years off the time it takes to discover antiviral drugs. The new research enables scientists to quic…",
+      "ts": 1784758801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Water-surface vortices drive tiny rotors without electricity, magnets or chemicals",
+      "url": "https://phys.org/news/2026-07-surface-vortices-tiny-rotors-electricity.html",
+      "summary": "Reliably generating controlled miniature rotations has long been a challenge: Chemical propulsion systems wear out, and methods that use electric or magnetic fields require complex setups. A team from KIT's Institute of …",
+      "ts": 1784757601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Even a slight overproduction of tubulin can tip the balance of cellular health, study shows",
+      "url": "https://phys.org/news/2026-07-slight-overproduction-tubulin-cellular-health.html",
+      "summary": "For cells to function properly, they must produce the right amount of each protein. It is a delicate balance: Both too little and too much can compromise essential cellular functions. A team from the University of Geneva…",
+      "ts": 1784756404000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Reusable magnetic invention removes microplastics plus some PFAS from water",
+      "url": "https://phys.org/news/2026-07-reusable-magnetic-microplastics-pfas.html",
+      "summary": "Microplastics are an increasing global concern, with growing evidence of their presence in water systems. RMIT University researchers have developed a water treatment material that rapidly removes micro- and nanoplastics…",
+      "ts": 1784755202000
+    },
     {
       "source": "Phys.org",
       "title": "Shifting weather patterns drive 55% of Europe's summer drought trend, study finds",
@@ -658,48 +700,6 @@
       "title": "Experimental and model-assisted analysis of lamella thinning and breakup in diesel-surrogate fuel-droplet wall impingement under Leidenfrost conditions",
       "url": "https://arxiv.org/abs/2607.18324",
       "summary": "arXiv:2607.18324v1 Announce Type: new Abstract: Hot-wall fuel-droplet impingement affects liquid redistribution, secondary droplet formation, and droplet evaporation in diesel-relevant spray-wall systems. This study inve…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Citation Pathways in the AI Era: Interpretive Knowledge Nodes, Citation Compression Layers, and the Measurement Boundary of Scholarly Impact",
-      "url": "https://arxiv.org/abs/2607.18350",
-      "summary": "arXiv:2607.18350v1 Announce Type: new Abstract: This article identifies \"citation pathway\" as a long-neglected analytical dimension in scientometrics. Traditional evaluation metrics focus on measuring citation counts whi…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hard conservation correctors can hide a degrading model when training autoregressive emulators",
-      "url": "https://arxiv.org/abs/2607.18416",
-      "summary": "arXiv:2607.18416v1 Announce Type: new Abstract: AI weather and climate emulators increasingly incorporate physical principles into their formulation. One approach is to apply hard correctors that modify network outputs s…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Aromatic molecular emitters in a hexagonal boron nitride stack",
-      "url": "https://arxiv.org/abs/2607.18427",
-      "summary": "arXiv:2607.18427v1 Announce Type: new Abstract: Single polycyclic aromatic hydrocarbon molecules embedded in organic matrices have proven to be an excellent family of narrow-linewidth quantum emitters. Extending this hos…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The RD50-MPW4: A Radiation Hard HV CMOS Sensor for Future Colliders",
-      "url": "https://arxiv.org/abs/2607.18456",
-      "summary": "arXiv:2607.18456v1 Announce Type: new Abstract: The former CERN RD50 collaboration develops monolithic active pixel high voltage (HV) CMOS sensors for future colliders with the aim of high radiation tolerance, good time …",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Control of eigenmode localization and coupling anisotropy by multiscan femtosecond laser writing",
-      "url": "https://arxiv.org/abs/2607.18458",
-      "summary": "arXiv:2607.18458v1 Announce Type: new Abstract: The multiscan method is widely used in femtosecond laser writing of waveguide systems to increase the refractive index contrast and to control the eigenmode shape. Here, we…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sky-blue Solution-processed TADF and Hyperfluorescent OLEDs via a High-Work-Function PEDOT:PSS:PFI Hole Injection Layer",
-      "url": "https://arxiv.org/abs/2607.18474",
-      "summary": "arXiv:2607.18474v1 Announce Type: new Abstract: Solution-processed OLEDs offer a scalable route to large-area devices, but achieving competitive efficiency in multilayer stacks remains a challenge due to difficulties in …",
       "ts": 1784692800000
     }
   ],
