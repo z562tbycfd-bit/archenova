@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-07-22T15:06:16.068Z",
+  "updated": "2026-07-22T17:22:37.354Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "A New Look – and Sound – for Messier 94",
+      "url": "https://www.nasa.gov/image-article/a-new-look-and-sound-for-messier-94/",
+      "summary": "NASA’s Chandra X-ray Observatory unveiled this new look at the galaxy NGC 4736, also known as Messier 94, on June 30, 2026. Messier 94 is a spiral galaxy with a bright inner ring around it, called a starburst ring, where…",
+      "ts": 1784738752000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Transcripta Bio Raises $24M for AI-Driven Neurological Disease Therapies",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/transcripta-bio-raises-24m-for-ai-driven-neurological-disease-therapies/",
+      "summary": "The Palo Alto-based company is developing small molecule drugs that modulate the transcriptome. The latest funding raise will advance IND-enabling studies and clinical preparation of its neurological disease portfolio. T…",
+      "ts": 1784737841000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: What Argentina’s World Cup loss should teach American hospitals",
+      "url": "https://www.statnews.com/2026/07/22/world-cup-argentina-loss-hospitals-lessons/?utm_campaign=rss",
+      "summary": "“Hospitals often make Argentina’s mistake: We confuse continuity with progress,” writes physician, hospital administrator, and bioethicist Basel Tarab.",
+      "ts": 1784737544000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI Protein Engineering Model Designed for Biomanufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/ai-protein-engineering-model-designed-for-biomanufacturing/",
+      "summary": "Generating biomanufacturing-relevant data on protein production in a large-scale, AI-enabled database is still rare. When commercialized, it may substantially improve development timelines and optimization success rates.…",
+      "ts": 1784736039000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cell-Therapy Manufacturers Get Creative on Checking Particulates",
+      "url": "https://www.genengnews.com/topics/bioprocessing/cell-therapy-manufacturers-get-creative-on-checking-particulates/",
+      "summary": "Manufacturers are developing innovative techniques to test for particulates in cell-containing products amid unclear regulatory guidance. Process simulation, minimizing particulates during production, and choosing the ri…",
+      "ts": 1784736029000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Scaling Cell and Gene Therapy Manufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/scaling-manufacturing-of-cell-and-gene-therapies/",
+      "summary": "Cell and gene therapy leaders discuss the industry’s biggest bioprocessing challenges, from manufacturing scalability and raw-material variability to infrastructure readiness, and explain the strategies they believe will…",
+      "ts": 1784736023000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Hybrid Single-Use and Stainless-Steel Plants the Greener Option",
+      "url": "https://www.genengnews.com/topics/bioprocessing/hybrid-single-use-and-stainless-steel-plants-the-greener-option/",
+      "summary": "Single-use technologies (SUTs) are less environmentally friendly than previously thought, according to new research. In some cases stainless steel technologies (SSTs) are the more sustainable option. Better still may be …",
+      "ts": 1784736022000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Mapping Io’s Hidden Heat With NASA’s Juno",
+      "url": "https://science.nasa.gov/photojournal/mapping-ios-hidden-heat-with-nasas-juno/",
+      "summary": "Description This graphic illustrates the areas of Jupiter’s moon Io sampled by the Microwave Radiometer (MWR) instrument aboard NASA’s Juno spacecraft during two close flybys. The black overlapping lines show the instrum…",
+      "ts": 1784732419000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Juno Peers Beneath Io’s Surface",
+      "url": "https://science.nasa.gov/photojournal/nasas-juno-peers-beneath-ios-surface/",
+      "summary": "Description This map represents data captured by the Microwave Radiometer (MWR) aboard NASA’s Juno spacecraft, indicating heat rising from just beneath the surface of Jupiter’s moon Io. While infrared instruments measure…",
+      "ts": 1784732338000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Juno Takes Temperature of Jupiter’s Fiery Moon Io",
+      "url": "https://www.nasa.gov/missions/juno/nasas-juno-takes-temperature-of-jupiters-fiery-moon-io/",
+      "summary": "NASA’s Juno mission has provided the first measurements of the temperature below the surface of Jupiter’s moon Io, revealing significant heating within the shallow subsurface of the most volcanically active world in the …",
+      "ts": 1784732075000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Congo’s Ebola outbreak has killed nearly 1,000 people",
@@ -81,6 +161,14 @@
       "summary": "Lonza, through one of its affiliated companies, is eligible to receive upfront, clinical, regulatory, and commercial milestone payments, plus royalties on the net sales of resulting products. The post Engitix Licenses Lo…",
       "ts": 1784721624000,
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Advancing the next era of national science",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "ts": 1784721600000,
+      "categoryId": "ai-compute"
     },
     {
       "source": "United Nations News",
@@ -633,94 +721,6 @@
       "summary": "Pablo Sobron SanchezSETI Institute This proposal explores a new class of reconnaissance spacecraft that map minerals from orbit using Raman spectroscopy during high-speed flybys–without landing, sample return, or extende…",
       "ts": 1784647429000,
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness ",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/robotically-assembled-electromagnetic-metamaterials-for-long-range-space-situational-awareness/",
-      "summary": "David SmithDuke University The increasing population of spacefaring vehicles and satellites motivates increasingly powerful technologies for space situational awareness (SSA). While the US space surveillance network (SSN…",
-      "ts": 1784647426000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Photophoretic Tracers for Near-Space Remote Sensing at 30-100 km Altitudes ",
-      "url": "https://www.nasa.gov/directorates/stmd/photophoretic-tracers-for-near-space-remote-sensing-at-30-100-km-altitudes/",
-      "summary": "Benjamin SchaferRarified Technologies, Inc. We propose a new approach to atmospheric sensing at 30-100 km altitudes using photophoretically levitating tracers. These lightweight structures harness sunlight to remain susp…",
-      "ts": 1784647423000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Actively Steerable Femtosat Constellations for In-situ Exploration of Saturn’s Rings, Atmosphere, and Magnetosphere",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/actively-steerable-femtosat-constellations-for-in-situ-exploration-of-saturns-rings-atmosphere-and-magnetosphere/",
-      "summary": "Michael RubensteinNorthwestern University, Chicago We propose a mission to use ~10,000 actively steerable femtosats to map the ring composition, atmospheric composition and density, and the magnetic field distribution of…",
-      "ts": 1784647421000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Pete Hegseth, ‘The Odyssey,’ and the testosterone myth",
-      "url": "https://www.statnews.com/2026/07/21/connection-between-odyssey-military-tesosterone-screening/?utm_campaign=rss",
-      "summary": "The poet didn’t say “sing to me, Muse, of a man with optimized endocrine panels,\" writes urologist Elizabeth Dray.",
-      "ts": 1784646944000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
-      "url": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-      "summary": "AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented …",
-      "ts": 1784646020000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Advocates say federal funding is being cut from groups fighting HIV",
-      "url": "https://www.statnews.com/2026/07/21/hiv-aids-prevention-advocates-fear-deep-cuts-cdc-funding/?utm_campaign=rss",
-      "summary": "The administration is shifting some funding to states, but community groups are set to lose out.",
-      "ts": 1784643872000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Is there an exodus underway at Epic?",
-      "url": "https://www.statnews.com/2026/07/21/is-there-an-exodus-underway-at-epic-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: executive departures at Epic Systems, new CEO takes over at Nabla, and more health tech news.",
-      "ts": 1784641423000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Broad Institute, partners unveil new initiative to develop gene therapies for rare diseases",
-      "url": "https://www.statnews.com/2026/07/21/center-for-therapeutic-genetics-rare-disease-gene-therapies/?utm_campaign=rss",
-      "summary": "The Broad Institute, Boston Children’s Hospital, and Maine’s Jackson Laboratory announced a collaboration to develop rare disease gene therapies.",
-      "ts": 1784641053000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Anthropic deepens work with rare disease drugs",
-      "url": "https://www.statnews.com/2026/07/21/biotech-news-anthropic-deepens-work-with-rare-disease-drugs/?utm_campaign=rss",
-      "summary": "Novo Nordisk sues Eli Lilly over GLP-1s, Medicare pricing plans, and more biotech news from The Readout",
-      "ts": 1784640980000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Novo suing Lilly over ‘deceptive’ ads, a fugitive’s secret life in biotech, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/21/novo-sues-lilly-alleging-deceptive-ads-fugitive-secret-life-in-biotech/?utm_campaign=rss",
-      "summary": "Novo Nordisk sued Eli Lilly for allegedly running “deceptive” ads to make its obesity and diabetes drugs appear more effective",
-      "ts": 1784639319000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Chinese AI divides the White House, and a record copyright payout",
-      "url": "https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. China’s AI models have Trump’s AI world at war with itself Last weekend, several c…",
-      "ts": 1784635800000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
