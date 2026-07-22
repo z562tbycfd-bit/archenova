@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-22T17:22:37.354Z",
+  "updated": "2026-07-22T19:24:28.715Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "FCC approves sweeping space reforms while clearing more C-band for 5G",
+      "url": "https://spacenews.com/fcc-approves-sweeping-space-reforms-while-clearing-more-c-band-for-5g/",
+      "summary": "The FCC voted July 22 to push satellite operators out of more C-band spectrum for a 5G auction next year, while approving a licensing overhaul aimed at accelerating the commercial space economy. The post FCC approves swe…",
+      "ts": 1784745096000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Transmissible Cancer Discovered in Freshwater Fish",
+      "url": "https://www.genengnews.com/topics/cancer/transmissible-cancer-discovered-in-freshwater-fish/",
+      "summary": "Researchers identified a form of transmissible cancer in a freshwater fish species, in which the cancer cells behave more like parasites than conventional tumors, moving from fish to fish. The post Transmissible Cancer D…",
+      "ts": 1784742726000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "A New Look – and Sound – for Messier 94",
@@ -84,7 +100,7 @@
     },
     {
       "source": "STAT",
-      "title": "Congo’s Ebola outbreak has killed nearly 1,000 people",
+      "title": "Congo’s Ebola outbreak has killed over 1,000 people",
       "url": "https://www.statnews.com/2026/07/22/congo-ebola-outbreak-1000-deaths/?utm_campaign=rss",
       "summary": "At least 999 people have died from the Ebola outbreak in Congo, a grim toll in what’s already been declared the fastest Ebola outbreak in history.",
       "ts": 1784731950000,
@@ -289,14 +305,6 @@
       "summary": "A new survey reveals 24% of U.S. workers stay in unwanted jobs to keep health insurance. Experts call it 'job lock.'",
       "ts": 1784692860000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "A Week of Smoky Skies Across North America",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/",
-      "summary": "Brown carbon, emitted by wildland fires and tracked over the span of a week in July 2026, worsened air quality in parts of the U.S. and Canada.",
-      "ts": 1784692800000,
-      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -563,6 +571,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "A Week of Smoky Skies Across North America",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/",
+      "summary": "Brown carbon, emitted by wildland fires and tracked over the span of a week in July 2026, worsened air quality in parts of the U.S. and Canada.",
+      "ts": 1784692800000,
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "UCSD, IGI Partnership Expands CRISPR Innovation Across Health, Agriculture, and the Environment",
       "url": "https://www.genengnews.com/topics/genome-editing/ucsd-igi-partnership-expands-crispr-innovation-across-health-agriculture-and-the-environment/",
@@ -704,22 +720,6 @@
       "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/precision-astrometry-using-optically-independent-spacecraft-for-graviational-wave-detection/",
       "summary": "Paul StankusBrookhaven Science Associates The scientific goal is to enable a new method for observing gravitational waves at low frequencies, based on the astrometric GW signature — gravitational waves passing by the Ear…",
       "ts": 1784647434000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Mapping Alien Continents: Achieving Optical VLBI for Exoplanet Imaging ",
-      "url": "https://www.nasa.gov/directorates/stmd/mapping-alien-continents-achieving-optical-vlbi-for-exoplanet-imaging/",
-      "summary": "Paul StankusBrookhaven Science Associates The scientific goal of the proposed work will be reconstructing the image, ie resolving surface features, of an Earth-like exoplanet around a nearby star as seen in visible light…",
-      "ts": 1784647431000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Interworld Slingshot Resource Surveys",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/interworld-slingshot-resource-surveys/",
-      "summary": "Pablo Sobron SanchezSETI Institute This proposal explores a new class of reconnaissance spacecraft that map minerals from orbit using Raman spectroscopy during high-speed flybys–without landing, sample return, or extende…",
-      "ts": 1784647429000,
       "categoryId": "space"
     }
   ],
