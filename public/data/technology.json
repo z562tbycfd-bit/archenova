@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-22T00:01:21.996Z",
+  "updated": "2026-07-22T00:22:02.687Z",
   "items": [
     {
       "source": "NVIDIA",
@@ -171,30 +171,6 @@
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "PRAXIS: Planetary Rings Autonomous EXploration with In-situ Sampling",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/praxis-planetary-rings-autonomous-exploration-with-in-situ-sampling/",
-      "summary": "Marco QuadrelliNASA Jet Propulsion Laboratory Humanity has never touched the particles of a planetary ring, but if we were able to get close enough and sample them, it will transform understanding of ring structure and o…",
-      "ts": 1784647418000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "ECLIPSE – Efficient variable Conductivity Lunar Insulator for Passive Surveyor Environmental control",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/eclipse-efficient-variable-conductivity-lunar-insulator-for-passive-surveyor-environmental-control/",
-      "summary": "Austin Phoenix Virginia Polytechnic Institute & State A disaggregated lunar infrastructure requires novel thermal management methods to enable future lunar operations. While thermal management solutions exist for large i…",
-      "ts": 1784647416000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Plasmon-Enhanced Radioisotope Thermophotovoltaic (PRTPV) Power Generation for Interstellar Missions",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/plasmon-enhanced-radioisotope-thermophotovoltaic-prtpv-power-generation-for-interstellar-missions/",
-      "summary": "Keunhan ParkUniversity of Utah This proposal seeks to develop a transformative energy system — the plasmon-enhanced radioisotope Thermophotovoltaic (PRTPV) generator — that significantly surpasses the performance of curr…",
-      "ts": 1784647413000,
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "Opinion: Pete Hegseth, ‘The Odyssey,’ and the testosterone myth",
       "url": "https://www.statnews.com/2026/07/21/connection-between-odyssey-military-tesosterone-screening/?utm_campaign=rss",
@@ -251,14 +227,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats",
-      "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/a-new-compact-instrument-enables-high-fidelity-measurements-of-energetic-particles-on-cubesats/",
-      "summary": "A team of NASA-sponsored scientists and engineers has developed a novel approach to observing high-energy particles in the near-Earth space environment, incorporating miniaturized sensors into a compact, multi-view parti…",
-      "ts": 1784638800000,
-      "categoryId": "space"
-    },
-    {
       "source": "MIT Technology Review",
       "title": "The Download: Chinese AI divides the White House, and a record copyright payout",
       "url": "https://www.technologyreview.com/2026/07/21/1140685/the-download-chinese-ai-divides-white-house-anthropic-copyright-settlement/",
@@ -289,78 +257,6 @@
       "summary": "Ambient scribe developer Nabla said Brian Manning will be the Paris-based company's new CEO as it looks to grow in a highly competitive market.",
       "ts": 1784635200000,
       "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Business as usual is a business of death’: UN adopts road safety pledge over US objection",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167993",
-      "summary": "The UN General Assembly closed its first ever High-level Meeting on road safety on Tuesday by adopting a sweeping new declaration aimed at halving road deaths by 2030 – over the sole objection of the United States.",
-      "ts": 1784635200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Sexual violence in DR Congo, deaths in Ukraine and Russia, crime in Southeast Asia",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167992",
-      "summary": "Independent UN human rights experts on Tuesday condemned the M23 armed group’s “reign of terror” over territory it controls in eastern Democratic Republic of the Congo (DRC), calling for an end to the Rwanda-backed group…",
-      "ts": 1784635200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Israeli attacks on Gaza intensify amid surge of West Bank settler violence",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167991",
-      "summary": "Amid intensified deadly Israeli attacks in Gaza, the UN chief and top officials condemned the killings while a surge violence rocked the West Bank and aid agencies scrambled to help Palestinians.",
-      "ts": 1784635200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Critical minerals: The hidden resources powering the clean energy future",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167990",
-      "summary": "Why are critical minerals suddenly at the centre of global politics?",
-      "ts": 1784635200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Guterres calls for stepping up diplomatic efforts to end US-Iran conflict",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167989",
-      "summary": "The United Nations again called for restraint as war ramps up in the Middle East, underscoring the need for dialogue and an end to attacks on “vital infrastructure” across the region.",
-      "ts": 1784635200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Global hunger declines again but progress remains uneven across regions",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167987",
-      "summary": "Global hunger declined for a third consecutive year in 2025 showing that progress is possible, but gains remain fragile and far too slow to achieve the Sustainable Development Goals (SDGs) by the 2030 deadline.",
-      "ts": 1784635200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN refugee agency reports 144 migrants dead or missing off Mauritanian coast",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167985",
-      "summary": "The UN’s refugee agency (UNHCR) reports that 144 migrants attempting to reach Europe are dead or missing due to a series of “tragic maritime incidents” off the coast of Mauritania last week.",
-      "ts": 1784635200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Spotlight on Syria as Guterres heads to Damascus",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167984",
-      "summary": "The Security Council discussed the situation on the ground in Syria amid reports of an Israeli attack in occupied territory and of a multi-national oil pipeline to counter the closure of the critical Strait of Hormuz – s…",
-      "ts": 1784635200000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "DR Congo: Ebola outbreak still expanding, WHO sees signs of stabilization",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1167983",
-      "summary": "In the Democratic Republic of the Congo (DRC), UN health teams and partners are still racing to contain the rapidly expanding Ebola outbreak, despite ongoing insecurity in eastern areas where the virus has taken hold. As…",
-      "ts": 1784635200000,
-      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -719,6 +615,110 @@
       "title": "The embodied brain: Bridging the brain, body, and behavior with biorealistic neuromechanical models",
       "url": "https://arxiv.org/abs/2601.08056",
       "summary": "arXiv:2601.08056v4 Announce Type: replace Abstract: Animal behavior reflects interactions between the nervous system, body, and environment. Therefore, biomechanics and environmental context must be considered to underst…",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Quantifying Avian Morphological Evolution through Deep Representation Learning",
+      "url": "https://arxiv.org/abs/2602.03824",
+      "summary": "arXiv:2602.03824v2 Announce Type: replace Abstract: The evolution of biological morphology is fundamentally linked to ecological adaptation and species survival, yet traditional morphological evolution relies on landmark…",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Dispersal diversity buffers species vulnerability to local extinction",
+      "url": "https://arxiv.org/abs/2604.26589",
+      "summary": "arXiv:2604.26589v2 Announce Type: replace Abstract: Predicting species persistence within ecological communities is a fundamental challenge for both empirical and theoretical ecology. Existing methods span from mechanist…",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Microsecond-precision sound localization emerges from slow equilibrium dynamics",
+      "url": "https://arxiv.org/abs/2607.03890",
+      "summary": "arXiv:2607.03890v3 Announce Type: replace Abstract: Precise sound localization relies on microsecond sensitivity to interaural time differences (ITDs), yet binaural perception exhibits sluggish tracking of dynamic acoust…",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A portable solution for simultaneous human movement and mobile EEG acquisition: readiness potential for basketball free-throw shooting",
+      "url": "https://arxiv.org/abs/2501.05378",
+      "summary": "arXiv:2501.05378v3 Announce Type: replace-cross Abstract: Advances in wireless electroencephalography (EEG) technology promise to record brain-electrical activity in everyday situations. To better understand the relation…",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Geometric origin of adversarial vulnerability in deep learning",
+      "url": "https://arxiv.org/abs/2509.01235",
+      "summary": "arXiv:2509.01235v2 Announce Type: replace-cross Abstract: Balancing training accuracy and adversarial robustness has beeen a challenge since the birth of deep learning. Here, we introduce a geometry-aware deep learning f…",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Computing Evolutionarily Stable Strategies in Imperfect-Information Games",
+      "url": "https://arxiv.org/abs/2512.10279",
+      "summary": "arXiv:2512.10279v5 Announce Type: replace-cross Abstract: We present an algorithm for computing evolutionarily stable strategies (ESSs) in symmetric perfect-recall extensive-form games of imperfect information. Our main …",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Where Do We Poop? City-Wide Simulation of Defecation Behavior for Wastewater-Based Epidemiology",
+      "url": "https://arxiv.org/abs/2601.04231",
+      "summary": "arXiv:2601.04231v3 Announce Type: replace-cross Abstract: Wastewater surveillance, which regularly measures pathogen biomarkers in wastewater samples, is a valuable tool for monitoring infectious diseases circulating in …",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Gene genealogies in haploid populations evolving according to sweepstakes reproduction",
+      "url": "https://arxiv.org/abs/2601.09537",
+      "summary": "arXiv:2601.09537v2 Announce Type: replace-cross Abstract: Sweepstakes reproduction may be generated by chance matching of reproduction with favorable environmental conditions. Gene genealogies generated by sweepstakes re…",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Universal Approximation Theorems for Dynamical Systems with Infinite-Time Horizon Guarantees",
+      "url": "https://arxiv.org/abs/2602.08640",
+      "summary": "arXiv:2602.08640v3 Announce Type: replace-cross Abstract: Universal approximation theorems establish the expressive capacity of neural network architectures. For dynamical systems, existing results are limited to finite …",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Emergence of generic first-passage time distributions for large Markovian networks",
+      "url": "https://arxiv.org/abs/2602.18265",
+      "summary": "arXiv:2602.18265v3 Announce Type: replace-cross Abstract: First-passage times are often the most relevant aspect of a complex Markovian network because they signify when information processing has resulted in a definite …",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Induction Meets Biology: Mechanisms of Repeat Detection in Protein Language Models",
+      "url": "https://arxiv.org/abs/2602.23179",
+      "summary": "arXiv:2602.23179v5 Announce Type: replace-cross Abstract: Protein sequences are abundant in repeating segments, both as exact copies and as approximate segments with mutations. These repeats are important for protein str…",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Life as Plasmas: Autonomy and Interactivism in-materio",
+      "url": "https://arxiv.org/abs/2607.09747",
+      "summary": "arXiv:2607.09747v2 Announce Type: replace-cross Abstract: When is a material system a candidate for life at all? We argue that this question is prior to behavior, functional architecture, or computational capacity, and t…",
+      "ts": 1784606400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "LATTICE: Graph Self-Supervised Learning for Multimodal Spatial Omics Integration",
+      "url": "https://arxiv.org/abs/2607.14410",
+      "summary": "arXiv:2607.14410v2 Announce Type: replace-cross Abstract: Spatially resolved omics studies increasingly combine transcriptomic and epigenomic assays, yet downstream analysis is often still performed using single-modality…",
       "ts": 1784606400000,
       "categoryId": "bio"
     }
