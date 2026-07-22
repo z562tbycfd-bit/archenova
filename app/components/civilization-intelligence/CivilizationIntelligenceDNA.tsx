@@ -1449,6 +1449,53 @@ useEffect(() => {
           ? "PAUSED"
           : "STANDBY";
 
+        const runtimePathway =
+  EPISTEME_ORGAN_ORDER.map(
+    (organId, index) => {
+      const binding =
+        bridge.organs[organId];
+
+      const runtimeOrgan =
+        bridge.runtime.organs[organId];
+
+      const content =
+        ORGAN_CONTENT[organId];
+
+      const progress =
+        normalizePercentage(
+          runtimeOrgan.progress,
+        );
+
+      const state =
+        binding.isActive
+          ? "ACTIVE"
+          : binding.isCompleted
+            ? "PROCESSED"
+            : binding.isNext
+              ? "NEXT"
+              : "WAITING";
+
+      return {
+        organId,
+        index,
+        numeral:
+          binding.numeral,
+        phase:
+          content.phase,
+        title:
+          content.title,
+        progress,
+        state,
+        isActive:
+          binding.isActive,
+        isCompleted:
+          binding.isCompleted,
+        isNext:
+          binding.isNext,
+      };
+    },
+  );  
+
   const recentSignals =
  useMemo<RecentSignalView[]>(() => {
   if (!dashboard) {
@@ -1642,13 +1689,138 @@ const signalSearchEntries =
   className="ci-runtime-caption"
   aria-live="polite"
 >
+  <span>
+    Monitoring science, engineering, and governance sources.
+  </span>
 
-  
+  <time
+    dateTime={
+      lastSynchronizedAt?.toISOString()
+    }
+  >
+    {lastSynchronizedAt
+      ? `Last synchronized ${formatSynchronizationTime(
+          lastSynchronizedAt,
+        )}`
+      : "Synchronization timestamp unavailable"}
+  </time>
 </div>
- 
+
+<section
+  className="ci-cycle-pathway"
+  aria-labelledby="ci-cycle-pathway-title"
+>
+  <header className="ci-cycle-pathway__header">
+    <div>
+      <span>
+        RUNTIME PATHWAY
+      </span>
+
+      <h2 id="ci-cycle-pathway-title">
+        Intelligence Cycle
+      </h2>
+    </div>
+
+    <p>
+      Knowledge advances through six cognitive
+      organs before entering civilization memory.
+    </p>
+  </header>
+
+  <ol className="ci-cycle-pathway__list">
+    {runtimePathway.map(
+      (
+        pathwayOrgan,
+        index,
+      ) => (
+        <li
+          key={
+            pathwayOrgan.organId
+          }
+          className={[
+            "ci-cycle-node",
+            pathwayOrgan.isActive
+              ? "is-active"
+              : null,
+            pathwayOrgan.isCompleted
+              ? "is-completed"
+              : null,
+            pathwayOrgan.isNext
+              ? "is-next"
+              : null,
+          ]
+            .filter(Boolean)
+            .join(" ")}
+        >
+          <button
+            type="button"
+            onClick={() =>
+              setSelectedDetail(
+                createOrganDetail(
+                  pathwayOrgan.organId,
+                  pathwayOrgan.state,
+                  pathwayOrgan.progress,
+                ),
+              )
+            }
+            aria-label={`Inspect ${pathwayOrgan.title}`}
+          >
+            <div className="ci-cycle-node__top">
+              <span>
+                {pathwayOrgan.numeral}
+              </span>
+
+              <small>
+                {pathwayOrgan.state}
+              </small>
+            </div>
+
+            <strong>
+              {pathwayOrgan.title}
+            </strong>
+
+            <p>
+              {pathwayOrgan.phase}
+            </p>
+
+            <div
+              className="ci-cycle-node__progress"
+              aria-label={`${pathwayOrgan.progress}% complete`}
+            >
+              <i
+                style={{
+                  width:
+                    `${pathwayOrgan.progress}%`,
+                }}
+              />
+            </div>
+
+            <span className="ci-cycle-node__value">
+              {formatPercentage(
+                pathwayOrgan.progress,
+              )}
+            </span>
+          </button>
+
+          {index <
+            runtimePathway.length -
+              1 && (
+            <span
+              className="ci-cycle-connector"
+              aria-hidden="true"
+            >
+              <i />
+              <ArrowIcon />
+            </span>
+          )}
+        </li>
+      ),
+    )}
+  </ol>
+</section>
+
  </div>
- 
- </section>
+      </section>
 
       <section className="ci-organs">
         <div className="ci-shell">
@@ -2584,6 +2756,304 @@ const signalSearchEntries =
   color: rgba(220, 232, 247, 0.58);
 
   white-space: nowrap;
+}
+
+.ci-cycle-pathway {
+  width: 100%;
+
+  margin-top: 38px;
+  padding: 28px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.09);
+
+  border-radius: 28px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.048),
+      rgba(255, 255, 255, 0.008)
+    ),
+    rgba(5, 16, 30, 0.2);
+
+  backdrop-filter:
+    saturate(145%)
+    blur(26px);
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.1),
+    0 30px 90px
+      rgba(0, 0, 0, 0.16);
+}
+
+.ci-cycle-pathway__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 28px;
+
+  margin-bottom: 26px;
+}
+
+.ci-cycle-pathway__header > div > span {
+  color: var(--dim);
+
+  font-size: 9px;
+  font-weight: 650;
+  letter-spacing: 0.2em;
+}
+
+.ci-cycle-pathway__header h2 {
+  margin: 8px 0 0;
+
+  font-size: 25px;
+  font-weight: 350;
+  letter-spacing: -0.035em;
+}
+
+.ci-cycle-pathway__header p {
+  max-width: 430px;
+  margin: 0;
+
+  color: var(--muted);
+
+  font-size: 11px;
+  line-height: 1.65;
+
+  text-align: right;
+}
+
+.ci-cycle-pathway__list {
+  display: grid;
+  grid-template-columns:
+    repeat(
+      6,
+      minmax(0, 1fr)
+    );
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.ci-cycle-node {
+  position: relative;
+
+  min-width: 0;
+}
+
+.ci-cycle-node > button {
+  width: calc(100% - 18px);
+  min-height: 174px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 18px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.075);
+
+  border-radius: 20px;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+
+  color: inherit;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.28s ease,
+    background 0.28s ease,
+    border-color 0.28s ease,
+    box-shadow 0.28s ease;
+}
+
+.ci-cycle-node > button:hover {
+  transform:
+    translateY(-3px);
+
+  border-color:
+    rgba(158, 223, 255, 0.22);
+
+  background:
+    rgba(158, 223, 255, 0.055);
+}
+
+.ci-cycle-node > button:focus-visible {
+  outline:
+    1px solid
+    rgba(158, 223, 255, 0.72);
+
+  outline-offset: 4px;
+}
+
+.ci-cycle-node__top {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.ci-cycle-node__top > span {
+  color:
+    rgba(231, 242, 252, 0.62);
+
+  font-family:
+    Georgia,
+    serif;
+
+  font-size: 21px;
+}
+
+.ci-cycle-node__top small {
+  color: var(--dim);
+
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+.ci-cycle-node > button > strong {
+  margin-top: 19px;
+
+  font-size: 13px;
+  font-weight: 470;
+  line-height: 1.35;
+}
+
+.ci-cycle-node > button > p {
+  margin: 6px 0 0;
+
+  color: var(--dim);
+
+  font-size: 8px;
+  letter-spacing: 0.15em;
+}
+
+.ci-cycle-node__progress {
+  width: 100%;
+  height: 2px;
+
+  margin-top: auto;
+
+  overflow: hidden;
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.07);
+}
+
+.ci-cycle-node__progress i {
+  display: block;
+
+  height: 100%;
+
+  border-radius: inherit;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(158, 223, 255, 0.48),
+      rgba(158, 223, 255, 1)
+    );
+
+  box-shadow:
+    0 0 12px
+    rgba(158, 223, 255, 0.45);
+
+  transition:
+    width 0.42s ease;
+}
+
+.ci-cycle-node__value {
+  display: block;
+
+  margin-top: 8px;
+
+  color: var(--dim);
+
+  font-size: 8px;
+}
+
+.ci-cycle-connector {
+  position: absolute;
+
+  top: 50%;
+  right: 0;
+
+  width: 18px;
+
+  display: flex;
+  align-items: center;
+
+  color:
+    rgba(158, 223, 255, 0.32);
+
+  transform:
+    translateY(-50%);
+
+  pointer-events: none;
+}
+
+.ci-cycle-connector i {
+  width: 8px;
+  height: 1px;
+
+  background:
+    currentColor;
+}
+
+.ci-cycle-connector svg {
+  width: 10px;
+  height: 10px;
+}
+
+.ci-cycle-node.is-active > button {
+  border-color:
+    rgba(135, 241, 198, 0.3);
+
+  background:
+    radial-gradient(
+      circle at 80% 12%,
+      rgba(135, 241, 198, 0.14),
+      transparent 38%
+    ),
+    rgba(135, 241, 198, 0.045);
+
+  box-shadow:
+    0 0 45px
+      rgba(135, 241, 198, 0.07),
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.1);
+}
+
+.ci-cycle-node.is-active
+.ci-cycle-node__top small {
+  color: var(--green);
+}
+
+.ci-cycle-node.is-completed
+.ci-cycle-node__top small {
+  color:
+    rgba(158, 223, 255, 0.76);
+}
+
+.ci-cycle-node.is-next > button {
+  border-color:
+    rgba(158, 223, 255, 0.15);
 }
 
         .ci-organs,
@@ -4243,6 +4713,24 @@ white-space:nowrap;
 }
 
         @media (max-width: 1000px) {
+
+.ci-cycle-pathway__list {
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap:
+    16px
+    0;
+}
+
+.ci-cycle-node:nth-child(3)
+.ci-cycle-connector {
+  display: none;
+}
+
   .ci-organ {
     grid-template-columns:
       86px
@@ -4345,6 +4833,43 @@ white-space:nowrap;
         }
 
         @media (max-width: 540px) {
+
+        .ci-cycle-pathway {
+  margin-top: 28px;
+  padding:
+    22px
+    18px;
+
+  border-radius: 24px;
+}
+
+.ci-cycle-pathway__header {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+.ci-cycle-pathway__header p {
+  max-width: none;
+
+  text-align: left;
+}
+
+.ci-cycle-pathway__list {
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.ci-cycle-node > button {
+  width: 100%;
+  min-height: 124px;
+}
+
+.ci-cycle-connector {
+  display: none;
+}
 
         .ci-organ-action {
   width: auto;

@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-22T00:21:52.835Z",
+  "updated": "2026-07-22T00:49:19.268Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Breastfeeding rather than bottle-feeding is seen as the ideal of a good mother in Instagram comments",
+      "url": "https://phys.org/news/2026-07-breastfeeding-bottle-ideal-good-mother.html",
+      "summary": "A study by Pompeu Fabra University (UPF) analyzes Instagram discourse that associates the ideal of being a good mother with exclusive breastfeeding and fosters guilt among women who cannot or do not wish to breastfeed, o…",
+      "ts": 1784680801000
+    },
     {
       "source": "Phys.org",
       "title": "Testing innovation speeds up detection of deadly tick-borne disease",
@@ -693,13 +700,6 @@
       "title": "Perfect Absorption in the Critically Damped Regime",
       "url": "https://arxiv.org/abs/2607.17172",
       "summary": "arXiv:2607.17172v1 Announce Type: new Abstract: We revisit the conditions for perfect electromagnetic absorption in a homogeneous lossy layer on a reflecting substrate. Using phasor diagram analysis, we demonstrate a fun…",
-      "ts": 1784606400000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Managing Uncertainty in Life Detection: Venus and Mars Claims Compared",
-      "url": "https://arxiv.org/abs/2607.17217",
-      "summary": "arXiv:2607.17217v1 Announce Type: new Abstract: Detection claims surrounding life beyond Earth often attract intense attention because the question of whether we are alone in the cosmos carries unusually high scientific,…",
       "ts": 1784606400000
     }
   ],

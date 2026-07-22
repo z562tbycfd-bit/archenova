@@ -1,7 +1,32 @@
 {
   "ok": true,
-  "updated": "2026-07-22T00:22:02.718Z",
+  "updated": "2026-07-22T00:49:27.142Z",
   "items": [
+    {
+      "id": "civilization-engineering-breastfeeding-rather-than-bottle-feeding-is-seen-as-the-ideal-of-a-good-mother-i",
+      "title": "Breastfeeding rather than bottle-feeding is seen as the ideal of a good mother in Instagram comments",
+      "source": "Phys.org",
+      "originalUrl": "https://phys.org/news/2026-07-breastfeeding-bottle-ideal-good-mother.html",
+      "category": "Civilization Engineering",
+      "observation": "A study by Pompeu Fabra University (UPF) analyzes Instagram discourse that associates the ideal of being a good mother with exclusive breastfeeding and fosters guilt among women who cannot or do not wish to breastfeed, o…",
+      "implication": "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "commentary": "Breastfeeding rather than bottle-feeding is seen as the ideal of a good mother in Instagram comments should not be interpreted only as a news item. From the ArcheNova perspective, it is a Civilization Engineering signal: This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
+      "score": {
+        "realityDiscovery": 6.2,
+        "capabilityExpansion": 6.2,
+        "infrastructureImpact": 6.2,
+        "synchronizationImpact": 6.2,
+        "adaptiveCapacity": 6.2,
+        "civilizationImpact": 7.3,
+        "overall": 6.4
+      },
+      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+      "civilizationFunction": "Civilization Engineering",
+      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "ts": 1784680801000
+    },
     {
       "id": "adaptive-capacity-testing-innovation-speeds-up-detection-of-deadly-tick-borne-disease",
       "title": "Testing innovation speeds up detection of deadly tick-borne disease",
@@ -551,31 +576,6 @@
       "civilizationFunction": "Adaptive Capacity",
       "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
       "ts": 1784670601000
-    },
-    {
-      "id": "adaptive-capacity-uncovering-multidimensional-effects-of-generative-ai-on-learning",
-      "title": "Uncovering multidimensional effects of generative AI on learning",
-      "source": "Phys.org",
-      "originalUrl": "https://phys.org/news/2026-07-uncovering-multidimensional-effects-generative-ai.html",
-      "category": "Adaptive Capacity",
-      "observation": "A research team consisting of researcher Somi Joo, Professor Changjun Lee and Professor Daeho Lee from the Sungkyunkwan University (SKKU) Department of Artificial Intelligence Convergence have published a study comprehen…",
-      "implication": "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "commentary": "Uncovering multidimensional effects of generative AI on learning should not be interpreted only as a news item. From the ArcheNova perspective, it is a Adaptive Capacity signal: This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
-      "score": {
-        "realityDiscovery": 5.5,
-        "capabilityExpansion": 5.5,
-        "infrastructureImpact": 5.5,
-        "synchronizationImpact": 5.5,
-        "adaptiveCapacity": 8.9,
-        "civilizationImpact": 6.9,
-        "overall": 6.2
-      },
-      "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-      "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-      "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-      "civilizationFunction": "Adaptive Capacity",
-      "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "ts": 1784670006000
     },
     {
       "id": "reality-discovery-spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites",
