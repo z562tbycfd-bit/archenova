@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-23T06:05:04.865Z",
+  "updated": "2026-07-23T09:25:21.535Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA staff and peptide enthusiasts set to clash at advisory panel",
+      "url": "https://www.statnews.com/2026/07/23/fda-advisory-panel-peptide-safety-compounding-pharmacies/?utm_campaign=rss",
+      "summary": "FDA advisers are set to consider whether allowing compounding pharmacies to offer largely unproven peptides is a safer bet than the gray-market versions now in use.",
+      "ts": 1784795400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Good riddance to bundled ‘global’ maternal care billing",
+      "url": "https://www.statnews.com/2026/07/23/global-maternity-care-billing-acog-explains/?utm_campaign=rss",
+      "summary": "New maternal billing codes should create a transparent system where both patients and clinicians can thrive, ACOG writes.",
+      "ts": 1784795400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: New billing codes likely to raise maternity care costs",
+      "url": "https://www.statnews.com/2026/07/23/global-billing-maternity-care-mistake/?utm_campaign=rss",
+      "summary": "“This change is likely to lead to only modest increases in total medical expenses. However, it coincides with many other factors raising health insurance premiums,” writes Jeff Levin-Scherz.",
+      "ts": 1784795400000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump promised redemption for troops who refused Covid shots. A year later, many are still waiting",
+      "url": "https://www.statnews.com/2026/07/23/veterans-face-long-covid-vaccine-reinstatement-process/?utm_campaign=rss",
+      "summary": "Veterans who want to rejoin the military are often bogged down in bureaucratic red tape.",
+      "ts": 1784795400000,
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "Olympic Mountain Glory",
@@ -467,6 +499,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "ESA",
+      "title": "Improved reporting needed on forest carbon emissions",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Improved_reporting_needed_on_forest_carbon_emissions",
+      "summary": "More analysis is needed to ensure that tropical forest degeneration and regeneration are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change…",
+      "ts": 1784725200000,
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "The strategic competition with China: winning the multi-domain race",
       "url": "https://spacenews.com/the-strategic-competition-with-china-winning-the-multi-domain-race/",
@@ -679,46 +719,6 @@
       "title": "Evaluating the Impact of Epidemic Control via State-Dependent Markovian Switching Modeling",
       "url": "https://arxiv.org/abs/2607.18364",
       "summary": "arXiv:2607.18364v1 Announce Type: new Abstract: We develop an exact finite-population stochastic framework for SIR epidemics evolving under Markovian switching between intervention regimes. The epidemic state is augmente…",
-      "ts": 1784692800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Analysis of inter-spike interval statistics in neuronal networks with depolarizing and hyperpolarizing threshold potentials",
-      "url": "https://arxiv.org/abs/2607.18428",
-      "summary": "arXiv:2607.18428v1 Announce Type: new Abstract: Neuronal communication is mediated in part by changes in neuronal firing rates. The time interval between successive neuronal firings is referred to as the inter-spike inte…",
-      "ts": 1784692800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Gravity-Driven Eco-Epidemiological Dynamics in Tri-Trophic Food Chains",
-      "url": "https://arxiv.org/abs/2607.18434",
-      "summary": "arXiv:2607.18434v1 Announce Type: new Abstract: Ecological communities are shaped by the interplay between trophic interactions and infectious disease, yet how spatially mediated interactions influence disease-driven eco…",
-      "ts": 1784692800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Competitive and Complementary Tools",
-      "url": "https://arxiv.org/abs/2607.18460",
-      "summary": "arXiv:2607.18460v1 Announce Type: new Abstract: Humans have always externalized thought onto tools, from the tally and the abacus to the map and, now, large language models. I model the agent, the tool, and the task as o…",
-      "ts": 1784692800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Engineering T7 RNA Polymerase for High-Purity In Vitro Transcription",
-      "url": "https://arxiv.org/abs/2607.18468",
-      "summary": "arXiv:2607.18468v1 Announce Type: new Abstract: In vitro transcription using bacteriophage T7 RNA polymerase (T7 RNAP) is the gold-standard platform for RNA production in both research and therapeutic applications. Despi…",
-      "ts": 1784692800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Additional Food Enhances the Bifurcation Structure of Predator Competition Models",
-      "url": "https://arxiv.org/abs/2607.18613",
-      "summary": "arXiv:2607.18613v1 Announce Type: new Abstract: Additional food sources and predator competition are both known to impact the dynamics of predator-prey models. The Bazykin model of predator competition, with Holling type…",
       "ts": 1784692800000,
       "categoryId": "bio"
     }

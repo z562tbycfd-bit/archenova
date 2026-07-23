@@ -1,7 +1,49 @@
 {
   "ok": true,
-  "updated": "2026-07-23T06:05:01.941Z",
+  "updated": "2026-07-23T09:25:18.742Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate change making Europe drought 'more severe': study",
+      "url": "https://phys.org/news/2026-07-climate-europe-drought-severe.html",
+      "summary": "Human-caused climate change has intensified a drought across Europe, with extreme heat rather than low rainfall driving the exceptionally dry conditions, a team of international scientists said Thursday.",
+      "ts": 1784797212000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Striped or checkered? Magnetic field influences competing electronic patterns in a graphene-like quantum material",
+      "url": "https://phys.org/news/2026-07-striped-checkered-magnetic-field-electronic.html",
+      "summary": "In most everyday materials, such as copper, silver and silicon, the behavior of electrons is relatively predictable. In quantum materials, however, electrons can interact in complex ways, giving rise to collective electr…",
+      "ts": 1784797210000
+    },
+    {
+      "source": "Phys.org",
+      "title": "National food waste recycling promises major climate gains but comes with microplastic risks",
+      "url": "https://phys.org/news/2026-07-national-food-recycling-major-climate.html",
+      "summary": "Keeping food waste out of landfills provides climate and other environmental benefits, and Vermont requires residents to divert these materials to better management pathways. With other states considering similar policie…",
+      "ts": 1784797203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "In Ghana, one man's race to save critically endangered fish",
+      "url": "https://phys.org/news/2026-07-ghana-critically-endangered-fish.html",
+      "summary": "As dawn breaks over Ghana's Atlantic coast, artisanal fishing boats return to shore with last night's catch—baskets of snapper, crabs, rays and a distinct-looking fish locals call \"esene.\"",
+      "ts": 1784797201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "June heat wave cost UK economy more than £1bn: Study",
+      "url": "https://phys.org/news/2026-07-june-uk-economy-1bn.html",
+      "summary": "Britain's record-breaking June heat wave resulted in some 24 million lost hours of work, costing the economy £1.15 billion ($1.5 billion), according to an estimate released Thursday by the London School of Economics (LSE…",
+      "ts": 1784795403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Florida researchers bring endangered elkhorn coral ashore to protect them",
+      "url": "https://phys.org/news/2026-07-florida-endangered-elkhorn-coral-ashore.html",
+      "summary": "Scientists working to save a coral species from extinction transported 30 pieces from nurseries off the Florida coast to a hatchery on land Wednesday, fearing that warming waters could trigger a mass bleaching event this…",
+      "ts": 1784794584000
+    },
     {
       "source": "Phys.org",
       "title": "Orcas filmed ramming one of the world's heaviest fish so hard it explodes, possibly for fun",
@@ -658,48 +700,6 @@
       "title": "Multi-modal transformer for signal classification in nanopore blockade experiments",
       "url": "https://arxiv.org/abs/2607.20323",
       "summary": "arXiv:2607.20323v1 Announce Type: cross Abstract: Nanopore devices have emerged as powerful tools for single-molecule sensing, with potential for rapid, portable diagnostics. They detect changes in ionic current as analy…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collective Electronic Entanglement via Infrared Cavity-Induced Vibronic Transduction",
-      "url": "https://arxiv.org/abs/2607.20333",
-      "summary": "arXiv:2607.20333v1 Announce Type: cross Abstract: Polaritonic architectures seek to engineer molecular properties by hybridizing localized degrees of freedom with delocalized optical cavity fields. However, scaling laws …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interval and fuzzy physics-augmented neural networks (iPANN and fPANN) for uncertainty quantification and propagation in constitutive modeling",
-      "url": "https://arxiv.org/abs/2607.20339",
-      "summary": "arXiv:2607.20339v1 Announce Type: cross Abstract: Constitutive modeling under uncertainty remains a central challenge for reliable mechanics simulations, particularly when the available stress-deformation data are sparse…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "IteraSim RAG: A Multi-Stage Retrieval-Augmented Agentic Back-End for OpenFOAM-Based Computational Fluid Dynamics",
-      "url": "https://arxiv.org/abs/2607.20346",
-      "summary": "arXiv:2607.20346v1 Announce Type: cross Abstract: Configuring a computational fluid dynamics (CFD) case in OpenFOAM requires assembling a multi-directory input deck of mutually consistent solver, discretisation and bound…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization",
-      "url": "https://arxiv.org/abs/2607.20382",
-      "summary": "arXiv:2607.20382v1 Announce Type: cross Abstract: Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integra…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flux-Corrected Diagonal Frog: second order and positivity at all time steps",
-      "url": "https://arxiv.org/abs/2607.20415",
-      "summary": "arXiv:2607.20415v1 Announce Type: cross Abstract: By Godunov's theorem, linear second-order finite-difference schemes for the Fokker-Planck equation cannot preserve positivity. The Diagonal Frog (DF) framework previously…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimal Finite-Time Control of Nonreciprocal Brownian Dimers: Thermodynamic Anomaly and Multiple Transitions",
-      "url": "https://arxiv.org/abs/2607.20420",
-      "summary": "arXiv:2607.20420v1 Announce Type: cross Abstract: We solve exactly a finite-time thermodynamic optimal control problem for two nonreciprocally interacting Brownian particles translated by two harmonic traps. The controll…",
       "ts": 1784779200000
     }
   ],
