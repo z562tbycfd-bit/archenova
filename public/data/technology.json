@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-23T18:14:28.309Z",
+  "updated": "2026-07-23T20:15:05.087Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: In win for RFK Jr., FDA advisory panel narrowly votes to allow compounding of unapproved peptides",
+      "url": "https://www.statnews.com/2026/07/23/fda-panel-okays-peptides-compound-pharmacies-bpc-157-kpv/?utm_campaign=rss",
+      "summary": "The panel recommended allowing compounding pharmacies to produce popular but unproven BPC-157 and KPV peptides.",
+      "ts": 1784837336000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Mark Matossian co-founds Whipsmart Ventures to fund space and deep tech",
+      "url": "https://spacenews.com/mark-matossian-co-founds-whipsmart-ventures-for-space-and-deep-tech/",
+      "summary": "SAN FRANCISCO – Space startup veteran Mark Matossian has joined forces with a software engineer and a best-selling author to establish Whipsmart Ventures, a venture capital fund focused on space […] The post Mark Matossi…",
+      "ts": 1784834593000,
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Look for NASA+ Now Streaming on Amazon Fire TV",
+      "url": "https://www.nasa.gov/news-release/look-for-nasa-now-streaming-on-amazon-fire-tv/",
+      "summary": "Continuing agency efforts to bring space closer to home, NASA+ is heading to more streaming platforms. On Thursday, NASA announced its programming is on Fire TV Channels. Fire TV customers can easily access this content …",
+      "ts": 1784833889000,
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Autism-Like Traits in Mice Improved After Single Rapamycin Dose",
+      "url": "https://www.genengnews.com/topics/translational-medicine/autism-like-traits-in-mice-improved-after-single-rapamycin-dose/",
+      "summary": "The results of a mouse study suggest that inflammation during pregnancy can trigger autism-like brain and behavior changes in offspring, and that the effects may be rapidly but temporarily reversible in adulthood with a …",
+      "ts": 1784832046000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Turning Solar Power Into Protein",
+      "url": "https://www.genengnews.com/topics/omics/turning-solar-power-into-protein/",
+      "summary": "Solar energy generates electricity to produce hydrogen, which combines with carbon dioxide to make methanol. Specialized enzymes then convert methanol into specific amino acids, depending on the enzyme combination used. …",
+      "ts": 1784829605000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Midlife Brain Aging Linked to Immune Cell Remodeling, Blood-Brain Barrier Decline",
@@ -17,6 +57,14 @@
       "summary": "Federal health officials are investigating a new outbreak involving the diarrhea-causing parasite cyclospora.",
       "ts": 1784827503000,
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 359 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-359-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1784826006000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "MIT Technology Review",
@@ -673,54 +721,6 @@
       "summary": "“Hospitals often make Argentina’s mistake: We confuse continuity with progress,” writes physician, hospital administrator, and bioethicist Basel Tarab.",
       "ts": 1784737544000,
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AI Protein Engineering Model Designed for Biomanufacturing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/ai-protein-engineering-model-designed-for-biomanufacturing/",
-      "summary": "Generating biomanufacturing-relevant data on protein production in a large-scale, AI-enabled database is still rare. When commercialized, it may substantially improve development timelines and optimization success rates.…",
-      "ts": 1784736039000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Cell-Therapy Manufacturers Get Creative on Checking Particulates",
-      "url": "https://www.genengnews.com/topics/bioprocessing/cell-therapy-manufacturers-get-creative-on-checking-particulates/",
-      "summary": "Manufacturers are developing innovative techniques to test for particulates in cell-containing products amid unclear regulatory guidance. Process simulation, minimizing particulates during production, and choosing the ri…",
-      "ts": 1784736029000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Scaling Cell and Gene Therapy Manufacturing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/scaling-manufacturing-of-cell-and-gene-therapies/",
-      "summary": "Cell and gene therapy leaders discuss the industry’s biggest bioprocessing challenges, from manufacturing scalability and raw-material variability to infrastructure readiness, and explain the strategies they believe will…",
-      "ts": 1784736023000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Hybrid Single-Use and Stainless-Steel Plants the Greener Option",
-      "url": "https://www.genengnews.com/topics/bioprocessing/hybrid-single-use-and-stainless-steel-plants-the-greener-option/",
-      "summary": "Single-use technologies (SUTs) are less environmentally friendly than previously thought, according to new research. In some cases stainless steel technologies (SSTs) are the more sustainable option. Better still may be …",
-      "ts": 1784736022000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Mapping Io’s Hidden Heat With NASA’s Juno",
-      "url": "https://science.nasa.gov/photojournal/mapping-ios-hidden-heat-with-nasas-juno/",
-      "summary": "Description This graphic illustrates the areas of Jupiter’s moon Io sampled by the Microwave Radiometer (MWR) instrument aboard NASA’s Juno spacecraft during two close flybys. The black overlapping lines show the instrum…",
-      "ts": 1784732419000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Juno Peers Beneath Io’s Surface",
-      "url": "https://science.nasa.gov/photojournal/nasas-juno-peers-beneath-ios-surface/",
-      "summary": "Description This map represents data captured by the Microwave Radiometer (MWR) aboard NASA’s Juno spacecraft, indicating heat rising from just beneath the surface of Jupiter’s moon Io. While infrared instruments measure…",
-      "ts": 1784732338000,
-      "categoryId": "space"
     }
   ],
   "categories": [

@@ -1,7 +1,112 @@
 {
   "ok": true,
-  "updated": "2026-07-23T18:14:25.877Z",
+  "updated": "2026-07-23T20:15:01.370Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Spent coffee grounds reveal a route to biodiesel and other bio-based products",
+      "url": "https://phys.org/news/2026-07-spent-coffee-grounds-reveal-route.html",
+      "summary": "Coffee grounds that usually end up being thrown away can have a second life as a raw material for producing biofuels and other high-value-added products. A study by the Universitat Rovira i Virgili (URV) has evaluated ho…",
+      "ts": 1784837401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New physics-based metric improves estimates of climate-driven cooling demand",
+      "url": "https://phys.org/news/2026-07-physics-based-metric-climate-driven.html",
+      "summary": "New research led by atmospheric scientists at the University of Hawai'i (UH) at Mānoa found that the century-old yardstick used across many industries to estimate air-conditioning and refrigeration energy demand—called c…",
+      "ts": 1784836805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Melts in your mouth, but not in your car: The ongoing scientific quest to create heat‑resistant chocolate",
+      "url": "https://phys.org/news/2026-07-mouth-car-ongoing-scientific-quest.html",
+      "summary": "There are few pleasures greater than letting a piece of chocolate melt slowly on your tongue. Indeed, the proximity of chocolate's melting point to our own body temperature is one reason it is so widely appreciated.",
+      "ts": 1784836801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "First 3D nanoscale maps of human airway epithelium reveal hidden architecture of lung defense cells",
+      "url": "https://phys.org/news/2026-07-3d-nanoscale-human-airway-epithelium.html",
+      "summary": "Researchers at Queen Mary University of London and University of Cambridge in collaboration with colleagues at HHMI Janelia and NIH, have created some of the most detailed three-dimensional maps ever generated of human a…",
+      "ts": 1784836201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lithium ions sprint up to 10,000 times faster when their molecular cages briefly open",
+      "url": "https://phys.org/news/2026-07-lithium-ions-sprint-faster-molecular.html",
+      "summary": "An international collaborative research group led by Professor Bong June Sung of the Department of Chemistry at Sogang University and Professor Shinji Saito of the Institute for Molecular Science (IMS), National Institut…",
+      "ts": 1784835611000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Neutral catalysts achieve chalcogen-bonding asymmetry",
+      "url": "https://phys.org/news/2026-07-neutral-catalysts-chalcogen-bonding-asymmetry.html",
+      "summary": "Chemists have demonstrated that neutral chalcogen-bond donors can induce asymmetry in chemical reactions, addressing a challenge that has limited the development of chalcogen-bonding catalysis.",
+      "ts": 1784835605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Zebrafish rebuild damaged 'second brain' networks in nine days, offering clues for nerve repair",
+      "url": "https://phys.org/news/2026-07-zebrafish-rebuild-brain-networks-days.html",
+      "summary": "Why can zebrafish regenerate damaged gut nerves while humans largely cannot? Michigan State University researchers have developed a new research tool that allows them to remove gut neurons in zebrafish and watch them reg…",
+      "ts": 1784835001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Yeast survives after all 300 known spliceosomal introns are removed",
+      "url": "https://phys.org/news/2026-07-yeast-survives-spliceosomal-introns.html",
+      "summary": "Spliceosomal introns are noncoding DNA sequences located between exons in many eukaryotic protein-coding genes. Most are removed post-transcriptionally by RNA splicing and do not encode proteins, but they have been impli…",
+      "ts": 1784834405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trace DNA reveals critically endangered Chinese bahaba in Hong Kong after decade without records",
+      "url": "https://phys.org/news/2026-07-dna-reveals-critically-endangered-chinese.html",
+      "summary": "The Chinese bahaba (Bahaba taipingensis), a marine fish species endemic to the Chinese coast and known as the \"Panda of the Sea,\" is critically endangered and one of the few marine fish listed as a first-class protected …",
+      "ts": 1784834402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanopores can activate human T cells without biochemical signals",
+      "url": "https://phys.org/news/2026-07-nanopores-human-cells-biochemical.html",
+      "summary": "Immune cells protect and heal the human body. In medicine, they are specifically activated through biochemical reactions to treat certain diseases. Researchers at the Helmholtz-Zentrum Hereon, ETH Zurich, Humboldt Univer…",
+      "ts": 1784833203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How AI is helping states cut through decades of red tape",
+      "url": "https://phys.org/news/2026-07-ai-states-decades-red-tape.html",
+      "summary": "Bureaucracy moves slowly, and decades of outdated provisions clogging the bylaws of cities and states only make it worse. Sometimes dubbed \"policy sludge,\" such obsolete processes and stale reporting requirements can tra…",
+      "ts": 1784833201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Less cannabis use among adolescents, but social disparities persist",
+      "url": "https://phys.org/news/2026-07-cannabis-adolescents-social-disparities-persist.html",
+      "summary": "Past studies have shown that cannabis use during adolescence is associated with a variety of negative impacts—including emotional distress, adverse academic outcomes, and brain development and functioning—that can persis…",
+      "ts": 1784832008000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Virtual café experiment finds Japanese participants keep greater distance than Italians",
+      "url": "https://phys.org/news/2026-07-virtual-caf-japanese-greater-distance.html",
+      "summary": "How close do we stand to other people during a social interaction? The distance we maintain between our body and that of another person—known as interpersonal distance—is a fundamental aspect of everyday life. It influen…",
+      "ts": 1784832004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum Newton's cradle set to level up computing",
+      "url": "https://phys.org/news/2026-07-quantum-newton-cradle.html",
+      "summary": "Sending quantum information through a chain of qubits, like energy through a Newton's cradle, could be the key to faster operations and take quantum computing to the next level.",
+      "ts": 1784830803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Recycling does not weaken support for broader climate action, survey finds",
+      "url": "https://phys.org/news/2026-07-recycling-weaken-broader-climate-action.html",
+      "summary": "In research published in npj Climate Action, UNSW Sydney behavioral scientists, in collaboration with researchers from Griffith University, say they found no evidence for claims that climate action at the individual leve…",
+      "ts": 1784830801000
+    },
     {
       "source": "Science News",
       "title": "Different moon rocks tell different tales about a long-ago bombardment",
@@ -76,7 +181,7 @@
       "source": "Phys.org",
       "title": "Fields medal awarded to four young mathematicians",
       "url": "https://phys.org/news/2026-07-fields-medal-awarded-young-mathematicians.html",
-      "summary": "The Fields Medal, known as the Nobel Prize of mathematics, was awarded Thursday to four people—two Chinese citizens, one American and one Canadian.",
+      "summary": "The Fields Medal, known as the Nobel Prize for mathematics, was awarded Thursday to four people—two Chinese citizens, one American and one Canadian.",
       "ts": 1784827229000
     },
     {
@@ -595,111 +700,6 @@
       "title": "From risk to flourishing: Seeds for responding to a complex world",
       "url": "https://arxiv.org/abs/2607.19685",
       "summary": "arXiv:2607.19685v1 Announce Type: new Abstract: Flourishing is the actualization of all beings toward their good -- not only individually but collectively, answering the question of `how do we live well with and for each…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The spectral picture of self-similar collapse in the Constantin-Lax-Majda equation",
-      "url": "https://arxiv.org/abs/2607.19762",
-      "summary": "arXiv:2607.19762v1 Announce Type: new Abstract: We give a spectral description of the self-similar collapse profile of the Constantin-Lax-Majda (CLM) equation, the $a=0$ anchor of the generalized family $w_t + a\\,u\\,w_x …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Collection of Didactic Physics Instruments of the Istituto Maria SS.ma del Rosario in Palermo",
-      "url": "https://arxiv.org/abs/2607.19800",
-      "summary": "arXiv:2607.19800v1 Announce Type: new Abstract: In the autumn of 2025, the Istituto Maria SS.ma del Rosario (IMSSR) in Palermo donated a collection of didactic physics instruments to the Department of Physics and Chemist…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hypothesis-and-Refinement Learning of Organic Structures from Multimodal Spectroscopic Data",
-      "url": "https://arxiv.org/abs/2607.19816",
-      "summary": "arXiv:2607.19816v1 Announce Type: new Abstract: Determining molecular structures from spectroscopic data remains fundamentally challenging because the inverse problem is intrinsically underdetermined: individual spectra …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Super-Resonance: Interference-Driven Suppression of Radiative Decay Across Wave Physics",
-      "url": "https://arxiv.org/abs/2607.19819",
-      "summary": "arXiv:2607.19819v1 Announce Type: new Abstract: Super-resonance has been coined independently for collective modes of acoustic cavity arrays (Tolstoy), extreme high-$Q$ states of dielectric resonators in photonics, and m…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toroidal Transitions in Hydrogenic and Alkali Atoms",
-      "url": "https://arxiv.org/abs/2607.19832",
-      "summary": "arXiv:2607.19832v1 Announce Type: new Abstract: In addition to electric and magnetic multipoles, the expansion of current density also yields toroidal terms, a lesser-known family of multipoles. A recent proposal, I. Kup…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Band Engineering of Exciton Polaritons in Resonant Polaritonic Metasurfaces",
-      "url": "https://arxiv.org/abs/2607.19868",
-      "summary": "arXiv:2607.19868v1 Announce Type: new Abstract: Polaritonic metasurfaces provide a versatile platform for engineering hybrid light-matter states through the interplay of optical resonances and excitonic excitations. Yet,…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elastic Trapped States at Dislocation Defects in Scaled Coupling and Hofstadter Models",
-      "url": "https://arxiv.org/abs/2607.19890",
-      "summary": "arXiv:2607.19890v1 Announce Type: new Abstract: Elastic topological dislocations provide a pathway for trapping elastic wave energy at internal defects, rather than being confined solely to external boundaries or corners…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reduced-order non-self-consistent Monte Carlo simulation of a planar magnetron discharge: electron heating, recapture and racetrack formation",
-      "url": "https://arxiv.org/abs/2607.19930",
-      "summary": "arXiv:2607.19930v1 Announce Type: new Abstract: A reduced-order non-self-consistent Monte Carlo model is presented for a circular planar magnetron discharge in argon. The model combines two magnetic-field representations…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spin-Consistency Constraints in Noncollinear Tensor TDA",
-      "url": "https://arxiv.org/abs/2607.19933",
-      "summary": "arXiv:2607.19933v1 Announce Type: new Abstract: TDDFT for open-shell systems, whether spin-conserving or spin-flip, has long suffered from spin contamination. This problem arises because the single-excitation space built…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gamma irradiation of ATLAS18 ITk strip sensors affected by static charge",
-      "url": "https://arxiv.org/abs/2607.19936",
-      "summary": "arXiv:2607.19936v1 Announce Type: new Abstract: Construction of the new all-silicon ITk, developed by the ATLAS collaboration to be able to track charged particles produced at the HL- LHC, started in 2021 and is expected…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When Shippers Become Algorithms: Candidate Exposure, Information Design, and the Concentration of LLM-Mediated Freight Markets",
-      "url": "https://arxiv.org/abs/2607.19967",
-      "summary": "arXiv:2607.19967v1 Announce Type: new Abstract: Shippers are beginning to delegate carrier selection to large language model (LLM) agents. We ask what such delegation does to a freight matching market, and which platform…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Capabilities and Limitations of Non-Redundant Aperture Interferometry for Beam Size Measurements",
-      "url": "https://arxiv.org/abs/2607.19976",
-      "summary": "arXiv:2607.19976v1 Announce Type: new Abstract: Non-Redundant Aperture Interferometry (NRAI) is a beam characterization technique developed at ALBA in collaboration with radio-astronomy institutes. It enables the single-…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rem3Di: Learning smooth, chiral 3D molecular descriptors from atomistic foundation models",
-      "url": "https://arxiv.org/abs/2607.19977",
-      "summary": "arXiv:2607.19977v1 Announce Type: new Abstract: Foundation machine-learned interatomic potentials (MLIPs) are trained on large quantum-mechanical datasets and generalise across broad regions of chemical and configuration…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploiting Non Redundant Aperture Interferometry as a Diagnostics Tool for Synchrotron Light Characterization",
-      "url": "https://arxiv.org/abs/2607.19991",
-      "summary": "arXiv:2607.19991v1 Announce Type: new Abstract: We recently introduced a novel interferometric method inspired by radio astronomy, utilizing a Non-Redundant Aperture (NRA) mask with self-calibration to fully characterize…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dirac-vortex modes beyond the continuum limit",
-      "url": "https://arxiv.org/abs/2607.20000",
-      "summary": "arXiv:2607.20000v1 Announce Type: new Abstract: Dirac-vortex modes (DVMs) in Kekule-modulated lattices provide a topological route to wave confinement and are commonly described by the continuum Jackiw-Rossi model, in wh…",
       "ts": 1784779200000
     }
   ],
