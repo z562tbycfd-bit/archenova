@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-23T11:51:43.588Z",
+  "updated": "2026-07-23T14:06:11.157Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Molecular clock transitions tune out the noise in the hunt for new physics",
+      "url": "https://phys.org/news/2026-07-molecular-clock-transitions-tune-noise.html",
+      "summary": "Heavy polar molecules are some of the most sensitive tools physicists have for probing what lies beyond the Standard Model, the theory that describes the particles and forces we know about. But turning that sensitivity i…",
+      "ts": 1784815207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Predicting where wildfire smoke will go next",
+      "url": "https://phys.org/news/2026-07-wildfire.html",
+      "summary": "In recent summers, wildfire smoke has been inescapable across Wisconsin, drifting south from Canada and leading to long stretches of poor air quality. Whether that smoke clears or lingers is often influenced in part by t…",
+      "ts": 1784815203000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Living Fully in the Math World Means Threading the Needle",
+      "url": "https://www.quantamagazine.org/hong-wang-wins-2026-fields-medal-the-third-woman-ever-20260723/",
+      "summary": "Focus, commitment, and insight resulted in a “once in a century” proof. Hong Wang is now just the third woman to win a Fields Medal. The post Living Fully in the Math World Means Threading the Needle first appeared on Qu…",
+      "ts": 1784814953000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Sometimes Being First Means Seeing the End Before Anyone Else",
+      "url": "https://www.quantamagazine.org/jacob-tsimerman-wins-2026-fields-medal-for-andre-oort-conjecture-proof-20260723/",
+      "summary": "Determination and effort propelled Jacob Tsimerman to the top of the math world. But now that he’s won a Fields Medal, he worries that the field is in jeopardy. The post Sometimes Being First Means Seeing the End Before …",
+      "ts": 1784814460000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "The Quietest Mathematician Has Always Been Worth Listening To",
+      "url": "https://www.quantamagazine.org/john-pardon-wins-the-2026-fields-medal-for-work-in-symplectic-geometry-20260723/",
+      "summary": "John Pardon sees connections between different areas of math that others don’t. For that vision, he’s now been awarded a Fields Medal. The post The Quietest Mathematician Has Always Been Worth Listening To first appeared…",
+      "ts": 1784814017000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fig-leaf enzyme turns tannery waste into high-value collagen",
+      "url": "https://phys.org/news/2026-07-fig-leaf-enzyme-tannery-high.html",
+      "summary": "Tanneries generate large quantities of skin trimmings before hides are tanned. These trimmings contain collagen but are commonly treated as low-value waste. An international research team has developed a method that uses…",
+      "ts": 1784814001000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Amid Life’s Chaos, a Meticulous Mathematician Finds Stability",
+      "url": "https://www.quantamagazine.org/yu-deng-wins-the-fields-medal-2026-for-his-work-on-the-random-data-problem-20260723/",
+      "summary": "Before he won a Fields Medal for his pioneering work balancing randomness and order, Yu Deng first had to achieve equilibrium in his own life. The post Amid Life’s Chaos, a Meticulous Mathematician Finds Stability first …",
+      "ts": 1784813679000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Older teens entering care often overlooked",
+      "url": "https://phys.org/news/2026-07-older-teens-overlooked.html",
+      "summary": "There is an urgent need for better support for older teenagers entering care for the first time, new Griffith University research has found. Professor Silke Meyer from Griffith's School of Allied Health, Sport and Social…",
+      "ts": 1784812801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "No perfect job? Moving forward despite uncertainty may make work more meaningful",
+      "url": "https://phys.org/news/2026-07-job-uncertainty-meaningful.html",
+      "summary": "People who accept that there may not always be a perfect career choice and learn to make decisions despite uncertainty are more likely to find their work meaningful, satisfying and engaging, according to research publish…",
+      "ts": 1784811603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New teaching method could help Aboriginal languages survive and thrive",
+      "url": "https://phys.org/news/2026-07-method-aboriginal-languages-survive.html",
+      "summary": "Curtin University-led research has unveiled a new teaching approach that could help incorporate Aboriginal languages into Australian classrooms, teach younger generations and potentially prevent important cultural connec…",
+      "ts": 1784810403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Soil organic carbon increases crop yield but can't help with extreme drought",
+      "url": "https://phys.org/news/2026-07-soil-carbon-crop-yield-extreme.html",
+      "summary": "In cases of extreme drought, soil organic carbon does not improve crop yields, Colorado State University research has found. The finding contradicts the commonly held belief that soil organic carbon benefits yields most …",
+      "ts": 1784809201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Student research shows positive outcomes from summer research program",
+      "url": "https://phys.org/news/2026-07-student-positive-outcomes-summer.html",
+      "summary": "Physician-scientists hold a unique role in the medical field. They balance patient care with conducting research. Physician-scientists spend much of their time in laboratories performing experiments to drive innovation a…",
+      "ts": 1784808001000
+    },
     {
       "source": "Phys.org",
       "title": "Conditions remain 'unchanged' for young people with disability, data reveal",
@@ -616,90 +700,6 @@
       "title": "A Scalable Fast Multipole Method Poisson Solver for the RAMSES code: II. Adaptive Mesh Refinement and Adaptive Time Stepping",
       "url": "https://arxiv.org/abs/2607.19489",
       "summary": "arXiv:2607.19489v1 Announce Type: cross Abstract: We present an extended implementation of a scalable, O(N) Poisson solver based on the fast multipole method (FMM), fully compatible with adaptive mesh refinement (AMR) an…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robust Hierarchical Matrix Compression of Acoustic Volume and Boundary Integral Operators",
-      "url": "https://arxiv.org/abs/2607.19500",
-      "summary": "arXiv:2607.19500v1 Announce Type: cross Abstract: Discretizing integral formulations of the Helmholtz equation yields dense linear systems. Hence, simulating acoustic models at larger scales or higher frequencies is typi…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photoemission from Semi-Infinite Crystals: An \\emph{Ab Initio} Scattering-State Approach",
-      "url": "https://arxiv.org/abs/2607.19551",
-      "summary": "arXiv:2607.19551v1 Announce Type: cross Abstract: Photoemission is an escape problem, yet first-principles calculations usually trap the electron in a periodic box. We present a parameter-free \\emph{ab initio} framework …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the global well-posedness for the nonlocal Fokas-Lenells equation with the weighted Sobolev initial data on the line",
-      "url": "https://arxiv.org/abs/2607.19649",
-      "summary": "arXiv:2607.19649v1 Announce Type: cross Abstract: We establish the global well-posedness of the Cauchy problem for the reverse space-time nonlocal Fokas-Lenells equation with the weighted Sobolev initial data $q_0(x)\\in …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Numerical exploration on unveiling the photovoltaic potential of MgXS3(X = Ti, Zr, Hf) chalcogenide perovskites",
-      "url": "https://arxiv.org/abs/2607.19789",
-      "summary": "arXiv:2607.19789v1 Announce Type: cross Abstract: Lead-free chalcogenide perovskites offer a nontoxic and thermally robust path beyond Pb-based perovskite solar cells (PSCs), but their device-level behavior in realistic …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatially Dispersive Second-Harmonic Generation in Ferroaxial Systems",
-      "url": "https://arxiv.org/abs/2607.19821",
-      "summary": "arXiv:2607.19821v1 Announce Type: cross Abstract: Spatially dispersive second-harmonic generation (SHG) provides a powerful probe of centrosymmetric multipolar states beyond the electric-dipole approximation. We develop …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Noise reduction in suspension control with photon-pressure actuator for CHRONOS gravitational wave detector",
-      "url": "https://arxiv.org/abs/2607.19983",
-      "summary": "arXiv:2607.19983v1 Announce Type: cross Abstract: Improving sub-Hz sensitivity of gravitational wave (GW) detectors is important to detect heavier binary black hole mergers and study phenomena in stronger gravity fields.…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring Multifunctionality in MgO-Based Magnetic Tunnel Junctions with Coexisting Magnetoresistance and Memristive Properties",
-      "url": "https://arxiv.org/abs/2607.20040",
-      "summary": "arXiv:2607.20040v1 Announce Type: cross Abstract: Magnetic tunnel junctions (MTJs) and memristors are two key emerging nanotechnologies that attracted significant interest for potential applications at the forefront of t…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kinetically-Arrested Phase Separation leads to Tunable Domain Structures in Vapor-Deposited Glasses",
-      "url": "https://arxiv.org/abs/2607.20066",
-      "summary": "arXiv:2607.20066v1 Announce Type: cross Abstract: The characteristic length scale of phase-separated organic thin film blends is a critical structural parameter governing the performance and functionality of organic elec…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Schr\\\"odinger's real-valued equation revisited",
-      "url": "https://arxiv.org/abs/2607.20104",
-      "summary": "arXiv:2607.20104v1 Announce Type: cross Abstract: The Schr\\\"odinger equation can be rewritten as a second-order equation for a single real-valued scalar field. Taken at face value, however, this one-field reduction obscu…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Let's Stalk About Membranes: Committor-Based Enhanced Sampling of Stalk Formation",
-      "url": "https://arxiv.org/abs/2607.20122",
-      "summary": "arXiv:2607.20122v1 Announce Type: cross Abstract: Membrane fusion is essential for cellular communication and function, and understanding how two lipid bilayers merge is key to informing therapeutic strategies. Functiona…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Skipper CCD readout time optimization for astronomical applications",
-      "url": "https://arxiv.org/abs/2607.20126",
-      "summary": "arXiv:2607.20126v1 Announce Type: cross Abstract: Skipper CCDs enable the reduction of CCD readout noise by non-destructively measuring the individual pixel charge packets multiple times. This readout noise reduction has…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Theoretical Framework for the Coupling of Macroscale-Nanoscale Mechanochemical Phenomena in Condensed Matter",
-      "url": "https://arxiv.org/abs/2607.20217",
-      "summary": "arXiv:2607.20217v1 Announce Type: cross Abstract: The field of covalent mechanochemistry has transitioned from fundamental science to engineering applications, yet it lacks a robust theoretical framework for predicting r…",
       "ts": 1784779200000
     }
   ],
