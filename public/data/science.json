@@ -1,7 +1,133 @@
 {
   "ok": true,
-  "updated": "2026-07-23T16:37:42.933Z",
+  "updated": "2026-07-23T18:14:25.877Z",
   "items": [
+    {
+      "source": "Science News",
+      "title": "Different moon rocks tell different tales about a long-ago bombardment",
+      "url": "https://www.sciencenews.org/article/farside-moon-rocks-late-heavy-battering",
+      "summary": "Prior moon rock samples, including from Apollo, seem heavily influenced by one impact. The farside samples tweak the story.",
+      "ts": 1784830378000
+    },
+    {
+      "source": "Science News",
+      "title": "The golden age of language was a few thousand years ago",
+      "url": "https://www.sciencenews.org/article/golden-age-language-history-diversity",
+      "summary": "A few millennia ago, people worldwide may have spoken or signed up to 10 times as many languages as they do today.",
+      "ts": 1784829694000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Human impacts rewrite the rules of island biodiversity around the globe",
+      "url": "https://phys.org/news/2026-07-human-impacts-rewrite-island-biodiversity.html",
+      "summary": "A new study reveals that human activities have fundamentally reshaped biodiversity patterns on islands across the globe, with important implications for how scientists understand ecology, evolution and conservation.",
+      "ts": 1784829613000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How insect submariners survive the depths without imploding",
+      "url": "https://phys.org/news/2026-07-insect-submariners-survive-depths-imploding.html",
+      "summary": "Deep-diving insect larvae are challenging a long-held idea about why there are almost no insects in the ocean, thanks to sturdy air sacs. In Lake Malawi in East Africa, billions of lake fly larvae (Chaoborus edulis) make…",
+      "ts": 1784829611000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Silkworm cultivation predates the Silk Road in southern Central Asia, ancient cocoons suggest",
+      "url": "https://phys.org/news/2026-07-silkworm-cultivation-predates-silk-road.html",
+      "summary": "The silkworm moth, whose caterpillars have been used in silk production since antiquity, may have been brought to southern Central Asia 4,000 years ago—nearly 2,000 years earlier than previously assumed—according to new …",
+      "ts": 1784829610000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hundreds hospitalized in Japan heat wave 'disaster'",
+      "url": "https://phys.org/news/2026-07-hundreds-hospitalized-japan-disaster.html",
+      "summary": "More than 450 people received hospital treatment for heat-related issues in a single day in Tokyo—the highest number since records began 16 years ago, emergency services said Thursday.",
+      "ts": 1784829608000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hawai'i serves as model for Western researchers studying the moon's volcanic history",
+      "url": "https://phys.org/news/2026-07-hawaii-western-moon-volcanic-history.html",
+      "summary": "The moon is 384,000 kilometers (239,000 miles) away from Earth, but one of the best places to study its surface is much closer to home. Western planetary scientist Catherine Neish and PhD candidate Sashank Vanga traveled…",
+      "ts": 1784829606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Modern forensics uncovers new clues about Inca sacrifice victims' last days",
+      "url": "https://phys.org/news/2026-07-modern-forensics-uncovers-clues-inca.html",
+      "summary": "Human sacrifice was deeply ingrained in Inca civilization. Children and young people were selected for sacrifice to appease the gods and sacred mountain spirits. Being chosen was considered a great honor for both the vic…",
+      "ts": 1784828408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Knowing a manager's stance on unions can affect worker performance",
+      "url": "https://phys.org/news/2026-07-stance-unions-affect-worker.html",
+      "summary": "It's no secret that management at major firms such as Starbucks and Tesla isn't exactly a fan of unionization. But for other companies, how does an anti-union stance affect worker output and performance? It might depend …",
+      "ts": 1784828403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sweden to ban 'forever chemicals' in clothing",
+      "url": "https://phys.org/news/2026-07-sweden-chemicals.html",
+      "summary": "Sweden said Thursday it plans to ban so-called \"forever chemicals\" in consumer products such as clothing and kitchenware as early as 2028, before expected European Union regulations come into force.",
+      "ts": 1784827424000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fields medal awarded to four young mathematicians",
+      "url": "https://phys.org/news/2026-07-fields-medal-awarded-young-mathematicians.html",
+      "summary": "The Fields Medal, known as the Nobel Prize of mathematics, was awarded Thursday to four people—two Chinese citizens, one American and one Canadian.",
+      "ts": 1784827229000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the encephalomyocarditis virus hijacks host protein machinery",
+      "url": "https://phys.org/news/2026-07-encephalomyocarditis-virus-hijacks-host-protein.html",
+      "summary": "Viruses lack the molecular machinery required for protein synthesis. Instead, they hijack the host's protein-making machinery, specifically ribosomes and translational factors. This process is essential for viral multipl…",
+      "ts": 1784827208000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Environmental bacteria ferry genes that boost antibiotic resistance over 10,000-fold",
+      "url": "https://phys.org/news/2026-07-environmental-bacteria-ferry-genes-boost.html",
+      "summary": "A patient with a severe infection is prescribed a potent antibiotic. Hopes for improvement are high, but just after treatment is given, resistance to the drug increases thousands of times. How could this happen?",
+      "ts": 1784827205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Coal-fired power generation rising globally on Mideast war: IEA",
+      "url": "https://phys.org/news/2026-07-coal-power-generation-globally-mideast.html",
+      "summary": "Coal-fired power generation is set to increase in 2026, driven by supply difficulties and soaring natural gas prices linked to the war in the Middle East, the International Energy Agency said Thursday.",
+      "ts": 1784827172000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers examine social media's impact on narcissistic traits",
+      "url": "https://phys.org/news/2026-07-social-media-impact-narcissistic-traits.html",
+      "summary": "Researchers at the University of Huddersfield have developed a new theoretical framework exploring whether social media recommendation systems may contribute to the amplification of narcissistic traits over time.",
+      "ts": 1784826005000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Heat is coming for Hawaiian corals, but study finds there may be time to adapt",
+      "url": "https://phys.org/news/2026-07-hawaiian-corals.html",
+      "summary": "Since the first major bleaching event in 1996, Hawaiian corals have been subject to increasing heat stress and more frequent bleaching events. New research from oceanographers at the University of Hawai'i at Mānoa used h…",
+      "ts": 1784826001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Training microbes to prepare soils for the impacts of climate change",
+      "url": "https://phys.org/news/2026-07-microbes-soils-impacts-climate.html",
+      "summary": "Scientists at the University of Lincoln have discovered a promising new way to help protect crops from one of climate change's growing threats to global food production—increasing soil salinity.",
+      "ts": 1784824807000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How mothers speak has little impact on children's school grades, study reveals",
+      "url": "https://phys.org/news/2026-07-mothers-impact-children-school-grades.html",
+      "summary": "A mother's everyday speech habits have little bearing on her child's academic success, according to new research led by the University of York.",
+      "ts": 1784824802000
+    },
     {
       "source": "Phys.org",
       "title": "Apprentices in private, independent companies face disadvantages",
@@ -574,132 +700,6 @@
       "title": "Dirac-vortex modes beyond the continuum limit",
       "url": "https://arxiv.org/abs/2607.20000",
       "summary": "arXiv:2607.20000v1 Announce Type: new Abstract: Dirac-vortex modes (DVMs) in Kekule-modulated lattices provide a topological route to wave confinement and are commonly described by the continuum Jackiw-Rossi model, in wh…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Investigating aqueous mineral interfaces using sum frequency generation spectroscopy",
-      "url": "https://arxiv.org/abs/2607.20017",
-      "summary": "arXiv:2607.20017v1 Announce Type: new Abstract: Sum frequency generation spectroscopy can be utilized to address the challenge of studying solid-liquid interfaces under ambient pressure and with macroscopic amounts of li…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Discrete Boltzmann model at Burnett level for compressible multicomponent flows under external forces",
-      "url": "https://arxiv.org/abs/2607.20029",
-      "summary": "arXiv:2607.20029v1 Announce Type: new Abstract: This work extends the Burnett-level discrete Boltzmann model (DBM) from single-component to multicomponent compressible flows under external forces, building on the fundame…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "COBRA2026: a large-scale multicenter pelvic cone-beam computed tomography projection dataset",
-      "url": "https://arxiv.org/abs/2607.20037",
-      "summary": "arXiv:2607.20037v1 Announce Type: new Abstract: The COBRA2026 dataset is a large-scale, multicenter resource of raw radiotherapy cone-beam computed tomography (CBCT) acquisitions created for the development and evaluatio…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-dimensional field of view of remote focusing microscopy system",
-      "url": "https://arxiv.org/abs/2607.20053",
-      "summary": "arXiv:2607.20053v1 Announce Type: new Abstract: Remote focusing (RF) microscopy is well known for its ability to sharply image a wide range of planes away from the working distance of the microscope objective. However, t…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Surface Waves Alter Air Entrainment During Water Entry",
-      "url": "https://arxiv.org/abs/2607.20067",
-      "summary": "arXiv:2607.20067v1 Announce Type: new Abstract: When a sphere crosses an air-water interface it can entrain a significant volume of air, a process relevant to numerous naval, industrial, and environmental settings. While…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Corruption as a self-sustained collective state in political systems",
-      "url": "https://arxiv.org/abs/2607.20095",
-      "summary": "arXiv:2607.20095v1 Announce Type: new Abstract: Political corruption is often interpreted as the result of individual misconduct or isolated institutional failures. However, persistent corruption patterns observed in rea…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Theoretical development of an operational wave-induced ice erosion model through laboratory experiments",
-      "url": "https://arxiv.org/abs/2607.20118",
-      "summary": "arXiv:2607.20118v1 Announce Type: new Abstract: Wave-induced melting of vertical ice fronts is represented in several operational iceberg and coastal-erosion models by the rough-wall parameterization of White (1980), who…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PRIME-SVR: Physics-infoRmed Implicit Multi-Echo Slice-to-Volume Reconstruction for Fetal T2 mapping",
-      "url": "https://arxiv.org/abs/2607.20136",
-      "summary": "arXiv:2607.20136v1 Announce Type: new Abstract: Slice-to-volume reconstruction (SVR) is the standard method for obtaining high-resolution (HR) 3D fetal brain volumes from motion-corrupted 2D MRI slice stacks acquired in …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conjugate Gradient Unrolled Network with PSF Conditioning for Non-Diagonal Data Fidelity in CASSI Reconstruction",
-      "url": "https://arxiv.org/abs/2607.20138",
-      "summary": "arXiv:2607.20138v1 Announce Type: new Abstract: Deep unfolding methods achieve state-of-the-art performance in coded aperture snapshot spectral imaging (CASSI) reconstruction but typically rely on closed-form data-fideli…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two Complementary Approaches to Determine the Effective Index of Dielectric Ring Resonators",
-      "url": "https://arxiv.org/abs/2607.20167",
-      "summary": "arXiv:2607.20167v1 Announce Type: new Abstract: Open-source finite-element frameworks for modal analysis of dielectric ring resonators are presented based on two complementary approaches. The first computes resonant wave…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A simplified reconstruction of Positron Emission Tomography image using Time of Flight simulated data in Gate 10",
-      "url": "https://arxiv.org/abs/2607.20169",
-      "summary": "arXiv:2607.20169v1 Announce Type: new Abstract: Background: Ultrafast Time-of-Flight (TOF) information in Gate 10 simulations enables direct 3D PET reconstruction without scanner-specific modeling. Although such picoseco…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hard Guarantees at a Measured Price: Entropy-Stable Learned Finite Volumes for Compressible Flow",
-      "url": "https://arxiv.org/abs/2607.20171",
-      "summary": "arXiv:2607.20171v1 Announce Type: new Abstract: Learned solvers for compressible flow are usually compared to classical methods at equal mesh resolution rather than at equal computational cost, and they typically offer n…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Information Transport and Observability in Compressible Aerodynamics",
-      "url": "https://arxiv.org/abs/2607.20177",
-      "summary": "arXiv:2607.20177v1 Announce Type: new Abstract: Pressure measurements provide sparse but direct observations of compressible aerodynamic flows, yet how information about hidden aerodynamic parameters is transported throu…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parameter mapping and physical reconstruction of Akhmediev breathers at the interface of two fluid half-spaces",
-      "url": "https://arxiv.org/abs/2607.20193",
-      "summary": "arXiv:2607.20193v1 Announce Type: new Abstract: A methodology combining parameter mapping and physical reconstruction of Akhmediev breathers at the interface between two fluid half-spaces is developed on the basis of the…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A formal log(Re)-cost framework for the engineering turbulence problem",
-      "url": "https://arxiv.org/abs/2607.20199",
-      "summary": "arXiv:2607.20199v1 Announce Type: new Abstract: In fluid engineering, the turbulence problem is the longstanding challenge of obtaining accurate predictions of engineering quantities at affordable computational cost. Vie…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Comprehensive Experimental and Theoretical Spectroscopic Study of Proteinogenic Amino Acids",
-      "url": "https://arxiv.org/abs/2607.20204",
-      "summary": "arXiv:2607.20204v1 Announce Type: new Abstract: Amino acids are essential building blocks of life, yet our understanding of their chemistry and electronic structure in the solid state remains limited. This is particularl…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian finite element regression for vascular flow reconstruction with quantified uncertainty",
-      "url": "https://arxiv.org/abs/2607.20224",
-      "summary": "arXiv:2607.20224v1 Announce Type: new Abstract: Reconstructing accurate velocity and pressure fields from under-resolved noisy measurements of blood flow is an ill-posed inverse problem due to unknown inlet and outlet bo…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Static and Dynamic Estimation of Flexural Rigidity of Soybean",
-      "url": "https://arxiv.org/abs/2607.20229",
-      "summary": "arXiv:2607.20229v1 Announce Type: new Abstract: This paper evaluates a cantilever system as a simple method for measuring the mechanical rigidity (bending rigidity EI or Young's modulus E) of plants. Using soybeans as a …",
       "ts": 1784779200000
     }
   ],

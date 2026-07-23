@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-23T16:37:45.435Z",
+  "updated": "2026-07-23T18:14:28.309Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Midlife Brain Aging Linked to Immune Cell Remodeling, Blood-Brain Barrier Decline",
+      "url": "https://www.genengnews.com/topics/translational-medicine/midlife-brain-aging-linked-to-immune-cell-remodeling-blood-brain-barrier-decline/",
+      "summary": "An analysis of aging human brains revealed widespread immune remodeling, blood-brain barrier deterioration, and genome architecture changes, challenging long-held assumptions about how the brain's resident immune cells a…",
+      "ts": 1784829603000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "U.S. health officials are investigating a new outbreak of a diarrhea-causing parasite",
+      "url": "https://www.statnews.com/2026/07/23/cyclospora-second-outbreak-reported-fda-cites-72-new-cases/?utm_campaign=rss",
+      "summary": "Federal health officials are investigating a new outbreak involving the diarrhea-causing parasite cyclospora.",
+      "ts": 1784827503000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
+      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "summary": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too …",
+      "ts": 1784825908000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: European regulators take steps to bolster clinical trial transparency",
@@ -507,6 +531,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "Launching Health in ChatGPT ",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "ts": 1784764800000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "Cell",
       "title": "UTR-ly unexpected: RNA chaperones tame intrinsically disordered proteins",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00710-5?rss=yes",
@@ -688,38 +720,6 @@
       "url": "https://science.nasa.gov/photojournal/nasas-juno-peers-beneath-ios-surface/",
       "summary": "Description This map represents data captured by the Microwave Radiometer (MWR) aboard NASA’s Juno spacecraft, indicating heat rising from just beneath the surface of Jupiter’s moon Io. While infrared instruments measure…",
       "ts": 1784732338000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Juno Takes Temperature of Jupiter’s Fiery Moon Io",
-      "url": "https://www.nasa.gov/missions/juno/nasas-juno-takes-temperature-of-jupiters-fiery-moon-io/",
-      "summary": "Lee esta historia en español aquí. NASA’s Juno mission has provided the first measurements of the temperature below the surface of Jupiter’s moon Io, revealing significant heating within the shallow subsurface of the mos…",
-      "ts": 1784732075000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Congo’s Ebola outbreak has killed over 1,000 people",
-      "url": "https://www.statnews.com/2026/07/22/congo-ebola-outbreak-1000-deaths/?utm_campaign=rss",
-      "summary": "At least 999 people have died from the Ebola outbreak in Congo, a grim toll in what’s already been declared the fastest Ebola outbreak in history.",
-      "ts": 1784731950000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharma tries to tamp down broad China restrictions",
-      "url": "https://www.statnews.com/2026/07/22/biotech-news-pharma-tries-to-tamp-down-broad-china-restrictions/?utm_campaign=rss",
-      "summary": "AI-focused VC firm raises $800M, Merck's new cholesterol pill, and more biotech news from The Readout",
-      "ts": 1784729927000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Joins Genesis Mission to Accelerate AI-Driven Discovery",
-      "url": "https://www.nasa.gov/news-release/nasa-joins-genesis-mission-to-accelerate-ai-driven-discovery/",
-      "summary": "NASA is supporting the Genesis Mission, a national effort to drive the use of artificial intelligence in tackling complex scientific and engineering challenges to advance a new era of discovery. President Donald J. Trump…",
-      "ts": 1784729046000,
       "categoryId": "space"
     }
   ],
