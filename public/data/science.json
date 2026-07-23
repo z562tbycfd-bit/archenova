@@ -1,7 +1,126 @@
 {
   "ok": true,
-  "updated": "2026-07-23T14:06:11.157Z",
+  "updated": "2026-07-23T16:37:42.933Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Apprentices in private, independent companies face disadvantages",
+      "url": "https://phys.org/news/2026-07-apprentices-private-independent-companies-disadvantages.html",
+      "summary": "Apprentices in private, independent companies are more likely to fail their final exams, change contracts and not complete their training than apprentices who have contracts through a training agency.",
+      "ts": 1784823605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ceramic vessels reveal how social inequalities were also cooked into 19th-century Brazil",
+      "url": "https://phys.org/news/2026-07-ceramic-vessels-reveal-social-inequalities.html",
+      "summary": "Fish, shellfish, maize, manioc, rice and even chicken eggs. Molecular residues preserved in more than 180 ceramic vessels from southern Brazil have made it possible to reconstruct what different communities were cooking …",
+      "ts": 1784823601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "More than half of Earth's migratory bird species are declining—here's how we can still save them",
+      "url": "https://phys.org/news/2026-07-earth-migratory-bird-species-declining.html",
+      "summary": "Every year, billions of migratory birds connect the world's continents, oceans and ecosystems as they undertake epic journeys between their foraging habitats and breeding grounds.",
+      "ts": 1784822405000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lipid nanoparticles deliver one-two punch to shrink resistant oral tumors in preclinical models",
+      "url": "https://phys.org/news/2026-07-lipid-nanoparticles-resistant-oral-tumors.html",
+      "summary": "Oral squamous cell carcinoma (OSCC) is the most common form of head and neck cancer, and the number of new cases is predicted to rise by 30% in the next decade. Despite decades of cancer research, treating OSCC remains a…",
+      "ts": 1784822402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drought, water shortages and crop failures: How does the medieval warm period compare with today?",
+      "url": "https://phys.org/news/2026-07-drought-shortages-crop-failures-medieval.html",
+      "summary": "A heat wave lasting four months, followed by water shortages and crop failures. This is England in the 13th century, not the 21st. What is often called the Medieval Warm Period saw elevated temperatures in many parts of …",
+      "ts": 1784821207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Most powerful Northern Lights in a generation expose weaknesses in UK infrastructure",
+      "url": "https://phys.org/news/2026-07-powerful-northern-generation-expose-weaknesses.html",
+      "summary": "Millions of people across the UK marveled at the spectacular northern lights that lit up the night sky in May 2024. But while the display captivated skywatchers, the geomagnetic storm behind it also served as the biggest…",
+      "ts": 1784821201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Peptide isolated from a Cerrado frog increases strawberry shelf life",
+      "url": "https://phys.org/news/2026-07-peptide-isolated-cerrado-frog-strawberry.html",
+      "summary": "Five minutes. That was the amount of time that Oso Grande strawberries remained in contact with the Ctx(Ile21)-Ha peptide—a molecule isolated from a frog native to the Brazilian Cerrado—in experiments conducted in Brazil…",
+      "ts": 1784820007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chasing subseasonal forecasts with AI",
+      "url": "https://phys.org/news/2026-07-subseasonal-ai.html",
+      "summary": "Subseasonal forecasting, or the ability to predict weather trends two weeks to two months in advance, is a capability highly sought after in various economic sectors, including energy, water management and agriculture. R…",
+      "ts": 1784820004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Would you trust AI for ethical advice?",
+      "url": "https://phys.org/news/2026-07-ai-ethical-advice.html",
+      "summary": "Most people would not prefer to take ethical advice from a computer, but a new Wharton study shows how attitudes change when users see how good AI guidance can be.",
+      "ts": 1784818805000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Moon baboon: New insight into the mind of ancient Egyptians",
+      "url": "https://phys.org/news/2026-07-moon-baboon-insight-mind-ancient.html",
+      "summary": "New research from the University of St Andrews has shed light on baboons, moonlight and their link to an ancient Egyptian deity.",
+      "ts": 1784818801000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "How Fast Is the Universe Really Expanding?",
+      "url": "https://www.quantamagazine.org/how-fast-is-the-universe-really-expanding-20260723/",
+      "summary": "One of the most contested issues in astrophysics is our understanding of the Universe’s expansion. Adam Riess discusses why there is disagreement and what might resolve it. The post How Fast Is the Universe Really Expand…",
+      "ts": 1784818425000
+    },
+    {
+      "source": "Phys.org",
+      "title": "From one frontier to another: The quantum revolution",
+      "url": "https://phys.org/news/2026-07-frontier-quantum-revolution.html",
+      "summary": "Manchester's quantum researchers are building on the Ferranti Mark I legacy, using ultra-pure silicon and single atoms to move quantum computing closer to real-world impact.",
+      "ts": 1784817601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How much should you reveal about yourself on your dating profile? Scientists have found the 'sweet spot'",
+      "url": "https://phys.org/news/2026-07-reveal-dating-profile-scientists-sweet.html",
+      "summary": "Dating has entered a new era in which finding a potential soulmate is increasingly shaped by the digital world and, often, by algorithms. On dating apps, the way people present themselves through their profiles can signi…",
+      "ts": 1784817002000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Fields and Abacus Medals 2026",
+      "url": "https://www.quantamagazine.org/fields-and-abacus-medals-2026-20260723/",
+      "summary": "Every four years, the math world’s preeminent awards are given to the finest minds of a generation. The young winners — all under 40 on the first day of the year — have reshaped mathematics and theoretical computer scien…",
+      "ts": 1784816431000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers find college-educated population more likely to shelter during dangerous wildfire smoke",
+      "url": "https://phys.org/news/2026-07-college-population-dangerous-wildfire.html",
+      "summary": "American adults with college degrees now outlive those without degrees by more than eight years, in part because graduates appear to be more proactive about protecting their health. For example, they smoke cigarettes at …",
+      "ts": 1784816410000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shaking atoms to bring black-hole quantum chaos into the lab",
+      "url": "https://phys.org/news/2026-07-atoms-black-hole-quantum-chaos.html",
+      "summary": "Physicists have discovered a surprisingly simple way to reproduce one of the most fascinating models in modern physics—linked to black holes, quantum chaos and exotic electronic materials—using ultracold atoms trapped in…",
+      "ts": 1784816403000
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "A Master of the Traveling Salesperson Problem Finds His Own Path",
+      "url": "https://www.quantamagazine.org/shayan-oveis-gharan-wins-2026-imu-abacus-medal-20260723/",
+      "summary": "Shayan Oveis Gharan has won the Abacus Medal for using tools from across mathematics to boost the power of algorithms. The post A Master of the Traveling Salesperson Problem Finds His Own Path first appeared on Quanta Ma…",
+      "ts": 1784816300000
+    },
     {
       "source": "Phys.org",
       "title": "Molecular clock transitions tune out the noise in the hunt for new physics",
@@ -120,6 +239,41 @@
       "url": "https://phys.org/news/2026-07-portugal-ancient-giant-shrank-thousands.html",
       "summary": "About 22,000 years ago, a giant brown bear lumbered across what is now Portugal. The creature weighed around 385 kg (about 850 pounds), making it one of the largest of its kind ever found, dwarfing even the largest brown…",
       "ts": 1784802001000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Programmable Open Quantum Systems",
+      "url": "http://link.aps.org/doi/10.1103/yqlr-2dhr",
+      "summary": "Author(s): Mingrui Jing, Mengbo Guo, Lin Zhu, Hongshun Yao, and Xin Wang Programmability is a unifying paradigm for enacting families of quantum transformations via fixed processors and program states, with a fundamental…",
+      "ts": 1784800800000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Pseudogauge-Invariant Nonequilibrium Density Operator",
+      "url": "http://link.aps.org/doi/10.1103/sk54-wd8z",
+      "summary": "Author(s): Francesco Becattini and Carlos Hoyos We obtain a form of the local thermodynamic equilibrium density operator, which is invariant under pseudogauge transformations of the stress-energy and the spin tensors. Th…",
+      "ts": 1784800800000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Breaking the Speed Limit of Chemical-Structure Imaging with Enhanced Force Sensitivity",
+      "url": "http://link.aps.org/doi/10.1103/y4xr-dvwt",
+      "summary": "Author(s): Yuuki Yasui and Yoshiaki Sugimoto A new atomic force microscope captures the structures of individual molecules and their chemical bonds at record speeds. [Phys. Rev. Lett. 137, 046202] Published Thu Jul 23, 2…",
+      "ts": 1784800800000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Experimental Realization of Synthetic Magnonic Lattice via Floquet Engineering",
+      "url": "http://link.aps.org/doi/10.1103/jtpv-d5k6",
+      "summary": "Author(s): Amin Pishehvar, Jayakrishnan M. P. Nair, Zhaoyou Wang, Zixin Yan, Yu Jiang, Liang Jiang, Benedetta Flebus, and Xufeng Zhang Magnonic systems, which exploit spin-wave excitations in magnetic materials, offer a …",
+      "ts": 1784800800000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Observation of Radiation-Loss-Based Non-Hermitian Point Gap in Photonic Crystals",
+      "url": "http://link.aps.org/doi/10.1103/vsx1-17cl",
+      "summary": "Author(s): Yuto Moritake, Nozomi Ogawa, Issei Takeda, Yusuke Ohinata, Takahiro Uemura, Taiki Yoda, Kenta Takata, Eiichi Kuramochi, Hisashi Sumikura, and Masaya Notomi A non-Hermitian point gap (NHPG) is a unique phenomen…",
+      "ts": 1784800800000
     },
     {
       "source": "Phys.org",
@@ -546,160 +700,6 @@
       "title": "Static and Dynamic Estimation of Flexural Rigidity of Soybean",
       "url": "https://arxiv.org/abs/2607.20229",
       "summary": "arXiv:2607.20229v1 Announce Type: new Abstract: This paper evaluates a cantilever system as a simple method for measuring the mechanical rigidity (bending rigidity EI or Young's modulus E) of plants. Using soybeans as a …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamical and Optimization Trade-offs of Levi--Civita Coordinates for Learned Close-Encounter Dynamics",
-      "url": "https://arxiv.org/abs/2607.20235",
-      "summary": "arXiv:2607.20235v1 Announce Type: new Abstract: Classical regularization removes the binary-collision singularity from the Kepler problem, but its value as a representation for learned Hamiltonian dynamics has not been s…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A low-temperature plasma collisional framework for quadrature-based moment methods",
-      "url": "https://arxiv.org/abs/2607.20278",
-      "summary": "arXiv:2607.20278v1 Announce Type: new Abstract: The mathematical framework for elastic and inelastic collisions for quadrature-based moment methods (QBMM) is developed and validated for low-temperature collisional plasma…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parametric Decay of Broadband Lower Hybrid Waves",
-      "url": "https://arxiv.org/abs/2607.20281",
-      "summary": "arXiv:2607.20281v1 Announce Type: new Abstract: We derive a nonlinear dispersion relation for the parametric decay of an arbitrary lower hybrid pump spectrum, generalizing the standard three-wave treatment to the broadba…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fabrication status and expected performance of the inner-core X-ray optic for BabyIAXO",
-      "url": "https://arxiv.org/abs/2607.20282",
-      "summary": "arXiv:2607.20282v1 Announce Type: new Abstract: BabyIAXO, a pathfinder for the International Axion Observatory (IAXO), is designed to demonstrate all key technologies at scale while achieving an improvement in sensitivit…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Eos detector: a demonstrator of hybrid optical detection technology",
-      "url": "https://arxiv.org/abs/2607.20285",
-      "summary": "arXiv:2607.20285v1 Announce Type: new Abstract: Eos is an R&D testbed for hybrid detector technologies, featuring state-of-the-art sub-ns photosensors, the first implementation of dichroicons in a large-scale demonstrato…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Label-Free Finite-Volume-Residual Training of Attention Graph Neural Networks for Coupled Thermo-Fluid Fields",
-      "url": "https://arxiv.org/abs/2607.20321",
-      "summary": "arXiv:2607.20321v1 Announce Type: new Abstract: Neural surrogates are widely used in scientific machine learning for fast prediction of three-dimensional (3D) thermo-fluid fields. However, generating training data using …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian Inference: Kernel-Based Model for Surface Temperature Reconstruction in Ice Borehole Thermometry",
-      "url": "https://arxiv.org/abs/2607.20322",
-      "summary": "arXiv:2607.20322v1 Announce Type: new Abstract: Reconstructing past surface temperature from shallow ice borehole temperature profiles requires solving an ill-posed inverse problem while quantifying uncertainties arising…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Demonstration of a cryogenic, switchable electron source for low-temperature detector calibration",
-      "url": "https://arxiv.org/abs/2607.20324",
-      "summary": "arXiv:2607.20324v1 Announce Type: new Abstract: We present the realization of a prototype of a compact, switchable electron source operating at cryogenic temperatures, demonstrated at energies ranging from 100 eV to 300 …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstructing local environments from concise atomistic representations",
-      "url": "https://arxiv.org/abs/2607.20338",
-      "summary": "arXiv:2607.20338v1 Announce Type: new Abstract: Symmetry-based representations of local atomic structure, such as the power spectrum or bispectrum, are routinely used to characterize the structural diversity of datasets …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probing the temperature dependence of dielectric function of ternary transition metal dichalcogenides: towards thermo-driven ultrathin photonic components",
-      "url": "https://arxiv.org/abs/2607.20344",
-      "summary": "arXiv:2607.20344v1 Announce Type: new Abstract: Transition metal dichalcogenides (TMDs), along with their ternary derivatives, have attracted considerable attention mostly due to pronounced excitonic resonances emerging …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A High-Order Flux Reconstruction Actuator-Line Framework for Rotating-Blade Aerodynamics on Fixed Cartesian Grids",
-      "url": "https://arxiv.org/abs/2607.20347",
-      "summary": "arXiv:2607.20347v1 Announce Type: new Abstract: This work couples a high-order flux reconstruction/correction procedure via reconstruction (FR/CPR) solver with a rotating actuator-line model (ALM) to simulate rotating-bl…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-accuracy ultrasonic positioning of calibration sources in the Jiangmen Underground Neutrino Observatory",
-      "url": "https://arxiv.org/abs/2607.20354",
-      "summary": "arXiv:2607.20354v1 Announce Type: new Abstract: Precise source positioning is essential for detector calibration in large liquid scintillator detectors such as JUNO, particularly in regions where purely mechanical contro…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dark Matter Sensitivity of the CYGNO Detector with HFO-1234ze Enhanced Gas Mixtures",
-      "url": "https://arxiv.org/abs/2607.20370",
-      "summary": "arXiv:2607.20370v1 Announce Type: new Abstract: The CYGNO collaboration introduces an innovative approach to direct dark matter detection, proposing a high-resolution optical Time Projection Chamber. It operates at atmos…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Overview and design optimization of a custom hybrid X-ray telescope for the International Axion Observatory (IAXO)",
-      "url": "https://arxiv.org/abs/2607.20390",
-      "summary": "arXiv:2607.20390v1 Announce Type: new Abstract: We present the design optimization for maximizing the effective area of a custom X-ray optic for the International Axion Observatory (IAXO) and BabyIAXO, including its nove…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Long Non-Exponential PL Decay from Localized Defect States in Monolayer WSe$_2$ at Low Temperature",
-      "url": "https://arxiv.org/abs/2607.18423",
-      "summary": "arXiv:2607.18423v1 Announce Type: cross Abstract: We investigate the recombination dynamics of localized defect emission in monolayer WSe$_2$ using time-resolved photoluminescence over the temperature range from 4 to 120…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reliability-Aware Hard--Soft Physics-Informed Neural Networks for Robust Learning of Challenging Partial Differential Equations",
-      "url": "https://arxiv.org/abs/2607.19377",
-      "summary": "arXiv:2607.19377v1 Announce Type: cross Abstract: Physics-informed neural networks (PINNs) provide a mesh-free framework for solving partial differential equations, but their training is often affected by loss imbalance,…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scale-Aware Learning of Chaotic Dynamics on Unstructured Meshes via Binned Spectral Losses",
-      "url": "https://arxiv.org/abs/2607.19387",
-      "summary": "arXiv:2607.19387v1 Announce Type: cross Abstract: Surrogate modeling for high-dimensional nonlinear dynamical systems that exhibit chaos requires mechanisms that preserve not only pointwise accuracy but also the scale-de…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "When Does Consensus Beat Voting? A Critical Analysis of Statistical Label Fusion in Medical Image Segmentation",
-      "url": "https://arxiv.org/abs/2607.19402",
-      "summary": "arXiv:2607.19402v1 Announce Type: cross Abstract: This paper provides a rigorous, self-contained investigation of consensus segmentation. We derive the mathematical foundations from first principles -- the generative mod…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Markov state models revisited: Principles and algorithms for unbiased observables",
-      "url": "https://arxiv.org/abs/2607.19452",
-      "summary": "arXiv:2607.19452v1 Announce Type: cross Abstract: Markov state models (MSMs) have become ubiquitous tools for analyzing molecular dynamics (MD) simulations because of their simple, powerful premise: although complete MD …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Localization transitions of diffusion dynamics in physical networks",
-      "url": "https://arxiv.org/abs/2607.19486",
-      "summary": "arXiv:2607.19486v1 Announce Type: cross Abstract: Network diffusion underlies many transport phenomena, with Laplacian modes setting how information spreads and relaxes. In physical networks, however, connectivity alone …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electron-Induced Formation of C$_{2}$ on Si(100) from Acetylene and Ethylene",
-      "url": "https://arxiv.org/abs/2607.19488",
-      "summary": "arXiv:2607.19488v1 Announce Type: cross Abstract: Hydrogen Desorption Lithography on Si(100) demonstrates the ability of the Scanning Tunneling Microscope (STM) to create functional atomic-scale structures and devices. T…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Scalable Fast Multipole Method Poisson Solver for the RAMSES code: II. Adaptive Mesh Refinement and Adaptive Time Stepping",
-      "url": "https://arxiv.org/abs/2607.19489",
-      "summary": "arXiv:2607.19489v1 Announce Type: cross Abstract: We present an extended implementation of a scalable, O(N) Poisson solver based on the fast multipole method (FMM), fully compatible with adaptive mesh refinement (AMR) an…",
       "ts": 1784779200000
     }
   ],
