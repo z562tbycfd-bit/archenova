@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-22T23:06:44.089Z",
+  "updated": "2026-07-23T02:56:03.953Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+      "url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+      "summary": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for …",
+      "ts": 1784772046000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: What is a ‘world model’? Nabla’s Alex LeBrun explains",
@@ -683,6 +691,14 @@
       "categoryId": "space"
     },
     {
+      "source": "OpenAI",
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "url": "https://openai.com/index/ntt-data",
+      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+      "ts": 1784678400000,
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NVIDIA",
       "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
       "url": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
@@ -704,22 +720,6 @@
       "url": "https://spacenews.com/spacex-launches-northrop-mission-to-extend-the-life-of-aging-satellites/",
       "summary": "DARPA-backed vehicle will install propulsion pods on three commercial satellites in geostationary orbit The post SpaceX launches Northrop mission to extend the life of aging satellites appeared first on SpaceNews.",
       "ts": 1784669210000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Trump administration says it’s deferring $1B in Medicaid payments to California and Minnesota",
-      "url": "https://www.statnews.com/2026/07/21/medicaid-payments-1-billion-deferred-california-minnesota/?utm_campaign=rss",
-      "summary": "The Trump administration said it was deferring more than $1 billion in Medicaid payments to Minnesota and California because of “suspected fraud and noncompliance.”",
-      "ts": 1784664643000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Host Media Briefing on Roman Telescope, Launching Next Month",
-      "url": "https://www.nasa.gov/news-release/nasa-to-host-media-briefing-on-roman-telescope-launching-next-month/",
-      "summary": "Media are invited to join NASA for a virtual news conference at 2 p.m. EDT, Wednesday, July 29, to preview the Nancy Grace Roman Space Telescope mission, scheduled to launch from the agency’s Kennedy Space Center in Flor…",
-      "ts": 1784664479000,
       "categoryId": "space"
     }
   ],

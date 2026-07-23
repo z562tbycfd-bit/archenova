@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-22T23:06:41.686Z",
+  "updated": "2026-07-23T02:56:01.676Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Millennial minimalism: Living in a less material world",
+      "url": "https://phys.org/news/2026-07-millennial-minimalism-material-world.html",
+      "summary": "Consumer behavior accounts for almost two-thirds of global greenhouse gas emissions. Research published in the International Journal of Business Excellence argues that reducing absolute consumption, rather than simply ma…",
+      "ts": 1784772001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Extreme heat wave grips Tunisia as wide power cuts fuel frustration",
+      "url": "https://phys.org/news/2026-07-extreme-tunisia-wide-power-fuel.html",
+      "summary": "In Tunisia, long power outages across the country have added to the strain of an intense heat wave, with temperatures as high as 49°C (120°F), leaving many fearing for their livelihoods.",
+      "ts": 1784766001000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Discrete distributions are learnable from metastable samples",
+      "url": "https://www.nature.com/articles/s41467-026-75439-1",
+      "summary": "",
+      "ts": 1784764800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Concept2Brain: an AI model for predicting neurophysiological responses to text and pictures",
+      "url": "https://www.nature.com/articles/s41467-026-75653-x",
+      "summary": "",
+      "ts": 1784764800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Spatial transcriptomics reveals distinct cell type dynamics following opioid dependence in female mice with the common human μ-opioid receptor variant <i>Oprm1</i> A118G",
+      "url": "https://www.nature.com/articles/s41467-026-75723-0",
+      "summary": "",
+      "ts": 1784764800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Dyscoordination of thalamic reticular spindles is associated with social memory deficits in mice and humans with autism spectrum disorder",
+      "url": "https://www.nature.com/articles/s41467-026-75162-x",
+      "summary": "",
+      "ts": 1784764800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Deletion of ARPKD-associated <i>Pkhd1</i> gene in mice results in decreased <i>Tfap2b</i> expression and eye abnormalities",
+      "url": "https://www.nature.com/articles/s41467-026-75698-y",
+      "summary": "",
+      "ts": 1784764800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A hierarchical framework for cortical and subcortical gray-matter parcellation across rodents, primates, and humans",
+      "url": "https://www.nature.com/articles/s41467-026-75837-5",
+      "summary": "",
+      "ts": 1784764800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "RHOT1/2-driven mitochondrial membrane vesicles confer tumor-homing selectivity and enable in situ cancer vaccination",
+      "url": "https://www.nature.com/articles/s41467-026-75830-y",
+      "summary": "",
+      "ts": 1784764800000
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Dual-space visible light authentication toward high security physical unclonable function",
+      "url": "https://www.nature.com/articles/s41467-026-75781-4",
+      "summary": "",
+      "ts": 1784764800000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genome tool places large genetic sequences precisely in rice and tobacco without DNA breaks",
+      "url": "https://phys.org/news/2026-07-genome-tool-large-genetic-sequences.html",
+      "summary": "Researchers at King Abdullah University of Science and Technology (KAUST) have developed a new way to add large pieces of genetic information to plants, overcoming a challenge that has limited plant biotechnology for dec…",
+      "ts": 1784763601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A longer, hotter reality surrounds marine heat waves, research reveals",
+      "url": "https://phys.org/news/2026-07-longer-hotter-reality-marine-reveals.html",
+      "summary": "Anyone who has boiled a pot of water understands that it takes both time and energy to raise the temperature, so it may come as a surprise to learn that scientists have long treated marine heat waves (MHWs) as isolated e…",
+      "ts": 1784762404000
+    },
     {
       "source": "Phys.org",
       "title": "Marine animals first colonized empty seashells about 470 million years ago",
@@ -549,6 +633,13 @@
       "ts": 1784715601000
     },
     {
+      "source": "APS PRX",
+      "title": "Statistical Physics of Deep Learning: Optimal Learning of a Multilayer Perceptron near Interpolation",
+      "url": "http://link.aps.org/doi/10.1103/56sb-pdh6",
+      "summary": "Author(s): Jean Barbier, Francesco Camilli, Minh-Toan Nguyen, Mauro Pastore, and Rudy Skerk Using statistical physics and random matrix theory, researchers derive the generalization error of a deep fully connected neural…",
+      "ts": 1784714400000
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Benchmarking a Tunable Quantum Neural Network on Trapped-Ion and Superconducting Hardware",
       "url": "http://link.aps.org/doi/10.1103/9bp2-42v3",
@@ -610,97 +701,6 @@
       "url": "https://phys.org/news/2026-07-analysis-debt-suicide.html",
       "summary": "In a study published in Economic Inquiry that analyzed debt and income across U.S. counties at the onset of the Great Recession in 2008, investigators uncovered evidence that debt may affect the likelihood of suicide.",
       "ts": 1784703611000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Factors that affect the spininess of plants in different locations",
-      "url": "https://phys.org/news/2026-07-factors-affect-spininess.html",
-      "summary": "Plants often grow spines, thorns and prickles to defend against animals that feed on them, but why this happens in some places more than others has remained a mystery. Research in New Phytologist shows that plant spinine…",
-      "ts": 1784703608000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Advance could enable enzymatic reactions for chemical manufacturing beyond the boiling point of water",
-      "url": "https://phys.org/news/2026-07-advance-enable-enzymatic-reactions-chemical.html",
-      "summary": "Enzymes are proteins that can be harnessed for chemical manufacturing, but they are typically restricted to mild temperatures because proteins unfold and lose their function under heat. In new research published in Angew…",
-      "ts": 1784703606000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Circulating microRNAs offer insights for detecting and treating cachexia in senior dogs",
-      "url": "https://phys.org/news/2026-07-circulating-micrornas-insights-cachexia-senior.html",
-      "summary": "Cachexia—a syndrome characterized by progressive muscle wasting—affects both humans and dogs with chronic diseases such as cancer. A recent study in Molecular Oncology found that lower circulating levels of certain micro…",
-      "ts": 1784703604000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Australian cave discovery shows grass was burned for magic, cures and curses for 25,000 years",
-      "url": "https://phys.org/news/2026-07-australian-cave-discovery-grass-magic.html",
-      "summary": "The GunaiKurnai, an Australian Aboriginal nation, are the acknowledged traditional custodians of Gippsland and the southern Victorian Alps. Within their territory are caves known from 19th-century ethnographic reports an…",
-      "ts": 1784692803000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improving Punching \"Power\": Reconsidering the roles of initial strike velocity and effective mass",
-      "url": "https://arxiv.org/abs/2607.18276",
-      "summary": "arXiv:2607.18276v1 Announce Type: new Abstract: We review the principal features of one-dimensional, elastic collisions pertinent to modeling strike-mediated impacts in martial arts and combat sports contexts. Arguing fo…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Risk-mediated transmission dynamics govern epidemic trajectories beyond physical mobility",
-      "url": "https://arxiv.org/abs/2607.18277",
-      "summary": "arXiv:2607.18277v1 Announce Type: new Abstract: Standard epidemiological models rely on physical mobility and policy indicators, which fail when physical movement decouples from actual transmission risk. To address this,…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Position: The Inevitable Transition to Machine Learning in Quantum Chemistry",
-      "url": "https://arxiv.org/abs/2607.18281",
-      "summary": "arXiv:2607.18281v1 Announce Type: new Abstract: Finding exact solutions to the quantum many-body problem is computationally intractable (QMA-hard). Traditional approximations for electrons in an atom or molecule -- densi…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of Phase Space Dynamics of Inverted Harmonic Oscillator",
-      "url": "https://arxiv.org/abs/2607.18297",
-      "summary": "arXiv:2607.18297v1 Announce Type: new Abstract: We have experimentally realized a parabolic potential barrier for surface gravity water waves. The analogy between the resulting wave equation and the Schrodinger equation …",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Long-term Coexistence of Epidemics and Risk Awareness: Impacts of Adaptive Human Response and Fatigue",
-      "url": "https://arxiv.org/abs/2607.18301",
-      "summary": "arXiv:2607.18301v1 Announce Type: new Abstract: Adaptive human behavior is widely recognized as a key determinant of epidemic dynamics, yet remains elusive to incorporate into epidemic models in a mechanistically transpa…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Distribution-First Population Simulation: Collapse, Calibration, and Recall in Non-WEIRD LLM Persona Modeling",
-      "url": "https://arxiv.org/abs/2607.18310",
-      "summary": "arXiv:2607.18310v1 Announce Type: new Abstract: Synthetic-population tools increasingly run every individual as an independent large language model (LLM) agent. Using real survey microdata, we show that this paradigm has…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electron Temperature Gradients Regulate the Duration of Two-Stage Plasmasphere Refilling",
-      "url": "https://arxiv.org/abs/2607.18318",
-      "summary": "arXiv:2607.18318v1 Announce Type: new Abstract: After geomagnetic storms erode the plasmasphere, cold ionospheric plasma flows along magnetic field lines to refill the depleted flux tubes. Previous studies have suggested…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mapping the Narrow Corridor with Large Language Models",
-      "url": "https://arxiv.org/abs/2607.18319",
-      "summary": "arXiv:2607.18319v1 Announce Type: new Abstract: Acemoglu and Robinson (2024 Nobel laureates in Economics) trace national histories in The Narrow Corridor as paths through a two-dimensional (state power, society power) sp…",
-      "ts": 1784692800000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental and model-assisted analysis of lamella thinning and breakup in diesel-surrogate fuel-droplet wall impingement under Leidenfrost conditions",
-      "url": "https://arxiv.org/abs/2607.18324",
-      "summary": "arXiv:2607.18324v1 Announce Type: new Abstract: Hot-wall fuel-droplet impingement affects liquid redistribution, secondary droplet formation, and droplet evaporation in diesel-relevant spray-wall systems. This study inve…",
-      "ts": 1784692800000
     }
   ],
   "sources": [
