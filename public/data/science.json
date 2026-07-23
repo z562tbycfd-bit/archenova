@@ -1,7 +1,126 @@
 {
   "ok": true,
-  "updated": "2026-07-23T20:15:01.370Z",
+  "updated": "2026-07-23T22:06:18.029Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Sperm whales blow bubbles to achieve restful, vertical sleep",
+      "url": "https://phys.org/news/2026-07-sperm-whales-restful-vertical.html",
+      "summary": "New research from the University of St Andrews and Université de Neuchâtel has uncovered the mechanism that allows sperm whales to sleep in a unique vertical position just under the ocean surface.",
+      "ts": 1784844004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "College professors face an emerging challenge: We know students are no longer reading entire books",
+      "url": "https://phys.org/news/2026-07-college-professors-emerging-students-longer.html",
+      "summary": "Anyone who has spent time on a college campus lately has probably heard laments from faculty about their students' reading habits, or rather, nonreading habits. Such complaints are more than unfounded nostalgia for a byg…",
+      "ts": 1784844001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chocolate syrup-like fluid stores multiple interacting memories",
+      "url": "https://phys.org/news/2026-07-chocolate-syrup-fluid-multiple-interacting.html",
+      "summary": "Animals and electronic devices aren't the only things with memory. Materials can retain memories of past deformations in their microscopic structure. A common example is a crease in a sheet of paper that has been folded …",
+      "ts": 1784843402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "There's a business case for companies to embrace sustainability, if it's pitched the right way",
+      "url": "https://phys.org/news/2026-07-business-case-companies-embrace-sustainability.html",
+      "summary": "Sustainable business practices are often seen as a luxury that only rich countries can afford. And these days, some of the biggest economies, including the U.S., are backtracking on those commitments.",
+      "ts": 1784842806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global map reveals mining's uneven toll on forests and biodiversity",
+      "url": "https://phys.org/news/2026-07-global-reveals-uneven-toll-forests.html",
+      "summary": "A new study led by Japanese researchers from Tohoku University and the National Institute for Environmental Studies (NIES) reveals that some of the minerals most essential for green technologies may have a significant ne…",
+      "ts": 1784842804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineers observe quantum heat waves at room temperature",
+      "url": "https://phys.org/news/2026-07-quantum-room-temperature.html",
+      "summary": "Efficient heat management in solids is key to advancing the next generation of electronics. However, wave-like heat movement—known as phonon focusing—had been observed only at extremely low, or cryogenic, temperatures, l…",
+      "ts": 1784842201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How babywearing helps establish parent‑child bonds",
+      "url": "https://phys.org/news/2026-07-babywearing-parentchild-bonds.html",
+      "summary": "From the moment they enter the world, human babies depend on others in a way that is unmatched across most species.",
+      "ts": 1784841605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Exploring the lost golden age of language diversity before expanding empires drove a global decline",
+      "url": "https://phys.org/news/2026-07-exploring-lost-golden-age-language.html",
+      "summary": "Today, people speak or sign around 7,500 languages. Yet this figure provides only a snapshot of a constantly changing history. How many languages existed before written records? Did agriculture reduce linguistic diversit…",
+      "ts": 1784841603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simple circuit brings topological insulators closer to practical electrical measurement standards",
+      "url": "https://phys.org/news/2026-07-simple-circuit-topological-insulators-closer.html",
+      "summary": "Researchers at the University of Würzburg have succeeded in detecting exceptionally robust electrical transport in a topological insulator. This could lead to new metrological applications. The work is published in the j…",
+      "ts": 1784841001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Colorado basins supplying 70% of Lake Powell's water face major midcentury shortages",
+      "url": "https://phys.org/news/2026-07-colorado-basins-lake-powell-major.html",
+      "summary": "If the Colorado River Basin is the lifeblood of the American Southwest, keeping the region's agricultural, ecological and economic systems thriving, Colorado's West Slope River basins could be considered the heart. Toget…",
+      "ts": 1784840408000
+    },
+    {
+      "source": "Phys.org",
+      "title": "The sex life of treefrogs: How females build better nests by mating with multiple partners",
+      "url": "https://phys.org/news/2026-07-sex-life-treefrogs-females-multiple.html",
+      "summary": "African gray foam-nest treefrogs (Chiromantis xerampelina) are common across the savannas and dry forests of southeastern Africa. Despite their unremarkable outward appearance, these small animals display some of the mos…",
+      "ts": 1784840402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Machine learning narrows search for additional particles in the Higgs boson family",
+      "url": "https://phys.org/news/2026-07-machine-narrows-additional-particles-higgs.html",
+      "summary": "What if the Higgs boson found in 2012 is not alone but is the only sibling we have encountered so far? Scientists at CERN discovered the particle that year, and it was a major discovery because it explained how other par…",
+      "ts": 1784839801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Universal structure of exceptional points revealed in nonlinear light‑based systems",
+      "url": "https://phys.org/news/2026-07-universal-exceptional-revealed-nonlinear-lightbased.html",
+      "summary": "Exceptional points, or EPs for short, are among the phenomena of modern physics. These are special points or locations at which the properties of matter, space or time change. In a new theoretical study, researchers from…",
+      "ts": 1784839205000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Do tourists stress out safari animals? We tested their dung to find out",
+      "url": "https://phys.org/news/2026-07-tourists-stress-safari-animals-dung.html",
+      "summary": "Every year, thousands of tourists pile into game drive vehicles or don their hiking gear and cross South Africa's nature reserves. Binoculars and cameras at the ready, each hopes for a special encounter with Africa's wil…",
+      "ts": 1784839203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Destructive crop caterpillar harbors fungi that can degrade Styrofoam",
+      "url": "https://phys.org/news/2026-07-destructive-crop-caterpillar-harbors-fungi.html",
+      "summary": "A moth caterpillar identified by the agribusiness sector as one of the most destructive pests of soybean, cotton and corn crops may harbor fungi and bacteria in its gut that can degrade expanded polystyrene, also known a…",
+      "ts": 1784838601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA's new space telescope will tackle some of the universe's biggest mysteries",
+      "url": "https://phys.org/news/2026-07-nasa-space-telescope-tackle-universe.html",
+      "summary": "NASA is about to launch a space observatory that could help settle some of the biggest mysteries in modern astronomy. The Nancy Grace Roman Space Telescope will study how the universe began, what it is made of and how it…",
+      "ts": 1784838006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mars auroras reveal miniature version of Earth's magnetic engine",
+      "url": "https://phys.org/news/2026-07-mars-auroras-reveal-miniature-version.html",
+      "summary": "NASA MAVEN (Mars Atmosphere and Volatile Evolution) mission scientists have uncovered a key puzzle piece in understanding certain types of auroras on Mars, finding that they form in a similar way to Earth–based auroras.",
+      "ts": 1784838003000
+    },
     {
       "source": "Phys.org",
       "title": "Spent coffee grounds reveal a route to biodiesel and other bio-based products",
@@ -581,125 +700,6 @@
       "title": "Cultural Evolution of Perfumes since 1900",
       "url": "https://arxiv.org/abs/2607.19520",
       "summary": "arXiv:2607.19520v1 Announce Type: new Abstract: Perfumes are cultural artifacts and works of sensory art, composed from a finite, recombinable palette of notes that together evoke a distinctive scent impression. Here, we…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accounting for Nanofilm Contributions in Interfacial Free Energy Calculations Using Classical Density Functional Theory",
-      "url": "https://arxiv.org/abs/2607.19521",
-      "summary": "arXiv:2607.19521v1 Announce Type: new Abstract: Fluid nanofilms play a fundamental role in nanoscale interfacial thermodynamics, yet their treatment in classical density functional theory (cDFT) remains incomplete. We in…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Momentum Rescaling for Collapse to a Block Ehrenfest Dynamics",
-      "url": "https://arxiv.org/abs/2607.19536",
-      "summary": "arXiv:2607.19536v1 Announce Type: new Abstract: The Ehrenfest with collapse to a block (TAB) algorithm has recently been demonstrated to efficiently and accurately simulate nonadiabatic molecular dynamics in dense manifo…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Synthesizing superoscillations with just two frequencies",
-      "url": "https://arxiv.org/abs/2607.19542",
-      "summary": "arXiv:2607.19542v1 Announce Type: new Abstract: Superoscillations, band-limited signals that locally oscillate faster than their highest Fourier component, have recently enabled superspectroscopy and super-sensing. Previ…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elastohydrodynamic instability of a spinning elastic disk",
-      "url": "https://arxiv.org/abs/2607.19561",
-      "summary": "arXiv:2607.19561v1 Announce Type: new Abstract: A soft thin elastic disk spinning in a viscous fluid experiences centrifugal tension generated by rotation together with viscous shear generated by the surrounding flow. Wh…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sidewall effects on the onset of interfacial Holmboe waves in stratified exchange flows at high Schmidt number",
-      "url": "https://arxiv.org/abs/2607.19565",
-      "summary": "arXiv:2607.19565v1 Announce Type: new Abstract: Predicting the onset of interfacial instabilities is central to understanding turbulent mixing in natural and engineered stratified shear flows. Here, we study the onset of…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cavitation Acoustic Perturbation Equations: A Computational Framework for Source-Resolved Multiphase Hydroacoustics",
-      "url": "https://arxiv.org/abs/2607.19567",
-      "summary": "arXiv:2607.19567v1 Announce Type: new Abstract: This work develops a cavitation-consistent acoustic perturbation framework for predicting sound generation and propagation in cavitating flows. Unlike conventional acoustic…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enantioselective optical trapping and characterization of all dielectric disorder-enabled chiral particles",
-      "url": "https://arxiv.org/abs/2607.19571",
-      "summary": "arXiv:2607.19571v1 Announce Type: new Abstract: We trap submicroscopic silica spheres coated with randomly distributed titanium dioxide nanoparticles in optical tweezers with Laguerre-Gaussian modes and observe orbital d…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sensing, Traffic, and Construction in Termites",
-      "url": "https://arxiv.org/abs/2607.19594",
-      "summary": "arXiv:2607.19594v1 Announce Type: new Abstract: Subterranean and mound-building termites excavate, transport, and build within the same granular substrate that later regulates how they sense, move, and deposit material. …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Juxtaposition of Shallow Reservoir-Triggered Seismicity and Deep Tectonic Locking in the Qiaojia-Dongchuan Seismic Gap",
-      "url": "https://arxiv.org/abs/2607.19606",
-      "summary": "arXiv:2607.19606v1 Announce Type: new Abstract: Identifying the critical state of mature seismic gaps is challenging, especially when anthropogenic stress perturbations, such as reservoir impoundment, superimpose on tect…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design Study of an Endless RF Phase Shifter Using Ferroelectric Capacitors",
-      "url": "https://arxiv.org/abs/2607.19610",
-      "summary": "arXiv:2607.19610v1 Announce Type: new Abstract: An endless radio-frequency (RF) phase shifter is designed using ferroelectric capacitors. An endless phase winds continuously and without bound while every control voltage …",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-stabilization of microcombs",
-      "url": "https://arxiv.org/abs/2607.19614",
-      "summary": "arXiv:2607.19614v1 Announce Type: new Abstract: Optical frequency combs form phase-locked spectral lines arranged on an equidistant grid fully defined by two degrees of freedom, i.e., the repetition rate and frequency of…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Controllable localization and manipulation of optical hollow traps by means of optical-vortex diffraction",
-      "url": "https://arxiv.org/abs/2607.19630",
-      "summary": "arXiv:2607.19630v1 Announce Type: new Abstract: An optical vortex (OV) is coupled with the local intensity zero and is thus a field configuration suitable for \"hollow\" optical traps and optical tweezers. When an incident…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "svMultiPhysics: a finite element-based solver for cardiovascular simulations",
-      "url": "https://arxiv.org/abs/2607.19631",
-      "summary": "arXiv:2607.19631v1 Announce Type: new Abstract: Heart disease remains the leading cause of death in the United States, motivating extensive efforts to improve its diagnosis, treatment, and prevention. Over the past decad…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Decoding molecular distributional codes through collective instabilities",
-      "url": "https://arxiv.org/abs/2607.19637",
-      "summary": "arXiv:2607.19637v1 Announce Type: new Abstract: Biological information is often encoded in molecular variants that differ in just a few chemical traits, such as the number of phosphorylated sites or ubiquitin chain lengt…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An integrated super resolution THz 3D imaging system based on a linear nonlocal achromatic freeform Bessel beam lens and high power oscillator radiator array",
-      "url": "https://arxiv.org/abs/2607.19652",
-      "summary": "arXiv:2607.19652v1 Announce Type: new Abstract: High performance terahertz (THz) 3D imaging is critical for non-destructive evaluation. However, conventional architectures are fundamentally limited by severe chromatic ab…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nuclear Quantum Effects as a Denoising Problem",
-      "url": "https://arxiv.org/abs/2607.19680",
-      "summary": "arXiv:2607.19680v1 Announce Type: new Abstract: Nuclear quantum effects are rigorously captured by imaginary-time path integrals, which map the quantum Boltzmann distribution onto a ring polymer of classical replicas. Ye…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From risk to flourishing: Seeds for responding to a complex world",
-      "url": "https://arxiv.org/abs/2607.19685",
-      "summary": "arXiv:2607.19685v1 Announce Type: new Abstract: Flourishing is the actualization of all beings toward their good -- not only individually but collectively, answering the question of `how do we live well with and for each…",
       "ts": 1784779200000
     }
   ],

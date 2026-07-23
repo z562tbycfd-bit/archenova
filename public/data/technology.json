@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-23T20:15:05.087Z",
+  "updated": "2026-07-23T22:06:20.284Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "NASA programs feel effects of workforce reductions",
+      "url": "https://spacenews.com/nasa-programs-feel-effects-of-workforce-reductions/",
+      "summary": "More than two dozen major NASA projects say they have been affected by the loss of a fifth of NASA’s civil servant workforce in the last year. The post NASA programs feel effects of workforce reductions appeared first on…",
+      "ts": 1784842289000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Poland commits $745 million to EU’s IRIS² constellation project",
+      "url": "https://spacenews.com/poland-commits-745-million-to-eus-iris%c2%b2-constellation-project/",
+      "summary": "WARSAW, Poland — The Polish government has agreed to invest around $745 million in the development of the planned IRIS² multi-orbit satellite internet constellation with the European Union. The money […] The post Poland …",
+      "ts": 1784841289000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: In win for RFK Jr., FDA advisory panel narrowly votes to allow compounding of unapproved peptides",
@@ -228,9 +244,49 @@
     },
     {
       "source": "United Nations News",
+      "title": "Syria ‘not alone’ in locating missing persons, tackling displacement",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168010",
+      "summary": "Syria is not alone in tackling challenges, including the hundreds of thousands who remain missing during past tumultuous decades, the head of a UN institution said on Thursday as António Guterres departs on his first vis…",
+      "ts": 1784808000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Iran urged to stop protest-related executions",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168009",
+      "summary": "Independent UN human rights investigators on Thursday called for Iran to immediately halt the execution of 10 men who took part in a protest in the central city of Isfahan earlier this year, warning that some of their re…",
+      "ts": 1784808000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: New ECOSOC chief, Secretary-General candidates’ debate, torture in Mali, drowning prevention",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168008",
+      "summary": "Amar Bendjama, Permanent Representative of Algeria to the UN, was elected on Thursday to serve as the next president of the UN’s Economic and Social Council (ECOSOC).",
+      "ts": 1784808000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza’s food gains could unravel without sustained aid, UN warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168006",
+      "summary": "Food security and child nutrition have improved across the Gaza Strip largely due to a scale-up in humanitarian assistance and commercial traffic, but progress remains fragile and could quickly reverse without sustained …",
+      "ts": 1784808000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Satellites can now spot methane leaks in real time – but most go unfixed",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168007",
+      "summary": "Satellites can now spot major methane leaks from space within days. Yet only 13 per cent of those alerts lead to any response from the governments or companies responsible.",
+      "ts": 1784808000000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Security Council LIVE: How to turn preventive diplomacy rhetoric into action",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168005",
-      "summary": "The Security Council is debating on Thursday how best to settle disputes between States peacefully. Ambassadors will be exploring such themes as effective early warning and how to move from rhetorical support for prevent…",
+      "summary": "In the Security Council debate on Thursday on how best to settle disputes between States peacefully, ambassadors provided examples of success and challenges ahead under such themes as effective early warning and how to m…",
       "ts": 1784808000000,
       "categoryId": "global-governance"
     },
@@ -587,6 +643,14 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "Nature Energy",
+      "title": "Low-temperature oxide-ion conduction in Aurivillius-type ((Na<sub>0.5</sub>Bi<sub>0.5</sub>)<sub><i>n</i>–1</sub>Ti<sub><i>n</i></sub>O<sub>3<i>n</i></sub>)(Bi<sub>2</sub>O<sub>2</sub>) phases",
+      "url": "https://www.nature.com/articles/s41560-026-02115-5",
+      "summary": "",
+      "ts": 1784764800000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "Cell",
       "title": "UTR-ly unexpected: RNA chaperones tame intrinsically disordered proteins",
       "url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00710-5?rss=yes",
@@ -627,14 +691,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "Nature Energy",
-      "title": "Low-temperature oxide-ion conduction in Aurivillius-type ((Na<sub>0.5</sub>Bi<sub>0.5</sub>)<sub><i>n</i>–1</sub>Ti<sub><i>n</i></sub>O<sub>3<i>n</i></sub>)(Bi<sub>2</sub>O<sub>2</sub>) phases",
-      "url": "https://www.nature.com/articles/s41560-026-02115-5",
-      "summary": "",
-      "ts": 1784764800000,
-      "categoryId": "energy-climate"
-    },
-    {
       "source": "STAT",
       "title": "STAT+: What is a ‘world model’? Nabla’s Alex LeBrun explains",
       "url": "https://www.statnews.com/2026/07/22/what-is-a-world-model-nabla-alex-lebrun-explains-ai-prognosis/?utm_campaign=rss",
@@ -665,62 +721,6 @@
       "summary": "Media are invited to NASA’s Langley Research Center in Hampton, Virginia, on Friday, July 31, to attend a media tour and ribbon-cutting ceremony for the Flight Dynamics Research Facility, the agency’s first new wind tunn…",
       "ts": 1784746025000,
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "FCC approves sweeping space reforms while clearing more C-band for 5G",
-      "url": "https://spacenews.com/fcc-approves-sweeping-space-reforms-while-clearing-more-c-band-for-5g/",
-      "summary": "The FCC voted July 22 to push satellite operators out of more C-band spectrum for a 5G auction next year, while approving a licensing overhaul aimed at accelerating the commercial space economy. The post FCC approves swe…",
-      "ts": 1784745096000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Robotic Servicing Mission Launches with NASA Support",
-      "url": "https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support/",
-      "summary": "Following its liftoff from Cape Canaveral on July 21 aboard a SpaceX Falcon 9 rocket, the Mission Robotic Vehicle (MRV) hosting the NASA-supported Robotic Servicing of Geosynchronous Satellites (RSGS) payload is now en r…",
-      "ts": 1784743455000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Transmissible Cancer Discovered in Freshwater Fish",
-      "url": "https://www.genengnews.com/topics/cancer/transmissible-cancer-discovered-in-freshwater-fish/",
-      "summary": "Researchers identified a form of transmissible cancer in a freshwater fish species, in which the cancer cells behave more like parasites than conventional tumors, moving from fish to fish. The post Transmissible Cancer D…",
-      "ts": 1784742726000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Sets Coverage for Astronaut Chris Williams, Crewmates Return",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-astronaut-chris-williams-crewmates-return/",
-      "summary": "Editor’s Note: This advisory was updated on July 23, 2026, to reflect changes to the mission timeline. NASA astronaut Chris Williams and Roscosmos cosmonauts Sergey Kud-Sverchkov and Sergei Mikaev are wrapping up their 2…",
-      "ts": 1784740663000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "A New Look – and Sound – for Messier 94",
-      "url": "https://www.nasa.gov/image-article/a-new-look-and-sound-for-messier-94/",
-      "summary": "NASA’s Chandra X-ray Observatory unveiled this new look at the galaxy NGC 4736, also known as Messier 94, on June 30, 2026. Messier 94 is a spiral galaxy with a bright inner ring around it, called a starburst ring, where…",
-      "ts": 1784738752000,
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Transcripta Bio Raises $24M for AI-Driven Neurological Disease Therapies",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/transcripta-bio-raises-24m-for-ai-driven-neurological-disease-therapies/",
-      "summary": "The Palo Alto-based company is developing small molecule drugs that modulate the transcriptome. The latest funding raise will advance IND-enabling studies and clinical preparation of its neurological disease portfolio. T…",
-      "ts": 1784737841000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: What Argentina’s World Cup loss should teach American hospitals",
-      "url": "https://www.statnews.com/2026/07/22/world-cup-argentina-loss-hospitals-lessons/?utm_campaign=rss",
-      "summary": "“Hospitals often make Argentina’s mistake: We confuse continuity with progress,” writes physician, hospital administrator, and bioethicist Basel Tarab.",
-      "ts": 1784737544000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
