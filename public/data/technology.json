@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-23T09:25:21.535Z",
+  "updated": "2026-07-23T11:51:45.448Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Expect a clash at today’s FDA peptide panel",
+      "url": "https://www.statnews.com/2026/07/23/health-news-expect-a-clash-at-today-fda-peptide-panel/?utm_campaign=rss",
+      "summary": "The service members who refused the Covid vaccine, the fastest-growing Ebola outbreak in history, and other health news from Morning Rounds",
+      "ts": 1784806465000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: New data on Eli Lilly’s ‘triple-G’ drug leave open questions on heart benefit",
+      "url": "https://www.statnews.com/2026/07/23/new-data-on-eli-lilly-triple-g-drug-retatrutide-leave-open-questions-on-heart-benefit/?utm_campaign=rss",
+      "summary": "On secondary endpoints that looked at major cardiovascular events, those taking retatrutide did not have a significant lower risk of death, heart attack, or stroke.",
+      "ts": 1784803500000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Watch the total solar eclipse with ESA in León",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon",
+      "summary": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the University of León.",
+      "ts": 1784800800000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Filing of bipartisan Senate bill boosts momentum for office of men’s health",
+      "url": "https://www.statnews.com/2026/07/23/federal-office-mens-health-bipartisan-bill-filed-momentum-grows/?utm_campaign=rss",
+      "summary": "Mirroring the bipartisan bill introduced in the House, the measure would require a study from the GAO on the state of men’s health in the U.S. to be presented within…",
+      "ts": 1784800800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The power line that could reshape New York’s grid is hitting snags",
+      "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
+      "summary": "On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that power shuttled in on …",
+      "ts": 1784797200000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: FDA staff and peptide enthusiasts set to clash at advisory panel",
@@ -289,6 +329,14 @@
       "summary": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for …",
       "ts": 1784772046000,
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Low-temperature oxide-ion conduction in Aurivillius-type ((Na<sub>0.5</sub>Bi<sub>0.5</sub>)<sub><i>n</i>–1</sub>Ti<sub><i>n</i></sub>O<sub>3<i>n</i></sub>)(Bi<sub>2</sub>O<sub>2</sub>) phases",
+      "url": "https://www.nature.com/articles/s41560-026-02115-5",
+      "summary": "",
+      "ts": 1784764800000,
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -672,54 +720,6 @@
       "url": "https://www.statnews.com/2026/07/22/maui-wildfire-exposure-study-health-impacts-lahaina-hawaii/?utm_campaign=rss",
       "summary": "A study of the long-term health impact of the Lahaina wildfires is inspiring a new model for disaster recovery and support.",
       "ts": 1784709000000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Introducing OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "ts": 1784698200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: More workers hate their jobs, but keep them for the health insurance",
-      "url": "https://www.statnews.com/2026/07/22/gallup-poll-24-percent-workers-job-lock-keep-job-health-insurance/?utm_campaign=rss",
-      "summary": "A new survey reveals 24% of U.S. workers stay in unwanted jobs to keep health insurance. Experts call it 'job lock.'",
-      "ts": 1784692860000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "A Week of Smoky Skies Across North America",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/",
-      "summary": "Brown carbon, emitted by wildland fires and tracked over the span of a week in July 2026, worsened air quality in parts of the U.S. and Canada.",
-      "ts": 1784692800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MechAInistic: An LLM-guided Multi-Agent System for Reasoning over Genome-Scale Constraint-Based Metabolic Models",
-      "url": "https://arxiv.org/abs/2607.18249",
-      "summary": "arXiv:2607.18249v1 Announce Type: new Abstract: Constraint-based metabolic modeling is a powerful way to study the mechanistic basis of cellular states and disease, but its effective use demands substantial computational…",
-      "ts": 1784692800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Approximating SPR Distance Between Phylogenetic Trees with Graph Neural Networks",
-      "url": "https://arxiv.org/abs/2607.18311",
-      "summary": "arXiv:2607.18311v1 Announce Type: new Abstract: Comparing phylogenetic tree topologies is essential for understanding epidemic dynamics, yet biologically meaningful distances such as the Subtree Prune and Regraft (SPR) d…",
-      "ts": 1784692800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evaluating the Impact of Epidemic Control via State-Dependent Markovian Switching Modeling",
-      "url": "https://arxiv.org/abs/2607.18364",
-      "summary": "arXiv:2607.18364v1 Announce Type: new Abstract: We develop an exact finite-population stochastic framework for SIR epidemics evolving under Markovian switching between intervention regimes. The epidemic state is augmente…",
-      "ts": 1784692800000,
       "categoryId": "bio"
     }
   ],
