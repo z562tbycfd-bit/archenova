@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-23T22:06:20.284Z",
+  "updated": "2026-07-24T00:02:49.442Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Single-Cell Maps Reveal Genome Reorganization in Alzheimer’s Brain Cells",
+      "url": "https://www.genengnews.com/topics/omics/single-cell-maps-reveal-genome-reorganization-in-alzheimers-brain-cells/",
+      "summary": "Using single-cell multiomics, spatial transcriptomics, and an AI model called Hicformer, the team generated a multiscale view connecting genome structure, gene regulation, and tissue organization in Alzheimer’s disease. …",
+      "ts": 1784844484000,
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "NASA programs feel effects of workforce reductions",
@@ -713,14 +721,6 @@
       "summary": "New data supports the idea that Merck’s Ebola vaccine Ervebo, licensed to target the Zaire species of ebolaviruses, could also offer some protection against another.",
       "ts": 1784754000000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA to Showcase Agency’s Newest Wind Tunnel in Virginia",
-      "url": "https://www.nasa.gov/news-release/nasa-to-showcase-agencys-newest-wind-tunnel-in-virginia/",
-      "summary": "Media are invited to NASA’s Langley Research Center in Hampton, Virginia, on Friday, July 31, to attend a media tour and ribbon-cutting ceremony for the Flight Dynamics Research Facility, the agency’s first new wind tunn…",
-      "ts": 1784746025000,
-      "categoryId": "space"
     }
   ],
   "categories": [

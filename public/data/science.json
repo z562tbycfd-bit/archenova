@@ -1,7 +1,105 @@
 {
   "ok": true,
-  "updated": "2026-07-23T22:06:18.029Z",
+  "updated": "2026-07-24T00:02:46.343Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How researchers are using AI to speed up drug discovery and development: Q&A",
+      "url": "https://phys.org/news/2026-07-ai-drug-discovery-qa.html",
+      "summary": "Drug development is among the slowest, most failure-prone processes in modern science, with about 90% of drug candidates never reaching the market. Today, artificial intelligence methods have accelerated the first step—p…",
+      "ts": 1784851203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Earlier toilet training could curb growing diaper waste crisis",
+      "url": "https://phys.org/news/2026-07-earlier-toilet-curb-diaper-crisis.html",
+      "summary": "Earlier toilet training and new recycling technologies are among expert-backed solutions to reduce the environmental impact of disposable diapers and other hygiene products, according to a new study led by UCL researcher…",
+      "ts": 1784850004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scuba divers underestimate how much damage they do to coral reefs. We've watched hundreds to find out why",
+      "url": "https://phys.org/news/2026-07-scuba-divers-underestimate-coral-reefs.html",
+      "summary": "Scuba diving is often presented as a success story for marine ecotourism.",
+      "ts": 1784850001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI unlocks Atlantic circulation insights from 20 years of ocean float data",
+      "url": "https://phys.org/news/2026-07-ai-atlantic-circulation-insights-years.html",
+      "summary": "For more than 20 years, about 4,000 autonomous profiling floats have been drifting through the ocean. They form part of the international Argo program (Argo—global array of profiling floats). At regular intervals, they d…",
+      "ts": 1784848806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new 'golden age' of mathematics may be dawning, thanks to AI and human ingenuity",
+      "url": "https://phys.org/news/2026-07-golden-age-mathematics-dawning-ai.html",
+      "summary": "In May 2026, OpenAI released a new math result that sent shock waves throughout the world of mathematical research. A major unsolved problem called the \"unit distance conjecture\" had just been resolved by generative AI.",
+      "ts": 1784848801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Alan Turing's gay short story reveals 'fun, cheeky' man who loved sex and literature",
+      "url": "https://phys.org/news/2026-07-alan-turing-gay-short-story.html",
+      "summary": "A startling new study of a little-known, unpublished short story by Alan Turing challenges our understanding of the man who played a key role in cracking the Nazis' Enigma code, developed the theoretical underpinnings of…",
+      "ts": 1784848201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Could alien signals be hiding on a different radio channel?",
+      "url": "https://phys.org/news/2026-07-alien-radio-channel.html",
+      "summary": "Astronomers searching for signs of extraterrestrial intelligence may have been missing alien signals in part of the radio spectrum that has not recently been explored.",
+      "ts": 1784847603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "When mothers make the winners: How alpha female lineages dominate hyena clans",
+      "url": "https://phys.org/news/2026-07-mothers-winners-alpha-female-lineages.html",
+      "summary": "In mammals, males are usually stronger and more competitive than females. Males also show greater inequality in reproductive success—the number of offspring they produce—than females. In spotted hyenas, the opposite is t…",
+      "ts": 1784847002000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Materials surrounding a fusion reaction can dramatically increase how often it occurs",
+      "url": "https://phys.org/news/2026-07-materials-fusion-reaction.html",
+      "summary": "Fusion at high temperatures powers the sun and, if harnessed, could provide a potential source of energy here on Earth. But controlling fusion reactions has other benefits. The process also generates subatomic particles …",
+      "ts": 1784846406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "80‑million‑year‑old snake fossil sheds light on why lizards lost their limbs and started slithering",
+      "url": "https://phys.org/news/2026-07-80millionyearold-snake-fossil-lizards-lost.html",
+      "summary": "Snakes are everywhere in our legends and mythology. Yet for most of us, our blood runs cold whenever we encounter these strangely undulating, scaly tubes of muscle slithering through the leaf litter.",
+      "ts": 1784846402000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Programmable platform enables on-demand design of plant immune receptors against crop pathogens",
+      "url": "https://phys.org/news/2026-07-programmable-platform-enables-demand-immune.html",
+      "summary": "Crop production faces threats from plant pathogens. Traditional disease-resistance breeding relies heavily on natural plant resistance genes that encode immune receptors adapted to particular pathogens. However, rapidly …",
+      "ts": 1784845804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Not every meal has the same impact: Researchers reveal the hidden footprint of our food",
+      "url": "https://phys.org/news/2026-07-meal-impact-reveal-hidden-footprint.html",
+      "summary": "Leiden environmental researchers have mapped the environmental footprint of different diets and revealed which population groups have the greatest impact through their food choices. Their findings show where efforts to m…",
+      "ts": 1784845207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Public opinion on abortion has shifted four years after Dobbs decision overturned Roe v. Wade",
+      "url": "https://phys.org/news/2026-07-opinion-abortion-shifted-years-dobbs.html",
+      "summary": "It's been four years since the Supreme Court's decision in Dobbs v. Jackson Women's Health Organization overturned Roe v. Wade, ending the federal constitutional right to abortion.",
+      "ts": 1784845201000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plant diversity boosts natural pest control in farms, while forests and grasslands follow different rules",
+      "url": "https://phys.org/news/2026-07-diversity-boosts-natural-pest-farms.html",
+      "summary": "Plant diversity has long been regarded as key to stable and resilient ecosystems. However, until now, little has been understood about why it has different effects in agricultural areas than in grasslands or forests. An …",
+      "ts": 1784844602000
+    },
     {
       "source": "Phys.org",
       "title": "Sperm whales blow bubbles to achieve restful, vertical sleep",
@@ -592,115 +690,17 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Programmable Open Quantum Systems",
-      "url": "http://link.aps.org/doi/10.1103/yqlr-2dhr",
-      "summary": "Author(s): Mingrui Jing, Mengbo Guo, Lin Zhu, Hongshun Yao, and Xin Wang Programmability is a unifying paradigm for enacting families of quantum transformations via fixed processors and program states, with a fundamental…",
+      "title": "Sufficient Wigner Negativity Implies Genuine Multipartite Entanglement",
+      "url": "http://link.aps.org/doi/10.1103/bftw-qnbf",
+      "summary": "Author(s): Lin Htoo Zaw, Jiajie Guo, Qiongyi He, Matteo Fadel, and Shuheng Liu Wigner negativity and genuine multipartite entanglement (GME) are key nonclassical resources that enable computational advantages and broader…",
       "ts": 1784800800000
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Pseudogauge-Invariant Nonequilibrium Density Operator",
-      "url": "http://link.aps.org/doi/10.1103/sk54-wd8z",
-      "summary": "Author(s): Francesco Becattini and Carlos Hoyos We obtain a form of the local thermodynamic equilibrium density operator, which is invariant under pseudogauge transformations of the stress-energy and the spin tensors. Th…",
+      "title": "Measurement-Induced Crossover of Quantum Jump Statistics in Postselection-Free Many-Body Dynamics",
+      "url": "http://link.aps.org/doi/10.1103/wv5b-r6sb",
+      "summary": "Author(s): Kazuki Yamamoto and Ryusuke Hamazaki We reveal a nontrivial crossover of subsystem fluctuations of quantum jumps in continuously monitored many-body systems, which have a trivial maximally mixed state as a ste…",
       "ts": 1784800800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Breaking the Speed Limit of Chemical-Structure Imaging with Enhanced Force Sensitivity",
-      "url": "http://link.aps.org/doi/10.1103/y4xr-dvwt",
-      "summary": "Author(s): Yuuki Yasui and Yoshiaki Sugimoto A new atomic force microscope captures the structures of individual molecules and their chemical bonds at record speeds. [Phys. Rev. Lett. 137, 046202] Published Thu Jul 23, 2…",
-      "ts": 1784800800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Experimental Realization of Synthetic Magnonic Lattice via Floquet Engineering",
-      "url": "http://link.aps.org/doi/10.1103/jtpv-d5k6",
-      "summary": "Author(s): Amin Pishehvar, Jayakrishnan M. P. Nair, Zhaoyou Wang, Zixin Yan, Yu Jiang, Liang Jiang, Benedetta Flebus, and Xufeng Zhang Magnonic systems, which exploit spin-wave excitations in magnetic materials, offer a …",
-      "ts": 1784800800000
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Radiation-Loss-Based Non-Hermitian Point Gap in Photonic Crystals",
-      "url": "http://link.aps.org/doi/10.1103/vsx1-17cl",
-      "summary": "Author(s): Yuto Moritake, Nozomi Ogawa, Issei Takeda, Yusuke Ohinata, Takahiro Uemura, Taiki Yoda, Kenta Takata, Eiichi Kuramochi, Hisashi Sumikura, and Masaya Notomi A non-Hermitian point gap (NHPG) is a unique phenomen…",
-      "ts": 1784800800000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Climate change making Europe drought 'more severe': study",
-      "url": "https://phys.org/news/2026-07-climate-europe-drought-severe.html",
-      "summary": "Human-caused climate change has intensified a drought across Europe, with extreme heat rather than low rainfall driving the exceptionally dry conditions, a team of international scientists said Thursday.",
-      "ts": 1784797212000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Striped or checkered? Magnetic field influences competing electronic patterns in a graphene-like quantum material",
-      "url": "https://phys.org/news/2026-07-striped-checkered-magnetic-field-electronic.html",
-      "summary": "In most everyday materials, such as copper, silver and silicon, the behavior of electrons is relatively predictable. In quantum materials, however, electrons can interact in complex ways, giving rise to collective electr…",
-      "ts": 1784797210000
-    },
-    {
-      "source": "Phys.org",
-      "title": "National food waste recycling promises major climate gains but comes with microplastic risks",
-      "url": "https://phys.org/news/2026-07-national-food-recycling-major-climate.html",
-      "summary": "Keeping food waste out of landfills provides climate and other environmental benefits, and Vermont requires residents to divert these materials to better management pathways. With other states considering similar policie…",
-      "ts": 1784797203000
-    },
-    {
-      "source": "Phys.org",
-      "title": "In Ghana, one man's race to save critically endangered fish",
-      "url": "https://phys.org/news/2026-07-ghana-critically-endangered-fish.html",
-      "summary": "As dawn breaks over Ghana's Atlantic coast, artisanal fishing boats return to shore with last night's catch—baskets of snapper, crabs, rays and a distinct-looking fish locals call \"esene.\"",
-      "ts": 1784797201000
-    },
-    {
-      "source": "Phys.org",
-      "title": "June heat wave cost UK economy more than £1bn: Study",
-      "url": "https://phys.org/news/2026-07-june-uk-economy-1bn.html",
-      "summary": "Britain's record-breaking June heat wave resulted in some 24 million lost hours of work, costing the economy £1.15 billion ($1.5 billion), according to an estimate released Thursday by the London School of Economics (LSE…",
-      "ts": 1784795403000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Florida researchers bring endangered elkhorn coral ashore to protect them",
-      "url": "https://phys.org/news/2026-07-florida-endangered-elkhorn-coral-ashore.html",
-      "summary": "Scientists working to save a coral species from extinction transported 30 pieces from nurseries off the Florida coast to a hatchery on land Wednesday, fearing that warming waters could trigger a mass bleaching event this…",
-      "ts": 1784794584000
-    },
-    {
-      "source": "Phys.org",
-      "title": "Orcas filmed ramming one of the world's heaviest fish so hard it explodes, possibly for fun",
-      "url": "https://phys.org/news/2026-07-orcas-ramming-world-heaviest-fish.html",
-      "summary": "Orcas are known to be smart and ruthless hunters. They've been observed hunting a variety of prey, with some species, such as whales, larger than themselves. They use a wide range of strategies to hunt and kill prey, but…",
-      "ts": 1784779201000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Aircast-Mars: A Mars Foundation Model for Global Weather Forecasting with HEALPix-Aware Convolutions",
-      "url": "https://arxiv.org/abs/2607.19370",
-      "summary": "arXiv:2607.19370v1 Announce Type: new Abstract: Foundation models for planetary atmospheres promise fast, lightweight surrogates of expensive general circulation models (GCMs) for mission planning and scientific inquiry.…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Koopman-Operator Spectral Decomposition for Nonlinear Motion Suppression in Dynamic Contrast-Enhanced MRI of the Head and Neck",
-      "url": "https://arxiv.org/abs/2607.19401",
-      "summary": "arXiv:2607.19401v1 Announce Type: new Abstract: We build a motion suppression pipeline based on Koopman operator theory, which provides a way to turn nonlinear dynamics into linear ones by looking at the data through the…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tensor Network Machine Learning for Wildfire Susceptibility Mapping: from Grokking Dynamics to Quantum Mixedness of Class Representations",
-      "url": "https://arxiv.org/abs/2607.19503",
-      "summary": "arXiv:2607.19503v1 Announce Type: new Abstract: A quantum-inspired tensor network framework for wildfire susceptibility classification in the Gargano region is introduced, leveraging AlphaEarth embeddings and Matrix Prod…",
-      "ts": 1784779200000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cultural Evolution of Perfumes since 1900",
-      "url": "https://arxiv.org/abs/2607.19520",
-      "summary": "arXiv:2607.19520v1 Announce Type: new Abstract: Perfumes are cultural artifacts and works of sensory art, composed from a finite, recombinable palette of notes that together evoke a distinctive scent impression. Here, we…",
-      "ts": 1784779200000
     }
   ],
   "sources": [
