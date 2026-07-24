@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-24T12:21:05.311Z",
+  "updated": "2026-07-24T14:57:40.893Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Fatal gene-editing trial in China raises ethics and oversight questions",
+      "url": "https://www.statnews.com/2026/07/24/biotech-news-fatal-gene-editing-trial-in-china-raises-ethics-questions/?utm_campaign=rss",
+      "summary": "Sanofi insulin pen in short supply, a win for peptide compounds, and more biotech news from The Readout",
+      "ts": 1784900476000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about an FDA panel and peptides, a Merck license for an HIV pill, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/24/fda-panel-peptides-merck-hiv-pill-license/?utm_campaign=rss",
+      "summary": "In a win for peptide proponents, an FDA advisory panel recommended compounding pharmacies be allowed to make four of the drugs",
+      "ts": 1784899731000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
+      "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement” W…",
+      "ts": 1784895000000,
+      "categoryId": "ai-compute"
+    },
     {
       "source": "SpaceNews",
       "title": "Office of Space Commerce to move ahead on mission authorization",
@@ -17,6 +41,14 @@
       "summary": "A win for peptide proponents, autism advisory committees clash, and more health news from Morning Rounds",
       "ts": 1784894367000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Hubble Spies One-Sided Spiral",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-spies-one-sided-spiral/",
+      "summary": "This Hubble image features spiral galaxy NGC 4654, located 72 million light-years away in the constellation Virgo (the Maiden).",
+      "ts": 1784891468000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -687,38 +719,6 @@
       "title": "Iran urged to stop protest-related executions",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168009",
       "summary": "Independent UN human rights investigators on Thursday called for Iran to immediately halt the execution of 10 men who took part in a protest in the central city of Isfahan earlier this year, warning that some of their re…",
-      "ts": 1784808000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: New ECOSOC chief, Secretary-General candidates’ debate, torture in Mali, drowning prevention",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168008",
-      "summary": "Amar Bendjama, Permanent Representative of Algeria to the UN, was elected on Thursday to serve as the next president of the UN’s Economic and Social Council (ECOSOC).",
-      "ts": 1784808000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gaza’s food gains could unravel without sustained aid, UN warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168006",
-      "summary": "Food security and child nutrition have improved across the Gaza Strip largely due to a scale-up in humanitarian assistance and commercial traffic, but progress remains fragile and could quickly reverse without sustained …",
-      "ts": 1784808000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Satellites can now spot methane leaks in real time – but most go unfixed",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168007",
-      "summary": "Satellites can now spot major methane leaks from space within days. Yet only 13 per cent of those alerts lead to any response from the governments or companies responsible.",
-      "ts": 1784808000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: How to turn preventive diplomacy rhetoric into action",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168005",
-      "summary": "In the Security Council debate on Thursday on how best to settle disputes between States peacefully, ambassadors provided examples of success and challenges ahead under such themes as effective early warning and how to m…",
       "ts": 1784808000000,
       "categoryId": "global-governance"
     }

@@ -1,7 +1,112 @@
 {
   "ok": true,
-  "updated": "2026-07-24T12:21:02.089Z",
+  "updated": "2026-07-24T14:57:37.302Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why you should think twice before rescuing a wild animal",
+      "url": "https://phys.org/news/2026-07-wild-animal.html",
+      "summary": "Imagine you're driving down a winding road when you spot an injured possum. Your instincts might tell you to hit the brakes, check what's wrong and bundle it into your car. Research shows many of us want to help wild ani…",
+      "ts": 1784904011000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Combining AI protein design with laboratory evolution improves engineered enzymes",
+      "url": "https://phys.org/news/2026-07-combining-ai-protein-laboratory-evolution.html",
+      "summary": "When scientists want to create a protein that can potentially treat disease, one approach is to begin with a different protein and evolve it in the lab, selecting over many generations for versions with a new, desired fu…",
+      "ts": 1784904001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Jimothy' the raccoon has short spine syndrome—but this condition can affect dogs, too",
+      "url": "https://phys.org/news/2026-07-jimothy-raccoon-short-spine-syndrome.html",
+      "summary": "If you've been anywhere near the internet in recent days, you will likely have seen the viral footage of \"Jimothy\": an unusually round raccoon in Seattle that hops and skips along in a video filmed by local resident Kian…",
+      "ts": 1784902803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oxygen collisions at the LHC show new indications of extreme state of matter",
+      "url": "https://phys.org/news/2026-07-oxygen-collisions-lhc-indications-extreme.html",
+      "summary": "All four main LHC experiments have found new signs that oxygen and neon collisions may create the extreme state of matter that existed during the first microseconds after the Big Bang.",
+      "ts": 1784902801000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fossilized wood reveals 300 million years of Earth's history",
+      "url": "https://phys.org/news/2026-07-fossilized-wood-reveals-million-years.html",
+      "summary": "Many people are familiar with fossilized wood as a decorative item from a museum shop. However, the fact that it can preserve the geological history of entire regions spanning millions of years is a new discovery. A rese…",
+      "ts": 1784901606000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can ocean chemistry be altered to absorb carbon? The pros and cons",
+      "url": "https://phys.org/news/2026-07-ocean-chemistry-absorb-carbon-pros.html",
+      "summary": "As the planet warms, countries around the world are racing to meet their net-zero targets set out in the 2015 Paris Agreement.",
+      "ts": 1784901603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Plumage reflectance framework offers new insight into how birds evolved heat-controlling feathers",
+      "url": "https://phys.org/news/2026-07-plumage-framework-insight-birds-evolved.html",
+      "summary": "Birds can inhabit various environments with different climates and temperatures, ranging from cold polar regions to scorching hot deserts. To survive and thrive in these very different environments, they need to effectiv…",
+      "ts": 1784900406000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rejection hurts: How to help kids and teens bounce back when they've missed out",
+      "url": "https://phys.org/news/2026-07-kids-teens-theyve.html",
+      "summary": "Rejection can sometimes be so intense it feels like physical pain—a punch in the gut or a heart that aches. It often involves feeling left out and unwanted. And it can make us question our self-worth.",
+      "ts": 1784900401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "World's first 'zinc oxide spin qubit' could advance scalable quantum devices",
+      "url": "https://phys.org/news/2026-07-world-zinc-oxide-qubit-advance.html",
+      "summary": "A research team led by SKKU professor Hosung Seo of the Department of Quantum Information Engineering and the SKKU Advanced Institute of Nanotechnology, working with the University of Wisconsin–Madison and the University…",
+      "ts": 1784899204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Differences in human and great ape laughter reveal clues to the origin of speech",
+      "url": "https://phys.org/news/2026-07-differences-human-great-ape-laughter.html",
+      "summary": "Humans are not the only animals that communicate. Birds sing to attract mates, dolphins use signature whistles that identify individuals, and many primates produce complex vocalizations that help them coordinate their so…",
+      "ts": 1784899203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists turn to the universe's 'piano notes' to detect hidden particles",
+      "url": "https://phys.org/news/2026-07-physicists-universe-piano-hidden-particles.html",
+      "summary": "It's been said that a finely tuned ear knows the size and shape of a piano by merely listening to the instrument's notes. An international team of physicists has now devised an analogous approach to detect the universe's…",
+      "ts": 1784898004000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How does parent‑child interaction therapy work? And who can use it?",
+      "url": "https://phys.org/news/2026-07-parentchild-interaction-therapy.html",
+      "summary": "Children thrive when parents are warm and responsive to their needs while also providing clear guidance and setting limits. This is known as authoritative parenting. But most parents will tell you authoritative parenting…",
+      "ts": 1784898003000
+    },
+    {
+      "source": "Science News",
+      "title": "What kinds of black holes exist — and how are they different?",
+      "url": "https://www.sciencenews.org/article/video-black-hole-types",
+      "summary": "Scientists have identified four types of black holes, classified mostly by their masses. But these mysterious objects continue to challenge our understanding of the universe.",
+      "ts": 1784898000000
+    },
+    {
+      "source": "Phys.org",
+      "title": "A simple idea to bring clean drinking water to U.S. homes at a lower cost",
+      "url": "https://phys.org/news/2026-07-simple-idea-homes.html",
+      "summary": "Stanford engineer Khalid Osman and collaborators are building modeling tools to help water system managers find the most cost-effective option for improving their community's drinking water.",
+      "ts": 1784896804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers catch massive galaxy assembling piece by piece 1.2 billion years after Big Bang",
+      "url": "https://phys.org/news/2026-07-astronomers-massive-galaxy-piece-billion.html",
+      "summary": "Astronomers have discovered a remarkably tiny group of six young galaxies just 1.2 billion years after the Big Bang. This may be a rare glimpse of how some of the universe's largest galaxies formed. The paper outlining t…",
+      "ts": 1784896802000
+    },
     {
       "source": "Phys.org",
       "title": "Vegan dog and cat food generally well digested",
@@ -595,111 +700,6 @@
       "title": "An Analytically Trained Variational Surrogate for Quantum Phase Estimation on NISQ Hardware",
       "url": "https://arxiv.org/abs/2607.20943",
       "summary": "arXiv:2607.20943v1 Announce Type: cross Abstract: Quantum Phase Estimation (QPE) is a foundational algorithm for molecular ground-state energy estimation, but its deep circuit requirements make direct hardware execution …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lax pairs and $r$-matrices for some two-dimensional isotropic oscillators",
-      "url": "https://arxiv.org/abs/2607.20983",
-      "summary": "arXiv:2607.20983v1 Announce Type: cross Abstract: This paper concerns Lax pairs for circularly symmetric harmonic, Fock-Darwin-type and quartic anharmonic oscillators in two dimensions. Although the 2d isotropic harmonic…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Latent Variable-Mediated Cross-Learning for Few-Shot Acoustic Impedance Imaging",
-      "url": "https://arxiv.org/abs/2607.20989",
-      "summary": "arXiv:2607.20989v1 Announce Type: cross Abstract: Acoustic impedance imaging is a fundamental yet severely ill-posed problem in subsurface analysis: the seismic wavelet is unknown, observations are band-limited, and labe…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Quantum Interface Between Neutral-Atoms and Trapped-Ions Quantum Registers",
-      "url": "https://arxiv.org/abs/2607.20998",
-      "summary": "arXiv:2607.20998v1 Announce Type: cross Abstract: Hybrid quantum systems combining neutral atoms and trapped ions offer the prospect of integrating the scalability of atom arrays with the high-fidelity control available …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accelerating fossil gas independence in Europe",
-      "url": "https://arxiv.org/abs/2607.21048",
-      "summary": "arXiv:2607.21048v1 Announce Type: cross Abstract: Recent price shocks have prompted calls to curb Europe's dependence on fossil gas imports, but the cost of this goal, and the consumer protection it affords, remain uncer…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Picosecond-resolved entanglement distribution over an urban free-space channel",
-      "url": "https://arxiv.org/abs/2607.21093",
-      "summary": "arXiv:2607.21093v1 Announce Type: cross Abstract: Time-evolving entangled states describe quantum particles whose correlations evolve in time according to a well-defined dynamics. Such states can be generated in a variet…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exceptional-Point Geometry of Weak Topological Boundary States",
-      "url": "https://arxiv.org/abs/2607.21148",
-      "summary": "arXiv:2607.21148v1 Announce Type: cross Abstract: In this article, we demonstrate that weak topology can be formulated geometrically in terms of exceptional singularities of an analytically continued Bloch Hamiltonian. A…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine learning based prediction of optical properties in two-dimensional Mo-W-S-Se-Te transition-metal dichalcogenide alloys through physics-informed sampling",
-      "url": "https://arxiv.org/abs/2607.21246",
-      "summary": "arXiv:2607.21246v1 Announce Type: cross Abstract: Two-dimensional transition-metal dichalcogenide (TMD) alloys provide a compositionally tunable platform for controlling the optical and electronic properties. However, sy…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tailoring optical Schr\\\"odinger cat states via orientation-dependent high-harmonic generation in $\\rm{H}_2^+$",
-      "url": "https://arxiv.org/abs/2607.21248",
-      "summary": "arXiv:2607.21248v1 Announce Type: cross Abstract: We theoretically demonstrate that the molecular orientation angle $\\theta$ provides a structurally intrinsic, continuously tunable control parameter for engineering optic…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Space-division multiplexed quantum key distribution exploiting multi-plane light conversion for few-mode fibers",
-      "url": "https://arxiv.org/abs/2607.21256",
-      "summary": "arXiv:2607.21256v1 Announce Type: cross Abstract: As quantum key distribution (QKD) progresses from laboratory demonstrations toward practical deployment, quantum communi- cation networks increasingly require higher key …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An unfitted boundary algebraic equation method with Calder\\'on preconditioning for 2D Stokes flow in irregular geometry",
-      "url": "https://arxiv.org/abs/2607.21295",
-      "summary": "arXiv:2607.21295v1 Announce Type: cross Abstract: We present an unfitted boundary algebraic equation method for the two-dimensional exterior/interior Stokes equations on a staggered MAC grid. By constructing an explicit …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lifetime effects and satellites in the photoelectron spectrum of platinum metal",
-      "url": "https://arxiv.org/abs/2607.21298",
-      "summary": "arXiv:2607.21298v1 Announce Type: cross Abstract: This work presents a comprehensive investigation of the electronic structure and many-body photoemission effects in metallic platinum using reflection high-energy electro…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Collisionless stationary states of a stratified plasma in an expanding magnetic tube with stochastic heating",
-      "url": "https://arxiv.org/abs/2607.21313",
-      "summary": "arXiv:2607.21313v1 Announce Type: cross Abstract: We investigate the collisionless kinetic structure of the upper solar atmosphere in the presence of an expanding magnetic field. We consider a stationary two-component pl…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A single length scale rules ballistic aggregation: travels of a droplet train",
-      "url": "https://arxiv.org/abs/2607.21315",
-      "summary": "arXiv:2607.21315v1 Announce Type: cross Abstract: Ballistic aggregation is a canonical non-equilibrium process, relevant across scales from granular gases to planetary accretion. Collisions are driven by differences in v…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rack-integrated quantum dot-based source of single and entangled photons at telecom C-band",
-      "url": "https://arxiv.org/abs/2607.21454",
-      "summary": "arXiv:2607.21454v1 Announce Type: cross Abstract: For quantum light sources in everyday telecommunication networks, quantum science needs to be fully transformed into quantum technology. The first necessary step to move …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strategic Plan for Neutral Atom Quantum Computation",
-      "url": "https://arxiv.org/abs/2607.21554",
-      "summary": "arXiv:2607.21554v1 Announce Type: cross Abstract: We present a strategic plan for neutral atom quantum computation, bringing together hardware development and theory advancements to achieve the goal of practical quantum …",
       "ts": 1784865600000
     }
   ],
