@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-24T18:19:58.911Z",
+  "updated": "2026-07-24T20:21:36.031Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study explores the hedging capability of cryptocurrencies in turbulent markets",
+      "url": "https://phys.org/news/2026-07-explores-hedging-capability-cryptocurrencies-turbulent.html",
+      "summary": "The rapid growth of sustainable finance in recent years has fueled interest in green investment, ranging from green bonds and environmental, social and governance (ESG) funds to energy-efficient cryptocurrencies. While t…",
+      "ts": 1784924401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can a robot tutor give too much help? Why timing matters",
+      "url": "https://phys.org/news/2026-07-robot.html",
+      "summary": "A learner stands in a room with a bottle, a cup and a book. The task is to figure out, step by step, where each object belongs in the room. Under the table? Or perhaps on the chair? A humanoid robot gives the instruction…",
+      "ts": 1784923202000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists turn modern biobanks into a new window on human evolution",
+      "url": "https://phys.org/news/2026-07-scientists-modern-biobanks-window-human.html",
+      "summary": "For more than a century, scientists have sought to reconstruct human evolution using diverse lines of evidence, including fossils, genetic variation across populations and ancient DNA. Building on these approaches, resea…",
+      "ts": 1784922001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gold-catalyzed chemical reaction advances next-generation anticancer prodrugs",
+      "url": "https://phys.org/news/2026-07-gold-catalyzed-chemical-reaction-advances.html",
+      "summary": "Anticancer prodrugs have attracted significant attention from the medical and scientific communities in recent years because of their potential to improve treatment precision while reducing side effects. These drugs are …",
+      "ts": 1784920803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "New methods for removing harmful nitrates from drinking water identified",
+      "url": "https://phys.org/news/2026-07-methods-nitrates.html",
+      "summary": "Nitrate contamination of drinking water poses a major health concern, particularly in agricultural communities where fertilizers, livestock manure and septic systems can leach nitrates into groundwater. Many rural househ…",
+      "ts": 1784919601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum dots reveal hidden light waves on metal surfaces",
+      "url": "https://phys.org/news/2026-07-quantum-dots-reveal-hidden-metal.html",
+      "summary": "Photographs can reveal things that are otherwise impossible for the naked eye to see, be they distant galaxies or microscopic cells. Researchers at Osaka Metropolitan University have developed a practical and versatile i…",
+      "ts": 1784918407000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cutting out the noise: How horseshoe bats adapt their echolocation behavior in colonies",
+      "url": "https://phys.org/news/2026-07-noise-horseshoe-echolocation-behavior-colonies.html",
+      "summary": "Imagine searching for a gemstone in a dark cave: You use a flashlight, looking for a rainbow-colored glint in the darkness. Now, imagine 10 other people in the cave with you, using different-colored flashlights at the sa…",
+      "ts": 1784917204000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Native fine-flavor cacao can match commercial varieties in yield, study finds",
+      "url": "https://phys.org/news/2026-07-native-fine-flavor-cacao-commercial.html",
+      "summary": "A study carried out on smallholder farms in northern Peru shows that Blanco de Piura, a native fine-flavor cacao variety, can achieve productivity levels comparable to those of commercial varieties widely grown across La…",
+      "ts": 1784917201000
+    },
     {
       "source": "Phys.org",
       "title": "How did inbred brown tree snakes take over the island of Guam?",
@@ -644,62 +700,6 @@
       "title": "Determination of fundamental properties of nitrogen from first principles. II. Interaction potential and spectroscopic properties of N$_2$",
       "url": "https://arxiv.org/abs/2607.21212",
       "summary": "arXiv:2607.21212v1 Announce Type: new Abstract: This work is the second part of the series devoted to first-principles determination of the fundamental properties of nitrogen. In this part, we calculate the potential ene…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Plasma screening and configuration interaction effects induced large enhancement on L-shell photoionization cross sections and opacity",
-      "url": "https://arxiv.org/abs/2607.21238",
-      "summary": "arXiv:2607.21238v1 Announce Type: new Abstract: An opacity model that incorporates improved treatments of both plasma screening and configuration interaction (CI) effects is proposed, and a 25-30% enhancement on the iron…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser Remelting for Reduced Porosity on Additively Manufactured Aluminium Mirrors",
-      "url": "https://arxiv.org/abs/2607.21253",
-      "summary": "arXiv:2607.21253v1 Announce Type: new Abstract: Additively manufactured (AM) AlSi10Mg mirrors are fabricated through laser powder bed fusion (LPBF), allowing the use of complex geometries such as lattices and organic str…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determination of fundamental properties of nitrogen from first principles. III. Temperature and frequency dependence of the molecular polarizability and magnetic susceptibility",
-      "url": "https://arxiv.org/abs/2607.21261",
-      "summary": "arXiv:2607.21261v1 Announce Type: new Abstract: This work is the third part of the series of papers that focus on the theoretical determination of the properties of nitrogen that are relevant in metrology. Here we presen…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A general synthetic iterative solver for axisymmetric rarefied gas and electrostatic charged-particle flows",
-      "url": "https://arxiv.org/abs/2607.21277",
-      "summary": "arXiv:2607.21277v1 Announce Type: new Abstract: An axisymmetric general synthetic iterative scheme (AxiGSIS) is proposed to simulate rarefied gas flows and charged particle transport under prescribed electrostatic fields…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatiotemporal Vortex Rings Induced by Spatiotemporal Coupling",
-      "url": "https://arxiv.org/abs/2607.21322",
-      "summary": "arXiv:2607.21322v1 Announce Type: new Abstract: Vortices and vortex rings are topological structures that arise in various physical systems. However, the generation of spatiotemporal vortices (STVs) and vortex rings (STV…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Front End Amplifiers for Simultaneous Dual Readout of SiPM Sensors",
-      "url": "https://arxiv.org/abs/2607.21339",
-      "summary": "arXiv:2607.21339v1 Announce Type: new Abstract: In this work, we present two fully open Analog Front End (AFE) designs for the simultaneous readout of the standard and fast outputs of ONSemi MicroFC-10035 Silicon Photomu…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Embodied inquiry with AI as facilitator: an exploratory case study",
-      "url": "https://arxiv.org/abs/2607.21349",
-      "summary": "arXiv:2607.21349v1 Announce Type: new Abstract: Generative AI is entering science education at a time when the embodied education community is asking what such systems cannot do. Rather than asking whether AI can underst…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Langmuir probe and infrared thermography measurements of wide and narrow heat flux profiles in the ST40 tokamak",
-      "url": "https://arxiv.org/abs/2607.21362",
-      "summary": "arXiv:2607.21362v1 Announce Type: new Abstract: Very narrow heat flux profiles have been observed on ST40 with decay lengths in the near scrape-off-layer (SOL) of $\\lambda_{q,near}<$~1~mm in H-mode plasmas. Measurements …",
       "ts": 1784865600000
     }
   ],

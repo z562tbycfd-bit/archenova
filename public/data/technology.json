@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-24T18:20:02.350Z",
+  "updated": "2026-07-24T20:21:38.206Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "ULA deals with financial challenges caused by Vulcan grounding",
+      "url": "https://spacenews.com/ula-deals-with-financial-challenges-caused-by-vulcan-grounding/",
+      "summary": "United Launch Alliance’s corporate parents have guaranteed a loan to the company as it addresses “financial challenges” caused by the grounding of its Vulcan Centaur rocket. The post ULA deals with financial challenges c…",
+      "ts": 1784924299000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I led the FDA’s food safety and nutrition center. Here’s what people are missing about the cyclospora outbreak",
+      "url": "https://www.statnews.com/2026/07/24/cyclospora-outbreak-contradiction-eat-real-food-less-safety-monitoring/?utm_campaign=rss",
+      "summary": "“Consumers should not be faced with a trade-off between nutrition and food safety,” writes Susan Mayne, former director of the FDA Center for Food Safety and Applied Nutrition.",
+      "ts": 1784922849000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "FDA advisory panel narrowly rejects compounding of one peptide, backs two others",
+      "url": "https://www.statnews.com/2026/07/24/fda-peptide-compounding-panel-backs-epitalon-rejects-emideltide/?utm_campaign=rss",
+      "summary": "Robert F. Kennedy Jr. has lauded peptides and said he takes them himself.",
+      "ts": 1784918506000,
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Colorectal Cancer Targeted with Mass-Produced iPSC-Derived Allogeneic T Cells",
@@ -697,30 +721,6 @@
       "summary": "Sean Kaufman, nominated to run ASPR, has a track record of questioning the safety of vaccines.",
       "ts": 1784815384000,
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Astronaut Chris Williams Closes Out Space Station Mission",
-      "url": "https://www.nasa.gov/missions/station/iss-research/nasa-astronaut-chris-williams-closes-out-space-station-mission/",
-      "summary": "After eight months aboard the International Space Station for his first mission, NASA astronaut Chris Williams is preparing to return to Earth. During his assignment, Williams contributed to research for new cancer treat…",
-      "ts": 1784815200000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump administration quietly picks Timothy Westlake to lead mental health agency",
-      "url": "https://www.statnews.com/2026/07/23/trump-nominates-timothy-westlake-samhsa/?utm_campaign=rss",
-      "summary": "Timothy Westlake, an emergency doctor nominated to head SAMHSA, has been active in addiction policy in Wisconsin.",
-      "ts": 1784814951000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Meetings on Supplementary Compensation for Nuclear Damage",
-      "url": "http://www.iaea.org/newscenter/news/meetings-on-supplementary-compensation-for-nuclear-damage",
-      "summary": "",
-      "ts": 1784813400000,
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
