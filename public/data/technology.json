@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-07-24T07:33:32.707Z",
+  "updated": "2026-07-24T10:21:06.974Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "EU delays release of Copernicus imagery over Gulf of Oman ",
+      "url": "https://spacenews.com/eu-delays-release-of-copernicus-imagery-over-gulf-of-oman/",
+      "summary": "JOHANNESBURG — The European Union has ordered a 24-hour delay in the release of some Sentinel-1 and Sentinel-2 imagery following a request from the United States based on concerns that […] The post EU delays release of C…",
+      "ts": 1784887200000,
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Air Force takes over troubled military GPS receiver program",
+      "url": "https://spacenews.com/air-force-takes-over-troubled-military-gps-receiver-program/",
+      "summary": "The Air Force Life Cycle Management Center will oversee development, integration and sustainment of equipment used to access the military’s encrypted GPS signal The post Air Force takes over troubled military GPS receive…",
+      "ts": 1784883600000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: White House offers its science blueprint: More AI, less life sciences",
+      "url": "https://www.statnews.com/2026/07/24/science-new-golden-age-report-draws-mixed-reaction/?utm_campaign=rss",
+      "summary": "The Trump administration released its blueprint for U.S. science, calling for shifting hundreds of billions of research dollars from universities to industry.",
+      "ts": 1784881800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Senate advances MAHA-friendly bill for food warning labels and junk food ad bans",
+      "url": "https://www.statnews.com/2026/07/24/ultraprocessed-food-warning-label-bill-clears-senate-committee-bipartisan-vote/?utm_campaign=rss",
+      "summary": "Unexpected alliances among Republicans and Democrats were on display over a bill meant to rein in ultra-processed foods.",
+      "ts": 1784881800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The U.S. pharmaceutical supply chain problem is not about China",
+      "url": "https://www.statnews.com/2026/07/24/pharmaceutical-supply-chain-resilience-china/?utm_campaign=rss",
+      "summary": "The national security framing of the discussion around pharmaceutical supply chain vulnerabilities is a distraction, writes Pooja Yerramilli.",
+      "ts": 1784881800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I may be one of the last middle-class medical students who could afford to become a doctor",
+      "url": "https://www.statnews.com/2026/07/24/medical-school-federal-student-loan-changes/?utm_campaign=rss",
+      "summary": "A federal loan program made it possible for Gauri Gurumurthy to pursue medicine. Now that program is changing.",
+      "ts": 1784881800000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: Agricultural patchwork",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Agricultural_patchwork",
+      "summary": "Image: The Copernicus Sentinel-2 mission takes us over Australia’s southwestern corner in the Goldfields–Esperance region of Western Australia.",
+      "ts": 1784880000000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Two new Galileo satellites enter service",
+      "url": "https://www.esa.int/Applications/Satellite_navigation/Two_new_Galileo_satellites_enter_service",
+      "summary": "Two new satellites have now officially joined Europe’s Galileo satellite navigation constellation, strengthening its capabilities, resilience and autonomy. Four Galileo First Generation satellites remain to be launched, …",
+      "ts": 1784878140000,
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
@@ -499,6 +563,14 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "Meetings on Supplementary Compensation for Nuclear Damage",
+      "url": "http://www.iaea.org/newscenter/news/meetings-on-supplementary-compensation-for-nuclear-damage",
+      "summary": "",
+      "ts": 1784813400000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about Lilly obesity drug data, a push for FDA to ban DTC ads, and more",
       "url": "https://www.statnews.com/pharmalot/2026/07/23/lilly-obesity-drug-data-fda-asked-to-ban-dtc-ads/?utm_campaign=rss",
@@ -648,78 +720,6 @@
       "url": "https://www.statnews.com/2026/07/23/federal-office-mens-health-bipartisan-bill-filed-momentum-grows/?utm_campaign=rss",
       "summary": "Mirroring the bipartisan bill introduced in the House, the measure would require a study from the GAO on the state of men’s health in the U.S. to be presented within…",
       "ts": 1784800800000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The power line that could reshape New York’s grid is hitting snags",
-      "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
-      "summary": "On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that power shuttled in on …",
-      "ts": 1784797200000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA staff and peptide enthusiasts set to clash at advisory panel",
-      "url": "https://www.statnews.com/2026/07/23/fda-advisory-panel-peptide-safety-compounding-pharmacies/?utm_campaign=rss",
-      "summary": "FDA advisers are set to consider whether allowing compounding pharmacies to offer largely unproven peptides is a safer bet than the gray-market versions now in use.",
-      "ts": 1784795400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Good riddance to bundled ‘global’ maternal care billing",
-      "url": "https://www.statnews.com/2026/07/23/global-maternity-care-billing-acog-explains/?utm_campaign=rss",
-      "summary": "New maternal billing codes should create a transparent system where both patients and clinicians can thrive, ACOG writes.",
-      "ts": 1784795400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: New billing codes likely to raise maternity care costs",
-      "url": "https://www.statnews.com/2026/07/23/global-billing-maternity-care-mistake/?utm_campaign=rss",
-      "summary": "“This change is likely to lead to only modest increases in total medical expenses. However, it coincides with many other factors raising health insurance premiums,” writes Jeff Levin-Scherz.",
-      "ts": 1784795400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump promised redemption for troops who refused Covid shots. A year later, many are still waiting",
-      "url": "https://www.statnews.com/2026/07/23/veterans-face-long-covid-vaccine-reinstatement-process/?utm_campaign=rss",
-      "summary": "Veterans who want to rejoin the military are often bogged down in bureaucratic red tape.",
-      "ts": 1784795400000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Olympic Mountain Glory",
-      "url": "https://science.nasa.gov/earth/earth-observatory/olympic-mountain-glory/",
-      "summary": "Snow-capped mountains carved by deep river valleys preside over northwestern Washington state.",
-      "ts": 1784779260000,
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Refnd: Preventing Data Leakage in Relational Datasets",
-      "url": "https://arxiv.org/abs/2607.19376",
-      "summary": "arXiv:2607.19376v1 Announce Type: new Abstract: Machine learning models trained on biochemical data are routinely evaluated using splits that fail to account for relational structure, causing information leakage and over…",
-      "ts": 1784779200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Auditing Retrieval-Augmented LLM Hypotheses for Longitudinal Cell Painting Morphology",
-      "url": "https://arxiv.org/abs/2607.19415",
-      "summary": "arXiv:2607.19415v1 Announce Type: new Abstract: High-content morphological profiling (Cell Painting) yields sensitive, high-dimensional signatures of cellular state, but translating longitudinal morphology trajectories i…",
-      "ts": 1784779200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Enabling Rapid Calibration of BCI Systems that Detect Movement-Related Cortical Potentials in Children with Cerebral Palsy",
-      "url": "https://arxiv.org/abs/2607.19417",
-      "summary": "arXiv:2607.19417v1 Announce Type: new Abstract: Brain-computer interface neurofeedback (BCI-NFT) has shown promise for neuromotor rehabilitation, but its clinical adoption -- particularly in pediatric populations -- rema…",
-      "ts": 1784779200000,
       "categoryId": "bio"
     }
   ],

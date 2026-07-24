@@ -1,7 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-24T07:33:30.161Z",
+  "updated": "2026-07-24T10:21:01.378Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Young rift flanks suggest Venus remains tectonically active",
+      "url": "https://phys.org/news/2026-07-young-rift-flanks-venus-tectonically.html",
+      "summary": "Venus is an inhospitable place, with temperatures soaring to several hundred degrees Celsius (hundreds of degrees Fahrenheit) and no oceans like those on Earth. Planetary scientists long believed Venus was geologically d…",
+      "ts": 1784883605000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mapping project helps protect coastal world heritage sites from climate threats",
+      "url": "https://phys.org/news/2026-07-coastal-world-heritage-sites-climate.html",
+      "summary": "A major new digital mapping project could help safeguard some of the world's most important and well-known heritage sites from rising seas, flooding and coastal erosion. Researchers led by scientists from the University …",
+      "ts": 1784883601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thousands flee wildfires in southern Europe",
+      "url": "https://phys.org/news/2026-07-thousands-wildfires-southern-europe.html",
+      "summary": "Luggage-clad residents and tourists fled a French peninsula by boat, and the smell of smoke drifted into parts of Madrid on Friday as wildfires swept through parts of Western Europe, triggering states of emergency and ca…",
+      "ts": 1784882227000
+    },
     {
       "source": "arXiv Physics",
       "title": "Action potentials and solitons",
@@ -679,27 +700,6 @@
       "title": "A Rapid Reconstruction Method of Gamma Radiation Field based on Normalized Proper Orthogonal Decomposition",
       "url": "https://arxiv.org/abs/2505.07088",
       "summary": "arXiv:2505.07088v2 Announce Type: replace Abstract: When a fault occurs in nuclear facilities, accurately reconstructing gamma radiation fields through measurements from the mobile radiation detection (MRD) system become…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Equivariant Conditional Diffusion Model for Head and Neck CT Image Synthesis from CBCT",
-      "url": "https://arxiv.org/abs/2509.21913",
-      "summary": "arXiv:2509.21913v2 Announce Type: replace Abstract: Background: Cone-beam computed tomography CBCT is a commonly used modality for image guided radiotherapy. It offers real time anatomical visualization with low acquisit…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vortex ring-cylinder interactions: regimes, reconnection, and the role of topology",
-      "url": "https://arxiv.org/abs/2510.20319",
-      "summary": "arXiv:2510.20319v2 Announce Type: replace Abstract: We investigate the interaction between vortex rings and cylindrical obstacles using direct numerical simulations across a wide range of geometric and dynamical paramete…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-$Q$ Superconducting Lumped-Element Resonators for Low-Mass Axion Searches",
-      "url": "https://arxiv.org/abs/2511.03639",
-      "summary": "arXiv:2511.03639v3 Announce Type: replace Abstract: Low-frequency superconducting lumped-element resonators have recently attracted significant attention in the context of axion dark matter searches. Here we present the …",
       "ts": 1784865600000
     }
   ],
