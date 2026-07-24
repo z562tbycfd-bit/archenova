@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-24T14:57:40.893Z",
+  "updated": "2026-07-24T16:48:43.597Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Oral Antiviral Blocks Measles-Like Virus Transmission in Ferrets",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/oral-antiviral-blocks-measles-like-virus-transmission-in-ferrets/",
+      "summary": "An oral antiviral candidate prevented airborne and contact transmission of a measles-like virus in ferrets, reduced disease severity and infectious duration, and could complement vaccination strategies to help control fu…",
+      "ts": 1784911272000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "There are already more U.S. measles cases this year than in all of 2025",
+      "url": "https://www.statnews.com/2026/07/24/measles-cases-surpass-2025-total-national-vaccination-rate-now-below-key-threshold/?utm_campaign=rss",
+      "summary": "The number of measles cases in the U.S. has surpassed the record-breaking tally for all of 2025, with five more months of 2026 still to come.",
+      "ts": 1784909580000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/07/24/up-and-down-the-ladder-rigel-sanofi-pharma-jobs/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions, and hires, here are the latest comings and goings in the pharma industry.",
+      "ts": 1784908634000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "LatConnect 60 Unveils Proprietary AI Capabilities Following Growing Indo-Pacific Defence Interest in SWIRSAT",
+      "url": "https://spacenews.com/latconnect-60-unveils-proprietary-ai-capabilities-following-growing-indo-pacific-defence-interest-in-swirsat/",
+      "summary": "PERTH, Australia – 24 July 2026 – LatConnect 60 (“LC60”), an Australian satellite Earth observation and AI company, today unveiled a proprietary intelligence-fusion capability that leverages the latest advancements in [……",
+      "ts": 1784905167000,
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Fatal gene-editing trial in China raises ethics and oversight questions",
@@ -689,38 +721,6 @@
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The power line that could reshape New York’s grid is hitting snags During a heat w…",
       "ts": 1784808600000,
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Samsung Proposes Offer to Acquire Swiss CDMO Specializing in Peptides",
-      "url": "https://www.genengnews.com/topics/bioprocessing/samsung-proposes-offer-to-acquire-swiss-cdmo-specializing-in-peptides/",
-      "summary": "Samsung views the deal as expanding its capabilities beyond antibodies and ADCs to include peptide therapeutics, while advancing innovation across high-growth areas such as oncology and other emerging indications. The po…",
-      "ts": 1784808055000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How AI helps scientists design the next generation of medicines",
-      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
-      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates nev…",
-      "ts": 1784808000000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Syria ‘not alone’ in locating missing persons, tackling displacement",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168010",
-      "summary": "Syria is not alone in tackling challenges, including the hundreds of thousands who remain missing during past tumultuous decades, the head of a UN institution said on Thursday as António Guterres departs on his first vis…",
-      "ts": 1784808000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Iran urged to stop protest-related executions",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168009",
-      "summary": "Independent UN human rights investigators on Thursday called for Iran to immediately halt the execution of 10 men who took part in a protest in the central city of Isfahan earlier this year, warning that some of their re…",
-      "ts": 1784808000000,
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

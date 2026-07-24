@@ -1,7 +1,105 @@
 {
   "ok": true,
-  "updated": "2026-07-24T14:57:37.302Z",
+  "updated": "2026-07-24T16:48:40.695Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "More than 80,000 flee forest infernos in France and Spain",
+      "url": "https://phys.org/news/2026-07-forest-infernos-france-spain.html",
+      "summary": "Europe's wildfire crisis forced more than 80,000 people to flee for safety Friday, as vacationers boarded boats to escape fires on a French peninsula and Spanish officials ordered mass evacuations in towns near Madrid.",
+      "ts": 1784911207000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum Zeno effect could freeze computations as qubit systems scale up",
+      "url": "https://phys.org/news/2026-07-quantum-zeno-effect-qubit-scale.html",
+      "summary": "The promise of quantum computing is to solve complex problems faster and more energy-efficiently than today's supercomputers—from optimizing logistics to simulating molecules. This goal is coming within reach as the numb…",
+      "ts": 1784911206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Baby monkey Punch to celebrate first birthday",
+      "url": "https://phys.org/news/2026-07-baby-monkey-celebrate-birthday.html",
+      "summary": "Punch, a plush-clutching Japanese baby monkey that has become a global online sensation, will celebrate his first birthday on Sunday as his zoo is flooded with fan letters from around the world.",
+      "ts": 1784910923000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Magnetic clues inside atomic nuclei help explain how elements form in stars",
+      "url": "https://phys.org/news/2026-07-magnetic-clues-atomic-nuclei-elements.html",
+      "summary": "A scientific team led by Facility for Rare Isotope Beams, or FRIB, has identified the origin of a mysterious excess of low-energy gamma rays emitted by the nucleus zinc-70. They found that the excess is caused by magneti…",
+      "ts": 1784910003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Community context shapes corporate response to violence in street protests",
+      "url": "https://phys.org/news/2026-07-community-context-corporate-response-violence.html",
+      "summary": "When violence takes place during street protests, how do corporate leaders respond? According to new research by Forrest Briscoe, professor of organizational behavior at the ILR School, the answer depends on other commun…",
+      "ts": 1784908806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why Europa's hidden ocean may be more difficult to reach than scientists thought",
+      "url": "https://phys.org/news/2026-07-europa-hidden-ocean-difficult-scientists.html",
+      "summary": "Europa, one of Jupiter's icy moons, has long fascinated scientists because of what may lie beneath its frozen shell: a global ocean of liquid water. That hidden ocean has made Europa one of the most compelling places in …",
+      "ts": 1784908803000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Io's volcanic output offers a 40‑day forecast of plasma density in Jupiter's magnetosphere",
+      "url": "https://phys.org/news/2026-07-io-volcanic-output-40day-plasma.html",
+      "summary": "A careful statistical comparison of observations recorded by NASA's Juno mission and the Planetary Science Institute's Io Input Output observatory (IoIO) shows that IoIO observations reliably predict the density of Jupit…",
+      "ts": 1784907603000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop AI-driven method to improve forecasts weeks in advance",
+      "url": "https://phys.org/news/2026-07-ai-driven-method-weeks-advance.html",
+      "summary": "Haonan Chen, a CSU associate professor of electrical and computer engineering, and his team have published research that could improve the accuracy of precipitation forecasts up to two weeks in advance.",
+      "ts": 1784907601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Colorado prepares for screwworms, as the pest that was eradicated in 1966 returns to the US",
+      "url": "https://phys.org/news/2026-07-colorado-screwworms-pest-eradicated.html",
+      "summary": "New World screwworm, a concerning pest that mainly affects livestock and wildlife, was detected in South Texas in June 2026. It has since expanded northward in Texas, and there was one case in New Mexico as of July 23, 2…",
+      "ts": 1784906403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why evolution never produced mammal teeth that slice and crush equally well",
+      "url": "https://phys.org/news/2026-07-evolution-mammal-teeth-slice-equally.html",
+      "summary": "Evolution is all about trade-offs. Traits that may be beneficial in one situation may backfire in another. Over millions of years, species can become specialized for one way of living rather than being equally good at ev…",
+      "ts": 1784906401000
+    },
+    {
+      "source": "Phys.org",
+      "title": "UK in pole position to lead key instrument in NASA's hunt for Earth-like worlds",
+      "url": "https://phys.org/news/2026-07-uk-pole-position-key-instrument.html",
+      "summary": "UK astronomers are a step closer to playing a leading role in NASA's search for alien life in the coming decades as they continue developing one of the core instruments of the Habitable Worlds Observatory (HWO). The exci…",
+      "ts": 1784905209000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfires: What can the UK and other nations learn from Australia's world‑leading fire response systems?",
+      "url": "https://phys.org/news/2026-07-wildfires-uk-nations-australia-worldleading.html",
+      "summary": "Wildfires are becoming a feature of the UK's hotter, drier climate. In July 2026, major fires swept through parts of the UK in a matter of days—notably setting Arthur's Seat, the extinct volcano in the center of Edinburg…",
+      "ts": 1784905206000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Metal-ion coating improves extracellular vesicles for cancer detection and targeted delivery",
+      "url": "https://phys.org/news/2026-07-metal-ion-coating-extracellular-vesicles.html",
+      "summary": "Researchers, including those from the University of Tokyo, found a way to optimize how cells bind to small packages they release called extracellular vesicles. By coating the vesicles with metal ions, they made cells and…",
+      "ts": 1784905202000
+    },
+    {
+      "source": "Science News",
+      "title": "Struggling with a hard life choice? AI future selves have tips",
+      "url": "https://www.sciencenews.org/article/life-choice-ai-future-selves-decisions",
+      "summary": "A chat with aged avatars of future selves can guide people paralyzed by tough decisions. The question is what information to feed the bots.",
+      "ts": 1784905200000
+    },
     {
       "source": "Phys.org",
       "title": "Why you should think twice before rescuing a wild animal",
@@ -141,6 +239,13 @@
       "url": "https://phys.org/news/2026-07-national-year-sexual.html",
       "summary": "Nearly a decade after the #MeToo movement reshaped public conversations about sexual harassment, a new study from the Newcomb Institute at Tulane University finds that Americans are reporting experiences of sexual harass…",
       "ts": 1784890801000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Rise of Linear Regge Trajectories",
+      "url": "http://link.aps.org/doi/10.1103/byzm-k9lw",
+      "summary": "Author(s): Yu-tin Huang, Sara Ricossa, Francesco Riva, and Jie-Da Tsai A bootstrap extremization principle selects the linear Regge spectrum, with the graviton pole uniquely fixing the trajectory in gravitational theorie…",
+      "ts": 1784887200000
     },
     {
       "source": "Phys.org",
@@ -595,111 +700,6 @@
       "title": "Event-sparse stack denoising for 4D-STEM applications",
       "url": "https://arxiv.org/abs/2512.10555",
       "summary": "arXiv:2512.10555v1 Announce Type: cross Abstract: We introduce a denoising method for four-dimensional scanning transmission electron microscopy (4D-STEM) that relies on processing local, scan position-independent electr…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First-Principles Analysis of Chirality-Induced Spin Selectivity at Molecule-Metal Interfaces in Photoemission",
-      "url": "https://arxiv.org/abs/2603.22725",
-      "summary": "arXiv:2603.22725v2 Announce Type: cross Abstract: Spin-resolved photoelectron spectroscopy (PES) probes chirality-induced spin selectivity (CISS), yet it remains unclear whether the measured spin polarization reflects mo…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstructing local environments from concise atomistic representations",
-      "url": "https://arxiv.org/abs/2607.20338",
-      "summary": "arXiv:2607.20338v1 Announce Type: cross Abstract: Symmetry-based representations of local atomic structure, such as the power spectrum or bispectrum, are routinely used to characterize the structural diversity of dataset…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine-Learned Compact Subspace Generation for Quantum Selected Configuration Interaction within Density Matrix Embedding Framework",
-      "url": "https://arxiv.org/abs/2607.20585",
-      "summary": "arXiv:2607.20585v1 Announce Type: cross Abstract: Sample-based Quantum Diagonalization (SQD), an extension of Quantum Selected Configuration Interaction (QSCI), has emerged as a promising hybrid quantum-classical paradig…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "STORM: RDMA-based Monte Carlo Transport Scheme for Distributed-Memory Particle Simulations",
-      "url": "https://arxiv.org/abs/2607.20639",
-      "summary": "arXiv:2607.20639v1 Announce Type: cross Abstract: Monte Carlo particle transport enables high-fidelity astrophysical radiation and neutrino simulations - from core-collapse supernovae and neutron-star mergers to accretio…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bistability of Exciton-Photon Microcavities in the Ultrastrong-Coupling Regime",
-      "url": "https://arxiv.org/abs/2607.20688",
-      "summary": "arXiv:2607.20688v1 Announce Type: cross Abstract: We investigate a coherently driven exciton--photon microcavity with Kerr nonlinearity in the ultrastrong-coupling regime. When the lower and upper polariton branches are …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Well-Tempered Likelihood: Honest Confidence Intervals for Misspecified Models",
-      "url": "https://arxiv.org/abs/2607.20718",
-      "summary": "arXiv:2607.20718v1 Announce Type: cross Abstract: Likelihood-based inference in particle physics, and in the physical sciences more broadly, relies on the assumption that the model accurately describes the data. When the…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward Mechanistic Interpretability of an AI Foundation Model Fine-Tuned for Atmospheric Chemistry",
-      "url": "https://arxiv.org/abs/2607.20778",
-      "summary": "arXiv:2607.20778v1 Announce Type: cross Abstract: Weather forecasting foundation models (FMs) are increasingly fine-tuned to predict air quality, offering fast global pollution forecasts at lower computational cost than …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometric Superconducting Diode Effect in an NbN Nanoring",
-      "url": "https://arxiv.org/abs/2607.20794",
-      "summary": "arXiv:2607.20794v1 Announce Type: cross Abstract: Superconducting diodes, which exhibit nonreciprocal critical currents, are promising building blocks for low-power cryogenic electronics and superconducting circuits. Exi…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How to Craft the Right Language AI Policy For Your Research Group (Some Assembly Required)",
-      "url": "https://arxiv.org/abs/2607.20836",
-      "summary": "arXiv:2607.20836v1 Announce Type: cross Abstract: Language AI is rapidly becoming part of the astronomy research ecosystem, prompting research teams to develop policies governing its use. But resources and advice for AI …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hierarchical Log-Gaussian Relaxation on a Fixed D3Q125 Velocity Set",
-      "url": "https://arxiv.org/abs/2607.20846",
-      "summary": "arXiv:2607.20846v1 Announce Type: cross Abstract: We develop a hierarchical order-resolved relaxation model for a fixed D3Q125 discrete-velocity kinetic formulation. Conventional adaptive collision models often use one s…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cross-streamline diffusiophoretic migration of colloids in Taylor-dispersed channel flows",
-      "url": "https://arxiv.org/abs/2607.20898",
-      "summary": "arXiv:2607.20898v1 Announce Type: cross Abstract: Diffusiophoretic transport of colloids in pressure-driven channel flow is commonly analysed in two limits: an early-time regime in which the solute field is fully two-dim…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Uni-XAS: Alignment-Driven Bidirectional Multimodal Learning for X-ray Absorption Spectroscopy",
-      "url": "https://arxiv.org/abs/2607.20906",
-      "summary": "arXiv:2607.20906v1 Announce Type: cross Abstract: X-ray absorption spectroscopy (XAS) is a key technique for probing local atomic environments, yet learning based modeling must bridge two heterogeneous modalities: 1D con…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolutionary Le Chatelier's Principle: Phenotypic Plasticity and Genetic Assimilation via Timescale Separation in the Price Equation",
-      "url": "https://arxiv.org/abs/2607.20915",
-      "summary": "arXiv:2607.20915v1 Announce Type: cross Abstract: Phenotypic plasticity and genetic assimilation play key roles in adaptive evolution, yet their underlying mechanism has lacked a unified physical description. A major the…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generation of bright quantum high-order harmonic driven by combined coherent and bright squeezed vacuum light",
-      "url": "https://arxiv.org/abs/2607.20941",
-      "summary": "arXiv:2607.20941v1 Announce Type: cross Abstract: Attosecond quantum light, formed by the superposition of high-order harmonics driven by intense quantum light, opens new routes to probe quantum-mechanical correlations i…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Analytically Trained Variational Surrogate for Quantum Phase Estimation on NISQ Hardware",
-      "url": "https://arxiv.org/abs/2607.20943",
-      "summary": "arXiv:2607.20943v1 Announce Type: cross Abstract: Quantum Phase Estimation (QPE) is a foundational algorithm for molecular ground-state energy estimation, but its deep circuit requirements make direct hardware execution …",
       "ts": 1784865600000
     }
   ],
