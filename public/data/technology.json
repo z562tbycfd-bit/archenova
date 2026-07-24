@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-24T04:16:55.111Z",
+  "updated": "2026-07-24T07:33:32.707Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
+      "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
+      "summary": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. …",
+      "ts": 1784867667000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "A Million-Panel Project",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-million-panel-project/",
+      "summary": "Utah’s new solar power and battery storage facility is among the largest in the region.",
+      "ts": 1784865660000,
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "FISHER: Gradient-Decoupled Hierarchical Multi-Task Learning for Fine-Grained Aquatic Species Recognition",
@@ -281,6 +297,14 @@
       "summary": "Atlases like this one can provide the labeled, cell-type-resolved training data that artificial intelligence models need to make accurate predictions—a bottleneck that has historically limited the field. The post Single-…",
       "ts": 1784857247000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 4954–4960: Celebrating Our Rover Engineers Past and Present",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4954-4960-celebrating-our-rover-engineers-past-and-present/",
+      "summary": "Written by Lucy Thompson, Senior Research Scientist, University of New Brunswick, Canada Earth planning date: Friday, July 27, 2026 As an APXS uplink lead and strategic planner, I have the privilege of working with the r…",
+      "ts": 1784856133000,
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -695,30 +719,6 @@
       "title": "Enabling Rapid Calibration of BCI Systems that Detect Movement-Related Cortical Potentials in Children with Cerebral Palsy",
       "url": "https://arxiv.org/abs/2607.19417",
       "summary": "arXiv:2607.19417v1 Announce Type: new Abstract: Brain-computer interface neurofeedback (BCI-NFT) has shown promise for neuromotor rehabilitation, but its clinical adoption -- particularly in pediatric populations -- rema…",
-      "ts": 1784779200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Making Single-Cell Data Distillation Auditable: Traceable Real-Cell Coresets via Discrete Min-Max Selection",
-      "url": "https://arxiv.org/abs/2607.19426",
-      "summary": "arXiv:2607.19426v1 Announce Type: new Abstract: Single-cell datasets are increasingly costly to store, audit, and reuse for model training. Dimensionality reduction and dataset distillation can reduce this burden, but co…",
-      "ts": 1784779200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Causal dictionary learning reveals and validates transcription-factor binding features in genomic language models",
-      "url": "https://arxiv.org/abs/2607.19618",
-      "summary": "arXiv:2607.19618v1 Announce Type: new Abstract: Genomic language models achieve strong performance across regulatory-genomics tasks, yet what these models internally represent remains opaque, and the field lacks a princi…",
-      "ts": 1784779200000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Perceived vertical and eye level as one orientation order parameter: a closed-form account of the Li-Matin rules for egocentric space",
-      "url": "https://arxiv.org/abs/2607.19681",
-      "summary": "arXiv:2607.19681v1 Announce Type: new Abstract: The visually perceived vertical is biased by the orientation content of the visual field. Li and Matin (2005a, 2005b) reported three regularities of this induced vertical (…",
       "ts": 1784779200000,
       "categoryId": "bio"
     }
