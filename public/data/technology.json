@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-24T16:48:43.597Z",
+  "updated": "2026-07-24T18:20:02.350Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Colorectal Cancer Targeted with Mass-Produced iPSC-Derived Allogeneic T Cells",
+      "url": "https://www.genengnews.com/topics/cancer/colorectal-cancer-targeted-with-mass-produced-ipsc-derived-allogeneic-t-cells/",
+      "summary": "Researchers generated off-the-shelf, mass-producible iPSC-derived allogeneic γδT cells that in a small preclinical study suppressed tumor growth in mouse colorectal cancer xenograft models, highlighting the cells’ potent…",
+      "ts": 1784913858000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The quest to keep organs alive outside the body",
+      "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
+      "summary": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when …",
+      "ts": 1784912635000,
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "New Crew Members Welcomed to International Space Station",
+      "url": "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/",
+      "summary": "From left, Expedition 74 flight engineers Anna Kikina and Pyotr Dubrov of Roscosmos, and Anil Menon of NASA pose for a July 18, 2026, photo while holding a cake celebrating their recent arrival aboard the International S…",
+      "ts": 1784911382000,
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Oral Antiviral Blocks Measles-Like Virus Transmission in Ferrets",
@@ -9,6 +33,14 @@
       "summary": "An oral antiviral candidate prevented airborne and contact transmission of a measles-like virus in ferrets, reduced disease severity and infectious duration, and could complement vaccination strategies to help control fu…",
       "ts": 1784911272000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Announces New Spacecraft Technology Demonstration Mission at Moon    ",
+      "url": "https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/",
+      "summary": "NASA is working with industry to advance the next phase of cislunar infrastructure for the agency’s Artemis program and Moon Base, including orbital assets and demonstrations. Under a contract awarded to Advanced Space, …",
+      "ts": 1784910946000,
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -25,6 +57,14 @@
       "summary": "From new hires to departures, promotions, and hires, here are the latest comings and goings in the pharma industry.",
       "ts": 1784908634000,
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis",
+      "url": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
+      "summary": "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St. Louis, Missis…",
+      "ts": 1784907021000,
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -681,46 +721,6 @@
       "summary": "",
       "ts": 1784813400000,
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Lilly obesity drug data, a push for FDA to ban DTC ads, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/23/lilly-obesity-drug-data-fda-asked-to-ban-dtc-ads/?utm_campaign=rss",
-      "summary": "A study of Lilly's retatrutide weight loss drug in people with heart disease did not answer a crucial question — whether it reduces cardiovascular risk",
-      "ts": 1784812865000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: HHS to convene experts on standards for clinical AI",
-      "url": "https://www.statnews.com/2026/07/23/hhs-convenes-experts-on-clinical-ai-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: HHS is inviting experts to shape policy on clinical AI, Whoop's new CMO, news about brain implants, and more.",
-      "ts": 1784811972000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame/",
-      "summary": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 …",
-      "ts": 1784811616000,
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA is urged by advocacy group to ban DTC prescription drug ads",
-      "url": "https://www.statnews.com/pharmalot/2026/07/23/fda-urged-by-advocacy-group-to-ban-dtc-prescription-drug-ads/?utm_campaign=rss",
-      "summary": "A leading advocacy group petitioned the FDA to ban direct-to-consumer advertising of prescription medicines.",
-      "ts": 1784811600000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: energy transmission and US threats against Chinese AI",
-      "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The power line that could reshape New York’s grid is hitting snags During a heat w…",
-      "ts": 1784808600000,
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

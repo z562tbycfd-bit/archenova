@@ -1,7 +1,91 @@
 {
   "ok": true,
-  "updated": "2026-07-24T16:48:40.695Z",
+  "updated": "2026-07-24T18:19:58.911Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How did inbred brown tree snakes take over the island of Guam?",
+      "url": "https://phys.org/news/2026-07-inbred-brown-tree-snakes-island.html",
+      "summary": "If you look up invasive species in a textbook, there's a good chance you'll find a picture of a brown tree snake. Native to Australia and the South Pacific, the brown tree snake arrived on Guam sometime after World War I…",
+      "ts": 1784916007000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unraveling the climate behind the collapse of Bronze Age civilizations",
+      "url": "https://phys.org/news/2026-07-unraveling-climate-collapse-bronze-age.html",
+      "summary": "The most severe droughts in the ancient Eastern Mediterranean arose when multiple natural climate cycles coincided, according to a new study from Stockholm University published in Science Advances. The findings shed new …",
+      "ts": 1784916006000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hydrogel electrode improves stability of insect-based odor sensors for drones",
+      "url": "https://phys.org/news/2026-07-hydrogel-electrode-stability-insect-based.html",
+      "summary": "Drones are increasingly being used for disaster response, infrastructure inspection and environmental monitoring. However, most drone systems rely primarily on cameras and other visual sensors, which can become ineffecti…",
+      "ts": 1784916003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Algorithms create foundry-ready photonic circuits",
+      "url": "https://phys.org/news/2026-07-algorithms-foundry-ready-photonic-circuits.html",
+      "summary": "Photonic microchips can process data at extremely high speeds and are embedded in a wide variety of today's technologies. Researchers at the Max Planck Institute for the Science of Light (MPL) and Harvard University have…",
+      "ts": 1784914808000
+    },
+    {
+      "source": "Phys.org",
+      "title": "How fishing may be changing one fish species at the molecular level",
+      "url": "https://phys.org/news/2026-07-fishing-fish-species-molecular.html",
+      "summary": "The pearly razorfish (Xyrichtys novacula) is a small marine animal that lives in sandy coastal waters and feeds on creatures like shrimp. Known locally in Spain's Balearic Islands as raors, it is a popular dish in many h…",
+      "ts": 1784914806000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Malaria parasite selectively consumes linoleic acid fats, revealing drug target potential",
+      "url": "https://phys.org/news/2026-07-malaria-parasite-consumes-linoleic-acid.html",
+      "summary": "Researchers at NYU Abu Dhabi have discovered that the malaria parasite relies on a specific type of fat to survive and multiply within the human host, uncovering a previously unknown vulnerability that could help guide f…",
+      "ts": 1784914804000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Review finds lack of evidence as to whether planting around our homes reduces the pollution we breathe",
+      "url": "https://phys.org/news/2026-07-lack-evidence-homes-pollution.html",
+      "summary": "A new review led by the University of East London (UEL) has uncovered a major blind spot in air pollution research. Despite domestic gardens covering vast areas of Britain's towns and cities, researchers found no direct …",
+      "ts": 1784913607000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rocks from unexplored far side of the moon help rewrite lunar history",
+      "url": "https://phys.org/news/2026-07-unexplored-side-moon-rewrite-lunar.html",
+      "summary": "Ancient samples from the moon's far side are helping scientists uncover how asteroid impacts shaped the early solar system. The findings challenge decades of thinking about when those impacts occurred and offer new insig…",
+      "ts": 1784913604000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trust among farmers is key to scaling climate-smart innovations",
+      "url": "https://phys.org/news/2026-07-farmers-key-scaling-climate-smart.html",
+      "summary": "As the climate becomes increasingly variable and extreme events become more frequent, accelerating the use of innovations that can strengthen agricultural resilience has become a priority for agrifood systems. Science ha…",
+      "ts": 1784912403000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fat-storing cell structures may block viral spread by recruiting antiviral proteins",
+      "url": "https://phys.org/news/2026-07-fat-cell-block-viral-antiviral.html",
+      "summary": "La Trobe University scientists have uncovered the critical role fatty cell structures play in our body's early detection and defense against viruses. Published in Nature Communications, the discovery could open the door …",
+      "ts": 1784912401000
+    },
+    {
+      "source": "Science News",
+      "title": "What’s to blame for Canada’s wildfires?",
+      "url": "https://www.sciencenews.org/article/what-blame-canada-wildfires-toxic-smoke",
+      "summary": "The inferno that sent toxic smoke billowing toward the United States won't be the last. Officials are now battling both the wildfires and misinformation.",
+      "ts": 1784912400000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why and how birdsong differs across the world—and the eight motifs that tie them together",
+      "url": "https://phys.org/news/2026-07-birdsong-differs-world-motifs.html",
+      "summary": "Birdsong carries meaning across open space, helping birds attract mates, defend territory and communicate with rivals. While there has been much research into the use of birdsong across species, researchers have lacked a…",
+      "ts": 1784911802000
+    },
     {
       "source": "Phys.org",
       "title": "More than 80,000 flee forest infernos in France and Spain",
@@ -616,90 +700,6 @@
       "title": "Langmuir probe and infrared thermography measurements of wide and narrow heat flux profiles in the ST40 tokamak",
       "url": "https://arxiv.org/abs/2607.21362",
       "summary": "arXiv:2607.21362v1 Announce Type: new Abstract: Very narrow heat flux profiles have been observed on ST40 with decay lengths in the near scrape-off-layer (SOL) of $\\lambda_{q,near}<$~1~mm in H-mode plasmas. Measurements …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Graph Neural Network Force Fields (GPTFF-mol) for Organic Molecules from Optimization Trajectories (OpenGEM26)",
-      "url": "https://arxiv.org/abs/2607.21369",
-      "summary": "arXiv:2607.21369v1 Announce Type: new Abstract: Density functional theory (DFT) serves as a reliable tool for atomistic molecular simulations, while machine learning potentials have become powerful complements to balance…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flexible generation of daily Earth system model projections across radiative forcing scenarios",
-      "url": "https://arxiv.org/abs/2607.21382",
-      "summary": "arXiv:2607.21382v1 Announce Type: new Abstract: Earth system model (ESM) projections of the climate system's response to anthropogenic forcing are central to assess the impacts of climate change and inform adaptation and…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polaritons of inherently interacting molecules",
-      "url": "https://arxiv.org/abs/2607.21389",
-      "summary": "arXiv:2607.21389v1 Announce Type: new Abstract: We investigate the absorption spectra of molecular ensembles strongly coupled to a Fabry-P\\'erot cavity and establish the microscopic origin of collective polaritonic bands…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards more accurate natural orbital functional approximations: including 4-index cumulant contributions",
-      "url": "https://arxiv.org/abs/2607.21399",
-      "summary": "arXiv:2607.21399v1 Announce Type: new Abstract: Accurate modeling of bond breaking remains a central challenge for reduced density matrix functional theory (RDMFT). Although some modern functionals can yield reasonably a…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cycle-Consistent and Uncertainty-Aware Neural Surrogates for Tokamak Edge Plasmas",
-      "url": "https://arxiv.org/abs/2607.21407",
-      "summary": "arXiv:2607.21407v1 Announce Type: new Abstract: The boundary and divertor plasma govern how a tokamak exhausts power and particles, setting heat fluxes, target conditions, and the onset of detachment. Predicting these qu…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Approximating committor functions: Objective functions and training data sampling",
-      "url": "https://arxiv.org/abs/2607.21425",
-      "summary": "arXiv:2607.21425v1 Announce Type: new Abstract: Many molecular dynamics simulations aim at studying transitions between two states (from reactants to products). In this context, the committor function (which gives for a …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diffusion posterior sampling enables zero shot kilometre scale wind forecasting over complex terrain",
-      "url": "https://arxiv.org/abs/2607.21460",
-      "summary": "arXiv:2607.21460v1 Announce Type: new Abstract: Reliable prediction of near surface wind over complex terrain is limited by the mismatch between the spatial resolution of operational forecasts and terrain controlled loca…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Axel Dieter Becke: Not just the \"B\" in \"B3LYP\"",
-      "url": "https://arxiv.org/abs/2607.21465",
-      "summary": "arXiv:2607.21465v1 Announce Type: new Abstract: There is hardly anyone doing electronic structure calculations on molecules who has not used the famous B3LYP functional. Many will even know that the \"B\" in B3LYP stands f…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental realization of a rotating radio-frequency ion trap for precision metrology",
-      "url": "https://arxiv.org/abs/2607.21511",
-      "summary": "arXiv:2607.21511v1 Announce Type: new Abstract: We discuss the experimental realization of the rotating radio-frequency (rrf) trap, proposed by Hasegawa and Bollinger [Phys. Rev. A 72, 043403 (2005)]. Compared to a tradi…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian evidence adaptive pursuit to identify neutron sources with scatter-based spectrometers",
-      "url": "https://arxiv.org/abs/2607.21543",
-      "summary": "arXiv:2607.21543v1 Announce Type: new Abstract: Reliable neutron source identification is essential for nuclear nonproliferation, safeguards, and homeland security, but remains challenging because neutron spectral invers…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An integrated all-van der Waals nanobeam laser",
-      "url": "https://arxiv.org/abs/2607.21566",
-      "summary": "arXiv:2607.21566v1 Announce Type: new Abstract: Transition-metal dichalcogenides offer a promising platform for integrated coherent light sources, yet lasing has largely relied on hybrid photonic architectures without di…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Event-sparse stack denoising for 4D-STEM applications",
-      "url": "https://arxiv.org/abs/2512.10555",
-      "summary": "arXiv:2512.10555v1 Announce Type: cross Abstract: We introduce a denoising method for four-dimensional scanning transmission electron microscopy (4D-STEM) that relies on processing local, scan position-independent electr…",
       "ts": 1784865600000
     }
   ],
