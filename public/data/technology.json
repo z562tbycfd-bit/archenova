@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-24T20:21:38.206Z",
+  "updated": "2026-07-24T22:06:45.570Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -129,6 +129,62 @@
       "summary": "The Commerce Department is moving ahead with plans to implement a voluntary mission authorization system for novel space activities that are not regulated by other agencies. The post Office of Space Commerce to move ahea…",
       "ts": 1784894674000,
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "International Criminal Court Prosecutor Karim Khan dismissed",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168025",
+      "summary": "Member States of the International Criminal Court dismissed its Prosecutor Karim Khan following disciplinary proceedings related to widely reported sexual misconduct allegations at an emergency session at UN Headquarters…",
+      "ts": 1784894400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council debrief: Race for critical minerals intensifies amidst warnings of conflict",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168024",
+      "summary": "The world needs more critical minerals than ever before for electric vehicles, wind turbines, solar panels, batteries and smartphones.",
+      "ts": 1784894400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Women do not stop giving birth in an emergency’ – one month after Venezuela quakes",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168021",
+      "summary": "One month after twin earthquakes rocked Venezuela, thousands of women and girls continue to face difficulty in accessing essential healthcare and protection services, a senior official with the UN reproductive and sexual…",
+      "ts": 1784894400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "After an Ebola centre was attacked, peacekeepers moved in next door",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168018",
+      "summary": "A new mobile UN peacekeeping base in the Democratic Republic of the Congo (DRC) has allowed local authorities to continue responding to the fast-moving Ebola outbreak there after violence disrupted the work of medics at …",
+      "ts": 1784894400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Middle East: UN warns against wider escalation after Houthi attacks in the Red Sea",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168016",
+      "summary": "As fighting intensifies in the Middle East, the United Nations on Friday warned against further escalation in the US-Iran war and the risks to global shipping amid the fight over control of the Strait of Hormuz.",
+      "ts": 1784894400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Wildfires surge across Europe as Spain and France battle major blazes",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168013",
+      "summary": "The amount of land burned by wildfires across Europe has increased by 57 per cent in four years, according to new data from the World Health Organization (WHO) in Europe.",
+      "ts": 1784894400000,
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "In El Obeid, Sudanese women face drones by day, rape by night, to reach water",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168012",
+      "summary": "In El Obeid, women and girls now face an impossible choice over something as basic as a bucket of water: risk a drone strike by collecting it in daylight, or risk rape by waiting until dark.",
+      "ts": 1784894400000,
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -664,62 +720,6 @@
       "url": "https://www.statnews.com/2026/07/23/erica-schwartz-cdc-director-vote-delayed/?utm_campaign=rss",
       "summary": "Too few senators were in attendance to proceed with a vote on the CDC director nominee.",
       "ts": 1784823532000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: What’s in the last-minute flurry of health care bills?",
-      "url": "https://www.statnews.com/2026/07/23/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson-3/?utm_campaign=rss",
-      "summary": "Congress is scrambling to advance a slew of health care bills before an August recess. Price transparency and prior authorization top the list.",
-      "ts": 1784820387000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Crews Move Artemis IV Liquid Hydrogen Tank",
-      "url": "https://www.nasa.gov/image-article/crews-move-artemis-iv-liquid-hydrogen-tank/",
-      "summary": "Crews at NASA’s Michoud Assembly Facility in New Orleans transport the 130-foot-tall Artemis IV liquid hydrogen tank out of a production cell inside the main factory building into a detached test building on a separate p…",
-      "ts": 1784820019000,
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s MAVEN Illuminates New Understanding of Auroras at Mars",
-      "url": "https://science.nasa.gov/missions/maven/nasas-maven-illuminates-new-understanding-of-auroras-at-mars/",
-      "summary": "NASA MAVEN (Mars Atmosphere and Volatile Evolution) mission scientists have uncovered a key puzzle piece in understanding certain types of auroras on Mars, finding that they form in a similar way to Earth-based auroras. …",
-      "ts": 1784819973000,
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Will Bruey on rethinking the role of pharmaceuticals in low Earth orbit",
-      "url": "https://spacenews.com/will-bruey-on-rethinking-the-role-of-pharmaceuticals-in-low-earth-orbit/",
-      "summary": "In this episode, David Ariosto speaks with Varda CEO Will Bruey at the Ascend conference. They discuss how Varda hopes to play a role bridging medicine and low Earth orbit […] The post Will Bruey on rethinking the role o…",
-      "ts": 1784819613000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "FDA panel confronting peptide controversy",
-      "url": "https://www.statnews.com/2026/07/23/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson-2/?utm_campaign=rss",
-      "summary": "Today's biotech news features the FDA weighing the fate of peptides; approvals for RevMed, GSK; and data on Lilly's \"triple-G.\"",
-      "ts": 1784818721000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "A father’s mission to save his daughter, and allegations on telehealth GLP-1 prescribing",
-      "url": "https://www.statnews.com/2026/07/23/readout-loud-podcast-matt-wilsey-rare-disease-lifemd-novo-nordisk-eli-lilly/?utm_campaign=rss",
-      "summary": "Has a wanted fugitive been posing as a biotech executive? And what does it take to develop a therapy for an ultra-rare disease? Find out on this week's episode of…",
-      "ts": 1784817952000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Vote on key federal health nominee delayed amid questions over vaccine views",
-      "url": "https://www.statnews.com/2026/07/23/sean-kaufman-aspr-nomination-confirmation-vote-postponed-senate-committee/?utm_campaign=rss",
-      "summary": "Sean Kaufman, nominated to run ASPR, has a track record of questioning the safety of vaccines.",
-      "ts": 1784815384000,
       "categoryId": "bio"
     }
   ],

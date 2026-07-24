@@ -1,7 +1,14 @@
 {
   "ok": true,
-  "updated": "2026-07-24T20:21:36.031Z",
+  "updated": "2026-07-24T22:06:40.426Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Long-lived ytterbium states could sharpen quantum computing and atomic clocks",
+      "url": "https://phys.org/news/2026-07-ytterbium-states-sharpen-quantum-atomic.html",
+      "summary": "Researchers from the University of Amsterdam and the University of New South Wales have answered a question that has been around for decades: whether ions of the metal ytterbium can enter certain long-lived, nearly stabl…",
+      "ts": 1784928002000
+    },
     {
       "source": "Phys.org",
       "title": "Study explores the hedging capability of cryptocurrencies in turbulent markets",
@@ -388,6 +395,20 @@
       "ts": 1784887200000
     },
     {
+      "source": "APS Physical Review Letters",
+      "title": "Intrinsic Nernst Effect from Berry Curvature in Superconductors",
+      "url": "http://link.aps.org/doi/10.1103/jhgx-c8f1",
+      "summary": "Author(s): Tzu-Chi Hsieh, Cong Xiao, and Yi-Ting Hsu The Nernst effect acts as direct probe of Berry curvature to test topological superconductivity in 2D material with spin-orbit coupling. [Phys. Rev. Lett. 137, 046002]…",
+      "ts": 1784887200000
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Valley-Engineered Landau Polaritons in a van der Waals Semiconductor Microcavity",
+      "url": "http://link.aps.org/doi/10.1103/dldv-n4f2",
+      "summary": "Author(s): Xinyue Zhang, Hongming Zhang, Yaofeng Zhu, Hang Zhou, Song Luo, Long Xu, Xin Li, Yuquan Zhou, Yan Liu, Zheng Lv, Yuxin Duan, Zhao Xu, Haodong Cheng, Long Zhang, and Zhanghai Chen Integrating a WSe2 monolayer i…",
+      "ts": 1784887200000
+    },
+    {
       "source": "Phys.org",
       "title": "Young rift flanks suggest Venus remains tectonically active",
       "url": "https://phys.org/news/2026-07-young-rift-flanks-venus-tectonically.html",
@@ -679,27 +700,6 @@
       "title": "Matrix-free phase-field modeling of fracture in micromechanical testing simulations of inelastic materials",
       "url": "https://arxiv.org/abs/2607.21150",
       "summary": "arXiv:2607.21150v1 Announce Type: new Abstract: Resolving steep damage gradients across diffuse cracks in the phase-field modeling of fracture favors the use of high-order finite elements, for which matrix-free methods c…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A physics-assisted deep neural network-based closure framework for velocity gradient dynamics in compressible flows with vibrational non-equilibrium",
-      "url": "https://arxiv.org/abs/2607.21152",
-      "summary": "arXiv:2607.21152v1 Announce Type: new Abstract: In this study, we propose a dynamical model for the evolution of velocity gradients in compressible turbulent flows with vibrational non-equilibrium effects, using physics-…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determination of fundamental properties of nitrogen from first principles. I. Atomic polarizabilities and long-range dispersion coefficients",
-      "url": "https://arxiv.org/abs/2607.21172",
-      "summary": "arXiv:2607.21172v1 Announce Type: new Abstract: This work is the first in a series of papers in which we perform theoretical calculations of various fundamental properties of nitrogen relevant for gas thermometry experim…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determination of fundamental properties of nitrogen from first principles. II. Interaction potential and spectroscopic properties of N$_2$",
-      "url": "https://arxiv.org/abs/2607.21212",
-      "summary": "arXiv:2607.21212v1 Announce Type: new Abstract: This work is the second part of the series devoted to first-principles determination of the fundamental properties of nitrogen. In this part, we calculate the potential ene…",
       "ts": 1784865600000
     }
   ],
