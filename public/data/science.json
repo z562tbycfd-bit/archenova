@@ -1,7 +1,42 @@
 {
   "ok": true,
-  "updated": "2026-07-24T10:21:01.378Z",
+  "updated": "2026-07-24T12:21:02.089Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Vegan dog and cat food generally well digested",
+      "url": "https://phys.org/news/2026-07-vegan-dog-cat-food-generally.html",
+      "summary": "A new scientific review has found that nutritionally sound vegan dog food, vegan cat food and vegetarian pet diets are generally well digested and broadly comparable to conventional meat-based diets.",
+      "ts": 1784895601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Should scientists have research 'reserves' on the moon?",
+      "url": "https://phys.org/news/2026-07-scientists-reserves-moon.html",
+      "summary": "The worlds of the solar system are exciting and, so far, mostly pristine places for planetary scientists to study. As space missions continue to travel to Mars, Europa, asteroids and other worlds, questions arise about k…",
+      "ts": 1784893203000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Protecting your pets from heat stress: Expert advice",
+      "url": "https://phys.org/news/2026-07-pets-stress-expert-advice.html",
+      "summary": "Warm weather often means more time outside with your pets, but higher temperatures also increase the risk of heat stress, which occurs when an animal's body cannot properly cool itself, causing its core temperature to ri…",
+      "ts": 1784892003000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Small tropical islands face dangerous humid heat by end of the century",
+      "url": "https://phys.org/news/2026-07-small-tropical-islands-dangerous-humid.html",
+      "summary": "Millions of people living on tropical islands could face a future of increasingly dangerous heat as climate change drives longer and more intense periods of humid conditions. While rising temperatures are often discussed…",
+      "ts": 1784892001000
+    },
+    {
+      "source": "Phys.org",
+      "title": "National study finds reports of past-year sexual harassment more than doubled since 2018",
+      "url": "https://phys.org/news/2026-07-national-year-sexual.html",
+      "summary": "Nearly a decade after the #MeToo movement reshaped public conversations about sexual harassment, a new study from the Newcomb Institute at Tulane University finds that Americans are reporting experiences of sexual harass…",
+      "ts": 1784890801000
+    },
     {
       "source": "Phys.org",
       "title": "Young rift flanks suggest Venus remains tectonically active",
@@ -665,41 +700,6 @@
       "title": "Strategic Plan for Neutral Atom Quantum Computation",
       "url": "https://arxiv.org/abs/2607.21554",
       "summary": "arXiv:2607.21554v1 Announce Type: cross Abstract: We present a strategic plan for neutral atom quantum computation, bringing together hardware development and theory advancements to achieve the goal of practical quantum …",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bottom-up systems at scale: The case of Reddit",
-      "url": "https://arxiv.org/abs/2407.12063",
-      "summary": "arXiv:2407.12063v2 Announce Type: replace Abstract: How do human collectives navigate increasing regulatory challenges to maintain order and avoid dysfunction as they grow in size? Here, we quantify how measurable action…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Stochastic Conceptual Model for the Coupled ENSO and MJO",
-      "url": "https://arxiv.org/abs/2411.05264",
-      "summary": "arXiv:2411.05264v2 Announce Type: replace Abstract: Understanding the interactions between the El Nino-Southern Oscillation (ENSO) and the Madden-Julian Oscillation (MJO) is essential to studying climate variabilities an…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulation model of crystal-based beam extraction using BDSim toolkit enhanced with Geant4 G4ChannelingFastSimModel",
-      "url": "https://arxiv.org/abs/2412.10715",
-      "summary": "arXiv:2412.10715v3 Announce Type: replace Abstract: We present a simulation model for crystal-based beam extraction of lepton beams from an accelerator by using a bent crystal. This model utilizes the BDSim toolkit for p…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Identification of Beneficial and Detrimental Structure Locations Around Flettner Rotors Using Topology-Optimization-Inspired Sensitivity Fields",
-      "url": "https://arxiv.org/abs/2505.04833",
-      "summary": "arXiv:2505.04833v2 Announce Type: replace Abstract: Flettner rotors are highly sensitive to their surrounding flow field and may be significantly affected by nearby ship structures, deck cargo, and superstructures. Asses…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Rapid Reconstruction Method of Gamma Radiation Field based on Normalized Proper Orthogonal Decomposition",
-      "url": "https://arxiv.org/abs/2505.07088",
-      "summary": "arXiv:2505.07088v2 Announce Type: replace Abstract: When a fault occurs in nuclear facilities, accurately reconstructing gamma radiation fields through measurements from the mobile radiation detection (MRD) system become…",
       "ts": 1784865600000
     }
   ],

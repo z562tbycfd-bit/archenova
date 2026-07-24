@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-24T10:21:06.974Z",
+  "updated": "2026-07-24T12:21:05.311Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Office of Space Commerce to move ahead on mission authorization",
+      "url": "https://spacenews.com/office-of-space-commerce-to-move-ahead-on-mission-authorization/",
+      "summary": "The Commerce Department is moving ahead with plans to implement a voluntary mission authorization system for novel space activities that are not regulated by other agencies. The post Office of Space Commerce to move ahea…",
+      "ts": 1784894674000,
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "A new, separate outbreak of the diarrhea-causing parasite",
+      "url": "https://www.statnews.com/2026/07/24/health-news-new-separate-cyclospora-diarrhea-outbreak/?utm_campaign=rss",
+      "summary": "A win for peptide proponents, autism advisory committees clash, and more health news from Morning Rounds",
+      "ts": 1784894367000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Merck strikes voluntary licensing deals in poor countries for an experimental HIV prevention pill",
+      "url": "https://www.statnews.com/pharmalot/2026/07/24/merck-experimental-hiv-prevention-pill-licensing-deals/?utm_campaign=rss",
+      "summary": "Merck is striking licensing deals for its experimental HIV prevention pill in hope of getting wide-scale production started quickly.",
+      "ts": 1784889900000,
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Lightning strikes Long March 3B after liftoff, Kinetica-1 launches 5 satellites",
+      "url": "https://spacenews.com/lightning-strikes-long-march-3b-after-liftoff-kinetica-1-launches-5-satellites/",
+      "summary": "HELSINKI — China conducted a pair of launches Thursday, including a Long March 3B rocket which delivered its payload to orbit despite a lightning strike. The Long March 3B rocket […] The post Lightning strikes Long March…",
+      "ts": 1784889173000,
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Why total solar eclipses are so special",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Why_total_solar_eclipses_are_so_special",
+      "summary": "Video: 00:07:07 More than 2500 years ago, a total solar eclipse is said to have ended a war between the Lydians and the Medes. Today, we understand the science behind eclipses, but witnessing one is still one of the most…",
+      "ts": 1784887200000,
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "EU delays release of Copernicus imagery over Gulf of Oman ",
@@ -371,6 +411,14 @@
       "categoryId": "space"
     },
     {
+      "source": "Nature Energy",
+      "title": "High-performance perovskite/silicon tandem solar cells enabled by multifunctional titanium oxynitride recombination layers",
+      "url": "https://www.nature.com/articles/s41560-026-02116-4",
+      "summary": "",
+      "ts": 1784851200000,
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Single-Cell Maps Reveal Genome Reorganization in Alzheimer’s Brain Cells",
       "url": "https://www.genengnews.com/topics/omics/single-cell-maps-reveal-genome-reorganization-in-alzheimers-brain-cells/",
@@ -673,54 +721,6 @@
       "summary": "In the Security Council debate on Thursday on how best to settle disputes between States peacefully, ambassadors provided examples of success and challenges ahead under such themes as effective early warning and how to m…",
       "ts": 1784808000000,
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Stranded seafarers remain trapped as Hormuz shipping stalls",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168004",
-      "summary": "As the Iran-US war continues, the key question remains unanswered about how shipping through the Strait of Hormuz will be managed in future – although the UN has reiterated that charging tolls for safe passage runs contr…",
-      "ts": 1784808000000,
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Airbus space business takes advantage of growing demand for satellite systems",
-      "url": "https://spacenews.com/airbus-space-business-takes-advantage-of-growing-demand-for-satellite-systems/",
-      "summary": "Airbus executives say the turnaround in the company’s space business came just in time to tap growing demand, particularly from Europe, for space capabilities as it pursues a joint venture. The post Airbus space business…",
-      "ts": 1784807722000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Expect a clash at today’s FDA peptide panel",
-      "url": "https://www.statnews.com/2026/07/23/health-news-expect-a-clash-at-today-fda-peptide-panel/?utm_campaign=rss",
-      "summary": "The service members who refused the Covid vaccine, the fastest-growing Ebola outbreak in history, and other health news from Morning Rounds",
-      "ts": 1784806465000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: New data on Eli Lilly’s ‘triple-G’ drug leave open questions on heart benefit",
-      "url": "https://www.statnews.com/2026/07/23/new-data-on-eli-lilly-triple-g-drug-retatrutide-leave-open-questions-on-heart-benefit/?utm_campaign=rss",
-      "summary": "On analyses that looked at major cardiovascular events, those taking retatrutide did not have a significant lower risk of death, heart attack, or stroke.",
-      "ts": 1784803500000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Watch the total solar eclipse with ESA in León",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon",
-      "summary": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the University of León.",
-      "ts": 1784800800000,
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Filing of bipartisan Senate bill boosts momentum for office of men’s health",
-      "url": "https://www.statnews.com/2026/07/23/federal-office-mens-health-bipartisan-bill-filed-momentum-grows/?utm_campaign=rss",
-      "summary": "Mirroring the bipartisan bill introduced in the House, the measure would require a study from the GAO on the state of men’s health in the U.S. to be presented within…",
-      "ts": 1784800800000,
-      "categoryId": "bio"
     }
   ],
   "categories": [
