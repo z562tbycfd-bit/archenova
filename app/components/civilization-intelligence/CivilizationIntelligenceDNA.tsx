@@ -123,10 +123,32 @@ type PriorityLevel =
 
 type PrioritizedSignal =
   RecentSignalView & {
+
+    capability:
+      CapabilityVector;
+
     priorityScore: number;
-    priorityLevel: PriorityLevel;
+
+    priorityLevel:
+      PriorityLevel;
+
     rank: number;
+
   };
+
+  type CapabilityVector = {
+  discovery: number;
+
+  engineering: number;
+
+  infrastructure: number;
+
+  coordination: number;
+
+  civilization: number;
+
+  confidence: number;
+};
 
   type CrossSignalSynthesis = {
   dominantDomain: string;
@@ -536,6 +558,55 @@ function getPriorityLevel(
   return "MONITOR";
 }
 
+function buildCapabilityVector(
+  signal: DashboardSignal,
+): CapabilityVector {
+
+  return {
+
+    discovery:
+      normalizePercentage(
+        signal.score
+          ?.realityDiscovery ?? 0,
+      ),
+
+    engineering:
+      normalizePercentage(
+        signal.score
+          ?.capabilityExpansion ??
+          0,
+      ),
+
+    infrastructure:
+      normalizePercentage(
+        signal.score
+          ?.infrastructureImpact ??
+          0,
+      ),
+
+    coordination:
+      normalizePercentage(
+        signal.score
+          ?.synchronizationImpact ??
+          0,
+      ),
+
+    civilization:
+      normalizePercentage(
+        signal.score
+          ?.civilizationImpact ??
+          0,
+      ),
+
+    confidence:
+      normalizePercentage(
+        signal.confidence ?? 0,
+      ),
+
+  };
+
+}
+
 function synthesizeSignals(
   signals: readonly PrioritizedSignal[],
 ): CrossSignalSynthesis {
@@ -622,7 +693,7 @@ function synthesizeSignals(
 function buildCivilizationMap(
   signals: readonly PrioritizedSignal[],
 ): CivilizationIntelligenceMap {
-
+  
   const organScores =
     Object.fromEntries(
       EPISTEME_ORGAN_ORDER.map(
@@ -634,19 +705,25 @@ function buildCivilizationMap(
     >;
 
   signals.forEach(signal => {
+    const capability =
+      signal.capability;
 
     const contribution =
-      signal.priorityScore;
+      (
+        capability.discovery +
+        capability.engineering +
+        capability.infrastructure +
+        capability.coordination +
+        capability.civilization +
+        capability.confidence
+      ) / 6;
 
     signal.relatedOrgans?.forEach(
       organ => {
-
         organScores[organ] +=
           contribution;
-
       },
     );
-
   });
 
   const entries =
@@ -660,31 +737,36 @@ function buildCivilizationMap(
   const dominant =
     [...entries]
       .sort(
-        (a,b)=>
-          b[1]-a[1],
+        (a, b) =>
+          b[1] - a[1],
       )[0];
 
   const weakest =
     [...entries]
       .sort(
-        (a,b)=>
-          a[1]-b[1],
+        (a, b) =>
+          a[1] - b[1],
       )[0];
 
   const values =
     entries.map(
-      e=>e[1],
+      entry => entry[1],
     );
 
   const max =
-    Math.max(...values,1);
+    Math.max(
+      ...values,
+      1,
+    );
 
   const min =
-    Math.min(...values);
+    Math.min(
+      ...values,
+    );
 
   const balanceScore =
     normalizePercentage(
-      (min/max)*100,
+      (min / max) * 100,
     );
 
   return {
@@ -698,7 +780,7 @@ function buildCivilizationMap(
       weakest?.[0] ?? null,
 
     balanceScore,
-
+  
   };
 
 }
@@ -2116,16 +2198,28 @@ const prioritizedSignals =
     () =>
       [...recentSignals]
         .map((signal) => {
+          const capability =
+            buildCapabilityVector(
+              signal,
+            );
+
           const priorityScore =
-            calculatePriorityScore(signal);
+            calculatePriorityScore(
+              signal,
+            );
 
           return {
             ...signal,
+
+            capability,
+
             priorityScore,
+
             priorityLevel:
               getPriorityLevel(
                 priorityScore,
               ),
+
             rank: 0,
           };
         })
