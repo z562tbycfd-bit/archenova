@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-25T21:58:49.006Z",
+  "updated": "2026-07-25T23:02:48.986Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New research shows how language experience shapes human communication",
+      "url": "https://phys.org/news/2026-07-language-human-communication.html",
+      "summary": "A Taiwan–led study of Mandarin-speaking learners shows that the sounds we hear and produce are deeply shaped by our prior language experience, offering new insights into how humans learn and use language.",
+      "ts": 1785018602000,
+      "publishedAt": "2026-07-25T22:30:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "'I get caught up in the numbers game': Why useful social media content gets lost online",
@@ -791,14 +799,6 @@
       "title": "Topological measures in weighted hypergraphs",
       "url": "https://arxiv.org/abs/2607.20962",
       "summary": "arXiv:2607.20962v1 Announce Type: new Abstract: Higher-order interactions introduce an additional structural dimension to complex networks, requiring consistent generalizations of classical topological measures. In hyper…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Monolithic Magneto-Optical Mach-Zehnder Isolator Using Laser-Annealed Iron Garnet on a Silicon Waveguide",
-      "url": "https://arxiv.org/abs/2607.20964",
-      "summary": "arXiv:2607.20964v1 Announce Type: new Abstract: Stable silicon photonic circuits require monolithically integrated optical isolators based on magneto-optical garnet. However, crystallizing the garnet by conventional furn…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
