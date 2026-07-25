@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-25T07:58:34.840Z",
+  "updated": "2026-07-25T09:50:28.841Z",
   "items": [
     {
       "source": "Phys.org",
@@ -36,6 +36,22 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Finding the perfect promoter for Cas9 in homing gene drives using single cell transcriptome data",
+      "url": "https://www.nature.com/articles/s41467-026-76107-0",
+      "summary": "",
+      "ts": 1784937600000,
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "<i>DICER1</i>-related tumour predisposition mutations increase 3p-miRNA function and HERVH activity",
+      "url": "https://www.nature.com/articles/s41467-026-76094-2",
+      "summary": "",
+      "ts": 1784937600000,
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Anchoring mechanism-inspired discovery of a bacterial P450 gene conferring resistance to auxin herbicides",
       "url": "https://www.nature.com/articles/s41467-026-75811-1",
       "summary": "",
@@ -52,8 +68,24 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Deployable 3D architectures from wafer-fabricated precursors",
+      "url": "https://www.nature.com/articles/s41467-026-76052-y",
+      "summary": "",
+      "ts": 1784937600000,
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Substituent-rebound skeletal editing for precise boron-to-carbon single-atom swapping",
       "url": "https://www.nature.com/articles/s41467-026-75992-9",
+      "summary": "",
+      "ts": 1784937600000,
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "<i>Trdn-as</i> directs m6A-dependent transcriptional termination for accurate triadin isoform switching, preventing aberrant dyads and cardiomyopathy",
+      "url": "https://www.nature.com/articles/s41467-026-75985-8",
       "summary": "",
       "ts": 1784937600000,
       "publishedAt": "2026-07-25T00:00:00.000Z"
@@ -767,38 +799,6 @@
       "title": "A general synthetic iterative solver for axisymmetric rarefied gas and electrostatic charged-particle flows",
       "url": "https://arxiv.org/abs/2607.21277",
       "summary": "arXiv:2607.21277v1 Announce Type: new Abstract: An axisymmetric general synthetic iterative scheme (AxiGSIS) is proposed to simulate rarefied gas flows and charged particle transport under prescribed electrostatic fields…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatiotemporal Vortex Rings Induced by Spatiotemporal Coupling",
-      "url": "https://arxiv.org/abs/2607.21322",
-      "summary": "arXiv:2607.21322v1 Announce Type: new Abstract: Vortices and vortex rings are topological structures that arise in various physical systems. However, the generation of spatiotemporal vortices (STVs) and vortex rings (STV…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Front End Amplifiers for Simultaneous Dual Readout of SiPM Sensors",
-      "url": "https://arxiv.org/abs/2607.21339",
-      "summary": "arXiv:2607.21339v1 Announce Type: new Abstract: In this work, we present two fully open Analog Front End (AFE) designs for the simultaneous readout of the standard and fast outputs of ONSemi MicroFC-10035 Silicon Photomu…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Embodied inquiry with AI as facilitator: an exploratory case study",
-      "url": "https://arxiv.org/abs/2607.21349",
-      "summary": "arXiv:2607.21349v1 Announce Type: new Abstract: Generative AI is entering science education at a time when the embodied education community is asking what such systems cannot do. Rather than asking whether AI can underst…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Langmuir probe and infrared thermography measurements of wide and narrow heat flux profiles in the ST40 tokamak",
-      "url": "https://arxiv.org/abs/2607.21362",
-      "summary": "arXiv:2607.21362v1 Announce Type: new Abstract: Very narrow heat flux profiles have been observed on ST40 with decay lengths in the near scrape-off-layer (SOL) of $\\lambda_{q,near}<$~1~mm in H-mode plasmas. Measurements …",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
