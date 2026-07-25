@@ -121,6 +121,29 @@ type PriorityLevel =
   | "ELEVATED"
   | "MONITOR";
 
+type CapabilityVector = {
+  discovery: number;
+
+  engineering: number;
+
+  infrastructure: number;
+
+  coordination: number;
+
+  civilization: number;
+
+  confidence: number;
+};
+
+type CapabilityDimension =
+  keyof CapabilityVector;
+
+type OrganWeightProfile =
+  Record<
+    CapabilityDimension,
+    number
+  >;
+
 type PrioritizedSignal =
   RecentSignalView & {
 
@@ -136,21 +159,7 @@ type PrioritizedSignal =
 
   };
 
-  type CapabilityVector = {
-  discovery: number;
-
-  engineering: number;
-
-  infrastructure: number;
-
-  coordination: number;
-
-  civilization: number;
-
-  confidence: number;
-};
-
-  type CrossSignalSynthesis = {
+type CrossSignalSynthesis = {
   dominantDomain: string;
 
   dominantOrgan: OrganId | null;
@@ -173,6 +182,66 @@ type CivilizationIntelligenceMap = {
 
   balanceScore: number;
 };
+
+const ORGAN_WEIGHT_MATRIX =
+  {
+    observation: {
+      discovery: 0.45,
+      engineering: 0.05,
+      infrastructure: 0.05,
+      coordination: 0.10,
+      civilization: 0.05,
+      confidence: 0.30,
+    },
+
+    understanding: {
+      discovery: 0.35,
+      engineering: 0.25,
+      infrastructure: 0.05,
+      coordination: 0.20,
+      civilization: 0.05,
+      confidence: 0.10,
+    },
+
+    reasoning: {
+      discovery: 0.15,
+      engineering: 0.10,
+      infrastructure: 0.10,
+      coordination: 0.40,
+      civilization: 0.10,
+      confidence: 0.15,
+    },
+
+    design: {
+      discovery: 0.05,
+      engineering: 0.10,
+      infrastructure: 0.45,
+      coordination: 0.15,
+      civilization: 0.25,
+      confidence: 0.00,
+    },
+
+    realization: {
+      discovery: 0.05,
+      engineering: 0.35,
+      infrastructure: 0.35,
+      coordination: 0.10,
+      civilization: 0.10,
+      confidence: 0.05,
+    },
+
+    memory: {
+      discovery: 0.05,
+      engineering: 0.05,
+      infrastructure: 0.10,
+      coordination: 0.15,
+      civilization: 0.40,
+      confidence: 0.25,
+    },
+  } satisfies Record<
+    OrganId,
+    OrganWeightProfile
+  >;
 
 type SignalLevel =
  | "DISCOVERY"
@@ -607,6 +676,32 @@ function buildCapabilityVector(
 
 }
 
+function calculateOrganCapability(
+  capability: CapabilityVector,
+  organ: OrganId,
+): number {
+  const weights =
+    ORGAN_WEIGHT_MATRIX[organ];
+
+  const weightedScore =
+    capability.discovery *
+      weights.discovery +
+    capability.engineering *
+      weights.engineering +
+    capability.infrastructure *
+      weights.infrastructure +
+    capability.coordination *
+      weights.coordination +
+    capability.civilization *
+      weights.civilization +
+    capability.confidence *
+      weights.confidence;
+
+  return normalizePercentage(
+    weightedScore,
+  );
+}
+
 function synthesizeSignals(
   signals: readonly PrioritizedSignal[],
 ): CrossSignalSynthesis {
@@ -693,8 +788,17 @@ function synthesizeSignals(
 function buildCivilizationMap(
   signals: readonly PrioritizedSignal[],
 ): CivilizationIntelligenceMap {
-  
-  const organScores =
+  const organScoreTotals =
+    Object.fromEntries(
+      EPISTEME_ORGAN_ORDER.map(
+        organ => [organ, 0],
+      ),
+    ) as Record<
+      OrganId,
+      number
+    >;
+
+  const organSignalCounts =
     Object.fromEntries(
       EPISTEME_ORGAN_ORDER.map(
         organ => [organ, 0],
@@ -705,52 +809,73 @@ function buildCivilizationMap(
     >;
 
   signals.forEach(signal => {
-    const capability =
-      signal.capability;
+    const relatedOrgans =
+      signal.relatedOrgans ?? [];
 
-    const contribution =
-      (
-        capability.discovery +
-        capability.engineering +
-        capability.infrastructure +
-        capability.coordination +
-        capability.civilization +
-        capability.confidence
-      ) / 6;
+    relatedOrgans.forEach(organ => {
+      const contribution =
+        calculateOrganCapability(
+          signal.capability,
+          organ,
+        );
 
-    signal.relatedOrgans?.forEach(
-      organ => {
-        organScores[organ] +=
-          contribution;
-      },
-    );
+      organScoreTotals[organ] +=
+        contribution;
+
+      organSignalCounts[organ] += 1;
+    });
   });
 
-  const entries =
-    Object.entries(
-      organScores,
-    ) as [
+  const organScores =
+    Object.fromEntries(
+      EPISTEME_ORGAN_ORDER.map(
+        organ => {
+          const signalCount =
+            organSignalCounts[organ];
+
+          const score =
+            signalCount > 0
+              ? organScoreTotals[organ] /
+                signalCount
+              : 0;
+
+          return [
+            organ,
+            normalizePercentage(
+              score,
+            ),
+          ];
+        },
+      ),
+    ) as Record<
       OrganId,
-      number,
-    ][];
+      number
+    >;
+
+  const entries =
+    EPISTEME_ORGAN_ORDER.map(
+      organ =>
+        [
+          organ,
+          organScores[organ],
+        ] as const,
+    );
 
   const dominant =
-    [...entries]
-      .sort(
-        (a, b) =>
-          b[1] - a[1],
-      )[0];
+    [...entries].sort(
+      (a, b) =>
+        b[1] - a[1],
+    )[0];
 
   const weakest =
-    [...entries]
-      .sort(
-        (a, b) =>
-          a[1] - b[1],
-      )[0];
+    [...entries].sort(
+      (a, b) =>
+        a[1] - b[1],
+    )[0];
 
   const values =
     entries.map(
-      entry => entry[1],
+      ([, value]) => value,
     );
 
   const max =
@@ -770,7 +895,7 @@ function buildCivilizationMap(
     );
 
   return {
-
+  
     organScores,
 
     dominantOrgan:
@@ -2742,10 +2867,9 @@ organ
 ];
 
 const percent =
-Math.min(
-100,
-value,
-);
+  normalizePercentage(
+    value,
+  );
 
 return(
 
