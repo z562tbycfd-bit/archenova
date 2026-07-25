@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-25T17:00:50.579Z",
+  "updated": "2026-07-25T19:10:04.039Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New model maps how social media users repeatedly spread misinformation",
+      "url": "https://phys.org/news/2026-07-social-media-users-misinformation.html",
+      "summary": "People who receive information on social media play a greater role in the spread of misinformation than research has acknowledged, according to research published in the International Journal of Enterprise Network Manage…",
+      "ts": 1785002404000,
+      "publishedAt": "2026-07-25T18:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cameras attached to whale sharks capture krill chases never witnessed before",
+      "url": "https://phys.org/news/2026-07-cameras-whale-sharks-capture-krill.html",
+      "summary": "Whale sharks (Rhincodon typus)—the world's biggest fish—are one of the most charismatic marine species. They connect with the hearts of anyone lucky enough to encounter them, making people deeply curious about their live…",
+      "ts": 1785002401000,
+      "publishedAt": "2026-07-25T18:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "China evacuates 340,000 people as Typhoon Noul approaches",
+      "url": "https://phys.org/news/2026-07-china-evacuates-people-typhoon-noul.html",
+      "summary": "Authorities have evacuated more than 340,000 people and suspended work and rail services as Typhoon Noul approaches southern China, with flight cancellations announced in Hong Kong.",
+      "ts": 1785001801000,
+      "publishedAt": "2026-07-25T17:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spain fights to 'save lives' as wildfire evacuees shelter in Madrid",
+      "url": "https://phys.org/news/2026-07-spain-wildfire-evacuees-madrid.html",
+      "summary": "Spain's Prime Minister Pedro Sánchez said Saturday firefighters were working to \"save lives\" in the blazes raging west of Madrid, as authorities said a separate fire in the east killed one person.",
+      "ts": 1785001204000,
+      "publishedAt": "2026-07-25T17:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "SpaceX launches Starship on another test flight, this time with the most advanced Starlinks",
+      "url": "https://phys.org/news/2026-07-spacex-starship-flight-advanced-starlinks.html",
+      "summary": "SpaceX's mammoth Starship rocket blasted off Friday on another test flight stretching halfway around the world, this time releasing 20 of the most advanced Starlinks.",
+      "ts": 1784999707000,
+      "publishedAt": "2026-07-25T17:15:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The hunt for a natural molecule that can release cellular energy",
@@ -92,6 +132,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Electrically driven inverse metamagnetic transition in Sm<sub><i>1-x</i></sub>Sr<sub><i>x</i></sub>MnO₃",
+      "url": "https://www.nature.com/articles/s41467-026-75886-w",
+      "summary": "",
+      "ts": 1784937600000,
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Retarding moisture-induced chemical degradation of Yttrium Tellurides by tailoring grain boundary chemistry",
       "url": "https://www.nature.com/articles/s41467-026-76056-8",
       "summary": "",
@@ -102,6 +150,22 @@
       "source": "Nature Communications",
       "title": "<i>DICER1</i>-related tumour predisposition mutations increase 3p-miRNA function and HERVH activity",
       "url": "https://www.nature.com/articles/s41467-026-76094-2",
+      "summary": "",
+      "ts": 1784937600000,
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Neural dynamics for working memory and evidence integration during olfactory navigation in <i>Drosophila</i>",
+      "url": "https://www.nature.com/articles/s41467-026-75945-2",
+      "summary": "",
+      "ts": 1784937600000,
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Low-dose baricitinib plus danazol in primary immune thrombocytopenia: a randomized, controlled phase 2 trial",
+      "url": "https://www.nature.com/articles/s41467-026-75344-7",
       "summary": "",
       "ts": 1784937600000,
       "publishedAt": "2026-07-25T00:00:00.000Z"
@@ -735,70 +799,6 @@
       "title": "Polarization vector conjugation in a photonic integrated circuit",
       "url": "https://arxiv.org/abs/2607.20980",
       "summary": "arXiv:2607.20980v1 Announce Type: new Abstract: We show how to perform polarization conjugation of light in a simple apparatus without any nonlinear optical materials, based on self-configuring Mach-Zehnder interferomete…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A framework for general discrete probability calculations",
-      "url": "https://arxiv.org/abs/2607.21011",
-      "summary": "arXiv:2607.21011v1 Announce Type: new Abstract: Probability follows a simple and concise set of rules. In practice, however, reason- ing about probability may be highly unintuitive and this leads to the possibility of mi…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structured Cavity Quantum Electrodynamics",
-      "url": "https://arxiv.org/abs/2607.21012",
-      "summary": "arXiv:2607.21012v1 Announce Type: new Abstract: A cavity quantum electrodynamics (cQED) system consisting of a confined single photon and a single quantum emitter serves as a fundamental block for quantum optics and phot…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of free-stream turbulence on a moderate adverse pressure gradient turbulent boundary layer developing over an airfoil",
-      "url": "https://arxiv.org/abs/2607.21047",
-      "summary": "arXiv:2607.21047v1 Announce Type: new Abstract: Turbulent boundary layers (TBLs) subjected to adverse pressure gradients (APGs) are common to industrial aerodynamic applications, yet the effect of freestream turbulence (…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design and Optimization of Metasurfaces for Silicon Photonics: PhD Thesis",
-      "url": "https://arxiv.org/abs/2607.21091",
-      "summary": "arXiv:2607.21091v1 Announce Type: new Abstract: Metasurfaces, two-dimensional arrangements of subwavelength nanopillars, provide local control over the phase of light, enabling flat optical functions beyond conventional …",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reassessment of line profile asymmetry in measurements of the 1s-2s energy interval in hydrogen",
-      "url": "https://arxiv.org/abs/2607.21097",
-      "summary": "arXiv:2607.21097v1 Announce Type: new Abstract: Experiments to determine transition frequencies in the hydrogen atom represent some of the most precise spectroscopic measurements and are at a higher level among simple at…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A One-Dimensional Integral Equation for a Porous Horizontal Disc under Water Waves",
-      "url": "https://arxiv.org/abs/2607.21102",
-      "summary": "arXiv:2607.21102v1 Announce Type: new Abstract: Wave scattering by a thin, porous circular plate submerged in deep water is investigated. The problem is formulated as a second-kind hypersingular Fredholm integral equatio…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase singularity enabled polarization switchable analog spatial differentiation in an atomic MoS$_2$ planar Fabry-P\\'erot cavity",
-      "url": "https://arxiv.org/abs/2607.21104",
-      "summary": "arXiv:2607.21104v1 Announce Type: new Abstract: Reconfigurable analog optical computing requires rapid and efficient switching between core mathematical operations, such as first- and second-order spatial differentiation…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single event effects in the HCCStar ASICs for ITk strip upgrade",
-      "url": "https://arxiv.org/abs/2607.21116",
-      "summary": "arXiv:2607.21116v1 Announce Type: new Abstract: Triple Modular Redundancy (TMR) technology has been implemented in the design of the HCCStar to reduce digital state changes and ensure reliable operation. We tested the ef…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
