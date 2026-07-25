@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-25T06:21:15.607Z",
+  "updated": "2026-07-25T07:20:03.685Z",
   "items": [
     {
       "source": "Phys.org",
@@ -359,6 +359,46 @@
       "title": "Interaction-Driven Topological Transitions in Monolayer ${\\mathrm{TaIrTe}}_{4}$",
       "url": "http://link.aps.org/doi/10.1103/456g-q7bd",
       "summary": "Author(s): Jiangxu Li, Jian Tang, Cheng Xu, Louis Primeau, Thomas Siyuan Ding, Rahul Soni, Tiema Qian, Kenji Watanabe, Takashi Taniguchi, Ni Ni, Adrian Del Maestro, Qiong Ma, and Yang Zhang Theoretical and experimental m…",
+      "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "High-order anharmonicity and transport decoupling synergistically enable high thermoelectric performance in ${\\mathrm{LiXTe}}_{2}\\mathbf{(}\\mathrm{X}=\\mathrm{Al},\\mathrm{Ga},\\mathrm{In}\\mathbf{)}$",
+      "url": "http://link.aps.org/doi/10.1103/mdrw-jbqb",
+      "summary": "Author(s): Yunfei Wang, Yinchang Zhao, Jun Ni, and Zhenhong Dai Understanding the lattice-dynamical and electronic transport mechanisms of thermoelectric materials is essential for identifying systems that combine intrin…",
+      "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Stacking-engineered interlayer polarization enables tunable photocatalytics in ${\\mathrm{HfN}}_{2}$ bilayer",
+      "url": "http://link.aps.org/doi/10.1103/czlt-1n5m",
+      "summary": "Author(s): Yitong Liang, Keying Han, Defeng Guo, Qihang Zhang, Yixuan Li, Kai Kong, Nana Hu, Xingshuai Lv, Thomas Frauenheim, and Qiang Wang Two-dimensional (2D) van der Waals (vdW) bilayers, with their intrinsic interla…",
+      "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Digital holographic imaging for free surfaces of superfluid helium",
+      "url": "http://link.aps.org/doi/10.1103/dh9b-k6hm",
+      "summary": "Author(s): Vitor S. Barroso, Patrik Švančara, Chris Goodwin, Sreelekshmi C. Ajithkumar, Ilaria Dimina, Silvia Schiattarella, Pietro Smaniotto, Leonardo Solidoro, Marion Cromb, Radivoje Prizia, Anthony J. Kent, and Silke …",
+      "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Robust multimode superconducting circuit optimized for quantum information processing",
+      "url": "http://link.aps.org/doi/10.1103/ksnb-vhsl",
+      "summary": "Author(s): Pablo García-Azorín, Francisco A. Cárdenas-López, Gerhard B. P. Huber, Guillermo Romero, Max Werninghaus, Felix Motzoi, Stefan Filipp, and Mikel Sanz Multimode superconducting circuits offer a promising platfo…",
+      "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Illumination-coupling bias breaks rotation equivariance in x-ray-scattering tensor tomography with a circular grating",
+      "url": "http://link.aps.org/doi/10.1103/tsy5-6mvq",
+      "summary": "Author(s): Ruifeng Liu, Runtao Deng, Peixuan Song, Matias Kagias, Li Zhang, and Zhentian Wang X-ray-scattering tensor tomography with circular gratings can reveal unresolved microstructural anisotropy in materials, inclu…",
       "ts": 1784887200000,
       "publishedAt": "2026-07-24T10:00:00.000Z"
     },
@@ -759,46 +799,6 @@
       "title": "Langmuir probe and infrared thermography measurements of wide and narrow heat flux profiles in the ST40 tokamak",
       "url": "https://arxiv.org/abs/2607.21362",
       "summary": "arXiv:2607.21362v1 Announce Type: new Abstract: Very narrow heat flux profiles have been observed on ST40 with decay lengths in the near scrape-off-layer (SOL) of $\\lambda_{q,near}<$~1~mm in H-mode plasmas. Measurements …",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Graph Neural Network Force Fields (GPTFF-mol) for Organic Molecules from Optimization Trajectories (OpenGEM26)",
-      "url": "https://arxiv.org/abs/2607.21369",
-      "summary": "arXiv:2607.21369v1 Announce Type: new Abstract: Density functional theory (DFT) serves as a reliable tool for atomistic molecular simulations, while machine learning potentials have become powerful complements to balance…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flexible generation of daily Earth system model projections across radiative forcing scenarios",
-      "url": "https://arxiv.org/abs/2607.21382",
-      "summary": "arXiv:2607.21382v1 Announce Type: new Abstract: Earth system model (ESM) projections of the climate system's response to anthropogenic forcing are central to assess the impacts of climate change and inform adaptation and…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polaritons of inherently interacting molecules",
-      "url": "https://arxiv.org/abs/2607.21389",
-      "summary": "arXiv:2607.21389v1 Announce Type: new Abstract: We investigate the absorption spectra of molecular ensembles strongly coupled to a Fabry-P\\'erot cavity and establish the microscopic origin of collective polaritonic bands…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards more accurate natural orbital functional approximations: including 4-index cumulant contributions",
-      "url": "https://arxiv.org/abs/2607.21399",
-      "summary": "arXiv:2607.21399v1 Announce Type: new Abstract: Accurate modeling of bond breaking remains a central challenge for reduced density matrix functional theory (RDMFT). Although some modern functionals can yield reasonably a…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cycle-Consistent and Uncertainty-Aware Neural Surrogates for Tokamak Edge Plasmas",
-      "url": "https://arxiv.org/abs/2607.21407",
-      "summary": "arXiv:2607.21407v1 Announce Type: new Abstract: The boundary and divertor plasma govern how a tokamak exhausts power and particles, setting heat fluxes, target conditions, and the onset of detachment. Predicting these qu…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
