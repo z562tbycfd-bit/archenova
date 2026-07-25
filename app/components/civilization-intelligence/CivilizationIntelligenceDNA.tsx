@@ -2159,62 +2159,125 @@ const signalSearchEntries =
           </header>
 
           <div className="ci-recent-grid">
-            {recentSignals.map((signal) => (
-             <article
-  key={signal.id}
-  className="ci-signal-card"
+  {recentSignals.map((signal) => {
+    const signalConfidence =
+      typeof signal.confidence === "number"
+        ? normalizePercentage(signal.confidence)
+        : undefined;
 
->
-  <div>
-    <div className="ci-signal-meta">
-      <small>{signal.category}</small>
+    const hasAssessment =
+      typeof signalConfidence === "number" ||
+      Boolean(signal.currentStage) ||
+      Boolean(signal.expectedHorizon);
 
-      <div className="ci-signal-level">
-        {signal.level}
-      </div>
-    </div>
-
-    <span className="ci-symbol">
-      <ArcheNovaSymbol />
-    </span>
-  </div>
-
-  <h3>{signal.title}</h3>
-  <p>{signal.summary}</p>
-
-  <footer>
-    {signal.sourceUrl ? (
-      <a
-        href={signal.sourceUrl}
-        target="_blank"
-        rel="noopener noreferrer"
+    return (
+      <article
+        key={signal.id}
+        className="ci-signal-card"
       >
-        {signal.source}
-      </a>
-    ) : (
-      <span>{signal.source}</span>
-    )}
+        <div>
+          <div className="ci-signal-meta">
+            <small>{signal.category}</small>
 
-    <i />
-
-    <strong>{signal.state}</strong>
-  </footer>
-
-  <button
-    type="button"
-    className="ci-signal-examine"
-    onClick={() =>
-      setSelectedDetail(
-        createSignalDetail(signal),
-      )
-    }
-  >
-    Examine Intelligence
-    <ArrowIcon />
-  </button>
-</article>
-            ))}
+            <div className="ci-signal-level">
+              {signal.level}
+            </div>
           </div>
+
+          <span className="ci-symbol">
+            <ArcheNovaSymbol />
+          </span>
+        </div>
+
+        <h3>{signal.title}</h3>
+
+        {hasAssessment && (
+          <dl className="ci-signal-assessment">
+            {typeof signalConfidence === "number" && (
+              <div className="ci-signal-assessment__confidence">
+                <dt>
+                  Assessment Confidence
+                </dt>
+
+                <dd>
+                  <span>
+                    {formatPercentage(signalConfidence)}
+                  </span>
+
+                  <div
+                    className="ci-signal-assessment__track"
+                    aria-hidden="true"
+                  >
+                    <div
+                      className="ci-signal-assessment__fill"
+                      style={{
+                        width: `${signalConfidence}%`,
+                      }}
+                    />
+                  </div>
+                </dd>
+              </div>
+            )}
+
+            {signal.currentStage && (
+              <div>
+                <dt>Current Stage</dt>
+
+                <dd>
+                  {signal.currentStage}
+                </dd>
+              </div>
+            )}
+
+            {signal.expectedHorizon && (
+              <div>
+                <dt>Expected Horizon</dt>
+
+                <dd>
+                  {signal.expectedHorizon}
+                </dd>
+              </div>
+            )}
+          </dl>
+        )}
+
+        <p>{signal.summary}</p>
+
+        <footer>
+          {signal.sourceUrl ? (
+            <a
+              href={signal.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {signal.source}
+            </a>
+          ) : (
+            <span>{signal.source}</span>
+          )}
+
+          <i />
+
+          <strong>{signal.state}</strong>
+        </footer>
+
+        <button
+          type="button"
+          className="ci-signal-examine"
+          onClick={() =>
+            setSelectedDetail(
+              createSignalDetail(signal),
+            )
+          }
+        >
+          Examine Intelligence
+          <ArrowIcon />
+        </button>
+      </article>
+    );
+  })}
+</div>
+
         </div>
       </section>
 
@@ -4339,6 +4402,90 @@ white-space:nowrap;
   letter-spacing: 0.08em;
 }
 
+.ci-signal-assessment {
+ display: grid;
+ grid-template-columns:
+   repeat(auto-fit, minmax(125px, 1fr));
+
+ gap: 1px;
+
+ margin: 18px 0;
+
+ overflow: hidden;
+
+ border:
+   1px solid rgba(255,255,255,.08);
+
+ border-radius: 16px;
+
+ background:
+   rgba(255,255,255,.04);
+}
+
+.ci-signal-assessment > div {
+ padding: 14px;
+
+ min-width: 0;
+
+ background:
+   rgba(3,12,22,.45);
+}
+
+.ci-signal-assessment dt {
+ color: var(--dim);
+
+ font-size: 8px;
+
+ font-weight: 650;
+
+ letter-spacing: .14em;
+
+ text-transform: uppercase;
+}
+
+.ci-signal-assessment dd {
+ margin: 8px 0 0;
+
+ color:
+   rgba(240,247,252,.92);
+
+ font-size: 11px;
+
+ line-height: 1.5;
+
+ overflow-wrap: anywhere;
+}
+
+.ci-signal-assessment__confidence dd{
+ display:grid;
+ gap:8px;
+}
+
+.ci-signal-assessment__track{
+ width:100%;
+ height:3px;
+
+ overflow:hidden;
+
+ border-radius:999px;
+
+ background:
+   rgba(255,255,255,.08);
+}
+
+.ci-signal-assessment__fill{
+ height:100%;
+
+ border-radius:inherit;
+
+ background:
+   linear-gradient(
+     90deg,
+     rgba(104,191,234,.6),
+     rgba(177,228,255,.95)
+   );
+}
+
 .ci-signal-examine {
   width: 100%;
 
@@ -5234,6 +5381,15 @@ white-space:nowrap;
         }
 
         @media (max-width: 540px) {
+
+        .ci-signal-assessment{
+  grid-template-columns:1fr;
+}
+
+.ci-signal-assessment>div+div{
+  border-top:
+    1px solid rgba(255,255,255,.06);
+}
 
         .ci-cycle-pathway {
   margin-top: 28px;
