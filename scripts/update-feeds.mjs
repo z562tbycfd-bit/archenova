@@ -4,8 +4,26 @@ import Parser from "rss-parser";
 
 const parser = new Parser();
 
-const outDir = path.join(process.cwd(), "public", "data");
-const SIGNALS_FILE = path.join(outDir, "signals.json");
+const outDir = path.join(
+  process.cwd(),
+  "public",
+  "data"
+);
+
+const SIGNALS_FILE = path.join(
+  outDir,
+  "signals.json"
+);
+
+const DASHBOARD_DIR = path.join(
+  outDir,
+  "os"
+);
+
+const DASHBOARD_FILE = path.join(
+  DASHBOARD_DIR,
+  "dashboard.json"
+);
 
 function readPreviousItems(fileName) {
   try {
@@ -186,20 +204,60 @@ function applySourceQuota(items, totalLimit = 100) {
     .slice(0, totalLimit);
 }
 
-async function fetchFeed(source, categoryId = undefined) {
+async function fetchFeed(
+  source,
+  categoryId = undefined
+) {
   try {
-    const feed = await parser.parseURL(source.url);
+    const feed =
+      await parser.parseURL(source.url);
 
-    return (feed.items || []).map((item) => ({
-      source: source.name,
-      title: item.title || "",
-      url: item.link || "",
-      summary: clamp(item.contentSnippet || item.content || item.summary || "", 220),
-      ts: ts(item),
-      ...(categoryId ? { categoryId } : {}),
-    }));
-  } catch {
-    console.warn(`Failed: ${source.name}`);
+    return (feed.items || []).map(
+      (item) => {
+        const timestamp = ts(item);
+
+        const publishedAt =
+          timestamp > 0
+            ? new Date(
+                timestamp
+              ).toISOString()
+            : null;
+
+        return {
+          source: source.name,
+
+          title:
+            item.title || "",
+
+          url:
+            item.link || "",
+
+          summary: clamp(
+            item.contentSnippet ||
+              item.content ||
+              item.summary ||
+              "",
+            220
+          ),
+
+          ts: timestamp,
+
+          publishedAt,
+
+          ...(categoryId
+            ? { categoryId }
+            : {}),
+        };
+      }
+    );
+  } catch (error) {
+    console.warn(
+      `Failed: ${source.name}`,
+      error instanceof Error
+        ? error.message
+        : ""
+    );
+
     return [];
   }
 }
@@ -298,19 +356,165 @@ function getText(item) {
   return `${item.title || ""} ${item.summary || ""}`.toLowerCase();
 }
 
+function includesWord(text, word) {
+  const normalizedText =
+    String(text).toLowerCase();
+
+  const normalizedWord =
+    String(word).toLowerCase();
+
+  /*
+   * 1〜3文字の短い語は単語境界で判定する。
+   * "ai" が Tunisia などの文字列内部へ
+   * 誤反応することを防ぐ。
+   */
+  if (normalizedWord.length <= 3) {
+    const escaped =
+      normalizedWord.replace(
+        /[.*+?^${}()|[\]\\]/g,
+        "\\$&"
+      );
+
+    return new RegExp(
+      `\\b${escaped}\\b`,
+      "i"
+    ).test(normalizedText);
+  }
+
+  return normalizedText.includes(
+    normalizedWord
+  );
+}
+
 function includesAny(text, words) {
-  return words.some((word) => text.includes(word));
+  return words.some((word) =>
+    includesWord(text, word)
+  );
 }
 
 function detectUseCase(item) {
   const text = getText(item);
 
-  if (includesAny(text, ["robot", "robotics", "automation", "factory", "manufacturing"])) return "manufacturing";
-  if (includesAny(text, ["health", "medicine", "clinical", "patient", "therapy", "diagnostic", "hospital"])) return "healthcare";
-  if (includesAny(text, ["battery", "grid", "power", "electricity", "hydrogen", "fusion", "solar"])) return "energy";
-  if (includesAny(text, ["satellite", "orbit", "space", "launch", "nasa", "lunar", "mars"])) return "space";
-  if (includesAny(text, ["chip", "semiconductor", "compute", "data center", "gpu"])) return "compute";
-  if (includesAny(text, ["climate", "carbon", "environment", "water", "weather"])) return "environment";
+  /*
+   * BiotechnologyをHealthcareより先に判定する。
+   * これにより、ゲノム編集・植物バイオ・合成生物学を
+   * 一般記事や医療記事へ誤分類しにくくする。
+   */
+  if (
+    includesAny(text, [
+      "gene",
+      "genes",
+      "genome",
+      "genomic",
+      "genetic",
+      "crispr",
+      "biotechnology",
+      "synthetic biology",
+      "bioengineering",
+      "gene editing",
+      "genome editing",
+      "plant biotechnology",
+      "precision breeding",
+      "crop breeding",
+      "protein engineering",
+      "dna sequence",
+      "rna",
+      "rice",
+      "tobacco",
+      "crop",
+    ])
+  ) {
+    return "biotechnology";
+  }
+
+  if (
+    includesAny(text, [
+      "robot",
+      "robotics",
+      "automation",
+      "factory",
+      "manufacturing",
+    ])
+  ) {
+    return "manufacturing";
+  }
+
+  if (
+    includesAny(text, [
+      "health",
+      "medicine",
+      "clinical",
+      "patient",
+      "therapy",
+      "therapeutic",
+      "diagnostic",
+      "hospital",
+    ])
+  ) {
+    return "healthcare";
+  }
+
+  if (
+  includesAny(text, [
+    "climate",
+    "climate change",
+    "extreme heat",
+    "heat wave",
+    "heatwave",
+    "temperature",
+    "drought",
+    "flood",
+    "wildfire",
+    "storm",
+    "disaster",
+    "water scarcity",
+    "environment",
+    "weather",
+  ])
+) {
+  return "environment";
+}
+
+
+  if (
+    includesAny(text, [
+      "battery",
+      "grid",
+      "power",
+      "electricity",
+      "hydrogen",
+      "fusion",
+      "solar",
+    ])
+  ) {
+    return "energy";
+  }
+
+  if (
+    includesAny(text, [
+      "satellite",
+      "orbit",
+      "space",
+      "launch",
+      "nasa",
+      "lunar",
+      "mars",
+    ])
+  ) {
+    return "space";
+  }
+
+  if (
+    includesAny(text, [
+      "chip",
+      "semiconductor",
+      "compute",
+      "data center",
+      "gpu",
+    ])
+  ) {
+    return "compute";
+  }
 
   return "general";
 }
@@ -319,6 +523,8 @@ function analyzeImplementation(item, category) {
   const useCase = detectUseCase(item);
 
   const map = {
+    biotechnology:
+    "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
     manufacturing:
       "Implementation potential lies in translating this signal into production systems, automation workflows, advanced manufacturing processes, quality control, and scalable industrial operations.",
     healthcare:
@@ -342,6 +548,8 @@ function analyzeInfrastructure(item, category) {
   const useCase = detectUseCase(item);
 
   const map = {
+    biotechnology:
+    "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
     manufacturing:
       "If scaled, this could affect industrial infrastructure: factories, supply chains, robotics, maintenance systems, materials processing, and production capacity.",
     healthcare:
@@ -365,6 +573,8 @@ function analyzeCivilization(item, category) {
   const useCase = detectUseCase(item);
 
   const map = {
+    biotechnology:
+    "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
     manufacturing:
       "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s capacity to transform knowledge into reproducible material capability.",
     healthcare:
@@ -387,6 +597,15 @@ function analyzeCivilization(item, category) {
 function makeRoadmap(item, category) {
   const useCase = detectUseCase(item);
 
+  if (useCase === "biotechnology") {
+ return [
+   "Biological mechanism discovery",
+   "Genome or biotechnology platform development",
+   "Controlled validation and biosafety review",
+   "Agricultural, medical, or industrial deployment",
+   "Governed biological capability infrastructure",
+ ];
+}
   if (useCase === "manufacturing") return ["Scientific process discovery", "Prototype manufacturing method", "Automation and quality control", "Industrial production integration", "Resilient manufacturing infrastructure"];
   if (useCase === "healthcare") return ["Biological or clinical discovery", "Diagnostic or therapeutic prototype", "Clinical validation", "Healthcare system adoption", "Adaptive health infrastructure"];
   if (useCase === "energy") return ["Energy mechanism discovery", "Prototype conversion system", "Industrial-scale validation", "Grid or storage integration", "Civilization-scale energy resilience"];
@@ -405,6 +624,14 @@ function makeStrategicHorizon(item) {
   const useCase = detectUseCase(item);
 
   const horizons = {
+    biotechnology: {
+      near:
+      "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
+      mid:
+      "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
+      far:
+      "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems.",
+    },
     manufacturing: {
       near: "1–5 Years: Pilot deployment and industrial validation.",
       mid: "5–15 Years: Broad manufacturing integration and automation.",
@@ -449,6 +676,7 @@ function makeAssessment(item) {
   const useCase = detectUseCase(item);
 
   const assessments = {
+    biotechnology: { probability: "Medium", impact: "Very High", timeHorizon: "5–15 Years",},
     manufacturing: { probability: "High", impact: "High", timeHorizon: "5–15 Years" },
     healthcare: { probability: "Medium", impact: "Very High", timeHorizon: "10–20 Years" },
     energy: { probability: "Medium", impact: "Very High", timeHorizon: "10–30 Years" },
@@ -485,6 +713,14 @@ function makeArcheNovaAssessment(item) {
   const boost = scoreBoost(item);
 
   const scores = {
+    biotechnology: {
+  scientific: 8.8,
+  engineering: 8.2,
+  economic: 8.5,
+  civilization: 9.3,
+  classification:
+    "Biological Capability Signal",
+},
     manufacturing: { scientific: 7.8, engineering: 9.0, economic: 8.6, civilization: 8.4, classification: "Industrial Capability Signal" },
     healthcare: { scientific: 8.6, engineering: 8.0, economic: 8.5, civilization: 9.1, classification: "Biological Resilience Signal" },
     energy: { scientific: 8.4, engineering: 8.8, economic: 9.0, civilization: 9.4, classification: "Civilization Energy Signal" },
@@ -520,6 +756,25 @@ function makeArcheNovaAssessment(item) {
 
 function makeCurrentStage(item) {
   const text = getText(item);
+
+  if (
+  includesAny(text, [
+    "extreme heat",
+    "heat wave",
+    "heatwave",
+    "power outage",
+    "power cut",
+    "blackout",
+    "flood",
+    "wildfire",
+    "drought",
+    "disaster",
+    "crisis",
+    "emergency",
+  ])
+) {
+  return "Active System Stress";
+}
 
   if (
     includesAny(text, [
@@ -571,6 +826,25 @@ function makeExpectedHorizon(item) {
   const text = getText(item);
 
   if (
+  includesAny(text, [
+    "extreme heat",
+    "heat wave",
+    "heatwave",
+    "power outage",
+    "power cut",
+    "blackout",
+    "flood",
+    "wildfire",
+    "drought",
+    "disaster",
+    "crisis",
+    "emergency",
+  ])
+) {
+  return "Immediate / Ongoing";
+}
+
+  if (
     includesAny(text, [
       "commercial",
       "deployed",
@@ -597,12 +871,34 @@ function makeExpectedHorizon(item) {
   }
 
   if (useCase === "compute") {
-    return "0–5 Years";
+  return "0–5 Years";
+}
+
+if (useCase === "biotechnology") {
+  if (
+    includesAny(text, [
+      "developed",
+      "demonstrated",
+      "method",
+      "tool",
+      "platform",
+      "precisely",
+      "successfully",
+      "validated",
+    ])
+  ) {
+    return "3–10 Years";
   }
 
-  if (useCase === "healthcare" || useCase === "energy") {
-    return "5–15 Years";
-  }
+  return "5–15 Years";
+}
+
+if (
+  useCase === "healthcare" ||
+  useCase === "energy"
+) {
+  return "5–15 Years";
+}
 
   if (useCase === "space") {
     return "5–20 Years";
@@ -639,6 +935,8 @@ function makeQualityFields(item) {
   const title = item.title || "This signal";
 
   const coreInsightMap = {
+    biotechnology:
+    `${title} indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.`,
     manufacturing:
       `${title} indicates a possible shift in how knowledge, materials, automation, and production systems can be converted into scalable industrial capability.`,
     healthcare:
@@ -656,6 +954,8 @@ function makeQualityFields(item) {
   };
 
   const whyMap = {
+    biotechnology:
+    "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
     manufacturing:
       "This matters because advanced civilization depends on the ability to convert knowledge into reproducible material capability, reliable production, and resilient supply systems.",
     healthcare:
@@ -673,6 +973,8 @@ function makeQualityFields(item) {
   };
 
   const strategicMap = {
+    biotechnology:
+    "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
     manufacturing:
       "Strategically relevant for industrial capability, robotics, materials processing, supply-chain resilience, production automation, and infrastructure formation.",
     healthcare:
@@ -690,6 +992,8 @@ function makeQualityFields(item) {
   };
 
   const capitalMap = {
+    biotechnology:
+    "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
     manufacturing:
       "Capital implication: monitor for commercialization pathways in automation, robotics, advanced materials, industrial software, manufacturing systems, and resilient supply-chain infrastructure.",
     healthcare:
@@ -707,6 +1011,13 @@ function makeQualityFields(item) {
   };
 
   const constraintMap = {
+    biotechnology: [
+      "Independent biological validation",
+      "Off-target effects and genetic stability",
+      "Biosafety and ecological consequences",
+      "Regulatory approval and public legitimacy",
+      "Intellectual property and access constraints",
+    ],
     manufacturing: [
       "Scalability from prototype to production",
       "Manufacturing cost and reliability",
@@ -752,6 +1063,8 @@ function makeQualityFields(item) {
   };
 
   const watchpointMap = {
+    biotechnology:
+    "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
     manufacturing:
       "Watch whether this moves from laboratory or prototype demonstration into repeatable production, industrial validation, and integration with real operating systems.",
     healthcare:
@@ -763,7 +1076,7 @@ function makeQualityFields(item) {
     compute:
       "Watch whether this moves from model, chip, or platform progress into reliable deployment, cost efficiency, infrastructure adoption, and institutional use.",
     environment:
-      "Watch whether this moves from observation into decision systems, infrastructure adaptation, governance response, and measurable resilience outcomes.",
+    "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
     general:
       "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
   };
@@ -843,7 +1156,44 @@ function detectArcheNovaSignalCategory(item) {
   if (includesAny(text, ["robot", "automation", "manufacturing", "factory", "material", "semiconductor", "chip", "battery", "hydrogen", "fusion"])) return "Capability Expansion";
   if (includesAny(text, ["infrastructure", "grid", "satellite", "data center", "transport", "hospital", "network", "supply chain"])) return "Infrastructure Formation";
   if (includesAny(text, ["synchronization", "communication", "network", "coordination", "cybersecurity", "signal", "sensor", "monitoring"])) return "Synchronization Systems";
-  if (includesAny(text, ["climate", "health", "disease", "medicine", "bio", "gene", "cell", "water", "environment", "risk", "resilience"])) return "Adaptive Capacity";
+  if (
+ includesAny(text, [
+   "climate",
+   "climate change",
+   "extreme heat",
+   "heat wave",
+   "heatwave",
+   "temperature",
+   "drought",
+   "flood",
+   "wildfire",
+   "storm",
+   "disaster",
+   "power outage",
+   "power cut",
+   "blackout",
+   "grid failure",
+   "health",
+   "disease",
+   "medicine",
+   "bio",
+   "biotechnology",
+   "gene",
+   "genome",
+   "genetic",
+   "crispr",
+   "synthetic biology",
+   "precision breeding",
+   "crop",
+   "cell",
+   "water",
+   "environment",
+   "risk",
+   "resilience",
+ ])
+) {
+ return "Adaptive Capacity";
+}
 
   return "Civilization Engineering";
 }
@@ -954,49 +1304,783 @@ function makeSignalScore(item, category) {
   };
 }
 
-function makeArcheNovaSignal(item, index) {
-  const category = detectArcheNovaSignalCategory(item);
+function makeSignalConfidence(
+ item,
+ score
+) {
+ const text = getText(item);
+
+ let confidence = 58;
+
+ if (
+   item.source &&
+   item.source !== "Unknown Source"
+ ) {
+   confidence += 8;
+ }
+
+ if (
+   item.summary &&
+   item.summary.length >= 80
+ ) {
+   confidence += 7;
+ }
+
+ if (
+   item.publishedAt ||
+   item.ts > 0
+ ) {
+   confidence += 5;
+ }
+
+ if (
+   includesAny(text, [
+     "study",
+     "research",
+     "analysis",
+     "report",
+     "trial",
+     "data",
+     "evidence",
+     "experiment",
+   ])
+ ) {
+   confidence += 7;
+ }
+
+ if (
+   includesAny(text, [
+     "may",
+     "might",
+     "could",
+     "preliminary",
+     "early",
+     "prototype",
+     "uncertain",
+   ])
+ ) {
+   confidence -= 6;
+ }
+
+ if (
+   typeof score?.overall ===
+   "number"
+ ) {
+   confidence +=
+     Math.round(
+       (score.overall - 5) * 2
+     );
+ }
+
+ return Math.max(
+   35,
+   Math.min(96, confidence)
+ );
+}
+
+function makeSignalUncertainty(item) {
+ const text = getText(item);
+ const stage =
+   makeCurrentStage(item);
+
+ if (
+   includesAny(text, [
+     "commercial",
+     "deployed",
+     "operational",
+     "production",
+     "launched",
+   ])
+ ) {
+   return (
+     "The capability appears to have entered deployment or operational use. " +
+     "The principal uncertainty concerns scale, durability, cost, institutional adoption, and long-term system effects."
+   );
+ }
+
+ if (
+   includesAny(text, [
+     "pilot",
+     "prototype",
+     "trial",
+     "demonstration",
+     "validation",
+   ])
+ ) {
+   return (
+     "The signal remains dependent on prototype performance, independent validation, scaling economics, regulatory conditions, and repeatability outside controlled environments."
+   );
+ }
+
+ if (
+   stage ===
+   "Applied Research"
+ ) {
+   return (
+     "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain."
+   );
+ }
+
+ return (
+   "This is an emerging signal rather than a settled conclusion. " +
+   "Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation."
+ );
+}
+
+function makeSignalImplications(
+ item,
+ category
+) {
+ const useCase =
+   detectUseCase(item);
+
+ const implications = {
+  biotechnology: [
+  "May expand genome engineering, precision breeding, crop resilience, biological manufacturing, or synthetic biology capability.",
+  "Could affect food security, agricultural productivity, ecological governance, biotechnology regulation, and intellectual-property systems.",
+  "May strengthen civilization’s ability to intentionally modify biological systems while increasing biosafety, ethical, and governance requirements.",
+],
+
+   manufacturing: [
+     "May strengthen advanced manufacturing, automation, materials processing, or production reliability.",
+     "Could influence industrial supply chains, infrastructure investment, and strategic production capacity.",
+     "May change how scientific knowledge is converted into repeatable material capability.",
+   ],
+
+   healthcare: [
+     "May expand diagnostic, therapeutic, preventive, or biological resilience capabilities.",
+     "Could affect healthcare institutions, regulation, clinical practice, and bio-manufacturing systems.",
+     "May influence healthspan, adaptive capacity, and the continuity of human capability.",
+   ],
+
+   energy: [
+     "May affect energy generation, storage, conversion, grid integration, or industrial resilience.",
+     "Could alter infrastructure costs, energy security, decarbonization pathways, and strategic independence.",
+     "May expand or constrain the operating freedom of civilization-scale systems.",
+   ],
+
+   space: [
+     "May strengthen orbital sensing, communications, navigation, logistics, or off-Earth operations.",
+     "Could affect space governance, launch infrastructure, strategic coordination, and planetary observation.",
+     "May contribute to civilization becoming less dependent on a single planetary operating environment.",
+   ],
+
+   compute: [
+     "May expand computational capacity, automation, simulation, prediction, or institutional intelligence.",
+     "Could affect semiconductor infrastructure, data centers, energy demand, security, and industrial concentration.",
+     "May alter how civilization coordinates decisions, discovery, production, and governance.",
+   ],
+
+   environment: [
+     "May improve environmental sensing, climate adaptation, resource management, or disaster resilience.",
+     "Could affect urban systems, water, food, public health, infrastructure, and regional stability.",
+     "May strengthen civilization's ability to operate under planetary uncertainty.",
+   ],
+
+   general: [
+     `May influence the transition from ${category.toLowerCase()} knowledge to applied capability.`,
+     "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+     "Requires continued observation to determine whether the signal develops into durable civilizational capability.",
+   ],
+ };
+
+ return (
+   implications[useCase] ||
+   implications.general
+ );
+}
+
+function makeRelatedTopics(item) {
+ const text = getText(item);
+
+ const topicRules = [
+   {
+     label:
+       "Artificial Intelligence",
+     words: [
+       "ai",
+       "artificial intelligence",
+       "machine learning",
+       "model",
+       "agent",
+     ],
+   },
+   {
+     label:
+       "Advanced Computing",
+     words: [
+       "compute",
+       "gpu",
+       "chip",
+       "semiconductor",
+       "data center",
+     ],
+   },
+   {
+     label:
+       "Quantum Systems",
+     words: [
+       "quantum",
+       "qubit",
+       "superconduct",
+     ],
+   },
+   {
+  label:
+    "Energy Systems",
+
+  words: [
+    "energy",
+    "electricity",
+    "grid",
+    "power",
+    "power outage",
+    "power cut",
+    "blackout",
+    "battery",
+    "hydrogen",
+    "fusion",
+  ],
+},
+   {
+     label:
+       "Space Systems",
+     words: [
+       "space",
+       "orbit",
+       "satellite",
+       "nasa",
+       "launch",
+       "lunar",
+       "mars",
+     ],
+   },
+   {
+     label:
+       "Biotechnology",
+     words: [
+       "gene",
+       "genome",
+       "cell",
+       "protein",
+       "biotechnology",
+     ],
+   },
+   {
+     label:
+       "Health Systems",
+     words: [
+       "health",
+       "medicine",
+       "clinical",
+       "patient",
+       "therapy",
+       "diagnostic",
+     ],
+   },
+   {
+     label:
+       "Manufacturing",
+     words: [
+       "factory",
+       "manufacturing",
+       "robot",
+       "automation",
+       "production",
+     ],
+   },
+   {
+  label:
+    "Climate and Environment",
+
+  words: [
+    "climate",
+    "climate change",
+    "environment",
+    "weather",
+    "temperature",
+    "heat",
+    "heat wave",
+    "heatwave",
+    "extreme heat",
+    "wildfire",
+    "drought",
+    "storm",
+    "flood",
+    "water",
+  ],
+},
+   {
+     label:
+       "Governance and Law",
+     words: [
+       "government",
+       "policy",
+       "law",
+       "regulation",
+       "governance",
+       "united nations",
+     ],
+   },
+   {
+     label:
+       "Security and Risk",
+     words: [
+       "security",
+       "risk",
+       "conflict",
+       "war",
+       "defense",
+       "cybersecurity",
+     ],
+   },
+ ];
+
+ const topics = topicRules
+   .filter((rule) =>
+     includesAny(
+       text,
+       rule.words
+     )
+   )
+   .map((rule) => rule.label);
+
+ if (!topics.length) {
+   topics.push(
+     classify(item)
+   );
+ }
+
+ return [...new Set(topics)]
+   .slice(0, 6);
+}
+
+function makeRelatedOrgans(item) {
+  const useCase =
+    detectUseCase(item);
+
+  const organs = [
+    "observation",
+    "understanding",
+  ];
+
+  if (
+    [
+      "biotechnology",
+      "compute",
+      "manufacturing",
+      "environment",
+    ].includes(useCase)
+  ) {
+    organs.push("reasoning");
+  }
+
+  if (
+    [
+      "biotechnology",
+      "energy",
+      "space",
+      "manufacturing",
+      "environment",
+    ].includes(useCase)
+  ) {
+    organs.push("design");
+  }
+
+  if (
+    [
+      "biotechnology",
+      "healthcare",
+      "energy",
+      "environment",
+      "compute",
+      "space",
+    ].includes(useCase)
+  ) {
+    organs.push("realization");
+  }
+
+  organs.push("memory");
+
+  return [...new Set(organs)];
+}
+
+function makeCivilizationDomains(
+ item
+) {
+ const useCase =
+   detectUseCase(item);
+
+ const domains = {
+  biotechnology: [
+  "Science",
+  "Technology",
+  "Law & Governance",
+  "Capital",
+  "Education & Knowledge",
+],
+
+   manufacturing: [
+     "Technology",
+     "Capital",
+     "Education & Knowledge",
+   ],
+
+   healthcare: [
+     "Science",
+     "Technology",
+     "Law & Governance",
+   ],
+
+   energy: [
+     "Science",
+     "Technology",
+     "Capital",
+     "Law & Governance",
+   ],
+
+   space: [
+     "Space",
+     "Science",
+     "Technology",
+     "Law & Governance",
+   ],
+
+   compute: [
+     "Technology",
+     "Capital",
+     "Law & Governance",
+     "Education & Knowledge",
+   ],
+
+   environment: [
+     "Science",
+     "Technology",
+     "Law & Governance",
+   ],
+
+   general: [
+     "Science",
+     "Technology",
+     "Education & Knowledge",
+   ],
+ };
+
+ return (
+   domains[useCase] ||
+   domains.general
+ );
+}
+
+function makeSignalState(item) {
+ const stage =
+   makeCurrentStage(item);
+
+ if (
+   stage ===
+   "Scaling / Infrastructure"
+ ) {
+   return "DEPLOYING";
+ }
+
+ if (
+   stage ===
+   "Prototype / Pilot"
+ ) {
+   return "VALIDATING";
+ }
+
+ if (
+   stage ===
+   "Applied Research"
+ ) {
+   return "PROCESSING";
+ }
+
+ return "OBSERVED";
+}
+
+function makeDashboardSignal(
+ item,
+ category
+) {
+ if (!item) {
+   return null;
+ }
+
+ const signalCategory =
+   detectArcheNovaSignalCategory(
+     item
+   );
+
+ const score =
+   makeSignalScore(
+     item,
+     signalCategory
+   );
+
+ const quality =
+   makeQualityFields(item);
+
+ const confidence =
+   makeSignalConfidence(
+     item,
+     score
+   );
+
+ const synchronizedAt =
+   new Date().toISOString();
+
+ return {
+   title:
+     item.title ||
+     "Untitled Signal",
+
+   summary:
+     item.summary ||
+     "Analysis is currently being processed.",
+
+   category,
+
+   source:
+     item.source ||
+     "ArcheNova Intelligence",
+
+   sourceUrl:
+     item.url || null,
+
+   url:
+     item.url || null,
+
+   publishedAt:
+     item.publishedAt ||
+     (
+       item.ts > 0
+         ? new Date(
+             item.ts
+           ).toISOString()
+         : null
+     ),
+
+   updatedAt:
+     synchronizedAt,
+
+   state:
+     makeSignalState(item),
+
+   signalCategory,
+
+   whyItMatters:
+     quality.whyItMatters,
+
+   implications:
+     makeSignalImplications(
+       item,
+       signalCategory
+     ),
+
+   uncertainty:
+     makeSignalUncertainty(
+       item
+     ),
+
+   confidence,
+
+   relatedTopics:
+     makeRelatedTopics(item),
+
+   relatedOrgans:
+     makeRelatedOrgans(item),
+
+   civilizationDomains:
+     makeCivilizationDomains(
+       item
+     ),
+
+   currentStage:
+     quality.currentStage,
+
+   expectedHorizon:
+     quality.expectedHorizon,
+
+   strategicRelevance:
+     quality.strategicRelevance,
+
+   watchpoint:
+     quality.watchpoint,
+
+   score,
+ };
+}
+
+function makeArcheNovaSignal(
+  item,
+  index
+) {
+  const category =
+    detectArcheNovaSignalCategory(
+      item
+    );
 
   const observation =
-    item.summary || item.title || "A new scientific or technological signal has been detected.";
+    item.summary ||
+    item.title ||
+    "A new scientific or technological signal has been detected.";
 
-  const implications = {
+  const implicationMap = {
     "Reality Discovery":
       "This signal may expand civilization's ability to observe, measure, model, and understand reality.",
+
     "Capability Expansion":
       "This signal may strengthen the conversion of knowledge into reproducible technical capability.",
+
     "Infrastructure Formation":
       "This signal may contribute to the formation of durable systems, platforms, networks, or operational infrastructure.",
+
     "Synchronization Systems":
       "This signal may improve coordination, communication, sensing, timing, or distributed intelligence.",
+
     "Adaptive Capacity":
       "This signal may improve civilization's ability to adapt under biological, environmental, or systemic uncertainty.",
+
     "Civilization Engineering":
       "This signal may connect scientific discovery, engineering implementation, institutions, and long-term civilizational capability.",
   };
 
-  const score = makeSignalScore(item, category);
-  const quality = makeQualityFields(item);
+  const score =
+    makeSignalScore(
+      item,
+      category
+    );
+
+  const quality =
+    makeQualityFields(item);
+
+  const confidence =
+    makeSignalConfidence(
+      item,
+      score
+    );
+
+  const implications =
+    makeSignalImplications(
+      item,
+      category
+    );
+
+  const uncertainty =
+    makeSignalUncertainty(item);
+
+  const relatedTopics =
+    makeRelatedTopics(item);
+
+  const relatedOrgans =
+    makeRelatedOrgans(item);
+
+  const civilizationDomains =
+    makeCivilizationDomains(item);
+
+  const updatedAt =
+    new Date().toISOString();
 
   return {
-    id: `${slugify(category)}-${slugify(item.title || String(index))}`,
-    title: item.title || "Untitled Signal",
-    source: item.source || "Unknown Source",
-    originalUrl: item.url || "",
+    id:
+      `${slugify(category)}-` +
+      `${slugify(
+        item.title ||
+        String(index)
+      )}`,
+
+    title:
+      item.title ||
+      "Untitled Signal",
+
+    source:
+      item.source ||
+      "Unknown Source",
+
+    sourceUrl:
+      item.url || null,
+
+    originalUrl:
+      item.url || "",
+
+    url:
+      item.url || "",
+
     category,
+
+    summary:
+      item.summary || observation,
+
     observation,
-    implication: implications[category],
+
+    implication:
+      implicationMap[category],
+
+    implications,
+
     commentary:
       `${item.title} should not be interpreted only as a news item. ` +
       `From the ArcheNova perspective, it is a ${category} signal: ` +
-      `${implications[category]}`,
+      `${implicationMap[category]}`,
+
+    whyItMatters:
+      quality.whyItMatters,
+
+    uncertainty,
+
+    confidence,
+
+    state:
+      makeSignalState(item),
+
+    strategicRelevance:
+      quality.strategicRelevance,
+
+    capitalImplication:
+      quality.capitalImplication,
+
+    civilizationFunction:
+      quality.civilizationFunction,
+
+    relatedTopics,
+
+    relatedOrgans,
+
+    civilizationDomains,
+
+    currentStage:
+      quality.currentStage,
+
+    expectedHorizon:
+      quality.expectedHorizon,
+
+    horizonRationale:
+      quality.horizonRationale,
+
+    executionTiming:
+      quality.executionTiming,
+
+    watchpoint:
+      quality.watchpoint,
+
     score,
-    whyItMatters: quality.whyItMatters,
-    strategicRelevance: quality.strategicRelevance,
-    capitalImplication: quality.capitalImplication,
-    civilizationFunction: quality.civilizationFunction,
-    watchpoint: quality.watchpoint,
-    ts: item.ts || 0,
+
+    publishedAt:
+      item.publishedAt ||
+      (
+        item.ts > 0
+          ? new Date(
+              item.ts
+            ).toISOString()
+          : null
+      ),
+
+    updatedAt,
+
+    ts:
+      item.ts || 0,
   };
 }
 
@@ -1026,6 +2110,256 @@ function writeArcheNovaSignals(scienceItems, technologyItems) {
   );
 
   console.log(`Generated public/data/signals.json: ${signals.length} items`);
+}
+
+function writeCivilizationDashboard(
+ scienceItems,
+ technologyItems
+) {
+ const updatedAt =
+   new Date().toISOString();
+
+ const normalizedScience =
+   scienceItems
+     .filter(
+       (item) =>
+         item.title &&
+         item.url
+     )
+     .sort(
+       (a, b) =>
+         (b.ts || 0) -
+         (a.ts || 0)
+     );
+
+ const governanceItems =
+   technologyItems
+     .filter((item) =>
+       [
+         "global-governance",
+         "security-risk",
+       ].includes(
+         item.categoryId
+       )
+     )
+     .filter(
+       (item) =>
+         item.title &&
+         item.url
+     )
+     .sort(
+       (a, b) =>
+         (b.ts || 0) -
+         (a.ts || 0)
+     );
+
+ const engineeringItems =
+   technologyItems
+     .filter(
+       (item) =>
+         ![
+           "global-governance",
+           "security-risk",
+         ].includes(
+           item.categoryId
+         )
+     )
+     .filter(
+       (item) =>
+         item.title &&
+         item.url
+     )
+     .sort(
+       (a, b) =>
+         (b.ts || 0) -
+         (a.ts || 0)
+     );
+
+ /*
+  * Governance Feedが一時的に失敗した場合、
+  * 空表示にせず技術Feedから政策・制度関連を探す。
+  */
+ const governanceFallback =
+   technologyItems
+     .filter((item) => {
+       const text =
+         getText(item);
+
+       return includesAny(
+         text,
+         [
+           "government",
+           "policy",
+           "law",
+           "regulation",
+           "governance",
+           "united nations",
+           "security",
+           "defense",
+           "conflict",
+           "risk",
+         ]
+       );
+     })
+     .sort(
+       (a, b) =>
+         (b.ts || 0) -
+         (a.ts || 0)
+     );
+
+ const resolvedGovernanceItems =
+   governanceItems.length
+     ? governanceItems
+     : governanceFallback;
+
+ const scienceSignals =
+   normalizedScience
+     .slice(0, 12)
+     .map((item) =>
+       makeDashboardSignal(
+         item,
+         "SCIENCE"
+       )
+     )
+     .filter(Boolean);
+
+ const engineeringSignals =
+   engineeringItems
+     .slice(0, 12)
+     .map((item) =>
+       makeDashboardSignal(
+         item,
+         "ENGINEERING"
+       )
+     )
+     .filter(Boolean);
+
+ const governanceSignals =
+   resolvedGovernanceItems
+     .slice(0, 12)
+     .map((item) =>
+       makeDashboardSignal(
+         item,
+         "GOVERNANCE"
+       )
+     )
+     .filter(Boolean);
+
+ const allSignals = [
+   ...scienceSignals,
+   ...engineeringSignals,
+   ...governanceSignals,
+ ];
+
+ const averageConfidence =
+   allSignals.length
+     ? Math.round(
+         allSignals.reduce(
+           (
+             total,
+             signal
+           ) =>
+             total +
+             (
+               signal.confidence ||
+               0
+             ),
+           0
+         ) /
+           allSignals.length
+       )
+     : 0;
+
+ const dashboard = {
+   runtime: {
+     status:
+       allSignals.length
+         ? "online"
+         : "standby",
+
+     updatedAt,
+
+     synchronizedAt:
+       updatedAt,
+
+     sourceHealth: {
+       science:
+         normalizedScience.length >
+         0,
+
+       engineering:
+         engineeringItems.length >
+         0,
+
+       governance:
+         resolvedGovernanceItems.length >
+         0,
+     },
+
+     averageConfidence,
+   },
+
+   counts: {
+     science:
+       normalizedScience.length,
+
+     engineering:
+       engineeringItems.length,
+
+     governance:
+       resolvedGovernanceItems.length,
+   },
+
+   feeds: {
+     science: {
+       latest:
+         scienceSignals[0] ??
+         null,
+
+       items:
+         scienceSignals,
+     },
+
+     engineering: {
+       latest:
+         engineeringSignals[0] ??
+         null,
+
+       items:
+         engineeringSignals,
+     },
+
+     governance: {
+       latest:
+         governanceSignals[0] ??
+         null,
+
+       items:
+         governanceSignals,
+     },
+   },
+ };
+
+ fs.mkdirSync(
+   DASHBOARD_DIR,
+   {
+     recursive: true,
+   }
+ );
+
+ fs.writeFileSync(
+   DASHBOARD_FILE,
+   JSON.stringify(
+     dashboard,
+     null,
+     2
+   )
+ );
+
+ console.log(
+   "Generated public/data/os/dashboard.json: " +
+     `${allSignals.length} intelligence objects`
+ );
 }
 
 function writeGeneratedResearchReports(scienceItems, technologyItems) {
@@ -1203,12 +2537,34 @@ ${JSON.stringify(agenda, null, 2)};
   );
 }
 
-const scienceItems = await buildScience();
-const technologyItems = await buildTechnology();
+const scienceItems =
+  await buildScience();
 
-writeGeneratedResearchReports(scienceItems, technologyItems);
-writeArcheNovaSignals(scienceItems, technologyItems);
-writeGeneratedSenate(scienceItems, technologyItems);
+const technologyItems =
+  await buildTechnology();
 
-console.log("Feed update completed");
+writeGeneratedResearchReports(
+  scienceItems,
+  technologyItems
+);
+
+writeArcheNovaSignals(
+  scienceItems,
+  technologyItems
+);
+
+writeCivilizationDashboard(
+  scienceItems,
+  technologyItems
+);
+
+writeGeneratedSenate(
+  scienceItems,
+  technologyItems
+);
+
+console.log(
+  "Feed update completed"
+);
+
 process.exit(0);

@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { generatedResearchReports } from "@/lib/generatedResearchReports";
-import * as senateModule from "@/lib/generatedSenate";
+import { senateAgenda } from "@/lib/generatedSenate";
 import type { ArcheNovaProgram } from "@/lib/programs";
 
 type SignalItem = {
@@ -115,35 +115,44 @@ export function getProgramEvidence(program: ArcheNovaProgram) {
     )
     .slice(0, 5);
 
-  const senateItems = Array.isArray((senateModule as any).generatedSenate)
- ? (senateModule as any).generatedSenate
- : [];
+  const senateItems =
+  Array.isArray(senateAgenda)
+    ? senateAgenda
+    : [];
 
 const senate = [...senateItems]
- .map((agenda) => {
-   const text = [
-     agenda.title,
-     agenda.category,
-     agenda.question,
-     agenda.episteme,
-     agenda.builder,
-     agenda.institute,
-     agenda.capital,
-     agenda.recommendation,
-   ].join(" ");
+  .map((agenda) => {
+    const text = [
+      agenda.title,
+      agenda.category,
+      agenda.constitutionalQuestion,
+      agenda.whyItMatters,
+      agenda.architectureHandoff,
+      agenda.priority,
+      agenda.stage,
+      agenda.status,
+    ].join(" ");
 
-   return {
-     ...agenda,
-     relevanceScore: scoreText(text, keywords),
-   };
- })
- .filter((agenda) => agenda.relevanceScore > 0)
- .sort(
-   (a, b) =>
-     b.relevanceScore - a.relevanceScore ||
-     (b.score ?? 0) - (a.score ?? 0)
- )
- .slice(0, 5);
+    return {
+      ...agenda,
+      relevanceScore: scoreText(
+        text,
+        keywords,
+      ),
+    };
+  })
+  .filter(
+    (agenda) =>
+      agenda.relevanceScore > 0,
+  )
+  .sort(
+    (a, b) =>
+      b.relevanceScore -
+        a.relevanceScore ||
+      (b.score ?? 0) -
+        (a.score ?? 0),
+  )
+  .slice(0, 5);
 
   return {
     signals,

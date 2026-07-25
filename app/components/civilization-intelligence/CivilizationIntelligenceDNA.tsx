@@ -82,9 +82,26 @@ type IntelligenceDetail = {
   updatedAt?: string;
 
   confidence?: number;
-  organId?: OrganId;
 
-  sections: readonly IntelligenceDetailSection[];
+organId?: OrganId;
+
+relatedTopics?: readonly string[];
+
+relatedOrgans?: readonly OrganId[];
+
+civilizationDomains?: readonly string[];
+
+currentStage?: string;
+
+expectedHorizon?: string;
+
+strategicRelevance?: string;
+
+watchpoint?: string;
+
+score?: DashboardSignal["score"];
+
+sections: readonly IntelligenceDetailSection[];
 };
 
 type RecentSignalView = DashboardSignal & {
@@ -112,6 +129,34 @@ type SignalLevel =
   whyItMatters?: string;
   implications?: string[];
   uncertainty?: string;
+
+  confidence?: number;
+
+  relatedTopics?: string[];
+
+  relatedOrgans?: OrganId[];
+
+  civilizationDomains?: string[];
+
+  currentStage?: string;
+
+  expectedHorizon?: string;
+
+  strategicRelevance?: string;
+
+  watchpoint?: string;
+
+  signalCategory?: string;
+
+  score?: {
+    realityDiscovery?: number;
+    capabilityExpansion?: number;
+    infrastructureImpact?: number;
+    synchronizationImpact?: number;
+    adaptiveCapacity?: number;
+    civilizationImpact?: number;
+    overall?: number;
+  };
 
   source?: string;
   sourceUrl?: string;
@@ -549,11 +594,87 @@ function createOrganDetail(
 function createSignalDetail(
   signal: RecentSignalView,
 ): IntelligenceDetail {
+  const relatedTopics =
+    signal.relatedTopics?.filter(Boolean) ??
+    [];
+
+  const relatedOrgans =
+    signal.relatedOrgans?.filter(
+      (
+        organId,
+      ): organId is OrganId =>
+        EPISTEME_ORGAN_ORDER.includes(
+          organId,
+        ),
+    ) ?? [];
+
+  const civilizationDomains =
+    signal.civilizationDomains?.filter(
+      Boolean,
+    ) ?? [];
+
+  const implications =
+    signal.implications?.filter(Boolean) ??
+    [];
+
+  const scoreEntries =
+    signal.score
+      ? [
+          {
+            label: "Reality Discovery",
+            value:
+              signal.score.realityDiscovery,
+          },
+          {
+            label: "Capability Expansion",
+            value:
+              signal.score.capabilityExpansion,
+          },
+          {
+            label: "Infrastructure Impact",
+            value:
+              signal.score.infrastructureImpact,
+          },
+          {
+            label: "Synchronization Impact",
+            value:
+              signal.score.synchronizationImpact,
+          },
+          {
+            label: "Adaptive Capacity",
+            value:
+              signal.score.adaptiveCapacity,
+          },
+          {
+            label: "Civilization Impact",
+            value:
+              signal.score.civilizationImpact,
+          },
+          {
+            label: "Overall",
+            value:
+              signal.score.overall,
+          },
+        ].filter(
+          (
+            entry,
+          ): entry is {
+            label: string;
+            value: number;
+          } =>
+            typeof entry.value === "number" &&
+            Number.isFinite(entry.value),
+        )
+      : [];
+
   return {
     id: `signal-${signal.id}`,
     kind: "SIGNAL",
 
-    eyebrow: "LIVE INTELLIGENCE OBJECT",
+    eyebrow:
+      signal.signalCategory ??
+      "LIVE INTELLIGENCE OBJECT",
+
     title: signal.title,
     category: signal.category,
 
@@ -562,36 +683,98 @@ function createSignalDetail(
     status: signal.state,
     level: signal.level,
 
+    confidence:
+      typeof signal.confidence === "number"
+        ? normalizePercentage(
+            signal.confidence,
+          )
+        : undefined,
+
     source: signal.source,
     sourceUrl: signal.sourceUrl,
 
     publishedAt: signal.publishedAt,
     updatedAt: signal.updatedAt,
 
+    organId:
+      relatedOrgans[0],
+
+    relatedTopics,
+    relatedOrgans,
+    civilizationDomains,
+
+    currentStage:
+      signal.currentStage,
+
+    expectedHorizon:
+      signal.expectedHorizon,
+
+    strategicRelevance:
+      signal.strategicRelevance,
+
+    watchpoint:
+      signal.watchpoint,
+
+    score:
+      signal.score,
+
     sections: [
       {
         title: "Executive Summary",
         content: signal.summary,
       },
+
       {
         title: "Why It Matters",
         content:
-        signal.whyItMatters ??
-        "Civilizational relevance has not yet been assessed.",
+          signal.whyItMatters ??
+          "Civilizational relevance has not yet been assessed.",
       },
+
       {
         title: "Civilizational Implications",
         items:
-        signal.implications ??
-        [
-          "Civilizational implications have not yet been assessed.",
-        ],
+          implications.length > 0
+            ? implications
+            : [
+                "Civilizational implications have not yet been assessed.",
+              ],
       },
+
+      {
+        title: "Strategic Relevance",
+        content:
+          signal.strategicRelevance ??
+          "Strategic relevance has not yet been assessed.",
+      },
+
+      {
+        title: "Assessment Score",
+        items:
+          scoreEntries.length > 0
+            ? scoreEntries.map(
+                ({ label, value }) =>
+                  `${label}: ${formatPercentage(
+                    value,
+                  )}`,
+              )
+            : [
+                "A multidimensional assessment score is not currently available.",
+              ],
+      },
+
+      {
+        title: "Watchpoint",
+        content:
+          signal.watchpoint ??
+          "No specific watchpoint has been identified.",
+      },
+
       {
         title: "Uncertainty",
         content:
-        signal.uncertainty ??
-        "Uncertainty assessment is currently unavailable.",
+          signal.uncertainty ??
+          "Uncertainty assessment is currently unavailable.",
       },
     ],
   };
@@ -927,11 +1110,44 @@ function IntelligenceDetailPanel({
     );
 
   const updatedDate =
-    formatIntelligenceDate(
-      detail.updatedAt,
-    );
+  formatIntelligenceDate(
+    detail.updatedAt,
+  );
 
-  return (
+const isSignalDetail =
+  detail.kind === "SIGNAL";
+
+const confidenceLabel =
+  isSignalDetail
+    ? "Assessment Confidence"
+    : "Progress";
+
+const relatedOrganTitles =
+  detail.relatedOrgans
+    ?.map(
+      (organId) =>
+        ORGAN_CONTENT[organId]?.title,
+    )
+    .filter(
+      (
+        title,
+      ): title is string =>
+        typeof title === "string" &&
+        title.length > 0,
+    ) ?? [];
+
+const hasIntelligenceContext =
+  Boolean(detail.currentStage) ||
+  Boolean(detail.expectedHorizon) ||
+  Boolean(
+    detail.relatedTopics?.length,
+  ) ||
+  Boolean(
+    detail.civilizationDomains?.length,
+  ) ||
+  relatedOrganTitles.length > 0;
+
+return (
     <div
       className="ci-detail-layer is-open"
       role="presentation"
@@ -978,38 +1194,126 @@ function IntelligenceDetailPanel({
           </section>
 
           {(detail.status ||
-            detail.level ||
-            typeof detail.confidence ===
-              "number") && (
-            <dl className="ci-detail-metrics">
-              {detail.status && (
-                <div>
-                  <dt>Status</dt>
-                  <dd>{detail.status}</dd>
-                </div>
-              )}
+  detail.level ||
+  typeof detail.confidence ===
+    "number" ||
+  detail.currentStage ||
+  detail.expectedHorizon) && (
+  <dl className="ci-detail-metrics">
+    {detail.status && (
+      <div>
+        <dt>Status</dt>
+        <dd>{detail.status}</dd>
+      </div>
+    )}
 
-              {detail.level && (
-                <div>
-                  <dt>Signal Level</dt>
-                  <dd>{detail.level}</dd>
-                </div>
-              )}
+    {detail.level && (
+      <div>
+        <dt>Signal Level</dt>
+        <dd>{detail.level}</dd>
+      </div>
+    )}
 
-              {typeof detail.confidence ===
-                "number" && (
-                <div>
-                  <dt>Progress</dt>
-                  <dd>
-                    {formatPercentage(
-                      detail.confidence,
-                    )}
-                  </dd>
-                </div>
-              )}
-            </dl>
+    {typeof detail.confidence ===
+      "number" && (
+      <div>
+        <dt>{confidenceLabel}</dt>
+
+        <dd>
+          {formatPercentage(
+            detail.confidence,
           )}
+        </dd>
+      </div>
+    )}
 
+    {detail.currentStage && (
+      <div>
+        <dt>Current Stage</dt>
+        <dd>{detail.currentStage}</dd>
+      </div>
+    )}
+
+    {detail.expectedHorizon && (
+      <div>
+        <dt>Expected Horizon</dt>
+        <dd>
+          {detail.expectedHorizon}
+        </dd>
+      </div>
+    )}
+  </dl>
+)}
+
+          {hasIntelligenceContext && (
+  <section className="ci-detail-context">
+    <span>
+      INTELLIGENCE CONTEXT
+    </span>
+
+    <div className="ci-detail-context__grid">
+      {detail.relatedTopics &&
+        detail.relatedTopics.length >
+          0 && (
+          <div className="ci-detail-context__group">
+            <small>
+              Related Topics
+            </small>
+
+            <div className="ci-detail-tags">
+              {detail.relatedTopics.map(
+                (topic) => (
+                  <span key={topic}>
+                    {topic}
+                  </span>
+                ),
+              )}
+            </div>
+          </div>
+        )}
+
+      {detail.civilizationDomains &&
+        detail.civilizationDomains
+          .length > 0 && (
+          <div className="ci-detail-context__group">
+            <small>
+              Civilization Domains
+            </small>
+
+            <div className="ci-detail-tags">
+              {detail.civilizationDomains.map(
+                (domain) => (
+                  <span key={domain}>
+                    {domain}
+                  </span>
+                ),
+              )}
+            </div>
+          </div>
+        )}
+
+      {relatedOrganTitles.length >
+        0 && (
+        <div className="ci-detail-context__group">
+          <small>
+            Related Cognitive Organs
+          </small>
+
+          <div className="ci-detail-tags">
+            {relatedOrganTitles.map(
+              (title) => (
+                <span key={title}>
+                  {title}
+                </span>
+              ),
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+)}
+          
           {(publishedDate ||
             updatedDate ||
             detail.source) && (
@@ -4436,10 +4740,11 @@ white-space:nowrap;
 
 .ci-detail-metrics {
   display: grid;
+
   grid-template-columns:
     repeat(
-      3,
-      minmax(0, 1fr)
+      auto-fit,
+      minmax(140px, 1fr)
     );
 
   margin:
@@ -4467,10 +4772,18 @@ white-space:nowrap;
     16px;
 }
 
-.ci-detail-metrics div + div {
-  border-left:
+.ci-detail-metrics div {
+  border-right:
     1px solid
     rgba(255, 255, 255, 0.075);
+
+  border-bottom:
+    1px solid
+    rgba(255, 255, 255, 0.075);
+}
+
+.ci-detail-metrics div:last-child {
+  border-right: 0;
 }
 
 .ci-detail-metrics dt,
@@ -4485,16 +4798,104 @@ white-space:nowrap;
 .ci-detail-metrics dd {
   margin: 8px 0 0;
 
-  overflow: hidden;
+
 
   color:
     rgba(245, 250, 255, 0.92);
 
   font-size: 12px;
   font-weight: 520;
+  line-height: 1.45;
 
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+}
+
+.ci-detail-context {
+  margin-top: 34px;
+
+  padding: 25px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.075);
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(158, 223, 255, 0.045),
+      rgba(255, 255, 255, 0.012)
+    );
+}
+
+.ci-detail-context > span {
+  display: block;
+
+  color:
+    rgba(158, 223, 255, 0.72);
+
+  font-size: 9px;
+  font-weight: 650;
+  letter-spacing: 0.18em;
+}
+
+.ci-detail-context__grid {
+  display: grid;
+  gap: 22px;
+
+  margin-top: 21px;
+}
+
+.ci-detail-context__group {
+  min-width: 0;
+}
+
+.ci-detail-context__group > small {
+  display: block;
+
+  color: var(--dim);
+
+  font-size: 8px;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.ci-detail-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin-top: 11px;
+}
+
+.ci-detail-tags > span {
+  display: inline-flex;
+  align-items: center;
+
+  min-height: 30px;
+
+  padding:
+    7px
+    11px;
+
+  border:
+    1px solid
+    rgba(158, 223, 255, 0.14);
+
+  border-radius: 999px;
+
+  background:
+    rgba(158, 223, 255, 0.055);
+
+  color:
+    rgba(225, 241, 252, 0.82);
+
+  font-size: 9px;
+  font-weight: 520;
+  line-height: 1.35;
+  letter-spacing: 0.035em;
 }
 
 .ci-detail-provenance {
@@ -4962,12 +5363,28 @@ white-space:nowrap;
   grid-template-columns: 1fr;
 }
 
-.ci-detail-metrics div + div {
-  border-top:
+.ci-detail-metrics div {
+  border-right: 0;
+
+  border-bottom:
     1px solid
     rgba(255, 255, 255, 0.075);
+}
 
-  border-left: 0;
+.ci-detail-metrics div:last-child {
+  border-bottom: 0;
+}
+
+.ci-detail-context {
+  padding:
+    22px
+    20px;
+}
+
+.ci-detail-tags > span {
+  max-width: 100%;
+
+  overflow-wrap: anywhere;
 }
 
 .ci-detail-provenance {

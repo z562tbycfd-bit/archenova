@@ -1,13 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-25T00:06:04.200Z",
+  "updated": "2026-07-25T00:54:51.287Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX conducts 13th Starship test flight",
+      "url": "https://spacenews.com/spacex-conducts-13th-starship-test-flight/",
+      "summary": "SpaceX launched Starship on its 13th suborbital test flight July 24, correcting some of the issues seen on the previous flight while deploying functioning satellites for the first time. The post SpaceX conducts 13th Star…",
+      "ts": 1784939372000,
+      "publishedAt": "2026-07-25T00:29:32.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "ULA deals with financial challenges caused by Vulcan grounding",
       "url": "https://spacenews.com/ula-deals-with-financial-challenges-caused-by-vulcan-grounding/",
       "summary": "United Launch Alliance’s corporate parents have guaranteed a loan to the company as it addresses “financial challenges” caused by the grounding of its Vulcan Centaur rocket. The post ULA deals with financial challenges c…",
       "ts": 1784924299000,
+      "publishedAt": "2026-07-24T20:18:19.000Z",
       "categoryId": "space"
     },
     {
@@ -16,6 +26,7 @@
       "url": "https://www.statnews.com/2026/07/24/cyclospora-outbreak-contradiction-eat-real-food-less-safety-monitoring/?utm_campaign=rss",
       "summary": "“Consumers should not be faced with a trade-off between nutrition and food safety,” writes Susan Mayne, former director of the FDA Center for Food Safety and Applied Nutrition.",
       "ts": 1784922849000,
+      "publishedAt": "2026-07-24T19:54:09.000Z",
       "categoryId": "bio"
     },
     {
@@ -24,7 +35,17 @@
       "url": "https://www.statnews.com/2026/07/24/fda-peptide-compounding-panel-backs-epitalon-rejects-emideltide/?utm_campaign=rss",
       "summary": "Robert F. Kennedy Jr. has lauded peptides and said he takes them himself.",
       "ts": 1784918506000,
+      "publishedAt": "2026-07-24T18:41:46.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
+      "url": "https://science.nasa.gov/image-article/centers-and-facilities/goddard/nasas-escapade-snaps-family-portrait-of-earth-moon/",
+      "summary": "On July 3, one of NASA’s two Mars-destined ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft captured photos of Earth and the Moon in visible and thermal infrared light. At the time, the spacecr…",
+      "ts": 1784915226000,
+      "publishedAt": "2026-07-24T17:47:06.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -32,6 +53,7 @@
       "url": "https://www.genengnews.com/topics/cancer/colorectal-cancer-targeted-with-mass-produced-ipsc-derived-allogeneic-t-cells/",
       "summary": "Researchers generated off-the-shelf, mass-producible iPSC-derived allogeneic γδT cells that in a small preclinical study suppressed tumor growth in mouse colorectal cancer xenograft models, highlighting the cells’ potent…",
       "ts": 1784913858000,
+      "publishedAt": "2026-07-24T17:24:18.000Z",
       "categoryId": "bio"
     },
     {
@@ -40,6 +62,7 @@
       "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
       "summary": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when …",
       "ts": 1784912635000,
+      "publishedAt": "2026-07-24T17:03:55.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -48,6 +71,7 @@
       "url": "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/",
       "summary": "From left, Expedition 74 flight engineers Anna Kikina and Pyotr Dubrov of Roscosmos, and Anil Menon of NASA pose for a July 18, 2026, photo while holding a cake celebrating their recent arrival aboard the International S…",
       "ts": 1784911382000,
+      "publishedAt": "2026-07-24T16:43:02.000Z",
       "categoryId": "space"
     },
     {
@@ -56,6 +80,7 @@
       "url": "https://www.genengnews.com/topics/infectious-diseases/oral-antiviral-blocks-measles-like-virus-transmission-in-ferrets/",
       "summary": "An oral antiviral candidate prevented airborne and contact transmission of a measles-like virus in ferrets, reduced disease severity and infectious duration, and could complement vaccination strategies to help control fu…",
       "ts": 1784911272000,
+      "publishedAt": "2026-07-24T16:41:12.000Z",
       "categoryId": "bio"
     },
     {
@@ -64,6 +89,7 @@
       "url": "https://www.nasa.gov/directorates/armd/nasa-announces-new-spacecraft-technology-demonstration-mission-at-moon/",
       "summary": "NASA is working with industry to advance the next phase of cislunar infrastructure for the agency’s Artemis program and Moon Base, including orbital assets and demonstrations. Under a contract awarded to Advanced Space, …",
       "ts": 1784910946000,
+      "publishedAt": "2026-07-24T16:35:46.000Z",
       "categoryId": "space"
     },
     {
@@ -72,6 +98,7 @@
       "url": "https://www.statnews.com/2026/07/24/measles-cases-surpass-2025-total-national-vaccination-rate-now-below-key-threshold/?utm_campaign=rss",
       "summary": "The number of measles cases in the U.S. has surpassed the record-breaking tally for all of 2025, with five more months of 2026 still to come.",
       "ts": 1784909580000,
+      "publishedAt": "2026-07-24T16:13:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -80,6 +107,7 @@
       "url": "https://www.statnews.com/pharmalot/2026/07/24/up-and-down-the-ladder-rigel-sanofi-pharma-jobs/?utm_campaign=rss",
       "summary": "From new hires to departures, promotions, and hires, here are the latest comings and goings in the pharma industry.",
       "ts": 1784908634000,
+      "publishedAt": "2026-07-24T15:57:14.000Z",
       "categoryId": "bio"
     },
     {
@@ -88,6 +116,7 @@
       "url": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
       "summary": "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St. Louis, Missis…",
       "ts": 1784907021000,
+      "publishedAt": "2026-07-24T15:30:21.000Z",
       "categoryId": "space"
     },
     {
@@ -96,6 +125,7 @@
       "url": "https://spacenews.com/latconnect-60-unveils-proprietary-ai-capabilities-following-growing-indo-pacific-defence-interest-in-swirsat/",
       "summary": "PERTH, Australia – 24 July 2026 – LatConnect 60 (“LC60”), an Australian satellite Earth observation and AI company, today unveiled a proprietary intelligence-fusion capability that leverages the latest advancements in [……",
       "ts": 1784905167000,
+      "publishedAt": "2026-07-24T14:59:27.000Z",
       "categoryId": "space"
     },
     {
@@ -104,6 +134,7 @@
       "url": "https://www.statnews.com/2026/07/24/biotech-news-fatal-gene-editing-trial-in-china-raises-ethics-questions/?utm_campaign=rss",
       "summary": "Sanofi insulin pen in short supply, a win for peptide compounds, and more biotech news from The Readout",
       "ts": 1784900476000,
+      "publishedAt": "2026-07-24T13:41:16.000Z",
       "categoryId": "bio"
     },
     {
@@ -112,6 +143,7 @@
       "url": "https://www.statnews.com/pharmalot/2026/07/24/fda-panel-peptides-merck-hiv-pill-license/?utm_campaign=rss",
       "summary": "In a win for peptide proponents, an FDA advisory panel recommended compounding pharmacies be allowed to make four of the drugs",
       "ts": 1784899731000,
+      "publishedAt": "2026-07-24T13:28:51.000Z",
       "categoryId": "bio"
     },
     {
@@ -120,6 +152,7 @@
       "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement” W…",
       "ts": 1784895000000,
+      "publishedAt": "2026-07-24T12:10:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -128,6 +161,7 @@
       "url": "https://spacenews.com/office-of-space-commerce-to-move-ahead-on-mission-authorization/",
       "summary": "The Commerce Department is moving ahead with plans to implement a voluntary mission authorization system for novel space activities that are not regulated by other agencies. The post Office of Space Commerce to move ahea…",
       "ts": 1784894674000,
+      "publishedAt": "2026-07-24T12:04:34.000Z",
       "categoryId": "space"
     },
     {
@@ -136,6 +170,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168025",
       "summary": "Member States of the International Criminal Court dismissed its Prosecutor Karim Khan following disciplinary proceedings related to widely reported sexual misconduct allegations at an emergency session at UN Headquarters…",
       "ts": 1784894400000,
+      "publishedAt": "2026-07-24T12:00:00.000Z",
       "categoryId": "global-governance"
     },
     {
@@ -144,6 +179,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168024",
       "summary": "The world needs more critical minerals than ever before for electric vehicles, wind turbines, solar panels, batteries and smartphones.",
       "ts": 1784894400000,
+      "publishedAt": "2026-07-24T12:00:00.000Z",
       "categoryId": "global-governance"
     },
     {
@@ -152,6 +188,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168021",
       "summary": "One month after twin earthquakes rocked Venezuela, thousands of women and girls continue to face difficulty in accessing essential healthcare and protection services, a senior official with the UN reproductive and sexual…",
       "ts": 1784894400000,
+      "publishedAt": "2026-07-24T12:00:00.000Z",
       "categoryId": "global-governance"
     },
     {
@@ -160,6 +197,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168018",
       "summary": "A new mobile UN peacekeeping base in the Democratic Republic of the Congo (DRC) has allowed local authorities to continue responding to the fast-moving Ebola outbreak there after violence disrupted the work of medics at …",
       "ts": 1784894400000,
+      "publishedAt": "2026-07-24T12:00:00.000Z",
       "categoryId": "global-governance"
     },
     {
@@ -168,6 +206,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168016",
       "summary": "As fighting intensifies in the Middle East, the United Nations on Friday warned against further escalation in the US-Iran war and the risks to global shipping amid the fight over control of the Strait of Hormuz.",
       "ts": 1784894400000,
+      "publishedAt": "2026-07-24T12:00:00.000Z",
       "categoryId": "global-governance"
     },
     {
@@ -176,6 +215,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168013",
       "summary": "The amount of land burned by wildfires across Europe has increased by 57 per cent in four years, according to new data from the World Health Organization (WHO) in Europe.",
       "ts": 1784894400000,
+      "publishedAt": "2026-07-24T12:00:00.000Z",
       "categoryId": "global-governance"
     },
     {
@@ -184,6 +224,7 @@
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168012",
       "summary": "In El Obeid, women and girls now face an impossible choice over something as basic as a bucket of water: risk a drone strike by collecting it in daylight, or risk rape by waiting until dark.",
       "ts": 1784894400000,
+      "publishedAt": "2026-07-24T12:00:00.000Z",
       "categoryId": "global-governance"
     },
     {
@@ -192,6 +233,7 @@
       "url": "https://www.statnews.com/2026/07/24/health-news-new-separate-cyclospora-diarrhea-outbreak/?utm_campaign=rss",
       "summary": "A win for peptide proponents, autism advisory committees clash, and more health news from Morning Rounds",
       "ts": 1784894367000,
+      "publishedAt": "2026-07-24T11:59:27.000Z",
       "categoryId": "bio"
     },
     {
@@ -200,6 +242,7 @@
       "url": "https://science.nasa.gov/missions/hubble/hubble-spies-one-sided-spiral/",
       "summary": "This Hubble image features spiral galaxy NGC 4654, located 72 million light-years away in the constellation Virgo (the Maiden).",
       "ts": 1784891468000,
+      "publishedAt": "2026-07-24T11:11:08.000Z",
       "categoryId": "space"
     },
     {
@@ -208,6 +251,7 @@
       "url": "https://www.statnews.com/pharmalot/2026/07/24/merck-experimental-hiv-prevention-pill-licensing-deals/?utm_campaign=rss",
       "summary": "Merck is striking licensing deals for its experimental HIV prevention pill in hope of getting wide-scale production started quickly.",
       "ts": 1784889900000,
+      "publishedAt": "2026-07-24T10:45:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -216,6 +260,7 @@
       "url": "https://spacenews.com/lightning-strikes-long-march-3b-after-liftoff-kinetica-1-launches-5-satellites/",
       "summary": "HELSINKI — China conducted a pair of launches Thursday, including a Long March 3B rocket which delivered its payload to orbit despite a lightning strike. The Long March 3B rocket […] The post Lightning strikes Long March…",
       "ts": 1784889173000,
+      "publishedAt": "2026-07-24T10:32:53.000Z",
       "categoryId": "space"
     },
     {
@@ -224,6 +269,7 @@
       "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Why_total_solar_eclipses_are_so_special",
       "summary": "Video: 00:07:07 More than 2500 years ago, a total solar eclipse is said to have ended a war between the Lydians and the Medes. Today, we understand the science behind eclipses, but witnessing one is still one of the most…",
       "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -232,6 +278,7 @@
       "url": "https://spacenews.com/eu-delays-release-of-copernicus-imagery-over-gulf-of-oman/",
       "summary": "JOHANNESBURG — The European Union has ordered a 24-hour delay in the release of some Sentinel-1 and Sentinel-2 imagery following a request from the United States based on concerns that […] The post EU delays release of C…",
       "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -240,6 +287,7 @@
       "url": "https://spacenews.com/air-force-takes-over-troubled-military-gps-receiver-program/",
       "summary": "The Air Force Life Cycle Management Center will oversee development, integration and sustainment of equipment used to access the military’s encrypted GPS signal The post Air Force takes over troubled military GPS receive…",
       "ts": 1784883600000,
+      "publishedAt": "2026-07-24T09:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -248,6 +296,7 @@
       "url": "https://www.statnews.com/2026/07/24/science-new-golden-age-report-draws-mixed-reaction/?utm_campaign=rss",
       "summary": "The Trump administration released its blueprint for U.S. science, calling for shifting hundreds of billions of research dollars from universities to industry.",
       "ts": 1784881800000,
+      "publishedAt": "2026-07-24T08:30:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -256,6 +305,7 @@
       "url": "https://www.statnews.com/2026/07/24/ultraprocessed-food-warning-label-bill-clears-senate-committee-bipartisan-vote/?utm_campaign=rss",
       "summary": "Unexpected alliances among Republicans and Democrats were on display over a bill meant to rein in ultra-processed foods.",
       "ts": 1784881800000,
+      "publishedAt": "2026-07-24T08:30:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -264,6 +314,7 @@
       "url": "https://www.statnews.com/2026/07/24/pharmaceutical-supply-chain-resilience-china/?utm_campaign=rss",
       "summary": "The national security framing of the discussion around pharmaceutical supply chain vulnerabilities is a distraction, writes Pooja Yerramilli.",
       "ts": 1784881800000,
+      "publishedAt": "2026-07-24T08:30:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -272,6 +323,7 @@
       "url": "https://www.statnews.com/2026/07/24/medical-school-federal-student-loan-changes/?utm_campaign=rss",
       "summary": "A federal loan program made it possible for Gauri Gurumurthy to pursue medicine. Now that program is changing.",
       "ts": 1784881800000,
+      "publishedAt": "2026-07-24T08:30:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -280,6 +332,7 @@
       "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Agricultural_patchwork",
       "summary": "Image: The Copernicus Sentinel-2 mission takes us over Australia’s southwestern corner in the Goldfields–Esperance region of Western Australia.",
       "ts": 1784880000000,
+      "publishedAt": "2026-07-24T08:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -288,6 +341,7 @@
       "url": "https://www.esa.int/Applications/Satellite_navigation/Two_new_Galileo_satellites_enter_service",
       "summary": "Two new satellites have now officially joined Europe’s Galileo satellite navigation constellation, strengthening its capabilities, resilience and autonomy. Four Galileo First Generation satellites remain to be launched, …",
       "ts": 1784878140000,
+      "publishedAt": "2026-07-24T07:29:00.000Z",
       "categoryId": "space"
     },
     {
@@ -296,6 +350,7 @@
       "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
       "summary": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. …",
       "ts": 1784867667000,
+      "publishedAt": "2026-07-24T04:34:27.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -304,6 +359,7 @@
       "url": "https://science.nasa.gov/earth/earth-observatory/a-million-panel-project/",
       "summary": "Utah’s new solar power and battery storage facility is among the largest in the region.",
       "ts": 1784865660000,
+      "publishedAt": "2026-07-24T04:01:00.000Z",
       "categoryId": "space"
     },
     {
@@ -312,6 +368,7 @@
       "url": "https://arxiv.org/abs/2607.20523",
       "summary": "arXiv:2607.20523v1 Announce Type: new Abstract: Fine-grained recognition of aquatic species is challenging due to subtle morphological differences and long-tailed distributions, where ultra-rare species are underrepresen…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -320,6 +377,7 @@
       "url": "https://arxiv.org/abs/2607.20572",
       "summary": "arXiv:2607.20572v1 Announce Type: new Abstract: Single-cell foundation models (scFMs) such as Geneformer, scGPT, and Universal Cell Embeddings (UCE) are pretrained on tens of millions of cells drawn from public repositor…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -328,6 +386,7 @@
       "url": "https://arxiv.org/abs/2607.20583",
       "summary": "arXiv:2607.20583v1 Announce Type: new Abstract: The function of many genes is still unknown, and conventional driver-discovery methods, which rely on how frequently a gene is mutated, cannot assess genes that are only ra…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -336,6 +395,7 @@
       "url": "https://arxiv.org/abs/2607.20699",
       "summary": "arXiv:2607.20699v1 Announce Type: new Abstract: Incorporating an absolute refractory period into the population density approach for spiking neurons remains an open problem, despite evidence that refractoriness can stron…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -344,6 +404,7 @@
       "url": "https://arxiv.org/abs/2607.20720",
       "summary": "arXiv:2607.20720v1 Announce Type: new Abstract: Harnessing the potential of electroencephalography (EEG) for brain research is fundamentally limited by intrinsic noise and the diffuse projection of brain-generated activi…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -352,6 +413,7 @@
       "url": "https://arxiv.org/abs/2607.20744",
       "summary": "arXiv:2607.20744v1 Announce Type: new Abstract: Protein sequences change over time due to the accumulation of mutations in the genes that encode them. Nonetheless, accurately identifying the most probable evolutionary pa…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -360,6 +422,7 @@
       "url": "https://arxiv.org/abs/2607.20782",
       "summary": "arXiv:2607.20782v1 Announce Type: new Abstract: Designing combination cancer therapies requires choosing not only which agents to combine but also their relative doses and timing decisions that critically shape the trade…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -368,6 +431,7 @@
       "url": "https://arxiv.org/abs/2607.20915",
       "summary": "arXiv:2607.20915v1 Announce Type: new Abstract: Phenotypic plasticity and genetic assimilation play key roles in adaptive evolution, yet their underlying mechanism has lacked a unified physical description. A major theor…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -376,6 +440,7 @@
       "url": "https://arxiv.org/abs/2607.21249",
       "summary": "arXiv:2607.21249v1 Announce Type: new Abstract: Physical limits to chemical sensing are traditionally expressed as Berg-Purcell bounds on estimation accuracy. Whether these bounds also limit the total amount of informati…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -384,6 +449,7 @@
       "url": "https://arxiv.org/abs/2607.21442",
       "summary": "arXiv:2607.21442v1 Announce Type: new Abstract: Long-range intercellular calcium (Ca2+) signaling coordinates biological processes ranging from fertilization to contraction and cell death. The classical model attributes …",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -392,6 +458,7 @@
       "url": "https://arxiv.org/abs/2607.20513",
       "summary": "arXiv:2607.20513v1 Announce Type: cross Abstract: Weak magnetic fields influence a wide range of biological processes, yet the underlying mechanisms are poorly understood. The radical pair mechanism (RPM), which involves…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -400,6 +467,7 @@
       "url": "https://arxiv.org/abs/2607.20551",
       "summary": "arXiv:2607.20551v1 Announce Type: cross Abstract: Effective molecular representation learning is crucial for accurate molecular property prediction. Recently, numerous self-supervised learning (SSL) approaches leveraging…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -408,6 +476,7 @@
       "url": "https://arxiv.org/abs/2607.20585",
       "summary": "arXiv:2607.20585v1 Announce Type: cross Abstract: Sample-based Quantum Diagonalization (SQD), an extension of Quantum Selected Configuration Interaction (QSCI), has emerged as a promising hybrid quantum-classical paradig…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -416,6 +485,7 @@
       "url": "https://arxiv.org/abs/2607.20708",
       "summary": "arXiv:2607.20708v1 Announce Type: cross Abstract: A recent line of work measures causal emergence in reinforcement learning agents through Integrated Information Decomposition, reporting that $\\Phi_r$ grows with training…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -424,6 +494,7 @@
       "url": "https://arxiv.org/abs/2607.20766",
       "summary": "arXiv:2607.20766v1 Announce Type: cross Abstract: Gaussian descriptions of molecular shape underpin 3D shape-based virtual screening, but existing methods evaluate Gaussian overlap analytically. The widely used first-ord…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -432,6 +503,7 @@
       "url": "https://arxiv.org/abs/2607.20823",
       "summary": "arXiv:2607.20823v1 Announce Type: cross Abstract: Stochastic reaction networks often involve components at low copy number, where individual production and degradation events generate substantial fluctuations. Yan et al.…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -440,6 +512,7 @@
       "url": "https://arxiv.org/abs/2607.20896",
       "summary": "arXiv:2607.20896v1 Announce Type: cross Abstract: Spatial transcriptomics assays remain costly and technically demanding, restricting transcriptome-wide profiling to specialist settings and preventing routine clinical de…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -448,6 +521,7 @@
       "url": "https://arxiv.org/abs/2607.21214",
       "summary": "arXiv:2607.21214v1 Announce Type: cross Abstract: We propose a model of the circadian clock in a population of cells based on a network of oscillators, derived from the Kuramoto model. The coupling between oscillators is…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -456,6 +530,7 @@
       "url": "https://arxiv.org/abs/2607.21561",
       "summary": "arXiv:2607.21561v1 Announce Type: cross Abstract: Molecular property prediction from structure often uses a single representative conformation, even though many molecules exist as conformational ensembles in solution. We…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -464,6 +539,7 @@
       "url": "https://arxiv.org/abs/2009.06524",
       "summary": "arXiv:2009.06524v3 Announce Type: replace Abstract: The key to a robust life system is to ensure that each cell population is maintained in an appropriate state. In this work, a mathematical model was used to investigate…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -472,6 +548,7 @@
       "url": "https://arxiv.org/abs/2410.00945",
       "summary": "arXiv:2410.00945v2 Announce Type: replace Abstract: Gene-expression profiling is widely used in research and central to many areas of precision oncology, but remains costly and not universally accessible. Recent advances…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -480,6 +557,7 @@
       "url": "https://arxiv.org/abs/2507.23146",
       "summary": "arXiv:2507.23146v4 Announce Type: replace Abstract: Although computational phenotyping is a central informatics activity with resulting cohorts supporting a wide variety of applications, it is time-intensive because of m…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -488,6 +566,7 @@
       "url": "https://arxiv.org/abs/2511.01939",
       "summary": "arXiv:2511.01939v3 Announce Type: replace Abstract: Infectious disease outbreaks have precipitated a profusion of mathematical models. Epidemic curves predicted by these models are typically qualitatively similar, despit…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -496,6 +575,7 @@
       "url": "https://arxiv.org/abs/2602.13368",
       "summary": "arXiv:2602.13368v3 Announce Type: replace Abstract: This study investigates the relationship between interocular distance relative to overall facial width (width ratio) and perceived subjective beauty in male faces. Buil…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -504,6 +584,7 @@
       "url": "https://arxiv.org/abs/2603.10161",
       "summary": "arXiv:2603.10161v3 Announce Type: replace Abstract: The biomedical literature contains a vast collection of omics studies, yet most published data remain functionally inaccessible for computational reuse. When raw data a…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -512,6 +593,7 @@
       "url": "https://arxiv.org/abs/2604.11451",
       "summary": "arXiv:2604.11451v2 Announce Type: replace Abstract: The composition of a polyclonal antibody response is hard to measure experimentally but contains vital information about the robustness of immunity. Here, we argue that…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -520,6 +602,7 @@
       "url": "https://arxiv.org/abs/2605.26856",
       "summary": "arXiv:2605.26856v2 Announce Type: replace Abstract: We propose the Sensation Modulating Network (SMN): the cognitive agent as the whole body, organized at every scale by opponent dynamics, built from Sensation Modulators…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -528,6 +611,7 @@
       "url": "https://arxiv.org/abs/2607.18364",
       "summary": "arXiv:2607.18364v2 Announce Type: replace Abstract: We develop an exact finite-population stochastic framework for SIR epidemics evolving under Markovian switching between intervention regimes. The epidemic state is augm…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -536,6 +620,7 @@
       "url": "https://arxiv.org/abs/2607.18434",
       "summary": "arXiv:2607.18434v2 Announce Type: replace Abstract: Ecological communities are shaped by the interplay between trophic interactions and infectious disease, yet how spatially mediated interactions influence disease-driven…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -544,6 +629,7 @@
       "url": "https://arxiv.org/abs/2603.18385",
       "summary": "arXiv:2603.18385v4 Announce Type: replace-cross Abstract: We present a new solution concept called evolutionarily stable Stackelberg equilibrium (SESS). We study the Stackelberg evolutionary game setting in which there i…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -552,6 +638,7 @@
       "url": "https://arxiv.org/abs/2605.25050",
       "summary": "arXiv:2605.25050v2 Announce Type: replace-cross Abstract: Integrating multimodal datasets in clinical oncology is frequently hindered by high dimensionality and blockwise missingness, where entire data sources are unavai…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -560,6 +647,7 @@
       "url": "https://arxiv.org/abs/2607.09516",
       "summary": "arXiv:2607.09516v2 Announce Type: replace-cross Abstract: Understanding the dynamical properties of coupled phase oscillator systems with heterogeneous oscillator frequencies has been a long-standing challenge of complex…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -568,6 +656,7 @@
       "url": "https://arxiv.org/abs/2607.16479",
       "summary": "arXiv:2607.16479v2 Announce Type: replace-cross Abstract: We consider a supercritical two-type continuous-time linear birth-death process with mutation and selection, in which wild-type individuals give rise to mutant of…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -576,6 +665,7 @@
       "url": "https://arxiv.org/abs/2607.19372",
       "summary": "arXiv:2607.19372v2 Announce Type: replace-cross Abstract: Background and objective: A high classifier score and a plausible class-activation map (CAM) are often presented together, although neither establishes that the o…",
       "ts": 1784865600000,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     },
     {
@@ -584,6 +674,7 @@
       "url": "https://www.genengnews.com/topics/omics/single-cell-atlas-simultaneously-maps-3d-genome-architecture-and-dna-methylation/",
       "summary": "Atlases like this one can provide the labeled, cell-type-resolved training data that artificial intelligence models need to make accurate predictions—a bottleneck that has historically limited the field. The post Single-…",
       "ts": 1784857247000,
+      "publishedAt": "2026-07-24T01:40:47.000Z",
       "categoryId": "bio"
     },
     {
@@ -592,6 +683,7 @@
       "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4954-4960-celebrating-our-rover-engineers-past-and-present/",
       "summary": "Written by Lucy Thompson, Senior Research Scientist, University of New Brunswick, Canada Earth planning date: Friday, July 27, 2026 As an APXS uplink lead and strategic planner, I have the privilege of working with the r…",
       "ts": 1784856133000,
+      "publishedAt": "2026-07-24T01:22:13.000Z",
       "categoryId": "space"
     },
     {
@@ -600,6 +692,7 @@
       "url": "https://www.nature.com/articles/s41560-026-02116-4",
       "summary": "",
       "ts": 1784851200000,
+      "publishedAt": "2026-07-24T00:00:00.000Z",
       "categoryId": "energy-climate"
     },
     {
@@ -608,6 +701,7 @@
       "url": "https://www.genengnews.com/topics/omics/single-cell-maps-reveal-genome-reorganization-in-alzheimers-brain-cells/",
       "summary": "Using single-cell multiomics, spatial transcriptomics, and an AI model called Hicformer, the team generated a multiscale view connecting genome structure, gene regulation, and tissue organization in Alzheimer’s disease. …",
       "ts": 1784844484000,
+      "publishedAt": "2026-07-23T22:08:04.000Z",
       "categoryId": "bio"
     },
     {
@@ -616,6 +710,7 @@
       "url": "https://spacenews.com/nasa-programs-feel-effects-of-workforce-reductions/",
       "summary": "More than two dozen major NASA projects say they have been affected by the loss of a fifth of NASA’s civil servant workforce in the last year. The post NASA programs feel effects of workforce reductions appeared first on…",
       "ts": 1784842289000,
+      "publishedAt": "2026-07-23T21:31:29.000Z",
       "categoryId": "space"
     },
     {
@@ -624,6 +719,7 @@
       "url": "https://spacenews.com/poland-commits-745-million-to-eus-iris%c2%b2-constellation-project/",
       "summary": "WARSAW, Poland — The Polish government has agreed to invest around $745 million in the development of the planned IRIS² multi-orbit satellite internet constellation with the European Union. The money […] The post Poland …",
       "ts": 1784841289000,
+      "publishedAt": "2026-07-23T21:14:49.000Z",
       "categoryId": "space"
     },
     {
@@ -632,6 +728,7 @@
       "url": "https://www.statnews.com/2026/07/23/fda-panel-okays-peptides-compound-pharmacies-bpc-157-kpv/?utm_campaign=rss",
       "summary": "The panel recommended allowing compounding pharmacies to produce popular but unproven BPC-157 and KPV peptides.",
       "ts": 1784837336000,
+      "publishedAt": "2026-07-23T20:08:56.000Z",
       "categoryId": "bio"
     },
     {
@@ -640,6 +737,7 @@
       "url": "https://spacenews.com/mark-matossian-co-founds-whipsmart-ventures-for-space-and-deep-tech/",
       "summary": "SAN FRANCISCO – Space startup veteran Mark Matossian has joined forces with a software engineer and a best-selling author to establish Whipsmart Ventures, a venture capital fund focused on space […] The post Mark Matossi…",
       "ts": 1784834593000,
+      "publishedAt": "2026-07-23T19:23:13.000Z",
       "categoryId": "space"
     },
     {
@@ -648,6 +746,7 @@
       "url": "https://www.nasa.gov/news-release/look-for-nasa-now-streaming-on-amazon-fire-tv/",
       "summary": "Continuing agency efforts to bring space closer to home, NASA+ is heading to more streaming platforms. On Thursday, NASA announced its programming is on Fire TV Channels. Fire TV customers can easily access this content …",
       "ts": 1784833889000,
+      "publishedAt": "2026-07-23T19:11:29.000Z",
       "categoryId": "space"
     },
     {
@@ -656,6 +755,7 @@
       "url": "https://www.genengnews.com/topics/translational-medicine/autism-like-traits-in-mice-improved-after-single-rapamycin-dose/",
       "summary": "The results of a mouse study suggest that inflammation during pregnancy can trigger autism-like brain and behavior changes in offspring, and that the effects may be rapidly but temporarily reversible in adulthood with a …",
       "ts": 1784832046000,
+      "publishedAt": "2026-07-23T18:40:46.000Z",
       "categoryId": "bio"
     },
     {
@@ -664,6 +764,7 @@
       "url": "https://www.genengnews.com/topics/omics/turning-solar-power-into-protein/",
       "summary": "Solar energy generates electricity to produce hydrogen, which combines with carbon dioxide to make methanol. Specialized enzymes then convert methanol into specific amino acids, depending on the enzyme combination used. …",
       "ts": 1784829605000,
+      "publishedAt": "2026-07-23T18:00:05.000Z",
       "categoryId": "bio"
     },
     {
@@ -672,6 +773,7 @@
       "url": "https://www.genengnews.com/topics/translational-medicine/midlife-brain-aging-linked-to-immune-cell-remodeling-blood-brain-barrier-decline/",
       "summary": "An analysis of aging human brains revealed widespread immune remodeling, blood-brain barrier deterioration, and genome architecture changes, challenging long-held assumptions about how the brain's resident immune cells a…",
       "ts": 1784829603000,
+      "publishedAt": "2026-07-23T18:00:03.000Z",
       "categoryId": "bio"
     },
     {
@@ -680,6 +782,7 @@
       "url": "https://www.statnews.com/2026/07/23/cyclospora-second-outbreak-reported-fda-cites-72-new-cases/?utm_campaign=rss",
       "summary": "Federal health officials are investigating a new outbreak involving the diarrhea-causing parasite cyclospora.",
       "ts": 1784827503000,
+      "publishedAt": "2026-07-23T17:25:03.000Z",
       "categoryId": "bio"
     },
     {
@@ -688,6 +791,7 @@
       "url": "http://www.iaea.org/newscenter/pressreleases/update-359-iaea-director-general-statement-on-situation-in-ukraine",
       "summary": "",
       "ts": 1784826006000,
+      "publishedAt": "2026-07-23T17:00:06.000Z",
       "categoryId": "energy-climate"
     },
     {
@@ -696,6 +800,7 @@
       "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
       "summary": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too …",
       "ts": 1784825908000,
+      "publishedAt": "2026-07-23T16:58:28.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -704,22 +809,7 @@
       "url": "https://www.statnews.com/pharmalot/2026/07/23/european-medicines-agency-bolster-clinical-trials-transparency/?utm_campaign=rss",
       "summary": "The European Medicines Agency is taking what advocacy groups are calling unexpectedly “rapid action” to ensure that clinical trial results are made public as required by law.",
       "ts": 1784824382000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Popular insulin product enters shortage as other pens leave market",
-      "url": "https://www.statnews.com/2026/07/23/sanofi-insulin-lantus-solostar-pen-reported-short-supply/?utm_campaign=rss",
-      "summary": "The Lantus Solostar insulin pen isn't in official FDA shortage, but patients are having a tough time finding it.",
-      "ts": 1784823801000,
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Senate health panel delays vote on CDC nominee",
-      "url": "https://www.statnews.com/2026/07/23/erica-schwartz-cdc-director-vote-delayed/?utm_campaign=rss",
-      "summary": "Too few senators were in attendance to proceed with a vote on the CDC director nominee.",
-      "ts": 1784823532000,
+      "publishedAt": "2026-07-23T16:33:02.000Z",
       "categoryId": "bio"
     }
   ],
