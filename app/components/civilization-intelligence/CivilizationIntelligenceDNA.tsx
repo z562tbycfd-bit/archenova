@@ -115,6 +115,19 @@ type RecentSignalView = DashboardSignal & {
   level: SignalLevel;
 };
 
+type PriorityLevel =
+  | "CRITICAL"
+  | "HIGH"
+  | "ELEVATED"
+  | "MONITOR";
+
+type PrioritizedSignal =
+  RecentSignalView & {
+    priorityScore: number;
+    priorityLevel: PriorityLevel;
+    rank: number;
+  };
+
 type SignalLevel =
  | "DISCOVERY"
  | "BREAKTHROUGH"
@@ -457,6 +470,46 @@ const SEARCH_INDEX: readonly SearchEntry[] = [
 function normalizePercentage(value: number): number {
   if (!Number.isFinite(value)) return 0;
   return Math.min(100, Math.max(0, value));
+}
+
+function calculatePriorityScore(
+  signal: RecentSignalView,
+): number {
+  const score = signal.score;
+
+  if (!score) {
+    return (
+      typeof signal.confidence === "number"
+        ? normalizePercentage(signal.confidence)
+        : 0
+    );
+  }
+
+  return normalizePercentage(
+    (score.civilizationImpact ?? 0) * 0.35 +
+      (score.infrastructureImpact ?? 0) * 0.20 +
+      (score.synchronizationImpact ?? 0) * 0.15 +
+      (score.adaptiveCapacity ?? 0) * 0.10 +
+      (signal.confidence ?? 0) * 0.20,
+  );
+}
+
+function getPriorityLevel(
+  score: number,
+): PriorityLevel {
+  if (score >= 85) {
+    return "CRITICAL";
+  }
+
+  if (score >= 70) {
+    return "HIGH";
+  }
+
+  if (score >= 50) {
+    return "ELEVATED";
+  }
+
+  return "MONITOR";
 }
 
 function formatPercentage(value: number): string {
@@ -1867,6 +1920,38 @@ useEffect(() => {
     }));
 }, [dashboard]);
 
+const prioritizedSignals =
+  useMemo<PrioritizedSignal[]>(
+    () =>
+      [...recentSignals]
+        .map((signal) => {
+          const priorityScore =
+            calculatePriorityScore(signal);
+
+          return {
+            ...signal,
+            priorityScore,
+            priorityLevel:
+              getPriorityLevel(
+                priorityScore,
+              ),
+            rank: 0,
+          };
+        })
+        .sort(
+          (a, b) =>
+            b.priorityScore -
+            a.priorityScore,
+        )
+        .map(
+          (signal, index) => ({
+            ...signal,
+            rank: index + 1,
+          }),
+        ),
+    [recentSignals],
+  );
+
 const signalSearchEntries =
   useMemo<SearchEntry[]>(
     () =>
@@ -2148,6 +2233,82 @@ const signalSearchEntries =
           </div>
         </div>
       </section>
+
+      <section className="ci-priority">
+  <div className="ci-shell">
+
+    <header className="ci-heading">
+      <span>
+        CIVILIZATION PRIORITY
+      </span>
+
+      <h2>
+        Highest Priority Signals
+      </h2>
+
+      <p>
+        Intelligence ranked by
+        civilization-scale impact.
+      </p>
+    </header>
+
+    <div className="ci-priority-grid">
+
+      {prioritizedSignals.map(
+        (signal) => (
+          <article
+            key={signal.id}
+            className="ci-priority-card"
+          >
+            <small>
+              Rank {signal.rank}
+            </small>
+
+            <h3>
+              {signal.title}
+            </h3>
+
+            <strong>
+              {signal.priorityLevel}
+            </strong>
+
+            <dl>
+              <div>
+                <dt>
+                  Priority
+                </dt>
+
+                <dd>
+                  {formatPercentage(
+                    signal.priorityScore,
+                  )}
+                </dd>
+
+              </div>
+
+              <div>
+                <dt>
+                  Confidence
+                </dt>
+
+                <dd>
+                  {typeof signal.confidence ===
+                  "number"
+                    ? formatPercentage(
+                        signal.confidence,
+                      )
+                    : "—"}
+                </dd>
+              </div>
+            </dl>
+          </article>
+        ),
+      )}
+
+    </div>
+
+  </div>
+</section>
 
       <section className="ci-recent">
         <div className="ci-shell">
@@ -4547,6 +4708,116 @@ white-space:nowrap;
   flex: 0 0 auto;
 }
 
+.ci-priority{
+  padding:100px 0 30px;
+}
+
+.ci-priority-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,minmax(0,1fr));
+
+gap:18px;
+
+}
+
+.ci-priority-card{
+
+padding:28px;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:22px;
+
+background:
+linear-gradient(
+145deg,
+rgba(255,255,255,.05),
+rgba(255,255,255,.01)
+);
+
+}
+
+.ci-priority-card small{
+
+display:block;
+
+color:var(--dim);
+
+font-size:9px;
+
+letter-spacing:.18em;
+
+}
+
+.ci-priority-card h3{
+
+margin:14px 0;
+
+font-size:20px;
+
+font-weight:350;
+
+line-height:1.35;
+
+}
+
+.ci-priority-card strong{
+
+display:inline-flex;
+
+padding:5px 12px;
+
+border-radius:999px;
+
+background:
+rgba(158,223,255,.08);
+
+color:#9edfff;
+
+font-size:10px;
+
+letter-spacing:.12em;
+
+}
+
+.ci-priority-card dl{
+
+display:grid;
+
+grid-template-columns:
+repeat(2,1fr);
+
+margin-top:22px;
+
+gap:14px;
+
+}
+
+.ci-priority-card dt{
+
+color:var(--dim);
+
+font-size:8px;
+
+letter-spacing:.14em;
+
+text-transform:uppercase;
+
+}
+
+.ci-priority-card dd{
+
+margin-top:6px;
+
+font-size:16px;
+
+font-weight:500;
+
+}
+
         .ci-controls {
           padding: 20px 0 105px;
         }
@@ -5321,6 +5592,11 @@ white-space:nowrap;
 }
 
         @media (max-width: 780px) {
+
+.ci-priority-grid{
+grid-template-columns:1fr;
+}
+
   .ci-earth-background {
     animation: none;
     transform: translateZ(0);

@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-25T01:15:25.278Z",
+  "updated": "2026-07-25T02:40:20.079Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Research sheds light on migration, lifestyle, health and social status in the medieval metropolis Ypers",
+      "url": "https://phys.org/news/2026-07-migration-lifestyle-health-social-status.html",
+      "summary": "Researchers from the Vrije Universiteit Brussel (VUB) are playing a key role in the summer exhibition wONDERLAND at the Yper Museum. Thanks to interdisciplinary research on more than 1,000 excavated skeletons, they have …",
+      "ts": 1784942401000,
+      "publishedAt": "2026-07-25T01:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Smarter, greener ways to protect fragile cultural heritage",
@@ -791,14 +799,6 @@
       "title": "Bayesian evidence adaptive pursuit to identify neutron sources with scatter-based spectrometers",
       "url": "https://arxiv.org/abs/2607.21543",
       "summary": "arXiv:2607.21543v1 Announce Type: new Abstract: Reliable neutron source identification is essential for nuclear nonproliferation, safeguards, and homeland security, but remains challenging because neutron spectral invers…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An integrated all-van der Waals nanobeam laser",
-      "url": "https://arxiv.org/abs/2607.21566",
-      "summary": "arXiv:2607.21566v1 Announce Type: new Abstract: Transition-metal dichalcogenides offer a promising platform for integrated coherent light sources, yet lasing has largely relied on hybrid photonic architectures without di…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
