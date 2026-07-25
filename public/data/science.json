@@ -1,7 +1,21 @@
 {
   "ok": true,
-  "updated": "2026-07-24T22:06:40.426Z",
+  "updated": "2026-07-25T00:06:01.753Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Smarter, greener ways to protect fragile cultural heritage",
+      "url": "https://phys.org/news/2026-07-smarter-greener-ways-fragile-cultural.html",
+      "summary": "Museums, libraries, archives and heritage organizations face a difficult problem: Many of the objects they preserve are made from materials that naturally deteriorate.",
+      "ts": 1784937601000
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wound odors may unlock better traps for flesh-eating New World screwworm",
+      "url": "https://phys.org/news/2026-07-wound-odors-flesh-world-screwworm.html",
+      "summary": "Jessica Metcalf's work stinks. Literally. But the Colorado State University professor's research may be key to protecting livestock and wildlife from a flesh-eating parasite.",
+      "ts": 1784931601000
+    },
     {
       "source": "Phys.org",
       "title": "Long-lived ytterbium states could sharpen quantum computing and atomic clocks",
@@ -686,20 +700,6 @@
       "title": "Phase singularity enabled polarization switchable analog spatial differentiation in an atomic MoS$_2$ planar Fabry-P\\'erot cavity",
       "url": "https://arxiv.org/abs/2607.21104",
       "summary": "arXiv:2607.21104v1 Announce Type: new Abstract: Reconfigurable analog optical computing requires rapid and efficient switching between core mathematical operations, such as first- and second-order spatial differentiation…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single event effects in the HCCStar ASICs for ITk strip upgrade",
-      "url": "https://arxiv.org/abs/2607.21116",
-      "summary": "arXiv:2607.21116v1 Announce Type: new Abstract: Triple Modular Redundancy (TMR) technology has been implemented in the design of the HCCStar to reduce digital state changes and ensure reliable operation. We tested the ef…",
-      "ts": 1784865600000
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Matrix-free phase-field modeling of fracture in micromechanical testing simulations of inelastic materials",
-      "url": "https://arxiv.org/abs/2607.21150",
-      "summary": "arXiv:2607.21150v1 Announce Type: new Abstract: Resolving steep damage gradients across diffuse cracks in the phase-field modeling of fracture favors the use of high-order finite elements, for which matrix-free methods c…",
       "ts": 1784865600000
     }
   ],
