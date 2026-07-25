@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-25T20:55:17.635Z",
+  "updated": "2026-07-25T21:58:49.006Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'I get caught up in the numbers game': Why useful social media content gets lost online",
+      "url": "https://phys.org/news/2026-07-caught-game-social-media-content.html",
+      "summary": "When Amy posts a photograph of herself on Instagram, she knows what will attract attention. A picture of her in a bikini may receive thousands of views. A post explaining the realities of living with a stoma (an opening …",
+      "ts": 1785013204000,
+      "publishedAt": "2026-07-25T21:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unwritten social rules, not government oversight, help keep forest land sustainable",
+      "url": "https://phys.org/news/2026-07-unwritten-social-oversight-forest-sustainable.html",
+      "summary": "Swidden agriculture—often called \"slash-and-burn\"—has been practiced on every inhabited continent throughout human history, and for decades it has been blamed for the destruction of the world's rainforests. However, a ne…",
+      "ts": 1785013203000,
+      "publishedAt": "2026-07-25T21:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Syria's ancient sites face widespread looting and systematic bulldozing, satellite images reveal",
@@ -783,22 +799,6 @@
       "title": "Monolithic Magneto-Optical Mach-Zehnder Isolator Using Laser-Annealed Iron Garnet on a Silicon Waveguide",
       "url": "https://arxiv.org/abs/2607.20964",
       "summary": "arXiv:2607.20964v1 Announce Type: new Abstract: Stable silicon photonic circuits require monolithically integrated optical isolators based on magneto-optical garnet. However, crystallizing the garnet by conventional furn…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Statistical Analysis of Speckle Fields",
-      "url": "https://arxiv.org/abs/2607.20966",
-      "summary": "arXiv:2607.20966v1 Announce Type: new Abstract: Speckles, or laser hot spots, are the intensity maxima of optically smoothed laser beams that seed instabilities, making a quantitative statistical description of speckles …",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fractal Scaling of Moffatt Vortices in Triangular Cavity Flow",
-      "url": "https://arxiv.org/abs/2607.20976",
-      "summary": "arXiv:2607.20976v1 Announce Type: new Abstract: This study examines the formation, quantification, and fractal characterization of corner vortices in slow viscous incompressible flow within a triangular cavity. The gover…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
