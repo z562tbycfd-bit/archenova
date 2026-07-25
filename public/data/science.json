@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-25T02:40:20.079Z",
+  "updated": "2026-07-25T03:29:37.036Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Prize honors discovery of altermagnetism as a third fundamental class of magnetism",
+      "url": "https://phys.org/news/2026-07-prize-honors-discovery-altermagnetism-fundamental.html",
+      "summary": "One of Europe's highest distinctions in condensed matter physics has been awarded for a discovery that is reshaping our understanding of magnetism: The 2026 Europhysics Prize of the European Physical Society (EPS) Conden…",
+      "ts": 1784948401000,
+      "publishedAt": "2026-07-25T03:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Research sheds light on migration, lifestyle, health and social status in the medieval metropolis Ypers",
@@ -791,14 +799,6 @@
       "title": "Experimental realization of a rotating radio-frequency ion trap for precision metrology",
       "url": "https://arxiv.org/abs/2607.21511",
       "summary": "arXiv:2607.21511v1 Announce Type: new Abstract: We discuss the experimental realization of the rotating radio-frequency (rrf) trap, proposed by Hasegawa and Bollinger [Phys. Rev. A 72, 043403 (2005)]. Compared to a tradi…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bayesian evidence adaptive pursuit to identify neutron sources with scatter-based spectrometers",
-      "url": "https://arxiv.org/abs/2607.21543",
-      "summary": "arXiv:2607.21543v1 Announce Type: new Abstract: Reliable neutron source identification is essential for nuclear nonproliferation, safeguards, and homeland security, but remains challenging because neutron spectral invers…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }

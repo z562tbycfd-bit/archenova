@@ -142,6 +142,16 @@ type PrioritizedSignal =
   strategicDirection: string;
 };
 
+type CivilizationIntelligenceMap = {
+  organScores: Record<OrganId, number>;
+
+  dominantOrgan: OrganId | null;
+
+  weakestOrgan: OrganId | null;
+
+  balanceScore: number;
+};
+
 type SignalLevel =
  | "DISCOVERY"
  | "BREAKTHROUGH"
@@ -607,6 +617,90 @@ function synthesizeSignals(
     synthesis,
     strategicDirection,
   };
+}
+
+function buildCivilizationMap(
+  signals: readonly PrioritizedSignal[],
+): CivilizationIntelligenceMap {
+
+  const organScores =
+    Object.fromEntries(
+      EPISTEME_ORGAN_ORDER.map(
+        organ => [organ, 0],
+      ),
+    ) as Record<
+      OrganId,
+      number
+    >;
+
+  signals.forEach(signal => {
+
+    const contribution =
+      signal.priorityScore;
+
+    signal.relatedOrgans?.forEach(
+      organ => {
+
+        organScores[organ] +=
+          contribution;
+
+      },
+    );
+
+  });
+
+  const entries =
+    Object.entries(
+      organScores,
+    ) as [
+      OrganId,
+      number,
+    ][];
+
+  const dominant =
+    [...entries]
+      .sort(
+        (a,b)=>
+          b[1]-a[1],
+      )[0];
+
+  const weakest =
+    [...entries]
+      .sort(
+        (a,b)=>
+          a[1]-b[1],
+      )[0];
+
+  const values =
+    entries.map(
+      e=>e[1],
+    );
+
+  const max =
+    Math.max(...values,1);
+
+  const min =
+    Math.min(...values);
+
+  const balanceScore =
+    normalizePercentage(
+      (min/max)*100,
+    );
+
+  return {
+
+    organScores,
+
+    dominantOrgan:
+      dominant?.[0] ?? null,
+
+    weakestOrgan:
+      weakest?.[0] ?? null,
+
+    balanceScore,
+
+  };
+
 }
 
 function formatPercentage(value: number): string {
@@ -2058,6 +2152,15 @@ const prioritizedSignals =
     [prioritizedSignals],
   );
 
+  const civilizationMap =
+  useMemo(
+    () =>
+      buildCivilizationMap(
+        prioritizedSignals,
+      ),
+    [prioritizedSignals],
+  );
+
 const signalSearchEntries =
   useMemo<SearchEntry[]>(
     () =>
@@ -2516,6 +2619,164 @@ const signalSearchEntries =
     </div>
 
   </div>
+</section>
+
+<section className="ci-map">
+
+<div className="ci-shell">
+
+<header className="ci-heading">
+
+<span>
+CIVILIZATION INTELLIGENCE MAP
+</span>
+
+<h2>
+Episteme Cognitive State
+</h2>
+
+</header>
+
+<div className="ci-map-grid">
+
+{EPISTEME_ORGAN_ORDER.map(
+organ=>{
+
+const value =
+civilizationMap.organScores[
+organ
+];
+
+const percent =
+Math.min(
+100,
+value,
+);
+
+return(
+
+<div
+key={organ}
+className="ci-map-card"
+>
+
+<header>
+
+<strong>
+
+{
+ORGAN_CONTENT[
+organ
+].title
+}
+
+</strong>
+
+<span>
+
+{Math.round(
+percent,
+)}%
+
+</span>
+
+</header>
+
+<div
+className="ci-map-track"
+>
+
+<div
+
+className="ci-map-fill"
+
+style={{
+width:
+`${percent}%`,
+}}
+
+ />
+
+</div>
+
+</div>
+
+);
+
+},
+)}
+
+</div>
+
+<footer
+className="ci-map-footer"
+>
+
+<div>
+
+<strong>
+Dominant
+</strong>
+
+<p>
+
+{
+civilizationMap
+.dominantOrgan &&
+ORGAN_CONTENT[
+civilizationMap
+.dominantOrgan
+].title
+}
+
+</p>
+
+</div>
+
+<div>
+
+<strong>
+Weakest
+</strong>
+
+<p>
+
+{
+civilizationMap
+.weakestOrgan &&
+ORGAN_CONTENT[
+civilizationMap
+.weakestOrgan
+].title
+}
+
+</p>
+
+</div>
+
+<div>
+
+<strong>
+Balance
+</strong>
+
+<p>
+
+{
+formatPercentage(
+civilizationMap
+.balanceScore,
+)
+}
+
+</p>
+
+</div>
+
+</footer>
+
+</div>
+
 </section>
 
       <section className="ci-recent">
@@ -5088,6 +5349,89 @@ color:var(--muted);
 font-size:13px;
 
 line-height:1.8;
+
+}
+
+.ci-map{
+
+padding:90px 0;
+
+}
+
+.ci-map-grid{
+
+display:grid;
+
+gap:18px;
+
+}
+
+.ci-map-card{
+
+padding:22px;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:18px;
+
+background:
+rgba(255,255,255,.03);
+
+}
+
+.ci-map-card header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:12px;
+
+}
+
+.ci-map-track{
+
+height:8px;
+
+border-radius:999px;
+
+overflow:hidden;
+
+background:
+rgba(255,255,255,.08);
+
+}
+
+.ci-map-fill{
+
+height:100%;
+
+background:
+linear-gradient(
+90deg,
+#68bfea,
+#b1e4ff
+);
+
+}
+
+.ci-map-footer{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,1fr);
+
+gap:20px;
+
+margin-top:32px;
+
+padding-top:24px;
+
+border-top:
+1px solid rgba(255,255,255,.08);
 
 }
 
