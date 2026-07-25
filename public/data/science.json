@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-25T19:10:04.039Z",
+  "updated": "2026-07-25T20:55:17.635Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Syria's ancient sites face widespread looting and systematic bulldozing, satellite images reveal",
+      "url": "https://phys.org/news/2026-07-syria-ancient-sites-widespread-looting.html",
+      "summary": "Dozens of archaeological sites were destroyed by looting during Syria's civil war, which began in 2011 and lasted until 2024. Because the last comprehensive analysis was published in 2017, the extent of more recent damag…",
+      "ts": 1785009601000,
+      "publishedAt": "2026-07-25T20:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New model maps how social media users repeatedly spread misinformation",
@@ -791,14 +799,6 @@
       "title": "Fractal Scaling of Moffatt Vortices in Triangular Cavity Flow",
       "url": "https://arxiv.org/abs/2607.20976",
       "summary": "arXiv:2607.20976v1 Announce Type: new Abstract: This study examines the formation, quantification, and fractal characterization of corner vortices in slow viscous incompressible flow within a triangular cavity. The gover…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polarization vector conjugation in a photonic integrated circuit",
-      "url": "https://arxiv.org/abs/2607.20980",
-      "summary": "arXiv:2607.20980v1 Announce Type: new Abstract: We show how to perform polarization conjugation of light in a simple apparatus without any nonlinear optical materials, based on self-configuring Mach-Zehnder interferomete…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }

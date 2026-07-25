@@ -1,6 +1,61 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "space-syria-s-ancient-sites-face-widespread-looting-and-systematic-bulldozing-satellit",
+    "title": "Syria's ancient sites face widespread looting and systematic bulldozing, satellite images reveal",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-syria-ancient-sites-widespread-looting.html",
+    "summary": "Dozens of archaeological sites were destroyed by looting during Syria's civil war, which began in 2011 and lasted until 2024. Because the last comprehensive analysis was published in 2017, the extent of more recent damag…",
+    "coreInsight": "Syria's ancient sites face widespread looting and systematic bulldozing, satellite images reveal indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "Dozens of archaeological sites were destroyed by looting during Syria's civil war, which began in 2011 and lasted until 2024. Because the last comprehensive analysis was published in 2017, the extent of more recent damag…",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 9.7,
+      "economic": 8.5,
+      "civilization": 10,
+      "overall": 9.4,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1785009601000
+  },
+  {
     "slug": "general-new-model-maps-how-social-media-users-repeatedly-spread-misinformation",
     "title": "New model maps how social media users repeatedly spread misinformation",
     "category": "General",
@@ -2041,61 +2096,6 @@ export const generatedResearchReports =
       "classification": "Biological Capability Signal"
     },
     "ts": 1784920803000
-  },
-  {
-    "slug": "bio-new-methods-for-removing-harmful-nitrates-from-drinking-water-identified",
-    "title": "New methods for removing harmful nitrates from drinking water identified",
-    "category": "Bio",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-07-methods-nitrates.html",
-    "summary": "Nitrate contamination of drinking water poses a major health concern, particularly in agricultural communities where fertilizers, livestock manure and septic systems can leach nitrates into groundwater. Many rural househ…",
-    "coreInsight": "New methods for removing harmful nitrates from drinking water identified indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "Nitrate contamination of drinking water poses a major health concern, particularly in agricultural communities where fertilizers, livestock manure and septic systems can leach nitrates into groundwater. Many rural househ…",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 8.3,
-      "economic": 8.8,
-      "civilization": 9.4,
-      "overall": 8.9,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1784919601000
   },
   {
     "slug": "ai-fda-advisory-panel-narrowly-rejects-compounding-of-one-peptide-backs-two-others",
@@ -5847,6 +5847,61 @@ export const archeNovaTopSignals =
     "ts": 1784865600000
   },
   {
+    "slug": "space-syria-s-ancient-sites-face-widespread-looting-and-systematic-bulldozing-satellit",
+    "title": "Syria's ancient sites face widespread looting and systematic bulldozing, satellite images reveal",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-syria-ancient-sites-widespread-looting.html",
+    "summary": "Dozens of archaeological sites were destroyed by looting during Syria's civil war, which began in 2011 and lasted until 2024. Because the last comprehensive analysis was published in 2017, the extent of more recent damag…",
+    "coreInsight": "Syria's ancient sites face widespread looting and systematic bulldozing, satellite images reveal indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "Dozens of archaeological sites were destroyed by looting during Syria's civil war, which began in 2011 and lasted until 2024. Because the last comprehensive analysis was published in 2017, the extent of more recent damag…",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 9.7,
+      "economic": 8.5,
+      "civilization": 10,
+      "overall": 9.4,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1785009601000
+  },
+  {
     "slug": "ai-lightning-strikes-long-march-3b-after-liftoff-kinetica-1-launches-5-satellites",
     "title": "Lightning strikes Long March 3B after liftoff, Kinetica-1 launches 5 satellites",
     "category": "AI",
@@ -6010,61 +6065,6 @@ export const archeNovaTopSignals =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1784911382000
-  },
-  {
-    "slug": "space-nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis",
-    "title": "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis",
-    "category": "Space",
-    "source": "NASA",
-    "originalUrl": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/",
-    "summary": "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St. Louis, Missis…",
-    "coreInsight": "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
-    "scientificSignal": "NASA and Blue Origin announced Friday they recently agreed to conduct second stage hot fire testing for the company’s New Glenn rocket on the B-2 test stand at the agency’s Stennis Space Center near Bay St. Louis, Missis…",
-    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
-    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
-    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
-    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
-    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Launch and deployment cost",
-      "Mission reliability",
-      "Orbital operations risk",
-      "Regulatory and geopolitical constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
-    "technologyRoadmap": [
-      "Mission or physical principle",
-      "Engineering prototype",
-      "Orbital or planetary deployment",
-      "Space infrastructure integration",
-      "Expansion capability beyond Earth"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Operational missions and infrastructure testing.",
-      "mid": "5–15 Years: Orbital infrastructure expansion.",
-      "far": "15–30 Years: Sustainable off-Earth operational capability."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "High",
-      "timeHorizon": "15–30 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.8,
-      "engineering": 9.6,
-      "economic": 8.4,
-      "civilization": 10,
-      "overall": 9.3,
-      "classification": "Expansion Capability Signal"
-    },
-    "ts": 1784907021000
   }
 ];
 
@@ -6414,6 +6414,63 @@ export const archeNovaWatchlist =
     "rank": 6
   },
   {
+    "slug": "space-syria-s-ancient-sites-face-widespread-looting-and-systematic-bulldozing-satellit",
+    "title": "Syria's ancient sites face widespread looting and systematic bulldozing, satellite images reveal",
+    "category": "Space",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-syria-ancient-sites-widespread-looting.html",
+    "summary": "Dozens of archaeological sites were destroyed by looting during Syria's civil war, which began in 2011 and lasted until 2024. Because the last comprehensive analysis was published in 2017, the extent of more recent damag…",
+    "coreInsight": "Syria's ancient sites face widespread looting and systematic bulldozing, satellite images reveal indicates a possible shift in observation, orbital infrastructure, communications, logistics, or long-term expansion capability.",
+    "scientificSignal": "Dozens of archaeological sites were destroyed by looting during Syria's civil war, which began in 2011 and lasted until 2024. Because the last comprehensive analysis was published in 2017, the extent of more recent damag…",
+    "whyItMatters": "This matters because space systems expand civilization’s ability to observe Earth, coordinate infrastructure, extend communications, and build long-term expansion pathways.",
+    "implementationPotential": "Implementation potential lies in applying this signal to satellites, launch systems, orbital operations, remote sensing, space manufacturing, habitation, and planetary coordination.",
+    "strategicRelevance": "Strategically relevant for satellites, launch systems, sensing, communications, navigation, orbital infrastructure, and expansion capability.",
+    "infrastructureImpact": "If deployed, this could strengthen space infrastructure: orbital platforms, communication networks, Earth observation, navigation, off-Earth logistics, and settlement capability.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the movement from planet-bound civilization toward distributed observational, operational, and expansion capability.",
+    "capitalImplication": "Capital implication: monitor for opportunities in satellites, launch, sensing, communications, space logistics, orbital services, and dual-use infrastructure.",
+    "civilizationFunction": "Infrastructure Formation",
+    "keyConstraints": [
+      "Launch and deployment cost",
+      "Mission reliability",
+      "Orbital operations risk",
+      "Regulatory and geopolitical constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from mission announcement or demonstration into operational deployment, repeatability, cost reduction, and infrastructure integration.",
+    "technologyRoadmap": [
+      "Mission or physical principle",
+      "Engineering prototype",
+      "Orbital or planetary deployment",
+      "Space infrastructure integration",
+      "Expansion capability beyond Earth"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Operational missions and infrastructure testing.",
+      "mid": "5–15 Years: Orbital infrastructure expansion.",
+      "far": "15–30 Years: Sustainable off-Earth operational capability."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "High",
+      "timeHorizon": "15–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.9,
+      "engineering": 9.7,
+      "economic": 8.5,
+      "civilization": 10,
+      "overall": 9.4,
+      "classification": "Expansion Capability Signal"
+    },
+    "ts": 1785009601000,
+    "trend": "Stable",
+    "rank": 7
+  },
+  {
     "slug": "ai-lightning-strikes-long-march-3b-after-liftoff-kinetica-1-launches-5-satellites",
     "title": "Lightning strikes Long March 3B after liftoff, Kinetica-1 launches 5 satellites",
     "category": "AI",
@@ -6468,7 +6525,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784889173000,
     "trend": "Stable",
-    "rank": 7
+    "rank": 8
   },
   {
     "slug": "space-spacex-launches-starship-on-another-test-flight-this-time-with-the-most-advanced",
@@ -6525,7 +6582,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784999707000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 9
   },
   {
     "slug": "space-new-crew-members-welcomed-to-international-space-station",
@@ -6582,7 +6639,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784911382000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 10
   },
   {
     "slug": "space-nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis",
@@ -6639,7 +6696,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784907021000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 11
   },
   {
     "slug": "space-office-of-space-commerce-to-move-ahead-on-mission-authorization",
@@ -6696,7 +6753,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784894674000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 12
   },
   {
     "slug": "general-scalable-high-resolution-ancestry-deconvolution-for-genomic-data",
@@ -6754,7 +6811,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784937600000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 13
   },
   {
     "slug": "ai-the-download-an-organ-transplant-breakthrough-and-homegrown-chinese-chips",
@@ -6811,7 +6868,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784895000000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 14
   },
   {
     "slug": "energy-the-hunt-for-a-natural-molecule-that-can-release-cellular-energy",
@@ -6869,7 +6926,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784995202000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 15
   },
   {
     "slug": "bio-scientists-turn-modern-biobanks-into-a-new-window-on-human-evolution",
@@ -6927,7 +6984,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784922001000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 16
   },
   {
     "slug": "ai-nasa-s-escapade-snaps-family-portrait-of-earth-moon",
@@ -6984,7 +7041,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784915226000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 17
   },
   {
     "slug": "space-earth-from-space-agricultural-patchwork",
@@ -7041,7 +7098,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1784880000000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 18
   },
   {
     "slug": "bio-a-single-trace-surface-integral-equation-solver-for-simulation-of-open-bianisotr",
@@ -7098,63 +7155,6 @@ export const archeNovaWatchlist =
       "classification": "Biological Capability Signal"
     },
     "ts": 1784865600000,
-    "trend": "Stable",
-    "rank": 18
-  },
-  {
-    "slug": "bio-new-methods-for-removing-harmful-nitrates-from-drinking-water-identified",
-    "title": "New methods for removing harmful nitrates from drinking water identified",
-    "category": "Bio",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-07-methods-nitrates.html",
-    "summary": "Nitrate contamination of drinking water poses a major health concern, particularly in agricultural communities where fertilizers, livestock manure and septic systems can leach nitrates into groundwater. Many rural househ…",
-    "coreInsight": "New methods for removing harmful nitrates from drinking water identified indicates a possible shift in biological resilience, medical capability, diagnostics, therapeutics, or health-system adaptation.",
-    "scientificSignal": "Nitrate contamination of drinking water poses a major health concern, particularly in agricultural communities where fertilizers, livestock manure and septic systems can leach nitrates into groundwater. Many rural househ…",
-    "whyItMatters": "This matters because biological resilience, health infrastructure, and adaptive medicine directly affect human capability, institutional stability, and long-term societal continuity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into diagnostics, therapeutics, clinical workflows, hospital systems, preventive medicine, and human adaptive-capacity infrastructure.",
-    "strategicRelevance": "Strategically relevant for diagnostics, therapeutics, biosecurity, healthcare delivery, longevity systems, and human adaptive capacity.",
-    "infrastructureImpact": "If adopted, this could affect healthcare infrastructure: hospitals, diagnostics, pharmaceutical systems, public health networks, bio-manufacturing, and longevity systems.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of biological resilience, healthspan, adaptive capacity, and life-supporting institutions.",
-    "capitalImplication": "Capital implication: monitor for platform potential in diagnostics, therapeutics, biotechnology infrastructure, clinical workflows, medical data systems, and healthcare delivery.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Clinical validation",
-      "Regulatory approval",
-      "Safety and efficacy evidence",
-      "Healthcare-system adoption"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from discovery into validation, clinical evidence, regulatory pathways, and adoption by healthcare institutions.",
-    "technologyRoadmap": [
-      "Biological or clinical discovery",
-      "Diagnostic or therapeutic prototype",
-      "Clinical validation",
-      "Healthcare system adoption",
-      "Adaptive health infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Clinical trials and early healthcare adoption.",
-      "mid": "5–15 Years: Integration into healthcare systems and preventive medicine.",
-      "far": "15–30 Years: Adaptive health infrastructure and longevity systems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "10–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.9,
-      "engineering": 8.3,
-      "economic": 8.8,
-      "civilization": 9.4,
-      "overall": 8.9,
-      "classification": "Biological Resilience Signal"
-    },
-    "ts": 1784919601000,
     "trend": "Stable",
     "rank": 19
   },
