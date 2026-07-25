@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-25T09:50:28.841Z",
+  "updated": "2026-07-25T11:12:45.430Z",
   "items": [
     {
       "source": "Phys.org",
@@ -38,6 +38,22 @@
       "source": "Nature Communications",
       "title": "Finding the perfect promoter for Cas9 in homing gene drives using single cell transcriptome data",
       "url": "https://www.nature.com/articles/s41467-026-76107-0",
+      "summary": "",
+      "ts": 1784937600000,
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Scalable high resolution ancestry deconvolution for genomic data",
+      "url": "https://www.nature.com/articles/s41467-026-75391-0",
+      "summary": "",
+      "ts": 1784937600000,
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Retarding moisture-induced chemical degradation of Yttrium Tellurides by tailoring grain boundary chemistry",
+      "url": "https://www.nature.com/articles/s41467-026-76056-8",
       "summary": "",
       "ts": 1784937600000,
       "publishedAt": "2026-07-25T00:00:00.000Z"
@@ -363,38 +379,6 @@
       "publishedAt": "2026-07-24T10:00:00.000Z"
     },
     {
-      "source": "APS Physical Review Letters",
-      "title": "Intrinsic Nernst Effect from Berry Curvature in Superconductors",
-      "url": "http://link.aps.org/doi/10.1103/jhgx-c8f1",
-      "summary": "Author(s): Tzu-Chi Hsieh, Cong Xiao, and Yi-Ting Hsu The Nernst effect acts as direct probe of Berry curvature to test topological superconductivity in 2D material with spin-orbit coupling. [Phys. Rev. Lett. 137, 046002]…",
-      "ts": 1784887200000,
-      "publishedAt": "2026-07-24T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Valley-Engineered Landau Polaritons in a van der Waals Semiconductor Microcavity",
-      "url": "http://link.aps.org/doi/10.1103/dldv-n4f2",
-      "summary": "Author(s): Xinyue Zhang, Hongming Zhang, Yaofeng Zhu, Hang Zhou, Song Luo, Long Xu, Xin Li, Yuquan Zhou, Yan Liu, Zheng Lv, Yuxin Duan, Zhao Xu, Haodong Cheng, Long Zhang, and Zhanghai Chen Integrating a WSe2 monolayer i…",
-      "ts": 1784887200000,
-      "publishedAt": "2026-07-24T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Three-Dimensional Electronic Structures in Superconducting Ruddlesden-Popper Bilayer Nickelate Films",
-      "url": "http://link.aps.org/doi/10.1103/466c-8sl4",
-      "summary": "Author(s): Yueying Li, Lizhi Xu, Wei Lv, Zihao Nie, Zechao Wang, Yu Miao, Jianchang Shen, Guangdi Zhou, Wenhua Song, Heng Wang, Haoliang Huang, Junfeng He, Jin-Feng Jia, Peng Li, Qi-Kun Xue, and Zhuoyu Chen Angle-resolve…",
-      "ts": 1784887200000,
-      "publishedAt": "2026-07-24T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Interaction-Driven Topological Transitions in Monolayer ${\\mathrm{TaIrTe}}_{4}$",
-      "url": "http://link.aps.org/doi/10.1103/456g-q7bd",
-      "summary": "Author(s): Jiangxu Li, Jian Tang, Cheng Xu, Louis Primeau, Thomas Siyuan Ding, Rahul Soni, Tiema Qian, Kenji Watanabe, Takashi Taniguchi, Ni Ni, Adrian Del Maestro, Qiong Ma, and Yang Zhang Theoretical and experimental m…",
-      "ts": 1784887200000,
-      "publishedAt": "2026-07-24T10:00:00.000Z"
-    },
-    {
       "source": "APS PR Applied",
       "title": "High-order anharmonicity and transport decoupling synergistically enable high thermoelectric performance in ${\\mathrm{LiXTe}}_{2}\\mathbf{(}\\mathrm{X}=\\mathrm{Al},\\mathrm{Ga},\\mathrm{In}\\mathbf{)}$",
       "url": "http://link.aps.org/doi/10.1103/mdrw-jbqb",
@@ -431,6 +415,38 @@
       "title": "Illumination-coupling bias breaks rotation equivariance in x-ray-scattering tensor tomography with a circular grating",
       "url": "http://link.aps.org/doi/10.1103/tsy5-6mvq",
       "summary": "Author(s): Ruifeng Liu, Runtao Deng, Peixuan Song, Matias Kagias, Li Zhang, and Zhentian Wang X-ray-scattering tensor tomography with circular gratings can reveal unresolved microstructural anisotropy in materials, inclu…",
+      "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Intrinsic Nernst Effect from Berry Curvature in Superconductors",
+      "url": "http://link.aps.org/doi/10.1103/jhgx-c8f1",
+      "summary": "Author(s): Tzu-Chi Hsieh, Cong Xiao, and Yi-Ting Hsu The Nernst effect acts as direct probe of Berry curvature to test topological superconductivity in 2D material with spin-orbit coupling. [Phys. Rev. Lett. 137, 046002]…",
+      "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Valley-Engineered Landau Polaritons in a van der Waals Semiconductor Microcavity",
+      "url": "http://link.aps.org/doi/10.1103/dldv-n4f2",
+      "summary": "Author(s): Xinyue Zhang, Hongming Zhang, Yaofeng Zhu, Hang Zhou, Song Luo, Long Xu, Xin Li, Yuquan Zhou, Yan Liu, Zheng Lv, Yuxin Duan, Zhao Xu, Haodong Cheng, Long Zhang, and Zhanghai Chen Integrating a WSe2 monolayer i…",
+      "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Three-Dimensional Electronic Structures in Superconducting Ruddlesden-Popper Bilayer Nickelate Films",
+      "url": "http://link.aps.org/doi/10.1103/466c-8sl4",
+      "summary": "Author(s): Yueying Li, Lizhi Xu, Wei Lv, Zihao Nie, Zechao Wang, Yu Miao, Jianchang Shen, Guangdi Zhou, Wenhua Song, Heng Wang, Haoliang Huang, Junfeng He, Jin-Feng Jia, Peng Li, Qi-Kun Xue, and Zhuoyu Chen Angle-resolve…",
+      "ts": 1784887200000,
+      "publishedAt": "2026-07-24T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Interaction-Driven Topological Transitions in Monolayer ${\\mathrm{TaIrTe}}_{4}$",
+      "url": "http://link.aps.org/doi/10.1103/456g-q7bd",
+      "summary": "Author(s): Jiangxu Li, Jian Tang, Cheng Xu, Louis Primeau, Thomas Siyuan Ding, Rahul Soni, Tiema Qian, Kenji Watanabe, Takashi Taniguchi, Ni Ni, Adrian Del Maestro, Qiong Ma, and Yang Zhang Theoretical and experimental m…",
       "ts": 1784887200000,
       "publishedAt": "2026-07-24T10:00:00.000Z"
     },
@@ -783,22 +799,6 @@
       "title": "Laser Remelting for Reduced Porosity on Additively Manufactured Aluminium Mirrors",
       "url": "https://arxiv.org/abs/2607.21253",
       "summary": "arXiv:2607.21253v1 Announce Type: new Abstract: Additively manufactured (AM) AlSi10Mg mirrors are fabricated through laser powder bed fusion (LPBF), allowing the use of complex geometries such as lattices and organic str…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determination of fundamental properties of nitrogen from first principles. III. Temperature and frequency dependence of the molecular polarizability and magnetic susceptibility",
-      "url": "https://arxiv.org/abs/2607.21261",
-      "summary": "arXiv:2607.21261v1 Announce Type: new Abstract: This work is the third part of the series of papers that focus on the theoretical determination of the properties of nitrogen that are relevant in metrology. Here we presen…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A general synthetic iterative solver for axisymmetric rarefied gas and electrostatic charged-particle flows",
-      "url": "https://arxiv.org/abs/2607.21277",
-      "summary": "arXiv:2607.21277v1 Announce Type: new Abstract: An axisymmetric general synthetic iterative scheme (AxiGSIS) is proposed to simulate rarefied gas flows and charged particle transport under prescribed electrostatic fields…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
