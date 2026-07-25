@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-25T13:39:14.097Z",
+  "updated": "2026-07-25T15:04:43.730Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Herbivore species dynamics is key to grassland food web stability",
+      "url": "https://phys.org/news/2026-07-herbivore-species-dynamics-key-grassland.html",
+      "summary": "Ecologists have long understood that biodiversity is paramount to ecosystem stability. Until now, however, most ecological research has focused on a single layer of ecological life at a time—for example, plant or animal …",
+      "ts": 1784991601000,
+      "publishedAt": "2026-07-25T15:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Rare blue optical transient points to possible new class of cosmic explosion",
@@ -791,14 +799,6 @@
       "title": "A physics-assisted deep neural network-based closure framework for velocity gradient dynamics in compressible flows with vibrational non-equilibrium",
       "url": "https://arxiv.org/abs/2607.21152",
       "summary": "arXiv:2607.21152v1 Announce Type: new Abstract: In this study, we propose a dynamical model for the evolution of velocity gradients in compressible turbulent flows with vibrational non-equilibrium effects, using physics-…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Determination of fundamental properties of nitrogen from first principles. I. Atomic polarizabilities and long-range dispersion coefficients",
-      "url": "https://arxiv.org/abs/2607.21172",
-      "summary": "arXiv:2607.21172v1 Announce Type: new Abstract: This work is the first in a series of papers in which we perform theoretical calculations of various fundamental properties of nitrogen relevant for gas thermometry experim…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
