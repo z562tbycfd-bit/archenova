@@ -128,6 +128,20 @@ type PrioritizedSignal =
     rank: number;
   };
 
+  type CrossSignalSynthesis = {
+  dominantDomain: string;
+
+  dominantOrgan: OrganId | null;
+
+  highestPrioritySignal: string;
+
+  watchpoint: string;
+
+  synthesis: string;
+
+  strategicDirection: string;
+};
+
 type SignalLevel =
  | "DISCOVERY"
  | "BREAKTHROUGH"
@@ -510,6 +524,89 @@ function getPriorityLevel(
   }
 
   return "MONITOR";
+}
+
+function synthesizeSignals(
+  signals: readonly PrioritizedSignal[],
+): CrossSignalSynthesis {
+  if (signals.length === 0) {
+    return {
+      dominantDomain: "Unknown",
+      dominantOrgan: null,
+      highestPrioritySignal: "",
+      watchpoint:
+        "No significant intelligence signals are currently available.",
+      synthesis:
+        "Cross-signal synthesis is unavailable.",
+      strategicDirection:
+        "Continue monitoring.",
+    };
+  }
+
+  const top = signals[0];
+
+  const domainCounts =
+    new Map<string, number>();
+
+  const organCounts =
+    new Map<OrganId, number>();
+
+  signals.forEach((signal) => {
+    signal.civilizationDomains?.forEach(
+      (domain) => {
+        domainCounts.set(
+          domain,
+          (domainCounts.get(domain) ?? 0) + 1,
+        );
+      },
+    );
+
+    signal.relatedOrgans?.forEach(
+      (organ) => {
+        organCounts.set(
+          organ,
+          (organCounts.get(organ) ?? 0) + 1,
+        );
+      },
+    );
+  });
+
+  const dominantDomain =
+    [...domainCounts.entries()]
+      .sort(
+        (a, b) =>
+          b[1] - a[1],
+      )[0]?.[0] ??
+    "General";
+
+  const dominantOrgan =
+    [...organCounts.entries()]
+      .sort(
+        (a, b) =>
+          b[1] - a[1],
+      )[0]?.[0] ??
+    null;
+
+  const watchpoint =
+    top.watchpoint ??
+    "Monitor structural changes across science, engineering, and governance.";
+
+  const synthesis =
+    `Current intelligence indicates that ${dominantDomain} is emerging as the dominant civilizational domain. The highest-priority signal suggests a transition toward larger systemic consequences requiring coordinated validation and implementation.`;
+
+  const strategicDirection =
+    top.strategicRelevance ??
+    "Continue multidisciplinary validation.";
+
+  return {
+    dominantDomain,
+    dominantOrgan,
+    highestPrioritySignal:
+      top.title,
+    watchpoint,
+    synthesis,
+    strategicDirection,
+  };
 }
 
 function formatPercentage(value: number): string {
@@ -1952,6 +2049,15 @@ const prioritizedSignals =
     [recentSignals],
   );
 
+  const crossSignalSynthesis =
+  useMemo(
+    () =>
+      synthesizeSignals(
+        prioritizedSignals,
+      ),
+    [prioritizedSignals],
+  );
+
 const signalSearchEntries =
   useMemo<SearchEntry[]>(
     () =>
@@ -2235,6 +2341,108 @@ const signalSearchEntries =
       </section>
 
       <section className="ci-priority">
+
+<section className="ci-synthesis">
+
+  <div className="ci-shell">
+
+    <header className="ci-heading">
+
+      <span>
+        CROSS-SIGNAL SYNTHESIS
+      </span>
+
+      <h2>
+        Civilization Insight
+      </h2>
+
+    </header>
+
+    <article
+      className="ci-synthesis-card"
+    >
+
+      <div>
+
+        <small>
+          Dominant Domain
+        </small>
+
+        <strong>
+          {
+            crossSignalSynthesis
+              .dominantDomain
+          }
+        </strong>
+
+      </div>
+
+      <div>
+
+        <small>
+          Highest Priority
+        </small>
+
+        <strong>
+          {
+            crossSignalSynthesis
+              .highestPrioritySignal
+          }
+        </strong>
+
+      </div>
+
+      <div>
+
+        <small>
+          Watchpoint
+        </small>
+
+        <p>
+          {
+            crossSignalSynthesis
+              .watchpoint
+          }
+        </p>
+
+      </div>
+
+      <div>
+
+        <small>
+          Cross-Signal Synthesis
+        </small>
+
+        <p>
+          {
+            crossSignalSynthesis
+              .synthesis
+          }
+        </p>
+
+      </div>
+
+      <div>
+
+        <small>
+          Strategic Direction
+        </small>
+
+        <p>
+          {
+            crossSignalSynthesis
+              .strategicDirection
+          }
+        </p>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
   <div className="ci-shell">
 
     <header className="ci-heading">
@@ -4817,6 +5025,72 @@ font-size:16px;
 font-weight:500;
 
 }
+
+.ci-synthesis{
+padding:90px 0 10px;
+}
+
+.ci-synthesis-card{
+
+display:grid;
+
+gap:28px;
+
+padding:34px;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:26px;
+
+background:
+linear-gradient(
+145deg,
+rgba(255,255,255,.05),
+rgba(255,255,255,.01)
+);
+
+}
+
+.ci-synthesis-card small{
+
+display:block;
+
+color:var(--dim);
+
+font-size:9px;
+
+letter-spacing:.18em;
+
+text-transform:uppercase;
+
+}
+
+.ci-synthesis-card strong{
+
+display:block;
+
+margin-top:8px;
+
+font-size:26px;
+
+font-weight:320;
+
+line-height:1.3;
+
+}
+
+.ci-synthesis-card p{
+
+margin-top:10px;
+
+color:var(--muted);
+
+font-size:13px;
+
+line-height:1.8;
+
+}
+
 
         .ci-controls {
           padding: 20px 0 105px;
