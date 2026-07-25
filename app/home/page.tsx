@@ -55,34 +55,36 @@ export default function Home() {
   </div>
 </section>
 
-{/* =========================
-   ORIGIN GATE
-========================= */}
 <section
   id="origin-gate"
   data-home-section
-  className="home-page twin-page"
+  className="home-page twin-page origin-gate-page"
 >
-  <div className="an-container" style={{ textAlign: "center" }}>
+  <div className="an-container">
     <Reveal>
-      <div className="an-frame">
-        <span />
-        <p>ORIGIN</p>
-        <span />
+      <div className="origin-gate-panel">
+        <div className="an-frame">
+          <span />
+          <p>ORIGIN</p>
+          <span />
+        </div>
+
+        <h2 className="an-heading">
+          Origin of ArcheNova
+        </h2>
+
+        <p
+          className="an-body"
+          style={{ marginInline: "auto" }}
+        >
+          Origin connects why ArcheNova exists, what it seeks, what civilization
+          means, and the scale at which it must operate.
+        </p>
+
+        <Link href="/origin" className="an-button">
+          <p>Enter Origin</p>
+        </Link>
       </div>
-
-      <h2 className="an-heading">
-        Origin of ArcheNova
-      </h2>
-
-      <p className="an-body" style={{ marginInline: "auto" }}>
-        Origin connects why ArcheNova exists, what it seeks, what civilization
-        means, and the scale at which it must operate.
-      </p>
-
-      <Link href="/origin" className="an-button">
-        <p>Enter Origin</p>
-      </Link>
     </Reveal>
   </div>
 </section>

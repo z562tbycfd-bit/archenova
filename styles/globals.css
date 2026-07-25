@@ -29304,3 +29304,116 @@ linear-gradient(
     display: none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ORIGIN — BLACK BLURRED FILM
+========================================================== */
+
+.origin-gate-page {
+  position: relative;
+}
+
+.origin-gate-panel {
+  position: relative;
+  width: min(100%, 1120px);
+  margin-inline: auto;
+
+  padding:
+    clamp(4rem, 8vw, 7rem)
+    clamp(1.5rem, 6vw, 5rem);
+
+  text-align: center;
+
+  border: 0;
+  border-radius: 30px;
+  background: transparent;
+  box-shadow: none;
+
+  /* フィルムを角丸内に収める */
+  overflow: hidden;
+}
+
+/*
+  黒く透ける「背景ぼかしフィルム」本体
+*/
+.origin-gate-panel::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+
+  /* 半透明の真っ黒なフィルム */
+  background: rgba(0, 0, 0, 0.48);
+
+  /* フィルムの背後にある星空をぼかす */
+  -webkit-backdrop-filter:
+    blur(32px)
+    brightness(0.58)
+    saturate(65%);
+
+  backdrop-filter:
+    blur(32px)
+    brightness(0.58)
+    saturate(65%);
+
+  pointer-events: none;
+}
+
+/* ORIGINの文字とボタンをフィルムより前面へ */
+.origin-gate-panel > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+  .origin-gate-panel {
+    width: 100%;
+
+    padding:
+      3.5rem
+      1.25rem;
+
+    border-radius: 22px;
+  }
+
+  .origin-gate-panel::before {
+    background: rgba(0, 0, 0, 0.52);
+
+    -webkit-backdrop-filter:
+      blur(28px)
+      brightness(0.56)
+      saturate(62%);
+
+    backdrop-filter:
+      blur(28px)
+      brightness(0.56)
+      saturate(62%);
+  }
+}
+
+@media (max-width: 430px) {
+  .origin-gate-panel {
+    padding:
+      3.25rem
+      1.1rem;
+
+    border-radius: 18px;
+  }
+}
