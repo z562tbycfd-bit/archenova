@@ -108,21 +108,6 @@ export const senateAgenda =
   {
     "id": "agenda-8",
     "rank": 8,
-    "title": "Evolutionary Le Chatelier's Principle: Phenotypic Plasticity and Genetic Assimilation via Timescale Separation in the Price Equation",
-    "slug": "bio-evolutionary-le-chatelier-s-principle-phenotypic-plasticity-and-genetic-assimila",
-    "category": "Bio",
-    "source": "arXiv q-bio",
-    "score": 9.4,
-    "priority": "High",
-    "stage": "Open Deliberation",
-    "constitutionalQuestion": "Does this strengthen adaptive capacity?",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "architectureHandoff": "Adaptive Capacity Systems",
-    "status": "Open"
-  },
-  {
-    "id": "agenda-9",
-    "rank": 9,
     "title": "New Crew Members Welcomed to International Space Station",
     "slug": "space-new-crew-members-welcomed-to-international-space-station",
     "category": "Space",
@@ -136,8 +121,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-10",
-    "rank": 10,
+    "id": "agenda-9",
+    "rank": 9,
     "title": "NASA to Support Blue Origin New Glenn Rocket Testing, Advance Artemis",
     "slug": "space-nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis",
     "category": "Space",
@@ -151,8 +136,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-11",
-    "rank": 11,
+    "id": "agenda-10",
+    "rank": 10,
     "title": "Office of Space Commerce to move ahead on mission authorization",
     "slug": "space-office-of-space-commerce-to-move-ahead-on-mission-authorization",
     "category": "Space",
@@ -166,8 +151,8 @@ export const senateAgenda =
     "status": "Open"
   },
   {
-    "id": "agenda-12",
-    "rank": 12,
+    "id": "agenda-11",
+    "rank": 11,
     "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
     "slug": "ai-the-download-an-organ-transplant-breakthrough-and-homegrown-chinese-chips",
     "category": "AI",
@@ -178,6 +163,21 @@ export const senateAgenda =
     "constitutionalQuestion": "How should this intelligence capability be governed?",
     "whyItMatters": "This matters because computation strengthens prediction, automation, discovery, coordination, simulation, and decision-making across civilization.",
     "architectureHandoff": "Intelligence Infrastructure",
+    "status": "Open"
+  },
+  {
+    "id": "agenda-12",
+    "rank": 12,
+    "title": "Scientists turn modern biobanks into a new window on human evolution",
+    "slug": "bio-scientists-turn-modern-biobanks-into-a-new-window-on-human-evolution",
+    "category": "Bio",
+    "source": "Phys.org",
+    "score": 9,
+    "priority": "High",
+    "stage": "Open Deliberation",
+    "constitutionalQuestion": "Does this strengthen adaptive capacity?",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "architectureHandoff": "Adaptive Capacity Systems",
     "status": "Open"
   }
 ];

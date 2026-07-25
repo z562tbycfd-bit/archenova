@@ -1,38 +1,6 @@
 import Link from "next/link";
 import Reveal from "./Reveal";
-
-const intelligenceLayers = [
-  {
-    no: "Ⅰ",
-    title: "Observation",
-    phrase: "Perceiving reality",
-  },
-  {
-    no: "Ⅱ",
-    title: "Understanding",
-    phrase: "Constructing meaning",
-  },
-  {
-    no: "Ⅲ",
-    title: "Reasoning",
-    phrase: "Generating judgment",
-  },
-  {
-    no: "Ⅳ",
-    title: "Design",
-    phrase: "Architecting civilization",
-  },
-  {
-    no: "Ⅴ",
-    title: "Realization",
-    phrase: "Turning architecture into reality",
-  },
-  {
-    no: "Ⅵ",
-    title: "Memory",
-    phrase: "Preserving civilizational knowledge",
-  },
-];
+import CivilizationPulseStream from "./civilization/CivilizationPulseStream";
 
 export default function CivilizationIntelligencePortal() {
   return (
@@ -43,6 +11,7 @@ export default function CivilizationIntelligencePortal() {
     >
       <Reveal>
         <div className="civ-intel-portal">
+
           <span>CIVILIZATION INTELLIGENCE</span>
 
           <h2>
@@ -51,25 +20,23 @@ export default function CivilizationIntelligencePortal() {
             of civilization.
           </h2>
 
+          <CivilizationPulseStream />
+
           <p>
-            Civilization Intelligence is the visible interface of ArcheNova’s
-            cognitive system: observing, understanding, reasoning, designing,
-            realizing, and remembering civilization.
+            Civilization Intelligence is the visible interface of
+            ArcheNova&apos;s cognitive system: observing, understanding,
+            reasoning, designing, realizing, and remembering civilization.
+            Live cognitive signals continuously flow across the pulse stream,
+            providing a real-time view of civilization&apos;s evolving state.
           </p>
 
-          <div className="civ-intel-gate-scroll" aria-label="Civilization Intelligence layers">
-            {intelligenceLayers.map((layer) => (
-              <div key={layer.no} className="civ-intel-gate-card">
-                <span>{layer.no}</span>
-                <strong>{layer.title}</strong>
-                <p>{layer.phrase}</p>
-              </div>
-            ))}
-          </div>
-
-          <Link href="/civilization-intelligence" className="an-button civ-intel-enter">
+          <Link
+            href="/civilization-intelligence"
+            className="an-button civ-intel-enter"
+          >
             <p>Enter Intelligence →</p>
           </Link>
+
         </div>
       </Reveal>
     </section>
