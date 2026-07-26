@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-26T17:04:26.718Z",
+  "updated": "2026-07-26T19:14:37.187Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Twisted laser light distinguishes mirror-image molecules by their fragment counts",
+      "url": "https://phys.org/news/2026-07-laser-distinguishes-mirror-image-molecules.html",
+      "summary": "Many molecules exist in two mirror-image forms—like left and right hands—that look identical but can behave very differently, especially in biological systems and pharmaceuticals. Distinguishing between these enantiomers…",
+      "ts": 1785092401000,
+      "publishedAt": "2026-07-26T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When a teenager makes the 'stupid choice,' their brain is working exactly as designed",
+      "url": "https://phys.org/news/2026-07-teenager-stupid-choice-brain.html",
+      "summary": "When an adult refuses to let an injustice pass—stands up to a bully or asserts their rights—we call it principle. When a 15-year-old retaliates to an insult thrown in a school corridor, risking detention, we call it a fa…",
+      "ts": 1785088804000,
+      "publishedAt": "2026-07-26T18:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gamma-ray pulsations reveal extreme 3.2-millisecond pulsar 3,900 light-years away",
+      "url": "https://phys.org/news/2026-07-gamma-ray-pulsations-reveal-extreme.html",
+      "summary": "By analyzing the data from NASA's Fermi gamma-ray space telescope, Chinese astronomers have investigated a recently identified millisecond pulsar known as PSR J0435+3233. As a result, they found that the pulsar exhibits …",
+      "ts": 1785088801000,
+      "publishedAt": "2026-07-26T18:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Trace molecules emerge as chemical 'keystones' that steer life's communities",
@@ -775,30 +799,6 @@
       "title": "Spatial Generalization Tests for Machine Learning-based Weather Models to Assess Physical Consistency",
       "url": "https://arxiv.org/abs/2607.20716",
       "summary": "arXiv:2607.20716v1 Announce Type: new Abstract: Machine learning-based weather prediction is revolutionizing weather forecasting by learning from weather data in present-day climate. However, generalization to other clim…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interactive and accessible quantum key distribution modules for introducing students to quantum science and engineering",
-      "url": "https://arxiv.org/abs/2607.20738",
-      "summary": "arXiv:2607.20738v1 Announce Type: new Abstract: Teaching key concepts in quantum information science and technology benefits from hands-on activities that can engage students at all levels, especially high-school and und…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Importance-Sampling Estimation of Gaussian Molecular Shape Overlap: Exact Union Volumes and Confidence-Bounded Virtual Screening",
-      "url": "https://arxiv.org/abs/2607.20766",
-      "summary": "arXiv:2607.20766v1 Announce Type: new Abstract: Gaussian descriptions of molecular shape underpin 3D shape-based virtual screening, but existing methods evaluate Gaussian overlap analytically. The widely used first-order…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Digitally Programmable Photochromic Hydrogel Contact Lenses as Light-Adaptive Artificial Irises",
-      "url": "https://arxiv.org/abs/2607.20770",
-      "summary": "arXiv:2607.20770v1 Announce Type: new Abstract: Excessive exposure to ultraviolet (UV) radiation is associated with a range of ocular pathologies, motivating the development of soft optical devices that can dynamically r…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
