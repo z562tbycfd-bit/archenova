@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-26T15:07:28.356Z",
+  "updated": "2026-07-26T17:04:26.718Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Trace molecules emerge as chemical 'keystones' that steer life's communities",
+      "url": "https://phys.org/news/2026-07-molecules-emerge-chemical-keystones-life.html",
+      "summary": "In nature, the rarest ingredient can be the one that holds everything together. In a new article published in Trends in Ecology & Evolution, Dr. Erika C. Freeman of the Leibniz Institute of Freshwater Ecology and Inland …",
+      "ts": 1785085201000,
+      "publishedAt": "2026-07-26T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A quantum heat engine that simultaneously provides work and refrigeration",
+      "url": "https://phys.org/news/2026-07-quantum-simultaneously-refrigeration.html",
+      "summary": "The laws of thermodynamics state that heat naturally flows from hotter systems or regions to colder systems or regions until a state of thermal equilibrium is reached. This simple principle underpins the operation of num…",
+      "ts": 1785082801000,
+      "publishedAt": "2026-07-26T16:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "DNA vacuum captures animal traces from air to map Danish wildlife",
@@ -783,22 +799,6 @@
       "title": "Digitally Programmable Photochromic Hydrogel Contact Lenses as Light-Adaptive Artificial Irises",
       "url": "https://arxiv.org/abs/2607.20770",
       "summary": "arXiv:2607.20770v1 Announce Type: new Abstract: Excessive exposure to ultraviolet (UV) radiation is associated with a range of ocular pathologies, motivating the development of soft optical devices that can dynamically r…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergent Non-Equilibrium Emission Profiles via Luminescent Angle Restriction for Photovoltaic Energy Conversion",
-      "url": "https://arxiv.org/abs/2607.20783",
-      "summary": "arXiv:2607.20783v1 Announce Type: new Abstract: The detailed-balance method established by Shockley and Queisser determines photovoltaic (PV) conversion efficiencies by relating non-equilibrium converter operation to an …",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear and Quantum Optics with Whispering Gallery Resonators Revisited",
-      "url": "https://arxiv.org/abs/2607.20826",
-      "summary": "arXiv:2607.20826v1 Announce Type: new Abstract: In 2016 we published a review paper \"Nonlinear and Quantum Optics with Whispering Gallery Resonators\" (1). While writing this review, we found it often necessary to defer a…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
