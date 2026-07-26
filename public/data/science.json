@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-26T09:14:37.046Z",
+  "updated": "2026-07-26T11:21:01.789Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "As wildfires grip France and Spain, what are the risks from the smoke?",
+      "url": "https://phys.org/news/2026-07-wildfires-france-spain.html",
+      "summary": "What dangers does smoke from wildfires pose? Who is most at risk? Here are some answers to health questions often asked, especially now with fires in France and Spain.",
+      "ts": 1785062401000,
+      "publishedAt": "2026-07-26T10:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scotland declares 'major' wildfire in Cairngorms national park",
+      "url": "https://phys.org/news/2026-07-scotland-declares-major-wildfire-cairngorms.html",
+      "summary": "Scottish firefighters fought a wildfire Saturday that was burning through Cairngorms National Park in the north, with authorities advising residents to evacuate.",
+      "ts": 1785059529000,
+      "publishedAt": "2026-07-26T09:52:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thousands crowd shelters as wildfires force exodus in France, Spain",
+      "url": "https://phys.org/news/2026-07-thousands-crowd-wildfires-exodus-france.html",
+      "summary": "Thousands crowded into emergency shelters in France and Spain on Sunday after wildfires drove more than 300,000 people to flee their homes and vacation accommodations.",
+      "ts": 1785059514000,
+      "publishedAt": "2026-07-26T09:51:54.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "'I can't work in the farce of climate change cruise tourism anymore': Why Antarctic guides quit their dream jobs",
@@ -775,30 +799,6 @@
       "title": "Mixing Performance of Toroidal Ring Mixers: Effects of Flow Rate Ratios and Geometric Asymmetry",
       "url": "https://arxiv.org/abs/2607.20841",
       "summary": "arXiv:2607.20841v1 Announce Type: new Abstract: Microfluidic mixing is important for nanoparticle fabrication, where rapid contact between the solvent and nonsolvent streams is needed to control the formation process. Va…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "yancc: A GPU-accelerated, differentiable solver for neoclassical transport in tokamaks and stellarators",
-      "url": "https://arxiv.org/abs/2607.20861",
-      "summary": "arXiv:2607.20861v1 Announce Type: new Abstract: We present yancc, a new GPU-accelerated solver for the drift kinetic equation that computes neoclassical transport fluxes, flows, and currents in tokamaks and stellarators.…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Invisible walls: how pedestrians navigate around social interactions",
-      "url": "https://arxiv.org/abs/2607.20876",
-      "summary": "arXiv:2607.20876v1 Announce Type: new Abstract: Pedestrian dynamics are characterized as complex physical systems constrained by social norms, like personal space. Yet, prior research has ignored the spatial norms impose…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measurement of the reduced dipole matrix element in Ba$^+$",
-      "url": "https://arxiv.org/abs/2607.20920",
-      "summary": "arXiv:2607.20920v1 Announce Type: new Abstract: We present a high-precision measurement of the reduced electric-dipole matrix element $\\langle P_{1/2}\\|r\\|S_{1/2}\\rangle$ in $^{138}\\mathrm{Ba}^+$. By comparing off-resona…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }

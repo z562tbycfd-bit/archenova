@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-07-26T09:14:40.453Z",
+  "updated": "2026-07-26T11:21:06.265Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut Chris Williams, Crewmates Return from Space Station",
+      "url": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station/",
+      "summary": "Concluding an eight-month science mission aboard the International Space Station, NASA astronaut Chris Williams returned to Earth on Sunday alongside Roscosmos cosmonauts Sergey Kud-Sverchkov and Sergei Mikaev. The crew …",
+      "ts": 1785063584000,
+      "publishedAt": "2026-07-26T10:59:44.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "NASA and ESA facilities avoid major damage from wildfires in Spain",
@@ -802,15 +811,6 @@
       "ts": 1784827503000,
       "publishedAt": "2026-07-23T17:25:03.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 359 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-359-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1784826006000,
-      "publishedAt": "2026-07-23T17:00:06.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
