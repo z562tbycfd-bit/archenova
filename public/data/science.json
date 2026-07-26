@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-26T13:27:16.448Z",
+  "updated": "2026-07-26T15:07:28.356Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "DNA vacuum captures animal traces from air to map Danish wildlife",
+      "url": "https://phys.org/news/2026-07-dna-vacuum-captures-animal-air.html",
+      "summary": "Researchers have developed a DNA vacuum that can suck genetic traces from animals out of the air and reveal which animals live in an area. In two new studies, the researchers collected air samples in three natural areas …",
+      "ts": 1785076203000,
+      "publishedAt": "2026-07-26T14:30:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Angola's oldest burials, including its only known ancient cremation, uncovered at a 15th-century site doomed by a dam",
@@ -791,14 +799,6 @@
       "title": "Nonlinear and Quantum Optics with Whispering Gallery Resonators Revisited",
       "url": "https://arxiv.org/abs/2607.20826",
       "summary": "arXiv:2607.20826v1 Announce Type: new Abstract: In 2016 we published a review paper \"Nonlinear and Quantum Optics with Whispering Gallery Resonators\" (1). While writing this review, we found it often necessary to defer a…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SQUID Readout of a High-$Q$ Superconducting $LC$ Resonator",
-      "url": "https://arxiv.org/abs/2607.20831",
-      "summary": "arXiv:2607.20831v1 Announce Type: new Abstract: We demonstrate the readout of a superconducting $LC$ resonator, with $Q \\approx 2 \\times 10^{6}$ at approximately 250 kHz, using a dc SQUID followed by a SQUID series-array…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
