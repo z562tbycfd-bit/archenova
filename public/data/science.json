@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-26T21:00:18.722Z",
+  "updated": "2026-07-26T22:08:04.574Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Forest productivity, not rapid warming, shapes Northern Eurasia's carbon sink",
+      "url": "https://phys.org/news/2026-07-forest-productivity-rapid-northern-eurasia.html",
+      "summary": "Northern Eurasia contains about 20% of the world's forests and plays a crucial role in mitigating climate change by absorbing atmospheric carbon dioxide, thereby acting as a major carbon sink. However, understanding the …",
+      "ts": 1785099601000,
+      "publishedAt": "2026-07-26T21:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Twisted laser light distinguishes mirror-image molecules by their fragment counts",
@@ -791,14 +799,6 @@
       "title": "Seasonality of hail outbreaks in the United States and its link to weather regimes",
       "url": "https://arxiv.org/abs/2607.20676",
       "summary": "arXiv:2607.20676v1 Announce Type: new Abstract: Hailstorms in the United States produce immense economic losses and have an occurrence frequency that appears to have a long-term positive trend. Here we contribute an upda…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatial Generalization Tests for Machine Learning-based Weather Models to Assess Physical Consistency",
-      "url": "https://arxiv.org/abs/2607.20716",
-      "summary": "arXiv:2607.20716v1 Announce Type: new Abstract: Machine learning-based weather prediction is revolutionizing weather forecasting by learning from weather data in present-day climate. However, generalization to other clim…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
