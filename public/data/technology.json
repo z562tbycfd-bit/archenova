@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-07-25T23:02:51.435Z",
+  "updated": "2026-07-26T03:14:57.019Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "NASA and ESA facilities avoid major damage from wildfires in Spain",
+      "url": "https://spacenews.com/nasa-and-esa-facilities-avoid-major-damage-from-wildfires-in-spain/",
+      "summary": "Key ground stations in Spain operated by NASA and the European Space Agency have avoided serious damage from major wildfires in the country. The post NASA and ESA facilities avoid major damage from wildfires in Spain app…",
+      "ts": 1785032137000,
+      "publishedAt": "2026-07-26T02:15:37.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "SpaceX conducts 13th Starship test flight",
@@ -802,15 +811,6 @@
       "ts": 1784826006000,
       "publishedAt": "2026-07-23T17:00:06.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
-      "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-      "summary": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too …",
-      "ts": 1784825908000,
-      "publishedAt": "2026-07-23T16:58:28.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

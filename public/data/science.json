@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-07-25T23:02:48.986Z",
+  "updated": "2026-07-26T03:14:55.125Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'I can't work in the farce of climate change cruise tourism anymore': Why Antarctic guides quit their dream jobs",
+      "url": "https://phys.org/news/2026-07-farce-climate-cruise-tourism-anymore.html",
+      "summary": "In the words of a former Antarctic tour guide we interviewed: \"You'd see massive glacier calvings, and you'd just want to cry. But all the guests would be cheering. And you'd be like … 'can you not put two and two togeth…",
+      "ts": 1785025804000,
+      "publishedAt": "2026-07-26T00:30:04.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Universal Planckian dissipation in the strange metal state of the cuprates",
+      "url": "https://www.nature.com/articles/s41467-026-75673-7",
+      "summary": "",
+      "ts": 1785024000000,
+      "publishedAt": "2026-07-26T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New research shows how language experience shapes human communication",
@@ -783,22 +799,6 @@
       "title": "Measurement of the reduced dipole matrix element in Ba$^+$",
       "url": "https://arxiv.org/abs/2607.20920",
       "summary": "arXiv:2607.20920v1 Announce Type: new Abstract: We present a high-precision measurement of the reduced electric-dipole matrix element $\\langle P_{1/2}\\|r\\|S_{1/2}\\rangle$ in $^{138}\\mathrm{Ba}^+$. By comparing off-resona…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhanced abrupt autofocusing and depth-of-focus of circular Airy derivative beams via controlled asymmetry",
-      "url": "https://arxiv.org/abs/2607.20953",
-      "summary": "arXiv:2607.20953v1 Announce Type: new Abstract: We demonstrate simultaneous enhancement of abrupt autofocusing and depth-of-focus (DOF) in circular Airy derivative beams through controlled asymmetry. The controlled asymm…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Topological measures in weighted hypergraphs",
-      "url": "https://arxiv.org/abs/2607.20962",
-      "summary": "arXiv:2607.20962v1 Announce Type: new Abstract: Higher-order interactions introduce an additional structural dimension to complex networks, requiring consistent generalizations of classical topological measures. In hyper…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
