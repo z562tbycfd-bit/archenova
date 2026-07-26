@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-26T11:21:01.789Z",
+  "updated": "2026-07-26T13:27:16.448Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Angola's oldest burials, including its only known ancient cremation, uncovered at a 15th-century site doomed by a dam",
+      "url": "https://phys.org/news/2026-07-angola-oldest-burials-ancient-cremation.html",
+      "summary": "As the construction of a hydroelectric dam loomed, archaeologists raced to uncover Angola's earliest dated burials and its only known cremation at a 15th-century settlement before it vanished beneath the water.",
+      "ts": 1785070802000,
+      "publishedAt": "2026-07-26T13:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "As wildfires grip France and Spain, what are the risks from the smoke?",
@@ -791,14 +799,6 @@
       "title": "SQUID Readout of a High-$Q$ Superconducting $LC$ Resonator",
       "url": "https://arxiv.org/abs/2607.20831",
       "summary": "arXiv:2607.20831v1 Announce Type: new Abstract: We demonstrate the readout of a superconducting $LC$ resonator, with $Q \\approx 2 \\times 10^{6}$ at approximately 250 kHz, using a dc SQUID followed by a SQUID series-array…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mixing Performance of Toroidal Ring Mixers: Effects of Flow Rate Ratios and Geometric Asymmetry",
-      "url": "https://arxiv.org/abs/2607.20841",
-      "summary": "arXiv:2607.20841v1 Announce Type: new Abstract: Microfluidic mixing is important for nanoparticle fabrication, where rapid contact between the solvent and nonsolvent streams is needed to control the formation process. Va…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
