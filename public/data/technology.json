@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-07-27T12:26:36.673Z",
+  "updated": "2026-07-27T15:43:35.651Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "How lasers could help provide fuel for nuclear reactors",
+      "url": "https://www.technologyreview.com/2026/07/27/1140798/laser-nuclear-enrichment/",
+      "summary": "Outside the small town of Paducah, Kentucky, a wealth of uranium is locked away in thousands of storage cylinders filled with waste material from a now-closed nuclear enrichment facility. Lasers could help get it out. A …",
+      "ts": 1785162282000,
+      "publishedAt": "2026-07-27T14:24:42.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Sarepta names Michael Severino, former Tessera CEO, as new chief executive",
+      "url": "https://www.statnews.com/2026/07/27/sarepta-therapeutics-michael-severino-doug-ingram-duchenne-muscular-dystrophy/?utm_campaign=rss",
+      "summary": "The beleaguered Sarepta Therapeutics named Michael Severino, who previously led Tessera Therapeutics, as its new CEO.",
+      "ts": 1785160161000,
+      "publishedAt": "2026-07-27T13:49:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a U.S. peptide panel’s votes, Amgen scuffling with the FDA, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/27/fda-panel-peptide-votes-amgen-fights-tavneos-withdrawal/?utm_campaign=rss",
+      "summary": "An FDA panel recommended that compounding pharmacies be allowed to make two more peptides, a step toward RFK Jr.'s goal to make them more available",
+      "ts": 1785158387000,
+      "publishedAt": "2026-07-27T13:19:47.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Ahead of hearing, FDA questions the efficacy of Capricor’s Duchenne drug",
+      "url": "https://www.statnews.com/2026/07/27/fda-efficacy-doubts-capricor-therapeutics-duchenne-muscular-dystrophy/?utm_campaign=rss",
+      "summary": "Ahead of a hearing, the FDA raised questions about the benefits of a Duchenne treatment from Capricor Therapeutics, another twist for the rare disease drug.",
+      "ts": 1785157703000,
+      "publishedAt": "2026-07-27T13:08:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Orbes unveils Exo-ORB and agreement with Symphony Space",
+      "url": "https://spacenews.com/orbes-unveils-exo-orb-and-agreement-with-symphony-space/",
+      "summary": "SAN FRANCISCO – Southern California startup Orbes announced an agreement July 27 to send Exo-ORB, a free-flying satellite, to gather imagery of an uncrewed Symphony Space station. Exo-ORB, which is […] The post Orbes unv…",
+      "ts": 1785157200000,
+      "publishedAt": "2026-07-27T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Intel debuts new chip for space computing",
+      "url": "https://spacenews.com/intel-debuts-new-chip-for-space-computing/",
+      "summary": "Starfire is designed to support onboard data processing and AI workloads. The post Intel debuts new chip for space computing appeared first on SpaceNews.",
+      "ts": 1785157200000,
+      "publishedAt": "2026-07-27T13:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "A trend that isn’t fading, ultra-processed baby foods",
@@ -46,6 +100,15 @@
       "ts": 1785153600000,
       "publishedAt": "2026-07-27T12:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Briefing on Ukraine as deadly Russian strikes hit cities and ports",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168029",
+      "summary": "The UN Security Council is meeting on Monday at Ukraine’s request, following recent large-scale Russian attacks on Kyiv and elsewhere. At least one civilian was killed and more than a dozen wounded in an overnight strike…",
+      "ts": 1785153600000,
+      "publishedAt": "2026-07-27T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -747,69 +810,6 @@
       "summary": "Unexpected alliances among Republicans and Democrats were on display over a bill meant to rein in ultra-processed foods.",
       "ts": 1784881800000,
       "publishedAt": "2026-07-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The U.S. pharmaceutical supply chain problem is not about China",
-      "url": "https://www.statnews.com/2026/07/24/pharmaceutical-supply-chain-resilience-china/?utm_campaign=rss",
-      "summary": "The national security framing of the discussion around pharmaceutical supply chain vulnerabilities is a distraction, writes Pooja Yerramilli.",
-      "ts": 1784881800000,
-      "publishedAt": "2026-07-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I may be one of the last middle-class medical students who could afford to become a doctor",
-      "url": "https://www.statnews.com/2026/07/24/medical-school-federal-student-loan-changes/?utm_campaign=rss",
-      "summary": "A federal loan program made it possible for Gauri Gurumurthy to pursue medicine. Now that program is changing.",
-      "ts": 1784881800000,
-      "publishedAt": "2026-07-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Earth from Space: Agricultural patchwork",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Agricultural_patchwork",
-      "summary": "Image: The Copernicus Sentinel-2 mission takes us over Australia’s southwestern corner in the Goldfields–Esperance region of Western Australia.",
-      "ts": 1784880000000,
-      "publishedAt": "2026-07-24T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Two new Galileo satellites enter service",
-      "url": "https://www.esa.int/Applications/Satellite_navigation/Two_new_Galileo_satellites_enter_service",
-      "summary": "Two new satellites have now officially joined Europe’s Galileo satellite navigation constellation, strengthening its capabilities, resilience and autonomy. Four Galileo First Generation satellites remain to be launched, …",
-      "ts": 1784878140000,
-      "publishedAt": "2026-07-24T07:29:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
-      "url": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/",
-      "summary": "At this week’s AI Summit in San Francisco, South Korean President Jae Myung Lee and some of the country’s top business leaders and researchers are meeting with NVIDIA and ecosystem partners to chart Korea’s AI progress. …",
-      "ts": 1784867667000,
-      "publishedAt": "2026-07-24T04:34:27.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "A Million-Panel Project",
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-million-panel-project/",
-      "summary": "Utah’s new solar power and battery storage facility is among the largest in the region.",
-      "ts": 1784865660000,
-      "publishedAt": "2026-07-24T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "FISHER: Gradient-Decoupled Hierarchical Multi-Task Learning for Fine-Grained Aquatic Species Recognition",
-      "url": "https://arxiv.org/abs/2607.20523",
-      "summary": "arXiv:2607.20523v1 Announce Type: new Abstract: Fine-grained recognition of aquatic species is challenging due to subtle morphological differences and long-tailed distributions, where ultra-rare species are underrepresen…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
