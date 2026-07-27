@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-07-27T17:44:26.675Z",
+  "updated": "2026-07-27T19:37:13.304Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Seven possible quasar lenses emerge from AI scan of 800,000 DESI objects",
+      "url": "https://phys.org/news/2026-07-quasar-lenses-emerge-ai-scan.html",
+      "summary": "Quasars, distant cores of galaxies powered by supermassive black holes, are among the most luminous objects in the universe. While not uncommon, their brightness can make it difficult to accurately measure the galaxies t…",
+      "ts": 1785180007000,
+      "publishedAt": "2026-07-27T19:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Identify birds offline using AI: New app records animal sounds directly on your smartphone",
+      "url": "https://phys.org/news/2026-07-birds-offline-ai-app-animal.html",
+      "summary": "Previous apps for identifying animal calls regularly hit practical limits: Without a stable internet connection, real-time identification in forests or high mountains was impossible.",
+      "ts": 1785180001000,
+      "publishedAt": "2026-07-27T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Industrial poultry farming is accelerating the spread of a major foodborne disease",
+      "url": "https://phys.org/news/2026-07-industrial-poultry-farming-major-foodborne.html",
+      "summary": "A new study by the Ineos Oxford Institute for Antimicrobial Research at the University of Oxford reveals that industrial poultry farming has led to a more than 100-fold increase in the movement of Campylobacter, allowing…",
+      "ts": 1785178807000,
+      "publishedAt": "2026-07-27T19:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers uncover new mechanism behind DNA repair",
+      "url": "https://phys.org/news/2026-07-uncover-mechanism-dna.html",
+      "summary": "Roughly 20 million people receive a cancer diagnosis each year, and an estimated 1 in 5 people will receive a cancer diagnosis in their lifetime. Cancer cells arise from damage to the cell's instruction manual: DNA.",
+      "ts": 1785178805000,
+      "publishedAt": "2026-07-27T19:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fossil footprints reveal body size and group dynamics of 1.4-million-year-old human relative",
+      "url": "https://phys.org/news/2026-07-fossil-footprints-reveal-body-size.html",
+      "summary": "Ancient footprints preserved along the shores of Kenya's Lake Turkana are reshaping scientists' understanding of one of humanity's extinct relatives. A paper published in Proceedings of the National Academy of Sciences d…",
+      "ts": 1785178801000,
+      "publishedAt": "2026-07-27T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gender gap in predicted grades raises questions over their use in university admissions",
+      "url": "https://phys.org/news/2026-07-gender-gap-grades-university-admissions.html",
+      "summary": "A study of more than 350,000 students in England has found that teachers predict higher A-Level grades for girls than boys who go on to achieve the same exam results. The findings raise fresh questions about the role of …",
+      "ts": 1785177603000,
+      "publishedAt": "2026-07-27T18:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden DNA copying may give bacteria a faster route to antibiotic resistance",
+      "url": "https://phys.org/news/2026-07-hidden-dna-bacteria-faster-route.html",
+      "summary": "The dangers of antibiotic overuse have become increasingly clear in recent decades. Excessive use accelerates the evolution of bacterial resistance to antibiotics, raising the alarming prospect of infections that no long…",
+      "ts": 1785177601000,
+      "publishedAt": "2026-07-27T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research turns the Dunning-Kruger effect on its head: Rethinking the confident incompetent",
+      "url": "https://phys.org/news/2026-07-dunning-kruger-effect-rethinking-confident.html",
+      "summary": "Researchers at the University of Bath and The London School of Economics and Political Science (LSE) suggest that the celebrated Dunning-Kruger effect, often taken to mean the least competent people are the most overconf…",
+      "ts": 1785176406000,
+      "publishedAt": "2026-07-27T18:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers identify one of the universe's rarest black hole events",
+      "url": "https://phys.org/news/2026-07-astronomers-universe-rarest-black-hole.html",
+      "summary": "A team of astronomers at the University of North Carolina at Chapel Hill has observed an extremely rare \"wandering\" black hole located tens of thousands of light-years from the center of its galaxy. This finding could re…",
+      "ts": 1785176404000,
+      "publishedAt": "2026-07-27T18:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can a newly discovered soil fungus stop the devastating African armyworm when chemicals have failed?",
+      "url": "https://phys.org/news/2026-07-newly-soil-fungus-devastating-african.html",
+      "summary": "The African armyworm is a highly destructive migratory pest that damages maize, sorghum, millet and sugarcane. These caterpillars also cause indirect damage to livestock by destroying grazing lands and pastures.",
+      "ts": 1785175207000,
+      "publishedAt": "2026-07-27T18:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Highly tunable electro-optic isolator achieves one-way light flow on photonic chips",
+      "url": "https://phys.org/news/2026-07-highly-tunable-electro-optic-isolator.html",
+      "summary": "Integrated photonic devices—tiny circuits that use light instead of electrons—are becoming increasingly important for scalable photonics technologies and high-bandwidth communications. They are particularly valuable for …",
+      "ts": 1785175205000,
+      "publishedAt": "2026-07-27T18:00:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Biomolecular condensates reveal surprising activity as catalysts",
@@ -711,94 +799,6 @@
       "title": "ELSA as an asset to the EU Quantum Act: A position paper",
       "url": "https://arxiv.org/abs/2607.22049",
       "summary": "arXiv:2607.22049v1 Announce Type: new Abstract: Europe's expertise in the ethical, legal, and social aspects (ELSA) of emerging technologies is a strategic asset for the successful and sovereign development of quantum te…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Study of discrete boundary layer suction for transition delay",
-      "url": "https://arxiv.org/abs/2607.22051",
-      "summary": "arXiv:2607.22051v1 Announce Type: new Abstract: In the present study we have assessed the effect of suction through discrete perforations on the transition of the Blasius boundary layer. In particular, the intermittency …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "OASIS-ERIS: Open Acquisition System for IEPE Sensors - Electrically Refined and Inter-device Synchronization",
-      "url": "https://arxiv.org/abs/2607.22061",
-      "summary": "arXiv:2607.22061v1 Announce Type: new Abstract: OASIS-ERIS, the Open Acquisition System for IEPE Sensors - Electrically Refined and Inter-device Synchronization, is the successor to the previously released OASIS-UROS. It…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Numerical Validation of Lyapunov-Liouville Theory and Non-Diffusive Closures in Decaying Isotropic Fluid and Scalar Turbulence",
-      "url": "https://arxiv.org/abs/2607.22105",
-      "summary": "arXiv:2607.22105v1 Announce Type: new Abstract: This work presents a comprehensive numerical validation of the Lyapunov-Liouville theoretical framework and its non-diffusive turbulence closures under freely decaying homo…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-healing topological streams in space-time",
-      "url": "https://arxiv.org/abs/2607.22113",
-      "summary": "arXiv:2607.22113v1 Announce Type: new Abstract: Topological states are renowned for their robustness against perturbations. Recent advances have further introduced momentum-gap (or time) topology in time-varying media, e…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Field-driven nonlinear metasurface: self-adaptive transition between high-selectivity transmission and broadband shielding",
-      "url": "https://arxiv.org/abs/2607.22144",
-      "summary": "arXiv:2607.22144v1 Announce Type: new Abstract: The escalating complexity of electromagnetic (EM) environment is posing a significant challenge to the reliability of modern electronic information systems. To address the …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Putting PASPT2 on a Firmer Basis",
-      "url": "https://arxiv.org/abs/2607.22152",
-      "summary": "arXiv:2607.22152v1 Announce Type: new Abstract: The recently proposed partial-active-space (PAS) multi-state second-order perturbation theory (PASPT2) [Precis. Chem. DOI: 10.1021/prechem.5c00408 (2026)] features connecte…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Integral relations for the skin-friction coefficients and other quantities of annular flows",
-      "url": "https://arxiv.org/abs/2607.22171",
-      "summary": "arXiv:2607.22171v1 Announce Type: new Abstract: Integral identities relating the skin-friction coefficients and the Reynolds shear stresses in annular cylindrical flows are derived. In the pressure-driven case, an identi…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reactivity of Ambident Nucleophiles in Magnetic Fields: a Combined Conceptual DFT and Current-DFT Study",
-      "url": "https://arxiv.org/abs/2607.22177",
-      "summary": "arXiv:2607.22177v1 Announce Type: new Abstract: The influence of strong external magnetic fields (up to $0.30\\,B_0$) on the electronic structure and reactivity of ambident nucleophiles is investigated using the nitrite a…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How large should academic departments be?",
-      "url": "https://arxiv.org/abs/2607.22189",
-      "summary": "arXiv:2607.22189v1 Announce Type: new Abstract: Academic departments are the primary unit of scholarship and education at universities, and they vary vastly in their sizes. However, the consequences and natural dynamics …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal scaling of electrochemical information transfer at solid-liquid interfaces",
-      "url": "https://arxiv.org/abs/2607.22190",
-      "summary": "arXiv:2607.22190v1 Announce Type: new Abstract: Electrochemical potentials at solid-liquid interfaces govern diverse chemical and energy conversion processes; however, the extent to which their electrochemical influence …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Producing a complete nuclear data library for adjoint Monte Carlo simulations",
-      "url": "https://arxiv.org/abs/2607.22192",
-      "summary": "arXiv:2607.22192v1 Announce Type: new Abstract: Radiation shielding applications related to reactor design typically involve situations where the source region (the core) is much larger than the detector region (a dosime…",
       "ts": 1785124800000,
       "publishedAt": "2026-07-27T04:00:00.000Z"
     }
