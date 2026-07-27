@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-07-27T04:38:18.622Z",
+  "updated": "2026-07-27T08:32:55.958Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: E-bikes, e-scooters are a burgeoning pediatric public health emergency",
+      "url": "https://www.statnews.com/2026/07/27/e-bikes-scooters-children-teens-safety-orthopedics-research/?utm_campaign=rss",
+      "summary": "“Emergency departments across America report dramatic increases in serious injuries from e-bikes and e-scooters,” write CHOP’s J. Todd R. Lawrence and Madison A. Kesler.",
+      "ts": 1785141000000,
+      "publishedAt": "2026-07-27T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: As some medical schools embrace RFK Jr.’s nutrition push, they deftly sidestep MAHA priorities",
+      "url": "https://www.statnews.com/2026/07/27/kennedy-medical-school-nutrition-training-cautious-adoption/?utm_campaign=rss",
+      "summary": "Even as some medical schools heed health secretary Robert F. Kennedy Jr.’s call for more nutrition education, several told STAT that they plan to steer clear of topics that aren’t…",
+      "ts": 1785141000000,
+      "publishedAt": "2026-07-27T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How midwives like me can help fight medical misinformation",
+      "url": "https://www.statnews.com/2026/07/27/midwives-vaccine-denial-misinformation-judgment/?utm_campaign=rss",
+      "summary": "“I have come to believe that changing a mind is rarely the point. Planting a seed is,” writes nurse-midwife Mara Evans.",
+      "ts": 1785141000000,
+      "publishedAt": "2026-07-27T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Meet space startups at ESA’s Industry Space Days",
+      "url": "https://www.esa.int/About_Us/Business_with_ESA/Meet_space_startups_at_ESA_s_Industry_Space_Days",
+      "summary": "Startup companies which have come up with brilliant ideas for using space will join the European Space Agency’s (ESA) Industry Space Days (ISD) event on 16–17 September at ESA-ESTEC in the Netherlands. Over two days Euro…",
+      "ts": 1785139500000,
+      "publishedAt": "2026-07-27T08:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Argenx to buy Forte Biosciences for $2.2B",
+      "url": "https://www.statnews.com/2026/07/27/argenx-acquire-forte-biosciences-autoimmune-diseases/?utm_campaign=rss",
+      "summary": "Argenx plans to buy Forte Biosciences for $2.2 billion, expanding its pipeline of drugs that could treat multiple autoimmune diseases.",
+      "ts": 1785137181000,
+      "publishedAt": "2026-07-27T07:26:21.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Axiom CEO Explains Plans for Hong Kong IPO",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-axiom-ceo-explains-plans-for-hong-kong-ipo/",
+      "summary": "Axiom says the special administrative region of China possesses deep biotechnology expertise, a strong appetite for clinical-stage innovation, and direct proximity to the Asian partners and capital advancing the company’…",
+      "ts": 1785133426000,
+      "publishedAt": "2026-07-27T06:23:46.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Computer Vision Based Neurology Brain Activity Rejection Architecture and Implementation",
@@ -186,7 +240,7 @@
       "source": "United Nations News",
       "title": "Syria’s hopes for renewal hinge on rebuilding trust, lives and livelihoods",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168028",
-      "summary": "A country long known as a meeting point of civilizations, Syria stands once again at a crossroads",
+      "summary": "A country long known as a meeting point of civilizations, Syria stands once again at a crossroads.",
       "ts": 1785067200000,
       "publishedAt": "2026-07-26T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -202,9 +256,9 @@
     },
     {
       "source": "United Nations News",
-      "title": "Gaza: Dialysis patients face grueling hospital journey by donkey cart",
+      "title": "Gaza: Dialysis patients face gruelling hospital journey by donkey cart",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168026",
-      "summary": "Shortly before sunrise, Palestinian Fathi Hajji begins an arduous thrice weekly journey to Nasser Hospital in Khan Younis in the war-ravaged Gaza Strip.",
+      "summary": "Shortly before sunrise, Palestinian Fathi Hajji begins an arduous thrice-weekly journey to Nasser Hospital in Khan Younis in the war-ravaged Gaza Strip.",
       "ts": 1785067200000,
       "publishedAt": "2026-07-26T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -754,60 +808,6 @@
       "title": "Fluctuation impossibility results for stochastic burst networks",
       "url": "https://arxiv.org/abs/2607.20823",
       "summary": "arXiv:2607.20823v1 Announce Type: cross Abstract: Stochastic reaction networks often involve components at low copy number, where individual production and degradation events generate substantial fluctuations. Yan et al.…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "HierarchicalDAEW: Domain-Aware Edge-Weighted Graph Convolution with Evidential Uncertainty for Multi-Section Spatial Gene Expression Prediction from H&E Histology",
-      "url": "https://arxiv.org/abs/2607.20896",
-      "summary": "arXiv:2607.20896v1 Announce Type: cross Abstract: Spatial transcriptomics assays remain costly and technically demanding, restricting transcriptome-wide profiling to specialist settings and preventing routine clinical de…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Kuramoto phase model to explore the synchronisation of a network of circadian clocks",
-      "url": "https://arxiv.org/abs/2607.21214",
-      "summary": "arXiv:2607.21214v1 Announce Type: cross Abstract: We propose a model of the circadian clock in a population of cells based on a network of oscillators, derived from the Kuramoto model. The coupling between oscillators is…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Graph Learning on Ensembles of Cyclic Peptides: An Investigation of Molecular Ensemble Modeling",
-      "url": "https://arxiv.org/abs/2607.21561",
-      "summary": "arXiv:2607.21561v1 Announce Type: cross Abstract: Molecular property prediction from structure often uses a single representative conformation, even though many molecules exist as conformational ensembles in solution. We…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Necessary and sufficient condition for hysteresis in the mathematical model of the cell type regulation of \\textit{Bacillus subtilis}",
-      "url": "https://arxiv.org/abs/2009.06524",
-      "summary": "arXiv:2009.06524v3 Announce Type: replace Abstract: The key to a robust life system is to ensure that each cell population is maintained in an appropriate state. In this work, a mathematical model was used to investigate…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evaluation and Prognostic Validation of Deep Regression Models for WSI-Based Gene-Expression Prediction",
-      "url": "https://arxiv.org/abs/2410.00945",
-      "summary": "arXiv:2410.00945v2 Announce Type: replace Abstract: Gene-expression profiling is widely used in research and central to many areas of precision oncology, but remains costly and not universally accessible. Recent advances…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Lightweight Language Models are Prone to Reasoning Errors for Complex Computational Phenotyping Tasks",
-      "url": "https://arxiv.org/abs/2507.23146",
-      "summary": "arXiv:2507.23146v4 Announce Type: replace Abstract: Although computational phenotyping is a central informatics activity with resulting cohorts supporting a wide variety of applications, it is time-intensive because of m…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"

@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-27T04:38:15.036Z",
+  "updated": "2026-07-27T08:32:53.560Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A US-Russian space crew lands safely in Kazakhstan after an 8-month stint on the ISS",
+      "url": "https://phys.org/news/2026-07-russian-space-crew-safely-kazakhstan.html",
+      "summary": "A U.S.-Russian space crew landed safely in the steppes of Kazakhstan on Sunday after an eight-month stint on the International Space Station.",
+      "ts": 1785138494000,
+      "publishedAt": "2026-07-27T07:48:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "French firefighters face 'pyrocumulonimbus' for first time",
+      "url": "https://phys.org/news/2026-07-french-firefighters-pyrocumulonimbus.html",
+      "summary": "The gigantic wildfire ravaging southwestern France has created an extremely dangerous \"pyrocumulonimbus\"—a phenomenon never before seen in the country—the spokesman for the country's National Firefighters Federation of F…",
+      "ts": 1785138001000,
+      "publishedAt": "2026-07-27T07:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Whales at risk, hungry pelicans: Marine heat wave hits California",
+      "url": "https://phys.org/news/2026-07-whales-hungry-pelicans-marine-california.html",
+      "summary": "On a boat off the coast of California, Sara Lesser gazes wistfully at dozens of dolphins playing in the vessel's wake. This summer, extreme heat is making such a scene increasingly rare.",
+      "ts": 1785135604000,
+      "publishedAt": "2026-07-27T07:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "France, Spain battle 'monster' wildfires with more heat on the way",
+      "url": "https://phys.org/news/2026-07-france-spain-monster-wildfires.html",
+      "summary": "Firefighters battled massive blazes tearing through forests across France and Spain on Monday, as authorities warned of a fresh heat wave set to engulf the scorched French wine-growing region around the major city of Bor…",
+      "ts": 1785134947000,
+      "publishedAt": "2026-07-27T06:49:07.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Saber-toothed cats' spinal tumors suggest inbred species struggled to survive",
@@ -767,38 +799,6 @@
       "title": "High-Density Ultracold Neutron Source for Low-Energy Particle Physics Experiments",
       "url": "https://arxiv.org/abs/2504.13030",
       "summary": "arXiv:2504.13030v2 Announce Type: replace Abstract: SuperSUN, a new superthermal source of ultracold neutrons (UCN) at the Institut Laue-Langevin, exploits inelastic scattering of neutrons in isotopically pure superfluid…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rapid Aerodynamic Assessment of Flettner Rotor Installations Using an Inviscid CFD Approach",
-      "url": "https://arxiv.org/abs/2505.05401",
-      "summary": "arXiv:2505.05401v2 Announce Type: replace Abstract: This paper introduces an inviscid Computational Fluid Dynamics (CFD) approach for the rapid aerodynamic assessment of Flettner rotor systems on ships. The method relies…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On local and non-local energy transfers in Hall magnetohydrodynamic turbulence",
-      "url": "https://arxiv.org/abs/2507.06801",
-      "summary": "arXiv:2507.06801v2 Announce Type: replace Abstract: A systematic study of inertial energy cascade in three-dimensional incompressible Hall magnetohydrodynamic turbulence is conducted to probe into the locality of energy …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diffraction-free natural optical skyrmions and their subwavelength confinement around vortices",
-      "url": "https://arxiv.org/abs/2509.06555",
-      "summary": "arXiv:2509.06555v2 Announce Type: replace Abstract: Diffraction causes waves to spread out as they propagate freely. The tighter the lateral confinement, the faster the spreading. Past research on how to suppress diffrac…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generating Samples of Stationary Distributions of Weakly Interacting Diffusion Models Without Finite Particle Truncation: A Weak Generative Approach",
-      "url": "https://arxiv.org/abs/2509.12841",
-      "summary": "arXiv:2509.12841v2 Announce Type: replace Abstract: Computing the stationary probability density and generating corresponding samples for the mean-field model of an infinite number of weakly interacting diffusion particl…",
       "ts": 1785124800000,
       "publishedAt": "2026-07-27T04:00:00.000Z"
     }
