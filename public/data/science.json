@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-26T22:08:04.574Z",
+  "updated": "2026-07-27T00:01:46.024Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Near a black hole, gravity changes a quantum circuit's readings, not its rules",
+      "url": "https://phys.org/news/2026-07-black-hole-gravity-quantum-circuit.html",
+      "summary": "Imagine holding one of our most precise quantum devices at a fixed position outside a black hole. A Josephson junction—two superconductors separated by an ultrathin barrier—can turn a voltage into a quantum oscillation w…",
+      "ts": 1785106801000,
+      "publishedAt": "2026-07-26T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Forest productivity, not rapid warming, shapes Northern Eurasia's carbon sink",
@@ -791,14 +799,6 @@
       "title": "Barchan-barchan and barchan-obstacle interactions: insights from grain-scale studies",
       "url": "https://arxiv.org/abs/2607.20672",
       "summary": "arXiv:2607.20672v1 Announce Type: new Abstract: Sand dunes are bedforms that grow due to the action of a fluid flow over a sand bed or pile. Whenever the fluid flow is mainly in one direction and the availability of sand…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Seasonality of hail outbreaks in the United States and its link to weather regimes",
-      "url": "https://arxiv.org/abs/2607.20676",
-      "summary": "arXiv:2607.20676v1 Announce Type: new Abstract: Hailstorms in the United States produce immense economic losses and have an occurrence frequency that appears to have a long-term positive trend. Here we contribute an upda…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z"
     }
