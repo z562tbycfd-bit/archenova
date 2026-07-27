@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-07-27T08:32:53.560Z",
+  "updated": "2026-07-27T12:26:33.457Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Could we send a spacecraft to a black hole?",
+      "url": "https://phys.org/news/2026-07-spacecraft-black-hole.html",
+      "summary": "Black holes represent some of the most extreme environments in the universe. They are the sources of the strongest gravitational fields, allowing us to test Einstein's theory of general relativity to an extent impossible…",
+      "ts": 1785154804000,
+      "publishedAt": "2026-07-27T12:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Exploring why societies around the world no longer bury their dead at home",
+      "url": "https://phys.org/news/2026-07-exploring-societies-world-longer-dead.html",
+      "summary": "There are countless cultures and societies around the world, spanning thousands of years. One thing they all have in common is that death is a part of everybody's life. Examining how different societies commemorate their…",
+      "ts": 1785153637000,
+      "publishedAt": "2026-07-27T12:00:37.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are we missing alien lighthouses?",
+      "url": "https://phys.org/news/2026-07-alien-lighthouses.html",
+      "summary": "Searching for extraterrestrial intelligence has so far primarily meant focusing on one particular type of signal—and that signal has normally been based on our own current cutting-edge technology. But what if that's the …",
+      "ts": 1785153610000,
+      "publishedAt": "2026-07-27T12:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists capture first direct evidence of a Floquet topological state",
+      "url": "https://phys.org/news/2026-07-physicists-capture-evidence-floquet-topological.html",
+      "summary": "A new study published in Nature Physics reports the first direct experimental evidence of a Floquet topological state, a novel light-induced phase of matter that, until now, has existed only on paper and in simulations. …",
+      "ts": 1785153601000,
+      "publishedAt": "2026-07-27T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are aliens harvesting the spin of stars?",
+      "url": "https://phys.org/news/2026-07-aliens-harvesting-stars.html",
+      "summary": "One of the challenges of searching for technosignatures (i.e., signs that intelligent life somewhere in the universe has created technology) is understanding what to look for. Technology is a very broad area, and differe…",
+      "ts": 1785152405000,
+      "publishedAt": "2026-07-27T11:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oh deer: The threat munching its way through NZ's native forests",
+      "url": "https://phys.org/news/2026-07-deer-threat-munching-nz-native.html",
+      "summary": "The need for a national deer management strategy to manage the decline of native forests is highlighted in a new research paper published today in the New Zealand Journal of Ecology. Led by Te Whare Wānanga o Waitaha | U…",
+      "ts": 1785151201000,
+      "publishedAt": "2026-07-27T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research reveals mass shootings and suicide deaths share summer peaks",
+      "url": "https://phys.org/news/2026-07-reveals-mass-suicide-deaths-summer.html",
+      "summary": "A new study has found that mass shootings and deaths by suicide in the United States share seasonal patterns, reaching their highest levels during summer months. Analyzing national data spanning 2014–2021, researchers ob…",
+      "ts": 1785150010000,
+      "publishedAt": "2026-07-27T11:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Virtual reality fish platform offers insights into the impact of artificial light on aquatic life",
+      "url": "https://phys.org/news/2026-07-virtual-reality-fish-platform-insights.html",
+      "summary": "A virtual reality (VR) platform has given researchers new insights into how artificial light at night alters the way coral reef fish respond to predators. The study brings together, for the first time, the metabolic expe…",
+      "ts": 1785146401000,
+      "publishedAt": "2026-07-27T10:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A US-Russian space crew lands safely in Kazakhstan after an 8-month stint on the ISS",
@@ -735,70 +799,6 @@
       "title": "Metrology of quantum imaging schemes",
       "url": "https://arxiv.org/abs/2607.22373",
       "summary": "arXiv:2607.22373v1 Announce Type: cross Abstract: We compare the performance of quantum imaging schemes based on spatially correlated photon pairs by formulating them as quantum multiparameter estimation problems, in whi…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pulsatile poromechanics in layered soft media controls fluid flow and solute transport: from fundamentals to brain clearance",
-      "url": "https://arxiv.org/abs/2607.22462",
-      "summary": "arXiv:2607.22462v1 Announce Type: cross Abstract: Soft porous media often feature a heterogeneous structure. Notably, biological tissues - such as cartilage and the brain tissue - consist of two or more layers, with vary…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multiplexed storage and interaction of Rydberg spinwaves via the gradient echo memory protocol",
-      "url": "https://arxiv.org/abs/2607.22466",
-      "summary": "arXiv:2607.22466v1 Announce Type: cross Abstract: Collective Rydberg excitations offer strong and controllable interactions for quantum information processing, sensing, and nonlinear quantum optics, but their integration…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effects of long-chain branching, short-chain branching, and polydispersity on pressure sensitive rheology of polymer melts",
-      "url": "https://arxiv.org/abs/2607.22469",
-      "summary": "arXiv:2607.22469v1 Announce Type: cross Abstract: The rheological behavior of polymer melts under high pressure is a critical factor in many industrial processes like injection molding and extrusion, yet it is often inad…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extreme First-Passage Time of Many Interacting Particles",
-      "url": "https://arxiv.org/abs/2607.22528",
-      "summary": "arXiv:2607.22528v1 Announce Type: cross Abstract: Extreme first-passage events are broadly relevant to biological, chemical, and physical processes in which the first successful arrival determines the outcome. Existing t…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Supermoir\\'e-trapped quadrupolar exciton",
-      "url": "https://arxiv.org/abs/2607.22532",
-      "summary": "arXiv:2607.22532v1 Announce Type: cross Abstract: Moir\\'e-trapped dipolar interlayer exciton in heterobilayers offers a rich platform to explore interaction-driven phenomena. Extending the number of layers to three and b…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lithium Borohydride (LiBH4): An Innovative Material for Neutron Radiation Shielding",
-      "url": "https://arxiv.org/abs/2406.03640",
-      "summary": "arXiv:2406.03640v2 Announce Type: replace Abstract: Radiation shielding plays a crucial role in various industries, including nuclear and space exploration. Among the most abundant elements and isotopes found in nature, …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mapping urban segregation through co-residence network reconstruction",
-      "url": "https://arxiv.org/abs/2501.15920",
-      "summary": "arXiv:2501.15920v3 Announce Type: replace Abstract: Urban segregation poses a critical challenge for cities, exacerbating inequalities, social tensions, fears, and polarisation. It emerges from the interplay of socio-eco…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-Density Ultracold Neutron Source for Low-Energy Particle Physics Experiments",
-      "url": "https://arxiv.org/abs/2504.13030",
-      "summary": "arXiv:2504.13030v2 Announce Type: replace Abstract: SuperSUN, a new superthermal source of ultracold neutrons (UCN) at the Institut Laue-Langevin, exploits inelastic scattering of neutrons in isotopically pure superfluid…",
       "ts": 1785124800000,
       "publishedAt": "2026-07-27T04:00:00.000Z"
     }

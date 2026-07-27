@@ -1,7 +1,115 @@
 {
   "ok": true,
-  "updated": "2026-07-27T08:32:55.958Z",
+  "updated": "2026-07-27T12:26:36.673Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "A trend that isn’t fading, ultra-processed baby foods",
+      "url": "https://www.statnews.com/2026/07/27/health-news-ultra-processed-baby-food-is-booming-is-it-okay/?utm_campaign=rss",
+      "summary": "An FDA advisory panel serves some peptide wins, a measles record, and more health news from Morning Rounds",
+      "ts": 1785154415000,
+      "publishedAt": "2026-07-27T12:13:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: lasers for nuclear fuel, and organ preservation advances",
+      "url": "https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How lasers could help provide fuel for nuclear reactors Nuclear power provides abo…",
+      "ts": 1785154200000,
+      "publishedAt": "2026-07-27T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The path to artificial superintelligence",
+      "url": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
+      "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own d…",
+      "ts": 1785153600000,
+      "publishedAt": "2026-07-27T12:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SpaceNews Welcomes Max Aliprandi as Business Development Associate",
+      "url": "https://spacenews.com/spacenews-welcomes-max-aliprandi-as-business-development-associate/",
+      "summary": "SpaceNews today announced that Max Aliprandi has joined the company as Business Development Associate, strengthening the company’s sales, business development and product teams as SpaceNews continues to expand its audien…",
+      "ts": 1785153600000,
+      "publishedAt": "2026-07-27T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: RA Capital backs upstart rival to Ultragenyx and Ionis in rare brain disease",
+      "url": "https://www.statnews.com/2026/07/27/ra-captial-oak-hill-bio-spac-ultragenyx-ionis-angelman-syndrome/?utm_campaign=rss",
+      "summary": "Oak Hill Bio, a new company backed by RA Capital and other investors, will take on Ultragenyx and Ionis in developing an Angelman syndrome medicine.",
+      "ts": 1785153600000,
+      "publishedAt": "2026-07-27T12:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Amazon files application for direct-to-device satellite constellation",
+      "url": "https://spacenews.com/amazon-files-application-for-direct-to-device-satellite-constellation/",
+      "summary": "Amazon has filed plans with the Federal Communications Commission for a constellation of more than 5,100 satellites that would provide direct-to-device (D2D) services using Globalstar spectrum. The post Amazon files appl…",
+      "ts": 1785153574000,
+      "publishedAt": "2026-07-27T11:59:34.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Closing the data loop in AI-driven drug discovery",
+      "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+      "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly double…",
+      "ts": 1785152416000,
+      "publishedAt": "2026-07-27T11:40:16.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Building the enterprise environment for agentic AI",
+      "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-…",
+      "ts": 1785151978000,
+      "publishedAt": "2026-07-27T11:32:58.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Blue Origin to test New Glenn upper stages at Stennis",
+      "url": "https://spacenews.com/blue-origin-to-test-new-glenn-upper-stages-at-stennis/",
+      "summary": "Blue Origin will use NASA’s Stennis Space Center to test New Glenn upper stages as it rebuilds its Cape Canaveral launch complex. The post Blue Origin to test New Glenn upper stages at Stennis appeared first on SpaceNews…",
+      "ts": 1785149336000,
+      "publishedAt": "2026-07-27T10:48:56.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rocket Lab to open Alaska launch site under $266 million Space Force deal",
+      "url": "https://spacenews.com/rocket-lab-to-open-alaska-launch-site-under-266-million-space-force-deal/",
+      "summary": "New Kodiak facility will support up to 18 suborbital missions for military testing The post Rocket Lab to open Alaska launch site under $266 million Space Force deal appeared first on SpaceNews.",
+      "ts": 1785149311000,
+      "publishedAt": "2026-07-27T10:48:31.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "AI in orbit is a double-edged sword. Here’s how to keep it from cutting space cooperation apart",
+      "url": "https://spacenews.com/ai-in-orbit-is-a-double-edged-sword-heres-how-to-keep-it-from-cutting-space-cooperation-apart/",
+      "summary": "When we talk about stopping an arms race in space, people usually say that we need treaties that every state must follow or agreements that states can choose to follow. […] The post AI in orbit is a double-edged sword. H…",
+      "ts": 1785146400000,
+      "publishedAt": "2026-07-27T10:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+      "summary": "Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and o…",
+      "ts": 1785142807000,
+      "publishedAt": "2026-07-27T09:00:07.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "Opinion: E-bikes, e-scooters are a burgeoning pediatric public health emergency",
@@ -228,6 +336,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "ts": 1785123000000,
+      "publishedAt": "2026-07-27T03:30:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "NVIDIA",
       "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
       "url": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
@@ -235,6 +352,24 @@
       "ts": 1785113142000,
       "publishedAt": "2026-07-27T00:45:42.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "From takeout to takeoff",
+      "url": "https://www.nature.com/articles/s41560-026-02106-6",
+      "summary": "",
+      "ts": 1785110400000,
+      "publishedAt": "2026-07-27T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Quasi-ballistic ion transport in a vertical microrod enabling efficient evaporation-driven power generation",
+      "url": "https://www.nature.com/articles/s41560-026-02117-3",
+      "summary": "",
+      "ts": 1785110400000,
+      "publishedAt": "2026-07-27T00:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "United Nations News",
@@ -673,141 +808,6 @@
       "title": "FISHER: Gradient-Decoupled Hierarchical Multi-Task Learning for Fine-Grained Aquatic Species Recognition",
       "url": "https://arxiv.org/abs/2607.20523",
       "summary": "arXiv:2607.20523v1 Announce Type: new Abstract: Fine-grained recognition of aquatic species is challenging due to subtle morphological differences and long-tailed distributions, where ultra-rare species are underrepresen…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Auditing pretraining contamination in single-cell foundation model benchmarks",
-      "url": "https://arxiv.org/abs/2607.20572",
-      "summary": "arXiv:2607.20572v1 Announce Type: new Abstract: Single-cell foundation models (scFMs) such as Geneformer, scGPT, and Universal Cell Embeddings (UCE) are pretrained on tens of millions of cells drawn from public repositor…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Foundation-model-guided radiogenomic discovery linking cancer genomes to cancer scans",
-      "url": "https://arxiv.org/abs/2607.20583",
-      "summary": "arXiv:2607.20583v1 Announce Type: new Abstract: The function of many genes is still unknown, and conventional driver-discovery methods, which rely on how frequently a gene is mutated, cannot assess genes that are only ra…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spectral theory for population density dynamics of spiking neurons with refractoriness",
-      "url": "https://arxiv.org/abs/2607.20699",
-      "summary": "arXiv:2607.20699v1 Announce Type: new Abstract: Incorporating an absolute refractory period into the population density approach for spiking neurons remains an open problem, despite evidence that refractoriness can stron…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Transition-Related Potentials as Markers of Narrative Comprehension in Continuous EEG",
-      "url": "https://arxiv.org/abs/2607.20720",
-      "summary": "arXiv:2607.20720v1 Announce Type: new Abstract: Harnessing the potential of electroencephalography (EEG) for brain research is fundamentally limited by intrinsic noise and the diffuse projection of brain-generated activi…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Analyzing \\b{eta}-Lactamase Evolution from the Principle of Least Action Perspective",
-      "url": "https://arxiv.org/abs/2607.20744",
-      "summary": "arXiv:2607.20744v1 Announce Type: new Abstract: Protein sequences change over time due to the accumulation of mutations in the genes that encode them. Nonetheless, accurately identifying the most probable evolutionary pa…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Bayesian-optimization framework coupling a multiphase PDE tumor model to efficiently design combination therapy schedules",
-      "url": "https://arxiv.org/abs/2607.20782",
-      "summary": "arXiv:2607.20782v1 Announce Type: new Abstract: Designing combination cancer therapies requires choosing not only which agents to combine but also their relative doses and timing decisions that critically shape the trade…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evolutionary Le Chatelier's Principle: Phenotypic Plasticity and Genetic Assimilation via Timescale Separation in the Price Equation",
-      "url": "https://arxiv.org/abs/2607.20915",
-      "summary": "arXiv:2607.20915v1 Announce Type: new Abstract: Phenotypic plasticity and genetic assimilation play key roles in adaptive evolution, yet their underlying mechanism has lacked a unified physical description. A major theor…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From Berg-Purcell precision bounds to clock-limited information capacity",
-      "url": "https://arxiv.org/abs/2607.21249",
-      "summary": "arXiv:2607.21249v1 Announce Type: new Abstract: Physical limits to chemical sensing are traditionally expressed as Berg-Purcell bounds on estimation accuracy. Whether these bounds also limit the total amount of informati…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Local intercellular coupling is sufficient for long-range calcium signaling",
-      "url": "https://arxiv.org/abs/2607.21442",
-      "summary": "arXiv:2607.21442v1 Announce Type: new Abstract: Long-range intercellular calcium (Ca2+) signaling coordinates biological processes ranging from fertilization to contraction and cell death. The classical model attributes …",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Magnetosensitivity of amphibian morphological pigmentation is light- and eye-dependent and consistent with the radical pair mechanism",
-      "url": "https://arxiv.org/abs/2607.20513",
-      "summary": "arXiv:2607.20513v1 Announce Type: cross Abstract: Weak magnetic fields influence a wide range of biological processes, yet the underlying mechanisms are poorly understood. The radical pair mechanism (RPM), which involves…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SenCos-GEM: SENet-Calibrated and Law-of-Cosines-Constrained Geometry-Enhanced Molecular Representation for Property Prediction",
-      "url": "https://arxiv.org/abs/2607.20551",
-      "summary": "arXiv:2607.20551v1 Announce Type: cross Abstract: Effective molecular representation learning is crucial for accurate molecular property prediction. Recently, numerous self-supervised learning (SSL) approaches leveraging…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Machine-Learned Compact Subspace Generation for Quantum Selected Configuration Interaction within Density Matrix Embedding Framework",
-      "url": "https://arxiv.org/abs/2607.20585",
-      "summary": "arXiv:2607.20585v1 Announce Type: cross Abstract: Sample-based Quantum Diagonalization (SQD), an extension of Quantum Selected Configuration Interaction (QSCI), has emerged as a promising hybrid quantum-classical paradig…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Perspective Latents as an Architectural Condition for Causal Emergence in Active Inference Agents",
-      "url": "https://arxiv.org/abs/2607.20708",
-      "summary": "arXiv:2607.20708v1 Announce Type: cross Abstract: A recent line of work measures causal emergence in reinforcement learning agents through Integrated Information Decomposition, reporting that $\\Phi_r$ grows with training…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Importance-Sampling Estimation of Gaussian Molecular Shape Overlap: Exact Union Volumes and Confidence-Bounded Virtual Screening",
-      "url": "https://arxiv.org/abs/2607.20766",
-      "summary": "arXiv:2607.20766v1 Announce Type: cross Abstract: Gaussian descriptions of molecular shape underpin 3D shape-based virtual screening, but existing methods evaluate Gaussian overlap analytically. The widely used first-ord…",
-      "ts": 1784865600000,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fluctuation impossibility results for stochastic burst networks",
-      "url": "https://arxiv.org/abs/2607.20823",
-      "summary": "arXiv:2607.20823v1 Announce Type: cross Abstract: Stochastic reaction networks often involve components at low copy number, where individual production and degradation events generate substantial fluctuations. Yan et al.…",
       "ts": 1784865600000,
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "categoryId": "bio"
