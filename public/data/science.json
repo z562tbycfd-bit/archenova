@@ -1,7 +1,143 @@
 {
   "ok": true,
-  "updated": "2026-07-27T21:13:06.977Z",
+  "updated": "2026-07-27T23:04:27.109Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Seabirds trade their own survival to raise more chicks after energy-intensive breeding seasons",
+      "url": "https://phys.org/news/2026-07-seabirds-survival-chicks-energy-intensive.html",
+      "summary": "Wild seabirds that face high energy demands during the breeding season go on to migrate farther and raise more chicks the next year, but at a cost to their own survival. An international team led by researchers from Nago…",
+      "ts": 1785193211000,
+      "publishedAt": "2026-07-27T23:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop model that predicts which Red Sea fish are most likely to invade the Mediterranean",
+      "url": "https://phys.org/news/2026-07-red-sea-fish-invade-mediterranean.html",
+      "summary": "More than 120 fish species have migrated from the Red Sea to the Mediterranean since the Suez Canal opened more than 150 years ago. Now, researchers at Tel Aviv University have developed a statistical model that can pred…",
+      "ts": 1785193202000,
+      "publishedAt": "2026-07-27T23:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Kids who own cellphones have poorer reading comprehension scores than those who don't, researchers find",
+      "url": "https://phys.org/news/2026-07-kids-cellphones-poorer-comprehension-scores.html",
+      "summary": "School cellphone bans might seem like a good way to improve learning for elementary school children, but new research published in Behavioral Sciences shows that simply owning a cellphone correlates with worse reading co…",
+      "ts": 1785192601000,
+      "publishedAt": "2026-07-27T22:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Listening to living soil may help people reconnect with nature",
+      "url": "https://phys.org/news/2026-07-soil-people-reconnect-nature.html",
+      "summary": "Strengthening the bond between people and nature—that is the aim of a German–Dutch EU project involving Oldenburg. The reasoning behind this is that people who feel they are part of the environment are more likely to cam…",
+      "ts": 1785192002000,
+      "publishedAt": "2026-07-27T22:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Molecular switch that activates cell growth signaling may offer more precise route for anticancer therapy",
+      "url": "https://phys.org/news/2026-07-molecular-cell-growth-precise-route.html",
+      "summary": "Cells carry their own growth switches. When enough nutrients—amino acids in particular—are available, cells flip this switch on and begin to grow. Researchers at KAIST and Yonsei University have uncovered the molecular m…",
+      "ts": 1785192001000,
+      "publishedAt": "2026-07-27T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Prolonged stretching reorganizes tissue scaffolds and uncages cell nuclei",
+      "url": "https://phys.org/news/2026-07-prolonged-tissue-scaffolds-uncages-cell.html",
+      "summary": "How do tissues cope with being stretched for hours or even days? A study led by researchers at the Institute for Bioengineering of Catalonia (IBEC) has uncovered an unexpected answer: Cells radically reorganize their int…",
+      "ts": 1785191403000,
+      "publishedAt": "2026-07-27T22:30:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New thermodynamic framework explains pressure and edge currents in spinning active particles",
+      "url": "https://phys.org/news/2026-07-thermodynamic-framework-pressure-edge-currents.html",
+      "summary": "Physicists from Heinrich Heine University Düsseldorf (HHU), the Technical University of Darmstadt, Sapienza University in Rome and the University of Camerino (both in Italy) have calculated the fundamental laws of thermo…",
+      "ts": 1785190804000,
+      "publishedAt": "2026-07-27T22:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How NASA plans to build the Habitable Worlds Observatory",
+      "url": "https://phys.org/news/2026-07-nasa-habitable-worlds-observatory.html",
+      "summary": "We've been covering the journey of the Habitable Worlds Observatory for some time now. Over the past few years, it's gone from a proposal to a relatively fleshed-out plan for how and what the next Great Observatory shoul…",
+      "ts": 1785190801000,
+      "publishedAt": "2026-07-27T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "California wildfire damage risk map uses factors most closely linked to severe property losses",
+      "url": "https://phys.org/news/2026-07-california-wildfire-factors-linked-severe.html",
+      "summary": "By analyzing 100,000 California Department of Forestry and Fire Protection inspection records from 2013 to 2024, researchers at the University of California, Irvine have identified the key environmental and human factors…",
+      "ts": 1785190201000,
+      "publishedAt": "2026-07-27T22:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microscopic atlas reveals how citrus Huanglongbing disease progresses through trees",
+      "url": "https://phys.org/news/2026-07-microscopic-atlas-reveals-citrus-huanglongbing.html",
+      "summary": "What happens inside a citrus tree long before leaves turn yellow, roots decline, and fruit quality suffers? Researchers from the University of Florida Citrus Research and Education Center—Diann S. Achor, Camila Ribeiro, …",
+      "ts": 1785189609000,
+      "publishedAt": "2026-07-27T22:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thin films 'dance' with substrates that are no longer inert, opening path toward 3D chips",
+      "url": "https://phys.org/news/2026-07-thin-substrates-longer-inert-path.html",
+      "summary": "Many of today's electronic devices—from the semiconductors in your cell phone to the photovoltaic cells in your solar panels—are built on thin-film substrates. The thin film is an electrically conductive material, while …",
+      "ts": 1785189605000,
+      "publishedAt": "2026-07-27T22:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Membrane nanostructures reshape in water, revealing route to better ion transport",
+      "url": "https://phys.org/news/2026-07-membrane-nanostructures-reshape-revealing-route.html",
+      "summary": "Next-generation energy devices like fuel cells and water electrolyzers depend on ion-exchange membranes that allow only water and certain ions to pass through.",
+      "ts": 1785189001000,
+      "publishedAt": "2026-07-27T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Harmful bugs can thrive in your kitchen sponge for weeks, and you won't be able to tell",
+      "url": "https://phys.org/news/2026-07-bugs-kitchen-sponge-weeks-wont.html",
+      "summary": "That kitchen sponge sitting by your sink is not as innocent as it looks. It could be harboring Salmonella enteritidis, E. coli or Staphylococcus aureus—and there's no way to tell just by looking at it or smelling it.",
+      "ts": 1785188407000,
+      "publishedAt": "2026-07-27T21:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Purple corn offers a stable natural alternative to artificial food dyes",
+      "url": "https://phys.org/news/2026-07-purple-corn-stable-natural-alternative.html",
+      "summary": "University of Missouri researchers are turning a unique variety of corn into an effective natural alternative to artificial food dyes.",
+      "ts": 1785188401000,
+      "publishedAt": "2026-07-27T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Low-cost spray can help tomatoes grow in salty soils",
+      "url": "https://phys.org/news/2026-07-spray-tomatoes-salty-soils.html",
+      "summary": "A simple, low-dose leaf spray could give farmers a practical new tool to keep growing tomatoes on land that salt has rendered increasingly unproductive, according to a study led by a researcher at The University of Texas…",
+      "ts": 1785187801000,
+      "publishedAt": "2026-07-27T21:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hubble shows star formation in Andromeda galaxy is winding down",
+      "url": "https://phys.org/news/2026-07-hubble-star-formation-andromeda-galaxy.html",
+      "summary": "A new study using data from NASA's Hubble Space Telescope finds that star formation in the nearby Andromeda galaxy has undergone a 500-million-year decline, with an even steeper drop in the last 40 million years. Androme…",
+      "ts": 1785187209000,
+      "publishedAt": "2026-07-27T21:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cracking the code: Can AI help us decipher ancient languages?",
+      "url": "https://phys.org/news/2026-07-code-ai-decipher-ancient-languages.html",
+      "summary": "Every ancient language that has ever been deciphered needed an anchor. Usually that's a bilingual text, like the Rosetta Stone, or a known relative to compare it to. Linear A, the writing system of the Bronze Age Minoan …",
+      "ts": 1785187205000,
+      "publishedAt": "2026-07-27T21:20:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Burning soil and peat drove most emissions in Canada's record 2023 wildfire season, study finds",
@@ -579,6 +715,54 @@
       "publishedAt": "2026-07-27T10:00:01.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Leading and Beyond Leading-Order Spectral Form Factor in Chaotic Quantum Many-Body Systems Across All Dyson Symmetry Classes",
+      "url": "http://link.aps.org/doi/10.1103/kwh6-hncn",
+      "summary": "Author(s): Vijay Kumar, Tomaž Prosen, and Dibyendu Roy Researchers analytically calculate the spectral form factor up to second order in time for chaotic many-body systems across all Dyson symmetry classes. [Phys. Rev. X…",
+      "ts": 1785146400000,
+      "publishedAt": "2026-07-27T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Engineering Andreev bound states for thermal sensing in proximity Josephson junctions",
+      "url": "http://link.aps.org/doi/10.1103/9lsg-mdb8",
+      "summary": "Author(s): Woochan Jung, Ethan G. Arnault, Bevin Huang, Jinho Park, Seong Jang, Kenji Watanabe, Takashi Taniguchi, Dirk Englund, Kin Chung Fong, and Gil-Ho Lee The thermal response of proximity Josephson junctions (JJs) …",
+      "ts": 1785146400000,
+      "publishedAt": "2026-07-27T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Mechanism of volume diffraction effect: Modulation of soft x-rays by high-resolution zone plates",
+      "url": "http://link.aps.org/doi/10.1103/mjkj-lp1k",
+      "summary": "Author(s): Hao Quan, Xujie Tong, Qiucheng Chen, Jinyu Guo, QingXin Wu, Xunjia Zhao, Kangping Liu, Zijian Xu, and Yifang Chen This work investigates the modulation of x-rays by high-resolution zone plates (ZPs), challengi…",
+      "ts": 1785146400000,
+      "publishedAt": "2026-07-27T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Finite-element analysis of electrostatic disturbances during test-mass release for TianQin",
+      "url": "http://link.aps.org/doi/10.1103/sz45-gpb2",
+      "summary": "Author(s): Hengxu Yang, Chao Xue, Wei Wang, Shengping Huang, Yiyan Xu, Bingwei Cai, Jie Chang, Ji Wang, and Ziqing Xie High-precision free floating of test masses (TMs) is critical for TianQin, a space-based gravitationa…",
+      "ts": 1785146400000,
+      "publishedAt": "2026-07-27T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Freestanding plasticized ionic-liquid composite-polymer solid electrolyte for sodium-ion storage",
+      "url": "http://link.aps.org/doi/10.1103/jts4-qp97",
+      "summary": "Author(s): Simranjot K. Sapra, Manish Kr. Singh, Jeng-Kuei Chang, and Rajendra S. Dhaka Solid-state batteries hold immense promise to deliver both high energy density and enhanced safety for advanced energy storage appli…",
+      "ts": 1785146400000,
+      "publishedAt": "2026-07-27T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Spontaneous Nernst coefficient of ferromagnets from the interplay of electron scattering and Berry curvature",
+      "url": "http://link.aps.org/doi/10.1103/jryt-qwsj",
+      "summary": "Author(s): Vittorio Basso, Adriano Di Pietro, and Alessandro Sola The spontaneous Nernst effect in ferromagnetic metals is relevant for thermal-management applications and transverse heat-to-electricity generation, but m…",
+      "ts": 1785146400000,
+      "publishedAt": "2026-07-27T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Nonunique Decompositions of Mixed States and Deterministic Energy Transfers",
       "url": "http://link.aps.org/doi/10.1103/12b6-hw2h",
@@ -617,190 +801,6 @@
       "summary": "Author(s): Kristian Mæland, Giorgio Sangiovanni, and Björn Trauzettel Experiments show that the Weyl semimetal ${\\mathrm{PtBi}}_{2}$ hosts unconventional superconductivity in its topological surface states. Hence, the ma…",
       "ts": 1785146400000,
       "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Mode Conservation and Conversion in Polyatomic Phononic Crystals with Temporal Interfaces",
-      "url": "http://link.aps.org/doi/10.1103/b9r4-8sbf",
-      "summary": "Author(s): Mahmoud M. Samak and Osama R. Bilal A sudden change in material properties creates a temporal interface and forces a propagating wave to change its frequency while preserving its wave number. In contrast to mo…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "$D$-Wave Phonon Angular Momentum Texture in Altermagnets by Magnon-Phonon Hybridization",
-      "url": "http://link.aps.org/doi/10.1103/r43h-ch8r",
-      "summary": "Author(s): Hannah Bendin, Alexander Mook, Ingrid Mertig, and Robin R. Neumann In altermagnets, the magnon bands are anisotropically spin split in reciprocal space without relativistic or dipolar spin-spin interactions. I…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Non-Abelian Electric Field and <i>Zitterbewegung</i> on a Photonic Frequency Chain",
-      "url": "http://link.aps.org/doi/10.1103/qy4y-171h",
-      "summary": "Author(s): Shu Yang (杨树), Bengy Tsz Tsun Wong (黄梓峻), Jinbing Hu (胡金兵), and Yi Yang (杨易) A ring of optical fiber can be made to host phenomena that originated in the realm of high-energy physics. [Phys. Rev. Lett. 137, 05…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Flow through Bottlenecks: Stronger Is Slower",
-      "url": "http://link.aps.org/doi/10.1103/r9jy-hrv7",
-      "summary": "Author(s): Marta Grasa, Laciel Alonso-Llanes, Angel Garcimartín, and Iker Zuriguel We present experimental results of the flow of programmable robots through a bottleneck. With these agents, velocity and force can be dec…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Leading and Beyond Leading-Order Spectral Form Factor in Chaotic Quantum Many-Body Systems Across All Dyson Symmetry Classes",
-      "url": "http://link.aps.org/doi/10.1103/kwh6-hncn",
-      "summary": "Author(s): Vijay Kumar, Tomaž Prosen, and Dibyendu Roy Researchers analytically calculate the spectral form factor up to second order in time for chaotic many-body systems across all Dyson symmetry classes. [Phys. Rev. X…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "A US-Russian space crew lands safely in Kazakhstan after an 8-month stint on the ISS",
-      "url": "https://phys.org/news/2026-07-russian-space-crew-safely-kazakhstan.html",
-      "summary": "A U.S.-Russian space crew landed safely in the steppes of Kazakhstan on Sunday after an eight-month stint on the International Space Station.",
-      "ts": 1785138494000,
-      "publishedAt": "2026-07-27T07:48:14.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "French firefighters face 'pyrocumulonimbus' for first time",
-      "url": "https://phys.org/news/2026-07-french-firefighters-pyrocumulonimbus.html",
-      "summary": "The gigantic wildfire ravaging southwestern France has created an extremely dangerous \"pyrocumulonimbus\"—a phenomenon never before seen in the country—the spokesman for the country's National Firefighters Federation of F…",
-      "ts": 1785138001000,
-      "publishedAt": "2026-07-27T07:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Whales at risk, hungry pelicans: Marine heat wave hits California",
-      "url": "https://phys.org/news/2026-07-whales-hungry-pelicans-marine-california.html",
-      "summary": "On a boat off the coast of California, Sara Lesser gazes wistfully at dozens of dolphins playing in the vessel's wake. This summer, extreme heat is making such a scene increasingly rare.",
-      "ts": 1785135604000,
-      "publishedAt": "2026-07-27T07:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "France, Spain battle 'monster' wildfires with more heat on the way",
-      "url": "https://phys.org/news/2026-07-france-spain-monster-wildfires.html",
-      "summary": "Firefighters battled massive blazes tearing through forests across France and Spain on Monday, as authorities warned of a fresh heat wave set to engulf the scorched French wine-growing region around the major city of Bor…",
-      "ts": 1785134947000,
-      "publishedAt": "2026-07-27T06:49:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Saber-toothed cats' spinal tumors suggest inbred species struggled to survive",
-      "url": "https://phys.org/news/2026-07-saber-toothed-cats-spinal-tumors.html",
-      "summary": "The fossilized spines of saber-toothed cats in the La Brea Tar Pits reveal evidence of an unexpectedly high prevalence of rare spinal nerve tumors, suggesting that the species became inbred just before extinction. These …",
-      "ts": 1785124801000,
-      "publishedAt": "2026-07-27T04:00:01.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of Electrohydrodynamic on Droplet Stability in Leaky Dielectric Media",
-      "url": "https://arxiv.org/abs/2607.21638",
-      "summary": "arXiv:2607.21638v1 Announce Type: new Abstract: This work examines the deformation dynamics of dielectric liquid droplet when exposed to a uniform electric field. The experimental investigation involves two-phase configu…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum nature of gravity and spacetime: Fundamental insights from the Hoyle-Narlikar theory",
-      "url": "https://arxiv.org/abs/2607.21649",
-      "summary": "arXiv:2607.21649v1 Announce Type: new Abstract: The Hoyle-Narlikar action-at-a-distance formulation for gravity remains one of the most mathematically rigorous attempts to incorporate Mach principle into physics. A lesse…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Service Ecosystem Evolution: A Comprehensive Survey from Complex Network Perspectives",
-      "url": "https://arxiv.org/abs/2607.21650",
-      "summary": "arXiv:2607.21650v1 Announce Type: new Abstract: Digital society increasingly relies on complex service ecosystems, formed by interconnected services from technology giants. However, the growing scale and intricate depend…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstructing the Probability Measure of a Multi-group Curie-Weiss Model with Interacting Groups",
-      "url": "https://arxiv.org/abs/2607.21662",
-      "summary": "arXiv:2607.21662v1 Announce Type: new Abstract: We study the problem of reconstructing the probability measure of a multi-group version of the Curie-Weiss or mean-field model of ferromagnetism from a sample of the voting…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "X-Ray Transition Radiation",
-      "url": "https://arxiv.org/abs/2607.21684",
-      "summary": "arXiv:2607.21684v1 Announce Type: new Abstract: The monograph is devoted to theoretical and experimental studies of transition radiation produced by fast charged particles traversing media with interfaces. Particular att…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Explainable quantum-compressed machine learning for complex fluid flows",
-      "url": "https://arxiv.org/abs/2607.21688",
-      "summary": "arXiv:2607.21688v1 Announce Type: new Abstract: Machine-learning surrogates of physical systems face a paradox: explainable models facing the challenge of expressivity to capture complex nonlinear flows, whereas expressi…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Micro-electromechanical photonic integrated memristors",
-      "url": "https://arxiv.org/abs/2607.21693",
-      "summary": "arXiv:2607.21693v1 Announce Type: new Abstract: Programmable optical memristors embedded in photonic integrated circuits (PICs) are emerging as an important technology for high-speed optical storage and in-memory optical…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dimensional Analysis is a Gauge Theory",
-      "url": "https://arxiv.org/abs/2607.21695",
-      "summary": "arXiv:2607.21695v1 Announce Type: new Abstract: I argue that dimensional analysis can appropriately be thought of as a gauge theory. This picture naturally leads to the usual quantity calculus through inherent properties…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Multi-Species Reactive-Boltzmann Formulation for Self-Consistent Kinetic Simulation of Burning Fusion Plasmas",
-      "url": "https://arxiv.org/abs/2607.21723",
-      "summary": "arXiv:2607.21723v1 Announce Type: new Abstract: Discrepancies between experimental data and radiation-hydrodynamic models of burning plasmas at the National Ignition Facility have been attributed, in part, to possible de…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How to calculate the Wigner angle",
-      "url": "https://arxiv.org/abs/2607.21724",
-      "summary": "arXiv:2607.21724v1 Announce Type: new Abstract: Lorentz transformations in time and two space dimensions consist of boosts and rotations, and combinations thereof. In general, the combination of two boosts is not another…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Removal of Solver-Induced Dependencies in Momentum-Weighted Interpolation for Primal and Continuous-Adjoint Flow Solvers",
-      "url": "https://arxiv.org/abs/2607.21736",
-      "summary": "arXiv:2607.21736v1 Announce Type: new Abstract: Momentum-Weighted Interpolation (MWI) is a key component in pressure--velocity coupling schemes on collocated cell-centered finite-volume methods for both primal and contin…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards on-chip nascent all-van-der-Waals polarization optical components for nanoscale photonic applications",
-      "url": "https://arxiv.org/abs/2607.21748",
-      "summary": "arXiv:2607.21748v1 Announce Type: new Abstract: The integration of polarization-control elements into nanoscale photonic circuits remains a central challenge for modern on-chip optical technologies, which call for contin…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reliability-Aware Bayesian Optimization of 1310 nm PCSELs with FDTD Verification",
-      "url": "https://arxiv.org/abs/2607.21772",
-      "summary": "arXiv:2607.21772v1 Announce Type: new Abstract: Near 1310 nm photonic-crystal surface-emitting lasers (PCSELs) are attractive narrow-beam sources for optical communication and sensing, but their final design refinement i…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
     }
   ],
   "sources": [

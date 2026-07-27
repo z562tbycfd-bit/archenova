@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-07-27T21:13:09.141Z",
+  "updated": "2026-07-27T23:04:31.855Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Parkinson’s Disease Medication Monitored with Fingertip Sweat Patch",
+      "url": "https://www.genengnews.com/topics/translational-medicine/parkinsons-disease-medication-monitored-with-fingertip-sweat-patch/",
+      "summary": "Researchers developed a soft, wearable fingertip patch that continuously tracks a Parkinson's disease patient’s levodopa medication levels by measuring chemicals in their sweat, with no batteries required. The post Parki…",
+      "ts": 1785192057000,
+      "publishedAt": "2026-07-27T22:40:57.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: HIV resurgence is feared as global funding to combat the disease falls 18%",
@@ -799,15 +808,6 @@
       "title": "International Criminal Court Prosecutor Karim Khan dismissed",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168025",
       "summary": "Member States of the International Criminal Court dismissed its Prosecutor Karim Khan following disciplinary proceedings related to widely reported sexual misconduct allegations at an emergency session at UN Headquarters…",
-      "ts": 1784894400000,
-      "publishedAt": "2026-07-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council debrief: Race for critical minerals intensifies amidst warnings of conflict",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168024",
-      "summary": "The world needs more critical minerals than ever before for electric vehicles, wind turbines, solar panels, batteries and smartphones.",
       "ts": 1784894400000,
       "publishedAt": "2026-07-24T12:00:00.000Z",
       "categoryId": "global-governance"
