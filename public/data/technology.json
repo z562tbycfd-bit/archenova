@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-07-27T15:43:35.651Z",
+  "updated": "2026-07-27T17:44:30.370Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA Astronaut Chris Williams Returns to Earth",
+      "url": "https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-returns-to-earth/",
+      "summary": "NASA astronaut Chris Williams is all smiles in this July 26, 2026, photo taken shortly after he landed with Expedition 74 Roscosmos cosmonauts Sergey Kud-Sverchkov, and Sergei Mikaev in Kazakhstan. This was Williams’ fir…",
+      "ts": 1785170926000,
+      "publishedAt": "2026-07-27T16:48:46.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Swift Sees ‘Wandering’ Mega Black Hole Shredding Star",
+      "url": "https://science.nasa.gov/missions/swift/nasas-swift-sees-wandering-mega-black-hole-shredding-star/",
+      "summary": "NASA’s Neil Gehrels Swift Observatory captured an “orphan” black hole lighting up as it devoured a star on the outskirts of a faraway galaxy. These phenomena are rare to begin with, and none had ever before been seen so …",
+      "ts": 1785168397000,
+      "publishedAt": "2026-07-27T16:06:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Raging wildfires near Madrid, Spain",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Raging_wildfires_near_Madrid_Spain",
+      "summary": "Image: Raging wildfires near Madrid, Spain",
+      "ts": 1785164100000,
+      "publishedAt": "2026-07-27T14:55:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Cover Three US Spacewalks, Host Preview News Conference",
+      "url": "https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference/",
+      "summary": "NASA will provide coverage as astronauts venture outside the International Space Station during three spacewalks in August to continue upgrading solar arrays, replace a communications antenna, and connect power and data …",
+      "ts": 1785162911000,
+      "publishedAt": "2026-07-27T14:35:11.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "MIT Technology Review",
       "title": "How lasers could help provide fuel for nuclear reactors",
@@ -10,6 +46,15 @@
       "ts": 1785162282000,
       "publishedAt": "2026-07-27T14:24:42.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Hubble Shows Star Formation in Andromeda Galaxy Winding Down",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-star-formation-in-andromeda-galaxy-winding-down/",
+      "summary": "NASA’s Hubble finds that star formation in the Andromeda galaxy has undergone a 500-million-year decline.",
+      "ts": 1785160814000,
+      "publishedAt": "2026-07-27T14:00:14.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -766,51 +811,6 @@
       "ts": 1784889173000,
       "publishedAt": "2026-07-24T10:32:53.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Why total solar eclipses are so special",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/Why_total_solar_eclipses_are_so_special",
-      "summary": "Video: 00:07:07 More than 2500 years ago, a total solar eclipse is said to have ended a war between the Lydians and the Medes. Today, we understand the science behind eclipses, but witnessing one is still one of the most…",
-      "ts": 1784887200000,
-      "publishedAt": "2026-07-24T10:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "EU delays release of Copernicus imagery over Gulf of Oman ",
-      "url": "https://spacenews.com/eu-delays-release-of-copernicus-imagery-over-gulf-of-oman/",
-      "summary": "JOHANNESBURG — The European Union has ordered a 24-hour delay in the release of some Sentinel-1 and Sentinel-2 imagery following a request from the United States based on concerns that […] The post EU delays release of C…",
-      "ts": 1784887200000,
-      "publishedAt": "2026-07-24T10:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Air Force takes over troubled military GPS receiver program",
-      "url": "https://spacenews.com/air-force-takes-over-troubled-military-gps-receiver-program/",
-      "summary": "The Air Force Life Cycle Management Center will oversee development, integration and sustainment of equipment used to access the military’s encrypted GPS signal The post Air Force takes over troubled military GPS receive…",
-      "ts": 1784883600000,
-      "publishedAt": "2026-07-24T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: White House offers its science blueprint: More AI, less life sciences",
-      "url": "https://www.statnews.com/2026/07/24/science-new-golden-age-report-draws-mixed-reaction/?utm_campaign=rss",
-      "summary": "The Trump administration released its blueprint for U.S. science, calling for shifting hundreds of billions of research dollars from universities to industry.",
-      "ts": 1784881800000,
-      "publishedAt": "2026-07-24T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Senate advances MAHA-friendly bill for food warning labels and junk food ad bans",
-      "url": "https://www.statnews.com/2026/07/24/ultraprocessed-food-warning-label-bill-clears-senate-committee-bipartisan-vote/?utm_campaign=rss",
-      "summary": "Unexpected alliances among Republicans and Democrats were on display over a bill meant to rein in ultra-processed foods.",
-      "ts": 1784881800000,
-      "publishedAt": "2026-07-24T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

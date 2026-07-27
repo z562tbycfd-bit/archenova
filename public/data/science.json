@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-27T15:43:33.591Z",
+  "updated": "2026-07-27T17:44:26.675Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Biomolecular condensates reveal surprising activity as catalysts",
+      "url": "https://phys.org/news/2026-07-biomolecular-condensates-reveal-catalysts.html",
+      "summary": "Biomolecular condensates are ubiquitous in living cells, including bacteria, viruses, plants and mammalian systems. These membraneless bodies, or molecular communities made up of DNA, RNA and proteins, are where molecule…",
+      "ts": 1785174005000,
+      "publishedAt": "2026-07-27T17:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rethinking how we protect the world's mountain communities",
+      "url": "https://phys.org/news/2026-07-rethinking-world-mountain-communities.html",
+      "summary": "As melting glaciers and shifting climates push mountain ecosystems to the brink, an international team of researchers has outlined a radical new approach aimed at strengthening the resilience, inclusivity and sustainabil…",
+      "ts": 1785174004000,
+      "publishedAt": "2026-07-27T17:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI finds tiny gene editor changes that reduce unintended DNA edits",
+      "url": "https://phys.org/news/2026-07-ai-tiny-gene-editor-unintended.html",
+      "summary": "Gene editing is a highly precise and powerful technology that allows scientists to insert, delete, modify or replace DNA bases in living organisms. It has a variety of uses, including correcting disease-causing mutations…",
+      "ts": 1785173936000,
+      "publishedAt": "2026-07-27T17:38:56.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Low-cost, rare-earth-free material for carbon recycling",
+      "url": "https://phys.org/news/2026-07-rare-earth-free-material-carbon.html",
+      "summary": "To improve carbon recycling and reduce emissions, researchers at Science Tokyo developed iron-substituted calcium titanate (Fe-doped CaTiO3) as an environmentally friendly support material for chemical looping, a process…",
+      "ts": 1785172805000,
+      "publishedAt": "2026-07-27T17:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists pinpoint where cells first begin copying DNA",
+      "url": "https://phys.org/news/2026-07-scientists-cells-dna.html",
+      "summary": "Researchers at the MRC Laboratory of Medical Sciences (LMS) and collaborators have uncovered one of the earliest steps in DNA replication: the moment a cell first opens its DNA to begin making a copy of its genome. The f…",
+      "ts": 1785172803000,
+      "publishedAt": "2026-07-27T17:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The surprising physics hiding in a single handful of beach sand",
+      "url": "https://phys.org/news/2026-07-physics-beach-sand.html",
+      "summary": "Sand has a way of getting everywhere on a beach day—and for some, it can make or break the whole trip. There's the way it whips through the air just as sandwiches are being unwrapped, the way it turns blisteringly hot un…",
+      "ts": 1785171615000,
+      "publishedAt": "2026-07-27T17:00:15.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Low-level cloud loss amplifies global warming, simulations suggest",
+      "url": "https://phys.org/news/2026-07-cloud-loss-amplifies-global-simulations.html",
+      "summary": "Low-level clouds over Earth's oceans play a prominent role in keeping our planet cool by reflecting sunlight away from the surface. But their response to climate change has been hard to model. Now, researchers at Caltech…",
+      "ts": 1785171601000,
+      "publishedAt": "2026-07-27T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study reveals how single-atom Cu-TiO₂ photocatalysts promote CO₂-to-CO conversion",
+      "url": "https://phys.org/news/2026-07-reveals-atom-cu-tio-photocatalysts.html",
+      "summary": "Photocatalytic reduction of CO2 offers a promising approach to storing energy from intermittent sunlight in carbon-containing fuels and chemicals, thereby enabling carbon recycling. Single-atom Cu catalysts have attracte…",
+      "ts": 1785170408000,
+      "publishedAt": "2026-07-27T16:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Invasive species hit the Global South significantly harder than previously assumed",
+      "url": "https://phys.org/news/2026-07-invasive-species-global-south-significantly.html",
+      "summary": "Invasive alien species are among the world's leading drivers of species extinction. However, previous global assessments of the geographic distribution of this damage suffered from a systematic \"research bias\": Because s…",
+      "ts": 1785170406000,
+      "publishedAt": "2026-07-27T16:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Extragalactic positron-annihilation hotspots might mean Milky Way produces far more positrons than thought",
+      "url": "https://phys.org/news/2026-07-extragalactic-positron-annihilation-hotspots-milky.html",
+      "summary": "Positrons—the antimatter counterpart of electrons—are created in high-energy cosmic processes. When normal matter meets its antimatter counterpart, they annihilate, or vanish, and produce a distinctive 511 keV gamma-ray …",
+      "ts": 1785169802000,
+      "publishedAt": "2026-07-27T16:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The dangerous climate driving California's wildfires—and a warning for Australia",
+      "url": "https://phys.org/news/2026-07-dangerous-climate-california-wildfires-australia.html",
+      "summary": "California is once again confronting a rapidly escalating wildfire season fueled by extreme heat, drying vegetation, drought and strong winds.",
+      "ts": 1785169207000,
+      "publishedAt": "2026-07-27T16:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI tools for predicting protein folding produce chemically impossible structures and need human oversight",
+      "url": "https://phys.org/news/2026-07-ai-tools-protein-chemically-impossible.html",
+      "summary": "Researchers at Rensselaer Polytechnic Institute (RPI) have found that today's leading artificial intelligence tools for predicting protein structures routinely generate results that are physically and chemically impossib…",
+      "ts": 1785169203000,
+      "publishedAt": "2026-07-27T16:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Accepting free will doesn't exist could make us less hateful and ashamed",
+      "url": "https://phys.org/news/2026-07-free-doesnt-ashamed.html",
+      "summary": "In his 2023 bestseller, Determined, neuroscientist Robert Sapolsky argued that the interaction of biology and environment leaves no room for free choice. Philosopher and neuroscientist Sam Harris puts the case more blunt…",
+      "ts": 1785168007000,
+      "publishedAt": "2026-07-27T16:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Christmas in July: Engineers capture gigapixel 3D video of snowflakes",
+      "url": "https://phys.org/news/2026-07-christmas-july-capture-gigapixel-3d.html",
+      "summary": "For the first time, researchers can witness nanometer-scale thickness changes across a melting snowflake with a compact, lensless chip that captures gigapixel video at 30 frames per second across centimeter-scale fields.",
+      "ts": 1785168003000,
+      "publishedAt": "2026-07-27T16:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A sweary boss might make you work harder (or want to quit)",
@@ -243,6 +355,14 @@
       "publishedAt": "2026-07-27T10:00:01.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Leading and Beyond Leading-Order Spectral Form Factor in Chaotic Quantum Many-Body Systems Across All Dyson Symmetry Classes",
+      "url": "http://link.aps.org/doi/10.1103/kwh6-hncn",
+      "summary": "Author(s): Vijay Kumar, Tomaž Prosen, and Dibyendu Roy Researchers analytically calculate the spectral form factor up to second order in time for chaotic many-body systems across all Dyson symmetry classes. [Phys. Rev. X…",
+      "ts": 1785146400000,
+      "publishedAt": "2026-07-27T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Nonunique Decompositions of Mixed States and Deterministic Energy Transfers",
       "url": "http://link.aps.org/doi/10.1103/12b6-hw2h",
@@ -311,14 +431,6 @@
       "title": "Flow through Bottlenecks: Stronger Is Slower",
       "url": "http://link.aps.org/doi/10.1103/r9jy-hrv7",
       "summary": "Author(s): Marta Grasa, Laciel Alonso-Llanes, Angel Garcimartín, and Iker Zuriguel We present experimental results of the flow of programmable robots through a bottleneck. With these agents, velocity and force can be dec…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Leading and Beyond Leading-Order Spectral Form Factor in Chaotic Quantum Many-Body Systems Across All Dyson Symmetry Classes",
-      "url": "http://link.aps.org/doi/10.1103/kwh6-hncn",
-      "summary": "Author(s): Vijay Kumar, Tomaž Prosen, and Dibyendu Roy Researchers analytically calculate the spectral form factor up to second order in time for chaotic many-body systems across all Dyson symmetry classes. [Phys. Rev. X…",
       "ts": 1785146400000,
       "publishedAt": "2026-07-27T10:00:00.000Z"
     },
@@ -687,118 +799,6 @@
       "title": "Producing a complete nuclear data library for adjoint Monte Carlo simulations",
       "url": "https://arxiv.org/abs/2607.22192",
       "summary": "arXiv:2607.22192v1 Announce Type: new Abstract: Radiation shielding applications related to reactor design typically involve situations where the source region (the core) is much larger than the detector region (a dosime…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bubble bursting in a sessile droplet",
-      "url": "https://arxiv.org/abs/2607.22207",
-      "summary": "arXiv:2607.22207v1 Announce Type: new Abstract: We analyzed experimentally and numerically the bursting of a bubble within a sessile droplet. Our experiments show that both sessile droplet curvature and confinement enhan…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Critical assessment of RANS Models for Turbulent Heat Transfer in Low-Prandtl-Number Forced Convection",
-      "url": "https://arxiv.org/abs/2607.22246",
-      "summary": "arXiv:2607.22246v1 Announce Type: new Abstract: RANS modeling of turbulent heat transfer in liquid metals remains challenging because the very low Prandtl number weakens the similarity between momentum and thermal transp…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Counterdirectional Exciton and Trion Motion in Applied Electric Field",
-      "url": "https://arxiv.org/abs/2607.22250",
-      "summary": "arXiv:2607.22250v1 Announce Type: new Abstract: Charged excitonic complexes are central to the optoelectronic and many-body properties of semiconductors, yet their real-space transport dynamics remain largely unexplored.…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Full 3D Maxwell solver for Inertial Electrostatic Confinement devices",
-      "url": "https://arxiv.org/abs/2607.22253",
-      "summary": "arXiv:2607.22253v1 Announce Type: new Abstract: Results of a full 3D electromagnetic plasma fusion simulator are presented. It will enable investigations into the influence of structured electromagnetic potentials, anoma…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Chiral vibrational modes and vibrational circular dichroism",
-      "url": "https://arxiv.org/abs/2607.22257",
-      "summary": "arXiv:2607.22257v1 Announce Type: new Abstract: The recent interest in chiral phonons in a variety of physical phenomena and their hypothesized role in the chiral-induced spin selectivity effect [Phys. Rev. Research, 5, …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neptuna: A Comprehensive Machine Learning Framework for Benchmarking Complex Multiphase Flows",
-      "url": "https://arxiv.org/abs/2607.22280",
-      "summary": "arXiv:2607.22280v1 Announce Type: new Abstract: Compressible multiphase flows involving shocks and material interfaces arise in applications such as bubble collapse and droplet breakup, where strong nonlinear interaction…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Robustness of Off-Axis Electron Vortices in Nonuniform Magnetic Fields",
-      "url": "https://arxiv.org/abs/2607.22315",
-      "summary": "arXiv:2607.22315v1 Announce Type: new Abstract: Rotational symmetry protects the topological charge of on-axis electron vortices but not of off-axis vortices. We identify an additional SU(1,1) dynamical invariant that gu…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hidden excimer formation in the gas-phase photodynamics of a BN-doped phenanthrene",
-      "url": "https://arxiv.org/abs/2607.22326",
-      "summary": "arXiv:2607.22326v1 Announce Type: new Abstract: Replacing CC units by isoelectronic BN motifs provides a powerful strategy to tune the electronic structure and excited-state chemistry of polycyclic aromatic hydrocarbons …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Uncertainty Quantification for Free Energy Calculations by Generalized Hierarchical Bayesian Inference",
-      "url": "https://arxiv.org/abs/2607.22338",
-      "summary": "arXiv:2607.22338v1 Announce Type: new Abstract: Free energy calculations are routinely used to study molecular processes inaccessible to unbiased molecular dynamics, but their utility ultimately depends on knowing when a…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fluctuational Quantum Electrodynamics of Dispersive Time-Varying Media",
-      "url": "https://arxiv.org/abs/2607.22340",
-      "summary": "arXiv:2607.22340v1 Announce Type: new Abstract: We present the theoretical framework of fluctuational quantum electrodynamics in frequency-dispersive and dissipative time-varying media. Our theory accounts for dispersion…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First Observation of Fishbone-Driven Zonal Flows with Fine Reversed Structure in Tokamak Plasmas",
-      "url": "https://arxiv.org/abs/2607.22344",
-      "summary": "arXiv:2607.22344v1 Announce Type: new Abstract: We present the first direct experimental observation of fishbone-driven zonal flows in the core of the EAST tokamak. In contrast to the global pattern predicted by previous…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural Ordinary Differential Equations for Oscillatory Flows in Aeroelasticity with Application to Transonic Buffet",
-      "url": "https://arxiv.org/abs/2607.22402",
-      "summary": "arXiv:2607.22402v1 Announce Type: new Abstract: Self-excited aerodynamic flows arise across a broad range of systems and can drive nonlinear fluid-structure interactions and aeroelastic instabilities that are challenging…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electromagnetic Simulations",
-      "url": "https://arxiv.org/abs/2607.22407",
-      "summary": "arXiv:2607.22407v1 Announce Type: new Abstract: This contribution reviews fundamental concepts of electromagnetic simulations for RF structures used in particle accelerators. The necessity of numerical methods for electr…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Kalman Filter Based Approach to NV Diamond Data Fusion For Improved Temperature Sensing",
-      "url": "https://arxiv.org/abs/2607.22410",
-      "summary": "arXiv:2607.22410v1 Announce Type: new Abstract: Nitrogen-vacancy (NV) centers in diamond have been demonstrated to enable highly sensitive temperature measurements using multiple modalities. Standalone optically detected…",
       "ts": 1785124800000,
       "publishedAt": "2026-07-27T04:00:00.000Z"
     }
