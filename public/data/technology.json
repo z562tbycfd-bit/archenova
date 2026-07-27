@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-07-27T19:37:15.692Z",
+  "updated": "2026-07-27T21:13:09.141Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: HIV resurgence is feared as global funding to combat the disease falls 18%",
+      "url": "https://www.statnews.com/pharmalot/2026/07/27/hiv-resurgence-is-feared-as-global-fund-to-combat-the-disease-falls-18-percent/?utm_campaign=rss",
+      "summary": "The world risks a resurgence of the HIV epidemic after international financing to combat the disease suffered a “profound shock” last year, according to a new report from UNAIDS.",
+      "ts": 1785185159000,
+      "publishedAt": "2026-07-27T20:45:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Solving the Mystery of Why Blocking and Stimulating a Brain Receptor Helps Weight Loss",
+      "url": "https://www.genengnews.com/topics/translational-medicine/solving-the-mystery-of-why-blocking-and-stimulating-a-brain-receptor-helps-weight-loss/",
+      "summary": "Researchers solved the mystery of why stimulating and blocking a receptor in the brain can help people lose weight, and suggested that the results of their mouse studies could aid the design of drugs that stimulate more …",
+      "ts": 1785183269000,
+      "publishedAt": "2026-07-27T20:14:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Upper C-band auction offers another lift for GEO industry",
+      "url": "https://spacenews.com/upper-c-band-auction-offers-another-lift-for-geo-industry/",
+      "summary": "Satellite operators have welcomed the prospect of reaping more than $6 billion for quickly clearing upper C-band spectrum the FCC aims to auction next year, with billions more set to cover new geostationary spacecraft an…",
+      "ts": 1785183067000,
+      "publishedAt": "2026-07-27T20:11:07.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "ALS Could Be Predicted Years Before Symptoms, Proteomics Study Finds",
+      "url": "https://www.genengnews.com/topics/omics/als-could-be-predicted-years-before-symptoms-proteomics-study-finds/",
+      "summary": "Proteomics study identifies a 19-protein blood signature that predicts ALS symptom onset up to five years before clinical diagnosis, offering a potential tool to guide earlier intervention and preventive treatment before…",
+      "ts": 1785182566000,
+      "publishedAt": "2026-07-27T20:02:46.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Sphinx Defense wins $287 million contract for strategic satellite communications software",
@@ -772,42 +808,6 @@
       "title": "Security Council debrief: Race for critical minerals intensifies amidst warnings of conflict",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168024",
       "summary": "The world needs more critical minerals than ever before for electric vehicles, wind turbines, solar panels, batteries and smartphones.",
-      "ts": 1784894400000,
-      "publishedAt": "2026-07-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Women do not stop giving birth in an emergency’ – one month after Venezuela quakes",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168021",
-      "summary": "One month after twin earthquakes rocked Venezuela, thousands of women and girls continue to face difficulty in accessing essential healthcare and protection services, a senior official with the UN reproductive and sexual…",
-      "ts": 1784894400000,
-      "publishedAt": "2026-07-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "After an Ebola centre was attacked, peacekeepers moved in next door",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168018",
-      "summary": "A new mobile UN peacekeeping base in the Democratic Republic of the Congo (DRC) has allowed local authorities to continue responding to the fast-moving Ebola outbreak there after violence disrupted the work of medics at …",
-      "ts": 1784894400000,
-      "publishedAt": "2026-07-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Middle East: UN warns against wider escalation after Houthi attacks in the Red Sea",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168016",
-      "summary": "As fighting intensifies in the Middle East, the United Nations on Friday warned against further escalation in the US-Iran war and the risks to global shipping amid the fight over control of the Strait of Hormuz.",
-      "ts": 1784894400000,
-      "publishedAt": "2026-07-24T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Wildfires surge across Europe as Spain and France battle major blazes",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168013",
-      "summary": "The amount of land burned by wildfires across Europe has increased by 57 per cent in four years, according to new data from the World Health Organization (WHO) in Europe.",
       "ts": 1784894400000,
       "publishedAt": "2026-07-24T12:00:00.000Z",
       "categoryId": "global-governance"

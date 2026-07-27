@@ -1,7 +1,143 @@
 {
   "ok": true,
-  "updated": "2026-07-27T19:37:13.304Z",
+  "updated": "2026-07-27T21:13:06.977Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Burning soil and peat drove most emissions in Canada's record 2023 wildfire season, study finds",
+      "url": "https://phys.org/news/2026-07-soil-peat-drove-emissions-canada.html",
+      "summary": "Most of the carbon released during Canada's record-breaking 2023 wildfire season came from burning soil and peat, rather than trees, according to new research from McMaster University.",
+      "ts": 1785186603000,
+      "publishedAt": "2026-07-27T21:10:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New quantum chip architecture could use built-in vibrations to link distant qubits",
+      "url": "https://phys.org/news/2026-07-quantum-chip-architecture-built-vibrations.html",
+      "summary": "A new concept from Warwick researchers could help solve one of the biggest challenges to building large-scale quantum computers: enabling communication between vast numbers of quantum bits (qubits) over long distances ac…",
+      "ts": 1785186601000,
+      "publishedAt": "2026-07-27T21:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How invasive rats rewire coral reef food webs to create winners and losers",
+      "url": "https://phys.org/news/2026-07-invasive-rats-rewire-coral-reef.html",
+      "summary": "Invasive rats on tropical islands are creating winners and losers among the tiny underwater animals near the bottom of the food chain that inhabit surrounding coral reefs. Scientists say the changes to these marine ecosy…",
+      "ts": 1785186036000,
+      "publishedAt": "2026-07-27T21:00:36.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unveiling fungal plant infection strategies to reshape the future of crop protection",
+      "url": "https://phys.org/news/2026-07-unveiling-fungal-infection-strategies-reshape.html",
+      "summary": "Fungal diseases are among the leading causes of crop destruction, threatening global food security and agricultural livelihoods. Among phytopathogenic fungi, anthracnose fungi and the rice blast fungus are known to share…",
+      "ts": 1785186002000,
+      "publishedAt": "2026-07-27T21:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Biodegradable implant can deliver targeted cancer immunotherapy while protecting healthy tissue",
+      "url": "https://phys.org/news/2026-07-biodegradable-implant-cancer-immunotherapy-healthy.html",
+      "summary": "Scientists at Houston Methodist Research Institute have developed a biodegradable implant designed to deliver cancer-fighting immunotherapy drugs directly into tumors over an extended period, a strategy that could improv…",
+      "ts": 1785185401000,
+      "publishedAt": "2026-07-27T20:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mercury reveals short-lived radiation belts during its swing farther from the sun",
+      "url": "https://phys.org/news/2026-07-mercury-reveals-short-belts-sun.html",
+      "summary": "Mercury was long considered the exception to the rule that magnetic planets have radiation belts similar to Earth's Van Allen belts, but a new study by University of Michigan Engineering and the University of California,…",
+      "ts": 1785184806000,
+      "publishedAt": "2026-07-27T20:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bird‑safe glass must become the norm to prevent collisions with buildings",
+      "url": "https://phys.org/news/2026-07-birdsafe-glass-norm-collisions.html",
+      "summary": "Birds are facing a crisis—nearly 3 billion birds have been lost across North America since 1970 as a result of human activities affecting birds and their habitats.",
+      "ts": 1785184802000,
+      "publishedAt": "2026-07-27T20:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light reveals transient electronic step behind a hidden state in metal-organic framework",
+      "url": "https://phys.org/news/2026-07-reveals-transient-electronic-hidden-state.html",
+      "summary": "A fleeting photoinduced electronic state and the subsequent formation of a photoinduced hidden state in a metal–organic framework were captured in just 30 femtoseconds by researchers at Science Tokyo, Tohoku University a…",
+      "ts": 1785184201000,
+      "publishedAt": "2026-07-27T20:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simple semiconductor films break light's front-back symmetry",
+      "url": "https://phys.org/news/2026-07-simple-semiconductor-front-symmetry.html",
+      "summary": "Light typically interacts with a material the same way whether it enters through the front or the back—like polarized sunglasses that work the same from either side. Cornell researchers have demonstrated a simple route t…",
+      "ts": 1785183605000,
+      "publishedAt": "2026-07-27T20:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers identify useful tool for diagnosing endocrine dysfunction in sick foals",
+      "url": "https://phys.org/news/2026-07-tool-endocrine-dysfunction-sick-foals.html",
+      "summary": "Researchers have found that an arginine vasopressin stimulation (AVP) test offers a reliable way to assess endocrine function in sick foals. The work, published in the Journal of Veterinary Internal Medicine, could lead …",
+      "ts": 1785183602000,
+      "publishedAt": "2026-07-27T20:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Satellite images could help target sustainable farming support for small fields",
+      "url": "https://phys.org/news/2026-07-satellite-images-sustainable-farming-small.html",
+      "summary": "For decades, satellites have helped scientists observe Earth's changing landscapes. Now, they could also help answer one of agriculture's most pressing questions: How can the world produce more food while reducing its en…",
+      "ts": 1785183003000,
+      "publishedAt": "2026-07-27T20:10:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First 3D views explain how primate cone pigments distinguish red from green",
+      "url": "https://phys.org/news/2026-07-3d-views-primate-cone-pigments.html",
+      "summary": "Human color vision depends on three types of cone cells in the retina. Although all three contain the same light-absorbing molecule, 11-cis-retinal, differences in the surrounding protein determine sensitivity to red, gr…",
+      "ts": 1785183001000,
+      "publishedAt": "2026-07-27T20:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Soil carbon effectively measured by new, efficient AI model",
+      "url": "https://phys.org/news/2026-07-soil-carbon-effectively-efficient-ai.html",
+      "summary": "A new computer model is one of the first artificial intelligence tools to advance scientific discovery in agriculture and biogeochemistry and is 50 times more efficient than its predecessors, according to a study that of…",
+      "ts": 1785182406000,
+      "publishedAt": "2026-07-27T20:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research cautions that sometimes working together can actually spur inequality",
+      "url": "https://phys.org/news/2026-07-cautions-spur-inequality.html",
+      "summary": "Encouraging people to contribute to a common good can have a surprising drawback: a risk that rewards become concentrated among a smaller group, putting the rest at a disadvantage. Put more simply, \"equality and cooperat…",
+      "ts": 1785182401000,
+      "publishedAt": "2026-07-27T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "UN lists South Sudan antelope route as heritage in danger",
+      "url": "https://phys.org/news/2026-07-south-sudan-antelope-route-heritage.html",
+      "summary": "The United Nations has fast-tracked a vast antelope migration path in South Sudan onto its List of World Heritage in Danger, the young nation's first such listing.",
+      "ts": 1785181227000,
+      "publishedAt": "2026-07-27T19:40:27.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What Australian lakes showed us about Martian hydrology",
+      "url": "https://phys.org/news/2026-07-australian-lakes-martian-hydrology.html",
+      "summary": "The expansive red bluffs of Western Australia's Yilgarn Craton give the landscape a Martian appearance. It turns out the resemblance is more than superficial: The Yilgarn Craton also shares geological characteristics wit…",
+      "ts": 1785181206000,
+      "publishedAt": "2026-07-27T19:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Dead stars' may have surprisingly healthy appetites",
+      "url": "https://phys.org/news/2026-07-dead-stars-healthy-appetites.html",
+      "summary": "\"Dead stars\" known as white dwarfs have already shown the potential to help us better understand how planetary systems, including our own solar system, take shape and evolve. Now, research from the University of Michigan…",
+      "ts": 1785181203000,
+      "publishedAt": "2026-07-27T19:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Seven possible quasar lenses emerge from AI scan of 800,000 DESI objects",
@@ -443,14 +579,6 @@
       "publishedAt": "2026-07-27T10:00:01.000Z"
     },
     {
-      "source": "APS PRX",
-      "title": "Leading and Beyond Leading-Order Spectral Form Factor in Chaotic Quantum Many-Body Systems Across All Dyson Symmetry Classes",
-      "url": "http://link.aps.org/doi/10.1103/kwh6-hncn",
-      "summary": "Author(s): Vijay Kumar, Tomaž Prosen, and Dibyendu Roy Researchers analytically calculate the spectral form factor up to second order in time for chaotic many-body systems across all Dyson symmetry classes. [Phys. Rev. X…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Nonunique Decompositions of Mixed States and Deterministic Energy Transfers",
       "url": "http://link.aps.org/doi/10.1103/12b6-hw2h",
@@ -519,6 +647,14 @@
       "title": "Flow through Bottlenecks: Stronger Is Slower",
       "url": "http://link.aps.org/doi/10.1103/r9jy-hrv7",
       "summary": "Author(s): Marta Grasa, Laciel Alonso-Llanes, Angel Garcimartín, and Iker Zuriguel We present experimental results of the flow of programmable robots through a bottleneck. With these agents, velocity and force can be dec…",
+      "ts": 1785146400000,
+      "publishedAt": "2026-07-27T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Leading and Beyond Leading-Order Spectral Form Factor in Chaotic Quantum Many-Body Systems Across All Dyson Symmetry Classes",
+      "url": "http://link.aps.org/doi/10.1103/kwh6-hncn",
+      "summary": "Author(s): Vijay Kumar, Tomaž Prosen, and Dibyendu Roy Researchers analytically calculate the spectral form factor up to second order in time for chaotic many-body systems across all Dyson symmetry classes. [Phys. Rev. X…",
       "ts": 1785146400000,
       "publishedAt": "2026-07-27T10:00:00.000Z"
     },
@@ -663,142 +799,6 @@
       "title": "Reliability-Aware Bayesian Optimization of 1310 nm PCSELs with FDTD Verification",
       "url": "https://arxiv.org/abs/2607.21772",
       "summary": "arXiv:2607.21772v1 Announce Type: new Abstract: Near 1310 nm photonic-crystal surface-emitting lasers (PCSELs) are attractive narrow-beam sources for optical communication and sensing, but their final design refinement i…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time diffraction of optical helicity",
-      "url": "https://arxiv.org/abs/2607.21778",
-      "summary": "arXiv:2607.21778v1 Announce Type: new Abstract: If in a classic double-slit interference experiment the light that passes though one slit is in an orthogonal polarisation state to that of the second slit, no visible inte…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Graph-Theoretic Neural Network Fragmentation with Covariant Direct Molecular Force Learning: Enabling Coupled-Cluster Accuracy AIMD for Fluxional Systems",
-      "url": "https://arxiv.org/abs/2607.21779",
-      "summary": "arXiv:2607.21779v1 Announce Type: new Abstract: Accurate ab initio molecular dynamics (AIMD) simulations of complex, fluxional chemical systems are severely limited by the high computational scaling of correlated electro…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Load-dependent Taylor dispersion in a compliant electroosmotic pump conveying a simplified Phan-Thien-Tanner fluid",
-      "url": "https://arxiv.org/abs/2607.21791",
-      "summary": "arXiv:2607.21791v1 Announce Type: new Abstract: We develop a coupled model for electroosmotic pumping and passive-solute dispersion of a solvent-free simplified Phan-Thien-Tanner fluid in a compliant slit microchannel. P…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Dual Path Framework with Hotspot Guided Fusion for Three Dimensional CT to PET Synthesis in Head and Neck Cancer",
-      "url": "https://arxiv.org/abs/2607.21800",
-      "summary": "arXiv:2607.21800v1 Announce Type: new Abstract: 18F-FDG PET/CT plays a central role in staging, treatment planning, and response assessment for head and neck cancer by providing functional information that complements an…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Learning Lattice Parameters from Powder X-Ray Diffraction Data Using Invariants",
-      "url": "https://arxiv.org/abs/2607.21829",
-      "summary": "arXiv:2607.21829v1 Announce Type: new Abstract: We present a machine learning (ML) method to determine unit cell parameters from powder X-Ray diffraction (XRD) data using a novel invariant lattice representation. In ML, …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy-resolved measurement of individual GeV muon tracks generated by electrons from a compact Laser-Plasma Accelerator",
-      "url": "https://arxiv.org/abs/2607.21830",
-      "summary": "arXiv:2607.21830v1 Announce Type: new Abstract: Recently, the possibility of LPA-produced muon beams has gained significant interest within the accelerator application community. Directional, multi-GeV muons can be produ…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Anomalous-diffusion synthesis of non-Gaussian reservoir anomalies for time-lapse seismic inversion",
-      "url": "https://arxiv.org/abs/2607.21854",
-      "summary": "arXiv:2607.21854v1 Announce Type: new Abstract: We develop a physics-informed framework for learned time-lapse (4D) seismic inversion that estimates production-induced velocity changes associated with subsurface fluid mi…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental Demonstration of a Two-Dimensional Nonlinear Integrable System in a Particle Accelerator",
-      "url": "https://arxiv.org/abs/2607.21863",
-      "summary": "arXiv:2607.21863v1 Announce Type: new Abstract: A two-dimensional nonlinear integrable system was experimentally demonstrated at the Fermilab Integrable Optics Test Accelerator. The system was implemented by inserting a …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Knowledge-Grounded Behavioral Reasoning Framework for Training-Free Urban Healthcare OD Prediction",
-      "url": "https://arxiv.org/abs/2607.21906",
-      "summary": "arXiv:2607.21906v1 Announce Type: new Abstract: Understanding urban healthcare mobility is essential for healthcare resource allocation, hospital capacity planning, and resilient urban governance. Existing healthcare ori…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MAPCast: A Convection Allowing MPAS Emulator for Ensemble-based Background Error Covariance Estimation Toward Multi-Scale Data Assimilation",
-      "url": "https://arxiv.org/abs/2607.21917",
-      "summary": "arXiv:2607.21917v1 Announce Type: new Abstract: Machine learning (ML) emulators offer a cost-efficient alternative to numerical weather prediction models for generating convection-allowing background ensembles in ensembl…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Anomalous Diffusion of Tropical Cyclones Observed in Huge Ensembles of Hindcasts",
-      "url": "https://arxiv.org/abs/2607.21954",
-      "summary": "arXiv:2607.21954v1 Announce Type: new Abstract: We examine whether tropical cyclones (TCs) obey ordinary Brownian or anomalous diffusion using a huge ensemble (HENS) of hindcasts for summer 2023. Anomalous diffusion has …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Flow Reversal in Low-Prandtl-Number Convection via Lateral Confinement",
-      "url": "https://arxiv.org/abs/2607.21984",
-      "summary": "arXiv:2607.21984v1 Announce Type: new Abstract: A prevailing consensus holds that flow reversals of the large-scale circulation (LSC) are suppressed in low-Prandtl-number (Pr) fluids, as high thermal diffusivity rapidly …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Diffusion-guided optimization for full waveform inversion",
-      "url": "https://arxiv.org/abs/2607.21987",
-      "summary": "arXiv:2607.21987v1 Announce Type: new Abstract: We present a diffusion-guided full waveform inversion (FWI) study in which pretrained diffusion generative models are used as learned regularizers inside a PDE-constrained …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gamma spectrometry with CsI(Tl), NaI(Tl) and CdWO4 scintillation crystals using a silicon photomultiplier",
-      "url": "https://arxiv.org/abs/2607.21996",
-      "summary": "arXiv:2607.21996v1 Announce Type: new Abstract: This study investigated using of silicon photomultiplier (SiPM) for scintillation {\\gamma}-spectrometry with CdWO4, CsI(Tl), and NaI(Tl) crystal scintillators. At room temp…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hair is a functionally graded composite, not a uniform fiber",
-      "url": "https://arxiv.org/abs/2607.22023",
-      "summary": "arXiv:2607.22023v1 Announce Type: new Abstract: Hair provides mammals with diverse benefits, including protection, thermoregulation, and enhanced sensory perception. Unlike tendons and teeth, which are biomineralized, ha…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unexpected Collisional Rotational Excitation via Long-Range Capture and Orbiting",
-      "url": "https://arxiv.org/abs/2607.22048",
-      "summary": "arXiv:2607.22048v1 Announce Type: new Abstract: Collisional rotational excitation is a fundamental process in many gaseous environments. The textbook hard-sphere model stipulates that high rotational excitation results f…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ELSA as an asset to the EU Quantum Act: A position paper",
-      "url": "https://arxiv.org/abs/2607.22049",
-      "summary": "arXiv:2607.22049v1 Announce Type: new Abstract: Europe's expertise in the ethical, legal, and social aspects (ELSA) of emerging technologies is a strategic asset for the successful and sovereign development of quantum te…",
       "ts": 1785124800000,
       "publishedAt": "2026-07-27T04:00:00.000Z"
     }
