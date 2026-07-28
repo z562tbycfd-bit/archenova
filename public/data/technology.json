@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-07-28T11:20:26.017Z",
+  "updated": "2026-07-28T14:12:04.573Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: GSK lays out plans to cut costs, pursue more late-stage drug trials",
+      "url": "https://www.statnews.com/2026/07/28/gsk-earnings-report-luke-miels-strategy-late-stage-clinical-trials/?utm_campaign=rss",
+      "summary": "New GSK CEO Luke Miels outlined his strategy to help the company navigate a patent cliff and get on a path toward long-term growth.",
+      "ts": 1785247901000,
+      "publishedAt": "2026-07-28T14:11:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA staff reiterate concerns about Replimune skin cancer treatment",
+      "url": "https://www.statnews.com/2026/07/28/replimune-rp1-skin-cancer-fda-staff-analysis/?utm_campaign=rss",
+      "summary": "Regulators at the FDA have reiterated concerns that Replimmune does not have adequate data to support an approval of its investigational skin cancer treatment.",
+      "ts": 1785245993000,
+      "publishedAt": "2026-07-28T13:39:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about FDA views on a Duchenne drug, GSK cost savings, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/28/fda-duchenne-drug-gsk-cost-savings-plan/?utm_campaign=rss",
+      "summary": "The FDA said a Capricor stem cell treatment for Duchenne muscular dystrophy did not meet a Phase 3 trial's objectives — contrary to company claims",
+      "ts": 1785245149000,
+      "publishedAt": "2026-07-28T13:25:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Three questions with Whoop’s new CMO",
+      "url": "https://www.statnews.com/2026/07/28/three-questions-with-whoops-new-cmo-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: A chat with Whoop's new chief medical officer, an update on CMS health tech initiative, and more.",
+      "ts": 1785244955000,
+      "publishedAt": "2026-07-28T13:22:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: OpenAI’s predictable hack, and an AI stock sell-off",
+      "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. OpenAI called the Hugging Face attack unprecedented. But we’ve been here before. —…",
+      "ts": 1785240600000,
+      "publishedAt": "2026-07-28T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "How Sentinel-1 measured movement of Venezuela quakes",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/How_Sentinel-1_measured_movement_of_Venezuela_quakes",
+      "summary": "More than one month on from the catastrophic twin earthquakes in northern Venezuela on 24 June 2026, satellite data show the ground displacement was greater than first estimated.",
+      "ts": 1785240240000,
+      "publishedAt": "2026-07-28T12:04:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NASA selects successor to CAPSTONE lunar mission",
+      "url": "https://spacenews.com/nasa-selects-successor-to-capstone-lunar-mission/",
+      "summary": "NASA has selected Advanced Space to fly a successor to a cislunar smallsat mission that will test rendezvous and proximity operations around the moon. The post NASA selects successor to CAPSTONE lunar mission appeared fi…",
+      "ts": 1785240230000,
+      "publishedAt": "2026-07-28T12:03:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Comprehensive Human Vagus Nerve Map Unveiled",
+      "url": "https://www.genengnews.com/topics/translational-medicine/comprehensive-human-vagus-nerve-map-unveiled/",
+      "summary": "By mapping the organization of fascicles and fibers, investigators expect to gain critical insights into how the vagus nerve communicates with various organs and influences human health and disease. The post Comprehensiv…",
+      "ts": 1785240001000,
+      "publishedAt": "2026-07-28T12:00:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Anthony Fauci’s pandemic-era diary entries",
+      "url": "https://www.statnews.com/2026/07/28/health-news-anthony-fauci-pandemic-era-diary-entries-hearing/?utm_campaign=rss",
+      "summary": "New data on American substance use, concerns of a global HIV resurgence, and more health news from Morning Rounds",
+      "ts": 1785239835000,
+      "publishedAt": "2026-07-28T11:57:15.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Preliminary trial results suggest a path to a safer Alzheimer’s treatment",
@@ -31,7 +112,7 @@
     },
     {
       "source": "STAT",
-      "title": "From ‘lost cause’ to gold rush: Biotechs swarm to cure AATD ",
+      "title": "STAT+: From ‘lost cause’ to gold rush: Biotechs swarm to cure AATD ",
       "url": "https://www.statnews.com/2026/07/28/biotech-industry-race-aatd-cure-gene-editing-alpha-1-antitrypsin-deficiency/?utm_campaign=rss",
       "summary": "Biotech companies are racing to cure alpha-1 antitrypsin deficiency, AATD, fueling patent disputes, startup defections, arbitration, and a U.S.-China rivalry.",
       "ts": 1785227400000,
@@ -679,6 +760,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "75 years later, the promise to protect refugees faces its greatest test",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168036",
+      "summary": "As the world marks the 75th anniversary of the Refugee Convention, the UN refugee agency (UNHCR) has launched a global campaign urging governments, organizations and individuals to renew their commitment to protecting pe…",
+      "ts": 1785153600000,
+      "publishedAt": "2026-07-27T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Lebanon: Israeli strikes ‘could amount to international crimes,’ warns Türk",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168034",
       "summary": "UN Human Rights Chief Volker Türk expressed concern about ongoing displacement and destruction caused by Israeli strikes against Lebanon as he concluded a two-day visit to the country on Monday.",
@@ -721,96 +811,6 @@
       "ts": 1785153600000,
       "publishedAt": "2026-07-27T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Briefing on Ukraine as deadly Russian strikes hit cities and ports",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168029",
-      "summary": "The UN Security Council met on Monday at Ukraine’s request, following recent large-scale Russian attacks on Kyiv and elsewhere. At least one civilian was killed and more than a dozen wounded in an overnight strike on the…",
-      "ts": 1785153600000,
-      "publishedAt": "2026-07-27T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Amazon files application for direct-to-device satellite constellation",
-      "url": "https://spacenews.com/amazon-files-application-for-direct-to-device-satellite-constellation/",
-      "summary": "Amazon has filed plans with the Federal Communications Commission for a constellation of more than 5,100 satellites that would provide direct-to-device (D2D) services using Globalstar spectrum. The post Amazon files appl…",
-      "ts": 1785153574000,
-      "publishedAt": "2026-07-27T11:59:34.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Closing the data loop in AI-driven drug discovery",
-      "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
-      "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly double…",
-      "ts": 1785152416000,
-      "publishedAt": "2026-07-27T11:40:16.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Building the enterprise environment for agentic AI",
-      "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
-      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-…",
-      "ts": 1785151978000,
-      "publishedAt": "2026-07-27T11:32:58.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Blue Origin to test New Glenn upper stages at Stennis",
-      "url": "https://spacenews.com/blue-origin-to-test-new-glenn-upper-stages-at-stennis/",
-      "summary": "Blue Origin will use NASA’s Stennis Space Center to test New Glenn upper stages as it rebuilds its Cape Canaveral launch complex. The post Blue Origin to test New Glenn upper stages at Stennis appeared first on SpaceNews…",
-      "ts": 1785149336000,
-      "publishedAt": "2026-07-27T10:48:56.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rocket Lab to open Alaska launch site under $266 million Space Force deal",
-      "url": "https://spacenews.com/rocket-lab-to-open-alaska-launch-site-under-266-million-space-force-deal/",
-      "summary": "New Kodiak facility will support up to 18 suborbital missions for military testing The post Rocket Lab to open Alaska launch site under $266 million Space Force deal appeared first on SpaceNews.",
-      "ts": 1785149311000,
-      "publishedAt": "2026-07-27T10:48:31.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "AI in orbit is a double-edged sword. Here’s how to keep it from cutting space cooperation apart",
-      "url": "https://spacenews.com/ai-in-orbit-is-a-double-edged-sword-heres-how-to-keep-it-from-cutting-space-cooperation-apart/",
-      "summary": "When we talk about stopping an arms race in space, people usually say that we need treaties that every state must follow or agreements that states can choose to follow. […] The post AI in orbit is a double-edged sword. H…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
-      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-      "summary": "Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and o…",
-      "ts": 1785142807000,
-      "publishedAt": "2026-07-27T09:00:07.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: E-bikes, e-scooters are a burgeoning pediatric public health emergency",
-      "url": "https://www.statnews.com/2026/07/27/e-bikes-scooters-children-teens-safety-orthopedics-research/?utm_campaign=rss",
-      "summary": "“Emergency departments across America report dramatic increases in serious injuries from e-bikes and e-scooters,” write CHOP’s J. Todd R. Lawrence and Madison A. Kesler.",
-      "ts": 1785141000000,
-      "publishedAt": "2026-07-27T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: As some medical schools embrace RFK Jr.’s nutrition push, they deftly sidestep MAHA priorities",
-      "url": "https://www.statnews.com/2026/07/27/kennedy-medical-school-nutrition-training-cautious-adoption/?utm_campaign=rss",
-      "summary": "Even as some medical schools heed health secretary Robert F. Kennedy Jr.’s call for more nutrition education, several told STAT that they plan to steer clear of topics that aren’t…",
-      "ts": 1785141000000,
-      "publishedAt": "2026-07-27T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

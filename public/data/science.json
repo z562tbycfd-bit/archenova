@@ -1,7 +1,143 @@
 {
   "ok": true,
-  "updated": "2026-07-28T11:20:23.131Z",
+  "updated": "2026-07-28T14:12:02.010Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "One grain to rule them all: History of rice as a global food",
+      "url": "https://phys.org/news/2026-07-grain-history-rice-global-food.html",
+      "summary": "Rice is the most popular food in the world, providing sustenance to more than 3.5 billion people each day.",
+      "ts": 1785247221000,
+      "publishedAt": "2026-07-28T14:00:21.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tabby's star may be orbited by a planetary-mass companion",
+      "url": "https://phys.org/news/2026-07-tabby-star-orbited-planetary-mass.html",
+      "summary": "By analyzing data from NASA's Transiting Exoplanet Survey Satellite (TESS) and conducting new radial velocity measurements, U.K. and French astronomers have found evidence that the mysterious Tabby's star may be orbited …",
+      "ts": 1785247203000,
+      "publishedAt": "2026-07-28T14:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Neuroscientists reveal limits of human compassion for global crises",
+      "url": "https://phys.org/news/2026-07-neuroscientists-reveal-limits-human-compassion.html",
+      "summary": "New research from the University of Sussex has revealed the biological limits to human compassion and empathy. The study found a stark contrast between how the brain processes information about risk to human lives and in…",
+      "ts": 1785246850000,
+      "publishedAt": "2026-07-28T13:54:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New Ribo-Tweezer tool can pluck individual protein pieces out of a working ribosome",
+      "url": "https://phys.org/news/2026-07-ribo-tweezer-tool-pluck-individual.html",
+      "summary": "Every human cell has millions of ribosomes that make proteins. For decades, biologists thought of ribosomes as tiny, uniform machines. But now a Stanford Medicine team is showing that ribosomes are much more interesting …",
+      "ts": 1785246008000,
+      "publishedAt": "2026-07-28T13:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Martian space suits will need to be 40% lighter",
+      "url": "https://phys.org/news/2026-07-martian-space-lighter.html",
+      "summary": "Long before a human ever sets foot on the Red Planet, we already know how harsh the environment is. Once a human finally does, the only things protecting them from that environment will be the infrastructure we've built …",
+      "ts": 1785246005000,
+      "publishedAt": "2026-07-28T13:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Review explains links between plasmids, horizontal gene transfer and antimicrobial resistance",
+      "url": "https://phys.org/news/2026-07-links-plasmids-horizontal-gene-antimicrobial.html",
+      "summary": "The arms race between bacteria and antibiotics is nothing new—antimicrobial resistance has been an emerging issue in human and animal health for a long time. But in a new review published in JAC-Antimicrobial Resistance,…",
+      "ts": 1785244808000,
+      "publishedAt": "2026-07-28T13:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Helical nanoparticles trigger cancer alarms and deliver gene therapy",
+      "url": "https://phys.org/news/2026-07-helical-nanoparticles-trigger-cancer-alarms.html",
+      "summary": "Cancer cells survive by hiding from the immune system's surveillance. A KAIST research team has developed a new anticancer platform that makes cancer cells send out their own danger signals—prompting immune cells to atta…",
+      "ts": 1785244804000,
+      "publishedAt": "2026-07-28T13:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chicxulub's lingering dust may have turned falling debris into a global firestorm",
+      "url": "https://phys.org/news/2026-07-chicxulub-lingering-falling-debris-global.html",
+      "summary": "Sixty-six million years ago, the six-mile-wide (10-kilometer-wide) Chicxulub asteroid crash-landed in Mexico's Yucatán Peninsula and changed life on Earth forever. The reign of the dinosaurs ended, and only creatures tha…",
+      "ts": 1785243604000,
+      "publishedAt": "2026-07-28T13:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate change and social concerns could drive more radical protests",
+      "url": "https://phys.org/news/2026-07-climate-social-radical-protests.html",
+      "summary": "Around the world, hundreds of thousands of people engage in conventional protests—and sometimes more radical forms of action—in the face of environmental change, harms to animals and nature, and climate inaction.",
+      "ts": 1785243602000,
+      "publishedAt": "2026-07-28T13:00:02.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "‘Forever chemicals’ could be aging dolphins beyond their years",
+      "url": "https://www.sciencenews.org/article/forever-chemicals-aging-dolphins",
+      "summary": "Common dolphins in New Zealand are biologically older than their calendar ages. Trace metals and “forever chemicals” may be to blame.",
+      "ts": 1785243600000,
+      "publishedAt": "2026-07-28T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "More evidence Mars once had water emerges from old Spirit rover data",
+      "url": "https://phys.org/news/2026-07-evidence-mars-emerges-spirit-rover.html",
+      "summary": "More than 20 years after NASA's Spirit rover landed on Mars, a researcher from Edith Cowan University (ECU) has uncovered new evidence that suggests water may once have covered large parts of the red planet.",
+      "ts": 1785242403000,
+      "publishedAt": "2026-07-28T12:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "More green space alone won't beat urban heat",
+      "url": "https://phys.org/news/2026-07-green-space-wont-urban.html",
+      "summary": "New research from Victoria University (VU) reveals that reducing the impact of extreme heat in urban areas requires more than simply adding green spaces—it requires a different approach to urban planning.",
+      "ts": 1785242401000,
+      "publishedAt": "2026-07-28T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "JWST could spot volcanic 'exo-Ios' around super-Jupiters",
+      "url": "https://phys.org/news/2026-07-jwst-volcanic-exo-ios-super.html",
+      "summary": "Jupiter's moon Io is the most volcanically active planetary body in the solar system, boasting hundreds of active volcanoes that spew molten lava into space. This activity results from a process called tidal heating, in …",
+      "ts": 1785241203000,
+      "publishedAt": "2026-07-28T12:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cracking the axolotl code: How to regrow limbs and stay young",
+      "url": "https://phys.org/news/2026-07-axolotl-code-regrow-limbs-stay.html",
+      "summary": "Minor cuts and scrapes usually heal in time, but losing a finger or a whole limb? For most vertebrates, that's a done deal. Unless, of course, you've got the self-healing machinery of an axolotl.",
+      "ts": 1785240007000,
+      "publishedAt": "2026-07-28T12:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers find strongest evidence yet that Betelgeuse has a companion",
+      "url": "https://phys.org/news/2026-07-astronomers-strongest-evidence-betelgeuse-companion.html",
+      "summary": "At long last, astronomers have firm evidence that Betelgeuse, one of the most famous stars in the night sky, is not alone. Using the European Southern Observatory's Very Large Telescope (ESO's VLT), a team led by French …",
+      "ts": 1785240003000,
+      "publishedAt": "2026-07-28T12:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "New images reveal Betelgeuse’s buddy star",
+      "url": "https://www.sciencenews.org/article/new-images-betelgeuse-star",
+      "summary": "A century of hints has suggested the famed red supergiant had a star pal but seeing it amid Betelgeuse’s brightness has been hard — until now.",
+      "ts": 1785240000000,
+      "publishedAt": "2026-07-28T12:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Psychologist develops puzzle that can tell you how fast you think",
+      "url": "https://phys.org/news/2026-07-psychologist-puzzle-fast.html",
+      "summary": "A puzzle that can tell players how fast they think on their feet has been developed by a University of Leeds researcher.",
+      "ts": 1785238802000,
+      "publishedAt": "2026-07-28T11:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "AI models explain 17% of earnings-day stock moves, up from 5%",
@@ -663,142 +799,6 @@
       "title": "Ultranarrow-linewidth self-injection-locked tunable blue GaN DFB laser",
       "url": "https://arxiv.org/abs/2607.24240",
       "summary": "arXiv:2607.24240v1 Announce Type: new Abstract: In this work, we demonstrate an ultra-narrow linewidth self-injection locked distributed feedback (DFB) diode laser emitting at 452 nm, achieving an intrinsic linewidth of …",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Influence of a vertical-wall leading edge on bouncing and escape bubble rising regimes",
-      "url": "https://arxiv.org/abs/2607.24248",
-      "summary": "arXiv:2607.24248v1 Announce Type: new Abstract: This work investigates deformable gas bubbles rising near a vertical wall in ultrapure water, focusing on how the position of the wall leading edge affects their near-wall …",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spatial resolution for gamma ray interactions in stacks of monolithic silicon sensors",
-      "url": "https://arxiv.org/abs/2607.24265",
-      "summary": "arXiv:2607.24265v1 Announce Type: new Abstract: We are developing a new implementation of Compton imaging for nuclear medicine using a large volume of stacked monolithic silicon sensors. In this work we investigate how t…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hyperspectral imaging for inline quality monitoring of roll-to-roll slot-die coated organic photovoltaic active layers",
-      "url": "https://arxiv.org/abs/2607.24278",
-      "summary": "arXiv:2607.24278v1 Announce Type: new Abstract: Lab-scale organic solar cells have shown high efficiency and strong potential for large-scale production. Among the fabrication techniques for upscaling production, roll-to…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bubble growth on arrays of micro-electrodes",
-      "url": "https://arxiv.org/abs/2607.24286",
-      "summary": "arXiv:2607.24286v1 Announce Type: new Abstract: Gas bubbles evolving on electrodes during water-electrolysis are blocking active reaction area, thus hindering mass transfer and raising Ohmic resistance. Unlike earlier mo…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparison between methods to measureintensity modulator Vpi",
-      "url": "https://arxiv.org/abs/2607.24294",
-      "summary": "arXiv:2607.24294v1 Announce Type: new Abstract: We describe and compare in this paper two common methods to measure the half-wave voltage (Vpi) of an electro-optical modulator versus RF frequency of the driving electroni…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Teacher Knows It Best: Spontaneous Symmetry Breaking and Tipping Points in Networked Langevin Dynamics AI Sycophancy",
-      "url": "https://arxiv.org/abs/2607.24304",
-      "summary": "arXiv:2607.24304v1 Announce Type: new Abstract: We formulate a statistical physics framework to model a networked stochastic dynamical system exhibiting bistability, driven by additive noise and social conformity. We app…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lead nanoparticles, the deep-ultraviolet to near-infrared plasmonic platform",
-      "url": "https://arxiv.org/abs/2607.24340",
-      "summary": "arXiv:2607.24340v1 Announce Type: new Abstract: Among the other non-noble metals, lead (Pb) is a material of particular interest for plasmonic applications in the deep ultraviolet spectral region. However, experimental s…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stochastic Counterdiabatic Driving via Biorthogonal Liouvillian Eigenmodes",
-      "url": "https://arxiv.org/abs/2607.24393",
-      "summary": "arXiv:2607.24393v1 Announce Type: new Abstract: Finite-time driving of stochastic systems generates excess dissipation, causing the evolving probability distribution to lag behind the instantaneous equilibrium, and conse…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wavelength-diverse transmission for turbulence-resistant free-space optical communication",
-      "url": "https://arxiv.org/abs/2607.24408",
-      "summary": "arXiv:2607.24408v1 Announce Type: new Abstract: Free-space optical communication (FSOC) links are susceptible to outages caused by atmospheric turbulence-induced fading. Wavelength diversity can mitigate fading by transm…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental Observation of Ghost Image Revivals via Structured Coherence",
-      "url": "https://arxiv.org/abs/2607.24486",
-      "summary": "arXiv:2607.24486v1 Announce Type: new Abstract: Ghost imaging retrieves an object's image from intensity correlations between two light beams, neither of which independently carries information about the object. However,…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nuclear Spin Oscillator Based on $^3$He to Search for Exotic Spin Coupling",
-      "url": "https://arxiv.org/abs/2607.24490",
-      "summary": "arXiv:2607.24490v1 Announce Type: new Abstract: We describe an experimental investigation of a nuclear spin oscillator based on $^3$He nuclei as a possible detector to search for exotic spin couplings. A magnetically shi…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wearable metasurfaces for boosting the effective area of mobile-device antennas",
-      "url": "https://arxiv.org/abs/2607.24497",
-      "summary": "arXiv:2607.24497v1 Announce Type: new Abstract: Wireless communications increasingly face scenarios with compact user equipments operating in propagation environments where signal blockage, absorption, and device size li…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sleep-related forcing of cerebrospinal fluid streaming transport through the third ventricle",
-      "url": "https://arxiv.org/abs/2607.24501",
-      "summary": "arXiv:2607.24501v1 Announce Type: new Abstract: Quasi-periodic pressure pulses associated with cardiac and respiratory activity generate reciprocating cerebrospinal fluid (CSF) motion in the human ventricles. While weak …",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of ion-electron collisions on nonlocal ion heat conduction, viscous stress, and diffusion",
-      "url": "https://arxiv.org/abs/2607.24505",
-      "summary": "arXiv:2607.24505v1 Announce Type: new Abstract: By applying a first-principles reduced kinetic method, this work demonstrates the impact of ion-electron collisions on ion transport for strongly inhomogeneous plasmas in t…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Serrodyne Matterwave Optics",
-      "url": "https://arxiv.org/abs/2607.24511",
-      "summary": "arXiv:2607.24511v1 Announce Type: new Abstract: Bragg diffraction for atom interferometry conventionally requires two laser frequencies whose difference makes the two-photon transition resonant. We show that this frequen…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optically Encoded Suspension Microarrays: Materials, Design Strategies, and Future Directions for Multiplexed Bioanalysis",
-      "url": "https://arxiv.org/abs/2607.24559",
-      "summary": "arXiv:2607.24559v1 Announce Type: new Abstract: Suspension microarrays based on optically encoded microbeads have become one of the most versatile platforms for multiplexed bioanalysis because they combine solution-phase…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computational modelling reveals advantages of ventricular over atrial cardiomyocytes to power self-guided biorobots",
-      "url": "https://arxiv.org/abs/2607.24565",
-      "summary": "arXiv:2607.24565v1 Announce Type: new Abstract: Solid tumours and other hypoxic regions are difficult to treat with conventional systemic drug delivery, which distributes therapeutics non-specifically and increases toxic…",
       "ts": 1785211200000,
       "publishedAt": "2026-07-28T04:00:00.000Z"
     }
