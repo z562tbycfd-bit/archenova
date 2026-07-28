@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-07-28T08:37:51.782Z",
+  "updated": "2026-07-28T11:20:23.131Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI models explain 17% of earnings-day stock moves, up from 5%",
+      "url": "https://phys.org/news/2026-07-ai-day-stock.html",
+      "summary": "To explain the stock market's reaction to earnings results, investors and other market participants have used a standard tool for decades: the earnings surprise.",
+      "ts": 1785237603000,
+      "publishedAt": "2026-07-28T11:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists repair damaged plastics at the molecular level, boosting recycling potential",
+      "url": "https://phys.org/news/2026-07-scientists-plastics-molecular-boosting-recycling.html",
+      "summary": "Plastic recycling could become far more effective thanks to a new technique that restores the strength of damaged engineering plastics by repairing them at the molecular level.",
+      "ts": 1785237602000,
+      "publishedAt": "2026-07-28T11:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA science soars during August total solar eclipse",
+      "url": "https://phys.org/news/2026-07-nasa-science-soars-august-total.html",
+      "summary": "Each time the moon covers the sun during a total solar eclipse—darkening daytime skies and briefly revealing the sun's ethereal outer atmosphere, the corona—it presents new opportunities to better understand our star and…",
+      "ts": 1785237464000,
+      "publishedAt": "2026-07-28T11:17:44.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Benefits of middle school program trickle down to next generation",
+      "url": "https://phys.org/news/2026-07-benefits-middle-school-trickle-generation.html",
+      "summary": "A substance-use prevention program delivered to students and their families in the sixth and seventh grades led to wide-ranging benefits well into adulthood and—for those who became parents—even positively affected their…",
+      "ts": 1785236406000,
+      "publishedAt": "2026-07-28T11:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Moon's thick crust could amplify elusive gravitational-wave signals",
+      "url": "https://phys.org/news/2026-07-moon-thick-crust-amplify-elusive.html",
+      "summary": "Gravitational waves are tiny ripples in the fabric of spacetime that are produced when massive objects in the cosmos accelerate or collide. By detecting these waves, astrophysicists can study various cosmic events, inclu…",
+      "ts": 1785236403000,
+      "publishedAt": "2026-07-28T11:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Record snow drought drives water-hauling crisis for Rocky Mountain ranchers",
+      "url": "https://phys.org/news/2026-07-drought-hauling-crisis-rocky-mountain.html",
+      "summary": "As water shot into an open stock tank atop a high-country mesa, a trickle soaked the dusty earth below. Scott Snyder rose from the shade to fasten a hose and stop the spillage.",
+      "ts": 1785233459000,
+      "publishedAt": "2026-07-28T10:10:59.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI-powered camera system offers low-cost way to monitor bumblebees, potentially other insects",
+      "url": "https://phys.org/news/2026-07-ai-powered-camera-bumblebees-potentially.html",
+      "summary": "Researchers have developed a low-cost, semi-automated, AI-driven method that uses remote cameras to survey bumblebees and potentially other insects. The new tool could have important implications for efforts to conserve …",
+      "ts": 1785232801000,
+      "publishedAt": "2026-07-28T10:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "France and Spain race to contain fires before new heat wave",
+      "url": "https://phys.org/news/2026-07-france-spain.html",
+      "summary": "Firefighters in France and Spain rushed to contain the worst wildfires in living memory Tuesday, seizing crucial hours before the arrival of another wave of searing temperatures.",
+      "ts": 1785230401000,
+      "publishedAt": "2026-07-28T09:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists cut and rebuild molecules from the inside to create new chiral nanocarbons",
+      "url": "https://phys.org/news/2026-07-scientists-rebuild-molecules-chiral-nanocarbons.html",
+      "summary": "Nanocarbons are molecular-scale carbon structures considered to be the building blocks for next-generation materials. Until now, scientists have built them by fusing small, flat carbon molecules together at their edges. …",
+      "ts": 1785229201000,
+      "publishedAt": "2026-07-28T09:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A magnitude 7.1 earthquake shakes part of southern Japan and a tsunami advisory is issued",
+      "url": "https://phys.org/news/2026-07-magnitude-earthquake-southern-japan-tsunami.html",
+      "summary": "An earthquake registering a preliminary magnitude of 7.1 shook Kumamoto on Japan's southern main island of Kyushu late Tuesday afternoon and a tsunami advisory was issued, the Japan Meteorological Agency said.",
+      "ts": 1785228246000,
+      "publishedAt": "2026-07-28T08:44:06.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Modeling reveals Sydney's 1789 smallpox outbreak killed as many as 220,000 indigenous Australians",
@@ -719,86 +799,6 @@
       "title": "Computational modelling reveals advantages of ventricular over atrial cardiomyocytes to power self-guided biorobots",
       "url": "https://arxiv.org/abs/2607.24565",
       "summary": "arXiv:2607.24565v1 Announce Type: new Abstract: Solid tumours and other hypoxic regions are difficult to treat with conventional systemic drug delivery, which distributes therapeutics non-specifically and increases toxic…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The balance between compactness and forecast accuracy of data-driven latent-space reduced-order models in controlled wake flows",
-      "url": "https://arxiv.org/abs/2607.24569",
-      "summary": "arXiv:2607.24569v1 Announce Type: new Abstract: Model-based active flow control requires predictive models that are accurate, stable, and fast enough for real-time optimisation. In controlled wake flows, this is often ac…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reframing the coupling force of adaptive resolution simulation in terms of the Liouville-type hierarchy for open systems",
-      "url": "https://arxiv.org/abs/2607.24574",
-      "summary": "arXiv:2607.24574v1 Announce Type: new Abstract: In this work, we present a novel perspective on the coupling force employed to compensate the interface artifacts prevalent in adaptive resolution simulations (AdResS) of o…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solution to an unsolved problem in diodes: Limiting current for small emission area and low emission energy",
-      "url": "https://arxiv.org/abs/2607.24590",
-      "summary": "arXiv:2607.24590v1 Announce Type: new Abstract: The maximum current that can be extracted from a diode is a central question in electronic devices, especially for the generation of radiation from microwaves to x-rays. Th…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Implementation and verification of the avalanche source in a 3D full-f particle-in-cell model of relativistic electrons for studies of tokamak disruptions",
-      "url": "https://arxiv.org/abs/2607.24602",
-      "summary": "arXiv:2607.24602v1 Announce Type: new Abstract: Disruptions threaten tokamak operation not only because of large in-vessel forces and thermal heat loads, but also because some electrons may be accelerated to relativistic…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extreme outbreaks in non-Markovian epidemics on complex networks",
-      "url": "https://arxiv.org/abs/2607.24615",
-      "summary": "arXiv:2607.24615v1 Announce Type: new Abstract: Extreme epidemic risk is controlled by the right tail of the outbreak-size distribution, but this distribution is generally unknown for non-Markovian spreading on networks.…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Modified Moving Reference Frame Method for Propeller Resolution",
-      "url": "https://arxiv.org/abs/2607.24630",
-      "summary": "arXiv:2607.24630v1 Announce Type: new Abstract: Accurate resolution of propeller-hull interaction is essential for predicting the self-propulsion point in ship CFD, yet motion-resolving methods such as sliding interfaces…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Statistics of Energy and Information Flow in Random Electromagnetic Fields",
-      "url": "https://arxiv.org/abs/2607.24631",
-      "summary": "arXiv:2607.24631v1 Announce Type: new Abstract: We establish a universal statistical description for the local flow of energy and information in random electromagnetic fields. The longitudinal Poynting flux, written as a…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Recommended Second Virial Coefficients for Nitrogen and Oxygen",
-      "url": "https://arxiv.org/abs/2607.24634",
-      "summary": "arXiv:2607.24634v1 Announce Type: new Abstract: We provide recommended values for the second virial coefficient, $B(T)$, and its uncertainty, for molecular nitrogen and oxygen. The temperature range covered is $20-3000$ …",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility",
-      "url": "https://arxiv.org/abs/2607.24663",
-      "summary": "arXiv:2607.24663v1 Announce Type: new Abstract: Scientific user facilities accumulate decades of operational knowledge that no single search index covers: electronic logbooks, technical documents, internal wikis, operati…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Prompt to Embodied Simulation: Using Generative AI to Create AR Physics Learning Tools",
-      "url": "https://arxiv.org/abs/2607.24709",
-      "summary": "arXiv:2607.24709v1 Announce Type: new Abstract: Spread your thumb and index finger in the air, and a virtual lamp in the room changes color. Computer simulations have a long and well-documented record of supporting physi…",
       "ts": 1785211200000,
       "publishedAt": "2026-07-28T04:00:00.000Z"
     }

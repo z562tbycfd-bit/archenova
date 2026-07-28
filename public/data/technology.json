@@ -1,10 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-28T08:37:55.086Z",
+  "updated": "2026-07-28T11:20:26.017Z",
   "items": [
     {
       "source": "STAT",
-      "title": "CMS evaluates one year of health tech progress, announces eight new pledge categories",
+      "title": "STAT+: Preliminary trial results suggest a path to a safer Alzheimer’s treatment",
+      "url": "https://www.statnews.com/2026/07/28/promis-neurosciences-amyloid-alzheimers-aria/?utm_campaign=rss",
+      "summary": "ProMIS Neurosciences is trying to design a safer amyloid-clearing drug for Alzheimer's. Early results suggest it might be on to something.",
+      "ts": 1785232800000,
+      "publishedAt": "2026-07-28T10:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix ",
+      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+      "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his…",
+      "ts": 1785230337000,
+      "publishedAt": "2026-07-28T09:18:57.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: CMS evaluates one year of health tech progress, announces eight new pledge categories",
       "url": "https://www.statnews.com/2026/07/28/medicare-medicaid-evaluates-health-tech-progress-unveils-eight-pledge-categories/?utm_campaign=rss",
       "summary": "One year after launching the CMS Health Tech Ecosystem, officials convened in D.C. to celebrate the Trump administration modernizing health technology.",
       "ts": 1785227400000,
@@ -46,6 +64,15 @@
       "ts": 1785222000000,
       "publishedAt": "2026-07-28T07:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "What is Cherenkov Radiation?",
+      "url": "http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation",
+      "summary": "",
+      "ts": 1785216600000,
+      "publishedAt": "2026-07-28T05:30:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "NASA",
@@ -783,33 +810,6 @@
       "summary": "Even as some medical schools heed health secretary Robert F. Kennedy Jr.’s call for more nutrition education, several told STAT that they plan to steer clear of topics that aren’t…",
       "ts": 1785141000000,
       "publishedAt": "2026-07-27T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: How midwives like me can help fight medical misinformation",
-      "url": "https://www.statnews.com/2026/07/27/midwives-vaccine-denial-misinformation-judgment/?utm_campaign=rss",
-      "summary": "“I have come to believe that changing a mind is rarely the point. Planting a seed is,” writes nurse-midwife Mara Evans.",
-      "ts": 1785141000000,
-      "publishedAt": "2026-07-27T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Meet space startups at ESA’s Industry Space Days",
-      "url": "https://www.esa.int/About_Us/Business_with_ESA/Meet_space_startups_at_ESA_s_Industry_Space_Days",
-      "summary": "Startup companies which have come up with brilliant ideas for using space will join the European Space Agency’s (ESA) Industry Space Days (ISD) event on 16–17 September at ESA-ESTEC in the Netherlands. Over two days Euro…",
-      "ts": 1785139500000,
-      "publishedAt": "2026-07-27T08:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Argenx to buy Forte Biosciences for $2.2B",
-      "url": "https://www.statnews.com/2026/07/27/argenx-acquire-forte-biosciences-autoimmune-diseases/?utm_campaign=rss",
-      "summary": "Argenx plans to buy Forte Biosciences for $2.2 billion, expanding its pipeline of drugs that could treat multiple autoimmune diseases.",
-      "ts": 1785137181000,
-      "publishedAt": "2026-07-27T07:26:21.000Z",
       "categoryId": "bio"
     }
   ],
