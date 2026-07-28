@@ -1,7 +1,143 @@
 {
   "ok": true,
-  "updated": "2026-07-27T23:04:27.109Z",
+  "updated": "2026-07-28T02:42:08.404Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Q&A: 'Lawbreakers' or 'like us'? Exploring how partisans think about immigration",
+      "url": "https://phys.org/news/2026-07-qa-lawbreakers-exploring-partisans-immigration.html",
+      "summary": "Interviews with political activists in Southern California showed stark differences in how migrants are viewed: either \"like us\" and deserving of rights or lawbreakers undeserving of social belonging and benefits.",
+      "ts": 1785206401000,
+      "publishedAt": "2026-07-28T02:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What are 'fire clouds', the ominous phenomenon seen in France?",
+      "url": "https://phys.org/news/2026-07-clouds-ominous-phenomenon-france.html",
+      "summary": "Firefighters battling devastating fires in France have had to contend with a new threat: immense fire clouds that create their own wind and even lightning that can spark fresh blazes.",
+      "ts": 1785205204000,
+      "publishedAt": "2026-07-28T02:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Extreme heat increases the risk of workplace injuries across Canada",
+      "url": "https://phys.org/news/2026-07-extreme-workplace-injuries-canada.html",
+      "summary": "Heat warnings have stretched across Canada this summer, from Atlantic Canada and southern British Columbia to the Prairies, central Canada and the Northwest Territories.",
+      "ts": 1785204002000,
+      "publishedAt": "2026-07-28T02:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Training the next generation of coastal scientists",
+      "url": "https://phys.org/news/2026-07-qa-generation-coastal-scientists.html",
+      "summary": "Burying underwear in soil isn't a typical science lesson. But for students on Hornby Island, it's one way they can learn how seaweed supports local ecosystems.",
+      "ts": 1785202801000,
+      "publishedAt": "2026-07-28T01:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New sensing method measures laser-cutting depth by tracking vaporization recoil",
+      "url": "https://phys.org/news/2026-07-method-laser-depth-tracking-vaporization.html",
+      "summary": "Laser dicing, a technique that uses focused laser pulses to separate individual chips from a semiconductor wafer, is increasingly favored over mechanical blade cutting because it can process delicate, low-strength materi…",
+      "ts": 1785201601000,
+      "publishedAt": "2026-07-28T01:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Diet reveals what life was like 2,700 years ago in an Italian community: Gender inequality, social status and migration",
+      "url": "https://phys.org/news/2026-07-diet-reveals-life-years-italian.html",
+      "summary": "An international study led by the Universities of Córdoba and Pisa used isotopic analysis to reconstruct the dietary traces left in human remains found in an Italian necropolis, revealing what daily life was like in that…",
+      "ts": 1785200402000,
+      "publishedAt": "2026-07-28T01:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seawater samples may offer early clues to changing reef health",
+      "url": "https://phys.org/news/2026-07-seawater-samples-early-clues-reef.html",
+      "summary": "Doctors can often detect diseases in humans using minimally invasive methods, like blood or urine tests, before symptoms become severe. Now, researchers at the Woods Hole Oceanographic Institution (WHOI) are applying a s…",
+      "ts": 1785199206000,
+      "publishedAt": "2026-07-28T00:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Water's local asymmetry drives proton hopping between molecules, simulations reveal",
+      "url": "https://phys.org/news/2026-07-local-asymmetry-proton-molecules-simulations.html",
+      "summary": "Complex simulations—the most intricate of their kind to date—carried out by an international research team led by scientists at Heidelberg University's Institute for Physical Chemistry, have revealed how water governs th…",
+      "ts": 1785199204000,
+      "publishedAt": "2026-07-28T00:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Digital revolution forcing archaeology to rethink research data management",
+      "url": "https://phys.org/news/2026-07-digital-revolution-archaeology-rethink.html",
+      "summary": "Archaeological excavations generate a vast quantity of documents of various types and formats, which constitute a scientific heritage of great value. However, the way this data is organized, documented and preserved rema…",
+      "ts": 1785198001000,
+      "publishedAt": "2026-07-28T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Border crossings shut as heavy snow coats Argentine Andes",
+      "url": "https://phys.org/news/2026-07-border-heavy-coats-argentine-andes.html",
+      "summary": "Heavy snowfall in the Argentine Andes has forced more than 100 people to evacuate and stalled almost 1,000 trucks on snow-covered roads, while flights were rerouted Monday.",
+      "ts": 1785196801000,
+      "publishedAt": "2026-07-28T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Data-driven reduced modeling of neural dynamics",
+      "url": "https://www.nature.com/articles/s41467-026-75924-7",
+      "summary": "",
+      "ts": 1785196800000,
+      "publishedAt": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Interacting non-Hermitian edge and cluster bursts on a digital quantum processor",
+      "url": "https://www.nature.com/articles/s41467-026-75904-x",
+      "summary": "",
+      "ts": 1785196800000,
+      "publishedAt": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Insights into the mechanisms of NH<sub>3</sub> inhibition on Cu-CHA SCR catalysts",
+      "url": "https://www.nature.com/articles/s41467-026-72879-7",
+      "summary": "",
+      "ts": 1785196800000,
+      "publishedAt": "2026-07-28T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How international aid fragmentation affects corruption in developing countries",
+      "url": "https://phys.org/news/2026-07-international-aid-fragmentation-affects-corruption.html",
+      "summary": "An SKKU research team led by Professor Travers B. Child of the SKK Graduate School of Business (SKK GSB) has become the first in the world to use micro-level data to demonstrate that aid fragmentation—the phenomenon in w…",
+      "ts": 1785195603000,
+      "publishedAt": "2026-07-27T23:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When polymers meet primitive membranes: How molecular cooperation may have helped life begin",
+      "url": "https://phys.org/news/2026-07-polymers-primitive-membranes-molecular-cooperation.html",
+      "summary": "A new study suggests that simple molecules on early Earth may have worked together to create more stable, cell-like structures, offering fresh clues about one of science's biggest questions: how life began. Led by Dr. Mo…",
+      "ts": 1785195601000,
+      "publishedAt": "2026-07-27T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tropical species near thermal limits as global warming compresses safety margins",
+      "url": "https://phys.org/news/2026-07-tropical-species-thermal-limits-global.html",
+      "summary": "With global warming and extreme weather intensifying, can animals raise their thermal tolerance to cope with a continuously warming environment? A joint research project by the Division of Science at Lingnan University a…",
+      "ts": 1785194404000,
+      "publishedAt": "2026-07-27T23:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How changing environments can preserve an ancient microbial survival strategy",
+      "url": "https://phys.org/news/2026-07-environments-ancient-microbial-survival-strategy.html",
+      "summary": "A research group led by Tetsuhiro Hatakeyama from the Earth-Life Science Institute (ELSI) at the Institute of Science Tokyo has revealed how a seemingly self-destructive survival strategy could persist in yeast for hundr…",
+      "ts": 1785194402000,
+      "publishedAt": "2026-07-27T23:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Seabirds trade their own survival to raise more chicks after energy-intensive breeding seasons",
@@ -665,142 +801,6 @@
       "summary": "There are countless cultures and societies around the world, spanning thousands of years. One thing they all have in common is that death is a part of everybody's life. Examining how different societies commemorate their…",
       "ts": 1785153637000,
       "publishedAt": "2026-07-27T12:00:37.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Are we missing alien lighthouses?",
-      "url": "https://phys.org/news/2026-07-alien-lighthouses.html",
-      "summary": "Searching for extraterrestrial intelligence has so far primarily meant focusing on one particular type of signal—and that signal has normally been based on our own current cutting-edge technology. But what if that's the …",
-      "ts": 1785153610000,
-      "publishedAt": "2026-07-27T12:00:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Physicists capture first direct evidence of a Floquet topological state",
-      "url": "https://phys.org/news/2026-07-physicists-capture-evidence-floquet-topological.html",
-      "summary": "A new study published in Nature Physics reports the first direct experimental evidence of a Floquet topological state, a novel light-induced phase of matter that, until now, has existed only on paper and in simulations. …",
-      "ts": 1785153601000,
-      "publishedAt": "2026-07-27T12:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Are aliens harvesting the spin of stars?",
-      "url": "https://phys.org/news/2026-07-aliens-harvesting-stars.html",
-      "summary": "One of the challenges of searching for technosignatures (i.e., signs that intelligent life somewhere in the universe has created technology) is understanding what to look for. Technology is a very broad area, and differe…",
-      "ts": 1785152405000,
-      "publishedAt": "2026-07-27T11:40:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Oh deer: The threat munching its way through NZ's native forests",
-      "url": "https://phys.org/news/2026-07-deer-threat-munching-nz-native.html",
-      "summary": "The need for a national deer management strategy to manage the decline of native forests is highlighted in a new research paper published today in the New Zealand Journal of Ecology. Led by Te Whare Wānanga o Waitaha | U…",
-      "ts": 1785151201000,
-      "publishedAt": "2026-07-27T11:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New research reveals mass shootings and suicide deaths share summer peaks",
-      "url": "https://phys.org/news/2026-07-reveals-mass-suicide-deaths-summer.html",
-      "summary": "A new study has found that mass shootings and deaths by suicide in the United States share seasonal patterns, reaching their highest levels during summer months. Analyzing national data spanning 2014–2021, researchers ob…",
-      "ts": 1785150010000,
-      "publishedAt": "2026-07-27T11:00:10.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Virtual reality fish platform offers insights into the impact of artificial light on aquatic life",
-      "url": "https://phys.org/news/2026-07-virtual-reality-fish-platform-insights.html",
-      "summary": "A virtual reality (VR) platform has given researchers new insights into how artificial light at night alters the way coral reef fish respond to predators. The study brings together, for the first time, the metabolic expe…",
-      "ts": 1785146401000,
-      "publishedAt": "2026-07-27T10:00:01.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Leading and Beyond Leading-Order Spectral Form Factor in Chaotic Quantum Many-Body Systems Across All Dyson Symmetry Classes",
-      "url": "http://link.aps.org/doi/10.1103/kwh6-hncn",
-      "summary": "Author(s): Vijay Kumar, Tomaž Prosen, and Dibyendu Roy Researchers analytically calculate the spectral form factor up to second order in time for chaotic many-body systems across all Dyson symmetry classes. [Phys. Rev. X…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Engineering Andreev bound states for thermal sensing in proximity Josephson junctions",
-      "url": "http://link.aps.org/doi/10.1103/9lsg-mdb8",
-      "summary": "Author(s): Woochan Jung, Ethan G. Arnault, Bevin Huang, Jinho Park, Seong Jang, Kenji Watanabe, Takashi Taniguchi, Dirk Englund, Kin Chung Fong, and Gil-Ho Lee The thermal response of proximity Josephson junctions (JJs) …",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Mechanism of volume diffraction effect: Modulation of soft x-rays by high-resolution zone plates",
-      "url": "http://link.aps.org/doi/10.1103/mjkj-lp1k",
-      "summary": "Author(s): Hao Quan, Xujie Tong, Qiucheng Chen, Jinyu Guo, QingXin Wu, Xunjia Zhao, Kangping Liu, Zijian Xu, and Yifang Chen This work investigates the modulation of x-rays by high-resolution zone plates (ZPs), challengi…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Finite-element analysis of electrostatic disturbances during test-mass release for TianQin",
-      "url": "http://link.aps.org/doi/10.1103/sz45-gpb2",
-      "summary": "Author(s): Hengxu Yang, Chao Xue, Wei Wang, Shengping Huang, Yiyan Xu, Bingwei Cai, Jie Chang, Ji Wang, and Ziqing Xie High-precision free floating of test masses (TMs) is critical for TianQin, a space-based gravitationa…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Freestanding plasticized ionic-liquid composite-polymer solid electrolyte for sodium-ion storage",
-      "url": "http://link.aps.org/doi/10.1103/jts4-qp97",
-      "summary": "Author(s): Simranjot K. Sapra, Manish Kr. Singh, Jeng-Kuei Chang, and Rajendra S. Dhaka Solid-state batteries hold immense promise to deliver both high energy density and enhanced safety for advanced energy storage appli…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Spontaneous Nernst coefficient of ferromagnets from the interplay of electron scattering and Berry curvature",
-      "url": "http://link.aps.org/doi/10.1103/jryt-qwsj",
-      "summary": "Author(s): Vittorio Basso, Adriano Di Pietro, and Alessandro Sola The spontaneous Nernst effect in ferromagnetic metals is relevant for thermal-management applications and transverse heat-to-electricity generation, but m…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Nonunique Decompositions of Mixed States and Deterministic Energy Transfers",
-      "url": "http://link.aps.org/doi/10.1103/12b6-hw2h",
-      "summary": "Author(s): Zihan Wang, Fei Meng, and Oscar Dahlsten We investigate the impact of nonunique decompositions of mixed states on energy transfer. Mixed states generally have nonunique decompositions into pure states in quant…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Testing Local Lorentz Invariance with Laser Tracking of the LAGEOS and LAGEOS II Satellites",
-      "url": "http://link.aps.org/doi/10.1103/v88p-965w",
-      "summary": "Author(s): David Lucchesi, Massimo Visco, Roberto Peron, José C. Rodriguez, Massimo Bassan, Giuseppe Pucacco, Luciano Anselmo, Graham Appleby, Marco Cinelli, Alessandro Di Marco, Marco Lucente, Carmelo Magnafico, Carmen …",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Sine-Gordon-Like Solitons in a Spinor Bose-Einstein Condensate",
-      "url": "http://link.aps.org/doi/10.1103/bpl2-y7ls",
-      "summary": "Author(s): Yannick Deller, Alexander Schmutz, Raphael Schäfer, Alexander Flamm, Florian Schmitt, Ido Siovitz, Thomas Gasenzer, Panayotis G. Kevrekidis, Helmut Strobel, and Markus K. Oberthaler We experimentally generate …",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Constant-Amplitude $2π$ Phase Modulation from Topological Pole-Zero Winding",
-      "url": "http://link.aps.org/doi/10.1103/xt46-rfjs",
-      "summary": "Author(s): Alex Krasnok A resonant phase shifter should rotate a complex optical field without changing its magnitude, but loss and coupling usually make resonant phase tuning change the intensity as well. We introduce a…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Mechanism for Nodal Topological Superconductivity on ${\\mathrm{PtBi}}_{2}$ Surface",
-      "url": "http://link.aps.org/doi/10.1103/x1cy-w5zd",
-      "summary": "Author(s): Kristian Mæland, Giorgio Sangiovanni, and Björn Trauzettel Experiments show that the Weyl semimetal ${\\mathrm{PtBi}}_{2}$ hosts unconventional superconductivity in its topological surface states. Hence, the ma…",
-      "ts": 1785146400000,
-      "publishedAt": "2026-07-27T10:00:00.000Z"
     }
   ],
   "sources": [
