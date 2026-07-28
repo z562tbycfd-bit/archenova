@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-07-28T05:49:07.758Z",
+  "updated": "2026-07-28T08:37:55.086Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "CMS evaluates one year of health tech progress, announces eight new pledge categories",
+      "url": "https://www.statnews.com/2026/07/28/medicare-medicaid-evaluates-health-tech-progress-unveils-eight-pledge-categories/?utm_campaign=rss",
+      "summary": "One year after launching the CMS Health Tech Ecosystem, officials convened in D.C. to celebrate the Trump administration modernizing health technology.",
+      "ts": 1785227400000,
+      "publishedAt": "2026-07-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "From ‘lost cause’ to gold rush: Biotechs swarm to cure AATD ",
+      "url": "https://www.statnews.com/2026/07/28/biotech-industry-race-aatd-cure-gene-editing-alpha-1-antitrypsin-deficiency/?utm_campaign=rss",
+      "summary": "Biotech companies are racing to cure alpha-1 antitrypsin deficiency, AATD, fueling patent disputes, startup defections, arbitration, and a U.S.-China rivalry.",
+      "ts": 1785227400000,
+      "publishedAt": "2026-07-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: STAT+: Dementia finally has a business model",
+      "url": "https://www.statnews.com/2026/07/28/brain-infrastructure-dementia-business-model-aaic2026/?utm_campaign=rss",
+      "summary": "The big takeaway from the recent Alzheimer’s Association International Conference in London is an economic message: Dementia finally has a business model, writes Jason Karlawish.",
+      "ts": 1785227400000,
+      "publishedAt": "2026-07-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "After PCOS became PMOS, there’s hope for new awareness among Black and Latina women",
+      "url": "https://www.statnews.com/2026/07/28/pmos-name-change-growing-awareness-faster-diagnosis-women-of-color/?utm_campaign=rss",
+      "summary": "Growing awareness of a painful endocrine disorder now named PMOS is good news for women of color, who have high prevalence and low diagnosis.",
+      "ts": 1785227400000,
+      "publishedAt": "2026-07-28T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Vertical liftoff as Ariane 6 takes flight for the first time",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Vertical_liftoff_as_Ariane_6_takes_flight_for_the_first_time",
+      "summary": "Image: Vertical liftoff as Ariane 6 takes flight for the first time",
+      "ts": 1785222000000,
+      "publishedAt": "2026-07-28T07:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NASA",
       "title": "Smoke Blankets Oregon",
@@ -765,51 +810,6 @@
       "summary": "Argenx plans to buy Forte Biosciences for $2.2 billion, expanding its pipeline of drugs that could treat multiple autoimmune diseases.",
       "ts": 1785137181000,
       "publishedAt": "2026-07-27T07:26:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "StockWatch: Axiom CEO Explains Plans for Hong Kong IPO",
-      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-axiom-ceo-explains-plans-for-hong-kong-ipo/",
-      "summary": "Axiom says the special administrative region of China possesses deep biotechnology expertise, a strong appetite for clinical-stage innovation, and direct proximity to the Asian partners and capital advancing the company’…",
-      "ts": 1785133426000,
-      "publishedAt": "2026-07-27T06:23:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Computer Vision Based Neurology Brain Activity Rejection Architecture and Implementation",
-      "url": "https://arxiv.org/abs/2607.21654",
-      "summary": "arXiv:2607.21654v1 Announce Type: new Abstract: The electroencephalogram (EEG) is a valuable and widely applied tool for investigating brain disorders and behavioral changes. It offers a minimally restrictive and non-inv…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Jointly estimating transmissibility and prior immunity from epidemic time series",
-      "url": "https://arxiv.org/abs/2607.21657",
-      "summary": "arXiv:2607.21657v1 Announce Type: new Abstract: Infectious disease time series are often used to estimate a pathogen's basic reproduction number, $R_0$. However, fits of epidemic models to time series conflate pathogen t…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From biodiversity modelling to conservation action: a spatial indicator for prioritising tropical forest protection, restoration, and management",
-      "url": "https://arxiv.org/abs/2607.21690",
-      "summary": "arXiv:2607.21690v1 Announce Type: new Abstract: Tropical forests harbour exceptional biodiversity but are increasingly threatened by anthropogenic pressures, making their conservation central to achieving the Convention …",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Dynamics Decomposition of Boolean Networks: An algebraic foundation",
-      "url": "https://arxiv.org/abs/2607.21795",
-      "summary": "arXiv:2607.21795v1 Announce Type: new Abstract: Understanding the dynamics of Boolean networks is central to problems such as network reduction, design, control, and reverse engineering. As Boolean network models continu…",
-      "ts": 1785124800000,
-      "publishedAt": "2026-07-27T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],

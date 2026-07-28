@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-28T05:49:04.238Z",
+  "updated": "2026-07-28T08:37:51.782Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Modeling reveals Sydney's 1789 smallpox outbreak killed as many as 220,000 indigenous Australians",
+      "url": "https://phys.org/news/2026-07-reveals-sydney-smallpox-outbreak-indigenous.html",
+      "summary": "Groundbreaking modeling has revealed that as many as 220,000 Indigenous Australians died in a devastating 1789 smallpox outbreak that originated in Sydney, tracing its origins to the First Fleet. Soon after British ships…",
+      "ts": 1785221401000,
+      "publishedAt": "2026-07-28T06:50:01.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Fermi--Born--Infeld electrodynamics: a nonlinear theory with physical gauge",
@@ -791,14 +799,6 @@
       "title": "From Prompt to Embodied Simulation: Using Generative AI to Create AR Physics Learning Tools",
       "url": "https://arxiv.org/abs/2607.24709",
       "summary": "arXiv:2607.24709v1 Announce Type: new Abstract: Spread your thumb and index finger in the air, and a virtual lamp in the room changes color. Computer simulations have a long and well-documented record of supporting physi…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PhononBench-MP40: a spectrum-resolved benchmark dataset for phonon stability",
-      "url": "https://arxiv.org/abs/2607.22573",
-      "summary": "arXiv:2607.22573v1 Announce Type: cross Abstract: Imaginary phonon modes remain a practical bottleneck in computational materials screening because otherwise plausible structures can be locally dynamically unstable under…",
       "ts": 1785211200000,
       "publishedAt": "2026-07-28T04:00:00.000Z"
     }
