@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-07-28T16:42:42.532Z",
+  "updated": "2026-07-28T18:16:23.430Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Visa time limits on foreign Ph.D. students and postdocs will harm U.S. science, experts warn",
+      "url": "https://www.statnews.com/2026/07/28/dhs-visa-policy-change-international-students-scientific-research-impact/?utm_campaign=rss",
+      "summary": "A Trump administration plan to limit visas for graduate student and postdocs to four years is fueling concerns that the U.S. could lose out on foreign scientists",
+      "ts": 1785258020000,
+      "publishedAt": "2026-07-28T17:00:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Nova Biomedical Acquires NanoCellect Assets to Expand Cell Line Development Portfolio",
+      "url": "https://www.genengnews.com/topics/bioprocessing/nova-biomedical-acquires-nanocellect-assets-to-expand-cell-line-development-portfolio/",
+      "summary": "The addition of NanoCellect's technology advances Nova’s strategy of offering a connected portfolio of tools that support continuity, data-driven decision-making, and process optimization across the entire bioprocessing …",
+      "ts": 1785258004000,
+      "publishedAt": "2026-07-28T17:00:04.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Scientific computing in the age of agentic AI",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "ts": 1785258000000,
+      "publishedAt": "2026-07-28T17:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Bracing for another Fauci hearing",
@@ -781,33 +808,6 @@
       "title": "75 years later, the promise to protect refugees faces its greatest test",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168036",
       "summary": "As the world marks the 75th anniversary of the Refugee Convention, the UN refugee agency (UNHCR) has launched a global campaign urging governments, organizations and individuals to renew their commitment to protecting pe…",
-      "ts": 1785153600000,
-      "publishedAt": "2026-07-27T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Lebanon: Israeli strikes ‘could amount to international crimes,’ warns Türk",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168034",
-      "summary": "UN Human Rights Chief Volker Türk expressed concern about ongoing displacement and destruction caused by Israeli strikes against Lebanon as he concluded a two-day visit to the country on Monday.",
-      "ts": 1785153600000,
-      "publishedAt": "2026-07-27T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Guterres: Fast-tracking West Bank outposts is a ‘flagrant violation’ of international law",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168035",
-      "summary": "The United Nations continues to monitor developments in the Occupied Palestinian Territory amid rising violence and greater restrictions in the occupied West Bank.",
-      "ts": 1785153600000,
-      "publishedAt": "2026-07-27T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "High prices and funding cuts stall HIV prevention revolution",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168033",
-      "summary": "The AIDS epidemic could stage a comeback amid unequal access to breakthrough prevention medicines and a sharp decline in global funding, according to a UN report released on Monday ahead of the opening of the 26th Intern…",
       "ts": 1785153600000,
       "publishedAt": "2026-07-27T12:00:00.000Z",
       "categoryId": "global-governance"

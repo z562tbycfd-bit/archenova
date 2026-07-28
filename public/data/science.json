@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-07-28T16:42:32.786Z",
+  "updated": "2026-07-28T18:16:21.694Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Tropical insects may be running out of room as temperatures rise",
+      "url": "https://phys.org/news/2026-07-tropical-insects-room-temperatures.html",
+      "summary": "New research from Costa Rica's Área de Conservación Guanacaste (ACG) suggests that tropical insects may be vulnerable to rising temperatures. The study, published in the Proceedings of the National Academy of Sciences, e…",
+      "ts": 1785261606000,
+      "publishedAt": "2026-07-28T18:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sargassum, the smelly nemesis of beach vacations, has become a self‑sustaining disaster that will keep coming back",
+      "url": "https://phys.org/news/2026-07-sargassum-smelly-nemesis-beach-vacations.html",
+      "summary": "You've been planning your dream beach vacation for months, only to arrive and find the shoreline covered in large piles of smelly, brown seaweed, with even more floating offshore. It's disappointing, for sure—and increas…",
+      "ts": 1785261602000,
+      "publishedAt": "2026-07-28T18:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "California drought may have pushed parts of the Sacramento Valley aquifer toward permanent collapse",
+      "url": "https://phys.org/news/2026-07-california-drought-sacramento-valley-aquifer.html",
+      "summary": "Around a quarter of the U.S. food supply is grown in California's Central Valley. Most of its crops, like rice, fruit trees and nut trees, are water-intensive and require extensive groundwater pumping during droughts. Ov…",
+      "ts": 1785261001000,
+      "publishedAt": "2026-07-28T17:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The future of the UK's renowned Lovell radio telescope is in question after a funding cut",
+      "url": "https://phys.org/news/2026-07-future-uk-renowned-lovell-radio.html",
+      "summary": "Scientists have reacted with alarm to news that the British government will cut funding to the world-famous radio telescope at the Jodrell Bank Observatory, a UNESCO World Heritage Site in northwest England that has been…",
+      "ts": 1785260411000,
+      "publishedAt": "2026-07-28T17:40:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Play is essential for young children, including when it comes to their learning",
+      "url": "https://phys.org/news/2026-07-play-essential-young-children.html",
+      "summary": "Prioritizing play offers a variety of benefits for children, from helping them grow their vocabulary to managing their big feelings with fewer behavioral problems.",
+      "ts": 1785260408000,
+      "publishedAt": "2026-07-28T17:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mesolithic hunter-gatherers on Malta relied on repeated sea crossings, study suggests",
+      "url": "https://phys.org/news/2026-07-mesolithic-hunter-malta-sea.html",
+      "summary": "The existence of humans on Malta, a tiny Mediterranean island, during the Mesolithic period is puzzling. Archaeological evidence indicates that foragers occupied the Maltese islands between 8,500 and 7,500 years ago, and…",
+      "ts": 1785260401000,
+      "publishedAt": "2026-07-28T17:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Impact of climate change may be equivalent to 3.3 million years of transformations in tropical vegetation",
+      "url": "https://phys.org/news/2026-07-impact-climate-equivalent-million-years.html",
+      "summary": "The tropics cover less than one-third of Earth's surface but are home to more than half of all known species. Forests, savannas, grasslands and deserts: A vast array of environments stretches along the planet's equatoria…",
+      "ts": 1785259203000,
+      "publishedAt": "2026-07-28T17:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Small ants that evict coffee pests may gain reproductive boost while protecting crops",
+      "url": "https://phys.org/news/2026-07-small-ants-evict-coffee-pests.html",
+      "summary": "Ants are known allies in the fight against coffee pests known as coffee berry borers. Now, a discovery made by Jonathan \"Jonno\" Morris while he was a University of Michigan graduate student has revealed there may be a ne…",
+      "ts": 1785259202000,
+      "publishedAt": "2026-07-28T17:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Social amoebae form nanotube networks linking multiple cells",
+      "url": "https://phys.org/news/2026-07-social-amoebae-nanotube-networks-linking.html",
+      "summary": "Social amoebae are unicellular organisms that act in concert, requiring extensive communication. Pierre Stallforth and colleagues studied modes of communication among cells of the social amoeba Dictyostelium discoideum, …",
+      "ts": 1785258005000,
+      "publishedAt": "2026-07-28T17:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Rivers in the sky' influence marine heat waves",
+      "url": "https://phys.org/news/2026-07-rivers-sky-marine.html",
+      "summary": "Long, narrow bands of moving moisture in the sky, known as atmospheric rivers, contribute to heat waves in the marine environment, according to a new study published in Nature Communications by researchers from Duke Univ…",
+      "ts": 1785258001000,
+      "publishedAt": "2026-07-28T17:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Ultracold neutrons don't disappear into the mirror world",
@@ -719,86 +799,6 @@
       "title": "Commissioning and first results from the Cold Radon Emanation Facility",
       "url": "https://arxiv.org/abs/2607.22870",
       "summary": "arXiv:2607.22870v1 Announce Type: new Abstract: Radon emanation from detector materials is a critical background for next-generation rare event searches, in particular those using noble liquid targets. While highly sensi…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gravitational DePhaser: A Temporal Gravitational Lensing Model for Creative Audio Processing",
-      "url": "https://arxiv.org/abs/2607.22873",
-      "summary": "arXiv:2607.22873v1 Announce Type: new Abstract: Classical delay, chorus, and reverb effects model multiple pro- pagation paths using discrete delays or statistical distributions. This work proposes a model inspired by gr…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Single-Tuning-Element Loaded Pixelated Tunable Band-Pass Filters with Low Loss via Inverse Synthesis on Massive-Scale Dataset",
-      "url": "https://arxiv.org/abs/2607.22894",
-      "summary": "arXiv:2607.22894v1 Announce Type: new Abstract: This paper presents a novel three-phase inverse-design flow for synthesizing tunable pixelated band-pass filters. The workflow consists of: 1) acquisition of a massive data…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Clarifying the energy storage capabilities of virtual critical coupling under realistic excitation constraints",
-      "url": "https://arxiv.org/abs/2607.22897",
-      "summary": "arXiv:2607.22897v1 Announce Type: new Abstract: Virtual critical coupling (VCC) has emerged as a promising approach for achieving reflectionless excitation of resonant systems through tailored incident waveforms. However…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Combined Cavity Alignment and Mode-Mismatch Sensing using RF-QPD Sensors",
-      "url": "https://arxiv.org/abs/2607.22907",
-      "summary": "arXiv:2607.22907v1 Announce Type: new Abstract: In this article we describe a scheme for sensing both the mode mismatch and alignment of a cavity which does not require custom sensors and uses only Quadrant Photo-Detecto…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "CP2K: An electronic structure and molecular dynamics software package - Dynamics, Transport, and Spectroscopic Response",
-      "url": "https://arxiv.org/abs/2607.22916",
-      "summary": "arXiv:2607.22916v1 Announce Type: new Abstract: One of the distinguishing aspects of CP2K is its seamless integration of diverse structural and transition-state optimization techniques with advanced sampling approaches i…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energetics of frontogenesis in simple balanced models",
-      "url": "https://arxiv.org/abs/2607.22970",
-      "summary": "arXiv:2607.22970v1 Announce Type: new Abstract: Submesoscale fronts have been proposed to act as conduits funneling kinetic energy from geostrophically constrained mesoscale eddies down to small scales, where the energy …",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phonon heat transport with squeezing-based symmetry breaking",
-      "url": "https://arxiv.org/abs/2607.22990",
-      "summary": "arXiv:2607.22990v1 Announce Type: new Abstract: The controllability of phonon thermal transport is fundamental for numerous technologies, from cooling high-performance chips to managing heat in quantum computing. Despite…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transition to double-cell mock Walker circulations with surface warming explained by periodic convection",
-      "url": "https://arxiv.org/abs/2607.23001",
-      "summary": "arXiv:2607.23001v1 Announce Type: new Abstract: Idealized mock Walker simulations are widely used to study the interactions between overturning circulation and convection in the tropics. Previous studies documented a tra…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An index to quantify scientific debt",
-      "url": "https://arxiv.org/abs/2607.23011",
-      "summary": "arXiv:2607.23011v1 Announce Type: new Abstract: I propose the index $z$, defined as $z=\\sum\\limits_{i=1}^{n} \\mathrm{IF}_{i}$, where $\\mathrm{IF}_{i}$ is the impact factor of the journal in the publication year of the $i…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Investigating planar Proca metamaterials in nonlinear (2+1)-Electrodynamics",
-      "url": "https://arxiv.org/abs/2607.23013",
-      "summary": "arXiv:2607.23013v1 Announce Type: new Abstract: The present work pursues the investigation of the physics of a planar electromagnetic system incorporating nonlinear effects, as well as de Broglie-Proca and Chern-Simons m…",
       "ts": 1785211200000,
       "publishedAt": "2026-07-28T04:00:00.000Z"
     }
