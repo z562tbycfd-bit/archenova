@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-07-28T22:06:10.628Z",
+  "updated": "2026-07-28T23:59:37.537Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: American Diabetes Association, facing calls for resignations, asks for patience  ",
+      "url": "https://www.statnews.com/2026/07/28/american-diabetes-association-fallout-researchers-expulsion/?utm_campaign=rss",
+      "summary": "An open letter to the board of the American Diabetes Association said the board had badly mishandled an incident at its annual meeting.",
+      "ts": 1785281647000,
+      "publishedAt": "2026-07-28T23:34:07.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Swift reboost mission encounters attitude control problems",
+      "url": "https://spacenews.com/swift-reboost-mission-encounters-attitude-control-problems/",
+      "summary": "A spacecraft launched nearly a month ago in a high-risk bid to boost the orbit of a NASA astrophysics satellite is suffering attitude control problems that could jeopardize its mission. The post Swift reboost mission enc…",
+      "ts": 1785279869000,
+      "publishedAt": "2026-07-28T23:04:29.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "ESA opens call to repurpose Gateway communications module",
@@ -792,24 +810,6 @@
       "summary": "The beleaguered Sarepta Therapeutics named Michael Severino, who previously led Tessera Therapeutics, as its new CEO.",
       "ts": 1785160161000,
       "publishedAt": "2026-07-27T13:49:21.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a U.S. peptide panel’s votes, Amgen scuffling with the FDA, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/27/fda-panel-peptide-votes-amgen-fights-tavneos-withdrawal/?utm_campaign=rss",
-      "summary": "An FDA panel recommended that compounding pharmacies be allowed to make two more peptides, a step toward RFK Jr.'s goal to make them more available",
-      "ts": 1785158387000,
-      "publishedAt": "2026-07-27T13:19:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Ahead of hearing, FDA questions the efficacy of Capricor’s Duchenne drug",
-      "url": "https://www.statnews.com/2026/07/27/fda-efficacy-doubts-capricor-therapeutics-duchenne-muscular-dystrophy/?utm_campaign=rss",
-      "summary": "Ahead of a hearing, the FDA raised questions about the benefits of a Duchenne treatment from Capricor Therapeutics, another twist for the rare disease drug.",
-      "ts": 1785157703000,
-      "publishedAt": "2026-07-27T13:08:23.000Z",
       "categoryId": "bio"
     }
   ],

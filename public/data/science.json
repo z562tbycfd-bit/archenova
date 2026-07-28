@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-07-28T22:06:06.683Z",
+  "updated": "2026-07-28T23:59:34.200Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Queen bee pheromones help daughters decide whether to stay or leave the nest",
+      "url": "https://phys.org/news/2026-07-queen-bee-pheromones-daughters-stay.html",
+      "summary": "Female sweat bees need to make a pivotal life decision: remain in the nest to help their mother raise more offspring or leave to establish nests of their own. New research from the Smithsonian Tropical Research Institute…",
+      "ts": 1785280204000,
+      "publishedAt": "2026-07-28T23:10:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Deformed head shapes in fossilized humans show their infants were probably just as helpless as modern human babies",
+      "url": "https://phys.org/news/2026-07-deformed-fossilized-humans-infants-helpless.html",
+      "summary": "Archaic human parents had to look after helpless infants like modern-day parents do, according to new research. Human babies are born less developed than those of other great apes and are therefore unable to move as free…",
+      "ts": 1785280201000,
+      "publishedAt": "2026-07-28T23:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Inequalities grow in cities as heat and daylight patterns transform urban life",
+      "url": "https://phys.org/news/2026-07-inequalities-cities-daylight-patterns-urban.html",
+      "summary": "Changing patterns of heat and daylight in urban environments are creating growing inequalities, with climate-related shifts reshaping daily life and disproportionately affecting vulnerable communities.",
+      "ts": 1785279601000,
+      "publishedAt": "2026-07-28T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Bag of Bones' preserves rare three-tier prehistoric meal in Outback Queensland",
+      "url": "https://phys.org/news/2026-07-bag-bones-rare-tier-prehistoric.html",
+      "summary": "An ancient marine 'crime scene' discovered near Richmond captures the world first evidence of a flying reptile being eaten by a sea monster… before that predator became dinner itself.",
+      "ts": 1785278406000,
+      "publishedAt": "2026-07-28T22:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers shed light on elusive sharks of Galapagos Islands",
+      "url": "https://phys.org/news/2026-07-elusive-sharks-galapagos-islands.html",
+      "summary": "For nearly two centuries, the Galapagos Islands have inspired scientific discovery. While some might think only of Charles Darwin and his journeys on the HMS Beagle, there is much more to discover. Today, María Antonia I…",
+      "ts": 1785278401000,
+      "publishedAt": "2026-07-28T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists' biographies may demotivate, not inspire, children to study science",
+      "url": "https://phys.org/news/2026-07-scientists-biographies-demotivate-children-science.html",
+      "summary": "Currently popular biographies of famous scientists may demotivate—rather than inspire—children's desire to study or pursue careers in science, according to researchers who studied the messages in 422 bestselling children…",
+      "ts": 1785277207000,
+      "publishedAt": "2026-07-28T22:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simulating multiple financial risks at once can better predict resilience against future shocks",
+      "url": "https://phys.org/news/2026-07-simulating-multiple-financial-resilience-future.html",
+      "summary": "Could the 2008 financial crisis strike again? How would today's banks react? One way for government regulators to findout is to stress-test large financial institutions: analyze how their balance sheets would weather pos…",
+      "ts": 1785277201000,
+      "publishedAt": "2026-07-28T22:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A new indicator to speed up metallic glass discovery",
@@ -743,62 +799,6 @@
       "title": "Hybrid Acousto-Optical Double Dressing of a Two-Level System",
       "url": "http://link.aps.org/doi/10.1103/xjpt-q14w",
       "summary": "Author(s): Yuan Zhan, Zixuan Wang, Richard P. Mirin, Kevin L. Silverman, and Shuo Sun We experimentally investigate resonance fluorescence from a two-level system in a novel configuration where a strong laser drives an o…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Superradiant Phase is a Finite Size Effect in Two-photon Processes",
-      "url": "http://link.aps.org/doi/10.1103/syq9-z93n",
-      "summary": "Author(s): Fabrizio Ramírez, David Villaseñor, Nahum Vázquez, and Jorge G. Hirsch Two-photon light-matter interactions exhibit distinctive features such as spectral collapse. The two-photon Dicke model has been reported …",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Coherent Regime of Kapitza-Dirac Effect with Electrons",
-      "url": "http://link.aps.org/doi/10.1103/9gg2-zy3l",
-      "summary": "Author(s): Kamila Moriová, Petr Koutenský, Neli Laštovičková Streshkova, Marius Constantin Chirita Mihaila, Zbyněk Šobáň, Jaromír Kopeček, Andreas Schertel, and Martin Kozák Electron matter waves coherently diffract when…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Imperfect Blockade in Rydberg Superatoms",
-      "url": "http://link.aps.org/doi/10.1103/sbk8-n8y3",
-      "summary": "Author(s): Valentin Magro, Sébastien Garcia, and Alexei Ourjoumtsev A theory of imperfect Rydberg blockade is developed and experimentally verified, promising higher-quality elements for quantum technologies. [Phys. Rev.…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Coherent Attosecond Pulses Generated by a Relativistic Electron Beam Interacting with an Intense Laser at a Grazing Angle",
-      "url": "http://link.aps.org/doi/10.1103/7hy5-kf31",
-      "summary": "Author(s): H. Peng, T. W. Huang, C. N. Wu, K. Jiang, R. Li, C. Riconda, S. Weber, and C. T. Zhou The interaction between relativistic electron beams and intense laser fields has been extensively studied for generating hi…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Universal Critical Dynamics of Vortex Shedding in Quantum Fluids",
-      "url": "http://link.aps.org/doi/10.1103/pd91-32q3",
-      "summary": "Author(s): Niccolò Geracitano, Francesco Viola, Paolo Luchini, and Vincenzo Citro In classical fluid dynamics, the von Kármán vortex street behind a bluff body is the canonical example used to study vortex formation and …",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Incipient Modulated Phase in ${\\mathrm{Sr}}_{1−x}{\\mathrm{Ca}}_{x}{\\mathrm{TiO}}_{3}$",
-      "url": "http://link.aps.org/doi/10.1103/mpx9-b5x3",
-      "summary": "Author(s): Benoît Fauqué, Daniel A. Chaney, Philippe Bourges, Stéphane Raymond, Frédéric Bourdarot, Arno Hiess, Paul Steffens, Benoît Baptiste, Luigi Paolasini, Alexeï Bosak, Kamran Behnia, and Yasuhide Tomioka Nanometer…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Disorder-Free Solitonlike Energy Transport in Moiré-Engineered Phononic Flat Bands",
-      "url": "http://link.aps.org/doi/10.1103/jdbw-p719",
-      "summary": "Author(s): Chunjiang Li, Tiancheng Zhang, Jiahao Cheng, Xuzhe Zhao, Shuang Zhang, Nicholas X. Fang, Junqiao Wu, Jiachen Li, and Kaichen Dong The pursuit of low-loss, directional energy transport and heat localization is …",
       "ts": 1785232800000,
       "publishedAt": "2026-07-28T10:00:00.000Z"
     }
