@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-07-28T20:17:23.197Z",
+  "updated": "2026-07-28T22:06:10.628Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "ESA opens call to repurpose Gateway communications module",
+      "url": "https://spacenews.com/esa-opens-call-to-repurpose-gateway-communications-module/",
+      "summary": "JOHANNESBURG — The European Space Agency is moving ahead with plans to examine the feasibility of repurposing Lunar Link, a communications system developed for NASA’s now-paused Gateway space station, as […] The post ESA…",
+      "ts": 1785271100000,
+      "publishedAt": "2026-07-28T20:38:20.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Argenx Expands Immunology Portfolio with $2.2B Buyout of Forte Biosciences",
@@ -136,6 +145,15 @@
       "ts": 1785240001000,
       "publishedAt": "2026-07-28T12:00:01.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Climate alarm ‘blaring from every direction’",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168042",
+      "summary": "Climate-driven disasters are reaching “nightmare proportions” due to humanity’s “addiction” to fossil fuels, a top UN official warned on Tuesday.",
+      "ts": 1785240000000,
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -793,24 +811,6 @@
       "ts": 1785157703000,
       "publishedAt": "2026-07-27T13:08:23.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Orbes unveils Exo-ORB and agreement with Symphony Space",
-      "url": "https://spacenews.com/orbes-unveils-exo-orb-and-agreement-with-symphony-space/",
-      "summary": "SAN FRANCISCO – Southern California startup Orbes announced an agreement July 27 to send Exo-ORB, a free-flying satellite, to gather imagery of an uncrewed Symphony Space station. Exo-ORB, which is […] The post Orbes unv…",
-      "ts": 1785157200000,
-      "publishedAt": "2026-07-27T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Intel debuts new chip for space computing",
-      "url": "https://spacenews.com/intel-debuts-new-chip-for-space-computing/",
-      "summary": "Starfire is designed to support onboard data processing and AI workloads. The post Intel debuts new chip for space computing appeared first on SpaceNews.",
-      "ts": 1785157200000,
-      "publishedAt": "2026-07-27T13:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

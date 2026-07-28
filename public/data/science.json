@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-07-28T20:17:21.339Z",
+  "updated": "2026-07-28T22:06:06.683Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A new indicator to speed up metallic glass discovery",
+      "url": "https://phys.org/news/2026-07-indicator-metallic-glass-discovery.html",
+      "summary": "A research team led by Dongwoo Lee, an associate professor in the School of Mechanical Engineering at Sungkyunkwan University (SKKU), and Yanhui Liu of the Institute of Physics, Chinese Academy of Sciences (CAS), has dev…",
+      "ts": 1785276006000,
+      "publishedAt": "2026-07-28T22:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Thousands of America's historic landmarks face significant wildfire risk",
+      "url": "https://phys.org/news/2026-07-thousands-america-historic-landmarks-significant.html",
+      "summary": "When the Palisades Fire tore through Los Angeles in January 2025, it didn't only destroy homes. It took the Will Rogers Ranch House—a beloved California landmark—with it. Six months later, the Dragon Bravo wildfire burne…",
+      "ts": 1785276004000,
+      "publishedAt": "2026-07-28T22:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New shrimpgoby species named after its colors and 'The Sunrise of Java'",
+      "url": "https://phys.org/news/2026-07-shrimpgoby-species-sunrise-java.html",
+      "summary": "Researchers have described a new species of shrimpgoby from the coastal waters off Banyuwangi, East Java, and given it a name that pays tribute to both its fiery coloration and its birthplace.",
+      "ts": 1785274806000,
+      "publishedAt": "2026-07-28T21:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sustainability is not automatic: New model reveals local successes and regional barriers",
+      "url": "https://phys.org/news/2026-07-sustainability-automatic-reveals-local-successes.html",
+      "summary": "Whether a region manages its land sustainably cannot be measured by land-use change alone. Sustainability is a delicate balance: it must be ecologically sound, legally secure and socially just. Yet capturing this interpl…",
+      "ts": 1785274805000,
+      "publishedAt": "2026-07-28T21:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Argo Program's floats sustain global ocean health tracking, according to experts",
+      "url": "https://phys.org/news/2026-07-argo-sustain-global-ocean-health.html",
+      "summary": "Understanding marine life, ecosystems and processes depends on high-quality, publicly available data. The Argo Program is the dominant source of ocean data, helping scientists worldwide assess and track global ocean heal…",
+      "ts": 1785273606000,
+      "publishedAt": "2026-07-28T21:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Algal blooms accelerate plastic weathering, potentially fueling microplastic formation",
+      "url": "https://phys.org/news/2026-07-algal-blooms-plastic-weathering-potentially.html",
+      "summary": "Every summer, algal blooms turn rivers and lakes green. Although they are widely known as a major form of water pollution that makes water murky, a KAIST research team has now shown for the first time that algal bloom co…",
+      "ts": 1785273601000,
+      "publishedAt": "2026-07-28T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Inverse-designed 2D magnonic crystals widen spin-wave band gaps",
+      "url": "https://phys.org/news/2026-07-inverse-2d-magnonic-crystals-widen.html",
+      "summary": "Spin waves (SWs), or magnons, are collective excitations of magnetization in magnetic materials arising from electron spins. They have attracted considerable attention as information carriers and have shown promise in lo…",
+      "ts": 1785272407000,
+      "publishedAt": "2026-07-28T21:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Juvenile great white sharks fled their nursery during tropical storm Hilary, research reveals",
+      "url": "https://phys.org/news/2026-07-juvenile-great-white-sharks-fled.html",
+      "summary": "In August 2023, communities across Southern California braced for Tropical Storm Hilary—the first tropical storm to directly impact the region this century. Although the storm weakened from a Category 4 hurricane before …",
+      "ts": 1785272405000,
+      "publishedAt": "2026-07-28T21:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Diets high in a particular type of fat help protect bees against pesticides",
+      "url": "https://phys.org/news/2026-07-diets-high-fat-bees-pesticides.html",
+      "summary": "Diets rich in polyunsaturated fatty acids—a type of fat that supports brain function, cell growth and heart health—may help protect honey bees against the toxic effects of pesticides, according to a study led by research…",
+      "ts": 1785271207000,
+      "publishedAt": "2026-07-28T20:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global North-South income gap has widened dramatically",
+      "url": "https://phys.org/news/2026-07-global-north-south-income-gap.html",
+      "summary": "The income gap between the global north (the advanced economies of the core) and the global south (the developing economies of the periphery) has increased by between 170% and 270% since 1960, according to a study by ICT…",
+      "ts": 1785271203000,
+      "publishedAt": "2026-07-28T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Global hotspots where drought poses the greatest threat to crop production mapped",
+      "url": "https://phys.org/news/2026-07-global-hotspots-drought-poses-greatest.html",
+      "summary": "As temperature and precipitation fluctuations continue to influence crop production worldwide, it is important to understand where crops are most vulnerable to these environmental stressors.",
+      "ts": 1785270005000,
+      "publishedAt": "2026-07-28T20:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New theory on how six‑tonne Stonehenge rock was transported from Scotland thousands of years ago: On a glacier",
+      "url": "https://phys.org/news/2026-07-theory-sixtonne-stonehenge-scotland-thousands.html",
+      "summary": "Built from stones weighing between 2 and 25 tonnes (2 to 28 tons), the structure of Stonehenge demonstrates a scale of construction hard to imagine before the invention of the wheel. The mystery deepens when you consider…",
+      "ts": 1785270001000,
+      "publishedAt": "2026-07-28T20:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New cell-based method could expand human milk oligosaccharides available for infant formula",
@@ -703,102 +799,6 @@
       "title": "Disorder-Free Solitonlike Energy Transport in Moiré-Engineered Phononic Flat Bands",
       "url": "http://link.aps.org/doi/10.1103/jdbw-p719",
       "summary": "Author(s): Chunjiang Li, Tiancheng Zhang, Jiahao Cheng, Xuzhe Zhao, Shuang Zhang, Nicholas X. Fang, Junqiao Wu, Jiachen Li, and Kaichen Dong The pursuit of low-loss, directional energy transport and heat localization is …",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Realization of the Thermal Haldane Lattice",
-      "url": "http://link.aps.org/doi/10.1103/qjq1-4k8c",
-      "summary": "Author(s): Jiaxin Li, Chengxin Xu, Shuihua Yang, Zifu Xu, Guoqiang Xu, Lizhou Dai, Kaipeng Liu, Jianfeng Chen, Guangming Tao, Ghim Wei Ho, Tianlong Li, and Cheng-Wei Qiu The quantum Hall effect and topological insulators…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Unveiling the Hidden Spin-Polarized Bi(110) Surface States by Spin-Resolved Photoemission",
-      "url": "http://link.aps.org/doi/10.1103/3vs9-4y1y",
-      "summary": "Author(s): Taichi Okuda, Tatsuya Shishidou, Munisa Nurmamat, Kazuki Sumida, Eike Schwier, Koji Miyamoto, and Michael Weinert The full three-dimensional spin texture of the Bi(110) surface states has been investigated by …",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Atomic Resolution in Near-Edge Core-Loss Mapping Beyond the Conventional Delocalization Limit",
-      "url": "http://link.aps.org/doi/10.1103/9y69-62kf",
-      "summary": "Author(s): Jiayi Wu, Juri Barthel, Leslie J. Allen, and Mitsutaka Haruta The spatial resolution of core-loss electron energy-loss spectroscopy (EELS) is limited by the delocalization of inelastic scattering from long-ran…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Theory of Angle Resolved Photoemission Spectroscopy of Altermagnetic Mott Insulators",
-      "url": "http://link.aps.org/doi/10.1103/1d1n-cssv",
-      "summary": "Author(s): Lorenzo Lanzini, Purnendu Das, and Michael Knap Altermagnetism has emerged as an unconventional form of collinear magnetism with spatial rotational symmetries, that give rise to strongly spin-split bands despi…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Monte Carlo Sampling for Wave Functions Requiring Symmetrization or Antisymmetrization",
-      "url": "http://link.aps.org/doi/10.1103/d9xb-4vq9",
-      "summary": "Author(s): Koyena Bose, Steven H. Simon, and Ajit C. Balram Many strongly correlated states, such as those arising in the fractional quantum Hall effect and spin liquids, are described by wave functions obtained by divid…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Latent-Geometry Correspondence: Unraveling Hidden Symmetry Groups with Graph Theory",
-      "url": "http://link.aps.org/doi/10.1103/hrdv-qcf6",
-      "summary": "Author(s): Xinyu Zhang, Ruotao Ye, Malte Röntgen, Menglin L. N. Chen, Su-Huai Wei, Shuang Zhang, and Wenlong Gao Seeking symmetry where it is not manifest, physicists have explored hidden symmetries throughout classical …",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Breakdown of Self-Averaging at Quantum Hall Transitions",
-      "url": "http://link.aps.org/doi/10.1103/7cnz-jsg1",
-      "summary": "Author(s): Emuna Rimon, Eytan Grosfeld, and Yevgeny Bar Lev We study the full distribution of the zero-temperature Hall conductivity in a lattice model of the integer quantum Hall effect across disorder realizations. Nea…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Higher-Order Topology Embedded in First-Order Topological Bands",
-      "url": "http://link.aps.org/doi/10.1103/rlk2-psxm",
-      "summary": "Author(s): Jiancheng Zheng, Zhenhang Pu, Jiuyang Lu, Weiyin Deng, Manzhu Ke, and Zhengyou Liu Traveling edge states and trapped corner states coexist within the exact same energy band of an acoustic crystal, overcoming a…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Probing Multipolar Order in the Candidate Altermagnet ${\\mathrm{MnF}}_{2}$ through the Elastocaloric Effect under Strain",
-      "url": "http://link.aps.org/doi/10.1103/svrz-315w",
-      "summary": "Author(s): Rahel Ohlendorf, Luca Buiarelli, Hilary M. L. Noad, Andrew P. Mackenzie, Rafael M. Fernandes, Turan Birol, Jörg Schmalian, and Elena Gati The first unambiguous bulk confirmation of altermagnetism in MnF2 is ac…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Competing States in the $S=1/2$ Triangular-Lattice ${J}_{1}\\text{−}{J}_{2}$ Heisenberg Model: A Dynamical Density-Matrix Renormalization Group Study",
-      "url": "http://link.aps.org/doi/10.1103/zmnz-tkq2",
-      "summary": "Author(s): Shengtao Jiang (蒋晟韬), Steven R. White, Steven A. Kivelson, and Hong-Chen Jiang Previous studies of the $S=1/2$ triangular-lattice ${J}_{1}\\text{−}{J}_{2}$ Heisenberg antiferromagnet have inferred the existence…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Unconventional Unidirectional Spin Hall Magnetoresistance in Epitaxial IrMn/FeNi Bilayer",
-      "url": "http://link.aps.org/doi/10.1103/wm6r-kdnk",
-      "summary": "Author(s): Haiming Xu, Yong Xiao, Chuangwen Wu, Xiao Deng, Mingyu Wei, Yu Liu, Yining Wang, Yang Cao, Chenglong Jia, Yalu Zuo, Hao Wu, Tao Zhu, Junwei Zhang, Yong Peng, Dingfu Shao, Guoqiang Yu, Xiaoxi Liu, Desheng Xue, …",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Panoramic Observation of Hyperbolic Exciton Polaritons in CrSBr",
-      "url": "http://link.aps.org/doi/10.1103/fqmh-zxlw",
-      "summary": "Author(s): Weizhe Zhang, Qi Wang, Hefei Zhao, Zheng Guan, Ruizhe Gu, Dingyang Zhang, Zhiwen Zhuang, Qihuang Gong, Zuxin Chen, and Wenjing Liu Hyperbolic polaritons exhibit nonclosed hyperbolic isofrequency contours and h…",
       "ts": 1785232800000,
       "publishedAt": "2026-07-28T10:00:00.000Z"
     }
