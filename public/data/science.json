@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-29T09:39:15.502Z",
+  "updated": "2026-07-29T12:02:37.662Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A distant primordial object may be a newborn 'Little Red Dot'",
+      "url": "https://phys.org/news/2026-07-distant-primordial-newborn-red-dot.html",
+      "summary": "The infrared-sensitive James Webb Space Telescope (JWST) has conducted multiple surveys of the very distant universe, digging into what was happening in the first billion years after the Big Bang. As part of these deep s…",
+      "ts": 1785326403000,
+      "publishedAt": "2026-07-29T12:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A fake 'Jell-O diet' has fooled at least one celebrity: Could you be next?",
+      "url": "https://phys.org/news/2026-07-fake-jell-diet-celebrity.html",
+      "summary": "Paris Hilton's mother, Kathy Hilton, recently tried the \"Jell-O diet\" to lose weight. She believed other celebrities—Oprah Winfrey, Doctor Oz, Michelle Obama and Kelly Clarkson—had endorsed it. But the diet was fake, and…",
+      "ts": 1785325204000,
+      "publishedAt": "2026-07-29T11:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Disclosing past substance use in medical and dental school applications could hurt admissions prospects, study finds",
+      "url": "https://phys.org/news/2026-07-disclosing-substance-medical-dental-school.html",
+      "summary": "More than 4 in 5 physicians and dentists believe applicants who disclose a history of substance use on medical or dental school applications risk hurting their chances of admission, according to a new study by researcher…",
+      "ts": 1785324002000,
+      "publishedAt": "2026-07-29T11:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Recommendations on addressing intimate partner violence issued by expert panel",
+      "url": "https://phys.org/news/2026-07-intimate-partner-violence-issued-expert.html",
+      "summary": "When Congress passed the Deborah Sampson Act of 2020—named for a woman who served in the Revolutionary War disguised as a man—the goal was to broaden access to government-provided medical care for female military veteran…",
+      "ts": 1785322805000,
+      "publishedAt": "2026-07-29T11:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Understanding eras: Predicting audience preferences with new perspective on nostalgia",
+      "url": "https://phys.org/news/2026-07-eras-audience-perspective-nostalgia.html",
+      "summary": "When brands spend millions every year to transport Super Bowl audiences back in time during commercials, what happens if they choose the wrong era? Knowing who prefers which part of history is valuable marketing knowledg…",
+      "ts": 1785322801000,
+      "publishedAt": "2026-07-29T11:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New twist on the Einstein problem reveals unexpected physics",
@@ -759,46 +799,6 @@
       "title": "Dissipation Enables Strongly Detuning-Dependent Interference in Pulsed Dynamical Decoupling",
       "url": "https://arxiv.org/abs/2607.25176",
       "summary": "arXiv:2607.25176v1 Announce Type: cross Abstract: One of the defining features of pulsed dynamical decoupling is its suppression of a driven qubit's sensitivity to static detuning errors between the drive field and qubit…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Turbulent Flame Speed Can Increase under Curvature Smoothing",
-      "url": "https://arxiv.org/abs/2607.25185",
-      "summary": "arXiv:2607.25185v1 Announce Type: cross Abstract: Curvature effects are expected to smooth flame-front wrinkles and thereby reduce turbulent flame speed. We construct a smooth three-dimensional periodic shear flow for wh…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Parallelisation of Discrete Exterior Calculus via Representation Theory on Curved and Three-Dimensional Meshes",
-      "url": "https://arxiv.org/abs/2607.25192",
-      "summary": "arXiv:2607.25192v1 Announce Type: cross Abstract: We establish a universal block-diagonalization framework for Discrete Exterior Calculus (DEC) operators on symmetric meshes, enabling embarrassingly parallel solvers with…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Many-body Tipping Dynamics of ChatGPT-like AIs",
-      "url": "https://arxiv.org/abs/2607.25279",
-      "summary": "arXiv:2607.25279v1 Announce Type: cross Abstract: Why do ChatGPT-like AIs, despite major architectural and training differences, unexpectedly tip to undesirable content (e.g. harmful, misleading, repetitive) even under d…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reciprocal theorem for ion-releasing colloidal particles",
-      "url": "https://arxiv.org/abs/2607.25385",
-      "summary": "arXiv:2607.25385v1 Announce Type: cross Abstract: We describe a generalization of the reciprocal theorem for particles suspended in electrolyte solutions and subjected to an electric field that could be either applied or…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Twisted Multilayer Graphene: Superperiodicity and quasicrystals",
-      "url": "https://arxiv.org/abs/2607.25411",
-      "summary": "arXiv:2607.25411v1 Announce Type: cross Abstract: This thesis investigates how superperiodicity, quasiperiodicity, and disorder shape electronic and spin transport in graphene-based systems, with an emphasis on experimen…",
       "ts": 1785297600000,
       "publishedAt": "2026-07-29T04:00:00.000Z"
     }

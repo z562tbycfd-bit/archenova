@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-07-29T09:39:18.419Z",
+  "updated": "2026-07-29T12:02:41.475Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Sage Inks Publishing Deal with Causaly’s AI Platform Focusing on Drug Discovery Research",
+      "url": "https://www.genengnews.com/industry-news/sage-inks-publishing-deal-with-causalys-ai-platform-focusing-on-drug-discovery-research/",
+      "summary": "In a new publishing deal, Causaly and Sage have announced a partnership to bring full-text scientific peer-reviewed literature into the world of AI-powered drug discovery research. The deal also marks Causaly’s first par…",
+      "ts": 1785326456000,
+      "publishedAt": "2026-07-29T12:00:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "A neglected issue in pedestrian, biker deaths",
+      "url": "https://www.statnews.com/2026/07/29/health-news-neglected-issue-in-pedestrian-biker-deaths/?utm_campaign=rss",
+      "summary": "Fauci's testimony, visa time limits for research students, and more health news from Morning Rounds",
+      "ts": 1785325820000,
+      "publishedAt": "2026-07-29T11:50:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA expert committee reviews Capricor Therapeutics’ Duchenne drug",
+      "url": "https://www.statnews.com/2026/07/29/capricor-therapeutics-deramiocel-fda-review-meeting-live-blog/?utm_campaign=rss",
+      "summary": "STAT is live-blogging an FDA meeting on Capricor Therapeutics’ treatment for Duchenne muscular dystrophy, which has been the subject of a contentious regulatory review.",
+      "ts": 1785319200000,
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The AI Hype Index: Unsexy AI",
@@ -55,6 +82,15 @@
       "ts": 1785307205000,
       "publishedAt": "2026-07-29T06:40:05.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "Sizing Up the Sargassum Belt",
+      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
+      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
+      "ts": 1785297600000,
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -388,15 +424,6 @@
       "ts": 1785297600000,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Sizing Up the Sargassum Belt",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
-      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -781,33 +808,6 @@
       "title": "Quantifying antiproliferative effects of quinolinic acid on melanoma, macrophage and keratinocyte cells using a parametric cell-viability model",
       "url": "https://arxiv.org/abs/2607.23730",
       "summary": "arXiv:2607.23730v1 Announce Type: new Abstract: This paper presents a robust mathematical framework for quantifying antiproliferative effects from noisy in vitro cell viability experiments. The methodology is demonstrate…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Construction of an Inducible TBCE Overexpression System to Probe Tubulin Cofactor-Mediated Microtubule Homeostasis",
-      "url": "https://arxiv.org/abs/2607.23898",
-      "summary": "arXiv:2607.23898v1 Announce Type: new Abstract: We are studying a new regulator of microtubule homeostasis, wdA, in the fungus Aspergillus nidulans. Mutations in wdA confer cold-sensitive lethal mitotic catastrophe, sugg…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "TCellAlign: Cross-study T-cell Populations Alignment with Nomenclature-Guided Multi-Agent Workflow",
-      "url": "https://arxiv.org/abs/2607.24093",
-      "summary": "arXiv:2607.24093v1 Announce Type: new Abstract: Cell type standardization plays a central role in integrating biological knowledge across single-cell studies. While standardized resources (e.g., Cell Ontology, Nomenclatu…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PPanGGOLiN V2: technical enhancement and extended functionalities for prokaryotic pangenome analysis",
-      "url": "https://arxiv.org/abs/2607.24111",
-      "summary": "arXiv:2607.24111v1 Announce Type: new Abstract: The exponential growth of genomic data, particularly for microbes, has made pangenomic approaches a gold standard for large-scale comparative genomics. By capturing the ful…",
       "ts": 1785211200000,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "categoryId": "bio"
