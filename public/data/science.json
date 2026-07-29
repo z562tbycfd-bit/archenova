@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-29T15:09:44.535Z",
+  "updated": "2026-07-29T17:17:33.123Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "An entire world of fungi nearly a third of a mile underground could affect carbon storage estimates",
+      "url": "https://phys.org/news/2026-07-entire-world-fungi-mile-underground.html",
+      "summary": "Hundreds of feet below Earth's surface, rocks and water teem with fungi and support complex ecosystems of tiny organisms, according to a University of Michigan study that finds fungi are far more abundant deep undergroun…",
+      "ts": 1785344406000,
+      "publishedAt": "2026-07-29T17:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shoppers would fork out more for better farm animal welfare",
+      "url": "https://phys.org/news/2026-07-shoppers-fork-farm-animal-welfare.html",
+      "summary": "Shoppers would pay more for their weekly groceries if it meant improved welfare for farm animals, according to new research from the University of Reading.",
+      "ts": 1785344401000,
+      "publishedAt": "2026-07-29T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Managing ecosystems under climate change using nature's hidden design",
+      "url": "https://phys.org/news/2026-07-ecosystems-climate-nature-hidden.html",
+      "summary": "Researchers at the Centre for Ecosystem Management (CEM), together with scientists from the Department of Fisheries and Oceans, Cornell University, Great Lakes Fishery Commission and the Ontario Ministry of Natural Resou…",
+      "ts": 1785343203000,
+      "publishedAt": "2026-07-29T16:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Biofilm clue opens route to anti-infection treatments of the future",
+      "url": "https://phys.org/news/2026-07-biofilm-clue-route-anti-infection.html",
+      "summary": "A multidisciplinary study has uncovered a critical component in the formation of biofilms, the complex structures used by bacteria to colonize surfaces. The research may have implications for future infection treatments,…",
+      "ts": 1785343201000,
+      "publishedAt": "2026-07-29T16:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "More than half of England 'officially in drought': UK govt",
+      "url": "https://phys.org/news/2026-07-england-drought-uk-govt.html",
+      "summary": "Just over half of England has been declared to be in drought after \"record-low rainfall and exceptionally high temperatures,\" the U.K. government said Wednesday.",
+      "ts": 1785342006000,
+      "publishedAt": "2026-07-29T16:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "In seconds, fiber optic cables detect earthquake size",
+      "url": "https://phys.org/news/2026-07-seconds-fiber-optic-cables-earthquake.html",
+      "summary": "Scientists have discovered a new way to determine how big an earthquake may become just seconds after it begins. In a new study published in Nature Communications, researchers from the U.S. Geological Survey (USGS) and C…",
+      "ts": 1785342004000,
+      "publishedAt": "2026-07-29T16:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Non-monogamy may reduce jealousy overall, but feeling less desirable can still strain relationships",
+      "url": "https://phys.org/news/2026-07-monogamy-jealousy-desirable-strain-relationships.html",
+      "summary": "Comparing yourself with your partner is more common than you'd think. Psychologists even have a term for it: mate value discrepancy (MVD), which is the gap between how attractive, smart or successful each partner feels c…",
+      "ts": 1785340806000,
+      "publishedAt": "2026-07-29T16:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Industrial noise may alter bluebird behavior but not cognitive ability",
+      "url": "https://phys.org/news/2026-07-industrial-noise-bluebird-behavior-cognitive.html",
+      "summary": "Scientists have long wondered whether loud, human-caused noise interferes with wild animals' cognition—their ability to think and learn—by causing stress, distraction or making it harder for them to focus. The results of…",
+      "ts": 1785340803000,
+      "publishedAt": "2026-07-29T16:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shipwreck cargo reveals surprising global trade secrets of the 1600s",
+      "url": "https://phys.org/news/2026-07-shipwreck-cargo-reveals-global-secrets.html",
+      "summary": "Using cargo recovered from one of Australia's most infamous shipwrecks, new Curtin University-led research has revealed how surprisingly sophisticated global supply chains helped source and transport construction materia…",
+      "ts": 1785339609000,
+      "publishedAt": "2026-07-29T15:40:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Who says pollution clean-up has to pay for itself?",
+      "url": "https://phys.org/news/2026-07-pollution-pay.html",
+      "summary": "In a world searching for more sustainable ways to manage waste, the promise of turning \"trash into treasure\" is hard to ignore. Take nitrate pollution, for example. Every year, nitrogen fertilizers help feed billions of …",
+      "ts": 1785339604000,
+      "publishedAt": "2026-07-29T15:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spain's three worst wildfires since 1961 happened in last two years",
+      "url": "https://phys.org/news/2026-07-spain-worst-wildfires-years.html",
+      "summary": "The wildfire that engulfed Spain's Ávila region, northwest of the capital, Madrid, is now considered the largest in the country's modern history, with around 50,000 hectares (193 square miles) burned, the government said…",
+      "ts": 1785338407000,
+      "publishedAt": "2026-07-29T15:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bringing complex field physics to the tabletop: A photonic stage for non-Abelian gauge fields",
+      "url": "https://phys.org/news/2026-07-complex-field-physics-tabletop-photonic.html",
+      "summary": "For most theories in physics, the order of operations has little impact on the result. When setting a dial to a certain position, for example, it doesn't matter whether it's turned clockwise or counterclockwise—the resul…",
+      "ts": 1785338404000,
+      "publishedAt": "2026-07-29T15:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Beyond bunny tourism: The hidden consequences of unregulated feeding of rabbits on Okunoshima island",
+      "url": "https://phys.org/news/2026-07-bunny-tourism-hidden-consequences-unregulated.html",
+      "summary": "Feeding wild animals is a popular activity at tourist destinations. While these interactions often appear harmless, scientists are recognizing how supplemental feeding of wild animals can alter ecosystems in unexpected w…",
+      "ts": 1785338403000,
+      "publishedAt": "2026-07-29T15:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Antarctic storms are becoming more frequent and intense, affecting sea ice",
+      "url": "https://phys.org/news/2026-07-antarctic-storms-frequent-intense-affecting.html",
+      "summary": "Winters in Antarctica's Ross Sea have become stormier in recent decades, affecting sea-ice conditions and field operations, new University of Otago—Ōtākou Whakaihu Waka research shows.",
+      "ts": 1785338401000,
+      "publishedAt": "2026-07-29T15:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New antimicrobials could help tackle deadly drug-resistant infections",
@@ -687,118 +799,6 @@
       "title": "Reconciling chemical models of X-ray Thomson Scattering with the Bethe $f$-sum rule",
       "url": "https://arxiv.org/abs/2607.25481",
       "summary": "arXiv:2607.25481v1 Announce Type: new Abstract: X-ray Thomson scattering (XRTS) is a key diagnostic for high-energy-density plasmas, which can exhibit significant quantum effects even at elevated temperatures. XRTS exper…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Synthesis of hybrid gold-protein nanobioconjugates with strongly enhanced circular dichroism",
-      "url": "https://arxiv.org/abs/2607.25488",
-      "summary": "arXiv:2607.25488v1 Announce Type: new Abstract: Controlling chiral light-matter interactions with nanophotonics is a powerful strategy for amplifying molecular circular dichroism (CD) beyond its natural limits. Here, we …",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experiments with interacting ultracold polar molecules",
-      "url": "https://arxiv.org/abs/2607.25519",
-      "summary": "arXiv:2607.25519v1 Announce Type: new Abstract: Ultracold polar molecules have emerged as an exciting platform for experiments in quantum science, with many proposed applications seeking to leverage the existence of long…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometry resolved atomic oxygen risk assessment for very low earth orbit spacecraft",
-      "url": "https://arxiv.org/abs/2607.25525",
-      "summary": "arXiv:2607.25525v1 Announce Type: new Abstract: Atomic oxygen (AO) is a major durability concern for spacecraft in very low Earth orbit (VLEO), yet orbit-averaged fluence does not resolve exposure on individual surfaces …",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Development of Detectors of High Energy Neutrinos and Cosmic Rays between 1980 and 2000",
-      "url": "https://arxiv.org/abs/2607.25535",
-      "summary": "arXiv:2607.25535v1 Announce Type: new Abstract: The construction of the DUMAND, Lake Baikal and IceCube detectors of high-energy neutrinos are discussed, with some emphasis on the difficulties encountered. The decade fro…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Foundations of a solved-volatility stochastic turbulence closure: It\\^o--Hencky kinematics, source-consistent momentum and finite-correlation realisation",
-      "url": "https://arxiv.org/abs/2607.25536",
-      "summary": "arXiv:2607.25536v1 Announce Type: new Abstract: Most stochastic closures prescribe a covariance tensor, a noise basis or an eddy-viscosity field. This paper develops a different framework in which the displacement-volati…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Information Rate of Fiber-Wireless Communication Systems Based on Photonic Generation of RF Signals",
-      "url": "https://arxiv.org/abs/2607.25551",
-      "summary": "arXiv:2607.25551v1 Announce Type: new Abstract: High-capacity fiber-wireless communication systems operating at high frequencies increasingly rely on photonic generation of radio-frequency (RF) signals. In these systems,…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "HIR: A collisional-radiative model for hydrogen ionization in plasma with anisotropic fast ions",
-      "url": "https://arxiv.org/abs/2607.25556",
-      "summary": "arXiv:2607.25556v1 Announce Type: new Abstract: The paper presents the HIR (Hydrogen Ionization Rates) software package developed for calculating the level populations of atomic hydrogen and the dynamics of its ionizatio…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Establishing a national master\\`s programme in high-energy physics: lessons from a Romanian case study",
-      "url": "https://arxiv.org/abs/2607.25580",
-      "summary": "arXiv:2607.25580v1 Announce Type: new Abstract: The establishment of a joint coordinated national programme for graduate education represents a significant step in strengthening higher education systems and their alignme…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Crustal and upper mantle model of the Middle East based on full-waveform inversion",
-      "url": "https://arxiv.org/abs/2607.25584",
-      "summary": "arXiv:2607.25584v1 Announce Type: new Abstract: We present MEAD-M20, a new tomographic model of the Middle East and its surrounding regions, including Anatolia, Iran, and the Caucasus. The model is developed within a ful…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On transition path times for condensed-phase non-adiabatic electron transfer reactions under a two-parabola model",
-      "url": "https://arxiv.org/abs/2607.25639",
-      "summary": "arXiv:2607.25639v1 Announce Type: new Abstract: Condensed-phase non-adiabatic electron transfer (ET) reactions play an important role in various areas of science. The characteristics of the microscopic transition process…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Open-ended innovation in zero-sum games",
-      "url": "https://arxiv.org/abs/2607.25677",
-      "summary": "arXiv:2607.25677v1 Announce Type: new Abstract: This note discusses zero-sum games with open-ended innovation, whereby each player may introduce new strategies. The innovation process is modelled as a draw of new strateg…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Antichiral hinge states in a higher-order photonic nodal ring semimetal",
-      "url": "https://arxiv.org/abs/2607.25688",
-      "summary": "arXiv:2607.25688v1 Announce Type: new Abstract: Antichiral states propagate in the same direction on opposite boundaries, defying the conventional constraint that boundary modes must cancel net chirality. Previously foun…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Small-scale polarization variations in near-inertial deep Mediterranean horizontal waterflow",
-      "url": "https://arxiv.org/abs/2607.25720",
-      "summary": "arXiv:2607.25720v1 Announce Type: new Abstract: Deep-sea observations are reported of horizontal waterflow differences with typical amplitudes of 0.02 m s-1 over 50-m small scales so that relative vorticity reaches value…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unveiling neuronal microstructure in the human brain in vivo with time-dependent radial diffusivity in MRI",
-      "url": "https://arxiv.org/abs/2607.25749",
-      "summary": "arXiv:2607.25749v1 Announce Type: new Abstract: Diffusion time-dependence, defined as variations in diffusivity and/or diffusional kurtosis with diffusion time, has emerged as a valuable non-invasive imaging marker for c…",
       "ts": 1785297600000,
       "publishedAt": "2026-07-29T04:00:00.000Z"
     }
