@@ -1,10 +1,28 @@
 {
   "ok": true,
-  "updated": "2026-07-28T23:59:37.537Z",
+  "updated": "2026-07-29T03:29:33.704Z",
   "items": [
     {
+      "source": "SpaceNews",
+      "title": "Boeing still working with NASA to schedule next Starliner flight",
+      "url": "https://spacenews.com/boeing-still-working-with-nasa-to-schedule-next-starliner-flight/",
+      "summary": "Boeing is still working with NASA to determine when to fly its CST-100 Starliner commercial crew vehicle on a cargo mission to the International Space Station. The post Boeing still working with NASA to schedule next Sta…",
+      "ts": 1785288247000,
+      "publishedAt": "2026-07-29T01:24:07.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Chinese startup raises funds for space situational awareness constellation, joining commercial SSA rush",
+      "url": "https://spacenews.com/chinese-startup-raises-funds-for-space-situational-awareness-constellation-joining-commercial-ssa-rush/",
+      "summary": "SINGAPORE — A Beijing-based startup has secured around $14 million to build a satellite constellation for tracking orbital objects, adding to China’s growing SSA sector. Xingchen Daohe, also known as […] The post Chinese…",
+      "ts": 1785287908000,
+      "publishedAt": "2026-07-29T01:18:28.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
-      "title": "STAT+: American Diabetes Association, facing calls for resignations, asks for patience  ",
+      "title": "STAT+: American Diabetes Association, facing calls for resignations, asks for patience",
       "url": "https://www.statnews.com/2026/07/28/american-diabetes-association-fallout-researchers-expulsion/?utm_campaign=rss",
       "summary": "An open letter to the board of the American Diabetes Association said the board had badly mishandled an incident at its annual meeting.",
       "ts": 1785281647000,
@@ -409,9 +427,9 @@
     },
     {
       "source": "arXiv q-bio",
-      "title": "From read-out geometry to in-silico stimulation: a distributed functional-connectivity signature of Alzheimer's disease",
+      "title": "Optimal stimulation sites are not the most affected: personalised models of resting-state fMRI in Alzheimer's disease",
       "url": "https://arxiv.org/abs/2607.24356",
-      "summary": "arXiv:2607.24356v1 Announce Type: new Abstract: Resting-state functional connectivity (FC) is altered in Alzheimer's disease (AD), widely regarded as a distributed network process; whether its FC signature reduces to a f…",
+      "summary": "arXiv:2607.24356v2 Announce Type: new Abstract: Resting-state functional connectivity (FC) is altered in Alzheimer's disease (AD), widely regarded as a distributed network process; whether its signature reduces to a few …",
       "ts": 1785211200000,
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "categoryId": "bio"
@@ -793,24 +811,6 @@
       "ts": 1785162282000,
       "publishedAt": "2026-07-27T14:24:42.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Hubble Shows Star Formation in Andromeda Galaxy Winding Down",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-star-formation-in-andromeda-galaxy-winding-down/",
-      "summary": "NASA’s Hubble finds that star formation in the Andromeda galaxy has undergone a 500-million-year decline.",
-      "ts": 1785160814000,
-      "publishedAt": "2026-07-27T14:00:14.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Sarepta names Michael Severino, former Tessera CEO, as new chief executive",
-      "url": "https://www.statnews.com/2026/07/27/sarepta-therapeutics-michael-severino-doug-ingram-duchenne-muscular-dystrophy/?utm_campaign=rss",
-      "summary": "The beleaguered Sarepta Therapeutics named Michael Severino, who previously led Tessera Therapeutics, as its new CEO.",
-      "ts": 1785160161000,
-      "publishedAt": "2026-07-27T13:49:21.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

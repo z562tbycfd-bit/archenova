@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-07-28T23:59:34.200Z",
+  "updated": "2026-07-29T03:29:29.901Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI technology sees through leaves to transform horticulture",
+      "url": "https://phys.org/news/2026-07-ai-technology-horticulture.html",
+      "summary": "University of Canterbury (UC) computer science professor Richard Green leads UC Vision, with researcher Dr. Richie Ellingham developing AI and computer vision technology that can identify, measure and track fruit hidden …",
+      "ts": 1785294001000,
+      "publishedAt": "2026-07-29T03:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Carbon management revives CCS in Germany as safeguards steadily weaken",
+      "url": "https://phys.org/news/2026-07-carbon-revives-ccs-germany-safeguards.html",
+      "summary": "Carbon capture and storage (CCS) is regaining prominence in climate policy debates in Germany. A study published in Environmental Politics examines the reasons behind this comeback and shows that the strict limits origin…",
+      "ts": 1785291601000,
+      "publishedAt": "2026-07-29T02:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "To afford aging in place, older adults turn to 'Golden Girls' housing",
+      "url": "https://phys.org/news/2026-07-aging-older-adults-golden-girls.html",
+      "summary": "In the much-loved 1980s sitcom, still in perpetual reruns, the four wisecracking women who share a house in Miami met through an ad on a supermarket bulletin board.",
+      "ts": 1785288003000,
+      "publishedAt": "2026-07-29T01:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Updating Darwin: Biologists are returning to an older theory to explain anomalies in evolution",
+      "url": "https://phys.org/news/2026-07-darwin-biologists-older-theory-anomalies.html",
+      "summary": "Evolution is a fact of life. So much so that even the theory of evolution is evolving. Lately, a centuries-old discredited idea has been making a strong comeback. It helps us explain scientific observations that, accordi…",
+      "ts": 1785285604000,
+      "publishedAt": "2026-07-29T00:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "100% organic free-range egg production could have negative consequences for climate and nature",
+      "url": "https://phys.org/news/2026-07-free-range-egg-production-negative.html",
+      "summary": "A study published in Royal Society Open Science reveals striking trade-offs when it comes to different methods of egg production. Using UK data, the study compared several possible scenarios for the egg industry, includi…",
+      "ts": 1785283801000,
+      "publishedAt": "2026-07-29T00:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gaming helps moms recover from parenting stress—but guilt can still get in the way",
+      "url": "https://phys.org/news/2026-07-gaming-moms-recover-parenting-stress.html",
+      "summary": "Video gaming is a valued leisure activity in Australia. The latest data show 74% of Australian households own at least two gaming devices.",
+      "ts": 1785283201000,
+      "publishedAt": "2026-07-29T00:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Queen bee pheromones help daughters decide whether to stay or leave the nest",
@@ -668,9 +716,25 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Deterministic Equations for Feedback Control of Open Quantum Systems",
+      "url": "http://link.aps.org/doi/10.1103/pg2p-h529",
+      "summary": "Author(s): Alberto J. B. Rosal, Patrick P. Potts, and Gabriel T. Landi Feedback control in open quantum dynamics is crucial for the advancement of various coherent platforms. However, currently only a handful of feedback…",
+      "ts": 1785232800000,
+      "publishedAt": "2026-07-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Bottlenecks in Quantum Channels and Finite Temperature Phases of Matter",
       "url": "http://link.aps.org/doi/10.1103/y9z2-52rl",
       "summary": "Author(s): Tibor Rakovszky, Benedikt Placke, Nikolas P. Breuckmann, and Vedika Khemani We prove an analog of the “bottleneck theorem,” well-known for classical Markov chains, for Markovian quantum channels. In particular…",
+      "ts": 1785232800000,
+      "publishedAt": "2026-07-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Kicked-Ising Quantum Battery",
+      "url": "http://link.aps.org/doi/10.1103/j35s-xv5k",
+      "summary": "Author(s): Sebastián V. Romero, Xi Chen, and Yue Ban Entanglement has been identified as a key resource for enhancing charging performance in quantum batteries. We show that the kicked-Ising model at the self-dual point …",
       "ts": 1785232800000,
       "publishedAt": "2026-07-28T10:00:00.000Z"
     },
@@ -708,6 +772,14 @@
     },
     {
       "source": "APS Physical Review Letters",
+      "title": "Measurement of the Cosmic Ray Nickel Energy Spectrum from 10 GeV/n to 2 TeV/n with the DAMPE Space Mission",
+      "url": "http://link.aps.org/doi/10.1103/p9zs-g8ky",
+      "summary": "Author(s): F. Alemanno et al. (DAMPE Collaboration) Nickel, one of the most tightly bound nuclei alongside iron, is the most abundant heavy element beyond iron in cosmic rays. With DAMPE’s excellent charge resolution and…",
+      "ts": 1785232800000,
+      "publishedAt": "2026-07-28T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
       "title": "Boiling After the Dust Settles: Constraining First-Order Phase Transitions During Dark Energy Domination",
       "url": "http://link.aps.org/doi/10.1103/1vyz-xdkb",
       "summary": "Author(s): Seth Koren, Yuhsin Tsai, and Runqing Wang A first-order phase transition could occur in the late Universe when vacuum energy begins dominating the energy density ($z≲0.3$) and convert some latent heat into oth…",
@@ -727,78 +799,6 @@
       "title": "Renormalization of the Quantum Stress Tensor Fluctuations and the Limits of Semiclassical Gravity",
       "url": "http://link.aps.org/doi/10.1103/jvj4-hk16",
       "summary": "Author(s): Alejandro Perez and Daniel Sudarsky We analyze the expectation value of the energy-momentum tensor and its fluctuations in quantum field theory on curved spacetimes. A generally accepeted condition for the con…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Loss of Asymptotic Freedom in the Two-Dimensional $\\mathrm{O}(\\mathrm{N})$ Nonlinear Sigma Model: Complex Conformal Field Theory and Realization in Heisenberg Spin Chains",
-      "url": "http://link.aps.org/doi/10.1103/6tsl-d9kn",
-      "summary": "Author(s): Christopher Yang and Thomas Scaffidi The two-dimensional $\\mathrm{O}(\\mathrm{N})$ nonlinear sigma model (NLSM) is asymptotically free for $N>2$: it exhibits neither a nontrivial fixed point nor spontaneous sym…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Probing Stringy Horizons with Pole Skipping in Nonmaximal Chaotic Systems",
-      "url": "http://link.aps.org/doi/10.1103/cvjn-7kvp",
-      "summary": "Author(s): Ping Gao and Hong Liu In this Letter, we study pole skipping in nonmaximally quantum chaotic systems. Using Rindler conformal field theories and the large-$q$ Sachdev-Ye-Kitaev chain as illustrative examples, …",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "New High-Sensitivity Search for Neutron to Mirror-Neutron Oscillations at the PSI Ultracold Neutron Source",
-      "url": "http://link.aps.org/doi/10.1103/2qck-n6mb",
-      "summary": "Author(s): N. J. Ayres, Z. Berezhiani, G. Bison, K. Bodek, V. Bondar, P.-J. Chiu, M. Daum, C. B. Doorenbos, S. Emmenegger, K. Kirch, V. Kletzl, J. Krempel, B. Lauss, D. Pais, I. Rienäcker, D. Ries, D. Rozpędzik, P. Schmi…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Test of Lepton Flavor Universality with ${B}^{0}→{K}^{*0}{ℓ}^{+}{ℓ}^{−}$ Decays at Large Dilepton Invariant Mass",
-      "url": "http://link.aps.org/doi/10.1103/vzv9-hcks",
-      "summary": "Author(s): R. Aaij et al. (LHCb Collaboration) Muon-electron universality is tested in ${B}^{0}→{K}^{*0}{ℓ}^{+}{ℓ}^{−}$ decays, in the dilepton-invariant-mass region above the $ψ(2S)$ resonance. The analysis uses beauty …",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "$r$-Process Nucleosynthesis with <i>Ab Initio</i> Nuclear Masses around the $N=82$ Shell Closure",
-      "url": "http://link.aps.org/doi/10.1103/k4lv-436c",
-      "summary": "Author(s): J. Kuske, T. Miyagi, A. Arcones, and A. Schwenk Our understanding of the origin of heavy elements beyond iron relies on the rapid neutron capture process ($r$ process), which accounts for roughly half of their…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Timing Ultrafast Charge Transfer via Fano Interference beyond the Core-Hole Clock",
-      "url": "http://link.aps.org/doi/10.1103/h6h9-j83r",
-      "summary": "Author(s): Ji-Cai Liu, Nicolas Velasquez, Victor Kimberg, Sayantan Sarkar, Oksana Travnikova, Iyas Ismail, Renaud Guillemin, Man Zhang, Pavel Krasnov, Marcella Iannuzzi, Michael Odelius, Ralph Püttner, Maria Novella Pian…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Universality in Ionic Three-Body Systems Near an Ion-Atom Feshbach Resonance",
-      "url": "http://link.aps.org/doi/10.1103/r7hw-27wv",
-      "summary": "Author(s): Jacek Gębala, Michał Tomza, and José P. D’Incao We calculate the bound and scattering properties of a system of two neutral atoms and an ion near an ion-atom Feshbach resonance. Our results indicate that long-…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Optomechanical Disk Resonator in the Quantum Ground State of Motion",
-      "url": "http://link.aps.org/doi/10.1103/r7gg-w6kg",
-      "summary": "Author(s): Andrea Barbero, Samuel Pautrel, Bertrand Evrard, Jérémy Bon, Romain Dezert, Martina Morassi, Aristide Lemaître, Adrien Borne, and Ivan Favero Although they enabled several advances in the field of optomechanic…",
-      "ts": 1785232800000,
-      "publishedAt": "2026-07-28T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Hybrid Acousto-Optical Double Dressing of a Two-Level System",
-      "url": "http://link.aps.org/doi/10.1103/xjpt-q14w",
-      "summary": "Author(s): Yuan Zhan, Zixuan Wang, Richard P. Mirin, Kevin L. Silverman, and Shuo Sun We experimentally investigate resonance fluorescence from a two-level system in a novel configuration where a strong laser drives an o…",
       "ts": 1785232800000,
       "publishedAt": "2026-07-28T10:00:00.000Z"
     }
