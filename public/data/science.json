@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-07-29T19:19:50.193Z",
+  "updated": "2026-07-29T20:58:39.018Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A step closer to artificial organs: UV light shapes arteriole-scale hydrogel vessels",
+      "url": "https://phys.org/news/2026-07-closer-artificial-uv-arteriole-scale.html",
+      "summary": "The creation of fully artificial organs is a sci-fi dream, and researchers in Japan may have brought it one step closer to reality by developing a new photofabrication technique (i.e., a light-controlled synthetic method…",
+      "ts": 1785357606000,
+      "publishedAt": "2026-07-29T20:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Canada's infrastructure projects could damage Pacific salmon habitats",
+      "url": "https://phys.org/news/2026-07-canada-infrastructure-pacific-salmon-habitats.html",
+      "summary": "The Canadian government is proposing sweeping changes to accelerate industrial development and reduce environmental oversight. These proposed legislative, regulatory and policy reforms could significantly diminish the go…",
+      "ts": 1785357603000,
+      "publishedAt": "2026-07-29T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stable DNA building blocks enable faster oligonucleotide synthesis without oxidation",
+      "url": "https://phys.org/news/2026-07-stable-dna-blocks-enable-faster.html",
+      "summary": "The chemical synthesis of oligonucleotides (ONs) is central to modern molecular biology, diagnostics and nucleic acid therapeutics. While demand for high-quality ONs is increasing, the conventional synthetic method has l…",
+      "ts": 1785356406000,
+      "publishedAt": "2026-07-29T20:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Where have all the wasps gone this summer?",
+      "url": "https://phys.org/news/2026-07-wasps-summer.html",
+      "summary": "Summer can be lovely—until a wasp turns up. Whether they present as an irritating picnic visitor or an uninvited attic guest, common social wasps are as much a part of our summer as festivals, sunscreen and the growing d…",
+      "ts": 1785356404000,
+      "publishedAt": "2026-07-29T20:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Icelandic fish 'hot tubs' reveal genetic adaptations to warming—and unexpected overeating",
+      "url": "https://phys.org/news/2026-07-icelandic-fish-hot-tubs-reveal.html",
+      "summary": "New research, led by the University of Glasgow reveals that adaptation to warmer waters causes fish to display a range of behavioral and biological differences, including obesity, overeating and lower metabolism.",
+      "ts": 1785355208000,
+      "publishedAt": "2026-07-29T20:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Better recording of prisoner inequalities could help prevent deaths in custody, new study finds",
+      "url": "https://phys.org/news/2026-07-prisoner-inequalities-deaths-custody.html",
+      "summary": "A lack of data on prisoner characteristics is providing an incomplete picture of who dies in prison and why, which may be contributing to preventable deaths in custody, according to a new report.",
+      "ts": 1785355204000,
+      "publishedAt": "2026-07-29T20:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A faster, cheaper way to map the world's forests with AI",
+      "url": "https://phys.org/news/2026-07-faster-cheaper-world-forests-ai.html",
+      "summary": "New research from the University of Cambridge offers an easy and readily available solution using AI and satellite data. In a paper published in the journal Science of Remote Sensing, researchers used embeddings by Tesse…",
+      "ts": 1785354003000,
+      "publishedAt": "2026-07-29T19:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "An ancient civilization of millions once flourished in the Amazon",
+      "url": "https://phys.org/news/2026-07-ancient-civilization-millions-flourished-amazon.html",
+      "summary": "New research conducted using airborne laser scanning reveals that a multicultural civilization that flourished in southwestern Amazonia between 600 BCE and 850 CE was home to millions of people. Spanning roughly 183,000 …",
+      "ts": 1785354002000,
+      "publishedAt": "2026-07-29T19:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First electrically pumped perovskite polariton laser diode solves a decades-long challenge",
+      "url": "https://phys.org/news/2026-07-electrically-perovskite-polariton-laser-diode.html",
+      "summary": "Resolving a long-standing problem in semiconductor physics and optoelectronics, a team of researchers from Skoltech—a VEB.RF group institution—and their colleagues from ITMO University and HSE University have for the fir…",
+      "ts": 1785352806000,
+      "publishedAt": "2026-07-29T19:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hollywood films distort real volcanic eruptions, study finds",
+      "url": "https://phys.org/news/2026-07-hollywood-distort-real-volcanic-eruptions.html",
+      "summary": "Towering explosions, flowing bright red lava and heroic scientists battling to save communities at risk have become the defining image of volcanoes in popular culture, from disaster films to epic blockbusters. New Univer…",
+      "ts": 1785352802000,
+      "publishedAt": "2026-07-29T19:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Little red dots may mark temporary black hole phase",
@@ -719,86 +799,6 @@
       "title": "Cumulative suspicion and absorption dynamics in an agent-based Mafia game",
       "url": "https://arxiv.org/abs/2607.24980",
       "summary": "arXiv:2607.24980v1 Announce Type: new Abstract: The Mafia game, also known as Werewolf, describes a competition between a coordinated minority whose identities are concealed and a larger good faction composed primarily o…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automatic Knowledge Graph Construction and Query for Earthquake Catalogs",
-      "url": "https://arxiv.org/abs/2607.24984",
-      "summary": "arXiv:2607.24984v1 Announce Type: new Abstract: In recent years, the number of events in earthquake catalogs has significantly increased due to the utilization of more effective deep learning based detectors and phase pi…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A generalized Kirchhoff's law of thermal radiation for Floquet media",
-      "url": "https://arxiv.org/abs/2607.24985",
-      "summary": "arXiv:2607.24985v1 Announce Type: new Abstract: Kirchhoff's law fundamentally relates thermal emission to absorption. For linear, static, reciprocal media, it equates the emissivity and absorptivity for each direction an…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "System optimality versus self-organization in metro networks: An optimal transport analysis",
-      "url": "https://arxiv.org/abs/2607.25003",
-      "summary": "arXiv:2607.25003v1 Announce Type: new Abstract: Urban transportation network design is typically approached through top-down planning grounded in engineering and economics. Yet cities are complex systems characterized by…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structural Analysis of Journal Columns Using Ordinal Patterns and Information-Theoretic Measures",
-      "url": "https://arxiv.org/abs/2607.25024",
-      "summary": "arXiv:2607.25024v1 Announce Type: new Abstract: Source attribution in journalistic text is typically approached through semantic representations, such as term weighting or neural embeddings. These approaches capture topi…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimal, Data-Driven Wall Models for Efficient Large Eddy Simulations of Metastable von K\\'arm\\'an Flows",
-      "url": "https://arxiv.org/abs/2607.25048",
-      "summary": "arXiv:2607.25048v1 Announce Type: new Abstract: The von K\\'arm\\'an turbulent swirling flow exhibits intriguing large-scale metastable dynamics, including low-frequency state switching. The study of state switching demand…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electron-Stimulated Desorption of D Atoms from Gibbsite (Al(OD)3) and D2O Ice: Energy and Temperature Dependence of Translational Energy Distributions",
-      "url": "https://arxiv.org/abs/2607.25077",
-      "summary": "arXiv:2607.25077v1 Announce Type: new Abstract: The electron-stimulated desorption (ESD) of neutral D atoms from gibbsite (\\ce{Al(OD)3}) nanoplatelets and amorphous \\ce{D2O} ice has been investigated using $2+1$ resonanc…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Anisotropic optical chirality and Lipkin's zilch tensor",
-      "url": "https://arxiv.org/abs/2607.25079",
-      "summary": "arXiv:2607.25079v1 Announce Type: new Abstract: Optical chirality density is widely used as a scalar measure for describing the chiral properties of electromagnetic fields and their interaction with isotropic chiral medi…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cracking under pressure --- investigating mitigation approaches for silicon fractures on ATLAS strip tracker petals at cold temperatures",
-      "url": "https://arxiv.org/abs/2607.25080",
-      "summary": "arXiv:2607.25080v1 Announce Type: new Abstract: For the High-Luminosity upgrade of the Large Hadron Collider, the ATLAS experiment will replace its current Inner Detector with an all-silicon Inner Tracker (ITk), consisti…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Economic Complexity as a Determinant of Regional Human Development in Brazil: Evidence across Aggregation Scales",
-      "url": "https://arxiv.org/abs/2607.25081",
-      "summary": "arXiv:2607.25081v1 Announce Type: new Abstract: This study investigates the predictive capacity of models based on Economic Complexity and Complex Network Theory when applied to Brazil's Municipal Human Development Index…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergence and Detection of Electron-Scale Current Sheets in Turbulence with MMS Observations and fully kinetic 3D simulations",
-      "url": "https://arxiv.org/abs/2607.25113",
-      "summary": "arXiv:2607.25113v1 Announce Type: new Abstract: The solar wind is characterized by turbulence, where a cascade produces intermittent current structures called current sheets (CS) that efficiently dissipate energy into th…",
       "ts": 1785297600000,
       "publishedAt": "2026-07-29T04:00:00.000Z"
     }

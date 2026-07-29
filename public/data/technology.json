@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-07-29T19:19:52.766Z",
+  "updated": "2026-07-29T20:58:40.913Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genetic Study of Fibromyalgia Points to Neurological Basis",
+      "url": "https://www.genengnews.com/topics/omics/genetic-study-of-fibromyalgia-points-to-neurological-basis/",
+      "summary": "A GWAS meta-analysis including 2.5 million individuals identified 26 genetic risk factors linked with fibromyalgia, identifying risk variants in 26 regions of the genome, many which are involved in brain and nerve functi…",
+      "ts": 1785358096000,
+      "publishedAt": "2026-07-29T20:48:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
+      "url": "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/",
+      "summary": "Falcon 9 will launch satellites supporting missile tracking, targeting and military communications The post SpaceX wins $1.6 billion in launch orders for military satellite networks appeared first on SpaceNews.",
+      "ts": 1785357831000,
+      "publishedAt": "2026-07-29T20:43:51.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Base Editing Strategy Alleviates Huntington’s Disease in Mice",
+      "url": "https://www.genengnews.com/topics/genome-editing/base-editing-strategy-alleviates-huntingtons-disease-in-mice/",
+      "summary": "By precisely altering the huntingtin gene rather than switching it off, an in vivo CRISPR base-editing approach reduced toxic protein fragments and disease symptoms in mouse models of Huntington’s disease. The post Base …",
+      "ts": 1785355208000,
+      "publishedAt": "2026-07-29T20:00:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force awards All Points $250 million to expand satellite processing at Vandenberg",
+      "url": "https://spacenews.com/space-force-awards-all-points-250-million-to-expand-satellite-processing-at-vandenberg/",
+      "summary": "All Points Logistics is the third company selected under a Commercial Solutions Opening to add facilities where satellites can be inspected, tested, fueled and prepared for integration with launch vehicles The post Space…",
+      "ts": 1785354317000,
+      "publishedAt": "2026-07-29T19:45:17.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Landmark Phase III Trial Finds Cell Therapy Slows Muscle Decline in Advanced DMD",
+      "url": "https://www.genengnews.com/topics/translational-medicine/landmark-phase-iii-trial-finds-cell-therapy-slows-muscle-decline-in-advanced-dmd/",
+      "summary": "A Phase III trial found the donor-derived cell therapy deramiocel slowed arm muscle decline in boys and young men with advanced Duchenne muscular dystrophy, with potential benefits for heart health and a favorable safety…",
+      "ts": 1785353176000,
+      "publishedAt": "2026-07-29T19:26:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Celonic and Leukocare Collaborate to Support Complex Biologics and Advanced Drug Development",
+      "url": "https://www.genengnews.com/topics/bioprocessing/celonic-and-leukocare-collaborate-to-support-complex-biologics-and-advanced-drug-development/",
+      "summary": "The collaboration brings together Celonic’s expertise in cell line development, drug substance process development, intensified bioprocessing, and GMP manufacturing with Leukocare’s data science-driven approach to drug p…",
+      "ts": 1785351657000,
+      "publishedAt": "2026-07-29T19:00:57.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Hims misled consumers and violated their privacy, FTC alleges in a lawsuit",
@@ -19,6 +73,33 @@
       "ts": 1785347924000,
       "publishedAt": "2026-07-29T17:58:44.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Sets Coverage for August Northern Hemisphere Total Solar Eclipse",
+      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-august-northern-hemisphere-total-solar-eclipse/",
+      "summary": "On Wednesday, Aug. 12, a total solar eclipse will be visible in parts of Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of Portugal. NASA will stream the eclipse live with views across…",
+      "ts": 1785343777000,
+      "publishedAt": "2026-07-29T16:49:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Curiosity Views a Sand-Capped Butte",
+      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-views-a-sand-capped-butte/",
+      "summary": "Description NASA’s Curiosity Mars rover captured this sand-capped butte, nicknamed “Miraflores,” estimated to be about 20 feet (6 meters) tall, with its Mast Camera, or Mastcam, on June 11, 2026, the 4,923rd Martian day,…",
+      "ts": 1785341292000,
+      "publishedAt": "2026-07-29T16:08:12.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Curiosity Discovers a Field of Martian Polygons",
+      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-discovers-a-field-of-martian-polygons/",
+      "summary": "Description NASA’s Curiosity Mars rover captured this 360-degree view of an expanse of terrain covered in surface features called polygons on June 19 and 20, 2026, the 4,930th and 4,931st Martian days, or sols, of the mi…",
+      "ts": 1785341199000,
+      "publishedAt": "2026-07-29T16:06:39.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -57,6 +138,33 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s Curiosity Mars Rover Discovers Field of Honeycomb Textures",
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
+      "summary": "As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to mission scientists: honeycomb-like textures called polygonal fractures, ea…",
+      "ts": 1785339000000,
+      "publishedAt": "2026-07-29T15:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 July 29 – Psyche Receives Gravity Assist from Mars",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-july-29-psyche-receives-gravity-assist-from-mars/",
+      "summary": "A video of the Psyche spacecraft flying by Mars.",
+      "ts": 1785338754000,
+      "publishedAt": "2026-07-29T15:25:54.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Understanding How Martian Auroras Are Made",
+      "url": "https://www.nasa.gov/image-article/understanding-how-martian-auroras-are-made/",
+      "summary": "This July 23, 2026, illustration depicts charged particles from a solar storm stripping away charged particles of Mars’ atmosphere, one of the processes of Martian atmosphere loss studied by NASA’s MAVEN (Mars Atmosphere…",
+      "ts": 1785338428000,
+      "publishedAt": "2026-07-29T15:20:28.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Genome Mining Points to Less Toxic, More Potent Polyene Antifungals in Mice",
       "url": "https://www.genengnews.com/topics/infectious-diseases/genome-mining-points-to-less-toxic-more-potent-polyene-antifungals-in-mice/",
@@ -84,6 +192,15 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "NASA Webb Explores Family Tree of Newly Discovered Distant Objects",
+      "url": "https://science.nasa.gov/missions/webb/nasa-webb-explores-family-tree-of-newly-discovered-distant-objects/",
+      "summary": "Since their discovery by NASA’s James Webb Space Telescope in 2022, little red dots (LRDs) have been the subject of great interest to astronomers. Understanding the nature of these extremely distant, compact red sources …",
+      "ts": 1785333600000,
+      "publishedAt": "2026-07-29T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Pharmalittle: We’re reading about a fugitive who became a biotech exec, a hospital suing Lilly, and more",
       "url": "https://www.statnews.com/pharmalot/2026/07/29/fugitive-who-became-biotech-exec-hospital-sues-lilly/?utm_campaign=rss",
@@ -91,6 +208,15 @@
       "ts": 1785332161000,
       "publishedAt": "2026-07-29T13:36:01.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Contractor to Civil Servant: NASA Welcomes Ray Williams",
+      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-ray-williams/",
+      "summary": "Ray Williams’ progression at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, has uniquely prepared him for his new role. As part of NASA’s plan to restore core competencies by converting contractors to civil…",
+      "ts": 1785331970000,
+      "publishedAt": "2026-07-29T13:32:50.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -271,6 +397,15 @@
       "ts": 1785307205000,
       "publishedAt": "2026-07-29T06:40:05.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "Sizing Up the Sargassum Belt",
+      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
+      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
+      "ts": 1785297600000,
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -606,15 +741,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Sizing Up the Sargassum Belt",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
-      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "SpaceNews",
       "title": "Boeing still working with NASA to schedule next Starliner flight",
       "url": "https://spacenews.com/boeing-still-working-with-nasa-to-schedule-next-starliner-flight/",
@@ -631,6 +757,15 @@
       "ts": 1785287908000,
       "publishedAt": "2026-07-29T01:18:28.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "ts": 1785283200000,
+      "publishedAt": "2026-07-29T00:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -676,141 +811,6 @@
       "ts": 1785266997000,
       "publishedAt": "2026-07-28T19:29:57.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Visa time limits on foreign Ph.D. students and postdocs will harm U.S. science, experts warn",
-      "url": "https://www.statnews.com/2026/07/28/dhs-visa-policy-change-international-students-scientific-research-impact/?utm_campaign=rss",
-      "summary": "A Trump administration plan to limit visas for graduate student and postdocs to four years is fueling concerns that the U.S. could lose out on foreign scientists",
-      "ts": 1785258020000,
-      "publishedAt": "2026-07-28T17:00:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Nova Biomedical Acquires NanoCellect Assets to Expand Cell Line Development Portfolio",
-      "url": "https://www.genengnews.com/topics/bioprocessing/nova-biomedical-acquires-nanocellect-assets-to-expand-cell-line-development-portfolio/",
-      "summary": "The addition of NanoCellect's technology advances Nova’s strategy of offering a connected portfolio of tools that support continuity, data-driven decision-making, and process optimization across the entire bioprocessing …",
-      "ts": 1785258004000,
-      "publishedAt": "2026-07-28T17:00:04.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Scientific computing in the age of agentic AI",
-      "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "ts": 1785258000000,
-      "publishedAt": "2026-07-28T17:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Bracing for another Fauci hearing",
-      "url": "https://www.statnews.com/2026/07/28/anthony-fauci-rand-paul-hearing-democrats-ivf-proposal-dc-diagnosis/?utm_campaign=rss",
-      "summary": "Plus: Democrats take on Trump over IVF, and Trump's White House releases a new science funding blueprint.",
-      "ts": 1785256646000,
-      "publishedAt": "2026-07-28T16:37:26.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
-      "url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
-      "summary": "As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. In a recent video, Guo, founder of AI-native venture ca…",
-      "ts": 1785250819000,
-      "publishedAt": "2026-07-28T15:00:19.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: GSK lays out plans to cut costs, pursue more late-stage drug trials",
-      "url": "https://www.statnews.com/2026/07/28/gsk-earnings-report-luke-miels-strategy-late-stage-clinical-trials/?utm_campaign=rss",
-      "summary": "New GSK CEO Luke Miels outlined his strategy to help the company navigate a patent cliff and get on a path toward long-term growth.",
-      "ts": 1785247901000,
-      "publishedAt": "2026-07-28T14:11:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA staff reiterate concerns about Replimune skin cancer treatment",
-      "url": "https://www.statnews.com/2026/07/28/replimune-rp1-skin-cancer-fda-staff-analysis/?utm_campaign=rss",
-      "summary": "Regulators at the FDA have reiterated concerns that Replimmune does not have adequate data to support an approval of its investigational skin cancer treatment.",
-      "ts": 1785245993000,
-      "publishedAt": "2026-07-28T13:39:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about FDA views on a Duchenne drug, GSK cost savings, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/28/fda-duchenne-drug-gsk-cost-savings-plan/?utm_campaign=rss",
-      "summary": "The FDA said a Capricor stem cell treatment for Duchenne muscular dystrophy did not meet a Phase 3 trial's objectives — contrary to company claims",
-      "ts": 1785245149000,
-      "publishedAt": "2026-07-28T13:25:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Three questions with Whoop’s new CMO",
-      "url": "https://www.statnews.com/2026/07/28/three-questions-with-whoops-new-cmo-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: A chat with Whoop's new chief medical officer, an update on CMS health tech initiative, and more.",
-      "ts": 1785244955000,
-      "publishedAt": "2026-07-28T13:22:35.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: OpenAI’s predictable hack, and an AI stock sell-off",
-      "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. OpenAI called the Hugging Face attack unprecedented. But we’ve been here before. —…",
-      "ts": 1785240600000,
-      "publishedAt": "2026-07-28T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "How Sentinel-1 measured movement of Venezuela quakes",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/How_Sentinel-1_measured_movement_of_Venezuela_quakes",
-      "summary": "More than one month on from the catastrophic twin earthquakes in northern Venezuela on 24 June 2026, satellite data show the ground displacement was greater than first estimated.",
-      "ts": 1785240240000,
-      "publishedAt": "2026-07-28T12:04:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NASA selects successor to CAPSTONE lunar mission",
-      "url": "https://spacenews.com/nasa-selects-successor-to-capstone-lunar-mission/",
-      "summary": "NASA has selected Advanced Space to fly a successor to a cislunar smallsat mission that will test rendezvous and proximity operations around the moon. The post NASA selects successor to CAPSTONE lunar mission appeared fi…",
-      "ts": 1785240230000,
-      "publishedAt": "2026-07-28T12:03:50.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Comprehensive Human Vagus Nerve Map Unveiled",
-      "url": "https://www.genengnews.com/topics/translational-medicine/comprehensive-human-vagus-nerve-map-unveiled/",
-      "summary": "By mapping the organization of fascicles and fibers, investigators expect to gain critical insights into how the vagus nerve communicates with various organs and influences human health and disease. The post Comprehensiv…",
-      "ts": 1785240001000,
-      "publishedAt": "2026-07-28T12:00:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Mount Olympus and D-Day beaches among new World Heritage Sites",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168043",
-      "summary": "From the peaks of Mount Olympus in Greece to the shores of the “D-Day” beaches in France, 25 cultural or natural landmarks from across the globe have been newly inscribed on the World Heritage List, updated annually by t…",
-      "ts": 1785240000000,
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Climate alarm ‘blaring from every direction’",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168042",
-      "summary": "Climate-driven disasters are reaching “nightmare proportions” due to humanity’s “addiction” to fossil fuels, a top UN official warned on Tuesday.",
-      "ts": 1785240000000,
-      "publishedAt": "2026-07-28T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
