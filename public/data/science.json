@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-07-29T20:58:39.018Z",
+  "updated": "2026-07-29T22:07:13.141Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What sheep's teeth can tell us about life in a medieval Kazakhstan town",
+      "url": "https://phys.org/news/2026-07-sheep-teeth-life-medieval-kazakhstan.html",
+      "summary": "You might not often think about the molars of livestock, but everything from the grass they eat to the water they drink can tell a story about how people lived centuries ago. An international collaboration led by Univers…",
+      "ts": 1785362403000,
+      "publishedAt": "2026-07-29T22:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Carrion emerges as a key force shaping ecosystems, disease and human evolution",
+      "url": "https://phys.org/news/2026-07-carrion-emerges-key-ecosystems-disease.html",
+      "summary": "What happens after death? An international study led by the University of Granada (UGR), involving Ana Mateos and Jesús Rodríguez, researchers at the Centro Nacional de Investigación sobre la Evolución Humana (CENIEH), a…",
+      "ts": 1785362401000,
+      "publishedAt": "2026-07-29T22:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate shapes vegetation patterns across Yellow River Basin",
+      "url": "https://phys.org/news/2026-07-climate-vegetation-patterns-yellow-river.html",
+      "summary": "Climate drives vegetation patterns across the Henan section of China's Yellow River Basin, research in the International Journal of Environmental Engineering shows. However, expanding agriculture and urbanization have a …",
+      "ts": 1785361203000,
+      "publishedAt": "2026-07-29T21:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ice Age artists carved thumbnail-size bird figurines from mammoth ivory 40,000 years ago",
+      "url": "https://phys.org/news/2026-07-ice-age-artists-thumbnail-size.html",
+      "summary": "Excavations at Hohle Fels Cave in the UNESCO World Heritage area of the Swabian Jura in southwestern Germany have again yielded two spectacular 40,000-year-old depictions of birds carved from mammoth ivory. The two figur…",
+      "ts": 1785361201000,
+      "publishedAt": "2026-07-29T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A mechanically tunable molecular switch for circularly polarized light emission",
+      "url": "https://phys.org/news/2026-07-mechanically-tunable-molecular-circularly-polarized.html",
+      "summary": "Over the past few decades, scientists have become increasingly interested in developing materials that do not simply withstand mechanical forces but instead respond to them in useful, detectable ways. For example, it is …",
+      "ts": 1785360005000,
+      "publishedAt": "2026-07-29T21:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Interaction between sugar beet and its pest varies depending on drought stress, researchers find",
+      "url": "https://phys.org/news/2026-07-interaction-sugar-beet-pest-varies.html",
+      "summary": "Drought creates increasing challenges for agriculture. As well as affecting crop growth, it also affects interactions with pests. A research team at the University of Göttingen investigated how different levels of drough…",
+      "ts": 1785360003000,
+      "publishedAt": "2026-07-29T21:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The oceans near Australia may be the best places to fertilize for removing carbon dioxide",
+      "url": "https://phys.org/news/2026-07-oceans-australia-fertilize-carbon-dioxide.html",
+      "summary": "Deploying ocean iron fertilization—a strategy for carbon dioxide capture—in higher latitudes rather than near the equator could reduce environmental impacts while still achieving removal of carbon dioxide from the atmosp…",
+      "ts": 1785358802000,
+      "publishedAt": "2026-07-29T21:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simple changes to fishing gear and handling can greatly improve survival of released coho salmon",
+      "url": "https://phys.org/news/2026-07-simple-fishing-gear-greatly-survival.html",
+      "summary": "Coho salmon released by recreational anglers are far more likely to survive when handled without a landing net, according to new research. In salmon fisheries where anglers may be required to release salmon that are unde…",
+      "ts": 1785358801000,
+      "publishedAt": "2026-07-29T21:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Healthy pregnancies and newborns are possible after CAR T cell therapy",
+      "url": "https://www.sciencenews.org/article/healthy-pregnancy-birth-car-t-therapy",
+      "summary": "Women who received treatment for autoimmune diseases with CAR T cell therapy went on to have regular pregnancies and healthy babies.",
+      "ts": 1785358800000,
+      "publishedAt": "2026-07-29T21:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A step closer to artificial organs: UV light shapes arteriole-scale hydrogel vessels",
@@ -729,78 +801,6 @@
       "summary": "Remembering the past can help living organisms make better decisions, but memory comes at a cost. Whether it is an animal searching for food or a single cell responding to its surroundings, storing and using information …",
       "ts": 1785297602000,
       "publishedAt": "2026-07-29T04:00:02.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DDSNet: Dual-domain Symmetry-aware Network for PCSEL Property Prediction",
-      "url": "https://arxiv.org/abs/2607.24785",
-      "summary": "arXiv:2607.24785v1 Announce Type: new Abstract: Efficient exploration of the photonic crystal (PhC) lattice design space is essential for developing photonic crystal surface-emitting lasers. While coupled-wave theory (CW…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Operando Measurements of Pressure-Based PDMS Deformations in Electrochemical Microfluidic Devices",
-      "url": "https://arxiv.org/abs/2607.24811",
-      "summary": "arXiv:2607.24811v1 Announce Type: new Abstract: Polymer based microfluidics, using polydimethylsiloxane (PDMS), are highly adaptable platforms for electrochemical studies commonly used for numerous applications. Deformat…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Demonstration of 255-kV high-voltage generation with a Cavallo multiplier system",
-      "url": "https://arxiv.org/abs/2607.24812",
-      "summary": "arXiv:2607.24812v1 Announce Type: new Abstract: Many cryogenic precision measurements require large electric fields in environments where conventional high-voltage feedthroughs are impractical. To address this, we develo…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Femtoscopy Measurement with S$\\pi$RIT TPC in Radioactive BeamHeavy-ion Collisions",
-      "url": "https://arxiv.org/abs/2607.24815",
-      "summary": "arXiv:2607.24815v1 Announce Type: new Abstract: Femtoscopy is a powerful tool for exploring the dynamic emitting structure in heavy-ion collisions, while radioactive beam heavy-ion collisions enable the investigation of …",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Contribution of cosmic alphas to generation of albedo neutrons and gammas in lunar regolith: A computational study based on GEANT4 simulations",
-      "url": "https://arxiv.org/abs/2607.24816",
-      "summary": "arXiv:2607.24816v1 Announce Type: new Abstract: The lunar surface is constantly and directly exposed to Galactic Cosmic Rays (GCRs) due to the lack of the atmosphere and the magnetic field around it. The high-energetic a…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unveiling neutron and gamma spectrum at Martian surface in presence and absence of hydrogen: A computational study based on GEANT4 simulations",
-      "url": "https://arxiv.org/abs/2607.24823",
-      "summary": "arXiv:2607.24823v1 Announce Type: new Abstract: Motivated by the interactions of the GCR protons with the Martian atmosphere and regolith in the absence and presence of hydrogen, a series of GEANT4 simulations are employ…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The geometry-first formulation of gauge theory is not equivalent to the symmetry-first one",
-      "url": "https://arxiv.org/abs/2607.24901",
-      "summary": "arXiv:2607.24901v1 Announce Type: new Abstract: This paper argues that the geometry-first and symmetry-first formulations of gauge theory are not equivalent. They differ in three respects. First, the geometry-first formu…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast configuration changes and anomalous diffusion of an aromatic adsorbate on rare-gas nanoparticles",
-      "url": "https://arxiv.org/abs/2607.24974",
-      "summary": "arXiv:2607.24974v1 Announce Type: new Abstract: Nanoparticles (NPs) exhibit tunable catalytic properties and serve as nanoreactors for controlled multimolecular chemistry. The kinetics and reactivity of such systems are …",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cumulative suspicion and absorption dynamics in an agent-based Mafia game",
-      "url": "https://arxiv.org/abs/2607.24980",
-      "summary": "arXiv:2607.24980v1 Announce Type: new Abstract: The Mafia game, also known as Werewolf, describes a competition between a coordinated minority whose identities are concealed and a larger good faction composed primarily o…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
     }
   ],
   "sources": [

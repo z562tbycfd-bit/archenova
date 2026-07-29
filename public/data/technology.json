@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-07-29T20:58:40.913Z",
+  "updated": "2026-07-29T22:07:17.849Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "NSF testing new Ph.D. model giving trainees academic and industry experience",
+      "url": "https://www.statnews.com/2026/07/29/hybrid-academia-industry-phd-program-announced-uidp/?utm_campaign=rss",
+      "summary": "Young life scientists have been increasingly abandoning academia, a seismic shift that has fueled calls for rethinking graduate education. On Wednesday, the Trump administration announced that it’s funding a pilot…",
+      "ts": 1785360973000,
+      "publishedAt": "2026-07-29T21:36:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Latigo reports mid-stage success for would-be rival to Vertex’s pain drug Journavx",
+      "url": "https://www.statnews.com/2026/07/29/latigo-phase-2-results-non-opioid-pain-reliever-ltg-001/?utm_campaign=rss",
+      "summary": "Latigo Biotherapeutics published positive data for an acute-pain drug meant to rival a Vertex medicine already on the market",
+      "ts": 1785358800000,
+      "publishedAt": "2026-07-29T21:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Genetic Study of Fibromyalgia Points to Neurological Basis",
@@ -328,7 +346,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: FDA expert committee reviews Capricor Therapeutics’ Duchenne drug",
+      "title": "STAT+: FDA expert panel recommends against approval of Capricor’s Duchenne drug",
       "url": "https://www.statnews.com/2026/07/29/capricor-therapeutics-deramiocel-fda-review-meeting-live-blog/?utm_campaign=rss",
       "summary": "STAT is live-blogging an FDA meeting on Capricor Therapeutics’ treatment for Duchenne muscular dystrophy, which has been the subject of a contentious regulatory review.",
       "ts": 1785319200000,
@@ -397,15 +415,6 @@
       "ts": 1785307205000,
       "publishedAt": "2026-07-29T06:40:05.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Sizing Up the Sargassum Belt",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
-      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -741,6 +750,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Sizing Up the Sargassum Belt",
+      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
+      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
+      "ts": 1785297600000,
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Boeing still working with NASA to schedule next Starliner flight",
       "url": "https://spacenews.com/boeing-still-working-with-nasa-to-schedule-next-starliner-flight/",
@@ -793,24 +811,6 @@
       "ts": 1785271100000,
       "publishedAt": "2026-07-28T20:38:20.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Argenx Expands Immunology Portfolio with $2.2B Buyout of Forte Biosciences",
-      "url": "https://www.genengnews.com/topics/translational-medicine/argenx-expands-immunology-portfolio-with-2-2b-buyout-of-forte-biosciences/",
-      "summary": "Earlier this month Forte announced positive results for its lead candidate FB102, from a Phase Ib trial assessing the anti-CD122 monoclonal antibody in vitiligo. FB102 achieved a 29.6% mean Facial Vitiligo Area Scoring I…",
-      "ts": 1785267964000,
-      "publishedAt": "2026-07-28T19:46:04.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Six key issues we’re watching at Fauci’s hearing",
-      "url": "https://www.statnews.com/2026/07/28/anthony-fauci-senate-testimony-what-to-expect-covid-origin-perjury/?utm_campaign=rss",
-      "summary": "Sen. Rand Paul is forcing Fauci to appear before his Senate panel.",
-      "ts": 1785266997000,
-      "publishedAt": "2026-07-28T19:29:57.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
