@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-07-29T12:02:41.475Z",
+  "updated": "2026-07-29T15:09:46.696Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genome Mining Points to Less Toxic, More Potent Polyene Antifungals in Mice",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/genome-mining-points-to-less-toxic-more-potent-polyene-antifungals-in-mice/",
+      "summary": "The researchers identified Nys34 as a leading candidate after it demonstrated three-to-eightfold lower toxicity than amphotericin B in multiple human cell lines and reduced fungal burden in a mouse model of invasive aspe…",
+      "ts": 1785337249000,
+      "publishedAt": "2026-07-29T15:00:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: End of Medicare drug subsidy gives Democrats new attack line on rising out-of-pocket costs ",
+      "url": "https://www.statnews.com/2026/07/29/trump-medicare-subsidy-cuts-part-d-premium-change/?utm_campaign=rss",
+      "summary": "The White House decision to end a Medicare drug subsidy plays into Democratic arguments ahead of the midterms.",
+      "ts": 1785337110000,
+      "publishedAt": "2026-07-29T14:58:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "LatConnect 60 Accelerates SWIRSAT Constellation Growth Anchored in Western Australia with Expansion into Malaysia and UAE",
+      "url": "https://spacenews.com/latconnect-60-accelerates-swirsat-constellation-growth-anchored-in-western-australia-with-expansion-into-malaysia-and-uae/",
+      "summary": "PERTH, Western Australia — LatConnect 60 (LC60) is executing on a multi-geography industrial plan to accelerate its SWIRSAT constellation, anchoring core technology development and payload manufacturing in Western Austra…",
+      "ts": 1785335933000,
+      "publishedAt": "2026-07-29T14:38:53.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a fugitive who became a biotech exec, a hospital suing Lilly, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/29/fugitive-who-became-biotech-exec-hospital-sues-lilly/?utm_campaign=rss",
+      "summary": "The discovery that a fugitive had been working under an alias in the biotech industry prompted a question: How did he evade scrutiny for two decades?",
+      "ts": 1785332161000,
+      "publishedAt": "2026-07-29T13:36:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Why benchmarking clinical LLMs from OpenEvidence, Doximity is complicated",
+      "url": "https://www.statnews.com/2026/07/29/benchmarking-clinical-chatbots-openevidence-doximity-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of AI Prognosis: A conversation about benchmarking leading clinical chatbots, investor view on AI in biopharma, and more.",
+      "ts": 1785331779000,
+      "publishedAt": "2026-07-29T13:29:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Fortastra and Hadrian join forces to streamline satellite production",
+      "url": "https://spacenews.com/fortastra-and-hadrian-join-forces-to-streamline-satellite-production/",
+      "summary": "SAN FRANCISCO – Fortastra, a Los Angeles startup focused on defending on-orbit infrastructure, is working with manufacturing specialist Hadrian to explore ways to apply precision machining and additive manufacturing to […",
+      "ts": 1785330000000,
+      "publishedAt": "2026-07-29T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Fauci invokes Fifth Amendment in declining to answer questions before Senate panel",
+      "url": "https://www.statnews.com/2026/07/29/fauci-pleads-fifth-criticizes-rand-paul-senate-hearing/?utm_campaign=rss",
+      "summary": "At a highly anticipated Senate hearing, Anthony Fauci evoked his Fifth Amendment right to refuse to answer questions about the Covid-19 pandemic and its origins.",
+      "ts": 1785329757000,
+      "publishedAt": "2026-07-29T12:55:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "H3 to launch next ispace lunar lander mission",
+      "url": "https://spacenews.com/h3-to-launch-next-ispace-lunar-lander-mission/",
+      "summary": "Japanese lunar lander developer ispace has selected the H3 rocket to launch its next mission in 2028, creating what the companies called Japan’s first private lunar transportation system. The post H3 to launch next ispac…",
+      "ts": 1785327011000,
+      "publishedAt": "2026-07-29T12:10:11.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a chip talent battle, and deflating AI hype",
+      "url": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Samsung’s chip workers are jumping ship to rival SK Hynix Lee, an engineer at Sams…",
+      "ts": 1785327000000,
+      "publishedAt": "2026-07-29T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Sage Inks Publishing Deal with Causaly’s AI Platform Focusing on Drug Discovery Research",
@@ -19,6 +100,15 @@
       "ts": 1785325820000,
       "publishedAt": "2026-07-29T11:50:20.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA and University of Saskatchewan Conclude Pact to Enhance Nuclear Energy Capacity Building",
+      "url": "http://www.iaea.org/newscenter/news/iaea-and-university-of-saskatchewan-conclude-pact-to-enhance-nuclear-energy-capacity-building",
+      "summary": "",
+      "ts": 1785321434000,
+      "publishedAt": "2026-07-29T10:37:14.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -76,21 +166,21 @@
     },
     {
       "source": "IAEA News",
+      "title": "IAEA Research Project Advances Work with Small and Medium Fusion Devices",
+      "url": "http://www.iaea.org/newscenter/news/iaea-research-project-advances-work-with-small-and-medium-fusion-devices",
+      "summary": "Building on the success of the earlier project, the IAEA has launched a new Coordinated Research Projects (CRP) to strengthen global fusion device networks and support coordinated experiments, diagnostics and training fo…",
+      "ts": 1785311196000,
+      "publishedAt": "2026-07-29T07:46:36.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "IAEA News",
       "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
       "url": "http://www.iaea.org/newscenter/news/iaea-and-george-washington-university-law-school-conclude-first-summer-school-on-the-legal-framework-for-nuclear-energy",
       "summary": "",
       "ts": 1785307205000,
       "publishedAt": "2026-07-29T06:40:05.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Sizing Up the Sargassum Belt",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
-      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -426,6 +516,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Sizing Up the Sargassum Belt",
+      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
+      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
+      "ts": 1785297600000,
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Boeing still working with NASA to schedule next Starliner flight",
       "url": "https://spacenews.com/boeing-still-working-with-nasa-to-schedule-next-starliner-flight/",
@@ -711,105 +810,6 @@
       "summary": "The big takeaway from the recent Alzheimer’s Association International Conference in London is an economic message: Dementia finally has a business model, writes Jason Karlawish.",
       "ts": 1785227400000,
       "publishedAt": "2026-07-28T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "After PCOS became PMOS, there’s hope for new awareness among Black and Latina women",
-      "url": "https://www.statnews.com/2026/07/28/pmos-name-change-growing-awareness-faster-diagnosis-women-of-color/?utm_campaign=rss",
-      "summary": "Growing awareness of a painful endocrine disorder now named PMOS is good news for women of color, who have high prevalence and low diagnosis.",
-      "ts": 1785227400000,
-      "publishedAt": "2026-07-28T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Liftoff as Ariane 6 takes flight for the first time",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Liftoff_as_Ariane_6_takes_flight_for_the_first_time",
-      "summary": "Image: Liftoff as Ariane 6 takes flight for the first time",
-      "ts": 1785222000000,
-      "publishedAt": "2026-07-28T07:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Vertical liftoff as Ariane 6 takes flight for the first time",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Vertical_liftoff_as_Ariane_6_takes_flight_for_the_first_time",
-      "summary": "Image: Vertical liftoff as Ariane 6 takes flight for the first time",
-      "ts": 1785222000000,
-      "publishedAt": "2026-07-28T07:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "What is Cherenkov Radiation?",
-      "url": "http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation",
-      "summary": "",
-      "ts": 1785216600000,
-      "publishedAt": "2026-07-28T05:30:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Smoke Blankets Oregon",
-      "url": "https://science.nasa.gov/earth/natural-disasters/wildfires/smoke-blankets-oregon/",
-      "summary": "Lightning storms have ignited dozens of fires in central and eastern Oregon.",
-      "ts": 1785211260000,
-      "publishedAt": "2026-07-28T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Masked Autoencoders Learn Perception-Relevant Representations from Resting State Neural Data",
-      "url": "https://arxiv.org/abs/2607.22615",
-      "summary": "arXiv:2607.22615v1 Announce Type: new Abstract: Clinical neuroprosthetics face a data bottleneck: labeled perception trials are scarce while hours of spontaneous neural activity are largely underutilized. Here, we test w…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Subject-Level Heterogeneity in EEG Motor Imagery Decoding: A Large-Scale Benchmark and Portfolio-Based Reduction of the Search Space",
-      "url": "https://arxiv.org/abs/2607.22778",
-      "summary": "arXiv:2607.22778v1 Announce Type: new Abstract: Robust EEG motor imagery decoding remains limited by strong inter-individual variability, making it difficult to identify pipelines that generalize across users. We present…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Continuous surrogates versus threshold Boolean networks for modeling Arabidopsis ISR gene regulation",
-      "url": "https://arxiv.org/abs/2607.23289",
-      "summary": "arXiv:2607.23289v1 Announce Type: new Abstract: Gene regulatory network modeling often requires balancing predictive accuracy and mechanistic interpretability. In this work, we compare continuous surrogate models and a d…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Homeostatic Noise Buffering in Biomolecular Condensates Hinges on Phase Multiplicity Modulated by Interfacial and Droplet Size Effects",
-      "url": "https://arxiv.org/abs/2607.23382",
-      "summary": "arXiv:2607.23382v1 Announce Type: new Abstract: Specific mixing or demixing of molecular species is a characteristic feature of condensed intracellular membraneless compartments. How sequence patterns of intrinsically di…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spatial spread of infection: transitions between pulled and pushed fronts",
-      "url": "https://arxiv.org/abs/2607.23728",
-      "summary": "arXiv:2607.23728v1 Announce Type: new Abstract: We consider the spatial spread of epidemic into an unstable, healthy state. When the transmission rate depends on the fraction of infected, the propagating pulse of infecti…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying antiproliferative effects of quinolinic acid on melanoma, macrophage and keratinocyte cells using a parametric cell-viability model",
-      "url": "https://arxiv.org/abs/2607.23730",
-      "summary": "arXiv:2607.23730v1 Announce Type: new Abstract: This paper presents a robust mathematical framework for quantifying antiproliferative effects from noisy in vitro cell viability experiments. The methodology is demonstrate…",
-      "ts": 1785211200000,
-      "publishedAt": "2026-07-28T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
