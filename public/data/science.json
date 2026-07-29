@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-07-29T06:33:15.198Z",
+  "updated": "2026-07-29T09:39:15.502Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New twist on the Einstein problem reveals unexpected physics",
+      "url": "https://phys.org/news/2026-07-einstein-problem-reveals-unexpected-physics.html",
+      "summary": "A shape that captured worldwide attention for solving a decades-old mathematical puzzle has returned to the spotlight. While the shape's properties allowed it to solve previous puzzles, little is known about its other as…",
+      "ts": 1785315604000,
+      "publishedAt": "2026-07-29T09:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Repeating distance patterns let optical systems tackle large optimization problems",
+      "url": "https://phys.org/news/2026-07-distance-patterns-optical-tackle-large.html",
+      "summary": "From planning transportation networks to organizing massive datasets, many of society's most important challenges boil down to an optimization problem: finding the best solution among an enormous number of possibilities.…",
+      "ts": 1785315603000,
+      "publishedAt": "2026-07-29T09:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Japan coral protectors race to save reefs from heat 'bomb'",
+      "url": "https://phys.org/news/2026-07-japan-coral-protectors-reefs.html",
+      "summary": "From \"heat wave simulators\" to ecological boot camps, scientists and conservationists are trying ways to revive and reinforce the famous coral reefs off Japan's Okinawa, decimated by climate-driven bleaching two summers …",
+      "ts": 1785315005000,
+      "publishedAt": "2026-07-29T08:50:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "US to loosen environmental safeguards on space industry",
+      "url": "https://phys.org/news/2026-07-loosen-environmental-safeguards-space-industry.html",
+      "summary": "The United States on Tuesday said it plans to exempt its private space sector from numerous environmental regulations to accelerate the pace of space launches and ramp up competition with China.",
+      "ts": 1785315004000,
+      "publishedAt": "2026-07-29T08:50:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists discover 210-million-year-old dinosaur in Zimbabwe",
+      "url": "https://phys.org/news/2026-07-scientists-million-year-dinosaur-zimbabwe.html",
+      "summary": "A newly discovered dinosaur from Zimbabwe is offering fresh clues to how the animals diversified, suggesting they spread across distinct ecosystems in southern Africa, scientists said Wednesday.",
+      "ts": 1785313859000,
+      "publishedAt": "2026-07-29T08:30:59.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New York school pauses plan to deploy humanlike AI robot teacher after backlash",
+      "url": "https://phys.org/news/2026-07-york-school-deploy-humanlike-ai.html",
+      "summary": "A school district in a rural corner of upstate New York is hitting pause on plans to deploy an AI-powered, humanoid robot in the classroom after state education officials, teachers and local residents raised concerns, in…",
+      "ts": 1785313801000,
+      "publishedAt": "2026-07-29T08:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Private mission to rescue NASA's aging telescope runs into its own trouble",
+      "url": "https://phys.org/news/2026-07-private-mission-nasa-aging-telescope.html",
+      "summary": "The spacecraft rushing to the rescue of an aging and sinking NASA telescope has run into its own problem.",
+      "ts": 1785312998000,
+      "publishedAt": "2026-07-29T08:16:38.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfires are more extreme in Europe and North America, but global burning is oddly decreasing",
+      "url": "https://phys.org/news/2026-07-wildfires-extreme-europe-north-america.html",
+      "summary": "It seems as if the world is afire this summer. But even as wildfires in Europe and North America grow more extreme, key worldwide burning statistics are at a record low largely because Africa and Asia are controlling fir…",
+      "ts": 1785312952000,
+      "publishedAt": "2026-07-29T08:15:52.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Mosquitoes are rapidly activating enzymes against common insecticide, researchers warn",
@@ -735,70 +799,6 @@
       "title": "Twisted Multilayer Graphene: Superperiodicity and quasicrystals",
       "url": "https://arxiv.org/abs/2607.25411",
       "summary": "arXiv:2607.25411v1 Announce Type: cross Abstract: This thesis investigates how superperiodicity, quasiperiodicity, and disorder shape electronic and spin transport in graphene-based systems, with an emphasis on experimen…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Notes on a paper by F. G\\'enot and B. Brogliato on the Painlev\\'e paradox",
-      "url": "https://arxiv.org/abs/2607.25414",
-      "summary": "arXiv:2607.25414v1 Announce Type: cross Abstract: We reconsider the analysis of the Classical Painlev\\'e Problem developed by F. G\\'enot and B. Brogliato ([1] New results on Painlev\\'e paradoxes. - European Journal of Me…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Distinguishing the Axion-Wind and Oscillating-EDM Couplings in Storage-Ring Searches for Axion Dark Matter",
-      "url": "https://arxiv.org/abs/2607.25466",
-      "summary": "arXiv:2607.25466v1 Announce Type: cross Abstract: Resonant spin-precession experiments in storage rings are sensitive to two distinct axion and axion-like particle dark-matter couplings: an oscillating electric dipole mo…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Well-posed homogenized strain-gradient models for linear elastodynamics and elastostatics in arbitrary periodic media",
-      "url": "https://arxiv.org/abs/2607.25602",
-      "summary": "arXiv:2607.25602v1 Announce Type: cross Abstract: This work develops well-posed homogenized strain-gradient models for linear elastostatics and elastodynamics in periodic media, with a primary focus on elastic wave propa…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Theory of Cubic-Phase Dynamics in the Linear Potential",
-      "url": "https://arxiv.org/abs/2607.25627",
-      "summary": "arXiv:2607.25627v1 Announce Type: cross Abstract: A quantum wave packet in a linear potential, i.e., under a constant force such as gravity, accumulates a cubic-in-time phase that is universal across Schrodinger-type pla…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Using Data-Derived Priors to Guide CNN Architecture Design for NIR Chemometrics",
-      "url": "https://arxiv.org/abs/2607.25636",
-      "summary": "arXiv:2607.25636v1 Announce Type: cross Abstract: Convolutional neural networks (CNN) for near-infrared (NIR) chemometrics are often designed using generic architectural rules, although spectral datasets differ in sampli…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Engine-Equal, Human-Unequal: A Reproducible Outcome Skew in Engine-Assessed Equal Chess Positions",
-      "url": "https://arxiv.org/abs/2607.25655",
-      "summary": "arXiv:2607.25655v1 Announce Type: cross Abstract: Among chess opening positions that a strong engine judges essentially equal (Stockfish 18 evaluation within 10 centipawns of zero, depth-stable) and that humans actually …",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Physics-Informed Neural Operator for Thermal Ranking of Low-Cost Wall Materials in Hot-Dry Climates",
-      "url": "https://arxiv.org/abs/2607.25668",
-      "summary": "arXiv:2607.25668v1 Announce Type: cross Abstract: Identifying cost-effective indigenous building materials that minimise heat penetration through walls is critical for indoor thermal comfort in low-income rural housing i…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First-Principles Wannier Representation of Proximity Effects",
-      "url": "https://arxiv.org/abs/2607.25690",
-      "summary": "arXiv:2607.25690v1 Announce Type: cross Abstract: Proximity effects in layered heterostructures are usually represented by static parameters fitted to first-principles bands, which discards the energy dependence of the v…",
       "ts": 1785297600000,
       "publishedAt": "2026-07-29T04:00:00.000Z"
     }
