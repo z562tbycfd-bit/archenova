@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-30T15:11:56.926Z",
+  "updated": "2026-07-30T17:36:49.978Z",
   "items": [
     {
       "source": "NASA",
@@ -85,7 +85,7 @@
     },
     {
       "source": "STAT",
-      "title": "Ebola outbreak nears milestone, but vaccine is close ",
+      "title": "Ebola outbreak nears milestone, while a vaccine remains months away",
       "url": "https://www.statnews.com/2026/07/30/health-news-ebola-outbreak-nears-milestone-but-vaccine-close/?utm_campaign=rss",
       "summary": "Medicaid work rules, FTC sues Hims, and more health news from Morning Rounds",
       "ts": 1785412188000,
@@ -108,6 +108,15 @@
       "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learni…",
       "ts": 1785406519000,
       "publishedAt": "2026-07-30T10:15:19.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "ts": 1785405600000,
+      "publishedAt": "2026-07-30T10:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -174,15 +183,6 @@
       "categoryId": "energy-climate"
     },
     {
-      "source": "NASA",
-      "title": "APOD: July 30 – Red Sun trough Wildfire Smoke",
-      "url": "https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke/",
-      "summary": "APOD Science APOD APOD: July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
-      "ts": 1785384300000,
-      "publishedAt": "2026-07-30T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "Is it safe to drink Red Bull and alcohol? Questionable research tied to energy drink giant has shaped policy",
       "url": "https://www.statnews.com/2026/07/30/red-bull-funded-studies-energy-drinks-alcohol-shape-policy/?utm_campaign=rss",
@@ -190,6 +190,15 @@
       "ts": 1785384300000,
       "publishedAt": "2026-07-30T04:05:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: July 30 – Red Sun trough Wildfire Smoke",
+      "url": "https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke/",
+      "summary": "APOD Science APOD APOD: July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1785384300000,
+      "publishedAt": "2026-07-30T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -802,15 +811,6 @@
       "ts": 1785314577000,
       "publishedAt": "2026-07-29T08:42:57.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Clinical chatbots are taking medicine by storm. Should doctors trust them?",
-      "url": "https://www.statnews.com/2026/07/29/clinical-ai-vs-generalist-llm-benchmark-study-trust-accuracy-safety/?utm_campaign=rss",
-      "summary": "As LLMs compete for doctors' attention, some developers say the science of benchmarking their AI tools for safety and accuracy is flawed.",
-      "ts": 1785313800000,
-      "publishedAt": "2026-07-29T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
