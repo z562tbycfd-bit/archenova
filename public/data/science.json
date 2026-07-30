@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-07-30T12:45:53.403Z",
+  "updated": "2026-07-30T15:11:51.462Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ancient DNA reveals Ice Age humans targeted female woolly mammoths",
+      "url": "https://phys.org/news/2026-07-ancient-dna-reveals-ice-age.html",
+      "summary": "Analyzing ancient DNA from more than 500 mammoth bones, an international team of researchers found that Ice Age humans selectively targeted female woolly mammoths. The results of the study, published in Current Biology, …",
+      "ts": 1785423609000,
+      "publishedAt": "2026-07-30T15:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Water and functional diversity increase stability in temperate and Mediterranean forests",
+      "url": "https://phys.org/news/2026-07-functional-diversity-stability-temperate-mediterranean.html",
+      "summary": "Research involving the UAB and CREAF has examined the factors that help forests maintain stable productivity over time and concluded that water and biodiversity are key determinants.",
+      "ts": 1785423607000,
+      "publishedAt": "2026-07-30T15:00:07.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "How one amino acid might help fight colon cancer and infections",
+      "url": "https://www.sciencenews.org/article/amino-acid-argininine-colon-cancer-diet",
+      "summary": "Dietary arginine reduces tumor formation and viral load in mice by boosting key immune proteins.",
+      "ts": 1785423600000,
+      "publishedAt": "2026-07-30T15:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hiroshima blast debris reveals a previously unknown alloy",
+      "url": "https://phys.org/news/2026-07-hiroshima-blast-debris-reveals-previously.html",
+      "summary": "The Hiroshima blast on Aug. 6, 1945, was one of the most devastating events in human history. Like all nuclear detonations, it created fleeting moments of extreme heat, pressure, mixing and cooling. These conditions can …",
+      "ts": 1785422404000,
+      "publishedAt": "2026-07-30T14:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drone cameras can measure pigments indicating surface health of dryland soils",
+      "url": "https://phys.org/news/2026-07-drone-cameras-pigments-indicating-surface.html",
+      "summary": "Drylands soils are being degraded by human activities and climate change, threatening the thin living layers covering their surface, called biocrusts, according to the U.S. Geological Survey. Composed of cyanobacteria, l…",
+      "ts": 1785422401000,
+      "publishedAt": "2026-07-30T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Does misinformation on Facebook and Instagram change what you believe?",
+      "url": "https://phys.org/news/2026-07-misinformation-facebook-instagram.html",
+      "summary": "For years, social media companies have faced pressure from users and government watchdogs to stop misinformation from distorting elections, deepening political divisions and undermining Americans' trust in institutions. …",
+      "ts": 1785421208000,
+      "publishedAt": "2026-07-30T14:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One LED produces four stable colors at room temperature",
+      "url": "https://phys.org/news/2026-07-stable-room-temperature.html",
+      "summary": "Full-color displays normally require separate red, green and blue light emitters. A team from the University of Osaka and Ritsumeikan University has demonstrated another approach: a single light-emitting layer that produ…",
+      "ts": 1785421201000,
+      "publishedAt": "2026-07-30T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research shows the Golgi complex is involved in DNA repair control",
+      "url": "https://phys.org/news/2026-07-golgi-complex-involved-dna.html",
+      "summary": "Our DNA is under constant threat. Chemicals, radiation and the everyday errors of cell division all damage it, and if left unrepaired, this can lead to diseases such as cancer. Cells invest heavily in finding and fixing …",
+      "ts": 1785420010000,
+      "publishedAt": "2026-07-30T14:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Neptune's inner moons may be shattered remains of ancient icy worlds",
+      "url": "https://phys.org/news/2026-07-neptune-moons-shattered-ancient-icy.html",
+      "summary": "In 1989, the Voyager 2 mission discovered six new moons orbiting Neptune, including five tiny ones that orbit just outside the planet's main rings. Because of their small sizes and locations, these satellites have been d…",
+      "ts": 1785420006000,
+      "publishedAt": "2026-07-30T14:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "An atom-holography microscope for direct visualization of 3D atomic arrangements in nanoscale regions",
+      "url": "https://phys.org/news/2026-07-atom-holography-microscope-visualization-3d.html",
+      "summary": "A collaborative research group led by Hiroshi Daimon, a specially appointed research fellow at the Institute for Molecular Science, National Institutes of Natural Sciences, has developed an \"atom-holography microscope\" c…",
+      "ts": 1785418807000,
+      "publishedAt": "2026-07-30T13:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Your shampoo routine could be driving household water waste, new study says",
+      "url": "https://phys.org/news/2026-07-shampoo-routine-household.html",
+      "summary": "Everyday shower habits, such as applying shampoo or pausing the water while washing, are driving up water waste, argues a new study from the University of Surrey.",
+      "ts": 1785418804000,
+      "publishedAt": "2026-07-30T13:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "May, June heat waves caused 2,877 extra deaths in England: govt",
+      "url": "https://phys.org/news/2026-07-june-extra-deaths-england-govt.html",
+      "summary": "Record-breaking heat waves in May and June led to an estimated 2,877 excess deaths in England, the UK Health Security Agency said Wednesday.",
+      "ts": 1785416799000,
+      "publishedAt": "2026-07-30T13:06:39.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mapping endangered habitats with the help of citizen scientists and satellite data",
+      "url": "https://phys.org/news/2026-07-endangered-habitats-citizen-scientists-satellite.html",
+      "summary": "As biodiversity declines and many of the UK's most important habitats become smaller and more fragmented, conservation organizations need accurate, up-to-date maps to protect wildlife and restore nature. However, creatin…",
+      "ts": 1785416405000,
+      "publishedAt": "2026-07-30T13:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two Arctic charr populations evolved in less than a century, study finds",
+      "url": "https://phys.org/news/2026-07-arctic-charr-populations-evolved-century.html",
+      "summary": "Evolution, the process through which animals and other living organisms change their inherited traits over time, typically unfolds slowly over thousands or even millions of years. Some species, however, can adapt at a fa…",
+      "ts": 1785416401000,
+      "publishedAt": "2026-07-30T13:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A new monkey species has been found deep in Congo’s forests",
+      "url": "https://www.sciencenews.org/article/new-monkey-species-endangered",
+      "summary": "A canopy call, a partial photo and DNA revealed a new primate species — one that may already be at risk of extinction.",
+      "ts": 1785416400000,
+      "publishedAt": "2026-07-30T13:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "First dogs in the UK treated with new bee and wasp venom immunotherapy",
@@ -679,126 +799,6 @@
       "title": "A Dual-Mode FM/AM Modulator Based on a Time-Varying Inverting Integrator",
       "url": "https://arxiv.org/abs/2607.26738",
       "summary": "arXiv:2607.26738v1 Announce Type: cross Abstract: This paper presents the analysis, design, fabrication, and experimental validation of a dual-mode frequency/amplitude modulator based on a time-modulated varactor diode. …",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fluctuation force induced by quenched random polarizations",
-      "url": "https://arxiv.org/abs/2607.26747",
-      "summary": "arXiv:2607.26747v1 Announce Type: cross Abstract: We investigate the zero-temperature behavior of the fluctuation force induced by random electric dipoles that are frozen into a material and incapable of fluctuating ther…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Recent Progress in Ab-Initio Nuclear Theory for Precision Physics Searches in Muonic Atoms and Superallowed $\\beta$ Decays",
-      "url": "https://arxiv.org/abs/2607.26781",
-      "summary": "arXiv:2607.26781v1 Announce Type: cross Abstract: Precision tests of the Standard Model at low energy are increasingly limited by nuclear-structure theory rather than by experiment. We review two such cases: the two-phot…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Stability and Instability of Finite-Energy Solutions of the Compressible Euler-Riesz Equations with General Pressure Laws",
-      "url": "https://arxiv.org/abs/2607.26782",
-      "summary": "arXiv:2607.26782v1 Announce Type: cross Abstract: The compressible Euler-Riesz equations arise in the modeling of a wide range of physical phenomena, including stellar dynamics, plasma physics, and mathematical biology. …",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An interstellar energetic and non-aqueous pathway to peptide formation",
-      "url": "https://arxiv.org/abs/2607.26814",
-      "summary": "arXiv:2607.26814v1 Announce Type: cross Abstract: The origin of the molecular building blocks of life is a central question in science. A few $\\alpha$-amino acids such as glycine, the simplest proteinogenic amino acid, h…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inferring Magnetic Material Parameters from Statistical Measures in Strongly Fluctuating Magnetization Dynamics",
-      "url": "https://arxiv.org/abs/2607.26833",
-      "summary": "arXiv:2607.26833v1 Announce Type: cross Abstract: Magnetic material parameters such as the exchange stiffness and magnetic anisotropy govern the behavior and functionality of magnetic systems, yet their local inference f…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Squirming motion near corrugated surfaces",
-      "url": "https://arxiv.org/abs/2607.26875",
-      "summary": "arXiv:2607.26875v1 Announce Type: cross Abstract: Swimming microorganisms often operate in complex confinement, where an interplay of long-ranged hydrodynamic interactions and a short-ranged repulsive interaction can giv…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revival of transport reciprocity via quantum interference in asymmetric nonlinear devices",
-      "url": "https://arxiv.org/abs/2607.26898",
-      "summary": "arXiv:2607.26898v1 Announce Type: cross Abstract: Structural asymmetry combined with optical nonlinearity often leads to nonreciprocal light transport. We explore the mechanism by which 1-photon interference effects can …",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Instability-induced bistable shape-morphing kirigami structures",
-      "url": "https://arxiv.org/abs/2607.26941",
-      "summary": "arXiv:2607.26941v1 Announce Type: cross Abstract: Deployable shape-morphing structures that transform from flat sheets into stable three-dimensional configurations are highly desirable for applications ranging from soft …",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Spectral-Domain Pseudo-Inverse Construction Method for Unitary Diagonalizable Linear Inverse Problems",
-      "url": "https://arxiv.org/abs/2607.26951",
-      "summary": "arXiv:2607.26951v1 Announce Type: cross Abstract: Linear inverse problems are prevalent in geophysics, signal processing, image restoration, and medical imaging. Mathematically, they can be formulated as $Gm = d$. When $…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Two-magnon scattering in the framework of the Lippmann-Schwinger equation",
-      "url": "https://arxiv.org/abs/2607.26974",
-      "summary": "arXiv:2607.26974v1 Announce Type: cross Abstract: Controlling magnetic losses requires identifying the microscopic origin of extrinsic linewidth broadening. We introduce a Lippmann--Schwinger framework for two-magnon sca…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mean-field Pulse Adaptation for the Circulatization of Interacting Rydberg Atoms",
-      "url": "https://arxiv.org/abs/2607.26978",
-      "summary": "arXiv:2607.26978v1 Announce Type: cross Abstract: Arrays of circular Rydberg atoms provide a promising platform for quantum simulation and computation; however, their preparation in the presence of interatomic interactio…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Embedded quantum computing for many-body surface reaction",
-      "url": "https://arxiv.org/abs/2607.27009",
-      "summary": "arXiv:2607.27009v1 Announce Type: cross Abstract: Predictive simulations of catalytic interfaces require correlated electronic-structure treatments that describe localized chemical transformations while retaining the inf…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Anisotropic Spin Polarization and magnetic spin hall effect in Ferromagnets",
-      "url": "https://arxiv.org/abs/2607.27016",
-      "summary": "arXiv:2607.27016v1 Announce Type: cross Abstract: Spin-dependent transport in ferromagnets underpins the development of high-density spintronic memories. Spin-dependent transport in strong spin-orbit-coupled ferromagnets…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Neural variational framework for random Young-diagram limit shapes",
-      "url": "https://arxiv.org/abs/2607.27061",
-      "summary": "arXiv:2607.27061v1 Announce Type: cross Abstract: We develop a structure-preserving neural variational framework for random Young-diagram ensembles, with representations adapted to the structure and scaling of each measu…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Where does the criticality live? Early-warning signals are event-heterogeneous across seven crypto-perpetual liquidation cascades",
-      "url": "https://arxiv.org/abs/2607.27070",
-      "summary": "arXiv:2607.27070v1 Announce Type: cross Abstract: Do crypto perpetual-futures crashes carry a reproducible early-warning fingerprint of a critical transition, and in which state variable? We study seven major BTC liquida…",
       "ts": 1785384000000,
       "publishedAt": "2026-07-30T04:00:00.000Z"
     }

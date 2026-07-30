@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-07-30T12:45:55.554Z",
+  "updated": "2026-07-30T15:11:56.926Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Starburst Galaxy Centaurus A",
+      "url": "https://www.nasa.gov/image-article/starburst-galaxy-centaurus-a/",
+      "summary": "In this July 6, 2026, image, NASA’s James Webb Space Telescope’s Mid-Infrared Instrument (MIRI) reveals the nearby galaxy Centaurus A, exposing the dusty structures and hidden activity that shape this unusual system. Cen…",
+      "ts": 1785421448000,
+      "publishedAt": "2026-07-30T14:24:08.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Key Senate panel backs Trump’s picks for CDC, pandemic preparedness",
+      "url": "https://www.statnews.com/2026/07/30/senate-panel-backs-confirmation-health-nominees-schwartz-cdc-kaufman-aspr/?utm_campaign=rss",
+      "summary": "In win for RFK Jr., Senate committee sends nominations of Erica Schwartz for CDC director and Sean Kaufman for ASPR to full Senate.",
+      "ts": 1785421030000,
+      "publishedAt": "2026-07-30T14:17:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Judge denies states’ motion to postpone Medicaid work requirement",
+      "url": "https://www.statnews.com/2026/07/30/medicaid-work-requirements-judge-declines-states-request-injunction/?utm_campaign=rss",
+      "summary": "Federal judge denied 26 states’ request to postpone the implementation of Medicaid work requirements announced in June.",
+      "ts": 1785419155000,
+      "publishedAt": "2026-07-30T13:45:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Rising oil prices can boost the cost of some medicines. One expert says it’s time to lower reliance on fossil fuels",
+      "url": "https://www.statnews.com/pharmalot/2026/07/30/rising-oil-prices-cost-of-medicines-fosil-fuels/?utm_campaign=rss",
+      "summary": "Unitaid found the rising price of oil could boost the cost of a widely used HIV medicine it reviewed in a detailed analysis.",
+      "ts": 1785417750000,
+      "publishedAt": "2026-07-30T13:22:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about an FDA panel nixing a Duchenne drug, FTC suing Hims & Hers, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/30/fda-panel-nixes-duchenne-drug-ftc-sues-hims-and-hers/?utm_campaign=rss",
+      "summary": "An FDA advisory panel concluded clinical data for a Capricor treatment for Duchenne muscular dystrophy did not provide “substantial evidence” of efficacy",
+      "ts": 1785416920000,
+      "publishedAt": "2026-07-30T13:08:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/",
+      "summary": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’…",
+      "ts": 1785416420000,
+      "publishedAt": "2026-07-30T13:00:20.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Latigo Reports Positive Phase IIb Data for Non-Opioid Acute Pain Candidate",
+      "url": "https://www.genengnews.com/topics/translational-medicine/latigo-reports-positive-phase-iib-data-for-non-opioid-acute-pain-candidate/",
+      "summary": "LTG-001 achieved the primary endpoint of the Phase IIb LTG-001-010 trial (NCT07102459) by achieving better-than-placebo scores in the time-weighted sum of the pain-intensity difference (SPID) over the 48-hour treatment p…",
+      "ts": 1785416414000,
+      "publishedAt": "2026-07-30T13:00:14.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: tricking LLMs, and reviving geothermal plants",
@@ -661,6 +724,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "World News in Brief: Rohingya refugees, Bahá’ís in Iran, disarmament in the Central African Republic",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168049",
+      "summary": "Independent UN experts on Wednesday called for urgent action to support Rohingya refugees in Bangladesh after reports indicated two boats carrying more than 500 passengers may have capsized off the coast of Myanmar in mi…",
+      "ts": 1785326400000,
+      "publishedAt": "2026-07-29T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Cyprus: Guterres calls for renewed trust and a new meeting on the way forward",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168048",
       "summary": "The United Nations Secretary-General said on Wednesday that he plans to convene fresh talks on Cyprus to resolve the decades-long division on the Mediterranean island, stressing that the moment calls for rebuilding trust…",
@@ -738,78 +810,6 @@
       "summary": "As LLMs compete for doctors' attention, some developers say the science of benchmarking their AI tools for safety and accuracy is flawed.",
       "ts": 1785313800000,
       "publishedAt": "2026-07-29T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In the biotech industry, a most-wanted fugitive was long hiding in plain sight",
-      "url": "https://www.statnews.com/2026/07/29/ronald-fischer-fugitive-used-alias-forged-cv-held-biotech-executive-jobs/?utm_campaign=rss",
-      "summary": "Ronald Fischer, a most-wanted fugitive, was long hiding in the biotech industry in plain sight, and using an alias more extensively than has been previously reported.",
-      "ts": 1785313800000,
-      "publishedAt": "2026-07-29T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The VA could help America win the biotechnology race with China",
-      "url": "https://www.statnews.com/2026/07/29/biotech-race-china-veterans-affairs-va/?utm_campaign=rss",
-      "summary": "“Together, HHS, the VA, and the DOD form a strong American innovation ecosystem — one that China and other competitors cannot easily replicate,” writes former VA Secretary David Shulkin.",
-      "ts": 1785313800000,
-      "publishedAt": "2026-07-29T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Prolonged hospital stays can leave children isolated. It needs to change",
-      "url": "https://www.statnews.com/2026/07/29/long-hospital-stays-children-research-isolation/?utm_campaign=rss",
-      "summary": "“The effects of isolation extend far beyond children’s time in the hospital,” writes medical student Anna Tsioulias.",
-      "ts": 1785313800000,
-      "publishedAt": "2026-07-29T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Research Project Advances Work with Small and Medium Fusion Devices",
-      "url": "http://www.iaea.org/newscenter/news/iaea-research-project-advances-work-with-small-and-medium-fusion-devices",
-      "summary": "Building on the success of the earlier project, the IAEA has launched a new Coordinated Research Projects (CRP) to strengthen global fusion device networks and support coordinated experiments, diagnostics and training fo…",
-      "ts": 1785311196000,
-      "publishedAt": "2026-07-29T07:46:36.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA and George Washington University Law School Conclude First Summer School on the Legal Framework for Nuclear Energy",
-      "url": "http://www.iaea.org/newscenter/news/iaea-and-george-washington-university-law-school-conclude-first-summer-school-on-the-legal-framework-for-nuclear-energy",
-      "summary": "",
-      "ts": 1785307205000,
-      "publishedAt": "2026-07-29T06:40:05.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NASA",
-      "title": "Sizing Up the Sargassum Belt",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
-      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Selective Impairment of Motor Recovery from Typing Errors in Parkinson's Disease: A Survival Analysis",
-      "url": "https://arxiv.org/abs/2607.24796",
-      "summary": "arXiv:2607.24796v1 Announce Type: new Abstract: Parkinson's disease (PD) affects multiple, dissociable stages of motor and cognitive control. We ask whether passively-collected keystroke dynamics can distinguish two of t…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Reading Without a Reader: Large Language Models Collapse Reading and Writing into a Single Entangled Code",
-      "url": "https://arxiv.org/abs/2607.24797",
-      "summary": "arXiv:2607.24797v1 Announce Type: new Abstract: In the literate human brain, reading and writing are two doubly-dissociable systems: a ventral decoding route (impaired in pure alexia) and a fronto-parietal encoding route…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],
