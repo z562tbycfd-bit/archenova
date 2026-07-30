@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-07-30T17:36:49.978Z",
+  "updated": "2026-07-30T19:30:27.131Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Capricor’s data clash and a fugitive in the C-suite",
+      "url": "https://www.statnews.com/2026/07/30/capricor-duchenne-replimune-melanoma-fugitive-biotech-readout-loud-podcast/?utm_campaign=rss",
+      "summary": "Is the FDA taking inconsistent approaches to Duchenne drugs? And how will a new batch of drug executives shake up their companies? Find out on the latest episode of \"The…",
+      "ts": 1785438192000,
+      "publishedAt": "2026-07-30T19:03:12.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "A Computational Framework for Designing Disordered Proteins at Large Scale",
+      "url": "https://www.genengnews.com/topics/omics/a-computational-framework-for-designing-disordered-proteins-at-large-scale/",
+      "summary": "Scientists developed a platform, GOOSE, allowing them to design disordered proteins at a large scale, offering a lens through which to investigate how their component sequences affect the cell and how changes in such pro…",
+      "ts": 1785437119000,
+      "publishedAt": "2026-07-30T18:45:19.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "K2 Space raises $500 million for commercial, defense satellite expansion",
+      "url": "https://spacenews.com/k2-space-raises-500-million-for-commercial-defense-satellite-expansion/",
+      "summary": "The Series D more than doubles the satellite manufacturer’s valuation in seven months and will fund a production ramp to as many as 100 large spacecraft a year The post K2 Space raises $500 million for commercial, defens…",
+      "ts": 1785436941000,
+      "publishedAt": "2026-07-30T18:42:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Mitochondrial–Epigenetic Pathway Linked to Age-Related Inflammation",
+      "url": "https://www.genengnews.com/topics/translational-medicine/mitochondrial-epigenetic-pathway-linked-to-age-related-inflammation/",
+      "summary": "Crosstalk between mitochondrial metabolism and epigenetic regulation helps activate the inflammatory SASP in senescent cells, revealing a potential therapeutic target for limiting chronic inflammation during aging. The p…",
+      "ts": 1785436647000,
+      "publishedAt": "2026-07-30T18:37:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Roman Space Telescope on track for late August launch",
+      "url": "https://spacenews.com/roman-space-telescope-on-track-for-late-august-launch/",
+      "summary": "NASA’s next flagship space telescope is set to launch in late August, nine months ahead of schedule. The post Roman Space Telescope on track for late August launch appeared first on SpaceNews.",
+      "ts": 1785433870000,
+      "publishedAt": "2026-07-30T17:51:10.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Jim Bridenstine on his new role at Quantum Space",
+      "url": "https://spacenews.com/jim-bridenstine-on-his-new-role-at-quantum-space/",
+      "summary": "In this episode, David Ariosto speaks with former NASA Administrator Jim Bridenstine, who is now the CEO of Quantum Space. Bridenstine talks about the strategic shift to proliferation in low […] The post Jim Bridenstine …",
+      "ts": 1785433671000,
+      "publishedAt": "2026-07-30T17:47:51.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Montana’s plan to become an experimental medical hub just pushed forward",
+      "url": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
+      "summary": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—…",
+      "ts": 1785431400000,
+      "publishedAt": "2026-07-30T17:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "Starburst Galaxy Centaurus A",
@@ -748,69 +811,6 @@
       "ts": 1785326400000,
       "publishedAt": "2026-07-29T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Hunger hampers Ebola response as cases top 3,200 in DR Congo",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168047",
-      "summary": "The UN emergency food agency appealed for immediate funding on Wednesday, warning that deepening hunger is undermining the response to an Ebola outbreak in the Democratic Republic of the Congo (DRC) that has now infected…",
-      "ts": 1785326400000,
-      "publishedAt": "2026-07-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN warns West Bank settler violence hits ‘all-time high’ as calls grow to end occupation",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168045",
-      "summary": "Violence in the occupied West Bank is worsening as the Israeli Government continues to approve new settlements while settlers and Israeli security forces have “often” acted together to attack local Palestinian communitie…",
-      "ts": 1785326400000,
-      "publishedAt": "2026-07-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "A neglected issue in pedestrian, biker deaths",
-      "url": "https://www.statnews.com/2026/07/29/health-news-neglected-issue-in-pedestrian-biker-deaths/?utm_campaign=rss",
-      "summary": "Fauci's testimony, visa time limits for research students, and more health news from Morning Rounds",
-      "ts": 1785325820000,
-      "publishedAt": "2026-07-29T11:50:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA and University of Saskatchewan Conclude Pact to Enhance Nuclear Energy Capacity Building",
-      "url": "http://www.iaea.org/newscenter/news/iaea-and-university-of-saskatchewan-conclude-pact-to-enhance-nuclear-energy-capacity-building",
-      "summary": "",
-      "ts": 1785321434000,
-      "publishedAt": "2026-07-29T10:37:14.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "ts": 1785319200000,
-      "publishedAt": "2026-07-29T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA expert panel recommends against approval of Capricor’s Duchenne drug",
-      "url": "https://www.statnews.com/2026/07/29/capricor-therapeutics-deramiocel-fda-review-meeting-live-blog/?utm_campaign=rss",
-      "summary": "STAT is live-blogging an FDA meeting on Capricor Therapeutics’ treatment for Duchenne muscular dystrophy, which has been the subject of a contentious regulatory review.",
-      "ts": 1785319200000,
-      "publishedAt": "2026-07-29T10:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The AI Hype Index: Unsexy AI",
-      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X …",
-      "ts": 1785314577000,
-      "publishedAt": "2026-07-29T08:42:57.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
