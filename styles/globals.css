@@ -28943,368 +28943,8 @@ line-height:1.75;
     padding: 0.68rem 1rem !important;
     font-size: 0.7rem !important;
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.civilization-pulse{
-
-position:relative;
-
-overflow:hidden;
-
-border:1px solid rgba(255,255,255,.08);
-
-border-radius:32px;
-
-padding:64px;
-
-background:
-
-radial-gradient(circle at center,
-rgba(70,90,170,.12),
-transparent 70%),
-
-rgba(6,8,18,.95);
-
-backdrop-filter:blur(18px);
 
 }
-
-.pulse-milkyway{
-
-position:absolute;
-
-inset:0;
-
-background:
-
-linear-gradient(
-90deg,
-
-transparent,
-
-rgba(255,255,255,.06),
-
-rgba(120,180,255,.08),
-
-rgba(255,255,255,.06),
-
-transparent
-
-);
-
-filter:blur(40px);
-
-animation:
-
-pulseGalaxy
-
-24s linear infinite;
-
-}
-
-@keyframes pulseGalaxy{
-
-0%{
-
-transform:
-
-translateX(-35%);
-
-}
-
-100%{
-
-transform:
-
-translateX(35%);
-
-}
-
-}
-
-.pulse-live{
-
-display:flex;
-
-gap:.6rem;
-
-align-items:center;
-
-font-size:.8rem;
-
-letter-spacing:.2em;
-
-opacity:.75;
-
-}
-
-.pulse-live-dot{
-
-width:8px;
-
-height:8px;
-
-border-radius:50%;
-
-background:#6ee7ff;
-
-animation:
-
-pulseDot
-
-2s infinite;
-
-}
-
-@keyframes pulseDot{
-
-50%{
-
-opacity:.3;
-
-transform:scale(.7);
-
-}
-
-}
-
-.pulse-center{
-
-text-align:center;
-
-margin:4rem 0;
-
-}
-
-.pulse-center h2{
-
-font-size:5rem;
-
-font-weight:300;
-
-letter-spacing:.05em;
-
-}
-
-.pulse-track{
-
-height:5px;
-
-border-radius:999px;
-
-background:
-
-rgba(255,255,255,.08);
-
-overflow:hidden;
-
-}
-
-.pulse-fill{
-
-height:100%;
-
-border-radius:999px;
-
-background:
-
-linear-gradient(
-
-90deg,
-
-#7dd3fc,
-
-#ffffff
-
-);
-
-}
-
-
-
-
-
-
-.ci-pulse-stream {
-  position: relative;
-  width: min(100%, 1120px);
-  margin: 2rem auto;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 999px;
-  background:
-    radial-gradient(
-      circle at 20% 50%,
-      rgba(115, 150, 255, 0.12),
-      transparent 34%
-    ),
-    radial-gradient(
-      circle at 72% 50%,
-      rgba(180, 115, 255, 0.1),
-      transparent 38%
-    ),
-    rgba(5, 8, 18, 0.88);
-  backdrop-filter: blur(18px);
-  isolation: isolate;
-}
-
-.ci-pulse-galaxy {
-  position: absolute;
-  inset: -40% -20%;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    radial-gradient(
-      circle,
-      rgba(255, 255, 255, 0.28) 0 1px,
-      transparent 1.5px
-    )
-    0 0 / 34px 34px,
-    linear-gradient(
-      90deg,
-      transparent 0%,
-      rgba(120, 160, 255, 0.06) 24%,
-      rgba(255, 255, 255, 0.14) 50%,
-      rgba(150, 115, 255, 0.07) 74%,
-      transparent 100%
-    );
-  filter: blur(0.3px);
-  animation: ciPulseGalaxyDrift 30s linear infinite;
-}
-
-.ci-pulse-viewport {
-  overflow: hidden;
-  padding: 1rem 0;
-  mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 6%,
-    black 94%,
-    transparent
-  );
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 6%,
-    black 94%,
-    transparent
-  );
-}
-
-.ci-pulse-track {
-  display: flex;
-  width: max-content;
-  will-change: transform;
-  animation: ciPulseMarquee 38s linear infinite;
-}
-
-.ci-pulse-sequence {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  white-space: nowrap;
-}
-
-.ci-pulse-item {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.45rem;
-  padding-inline: 1rem;
-  font-size: 0.82rem;
-  letter-spacing: 0.08em;
-}
-
-.ci-pulse-label {
-  color: rgba(255, 255, 255, 0.58);
-  text-transform: uppercase;
-}
-
-.ci-pulse-value {
-  color: rgba(255, 255, 255, 0.96);
-  font-variant-numeric: tabular-nums;
-}
-
-.ci-pulse-separator {
-  margin-left: 0.5rem;
-  color: rgba(175, 205, 255, 0.68);
-  font-size: 0.68rem;
-}
-
-.ci-pulse-stream:hover .ci-pulse-track {
-  animation-play-state: paused;
-}
-
-@keyframes ciPulseMarquee {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-50%);
-  }
-}
-
-@keyframes ciPulseGalaxyDrift {
-  from {
-    transform: translateX(-6%);
-  }
-
-  to {
-    transform: translateX(6%);
-  }
-}
-
-@media (max-width: 768px) {
-  .ci-pulse-stream {
-    width: 100%;
-    border-radius: 18px;
-    margin-block: 1.5rem;
-  }
-
-  .ci-pulse-viewport {
-    padding-block: 0.85rem;
-  }
-
-  .ci-pulse-track {
-    animation-duration: 30s;
-  }
-
-  .ci-pulse-item {
-    padding-inline: 0.8rem;
-    font-size: 0.74rem;
-    letter-spacing: 0.06em;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .ci-pulse-track,
-  .ci-pulse-galaxy {
-    animation: none;
-  }
-
-  .ci-pulse-viewport {
-    overflow-x: auto;
-    mask-image: none;
-    -webkit-mask-image: none;
-  }
-
-  .ci-pulse-sequence:last-child {
-    display: none;
-  }
-}
-
 
 
 
@@ -29415,5 +29055,780 @@ linear-gradient(
       1.1rem;
 
     border-radius: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   CIVILIZATION PULSE
+   GLOBAL CIVILIZATION STREAM
+========================================================== */
+
+.ci-pulse-stream {
+  position: relative;
+  isolation: isolate;
+
+  width: min(100%, 1120px);
+  margin: 2rem auto;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.085);
+  border-radius: 28px;
+
+  /*
+   * 青・紫のグラデーションを使用せず、
+   * 黒い半透明ガラスとして表現する。
+   */
+  background: rgba(0, 0, 0, 0.44);
+
+  -webkit-backdrop-filter:
+    blur(26px)
+    brightness(0.7)
+    saturate(55%);
+
+  backdrop-filter:
+    blur(26px)
+    brightness(0.7)
+    saturate(55%);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.025),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.015);
+
+  color: rgba(255, 255, 255, 0.94);
+}
+
+
+/* ==========================================================
+   MILKY WAY
+   BLACK GLASS + SUBTLE WHITE PARTICLES
+========================================================== */
+
+.ci-pulse-galaxy {
+  position: absolute;
+  inset: -25% -15%;
+  z-index: -1;
+
+  overflow: hidden;
+  pointer-events: none;
+
+  /*
+   * 色ではなく、微細な白い粒子だけで
+   * 天の川の奥行きを表現する。
+   */
+  background-image:
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.15) 0 0.45px,
+      transparent 0.8px
+    ),
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.08) 0 0.35px,
+      transparent 0.7px
+    ),
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.012) 26%,
+      rgba(255, 255, 255, 0.028) 50%,
+      rgba(255, 255, 255, 0.012) 74%,
+      transparent 100%
+    );
+
+  background-position:
+    0 0,
+    19px 27px,
+    center;
+
+  background-size:
+    52px 52px,
+    71px 71px,
+    100% 100%;
+
+  opacity: 0.48;
+
+  filter: blur(0.15px);
+
+  will-change: transform;
+
+  animation:
+    ciPulseGalaxyDrift
+    110s
+    linear
+    infinite;
+}
+
+
+/* ==========================================================
+   THREE CIVILIZATION LANES
+========================================================== */
+
+.ci-pulse-lanes {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  padding:
+    clamp(1.5rem, 3vw, 2.25rem)
+    0;
+}
+
+.ci-pulse-lane {
+  position: relative;
+
+  display: grid;
+  grid-template-columns:
+    clamp(8.5rem, 15vw, 11.5rem)
+    minmax(0, 1fr);
+
+  align-items: center;
+
+  min-width: 0;
+  padding:
+    clamp(1.05rem, 2vw, 1.45rem)
+    clamp(1.25rem, 3vw, 2.25rem);
+}
+
+/*
+ * 各文明領域を分ける水平線。
+ * 最後のGOVERNANCEの下には表示しない。
+ */
+.ci-pulse-lane:not(:last-child)::after {
+  content: "";
+
+  position: absolute;
+  right: clamp(1.25rem, 3vw, 2.25rem);
+  bottom: 0;
+  left: clamp(1.25rem, 3vw, 2.25rem);
+
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.075) 8%,
+      rgba(255, 255, 255, 0.075) 92%,
+      transparent
+    );
+
+  pointer-events: none;
+}
+
+
+/* ==========================================================
+   FIXED CATEGORY LABEL
+========================================================== */
+
+.ci-pulse-lane-header {
+  position: relative;
+  z-index: 3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  min-width: 0;
+  padding-right: clamp(1rem, 2.5vw, 2rem);
+}
+
+.ci-pulse-lane-label {
+  display: block;
+
+  color: rgba(255, 255, 255, 0.76);
+
+  font-size: 0.68rem;
+  font-weight: 500;
+  line-height: 1;
+
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+
+  white-space: nowrap;
+}
+
+/*
+ * SCIENCE / TECHNOLOGY / GOVERNANCE の下に置く細線。
+ */
+.ci-pulse-lane-line {
+  display: block;
+
+  width: min(100%, 5.4rem);
+  height: 1px;
+
+  margin-top: 0.7rem;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.05)
+    );
+}
+
+
+/* ==========================================================
+   ARTICLE VIEWPORT
+========================================================== */
+
+.ci-pulse-viewport {
+  position: relative;
+
+  min-width: 0;
+  overflow: hidden;
+
+  padding-block: 0.4rem;
+
+  /*
+   * 流れる文章を左右端で自然に消す。
+   */
+  mask-image:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      black 5%,
+      black 95%,
+      transparent 100%
+    );
+
+  -webkit-mask-image:
+    linear-gradient(
+      to right,
+      transparent 0%,
+      black 5%,
+      black 95%,
+      transparent 100%
+    );
+}
+
+
+/* ==========================================================
+   ARTICLE TRACK
+========================================================== */
+
+.ci-pulse-track {
+  display: flex;
+  align-items: center;
+
+  width: max-content;
+
+  will-change: transform;
+
+  animation-name: ciPulseMarquee;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/*
+ * 各ストリームの速度を少しずつ変える。
+ *
+ * SCIENCE    : 70 seconds
+ * TECHNOLOGY : 78 seconds
+ * GOVERNANCE : 86 seconds
+ */
+.ci-pulse-lane--science .ci-pulse-track {
+  animation-duration: 70s;
+}
+
+.ci-pulse-lane--technology .ci-pulse-track {
+  animation-duration: 78s;
+}
+
+.ci-pulse-lane--governance .ci-pulse-track {
+  animation-duration: 86s;
+}
+
+/*
+ * TECHNOLOGYのみ反対方向へ流す。
+ */
+.ci-pulse-track--reverse {
+  animation-name: ciPulseMarqueeReverse;
+}
+
+
+/* ==========================================================
+   ARTICLE SEQUENCE
+========================================================== */
+
+.ci-pulse-sequence {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+
+  min-width: max-content;
+
+  white-space: nowrap;
+}
+
+
+/* ==========================================================
+   ARTICLE UNIT
+========================================================== */
+
+.ci-pulse-item {
+  display: inline-flex;
+  align-items: baseline;
+  flex-shrink: 0;
+
+  gap: 0.55rem;
+
+  margin: 0;
+  padding:
+    0
+    clamp(1.3rem, 2.5vw, 2rem);
+
+  color: inherit;
+
+  font-size: 0.79rem;
+  line-height: 1.7;
+
+  letter-spacing: 0.025em;
+}
+
+
+/* ==========================================================
+   ARTICLE TITLE
+========================================================== */
+
+.ci-pulse-title {
+  color: rgba(255, 255, 255, 0.94);
+
+  font-weight: 500;
+  letter-spacing: 0.035em;
+}
+
+
+/* ==========================================================
+   TITLE / SUMMARY DASH
+========================================================== */
+
+.ci-pulse-dash {
+  color: rgba(255, 255, 255, 0.3);
+
+  font-weight: 300;
+}
+
+
+/* ==========================================================
+   ARTICLE SUMMARY
+========================================================== */
+
+.ci-pulse-summary {
+  color: rgba(255, 255, 255, 0.54);
+
+  font-weight: 300;
+}
+
+
+/* ==========================================================
+   ARTICLE SEPARATOR
+========================================================== */
+
+.ci-pulse-separator {
+  display: inline-flex;
+  align-items: center;
+
+  margin-left: clamp(0.7rem, 1.5vw, 1.1rem);
+
+  color: rgba(255, 255, 255, 0.2);
+
+  font-size: 0.54rem;
+  line-height: 1;
+
+  transform: translateY(-0.04em);
+}
+
+
+/* ==========================================================
+   CIVILIZATIONAL IMPACT TAG
+   READY FOR FUTURE DATA CONNECTION
+========================================================== */
+
+/*
+ * 現在のTSXにはまだ表示されません。
+ *
+ * 将来、記事データへ impactLabel を追加し、
+ * 次のような要素を置いた際に使用します。
+ *
+ * <span className="ci-pulse-impact">
+ *   Knowledge Infrastructure
+ * </span>
+ */
+.ci-pulse-impact {
+  display: inline-flex;
+  align-items: center;
+
+  min-height: 1.45rem;
+
+  margin-left: 0.2rem;
+  padding: 0.18rem 0.55rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.025);
+
+  color: rgba(255, 255, 255, 0.5);
+
+  font-size: 0.58rem;
+  font-weight: 400;
+  line-height: 1;
+
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+
+  white-space: nowrap;
+}
+
+
+/* ==========================================================
+   INTERACTION
+========================================================== */
+
+/*
+ * PCではストリームにカーソルを重ねた際に停止する。
+ * 記事を落ち着いて読めるようにする。
+ */
+.ci-pulse-stream:hover .ci-pulse-track {
+  animation-play-state: paused;
+}
+
+.ci-pulse-stream:focus-within .ci-pulse-track {
+  animation-play-state: paused;
+}
+
+
+/* ==========================================================
+   ANIMATIONS
+========================================================== */
+
+@keyframes ciPulseMarquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes ciPulseMarqueeReverse {
+  from {
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes ciPulseGalaxyDrift {
+  from {
+    transform: translate3d(-4%, 0, 0);
+  }
+
+  to {
+    transform: translate3d(4%, 0, 0);
+  }
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 900px) {
+  .ci-pulse-stream {
+    width: 100%;
+    border-radius: 24px;
+  }
+
+  .ci-pulse-lane {
+    grid-template-columns: 8.5rem minmax(0, 1fr);
+
+    padding-inline: 1.4rem;
+  }
+
+  .ci-pulse-lane:not(:last-child)::after {
+    right: 1.4rem;
+    left: 1.4rem;
+  }
+
+  .ci-pulse-lane-header {
+    padding-right: 1.25rem;
+  }
+
+  .ci-pulse-item {
+    font-size: 0.75rem;
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+  .ci-pulse-stream {
+    width: 100%;
+
+    margin-block: 1.5rem;
+
+    border-radius: 20px;
+
+    background: rgba(0, 0, 0, 0.48);
+
+    -webkit-backdrop-filter:
+      blur(22px)
+      brightness(0.68)
+      saturate(52%);
+
+    backdrop-filter:
+      blur(22px)
+      brightness(0.68)
+      saturate(52%);
+  }
+
+  .ci-pulse-lanes {
+    padding-block: 0.7rem;
+  }
+
+  /*
+   * モバイルではラベルを記事の上へ配置する。
+   * 横幅を記事表示へ最大限使用する。
+   */
+  .ci-pulse-lane {
+    display: block;
+
+    padding:
+      1.35rem
+      1.05rem;
+  }
+
+  .ci-pulse-lane:not(:last-child)::after {
+    right: 1.05rem;
+    left: 1.05rem;
+  }
+
+  .ci-pulse-lane-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+
+    padding-right: 0;
+    padding-bottom: 0.9rem;
+  }
+
+  .ci-pulse-lane-label {
+    flex-shrink: 0;
+
+    font-size: 0.62rem;
+
+    letter-spacing: 0.22em;
+  }
+
+  .ci-pulse-lane-line {
+    flex: 1;
+
+    width: auto;
+
+    margin:
+      0
+      0
+      0
+      0.85rem;
+
+    background:
+      linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.18),
+        transparent
+      );
+  }
+
+  .ci-pulse-viewport {
+    padding-block: 0.15rem;
+
+    mask-image:
+      linear-gradient(
+        to right,
+        transparent 0%,
+        black 3%,
+        black 97%,
+        transparent 100%
+      );
+
+    -webkit-mask-image:
+      linear-gradient(
+        to right,
+        transparent 0%,
+        black 3%,
+        black 97%,
+        transparent 100%
+      );
+  }
+
+  .ci-pulse-item {
+    gap: 0.45rem;
+
+    padding-inline: 1rem;
+
+    font-size: 0.71rem;
+    line-height: 1.65;
+
+    letter-spacing: 0.018em;
+  }
+
+  .ci-pulse-separator {
+    margin-left: 0.65rem;
+
+    font-size: 0.49rem;
+  }
+
+  .ci-pulse-impact {
+    min-height: 1.3rem;
+
+    padding:
+      0.16rem
+      0.45rem;
+
+    font-size: 0.52rem;
+  }
+
+  /*
+   * モバイルでは文章量が多くなるため、
+   * PCより少し速くする。
+   */
+  .ci-pulse-lane--science .ci-pulse-track {
+    animation-duration: 56s;
+  }
+
+  .ci-pulse-lane--technology .ci-pulse-track {
+    animation-duration: 62s;
+  }
+
+  .ci-pulse-lane--governance .ci-pulse-track {
+    animation-duration: 68s;
+  }
+
+  .ci-pulse-galaxy {
+    opacity: 0.4;
+
+    animation-duration: 125s;
+  }
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+  .ci-pulse-stream {
+    border-radius: 18px;
+  }
+
+  .ci-pulse-lane {
+    padding:
+      1.2rem
+      0.9rem;
+  }
+
+  .ci-pulse-lane:not(:last-child)::after {
+    right: 0.9rem;
+    left: 0.9rem;
+  }
+
+  .ci-pulse-lane-header {
+    padding-bottom: 0.8rem;
+  }
+
+  .ci-pulse-lane-label {
+    font-size: 0.58rem;
+
+    letter-spacing: 0.2em;
+  }
+
+  .ci-pulse-item {
+    padding-inline: 0.85rem;
+
+    font-size: 0.68rem;
+  }
+
+  .ci-pulse-title {
+    letter-spacing: 0.025em;
+  }
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .ci-pulse-track,
+  .ci-pulse-galaxy {
+    animation: none;
+  }
+
+  .ci-pulse-viewport {
+    overflow-x: auto;
+
+    padding-bottom: 0.6rem;
+
+    mask-image: none;
+    -webkit-mask-image: none;
+
+    scrollbar-width: thin;
+    scrollbar-color:
+      rgba(255, 255, 255, 0.18)
+      transparent;
+  }
+
+  .ci-pulse-viewport::-webkit-scrollbar {
+    height: 3px;
+  }
+
+  .ci-pulse-viewport::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .ci-pulse-viewport::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+
+    background: rgba(255, 255, 255, 0.18);
+  }
+
+  /*
+   * 動きを停止した場合は、
+   * 無限スクロール用の複製を非表示にする。
+   */
+  .ci-pulse-sequence:last-child {
+    display: none;
   }
 }
