@@ -1,15 +1,51 @@
 {
   "ok": true,
-  "updated": "2026-07-29T22:07:17.849Z",
+  "updated": "2026-07-30T00:02:01.622Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Proposed rule would exempt commercial launch licensing from environmental regulations",
+      "url": "https://spacenews.com/proposed-rule-would-exempt-commercial-launch-licensing-from-environmental-regulations/",
+      "summary": "The Department of Transportation is proposing to exempt commercial space launch licensing from many environmental regulations, a move praised by industry but criticized by environmental groups. The post Proposed rule wou…",
+      "ts": 1785366776000,
+      "publishedAt": "2026-07-29T23:12:56.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "L3Harris delays missile business IPO to 2027 despite surging defense demand",
+      "url": "https://spacenews.com/l3harris-delays-missile-business-ipo-to-2027-despite-surging-defense-demand/",
+      "summary": "CEO says market doesn't reflect value of Pentagon-backed business The post L3Harris delays missile business IPO to 2027 despite surging defense demand appeared first on SpaceNews.",
+      "ts": 1785365826000,
+      "publishedAt": "2026-07-29T22:57:06.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Elix and University of Vienna Aim to Advance Drug Discovery Using AI",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/elix-and-university-of-vienna-aim-to-advance-drug-discovery-using-ai/",
+      "summary": "Elix and the University of Vienna will partner to bridge the gap between advanced structural biology and artificial intelligence. By integrating AI’s predictive power with experimental atomic-resolution data, the project…",
+      "ts": 1785364140000,
+      "publishedAt": "2026-07-29T22:29:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "NSF testing new Ph.D. model giving trainees academic and industry experience",
       "url": "https://www.statnews.com/2026/07/29/hybrid-academia-industry-phd-program-announced-uidp/?utm_campaign=rss",
-      "summary": "Young life scientists have been increasingly abandoning academia, a seismic shift that has fueled calls for rethinking graduate education. On Wednesday, the Trump administration announced that it’s funding a pilot…",
+      "summary": "Students working in fields eligible for NSF funding will be able to participate, including chemistry, engineering, and basic life science research that doesn’t deal directly with the treatment of disease.",
       "ts": 1785360973000,
       "publishedAt": "2026-07-29T21:36:13.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Awards 2026 Innovative Technology Concepts",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-2026-innovative-technology-concepts/",
+      "summary": "The NASA Innovative Advanced Concepts (NIAC) program has created 18 new awards to support visionary ideas to improve aerospace technologies in areas ranging from the exploration of the solar system to understanding the u…",
+      "ts": 1785359060000,
+      "publishedAt": "2026-07-29T21:04:20.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -190,6 +226,15 @@
       "ts": 1785337249000,
       "publishedAt": "2026-07-29T15:00:49.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "ts": 1785337200000,
+      "publishedAt": "2026-07-29T15:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "STAT",
@@ -415,6 +460,15 @@
       "ts": 1785307205000,
       "publishedAt": "2026-07-29T06:40:05.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "Sizing Up the Sargassum Belt",
+      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
+      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
+      "ts": 1785297600000,
+      "publishedAt": "2026-07-29T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -750,66 +804,12 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Sizing Up the Sargassum Belt",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
-      "summary": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "SpaceNews",
       "title": "Boeing still working with NASA to schedule next Starliner flight",
       "url": "https://spacenews.com/boeing-still-working-with-nasa-to-schedule-next-starliner-flight/",
       "summary": "Boeing is still working with NASA to determine when to fly its CST-100 Starliner commercial crew vehicle on a cargo mission to the International Space Station. The post Boeing still working with NASA to schedule next Sta…",
       "ts": 1785288247000,
       "publishedAt": "2026-07-29T01:24:07.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Chinese startup raises funds for space situational awareness constellation, joining commercial SSA rush",
-      "url": "https://spacenews.com/chinese-startup-raises-funds-for-space-situational-awareness-constellation-joining-commercial-ssa-rush/",
-      "summary": "SINGAPORE — A Beijing-based startup has secured around $14 million to build a satellite constellation for tracking orbital objects, adding to China’s growing SSA sector. Xingchen Daohe, also known as […] The post Chinese…",
-      "ts": 1785287908000,
-      "publishedAt": "2026-07-29T01:18:28.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "ts": 1785283200000,
-      "publishedAt": "2026-07-29T00:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: American Diabetes Association, facing calls for resignations, asks for patience",
-      "url": "https://www.statnews.com/2026/07/28/american-diabetes-association-fallout-researchers-expulsion/?utm_campaign=rss",
-      "summary": "An open letter to the board of the American Diabetes Association said the board had badly mishandled an incident at its annual meeting.",
-      "ts": 1785281647000,
-      "publishedAt": "2026-07-28T23:34:07.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Swift reboost mission encounters attitude control problems",
-      "url": "https://spacenews.com/swift-reboost-mission-encounters-attitude-control-problems/",
-      "summary": "A spacecraft launched nearly a month ago in a high-risk bid to boost the orbit of a NASA astrophysics satellite is suffering attitude control problems that could jeopardize its mission. The post Swift reboost mission enc…",
-      "ts": 1785279869000,
-      "publishedAt": "2026-07-28T23:04:29.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "ESA opens call to repurpose Gateway communications module",
-      "url": "https://spacenews.com/esa-opens-call-to-repurpose-gateway-communications-module/",
-      "summary": "JOHANNESBURG — The European Space Agency is moving ahead with plans to examine the feasibility of repurposing Lunar Link, a communications system developed for NASA’s now-paused Gateway space station, as […] The post ESA…",
-      "ts": 1785271100000,
-      "publishedAt": "2026-07-28T20:38:20.000Z",
       "categoryId": "space"
     }
   ],

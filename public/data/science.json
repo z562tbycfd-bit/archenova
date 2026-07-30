@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-07-29T22:07:13.141Z",
+  "updated": "2026-07-30T00:01:57.735Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The role of community energy in mediating the sustainable energy transition",
+      "url": "https://phys.org/news/2026-07-role-community-energy-sustainable-transition.html",
+      "summary": "Community energy projects, actively governed and managed by community members, play an essential role in advancing just energy transitions, for example, by providing energy in remote areas, facilitating the adoption of r…",
+      "ts": 1785369603000,
+      "publishedAt": "2026-07-30T00:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Humanoid classroom robots show potential as teaching assistants, not teacher replacements",
+      "url": "https://phys.org/news/2026-07-humanoid-classroom-robots-potential-teacher.html",
+      "summary": "A New York school district made global headlines this week for plans to trial a humanoid robot named \"Sally\" in high school classrooms.",
+      "ts": 1785368402000,
+      "publishedAt": "2026-07-29T23:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Strain turns non-chiral crystals left- or right-handed on demand",
+      "url": "https://phys.org/news/2026-07-strain-chiral-crystals-left-demand.html",
+      "summary": "Mechanical strain is one of the most common tools used to tailor the properties of materials. In piezoelectric materials, stretching or compressing a crystal generates an electrical polarization. In piezomagnetic materia…",
+      "ts": 1785368401000,
+      "publishedAt": "2026-07-29T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A climate resilience strategy to strengthen US seafood competitiveness",
+      "url": "https://phys.org/news/2026-07-climate-resilience-strategy-seafood-competitiveness.html",
+      "summary": "As the U.S. looks to expand domestic seafood production, a new University of Miami study argues that long-term competitiveness will depend on how well fisheries can withstand climate-driven disruptions. The study comes a…",
+      "ts": 1785367203000,
+      "publishedAt": "2026-07-29T23:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hydrothermal microbes shape seafloor minerals at newly found vents near Greek island",
+      "url": "https://phys.org/news/2026-07-hydrothermal-microbes-seafloor-minerals-newly.html",
+      "summary": "In August 2023, the German research vessel METEOR set sail on Expedition M192 to the Greek island of Milos with Dr. Solveig Bühring as chief scientist. The mission was to locate and investigate previously unknown hydroth…",
+      "ts": 1785367201000,
+      "publishedAt": "2026-07-29T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lake ice loss could accelerate after winter temperatures cross critical thresholds",
+      "url": "https://phys.org/news/2026-07-lake-ice-loss-winter-temperatures.html",
+      "summary": "For lakes across the Northern Hemisphere, winter ice is more than a frozen surface. It is a seasonal regulator that shapes underwater ecosystems and energy balance. But as the planet warms, this frozen season is disappea…",
+      "ts": 1785366003000,
+      "publishedAt": "2026-07-29T23:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Expressway restoration may speed regional economic recovery after disasters",
+      "url": "https://phys.org/news/2026-07-expressway-regional-economic-recovery-disasters.html",
+      "summary": "A research team has, for the first time, demonstrated the crucial role that restoring transportation networks (such as roads and railways) plays in rebuilding regional economies and helping residents recover their liveli…",
+      "ts": 1785366001000,
+      "publishedAt": "2026-07-29T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One of industry's toughest lignin byproducts could become feedstock for valuable chemicals",
+      "url": "https://phys.org/news/2026-07-industry-toughest-lignin-byproducts-feedstock.html",
+      "summary": "The pulp and paper industry, which manufactures everything from tissue paper to cardboard, also generates a significant yet often overlooked byproduct—a complex polymer called lignin. Around 100 million tons of lignin ar…",
+      "ts": 1785364803000,
+      "publishedAt": "2026-07-29T22:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Invasive species emerge as a driver of human displacement, new research shows",
+      "url": "https://phys.org/news/2026-07-invasive-species-emerge-driver-human.html",
+      "summary": "Invasive alien species are driving human displacement, according to a new research paper published this month in Frontiers. In Kenya, Opuntia stricta has displaced pastoralist communities, while the invasive little fire …",
+      "ts": 1785364801000,
+      "publishedAt": "2026-07-29T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Keeping stem cells in check: A new mechanism by which cell junction proteins regulate tissue homeostasis",
+      "url": "https://phys.org/news/2026-07-stem-cells-mechanism-cell-junction.html",
+      "summary": "In many animal tissues, stem cells continually divide to create new cells that replace old or damaged ones. However, this capacity requires strict regulation, as uncontrolled stem cell proliferation can disrupt tissue ho…",
+      "ts": 1785363603000,
+      "publishedAt": "2026-07-29T22:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Most complete skeleton of 30 million-year-old dog discovered",
+      "url": "https://phys.org/news/2026-07-skeleton-million-year-dog.html",
+      "summary": "For decades, a 30 million-year-old fossil sat entombed in rock in an Oregon museum collection. When it was first found, paleontologists thought it might be an early relative of sheep, camels and pigs, whose fossilized sk…",
+      "ts": 1785363601000,
+      "publishedAt": "2026-07-29T22:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "What sheep's teeth can tell us about life in a medieval Kazakhstan town",
@@ -683,124 +771,36 @@
       "publishedAt": "2026-07-29T11:00:01.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Quasiparticle-induced decoherence of a driven superconducting qubit",
-      "url": "http://link.aps.org/doi/10.1103/3q5z-tk7c",
-      "summary": "Author(s): Mykola Kishmar, Pavel D. Kurilovich, Andrey Klots, Thomas Connolly, Igor L. Aleiner, and Vladislav D. Kurilovich We develop a theory for two quasiparticle-induced decoherence mechanisms of a driven superconduc…",
+      "source": "APS Physical Review Letters",
+      "title": "Non-Gaussianity from Superselection Rules",
+      "url": "http://link.aps.org/doi/10.1103/5fl9-89j4",
+      "summary": "Author(s): Nicolas Moulonguet, Eloi Descamps, José Lorgeré, Astghik Saharyan, Arne Keller, and Pérola Milman Stellar rank physically emerges from superselection rules and provides an interpretation to non-Gaussianity in …",
       "ts": 1785319200000,
       "publishedAt": "2026-07-29T10:00:00.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Realigning quantum architecture search with a top-tier-focused training paradigm for performance predictors",
-      "url": "http://link.aps.org/doi/10.1103/wz9c-h89g",
-      "summary": "Author(s): Zhimin He, Zhengjie Zeng, Haozhen Situ, Shenggen Zheng, Yan Zhou, and Lvzhou Li Quantum architecture search (QAS) has shown significant potential for automating quantum circuit design in variational quantum al…",
+      "source": "APS Physical Review Letters",
+      "title": "Tight and Self-Testing Multipartite Quantum Bell Inequalities from the Renormalization Group",
+      "url": "http://link.aps.org/doi/10.1103/993r-lzzm",
+      "summary": "Author(s): Paolo Abiuso, Julian Fischer, and Miguel Navascués Attempts to understand multipartite quantum nonlocality are thwarted by the difficulty of devising quantum Bell inequalities (QBI) for systems composed of mor…",
       "ts": 1785319200000,
       "publishedAt": "2026-07-29T10:00:00.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Local, mm-scale $^{1}\\mathrm{H}$ magnetic resonance imaging using atomic vapors",
-      "url": "http://link.aps.org/doi/10.1103/6vx4-mjx6",
-      "summary": "Author(s): Sven Bodenstedt, Morgan W. Mitchell, and Michael C. D. Tayler We demonstrate a practical and sensitive low-field approach to magnetic resonance imaging (MRI) of $\\mathrm{μ}\\mathrm{L}$-scale samples using an op…",
+      "source": "APS Physical Review Letters",
+      "title": "Universality Emerging in a Universality: Derivation of the Ericson Transition in Stochastic Quantum Scattering and Experimental Validation",
+      "url": "http://link.aps.org/doi/10.1103/3gvv-2hq6",
+      "summary": "Author(s): Simon Köhnes, Jiongning Che, Barbara Dietz, and Thomas Guhr At lower energies, the resonances in scattering experiments are often isolated. In quantum chaotic many-body, disordered, or generically stochastic s…",
       "ts": 1785319200000,
       "publishedAt": "2026-07-29T10:00:00.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "$^{12}\\mathrm{C}(γ,3α)$-induced microhotspot formation and enhancement of DNA double-strand breaks in 14.8-MeV-photon beams",
-      "url": "http://link.aps.org/doi/10.1103/kvz8-fnqq",
-      "summary": "Author(s): Resmi K. Bharathan, Midhun C. V., M. M. Musthafa, Anagha P. K., Arunima Dev T. V., Sreena M., Silpa Ajaykumar, Farhana Thesni M. P., and Arun P. V. Background: The formation and spatial distribution of $μ$-hot…",
+      "source": "APS Physical Review Letters",
+      "title": "High-Temperature Limit Penalizing High-Frequency Quantum Fluctuations",
+      "url": "http://link.aps.org/doi/10.1103/kp9j-v4ss",
+      "summary": "Author(s): Graeme Pleasance, Erik Aurell, and Francesco Petruccione We revisit the Caldeira-Leggett model of quantum Brownian motion with Ohmic spectral density, and derive an additional contribution to the decoherence k…",
       "ts": 1785319200000,
       "publishedAt": "2026-07-29T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Electrical detection of spin resonance with time resolution in a two-dimensional electron system",
-      "url": "http://link.aps.org/doi/10.1103/ffbk-qb9r",
-      "summary": "Author(s): G. A. Nikolaev, O. V. Orlov, S. A. Andreeva, Ya. V. Fedotova, A. R. Khisameeva, A. V. Shchepetilnikov, D. V. Yurasov, A. V. Novikov, and I. V. Kukushkin We report the electrical detection of the spin resonance…",
-      "ts": 1785319200000,
-      "publishedAt": "2026-07-29T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New twist on the Einstein problem reveals unexpected physics",
-      "url": "https://phys.org/news/2026-07-einstein-problem-reveals-unexpected-physics.html",
-      "summary": "A shape that captured worldwide attention for solving a decades-old mathematical puzzle has returned to the spotlight. While the shape's properties allowed it to solve previous puzzles, little is known about its other as…",
-      "ts": 1785315604000,
-      "publishedAt": "2026-07-29T09:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Repeating distance patterns let optical systems tackle large optimization problems",
-      "url": "https://phys.org/news/2026-07-distance-patterns-optical-tackle-large.html",
-      "summary": "From planning transportation networks to organizing massive datasets, many of society's most important challenges boil down to an optimization problem: finding the best solution among an enormous number of possibilities.…",
-      "ts": 1785315603000,
-      "publishedAt": "2026-07-29T09:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Japan coral protectors race to save reefs from heat 'bomb'",
-      "url": "https://phys.org/news/2026-07-japan-coral-protectors-reefs.html",
-      "summary": "From \"heat wave simulators\" to ecological boot camps, scientists and conservationists are trying ways to revive and reinforce the famous coral reefs off Japan's Okinawa, decimated by climate-driven bleaching two summers …",
-      "ts": 1785315005000,
-      "publishedAt": "2026-07-29T08:50:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "US to loosen environmental safeguards on space industry",
-      "url": "https://phys.org/news/2026-07-loosen-environmental-safeguards-space-industry.html",
-      "summary": "The United States on Tuesday said it plans to exempt its private space sector from numerous environmental regulations to accelerate the pace of space launches and ramp up competition with China.",
-      "ts": 1785315004000,
-      "publishedAt": "2026-07-29T08:50:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Scientists discover 210-million-year-old dinosaur in Zimbabwe",
-      "url": "https://phys.org/news/2026-07-scientists-million-year-dinosaur-zimbabwe.html",
-      "summary": "A newly discovered dinosaur from Zimbabwe is offering fresh clues to how the animals diversified, suggesting they spread across distinct ecosystems in southern Africa, scientists said Wednesday.",
-      "ts": 1785313859000,
-      "publishedAt": "2026-07-29T08:30:59.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New York school pauses plan to deploy humanlike AI robot teacher after backlash",
-      "url": "https://phys.org/news/2026-07-york-school-deploy-humanlike-ai.html",
-      "summary": "A school district in a rural corner of upstate New York is hitting pause on plans to deploy an AI-powered, humanoid robot in the classroom after state education officials, teachers and local residents raised concerns, in…",
-      "ts": 1785313801000,
-      "publishedAt": "2026-07-29T08:30:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Private mission to rescue NASA's aging telescope runs into its own trouble",
-      "url": "https://phys.org/news/2026-07-private-mission-nasa-aging-telescope.html",
-      "summary": "The spacecraft rushing to the rescue of an aging and sinking NASA telescope has run into its own problem.",
-      "ts": 1785312998000,
-      "publishedAt": "2026-07-29T08:16:38.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Wildfires are more extreme in Europe and North America, but global burning is oddly decreasing",
-      "url": "https://phys.org/news/2026-07-wildfires-extreme-europe-north-america.html",
-      "summary": "It seems as if the world is afire this summer. But even as wildfires in Europe and North America grow more extreme, key worldwide burning statistics are at a record low largely because Africa and Asia are controlling fir…",
-      "ts": 1785312952000,
-      "publishedAt": "2026-07-29T08:15:52.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Mosquitoes are rapidly activating enzymes against common insecticide, researchers warn",
-      "url": "https://phys.org/news/2026-07-mosquitoes-rapidly-enzymes-common-insecticide.html",
-      "summary": "Traditionally, public health programs have relied on chemicals for mosquito management, which may be why combating mosquitoes is becoming more difficult. Over time, insecticides trigger biochemical and genetic variations…",
-      "ts": 1785297603000,
-      "publishedAt": "2026-07-29T04:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The cost of memory: How organisms balance thinking and sensing",
-      "url": "https://phys.org/news/2026-07-memory.html",
-      "summary": "Remembering the past can help living organisms make better decisions, but memory comes at a cost. Whether it is an animal searching for food or a single cell responding to its surroundings, storing and using information …",
-      "ts": 1785297602000,
-      "publishedAt": "2026-07-29T04:00:02.000Z"
     }
   ],
   "sources": [
