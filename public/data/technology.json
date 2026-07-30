@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-30T21:12:53.798Z",
+  "updated": "2026-07-30T23:10:05.037Z",
   "items": [
     {
       "source": "STAT",
@@ -255,15 +255,6 @@
       "categoryId": "energy-climate"
     },
     {
-      "source": "NASA",
-      "title": "APOD: 2026 July 30 – Red Sun trough Wildfire Smoke",
-      "url": "https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke/",
-      "summary": "APOD Science APOD APOD: 2026 July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
-      "ts": 1785384300000,
-      "publishedAt": "2026-07-30T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "Is it safe to drink Red Bull and alcohol? Questionable research tied to energy drink giant has shaped policy",
       "url": "https://www.statnews.com/2026/07/30/red-bull-funded-studies-energy-drinks-alcohol-shape-policy/?utm_campaign=rss",
@@ -271,6 +262,15 @@
       "ts": 1785384300000,
       "publishedAt": "2026-07-30T04:05:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 July 30 – Red Sun trough Wildfire Smoke",
+      "url": "https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke/",
+      "summary": "APOD Science APOD APOD: 2026 July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
+      "ts": 1785384300000,
+      "publishedAt": "2026-07-30T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
