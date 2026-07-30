@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-07-30T10:26:49.379Z",
+  "updated": "2026-07-30T12:45:55.554Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: tricking LLMs, and reviving geothermal plants",
+      "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack It is impossible to…",
+      "ts": 1785413400000,
+      "publishedAt": "2026-07-30T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rocket Lab wins another launch contract from Japan’s iQPS",
+      "url": "https://spacenews.com/rocket-lab-wins-another-launch-contract-from-japans-iqps/",
+      "summary": "Rocket Lab has won another contract from Japanese radar imaging company iQPS for multiple launches of its Electron rocket. The post Rocket Lab wins another launch contract from Japan’s iQPS appeared first on SpaceNews.",
+      "ts": 1785412769000,
+      "publishedAt": "2026-07-30T11:59:29.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Ebola outbreak nears milestone, but vaccine is close ",
+      "url": "https://www.statnews.com/2026/07/30/health-news-ebola-outbreak-nears-milestone-but-vaccine-close/?utm_campaign=rss",
+      "summary": "Medicaid work rules, FTC sues Hims, and more health news from Morning Rounds",
+      "ts": 1785412188000,
+      "publishedAt": "2026-07-30T11:49:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 360 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-360-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1785406544000,
+      "publishedAt": "2026-07-30T10:15:44.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learni…",
+      "ts": 1785406519000,
+      "publishedAt": "2026-07-30T10:15:19.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Tracking the FDA expert review of Replimune’s melanoma treatment",
@@ -76,7 +121,7 @@
     },
     {
       "source": "STAT",
-      "title": "Is it safe to drink Red Bull and vodka? Questionable research tied to energy drink giant has shaped policy",
+      "title": "Is it safe to drink Red Bull and alcohol? Questionable research tied to energy drink giant has shaped policy",
       "url": "https://www.statnews.com/2026/07/30/red-bull-funded-studies-energy-drinks-alcohol-shape-policy/?utm_campaign=rss",
       "summary": "Studies tied to Red Bull helped block warning labels about drinking alcohol along with energy drinks. Independent studies report risks in mixing the two.",
       "ts": 1785384300000,
@@ -763,51 +808,6 @@
       "title": "Reading Without a Reader: Large Language Models Collapse Reading and Writing into a Single Entangled Code",
       "url": "https://arxiv.org/abs/2607.24797",
       "summary": "arXiv:2607.24797v1 Announce Type: new Abstract: In the literate human brain, reading and writing are two doubly-dissociable systems: a ventral decoding route (impaired in pure alexia) and a fronto-parietal encoding route…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Forgetting Is Not a Fix: Path Dependence in Sequential Engram Editing",
-      "url": "https://arxiv.org/abs/2607.24805",
-      "summary": "arXiv:2607.24805v1 Announce Type: new Abstract: AI Engram (Kwon et al., 2026) formalizes the four engram criteria of neuroscience as a constrained inverse problem in weight space and solves it closed-form: concept-specif…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Decoding Error-Related Potentials under Multisensory Feedback with Varying Congruency",
-      "url": "https://arxiv.org/abs/2607.24806",
-      "summary": "arXiv:2607.24806v1 Announce Type: new Abstract: Error-related potentials (ErrPs) are widely studied neural signatures associated with error processing in human-machine interaction. In realistic settings, error perception…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Path Integral Model of Cognition",
-      "url": "https://arxiv.org/abs/2607.24807",
-      "summary": "arXiv:2607.24807v1 Announce Type: new Abstract: We develop the mathematical and physical formulation of cognitive cost optimization that underlies the path-integral model of consciousness. The goal-directed cognitive pro…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EEG Emotion Recognition From AI-Generated Biodigital Architecture Images",
-      "url": "https://arxiv.org/abs/2607.24808",
-      "summary": "arXiv:2607.24808v1 Announce Type: new Abstract: Emotional responses to biodigital architecture were examined using electroencephalographic (EEG) data from AI-generated images. A pre-experiment involving 336 participants …",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "More Electrodes, Faster Minds? Rethinking Bandwidth in Brain-Computer Interfaces",
-      "url": "https://arxiv.org/abs/2607.24820",
-      "summary": "arXiv:2607.24820v1 Announce Type: new Abstract: High-bandwidth brain--computer interfaces (BCIs) can bypass damaged pathways, reduce motor costs, and improve communication and control. They also inspire visions of accele…",
       "ts": 1785297600000,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "categoryId": "bio"
