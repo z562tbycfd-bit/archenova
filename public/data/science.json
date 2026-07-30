@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-07-30T04:07:13.870Z",
+  "updated": "2026-07-30T07:35:18.289Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "From single projection to many possibilities: A new tool for climate risk assessment",
+      "url": "https://phys.org/news/2026-07-possibilities-tool-climate.html",
+      "summary": "Assessing how climate change will affect different regions usually requires running a complex chain of models. While this approach provides valuable insights, it is expensive and can cover only a limited set of scenarios…",
+      "ts": 1785391201000,
+      "publishedAt": "2026-07-30T06:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Chicken kidney sponge could be 'outstanding' at cleaning up polluted ports",
@@ -791,14 +799,6 @@
       "title": "Phase-Matching-Free Sensing with Undetected Light Using a Nonlinear Thin-Film Metasurface",
       "url": "https://arxiv.org/abs/2506.01175",
       "summary": "arXiv:2506.01175v3 Announce Type: replace Abstract: In this article, we report classical sensing with undetected light at a wavelength of 1500 nm, detected on a silicon camera at 580 nm, using four-wave mixing from a pla…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Theoretical and experimental study of the correlation between pulsed light repetition frequency and electric field measurement",
-      "url": "https://arxiv.org/abs/2508.18629",
-      "summary": "arXiv:2508.18629v2 Announce Type: replace Abstract: We propose a novel approach for improving the performance of Rydberg atom sensors by utilizing the repetition frequency of pulsed lasers, which has been validated throu…",
       "ts": 1785384000000,
       "publishedAt": "2026-07-30T04:00:00.000Z"
     }

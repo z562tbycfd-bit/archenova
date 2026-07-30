@@ -1,6 +1,61 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "ai-from-single-projection-to-many-possibilities-a-new-tool-for-climate-risk-assessm",
+    "title": "From single projection to many possibilities: A new tool for climate risk assessment",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-07-possibilities-tool-climate.html",
+    "summary": "Assessing how climate change will affect different regions usually requires running a complex chain of models. While this approach provides valuable insights, it is expensive and can cover only a limited set of scenarios…",
+    "coreInsight": "From single projection to many possibilities: A new tool for climate risk assessment indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
+    "scientificSignal": "Assessing how climate change will affect different regions usually requires running a complex chain of models. While this approach provides valuable insights, it is expensive and can cover only a limited set of scenarios…",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance"
+    ],
+    "watchpoints": [
+      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.2,
+      "engineering": 8,
+      "economic": 8.1,
+      "civilization": 9.3,
+      "overall": 8.5,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1785391201000
+  },
+  {
     "slug": "energy-is-it-safe-to-drink-red-bull-and-vodka-questionable-research-tied-to-energy-drin",
     "title": "Is it safe to drink Red Bull and vodka? Questionable research tied to energy drink giant has shaped policy",
     "category": "Energy",
@@ -4417,13 +4472,13 @@ export const generatedResearchReports =
   },
   {
     "slug": "general-un-warns-west-bank-settler-violence-hits-all-time-high-as-calls-grow-to-end-occu",
-    "title": "UN warns West Bank settler violence hits ‘all-time high’ as calls grow to end occupation'",
+    "title": "UN warns West Bank settler violence hits ‘all-time high’ as calls grow to end occupation",
     "category": "General",
     "source": "United Nations News",
     "originalUrl": "https://news.un.org/feed/view/en/story/2026/07/1168045",
-    "summary": "Violence in the occupied West Bank is worsening as the Israeli Government continues to approve new settlements, while settlers and Israeli security forces have “often” acted together to attack local Palestinian communiti…",
-    "coreInsight": "UN warns West Bank settler violence hits ‘all-time high’ as calls grow to end occupation' is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "Violence in the occupied West Bank is worsening as the Israeli Government continues to approve new settlements, while settlers and Israeli security forces have “often” acted together to attack local Palestinian communiti…",
+    "summary": "Violence in the occupied West Bank is worsening as the Israeli Government continues to approve new settlements while settlers and Israeli security forces have “often” acted together to attack local Palestinian communitie…",
+    "coreInsight": "UN warns West Bank settler violence hits ‘all-time high’ as calls grow to end occupation is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Violence in the occupied West Bank is worsening as the Israeli Government continues to approve new settlements while settlers and Israeli security forces have “often” acted together to attack local Palestinian communitie…",
     "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
     "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
     "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
