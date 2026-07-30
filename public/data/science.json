@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-07-30T07:35:18.289Z",
+  "updated": "2026-07-30T10:26:43.508Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The trillion-dollar question behind corporate net-zero pledges",
+      "url": "https://phys.org/news/2026-07-trillion-dollar-corporate-net-pledges.html",
+      "summary": "Corporate climate spending now steers trillions of dollars in transition finance worldwide. Does it drive genuine climate action? Research shows that accounting flexibility alone can make a company's reported emissions v…",
+      "ts": 1785402003000,
+      "publishedAt": "2026-07-30T09:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Meet the astronomer digging into the Milky Way's 'fossils'",
+      "url": "https://phys.org/news/2026-07-astronomer-milky-fossils.html",
+      "summary": "Amina Helmi's passion for the Milky Way is clear as soon as one steps into her small office at the University of Groningen, in the north of the Netherlands.",
+      "ts": 1785400201000,
+      "publishedAt": "2026-07-30T08:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rain dampens France fire, as Spain reports 'almost no flames'",
+      "url": "https://phys.org/news/2026-07-dampens-france-spain-flames.html",
+      "summary": "Firefighters in France on Thursday were hopeful a massive forest fire was no longer spreading, as Spain said there were \"almost no flames\" left after a similar blaze near Madrid.",
+      "ts": 1785399273000,
+      "publishedAt": "2026-07-30T08:14:33.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "From single projection to many possibilities: A new tool for climate risk assessment",
@@ -775,30 +799,6 @@
       "title": "Non-invasive super-resolution imaging through scattering media using highly nonlinear labels",
       "url": "https://arxiv.org/abs/2504.10423",
       "summary": "arXiv:2504.10423v4 Announce Type: replace Abstract: While scattered light conveys most of the information we perceive, scattering may also distort that information before it reaches our detectors. The problem is acute in…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modelling droplet-particle interactions on solid surfaces by coupling the lattice Boltzmann and discrete element methods",
-      "url": "https://arxiv.org/abs/2505.10171",
-      "summary": "arXiv:2505.10171v2 Announce Type: replace Abstract: We develop a three-dimensional numerical scheme for investigating interfacial flows coupled with frictional solid particles. Our approach combines the lattice Boltzmann…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reproducing the first and second moments of empirical degree distributions",
-      "url": "https://arxiv.org/abs/2505.10373",
-      "summary": "arXiv:2505.10373v5 Announce Type: replace Abstract: The study of probabilistic models for the analysis of complex networks represents a flourishing research field. Among the former, Exponential Random Graphs (ERGs) have …",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase-Matching-Free Sensing with Undetected Light Using a Nonlinear Thin-Film Metasurface",
-      "url": "https://arxiv.org/abs/2506.01175",
-      "summary": "arXiv:2506.01175v3 Announce Type: replace Abstract: In this article, we report classical sensing with undetected light at a wavelength of 1500 nm, detected on a silicon camera at 580 nm, using four-wave mixing from a pla…",
       "ts": 1785384000000,
       "publishedAt": "2026-07-30T04:00:00.000Z"
     }

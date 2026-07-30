@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-07-30T07:35:20.312Z",
+  "updated": "2026-07-30T10:26:49.379Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Tracking the FDA expert review of Replimune’s melanoma treatment",
+      "url": "https://www.statnews.com/2026/07/30/replimune-melanoma-drug-rp1-fda-expert-meeting-live-blog/?utm_campaign=rss",
+      "summary": "STAT is live-blogging a meeting of FDA experts to review Replimune’s experimental melanoma drug, RP1.",
+      "ts": 1785405600000,
+      "publishedAt": "2026-07-30T10:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Chronically ill people face confusion over new Medicaid work rules and ‘medically frail’ exemption",
+      "url": "https://www.statnews.com/2026/07/30/medicaid-work-requirements-medical-frailty-exemption-coverage-loss/?utm_campaign=rss",
+      "summary": "Patients, advocates, and experts fear the difficulty in documenting a frailty exemption to Medicaid work requirements will lead to millions losing coverage.",
+      "ts": 1785400200000,
+      "publishedAt": "2026-07-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: U.S. dependence on China is a national security risk",
+      "url": "https://www.statnews.com/2026/07/30/china-us-pharmaceutical-supply-chain-national-security-risk/?utm_campaign=rss",
+      "summary": "“China is overtly seeking to displace U.S. leadership across the innovative biopharmaceutical value chain,” write authors of a Council on Foreign Relations report.",
+      "ts": 1785400200000,
+      "publishedAt": "2026-07-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Ten years after WHO recognition, mycetoma remains one of the world’s most neglected diseases",
+      "url": "https://www.statnews.com/2026/07/30/mycetoma-who-neglected-disease-research-sudan/?utm_campaign=rss",
+      "summary": "“The next 10 years of mycetoma care will determine whether it remains a story of neglect or becomes one of collective action,” writes Borna Nyaoke-Anoke.",
+      "ts": 1785400200000,
+      "publishedAt": "2026-07-30T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Johnson Interns Shaping the Future of Exploration ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-interns-shaping-the-future-of-exploration/",
+      "summary": "NASA interns at Johnson Space Center are applying their talents to real-world projects while working alongside the engineers, scientists, communicators, and innovators advancing human spaceflight. Learn how these student…",
+      "ts": 1785398935000,
+      "publishedAt": "2026-07-30T08:08:55.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "SMOS salinity could offer early indicator of El Niño",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/SMOS_salinity_could_offer_early_indicator_of_El_Nino",
+      "summary": "As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity – which is another key indicator of this phenomenon. Measurements from satelli…",
+      "ts": 1785396000000,
+      "publishedAt": "2026-07-30T07:20:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Tritium Level Far Below Japan’s Operational Limit in 22nd Batch of ALPS Treated Water, IAEA Confirms",
+      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-22nd-batch-of-alps-treated-water-iaea-confirms",
+      "summary": "",
+      "ts": 1785393068000,
+      "publishedAt": "2026-07-30T06:31:08.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: July 30 – Red Sun trough Wildfire Smoke",
+      "url": "https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke/",
+      "summary": "APOD Science APOD APOD: July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1785384300000,
+      "publishedAt": "2026-07-30T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Is it safe to drink Red Bull and vodka? Questionable research tied to energy drink giant has shaped policy",
@@ -10,6 +82,15 @@
       "ts": 1785384300000,
       "publishedAt": "2026-07-30T04:05:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "New Zealand’s Southern Wilderness",
+      "url": "https://science.nasa.gov/earth/earth-observatory/new-zealands-southern-wilderness/",
+      "summary": "Stewart Island/Rakiura, New Zealand’s third-largest island, is known for its vibrant birdlife, unique forests, wilderness beaches, and views of the night sky.",
+      "ts": 1785384060000,
+      "publishedAt": "2026-07-30T04:01:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -727,87 +808,6 @@
       "title": "More Electrodes, Faster Minds? Rethinking Bandwidth in Brain-Computer Interfaces",
       "url": "https://arxiv.org/abs/2607.24820",
       "summary": "arXiv:2607.24820v1 Announce Type: new Abstract: High-bandwidth brain--computer interfaces (BCIs) can bypass damaged pathways, reduce motor costs, and improve communication and control. They also inspire visions of accele…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Foundation Models for EEG Are Blind to Long-Range Temporal Correlations: A Spectral-Temporal Dissociation Behind Their Cross-Population Fragility",
-      "url": "https://arxiv.org/abs/2607.24834",
-      "summary": "arXiv:2607.24834v1 Announce Type: new Abstract: Objective. Electroencephalography (EEG) foundation models (FMs) are trained to reconstruct or contrastively align short patches, then pooled into a fixed embedding. We test…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Beyond Predictive Accuracy: A Reliability-Aware Audit of Molecular Representations for Human Olfaction",
-      "url": "https://arxiv.org/abs/2607.24848",
-      "summary": "arXiv:2607.24848v1 Announce Type: new Abstract: Pretrained molecular encoders are commonly evaluated through downstream prediction, but predictive accuracy alone does not establish that a learned representation captures …",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Hierarchical Validity-Audit Framework for Neural Mass Models in Simulation-Based Inference: From Observational Coverage to Mechanistic Interpretation",
-      "url": "https://arxiv.org/abs/2607.24874",
-      "summary": "arXiv:2607.24874v1 Announce Type: new Abstract: Neural mass models describe population level neural activity using low-dimensional dynamical parameters and, through simulation-based inference, enable posterior estimation…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GraphRareBench: An Auditable Graph-Evidence Benchmark for Phenotype-Driven Rare-Disease Diagnosis",
-      "url": "https://arxiv.org/abs/2607.24878",
-      "summary": "arXiv:2607.24878v1 Announce Type: new Abstract: Phenotype-driven diagnostic benchmarks usually report the rank of the reference disease, but they rarely reveal which plausible alternatives are ranked above it or what evi…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Neural Network model of Cultural Evolution",
-      "url": "https://arxiv.org/abs/2607.24886",
-      "summary": "arXiv:2607.24886v1 Announce Type: new Abstract: It has been proposed (Richerson and Boyd, 2008) that human intelligence is underpinned by a ratchet-like process called Cultural Evolution in which ideas, originated by ind…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "When Branch-Local Shunting Helps: A Gain-Load-Alignment Principle for Dendritic E/I Networks",
-      "url": "https://arxiv.org/abs/2607.24990",
-      "summary": "arXiv:2607.24990v1 Announce Type: new Abstract: Biological neurons combine excitatory and inhibitory (E/I) activity on branched dendrites through shunting, in which inhibition divisively attenuates excitation. Whether th…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Tuning-Free Variational Framework for Muscle Redundancy Resolution: Torque Fiber Proximal Dynamics with Active-Set Switching and EMG-Validated Activation Prediction",
-      "url": "https://arxiv.org/abs/2607.25013",
-      "summary": "arXiv:2607.25013v1 Announce Type: new Abstract: Muscle redundancy can be formulated as a constrained selection on a time-varying convex set of feasible activations. We introduce Torque Fiber Proximal Dynamics (TFPD), whe…",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A universal multi-turnpike principle for optimal allocation of translational resources",
-      "url": "https://arxiv.org/abs/2607.25043",
-      "summary": "arXiv:2607.25043v1 Announce Type: new Abstract: mRNA translation in the cell requires efficient allocation of shared and limited resources including free ribosomes, tRNA molecules, and initiation factors across multiple …",
-      "ts": 1785297600000,
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Persistent Manifold Learning of Protein Properties",
-      "url": "https://arxiv.org/abs/2607.25115",
-      "summary": "arXiv:2607.25115v1 Announce Type: new Abstract: Predicting how tightly two biomolecules bind remains a major challenge, in part because different interaction classes present dissimilar interfaces, from compact metal-coor…",
       "ts": 1785297600000,
       "publishedAt": "2026-07-29T04:00:00.000Z",
       "categoryId": "bio"
