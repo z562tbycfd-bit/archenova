@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-30T19:30:27.131Z",
+  "updated": "2026-07-30T21:12:53.798Z",
   "items": [
     {
       "source": "STAT",
@@ -64,6 +64,15 @@
       "ts": 1785431400000,
       "publishedAt": "2026-07-30T17:10:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Assigns Astronaut Deniz Burnham to First Space Station Mission",
+      "url": "https://www.nasa.gov/news-release/nasa-assigns-astronaut-deniz-burnham-to-first-space-station-mission/",
+      "summary": "NASA astronaut Deniz Burnham will embark on her first mission to the International Space Station, serving as an Expedition 76 flight engineer. Burnham will launch aboard the Roscosmos Soyuz MS-30 spacecraft with cosmonau…",
+      "ts": 1785427901000,
+      "publishedAt": "2026-07-30T16:11:41.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -184,7 +193,7 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Tracking the FDA expert review of Replimune’s melanoma treatment",
+      "title": "STAT+: FDA expert committee votes in favor of Replimune’s melanoma treatment",
       "url": "https://www.statnews.com/2026/07/30/replimune-melanoma-drug-rp1-fda-expert-meeting-live-blog/?utm_campaign=rss",
       "summary": "STAT is live-blogging a meeting of FDA experts to review Replimune’s experimental melanoma drug, RP1.",
       "ts": 1785405600000,
@@ -246,6 +255,15 @@
       "categoryId": "energy-climate"
     },
     {
+      "source": "NASA",
+      "title": "APOD: 2026 July 30 – Red Sun trough Wildfire Smoke",
+      "url": "https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke/",
+      "summary": "APOD Science APOD APOD: 2026 July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
+      "ts": 1785384300000,
+      "publishedAt": "2026-07-30T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "Is it safe to drink Red Bull and alcohol? Questionable research tied to energy drink giant has shaped policy",
       "url": "https://www.statnews.com/2026/07/30/red-bull-funded-studies-energy-drinks-alcohol-shape-policy/?utm_campaign=rss",
@@ -253,15 +271,6 @@
       "ts": 1785384300000,
       "publishedAt": "2026-07-30T04:05:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: July 30 – Red Sun trough Wildfire Smoke",
-      "url": "https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke/",
-      "summary": "APOD Science APOD APOD: July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
-      "ts": 1785384300000,
-      "publishedAt": "2026-07-30T04:05:00.000Z",
-      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -799,15 +808,6 @@
       "title": "World News in Brief: Rohingya refugees, Bahá’ís in Iran, disarmament in the Central African Republic",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168049",
       "summary": "Independent UN experts on Wednesday called for urgent action to support Rohingya refugees in Bangladesh after reports indicated two boats carrying more than 500 passengers may have capsized off the coast of Myanmar in mi…",
-      "ts": 1785326400000,
-      "publishedAt": "2026-07-29T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Cyprus: Guterres calls for renewed trust and a new meeting on the way forward",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168048",
-      "summary": "The United Nations Secretary-General said on Wednesday that he plans to convene fresh talks on Cyprus to resolve the decades-long division on the Mediterranean island, stressing that the moment calls for rebuilding trust…",
       "ts": 1785326400000,
       "publishedAt": "2026-07-29T12:00:00.000Z",
       "categoryId": "global-governance"

@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-07-30T19:30:24.850Z",
+  "updated": "2026-07-30T21:12:50.470Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Redistributing sunlight boosts algae biomass productivity sixfold",
+      "url": "https://phys.org/news/2026-07-redistributing-sunlight-boosts-algae-biomass.html",
+      "summary": "Algae are increasingly being explored as sustainable \"living factories\" that can convert sunlight and carbon dioxide into renewable fuels, plastics, pharmaceuticals and other valuable products.",
+      "ts": 1785445802000,
+      "publishedAt": "2026-07-30T21:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "ATPγS recycling opens cheaper pathways to increased drug stability",
+      "url": "https://phys.org/news/2026-07-atps-recycling-cheaper-pathways-drug.html",
+      "summary": "Pharmaceutical drugs often rely on chemical compounds found in the body. Take phosphate, a common compound cells use as a chemical switch. In a process called phosphorylation, cells can add a phosphate to a molecule and …",
+      "ts": 1785445208000,
+      "publishedAt": "2026-07-30T21:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Italy's Po River valley on drought alert",
+      "url": "https://phys.org/news/2026-07-italy-po-river-valley-drought.html",
+      "summary": "Italian authorities raised the drought alert level to \"high\" Thursday in the Po Valley, home to the country's longest river, because of worsening conditions and unfavorable weather forecasts.",
+      "ts": 1785445201000,
+      "publishedAt": "2026-07-30T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spectroscopy system detects aerosols using light reflected from traffic signs and tree trunks",
+      "url": "https://phys.org/news/2026-07-spectroscopy-aerosols-traffic-tree-trunks.html",
+      "summary": "Researchers have developed and tested an infrared spectroscopy system that can rapidly detect chemical aerosols from a distance by using light reflected from common surfaces such as traffic signs, tree trunks or painted …",
+      "ts": 1785444601000,
+      "publishedAt": "2026-07-30T20:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Combined rattlesnake proteins prove 10 times more potent than current antivenom in lab tests",
+      "url": "https://phys.org/news/2026-07-combined-rattlesnake-proteins-potent-current.html",
+      "summary": "University of Maryland researchers discovered a new approach to treating venomous snakebites—using the same toxin-blocking proteins that snakes evolved to protect themselves. The team found that specific combinations of …",
+      "ts": 1785444005000,
+      "publishedAt": "2026-07-30T20:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Firefighters battle to contain deadly Crete blaze in Greece",
+      "url": "https://phys.org/news/2026-07-firefighters-deadly-crete-blaze-greece.html",
+      "summary": "Greece on Thursday battled to contain a spate of wildfires, including one on the tourist island of Crete that forced thousands of residents and holidaymakers to evacuate and left three firefighters dead.",
+      "ts": 1785444003000,
+      "publishedAt": "2026-07-30T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cesium atoms and quantum dots generate indistinguishable photons for modular quantum networks",
+      "url": "https://phys.org/news/2026-07-cesium-atoms-quantum-dots-generate.html",
+      "summary": "Large-scale quantum communication networks require both reliable quantum memories and coherent single-photon sources that can exchange quantum information efficiently. A coherent source of single photons with narrow line…",
+      "ts": 1785442807000,
+      "publishedAt": "2026-07-30T20:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "France, Spain eye wildfire reprieve as other blazes start up in Europe",
+      "url": "https://phys.org/news/2026-07-france-spain-eye-wildfire-reprieve.html",
+      "summary": "France and Spain on Thursday glimpsed a reprieve from some of the worst wildfires in living memory, which have sent hundreds of thousands of people fleeing—among them Hollywood star George Clooney and his wife, Amal.",
+      "ts": 1785442804000,
+      "publishedAt": "2026-07-30T20:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mammoth bones found on parched bed of Danube in Bulgaria",
+      "url": "https://phys.org/news/2026-07-mammoth-bones-parched-bed-danube.html",
+      "summary": "Sinking water levels in the Danube River have unveiled mammoth bones in Bulgaria and could lead to further discoveries, a local museum director told AFP on Thursday.",
+      "ts": 1785442204000,
+      "publishedAt": "2026-07-30T20:10:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electrically controlled magnetic switching shows promise for next-gen cryogenic devices",
+      "url": "https://phys.org/news/2026-07-electrically-magnetic-gen-cryogenic-devices.html",
+      "summary": "Researchers at the Indian Institute of Science (IISc) have demonstrated a new way of switching a material between two fundamentally different magnetic states using an electric current. The discovery could pave the way fo…",
+      "ts": 1785442201000,
+      "publishedAt": "2026-07-30T20:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient Chinese seeds spanning 5,000 years train AI to ease archaeology's specialist bottleneck",
+      "url": "https://phys.org/news/2026-07-ancient-chinese-seeds-spanning-years.html",
+      "summary": "Ancient plant seeds provide important archaeological evidence for studying the evolution of human civilization. Lingnan University and Shandong University have jointly developed the world's first artificial intelligence …",
+      "ts": 1785441609000,
+      "publishedAt": "2026-07-30T20:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Meet WOMBATlite, the model helping researchers follow the ocean's carbon",
+      "url": "https://phys.org/news/2026-07-wombatlite-ocean-carbon.html",
+      "summary": "The ocean absorbs roughly a quarter of humanity's carbon dioxide emissions each year. Understanding how that happens, and how it might change, is essential for predicting our climate's future. To do that, scientists need…",
+      "ts": 1785441607000,
+      "publishedAt": "2026-07-30T20:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Black hole feeding frenzy ends in lingering cosmic indigestion",
+      "url": "https://phys.org/news/2026-07-black-hole-frenzy-lingering-cosmic.html",
+      "summary": "Black holes are often portrayed as cosmic gluttons that swallow everything that comes too close. But new observations of a dramatic black hole outburst—led by Warwick Postdoctoral Fellow Dr. Noel Castro Segura—suggest th…",
+      "ts": 1785440405000,
+      "publishedAt": "2026-07-30T19:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Connecting surface-level observations to molecular-level data uncovers plant stress coping mechanism",
+      "url": "https://phys.org/news/2026-07-surface-molecular-uncovers-stress-coping.html",
+      "summary": "Unlike humans, plants cannot make simple lifestyle adjustments to adapt to changing environments. When exposed to conditions like extreme heat or water scarcity, instead of putting on sweaters or turning on air condition…",
+      "ts": 1785440403000,
+      "publishedAt": "2026-07-30T19:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Image: Starburst galaxy Centaurus A",
@@ -687,118 +799,6 @@
       "title": "One dimensional high-order moment models with realistic collisions for nonequilibrium ion transport in weakly ionized plasmas",
       "url": "https://arxiv.org/abs/2607.26557",
       "summary": "arXiv:2607.26557v1 Announce Type: new Abstract: Ion-neutral collisions are fundamental in the transport of partially ionized plasmas. When collisional scales are comparable to the system scales or the electric field is s…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cherenkov Diffraction Radiation Interferometry for Beam Divergence Diagnostics",
-      "url": "https://arxiv.org/abs/2607.26573",
-      "summary": "arXiv:2607.26573v1 Announce Type: new Abstract: Cherenkov radiation (ChR) is widely used in charged-beam diagnostics, including bunch-length measurements and beam-loss monitoring. Synchrotron radiation (SR) interferometr…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Signature of Magnon-Raman Phonon-Polariton Condensation in a Cavity via Transverse Pumping",
-      "url": "https://arxiv.org/abs/2607.26601",
-      "summary": "arXiv:2607.26601v1 Announce Type: new Abstract: Polaritons---hybrid light-matter quasiparticles---provide a versatile platform for dynamically controlling a wide range of condensed matter systems. While conventional pola…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structure of System-Specific Hazard Modeling for Physical Infrastructures in a Climate Change Context",
-      "url": "https://arxiv.org/abs/2607.26629",
-      "summary": "arXiv:2607.26629v1 Announce Type: new Abstract: This paper addresses the definition and modeling of hazards in the context of physical systems, particularly infrastructures, that are affected by climate change. The paper…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resolving multiple layer thicknesses and birefringence in thin films with an optical in-line Roll-to-Roll characterization setup",
-      "url": "https://arxiv.org/abs/2607.26649",
-      "summary": "arXiv:2607.26649v1 Announce Type: new Abstract: Optical techniques provide a fast and flexible path to material inspection. In particular, the investigation of key metrics during material production can help obtain the o…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extracting informative vortical structures of turbulent wake-extreme vortex gust interactions with machine learning",
-      "url": "https://arxiv.org/abs/2607.26683",
-      "summary": "arXiv:2607.26683v1 Announce Type: new Abstract: This study considers extracting causally important vortical structures from the extreme vortex gust-airfoil interaction at a chord-based Reynolds number of $5000$. This ext…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reinforcement Learning applied to Optimization of LHC beams in the CERN Proton Synchrotron",
-      "url": "https://arxiv.org/abs/2607.26697",
-      "summary": "arXiv:2607.26697v1 Announce Type: new Abstract: The longitudinal triple splitting in the CERN Proton Synchrotron (PS) is a key rf manipulation defining the 25 ns bunch spacing delivered to the Large Hadron Collider (LHC)…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Amplitude-based echo-mode speed-of-sound tomography",
-      "url": "https://arxiv.org/abs/2607.26721",
-      "summary": "arXiv:2607.26721v1 Announce Type: new Abstract: The tissue's speed of sound (SoS) is a promising marker for non-invasive and zero-dose diagnosis of diseases such as cancer or liver steatosis. Computed ultrasound tomograp…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Platicon purification in self-injection locking regime via gain switching",
-      "url": "https://arxiv.org/abs/2607.26727",
-      "summary": "arXiv:2607.26727v1 Announce Type: new Abstract: Integrated photonic devices leveraging optical frequency microcombs have emerged as essential instruments for modern photonic systems, prized for their chip-scale footprint…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Preparing Small Gaussian Basis for Highly Accurate Ab Initio Description of Lithium Rydberg States",
-      "url": "https://arxiv.org/abs/2607.26728",
-      "summary": "arXiv:2607.26728v1 Announce Type: new Abstract: A new small and highly accurate Gaussian basis set has been developed for the ab initio description of $^2$Li Rydberg excited states up to $n = 7$ and S, P, D, F, and G ang…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The CROSS experiment: detector construction, background projection, and sensitivity to $^{100}$Mo $0\\nu2\\beta$ decay",
-      "url": "https://arxiv.org/abs/2607.26732",
-      "summary": "arXiv:2607.26732v1 Announce Type: new Abstract: The CROSS experiment to search for neutrinoless double-beta ($0\\nu2\\beta$) decay in $^{100}$Mo with the help of an array of scintillating cryogenic calorimeters, containing…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Demonstration of a High-Q Subwavelength Dielectric Nanocylinder",
-      "url": "https://arxiv.org/abs/2607.26744",
-      "summary": "arXiv:2607.26744v1 Announce Type: new Abstract: The development of subwavelength dielectric cavities is essential for reducing the size of photonic devices and enabling dense optoelectronic integration. However, previous…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhancing hydrogen production in alkaline electrolyzers by using an ultra-fast kinetics surfactant",
-      "url": "https://arxiv.org/abs/2607.26750",
-      "summary": "arXiv:2607.26750v1 Announce Type: new Abstract: We study the effect of surfactant adsorption kinetics on water electrolysis performance using Surfynol 465, an ultrafast-kinetics surfactant. High-speed optical diagnostics…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Twin reflections from a moving space-time boundary",
-      "url": "https://arxiv.org/abs/2607.26778",
-      "summary": "arXiv:2607.26778v1 Announce Type: new Abstract: An interluminal interface, a space-time boundary propagating at a velocity between the group velocities of the surrounding media, enables extraordinary wave phenomena such …",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Navigation driven by bidirectional information transmission between sensing and actuation",
-      "url": "https://arxiv.org/abs/2607.26798",
-      "summary": "arXiv:2607.26798v1 Announce Type: new Abstract: A wide variety of biological functions are driven by feedback between sensing and actuation. A paradigmatic example is cellular navigation. During navigation, the sensory s…",
       "ts": 1785384000000,
       "publishedAt": "2026-07-30T04:00:00.000Z"
     }
