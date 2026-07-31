@@ -1,7 +1,196 @@
 {
   "ok": true,
-  "updated": "2026-07-31T03:14:45.329Z",
+  "updated": "2026-07-31T06:46:16.939Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 July 31 – NGC 4372 and the Dark Doodad",
+      "url": "https://science.nasa.gov/image-article/apod-2026-july-31-ngc-4372-and-the-dark-doodad/",
+      "summary": "APOD Science APOD APOD: 2026 July 31 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogra…",
+      "ts": 1785470700000,
+      "publishedAt": "2026-07-31T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Destructive Fires Char Western Europe",
+      "url": "https://science.nasa.gov/earth/earth-observatory/destructive-fires-char-western-europe/",
+      "summary": "Raging wildfires disrupted summer in Spain and France amid sweltering heat waves and prolonged drought.",
+      "ts": 1785470460000,
+      "publishedAt": "2026-07-31T04:01:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "PlantBGC: Transformer for Plant BGC Discovery via Label-Free Domain Adaptation and Weak Supervision",
+      "url": "https://arxiv.org/abs/2607.27258",
+      "summary": "arXiv:2607.27258v1 Announce Type: new Abstract: Plant biosynthetic gene clusters (BGCs) encode specialized-metabolite pathways, yet curated plant BGC labels remain scarce, hindering supervised discovery at genome scale. …",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "IndelFreeAligner: A Streaming Aligner for Comprehensive Gapless Alignment Against Terabase-Scale References",
+      "url": "https://arxiv.org/abs/2607.27291",
+      "summary": "arXiv:2607.27291v1 Announce Type: new Abstract: The comparison of short sequences to massive reference databases is a cornerstone of modern genomics, but it presents a significant scalability challenge. Traditional align…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Identifying common backbones of interactions underlying food webs via non-deterministic alignments",
+      "url": "https://arxiv.org/abs/2607.27496",
+      "summary": "arXiv:2607.27496v1 Announce Type: new Abstract: Climate change reshapes food webs by altering species distributions and interactions, making it essential to identify structural backbones of interactions that persist acro…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The evolution of cooperation under imperfect phenotypic recognition",
+      "url": "https://arxiv.org/abs/2607.27570",
+      "summary": "arXiv:2607.27570v1 Announce Type: new Abstract: Phenotypic similarity is a classical mechanism for the evolution of cooperation. Most existing models assume a binary rule in which individuals cooperate only with others o…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Evolutionary adaptation through bet-hedging in finite populations under fluctuating environments",
+      "url": "https://arxiv.org/abs/2607.27983",
+      "summary": "arXiv:2607.27983v1 Announce Type: new Abstract: Natural populations evolve under fluctuating environments and limited resources, yet it is unclear how these factors jointly shape adaptation. Here, we introduce a minimal …",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A data-driven stage-structured host-parasitoid model for optimizing Trichogramma interventions against soybean pod borer (Leguminivora glycinivorella) outbreaks",
+      "url": "https://arxiv.org/abs/2607.28053",
+      "summary": "arXiv:2607.28053v1 Announce Type: new Abstract: The soybean pod borer (Leguminivora glycinivorella) poses a severe threat to global soybean production.In this study, we developed a stage-structured host-parasitoid dynami…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Stimulus-Evoked Network Dynamics in Human Cortical Organoids: From a Graph-Computational Framework to Repeated-Stimulation Depression",
+      "url": "https://arxiv.org/abs/2607.28068",
+      "summary": "arXiv:2607.28068v1 Announce Type: new Abstract: Human cortical organoids provide an experimentally accessible model of early neural circuit formation, yet whether their activity reflects structured information processing…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Hash Chemistry: Minimal Models for Evolutionary Growth of Complexity",
+      "url": "https://arxiv.org/abs/2607.28219",
+      "summary": "arXiv:2607.28219v1 Announce Type: new Abstract: Hash Chemistry is a family of minimalistic evolutionary models in which a deterministic hash function assigns a scalar score to entities of arbitrary size, opening a combin…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Causal Architecture Dynamics Prior to Arrival of Self-replicators in a Model of Catalytic Networks Relevant to Origin-of-Life",
+      "url": "https://arxiv.org/abs/2607.28250",
+      "summary": "arXiv:2607.28250v1 Announce Type: new Abstract: Agents that exert causal power in the world are thought to be the product of selection among diverse replicators; what is the causal structure of a medium before replicator…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Multi-scale measures of time-varying epidemic spread on human mobility networks",
+      "url": "https://arxiv.org/abs/2607.28514",
+      "summary": "arXiv:2607.28514v1 Announce Type: new Abstract: Human movement drives the spatial spread and persistence of many infectious diseases, yet existing theory and real-time operational tools for inferring the instantaneous re…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "ZUNA1.1: A more flexible EEG foundation model for Denoising and Super-resolution",
+      "url": "https://arxiv.org/abs/2607.27308",
+      "summary": "arXiv:2607.27308v1 Announce Type: cross Abstract: We introduce ZUNA1.1, a 380M-parameter diffusion autoencoder for flexible EEG signal reconstruction. ZUNA1.1 is capable of reconstructing variable length sequences of up …",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Using Theory of Mind to Arbitrate between Social and Non-social Learning",
+      "url": "https://arxiv.org/abs/2607.28601",
+      "summary": "arXiv:2607.28601v1 Announce Type: cross Abstract: Social learning is a powerful mechanism through which agents learn about the world from others. However, humans sometimes choose direct experience over social learning, w…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "KAISEN: Reproducible Subgroup Fairness Auditing for Clinical Risk Models",
+      "url": "https://arxiv.org/abs/2607.28608",
+      "summary": "arXiv:2607.28608v1 Announce Type: cross Abstract: Clinical risk models routinely achieve strong aggregate performance while producing materially different error rates across patient subgroups. Audit pipelines have been p…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Descriptive power and predictive limits of a discrete Hasimoto--DNLS model of protein backbone structure",
+      "url": "https://arxiv.org/abs/2602.13160",
+      "summary": "arXiv:2602.13160v2 Announce Type: replace Abstract: Determining 3D protein structure from sequence remains a fundamental biophysical challenge. The C$_\\alpha$ backbone's discrete Frenet geometry maps, via a Hasimoto tran…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Reading Without a Reader: Large Language Models Collapse Reading and Writing into a Single Entangled Code",
+      "url": "https://arxiv.org/abs/2607.24797",
+      "summary": "arXiv:2607.24797v2 Announce Type: replace Abstract: In the literate human brain, reading and writing doubly dissociate: a ventral decoding route (pure alexia) and a fronto-parietal encoding route (pure agraphia), sharing…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Dissecting Microbial Community Structure and Heterogeneity via Multivariate Covariate-Adjusted Clustering",
+      "url": "https://arxiv.org/abs/2508.11036",
+      "summary": "arXiv:2508.11036v2 Announce Type: replace-cross Abstract: In microbiome studies, it is often of great interest to identify clusters or partitions of microbiome profiles within a study population and to characterize the d…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Absement: Quantitative Assessment of Metabolic Cost during Quasi-Isometric Muscle Loading",
+      "url": "https://arxiv.org/abs/2512.13720",
+      "summary": "arXiv:2512.13720v2 Announce Type: replace-cross Abstract: Small deviations during nominally isometric loading can be separated into a sustained mean offset and fluctuations about that offset. We develop a local quasi-sta…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Operator splitting for exploiting linear-rate closure in solving infinite ODE hierarchies",
+      "url": "https://arxiv.org/abs/2605.17186",
+      "summary": "arXiv:2605.17186v2 Announce Type: replace-cross Abstract: We introduce an operator-splitting method for infinite hierarchies of linear ordinary differential equations (ODEs) indexed by nonnegative integers. When the coup…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Matter of Time: Towards a General Theory of Agency",
+      "url": "https://arxiv.org/abs/2606.23122",
+      "summary": "arXiv:2606.23122v2 Announce Type: replace-cross Abstract: Agency is widely invoked in biology, cognitive science, artificial intelligence, and philosophy, yet its organizational basis, its empirical thresholds, and the o…",
+      "ts": 1785470400000,
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Rules of the road needed for orbital data center constellations",
@@ -19,6 +208,15 @@
       "ts": 1785453456000,
       "publishedAt": "2026-07-30T23:17:36.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Students Take on Airborne Field Research with NASA",
+      "url": "https://science.nasa.gov/earth/students-take-on-airborne-field-research-with-nasa/",
+      "summary": "The gusty wind didn’t make it easy to hold tight to a balloon so large. The balloon, a scientific instrument called an ozonesonde, was about to be released into the atmosphere above the Texas Gulf Coast by students from …",
+      "ts": 1785443816000,
+      "publishedAt": "2026-07-30T20:36:56.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -271,6 +469,15 @@
       "ts": 1785393068000,
       "publishedAt": "2026-07-30T06:31:08.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 July 30 – Red Sun trough Wildfire Smoke",
+      "url": "https://science.nasa.gov/image-article/apod/apod-july-30-red-sun-trough-wildfire-smoke/",
+      "summary": "APOD Science APOD APOD: 2026 July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
+      "ts": 1785384300000,
+      "publishedAt": "2026-07-30T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -604,213 +811,6 @@
       "ts": 1785351657000,
       "publishedAt": "2026-07-29T19:00:57.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Hims misled consumers and violated their privacy, FTC alleges in a lawsuit",
-      "url": "https://www.statnews.com/2026/07/29/ftc-lawsuit-hims-alleging-deceptive-business-practices/?utm_campaign=rss",
-      "summary": "The U.S. Federal Trade Commission sued telehealth company Hims & Hers alleging business practices that agency says misled consumers.",
-      "ts": 1785350733000,
-      "publishedAt": "2026-07-29T18:45:33.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How an overlooked geothermal plant got a second chance",
-      "url": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
-      "summary": "In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant unecono…",
-      "ts": 1785347924000,
-      "publishedAt": "2026-07-29T17:58:44.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Sets Coverage for August Northern Hemisphere Total Solar Eclipse",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-august-northern-hemisphere-total-solar-eclipse/",
-      "summary": "On Wednesday, Aug. 12, a total solar eclipse will be visible in parts of Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of Portugal. NASA will stream the eclipse live with views across…",
-      "ts": 1785343777000,
-      "publishedAt": "2026-07-29T16:49:37.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Curiosity Views a Sand-Capped Butte",
-      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-views-a-sand-capped-butte/",
-      "summary": "Description NASA’s Curiosity Mars rover captured this sand-capped butte, nicknamed “Miraflores,” estimated to be about 20 feet (6 meters) tall, with its Mast Camera, or Mastcam, on June 11, 2026, the 4,923rd Martian day,…",
-      "ts": 1785341292000,
-      "publishedAt": "2026-07-29T16:08:12.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Curiosity Discovers a Field of Martian Polygons",
-      "url": "https://science.nasa.gov/photojournal/nasas-curiosity-discovers-a-field-of-martian-polygons/",
-      "summary": "Description NASA’s Curiosity Mars rover captured this 360-degree view of an expanse of terrain covered in surface features called polygons on June 19 and 20, 2026, the 4,930th and 4,931st Martian days, or sols, of the mi…",
-      "ts": 1785341199000,
-      "publishedAt": "2026-07-29T16:06:39.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Large Bioprinted Tissues Get a Precision Boost",
-      "url": "https://www.genengnews.com/topics/bioprocessing/large-bioprinted-tissues-get-a-precision-boost/",
-      "summary": "A new perfusion-bioreactor platform developed by researchers in France offers tighter control of large bioprinted tissue cultures, combining regulated growth conditions with MRI monitoring to improve reproducibility and …",
-      "ts": 1785340852000,
-      "publishedAt": "2026-07-29T16:00:52.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Downstream Purification Platform Breaks Complex Vector Bottleneck",
-      "url": "https://www.genengnews.com/topics/bioprocessing/downstream-purification-platform-breaks-complex-vector-bottleneck/",
-      "summary": "Modular flow-through and pseudo-affinity downstream processing technologies enable high flow-through and high impurity capture to help biomanufacturers minimize backlogs caused by the combination of complex vectors and p…",
-      "ts": 1785340828000,
-      "publishedAt": "2026-07-29T16:00:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Biopharma Hungry for GLP-1 Receptor Agonist Manufacturing Skills",
-      "url": "https://www.genengnews.com/topics/bioprocessing/biopharma-hungry-for-glp-1-receptor-agonist-manufacturing-skills/",
-      "summary": "NIBRT predicts that the market for GLP-1 receptor agonist-based diabetes and obesity meds will increase demand for biopharmaceutical engineers with a mix of synthetic chemistry and biotech skills. The post Biopharma Hung…",
-      "ts": 1785340819000,
-      "publishedAt": "2026-07-29T16:00:19.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Capsid Experts Hope to Slash the Cost of Gene Therapies",
-      "url": "https://www.genengnews.com/topics/bioprocessing/capsid-experts-hope-to-slash-the-cost-of-gene-therapies/",
-      "summary": "Manufacturing costs for therapies based on adeno-associated viruses (AAV) could fall thanks to careful work on plasmid redesign and cell-line selection by a company with long-term expertise in capsid discovery. The post …",
-      "ts": 1785340811000,
-      "publishedAt": "2026-07-29T16:00:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Curiosity Mars Rover Discovers Field of Honeycomb Textures",
-      "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-      "summary": "As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to mission scientists: honeycomb-like textures called polygonal fractures, ea…",
-      "ts": 1785339000000,
-      "publishedAt": "2026-07-29T15:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 July 29 – Psyche Receives Gravity Assist from Mars",
-      "url": "https://science.nasa.gov/image-article/apod/apod-2026-july-29-psyche-receives-gravity-assist-from-mars/",
-      "summary": "A video of the Psyche spacecraft flying by Mars.",
-      "ts": 1785338754000,
-      "publishedAt": "2026-07-29T15:25:54.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Understanding How Martian Auroras Are Made",
-      "url": "https://www.nasa.gov/image-article/understanding-how-martian-auroras-are-made/",
-      "summary": "This July 23, 2026, illustration depicts charged particles from a solar storm stripping away charged particles of Mars’ atmosphere, one of the processes of Martian atmosphere loss studied by NASA’s MAVEN (Mars Atmosphere…",
-      "ts": 1785338428000,
-      "publishedAt": "2026-07-29T15:20:28.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Genome Mining Points to Less Toxic, More Potent Polyene Antifungals in Mice",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/genome-mining-points-to-less-toxic-more-potent-polyene-antifungals-in-mice/",
-      "summary": "The researchers identified Nys34 as a leading candidate after it demonstrated three-to-eightfold lower toxicity than amphotericin B in multiple human cell lines and reduced fungal burden in a mouse model of invasive aspe…",
-      "ts": 1785337249000,
-      "publishedAt": "2026-07-29T15:00:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-      "ts": 1785337200000,
-      "publishedAt": "2026-07-29T15:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: End of Medicare drug subsidy gives Democrats new attack line on rising out-of-pocket costs ",
-      "url": "https://www.statnews.com/2026/07/29/trump-medicare-subsidy-cuts-part-d-premium-change/?utm_campaign=rss",
-      "summary": "The White House decision to end a Medicare drug subsidy plays into Democratic arguments ahead of the midterms.",
-      "ts": 1785337110000,
-      "publishedAt": "2026-07-29T14:58:30.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "LatConnect 60 Accelerates SWIRSAT Constellation Growth Anchored in Western Australia with Expansion into Malaysia and UAE",
-      "url": "https://spacenews.com/latconnect-60-accelerates-swirsat-constellation-growth-anchored-in-western-australia-with-expansion-into-malaysia-and-uae/",
-      "summary": "PERTH, Western Australia — LatConnect 60 (LC60) is executing on a multi-geography industrial plan to accelerate its SWIRSAT constellation, anchoring core technology development and payload manufacturing in Western Austra…",
-      "ts": 1785335933000,
-      "publishedAt": "2026-07-29T14:38:53.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Webb Explores Family Tree of Newly Discovered Distant Objects",
-      "url": "https://science.nasa.gov/missions/webb/nasa-webb-explores-family-tree-of-newly-discovered-distant-objects/",
-      "summary": "Since their discovery by NASA’s James Webb Space Telescope in 2022, little red dots (LRDs) have been the subject of great interest to astronomers. Understanding the nature of these extremely distant, compact red sources …",
-      "ts": 1785333600000,
-      "publishedAt": "2026-07-29T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a fugitive who became a biotech exec, a hospital suing Lilly, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/29/fugitive-who-became-biotech-exec-hospital-sues-lilly/?utm_campaign=rss",
-      "summary": "The discovery that a fugitive had been working under an alias in the biotech industry prompted a question: How did he evade scrutiny for two decades?",
-      "ts": 1785332161000,
-      "publishedAt": "2026-07-29T13:36:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Contractor to Civil Servant: NASA Welcomes Ray Williams",
-      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-ray-williams/",
-      "summary": "Ray Williams’ progression at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, has uniquely prepared him for his new role. As part of NASA’s plan to restore core competencies by converting contractors to civil…",
-      "ts": 1785331970000,
-      "publishedAt": "2026-07-29T13:32:50.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Why benchmarking clinical LLMs from OpenEvidence, Doximity is complicated",
-      "url": "https://www.statnews.com/2026/07/29/benchmarking-clinical-chatbots-openevidence-doximity-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of AI Prognosis: A conversation about benchmarking leading clinical chatbots, investor view on AI in biopharma, and more.",
-      "ts": 1785331779000,
-      "publishedAt": "2026-07-29T13:29:39.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Fortastra and Hadrian join forces to streamline satellite production",
-      "url": "https://spacenews.com/fortastra-and-hadrian-join-forces-to-streamline-satellite-production/",
-      "summary": "SAN FRANCISCO – Fortastra, a Los Angeles startup focused on defending on-orbit infrastructure, is working with manufacturing specialist Hadrian to explore ways to apply precision machining and additive manufacturing to […",
-      "ts": 1785330000000,
-      "publishedAt": "2026-07-29T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Fauci invokes Fifth Amendment in declining to answer questions before Senate panel",
-      "url": "https://www.statnews.com/2026/07/29/fauci-pleads-fifth-criticizes-rand-paul-senate-hearing/?utm_campaign=rss",
-      "summary": "At a highly anticipated Senate hearing, Anthony Fauci evoked his Fifth Amendment right to refuse to answer questions about the Covid-19 pandemic and its origins.",
-      "ts": 1785329757000,
-      "publishedAt": "2026-07-29T12:55:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "H3 to launch next ispace lunar lander mission",
-      "url": "https://spacenews.com/h3-to-launch-next-ispace-lunar-lander-mission/",
-      "summary": "Japanese lunar lander developer ispace has selected the H3 rocket to launch its next mission in 2028, creating what the companies called Japan’s first private lunar transportation system. The post H3 to launch next ispac…",
-      "ts": 1785327011000,
-      "publishedAt": "2026-07-29T12:10:11.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
