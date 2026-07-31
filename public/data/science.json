@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-07-31T06:46:14.755Z",
+  "updated": "2026-07-31T09:46:18.862Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Math shows why your vote may not count the way you think it does",
+      "url": "https://phys.org/news/2026-07-math-vote.html",
+      "summary": "Mathematicians have shown that completely fair elections are—in a sense—impossible. No electoral system can guarantee both that local votes translate directly into local seats and that total seat distribution matches ove…",
+      "ts": 1785488405000,
+      "publishedAt": "2026-07-31T09:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The Arctic Ocean keeps permafrost carbon firmly locked",
+      "url": "https://phys.org/news/2026-07-arctic-ocean-permafrost-carbon-firmly.html",
+      "summary": "Permafrost in the Arctic stores large quantities of organic carbon. When frozen ground thaws or coastal sections erode, this carbon can enter the sea, where microorganisms can break it down and convert it into climate-da…",
+      "ts": 1785488403000,
+      "publishedAt": "2026-07-31T09:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Inverting the seminar to recover what scientific papers leave out",
+      "url": "https://phys.org/news/2026-07-inverting-seminar-recover-scientific-papers.html",
+      "summary": "A scientific paper reads as a clean progression from question to result. And yet, research almost never happens that way. Experiments fail, conversations redirect projects, and none of it survives into print. When the fo…",
+      "ts": 1785488401000,
+      "publishedAt": "2026-07-31T09:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spain safari park animals grazed calmly amid 'terror' of fire",
+      "url": "https://phys.org/news/2026-07-spain-safari-animals-grazed-calmly.html",
+      "summary": "The bison carried on grazing peacefully as the flames approached, imperturbable despite the fires ravaging the land around their wildlife park west of Madrid.",
+      "ts": 1785484201000,
+      "publishedAt": "2026-07-31T07:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Turkey battles wind-fueled wildfires on tourist coasts",
+      "url": "https://phys.org/news/2026-07-turkey-fueled-wildfires-tourist-coasts.html",
+      "summary": "Hundreds of Turkish firefighters battled Thursday to contain wind-fueled wildfires spreading near key tourist regions on the country's Mediterranean coast.",
+      "ts": 1785483601000,
+      "publishedAt": "2026-07-31T07:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The last trio: S.Africa's zoo elephants await their fate",
+      "url": "https://phys.org/news/2026-07-trio-safrica-zoo-elephants-await.html",
+      "summary": "The last three elephants still in a traditional South African zoo entered their enclosure in single file, with fruit and vegetables scattered on the ground to encourage natural foraging.",
+      "ts": 1785481391000,
+      "publishedAt": "2026-07-31T07:03:11.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Evolutionary dynamics of collective decision-making with local social influence on static and dynamic networks",
@@ -751,54 +799,6 @@
       "title": "PASS: Perturbation augmented space group structure sampling for transferable Fe-O machine learning interatomic potential",
       "url": "https://arxiv.org/abs/2607.28000",
       "summary": "arXiv:2607.28000v1 Announce Type: cross Abstract: Accurate atomistic modelling of iron (Fe) oxidation requires a reliable interatomic potential, which necessitates an extensive and representative first-principles dataset…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scaling theory of decoherence in Dicke superradiance",
-      "url": "https://arxiv.org/abs/2607.28034",
-      "summary": "arXiv:2607.28034v1 Announce Type: cross Abstract: The survival of many-body coherence depends on the competition between correlation buildup and decoherence. In Dicke superradiance, collective emission builds up correlat…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rheology of dense suspensions of granular spherocylinders by particle-based simulation",
-      "url": "https://arxiv.org/abs/2607.28206",
-      "summary": "arXiv:2607.28206v1 Announce Type: cross Abstract: Dense suspensions of rod-shaped granular particles are widespread in nature and manufacturing, where their fluid mechanical properties are often paramount. We have develo…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Signatures of kinetic gravity braiding in cosmological probes of the gravitational field",
-      "url": "https://arxiv.org/abs/2607.28207",
-      "summary": "arXiv:2607.28207v1 Announce Type: cross Abstract: We study the observational signatures of kinetic gravity braiding (KGB) models in relativistic cosmological probes constructed along the past light cone. Using the relati…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Arago-Fresnel interference of displaced spin states of photons",
-      "url": "https://arxiv.org/abs/2607.28231",
-      "summary": "arXiv:2607.28231v1 Announce Type: cross Abstract: The four laws by Arago and Fresnel distinguish the coplanarity of two light beams to determine their capacity of interference, laying the historic milestone for conceptua…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Synchronization, Kinematic Waves and Spike-Phase-Separation in Feedback Ising Neural Networks on Heterogeneous Graphs",
-      "url": "https://arxiv.org/abs/2607.28275",
-      "summary": "arXiv:2607.28275v1 Announce Type: cross Abstract: Structural heterogeneity constrains collective dynamics in complex systems. However, its analytical tractability out of equilibrium remains limited. In this work, we stud…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Diagnostic Temperature Discrepancy as a Kinetic Measurement: Shape, Transport, and Termination of the Suprathermal Electron Tail",
-      "url": "https://arxiv.org/abs/2607.28530",
-      "summary": "arXiv:2607.28530v1 Announce Type: cross Abstract: Two standard thermometers applied to the same quiet-Sun corona disagree by a stable factor: radio brightness reads about 0.6 MK while ionization- and scale-height-based d…",
       "ts": 1785470400000,
       "publishedAt": "2026-07-31T04:00:00.000Z"
     }

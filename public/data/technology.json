@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-07-31T06:46:16.939Z",
+  "updated": "2026-07-31T09:46:22.603Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "ts": 1785510000000,
+      "publishedAt": "2026-07-31T15:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Montana’s new “right to try” law can’t come soon enough for some",
+      "url": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
+      "summary": "Kris DeVault is desperate. His son, Brody, was born in March 2023. It wasn’t long before he started to show signs of developmental delay, says DeVault. As time went on, Brody started missing key milestones in speech, mov…",
+      "ts": 1785488400000,
+      "publishedAt": "2026-07-31T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed",
+      "url": "https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence/?utm_campaign=rss",
+      "summary": "“The ADA is no longer what we’d call a profile in courage,” write Adam Marcus and Ivan Oransky of Retraction Watch.",
+      "ts": 1785486600000,
+      "publishedAt": "2026-07-31T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Limb girdle muscular dystrophy patients face a maddening reality",
+      "url": "https://www.statnews.com/2026/07/31/fda-platform-designation-hold-limb-girdle-muscular-dystrophy-lgmd/?utm_campaign=rss",
+      "summary": "“Too often, regulatory tools authorized to speed patient access to breakthrough treatments are being used in ways that even prevent approval,” writes Kat Bryant Knudson.",
+      "ts": 1785486600000,
+      "publishedAt": "2026-07-31T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: What a recent op-ed got wrong about our Covid study",
+      "url": "https://www.statnews.com/2026/07/31/letter-to-editor-covid-non-pharmaceutical-interventions-research/?utm_campaign=rss",
+      "summary": "“The appropriate counter to Covid revisionism is careful, rigorous, and honest assessment of the U.S. response.”",
+      "ts": 1785486600000,
+      "publishedAt": "2026-07-31T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Syphilis spreads while researchers contend with federal constraints and a drug shortage",
+      "url": "https://www.statnews.com/2026/07/31/syphilis-drug-shortage-case-study-san-diego-patient-researcher-advocate/?utm_campaign=rss",
+      "summary": "At the San Diego-Tijuana border, syphilis spreads while researchers contend with federal constraints and a drug shortage.",
+      "ts": 1785486600000,
+      "publishedAt": "2026-07-31T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Earth from Space: New Orleans and the mighty Mississippi",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_New_Orleans_and_the_mighty_Mississippi",
+      "summary": "Image: This colourful radar image captured by the Copernicus Sentinel-1 mission features New Orleans and the delta of the Mississippi River, one the largest rivers in North America.",
+      "ts": 1785484800000,
+      "publishedAt": "2026-07-31T08:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Univé builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "ts": 1785481200000,
+      "publishedAt": "2026-07-31T07:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "APOD: 2026 July 31 – NGC 4372 and the Dark Doodad",
@@ -738,78 +810,6 @@
       "summary": "Students working in fields eligible for NSF funding will be able to participate, including chemistry, engineering, and basic life science research that doesn’t deal directly with the treatment of disease.",
       "ts": 1785360973000,
       "publishedAt": "2026-07-29T21:36:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Awards 2026 Innovative Technology Concepts",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-2026-innovative-technology-concepts/",
-      "summary": "The NASA Innovative Advanced Concepts (NIAC) program has created 18 new awards to support visionary ideas to improve aerospace technologies in areas ranging from the exploration of the solar system to understanding the u…",
-      "ts": 1785359060000,
-      "publishedAt": "2026-07-29T21:04:20.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Latigo reports mid-stage success for would-be rival to Vertex’s pain drug Journavx",
-      "url": "https://www.statnews.com/2026/07/29/latigo-phase-2-results-non-opioid-pain-reliever-ltg-001/?utm_campaign=rss",
-      "summary": "Latigo Biotherapeutics published positive data for an acute-pain drug meant to rival a Vertex medicine already on the market",
-      "ts": 1785358800000,
-      "publishedAt": "2026-07-29T21:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Genetic Study of Fibromyalgia Points to Neurological Basis",
-      "url": "https://www.genengnews.com/topics/omics/genetic-study-of-fibromyalgia-points-to-neurological-basis/",
-      "summary": "A GWAS meta-analysis including 2.5 million individuals identified 26 genetic risk factors linked with fibromyalgia, identifying risk variants in 26 regions of the genome, many which are involved in brain and nerve functi…",
-      "ts": 1785358096000,
-      "publishedAt": "2026-07-29T20:48:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SpaceX wins $1.6 billion in launch orders for military satellite networks",
-      "url": "https://spacenews.com/spacex-wins-1-6-billion-in-launch-orders-for-military-satellite-networks/",
-      "summary": "Falcon 9 will launch satellites supporting missile tracking, targeting and military communications The post SpaceX wins $1.6 billion in launch orders for military satellite networks appeared first on SpaceNews.",
-      "ts": 1785357831000,
-      "publishedAt": "2026-07-29T20:43:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Base Editing Strategy Alleviates Huntington’s Disease in Mice",
-      "url": "https://www.genengnews.com/topics/genome-editing/base-editing-strategy-alleviates-huntingtons-disease-in-mice/",
-      "summary": "By precisely altering the huntingtin gene rather than switching it off, an in vivo CRISPR base-editing approach reduced toxic protein fragments and disease symptoms in mouse models of Huntington’s disease. The post Base …",
-      "ts": 1785355208000,
-      "publishedAt": "2026-07-29T20:00:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Force awards All Points $250 million to expand satellite processing at Vandenberg",
-      "url": "https://spacenews.com/space-force-awards-all-points-250-million-to-expand-satellite-processing-at-vandenberg/",
-      "summary": "All Points Logistics is the third company selected under a Commercial Solutions Opening to add facilities where satellites can be inspected, tested, fueled and prepared for integration with launch vehicles The post Space…",
-      "ts": 1785354317000,
-      "publishedAt": "2026-07-29T19:45:17.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Landmark Phase III Trial Finds Cell Therapy Slows Muscle Decline in Advanced DMD",
-      "url": "https://www.genengnews.com/topics/translational-medicine/landmark-phase-iii-trial-finds-cell-therapy-slows-muscle-decline-in-advanced-dmd/",
-      "summary": "A Phase III trial found the donor-derived cell therapy deramiocel slowed arm muscle decline in boys and young men with advanced Duchenne muscular dystrophy, with potential benefits for heart health and a favorable safety…",
-      "ts": 1785353176000,
-      "publishedAt": "2026-07-29T19:26:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Celonic and Leukocare Collaborate to Support Complex Biologics and Advanced Drug Development",
-      "url": "https://www.genengnews.com/topics/bioprocessing/celonic-and-leukocare-collaborate-to-support-complex-biologics-and-advanced-drug-development/",
-      "summary": "The collaboration brings together Celonic’s expertise in cell line development, drug substance process development, intensified bioprocessing, and GMP manufacturing with Leukocare’s data science-driven approach to drug p…",
-      "ts": 1785351657000,
-      "publishedAt": "2026-07-29T19:00:57.000Z",
       "categoryId": "bio"
     }
   ],
