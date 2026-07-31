@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-31T17:40:55.423Z",
+  "updated": "2026-07-31T19:36:42.897Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,51 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "TB 26-04 Webbings for Use in Elevated Oxygen Environments",
+      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-webbings-for-use-in-elevated-oxygen-environments/",
+      "summary": "Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen environments anticipated for future lunar and Martian missions. Testing dem…",
+      "ts": 1785524725000,
+      "publishedAt": "2026-07-31T19:05:25.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket ",
+      "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/",
+      "summary": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster. The tests, conducted at NASA’s Ames Res…",
+      "ts": 1785523187000,
+      "publishedAt": "2026-07-31T18:39:47.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Ketamine Triggers Sex-Specific Brain Recovery Responses",
+      "url": "https://www.genengnews.com/topics/translational-medicine/ketamine-triggers-sex-specific-brain-recovery-responses/",
+      "summary": "A study in mice has shown how shown that microglia immune cells in the brain play a critical role in how the brain recovers from ketamine anesthesia, and indicates that there are differences between female and male brain…",
+      "ts": 1785520832000,
+      "publishedAt": "2026-07-31T18:00:32.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Molecular GPS Guides Neutrophils to Sites of Infection",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/molecular-gps-guides-neutrophils-to-sites-of-infection/",
+      "summary": "Through a multistep process, signals from infected cells trigger the formation of a receptor complex that directs neutrophils out of blood vessels toward infection sites without damaging healthy tissue. The post Molecula…",
+      "ts": 1785520810000,
+      "publishedAt": "2026-07-31T18:00:10.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Opens New Flight Dynamics Research Facility in Virginia",
+      "url": "https://www.nasa.gov/news-release/nasa-opens-new-flight-dynamics-research-facility-in-virginia/",
+      "summary": "NASA opened its newest wind tunnel, the Flight Dynamics Research Facility, Friday, providing a critical resource for the agency and its partners to test the safety and performance of future generations of aircraft, rocke…",
+      "ts": 1785517874000,
+      "publishedAt": "2026-07-31T17:11:14.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -73,6 +118,24 @@
       "ts": 1785509279000,
       "publishedAt": "2026-07-31T14:47:59.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Curiosity Blog, Sols 4961-4967: Approaching a Break in the Rock Record?",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4961-4967-approaching-a-break-in-the-rock-record/",
+      "summary": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, July 24, 2026 Curiosity spent the week continuing to climb her way up throu…",
+      "ts": 1785508862000,
+      "publishedAt": "2026-07-31T14:41:02.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Roman Telescope to Carry 1.35 Million Names to Deep Space",
+      "url": "https://www.nasa.gov/image-article/nasas-roman-telescope-to-carry-1-35-million-names-to-deep-space/",
+      "summary": "On July 27, technicians at NASA’s Kennedy Space Center in Florida installed a memory card containing 1,350,144 names as part of a commemorative plaque on the Nancy Grace Roman Space Telescope. The names were submitted by…",
+      "ts": 1785507094000,
+      "publishedAt": "2026-07-31T14:11:34.000Z",
+      "categoryId": "space"
     },
     {
       "source": "ESA",
@@ -244,6 +307,15 @@
       "ts": 1785481200000,
       "publishedAt": "2026-07-31T07:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 July 31 – NGC 4372 and the Dark Doodad",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-july-31-ngc-4372-and-the-dark-doodad/",
+      "summary": "APODScienceAPODAPOD: 2026 July 31 – NGC…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fas…",
+      "ts": 1785470700000,
+      "publishedAt": "2026-07-31T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -738,78 +810,6 @@
       "summary": "Studies tied to Red Bull helped block warning labels about drinking alcohol along with energy drinks. Independent studies report risks in mixing the two.",
       "ts": 1785384300000,
       "publishedAt": "2026-07-30T04:05:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 July 30 – Red Sun trough Wildfire Smoke",
-      "url": "https://science.nasa.gov/image-article/apod/apod-july-30-red-sun-trough-wildfire-smoke/",
-      "summary": "APOD Science APOD APOD: 2026 July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
-      "ts": 1785384300000,
-      "publishedAt": "2026-07-30T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 July 30 – Red Sun trough Wildfire Smoke",
-      "url": "https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke/",
-      "summary": "APOD Science APOD APOD: 2026 July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
-      "ts": 1785384300000,
-      "publishedAt": "2026-07-30T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "New Zealand’s Southern Wilderness",
-      "url": "https://science.nasa.gov/earth/earth-observatory/new-zealands-southern-wilderness/",
-      "summary": "Stewart Island/Rakiura, New Zealand’s third-largest island, is known for its vibrant birdlife, unique forests, wilderness beaches, and views of the night sky.",
-      "ts": 1785384060000,
-      "publishedAt": "2026-07-30T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Sophia Space and Caltech claim patent for space data centers",
-      "url": "https://spacenews.com/sophia-space-and-caltech-claim-patent-for-space-data-centers/",
-      "summary": "SAN FRANCISCO – Sophia Space announced the award July 30 of a patent, shared with the California Institute of Technology, covering large, modular space-based data centers. The patent, issued July […] The post Sophia Spac…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cognitive Convergence: Deep Similarities Between Large Language Models and Human Cognition",
-      "url": "https://arxiv.org/abs/2607.26179",
-      "summary": "arXiv:2607.26179v1 Announce Type: new Abstract: LLMs are widely regarded as alien intelligences, systems whose cognitive operations are fundamentally unlike our own. Apparent similarities to human cognition are therefore…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Three Failures of Pain Location: Why the Diagnostic Utility of Symptom Localization Is Not One Thing",
-      "url": "https://arxiv.org/abs/2607.26297",
-      "summary": "arXiv:2607.26297v1 Announce Type: new Abstract: Patient-reported pain location is diagnostically decisive for some presentations and nearly uninformative for others. The prevailing account treats this as a single gradien…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Artificial intelligence in deep brain stimulation for movement disorders: a systematic review and technology readiness assessment",
-      "url": "https://arxiv.org/abs/2607.26666",
-      "summary": "arXiv:2607.26666v1 Announce Type: new Abstract: Artificial intelligence (AI) is increasingly explored across deep brain stimulation (DBS) for movement disorders, yet whether current systems are approaching deployment rem…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hybrid SINDy-EnKF in Learning Chikungunya Dynamics from Incomplete, Noisy or Partially Observed Data",
-      "url": "https://arxiv.org/abs/2607.27137",
-      "summary": "arXiv:2607.27137v1 Announce Type: new Abstract: Current mechanistic models for the transmission dynamics of the Chikungunya virus (CHIKV) rely on uncertain parameters or partially observed data. This limitation challenge…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],

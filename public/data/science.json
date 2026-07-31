@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-07-31T17:40:51.011Z",
+  "updated": "2026-07-31T19:36:40.354Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A backup fluoride defense in soil bacteria could aid greener chemical production",
+      "url": "https://phys.org/news/2026-07-backup-fluoride-defense-soil-bacteria.html",
+      "summary": "Researchers at the University of Tartu have discovered a mechanism in bacteria that helps them adapt to fluoride, which is toxic to most organisms above relatively low threshold concentrations. Their discovery may repres…",
+      "ts": 1785525603000,
+      "publishedAt": "2026-07-31T19:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New blazes in Greece as strong winds hamper firefighting",
+      "url": "https://phys.org/news/2026-07-blazes-greece-strong-hamper-firefighting.html",
+      "summary": "New wildfires fed by strong winds broke out in Greece on Friday, giving firefighters little respite and forcing Civil Protection officials to order the partial evacuation of part of a suburb west of Athens.",
+      "ts": 1785525601000,
+      "publishedAt": "2026-07-31T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Shark finning regulations have not significantly changed global trade, new analysis finds",
+      "url": "https://phys.org/news/2026-07-shark-finning-significantly-global-analysis.html",
+      "summary": "Much like caviar, shark fins are a luxury product and delicacy in parts of the world. And like wild caviar, demand for shark fins has posed an incredible threat to species that can't reproduce quickly enough to keep up.",
+      "ts": 1785524403000,
+      "publishedAt": "2026-07-31T19:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A single RNA-based therapeutics approach against multiple types of RNA viruses",
+      "url": "https://phys.org/news/2026-07-rna-based-therapeutics-approach-multiple.html",
+      "summary": "The high frequency of RNA virus mutations and outbreaks of emerging RNA viral infections are challenging public health issues. Developing a drug that can overcome viral mutations with broad-spectrum antiviral activity is…",
+      "ts": 1785524401000,
+      "publishedAt": "2026-07-31T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cretaceous beetle fossil reveals early evolution of firefly sensory and signaling systems",
+      "url": "https://phys.org/news/2026-07-cretaceous-beetle-fossil-reveals-early.html",
+      "summary": "Scientists have discovered a remarkably well-preserved 100-million-year-old beetle fossil that provides a rare glimpse into the evolution of the intricate sensory and communication systems used by fireflies and their rel…",
+      "ts": 1785523204000,
+      "publishedAt": "2026-07-31T18:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mathematical model devised to protect bacteriophages without hindering their action",
+      "url": "https://phys.org/news/2026-07-mathematical-bacteriophages-hindering-action.html",
+      "summary": "A study by researchers in the UAB Department of Mathematics and the Center for Mathematical Research (CRM) presents a model describing the behavior of encapsulated bacteriophages within the gastrointestinal tract. Its ob…",
+      "ts": 1785523202000,
+      "publishedAt": "2026-07-31T18:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why is gaining citizen support for climate policies so difficult?",
+      "url": "https://phys.org/news/2026-07-gaining-citizen-climate-policies-difficult.html",
+      "summary": "A study led by Marc Guinjoan, a lecturer in the Department of Political Science and Public Administration at the UAB, with researchers Toni Rodon of the UPF and Joel Ardiaca of the UB, reveals that citizen support for cl…",
+      "ts": 1785522005000,
+      "publishedAt": "2026-07-31T18:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Experts survey the glacier ice on Mount Ararat for the first time",
+      "url": "https://phys.org/news/2026-07-experts-survey-glacier-ice-mount.html",
+      "summary": "Facing wind and cold, with only half as much oxygen to breathe as in the valley, a German-Turkish research team surveyed the glacier on Mount Ararat in eastern Turkey for the first time in July, at more than 5,000 meters…",
+      "ts": 1785522001000,
+      "publishedAt": "2026-07-31T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New open-source software predicts energy transfer between tiny defects in solid materials",
+      "url": "https://phys.org/news/2026-07-source-software-energy-tiny-defects.html",
+      "summary": "The performance of many next-generation devices depends on controlling how energy flows at extremely small scales. In the field of microelectronics—where devices continue to shrink and new materials are introduced—small …",
+      "ts": 1785520806000,
+      "publishedAt": "2026-07-31T18:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Modified cell vesicles trigger 'lipid counterstorm' against lung inflammation in mice",
+      "url": "https://phys.org/news/2026-07-cell-vesicles-trigger-lipid-counterstorm.html",
+      "summary": "The COVID-19 pandemic highlighted severe consequences of unchecked respiratory disease, including cytokine storms. This phenomenon affected many COVID-19 patients and is a potential side effect of many other diseases inv…",
+      "ts": 1785520804000,
+      "publishedAt": "2026-07-31T18:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Diego Rivera claimed his mural Creation was half wax, but chemical forensics says otherwise",
@@ -347,6 +427,46 @@
       "publishedAt": "2026-07-31T10:00:00.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Physical implementation of analytic derivatives on a photonic quantum computer",
+      "url": "http://link.aps.org/doi/10.1103/yrst-tr19",
+      "summary": "Author(s): Sebastiano Corli, Giorgio Panichi, Samuele Altilia, Edoardo Suerra, Simone Cialdi, and Enrico Prati A limiting factor to the exploitation of continuous variables in quantum computing, in particular in the fiel…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Efficient modeling algorithm and design-space exploration for double-free-layer magnetic tunnel junctions",
+      "url": "http://link.aps.org/doi/10.1103/xlfp-z2hf",
+      "summary": "Author(s): Zifeng Wang, Hongwei Zhou, Suteng Zhao, Weisheng Zhao, and Lang Zeng The double-free-layer magnetic tunnel junction has emerged as a promising structure for high-density memory applications due to its enhanced…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Tunable control of the magnetic near-field pattern in MRI via concentric split-ring resonators",
+      "url": "http://link.aps.org/doi/10.1103/yw1d-489h",
+      "summary": "Author(s): Leila V. Sharipova, Alena V. Shchelokova, and Viktor M. Puchnin The authors propose a strategy for passive radio-frequency shimming iin high-field MRI, based on controlled frequency detuning of concentric spli…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Subsurface detection by a vehicle-based atom gravity gradiometer",
+      "url": "http://link.aps.org/doi/10.1103/bjcp-r4d6",
+      "summary": "Author(s): Xiao-Wei Zhang, Jia-Qi Zhong, Mu-Yan Wang, Hui-Lin Wan, Hui Xiong, Dan-Dan Jiang, Zhi Li, De-Kai Mao, Bin Gao, Biao Tang, Xi Chen, Jin Wang, and Ming-Sheng Zhan Measuring gravity gradients with atomic interfer…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Photon-noise enhancement due to the joint effect of bolometer and phase-diffusion source",
+      "url": "http://link.aps.org/doi/10.1103/k14b-mps9",
+      "summary": "Author(s): A. L. Pankratov, D. A. Pimanov, L. S. Revin, A. V. Chiginev, and A. V. Blagodatkin Photon-noise enhancement from detector-source interaction is important in astrophysical applications, but we do not fully unde…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
       "source": "Phys.org",
       "title": "Math shows why your vote may not count the way you think it does",
       "url": "https://phys.org/news/2026-07-math-vote.html",
@@ -679,126 +799,6 @@
       "title": "Nonclassical condensation pathways revealed by the multivariable theory of nucleation",
       "url": "https://arxiv.org/abs/2607.27997",
       "summary": "arXiv:2607.27997v1 Announce Type: new Abstract: We extend classical nucleation theory (CNT) by explicitly incorporating the multidimensional nature of nucleation and the coupled roles of kinetics and thermodynamics. Spec…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Breathing chimera states from purely triadic interactions",
-      "url": "https://arxiv.org/abs/2607.28017",
-      "summary": "arXiv:2607.28017v1 Announce Type: new Abstract: Chimera states, characterized by the coexistence of synchronized and desynchronized dynamics in identical oscillators, are typically studied in systems with pairwise intera…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inferring Coupling Strengths in Synchronized Oscillators",
-      "url": "https://arxiv.org/abs/2607.28046",
-      "summary": "arXiv:2607.28046v1 Announce Type: new Abstract: Accurately estimating the coupling strength in oscillator networks from macroscopic observations alone is essential for predicting synchronization transitions. We consider …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spin-canting-induced Giant Nonlinear Optical Magnetochirality in a 2D Ferrotoroid",
-      "url": "https://arxiv.org/abs/2607.28067",
-      "summary": "arXiv:2607.28067v1 Announce Type: new Abstract: Achieving magnetically switchable chiral light emission is an important goal for 2D opto-spintronics. However, conventional strategies face a fundamental trade-off between …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Meteosat Third Generation imagery improves CNN-based SSI retrieval",
-      "url": "https://arxiv.org/abs/2607.28093",
-      "summary": "arXiv:2607.28093v1 Announce Type: new Abstract: Accurate Surface Solar Irradiance (SSI) estimation is increasingly important for photovoltaic energy monitoring and forecasting. The recently introduced Meteosat Third Gene…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of confinement anisotropy on particle transport and structural relaxation of finite dust clusters in complex plasma",
-      "url": "https://arxiv.org/abs/2607.28189",
-      "summary": "arXiv:2607.28189v1 Announce Type: new Abstract: A finite dusty plasma cluster of charged microparticles confined in an anisotropic potential well is investigated experimentally and through Langevin dynamics simulations. …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calibrated uncertainty for wide-angle crustal models: how firmly is the Dharwar Craton Moho actually constrained?",
-      "url": "https://arxiv.org/abs/2607.28199",
-      "summary": "arXiv:2607.28199v1 Announce Type: new Abstract: Depth uncertainties for wide-angle crustal models are usually obtained by propagating an assumed picking error, yet picks from one shot gather are mutually dependent and ve…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vibe-FDTR: An agent-oriented framework for reproducible frequency-domain thermoreflectance data analysis",
-      "url": "https://arxiv.org/abs/2607.28200",
-      "summary": "arXiv:2607.28200v1 Announce Type: new Abstract: Frequency-domain thermoreflectance (FDTR) is a laser pump-probe technique widely used to measure thermal properties at the micro- and nanoscale; however, it relies on a com…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electromagnetically Driven Thermal Dissipation Scaling in Plasma Centrifuges for Mass Separation",
-      "url": "https://arxiv.org/abs/2607.28208",
-      "summary": "arXiv:2607.28208v1 Announce Type: new Abstract: Electromagnetically driven centrifuges (EMDCs) rotate fluids using the Lorentz force, but their separative performance is limited by thermal dissipation that is coupled to …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AI-based scoring systematically underestimates conceptual understanding of linguistically weak students' explanations in physics",
-      "url": "https://arxiv.org/abs/2607.28210",
-      "summary": "arXiv:2607.28210v1 Announce Type: new Abstract: Explaining physical phenomena is central to physics learning, because students' explanations provide evidence of their conceptual understanding. Because conceptual understa…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weather Emulators at the Frontier of Heat Extremes Predictability",
-      "url": "https://arxiv.org/abs/2607.28220",
-      "summary": "arXiv:2607.28220v1 Announce Type: new Abstract: Atmospheric predictability declines rapidly beyond the next ten days, such that forecasts at longer lead times primarily convey large-scale trends rather than specific stat…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-fidelity inference of power grid frequency distributions",
-      "url": "https://arxiv.org/abs/2607.28232",
-      "summary": "arXiv:2607.28232v1 Announce Type: new Abstract: Precision measurements of power grid frequency track energy supply-demand imbalances, with persistent fluctuations indicating strain that can lead to outages. Characterizin…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unveiling Amplitude Distributions via the Ordinal Language of Random Walks",
-      "url": "https://arxiv.org/abs/2607.28266",
-      "summary": "arXiv:2607.28266v1 Announce Type: new Abstract: Ordinal patterns are widely used to characterize temporal organization in time series, yet they are often considered insensitive to the amplitude distribution of the data. …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Variational Formulation of a Hybrid Kinetic and Gyrokinetic Model for Astrophysical and Laboratory Plasmas",
-      "url": "https://arxiv.org/abs/2607.28305",
-      "summary": "arXiv:2607.28305v1 Announce Type: new Abstract: We present a Lagrangian model that encapsulates fully kinetic ions and gyrokinetic electrons for solar wind electromagnetic turbulence. Using a consistent method, where bot…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Distributed Acoustic Sensing Dataset for Vessel Detection and Localization in Submarine Cable Protection",
-      "url": "https://arxiv.org/abs/2607.28306",
-      "summary": "arXiv:2607.28306v1 Announce Type: new Abstract: Recent incidents of accidental damage and suspected sabotage to submarine telecommunication and power cables, particularly in the Baltic Sea, have underscored their vulnera…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Large-Time-Step Operation in a Volume Integral Equation for Dielectric Scattering",
-      "url": "https://arxiv.org/abs/2607.28309",
-      "summary": "arXiv:2607.28309v1 Announce Type: new Abstract: In transient electromagnetic analysis, explicit time-domain solvers are restricted by the Courant-Friedrichs-Lewy (CFL) condition, making finely discretized dielectric scat…",
       "ts": 1785470400000,
       "publishedAt": "2026-07-31T04:00:00.000Z"
     }
