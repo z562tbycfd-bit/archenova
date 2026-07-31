@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-31T09:46:22.603Z",
+  "updated": "2026-07-31T12:01:43.473Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,33 @@
       "ts": 1785510000000,
       "publishedAt": "2026-07-31T15:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "The new space wars: lessons from Ukraine and the Middle East",
+      "url": "https://spacenews.com/the-new-space-wars-lessons-from-ukraine-and-the-middle-east/",
+      "summary": "In March 2021, while serving as a senior fellow at the Brookings Institution, I hosted a discussion with General Chance Saltzman, now Chief of Space Operations for the United States […] The post The new space wars: lesso…",
+      "ts": 1785499200000,
+      "publishedAt": "2026-07-31T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "This Month at ESA: July 2026",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/This_Month_at_ESA_July_2026",
+      "summary": "Video: 00:03:06 What did space have in store for Europe this July? The Artemis II crew visited ESA’s technical center in the Netherlands to meet the team behind Orion’s European Service Module, celebrating the colaborati…",
+      "ts": 1785495600000,
+      "publishedAt": "2026-07-31T11:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "HydroGNSS data open for new insights into Earth’s water ",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/HydroGNSS/HydroGNSS_data_open_for_new_insights_into_Earth_s_water",
+      "summary": "The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations. Following extensive testing and validation of the satellites, instruments and ground…",
+      "ts": 1785490560000,
+      "publishedAt": "2026-07-31T09:36:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -271,6 +298,15 @@
       "ts": 1785456037000,
       "publishedAt": "2026-07-31T00:00:37.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Diffusion-like overpotentials from non-diffusion mechanisms in battery particles",
+      "url": "https://www.nature.com/articles/s41560-026-02118-2",
+      "summary": "",
+      "ts": 1785456000000,
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "Genetic Engineering News",
@@ -775,42 +811,6 @@
       "ts": 1785369600000,
       "publishedAt": "2026-07-30T00:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Proposed rule would exempt commercial launch licensing from environmental regulations",
-      "url": "https://spacenews.com/proposed-rule-would-exempt-commercial-launch-licensing-from-environmental-regulations/",
-      "summary": "The Department of Transportation is proposing to exempt commercial space launch licensing from many environmental regulations, a move praised by industry but criticized by environmental groups. The post Proposed rule wou…",
-      "ts": 1785366776000,
-      "publishedAt": "2026-07-29T23:12:56.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "L3Harris delays missile business IPO to 2027 despite surging defense demand",
-      "url": "https://spacenews.com/l3harris-delays-missile-business-ipo-to-2027-despite-surging-defense-demand/",
-      "summary": "CEO says market doesn't reflect value of Pentagon-backed business The post L3Harris delays missile business IPO to 2027 despite surging defense demand appeared first on SpaceNews.",
-      "ts": 1785365826000,
-      "publishedAt": "2026-07-29T22:57:06.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Elix and University of Vienna Aim to Advance Drug Discovery Using AI",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/elix-and-university-of-vienna-aim-to-advance-drug-discovery-using-ai/",
-      "summary": "Elix and the University of Vienna will partner to bridge the gap between advanced structural biology and artificial intelligence. By integrating AI’s predictive power with experimental atomic-resolution data, the project…",
-      "ts": 1785364140000,
-      "publishedAt": "2026-07-29T22:29:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "NSF testing new Ph.D. model giving trainees academic and industry experience",
-      "url": "https://www.statnews.com/2026/07/29/hybrid-academia-industry-phd-program-announced-uidp/?utm_campaign=rss",
-      "summary": "Students working in fields eligible for NSF funding will be able to participate, including chemistry, engineering, and basic life science research that doesn’t deal directly with the treatment of disease.",
-      "ts": 1785360973000,
-      "publishedAt": "2026-07-29T21:36:13.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [

@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-07-31T09:46:18.862Z",
+  "updated": "2026-07-31T12:01:40.351Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Falls in whale sightings, rare seabirds appearing—is something unusual happening in the Southern Ocean?",
+      "url": "https://phys.org/news/2026-07-falls-whale-sightings-rare-seabirds.html",
+      "summary": "In late June, whale watchers in southwest Western Australia sounded the alarm. They had seen far fewer humpback whales at a time when they normally migrate up from the Southern Ocean to calve and feed. Numbers were 60% b…",
+      "ts": 1785499201000,
+      "publishedAt": "2026-07-31T12:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tree cover is key to cooling cities",
+      "url": "https://phys.org/news/2026-07-tree-key-cooling-cities.html",
+      "summary": "Weather measurements in Leeds have shown that many green spaces, such as parks, gardens and forests, were cooler than surrounding urban environments, also known as gray spaces.",
+      "ts": 1785498003000,
+      "publishedAt": "2026-07-31T11:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Exposing the hidden toll of litigation",
+      "url": "https://phys.org/news/2026-07-exposing-hidden-toll-litigation.html",
+      "summary": "A James Cook University study is challenging the belief that the greatest cost of going to court is losing a case, arguing the legal process itself can leave lasting psychological scars.",
+      "ts": 1785496805000,
+      "publishedAt": "2026-07-31T11:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two independent studies push semiconductor qubits towards practical scales",
+      "url": "https://phys.org/news/2026-07-independent-semiconductor-qubits-scales.html",
+      "summary": "Semiconductor spin qubits are one of the most promising building blocks for future quantum computers, but turning them into a working, large-scale quantum computer has so far proven difficult. For now, two big questions …",
+      "ts": 1785496804000,
+      "publishedAt": "2026-07-31T11:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Reenvisioning sexual health with perspectives from the Global South",
+      "url": "https://phys.org/news/2026-07-reenvisioning-sexual-health-perspectives-global.html",
+      "summary": "Sexual and reproductive health has largely been shaped by perspectives from wealthier developed nations in the Global North. To correct this imbalance, public health experts call for centering Global South knowledge, liv…",
+      "ts": 1785495604000,
+      "publishedAt": "2026-07-31T11:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Math shows why your vote may not count the way you think it does",
@@ -759,46 +799,6 @@
       "title": "Quantum Magnonics: Quantum States Generation and Applications",
       "url": "https://arxiv.org/abs/2607.27771",
       "summary": "arXiv:2607.27771v1 Announce Type: cross Abstract: Hybrid systems based on magnons in ferromagnetic materials, such as yttrium iron garnet, have achieved remarkable development in the last decade. These include the coupli…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resource-efficient quantum-selected configuration interaction for molecular properties",
-      "url": "https://arxiv.org/abs/2607.27777",
-      "summary": "arXiv:2607.27777v1 Announce Type: cross Abstract: The quantum-selected configuration interaction identifies important determinantal basis functions through real-time evolution of a reference wavefunction and diagonalizin…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Partial vision leads to an unexpected emergent collective behavior in active aligning particles",
-      "url": "https://arxiv.org/abs/2607.27819",
-      "summary": "arXiv:2607.27819v1 Announce Type: cross Abstract: The Vicsek Model represents a paradigmatic framework for understanding the collective motion of active aligning particles, traditionally assuming isotropic interaction fi…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Even-harmonic generation through nonequilibrium steady-state symmetry breaking",
-      "url": "https://arxiv.org/abs/2607.27847",
-      "summary": "arXiv:2607.27847v1 Announce Type: cross Abstract: High-harmonic generation (HHG) in inversion-symmetric systems is typically restricted to odd harmonics by symmetry. Here, we show that this selection rule can be broken w…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mpemba effect in a chemomechanical model of the Kinesin molecular motor",
-      "url": "https://arxiv.org/abs/2607.27998",
-      "summary": "arXiv:2607.27998v1 Announce Type: cross Abstract: The Mpemba effect, wherein a system prepared farther from equilibrium relaxes faster than one initially closer to equilibrium, has been extensively investigated in a wide…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PASS: Perturbation augmented space group structure sampling for transferable Fe-O machine learning interatomic potential",
-      "url": "https://arxiv.org/abs/2607.28000",
-      "summary": "arXiv:2607.28000v1 Announce Type: cross Abstract: Accurate atomistic modelling of iron (Fe) oxidation requires a reliable interatomic potential, which necessitates an extensive and representative first-principles dataset…",
       "ts": 1785470400000,
       "publishedAt": "2026-07-31T04:00:00.000Z"
     }
