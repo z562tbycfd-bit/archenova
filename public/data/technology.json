@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-07-31T15:21:04.744Z",
+  "updated": "2026-07-31T17:40:55.423Z",
   "items": [
+    {
+      "source": "OpenAI",
+      "title": "Disrupting a Criminal Scam Operation",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "ts": 1785801600000,
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump administration revises rebate pilot for 340B drug discount program, angering hospitals",
+      "url": "https://www.statnews.com/pharmalot/2026/07/31/trump-administration-revises-rebate-pilot-drug-discount-program-hospitals/?utm_campaign=rss",
+      "summary": "The Trump administration is revising its rebate pilot for the 340B drug discount program, angering hospitals.",
+      "ts": 1785517347000,
+      "publishedAt": "2026-07-31T17:02:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Microbiota-Derived Metabolite Enhances HIV Therapy in Monkeys",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/microbiota-derived-metabolite-enhances-hiv-therapy-in-monkeys/",
+      "summary": "The metabolite 10-hydroxystearic acid (10-HSA), from Lactiplantibacillus plantarum, repaired HIV-related gut damage, reduced inflammation, restored immunity, and improved antiretroviral therapy effectiveness in preclinic…",
+      "ts": 1785516428000,
+      "publishedAt": "2026-07-31T16:47:08.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Axiom’s Hong Kong Bet, Latigo’s Positive Phase II, and Base Editors for Huntington’s",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/axioms-hong-kong-bet-latigos-positive-phase-ii-and-base-editors-for-huntingtons/",
+      "summary": "In this episode of GEN's Touching Base, editors discuss business news from Axiom and Latigo, and science updates on the potential roots of fibromyalgia and base editing for Huntington’s disease. The post Axiom’s Hong Kon…",
+      "ts": 1785513617000,
+      "publishedAt": "2026-07-31T16:00:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Spain commits up to $2.3 billion for national military communications for IRIS²",
+      "url": "https://spacenews.com/spain-commits-up-to-2-3-billion-for-national-military-communications-for-iris%c2%b2/",
+      "summary": "WARSAW, Poland — The Spanish government announced it will allocate between 1.6 billion and 2 billion euros ($1.8 to $2.3 billion) to develop a national military satellite communications constellation that […] The post Sp…",
+      "ts": 1785513472000,
+      "publishedAt": "2026-07-31T15:57:52.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "OpenAI",
       "title": "Advancing responsible AI across Europe",
@@ -763,51 +808,6 @@
       "title": "Hybrid SINDy-EnKF in Learning Chikungunya Dynamics from Incomplete, Noisy or Partially Observed Data",
       "url": "https://arxiv.org/abs/2607.27137",
       "summary": "arXiv:2607.27137v1 Announce Type: new Abstract: Current mechanistic models for the transmission dynamics of the Chikungunya virus (CHIKV) rely on uncertain parameters or partially observed data. This limitation challenge…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A behavior-environment information loop drives sensory navigation",
-      "url": "https://arxiv.org/abs/2607.26295",
-      "summary": "arXiv:2607.26295v1 Announce Type: cross Abstract: As organisms navigate the environment to locate critical resources, their behavioral actions must be tightly coupled to their sensory inputs. Here, we introduce an inform…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Pragmatic Reasoning in Design",
-      "url": "https://arxiv.org/abs/2607.26322",
-      "summary": "arXiv:2607.26322v1 Announce Type: cross Abstract: People can often understand and use novel artifacts after only a few interactions, suggesting that design choices communicate underlying affordances and causal structure.…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Q-Steer: Action-Value Guidance for Molecular Policy Optimization",
-      "url": "https://arxiv.org/abs/2607.26391",
-      "summary": "arXiv:2607.26391v1 Announce Type: cross Abstract: Oracle-limited molecular optimization gives reward only after a complete molecule is generated, while each rollout requires many local next-token decisions. This delayed-…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Knowledge before Reasoning: EC-Reason-Bench, a Training-Free Diagnostic Benchmark for LLM Enzyme Classification",
-      "url": "https://arxiv.org/abs/2607.26397",
-      "summary": "arXiv:2607.26397v1 Announce Type: cross Abstract: Enzyme function prediction is a hierarchical, knowledge-intensive form of protein function classification. Existing benchmarks expose an anomaly: general LLMs often get t…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Navigation driven by bidirectional information transmission between sensing and actuation",
-      "url": "https://arxiv.org/abs/2607.26798",
-      "summary": "arXiv:2607.26798v1 Announce Type: cross Abstract: A wide variety of biological functions are driven by feedback between sensing and actuation. A paradigmatic example is cellular navigation. During navigation, the sensory…",
       "ts": 1785384000000,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "categoryId": "bio"
