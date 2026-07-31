@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-31T12:01:43.473Z",
+  "updated": "2026-07-31T15:21:04.744Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,105 @@
       "ts": 1785510000000,
       "publishedAt": "2026-07-31T15:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Building abundant intelligence",
+      "url": "https://openai.com/index/building-abundant-intelligence",
+      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "ts": 1785510000000,
+      "publishedAt": "2026-07-31T15:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1785509279000,
+      "publishedAt": "2026-07-31T14:47:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "How to safely watch a solar eclipse",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/How_to_safely_watch_a_solar_eclipse",
+      "summary": "Video: 00:01:34 [English]: A solar eclipse is an unforgettable sight, but only if you watch it safely! ESA reserve astronaut Sara García Alonso shows you how to enjoy this incredible cosmic event using certified eclipse …",
+      "ts": 1785506400000,
+      "publishedAt": "2026-07-31T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Inside the effort to show Congress what war in space looks like",
+      "url": "https://spacenews.com/inside-the-effort-to-show-congress-what-war-in-space-looks-like/",
+      "summary": "The Space Force Association’s National Spacepower Center is building an unclassified environment for demonstrating threats to satellites and their consequences on Earth The post Inside the effort to show Congress what wa…",
+      "ts": 1785504600000,
+      "publishedAt": "2026-07-31T13:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Novo setback, support for Replimune’s melanoma drug, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/07/31/novo-setback-fda-panel-endorses-replimune-melanoma-drug/?utm_campaign=rss",
+      "summary": "An FDA advisory panel recommended use of an experimental Replimune treatment for advanced melanoma that the agency has rejected twice",
+      "ts": 1785504497000,
+      "publishedAt": "2026-07-31T13:28:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force picks 15 companies for $981 million training range contract",
+      "url": "https://spacenews.com/space-force-picks-15-companies-for-981-million-training-range-contract/",
+      "summary": "Vendors will compete for orders to build satellites, sensors and systems for more realistic military space exercises The post Space Force picks 15 companies for $981 million training range contract appeared first on Spac…",
+      "ts": 1785503900000,
+      "publishedAt": "2026-07-31T13:18:20.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Week in images: 27-31 July 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_27-31_July_2026",
+      "summary": "Week in images: 27-31 July 2026 Discover our week through the lens",
+      "ts": 1785503400000,
+      "publishedAt": "2026-07-31T13:10:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Novo Nordisk inflammation-targeting drug misses mark in heart disease study",
+      "url": "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/?utm_campaign=rss",
+      "summary": "A Novo Nordisk drug missed the mark in a heart disease study, raising questions about targeting inflammation to prevent cardiovascular complications.",
+      "ts": 1785501166000,
+      "publishedAt": "2026-07-31T12:32:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Federal government could improve infectious disease monitoring, says federal government",
+      "url": "https://www.statnews.com/2026/07/31/health-news-federal-government-infectious-disease-monitoring-issues/?utm_campaign=rss",
+      "summary": "The new CDC director nominee moves to the full Senate vote, Medicaid work requirements will not be delayed, and more health news",
+      "ts": 1785500902000,
+      "publishedAt": "2026-07-31T12:28:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Montana’s new experimental drug rules",
+      "url": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Montana’s plan to become an experimental medical hub just pushed forward As of thi…",
+      "ts": 1785500160000,
+      "publishedAt": "2026-07-31T12:16:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "NASA still assessing Starliner-1 flight opportunities",
+      "url": "https://spacenews.com/nasa-still-assessing-starliner-1-flight-opportunities/",
+      "summary": "A NASA official says that work with Boeing on the company’s CST-100 Starliner vehicle is making “good progress” but declined to offer a date when the spacecraft could fly again. The post NASA still assessing Starliner-1 …",
+      "ts": 1785500005000,
+      "publishedAt": "2026-07-31T12:13:25.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -562,6 +661,15 @@
     },
     {
       "source": "ESA",
+      "title": "Major rehearsal takes Themis one step closer to flight",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Major_rehearsal_takes_Themis_one_step_closer_to_flight",
+      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/themis_during_wet_dress_rehearsal/27397857-1-eng-GB/Themis_during_wet_dress_rehearsal_card_full.jpg\" alt=\"Themis during wet dress rehears…",
+      "ts": 1785398160000,
+      "publishedAt": "2026-07-30T07:56:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
       "title": "SMOS salinity could offer early indicator of El Niño",
       "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/SMOS_salinity_could_offer_early_indicator_of_El_Nino",
       "summary": "As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity – which is another key indicator of this phenomenon. Measurements from satelli…",
@@ -579,15 +687,6 @@
       "categoryId": "energy-climate"
     },
     {
-      "source": "NASA",
-      "title": "APOD: 2026 July 30 – Red Sun trough Wildfire Smoke",
-      "url": "https://science.nasa.gov/image-article/apod/apod-july-30-red-sun-trough-wildfire-smoke/",
-      "summary": "APOD Science APOD APOD: 2026 July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
-      "ts": 1785384300000,
-      "publishedAt": "2026-07-30T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "STAT",
       "title": "Is it safe to drink Red Bull and alcohol? Questionable research tied to energy drink giant has shaped policy",
       "url": "https://www.statnews.com/2026/07/30/red-bull-funded-studies-energy-drinks-alcohol-shape-policy/?utm_campaign=rss",
@@ -595,6 +694,15 @@
       "ts": 1785384300000,
       "publishedAt": "2026-07-30T04:05:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 July 30 – Red Sun trough Wildfire Smoke",
+      "url": "https://science.nasa.gov/image-article/apod/apod-july-30-red-sun-trough-wildfire-smoke/",
+      "summary": "APOD Science APOD APOD: 2026 July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or phot…",
+      "ts": 1785384300000,
+      "publishedAt": "2026-07-30T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -703,114 +811,6 @@
       "ts": 1785384000000,
       "publishedAt": "2026-07-30T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "TREA-Net: A Transferable Residual Epidemiological Adaptation Network for Dengue Incidence Forecasting",
-      "url": "https://arxiv.org/abs/2607.26854",
-      "summary": "arXiv:2607.26854v1 Announce Type: cross Abstract: Accurate multi-week dengue forecasting supports timely vector-control interventions, outbreak preparedness, and healthcare resource allocation. However, newly established…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bridging integrated information theory and the free-energy principle in living neuronal networks",
-      "url": "https://arxiv.org/abs/2510.04084",
-      "summary": "arXiv:2510.04084v2 Announce Type: replace Abstract: Integrated Information Theory (IIT) links consciousness to integrated causal structure, whereas the Free-Energy Principle (FEP) explains self-organization through varia…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying spike train synchrony and directionality: Measures and Applications",
-      "url": "https://arxiv.org/abs/2510.07140",
-      "summary": "arXiv:2510.07140v2 Announce Type: replace Abstract: By introducing the twin concepts of reliability and precision along with the corresponding measures, Mainen and Sejnowski's seminal 1995 paper \"Reliability of spike tim…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Robust and Generalizable Atrial Fibrillation Detection from ECG Using Time-Frequency Fusion and Supervised Contrastive Learning",
-      "url": "https://arxiv.org/abs/2601.10202",
-      "summary": "arXiv:2601.10202v2 Announce Type: replace Abstract: Atrial fibrillation (AF) is a common cardiac arrhythmia that significantly increases the risk of stroke and heart failure, necessitating reliable and generalizable dete…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On Tree-Network Distinguishability and Full Identifiability of Phylogenetic Networks",
-      "url": "https://arxiv.org/abs/2607.12919",
-      "summary": "arXiv:2607.12919v2 Announce Type: replace Abstract: Phylogenetic networks generalize phylogenetic trees to evolutionary histories that include reticulate events such as recombination, horizontal gene transfer, and hybrid…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Non-linear visco-elasto-plastic rheology of a viscous vertex model",
-      "url": "https://arxiv.org/abs/2602.22855",
-      "summary": "arXiv:2602.22855v2 Announce Type: replace-cross Abstract: Morphogenesis involves complex shape changes of biological tissues. Yet, tissue shape changes depend on tissue rheology, which in turn arises from the interplay o…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Fast Lane Hypothesis: Von Economo Neurons Implement a Biological Speed-Accuracy Tradeoff",
-      "url": "https://arxiv.org/abs/2604.09229",
-      "summary": "arXiv:2604.09229v2 Announce Type: replace-cross Abstract: von Economo neurons (VENs) are large bipolar projection neurons found exclusively in the anterior cingulate cortex (ACC) and frontal insula of species with comple…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An Improved Bipartition Cover Bound for the Multispecies Coalescent Model",
-      "url": "https://arxiv.org/abs/2604.09509",
-      "summary": "arXiv:2604.09509v2 Announce Type: replace-cross Abstract: Bipartition cover probabilities quantify whether a collection of gene trees contains every bipartition of the underlying species tree, a condition that underlies …",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Synchronization modes in bipartite oscillator networks",
-      "url": "https://arxiv.org/abs/2606.20345",
-      "summary": "arXiv:2606.20345v4 Announce Type: replace-cross Abstract: Collective oscillations in neuronal systems often arise from interactions between excitatory and inhibitory populations rather than from recurrent coupling within…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GEqTrain: A Configuration-Driven Framework for Retargeting Equivariant Graph Neural Networks Across 3D Scientific Tasks",
-      "url": "https://arxiv.org/abs/2607.19083",
-      "summary": "arXiv:2607.19083v2 Announce Type: replace-cross Abstract: Equivariant graph neural networks provide a powerful modeling language for three-dimensional scientific data, but their reuse is often limited by implementations …",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Rapid quantitative chemical composition mapping using model-based MRI reconstruction with field inhomogeneity correction",
-      "url": "https://arxiv.org/abs/2607.24441",
-      "summary": "arXiv:2607.24441v2 Announce Type: replace-cross Abstract: Magnetic resonance spectroscopic imaging methods are particularly attractive for chemical engineering applications, including the monitoring of chemical reactions…",
-      "ts": 1785384000000,
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-      "url": "https://openai.com/index/avatarin",
-      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-      "ts": 1785369600000,
-      "publishedAt": "2026-07-30T00:00:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

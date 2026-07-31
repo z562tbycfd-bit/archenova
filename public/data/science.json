@@ -1,7 +1,159 @@
 {
   "ok": true,
-  "updated": "2026-07-31T12:01:40.351Z",
+  "updated": "2026-07-31T15:21:00.310Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Getting outside despite your 9‑to‑5 job can improve your mental health",
+      "url": "https://phys.org/news/2026-07-9to5-job-mental-health.html",
+      "summary": "The modern workday unfolds largely indoors. Long hours spent commuting, sitting in meetings and staring at screens can make time outdoors feel like a luxury. Finding time for nature in an already packed workday can feel …",
+      "ts": 1785511205000,
+      "publishedAt": "2026-07-31T15:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemists unlock Appel fluorination with potassium fluoride",
+      "url": "https://phys.org/news/2026-07-chemists-appel-fluorination-potassium-fluoride.html",
+      "summary": "Alcohols are among the most abundant building blocks in chemistry. Fluorinated compounds, meanwhile, are essential for many modern medicines, crop protection products and advanced materials. Converting one into the other…",
+      "ts": 1785511201000,
+      "publishedAt": "2026-07-31T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Randomly mixed atoms arranged in rows and columns for sustainable catalysis",
+      "url": "https://phys.org/news/2026-07-randomly-atoms-rows-columns-sustainable.html",
+      "summary": "The energy system of the future will require sustainable catalysts that, for example, enable the efficient production of green hydrogen. Materials consisting of mixtures of five chemical elements show great promise for e…",
+      "ts": 1785510005000,
+      "publishedAt": "2026-07-31T15:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Students are anxious—and it's no surprise, since we are teaching them to be that way",
+      "url": "https://phys.org/news/2026-07-students-anxious.html",
+      "summary": "Temporary anxiety can often surface before the first day of school. Sometimes, that can help kids get in the right mindset for a big day. But when anxiety becomes a constant feature of children's and teenagers' days, tha…",
+      "ts": 1785510001000,
+      "publishedAt": "2026-07-31T15:00:01.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Is AI Reasoning Right for the Wrong Reasons?",
+      "url": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+      "summary": "The idea that artificial intelligence can “reason” is more intuitive than ever. But intuitions can be wrong, and the science is far from settled. The post Is AI Reasoning Right for the Wrong Reasons? first appeared on Qu…",
+      "ts": 1785509411000,
+      "publishedAt": "2026-07-31T14:50:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First AI-driven telescope goes stargazing",
+      "url": "https://phys.org/news/2026-07-ai-driven-telescope-stargazing.html",
+      "summary": "Every night, astronomers must carefully assess changing weather, the intensity of moonlight and shifting atmospheric conditions before deciding where to point a telescope. It's a constant balancing act designed to squeez…",
+      "ts": 1785508803000,
+      "publishedAt": "2026-07-31T14:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Surprising boiling behavior in liquids could advance future space missions",
+      "url": "https://phys.org/news/2026-07-behavior-liquids-advance-future-space.html",
+      "summary": "When astronauts travel deeper into space, every drop of fuel becomes critical, and keeping those fuels stable for months or even years is one of the biggest engineering challenges facing future missions. Now, University …",
+      "ts": 1785508801000,
+      "publishedAt": "2026-07-31T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New photonic platform offers a four-lane highway for light",
+      "url": "https://phys.org/news/2026-07-photonic-platform-lane-highway.html",
+      "summary": "Topological photonics can force propagating light to travel in a single direction—allowing researchers to route optical signals around corners and past defects without any of it scattering backward. So far, however, this…",
+      "ts": 1785507604000,
+      "publishedAt": "2026-07-31T14:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why bad health information can seem so convincing–and five ways to resist it",
+      "url": "https://phys.org/news/2026-07-bad-health-convincingand-ways-resist.html",
+      "summary": "Recent reports have highlighted AI-generated \"doctors\" spreading dubious health advice to millions of social media users. Fabricated wellness trends can travel just as quickly. A supposed \"pink jelly\" weight-loss treatme…",
+      "ts": 1785507602000,
+      "publishedAt": "2026-07-31T14:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Less-explored form of quantum code could be more powerful—and more stable—than its alternative in error correction",
+      "url": "https://phys.org/news/2026-07-explored-quantum-code-powerful-stable.html",
+      "summary": "In mathematics and getting dressed, some processes are commutative, while others are noncommutative. Commutative means the order doesn't matter (3 + 2 is the same as 2 + 3, and it doesn't matter which sock goes on first)…",
+      "ts": 1785506404000,
+      "publishedAt": "2026-07-31T14:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Poochmaxxing: the wellness industry is coming for your pets",
+      "url": "https://phys.org/news/2026-07-poochmaxxing-wellness-industry-pets.html",
+      "summary": "I am a runner who loves being active alongside my dogs. Actually, I am more of a plodder—and one with very bad knees. Those knees benefit from regular physiotherapy and sports massage. You might not be surprised, then, t…",
+      "ts": 1785506402000,
+      "publishedAt": "2026-07-31T14:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Latest woodchip bioreactor sites reducing fertilizer pollution in local waterways by up to 99%",
+      "url": "https://phys.org/news/2026-07-latest-woodchip-bioreactor-sites-fertilizer.html",
+      "summary": "High nitrogen levels entering downstream waterways can harm fragile ecosystems. Across the world, excess nutrients commonly trigger algae blooms and fish kills in enclosed waterways near intensive horticulture.",
+      "ts": 1785505202000,
+      "publishedAt": "2026-07-31T13:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Road traffic is putting smaller hedgehog populations at risk of collapse",
+      "url": "https://phys.org/news/2026-07-road-traffic-smaller-hedgehog-populations.html",
+      "summary": "A new study involving the University of Cambridge has found that road traffic kills between 15% and 29% of hedgehogs in local populations each year.",
+      "ts": 1785504001000,
+      "publishedAt": "2026-07-31T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly discovered parasite linked to coastal seabird deaths",
+      "url": "https://phys.org/news/2026-07-newly-parasite-linked-coastal-seabird.html",
+      "summary": "Along the Gulf Coast, black skimmers have long been a familiar sight—gliding just above the water with their bright orange beaks slicing through the surface to feed.",
+      "ts": 1785502803000,
+      "publishedAt": "2026-07-31T13:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Revisiting a forest experiment that lay forgotten for 30 years",
+      "url": "https://phys.org/news/2026-07-revisiting-forest-lay-forgotten-years.html",
+      "summary": "What's the best way to manage a forest? Australians have argued about this for decades. The debate is often framed as binary: Do we protect forests entirely, or harvest trees to support local economies and communities?",
+      "ts": 1785502801000,
+      "publishedAt": "2026-07-31T13:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A fire’s rumble reveals where it’s burning",
+      "url": "https://www.sciencenews.org/article/fire-sound-monitoring-tracking",
+      "summary": "Researchers tracked a prescribed grassland fire using infrasound, sound waves pitched too low for people to hear.",
+      "ts": 1785502800000,
+      "publishedAt": "2026-07-31T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers finally measure the full size of the largest known galaxy",
+      "url": "https://phys.org/news/2026-07-astronomers-full-size-largest-galaxy.html",
+      "summary": "Researchers have obtained the deepest images ever taken of IC 1101, allowing them to identify the galaxy's outer edge for the first time. The observations confirm it as the largest known galaxy, spanning roughly 520 kilo…",
+      "ts": 1785501607000,
+      "publishedAt": "2026-07-31T12:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research: Wetlands are crucial food baskets for NZ's native eels",
+      "url": "https://phys.org/news/2026-07-wetlands-crucial-food-baskets-nz.html",
+      "summary": "Conservation projects often focus on protecting a threatened species from predators and habitat destruction. But as our research shows, restoring food webs can be as important to supporting ongoing recovery.",
+      "ts": 1785501601000,
+      "publishedAt": "2026-07-31T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Can pumping groundwater really flip Earth's poles? An expert explains",
+      "url": "https://phys.org/news/2026-07-groundwater-flip-earth-poles-expert.html",
+      "summary": "Recently, a government minister in the Northern Territory, pitching a plan to make Darwin \"the data center capital of the globe,\" suggested it might be a good idea to pump out groundwater to keep Earth's spin steady. If …",
+      "ts": 1785500403000,
+      "publishedAt": "2026-07-31T12:20:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Falls in whale sightings, rare seabirds appearing—is something unusual happening in the Southern Ocean?",
@@ -647,158 +799,6 @@
       "title": "Reliability-calibrated deep residual full-waveform inversion using geometry-invariant physics encoding: synthetic validation and zero-shot Marmousi-2 testing",
       "url": "https://arxiv.org/abs/2607.28535",
       "summary": "arXiv:2607.28535v1 Announce Type: new Abstract: Neural networks that map seismic data directly to velocity models tend to memorize the acquisition geometry they were trained on, and their uncertainty estimates are rarely…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Joint measurement of cosmic-ray muons and seismic w av es at laboratory scale",
-      "url": "https://arxiv.org/abs/2607.28547",
-      "summary": "arXiv:2607.28547v1 Announce Type: new Abstract: Current geophysical exploration methods face challenges in accurately determining gas saturation levels and elastic constants with adequate spatial resolution. Seismic wave…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Computing Enabled ab initio Molecular Dynamics Simulations",
-      "url": "https://arxiv.org/abs/2607.28548",
-      "summary": "arXiv:2607.28548v1 Announce Type: new Abstract: We demonstrate a quantum-classical workflow for ab initio molecular dynamics (AIMD) in which quantum measurements from a chemistry-inspired LUCJ ansatz are post-processed u…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wavefunction-based periodic quantum chemistry",
-      "url": "https://arxiv.org/abs/2607.28554",
-      "summary": "arXiv:2607.28554v1 Announce Type: new Abstract: High-accuracy molecular quantum chemistry offers a promising toolbox for applications to condensed-phase systems, but this field is difficult to enter due to its combinatio…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Frequency-Domain Analysis of Wave Scattering by Spatially Dispersive Metasurfaces Using the Method of Auxiliary Sources",
-      "url": "https://arxiv.org/abs/2607.28558",
-      "summary": "arXiv:2607.28558v1 Announce Type: new Abstract: Spatially dispersive metasurfaces exhibit angle-dependent responses that cannot be accurately modeled using conventional local susceptibilities. Extended Generalized Sheet …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "DoTime: A Synthetic Benchmark Generator for Interventional and Counterfactual Time Series",
-      "url": "https://arxiv.org/abs/2607.27263",
-      "summary": "arXiv:2607.27263v1 Announce Type: cross Abstract: Most benchmarks for causal inference over time series are observational, small, or domain-specific, leaving interventional and counterfactual estimation under-served exac…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Non-linear Evolution of Dark Plasma Subhalos",
-      "url": "https://arxiv.org/abs/2607.27312",
-      "summary": "arXiv:2607.27312v1 Announce Type: cross Abstract: Dark matter that self interacts through long-range forces exhibits coherent, collective effects that are absent in short-range interactions. In the case where dark matter…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometry-Induced Domain-Wall Pinning and $\\mathbb{Z}_2$ Asymmetry in Nominally One-Dimensional Rydberg Arrays",
-      "url": "https://arxiv.org/abs/2607.27358",
-      "summary": "arXiv:2607.27358v1 Announce Type: cross Abstract: We perform experiments on QuEra's neutral-Rydberg-atom Aquila quantum computer, using quasi-adiabatic evolution on 1-dimensional models. We use hardware fine-tuning to ba…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparison of a Parametric Physics-Informed Neural Network and a Tensorial Reduced-Order Model for the Shallow-Water Dam-Break Problem",
-      "url": "https://arxiv.org/abs/2607.27433",
-      "summary": "arXiv:2607.27433v1 Announce Type: cross Abstract: We develop two parametric data-driven reduced models: a physics-informed neural network (PINN) and a non-intrusive tensorial reduced-order model (TROM), and apply both ap…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Testing of machine learning wavefront sensing algorithms on the Tiny Observatory for Telescope Optimization (TOTO) testbed",
-      "url": "https://arxiv.org/abs/2607.27458",
-      "summary": "arXiv:2607.27458v1 Announce Type: cross Abstract: Phase retrieval techniques are utilized to correct low order wavefront aberrations originating from misalignments of the optical system in space based telescope concepts.…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Compton Polarimeter Prototype for the CUbesat Solar Polarimeter (CUSP) mission",
-      "url": "https://arxiv.org/abs/2607.27460",
-      "summary": "arXiv:2607.27460v1 Announce Type: cross Abstract: The space-based CUbesat Solar Polarimeter (CUSP) mission aims to measure the linear polarization of solar flares in the hard X-ray band (25-100 keV) by means of a dual-ph…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nanobubbles, pristine emulsions, high ionic strength electrokinetics -- paradoxes of Colloid and Interface Science",
-      "url": "https://arxiv.org/abs/2607.27513",
-      "summary": "arXiv:2607.27513v1 Announce Type: cross Abstract: There are three paradoxes in the modern Colloid and Interface Science supported by large bulk of experimental evidence and contradicting classical theoretical models: - E…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase transitions and microphases in elastomers. I. Emergence of stable domains",
-      "url": "https://arxiv.org/abs/2607.27516",
-      "summary": "arXiv:2607.27516v1 Announce Type: cross Abstract: Elasticity often plays a key role in regulating phase separation in physical systems. Recent experiments have shown that elastic effects can be used to control microphase…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design principles for energy dissipation in viscoelastic network metamaterials",
-      "url": "https://arxiv.org/abs/2607.27525",
-      "summary": "arXiv:2607.27525v1 Announce Type: cross Abstract: Mechanical energy dissipation in networked materials is relevant for applications from vibration isolation to impact protection, yet identifying optimal dissipative archi…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploring the use of quantum computing for facilitating spatially and temporally resolved models of a biological cell",
-      "url": "https://arxiv.org/abs/2607.27571",
-      "summary": "arXiv:2607.27571v1 Announce Type: cross Abstract: Whole-cell simulation, modeling all of a cell's functional systems over its life cycle, is an outstanding challenge in computational biology. Even the simplest living cel…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quadruply Bonded Mo2 Molecules: An Innate Emitter-Resonator Quantum System in Free Space",
-      "url": "https://arxiv.org/abs/2607.27683",
-      "summary": "arXiv:2607.27683v1 Announce Type: cross Abstract: In recent decades, significant progress has been made in constructing and studying individual quantum systems based on two level atoms (molecules) and photons. Here we de…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unconventional and Fragile Magnetic Exciton in a van der Waals Quantum Magnet",
-      "url": "https://arxiv.org/abs/2607.27695",
-      "summary": "arXiv:2607.27695v1 Announce Type: cross Abstract: The recently discovered magnetic exciton in the van der Waals (vdW) antiferromagnet NiPS3 exemplifies these phenomena, exhibiting several distinctive characteristics. Des…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear Fourier spectral signatures of rogue waves observed in Bose-Einstein condensates",
-      "url": "https://arxiv.org/abs/2607.27734",
-      "summary": "arXiv:2607.27734v1 Announce Type: cross Abstract: Modulation instability provides an important framework for understanding rogue wave (RW) formation on continuous backgrounds. However, the formation mechanism and nonline…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Train Small, Deploy Large: Zero-Shot GNN Transfer Through Geometric Renormalization",
-      "url": "https://arxiv.org/abs/2607.27767",
-      "summary": "arXiv:2607.27767v1 Announce Type: cross Abstract: Graph neural networks (GNNs) can operate on large graphs but become infrastructure-sensitive at the scale of millions of nodes and typically require scalable training tec…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Magnonics: Quantum States Generation and Applications",
-      "url": "https://arxiv.org/abs/2607.27771",
-      "summary": "arXiv:2607.27771v1 Announce Type: cross Abstract: Hybrid systems based on magnons in ferromagnetic materials, such as yttrium iron garnet, have achieved remarkable development in the last decade. These include the coupli…",
       "ts": 1785470400000,
       "publishedAt": "2026-07-31T04:00:00.000Z"
     }
