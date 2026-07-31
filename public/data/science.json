@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-07-30T23:10:02.554Z",
+  "updated": "2026-07-31T03:14:42.738Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New report highlights health of the UK's plankton communities",
+      "url": "https://phys.org/news/2026-07-highlights-health-uk-plankton-communities.html",
+      "summary": "Researchers from the University of Plymouth have led the production of a new report highlighting the impact of climate change on marine plankton and pelagic habitats in U.K. waters. Published by the Marine Climate Change…",
+      "ts": 1785465601000,
+      "publishedAt": "2026-07-31T02:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Probing binary stars in the Small Magellanic Cloud with the JWST",
+      "url": "https://phys.org/news/2026-07-probing-binary-stars-small-magellanic.html",
+      "summary": "The formation and evolution of individual stars in a galaxy shape the evolution of the galaxy itself. Stars and stellar remnants make up the vast majority of a galaxy's mass, so it's not surprising that the stellar popul…",
+      "ts": 1785462001000,
+      "publishedAt": "2026-07-31T01:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Waste CO₂ converts into graphite through a newly observed two-step process",
+      "url": "https://phys.org/news/2026-07-graphite-newly.html",
+      "summary": "Graphite, the carbon core of a humble No. 2 pencil, is also an essential component in technologies such as batteries, smartphones, laptops and industrial power equipment. Today, nearly all of this critical mineral must b…",
+      "ts": 1785459601000,
+      "publishedAt": "2026-07-31T01:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Survey highlights AI's potential to advance accessibility in work and learning",
+      "url": "https://phys.org/news/2026-07-survey-highlights-ai-potential-advance.html",
+      "summary": "As artificial intelligence becomes part of how people work, learn and solve problems, a new University of Phoenix survey conducted by The Harris Poll finds that recent working learners see meaningful opportunities for AI…",
+      "ts": 1785458403000,
+      "publishedAt": "2026-07-31T00:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Risks of debris between the Earth and the moon for future exploration",
+      "url": "https://phys.org/news/2026-07-debris-earth-moon-future-exploration.html",
+      "summary": "Cislunar space has become the focal point of considerable interest and strategic planning because of the many proposed missions to send crews to the moon in the next decade. These include NASA's Artemis program, China an…",
+      "ts": 1785456001000,
+      "publishedAt": "2026-07-31T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Photonic time crystals unlock ultrafast control of light in the terahertz range",
+      "url": "https://phys.org/news/2026-07-photonic-crystals-ultrafast-terahertz-range.html",
+      "summary": "An international team of researchers from École Polytechnique, Collège de France and Helmholtz-Zentrum Dresden-Rossendorf (HZDR) has achieved a world first: the experimental realization of an all-optical photonic time cr…",
+      "ts": 1785454804000,
+      "publishedAt": "2026-07-30T23:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bacteria build a mineral shield that could help marine infrastructure resist rust",
+      "url": "https://phys.org/news/2026-07-bacteria-mineral-shield-marine-infrastructure.html",
+      "summary": "Researchers at Reichman University have developed a biological method for protecting marine infrastructure from corrosion caused by prolonged exposure to seawater. The study, published in Cell Reports Physical Science, p…",
+      "ts": 1785453604000,
+      "publishedAt": "2026-07-30T23:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A thermal camera trick could let LIGO see twice as far",
+      "url": "https://phys.org/news/2026-07-thermal-camera-ligo.html",
+      "summary": "There's a nice kind of irony buried in this story: One of the most sensitive instruments ever built, capable of measuring distortions smaller than the width of a proton, has been quietly held back by something as mundane…",
+      "ts": 1785453601000,
+      "publishedAt": "2026-07-30T23:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Pacific Ocean pattern helps explain diverging wildfire trends in US and Australia",
@@ -675,6 +739,14 @@
       "publishedAt": "2026-07-30T11:00:01.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Path-Dependency and Emergent Computing under Vectorial Driving",
+      "url": "http://link.aps.org/doi/10.1103/2pry-2kqq",
+      "summary": "Author(s): C. M. Meulblok, A. Singh, M. Labousse, and M. van Hecke A general framework unravels path dependencies across a wide range of driven complex materials. [Phys. Rev. X 16, 031023] Published Thu Jul 30, 2026",
+      "ts": 1785405600000,
+      "publishedAt": "2026-07-30T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Fock Space Prethermalization and Time-Crystalline Order on a Quantum Processor",
       "url": "http://link.aps.org/doi/10.1103/bq3c-c3d8",
@@ -729,78 +801,6 @@
       "summary": "Author(s): Kaiyu Zhang, Wladimir Zholobenko, Andreas Stegmeir, Michael Faitsch, Konrad Eder, Christoph Pitzal, Frank Jenko, and ASDEX Upgrade Team Supercomputer simulations reveal how turbulence supports a Goldilocks reg…",
       "ts": 1785405600000,
       "publishedAt": "2026-07-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Thermal Switching of Electron Transfer at a ${\\mathrm{VO}}_{2}$ Heterointerface for Accelerated Oxygen Evolution",
-      "url": "http://link.aps.org/doi/10.1103/5184-prnd",
-      "summary": "Author(s): Mengfei Lu, Yu Du, Shicheng Yan, and Zhigang Zou Structural phase transition offers an effective means to modulate interfacial electronic states and accelerate electron transfer in water electrolysis. Here, we…",
-      "ts": 1785405600000,
-      "publishedAt": "2026-07-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Exactly Solvable Topological Phase Transition in a Quantum Dimer Model",
-      "url": "http://link.aps.org/doi/10.1103/gdd1-mxy3",
-      "summary": "Author(s): Laura Shou, Jeet Shah, Matthew Lerner-Brecher, Amol Aggarwal, Alexei Borodin, and Victor Galitski We consider a family of generalized Rokhsar-Kivelson (RK) Hamiltonians, which are reverse-engineered to have an…",
-      "ts": 1785405600000,
-      "publishedAt": "2026-07-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Kardar-Parisi-Zhang Physics in Optically Confined Continuous Polariton Condensates",
-      "url": "http://link.aps.org/doi/10.1103/z3ty-255t",
-      "summary": "Author(s): Mikhail Misko, Natalia Starkova, and Pavlos G. Lagoudakis Kardar-Parisi-Zhang (KPZ) scaling has been observed in discrete polariton lattices, enabled by engineered band structures that stabilize the condensate…",
-      "ts": 1785405600000,
-      "publishedAt": "2026-07-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Guided-mode-excited nonlocal metasurfaces: Engineering angular response for stable beam steering in terahertz leaky-wave antennas",
-      "url": "http://link.aps.org/doi/10.1103/9xhr-jss4",
-      "summary": "Author(s): Seokjun Kim, Haneul Ryu, and Minseok Kim This work proposes a nonlocal terahertz metasurface that suppresses the gain degradation intrinsic to local-metasurface-aided leaky-wave antennas by maintaining a stabl…",
-      "ts": 1785405600000,
-      "publishedAt": "2026-07-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Mutual dynamics between dual-polarization solitons for spectral-domain acoustic signal measurement",
-      "url": "http://link.aps.org/doi/10.1103/w3j7-jl76",
-      "summary": "Author(s): Yujia Li, Laiyang Dang, Wenhao Zhu, Yihuan Shi, Feng Li, and Dongmei Huang The birefringence mode-locked fiber laser-based dual-comb sources have strong potential in the fast spectroscopy, ranging and imaging,…",
-      "ts": 1785405600000,
-      "publishedAt": "2026-07-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Magnon mode hopping near the second-order phase transition in yttrium iron garnet film",
-      "url": "http://link.aps.org/doi/10.1103/d2cv-94p2",
-      "summary": "Author(s): Junning Zhao, Ruitong Sun, Guanqi Ye, Zijie Zhou, Xin Xie, and Fusheng Ma Nonlinear phenomena play a crucial role across diverse physical systems, providing key insights into complex interactions and emergent …",
-      "ts": 1785405600000,
-      "publishedAt": "2026-07-30T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Temporally multiplexed ion-photon quantum interface via fast ion-chain transport",
-      "url": "http://link.aps.org/doi/10.1103/ppm8-8kx5",
-      "summary": "Author(s): Bingran You, Qiming Wu, David Miron, Wenjun Ke, Inder Monga, Erhan Saglamyurek, and Hartmut Haeffner High-rate remote entanglement between photon and matter-based qubits is essential for distributed quantum in…",
-      "ts": 1785405600000,
-      "publishedAt": "2026-07-30T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The trillion-dollar question behind corporate net-zero pledges",
-      "url": "https://phys.org/news/2026-07-trillion-dollar-corporate-net-pledges.html",
-      "summary": "Corporate climate spending now steers trillions of dollars in transition finance worldwide. Does it drive genuine climate action? Research shows that accounting flexibility alone can make a company's reported emissions v…",
-      "ts": 1785402003000,
-      "publishedAt": "2026-07-30T09:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Meet the astronomer digging into the Milky Way's 'fossils'",
-      "url": "https://phys.org/news/2026-07-astronomer-milky-fossils.html",
-      "summary": "Amina Helmi's passion for the Milky Way is clear as soon as one steps into her small office at the University of Groningen, in the north of the Netherlands.",
-      "ts": 1785400201000,
-      "publishedAt": "2026-07-30T08:30:01.000Z"
     }
   ],
   "sources": [

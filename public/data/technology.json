@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-07-30T23:10:05.037Z",
+  "updated": "2026-07-31T03:14:45.329Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Rules of the road needed for orbital data center constellations",
+      "url": "https://spacenews.com/rules-of-the-road-needed-for-orbital-data-center-constellations/",
+      "summary": "As companies develop large constellations of orbital data center satellites, experts say now is the time to start thinking about some critical space safety topics and rules of the road. The post Rules of the road needed …",
+      "ts": 1785456037000,
+      "publishedAt": "2026-07-31T00:00:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Spatiotemporal Multiomics Charts Cellular Dynamics of Liver Metastasis",
+      "url": "https://www.genengnews.com/topics/cancer/spatiotemporal-multiomics-charts-cellular-dynamics-of-liver-metastasis/",
+      "summary": "The team integrated high-resolution spatial transcriptomics, single-cell RNA sequencing, and chromatin-accessibility profiling across nine sequential stages of lung colonization in mouse models. The post Spatiotemporal M…",
+      "ts": 1785453456000,
+      "publishedAt": "2026-07-30T23:17:36.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Capricor’s data clash and a fugitive in the C-suite",
@@ -471,6 +489,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "url": "https://openai.com/index/avatarin",
+      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "ts": 1785369600000,
+      "publishedAt": "2026-07-30T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "SpaceNews",
       "title": "Proposed rule would exempt commercial launch licensing from environmental regulations",
       "url": "https://spacenews.com/proposed-rule-would-exempt-commercial-launch-licensing-from-environmental-regulations/",
@@ -784,33 +811,6 @@
       "ts": 1785327011000,
       "publishedAt": "2026-07-29T12:10:11.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: a chip talent battle, and deflating AI hype",
-      "url": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Samsung’s chip workers are jumping ship to rival SK Hynix Lee, an engineer at Sams…",
-      "ts": 1785327000000,
-      "publishedAt": "2026-07-29T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Sage Inks Licensing Deal with Causaly’s AI Platform Focusing on Drug Discovery Research",
-      "url": "https://www.genengnews.com/industry-news/sage-inks-publishing-deal-with-causalys-ai-platform-focusing-on-drug-discovery-research/",
-      "summary": "In a new publishing deal, Causaly and Sage have announced a partnership to bring full-text scientific peer-reviewed literature into the world of AI-powered drug discovery research. The deal also marks Causaly’s first par…",
-      "ts": 1785326456000,
-      "publishedAt": "2026-07-29T12:00:56.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Rohingya refugees, Bahá’ís in Iran, disarmament in the Central African Republic",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168049",
-      "summary": "Independent UN experts on Wednesday called for urgent action to support Rohingya refugees in Bangladesh after reports indicated two boats carrying more than 500 passengers may have capsized off the coast of Myanmar in mi…",
-      "ts": 1785326400000,
-      "publishedAt": "2026-07-29T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
