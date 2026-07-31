@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-07-31T19:36:40.354Z",
+  "updated": "2026-07-31T21:07:44.216Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Smarter fish farms could cut electricity use and CO₂ while keeping fish safe",
+      "url": "https://phys.org/news/2026-07-smarter-fish-farms-electricity-safe.html",
+      "summary": "Recirculating aquaculture systems (RAS) are attracting growing attention as a sustainable aquaculture technology that can reduce water use, control rearing conditions and lower environmental impacts by filtering and reus…",
+      "ts": 1785531604000,
+      "publishedAt": "2026-07-31T21:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new genetic tool helps researchers uncover the logic of gene regulation",
+      "url": "https://phys.org/news/2026-07-genetic-tool-uncover-logic-gene.html",
+      "summary": "The human genome contains more than 20,000 genes. However, at any given time and in a given cell, only a fraction are active. Researchers from EMBL Heidelberg's Krebs Group have developed an innovative experimental appro…",
+      "ts": 1785531602000,
+      "publishedAt": "2026-07-31T21:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "From research to policy: Study turns EU wildfire assessments into a tool for better governance",
+      "url": "https://phys.org/news/2026-07-policy-eu-wildfire-tool.html",
+      "summary": "Climate change, land-use change and socioeconomic pressures are turning wildfires from a primarily ecological process into a complex, systemic risk that cuts across ecosystems, infrastructure, public health, water resour…",
+      "ts": 1785530405000,
+      "publishedAt": "2026-07-31T20:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly discovered mechanism protects DNA during cell division",
+      "url": "https://phys.org/news/2026-07-newly-mechanism-dna-cell-division.html",
+      "summary": "Every time a cell divides, it must accurately copy and distribute its DNA between two new cells. However, in some cases, chromosomes do not fully separate, leaving behind thin strands of DNA known as DNA bridges that con…",
+      "ts": 1785530403000,
+      "publishedAt": "2026-07-31T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Isotopic analysis may help police combat illegal timber trade in Amazon",
+      "url": "https://phys.org/news/2026-07-isotopic-analysis-police-combat-illegal.html",
+      "summary": "A map showing the distribution of isotopes in Amazonian tree wood can help identify illegally harvested timber. By analyzing the ratio of different isotopes of elements such as oxygen, carbon, nitrogen and strontium, res…",
+      "ts": 1785529203000,
+      "publishedAt": "2026-07-31T20:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Homing in on the X-ray sky with eROSITA's second data release",
+      "url": "https://phys.org/news/2026-07-homing-ray-sky-erosita.html",
+      "summary": "The German eROSITA consortium (eROSITA-DE), which includes the University of Bonn and is led by the Max Planck Institute for Extraterrestrial Physics (MPE), has released its second major public data set, the \"eROSITA Dat…",
+      "ts": 1785529201000,
+      "publishedAt": "2026-07-31T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "ELT's spectrograph could 'sniff out' biosignatures on other worlds",
+      "url": "https://phys.org/news/2026-07-elt-spectrograph-biosignatures-worlds.html",
+      "summary": "Before any major telescope commissioning, there are dozens of papers that attempt to define what we can expect from it. We're starting to see some come through for the Extremely Large Telescope (ELT), which hopefully wil…",
+      "ts": 1785528003000,
+      "publishedAt": "2026-07-31T20:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Optimized magnetic pulses could cut memory switching energy by several orders of magnitude",
+      "url": "https://phys.org/news/2026-07-optimized-magnetic-pulses-memory-energy.html",
+      "summary": "Information and communication technologies (ICTs) driven by artificial intelligence (AI) are generating data at an unprecedented rate. Every internet search, AI-generated image, recommendation, scientific simulation and …",
+      "ts": 1785528001000,
+      "publishedAt": "2026-07-31T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Lichen-like life 600 million years ago may push back origins of fungal-algal partnerships",
+      "url": "https://phys.org/news/2026-07-lichen-life-million-years-fungal.html",
+      "summary": "Two organisms inhabiting a common environment can sometimes mutually influence each other, either benefiting or, in some cases, damaging one another. This mutually beneficial or ambivalent biological relationship is know…",
+      "ts": 1785526805000,
+      "publishedAt": "2026-07-31T19:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Technical flaws may inflate Australia's forest carbon credits",
+      "url": "https://phys.org/news/2026-07-technical-flaws-inflate-australia-forest.html",
+      "summary": "AFPA has echoed serious concerns raised by Forestry Australia over the federal government's controversial new carbon credit method, warning it undermines the integrity and credibility of Australia's carbon market.",
+      "ts": 1785526804000,
+      "publishedAt": "2026-07-31T19:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A backup fluoride defense in soil bacteria could aid greener chemical production",
@@ -719,86 +799,6 @@
       "title": "Three-Photon Bayesian Imaging of Ortho-Positronium",
       "url": "https://arxiv.org/abs/2607.27741",
       "summary": "arXiv:2607.27741v1 Announce Type: new Abstract: PET provides functional images relying on two-photon coincidences from positron-electron annihilation. In human tissue, about 40\\% of annihilations are preceded by Ps forma…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Bounded-Latency Spherical-Histogram Reconstruction for Compton Cameras",
-      "url": "https://arxiv.org/abs/2607.27785",
-      "summary": "arXiv:2607.27785v1 Announce Type: new Abstract: Gamma-ray imaging with Compton cameras is computationally demanding because conventional reconstruction retains the list-mode acquisition inside the inversion loop: event-d…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Can AI Follow In Einstein's Footsteps?",
-      "url": "https://arxiv.org/abs/2607.27794",
-      "summary": "arXiv:2607.27794v1 Announce Type: new Abstract: AI is accelerating physics discovery, but perhaps away from Einstein-level theory building. To understand this gap, we must recognize a striking trend: while being very suc…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Earthquake Detection Using Benford's Law",
-      "url": "https://arxiv.org/abs/2607.27821",
-      "summary": "arXiv:2607.27821v1 Announce Type: new Abstract: Reliable detection of local earthquakes and accurate identification of P-wave onsets are fundamental tasks in seismology, yet many existing methods to accomplish them requi…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vector field theory in motion: Revealing latent potentials in soccer dynamics",
-      "url": "https://arxiv.org/abs/2607.27838",
-      "summary": "arXiv:2607.27838v1 Announce Type: new Abstract: Team sports offer a natural laboratory for studying collective motion in competitive environments. While recent tracking technologies enabled detailed analysis of player an…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ranking the drivers of the Venusian bow shock and ion composition boundary locations",
-      "url": "https://arxiv.org/abs/2607.27866",
-      "summary": "arXiv:2607.27866v1 Announce Type: new Abstract: The Venusian interaction with the solar wind leads to the formation of an induced magnetosphere structured by plasma boundaries. Their dynamics is complex, due to the combi…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Establishing an independent measurement traceability for 60-Co Air Kerma",
-      "url": "https://arxiv.org/abs/2607.27875",
-      "summary": "arXiv:2607.27875v1 Announce Type: new Abstract: An independent air kerma traceability chain for $^{60}$Co radiation protection levels has been successfully established at the CIEMAT Ionizing Radiation Metrology Laborator…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Brewster-anomaly delocalization for free-electron radiation",
-      "url": "https://arxiv.org/abs/2607.27894",
-      "summary": "arXiv:2607.27894v1 Announce Type: new Abstract: Localization effects are central to disordered electronics and photonics. In electronics, Anderson localization governs electron confinement in randomly perturbed lattices.…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Quantum Mechanical Approach to the Computation of Rovibrational Spectra of Diatomic Molecules in Strong Magnetic Fields",
-      "url": "https://arxiv.org/abs/2607.27907",
-      "summary": "arXiv:2607.27907v1 Announce Type: new Abstract: In the absence of experimental data for molecular spectra in strong magnetic fields, high resolution and reliable computational spectra are required for the interpretation …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Second Quadratic Invariant of Astrophysical Gyrokinetics",
-      "url": "https://arxiv.org/abs/2607.27981",
-      "summary": "arXiv:2607.27981v1 Announce Type: new Abstract: We show that gyrokinetics in a spatially uniform equilibrium (or `astrophysical gyrokinetics') possesses a previously unknown quadratic invariant, which we call the gyrokin…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonclassical condensation pathways revealed by the multivariable theory of nucleation",
-      "url": "https://arxiv.org/abs/2607.27997",
-      "summary": "arXiv:2607.27997v1 Announce Type: new Abstract: We extend classical nucleation theory (CNT) by explicitly incorporating the multidimensional nature of nucleation and the coupled roles of kinetics and thermodynamics. Spec…",
       "ts": 1785470400000,
       "publishedAt": "2026-07-31T04:00:00.000Z"
     }

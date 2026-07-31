@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-31T19:36:42.897Z",
+  "updated": "2026-07-31T21:07:46.969Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,24 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Sending repurposed Mars rover to the moon could cost more than $1 billion",
+      "url": "https://spacenews.com/sending-repurposed-mars-rover-to-the-moon-could-cost-more-than-1-billion/",
+      "summary": "Converting an engineering model of a Mars rover into an actual lunar rover could cost NASA more than $1 billion, an estimate strongly rejected by the agency’s administrator. The post Sending repurposed Mars rover to the …",
+      "ts": 1785531223000,
+      "publishedAt": "2026-07-31T20:53:43.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Newest Wind Tunnel Opens at NASA Langley",
+      "url": "https://www.nasa.gov/image-article/nasas-newest-wind-tunnel-opens-at-nasa-langley/",
+      "summary": "On Friday, July 31, 2026, NASA leadership and Virginia government officials opened NASA’s first major new wind tunnel in more than 40 years, the Flight Dynamics Research Facility at NASA’s Langley Research Center in Hamp…",
+      "ts": 1785529177000,
+      "publishedAt": "2026-07-31T20:19:37.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -793,24 +811,6 @@
       "ts": 1785396000000,
       "publishedAt": "2026-07-30T07:20:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Tritium Level Far Below Japan’s Operational Limit in 22nd Batch of ALPS Treated Water, IAEA Confirms",
-      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-22nd-batch-of-alps-treated-water-iaea-confirms",
-      "summary": "",
-      "ts": 1785393068000,
-      "publishedAt": "2026-07-30T06:31:08.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Is it safe to drink Red Bull and alcohol? Questionable research tied to energy drink giant has shaped policy",
-      "url": "https://www.statnews.com/2026/07/30/red-bull-funded-studies-energy-drinks-alcohol-shape-policy/?utm_campaign=rss",
-      "summary": "Studies tied to Red Bull helped block warning labels about drinking alcohol along with energy drinks. Independent studies report risks in mixing the two.",
-      "ts": 1785384300000,
-      "publishedAt": "2026-07-30T04:05:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
