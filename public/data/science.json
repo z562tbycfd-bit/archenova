@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-07-31T21:07:44.216Z",
+  "updated": "2026-07-31T23:03:25.554Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Fish pathogens once limited to Asia and US emerge in Brazilian farms",
+      "url": "https://phys.org/news/2026-07-fish-pathogens-limited-asia-emerge.html",
+      "summary": "For the first time in Brazil, scientists have identified the presence of bacteria that cause columnaris disease, a serious disease in farmed fish intended for human consumption. Previously, different species of the genus…",
+      "ts": 1785536401000,
+      "publishedAt": "2026-07-31T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Moonquakes could reveal ice buried beneath lunar south polar craters",
+      "url": "https://phys.org/news/2026-07-moonquakes-reveal-ice-beneath-lunar.html",
+      "summary": "Finding water on the moon may only be a matter of detecting the right vibrations.",
+      "ts": 1785534003000,
+      "publishedAt": "2026-07-31T21:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laying odds on the potential for Martian water near future landing zones",
+      "url": "https://phys.org/news/2026-07-laying-odds-potential-martian-future.html",
+      "summary": "We know Mars has water ice in its polar regions, but astronauts (and their solar-powered equipment!) would much rather experience life closer to Mars' equator. As NASA looks toward landing humans on the red planet, the P…",
+      "ts": 1785532803000,
+      "publishedAt": "2026-07-31T21:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Art festivals may revive island communities when tourism stays within local limits",
+      "url": "https://phys.org/news/2026-07-art-festivals-revive-island-communities.html",
+      "summary": "Grounding intermittent art festivals such as the Setouchi Triennale within the resource capacities and social thresholds of the island communities that host them is a path to the sustainable, long-term revitalization of …",
+      "ts": 1785532801000,
+      "publishedAt": "2026-07-31T21:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Smarter fish farms could cut electricity use and CO₂ while keeping fish safe",
@@ -767,38 +799,6 @@
       "title": "Modified Dynamic Mixed Subgrid-scale Models for Geophysical Flows: Forced Two-Dimensional and $\\beta$-plane Turbulence",
       "url": "https://arxiv.org/abs/2607.27567",
       "summary": "arXiv:2607.27567v1 Announce Type: new Abstract: Subgrid-scale (SGS) models for large-eddy simulations (LES) of geophysical turbulence typically need to balance dissipative regularization with backscatter, the upscale tra…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mesh Adaptation on Hybrid Unstructured Meshes for Immersed Boundary Methods",
-      "url": "https://arxiv.org/abs/2607.27580",
-      "summary": "arXiv:2607.27580v1 Announce Type: new Abstract: In this work, we describe a new preprocessing tool for mesh adaptation on hybrid unstructured meshes with a target application on immersed boundary methods. The tool has as…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Targeted Quarantine Strategies Mitigate SIS-model Cyber Epidemics on Complex Networks",
-      "url": "https://arxiv.org/abs/2607.27624",
-      "summary": "arXiv:2607.27624v1 Announce Type: new Abstract: The rapid expansion of highly connected and heterogeneous digital infrastructures has fundamentally altered the dynamics of cyber epidemics, making it increasingly importan…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-mode fiber enabled multi-wavelength optical trapping and dynamic manipulation",
-      "url": "https://arxiv.org/abs/2607.27715",
-      "summary": "arXiv:2607.27715v1 Announce Type: new Abstract: Optical fiber tweezers offer distinct advantages for long-distance manipulation, compact integration, and minimally invasive operation in biological environments. However, …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-Photon Bayesian Imaging of Ortho-Positronium",
-      "url": "https://arxiv.org/abs/2607.27741",
-      "summary": "arXiv:2607.27741v1 Announce Type: new Abstract: PET provides functional images relying on two-photon coincidences from positron-electron annihilation. In human tissue, about 40\\% of annihilations are preceded by Ps forma…",
       "ts": 1785470400000,
       "publishedAt": "2026-07-31T04:00:00.000Z"
     }
