@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-01T09:07:12.651Z",
+  "updated": "2026-08-01T11:18:00.256Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Deadly blooms offer a genetic blueprint for making hard-to-synthesize medicinal compounds",
+      "url": "https://phys.org/news/2026-07-deadly-blooms-genetic-blueprint-hard.html",
+      "summary": "Two plants that cause neurotoxicity and paralysis in the tiniest doses are also known to counter pain, malaria, cancer and pests. For the first time, researchers discovered a way to recreate these powerful compounds in t…",
+      "ts": 1785582006000,
+      "publishedAt": "2026-08-01T11:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Leave it: Dog trainers help pets avoid poisonous snakes",
+      "url": "https://phys.org/news/2026-08-dog-trainers-pets-poisonous-snakes.html",
+      "summary": "Ripley, a medium-sized dog with a strong prey drive, curiously approached Brian, a large western diamondback rattlesnake, until she got a quick zap on the neck meant to simulate a venomous viper's bite.",
+      "ts": 1785582001000,
+      "publishedAt": "2026-08-01T11:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Solar wind stirs Mars' upper atmosphere, boosting ion loss to space",
+      "url": "https://phys.org/news/2026-07-solar-mars-upper-atmosphere-boosting.html",
+      "summary": "Our sun constantly releases a stream of high-speed charged particles, known as the solar wind. Unlike Earth, Mars does not have a strong global magnetic field to shield its atmosphere from this flow. As a result, the sol…",
+      "ts": 1785579601000,
+      "publishedAt": "2026-08-01T10:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A rollercoaster of weather extremes: Drought and heat waves are creating UK's climate whiplash",
+      "url": "https://phys.org/news/2026-07-rollercoaster-weather-extremes-drought-uk.html",
+      "summary": "The UK is bouncing from one type of extreme weather to another this year. This is climate whiplash. Caused by changes in the fast-moving body of air high in the atmosphere called the jet stream, climate whiplash has beco…",
+      "ts": 1785578401000,
+      "publishedAt": "2026-08-01T10:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Strengthening El Nino 'adding fuel to a planet already on fire': UN chief",
@@ -20,8 +52,64 @@
     },
     {
       "source": "Nature Communications",
+      "title": "LINE-1 insertion intermediates recombine with one another or with DNA breaks to form genome rearrangements",
+      "url": "https://www.nature.com/articles/s41467-026-76308-7",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "The transcription factor C/EBPβ promotes hyperglycemia-elicited glycolysis and liver cancer progression",
       "url": "https://www.nature.com/articles/s41467-026-76209-9",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Where the river turns old: urbanized deltas imprint a fossil signature on black carbon exported to the ocean",
+      "url": "https://www.nature.com/articles/s41467-026-76202-2",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Ruxolitinib prevents irreversible autoimmune endocrinopathies in APECED",
+      "url": "https://www.nature.com/articles/s41467-026-76285-x",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A molecular velcro self-healing cement",
+      "url": "https://www.nature.com/articles/s41467-026-76061-x",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "All-small-molecule Hydrogels for Safe and Efficient Photoprotection",
+      "url": "https://www.nature.com/articles/s41467-026-75884-y",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A massively parallel CRISPR-based screening platform for modifiers of neuronal depolarization",
+      "url": "https://www.nature.com/articles/s41467-026-75882-0",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Reaction-induced surface/subsurface indium species formation on ZrO<sub>2</sub> for enhanced CO<sub>2</sub> hydrogenation to methanol",
+      "url": "https://www.nature.com/articles/s41467-026-76170-7",
       "summary": "",
       "ts": 1785542400000,
       "publishedAt": "2026-08-01T00:00:00.000Z"
@@ -555,14 +643,6 @@
       "publishedAt": "2026-07-31T11:00:04.000Z"
     },
     {
-      "source": "APS PRX",
-      "title": "Unlocking Emergent Resilience in Amorphous Metamaterials via a Physics-Constrained Energy-Based Framework",
-      "url": "http://link.aps.org/doi/10.1103/77mh-hflq",
-      "summary": "Author(s): Lingyu Jia, Changliang Zhu, Qiaozhi Lei, Hua Tong, Jinkui Meng, Chengyan Xu, Xiangying Shen, and Lei Xu A physics-constrained design framework may aid the search for lightweight but resilient material. [Phys. …",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Dissecting Jet Modification in the Quark-Gluon Plasma with Multipoint Energy Correlators",
       "url": "http://link.aps.org/doi/10.1103/9jzc-7jcv",
@@ -599,6 +679,14 @@
       "title": "Compounding Formula Approach to Chromatin and Active Polymer Dynamics",
       "url": "http://link.aps.org/doi/10.1103/y2y6-jfyt",
       "summary": "Author(s): Takahiro Sakaue and Enrico Carlon Active polymers are ubiquitous in nature, and often kicked by persistent noises that break detailed balance. In order to capture the out-of-equilibrium dynamics of such active…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Unlocking Emergent Resilience in Amorphous Metamaterials via a Physics-Constrained Energy-Based Framework",
+      "url": "http://link.aps.org/doi/10.1103/77mh-hflq",
+      "summary": "Author(s): Lingyu Jia, Changliang Zhu, Qiaozhi Lei, Hua Tong, Jinkui Meng, Chengyan Xu, Xiangying Shen, and Lei Xu A physics-constrained design framework may aid the search for lightweight but resilient material. [Phys. …",
       "ts": 1785492000000,
       "publishedAt": "2026-07-31T10:00:00.000Z"
     },
@@ -711,94 +799,6 @@
       "title": "Data Field Theory: Theory and Applications of the Functional Renormalization Group for Signal Detection",
       "url": "https://arxiv.org/abs/2607.27236",
       "summary": "arXiv:2607.27236v1 Announce Type: new Abstract: We review the renormalization group framework for signal detection in high-dimensional data, tailored to the regime where the signal may be of extensive rank and does not s…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multibranched parametric resonance and swallowtail catastrophe in electromechanical oscillators with nonlinear friction",
-      "url": "https://arxiv.org/abs/2607.27242",
-      "summary": "arXiv:2607.27242v1 Announce Type: new Abstract: Parametric resonance underpins the operation of a wide range of physical systems, from nanomechanical resonators to quantum-information systems and Ising machines. As an ar…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ghosts that Connect",
-      "url": "https://arxiv.org/abs/2607.27297",
-      "summary": "arXiv:2607.27297v1 Announce Type: new Abstract: The Faddeev--Popov procedure poses two conceptual puzzles. \\emph{Puzzle~(1)}: if gauge-equivalent configurations represent the same physics, the quotient $\\F/\\G$ should suf…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "New techniques for high-resolution imaging and high-precision wavefront sensing via masked-aperture interferometry",
-      "url": "https://arxiv.org/abs/2607.27347",
-      "summary": "arXiv:2607.27347v1 Announce Type: new Abstract: Achieving high-angular-resolution imaging on subarcsecond scales is fundamentally limited by wavefront aberrations imparted by the propagation medium and by optical element…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Informed Neural Networks for 2D Plane Wave Scattering in Arbitrary Dielectric Structures",
-      "url": "https://arxiv.org/abs/2607.27349",
-      "summary": "arXiv:2607.27349v1 Announce Type: new Abstract: In this paper, we introduce a meshless physics-informed neural network based computational framework for solving two-dimensional electromagnetic wave scattering in inhomoge…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fresnel Drag in the Homogenization Limit with Space-Time-Modulated Wire Media",
-      "url": "https://arxiv.org/abs/2607.27362",
-      "summary": "arXiv:2607.27362v1 Announce Type: new Abstract: Space-time modulations of the electromagnetic response offer new opportunities for wave control. In particular, such systems can emulate moving-medium responses and the ass…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multiplicity of Massive Stars at Low Metallicity: Early Results from the BLOeM Campaign",
-      "url": "https://arxiv.org/abs/2607.27395",
-      "summary": "arXiv:2607.27395v1 Announce Type: new Abstract: Massive stars at low metallicity (Z) play a central role in shaping the high-redshift Universe, yet their multiplicity remains poorly constrained. The Binarity at Low Metal…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Continuous Game of Life: cell emergence and self-organization at the edge of growth",
-      "url": "https://arxiv.org/abs/2607.27402",
-      "summary": "arXiv:2607.27402v1 Announce Type: new Abstract: Conway's Game of Life shows that simple rules can generate a rich diversity of emerging structures. This cellular automaton has been translated to continuous space by Rafle…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A sub-grid-scale model for polydisperse bubbly flows with heat and mass transfer",
-      "url": "https://arxiv.org/abs/2607.27426",
-      "summary": "arXiv:2607.27426v1 Announce Type: new Abstract: Ensemble-averaged models of polydisperse bubbly flows require statistics of the evolving bubble population. Prior quadrature-based moment formulations close bubble pressure…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rethinking Artificial Intelligence in Medical Imaging: Assumptions, Reality, and Reframing",
-      "url": "https://arxiv.org/abs/2607.27428",
-      "summary": "arXiv:2607.27428v1 Announce Type: new Abstract: Medical imaging has served as primary proving ground for clinical artificial intelligence (AI), yet a decade of intense research has not translated into proportionate bedsi…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Kinetic Linear Stability Theory for High-Speed Compressible Flows: A High Performance Computing Framework",
-      "url": "https://arxiv.org/abs/2607.27440",
-      "summary": "arXiv:2607.27440v1 Announce Type: new Abstract: Shock waves in high-speed compressible flows contain finite-thickness, high-gradient regions where the continuum assumption becomes questionable and translational non-equil…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Do ions have a coating in neuronal electrolytes under an electric field?",
-      "url": "https://arxiv.org/abs/2607.27446",
-      "summary": "arXiv:2607.27446v1 Announce Type: new Abstract: Ions in electrolytes can have coatings and can combine into different complexes that significantly affects their size, mass, and transport features. Measuring such coatings…",
       "ts": 1785470400000,
       "publishedAt": "2026-07-31T04:00:00.000Z"
     }
