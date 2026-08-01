@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-01T17:01:50.813Z",
+  "updated": "2026-08-01T19:11:36.686Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Unusual metal oxide shows signs of magnetism under lattice strain in ultrathin layers",
+      "url": "https://phys.org/news/2026-07-unusual-metal-oxide-magnetism-lattice.html",
+      "summary": "Ruthenium dioxide (RuO2) is a metal oxide that commonly serves as an important metallic conductor, quantum material and industrial electrocatalyst. While there have been debates surrounding the magnetic properties of RuO…",
+      "ts": 1785609601000,
+      "publishedAt": "2026-08-01T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oil droplets remodel themselves, swallow their surroundings like living cells",
+      "url": "https://phys.org/news/2026-07-oil-droplets-remodel-swallow-cells.html",
+      "summary": "NYU researchers have made microscopic oil droplets in water do something usually reserved for living cells: change shape in complex, controllable ways and even engulf their surroundings.",
+      "ts": 1785607203000,
+      "publishedAt": "2026-08-01T18:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Four ways wildfires generate tornadoes, lightning and other extreme weather, sometimes miles from the flames",
+      "url": "https://phys.org/news/2026-07-ways-wildfires-generate-tornadoes-lightning.html",
+      "summary": "Thick smoke from massive wildfires has been spreading in North America and Europe once again in 2026. The health impacts of breathing this particle-filled air are becoming well known, but wildfires' influence on the weat…",
+      "ts": 1785607201000,
+      "publishedAt": "2026-08-01T18:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Brittany burial mounds may hide human-shaped stones as Coëby cemetery mystery deepens",
@@ -772,33 +796,9 @@
     },
     {
       "source": "APS PR Applied",
-      "title": "Physical implementation of analytic derivatives on a photonic quantum computer",
-      "url": "http://link.aps.org/doi/10.1103/yrst-tr19",
-      "summary": "Author(s): Sebastiano Corli, Giorgio Panichi, Samuele Altilia, Edoardo Suerra, Simone Cialdi, and Enrico Prati A limiting factor to the exploitation of continuous variables in quantum computing, in particular in the fiel…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Efficient modeling algorithm and design-space exploration for double-free-layer magnetic tunnel junctions",
-      "url": "http://link.aps.org/doi/10.1103/xlfp-z2hf",
-      "summary": "Author(s): Zifeng Wang, Hongwei Zhou, Suteng Zhao, Weisheng Zhao, and Lang Zeng The double-free-layer magnetic tunnel junction has emerged as a promising structure for high-density memory applications due to its enhanced…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Tunable control of the magnetic near-field pattern in MRI via concentric split-ring resonators",
-      "url": "http://link.aps.org/doi/10.1103/yw1d-489h",
-      "summary": "Author(s): Leila V. Sharipova, Alena V. Shchelokova, and Viktor M. Puchnin The authors propose a strategy for passive radio-frequency shimming iin high-field MRI, based on controlled frequency detuning of concentric spli…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Subsurface detection by a vehicle-based atom gravity gradiometer",
-      "url": "http://link.aps.org/doi/10.1103/bjcp-r4d6",
-      "summary": "Author(s): Xiao-Wei Zhang, Jia-Qi Zhong, Mu-Yan Wang, Hui-Lin Wan, Hui Xiong, Dan-Dan Jiang, Zhi Li, De-Kai Mao, Bin Gao, Biao Tang, Xi Chen, Jin Wang, and Ming-Sheng Zhan Measuring gravity gradients with atomic interfer…",
+      "title": "Phase-controllable elastic impedance matching via Willis metamaterials",
+      "url": "http://link.aps.org/doi/10.1103/6622-xpm5",
+      "summary": "Author(s): Sang Vin Jang, Hayoung Chung, and Joo Hwan Oh The conventional impedance matching based on Fabry-Perot resonance has been widely used to overcome impedance mismatch. However, the phase of transmitted wave in i…",
       "ts": 1785492000000,
       "publishedAt": "2026-07-31T10:00:00.000Z"
     }
