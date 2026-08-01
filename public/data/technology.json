@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-01T21:59:22.281Z",
+  "updated": "2026-08-01T23:02:36.900Z",
   "items": [
     {
       "source": "OpenAI",
@@ -13,9 +13,9 @@
     },
     {
       "source": "SpaceNews",
-      "title": "Space Force awards K2 Space $22.9 million for orbital laser communications demonstration",
+      "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
       "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/",
-      "summary": "Two K2 satellites will host optical terminals intended to connect military systems in orbit The post Space Force awards K2 Space $22.9 million for orbital laser communications demonstration appeared first on SpaceNews.",
+      "summary": "Two K2 satellites will host optical terminals intended to connect military systems in orbit The post Space Force awards K2 Space $22.9 million for laser communications demonstration appeared first on SpaceNews.",
       "ts": 1785616119000,
       "publishedAt": "2026-08-01T20:28:39.000Z",
       "categoryId": "space"

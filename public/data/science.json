@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-01T21:59:18.461Z",
+  "updated": "2026-08-01T23:02:34.881Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What this western Pennsylvania '90s Pizza Hut reveals about nostalgia",
+      "url": "https://phys.org/news/2026-07-western-pennsylvania-90s-pizza-hut.html",
+      "summary": "A Pizza Hut in southwest Pennsylvania was recently highlighted for preserving its retro 1990s appearance, even as hundreds of other locations have closed across the United States.",
+      "ts": 1785621601000,
+      "publishedAt": "2026-08-01T22:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How molecular tethers and asynchronous replication drive parasite proliferation",
@@ -791,14 +799,6 @@
       "title": "Fermi-Surface-Sheet Dependent Electron-Phonon Coupling in a Borocarbide Superconductor ${\\text{YNi}}_{2}{\\mathrm{B}}_{2}\\mathrm{C}$",
       "url": "http://link.aps.org/doi/10.1103/m6r6-vpdg",
       "summary": "Author(s): Taichi Terashima, Hiroyuki Takeya, and Hisatomo Harima We performed de Haas–van Alphen (dHvA) oscillation measurements and band-structure calculations for ${\\text{YNi}}_{2}{\\mathrm{B}}_{2}\\mathrm{C}$. Our impr…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Quantum Kinetic Uncertainty Relations in Mesoscopic Conductors at Strong Coupling",
-      "url": "http://link.aps.org/doi/10.1103/9xcz-nlqk",
-      "summary": "Author(s): Gianmichele Blasi, Ricard Ravell Rodríguez, Mykhailo Moskalets, Rosa López, and Géraldine Haack Kinetic uncertainty relations (KURs) set fundamental limits on the precision of nonequilibrium transport by bound…",
       "ts": 1785492000000,
       "publishedAt": "2026-07-31T10:00:00.000Z"
     }
