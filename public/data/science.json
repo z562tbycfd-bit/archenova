@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-01T11:18:00.256Z",
+  "updated": "2026-08-01T13:25:38.668Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers investigate case of soft-tick borne relapsing fever in Austin area",
+      "url": "https://phys.org/news/2026-08-case-soft-borne-relapsing-fever.html",
+      "summary": "Researchers at Baylor College of Medicine and the Texas Department of State Health Services have reported a likely case of soft tick-borne relapsing fever (STRF) in an Austin-area resident. Now, they highlight the growin…",
+      "ts": 1785590401000,
+      "publishedAt": "2026-08-01T13:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New immune-blocking strategy improves interspecies organ generation",
+      "url": "https://phys.org/news/2026-07-immune-blocking-strategy-interspecies-generation.html",
+      "summary": "Xenophagocytosis is a natural immune process that limits interspecies organ generation by eliminating living donor cells, researchers at the Institute of Science Tokyo, Japan, report. By uncovering how embryonic macropha…",
+      "ts": 1785588001000,
+      "publishedAt": "2026-08-01T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sensor-embedded 3D-printed repairs could help preserve ancient pottery",
+      "url": "https://phys.org/news/2026-07-sensor-embedded-3d-ancient-pottery.html",
+      "summary": "Koç University researchers have developed a conservation method that combines photogrammetry, digital modeling, 3D printing and embedded sensors to replace missing sections of archaeological amphorae. The customized fill…",
+      "ts": 1785585607000,
+      "publishedAt": "2026-08-01T12:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum computer completes verified task beyond practical reach of classical simulations",
+      "url": "https://phys.org/news/2026-07-quantum-task-classical-simulations.html",
+      "summary": "IBM and researchers from the University of Chicago announced a demonstration in quantum computing that meets the fundamental criteria for \"quantum advantage\"—the point where quantum computers can be confirmed to have out…",
+      "ts": 1785585605000,
+      "publishedAt": "2026-08-01T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient diamond preserves evidence of water-bearing mineral deep in Earth's mantle",
+      "url": "https://phys.org/news/2026-08-ancient-diamond-evidence-mineral-deep.html",
+      "summary": "A team of Brazilian researchers discovered the first direct evidence that goethite—the mineral responsible for the brown color of soils—can withstand extreme pressures and temperatures all the way to the planet's interio…",
+      "ts": 1785583201000,
+      "publishedAt": "2026-08-01T11:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Deadly blooms offer a genetic blueprint for making hard-to-synthesize medicinal compounds",
@@ -683,10 +723,34 @@
       "publishedAt": "2026-07-31T10:00:00.000Z"
     },
     {
-      "source": "APS PRX",
-      "title": "Unlocking Emergent Resilience in Amorphous Metamaterials via a Physics-Constrained Energy-Based Framework",
-      "url": "http://link.aps.org/doi/10.1103/77mh-hflq",
-      "summary": "Author(s): Lingyu Jia, Changliang Zhu, Qiaozhi Lei, Hua Tong, Jinkui Meng, Chengyan Xu, Xiangying Shen, and Lei Xu A physics-constrained design framework may aid the search for lightweight but resilient material. [Phys. …",
+      "source": "APS PR Applied",
+      "title": "Phase-controllable elastic impedance matching via Willis metamaterials",
+      "url": "http://link.aps.org/doi/10.1103/6622-xpm5",
+      "summary": "Author(s): Sang Vin Jang, Hayoung Chung, and Joo Hwan Oh The conventional impedance matching based on Fabry-Perot resonance has been widely used to overcome impedance mismatch. However, the phase of transmitted wave in i…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "<i>In situ</i> magnetic-field stabilization for quantum-gas experiments",
+      "url": "http://link.aps.org/doi/10.1103/vpnl-xpj7",
+      "summary": "Author(s): E. Gvozdiovas, A. Valdés-Curiel, Q.-Y. Liang, E. D. Mercado-Gutierrez, A. M. Piñeiro, J. Tao, D. Trypogeorgos, M. Zhao, and I. B. Spielman We demonstrate a minimally destructive in situ technique for measuring…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Mobile antineutrino detector with liquid scintillator for reactor monitoring",
+      "url": "http://link.aps.org/doi/10.1103/tr26-xqg4",
+      "summary": "Author(s): Hangyu Shi, Jun Wang, Jian Chen, Wei Wang, and Yuehuan Wei Neutrino detection for reactor monitoring using scintillator (NEREUS) is a proposed mobile freight container-style neutrino detector for reactor monit…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Broadband low-frequency resistive acoustic absorber via soft boundaries",
+      "url": "http://link.aps.org/doi/10.1103/tgkv-cgrv",
+      "summary": "Author(s): Anis Maddi and Badreddine Assouar Efficient sound absorption at low frequencies remains a major challenge, as most architectured materials rely on resonant mechanisms that limit their bandwidth. Here, we demon…",
       "ts": 1785492000000,
       "publishedAt": "2026-07-31T10:00:00.000Z"
     },
@@ -731,76 +795,12 @@
       "publishedAt": "2026-07-31T10:00:00.000Z"
     },
     {
-      "source": "Phys.org",
-      "title": "Math shows why your vote may not count the way you think it does",
-      "url": "https://phys.org/news/2026-07-math-vote.html",
-      "summary": "Mathematicians have shown that completely fair elections are—in a sense—impossible. No electoral system can guarantee both that local votes translate directly into local seats and that total seat distribution matches ove…",
-      "ts": 1785488405000,
-      "publishedAt": "2026-07-31T09:00:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The Arctic Ocean keeps permafrost carbon firmly locked",
-      "url": "https://phys.org/news/2026-07-arctic-ocean-permafrost-carbon-firmly.html",
-      "summary": "Permafrost in the Arctic stores large quantities of organic carbon. When frozen ground thaws or coastal sections erode, this carbon can enter the sea, where microorganisms can break it down and convert it into climate-da…",
-      "ts": 1785488403000,
-      "publishedAt": "2026-07-31T09:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Inverting the seminar to recover what scientific papers leave out",
-      "url": "https://phys.org/news/2026-07-inverting-seminar-recover-scientific-papers.html",
-      "summary": "A scientific paper reads as a clean progression from question to result. And yet, research almost never happens that way. Experiments fail, conversations redirect projects, and none of it survives into print. When the fo…",
-      "ts": 1785488401000,
-      "publishedAt": "2026-07-31T09:00:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Spain safari park animals grazed calmly amid 'terror' of fire",
-      "url": "https://phys.org/news/2026-07-spain-safari-animals-grazed-calmly.html",
-      "summary": "The bison carried on grazing peacefully as the flames approached, imperturbable despite the fires ravaging the land around their wildlife park west of Madrid.",
-      "ts": 1785484201000,
-      "publishedAt": "2026-07-31T07:50:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Turkey battles wind-fueled wildfires on tourist coasts",
-      "url": "https://phys.org/news/2026-07-turkey-fueled-wildfires-tourist-coasts.html",
-      "summary": "Hundreds of Turkish firefighters battled Thursday to contain wind-fueled wildfires spreading near key tourist regions on the country's Mediterranean coast.",
-      "ts": 1785483601000,
-      "publishedAt": "2026-07-31T07:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "The last trio: S.Africa's zoo elephants await their fate",
-      "url": "https://phys.org/news/2026-07-trio-safrica-zoo-elephants-await.html",
-      "summary": "The last three elephants still in a traditional South African zoo entered their enclosure in single file, with fruit and vegetables scattered on the ground to encourage natural foraging.",
-      "ts": 1785481391000,
-      "publishedAt": "2026-07-31T07:03:11.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evolutionary dynamics of collective decision-making with local social influence on static and dynamic networks",
-      "url": "https://arxiv.org/abs/2607.27233",
-      "summary": "arXiv:2607.27233v1 Announce Type: new Abstract: Collective decision-making is ubiquitous across the living world and artificial societies. Individuals often choose an option based on intrinsic values of options. However,…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "LoKI-GM: a global model framework for plasma chemistry studies",
-      "url": "https://arxiv.org/abs/2607.27234",
-      "summary": "arXiv:2607.27234v1 Announce Type: new Abstract: Global (zero-dimensional or spatially averaged) models are widely employed to study complex chemistries in low-temperature plasmas (LTPs). By adopting a spatially average d…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data Field Theory: Theory and Applications of the Functional Renormalization Group for Signal Detection",
-      "url": "https://arxiv.org/abs/2607.27236",
-      "summary": "arXiv:2607.27236v1 Announce Type: new Abstract: We review the renormalization group framework for signal detection in high-dimensional data, tailored to the regime where the signal may be of extensive rank and does not s…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
+      "source": "APS PRX",
+      "title": "Unlocking Emergent Resilience in Amorphous Metamaterials via a Physics-Constrained Energy-Based Framework",
+      "url": "http://link.aps.org/doi/10.1103/77mh-hflq",
+      "summary": "Author(s): Lingyu Jia, Changliang Zhu, Qiaozhi Lei, Hua Tong, Jinkui Meng, Chengyan Xu, Xiangying Shen, and Lei Xu A physics-constrained design framework may aid the search for lightweight but resilient material. [Phys. …",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
     }
   ],
   "sources": [
