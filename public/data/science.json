@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-01T03:13:07.057Z",
+  "updated": "2026-08-01T06:31:02.408Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "The transcription factor C/EBPβ promotes hyperglycemia-elicited glycolysis and liver cancer progression",
+      "url": "https://www.nature.com/articles/s41467-026-76209-9",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Longitudinal dynamics of the maternal gut virome associate with metabolic features of preterm birth",
+      "url": "https://www.nature.com/articles/s41467-026-76220-0",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Fish pathogens once limited to Asia and US emerge in Brazilian farms",
@@ -523,6 +539,14 @@
       "publishedAt": "2026-07-31T11:00:04.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Unlocking Emergent Resilience in Amorphous Metamaterials via a Physics-Constrained Energy-Based Framework",
+      "url": "http://link.aps.org/doi/10.1103/77mh-hflq",
+      "summary": "Author(s): Lingyu Jia, Changliang Zhu, Qiaozhi Lei, Hua Tong, Jinkui Meng, Chengyan Xu, Xiangying Shen, and Lei Xu A physics-constrained design framework may aid the search for lightweight but resilient material. [Phys. …",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Dissecting Jet Modification in the Quark-Gluon Plasma with Multipoint Energy Correlators",
       "url": "http://link.aps.org/doi/10.1103/9jzc-7jcv",
@@ -775,30 +799,6 @@
       "title": "Role of gravity on preferential clustering of microparticles in unsteady wake flows",
       "url": "https://arxiv.org/abs/2607.27459",
       "summary": "arXiv:2607.27459v1 Announce Type: new Abstract: Direct numerical simulations are carried out for particle-laden flow over the cylinder to investigate preferential clustering of particles in an unbounded vertical channel …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Information-driven stepping in dimeric transport motors",
-      "url": "https://arxiv.org/abs/2607.27495",
-      "summary": "arXiv:2607.27495v1 Announce Type: new Abstract: Dimeric transport motors are nanoscale protein complexes that move along cytoskeletal filaments. Here we introduce a theoretical model for their stepping dynamics, in which…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intro2QC: An Approachable Introduction to Quantum Computing for STEM Education in High Schools",
-      "url": "https://arxiv.org/abs/2607.27519",
-      "summary": "arXiv:2607.27519v1 Announce Type: new Abstract: In recent years, quantum computing has gained strong traction on the global stage. Pioneering developments in quantum engineering, algorithms and software reinforce the vie…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gaussian non relativistic spontaneusly stochastic hydrodynamica",
-      "url": "https://arxiv.org/abs/2607.27540",
-      "summary": "arXiv:2607.27540v1 Announce Type: new Abstract: We study the non-relativistic limit of Gaussian covariant hydrodynamics [1]. We argue that the condition of incompressibility provides additional symmetries matching relati…",
       "ts": 1785470400000,
       "publishedAt": "2026-07-31T04:00:00.000Z"
     }
