@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-01T15:02:23.638Z",
+  "updated": "2026-08-01T17:01:50.813Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Brittany burial mounds may hide human-shaped stones as Coëby cemetery mystery deepens",
+      "url": "https://phys.org/news/2026-07-brittany-burial-mounds-human-stones.html",
+      "summary": "For archaeologists, the Coëby cemetery in Brittany, France, is a gold mine for research. It contains several prehistoric stone monuments and earth mounds. In a new study of two unusually large mounds, scientists may have…",
+      "ts": 1785603603000,
+      "publishedAt": "2026-08-01T17:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Insights into bee biology could ease US rules for organic honey",
+      "url": "https://phys.org/news/2026-07-insights-bee-biology-ease-honey.html",
+      "summary": "Strict regulations have prevented continental U.S. beekeepers from participating in the lucrative organic honey market, but new research finds that bees' actual habits make certain rules too extreme. The findings potenti…",
+      "ts": 1785600001000,
+      "publishedAt": "2026-08-01T16:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Moonlight-like fur and feathers may explain Egyptian god Thoth's two animal forms",
@@ -126,6 +142,14 @@
       "source": "Nature Communications",
       "title": "Where the river turns old: urbanized deltas imprint a fossil signature on black carbon exported to the ocean",
       "url": "https://www.nature.com/articles/s41467-026-76202-2",
+      "summary": "",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Corisin induces proteostasis stress to drive epithelial injury and pulmonary fibrosis",
+      "url": "https://www.nature.com/articles/s41467-026-76162-7",
       "summary": "",
       "ts": 1785542400000,
       "publishedAt": "2026-08-01T00:00:00.000Z"
@@ -748,38 +772,6 @@
     },
     {
       "source": "APS PR Applied",
-      "title": "Phase-controllable elastic impedance matching via Willis metamaterials",
-      "url": "http://link.aps.org/doi/10.1103/6622-xpm5",
-      "summary": "Author(s): Sang Vin Jang, Hayoung Chung, and Joo Hwan Oh The conventional impedance matching based on Fabry-Perot resonance has been widely used to overcome impedance mismatch. However, the phase of transmitted wave in i…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "<i>In situ</i> magnetic-field stabilization for quantum-gas experiments",
-      "url": "http://link.aps.org/doi/10.1103/vpnl-xpj7",
-      "summary": "Author(s): E. Gvozdiovas, A. Valdés-Curiel, Q.-Y. Liang, E. D. Mercado-Gutierrez, A. M. Piñeiro, J. Tao, D. Trypogeorgos, M. Zhao, and I. B. Spielman We demonstrate a minimally destructive in situ technique for measuring…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Mobile antineutrino detector with liquid scintillator for reactor monitoring",
-      "url": "http://link.aps.org/doi/10.1103/tr26-xqg4",
-      "summary": "Author(s): Hangyu Shi, Jun Wang, Jian Chen, Wei Wang, and Yuehuan Wei Neutrino detection for reactor monitoring using scintillator (NEREUS) is a proposed mobile freight container-style neutrino detector for reactor monit…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Broadband low-frequency resistive acoustic absorber via soft boundaries",
-      "url": "http://link.aps.org/doi/10.1103/tgkv-cgrv",
-      "summary": "Author(s): Anis Maddi and Badreddine Assouar Efficient sound absorption at low frequencies remains a major challenge, as most architectured materials rely on resonant mechanisms that limit their bandwidth. Here, we demon…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
       "title": "Physical implementation of analytic derivatives on a photonic quantum computer",
       "url": "http://link.aps.org/doi/10.1103/yrst-tr19",
       "summary": "Author(s): Sebastiano Corli, Giorgio Panichi, Samuele Altilia, Edoardo Suerra, Simone Cialdi, and Enrico Prati A limiting factor to the exploitation of continuous variables in quantum computing, in particular in the fiel…",
@@ -799,6 +791,14 @@
       "title": "Tunable control of the magnetic near-field pattern in MRI via concentric split-ring resonators",
       "url": "http://link.aps.org/doi/10.1103/yw1d-489h",
       "summary": "Author(s): Leila V. Sharipova, Alena V. Shchelokova, and Viktor M. Puchnin The authors propose a strategy for passive radio-frequency shimming iin high-field MRI, based on controlled frequency detuning of concentric spli…",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Subsurface detection by a vehicle-based atom gravity gradiometer",
+      "url": "http://link.aps.org/doi/10.1103/bjcp-r4d6",
+      "summary": "Author(s): Xiao-Wei Zhang, Jia-Qi Zhong, Mu-Yan Wang, Hui-Lin Wan, Hui Xiong, Dan-Dan Jiang, Zhi Li, De-Kai Mao, Bin Gao, Biao Tang, Xi Chen, Jin Wang, and Ming-Sheng Zhan Measuring gravity gradients with atomic interfer…",
       "ts": 1785492000000,
       "publishedAt": "2026-07-31T10:00:00.000Z"
     }
