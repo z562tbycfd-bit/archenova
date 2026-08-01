@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-01T19:11:41.165Z",
+  "updated": "2026-08-01T20:56:54.053Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Space Force awards K2 Space $22.9 million for orbital laser communications demonstration",
+      "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/",
+      "summary": "Two K2 satellites will host optical terminals intended to connect military systems in orbit The post Space Force awards K2 Space $22.9 million for orbital laser communications demonstration appeared first on SpaceNews.",
+      "ts": 1785616119000,
+      "publishedAt": "2026-08-01T20:28:39.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -799,15 +808,6 @@
       "title": "Middle East crisis: Humanitarian fallout ‘worsening by the day’",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168055",
       "summary": "The humanitarian toll is mounting as fighting continues in the Middle East beyond strikes and counterstrikes between the US and Iran, the UN aid coordination office OCHA warned on Thursday, with civilians increasingly at…",
-      "ts": 1785412800000,
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Wildfires: Prevention is the best defence, UN says",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168054",
-      "summary": "The wildfires burning across Europe and North America highlight the urgent need for action now – as climate change, land-use pressures and human activity make severe fires more likely in the future.",
       "ts": 1785412800000,
       "publishedAt": "2026-07-30T12:00:00.000Z",
       "categoryId": "global-governance"

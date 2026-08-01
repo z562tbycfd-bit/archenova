@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-01T19:11:36.686Z",
+  "updated": "2026-08-01T20:56:49.356Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "AI opens new era in cognitive studies of wild primates",
+      "url": "https://phys.org/news/2026-07-ai-era-cognitive-wild-primates.html",
+      "summary": "Scientists created an AI system that uses facial recognition and real-time touchscreen testing to automate cognitive studies of capuchin monkeys in the wild. The American Journal of Primatology published a proof-of-conce…",
+      "ts": 1785614402000,
+      "publishedAt": "2026-08-01T20:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electron cooling tames highly charged ions in Penning trap for first time",
+      "url": "https://phys.org/news/2026-07-electron-cooling-highly-ions-penning.html",
+      "summary": "Researchers at Technical University of Darmstadt and the GSI Helmholtz Center for Heavy Ion Research have succeeded for the first time in decelerating highly charged ions from the GSI accelerator to low energies and subs…",
+      "ts": 1785612001000,
+      "publishedAt": "2026-08-01T19:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Unusual metal oxide shows signs of magnetism under lattice strain in ultrathin layers",
@@ -783,22 +799,6 @@
       "title": "Compounding Formula Approach to Chromatin and Active Polymer Dynamics",
       "url": "http://link.aps.org/doi/10.1103/y2y6-jfyt",
       "summary": "Author(s): Takahiro Sakaue and Enrico Carlon Active polymers are ubiquitous in nature, and often kicked by persistent noises that break detailed balance. In order to capture the out-of-equilibrium dynamics of such active…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Unlocking Emergent Resilience in Amorphous Metamaterials via a Physics-Constrained Energy-Based Framework",
-      "url": "http://link.aps.org/doi/10.1103/77mh-hflq",
-      "summary": "Author(s): Lingyu Jia, Changliang Zhu, Qiaozhi Lei, Hua Tong, Jinkui Meng, Chengyan Xu, Xiangying Shen, and Lei Xu A physics-constrained design framework may aid the search for lightweight but resilient material. [Phys. …",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Phase-controllable elastic impedance matching via Willis metamaterials",
-      "url": "http://link.aps.org/doi/10.1103/6622-xpm5",
-      "summary": "Author(s): Sang Vin Jang, Hayoung Chung, and Joo Hwan Oh The conventional impedance matching based on Fabry-Perot resonance has been widely used to overcome impedance mismatch. However, the phase of transmitted wave in i…",
       "ts": 1785492000000,
       "publishedAt": "2026-07-31T10:00:00.000Z"
     }
