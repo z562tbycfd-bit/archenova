@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-07-31T23:03:28.060Z",
+  "updated": "2026-08-01T03:13:10.387Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,24 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "What’s Up: August 2026 Skywatching Tips from NASA",
+      "url": "https://science.nasa.gov/solar-system/whats-up-august-2026-skywatching-tips-from-nasa/",
+      "summary": "A solar eclipse, the Perseids, bright Venus after sunset, and a deep partial lunar eclipse highlight August’s skywatching. Skywatching Highlights Transcript A solar eclipse, one of the year’s best meteor showers, Venus a…",
+      "ts": 1785537336000,
+      "publishedAt": "2026-07-31T22:35:36.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA to Host Florida Event Celebrating American Air, Space Leadership",
+      "url": "https://www.nasa.gov/news-release/nasa-to-host-florida-event-celebrating-american-air-space-leadership/",
+      "summary": "NASA will hold a news conference at 2:30 p.m. EDT, Friday, Aug. 14, live from the agency’s Kennedy Space Center in Florida, and media and digital creators are invited to attend in person. The announcement, held in the XL…",
+      "ts": 1785532090000,
+      "publishedAt": "2026-07-31T21:08:10.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -792,24 +810,6 @@
       "summary": "NASA interns at Johnson Space Center are applying their talents to real-world projects while working alongside the engineers, scientists, communicators, and innovators advancing human spaceflight. Learn how these student…",
       "ts": 1785398935000,
       "publishedAt": "2026-07-30T08:08:55.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Major rehearsal takes Themis one step closer to flight",
-      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Major_rehearsal_takes_Themis_one_step_closer_to_flight",
-      "summary": "<img src=\"https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/themis_during_wet_dress_rehearsal/27397857-1-eng-GB/Themis_during_wet_dress_rehearsal_card_full.jpg\" alt=\"Themis during wet dress rehears…",
-      "ts": 1785398160000,
-      "publishedAt": "2026-07-30T07:56:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "SMOS salinity could offer early indicator of El Niño",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/SMOS_salinity_could_offer_early_indicator_of_El_Nino",
-      "summary": "As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity – which is another key indicator of this phenomenon. Measurements from satelli…",
-      "ts": 1785396000000,
-      "publishedAt": "2026-07-30T07:20:00.000Z",
       "categoryId": "space"
     }
   ],
