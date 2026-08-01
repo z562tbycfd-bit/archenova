@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-01T13:25:38.668Z",
+  "updated": "2026-08-01T15:02:23.638Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Moonlight-like fur and feathers may explain Egyptian god Thoth's two animal forms",
+      "url": "https://phys.org/news/2026-07-moonlight-fur-feathers-egyptian-god.html",
+      "summary": "The ancient Egyptian god of the moon had two very different faces: a crescent-beaked white bird and a silver-coated baboon. Now, researchers think they may have found the common thread connecting them all.",
+      "ts": 1785596401000,
+      "publishedAt": "2026-08-01T15:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pacific cloud brightening could weaken El Nino, but models reveal risks for Europe and Asia",
+      "url": "https://phys.org/news/2026-07-pacific-cloud-brightening-weaken-el.html",
+      "summary": "A brewing \"super\" El Nino cycle is poised to unleash heat waves, floods and drought worldwide, with the effects amplified by long-term human-caused climate change.",
+      "ts": 1785592202000,
+      "publishedAt": "2026-08-01T13:50:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Researchers investigate case of soft-tick borne relapsing fever in Austin area",
@@ -723,6 +739,14 @@
       "publishedAt": "2026-07-31T10:00:00.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Unlocking Emergent Resilience in Amorphous Metamaterials via a Physics-Constrained Energy-Based Framework",
+      "url": "http://link.aps.org/doi/10.1103/77mh-hflq",
+      "summary": "Author(s): Lingyu Jia, Changliang Zhu, Qiaozhi Lei, Hua Tong, Jinkui Meng, Chengyan Xu, Xiangying Shen, and Lei Xu A physics-constrained design framework may aid the search for lightweight but resilient material. [Phys. …",
+      "ts": 1785492000000,
+      "publishedAt": "2026-07-31T10:00:00.000Z"
+    },
+    {
       "source": "APS PR Applied",
       "title": "Phase-controllable elastic impedance matching via Willis metamaterials",
       "url": "http://link.aps.org/doi/10.1103/6622-xpm5",
@@ -775,30 +799,6 @@
       "title": "Tunable control of the magnetic near-field pattern in MRI via concentric split-ring resonators",
       "url": "http://link.aps.org/doi/10.1103/yw1d-489h",
       "summary": "Author(s): Leila V. Sharipova, Alena V. Shchelokova, and Viktor M. Puchnin The authors propose a strategy for passive radio-frequency shimming iin high-field MRI, based on controlled frequency detuning of concentric spli…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Subsurface detection by a vehicle-based atom gravity gradiometer",
-      "url": "http://link.aps.org/doi/10.1103/bjcp-r4d6",
-      "summary": "Author(s): Xiao-Wei Zhang, Jia-Qi Zhong, Mu-Yan Wang, Hui-Lin Wan, Hui Xiong, Dan-Dan Jiang, Zhi Li, De-Kai Mao, Bin Gao, Biao Tang, Xi Chen, Jin Wang, and Ming-Sheng Zhan Measuring gravity gradients with atomic interfer…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Photon-noise enhancement due to the joint effect of bolometer and phase-diffusion source",
-      "url": "http://link.aps.org/doi/10.1103/k14b-mps9",
-      "summary": "Author(s): A. L. Pankratov, D. A. Pimanov, L. S. Revin, A. V. Chiginev, and A. V. Blagodatkin Photon-noise enhancement from detector-source interaction is important in astrophysical applications, but we do not fully unde…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Unlocking Emergent Resilience in Amorphous Metamaterials via a Physics-Constrained Energy-Based Framework",
-      "url": "http://link.aps.org/doi/10.1103/77mh-hflq",
-      "summary": "Author(s): Lingyu Jia, Changliang Zhu, Qiaozhi Lei, Hua Tong, Jinkui Meng, Chengyan Xu, Xiangying Shen, and Lei Xu A physics-constrained design framework may aid the search for lightweight but resilient material. [Phys. …",
       "ts": 1785492000000,
       "publishedAt": "2026-07-31T10:00:00.000Z"
     }
