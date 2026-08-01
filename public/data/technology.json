@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-01T20:56:54.053Z",
+  "updated": "2026-08-01T21:59:22.281Z",
   "items": [
     {
       "source": "OpenAI",
@@ -28,6 +28,15 @@
       "ts": 1785591522000,
       "publishedAt": "2026-08-01T13:38:42.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Recovery in Ukraine, one life at a time",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168053",
+      "summary": "In classrooms, maternity wards, hospital corridors and local communities across Ukraine, people are rebuilding their lives despite the ongoing war.",
+      "ts": 1785585600000,
+      "publishedAt": "2026-08-01T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "NASA",
@@ -799,15 +808,6 @@
       "title": "Fear grows as freedoms shrink in Uganda",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168057",
       "summary": "Uganda is experiencing a growing climate of fear as increasing restrictions on fundamental freedoms leave opposition supporters, journalists, human rights defenders and civil society groups at heightened risk of abuse, a…",
-      "ts": 1785412800000,
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Middle East crisis: Humanitarian fallout ‘worsening by the day’",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168055",
-      "summary": "The humanitarian toll is mounting as fighting continues in the Middle East beyond strikes and counterstrikes between the US and Iran, the UN aid coordination office OCHA warned on Thursday, with civilians increasingly at…",
       "ts": 1785412800000,
       "publishedAt": "2026-07-30T12:00:00.000Z",
       "categoryId": "global-governance"
