@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-01T06:31:05.095Z",
+  "updated": "2026-08-01T09:07:15.289Z",
   "items": [
     {
       "source": "OpenAI",
@@ -9,6 +9,24 @@
       "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
+      "url": "https://science.nasa.gov/image-article/apod-2026-august-1-buck-moon-and-belt-of-venus/",
+      "summary": "APOD Science APOD APOD: 2026 August 1 – Buck… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photog…",
+      "ts": 1785557100000,
+      "publishedAt": "2026-08-01T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "ts": 1785542400000,
+      "publishedAt": "2026-08-01T00:00:00.000Z",
       "categoryId": "ai-compute"
     },
     {
@@ -262,6 +280,33 @@
       "ts": 1785499200000,
       "publishedAt": "2026-07-31T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Middle East: Civilian death toll climbs in Gaza, Lebanon and West Bank as UN chief demands ‘the fighting must stop’",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168062",
+      "summary": "Violence and civilian casualties are rising across the Middle East – from Israeli airstrikes in Gaza to continued hostilities in Lebanon and the West Bank – UN agencies reported on Friday as the Secretary-General declare…",
+      "ts": 1785499200000,
+      "publishedAt": "2026-07-31T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Strong El Niño ahead, UN weather agency warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168059",
+      "summary": "As much of the world faces grapples with above normal temperatures and major rainfall changes, the UN Meteorological Organization (WMO) warned on Friday that El Niño, a powerful climate pattern shaping global weather, wi…",
+      "ts": 1785499200000,
+      "publishedAt": "2026-07-31T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Wildfire smoke poses hidden health threat",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168060",
+      "summary": "Wildfires are often associated with the destruction they leave behind, but the smoke they produce can pose a serious health threat far beyond the fire zone, the World Health Organization (WHO) has warned.",
+      "ts": 1785499200000,
+      "publishedAt": "2026-07-31T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "ESA",
@@ -723,94 +768,49 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "SpaceNews",
-      "title": "Rocket Lab wins another launch contract from Japan’s iQPS",
-      "url": "https://spacenews.com/rocket-lab-wins-another-launch-contract-from-japans-iqps/",
-      "summary": "Rocket Lab has won another contract from Japanese radar imaging company iQPS for multiple launches of its Electron rocket. The post Rocket Lab wins another launch contract from Japan’s iQPS appeared first on SpaceNews.",
-      "ts": 1785412769000,
-      "publishedAt": "2026-07-30T11:59:29.000Z",
-      "categoryId": "space"
+      "source": "United Nations News",
+      "title": "The climate pattern putting millions at risk: El Niño explained",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168056",
+      "summary": "El Niño is putting millions of lives at risk in eastern and southern Africa but the UN is ensuring that communities are better prepared to deal with its impact.",
+      "ts": 1785412800000,
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
-      "source": "STAT",
-      "title": "Ebola outbreak nears milestone, while a vaccine remains months away",
-      "url": "https://www.statnews.com/2026/07/30/health-news-ebola-outbreak-nears-milestone-but-vaccine-close/?utm_campaign=rss",
-      "summary": "Medicaid work rules, FTC sues Hims, and more health news from Morning Rounds",
-      "ts": 1785412188000,
-      "publishedAt": "2026-07-30T11:49:48.000Z",
-      "categoryId": "bio"
+      "source": "United Nations News",
+      "title": "Fear grows as freedoms shrink in Uganda",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168057",
+      "summary": "Uganda is experiencing a growing climate of fear as increasing restrictions on fundamental freedoms leave opposition supporters, journalists, human rights defenders and civil society groups at heightened risk of abuse, a…",
+      "ts": 1785412800000,
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
-      "source": "IAEA News",
-      "title": "Update 360 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-360-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1785406544000,
-      "publishedAt": "2026-07-30T10:15:44.000Z",
-      "categoryId": "energy-climate"
+      "source": "United Nations News",
+      "title": "Middle East crisis: Humanitarian fallout ‘worsening by the day’",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168055",
+      "summary": "The humanitarian toll is mounting as fighting continues in the Middle East beyond strikes and counterstrikes between the US and Iran, the UN aid coordination office OCHA warned on Thursday, with civilians increasingly at…",
+      "ts": 1785412800000,
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
-      "source": "MIT Technology Review",
-      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learni…",
-      "ts": 1785406519000,
-      "publishedAt": "2026-07-30T10:15:19.000Z",
-      "categoryId": "ai-compute"
+      "source": "United Nations News",
+      "title": "Wildfires: Prevention is the best defence, UN says",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168054",
+      "summary": "The wildfires burning across Europe and North America highlight the urgent need for action now – as climate change, land-use pressures and human activity make severe fires more likely in the future.",
+      "ts": 1785412800000,
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
-      "source": "OpenAI",
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "ts": 1785405600000,
-      "publishedAt": "2026-07-30T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA expert committee votes in favor of Replimune’s melanoma treatment",
-      "url": "https://www.statnews.com/2026/07/30/replimune-melanoma-drug-rp1-fda-expert-meeting-live-blog/?utm_campaign=rss",
-      "summary": "STAT is live-blogging a meeting of FDA experts to review Replimune’s experimental melanoma drug, RP1.",
-      "ts": 1785405600000,
-      "publishedAt": "2026-07-30T10:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Chronically ill people face confusion over new Medicaid work rules and ‘medically frail’ exemption",
-      "url": "https://www.statnews.com/2026/07/30/medicaid-work-requirements-medical-frailty-exemption-coverage-loss/?utm_campaign=rss",
-      "summary": "Patients, advocates, and experts fear the difficulty in documenting a frailty exemption to Medicaid work requirements will lead to millions losing coverage.",
-      "ts": 1785400200000,
-      "publishedAt": "2026-07-30T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: U.S. dependence on China is a national security risk",
-      "url": "https://www.statnews.com/2026/07/30/china-us-pharmaceutical-supply-chain-national-security-risk/?utm_campaign=rss",
-      "summary": "“China is overtly seeking to displace U.S. leadership across the innovative biopharmaceutical value chain,” write authors of a Council on Foreign Relations report.",
-      "ts": 1785400200000,
-      "publishedAt": "2026-07-30T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Ten years after WHO recognition, mycetoma remains one of the world’s most neglected diseases",
-      "url": "https://www.statnews.com/2026/07/30/mycetoma-who-neglected-disease-research-sudan/?utm_campaign=rss",
-      "summary": "“The next 10 years of mycetoma care will determine whether it remains a story of neglect or becomes one of collective action,” writes Borna Nyaoke-Anoke.",
-      "ts": 1785400200000,
-      "publishedAt": "2026-07-30T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Johnson Interns Shaping the Future of Exploration ",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-interns-shaping-the-future-of-exploration/",
-      "summary": "NASA interns at Johnson Space Center are applying their talents to real-world projects while working alongside the engineers, scientists, communicators, and innovators advancing human spaceflight. Learn how these student…",
-      "ts": 1785398935000,
-      "publishedAt": "2026-07-30T08:08:55.000Z",
-      "categoryId": "space"
+      "source": "United Nations News",
+      "title": "Attacks ‘getting worse’: Deadly Russian strikes hit Ukrainian cities",
+      "url": "https://news.un.org/feed/view/en/story/2026/07/1168052",
+      "summary": "Aid workers and first responders raced to help people across Ukraine after a wave of deadly Russian missile and drone strikes overnight as concerns mounted over military activity near nuclear power plants on Thursday.",
+      "ts": 1785412800000,
+      "publishedAt": "2026-07-30T12:00:00.000Z",
+      "categoryId": "global-governance"
     }
   ],
   "categories": [
