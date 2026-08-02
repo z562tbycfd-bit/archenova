@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-01T23:02:34.881Z",
+  "updated": "2026-08-02T02:57:53.041Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Fluorescent probes offer sharper view of plant tissues",
+      "url": "https://phys.org/news/2026-07-fluorescent-probes-sharper-view-tissues.html",
+      "summary": "Researchers at the Indian Institute of Technology Gandhinagar (IITGN) and the Regional Centre for Biotechnology, Faridabad, have developed and tested a new class of fluorescent probes that enable scientists to visualize …",
+      "ts": 1785630601000,
+      "publishedAt": "2026-08-02T00:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How new informatics tools help turn biodiversity data into policy insights",
+      "url": "https://phys.org/news/2026-07-informatics-tools-biodiversity-policy-insights.html",
+      "summary": "Biodiversity loss has been among the central topics in public, policy and scientific debate for several decades. While its accelerating pace and impacts are well recognized, translating the vast amounts of biodiversity d…",
+      "ts": 1785627601000,
+      "publishedAt": "2026-08-01T23:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "What this western Pennsylvania '90s Pizza Hut reveals about nostalgia",
@@ -783,22 +799,6 @@
       "title": "Dissecting Jet Modification in the Quark-Gluon Plasma with Multipoint Energy Correlators",
       "url": "http://link.aps.org/doi/10.1103/9jzc-7jcv",
       "summary": "Author(s): João Barata, Ian Moult, Andrey V. Sadofyev, and João M. Silva Energy correlators have recently attracted significant attention in the study of heavy ion collisions due to their potential to robustly connect ex…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Sub-Hertz Optical Transitions in Excited ${\\mathrm{Yb}}^{+}$",
-      "url": "http://link.aps.org/doi/10.1103/tz6r-9wj4",
-      "summary": "Author(s): Patrick McMillin, Hassan Farhat, William Liu, and Wesley C. Campbell We present the observation of three semiforbidden transitions in singly ionized ytterbium from the metastable $^{2}{\\mathrm{F}}_{7/2}^{o}$ s…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Fermi-Surface-Sheet Dependent Electron-Phonon Coupling in a Borocarbide Superconductor ${\\text{YNi}}_{2}{\\mathrm{B}}_{2}\\mathrm{C}$",
-      "url": "http://link.aps.org/doi/10.1103/m6r6-vpdg",
-      "summary": "Author(s): Taichi Terashima, Hiroyuki Takeya, and Hisatomo Harima We performed de Haas–van Alphen (dHvA) oscillation measurements and band-structure calculations for ${\\text{YNi}}_{2}{\\mathrm{B}}_{2}\\mathrm{C}$. Our impr…",
       "ts": 1785492000000,
       "publishedAt": "2026-07-31T10:00:00.000Z"
     }
