@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-02T20:57:51.195Z",
+  "updated": "2026-08-02T22:02:20.907Z",
   "items": [
     {
       "source": "OpenAI",
@@ -28,6 +28,15 @@
       "ts": 1785672207000,
       "publishedAt": "2026-08-02T12:03:27.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Trapped by a Facebook job advert, freed by a stranger in a taxi",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168058",
+      "summary": "Sofia* was 27, raising her seven-year-old son alone in Venezuela, and running out of options. For years she had distributed personal hygiene products door to door, but as her customers’ finances collapsed, so did her inc…",
+      "ts": 1785672000000,
+      "publishedAt": "2026-08-02T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -802,15 +811,6 @@
       "ts": 1785416414000,
       "publishedAt": "2026-07-30T13:00:14.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: tricking LLMs, and reviving geothermal plants",
-      "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack It is impossible to…",
-      "ts": 1785413400000,
-      "publishedAt": "2026-07-30T12:10:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

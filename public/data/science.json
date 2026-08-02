@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-02T20:57:48.842Z",
+  "updated": "2026-08-02T22:02:16.958Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Mom or not, caring for babies changes the brain",
+      "url": "https://phys.org/news/2026-07-mom-babies-brain.html",
+      "summary": "Freeman Hrabowski Scholar Bianca Jones Marlin studies how caregiving takes shape in the brain and how some biological adaptations are passed to the next generation.",
+      "ts": 1785706801000,
+      "publishedAt": "2026-08-02T21:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A cooperative approach to reproductive success",
@@ -793,14 +801,6 @@
       "summary": "Topological photonics can force propagating light to travel in a single direction—allowing researchers to route optical signals around corners and past defects without any of it scattering backward. So far, however, this…",
       "ts": 1785507604000,
       "publishedAt": "2026-07-31T14:20:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Why bad health information can seem so convincing–and five ways to resist it",
-      "url": "https://phys.org/news/2026-07-bad-health-convincingand-ways-resist.html",
-      "summary": "Recent reports have highlighted AI-generated \"doctors\" spreading dubious health advice to millions of social media users. Fabricated wellness trends can travel just as quickly. A supposed \"pink jelly\" weight-loss treatme…",
-      "ts": 1785507602000,
-      "publishedAt": "2026-07-31T14:20:02.000Z"
     }
   ],
   "sources": [
