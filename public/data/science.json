@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-02T19:13:35.469Z",
+  "updated": "2026-08-02T20:57:48.842Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A cooperative approach to reproductive success",
+      "url": "https://phys.org/news/2026-08-cooperative-approach-reproductive-success.html",
+      "summary": "Fertilization is often imagined as a frantic race, with millions of sperm competing for a single prize. But new research by a team of evolutionary biologists from Syracuse University, the University of Siena in Italy and…",
+      "ts": 1785703201000,
+      "publishedAt": "2026-08-02T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly unearthed mechanism that helps plants 'feel full' could help crops use fertilizer more efficiently",
+      "url": "https://phys.org/news/2026-07-newly-unearthed-mechanism-full-crops.html",
+      "summary": "New York University researchers have pinpointed the molecular players responsible for plants \"feeling full\" once they've taken up enough nitrogen—a finding that could help scientists develop plants that absorb more nitro…",
+      "ts": 1785700801000,
+      "publishedAt": "2026-08-02T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How simple amber lights could make nights safer for insects",
+      "url": "https://phys.org/news/2026-07-simple-amber-nights-safer-insects.html",
+      "summary": "Approximately 40% of insect species worldwide are thought to be in decline and under threat of extinction. Among the key causes are habitat loss, pollution and climate change. Another threat is artificial light from sour…",
+      "ts": 1785698401000,
+      "publishedAt": "2026-08-02T19:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Climate change could dramatically reduce water flowing from the West's headwaters",
@@ -777,30 +801,6 @@
       "summary": "Recent reports have highlighted AI-generated \"doctors\" spreading dubious health advice to millions of social media users. Fabricated wellness trends can travel just as quickly. A supposed \"pink jelly\" weight-loss treatme…",
       "ts": 1785507602000,
       "publishedAt": "2026-07-31T14:20:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Less-explored form of quantum code could be more powerful—and more stable—than its alternative in error correction",
-      "url": "https://phys.org/news/2026-07-explored-quantum-code-powerful-stable.html",
-      "summary": "In mathematics and getting dressed, some processes are commutative, while others are noncommutative. Commutative means the order doesn't matter (3 + 2 is the same as 2 + 3, and it doesn't matter which sock goes on first)…",
-      "ts": 1785506404000,
-      "publishedAt": "2026-07-31T14:00:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Poochmaxxing: the wellness industry is coming for your pets",
-      "url": "https://phys.org/news/2026-07-poochmaxxing-wellness-industry-pets.html",
-      "summary": "I am a runner who loves being active alongside my dogs. Actually, I am more of a plodder—and one with very bad knees. Those knees benefit from regular physiotherapy and sports massage. You might not be surprised, then, t…",
-      "ts": 1785506402000,
-      "publishedAt": "2026-07-31T14:00:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Latest woodchip bioreactor sites reducing fertilizer pollution in local waterways by up to 99%",
-      "url": "https://phys.org/news/2026-07-latest-woodchip-bioreactor-sites-fertilizer.html",
-      "summary": "High nitrogen levels entering downstream waterways can harm fragile ecosystems. Across the world, excess nutrients commonly trigger algae blooms and fish kills in enclosed waterways near intensive horticulture.",
-      "ts": 1785505202000,
-      "publishedAt": "2026-07-31T13:40:02.000Z"
     }
   ],
   "sources": [
