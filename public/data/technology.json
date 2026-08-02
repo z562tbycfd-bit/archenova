@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-02T11:18:00.671Z",
+  "updated": "2026-08-02T13:25:57.606Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "U.S. Air Force expands Blue Origin rocket cargo contract ",
+      "url": "https://spacenews.com/u-s-air-force-expands-blue-origin-rocket-cargo-contract/",
+      "summary": "The Air Force Research Laboratory increased by $11.7 million Blue Origin’s contract to study the use of space rockets for point-to-point deliveries The post U.S. Air Force expands Blue Origin rocket cargo contract appear…",
+      "ts": 1785672207000,
+      "publishedAt": "2026-08-02T12:03:27.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -799,15 +808,6 @@
       "title": "The climate pattern putting millions at risk: El Niño explained",
       "url": "https://news.un.org/feed/view/en/story/2026/07/1168056",
       "summary": "El Niño is putting millions of lives at risk in eastern and southern Africa but the UN is ensuring that communities are better prepared to deal with its impact.",
-      "ts": 1785412800000,
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Fear grows as freedoms shrink in Uganda",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168057",
-      "summary": "Uganda is experiencing a growing climate of fear as increasing restrictions on fundamental freedoms leave opposition supporters, journalists, human rights defenders and civil society groups at heightened risk of abuse, a…",
       "ts": 1785412800000,
       "publishedAt": "2026-07-30T12:00:00.000Z",
       "categoryId": "global-governance"

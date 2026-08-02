@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-02T11:17:56.841Z",
+  "updated": "2026-08-02T13:25:55.455Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Smart sensor identifies present molecules by remembering the past",
+      "url": "https://phys.org/news/2026-07-smart-sensor-molecules.html",
+      "summary": "Most sensors are designed to do only one thing: detect what passes through them. But what if a sensor could do more? To create a new generation of technology, researchers have looked to living systems for inspiration. If…",
+      "ts": 1785675601000,
+      "publishedAt": "2026-08-02T13:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "DESI side project reveals the spectra of disintegrated exoplanets",
+      "url": "https://phys.org/news/2026-07-desi-side-reveals-spectra-disintegrated.html",
+      "summary": "Using spectral data from the Dark Energy Spectroscopic Instrument (DESI), astronomers have gained some of the clearest evidence yet that white dwarf stars are accreting debris from disintegrating exoplanets. Captured whi…",
+      "ts": 1785673201000,
+      "publishedAt": "2026-08-02T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indigenous territory maintains ecological stability amid agricultural expansion in the Brazilian savanna",
+      "url": "https://phys.org/news/2026-08-indigenous-territory-ecological-stability-agricultural.html",
+      "summary": "\"An island of biodiversity in a sea of monoculture\": This is how a recent study characterized the Pimentel Barbosa Indigenous Territory (TIPB), located in the northeastern part of Mato Grosso state in Brazil's Central-We…",
+      "ts": 1785670801000,
+      "publishedAt": "2026-08-02T11:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Pine bark and sponge compounds could counter drug-resistant malaria and babesiosis",
@@ -777,30 +801,6 @@
       "summary": "Weather measurements in Leeds have shown that many green spaces, such as parks, gardens and forests, were cooler than surrounding urban environments, also known as gray spaces.",
       "ts": 1785498003000,
       "publishedAt": "2026-07-31T11:40:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Exposing the hidden toll of litigation",
-      "url": "https://phys.org/news/2026-07-exposing-hidden-toll-litigation.html",
-      "summary": "A James Cook University study is challenging the belief that the greatest cost of going to court is losing a case, arguing the legal process itself can leave lasting psychological scars.",
-      "ts": 1785496805000,
-      "publishedAt": "2026-07-31T11:20:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Two independent studies push semiconductor qubits towards practical scales",
-      "url": "https://phys.org/news/2026-07-independent-semiconductor-qubits-scales.html",
-      "summary": "Semiconductor spin qubits are one of the most promising building blocks for future quantum computers, but turning them into a working, large-scale quantum computer has so far proven difficult. For now, two big questions …",
-      "ts": 1785496804000,
-      "publishedAt": "2026-07-31T11:20:04.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Reenvisioning sexual health with perspectives from the Global South",
-      "url": "https://phys.org/news/2026-07-reenvisioning-sexual-health-perspectives-global.html",
-      "summary": "Sexual and reproductive health has largely been shaped by perspectives from wealthier developed nations in the Global North. To correct this imbalance, public health experts call for centering Global South knowledge, liv…",
-      "ts": 1785495604000,
-      "publishedAt": "2026-07-31T11:00:04.000Z"
     }
   ],
   "sources": [
