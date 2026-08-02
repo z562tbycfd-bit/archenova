@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-02T17:02:19.686Z",
+  "updated": "2026-08-02T19:13:38.948Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Michigan Supreme Court ruling allows probe into Lilly insulin pricing",
+      "url": "https://www.statnews.com/pharmalot/2026/08/02/michigan-supreme-court-ruling-allows-probe-into-lilly-insulin-pricing/?utm_campaign=rss",
+      "summary": "Lilly was accused of charging “grossly” excessive prices for different insulin products that forced some patients to ration or forego the drug.",
+      "ts": 1785694454000,
+      "publishedAt": "2026-08-02T18:14:14.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "SpaceNews",
@@ -802,15 +811,6 @@
       "ts": 1785413400000,
       "publishedAt": "2026-07-30T12:10:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "United Nations News",
-      "title": "The climate pattern putting millions at risk: El Niño explained",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168056",
-      "summary": "El Niño is putting millions of lives at risk in eastern and southern Africa but the UN is ensuring that communities are better prepared to deal with its impact.",
-      "ts": 1785412800000,
-      "publishedAt": "2026-07-30T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
