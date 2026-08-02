@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-02T09:10:35.203Z",
+  "updated": "2026-08-02T11:17:56.841Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Pine bark and sponge compounds could counter drug-resistant malaria and babesiosis",
+      "url": "https://phys.org/news/2026-07-bark-sponge-compounds-counter-drug.html",
+      "summary": "As parasites become increasingly resistant to existing drugs, researchers at the University of California, Riverside, are working to develop a new generation of treatments for two serious infectious diseases: malaria and…",
+      "ts": 1785668401000,
+      "publishedAt": "2026-08-02T11:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Fluorescent probes offer sharper view of plant tissues",
@@ -793,14 +801,6 @@
       "summary": "Sexual and reproductive health has largely been shaped by perspectives from wealthier developed nations in the Global North. To correct this imbalance, public health experts call for centering Global South knowledge, liv…",
       "ts": 1785495604000,
       "publishedAt": "2026-07-31T11:00:04.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Dissecting Jet Modification in the Quark-Gluon Plasma with Multipoint Energy Correlators",
-      "url": "http://link.aps.org/doi/10.1103/9jzc-7jcv",
-      "summary": "Author(s): João Barata, Ian Moult, Andrey V. Sadofyev, and João M. Silva Energy correlators have recently attracted significant attention in the study of heavy ion collisions due to their potential to robustly connect ex…",
-      "ts": 1785492000000,
-      "publishedAt": "2026-07-31T10:00:00.000Z"
     }
   ],
   "sources": [
