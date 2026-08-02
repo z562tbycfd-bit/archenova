@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-02T15:04:10.706Z",
+  "updated": "2026-08-02T17:02:14.205Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Supergene solves evolutionary puzzle of mirror-image flowers",
+      "url": "https://phys.org/news/2026-07-supergene-evolutionary-puzzle-mirror-image.html",
+      "summary": "The left-right asymmetry of South African butterfly lilies (genus Wachendorfia) has been regarded as a classic evolutionary puzzle for more than a century. Due to the mirror-image arrangement of the floral parts, the pla…",
+      "ts": 1785690001000,
+      "publishedAt": "2026-08-02T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why some nitrogen-processing enzymes are more efficient than others",
+      "url": "https://phys.org/news/2026-07-nitrogen-enzymes-efficient.html",
+      "summary": "Nitrogen gas is abundant in Earth's atmosphere, but most living organisms can't readily use it. Only a subset of microbes with enzymes known as nitrogenases can break nitrogen gas apart and convert it into ammonia.",
+      "ts": 1785686401000,
+      "publishedAt": "2026-08-02T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laid to rest with care: Ancient infants, perhaps twins, found in 1,200-year-old latrine",
+      "url": "https://phys.org/news/2026-07-laid-rest-ancient-infants-twins.html",
+      "summary": "More than 1,000 years ago, two babies were tucked away in an abandoned Roman toilet channel. Yet, despite what the location suggests, they were cherished, not discarded.",
+      "ts": 1785684001000,
+      "publishedAt": "2026-08-02T15:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "AI use mirrors student schedules in study of 77,000 online learners",
@@ -777,30 +801,6 @@
       "summary": "Researchers tracked a prescribed grassland fire using infrasound, sound waves pitched too low for people to hear.",
       "ts": 1785502800000,
       "publishedAt": "2026-07-31T13:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Astronomers finally measure the full size of the largest known galaxy",
-      "url": "https://phys.org/news/2026-07-astronomers-full-size-largest-galaxy.html",
-      "summary": "Researchers have obtained the deepest images ever taken of IC 1101, allowing them to identify the galaxy's outer edge for the first time. The observations confirm it as the largest known galaxy, spanning roughly 520 kilo…",
-      "ts": 1785501607000,
-      "publishedAt": "2026-07-31T12:40:07.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New research: Wetlands are crucial food baskets for NZ's native eels",
-      "url": "https://phys.org/news/2026-07-wetlands-crucial-food-baskets-nz.html",
-      "summary": "Conservation projects often focus on protecting a threatened species from predators and habitat destruction. But as our research shows, restoring food webs can be as important to supporting ongoing recovery.",
-      "ts": 1785501601000,
-      "publishedAt": "2026-07-31T12:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Can pumping groundwater really flip Earth's poles? An expert explains",
-      "url": "https://phys.org/news/2026-07-groundwater-flip-earth-poles-expert.html",
-      "summary": "Recently, a government minister in the Northern Territory, pitching a plan to make Darwin \"the data center capital of the globe,\" suggested it might be a good idea to pump out groundwater to keep Earth's spin steady. If …",
-      "ts": 1785500403000,
-      "publishedAt": "2026-07-31T12:20:03.000Z"
     }
   ],
   "sources": [
