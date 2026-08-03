@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-03T07:29:55.502Z",
+  "updated": "2026-08-03T11:26:37.034Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "At colleges, the AI boom means everyone wants to dabble in computer science",
+      "url": "https://phys.org/news/2026-08-colleges-ai-boom-dabble-science.html",
+      "summary": "With no background in coding, Faith Maeba, a psychology major, was reluctant when her mother first suggested she enroll in classes on artificial intelligence.",
+      "ts": 1785755402000,
+      "publishedAt": "2026-08-03T11:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How digital interferences shape parent-child time",
+      "url": "https://phys.org/news/2026-08-digital-parent-child.html",
+      "summary": "New research is giving children a voice in understanding how technological interruptions affect parent-child relationships. A paper, \"Distracted, Interrupted, or Disrupted: A Pathway Model of Technoference,\" led by Assoc…",
+      "ts": 1785754805000,
+      "publishedAt": "2026-08-03T11:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Life speaks one universal language to activate genes: It speaks many more to silence them",
+      "url": "https://phys.org/news/2026-07-life-universal-language-genes-silence.html",
+      "summary": "The signals that cells use to switch genes on have remained almost unchanged across 2 billion years of evolution, but the ones used to switch genes off vary dramatically from one branch of life to another, according to a…",
+      "ts": 1785747601000,
+      "publishedAt": "2026-08-03T09:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "South Korea records its highest-ever temperature of 42.5 C",
@@ -775,30 +799,6 @@
       "title": "A lab-on-a-silicon-chip platform for all-electrical antibiotic susceptibility tests with a sample-to-results time within 20 minutes",
       "url": "https://arxiv.org/abs/2508.12775",
       "summary": "arXiv:2508.12775v2 Announce Type: replace Abstract: Rapid antibiotic susceptibility tests (ASTs) are essential for quick selection of effective drugs to treat bacterial infections at an early stage. However, the most wid…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Circular Huygens Dipoles: Unidirectional Spin-Angular Momentum from Achiral Nanoparticles",
-      "url": "https://arxiv.org/abs/2510.17784",
-      "summary": "arXiv:2510.17784v2 Announce Type: replace Abstract: Simultaneous control over the directionality and spin of light at the nanoscale is a central goal in nanophotonics with applications ranging from quantum information to…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Calibration Methods of Silicon Photomultiplier for JUNO-TAO Central Detector",
-      "url": "https://arxiv.org/abs/2512.15264",
-      "summary": "arXiv:2512.15264v4 Announce Type: replace Abstract: The Taishan Antineutrino Observatory (TAO or JUNO-TAO) is a satellite observatory for the Jiangmen Underground Neutrino Observatory (JUNO), located 44 meters away from …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simultaneous free-surface profilometry and subsurface velocimetry with fringe projection and PIV",
-      "url": "https://arxiv.org/abs/2512.22641",
-      "summary": "arXiv:2512.22641v2 Announce Type: replace Abstract: This work presents a novel combination of two well-established techniques: fringe projection profilometry (FPP) and particle image velocimetry (PIV). Despite seemingly …",
       "ts": 1785729600000,
       "publishedAt": "2026-08-03T04:00:00.000Z"
     }

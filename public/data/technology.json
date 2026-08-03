@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-03T07:29:57.726Z",
+  "updated": "2026-08-03T11:26:38.811Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,69 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: BioNTech names Guido Oelkers its new CEO",
+      "url": "https://www.statnews.com/2026/08/03/biontech-ceo-guido-oelkers-ugur-sahin-replacement/?utm_campaign=rss",
+      "summary": "Guido Oelkers will take over as the new CEO of BioNTech, replacing company cofounder Ugur Sahin.",
+      "ts": 1785756339000,
+      "publishedAt": "2026-08-03T11:25:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Receptor.AI and Sethera Plan to Create Closed-Loop Discovery and Optimization Workflow for Difficult Therapeutic Targets",
+      "url": "https://www.genengnews.com/topics/drug-discovery/receptor-ai-and-sethera-plan-to-create-a-closed-loop-discovery-and-optimization-workflow-for-difficult-therapeutic-targets/",
+      "summary": "The collaboration is specifically focused on applying Receptor.AI's computational platform to Sethera's proprietary polymacrocyclic peptide chemistry, encoded screening data, and resulting therapeutic candidates. Each co…",
+      "ts": 1785754849000,
+      "publishedAt": "2026-08-03T11:00:49.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the we…",
+      "ts": 1785745805000,
+      "publishedAt": "2026-08-03T08:30:05.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning?",
+      "url": "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss",
+      "summary": "Educators want future physicians to be fluent in AI scribes, but they worry what off-loading clinical notes to AI could do to learning.",
+      "ts": 1785745800000,
+      "publishedAt": "2026-08-03T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Heart transplant candidates fail if they get too weak. New program tries inpatient prehab ",
+      "url": "https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project/?utm_campaign=rss",
+      "summary": "Patients often get weaker waiting in the hospital for heart transplant. A cardiologist had an idea: inpatient prehabilitation.",
+      "ts": 1785745800000,
+      "publishedAt": "2026-08-03T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I’m a neurologist. I’ve delivered ALS diagnoses. Then I received one myself",
+      "url": "https://www.statnews.com/2026/08/03/als-diagnosis-neurologist-research-hope/?utm_campaign=rss",
+      "summary": "“Losing the ability to speak has taught me how quickly society conflates physical dependence with diminished personhood,” writes Dr. Christopher Campos.",
+      "ts": 1785745800000,
+      "publishedAt": "2026-08-03T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: We lead the Federation of State Medical Boards. Here’s what we think about licensing AI to practice medicine",
+      "url": "https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards/?utm_campaign=rss",
+      "summary": "The leaders of the Federation of State Medical Boards weigh in on the question of licensing AI to practice medicine.",
+      "ts": 1785745800000,
+      "publishedAt": "2026-08-03T08:30:00.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "arXiv q-bio",
@@ -745,69 +808,6 @@
       "title": "IndelFreeAligner: A Streaming Aligner for Comprehensive Gapless Alignment Against Terabase-Scale References",
       "url": "https://arxiv.org/abs/2607.27291",
       "summary": "arXiv:2607.27291v1 Announce Type: new Abstract: The comparison of short sequences to massive reference databases is a cornerstone of modern genomics, but it presents a significant scalability challenge. Traditional align…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Identifying common backbones of interactions underlying food webs via non-deterministic alignments",
-      "url": "https://arxiv.org/abs/2607.27496",
-      "summary": "arXiv:2607.27496v1 Announce Type: new Abstract: Climate change reshapes food webs by altering species distributions and interactions, making it essential to identify structural backbones of interactions that persist acro…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The evolution of cooperation under imperfect phenotypic recognition",
-      "url": "https://arxiv.org/abs/2607.27570",
-      "summary": "arXiv:2607.27570v1 Announce Type: new Abstract: Phenotypic similarity is a classical mechanism for the evolution of cooperation. Most existing models assume a binary rule in which individuals cooperate only with others o…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evolutionary adaptation through bet-hedging in finite populations under fluctuating environments",
-      "url": "https://arxiv.org/abs/2607.27983",
-      "summary": "arXiv:2607.27983v1 Announce Type: new Abstract: Natural populations evolve under fluctuating environments and limited resources, yet it is unclear how these factors jointly shape adaptation. Here, we introduce a minimal …",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A data-driven stage-structured host-parasitoid model for optimizing Trichogramma interventions against soybean pod borer (Leguminivora glycinivorella) outbreaks",
-      "url": "https://arxiv.org/abs/2607.28053",
-      "summary": "arXiv:2607.28053v1 Announce Type: new Abstract: The soybean pod borer (Leguminivora glycinivorella) poses a severe threat to global soybean production.In this study, we developed a stage-structured host-parasitoid dynami…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stimulus-Evoked Network Dynamics in Human Cortical Organoids: From a Graph-Computational Framework to Repeated-Stimulation Depression",
-      "url": "https://arxiv.org/abs/2607.28068",
-      "summary": "arXiv:2607.28068v1 Announce Type: new Abstract: Human cortical organoids provide an experimentally accessible model of early neural circuit formation, yet whether their activity reflects structured information processing…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Hash Chemistry: Minimal Models for Evolutionary Growth of Complexity",
-      "url": "https://arxiv.org/abs/2607.28219",
-      "summary": "arXiv:2607.28219v1 Announce Type: new Abstract: Hash Chemistry is a family of minimalistic evolutionary models in which a deterministic hash function assigns a scalar score to entities of arbitrary size, opening a combin…",
-      "ts": 1785470400000,
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Causal Architecture Dynamics Prior to Arrival of Self-replicators in a Model of Catalytic Networks Relevant to Origin-of-Life",
-      "url": "https://arxiv.org/abs/2607.28250",
-      "summary": "arXiv:2607.28250v1 Announce Type: new Abstract: Agents that exert causal power in the world are thought to be the product of selection among diverse replicators; what is the causal structure of a medium before replicator…",
       "ts": 1785470400000,
       "publishedAt": "2026-07-31T04:00:00.000Z",
       "categoryId": "bio"
