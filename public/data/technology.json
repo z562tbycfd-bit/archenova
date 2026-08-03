@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-03T17:10:08.909Z",
+  "updated": "2026-08-03T19:40:24.587Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,42 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Trump’s AI protectionism has come for robotics",
+      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, …",
+      "ts": 1785782610000,
+      "publishedAt": "2026-08-03T18:43:30.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Combined Phage Therapy and FMT Reduces Recurrent UTIs and Antibiotic Use in First Human Case Series",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/combined-phage-therapy-and-fmt-reduces-recurrent-utis-and-antibiotic-use-in-first-human-case-series/",
+      "summary": "The first use of combined phage therapy and fecal microbiota transplantation for recurrent urinary tract infections reduced antibiotic use and improved quality of life in three women, supporting future clinical trials. T…",
+      "ts": 1785781933000,
+      "publishedAt": "2026-08-03T18:32:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Eli Lilly to allow more patients to apply for special access to unapproved obesity drug",
+      "url": "https://www.statnews.com/2026/08/03/eli-lilly-retatrutide-mystery-patient-doctors-seek-same-access-their-patients/?utm_campaign=rss",
+      "summary": "Doctors are asking how to get retatrutide for their patients, after Eli Lilly gave one man early access.",
+      "ts": 1785778058000,
+      "publishedAt": "2026-08-03T17:27:38.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Guinea-Bissau Tidal Waters",
+      "url": "https://www.nasa.gov/image-article/guinea-bissau-tidal-waters/",
+      "summary": "Twice each day, tides ebb and flow through a maze of sandy channels, mudflats, and mangrove forests that flank the 88 islands and islets of Guinea-Bissau’s Bijagós Archipelago (Arquipélago dos Bijagós in Portuguese). See…",
+      "ts": 1785777339000,
+      "publishedAt": "2026-08-03T17:15:39.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -54,6 +90,33 @@
       "summary": "The approval allows the startup to transmit stronger signals in spectrum adjacent to GPS frequencies The post Xona secures spectrum approval for 250-satellite navigation network appeared first on SpaceNews.",
       "ts": 1785771397000,
       "publishedAt": "2026-08-03T15:36:37.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Delivers Navigation System for Commercial Lunar Relay",
+      "url": "https://www.nasa.gov/technology/space-comms/nasa-delivers-navigation-system-for-commercial-lunar-relay/",
+      "summary": "NASA delivered the NavCube3-mini payload on July 13 to Intuitive Machines for integration into Altus-1, the company’s first lunar relay satellite, marking an important milestone in the development of future lunar communi…",
+      "ts": 1785766826000,
+      "publishedAt": "2026-08-03T14:20:26.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Ike Theriot Helps Prepare Astronauts to Work on the Moon ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/ike-theriot-helps-prepare-astronauts-to-work-on-the-moon/",
+      "summary": "From serving in the U.S. Army to helping prepare astronauts to explore the lunar surface, Ike Theriot built a path to NASA through discipline and determination. Theriot serves as the Flight Operations Surface Testing lea…",
+      "ts": 1785765600000,
+      "publishedAt": "2026-08-03T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Brings Space Exploration to the FIFA World Cup ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-brings-space-exploration-to-the-fifa-world-cup/",
+      "summary": "From June 11 through July 19, NASA’s free interactive exhibit at FIFA Fan Festival™ brought space exploration to soccer fans in East Downtown Houston. More than 500,000 visitors explored the exhibit during the tournament…",
+      "ts": 1785765332000,
+      "publishedAt": "2026-08-03T13:55:32.000Z",
       "categoryId": "space"
     },
     {
@@ -181,6 +244,15 @@
       "ts": 1785745800000,
       "publishedAt": "2026-08-03T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 3 – Vaporizing Meteor Photobombs the Lacerta Nebula",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-3-vaporizing-meteor-photobombs-the-lacerta-nebula/",
+      "summary": "APODScienceAPODAPOD: 2026 August 3 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascin…",
+      "ts": 1785729900000,
+      "publishedAt": "2026-08-03T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -471,6 +543,15 @@
       "categoryId": "global-governance"
     },
     {
+      "source": "NASA",
+      "title": "APOD: 2026 August 2 – A Fire Rainbow over West Virginia",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-2-a-fire-rainbow-over-west-virginia/",
+      "summary": "APODScienceAPODAPOD: 2026 August 2 – A Fire…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…",
+      "ts": 1785643500000,
+      "publishedAt": "2026-08-02T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
       "url": "https://spacenews.com/space-force-awards-k2-space-22-9-million-for-orbital-laser-communications-demonstration/",
@@ -496,6 +577,15 @@
       "ts": 1785585600000,
       "publishedAt": "2026-08-01T12:00:00.000Z",
       "categoryId": "global-governance"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 1 – Buck Moon and Belt of Venus",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-1-buck-moon-and-belt-of-venus/",
+      "summary": "APODScienceAPODAPOD: 2026 August 1 – Buck…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our f…",
+      "ts": 1785557100000,
+      "publishedAt": "2026-08-01T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -720,96 +810,6 @@
       "summary": "Week in images: 27-31 July 2026 Discover our week through the lens",
       "ts": 1785503400000,
       "publishedAt": "2026-07-31T13:10:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Novo Nordisk inflammation-targeting drug misses mark in heart disease study",
-      "url": "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/?utm_campaign=rss",
-      "summary": "A Novo Nordisk drug missed the mark in a heart disease study, raising questions about targeting inflammation to prevent cardiovascular complications.",
-      "ts": 1785501166000,
-      "publishedAt": "2026-07-31T12:32:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Federal government could improve infectious disease monitoring, says federal government",
-      "url": "https://www.statnews.com/2026/07/31/health-news-federal-government-infectious-disease-monitoring-issues/?utm_campaign=rss",
-      "summary": "The new CDC director nominee moves to the full Senate vote, Medicaid work requirements will not be delayed, and more health news",
-      "ts": 1785500902000,
-      "publishedAt": "2026-07-31T12:28:22.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Montana’s new experimental drug rules",
-      "url": "https://www.technologyreview.com/2026/07/31/1140999/the-download-montanas-right-to-try-law-anthropic-hacks/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Montana’s plan to become an experimental medical hub just pushed forward As of thi…",
-      "ts": 1785500160000,
-      "publishedAt": "2026-07-31T12:16:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NASA still assessing Starliner-1 flight opportunities",
-      "url": "https://spacenews.com/nasa-still-assessing-starliner-1-flight-opportunities/",
-      "summary": "A NASA official says that work with Boeing on the company’s CST-100 Starliner vehicle is making “good progress” but declined to offer a date when the spacecraft could fly again. The post NASA still assessing Starliner-1 …",
-      "ts": 1785500005000,
-      "publishedAt": "2026-07-31T12:13:25.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "The new space wars: lessons from Ukraine and the Middle East",
-      "url": "https://spacenews.com/the-new-space-wars-lessons-from-ukraine-and-the-middle-east/",
-      "summary": "In March 2021, while serving as a senior fellow at the Brookings Institution, I hosted a discussion with General Chance Saltzman, now Chief of Space Operations for the United States […] The post The new space wars: lesso…",
-      "ts": 1785499200000,
-      "publishedAt": "2026-07-31T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Middle East: Civilian death toll climbs in Gaza, Lebanon and West Bank as UN chief demands ‘the fighting must stop’",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168062",
-      "summary": "Violence and civilian casualties are rising across the Middle East – from Israeli airstrikes in Gaza to continued hostilities in Lebanon and the West Bank – UN agencies reported on Friday as the Secretary-General declare…",
-      "ts": 1785499200000,
-      "publishedAt": "2026-07-31T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Strong El Niño ahead, UN weather agency warns",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168059",
-      "summary": "As much of the world faces grapples with above normal temperatures and major rainfall changes, the UN Meteorological Organization (WMO) warned on Friday that El Niño, a powerful climate pattern shaping global weather, wi…",
-      "ts": 1785499200000,
-      "publishedAt": "2026-07-31T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Wildfire smoke poses hidden health threat",
-      "url": "https://news.un.org/feed/view/en/story/2026/07/1168060",
-      "summary": "Wildfires are often associated with the destruction they leave behind, but the smoke they produce can pose a serious health threat far beyond the fire zone, the World Health Organization (WHO) has warned.",
-      "ts": 1785499200000,
-      "publishedAt": "2026-07-31T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "ESA",
-      "title": "This Month at ESA: July 2026",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/This_Month_at_ESA_July_2026",
-      "summary": "Video: 00:03:06 What did space have in store for Europe this July? The Artemis II crew visited ESTEC, ESA’s technical centre in the Netherlands, to meet the team behind Orion’s European Service Module, celebrating the co…",
-      "ts": 1785495600000,
-      "publishedAt": "2026-07-31T11:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "HydroGNSS data open for new insights into Earth’s water ",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/HydroGNSS/HydroGNSS_data_open_for_new_insights_into_Earth_s_water",
-      "summary": "The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations. Following extensive testing and validation of the satellites, instruments and ground…",
-      "ts": 1785490560000,
-      "publishedAt": "2026-07-31T09:36:00.000Z",
       "categoryId": "space"
     }
   ],

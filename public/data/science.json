@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-08-03T17:10:07.104Z",
+  "updated": "2026-08-03T19:40:21.952Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ant teams beat gravity-based puzzle solvers",
+      "url": "https://phys.org/news/2026-08-ant-teams-gravity-based-puzzle.html",
+      "summary": "Ants live in highly organized colonies and cooperate daily to tackle a wide range of problems. Their striking group behaviors have fascinated biologists for centuries and even inspired the development of various artifici…",
+      "ts": 1785784810000,
+      "publishedAt": "2026-08-03T19:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Simulations hint at a hidden population of companionless black holes",
+      "url": "https://phys.org/news/2026-08-simulations-hint-hidden-population-companionless.html",
+      "summary": "So far, almost all stellar-mass black holes detected by astronomers have been found in binary systems. However, astronomers have long suspected that these binary black holes are the exception and that, within the Milky W…",
+      "ts": 1785784807000,
+      "publishedAt": "2026-08-03T19:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Research challenges assumptions about online education success",
+      "url": "https://phys.org/news/2026-08-assumptions-online-success.html",
+      "summary": "Admissions applications, discussion posts, grades, and activity logs are among the most common signals educators use to gauge whether students will thrive in an online program. But two new Georgia Tech studies suggest th…",
+      "ts": 1785784805000,
+      "publishedAt": "2026-08-03T19:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astrobiologist uses Apollo lunar samples as mirror onto early Earth",
+      "url": "https://phys.org/news/2026-08-astrobiologist-apollo-lunar-samples-mirror.html",
+      "summary": "Roll back the tape of Earth's history, and geologists and astrobiologists remain perplexed about the environmental conditions on early Earth. That's because conventional pathways for understanding Earth's history have be…",
+      "ts": 1785783607000,
+      "publishedAt": "2026-08-03T19:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanopore method improves detection of cyanobacteria toxins in lake water",
+      "url": "https://phys.org/news/2026-08-nanopore-method-cyanobacteria-toxins-lake.html",
+      "summary": "Cyanobacterial blooms, like the ones that occur in Lake Geneva, are rapid, dense growths of photosynthetic bacteria in fresh and marine waters that can threaten the health of swimmers and their pets.",
+      "ts": 1785783602000,
+      "publishedAt": "2026-08-03T19:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hurricane storm surge follows predictable patterns, study finds",
+      "url": "https://phys.org/news/2026-08-hurricane-storm-surge-patterns.html",
+      "summary": "When a hurricane roars toward land, forecasters try to predict how high sea levels will rise to help coastal communities prepare for the worst impacts.",
+      "ts": 1785782407000,
+      "publishedAt": "2026-08-03T18:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Kids who start social media earlier may do worse at school",
+      "url": "https://phys.org/news/2026-08-kids-social-media-earlier-worse.html",
+      "summary": "Students who open a personal social media account earlier in adolescence appear to perform worse on later standardized tests, according to a study in Nature Human Behaviour based on 5,227 Italian students. The authors sp…",
+      "ts": 1785782406000,
+      "publishedAt": "2026-08-03T18:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spaceflight could change how astronauts swallow, eat and drink in subtle ways",
+      "url": "https://phys.org/news/2026-08-spaceflight-astronauts-swallow-subtle-ways.html",
+      "summary": "Imagine trying to swallow a sip of water while your face feels stuffed with congestion, your sense of taste is dulled and your body is floating 250 miles (400 kilometers) above Earth.",
+      "ts": 1785781203000,
+      "publishedAt": "2026-08-03T18:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny predatory bacteria help protect endangered Caribbean corals",
+      "url": "https://phys.org/news/2026-08-tiny-predatory-bacteria-endangered-caribbean.html",
+      "summary": "A microscopic predator may offer a new way to protect some of the Caribbean's most endangered corals. Georgia Tech researchers found that tiny predatory bacteria can halt the spread of a destructive coral disease by hunt…",
+      "ts": 1785781201000,
+      "publishedAt": "2026-08-03T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultrafast X-ray flashes partially reverse the damage they cause, enabling brighter, more accurate imaging",
+      "url": "https://phys.org/news/2026-08-ultrafast-ray-partially-reverse-enabling.html",
+      "summary": "The interaction between X-rays and matter can be actively controlled, according to an international research team led by the University of Hamburg and SLAC National Accelerator Laboratory that has succeeded in producing …",
+      "ts": 1785780005000,
+      "publishedAt": "2026-08-03T18:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Invasive rats are stopping small mammals from returning to Madagascar's regenerating forests: Study",
+      "url": "https://phys.org/news/2026-08-invasive-rats-small-mammals-madagascar.html",
+      "summary": "In southeastern Madagascar, patches of forest that were once cut down to make way for farms are slowly regenerating naturally after being left to lie fallow. But recovering a native forest needs more than just gaining tr…",
+      "ts": 1785780003000,
+      "publishedAt": "2026-08-03T18:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ten viral genome regions may explain why deadly chicken virus evades vaccines",
+      "url": "https://phys.org/news/2026-08-ten-viral-genome-regions-deadly.html",
+      "summary": "A highly contagious herpes virus causes Marek's disease, a deadly illness that mainly infects chickens. While it does not make people sick, the virus causes tumors and paralysis in chickens and, if unchecked, can spread …",
+      "ts": 1785778804000,
+      "publishedAt": "2026-08-03T17:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Climate‑related 'silent adaptation' coping strategies are going beyond official directives",
+      "url": "https://phys.org/news/2026-08-climaterelated-silent-coping-strategies.html",
+      "summary": "Scientific reports, political directives and national plans follow one after another, urging regions to adapt to new climate realities. Yet one question remains: How do adaptation initiatives among local communities and …",
+      "ts": 1785778801000,
+      "publishedAt": "2026-08-03T17:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "HOAs are often barriers to sustainable landscaping and solar energy. Here's how they could be bridges instead",
+      "url": "https://phys.org/news/2026-08-hoas-barriers-sustainable-landscaping-solar.html",
+      "summary": "If you build a house in the United States today, there's a good chance you'll be living under the dictates of a neighborhood homeowners association—roughly two out of every three new homes are in an HOA, as are a third o…",
+      "ts": 1785777605000,
+      "publishedAt": "2026-08-03T17:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New models shed light on how an exotic phase of hydrogen in Earth's core may behave",
+      "url": "https://phys.org/news/2026-08-exotic-phase-hydrogen-earth-core.html",
+      "summary": "While Earth's core consists mostly of iron, its density implies that lighter elements are also mixed in. Because hydrogen is abundant in the universe and can mix with iron under certain conditions, scientists suspect it …",
+      "ts": 1785777601000,
+      "publishedAt": "2026-08-03T17:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "You can love an AI but can it love you back? Philosophy has the answer",
@@ -679,126 +799,6 @@
       "title": "Ascorbic acid mitigates oxidative structural degradation in bovine spermatozoa: a label-free quantitative phase microscopy study",
       "url": "https://arxiv.org/abs/2607.29428",
       "summary": "arXiv:2607.29428v1 Announce Type: new Abstract: Oxidative stress is a key factor in low fertility outcomes during assisted reproduction technology (ART) and contributes to poor sperm quality. Conventional assessment reli…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Structural Design on Magneto-Mechanical Resonators: The Case of a Jewel Bearing Variant",
-      "url": "https://arxiv.org/abs/2607.29430",
-      "summary": "arXiv:2607.29430v1 Announce Type: new Abstract: Magneto-mechanical resonators (MMRs) are passive, wirelessly read sensors whose small size, miniaturizability, and low cost make them attractive for tracking and for sensin…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Discovery Sensitivity for a Counting Experiment with Background Uncertainty",
-      "url": "https://arxiv.org/abs/2607.29436",
-      "summary": "arXiv:2607.29436v1 Announce Type: new Abstract: In Particle Physics, a search for a new signal process is often based on observing a Poisson-distributed number of events, whose mean contains contributions from background…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Poverty Mapping: Data, Models and Applications",
-      "url": "https://arxiv.org/abs/2607.29457",
-      "summary": "arXiv:2607.29457v1 Announce Type: new Abstract: Poverty mapping is increasingly important for monitoring Sustainable Development Goal 1 (SDG 1) of the United Nations 2030 Agenda, which aims to end poverty in all its form…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tomographic Phase Imaging with Randomized Probe Imaging",
-      "url": "https://arxiv.org/abs/2607.29471",
-      "summary": "arXiv:2607.29471v1 Announce Type: new Abstract: We demonstrate tomographic phase imaging of cubic gold nanoparticles with sub-100 nm resolution requiring just a single far-field coherent diffraction pattern per projectio…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Phase Contrast in Micro-CT Systems",
-      "url": "https://arxiv.org/abs/2607.29478",
-      "summary": "arXiv:2607.29478v1 Announce Type: new Abstract: Conventional high-resolution micro-CT systems are regarded as attenuation-based unless visible Fresnel fringes reveal the presence of propagation-based phase contrast. Here…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Erwin Schroedinger: His Poetry and Fragment of a Galilean Dialogue",
-      "url": "https://arxiv.org/abs/2607.29497",
-      "summary": "arXiv:2607.29497v1 Announce Type: new Abstract: While Erwin Schroedinger's contributions to quantum mechanics and other areas of theoretical physics are very well known, his works as a poet and literary writer are usuall…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Causality-Aware Interaction Selection for Retarded Green-Function Assembly",
-      "url": "https://arxiv.org/abs/2607.29504",
-      "summary": "arXiv:2607.29504v1 Announce Type: new Abstract: In time-domain integral-equation (TDIE) solvers, the assembly of the retarded Green-function interactions remains a major computational bottleneck. We present a causality-a…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-NA vectorial hologram optimization",
-      "url": "https://arxiv.org/abs/2607.29505",
-      "summary": "arXiv:2607.29505v1 Announce Type: new Abstract: We present a vectorial phase-only framework for the gradient-based optimization of computer-generated holograms. Our approach addresses a critical limitation in high numeri…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A single atom emitting resonance fluorescence into a coherent beam, and its use for non-destructive atom thermometry",
-      "url": "https://arxiv.org/abs/2607.29515",
-      "summary": "arXiv:2607.29515v1 Announce Type: new Abstract: Using a far-off-resonance optical dipole trap, we place a single neutral $^{87}$Rb atom in a weak, atom-resonant coherent beam, while also strongly illuminating it from an …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Runaway Electrons in Stellarators: Unlikely or Unavoidable?",
-      "url": "https://arxiv.org/abs/2607.29523",
-      "summary": "arXiv:2607.29523v1 Announce Type: new Abstract: Generation of relativistic runaway electrons has historically not been considered a possible problem in stellarators, but this may not hold in reactor-scale stellarators de…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PROPEL: A Memory-Driven, Adaptive Vector-Flow-Field Router with Process-Aware Waveguide Generation for Large-Scale Photonic Integrated Circuits",
-      "url": "https://arxiv.org/abs/2607.29543",
-      "summary": "arXiv:2607.29543v1 Announce Type: new Abstract: Photonic integrated circuits (PICs) are increasing in scale and routing complexity, driven by photonic computing, optical switching, programmable interferometer meshes, wav…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Oscillatory shear flows and a new 2D self-sustaining process",
-      "url": "https://arxiv.org/abs/2607.29598",
-      "summary": "arXiv:2607.29598v1 Announce Type: new Abstract: A new self-sustaining process (SSP) is identified in an oscillating spatially-homogeneous shear flow using a nonlinear Kelvin mode model. This SSP consists of energetic spa…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Distribution and Transport of Fragmenting Microplastics in a 3D Global Eulerian Model",
-      "url": "https://arxiv.org/abs/2607.29643",
-      "summary": "arXiv:2607.29643v1 Announce Type: new Abstract: Fragmentation, the breakage of matter into smaller pieces, is an important mechanism responsible for generating microplastics (MPs). We present the first global three-dimen…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse Design of Multi-Layered Manufacturable Pixelated Diplexers Through Optimized Geometrical Configuration and Meshing Strategy in MoM",
-      "url": "https://arxiv.org/abs/2412.17617",
-      "summary": "arXiv:2412.17617v2 Announce Type: cross Abstract: This paper presents a fast inverse design framework for complex multilayered, multiport pixelated surfaces - a class of structures largely unexplored in current research.…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Changing-Look AGNs from DESI. VI. Host Galaxies",
-      "url": "https://arxiv.org/abs/2607.28735",
-      "summary": "arXiv:2607.28735v1 Announce Type: cross Abstract: Changing-look (CL) AGNs trace rapid changes in nuclear activity, but their connection to host galaxy properties remains unclear. We present a study of the host galaxies o…",
       "ts": 1785729600000,
       "publishedAt": "2026-08-03T04:00:00.000Z"
     }
