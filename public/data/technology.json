@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-03T21:05:25.920Z",
+  "updated": "2026-08-03T23:03:18.617Z",
   "items": [
     {
       "source": "OpenAI",
@@ -67,7 +67,7 @@
     },
     {
       "source": "STAT",
-      "title": "Michigan reports first two U.S. deaths in outbreak of cyclospora",
+      "title": "Michigan reports the first 2 U.S. deaths related to a diarrhea-causing parasite",
       "url": "https://www.statnews.com/2026/08/03/cyclospora-outbreak-two-fatalities-reported-michigan/?utm_campaign=rss",
       "summary": "Two people have died in the cyclospora outbreak in Michigan in the first confirmed deaths in the U.S. related to the microscopic parasite, state health officials announced.",
       "ts": 1785776351000,
