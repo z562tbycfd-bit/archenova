@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-02T22:02:20.907Z",
+  "updated": "2026-08-03T00:00:17.583Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Senate measure would block Trump plan to politicize federal grants, for now",
+      "url": "https://www.statnews.com/2026/08/02/senate-would-block-white-house-control-over-research-grants/?utm_campaign=rss",
+      "summary": "A White House proposal to subject research grants to political scrutiny meets at least a temporary roadblock in the Senate.",
+      "ts": 1785714912000,
+      "publishedAt": "2026-08-02T23:55:12.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
@@ -802,15 +811,6 @@
       "ts": 1785416420000,
       "publishedAt": "2026-07-30T13:00:20.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Latigo Reports Positive Phase IIb Data for Non-Opioid Acute Pain Candidate",
-      "url": "https://www.genengnews.com/topics/translational-medicine/latigo-reports-positive-phase-iib-data-for-non-opioid-acute-pain-candidate/",
-      "summary": "LTG-001 achieved the primary endpoint of the Phase IIb LTG-001-010 trial (NCT07102459) by achieving better-than-placebo scores in the time-weighted sum of the pain-intensity difference (SPID) over the 48-hour treatment p…",
-      "ts": 1785416414000,
-      "publishedAt": "2026-07-30T13:00:14.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
