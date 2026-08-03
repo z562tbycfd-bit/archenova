@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-03T00:00:13.779Z",
+  "updated": "2026-08-03T03:47:11.271Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rideshare launches boost regional GDP and flexible jobs, study finds",
+      "url": "https://phys.org/news/2026-07-rideshare-boost-regional-gdp-flexible.html",
+      "summary": "Ride-hailing has become a routine part of urban life in the United States, but its broader economic impacts have been difficult to measure. As Uber and Lyft expanded across hundreds of cities over the past decade, they p…",
+      "ts": 1785717004000,
+      "publishedAt": "2026-08-03T00:30:04.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Sustainable ammonia synthesis from nitrate wastewater via graphdiyne Mo–Cu–C≡C interfaces",
+      "url": "https://www.nature.com/articles/s41467-026-76148-5",
+      "summary": "",
+      "ts": 1785715200000,
+      "publishedAt": "2026-08-03T00:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Mom or not, caring for babies changes the brain",
@@ -785,22 +801,6 @@
       "summary": "Every night, astronomers must carefully assess changing weather, the intensity of moonlight and shifting atmospheric conditions before deciding where to point a telescope. It's a constant balancing act designed to squeez…",
       "ts": 1785508803000,
       "publishedAt": "2026-07-31T14:40:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Surprising boiling behavior in liquids could advance future space missions",
-      "url": "https://phys.org/news/2026-07-behavior-liquids-advance-future-space.html",
-      "summary": "When astronauts travel deeper into space, every drop of fuel becomes critical, and keeping those fuels stable for months or even years is one of the biggest engineering challenges facing future missions. Now, University …",
-      "ts": 1785508801000,
-      "publishedAt": "2026-07-31T14:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New photonic platform offers a four-lane highway for light",
-      "url": "https://phys.org/news/2026-07-photonic-platform-lane-highway.html",
-      "summary": "Topological photonics can force propagating light to travel in a single direction—allowing researchers to route optical signals around corners and past defects without any of it scattering backward. So far, however, this…",
-      "ts": 1785507604000,
-      "publishedAt": "2026-07-31T14:20:04.000Z"
     }
   ],
   "sources": [

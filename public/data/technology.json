@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-03T00:00:17.583Z",
+  "updated": "2026-08-03T03:47:14.159Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,15 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Capricor Plunges as FDA Panel, Staff Question Effectiveness of Lead Candidate Deramiocel",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-capricor-plunges-as-fda-panel-staff-question-effectiveness-of-lead-candidate-deramiocel/",
+      "summary": "After seeing its lead candidate rejected by the FDA last year, Capricor Therapeutics is hoping for a better outcome for its resubmitted BLA for its lead pipeline candidate Deramiocel. The post StockWatch: Capricor Plunge…",
+      "ts": 1785718047000,
+      "publishedAt": "2026-08-03T00:47:27.000Z",
+      "categoryId": "bio"
     },
     {
       "source": "STAT",
@@ -802,15 +811,6 @@
       "ts": 1785416920000,
       "publishedAt": "2026-07-30T13:08:40.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/",
-      "summary": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’…",
-      "ts": 1785416420000,
-      "publishedAt": "2026-07-30T13:00:20.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
