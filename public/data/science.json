@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-08-03T14:43:26.762Z",
+  "updated": "2026-08-03T17:10:07.104Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "You can love an AI but can it love you back? Philosophy has the answer",
+      "url": "https://phys.org/news/2026-08-ai-philosophy.html",
+      "summary": "We often speak of loving things like a cozy sweater or new camera. But this talk is not generally taken literally. It's a kind of emotional shorthand. We use it to express our fondness for precious objects.",
+      "ts": 1785776409000,
+      "publishedAt": "2026-08-03T17:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cells of the same age can follow sharply different biological aging paths",
+      "url": "https://phys.org/news/2026-08-cells-age-sharply-biological-aging.html",
+      "summary": "New research reveals that cells of the same chronological age can follow dramatically different biological aging paths, offering new insights into cancer, neurodegeneration and the fundamental biology of aging. Rather th…",
+      "ts": 1785776401000,
+      "publishedAt": "2026-08-03T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Metal deposits reveal how ice ages reshaped oxygen levels across Earth's oceans",
+      "url": "https://phys.org/news/2026-08-metal-deposits-reveal-ice-ages.html",
+      "summary": "Earth's oceans repeatedly lost oxygen and produced metal deposits during the planet's deepest ice ages. An international team of researchers analyzed manganese and other chemical signatures preserved in more than 27,000 …",
+      "ts": 1785775203000,
+      "publishedAt": "2026-08-03T16:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Higher river discharge helps young salmon",
+      "url": "https://phys.org/news/2026-08-higher-river-discharge-young-salmon.html",
+      "summary": "Low river discharge reduces the likelihood of young Atlantic salmon reaching the North Sea. Fewer salmon reach the Haringvliet sluices, and their passage takes longer, making them more likely to fall prey to predators. U…",
+      "ts": 1785775202000,
+      "publishedAt": "2026-08-03T16:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "#Nature isn't one-size-fits-all, study finds",
+      "url": "https://phys.org/news/2026-08-nature-isnt-size.html",
+      "summary": "People often talk about \"getting out into nature\" as if all green spaces offer the same experience.",
+      "ts": 1785774008000,
+      "publishedAt": "2026-08-03T16:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New museum find shows nature can't stop inventing seahorses",
+      "url": "https://phys.org/news/2026-08-museum-nature-seahorses.html",
+      "summary": "At first glance, it looks exactly like a seahorse. It has the same horse-shaped head tilted down from the body, the same curled, grasping tail and, in the males, a fully enclosed pouch for brooding the young.",
+      "ts": 1785774006000,
+      "publishedAt": "2026-08-03T16:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Geological evidence questions the role of Agulhas Leakage in Atlantic Ocean circulation",
+      "url": "https://phys.org/news/2026-08-geological-evidence-role-agulhas-leakage.html",
+      "summary": "For decades, scientists have asserted that the leakage of warm, salty Indian Ocean water south of South Africa into the Atlantic is a major contributor to the Atlantic Meridional Overturning Circulation (AMOC), a compone…",
+      "ts": 1785772806000,
+      "publishedAt": "2026-08-03T16:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genetic analysis identifies a distinct Risso's dolphin population around British Isles",
+      "url": "https://phys.org/news/2026-08-genetic-analysis-distinct-risso-dolphin.html",
+      "summary": "Risso's dolphins around the British Isles are part of a single population—genetically distinct from those elsewhere in the Atlantic, new research shows. Scientists studied the DNA of dolphins that stranded in England, Sc…",
+      "ts": 1785771604000,
+      "publishedAt": "2026-08-03T15:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wildfires: Why disposable BBQs are being banned from some parks and beaches",
+      "url": "https://phys.org/news/2026-08-wildfires-disposable-bbqs-beaches.html",
+      "summary": "There's something almost comic about the modern British summer ritual: As soon as the mercury climbs, we head to the nearest park, sit cross-legged on scorched grass and hunch over a flimsy foil tray to sear sausages ove…",
+      "ts": 1785771601000,
+      "publishedAt": "2026-08-03T15:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Seven new diamond frog species reveal Madagascar's hidden amphibian diversity",
+      "url": "https://phys.org/news/2026-08-diamond-frog-species-reveal-madagascar.html",
+      "summary": "An international team of scientists has described seven new species of Madagascar's elusive diamond frogs (Rhombophryne), revealing that one of the island's most mysterious groups of amphibians is even more diverse than …",
+      "ts": 1785770421000,
+      "publishedAt": "2026-08-03T15:20:21.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Some tropical butterflies live surprisingly long lives. Is it their high‑protein diet?",
+      "url": "https://phys.org/news/2026-08-tropical-butterflies-highprotein-diet.html",
+      "summary": "Butterflies are charismatic, colorful and cherished around the world. One of the most diverse groups of insects, with more than 19,000 described species, they inspire international organizations such as the North America…",
+      "ts": 1785770401000,
+      "publishedAt": "2026-08-03T15:20:01.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Why the Legendary Erdős Problems Are Falling to AI",
+      "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+      "summary": "AI’s greatest mathematical successes have come from answers to problems posed by a mid-20th century iconoclast. By examining what makes the Erdős problems unique, mathematicians are trying to understand how AI might chan…",
+      "ts": 1785769520000,
+      "publishedAt": "2026-08-03T15:05:20.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Humpback whales match song themes to dive phases, tags reveal",
+      "url": "https://phys.org/news/2026-08-humpback-whales-song-themes-phases.html",
+      "summary": "For male humpback whales, singing is serious business. Their haunting, complex songs can last for hours and travel for miles underwater, playing a central role in reproduction during the winter breeding season. But despi…",
+      "ts": 1785769206000,
+      "publishedAt": "2026-08-03T15:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'What's in it for me?' People more likely to help the environment when it benefits them",
+      "url": "https://phys.org/news/2026-08-people-environment-benefits.html",
+      "summary": "People might be more inclined to keep their community clean if they believe it benefits them personally, according to new research from the University of Georgia published in Environment and Behavior. The study found tha…",
+      "ts": 1785769203000,
+      "publishedAt": "2026-08-03T15:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Naked mole-rat queens rule their colonies with a potent odor",
+      "url": "https://www.sciencenews.org/article/naked-mole-rat-queens-potent-odor",
+      "summary": "A compound made only by breeding queens keeps naked mole-rat colonies infertile and free of conflict.",
+      "ts": 1785769200000,
+      "publishedAt": "2026-08-03T15:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Study lays groundwork for classifying lunar soil",
@@ -679,126 +799,6 @@
       "title": "Changing-Look AGNs from DESI. VI. Host Galaxies",
       "url": "https://arxiv.org/abs/2607.28735",
       "summary": "arXiv:2607.28735v1 Announce Type: cross Abstract: Changing-look (CL) AGNs trace rapid changes in nuclear activity, but their connection to host galaxy properties remains unclear. We present a study of the host galaxies o…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deriving the second law of thermodynamics and exploring its boundaries",
-      "url": "https://arxiv.org/abs/2607.28765",
-      "summary": "arXiv:2607.28765v1 Announce Type: cross Abstract: The second law of thermodynamics still lacks a general proof applicable to both classical and quantum systems across broad ranges of time scales, interactions, and degree…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Averaging Effects on the Solar Wind Alfven Mach Number: Implications for Switchbacks and Alfven Transition",
-      "url": "https://arxiv.org/abs/2607.28773",
-      "summary": "arXiv:2607.28773v1 Announce Type: cross Abstract: Averaging techniques in solar wind measurements have been a longstanding subject of debate. Using Parker Solar Probe (PSP) observations from encounters 1 to 19, we invest…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum Optimal Control at Intermediate Times: Controlling Revivals in Spin Chains",
-      "url": "https://arxiv.org/abs/2607.28783",
-      "summary": "arXiv:2607.28783v1 Announce Type: cross Abstract: Standard Quantum Optimal Control (QOC) protocols typically maximize a physical objective just at a final target time. However, tracking or measuring the quantum state dur…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ultrafast Nonthermal Lattice Destabilization and Suppression of Polar Optical Scattering in Electronically Excited $\\alpha$-SiO$_2$ from First-Principles and Deep Neural Network Potential Modeling",
-      "url": "https://arxiv.org/abs/2607.28838",
-      "summary": "arXiv:2607.28838v1 Announce Type: cross Abstract: We present a multiscale first-principles-to-machine-learning approach to investigate ultrafast lattice dynamics in electronically excited $\\alpha$-SiO$_2$. Ab initio mole…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Automating the analysis of micron-scale synchrotron diffraction data on inhomogeneous polycrystalline samples: a solid oxide electrolysis cell case study",
-      "url": "https://arxiv.org/abs/2607.28859",
-      "summary": "arXiv:2607.28859v1 Announce Type: cross Abstract: A novel approach to post mortem characterisation of electrochemical and photovoltaic devices is spatially-resolved diffraction using a hyper-focused, micron-width x-ray b…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A New Approach to Modeling Line Shapes with Quasi-H$_2^+$ Satellites in Stellar Atmospheres",
-      "url": "https://arxiv.org/abs/2607.28920",
-      "summary": "arXiv:2607.28920v1 Announce Type: cross Abstract: Theoretical spectral line shapes describe the distribution of opacity due to bound electronic transitions in hot dense plasmas and are used to fit emergent spectra from m…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Covariance-Driven Momentum Rectification at Liquid-Vapor Interfaces Near Wetting Transitions",
-      "url": "https://arxiv.org/abs/2607.28938",
-      "summary": "arXiv:2607.28938v1 Announce Type: cross Abstract: Zero-mean forcing can generate directed transport when a medium responds in a spatially structured way and the relevant symmetries are broken. Liquid-vapor interfaces are…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extrapolating the emergence of Hamiltonian chaos with random-feature Hamiltonian neural networks",
-      "url": "https://arxiv.org/abs/2607.28977",
-      "summary": "arXiv:2607.28977v1 Announce Type: cross Abstract: Machine learning of Hamiltonian dynamics has driven growing interest in Hamiltonian neural networks (HNNs), which encode Hamilton's equations of motion into the learning …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A low-temperature ultra-high-vacuum scanning probe microscope with in situ electronic transport capabilities: from macro to nano in 10 minutes",
-      "url": "https://arxiv.org/abs/2607.29099",
-      "summary": "arXiv:2607.29099v1 Announce Type: cross Abstract: We have developed a low temperature (LT), ultra-high-vacuum (UHV) system that combines two complementary techniques, scanning probe microscopy (SPM) and electrical transp…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The stability of electronic Poiseuille flow in two-dimensional materials",
-      "url": "https://arxiv.org/abs/2607.29118",
-      "summary": "arXiv:2607.29118v1 Announce Type: cross Abstract: Motivated by the experimental observation of electronic Poiseuille flow in graphene [J.A. Sulpizio et al. Nature 576, 75 (2019)] we analyze the linear stability of plane-…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tidal dissipation in magnetised, rotating stars and planets: linear calculations exploring various magnetic field configurations",
-      "url": "https://arxiv.org/abs/2607.29141",
-      "summary": "arXiv:2607.29141v1 Announce Type: cross Abstract: We study tidal flows in the convective envelopes of rotating, magnetised fluid bodies, such as low-mass stars and giant planets. In well-mixed convective regions, (magnet…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Domain-Selective Enhancement of Second Harmonic Generation in Monolayer MoS$_2$ via Ferroelectricity-Controlled Photodoping",
-      "url": "https://arxiv.org/abs/2607.29152",
-      "summary": "arXiv:2607.29152v1 Announce Type: cross Abstract: Hybrid heterostructures combining two-dimensional semiconductors with ferroelectric materials offer a versatile route to actively control light-matter interactions at the…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Strength-degradation phase-field regularization of cohesive fracture: the antiplane case",
-      "url": "https://arxiv.org/abs/2607.29157",
-      "summary": "arXiv:2607.29157v1 Announce Type: cross Abstract: Phase-field approaches to fracture, initially designed as regularization of the Griffith model of brittle fracture, are now commonly viewed as gradient-damage models whos…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coalescence-induced alignment of anisotropic particles in drying sessile droplets",
-      "url": "https://arxiv.org/abs/2607.29201",
-      "summary": "arXiv:2607.29201v1 Announce Type: cross Abstract: Alignment of anisotropic particles strongly governs the functional properties of printed materials, yet most studies have focused on particle alignment in single evaporat…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Frugal Bayesian Optimization: Scalable Surrogates for Data- and Resource-Limited Discovery",
-      "url": "https://arxiv.org/abs/2607.29225",
-      "summary": "arXiv:2607.29225v1 Announce Type: cross Abstract: Bayesian Optimization (BO) is widely adopted for data-efficient optimization in scientific and engineering applications, yet its computational cost is rarely evaluated al…",
       "ts": 1785729600000,
       "publishedAt": "2026-08-03T04:00:00.000Z"
     }

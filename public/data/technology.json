@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-03T14:43:29.920Z",
+  "updated": "2026-08-03T17:10:08.909Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,51 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Michigan reports first two U.S. deaths in outbreak of cyclospora",
+      "url": "https://www.statnews.com/2026/08/03/cyclospora-outbreak-two-fatalities-reported-michigan/?utm_campaign=rss",
+      "summary": "Two people have died in the cyclospora outbreak in Michigan in the first confirmed deaths in the U.S. related to the microscopic parasite, state health officials announced.",
+      "ts": 1785776351000,
+      "publishedAt": "2026-08-03T16:59:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Hughes files for bankruptcy after GEO business loses ground to Starlink",
+      "url": "https://spacenews.com/hughes-files-for-bankruptcy-after-geo-business-loses-ground-to-starlink/",
+      "summary": "EchoStar’s Hughes geostationary satellite broadband business has filed for bankruptcy in the United States after years of mounting competition from SpaceX’s Starlink constellation. The post Hughes files for bankruptcy af…",
+      "ts": 1785773207000,
+      "publishedAt": "2026-08-03T16:06:47.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare eliminates key pathways used by ‘breakthrough’ devices for extra payments",
+      "url": "https://www.statnews.com/2026/08/03/cms-fda-breakthrough-devices-payment-pathways-eliminated/?utm_campaign=rss",
+      "summary": "Medicare is removing flexibilities that have allowed \"breakthrough\" medical devices to leapfrog qualifications for extra payments.",
+      "ts": 1785771703000,
+      "publishedAt": "2026-08-03T15:41:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Evolutionarily Diverse Organisms Switch Genes on Simply and Switch Them off Dynamically",
+      "url": "https://www.genengnews.com/topics/omics/evolutionarily-diverse-organisms-switch-genes-on-simply-and-switch-them-off-dynamically/",
+      "summary": "A new study has found that the signals cells use to switch genes on have remained almost unchanged across two billion years of evolution, but the ones used to switch genes off vary dramatically from one branch of life to…",
+      "ts": 1785771525000,
+      "publishedAt": "2026-08-03T15:38:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Xona secures spectrum approval for 250-satellite navigation network",
+      "url": "https://spacenews.com/xona-secures-spectrum-approval-for-250-satellite-navigation-network/",
+      "summary": "The approval allows the startup to transmit stronger signals in spectrum adjacent to GPS frequencies The post Xona secures spectrum approval for 250-satellite navigation network appeared first on SpaceNews.",
+      "ts": 1785771397000,
+      "publishedAt": "2026-08-03T15:36:37.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -766,51 +811,6 @@
       "ts": 1785490560000,
       "publishedAt": "2026-07-31T09:36:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Montana’s new “right to try” law can’t come soon enough for some",
-      "url": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
-      "summary": "Kris DeVault is desperate. His son, Brody, was born in March 2023. It wasn’t long before he started to show signs of developmental delay, says DeVault. As time went on, Brody started missing key milestones in speech, mov…",
-      "ts": 1785488400000,
-      "publishedAt": "2026-07-31T09:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: We once praised the American Diabetes Association’s courage. How things have changed",
-      "url": "https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence/?utm_campaign=rss",
-      "summary": "“The ADA is no longer what we’d call a profile in courage,” write Adam Marcus and Ivan Oransky of Retraction Watch.",
-      "ts": 1785486600000,
-      "publishedAt": "2026-07-31T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Limb girdle muscular dystrophy patients face a maddening reality",
-      "url": "https://www.statnews.com/2026/07/31/fda-platform-designation-hold-limb-girdle-muscular-dystrophy-lgmd/?utm_campaign=rss",
-      "summary": "“Too often, regulatory tools authorized to speed patient access to breakthrough treatments are being used in ways that even prevent approval,” writes Kat Bryant Knudson.",
-      "ts": 1785486600000,
-      "publishedAt": "2026-07-31T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: What a recent op-ed got wrong about our Covid study",
-      "url": "https://www.statnews.com/2026/07/31/letter-to-editor-covid-non-pharmaceutical-interventions-research/?utm_campaign=rss",
-      "summary": "“The appropriate counter to Covid revisionism is careful, rigorous, and honest assessment of the U.S. response.”",
-      "ts": 1785486600000,
-      "publishedAt": "2026-07-31T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Syphilis spreads while researchers contend with federal constraints and a drug shortage",
-      "url": "https://www.statnews.com/2026/07/31/syphilis-drug-shortage-case-study-san-diego-patient-researcher-advocate/?utm_campaign=rss",
-      "summary": "At the San Diego-Tijuana border, syphilis spreads while researchers contend with federal constraints and a drug shortage.",
-      "ts": 1785486600000,
-      "publishedAt": "2026-07-31T08:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
