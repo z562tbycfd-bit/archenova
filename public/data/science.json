@@ -1,7 +1,143 @@
 {
   "ok": true,
-  "updated": "2026-08-03T11:26:37.034Z",
+  "updated": "2026-08-03T14:43:26.762Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Study lays groundwork for classifying lunar soil",
+      "url": "https://phys.org/news/2026-08-lays-groundwork-lunar-soil.html",
+      "summary": "As we move closer to supporting a sustainable human presence on the moon, researchers are investigating how its soils can provide valuable resources and even grow food. An article in the Soil Science Society of America J…",
+      "ts": 1785768006000,
+      "publishedAt": "2026-08-03T14:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pluto's hazy atmosphere may be collapsing as it moves farther from the sun",
+      "url": "https://phys.org/news/2026-08-pluto-hazy-atmosphere-collapsing-sun.html",
+      "summary": "Pluto is on an icy march away from the sun. In 2114, it will turn back, but until then, its elliptical orbit will carry it to colder and darker parts of the outer solar system. This is Pluto's first time entering the out…",
+      "ts": 1785768004000,
+      "publishedAt": "2026-08-03T14:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Local knowledge can improve early warnings for glacial lake floods",
+      "url": "https://phys.org/news/2026-08-local-knowledge-early-glacial-lake.html",
+      "summary": "Local knowledge, improved evacuation preparedness and resilient mobile phone-based communication channels can supplement early warning systems to reduce loss of life during glacial lake outburst floods.",
+      "ts": 1785766807000,
+      "publishedAt": "2026-08-03T14:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists watch, molecule by molecule, as cell helpers rescue problem proteins",
+      "url": "https://phys.org/news/2026-08-scientists-molecule-cell-helpers-problem.html",
+      "summary": "University of Wollongong (UOW) scientists have uncovered, for the first time, exactly how two of the cell's \"helper\" proteins operate as a rescue crew for misfolded proteins, a discovery that sheds new light on the molec…",
+      "ts": 1785766803000,
+      "publishedAt": "2026-08-03T14:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI translators are getting more fluent—but communication is never just a matter of words",
+      "url": "https://phys.org/news/2026-08-ai-fluent-communication-words.html",
+      "summary": "Speak into a phone and an app can render your words in another language in seconds. AI-powered speech translation can be fast, convenient and fluent. But fluency does not guarantee that people will understand one another…",
+      "ts": 1785765601000,
+      "publishedAt": "2026-08-03T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the brain helps protect fertility from heat-induced damage",
+      "url": "https://phys.org/news/2026-08-brain-fertility.html",
+      "summary": "As global temperatures continue to rise, scientists are racing to understand why heat so profoundly threatens fertility across the animal kingdom. A new study from the Hebrew University of Jerusalem and collaborators has…",
+      "ts": 1785764668000,
+      "publishedAt": "2026-08-03T13:44:28.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Key principle to boost efficiency of artificial photosynthesis and next-generation semiconductors",
+      "url": "https://phys.org/news/2026-08-key-principle-boost-efficiency-artificial.html",
+      "summary": "A research team led by Taeyeon Kim, a professor in the Department of Chemistry at Sungkyunkwan University, in collaboration with a team from Yonsei University, has identified a new principle that controls charge separati…",
+      "ts": 1785764404000,
+      "publishedAt": "2026-08-03T13:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Over 100 South American lakes could become climate-change early-warning observatories",
+      "url": "https://phys.org/news/2026-08-south-american-lakes-climate-early.html",
+      "summary": "More than 100 shallow lakes stretching over 1,000 kilometers (620 miles) along the Atlantic coast of southern Brazil and Uruguay could become one of the world's most important natural laboratories for understanding how c…",
+      "ts": 1785763207000,
+      "publishedAt": "2026-08-03T13:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Watching comedy helps people detect faint smiles, a new study shows",
+      "url": "https://phys.org/news/2026-08-comedy-people-faint.html",
+      "summary": "In everyday life, the ability to read facial expressions plays a vital role in social communication, as it reveals a speaker's underlying emotions, intentions and psychological state. More importantly, accurately recogni…",
+      "ts": 1785763204000,
+      "publishedAt": "2026-08-03T13:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rising seas are inundating US coastal wetlands, putting many on track to become open water",
+      "url": "https://phys.org/news/2026-07-seas-inundating-coastal-wetlands-track.html",
+      "summary": "Along the three coasts of the contiguous United States, a silent race unfolds. Fueled by climate change, sea levels rise faster than at any time in recent geologic history. Meanwhile, coastal wetlands cling to a slim lea…",
+      "ts": 1785762006000,
+      "publishedAt": "2026-08-03T13:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "176-year oyster mystery spanning WA and the Indo-Pacific solved by DNA",
+      "url": "https://phys.org/news/2026-08-year-oyster-mystery-spanning-wa.html",
+      "summary": "An international study led by Curtin University has put to bed a scientific debate dating back 176 years, confirming that two historically significant oyster species from Western Australia and Fiji are distinct species.",
+      "ts": 1785762005000,
+      "publishedAt": "2026-08-03T13:00:05.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "‘Cheating’ birds change their tune",
+      "url": "https://www.sciencenews.org/article/cheating-birds-song-pied-flycatchers",
+      "summary": "Female pied flycatchers can tell whether a male is paired or not based on song differences. Mated males sing shorter songs and repeat syllables less.",
+      "ts": 1785762000000,
+      "publishedAt": "2026-08-03T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Good things take time—but new research suggests mindfulness can make the wait easier",
+      "url": "https://phys.org/news/2026-08-good-mindfulness-easier.html",
+      "summary": "Ask someone if they'd rather take $5 today or $10 next week and they'll know which option is better.",
+      "ts": 1785760803000,
+      "publishedAt": "2026-08-03T12:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Most Americans prefer non-violent border enforcement, study finds",
+      "url": "https://phys.org/news/2026-08-americans-violent-border.html",
+      "summary": "Most Americans favor nonviolent measures, such as temporary barricades, over violent measures, like the use of rubber bullets, by border enforcement officers toward undocumented migrants on the southern border, a UCL-led…",
+      "ts": 1785759604000,
+      "publishedAt": "2026-08-03T12:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A 21-hour dip could help explain Tabby's star's decade-long dimming mystery",
+      "url": "https://phys.org/news/2026-07-hour-dip-tabby-star-decade.html",
+      "summary": "Since 2016, an ordinary-looking F-type star called KIC 8462852, nicknamed Tabby's star, has behaved anything but ordinarily. In a new study published in the Monthly Notices of the Royal Astronomical Society on July 6, re…",
+      "ts": 1785758405000,
+      "publishedAt": "2026-08-03T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What happens to a moon when its planet is stolen?",
+      "url": "https://phys.org/news/2026-08-moon-planet-stolen.html",
+      "summary": "We have known for a while that the Milky Way is full of homeless worlds. Rogue planets, free-floating planets—call them what you like—but they are planets formed in orderly systems around ordinary stars and then thrown o…",
+      "ts": 1785758403000,
+      "publishedAt": "2026-08-03T12:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia has long relied on volunteers: As bird flu spreads, they will need support",
+      "url": "https://phys.org/news/2026-08-australia-volunteers-bird-flu.html",
+      "summary": "Australia had years to prepare for the arrival of bird flu. The deadly, highly transmissible H5N1 strain emerged in late 2020 in Asia before spreading to every other continent except Australia.",
+      "ts": 1785757202000,
+      "publishedAt": "2026-08-03T11:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "At colleges, the AI boom means everyone wants to dabble in computer science",
@@ -663,142 +799,6 @@
       "title": "Frugal Bayesian Optimization: Scalable Surrogates for Data- and Resource-Limited Discovery",
       "url": "https://arxiv.org/abs/2607.29225",
       "summary": "arXiv:2607.29225v1 Announce Type: cross Abstract: Bayesian Optimization (BO) is widely adopted for data-efficient optimization in scientific and engineering applications, yet its computational cost is rarely evaluated al…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Weak-electrolyte diffusiophoresis for rigid colloids",
-      "url": "https://arxiv.org/abs/2607.29230",
-      "summary": "arXiv:2607.29230v1 Announce Type: cross Abstract: We develop a model for the diffusiophoresis of a chemically inert, rigid spherical colloid with fixed surface charge in a monovalent weak electrolyte, in which a neutral …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phoretic flow in a three-dimensional wedge geometry",
-      "url": "https://arxiv.org/abs/2607.29262",
-      "summary": "arXiv:2607.29262v1 Announce Type: cross Abstract: Understanding how chemically induced surface transport generates fluid motion in confined geometries is essential for the rational design of microscale pumping devices an…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The CUSP CubeSat mission for space weather multi-physics analysis, design, and testing",
-      "url": "https://arxiv.org/abs/2607.29264",
-      "summary": "arXiv:2607.29264v1 Announce Type: cross Abstract: The CUbesat Solar Polarimeter (CUSP) mission aims to measure the linear polarization of solar flares in the hard X-ray band by means of a Compton scattering polarimeter. …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Turbulent Convection: Modal Equations and Energy Pathways",
-      "url": "https://arxiv.org/abs/2607.29276",
-      "summary": "arXiv:2607.29276v1 Announce Type: cross Abstract: We present a framework for studying high Rayleigh number turbulent convection to better understand stellar and planetary convection zones. Utilizing the statistical symme…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergence of Propagating Exciton-Polaritons in Hybrid Waveguide-van der Waals Heterostructures",
-      "url": "https://arxiv.org/abs/2607.29289",
-      "summary": "arXiv:2607.29289v1 Announce Type: cross Abstract: Integrating few-layer materials into photonic circuits is a promising concept for novel on-chip photonic applications. We incorporate transition metal dichalcogenides (TM…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Local Well-Posedness for a Diffuse Interface Model for Two-Phase Flows from Mixture Theory",
-      "url": "https://arxiv.org/abs/2607.29298",
-      "summary": "arXiv:2607.29298v1 Announce Type: cross Abstract: Local-in-time well-posedness is established for a recently proposed diffuse interface model describing incompressible two-phase flows. The result constitutes the first an…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Savi-Bhransha: Graph-Theoretic Dislocation-Loop Characterization in Crystals",
-      "url": "https://arxiv.org/abs/2607.29328",
-      "summary": "arXiv:2607.29328v1 Announce Type: cross Abstract: Dislocation loops govern the properties of crystalline materials, but extracting their detailed characteristics from atomistic simulations is difficult when loops are fra…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Information limits of photonic lantern wavefront sensing: a Fisher- and quantum-Fisher-information framework and its relation to Fourier-filtering sensitivity limits",
-      "url": "https://arxiv.org/abs/2607.29342",
-      "summary": "arXiv:2607.29342v1 Announce Type: cross Abstract: The photonic lantern is an all-photonic wavefront sensor native to single-mode-fibre-fed instruments, but its performance is almost always quoted through a specific recon…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revisiting the Equation-of-Motion Method: A Universal Framework for Correlated Quantum Systems",
-      "url": "https://arxiv.org/abs/2607.29396",
-      "summary": "arXiv:2607.29396v1 Announce Type: cross Abstract: A general implementation of the equation-of-motion (EOM) formalism for correlated many-body states is presented and applied to the description of collective excitations i…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entropy production of active matter systems as indicator for computing performance",
-      "url": "https://arxiv.org/abs/2607.29434",
-      "summary": "arXiv:2607.29434v1 Announce Type: cross Abstract: Physical systems can process information through their natural dynamics, offering alternatives to conventional digital computing. Reservoir computing offers a basic frame…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Persistence characteristics of H4RG-15 detectors for ESO instruments",
-      "url": "https://arxiv.org/abs/2607.29435",
-      "summary": "arXiv:2607.29435v1 Announce Type: cross Abstract: As a part of the ESO Instrumentation Program, we already ordered 23 H4RG-15 (2.5 um cut-off) detectors for the instruments MOONS, MICADO, and HARMONI, with more of these …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Elastodynamics from Eulerian Poisson-bracket formalism: application to chiral odd solids",
-      "url": "https://arxiv.org/abs/2607.29521",
-      "summary": "arXiv:2607.29521v1 Announce Type: cross Abstract: The Poisson-bracket (PB) formalism is widely used to derive dynamics of coarse-grained (CG) fields to capture large-scale physics, extending the role of PBs in classical …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantifying the cost of network computations to unpack structure-function relationships in the brain",
-      "url": "https://arxiv.org/abs/2607.29537",
-      "summary": "arXiv:2607.29537v1 Announce Type: cross Abstract: The brain supports computations through coordinated patterns of activity on an underlying network. These networks---from microscale navigational circuits in insects to ma…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Superselectivity as a Receptor-Fluctuation Response",
-      "url": "https://arxiv.org/abs/2607.29599",
-      "summary": "arXiv:2607.29599v1 Announce Type: cross Abstract: Superselective multivalent binding enables sharp receptor-density discrimination in targeting and sensing, but what its logarithmic response measures microscopically rema…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Release-free phononic crystal with strong microwave coupling",
-      "url": "https://arxiv.org/abs/2607.29666",
-      "summary": "arXiv:2607.29666v1 Announce Type: cross Abstract: Phonons hold promise for storing and transferring quantum information, including in mechanically-mediated quantum interconnects between superconducting qubits and light. …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A fullwave model of the nonlinear wave equation with multiple relaxations and relaxing perfectly matched layers for high-order numerical finite-difference solutions",
-      "url": "https://arxiv.org/abs/2106.11476",
-      "summary": "arXiv:2106.11476v2 Announce Type: replace Abstract: Large-scale acoustic simulations underpin the development of ultrasound imaging and therapy, but modeling nonlinearity, frequency-dependent attenuation, and absorbing b…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A lab-on-a-silicon-chip platform for all-electrical antibiotic susceptibility tests with a sample-to-results time within 20 minutes",
-      "url": "https://arxiv.org/abs/2508.12775",
-      "summary": "arXiv:2508.12775v2 Announce Type: replace Abstract: Rapid antibiotic susceptibility tests (ASTs) are essential for quick selection of effective drugs to treat bacterial infections at an early stage. However, the most wid…",
       "ts": 1785729600000,
       "publishedAt": "2026-08-03T04:00:00.000Z"
     }
