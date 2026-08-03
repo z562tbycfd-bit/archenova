@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-08-03T19:40:21.952Z",
+  "updated": "2026-08-03T21:05:23.041Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Marine microbes point to ancient seawater source beneath Antarctica's Blood Falls",
+      "url": "https://phys.org/news/2026-08-marine-microbes-ancient-seawater-source.html",
+      "summary": "Salty water flowing through Antarctica's Blood Falls contains a distinct community of marine-specific microorganisms, providing evidence that the brine system beneath the glacier has a marine origin, according to a paper…",
+      "ts": 1785790805000,
+      "publishedAt": "2026-08-03T21:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Digital tools alone cannot secure food supplies, study suggests",
+      "url": "https://phys.org/news/2026-08-digital-tools-food.html",
+      "summary": "Digital technologies could strengthen food security in developing countries, but their impact will be limited unless governments address distrust, weak collaboration and institutional inefficiencies, according to a study…",
+      "ts": 1785790801000,
+      "publishedAt": "2026-08-03T21:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light controls nanoscale 'bubble' domains in a ferroelectric crystal",
+      "url": "https://phys.org/news/2026-08-nanoscale-domains-ferroelectric-crystal.html",
+      "summary": "Researchers at Flinders University have discovered an unexpected way light can control tiny electronic structures inside advanced materials, a development that could help pave the way for more energy-efficient memory dev…",
+      "ts": 1785790201000,
+      "publishedAt": "2026-08-03T20:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to keep the Earth habitable when the sun dies",
+      "url": "https://phys.org/news/2026-08-earth-habitable-sun-dies.html",
+      "summary": "In a billion years, the sun will start to run out of fuel and expand to become a red giant. Earth's oceans and atmosphere will be burned away, and Earth will likely be engulfed by the sun altogether. The sun will then sh…",
+      "ts": 1785789603000,
+      "publishedAt": "2026-08-03T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Zodiacal dust in exoplanetary systems could hinder our search for life on other worlds",
+      "url": "https://phys.org/news/2026-08-zodiacal-exoplanetary-hinder-life-worlds.html",
+      "summary": "If you've ever been under a dark sky in the early morning before dawn, you may have seen a faint glow, almost like a column of light rising from the east. It's sometimes known as the false dawn because it appears before …",
+      "ts": 1785789602000,
+      "publishedAt": "2026-08-03T20:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "At risk and cut off—are other coastal communities destined to follow in Torcross's footsteps?",
+      "url": "https://phys.org/news/2026-08-coastal-communities-destined-torcross-footsteps.html",
+      "summary": "It is six months since the main road into the village of Torcross, in South Devon, collapsed after a series of storms caused extensive damage to the community's sea defenses. Residents are still coming to terms with the …",
+      "ts": 1785788404000,
+      "publishedAt": "2026-08-03T20:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pixel patterns harness diffraction for faster, more accurate nanoscale 3D printing",
+      "url": "https://phys.org/news/2026-08-pixel-patterns-harness-diffraction-faster.html",
+      "summary": "Researchers at the George W. Woodruff School of Mechanical Engineering have developed a new approach to nanoscale 3D printing that improves both speed and fidelity, overcoming a challenge that has limited the technology'…",
+      "ts": 1785788402000,
+      "publishedAt": "2026-08-03T20:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop a new catalyst to convert CO₂ into ethanol using electricity",
+      "url": "https://phys.org/news/2026-08-catalyst-ethanol-electricity.html",
+      "summary": "A research team led by Professor Hyoyoung Lee of the Department of Chemistry at Sungkyunkwan University has developed a new catalyst that converts carbon dioxide into ethanol with high selectivity. The study, titled \"Ato…",
+      "ts": 1785787574000,
+      "publishedAt": "2026-08-03T20:06:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "World Meteorological Organization says prepare for a strong El Niño",
+      "url": "https://phys.org/news/2026-08-world-meteorological-strong-el-nio.html",
+      "summary": "El Niño continues to intensify steadily and is expected to dominate global climate patterns in the August to October 2026 season, increasing the likelihood of above-normal temperatures across much of the world and drivin…",
+      "ts": 1785787205000,
+      "publishedAt": "2026-08-03T20:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Homo antecessor skull layers resemble modern humans and Neanderthals, fragments suggest",
+      "url": "https://phys.org/news/2026-08-homo-antecessor-skull-layers-resemble.html",
+      "summary": "A new study provides quantitative data on cranial vault thickness in Homo antecessor, based on the analysis of three parietal fragments recovered from the Gran Dolina site in the Sierra de Atapuerca, Burgos, Spain.",
+      "ts": 1785787203000,
+      "publishedAt": "2026-08-03T20:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stomach stone hypothesis sheds light on the evolution of dinosaur digestive systems",
+      "url": "https://phys.org/news/2026-08-stomach-stone-hypothesis-evolution-dinosaur.html",
+      "summary": "An international research team led by Assistant Professor Ryuji Takasaki of the Faculty of Biosphere-Geosphere Science at Okayama University of Science has published a paper proposing a new hypothesis on the evolutionary…",
+      "ts": 1785786007000,
+      "publishedAt": "2026-08-03T19:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mechanical recycling contamination risks the circular plastics economy, but quality control analytics can help",
+      "url": "https://phys.org/news/2026-08-mechanical-recycling-contamination-circular-plastics.html",
+      "summary": "A study from the University of Manchester into the effects of polymer cross-contamination on the outcome of mechanically recycling plastics has found that the presence of contaminants radically alters degradation mechani…",
+      "ts": 1785786003000,
+      "publishedAt": "2026-08-03T19:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Ant teams beat gravity-based puzzle solvers",
@@ -703,102 +799,6 @@
       "title": "Comparative analysis of wavenumber response in phase contrast and spiral phase imaging systems for plasma diagnostics",
       "url": "https://arxiv.org/abs/2607.29307",
       "summary": "arXiv:2607.29307v1 Announce Type: new Abstract: Phase contrast imaging (PCI) has been used for decades to study plasma density fluctuations, but its wavenumber response $k$ is constrained by the phase plate groove width …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of Antichiral Hinge States in a Three-dimensional Gyromagnetic Photonic Crystal",
-      "url": "https://arxiv.org/abs/2607.29340",
-      "summary": "arXiv:2607.29340v1 Announce Type: new Abstract: Recent advances in topological physics have revealed a counterintuitive class of antichiral edge and surface states that propagate in the same direction along spatially sep…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mode-dependent photothermal responsivity mapping of tensile-stressed nanomechanical resonators",
-      "url": "https://arxiv.org/abs/2607.29348",
-      "summary": "arXiv:2607.29348v1 Announce Type: new Abstract: The photothermal responsivity of a tensioned nanomechanical resonator, the fractional frequency shift per absorbed optical power, depends on which vibrational mode is track…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electronic Damage Suppression in X-ray Diffraction with Attosecond X-ray Pulses",
-      "url": "https://arxiv.org/abs/2607.29351",
-      "summary": "arXiv:2607.29351v1 Announce Type: new Abstract: So far, the focus of state-of-the-art structure determination using x-ray free-electron laser (XFEL) pulses has been on macromolecular crystallography. This approach has ac…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Group-Theoretical Framework for Local k-Space Topology and Berry Phase in 2D Photonic Systems",
-      "url": "https://arxiv.org/abs/2607.29356",
-      "summary": "arXiv:2607.29356v1 Announce Type: new Abstract: Two-dimensional photonic crystals (2D PhCs) enable fine-grained control over a broad set of Bloch modes without the constraints of band occupancy and natural crystal struct…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Approaching Coupled Cluster Accuracy with Positive Semidefinite Vertex Corrected Self-Energies",
-      "url": "https://arxiv.org/abs/2607.29359",
-      "summary": "arXiv:2607.29359v1 Announce Type: new Abstract: Hedin's formalism of functional derivatives is the best-known method for systematically constructing correlated electronic theories, largely due to the success of its lowes…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonlinear polarization effects on plasma screening for thermonuclear reactions",
-      "url": "https://arxiv.org/abs/2607.29362",
-      "summary": "arXiv:2607.29362v1 Announce Type: new Abstract: We investigate two-center plasma screening effects on thermonuclear reactions of D-T, p-$^{11}$B, and $^{12}$C-$^{12}$C, spanning from classical to degenerate regimes. The …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Neural Operator Closure for Landau Damping in Electrostatic Plasma",
-      "url": "https://arxiv.org/abs/2607.29364",
-      "summary": "arXiv:2607.29364v1 Announce Type: new Abstract: We present a data-driven plasma fluid closure for both linear and nonlinear electrostatic Landau damping in one dimension. A Fourier Neural Operator (FNO) is trained online…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Near single-cycle pulse generation using a cascaded all-bulk multi-pass cell compression system",
-      "url": "https://arxiv.org/abs/2607.29372",
-      "summary": "arXiv:2607.29372v1 Announce Type: new Abstract: We experimentally demonstrate the generation of sub-two-cycle optical pulses using a cascaded post-compression scheme based on two bulk multi-pass cells. Starting from 220 …",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On four representations of the law of aftershock evolution",
-      "url": "https://arxiv.org/abs/2607.29381",
-      "summary": "arXiv:2607.29381v1 Announce Type: new Abstract: The relaxation of the earthquake source following the main shock has been investigated both theoretically and experimentally, based on data regarding the evolution of after…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Students' Epistemological Beliefs and their Chatbot Preferences in AI-mediated Physics Learning",
-      "url": "https://arxiv.org/abs/2607.29385",
-      "summary": "arXiv:2607.29385v1 Announce Type: new Abstract: Evolving technologies have traditionally influenced pedagogical practices and Generative AI is one such technology that promises to transform higher education. In this stud…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coating-free monolithic fused silica resonator via total internal reflection for precision laser stabilization",
-      "url": "https://arxiv.org/abs/2607.29407",
-      "summary": "arXiv:2607.29407v1 Announce Type: new Abstract: Brownian noise in the thin-film mirror coatings of optical reference cavities is a fundamental limitation in precision metrology, including gravitational-wave detectors and…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ascorbic acid mitigates oxidative structural degradation in bovine spermatozoa: a label-free quantitative phase microscopy study",
-      "url": "https://arxiv.org/abs/2607.29428",
-      "summary": "arXiv:2607.29428v1 Announce Type: new Abstract: Oxidative stress is a key factor in low fertility outcomes during assisted reproduction technology (ART) and contributes to poor sperm quality. Conventional assessment reli…",
       "ts": 1785729600000,
       "publishedAt": "2026-08-03T04:00:00.000Z"
     }

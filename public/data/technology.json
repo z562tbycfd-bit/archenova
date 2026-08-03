@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-03T19:40:24.587Z",
+  "updated": "2026-08-03T21:05:25.920Z",
   "items": [
     {
       "source": "OpenAI",
@@ -10,6 +10,24 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: California Supreme Court sides with Gilead in ‘duty’ to innovate case",
+      "url": "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/?utm_campaign=rss",
+      "summary": "The California Supreme Court sided with Gilead Sciences in a closely watched case over whether the company had a \"duty\" to innovate.",
+      "ts": 1785790585000,
+      "publishedAt": "2026-08-03T20:56:25.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Louisiana Students Loft Payloads from NASA Balloon Facility in Texas",
+      "url": "https://www.nasa.gov/missions/scientific-balloons/louisiana-students-loft-payloads-from-nasa-balloon-facility-in-texas/",
+      "summary": "Every spring in Palestine, Texas, the wide-open fields around NASA’s Columbia Scientific Balloon Facility fill with students and faculty from across Louisiana. They arrive carrying sensors, laptops, and carefully enginee…",
+      "ts": 1785784963000,
+      "publishedAt": "2026-08-03T19:22:43.000Z",
+      "categoryId": "space"
     },
     {
       "source": "MIT Technology Review",
@@ -85,9 +103,9 @@
     },
     {
       "source": "SpaceNews",
-      "title": "Xona secures spectrum approval for 250-satellite navigation network",
+      "title": "Xona secures spectrum approval for satellite navigation network",
       "url": "https://spacenews.com/xona-secures-spectrum-approval-for-250-satellite-navigation-network/",
-      "summary": "The approval allows the startup to transmit stronger signals in spectrum adjacent to GPS frequencies The post Xona secures spectrum approval for 250-satellite navigation network appeared first on SpaceNews.",
+      "summary": "The approval allows the startup to transmit stronger signals in spectrum adjacent to GPS frequencies The post Xona secures spectrum approval for satellite navigation network appeared first on SpaceNews.",
       "ts": 1785771397000,
       "publishedAt": "2026-08-03T15:36:37.000Z",
       "categoryId": "space"
@@ -183,6 +201,33 @@
       "categoryId": "space"
     },
     {
+      "source": "United Nations News",
+      "title": "In Somalia, AI is helping deliver food to hungry families",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168066",
+      "summary": "Amid a deepening hunger crisis in Somalia, artificial intelligence (AI) is helping to deliver aid to the people who need it most.",
+      "ts": 1785758400000,
+      "publishedAt": "2026-08-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Mothers still lack support to breastfeed, UN warns",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168065",
+      "summary": "Breastfeeding rates are rising worldwide, but millions of mothers and families still lack the services and protection they need to feed their babies safely, the UN has warned.",
+      "ts": 1785758400000,
+      "publishedAt": "2026-08-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "DR Congo: New centre opens at heart of record Ebola outbreak",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168064",
+      "summary": "New UN-backed centres will serve eastern Democratic Republic of the Congo (DRC) as confirmed Ebola cases continued to climb sharply over the weekend in the largest ever outbreak of the highly contagious disease in the co…",
+      "ts": 1785758400000,
+      "publishedAt": "2026-08-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: BioNTech names Guido Oelkers its new CEO",
       "url": "https://www.statnews.com/2026/08/03/biontech-ceo-guido-oelkers-ugur-sahin-replacement/?utm_campaign=rss",
@@ -244,6 +289,15 @@
       "ts": 1785745800000,
       "publishedAt": "2026-08-03T08:30:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "ts": 1785740400000,
+      "publishedAt": "2026-08-03T07:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -756,60 +810,6 @@
       "summary": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, July 24, 2026 Curiosity spent the week continuing to climb her way up throu…",
       "ts": 1785508862000,
       "publishedAt": "2026-07-31T14:41:02.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s Roman Telescope to Carry 1.35 Million Names to Deep Space",
-      "url": "https://www.nasa.gov/image-article/nasas-roman-telescope-to-carry-1-35-million-names-to-deep-space/",
-      "summary": "On July 27, technicians at NASA’s Kennedy Space Center in Florida installed a memory card containing 1,350,144 names as part of a commemorative plaque on the Nancy Grace Roman Space Telescope. The names were submitted by…",
-      "ts": 1785507094000,
-      "publishedAt": "2026-07-31T14:11:34.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "How to safely watch a solar eclipse",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/How_to_safely_watch_a_solar_eclipse",
-      "summary": "Video: 00:01:34 [English]: A solar eclipse is an unforgettable sight, but only if you watch it safely! ESA reserve astronaut Sara García Alonso shows you how to enjoy this incredible cosmic event using certified eclipse …",
-      "ts": 1785506400000,
-      "publishedAt": "2026-07-31T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Inside the effort to show Congress what war in space looks like",
-      "url": "https://spacenews.com/inside-the-effort-to-show-congress-what-war-in-space-looks-like/",
-      "summary": "The Space Force Association’s National Spacepower Center is building an unclassified environment for demonstrating threats to satellites and their consequences on Earth The post Inside the effort to show Congress what wa…",
-      "ts": 1785504600000,
-      "publishedAt": "2026-07-31T13:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Novo setback, support for Replimune’s melanoma drug, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/07/31/novo-setback-fda-panel-endorses-replimune-melanoma-drug/?utm_campaign=rss",
-      "summary": "An FDA advisory panel recommended use of an experimental Replimune treatment for advanced melanoma that the agency has rejected twice",
-      "ts": 1785504497000,
-      "publishedAt": "2026-07-31T13:28:17.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Space Force picks 15 companies for $981 million training range contract",
-      "url": "https://spacenews.com/space-force-picks-15-companies-for-981-million-training-range-contract/",
-      "summary": "Vendors will compete for orders to build satellites, sensors and systems for more realistic military space exercises The post Space Force picks 15 companies for $981 million training range contract appeared first on Spac…",
-      "ts": 1785503900000,
-      "publishedAt": "2026-07-31T13:18:20.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 27-31 July 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_27-31_July_2026",
-      "summary": "Week in images: 27-31 July 2026 Discover our week through the lens",
-      "ts": 1785503400000,
-      "publishedAt": "2026-07-31T13:10:00.000Z",
       "categoryId": "space"
     }
   ],
