@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-04T08:40:24.267Z",
+  "updated": "2026-08-04T11:25:26.405Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Research finds rhetoric around #MeToo often focused on punishment, not causes of violence",
+      "url": "https://phys.org/news/2026-08-rhetoric-metoo-focused-violence.html",
+      "summary": "The #MeToo movement began as a way for victims of gender-based violence to find solidarity, share their experiences and bring justice to perpetrators of misconduct. New research from the University of Kansas shows that c…",
+      "ts": 1785842403000,
+      "publishedAt": "2026-08-04T11:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Aquarium sends shark eggs to bolster wild populations",
+      "url": "https://phys.org/news/2026-08-aquarium-shark-eggs-bolster-wild.html",
+      "summary": "Shedd Aquarium has sent four zebra shark eggs to contribute to a conservation effort for the endangered species, marking the Chicago nonprofit's first delivery to Raja Ampat, Indonesia. As a founding partner of ReShark, …",
+      "ts": 1785841203000,
+      "publishedAt": "2026-08-04T11:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "US Northwest battles wildfires after Spokane neighborhoods scorched",
@@ -783,22 +799,6 @@
       "title": "Microscopic dynamics of consensus formation in multi-agent LLM Naming Games",
       "url": "https://arxiv.org/abs/2608.02178",
       "summary": "arXiv:2608.02178v1 Announce Type: new Abstract: Decentralized populations of Large Language Model (LLM) agents can spontaneously reach consensus on shared conventions, yet the microscopic mechanisms by which their intern…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Arctic bimodality reflects enhanced variability in the clear-cloudy transition rather than bistability",
-      "url": "https://arxiv.org/abs/2608.02205",
-      "summary": "arXiv:2608.02205v1 Announce Type: new Abstract: The wintertime Arctic boundary layer is characterized by two distinct states, radiatively clear (cloud-free) and radiatively opaque (cloudy), which is reflected in observat…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermo-Hydro-Mechanical Modeling of a TBM Tunnel in Opalinus Clay: Thermal Coupling Effects on Long-term Lining Pressures and Excavation Damage Zone Development",
-      "url": "https://arxiv.org/abs/2608.02207",
-      "summary": "arXiv:2608.02207v1 Announce Type: new Abstract: Tunnels in argillaceous formations such as Opalinus Clay (OPA) develop a coupled thermal, hydraulic, and mechanical response. This study examines the New Belchen Tunnel (ST…",
       "ts": 1785816000000,
       "publishedAt": "2026-08-04T04:00:00.000Z"
     }

@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-04T08:40:27.952Z",
+  "updated": "2026-08-04T11:25:28.274Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Rocketdyne reemerges as standalone space company",
+      "url": "https://spacenews.com/rocketdyne-reemerges-as-standalone-space-company/",
+      "summary": "AE Industrial private-equity firm takes 60% stake as L3Harris retains a noncontrolling interest The post Rocketdyne reemerges as standalone space company appeared first on SpaceNews.",
+      "ts": 1785835200000,
+      "publishedAt": "2026-08-04T09:20:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells",
+      "url": "https://www.genengnews.com/topics/omics/genome-mapping-reveals-autoimmune-disease-risk-genes-in-innate-lymphoid-cells/",
+      "summary": "ILC3s help regulate inflammation and maintain barrier integrity, but their rarity has made them difficult to study with conventional genome-organization methods. The post Genome Mapping Reveals Autoimmune Disease Risk Ge…",
+      "ts": 1785834057000,
+      "publishedAt": "2026-08-04T09:00:57.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Kennedy and Oz call Medicaid cuts ‘myths.’ It’s more complicated than that",
@@ -426,6 +444,15 @@
       "categoryId": "space"
     },
     {
+      "source": "Nature Energy",
+      "title": "Coordinating EV charging modes and energy system planning reveals uneven savings across Europe",
+      "url": "https://www.nature.com/articles/s41560-026-02121-7",
+      "summary": "",
+      "ts": 1785801600000,
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "OpenAI",
       "title": "Disrupting a Criminal Scam Operation",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
@@ -672,7 +699,7 @@
       "source": "United Nations News",
       "title": "DR Congo: New centre opens at heart of record Ebola outbreak",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168064",
-      "summary": "New UN-backed centres will serve eastern Democratic Republic of the Congo (DRC) as confirmed Ebola cases continued to climb sharply over the weekend in the largest ever outbreak of the highly contagious disease in the co…",
+      "summary": "New UN-partnered centres will serve eastern Democratic Republic of the Congo (DRC) as confirmed Ebola cases continued to climb sharply over the weekend in the largest-ever outbreak of the highly contagious disease in the…",
       "ts": 1785758400000,
       "publishedAt": "2026-08-03T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -781,33 +808,6 @@
       "title": "SymPerturb converts symptom-network structure into testable intervention priorities",
       "url": "https://arxiv.org/abs/2607.28673",
       "summary": "arXiv:2607.28673v1 Announce Type: new Abstract: Symptom networks encode conditional dependence but do not by themselves identify causal or clinically actionable intervention targets. We introduce SymPerturb, a virtual-pe…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "But What Behavior?",
-      "url": "https://arxiv.org/abs/2607.28898",
-      "summary": "arXiv:2607.28898v1 Announce Type: new Abstract: What is a natural behavior? I argue that the study of natural behaviors is often the study of the spontaneous behaviors of animals placed in quantifiably different environm…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Improving scDiffusion with Sparsity-Biased Classifier-Free Guidance",
-      "url": "https://arxiv.org/abs/2607.29043",
-      "summary": "arXiv:2607.29043v1 Announce Type: new Abstract: Single-cell RNA sequencing (scRNA-seq) has become an essential tool in modern cellular biology, and generating accurate synthetic scRNA-seq data is becoming increasingly im…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Critical Flicker Fusion Frequency As A Falsifiable Boundary Between Plastic And Non-Plastic Neural Systems",
-      "url": "https://arxiv.org/abs/2607.29068",
-      "summary": "arXiv:2607.29068v1 Announce Type: new Abstract: Experience-dependent neural plasticity is fundamental to adaptive behaviour, yet certain perceptual abilities resist modification despite extensive training. Critical flick…",
       "ts": 1785729600000,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "categoryId": "bio"
