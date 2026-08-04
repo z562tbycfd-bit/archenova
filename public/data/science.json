@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-04T05:49:27.124Z",
+  "updated": "2026-08-04T08:40:24.267Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "US Northwest battles wildfires after Spokane neighborhoods scorched",
+      "url": "https://phys.org/news/2026-08-northwest-wildfires-spokane-neighborhoods.html",
+      "summary": "Wildfires supercharged by drought and intense heat tore through the northwestern U.S. city of Spokane, forcing the evacuation of 65,000 people and reducing hundreds of buildings to cinders as firefighters raced Monday to…",
+      "ts": 1785828001000,
+      "publishedAt": "2026-08-04T07:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Last Scottish island bird hunt banned after almost 500 years",
+      "url": "https://phys.org/news/2026-08-scottish-island-bird-years.html",
+      "summary": "A centuries-old annual bird chick hunt on a remote Scottish island, known as the Guga Hunt, has been banned this year, authorities said Monday, citing conservation concerns.",
+      "ts": 1785826801000,
+      "publishedAt": "2026-08-04T07:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Suspected heatstroke kills three lions at Japan zoo",
+      "url": "https://phys.org/news/2026-08-heatstroke-lions-japan-zoo.html",
+      "summary": "Three lions from a Tokyo zoo have died from suspected heatstroke, and others are under treatment, a spokeswoman said Tuesday, with the big cats struggling with high humidity.",
+      "ts": 1785825982000,
+      "publishedAt": "2026-08-04T06:46:22.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiger shark caught off Massachusetts could be sign of warming waters",
+      "url": "https://phys.org/news/2026-08-tiger-shark-caught-massachusetts.html",
+      "summary": "Nate Rouette and his brother Nelson went shark fishing on Cape Cod hoping for an exciting catch, but were shocked by what they reeled in—a tropical species of shark with a reputation for eating everything it can swallow.",
+      "ts": 1785825916000,
+      "publishedAt": "2026-08-04T06:45:16.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Hex9: A Quasi-Authalic, Quasi-Continuous Hexagonal DGGS on the Reference Ellipsoid",
@@ -767,38 +799,6 @@
       "title": "Thermo-Hydro-Mechanical Modeling of a TBM Tunnel in Opalinus Clay: Thermal Coupling Effects on Long-term Lining Pressures and Excavation Damage Zone Development",
       "url": "https://arxiv.org/abs/2608.02207",
       "summary": "arXiv:2608.02207v1 Announce Type: new Abstract: Tunnels in argillaceous formations such as Opalinus Clay (OPA) develop a coupled thermal, hydraulic, and mechanical response. This study examines the New Belchen Tunnel (ST…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solving the Dissipation Inequality not as a constitutive restriction",
-      "url": "https://arxiv.org/abs/2608.02215",
-      "summary": "arXiv:2608.02215v1 Announce Type: new Abstract: A solution procedure is formulated and solved for treating the nonlinear Dissipation Inequality as a constraint equation within continuum mechanics, and allowing for incomp…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A subsurface array of photonic crystal slabs produces green stripes in a scarab beetle",
-      "url": "https://arxiv.org/abs/2608.02224",
-      "summary": "arXiv:2608.02224v1 Announce Type: new Abstract: Vivid colours in nature often arise from photonic nanostructures that have inspired diverse technologies. Yet most known examples fall within a limited set of structural th…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mass Spectrometry Studies of Hydrogen Ions Energy Distributions in an ECR- based Large Volume Plasma Source",
-      "url": "https://arxiv.org/abs/2608.02226",
-      "summary": "arXiv:2608.02226v1 Announce Type: new Abstract: Plasma is produced in a Large Volume Plasma Source (LVPS; dia. = 1 m, height = 1m) using CW microwaves (= 400 - 600 W, 2.45 GHz), in a compact ECR plasma source (CEPS) atta…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beam energy measurement at the European XFEL with high-performance trajectory fitting",
-      "url": "https://arxiv.org/abs/2608.02246",
-      "summary": "arXiv:2608.02246v1 Announce Type: new Abstract: This contribution presents the method used for beam energy monitoring at the European XFEL. It relies on high-performance trajectory fitting of beam position monitor data a…",
       "ts": 1785816000000,
       "publishedAt": "2026-08-04T04:00:00.000Z"
     }

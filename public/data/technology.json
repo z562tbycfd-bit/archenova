@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-04T05:49:30.404Z",
+  "updated": "2026-08-04T08:40:27.952Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Kennedy and Oz call Medicaid cuts ‘myths.’ It’s more complicated than that",
+      "url": "https://www.statnews.com/2026/08/04/rfk-medicaid-cuts-myth-analysis/?utm_campaign=rss",
+      "summary": "Kennedy and Oz say Medicaid isn't being cut. But state Medicaid directors say new policies are likely to cause many people to lose coverage.",
+      "ts": 1785832200000,
+      "publishedAt": "2026-08-04T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: As Trump administration pushes court-ordered mental health care, a new report raises questions",
+      "url": "https://www.statnews.com/2026/08/04/new-report-questions-new-york-program-court-ordered-mental-healthcare/?utm_campaign=rss",
+      "summary": "A study of New York’s court-ordered care for people with serious mental health conditions adds to the research on this type of involuntary care.",
+      "ts": 1785832200000,
+      "publishedAt": "2026-08-04T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How Josée became one of the 7.9% of Québécois who die by assisted suicide",
+      "url": "https://www.statnews.com/2026/08/04/assisted-suicide-medical-aid-in-dying-quebec-mental-illness-suffering/?utm_campaign=rss",
+      "summary": "“In focusing on medical aid in dying solely as an end, we’ve missed out on the life that was lived,” writes physician Sai Rajagopal.",
+      "ts": 1785832200000,
+      "publishedAt": "2026-08-04T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I’m using not-FDA-approved software to manage my diabetes. I’ve never felt better",
+      "url": "https://www.statnews.com/2026/08/04/diabetes-open-source-software-fda-approval/?utm_campaign=rss",
+      "summary": "“It is no longer possible to ask the FDA to keep pace with software development by doing the same reviews faster,” writes Dana Goldman.",
+      "ts": 1785832200000,
+      "publishedAt": "2026-08-04T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "ESA and Pokémon team up to celebrate World Space Week",
+      "url": "https://www.esa.int/About_Us/Branding_and_Partnerships/ESA_and_Pokemon_team_up_to_celebrate_World_Space_Week",
+      "summary": "The European Space Agency (ESA) and The Pokémon Company International (TPCi) are teaming up to celebrate World Space Week from 4–10 October 2026. This unique, limited-time collaboration brings together two worlds united …",
+      "ts": 1785830400000,
+      "publishedAt": "2026-08-04T08:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Kreios Space to fly VLEO demonstration in NanoAvionics bus",
@@ -763,51 +808,6 @@
       "title": "Critical Flicker Fusion Frequency As A Falsifiable Boundary Between Plastic And Non-Plastic Neural Systems",
       "url": "https://arxiv.org/abs/2607.29068",
       "summary": "arXiv:2607.29068v1 Announce Type: new Abstract: Experience-dependent neural plasticity is fundamental to adaptive behaviour, yet certain perceptual abilities resist modification despite extensive training. Critical flick…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "metasignal: A Python Package for Comprehensive Metacognitive Analysis and Decision-Making",
-      "url": "https://arxiv.org/abs/2607.29093",
-      "summary": "arXiv:2607.29093v1 Announce Type: new Abstract: Metasignal is an open-source Python package for signal detection theory (SDT) and metacognitive measurement. It implements the 17 metacognitive measures evaluated by Rahnev…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quaternionic Response Geometry for Proteins: Toward a Noncommutative Theory of Ordered Deformations",
-      "url": "https://arxiv.org/abs/2607.29101",
-      "summary": "arXiv:2607.29101v1 Announce Type: new Abstract: Protein function may depend on both endpoint conformations and the ordered deformation histories by which they are reached. This distinction is relevant to allostery, confo…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Resource depletion accelerates rate learning but not composition learning in patch foraging",
-      "url": "https://arxiv.org/abs/2607.29476",
-      "summary": "arXiv:2607.29476v1 Announce Type: new Abstract: Foraging is a universal animal behavior that has increasingly attracted the interest of both experimentalists and theorists. Most prior models assume an animal knows the di…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Quantifying the cost of network computations to unpack structure-function relationships in the brain",
-      "url": "https://arxiv.org/abs/2607.29537",
-      "summary": "arXiv:2607.29537v1 Announce Type: new Abstract: The brain supports computations through coordinated patterns of activity on an underlying network. These networks---from microscale navigational circuits in insects to macr…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MPP-GNN: Subject-Adaptive Community Detection for fMRI-Based Alzheimer's Disease Classification",
-      "url": "https://arxiv.org/abs/2607.28681",
-      "summary": "arXiv:2607.28681v1 Announce Type: cross Abstract: Functional magnetic resonance imaging (fMRI) is a widely used technique for studying the brain. Recent methods that utilize graph neural networks (GNNs) for analysis of b…",
       "ts": 1785729600000,
       "publishedAt": "2026-08-03T04:00:00.000Z",
       "categoryId": "bio"
