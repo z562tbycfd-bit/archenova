@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-08-04T18:39:31.932Z",
+  "updated": "2026-08-04T20:26:57.876Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Some speed‑reading apps make big claims. But how fast can humans actually read?",
+      "url": "https://phys.org/news/2026-08-speedreading-apps-big-fast-humans.html",
+      "summary": "Some speed-reading advocates claim that with proper training (outlined in many popular books and YouTube videos) or the use of special apps, it's possible to increase your reading rate to 1,000 words per minute or more.",
+      "ts": 1785874803000,
+      "publishedAt": "2026-08-04T20:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Decades-old theory for how insect societies evolve challenged",
+      "url": "https://phys.org/news/2026-08-decades-theory-insect-societies-evolve.html",
+      "summary": "For more than 60 years, evolutionary biologists have debated whether a unique genetic system found in ants, bees and wasps helps explain one of nature's most remarkable innovations: eusociality, a form of social organiza…",
+      "ts": 1785874801000,
+      "publishedAt": "2026-08-04T20:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First measurement of antineutrinos from spent nuclear fuel confirms emissions persist after reactor shutdown",
+      "url": "https://phys.org/news/2026-08-antineutrinos-spent-nuclear-fuel-emissions.html",
+      "summary": "Even when the lights go out and nuclear reactors are turned off, the story inside the reactor core still has a great deal to tell. Radioactive, long-lived fission products continue to decay for months or even years, prod…",
+      "ts": 1785873609000,
+      "publishedAt": "2026-08-04T20:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Snakes aren't simple tubes. Their bodies have five regions—including a short neck",
+      "url": "https://phys.org/news/2026-08-snakes-simple-tubes-bodies-regions.html",
+      "summary": "Snakes are seemingly simple in structure: a head attached to a long, unremarkable noodle. They do have some pretty cool features at the front end, with venomous fangs and the ability to stretch their mouths and swallow l…",
+      "ts": 1785873601000,
+      "publishedAt": "2026-08-04T20:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How does social vulnerability evolve after a tropical cyclone?",
+      "url": "https://phys.org/news/2026-08-social-vulnerability-evolve-tropical-cyclone.html",
+      "summary": "After tropical cyclones, communities are often left in upheaval. Those that had few resources to begin with tend to be especially vulnerable to external stresses, and people often experience homelessness, health problems…",
+      "ts": 1785873001000,
+      "publishedAt": "2026-08-04T19:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sticky alpine flower confirms Darwin's 150-year-old carnivorous plant prediction",
+      "url": "https://phys.org/news/2026-08-sticky-alpine-darwin-year-carnivorous.html",
+      "summary": "A flowering plant has been confirmed as a new carnivorous lineage, according to research published in Nature Communications. The findings show that Saxifraga candelabrum can attract, trap, digest and absorb nitrogen from…",
+      "ts": 1785872406000,
+      "publishedAt": "2026-08-04T19:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Miscanthus roots reveal deeper soils may retain more stable carbon",
+      "url": "https://phys.org/news/2026-08-miscanthus-roots-reveal-deeper-soils.html",
+      "summary": "Deeply rooted perennial plants may help build soil carbon (C) stocks, but most research has focused on shallow soils, resulting in gaps in our understanding of how the balance between decomposition and C inputs shifts an…",
+      "ts": 1785872401000,
+      "publishedAt": "2026-08-04T19:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Are summer holidays good for children? It's time researchers asked them",
+      "url": "https://phys.org/news/2026-08-summer-holidays-good-children.html",
+      "summary": "When academic research has explored the impact of school summer vacations, it has often focused on the costs to parents and children's learning and health.",
+      "ts": 1785871206000,
+      "publishedAt": "2026-08-04T19:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why some people are mosquito magnets while others get away unbitten",
+      "url": "https://phys.org/news/2026-08-people-mosquito-magnets-unbitten.html",
+      "summary": "Some mosquitoes really are picky eaters. They will not just stick their proboscis into any old human. We know this anecdotally, with some people claiming they are always bitten while others are completely ignored, though…",
+      "ts": 1785871203000,
+      "publishedAt": "2026-08-04T19:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mapping the upper atmosphere with public Starlink satellite data",
+      "url": "https://phys.org/news/2026-08-upper-atmosphere-starlink-satellite.html",
+      "summary": "The space around Earth is becoming increasingly crowded, with thousands of satellites and pieces of debris now sharing low Earth orbit. Even above this region—at altitudes of several hundred kilometers—the extremely thin…",
+      "ts": 1785870602000,
+      "publishedAt": "2026-08-04T19:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "3D DNA mapping in rare immune cells reveals new genes linked with autoimmune disease risk",
+      "url": "https://phys.org/news/2026-08-3d-dna-rare-immune-cells.html",
+      "summary": "Our DNA is often pictured as a simple spiral, like a piece of rope held taut. But inside cells, it folds into a complex three-dimensional structure, with 2 meters (6.6 feet) of DNA scrunched like a headphone wire in a po…",
+      "ts": 1785870008000,
+      "publishedAt": "2026-08-04T19:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Do aging microplastics increase environmental risks from organic contaminants? Study suggests less than expected",
+      "url": "https://phys.org/news/2026-08-aging-microplastics-environmental-contaminants.html",
+      "summary": "Researchers find that soil aging of polyethylene microplastics has only a limited effect on their interactions with organic contaminants. Scientists have long worried that aging microplastics in soil could become increas…",
+      "ts": 1785870004000,
+      "publishedAt": "2026-08-04T19:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Field trials support oil-rich sorghum as a potential sustainable aviation fuel feedstock",
+      "url": "https://phys.org/news/2026-08-field-trials-oil-rich-sorghum.html",
+      "summary": "In a new study by the Center for Advanced Bioenergy and Bioproducts Innovation (CABBI), researchers evaluated oil sorghum lines in Nebraska and Illinois over two years to quantify genotype-by-environment effects on agron…",
+      "ts": 1785868806000,
+      "publishedAt": "2026-08-04T18:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nano-optics: New mechanism for channeling light waves discovered in natural hyperbolic materials",
+      "url": "https://phys.org/news/2026-08-nano-optics-mechanism-channeling-natural.html",
+      "summary": "Researchers at the 4th Physics Institute of the University of Stuttgart and the Istituto Italiano di Tecnologia (IIT) in Milan have demonstrated a new mechanism for directing light in a naturally hyperbolic van der Waals…",
+      "ts": 1785868803000,
+      "publishedAt": "2026-08-04T18:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Early snow loss exposes Barnes Ice Cap bare ice by mid-July",
@@ -687,118 +799,6 @@
       "title": "A note on the shear-forced dynamics of tornadoes",
       "url": "https://arxiv.org/abs/2608.00416",
       "summary": "arXiv:2608.00416v1 Announce Type: new Abstract: This note presents an axisymmetric model of a tornado-like vortex with internal vertical wind shear. By employing a prescribed incompressible circulation-strain flow that c…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sub-40 nm resolution deep tissue imaging by image scanning emission saturation nanoscopy",
-      "url": "https://arxiv.org/abs/2608.00456",
-      "summary": "arXiv:2608.00456v1 Announce Type: new Abstract: The development of deep-tissue super-resolution imaging serves as an essential bridge toward non-invasive in vivo optical observation. However, there remain challenges to b…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An eightfold equivalence-preserving speedup of the JUNO OMILREC vertex and energy reconstruction",
-      "url": "https://arxiv.org/abs/2608.00461",
-      "summary": "arXiv:2608.00461v1 Announce Type: new Abstract: The Jiangmen Underground Neutrino Observatory (JUNO) reconstructs each event's vertex and energy with OMILREC, a maximum-likelihood fit that scans all $17{,}612$ large phot…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mitigating ray effects in rarefied flow simulations using an ensemble-of-subproblems strategy with stochastic discrete velocities",
-      "url": "https://arxiv.org/abs/2608.00514",
-      "summary": "arXiv:2608.00514v1 Announce Type: new Abstract: In this work, a ensemble-of-subproblems strategy with stochastic discrete velocities is extended to deterministic methods for mitigating ray effects in rarefied flow simula…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A memory-efficient deterministic method for multiscale gas flows using an ensemble-of-subproblems strategy with stochastic discrete velocities",
-      "url": "https://arxiv.org/abs/2608.00521",
-      "summary": "arXiv:2608.00521v1 Announce Type: new Abstract: Deterministic multiscale gas flow simulations have long suffered from the curse of dimensionality: the number of discrete velocities increases dramatically with the velocit…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Gendered Structural Roles in Indian Epics",
-      "url": "https://arxiv.org/abs/2608.00534",
-      "summary": "arXiv:2608.00534v1 Announce Type: new Abstract: The Mahabharata and the Ramayana constitute the two major Sanskrit epics of ancient India. Previous network analysis revealed substantial structural similarities between th…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Beyond Lanes: Traffic Flow Dynamics in Disordered Conditions Based on High-Resolution Trajectory Data",
-      "url": "https://arxiv.org/abs/2608.00602",
-      "summary": "arXiv:2608.00602v1 Announce Type: new Abstract: Disordered traffic flow is characterized by weak or non-existent lane discipline in the presence of strong vehicle heterogeneity and continuous lateral interactions, challe…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Electro-Optic Active Metasurfaces for High-Speed Photonic Applications",
-      "url": "https://arxiv.org/abs/2608.00606",
-      "summary": "arXiv:2608.00606v1 Announce Type: new Abstract: Metasurfaces are artificially engineered ultrathin nanostructured surfaces, capable of flexibly manipulating light-matter interactions on compact platforms, and thereby of …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectroscopy of the Hyperfine Structure of HD$^+$ in Rotationally Excited States with 10-ppb Uncertainty",
-      "url": "https://arxiv.org/abs/2608.00607",
-      "summary": "arXiv:2608.00607v1 Announce Type: new Abstract: We report the first measurement of the total hyperfine interval in the manifold of the ($v=0,L=3$) rovibrational state of HD$^+$ using microwave spectroscopy of HD$^+$ ions…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generation and manipulation of multipole and vortex events in (1+1)-dimensional spacetime",
-      "url": "https://arxiv.org/abs/2608.00618",
-      "summary": "arXiv:2608.00618v1 Announce Type: new Abstract: An event is usually regarded as a zero-dimensional coordinate label in spacetime, rather than as an object with spatial extent, internal structure or topology. Here we show…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Is K+ current in Action Potential real?",
-      "url": "https://arxiv.org/abs/2608.00654",
-      "summary": "arXiv:2608.00654v1 Announce Type: new Abstract: The correct description of ion traffic during an Action Potential in neurons has fundamental importance from its theoretical description to practical clinical applications.…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "No persistent circadian oscillator at genome resolution: pseudo-coherence in gut microbiome dynamics",
-      "url": "https://arxiv.org/abs/2608.00662",
-      "summary": "arXiv:2608.00662v1 Announce Type: new Abstract: Diurnal rhythms in the gut microbiome are commonly read as evidence of host-driven entrainment or of microbial oscillators that synchronise to a common clock. We reanalyse …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solitons in optical couplers: introduction and perspectives",
-      "url": "https://arxiv.org/abs/2608.00696",
-      "summary": "arXiv:2608.00696v1 Announce Type: new Abstract: This minireview provides a brief summary and a discussion of directions for further development of theoretical and, chiefly, experimental studies of bright solitons in opti…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Buoyancy-driven melt rate of a vertical ice surface in seawater",
-      "url": "https://arxiv.org/abs/2608.00731",
-      "summary": "arXiv:2608.00731v1 Announce Type: new Abstract: Reliable estimates of the melt rate of tidewater glaciers require accurate knowledge of salt and heat fluxes at the near-vertical ice-ocean interface and such knowledge is …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Consistent and bound-preserving finite-volume WENO scheme for compressible two-/$N$-phase flows with Phase-Field mechanism",
-      "url": "https://arxiv.org/abs/2608.00746",
-      "summary": "arXiv:2608.00746v1 Announce Type: new Abstract: In the present study, we propose a consistent and bound-preserving finite-volume WENO scheme that satisfies the requirements of consistency, conservation, equilibrium, and …",
       "ts": 1785816000000,
       "publishedAt": "2026-08-04T04:00:00.000Z"
     }

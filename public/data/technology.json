@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-04T18:39:35.591Z",
+  "updated": "2026-08-04T20:26:59.525Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "NOAA purchases Spire hyperspectral microwave sounder data",
+      "url": "https://spacenews.com/noaa-purchases-spire-hyperspectral-microwave-sounder-data/",
+      "summary": "SAN FRANCISCO – The National Oceanic and Atmospheric Administration will continue to evaluate data from Spire Global’s Hyperspectral Microwave Sounder (HyMS) under a $3 million contract extension announced Aug. 4. […] Th…",
+      "ts": 1785873900000,
+      "publishedAt": "2026-08-04T20:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Ebola kills 1,700 in eastern Congo as the fastest-growing outbreak surges",
+      "url": "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/?utm_campaign=rss",
+      "summary": "Ebola has killed more than 1,700 people in eastern Congo in what has become the fastest-growing outbreak of the disease.",
+      "ts": 1785870648000,
+      "publishedAt": "2026-08-04T19:10:48.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "AI Uses MRIs to Generate Brain Aging Maps for Neurodegenerative Disease Research",
@@ -793,24 +811,6 @@
       "ts": 1785762669000,
       "publishedAt": "2026-08-03T13:11:09.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "New York’s assisted-dying law moves forward",
-      "url": "https://www.statnews.com/2026/08/03/health-news-new-york-assisted-dying-law-moves-forward/?utm_campaign=rss",
-      "summary": "Medicaid work requirements in effect in Nebraska, AI scribes in med school, and more health news from Morning Rounds",
-      "ts": 1785761895000,
-      "publishedAt": "2026-08-03T12:58:15.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Airbus and Thales win order for SpainSat replacement",
-      "url": "https://spacenews.com/airbus-and-thales-win-order-for-spainsat-replacement/",
-      "summary": "Airbus Defence and Space and Thales Alenia Space will build a replacement military communications satellite for Spain as they, along with Leonardo, continue efforts on a space joint venture. The post Airbus and Thales wi…",
-      "ts": 1785759334000,
-      "publishedAt": "2026-08-03T12:15:34.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
