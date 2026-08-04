@@ -1,7 +1,97 @@
 {
   "ok": true,
-  "updated": "2026-08-04T11:25:28.274Z",
+  "updated": "2026-08-04T14:20:24.179Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Are AI scribes medical devices? UK regulator weighs in.",
+      "url": "https://www.statnews.com/2026/08/04/ai-scribes-medical-devices-uk-regulator-view-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: UK regulator on AI scribes, CMS eliminates key payment pathways for 'breakthrough' devices, and more.",
+      "ts": 1785849811000,
+      "publishedAt": "2026-08-04T13:23:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Lilly access program, a Gilead court victory, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/04/lilly-expands-retatrutide-access-program-gilead-court-victory/?utm_campaign=rss",
+      "summary": "Eli Lilly confirmed that it will allow more patients to apply for early access to retatrutide, an unapproved obesity drug",
+      "ts": 1785849094000,
+      "publishedAt": "2026-08-04T13:11:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+      "summary": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Lin…",
+      "ts": 1785848447000,
+      "publishedAt": "2026-08-04T13:00:47.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "Trans federal employees sue over revoked health coverage",
+      "url": "https://www.statnews.com/2026/08/04/health-news-trans-federal-employees-sue-over-revoked-coverage/?utm_campaign=rss",
+      "summary": "Expanded retatrutide access, the cost of the 2025 measles outbreak, and more health news from Morning Rounds",
+      "ts": 1785846613000,
+      "publishedAt": "2026-08-04T12:30:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Future of Crew Dragon weighs on commercial spaceflight industry",
+      "url": "https://spacenews.com/future-of-crew-dragon-weighs-on-commercial-spaceflight-industry/",
+      "summary": "While SpaceX says there is a “significant” amount of life left in its Crew Dragon fleet, the company has hedged on how long it will continue flying the spacecraft. The post Future of Crew Dragon weighs on commercial spac…",
+      "ts": 1785845643000,
+      "publishedAt": "2026-08-04T12:14:03.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: US robot restrictions, and ICE’s DNA grab",
+      "url": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Trump’s AI protectionism has come for robotics —James O’Donnell Humanoid robots us…",
+      "ts": 1785845640000,
+      "publishedAt": "2026-08-04T12:14:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The latest orphan drug exemptions may not be warranted, analysis finds",
+      "url": "https://www.statnews.com/pharmalot/2026/08/04/latest-orphan-drug-exemptions-may-not-be-warranted-analysis-finds/?utm_campaign=rss",
+      "summary": "A new analysis questions the wisdom of a controversial provision in federal law that exempts so-called orphan drugs from Medicare pricing negotiations.",
+      "ts": 1785845101000,
+      "publishedAt": "2026-08-04T12:05:01.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "NSF-Funded Test Bed Lets Researchers Program Automated Biomanufacturing Workflows",
+      "url": "https://www.genengnews.com/topics/bioprocessing/nsf-funded-test-bed-lets-researchers-program-automated-biomanufacturing-workflows/",
+      "summary": "The CRAB Lab builds on a long-standing partnership between UMD and NIST through IBBR, which will serve as the physical home for instrumentation, facilities, and scientific expertise. The post NSF-Funded Test Bed Lets Res…",
+      "ts": 1785844807000,
+      "publishedAt": "2026-08-04T12:00:07.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX’s new Starfall program offers validation and competition for reentry startups",
+      "url": "https://spacenews.com/spacexs-new-starfall-program-offers-validation-and-competition-for-reentry-startups/",
+      "summary": "Demand for microgravity research and manufacturing is brewing — perhaps literally.When SpaceX launched the first test flight of Starfall, its commercial reentry capsule, on June 23, the company did not […] The post Space…",
+      "ts": 1785844800000,
+      "publishedAt": "2026-08-04T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Afghanistan hunger crisis intensifies as millions left without food aid",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168069",
+      "summary": "Afghanistan’s dire hunger crisis now affects 14 million people including babies fed on little more than weak tea and bread by their despairing and dirt-poor parents.",
+      "ts": 1785844800000,
+      "publishedAt": "2026-08-04T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "SpaceNews",
       "title": "Rocketdyne reemerges as standalone space company",
@@ -720,96 +810,6 @@
       "summary": "The collaboration is specifically focused on applying Receptor.AI's computational platform to Sethera's proprietary polymacrocyclic peptide chemistry, encoded screening data, and resulting therapeutic candidates. Each co…",
       "ts": 1785754849000,
       "publishedAt": "2026-08-03T11:00:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Here’s why AI agents lie and cheat to reach their goals",
-      "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the we…",
-      "ts": 1785745805000,
-      "publishedAt": "2026-08-03T08:30:05.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Are AI scribes useful tools in medical education, or a crutch that imperils learning?",
-      "url": "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss",
-      "summary": "Educators want future physicians to be fluent in AI scribes, but they worry what off-loading clinical notes to AI could do to learning.",
-      "ts": 1785745800000,
-      "publishedAt": "2026-08-03T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Heart transplant candidates fail if they get too weak. New program tries inpatient prehab ",
-      "url": "https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project/?utm_campaign=rss",
-      "summary": "Patients often get weaker waiting in the hospital for heart transplant. A cardiologist had an idea: inpatient prehabilitation.",
-      "ts": 1785745800000,
-      "publishedAt": "2026-08-03T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I’m a neurologist. I’ve delivered ALS diagnoses. Then I received one myself",
-      "url": "https://www.statnews.com/2026/08/03/als-diagnosis-neurologist-research-hope/?utm_campaign=rss",
-      "summary": "“Losing the ability to speak has taught me how quickly society conflates physical dependence with diminished personhood,” writes Dr. Christopher Campos.",
-      "ts": 1785745800000,
-      "publishedAt": "2026-08-03T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: We lead the Federation of State Medical Boards. Here’s what we think about licensing AI to practice medicine",
-      "url": "https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards/?utm_campaign=rss",
-      "summary": "The leaders of the Federation of State Medical Boards weigh in on the question of licensing AI to practice medicine.",
-      "ts": 1785745800000,
-      "publishedAt": "2026-08-03T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "ts": 1785740400000,
-      "publishedAt": "2026-08-03T07:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 3 – Vaporizing Meteor Photobombs the Lacerta Nebula",
-      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-3-vaporizing-meteor-photobombs-the-lacerta-nebula/",
-      "summary": "APODScienceAPODAPOD: 2026 August 3 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascin…",
-      "ts": 1785729900000,
-      "publishedAt": "2026-08-03T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "HenTwin: A Multimodal Digital Twin Framework for Longitudinal Biological State Monitoring in Laying Hens",
-      "url": "https://arxiv.org/abs/2607.28652",
-      "summary": "arXiv:2607.28652v1 Announce Type: new Abstract: Early-life monitoring in laying hens remains constrained by fragmented single-modality sensing and the absence of formal system-level state representations. HenTwin, a mult…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Geographically Weighted Surrogate Models for Rapid Small-Area Chronic Disease Estimation",
-      "url": "https://arxiv.org/abs/2607.28655",
-      "summary": "arXiv:2607.28655v1 Announce Type: new Abstract: Small-area estimation (SAE) enables researchers and policymakers to identify spatial disparities in health outcomes, but survey-based SAE products carry an inherent lag. Go…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "SymPerturb converts symptom-network structure into testable intervention priorities",
-      "url": "https://arxiv.org/abs/2607.28673",
-      "summary": "arXiv:2607.28673v1 Announce Type: new Abstract: Symptom networks encode conditional dependence but do not by themselves identify causal or clinically actionable intervention targets. We introduce SymPerturb, a virtual-pe…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z",
       "categoryId": "bio"
     }
   ],

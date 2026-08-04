@@ -1,7 +1,103 @@
 {
   "ok": true,
-  "updated": "2026-08-04T11:25:26.405Z",
+  "updated": "2026-08-04T14:20:21.508Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What makes us happy?",
+      "url": "https://phys.org/news/2026-08-happy.html",
+      "summary": "Maybe to some degree. But a new international study suggests the communities we live in matter a whole lot, too. Researchers analyzed responses from 97,220 people across 66 countries and identified five broad factors ass…",
+      "ts": 1785852004000,
+      "publishedAt": "2026-08-04T14:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Repetitive genomic regions link structural genomic variation to species diversity",
+      "url": "https://phys.org/news/2026-08-repetitive-genomic-regions-link-variation.html",
+      "summary": "Researchers sequenced the genomes of three medaka, or Japanese rice fish, a common model organism used in biological research, nearly 10 and 20 years ago. While sequencing the genomes was relatively straightforward, asse…",
+      "ts": 1785850806000,
+      "publishedAt": "2026-08-04T13:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Magnetic dopants help quantum dots use light for chemical reactions",
+      "url": "https://phys.org/news/2026-08-magnetic-dopants-quantum-dots-chemical.html",
+      "summary": "Scientists at Los Alamos National Laboratory have demonstrated a new quantum-dot mechanism that could significantly expand the reach of light-driven chemistry. By introducing magnetic manganese dopants into semiconductor…",
+      "ts": 1785850803000,
+      "publishedAt": "2026-08-04T13:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Iron and cobalt both curb stainless invar expansion, but iron leads",
+      "url": "https://phys.org/news/2026-08-iron-cobalt-curb-stainless-invar.html",
+      "summary": "Invar alloys resist expanding or contracting with temperature, a property valuable for precision instruments, but it has been unclear how this \"invar effect\" plays out separately in each element of complex, multimetal st…",
+      "ts": 1785849603000,
+      "publishedAt": "2026-08-04T13:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fire department leaders drive crew fitness, study finds",
+      "url": "https://phys.org/news/2026-08-department-leaders-crew.html",
+      "summary": "For firefighters, physical fitness is a matter of safety, survival and long-term health. While past research has largely focused on individual habits, a new study has revealed that station leaders play a critical role in…",
+      "ts": 1785848402000,
+      "publishedAt": "2026-08-04T13:00:02.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Emperor penguin chicks like these starved. An iceberg may be the cause",
+      "url": "https://www.sciencenews.org/article/penguin-chicks-starved-iceberg-cause",
+      "summary": "An emperor penguin colony in Antarctica saw a massive decline in chicks in 2025. The contours of a nearby grounded iceberg may have been the cause.",
+      "ts": 1785848400000,
+      "publishedAt": "2026-08-04T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Antibiotic-resistant seafood bacterium found in Vietnam fish farming waters near popular island destination",
+      "url": "https://phys.org/news/2026-08-antibiotic-resistant-seafood-bacterium-vietnam.html",
+      "summary": "A bacterium linked to seafood-related illness and capable of resisting multiple antibiotics has been detected in fish-farming waters near Cat Ba Island, Vietnam, according to a new study highlighting the importance of mo…",
+      "ts": 1785847505000,
+      "publishedAt": "2026-08-04T12:45:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New membrane accelerates purification of industrial solvents",
+      "url": "https://phys.org/news/2026-08-membrane-purification-industrial-solvents.html",
+      "summary": "Researchers from the Department of Chemical Engineering, working with an international team led by KU Leuven, have developed a membrane technology to improve the efficiency of purifying widely used solvents.",
+      "ts": 1785847202000,
+      "publishedAt": "2026-08-04T12:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indoor moves prove easier than expected for most cats and owners",
+      "url": "https://phys.org/news/2026-08-indoor-easier-cats-owners.html",
+      "summary": "Moving a pet cat from an outdoor lifestyle to living indoors is easier than many owners expect, according to new research that could help improve feline welfare, protect wildlife and ease concerns about keeping cats cont…",
+      "ts": 1785846002000,
+      "publishedAt": "2026-08-04T12:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Indigenous-led conservation helps save endangered cockatoo",
+      "url": "https://phys.org/news/2026-08-indigenous-endangered-cockatoo.html",
+      "summary": "An Indigenous community in Indonesia has found a way to protect one of the world's rarest cockatoos without abandoning a centuries-old sacred tradition, according to new research led by The Australian National University…",
+      "ts": 1785844806000,
+      "publishedAt": "2026-08-04T12:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Asteroid Nysa's rare three-lobed structure challenges formation models",
+      "url": "https://phys.org/news/2026-08-asteroid-nysa-rare-lobed-formation.html",
+      "summary": "Named for the mythical valley where the god Dionysus was raised in secret by nymphs, the asteroid 44 Nysa inhabits the asteroid belt between Mars and Jupiter. Through observations by the Hubble Space Telescope, astronome…",
+      "ts": 1785844803000,
+      "publishedAt": "2026-08-04T12:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study offers new clues to a long-standing mystery about bonnethead sharks",
+      "url": "https://phys.org/news/2026-08-clues-mystery-bonnethead-sharks.html",
+      "summary": "A new study of bonnethead sharks (Sphyrna tiburo) in Florida dispelled a previous hypothesis about how the distinctive head shapes of males and females develop, offering new insight into one of the species' most unusual …",
+      "ts": 1785843603000,
+      "publishedAt": "2026-08-04T11:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Research finds rhetoric around #MeToo often focused on punishment, not causes of violence",
@@ -703,102 +799,6 @@
       "title": "Transverse coupled-bunch instabilities driven by high-order modes near the coupling resonance",
       "url": "https://arxiv.org/abs/2608.01941",
       "summary": "arXiv:2608.01941v1 Announce Type: new Abstract: Betatron coupling near the difference resonance has been explored and adopted in several fourth-generation storage rings, yet its influence on high-order-mode-driven transv…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Vulnerability Modeling for the Adaptation of Physical Systems to Climate Change Extremes",
-      "url": "https://arxiv.org/abs/2608.01956",
-      "summary": "arXiv:2608.01956v1 Announce Type: new Abstract: Climate change is modifying the frequency and intensity of extreme hazards in a non-uniform spatial manner, increasing the risk of damage for existing physical systems. Vul…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measurements of non-linear energy transfer in canonical and drag-reduced turbulent boundary layers",
-      "url": "https://arxiv.org/abs/2608.02003",
-      "summary": "arXiv:2608.02003v1 Announce Type: new Abstract: Three-dimensional particle-tracking velocimetry (3D-PTV) measurements were used to compute the spectral transport of the Reynolds-stress tensor. The experimental framework …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Performance and prospects of polyurethane-based scintillators for neutron and gamma radiation detection",
-      "url": "https://arxiv.org/abs/2608.02012",
-      "summary": "arXiv:2608.02012v1 Announce Type: new Abstract: Organic scintillators have been used for decades to detect gamma rays or fast neutrons at low cost. Despite extensive efforts it is still difficult to combine stability, ru…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coherent structure modulation and recovery in drag-reduced turbulent boundary layers",
-      "url": "https://arxiv.org/abs/2608.02017",
-      "summary": "arXiv:2608.02017v1 Announce Type: new Abstract: Drag reduction is achieved by a steady square-wave forcing of the spanwise wall velocity, based on the experiments in Knoop et al. (Phys. Rev. Fluids, 10, 2025). Particle t…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Heterogeneous 200 mm Silicon Nitride Photonics Platform for Visible-to-Near-Infrared Applications via Micro-Transfer Printing",
-      "url": "https://arxiv.org/abs/2608.02037",
-      "summary": "arXiv:2608.02037v1 Announce Type: new Abstract: The commercialization of next-generation technologies, including optical interconnects, quantum computing, AR/VR, and medical diagnostics, requires a low-loss photonic plat…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wave Scattering at temporal interfaces with spatial-translation-symmetry mismatch",
-      "url": "https://arxiv.org/abs/2608.02076",
-      "summary": "arXiv:2608.02076v1 Announce Type: new Abstract: Temporal interfaces enable wave manipulation through broken time-translation symmetry, but conventional formulations generally assume that spatial-translation symmetry is p…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Crucial role of subsurface ocean variability in tropical cyclone genesis",
-      "url": "https://arxiv.org/abs/2608.02077",
-      "summary": "arXiv:2608.02077v1 Announce Type: new Abstract: The upper ocean provides thermal energy to tropical cyclones. However, the impacts of the subsurface ocean on tropical cyclogenesis have been largely overlooked. Here, we s…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deep Inverse-Designed Nanophotonic Processors with Structural Nonlinearity from Repeated Phase Encoding",
-      "url": "https://arxiv.org/abs/2608.02094",
-      "summary": "arXiv:2608.02094v1 Announce Type: new Abstract: Passive nanophotonic scattering regions implement linear optical transformations, and cascading input-independent regions alone does not create functional depth because the…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hybrid Kinetic-MHD Simulations of Drift-Orbit Effects on the Stability and Non-Linear Dynamics of Runaway Electron Beams",
-      "url": "https://arxiv.org/abs/2608.02121",
-      "summary": "arXiv:2608.02121v1 Announce Type: new Abstract: During tokamak disruptions, the Ohmic current may be replaced by a non-inductive runaway electron (RE) current, affecting resistive stability. Previous studies suggest that…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cardiovascular Digital Twins from Physics Based to Data Driven Approaches",
-      "url": "https://arxiv.org/abs/2608.02135",
-      "summary": "arXiv:2608.02135v1 Announce Type: new Abstract: Cardiovascular digital twins aim to create patient-specific computational models that evolve with clinical data to support diagnosis, prognosis, and therapy optimisation. M…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generalized Temporal Coupled Mode Theory (g-TCMT) applied to Coupled Resonator Optical Waveguides with Exchange Symmetry (CROWe)",
-      "url": "https://arxiv.org/abs/2608.02166",
-      "summary": "arXiv:2608.02166v1 Announce Type: new Abstract: In this paper, we extend our generalized Temporal Coupled Mode Theory (g-TCMT) model, developed earlier [1], from a simple, dual-coupled micro-ring resonator (MRR) system t…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Microscopic dynamics of consensus formation in multi-agent LLM Naming Games",
-      "url": "https://arxiv.org/abs/2608.02178",
-      "summary": "arXiv:2608.02178v1 Announce Type: new Abstract: Decentralized populations of Large Language Model (LLM) agents can spontaneously reach consensus on shared conventions, yet the microscopic mechanisms by which their intern…",
       "ts": 1785816000000,
       "publishedAt": "2026-08-04T04:00:00.000Z"
     }
