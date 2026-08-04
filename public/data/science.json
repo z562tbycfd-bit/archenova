@@ -1,7 +1,135 @@
 {
   "ok": true,
-  "updated": "2026-08-04T14:20:21.508Z",
+  "updated": "2026-08-04T16:53:22.836Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Women with narcissistic tendencies may struggle with forgiveness",
+      "url": "https://phys.org/news/2026-08-women-narcissistic-tendencies-struggle.html",
+      "summary": "Narcissism is associated with selfishness and other negative traits like a grandiose sense of self-importance, a constant need for admiration and a lack of empathy for others. So it may not be surprising that narcissists…",
+      "ts": 1785861606000,
+      "publishedAt": "2026-08-04T16:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Designing memory-centric chips for future space telescopes",
+      "url": "https://phys.org/news/2026-08-memory-centric-chips-future-space.html",
+      "summary": "Two proposed computer chip designs could efficiently process data on future space telescopes while they search for Earth–like exoplanets, according to a University of Michigan Engineering study that will be presented at …",
+      "ts": 1785861601000,
+      "publishedAt": "2026-08-04T16:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pushing the boundaries of ultracold neutral plasmas",
+      "url": "https://phys.org/news/2026-08-boundaries-ultracold-neutral-plasmas.html",
+      "summary": "Using a combination of laser cooling techniques and strong magnetic fields, researchers at Colorado State University have for the first time created an ultracold neutral plasma with electrons cooled to temperatures measu…",
+      "ts": 1785860406000,
+      "publishedAt": "2026-08-04T16:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Critical minerals and Queensland know-how combine to create 'rare' opportunity",
+      "url": "https://phys.org/news/2026-08-critical-minerals-queensland-combine-rare.html",
+      "summary": "A multidisciplinary team of JCU scientists published research in the journal Minerals Engineering, describing the extent of Queensland's rare earth element resources and exploring more sustainable methods of rare earth e…",
+      "ts": 1785860403000,
+      "publishedAt": "2026-08-04T16:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two materials, one photonic chip: Unlocking a new way to generate light frequencies",
+      "url": "https://phys.org/news/2026-08-materials-photonic-chip-generate-frequencies.html",
+      "summary": "Modern photonic chips can pack sophisticated optical functions onto devices smaller than a fingernail. They are increasingly used to generate, manipulate and measure light for applications ranging from communications to …",
+      "ts": 1785859205000,
+      "publishedAt": "2026-08-04T16:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Globally spreading ticks evolved asexual reproduction multiple times",
+      "url": "https://phys.org/news/2026-08-globally-evolved-asexual-reproduction-multiple.html",
+      "summary": "The Asian longhorned tick, Haemaphysalis longicornis, spreads serious pathogens, including severe fever with thrombocytopenia syndrome (SFTS) virus, Rickettsia and Theileria, and its bite can cause a meat allergy in huma…",
+      "ts": 1785859201000,
+      "publishedAt": "2026-08-04T16:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists build 'cell villages' to map the genetics of brain cell fitness",
+      "url": "https://phys.org/news/2026-08-scientists-cell-villages-genetics-brain.html",
+      "summary": "How readily a cell divides and how well it survives are fundamental to life, shaping everything from organ size to the body's ability to withstand disease. That combination, known as cell fitness, isn't the same for ever…",
+      "ts": 1785858006000,
+      "publishedAt": "2026-08-04T15:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research offers managers a framework for understanding who wins in AI ecosystems and why",
+      "url": "https://phys.org/news/2026-08-framework-ai-ecosystems.html",
+      "summary": "An article published in the Strategic Management Journal, \"Value Creation in Innovation Ecosystems,\" by Ron Adner and Rahul Kapoor, offers a framework for understanding competitive advantage in today's rapidly evolving A…",
+      "ts": 1785858003000,
+      "publishedAt": "2026-08-04T15:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unexpected bond-breaking order reveals a new path to bioluminescence",
+      "url": "https://phys.org/news/2026-08-unexpected-bond-reveals-path-bioluminescence.html",
+      "summary": "The dancing lights of fireflies and the eerie blue sparkle in crashing waves get their glow when a molecular square of carbon and oxygen atoms breaks. New research from Stanford University has shown that mechanical force…",
+      "ts": 1785856806000,
+      "publishedAt": "2026-08-04T15:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A resilient native seagrass species could help reshape coastal restoration",
+      "url": "https://phys.org/news/2026-08-resilient-native-seagrass-species-reshape.html",
+      "summary": "Seagrasses are among the most important foundation species in coastal ecosystems, providing habitat for marine life, stabilizing sediments and helping improve water quality. Yet nearly 20% of the world's historic seagras…",
+      "ts": 1785856801000,
+      "publishedAt": "2026-08-04T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Could understanding leaf surfaces lead to new ways to prevent crop disease?",
+      "url": "https://phys.org/news/2026-08-leaf-surfaces-ways-crop-disease.html",
+      "summary": "Fungal diseases that affect grain crops can be devastating to global agriculture and food security. Fungicides are the most common preventive measure, but as fungal diseases become more prevalent, the pathogens become in…",
+      "ts": 1785855606000,
+      "publishedAt": "2026-08-04T15:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers catch massive star's death from the first explosive moment",
+      "url": "https://phys.org/news/2026-08-astronomers-massive-star-death-explosive.html",
+      "summary": "In March 2026, the Einstein Probe detected a brief flash of soft X-rays emitted from a galaxy about 500 million light-years away. The flash, dubbed EP260321a, immediately triggered a worldwide observing campaign. Within …",
+      "ts": 1785855605000,
+      "publishedAt": "2026-08-04T15:00:05.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Is AI making us dumber? Maybe not. But our skills are at risk",
+      "url": "https://www.sciencenews.org/article/ai-making-us-dumber-learning-skills-risk",
+      "summary": "Studies suggest AI can weaken learning when it replaces effort, but tools that guide rather than answer may help people keep their skills.",
+      "ts": 1785855600000,
+      "publishedAt": "2026-08-04T15:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New approach to cleaning the inner walls of a fusion system removes another obstacle to near-endless energy",
+      "url": "https://phys.org/news/2026-08-approach-walls-fusion-obstacle-endless.html",
+      "summary": "Fusion systems need inner walls that can withstand extreme heat. One promising solution uses liquid lithium to protect the walls, held like water in a sponge made of the exceptionally strong metal tungsten. An advanced m…",
+      "ts": 1785854401000,
+      "publishedAt": "2026-08-04T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How the 'fecal revolution' changed Earth's ecosystems",
+      "url": "https://phys.org/news/2026-08-fecal-revolution-earth-ecosystems.html",
+      "summary": "An international study led by Flinders University has found a fertile area of inspiration to explain an important step in evolution—and it's a whole lot of poop. The new study describes the \"fecal revolution\" to explain …",
+      "ts": 1785853801000,
+      "publishedAt": "2026-08-04T14:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Gen Z puts high priority on jobs with meaning, purpose, but sees daunting hurdles",
+      "url": "https://phys.org/news/2026-08-qa-gen-high-priority-jobs.html",
+      "summary": "Among Gen Z, 79% want a job mainly focused on helping people or making a positive difference in others' lives. But only about half of workers ages 18–29 who want such a position say they have one.",
+      "ts": 1785853202000,
+      "publishedAt": "2026-08-04T14:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "What makes us happy?",
@@ -671,134 +799,6 @@
       "title": "Twistsonics: engineering acoustic topological textures in moire sound lattices",
       "url": "https://arxiv.org/abs/2608.01278",
       "summary": "arXiv:2608.01278v1 Announce Type: new Abstract: Moire superlattices formed by twisting periodic systems provide a powerful platform for emergent topological phenomena, but their use for programming real-space topology in…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photon Orbital Angular Momentum Control by Electron Wavepackets in Nonlinear Compton Scattering",
-      "url": "https://arxiv.org/abs/2608.01323",
-      "summary": "arXiv:2608.01323v1 Announce Type: new Abstract: Photon orbital angular momentum (OAM) generated in nonlinear Compton scattering has attracted considerable interest as a route toward vortex $\\gamma$-ray sources. Existing …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sub-sonic compressible magnetohydrodynamic turbulence I. Alfv\\'enic and fast-magnetosonic injection, amplitude dependence, and compressibility effects",
-      "url": "https://arxiv.org/abs/2608.01386",
-      "summary": "arXiv:2608.01386v1 Announce Type: new Abstract: We investigate how sub-sonic compressible magnetohydrodynamic (MHD) turbulence properties that are relevant for cosmic-ray (CR) transport in the Galaxy are affected by the …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The First Variational Formula and the Ostrogradsky Formalism",
-      "url": "https://arxiv.org/abs/2608.01491",
-      "summary": "arXiv:2608.01491v1 Announce Type: new Abstract: We present a derivation at a level suitable for undergraduates of the Ostrogradsky formalism for Lagrangians in classical mechanics that depend upon an arbitrary number of …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Production of Policy Knowledge in the United States",
-      "url": "https://arxiv.org/abs/2608.01514",
-      "summary": "arXiv:2608.01514v1 Announce Type: new Abstract: Policymaking relies on institutions that translate expertise into politically actionable knowledge. Yet little is known about how such knowledge is created, structured, and…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Supersonic jet impingement on concave surfaces",
-      "url": "https://arxiv.org/abs/2608.01542",
-      "summary": "arXiv:2608.01542v1 Announce Type: new Abstract: The aeroacoustic resonance of round supersonic jets impinging on concave surfaces is investigated using compressible large-eddy simulations, vortex-sheet modelling, and Pow…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "FESOM2-JAX v1.0: a differentiable shadow of the ocean-sea-ice model FESOM2, cast onto GPUs",
-      "url": "https://arxiv.org/abs/2608.01546",
-      "summary": "arXiv:2608.01546v1 Announce Type: new Abstract: We present FESOM2-JAX, a Python re-implementation of the Finite-volumE Sea ice-Ocean Model (FESOM2) in JAX. The model retains the unstructured-mesh, cell-vertex finite-volu…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Tip-Enhanced Vibrational Ladder Climbing in Surface Molecular System",
-      "url": "https://arxiv.org/abs/2608.01698",
-      "summary": "arXiv:2608.01698v1 Announce Type: new Abstract: Achieving high-lying vibrational states is essential for actively controlling molecular reactions. We demonstrate vibrational ladder climbing of CO adsorbed on Pt(111) with…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Post-Collision Thermal Excitation and Survival-Limited Cluster Growth in the Gas Phase",
-      "url": "https://arxiv.org/abs/2608.01712",
-      "summary": "arXiv:2608.01712v1 Announce Type: new Abstract: Gas-phase cluster growth by monomer addition is commonly modeled as an isothermal process. We develop a survival-limited framework in which association produces a thermally…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AGNI: A differentiable MHD stability solver & optimizer for magnetic confinement fusion devices",
-      "url": "https://arxiv.org/abs/2608.01750",
-      "summary": "arXiv:2608.01750v1 Announce Type: new Abstract: The existence of an ideal MagnetoHydroDynamic (MHD) equilibrium does not guarantee its stability. Finite toroidal mode number (n) instabilities degrade performance in both …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Extreme Cross-polarization Extinction Method for Quantification of Residual Crystal Anisotropy",
-      "url": "https://arxiv.org/abs/2608.01787",
-      "summary": "arXiv:2608.01787v1 Announce Type: new Abstract: The high-extinction cross-polarization measurement of a paraxial laser beam results in a Hermite-Gaussian ($\\text{HG}_{11}$)-like four-lobes with a dark-centered cross patt…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Leidenfrost droplets: The roles of ambient humidity and internal droplet circulation",
-      "url": "https://arxiv.org/abs/2608.01828",
-      "summary": "arXiv:2608.01828v1 Announce Type: new Abstract: A volatile droplet gently deposited on a superheated substrate can sit on a thin film of its own vapour, which prevents contact between the drop and surface. This phenomeno…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectroscopic study of argon electroluminescence light with a wavelength-sensitive particle detector",
-      "url": "https://arxiv.org/abs/2608.01842",
-      "summary": "arXiv:2608.01842v1 Announce Type: new Abstract: We present a spectroscopic study of argon electroluminescence (EL) light in a gaseous time projection chamber (TPC). Using a compact detector equipped with photomultiplier …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Local network growth: How simple rules drive network complexity",
-      "url": "https://arxiv.org/abs/2608.01853",
-      "summary": "arXiv:2608.01853v1 Announce Type: new Abstract: The Internet, a living cell, a circle of friends, a billion-dollar construction project: these systems share almost nothing -- yet, drawn as networks, they look astonishing…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine Learning Optimization of E-Beam Transport for a Superradiant FEL",
-      "url": "https://arxiv.org/abs/2608.01874",
-      "summary": "arXiv:2608.01874v1 Announce Type: new Abstract: We present an optimization procedure using machine learning (ML) libraries for optimization of electron beam transport for maximal bunch compression and optimal operation o…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interspecies clock comparison below $5 \\times 10^{-18}$ uncertainty with a transportable clock",
-      "url": "https://arxiv.org/abs/2608.01916",
-      "summary": "arXiv:2608.01916v1 Announce Type: new Abstract: We report a measurement of the optical frequency ratio between the $^2\\mathrm{S}_{1/2}(F=0)$--${^2\\mathrm{F}_{7/2}(F=3)}$ electric-octupole (E3) transition of $^{171}$Yb$^{…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transverse coupled-bunch instabilities driven by high-order modes near the coupling resonance",
-      "url": "https://arxiv.org/abs/2608.01941",
-      "summary": "arXiv:2608.01941v1 Announce Type: new Abstract: Betatron coupling near the difference resonance has been explored and adopted in several fourth-generation storage rings, yet its influence on high-order-mode-driven transv…",
       "ts": 1785816000000,
       "publishedAt": "2026-08-04T04:00:00.000Z"
     }
