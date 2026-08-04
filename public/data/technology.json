@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-03T23:03:18.617Z",
+  "updated": "2026-08-04T02:44:09.794Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "NASA, SpaceX studying how to prevent future upper stage lunar collisions",
+      "url": "https://spacenews.com/nasa-spacex-studying-how-to-prevent-future-upper-stage-lunar-collisions/",
+      "summary": "With a Falcon 9 upper stage set to hit the moon this week, SpaceX says it is working with NASA on ways to prevent similar collisions in the future. The post NASA, SpaceX studying how to prevent future upper stage lunar c…",
+      "ts": 1785809037000,
+      "publishedAt": "2026-08-04T02:03:57.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "OpenAI",
       "title": "Disrupting a Criminal Scam Operation",
@@ -199,6 +208,24 @@
       "ts": 1785758400000,
       "publishedAt": "2026-08-03T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Drone strikes threaten civilians and aid operations in Sudan",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168068",
+      "summary": "Drone strikes are posing deadly risks to civilians in Sudan and hampering humanitarian efforts to reach them as attacks continue to affect conflict-hit areas, the UN aid coordination office OCHA said on Monday.",
+      "ts": 1785758400000,
+      "publishedAt": "2026-08-03T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Israel violates Lebanese airspace, kills over two dozen in Gaza in weekend strikes",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168067",
+      "summary": "Israeli forces reportedly killed more than two dozen Palestinians in Gaza and violated Lebanese airspace more than 100 times over the weekend despite ongoing ceasefire agreements, UN agencies and peacekeepers said on Mon…",
+      "ts": 1785758400000,
+      "publishedAt": "2026-08-03T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -561,6 +588,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "url": "https://openai.com/index/circles",
+      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "ts": 1785715200000,
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Senate measure would block Trump plan to politicize federal grants, for now",
       "url": "https://www.statnews.com/2026/08/02/senate-would-block-white-house-control-over-research-grants/?utm_campaign=rss",
@@ -774,42 +810,6 @@
       "summary": "WARSAW, Poland — The Spanish government announced it will allocate between 1.6 billion and 2 billion euros ($1.8 to $2.3 billion) to develop a national military satellite communications constellation that […] The post Sp…",
       "ts": 1785513472000,
       "publishedAt": "2026-07-31T15:57:52.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Advancing responsible AI across Europe",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-      "ts": 1785510000000,
-      "publishedAt": "2026-07-31T15:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Building abundant intelligence",
-      "url": "https://openai.com/index/building-abundant-intelligence",
-      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
-      "ts": 1785510000000,
-      "publishedAt": "2026-07-31T15:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Up and down the ladder: The latest comings and goings",
-      "url": "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss",
-      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
-      "ts": 1785509279000,
-      "publishedAt": "2026-07-31T14:47:59.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Curiosity Blog, Sols 4961-4967: Approaching a Break in the Rock Record?",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4961-4967-approaching-a-break-in-the-rock-record/",
-      "summary": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, July 24, 2026 Curiosity spent the week continuing to climb her way up throu…",
-      "ts": 1785508862000,
-      "publishedAt": "2026-07-31T14:41:02.000Z",
       "categoryId": "space"
     }
   ],

@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-03T23:03:15.117Z",
+  "updated": "2026-08-04T02:44:06.519Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Mechanical shortcut' rapidly carries organic particles into the deep ocean",
+      "url": "https://phys.org/news/2026-08-mechanical-shortcut-rapidly-particles-deep.html",
+      "summary": "The processes that capture carbon from the atmosphere and store it on the seabed are crucial for climate balance. However, assessing these mechanisms is often complicated because it requires measurements ranging from the…",
+      "ts": 1785800401000,
+      "publishedAt": "2026-08-03T23:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Four labs find experimental differences can undermine AI catalyst predictions",
+      "url": "https://phys.org/news/2026-08-labs-experimental-differences-undermine-ai.html",
+      "summary": "To turn abundant carbon dioxide into valuable fuel, we need a fast and efficient way to determine which catalysts work best over the longest time. AI models have the potential to help guide catalyst selection, but as wit…",
+      "ts": 1785799201000,
+      "publishedAt": "2026-08-03T23:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Forest floors reveal overlooked seed dispersers: Slugs, beetles and crabs spread viable seeds",
@@ -783,22 +799,6 @@
       "title": "Mode-Selective and Anharmonicity-Controlled Energy Transport in Cavity-Coupled Water",
       "url": "https://arxiv.org/abs/2607.28782",
       "summary": "arXiv:2607.28782v1 Announce Type: new Abstract: Recent experiments demonstrate the modification of chemical dynamics via cavity-enhanced vibrational energy transport. Here, we provide a microscopic account of both photon…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Occupational Convergence or Divergence? Mapping Labor Market Structural Shifts Driven by AI Penetration",
-      "url": "https://arxiv.org/abs/2607.28798",
-      "summary": "arXiv:2607.28798v1 Announce Type: new Abstract: Artificial intelligence (AI) is rapidly becoming a defining feature of contemporary labor markets, yet it remains unclear whether its diffusion is producing a common set of…",
-      "ts": 1785729600000,
-      "publishedAt": "2026-08-03T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Ponderomotive Effects of Narrow-band, Superconducting Resonators in Open and Closed Loop",
-      "url": "https://arxiv.org/abs/2607.28806",
-      "summary": "arXiv:2607.28806v1 Announce Type: new Abstract: In this work, we present measurements of ponderomotive instabilities in narrow-band, coaxial resonators in open and closed control loop systems. We show an analytical schem…",
       "ts": 1785729600000,
       "publishedAt": "2026-08-03T04:00:00.000Z"
     }
