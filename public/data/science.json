@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-05T04:12:08.046Z",
+  "updated": "2026-08-05T07:41:19.861Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'Like the end of the world': The eclipse chasers flocking to Spain",
+      "url": "https://phys.org/news/2026-08-world-eclipse-chasers-flocking-spain.html",
+      "summary": "Suddenly, the world is plunged into an eerie, violet darkness. The temperature drops. Birds and other animals, bewildered by unforeseen night, start behaving strangely. Stars and planets appear in the sky next to the blo…",
+      "ts": 1785914401000,
+      "publishedAt": "2026-08-05T07:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Egg oiling offers a targeted way to reduce raven predation on vulnerable prey",
+      "url": "https://phys.org/news/2026-08-egg-oiling-raven-predation-vulnerable.html",
+      "summary": "Common ravens are intelligent omnivores that regularly consume the eggs and young of nesting birds, and their populations are boosted by human-provided food and nesting resources. This has resulted in elevated predation …",
+      "ts": 1785913805000,
+      "publishedAt": "2026-08-05T07:10:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new species of Ice Age toad discovered at La Brea Tar Pits: The spadefoot toad Spea labreae",
+      "url": "https://phys.org/news/2026-08-species-ice-age-toad-la.html",
+      "summary": "For the first time, researchers have discovered a new species of extinct amphibian from Ice Age Los Angeles at La Brea Tar Pits: a spadefoot toad they have named Spea labreae. Only one other extinct Pleistocene amphibian…",
+      "ts": 1785913201000,
+      "publishedAt": "2026-08-05T07:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fuego volcano spews more ash and mud as Guatemala shelters 1,700 who fled nearby villages",
+      "url": "https://phys.org/news/2026-08-fuego-volcano-spews-ash-mud.html",
+      "summary": "Guatemala remained on alert Tuesday after evacuating villages during an eruption of the Fuego volcano, one of Central America's most active.",
+      "ts": 1785911910000,
+      "publishedAt": "2026-08-05T06:38:30.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Resolving the Bubble Puzzle: Hydrogen Peroxide Formation Precedes Hydroxyl Radicals in Microbubbles and is Governed by Solid-Water Interfaces",
@@ -767,38 +799,6 @@
       "title": "Reduced-order modeling for electromagnetic inverse problems: a layered medium benchmark",
       "url": "https://arxiv.org/abs/2608.03996",
       "summary": "arXiv:2608.03996v1 Announce Type: cross Abstract: We study reduced-order modeling for inverse problems in layered media, focusing on the recovery of impedance profiles from time-domain measurements. Using the Goupillaud …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Localizing polymers promotes the centre-mode elastic instability",
-      "url": "https://arxiv.org/abs/2608.04004",
-      "summary": "arXiv:2608.04004v1 Announce Type: cross Abstract: The centre-mode elastic instability, prevalent in rectilinear flows of dilute polymer solutions, allows dynamic states to emerge even in the absence of inertia. Here, we …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Small-Angle Scattering",
-      "url": "https://arxiv.org/abs/1901.07353",
-      "summary": "arXiv:1901.07353v3 Announce Type: replace Abstract: Small-Angle Scattering (SAS) investigates structures in samples that generally range from approximately 0.5 nm to a few 100 nm. This can both be done for isotropic samp…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "All molecules are entangled in the number of electrons following a general physical principle",
-      "url": "https://arxiv.org/abs/2405.00203",
-      "summary": "arXiv:2405.00203v4 Announce Type: replace Abstract: A physically motivated equation that determines the number of electrons of a molecule is proposed based on some generally accepted basic chemical knowledge. It permits …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Improving Student Self-Confidence in Quantum Computing with the Qubit Touchdown Board Game",
-      "url": "https://arxiv.org/abs/2501.10449",
-      "summary": "arXiv:2501.10449v4 Announce Type: replace Abstract: Qubit Touchdown is a two-player, competitive board game that was developed to introduce students to quantum computing. A quantum computer is a new kind of computer that…",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z"
     }

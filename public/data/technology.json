@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-05T04:12:10.818Z",
+  "updated": "2026-08-05T07:41:26.761Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Neuraspace raises $18 million to expand sovereign space awareness",
+      "url": "https://spacenews.com/neuraspace-raises-18-million-to-expand-sovereign-space-awareness/",
+      "summary": "Neuraspace, the Portuguese space traffic management startup, announced around $18 million in fresh funding Aug. 5 to expand European space domain awareness and defense capabilities. The post Neuraspace raises $18 million…",
+      "ts": 1785909600000,
+      "publishedAt": "2026-08-05T06:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Cross-Anesthetic ECoG State Decoding Fails at the Decision Threshold, Not the Representation",
@@ -799,15 +808,6 @@
       "title": "Data augmentation as a framework for modeling hippocampal contributions to generalization",
       "url": "https://arxiv.org/abs/2608.01297",
       "summary": "arXiv:2608.01297v1 Announce Type: new Abstract: The hippocampus plays a critical role in generalization, enabling us to flexibly repurpose prior experiences to perform novel tasks. Here we suggest that data augmentation-…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "NeuroWorld: A Latent Brain World Model for Stimulus-Conditioned Human Brain Dynamics",
-      "url": "https://arxiv.org/abs/2608.01773",
-      "summary": "arXiv:2608.01773v1 Announce Type: new Abstract: Forecasting human brain activity during naturalistic experience requires modeling how endogenous neural states evolve causally under continuous sensory drive. Existing brai…",
       "ts": 1785816000000,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "categoryId": "bio"
