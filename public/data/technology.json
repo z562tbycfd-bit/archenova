@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-05T19:38:02.943Z",
+  "updated": "2026-08-05T21:12:28.877Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Takeda’s narcolepsy drug approved by the FDA, seen as a boon for new class of treatments",
+      "url": "https://www.statnews.com/2026/08/05/takeda-narcolepsy-drug-fda-approval-orzeyful/?utm_campaign=rss",
+      "summary": "The FDA approved a novel type of treatment for narcolepsy made by Takeda, backing a new drug class that scientists hope can be used to treat other conditions.",
+      "ts": 1785962495000,
+      "publishedAt": "2026-08-05T20:41:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Federal regulators invite industry, researchers, and lobbyists to closed-door meetings on clinical AI",
+      "url": "https://www.statnews.com/2026/08/05/federal-regulators-invite-industry-closed-door-meetings-clinical-ai/?utm_campaign=rss",
+      "summary": "Federal health officials invited tech companies and lobbyists to closed-door meetings as they seek to boost adoption of clinical AI.",
+      "ts": 1785960308000,
+      "publishedAt": "2026-08-05T20:05:08.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Erica Schwartz confirmed as CDC director, filling nearly yearlong vacancy",
@@ -211,9 +229,27 @@
     },
     {
       "source": "United Nations News",
-      "title": "Security Council LIVE: Briefing on continuing ISIL terror threat",
+      "title": "UN reports deadly month for Ukrainian civilians as Russian attacks intensify",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168082",
+      "summary": "Russian forces hammered Ukraine with ballistic missiles and long-range drones overnight on Tuesday, killing at least 17 civilians – mainly around Kyiv – and injuring another 44, the UN human rights office in Ukraine repo…",
+      "ts": 1785931200000,
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Sharp spike in executions, death sentences in Iran",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168081",
+      "summary": "The UN rights chief expressed alarm on Wednesday over the sharp increase in executions and death sentences in Iran since the US-Israeli bombing campaign began in late February, warning that capital punishment is being us…",
+      "ts": 1785931200000,
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Ambassadors briefed on continuing ISIL terror threat",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168080",
-      "summary": "The Security Council is meeting on Wednesday to examine the persistent threat posed by the terrorist group ISIL, also known as Dae’sh, to international peace and security. At a conference in June, the acting head of the …",
+      "summary": "The Security Council met on Wednesday to examine the persistent threat posed by the terrorist group ISIL, also known as Dae’sh, to international peace and security. At a conference in June, the acting head of the UN coun…",
       "ts": 1785931200000,
       "publishedAt": "2026-08-05T12:00:00.000Z",
       "categoryId": "global-governance"
@@ -775,42 +811,6 @@
       "ts": 1785863937000,
       "publishedAt": "2026-08-04T17:18:57.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Ames Science Stars of the Month – August 2026",
-      "url": "https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/",
-      "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Danielle Lopez, Jennifer Claudio, and Duncan Mifsud. Their commitment to the NASA mission represents the entrepreneur…",
-      "ts": 1785863284000,
-      "publishedAt": "2026-08-04T17:08:04.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Startup promising to scale custom CRISPR therapies abruptly scraps plans",
-      "url": "https://www.statnews.com/2026/08/04/aurora-therapeutics-ends-program-baby-kj-treatments-beam-therapeutics-jennifer-doudna/?utm_campaign=rss",
-      "summary": "The FDA, while promising flexibility in approving Baby KJ-type gene editing, still has set standards difficult for a small startup to meet.",
-      "ts": 1785863050000,
-      "publishedAt": "2026-08-04T17:04:10.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "August 2026 Satellite Puzzler",
-      "url": "https://science.nasa.gov/earth/earth-observatory/august-2026-satellite-puzzler/",
-      "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
-      "ts": 1785861106000,
-      "publishedAt": "2026-08-04T16:31:46.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
-      "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-      "summary": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations. To advance lunar surface infrastructure developm…",
-      "ts": 1785860091000,
-      "publishedAt": "2026-08-04T16:14:51.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
