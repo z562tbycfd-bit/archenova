@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-08-05T21:12:26.769Z",
+  "updated": "2026-08-05T23:01:47.573Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Air-stable, ultrathin superconductors developed for more scalable quantum devices",
+      "url": "https://phys.org/news/2026-08-air-stable-ultrathin-superconductors-scalable.html",
+      "summary": "Super-thin superconducting materials, which are only one or a few atoms thick, have unique properties scientists can leverage to produce more compact, scalable, and efficient quantum devices. But these fragile materials …",
+      "ts": 1785970801000,
+      "publishedAt": "2026-08-05T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Long-term study suggests landfill methane emissions are far higher than estimates",
+      "url": "https://phys.org/news/2026-08-term-landfill-methane-emissions-higher.html",
+      "summary": "Methane is an especially potent greenhouse gas, causing much more warming than carbon dioxide on a unit-for-unit basis—and a new, uniquely long-term study of emissions at a New Jersey landfill suggests that estimates of …",
+      "ts": 1785969601000,
+      "publishedAt": "2026-08-05T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Experimental drug turns cancer's favorite fuel against it",
+      "url": "https://phys.org/news/2026-08-experimental-drug-cancer-favorite-fuel.html",
+      "summary": "Cancer cells have a voracious appetite for sugar—using it to fuel their rapid growth. This is why many scientists have tried to develop drugs that block cancer cells' metabolism by cutting off their sugar supply.",
+      "ts": 1785968406000,
+      "publishedAt": "2026-08-05T22:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "We can help frogs beat a deadly disease. But can they still reproduce?",
+      "url": "https://phys.org/news/2026-08-frogs-deadly-disease.html",
+      "summary": "Many people are blissfully unaware that the world's frogs and amphibians are fighting their own deadly pandemic. In fact, this fungal disease—chytridiomycosis, or chytrid for short—is the worst wildlife disease on record…",
+      "ts": 1785968401000,
+      "publishedAt": "2026-08-05T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Damaging coastal storm conditions have become twice as frequent at a New Jersey Beach since 1979",
+      "url": "https://phys.org/news/2026-08-coastal-storm-conditions-frequent-jersey.html",
+      "summary": "Storm conditions capable of causing major coastal erosion at New Jersey's North Beach on Sandy Hook are occurring about twice as often as they did in 1979, according to Rutgers researchers. The finding offers new evidenc…",
+      "ts": 1785967203000,
+      "publishedAt": "2026-08-05T22:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laser scanning may help prevent urban trees from falling",
+      "url": "https://phys.org/news/2026-08-laser-scanning-urban-trees-falling.html",
+      "summary": "For the first time, a group of biologists and engineers from the University of São Paulo (USP) in Brazil applied LiDAR (light detection and ranging) technology to investigate the health of trees and optimize pruning with…",
+      "ts": 1785966006000,
+      "publishedAt": "2026-08-05T21:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electrostatic nanocorral offers new control over charged excitons and quantum light",
+      "url": "https://phys.org/news/2026-08-electrostatic-nanocorral-excitons-quantum.html",
+      "summary": "Researchers created an electrically tunable quantum nanoscale corral that traps charged excitons and enables precise electrical control of tiny light sources, including their brightness, color and quantum states, the tea…",
+      "ts": 1785966003000,
+      "publishedAt": "2026-08-05T21:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Nanowires restore key functions in aging T cells",
+      "url": "https://phys.org/news/2026-08-nanowires-key-functions-aging-cells.html",
+      "summary": "For decades, scientists have accepted that the immune system naturally weakens with age. Georgia Tech biomedical engineer and Carl Ring Family Professor Ankur Singh wasn't convinced. Then the COVID-19 pandemic made the s…",
+      "ts": 1785965402000,
+      "publishedAt": "2026-08-05T21:30:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Diffuse inter-filament gas is likely a key fuel source for massive star formation",
+      "url": "https://phys.org/news/2026-08-diffuse-inter-filament-gas-key.html",
+      "summary": "Researchers from Kyushu University have discovered that diffuse gas surrounding dense filaments in a nearby stellar nursery plays a much larger role in star formation than previously recognized. By tracking the movement …",
+      "ts": 1785964804000,
+      "publishedAt": "2026-08-05T21:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unexpected E. coli response may complicate peptide-based antibiotic combinations",
+      "url": "https://phys.org/news/2026-08-unexpected-coli-response-complicate-peptide.html",
+      "summary": "A group of Cornell College students and their professor found surprising results in research on antimicrobial peptides, which are being studied as a method of combating antibiotic resistance. These peptides, part of the …",
+      "ts": 1785964802000,
+      "publishedAt": "2026-08-05T21:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Little-known protein helps the body restrain scar-forming signals",
@@ -719,86 +799,6 @@
       "title": "Phase-Locked Time-Stretch Optical Coherence Tomography for Contrast-Enhanced Retinal Microangiography",
       "url": "https://arxiv.org/abs/2608.02793",
       "summary": "arXiv:2608.02793v1 Announce Type: new Abstract: Optical coherence tomography angiography has transformed retinal vascular imaging by providing non-invasive, high-resolution visualization. However, achieving an optimal ba…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-time quasi-distributed fiber optic sensor based on resonance frequency mapping",
-      "url": "https://arxiv.org/abs/2608.02797",
-      "summary": "arXiv:2608.02797v1 Announce Type: new Abstract: Distributed optical fiber sensors (DOFS) based on Raman, Brillouin, and Rayleigh scattering have recently attracted considerable attention for various sensing applications,…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Existence Regions for Transcomplex Recombination of Heavy Ions. Two-Dimensional Recombination Regions and Surroundings Indices",
-      "url": "https://arxiv.org/abs/2608.02818",
-      "summary": "arXiv:2608.02818v1 Announce Type: new Abstract: In this paper, we examine transcomplex recombination RCs$^+$ + Br$^-$ $\\to$ CsBr + R (R = Kr, Xe, Hg) for collision energies from 0.1 to 2.5 eV. Within the framework of the…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The orientation of historic churches in Las Palmas de Gran Canaria and its surroundings: preliminary results",
-      "url": "https://arxiv.org/abs/2608.02837",
-      "summary": "arXiv:2608.02837v1 Announce Type: new Abstract: We present preliminary results of the analysis of the precise spatial orientation of colonial Christian churches located in the city of Las Palmas, capital of the island of…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computing with traceable tensor networks",
-      "url": "https://arxiv.org/abs/2608.02849",
-      "summary": "arXiv:2608.02849v1 Announce Type: new Abstract: We introduce a new SVD-based tensor decomposition method for tensor networks with arbitrary graph topologies, extending classical hierarchical SVD-based techniques to netwo…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An Open Source RFSoC-based Readout Electronics System for Arrays of Kinetic Inductance Detectors and Superconducting Resonators",
-      "url": "https://arxiv.org/abs/2608.02860",
-      "summary": "arXiv:2608.02860v1 Announce Type: new Abstract: We present a novel readout electronics system for large arrays of superconducting electromagnetic resonators, such as kinetic inductance detectors (KIDs), based on a Radio …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Experimental access to molarity's blind spot in macroscopic assays",
-      "url": "https://arxiv.org/abs/2608.02864",
-      "summary": "arXiv:2608.02864v1 Announce Type: new Abstract: Chemical kinetics has long inferred local molecular behaviour through the flask-and-molarity pairing, where well-mixed concentrations serve as the experimental readout. Yet…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A concentration-independent paradigm rendering weak interactions inherently quantifiable",
-      "url": "https://arxiv.org/abs/2608.02865",
-      "summary": "arXiv:2608.02865v1 Announce Type: new Abstract: A vast class of weak, millimolar-affinity molecular interactions governs cellular function, yet their quantitative characterization has remained largely beyond conventional…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cell intrinsic dynamics guide neuroblast ingression independent of tissue fluidity",
-      "url": "https://arxiv.org/abs/2608.02885",
-      "summary": "arXiv:2608.02885v1 Announce Type: new Abstract: Morphogenesis involves the coordination of multiple cellular processes that occur simultaneously within developing tissues. During early Drosophila embryogenesis, neuroblas…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Adaptive Inference and Convergence of Free Energy Landscapes Using Non-parametric Bayesian Enhanced Sampling",
-      "url": "https://arxiv.org/abs/2608.02888",
-      "summary": "arXiv:2608.02888v1 Announce Type: new Abstract: Enhanced sampling techniques are central to the study of statistically rare events in the computer modeling and simulation of molecular phenomena. In this work, we report t…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-time tissue-equivalent measurement of individual clinical radiotherapy pulses",
-      "url": "https://arxiv.org/abs/2608.02889",
-      "summary": "arXiv:2608.02889v1 Announce Type: new Abstract: We apply the precision tools of cavity-enhanced absorption sensing to clinical oncology, demonstrating a dosimeter paradigm in which a centimeter-scale volume of water serv…",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z"
     }

@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-05T21:12:28.877Z",
+  "updated": "2026-08-05T23:01:49.583Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "New Glenn explosion linked to rocket engine valve",
+      "url": "https://spacenews.com/new-glenn-explosion-linked-to-rocket-engine-valve/",
+      "summary": "Blue Origin has traced the explosion of its New Glenn rocket during a static-fire test in May to a valve in the rocket’s BE-4 engine. The post New Glenn explosion linked to rocket engine valve appeared first on SpaceNews…",
+      "ts": 1785969016000,
+      "publishedAt": "2026-08-05T22:30:16.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Takeda’s narcolepsy drug approved by the FDA, seen as a boon for new class of treatments",
@@ -226,6 +235,15 @@
       "ts": 1785931200000,
       "publishedAt": "2026-08-05T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Tate brothers’ US extradition case a ‘step towards accountability,’ says independent expert",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168085",
+      "summary": "An independent UN human rights expert has welcomed ongoing proceedings in the United States to extradite “manosphere” bloggers Andrew and Tristan Tate to the United Kingdom, calling the case an important step towards acc…",
+      "ts": 1785931200000,
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -792,24 +810,6 @@
       "summary": "An AI-based method uses MRI scans to generate detailed maps highlighting how different areas of the brain age, and shedding light on how patterns of brain changes correlate with changes in cognitive function across lifes…",
       "ts": 1785868722000,
       "publishedAt": "2026-08-04T18:38:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
-      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
-      "summary": "Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept te…",
-      "ts": 1785866575000,
-      "publishedAt": "2026-08-04T18:02:55.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Beyond the Technology: AI Readiness in Regulated Laboratories",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/beyond-the-technology-ai-readiness-in-regulated-laboratories/",
-      "summary": "In this GEN podcast, an expert from LabVantage explores how regulated laboratories can build this foundation, break down data silos, and prepare for AI adoption in clinical and commercial settings. The post Beyond the Te…",
-      "ts": 1785863937000,
-      "publishedAt": "2026-08-04T17:18:57.000Z",
       "categoryId": "bio"
     }
   ],
