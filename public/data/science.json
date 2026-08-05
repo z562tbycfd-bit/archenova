@@ -1,7 +1,119 @@
 {
   "ok": true,
-  "updated": "2026-08-05T17:40:57.792Z",
+  "updated": "2026-08-05T19:38:00.940Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How hydrogen can be produced from bio-based formic acid in a continuous process",
+      "url": "https://phys.org/news/2026-08-hydrogen-bio-based-formic-acid.html",
+      "summary": "With annual production of around 1 million metric tons (1.1 million tons), formic acid is one of the most important basic chemicals and is used, among other things, as an additive in the animal feed industry. It is also …",
+      "ts": 1785957969000,
+      "publishedAt": "2026-08-05T19:26:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Runaway supermassive black hole RBH-1 offers new way to reconstruct ancient merger",
+      "url": "https://phys.org/news/2026-08-runaway-supermassive-black-hole-rbh.html",
+      "summary": "Black holes are fascinating regions in space where gravity is so strong that nothing, even light, can escape them. The largest known black holes, called supermassive black holes, contain millions to billions of times the…",
+      "ts": 1785957603000,
+      "publishedAt": "2026-08-05T19:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Historic discovery finds 19th-century estate agent used peepshow technology to create proto version of Rightmove",
+      "url": "https://phys.org/news/2026-08-historic-discovery-19th-century-estate.html",
+      "summary": "A 19th-century real estate agent created the world's first version of Rightmove more than 160 years before the birth of online property previews.",
+      "ts": 1785957601000,
+      "publishedAt": "2026-08-05T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Electric field reverses phonon chirality and spin direction in ferroelectric crystal",
+      "url": "https://phys.org/news/2026-08-electric-field-reverses-phonon-chirality.html",
+      "summary": "Chiral phonons are groups of atoms that move in a circular direction when excited by an energy source, such as heat. As the phonons move through a material, they propagate that circular motion, or angular momentum, throu…",
+      "ts": 1785956406000,
+      "publishedAt": "2026-08-05T19:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unprecedented biomass loss in Europe's forests since 2018",
+      "url": "https://phys.org/news/2026-08-unprecedented-biomass-loss-europe-forests.html",
+      "summary": "Using satellite data, researchers at TUM have identified an unprecedented loss of aboveground biomass in Europe's forests since 2018. Unlike previous studies that focused solely on changes in tree cover, this study provi…",
+      "ts": 1785956403000,
+      "publishedAt": "2026-08-05T19:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Whole-genome sequencing reveals that Japanese and Ryukyu wild boars share a common ancestor",
+      "url": "https://phys.org/news/2026-08-genome-sequencing-reveals-japanese-ryukyu.html",
+      "summary": "The wild boar (Sus scrofa) is widely distributed across Eurasia and has also colonized the Japanese archipelago, where two subspecies are recognized: the Japanese wild boar (JWB, Sus scrofa leucomystax) and the Ryukyu wi…",
+      "ts": 1785955203000,
+      "publishedAt": "2026-08-05T18:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Little red dots' may be pulsating monster stars that created early-universe black holes",
+      "url": "https://phys.org/news/2026-08-red-dots-pulsating-monster-stars.html",
+      "summary": "Astronomers have speculated about the mysterious \"little red dots\" seen through the James Webb Space Telescope's images of the early universe: They could be galaxies, black holes, quasi-stars, starbursts ... or something…",
+      "ts": 1785955201000,
+      "publishedAt": "2026-08-05T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Astronomers catch 'Hatchling' quasar breaking out of its dusty cocoon",
+      "url": "https://phys.org/news/2026-08-astronomers-hatchling-quasar-dusty-cocoon.html",
+      "summary": "Using observations from multiple powerful telescopes, a team of astronomers studied a red quasar nicknamed \"the Hatchling\" at redshift 3.7. They may have identified one of the clearest examples yet of a quasar caught in …",
+      "ts": 1785954004000,
+      "publishedAt": "2026-08-05T18:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Zoo education strengthens people's connection to nature",
+      "url": "https://phys.org/news/2026-08-zoo-people-nature.html",
+      "summary": "Zoos offer people the opportunity to experience animals and engage with the natural world. Alongside recreation, they also play important roles in species conservation and scientific research. Education is another core m…",
+      "ts": 1785954002000,
+      "publishedAt": "2026-08-05T18:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Neanderthal growth hormone receptor increases muscle mass in people today, study shows",
+      "url": "https://phys.org/news/2026-08-neanderthal-growth-hormone-receptor-muscle.html",
+      "summary": "Neanderthals were generally more strongly built than most people living today. Their bones show signs of large muscles, and they had characteristic features such as prominent brow ridges and relatively short tooth roots.",
+      "ts": 1785954001000,
+      "publishedAt": "2026-08-05T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Two origins of life: Free-living cells may have emerged twice as bacteria and archaea diverged",
+      "url": "https://phys.org/news/2026-08-life-free-cells-emerged-bacteria.html",
+      "summary": "How and where did the first forms of life arise? These are the main questions driving research at the Institute of Molecular Evolution at Heinrich Heine University Düsseldorf (HHU). In a new publication in Science Advanc…",
+      "ts": 1785952813000,
+      "publishedAt": "2026-08-05T18:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tangled seaweed inspires one-size-fits-all cleaners for ocean microplastics",
+      "url": "https://phys.org/news/2026-08-tangled-seaweed-size-cleaners-ocean.html",
+      "summary": "Inspired by naturally occurring mats and balls of seaweed, researchers have created highly porous, superadhesive meshes capable of capturing both large and small microplastic particles—a longstanding challenge in the fie…",
+      "ts": 1785952811000,
+      "publishedAt": "2026-08-05T18:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How humans process the extraordinary—most report positive long-term effects",
+      "url": "https://phys.org/news/2026-08-humans-extraordinary-positive-term-effects.html",
+      "summary": "One-fourth of people who undergo an extraordinary experience report immediate discomfort, but more than half say the experience caused positive long-term effects, according to a study published Aug. 5, 2026, in the open-…",
+      "ts": 1785952807000,
+      "publishedAt": "2026-08-05T18:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Distrust of mainstream media may fuel vaccine conspiracy beliefs",
+      "url": "https://phys.org/news/2026-08-distrust-mainstream-media-fuel-vaccine.html",
+      "summary": "A research team led by Professor Hitoshi Yamamoto of Rissho University analyzed five years of longitudinal panel survey data collected between 2020 and 2024 and examined how vaccine-related conspiracy beliefs were associ…",
+      "ts": 1785952803000,
+      "publishedAt": "2026-08-05T18:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Study finds it's where you log, not just how much, that determines flood risk",
@@ -687,118 +799,6 @@
       "title": "Radiation reaction in the classical relativistic St{\\o}rmer problem",
       "url": "https://arxiv.org/abs/2608.03310",
       "summary": "arXiv:2608.03310v1 Announce Type: new Abstract: We extend the classical relativistic St{\\o}rmer problem by incorporating radiation reaction through the Landau--Lifshitz formulation, thereby providing a self-consistent de…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generation-Resolved Signatures in QED Cascades: Diagnostics for Ultraintense Laser Parameters",
-      "url": "https://arxiv.org/abs/2608.03331",
-      "summary": "arXiv:2608.03331v1 Announce Type: new Abstract: We present a generation-resolved analysis of shower-type, spin- and polarization-dependent quantum electrodynamics (QED) cascades initiated by head-on collisions of ultrain…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Space-Time Event Scattering and Extension Method (STESEM): A Universal Framework for Scattering in Space-Time Metamaterials",
-      "url": "https://arxiv.org/abs/2608.03333",
-      "summary": "arXiv:2608.03333v1 Announce Type: new Abstract: Space-time metamaterials offer unprecedented control over electromagnetic waves by enabling simultaneous manipulation of spatial and temporal degrees of freedom. However, a…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Event-Based Spatial-Carrier Interferometry for Surface-Normal Vibration-Waveform Reconstruction",
-      "url": "https://arxiv.org/abs/2608.03343",
-      "summary": "arXiv:2608.03343v1 Announce Type: new Abstract: Non-contact measurement of small vibrations perpendicular to a surface supports the evaluation of mechanical structures, but in camera-based interferometry, increasing the …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mid-infrared spontaneous and stimulated emission dynamics in black phosphorus",
-      "url": "https://arxiv.org/abs/2608.03346",
-      "summary": "arXiv:2608.03346v1 Announce Type: new Abstract: Black phosphorus (BP) has attracted attention as a light-emitting layered semiconductor for mid-infrared (MIR) photonics owing to its direct and thickness-tunable bandgap e…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Organic liquid scintillator neutrino detector experiment, theoretical modeling, and computational simulation",
-      "url": "https://arxiv.org/abs/2608.03359",
-      "summary": "arXiv:2608.03359v1 Announce Type: new Abstract: The Liquid Scintillator Neutrino Detector (LSND) experiment aimed at investigating neutrino oscillations, particularly the transformation of muon-type antineutrinos (\\(\\ove…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Modelisation of chaotic systems with a latent Stochastic Differential Equation",
-      "url": "https://arxiv.org/abs/2608.03438",
-      "summary": "arXiv:2608.03438v1 Announce Type: new Abstract: Stochastic Differential Equations (SDEs) have become a cornerstone of scientific machine learning, though they are predominantly utilized as algorithmic tools for uncertain…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-Time Smart Self-Mixing Interferometry Sensor With Embedded Neural Network",
-      "url": "https://arxiv.org/abs/2608.03448",
-      "summary": "arXiv:2608.03448v1 Announce Type: new Abstract: Self-mixing interferometry is a measurement ap- proach in which a laser beam is re-injected into the emitting laser itself after reflection on a target. Information about t…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermodynamically consistent initialization of the Maxwell--Cattaneo---Vernotte heat conduction model: Analytical solutions and engineering applications",
-      "url": "https://arxiv.org/abs/2608.03495",
-      "summary": "arXiv:2608.03495v1 Announce Type: new Abstract: This paper investigates the numerical initialization of the one-dimensional Maxwell--Cattaneo--Vernotte (MCV) heat conduction model, addressing the critical mathematical ch…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AOM-based ultra-low noise laser intensity control up to the MHz range",
-      "url": "https://arxiv.org/abs/2608.03547",
-      "summary": "arXiv:2608.03547v1 Announce Type: new Abstract: High-power laser sources that exhibit low relative intensity noise and allow simultaneous dynamic control of their light level are required for a broad range of application…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A 100x Faster Beam Propagation Method for Nonlinear Optical Wave Propagation Based on Discrete Exterior Calculus",
-      "url": "https://arxiv.org/abs/2608.03587",
-      "summary": "arXiv:2608.03587v1 Announce Type: new Abstract: Efficient simulation of nonlinear light propagation in complex photonic structures remains a major challenge because these systems combine intricate transverse geometries w…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Measuring the engine of a liquidation cascade: subcritical branching inside a first-order transition",
-      "url": "https://arxiv.org/abs/2608.03616",
-      "summary": "arXiv:2608.03616v1 Announce Type: new Abstract: We study seven major crypto-perpetual liquidation cascades (2022-2025), and in the largest of them we can watch the mechanism directly. From the on-chain fill log of a full…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A 3-D Hybrid Numerical Method for Simulating Electromagnetic Fields in Structures with Multiple Inhomogeneous Layered Media",
-      "url": "https://arxiv.org/abs/2608.03639",
-      "summary": "arXiv:2608.03639v1 Announce Type: new Abstract: A three-dimensional (3-D) hybrid numerical method (HNM) is presented for electromagnetic scattering in structures with multiple inhomogeneous layered media coupled to an ar…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "TNASS: Tensor Network Active Space Selection with the Entanglement Feature",
-      "url": "https://arxiv.org/abs/2608.03645",
-      "summary": "arXiv:2608.03645v1 Announce Type: new Abstract: The quality of multi-scale modelling techniques in molecular electronic structure calculations, such as embedding and subspace methods, relies upon the chosen active space.…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A windy sea surface with Stokes waves",
-      "url": "https://arxiv.org/abs/2608.03657",
-      "summary": "arXiv:2608.03657v1 Announce Type: new Abstract: Predicting the transition of wind-forced, gravito-capillary surface waves from smooth to corrugated states remains a longstanding problem in nonlinear wave mechanics. Solvi…",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z"
     }
