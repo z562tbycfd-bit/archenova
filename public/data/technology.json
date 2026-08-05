@@ -1,7 +1,70 @@
 {
   "ok": true,
-  "updated": "2026-08-05T15:15:54.771Z",
+  "updated": "2026-08-05T17:41:02.379Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Capella, Iceye and Umbra win NRO radar-data contracts",
+      "url": "https://spacenews.com/capella-iceye-and-umbra-win-nro-radar-data-contracts/",
+      "summary": "SAN FRANCISCO – The National Reconnaissance Office has awarded contracts to Capella Space, Iceye U.S. and Umbra to expand the U.S. government’s use of commercial synthetic aperture radar (SAR). The […] The post Capella, …",
+      "ts": 1785949500000,
+      "publishedAt": "2026-08-05T17:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Immune Pathway Identified That Prevents C. albicans Infection from Becoming Deadly",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/immune-pathway-identified-that-prevents-c-albicans-infection-from-becoming-deadly/",
+      "summary": "Researchers working with mice identified an immune pathway that prevents what is normally a harmless fungus, Candida albicans, from developing into a fatal infection. The post Immune Pathway Identified That Prevents <i>C…",
+      "ts": 1785945691000,
+      "publishedAt": "2026-08-05T16:01:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Building a Bioprocessing Workforce Through Partnerships",
+      "url": "https://www.genengnews.com/topics/bioprocessing/building-a-bioprocessing-workforce-through-partnerships/",
+      "summary": "Frank Fazio discusses the workforce needs of bioprocessing, the challenges of attracting and retaining talent, and how partnerships with schools, colleges, and universities are helping St. Jude build a sustainable talent…",
+      "ts": 1785945655000,
+      "publishedAt": "2026-08-05T16:00:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "AI “Council of Models” Improves Workflows and Outcomes",
+      "url": "https://www.genengnews.com/topics/bioprocessing/ai-council-of-models-improves-workflows-and-outcomes/",
+      "summary": "Selecting the best AI models for each step of a workflow while properly preparing structured and unstructured enterprise data enables a more effective systems engineering approach for biomanufacturing. The post AI “Counc…",
+      "ts": 1785945631000,
+      "publishedAt": "2026-08-05T16:00:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "New Bioreactor Design Could Boost mAb Yields",
+      "url": "https://www.genengnews.com/topics/bioprocessing/drum-role-new-bioreactor-design-could-boost-mab-yields/",
+      "summary": "An innovative rotating drum bioreactor designed to maximize the availability of dissolved oxygen throughout the entire fermentation cycle could significantly increase mAb production yields. The post New Bioreactor Design…",
+      "ts": 1785945630000,
+      "publishedAt": "2026-08-05T16:00:30.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Seamless Integration in Gene Therapy Process Development",
+      "url": "https://www.genengnews.com/topics/bioprocessing/seamless-integration-in-gene-therapy-process-development/",
+      "summary": "A contract manufacturer running multiple adeno-associated virus (AAV) programs says early engagement between key stakeholders, proactive risk assessments and platform knowledge is core to the successful delivery of gene …",
+      "ts": 1785945605000,
+      "publishedAt": "2026-08-05T16:00:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon/",
+      "summary": "Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover. Earth appears as a point of light in the Martian sky, disappearing behind the crescent of Phobos…",
+      "ts": 1785943527000,
+      "publishedAt": "2026-08-05T15:25:27.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Electrical Stimulation’s Effects on Neurons, Gene Expression Mapped in Living Human Brain Tissue",
@@ -21,12 +84,30 @@
       "categoryId": "space"
     },
     {
+      "source": "MIT Technology Review",
+      "title": "Puzzle Corner",
+      "url": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
+      "summary": "Ready for a fresh set of puzzles? Click here for the September/October 2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the Puzzle Corner Puzzle Crew (aka PC2), which also includes Edward Faulkner ’…",
+      "ts": 1785941789000,
+      "publishedAt": "2026-08-05T14:56:29.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "ESA",
       "title": "Your chance to run software in deep space on ESA's asteroid mission",
       "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Your_chance_to_run_software_in_deep_space_on_ESA_s_asteroid_mission",
       "summary": "The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away.",
       "ts": 1785938640000,
       "publishedAt": "2026-08-05T14:04:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Advanced Mini-laboratories Automate Space Station Research",
+      "url": "https://www.nasa.gov/image-article/advanced-mini-laboratories-automate-space-station-research/",
+      "summary": "The International Space Station hosts hundreds of science experiments at a time. Some experiments can take hours to perform, and researchers need to account for astronauts’ limited time. Fully automated devices, like Red…",
+      "ts": 1785938400000,
+      "publishedAt": "2026-08-05T14:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -129,6 +210,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "Bahamas Charts Next Steps to Strengthen Cancer Control Following imPACT Review",
+      "url": "http://www.iaea.org/newscenter/news/bahamas-charts-next-steps-to-strengthen-cancer-control-following-impact-review",
+      "summary": "",
+      "ts": 1785924605000,
+      "publishedAt": "2026-08-05T10:10:05.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "ESA",
       "title": "Europe’s forests losing more biomass since 2018",
       "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Europe_s_forests_losing_more_biomass_since_2018",
@@ -216,6 +306,24 @@
       "summary": "Neuraspace, the Portuguese space traffic management startup, announced around $18 million in fresh funding Aug. 5 to expand European space domain awareness and defense capabilities. The post Neuraspace raises $18 million…",
       "ts": 1785909600000,
       "publishedAt": "2026-08-05T06:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 5 – Spokes on Saturn’s B Ring",
+      "url": "https://science.nasa.gov/image-article/apod-2026-august-5-spokes-on-saturns-b-ring/",
+      "summary": "APODScienceAPODAPOD: 2026 August 5 – Spokes…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…",
+      "ts": 1785902700000,
+      "publishedAt": "2026-08-05T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "The Paradox of Lençóis Maranhenses National Park",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-paradox-of-lencois-maranhenses-national-park/",
+      "summary": "The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year.",
+      "ts": 1785902460000,
+      "publishedAt": "2026-08-05T04:01:00.000Z",
       "categoryId": "space"
     },
     {
@@ -703,114 +811,6 @@
       "ts": 1785855649000,
       "publishedAt": "2026-08-04T15:00:49.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "As AI Increases Demands on Memory, Storage Steps Up",
-      "url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
-      "summary": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory. But rising needs aren’t met by simply adding more storage capacity. What’s needed is useful,…",
-      "ts": 1785855647000,
-      "publishedAt": "2026-08-04T15:00:47.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Military demand shapes market for satellite propulsion",
-      "url": "https://spacenews.com/military-demand-shapes-market-for-sat-propulsion/",
-      "summary": "Startups and established spacecraft manufacturers are investing in engines designed to give small satellites more freedom to change orbit The post Military demand shapes market for satellite propulsion appeared first on …",
-      "ts": 1785855600000,
-      "publishedAt": "2026-08-04T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Are AI scribes medical devices? U.K. regulator weighs in",
-      "url": "https://www.statnews.com/2026/08/04/ai-scribes-medical-devices-uk-regulator-view-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: UK regulator on AI scribes, CMS eliminates key payment pathways for 'breakthrough' devices, and more.",
-      "ts": 1785849811000,
-      "publishedAt": "2026-08-04T13:23:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Lilly access program, a Gilead court victory, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/04/lilly-expands-retatrutide-access-program-gilead-court-victory/?utm_campaign=rss",
-      "summary": "Eli Lilly confirmed that it will allow more patients to apply for early access to retatrutide, an unapproved obesity drug",
-      "ts": 1785849094000,
-      "publishedAt": "2026-08-04T13:11:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
-      "summary": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Lin…",
-      "ts": 1785848447000,
-      "publishedAt": "2026-08-04T13:00:47.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Trans federal employees sue over revoked health coverage",
-      "url": "https://www.statnews.com/2026/08/04/health-news-trans-federal-employees-sue-over-revoked-coverage/?utm_campaign=rss",
-      "summary": "Expanded retatrutide access, the cost of the 2025 measles outbreak, and more health news from Morning Rounds",
-      "ts": 1785846613000,
-      "publishedAt": "2026-08-04T12:30:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Future of Crew Dragon weighs on commercial spaceflight industry",
-      "url": "https://spacenews.com/future-of-crew-dragon-weighs-on-commercial-spaceflight-industry/",
-      "summary": "While SpaceX says there is a “significant” amount of life left in its Crew Dragon fleet, the company has hedged on how long it will continue flying the spacecraft. The post Future of Crew Dragon weighs on commercial spac…",
-      "ts": 1785845643000,
-      "publishedAt": "2026-08-04T12:14:03.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: US robot restrictions and ICE’s DNA grab",
-      "url": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Trump’s AI protectionism has come for robotics —James O’Donnell Humanoid robots us…",
-      "ts": 1785845640000,
-      "publishedAt": "2026-08-04T12:14:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: The latest orphan drug exemptions may not be warranted, analysis finds",
-      "url": "https://www.statnews.com/pharmalot/2026/08/04/latest-orphan-drug-exemptions-may-not-be-warranted-analysis-finds/?utm_campaign=rss",
-      "summary": "A new analysis questions the wisdom of a controversial provision in federal law that exempts so-called orphan drugs from Medicare pricing negotiations.",
-      "ts": 1785845101000,
-      "publishedAt": "2026-08-04T12:05:01.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "NSF-Funded Test Bed Lets Researchers Program Automated Biomanufacturing Workflows",
-      "url": "https://www.genengnews.com/topics/bioprocessing/nsf-funded-test-bed-lets-researchers-program-automated-biomanufacturing-workflows/",
-      "summary": "The CRAB Lab builds on a long-standing partnership between UMD and NIST through IBBR, which will serve as the physical home for instrumentation, facilities, and scientific expertise. The post NSF-Funded Test Bed Lets Res…",
-      "ts": 1785844807000,
-      "publishedAt": "2026-08-04T12:00:07.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SpaceX’s new Starfall program offers validation and competition for reentry startups",
-      "url": "https://spacenews.com/spacexs-new-starfall-program-offers-validation-and-competition-for-reentry-startups/",
-      "summary": "Demand for microgravity research and manufacturing is brewing — perhaps literally. When SpaceX launched the first test flight of Starfall, its commercial reentry capsule, on June 23, the company did […] The post SpaceX’s…",
-      "ts": 1785844800000,
-      "publishedAt": "2026-08-04T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Africans bear the brunt of biodiversity loss",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168078",
-      "summary": "For millions across Africa and the developing world, the biodiversity crisis is not an abstract problem – it’s the soil that no longer yields bountiful harvests and the fish that no longer return to coastal waters.",
-      "ts": 1785844800000,
-      "publishedAt": "2026-08-04T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [
