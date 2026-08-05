@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-04T22:14:50.987Z",
+  "updated": "2026-08-05T00:05:23.045Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Aryl radical addition–dehydrocyclization drives rapid polycyclic aromatic hydrocarbon growth",
+      "url": "https://www.nature.com/articles/s41467-026-76371-0",
+      "summary": "",
+      "ts": 1785888000000,
+      "publishedAt": "2026-08-05T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What the panic over Gen Z's reading habits gets wrong",
+      "url": "https://phys.org/news/2026-08-panic-gen-habits-wrong.html",
+      "summary": "A trove of recent articles bemoan the collapse in recreational reading among younger Americans, with COVID-related reading declines, artificial intelligence and social media often described as causes.",
+      "ts": 1785886803000,
+      "publishedAt": "2026-08-04T23:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "East Africa's iconic snow peaks will soon disappear for good. What will be lost when they melt?",
+      "url": "https://phys.org/news/2026-08-east-africa-iconic-peaks-good.html",
+      "summary": "East Africa's shrinking mountain glaciers on three peaks in Kenya, Uganda and Tanzania will soon be no more. The 2025 State of the Climate in Africa report (page 13) estimates that the ice areas on Mount Kenya, the conti…",
+      "ts": 1785885601000,
+      "publishedAt": "2026-08-04T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Family ties shape social lives of bull sharks",
+      "url": "https://phys.org/news/2026-08-family-social-bull-sharks.html",
+      "summary": "Bull sharks have a slight preference for spending time with their relatives, new research shows.",
+      "ts": 1785885001000,
+      "publishedAt": "2026-08-04T23:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New catalyst design selectively suppresses competing hydrogen reaction in ammonia synthesis",
+      "url": "https://phys.org/news/2026-08-catalyst-suppresses-hydrogen-reaction-ammonia.html",
+      "summary": "A research team led by professor Yousung Jung from the Department of Chemical and Biological Engineering at Seoul National University College of Engineering has developed a new catalyst design principle that suppresses t…",
+      "ts": 1785883203000,
+      "publishedAt": "2026-08-04T22:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Better call mom: Schools still see mothers as the default parent to contact",
+      "url": "https://phys.org/news/2026-08-mom-schools-mothers-default-parent.html",
+      "summary": "The start of the school year brings a familiar list of responsibilities for parents: buying school supplies, keeping track of forms, coordinating transportation and responding to a steady stream of emails from teachers a…",
+      "ts": 1785883201000,
+      "publishedAt": "2026-08-04T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How a unique environment sets Australian chocolate apart",
+      "url": "https://phys.org/news/2026-08-unique-environment-australian-chocolate.html",
+      "summary": "University of Queensland research has shown microbes could give Australian-grown chocolate an edge in the global market. Working with growers in Far North Queensland, scientists found the cocoa fermentation process may h…",
+      "ts": 1785882606000,
+      "publishedAt": "2026-08-04T22:30:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cat training program helps children with developmental disabilities—and cats too",
+      "url": "https://phys.org/news/2026-08-cat-children-developmental-disabilities-cats.html",
+      "summary": "A cat-training program for children with developmental disabilities fostered healthy behaviors in children, strengthened relationships between children and their family cats and improved cats' social behavior, a new stud…",
+      "ts": 1785882007000,
+      "publishedAt": "2026-08-04T22:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cannabis farming is changing streams in California, experts warn",
+      "url": "https://phys.org/news/2026-08-cannabis-farming-streams-california-experts.html",
+      "summary": "Groundwater pumped to irrigate cannabis crops in California's Emerald Triangle can cause some streams that normally run year-round to dry up entirely during summer, say researchers from Simon Fraser University, the Unive…",
+      "ts": 1785882004000,
+      "publishedAt": "2026-08-04T22:20:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Incentives to sleep boost college students' grades, new study finds",
@@ -727,78 +799,6 @@
       "title": "A Dynamic Theory for Explaining the Evaporation Paradox and Global Energy Transpiration",
       "url": "https://arxiv.org/abs/2608.00049",
       "summary": "arXiv:2608.00049v1 Announce Type: new Abstract: Evaporation is a part of water cycle and a process of energy exchange between atmosphere and land surface, its variation reflects global change. Pan evaporation decreases w…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Spatial Persistence Gradient in European Warming Consistent with North Atlantic Cold-Blob Influence",
-      "url": "https://arxiv.org/abs/2608.00063",
-      "summary": "arXiv:2608.00063v1 Announce Type: new Abstract: Europe is warming faster than the global mean, yet the spatial organisation of this acceleration remains incompletely understood. Using ERA5 reanalysis for 1950--2024 acros…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hybrid Quantum CNN for Cross-Sensor Spaceborne Volcanic Thermal Activity Recognition Worldwide",
-      "url": "https://arxiv.org/abs/2608.00069",
-      "summary": "arXiv:2608.00069v1 Announce Type: new Abstract: As Earth Observation (EO) enters the Big Data era, the exponential volume of daily satellite imagery poses significant computational and storage challenges for classical De…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rethinking Total Absorption Gamma Spectroscopy Deconvolution: Supervised Machine Learning vs Response-Matrix Methods",
-      "url": "https://arxiv.org/abs/2608.00090",
-      "summary": "arXiv:2608.00090v1 Announce Type: new Abstract: The extraction of $\\beta$-feeding distributions in Total Absorption $\\gamma$-ray Spectroscopy constitutes a challenging inverse problem, particularly in nuclei with complex…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Recovery of low-magnitude seismic events before the July 29, 2025, Kamchatka megathrust earthquake using waveform cross-correlation enhanced by the addition of stochastic noise",
-      "url": "https://arxiv.org/abs/2608.00091",
-      "summary": "arXiv:2608.00091v1 Announce Type: new Abstract: The July 29, 2025, Kamchatka megathrust earthquake is one of the largest events in the 21st century. It is likely the best-instrumented case, with numerous stations at regi…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Seismic Properties of Coastal and Inland Sabkhas: Implications for Static Corrections",
-      "url": "https://arxiv.org/abs/2608.00093",
-      "summary": "arXiv:2608.00093v1 Announce Type: new Abstract: Sabkha environments are a prevalent topographic feature in arid coastal areas. Along the Arabian Gulf, sabkhas overlie substantial hydrocarbon reservoirs and exhibit intric…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "All-Optical Single-Shot Temporal Characterization of SASE FEL Pulses Using Double-Blind Holography",
-      "url": "https://arxiv.org/abs/2608.00153",
-      "summary": "arXiv:2608.00153v1 Announce Type: new Abstract: X-ray Free-electron lasers (XFELs) deliver ultrashort and ultrabright radiation in a photon-energy range spanning from extreme ultraviolet to hard X-rays. Supporting pulse …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lossless Compression Performance for PETRA III Datasets",
-      "url": "https://arxiv.org/abs/2608.00168",
-      "summary": "arXiv:2608.00168v1 Announce Type: new Abstract: Large-scale research facilities increasingly face the challenge of managing rapidly growing data volumes while maintaining sustainable archival infrastructures. We present …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Discovery is not the opposite of application",
-      "url": "https://arxiv.org/abs/2608.00172",
-      "summary": "arXiv:2608.00172v1 Announce Type: new Abstract: Restructuring research funding as a choice between discovery and application gets the economics wrong, the evidence wrong and the people wrong.",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multiscale passive scalar turbulence in a compressed subspace via tensor trains",
-      "url": "https://arxiv.org/abs/2608.00194",
-      "summary": "arXiv:2608.00194v1 Announce Type: new Abstract: Capturing the multiscale statistics of turbulence in compressed form remains a central challenge for reduced-order modeling. We introduce a hybrid Tensor Train (TT) approac…",
       "ts": 1785816000000,
       "publishedAt": "2026-08-04T04:00:00.000Z"
     }

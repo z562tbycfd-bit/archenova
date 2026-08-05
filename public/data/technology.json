@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-04T22:14:55.218Z",
+  "updated": "2026-08-05T00:05:25.419Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX to begin Starship orbital flights",
+      "url": "https://spacenews.com/spacex-to-begin-starship-orbital-flights/",
+      "summary": "SpaceX plans to start deploying upgraded Starlink satellites into orbit on the next flight of its Starship vehicle, scheduled for as soon as the end of the month. The post SpaceX to begin Starship orbital flights appeare…",
+      "ts": 1785883873000,
+      "publishedAt": "2026-08-04T22:51:13.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Rocket Lab, STR win Space Force contracts for airborne-target tracking",
+      "url": "https://spacenews.com/rocket-lab-str-win-space-force-contracts-for-airborne-target-tracking-technologies/",
+      "summary": "The companies, along with a third unidentified vendor, won $615 million in contracts for the AMTI satellite program The post Rocket Lab, STR win Space Force contracts for airborne-target tracking appeared first on SpaceN…",
+      "ts": 1785883627000,
+      "publishedAt": "2026-08-04T22:47:07.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Telesat lands $1.63 billion Canadian defense contract",
@@ -18,6 +36,15 @@
       "summary": "SAN FRANCISCO – The National Oceanic and Atmospheric Administration will continue to evaluate data from Spire Global’s Hyperspectral Microwave Sounder (HyMS) under a $3 million contract extension announced Aug. 4. […] Th…",
       "ts": 1785873900000,
       "publishedAt": "2026-08-04T20:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Will Attempt to Observe Rocket Part’s Lunar Impact",
+      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact/",
+      "summary": "Using ground-based telescopes and space-based assets, NASA and SpaceX are tracking a used Falcon 9 upper stage from a commercial mission expected to impact the Moon on Wednesday, Aug. 5, near the Einstein and Bell crater…",
+      "ts": 1785873614000,
+      "publishedAt": "2026-08-04T20:00:14.000Z",
       "categoryId": "space"
     },
     {
@@ -48,6 +75,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
+      "summary": "Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept te…",
+      "ts": 1785866575000,
+      "publishedAt": "2026-08-04T18:02:55.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Beyond the Technology: AI Readiness in Regulated Laboratories",
       "url": "https://www.genengnews.com/topics/artificial-intelligence/beyond-the-technology-ai-readiness-in-regulated-laboratories/",
@@ -57,6 +93,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Ames Science Stars of the Month – August 2026",
+      "url": "https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/",
+      "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Danielle Lopez, Jennifer Claudio, and Duncan Mifsud. Their commitment to the NASA mission represents the entrepreneur…",
+      "ts": 1785863284000,
+      "publishedAt": "2026-08-04T17:08:04.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: Startup promising to scale custom CRISPR therapies abruptly scraps plans",
       "url": "https://www.statnews.com/2026/08/04/aurora-therapeutics-ends-program-baby-kj-treatments-beam-therapeutics-jennifer-doudna/?utm_campaign=rss",
@@ -64,6 +109,24 @@
       "ts": 1785863050000,
       "publishedAt": "2026-08-04T17:04:10.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "August 2026 Satellite Puzzler",
+      "url": "https://science.nasa.gov/earth/earth-observatory/august-2026-satellite-puzzler/",
+      "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
+      "ts": 1785861106000,
+      "publishedAt": "2026-08-04T16:31:46.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
+      "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+      "summary": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations. To advance lunar surface infrastructure developm…",
+      "ts": 1785860091000,
+      "publishedAt": "2026-08-04T16:14:51.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NVIDIA",
@@ -82,6 +145,15 @@
       "ts": 1785858893000,
       "publishedAt": "2026-08-04T15:54:53.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Roman Space Telescope Plaque Install",
+      "url": "https://www.nasa.gov/image-article/roman-space-telescope-plaque-install/",
+      "summary": "Technicians installed a commemorative plaque, seen in this July 28, 2026, photo, on NASA’s Nancy Grace Roman Space Telescope. The plaque honors the legacy of Dr. Nancy Grace Roman, NASA’s first chief astronomer and one o…",
+      "ts": 1785858644000,
+      "publishedAt": "2026-08-04T15:50:44.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -318,12 +390,30 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "APOD: 2026 August 4 – Curious Cometary Knots in the Helix Nebula",
+      "url": "https://science.nasa.gov/image-article/apod-august-4-2026-curious-cometary-knots-in-the-helix-nebula/",
+      "summary": "APOD Science APOD APOD: 2026 August 4 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
+      "ts": 1785816300000,
+      "publishedAt": "2026-08-04T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Kreios Space to fly VLEO demonstration in NanoAvionics bus",
       "url": "https://spacenews.com/kreios-space-to-fly-vleo-demonstration-in-nanoavionics-bus/",
       "summary": "SAN FRANCISCO – Spanish startup Kreios Space announced plans Aug. 4 to conduct the first very low Earth orbit (VLEO) demonstration of its air-breathing electric propulsion (ABEP) in a Kongsberg […] The post Kreios Space …",
       "ts": 1785816060000,
       "publishedAt": "2026-08-04T04:01:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Smoke Streams Across Eastern Washington",
+      "url": "https://science.nasa.gov/earth/earth-observatory/smoke-streams-across-eastern-washington/",
+      "summary": "Wildland fires in early August 2026 pushed air quality to unhealthy levels, destroyed hundreds of structures, and triggered mandatory evacuations in Spokane.",
+      "ts": 1785816000000,
+      "publishedAt": "2026-08-04T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -721,96 +811,6 @@
       "ts": 1785801600000,
       "publishedAt": "2026-08-04T00:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Apple is getting this wrong",
-      "url": "https://openai.com/index/apple-is-getting-this-wrong",
-      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
-      "ts": 1785794400000,
-      "publishedAt": "2026-08-03T22:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: California Supreme Court sides with Gilead in ‘duty’ to innovate case",
-      "url": "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/?utm_campaign=rss",
-      "summary": "The California Supreme Court sided with Gilead Sciences in a closely watched case over whether the company had a \"duty\" to innovate.",
-      "ts": 1785790585000,
-      "publishedAt": "2026-08-03T20:56:25.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Louisiana Students Loft Payloads from NASA Balloon Facility in Texas",
-      "url": "https://www.nasa.gov/missions/scientific-balloons/louisiana-students-loft-payloads-from-nasa-balloon-facility-in-texas/",
-      "summary": "Every spring in Palestine, Texas, the wide-open fields around NASA’s Columbia Scientific Balloon Facility fill with students and faculty from across Louisiana. They arrive carrying sensors, laptops, and carefully enginee…",
-      "ts": 1785784963000,
-      "publishedAt": "2026-08-03T19:22:43.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Trump’s AI protectionism has come for robotics",
-      "url": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, …",
-      "ts": 1785782610000,
-      "publishedAt": "2026-08-03T18:43:30.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Combined Phage Therapy and FMT Reduces Recurrent UTIs and Antibiotic Use in First Human Case Series",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/combined-phage-therapy-and-fmt-reduces-recurrent-utis-and-antibiotic-use-in-first-human-case-series/",
-      "summary": "The first use of combined phage therapy and fecal microbiota transplantation for recurrent urinary tract infections reduced antibiotic use and improved quality of life in three women, supporting future clinical trials. T…",
-      "ts": 1785781933000,
-      "publishedAt": "2026-08-03T18:32:13.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Eli Lilly to allow more patients to apply for special access to unapproved obesity drug",
-      "url": "https://www.statnews.com/2026/08/03/eli-lilly-retatrutide-mystery-patient-doctors-seek-same-access-their-patients/?utm_campaign=rss",
-      "summary": "Doctors are asking how to get retatrutide for their patients, after Eli Lilly gave one man early access.",
-      "ts": 1785778058000,
-      "publishedAt": "2026-08-03T17:27:38.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Guinea-Bissau Tidal Waters",
-      "url": "https://www.nasa.gov/image-article/guinea-bissau-tidal-waters/",
-      "summary": "Twice each day, tides ebb and flow through a maze of sandy channels, mudflats, and mangrove forests that flank the 88 islands and islets of Guinea-Bissau’s Bijagós Archipelago (Arquipélago dos Bijagós in Portuguese). See…",
-      "ts": 1785777339000,
-      "publishedAt": "2026-08-03T17:15:39.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Michigan reports the first 2 U.S. deaths related to a diarrhea-causing parasite",
-      "url": "https://www.statnews.com/2026/08/03/cyclospora-outbreak-two-fatalities-reported-michigan/?utm_campaign=rss",
-      "summary": "Two people have died in the cyclospora outbreak in Michigan in the first confirmed deaths in the U.S. related to the microscopic parasite, state health officials announced.",
-      "ts": 1785776351000,
-      "publishedAt": "2026-08-03T16:59:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Hughes files for bankruptcy after GEO business loses ground to Starlink",
-      "url": "https://spacenews.com/hughes-files-for-bankruptcy-after-geo-business-loses-ground-to-starlink/",
-      "summary": "EchoStar’s Hughes geostationary satellite broadband business has filed for bankruptcy in the United States after years of mounting competition from SpaceX’s Starlink constellation. The post Hughes files for bankruptcy af…",
-      "ts": 1785773207000,
-      "publishedAt": "2026-08-03T16:06:47.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare eliminates key pathways used by ‘breakthrough’ devices for extra payments",
-      "url": "https://www.statnews.com/2026/08/03/cms-fda-breakthrough-devices-payment-pathways-eliminated/?utm_campaign=rss",
-      "summary": "Medicare is removing flexibilities that have allowed \"breakthrough\" medical devices to leapfrog qualifications for extra payments.",
-      "ts": 1785771703000,
-      "publishedAt": "2026-08-03T15:41:43.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
