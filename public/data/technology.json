@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-05T10:38:07.886Z",
+  "updated": "2026-08-05T12:55:04.882Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: NASA’s new telescope and Chinese tech import curbs",
+      "url": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. NASA’s new dark energy space telescope can also detect killer asteroids At the end…",
+      "ts": 1785931800000,
+      "publishedAt": "2026-08-05T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Enzene Targets Local Biomanufacturing with New Solutions",
+      "url": "https://www.genengnews.com/topics/bioprocessing/enzene-targets-local-biomanufacturing-with-new-solutions/",
+      "summary": "NeX, which is built on the EnzeneX continuous manufacturing (FCCM) platform, is designed to deliver a turnkey and scalable way to make biologics manufacturing transportable, close to patients and supply chains. The post …",
+      "ts": 1785931211000,
+      "publishedAt": "2026-08-05T12:00:11.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Satellite manufacturing thrives in California despite cost and regulatory pressures",
+      "url": "https://spacenews.com/satellite-manufacturing-thrives-in-california-despite-cost-and-regulatory-pressures/",
+      "summary": "The mood was celebratory at the ribbon-cutting for Muon Space’s San Jose, California, manufacturing facility in June. State, local, United States Space Force and Pentagon representatives lauded the startup and, […] The p…",
+      "ts": 1785931200000,
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Strengthening El Niño to push 49 million more people into acute hunger",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168079",
+      "summary": "Nearly 50 million more people in highly vulnerable communities globally are set to be pushed into acute hunger because of the strengthening El Niño weather phenomenon, the UN World Food Programme (WFP) said on Wednesday.",
+      "ts": 1785931200000,
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "The main therapy used for children with autism faces changes under Medicaid",
+      "url": "https://www.statnews.com/2026/08/05/health-news-aba-therapy-for-children-with-autism-faces-changes-under-medicaid/?utm_campaign=rss",
+      "summary": "Quid-pro-quo vaping policies, ebola vaccine efforts, and more health news from Morning Rounds",
+      "ts": 1785930927000,
+      "publishedAt": "2026-08-05T11:55:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Fur Real: Biotech Startup Eliminates Major Dog Allergen in Beagle Pups Using CRISPR",
+      "url": "https://www.genengnews.com/topics/genome-editing/fur-real-biotech-startup-eliminates-major-dog-allergen-in-beagle-pups-using-crispr/",
+      "summary": "The puppies represent a key first step towards addressing canine allergenicity and mark potentially a significant advance in veterinary biotechnology. The post Fur Real: Biotech Startup Eliminates Major Dog Allergen in B…",
+      "ts": 1785927639000,
+      "publishedAt": "2026-08-05T11:00:39.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Recursion Partners with Genentech to Advance First Validated Neuro Target Discovered Through AI Map",
@@ -10,6 +64,15 @@
       "ts": 1785925848000,
       "publishedAt": "2026-08-05T10:30:48.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Europe’s forests losing more biomass since 2018",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Europe_s_forests_losing_more_biomass_since_2018",
+      "summary": "Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from some of the oldest forests in Europe. This situation has deteriorated m…",
+      "ts": 1785922200000,
+      "publishedAt": "2026-08-05T09:30:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "STAT",
@@ -58,9 +121,9 @@
     },
     {
       "source": "MIT Technology Review",
-      "title": "NASA’s new dark energy space telescope can also detect killer asteroids",
+      "title": "NASA’s new dark-energy space telescope can also detect killer asteroids",
       "url": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
-      "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its quest is to help us better understand how the universe works, from the glue-like dark matter tha…",
+      "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its goal is to help us better understand how the universe works, from the glue-like dark matter that…",
       "ts": 1785917200000,
       "publishedAt": "2026-08-05T08:06:40.000Z",
       "categoryId": "ai-compute"
@@ -399,6 +462,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "Nature Energy",
+      "title": "Improving interface-mediated carrier transport for efficient perovskite/Cu(In,Ga)Se<sub>2</sub> tandem solar cells",
+      "url": "https://www.nature.com/articles/s41560-026-02125-3",
+      "summary": "",
+      "ts": 1785888000000,
+      "publishedAt": "2026-08-05T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "SpaceNews",
       "title": "SpaceX to begin Starship orbital flights",
       "url": "https://spacenews.com/spacex-to-begin-starship-orbital-flights/",
@@ -634,7 +706,7 @@
     },
     {
       "source": "MIT Technology Review",
-      "title": "The Download: US robot restrictions, and ICE’s DNA grab",
+      "title": "The Download: US robot restrictions and ICE’s DNA grab",
       "url": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
       "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Trump’s AI protectionism has come for robotics —James O’Donnell Humanoid robots us…",
       "ts": 1785845640000,
@@ -739,78 +811,6 @@
       "ts": 1785834057000,
       "publishedAt": "2026-08-04T09:00:57.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Kennedy and Oz call Medicaid cuts ‘myths.’ It’s more complicated than that",
-      "url": "https://www.statnews.com/2026/08/04/rfk-medicaid-cuts-myth-analysis/?utm_campaign=rss",
-      "summary": "Kennedy and Oz say Medicaid isn't being cut. But state Medicaid directors say new policies are likely to cause many people to lose coverage.",
-      "ts": 1785832200000,
-      "publishedAt": "2026-08-04T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: As Trump administration pushes court-ordered mental health care, a new report raises questions",
-      "url": "https://www.statnews.com/2026/08/04/new-report-questions-new-york-program-court-ordered-mental-healthcare/?utm_campaign=rss",
-      "summary": "A study of New York’s court-ordered care for people with serious mental health conditions adds to the research on this type of involuntary care.",
-      "ts": 1785832200000,
-      "publishedAt": "2026-08-04T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: How Josée became one of the 7.9% of Québécois who die by assisted suicide",
-      "url": "https://www.statnews.com/2026/08/04/assisted-suicide-medical-aid-in-dying-quebec-mental-illness-suffering/?utm_campaign=rss",
-      "summary": "“In focusing on medical aid in dying solely as an end, we’ve missed out on the life that was lived,” writes physician Sai Rajagopal.",
-      "ts": 1785832200000,
-      "publishedAt": "2026-08-04T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: I’m using not-FDA-approved software to manage my diabetes. I’ve never felt better",
-      "url": "https://www.statnews.com/2026/08/04/diabetes-open-source-software-fda-approval/?utm_campaign=rss",
-      "summary": "“It is no longer possible to ask the FDA to keep pace with software development by doing the same reviews faster,” writes Dana Goldman.",
-      "ts": 1785832200000,
-      "publishedAt": "2026-08-04T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "ESA and Pokémon team up to celebrate World Space Week",
-      "url": "https://www.esa.int/About_Us/Branding_and_Partnerships/ESA_and_Pokemon_team_up_to_celebrate_World_Space_Week",
-      "summary": "The European Space Agency (ESA) and The Pokémon Company International (TPCi) are teaming up to celebrate World Space Week from 4–10 October 2026. This unique, limited-time collaboration brings together two worlds united …",
-      "ts": 1785830400000,
-      "publishedAt": "2026-08-04T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 4 – Curious Cometary Knots in the Helix Nebula",
-      "url": "https://science.nasa.gov/image-article/apod-august-4-2026-curious-cometary-knots-in-the-helix-nebula/",
-      "summary": "APOD Science APOD APOD: 2026 August 4 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
-      "ts": 1785816300000,
-      "publishedAt": "2026-08-04T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Kreios Space to fly VLEO demonstration in NanoAvionics bus",
-      "url": "https://spacenews.com/kreios-space-to-fly-vleo-demonstration-in-nanoavionics-bus/",
-      "summary": "SAN FRANCISCO – Spanish startup Kreios Space announced plans Aug. 4 to conduct the first very low Earth orbit (VLEO) demonstration of its air-breathing electric propulsion (ABEP) in a Kongsberg […] The post Kreios Space …",
-      "ts": 1785816060000,
-      "publishedAt": "2026-08-04T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Smoke Streams Across Eastern Washington",
-      "url": "https://science.nasa.gov/earth/earth-observatory/smoke-streams-across-eastern-washington/",
-      "summary": "Wildland fires in early August 2026 pushed air quality to unhealthy levels, destroyed hundreds of structures, and triggered mandatory evacuations in Spokane.",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

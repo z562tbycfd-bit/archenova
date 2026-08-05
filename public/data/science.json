@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-05T10:38:04.020Z",
+  "updated": "2026-08-05T12:55:02.942Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ways to help protect Australia's birds and mammals from bird flu",
+      "url": "https://phys.org/news/2026-08-ways-australia-birds-mammals-bird.html",
+      "summary": "The deadly H5N1 strain of bird flu has now spread from migratory birds to infect resident Australian birds. Clusters of dead birds have been found in several locations. The virus will inevitably infect other wildlife, mo…",
+      "ts": 1785933602000,
+      "publishedAt": "2026-08-05T12:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bird flu decimated South America's marine mammals. What can Australia do differently?",
+      "url": "https://phys.org/news/2026-08-bird-flu-decimated-south-america.html",
+      "summary": "Australia is now confronting an outbreak of a deadly bird flu strain. As of Monday, the highly pathogenic H5N1 virus had been detected in 78 wild birds across mainland Australia. Until now, there had been no evidence of …",
+      "ts": 1785932402000,
+      "publishedAt": "2026-08-05T12:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Venus's polygonal plains could point to a watery past",
+      "url": "https://phys.org/news/2026-08-venus-polygonal-plains-watery.html",
+      "summary": "Venus may be overwhelmingly inhospitable today, but many planetary scientists believe that it wasn't always this way. Billions of years ago, some observational evidence suggested that our planetary neighbor may have look…",
+      "ts": 1785931209000,
+      "publishedAt": "2026-08-05T12:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Butterflies are on the move as the planet warms: New research",
+      "url": "https://phys.org/news/2026-08-butterflies-planet.html",
+      "summary": "Imagine spotting a butterfly species in your garden that you have never seen before. You might take a photo and upload it to a citizen science app or tell a local nature group about your new encounter. It feels like a sm…",
+      "ts": 1785931205000,
+      "publishedAt": "2026-08-05T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drought-hardy ryegrass raises new weed management challenge",
+      "url": "https://phys.org/news/2026-08-drought-hardy-ryegrass-weed.html",
+      "summary": "A study by La Trobe University researchers has found annual ryegrass, the most damaging weed in Australian grain systems, can adjust its growth and reproduction to survive under drought stress, making it potentially hard…",
+      "ts": 1785928804000,
+      "publishedAt": "2026-08-05T11:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study probes Malaysia's corporate bond strategy: Offering Islamic bonds expanded corporate financing access",
+      "url": "https://phys.org/news/2026-08-probes-malaysia-corporate-bond-strategy.html",
+      "summary": "In the late 1990s, Malaysia created a new way for corporations to raise money by issuing bonds that comply with Islamic law, which prohibits the payment or collection of interest.",
+      "ts": 1785927604000,
+      "publishedAt": "2026-08-05T11:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Total eclipse gives scientists chance to probe sun's mysteries",
+      "url": "https://phys.org/news/2026-08-total-eclipse-scientists-chance-probe.html",
+      "summary": "Scientists plan to use a total solar eclipse that will be visible in Spain next week as a rare chance to learn more about the stormy, unpredictable nature of our star.",
+      "ts": 1785927602000,
+      "publishedAt": "2026-08-05T11:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Melting sea ice combines with Arctic sea to make clouds",
@@ -743,62 +799,6 @@
       "title": "On-chip Quantum Measurement of Squeezing Generated from a Silicon Nitride Micro-ring Resonator",
       "url": "https://arxiv.org/abs/2608.03402",
       "summary": "arXiv:2608.03402v1 Announce Type: cross Abstract: Integration of quantum optical technique on-chip is crucial for large scale applications of quantum technology, which were proven in a free space environment to be superi…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mesoscopic Quantum Communication via Photon-Number Moments",
-      "url": "https://arxiv.org/abs/2608.03418",
-      "summary": "arXiv:2608.03418v1 Announce Type: cross Abstract: Mesoscopic optical states are a promising resource for quantum communication, combining robustness against losses with the preservation of genuine quantum features. Here,…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A study on the contribution of the interplanetary medium in radio occultation experiments",
-      "url": "https://arxiv.org/abs/2608.03435",
-      "summary": "arXiv:2608.03435v1 Announce Type: cross Abstract: Irregularities in electron density within the interplanetary medium (IPM) can cause fluctuations in the Doppler frequency of spacecraft radio signals. The amplitude of th…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generation and Enhancement of Bipartite and Tripartite Entanglement in an Electro-Optomechanical Ring Cavity",
-      "url": "https://arxiv.org/abs/2608.03578",
-      "summary": "arXiv:2608.03578v1 Announce Type: cross Abstract: This study investigates the generation and enhancement of quantum entanglement in an electro-optomechanical ring cavity system. The setup integrates two Coulomb-coupled m…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Epitaxial SiGeSn alloys for CMOS-compatible thermoelectric devices",
-      "url": "https://arxiv.org/abs/2608.03638",
-      "summary": "arXiv:2608.03638v1 Announce Type: cross Abstract: The integration of thermoelectric devices into mainstream microelectronic technological platform could be a major breakthrough in various fields within the \\emph{so-calle…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analysis of Moment Closures Using $\\varphi$-Divergences for Rarefied Dynamics with Binary Collisions and Their Galerkin Discretizations",
-      "url": "https://arxiv.org/abs/2608.03640",
-      "summary": "arXiv:2608.03640v1 Announce Type: cross Abstract: This work introduces a robust deterministic framework for approximating solutions of the Boltzmann equation with binary collisions by discretizing their dependence on tim…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reaction Delays Boost, Rectify, and Reverse Motility in Activity Landscapes",
-      "url": "https://arxiv.org/abs/2608.03906",
-      "summary": "arXiv:2608.03906v1 Announce Type: cross Abstract: Local detailed balance restricts transport by self-propulsion in static activity landscapes. We show that a delayed speed adaptation (``delayed motility/kinesis'') generi…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Refraction laws in spatio-temporal media",
-      "url": "https://arxiv.org/abs/2608.03995",
-      "summary": "arXiv:2608.03995v1 Announce Type: cross Abstract: We study the time-dependent Maxwell system, formulated in the sense of distributions, for electromagnetic waves propagating through media with temporal and spatial materi…",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z"
     }
