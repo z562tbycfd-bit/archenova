@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-05T07:41:19.861Z",
+  "updated": "2026-08-05T10:38:04.020Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Melting sea ice combines with Arctic sea to make clouds",
+      "url": "https://phys.org/news/2026-08-sea-ice-combines-arctic-clouds.html",
+      "summary": "Scientists have uncovered a previously unknown natural process that dramatically increases the number of cloud-forming particles in the Arctic atmosphere—potentially altering cloud cover, sunlight reflection and future c…",
+      "ts": 1785920403000,
+      "publishedAt": "2026-08-05T09:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "'Like the end of the world': The eclipse chasers flocking to Spain",
@@ -791,14 +799,6 @@
       "title": "Refraction laws in spatio-temporal media",
       "url": "https://arxiv.org/abs/2608.03995",
       "summary": "arXiv:2608.03995v1 Announce Type: cross Abstract: We study the time-dependent Maxwell system, formulated in the sense of distributions, for electromagnetic waves propagating through media with temporal and spatial materi…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reduced-order modeling for electromagnetic inverse problems: a layered medium benchmark",
-      "url": "https://arxiv.org/abs/2608.03996",
-      "summary": "arXiv:2608.03996v1 Announce Type: cross Abstract: We study reduced-order modeling for inverse problems in layered media, focusing on the recovery of impedance profiles from time-domain measurements. Using the Goupillaud …",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z"
     }

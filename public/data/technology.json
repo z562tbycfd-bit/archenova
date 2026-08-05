@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-08-05T07:41:26.761Z",
+  "updated": "2026-08-05T10:38:07.886Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Recursion Partners with Genentech to Advance First Validated Neuro Target Discovered Through AI Map",
+      "url": "https://www.genengnews.com/topics/artificial-intelligence/recursion-partners-with-genentech-to-advance-first-validated-neuro-target-discovered-through-ai-map/",
+      "summary": "The target’s significance, according to Recursion and its partners, rests in its potential to expand the universe of neuroscience treatments beyond the handful of familiar targets in the space. While more than three bill…",
+      "ts": 1785925848000,
+      "publishedAt": "2026-08-05T10:30:48.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Exemption of rare disease therapies in drug-pricing pilots would wipe out huge savings, analysis finds",
+      "url": "https://www.statnews.com/2026/08/05/cms-drug-pricing-pilot-programs-rare-disease-drugs/?utm_campaign=rss",
+      "summary": "Excluding rare disease therapies from a Medicare pilot program to lower drug prices would wipe out much of the savings from retail drugs, according to new research.",
+      "ts": 1785918600000,
+      "publishedAt": "2026-08-05T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Senate inquiry suggests Trump administration softened kratom and tobacco policies in quid pro quo",
+      "url": "https://www.statnews.com/2026/08/05/senator-ron-wyden-investigation-kennedy-flavored-vapes-kratom/?utm_campaign=rss",
+      "summary": "The Senate investigation includes RFK Jr. as well as the heads of Reynolds American and kratom company Botanic Tonics, asking for written responses and documentation by Aug. 31.",
+      "ts": 1785918600000,
+      "publishedAt": "2026-08-05T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "MRI is standard for diagnosing prostate cancer in most western countries. But most U.S. men don’t get them",
+      "url": "https://www.statnews.com/2026/08/05/prostate-cancer-screening-biopsy-vs-mri-debate/?utm_campaign=rss",
+      "summary": "Pre-biopsy MRI is standard outside the U.S., but the latest data show such scans were done in only about a third of U.S. prostate cancer cases in 2022.",
+      "ts": 1785918600000,
+      "publishedAt": "2026-08-05T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Tear down the wall between M.D. and D.O. education",
+      "url": "https://www.statnews.com/2026/08/05/md-vs-do-medical-education-merge/?utm_campaign=rss",
+      "summary": "Having separate systems for M.D.s and D.O.s “is historical inertia dressed as educational diversity,” write physicians Abigail MacKenzie and Vijay Rajput.",
+      "ts": 1785918600000,
+      "publishedAt": "2026-08-05T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Something is missing from movies about medical aid in dying",
+      "url": "https://www.statnews.com/2026/08/05/new-york-medical-aid-dying-assisted-suicide-room-next-door-movies/?utm_campaign=rss",
+      "summary": "Films and documentaries about assisted dying can narrow the frame of debate, write Anna Magdalena Elsner and Vanessa Rampton.",
+      "ts": 1785918600000,
+      "publishedAt": "2026-08-05T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "NASA’s new dark energy space telescope can also detect killer asteroids",
+      "url": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
+      "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its quest is to help us better understand how the universe works, from the glue-like dark matter tha…",
+      "ts": 1785917200000,
+      "publishedAt": "2026-08-05T08:06:40.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Total solar eclipse: how to watch live from home",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
+      "summary": "A total solar eclipse is coming to Europe. The European Space Agency (ESA) will broadcast live from 19:30 CEST on 12 August, allowing you to experience this rare event from anywhere in the world. Quick links: Live broadc…",
+      "ts": 1785916800000,
+      "publishedAt": "2026-08-05T08:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Think tank warns Europe’s orbital compute gap is widening",
+      "url": "https://spacenews.com/think-tank-warns-europes-orbital-compute-gap-is-widening/",
+      "summary": "Europe risks becoming dependent on foreign orbital computing infrastructure as U.S. companies and China’s government-led push accelerate the development of space-based data centers, according to the European Space Policy…",
+      "ts": 1785916800000,
+      "publishedAt": "2026-08-05T08:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Neuraspace raises $18 million to expand sovereign space awareness",
@@ -730,87 +811,6 @@
       "ts": 1785816000000,
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "GRAIN: Molecules Are Not the Right Granularity -- Active-Ingredient Modeling for Safe Medication Recommendation",
-      "url": "https://arxiv.org/abs/2608.00098",
-      "summary": "arXiv:2608.00098v1 Announce Type: new Abstract: Medication recommendation from electronic health records must balance predictive accuracy against the risk of adverse drug-drug interactions (DDIs) under polypharmacy. Exis…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "LLMBDC: Language Model for Biological Domains Oriented Clustering of Gene Ontology",
-      "url": "https://arxiv.org/abs/2608.00099",
-      "summary": "arXiv:2608.00099v1 Announce Type: new Abstract: Gene Ontology (GO) enrichment analysis is a foundational tool for translating large-scale genomic data into biological insights, but typically yields hundreds of redundant …",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Timescale disparity and the reduction of the chemical master equation: A geometric approach via the linear noise approximation",
-      "url": "https://arxiv.org/abs/2608.00154",
-      "summary": "arXiv:2608.00154v1 Announce Type: new Abstract: The chemical master equation dictates the stochastic behavior of chemical reaction networks in small volumes that are well-mixed and homogeneous. Although the Gillespie alg…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Why males compete rather than care, with an application to supplying collective goods",
-      "url": "https://arxiv.org/abs/2608.00292",
-      "summary": "arXiv:2608.00292v1 Announce Type: new Abstract: The question of why males invest more into competition than offspring care is an age-old problem in evolutionary biology. On one hand, paternal care could increase the frac…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Mechanistic bridges from receptors to whole-brain dynamics: mean-field reductions, validity domains, and computational trade-offs",
-      "url": "https://arxiv.org/abs/2608.00306",
-      "summary": "arXiv:2608.00306v1 Announce Type: new Abstract: Many pharmacological and pathological mechanisms act at molecular, synaptic, or cellular scales, whereas the resulting phenomena of interest are often measured at the level…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Recursive Gaussian Processes and the Bayesian Brain",
-      "url": "https://arxiv.org/abs/2608.00503",
-      "summary": "arXiv:2608.00503v1 Announce Type: new Abstract: Predictive coding offers a powerful framework for cortical computation, yet scalable implementations that respect both Bayesian exactness and neurobiological constraints re…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Bayesian comparison of Langevin dynamics for cell motility from positional observation",
-      "url": "https://arxiv.org/abs/2608.00846",
-      "summary": "arXiv:2608.00846v1 Announce Type: new Abstract: We develop a Bayesian framework for model comparison of second-order Langevin dynamics from position-only trajectories. While approximate increment likelihoods for nonlinea…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A persistent random-walk model of molecular transport in neuronal dendritic trees",
-      "url": "https://arxiv.org/abs/2608.00995",
-      "summary": "arXiv:2608.00995v1 Announce Type: new Abstract: A two-level analytical framework is presented for modeling random walk transport of messenger ribonucleic acid (mRNA) molecules along neuronal microtubules from soma to syn…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Data augmentation as a framework for modeling hippocampal contributions to generalization",
-      "url": "https://arxiv.org/abs/2608.01297",
-      "summary": "arXiv:2608.01297v1 Announce Type: new Abstract: The hippocampus plays a critical role in generalization, enabling us to flexibly repurpose prior experiences to perform novel tasks. Here we suggest that data augmentation-…",
-      "ts": 1785816000000,
-      "publishedAt": "2026-08-04T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
