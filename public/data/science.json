@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-08-05T12:55:02.942Z",
+  "updated": "2026-08-05T15:15:52.074Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Avalanche cracks may appear globally supersonic while remaining locally subsonic",
+      "url": "https://phys.org/news/2026-08-avalanche-globally-supersonic-locally-subsonic.html",
+      "summary": "Can a crack be supersonic? Can the fracture that triggers an avalanche propagate faster than the limiting velocity predicted by classical fracture mechanics? The question remains the subject of debate within the scientif…",
+      "ts": 1785942013000,
+      "publishedAt": "2026-08-05T15:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pumas make roads safer for drivers by changing prey behavior patterns",
+      "url": "https://phys.org/news/2026-08-pumas-roads-safer-drivers-prey.html",
+      "summary": "Living among large predatory carnivores could actually make you safer. A study published in the journal Current Biology found that pumas—wild cats also known as mountain lions, cougars or panthers—change deer behavior, l…",
+      "ts": 1785942011000,
+      "publishedAt": "2026-08-05T15:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Turning one of the world's most difficult plastics into premium lubricant",
+      "url": "https://phys.org/news/2026-08-world-difficult-plastics-premium-lubricant.html",
+      "summary": "Virginia Tech chemist and chemical engineer Guoliang \"Greg\" Liu and his lab have developed a process that converts the plastic polyvinyl chloride (PVC) into polyalphaolefin, a key component in lubricants such as engine o…",
+      "ts": 1785942007000,
+      "publishedAt": "2026-08-05T15:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny vortices discovered on the sun's surface",
+      "url": "https://phys.org/news/2026-08-tiny-vortices-sun-surface.html",
+      "summary": "Researchers from the U.S. National Science Foundation National Solar Observatory (NSF NSO), the Max Planck Institute for Solar System Research (MPS) in Germany, and the High Altitude Observatory (HAO) in the U.S. have ma…",
+      "ts": 1785942001000,
+      "publishedAt": "2026-08-05T15:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "These tiny swirls on the sun could trigger solar flares ",
+      "url": "https://www.sciencenews.org/article/tiny-swirls-sun-trigger-solar-flares",
+      "summary": "Scientists have finally seen a long-predicted motion on the sun, and it may help explain explosive solar activity.",
+      "ts": 1785942000000,
+      "publishedAt": "2026-08-05T15:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Act now on microplastic risks, businesses urged",
+      "url": "https://phys.org/news/2026-08-microplastic-businesses-urged.html",
+      "summary": "A new white paper released by experts at the UTS Business School highlights the risks businesses face if they ignore growing scientific evidence and consumer awareness of the dangers posed by microplastics.",
+      "ts": 1785940805000,
+      "publishedAt": "2026-08-05T14:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Backpack lab finds wastewater contamination and drug-resistant bacteria in Galápagos waters",
+      "url": "https://phys.org/news/2026-08-backpack-lab-wastewater-contamination-drug.html",
+      "summary": "From routine surgeries to cancer treatment, modern medicine depends on drugs that can fight infections caused by microbes such as bacteria, viruses, fungi and parasites. But some microbes are becoming resistant to the dr…",
+      "ts": 1785940801000,
+      "publishedAt": "2026-08-05T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient armored fish that narrowly avoided meteorite strike reveals life before Earth's largest mass extinction",
+      "url": "https://phys.org/news/2026-08-ancient-armored-fish-narrowly-meteorite.html",
+      "summary": "A rare fossil discovered near South America's largest known meteorite crater has been named a new species. Initially mistaken for a frog by locals, Leolepis matogrossensis is actually a species of ancient ray-finned fish…",
+      "ts": 1785939605000,
+      "publishedAt": "2026-08-05T14:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Noisy bubbles hinder ultrasound-boosted chemical reactions, sonochemistry model shows",
+      "url": "https://phys.org/news/2026-08-noisy-hinder-ultrasound-boosted-chemical.html",
+      "summary": "Ultrasound is a powerful way to drive chemical reactions. When high-frequency sound waves pass through a liquid, tiny bubbles form and then violently collapse in a process called acoustic cavitation. During this collapse…",
+      "ts": 1785939604000,
+      "publishedAt": "2026-08-05T14:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Soilless farming system design can determine microbial growth, impact on crops",
+      "url": "https://phys.org/news/2026-08-soilless-farming-microbial-growth-impact.html",
+      "summary": "Soilless farming—a method of growing plants in a nutrient-rich solution rather than traditional soil—accounts for a significant share of vegetable production, according to the U.S. Department of Agriculture (USDA), with …",
+      "ts": 1785938409000,
+      "publishedAt": "2026-08-05T14:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Were there tiny dinosaurs? New study explores one of evolution's biggest mysteries",
+      "url": "https://phys.org/news/2026-08-tiny-dinosaurs-explores-evolution-biggest.html",
+      "summary": "Dinosaurs are famous for being big, from the towering Tyrannosaurus rex to the colossal Apatosaurus. But a new study published today in the journal Evolution by scientists at the American Museum of Natural History and Pr…",
+      "ts": 1785938405000,
+      "publishedAt": "2026-08-05T14:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A new take on interpreting chemical bond analysis in solids",
+      "url": "https://phys.org/news/2026-08-chemical-bond-analysis-solids.html",
+      "summary": "Researchers from Skoltech, SberUniversity, the M.N. Mikheev Institute of Metal Physics of UB RAS and Ural Federal University have published a review of a novel approach to interpreting chemical bonding in solids. The met…",
+      "ts": 1785937206000,
+      "publishedAt": "2026-08-05T13:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study finds climate-driven greening is reshaping East Asia's air pollution",
+      "url": "https://phys.org/news/2026-08-climate-driven-greening-reshaping-east.html",
+      "summary": "The effects of climate change extend far beyond rising temperatures. As forests and other vegetation respond to a warming world, they also change the amount of biogenic emissions released into the atmosphere, influencing…",
+      "ts": 1785935401000,
+      "publishedAt": "2026-08-05T13:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study suggests natural sounds help us feel more attached to specific places",
+      "url": "https://phys.org/news/2026-08-natural-specific.html",
+      "summary": "A new study suggests the sounds around us have a significant impact on how we feel about physical spaces, with natural sounds—such as birdsong—associated with a greater sense of attachment to a given place. The study dra…",
+      "ts": 1785934805000,
+      "publishedAt": "2026-08-05T13:00:05.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Bullfrogs may have an antidote to deadly shellfish poisoning",
+      "url": "https://www.sciencenews.org/article/bullfrog-antidote-shellfish-poisoning",
+      "summary": "Researchers injected mice with a protein derived from frogs to save them from the same kind of shellfish poisoning that affects people.",
+      "ts": 1785934800000,
+      "publishedAt": "2026-08-05T13:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Ways to help protect Australia's birds and mammals from bird flu",
@@ -679,126 +799,6 @@
       "title": "Surface Variables Description of Axion Topological Materials",
       "url": "https://arxiv.org/abs/2607.10509",
       "summary": "arXiv:2607.10509v1 Announce Type: cross Abstract: We study the response of axion topological materials under the presence of external static electric and magnetic fields. We focus on the macroscopic quasi-static magnetoe…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Solar Orbiter SEP Dropout during a Magnetic Cloud with Evidence for Strong Connectivity Gradients",
-      "url": "https://arxiv.org/abs/2608.00427",
-      "summary": "arXiv:2608.00427v1 Announce Type: cross Abstract: We analyze an impulsive solar energetic particle (SEP) event observed by Solar Orbiter at 0.93 au on 2022 December 24 that exhibits a pronounced intensity dropout between…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SU3HOB-cgvcs: harmonic-oscillator brackets in the SU(3) basis with isofactors from an external SU(3)$\\,\\supset\\,$SO(3) Clebsch--Gordan library",
-      "url": "https://arxiv.org/abs/2608.02640",
-      "summary": "arXiv:2608.02640v1 Announce Type: cross Abstract: \\DeclareRobustCommand{\\Su}{\\code{Su3cgvcs}} We present SU3HOB-cgvcs, a Fortran~2008 package that computes the general Talmi--Moshinsky harmonic-oscillator transformation …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Investigation of GeSn aspect ratio trapping growth up to 8% Sn",
-      "url": "https://arxiv.org/abs/2608.02710",
-      "summary": "arXiv:2608.02710v1 Announce Type: cross Abstract: Aspect ratio trapping (ART) growth of germanium-tin (GeSn) is a promising approach to target important objectives on the quest towards commercialization of complementary …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Integral Hilbert spaces and the dynamics of loop quantum cosmos",
-      "url": "https://arxiv.org/abs/2608.02798",
-      "summary": "arXiv:2608.02798v1 Announce Type: cross Abstract: Polymer quantization program applied in Loop Quantum Gravity/Cosmology leads to nonseparable Hilbert spaces. Commonly, one sidesteps this problem by singling out and work…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Bimodal Mass Ratio Distribution of the Hyades",
-      "url": "https://arxiv.org/abs/2608.02814",
-      "summary": "arXiv:2608.02814v1 Announce Type: cross Abstract: The distribution of stellar mass ratios, q, in binary systems provides critical insights into the dynamical history and star-formation processes of open clusters. Here, I…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ScoreField: Neural Inverse Scattering with Score-Based Generative Priors",
-      "url": "https://arxiv.org/abs/2608.02937",
-      "summary": "arXiv:2608.02937v1 Announce Type: cross Abstract: Designing an effective electromagnetic inverse-scattering solver requires faithful enforcement of nonlinear full-wave physics together with an expressive prior on the unk…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rydberg-Mediated Nonlinear Quantum Optics",
-      "url": "https://arxiv.org/abs/2608.02992",
-      "summary": "arXiv:2608.02992v1 Announce Type: cross Abstract: Rydberg atoms have emerged as a versatile platform for quantum optics due to their exaggerated properties, particularly their strong long-range interactions, which enable…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Heralded Free-Electron Writing of the Most Subradiant State in an Atomic Array",
-      "url": "https://arxiv.org/abs/2608.03056",
-      "summary": "arXiv:2608.03056v1 Announce Type: cross Abstract: The most subradiant eigenstate of a finite subwavelength atomic chain in free space, protected by strongly suppressed radiative decay, offers a powerful resource for phot…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact Resonances Are Not Sufficient for Phonon Energy Diffusion",
-      "url": "https://arxiv.org/abs/2608.03180",
-      "summary": "arXiv:2608.03180v1 Announce Type: cross Abstract: Multi-phonon resonance conditions underpin kinetic theories of phonon transport and lattice thermalization. We show that exact resonance matching, nonzero interaction coe…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An asymptotic-preserving adjoint unified gas kinetic scheme for sensitivity analysis",
-      "url": "https://arxiv.org/abs/2608.03236",
-      "summary": "arXiv:2608.03236v1 Announce Type: cross Abstract: High-dimensional sensitivity analysis and uncertainty quantification for multiscale gas dynamics, spanning the continuum to rarefied regimes, require computationally effi…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AccelNet: Exact backward-compatible acceleration of polynomial angular descriptors through Cartesian moment factorization",
-      "url": "https://arxiv.org/abs/2608.03280",
-      "summary": "arXiv:2608.03280v1 Announce Type: cross Abstract: We present AccelNet, an exact, backward-compatible method for accelerating existing trained aenet and n2p2 neural-network potentials without retraining. For angular terms…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-molecule strong optomechanical regimes in SERS via hybrid plasmonic cavities",
-      "url": "https://arxiv.org/abs/2608.03307",
-      "summary": "arXiv:2608.03307v1 Announce Type: cross Abstract: We identify enhanced strong coherent Surface-Enhanced Raman Scattering (SERS) interactions facilitated by hybridized metallo-dielectric cavities with a resonant fluoresce…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Picometre-scale real-time drift correction in TEM and STEM by dynamic control of the specimen stage for atomic-resolution imaging",
-      "url": "https://arxiv.org/abs/2608.03344",
-      "summary": "arXiv:2608.03344v1 Announce Type: cross Abstract: In this work, we show how the specimen drift can be actively compensated by controlling the stage with precision down to the picometre scale. We do this by dynamic contro…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Discrepancy between the H-Function and Entropy: Insights into the rigorously established Boltzmann equation for hard-sphere gases",
-      "url": "https://arxiv.org/abs/2608.03355",
-      "summary": "arXiv:2608.03355v1 Announce Type: cross Abstract: By investigating the origin of the evolutionary discrepancy between the H-function and entropy, we elucidate that the H-function fails to serve as a valid arrow-of-time c…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On-chip Quantum Measurement of Squeezing Generated from a Silicon Nitride Micro-ring Resonator",
-      "url": "https://arxiv.org/abs/2608.03402",
-      "summary": "arXiv:2608.03402v1 Announce Type: cross Abstract: Integration of quantum optical technique on-chip is crucial for large scale applications of quantum technology, which were proven in a free space environment to be superi…",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z"
     }

@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-05T12:55:04.882Z",
+  "updated": "2026-08-05T15:15:54.771Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Electrical Stimulation’s Effects on Neurons, Gene Expression Mapped in Living Human Brain Tissue",
+      "url": "https://www.genengnews.com/topics/omics/electrical-stimulations-effects-on-neurons-gene-expression-mapped-in-living-human-brain-tissue/",
+      "summary": "To investigate these mechanisms, the researchers integrated microelectrode array stimulation with simultaneous recording and single-nucleus genomics from resected temporal cortex obtained from neurosurgery patients. The …",
+      "ts": 1785942006000,
+      "publishedAt": "2026-08-05T15:00:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Finding room in Starlink’s shadow",
+      "url": "https://spacenews.com/finding-room-in-starlinks-shadow/",
+      "summary": "Another wave of constellations has staked claims for communications satellites in non-geostationary orbit (NGSO), but what hope do newcomers have alongside the industry’s entrenched, vertically integrated giants? A mix o…",
+      "ts": 1785942000000,
+      "publishedAt": "2026-08-05T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Your chance to run software in deep space on ESA's asteroid mission",
+      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Your_chance_to_run_software_in_deep_space_on_ESA_s_asteroid_mission",
+      "summary": "The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away.",
+      "ts": 1785938640000,
+      "publishedAt": "2026-08-05T14:04:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Moderna launches early trial of Ebola mRNA vaccine",
+      "url": "https://www.statnews.com/2026/08/05/biotech-news-moderna-launches-early-ebola-mrna-vaccine-trial/?utm_campaign=rss",
+      "summary": "Novo and Lilly earnings are out, Aurora Therapeutics slashing staff, and more biotech news from The Readout",
+      "ts": 1785936765000,
+      "publishedAt": "2026-08-05T13:32:45.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Why Schrödinger CEO Ramy Farid changed how he’s thinking about AI",
+      "url": "https://www.statnews.com/2026/08/05/they-changed-their-minds-on-ai-whos-next-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of STAT's AI Prognosis: Why Schrödinger CEO Ramy Farid is rethinking AI, Recursion's neuron map, and more health AI news.",
+      "ts": 1785936599000,
+      "publishedAt": "2026-08-05T13:29:59.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Medicare pilot and orphan drugs, Pfizer cutbacks, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/05/medicare-pilot-orphan-drugs-pfizer-cutbacks/?utm_campaign=rss",
+      "summary": "In today's Pharmalittle newsletter, a Medicare pilot and orphan drugs, Pfizer cutbacks, and more.",
+      "ts": 1785936406000,
+      "publishedAt": "2026-08-05T13:26:46.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "The Download: NASA’s new telescope and Chinese tech import curbs",
@@ -28,6 +82,15 @@
       "ts": 1785931200000,
       "publishedAt": "2026-08-05T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Briefing on continuing ISIL terror threat",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168080",
+      "summary": "The Security Council is meeting on Wednesday to examine the persistent threat posed by the terrorist group ISIL, also known as Dae’sh, to international peace and security. At a conference in June, the acting head of the …",
+      "ts": 1785931200000,
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -748,69 +811,6 @@
       "ts": 1785844800000,
       "publishedAt": "2026-08-04T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gaza ‘unsafe for civilians’ as Israeli attacks hit homes and classrooms",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168077",
-      "summary": "Gaza remains unsafe for civilians as Israeli attacks continue, including on schools and canvas classrooms, despite the October Israel-Hamas ceasefire that ended two years of war, the Office for the Coordination of Humani…",
-      "ts": 1785844800000,
-      "publishedAt": "2026-08-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘A playground, a beach, a home’: UNICEF demands end to child deaths in Russia-Ukraine war",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168076",
-      "summary": "As Russia’s invasion of Ukraine continues, with both sides stepping up airstrikes and drone attacks in recent weeks deep inside each other's territory, the UN Children’s Fund (UNICEF) appealed on Tuesday for greater prot…",
-      "ts": 1785844800000,
-      "publishedAt": "2026-08-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Strait of Hormuz disruption hits energy, fertilizer and industrial trade",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168074",
-      "summary": "Disruption in the Strait of Hormuz has exposed the vulnerability of global trade to a single maritime chokepoint, with early data showing sharp falls in exports of energy, fertilizers and industrial products.",
-      "ts": 1785844800000,
-      "publishedAt": "2026-08-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168072",
-      "summary": "Results may be months away, but efforts are advancing towards enhanced treatment and the world’s first vaccine for the Bundibugyo species of Ebola, the World Health Organization (WHO) said on Tuesday as deaths and cases …",
-      "ts": 1785844800000,
-      "publishedAt": "2026-08-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Afghanistan hunger crisis intensifies as millions left without food aid",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168069",
-      "summary": "Afghanistan’s dire hunger crisis now affects 14 million people including babies fed on little more than weak tea and bread by their despairing and dirt-poor parents.",
-      "ts": 1785844800000,
-      "publishedAt": "2026-08-04T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rocketdyne reemerges as standalone space company",
-      "url": "https://spacenews.com/rocketdyne-reemerges-as-standalone-space-company/",
-      "summary": "AE Industrial private-equity firm takes 60% stake as L3Harris retains a noncontrolling interest The post Rocketdyne reemerges as standalone space company appeared first on SpaceNews.",
-      "ts": 1785835200000,
-      "publishedAt": "2026-08-04T09:20:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Genome Mapping Reveals Autoimmune Disease Risk Genes in Innate Lymphoid Cells",
-      "url": "https://www.genengnews.com/topics/omics/genome-mapping-reveals-autoimmune-disease-risk-genes-in-innate-lymphoid-cells/",
-      "summary": "ILC3s help regulate inflammation and maintain barrier integrity, but their rarity has made them difficult to study with conventional genome-organization methods. The post Genome Mapping Reveals Autoimmune Disease Risk Ge…",
-      "ts": 1785834057000,
-      "publishedAt": "2026-08-04T09:00:57.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
