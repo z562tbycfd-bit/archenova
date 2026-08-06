@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-08-06T11:24:53.047Z",
+  "updated": "2026-08-06T14:16:12.452Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Sunlight-powered setup generates quantum entanglement",
+      "url": "https://phys.org/news/2026-08-sunlight-powered-setup-generates-quantum.html",
+      "summary": "Today's quantum technologies rely on energy-intensive lasers, raising concerns that scaling them up could further increase energy demands. In new work, researchers have demonstrated that quantum entanglement between phot…",
+      "ts": 1786024804000,
+      "publishedAt": "2026-08-06T14:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Repurposing deep-Earth tools in the hunt for practical superconductors",
+      "url": "https://phys.org/news/2026-08-repurposing-deep-earth-tools-superconductors.html",
+      "summary": "If scientists could find a material that acts as a superconductor—that is, one that transmits energy with zero resistance—at normal pressures and relatively high temperatures, it would open up a vast number of possibilit…",
+      "ts": 1786024803000,
+      "publishedAt": "2026-08-06T14:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Coupled AI and physics model improves typhoon-wave height forecasting",
+      "url": "https://phys.org/news/2026-08-coupled-ai-physics-typhoon-height.html",
+      "summary": "Typhoons pose significant threats, with sudden, dangerous waves that endanger ships, offshore platforms and coastal infrastructure in the northwest Pacific Ocean. Current typhoon forecasting methods sometimes underestima…",
+      "ts": 1786023608000,
+      "publishedAt": "2026-08-06T13:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Space kit for future 'away missions' tested in Scotland",
+      "url": "https://phys.org/news/2026-08-space-kit-future-missions-scotland.html",
+      "summary": "Researchers from the University of Leicester and the University of Aberdeen have carried out a series of field demonstrations in Portsoy to test cutting-edge handheld analytical instruments. Designed for use by astronaut…",
+      "ts": 1786023601000,
+      "publishedAt": "2026-08-06T13:40:01.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "How Does Touch Lead To Pain Or Pleasure?",
+      "url": "https://www.quantamagazine.org/how-does-touch-lead-to-pain-or-pleasure-20260806/",
+      "summary": "Neuroscientist Ishmail Abdus-Saboor discusses efforts to understand how skin contact can be painful or pleasurable, and what touch-obsessed naked mole rats might teach us about human social behavior. The post How Does To…",
+      "ts": 1786023468000,
+      "publishedAt": "2026-08-06T13:37:48.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Spacecraft observations may conceal how particles really move through near-Earth space",
+      "url": "https://phys.org/news/2026-08-spacecraft-conceal-particles-earth-space.html",
+      "summary": "High-energy particles in Earth's radiation belt can appear to spread out randomly, even when they are moving in a \"predictable\" way. This is because spacecraft observations naturally blur the fine-scale structure of the …",
+      "ts": 1786022406000,
+      "publishedAt": "2026-08-06T13:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA's Perseverance captures Phobos and Earth",
+      "url": "https://phys.org/news/2026-08-nasa-perseverance-captures-phobos-earth.html",
+      "summary": "This composite of seven images from the Mastcam-Z instrument aboard NASA's Perseverance Mars rover shows Earth, visible as a small bright dot moving from upper left to lower right, passing behind the Martian moon Phobos …",
+      "ts": 1786022405000,
+      "publishedAt": "2026-08-06T13:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Liquid nitrogen may have recently flowed across Pluto's heart-shaped glacier",
+      "url": "https://phys.org/news/2026-08-liquid-nitrogen-pluto-heart-glacier.html",
+      "summary": "A new study led by Southwest Research Institute (SwRI) provides evidence that liquid nitrogen is rising to Pluto's surface through cracks at the northern edge of Sputnik Planitia, part of the massive heart-shaped glacier…",
+      "ts": 1786021205000,
+      "publishedAt": "2026-08-06T13:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New research finds that singlehood can be a valuable opportunity for personal growth",
+      "url": "https://phys.org/news/2026-08-singlehood-valuable-opportunity-personal-growth.html",
+      "summary": "Being single can be a unique and meaningful opportunity for personal growth, according to new research in Personality and Social Psychology Bulletin.",
+      "ts": 1786021201000,
+      "publishedAt": "2026-08-06T13:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Heat-trapping asteroid dust may have incinerated the dinosaurs within hours  ",
+      "url": "https://www.sciencenews.org/article/asteroid-dust-incinerated-dinosaurs",
+      "summary": "Within minutes of impact, debris began heating Earth’s atmosphere. Fine dust trapped that heat, potentially killing the dinosaurs quickly.",
+      "ts": 1786021200000,
+      "publishedAt": "2026-08-06T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Good news for our coasts and climate: Mangrove forests are bouncing back",
+      "url": "https://phys.org/news/2026-08-good-news-coasts-climate-mangrove.html",
+      "summary": "Mangroves are perplexing plants. They breathe through their roots, appear to stand on stilts and grow best in hot, salty seawater drawn in and out by the tide.",
+      "ts": 1786020004000,
+      "publishedAt": "2026-08-06T12:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Smart trap study points to more precise codling moth management",
+      "url": "https://phys.org/news/2026-08-smart-precise-codling-moth.html",
+      "summary": "Researchers from Michigan State University's Department of Entomology found that automated camera traps often detected codling moth activity in orchards several days earlier than standard monitoring methods, potentially …",
+      "ts": 1786018802000,
+      "publishedAt": "2026-08-06T12:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Songbirds may have developed sharper senses to de-husk seeds",
+      "url": "https://phys.org/news/2026-08-songbirds-sharper-de-husk-seeds.html",
+      "summary": "Songbirds, birds belonging to the Passeriformes order, are best known for their ability to produce complex musical sounds. Yet some songbird species also have another remarkable skill: They can easily remove the tough la…",
+      "ts": 1786017604000,
+      "publishedAt": "2026-08-06T12:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Educational psychologists warn of growing pressure on children's services",
+      "url": "https://phys.org/news/2026-08-psychologists-pressure-children.html",
+      "summary": "Growing backlogs in Education, Health and Care Needs Assessments (EHCNAs) are making it difficult for educational psychologists to prioritize early intervention because they are weighed down by statutory assessments.",
+      "ts": 1786017602000,
+      "publishedAt": "2026-08-06T12:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Improving oats for growers and consumers",
+      "url": "https://phys.org/news/2026-08-oats-growers-consumers.html",
+      "summary": "Heart-healthy oats are finding their way into a wider variety of products and recipes as consumer demand grows. Although oats are grown on far fewer acres than other U.S. crops, farmers are able to keep up with demand th…",
+      "ts": 1786016403000,
+      "publishedAt": "2026-08-06T11:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Researchers call for rethink of how women are supported into business",
@@ -679,126 +799,6 @@
       "title": "Scaling behavior in non-reciprocal and odd conserved dynamics near criticality",
       "url": "https://arxiv.org/abs/2608.05027",
       "summary": "arXiv:2608.05027v1 Announce Type: cross Abstract: In recent years, non-reciprocity has been explored as a ubiquitous manifestation of non-equilibrium activity at the microscopic scales for various active matter systems, …",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "CCAT: Characterization of the first science-grade MKID array for the Prime-Cam 850 GHz module",
-      "url": "https://arxiv.org/abs/2608.05072",
-      "summary": "arXiv:2608.05072v1 Announce Type: cross Abstract: The Fred Young Submillimeter Telescope (FYST) is a 6-meter crossed-Dragone telescope developed by the CCAT collaboration. Sited at 5600 m on Cerro Chajnantor in the Ataca…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spherically Polarized Alfv\\'en Waves and the Gosling Boost",
-      "url": "https://arxiv.org/abs/2608.05091",
-      "summary": "arXiv:2608.05091v1 Announce Type: cross Abstract: Alfv\\'en waves are thought to play critical roles in solar wind acceleration and plasma heating in the solar corona and inner heliosphere. Parker Solar Probe (PSP) has hi…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multimodal Spatiotemporal Atmospheric Data Assimilation with Latent Flow-matching",
-      "url": "https://arxiv.org/abs/2608.05103",
-      "summary": "arXiv:2608.05103v1 Announce Type: cross Abstract: Data assimilation (DA) uses Bayesian inference to update the state of a numerical forecast model with observed data. In this study, we propose a fundamentally different, …",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cluster-Cluster model in $\\mathbb{Z}^d$",
-      "url": "https://arxiv.org/abs/2608.05105",
-      "summary": "arXiv:2608.05105v1 Announce Type: cross Abstract: We consider a stochastic process on $\\mathbb{Z}^d$ for $d \\geq 1$. Given a translation invariant and ergodic starting configuration of finite clusters, each cluster $C$ p…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AI-based single-shot structured-light depth reconstruction for real-time laparoscopic surgical guidance",
-      "url": "https://arxiv.org/abs/2608.05109",
-      "summary": "arXiv:2608.05109v1 Announce Type: cross Abstract: Significance. Accurate intraoperative depth perception is important for autonomous and semi-autonomous robotic laparoscopic surgery. Conventional fringe projection profil…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Correlation-based Modeling of Seismic Newtonian Noise in Half-Space and Full-Space Media",
-      "url": "https://arxiv.org/abs/2608.05117",
-      "summary": "arXiv:2608.05117v1 Announce Type: cross Abstract: Seismic Newtonian noise, arising from fluctuating gravitational forces on detector test masses due to ambient seismic activity, represents a fundamental sensitivity limit…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Fast Quantum Interconnects via Neutral Atom Ensembles",
-      "url": "https://arxiv.org/abs/2608.05147",
-      "summary": "arXiv:2608.05147v1 Announce Type: cross Abstract: Distributing entanglement between distant qubits is a crucial element of scalable quantum computing. Here, we describe a scalable quantum interconnect that generates remo…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact Local-Field Renormalization for Deep-Subwavelength Particles in Rectangular Cavities",
-      "url": "https://arxiv.org/abs/2410.20845",
-      "summary": "arXiv:2410.20845v3 Announce Type: replace Abstract: We present a rigorous, semi-analytical framework for predicting the eigenfrequencies of a deep-subwavelength particle embedded in a perfectly conducting rectangular cav…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A New Approach to Compute Linear Landau Damping",
-      "url": "https://arxiv.org/abs/2503.22501",
-      "summary": "arXiv:2503.22501v3 Announce Type: replace Abstract: We present a semi-analytical method for calculating exact time-domain solutions to linear Landau-damping problems. Unlike traditional residue-based approaches, our fram…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Knowledge-guided machine learning for disentangling Pacific sea surface temperature variability across timescales",
-      "url": "https://arxiv.org/abs/2508.08490",
-      "summary": "arXiv:2508.08490v2 Announce Type: replace Abstract: Global weather and climate patterns are strongly influenced by dominant modes of anomalous Pacific sea surface temperature (SST) variability, including the El Ni\\~no-So…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Terrestrial Test of Shapiro Time Delay: Forth test of Einstein General Theory of Relativity",
-      "url": "https://arxiv.org/abs/2601.00468",
-      "summary": "arXiv:2601.00468v3 Announce Type: replace Abstract: The Shapiro time delay is one of the four classical tests of Einstein general theory of relativity and is commonly interpreted as a constrain on the parametrized post N…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Coils to Surface Recession: Multiphysics Simulation of Ablation in ICP Wind Tunnels",
-      "url": "https://arxiv.org/abs/2602.15500",
-      "summary": "arXiv:2602.15500v2 Announce Type: replace Abstract: This work presents a multi-solver, coupled computational framework for predicting the thermo-chemical material response of thermal protection systems in inductively cou…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Transition of Magnetic Reconnection Regimes in Partially Ionized Plasmas",
-      "url": "https://arxiv.org/abs/2602.23683",
-      "summary": "arXiv:2602.23683v2 Announce Type: replace Abstract: Magnetic reconnection in partially ionized plasmas plays a crucial role in a wide range of solar, astrophysical, and laboratory environments. While reconnection in such…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reliable Viscosity Calculation from High-Pressure Equilibrium Molecular Dynamics: Case Study of 2,2,4-Trimethylhexane",
-      "url": "https://arxiv.org/abs/2603.11247",
-      "summary": "arXiv:2603.11247v3 Announce Type: replace Abstract: Viscosity is a fundamental property of liquid lubricants, yet it is challenging to determine accurately, especially at high pressures. Although equilibrium molecular dy…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Investigating How the Fractions Skill Score and Brier Divergence Skill Score Reflect Forecast Error",
-      "url": "https://arxiv.org/abs/2603.15247",
-      "summary": "arXiv:2603.15247v2 Announce Type: replace Abstract: Meaningful scores for forecast verification are essential for developing reliable forecasts, and there has been much effort to develop scores that align well with human…",
       "ts": 1785988800000,
       "publishedAt": "2026-08-06T04:00:00.000Z"
     }

@@ -1,7 +1,151 @@
 {
   "ok": true,
-  "updated": "2026-08-06T11:24:55.025Z",
+  "updated": "2026-08-06T14:16:14.776Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Two FDA approvals — a new drug and a new vaccine",
+      "url": "https://www.statnews.com/2026/08/06/biotech-news-two-fda-approvals-a-new-drug-and-a-new-vaccine/?utm_campaign=rss",
+      "summary": "Takeda's narcolepsy drug approved, the first mRNA flu shot approved, and more biotech updates from The Readout",
+      "ts": 1786024163000,
+      "publishedAt": "2026-08-06T13:49:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "U.S. moves to shut a Kentucky organ donation group, citing safety failures",
+      "url": "https://www.statnews.com/2026/08/06/us-to-shut-kentucky-organ-donation-group-safety-concerns/?utm_campaign=rss",
+      "summary": "The U.S. moves to shut a Kentucky organ donation group that's been accused of continuing plans for organ retrieval from some patients who unexpectedly showed signs of life.",
+      "ts": 1786024051000,
+      "publishedAt": "2026-08-06T13:47:31.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: The U.S. needs a 9/11 Commission-style independent body to investigate Covid response",
+      "url": "https://www.statnews.com/2026/08/06/covid-accountability-9-11-style-commission-needed-not-fauci-bashing/?utm_campaign=rss",
+      "summary": "“A transparent evaluation of Covid would separate what happened from competing political narratives and help us improve for the future,” writes IDSA President Ronald Nahass.",
+      "ts": 1786023504000,
+      "publishedAt": "2026-08-06T13:38:24.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Senate committee votes along party lines to hold Fauci in contempt of Congress",
+      "url": "https://www.statnews.com/2026/08/06/anthony-fauci-fifth-amendment-rand-paul-seeks-criminal-contempt/?utm_campaign=rss",
+      "summary": "A Senate committee has voted to hold Anthony Fauci in contempt of Congress after he declined to answer questions about his role in the Covid pandemic.",
+      "ts": 1786021955000,
+      "publishedAt": "2026-08-06T13:12:35.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Moderna’s flu shot, a death in a gene-editing trial in China, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/06/moderna-flu-shot-gene-editing-trial-death-pharmalittle-newsletter/?utm_campaign=rss",
+      "summary": "In today's Pharmalittle newsletter: Moderna's mRNA flu shot approved, a death reported in a gene-editing trial in China, and more.",
+      "ts": 1786021406000,
+      "publishedAt": "2026-08-06T13:03:26.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "GeForce NOW Shakes Up August With 26 New Games",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list/",
+      "summary": "August is here, bringing 26 new games for GeForce NOW members. Command the seas in World of Warships: Legends and discover what’s next in the GeForce NOW library, starting with the eight newly added games this week. In a…",
+      "ts": 1786021211000,
+      "publishedAt": "2026-08-06T13:00:11.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
+      "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+      "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured not by any single frontier model but by wh…",
+      "ts": 1786021200000,
+      "publishedAt": "2026-08-06T13:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare pushes ACCESS but doesn’t tell patients what providers offer it",
+      "url": "https://www.statnews.com/2026/08/06/cms-medicare-pilot-access-patient-info-health-tech/?utm_campaign=rss",
+      "summary": "In this edition: Progress report on ACCESS, Medicare's chronic care pilot, and health regulators courting industry on AI regulation.",
+      "ts": 1786020883000,
+      "publishedAt": "2026-08-06T12:54:43.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: One year since Kennedy canceled mRNA vaccine projects, science shows how wrong he was",
+      "url": "https://www.statnews.com/2026/08/06/mflusiva-fda-mrna-flu-vaccine-rfk-jr/?utm_campaign=rss",
+      "summary": "“The United States invented this platform and is the only country walking away from it,” Jeff Coller writes of mRNA vaccines.",
+      "ts": 1786018218000,
+      "publishedAt": "2026-08-06T12:10:18.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
+      "url": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painf…",
+      "ts": 1786018200000,
+      "publishedAt": "2026-08-06T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "DNA Script Wins ARPA-H Award to Advance DNA Manufacturing",
+      "url": "https://www.genengnews.com/topics/bioprocessing/dna-script-wins-arpa-h-award-to-advance-dna-manufacturing/",
+      "summary": "DNA Script says the company is contributing its EDS technology and acting as a technical solution integrator for the project, while adapting its solution to incorporate GE HealthCare’s proprietary DNA scaling technology.…",
+      "ts": 1786017642000,
+      "publishedAt": "2026-08-06T12:00:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Three companies building the tech to grow crops on the moon",
+      "url": "https://spacenews.com/three-companies-building-the-tech-to-grow-crops-on-the-moon/",
+      "summary": "Rockets, rovers and landers have dominated the attention of the commercial space industry as the United States focuses on sending humans back to the moon, but a handful of companies […] The post Three companies building …",
+      "ts": 1786017600000,
+      "publishedAt": "2026-08-06T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "‘Wanton, intentional infliction of incredible pain’ by gangs in Haiti",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168090",
+      "summary": "Gangs in Haiti continue to terrorize communities with the “wanton, intentional infliction of incredible pain” on people who often are just in the wrong place at the wrong time.",
+      "ts": 1786017600000,
+      "publishedAt": "2026-08-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Warnings of famine and collapse as South Sudan's peace deal frays",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168089",
+      "summary": "Nearly eight million people in South Sudan – more than half the population – face crisis-level hunger, with famine risk now flagged in four counties, as the Security Council meets this morning in New York. A cholera outb…",
+      "ts": 1786017600000,
+      "publishedAt": "2026-08-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Gaza: 300 children killed in 300 days of Israeli-Hamas ‘ceasefire’",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168088",
+      "summary": "At least 300 children in Gaza have been reportedly killed in as many days since a ceasefire agreement came into effect last October to suspend military operations between Hamas fighters and the Israel Defense Forces, the…",
+      "ts": 1786017600000,
+      "publishedAt": "2026-08-06T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "STAT",
+      "title": "Covid can reactivate dormant viruses, according to study",
+      "url": "https://www.statnews.com/2026/08/06/health-news-covid-can-reactivate-dormant-viruses-study-finds/?utm_campaign=rss",
+      "summary": "A CDC director officially confirmed, Moderna's mRNA flu shot approved, and other health news from Morning Rounds",
+      "ts": 1786017338000,
+      "publishedAt": "2026-08-06T11:55:38.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Rocket Lab launches 8th iQPS satellite",
@@ -58,7 +202,7 @@
     },
     {
       "source": "STAT",
-      "title": "Opinion: Stop asking if AI is good for medicine",
+      "title": "Opinion: STAT+: Stop asking if AI is good for medicine",
       "url": "https://www.statnews.com/2026/08/06/ai-health-care-skepticism-advances-nature-medicine-scribe-sepsis/?utm_campaign=rss",
       "summary": "Overgeneralizations about AI can slow down the adoption of tools that work.",
       "ts": 1786005000000,
@@ -667,150 +811,6 @@
       "ts": 1785922200000,
       "publishedAt": "2026-08-05T09:30:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Exemption of rare disease therapies in drug-pricing pilots would wipe out huge savings, analysis finds",
-      "url": "https://www.statnews.com/2026/08/05/cms-drug-pricing-pilot-programs-rare-disease-drugs/?utm_campaign=rss",
-      "summary": "Excluding rare disease therapies from a Medicare pilot program to lower drug prices would wipe out much of the savings from retail drugs, according to new research.",
-      "ts": 1785918600000,
-      "publishedAt": "2026-08-05T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Senate inquiry suggests Trump administration softened kratom and tobacco policies in quid pro quo",
-      "url": "https://www.statnews.com/2026/08/05/senator-ron-wyden-investigation-kennedy-flavored-vapes-kratom/?utm_campaign=rss",
-      "summary": "The Senate investigation includes RFK Jr. as well as the heads of Reynolds American and kratom company Botanic Tonics, asking for written responses and documentation by Aug. 31.",
-      "ts": 1785918600000,
-      "publishedAt": "2026-08-05T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "MRI is standard for diagnosing prostate cancer in most western countries. But most U.S. men don’t get them",
-      "url": "https://www.statnews.com/2026/08/05/prostate-cancer-screening-biopsy-vs-mri-debate/?utm_campaign=rss",
-      "summary": "Pre-biopsy MRI is standard outside the U.S., but the latest data show such scans were done in only about a third of U.S. prostate cancer cases in 2022.",
-      "ts": 1785918600000,
-      "publishedAt": "2026-08-05T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Tear down the wall between M.D. and D.O. education",
-      "url": "https://www.statnews.com/2026/08/05/md-vs-do-medical-education-merge/?utm_campaign=rss",
-      "summary": "Having separate systems for M.D.s and D.O.s “is historical inertia dressed as educational diversity,” write physicians Abigail MacKenzie and Vijay Rajput.",
-      "ts": 1785918600000,
-      "publishedAt": "2026-08-05T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Something is missing from movies about medical aid in dying",
-      "url": "https://www.statnews.com/2026/08/05/new-york-medical-aid-dying-assisted-suicide-room-next-door-movies/?utm_campaign=rss",
-      "summary": "Films and documentaries about assisted dying can narrow the frame of debate, write Anna Magdalena Elsner and Vanessa Rampton.",
-      "ts": 1785918600000,
-      "publishedAt": "2026-08-05T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "NASA’s new dark-energy space telescope can also detect killer asteroids",
-      "url": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
-      "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its goal is to help us better understand how the universe works, from the glue-like dark matter that…",
-      "ts": 1785917200000,
-      "publishedAt": "2026-08-05T08:06:40.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Total solar eclipse: how to watch live from home",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Total_solar_eclipse_how_to_watch_live_from_home",
-      "summary": "A total solar eclipse is coming to Europe. The European Space Agency (ESA) will broadcast live from 19:30 CEST on 12 August, allowing you to experience this rare event from anywhere in the world. Quick links: Live broadc…",
-      "ts": 1785916800000,
-      "publishedAt": "2026-08-05T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Think tank warns Europe’s orbital compute gap is widening",
-      "url": "https://spacenews.com/think-tank-warns-europes-orbital-compute-gap-is-widening/",
-      "summary": "Europe risks becoming dependent on foreign orbital computing infrastructure as U.S. companies and China’s government-led push accelerate the development of space-based data centers, according to the European Space Policy…",
-      "ts": 1785916800000,
-      "publishedAt": "2026-08-05T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Neuraspace raises $18 million to expand sovereign space awareness",
-      "url": "https://spacenews.com/neuraspace-raises-18-million-to-expand-sovereign-space-awareness/",
-      "summary": "Neuraspace, the Portuguese space traffic management startup, announced around $18 million in fresh funding Aug. 5 to expand European space domain awareness and defense capabilities. The post Neuraspace raises $18 million…",
-      "ts": 1785909600000,
-      "publishedAt": "2026-08-05T06:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 5 – Spokes on Saturn’s B Ring",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-5-spokes-on-saturns-b-ring/",
-      "summary": "APODScienceAPODAPOD: 2026 August 5 – Spokes…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our…",
-      "ts": 1785902700000,
-      "publishedAt": "2026-08-05T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "The Paradox of Lençóis Maranhenses National Park",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-paradox-of-lencois-maranhenses-national-park/",
-      "summary": "The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year.",
-      "ts": 1785902460000,
-      "publishedAt": "2026-08-05T04:01:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cross-Anesthetic ECoG State Decoding Fails at the Decision Threshold, Not the Representation",
-      "url": "https://arxiv.org/abs/2608.02646",
-      "summary": "arXiv:2608.02646v1 Announce Type: new Abstract: Decoders of anesthetic state from cortical activity fail across drug classes, most notoriously ketamine, but reported accuracy cannot say whether the neural representation …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A method for comparing inferred evolutionary accumulation dynamics across covariates and model structures",
-      "url": "https://arxiv.org/abs/2608.02781",
-      "summary": "arXiv:2608.02781v1 Announce Type: new Abstract: In this note we describe a method for comparing inferred dynamics in evolutionary accumulation models (EvAMs). These models involve the acquisition of multiple, potentially…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "REDE: A Quantitative Framework for Differential-Expression Reproducibility and Diagnostic Transfer Across Nine Cohorts and Three Cancers",
-      "url": "https://arxiv.org/abs/2608.02796",
-      "summary": "arXiv:2608.02796v1 Announce Type: new Abstract: Differential-expression analyses often turn cohort-specific significance into claims of stable gene signatures or diagnostic biomarkers. We evaluated which layers of eviden…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Detecting high-frequency brain disorder signals using dynamic mode decomposition from EEG",
-      "url": "https://arxiv.org/abs/2608.02804",
-      "summary": "arXiv:2608.02804v1 Announce Type: new Abstract: Recent studies have reported clearly identifiable dynamical changes in the high-frequency range of EEG signals recorded during specific stimuli, such as visual or auditory …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Expanding Protein Structure Prediction into Conformational State Space",
-      "url": "https://arxiv.org/abs/2608.02866",
-      "summary": "arXiv:2608.02866v1 Announce Type: new Abstract: Recent AI advances have enabled protein structure prediction at near-experimental accuracy, largely solving the problem of identifying a dominant conformation from sequence…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
