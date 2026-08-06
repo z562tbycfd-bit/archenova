@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-05T23:01:49.583Z",
+  "updated": "2026-08-06T02:44:42.975Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "NASA and Roscosmos continue seat barter agreement",
+      "url": "https://spacenews.com/nasa-and-roscosmos-continue-seat-barter-agreement/",
+      "summary": "NASA and Roscosmos have agreed to continue exchanging seats between Soyuz and Crew Dragon spacecraft, but that agreement does not yet extend to Starliner. The post NASA and Roscosmos continue seat barter agreement appear…",
+      "ts": 1785983027000,
+      "publishedAt": "2026-08-06T02:23:47.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "FDA approves Moderna’s mRNA flu vaccine, the first to use the technology",
+      "url": "https://www.statnews.com/2026/08/05/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine/?utm_campaign=rss",
+      "summary": "The FDA has approved Moderna’s influenza vaccine, the first licensed flu shot made using messenger RNA technology.",
+      "ts": 1785982717000,
+      "publishedAt": "2026-08-06T02:18:37.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "New Glenn explosion linked to rocket engine valve",
@@ -438,7 +456,7 @@
       "source": "arXiv q-bio",
       "title": "A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models",
       "url": "https://arxiv.org/abs/2608.02684",
-      "summary": "arXiv:2608.02684v1 Announce Type: new Abstract: Large Language Models (LLMs) are accelerating biological research, yet this same capability poses a critical biosecurity threat: models that assist in protein engineering c…",
+      "summary": "arXiv:2608.02684v2 Announce Type: new Abstract: Large Language Models (LLMs) are accelerating biological research, yet this same capability poses a critical biosecurity threat: models that assist in protein engineering c…",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "categoryId": "bio"
@@ -792,24 +810,6 @@
       "summary": "Ebola has killed more than 1,700 people in eastern Congo in what has become the fastest-growing outbreak of the disease.",
       "ts": 1785870648000,
       "publishedAt": "2026-08-04T19:10:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "ts": 1785870000000,
-      "publishedAt": "2026-08-04T19:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "AI Uses MRIs to Generate Brain Aging Maps for Neurodegenerative Disease Research",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/ai-uses-mris-to-generate-brain-aging-maps-for-neurodegenerative-disease-research/",
-      "summary": "An AI-based method uses MRI scans to generate detailed maps highlighting how different areas of the brain age, and shedding light on how patterns of brain changes correlate with changes in cognitive function across lifes…",
-      "ts": 1785868722000,
-      "publishedAt": "2026-08-04T18:38:42.000Z",
       "categoryId": "bio"
     }
   ],

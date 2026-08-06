@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-05T23:01:47.573Z",
+  "updated": "2026-08-06T02:44:40.333Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Anionic solvation reconstruction stabilizes interfacial chemistry for high-temperature and high-voltage Li metal batteries",
+      "url": "https://www.nature.com/articles/s41467-026-76363-0",
+      "summary": "",
+      "ts": 1785974400000,
+      "publishedAt": "2026-08-06T00:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Miniaturized laser technology paves the way for fundamental physics experiments in space",
+      "url": "https://phys.org/news/2026-08-miniaturized-laser-technology-paves-fundamental.html",
+      "summary": "An international team of researchers has succeeded in producing atomic quantum gas mixtures with an unprecedented particle flux. In the journal Nature Communications, the scientists report on experiments conducted with t…",
+      "ts": 1785973204000,
+      "publishedAt": "2026-08-05T23:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One of the world's only two complete dodo skulls reveals new clues about the extinct bird",
+      "url": "https://phys.org/news/2026-08-world-dodo-skulls-reveals-clues.html",
+      "summary": "Only two complete dodo skulls are known to exist anywhere in the world: one at the Natural History Museum Denmark and one at the Oxford University Museum of Natural History. The specimen housed in Copenhagen has been pre…",
+      "ts": 1785972001000,
+      "publishedAt": "2026-08-05T23:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Air-stable, ultrathin superconductors developed for more scalable quantum devices",
@@ -775,30 +799,6 @@
       "title": "What Is Sonification? Toward a Philosophy of Sonification",
       "url": "https://arxiv.org/abs/2608.02737",
       "summary": "arXiv:2608.02737v1 Announce Type: new Abstract: Sonification operates across scientific, artistic, and design contexts, yet its identity remains conceptually ambiguous: is it music, a scientific method, or a hybrid pract…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Radial transport of electric current by electromagnetic microturbulence in tokamaks",
-      "url": "https://arxiv.org/abs/2608.02763",
-      "summary": "arXiv:2608.02763v1 Announce Type: new Abstract: The turbulent transport of toroidal angular momentum helps determine the rotation profiles of tokamak plasmas, and thereby their confinement and stability. The electron con…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Particle trapping in vortex crystals",
-      "url": "https://arxiv.org/abs/2608.02779",
-      "summary": "arXiv:2608.02779v1 Announce Type: new Abstract: We study the motion of inertial particles in two-dimensional inviscid and viscous vortex crystals, where vortices are placed at the tips of a regular polygon, and determine…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase-Locked Time-Stretch Optical Coherence Tomography for Contrast-Enhanced Retinal Microangiography",
-      "url": "https://arxiv.org/abs/2608.02793",
-      "summary": "arXiv:2608.02793v1 Announce Type: new Abstract: Optical coherence tomography angiography has transformed retinal vascular imaging by providing non-invasive, high-resolution visualization. However, achieving an optimal ba…",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z"
     }
