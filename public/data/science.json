@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-06T05:51:09.047Z",
+  "updated": "2026-08-06T08:39:49.154Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Climate change contributed to big Canada fires, study says as Trump blames mismanagement",
+      "url": "https://phys.org/news/2026-08-climate-contributed-big-canada-trump.html",
+      "summary": "Human-caused climate change doubled the likelihood of the tinderbox weather conditions that sparked Canada's massive summer wildfires and in turn angered U.S. President Donald Trump, according to a study released Thursda…",
+      "ts": 1786002001000,
+      "publishedAt": "2026-08-06T07:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists are certain a wayward SpaceX rocket slammed into the moon as predicted",
+      "url": "https://phys.org/news/2026-08-scientists-wayward-spacex-rocket-slammed.html",
+      "summary": "A SpaceX rocket that launched a pair of lunar landers slammed into the moon as predicted on Wednesday after drifting off course for the past year, scientists reported.",
+      "ts": 1785999869000,
+      "publishedAt": "2026-08-06T07:04:29.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fuego volcano activity that triggered evacuations in Guatemala is decreasing, but risks remain",
+      "url": "https://phys.org/news/2026-08-fuego-volcano-triggered-evacuations-guatemala.html",
+      "summary": "Activity at Guatemala's Fuego volcano that began Monday morning and caused widespread evacuations is gradually decreasing, authorities said Wednesday.",
+      "ts": 1785999813000,
+      "publishedAt": "2026-08-06T07:03:33.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sizing errors can hide true nanoparticle behavior",
+      "url": "https://phys.org/news/2026-08-sizing-errors-true-nanoparticle-behavior.html",
+      "summary": "Nanoscience, which studies small objects, has a big problem. According to a team of scientists at the National Institute of Standards and Technology (NIST), the field confronts a pervasive data analysis error that can gi…",
+      "ts": 1785999602000,
+      "publishedAt": "2026-08-06T07:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Powerhouses for fake meat: Muscle protein can now be grown in chloroplasts of lettuce and tobacco plants",
@@ -767,38 +799,6 @@
       "title": "Active Transport as a Mechanism of Microphase Selection in Biomolecular Condensates",
       "url": "https://arxiv.org/abs/2604.08316",
       "summary": "arXiv:2604.08316v2 Announce Type: replace Abstract: The size and organization of biomolecular condensates formed by liquid-liquid phase separation (LLPS) are set by multiple cellular mechanisms that are not yet fully und…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "HydroFirn: A numerical model for large-scale multidimensional firn hydrology",
-      "url": "https://arxiv.org/abs/2604.11488",
-      "summary": "arXiv:2604.11488v2 Announce Type: replace Abstract: Observations show the multidimensional dynamics of meltwater and distribution of ice layers in the firn on the Greenland Ice Sheet. However, state-of-the-art large-scal…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Noise-Driven Differentiation via Gene Frustration and Epigenetic Fixation",
-      "url": "https://arxiv.org/abs/2604.18185",
-      "summary": "arXiv:2604.18185v2 Announce Type: replace Abstract: Gene expression in cells is stochastic, yet differentiation can display reproducible timing and stable fate commitment. We develop an analytical theory for a previously…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy systems models are diagnostic tools, not projection machines",
-      "url": "https://arxiv.org/abs/2604.19676",
-      "summary": "arXiv:2604.19676v2 Announce Type: replace Abstract: Energy systems models (ESMs) are a leading tool to guide the energy transition. They have been influential in supporting national decarbonisation strategies and regiona…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Localized Tornado Outbreak at the Upstream of a Tropical Easterly Wave in Camarines Norte, Philippines (13 September 2025)",
-      "url": "https://arxiv.org/abs/2604.20222",
-      "summary": "arXiv:2604.20222v4 Announce Type: replace Abstract: (Abridge) On 13 September 2025 around 22 UTC, a localized tornado outbreak affected eastern Philippines, causing significant damage in Camarines Norte. The event develo…",
       "ts": 1785988800000,
       "publishedAt": "2026-08-06T04:00:00.000Z"
     }
