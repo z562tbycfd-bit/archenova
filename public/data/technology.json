@@ -1,7 +1,214 @@
 {
   "ok": true,
-  "updated": "2026-08-06T02:44:42.975Z",
+  "updated": "2026-08-06T05:51:11.762Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 6 – New Sharpest Image of the Sun Uncovers Instability",
+      "url": "https://science.nasa.gov/image-article/apod-2026-august-6-new-sharpest-image-of-the-sun-uncovers-instability/",
+      "summary": "APOD Science APOD APOD: 2026 August 6 – New… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
+      "ts": 1785989100000,
+      "publishedAt": "2026-08-06T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Influence of passenger head-position uncertainty on infection risk predictions",
+      "url": "https://arxiv.org/abs/2608.04024",
+      "summary": "arXiv:2608.04024v1 Announce Type: new Abstract: We investigate the influence of natural head movement on the infection risk posed by airborne pathogens using a CFD-based forward risk prediction model. Quasi-Monte-Carlo s…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling",
+      "url": "https://arxiv.org/abs/2608.04046",
+      "summary": "arXiv:2608.04046v1 Announce Type: new Abstract: Survival analysis is an established framework for analyzing time-to-event data, yet many clinical machine learning studies still binarize the outcome before model training.…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Time^2: A framework for the neural dynamics of visual perception",
+      "url": "https://arxiv.org/abs/2608.04218",
+      "summary": "arXiv:2608.04218v1 Announce Type: new Abstract: Whenever we look at an object, we seem to perceive it immediately. However, this is not the case for two reasons. First, it takes hundreds of milliseconds for the brain to …",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "On the realizability of abstract reaction networks with real molecules and reactions",
+      "url": "https://arxiv.org/abs/2608.04635",
+      "summary": "arXiv:2608.04635v1 Announce Type: new Abstract: Abstract reaction networks appear not only as models of chemical reactions but also as models of complex systems, with applications in areas such as ecology and epidemiolog…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Poisson Flow and Wasserstein Registration of Trees",
+      "url": "https://arxiv.org/abs/2608.04770",
+      "summary": "arXiv:2608.04770v1 Announce Type: new Abstract: Tree-like structures arise in numerous imaging applications, including vascular networks, neuronal arbors, airway trees, and cortical sulcal--gyral folding. We present a no…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Traveling fronts in a spatial epidemic model with slow loss of immunity",
+      "url": "https://arxiv.org/abs/2608.04594",
+      "summary": "arXiv:2608.04594v1 Announce Type: cross Abstract: We investigate the emergence of traveling front solutions in a spatial SIRS epidemic model with diffusion acting on the infected population. The model exhibits a natural …",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "An entropic explanation of insistence on sameness in autism",
+      "url": "https://arxiv.org/abs/2608.04616",
+      "summary": "arXiv:2608.04616v1 Announce Type: cross Abstract: An information theory-based framework is proposed in attempt to explain insistence on sameness in autism as an instance of a general behavior pattern in which an individu…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Parameter identification for predator-prey system with sparse data",
+      "url": "https://arxiv.org/abs/2608.04959",
+      "summary": "arXiv:2608.04959v1 Announce Type: cross Abstract: Parameter identification from observations of dynamical systems is a fundamental problem in population biology. Mechanistic models of ecological systems rely on optimizat…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Inferring Relative Consequences of Mechanical Ventilation from Observational Data Using Game-Based Comparisons",
+      "url": "https://arxiv.org/abs/2510.15127",
+      "summary": "arXiv:2510.15127v4 Announce Type: replace Abstract: Identifying the effects of mechanical ventilation (MV) protocols in critical care requires analyzing data from heterogeneous patient-ventilator systems in the clinical …",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "On the abelian structure of noncompetitive chemical reaction networks",
+      "url": "https://arxiv.org/abs/2512.17491",
+      "summary": "arXiv:2512.17491v2 Announce Type: replace Abstract: Chemical reaction networks (CRNs) are foundational models for describing complex biochemical processes. We study noncompetitive CRNs, a class of networks whose static s…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Plausibility-Driven Prioritization of Candidate Biomedical Annotations",
+      "url": "https://arxiv.org/abs/2607.20163",
+      "summary": "arXiv:2607.20163v2 Announce Type: replace Abstract: The rapid growth of biomedical knowledge has made the validation of automatically generated biological annotations a major bottleneck in biomedical curation. While comp…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Subject-Level Heterogeneity in EEG Motor Imagery Decoding: A Large-Scale Benchmark and Portfolio-Based Reduction of the Search Space",
+      "url": "https://arxiv.org/abs/2607.22778",
+      "summary": "arXiv:2607.22778v2 Announce Type: replace Abstract: Robust EEG motor imagery decoding remains limited by strong inter-individual variability, making it difficult to identify pipelines that generalize across users. We pre…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "TCellAlign: Cross-study T-cell Populations Alignment with Nomenclature-Guided Multi-Agent Workflow",
+      "url": "https://arxiv.org/abs/2607.24093",
+      "summary": "arXiv:2607.24093v2 Announce Type: replace Abstract: Cell type standardization plays a central role in integrating biological knowledge across single-cell studies. While standardized resources (e.g., Cell Ontology, Nomenc…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Mechanistic bridges from receptors to whole-brain dynamics: mean-field reductions, validity domains, and computational trade-offs",
+      "url": "https://arxiv.org/abs/2608.00306",
+      "summary": "arXiv:2608.00306v2 Announce Type: replace Abstract: Many pharmacological and pathological perturbations arise at molecular, synaptic, or cellular scales, but are observed through population and whole-brain signals. Cross…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.02684",
+      "summary": "arXiv:2608.02684v2 Announce Type: replace Abstract: Large Language Models (LLMs) are accelerating biological research, yet this same capability poses a critical biosecurity threat: models that assist in protein engineeri…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Arnold: A multi-task, multi-embodiment muscle transformer policy",
+      "url": "https://arxiv.org/abs/2508.18066",
+      "summary": "arXiv:2508.18066v2 Announce Type: replace-cross Abstract: Controlling high-dimensional and nonlinear musculoskeletal models of the human body is a foundational scientific challenge. Recent machine learning breakthroughs …",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Interpreting GFlowNets for Drug Discovery: What probes can and cannot show",
+      "url": "https://arxiv.org/abs/2511.19264",
+      "summary": "arXiv:2511.19264v2 Announce Type: replace-cross Abstract: Generative Flow Networks (GFlowNets) construct molecules through sequential decisions, but their internal policies remain opaque, limiting adoption in drug discov…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Noise-Driven Differentiation via Gene Frustration and Epigenetic Fixation",
+      "url": "https://arxiv.org/abs/2604.18185",
+      "summary": "arXiv:2604.18185v2 Announce Type: replace-cross Abstract: Gene expression in cells is stochastic, yet differentiation can display reproducible timing and stable fate commitment. We develop an analytical theory for a prev…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Leakage-Audited Benchmarking Reveals Limited Evidence for Cross-Subject Auditory-Evoked EEG Vowel Perception Decoding",
+      "url": "https://arxiv.org/abs/2605.00865",
+      "summary": "arXiv:2605.00865v2 Announce Type: replace-cross Abstract: We tested whether auditory-evoked EEG supports subject-independent five-vowel perception decoding when trial identity, model identity, prediction provenance, and …",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "GENEB: Why Genomic Models Are Hard to Compare",
+      "url": "https://arxiv.org/abs/2606.04525",
+      "summary": "arXiv:2606.04525v4 Announce Type: replace-cross Abstract: Progress in genomic foundation models is difficult to assess due to fragmented benchmarks, incompatible evaluation protocols, and task-specific reporting. As a re…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "LDARNet: DNA Adaptive Representation Network with Learnable Tokenization for Genomic Modeling",
+      "url": "https://arxiv.org/abs/2606.04552",
+      "summary": "arXiv:2606.04552v2 Announce Type: replace-cross Abstract: Genomic foundation models increasingly adopt large language model architectures, yet almost universally rely on fixed tokenization schemes such as $k$-mers, BPE, …",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MemNovo: Look Back at the Spectrum for Balanced De Novo Peptide Sequencing from Mass Spectrometry",
+      "url": "https://arxiv.org/abs/2606.11868",
+      "summary": "arXiv:2606.11868v2 Announce Type: replace-cross Abstract: De novo peptide sequencing from tandem mass spectrometry is pivotal in proteomics, enabling identification of novel peptides without reference databases. While re…",
+      "ts": 1785988800000,
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "NASA and Roscosmos continue seat barter agreement",
@@ -57,6 +264,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "NASA’s IXPE May Have Proven 90-Year-Old Theory",
+      "url": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/",
+      "summary": "A first of its kind measurement of a magnetar may have captured empty space behaving in a way physicists have predicted for 90 years, but never directly observed. The results published Wednesday in Nature. Fast facts Sci…",
+      "ts": 1785955754000,
+      "publishedAt": "2026-08-05T18:49:14.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "COVID-19 Reactivates Dormant Viruses, Offering New Clues to Long COVID",
       "url": "https://www.genengnews.com/topics/coronavirus/covid-19-reactivates-dormant-viruses-offering-new-clues-to-long-covid/",
@@ -82,6 +298,15 @@
       "ts": 1785952015000,
       "publishedAt": "2026-08-05T17:46:55.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Artemis III Orion Crew and Service Models Joined",
+      "url": "https://www.nasa.gov/image-article/artemis-iii-orion-crew-and-service-models-joined/",
+      "summary": "Technicians joined the Orion crew and service modules together on July 30, 2026, inside the Neil Armstrong Operations and Checkout Building at NASA’s Kennedy Space Center in Florida. The crew module will carry and sustai…",
+      "ts": 1785950838000,
+      "publishedAt": "2026-08-05T17:27:18.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -136,6 +361,15 @@
       "ts": 1785945605000,
       "publishedAt": "2026-08-05T16:00:05.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s Perseverance Captures Phobos and Earth",
+      "url": "https://science.nasa.gov/photojournal/nasas-perseverance-captures-phobos-and-earth/",
+      "summary": "Description This composite of seven images from the Mastcam-Z instrument aboard NASA’s Perseverance Mars rover shows Earth, visible as a small bright dot moving from upper left to lower right, passing behind the Martian …",
+      "ts": 1785943683000,
+      "publishedAt": "2026-08-05T15:28:03.000Z",
+      "categoryId": "space"
     },
     {
       "source": "NASA",
@@ -253,6 +487,15 @@
       "ts": 1785931200000,
       "publishedAt": "2026-08-05T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "World News in Brief: Cambodia human rights, Hormuz invasive species risk, IOM lauds 2025 progress",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168086",
+      "summary": "Concluding his first official visit to Cambodia, UN independent human rights expert Tom Andrews said he was encouraged by the government’s cooperation but remained concerned about key human rights issues such as the lack…",
+      "ts": 1785931200000,
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -454,15 +697,6 @@
     },
     {
       "source": "arXiv q-bio",
-      "title": "A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models",
-      "url": "https://arxiv.org/abs/2608.02684",
-      "summary": "arXiv:2608.02684v2 Announce Type: new Abstract: Large Language Models (LLMs) are accelerating biological research, yet this same capability poses a critical biosecurity threat: models that assist in protein engineering c…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
       "title": "A method for comparing inferred evolutionary accumulation dynamics across covariates and model structures",
       "url": "https://arxiv.org/abs/2608.02781",
       "summary": "arXiv:2608.02781v1 Announce Type: new Abstract: In this note we describe a method for comparing inferred dynamics in evolutionary accumulation models (EvAMs). These models involve the acquisition of multiple, potentially…",
@@ -576,240 +810,6 @@
       "summary": "arXiv:2608.02865v1 Announce Type: cross Abstract: A vast class of weak, millimolar-affinity molecular interactions governs cellular function, yet their quantitative characterization has remained largely beyond convention…",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Modelling temporal dynamics of suicidal ideation and behaviour across pre- to early adolescence using a Markov framework",
-      "url": "https://arxiv.org/abs/2608.02896",
-      "summary": "arXiv:2608.02896v1 Announce Type: cross Abstract: Understanding the dynamics of suicidal ideation and behaviour in youth and the factors associated with transitions from thoughts to behaviours is critical for early ident…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Scaling an Autoregressive Transformer for Single-Cell Generation",
-      "url": "https://arxiv.org/abs/2608.02961",
-      "summary": "arXiv:2608.02961v1 Announce Type: cross Abstract: We study a self-supervised generation task for single-cell gene expression vectors: given a set of vectors from a cell type, we aim to generate additional gene expression…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Landau-Ginzburg Phenomenology of Sleep-Stage Transitions",
-      "url": "https://arxiv.org/abs/2608.03000",
-      "summary": "arXiv:2608.03000v1 Announce Type: cross Abstract: Sleep staging provides a reproducible clinical description, but it does not by itself explain why some boundaries are abrupt while others are graded, or why transition wi…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Spatial proteomics guided by H&E-based AI reveals recurrence-risk niches in triple-negative breast cancer",
-      "url": "https://arxiv.org/abs/2608.03145",
-      "summary": "arXiv:2608.03145v1 Announce Type: cross Abstract: Deep learning models can predict cancer recurrence from H&E stained slides, but the localized molecular states underlying these predictions remain largely obscured. Here,…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Active wetting/de-wetting of focal adhesions on viscoelastic substrates",
-      "url": "https://arxiv.org/abs/2608.03393",
-      "summary": "arXiv:2608.03393v1 Announce Type: cross Abstract: Cell adhesion to viscoelastic substrates is mediated by focal adhesions (FAs), which dynamically couple actomyosin contractility to the extracellular matrix. Although sub…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Omega-S: A Functional Resilience Index for LLM Fine-Tuning",
-      "url": "https://arxiv.org/abs/2608.03887",
-      "summary": "arXiv:2608.03887v1 Announce Type: cross Abstract: Fine-tuning a large language model on new data degrades what it previously learned. We present Omega-S, a drop-in penalty computed from the weight matrix alone: it needs …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Complete strategy spaces reveal hidden pathways to cooperation",
-      "url": "https://arxiv.org/abs/2511.17794",
-      "summary": "arXiv:2511.17794v2 Announce Type: replace Abstract: Understanding how cooperation emerges and persists is a central challenge in evolutionary game theory. Existing models often rely on restricted, hand-picked strategy se…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MIMIC-MJX: Neuromechanical Emulation of Animal Behavior",
-      "url": "https://arxiv.org/abs/2511.20532",
-      "summary": "arXiv:2511.20532v3 Announce Type: replace Abstract: The primary output of the nervous system is movement and behavior. While recent advances have democratized pose tracking during complex behavior, kinematic trajectories…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Cross-Country Learning for National Infectious Disease Forecasting Using European Data",
-      "url": "https://arxiv.org/abs/2601.20771",
-      "summary": "arXiv:2601.20771v2 Announce Type: replace Abstract: Accurate forecasting of infectious disease incidence is critical for public health planning and timely intervention. While most data-driven forecasting approaches rely …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From Derivatives to Exact Sequence Substitution Effects in Dynamic Programming for Biological Sequence Analysis",
-      "url": "https://arxiv.org/abs/2607.09872",
-      "summary": "arXiv:2607.09872v2 Announce Type: replace Abstract: Background: Dynamic programming in biological sequence analysis computes probabilities or partition functions by summing over exponentially many latent paths, alignment…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Making Single-Cell Data Distillation Auditable: Traceable Real-Cell Coresets via Discrete Min--Max Selection",
-      "url": "https://arxiv.org/abs/2607.19426",
-      "summary": "arXiv:2607.19426v2 Announce Type: replace Abstract: Large single-cell datasets are expensive to store, curate, and repeatedly reuse for model training. Data distillation can reduce this burden by building smaller trainin…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Variational kinetics: elementary reaction kinetics via conic optimisation",
-      "url": "https://arxiv.org/abs/2607.25217",
-      "summary": "arXiv:2607.25217v2 Announce Type: replace Abstract: Genome-scale modelling methods primarily predict reaction fluxes, whereas established high throughput experimental technologies primarily measure molecular species conc…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Fast and Flexible Flow Decompositions in General Graphs via Dominators",
-      "url": "https://arxiv.org/abs/2511.19153",
-      "summary": "arXiv:2511.19153v2 Announce Type: replace-cross Abstract: Multi-assembly methods rely at their core on a flow decomposition problem, namely, decomposing a weighted graph into weighted paths or walks. However, most result…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Divergence of detachment forces in the finite Voronoi model",
-      "url": "https://arxiv.org/abs/2604.15481",
-      "summary": "arXiv:2604.15481v2 Announce Type: replace-cross Abstract: Detachment and fracture are central to many tissue-level processes, but they are challenging to simulate with Voronoi-type models that typically assume a confluen…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Do VLMs Align Better with Humans than LLMs during Natural Reading?",
-      "url": "https://arxiv.org/abs/2605.28818",
-      "summary": "arXiv:2605.28818v2 Announce Type: replace-cross Abstract: Large language models have become increasingly useful computational models of human language processing, but it remains open whether vision-language learning make…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Navigation driven by bidirectional information transmission between sensing and actuation",
-      "url": "https://arxiv.org/abs/2607.26798",
-      "summary": "arXiv:2607.26798v2 Announce Type: replace-cross Abstract: A wide variety of biological functions are driven by feedback between sensing and actuation. A paradigmatic example is cellular navigation. During navigation, the…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Smart membrane: high content in situ monitoring barrier on chip with artificial neural network",
-      "url": "https://arxiv.org/abs/2608.01239",
-      "summary": "arXiv:2608.01239v2 Announce Type: replace-cross Abstract: Conventional transepithelial electrical resistance (TEER) technique provides only a low-content analysis of cell-layer conditions, necessitating repeated microsco…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Voyager seeks relaxed requirements in NASA commercial space station RFP",
-      "url": "https://spacenews.com/voyager-seeks-relaxed-requirements-in-nasa-commercial-space-station-rfp/",
-      "summary": "Voyager Technologies remains upbeat about the prospects for its Starlab commercial space station but is hoping for some tweaks to NASA’s plans to support the station’s development. The post Voyager seeks relaxed requirem…",
-      "ts": 1785898883000,
-      "publishedAt": "2026-08-05T03:01:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Onshoring Is Here. The Hiring Wave Is Still a Decade Out",
-      "url": "https://www.genengnews.com/topics/bioprocessing/onshoring-is-here-the-hiring-wave-is-still-a-decade-out/",
-      "summary": "Building a highly technical, highly regulated pharmaceutical facility takes years, and we are in the part of the cycle where the work is physical, not scientific. Companies and their talent partners need to know exactly …",
-      "ts": 1785895208000,
-      "publishedAt": "2026-08-05T02:00:08.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Improving interface-mediated carrier transport for efficient perovskite/Cu(In,Ga)Se<sub>2</sub> tandem solar cells",
-      "url": "https://www.nature.com/articles/s41560-026-02125-3",
-      "summary": "",
-      "ts": 1785888000000,
-      "publishedAt": "2026-08-05T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "SpaceX to begin Starship orbital flights",
-      "url": "https://spacenews.com/spacex-to-begin-starship-orbital-flights/",
-      "summary": "SpaceX plans to start deploying upgraded Starlink satellites into orbit on the next flight of its Starship vehicle, scheduled for as soon as the end of the month. The post SpaceX to begin Starship orbital flights appeare…",
-      "ts": 1785883873000,
-      "publishedAt": "2026-08-04T22:51:13.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rocket Lab, STR win Space Force contracts for airborne-target tracking",
-      "url": "https://spacenews.com/rocket-lab-str-win-space-force-contracts-for-airborne-target-tracking-technologies/",
-      "summary": "The companies, along with a third unidentified vendor, won $615 million in contracts for the AMTI satellite program The post Rocket Lab, STR win Space Force contracts for airborne-target tracking appeared first on SpaceN…",
-      "ts": 1785883627000,
-      "publishedAt": "2026-08-04T22:47:07.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Telesat lands $1.63 billion Canadian defense contract",
-      "url": "https://spacenews.com/telesat-lands-1-63-billion-canadian-defense-contract/",
-      "summary": "Arctic communications award will fund an expansion of Telesat’s Lightspeed, taking the planned LEO network to 225 spacecraft The post Telesat lands $1.63 billion Canadian defense contract appeared first on SpaceNews.",
-      "ts": 1785880815000,
-      "publishedAt": "2026-08-04T22:00:15.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "NOAA purchases Spire hyperspectral microwave sounder data",
-      "url": "https://spacenews.com/noaa-purchases-spire-hyperspectral-microwave-sounder-data/",
-      "summary": "SAN FRANCISCO – The National Oceanic and Atmospheric Administration will continue to evaluate data from Spire Global’s Hyperspectral Microwave Sounder (HyMS) under a $3 million contract extension announced Aug. 4. […] Th…",
-      "ts": 1785873900000,
-      "publishedAt": "2026-08-04T20:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Will Attempt to Observe Rocket Part’s Lunar Impact",
-      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact/",
-      "summary": "Using ground-based telescopes and space-based assets, NASA and SpaceX are tracking a used Falcon 9 upper stage from a commercial mission expected to impact the Moon on Wednesday, Aug. 5, near the Einstein and Bell crater…",
-      "ts": 1785873614000,
-      "publishedAt": "2026-08-04T20:00:14.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Ebola kills 1,700 in eastern Congo as the fastest-growing outbreak surges",
-      "url": "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/?utm_campaign=rss",
-      "summary": "Ebola has killed more than 1,700 people in eastern Congo in what has become the fastest-growing outbreak of the disease.",
-      "ts": 1785870648000,
-      "publishedAt": "2026-08-04T19:10:48.000Z",
       "categoryId": "bio"
     }
   ],
