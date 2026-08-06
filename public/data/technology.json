@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-06T08:39:53.318Z",
+  "updated": "2026-08-06T11:24:55.025Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Rocket Lab launches 8th iQPS satellite",
+      "url": "https://spacenews.com/rocket-lab-launches-8th-iqps-satellite/",
+      "summary": "Rocket Lab launched a Japanese radar-imaging satellite Aug. 6, more than a month after the previous launch attempt was aborted. The post Rocket Lab launches 8th iQPS satellite appeared first on SpaceNews.",
+      "ts": 1786015047000,
+      "publishedAt": "2026-08-06T11:17:27.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Chinese launch startup Orienspace targets IPO, secures funding for reusable Gravity-2 rocket",
+      "url": "https://spacenews.com/chinese-launch-startup-orienspace-targets-ipo-secures-funding-for-reusable-gravity-2-rocket/",
+      "summary": "HELSINKI — Commercial launch company Orienspace has kicked off preparations for an IPO coaching process while closing a funding round for accelerating its reusable Gravity-2 rocket. The Shandong-based company, formally […",
+      "ts": 1786013283000,
+      "publishedAt": "2026-08-06T10:48:03.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A scientist-turned-biotech executive is notching some wins, and enjoying it",
+      "url": "https://www.statnews.com/2026/08/06/greg-verdine-lifemine-parabilis-research/?utm_campaign=rss",
+      "summary": "Scientist-turned-biotech executive Greg Verdine is having a very good year.",
+      "ts": 1786012200000,
+      "publishedAt": "2026-08-06T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Biotech’s next big bet: A Tenax study of a heart failure treatment",
+      "url": "https://www.statnews.com/2026/08/06/tenax-study-heart-failure-preview/?utm_campaign=rss",
+      "summary": "Tenax Therapeutics will soon report results from a Phase 3 study that is one of the biggest binary biotech stock events remaining in the sector this year.",
+      "ts": 1786012200000,
+      "publishedAt": "2026-08-06T10:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "ExoMars stretches out its legs",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/ExoMars_stretches_out_its_legs",
+      "summary": "Video: 00:00:06 The footage shows the simultaneous deployment of two landing legs from the ExoMars landing platform, in two sequential pairs. The legs travel stowed on the spacecraft through deep space, and are automatic…",
+      "ts": 1786006800000,
+      "publishedAt": "2026-08-06T09:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Opinion: What my colleagues and I will look for as we assess U.S. measles elimination status",
@@ -517,6 +562,15 @@
     },
     {
       "source": "United Nations News",
+      "title": "Hiroshima fosters hope, 81 years on from nuclear catastrophe",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168087",
+      "summary": "Eighty-one years ago on Thursday, the United States dropped an atomic bomb on Hiroshima, reducing the city to ruins, killing tens of thousands of people and bringing the world “face to face with the catastrophic power of…",
+      "ts": 1785931200000,
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "World News in Brief: Cambodia human rights, Hormuz invasive species risk, IOM lauds 2025 progress",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168086",
       "summary": "Concluding his first official visit to Cambodia, UN independent human rights expert Tom Andrews said he was encouraged by the government’s cooperation but remained concerned about key human rights issues such as the lack…",
@@ -754,60 +808,6 @@
       "title": "Expanding Protein Structure Prediction into Conformational State Space",
       "url": "https://arxiv.org/abs/2608.02866",
       "summary": "arXiv:2608.02866v1 Announce Type: new Abstract: Recent AI advances have enabled protein structure prediction at near-experimental accuracy, largely solving the problem of identifying a dominant conformation from sequence…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Persistent homology broadens the controllable subspace in human structural connectomes",
-      "url": "https://arxiv.org/abs/2608.03181",
-      "summary": "arXiv:2608.03181v1 Announce Type: new Abstract: Network control theory applied to structural connectomes typically ranks brain regions as candidate driver nodes by their structural connectivity strength, and evaluates pe…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stochastic partial differential equation model for environmental DNA dynamics in river environments",
-      "url": "https://arxiv.org/abs/2608.03364",
-      "summary": "arXiv:2608.03364v1 Announce Type: new Abstract: Environmental DNA (eDNA) has emerged as a novel tool for quantifying the seasonal abundance of aquatic species in water bodies; however, its mathematical modeling is still …",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Synergy and Complementarity: The Generative Basis of Chemical Organizations",
-      "url": "https://arxiv.org/abs/2608.03541",
-      "summary": "arXiv:2608.03541v1 Announce Type: new Abstract: Identifying structural features ensuring the persistence of a reaction network is fundamental for understanding the evolution and complexification of biological entities. B…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Identifiability of phylogenetic networks and quintet concordance factors",
-      "url": "https://arxiv.org/abs/2608.03544",
-      "summary": "arXiv:2608.03544v1 Announce Type: new Abstract: Several statistical methods of phylogenetic network inference and testing for non-tree-like relationships are based on assessing genomic data through quartet Concordance Fa…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Population Structures with Positive Feedback and Asymmetric Division",
-      "url": "https://arxiv.org/abs/2608.03604",
-      "summary": "arXiv:2608.03604v1 Announce Type: new Abstract: In bioreactor experiments, budding yeast can manifest stable metabolic oscillations. In some instances these oscillations involve the cell cycle and are associated with a d…",
-      "ts": 1785902400000,
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The Zombie Infection Model",
-      "url": "https://arxiv.org/abs/2607.29409",
-      "summary": "arXiv:2607.29409v1 Announce Type: cross Abstract: We study a variant of the stochastic SIR model on graphs that has previously been introduced in the physics literature for modelling zombie outbreaks and here referred to…",
       "ts": 1785902400000,
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "categoryId": "bio"

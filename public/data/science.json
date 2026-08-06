@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-06T08:39:49.154Z",
+  "updated": "2026-08-06T11:24:53.047Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Researchers call for rethink of how women are supported into business",
+      "url": "https://phys.org/news/2026-08-rethink-women-business.html",
+      "summary": "The way women are supported to start and grow businesses needs updating for the digital age, according to researchers from the University of East London. The academics argue that while women continue to face barriers suc…",
+      "ts": 1786015203000,
+      "publishedAt": "2026-08-06T11:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Low water on Germany's Rhine River threatens new blow to economy",
+      "url": "https://phys.org/news/2026-08-germany-rhine-river-threatens-economy.html",
+      "summary": "Dwindling water levels on some of Germany's major rivers, worsened by heat and drought, are raising fears that badly constrained riverboat cargo traffic could deal yet another blow to the struggling economy.",
+      "ts": 1786014003000,
+      "publishedAt": "2026-08-06T11:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Pacific islands alarmed by Trump-backed push for deep-sea mining",
+      "url": "https://phys.org/news/2026-08-pacific-islands-alarmed-trump-deep.html",
+      "summary": "A Pacific island leader says there were \"no consultations\" before the U.S. announced swaths of nearby ocean could be auctioned for deep-sea mining exploration, telling AFP the industry faced strong opposition among his p…",
+      "ts": 1786005601000,
+      "publishedAt": "2026-08-06T08:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Climate change contributed to big Canada fires, study says as Trump blames mismanagement",
@@ -775,30 +799,6 @@
       "title": "Investigating How the Fractions Skill Score and Brier Divergence Skill Score Reflect Forecast Error",
       "url": "https://arxiv.org/abs/2603.15247",
       "summary": "arXiv:2603.15247v2 Announce Type: replace Abstract: Meaningful scores for forecast verification are essential for developing reliable forecasts, and there has been much effort to develop scores that align well with human…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Anisotropic propagation of GHz surface and bulk acoustic waves in gallium arsenide studied by random scattering",
-      "url": "https://arxiv.org/abs/2603.19860",
-      "summary": "arXiv:2603.19860v2 Announce Type: replace Abstract: Understanding the complex anisotropic acoustic propagation in crystals is crucial for optimizing the performance of surface and bulk acoustic wave devices. Here, we inv…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Xenon Signal Denoising via Supervised, Semi-Supervised, and Unsupervised Models",
-      "url": "https://arxiv.org/abs/2603.27005",
-      "summary": "arXiv:2603.27005v2 Announce Type: replace Abstract: This study presents a denoising algorithm trained using machine learning to improve the energy resolution of a single-phase liquid xenon time projection chamber for neu…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Active Transport as a Mechanism of Microphase Selection in Biomolecular Condensates",
-      "url": "https://arxiv.org/abs/2604.08316",
-      "summary": "arXiv:2604.08316v2 Announce Type: replace Abstract: The size and organization of biomolecular condensates formed by liquid-liquid phase separation (LLPS) are set by multiple cellular mechanisms that are not yet fully und…",
       "ts": 1785988800000,
       "publishedAt": "2026-08-06T04:00:00.000Z"
     }
