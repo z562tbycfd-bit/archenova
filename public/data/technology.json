@@ -1,7 +1,115 @@
 {
   "ok": true,
-  "updated": "2026-08-06T14:16:14.776Z",
+  "updated": "2026-08-07T00:41:22.266Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Genetic Findings Provide Insights Into Leading Cause of Back Pain",
+      "url": "https://www.genengnews.com/topics/omics/genetic-findings-provide-insights-into-leading-cause-of-back-pain/",
+      "summary": "Research scientists previously discovered that a gene connected to a protein called collagen IX, which helps hold the disc's structural fibers together, has been repeatedly linked to early-onset disc problems. The post G…",
+      "ts": 1786056653000,
+      "publishedAt": "2026-08-06T22:50:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Engineered Human Interneuron Transplants Repair Respiratory Circuits in Injured Rats",
+      "url": "https://www.genengnews.com/topics/translational-medicine/engineered-human-interneuron-transplants-repair-respiratory-circuits-in-injured-rats/",
+      "summary": "Transplanted human interneurons, a type of nerve cell, formed working connections in the injured spinal cords of rats and improved breathing, supporting their potential as a possible treatment for spinal cord injuries in…",
+      "ts": 1786048867000,
+      "publishedAt": "2026-08-06T20:41:07.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Tau and Alzheimer’s Disease",
+      "url": "https://www.genengnews.com/resources/ebooks/tau-and-alzheimers-disease/",
+      "summary": "In this edition of the Nautilus Biotechnology “Proteomics and neuroscience” eBook, we’re excited to dive into tau biology, share what researchers are learning about tau and its role in Alzheimer’s disease using the Nauti…",
+      "ts": 1786047080000,
+      "publishedAt": "2026-08-06T20:11:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA approves Replimune melanoma drug previously rejected twice",
+      "url": "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial/?utm_campaign=rss",
+      "summary": "The FDA approved Replimune’s treatment for advanced melanoma, dealing the company and patient advocates a big win after a tumultuous saga.",
+      "ts": 1786046368000,
+      "publishedAt": "2026-08-06T19:59:28.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Renewed Importance of CEX in Monoclonal-Antibody Purification",
+      "url": "https://www.genengnews.com/sponsored/renewed-importance-of-cex-in-monoclonal-antibody-purification/",
+      "summary": "Advanced chromatography resins and data-driven strategies are redefining monoclonal-antibody purification in modern biopharmaceutical manufacturing. The post Renewed Importance of CEX in Monoclonal-Antibody Purification …",
+      "ts": 1786043274000,
+      "publishedAt": "2026-08-06T19:07:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Medicare quietly gave blockbuster AbbVie drug seven extra years before price negotiations, advocacy group asserts",
+      "url": "https://www.statnews.com/pharmalot/2026/08/06/medicare-gave-blockbuster-abbvie-drug-seven-extra-years-before-price-negotiations/?utm_campaign=rss",
+      "summary": "A little-noticed government policy shift caused a seven-year delay in choosing a costly medicine for Medicare price negotiations, an advocacy group says.",
+      "ts": 1786042800000,
+      "publishedAt": "2026-08-06T19:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Tau Protein Linked to Mitochondrial Reverse Electron Transport in Preclinical Models",
+      "url": "https://www.genengnews.com/topics/translational-medicine/tau-protein-linked-to-mitochondrial-reverse-electron-transport-in-preclinical-models/",
+      "summary": "The results of a preclinical study demonstrated that phosphorylated tau enters mitochondria and initiates a vicious cycle of pathological events that trigger reverse electron transport. The post Tau Protein Linked to Mit…",
+      "ts": 1786031956000,
+      "publishedAt": "2026-08-06T15:59:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "How should Europe’s militaries respond to space threats",
+      "url": "https://spacenews.com/how-should-europes-militaries-respond-to-space-threats/",
+      "summary": "In this episode, SpaceNews’ Emma Gatti leads a panel of experts to discuss Europe’s defense posture and the reaction to space threats. This session was recorded in May at SpaceNews’ […] The post How should Europe’s milit…",
+      "ts": 1786030286000,
+      "publishedAt": "2026-08-06T15:31:26.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Lessons for the future of NASA Mars exploration from a 1970s mission",
+      "url": "https://spacenews.com/lessons-for-the-future-of-nasa-mars-exploration-from-a-1970s-mission/",
+      "summary": "July 20 marked the 50th anniversary of one of the biggest robotic spaceflight achievements in NASA’s history: the landing of the Viking 1 spacecraft on Mars. It was the first […] The post Lessons for the future of NASA M…",
+      "ts": 1786028400000,
+      "publishedAt": "2026-08-06T15:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Study reveals new role for tau, a top target for Alzheimer’s drug development",
+      "url": "https://www.statnews.com/2026/08/06/research-finds-how-tau-targets-cells-structure-alzheimers-drug-development/?utm_campaign=rss",
+      "summary": "The protein tau is top target for Alzheimer’s drug development, and a new study bolsters those efforts by describing a previously unknown role that tau plays in neurodegeneration.",
+      "ts": 1786028400000,
+      "publishedAt": "2026-08-06T15:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Redwire to fly dedicated Starfall mission for microgravity research",
+      "url": "https://spacenews.com/redwire-to-fly-dedicated-starfall-mission-for-microgravity-research/",
+      "summary": "A Redwire subsidiary working on space biotech and pharmaceutical applications has signed an agreement to fly microgravity research payloads on SpaceX’s Starfall reentry vehicle. The post Redwire to fly dedicated Starfall…",
+      "ts": 1786025899000,
+      "publishedAt": "2026-08-06T14:18:19.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Update 361 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-361-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "ts": 1786024392000,
+      "publishedAt": "2026-08-06T13:53:12.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Two FDA approvals — a new drug and a new vaccine",
@@ -183,6 +291,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "OpenAI",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "ts": 1786010400000,
+      "publishedAt": "2026-08-06T10:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "ESA",
       "title": "ExoMars stretches out its legs",
       "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/ExoMars_stretches_out_its_legs",
@@ -217,6 +334,15 @@
       "ts": 1786003200000,
       "publishedAt": "2026-08-06T08:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "ts": 1785996000000,
+      "publishedAt": "2026-08-06T06:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -442,6 +568,15 @@
       "ts": 1785982717000,
       "publishedAt": "2026-08-06T02:18:37.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+      "ts": 1785974400000,
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -676,141 +811,6 @@
       "ts": 1785934847000,
       "publishedAt": "2026-08-05T13:00:47.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: NASA’s new telescope and Chinese tech import curbs",
-      "url": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. NASA’s new dark energy space telescope can also detect killer asteroids At the end…",
-      "ts": 1785931800000,
-      "publishedAt": "2026-08-05T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Enzene Targets Local Biomanufacturing with New Solutions",
-      "url": "https://www.genengnews.com/topics/bioprocessing/enzene-targets-local-biomanufacturing-with-new-solutions/",
-      "summary": "NeX, which is built on the EnzeneX continuous manufacturing (FCCM) platform, is designed to deliver a turnkey and scalable way to make biologics manufacturing transportable, close to patients and supply chains. The post …",
-      "ts": 1785931211000,
-      "publishedAt": "2026-08-05T12:00:11.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Satellite manufacturing thrives in California despite cost and regulatory pressures",
-      "url": "https://spacenews.com/satellite-manufacturing-thrives-in-california-despite-cost-and-regulatory-pressures/",
-      "summary": "The mood was celebratory at the ribbon-cutting for Muon Space’s San Jose, California, manufacturing facility in June. State, local, United States Space Force and Pentagon representatives lauded the startup and, […] The p…",
-      "ts": 1785931200000,
-      "publishedAt": "2026-08-05T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Hiroshima fosters hope, 81 years on from nuclear catastrophe",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168087",
-      "summary": "Eighty-one years ago on Thursday, the United States dropped an atomic bomb on Hiroshima, reducing the city to ruins, killing tens of thousands of people and bringing the world “face to face with the catastrophic power of…",
-      "ts": 1785931200000,
-      "publishedAt": "2026-08-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World News in Brief: Cambodia human rights, Hormuz invasive species risk, IOM lauds 2025 progress",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168086",
-      "summary": "Concluding his first official visit to Cambodia, UN independent human rights expert Tom Andrews said he was encouraged by the government’s cooperation but remained concerned about key human rights issues such as the lack…",
-      "ts": 1785931200000,
-      "publishedAt": "2026-08-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Tate brothers’ US extradition case a ‘step towards accountability,’ says independent expert",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168085",
-      "summary": "An independent UN human rights expert has welcomed ongoing proceedings in the United States to extradite “manosphere” bloggers Andrew and Tristan Tate to the United Kingdom, calling the case an important step towards acc…",
-      "ts": 1785931200000,
-      "publishedAt": "2026-08-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN reports deadly month for Ukrainian civilians as Russian attacks intensify",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168082",
-      "summary": "Russian forces hammered Ukraine with ballistic missiles and long-range drones overnight on Tuesday, killing at least 17 civilians – mainly around Kyiv – and injuring another 44, the UN human rights office in Ukraine repo…",
-      "ts": 1785931200000,
-      "publishedAt": "2026-08-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Sharp spike in executions, death sentences in Iran",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168081",
-      "summary": "The UN rights chief expressed alarm on Wednesday over the sharp increase in executions and death sentences in Iran since the US-Israeli bombing campaign began in late February, warning that capital punishment is being us…",
-      "ts": 1785931200000,
-      "publishedAt": "2026-08-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Ambassadors briefed on continuing ISIL terror threat",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168080",
-      "summary": "The Security Council met on Wednesday to examine the persistent threat posed by the terrorist group ISIL, also known as Dae’sh, to international peace and security. At a conference in June, the acting head of the UN coun…",
-      "ts": 1785931200000,
-      "publishedAt": "2026-08-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Strengthening El Niño to push 49 million more people into acute hunger",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168079",
-      "summary": "Nearly 50 million more people in highly vulnerable communities globally are set to be pushed into acute hunger because of the strengthening El Niño weather phenomenon, the UN World Food Programme (WFP) said on Wednesday.",
-      "ts": 1785931200000,
-      "publishedAt": "2026-08-05T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "The main therapy used for children with autism faces changes under Medicaid",
-      "url": "https://www.statnews.com/2026/08/05/health-news-aba-therapy-for-children-with-autism-faces-changes-under-medicaid/?utm_campaign=rss",
-      "summary": "Quid-pro-quo vaping policies, ebola vaccine efforts, and more health news from Morning Rounds",
-      "ts": 1785930927000,
-      "publishedAt": "2026-08-05T11:55:27.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Fur Real: Biotech Startup Eliminates Major Dog Allergen in Beagle Pups Using CRISPR",
-      "url": "https://www.genengnews.com/topics/genome-editing/fur-real-biotech-startup-eliminates-major-dog-allergen-in-beagle-pups-using-crispr/",
-      "summary": "The puppies represent a key first step towards addressing canine allergenicity and mark potentially a significant advance in veterinary biotechnology. The post Fur Real: Biotech Startup Eliminates Major Dog Allergen in B…",
-      "ts": 1785927639000,
-      "publishedAt": "2026-08-05T11:00:39.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Recursion Partners with Genentech to Advance First Validated Neuro Target Discovered Through AI Map",
-      "url": "https://www.genengnews.com/topics/artificial-intelligence/recursion-partners-with-genentech-to-advance-first-validated-neuro-target-discovered-through-ai-map/",
-      "summary": "The target’s significance, according to Recursion and its partners, rests in its potential to expand the universe of neuroscience treatments beyond the handful of familiar targets in the space. While more than three bill…",
-      "ts": 1785925848000,
-      "publishedAt": "2026-08-05T10:30:48.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Bahamas Charts Next Steps to Strengthen Cancer Control Following imPACT Review",
-      "url": "http://www.iaea.org/newscenter/news/bahamas-charts-next-steps-to-strengthen-cancer-control-following-impact-review",
-      "summary": "",
-      "ts": 1785924605000,
-      "publishedAt": "2026-08-05T10:10:05.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "ESA",
-      "title": "Europe’s forests losing more biomass since 2018",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Europe_s_forests_losing_more_biomass_since_2018",
-      "summary": "Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from some of the oldest forests in Europe. This situation has deteriorated m…",
-      "ts": 1785922200000,
-      "publishedAt": "2026-08-05T09:30:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
