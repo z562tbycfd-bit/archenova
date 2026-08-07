@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-07T19:56:06.884Z",
+  "updated": "2026-08-07T20:44:59.237Z",
   "items": [
     {
       "source": "SpaceNews",
@@ -136,6 +136,24 @@
       "ts": 1786105006000,
       "publishedAt": "2026-08-07T12:16:46.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Peacock party takes pride of place in nod to decades of turbulent history",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168099",
+      "summary": "In a new twist on panda diplomacy, UN Geneva welcomed five young peacocks to the Palace of Nations on Friday, a gift of India that preserves a tradition of keeping the stately birds in the grounds, that predates both the…",
+      "ts": 1786104000000,
+      "publishedAt": "2026-08-07T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Ebola in DR Congo: Childhood deaths rise; hopes raised over new vaccine",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168100",
+      "summary": "More than 300 children have died in the Ebola outbreak in the eastern Democratic Republic of the Congo (DRC), the UN said on Friday, as health experts urged trials of the only vaccine against the disease to halt further …",
+      "ts": 1786104000000,
+      "publishedAt": "2026-08-07T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "United Nations News",
@@ -792,24 +810,6 @@
       "summary": "“The United States invented this platform and is the only country walking away from it,” Jeff Coller writes of mRNA vaccines.",
       "ts": 1786018218000,
       "publishedAt": "2026-08-06T12:10:18.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
-      "url": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painf…",
-      "ts": 1786018200000,
-      "publishedAt": "2026-08-06T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "DNA Script Wins ARPA-H Award to Advance DNA Manufacturing",
-      "url": "https://www.genengnews.com/topics/bioprocessing/dna-script-wins-arpa-h-award-to-advance-dna-manufacturing/",
-      "summary": "DNA Script says the company is contributing its EDS technology and acting as a technical solution integrator for the project, while adapting its solution to incorporate GE HealthCare’s proprietary DNA scaling technology.…",
-      "ts": 1786017642000,
-      "publishedAt": "2026-08-06T12:00:42.000Z",
       "categoryId": "bio"
     }
   ],

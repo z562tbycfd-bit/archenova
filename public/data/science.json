@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-07T19:56:04.755Z",
+  "updated": "2026-08-07T20:44:56.598Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Crossing into a mirror world: Particles turn to wisps of fog, and the magnetic monopole paradox dissolves",
+      "url": "https://phys.org/news/2026-08-mirror-world-particles-wisps-fog.html",
+      "summary": "In Goethe's ballad \"Erlkönig,\" immortalized in Schubert's fevered 1815 setting, a dying boy riding through the night sees a spectral king beckoning from the darkness. His father calms him: \"Mein Sohn, es ist ein Nebelstr…",
+      "ts": 1786135202000,
+      "publishedAt": "2026-08-07T20:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tiny floating magnet detects ultrafaint magnetic fields at room temperature",
+      "url": "https://phys.org/news/2026-08-tiny-magnet-ultrafaint-magnetic-fields.html",
+      "summary": "Measuring faint magnetic fields is useful in a number of areas, including mapping brain activity, monitoring hearts and probing fundamental physics. Typically, picking up such weak signals requires expensive or bulky equ…",
+      "ts": 1786134002000,
+      "publishedAt": "2026-08-07T20:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Antenna-like cell appendage may help turtle embryos sense sex-deciding nest temperatures",
+      "url": "https://phys.org/news/2026-08-antenna-cell-appendage-turtle-embryos.html",
+      "summary": "When most baby turtles hatch, their sex depends on the temperature of the sand or soil where their mother laid her eggs. Warm incubation produces females, while cool nests produce males.",
+      "ts": 1786132801000,
+      "publishedAt": "2026-08-07T20:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Hydraulic traits reveal why some mountain trees move uphill while others shift downhill",
@@ -775,30 +799,6 @@
       "title": "VENUSS: a unified finite-element model of solidifying lava",
       "url": "https://arxiv.org/abs/2608.06199",
       "summary": "arXiv:2608.06199v1 Announce Type: new Abstract: The development of a solid rind or carapace at the surface of lava flows and domes results in a transition in deformation mechanism from dominantly viscous to elastic or pl…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Using LLMs to Detect Growth in Computational Thinking in Introductory Physics",
-      "url": "https://arxiv.org/abs/2608.06200",
-      "summary": "arXiv:2608.06200v1 Announce Type: new Abstract: As computation becomes more central to physics education, creating scalable methods to assess authentic computational thinking (CT) in students remains a critical challenge…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Phase Space Electronic Structure View of The Solid State",
-      "url": "https://arxiv.org/abs/2608.06260",
-      "summary": "arXiv:2608.06260v1 Announce Type: new Abstract: We develop a phase space electronic structure view of the solid state, where electronic bands are parameterized by both nuclear position $\\mathbf{Q}$ and nuclear momentum $…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Newton's Second Law: A Theoretical Identity Derived from the Principle of Excluded Perpetual Motion and the Weak Equivalence Principle",
-      "url": "https://arxiv.org/abs/2608.06266",
-      "summary": "arXiv:2608.06266v1 Announce Type: new Abstract: For more than three centuries, Newton's Second Law (F=ma) has governed mechanics with undisputed success, yet its epistemic authority has rested on empirical adequacy alone…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
