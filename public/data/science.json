@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-07T05:42:03.702Z",
+  "updated": "2026-08-07T07:19:13.067Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Camels find unlikely home in outback Australia",
+      "url": "https://phys.org/news/2026-08-camels-home-outback-australia.html",
+      "summary": "Far from their origins in the Arabian desert, hundreds of thousands of camels roam outback Australia, where they are used for wild races, an alternative milk source and even to make beer.",
+      "ts": 1786084385000,
+      "publishedAt": "2026-08-07T06:33:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "South Korean satellite captures before and after views of SpaceX rocket's moon crash",
+      "url": "https://phys.org/news/2026-08-south-korean-satellite-captures-views.html",
+      "summary": "A South Korean satellite has captured the first pictures of the moon's fresh crash scene caused by a stray SpaceX rocket.",
+      "ts": 1786084267000,
+      "publishedAt": "2026-08-07T06:31:07.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "The prediction of extreme uncertainty-production events in three-dimensional Navier-Stokes turbulence",
@@ -783,22 +799,6 @@
       "title": "RSstitcher -- Merging 2D diffraction frames for Wide Range Reciprocal Space Maps with absorption correction and integration functions",
       "url": "https://arxiv.org/abs/2511.08265",
       "summary": "arXiv:2511.08265v2 Announce Type: replace Abstract: Wide Range Reciprocal Space Mapping (WRRSM) is a technique that allows visualisation of the geometric relationships among multiple hkl spots in a whole reciprocal space…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Integrated polarization-entangled photon source for wavelength-multiplexed quantum networks",
-      "url": "https://arxiv.org/abs/2511.22680",
-      "summary": "arXiv:2511.22680v2 Announce Type: replace Abstract: Entangled photons are fundamental resources for quantum communication, computing, and networking. Among them, polarization-entangled photon pairs play an important role…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Constructing de Sitter space and Dark Matter with Dynamical Tension Strings",
-      "url": "https://arxiv.org/abs/2512.16941",
-      "summary": "arXiv:2512.16941v3 Announce Type: replace Abstract: The string tensions can be dynamical in the modified measure formalism and appear as an additional dynamical degrees of freedom . These tensions may not be universal, i…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }

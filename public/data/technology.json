@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-07T05:42:07.039Z",
+  "updated": "2026-08-07T07:19:15.650Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon ",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasas-lunar-development-and-test-facility-prepares-artemis-hardware-for-moon/",
+      "summary": "Before astronauts return to the Moon’s surface through NASA’s Artemis program, the hardware they depend on must first prove it can survive the unforgiving lunar environment. At NASA’s Johnson Space Center in Houston, eng…",
+      "ts": 1786083927000,
+      "publishedAt": "2026-08-07T06:25:27.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "arXiv q-bio",
       "title": "CLARA: Clarification of Language Ambiguity through Result Analysis for Natural-Language Cancer Genomics Queries",
@@ -799,15 +808,6 @@
       "title": "An entropic explanation of insistence on sameness in autism",
       "url": "https://arxiv.org/abs/2608.04616",
       "summary": "arXiv:2608.04616v1 Announce Type: cross Abstract: An information theory-based framework is proposed in attempt to explain insistence on sameness in autism as an instance of a general behavior pattern in which an individu…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Parameter identification for predator-prey system with sparse data",
-      "url": "https://arxiv.org/abs/2608.04959",
-      "summary": "arXiv:2608.04959v1 Announce Type: cross Abstract: Parameter identification from observations of dynamical systems is a fundamental problem in population biology. Mechanistic models of ecological systems rely on optimizat…",
       "ts": 1785988800000,
       "publishedAt": "2026-08-06T04:00:00.000Z",
       "categoryId": "bio"
