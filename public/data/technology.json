@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-07T14:54:48.303Z",
+  "updated": "2026-08-07T15:58:12.349Z",
   "items": [
     {
       "source": "NASA",
@@ -180,15 +180,6 @@
       "summary": "APOD Science APOD APOD: 2026 August 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
       "ts": 1786075500000,
       "publishedAt": "2026-08-07T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Sensing the Poles’ Hidden Heat",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
-      "summary": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -469,6 +460,15 @@
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Sensing the Poles’ Hidden Heat",
+      "url": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
+      "summary": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
+      "ts": 1786075200000,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",

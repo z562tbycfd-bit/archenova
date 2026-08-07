@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-07T14:54:46.295Z",
+  "updated": "2026-08-07T15:58:10.378Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Different genes, same result: How flies evolved multiple ways to define heads and tails",
+      "url": "https://phys.org/news/2026-08-genes-result-flies-evolved-multiple.html",
+      "summary": "One of the most important milestones in the early life of an organism is when the embryo breaks symmetry and arranges itself to form the head (anterior) at one end and tail (posterior) at the other end. Scientists have u…",
+      "ts": 1786117204000,
+      "publishedAt": "2026-08-07T15:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "High-coverage ancient genomes reveal prehistoric population histories of Japan",
+      "url": "https://phys.org/news/2026-08-high-coverage-ancient-genomes-reveal.html",
+      "summary": "A research team led by Koji Ishiya of Kanazawa University reconstructed exceptionally high-coverage genomes from two ancient individuals in Japan: IY1, a woman from the Initial Jomon period who lived about 8,300 years ag…",
+      "ts": 1786117201000,
+      "publishedAt": "2026-08-07T15:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Plasma gun' technology could transform space laundry and sanitation for future missions",
+      "url": "https://phys.org/news/2026-08-plasma-gun-technology-space-laundry.html",
+      "summary": "Researchers at The University of Alabama in Huntsville (UAH), part of The University of Alabama System, are developing plasma-based technology to help astronauts stay healthier during missions to the moon and Mars by san…",
+      "ts": 1786116003000,
+      "publishedAt": "2026-08-07T15:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "XENONnT detector narrows the hunt for dark matter",
+      "url": "https://phys.org/news/2026-08-xenonnt-detector-narrows-dark.html",
+      "summary": "Using a detector filled with nearly 9 metric tons of liquid xenon, researchers have delivered some of the most sensitive dark matter results ever recorded. In the latest analysis from the XENON collaboration, working at …",
+      "ts": 1786116001000,
+      "publishedAt": "2026-08-07T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "One snail, five slimes: Collagen and calcium reshape mucus for different jobs",
+      "url": "https://phys.org/news/2026-08-snail-slimes-collagen-calcium-reshape.html",
+      "summary": "Snails are particularly active after a rain shower. Even on the Max Planck Campus in Potsdam-Golm, common brown-lipped snails (Cepaea nemoralis) leave behind shiny trails of mucus. Researchers from the \"Biomaterials\" dep…",
+      "ts": 1786114801000,
+      "publishedAt": "2026-08-07T15:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "From mountain peaks to microclimates, new maps bring satellite big data down to Earth",
@@ -28,7 +68,7 @@
     },
     {
       "source": "Science News",
-      "title": "AI may respond differently to bosses and subordinate",
+      "title": "AI may respond differently to bosses and subordinates",
       "url": "https://www.sciencenews.org/article/ai-bosses-subordinate-response-safety",
       "summary": "In simulated conversations, social hierarchy can sway AI agents, making lower-status systems more likely to follow harmful requests.",
       "ts": 1786111200000,
@@ -759,46 +799,6 @@
       "title": "Minimization-based polynomial corrections for high-order curved boundaries on fixed and moving domains: assessment on finite volume and discontinuous Galerkin schemes",
       "url": "https://arxiv.org/abs/2608.05768",
       "summary": "arXiv:2608.05768v1 Announce Type: cross Abstract: In this work, we present two novel strategies to impose high-order boundary conditions on fixed and moving curved domains, approximated with piecewise affine triangulatio…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Temporal Tracking of Reeb-Space Sheets",
-      "url": "https://arxiv.org/abs/2608.05837",
-      "summary": "arXiv:2608.05837v1 Announce Type: cross Abstract: Time-varying bivariate fields arise in many scientific applications, where the relationship between two scalar quantities evolves over time. While topological methods suc…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Computing Shear Viscosities from Molecular Dynamics Simulation: Comparing the OrthoBoXY Approach with the Green-Kubo Method",
-      "url": "https://arxiv.org/abs/2608.05845",
-      "summary": "arXiv:2608.05845v1 Announce Type: cross Abstract: We calculated shear viscosities of 15 neat molecular liquids from equilibrium molecular dynamics (MD) simulations using the OrthoBoXY approach and compare them to viscosi…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "NestyNet. I. Physics Functions Are Hard to Fit with Neural Networks: A Framework for Accurate Surrogates and Analytic Derivatives",
-      "url": "https://arxiv.org/abs/2608.05862",
-      "summary": "arXiv:2608.05862v1 Announce Type: cross Abstract: Many of the smooth functions that matter most in physics are precisely the ones that standard neural network methods struggle to fit accurately. Here we present NestyNet,…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Jsymm: A Python package for symmetry analysis of exchange tensors in magnetic Hamiltonians",
-      "url": "https://arxiv.org/abs/2608.05918",
-      "summary": "arXiv:2608.05918v1 Announce Type: cross Abstract: Symmetries of a crystal often restrict its physical properties. In particular, they determine possible forms of the tensors that describe interatomic exchange interaction…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Scale-Invariant Theory of the Universe",
-      "url": "https://arxiv.org/abs/2608.05929",
-      "summary": "arXiv:2608.05929v1 Announce Type: cross Abstract: Modern physics has achieved extraordinary empirical success while retaining much of the absolute, unobservable structure introduced by Newton, largely without questioning…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
