@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-07T13:08:22.875Z",
+  "updated": "2026-08-07T14:54:46.295Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "From mountain peaks to microclimates, new maps bring satellite big data down to Earth",
+      "url": "https://phys.org/news/2026-08-mountain-peaks-microclimates-satellite-big.html",
+      "summary": "Zooming from her office, Michigan State University researcher Kelly Kapsar showed satellite images from across the United States. In some, different colors revealed the precise heights of the forested ridges in the Sierr…",
+      "ts": 1786113603000,
+      "publishedAt": "2026-08-07T14:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Newly identified C/EBPγ protein links cancer cell plasticity and DNA repair",
+      "url": "https://phys.org/news/2026-08-newly-cebp-protein-links-cancer.html",
+      "summary": "A research team has identified the transcription factor C/EBPγ as a novel regulator that simultaneously promotes epithelial-mesenchymal transition (EMT) and DNA double-strand break repair in lung adenocarcinoma cells. Th…",
+      "ts": 1786112401000,
+      "publishedAt": "2026-08-07T14:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Honduras review confirms 227 native mammal species after eight-year effort",
+      "url": "https://phys.org/news/2026-08-honduras-native-mammal-species-year.html",
+      "summary": "An eight-year international research effort has produced the most comprehensive review of Honduras' mammals since 1998, verifying 227 native species across 146 genera and 42 families, along with three introduced rodent s…",
+      "ts": 1786111203000,
+      "publishedAt": "2026-08-07T14:00:03.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "AI may respond differently to bosses and subordinate",
+      "url": "https://www.sciencenews.org/article/ai-bosses-subordinate-response-safety",
+      "summary": "In simulated conversations, social hierarchy can sway AI agents, making lower-status systems more likely to follow harmful requests.",
+      "ts": 1786111200000,
+      "publishedAt": "2026-08-07T14:00:00.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Neutrinos From Deep Inside Earth Provide a New Picture of the Mantle",
+      "url": "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807/",
+      "summary": "A global constellation of neutrino detectors is creating a never-before-seen view of the radioactive elements that power Earth’s tectonic heat engine. The post Neutrinos From Deep Inside Earth Provide a New Picture of th…",
+      "ts": 1786110932000,
+      "publishedAt": "2026-08-07T13:55:32.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Physicists trace solar outbursts that led to historic Mother's Day storms",
@@ -49,6 +89,30 @@
       "summary": "Few tax issues generate more public frustration than big corporations paying little, or sometimes nothing, in federal income tax. Since 2018, U.S. corporations have faced a 21% federal corporate income tax rate, the lowe…",
       "ts": 1786100403000,
       "publishedAt": "2026-08-07T11:00:03.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
+      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
+      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
+      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
+      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
+      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
+      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -735,70 +799,6 @@
       "title": "A Scale-Invariant Theory of the Universe",
       "url": "https://arxiv.org/abs/2608.05929",
       "summary": "arXiv:2608.05929v1 Announce Type: cross Abstract: Modern physics has achieved extraordinary empirical success while retaining much of the absolute, unobservable structure introduced by Newton, largely without questioning…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Integrable curl-force Hamiltonians: bi-Hamiltonian structure, separability, and periodic orbits",
-      "url": "https://arxiv.org/abs/2608.05952",
-      "summary": "arXiv:2608.05952v1 Announce Type: cross Abstract: We investigate Hamiltonian curl-force systems with indefinite kinetic energy. We first reconsider Berry's polynomial Hamiltonian curl-force model, whose numerically obser…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "OPERA: Operator-residual feedback for reliable autonomous optical experiments with language-model agents",
-      "url": "https://arxiv.org/abs/2608.05990",
-      "summary": "arXiv:2608.05990v1 Announce Type: cross Abstract: Autonomous agents choose actions using scores that may not reflect experimental success. We developed OPERA, an operator-residual framework for optical experiments. It re…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Prandtl--Batchelor and flux-expulsion selection for steady MHD flows in a disk",
-      "url": "https://arxiv.org/abs/2608.05994",
-      "summary": "arXiv:2608.05994v1 Announce Type: cross Abstract: We study the simultaneous vanishing-viscosity and vanishing-resistivity limit of steady incompressible MHD flows in a disk. The boundary velocity is a small nonaxisymmetr…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermodynamic statistics of given names in USA and France",
-      "url": "https://arxiv.org/abs/2608.06048",
-      "summary": "arXiv:2608.06048v1 Announce Type: cross Abstract: Using official government data sets of USA and France we analyze the occurrence/frequency/popularity distributions of given names on a time scale of more than 100 years. …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Explicit and Stable Pseudospectral Time-Domain Method for the F\\\"oppl-von K\\'arm\\'an Equations",
-      "url": "https://arxiv.org/abs/2608.06139",
-      "summary": "arXiv:2608.06139v1 Announce Type: cross Abstract: Modal synthesis is a widely-used technique for simulation of musical instrument dynamics. In the linear case, a modal decomposition leads to an uncoupled system of damped…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Quantum transport in a non-Hermitian 1D synthetic lattice: from quantum Zeno reflection to near-perfect absorption",
-      "url": "https://arxiv.org/abs/2608.06189",
-      "summary": "arXiv:2608.06189v1 Announce Type: cross Abstract: We experimentally explore the absorption of a propagating wavepacket impinging upon a dissipative region in an engineered quantum system. We employ a 1D non-Hermitian syn…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Numerical Model of a Multiple-Input-Multiple-Output Distributed Acoustic Sensing System with Joint Phase and Birefringence Estimation",
-      "url": "https://arxiv.org/abs/2608.06198",
-      "summary": "arXiv:2608.06198v1 Announce Type: cross Abstract: In this work, we introduce and experimentally validate a numerical model for a Multiple-Input-Multiple-Output Distributed Acoustic Sensing (MIMO-DAS) system that accounts…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "NestyNet. II. Coherent Function-Space Posteriors from Scientific Neural Surrogates (or How to Avoid Expensive MCMC)",
-      "url": "https://arxiv.org/abs/2608.06274",
-      "summary": "arXiv:2608.06274v1 Announce Type: cross Abstract: Scientific analyses increasingly use flexible neural networks, but their thousands of correlated parameters make it challenging to interpret the associated uncertainties.…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }

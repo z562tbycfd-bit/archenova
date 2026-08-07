@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-07T13:08:26.651Z",
+  "updated": "2026-08-07T14:54:48.303Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "NASA’s IXPE Studies Magnetar",
+      "url": "https://www.nasa.gov/image-article/nasas-ixpe-studies-magnetar/",
+      "summary": "Scientists using NASA’s IXPE (Imaging X-ray Polarimetry Explorer) conducted more than 140 hours of observations of the magnetar 1E 1547-5408, shown in this Aug. 5, 2026, artist’s concept, between March and April 2025. In…",
+      "ts": 1786112855000,
+      "publishedAt": "2026-08-07T14:27:35.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
+      "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How ideas of a vast censorship network moved from the online fringe to Trump polic…",
+      "ts": 1786112400000,
+      "publishedAt": "2026-08-07T14:20:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
+      "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+      "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them…",
+      "ts": 1786111200000,
+      "publishedAt": "2026-08-07T14:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "ESA",
+      "title": "Join us live and enjoy the total solar eclipse!",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Join_us_live_and_enjoy_the_total_solar_eclipse",
+      "summary": "Video: 00:01:44 [English] On 12 August 2026, Europe will witness one of nature’s most spectacular events: a total solar eclipse starting at 19:30 CEST. As the Moon’s shadow sweeps across Spain, join the European Space Ag…",
+      "ts": 1786111200000,
+      "publishedAt": "2026-08-07T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Replimune’s melanoma drug, a Medicare policy change, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/07/replimune-melanoma-drug-medicare-policy-change/?utm_campaign=rss",
+      "summary": "Eli Lilly and Novo Nordisk convinced a federal judge to toss an antitrust lawsuit by a compound pharmacy",
+      "ts": 1786108685000,
+      "publishedAt": "2026-08-07T13:18:05.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "ESA",
       "title": "Week in images: 03-07 August 2026",
@@ -126,6 +171,24 @@
       "summary": "Before astronauts return to the Moon’s surface through NASA’s Artemis program, the hardware they depend on must first prove it can survive the unforgiving lunar environment. At NASA’s Johnson Space Center in Houston, eng…",
       "ts": 1786083927000,
       "publishedAt": "2026-08-07T06:25:27.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 7 – Rubin’s Cosmos Field",
+      "url": "https://science.nasa.gov/image-article/apod-2026-august-6-rubins-cosmos-field/",
+      "summary": "APOD Science APOD APOD: 2026 August 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
+      "ts": 1786075500000,
+      "publishedAt": "2026-08-07T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Sensing the Poles’ Hidden Heat",
+      "url": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
+      "summary": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
+      "ts": 1786075200000,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -748,69 +811,6 @@
       "ts": 1786017600000,
       "publishedAt": "2026-08-06T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "STAT",
-      "title": "Covid can reactivate dormant viruses, according to study",
-      "url": "https://www.statnews.com/2026/08/06/health-news-covid-can-reactivate-dormant-viruses-study-finds/?utm_campaign=rss",
-      "summary": "A CDC director officially confirmed, Moderna's mRNA flu shot approved, and other health news from Morning Rounds",
-      "ts": 1786017338000,
-      "publishedAt": "2026-08-06T11:55:38.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rocket Lab launches 8th iQPS satellite",
-      "url": "https://spacenews.com/rocket-lab-launches-8th-iqps-satellite/",
-      "summary": "Rocket Lab launched a Japanese radar-imaging satellite Aug. 6, more than a month after the previous launch attempt was aborted. The post Rocket Lab launches 8th iQPS satellite appeared first on SpaceNews.",
-      "ts": 1786015047000,
-      "publishedAt": "2026-08-06T11:17:27.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Chinese launch startup Orienspace targets IPO, secures funding for reusable Gravity-2 rocket",
-      "url": "https://spacenews.com/chinese-launch-startup-orienspace-targets-ipo-secures-funding-for-reusable-gravity-2-rocket/",
-      "summary": "HELSINKI — Commercial launch company Orienspace has kicked off preparations for an IPO coaching process while closing a funding round for accelerating its reusable Gravity-2 rocket. The Shandong-based company, formally […",
-      "ts": 1786013283000,
-      "publishedAt": "2026-08-06T10:48:03.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A scientist-turned-biotech executive is notching some wins, and enjoying it",
-      "url": "https://www.statnews.com/2026/08/06/greg-verdine-lifemine-parabilis-research/?utm_campaign=rss",
-      "summary": "Scientist-turned-biotech executive Greg Verdine is having a very good year.",
-      "ts": 1786012200000,
-      "publishedAt": "2026-08-06T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Biotech’s next big bet: A Tenax study of a heart failure treatment",
-      "url": "https://www.statnews.com/2026/08/06/tenax-study-heart-failure-preview/?utm_campaign=rss",
-      "summary": "Tenax Therapeutics will soon report results from a Phase 3 study that is one of the biggest binary biotech stock events remaining in the sector this year.",
-      "ts": 1786012200000,
-      "publishedAt": "2026-08-06T10:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-      "ts": 1786010400000,
-      "publishedAt": "2026-08-06T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "ExoMars stretches out its legs",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/ExoMars_stretches_out_its_legs",
-      "summary": "Video: 00:00:06 The footage shows the simultaneous deployment of two landing legs from the ExoMars landing platform, in two sequential pairs. The legs travel stowed on the spacecraft through deep space, and are automatic…",
-      "ts": 1786006800000,
-      "publishedAt": "2026-08-06T09:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
