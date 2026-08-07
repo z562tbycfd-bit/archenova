@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-07T21:40:58.482Z",
+  "updated": "2026-08-07T22:38:13.153Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Creating cleaner chemical reactions that run on oxygen and produce only water as waste",
+      "url": "https://phys.org/news/2026-08-cleaner-chemical-reactions-oxygen.html",
+      "summary": "Oxygen provides the driving force for many vital chemical reactions. Two well-known examples include respiration, the process that allows living things to break down food to release its energy, and combustion, reactions …",
+      "ts": 1786141201000,
+      "publishedAt": "2026-08-07T22:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers unlock high-res view of 2D materials by doing a microscopic twist",
+      "url": "https://phys.org/news/2026-08-high-res-view-2d-materials.html",
+      "summary": "By rapidly twisting a microscopically small tip back and forth, researchers at the University of Maryland (UMD) have unlocked a new way to detect subtle changes on the surface of a material flexing in response to infrare…",
+      "ts": 1786140003000,
+      "publishedAt": "2026-08-07T22:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Hidden anatomy of clouds reveals how rain may begin without ice crystals",
@@ -355,6 +371,30 @@
       "publishedAt": "2026-08-07T11:00:03.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
+      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
+      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
+      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
+      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
+      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
+      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Experimental Quantum Voting Using Photonic Greenberger-Horne-Zeilinger States",
       "url": "http://link.aps.org/doi/10.1103/jlvb-t2xl",
@@ -455,30 +495,6 @@
       "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
       "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
       "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
-      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
-      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
-      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
-      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
-      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
-      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
@@ -783,22 +799,6 @@
       "title": "Rotational spectra and de-perturbation analysis for ground state ytterbium oxide, YbO",
       "url": "https://arxiv.org/abs/2608.05905",
       "summary": "arXiv:2608.05905v1 Announce Type: new Abstract: A combination difference analysis of Fourier transform microwave spectroscopy (FTMW) measurements of $^{174}$YbO combined with earlier near-infrared chemiluminescence data …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Harnessing thermo-optic dynamics for frequency-agile soliton microcombs",
-      "url": "https://arxiv.org/abs/2608.05932",
-      "summary": "arXiv:2608.05932v1 Announce Type: new Abstract: Dissipative Kerr soliton microcombs enable compact and scalable frequency comb sources for precision metrology, spectroscopy, communications and coherent LiDAR, where broad…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Polarization-Conditioned Fourier-enhanced DeepONet for Electric Field Reconstruction from EFISH Measurements",
-      "url": "https://arxiv.org/abs/2608.05937",
-      "summary": "arXiv:2608.05937v1 Announce Type: new Abstract: Electric-field-induced second-harmonic generation (EFISH) is an established laser diagnostic for quantifying electric fields in plasmas, yet ensuring field accuracy remains…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
