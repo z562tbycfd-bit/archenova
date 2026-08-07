@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-07T20:44:59.237Z",
+  "updated": "2026-08-07T21:41:01.705Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Senate installs new chiefs for U.S. military space acquisition, spy satellites",
+      "url": "https://spacenews.com/senate-installs-new-chiefs-for-u-s-military-space-acquisition-spy-satellites/",
+      "summary": "Erich Hernandez-Baquero will take over military space acquisition; Roger Mason will lead the National Reconnaissance Office The post Senate installs new chiefs for U.S. military space acquisition, spy satellites appeared…",
+      "ts": 1786136630000,
+      "publishedAt": "2026-08-07T21:03:50.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "FCC Space Bureau deputy takes the reins amid licensing overhaul",
@@ -801,15 +810,6 @@
       "summary": "In this edition: Progress report on ACCESS, Medicare's chronic care pilot, and health regulators courting industry on AI regulation.",
       "ts": 1786020883000,
       "publishedAt": "2026-08-06T12:54:43.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: One year since Kennedy canceled mRNA vaccine projects, science shows how wrong he was",
-      "url": "https://www.statnews.com/2026/08/06/mflusiva-fda-mrna-flu-vaccine-rfk-jr/?utm_campaign=rss",
-      "summary": "“The United States invented this platform and is the only country walking away from it,” Jeff Coller writes of mRNA vaccines.",
-      "ts": 1786018218000,
-      "publishedAt": "2026-08-06T12:10:18.000Z",
       "categoryId": "bio"
     }
   ],

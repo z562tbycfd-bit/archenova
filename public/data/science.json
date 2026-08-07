@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-07T20:44:56.598Z",
+  "updated": "2026-08-07T21:40:58.482Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hidden anatomy of clouds reveals how rain may begin without ice crystals",
+      "url": "https://phys.org/news/2026-08-hidden-anatomy-clouds-reveals-ice.html",
+      "summary": "The initiation of rain in clouds without ice remains one of the largest unsolved mysteries in atmospheric science.",
+      "ts": 1786138802000,
+      "publishedAt": "2026-08-07T21:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Laser spectroscopy helps reveal hidden nuclear properties in fermium",
+      "url": "https://phys.org/news/2026-08-laser-spectroscopy-reveal-hidden-nuclear.html",
+      "summary": "For the first time, researchers have determined the shape of the actinide nucleus of fermium-255 and measured its structure with high precision and resolution.",
+      "ts": 1786137601000,
+      "publishedAt": "2026-08-07T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New 'shape-shifting' architecture brings versatility to photonic quantum computing",
+      "url": "https://phys.org/news/2026-08-shifting-architecture-versatility-photonic-quantum.html",
+      "summary": "Using light to process quantum information is one of the most promising approaches to building future quantum computers. Light particles, known as photons, are excellent carriers of quantum information, but their lack of…",
+      "ts": 1786136401000,
+      "publishedAt": "2026-08-07T21:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Crossing into a mirror world: Particles turn to wisps of fog, and the magnetic monopole paradox dissolves",
@@ -329,6 +353,110 @@
       "summary": "Few tax issues generate more public frustration than big corporations paying little, or sometimes nothing, in federal income tax. Since 2018, U.S. corporations have faced a 21% federal corporate income tax rate, the lowe…",
       "ts": 1786100403000,
       "publishedAt": "2026-08-07T11:00:03.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Experimental Quantum Voting Using Photonic Greenberger-Horne-Zeilinger States",
+      "url": "http://link.aps.org/doi/10.1103/jlvb-t2xl",
+      "summary": "Author(s): F. Joseph Marcellino, Mingsong Wu, and Rob Thew Two research teams have run small-scale demonstrations of voting protocols that could ensure election security using the principles of quantum mechanics. [Phys. …",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Experimental Quantum Electronic Voting",
+      "url": "http://link.aps.org/doi/10.1103/scjl-5ygh",
+      "summary": "Author(s): Nicolas Laurent-Puig, Matilde Baroni, Federico Centrone, and Eleni Diamanti Two research teams have run small-scale demonstrations of voting protocols that could ensure election security using the principles o…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Correlators Are Simpler than Wave Functions",
+      "url": "http://link.aps.org/doi/10.1103/sgm7-181s",
+      "summary": "Author(s): Nima Arkani-Hamed, Ross Glew, and Francisco Vazão Recent works reveal a simplicity in equal-time correlators absent from wave functions. We show that it follows from the fact that correlators are full spacetim…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Lattice-QCD Validation of Hadron Mass and Trace-Anomaly Decomposition Sum Rules",
+      "url": "http://link.aps.org/doi/10.1103/5n46-717z",
+      "summary": "Author(s): Dennis Bollweg, Heng-Tong Ding, Xiang Gao, Ran Luo, and Swagato Mukherjee We present the first lattice-QCD validation of multiple sum rules associated with quark-gluon decomposition of hadron mass by computing…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "<i>Ab Initio</i> Exact Calculation of Strongly Correlated Nucleonic Matter",
+      "url": "http://link.aps.org/doi/10.1103/q4p2-r1bt",
+      "summary": "Author(s): R. Z. Hu, S. L. Jin, X. Zhen, H. Y. Shang, J. C. Pei, F. R. Xu, and F. Marino Dense nucleonic matter is of vital importance for understanding compact stars and inferring the transition into deconfined quark ph…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Precision Spectroscopy of the Fine and Hyperfine Structures of High Molecular Rydberg-Stark States: Metrology of Molecular Hydrogen Ions",
+      "url": "http://link.aps.org/doi/10.1103/5rsv-mb6x",
+      "summary": "Author(s): I. Doran, L. Jeckel, M. Beyer, Ch. Jungen, and F. Merkt The Stark effect in autoionizing high-$n$ Rydberg states decouples the Rydberg electron from the ion core through $ℓ$ mixing with core-nonpenetrating hig…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Stellarator Coils for Future Fusion Reactors via an Augmented Lagrangian Approach",
+      "url": "http://link.aps.org/doi/10.1103/n7gk-922h",
+      "summary": "Author(s): Pedro F. Gil, Weiping Li, Julianne Stratton, Alan A. Kaptanoglu, and Eve V. Stenson Recasting fusion coil design as a highly nonconvex equality-constrained optimization problem with an augmented Lagrangian met…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Pair Breaking and Dimensionality in Spin-Orbit Coupled Superconductors",
+      "url": "http://link.aps.org/doi/10.1103/wfy7-zbwf",
+      "summary": "Author(s): Reiley Dorrian, Mizuki Ohno, Elena Williams, Adrian Llanos, and Joseph Falson The response of ultrathin superconducting materials under parallel magnetic fields is often leveraged to obtain insight into the na…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Emergence of Charge-$4e$ Superconductivity from 2D Nematic Superconductors",
+      "url": "http://link.aps.org/doi/10.1103/j7nh-jzdd",
+      "summary": "Author(s): Xuan Zou, Zhou-Quan Wan, and Hong Yao Charge-$4e$ superconductivity is an exotic state of matter that may emerge as a vestigial order from a charge-$2e$ superconductor with multicomponent superconducting order…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Composite Bogoliubov Fermi Liquid in a Half-Filled Chern Band",
+      "url": "http://link.aps.org/doi/10.1103/wq3w-cb7f",
+      "summary": "Author(s): Zhengyan Darius Shi and Pavel A. Nosov The composite Fermi liquid in the half-filled Landau level is a cornerstone of the quantum Hall phase diagram. Recent experiments and numerics indicate that an anomalous …",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Metastability of the Skyrmion Lattice in ${\\mathrm{GdRu}}_{2}{\\mathrm{Si}}_{2}$ Revealed by Ultrasound",
+      "url": "http://link.aps.org/doi/10.1103/1nhc-ds19",
+      "summary": "Author(s): J. Sourd, D. A. Mayoh, G. Balakrishnan, J. Wosnitza, and S. Zherlitsyn We report on the low-temperature magnetoelastic properties of the skyrmion-lattice compound ${\\mathrm{GdRu}}_{2}{\\mathrm{Si}}_{2}$ under m…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Janus Percolation in Anisotropic Limited-Degree Networks",
+      "url": "http://link.aps.org/doi/10.1103/xyx5-3tz3",
+      "summary": "Author(s): Jacopo A. Garofalo, Nuno A. M. Araújo, Lucilla de Arcangelis, Alessandro Sarracino, and Eugenio Lippiello Many real-world infrastructures, from sensor and road networks to power grids, are spatially embedded a…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
+      "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
+      "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
     },
     {
       "source": "APS PR Applied",
@@ -671,134 +799,6 @@
       "title": "Polarization-Conditioned Fourier-enhanced DeepONet for Electric Field Reconstruction from EFISH Measurements",
       "url": "https://arxiv.org/abs/2608.05937",
       "summary": "arXiv:2608.05937v1 Announce Type: new Abstract: Electric-field-induced second-harmonic generation (EFISH) is an established laser diagnostic for quantifying electric fields in plasmas, yet ensuring field accuracy remains…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Twist-angle Control of Nonlinear Interference in a ZnO Nanowire/Monolayer WSe$_2$ Hybrid Structure",
-      "url": "https://arxiv.org/abs/2608.06010",
-      "summary": "arXiv:2608.06010v1 Announce Type: new Abstract: Nanoscale devices that integrate materials of different dimensionalities (0D, 1D, and 2D) hold great potential for advanced applications in photonics and optoelectronics. A…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Noise-driven pseudovorticity multipoles in self-focusing beams with quintic saturation",
-      "url": "https://arxiv.org/abs/2608.06045",
-      "summary": "arXiv:2608.06045v1 Announce Type: new Abstract: We investigate pseudovorticity generation in Gaussian beams undergoing self-focusing under amplitude and phase noise, using the cubic-quintic nonlinear Schr\\\"odinger equati…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wien-Filter Hamiltonian and Transfer Matrix",
-      "url": "https://arxiv.org/abs/2608.06052",
-      "summary": "arXiv:2608.06052v1 Announce Type: new Abstract: We derive the Hamiltonian and the transfer matrix of a Wien-filter with vertical magnetic field from first principles.",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Conceptual design of a mid-energy spin rotator for continuous-wave operation based on a compact multi-pi rosetta magnet",
-      "url": "https://arxiv.org/abs/2608.06080",
-      "summary": "arXiv:2608.06080v1 Announce Type: new Abstract: Spin-rotators in the the few-MeV range require large trajectory deflection angles in order to change the spin direction appreciably. We describe a magnet system that accumu…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magnetic Dynamo Driven by Inertial Waves",
-      "url": "https://arxiv.org/abs/2608.06086",
-      "summary": "arXiv:2608.06086v1 Announce Type: new Abstract: We demonstrate, by studying precession-driven flows, that inertial wave hydrodynamic turbulence can drive a robust magnetic dynamo action. Motivated by the stronger damping…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wave scattering around a submerged vertical permeable breakwater",
-      "url": "https://arxiv.org/abs/2608.06089",
-      "summary": "arXiv:2608.06089v1 Announce Type: new Abstract: An analytical solution for a wave velocity field scattered by a submerged permeable vertical plate-type breakwater under the linear monochromatic wave is obtained and the a…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Local Sky as an Introductory Solar System Astronomy Laboratory Using Smart-Telescopes",
-      "url": "https://arxiv.org/abs/2608.06127",
-      "summary": "arXiv:2608.06127v1 Announce Type: new Abstract: Portable smart telescopes can make introductory astronomy more observational, quantitative, and locally grounded by allowing students to acquire, share, and analyze astrono…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Pulse-Duration Control of Subcycle Multiband Electron Dynamics Extends the High-Harmonic Cutoff in a Light-Driven Insulator",
-      "url": "https://arxiv.org/abs/2608.06129",
-      "summary": "arXiv:2608.06129v1 Announce Type: new Abstract: We demonstrate pathway-selective control of extreme-ultraviolet high-harmonic generation by jointly tuning laser pulse duration ($5$ - $29$ fs) and intensity ($0.8$ - $74$ …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A platform for nuclear symmetry-violation searches with laser-coolable molecules carrying spinful nuclei",
-      "url": "https://arxiv.org/abs/2608.06138",
-      "summary": "arXiv:2608.06138v1 Announce Type: new Abstract: Cold heavy molecules are promising systems for exploring nuclear $\\mathcal{P}$- and $\\mathcal{CP}$-violating phenomena in search of new physics beyond the Standard Model. H…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evaluation of Silicon-Based Photon-Counting CT for Coronary Stenosis Quantification with Realistic Coronary Artery Phantoms",
-      "url": "https://arxiv.org/abs/2608.06158",
-      "summary": "arXiv:2608.06158v1 Announce Type: new Abstract: Objective: To quantify the impact of high-resolution deep silicon photon-counting CT (dSi-PCCT) on coronary stenosis quantification in anatomically realistic calcified coro…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulation of positronium laser cooling using the Lindblad master equation",
-      "url": "https://arxiv.org/abs/2608.06160",
-      "summary": "arXiv:2608.06160v1 Announce Type: new Abstract: We present a formulation and numerical results for positronium (Ps) laser cooling. The formulation is based on the Lindblad master equation and follows the time evolution o…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dual-Faraday-laser-pumped cesium beam clock with $7.7\\times 10^{-13}/\\sqrt\\tau$ frequency stability",
-      "url": "https://arxiv.org/abs/2608.06169",
-      "summary": "arXiv:2608.06169v1 Announce Type: new Abstract: Compact cesium beam clocks are major frequency references for deployable timing systems. However, further improvement of their short-term frequency stability is limited by …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Structure of Spreading on Temporal Networks",
-      "url": "https://arxiv.org/abs/2608.06175",
-      "summary": "arXiv:2608.06175v1 Announce Type: new Abstract: The physics of spreading in static networks is well understood through mappings to percolation. We show that spreading dynamics on temporal networks can analogously be mapp…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From expansion to collapse: Bubble and continuum multiscale modeling in open-system magmas",
-      "url": "https://arxiv.org/abs/2608.06181",
-      "summary": "arXiv:2608.06181v1 Announce Type: new Abstract: Bubble growth in silicate melts drives significant volume expansion, which has a first order control on magma transport dynamics. When magmas are exposed to external enviro…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Differentiable eigendecomposition-free rigorous coupled-wave analysis for general photonic structures",
-      "url": "https://arxiv.org/abs/2608.06185",
-      "summary": "arXiv:2608.06185v1 Announce Type: new Abstract: For periodic photonic structures with full permittivity and permeability tensors and arbitrarily oriented optical axes, we present, to the best of our knowledge, the first …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "VENUSS: a unified finite-element model of solidifying lava",
-      "url": "https://arxiv.org/abs/2608.06199",
-      "summary": "arXiv:2608.06199v1 Announce Type: new Abstract: The development of a solid rind or carapace at the surface of lava flows and domes results in a transition in deformation mechanism from dominantly viscous to elastic or pl…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
