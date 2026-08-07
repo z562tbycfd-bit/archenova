@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-07T11:47:55.195Z",
+  "updated": "2026-08-07T13:08:22.875Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Physicists trace solar outbursts that led to historic Mother's Day storms",
+      "url": "https://phys.org/news/2026-08-physicists-solar-outbursts-historic-mother.html",
+      "summary": "On Mother's Day weekend in May 2024, Earth experienced its most powerful geomagnetic storm in two decades, spawning auroras—the ribbony bands of light in the nighttime skies in the Northern and Southern hemispheres—that …",
+      "ts": 1786107604000,
+      "publishedAt": "2026-08-07T13:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Orange County residents say the American dream is slipping away",
+      "url": "https://phys.org/news/2026-08-orange-county-residents-american.html",
+      "summary": "Republicans and Democrats, renters and homeowners, rich and poor—agree on at least one thing: Buying a home is harder today than it was for their parents. The latest UCI-OC Poll suggests that's just the beginning of the …",
+      "ts": 1786104004000,
+      "publishedAt": "2026-08-07T12:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "An ultramassive white dwarf half Earth's size may hold a rare oxygen-neon core",
+      "url": "https://phys.org/news/2026-08-ultramassive-white-dwarf-earth-size.html",
+      "summary": "Astronomers have found evidence that one of the most massive white dwarfs known has an oxygen-neon core instead of the more common carbon-oxygen core. The finding is important because the composition of a white dwarf's c…",
+      "ts": 1786104001000,
+      "publishedAt": "2026-08-07T12:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Microbreaks key to boosting energy and motivation at work, study finds",
@@ -775,30 +799,6 @@
       "title": "NestyNet. II. Coherent Function-Space Posteriors from Scientific Neural Surrogates (or How to Avoid Expensive MCMC)",
       "url": "https://arxiv.org/abs/2608.06274",
       "summary": "arXiv:2608.06274v1 Announce Type: cross Abstract: Scientific analyses increasingly use flexible neural networks, but their thousands of correlated parameters make it challenging to interpret the associated uncertainties.…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Universal Control Budget for First-Passage Kinetics",
-      "url": "https://arxiv.org/abs/2608.06368",
-      "summary": "arXiv:2608.06368v1 Announce Type: cross Abstract: The first-passage time is the natural observable of reaction completion, yet how its mean responds to a rate change has lacked a general constraint. We show that the loga…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Steady Rayleigh--B\\'enard convection: strongly nonlinear high-wavenumber rolls",
-      "url": "https://arxiv.org/abs/2212.05407",
-      "summary": "arXiv:2212.05407v2 Announce Type: replace Abstract: In Rayleigh--B\\'{e}nard convection, two-dimensional steady rolls bifurcate supercritically at a Rayleigh number $Ra$ that depends on their horizontal-to-vertical aspect…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "From Signed Networks to Group Graphs",
-      "url": "https://arxiv.org/abs/2505.22802",
-      "summary": "arXiv:2505.22802v3 Announce Type: replace Abstract: I define a group graph which encodes the symmetry in a dynamical process on a network. Group graphs extend signed networks, where links are labelled with plus or minus …",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }

@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-07T11:47:56.655Z",
+  "updated": "2026-08-07T13:08:26.651Z",
   "items": [
+    {
+      "source": "ESA",
+      "title": "Week in images: 03-07 August 2026",
+      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_03-07_August_2026",
+      "summary": "Week in images: 03-07 August 2026 Discover our week through the lens",
+      "ts": 1786108200000,
+      "publishedAt": "2026-08-07T13:10:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Is the biotech capital of the world moving?",
+      "url": "https://www.statnews.com/2026/08/07/biotech-news-boston-kendall-square-losing-ground-in-sf/?utm_campaign=rss",
+      "summary": "Replimune finally wins FDA approval, the role of tau in Alzheimer's, and more biotech news from The Readout",
+      "ts": 1786107065000,
+      "publishedAt": "2026-08-07T12:51:05.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "U.S. Senate confirms Schiess to lead Space Force ",
+      "url": "https://spacenews.com/u-s-senate-confirms-schiess-to-lead-space-force/",
+      "summary": "New chief takes command as the Space Force prepares for rapid growth, acquisition reforms and Golden Dome The post U.S. Senate confirms Schiess to lead Space Force appeared first on SpaceNews.",
+      "ts": 1786106564000,
+      "publishedAt": "2026-08-07T12:42:44.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "A third clinic settles with DOJ over trans care",
+      "url": "https://www.statnews.com/2026/08/07/health-news-a-third-clinic-settles-with-doj-over-trans-care/?utm_campaign=rss",
+      "summary": "Anthony Fauci held in contempt, crackdowns on the organ donor network, and more health news from Morning Rounds",
+      "ts": 1786105006000,
+      "publishedAt": "2026-08-07T12:16:46.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Europe increases size and cost of IRIS² constellation",
+      "url": "https://spacenews.com/europe-increases-size-and-cost-of-iris%c2%b2-constellation/",
+      "summary": "The European Commission has reached an agreement with an industrial consortium to proceed with a secure connectivity constellation, increasing the number of satellites as well as its cost. The post Europe increases size …",
+      "ts": 1786103504000,
+      "publishedAt": "2026-08-07T11:51:44.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Danube’s waters fall to record lows",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Danube_s_waters_fall_to_record_lows",
+      "summary": "Image: These Copernicus Sentinel-2 images over the Danube north of Budapest show how the river’s level has fallen to a record low in Hungary due to a severe drought in central Europe.",
+      "ts": 1786102800000,
+      "publishedAt": "2026-08-07T11:40:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "ESA",
       "title": "IRIS² reinforced and accelerated as implementation advances",
@@ -756,60 +810,6 @@
       "summary": "Video: 00:00:06 The footage shows the simultaneous deployment of two landing legs from the ExoMars landing platform, in two sequential pairs. The legs travel stowed on the spacecraft through deep space, and are automatic…",
       "ts": 1786006800000,
       "publishedAt": "2026-08-06T09:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: What my colleagues and I will look for as we assess U.S. measles elimination status",
-      "url": "https://www.statnews.com/2026/08/06/measles-elimination-status-2026-paho/?utm_campaign=rss",
-      "summary": "Noel T. Brewer and colleagues will soon decide whether the U.S. has maintained its elimination status. Here’s what they’re looking at.",
-      "ts": 1786005000000,
-      "publishedAt": "2026-08-06T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: STAT+: Stop asking if AI is good for medicine",
-      "url": "https://www.statnews.com/2026/08/06/ai-health-care-skepticism-advances-nature-medicine-scribe-sepsis/?utm_campaign=rss",
-      "summary": "Overgeneralizations about AI can slow down the adoption of tools that work.",
-      "ts": 1786005000000,
-      "publishedAt": "2026-08-06T08:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Webb opens a Treasure Chest filled with stars",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Webb_opens_a_Treasure_Chest_filled_with_stars",
-      "summary": "Image: This NASA/ESA/CSA James Webb Space Telescope Picture of the Month takes us to a fantastical realm within our home galaxy, where piercing starlight and billowing winds sculpt dust clouds into inventive shapes. This…",
-      "ts": 1786003200000,
-      "publishedAt": "2026-08-06T08:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Working with the American Psychological Association on youth mental health and AI",
-      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
-      "ts": 1785996000000,
-      "publishedAt": "2026-08-06T06:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "APOD: 2026 August 6 – New Sharpest Image of the Sun Uncovers Instability",
-      "url": "https://science.nasa.gov/image-article/apod-2026-august-6-new-sharpest-image-of-the-sun-uncovers-instability/",
-      "summary": "APOD Science APOD APOD: 2026 August 6 – New… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
-      "ts": 1785989100000,
-      "publishedAt": "2026-08-06T04:05:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "How the Tide Turns at the Mouth of the Elbe",
-      "url": "https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/",
-      "summary": "The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany.",
-      "ts": 1785988860000,
-      "publishedAt": "2026-08-06T04:01:00.000Z",
       "categoryId": "space"
     }
   ],
