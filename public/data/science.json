@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-07T10:54:14.498Z",
+  "updated": "2026-08-07T11:47:55.195Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Microbreaks key to boosting energy and motivation at work, study finds",
+      "url": "https://phys.org/news/2026-08-microbreaks-key-boosting-energy.html",
+      "summary": "Employees who incorporate microbreaks alongside work-related strategies into their workday are more motivated and energized, University of Queensland research has found.",
+      "ts": 1786102801000,
+      "publishedAt": "2026-08-07T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New study shows urban growers rely on accessible educational resources to adopt pollinator-friendly farming practices",
+      "url": "https://phys.org/news/2026-08-urban-growers-accessible-resources-pollinator.html",
+      "summary": "A recent study by MSU entomologists Jen Roedel, Karma Thomas and Zsofia Szendrei found that urban growers' use of pollinator management practices is driven more by access to educational resources, labor and other farming…",
+      "ts": 1786101603000,
+      "publishedAt": "2026-08-07T11:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What makes companies dodge taxes?",
+      "url": "https://phys.org/news/2026-08-companies-dodge-taxes.html",
+      "summary": "Few tax issues generate more public frustration than big corporations paying little, or sometimes nothing, in federal income tax. Since 2018, U.S. corporations have faced a 21% federal corporate income tax rate, the lowe…",
+      "ts": 1786100403000,
+      "publishedAt": "2026-08-07T11:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "UK observatory nervously watches growing space junk threat",
@@ -775,30 +799,6 @@
       "title": "From Signed Networks to Group Graphs",
       "url": "https://arxiv.org/abs/2505.22802",
       "summary": "arXiv:2505.22802v3 Announce Type: replace Abstract: I define a group graph which encodes the symmetry in a dynamical process on a network. Group graphs extend signed networks, where links are labelled with plus or minus …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the Role of Color Temperature and Color Rendering Index of White-Light LEDs on the Theoretical Efficiency Limit of Indoor Photovoltaics",
-      "url": "https://arxiv.org/abs/2506.20811",
-      "summary": "arXiv:2506.20811v3 Announce Type: replace Abstract: As the Internet of Things (IoT) continues to grow, the demand for sustainable indoor power sources is increasing. Indoor photovoltaics (IPVs), which are currently in de…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Projection-Based Solver for Viscoelastic Stokes Flow using FFTs",
-      "url": "https://arxiv.org/abs/2509.01327",
-      "summary": "arXiv:2509.01327v2 Announce Type: replace Abstract: Understanding the flow of complex media is relevant for a wide range of research fields and industrial applications. Several numerical approaches exist by which approxi…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Focusing Terawatt-Scale Lasers Using Holographic Gaseous Lenses",
-      "url": "https://arxiv.org/abs/2510.02659",
-      "summary": "arXiv:2510.02659v2 Announce Type: replace Abstract: The capabilities of the world's highest energy and peak-power pulsed lasers are limited by optical damage, and further advances in high-intensity laser science will req…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
