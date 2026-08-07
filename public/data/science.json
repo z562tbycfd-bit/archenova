@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-08-07T17:00:47.610Z",
+  "updated": "2026-08-07T19:00:09.431Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Mobile fungal 'Starship' carries protein that triggers crop leaf loss",
+      "url": "https://phys.org/news/2026-08-mobile-fungal-starship-protein-triggers.html",
+      "summary": "An international research team led by plant scientist Professor Dr. Bart Thomma of the Institute of Plant Sciences at the University of Cologne, the MiBiNet Collaborative Research Center and the CEPLAS Cluster of Excelle…",
+      "ts": 1786128001000,
+      "publishedAt": "2026-08-07T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First full zoysia grass genetic blueprint opens doors for drought-tolerant turf",
+      "url": "https://phys.org/news/2026-08-full-zoysia-grass-genetic-blueprint.html",
+      "summary": "A new genomic resource from the Texas A&M AgriLife Research plant genomics team is providing a powerful new foundation for faster, more precise turfgrass genetics and breeding. The team discovered a breakthrough genome t…",
+      "ts": 1786126801000,
+      "publishedAt": "2026-08-07T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The creatures born from code: Generative AI threatens to upend citizen science records",
+      "url": "https://phys.org/news/2026-08-creatures-born-code-generative-ai.html",
+      "summary": "You need to tread carefully among the leaf litter of the Indonesian scrubland and its tropical rainforests. The dead leaves might seem caught in a gentle breeze, but there's more here than meets the eye. Try plucking one…",
+      "ts": 1786125611000,
+      "publishedAt": "2026-08-07T18:00:11.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hidden hormone–habitat relationship revealed in reef fish",
+      "url": "https://phys.org/news/2026-08-hidden-hormonehabitat-relationship-revealed-reef.html",
+      "summary": "In the animal kingdom, only those that adapt to their environment survive. This adaptation takes a wide range of forms, from invisible internal shifts in gene expression to dramatic anatomical changes, such as tadpoles g…",
+      "ts": 1786125609000,
+      "publishedAt": "2026-08-07T18:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Birdsong and whale song show patterns similar to human language",
+      "url": "https://phys.org/news/2026-08-birdsong-whale-song-patterns-similar.html",
+      "summary": "An international team of researchers has uncovered a previously undetected structure in the birdsong of Bengalese finches that has the same statistical patterns found in human languages.",
+      "ts": 1786125605000,
+      "publishedAt": "2026-08-07T18:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Phages unlock essential vitamin B12 by bursting open gut bacteria",
+      "url": "https://phys.org/news/2026-08-phages-essential-vitamin-b12-gut.html",
+      "summary": "All living organisms need vitamin B12 to form red blood cells and DNA, as well as to build and support brain and nerve cells. But it's hard to come by: Humans don't make it. Animals don't make it. Plants don't make it. I…",
+      "ts": 1786124406000,
+      "publishedAt": "2026-08-07T17:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Photocatalytic method cleaves strong C–H bonds while preserving weaker C–Si bonds",
+      "url": "https://phys.org/news/2026-08-photocatalytic-method-cleaves-strong-ch.html",
+      "summary": "α-Silyl alcohols are unique organosilicon compounds bearing a silyl group and a hydroxy group on the same carbon atom. Because these compounds serve as precursors to reactive species, such as carbanions and carbon radica…",
+      "ts": 1786124405000,
+      "publishedAt": "2026-08-07T17:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oil dispersants reshape Arctic sea-ice microbes but do not markedly accelerate oil breakdown",
+      "url": "https://phys.org/news/2026-08-oil-dispersants-reshape-arctic-sea.html",
+      "summary": "By making the Arctic less ice-covered, climate warming has increased both shipping traffic and the risk of oil spills in the region. Changing ice conditions may, however, affect the effectiveness of currently available o…",
+      "ts": 1786124202000,
+      "publishedAt": "2026-08-07T17:36:42.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Don't believe the GenAI hype—learn from it instead, say researchers",
+      "url": "https://phys.org/news/2026-08-dont-genai-hype.html",
+      "summary": "When is a hype bubble more than just a bubble? When it becomes a mass, real-time learning event. New research published in the Academy of Management Journal by Anna Brattstrom, a professor at the University of St Andrews…",
+      "ts": 1786123207000,
+      "publishedAt": "2026-08-07T17:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Galactic spins carry fingerprints of the primordial universe",
+      "url": "https://phys.org/news/2026-08-galactic-fingerprints-primordial-universe.html",
+      "summary": "The origin of spin in spiral and elliptical galaxies has posed a long-standing puzzle for astronomers. One idea, known as tidal torque theory, proposes that galaxies' spins are an imprinted record of the early universe, …",
+      "ts": 1786123203000,
+      "publishedAt": "2026-08-07T17:20:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Natural insecticide made from compound found in garlic and spearmint kills bean beetles effectively",
@@ -719,86 +799,6 @@
       "title": "Nuclear-Spin Statistical Weights from Young Diagrams",
       "url": "https://arxiv.org/abs/2608.06339",
       "summary": "arXiv:2608.06339v1 Announce Type: new Abstract: Nuclear-spin statistical weights and selection rules in molecular spectroscopy are governed by the permutation symmetry of identical nuclei, although rigid and semi-rigid m…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Structured coherence: A modern perspective on optical coherence as a resource",
-      "url": "https://arxiv.org/abs/2608.06356",
-      "summary": "arXiv:2608.06356v1 Announce Type: new Abstract: Optical coherence is a well-established branch of physical optics in which the statistical properties of fluctuating optical fields are described in terms of correlation fu…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An improved car-oriented mean-field theory for stochastic traffic flow models",
-      "url": "https://arxiv.org/abs/2608.04731",
-      "summary": "arXiv:2608.04731v1 Announce Type: cross Abstract: We propose an improved mean-field analysis of cellular automata models of single-lane vehicular traffic. By combining aspects of the Car-Oriented-Mean-Field (COMF) theory…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nucleation beyond Equilibrium: Fronts Control Invasion in Bistable Ecosystems",
-      "url": "https://arxiv.org/abs/2608.05251",
-      "summary": "arXiv:2608.05251v1 Announce Type: cross Abstract: Bistability, the existence of two alternative stable states with distinct basins of attraction, is common across ecology and many other biological, chemical, and physical…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine learning for sample-based quantum diagonalization: generative configuration recovery and the classical-simulability frontier",
-      "url": "https://arxiv.org/abs/2608.05314",
-      "summary": "arXiv:2608.05314v1 Announce Type: cross Abstract: Sample-based quantum diagonalization (SQD), equivalently quantum-selected configuration interaction (QSCI), has in two years become a pragmatic centre of gravity of pre-f…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nitrogen Vacancy Centers in Hexagonal Diamond Exhibit Long Coherence Times",
-      "url": "https://arxiv.org/abs/2608.05320",
-      "summary": "arXiv:2608.05320v1 Announce Type: cross Abstract: We show that negatively charged nitrogen-vacancy (NV) centers in the hexagonal diamond polymorph lonsdaleite offer a route to spin qubits with enhanced coherence relative…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparative analysis of fiber Bragg grating filter losses inscribed by continuous wave UV and femtosecond-IR lasers for astrophotonics",
-      "url": "https://arxiv.org/abs/2608.05349",
-      "summary": "arXiv:2608.05349v1 Announce Type: cross Abstract: Fiber Bragg grating (FBG) filters have been demonstrated as promising components in astrophotonic instrumentation for near-infrared ground-based observations. Given the p…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development of next-generation event-driven x-ray hybrid CMOS detectors",
-      "url": "https://arxiv.org/abs/2608.05404",
-      "summary": "arXiv:2608.05404v1 Announce Type: cross Abstract: The Penn State University High Energy Astrophysics Detector and Instrumentation Lab, in collaboration with Teledyne Imaging Sensors, has developed a next-generation event…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Symplectic Map Approach to Magnetic Field-Line Dynamics in Tokamaks",
-      "url": "https://arxiv.org/abs/2608.05414",
-      "summary": "arXiv:2608.05414v1 Announce Type: cross Abstract: Magnetic field-line transport in tokamaks is governed by the interplay between chaotic dynamics and invariant phase-space structures that act as partial transport barrier…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Foundational EDM2-Based Generative Model for High-Resolution Synthetic Fetal Ultrasound Imaging from Open Datasets",
-      "url": "https://arxiv.org/abs/2608.05471",
-      "summary": "arXiv:2608.05471v1 Announce Type: cross Abstract: Prenatal ultrasound imaging is key for assessing fetal health, but AI progress is limited by scarce, privacy-restricted, and hard-to-annotate datasets. We propose a high-…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Generating two-mechanical mode entangled cat states, and steady-state entanglement, in cavity optomechanics in the presence of dissipation",
-      "url": "https://arxiv.org/abs/2608.05503",
-      "summary": "arXiv:2608.05503v1 Announce Type: cross Abstract: We investigate a dissipation-engineering approach to produce a phase-dependent collective-mode Schr\\\"odinger cat state involving two modes. Our model features a single ca…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
