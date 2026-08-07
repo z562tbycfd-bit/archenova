@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-07T22:38:13.153Z",
+  "updated": "2026-08-07T23:35:42.287Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "One million years without sex fails to erase stick insects' unused biological system",
+      "url": "https://phys.org/news/2026-08-million-years-sex-erase-insects.html",
+      "summary": "Scientists have made a surprising finding about how an asexually reproducing stick insect has evolved. Research led by Dr. Darren Parker, lecturer in evolutionary biology at Bangor University, studied the genes of severa…",
+      "ts": 1786143602000,
+      "publishedAt": "2026-08-07T23:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New AI model reveals the volume of the world's glaciers",
+      "url": "https://phys.org/news/2026-08-ai-reveals-volume-world-glaciers.html",
+      "summary": "How much ice is stored in the world's glaciers? And where exactly is it located? A new study led by Ca' Foscari University of Venice, in collaboration with the Institute of Polar Sciences of the National Research Council…",
+      "ts": 1786142401000,
+      "publishedAt": "2026-08-07T22:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Creating cleaner chemical reactions that run on oxygen and produce only water as waste",
@@ -783,22 +799,6 @@
       "title": "A Unified Analytical Framework for LYSO-SiPM Scintillation Pulse Dynamics",
       "url": "https://arxiv.org/abs/2608.05824",
       "summary": "arXiv:2608.05824v1 Announce Type: new Abstract: Existing scintillation-detector models typically treat scintillation kinetics, optical transport, silicon photomultiplier (SiPM) response, and timing statistics separately,…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Drop Spray Electrification",
-      "url": "https://arxiv.org/abs/2608.05828",
-      "summary": "arXiv:2608.05828v1 Announce Type: new Abstract: Charge separation during the breakup of water drop has been recognized since the early studies of waterfall and spray electrification, yet the role of controlled drop fragm…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rotational spectra and de-perturbation analysis for ground state ytterbium oxide, YbO",
-      "url": "https://arxiv.org/abs/2608.05905",
-      "summary": "arXiv:2608.05905v1 Announce Type: new Abstract: A combination difference analysis of Fourier transform microwave spectroscopy (FTMW) measurements of $^{174}$YbO combined with earlier near-infrared chemiluminescence data …",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
