@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-07T15:58:10.378Z",
+  "updated": "2026-08-07T17:00:47.610Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Natural insecticide made from compound found in garlic and spearmint kills bean beetles effectively",
+      "url": "https://phys.org/news/2026-08-natural-insecticide-compound-garlic-spearmint.html",
+      "summary": "In an effort to develop more environmentally friendly alternatives to synthetic insecticides, researchers from Kyushu University have developed and tested a new insecticide made from compounds derived from garlic and spe…",
+      "ts": 1786122007000,
+      "publishedAt": "2026-08-07T17:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI method reveals hidden patterns in microbial communities in the Warnow Estuary",
+      "url": "https://phys.org/news/2026-08-ai-method-reveals-hidden-patterns.html",
+      "summary": "Microbial communities are highly sensitive to environmental changes, yet their enormous diversity makes it difficult to identify ecological patterns. A research team from the Leibniz Institute for Baltic Sea Research War…",
+      "ts": 1786122001000,
+      "publishedAt": "2026-08-07T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Just 50°C decides whether an ultrathin magnetic film stays flat or falls apart",
+      "url": "https://phys.org/news/2026-08-50c-ultrathin-magnetic-stays-flat.html",
+      "summary": "Magnetic storage technologies, which store information in the direction of magnetization, play an essential role in modern data storage. Hard disk drives (HDDs) are widely used for long-term storage, while nonvolatile ma…",
+      "ts": 1786120807000,
+      "publishedAt": "2026-08-07T16:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Food fraud costs UK economy up to £2 billion a year, new study finds",
+      "url": "https://phys.org/news/2026-08-food-fraud-uk-economy-billion.html",
+      "summary": "Food fraud is costing the UK economy up to £2 billion every year, according to the first study to calculate its full economic impact. The research, from the University of Portsmouth, estimates that food fraud costs betwe…",
+      "ts": 1786120803000,
+      "publishedAt": "2026-08-07T16:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Some US adults are using AI for financial guidance but few trust it, Gallup poll finds",
+      "url": "https://phys.org/news/2026-08-adults-ai-financial-guidance-gallup.html",
+      "summary": "Some U.S. adults are using artificial intelligence for financial guidance, but it's far from the most trusted source of advice, according to a new Gallup survey conducted in partnership with Edward Jones, a financial ser…",
+      "ts": 1786119607000,
+      "publishedAt": "2026-08-07T16:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uranus's unusual rotation makes its bow shock expand and contract each day",
+      "url": "https://phys.org/news/2026-08-uranus-unusual-rotation-day.html",
+      "summary": "Within our solar system, Uranus is a geometric oddball. Its spin axis tilts more than 90° from its orbit, so it essentially rolls on its side through space. In contrast, Earth and other planets tilt only moderately or no…",
+      "ts": 1786119605000,
+      "publishedAt": "2026-08-07T16:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Protein-enriched ketchup gets boost from algae extracts",
+      "url": "https://phys.org/news/2026-08-protein-enriched-ketchup-boost-algae.html",
+      "summary": "Added protein is showing up in foods from breakfast cereal to pasta, but not many condiments … yet. Researchers have now developed an enriched tomato ketchup by incorporating protein extracted from algae. A panel of tast…",
+      "ts": 1786118403000,
+      "publishedAt": "2026-08-07T16:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Physicists watch a material's electrons assemble, and reassemble, into coexisting phases",
+      "url": "https://phys.org/news/2026-08-physicists-material-electrons-reassemble-coexisting.html",
+      "summary": "A tall glass of ice water isn't just a thirst quencher; it's also an everyday example of coexisting phases. Water can exist simultaneously in both liquid and solid phases. As it turns out, this phase duality can also exi…",
+      "ts": 1786118401000,
+      "publishedAt": "2026-08-07T16:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Ancient Greek rings may have been forged with iron from meteorites",
+      "url": "https://www.sciencenews.org/article/bronze-age-greek-rings-iron-meteorites",
+      "summary": "Chemical analysis of Bronze Age iron objects indicate that Greek nobles may have indulged in signet rings made with precious metal from the sky.",
+      "ts": 1786118400000,
+      "publishedAt": "2026-08-07T16:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Different genes, same result: How flies evolved multiple ways to define heads and tails",
@@ -727,78 +799,6 @@
       "title": "Generating two-mechanical mode entangled cat states, and steady-state entanglement, in cavity optomechanics in the presence of dissipation",
       "url": "https://arxiv.org/abs/2608.05503",
       "summary": "arXiv:2608.05503v1 Announce Type: cross Abstract: We investigate a dissipation-engineering approach to produce a phase-dependent collective-mode Schr\\\"odinger cat state involving two modes. Our model features a single ca…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A floor and a ceiling for the advancing contact angle",
-      "url": "https://arxiv.org/abs/2608.05515",
-      "summary": "arXiv:2608.05515v1 Announce Type: cross Abstract: Reported maxima of the advancing contact angle scatter from $87^\\circ$ to $147^\\circ$ in a single systematic study, and liquids on surfaces with static angles as low as $…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Equation-Free Period-Aware Forecast-Error Contraction for Estimating Negative Largest Lyapunov Exponents from Short Trajectory Ensembles",
-      "url": "https://arxiv.org/abs/2608.05522",
-      "summary": "arXiv:2608.05522v1 Announce Type: cross Abstract: Estimating positive largest Lyapunov exponents from data is comparatively natural because neighboring trajectories separate, whereas stable dynamics require resolving con…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the synthesis of complete two-dimensional second-gradient continua: Tri-pantographic fabrics",
-      "url": "https://arxiv.org/abs/2608.05524",
-      "summary": "arXiv:2608.05524v1 Announce Type: cross Abstract: We introduce a notion of completeness for two-dimensional second-gradient elastic continua and propose a microstructural route toward its synthesis. A continuum is said t…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A hybrid s-version isogeometric strategy for dynamic crack propagation in 2D and 3D problems",
-      "url": "https://arxiv.org/abs/2608.05589",
-      "summary": "arXiv:2608.05589v1 Announce Type: cross Abstract: A hybrid s-version of isogeometric analysis (hS-IGA) strategy is proposed for accurate and efficient evaluation of near-crack fracture quantities in dynamic crack propaga…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Damped Subspace Splitting Algorithm for Constrained Density Functional Theory",
-      "url": "https://arxiv.org/abs/2608.05682",
-      "summary": "arXiv:2608.05682v1 Announce Type: cross Abstract: Constrained density functional theory (CDFT) provides a powerful framework for describing electronically excited and charge-localized states, which underlie a broad range…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Net electron spin rotation in a plane-wave pulse: Holonomy set by the anomalous magnetic moment",
-      "url": "https://arxiv.org/abs/2608.05698",
-      "summary": "arXiv:2608.05698v1 Announce Type: cross Abstract: We compute the spin rotation that survives after a relativistic electron has crossed a plane-wave laser pulse of finite duration. In the interaction picture built on the …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Engram-E2VID: Reference-Based Event-to-Video Reconstruction via Generative Activation of Appearance Engrams",
-      "url": "https://arxiv.org/abs/2608.05728",
-      "summary": "arXiv:2608.05728v1 Announce Type: cross Abstract: Reference-based event-to-video reconstruction aims to recover target RGB frames from a reference frame and the event stream captured over the reference-to-target interval…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Near-field Hydrodynamics Disentangles Angular Correlations in Confined Active Suspensions",
-      "url": "https://arxiv.org/abs/2608.05756",
-      "summary": "arXiv:2608.05756v1 Announce Type: cross Abstract: Spatial confinement profoundly impacts the transport and self-organization of active matter across diverse biological systems. While the collective orders in confined act…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Minimization-based polynomial corrections for high-order curved boundaries on fixed and moving domains: assessment on finite volume and discontinuous Galerkin schemes",
-      "url": "https://arxiv.org/abs/2608.05768",
-      "summary": "arXiv:2608.05768v1 Announce Type: cross Abstract: In this work, we present two novel strategies to impose high-order boundary conditions on fixed and moving curved domains, approximated with piecewise affine triangulatio…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }

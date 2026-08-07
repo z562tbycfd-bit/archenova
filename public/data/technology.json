@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-07T15:58:12.349Z",
+  "updated": "2026-08-07T17:00:50.515Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Up and down the ladder: The latest comings and goings",
+      "url": "https://www.statnews.com/pharmalot/2026/08/07/up-and-down-ladder-latest-comings-and-goings-jobs-pharma-biotech/?utm_campaign=rss",
+      "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
+      "ts": 1786120707000,
+      "publishedAt": "2026-08-07T16:38:27.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: NIH plans to block international researchers on visas from accessing key funding avenue ",
+      "url": "https://www.statnews.com/2026/08/07/nih-k99-pathways-independence-awards-scientists-on-visas-barred/?utm_campaign=rss",
+      "summary": "The NIH plans to close the door on one of the few pathways available to international students on visas to forge a career in biomedical research in the U.S.",
+      "ts": 1786120301000,
+      "publishedAt": "2026-08-07T16:31:41.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "ts": 1786116000000,
+      "publishedAt": "2026-08-07T15:20:00.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "NASA’s IXPE Studies Magnetar",
@@ -781,33 +808,6 @@
       "title": "Ebola virus reaches displacement camps in DR Congo",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168092",
       "summary": "Agencies are on high alert amid reports that the rapidly spreading Ebola Bundibugyo virus species in the Democratic Republic of the Congo (DRC) has infected 19 internally displaced people, killed five of them, according …",
-      "ts": 1786017600000,
-      "publishedAt": "2026-08-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "‘Wanton, intentional infliction of incredible pain’ by gangs in Haiti",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168090",
-      "summary": "Gangs in Haiti continue to terrorise communities with the “wanton, intentional infliction of incredible pain” on people who often are just in the wrong place at the wrong time.",
-      "ts": 1786017600000,
-      "publishedAt": "2026-08-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Warnings of famine and collapse as South Sudan's peace deal frays",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168089",
-      "summary": "Nearly eight million people in South Sudan – more than half the population – face crisis-level hunger, with famine risk now flagged in four counties, as the Security Council met this morning in New York. A cholera outbre…",
-      "ts": 1786017600000,
-      "publishedAt": "2026-08-06T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Gaza: 300 children killed in 300 days of Israeli-Hamas ‘ceasefire’",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168088",
-      "summary": "At least 300 children in Gaza have been reportedly killed in as many days since a ceasefire agreement supposedly came into effect last October to suspend military operations between Hamas fighters and the Israel Defense …",
       "ts": 1786017600000,
       "publishedAt": "2026-08-06T12:00:00.000Z",
       "categoryId": "global-governance"
