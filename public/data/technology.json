@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-07T07:19:15.650Z",
+  "updated": "2026-08-07T09:01:47.151Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Bipartisan Senate bill would sharpen Space Force training for conflict with China",
+      "url": "https://spacenews.com/bipartisan-senate-bill-would-sharpen-space-force-training-for-conflict-with-china/",
+      "summary": "Sens. Cortez Masto and Britt propose expanded space wargaming and an unclassified assessment of China's commercial space sector The post Bipartisan Senate bill would sharpen Space Force training for conflict with China a…",
+      "ts": 1786093200000,
+      "publishedAt": "2026-08-07T09:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: AI won’t enhance physician autonomy. It will further diminish it",
+      "url": "https://www.statnews.com/2026/08/07/medical-ai-doctors-autonomy/?utm_campaign=rss",
+      "summary": "“AI is not the villain here; it is a mirror,” reflecting the diminishment of physician judgment, writes former surgeon Frances Mei Hardin.",
+      "ts": 1786091400000,
+      "publishedAt": "2026-08-07T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: I was in my office when bullets hit the CDC. A year later, the agency remains under attack",
+      "url": "https://www.statnews.com/2026/08/07/cdc-shooting-anniversary-public-health-threats/?utm_campaign=rss",
+      "summary": "“It was briefly more dangerous to sit at a desk in Atlanta than to chase a hemorrhagic fever in the field,” writes Daniel Jernigan.",
+      "ts": 1786091400000,
+      "publishedAt": "2026-08-07T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: He grew up near Boston, went to Harvard, and worked at MIT. Why did he found his startup in California?",
+      "url": "https://www.statnews.com/2026/08/07/why-did-this-boston-entrepreneur-found-his-biotech-startup-in-california/?utm_campaign=rss",
+      "summary": "Boston, with its rising costs, high taxes, and business climate, is losing ground to rivals across the country, sometimes even in biotech.",
+      "ts": 1786091400000,
+      "publishedAt": "2026-08-07T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "IAEA News",
+      "title": "Research Reactors Drive Innovation in Science, Health, and Industry",
+      "url": "http://www.iaea.org/newscenter/news/research-reactors-drive-innovation-in-science-health-and-industry",
+      "summary": "",
+      "ts": 1786087805000,
+      "publishedAt": "2026-08-07T07:30:05.000Z",
+      "categoryId": "energy-climate"
+    },
     {
       "source": "NASA",
       "title": "NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon ",
@@ -763,51 +808,6 @@
       "title": "The Cost of Binarizing Survival Outcomes in Clinical Prognostic Modeling",
       "url": "https://arxiv.org/abs/2608.04046",
       "summary": "arXiv:2608.04046v1 Announce Type: new Abstract: Survival analysis is an established framework for analyzing time-to-event data, yet many clinical machine learning studies still binarize the outcome before model training.…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Time^2: A framework for the neural dynamics of visual perception",
-      "url": "https://arxiv.org/abs/2608.04218",
-      "summary": "arXiv:2608.04218v1 Announce Type: new Abstract: Whenever we look at an object, we seem to perceive it immediately. However, this is not the case for two reasons. First, it takes hundreds of milliseconds for the brain to …",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "On the realizability of abstract reaction networks with real molecules and reactions",
-      "url": "https://arxiv.org/abs/2608.04635",
-      "summary": "arXiv:2608.04635v1 Announce Type: new Abstract: Abstract reaction networks appear not only as models of chemical reactions but also as models of complex systems, with applications in areas such as ecology and epidemiolog…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Poisson Flow and Wasserstein Registration of Trees",
-      "url": "https://arxiv.org/abs/2608.04770",
-      "summary": "arXiv:2608.04770v1 Announce Type: new Abstract: Tree-like structures arise in numerous imaging applications, including vascular networks, neuronal arbors, airway trees, and cortical sulcal--gyral folding. We present a no…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Traveling fronts in a spatial epidemic model with slow loss of immunity",
-      "url": "https://arxiv.org/abs/2608.04594",
-      "summary": "arXiv:2608.04594v1 Announce Type: cross Abstract: We investigate the emergence of traveling front solutions in a spatial SIRS epidemic model with diffusion acting on the infected population. The model exhibits a natural …",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An entropic explanation of insistence on sameness in autism",
-      "url": "https://arxiv.org/abs/2608.04616",
-      "summary": "arXiv:2608.04616v1 Announce Type: cross Abstract: An information theory-based framework is proposed in attempt to explain insistence on sameness in autism as an instance of a general behavior pattern in which an individu…",
       "ts": 1785988800000,
       "publishedAt": "2026-08-06T04:00:00.000Z",
       "categoryId": "bio"

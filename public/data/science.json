@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-07T07:19:13.067Z",
+  "updated": "2026-08-07T09:01:42.865Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "UK observatory nervously watches growing space junk threat",
+      "url": "https://phys.org/news/2026-08-uk-observatory-nervously-space-junk.html",
+      "summary": "In the sweeping shadow of a satellite dish, staff at the Chilbolton Observatory in southern England track a growing number of objects in Earth's orbit, providing data that underpins Britain's space monitoring efforts.",
+      "ts": 1786092002000,
+      "publishedAt": "2026-08-07T08:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Officials will not release cool water from a Colorado River reservoir to protect threatened fish",
+      "url": "https://phys.org/news/2026-08-cool-colorado-river-reservoir-threatened.html",
+      "summary": "Federal officials said Thursday they will not release cool water this year from one of the Colorado River's major reservoirs, which would have protected a threatened native fish downstream but put more strain on already …",
+      "ts": 1786088401000,
+      "publishedAt": "2026-08-07T07:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "US firm takes on backyard mosquitoes—with 600,000 mosquitoes",
+      "url": "https://phys.org/news/2026-08-firm-backyard-mosquitoes.html",
+      "summary": "Todd Montgomery pops the lid off a small tube and taps out hundreds of mosquitoes into the backyard of a suburban home outside Washington.",
+      "ts": 1786087202000,
+      "publishedAt": "2026-08-07T07:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Camels find unlikely home in outback Australia",
@@ -775,30 +799,6 @@
       "title": "Focusing Terawatt-Scale Lasers Using Holographic Gaseous Lenses",
       "url": "https://arxiv.org/abs/2510.02659",
       "summary": "arXiv:2510.02659v2 Announce Type: replace Abstract: The capabilities of the world's highest energy and peak-power pulsed lasers are limited by optical damage, and further advances in high-intensity laser science will req…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mapping surface height dynamics to subsurface flow physics in free-surface turbulent flow using a shallow recurrent decoder",
-      "url": "https://arxiv.org/abs/2510.06202",
-      "summary": "arXiv:2510.06202v3 Announce Type: replace Abstract: Near-surface turbulent flows beneath a free surface are reconstructed from sparse measurements of the surface height variation, by a neural network algorithm known as t…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coherent Control of Wave Scattering via Minimal-Parameter Tuning of Complex Spectra",
-      "url": "https://arxiv.org/abs/2510.13035",
-      "summary": "arXiv:2510.13035v2 Announce Type: replace Abstract: We introduce and validate a theoretical framework for coherent control of multichannel linear scattering to route waves through complex geometries with multiple scatter…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "RSstitcher -- Merging 2D diffraction frames for Wide Range Reciprocal Space Maps with absorption correction and integration functions",
-      "url": "https://arxiv.org/abs/2511.08265",
-      "summary": "arXiv:2511.08265v2 Announce Type: replace Abstract: Wide Range Reciprocal Space Mapping (WRRSM) is a technique that allows visualisation of the geometric relationships among multiple hkl spots in a whole reciprocal space…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
