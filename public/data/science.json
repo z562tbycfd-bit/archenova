@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-07T19:00:09.431Z",
+  "updated": "2026-08-07T19:56:04.755Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hydraulic traits reveal why some mountain trees move uphill while others shift downhill",
+      "url": "https://phys.org/news/2026-08-hydraulic-traits-reveal-mountain-trees.html",
+      "summary": "As global temperatures rise, scientists have largely assumed that mountain tree species will move uphill in search of cooler conditions. A new study published in Nature Climate Change reveals a more complex reality: Some…",
+      "ts": 1786131601000,
+      "publishedAt": "2026-08-07T19:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Boron layers could set a superconductivity record, theoretical study predicts",
+      "url": "https://phys.org/news/2026-08-boron-layers-superconductivity-theoretical.html",
+      "summary": "Scientists in China predict that stacking two microscopic layers of boron could set a new record for superconductivity. Superconductors are materials that conduct electricity with zero resistance. Traditional types need …",
+      "ts": 1786130401000,
+      "publishedAt": "2026-08-07T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New platform speeds bacterial gene mapping for better biotech design",
+      "url": "https://phys.org/news/2026-08-platform-bacterial-gene-biotech.html",
+      "summary": "Scientists at the Department of Energy's Oak Ridge National Laboratory have created a platform that pinpoints genetic triggers that turn microbes into efficient factories for new chemicals and materials. The method enabl…",
+      "ts": 1786129201000,
+      "publishedAt": "2026-08-07T19:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Mobile fungal 'Starship' carries protein that triggers crop leaf loss",
@@ -775,30 +799,6 @@
       "title": "Newton's Second Law: A Theoretical Identity Derived from the Principle of Excluded Perpetual Motion and the Weak Equivalence Principle",
       "url": "https://arxiv.org/abs/2608.06266",
       "summary": "arXiv:2608.06266v1 Announce Type: new Abstract: For more than three centuries, Newton's Second Law (F=ma) has governed mechanics with undisputed success, yet its epistemic authority has rested on empirical adequacy alone…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Three-layer water flows: Dirichlet-Neumann operators and approximations",
-      "url": "https://arxiv.org/abs/2608.06314",
-      "summary": "arXiv:2608.06314v1 Announce Type: new Abstract: The object of investigation in this paper are the nonlinear equations of motion for two-dimensional inviscid water flows with piecewise constant density stratification in a…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An open-source framework for predicting ultrasound neuromodulation: bridging tissue elastomechanics and neuron firing dynamics",
-      "url": "https://arxiv.org/abs/2608.06321",
-      "summary": "arXiv:2608.06321v1 Announce Type: new Abstract: Transcranial focused ultrasound is a non-invasive neuromodulation modality with millimetre-scale resolution, but its biophysical mechanism of action remains unresolved. Exp…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nuclear-Spin Statistical Weights from Young Diagrams",
-      "url": "https://arxiv.org/abs/2608.06339",
-      "summary": "arXiv:2608.06339v1 Announce Type: new Abstract: Nuclear-spin statistical weights and selection rules in molecular spectroscopy are governed by the permutation symmetry of identical nuclei, although rigid and semi-rigid m…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }

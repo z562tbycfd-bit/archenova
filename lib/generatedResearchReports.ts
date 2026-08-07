@@ -1,6 +1,172 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "ai-hydraulic-traits-reveal-why-some-mountain-trees-move-uphill-while-others-shift-d",
+    "title": "Hydraulic traits reveal why some mountain trees move uphill while others shift downhill",
+    "category": "AI",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-hydraulic-traits-reveal-mountain-trees.html",
+    "summary": "As global temperatures rise, scientists have largely assumed that mountain tree species will move uphill in search of cooler conditions. A new study published in Nature Climate Change reveals a more complex reality: Some…",
+    "coreInsight": "Hydraulic traits reveal why some mountain trees move uphill while others shift downhill indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
+    "scientificSignal": "As global temperatures rise, scientists have largely assumed that mountain tree species will move uphill in search of cooler conditions. A new study published in Nature Climate Change reveals a more complex reality: Some…",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    "civilizationFunction": "Adaptive Capacity",
+    "keyConstraints": [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance"
+    ],
+    "watchpoints": [
+      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.4,
+      "engineering": 8.2,
+      "economic": 8.3,
+      "civilization": 9.5,
+      "overall": 8.7,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1786131601000
+  },
+  {
+    "slug": "quantum-boron-layers-could-set-a-superconductivity-record-theoretical-study-predicts",
+    "title": "Boron layers could set a superconductivity record, theoretical study predicts",
+    "category": "Quantum",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-boron-layers-superconductivity-theoretical.html",
+    "summary": "Scientists in China predict that stacking two microscopic layers of boron could set a new record for superconductivity. Superconductors are materials that conduct electricity with zero resistance. Traditional types need …",
+    "coreInsight": "Boron layers could set a superconductivity record, theoretical study predicts indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Scientists in China predict that stacking two microscopic layers of boron could set a new record for superconductivity. Superconductors are materials that conduct electricity with zero resistance. Traditional types need …",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1786130401000
+  },
+  {
+    "slug": "energy-new-platform-speeds-bacterial-gene-mapping-for-better-biotech-design",
+    "title": "New platform speeds bacterial gene mapping for better biotech design",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-platform-bacterial-gene-biotech.html",
+    "summary": "Scientists at the Department of Energy's Oak Ridge National Laboratory have created a platform that pinpoints genetic triggers that turn microbes into efficient factories for new chemicals and materials. The method enabl…",
+    "coreInsight": "New platform speeds bacterial gene mapping for better biotech design indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "Scientists at the Department of Energy's Oak Ridge National Laboratory have created a platform that pinpoints genetic triggers that turn microbes into efficient factories for new chemicals and materials. The method enabl…",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
+    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
+    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Independent biological validation",
+      "Off-target effects and genetic stability",
+      "Biosafety and ecological consequences",
+      "Regulatory approval and public legitimacy",
+      "Intellectual property and access constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+    "technologyRoadmap": [
+      "Biological mechanism discovery",
+      "Genome or biotechnology platform development",
+      "Controlled validation and biosafety review",
+      "Agricultural, medical, or industrial deployment",
+      "Governed biological capability infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
+      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
+      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.8,
+      "engineering": 9.2,
+      "economic": 9.5,
+      "civilization": 10,
+      "overall": 9.7,
+      "classification": "Biological Capability Signal"
+    },
+    "ts": 1786129201000
+  },
+  {
     "slug": "bio-mobile-fungal-starship-carries-protein-that-triggers-crop-leaf-loss",
     "title": "Mobile fungal 'Starship' carries protein that triggers crop leaf loss",
     "category": "Bio",
@@ -1215,61 +1381,6 @@ export const generatedResearchReports =
     "ts": 1786118403000
   },
   {
-    "slug": "general-physicists-watch-a-material-s-electrons-assemble-and-reassemble-into-coexisting-",
-    "title": "Physicists watch a material's electrons assemble, and reassemble, into coexisting phases",
-    "category": "General",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-08-physicists-material-electrons-reassemble-coexisting.html",
-    "summary": "A tall glass of ice water isn't just a thirst quencher; it's also an everyday example of coexisting phases. Water can exist simultaneously in both liquid and solid phases. As it turns out, this phase duality can also exi…",
-    "coreInsight": "Physicists watch a material's electrons assemble, and reassemble, into coexisting phases is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
-    "scientificSignal": "A tall glass of ice water isn't just a thirst quencher; it's also an everyday example of coexisting phases. Water can exist simultaneously in both liquid and solid phases. As it turns out, this phase duality can also exi…",
-    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
-    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
-    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
-    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
-    "civilizationFunction": "Capability Expansion",
-    "keyConstraints": [
-      "Evidence quality",
-      "Engineering maturity",
-      "Institutional adoption",
-      "Economic feasibility"
-    ],
-    "watchpoints": [
-      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "technologyRoadmap": [
-      "Scientific discovery",
-      "Applied science",
-      "Engineering system",
-      "Social implementation",
-      "Infrastructure formation"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Applied research and pilot implementation.",
-      "mid": "5–15 Years: Industrial and institutional adoption.",
-      "far": "15–30 Years: Infrastructure and civilization integration."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Medium",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 7.5,
-      "engineering": 7.5,
-      "economic": 7,
-      "civilization": 7.8,
-      "overall": 7.5,
-      "classification": "Emerging Future Signal"
-    },
-    "ts": 1786118401000
-  },
-  {
     "slug": "general-ancient-greek-rings-may-have-been-forged-with-iron-from-meteorites",
     "title": "Ancient Greek rings may have been forged with iron from meteorites",
     "category": "General",
@@ -1323,118 +1434,6 @@ export const generatedResearchReports =
       "classification": "Emerging Future Signal"
     },
     "ts": 1786118400000
-  },
-  {
-    "slug": "ai-different-genes-same-result-how-flies-evolved-multiple-ways-to-define-heads-and-",
-    "title": "Different genes, same result: How flies evolved multiple ways to define heads and tails",
-    "category": "AI",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-08-genes-result-flies-evolved-multiple.html",
-    "summary": "One of the most important milestones in the early life of an organism is when the embryo breaks symmetry and arranges itself to form the head (anterior) at one end and tail (posterior) at the other end. Scientists have u…",
-    "coreInsight": "Different genes, same result: How flies evolved multiple ways to define heads and tails indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "One of the most important milestones in the early life of an organism is when the embryo breaks symmetry and arranges itself to form the head (anterior) at one end and tail (posterior) at the other end. Scientists have u…",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.6,
-      "engineering": 8,
-      "economic": 8.3,
-      "civilization": 9.1,
-      "overall": 8.5,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1786117204000
-  },
-  {
-    "slug": "general-high-coverage-ancient-genomes-reveal-prehistoric-population-histories-of-japan",
-    "title": "High-coverage ancient genomes reveal prehistoric population histories of Japan",
-    "category": "General",
-    "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-08-high-coverage-ancient-genomes-reveal.html",
-    "summary": "A research team led by Koji Ishiya of Kanazawa University reconstructed exceptionally high-coverage genomes from two ancient individuals in Japan: IY1, a woman from the Initial Jomon period who lived about 8,300 years ag…",
-    "coreInsight": "High-coverage ancient genomes reveal prehistoric population histories of Japan indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "A research team led by Koji Ishiya of Kanazawa University reconstructed exceptionally high-coverage genomes from two ancient individuals in Japan: IY1, a woman from the Initial Jomon period who lived about 8,300 years ag…",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.8,
-      "engineering": 8.2,
-      "economic": 8.5,
-      "civilization": 9.3,
-      "overall": 8.7,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1786117201000
   },
   {
     "slug": "ai-responding-to-the-next-frontier-of-critical-cyber-capabilities",
@@ -5522,6 +5521,62 @@ export const generatedResearchReports =
 export const archeNovaTopSignals =
 [
   {
+    "slug": "energy-new-platform-speeds-bacterial-gene-mapping-for-better-biotech-design",
+    "title": "New platform speeds bacterial gene mapping for better biotech design",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-platform-bacterial-gene-biotech.html",
+    "summary": "Scientists at the Department of Energy's Oak Ridge National Laboratory have created a platform that pinpoints genetic triggers that turn microbes into efficient factories for new chemicals and materials. The method enabl…",
+    "coreInsight": "New platform speeds bacterial gene mapping for better biotech design indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "Scientists at the Department of Energy's Oak Ridge National Laboratory have created a platform that pinpoints genetic triggers that turn microbes into efficient factories for new chemicals and materials. The method enabl…",
+    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
+    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
+    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
+    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
+    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Independent biological validation",
+      "Off-target effects and genetic stability",
+      "Biosafety and ecological consequences",
+      "Regulatory approval and public legitimacy",
+      "Intellectual property and access constraints"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
+    "technologyRoadmap": [
+      "Biological mechanism discovery",
+      "Genome or biotechnology platform development",
+      "Controlled validation and biosafety review",
+      "Agricultural, medical, or industrial deployment",
+      "Governed biological capability infrastructure"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
+      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
+      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 9.8,
+      "engineering": 9.2,
+      "economic": 9.5,
+      "civilization": 10,
+      "overall": 9.7,
+      "classification": "Biological Capability Signal"
+    },
+    "ts": 1786129201000
+  },
+  {
     "slug": "energy-x-ray-driven-trihydrogen-formation-on-silica-nanosurfaces",
     "title": "X-ray Driven Trihydrogen Formation on Silica Nanosurfaces",
     "category": "Energy",
@@ -6016,23 +6071,27 @@ export const archeNovaTopSignals =
       "classification": "Biological Capability Signal"
     },
     "ts": 1786075200000
-  },
+  }
+];
+
+export const archeNovaWatchlist =
+[
   {
-    "slug": "energy-first-full-zoysia-grass-genetic-blueprint-opens-doors-for-drought-tolerant-turf",
-    "title": "First full zoysia grass genetic blueprint opens doors for drought-tolerant turf",
+    "slug": "energy-new-platform-speeds-bacterial-gene-mapping-for-better-biotech-design",
+    "title": "New platform speeds bacterial gene mapping for better biotech design",
     "category": "Energy",
     "source": "Phys.org",
-    "originalUrl": "https://phys.org/news/2026-08-full-zoysia-grass-genetic-blueprint.html",
-    "summary": "A new genomic resource from the Texas A&M AgriLife Research plant genomics team is providing a powerful new foundation for faster, more precise turfgrass genetics and breeding. The team discovered a breakthrough genome t…",
-    "coreInsight": "First full zoysia grass genetic blueprint opens doors for drought-tolerant turf indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "A new genomic resource from the Texas A&M AgriLife Research plant genomics team is providing a powerful new foundation for faster, more precise turfgrass genetics and breeding. The team discovered a breakthrough genome t…",
+    "originalUrl": "https://phys.org/news/2026-08-platform-bacterial-gene-biotech.html",
+    "summary": "Scientists at the Department of Energy's Oak Ridge National Laboratory have created a platform that pinpoints genetic triggers that turn microbes into efficient factories for new chemicals and materials. The method enabl…",
+    "coreInsight": "New platform speeds bacterial gene mapping for better biotech design indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
+    "scientificSignal": "Scientists at the Department of Energy's Oak Ridge National Laboratory have created a platform that pinpoints genetic triggers that turn microbes into efficient factories for new chemicals and materials. The method enabl…",
     "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
     "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
     "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
     "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
     "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
     "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Adaptive Capacity",
+    "civilizationFunction": "Capability Expansion",
     "keyConstraints": [
       "Independent biological validation",
       "Off-target effects and genetic stability",
@@ -6064,19 +6123,17 @@ export const archeNovaTopSignals =
       "timeHorizon": "5–15 Years"
     },
     "archeNovaAssessment": {
-      "scientific": 9.4,
-      "engineering": 8.8,
-      "economic": 9.1,
-      "civilization": 9.9,
-      "overall": 9.3,
+      "scientific": 9.8,
+      "engineering": 9.2,
+      "economic": 9.5,
+      "civilization": 10,
+      "overall": 9.7,
       "classification": "Biological Capability Signal"
     },
-    "ts": 1786126801000
-  }
-];
-
-export const archeNovaWatchlist =
-[
+    "ts": 1786129201000,
+    "trend": "Top Signal",
+    "rank": 1
+  },
   {
     "slug": "energy-x-ray-driven-trihydrogen-formation-on-silica-nanosurfaces",
     "title": "X-ray Driven Trihydrogen Formation on Silica Nanosurfaces",
@@ -6131,8 +6188,8 @@ export const archeNovaWatchlist =
       "classification": "Civilization Energy Signal"
     },
     "ts": 1786075200000,
-    "trend": "Top Signal",
-    "rank": 1
+    "trend": "High Priority",
+    "rank": 2
   },
   {
     "slug": "space-iris-reinforced-and-accelerated-as-implementation-advances",
@@ -6189,7 +6246,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786094820000,
     "trend": "High Priority",
-    "rank": 2
+    "rank": 3
   },
   {
     "slug": "energy-neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle",
@@ -6246,7 +6303,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786110932000,
     "trend": "High Priority",
-    "rank": 3
+    "rank": 4
   },
   {
     "slug": "energy-multiphysics-tritium-transport-modelling-of-the-arc-breeding-blanket-with-festim",
@@ -6303,7 +6360,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786075200000,
     "trend": "High Priority",
-    "rank": 4
+    "rank": 5
   },
   {
     "slug": "ai-inverse-mask-design-for-interference-lithography-using-automatic-differentiable-",
@@ -6360,7 +6417,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786075200000,
     "trend": "High Priority",
-    "rank": 5
+    "rank": 6
   },
   {
     "slug": "ai-a-low-power-wearable-respiratory-sensor-for-non-invasive-stress-monitoring",
@@ -6417,7 +6474,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786075200000,
     "trend": "High Priority",
-    "rank": 6
+    "rank": 7
   },
   {
     "slug": "space-fcc-space-bureau-deputy-takes-the-reins-amid-licensing-overhaul",
@@ -6474,7 +6531,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786125270000,
     "trend": "Stable",
-    "rank": 7
+    "rank": 8
   },
   {
     "slug": "space-europe-increases-size-and-cost-of-iris-constellation",
@@ -6531,7 +6588,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786103504000,
     "trend": "Stable",
-    "rank": 8
+    "rank": 9
   },
   {
     "slug": "ai-next-generation-of-ultra-coarse-graining-self-consistent-inference-of-critical-i",
@@ -6589,7 +6646,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786075200000,
     "trend": "Stable",
-    "rank": 9
+    "rank": 10
   },
   {
     "slug": "energy-first-full-zoysia-grass-genetic-blueprint-opens-doors-for-drought-tolerant-turf",
@@ -6647,7 +6704,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786126801000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 11
   },
   {
     "slug": "space-u-s-senate-confirms-schiess-to-lead-space-force",
@@ -6704,7 +6761,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786106564000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 12
   },
   {
     "slug": "space-convergent-evolution-in-algorithmic-space",
@@ -6761,7 +6818,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786075200000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 13
   },
   {
     "slug": "space-convergent-evolution-in-neural-representation-space-emergent-order-in-deep-belie",
@@ -6819,7 +6876,64 @@ export const archeNovaWatchlist =
     },
     "ts": 1786075200000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 14
+  },
+  {
+    "slug": "quantum-boron-layers-could-set-a-superconductivity-record-theoretical-study-predicts",
+    "title": "Boron layers could set a superconductivity record, theoretical study predicts",
+    "category": "Quantum",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-boron-layers-superconductivity-theoretical.html",
+    "summary": "Scientists in China predict that stacking two microscopic layers of boron could set a new record for superconductivity. Superconductors are materials that conduct electricity with zero resistance. Traditional types need …",
+    "coreInsight": "Boron layers could set a superconductivity record, theoretical study predicts indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "Scientists in China predict that stacking two microscopic layers of boron could set a new record for superconductivity. Superconductors are materials that conduct electricity with zero resistance. Traditional types need …",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Capability Expansion",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1786130401000,
+    "trend": "Stable",
+    "rank": 15
   },
   {
     "slug": "space-uranus-s-unusual-rotation-makes-its-bow-shock-expand-and-contract-each-day",
@@ -6876,7 +6990,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786119605000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 16
   },
   {
     "slug": "ai-join-us-live-and-enjoy-the-total-solar-eclipse",
@@ -6933,7 +7047,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786111200000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 17
   },
   {
     "slug": "bio-overcoming-scattering-in-high-cell-density-tomographic-volumetric-bioprinting-us",
@@ -6990,7 +7104,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786075200000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 18
   },
   {
     "slug": "space-nasa-s-ixpe-studies-magnetar",
@@ -7047,7 +7161,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786112855000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 19
   },
   {
     "slug": "ai-bipartisan-senate-bill-would-sharpen-space-force-training-for-conflict-with-chin",
@@ -7103,120 +7217,6 @@ export const archeNovaWatchlist =
       "classification": "Expansion Capability Signal"
     },
     "ts": 1786093200000,
-    "trend": "Stable",
-    "rank": 18
-  },
-  {
-    "slug": "space-nasa-s-lunar-development-and-test-facility-prepares-artemis-hardware-for-moon",
-    "title": "NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon ",
-    "category": "Space",
-    "source": "NASA",
-    "originalUrl": "https://www.nasa.gov/centers-and-facilities/johnson/nasas-lunar-development-and-test-facility-prepares-artemis-hardware-for-moon/",
-    "summary": "Before astronauts return to the Moon’s surface through NASA’s Artemis program, the hardware they depend on must first prove it can survive the unforgiving lunar environment. At NASA’s Johnson Space Center in Houston, eng…",
-    "coreInsight": "NASA’s Lunar Development and Test Facility Prepares Artemis Hardware for Moon  indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
-    "scientificSignal": "Before astronauts return to the Moon’s surface through NASA’s Artemis program, the hardware they depend on must first prove it can survive the unforgiving lunar environment. At NASA’s Johnson Space Center in Houston, eng…",
-    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
-    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
-    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
-    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
-    "civilizationFunction": "Reality Discovery",
-    "keyConstraints": [
-      "Measurement reliability",
-      "Regional variability",
-      "Institutional adoption",
-      "Long-term financing and governance"
-    ],
-    "watchpoints": [
-      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-    "technologyRoadmap": [
-      "Environmental signal discovery",
-      "Monitoring or adaptation system",
-      "Regional deployment",
-      "Infrastructure and governance integration",
-      "Planetary adaptive capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Monitoring and adaptation tools.",
-      "mid": "5–15 Years: Regional resilience infrastructure.",
-      "far": "15–30 Years: Planetary adaptive-capacity systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.7,
-      "engineering": 8.5,
-      "economic": 8.6,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Adaptive Resilience Signal"
-    },
-    "ts": 1786083927000,
-    "trend": "Stable",
-    "rank": 19
-  },
-  {
-    "slug": "space-sensing-the-poles-hidden-heat",
-    "title": "Sensing the Poles’ Hidden Heat",
-    "category": "Space",
-    "source": "NASA",
-    "originalUrl": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
-    "summary": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-    "coreInsight": "Sensing the Poles’ Hidden Heat indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
-    "scientificSignal": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
-    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
-    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
-    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
-    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Measurement reliability",
-      "Regional variability",
-      "Institutional adoption",
-      "Long-term financing and governance"
-    ],
-    "watchpoints": [
-      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
-    "technologyRoadmap": [
-      "Environmental signal discovery",
-      "Monitoring or adaptation system",
-      "Regional deployment",
-      "Infrastructure and governance integration",
-      "Planetary adaptive capacity"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Monitoring and adaptation tools.",
-      "mid": "5–15 Years: Regional resilience infrastructure.",
-      "far": "15–30 Years: Planetary adaptive-capacity systems."
-    },
-    "assessment": {
-      "probability": "High",
-      "impact": "High",
-      "timeHorizon": "5–20 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 8.7,
-      "engineering": 8.5,
-      "economic": 8.6,
-      "civilization": 9.8,
-      "overall": 9,
-      "classification": "Adaptive Resilience Signal"
-    },
-    "ts": 1786075200000,
     "trend": "Stable",
     "rank": 20
   }
