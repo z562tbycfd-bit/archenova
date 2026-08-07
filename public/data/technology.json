@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-07T00:41:22.266Z",
+  "updated": "2026-08-07T03:50:48.713Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "FMT Shows Promise for Peanut Allergy Tolerance in Phase I Trial",
+      "url": "https://www.genengnews.com/topics/translational-medicine/fmt-shows-promise-for-peanut-allergy-tolerance-in-phase-i-trial/",
+      "summary": "A small Phase I trial found that fecal microbiome transplantation (FMT) increased peanut tolerance in some adults with a peanut allergy, while mouse studies suggested the effect may depend on bile acid metabolites. The p…",
+      "ts": 1786072797000,
+      "publishedAt": "2026-08-07T03:19:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Algae-Based Food Product Development Earns Gates Foundation Award",
+      "url": "https://www.genengnews.com/topics/bioprocessing/algae-based-food-product-development-earns-gates-foundation-award/",
+      "summary": "Mingyu Qiao, PhD’s recent work focused on DHA, critical to fetal and infant brain and eye development. The DHA will be produced in a microalgal strain isolated in Qiao’s lab. The post Algae-Based Food Product Development…",
+      "ts": 1786071917000,
+      "publishedAt": "2026-08-07T03:05:17.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Genetic Findings Provide Insights Into Leading Cause of Back Pain",
@@ -39,6 +57,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "NASA",
+      "title": "Educators & Teens Get Hands-On With TEMPO Data to Help Investigate Local Air Quality",
+      "url": "https://science.nasa.gov/learning-resources/science-activation/educators-teens-get-hands-on-with-tempo-data-to-help-investigate-local-air-quality/",
+      "summary": "The NASA Science Activation Program’s Cosmic Storytelling with NASA Data (CosmicDS) project, led by Harvard University in Cambridge, Massachusetts, works to bring authentic NASA data into the hands of educators and learn…",
+      "ts": 1786044812000,
+      "publishedAt": "2026-08-06T19:33:32.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Renewed Importance of CEX in Monoclonal-Antibody Purification",
       "url": "https://www.genengnews.com/sponsored/renewed-importance-of-cex-in-monoclonal-antibody-purification/",
@@ -55,6 +82,33 @@
       "ts": 1786042800000,
       "publishedAt": "2026-08-06T19:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA’s SkyFall Helicopters at Work (Artist’s Concept)",
+      "url": "https://science.nasa.gov/photojournal/nasas-skyfall-helicopters-at-work-artists-concept/",
+      "summary": "Description This artist’s concept depicts NASA’s three SkyFall Mars helicopters collecting data while flying over the surface of the Red Planet. The green frequency waves emanating from the helicopters’ large antennas de…",
+      "ts": 1786039567000,
+      "publishedAt": "2026-08-06T18:06:07.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Antenna Testing for NASA’s SkyFall Mission",
+      "url": "https://science.nasa.gov/photojournal/antenna-testing-for-nasas-skyfall-mission/",
+      "summary": "Description SkyFall ground-penetrating radar engineer Maya Román connects a coaxial cable to a test antenna in the Environmental Test Lab’s electromagnetic interference testing chamber at NASA’s Jet Propulsion Laboratory…",
+      "ts": 1786038972000,
+      "publishedAt": "2026-08-06T17:56:12.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "I Am Artemis: Tom Percy",
+      "url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-tom-percy/",
+      "summary": "As NASA sets its sights on long-term exploration of the Moon and Mars, the agency is increasing the cadence of its Artemis missions. Helping bring these plans to fruition is Tom Percy, manager of systems engineering and …",
+      "ts": 1786034151000,
+      "publishedAt": "2026-08-06T16:35:51.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -75,6 +129,15 @@
       "categoryId": "space"
     },
     {
+      "source": "NASA",
+      "title": "Taking Flight to Prepare for Space",
+      "url": "https://www.nasa.gov/image-article/taking-flight-to-prepare-for-space/",
+      "summary": "NASA astronaut Adam Fuhrmann (right, in yellow) prepares for a training flight aboard NASA’s WB-57 aircraft in this July 16, 2026, photo. These high-altitude flights train the crew to work in a tight environment and oper…",
+      "ts": 1786029337000,
+      "publishedAt": "2026-08-06T15:15:37.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "SpaceNews",
       "title": "Lessons for the future of NASA Mars exploration from a 1970s mission",
       "url": "https://spacenews.com/lessons-for-the-future-of-nasa-mars-exploration-from-a-1970s-mission/",
@@ -91,6 +154,15 @@
       "ts": 1786028400000,
       "publishedAt": "2026-08-06T15:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "JOB OPPORTUNITIES: NASA OFFICE OF THE GENERAL COUNSEL",
+      "url": "https://www.nasa.gov/organizations/ogc/job-opportunities-nasa-office-of-the-general-counsel/",
+      "summary": "",
+      "ts": 1786027191000,
+      "publishedAt": "2026-08-06T14:39:51.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -351,6 +423,15 @@
       "summary": "APOD Science APOD APOD: 2026 August 6 – New… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photogr…",
       "ts": 1785989100000,
       "publishedAt": "2026-08-06T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "How the Tide Turns at the Mouth of the Elbe",
+      "url": "https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+      "summary": "The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany.",
+      "ts": 1785988860000,
+      "publishedAt": "2026-08-06T04:01:00.000Z",
       "categoryId": "space"
     },
     {
@@ -618,7 +699,7 @@
       "source": "NASA",
       "title": "NASA’s IXPE May Have Proven 90-Year-Old Theory",
       "url": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/",
-      "summary": "A first of its kind measurement of a magnetar may have captured empty space behaving in a way physicists have predicted for 90 years, but never directly observed. The results published Wednesday in Nature. Fast facts Sci…",
+      "summary": "A first-of-its-kind measurement of a magnetar may have captured empty space behaving in a way physicists have predicted for 90 years, but never directly observed. The results published Wednesday in Nature. Fast facts Sci…",
       "ts": 1785955754000,
       "publishedAt": "2026-08-05T18:49:14.000Z",
       "categoryId": "space"
@@ -730,87 +811,6 @@
       "ts": 1785943527000,
       "publishedAt": "2026-08-05T15:25:27.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Electrical Stimulation’s Effects on Neurons, Gene Expression Mapped in Living Human Brain Tissue",
-      "url": "https://www.genengnews.com/topics/omics/electrical-stimulations-effects-on-neurons-gene-expression-mapped-in-living-human-brain-tissue/",
-      "summary": "To investigate these mechanisms, the researchers integrated microelectrode array stimulation with simultaneous recording and single-nucleus genomics from resected temporal cortex obtained from neurosurgery patients. The …",
-      "ts": 1785942006000,
-      "publishedAt": "2026-08-05T15:00:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Finding room in Starlink’s shadow",
-      "url": "https://spacenews.com/finding-room-in-starlinks-shadow/",
-      "summary": "Another wave of constellations has staked claims for communications satellites in non-geostationary orbit (NGSO), but what hope do newcomers have alongside the industry’s entrenched, vertically integrated giants? A mix o…",
-      "ts": 1785942000000,
-      "publishedAt": "2026-08-05T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "Puzzle Corner",
-      "url": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
-      "summary": "Ready for a fresh set of puzzles? Click here for the September/October 2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the Puzzle Corner Puzzle Crew (aka PC2), which also includes Edward Faulkner ’…",
-      "ts": 1785941789000,
-      "publishedAt": "2026-08-05T14:56:29.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "ESA",
-      "title": "Your chance to run software in deep space on ESA's asteroid mission",
-      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Your_chance_to_run_software_in_deep_space_on_ESA_s_asteroid_mission",
-      "summary": "The European Space Agency is offering European researchers and companies a rare and exciting opportunity to run their innovative software directly in deep space aboard ESA’s Hera mission, millions of kilometres away.",
-      "ts": 1785938640000,
-      "publishedAt": "2026-08-05T14:04:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Advanced Mini-laboratories Automate Space Station Research",
-      "url": "https://www.nasa.gov/image-article/advanced-mini-laboratories-automate-space-station-research/",
-      "summary": "The International Space Station hosts hundreds of science experiments at a time. Some experiments can take hours to perform, and researchers need to account for astronauts’ limited time. Fully automated devices, like Red…",
-      "ts": 1785938400000,
-      "publishedAt": "2026-08-05T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Moderna launches early trial of Ebola mRNA vaccine",
-      "url": "https://www.statnews.com/2026/08/05/biotech-news-moderna-launches-early-ebola-mrna-vaccine-trial/?utm_campaign=rss",
-      "summary": "Novo and Lilly earnings are out, Aurora Therapeutics slashing staff, and more biotech news from The Readout",
-      "ts": 1785936765000,
-      "publishedAt": "2026-08-05T13:32:45.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Why Schrödinger CEO Ramy Farid changed how he’s thinking about AI",
-      "url": "https://www.statnews.com/2026/08/05/they-changed-their-minds-on-ai-whos-next-ai-prognosis/?utm_campaign=rss",
-      "summary": "In this edition of STAT's AI Prognosis: Why Schrödinger CEO Ramy Farid is rethinking AI, Recursion's neuron map, and more health AI news.",
-      "ts": 1785936599000,
-      "publishedAt": "2026-08-05T13:29:59.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Medicare pilot and orphan drugs, Pfizer cutbacks, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/05/medicare-pilot-orphan-drugs-pfizer-cutbacks/?utm_campaign=rss",
-      "summary": "In today's Pharmalittle newsletter, a Medicare pilot and orphan drugs, Pfizer cutbacks, and more.",
-      "ts": 1785936406000,
-      "publishedAt": "2026-08-05T13:26:46.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and Partners Build in America, for America",
-      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
-      "summary": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discove…",
-      "ts": 1785934847000,
-      "publishedAt": "2026-08-05T13:00:47.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [

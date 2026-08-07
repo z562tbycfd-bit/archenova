@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-07T00:41:18.995Z",
+  "updated": "2026-08-07T03:50:46.542Z",
   "items": [
+    {
+      "source": "Nature Communications",
+      "title": "Molecular-level insight into water adsorption and projected atmospheric water harvesting performance in a hydrolytically stable MOF",
+      "url": "https://www.nature.com/articles/s41467-026-76301-0",
+      "summary": "",
+      "ts": 1786060800000,
+      "publishedAt": "2026-08-07T00:00:00.000Z"
+    },
     {
       "source": "Nature Communications",
       "title": "Ultrafast electron acceleration by space chorus",
@@ -12,8 +20,32 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Electrical control of exchange bias in sub-10 nm regime enabled by single-nanotube patterning",
+      "url": "https://www.nature.com/articles/s41467-026-76524-1",
+      "summary": "",
+      "ts": 1786060800000,
+      "publishedAt": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Nuclear localization of the glutaminyl-tRNA synthetase QARS reveals its role in DNA damage response in ovarian cancer",
       "url": "https://www.nature.com/articles/s41467-026-76046-w",
+      "summary": "",
+      "ts": 1786060800000,
+      "publishedAt": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Iron Oxide Photoanode for Glycerol-Assisted Hydrogen Production at 8.87 mA cm<sup>–2</sup>",
+      "url": "https://www.nature.com/articles/s41467-026-75977-8",
+      "summary": "",
+      "ts": 1786060800000,
+      "publishedAt": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "In situ electron microscopy of LaNiO<sub>3</sub> transformation during reduction and methane dry reforming",
+      "url": "https://www.nature.com/articles/s41467-026-76419-1",
       "summary": "",
       "ts": 1786060800000,
       "publishedAt": "2026-08-07T00:00:00.000Z"
@@ -411,6 +443,46 @@
       "publishedAt": "2026-08-06T11:00:03.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "High-fidelity two-qubit gates with transmon qubits using bipolar flux pulses and tunable couplers",
+      "url": "http://link.aps.org/doi/10.1103/ghq6-pyjw",
+      "summary": "Author(s): Nikita S. Smirnov, Aleksei R. Matanin, Anton I. Ivanov, Vladimir V. Echeistov, Nikita D. Korshakov, Elizaveta I. Malevannaya, Viktor I. Polozov, Bogdan K. Getmanov, Anastasia A. Solovieva, Daria A. Moskaleva, …",
+      "ts": 1786010400000,
+      "publishedAt": "2026-08-06T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Sensitive detection of the Rydberg transition in trapped electrons on liquid helium using radio-frequency reflectometry",
+      "url": "http://link.aps.org/doi/10.1103/4fx7-fk1z",
+      "summary": "Author(s): Jui-Yin Lin, Tomoyuki Tani, Mikhail Belianchikov, and Denis Konstantinov Radio-frequency (rf) reflectometry provides a useful method for sensitive and fast detection of dynamic processes in quantum systems. We…",
+      "ts": 1786010400000,
+      "publishedAt": "2026-08-06T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Quantitative evaluation of gas-damping effects in high-precision gravitational reference sensors based on Monte Carlo numerical simulation",
+      "url": "http://link.aps.org/doi/10.1103/1j5b-7bn3",
+      "summary": "Author(s): Ying-Nan Zhu, Jin-Song Yang, Peng Wang, Yan-Chong Liu, Ji Fan, Yan-Zheng Bai, and Ze-Bing Zhou In the context of spaceborne gravitational-wave detection, residual gas-damping noise induced by thermal molecular…",
+      "ts": 1786010400000,
+      "publishedAt": "2026-08-06T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Reflection and refraction properties of a laser-driven two-dimensional quantum well: Analogy to a photonic time crystal",
+      "url": "http://link.aps.org/doi/10.1103/xphj-2khy",
+      "summary": "Author(s): Igor V. Smetanin and Alexander V. Uskov This Letter presents an innovative type of metamaterial that exhibits photonic-crystal-like Floquet scattering when exposed to an obliquely incident, weak electromagneti…",
+      "ts": 1786010400000,
+      "publishedAt": "2026-08-06T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Robust Bayesian spin-squeezing-enhanced quantum sensing under noise",
+      "url": "http://link.aps.org/doi/10.1103/jw1m-b32p",
+      "summary": "Author(s): Jinye Wei, Jungeng Zhou, Yi Shen, Jiahao Huang, and Chaohong Lee Spin-squeezed states can surpass the standard quantum limit, yet their advantage is confined to a narrow phase range, complicating their use in …",
+      "ts": 1786010400000,
+      "publishedAt": "2026-08-06T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Origin of Exponential Operator Growth in Hilbert Space",
       "url": "http://link.aps.org/doi/10.1103/81ws-xw2t",
@@ -727,78 +799,6 @@
       "title": "All-Optical Field-Resolved Spectroscopy With Interferometric Nonlinear Cross-Correlations",
       "url": "https://arxiv.org/abs/2608.04493",
       "summary": "arXiv:2608.04493v1 Announce Type: new Abstract: Direct time-domain measurements of electric fields enable sub-cycle spectroscopy of light-matter interactions, but established techniques such as electro-optic sampling are…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the relationship between the gain of Stimulated Raman Backscatter of a short-pulse laser in a plasma and the Pierce parameter for XFELs",
-      "url": "https://arxiv.org/abs/2608.04517",
-      "summary": "arXiv:2608.04517v1 Announce Type: new Abstract: It is shown that the convective gain of Stimulated Raman Backscatter (SRBS) within a single laser wavelength in the strongly coupled regime is equivalent to the Pierce para…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photogalvanic second harmonic generation in Si3N4 for 1 Hz level on-chip metrology and spectroscopy",
-      "url": "https://arxiv.org/abs/2608.04555",
-      "summary": "arXiv:2608.04555v1 Announce Type: new Abstract: The coherent photogalvanic (PG) effect induces an effective $\\chi^{(2)}$ nonlinearity in natively $\\chi^{(3)}$ silicon nitride integrated photonics, unlocking pathways towa…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design of a thermal loading resilient optical enhancement cavity for operation at 515 nm for X-ray production through inverse Compton scattering in an energy recovery linac",
-      "url": "https://arxiv.org/abs/2608.04580",
-      "summary": "arXiv:2608.04580v1 Announce Type: new Abstract: A fast and simple method to optimize a high-power optical enhancement cavity is proposed. It is applied to a four-mirror bow-tie cavity operating at 515 nm, which is to be …",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Universal Function Approximation via Diffractive Optical Processors: Physical Limits, Error Bounds, and Learnability",
-      "url": "https://arxiv.org/abs/2608.04582",
-      "summary": "arXiv:2608.04582v1 Announce Type: new Abstract: We present a unified theoretical framework connecting classical universal approximation theory, Fourier-feature approximation, and diffractive optical processors. We show t…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Accessing the symmetric component of quadrupole misalignment through counter-rotating closed orbits in EDM storage rings",
-      "url": "https://arxiv.org/abs/2608.04647",
-      "summary": "arXiv:2608.04647v1 Announce Type: new Abstract: In the storage ring proposed to measure the proton electric dipole moment (EDM), quadrupole misalignments of a few microns mimic a genuine EDM through a geometric (Berry) p…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Erodible bed turbulence modulation driven by transition between longitudinal and transverse bedforms at varying Shields numbers",
-      "url": "https://arxiv.org/abs/2608.04648",
-      "summary": "arXiv:2608.04648v1 Announce Type: new Abstract: The mechanism of turbulence modulation in particle-laden flow over erodible beds remains an open question. Using particle-resolved direct numerical simulations, this study …",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Photo-ionization Compensation of Stray Electric Fields for Cold Rydberg Atoms",
-      "url": "https://arxiv.org/abs/2608.04660",
-      "summary": "arXiv:2608.04660v1 Announce Type: new Abstract: Neurtal atoms in optical tweezer arrays constitute a highly promising platform for quantum computing and quantum simulation. Their operation relies on precise control of th…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Time-resolved THz Stark spectroscopy of molecules in water",
-      "url": "https://arxiv.org/abs/2608.04662",
-      "summary": "arXiv:2608.04662v1 Announce Type: new Abstract: Stark spectroscopy is a powerful method for probing molecular dipole moment changes, charge transfer dynamics, and polarizability under applied electric fields. Time-Resolv…",
-      "ts": 1785988800000,
-      "publishedAt": "2026-08-06T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "MOTION, a liquid xenon time projection chamber platform for high voltage technologies in dark matter detectors",
-      "url": "https://arxiv.org/abs/2608.04679",
-      "summary": "arXiv:2608.04679v1 Announce Type: new Abstract: The XLZD observatory is a next-generation experiment designed to search for weakly interacting massive particles (WIMPs) and other rare events using a 60-80 tonne liquid xe…",
       "ts": 1785988800000,
       "publishedAt": "2026-08-06T04:00:00.000Z"
     }
