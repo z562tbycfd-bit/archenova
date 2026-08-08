@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-08T10:36:10.673Z",
+  "updated": "2026-08-08T11:31:10.440Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Mega-study analyzes the impact of gratitude interventions",
+      "url": "https://phys.org/news/2026-08-mega-impact-gratitude-interventions.html",
+      "summary": "Are some interventions designed to induce gratitude more effectively than others? In which countries and cultures do they work best to improve mood, strengthen bonds between people and promote social reciprocity? A study…",
+      "ts": 1786188003000,
+      "publishedAt": "2026-08-08T11:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Canada tries to adapt to a future of wildfires",
+      "url": "https://phys.org/news/2026-08-canada-future-wildfires.html",
+      "summary": "Faced with another summer when wildfires have scorched millions of hectares of land and blankets of smoke have disrupted daily life nationwide, Canada is trying to limit the annual devastation.",
+      "ts": 1786186804000,
+      "publishedAt": "2026-08-08T11:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Loneliness may damage health in ways isolation does not: New study",
+      "url": "https://phys.org/news/2026-08-loneliness-health-ways-isolation.html",
+      "summary": "You can spend every day surrounded by other people and still feel lonely. You can also spend long periods alone without finding the experience distressing.",
+      "ts": 1786185602000,
+      "publishedAt": "2026-08-08T10:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Nocturnal 'coffee frog' discovered in Costa Rica",
@@ -491,62 +515,6 @@
       "publishedAt": "2026-08-07T11:00:03.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
-      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
-      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
-      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
-      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
-      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
-      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Infinite Temperature at Zero Energy",
-      "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
-      "summary": "Author(s): Matteo Ippoliti and David M. Long Researchers construct local Hamiltonians whose eigenstates inherit infinite-temperature properties, producing ground states with extensive entanglement. [Phys. Rev. X 16, 0310…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
-      "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
-      "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Optimizing QAOA circuit transpilation with parity twine and SWAP network encodings",
-      "url": "http://link.aps.org/doi/10.1103/sjqb-b1h4",
-      "summary": "Author(s): J. A. Montañez-Barrera, Yanjun Ji, Michael R. von Spakovsky, David E. Bernal Neira, and Kristel Michielsen Mapping quantum approximate optimization algorithm (QAOA) circuits with nontrivial connectivity in fix…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Magnetic properties and subkelvin magnetocaloric effect of the low-density triangular-lattice series ${\\mathrm{Ba}}_{3}{\\mathrm{REBiPbB}}_{4}{\\mathrm{O}}_{13}$ ($\\mathrm{RE}=\\mathrm{Pr}$, Nd, Gd–Yb)",
-      "url": "http://link.aps.org/doi/10.1103/qdlq-p7wg",
-      "summary": "Author(s): Malik Ashtar, Zhaotong Zhuang, Xinyang Liu, Jitong Song, Zixuan Leng, Wenke Ma, He Sun, Junsen Xiang, Zhaoming Tian, and Peijie Sun Triangular-lattice quantum magnets with strong spin-orbital coupling constitu…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Experimental Quantum Voting Using Photonic Greenberger-Horne-Zeilinger States",
       "url": "http://link.aps.org/doi/10.1103/jlvb-t2xl",
@@ -639,6 +607,62 @@
       "title": "Janus Percolation in Anisotropic Limited-Degree Networks",
       "url": "http://link.aps.org/doi/10.1103/xyx5-3tz3",
       "summary": "Author(s): Jacopo A. Garofalo, Nuno A. M. Araújo, Lucilla de Arcangelis, Alessandro Sarracino, and Eugenio Lippiello Many real-world infrastructures, from sensor and road networks to power grids, are spatially embedded a…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Infinite Temperature at Zero Energy",
+      "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
+      "summary": "Author(s): Matteo Ippoliti and David M. Long Researchers construct local Hamiltonians whose eigenstates inherit infinite-temperature properties, producing ground states with extensive entanglement. [Phys. Rev. X 16, 0310…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
+      "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
+      "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Optimizing QAOA circuit transpilation with parity twine and SWAP network encodings",
+      "url": "http://link.aps.org/doi/10.1103/sjqb-b1h4",
+      "summary": "Author(s): J. A. Montañez-Barrera, Yanjun Ji, Michael R. von Spakovsky, David E. Bernal Neira, and Kristel Michielsen Mapping quantum approximate optimization algorithm (QAOA) circuits with nontrivial connectivity in fix…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
+      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
+      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Magnetic properties and subkelvin magnetocaloric effect of the low-density triangular-lattice series ${\\mathrm{Ba}}_{3}{\\mathrm{REBiPbB}}_{4}{\\mathrm{O}}_{13}$ ($\\mathrm{RE}=\\mathrm{Pr}$, Nd, Gd–Yb)",
+      "url": "http://link.aps.org/doi/10.1103/qdlq-p7wg",
+      "summary": "Author(s): Malik Ashtar, Zhaotong Zhuang, Xinyang Liu, Jitong Song, Zixuan Leng, Wenke Ma, He Sun, Junsen Xiang, Zhaoming Tian, and Peijie Sun Triangular-lattice quantum magnets with strong spin-orbital coupling constitu…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
+      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
+      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
+      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
+      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "Data-driven reconstruction of dynamical systems using Takens' Theorem, manifold learning, and universal function approximators",
       "url": "https://arxiv.org/abs/2608.05477",
       "summary": "arXiv:2608.05477v1 Announce Type: new Abstract: Embedding theorems can be used to provide theoretical guarantees about the relation between low-dimensional observations of a system and its full-dimensional state and dyna…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Inverse mask design for interference lithography using automatic differentiable wave propagation",
-      "url": "https://arxiv.org/abs/2608.05488",
-      "summary": "arXiv:2608.05488v1 Announce Type: new Abstract: Interference lithography (IL) is powerful for fabricating high-resolution periodic nanostructures, but designing masks to produce non-periodic patterns remains challenging.…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Large anomalous shifts of potassium-39 Feshbach resonances",
-      "url": "https://arxiv.org/abs/2608.05512",
-      "summary": "arXiv:2608.05512v1 Announce Type: new Abstract: We report the observation of large anomalous shifts, up to +7.5 G, of the positions of the 33.6 G and 39.9 G Feshbach resonances in potassium-39 atoms confined in a 1063.9 …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Millisecond-Scale Neural Operator Surrogates for Double-Null Free-Boundary Grad-Shafranov Equilibria",
-      "url": "https://arxiv.org/abs/2608.05555",
-      "summary": "arXiv:2608.05555v1 Announce Type: new Abstract: The Grad-Shafranov (GS) equation governs ideal magnetohydrodynamic equilibrium in tokamak plasmas. Free-boundary GS solvers are central to diverted-equilibrium modeling, bu…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
