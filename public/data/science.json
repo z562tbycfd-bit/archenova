@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-08T15:31:46.612Z",
+  "updated": "2026-08-08T16:35:52.147Z",
   "items": [
     {
       "source": "Phys.org",
@@ -100,6 +100,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Allele-specific chromatin architecture shapes imprinted domains and coordinates a distal enhancer and antisense transcription at the mouse <i>Mest</i>-<i>Copg2</i> domain",
+      "url": "https://www.nature.com/articles/s41467-026-76506-3",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Human learning of probability distributions is biased toward moderate structural complexity",
       "url": "https://www.nature.com/articles/s41467-026-76247-3",
       "summary": "",
@@ -118,6 +126,14 @@
       "source": "Nature Communications",
       "title": "MRICombo: a deep-learning-based framework for universal volumetric segmentation grading-staging and malignancy detection across heterogeneous MRI",
       "url": "https://www.nature.com/articles/s41467-026-76461-z",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "A catalytically polymerized solid electrolyte enables 450 Wh kg<sup>−1</sup> lithium–metal batteries with thermal–mechanical abuse tolerance",
+      "url": "https://www.nature.com/articles/s41467-026-76381-y",
       "summary": "",
       "ts": 1786147200000,
       "publishedAt": "2026-08-08T00:00:00.000Z"
@@ -785,22 +801,6 @@
       "summary": "A South Korean satellite has captured the first pictures of the moon's fresh crash scene caused by a stray SpaceX rocket.",
       "ts": 1786084267000,
       "publishedAt": "2026-08-07T06:31:07.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The prediction of extreme uncertainty-production events in three-dimensional Navier-Stokes turbulence",
-      "url": "https://arxiv.org/abs/2608.05208",
-      "summary": "arXiv:2608.05208v1 Announce Type: new Abstract: We investigate the exponential growth of uncertainty energy in 3D Navier-Stokes turbulence, emphasising the intermittent and highly localized amplification/production of un…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Marchenko Theory, Algorithms, and Applications: A Review",
-      "url": "https://arxiv.org/abs/2608.05214",
-      "summary": "arXiv:2608.05214v1 Announce Type: new Abstract: Seismic reflection data collected at the Earth's surface carry information from every depth in the subsurface, including the internal multiples that conventional migration …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
     }
   ],
   "sources": [

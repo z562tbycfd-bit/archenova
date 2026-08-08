@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-08T15:31:50.186Z",
+  "updated": "2026-08-08T16:35:54.541Z",
   "items": [
+    {
+      "source": "United Nations News",
+      "title": "For Brazil’s Indigenous youth, visibility is resistance",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168097",
+      "summary": "As climate change reshapes Indigenous territories across Brazil, a new generation is turning to culture and digital platforms to defend their lands and their future.",
+      "ts": 1786190400000,
+      "publishedAt": "2026-08-08T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
     {
       "source": "NVIDIA",
       "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
@@ -801,15 +810,6 @@
       "summary": "Takeda's narcolepsy drug approved, the first mRNA flu shot approved, and more biotech updates from The Readout",
       "ts": 1786024163000,
       "publishedAt": "2026-08-06T13:49:23.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "U.S. moves to shut a Kentucky organ donation group, citing safety failures",
-      "url": "https://www.statnews.com/2026/08/06/us-to-shut-kentucky-organ-donation-group-safety-concerns/?utm_campaign=rss",
-      "summary": "The U.S. moves to shut a Kentucky organ donation group that's been accused of continuing plans for organ retrieval from some patients who unexpectedly showed signs of life.",
-      "ts": 1786024051000,
-      "publishedAt": "2026-08-06T13:47:31.000Z",
       "categoryId": "bio"
     }
   ],
