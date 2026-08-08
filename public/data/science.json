@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-08T14:33:36.850Z",
+  "updated": "2026-08-08T15:31:46.612Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Dodo birds more clever than we thought",
+      "url": "https://phys.org/news/2026-08-dodo-birds-clever-thought.html",
+      "summary": "The Mauritian dodo—a global symbol of human-caused extinction and one of the world's largest pigeons—may not have deserved its reputation as a silly simpleton and may have been the only member of its group to live in the…",
+      "ts": 1786202401000,
+      "publishedAt": "2026-08-08T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How winter canola could profit Illinois farmers, improve sustainability",
+      "url": "https://phys.org/news/2026-08-winter-canola-profit-illinois-farmers.html",
+      "summary": "A new simulation study from the University of Illinois Urbana-Champaign suggests winter canola could be profitable and environmentally beneficial if added to a conventional corn-soy rotation in the U.S. Midwest.",
+      "ts": 1786200001000,
+      "publishedAt": "2026-08-08T14:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Dodos probably weren't as stupid as historians made them out to be: new research",
@@ -783,22 +799,6 @@
       "title": "Marchenko Theory, Algorithms, and Applications: A Review",
       "url": "https://arxiv.org/abs/2608.05214",
       "summary": "arXiv:2608.05214v1 Announce Type: new Abstract: Seismic reflection data collected at the Earth's surface carry information from every depth in the subsurface, including the internal multiples that conventional migration …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reduction of intrinsic losses in nanomechanical silicon nitride resonators through thermal treatment in ultrahigh vacuum",
-      "url": "https://arxiv.org/abs/2608.05252",
-      "summary": "arXiv:2608.05252v1 Announce Type: new Abstract: Since the discovery of dissipation dilution, silicon nitride (SiN) nanomechanical resonators have set the benchmark for ultracoherent mechanical systems, with geometry and …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Based Molecular Fingerprints from Spectral Graph Theory Provide Efficient Geometry-Aware Measures of Chemical Similarity",
-      "url": "https://arxiv.org/abs/2608.05336",
-      "summary": "arXiv:2608.05336v1 Announce Type: new Abstract: Molecular representations are essential for the evaluation of molecular similarity and the development of structure-property relationships. Despite the known importance of …",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }

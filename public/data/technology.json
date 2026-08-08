@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-08T14:33:39.270Z",
+  "updated": "2026-08-08T15:31:50.186Z",
   "items": [
     {
       "source": "NVIDIA",
@@ -306,6 +306,15 @@
       "summary": "Before astronauts return to the Moon’s surface through NASA’s Artemis program, the hardware they depend on must first prove it can survive the unforgiving lunar environment. At NASA’s Johnson Space Center in Houston, eng…",
       "ts": 1786083927000,
       "publishedAt": "2026-08-07T06:25:27.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 7 – Rubin’s Cosmos Field",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-6-rubins-cosmos-field/",
+      "summary": "APOD Science APOD APOD: 2026 August 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
+      "ts": 1786075500000,
+      "publishedAt": "2026-08-07T04:05:00.000Z",
       "categoryId": "space"
     },
     {
@@ -801,15 +810,6 @@
       "summary": "The U.S. moves to shut a Kentucky organ donation group that's been accused of continuing plans for organ retrieval from some patients who unexpectedly showed signs of life.",
       "ts": 1786024051000,
       "publishedAt": "2026-08-06T13:47:31.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: The U.S. needs a 9/11 Commission-style independent body to investigate Covid response",
-      "url": "https://www.statnews.com/2026/08/06/covid-accountability-9-11-style-commission-needed-not-fauci-bashing/?utm_campaign=rss",
-      "summary": "“A transparent evaluation of Covid would separate what happened from competing political narratives and help us improve for the future,” writes IDSA President Ronald Nahass.",
-      "ts": 1786023504000,
-      "publishedAt": "2026-08-06T13:38:24.000Z",
       "categoryId": "bio"
     }
   ],
