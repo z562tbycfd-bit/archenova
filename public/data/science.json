@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-08T09:39:56.452Z",
+  "updated": "2026-08-08T10:36:10.673Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Nocturnal 'coffee frog' discovered in Costa Rica",
+      "url": "https://phys.org/news/2026-08-nocturnal-coffee-frog-costa-rica.html",
+      "summary": "A tiny greenish, nocturnal frog that thrives in coffee plantations has been discovered in Costa Rica's central Pacific region, where it also faces risks from agrochemicals used in farming.",
+      "ts": 1786183203000,
+      "publishedAt": "2026-08-08T10:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Silver nanocatalysts switch reaction sites between power generation and hydrogen production",
@@ -20,8 +28,24 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Targeting m<sup>6</sup>A writer METTL3 with engineered nanovesicles reduces neuroinflammation in vitro and in vivo",
+      "url": "https://www.nature.com/articles/s41467-026-75862-4",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Quantitative RNA modification mapping by mass spectrometry with isobaric tags and nucleobase fragment analysis",
       "url": "https://www.nature.com/articles/s41467-026-76537-w",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Synthetic cargo adaptors reveal molecular features that enhance dynein activation",
+      "url": "https://www.nature.com/articles/s41467-026-76181-4",
       "summary": "",
       "ts": 1786147200000,
       "publishedAt": "2026-08-08T00:00:00.000Z"
@@ -46,6 +70,14 @@
       "source": "Nature Communications",
       "title": "Macrophages tune NK cell IFNγ production through direct lipid transfer",
       "url": "https://www.nature.com/articles/s41467-026-76444-0",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Prenatal PM<sub>2.5</sub> exposure drives epigenetic reprogramming of fetal macrophages linked to atopic dermatitis",
+      "url": "https://www.nature.com/articles/s41467-026-76298-6",
       "summary": "",
       "ts": 1786147200000,
       "publishedAt": "2026-08-08T00:00:00.000Z"
@@ -459,6 +491,30 @@
       "publishedAt": "2026-08-07T11:00:03.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
+      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
+      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
+      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
+      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
+      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
+      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
       "source": "APS PRX",
       "title": "Infinite Temperature at Zero Energy",
       "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
@@ -484,33 +540,9 @@
     },
     {
       "source": "APS PR Applied",
-      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
-      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
-      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
       "title": "Magnetic properties and subkelvin magnetocaloric effect of the low-density triangular-lattice series ${\\mathrm{Ba}}_{3}{\\mathrm{REBiPbB}}_{4}{\\mathrm{O}}_{13}$ ($\\mathrm{RE}=\\mathrm{Pr}$, Nd, Gd–Yb)",
       "url": "http://link.aps.org/doi/10.1103/qdlq-p7wg",
       "summary": "Author(s): Malik Ashtar, Zhaotong Zhuang, Xinyang Liu, Jitong Song, Zixuan Leng, Wenke Ma, He Sun, Junsen Xiang, Zhaoming Tian, and Peijie Sun Triangular-lattice quantum magnets with strong spin-orbital coupling constitu…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
-      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
-      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
-      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
-      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
@@ -767,38 +799,6 @@
       "title": "Millisecond-Scale Neural Operator Surrogates for Double-Null Free-Boundary Grad-Shafranov Equilibria",
       "url": "https://arxiv.org/abs/2608.05555",
       "summary": "arXiv:2608.05555v1 Announce Type: new Abstract: The Grad-Shafranov (GS) equation governs ideal magnetohydrodynamic equilibrium in tokamak plasmas. Free-boundary GS solvers are central to diverted-equilibrium modeling, bu…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "X-ray Driven Trihydrogen Formation on Silica Nanosurfaces",
-      "url": "https://arxiv.org/abs/2608.05590",
-      "summary": "arXiv:2608.05590v1 Announce Type: new Abstract: The trihydrogen cation ($\\mathrm{H_3^+}$) initiates the ion-molecule reactions that build molecular complexity in interstellar space. Whether its canonical formation reacti…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of Discharge on the Nonlinear Bar Growth: A Flume Experiment",
-      "url": "https://arxiv.org/abs/2608.05593",
-      "summary": "arXiv:2608.05593v1 Announce Type: new Abstract: Alternate bars are ubiquitous bedforms in alluvial rivers, and excessive bar-height growth can increase flood risk and disrupt ecosystems. Predicting bar-height variability…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonproportional Response of a GAGG Scintillator to Beta and Gamma Radiation over a Wide Energy Range in PIKACHU",
-      "url": "https://arxiv.org/abs/2608.05601",
-      "summary": "arXiv:2608.05601v1 Announce Type: new Abstract: Nonproportional response of scintillation light yield for sub-MeV radiations is a well-known characteristic of inorganic scintillators. In the PIKACHU experiment, a precise…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Area and Perimeter Rules of Velocity Circulation in Two-Dimensional Turbulence with Large-scale Absolute Equilibrium",
-      "url": "https://arxiv.org/abs/2608.05617",
-      "summary": "arXiv:2608.05617v1 Announce Type: new Abstract: We demonstrate that the area rule of velocity circulation -- traditionally associated with the turbulent inertial range but shown not to be exact -- is strictly satisfied i…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
