@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-07T23:35:42.287Z",
+  "updated": "2026-08-08T01:47:00.891Z",
   "items": [
     {
       "source": "Phys.org",
@@ -387,30 +387,6 @@
       "publishedAt": "2026-08-07T11:00:03.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
-      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
-      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
-      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
-      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
-      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
-      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Experimental Quantum Voting Using Photonic Greenberger-Horne-Zeilinger States",
       "url": "http://link.aps.org/doi/10.1103/jlvb-t2xl",
@@ -511,6 +487,30 @@
       "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
       "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
       "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
+      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
+      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
+      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
+      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
+      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
+      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
