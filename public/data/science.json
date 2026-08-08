@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-08T19:32:03.205Z",
+  "updated": "2026-08-08T20:32:35.176Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "'Flying focus' laser overcomes key limitation in plasma-based particle accelerators",
+      "url": "https://phys.org/news/2026-08-flying-focus-laser-key-limitation.html",
+      "summary": "In a new Nature Physics study, researchers accelerated electrons to more than twice the energy predicted by the traditional dephasing limit for laser-plasma accelerators operating over the same distance. This was made po…",
+      "ts": 1786218003000,
+      "publishedAt": "2026-08-08T19:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Butterfly ranges shift worldwide amid climate change, with most species expanding their reach",
@@ -142,6 +150,14 @@
       "source": "Nature Communications",
       "title": "Targeting m<sup>6</sup>A writer METTL3 with engineered nanovesicles reduces neuroinflammation in vitro and in vivo",
       "url": "https://www.nature.com/articles/s41467-026-75862-4",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Diet-responsive proteogenomic effects following short-term restriction of animal products in humans",
+      "url": "https://www.nature.com/articles/s41467-026-76379-6",
       "summary": "",
       "ts": 1786147200000,
       "publishedAt": "2026-08-08T00:00:00.000Z"
@@ -785,22 +801,6 @@
       "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
-      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
-      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "UK observatory nervously watches growing space junk threat",
-      "url": "https://phys.org/news/2026-08-uk-observatory-nervously-space-junk.html",
-      "summary": "In the sweeping shadow of a satellite dish, staff at the Chilbolton Observatory in southern England track a growing number of objects in Earth's orbit, providing data that underpins Britain's space monitoring efforts.",
-      "ts": 1786092002000,
-      "publishedAt": "2026-08-07T08:40:02.000Z"
     }
   ],
   "sources": [
