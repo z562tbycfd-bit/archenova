@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-08T11:31:10.440Z",
+  "updated": "2026-08-08T12:52:27.931Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Swarms of tiny robots remove microplastics from soil and water",
+      "url": "https://phys.org/news/2026-08-swarms-tiny-robots-microplastics-soil.html",
+      "summary": "Microplastics, which are plastic particles under 5 millimeters, are a major and growing threat in both soil and water. They damage soil fertility, disrupt nutrient cycling, harm aquatic and terrestrial life, and can move…",
+      "ts": 1786192801000,
+      "publishedAt": "2026-08-08T12:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Gut cells may measure hunger by how watery their insides become",
+      "url": "https://phys.org/news/2026-08-gut-cells-hunger-watery-insides.html",
+      "summary": "Researchers led by Sa Kan Yoo at the RIKEN Center for Biosystems Dynamics Research (BDR) in Japan have discovered that the natural turnover of gut cells in fruit flies depends on how much food the flies get, rather than …",
+      "ts": 1786190401000,
+      "publishedAt": "2026-08-08T12:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Mega-study analyzes the impact of gratitude interventions",
@@ -628,25 +644,9 @@
     },
     {
       "source": "APS PR Applied",
-      "title": "Optimizing QAOA circuit transpilation with parity twine and SWAP network encodings",
-      "url": "http://link.aps.org/doi/10.1103/sjqb-b1h4",
-      "summary": "Author(s): J. A. Montañez-Barrera, Yanjun Ji, Michael R. von Spakovsky, David E. Bernal Neira, and Kristel Michielsen Mapping quantum approximate optimization algorithm (QAOA) circuits with nontrivial connectivity in fix…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
       "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
       "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
       "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Magnetic properties and subkelvin magnetocaloric effect of the low-density triangular-lattice series ${\\mathrm{Ba}}_{3}{\\mathrm{REBiPbB}}_{4}{\\mathrm{O}}_{13}$ ($\\mathrm{RE}=\\mathrm{Pr}$, Nd, Gd–Yb)",
-      "url": "http://link.aps.org/doi/10.1103/qdlq-p7wg",
-      "summary": "Author(s): Malik Ashtar, Zhaotong Zhuang, Xinyang Liu, Jitong Song, Zixuan Leng, Wenke Ma, He Sun, Junsen Xiang, Zhaoming Tian, and Peijie Sun Triangular-lattice quantum magnets with strong spin-orbital coupling constitu…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
@@ -663,6 +663,22 @@
       "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
       "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
       "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Optimizing QAOA circuit transpilation with parity twine and SWAP network encodings",
+      "url": "http://link.aps.org/doi/10.1103/sjqb-b1h4",
+      "summary": "Author(s): J. A. Montañez-Barrera, Yanjun Ji, Michael R. von Spakovsky, David E. Bernal Neira, and Kristel Michielsen Mapping quantum approximate optimization algorithm (QAOA) circuits with nontrivial connectivity in fix…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Magnetic properties and subkelvin magnetocaloric effect of the low-density triangular-lattice series ${\\mathrm{Ba}}_{3}{\\mathrm{REBiPbB}}_{4}{\\mathrm{O}}_{13}$ ($\\mathrm{RE}=\\mathrm{Pr}$, Nd, Gd–Yb)",
+      "url": "http://link.aps.org/doi/10.1103/qdlq-p7wg",
+      "summary": "Author(s): Malik Ashtar, Zhaotong Zhuang, Xinyang Liu, Jitong Song, Zixuan Leng, Wenke Ma, He Sun, Junsen Xiang, Zhaoming Tian, and Peijie Sun Triangular-lattice quantum magnets with strong spin-orbital coupling constitu…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
@@ -783,22 +799,6 @@
       "title": "Moving Magnetic Flux and Electromagnetic Induction",
       "url": "https://arxiv.org/abs/2608.05440",
       "summary": "arXiv:2608.05440v1 Announce Type: new Abstract: Magnetic flux can move, and moving magnetic flux is associated with induced electric fields. Where there are multiple sources of flux, the induced electric field is the vec…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward a Dynamical Taxonomy of Insomnia: A Multiaxial Framework for Sleep-State Transitions and Architectural Failure",
-      "url": "https://arxiv.org/abs/2608.05462",
-      "summary": "arXiv:2608.05462v1 Announce Type: new Abstract: Insomnia disorder is defined at the syndrome level, yet similar complaints can arise from different abnormalities in sleep regulation, state transition, state stabilization…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Data-driven reconstruction of dynamical systems using Takens' Theorem, manifold learning, and universal function approximators",
-      "url": "https://arxiv.org/abs/2608.05477",
-      "summary": "arXiv:2608.05477v1 Announce Type: new Abstract: Embedding theorems can be used to provide theoretical guarantees about the relation between low-dimensional observations of a system and its full-dimensional state and dyna…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
