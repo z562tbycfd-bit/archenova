@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-08T13:47:38.938Z",
+  "updated": "2026-08-08T14:33:36.850Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Dodos probably weren't as stupid as historians made them out to be: new research",
+      "url": "https://phys.org/news/2026-08-dodos-werent-stupid-historians.html",
+      "summary": "The dodo has been extinct for more than 300 years, wiped out within decades of humans arriving on its home island of Mauritius, but it lives on in the public imagination.",
+      "ts": 1786197601000,
+      "publishedAt": "2026-08-08T14:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Reduced gravity pushes people toward simpler movement patterns, experiments suggest",
@@ -68,6 +76,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Stratospheric impacts on Eurasian soil moisture on subseasonal timescales",
+      "url": "https://www.nature.com/articles/s41467-026-75786-z",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Human learning of probability distributions is biased toward moderate structural complexity",
       "url": "https://www.nature.com/articles/s41467-026-76247-3",
       "summary": "",
@@ -78,6 +94,14 @@
       "source": "Nature Communications",
       "title": "Targeting m<sup>6</sup>A writer METTL3 with engineered nanovesicles reduces neuroinflammation in vitro and in vivo",
       "url": "https://www.nature.com/articles/s41467-026-75862-4",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "MRICombo: a deep-learning-based framework for universal volumetric segmentation grading-staging and malignancy detection across heterogeneous MRI",
+      "url": "https://www.nature.com/articles/s41467-026-76461-z",
       "summary": "",
       "ts": 1786147200000,
       "publishedAt": "2026-08-08T00:00:00.000Z"
@@ -652,6 +676,14 @@
     },
     {
       "source": "APS PRX",
+      "title": "Infinite Temperature at Zero Energy",
+      "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
+      "summary": "Author(s): Matteo Ippoliti and David M. Long Researchers construct local Hamiltonians whose eigenstates inherit infinite-temperature properties, producing ground states with extensive entanglement. [Phys. Rev. X 16, 0310…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
       "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
       "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
       "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
@@ -695,14 +727,6 @@
       "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
       "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
       "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Infinite Temperature at Zero Energy",
-      "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
-      "summary": "Author(s): Matteo Ippoliti and David M. Long Researchers construct local Hamiltonians whose eigenstates inherit infinite-temperature properties, producing ground states with extensive entanglement. [Phys. Rev. X 16, 0310…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "Physics-Based Molecular Fingerprints from Spectral Graph Theory Provide Efficient Geometry-Aware Measures of Chemical Similarity",
       "url": "https://arxiv.org/abs/2608.05336",
       "summary": "arXiv:2608.05336v1 Announce Type: new Abstract: Molecular representations are essential for the evaluation of molecular similarity and the development of structure-property relationships. Despite the known importance of …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Confinement-induced evolution and breakup of viscoelastic filaments in microfluidic coflows",
-      "url": "https://arxiv.org/abs/2608.05343",
-      "summary": "arXiv:2608.05343v1 Announce Type: new Abstract: Viscoelastic filament thinning is classically described by elastocapillary dynamics in extensional flows, yet in confined microchannels the combined effects of wall-induced…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Overcoming Scattering in High-Cell-Density Tomographic Volumetric Bioprinting Using Computational Light Optimization",
-      "url": "https://arxiv.org/abs/2608.05347",
-      "summary": "arXiv:2608.05347v1 Announce Type: new Abstract: Tomographic volumetric additive manufacturing has emerged as a transformative 3D printing technology for rapidly fabricating complex geometries. It offers significant advan…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High Spectral Energy Density All-Fiber Nanosecond Pulsed 1.7 $\\mu$m Light Source for Photoacoustic Microscopy",
-      "url": "https://arxiv.org/abs/2608.05384",
-      "summary": "arXiv:2608.05384v1 Announce Type: new Abstract: We present a high spectral energy density all-fiber nanosecond pulsed 1.7 $\\mu$m light source specifically designed for photoacoustic microscopy (PAM). The system targets t…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
