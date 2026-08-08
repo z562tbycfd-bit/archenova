@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-08T03:28:04.133Z",
+  "updated": "2026-08-08T04:59:06.886Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 8 – A Messier Moment for Tempel 2",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-8-a-messier-moment-for-tempel-2/",
+      "summary": "APOD Science APOD APOD: 2026 August 8 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograp…",
+      "ts": 1786161900000,
+      "publishedAt": "2026-08-08T04:05:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Senate installs new chiefs for U.S. military space acquisition, spy satellites",
@@ -9,6 +18,15 @@
       "summary": "Erich Hernandez-Baquero will take over military space acquisition; Roger Mason will lead the National Reconnaissance Office The post Senate installs new chiefs for U.S. military space acquisition, spy satellites appeared…",
       "ts": 1786136630000,
       "publishedAt": "2026-08-07T21:03:50.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "2026 IGARSS Hyperwall Schedule",
+      "url": "https://science.nasa.gov/earth/2026-igarss-hyperwall-schedule/",
+      "summary": "IGARSS 2026 Join NASA in the Exhibit Hall (Booth #100) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. MONDAY, AUGUST 10 3:00 PM Technology Enabling the Future of Earth ScienceMike Seablom3:15 PM…",
+      "ts": 1786129054000,
+      "publishedAt": "2026-08-07T18:57:34.000Z",
       "categoryId": "space"
     },
     {
@@ -270,6 +288,15 @@
       "summary": "APOD Science APOD APOD: 2026 August 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
       "ts": 1786075500000,
       "publishedAt": "2026-08-07T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Sensing the Poles’ Hidden Heat",
+      "url": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
+      "summary": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
+      "ts": 1786075200000,
+      "publishedAt": "2026-08-07T04:00:00.000Z",
       "categoryId": "space"
     },
     {
@@ -552,15 +579,6 @@
       "categoryId": "bio"
     },
     {
-      "source": "NASA",
-      "title": "Sensing the Poles’ Hidden Heat",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
-      "summary": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
       "source": "Genetic Engineering News",
       "title": "FMT Shows Promise for Peanut Allergy Tolerance in Phase I Trial",
       "url": "https://www.genengnews.com/topics/translational-medicine/fmt-shows-promise-for-peanut-allergy-tolerance-in-phase-i-trial/",
@@ -793,24 +811,6 @@
       "ts": 1786021211000,
       "publishedAt": "2026-08-06T13:00:11.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
-      "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
-      "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured not by any single frontier model but by wh…",
-      "ts": 1786021200000,
-      "publishedAt": "2026-08-06T13:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare pushes ACCESS but doesn’t tell patients what providers offer it",
-      "url": "https://www.statnews.com/2026/08/06/cms-medicare-pilot-access-patient-info-health-tech/?utm_campaign=rss",
-      "summary": "In this edition: Progress report on ACCESS, Medicare's chronic care pilot, and health regulators courting industry on AI regulation.",
-      "ts": 1786020883000,
-      "publishedAt": "2026-08-06T12:54:43.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
