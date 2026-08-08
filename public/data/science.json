@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-08T17:32:31.872Z",
+  "updated": "2026-08-08T18:40:20.403Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Butterfly ranges shift worldwide amid climate change, with most species expanding their reach",
+      "url": "https://phys.org/news/2026-08-butterfly-ranges-shift-worldwide-climate.html",
+      "summary": "A global analysis of range-shift records for 1,758 butterfly species—10% of known butterfly species—found that 80% had expanded their range and that 79% of all recorded range shifts were linked to climate change and extr…",
+      "ts": 1786210804000,
+      "publishedAt": "2026-08-08T17:40:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Pulsed radiofrequency magnetic fields may disorient migratory birds, experiments suggest",
@@ -116,6 +124,14 @@
     },
     {
       "source": "Nature Communications",
+      "title": "Cavity-Enabled Supramolecular Regulation of Capacitive–Redox Bromine Electrochemistry in Zinc–Bromine Batteries",
+      "url": "https://www.nature.com/articles/s41467-026-76539-8",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
       "title": "Human learning of probability distributions is biased toward moderate structural complexity",
       "url": "https://www.nature.com/articles/s41467-026-76247-3",
       "summary": "",
@@ -126,6 +142,14 @@
       "source": "Nature Communications",
       "title": "Targeting m<sup>6</sup>A writer METTL3 with engineered nanovesicles reduces neuroinflammation in vitro and in vivo",
       "url": "https://www.nature.com/articles/s41467-026-75862-4",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Self-Assembled Multilayers Reduce Interfacial Energy Loss in Perovskite Solar Cells",
+      "url": "https://www.nature.com/articles/s41467-026-76497-1",
       "summary": "",
       "ts": 1786147200000,
       "publishedAt": "2026-08-08T00:00:00.000Z"
@@ -777,30 +801,6 @@
       "summary": "In the sweeping shadow of a satellite dish, staff at the Chilbolton Observatory in southern England track a growing number of objects in Earth's orbit, providing data that underpins Britain's space monitoring efforts.",
       "ts": 1786092002000,
       "publishedAt": "2026-08-07T08:40:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Officials will not release cool water from a Colorado River reservoir to protect threatened fish",
-      "url": "https://phys.org/news/2026-08-cool-colorado-river-reservoir-threatened.html",
-      "summary": "Federal officials said Thursday they will not release cool water this year from one of the Colorado River's major reservoirs, which would have protected a threatened native fish downstream but put more strain on already …",
-      "ts": 1786088401000,
-      "publishedAt": "2026-08-07T07:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "US firm takes on backyard mosquitoes—with 600,000 mosquitoes",
-      "url": "https://phys.org/news/2026-08-firm-backyard-mosquitoes.html",
-      "summary": "Todd Montgomery pops the lid off a small tube and taps out hundreds of mosquitoes into the backyard of a suburban home outside Washington.",
-      "ts": 1786087202000,
-      "publishedAt": "2026-08-07T07:20:02.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Camels find unlikely home in outback Australia",
-      "url": "https://phys.org/news/2026-08-camels-home-outback-australia.html",
-      "summary": "Far from their origins in the Arabian desert, hundreds of thousands of camels roam outback Australia, where they are used for wild races, an alternative milk source and even to make beer.",
-      "ts": 1786084385000,
-      "publishedAt": "2026-08-07T06:33:05.000Z"
     }
   ],
   "sources": [

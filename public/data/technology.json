@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-08T17:32:36.041Z",
+  "updated": "2026-08-08T18:40:22.542Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Northrop Grumman, Canadian Space Agency repurpose their Gateway projects",
+      "url": "https://spacenews.com/northrop-grumman-canadian-space-agency-repurpose-their-gateway-projects/",
+      "summary": "Northrop Grumman and the Canadian Space Agency will adapt what they had been working on for NASA’s lunar Gateway into applications for a planned lunar base, albeit with few specifics. The post Northrop Grumman, Canadian …",
+      "ts": 1786211140000,
+      "publishedAt": "2026-08-08T17:45:40.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "United Nations News",
       "title": "For Brazil’s Indigenous youth, visibility is resistance",
@@ -802,15 +811,6 @@
       "ts": 1786024392000,
       "publishedAt": "2026-08-06T13:53:12.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Two FDA approvals — a new drug and a new vaccine",
-      "url": "https://www.statnews.com/2026/08/06/biotech-news-two-fda-approvals-a-new-drug-and-a-new-vaccine/?utm_campaign=rss",
-      "summary": "Takeda's narcolepsy drug approved, the first mRNA flu shot approved, and more biotech updates from The Readout",
-      "ts": 1786024163000,
-      "publishedAt": "2026-08-06T13:49:23.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
