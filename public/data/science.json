@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-08T12:52:27.931Z",
+  "updated": "2026-08-08T13:47:38.938Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Reduced gravity pushes people toward simpler movement patterns, experiments suggest",
+      "url": "https://phys.org/news/2026-08-gravity-people-simpler-movement-patterns.html",
+      "summary": "From reaching for a cup of coffee to tying your shoelaces, gravity shapes nearly all human movement. So how do our bodies react when that familiar force begins to change? Texas A&M University researchers are exploring th…",
+      "ts": 1786195201000,
+      "publishedAt": "2026-08-08T13:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Swarms of tiny robots remove microplastics from soil and water",
@@ -86,6 +94,22 @@
       "source": "Nature Communications",
       "title": "Synthetic cargo adaptors reveal molecular features that enhance dynein activation",
       "url": "https://www.nature.com/articles/s41467-026-76181-4",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Sustained ash emission during lava effusion is a hidden volcanic hazard of silicic eruptions",
+      "url": "https://www.nature.com/articles/s41467-026-76464-w",
+      "summary": "",
+      "ts": 1786147200000,
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Uncovering the signaling networks of disseminated glioblastoma cells in vivo with INSIGHT",
+      "url": "https://www.nature.com/articles/s41467-026-76587-0",
       "summary": "",
       "ts": 1786147200000,
       "publishedAt": "2026-08-08T00:00:00.000Z"
@@ -628,14 +652,6 @@
     },
     {
       "source": "APS PRX",
-      "title": "Infinite Temperature at Zero Energy",
-      "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
-      "summary": "Author(s): Matteo Ippoliti and David M. Long Researchers construct local Hamiltonians whose eigenstates inherit infinite-temperature properties, producing ground states with extensive entanglement. [Phys. Rev. X 16, 0310…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
       "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
       "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
       "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
@@ -644,9 +660,25 @@
     },
     {
       "source": "APS PR Applied",
+      "title": "Optimizing QAOA circuit transpilation with parity twine and SWAP network encodings",
+      "url": "http://link.aps.org/doi/10.1103/sjqb-b1h4",
+      "summary": "Author(s): J. A. Montañez-Barrera, Yanjun Ji, Michael R. von Spakovsky, David E. Bernal Neira, and Kristel Michielsen Mapping quantum approximate optimization algorithm (QAOA) circuits with nontrivial connectivity in fix…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
       "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
       "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
       "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Magnetic properties and subkelvin magnetocaloric effect of the low-density triangular-lattice series ${\\mathrm{Ba}}_{3}{\\mathrm{REBiPbB}}_{4}{\\mathrm{O}}_{13}$ ($\\mathrm{RE}=\\mathrm{Pr}$, Nd, Gd–Yb)",
+      "url": "http://link.aps.org/doi/10.1103/qdlq-p7wg",
+      "summary": "Author(s): Malik Ashtar, Zhaotong Zhuang, Xinyang Liu, Jitong Song, Zixuan Leng, Wenke Ma, He Sun, Junsen Xiang, Zhaoming Tian, and Peijie Sun Triangular-lattice quantum magnets with strong spin-orbital coupling constitu…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
@@ -667,18 +699,10 @@
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Optimizing QAOA circuit transpilation with parity twine and SWAP network encodings",
-      "url": "http://link.aps.org/doi/10.1103/sjqb-b1h4",
-      "summary": "Author(s): J. A. Montañez-Barrera, Yanjun Ji, Michael R. von Spakovsky, David E. Bernal Neira, and Kristel Michielsen Mapping quantum approximate optimization algorithm (QAOA) circuits with nontrivial connectivity in fix…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Magnetic properties and subkelvin magnetocaloric effect of the low-density triangular-lattice series ${\\mathrm{Ba}}_{3}{\\mathrm{REBiPbB}}_{4}{\\mathrm{O}}_{13}$ ($\\mathrm{RE}=\\mathrm{Pr}$, Nd, Gd–Yb)",
-      "url": "http://link.aps.org/doi/10.1103/qdlq-p7wg",
-      "summary": "Author(s): Malik Ashtar, Zhaotong Zhuang, Xinyang Liu, Jitong Song, Zixuan Leng, Wenke Ma, He Sun, Junsen Xiang, Zhaoming Tian, and Peijie Sun Triangular-lattice quantum magnets with strong spin-orbital coupling constitu…",
+      "source": "APS PRX",
+      "title": "Infinite Temperature at Zero Energy",
+      "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
+      "summary": "Author(s): Matteo Ippoliti and David M. Long Researchers construct local Hamiltonians whose eigenstates inherit infinite-temperature properties, producing ground states with extensive entanglement. [Phys. Rev. X 16, 0310…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "High Spectral Energy Density All-Fiber Nanosecond Pulsed 1.7 $\\mu$m Light Source for Photoacoustic Microscopy",
       "url": "https://arxiv.org/abs/2608.05384",
       "summary": "arXiv:2608.05384v1 Announce Type: new Abstract: We present a high spectral energy density all-fiber nanosecond pulsed 1.7 $\\mu$m light source specifically designed for photoacoustic microscopy (PAM). The system targets t…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Next Generation of Ultra-Coarse-Graining: Self-Consistent Inference of Critical Internal States",
-      "url": "https://arxiv.org/abs/2608.05388",
-      "summary": "arXiv:2608.05388v1 Announce Type: new Abstract: Bottom-up coarse-graining expands the length and time scales accessible to molecular dynamics (MD) simulations, but information loss can hinder accurate representation of m…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multiphysics tritium transport modelling of the ARC breeding blanket with FESTIM",
-      "url": "https://arxiv.org/abs/2608.05398",
-      "summary": "arXiv:2608.05398v1 Announce Type: new Abstract: Accurate prediction of tritium behaviour in molten salt breeding blankets is essential for the design and safe operation of ARC-class fusion reactors. This work presents a …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Moving Magnetic Flux and Electromagnetic Induction",
-      "url": "https://arxiv.org/abs/2608.05440",
-      "summary": "arXiv:2608.05440v1 Announce Type: new Abstract: Magnetic flux can move, and moving magnetic flux is associated with induced electric fields. Where there are multiple sources of flux, the induced electric field is the vec…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
