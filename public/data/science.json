@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-08T08:44:01.694Z",
+  "updated": "2026-08-08T09:39:56.452Z",
   "items": [
     {
       "source": "Phys.org",
@@ -459,6 +459,62 @@
       "publishedAt": "2026-08-07T11:00:03.000Z"
     },
     {
+      "source": "APS PRX",
+      "title": "Infinite Temperature at Zero Energy",
+      "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
+      "summary": "Author(s): Matteo Ippoliti and David M. Long Researchers construct local Hamiltonians whose eigenstates inherit infinite-temperature properties, producing ground states with extensive entanglement. [Phys. Rev. X 16, 0310…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
+      "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
+      "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Optimizing QAOA circuit transpilation with parity twine and SWAP network encodings",
+      "url": "http://link.aps.org/doi/10.1103/sjqb-b1h4",
+      "summary": "Author(s): J. A. Montañez-Barrera, Yanjun Ji, Michael R. von Spakovsky, David E. Bernal Neira, and Kristel Michielsen Mapping quantum approximate optimization algorithm (QAOA) circuits with nontrivial connectivity in fix…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
+      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
+      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Magnetic properties and subkelvin magnetocaloric effect of the low-density triangular-lattice series ${\\mathrm{Ba}}_{3}{\\mathrm{REBiPbB}}_{4}{\\mathrm{O}}_{13}$ ($\\mathrm{RE}=\\mathrm{Pr}$, Nd, Gd–Yb)",
+      "url": "http://link.aps.org/doi/10.1103/qdlq-p7wg",
+      "summary": "Author(s): Malik Ashtar, Zhaotong Zhuang, Xinyang Liu, Jitong Song, Zixuan Leng, Wenke Ma, He Sun, Junsen Xiang, Zhaoming Tian, and Peijie Sun Triangular-lattice quantum magnets with strong spin-orbital coupling constitu…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
+      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
+      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
+      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
+      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
+      "ts": 1786096800000,
+      "publishedAt": "2026-08-07T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Experimental Quantum Voting Using Photonic Greenberger-Horne-Zeilinger States",
       "url": "http://link.aps.org/doi/10.1103/jlvb-t2xl",
@@ -551,38 +607,6 @@
       "title": "Janus Percolation in Anisotropic Limited-Degree Networks",
       "url": "http://link.aps.org/doi/10.1103/xyx5-3tz3",
       "summary": "Author(s): Jacopo A. Garofalo, Nuno A. M. Araújo, Lucilla de Arcangelis, Alessandro Sarracino, and Eugenio Lippiello Many real-world infrastructures, from sensor and road networks to power grids, are spatially embedded a…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
-      "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
-      "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
-      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
-      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
-      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
-      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Simulation-free fidelity estimation of universal quantum processors via output order statistics of chaotic circuits",
-      "url": "http://link.aps.org/doi/10.1103/9c4r-9l6y",
-      "summary": "Author(s): Tobias Micklitz We introduce a simulation-free approach to fidelity estimation in chaotic circuits implemented on universal quantum processors, based on the order statistics of measured output probabilities. T…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     },
@@ -775,30 +799,6 @@
       "title": "Area and Perimeter Rules of Velocity Circulation in Two-Dimensional Turbulence with Large-scale Absolute Equilibrium",
       "url": "https://arxiv.org/abs/2608.05617",
       "summary": "arXiv:2608.05617v1 Announce Type: new Abstract: We demonstrate that the area rule of velocity circulation -- traditionally associated with the turbulent inertial range but shown not to be exact -- is strictly satisfied i…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dual-polarization control of broadband nonreciprocal thermal radiation by combining local and nonlocal metasurfaces",
-      "url": "https://arxiv.org/abs/2608.05640",
-      "summary": "arXiv:2608.05640v1 Announce Type: new Abstract: Nonreciprocal thermal radiation offers a route to decouple spectral directional absorptivity and emissivity, thereby enabling new paradigms in thermal-photonic systems. How…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Spectrally flat and broadband doublepumped fiber optical parametric amplifiers",
-      "url": "https://arxiv.org/abs/2608.05652",
-      "summary": "arXiv:2608.05652v1 Announce Type: new Abstract: We study theoretically and experimentally spectrally flat and broadband double-pumped fiber-optical parametric amplifiers (2P-FOPAs). Closed formulas are derived for the ga…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Virtual Hearing Clinic (VHC)- a modular online platform for hearing research and hearing health care",
-      "url": "https://arxiv.org/abs/2608.05665",
-      "summary": "arXiv:2608.05665v1 Announce Type: new Abstract: Objective: The aim is to introduce the concept of the Virtual Hearing Clinic (VHC), give an overview of the current status and exemplify its feasibility with data from a di…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z"
     }
