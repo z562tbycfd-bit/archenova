@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-08T16:35:52.147Z",
+  "updated": "2026-08-08T17:32:31.872Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Pulsed radiofrequency magnetic fields may disorient migratory birds, experiments suggest",
+      "url": "https://phys.org/news/2026-08-pulsed-radiofrequency-magnetic-fields-disorient.html",
+      "summary": "Every year, millions of migratory birds travel between different geographical regions on Earth to find food, escape cold weather or reach safe environments to raise chicks. To determine which direction to fly, these bird…",
+      "ts": 1786207201000,
+      "publishedAt": "2026-08-08T16:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Dodo birds more clever than we thought",
@@ -793,14 +801,6 @@
       "summary": "Far from their origins in the Arabian desert, hundreds of thousands of camels roam outback Australia, where they are used for wild races, an alternative milk source and even to make beer.",
       "ts": 1786084385000,
       "publishedAt": "2026-08-07T06:33:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "South Korean satellite captures before and after views of SpaceX rocket's moon crash",
-      "url": "https://phys.org/news/2026-08-south-korean-satellite-captures-views.html",
-      "summary": "A South Korean satellite has captured the first pictures of the moon's fresh crash scene caused by a stray SpaceX rocket.",
-      "ts": 1786084267000,
-      "publishedAt": "2026-08-07T06:31:07.000Z"
     }
   ],
   "sources": [
