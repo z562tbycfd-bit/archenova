@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-09T14:36:32.683Z",
+  "updated": "2026-08-09T15:33:47.376Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Over half of people are unaware of the environmental effects of sunscreen",
+      "url": "https://phys.org/news/2026-08-people-unaware-environmental-effects-sunscreen.html",
+      "summary": "This summer, millions of people across the country have been digging out sunscreen to protect themselves from a record-breaking series of heat waves.",
+      "ts": 1786288801000,
+      "publishedAt": "2026-08-09T15:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Rare Mars meteorite preserves 1.27-billion-year-old clues to planet's deep interior",
@@ -791,14 +799,6 @@
       "title": "Infinite Temperature at Zero Energy",
       "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
       "summary": "Author(s): Matteo Ippoliti and David M. Long Researchers construct local Hamiltonians whose eigenstates inherit infinite-temperature properties, producing ground states with extensive entanglement. [Phys. Rev. X 16, 0310…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
-      "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
-      "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     }
