@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-09T10:36:38.822Z",
+  "updated": "2026-08-09T11:31:05.130Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Charge-based strategy improves controlled delivery of therapeutic peptides from gelatin-based materials",
+      "url": "https://phys.org/news/2026-08-based-strategy-delivery-therapeutic-peptides.html",
+      "summary": "Rice University engineers have developed a new strategy for controlling how therapeutic peptides are released from gelatin-based materials, a step that could make the small but powerful molecules more useful in tissue en…",
+      "ts": 1786274401000,
+      "publishedAt": "2026-08-09T11:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The asteroid that may be three worlds",
+      "url": "https://phys.org/news/2026-08-asteroid-worlds.html",
+      "summary": "What shape is an asteroid? For (44) Nysa, the honest answer until now has been that nobody knew. It is one of the brightest and largest E-type asteroids in the main belt, a class with a surface rich in enstatite, and its…",
+      "ts": 1786272001000,
+      "publishedAt": "2026-08-09T10:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "'Flying focus' laser overcomes key limitation in plasma-based particle accelerators",
@@ -783,22 +799,6 @@
       "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
       "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
       "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Magnetic properties and subkelvin magnetocaloric effect of the low-density triangular-lattice series ${\\mathrm{Ba}}_{3}{\\mathrm{REBiPbB}}_{4}{\\mathrm{O}}_{13}$ ($\\mathrm{RE}=\\mathrm{Pr}$, Nd, Gd–Yb)",
-      "url": "http://link.aps.org/doi/10.1103/qdlq-p7wg",
-      "summary": "Author(s): Malik Ashtar, Zhaotong Zhuang, Xinyang Liu, Jitong Song, Zixuan Leng, Wenke Ma, He Sun, Junsen Xiang, Zhaoming Tian, and Peijie Sun Triangular-lattice quantum magnets with strong spin-orbital coupling constitu…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Tuning high-mobility transport and degeneracy in ${\\mathrm{GaSb}}_{1−x}{\\mathrm{Te}}_{x}$ single crystals for high-performance infrared detectors",
-      "url": "http://link.aps.org/doi/10.1103/cbfk-mdky",
-      "summary": "Author(s): Li Chen, Nan Zhou, Yu Zhao, Yongqiang Pan, Xiaoguang Zhu, Ranran Zhang, Wenhai Song, Zhigao Sheng, Xuan Luo, and Yuping Sun Te-doped GaSb single crystals have great application potential in infrared detectors …",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     }
