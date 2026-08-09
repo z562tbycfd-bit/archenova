@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-09T18:43:19.256Z",
+  "updated": "2026-08-09T19:34:39.731Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Controlled cracking technique prints quantum dots into tiny pixels for sharper displays",
+      "url": "https://phys.org/news/2026-08-technique-quantum-dots-tiny-pixels.html",
+      "summary": "Recent technological advances have enabled the development of increasingly sophisticated, sharper displays for electronic devices. Many modern displays use light-emitting diodes, or LEDs, tiny semiconductor-based compone…",
+      "ts": 1786303201000,
+      "publishedAt": "2026-08-09T19:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Hong Kong weather observatory posts record high temperature",
+      "url": "https://phys.org/news/2026-08-hong-kong-weather-observatory-high.html",
+      "summary": "Hong Kong's weather observatory posted a record high temperature of 36.9°C (98°F) on Sunday as Typhoon Dolphin swept warm air over the city, the meteorological service said.",
+      "ts": 1786301593000,
+      "publishedAt": "2026-08-09T18:53:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How to spot the Perseid meteor shower, a summer light show that promises to dazzle",
+      "url": "https://phys.org/news/2026-08-perseid-meteor-shower-summer-dazzle.html",
+      "summary": "The Perseid summer light show is back—and viewing conditions are especially promising for the Northern Hemisphere.",
+      "ts": 1786301559000,
+      "publishedAt": "2026-08-09T18:52:39.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Early snakes explored life underground, on land and at sea",
@@ -775,30 +799,6 @@
       "title": "<i>Ab Initio</i> Exact Calculation of Strongly Correlated Nucleonic Matter",
       "url": "http://link.aps.org/doi/10.1103/q4p2-r1bt",
       "summary": "Author(s): R. Z. Hu, S. L. Jin, X. Zhen, H. Y. Shang, J. C. Pei, F. R. Xu, and F. Marino Dense nucleonic matter is of vital importance for understanding compact stars and inferring the transition into deconfined quark ph…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Precision Spectroscopy of the Fine and Hyperfine Structures of High Molecular Rydberg-Stark States: Metrology of Molecular Hydrogen Ions",
-      "url": "http://link.aps.org/doi/10.1103/5rsv-mb6x",
-      "summary": "Author(s): I. Doran, L. Jeckel, M. Beyer, Ch. Jungen, and F. Merkt The Stark effect in autoionizing high-$n$ Rydberg states decouples the Rydberg electron from the ion core through $ℓ$ mixing with core-nonpenetrating hig…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Stellarator Coils for Future Fusion Reactors via an Augmented Lagrangian Approach",
-      "url": "http://link.aps.org/doi/10.1103/n7gk-922h",
-      "summary": "Author(s): Pedro F. Gil, Weiping Li, Julianne Stratton, Alan A. Kaptanoglu, and Eve V. Stenson Recasting fusion coil design as a highly nonconvex equality-constrained optimization problem with an augmented Lagrangian met…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Pair Breaking and Dimensionality in Spin-Orbit Coupled Superconductors",
-      "url": "http://link.aps.org/doi/10.1103/wfy7-zbwf",
-      "summary": "Author(s): Reiley Dorrian, Mizuki Ohno, Elena Williams, Adrian Llanos, and Joseph Falson The response of ultrathin superconducting materials under parallel magnetic fields is often leveraged to obtain insight into the na…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     }
