@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-09T11:31:05.130Z",
+  "updated": "2026-08-09T12:54:46.874Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Oldest known giant rock scallop bead suggests California coastal trade began millennia earlier",
+      "url": "https://phys.org/news/2026-08-oldest-giant-scallop-bead-california.html",
+      "summary": "Archaeologists have discovered two giant rock scallop beads that push back the clock on the first appearance of these high-status ornaments. The discovery shows that these prized marine beads were traded hundreds of mile…",
+      "ts": 1786279203000,
+      "publishedAt": "2026-08-09T12:40:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Charge-based strategy improves controlled delivery of therapeutic peptides from gelatin-based materials",
@@ -791,14 +799,6 @@
       "title": "Optimizing QAOA circuit transpilation with parity twine and SWAP network encodings",
       "url": "http://link.aps.org/doi/10.1103/sjqb-b1h4",
       "summary": "Author(s): J. A. Montañez-Barrera, Yanjun Ji, Michael R. von Spakovsky, David E. Bernal Neira, and Kristel Michielsen Mapping quantum approximate optimization algorithm (QAOA) circuits with nontrivial connectivity in fix…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Predicting charge stability in donor spin-qubit arrays in silicon",
-      "url": "http://link.aps.org/doi/10.1103/vrkm-4x3p",
-      "summary": "Author(s): Songqi Jia, Pericles Philippopoulos, Félix Beaudoin, and Hong Guo In donor qubit arrays, each electron is not confined to a specific donor: long-range Coulomb interactions enable changes in gate biases near on…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     }
