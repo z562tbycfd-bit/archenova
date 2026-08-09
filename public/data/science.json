@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-09T17:33:29.718Z",
+  "updated": "2026-08-09T18:43:19.256Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Early snakes explored life underground, on land and at sea",
+      "url": "https://phys.org/news/2026-08-early-snakes-explored-life-underground.html",
+      "summary": "Snakes are highly modified lizards, with more than 4,000 living species today. The origin of snakes has long been one of evolutionary biology's most debated questions. Their sparse fossil record has made it hard to pin d…",
+      "ts": 1786300801000,
+      "publishedAt": "2026-08-09T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New catalyst with 75% less platinum promises to reduce the cost of hydrogen fuel cells",
+      "url": "https://phys.org/news/2026-08-catalyst-platinum-hydrogen-fuel-cells.html",
+      "summary": "The high cost of platinum is one of the main barriers to the wider adoption of hydrogen fuel cells. Now, researchers at IMDEA Materials Institute have developed a catalyst that delivers the same performance while using 7…",
+      "ts": 1786298401000,
+      "publishedAt": "2026-08-09T18:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Australia has pledged to restore nature. But could we ever bring back lost ecosystems?",
@@ -783,22 +799,6 @@
       "title": "Pair Breaking and Dimensionality in Spin-Orbit Coupled Superconductors",
       "url": "http://link.aps.org/doi/10.1103/wfy7-zbwf",
       "summary": "Author(s): Reiley Dorrian, Mizuki Ohno, Elena Williams, Adrian Llanos, and Joseph Falson The response of ultrathin superconducting materials under parallel magnetic fields is often leveraged to obtain insight into the na…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Emergence of Charge-$4e$ Superconductivity from 2D Nematic Superconductors",
-      "url": "http://link.aps.org/doi/10.1103/j7nh-jzdd",
-      "summary": "Author(s): Xuan Zou, Zhou-Quan Wan, and Hong Yao Charge-$4e$ superconductivity is an exotic state of matter that may emerge as a vestigial order from a charge-$2e$ superconductor with multicomponent superconducting order…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Composite Bogoliubov Fermi Liquid in a Half-Filled Chern Band",
-      "url": "http://link.aps.org/doi/10.1103/wq3w-cb7f",
-      "summary": "Author(s): Zhengyan Darius Shi and Pavel A. Nosov The composite Fermi liquid in the half-filled Landau level is a cornerstone of the quantum Hall phase diagram. Recent experiments and numerics indicate that an anomalous …",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     }
