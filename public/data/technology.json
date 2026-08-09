@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-09T22:33:33.702Z",
+  "updated": "2026-08-09T23:33:22.075Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: A shortage of two Sanofi medicines for Pompe disease rattles patients",
+      "url": "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss",
+      "summary": "Sanofi is experiencing shortages of two medicines for Pompe disease, alarming patient groups.",
+      "ts": 1786317405000,
+      "publishedAt": "2026-08-09T23:16:45.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Northrop Grumman, Canadian Space Agency repurpose their Gateway projects",
@@ -802,15 +811,6 @@
       "ts": 1786025899000,
       "publishedAt": "2026-08-06T14:18:19.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Update 361 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-361-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "ts": 1786024392000,
-      "publishedAt": "2026-08-06T13:53:12.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [

@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-09T22:33:30.627Z",
+  "updated": "2026-08-09T23:33:19.473Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How dogs evolved differently across the globe to match human traits",
+      "url": "https://phys.org/news/2026-08-dogs-evolved-differently-globe-human.html",
+      "summary": "We call them \"man's best friend,\" and the evidence supports it. Dogs have been found buried alongside humans in graves dating back 14,000 years. They appear in ancient art from every continent, and they feature in the my…",
+      "ts": 1786317001000,
+      "publishedAt": "2026-08-09T23:10:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Controlled cracking technique prints quantum dots into tiny pixels for sharper displays",
@@ -791,14 +799,6 @@
       "title": "Lattice-QCD Validation of Hadron Mass and Trace-Anomaly Decomposition Sum Rules",
       "url": "http://link.aps.org/doi/10.1103/5n46-717z",
       "summary": "Author(s): Dennis Bollweg, Heng-Tong Ding, Xiang Gao, Ran Luo, and Swagato Mukherjee We present the first lattice-QCD validation of multiple sum rules associated with quark-gluon decomposition of hadron mass by computing…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "<i>Ab Initio</i> Exact Calculation of Strongly Correlated Nucleonic Matter",
-      "url": "http://link.aps.org/doi/10.1103/q4p2-r1bt",
-      "summary": "Author(s): R. Z. Hu, S. L. Jin, X. Zhen, H. Y. Shang, J. C. Pei, F. R. Xu, and F. Marino Dense nucleonic matter is of vital importance for understanding compact stars and inferring the transition into deconfined quark ph…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     }
