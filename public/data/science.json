@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-09T13:51:53.233Z",
+  "updated": "2026-08-09T14:36:32.683Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Rare Mars meteorite preserves 1.27-billion-year-old clues to planet's deep interior",
+      "url": "https://phys.org/news/2026-08-rare-mars-meteorite-billion-year.html",
+      "summary": "Boston College scientists have determined that a newly discovered meteorite from Mars is 1.27 billion years old and derived from a previously unsampled, pristine source on the Red Planet. The study is published in the jo…",
+      "ts": 1786285201000,
+      "publishedAt": "2026-08-09T14:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Oldest known giant rock scallop bead suggests California coastal trade began millennia earlier",
@@ -791,14 +799,6 @@
       "title": "Observation of Correlated Plasmons in Low-Valence Nickelates",
       "url": "http://link.aps.org/doi/10.1103/3ycq-jclr",
       "summary": "Author(s): Y. Shen, W. He, J. Sears, Xuefei Guo, Xiangpeng Luo, A. Roll, J. Li, J. Pelliciari, Xi He, I. Božovič, Junjie Zhang, J. F. Mitchell, V. Bisogni, M. Mitrano, S. Johnston, and M. P. M. Dean Resonant inelastic x-…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Optimizing QAOA circuit transpilation with parity twine and SWAP network encodings",
-      "url": "http://link.aps.org/doi/10.1103/sjqb-b1h4",
-      "summary": "Author(s): J. A. Montañez-Barrera, Yanjun Ji, Michael R. von Spakovsky, David E. Bernal Neira, and Kristel Michielsen Mapping quantum approximate optimization algorithm (QAOA) circuits with nontrivial connectivity in fix…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     }
