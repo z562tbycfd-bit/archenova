@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-09T15:33:47.376Z",
+  "updated": "2026-08-09T16:37:28.783Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Cosmic filaments help set first limits on dark matter's decay into gravitons",
+      "url": "https://phys.org/news/2026-08-cosmic-filaments-limits-dark-decay.html",
+      "summary": "Composing some 85% of the universe's total mass, dark matter betrays its presence only through gravity, unlike ordinary matter. Yet through new research published in Physical Review D, a team led by David Dunsky of New Y…",
+      "ts": 1786291201000,
+      "publishedAt": "2026-08-09T16:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Over half of people are unaware of the environmental effects of sunscreen",
@@ -791,14 +799,6 @@
       "title": "Janus Percolation in Anisotropic Limited-Degree Networks",
       "url": "http://link.aps.org/doi/10.1103/xyx5-3tz3",
       "summary": "Author(s): Jacopo A. Garofalo, Nuno A. M. Araújo, Lucilla de Arcangelis, Alessandro Sarracino, and Eugenio Lippiello Many real-world infrastructures, from sensor and road networks to power grids, are spatially embedded a…",
-      "ts": 1786096800000,
-      "publishedAt": "2026-08-07T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Infinite Temperature at Zero Energy",
-      "url": "http://link.aps.org/doi/10.1103/tvny-gtzp",
-      "summary": "Author(s): Matteo Ippoliti and David M. Long Researchers construct local Hamiltonians whose eigenstates inherit infinite-temperature properties, producing ground states with extensive entanglement. [Phys. Rev. X 16, 0310…",
       "ts": 1786096800000,
       "publishedAt": "2026-08-07T10:00:00.000Z"
     }
