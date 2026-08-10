@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-10T19:57:42.684Z",
+  "updated": "2026-08-10T20:53:44.733Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Quantum heat circuits learn electronics' oldest trick: Sharing a power supply",
+      "url": "https://phys.org/news/2026-08-quantum-circuits-electronics-oldest-power.html",
+      "summary": "Every electronic and optoelectronic device generates heat, and today that heat is managed almost entirely from the outside. Heatsinks, fans, cold plates and refrigerators are bulky exterior measures bolted onto a chip or…",
+      "ts": 1786394410000,
+      "publishedAt": "2026-08-10T20:40:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "As charitable food aid expands, new study raises questions for food security policy",
+      "url": "https://phys.org/news/2026-08-charitable-food-aid-policy.html",
+      "summary": "As food insecurity persists across high-income countries, charitable organizations and food banks are playing an increasingly important role in helping households access food. A new study from the Hebrew University of Je…",
+      "ts": 1786394403000,
+      "publishedAt": "2026-08-10T20:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Distant time crystals oscillate in unison, paving the way for spin networks",
+      "url": "https://phys.org/news/2026-08-distant-crystals-oscillate-unison-paving.html",
+      "summary": "In January 2024, physicists at TU Dortmund University demonstrated a continuous time crystal in a semiconductor whose oscillations remained stable for hours. In a new study published in Nature Communications, Professor A…",
+      "ts": 1786393209000,
+      "publishedAt": "2026-08-10T20:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When meat doesn't matter: Female Guinea baboons do not prefer males who are better at acquiring or sharing meat",
+      "url": "https://phys.org/news/2026-08-meat-doesnt-female-guinea-baboons.html",
+      "summary": "Meat is a rare and highly prized resource for wild Guinea baboons (Papio papio). Yet, contrary to long-standing assumptions based on human hunter–gatherer societies, a new study by the German Primate Center—Leibniz-Insti…",
+      "ts": 1786393204000,
+      "publishedAt": "2026-08-10T20:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Record July heat in regions home to 900 million people",
+      "url": "https://phys.org/news/2026-08-july-regions-home-million-people.html",
+      "summary": "Regions home to around 900 million people experienced their hottest July on record in 2026, including in the Sahel, Central America, France and Spain, according to AFP analysis of Copernicus data.",
+      "ts": 1786392010000,
+      "publishedAt": "2026-08-10T20:00:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The impact of recent super El Niños on sea level rise",
+      "url": "https://phys.org/news/2026-08-impact-super-el-nios-sea.html",
+      "summary": "El Niños and La Niñas are the third-most dominant influences on Earth's climate, after the sun and the greenhouse effect. But they haven't been easy to decipher or to predict in terms of when they will happen and what ex…",
+      "ts": 1786392008000,
+      "publishedAt": "2026-08-10T20:00:08.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Climate change could mean four extra hours of extreme heat on hot days",
@@ -751,54 +799,6 @@
       "title": "Same physical state, different collective dynamics: state encodings select synchronization outcomes in language-model agents",
       "url": "https://arxiv.org/abs/2608.06968",
       "summary": "arXiv:2608.06968v1 Announce Type: new Abstract: Language-model agents act on state encodings of their environment, yet these are treated as interchangeable interfaces. Using pretrained language models, we designed a circ…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-Time Dynamic Crosstalk Tracking and Compensation via Photonic Blind Source Separation",
-      "url": "https://arxiv.org/abs/2608.06986",
-      "summary": "arXiv:2608.06986v1 Announce Type: new Abstract: Space-division multiplexing in few-mode fibers can substantially increase optical-link capacity, but its practical deployment is hindered by dynamically varying inter-modal…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An ionic clock qubit inside a circular Rydberg atom",
-      "url": "https://arxiv.org/abs/2608.06988",
-      "summary": "arXiv:2608.06988v1 Announce Type: new Abstract: Neutral atoms trapped in optical tweezers and excited to Rydberg states, together with trapped ions, are among the most advanced platforms for quantum simulation and quantu…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Roadmap on UV-C photodetectors: materials, applications and industry perspectives",
-      "url": "https://arxiv.org/abs/2608.07049",
-      "summary": "arXiv:2608.07049v1 Announce Type: new Abstract: UV-C photodetectors are poised to play an increasingly important role in future photonic technologies, driven by the rapid emergence of UV-C light sources and new wide band…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterising Interleaver Length in a Turbulent Deployed Terrestrial Free-Space Optical Link",
-      "url": "https://arxiv.org/abs/2608.07054",
-      "summary": "arXiv:2608.07054v1 Announce Type: new Abstract: We investigate the correlation between interleaver length and turbulence for a deployed terrestrial free-space optical link spanning 4.6 km. Using 24 hours of measurements,…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coordinated incentives in AI-generated misinformation governance",
-      "url": "https://arxiv.org/abs/2608.07070",
-      "summary": "arXiv:2608.07070v1 Announce Type: new Abstract: With the rapid diffusion of AI-generated content, AI-driven misinformation is becoming increasingly pervasive and difficult to govern, undermining information credibility a…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Enhanced Scalability of Horseshoe-and-Spur Networks by Exploiting Hollow-Core Fiber",
-      "url": "https://arxiv.org/abs/2608.07082",
-      "summary": "arXiv:2608.07082v1 Announce Type: new Abstract: The convergence of metro and access networks into unified optical infrastructures requires cost-effective alternatives to conventional solid-core fiber (SCF). This paper ex…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }
