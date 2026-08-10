@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-10T16:55:23.082Z",
+  "updated": "2026-08-10T17:52:58.182Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Forage crop gets growth boost from recently discovered beneficial bacterial species",
+      "url": "https://phys.org/news/2026-08-forage-crop-growth-boost-beneficial.html",
+      "summary": "From project to product—such success stories are rare in basic agricultural research. In this case, researchers at the Julius Kühn Institute (JKI) in Braunschweig discovered a new species of nodule-forming bacteria at th…",
+      "ts": 1786383608000,
+      "publishedAt": "2026-08-10T17:40:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ticklish spots are shared across cultures, but why they are ticklish is more complex than it seems",
+      "url": "https://phys.org/news/2026-08-ticklish-cultures-complex.html",
+      "summary": "People from different cultural backgrounds are tickled in remarkably similar ways. They laugh, resist and are usually tickled by family members or friends. They are also ticklish in the same body regions. These are among…",
+      "ts": 1786383601000,
+      "publishedAt": "2026-08-10T17:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Roads and dams put European eels at risk, scientists offer strategy to save them",
+      "url": "https://phys.org/news/2026-08-roads-european-eels-scientists-strategy.html",
+      "summary": "Roads, dams and other infrastructure built to make life easier for people have unintentionally made survival harder for another form of life—critically endangered European eels.",
+      "ts": 1786382407000,
+      "publishedAt": "2026-08-10T17:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Discovery of 'slow' electrons in 2D material could lead to new memory device",
+      "url": "https://phys.org/news/2026-08-discovery-electrons-2d-material-memory.html",
+      "summary": "Over the last decade, researchers have developed two-dimensional materials with fascinating quantum effects that could be harnessed for next-generation technologies.",
+      "ts": 1786382405000,
+      "publishedAt": "2026-08-10T17:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI cyclone forecasts could add 30 hours of warning time",
+      "url": "https://phys.org/news/2026-08-ai-cyclone-hours.html",
+      "summary": "Tropical cyclones are among the most destructive natural forces on the planet, but predicting where they will go and how strong they will become is beset by challenges. Current methods are often good at tracking storm pa…",
+      "ts": 1786381801000,
+      "publishedAt": "2026-08-10T17:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Both breeding and training influence dogs' capacity for communication, study finds",
+      "url": "https://phys.org/news/2026-08-dogs-capacity-communication.html",
+      "summary": "How have selectively breeding dogs across decades and individual training shaped the way that dogs communicate? New from JNeurosci, researchers at Harvard University, led by Mélina Cordeau, sought to answer this question…",
+      "ts": 1786381209000,
+      "publishedAt": "2026-08-10T17:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "DESI releases biggest 2D map of the universe",
+      "url": "https://phys.org/news/2026-08-desi-biggest-2d-universe.html",
+      "summary": "Hold on to your telescopes: The DESI Legacy Imaging Surveys team has released the largest-ever 2D color map of the universe. The 5.6-trillion-pixel map contains nearly 4 billion celestial objects, primarily stars and gal…",
+      "ts": 1786381205000,
+      "publishedAt": "2026-08-10T17:00:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "International study sees links between ageist attitudes and memory problems",
@@ -743,62 +799,6 @@
       "title": "An Angular Spectrum Method for Nonlinear Propagation in Heterogeneous Tissue with Immersed Sources for Ultrasound",
       "url": "https://arxiv.org/abs/2608.07389",
       "summary": "arXiv:2608.07389v1 Announce Type: new Abstract: A modified angular spectrum method (ASM) is developed for three-dimensional nonlinear acoustic propagation through heterogeneous tissue, targeting transcranial and therapeu…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The origin of carotenoid triplets in purple photosynthetic bacteria",
-      "url": "https://arxiv.org/abs/2608.07390",
-      "summary": "arXiv:2608.07390v1 Announce Type: new Abstract: Photosynthetic antenna proteins harvest light energy while at the same time protecting the organism against photodamage. Carotenoid molecules are essential in the latter pr…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Evaluating Explainable AI Methods for Geoscientific Regression: Insights from Applications and the Lorenz-63 System",
-      "url": "https://arxiv.org/abs/2608.07406",
-      "summary": "arXiv:2608.07406v1 Announce Type: new Abstract: As artificial intelligence (AI) systems transition from research prototypes to operational tools in Earth system science and forecasting, establishing trust in their predic…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optomechanical Levitation and Control of High Aspect Ratio Silicon Nanorods",
-      "url": "https://arxiv.org/abs/2608.07415",
-      "summary": "arXiv:2608.07415v1 Announce Type: new Abstract: Nano- and micro-particles levitated by optical, electrical or magnetic fields are a new frontier in precision sensing and for tests of fundamental physics. For optically le…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Harnessing bound states in the continuum for quantum and nonlinear photonics in silicon nitride microresonators",
-      "url": "https://arxiv.org/abs/2608.07426",
-      "summary": "arXiv:2608.07426v1 Announce Type: new Abstract: In this work we theoretically and experimentally investigate bound states in the continuum (BICs) in a reconfigurable integrated photonic structure, focusing on spontaneous…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Active Control of Extreme Ultraviolet Photon Flux and Resolution with a Plane Ruled Reflection Grating Spectrometer that Measures Diverging High-Harmonics",
-      "url": "https://arxiv.org/abs/2608.07441",
-      "summary": "arXiv:2608.07441v1 Announce Type: new Abstract: High harmonic generation is a versatile tabletop source for the investigation of ultrafast dynamics with atomic fidelity and few-femtosecond time resolution. However, inten…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of $\\Pi$-symmetry ultralong-range Rydberg molecules",
-      "url": "https://arxiv.org/abs/2608.07447",
-      "summary": "arXiv:2608.07447v1 Announce Type: new Abstract: We observe weakly-bound $\\Pi$-symmetry electronic states in the spectroscopy of $^{87}$Rb$(nP_{3/2})$+$^{87}$Rb($5S_{1/2}$) ultralong-range Rydberg molecules. We detect the…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Characterization of a prototype parallel-plate $^{238}$U fission chamber with DD and DT fusion neutron sources",
-      "url": "https://arxiv.org/abs/2608.07466",
-      "summary": "arXiv:2608.07466v1 Announce Type: new Abstract: The SPARC tokamak will employ $^{238}$U-based fission chambers (FCs) to monitor high-performance deuterium-tritium (DT) plasma operations, spanning neutron yield rates from…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }
