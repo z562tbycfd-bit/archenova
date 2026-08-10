@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-10T18:59:50.892Z",
+  "updated": "2026-08-10T19:57:46.441Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Trump returns to controversial vaccine policy with order questioning childhood schedule",
+      "url": "https://www.statnews.com/2026/08/10/trump-return-to-vaccine-policy-executive-order/?utm_campaign=rss",
+      "summary": "The Trump administration, which had recently avoided public discussions of vaccine policy because of concern around the political repercussions, is changing course.",
+      "ts": 1786390191000,
+      "publishedAt": "2026-08-10T19:29:51.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Candida auris Persists in Hair Follicles, Hijacks Immune Signaling",
@@ -10,6 +19,15 @@
       "ts": 1786387497000,
       "publishedAt": "2026-08-10T18:44:57.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Community College Instructors Bring Astronomy Textbook Into 21st Century",
+      "url": "https://science.nasa.gov/learning-resources/science-activation/community-college-instructors-bring-astronomy-textbook-into-21st-century/",
+      "summary": "Teaching the beautiful and inspirational science of astronomy using only the conceptual framework offered by a traditional textbook – without incorporating the wealth of incredible resources, images and activities from N…",
+      "ts": 1786385336000,
+      "publishedAt": "2026-08-10T18:08:56.000Z",
+      "categoryId": "space"
     },
     {
       "source": "OpenAI",
@@ -84,19 +102,19 @@
       "categoryId": "ai-compute"
     },
     {
-      "source": "ESA",
-      "title": "Lion Nebula roars to life for Webb",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb",
-      "summary": "Image: Observing across the starry “plains” of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula. The NASA/ESA Hubble Space Telescope previously viewed this planet…",
+      "source": "NASA",
+      "title": "Lion Nebula Roars to Life With NASA’s Webb",
+      "url": "https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/",
+      "summary": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula. NASA’s Hubble Space Telescope previously viewed this planetary nebula in 2000,…",
       "ts": 1786370400000,
       "publishedAt": "2026-08-10T14:00:00.000Z",
       "categoryId": "space"
     },
     {
-      "source": "NASA",
-      "title": "Lion Nebula Roars to Life With NASA’s Webb",
-      "url": "https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/",
-      "summary": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula. NASA’s Hubble Space Telescope previously viewed this planetary nebula in 2000,…",
+      "source": "ESA",
+      "title": "Lion Nebula roars to life for Webb",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb",
+      "summary": "Image: Observing across the starry “plains” of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula. The NASA/ESA Hubble Space Telescope previously viewed this planet…",
       "ts": 1786370400000,
       "publishedAt": "2026-08-10T14:00:00.000Z",
       "categoryId": "space"
@@ -618,7 +636,7 @@
       "source": "NASA",
       "title": "2026 IGARSS Hyperwall Schedule",
       "url": "https://science.nasa.gov/earth/2026-igarss-hyperwall-schedule/",
-      "summary": "IGARSS 2026 Join NASA in the Exhibit Hall (Booth #100) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. MONDAY, AUGUST 10 3:00 PM Technology Enabling the Future of Earth ScienceMike Seablom3:15 PM…",
+      "summary": "IGARSS 2026 Join NASA in the Exhibit Hall (Booth #100) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. MONDAY, AUGUST 10 3:15 PM Discovery Earth: New Missions & Technical Innovation Advancing Ear…",
       "ts": 1786129054000,
       "publishedAt": "2026-08-07T18:57:34.000Z",
       "categoryId": "space"
@@ -793,24 +811,6 @@
       "ts": 1786104000000,
       "publishedAt": "2026-08-07T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Food prices edged up in July amid heatwaves and energy price hikes",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168096",
-      "summary": "The cost of key foods edged up last month as searing heatwaves and ongoing geopolitical uncertainty impacted energy prices around the world.",
-      "ts": 1786104000000,
-      "publishedAt": "2026-08-07T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "Malaysia Emerges as a Regional Provider of Non-destructive Testing",
-      "url": "http://www.iaea.org/newscenter/news/malaysia-emerges-as-a-regional-provider-of-non-destructive-testing",
-      "summary": "",
-      "ts": 1786103643000,
-      "publishedAt": "2026-08-07T11:54:03.000Z",
-      "categoryId": "energy-climate"
     }
   ],
   "categories": [
