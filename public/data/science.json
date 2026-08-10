@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-10T11:48:56.939Z",
+  "updated": "2026-08-10T13:13:18.677Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "What's the beef with plant-based meat?",
+      "url": "https://phys.org/news/2026-08-beef-based-meat.html",
+      "summary": "Meat eaters view plant-based meat as riskier and offering less value than conventional meat, regardless of how it is marketed, according to new Adelaide University research.",
+      "ts": 1786366801000,
+      "publishedAt": "2026-08-10T13:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Science backs calls for limiting screens in schools",
+      "url": "https://www.sciencenews.org/article/science-school-screen-limits-devices",
+      "summary": "School device use links with lower test scores and distractions abound. But reversing the entrenched pandemic pivot to screens will be hard.",
+      "ts": 1786366800000,
+      "publishedAt": "2026-08-10T13:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Urban canals can cut temperatures by more than 2°C during heat waves",
+      "url": "https://phys.org/news/2026-08-urban-canals-temperatures-2c.html",
+      "summary": "New research from The University of Manchester has found that urban canals can cool their immediate surroundings by more than 2°C during heat waves.",
+      "ts": 1786365604000,
+      "publishedAt": "2026-08-10T12:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "NASA mission maps invisible heat loss from Earth's rapidly changing poles",
+      "url": "https://phys.org/news/2026-08-poles-hidden.html",
+      "summary": "At the top and bottom of the planet, the seasons arrive on a schedule all their own. Satellite data from a mission measuring infrared energy reveal just how differently—and how dramatically—surface temperatures swing acr…",
+      "ts": 1786364403000,
+      "publishedAt": "2026-08-10T12:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drought and the war in Ukraine changed what families in Kenya could afford to eat",
+      "url": "https://phys.org/news/2026-08-drought-war-ukraine-families-kenya.html",
+      "summary": "Russia's invasion of Ukraine in February 2022 had an almost immediate impact on global energy markets and the movement of food around the world. During the first year of the conflict, international crude oil and natural …",
+      "ts": 1786363203000,
+      "publishedAt": "2026-08-10T12:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Astronomers find a new object from the early universe using Webb data",
@@ -759,46 +799,6 @@
       "title": "Phase-Noise-Induced Heating in Optical Lattices",
       "url": "https://arxiv.org/abs/2608.07442",
       "summary": "arXiv:2608.07442v1 Announce Type: cross Abstract: We experimentally and theoretically study the origin of heating in optical lattices by disentangling the respective roles of intensity and phase noise depending on the la…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Permutation invariant neural network prediction of vacancy formation under deformation and varying chemical environment in FCC high entropy alloys",
-      "url": "https://arxiv.org/abs/2608.07445",
-      "summary": "arXiv:2608.07445v1 Announce Type: cross Abstract: Vacancy formation energies govern diffusion, irradiation damage, phase stability, and dynamic failure in high-entropy alloys (HEAs), yet their strong dependence on local …",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimal Calibration-Free Observable for the Nucleon-Coupling Ratio in a Dual-Alkali Comagnetometer for Dark Matter Searches",
-      "url": "https://arxiv.org/abs/2608.07456",
-      "summary": "arXiv:2608.07456v1 Announce Type: cross Abstract: A dual-alkali single-cell $^{87}$Rb-$^{39}$K-$^{3}$He comagnetometer can read an axionlike dark matter signal through two optical-rotation channels, encoding the ratio $\\…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Interaction Creates Dynamical AI Behavior Absent in Isolation",
-      "url": "https://arxiv.org/abs/2608.07457",
-      "summary": "arXiv:2608.07457v1 Announce Type: cross Abstract: What will happen when AI agents interact in daily life, e.g. when one AI starts bossing another around? We find a counterintuitive answer that opens new avenues for out-o…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Uncertainties in ROC (Receiver Operating Characteristic) Curves Derived from Counting Data",
-      "url": "https://arxiv.org/abs/2406.11396",
-      "summary": "arXiv:2406.11396v3 Announce Type: replace Abstract: The ROC (receiver operating characteristic) curve is a widely used device for assessing decision-making systems. It seems surprising, in view of its history dating back…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Explanation of constant mean angular momentum in high-Reynolds-number Taylor--Couette turbulence in terms of history effects",
-      "url": "https://arxiv.org/abs/2409.08471",
-      "summary": "arXiv:2409.08471v4 Announce Type: replace Abstract: This study discusses the mechanism of the emergence of nearly constant mean angular momentum profiles, which are widely observed in curved turbulent flows including the…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }

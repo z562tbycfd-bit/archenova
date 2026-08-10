@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-10T11:49:00.435Z",
+  "updated": "2026-08-10T13:13:21.155Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "National security doesn’t need more maps or imagery; it needs measurement",
+      "url": "https://spacenews.com/national-security-doesnt-need-more-maps-or-imagery-it-needs-measurement/",
+      "summary": "A decade ago, a United States carrier strike group departing San Diego could cross the Pacific with only intermittent detection. China might catch a glimpse — a satellite pass here, […] The post National security doesn’t…",
+      "ts": 1786366800000,
+      "publishedAt": "2026-08-10T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Tank problem delays first RFA launch",
+      "url": "https://spacenews.com/tank-problem-delays-first-rfa-launch/",
+      "summary": "The majority owner of Rocket Factory Augsburg is still confident the company will conduct its first orbital launch attempt this year despite a setback in testing. The post Tank problem delays first RFA launch appeared fi…",
+      "ts": 1786364227000,
+      "publishedAt": "2026-08-10T12:17:07.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: AI agents for science, and the “censorship-industrial complex”",
+      "url": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI for science needs reasoning, not just data —Eric Schmidt, the former CEO of Goo…",
+      "ts": 1786363800000,
+      "publishedAt": "2026-08-10T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Sionna’s experimental cystic fibrosis pill falls flat in mid-stage trial",
+      "url": "https://www.statnews.com/2026/08/10/sionna-cystic-fibrosis-trial-failures-sion719-vertex-trikaft/?utm_campaign=rss",
+      "summary": "A pill from Sionna Therapeutics provided no added benefit when combined with Vertex's cystic fibrosis blockbuster Trikafta, a blow to the biotech.",
+      "ts": 1786363397000,
+      "publishedAt": "2026-08-10T12:03:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite",
+      "url": "https://spacenews.com/astrolight-atmos-space-cargo-eye-first-in-flight-laser-link-between-reentry-vehicle-satellite/",
+      "summary": "WARSAW, Poland — The Lithuanian space laser communications company Astrolight has signed a memorandum of understanding with ATMOS Space Cargo, to demonstrate in-flight optical communications link between a reentry spacec…",
+      "ts": 1786363200000,
+      "publishedAt": "2026-08-10T12:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study",
@@ -99,6 +144,15 @@
       "summary": "APOD Science APOD APOD: 2026 August 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD APOD: 2026 August 10 – Three Galaxy Pairs Discover the cosmos! Each day a different image …",
       "ts": 1786334700000,
       "publishedAt": "2026-08-10T04:05:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "El Niño Alters Marine Life in the Pacific",
+      "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/",
+      "summary": "Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026.",
+      "ts": 1786334460000,
+      "publishedAt": "2026-08-10T04:01:00.000Z",
       "categoryId": "space"
     },
     {
@@ -289,6 +343,15 @@
       "ts": 1786317405000,
       "publishedAt": "2026-08-09T23:16:45.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 9 – Contemplating the Sun",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-9-contemplating-the-sun/",
+      "summary": "APOD Science APOD APOD: 2026 August 9 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph …",
+      "ts": 1786248300000,
+      "publishedAt": "2026-08-09T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "SpaceNews",
@@ -745,69 +808,6 @@
       "title": "Convergent Evolution in Neural Representation Space: Emergent Order in Deep Belief Networks",
       "url": "https://arxiv.org/abs/2608.05996",
       "summary": "arXiv:2608.05996v1 Announce Type: new Abstract: Deep Belief Networks (DBNs) learn hierarchical generative models without class supervision. Here, we ask whether this purely unsupervised process nevertheless organizes int…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Simple evolution drives direct reciprocity to maximum payoff in social dilemmas",
-      "url": "https://arxiv.org/abs/2608.06147",
-      "summary": "arXiv:2608.06147v1 Announce Type: new Abstract: Direct reciprocity is a mechanism for evolution of cooperation based on repeated interactions between the same individuals. Direct reciprocity can help natural selection to…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Errorless Irrationality: A unified computational account of the inverse base-rate effect across predictive, observational, and unsupervised procedures",
-      "url": "https://arxiv.org/abs/2608.06149",
-      "summary": "arXiv:2608.06149v1 Announce Type: new Abstract: The inverse base-rate effect is a robust bias in how people resolve ambiguity between competing categories, and the most prominent theories explain it through prediction er…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "PyOMES: an open-source framework for biochemical process modelling",
-      "url": "https://arxiv.org/abs/2608.06360",
-      "summary": "arXiv:2608.06360v1 Announce Type: new Abstract: PyOMES is a Python-based, Open-source Modelling Environment for (bio)chemical process Simulation that aims to simplify the modelling of dynamic (including steady state) pro…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MS-MLB: An Open Machine Learning Benchmark for Blood-Based MS Classification",
-      "url": "https://arxiv.org/abs/2608.05196",
-      "summary": "arXiv:2608.05196v1 Announce Type: cross Abstract: Multiple sclerosis (MS) is diagnosed through clinical assessment, magnetic resonance imaging, laboratory evidence when appropriate, and exclusion of better explanations. …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Toward a Dynamical Taxonomy of Insomnia: A Multiaxial Framework for Sleep-State Transitions and Architectural Failure",
-      "url": "https://arxiv.org/abs/2608.05462",
-      "summary": "arXiv:2608.05462v1 Announce Type: cross Abstract: Insomnia disorder is defined at the syndrome level, yet similar complaints can arise from different abnormalities in sleep regulation, state transition, state stabilizati…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Quantum Circuit Framework for Protein Ensemble-Level Energetics",
-      "url": "https://arxiv.org/abs/2608.05491",
-      "summary": "arXiv:2608.05491v1 Announce Type: cross Abstract: Proteins occupy heterogeneous free-energy landscapes in which high-entropy ensembles converge toward compact, low-energy basins with multiple sub-states. Molecular dynami…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Two base rates, two weights: base-rate neglect has a second axis",
-      "url": "https://arxiv.org/abs/2608.05658",
-      "summary": "arXiv:2608.05658v1 Announce Type: cross Abstract: Base-rate neglect is usually treated as one mistake: giving the prior too little weight. Turning the co-occurrences you see into a useful judgment, though, means correcti…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "categoryId": "bio"
