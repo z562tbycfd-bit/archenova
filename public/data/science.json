@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-10T20:53:44.733Z",
+  "updated": "2026-08-10T21:43:07.323Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Common carp relatives blunt koi herpesvirus infections, offering clues to outbreak control",
+      "url": "https://phys.org/news/2026-08-common-carp-blunt-koi-herpesvirus.html",
+      "summary": "Common carp are among the world's most widely farmed freshwater fish, providing food and livelihoods for millions of people. But across fish farms and freshwater ecosystems, they face a formidable threat: a highly contag…",
+      "ts": 1786398003000,
+      "publishedAt": "2026-08-10T21:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Photosynthetic microorganisms achieve long-lasting and renewable chemical production",
+      "url": "https://phys.org/news/2026-08-photosynthetic-microorganisms-renewable-chemical-production.html",
+      "summary": "Photosynthetic microorganisms can use light energy to convert carbon dioxide into useful compounds under mild, environmentally compatible conditions. However, many current photosynthetic production systems rely on cells …",
+      "ts": 1786398001000,
+      "publishedAt": "2026-08-10T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Uncovering how Cryptococcus shifts from silent infection to killer fungus",
+      "url": "https://phys.org/news/2026-08-uncovering-cryptococcus-shifts-silent-infection.html",
+      "summary": "For most healthy people, Cryptococcus is an unnoticed infection. The immune system walls it off in the lungs and keeps it dormant for life. But in patients undergoing cancer chemotherapy, recovering from an organ transpl…",
+      "ts": 1786397401000,
+      "publishedAt": "2026-08-10T21:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rocket debris crashed into the moon—why this could threaten future lunar bases",
+      "url": "https://phys.org/news/2026-08-rocket-debris-moon-threaten-future.html",
+      "summary": "In the early hours of Wednesday morning, Aug. 5, the upper stage of a Falcon 9 rocket crashed into the moon in an uncontrolled collision.",
+      "ts": 1786396809000,
+      "publishedAt": "2026-08-10T21:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fermentation emerges as key pathway for ammonium production beneath the Pearl River Delta",
+      "url": "https://phys.org/news/2026-08-fermentation-emerges-key-pathway-ammonium.html",
+      "summary": "A study led by Professor Jimmy Jiujiu Jiao from the Department of Earth and Planetary Sciences at The University of Hong Kong (HKU) and Professor Meng Li from Shenzhen University has identified microbial fermentation as …",
+      "ts": 1786396801000,
+      "publishedAt": "2026-08-10T21:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mars could have carried liquid water more recently than we thought",
+      "url": "https://phys.org/news/2026-08-mars-liquid-thought.html",
+      "summary": "For decades, astronomers have assumed that the Martian surface froze solid around 3 billion years ago and has stayed that way ever since. If this were really the case, any liquid water would have long since either been l…",
+      "ts": 1786395613000,
+      "publishedAt": "2026-08-10T21:00:13.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI is making disinformation harder to spot—but we've found a new way to catch it",
+      "url": "https://phys.org/news/2026-08-ai-disinformation-harder-weve.html",
+      "summary": "Do you ever see comments on social media that seem way off-topic but still manage to wrench the discussion around to divisive political debate?",
+      "ts": 1786395601000,
+      "publishedAt": "2026-08-10T21:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Quantum heat circuits learn electronics' oldest trick: Sharing a power supply",
@@ -743,62 +799,6 @@
       "title": "108 ps coincidence time resolution through optimized scintillators, photodetectors, readout electronics, and DOI-based timing correction in orthogonally stacked detector configurations",
       "url": "https://arxiv.org/abs/2608.06746",
       "summary": "arXiv:2608.06746v1 Announce Type: new Abstract: Objective. Existing commercial time-of-flight positron emission tomography (TOF-PET) systems yield a coincidence time resolution (CTR) of ~200 ps or less full width at half…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Linear and nonlinear benchmark of gyrokinetic simulation of energetic particle driven toroidal Alfven eigenmodes in ITPA TAE benchmark case",
-      "url": "https://arxiv.org/abs/2608.06764",
-      "summary": "arXiv:2608.06764v1 Announce Type: new Abstract: A new gyrokinetic code, TEK, was benchmarked in simulating energetic particle (EP) driven toroidal Alfven eigenmodes (TAEs) in the simple tokamak configuration chosen by th…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Agentic Artificial Intelligence for Reproducible Human-in-the-Loop Environmental Health Research",
-      "url": "https://arxiv.org/abs/2608.06771",
-      "summary": "arXiv:2608.06771v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems that are capable of planning and executing multi-step analytical tasks are increasingly available to environmental health resea…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lens-Aware Differentiable Beamforming for In Vivo Distributed Aberration Correction with Curvilinear Transducers",
-      "url": "https://arxiv.org/abs/2608.06853",
-      "summary": "arXiv:2608.06853v1 Announce Type: new Abstract: This work extends ultrasound autofocusing via common midpoint phase error optimization to support curvilinear array geometries. Iterative model-based aberration correction …",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Adjoint shape optimization of oscillatory rarefied gas flows",
-      "url": "https://arxiv.org/abs/2608.06910",
-      "summary": "arXiv:2608.06910v1 Announce Type: new Abstract: A fast-converging and asymptotic-preserving adjoint shape optimization method is proposed for drag reduction of multiscale gas flows in vibrating micro-electro-mechanical s…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unveiling charge dynamics on the generation of high extinction wide pulse generation on thin-film lithium tantalate",
-      "url": "https://arxiv.org/abs/2608.06921",
-      "summary": "arXiv:2608.06921v1 Announce Type: new Abstract: We experimentally demonstrate high-extinction optical pulse generation in thin-film lithium tantalate (TFLT), achieving a wide range of pulse widths with sharp rise and fal…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Information surfaces and overflow fields: a unitary evolution model based on the principle of information curvature scaling",
-      "url": "https://arxiv.org/abs/2608.06941",
-      "summary": "arXiv:2608.06941v1 Announce Type: new Abstract: The black hole information paradox exposes a fundamental contradiction between quantum unitarity and semiclassical gravity. Although the entanglement island paradigm is cap…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Same physical state, different collective dynamics: state encodings select synchronization outcomes in language-model agents",
-      "url": "https://arxiv.org/abs/2608.06968",
-      "summary": "arXiv:2608.06968v1 Announce Type: new Abstract: Language-model agents act on state encodings of their environment, yet these are treated as interchangeable interfaces. Using pretrained language models, we designed a circ…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }
