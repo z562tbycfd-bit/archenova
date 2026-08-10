@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-10T08:28:09.864Z",
+  "updated": "2026-08-10T10:18:25.005Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "AI for science needs reasoning, not just data",
+      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking pr…",
+      "ts": 1786352400000,
+      "publishedAt": "2026-08-10T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "These startups are chasing the next big thing in LLMs",
+      "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. Way back in the summer of 2017, AI researchers at G…",
+      "ts": 1786352400000,
+      "publishedAt": "2026-08-10T09:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: China tightens the reins on clinical trials, even as the U.S. looks for ways to replicate its rival’s speed",
+      "url": "https://www.statnews.com/2026/08/10/china-biotech-new-scrutiny-investigator-initiated-trials/?utm_campaign=rss",
+      "summary": "China has tightened regulations on investigator-initiated trials, with consequences not just for Chinese researchers but some Americans, too.",
+      "ts": 1786350600000,
+      "publishedAt": "2026-08-10T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: We prepared for Ebola — but not this Ebola",
+      "url": "https://www.statnews.com/2026/08/10/ebola-outbreak-zaire-ebolavirus-bundiugyo-diagnostics-therapeutics/?utm_campaign=rss",
+      "summary": "“Preparedness cannot mean optimizing every investment for yesterday's epidemic,” write Krutika Kuppalli and Placide Mbala.",
+      "ts": 1786350600000,
+      "publishedAt": "2026-08-10T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The promise of radiopharmaceuticals smacks into safety concerns",
+      "url": "https://www.statnews.com/2026/08/10/radiopharmaceuticals-clinical-trials-progress-setbacks/?utm_campaign=rss",
+      "summary": "Despite excitement over the potential of radiopharmaceuticals as cancer treatments, drug developers are hitting new hurdles.",
+      "ts": 1786350600000,
+      "publishedAt": "2026-08-10T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: How should states reach out to Medicaid enrollees affected by changes? Our research gives a hint",
+      "url": "https://www.statnews.com/2026/08/10/medicaid-work-requirement-changes-states-contact/?utm_campaign=rss",
+      "summary": "Experts ask: How can we better reach out to people facing Medicaid renewal deadlines and support them through the paperwork requirements?",
+      "ts": 1786350600000,
+      "publishedAt": "2026-08-10T08:30:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "StockWatch: Lilly Rises on Revenue Leap; Analysts High on Krystal Despite Revenue Miss",
@@ -435,6 +489,15 @@
       "categoryId": "global-governance"
     },
     {
+      "source": "IAEA News",
+      "title": "Malaysia Emerges as a Regional Provider of Non-destructive Testing",
+      "url": "http://www.iaea.org/newscenter/news/malaysia-emerges-as-a-regional-provider-of-non-destructive-testing",
+      "summary": "",
+      "ts": 1786103643000,
+      "publishedAt": "2026-08-07T11:54:03.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "SpaceNews",
       "title": "Europe increases size and cost of IRIS² constellation",
       "url": "https://spacenews.com/europe-increases-size-and-cost-of-iris%c2%b2-constellation/",
@@ -745,69 +808,6 @@
       "title": "CAKR: Commutative algebra k-mer representations for genomics",
       "url": "https://arxiv.org/abs/2508.09406",
       "summary": "arXiv:2508.09406v2 Announce Type: replace Abstract: Despite the availability of various sequence analysis models, comparative genomic analysis remains a challenge in genomics, genetics, and phylogenetics. Commutative alg…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Feasibility and Single Parameter Scaling of Extinctions in Large Ecological Communities",
-      "url": "https://arxiv.org/abs/2511.04327",
-      "summary": "arXiv:2511.04327v3 Announce Type: replace Abstract: Multispecies ecosystems modelled by generalized Lotka-Volterra equations exhibit stationary population abundances, where large number of species often coexist. Understa…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "MoDAl: Self-Supervised Neural Modality Discovery via Decorrelation for Speech Neuroprosthesis",
-      "url": "https://arxiv.org/abs/2605.00025",
-      "summary": "arXiv:2605.00025v3 Announce Type: replace Abstract: Speech neuroprosthesis systems decode intended speech from neural activity in the absence of audible output, offering a path to restoring communication for individuals …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Phylogenetic Tree Inference with Tropical Axial Attention",
-      "url": "https://arxiv.org/abs/2605.13894",
-      "summary": "arXiv:2605.13894v2 Announce Type: replace Abstract: In this work, we introduce a Tropical Axial Attention neural reasoning architecture that replaces vanilla softmax dot-product attention with max-plus operators, inducin…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Explanations of Large Language Models Explain Language Representations in the Brain",
-      "url": "https://arxiv.org/abs/2502.14671",
-      "summary": "arXiv:2502.14671v4 Announce Type: replace-cross Abstract: Large Language Model (LLM) representations are known to align with brain activity during language processing, but it remains unclear what drives this alignment. W…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Scientific Machine Learning of Chaotic Systems Learns Reduced-Order Equations for Neural Populations",
-      "url": "https://arxiv.org/abs/2507.03631",
-      "summary": "arXiv:2507.03631v4 Announce Type: replace-cross Abstract: Extracting interpretable mathematical models from complex dynamical systems is difficult, especially for chaotic dynamics observed with noisy experimental data. W…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Topological shape transform for thymus structures",
-      "url": "https://arxiv.org/abs/2602.18889",
-      "summary": "arXiv:2602.18889v3 Announce Type: replace-cross Abstract: The Euler characteristic transform (ECT) is an emerging and powerful framework within topological data analysis for quantifying the geometry of shape. The applica…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Inferring Phylogenetic Networks from Required and Forbidden LCA-Constraints",
-      "url": "https://arxiv.org/abs/2605.03827",
-      "summary": "arXiv:2605.03827v3 Announce Type: replace-cross Abstract: Least common ancestor (LCA) constraints encode relative-order information in directed acyclic graphs (DAGs) and give rise to a natural constraint-realization prob…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "categoryId": "bio"
