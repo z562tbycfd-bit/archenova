@@ -1,7 +1,111 @@
 {
   "ok": true,
-  "updated": "2026-08-10T13:13:18.677Z",
+  "updated": "2026-08-10T15:00:34.287Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "MRI study shows dogs can distinguish between human fear and sadness",
+      "url": "https://phys.org/news/2026-08-mri-dogs-distinguish-human-sadness.html",
+      "summary": "Scientists—and dog lovers—have long known that dogs are remarkably good at interpreting our laughs, frowns and tears. But the biology behind this ability has remained largely unexplored until now. In a study published in…",
+      "ts": 1786374007000,
+      "publishedAt": "2026-08-10T15:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New survey: Parents and educators say the rise of AI requires students to develop stronger data skills",
+      "url": "https://phys.org/news/2026-08-survey-parents-ai-requires-students.html",
+      "summary": "As artificial intelligence rapidly reshapes education and the workforce, a majority of parents and educators believe it's essential for students to develop data literacy skills, according to a new survey released today b…",
+      "ts": 1786374001000,
+      "publishedAt": "2026-08-10T15:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Sad or afraid? Dogs may be able to read your face",
+      "url": "https://www.sciencenews.org/article/dogs-understand-emotions-humans-face",
+      "summary": "A new brain-imaging study suggests that dogs may be able to distinguish between certain negative human emotions just by looking at people’s faces.",
+      "ts": 1786374000000,
+      "publishedAt": "2026-08-10T15:00:00.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Why Are Rivers So Mathematical?",
+      "url": "https://www.quantamagazine.org/why-are-rivers-so-mathematical-20260810/",
+      "summary": "A simple scaling law brings order to the chaos of flowing water, rock, and sediment. New findings have extended the law even further. The post Why Are Rivers So Mathematical? first appeared on Quanta Magazine",
+      "ts": 1786373794000,
+      "publishedAt": "2026-08-10T14:56:34.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "El Niño alters marine life in the Pacific",
+      "url": "https://phys.org/news/2026-08-el-nio-marine-life-pacific.html",
+      "summary": "As of June 2026, El Niño has officially arrived. This naturally recurring phenomenon is characterized by warmer-than-normal water temperatures in parts of the equatorial Pacific, along with changes to atmospheric and oce…",
+      "ts": 1786372806000,
+      "publishedAt": "2026-08-10T14:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New species of mountain horned dragon identified in Thailand's high-altitude forests",
+      "url": "https://phys.org/news/2026-08-species-mountain-horned-dragon-thailand.html",
+      "summary": "Scientists have described a new species of lizard from the high mountain forests of western Thailand and have given it a name straight out of an American fantasy drama television series: Acanthosaura syrax, named after S…",
+      "ts": 1786372804000,
+      "publishedAt": "2026-08-10T14:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Generative AI has changed mathematics forever. Where to from here?",
+      "url": "https://phys.org/news/2026-08-generative-ai-mathematics.html",
+      "summary": "A little over a week ago, artificial intelligence company OpenAI announced 10 advances in mathematics and computer science made with its as-yet-unreleased model Astra. The discoveries cover a wide range of mathematical f…",
+      "ts": 1786371606000,
+      "publishedAt": "2026-08-10T14:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Corn-stalk sugars feed new bacterial strain designed to make useful chemicals",
+      "url": "https://phys.org/news/2026-08-corn-stalk-sugars-bacterial-strain.html",
+      "summary": "Engineers have developed a strain of a common bacterial species that can feed exclusively on the three major sugars present in corn stalks. While the new multiple-sugar-consuming strain of the bacterium Pseudomonas putid…",
+      "ts": 1786371604000,
+      "publishedAt": "2026-08-10T14:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Monsoon cooling helps Great Barrier Reef coral cover hold steady after bleaching",
+      "url": "https://phys.org/news/2026-08-monsoon-cooling-great-barrier-reef.html",
+      "summary": "A late-summer monsoon in 2026 brought the Great Barrier Reef a reprieve from unfolding coral bleaching, aiding its initial recovery from recent climate-induced disturbances, according to the Australian Institute of Marin…",
+      "ts": 1786371001000,
+      "publishedAt": "2026-08-10T14:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Slow spin could explain why planets become hellish",
+      "url": "https://phys.org/news/2026-08-planets-hellish.html",
+      "summary": "Hundreds of Venus-like planets could soon help determine why some worlds become sweltering greenhouse hellscapes while others remain capable of supporting life. But before answering that question, scientists first need t…",
+      "ts": 1786370401000,
+      "publishedAt": "2026-08-10T14:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A major Quebec survey finds 5 flaws in the 'augmented work' myth",
+      "url": "https://phys.org/news/2026-08-major-quebec-survey-flaws-augmented.html",
+      "summary": "We're being promised a revolution. Artificial intelligence is said to make work both more productive and more enjoyable by freeing us from tedious tasks and allowing us to devote more time to what really matters. This is…",
+      "ts": 1786369212000,
+      "publishedAt": "2026-08-10T13:40:12.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Lying mirror' uses structured surfaces to conceal optical information",
+      "url": "https://phys.org/news/2026-08-mirror-surfaces-conceal-optical.html",
+      "summary": "Mirrors normally reveal what is placed in front of them, even when their curvature distorts a reflection. Researchers at the University of California, Los Angeles (UCLA) have introduced a different optical concept: a \"ly…",
+      "ts": 1786369202000,
+      "publishedAt": "2026-08-10T13:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Helping students be better organized",
+      "url": "https://phys.org/news/2026-08-students.html",
+      "summary": "Children with attention-deficit/hyperactivity disorder (ADHD) often struggle with executive functions—tasks involving managing their time, completing their homework, turning in assignments and planning for upcoming proje…",
+      "ts": 1786368006000,
+      "publishedAt": "2026-08-10T13:20:06.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "What's the beef with plant-based meat?",
@@ -73,6 +177,46 @@
       "summary": "In a world first, scientists led by a team from Stanford University have created 16 viable viruses that do not exist in nature and were designed by AI. Their experiment, which is published in Science, could help in the f…",
       "ts": 1786359601000,
       "publishedAt": "2026-08-10T11:00:01.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Estimating resolution from images of wavelength-scale objects: Issues and reliability",
+      "url": "http://link.aps.org/doi/10.1103/nnkv-wqns",
+      "summary": "Author(s): A. V. Maslov The imaging of slits with various sizes is considered to evaluate the reliability of using them to estimate the optical resolution in classical microscopy. For this purpose, the images are calcula…",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Robust gigahertz-range ac magnetometry with an ensemble of $\\mathrm{N}\\text{−}V$ centers in diamond using concatenated continuous dynamical decoupling",
+      "url": "http://link.aps.org/doi/10.1103/8zf5-1zyj",
+      "summary": "Author(s): Takuya Kitamura, Genko Genov, Alon Salhov, Yutaka Kobayashi, Shinobu Onoda, Junichi Isoya, Alex Retzker, and Fedor Jelezko Subpicotesla level magnetometry has been demonstrated using negatively charged nitroge…",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Leveraging the critical mode of flexural vibration for enhanced performance of nanomechanical systems",
+      "url": "http://link.aps.org/doi/10.1103/mqjl-lyjt",
+      "summary": "Author(s): Jay Krishna Anand, Durgesh Banswar, Sonika Singh, and Ankur Goswami Nanomechanical resonators have demonstrated significant potential in sensing technologies due to their exceptional responsiveness to external…",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Lemniscate phase trajectories for high-fidelity preparation of GHZ states in trapped-ion chains",
+      "url": "http://link.aps.org/doi/10.1103/t5s5-v6mf",
+      "summary": "Author(s): Evgeny V. Anikin, Andrey Chuchalin, Dimitrii Donchenko, Olga Lakhmanskaya, and Kirill Lakhmanskiy In trapped-ion chains, multipartite Greenberger-Horne-Zeilinger (GHZ) states can be prepared natively with the …",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Analysis of fluorescence-fluctuation spectroscopy combining autocorrelation and time-integrated cumulants in confocal microscopy",
+      "url": "http://link.aps.org/doi/10.1103/pngm-pry7",
+      "summary": "Author(s): Pierre Leclerc, Henri Truong, Gérard Colas des Francs, Laurent Héliot, and Aymeric Leray Quantification in fluorescence correlation spectroscopy relies on diffusion models where the confocal volume is approxim…",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -655,150 +799,6 @@
       "title": "Alkali Metallicity, Mineral Clouds, and Deep Atmospheric Variability on Jupiter",
       "url": "https://arxiv.org/abs/2608.06600",
       "summary": "arXiv:2608.06600v1 Announce Type: cross Abstract: The bulk elemental abundances of Jupiter provide critical insights into its formation history and interior structure. Recent observations by the Juno Microwave Radiometer…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Cross-Geometry Transferability Assessment of Universal Machine Learning Interatomic Potentials: From Bulk Materials to Atomic Nanowires",
-      "url": "https://arxiv.org/abs/2608.06662",
-      "summary": "arXiv:2608.06662v1 Announce Type: cross Abstract: Foundation machine-learning interatomic potentials (MLIPs) enable atomistic simulations at substantially lower computational cost than first-principles methods, but their…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Particle Contacts Generate Fractional Density Relaxation",
-      "url": "https://arxiv.org/abs/2608.06797",
-      "summary": "arXiv:2608.06797v1 Announce Type: cross Abstract: Dense-liquid relaxation evolves from local particle collisions to cooperative structural rearrangements. While hard-sphere kinetics determines an early $t^{3/2}$ fraction…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Entanglement-enhanced optical magnetometry beyond the standard quantum limit",
-      "url": "https://arxiv.org/abs/2608.06815",
-      "summary": "arXiv:2608.06815v1 Announce Type: cross Abstract: Optical atomic magnetometry is a powerful tool for continuous sensing applications, yet, in the absence of quantum correlations, its sensitivity is limited by the standar…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Comparative Analysis of Spread-Spectrum Codes for Fibre-Optic Distributed Acoustic Sensing",
-      "url": "https://arxiv.org/abs/2608.06864",
-      "summary": "arXiv:2608.06864v1 Announce Type: cross Abstract: This paper presents a comprehensive performance comparison of several coded sequences for distributed acoustic sensing systems through numerical simulations. Correlation …",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How Molecular Generative Models Organize Molecular Identity",
-      "url": "https://arxiv.org/abs/2608.06956",
-      "summary": "arXiv:2608.06956v1 Announce Type: cross Abstract: Generative models for matter are often evaluated as samplers over output representations, and their latent spaces are commonly used as proxies for navigating chemical spa…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Single-qubit detection by collective phase imprinting",
-      "url": "https://arxiv.org/abs/2608.06970",
-      "summary": "arXiv:2608.06970v1 Announce Type: cross Abstract: The amplification of quantum information carried by a single quantum excitation is a recurring challenge across diverse quantum platforms. The coupling between a single q…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Simulating is not always understanding: When model complexity obscures biology",
-      "url": "https://arxiv.org/abs/2608.06998",
-      "summary": "arXiv:2608.06998v1 Announce Type: cross Abstract: In cell biology, computational models of biological systems range from minimal representations with a handful of parameters to whole-cell simulations tracking thousands o…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Hyperbolic Graph Embedders for Link Prediction and Topology Reconstruction",
-      "url": "https://arxiv.org/abs/2608.07029",
-      "summary": "arXiv:2608.07029v1 Announce Type: cross Abstract: Hyperbolic embeddings provide compact geometric representations of complex networks in hyperbolic spaces, but systematic comparisons of methods developed in machine learn…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Magneto-optical signal from $\\mathrm{Co_2Mn}$-based Heusler thin films in MOKE and BLS",
-      "url": "https://arxiv.org/abs/2608.07052",
-      "summary": "arXiv:2608.07052v1 Announce Type: cross Abstract: $\\mathrm{Co_2Mn}$-based Heusler compounds offer a versatile, composition-tunable platform for magnonics and spintronics. Among them, the half-metallic $\\mathrm{Co_2MnSi}$…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermodynamic Human-Computer Interaction",
-      "url": "https://arxiv.org/abs/2608.07123",
-      "summary": "arXiv:2608.07123v1 Announce Type: cross Abstract: Traditional human-computer interaction models rely on domain-specific techniques to model target prediction; models designed for cursor interaction prediction fail to gen…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine Learning-Based Inter-Crystal Scatter Recovery for Ultra-High Resolution PET Imaging",
-      "url": "https://arxiv.org/abs/2608.07155",
-      "summary": "arXiv:2608.07155v1 Announce Type: cross Abstract: Inter-crystal scatter (ICS) events pose a significant challenge in ultrahigh- resolution positron emission tomography (UHR-PET), especially as detector crystals become sm…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Perfect absorption by metal-contacted two-dimensional systems with ultra-proximate reflectors",
-      "url": "https://arxiv.org/abs/2608.07218",
-      "summary": "arXiv:2608.07218v1 Announce Type: cross Abstract: Electromagnetic absorbance by most two-dimensional electron systems is typically well below unity, which hinders both practical applications in photodetection and fundame…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Crossing over universal scaling laws in two-dimensional driven dissipative condensates",
-      "url": "https://arxiv.org/abs/2608.07242",
-      "summary": "arXiv:2608.07242v1 Announce Type: cross Abstract: In low dimensional systems, fluctuations are enhanced and prevent the spontaneous breaking of continuous symmetries. As a result, spatial and temporal correlation functio…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Homojunction-induced thermopower enhancement in polymer films",
-      "url": "https://arxiv.org/abs/2608.07266",
-      "summary": "arXiv:2608.07266v1 Announce Type: cross Abstract: It has been more than twenty years since conductive polymers began to receive attention as an emerging thermoelectric material. However, the trade-off between electrical …",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Demonstration of an LLO CV-QKD system over 12 km of optical fiber",
-      "url": "https://arxiv.org/abs/2608.07277",
-      "summary": "arXiv:2608.07277v1 Announce Type: cross Abstract: Continuous-variable quantum key distribution (CV-QKD) promises high rates and seamless integration with classical beams within a single optical fiber. Over the years, imp…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "WST, the Wide-field Spectroscopic Telescope: dispersing elements",
-      "url": "https://arxiv.org/abs/2608.07284",
-      "summary": "arXiv:2608.07284v1 Announce Type: cross Abstract: The Wide-field Spectroscopic Telescope (WST) is a proposed 12-m class facility entirely dedicated to spectroscopic surveys, combining a high-multiplex multi-object spectr…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mesh-Based Filtering to Alleviate Time-Step Restrictions in Runge--Kutta Discontinuous Galerkin Methods in Spherical-polar Coordinates: Application to the Euler Equations",
-      "url": "https://arxiv.org/abs/2608.07345",
-      "summary": "arXiv:2608.07345v1 Announce Type: cross Abstract: We propose a mesh-based filtering approach to alleviate the severe timestep restrictions arising in explicit Runge--Kutta discontinuous Galerkin (RKDG) methods formulated…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Phase-Noise-Induced Heating in Optical Lattices",
-      "url": "https://arxiv.org/abs/2608.07442",
-      "summary": "arXiv:2608.07442v1 Announce Type: cross Abstract: We experimentally and theoretically study the origin of heating in optical lattices by disentangling the respective roles of intensity and phase noise depending on the la…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }

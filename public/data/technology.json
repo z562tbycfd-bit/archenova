@@ -1,7 +1,97 @@
 {
   "ok": true,
-  "updated": "2026-08-10T13:13:21.155Z",
+  "updated": "2026-08-10T15:00:37.748Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "FDA to require notice of additives in food supply for the first time",
+      "url": "https://www.statnews.com/2026/08/10/rfk-jr-proposal-fda-gras-rule-generally-recognized-as-safe/?utm_campaign=rss",
+      "summary": "RFK Jr. is claiming a win with a new proposal on the food industry's GRAS loophole; nutrition advocates give mixed reviews.",
+      "ts": 1786374000000,
+      "publishedAt": "2026-08-10T15:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Ban prior auth? And hospitals cut jobs",
+      "url": "https://www.statnews.com/2026/08/10/advocate-ban-prior-authorization-340b-limits-impact-on-hospitals/?utm_campaign=rss",
+      "summary": "We examine a call to reform how health insurers do business, and a look at the impact of 340B restrictions.",
+      "ts": 1786373536000,
+      "publishedAt": "2026-08-10T14:52:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: FDA panel to weigh Grail’s Galleri test",
+      "url": "https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test/?utm_campaign=rss",
+      "summary": "China reins in its biotech innovation engine, radiopharma boom meets unexpected hurdles, and more news from The Readout",
+      "ts": 1786373287000,
+      "publishedAt": "2026-08-10T14:48:07.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "ts": 1786370400000,
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NASA",
+      "title": "Lion Nebula Roars to Life With NASA’s Webb",
+      "url": "https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/",
+      "summary": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula. NASA’s Hubble Space Telescope previously viewed this planetary nebula in 2000,…",
+      "ts": 1786370400000,
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Lion Nebula roars to life for Webb",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb",
+      "summary": "Image: Observing across the starry “plains” of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula. The NASA/ESA Hubble Space Telescope previously viewed this planet…",
+      "ts": 1786370400000,
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "Launch Into a New School Year With NASA",
+      "url": "https://www.nasa.gov/learning-resources/launch-into-a-new-school-year-with-nasa/",
+      "summary": "A new school year brings fresh opportunities to get involved with NASA. Whether you’re curious about space or eager to build real STEM skills, NASA offers a world of experiences putting you close to the action. As we ent…",
+      "ts": 1786370368000,
+      "publishedAt": "2026-08-10T13:59:28.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about a Sanofi drug shortage, a Jazz Pharma deal, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss",
+      "summary": "Sanofi is experiencing shortages of two medicines used to treat Pompe disease after the FDA warned the company over manufacturing issues",
+      "ts": 1786368263000,
+      "publishedAt": "2026-08-10T13:24:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Chinese Long March 7A rocket explodes shortly after liftoff",
+      "url": "https://spacenews.com/chinese-long-march-7a-rocket-explodes-shortly-after-liftoff/",
+      "summary": "HELSINKI — China appears to have lost an unknown payload after a Long March 7A rocket exploded less than 90 seconds into flight, according to amateur footage. The Long March […] The post Chinese Long March 7A rocket expl…",
+      "ts": 1786368242000,
+      "publishedAt": "2026-08-10T13:24:02.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "ESA",
+      "title": "Wildfires, drought and extreme heat, 2026",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Wildfires_drought_and_extreme_heat_2026",
+      "summary": "Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how th…",
+      "ts": 1786366800000,
+      "publishedAt": "2026-08-10T13:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "National security doesn’t need more maps or imagery; it needs measurement",
@@ -37,6 +127,15 @@
       "ts": 1786363397000,
       "publishedAt": "2026-08-10T12:03:17.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "ts": 1786363200000,
+      "publishedAt": "2026-08-10T12:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -104,7 +203,7 @@
     {
       "source": "STAT",
       "title": "Opinion: We prepared for Ebola — but not this Ebola",
-      "url": "https://www.statnews.com/2026/08/10/ebola-outbreak-zaire-ebolavirus-bundiugyo-diagnostics-therapeutics/?utm_campaign=rss",
+      "url": "https://www.statnews.com/2026/08/10/ebola-outbreak-zaire-ebolavirus-bundibugyo-diagnostics-therapeutics/?utm_campaign=rss",
       "summary": "“Preparedness cannot mean optimizing every investment for yesterday's epidemic,” write Krutika Kuppalli and Placide Mbala.",
       "ts": 1786350600000,
       "publishedAt": "2026-08-10T08:30:00.000Z",
@@ -124,6 +223,15 @@
       "title": "Opinion: How should states reach out to Medicaid enrollees affected by changes? Our research gives a hint",
       "url": "https://www.statnews.com/2026/08/10/medicaid-work-requirement-changes-states-contact/?utm_campaign=rss",
       "summary": "Experts ask: How can we better reach out to people facing Medicaid renewal deadlines and support them through the paperwork requirements?",
+      "ts": 1786350600000,
+      "publishedAt": "2026-08-10T08:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: We prepared for Ebola — but not this Ebola",
+      "url": "https://www.statnews.com/2026/08/10/ebola-outbreak-zaire-ebolavirus-bundiugyo-diagnostics-therapeutics/?utm_campaign=rss",
+      "summary": "“Preparedness cannot mean optimizing every investment for yesterday's epidemic,” write Krutika Kuppalli and Placide Mbala.",
       "ts": 1786350600000,
       "publishedAt": "2026-08-10T08:30:00.000Z",
       "categoryId": "bio"
@@ -703,114 +811,6 @@
       "ts": 1786075500000,
       "publishedAt": "2026-08-07T04:05:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Sensing the Poles’ Hidden Heat",
-      "url": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
-      "summary": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CLARA: Clarification of Language Ambiguity through Result Analysis for Natural-Language Cancer Genomics Queries",
-      "url": "https://arxiv.org/abs/2608.05195",
-      "summary": "arXiv:2608.05195v1 Announce Type: new Abstract: A natural language interface can be used to make cancer genomics databases easier to use, but even if a question is perfectly fluent, its scientific meaning can be ambiguou…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Frozen but Not Always Accessible: A Representation Analysis of Genomic Language Models",
-      "url": "https://arxiv.org/abs/2608.05329",
-      "summary": "arXiv:2608.05329v1 Announce Type: new Abstract: Genomic foundation models are increasingly reused as frozen feature extractors for downstream sequence prediction, offering a compute-efficient alternative to full fine-tun…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "IL-10 rs1800896 polymorphism predicts biochemical remission in IBD patients undergoing biologic therapy",
-      "url": "https://arxiv.org/abs/2608.05345",
-      "summary": "arXiv:2608.05345v1 Announce Type: new Abstract: Background. Genetic factors, including single-nucleotide polymorphisms (SNPs), may modulate disease course and therapeutic efficacy in patients with inflammatory bowel dise…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "The ethics of artificial intelligence in the life sciences: Universality, cultural diversity and an architecture of care",
-      "url": "https://arxiv.org/abs/2608.05436",
-      "summary": "arXiv:2608.05436v1 Announce Type: new Abstract: The life sciences and health research have started to benefit from artificial intelligence, which raises ethical concerns that are real but, we argue, not special. Any scie…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Effective pruning of task-trained recurrent neural networks using noisy fluctuations and connection rescaling",
-      "url": "https://arxiv.org/abs/2608.05464",
-      "summary": "arXiv:2608.05464v1 Announce Type: new Abstract: The pruning of network connections is key to brain function but, despite its importance, there exist few biologically-plausible pruning rules with demonstrated good perform…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "From Local Learning to Global Prediction Through Layered Surprise Cascades",
-      "url": "https://arxiv.org/abs/2608.05481",
-      "summary": "arXiv:2608.05481v1 Announce Type: new Abstract: Hierarchical predictive coding proposes a compelling hypothesis of brain computation, suggesting that the cortex builds layered predictions to minimize surprise. Yet most m…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Transcutaneous Spinal Cord Stimulation Disrupts Conscious Ankle Proprioception and Produces a More Constrained Locomotor Pattern in Unimpaired Adults",
-      "url": "https://arxiv.org/abs/2608.05635",
-      "summary": "arXiv:2608.05635v1 Announce Type: new Abstract: Transcutaneous spinal cord stimulation (tSCS) modulates spinal sensorimotor circuits primarily through activation of afferent networks. While prior work has emphasized loco…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Low-Power Wearable Respiratory Sensor for Non-Invasive Stress Monitoring",
-      "url": "https://arxiv.org/abs/2608.05697",
-      "summary": "arXiv:2608.05697v1 Announce Type: new Abstract: Respiration provides a continuously available window into physiological state and behavior. However, monitoring it outside controlled settings remains challenging because a…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Complexity and Stability of Neural Activity Across Aging and Neurodegenerative Disease",
-      "url": "https://arxiv.org/abs/2608.05882",
-      "summary": "arXiv:2608.05882v1 Announce Type: new Abstract: Objective: EEG signals fluctuate continuously even within a fixed cognitive state, but an important question is whether the brain still reuses similar activity patterns to …",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Convergent Evolution in Algorithmic Space",
-      "url": "https://arxiv.org/abs/2608.05985",
-      "summary": "arXiv:2608.05985v1 Announce Type: new Abstract: In evolutionary biology, unrelated organisms can independently evolve similar structures when exposed to similar functional demands. Here we ask whether an analogous form o…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Convergent Evolution in Neural Representation Space: Emergent Order in Deep Belief Networks",
-      "url": "https://arxiv.org/abs/2608.05996",
-      "summary": "arXiv:2608.05996v1 Announce Type: new Abstract: Deep Belief Networks (DBNs) learn hierarchical generative models without class supervision. Here, we ask whether this purely unsupervised process nevertheless organizes int…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
