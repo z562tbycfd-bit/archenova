@@ -1,7 +1,15 @@
 {
   "ok": true,
-  "updated": "2026-08-10T06:11:22.611Z",
+  "updated": "2026-08-10T08:28:04.934Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Western Europe experienced hottest June-July on record: EU monitor",
+      "url": "https://phys.org/news/2026-08-western-europe-experienced-hottest-june.html",
+      "summary": "Western Europe experienced its hottest June–July on record as climate change fuels a historic summer of heat, drought and wildfires across the region, the EU's global warming monitor said Monday.",
+      "ts": 1786344103000,
+      "publishedAt": "2026-08-10T06:41:43.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Reliable Weyl Diagnostics for an Inhomogeneous Universe in Numerical Relativity",
@@ -791,14 +799,6 @@
       "title": "On the wake and flapping dynamics of different aspect ratio flags",
       "url": "https://arxiv.org/abs/2602.06237",
       "summary": "arXiv:2602.06237v2 Announce Type: replace Abstract: The flapping of flags is a classical problem involving fast and large amplitude deformations of a thin flexible plate and unsteady flow phenomena. We perform systematic…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Wind Turbine Efficiency Limit Higher than the Lanchester (Betz) Limit",
-      "url": "https://arxiv.org/abs/2602.08045",
-      "summary": "arXiv:2602.08045v2 Announce Type: replace Abstract: A generalized actuator-disk analysis is developed that retains both the axial and tangential velocity components of the flow through the blade passage. Unlike the class…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }
