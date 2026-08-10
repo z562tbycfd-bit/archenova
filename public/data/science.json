@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-10T15:00:34.287Z",
+  "updated": "2026-08-10T16:55:23.082Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "International study sees links between ageist attitudes and memory problems",
+      "url": "https://phys.org/news/2026-08-international-links-ageist-attitudes-memory.html",
+      "summary": "An international study finds that older adults who have strong beliefs about how other seniors should behave also report having more memory problems themselves. The study suggests a relationship between \"ageist attitudes…",
+      "ts": 1786380005000,
+      "publishedAt": "2026-08-10T16:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Trapped gases in ancient rocks challenge global explanation for 2-billion-year-old carbon anomaly",
+      "url": "https://phys.org/news/2026-08-gases-ancient-global-explanation-billion.html",
+      "summary": "Roughly 2.5–2 billion years ago, Earth's surface experienced the biggest chemical change in its history when oxygen became abundant in the atmosphere, eventually leading to the evolution of complex life forms such as pla…",
+      "ts": 1786380001000,
+      "publishedAt": "2026-08-10T16:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Vitamin B12 corrects developmental defects in Verheij syndrome worm model",
+      "url": "https://phys.org/news/2026-08-vitamin-b12-developmental-defects-verheij.html",
+      "summary": "Verheij syndrome is a rare genetic disorder caused by the impairment of splicing, a critical process in RNA processing. Using the model organism Caenorhabditis elegans, researchers at the Max Planck Institute for Biology…",
+      "ts": 1786378804000,
+      "publishedAt": "2026-08-10T16:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Unsocial kids may be happier than you think",
+      "url": "https://phys.org/news/2026-08-unsocial-kids-happier.html",
+      "summary": "The child who plays alone during recess may be perfectly content doing so, according to a new study from the University of Georgia.",
+      "ts": 1786378801000,
+      "publishedAt": "2026-08-10T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Many Americans underestimate health risks of extreme weather, new study finds",
+      "url": "https://phys.org/news/2026-08-americans-underestimate-health-extreme-weather.html",
+      "summary": "A changing climate increases the health risks posed by extreme weather. However, according to the 2024 Yale Climate Opinion Maps, only 47% of U.S. survey participants believed that global warming would harm them personal…",
+      "ts": 1786377606000,
+      "publishedAt": "2026-08-10T16:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Real-time measurements reveal antiferromagnetic skyrmions move in line with an applied current",
+      "url": "https://phys.org/news/2026-08-real-reveal-antiferromagnetic-skyrmions-line.html",
+      "summary": "Skyrmions—essentially magnetic vortices—represent a promising approach in spintronics; in the future, they could serve as components in storage media or computers, potentially complementing established CMOS technologies.…",
+      "ts": 1786377603000,
+      "publishedAt": "2026-08-10T16:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Veterinarians provide tips in case a pet dog or cat is choking",
+      "url": "https://phys.org/news/2026-08-veterinarians-case-pet-dog-cat.html",
+      "summary": "A favorite toy or treat can become dangerous in an instant if it gets lodged in your pet's airway. Because choking is a terrifying emergency for pets and their owners, Dr. Christine Rutter, a clinical associate professor…",
+      "ts": 1786376406000,
+      "publishedAt": "2026-08-10T15:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Using salt to drive drug-carrying particles deeper into difficult-to-treat biofilms",
+      "url": "https://phys.org/news/2026-08-salt-drug-particles-deeper-difficult.html",
+      "summary": "Biofilms—bacterial communities encased in a sticky, polymer-rich matrix—can be difficult to treat because that matrix slows antibiotics and drug-carrying particles. With help from salt, though, Yale researchers have foun…",
+      "ts": 1786376405000,
+      "publishedAt": "2026-08-10T15:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia is home to the only mass cuttlefish gathering in the world. This year these giants didn't return",
+      "url": "https://phys.org/news/2026-08-australia-home-mass-cuttlefish-world.html",
+      "summary": "This year's cuttlefish season has been unlike any other. Every winter, more than 100,000 giant Australian cuttlefish can usually be found mating along the rocky coastline of Point Lowly, northeast of Whyalla, South Austr…",
+      "ts": 1786375202000,
+      "publishedAt": "2026-08-10T15:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "MRI study shows dogs can distinguish between human fear and sadness",
@@ -727,78 +799,6 @@
       "title": "Characterization of a prototype parallel-plate $^{238}$U fission chamber with DD and DT fusion neutron sources",
       "url": "https://arxiv.org/abs/2608.07466",
       "summary": "arXiv:2608.07466v1 Announce Type: new Abstract: The SPARC tokamak will employ $^{238}$U-based fission chambers (FCs) to monitor high-performance deuterium-tritium (DT) plasma operations, spanning neutron yield rates from…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Efficient three-dimensional variational data assimilation of multi-plane PIV data",
-      "url": "https://arxiv.org/abs/2608.07469",
-      "summary": "arXiv:2608.07469v1 Announce Type: new Abstract: We perform three-dimensional variational data assimilation (3DVar) using a discrete adjoint approach to optimise the time-averaged momentum equations. The experimental data…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Atmospheric Light Pollution by Proposed Reflect Orbital Space Mirrors",
-      "url": "https://arxiv.org/abs/2608.06433",
-      "summary": "arXiv:2608.06433v1 Announce Type: cross Abstract: ReflectOrbital is planning to launch a $18\\times18$\\,m mirror in space at a $\\sim$600\\,km altitude to illuminate a $2.5$\\,km radius circular patch on Earth. The pilot sat…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multi-wavelength synthesis of a flux rope-trapped mini-prominence eruption and post-flare coronal rain",
-      "url": "https://arxiv.org/abs/2608.06478",
-      "summary": "arXiv:2608.06478v1 Announce Type: cross Abstract: Small-scale eruptive phenomena in the solar corona including miniature flux ropes and associated cool plasma condensations are not fully understood despite increasing hig…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Asteroid Disruption and Deflection Simulations for Multi-Modal Planetary Defense",
-      "url": "https://arxiv.org/abs/2608.06494",
-      "summary": "arXiv:2608.06494v1 Announce Type: cross Abstract: Planetary defense from asteroids via deflective means alone does not offer viable solutions in terminal scenarios where there is little warning time before impact. The PI…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Estimating the sensitivity of the IceCube Upgrade to probe the interior of the Earth using atmospheric neutrino oscillations",
-      "url": "https://arxiv.org/abs/2608.06543",
-      "summary": "arXiv:2608.06543v1 Announce Type: cross Abstract: The IceCube Upgrade is a densely instrumented central region of the IceCube Neutrino Observatory, deployed during the 2025-26 polar season. It will reduce the detector's …",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact quantum circuits for lattice Boltzmann realization of the Dirac equation",
-      "url": "https://arxiv.org/abs/2608.06570",
-      "summary": "arXiv:2608.06570v1 Announce Type: cross Abstract: The quantum lattice Boltzmann (QLB) scheme of Succi and Dellar advances a four-component Dirac spinor on a lattice by a fixed sequence of local, exactly norm-preserving o…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Implicit Neural Speckle Denoising",
-      "url": "https://arxiv.org/abs/2608.06574",
-      "summary": "arXiv:2608.06574v1 Announce Type: cross Abstract: Speckle fundamentally limits coherent imaging by introducing multiplicative, spatially correlated noise that obscures scene structure. Removing speckle noise from dynamic…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Juno Microwave Observations Reveal Jupiter's Deep Alkali-Chlorine Relation",
-      "url": "https://arxiv.org/abs/2608.06586",
-      "summary": "arXiv:2608.06586v1 Announce Type: cross Abstract: The longest-wavelength channel of the Juno Microwave Radiometer (MWR) probes Jupiter's kilobar atmosphere through free electrons produced by sodium and potassium ionizati…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Alkali Metallicity, Mineral Clouds, and Deep Atmospheric Variability on Jupiter",
-      "url": "https://arxiv.org/abs/2608.06600",
-      "summary": "arXiv:2608.06600v1 Announce Type: cross Abstract: The bulk elemental abundances of Jupiter provide critical insights into its formation history and interior structure. Recent observations by the Juno Microwave Radiometer…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }
