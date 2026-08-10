@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-10T04:03:32.835Z",
+  "updated": "2026-08-10T06:11:26.570Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "StockWatch: Lilly Rises on Revenue Leap; Analysts High on Krystal Despite Revenue Miss",
+      "url": "https://www.genengnews.com/topics/translational-medicine/stockwatch-lilly-rises-on-revenue-leap-analysts-high-on-krystal-despite-revenue-miss/",
+      "summary": "Lilly now expects to rack up between $85 billion and $87 billion in revenue this year, up 2.4% to 3.7% from its previous range of between $82 billion and $85 billion. That change raised the midpoint of Lilly’s revenue fo…",
+      "ts": 1786336622000,
+      "publishedAt": "2026-08-10T04:37:02.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "arXiv q-bio",
       "title": "Replacers and their evolutionary stability in the Moran process on graphs",
@@ -799,15 +808,6 @@
       "title": "Inferring Phylogenetic Networks from Required and Forbidden LCA-Constraints",
       "url": "https://arxiv.org/abs/2605.03827",
       "summary": "arXiv:2605.03827v3 Announce Type: replace-cross Abstract: Least common ancestor (LCA) constraints encode relative-order information in directed acyclic graphs (DAGs) and give rise to a natural constraint-realization prob…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "An Early Warning of Emerging Biosecurity Risks in Frontier LLMs",
-      "url": "https://arxiv.org/abs/2607.18056",
-      "summary": "arXiv:2607.18056v2 Announce Type: replace-cross Abstract: Frontier large language models (LLMs) are increasingly integrated into scientific workflows, yet their growing biological capabilities may outpace current safegua…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "categoryId": "bio"
