@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-10T22:39:27.065Z",
+  "updated": "2026-08-10T23:37:02.337Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Traditional plastic forks shed harmful microplastics. Plastic created from sugar is an alternative",
+      "url": "https://phys.org/news/2026-08-traditional-plastic-forks-microplastics-sugar.html",
+      "summary": "At a Massachusetts lab, pebble-sized pellets are transformed into forks and films that won't leave persistent microplastics in the environment.",
+      "ts": 1786404003000,
+      "publishedAt": "2026-08-10T23:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Report confirms record-high greenhouse gases, global sea level and ocean heat in 2025",
+      "url": "https://phys.org/news/2026-08-high-greenhouse-gases-global-sea.html",
+      "summary": "According to the 36th annual State of the Climate report, greenhouse gas concentrations, global sea level and ocean heat content all reached record highs in 2025.",
+      "ts": 1786404001000,
+      "publishedAt": "2026-08-10T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oak leaves harbor distinct microbial worlds on their opposite surfaces",
+      "url": "https://phys.org/news/2026-08-oak-harbor-distinct-microbial-worlds.html",
+      "summary": "A single leaf may look like a simple patch of green, but to the microscopic life that inhabits it, it is a vast landscape divided into different worlds.",
+      "ts": 1786402803000,
+      "publishedAt": "2026-08-10T23:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Common-ground curriculum boosts tolerance and civic engagement in pilot study",
+      "url": "https://phys.org/news/2026-08-common-ground-curriculum-boosts-tolerance.html",
+      "summary": "Social cohesion is the glue that holds society together. Now, those bonds are breaking, and polarization has been growing for years. Educational programs aimed at strengthening social cohesion by promoting greater tolera…",
+      "ts": 1786402801000,
+      "publishedAt": "2026-08-10T23:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "DNA repair enzymes favor specific sequences, shaping mutation patterns in the human genome",
+      "url": "https://phys.org/news/2026-08-dna-enzymes-favor-specific-sequences.html",
+      "summary": "When a wound does not heal properly, it leaves a scar. Similarly, mutations—which are permanent changes to genetic code—are often the result of damaged DNA that has not been properly repaired. Mutations can impede the fu…",
+      "ts": 1786401603000,
+      "publishedAt": "2026-08-10T22:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "US had hottest month on record in July",
+      "url": "https://phys.org/news/2026-08-hottest-month-july.html",
+      "summary": "July 2026 marked the hottest month on record for the contiguous United States, the National Oceanic and Atmospheric Administration said Monday, continuing a recent trend driven by human-caused climate change.",
+      "ts": 1786401601000,
+      "publishedAt": "2026-08-10T22:40:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Engineered enzymes forge carbon-carbon and carbon-nitrogen bonds with high selectivity",
@@ -539,6 +587,46 @@
       "publishedAt": "2026-08-10T11:00:01.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Estimating resolution from images of wavelength-scale objects: Issues and reliability",
+      "url": "http://link.aps.org/doi/10.1103/nnkv-wqns",
+      "summary": "Author(s): A. V. Maslov The imaging of slits with various sizes is considered to evaluate the reliability of using them to estimate the optical resolution in classical microscopy. For this purpose, the images are calcula…",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Robust gigahertz-range ac magnetometry with an ensemble of $\\mathrm{N}\\text{−}V$ centers in diamond using concatenated continuous dynamical decoupling",
+      "url": "http://link.aps.org/doi/10.1103/8zf5-1zyj",
+      "summary": "Author(s): Takuya Kitamura, Genko Genov, Alon Salhov, Yutaka Kobayashi, Shinobu Onoda, Junichi Isoya, Alex Retzker, and Fedor Jelezko Subpicotesla level magnetometry has been demonstrated using negatively charged nitroge…",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Leveraging the critical mode of flexural vibration for enhanced performance of nanomechanical systems",
+      "url": "http://link.aps.org/doi/10.1103/mqjl-lyjt",
+      "summary": "Author(s): Jay Krishna Anand, Durgesh Banswar, Sonika Singh, and Ankur Goswami Nanomechanical resonators have demonstrated significant potential in sensing technologies due to their exceptional responsiveness to external…",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Lemniscate phase trajectories for high-fidelity preparation of GHZ states in trapped-ion chains",
+      "url": "http://link.aps.org/doi/10.1103/t5s5-v6mf",
+      "summary": "Author(s): Evgeny V. Anikin, Andrey Chuchalin, Dimitrii Donchenko, Olga Lakhmanskaya, and Kirill Lakhmanskiy In trapped-ion chains, multipartite Greenberger-Horne-Zeilinger (GHZ) states can be prepared natively with the …",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Analysis of fluorescence-fluctuation spectroscopy combining autocorrelation and time-integrated cumulants in confocal microscopy",
+      "url": "http://link.aps.org/doi/10.1103/pngm-pry7",
+      "summary": "Author(s): Pierre Leclerc, Henri Truong, Gérard Colas des Francs, Laurent Héliot, and Aymeric Leray Quantification in fluorescence correlation spectroscopy relies on diffusion models where the confocal volume is approxim…",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Bound State in the Continuum and Multiple Atom State Transfer Applications in a Waveguide QED Setup",
       "url": "http://link.aps.org/doi/10.1103/y1rg-p9hx",
@@ -583,46 +671,6 @@
       "title": "Correlations between Rare Events for Gaussian Stochastic Processes with Long-Term Memory",
       "url": "http://link.aps.org/doi/10.1103/w2kv-jkvy",
       "summary": "Author(s): Apurba Biswas and Thomas Guérin A new theory of rare recurrent events dispenses with the simplifying assumption that recent events lack memory of previous ones. [Phys. Rev. Lett. 137, 077101] Published Mon Aug…",
-      "ts": 1786356000000,
-      "publishedAt": "2026-08-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Estimating resolution from images of wavelength-scale objects: Issues and reliability",
-      "url": "http://link.aps.org/doi/10.1103/nnkv-wqns",
-      "summary": "Author(s): A. V. Maslov The imaging of slits with various sizes is considered to evaluate the reliability of using them to estimate the optical resolution in classical microscopy. For this purpose, the images are calcula…",
-      "ts": 1786356000000,
-      "publishedAt": "2026-08-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Robust gigahertz-range ac magnetometry with an ensemble of $\\mathrm{N}\\text{−}V$ centers in diamond using concatenated continuous dynamical decoupling",
-      "url": "http://link.aps.org/doi/10.1103/8zf5-1zyj",
-      "summary": "Author(s): Takuya Kitamura, Genko Genov, Alon Salhov, Yutaka Kobayashi, Shinobu Onoda, Junichi Isoya, Alex Retzker, and Fedor Jelezko Subpicotesla level magnetometry has been demonstrated using negatively charged nitroge…",
-      "ts": 1786356000000,
-      "publishedAt": "2026-08-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Leveraging the critical mode of flexural vibration for enhanced performance of nanomechanical systems",
-      "url": "http://link.aps.org/doi/10.1103/mqjl-lyjt",
-      "summary": "Author(s): Jay Krishna Anand, Durgesh Banswar, Sonika Singh, and Ankur Goswami Nanomechanical resonators have demonstrated significant potential in sensing technologies due to their exceptional responsiveness to external…",
-      "ts": 1786356000000,
-      "publishedAt": "2026-08-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Lemniscate phase trajectories for high-fidelity preparation of GHZ states in trapped-ion chains",
-      "url": "http://link.aps.org/doi/10.1103/t5s5-v6mf",
-      "summary": "Author(s): Evgeny V. Anikin, Andrey Chuchalin, Dimitrii Donchenko, Olga Lakhmanskaya, and Kirill Lakhmanskiy In trapped-ion chains, multipartite Greenberger-Horne-Zeilinger (GHZ) states can be prepared natively with the …",
-      "ts": 1786356000000,
-      "publishedAt": "2026-08-10T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Analysis of fluorescence-fluctuation spectroscopy combining autocorrelation and time-integrated cumulants in confocal microscopy",
-      "url": "http://link.aps.org/doi/10.1103/pngm-pry7",
-      "summary": "Author(s): Pierre Leclerc, Henri Truong, Gérard Colas des Francs, Laurent Héliot, and Aymeric Leray Quantification in fluorescence correlation spectroscopy relies on diffusion models where the confocal volume is approxim…",
       "ts": 1786356000000,
       "publishedAt": "2026-08-10T10:00:00.000Z"
     },
@@ -751,54 +799,6 @@
       "title": "A Symplectic Theory of Turbulence Closure: Hidden Reservoir Dynamics, Endogenous Stochastic Transport, and Kraichnan Dual Cascades",
       "url": "https://arxiv.org/abs/2608.06606",
       "summary": "arXiv:2608.06606v1 Announce Type: new Abstract: Subgrid-scale parameterization of 2D turbulence must preserve the geometry enabling the dual cascade. Classical and data-driven closures often lack the symmetries required …",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Baseline-referenced spatial early warning signals for tipping points on heterogeneous networks",
-      "url": "https://arxiv.org/abs/2608.06608",
-      "summary": "arXiv:2608.06608v1 Announce Type: new Abstract: Anticipating tipping points in complex systems is difficult because many early warning signals require long time series, which are often unavailable in practice. Spatial ea…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Q penalties due to pump phase modulation and pump RIN in fiber optic parametric amplifiers with non-uniform dispersion",
-      "url": "https://arxiv.org/abs/2608.06615",
-      "summary": "arXiv:2608.06615v1 Announce Type: new Abstract: We present an experimental and numerical investigation of the quality factor degradation ($\\Delta Q$) due to pump phase modulation and pump relative intensity noise (RIN) i…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Equations of Reduced Magnetohydrodynamics in Dipole Coordinates",
-      "url": "https://arxiv.org/abs/2608.06617",
-      "summary": "arXiv:2608.06617v1 Announce Type: new Abstract: The equations of reduced magnetohydrodynamics (RMHD) isolate the Alfv\\'enic energy transfer and turbulence dynamics from MHD in a computationally tractable way. In this stu…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A compact beta particle momentum detector",
-      "url": "https://arxiv.org/abs/2608.06661",
-      "summary": "arXiv:2608.06661v1 Announce Type: new Abstract: We present the design, development, and first calibration results of a compact beta electron detector for the Quantum Invisible Particle Sensor (QuIPS) experiment. The QuIP…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A robust and efficient solver for coupled cluster equations",
-      "url": "https://arxiv.org/abs/2608.06669",
-      "summary": "arXiv:2608.06669v1 Announce Type: new Abstract: The coupled-cluster (CC) equations are most frequently solved via fixed-point (FP) iterations. However, when formulated in a non-canonical gauge, as in local correlation CC…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-Grounded Materials Artificial Intelligence for Reliable Materials Discovery",
-      "url": "https://arxiv.org/abs/2608.06680",
-      "summary": "arXiv:2608.06680v1 Announce Type: new Abstract: Artificial intelligence (AI) is transforming materials discovery, yet conventional data-driven approaches often suffer from limited interpretability, poor extrapolation, an…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }
