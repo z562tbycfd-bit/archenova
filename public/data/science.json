@@ -1,7 +1,47 @@
 {
   "ok": true,
-  "updated": "2026-08-10T21:43:07.323Z",
+  "updated": "2026-08-10T22:39:27.065Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Engineered enzymes forge carbon-carbon and carbon-nitrogen bonds with high selectivity",
+      "url": "https://phys.org/news/2026-08-enzymes-forge-carbon-nitrogen-bonds.html",
+      "summary": "Researchers from the Manchester Institute of Biotechnology, including Dr. Zachary Birch-Price and professor Anthony Green, have developed a new family of engineered enzymes that can create several different types of chem…",
+      "ts": 1786400405000,
+      "publishedAt": "2026-08-10T22:20:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drought dries major European rivers to record lows",
+      "url": "https://phys.org/news/2026-08-drought-dries-major-european-rivers.html",
+      "summary": "Vast tracts of many of Europe's largest rivers, including the Rhine, Rhone and Danube, have slowed to a trickle never before recorded in July, data from a European climate observatory showed Monday.",
+      "ts": 1786400403000,
+      "publishedAt": "2026-08-10T22:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The sediment story: A journey that impacts India's rivers and surrounding landscapes",
+      "url": "https://phys.org/news/2026-08-sediment-story-journey-impacts-india.html",
+      "summary": "Every monsoon, India's rivers turn brown. To most of us, that color simply means muddy water. But hidden within it is the material that builds fertile floodplains, creates river islands, nourishes deltas and even shapes …",
+      "ts": 1786399203000,
+      "publishedAt": "2026-08-10T22:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "When it comes to predicting people's preferences, it pays to consider 'the power of three'",
+      "url": "https://phys.org/news/2026-08-people-pays-power.html",
+      "summary": "In his 1927 paper, \"A law of comparative judgment,\" the American psychologist L. L. Thurstone proposed that when people select one option among multiple alternatives, they are picking the one that has the highest value t…",
+      "ts": 1786399202000,
+      "publishedAt": "2026-08-10T22:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Water quality, not just scarcity, may shape future competition for a limited resource",
+      "url": "https://phys.org/news/2026-08-quality-scarcity-future-competition-limited.html",
+      "summary": "Climate change is largely to blame for water scarcity. The low water levels in European rivers this summer speak volumes in that respect.",
+      "ts": 1786398601000,
+      "publishedAt": "2026-08-10T21:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Common carp relatives blunt koi herpesvirus infections, offering clues to outbreak control",
@@ -759,46 +799,6 @@
       "title": "Physics-Grounded Materials Artificial Intelligence for Reliable Materials Discovery",
       "url": "https://arxiv.org/abs/2608.06680",
       "summary": "arXiv:2608.06680v1 Announce Type: new Abstract: Artificial intelligence (AI) is transforming materials discovery, yet conventional data-driven approaches often suffer from limited interpretability, poor extrapolation, an…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Geometric Control of Visible Emitter Creation in Hexagonal Boron Nitride by Oblique Ion Irradiation",
-      "url": "https://arxiv.org/abs/2608.06693",
-      "summary": "arXiv:2608.06693v1 Announce Type: new Abstract: Ion irradiation creates optically active defects in wide-bandgap van der Waals materials, yet most approaches tune defect formation by varying the ion species, energy, or f…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3D Molecular Representation Learning for Organic Mixtures: Viscosity and Density Prediction",
-      "url": "https://arxiv.org/abs/2608.06697",
-      "summary": "arXiv:2608.06697v1 Announce Type: new Abstract: The viscosity and density of organic mixtures are essential properties for designing lubricants, solvents, and heat transfer fluids. In engineering practice, formulating a …",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Estimating GHG Emissions from AI Use: Framework for Corporate-Level Measurement",
-      "url": "https://arxiv.org/abs/2608.06733",
-      "summary": "arXiv:2608.06733v1 Announce Type: new Abstract: Electricity demand from data centers is expected to grow from roughly 5% of U.S. consumption in 2025 to between 9% and 17% by 2030, and corporate artificial intelligence (A…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-temperature simulation of the Raman spectra of the isotopologues $^{13}$C$^{16}$O$_2$ and $^{16}$O$^{13}$C$^{18}$O",
-      "url": "https://arxiv.org/abs/2608.06739",
-      "summary": "arXiv:2608.06739v1 Announce Type: new Abstract: Recently, experimental Raman spectra of the isotopologues $^{13}$C$^{16}$O$_2$ and $^{16}$O$^{13}$C$^{18}$O at high temperature have been reported. Separately, a reliable a…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "108 ps coincidence time resolution through optimized scintillators, photodetectors, readout electronics, and DOI-based timing correction in orthogonally stacked detector configurations",
-      "url": "https://arxiv.org/abs/2608.06746",
-      "summary": "arXiv:2608.06746v1 Announce Type: new Abstract: Objective. Existing commercial time-of-flight positron emission tomography (TOF-PET) systems yield a coincidence time resolution (CTR) of ~200 ps or less full width at half…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }

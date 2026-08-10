@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-10T21:43:09.922Z",
+  "updated": "2026-08-10T22:39:30.029Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bacterial Trait-Finding and Gene Mapping Platform Speeds Microbial Engineering for Biotech Applications",
+      "url": "https://www.genengnews.com/topics/bioprocessing/bacterial-trait-finding-and-gene-mapping-platform-speeds-microbial-engineering-for-biotech-applications/",
+      "summary": "Scientists have created a platform that can rapidly assess bacterial traits and pinpoint genetic triggers that turn microbes into efficient factories for biotech applications including in fields including chemicals and m…",
+      "ts": 1786398701000,
+      "publishedAt": "2026-08-10T21:51:41.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Rocket Lab builds deployable infrastructure for Electron launches",
@@ -624,6 +633,15 @@
       "categoryId": "ai-compute"
     },
     {
+      "source": "OpenAI",
+      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "url": "https://openai.com/index/zapier",
+      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "ts": 1786320000000,
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
       "source": "STAT",
       "title": "STAT+: A shortage of two Sanofi medicines for Pompe disease rattles patients",
       "url": "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss",
@@ -792,24 +810,6 @@
       "summary": "Video: 00:01:44 [English] On 12 August 2026, Europe will witness one of nature’s most spectacular events: a total solar eclipse starting at 19:30 CEST. As the Moon’s shadow sweeps across Spain, join the European Space Ag…",
       "ts": 1786111200000,
       "publishedAt": "2026-08-07T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about Replimune’s melanoma drug, a Medicare policy change, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/07/replimune-melanoma-drug-medicare-policy-change/?utm_campaign=rss",
-      "summary": "Eli Lilly and Novo Nordisk convinced a federal judge to toss an antitrust lawsuit by a compound pharmacy",
-      "ts": 1786108685000,
-      "publishedAt": "2026-08-07T13:18:05.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "Week in images: 03-07 August 2026",
-      "url": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_03-07_August_2026",
-      "summary": "Week in images: 03-07 August 2026 Discover our week through the lens",
-      "ts": 1786108200000,
-      "publishedAt": "2026-08-07T13:10:00.000Z",
       "categoryId": "space"
     }
   ],
