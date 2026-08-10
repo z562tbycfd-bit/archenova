@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-10T10:18:25.005Z",
+  "updated": "2026-08-10T11:49:00.435Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "STAT+: Heart failure drug from Tenax Therapeutics fails in pivotal study",
+      "url": "https://www.statnews.com/2026/08/10/tenax-heart-failure-drug-trail-failure-levosimendan-ph-hfpef/?utm_campaign=rss",
+      "summary": "A Tenax Therapeutics drug designed to treat a type of heart failure associated with high blood pressure in the lungs failed in a closely watched study.",
+      "ts": 1786361900000,
+      "publishedAt": "2026-08-10T11:38:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Silence Therapeutics aims at Takeda with new data in rare blood cancer",
+      "url": "https://www.statnews.com/2026/08/10/silence-polycythemia-vera-trial-results-divesiran-takeda-rusfertide/?utm_campaign=rss",
+      "summary": "A rare blood cancer drug from Silence Therapeutics showed strong results in a trial, potentially setting it up to compete with a Takeda medicine.",
+      "ts": 1786361460000,
+      "publishedAt": "2026-08-10T11:31:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Early-Life Stress Leaves Epigenetic “Scars” That Prime Stress Sensitivity",
+      "url": "https://www.genengnews.com/topics/omics/early-life-stress-leaves-epigenetic-scars-that-prime-stress-sensitivity/",
+      "summary": "Scientists linked early-life stress experience in mice to long-term stress hypersensitivity within the brain’s dopaminergic circuitry, providing a mechanism by which early-life stress increases risk for mood and anxiety …",
+      "ts": 1786361103000,
+      "publishedAt": "2026-08-10T11:25:03.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "MIT Technology Review",
       "title": "AI for science needs reasoning, not just data",
@@ -64,6 +91,15 @@
       "ts": 1786336622000,
       "publishedAt": "2026-08-10T04:37:02.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "APOD: 2026 August 10 – Three Galaxy Pairs",
+      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-10-three-galaxy-pairs/",
+      "summary": "APOD Science APOD APOD: 2026 August 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD APOD: 2026 August 10 – Three Galaxy Pairs Discover the cosmos! Each day a different image …",
+      "ts": 1786334700000,
+      "publishedAt": "2026-08-10T04:05:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "arXiv q-bio",
@@ -772,42 +808,6 @@
       "title": "Two base rates, two weights: base-rate neglect has a second axis",
       "url": "https://arxiv.org/abs/2608.05658",
       "summary": "arXiv:2608.05658v1 Announce Type: cross Abstract: Base-rate neglect is usually treated as one mistake: giving the prior too little weight. Turning the co-occurrences you see into a useful judgment, though, means correcti…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Multiparametric MRI Radiomics and Machine Learning Framework for Predicting Treatment Response in Glioblastoma",
-      "url": "https://arxiv.org/abs/2608.05733",
-      "summary": "arXiv:2608.05733v1 Announce Type: cross Abstract: Distinguishing True Progression (TP) from Pseudo-Progression (PsP) after chemoradiotherapy remains a major diagnostic challenge in GBM, as both entities present near-iden…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "THBKG: A Temporal Biomedical Knowledge Graph for Decision-Aligned Clinical Advancement Prediction",
-      "url": "https://arxiv.org/abs/2608.05982",
-      "summary": "arXiv:2608.05982v1 Announce Type: cross Abstract: Inadequate target--disease linkage accounts for 40--50\\% of Phase~II efficacy failures, so anticipating which programmes will advance would let sponsors back the hypothes…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "EpiBench: Can LLMs Understand Epitopes for Antibody Drug Discovery?",
-      "url": "https://arxiv.org/abs/2608.06022",
-      "summary": "arXiv:2608.06022v1 Announce Type: cross Abstract: Epitopes determine where antibodies bind antigens and shape downstream therapeutic properties such as functional blockade and escape resistance, making epitope understand…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "CAKR: Commutative algebra k-mer representations for genomics",
-      "url": "https://arxiv.org/abs/2508.09406",
-      "summary": "arXiv:2508.09406v2 Announce Type: replace Abstract: Despite the availability of various sequence analysis models, comparative genomic analysis remains a challenge in genomics, genetics, and phylogenetics. Commutative alg…",
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "categoryId": "bio"

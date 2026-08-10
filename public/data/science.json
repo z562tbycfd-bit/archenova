@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-10T10:18:22.699Z",
+  "updated": "2026-08-10T11:48:56.939Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Astronomers find a new object from the early universe using Webb data",
+      "url": "https://phys.org/news/2026-08-astronomers-early-universe-webb.html",
+      "summary": "Since it became operational in 2022, the James Webb Space Telescope (JWST) has released some truly breathtaking views of the cosmos. These images highlight how advancements since the days of the venerable Hubble Space Te…",
+      "ts": 1786362002000,
+      "publishedAt": "2026-08-10T11:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Traditional cattle herds' diversity hit by selective breeding",
+      "url": "https://phys.org/news/2026-08-traditional-cattle-herds-diversity.html",
+      "summary": "Decades of selective breeding and intensive agricultural practices have reshaped cattle genetics—often at the expense of valuable diversity preserved in traditional herds—according to new research from Aberystwyth Univer…",
+      "ts": 1786360802000,
+      "publishedAt": "2026-08-10T11:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Greenland glacier break creates new ice island",
+      "url": "https://phys.org/news/2026-08-greenland-glacier-ice-island.html",
+      "summary": "An international research team partly led by the University of Ottawa reports that Petermann Glacier in northwest Greenland calved a 76.4 km² (29.5 square miles) ice island on Aug. 4, 2026, marking the glacier's largest …",
+      "ts": 1786359603000,
+      "publishedAt": "2026-08-10T11:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sixteen AI-designed viruses offer a new route against drug-resistant bacteria",
+      "url": "https://phys.org/news/2026-08-sixteen-ai-viruses-route-drug.html",
+      "summary": "In a world first, scientists led by a team from Stanford University have created 16 viable viruses that do not exist in nature and were designed by AI. Their experiment, which is published in Science, could help in the f…",
+      "ts": 1786359601000,
+      "publishedAt": "2026-08-10T11:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Western Europe experienced hottest June-July on record: EU monitor",
@@ -767,38 +799,6 @@
       "title": "Explanation of constant mean angular momentum in high-Reynolds-number Taylor--Couette turbulence in terms of history effects",
       "url": "https://arxiv.org/abs/2409.08471",
       "summary": "arXiv:2409.08471v4 Announce Type: replace Abstract: This study discusses the mechanism of the emergence of nearly constant mean angular momentum profiles, which are widely observed in curved turbulent flows including the…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Compression and Reconnection Investigations of the MagnetoPause (CRIMP): A Mission Concept to Uncover the Impact of Mesoscale Reconnection and Plasma Outflow Processes at the Dayside Magnetopause",
-      "url": "https://arxiv.org/abs/2507.09722",
-      "summary": "arXiv:2507.09722v4 Announce Type: replace Abstract: The Compression and Reconnection Investigations of the Magnetopause (CRIMP) mission is a hypothesis-driven, Heliophysics Medium-Class Explorer (MIDEX) Announcement of O…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "OptiGAN for Crystal Arrays: Physics-Informed Generative Modeling of Optical Photon Transport in PET Detector Arrays",
-      "url": "https://arxiv.org/abs/2601.18780",
-      "summary": "arXiv:2601.18780v2 Announce Type: replace Abstract: Monte Carlo simulations of optical photon transport are computationally prohibitive for large-scale optical systems including detector arrays and PET systems, restricti…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy Transport Velocity in Photonic Time Crystals",
-      "url": "https://arxiv.org/abs/2602.03453",
-      "summary": "arXiv:2602.03453v2 Announce Type: replace Abstract: Steep or near-vertical Floquet dispersion in photonic time crystals (PTCs) is often read as fast, even apparently superluminal, transport. Here, we demonstrate that thi…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "On the wake and flapping dynamics of different aspect ratio flags",
-      "url": "https://arxiv.org/abs/2602.06237",
-      "summary": "arXiv:2602.06237v2 Announce Type: replace Abstract: The flapping of flags is a classical problem involving fast and large amplitude deformations of a thin flexible plate and unsteady flow phenomena. We perform systematic…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }
