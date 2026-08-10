@@ -1,7 +1,178 @@
 {
   "ok": true,
-  "updated": "2026-08-10T01:58:12.307Z",
+  "updated": "2026-08-10T04:03:32.835Z",
   "items": [
+    {
+      "source": "arXiv q-bio",
+      "title": "Replacers and their evolutionary stability in the Moran process on graphs",
+      "url": "https://arxiv.org/abs/2608.06552",
+      "summary": "arXiv:2608.06552v1 Announce Type: new Abstract: Evolutionary dynamics in finite structured populations are commonly modeled by the Moran Birth-death process. A key quantity is the fixation probability of a single invader…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Genotypic Triggers: Exposing Pharmacogenomic Blind Spots via Host-Specific Backdoors in Generative Antimicrobial Peptide Models",
+      "url": "https://arxiv.org/abs/2608.06779",
+      "summary": "arXiv:2608.06779v1 Announce Type: new Abstract: Large Language Models (LLMs) have accelerated drug discovery, particularly in the automated design of antimicrobial peptides (AMPs). However, current validation pipelines f…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Control-Anchored Residual Flow Matching Conditioned on Gene Geometry for Virtual Cell Perturbation Modeling",
+      "url": "https://arxiv.org/abs/2608.06824",
+      "summary": "arXiv:2608.06824v1 Announce Type: new Abstract: A central task in virtual cell modeling is predicting single-cell transcriptional responses to unseen genetic perturbations and drug combinations, and biological networks p…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Simulating is not always understanding: When model complexity obscures biology",
+      "url": "https://arxiv.org/abs/2608.06998",
+      "summary": "arXiv:2608.06998v1 Announce Type: new Abstract: In cell biology, computational models of biological systems range from minimal representations with a handful of parameters to whole-cell simulations tracking thousands of …",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Artificial Intelligence Can Match Domain Experts in Evidence Extraction and Critical Appraisal of Microbial Oncogenesis Research Publications",
+      "url": "https://arxiv.org/abs/2608.07250",
+      "summary": "arXiv:2608.07250v1 Announce Type: new Abstract: Confirmed oncogenic microbes contribute significantly to cancer burden. Identifying novel microbial oncogenicity could yield strategies that will reduce disease burdens. Ho…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "muxvizpy: a Python library for the analysis of multilayer biological networks",
+      "url": "https://arxiv.org/abs/2608.07344",
+      "summary": "arXiv:2608.07344v1 Announce Type: new Abstract: Biological systems are inherently multilayered: the same entities---genes, cells, or bacterial species---participate simultaneously in qualitatively distinct types of inter…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Joint Spatial and Temporal Generalized Dissimilarity Mixed Modeling (stGDMM) for Beta Diversity",
+      "url": "https://arxiv.org/abs/2608.05352",
+      "summary": "arXiv:2608.05352v1 Announce Type: cross Abstract: Generalized dissimilarity models (GDMs) have emerged as a valuable tool for formal statistical analysis of biodiversity. In particular, beta diversity, measured using dis…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "MiGHT-EHR: A Multi-task Graph Transformer for Heterogeneous Temporal Electronic Health Records",
+      "url": "https://arxiv.org/abs/2608.06430",
+      "summary": "arXiv:2608.06430v1 Announce Type: cross Abstract: Learning from Electronic Health Records (EHRs) has gained significant attention due to its potential to improve clinical prediction. However, effective learning remains c…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Vertex cover number of valued constraints is a structural parameter for efficient local search",
+      "url": "https://arxiv.org/abs/2608.06502",
+      "summary": "arXiv:2608.06502v1 Announce Type: cross Abstract: Many local search methods for problems in artificial intelligence can be viewed as an uphill climb on a corresponding discrete fitness landscapes. Finding even local peak…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "An Entropy-based Coefficient of Determination with Adjustment of Optimization Bias",
+      "url": "https://arxiv.org/abs/2608.06624",
+      "summary": "arXiv:2608.06624v1 Announce Type: cross Abstract: Classical likelihood-ratio tests and $\\Delta$AIC exacerbate the statistical significance crisis by scaling with sample size, often flagging negligible improvements as hig…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "International Transfer of Stochastic Cortical Self-Reconstruction",
+      "url": "https://arxiv.org/abs/2608.07092",
+      "summary": "arXiv:2608.07092v1 Announce Type: cross Abstract: Stochastic cortical self-reconstruction (SCSR) enables personalized mapping of gray matter atrophy, a hallmark of neurodegenerative disorders such as Alzheimer's disease …",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "FedDOSE: Federated Learning Framework Decomposing Site Effects for Modeling Brain Dynamic Functional Connectivity",
+      "url": "https://arxiv.org/abs/2608.07393",
+      "summary": "arXiv:2608.07393v1 Announce Type: cross Abstract: Functional Magnetic Resonance Imaging ( fMRI ) data are often pooled into collaborative multi-site consortia, as deep learning models for analyses require large datasets …",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Evolutionary Systems Thinking: From Equilibrium Models to Open-Ended Adaptive Dynamics",
+      "url": "https://arxiv.org/abs/2602.15957",
+      "summary": "arXiv:2602.15957v2 Announce Type: replace Abstract: Complex change is often described as ``evolutionary'' in economics, policy, technology, and organizations, yet many system dynamics models represent behavior within a f…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Spectral analysis of protein backbone geometry reveals abrupt helix--coil boundaries",
+      "url": "https://arxiv.org/abs/2602.21787",
+      "summary": "arXiv:2602.21787v3 Announce Type: replace Abstract: The boundaries of cooperative helix--coil transitions influence protein allostery and conformational dynamics, yet the persistent one-to-two-residue ambiguity in their …",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "A Physics-Inspired Classical Digital Twin of Cortical Dynamics: A Band-Stratified Metriplectic Port-Hamiltonian Neural Network Learned from Brain-Computer-Interface EEG",
+      "url": "https://arxiv.org/abs/2607.10439",
+      "summary": "arXiv:2607.10439v3 Announce Type: replace Abstract: We present a physics-inspired classical digital twin of brain-computer- interface (BCI) data: a graph neural network constrained to a band-stratified, metriplectic port…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Curriculum Multiple Shooting for Robust Training of Neural and Universal Differential Equations",
+      "url": "https://arxiv.org/abs/2608.05777",
+      "summary": "arXiv:2608.05777v2 Announce Type: replace Abstract: Neural ordinary differential equations (NODEs) and universal differential equations (UDEs) provide flexible and popular frameworks for learning interpretable dynamical …",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Conditioning Protein Generation via Hopfield Pattern Multiplicity",
+      "url": "https://arxiv.org/abs/2603.20115",
+      "summary": "arXiv:2603.20115v2 Announce Type: replace-cross Abstract: Small protein-family alignments often contain a subset of interest but not enough labeled data to train a conditional generator. We condition a training-free stoc…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Vector Space of Cycles",
+      "url": "https://arxiv.org/abs/2606.08202",
+      "summary": "arXiv:2606.08202v2 Announce Type: replace-cross Abstract: Most statistical and machine learning methods for directed interactions focus on pairwise effects among variables. Even existing cyclic models represent feedback …",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "arXiv q-bio",
+      "title": "Beyond Scaffold Splits: Structural-Frontier Evaluation Reveals Hidden Failures in ADMET Models",
+      "url": "https://arxiv.org/abs/2607.10729",
+      "summary": "arXiv:2607.10729v3 Announce Type: replace-cross Abstract: Molecular property models are commonly evaluated by holding out Bemis-Murcko scaffolds, yet a scaffold identifier is only one notion of chemical unfamiliarity. We…",
+      "ts": 1786334400000,
+      "publishedAt": "2026-08-10T04:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "Katalyst Space makes progress in restoring control of Swift servicing spacecraft",
@@ -445,15 +616,6 @@
     },
     {
       "source": "arXiv q-bio",
-      "title": "Curriculum Multiple Shooting for Robust Training of Neural and Universal Differential Equations",
-      "url": "https://arxiv.org/abs/2608.05777",
-      "summary": "arXiv:2608.05777v1 Announce Type: new Abstract: Neural ordinary differential equations (NODEs) and universal differential equations (UDEs) provide flexible and popular frameworks for learning interpretable dynamical syst…",
-      "ts": 1786075200000,
-      "publishedAt": "2026-08-07T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
       "title": "Complexity and Stability of Neural Activity Across Aging and Neurodegenerative Disease",
       "url": "https://arxiv.org/abs/2608.05882",
       "summary": "arXiv:2608.05882v1 Announce Type: new Abstract: Objective: EEG signals fluctuate continuously even within a fixed cognitive state, but an important question is whether the brain still reuses similar activity patterns to …",
@@ -649,168 +811,6 @@
       "ts": 1786075200000,
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "FMT Shows Promise for Peanut Allergy Tolerance in Phase I Trial",
-      "url": "https://www.genengnews.com/topics/translational-medicine/fmt-shows-promise-for-peanut-allergy-tolerance-in-phase-i-trial/",
-      "summary": "A small Phase I trial found that fecal microbiome transplantation (FMT) increased peanut tolerance in some adults with a peanut allergy, while mouse studies suggested the effect may depend on bile acid metabolites. The p…",
-      "ts": 1786072797000,
-      "publishedAt": "2026-08-07T03:19:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Algae-Based Food Product Development Earns Gates Foundation Award",
-      "url": "https://www.genengnews.com/topics/bioprocessing/algae-based-food-product-development-earns-gates-foundation-award/",
-      "summary": "Mingyu Qiao, PhD’s recent work focused on DHA, critical to fetal and infant brain and eye development. The DHA will be produced in a microalgal strain isolated in Qiao’s lab. The post Algae-Based Food Product Development…",
-      "ts": 1786071917000,
-      "publishedAt": "2026-08-07T03:05:17.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Genetic Findings Provide Insights Into Leading Cause of Back Pain",
-      "url": "https://www.genengnews.com/topics/omics/genetic-findings-provide-insights-into-leading-cause-of-back-pain/",
-      "summary": "Research scientists previously discovered that a gene connected to a protein called collagen IX, which helps hold the disc's structural fibers together, has been repeatedly linked to early-onset disc problems. The post G…",
-      "ts": 1786056653000,
-      "publishedAt": "2026-08-06T22:50:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Engineered Human Interneuron Transplants Repair Respiratory Circuits in Injured Rats",
-      "url": "https://www.genengnews.com/topics/translational-medicine/engineered-human-interneuron-transplants-repair-respiratory-circuits-in-injured-rats/",
-      "summary": "Transplanted human interneurons, a type of nerve cell, formed working connections in the injured spinal cords of rats and improved breathing, supporting their potential as a possible treatment for spinal cord injuries in…",
-      "ts": 1786048867000,
-      "publishedAt": "2026-08-06T20:41:07.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Tau and Alzheimer’s Disease",
-      "url": "https://www.genengnews.com/resources/ebooks/tau-and-alzheimers-disease/",
-      "summary": "In this edition of the Nautilus Biotechnology “Proteomics and neuroscience” eBook, we’re excited to dive into tau biology, share what researchers are learning about tau and its role in Alzheimer’s disease using the Nauti…",
-      "ts": 1786047080000,
-      "publishedAt": "2026-08-06T20:11:20.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA approves Replimune melanoma drug previously rejected twice",
-      "url": "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial/?utm_campaign=rss",
-      "summary": "The FDA approved Replimune’s treatment for advanced melanoma, dealing the company and patient advocates a big win after a tumultuous saga.",
-      "ts": 1786046368000,
-      "publishedAt": "2026-08-06T19:59:28.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Educators & Teens Get Hands-On With TEMPO Data to Help Investigate Local Air Quality",
-      "url": "https://science.nasa.gov/learning-resources/science-activation/educators-teens-get-hands-on-with-tempo-data-to-help-investigate-local-air-quality/",
-      "summary": "The NASA Science Activation Program’s Cosmic Storytelling with NASA Data (CosmicDS) project, led by Harvard University in Cambridge, Massachusetts, works to bring authentic NASA data into the hands of educators and learn…",
-      "ts": 1786044812000,
-      "publishedAt": "2026-08-06T19:33:32.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Renewed Importance of CEX in Monoclonal-Antibody Purification",
-      "url": "https://www.genengnews.com/sponsored/renewed-importance-of-cex-in-monoclonal-antibody-purification/",
-      "summary": "Advanced chromatography resins and data-driven strategies are redefining monoclonal-antibody purification in modern biopharmaceutical manufacturing. The post Renewed Importance of CEX in Monoclonal-Antibody Purification …",
-      "ts": 1786043274000,
-      "publishedAt": "2026-08-06T19:07:54.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Medicare quietly gave blockbuster AbbVie drug seven extra years before price negotiations, advocacy group asserts",
-      "url": "https://www.statnews.com/pharmalot/2026/08/06/medicare-gave-blockbuster-abbvie-drug-seven-extra-years-before-price-negotiations/?utm_campaign=rss",
-      "summary": "A little-noticed government policy shift caused a seven-year delay in choosing a costly medicine for Medicare price negotiations, an advocacy group says.",
-      "ts": 1786042800000,
-      "publishedAt": "2026-08-06T19:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA’s SkyFall Helicopters at Work (Artist’s Concept)",
-      "url": "https://science.nasa.gov/photojournal/nasas-skyfall-helicopters-at-work-artists-concept/",
-      "summary": "Description This artist’s concept depicts NASA’s three SkyFall Mars helicopters collecting data while flying over the surface of the Red Planet. The green frequency waves emanating from the helicopters’ large antennas de…",
-      "ts": 1786039567000,
-      "publishedAt": "2026-08-06T18:06:07.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Antenna Testing for NASA’s SkyFall Mission",
-      "url": "https://science.nasa.gov/photojournal/antenna-testing-for-nasas-skyfall-mission/",
-      "summary": "Description SkyFall ground-penetrating radar engineer Maya Román connects a coaxial cable to a test antenna in the Environmental Test Lab’s electromagnetic interference testing chamber at NASA’s Jet Propulsion Laboratory…",
-      "ts": 1786038972000,
-      "publishedAt": "2026-08-06T17:56:12.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "I Am Artemis: Tom Percy",
-      "url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-tom-percy/",
-      "summary": "As NASA sets its sights on long-term exploration of the Moon and Mars, the agency is increasing the cadence of its Artemis missions. Helping bring these plans to fruition is Tom Percy, manager of systems engineering and …",
-      "ts": 1786034151000,
-      "publishedAt": "2026-08-06T16:35:51.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Tau Protein Linked to Mitochondrial Reverse Electron Transport in Preclinical Models",
-      "url": "https://www.genengnews.com/topics/translational-medicine/tau-protein-linked-to-mitochondrial-reverse-electron-transport-in-preclinical-models/",
-      "summary": "The results of a preclinical study demonstrated that phosphorylated tau enters mitochondria and initiates a vicious cycle of pathological events that trigger reverse electron transport. The post Tau Protein Linked to Mit…",
-      "ts": 1786031956000,
-      "publishedAt": "2026-08-06T15:59:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "How should Europe’s militaries respond to space threats",
-      "url": "https://spacenews.com/how-should-europes-militaries-respond-to-space-threats/",
-      "summary": "In this episode, SpaceNews’ Emma Gatti leads a panel of experts to discuss Europe’s defense posture and the reaction to space threats. This session was recorded in May at SpaceNews’ […] The post How should Europe’s milit…",
-      "ts": 1786030286000,
-      "publishedAt": "2026-08-06T15:31:26.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Taking Flight to Prepare for Space",
-      "url": "https://www.nasa.gov/image-article/taking-flight-to-prepare-for-space/",
-      "summary": "NASA astronaut Adam Fuhrmann (right, in yellow) prepares for a training flight aboard NASA’s WB-57 aircraft in this July 16, 2026, photo. These high-altitude flights train the crew to work in a tight environment and oper…",
-      "ts": 1786029337000,
-      "publishedAt": "2026-08-06T15:15:37.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Lessons for the future of NASA Mars exploration from a 1970s mission",
-      "url": "https://spacenews.com/lessons-for-the-future-of-nasa-mars-exploration-from-a-1970s-mission/",
-      "summary": "July 20 marked the 50th anniversary of one of the biggest robotic spaceflight achievements in NASA’s history: the landing of the Viking 1 spacecraft on Mars. It was the first […] The post Lessons for the future of NASA M…",
-      "ts": 1786028400000,
-      "publishedAt": "2026-08-06T15:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Study reveals new role for tau, a top target for Alzheimer’s drug development",
-      "url": "https://www.statnews.com/2026/08/06/research-finds-how-tau-targets-cells-structure-alzheimers-drug-development/?utm_campaign=rss",
-      "summary": "The protein tau is top target for Alzheimer’s drug development, and a new study bolsters those efforts by describing a previously unknown role that tau plays in neurodegeneration.",
-      "ts": 1786028400000,
-      "publishedAt": "2026-08-06T15:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "JOB OPPORTUNITIES: NASA OFFICE OF THE GENERAL COUNSEL",
-      "url": "https://www.nasa.gov/organizations/ogc/job-opportunities-nasa-office-of-the-general-counsel/",
-      "summary": "",
-      "ts": 1786027191000,
-      "publishedAt": "2026-08-06T14:39:51.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
