@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-08-11T11:45:15.289Z",
+  "updated": "2026-08-11T13:10:25.966Z",
   "items": [
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+      "summary": "The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source commu…",
+      "ts": 1786453225000,
+      "publishedAt": "2026-08-11T13:00:25.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "summary": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with N…",
+      "ts": 1786453205000,
+      "publishedAt": "2026-08-11T13:00:05.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Former Space Force general joins Lunar Outpost board",
+      "url": "https://spacenews.com/former-space-force-general-joins-lunar-outpost-board/",
+      "summary": "A retired Space Force general who served as deputy commander of U.S. Space Command is joining the board of lunar rover developer Lunar Outpost. The post Former Space Force general joins Lunar Outpost board appeared first…",
+      "ts": 1786453200000,
+      "publishedAt": "2026-08-11T13:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "How South Carolina Became the Southeast’s Fastest Growing Biotech Hub",
+      "url": "https://www.genengnews.com/sponsored/how-south-carolina-became-the-southeasts-fastest-growing-biotech-hub/",
+      "summary": "Sponsored content brought to you by South Carolina just landed a $1.5 billion investment and more than 1,200 jobs, as Octapharma Plasma relocates its U.S. headquarters from Charlotte to Rock Hill and […] The post How Sou…",
+      "ts": 1786452983000,
+      "publishedAt": "2026-08-11T12:56:23.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "The Future of Aging Research Is Longitudinal, Multiomic, and Single-Cell",
+      "url": "https://www.genengnews.com/sponsored/the-future-of-aging-research-is-longitudinal-multiomic-and-single-cell/",
+      "summary": "Research into the biological processes underpinning aging is essential for improving prevention strategies and developing treatments that support healthier aging. The post The Future of Aging Research Is Longitudinal, Mu…",
+      "ts": 1786452176000,
+      "publishedAt": "2026-08-11T12:42:56.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Greater Richmond’s Pharma Cluster Keeps Compounding",
+      "url": "https://www.genengnews.com/sponsored/greater-richmonds-pharma-cluster-keeps-compounding/",
+      "summary": "The steady run of investment since, from Lilly’s $5 billion plant to a 10,500-square-foot lab expansion in downtown Richmond, suggests the region intends to keep building on it. The post Greater Richmond’s Pharma Cluster…",
+      "ts": 1786451082000,
+      "publishedAt": "2026-08-11T12:24:42.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
+      "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups are chasing the next big thing in LLMs Nine years after Google rese…",
+      "ts": 1786450200000,
+      "publishedAt": "2026-08-11T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Why Golden Dome Demands a Reimagined and Revitalized Industrial Base",
+      "url": "https://spacenews.com/why-golden-dome-demands-a-reimagined-and-revitalized-industrial-base/",
+      "summary": "For most of its history, the United States has been largely insulated from foreign threats. Vast oceans made it an impractical destination for invading armies before the advent of modern […] The post Why Golden Dome Dema…",
+      "ts": 1786449768000,
+      "publishedAt": "2026-08-11T12:02:48.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Skylar Bio kicks off new gene therapy trial for deafness",
+      "url": "https://www.statnews.com/2026/08/11/skylark-bio-gjb2-otoferlin-gene-therapies-for-deafness/?utm_campaign=rss",
+      "summary": "Biotech startups in the U.S., France, and China are racing to bring new gene therapies for deafness by targeting different genetic mutations.",
+      "ts": 1786449600000,
+      "publishedAt": "2026-08-11T12:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "First Neutron launch may slip to 2027",
@@ -730,87 +811,6 @@
       "ts": 1786366800000,
       "publishedAt": "2026-08-10T13:00:00.000Z",
       "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "National security doesn’t need more maps or imagery; it needs measurement",
-      "url": "https://spacenews.com/national-security-doesnt-need-more-maps-or-imagery-it-needs-measurement/",
-      "summary": "A decade ago, a United States carrier strike group departing San Diego could cross the Pacific with only intermittent detection. China might catch a glimpse — a satellite pass here, […] The post National security doesn’t…",
-      "ts": 1786366800000,
-      "publishedAt": "2026-08-10T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Tank problem delays first RFA launch",
-      "url": "https://spacenews.com/tank-problem-delays-first-rfa-launch/",
-      "summary": "The majority owner of Rocket Factory Augsburg is still confident the company will conduct its first orbital launch attempt this year despite a setback in testing. The post Tank problem delays first RFA launch appeared fi…",
-      "ts": 1786364227000,
-      "publishedAt": "2026-08-10T12:17:07.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: AI agents for science, and the “censorship-industrial complex”",
-      "url": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI for science needs reasoning, not just data —Eric Schmidt, the former CEO of Goo…",
-      "ts": 1786363800000,
-      "publishedAt": "2026-08-10T12:10:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Sionna’s experimental cystic fibrosis pill falls flat in mid-stage trial",
-      "url": "https://www.statnews.com/2026/08/10/sionna-cystic-fibrosis-trial-failures-sion719-vertex-trikaft/?utm_campaign=rss",
-      "summary": "A pill from Sionna Therapeutics provided no added benefit when combined with Vertex's cystic fibrosis blockbuster Trikafta, a blow to the biotech.",
-      "ts": 1786363397000,
-      "publishedAt": "2026-08-10T12:03:17.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
-      "url": "https://openai.com/index/model-ml",
-      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-      "ts": 1786363200000,
-      "publishedAt": "2026-08-10T12:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite",
-      "url": "https://spacenews.com/astrolight-atmos-space-cargo-eye-first-in-flight-laser-link-between-reentry-vehicle-satellite/",
-      "summary": "WARSAW, Poland — The Lithuanian space laser communications company Astrolight has signed a memorandum of understanding with ATMOS Space Cargo, to demonstrate in-flight optical communications link between a reentry spacec…",
-      "ts": 1786363200000,
-      "publishedAt": "2026-08-10T12:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Fighting deepens needs and fuels further displacement in Sudan",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168109",
-      "summary": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian prote…",
-      "ts": 1786363200000,
-      "publishedAt": "2026-08-10T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Lebanon: UN peacekeepers count hundreds of Israeli strikes and incursions in a single weekend",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168108",
-      "summary": "Israeli forces fired 455 projectiles into south Lebanon and breached Lebanese airspace 97 times between Friday and Sunday, the UN's peacekeeping mission in the country reported Monday – among the heaviest fire seen in mo…",
-      "ts": 1786363200000,
-      "publishedAt": "2026-08-10T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "UN offers support to Colombia after magnitude 7.4 earthquake kills dozens",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168106",
-      "summary": "The UN offered its support to Colombia on Monday after a magnitude 7.4 earthquake struck the west of the country, killing at least 111 people and injuring at least 87, including several children, while leaving others tra…",
-      "ts": 1786363200000,
-      "publishedAt": "2026-08-10T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

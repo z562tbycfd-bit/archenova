@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-11T11:45:12.815Z",
+  "updated": "2026-08-11T13:10:20.789Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A smarter way to track satellites beyond Earth's orbit",
+      "url": "https://phys.org/news/2026-08-smarter-track-satellites-earth-orbit.html",
+      "summary": "Most current space activities operate close to Earth in what is called near–Earth orbit. However, as more satellites and other infrastructure begin to extend beyond that region, maintaining situational awareness of those…",
+      "ts": 1786453205000,
+      "publishedAt": "2026-08-11T13:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Color-sensing yeast could make biofactories more programmable and precise",
+      "url": "https://phys.org/news/2026-08-yeast-biofactories-programmable-precise.html",
+      "summary": "Baker's yeast is one of biotechnology's most important microorganisms. It has long been used to leaven bread and ferment beer. More recently, advances in synthetic biology have enabled engineered yeast to convert sugar i…",
+      "ts": 1786453203000,
+      "publishedAt": "2026-08-11T13:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Want a happier marriage? Study suggests one simple habit",
+      "url": "https://phys.org/news/2026-08-happier-marriage-simple-habit.html",
+      "summary": "Research has long shown that exercise benefits both physical and mental health. Now, a new study from researchers at BYU suggests that it may also strengthen marriages, especially when couples exercise together.",
+      "ts": 1786452002000,
+      "publishedAt": "2026-08-11T12:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australia's plastic exports may deepen health risks in Indonesian communities",
+      "url": "https://phys.org/news/2026-08-australia-plastic-exports-deepen-health.html",
+      "summary": "A new commentary in BMJ Global Health, co-authored by the George Institute, reveals that Australia exported 22,333 metric tons of plastic waste to Indonesia in 2023–24 alone, part of a wider crisis that has seen the coun…",
+      "ts": 1786450801000,
+      "publishedAt": "2026-08-11T12:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "How barramundi research gives breeders more control",
+      "url": "https://phys.org/news/2026-08-barramundi-breeders.html",
+      "summary": "Barramundi farmers will soon be able to improve stock genetics by placing more emphasis on the sex of their breeding fish. University of Queensland Ph.D. candidate Jessica Hintzsche has produced the most detailed genetic…",
+      "ts": 1786449605000,
+      "publishedAt": "2026-08-11T12:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Historical DNA reveals largetooth sawfish have lost much of their genetic diversity",
+      "url": "https://phys.org/news/2026-08-historical-dna-reveals-largetooth-sawfish.html",
+      "summary": "The genetic diversity of the largetooth sawfish (Pristis pristis), a critically endangered ray, has plummeted over the past century and a half, according to a study published in the Proceedings of the Royal Society B: Bi…",
+      "ts": 1786449604000,
+      "publishedAt": "2026-08-11T12:00:04.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Large-scale study finds no link between crime and unauthorized immigration",
@@ -751,54 +799,6 @@
       "title": "Optimization studies of silicon remoTES cryogenic calorimeters",
       "url": "https://arxiv.org/abs/2608.09544",
       "summary": "arXiv:2608.09544v1 Announce Type: new Abstract: The remoTES design, developed within the COSINUS experiment, enables a broader range of materials to be operated as cryogenic calorimeters read out with Transition Edge Sen…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Direct Laser Interference Patterning of Functional Metal Surfaces: From Written Geometry to Functional Interfaces",
-      "url": "https://arxiv.org/abs/2608.09545",
-      "summary": "arXiv:2608.09545v1 Announce Type: new Abstract: Direct laser interference patterning (DLIP) generates periodic micro- and nanoscale structures with increasing precision and throughput, yet similar geometries can produce …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Resonant photoionization dynamics during optical trapping of lithium atoms",
-      "url": "https://arxiv.org/abs/2608.09549",
-      "summary": "arXiv:2608.09549v1 Announce Type: new Abstract: Photoionization induced by trapping and auxiliary laser fields is an inherent feature of many laser-cooling and optical trapping experiments, yet its microscopic dynamics a…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exact solution for the motion of a rigid particle with $\\boldsymbol{S_4}$ and $\\boldsymbol{C_{2v}}$ symmetry settling under gravity in a viscous fluid",
-      "url": "https://arxiv.org/abs/2608.09585",
-      "summary": "arXiv:2608.09585v1 Announce Type: new Abstract: We provide an exact and complete solution for the dynamics of a rigid particle of uniform density with $C_{2v}$ and $S_4$ symmetry, settling under gravity in a viscous flui…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Memory-Generated Transport Geometry: Curvature, Holonomy, and Irreversibility",
-      "url": "https://arxiv.org/abs/2608.09607",
-      "summary": "arXiv:2608.09607v1 Announce Type: new Abstract: Memory is traditionally incorporated into transport theory as a constitutive correction acting on an already prescribed kinematic structure. Here we develop a different fra…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "In-situ integrated nonlocal Huygens metasurfaces enable robust vortex beams from multimode fibers",
-      "url": "https://arxiv.org/abs/2608.09609",
-      "summary": "arXiv:2608.09609v1 Announce Type: new Abstract: A fundamental hurdle for multimode fiber (MMF) integrated photonics is achieving robust and deterministic wavefront shaping against fiber perturbation, which induces random…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Scalable laser micro- and nanostructuring of mould inserts for functional injection-moulded polymer surfaces",
-      "url": "https://arxiv.org/abs/2608.09618",
-      "summary": "arXiv:2608.09618v1 Announce Type: new Abstract: Functional polymer surfaces with tailored wettability, antibacterial and adhesion properties are increasingly required in medical, packaging and consumer applications. Lase…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z"
     }
