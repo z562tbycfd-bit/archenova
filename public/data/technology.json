@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-11T17:58:50.220Z",
+  "updated": "2026-08-11T19:13:58.712Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Human iPSC-Derived Heart Assembloids Reproduce Valve Development and Disease",
+      "url": "https://www.genengnews.com/topics/translational-medicine/human-ipsc-derived-heart-assembloids-reproduce-valve-development-and-disease/",
+      "summary": "Different types of organoids grown from pluripotent, adult human stem cells can be combined into \"assembloids\" to better model complex organs that natively originate from combinations of different tissues. The post Human…",
+      "ts": 1786474822000,
+      "publishedAt": "2026-08-11T19:00:22.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Golden Dome money starting to reach contractors, but long-term funding still unclear",
+      "url": "https://spacenews.com/golden-dome-money-starting-to-reach-contractors-but-long-term-funding-still-unclear/",
+      "summary": "Pentagon contractors are beginning to book Golden Dome related work, but much of it is flowing through established programs The post Golden Dome money starting to reach contractors, but long-term funding still unclear ap…",
+      "ts": 1786471200000,
+      "publishedAt": "2026-08-11T18:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "How the “censorship-industrial complex” is changing the Internet and US policy",
+      "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
+      "summary": "I first heard the term “censorship-industrial complex” on April 15, 2025. That’s when I got the tip that a small office in the U.S. State Department, which focused on monitoring and countering foreign disinformation from…",
+      "ts": 1786471137000,
+      "publishedAt": "2026-08-11T17:58:57.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "NASA",
       "title": "Lion Nebula Roars in Webb’s Sights",
@@ -781,33 +808,6 @@
       "title": "TRAPS: Treatment-Assignment Prediction via Pathway-informed Stratification",
       "url": "https://arxiv.org/abs/2606.09898",
       "summary": "arXiv:2606.09898v2 Announce Type: replace-cross Abstract: Cancer treatment involves decisions across multiple clinical outcomes, yet pathway-informed deep learning models are typically evaluated in isolation, making thei…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evolutionary Curriculum Learning Improves Biological Sequence Modeling",
-      "url": "https://arxiv.org/abs/2608.00697",
-      "summary": "arXiv:2608.00697v2 Announce Type: replace-cross Abstract: Variational autoencoders (VAEs) trained on multiple sequence alignments (MSAs) have emerged as powerful generative models for biological sequences, with applicati…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Experimental access to molarity's blind spot in macroscopic assays",
-      "url": "https://arxiv.org/abs/2608.02864",
-      "summary": "arXiv:2608.02864v2 Announce Type: replace-cross Abstract: Chemical kinetics has long inferred local molecular behaviour through the flask-and-molarity pairing, where well-mixed concentrations serve as the experimental re…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A concentration-independent paradigm rendering weak interactions inherently quantifiable",
-      "url": "https://arxiv.org/abs/2608.02865",
-      "summary": "arXiv:2608.02865v2 Announce Type: replace-cross Abstract: A vast class of weak, millimolar-affinity molecular interactions governs cellular function, yet their quantitative characterization has remained largely beyond co…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z",
       "categoryId": "bio"

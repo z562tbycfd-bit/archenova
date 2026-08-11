@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-11T17:58:44.914Z",
+  "updated": "2026-08-11T19:13:56.397Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Under-the-radar creeks could be sweeping carbon out of salt marshes",
+      "url": "https://phys.org/news/2026-08-radar-creeks-carbon-salt-marshes.html",
+      "summary": "Salt marshes are coastal wetlands that are alternately inundated and exposed by tides. These marshes, like other coastal ecosystems, are hotspots of carbon cycling.",
+      "ts": 1786474805000,
+      "publishedAt": "2026-08-11T19:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sexual role identities among gay and bisexual men vary by age and region",
+      "url": "https://phys.org/news/2026-08-sexual-role-identities-gay-bisexual.html",
+      "summary": "A new study has found that sexual role identities among men who have sex with men vary systematically by age and geographic region.",
+      "ts": 1786474801000,
+      "publishedAt": "2026-08-11T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Star cluster discovery could change how scientists measure the universe",
+      "url": "https://phys.org/news/2026-08-star-cluster-discovery-scientists-universe.html",
+      "summary": "University of Missouri researchers have uncovered evidence that challenges one of astronomy's most trusted assumptions, a breakthrough that could reshape how scientists measure galaxies and reconstruct the history of the…",
+      "ts": 1786473607000,
+      "publishedAt": "2026-08-11T18:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "This pizza delivery study may change the way sellers view delivery services well beyond the foodservice industry",
+      "url": "https://phys.org/news/2026-08-pizza-delivery-sellers-view-foodservice.html",
+      "summary": "What can a pizza shop teach us about the dramatic shifts taking place in consumer marketing? Quite a lot, actually. New research focused on pizza delivery has found that consumer impatience is driving so much consumer de…",
+      "ts": 1786473602000,
+      "publishedAt": "2026-08-11T18:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "For your health—tips for a healthy and happy back-to-school—for kids and parents",
+      "url": "https://phys.org/news/2026-08-health-healthy-happy-school-kids.html",
+      "summary": "It can be a little hard to believe it's back-to-school season already. And while there are still some long, relaxed days of summer ahead, it's also the time when families begin to plan for the coming school year. School …",
+      "ts": 1786472402000,
+      "publishedAt": "2026-08-11T18:20:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientists uncover a hidden mechanism that drives RNA synthesis",
+      "url": "https://phys.org/news/2026-08-scientists-uncover-hidden-mechanism-rna.html",
+      "summary": "Scientists have long been fascinated by two promising classes of antibiotics that disable RNA polymerase (RNAP). They knew that these drugs could grind gene expression to a halt in several pathogens, including the bacter…",
+      "ts": 1786472401000,
+      "publishedAt": "2026-08-11T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Biocultural families: Study centers Indigenous priorities in connections to environment",
+      "url": "https://phys.org/news/2026-08-biocultural-families-centers-indigenous-priorities.html",
+      "summary": "Washington State University horticulturist Jeffrey Wall partnered with members of the Mi'kmaq First Nations people of Canada to create a new, Indigenous-centered model of the connections that link humans with plants, ani…",
+      "ts": 1786471207000,
+      "publishedAt": "2026-08-11T18:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "DNA origami nanosyringe actively transports molecules into synthetic cells",
+      "url": "https://phys.org/news/2026-08-dna-origami-nanosyringe-molecules-synthetic.html",
+      "summary": "Transporting molecules across biological membranes is essential for life. In nature, this can occur through passive transport, known as diffusion. \"Biological systems often use mechanical motion to accomplish tasks that …",
+      "ts": 1786471201000,
+      "publishedAt": "2026-08-11T18:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "X-rays: Beyond the Nobel Prize limit",
@@ -735,70 +799,6 @@
       "title": "Critical damping in linear system with two degrees of freedom: surprises and pitfalls",
       "url": "https://arxiv.org/abs/2608.08656",
       "summary": "arXiv:2608.08656v1 Announce Type: new Abstract: In this Brief Communication, we establish the notion of critical damping for generic two-degree-of-freedom system. For given set of masses and stiffnesses, the critical dam…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deformation dynamics of Oldroyd B drop in alternating electric field",
-      "url": "https://arxiv.org/abs/2608.08699",
-      "summary": "arXiv:2608.08699v1 Announce Type: new Abstract: The deformation of viscoelastic drops in alternating electric fields is relevant to electrohydrodynamic applications such as microfluidics, inkjet printing, and drop manipu…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analytical Nuclear Gradients and Hessians on Quantum Hardware via Orbital-Optimized VQE with Error Mitigation",
-      "url": "https://arxiv.org/abs/2608.08758",
-      "summary": "arXiv:2608.08758v1 Announce Type: new Abstract: Nuclear gradients and Hessians are fundamental quantities in computational chemistry, essential for a wide range of applications including geometry optimization, vibrationa…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Turbulence anisotropy in a bubbly vertical channel flow with topological change",
-      "url": "https://arxiv.org/abs/2608.08763",
-      "summary": "arXiv:2608.08763v1 Announce Type: new Abstract: High-fidelity numerical simulations of bubble-laden, vertical channel flow in the upward configuration, where the bubbles undergo topological changes (breakup and coalescen…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Self-consistent double-hybrid density functional theory via one-body second-order M{\\o}ller-Plesset perturbation theory and projection-based embedding",
-      "url": "https://arxiv.org/abs/2608.08784",
-      "summary": "arXiv:2608.08784v1 Announce Type: new Abstract: We present the development of self-consistent one-body double-hybrid (OBDH) density functional theory (DFT). In this approach, the one-body second-order M{\\o}ller-Plesset (…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physical limits to concentration and gradient sensing by perfect monitors",
-      "url": "https://arxiv.org/abs/2608.08816",
-      "summary": "arXiv:2608.08816v1 Announce Type: new Abstract: Cells often estimate chemical concentrations from only a few diffusing molecules, whose stochastic motion limits sensing precision. We consider a perfect monitoring instrum…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Towards an LLM-based method for quantifying the sexual content in song lyrics",
-      "url": "https://arxiv.org/abs/2608.08885",
-      "summary": "arXiv:2608.08885v1 Announce Type: new Abstract: Reggaeton is one of the most widely consumed music genres in the world, and its lyrics are commonly regarded as highly sexualized. This claim rests mostly on qualitative st…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonresonant optomechanical control of structural phases",
-      "url": "https://arxiv.org/abs/2608.08899",
-      "summary": "arXiv:2608.08899v1 Announce Type: new Abstract: Optical tweezers demonstrate how light can exert forces to trap, repel, and manipulate microscopic particles without absorption. Recent theory has suggested that such force…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Energy-optimized scaling laws for self-guided laser wakefield accelerators",
-      "url": "https://arxiv.org/abs/2608.08903",
-      "summary": "arXiv:2608.08903v1 Announce Type: new Abstract: Laser wakefield acceleration promises compact electron accelerators for applications in medicine, industry, and fundamental science. Yet, despite rapid progress, accurately…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z"
     }
