@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-10T23:37:02.337Z",
+  "updated": "2026-08-11T01:53:34.248Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Ancient Maltese seafarers likely navigated by the stars",
+      "url": "https://phys.org/news/2026-08-ancient-maltese-seafarers-stars.html",
+      "summary": "Malta might be the last place one would expect a convergence of archeoastronomy and early cosmology. Today, it's better known as a billionaire tax haven and a favorite production location for big-budget Hollywood movies.",
+      "ts": 1786407601000,
+      "publishedAt": "2026-08-11T00:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microplastics may transport hazardous plastic additives through marine environments",
+      "url": "https://phys.org/news/2026-08-microplastics-hazardous-plastic-additives-marine.html",
+      "summary": "Plastic pollution is not only a marine litter issue; it is also closely linked to resource circulation and chemical management. Plastic products contain a wide range of additives, including antioxidants, plasticizers, ul…",
+      "ts": 1786406401000,
+      "publishedAt": "2026-08-11T00:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Scientific advancement has never been more prolific—so why has trust in science plummeted?",
+      "url": "https://phys.org/news/2026-08-scientific-advancement-prolific-science-plummeted.html",
+      "summary": "From genome editing to quantum computing, scientific progress is accelerating at an unprecedented pace, yet public faith in science is collapsing. Our species has mapped the human genome, created powerful computers that …",
+      "ts": 1786405203000,
+      "publishedAt": "2026-08-10T23:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Machine learning predicts forest soil fungal diversity from drone images",
+      "url": "https://phys.org/news/2026-08-machine-forest-soil-fungal-diversity.html",
+      "summary": "Combining drone data and machine learning can help cover more ground in monitoring forest soil health, University of Alberta research shows. The findings are published in the journal Forest Ecology and Management. Using …",
+      "ts": 1786405202000,
+      "publishedAt": "2026-08-10T23:40:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Traditional plastic forks shed harmful microplastics. Plastic created from sugar is an alternative",
@@ -767,38 +799,6 @@
       "title": "A 28-GHz Varactor-Based RIS With Continuous Phase Control: From Unit-Cell Modeling to Programmable Wavefront Control and Synthesis",
       "url": "https://arxiv.org/abs/2608.06541",
       "summary": "arXiv:2608.06541v1 Announce Type: new Abstract: This paper presents a 28 GHz varactor-based reconfigurable intelligent surface (RIS) platform with continuous phase control and establishes a unified device-to-system valid…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonisothermal Shock Structure and Universal Flow-Index Thresholds in a Hyperbolic Power-Law Fluid",
-      "url": "https://arxiv.org/abs/2608.06547",
-      "summary": "arXiv:2608.06547v1 Announce Type: new Abstract: We investigate whether the two flow-index thresholds previously found for isothermal shock profiles persist when the full nonisothermal dynamics is taken into account in a …",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Effect of Chordwise Flexibility Distribution on Wave-Assisted Flapping Foil Performance",
-      "url": "https://arxiv.org/abs/2608.06561",
-      "summary": "arXiv:2608.06561v1 Announce Type: new Abstract: This study investigates the influence of the spatial distribution of flexibility along a propulsor on thrust generation and propulsive efficiency in wave-assisted flapping …",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Grape expectations: direct thermographic imaging of electric fields in microwave Mie resonators",
-      "url": "https://arxiv.org/abs/2608.06603",
-      "summary": "arXiv:2608.06603v1 Announce Type: new Abstract: Internal electromagnetic fields determine the behaviour of dielectric nano-resonators, yet they remain exceptionally difficult to measure directly because subwavelength sca…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Symplectic Theory of Turbulence Closure: Hidden Reservoir Dynamics, Endogenous Stochastic Transport, and Kraichnan Dual Cascades",
-      "url": "https://arxiv.org/abs/2608.06606",
-      "summary": "arXiv:2608.06606v1 Announce Type: new Abstract: Subgrid-scale parameterization of 2D turbulence must preserve the geometry enabling the dual cascade. Classical and data-driven closures often lack the symmetries required …",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }
