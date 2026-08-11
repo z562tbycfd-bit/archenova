@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-11T01:53:36.824Z",
+  "updated": "2026-08-11T03:47:03.154Z",
   "items": [
     {
       "source": "Genetic Engineering News",
@@ -591,7 +591,7 @@
       "source": "arXiv q-bio",
       "title": "A Physics-Inspired Classical Digital Twin of Cortical Dynamics: A Band-Stratified Metriplectic Port-Hamiltonian Neural Network Learned from Brain-Computer-Interface EEG",
       "url": "https://arxiv.org/abs/2607.10439",
-      "summary": "arXiv:2607.10439v3 Announce Type: replace Abstract: We present a physics-inspired classical digital twin of brain-computer- interface (BCI) data: a graph neural network constrained to a band-stratified, metriplectic port…",
+      "summary": "arXiv:2607.10439v4 Announce Type: replace Abstract: We present a physics-inspired classical digital twin of brain-computer- interface (BCI) data: a graph neural network constrained to a band-stratified, metriplectic port…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z",
       "categoryId": "bio"

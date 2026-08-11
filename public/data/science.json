@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-11T01:53:34.248Z",
+  "updated": "2026-08-11T03:47:01.080Z",
   "items": [
     {
       "source": "Phys.org",
@@ -17,6 +17,22 @@
       "summary": "Plastic pollution is not only a marine litter issue; it is also closely linked to resource circulation and chemical management. Plastic products contain a wide range of additives, including antioxidants, plasticizers, ul…",
       "ts": 1786406401000,
       "publishedAt": "2026-08-11T00:00:01.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Healing intervention for improving the efficiency and stability of tandem devices on industrial textured silicon",
+      "url": "https://www.nature.com/articles/s41467-026-76713-y",
+      "summary": "",
+      "ts": 1786406400000,
+      "publishedAt": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "source": "Nature Communications",
+      "title": "Heart rate control by listening to light",
+      "url": "https://www.nature.com/articles/s41467-026-76695-x",
+      "summary": "",
+      "ts": 1786406400000,
+      "publishedAt": "2026-08-11T00:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -636,6 +652,14 @@
     },
     {
       "source": "APS PR Applied",
+      "title": "Enhancing angular sensitivity of segmented antineutrino detectors for reactor monitoring",
+      "url": "http://link.aps.org/doi/10.1103/jrmk-r81s",
+      "summary": "Author(s): Brian C. Crow, Max A. A. Dornfest, John G. Learned, Jackson D. Seligman, Nathan S. Sibert, Jeffrey G. Yepez, and Viacheslav A. Li We present a potential improvement over the standard method developed to determ…",
+      "ts": 1786356000000,
+      "publishedAt": "2026-08-10T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
       "title": "Leveraging the critical mode of flexural vibration for enhanced performance of nanomechanical systems",
       "url": "http://link.aps.org/doi/10.1103/mqjl-lyjt",
       "summary": "Author(s): Jay Krishna Anand, Durgesh Banswar, Sonika Singh, and Ankur Goswami Nanomechanical resonators have demonstrated significant potential in sensing technologies due to their exceptional responsiveness to external…",
@@ -775,30 +799,6 @@
       "title": "Gamma Neutron Radioactive Source Identification in Water Cherenkov Detectors",
       "url": "https://arxiv.org/abs/2608.06518",
       "summary": "arXiv:2608.06518v1 Announce Type: new Abstract: Water Cherenkov Detectors (WCDs) are a robust technology widely used in astrophysics, high energy physics, and recently nuclear security applications. They detect high ener…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Density-Functional Excited-State Gradients and Nonadiabatic Couplings on a Consumer GPU from a Contraction-DAG",
-      "url": "https://arxiv.org/abs/2608.06536",
-      "summary": "arXiv:2608.06536v1 Announce Type: new Abstract: Nonadiabatic dynamics needs an excited-state gradient and an interstate nonadiabatic coupling matrix element (NACME) at every nuclear geometry, and a double-hybrid function…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Emergence of chaos and fractality in the basin boundary of subcritical shear flow",
-      "url": "https://arxiv.org/abs/2608.06537",
-      "summary": "arXiv:2608.06537v1 Announce Type: new Abstract: From a dynamical systems perspective of subcritical transition in shear flows, the basin boundary separating the laminar and turbulent attractors, along with the edge state…",
-      "ts": 1786334400000,
-      "publishedAt": "2026-08-10T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A 28-GHz Varactor-Based RIS With Continuous Phase Control: From Unit-Cell Modeling to Programmable Wavefront Control and Synthesis",
-      "url": "https://arxiv.org/abs/2608.06541",
-      "summary": "arXiv:2608.06541v1 Announce Type: new Abstract: This paper presents a 28 GHz varactor-based reconfigurable intelligent surface (RIS) platform with continuous phase control and establishes a unified device-to-system valid…",
       "ts": 1786334400000,
       "publishedAt": "2026-08-10T04:00:00.000Z"
     }
