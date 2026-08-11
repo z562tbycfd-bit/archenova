@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-08-11T20:48:15.641Z",
+  "updated": "2026-08-11T21:51:00.060Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "X-ray analysis reveals the inner life of leaves while advancing engineering efforts to reduce 'crop sweat'",
+      "url": "https://phys.org/news/2026-08-ray-analysis-reveals-life-advancing.html",
+      "summary": "In the Midwestern summer, humans and plants have to breathe through the heat and humidity. Researchers hope that a retooled crop plant—one with an improved ventilation system within its leaves—could thrive while avoiding…",
+      "ts": 1786485001000,
+      "publishedAt": "2026-08-11T21:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New CERN measurement challenges conventional models of how gluons behave inside atomic nuclei",
+      "url": "https://phys.org/news/2026-08-cern-conventional-gluons-atomic-nuclei.html",
+      "summary": "A University of Kansas physicist played a leading role in a CERN study showing that two rival explanations for how gluons behave inside atomic nuclei can now be experimentally distinguished.",
+      "ts": 1786484404000,
+      "publishedAt": "2026-08-11T21:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "As New World screwworm returns to the US, a new dashboard tracks the risk",
+      "url": "https://phys.org/news/2026-08-world-screwworm-dashboard-tracks.html",
+      "summary": "In the 1950s, the New World screwworm cost U.S. livestock producers tens of millions of dollars a year, reaching $50 million to $100 million annually in the hardest-hit Southwest, before it was eradicated from the United…",
+      "ts": 1786484401000,
+      "publishedAt": "2026-08-11T21:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Himalayan grain demonstrates the potential of pangenome-guided breeding for higher yields and adaptability",
+      "url": "https://phys.org/news/2026-08-himalayan-grain-potential-pangenome-higher.html",
+      "summary": "Scientists from the Centre for Crop and Food Innovation (CCFI) at Murdoch University have participated in a landmark proof-of-concept research project demonstrating how pangenome-guided breeding strategies can reunite tw…",
+      "ts": 1786483801000,
+      "publishedAt": "2026-08-11T21:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Reading daily ocean temperatures from red algae",
+      "url": "https://phys.org/news/2026-08-daily-ocean-temperatures-red-algae.html",
+      "summary": "Understanding how marine ecosystems respond to a warming ocean requires detailed records of past temperatures. An international research team led by Johannes Gutenberg University Mainz (JGU) and the Max Planck Institute …",
+      "ts": 1786483204000,
+      "publishedAt": "2026-08-11T21:20:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Marine heat waves pose hidden threat to human health, researchers warn",
+      "url": "https://phys.org/news/2026-08-marine-pose-hidden-threat-human.html",
+      "summary": "The devastating impacts of marine heat waves extend far beyond dying coral reefs and declining fisheries, with new research warning that these extreme ocean-warming events pose a growing threat to human physical and ment…",
+      "ts": 1786483203000,
+      "publishedAt": "2026-08-11T21:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Malaysian farmers, environmental groups call for rejection of GMO rice trial",
+      "url": "https://phys.org/news/2026-08-malaysian-farmers-environmental-groups-gmo.html",
+      "summary": "A coalition of farmers, consumer associations and environmental groups is urging Malaysia's National Biosafety Board to reject a proposed field trial of genetically modified rice, warning Tuesday the project could pose r…",
+      "ts": 1786482008000,
+      "publishedAt": "2026-08-11T21:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fungal chitin offers new route to tougher hydrogels for medical devices and soft robots",
+      "url": "https://phys.org/news/2026-08-fungal-chitin-route-tougher-hydrogels.html",
+      "summary": "Researchers at the Department of Energy's (DOE) Oak Ridge National Laboratory (ORNL) and the University of Tennessee (UT), Knoxville, have made an advance by using a natural substance from fungi called chitin to create h…",
+      "ts": 1786482005000,
+      "publishedAt": "2026-08-11T21:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Consistency-based rewards could build lasting cooperation better than punishing free-riders",
+      "url": "https://phys.org/news/2026-08-based-rewards-cooperation-free-riders.html",
+      "summary": "A vaccine only protects a whole community if enough people get it, including those who would stay safe anyway once their neighbors are covered. The same tension runs through climate action and social movements: The share…",
+      "ts": 1786482003000,
+      "publishedAt": "2026-08-11T21:00:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Three energy-loss routes may explain Tarantula Nebula's X-ray shortfall",
+      "url": "https://phys.org/news/2026-08-energy-loss-routes-tarantula-nebula.html",
+      "summary": "Like a collage made of layered sheets of colored cellophane, a vibrant new image layers observations of a famous star-forming nebula from NASA's space telescopes. The resulting cosmic \"craft\" reveals new details about th…",
+      "ts": 1786481401000,
+      "publishedAt": "2026-08-11T20:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Researchers create early warning system to monitor housing evictions",
@@ -467,6 +547,14 @@
       "publishedAt": "2026-08-11T10:00:01.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Linear optical <span class=\"sc\">fan</span>-<span class=\"sc\">out</span> gates using fewer ancillary single photons with enhanced success probability",
+      "url": "http://link.aps.org/doi/10.1103/cs4d-lpfj",
+      "summary": "Author(s): Wen-Qiang Liu and Hai-Rui Wei Photonic quantum gates are fundamental building blocks for a wide range of optical quantum information processing tasks. We propose an efficient linear-optical scheme for implemen…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Gaussian Time-Translation Covariant Operations: Structure, Implementation, and Thermodynamics",
       "url": "http://link.aps.org/doi/10.1103/9kmm-52nx",
@@ -620,14 +708,6 @@
     },
     {
       "source": "APS PR Applied",
-      "title": "Linear optical <span class=\"sc\">fan</span>-<span class=\"sc\">out</span> gates using fewer ancillary single photons with enhanced success probability",
-      "url": "http://link.aps.org/doi/10.1103/cs4d-lpfj",
-      "summary": "Author(s): Wen-Qiang Liu and Hai-Rui Wei Photonic quantum gates are fundamental building blocks for a wide range of optical quantum information processing tasks. We propose an efficient linear-optical scheme for implemen…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
       "title": "Dynamic imaging of periodic structures using extreme-ultraviolet scatterometry",
       "url": "http://link.aps.org/doi/10.1103/py1n-pg79",
       "summary": "Author(s): Brendan McBennett, Michael Tanksalvala, Emma E. Nelson, Theodore H. Culman, Yunhao Li, Jiayi Liu, Ethan Berk, Albert Beardo, James Harford, Justin M. Shaw, Henry C. Kapteyn, Margaret M. Murnane, and Joshua L. …",
@@ -719,86 +799,6 @@
       "title": "Vendor-Agnostic Joint Relaxometry and Myelin Water Fraction Mapping with B1 and Motion Correction",
       "url": "https://arxiv.org/abs/2608.07687",
       "summary": "arXiv:2608.07687v1 Announce Type: new Abstract: Obtaining consistent quantitative maps of myelin content and relaxation times across different sites and vendors is essential for advancing our understanding of brain devel…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "PASCHEN-1D: A one-dimensional fluid plasma solver with multi-mechanism surface emission and flexible external circuit coupling",
-      "url": "https://arxiv.org/abs/2608.07721",
-      "summary": "arXiv:2608.07721v1 Announce Type: new Abstract: We present PASCHEN-1D (Plasma Advanced Solver with Coupled High-fidelity Emission and external Network), a one-dimensional time-dependent fluid plasma solver developed for …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Models of Wildland Fire and Ember Spread",
-      "url": "https://arxiv.org/abs/2608.07761",
-      "summary": "arXiv:2608.07761v1 Announce Type: new Abstract: In this Chapter we explore the nature and theory of ember transport using observations from controlled laboratory settings, prescribed fire, and wildland fire. Specific exa…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Set-up and Characterisation of Atmospheric Boundary Layers in the 10'x5' Wind Tunnel",
-      "url": "https://arxiv.org/abs/2608.07764",
-      "summary": "arXiv:2608.07764v1 Announce Type: new Abstract: The Atmospheric Boundary Layer (ABL) plays a critical role in influencing objects exposed to atmospheric conditions, making its study crucial. Due to the high cost of real-…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nuclear mechanics controls the temporal dynamics of cell unjamming",
-      "url": "https://arxiv.org/abs/2608.07777",
-      "summary": "arXiv:2608.07777v1 Announce Type: new Abstract: Cell unjamming in dense tissues is a complex but essential process in embryogenesis and cancer metastasis. Increasing evidence suggests that nuclear mechanics and density e…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Design of a Compact Monolithic Catadioptric Lens for CubeSat Hyperspectral Imaging Payloads",
-      "url": "https://arxiv.org/abs/2608.07784",
-      "summary": "arXiv:2608.07784v1 Announce Type: new Abstract: Monolithic catadioptric lenses have emerged as a novel class of compact long-focal-length lenses. Fabricated from a single fused silica substrate with distinct optical pres…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Probing $P,T$-Symmetry Violation with Optically Trapped Asymmetric Top Molecules",
-      "url": "https://arxiv.org/abs/2608.07811",
-      "summary": "arXiv:2608.07811v1 Announce Type: new Abstract: Searches for $P,T$-violating electromagnetic moments are among the most sensitive probes of physics beyond the Standard Model. Extending beyond current limits will benefit …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Performance of an HRPPD in Tesla-scale magnetic fields",
-      "url": "https://arxiv.org/abs/2608.07858",
-      "summary": "arXiv:2608.07858v1 Announce Type: new Abstract: High-Rate Picosecond Photodetectors (HRPPDs) are state-of-the-art microchannel-plate (MCP) photodetectors that offer excellent timing and spatial resolution, together with …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Sub-Rayleigh Imaging of Unequal-Intensity Sources: Near-Quantum-Limit Multiparameter Estimation",
-      "url": "https://arxiv.org/abs/2608.07868",
-      "summary": "arXiv:2608.07868v1 Announce Type: new Abstract: In optical imaging, diffraction strongly degrades the performance of conventional intensity-based estimation once the separation between two sources is below the Rayleigh-A…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Adaptive higher-order contagion of harmful information with platform-induced group dissolution and individual rewiring",
-      "url": "https://arxiv.org/abs/2608.07874",
-      "summary": "arXiv:2608.07874v1 Announce Type: new Abstract: Curbing harmful information contagion remains a critical challenge, motivating platform-level interventions such as group dissolution to sever transmission chains. However,…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Splashing velocity of a viscous liquid squeezed between two parallel disks",
-      "url": "https://arxiv.org/abs/2608.07960",
-      "summary": "arXiv:2608.07960v1 Announce Type: new Abstract: Squeezing of a liquid film between two approaching solid surfaces can generate a high-speed peripheral splash. Despite extensive studies on squeeze-film hydrodynamics, quan…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z"
     }
