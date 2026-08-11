@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-11T13:10:25.966Z",
+  "updated": "2026-08-11T14:59:57.575Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Webinar on MOSA Interoperability Standards for Space Systems – August 26, 2026",
+      "url": "https://spacenews.com/webinar-on-mosa-interoperability-standards-for-space-systems-august-26-2026/",
+      "summary": "FOR IMMEDIATE RELEASE ISTO Space Systems MOSA Interface Standards Alliance Announces Industry Webinar: “MOSA Interoperability Standards for Space Systems” August 26, 2026 | 9:00 AM – 1:00 PM PDT / […] The post Webinar on…",
+      "ts": 1786460285000,
+      "publishedAt": "2026-08-11T14:58:05.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "TechnoMile’s Five-Year Sustained Growth Recognized with  Place on the 2026 Inc. 5000 List",
+      "url": "https://spacenews.com/technomiles-five-year-sustained-growth-recognized-with-place-on-the-2026-inc-5000-list/",
+      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, today announced it has been ranked No. 4,268 on the 2026 Inc. 5000 list, the annual list […] The post TechnoMile’s F…",
+      "ts": 1786460002000,
+      "publishedAt": "2026-08-11T14:53:22.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "SpaceX increasing footprint in missile defense",
+      "url": "https://spacenews.com/spacex-increasing-footprint-in-missile-defense/",
+      "summary": "With multibillion-dollar awards for satellite networks, sensing and launch services, SpaceX is leveraging its vertically integrated manufacturing model to win a share of the Pentagon's missile defense business The post S…",
+      "ts": 1786458841000,
+      "publishedAt": "2026-08-11T14:34:01.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "How we know that splitting up the MMR vaccine could be dangerous",
+      "url": "https://www.statnews.com/2026/08/11/how-we-know-splitting-up-mmr-vaccine-could-be-dangerous/?utm_campaign=rss",
+      "summary": "It's no mystery. History tells us that President Trump’s executive order calling for the MMR to be split into separate shots could do real harm.",
+      "ts": 1786458537000,
+      "publishedAt": "2026-08-11T14:28:57.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump’s vaccine pivot overshadows food rule",
+      "url": "https://www.statnews.com/2026/08/11/trump-vaccine-policy-pivot-overshadows-fda-gras-food-rule-dc-diagnosis/?utm_campaign=rss",
+      "summary": "Trump is turning the focus back to controversial vaccine policy, overshadowing a new move on food additives.",
+      "ts": 1786457987000,
+      "publishedAt": "2026-08-11T14:19:47.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Indiana Emerges as a Leading U.S. Biopharma Hub",
+      "url": "https://www.genengnews.com/sponsored/indiana-emerges-as-a-leading-u-s-biopharma-hub/",
+      "summary": "Indiana has spent decades becoming a national leader in life sciences and pharmaceutical exports. Its strengths extend across universities, research institutes, manufacturers, suppliers, healthcare systems, and communiti…",
+      "ts": 1786456217000,
+      "publishedAt": "2026-08-11T13:50:17.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about an FDA rejection, 340B court battles, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss",
+      "summary": "The FDA rejected a radiopharmaceutical therapy because of manufacturing issues, halting what would have been a competitor for Novartis",
+      "ts": 1786454840000,
+      "publishedAt": "2026-08-11T13:27:20.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: A RAPID proposal for breakthrough coverage, and nurses push back on AI ",
+      "url": "https://www.statnews.com/2026/08/11/cms-rapid-breakthrough-device-coverage-health-tech/?utm_campaign=rss",
+      "summary": "In this edition of STAT Health Tech: Details from CMS and FDA on the RAPID pathway for breakthrough devices, and nurses push back on AI.",
+      "ts": 1786454149000,
+      "publishedAt": "2026-08-11T13:15:49.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NVIDIA",
       "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
@@ -48,6 +120,24 @@
       "categoryId": "bio"
     },
     {
+      "source": "ESA",
+      "title": "A total solar eclipse is coming to Europe",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe",
+      "summary": "Video: 00:01:24 When the Moon passes between Earth and the Sun, it casts a shadow onto Earth's surface. For people in the darkest part of this shadow, the face of the Sun is totally blocked out, and its wispy atmosphere …",
+      "ts": 1786451400000,
+      "publishedAt": "2026-08-11T12:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "BlackSky wins seven-figure, multiyear international contract",
+      "url": "https://spacenews.com/blacksky-wins-seven-figure-multiyear-international-contract/",
+      "summary": "SAN FRANCISCO — BlackSky announced Aug. 11 a seven-figure, multiyear contract to provide an international customer with persistent space-based monitoring and assured and on-demand satellite tasking. Prior to the award, […",
+      "ts": 1786451400000,
+      "publishedAt": "2026-08-11T12:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
       "source": "Genetic Engineering News",
       "title": "Greater Richmond’s Pharma Cluster Keeps Compounding",
       "url": "https://www.genengnews.com/sponsored/greater-richmonds-pharma-cluster-keeps-compounding/",
@@ -76,12 +166,39 @@
     },
     {
       "source": "STAT",
-      "title": "STAT+: Skylar Bio kicks off new gene therapy trial for deafness",
+      "title": "STAT+: Skylark Bio kicks off new gene therapy trial for deafness",
       "url": "https://www.statnews.com/2026/08/11/skylark-bio-gjb2-otoferlin-gene-therapies-for-deafness/?utm_campaign=rss",
       "summary": "Biotech startups in the U.S., France, and China are racing to bring new gene therapies for deafness by targeting different genetic mutations.",
       "ts": 1786449600000,
       "publishedAt": "2026-08-11T12:00:00.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Security Council LIVE: Spotlight on Israeli settler violence in West Bank",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168113",
+      "summary": "The Security Council holds an open debate on Tuesday which is expected to address escalating Israeli settler violence in the occupied West Bank as attacks on Palestinians and their property continue. UN News app users ca…",
+      "ts": 1786449600000,
+      "publishedAt": "2026-08-11T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Colombia earthquake: International teams standing by",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168112",
+      "summary": "As earthquake rescue efforts across western Colombia continued on Tuesday, UN agencies said that they stood ready to help “with everything we've got” if and when the request came from the authorities for international as…",
+      "ts": 1786449600000,
+      "publishedAt": "2026-08-11T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Myanmar: UN investigators document deliberate military attacks on civilians",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168110",
+      "summary": "Myanmar's military has carried out a sustained campaign of deliberate attacks on civilians – including airstrikes on homes, schools and camps for displaced people, alongside arbitrary detention, torture and sexual violen…",
+      "ts": 1786449600000,
+      "publishedAt": "2026-08-11T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "SpaceNews",
@@ -157,18 +274,18 @@
     },
     {
       "source": "ESA",
-      "title": "Dust and water spotted close to giant black hole",
-      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole",
-      "summary": "Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive surprisingly close to the supermassive black hole at the centre of our Milk…",
+      "title": "Sophie Adenot’s first spacewalk",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Sophie_Adenot_s_first_spacewalk",
+      "summary": "Video: 00:00:44 ESA astronaut Sophie Adenot will take part in her first-ever spacewalk during U.S. Spacewalk 97. Together with NASA astronaut Anil Menon, she will replace a Space-to-Ground antenna on the International Sp…",
       "ts": 1786435200000,
       "publishedAt": "2026-08-11T08:00:00.000Z",
       "categoryId": "space"
     },
     {
       "source": "ESA",
-      "title": "Sophie Adenot’s first spacewalk",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Sophie_Adenot_s_first_spacewalk",
-      "summary": "Video: 00:00:44 ESA astronaut Sophie Adenot will take part in her first-ever spacewalk during U.S. Spacewalk 97. Together with NASA astronaut Anil Menon, she will replace a Space-to-Ground antenna on the International Sp…",
+      "title": "Dust and water spotted close to giant black hole",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole",
+      "summary": "Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive surprisingly close to the supermassive black hole at the centre of our Milk…",
       "ts": 1786435200000,
       "publishedAt": "2026-08-11T08:00:00.000Z",
       "categoryId": "space"
@@ -618,7 +735,7 @@
       "source": "Genetic Engineering News",
       "title": "Bacterial Trait-Finding and Gene Mapping Platform Speeds Microbial Engineering for Biotech Applications",
       "url": "https://www.genengnews.com/topics/bioprocessing/bacterial-trait-finding-and-gene-mapping-platform-speeds-microbial-engineering-for-biotech-applications/",
-      "summary": "Scientists have created a platform that can rapidly assess bacterial traits and pinpoint genetic triggers that turn microbes into efficient factories for biotech applications including in fields including chemicals and m…",
+      "summary": "Scientists have created a platform that can rapidly assess bacterial traits and pinpoint genetic triggers that turn microbes into efficient factories for biotech applications in fields such as chemicals and materials. Th…",
       "ts": 1786398701000,
       "publishedAt": "2026-08-10T21:51:41.000Z",
       "categoryId": "bio"
@@ -694,123 +811,6 @@
       "ts": 1786381200000,
       "publishedAt": "2026-08-10T17:00:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA+ Debuts on discovery+, Coming Soon to HBO Max",
-      "url": "https://www.nasa.gov/news-release/nasa-debuts-on-discovery-coming-soon-to-hbo-max/",
-      "summary": "As NASA+ continues its expansion across multiple streaming platforms to bring space closer to home, NASA announced Monday programming is next heading to discovery+ and HBO Max. A continuous live feed of NASA+ programming…",
-      "ts": 1786379413000,
-      "publishedAt": "2026-08-10T16:30:13.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "BaseMap ABE Launched for Off-Target Characterization in Base Editing Therapeutic Development",
-      "url": "https://www.genengnews.com/topics/genome-editing/basemap-abe-launched-for-off-target-characterization-in-base-editing-therapeutic-development/",
-      "summary": "Unlike prediction-based approaches, Broken String Biosciences says BaseMap ABE generates genome-wide data directly from biologically relevant cells, providing researchers with clear understanding of editor specificity un…",
-      "ts": 1786376933000,
-      "publishedAt": "2026-08-10T15:48:53.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: In surprise decision, FDA rejects radiopharma therapy expected to rival Novartis treatment",
-      "url": "https://www.statnews.com/2026/08/10/itm-radiopharma-fda-rejection/?utm_campaign=rss",
-      "summary": "The FDA has rejected a radiopharmaceutical therapy because of manufacturing issues, halting what would have been a competitor for Novartis.",
-      "ts": 1786374667000,
-      "publishedAt": "2026-08-10T15:11:07.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "FDA to require notice of additives in food supply for the first time",
-      "url": "https://www.statnews.com/2026/08/10/rfk-jr-proposal-fda-gras-rule-generally-recognized-as-safe/?utm_campaign=rss",
-      "summary": "RFK Jr. is claiming a win with a new proposal on the food industry's GRAS loophole; nutrition advocates give mixed reviews.",
-      "ts": 1786374000000,
-      "publishedAt": "2026-08-10T15:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Ban prior auth? And hospitals cut jobs",
-      "url": "https://www.statnews.com/2026/08/10/advocate-ban-prior-authorization-340b-limits-impact-on-hospitals/?utm_campaign=rss",
-      "summary": "We examine a call to reform how health insurers do business, and a look at the impact of 340B restrictions.",
-      "ts": 1786373536000,
-      "publishedAt": "2026-08-10T14:52:16.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: FDA panel to weigh Grail’s Galleri test",
-      "url": "https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test/?utm_campaign=rss",
-      "summary": "China reins in its biotech innovation engine, radiopharma boom meets unexpected hurdles, and more news from The Readout",
-      "ts": 1786373287000,
-      "publishedAt": "2026-08-10T14:48:07.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "OpenAI",
-      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
-      "ts": 1786370400000,
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Lion Nebula Roars to Life With NASA’s Webb",
-      "url": "https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/",
-      "summary": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula. NASA’s Hubble Space Telescope previously viewed this planetary nebula in 2000,…",
-      "ts": 1786370400000,
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Lion Nebula roars to life for Webb",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb",
-      "summary": "Image: Observing across the starry “plains” of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula. The NASA/ESA Hubble Space Telescope previously viewed this planet…",
-      "ts": 1786370400000,
-      "publishedAt": "2026-08-10T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "Launch Into a New School Year With NASA",
-      "url": "https://www.nasa.gov/learning-resources/launch-into-a-new-school-year-with-nasa/",
-      "summary": "A new school year brings fresh opportunities to get involved with NASA. Whether you’re curious about space or eager to build real STEM skills, NASA offers a world of experiences putting you close to the action. As we ent…",
-      "ts": 1786370368000,
-      "publishedAt": "2026-08-10T13:59:28.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about a Sanofi drug shortage, a Jazz Pharma deal, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss",
-      "summary": "Sanofi is experiencing shortages of two medicines used to treat Pompe disease after the FDA warned the company over manufacturing issues",
-      "ts": 1786368263000,
-      "publishedAt": "2026-08-10T13:24:23.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Chinese Long March 7A rocket explodes shortly after liftoff",
-      "url": "https://spacenews.com/chinese-long-march-7a-rocket-explodes-shortly-after-liftoff/",
-      "summary": "HELSINKI — China appears to have lost an unknown payload after a Long March 7A rocket exploded less than 90 seconds into flight, according to amateur footage. The Long March […] The post Chinese Long March 7A rocket expl…",
-      "ts": 1786368242000,
-      "publishedAt": "2026-08-10T13:24:02.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "ESA",
-      "title": "Wildfires, drought and extreme heat, 2026",
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Wildfires_drought_and_extreme_heat_2026",
-      "summary": "Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA’s most recent news-related images showing how th…",
-      "ts": 1786366800000,
-      "publishedAt": "2026-08-10T13:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [

@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-11T13:10:20.789Z",
+  "updated": "2026-08-11T14:59:53.770Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "The telescope that points itself",
+      "url": "https://phys.org/news/2026-08-telescope.html",
+      "summary": "I'll admit to using AI for things it was probably never designed for. When my van threw a fault I couldn't immediately figure out—one that seems notorious for trips back and forth to a repair shop—I ended up in a long (b…",
+      "ts": 1786459201000,
+      "publishedAt": "2026-08-11T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Improvisational theater, meditation and games support anxious teens",
+      "url": "https://phys.org/news/2026-08-theater-meditation-games-anxious-teens.html",
+      "summary": "Adolescence is a key stage of development, characterized by heightened emotional vulnerability. According to the World Health Organization (WHO), one in seven young people ages 10–19 lives with a mental health condition.…",
+      "ts": 1786458006000,
+      "publishedAt": "2026-08-11T14:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A coral among the stars: New species discovered on Costa Rica's deep-sea seamounts",
+      "url": "https://phys.org/news/2026-08-coral-stars-species-costa-rica.html",
+      "summary": "Scientists exploring seamounts off the coast of Costa Rica have discovered a new coral so genetically and morphologically distinct that it required the creation of an entirely new family for its classification. Bright ye…",
+      "ts": 1786456801000,
+      "publishedAt": "2026-08-11T14:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "The largest known galaxy is wider than 17 Milky Ways",
+      "url": "https://www.sciencenews.org/article/largest-known-galaxy-wider-milky-way",
+      "summary": "Scientists have identified the edge of galaxy IC 1101 and crowned it with the title of largest known galaxy.",
+      "ts": 1786456800000,
+      "publishedAt": "2026-08-11T14:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Opposition to local data centers rises sharply, survey finds",
+      "url": "https://phys.org/news/2026-08-opposition-local-centers-sharply-survey.html",
+      "summary": "As protesters rally against data center construction in dozens of states and New York and Texas pause the issuance of permits for large data centers, a new nationally representative survey finds that Americans' oppositio…",
+      "ts": 1786455603000,
+      "publishedAt": "2026-08-11T13:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Researchers develop new framework for understanding how emotions shape behavior online",
+      "url": "https://phys.org/news/2026-08-framework-emotions-behavior-online.html",
+      "summary": "Every day, billions of people scroll through social media posts, online reviews and news feeds filled with emotional content—from glowing five-star reviews to rage-inducing social media rants. Those emotions can quietly …",
+      "ts": 1786454410000,
+      "publishedAt": "2026-08-11T13:20:10.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Decoding smell: Study reveals how wind transforms odor signals",
+      "url": "https://phys.org/news/2026-08-decoding-reveals-odor.html",
+      "summary": "Humans trust dogs to help find missing people, and bees to pollinate their crops. But scientists still don't fully understand how these animals use their extraordinary sense of smell to locate the source of an odor.",
+      "ts": 1786454405000,
+      "publishedAt": "2026-08-11T13:20:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "A smarter way to track satellites beyond Earth's orbit",
@@ -743,62 +799,6 @@
       "title": "QTris: a pedagogical board game to teach Quantum Mechanics",
       "url": "https://arxiv.org/abs/2608.09430",
       "summary": "arXiv:2608.09430v1 Announce Type: new Abstract: In this paper we introduce the new version of QTris, a board game designed to teach and learn Quantum Mechanics within the framework of Quantum Information and Computation.…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An accelerator-based source of high-intensity quantum-entangled annihilation gamma photons",
-      "url": "https://arxiv.org/abs/2608.09454",
-      "summary": "arXiv:2608.09454v1 Announce Type: new Abstract: We present the concept and development of a novel accelerator-based source of high-intensity quantum-entangled 511 keV gamma-ray pairs produced through positron-electron an…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Femtosecond Engineering of PolyMethylPentene(PMP) Nonlinearity via NA, Spin/orbital angular momentum (OAM), and In-Situ SC Diagnostics",
-      "url": "https://arxiv.org/abs/2608.09458",
-      "summary": "arXiv:2608.09458v1 Announce Type: new Abstract: While femtosecond vortex beams are widely studied for photonic fabrication, how OAM affects third-order susceptibility, energy deposition, and structural symmetry in transp…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The impact of the path ensemble on path percolation",
-      "url": "https://arxiv.org/abs/2608.09479",
-      "summary": "arXiv:2608.09479v1 Announce Type: new Abstract: Traffic-induced failures, from packet loss in communication networks to congestion breakdown in transport systems, occur when flows progressively exhaust the edges they tra…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Superposition-Based Framework for Rapid Estimation of Arbitrary Antenna-Array Patterns",
-      "url": "https://arxiv.org/abs/2608.09502",
-      "summary": "arXiv:2608.09502v1 Announce Type: new Abstract: Antenna array theory is a well-established field. However, a systematic approach for fast pattern estimation in arrays with arbitrary antenna locations and orientations has…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "200 mm Wafer-Scale Monolithic 3D Integration of Atomic Layer-Deposited Oxide Semiconductors",
-      "url": "https://arxiv.org/abs/2608.09508",
-      "summary": "arXiv:2608.09508v1 Announce Type: new Abstract: Monolithic 3D (M3D) integration offers a pathway to overcome the scaling limits of conventional silicon complementary metal-oxide-semiconductor (CMOS) technology by extendi…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Tilting Mode: A New Degree of Freedom for Magneto-Mechanical Resonator Sensors",
-      "url": "https://arxiv.org/abs/2608.09527",
-      "summary": "arXiv:2608.09527v1 Announce Type: new Abstract: Magneto-mechanical resonators (MMRs) are an emerging class of passive, wireless sensors. Their torsional oscillation mode has recently been established for sensing and trac…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimization studies of silicon remoTES cryogenic calorimeters",
-      "url": "https://arxiv.org/abs/2608.09544",
-      "summary": "arXiv:2608.09544v1 Announce Type: new Abstract: The remoTES design, developed within the COSINUS experiment, enables a broader range of materials to be operated as cryogenic calorimeters read out with Transition Edge Sen…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z"
     }
