@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-11T10:07:23.751Z",
+  "updated": "2026-08-11T11:45:12.815Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Large-scale study finds no link between crime and unauthorized immigration",
+      "url": "https://phys.org/news/2026-08-large-scale-link-crime-unauthorized.html",
+      "summary": "For more than two decades, Charis E. Kubrin has followed the data wherever it leads. As UC Irvine Chancellor's Professor of Criminology, Law and Society, she has built a career studying one of America's most politically …",
+      "ts": 1786448401000,
+      "publishedAt": "2026-08-11T11:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "In Oregon, voters' passage of gun control measure led to more firearms in the state",
+      "url": "https://phys.org/news/2026-08-oregon-voters-passage-gun-firearms.html",
+      "summary": "Oregon voters' narrow 2022 approval of a referendum designed to limit gun purchases has instead resulted in thousands more firearms in the state than there otherwise would have been, a new analysis suggests.",
+      "ts": 1786447203000,
+      "publishedAt": "2026-08-11T11:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First evidence of Neanderthal bone tool use in Romania discovered",
+      "url": "https://phys.org/news/2026-08-evidence-neanderthal-bone-tool-romania.html",
+      "summary": "Deep in the Vârghiș Gorges, tucked away in the dark recesses of a cave, researchers have found the first evidence that Neanderthals used bone tools in Romania.",
+      "ts": 1786446004000,
+      "publishedAt": "2026-08-11T11:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fighting pathogens by watching how they read their own DNA: Q&A with structural biologist",
+      "url": "https://phys.org/news/2026-08-pathogens-dna-qa-biologist.html",
+      "summary": "Every living cell, from the simplest bacterium to a human neuron, relies on the same basic machinery to read, interpret, and use its DNA. This molecular machinery is so fundamental that life as we know it cannot exist wi…",
+      "ts": 1786446003000,
+      "publishedAt": "2026-08-11T11:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Who are the secret gardeners of a parasitic plant?",
@@ -767,38 +799,6 @@
       "title": "Scalable laser micro- and nanostructuring of mould inserts for functional injection-moulded polymer surfaces",
       "url": "https://arxiv.org/abs/2608.09618",
       "summary": "arXiv:2608.09618v1 Announce Type: new Abstract: Functional polymer surfaces with tailored wettability, antibacterial and adhesion properties are increasingly required in medical, packaging and consumer applications. Lase…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A fully integrated dispersion-managed femtosecond mode-locked laser",
-      "url": "https://arxiv.org/abs/2608.09631",
-      "summary": "arXiv:2608.09631v1 Announce Type: new Abstract: Femtosecond lasers underpin applications ranging from material processing to corneal surgery, while their regular pulse trains form optical frequency combs that have revolu…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Thermal Design and Experimental Validation of a Water-Cooled Bimetallic Minichannel Beam Dump for High-Power Heavy-Ion Accelerators",
-      "url": "https://arxiv.org/abs/2608.09671",
-      "summary": "arXiv:2608.09671v1 Announce Type: new Abstract: Efficient thermal management of beam-intercepting devices is essential for high-power heavy-ion accelerators,where intense and localized energy deposition can limit primary…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Decoding Transient X-ray Absorption Spectra of Acetylacetone With Multireference Algebraic Diagrammatic Construction Theory",
-      "url": "https://arxiv.org/abs/2608.09747",
-      "summary": "arXiv:2608.09747v1 Announce Type: new Abstract: Time-resolved X-ray absorption spectroscopy (TR-XAS) offers an element- and site-specific probe of coupled electronic and nuclear dynamics, but its interpretation requires …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Autonomous Lindblad Realizability of Nonunitary Linear Dynamics with a Carleman Lattice Boltzmann Application",
-      "url": "https://arxiv.org/abs/2608.09808",
-      "summary": "arXiv:2608.09808v1 Announce Type: new Abstract: Carleman lifting converts nonlinear polynomial dynamics into finite linear systems, but the resulting truncations are generally nonunitary and need not correspond to physic…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z"
     }
