@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-11T14:59:53.770Z",
+  "updated": "2026-08-11T16:07:29.228Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New plastic treaty document criticized for weaker ambition",
+      "url": "https://phys.org/news/2026-08-plastic-treaty-document-criticized-weaker.html",
+      "summary": "A new document attempting to resuscitate a floundering global plastics treaty suggests that negotiations are trending in a less ambitious direction, a leading scientific expert told AFP on Tuesday.",
+      "ts": 1786464009000,
+      "publishedAt": "2026-08-11T16:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Mathematical model shows how birds create a synchronized dawn chorus",
+      "url": "https://phys.org/news/2026-08-mathematical-birds-synchronized-dawn-chorus.html",
+      "summary": "Every morning, groups of birds start singing and chirping around the same time, typically when the sun starts rising. While zoologists have been studying this collective bird behavior, called the dawn chorus, for decades…",
+      "ts": 1786464005000,
+      "publishedAt": "2026-08-11T16:00:05.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Bamboo toilet paper intrigued me. Reality turned out to be messy",
+      "url": "https://www.sciencenews.org/article/bamboo-toilet-paper-carbon-footprint",
+      "summary": "What makes a greener wipe? Researchers have more to say about bamboo's ecological risks, given limited carbon footprint data.",
+      "ts": 1786464000000,
+      "publishedAt": "2026-08-11T16:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Australian students can read, but they can't spot misinformation",
+      "url": "https://phys.org/news/2026-08-australian-students-misinformation.html",
+      "summary": "The good news is that the majority of Australian students have again reached proficiency standards in reading and writing literacy—marking almost 20 years of consistent achievement. These results suggest two-thirds of Au…",
+      "ts": 1786462807000,
+      "publishedAt": "2026-08-11T15:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oral nanomedicine improves cancer immunotherapy by harnessing gut bacterial metabolite",
+      "url": "https://phys.org/news/2026-08-oral-nanomedicine-cancer-immunotherapy-harnessing.html",
+      "summary": "A joint research team—led by professor Young Seok Cho from the School of Medicine, alongside professor James J. Moon from the University of Michigan—has developed the world's first oral, microbiome-based nanomedicine. By…",
+      "ts": 1786462803000,
+      "publishedAt": "2026-08-11T15:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rescued platypuses quickly return to normal lives after five months in captivity",
+      "url": "https://phys.org/news/2026-08-platypuses-quickly-months-captivity.html",
+      "summary": "Platypuses rescued during a severe drought quickly returned to their old routines after being released back into the wild, suggesting emergency rescues can help protect vulnerable populations.",
+      "ts": 1786461603000,
+      "publishedAt": "2026-08-11T15:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Dolphins learn how to use tools to hunt for fish from their mothers",
+      "url": "https://phys.org/news/2026-08-dolphins-tools-fish-mothers.html",
+      "summary": "From spears and the invention of the wheel to smartphones and robots, human societies have been building and using tools from the beginning. Human tool use has helped conquer new environments, increase communication and …",
+      "ts": 1786461601000,
+      "publishedAt": "2026-08-11T15:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Colombia earthquake has killed at least 132. My research helps explain why it was so destructive",
+      "url": "https://phys.org/news/2026-08-colombia-earthquake-destructive.html",
+      "summary": "Locals and officials in Colombia have begun a massive search and rescue effort to find survivors of a powerful earthquake that struck near San José del Palmar in Chocó, with major damage observed in the cities of Cali, M…",
+      "ts": 1786460405000,
+      "publishedAt": "2026-08-11T15:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Toxoplasma parasite reveals an unusual strategy for surviving crowded environments in infected cells",
+      "url": "https://phys.org/news/2026-08-toxoplasma-parasite-reveals-unusual-strategy.html",
+      "summary": "Toxoplasma gondii, or Toxoplasma, is a parasite that infects hundreds of millions of people around the world. Although cases are often mild, it can cause severe symptoms in people with weakened immune systems and develop…",
+      "ts": 1786460401000,
+      "publishedAt": "2026-08-11T15:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "The telescope that points itself",
@@ -727,78 +799,6 @@
       "title": "3D Modeling of a Tethered Autogyro with Articulated Rotors and Attitude Control using Differential Rotor Braking",
       "url": "https://arxiv.org/abs/2608.09118",
       "summary": "arXiv:2608.09118v1 Announce Type: new Abstract: A tethered autogyro with articulated rotors can operate as an unmanned aerial vehicle capable of energy-efficient, long-duration deployment by utilizing ambient wind energy…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "High-speed volumetric amplitude-spectrum dynamic optical coherence tomography by neural network with multi-burst scanning",
-      "url": "https://arxiv.org/abs/2608.09171",
-      "summary": "arXiv:2608.09171v1 Announce Type: new Abstract: Dynamic optical coherence tomography (DOCT) enables label-free, three-dimensional (3D) assessment of tissue dynamics. However, it suffers from long acquisition times becaus…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stroboscopic Raman Spectroscopy of Atom Optics in Quasi-Bragg Regime",
-      "url": "https://arxiv.org/abs/2608.09234",
-      "summary": "arXiv:2608.09234v1 Announce Type: new Abstract: Quasi-Bragg regime is a good compromise for large-momentum-transfer atom interferometry, allowing for scaling up the interferometric area, while constraining the population…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Collective Propagation Law of Optical Vortex Constellations and Longitudinal Sensing",
-      "url": "https://arxiv.org/abs/2608.09274",
-      "summary": "arXiv:2608.09274v1 Announce Type: new Abstract: Optical vortices are ubiquitous phenomena naturally appearing in wave physics, yet higher-order charges inherently split into constellations of lowest-order singularities a…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Openable Force-Balanced Halbach Magnets: From Fibonacci Sphere Simulations to Icosahedral Realizations",
-      "url": "https://arxiv.org/abs/2608.09323",
-      "summary": "arXiv:2608.09323v1 Announce Type: new Abstract: A long-standing goal in magnet design is to completely surround a volume of highly homogeneous magnetic field with permanent magnets while maintaining practical access to t…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Identifying the large-scale synoptic drivers contributing to the Kerala floods using multivariate feature-based analysis",
-      "url": "https://arxiv.org/abs/2608.09363",
-      "summary": "arXiv:2608.09363v1 Announce Type: new Abstract: Parts of Kerala were hit by devastating floods three years in a row. This sequence was historically without precedent. This paper uses a multivariate object-based approach …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Coordinate-Residual Physics-Driven Neural Network for Electromagnetic Inverse Scattering",
-      "url": "https://arxiv.org/abs/2608.09382",
-      "summary": "arXiv:2608.09382v1 Announce Type: new Abstract: Electromagnetic inverse scattering is a nonlinear and ill-posed problem, where accurate reconstruction is challenging due to measurement limitations, noise, and high comput…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Impact of Terminal Noise on Polarization Rotation Vector for Sensing Applications",
-      "url": "https://arxiv.org/abs/2608.09384",
-      "summary": "arXiv:2608.09384v1 Announce Type: new Abstract: State-of-Polarization sensing with coherent transponders enables wide-area geophysical monitoring over existing submarine cables, but its performance is limited by polariza…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nonadiabatic Forward-Flux Sampling of Rare Molecular Gas-Phase Ammonia Photodissociation",
-      "url": "https://arxiv.org/abs/2608.09422",
-      "summary": "arXiv:2608.09422v1 Announce Type: new Abstract: Simulating rare events in photochemistry by brute-force surface hopping is computationally prohibitive: most propagated trajectories either remain nonreactive or follow dom…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "QTris: a pedagogical board game to teach Quantum Mechanics",
-      "url": "https://arxiv.org/abs/2608.09430",
-      "summary": "arXiv:2608.09430v1 Announce Type: new Abstract: In this paper we introduce the new version of QTris, a board game designed to teach and learn Quantum Mechanics within the framework of Quantum Information and Computation.…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z"
     }
