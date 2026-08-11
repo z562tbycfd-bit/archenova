@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-11T16:07:31.326Z",
+  "updated": "2026-08-11T17:58:50.220Z",
   "items": [
+    {
+      "source": "NASA",
+      "title": "Lion Nebula Roars in Webb’s Sights",
+      "url": "https://www.nasa.gov/image-article/lion-nebula-roars-in-webbs-sights/",
+      "summary": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula. The nebula’s “mane” is clear and detailed in this image released on Aug. 10, 2…",
+      "ts": 1786467769000,
+      "publishedAt": "2026-08-11T17:02:49.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Trump is counting on the health care industry to remake vaccines. It’s pushing back instead",
+      "url": "https://www.statnews.com/2026/08/11/health-care-pharma-industry-pushes-back-trump-vaccine-policy-changes/?utm_campaign=rss",
+      "summary": "Trump wants to change how American kids are vaccinated, but doctors and the pharma industry aren't on board.",
+      "ts": 1786467454000,
+      "publishedAt": "2026-08-11T16:57:34.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bispecific Antibody Purification’s Complexity Problem and How to Fix It",
+      "url": "https://www.genengnews.com/sponsored/bispecific-antibody-purifications-complexity-problem-and-how-to-fix-it/",
+      "summary": "Bispecific antibodies are gaining momentum, and the demands on downstream purification will continue to grow. The case studies presented here illustrate how analytical insight forms the foundation of effective process de…",
+      "ts": 1786467230000,
+      "publishedAt": "2026-08-11T16:53:50.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Opinion: Trump says his executive order should restore trust in vaccines. It does the exact opposite",
+      "url": "https://www.statnews.com/2026/08/11/trump-executive-order-vaccines-undecided-parents-trust/?utm_campaign=rss",
+      "summary": "The White House says Trump’s recent executive order is aimed at restoring trust in vaccines. It will do the opposite, writes an epidemiologist.",
+      "ts": 1786466766000,
+      "publishedAt": "2026-08-11T16:46:06.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Telescopes Create Colorful ‘Craft’ From Nearby Nebula",
+      "url": "https://science.nasa.gov/missions/chandra/nasa-telescopes-create-colorful-craft-from-nearby-nebula/",
+      "summary": "Like a collage made of layered sheets of colored cellophane, a vibrant new image layers observations of a famous star-forming nebula from NASA space telescopes. The resulting cosmic “craft” reveals new details about the …",
+      "ts": 1786461555000,
+      "publishedAt": "2026-08-11T15:19:15.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "NVIDIA",
       "title": "Why Scaling AI Compute Performance Requires a New Power Architecture",
@@ -55,6 +100,24 @@
       "ts": 1786457987000,
       "publishedAt": "2026-08-11T14:19:47.000Z",
       "categoryId": "bio"
+    },
+    {
+      "source": "NASA",
+      "title": "Building the Moon Base: NASA Stories at the Ion  ",
+      "url": "https://www.nasa.gov/missions/moon-base/building-the-moon-base-nasa-stories-at-the-ion/",
+      "summary": "As NASA prepares to return astronauts to the lunar surface for longer stays and increasingly complex operations, building the Moon Base will require new ideas, advanced technologies, and expertise across many fields. Dur…",
+      "ts": 1786457805000,
+      "publishedAt": "2026-08-11T14:16:45.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NASA",
+      "title": "NASA Shares Station Research Today Supporting Moon, Mars Tomorrow",
+      "url": "https://www.nasa.gov/missions/station/iss-research/nasa-shares-station-research-today-supporting-moon-mars-tomorrow/",
+      "summary": "The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of scientific experiments that lay the groundwork for missions to the Moon and…",
+      "ts": 1786456800000,
+      "publishedAt": "2026-08-11T14:00:00.000Z",
+      "categoryId": "space"
     },
     {
       "source": "Genetic Engineering News",
@@ -226,6 +289,15 @@
       "ts": 1786446804000,
       "publishedAt": "2026-08-11T11:13:24.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "OpenAI",
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "SpaceNews",
@@ -738,78 +810,6 @@
       "summary": "arXiv:2608.02865v2 Announce Type: replace-cross Abstract: A vast class of weak, millimolar-affinity molecular interactions governs cellular function, yet their quantitative characterization has remained largely beyond co…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "BMS Chooses Houston for $2.3B Manufacturing Facility",
-      "url": "https://www.genengnews.com/topics/bioprocessing/bms-chooses-houston-for-2-3b-manufacturing-facility/",
-      "summary": "Among key factors in the decision, according to BMS, were the emerging strength of Greater Houston’s life sciences workforce in life sciences, proximity to utilities and transportation infrastructure, an overall business…",
-      "ts": 1786409507000,
-      "publishedAt": "2026-08-11T00:51:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Bacterial Trait-Finding and Gene Mapping Platform Speeds Microbial Engineering for Biotech Applications",
-      "url": "https://www.genengnews.com/topics/bioprocessing/bacterial-trait-finding-and-gene-mapping-platform-speeds-microbial-engineering-for-biotech-applications/",
-      "summary": "Scientists have created a platform that can rapidly assess bacterial traits and pinpoint genetic triggers that turn microbes into efficient factories for biotech applications in fields such as chemicals and materials. Th…",
-      "ts": 1786398701000,
-      "publishedAt": "2026-08-10T21:51:41.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Rocket Lab builds deployable infrastructure for Electron launches",
-      "url": "https://spacenews.com/rocket-lab-builds-deployable-infrastructure-for-electron-launches/",
-      "summary": "Named ‘GHOST’ the containerized infrastructure is designed to support orbital and suborbital launches The post Rocket Lab builds deployable infrastructure for Electron launches appeared first on SpaceNews.",
-      "ts": 1786397494000,
-      "publishedAt": "2026-08-10T21:31:34.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Spatial Transcriptomics Uncovers Heterogeneity in Heart Transplant Rejection",
-      "url": "https://www.genengnews.com/topics/omics/spatial-transcriptomics-uncovers-heterogeneity-in-heart-transplant-rejection/",
-      "summary": "Image-based spatial transcriptomics was applied to longitudinal human endomyocardial biopsy samples from 62 adult and pediatric heart transplant recipients during and after histologically diagnosed rejection. The post Sp…",
-      "ts": 1786397052000,
-      "publishedAt": "2026-08-10T21:24:12.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Kepler books Neutron for 2028 optical relay launch",
-      "url": "https://spacenews.com/kepler-books-neutron-for-2028-optical-relay-launch/",
-      "summary": "Kepler Communications plans to deploy next-generation optical relay satellites on Rocket Lab’s upcoming Neutron rocket in one of several launches the Canadian operator has slated for 2028. The post Kepler books Neutron f…",
-      "ts": 1786393523000,
-      "publishedAt": "2026-08-10T20:25:23.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "AI professors are negotiating the new realities of academic research",
-      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, C…",
-      "ts": 1786392000000,
-      "publishedAt": "2026-08-10T20:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "STAT",
-      "title": "Trump returns to controversial vaccine policy with order questioning childhood schedule",
-      "url": "https://www.statnews.com/2026/08/10/trump-return-to-vaccine-policy-executive-order/?utm_campaign=rss",
-      "summary": "The Trump administration, which had recently avoided public discussions of vaccine policy because of concern around the political repercussions, is changing course.",
-      "ts": 1786390191000,
-      "publishedAt": "2026-08-10T19:29:51.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Candida auris Persists in Hair Follicles, Hijacks Immune Signaling",
-      "url": "https://www.genengnews.com/topics/infectious-diseases/candida-auris-persists-in-hair-follicles-hijacks-immune-signaling/",
-      "summary": "Drug-resistant Candida auris was found to persist in hair follicles by exposing chitin, triggering interferon-γ that suppresses skin defenses and creates a niche for fungal colonization. The post <i>Candida auris</i> Per…",
-      "ts": 1786387497000,
-      "publishedAt": "2026-08-10T18:44:57.000Z",
       "categoryId": "bio"
     }
   ],

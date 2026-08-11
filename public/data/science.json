@@ -1,7 +1,87 @@
 {
   "ok": true,
-  "updated": "2026-08-11T16:07:29.228Z",
+  "updated": "2026-08-11T17:58:44.914Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "X-rays: Beyond the Nobel Prize limit",
+      "url": "https://phys.org/news/2026-08-rays-nobel-prize-limit.html",
+      "summary": "When certain atoms are irradiated with laser light, they can produce a very different kind of laser light: laser pulses with extremely high frequencies in the X-ray range. These laser pulses, which helped achieve record-…",
+      "ts": 1786470007000,
+      "publishedAt": "2026-08-11T17:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Many US public parks sit surprisingly close to hazardous waste sites and facilities that release toxic chemicals",
+      "url": "https://phys.org/news/2026-08-hazardous-sites-facilities-toxic-chemicals.html",
+      "summary": "While parks, playgrounds and hiking trails are generally thought of as \"healthy\" spaces, researchers from the University of Michigan have found that many of them overlap with old toxic waste sites or sit dangerously clos…",
+      "ts": 1786470001000,
+      "publishedAt": "2026-08-11T17:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Twisted magnetic field around newborn star confirms decades-old jet theory",
+      "url": "https://phys.org/news/2026-08-magnetic-field-newborn-star-decades.html",
+      "summary": "Astronomers using the Atacama Large Millimeter/submillimeter Array (ALMA), of which the U.S. National Science Foundation National Radio Astronomy Observatory (NSF NRAO) is a partner, have captured the first direct, high-…",
+      "ts": 1786468807000,
+      "publishedAt": "2026-08-11T17:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Banking apps could help manage mental health, study finds",
+      "url": "https://phys.org/news/2026-08-banking-apps-mental-health.html",
+      "summary": "While the link between financial stability and mental health is well-established, a new University College Dublin (UCD) study reveals a major blind spot in current research: an overreliance on self-reported surveys rathe…",
+      "ts": 1786468803000,
+      "publishedAt": "2026-08-11T17:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Solar eclipse sparks scramble for protective glasses across Europe",
+      "url": "https://phys.org/news/2026-08-solar-eclipse-scramble-glasses-europe.html",
+      "summary": "The scramble for protective glasses has reached fever pitch across Europe ahead of Wednesday's rare total solar eclipse, as pharmacies, opticians and other shops struggled to keep them in stock.",
+      "ts": 1786467604000,
+      "publishedAt": "2026-08-11T17:00:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Webb reveals oxygen-rich dust and water surviving near Milky Way's central black hole",
+      "url": "https://phys.org/news/2026-08-webb-reveals-oxygen-rich-surviving.html",
+      "summary": "Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers has discovered that dust and water can form and survive surprisingly close to the supermassive black hole at the center of the Milky…",
+      "ts": 1786467602000,
+      "publishedAt": "2026-08-11T17:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Egyptian blue in Iron Age Iran points to ancient connections",
+      "url": "https://phys.org/news/2026-08-egyptian-blue-iron-age-iran.html",
+      "summary": "Egyptian blue, considered the world's earliest synthetic pigment, was prized for its stable blue hues and served as a common blue paint in Egypt as early as 5,000 years ago, as well as the base material for small items s…",
+      "ts": 1786466406000,
+      "publishedAt": "2026-08-11T16:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Economic losses from natural disasters fall to $100 bn in first half of 2026: Swiss Re",
+      "url": "https://phys.org/news/2026-08-economic-losses-natural-disasters-fall.html",
+      "summary": "Economic losses from natural catastrophes worldwide are estimated to have reached $100 billion in the first half of this year, reinsurance group Swiss Re said Tuesday, a sharp decline from the same period last year.",
+      "ts": 1786466403000,
+      "publishedAt": "2026-08-11T16:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Too hot to live? French buyers rethink housing choices after heat waves",
+      "url": "https://phys.org/news/2026-08-hot-french-buyers-rethink-housing.html",
+      "summary": "After multiple severe heat waves in a single summer, French residents are increasingly factoring high temperatures into their home hunts, realtors say, bumping up features such as shutters, air conditioning and indirect …",
+      "ts": 1786465209000,
+      "publishedAt": "2026-08-11T16:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Humans have a 'highly abundant' number of stable proteins that are not all predicted by genetic code",
+      "url": "https://phys.org/news/2026-08-humans-highly-abundant-stable-proteins.html",
+      "summary": "In 1968, the American biochemist and geneticist Marshall Nirenberg and his colleagues won the Nobel Prize in physiology or medicine for their work deciphering how an organism's proteins are directly linked to its genetic…",
+      "ts": 1786465202000,
+      "publishedAt": "2026-08-11T16:20:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New plastic treaty document criticized for weaker ambition",
@@ -217,6 +297,14 @@
       "summary": "In the coastal forests of a tropical Japanese island near Okinawa grows an inconspicuous plant that is easy to mistake for a mushroom. It is a non-green parasite that feeds on the roots of other plants and produces up to…",
       "ts": 1786442401000,
       "publishedAt": "2026-08-11T10:00:01.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Linear optical <span class=\"sc\">fan</span>-<span class=\"sc\">out</span> gates using fewer ancillary single photons with enhanced success probability",
+      "url": "http://link.aps.org/doi/10.1103/cs4d-lpfj",
+      "summary": "Author(s): Wen-Qiang Liu and Hai-Rui Wei Photonic quantum gates are fundamental building blocks for a wide range of optical quantum information processing tasks. We propose an efficient linear-optical scheme for implemen…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -711,94 +799,6 @@
       "title": "Energy-optimized scaling laws for self-guided laser wakefield accelerators",
       "url": "https://arxiv.org/abs/2608.08903",
       "summary": "arXiv:2608.08903v1 Announce Type: new Abstract: Laser wakefield acceleration promises compact electron accelerators for applications in medicine, industry, and fundamental science. Yet, despite rapid progress, accurately…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rotational laser spectroscopy of the $X^1\\Sigma_g^+\\rightarrow B^1\\Pi_u$ transition of $\\text{Rb}_2$ molecule in a supersonic beam: As good as it gets",
-      "url": "https://arxiv.org/abs/2608.08912",
-      "summary": "arXiv:2608.08912v1 Announce Type: new Abstract: High-resolution laser spectroscopy of the $^{85}\\mathrm{Rb}_2$, $^{85}\\mathrm{Rb}^{87}\\mathrm{Rb}$, and $^{87}\\mathrm{Rb}_2$ isotopologues has been performed in a supersoni…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward CT-Equivalent Image Quality in Low-Dose Radiotherapy Planning: Conditional Diffusion-Based CBCT-to-CT Synthesis and the Impact of CBCT Input Representation",
-      "url": "https://arxiv.org/abs/2608.08919",
-      "summary": "arXiv:2608.08919v1 Announce Type: new Abstract: During standard radiotherapy planning, repeated CT acquisitions are often required for patient registration, verification, and adaptive planning, resulting in increased cum…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Giant Rotational Meta-Doppler from Genetically Designed Superscatterers",
-      "url": "https://arxiv.org/abs/2608.08925",
-      "summary": "arXiv:2608.08925v1 Announce Type: new Abstract: The motion of a rigid body interacting with a wave leaves spectral signatures, with the Doppler shift as the dominant contribution. Since any motion can be decomposed into …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Multimode Quantum Effects of Optical-Axis Misalignment in Gravitational-Wave Interferometers",
-      "url": "https://arxiv.org/abs/2608.08936",
-      "summary": "arXiv:2608.08936v1 Announce Type: new Abstract: We develop a multimode quantum model of optical-axis misalignment in a simplified representation of the differential mode of an Advanced LIGO interferometer. The system is …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Real-Time Approach to the Dynamical Bethe-Salpeter Equation for Finite Systems",
-      "url": "https://arxiv.org/abs/2608.08948",
-      "summary": "arXiv:2608.08948v1 Announce Type: new Abstract: We present a real-time linear-response approach to solving the dynamical Bethe-Salpeter equation (BSE). The polarization part of the screened interaction is obtained from t…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Do AI Forecast Ensembles Sample the Correct Conditional Distribution?",
-      "url": "https://arxiv.org/abs/2608.08954",
-      "summary": "arXiv:2608.08954v1 Announce Type: new Abstract: Ensemble forecasting aims to sample the conditional distribution of outcomes; whether AI forecast ensembles do this correctly in a joint sense remains largely untested. We …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Optimization of the Repumping Parameters for a Sodium Laser Guide Star Magnetometer",
-      "url": "https://arxiv.org/abs/2608.08983",
-      "summary": "arXiv:2608.08983v1 Announce Type: new Abstract: A sodium laser guide star operated as a mesospheric magnetometer modulates a 589 nm laser at the local Larmor frequency and usually diverts a fraction of its power to a rep…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wafer-scale monolithic integration of Ce:YIG films and magneto-optical isolators on silicon",
-      "url": "https://arxiv.org/abs/2608.09003",
-      "summary": "arXiv:2608.09003v1 Announce Type: new Abstract: Silicon integrated cerium doped yttrium iron garnet (Ce:YIG) thin films are promising candidates for integrated nonreciprocal photonic devices, cryogenic photonic modulator…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dispersion-managed octave soliton microcombs in heterostructured microresonators",
-      "url": "https://arxiv.org/abs/2608.09005",
-      "summary": "arXiv:2608.09005v1 Announce Type: new Abstract: Controlling group velocity dispersion is of fundamental importance in ultrafast optics, particularly for supercontinuum generation and optical frequency comb synthesis. How…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Population-inversion map of the mesospheric sodium ladder: continuous-wave and pulsed pumping schemes for directed emission",
-      "url": "https://arxiv.org/abs/2608.09037",
-      "summary": "arXiv:2608.09037v1 Announce Type: new Abstract: Directed mirrorless lasing from the mesospheric sodium layer has been proposed as a way to overcome the isotropy of laser guide star fluorescence, with demonstrated cell-sc…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "3D Modeling of a Tethered Autogyro with Articulated Rotors and Attitude Control using Differential Rotor Braking",
-      "url": "https://arxiv.org/abs/2608.09118",
-      "summary": "arXiv:2608.09118v1 Announce Type: new Abstract: A tethered autogyro with articulated rotors can operate as an unmanned aerial vehicle capable of energy-efficient, long-duration deployment by utilizing ambient wind energy…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z"
     }
