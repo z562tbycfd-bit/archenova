@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-11T08:59:49.221Z",
+  "updated": "2026-08-11T10:07:23.751Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Who are the secret gardeners of a parasitic plant?",
+      "url": "https://phys.org/news/2026-08-secret-gardeners-parasitic.html",
+      "summary": "In the coastal forests of a tropical Japanese island near Okinawa grows an inconspicuous plant that is easy to mistake for a mushroom. It is a non-green parasite that feeds on the roots of other plants and produces up to…",
+      "ts": 1786442401000,
+      "publishedAt": "2026-08-11T10:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient Colombians built huge water system without centralized rule, archaeologists say",
+      "url": "https://phys.org/news/2026-08-ancient-colombians-built-huge-centralized.html",
+      "summary": "Communities living in Colombia thousands of years ago achieved an engineering wonder of the world based on cooperation among family groups without top-down government, a new study shows. Archaeologists argue that policym…",
+      "ts": 1786438805000,
+      "publishedAt": "2026-08-11T09:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New optical method reveals internal dynamics of elusive Wigner crystals",
+      "url": "https://phys.org/news/2026-08-optical-method-reveals-internal-dynamics.html",
+      "summary": "Researchers at the University of Basel and the Technical University of Munich have developed a new method to reveal the collective motion of electrons in one of the most elusive states of matter: the Wigner crystal. Usin…",
+      "ts": 1786438803000,
+      "publishedAt": "2026-08-11T09:00:03.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Jackie, the California bald eagle who became an internet sensation, dies after illness",
@@ -775,30 +799,6 @@
       "title": "Autonomous Lindblad Realizability of Nonunitary Linear Dynamics with a Carleman Lattice Boltzmann Application",
       "url": "https://arxiv.org/abs/2608.09808",
       "summary": "arXiv:2608.09808v1 Announce Type: new Abstract: Carleman lifting converts nonlinear polynomial dynamics into finite linear systems, but the resulting truncations are generally nonunitary and need not correspond to physic…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Full-Wave Harmonic Balance Framework for Dispersive Time-Varying Photonic Structures",
-      "url": "https://arxiv.org/abs/2608.09905",
-      "summary": "arXiv:2608.09905v1 Announce Type: new Abstract: Time-varying photonic structures redistribute electromagnetic energy among Floquet harmonics, enabling frequency conversion, nonreciprocity, parametric gain, and dynamic wa…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Intermittent flow paths in biofilms grown in a microfluidic channel",
-      "url": "https://arxiv.org/abs/2504.00062",
-      "summary": "arXiv:2504.00062v1 Announce Type: cross Abstract: Biofilms exposed to flow experience shear stress, which leads to a competitive interaction between the growth and development of a biofilm and shearing. In this study, Ps…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Workplace dependence in urban economies",
-      "url": "https://arxiv.org/abs/2608.07588",
-      "summary": "arXiv:2608.07588v1 Announce Type: cross Abstract: Remote work has fundamentally reshaped urban economic life, and the spatial organisation of activity across cities. However, access to flexible work is distributed uneven…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z"
     }
