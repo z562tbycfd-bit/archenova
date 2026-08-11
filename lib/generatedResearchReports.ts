@@ -1,6 +1,171 @@
 export const generatedResearchReports =
 [
   {
+    "slug": "general-jackie-the-california-bald-eagle-who-became-an-internet-sensation-dies-after-ill",
+    "title": "Jackie, the California bald eagle who became an internet sensation, dies after illness",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-jackie-california-bald-eagle-internet.html",
+    "summary": "Jackie, the bald eagle who became an internet sensation and a symbol of the species' recovery in California, died Monday after being treated for an illness at a veterinary facility, her caretakers announced.",
+    "coreInsight": "Jackie, the California bald eagle who became an internet sensation, dies after illness is an early signal that may connect scientific discovery, technical implementation, institutional response, and long-term civilizational capability.",
+    "scientificSignal": "Jackie, the bald eagle who became an internet sensation and a symbol of the species' recovery in California, died Monday after being treated for an illness at a veterinary facility, her caretakers announced.",
+    "whyItMatters": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+    "implementationPotential": "Implementation potential lies in moving this General signal from research insight toward applied capability, operational systems, institutional adoption, and social implementation.",
+    "strategicRelevance": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "infrastructureImpact": "If implemented, this capability could influence infrastructure, institutions, industrial systems, governance, and long-term societal adaptation.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance lies in how this signal may expand civilization’s capacity to understand, build, adapt, and realize new futures.",
+    "capitalImplication": "Capital implication: monitor until stronger engineering readiness, market formation, infrastructure relevance, or institutional demand becomes visible.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Evidence quality",
+      "Engineering maturity",
+      "Institutional adoption",
+      "Economic feasibility"
+    ],
+    "watchpoints": [
+      "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "technologyRoadmap": [
+      "Scientific discovery",
+      "Applied science",
+      "Engineering system",
+      "Social implementation",
+      "Infrastructure formation"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Applied research and pilot implementation.",
+      "mid": "5–15 Years: Industrial and institutional adoption.",
+      "far": "15–30 Years: Infrastructure and civilization integration."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Medium",
+      "timeHorizon": "5–15 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 7.5,
+      "engineering": 7.5,
+      "economic": 7,
+      "civilization": 7.8,
+      "overall": 7.5,
+      "classification": "Emerging Future Signal"
+    },
+    "ts": 1786432202000
+  },
+  {
+    "slug": "energy-magnitude-7-4-quake-rocks-western-colombia-killing-at-least-111-people",
+    "title": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-magnitude-quake-western-colombia-people.html",
+    "summary": "A powerful 7.4 magnitude earthquake struck western Colombia on Monday, killing at least 111 people, damaging hundreds of buildings and leaving many trapped under debris while their loved ones and rescue workers searched …",
+    "coreInsight": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "A powerful 7.4 magnitude earthquake struck western Colombia on Monday, killing at least 111 people, damaging hundreds of buildings and leaving many trapped under debris while their loved ones and rescue workers searched …",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1786430174000
+  },
+  {
+    "slug": "general-weather-prediction-hits-a-theoretical-129-day-ceiling",
+    "title": "Weather prediction hits a theoretical 129-day ceiling",
+    "category": "General",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-weather-theoretical-day-ceiling.html",
+    "summary": "Prediction is the goal and test of all science, one might argue. Meteorologists have been curious about the inherent limits of weather forecasting ever since the dawn of numerical weather prediction in the late 1950s.",
+    "coreInsight": "Weather prediction hits a theoretical 129-day ceiling indicates a possible shift in environmental monitoring, climate adaptation, resource resilience, or planetary operating stability.",
+    "scientificSignal": "Prediction is the goal and test of all science, one might argue. Meteorologists have been curious about the inherent limits of weather forecasting ever since the dawn of numerical weather prediction in the late 1950s.",
+    "whyItMatters": "This matters because environmental change shapes the stability of food, water, infrastructure, health, security, and long-term adaptation capacity.",
+    "implementationPotential": "Implementation potential lies in translating this signal into climate adaptation, environmental monitoring, resource management, resilience planning, and planetary-scale sensing systems.",
+    "strategicRelevance": "Strategically relevant for climate resilience, environmental monitoring, disaster response, resource systems, and adaptive governance.",
+    "infrastructureImpact": "If implemented, this could affect environmental infrastructure: climate monitoring, water systems, disaster response, ecological management, and adaptive urban planning.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the strengthening of civilization’s adaptive capacity under planetary uncertainty and environmental change.",
+    "capitalImplication": "Capital implication: monitor for opportunities in climate adaptation, resource monitoring, resilience infrastructure, environmental intelligence, and risk-management systems.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Measurement reliability",
+      "Regional variability",
+      "Institutional adoption",
+      "Long-term financing and governance"
+    ],
+    "watchpoints": [
+      "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether the event produces sustained infrastructure disruption, public-health impacts, economic loss, governance stress, grid adaptation, emergency response, and measurable resilience investment.",
+    "technologyRoadmap": [
+      "Environmental signal discovery",
+      "Monitoring or adaptation system",
+      "Regional deployment",
+      "Infrastructure and governance integration",
+      "Planetary adaptive capacity"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Monitoring and adaptation tools.",
+      "mid": "5–15 Years: Regional resilience infrastructure.",
+      "far": "15–30 Years: Planetary adaptive-capacity systems."
+    },
+    "assessment": {
+      "probability": "High",
+      "impact": "High",
+      "timeHorizon": "5–20 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.1,
+      "engineering": 7.9,
+      "economic": 8,
+      "civilization": 9.2,
+      "overall": 8.4,
+      "classification": "Adaptive Resilience Signal"
+    },
+    "ts": 1786429933000
+  },
+  {
     "slug": "general-fluid-structure-interaction-and-underwater-hydrostatic-implosion-of-thin-walled-",
     "title": "Fluid-Structure Interaction and Underwater Hydrostatic Implosion of Thin-Walled Metallic Cylinders in Semi-Confined Conditions",
     "category": "General",
@@ -5193,14 +5358,14 @@ export const archeNovaTopSignals =
     "ts": 1786370368000
   },
   {
-    "slug": "energy-idea-search-guiding-tree-search-with-ideas-to-explore-diverse-scientific-methods",
-    "title": "Idea Search: Guiding Tree Search with Ideas to Explore Diverse Scientific Methods",
+    "slug": "energy-magnitude-7-4-quake-rocks-western-colombia-killing-at-least-111-people",
+    "title": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people",
     "category": "Energy",
-    "source": "arXiv q-bio",
-    "originalUrl": "https://arxiv.org/abs/2608.08958",
-    "summary": "arXiv:2608.08958v1 Announce Type: cross Abstract: Tree Search-based test-time scaling of LLMs is a powerful tool for automated scientific coding. However, pure Tree Search sometimes struggles with systematic exploration,…",
-    "coreInsight": "Idea Search: Guiding Tree Search with Ideas to Explore Diverse Scientific Methods indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
-    "scientificSignal": "arXiv:2608.08958v1 Announce Type: cross Abstract: Tree Search-based test-time scaling of LLMs is a powerful tool for automated scientific coding. However, pure Tree Search sometimes struggles with systematic exploration,…",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-magnitude-quake-western-colombia-people.html",
+    "summary": "A powerful 7.4 magnitude earthquake struck western Colombia on Monday, killing at least 111 people, damaging hundreds of buildings and leaving many trapped under debris while their loved ones and rescue workers searched …",
+    "coreInsight": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "A powerful 7.4 magnitude earthquake struck western Colombia on Monday, killing at least 111 people, damaging hundreds of buildings and leaving many trapped under debris while their loved ones and rescue workers searched …",
     "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
     "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
     "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
@@ -5245,7 +5410,7 @@ export const archeNovaTopSignals =
       "overall": 9.2,
       "classification": "Civilization Energy Signal"
     },
-    "ts": 1786420800000
+    "ts": 1786430174000
   }
 ];
 
@@ -5766,6 +5931,63 @@ export const archeNovaWatchlist =
     "rank": 9
   },
   {
+    "slug": "energy-magnitude-7-4-quake-rocks-western-colombia-killing-at-least-111-people",
+    "title": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people",
+    "category": "Energy",
+    "source": "Phys.org",
+    "originalUrl": "https://phys.org/news/2026-08-magnitude-quake-western-colombia-people.html",
+    "summary": "A powerful 7.4 magnitude earthquake struck western Colombia on Monday, killing at least 111 people, damaging hundreds of buildings and leaving many trapped under debris while their loved ones and rescue workers searched …",
+    "coreInsight": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people indicates a possible shift in the energy systems that determine industrial scale, infrastructure resilience, and civilization-level operating freedom.",
+    "scientificSignal": "A powerful 7.4 magnitude earthquake struck western Colombia on Monday, killing at least 111 people, damaging hundreds of buildings and leaving many trapped under debris while their loved ones and rescue workers searched …",
+    "whyItMatters": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
+    "implementationPotential": "Implementation potential lies in converting this signal into energy generation, storage, conversion, grid integration, industrial decarbonization, and resilience systems.",
+    "strategicRelevance": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "infrastructureImpact": "If stabilized, this could affect energy infrastructure: grids, storage networks, industrial plants, transportation systems, national resilience, and long-term energy security.",
+    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of energetic freedom: the ability to sustain, scale, and stabilize complex civilization systems.",
+    "capitalImplication": "Capital implication: monitor for investable pathways in generation, storage, grid systems, hydrogen, batteries, industrial energy, and resilience infrastructure.",
+    "civilizationFunction": "Civilization Engineering",
+    "keyConstraints": [
+      "Technical reliability",
+      "Grid or industrial integration",
+      "Capital intensity",
+      "Long-duration operational performance"
+    ],
+    "watchpoints": [
+      "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
+      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
+    ],
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "technologyRoadmap": [
+      "Energy mechanism discovery",
+      "Prototype conversion system",
+      "Industrial-scale validation",
+      "Grid or storage integration",
+      "Civilization-scale energy resilience"
+    ],
+    "strategicHorizon": {
+      "near": "1–5 Years: Demonstration projects and industrial pilots.",
+      "mid": "5–15 Years: Grid integration and commercial deployment.",
+      "far": "15–30 Years: Civilization-scale energy resilience and abundance."
+    },
+    "assessment": {
+      "probability": "Medium",
+      "impact": "Very High",
+      "timeHorizon": "10–30 Years"
+    },
+    "archeNovaAssessment": {
+      "scientific": 8.7,
+      "engineering": 9.1,
+      "economic": 9.3,
+      "civilization": 9.7,
+      "overall": 9.2,
+      "classification": "Civilization Energy Signal"
+    },
+    "ts": 1786430174000,
+    "trend": "Stable",
+    "rank": 10
+  },
+  {
     "slug": "energy-idea-search-guiding-tree-search-with-ideas-to-explore-diverse-scientific-methods",
     "title": "Idea Search: Guiding Tree Search with Ideas to Explore Diverse Scientific Methods",
     "category": "Energy",
@@ -5820,7 +6042,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786420800000,
     "trend": "Stable",
-    "rank": 10
+    "rank": 11
   },
   {
     "slug": "general-bms-chooses-houston-for-2-3b-manufacturing-facility",
@@ -5877,7 +6099,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786409507000,
     "trend": "Stable",
-    "rank": 11
+    "rank": 12
   },
   {
     "slug": "energy-model-ml-completes-finance-work-more-efficiently-with-gpt-5-6-sol",
@@ -5934,7 +6156,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786363200000,
     "trend": "Stable",
-    "rank": 12
+    "rank": 13
   },
   {
     "slug": "energy-afghanistan-un-tells-taliban-to-open-up-on-abuses-committed-by-security-forces",
@@ -5991,7 +6213,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786363200000,
     "trend": "Stable",
-    "rank": 13
+    "rank": 14
   },
   {
     "slug": "general-cmos-image-sensors-for-cevns-detection-at-nuclear-reactors",
@@ -6048,7 +6270,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786420800000,
     "trend": "Stable",
-    "rank": 14
+    "rank": 15
   },
   {
     "slug": "ai-a-high-gain-preamplifier-board-for-low-charge-semiconductor-detectors",
@@ -6105,7 +6327,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786420800000,
     "trend": "Stable",
-    "rank": 15
+    "rank": 16
   },
   {
     "slug": "ai-bacterial-trait-finding-and-gene-mapping-platform-speeds-microbial-engineering-f",
@@ -6163,7 +6385,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786398701000,
     "trend": "Stable",
-    "rank": 16
+    "rank": 17
   },
   {
     "slug": "space-wildfires-drought-and-extreme-heat-2026",
@@ -6220,7 +6442,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786366800000,
     "trend": "Stable",
-    "rank": 17
+    "rank": 18
   },
   {
     "slug": "bio-nuclear-mechanics-controls-the-temporal-dynamics-of-cell-unjamming",
@@ -6278,7 +6500,7 @@ export const archeNovaWatchlist =
     },
     "ts": 1786420800000,
     "trend": "Stable",
-    "rank": 18
+    "rank": 19
   },
   {
     "slug": "bio-splashing-velocity-of-a-viscous-liquid-squeezed-between-two-parallel-disks",
@@ -6289,64 +6511,6 @@ export const archeNovaWatchlist =
     "summary": "arXiv:2608.07960v1 Announce Type: new Abstract: Squeezing of a liquid film between two approaching solid surfaces can generate a high-speed peripheral splash. Despite extensive studies on squeeze-film hydrodynamics, quan…",
     "coreInsight": "Splashing velocity of a viscous liquid squeezed between two parallel disks indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
     "scientificSignal": "arXiv:2608.07960v1 Announce Type: new Abstract: Squeezing of a liquid film between two approaching solid surfaces can generate a high-speed peripheral splash. Despite extensive studies on squeeze-film hydrodynamics, quan…",
-    "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
-    "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
-    "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",
-    "infrastructureImpact": "If validated and scaled, this could affect biotechnology infrastructure: breeding platforms, bio-manufacturing, agricultural systems, seed networks, laboratory capacity, biosafety systems, and food-security infrastructure.",
-    "civilizationImpact": "From the ArcheNova perspective, the deeper significance is the expansion of civilization’s ability to intentionally understand, modify, reproduce, and govern biological systems.",
-    "capitalImplication": "Capital implication: monitor for platform potential in genome engineering, crop biotechnology, synthetic biology, bio-manufacturing, laboratory infrastructure, agricultural systems, and regulated biological applications.",
-    "civilizationFunction": "Adaptive Capacity",
-    "keyConstraints": [
-      "Independent biological validation",
-      "Off-target effects and genetic stability",
-      "Biosafety and ecological consequences",
-      "Regulatory approval and public legitimacy",
-      "Intellectual property and access constraints"
-    ],
-    "watchpoints": [
-      "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-      "Monitor whether adjacent signals appear from credible scientific, industrial, governmental, or capital-market sources.",
-      "Monitor whether the signal strengthens Horizon Map priority, Institute relevance, or Capital relevance over time."
-    ],
-    "watchpoint": "Watch whether this moves from laboratory demonstration into reproducible biological performance, independent validation, biosafety review, regulatory acceptance, and real agricultural, medical, or industrial deployment.",
-    "technologyRoadmap": [
-      "Biological mechanism discovery",
-      "Genome or biotechnology platform development",
-      "Controlled validation and biosafety review",
-      "Agricultural, medical, or industrial deployment",
-      "Governed biological capability infrastructure"
-    ],
-    "strategicHorizon": {
-      "near": "1–5 Years: Platform validation, controlled trials, precision breeding, and early biotechnology deployment.",
-      "mid": "5–15 Years: Agricultural, medical, and industrial biotechnology integration.",
-      "far": "15–30 Years: Mature biological infrastructure governed across food, health, industry, and ecosystems."
-    },
-    "assessment": {
-      "probability": "Medium",
-      "impact": "Very High",
-      "timeHorizon": "5–15 Years"
-    },
-    "archeNovaAssessment": {
-      "scientific": 9.1,
-      "engineering": 8.5,
-      "economic": 8.8,
-      "civilization": 9.6,
-      "overall": 9,
-      "classification": "Biological Capability Signal"
-    },
-    "ts": 1786420800000,
-    "trend": "Stable",
-    "rank": 19
-  },
-  {
-    "slug": "bio-oxygen-reduction-reaction-on-platinum-nanocatalysts-produces-long-lived-hysteret",
-    "title": "Oxygen Reduction Reaction on Platinum Nanocatalysts Produces Long-Lived, Hysteretic Oxygenated Adsorbates",
-    "category": "Bio",
-    "source": "arXiv Physics",
-    "originalUrl": "https://arxiv.org/abs/2608.08050",
-    "summary": "arXiv:2608.08050v1 Announce Type: new Abstract: Aqueous electrocatalysis generates oxygenated intermediates at catalyst surfaces. While intermediate species on single-crystal catalysts have been observed, the nature and …",
-    "coreInsight": "Oxygen Reduction Reaction on Platinum Nanocatalysts Produces Long-Lived, Hysteretic Oxygenated Adsorbates indicates a possible shift in genome engineering, precision breeding, biological manufacturing, synthetic biology, or civilization’s ability to intentionally modify living systems.",
-    "scientificSignal": "arXiv:2608.08050v1 Announce Type: new Abstract: Aqueous electrocatalysis generates oxygenated intermediates at catalyst surfaces. While intermediate species on single-crystal catalysts have been observed, the nature and …",
     "whyItMatters": "This matters because biological engineering can reshape food security, medicine, agriculture, manufacturing, ecological resilience, and civilization’s relationship with living systems.",
     "implementationPotential": "Implementation potential lies in translating this signal into genome engineering, precision breeding, biological manufacturing, crop resilience, synthetic biology platforms, and regulated biotechnology systems.",
     "strategicRelevance": "Strategically relevant for genome engineering, precision breeding, synthetic biology, agricultural resilience, biological manufacturing, biosafety, and biotechnology governance.",

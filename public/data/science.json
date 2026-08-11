@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-11T05:11:33.346Z",
+  "updated": "2026-08-11T07:11:09.441Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Jackie, the California bald eagle who became an internet sensation, dies after illness",
+      "url": "https://phys.org/news/2026-08-jackie-california-bald-eagle-internet.html",
+      "summary": "Jackie, the bald eagle who became an internet sensation and a symbol of the species' recovery in California, died Monday after being treated for an illness at a veterinary facility, her caretakers announced.",
+      "ts": 1786432202000,
+      "publishedAt": "2026-08-11T07:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people",
+      "url": "https://phys.org/news/2026-08-magnitude-quake-western-colombia-people.html",
+      "summary": "A powerful 7.4 magnitude earthquake struck western Colombia on Monday, killing at least 111 people, damaging hundreds of buildings and leaving many trapped under debris while their loved ones and rescue workers searched …",
+      "ts": 1786430174000,
+      "publishedAt": "2026-08-11T06:36:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Weather prediction hits a theoretical 129-day ceiling",
+      "url": "https://phys.org/news/2026-08-weather-theoretical-day-ceiling.html",
+      "summary": "Prediction is the goal and test of all science, one might argue. Meteorologists have been curious about the inherent limits of weather forecasting ever since the dawn of numerical weather prediction in the late 1950s.",
+      "ts": 1786429933000,
+      "publishedAt": "2026-08-11T06:32:13.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "Fluid-Structure Interaction and Underwater Hydrostatic Implosion of Thin-Walled Metallic Cylinders in Semi-Confined Conditions",
@@ -775,30 +799,6 @@
       "title": "Workplace dependence in urban economies",
       "url": "https://arxiv.org/abs/2608.07588",
       "summary": "arXiv:2608.07588v1 Announce Type: cross Abstract: Remote work has fundamentally reshaped urban economic life, and the spatial organisation of activity across cities. However, access to flexible work is distributed uneven…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Leveraging generative models to assist Monte Carlo sampling",
-      "url": "https://arxiv.org/abs/2608.07648",
-      "summary": "arXiv:2608.07648v1 Announce Type: cross Abstract: Sampling high-dimensional probability distributions is a central task in scientific computing, with applications ranging from Bayesian inference to statistical physics an…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Testing Antimatter Couplings with Spectroscopy",
-      "url": "https://arxiv.org/abs/2608.07656",
-      "summary": "arXiv:2608.07656v1 Announce Type: cross Abstract: We investigate how scalar-mediated potentials with Lorentz-violating couplings to Standard Model fermions affect spectroscopic observables in atoms and highly charged ion…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Classical fractons with cosmological fixed points",
-      "url": "https://arxiv.org/abs/2608.07672",
-      "summary": "arXiv:2608.07672v1 Announce Type: cross Abstract: Classical fractons are Hamiltonian systems that can develop attractors after projection onto configuration or shape variables, although the full phase space admits none. …",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z"
     }
