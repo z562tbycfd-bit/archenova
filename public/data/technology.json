@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-11T21:51:03.579Z",
+  "updated": "2026-08-11T22:44:55.606Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Stopping statins in people over 75 at low risk for heart disease didn’t increase deaths ",
+      "url": "https://www.statnews.com/2026/08/11/stop-statins-age-75-lancet-study-suggests-safe-healthy-adults/?utm_campaign=rss",
+      "summary": "Stopping statins in people over 75 at low risk for heart disease didn’t increase deaths, a new study finds.",
+      "ts": 1786487400000,
+      "publishedAt": "2026-08-11T22:30:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Medicaid will stop paying for some gender-affirming care for transgender minors",
+      "url": "https://www.statnews.com/2026/08/11/medicaid-to-end-funding-gender-affirming-care-transgender-youth/?utm_campaign=rss",
+      "summary": "The Trump administration plans to end federal funding for some care for transgender minors.",
+      "ts": 1786486735000,
+      "publishedAt": "2026-08-11T22:18:55.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Golden Dome faces 2027 funding cliff ",
+      "url": "https://spacenews.com/golden-dome-faces-2027-funding-cliff/",
+      "summary": "Gen. Michael Guetlein says Congress must find a way to finance the next phase as most initial funding is already committed The post Golden Dome faces 2027 funding cliff appeared first on SpaceNews.",
+      "ts": 1786485681000,
+      "publishedAt": "2026-08-11T22:01:21.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Parasite-Specific Protein Helps Toxoplasma Adapt to Crowded Conditions",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/parasite-specific-protein-helps-toxoplasma-adapt-to-crowded-conditions/",
+      "summary": "Scientists identified a previously unknown way that the parasite Toxoplasma can adapt to growing in crowded environments of tissue cysts, and identified the protein TgPRO, as a dedicated regulator of metabolic gene expre…",
+      "ts": 1786485419000,
+      "publishedAt": "2026-08-11T21:56:59.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "NASA",
       "title": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
@@ -772,42 +808,6 @@
       "title": "Learning Biophysical Models of Large-Scale Multineuronal Data to Enable Precise Neurostimulation",
       "url": "https://arxiv.org/abs/2607.04063",
       "summary": "arXiv:2607.04063v2 Announce Type: replace Abstract: Multi-compartment Hodgkin-Huxley (HH) models provide a principled framework for predicting neural dynamics and responses to electrical stimulation. However, fitting HH …",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "A Physics-Inspired Classical Digital Twin of Cortical Dynamics: A Band-Stratified Metriplectic Port-Hamiltonian Neural Network Learned from Brain-Computer-Interface EEG",
-      "url": "https://arxiv.org/abs/2607.10439",
-      "summary": "arXiv:2607.10439v4 Announce Type: replace Abstract: We present a physics-inspired classical digital twin of brain-computer- interface (BCI) data: a graph neural network constrained to a band-stratified, metriplectic port…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Evolutionary Entropy Shapes Lifespan of the Greenland Shark",
-      "url": "https://arxiv.org/abs/2607.19203",
-      "summary": "arXiv:2607.19203v2 Announce Type: replace Abstract: The Greenland shark (Somniosus microcephalus) is among the longest-lived vertebrates known, with female maturity estimated at about 156 years and maximum ages approachi…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Loom: Multi-Region Analysis of Spatial Transcriptomics with Local Neighborhoods and Global Trajectories",
-      "url": "https://arxiv.org/abs/2607.22505",
-      "summary": "arXiv:2607.22505v2 Announce Type: replace Abstract: We present Loom, a spatial transcriptomics (ST) visual computing system to support the analysis of pseudo-temporal trajectories, comparative investigation across sample…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Stochastic partial differential equation model for environmental DNA dynamics in river environments",
-      "url": "https://arxiv.org/abs/2608.03364",
-      "summary": "arXiv:2608.03364v2 Announce Type: replace Abstract: Environmental DNA (eDNA) has emerged as a novel tool for quantifying the seasonal abundance of aquatic species in water bodies; however, its mathematical modeling is st…",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z",
       "categoryId": "bio"
