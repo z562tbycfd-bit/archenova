@@ -1,7 +1,55 @@
 {
   "ok": true,
-  "updated": "2026-08-11T22:44:53.404Z",
+  "updated": "2026-08-11T23:42:25.048Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Can better civics education restore voter dissatisfaction over political corruption?",
+      "url": "https://phys.org/news/2026-08-civics-voter-dissatisfaction-political-corruption.html",
+      "summary": "This summer, America celebrated the 250th anniversary of the signing of the Declaration of Independence, widely recognized as the formal founding of our nation and one of the early stages of establishing a democratic gov…",
+      "ts": 1786491604000,
+      "publishedAt": "2026-08-11T23:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genetic neighborhoods distinguish harmful poultry bacteria from harmless strains",
+      "url": "https://phys.org/news/2026-08-genetic-neighborhoods-distinguish-poultry-bacteria.html",
+      "summary": "When it comes to identifying harmful bacteria, it helps to look at the company their genes keep. Researchers with the Arkansas Agricultural Experiment Station, the research arm of the University of Arkansas Division of A…",
+      "ts": 1786491602000,
+      "publishedAt": "2026-08-11T23:40:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI-assisted grant proposals may win more often—while narrowing research ideas",
+      "url": "https://phys.org/news/2026-08-ai-grant-narrowing-ideas.html",
+      "summary": "A new study from Northwestern's Kellogg School of Management found that research proposals showing stronger signs of AI-assisted writing were four percentage points more likely to receive funding from the National Instit…",
+      "ts": 1786490403000,
+      "publishedAt": "2026-08-11T23:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Real-time X-ray data analysis with DONUT accelerates materials science",
+      "url": "https://phys.org/news/2026-08-real-ray-analysis-donut-materials.html",
+      "summary": "What if scientists could get a taste of discovery as soon as their experiment finishes? Thanks to a new machine learning tool called DONUT, researchers at the U.S. Department of Energy's (DOE) Argonne National Laboratory…",
+      "ts": 1786490401000,
+      "publishedAt": "2026-08-11T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Why do certain lyrics touch us so deeply? We studied 35 years of hits to find out",
+      "url": "https://phys.org/news/2026-08-lyrics-deeply-years.html",
+      "summary": "A growing body of research suggests that listening to music has a positive impact on our health and well-being. We use music in at least seven different ways to regulate our emotions, including for entertainment, comfort…",
+      "ts": 1786489206000,
+      "publishedAt": "2026-08-11T23:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rivers are moving sediment in intense bursts, a worrisome new pattern uncovered by AI",
+      "url": "https://phys.org/news/2026-08-rivers-sediment-intense-worrisome-pattern.html",
+      "summary": "After a heavy rain, rivers often turn brown with sediment, sand, silt and soil washed from the landscape that play a vital role in shaping rivers.",
+      "ts": 1786489201000,
+      "publishedAt": "2026-08-11T23:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Beyond color: Fluorescence lifetime imaging distinguishes multiple proteins in living plant cells",
@@ -595,26 +643,10 @@
       "publishedAt": "2026-08-11T10:00:01.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Linear optical <span class=\"sc\">fan</span>-<span class=\"sc\">out</span> gates using fewer ancillary single photons with enhanced success probability",
-      "url": "http://link.aps.org/doi/10.1103/cs4d-lpfj",
-      "summary": "Author(s): Wen-Qiang Liu and Hai-Rui Wei Photonic quantum gates are fundamental building blocks for a wide range of optical quantum information processing tasks. We propose an efficient linear-optical scheme for implemen…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Gaussian Time-Translation Covariant Operations: Structure, Implementation, and Thermodynamics",
       "url": "http://link.aps.org/doi/10.1103/9kmm-52nx",
       "summary": "Author(s): Xueyuan Hu, Lea Lautenbacher, Giovanni Spaventa, Martin B. Plenio, Nelly H. Y. Ng, and Jeongrak Son Time-translation symmetry strongly constrains physical dynamics, yet systematic characterization for continuo…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Bridging Quantum and Semiclassical Thermodynamics in Cavity QED",
-      "url": "http://link.aps.org/doi/10.1103/y6h7-sx93",
-      "summary": "Author(s): Marcelo Janovitch, Sander Stammbach, Matteo Brunelli, and Patrick P. Potts In cavity quantum electrodynamics (QED), photons leaving the cavity can be irreversibly lost or reused as a power source. This dichoto…",
       "ts": 1786442400000,
       "publishedAt": "2026-08-11T10:00:00.000Z"
     },
@@ -631,6 +663,86 @@
       "title": "Measurement of the Minimum Cold Dark Matter Halo Mass with Strong Gravitational Lensing",
       "url": "http://link.aps.org/doi/10.1103/jnjt-1ghp",
       "summary": "Author(s): A. M. Nierenberg, D. Gilman, T. Treu, X. Du, C. Gannon, H. Paugnat, S. Birrer, A. J. Benson, K. N. Abazajian, T. Anguita, S. G. Djorgovski, S. F. Hoenig, R. E. Keeley, A. Kusenko, H. R. Larsson, L. A. Moustaka…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Contactless Cavity Sensing of Superfluid Stiffness in Atomically Thin $4\\mathrm{Hb}\\text{−}{\\mathrm{TaS}}_{2}$",
+      "url": "http://link.aps.org/doi/10.1103/p6wt-2dkx",
+      "summary": "Author(s): Trevor Chistolini, Ha-Leem Kim, Qiyu Wang, Su-Di Chen, Luke Pritchard Cairns, Ryan Patrick Day, Collin Sanborn, Hyunseong Kim, Zahra Pedramrazi, Ruishi Qi, Takashi Taniguchi, Kenji Watanabe, James G. Analytis,…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Layer Edelstein Effect",
+      "url": "http://link.aps.org/doi/10.1103/qhvs-pfkq",
+      "summary": "Author(s): Binchang Zhou, Pan Zhou, Baoru Pan, Yuzhong Hu, Songmin Liu, and Lizhong Sun Electrical control of magnetism represents a fundamental route toward next-generation spintronic functionalities. In this Letter, we…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Chirality and Quasi-Long-Range Order in Finite-Flux Gutzwiller States for Magnetized Frustrated Magnets",
+      "url": "http://link.aps.org/doi/10.1103/g52b-t4cj",
+      "summary": "Author(s): Wen O. Wang, Urban F. P. Seifert, Oleg A. Starykh, and Leon Balents We study Gutzwiller-projected wave functions for triangular-lattice U(1) Dirac spin liquids in a Zeeman field, where we allow the U(1) gauge …",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Current-Driven Nonlinear Skyrmion Dynamics in $d$-Wave Altermagnets",
+      "url": "http://link.aps.org/doi/10.1103/y9q4-13fw",
+      "summary": "Author(s): Yang Liu, Zhejunyu Jin, Jie Liu, and Peng Yan The center of mass and helicity are two dynamic degrees of freedom of skyrmions. In this Letter, we study the current-driven skyrmion motion in frustrated $d$-wave…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Symmetry-Protected Phases in a 1D Active Solid with Mechanochemical Feedback",
+      "url": "http://link.aps.org/doi/10.1103/p1bw-v87g",
+      "summary": "Author(s): Soumyadeep Mondal, Phanindra Dewan, Lakshman Santhosh Kumar, and Sumantra Sarkar We present a framework for mechanochemical self-organization in active solids where elasticity is reciprocally coupled to Hopf o…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Cochlear Nonlinear Network Correlate of Consonant vs Dissonant Sounds Perception",
+      "url": "http://link.aps.org/doi/10.1103/8brp-kdpy",
+      "summary": "Author(s): Florian Gomez and Ruedi Stoop For centuries, the human distinction between consonant and dissonant dyadic sounds (“c-d perception phenomenon”) has remained an unresolved puzzle, igniting novel directions in ph…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Strain-Tunable Anomalous Hall Effect in Hexagonal MnTe",
+      "url": "http://link.aps.org/doi/10.1103/589s-s1yy",
+      "summary": "Author(s): Zhaoyu Liu, Sijie Xu, Jonathan M. DeStefano, Elliott Rosenberg, Tingjun Zhang, Jinyulin Li, Matthew B. Stone, Feng Ye, Wei Tian, Sarah Edwards, Rong Cong, Siyu Pan, Ching-Wu Chu, Liangzi Deng, Emilia Morosan, …",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS PRX",
+      "title": "Pseudogap, Fermi Liquid, Van Hove Singularity, and Maxima of the Compressibility and of the Knight Shift as a Function of Doping in the Two-Dimensional Hubbard Model",
+      "url": "http://link.aps.org/doi/10.1103/7v3y-tbbr",
+      "summary": "Author(s): Y. M. Vilk and A.-M. S. Tremblay Analysis of Hubbard model simulations reveals that a maximum in the isothermal compressibility marks the pseudogap boundary, driven by spin-density-wave precursor bands crossin…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Linear optical <span class=\"sc\">fan</span>-<span class=\"sc\">out</span> gates using fewer ancillary single photons with enhanced success probability",
+      "url": "http://link.aps.org/doi/10.1103/cs4d-lpfj",
+      "summary": "Author(s): Wen-Qiang Liu and Hai-Rui Wei Photonic quantum gates are fundamental building blocks for a wide range of optical quantum information processing tasks. We propose an efficient linear-optical scheme for implemen…",
+      "ts": 1786442400000,
+      "publishedAt": "2026-08-11T10:00:00.000Z"
+    },
+    {
+      "source": "APS Physical Review Letters",
+      "title": "Bridging Quantum and Semiclassical Thermodynamics in Cavity QED",
+      "url": "http://link.aps.org/doi/10.1103/y6h7-sx93",
+      "summary": "Author(s): Marcelo Janovitch, Sander Stammbach, Matteo Brunelli, and Patrick P. Potts In cavity quantum electrodynamics (QED), photons leaving the cavity can be irreversibly lost or reused as a power source. This dichoto…",
       "ts": 1786442400000,
       "publishedAt": "2026-08-11T10:00:00.000Z"
     },
@@ -676,14 +788,6 @@
     },
     {
       "source": "APS Physical Review Letters",
-      "title": "Contactless Cavity Sensing of Superfluid Stiffness in Atomically Thin $4\\mathrm{Hb}\\text{−}{\\mathrm{TaS}}_{2}$",
-      "url": "http://link.aps.org/doi/10.1103/p6wt-2dkx",
-      "summary": "Author(s): Trevor Chistolini, Ha-Leem Kim, Qiyu Wang, Su-Di Chen, Luke Pritchard Cairns, Ryan Patrick Day, Collin Sanborn, Hyunseong Kim, Zahra Pedramrazi, Ruishi Qi, Takashi Taniguchi, Kenji Watanabe, James G. Analytis,…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
       "title": "Microscopic Insight into Enhanced Electron Heat Capacity in Silicon Nanoparticles",
       "url": "http://link.aps.org/doi/10.1103/nxw2-sz2m",
       "summary": "Author(s): A. Aryanpour and Ali Sadeghi We report a strong size dependence in the electronic heat capacity of silicon nanoclusters, tracing its origin to the distinctive electronic structure of surface atoms. By combinin…",
@@ -697,110 +801,6 @@
       "summary": "Author(s): Kuo-En Chang, Aitor Garcia-Ruiz (艾飛宇), Ta-Lei Chou, Yen-Ting Liu, Sheng-Chin Ho, Yu-Chiang Hsieh, Ching-Hua Kao (高慶樺), Chiu-Hua Huang, Ying-Mei Yang, Kenji Watanabe, Takashi Taniguchi, Ming-Wen Chu, Ming-Hao L…",
       "ts": 1786442400000,
       "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Layer Edelstein Effect",
-      "url": "http://link.aps.org/doi/10.1103/qhvs-pfkq",
-      "summary": "Author(s): Binchang Zhou, Pan Zhou, Baoru Pan, Yuzhong Hu, Songmin Liu, and Lizhong Sun Electrical control of magnetism represents a fundamental route toward next-generation spintronic functionalities. In this Letter, we…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Exact Dynamical Structure Factor of One-Dimensional Hard Rods and its Universal Random Matrix Behavior",
-      "url": "http://link.aps.org/doi/10.1103/3vp9-dpws",
-      "summary": "Author(s): Oleksandr Gamayun and Miłosz Panfil An exact, nonperturbative formula for the dynamic structure factor of a strongly correlated gas of quantum hard rods captures features such as edge singularities and the dif…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Chirality and Quasi-Long-Range Order in Finite-Flux Gutzwiller States for Magnetized Frustrated Magnets",
-      "url": "http://link.aps.org/doi/10.1103/g52b-t4cj",
-      "summary": "Author(s): Wen O. Wang, Urban F. P. Seifert, Oleg A. Starykh, and Leon Balents We study Gutzwiller-projected wave functions for triangular-lattice U(1) Dirac spin liquids in a Zeeman field, where we allow the U(1) gauge …",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Current-Driven Nonlinear Skyrmion Dynamics in $d$-Wave Altermagnets",
-      "url": "http://link.aps.org/doi/10.1103/y9q4-13fw",
-      "summary": "Author(s): Yang Liu, Zhejunyu Jin, Jie Liu, and Peng Yan The center of mass and helicity are two dynamic degrees of freedom of skyrmions. In this Letter, we study the current-driven skyrmion motion in frustrated $d$-wave…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Fermi and Darling-Dennison Resonances in Vibrational Spectra of Solids from First Principles",
-      "url": "http://link.aps.org/doi/10.1103/s3jm-3977",
-      "summary": "Author(s): Davide Mitoli, Jacques K. Desmarais, Jean-Pierre Flament, Lorenzo Mino, and Alessandro Erba Infrared (IR) and Raman vibrational spectra of materials and surfaces can be rather complex and are often interpreted…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Symmetry-Protected Phases in a 1D Active Solid with Mechanochemical Feedback",
-      "url": "http://link.aps.org/doi/10.1103/p1bw-v87g",
-      "summary": "Author(s): Soumyadeep Mondal, Phanindra Dewan, Lakshman Santhosh Kumar, and Sumantra Sarkar We present a framework for mechanochemical self-organization in active solids where elasticity is reciprocally coupled to Hopf o…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Cochlear Nonlinear Network Correlate of Consonant vs Dissonant Sounds Perception",
-      "url": "http://link.aps.org/doi/10.1103/8brp-kdpy",
-      "summary": "Author(s): Florian Gomez and Ruedi Stoop For centuries, the human distinction between consonant and dissonant dyadic sounds (“c-d perception phenomenon”) has remained an unresolved puzzle, igniting novel directions in ph…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Dynamic imaging of periodic structures using extreme-ultraviolet scatterometry",
-      "url": "http://link.aps.org/doi/10.1103/py1n-pg79",
-      "summary": "Author(s): Brendan McBennett, Michael Tanksalvala, Emma E. Nelson, Theodore H. Culman, Yunhao Li, Jiayi Liu, Ethan Berk, Albert Beardo, James Harford, Justin M. Shaw, Henry C. Kapteyn, Margaret M. Murnane, and Joshua L. …",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Distinguishing types of correlated errors in superconducting qubits",
-      "url": "http://link.aps.org/doi/10.1103/j235-47t6",
-      "summary": "Author(s): H. P. Binney, H. D. Pinckney, K. Azar, P. M. Harrington, S. Jha, M. Li, J. Yang, F. Contipelli, R. DePencier Piñero, M. Gingras, B. M. Niedzielski, H. Stickler, M. E. Schwartz, J. A. Grover, M. Hays, K. Sernia…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Erratum: High-performance chiral mirrors by twisted anisotropic photonic crystals [Phys. Rev. Applied <b>23</b>, 064027 (2025)]",
-      "url": "http://link.aps.org/doi/10.1103/9rfq-298h",
-      "summary": "Author(s): Andrea Alessandrini, Leone di Mauro Villari, Luca Assogna, Matteo Silvestri, Matteo Venturi, Carino Ferrante, Paola Benassi, Davide Tedeschi, and Andrea Marini [Phys. Rev. Applied 26, 029901] Published Tue Aug…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Ancient Colombians built huge water system without centralized rule, archaeologists say",
-      "url": "https://phys.org/news/2026-08-ancient-colombians-built-huge-centralized.html",
-      "summary": "Communities living in Colombia thousands of years ago achieved an engineering wonder of the world based on cooperation among family groups without top-down government, a new study shows. Archaeologists argue that policym…",
-      "ts": 1786438805000,
-      "publishedAt": "2026-08-11T09:00:05.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "New optical method reveals internal dynamics of elusive Wigner crystals",
-      "url": "https://phys.org/news/2026-08-optical-method-reveals-internal-dynamics.html",
-      "summary": "Researchers at the University of Basel and the Technical University of Munich have developed a new method to reveal the collective motion of electrons in one of the most elusive states of matter: the Wigner crystal. Usin…",
-      "ts": 1786438803000,
-      "publishedAt": "2026-08-11T09:00:03.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Jackie, the California bald eagle who became an internet sensation, dies after illness",
-      "url": "https://phys.org/news/2026-08-jackie-california-bald-eagle-internet.html",
-      "summary": "Jackie, the bald eagle who became an internet sensation and a symbol of the species' recovery in California, died Monday after being treated for an illness at a veterinary facility, her caretakers announced.",
-      "ts": 1786432202000,
-      "publishedAt": "2026-08-11T07:10:02.000Z"
     }
   ],
   "sources": [
