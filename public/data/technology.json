@@ -1,7 +1,43 @@
 {
   "ok": true,
-  "updated": "2026-08-11T22:58:26.547Z",
+  "updated": "2026-08-12T02:06:24.240Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Firefly increases vehicle production even as launches lag",
+      "url": "https://spacenews.com/firefly-increases-vehicle-production-even-as-launches-lag/",
+      "summary": "Firefly Aerospace says it is seeing strong interest in its launch vehicles and is ramping up production, but those efforts have yet to translate into an increased launch rate. The post Firefly increases vehicle productio…",
+      "ts": 1786500373000,
+      "publishedAt": "2026-08-12T02:06:13.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "U.S. expands missile production as Army seeks more depth in its arsenal",
+      "url": "https://spacenews.com/u-s-expands-missile-production-as-army-seeks-more-depth-in-its-arsenal/",
+      "summary": "Recent Northrop, Lockheed and L3Harris agreements are aimed at expanding capacity across propulsion, structures and other constrained parts of the missile supply chain The post U.S. expands missile production as Army see…",
+      "ts": 1786498440000,
+      "publishedAt": "2026-08-12T01:34:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
+      "url": "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute/",
+      "summary": "We announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to establish independent financing platforms designed to mobilize over $500 billion of third-party capital to support the bu…",
+      "ts": 1786495101000,
+      "publishedAt": "2026-08-12T00:38:21.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Steroid Curbs Chronic Lung Inflammation Without Weakening Immune Defenses",
+      "url": "https://www.genengnews.com/topics/infectious-diseases/steroid-curbs-chronic-lung-inflammation-without-weakening-immune-defenses/",
+      "summary": "Dexamethasone reduced inflammatory signaling in human macrophages infected with Mycobacterium avium without increasing bacterial growth, suggesting a potential host-directed approach for nontuberculous mycobacterial dise…",
+      "ts": 1786493985000,
+      "publishedAt": "2026-08-12T00:19:45.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Stopping statins in people over 75 at low risk for heart disease didn’t increase deaths ",
@@ -772,42 +808,6 @@
       "title": "SPD Learn: A Geometric Deep Learning Python Library for Neural Decoding Through Trivialization",
       "url": "https://arxiv.org/abs/2602.22895",
       "summary": "arXiv:2602.22895v2 Announce Type: replace Abstract: Implementations of symmetric positive definite (SPD) matrix-based neural networks for neural decoding remain fragmented across research codebases and Python packages. E…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Large Language Models Align with the Human Brain during Creative Thinking",
-      "url": "https://arxiv.org/abs/2604.03480",
-      "summary": "arXiv:2604.03480v2 Announce Type: replace Abstract: Creative thinking is a fundamental aspect of human cognition, and divergent thinking-the capacity to generate novel and varied ideas-is widely regarded as its core gene…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Local growth laws determine global shape of molluscan shells",
-      "url": "https://arxiv.org/abs/2604.21988",
-      "summary": "arXiv:2604.21988v2 Announce Type: replace Abstract: Molluscan shells come in various shapes and sizes. Despite this diversity, each species produces a shell with a characteristic shape that is independent of environmenta…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Correcting hidden sampling biases in null models of canalizing Boolean networks",
-      "url": "https://arxiv.org/abs/2606.05196",
-      "summary": "arXiv:2606.05196v2 Announce Type: replace Abstract: Boolean networks are widely used to model gene regulatory systems. Their structural and dynamical properties are commonly interpreted by comparison with ensembles of ra…",
-      "ts": 1786420800000,
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "arXiv q-bio",
-      "title": "Learning Biophysical Models of Large-Scale Multineuronal Data to Enable Precise Neurostimulation",
-      "url": "https://arxiv.org/abs/2607.04063",
-      "summary": "arXiv:2607.04063v2 Announce Type: replace Abstract: Multi-compartment Hodgkin-Huxley (HH) models provide a principled framework for predicting neural dynamics and responses to electrical stimulation. However, fitting HH …",
       "ts": 1786420800000,
       "publishedAt": "2026-08-11T04:00:00.000Z",
       "categoryId": "bio"
