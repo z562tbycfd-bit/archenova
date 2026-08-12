@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-12T22:42:50.847Z",
+  "updated": "2026-08-12T23:44:04.209Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "African grasslands expanded 5 million year earlier than previously thought, molecular fossils suggest",
+      "url": "https://phys.org/news/2026-08-african-grasslands-million-year-earlier.html",
+      "summary": "The iconic grassland savannas of Africa are geographically extensive and important for both local fauna and the global climate. But where did they come from, and how will they change in the future? Ongoing warming, risin…",
+      "ts": 1786578004000,
+      "publishedAt": "2026-08-12T23:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI‑designed viruses are a test of whether biosecurity can keep pace",
+      "url": "https://phys.org/news/2026-08-aidesigned-viruses-biosecurity-pace.html",
+      "summary": "Scientists have crossed an important line in biological engineering. In a recent study, researchers used artificial intelligence to design complete sets of genetic instructions for bacteriophages, viruses that infect bac…",
+      "ts": 1786576807000,
+      "publishedAt": "2026-08-12T23:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Drug-carrying nanoparticles shrink venous malformations by 70% in mice",
+      "url": "https://phys.org/news/2026-08-drug-nanoparticles-venous-malformations-mice.html",
+      "summary": "Venous malformations are abnormally shaped veins that develop when the cells lining blood vessels grow too fast when they aren't supposed to. Children can be born with them, and as the child grows, the venous malformatio…",
+      "ts": 1786576801000,
+      "publishedAt": "2026-08-12T23:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Models of glacial collapse in Antarctica improve predictions of sea-level rise",
+      "url": "https://phys.org/news/2026-08-glacial-collapse-antarctica-sea.html",
+      "summary": "With approximately one-third of the world's population living within a day's walk of a coastline, sea-level rise poses a serious global threat. Every centimeter of sea-level rise could displace 1.5 million people, and cu…",
+      "ts": 1786575602000,
+      "publishedAt": "2026-08-12T23:00:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Unsupervised free time increases the likelihood that adolescents will engage in violent behavior, 21-country study finds",
@@ -767,38 +799,6 @@
       "title": "Quantum Advantage for Single-Photon State Characterization",
       "url": "http://link.aps.org/doi/10.1103/g28d-jzgj",
       "summary": "Author(s): S. N. van den Hoven, M. C. Anguita, S. Marzban, and J. J. Renema We propose a multiphoton interference protocol that characterizes the pairwise overlaps of the internal modes of single photons more efficiently…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Experimental Demonstration of Dynamical Similarity of the Preseeded Magneto-Rayleigh-Taylor Instability in Scaled Z-Pinch Implosions",
-      "url": "http://link.aps.org/doi/10.1103/4ydv-bc75",
-      "summary": "Author(s): D. E. Ruiz et al. With the achievement of thermonuclear ignition, there is interest to increase the performance of inertial-confinement-fusion (ICF) systems to reach high fusion yields and high-energy gain for…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Observation of Flatband Skin Effect in a Mechanical Lattice",
-      "url": "http://link.aps.org/doi/10.1103/h9t8-7mtc",
-      "summary": "Author(s): Xulong Wang, Dongyi Wang, Congwei Lu, Ruo-Yang Zhang, Ching Hua Lee, Kun Ding, and Guancong Ma Symmetry-protected ideal flat bands in one-dimensional Hermitian lattices are populated by compact localized state…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Topological Surface Charge Detection via Active Capacitive Compensation: A Pathway to the 4D Quantum Hall Effect",
-      "url": "http://link.aps.org/doi/10.1103/wycz-5hvd",
-      "summary": "Author(s): Yuanze Li, Renfei Wang, Yifan Zhang, Jiahao Chen, Yingdong Deng, Jin Xie, Xufeng Kou, Yang Liu, and Tian Liang The topological magnetoelectric effect (TME) in three-dimensional topological insulators (TIs), de…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Dipolar-Driven Mean-Field Criticality in the Ferrimagnet ${\\mathrm{Eu}}_{2}{\\mathrm{MnSi}}_{2}{\\mathrm{O}}_{7}$",
-      "url": "http://link.aps.org/doi/10.1103/5ftk-7qyg",
-      "summary": "Author(s): Masahiro Kawamata, Maxim Avdeev, and Yusuke Nambu We report mean-field critical behavior in ${\\mathrm{Eu}}_{2}{\\text{MnSi}}_{2}{\\mathrm{O}}_{7}$, a melilite-type ferrimagnet with spin-only ${\\mathrm{Eu}}^{2+}$…",
       "ts": 1786528800000,
       "publishedAt": "2026-08-12T10:00:00.000Z"
     }

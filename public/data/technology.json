@@ -1,7 +1,25 @@
 {
   "ok": true,
-  "updated": "2026-08-12T22:42:52.847Z",
+  "updated": "2026-08-12T23:44:07.963Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Space Force orders two more Impulse Space vehicles for maneuvering demonstrations",
+      "url": "https://spacenews.com/space-force-orders-two-more-impulse-space-vehicles-for-maneuvering-demonstrations/",
+      "summary": "A $28 million contract expansion adds Victus Salo 2 and 3 to an earlier award for responsive-space missions The post Space Force orders two more Impulse Space vehicles for maneuvering demonstrations appeared first on Spa…",
+      "ts": 1786577400000,
+      "publishedAt": "2026-08-12T23:30:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Pentagon missile buildup changing the factory floor",
+      "url": "https://spacenews.com/pentagon-missile-buildup-changing-the-factory-floor/",
+      "summary": "Startups are bringing software, robotics and manufacturing methods developed around commercial space into a defense industry under pressure to produce weapons faster The post Pentagon missile buildup changing the factory…",
+      "ts": 1786575600000,
+      "publishedAt": "2026-08-12T23:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "SpaceNews",
       "title": "Space Command identifies capabilities it needs for the next space war",
@@ -793,24 +811,6 @@
       "ts": 1786492800000,
       "publishedAt": "2026-08-12T00:00:00.000Z",
       "categoryId": "energy-climate"
-    },
-    {
-      "source": "Nature Energy",
-      "title": "Correction: A five-dimensional classical framework for gravitational and quantum phenomena",
-      "url": "https://www.nature.com/articles/s41598-026-63846-9",
-      "summary": "",
-      "ts": 1786492800000,
-      "publishedAt": "2026-08-12T00:00:00.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "STAT",
-      "title": "Stopping statins in people over 75 at low risk for heart disease didn’t increase deaths ",
-      "url": "https://www.statnews.com/2026/08/11/stop-statins-age-75-lancet-study-suggests-safe-healthy-adults/?utm_campaign=rss",
-      "summary": "Stopping statins in people over 75 at low risk for heart disease didn’t increase deaths, a new study finds.",
-      "ts": 1786487400000,
-      "publishedAt": "2026-08-11T22:30:00.000Z",
-      "categoryId": "bio"
     }
   ],
   "categories": [
