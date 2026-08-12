@@ -1,7 +1,23 @@
 {
   "ok": true,
-  "updated": "2026-08-12T10:08:20.320Z",
+  "updated": "2026-08-12T11:48:41.152Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "A transferable framework for evaluating the potential for forecast-informed reservoir operations in watersheds",
+      "url": "https://phys.org/news/2026-08-framework-potential-reservoir-watersheds.html",
+      "summary": "With extreme weather increasing around the world, scientists are working to help critical infrastructure, such as water management systems, adapt. On the U.S. West Coast, where both periods of prolonged drought and inten…",
+      "ts": 1786534201000,
+      "publishedAt": "2026-08-12T11:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The perfect storm that turbocharged Venezuela's twin quakes",
+      "url": "https://phys.org/news/2026-08-storm-turbocharged-venezuela-twin-quakes.html",
+      "summary": "A dangerous cocktail of tectonic positioning, loose earth and shoddy construction contributed to the unprecedented damage caused by Venezuela's twin earthquakes, experts say.",
+      "ts": 1786532401000,
+      "publishedAt": "2026-08-12T11:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How to design a space habitat that supports its residents' mental health",
@@ -783,22 +799,6 @@
       "title": "Evaluating the Role of Blockage Deficit Models in Robust Wind Farm Design",
       "url": "https://arxiv.org/abs/2608.10630",
       "summary": "arXiv:2608.10630v1 Announce Type: cross Abstract: Uncertainty in wind farm layout optimization regarding model choice and the impact of global blockage always exists. This paper evaluates these interactions by extending …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Nanoscale graphitization and defect evolution in silicon-vacancy center-containing nanodiamonds under high-pressure high-temperature annealing",
-      "url": "https://arxiv.org/abs/2608.10632",
-      "summary": "arXiv:2608.10632v1 Announce Type: cross Abstract: Group-IV color centers, such as the silicon-vacancy (SiV) defect, are highly promising for solid-state quantum technologies. However, nanodiamonds typically exhibit signi…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Helium-like ions $(Z,e,e)$ in Lagrange Mesh method, interpolating the highly-accurate energy spectra vs. Z",
-      "url": "https://arxiv.org/abs/2608.10695",
-      "summary": "arXiv:2608.10695v1 Announce Type: cross Abstract: Two alternative approaches for studying Helium-like atomic ions in non-relativistic quantum mechanics are proposed: (I) a numerical approach, based on the Lagrange-mesh m…",
       "ts": 1786507200000,
       "publishedAt": "2026-08-12T04:00:00.000Z"
     }
