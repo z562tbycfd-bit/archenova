@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-12T14:59:38.443Z",
+  "updated": "2026-08-12T16:04:58.217Z",
   "items": [
+    {
+      "source": "Genetic Engineering News",
+      "title": "Allogeneic CAR T Company Prepares to Widen Access to Patients",
+      "url": "https://www.genengnews.com/topics/bioprocessing/allogeneic-car-t-company-prepares-to-widen-access-to-patients/",
+      "summary": "An allogeneic CAR T-cell therapy company is planning a pivotal Phase III randomized-control trial, hoping their products can reach more patients and help those who can’t access autologous therapies. The post Allogeneic C…",
+      "ts": 1786550439000,
+      "publishedAt": "2026-08-12T16:00:39.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Five Steps to Enable Self-Optimizing Process Purification",
+      "url": "https://www.genengnews.com/topics/bioprocessing/5-steps-to-enable-self-optimizing-process-purification/",
+      "summary": "Self-optimization is the next evolutionary step for bioprocessing purification systems and, although that step is near, it currently is hindered by missing integrations among its many parts and by loose usage of precise …",
+      "ts": 1786550437000,
+      "publishedAt": "2026-08-12T16:00:37.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Cancer patients face longer wait times to begin treatment, according to new study",
+      "url": "https://www.statnews.com/2026/08/12/cancer-patients-face-longer-wait-times-for-treatment/?utm_campaign=rss",
+      "summary": "“Across every cancer we studied, patients are waiting longer today than they were a decade ago.”",
+      "ts": 1786546800000,
+      "publishedAt": "2026-08-12T15:00:00.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "STAT",
       "title": "Opinion: The Lindsay Clancy case shows the limits of postpartum psychiatry",
@@ -480,6 +507,78 @@
       "categoryId": "bio"
     },
     {
+      "source": "Nature Energy",
+      "title": "Model-free multiparametric analysis of SHG images reveals collagen signatures in breast cancer",
+      "url": "https://www.nature.com/articles/s41598-026-62801-y",
+      "summary": "",
+      "ts": 1786492800000,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Development of samarium-153 oxide loaded polystyrene radiotracer particles for gamma scintigraphy of whole gastrointestinal transit study",
+      "url": "https://www.nature.com/articles/s41598-026-66901-7",
+      "summary": "",
+      "ts": 1786492800000,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "AlzheiNN: a convolutional neural network-based model for Alzheimer’s disease classification",
+      "url": "https://www.nature.com/articles/s41598-026-64954-2",
+      "summary": "",
+      "ts": 1786492800000,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Service trade liberalization and manufacturing value chain upgrading: a quasi-natural experiment from China",
+      "url": "https://www.nature.com/articles/s41599-026-08691-x",
+      "summary": "",
+      "ts": 1786492800000,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "The impact of CEOs’ multidisciplinary backgrounds on corporate financing and investment maturity mismatch",
+      "url": "https://www.nature.com/articles/s41599-026-08677-9",
+      "summary": "",
+      "ts": 1786492800000,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Experiences of kinesiophobia in patients with chronic obstructive pulmonary disease: a qualitative phenomenological study",
+      "url": "https://www.nature.com/articles/s41598-026-66659-y",
+      "summary": "",
+      "ts": 1786492800000,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Multi-level violence recognition via hybrid convolutional-attention and recurrent architectures",
+      "url": "https://www.nature.com/articles/s41598-026-66068-1",
+      "summary": "",
+      "ts": 1786492800000,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
+      "source": "Nature Energy",
+      "title": "Correction: A five-dimensional classical framework for gravitational and quantum phenomena",
+      "url": "https://www.nature.com/articles/s41598-026-63846-9",
+      "summary": "",
+      "ts": 1786492800000,
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "STAT",
       "title": "Stopping statins in people over 75 at low risk for heart disease didn’t increase deaths ",
       "url": "https://www.statnews.com/2026/08/11/stop-statins-age-75-lancet-study-suggests-safe-healthy-adults/?utm_campaign=rss",
@@ -712,105 +811,6 @@
       "ts": 1786454840000,
       "publishedAt": "2026-08-11T13:27:20.000Z",
       "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: A RAPID proposal for breakthrough coverage, and nurses push back on AI ",
-      "url": "https://www.statnews.com/2026/08/11/cms-rapid-breakthrough-device-coverage-health-tech/?utm_campaign=rss",
-      "summary": "In this edition of STAT Health Tech: Details from CMS and FDA on the RAPID pathway for breakthrough devices, and nurses push back on AI.",
-      "ts": 1786454149000,
-      "publishedAt": "2026-08-11T13:15:49.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Trains Ukrainian Experts in Non-Destructive Testing for Civil Engineering",
-      "url": "http://www.iaea.org/newscenter/news/iaea-trains-ukrainian-experts-in-non-destructive-testing-for-civil-engineering",
-      "summary": "",
-      "ts": 1786454125000,
-      "publishedAt": "2026-08-11T13:15:25.000Z",
-      "categoryId": "energy-climate"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
-      "summary": "The open source ecosystem is making it easier for AI enthusiasts and developers to build, customize and run increasingly capable agents locally. Throughout August, NVIDIA is celebrating the partners and open source commu…",
-      "ts": 1786453225000,
-      "publishedAt": "2026-08-11T13:00:25.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
-      "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
-      "summary": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves. Today, NVIDIA is expanding its Nemotron 3 model family with N…",
-      "ts": 1786453205000,
-      "publishedAt": "2026-08-11T13:00:05.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Former Space Force general joins Lunar Outpost board",
-      "url": "https://spacenews.com/former-space-force-general-joins-lunar-outpost-board/",
-      "summary": "A retired Space Force general who served as deputy commander of U.S. Space Command is joining the board of lunar rover developer Lunar Outpost. The post Former Space Force general joins Lunar Outpost board appeared first…",
-      "ts": 1786453200000,
-      "publishedAt": "2026-08-11T13:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "How South Carolina Became the Southeast’s Fastest Growing Biotech Hub",
-      "url": "https://www.genengnews.com/sponsored/how-south-carolina-became-the-southeasts-fastest-growing-biotech-hub/",
-      "summary": "Sponsored content brought to you by South Carolina just landed a $1.5 billion investment and more than 1,200 jobs, as Octapharma Plasma relocates its U.S. headquarters from Charlotte to Rock Hill and […] The post How Sou…",
-      "ts": 1786452983000,
-      "publishedAt": "2026-08-11T12:56:23.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "The Future of Aging Research Is Longitudinal, Multiomic, and Single-Cell",
-      "url": "https://www.genengnews.com/sponsored/the-future-of-aging-research-is-longitudinal-multiomic-and-single-cell/",
-      "summary": "Research into the biological processes underpinning aging is essential for improving prevention strategies and developing treatments that support healthier aging. The post The Future of Aging Research Is Longitudinal, Mu…",
-      "ts": 1786452176000,
-      "publishedAt": "2026-08-11T12:42:56.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "ESA",
-      "title": "A total solar eclipse is coming to Europe",
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/A_total_solar_eclipse_is_coming_to_Europe",
-      "summary": "Video: 00:01:24 When the Moon passes between Earth and the Sun, it casts a shadow onto Earth's surface. For people in the darkest part of this shadow, the face of the Sun is totally blocked out, and its wispy atmosphere …",
-      "ts": 1786451400000,
-      "publishedAt": "2026-08-11T12:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "BlackSky wins seven-figure, multiyear international contract",
-      "url": "https://spacenews.com/blacksky-wins-seven-figure-multiyear-international-contract/",
-      "summary": "SAN FRANCISCO — BlackSky announced Aug. 11 a seven-figure, multiyear contract to provide an international customer with persistent space-based monitoring and assured and on-demand satellite tasking. Prior to the award, […",
-      "ts": 1786451400000,
-      "publishedAt": "2026-08-11T12:30:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Greater Richmond’s Pharma Cluster Keeps Compounding",
-      "url": "https://www.genengnews.com/sponsored/greater-richmonds-pharma-cluster-keeps-compounding/",
-      "summary": "The steady run of investment since, from Lilly’s $5 billion plant to a 10,500-square-foot lab expansion in downtown Richmond, suggests the region intends to keep building on it. The post Greater Richmond’s Pharma Cluster…",
-      "ts": 1786451082000,
-      "publishedAt": "2026-08-11T12:24:42.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
-      "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups are chasing the next big thing in LLMs Nine years after Google rese…",
-      "ts": 1786450200000,
-      "publishedAt": "2026-08-11T12:10:00.000Z",
-      "categoryId": "ai-compute"
     }
   ],
   "categories": [
