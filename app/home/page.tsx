@@ -6,8 +6,9 @@ import GalaxyAtlas from "../components/civilization/GalaxyAtlas";
 import CivilizationLibrary from "../components/CivilizationLibrary";
 import CivilizationIntelligencePortal from "../components/CivilizationIntelligencePortal";
 import CivilizationExperiencePortal from "../components/CivilizationExperiencePortal";
-import OriginStoryInline from "../components/OriginStoryInline";
 import HeroCinematic from "../components/HeroCinematic";
+import TodaysInquiryPortal
+  from "../components/TodaysInquiryPortal";
 
 export default function Home() {
   return (
@@ -17,6 +18,18 @@ export default function Home() {
     >
       <MobileHomeScrollReset />
       <HomeSectionPager />
+
+      {/* =========================
+    TODAY'S INQUIRY
+========================= */}
+
+<section
+  id="todays-inquiry"
+  data-home-section
+  className="todays-inquiry-page"
+>
+  <TodaysInquiryPortal />
+</section>
 
     {/* =========================
     PAGE 00 : HERO

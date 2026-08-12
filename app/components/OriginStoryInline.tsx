@@ -91,10 +91,9 @@ export default function OriginStoryInline() {
         <span>
           ORIGIN
         </span>
-
-        <small>
-          Origin of ArcheNova
-        </small>
+        <h2>
+          The Story of ArcheNova
+        </h2>
       </div>
 
       <div className="an-origin-inline__stage">

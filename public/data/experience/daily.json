@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-11T08:38:12.706Z",
+  "generatedAt": "2026-08-12T11:53:58.277Z",
   "current": {
-    "date": "2026-08-11",
-    "id": "models-of-wildland-fire-and-ember-spread",
+    "date": "2026-08-12",
+    "id": "total-solar-eclipse-to-spellbind-europe",
     "experienceVersion": "4D-1",
-    "title": "Models of Wildland Fire and Ember Spread",
-    "experienceTitle": "Models of Wildland Fire and Ember Spread",
+    "title": "Total solar eclipse to spellbind Europe",
+    "experienceTitle": "Total solar eclipse to spellbind Europe",
     "question": "What does this observation reveal about reality, what would make its explanation fail, and how could validated knowledge eventually alter civilization?",
     "source": {
-      "title": "Models of Wildland Fire and Ember Spread",
-      "organization": "arXiv Physics",
-      "url": "https://arxiv.org/abs/2608.07761",
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "updatedAt": "2026-08-11T08:38:12.696Z"
+      "title": "Total solar eclipse to spellbind Europe",
+      "organization": "Phys.org",
+      "url": "https://phys.org/news/2026-08-total-solar-eclipse-spellbind-europe.html",
+      "publishedAt": "2026-08-12T08:40:01.000Z",
+      "updatedAt": "2026-08-12T11:53:58.264Z"
     },
     "classification": {
       "category": "SCIENCE",
-      "signalCategory": "Reality Discovery",
-      "currentStage": "Applied Research",
-      "expectedHorizon": "10–30 Years"
+      "signalCategory": "Civilization Engineering",
+      "currentStage": "Scientific Discovery",
+      "expectedHorizon": "5–15 Years"
     },
     "reality": {
-      "statement": "arXiv:2608.07761v1 Announce Type: new Abstract: In this Chapter we explore the nature and theory of ember transport using observations from controlled laboratory settings, prescribed fire, and wildland fire. Specific exa…"
+      "statement": "Millions of Europeans will contemplate the sky in awe on Wednesday as a rare total solar eclipse crosses part of the continent and plunges a swath of Spain into eerie daytime darkness."
     },
     "theory": {
-      "statement": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "statement": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems.",
       "mechanism": [
-        "Reality Discovery",
-        "Artificial Intelligence",
+        "Civilization Engineering",
+        "AI",
         "observation",
         "understanding",
-        "memory"
+        "design"
       ]
     },
     "hypothesisSpace": [
@@ -38,7 +38,7 @@
         "id": "primary",
         "label": "PRIMARY EXPLANATION",
         "title": "Current Causal Interpretation",
-        "statement": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options."
+        "statement": "This matters because energy availability, reliability, and scalability determine the freedom, complexity, and resilience of civilization-scale systems."
       },
       {
         "id": "alternative",
@@ -57,7 +57,7 @@
       {
         "id": "expected",
         "label": "EXPECTED EFFECT",
-        "statement": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination."
+        "statement": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment."
       },
       {
         "id": "null",
@@ -71,54 +71,68 @@
       }
     ],
     "prediction": {
-      "statement": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination."
+      "statement": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment."
     },
     "evidence": {
-      "statement": "arXiv:2608.07761v1 Announce Type: new Abstract: In this Chapter we explore the nature and theory of ember transport using observations from controlled laboratory settings, prescribed fire, and wildland fire. Specific exa…",
-      "strength": "Strong",
-      "confidence": 80
+      "statement": "Millions of Europeans will contemplate the sky in awe on Wednesday as a rare total solar eclipse crosses part of the continent and plunges a swath of Spain into eerie daytime darkness.",
+      "strength": "Moderate",
+      "confidence": 81
     },
     "falsification": {
-      "statement": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-      "failureCondition": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination."
+      "statement": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+      "failureCondition": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment."
     },
     "engineeringReach": {
       "validated": [
-        "May influence the transition from reality discovery knowledge to applied capability."
+        "May affect energy generation, storage, conversion, grid integration, or industrial resilience."
       ],
       "plausible": [
-        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
-        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+        "Could alter infrastructure costs, energy security, decarbonization pathways, and strategic independence.",
+        "May expand or constrain the operating freedom of civilization-scale systems."
       ],
       "speculative": []
     },
-    "civilizationMeaning": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
-    "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
-    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
-    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-08-11.",
+    "civilizationMeaning": "Strategically relevant for energy security, grid resilience, industrial scaling, storage systems, decarbonization, and long-term infrastructure independence.",
+    "uncertainty": "This is an emerging signal rather than a settled conclusion. Independent evidence, reproducibility, engineering feasibility, causal significance, and long-term consequences require continued observation.",
+    "watchpoint": "Watch whether this moves from technical promise into stable operation, cost reduction, grid integration, and industrial-scale deployment.",
+    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-08-12.",
     "selection": {
-      "finalScore": 77.4,
-      "repetitionPenalty": 0,
+      "finalScore": 65.1,
+      "repetitionPenalty": 8,
       "criteria": {
-        "scientificSignificance": 72.5,
-        "empiricalStrength": 81.5,
-        "falsifiability": 76.7,
-        "engineeringReach": 55,
-        "civilizationImpact": 66,
+        "scientificSignificance": 63,
+        "empiricalStrength": 71.5,
+        "falsifiability": 77,
+        "engineeringReach": 62,
+        "civilizationImpact": 73,
         "explanatoryValue": 80,
-        "theoryEvidenceCoupling": 95,
-        "fundamentalPrincipleValue": 95,
-        "crossDomainReach": 68,
+        "theoryEvidenceCoupling": 80,
+        "fundamentalPrincipleValue": 65,
+        "crossDomainReach": 77,
         "experienceSuitability": 95
       }
     },
     "topicFingerprint": [
       "science",
-      "reality discovery",
-      "artificial intelligence",
+      "civilization engineering",
+      "ai",
       "technology",
-      "education & knowledge"
+      "capital",
+      "law & governance"
     ]
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-08-11",
+      "id": "models-of-wildland-fire-and-ember-spread",
+      "title": "Models of Wildland Fire and Ember Spread",
+      "topicFingerprint": [
+        "science",
+        "reality discovery",
+        "artificial intelligence",
+        "technology",
+        "education & knowledge"
+      ]
+    }
+  ]
 }

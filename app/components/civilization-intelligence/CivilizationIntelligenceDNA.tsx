@@ -3131,52 +3131,7 @@ civilizationMap
 
         </div>
       </section>
-
-      {/* ==================================================
-    SCIENTIFIC EXPERIENCE
-================================================== */}
-
-<section
-  className="ci-scientific-experience"
-  aria-labelledby="ci-scientific-experience-title"
->
-  <div className="ci-shell">
-    <header className="ci-heading">
-      <span>
-        SCIENTIFIC EXPERIENCE
-      </span>
-
-      <h2
-        id="ci-scientific-experience-title"
-      >
-        Reality Verification
-      </h2>
-
-      <p>
-        Move from observation to hypothesis,
-        prediction, evidence, falsification,
-        engineering reach, uncertainty,
-        and civilization memory.
-      </p>
-    </header>
-
-    <div className="ci-scientific-experience__workspace">
-      <div className="ci-scientific-experience__status">
-        <span>
-          EPISTEME OS
-        </span>
-
-        <i />
-
-        <strong>
-          DAILY SCIENTIFIC OBJECT
-        </strong>
-      </div>
-
-      <CivilizationDailyExperience />
-    </div>
-  </div>
-</section>
+      
 
       <footer className="ci-footer">
         <p>

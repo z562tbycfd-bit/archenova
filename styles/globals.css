@@ -35146,3 +35146,1894 @@ line-height:1.75;
   scroll-snap-align:
     start;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   TODAY'S INQUIRY
+   RELATED RESEARCH — FEATURED HORIZONTAL CAROUSEL
+========================================================== */
+
+.ti-research {
+  position: relative;
+
+  width: 100%;
+
+  padding:
+    clamp(88px, 10vw, 150px)
+    0
+    clamp(92px, 11vw, 160px);
+
+  overflow: hidden;
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.ti-research__header {
+  width:
+    min(
+      1240px,
+      calc(100% - 56px)
+    );
+
+  margin:
+    0
+    auto
+    clamp(42px, 5vw, 72px);
+
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: space-between;
+
+  gap:
+    40px;
+}
+
+.ti-research__header > div:first-child {
+  max-width:
+    760px;
+}
+
+.ti-research__header span {
+  display: block;
+
+  color:
+    rgba(220, 232, 247, 0.48);
+
+  font-size:
+    9px;
+
+  font-weight:
+    600;
+
+  letter-spacing:
+    0.24em;
+
+  text-transform:
+    uppercase;
+}
+
+.ti-research__header h2 {
+  margin:
+    16px
+    0
+    0;
+
+  color:
+    rgba(248, 251, 255, 0.98);
+
+  font-size:
+    clamp(
+      38px,
+      4.8vw,
+      68px
+    );
+
+  font-weight:
+    300;
+
+  line-height:
+    1.05;
+
+  letter-spacing:
+    -0.05em;
+}
+
+.ti-research__header p {
+  max-width:
+    640px;
+
+  margin:
+    20px
+    0
+    0;
+
+  color:
+    rgba(224, 234, 246, 0.66);
+
+  font-size:
+    14px;
+
+  line-height:
+    1.8;
+}
+
+
+/* ==========================================================
+   CONTROLS
+========================================================== */
+
+.ti-research__controls {
+  display: flex;
+
+  align-items: center;
+
+  gap:
+    10px;
+
+  flex: 0 0 auto;
+}
+
+.ti-research__controls button {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width:
+    46px;
+
+  height:
+    46px;
+
+  display:
+    grid;
+
+  place-items:
+    center;
+
+  padding:
+    0;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.1);
+
+  border-radius:
+    50%;
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  color:
+    rgba(248, 251, 255, 0.82);
+
+  box-shadow:
+    none;
+
+  font:
+    inherit;
+
+  font-size:
+    16px;
+
+  line-height:
+    1;
+
+  cursor:
+    pointer;
+
+  transition:
+    background 0.28s ease,
+    border-color 0.28s ease,
+    color 0.28s ease,
+    transform 0.28s ease;
+}
+
+.ti-research__controls button:hover {
+  border-color:
+    rgba(158, 223, 255, 0.28);
+
+  background:
+    rgba(158, 223, 255, 0.08);
+
+  color:
+    #ffffff;
+
+  transform:
+    translateY(-2px);
+}
+
+.ti-research__controls button:focus-visible {
+  outline:
+    1px solid
+    rgba(158, 223, 255, 0.72);
+
+  outline-offset:
+    4px;
+}
+
+
+/* ==========================================================
+   HORIZONTAL TRACK
+========================================================== */
+
+.ti-research__track {
+  position: relative;
+
+  width: 100%;
+
+  display: flex;
+
+  gap:
+    clamp(
+      22px,
+      2.4vw,
+      36px
+    );
+
+  overflow-x: auto;
+
+  overflow-y: hidden;
+
+  scroll-snap-type:
+    x mandatory;
+
+  scroll-behavior:
+    smooth;
+
+  overscroll-behavior-x:
+    contain;
+
+  -webkit-overflow-scrolling:
+    touch;
+
+  /*
+   * 左端はサイト本文と揃え、
+   * 右端に次カードを残す
+   */
+  padding-left:
+    max(
+      28px,
+      calc(
+        (100vw - 1240px) / 2
+      )
+    );
+
+  padding-right:
+    clamp(
+      90px,
+      11vw,
+      180px
+    );
+
+  padding-bottom:
+    16px;
+
+  scrollbar-width:
+    none;
+}
+
+.ti-research__track::-webkit-scrollbar {
+  display:
+    none;
+}
+
+
+/* ==========================================================
+   RESEARCH CARD
+========================================================== */
+
+.ti-research-card {
+  position: relative;
+
+  flex:
+    0 0
+    clamp(
+      360px,
+      42vw,
+      610px
+    );
+
+  min-height:
+    clamp(
+      430px,
+      48vw,
+      570px
+    );
+
+  display: flex;
+
+  flex-direction:
+    column;
+
+  scroll-snap-align:
+    start;
+
+  overflow:
+    hidden;
+
+  padding:
+    clamp(
+      30px,
+      3.2vw,
+      48px
+    );
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.075);
+
+  border-radius:
+    30px;
+
+  background:
+    radial-gradient(
+      circle at 80% 10%,
+      rgba(158, 223, 255, 0.12),
+      transparent 32%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.045),
+      rgba(255, 255, 255, 0.009)
+    ),
+    rgba(5, 16, 30, 0.45);
+
+  -webkit-backdrop-filter:
+    blur(24px);
+
+  backdrop-filter:
+    blur(24px);
+
+  box-shadow:
+    inset
+      0
+      1px
+      0
+      rgba(255, 255, 255, 0.08),
+    0
+    30px
+    90px
+    rgba(0, 0, 0, 0.16);
+
+  transition:
+    transform 0.38s ease,
+    border-color 0.38s ease,
+    background 0.38s ease,
+    box-shadow 0.38s ease;
+}
+
+.ti-research-card:hover {
+  transform:
+    translateY(-6px);
+
+  border-color:
+    rgba(158, 223, 255, 0.2);
+
+  background:
+    radial-gradient(
+      circle at 80% 10%,
+      rgba(158, 223, 255, 0.17),
+      transparent 34%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.06),
+      rgba(255, 255, 255, 0.012)
+    ),
+    rgba(5, 16, 30, 0.5);
+
+  box-shadow:
+    inset
+      0
+      1px
+      0
+      rgba(255, 255, 255, 0.1),
+    0
+    38px
+    110px
+    rgba(0, 0, 0, 0.22);
+}
+
+
+/* ==========================================================
+   INDEX
+========================================================== */
+
+.ti-research-card__index {
+  color:
+    rgba(158, 223, 255, 0.32);
+
+  font-size:
+    12px;
+
+  font-weight:
+    500;
+
+  letter-spacing:
+    0.16em;
+}
+
+
+/* ==========================================================
+   BODY
+========================================================== */
+
+.ti-research-card__body {
+  margin-top:
+    auto;
+
+  padding-top:
+    clamp(
+      76px,
+      8vw,
+      120px
+    );
+}
+
+.ti-research-card__source {
+  display:
+    block;
+
+  color:
+    rgba(158, 223, 255, 0.68);
+
+  font-size:
+    9px;
+
+  font-weight:
+    650;
+
+  letter-spacing:
+    0.18em;
+
+  text-transform:
+    uppercase;
+}
+
+.ti-research-card h3 {
+  margin:
+    18px
+    0
+    0;
+
+  color:
+    rgba(248, 251, 255, 0.97);
+
+  font-size:
+    clamp(
+      26px,
+      2.5vw,
+      40px
+    );
+
+  font-weight:
+    320;
+
+  line-height:
+    1.15;
+
+  letter-spacing:
+    -0.035em;
+
+  text-wrap:
+    balance;
+}
+
+.ti-research-card__body p {
+  display:
+    -webkit-box;
+
+  margin:
+    20px
+    0
+    0;
+
+  overflow:
+    hidden;
+
+  color:
+    rgba(224, 234, 246, 0.64);
+
+  font-size:
+    13px;
+
+  line-height:
+    1.75;
+
+  -webkit-box-orient:
+    vertical;
+
+  -webkit-line-clamp:
+    4;
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.ti-research-card__footer {
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    space-between;
+
+  gap:
+    20px;
+
+  margin-top:
+    34px;
+
+  padding-top:
+    22px;
+
+  border-top:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+}
+
+.ti-research-card__footer > span {
+  color:
+    rgba(220, 232, 247, 0.42);
+
+  font-size:
+    9px;
+
+  letter-spacing:
+    0.08em;
+}
+
+.ti-research-card__footer a {
+  display:
+    inline-flex;
+
+  align-items:
+    center;
+
+  gap:
+    9px;
+
+  color:
+    rgba(238, 248, 255, 0.82);
+
+  font-size:
+    10px;
+
+  font-weight:
+    550;
+
+  letter-spacing:
+    0.06em;
+
+  text-decoration:
+    none;
+
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.ti-research-card__footer a:hover {
+  color:
+    #ffffff;
+
+  transform:
+    translateX(3px);
+}
+
+.ti-research-card__footer a span {
+  font-size:
+    13px;
+}
+
+
+/* ==========================================================
+   SUBTLE EDGE FADE
+   右側に続きがある感覚を出す
+========================================================== */
+
+.ti-research::after {
+  content:
+    "";
+
+  position:
+    absolute;
+
+  top:
+    0;
+
+  right:
+    0;
+
+  bottom:
+    0;
+
+  width:
+    clamp(
+      20px,
+      5vw,
+      74px
+    );
+
+  z-index:
+    4;
+
+  pointer-events:
+    none;
+
+  background:
+    linear-gradient(
+      to left,
+      rgba(2, 6, 14, 0.82),
+      rgba(2, 6, 14, 0)
+    );
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (
+  max-width: 1024px
+) {
+  .ti-research {
+    padding:
+      92px
+      0
+      108px;
+  }
+
+  .ti-research__header {
+    width:
+      calc(
+        100% - 40px
+      );
+
+    margin-bottom:
+      48px;
+  }
+
+  .ti-research__track {
+    padding-left:
+      20px;
+
+    padding-right:
+      110px;
+  }
+
+  .ti-research-card {
+    flex-basis:
+      min(
+        70vw,
+        560px
+      );
+
+    min-height:
+      490px;
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (
+  max-width: 768px
+) {
+  .ti-research {
+    padding:
+      78px
+      0
+      94px;
+  }
+
+  .ti-research__header {
+    width:
+      calc(
+        100% - 28px
+      );
+
+    align-items:
+      flex-start;
+
+    flex-direction:
+      column;
+
+    gap:
+      28px;
+
+    margin-bottom:
+      36px;
+  }
+
+  .ti-research__header h2 {
+    font-size:
+      clamp(
+        36px,
+        10vw,
+        50px
+      );
+  }
+
+  .ti-research__header p {
+    font-size:
+      13px;
+  }
+
+  .ti-research__controls {
+    align-self:
+      flex-end;
+  }
+
+  .ti-research__controls button {
+    width:
+      42px;
+
+    height:
+      42px;
+  }
+
+  .ti-research__track {
+    gap:
+      18px;
+
+    /*
+     * 1枚目を大きく見せ、
+     * 2枚目を右端に約10%見せる
+     */
+    padding-left:
+      14px;
+
+    padding-right:
+      54px;
+  }
+
+  .ti-research-card {
+    flex:
+      0 0
+      86vw;
+
+    min-height:
+      470px;
+
+    padding:
+      30px
+      26px;
+
+    border-radius:
+      26px;
+  }
+
+  .ti-research-card__body {
+    padding-top:
+      72px;
+  }
+
+  .ti-research-card h3 {
+    font-size:
+      clamp(
+        27px,
+        8vw,
+        36px
+      );
+  }
+
+  .ti-research-card__body p {
+    font-size:
+      12px;
+
+    -webkit-line-clamp:
+      4;
+  }
+
+  .ti-research::after {
+    width:
+      24px;
+  }
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (
+  max-width: 430px
+) {
+  .ti-research {
+    padding-top:
+      68px;
+
+    padding-bottom:
+      82px;
+  }
+
+  .ti-research__header {
+    width:
+      calc(
+        100% - 24px
+      );
+  }
+
+  .ti-research__track {
+    gap:
+      14px;
+
+    padding-left:
+      12px;
+
+    padding-right:
+      42px;
+  }
+
+  .ti-research-card {
+    flex-basis:
+      87vw;
+
+    min-height:
+      445px;
+
+    padding:
+      27px
+      23px;
+
+    border-radius:
+      24px;
+  }
+
+  .ti-research-card__body {
+    padding-top:
+      62px;
+  }
+
+  .ti-research-card__footer {
+    align-items:
+      flex-start;
+
+    flex-direction:
+      column;
+
+    gap:
+      12px;
+  }
+}
+
+
+/* ==========================================================
+   TOUCH DEVICES
+========================================================== */
+
+@media (
+  pointer: coarse
+) {
+  .ti-research-card:hover {
+    transform:
+      none;
+  }
+
+  .ti-research__controls button:hover {
+    transform:
+      none;
+  }
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (
+  prefers-reduced-motion:
+  reduce
+) {
+  .ti-research__track {
+    scroll-behavior:
+      auto;
+  }
+
+  .ti-research-card,
+  .ti-research__controls button,
+  .ti-research-card__footer a {
+    transition:
+      none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   TODAY'S INQUIRY
+   UNIFIED GLASS CARD
+========================================================== */
+
+.ti-home {
+  position: relative;
+
+  width: 100%;
+
+  padding:
+    clamp(88px, 10vw, 140px)
+    0
+    clamp(100px, 12vw, 160px);
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.ti-home__header {
+  width:
+    min(
+      1180px,
+      calc(100% - 48px)
+    );
+
+  margin:
+    0
+    auto
+    clamp(42px, 5vw, 68px);
+
+  text-align: center;
+}
+
+.ti-home__eyebrow {
+  display: block;
+
+  color:
+    rgba(220, 232, 247, 0.48);
+
+  font-size:
+    9px;
+
+  font-weight:
+    600;
+
+  letter-spacing:
+    0.24em;
+}
+
+.ti-home__header h2 {
+  margin:
+    16px
+    0
+    0;
+
+  color:
+    rgba(248, 251, 255, 0.98);
+
+  font-size:
+    clamp(
+      46px,
+      6vw,
+      80px
+    );
+
+  font-weight:
+    290;
+
+  line-height:
+    1.02;
+
+  letter-spacing:
+    -0.055em;
+}
+
+.ti-home__header p {
+  width:
+    min(
+      620px,
+      100%
+    );
+
+  margin:
+    22px
+    auto
+    0;
+
+  color:
+    rgba(224, 234, 246, 0.64);
+
+  font-size:
+    14px;
+
+  line-height:
+    1.8;
+}
+
+
+/* ==========================================================
+   MAIN GLASS
+========================================================== */
+
+.ti-home__glass {
+  position: relative;
+
+  width:
+    min(
+      1360px,
+      calc(100% - 40px)
+    );
+
+  margin:
+    0
+    auto;
+
+  overflow: hidden;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.085);
+
+  border-radius:
+    clamp(
+      28px,
+      3vw,
+      42px
+    );
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(158, 223, 255, 0.095),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 85% 70%,
+      rgba(135, 241, 198, 0.04),
+      transparent 34%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.055),
+      rgba(255, 255, 255, 0.008)
+    ),
+    rgba(4, 13, 26, 0.48);
+
+  -webkit-backdrop-filter:
+    blur(30px)
+    saturate(140%);
+
+  backdrop-filter:
+    blur(30px)
+    saturate(140%);
+
+  box-shadow:
+    inset
+      0
+      1px
+      0
+      rgba(255, 255, 255, 0.11),
+    0
+    40px
+    140px
+    rgba(0, 0, 0, 0.24);
+}
+
+
+/* ==========================================================
+   INNER
+========================================================== */
+
+.ti-home__glass-inner {
+  position: relative;
+
+  width: 100%;
+}
+
+
+/* ==========================================================
+   EXPERIENCE
+========================================================== */
+
+.ti-home__experience {
+  position: relative;
+
+  width: 100%;
+
+  padding:
+    clamp(
+      18px,
+      2vw,
+      30px
+    );
+}
+
+
+/*
+ * 既存Experienceの外側のカード感を弱める
+ * 1枚の大きなガラスカードとして見せる
+ */
+.ti-home__experience
+.ce-daily {
+  margin: 0;
+
+  background:
+    transparent !important;
+
+  border:
+    0 !important;
+
+  border-radius:
+    0 !important;
+
+  box-shadow:
+    none !important;
+}
+
+
+/* ==========================================================
+   DIVIDER
+========================================================== */
+
+.ti-home__divider {
+  width:
+    calc(100% - 80px);
+
+  margin:
+    clamp(20px, 3vw, 40px)
+    auto;
+
+  padding:
+    0;
+}
+
+.ti-home__divider span {
+  display: block;
+
+  width: 100%;
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(158, 223, 255, 0.14) 18%,
+      rgba(255, 255, 255, 0.11) 50%,
+      rgba(158, 223, 255, 0.14) 82%,
+      transparent
+    );
+}
+
+
+/* ==========================================================
+   RELATED RESEARCH WRAPPER
+========================================================== */
+
+.ti-home__research {
+  position: relative;
+
+  width: 100%;
+
+  padding-bottom:
+    clamp(
+      16px,
+      3vw,
+      36px
+    );
+}
+
+
+/*
+ * Related Research側の外周余白を
+ * 親ガラスカードに馴染ませる
+ */
+.ti-home__research
+.ti-research {
+  padding-top:
+    clamp(
+      38px,
+      5vw,
+      70px
+    );
+
+  padding-bottom:
+    clamp(
+      48px,
+      6vw,
+      84px
+    );
+}
+
+
+/* ==========================================================
+   RELATED RESEARCH HEADER
+========================================================== */
+
+.ti-home__research
+.ti-research__header {
+  width:
+    calc(
+      100% - 72px
+    );
+
+  margin-bottom:
+    clamp(
+      34px,
+      4vw,
+      54px
+    );
+}
+
+
+/* ==========================================================
+   HORIZONTAL TRACK INSIDE GLASS
+========================================================== */
+
+.ti-home__research
+.ti-research__track {
+  padding-left:
+    clamp(
+      34px,
+      4vw,
+      64px
+    );
+
+  padding-right:
+    clamp(
+      100px,
+      12vw,
+      180px
+    );
+}
+
+
+/* ==========================================================
+   RESEARCH CARDS
+   親ガラスの上に浮かぶ小さなガラスカード
+========================================================== */
+
+.ti-home__research
+.ti-research-card {
+  background:
+    radial-gradient(
+      circle at 80% 12%,
+      rgba(158, 223, 255, 0.1),
+      transparent 34%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.035),
+      rgba(255, 255, 255, 0.006)
+    ),
+    rgba(5, 16, 30, 0.34);
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  box-shadow:
+    inset
+      0
+      1px
+      0
+      rgba(255, 255, 255, 0.07),
+    0
+      24px
+      70px
+      rgba(0, 0, 0, 0.14);
+}
+
+
+/* ==========================================================
+   EDGE FADE
+========================================================== */
+
+.ti-home__research
+.ti-research::after {
+  background:
+    linear-gradient(
+      to left,
+      rgba(4, 13, 26, 0.82),
+      rgba(4, 13, 26, 0)
+    );
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 1024px) {
+  .ti-home__glass {
+    width:
+      calc(
+        100% - 28px
+      );
+
+    border-radius:
+      30px;
+  }
+
+  .ti-home__experience {
+    padding:
+      16px;
+  }
+
+  .ti-home__divider {
+    width:
+      calc(
+        100% - 48px
+      );
+  }
+
+  .ti-home__research
+  .ti-research__header {
+    width:
+      calc(
+        100% - 44px
+      );
+  }
+
+  .ti-home__research
+  .ti-research__track {
+    padding-left:
+      22px;
+
+    padding-right:
+      100px;
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+  .ti-home {
+    padding:
+      72px
+      0
+      92px;
+  }
+
+  .ti-home__header {
+    width:
+      calc(
+        100% - 28px
+      );
+
+    margin-bottom:
+      34px;
+  }
+
+  .ti-home__header h2 {
+    font-size:
+      clamp(
+        42px,
+        12vw,
+        58px
+      );
+  }
+
+  .ti-home__glass {
+    width:
+      calc(
+        100% - 18px
+      );
+
+    border-radius:
+      26px;
+  }
+
+  .ti-home__experience {
+    padding:
+      10px;
+  }
+
+  .ti-home__divider {
+    width:
+      calc(
+        100% - 28px
+      );
+
+    margin:
+      24px
+      auto;
+  }
+
+  .ti-home__research
+  .ti-research {
+    padding-top:
+      34px;
+
+    padding-bottom:
+      54px;
+  }
+
+  .ti-home__research
+  .ti-research__header {
+    width:
+      calc(
+        100% - 28px
+      );
+  }
+
+  .ti-home__research
+  .ti-research__track {
+    padding-left:
+      14px;
+
+    padding-right:
+      52px;
+  }
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (max-width: 430px) {
+  .ti-home {
+    padding-top:
+      62px;
+
+    padding-bottom:
+      80px;
+  }
+
+  .ti-home__header {
+    width:
+      calc(
+        100% - 24px
+      );
+  }
+
+  .ti-home__glass {
+    width:
+      calc(
+        100% - 12px
+      );
+
+    border-radius:
+      22px;
+  }
+
+  .ti-home__experience {
+    padding:
+      6px;
+  }
+
+  .ti-home__divider {
+    width:
+      calc(
+        100% - 22px
+      );
+  }
+}
+
+
+
+
+
+
+
+
+/* ==========================================================
+   TODAY'S INQUIRY
+   BLACK OPTICAL GLASS OVERRIDE
+   ========================================================== */
+
+.ti-home__glass {
+  position: relative;
+
+  background:
+    radial-gradient(
+      circle at 50% -8%,
+      rgba(255, 255, 255, 0.055),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 92% 18%,
+      rgba(255, 255, 255, 0.018),
+      transparent 30%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.026) 0%,
+      rgba(255, 255, 255, 0.009) 38%,
+      rgba(0, 0, 0, 0.035) 100%
+    ),
+    rgba(2, 3, 5, 0.38);
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.07);
+
+  -webkit-backdrop-filter:
+    blur(34px)
+    saturate(108%);
+
+  backdrop-filter:
+    blur(34px)
+    saturate(108%);
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.075),
+
+    inset 0 -1px 0
+      rgba(255, 255, 255, 0.018),
+
+    0 40px 120px
+      rgba(0, 0, 0, 0.28);
+
+  isolation: isolate;
+}
+
+
+/* ----------------------------------------------------------
+   Very subtle optical reflection
+---------------------------------------------------------- */
+
+.ti-home__glass::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  z-index: 0;
+
+  border-radius: inherit;
+
+  background:
+    linear-gradient(
+      118deg,
+      rgba(255, 255, 255, 0.035) 0%,
+      rgba(255, 255, 255, 0.012) 16%,
+      transparent 34%,
+      transparent 72%,
+      rgba(255, 255, 255, 0.012) 100%
+    );
+
+  pointer-events: none;
+}
+
+
+/* コンテンツを反射レイヤーより前へ */
+
+.ti-home__glass-inner {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* ==========================================================
+   EXPERIENCE
+   Remove nested blue/glass appearance
+========================================================== */
+
+.ti-home__experience {
+  background: transparent;
+}
+
+.ti-home__experience
+.ce-daily {
+  border: 0 !important;
+
+  background:
+    transparent !important;
+
+  box-shadow:
+    none !important;
+
+  -webkit-backdrop-filter:
+    none !important;
+
+  backdrop-filter:
+    none !important;
+}
+
+
+/* ==========================================================
+   DIVIDER
+   Neutral silver instead of cyan
+========================================================== */
+
+.ti-home__divider span {
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.045) 12%,
+      rgba(255, 255, 255, 0.105) 50%,
+      rgba(255, 255, 255, 0.045) 88%,
+      transparent 100%
+    );
+}
+
+
+/* ==========================================================
+   RELATED RESEARCH AREA
+========================================================== */
+
+.ti-home__research {
+  background: transparent;
+}
+
+
+/* ==========================================================
+   RESEARCH CARDS
+   Thin smoked-black glass
+========================================================== */
+
+.ti-home__research
+.ti-research-card {
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.065);
+
+  background:
+    radial-gradient(
+      circle at 24% 0%,
+      rgba(255, 255, 255, 0.04),
+      transparent 34%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.022),
+      rgba(255, 255, 255, 0.006)
+    ),
+    rgba(1, 2, 4, 0.30);
+
+  -webkit-backdrop-filter:
+    blur(22px)
+    saturate(105%);
+
+  backdrop-filter:
+    blur(22px)
+    saturate(105%);
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.055),
+
+    0 22px 60px
+      rgba(0, 0, 0, 0.18);
+
+  transition:
+    transform 0.45s
+      cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.45s ease,
+    background 0.45s ease,
+    box-shadow 0.45s ease;
+}
+
+
+/* ----------------------------------------------------------
+   Research Card Hover
+---------------------------------------------------------- */
+
+.ti-home__research
+.ti-research-card:hover {
+  transform:
+    translateY(-4px);
+
+  border-color:
+    rgba(255, 255, 255, 0.12);
+
+  background:
+    radial-gradient(
+      circle at 24% 0%,
+      rgba(255, 255, 255, 0.055),
+      transparent 36%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.03),
+      rgba(255, 255, 255, 0.008)
+    ),
+    rgba(2, 3, 5, 0.38);
+
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.075),
+
+    0 30px 80px
+      rgba(0, 0, 0, 0.24);
+}
+
+
+/* ==========================================================
+   REMOVE BLUE EDGE FADE
+========================================================== */
+
+.ti-home__research
+.ti-research::after {
+  background:
+    linear-gradient(
+      to left,
+      rgba(2, 3, 5, 0.76),
+      rgba(2, 3, 5, 0)
+    );
+}
+
+
+/* ==========================================================
+   TEXT — neutral white / silver
+========================================================== */
+
+.ti-home__header h2 {
+  color:
+    rgba(250, 250, 250, 0.97);
+}
+
+.ti-home__header p {
+  color:
+    rgba(235, 238, 242, 0.60);
+}
+
+.ti-home__eyebrow {
+  color:
+    rgba(235, 238, 242, 0.42);
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+  .ti-home__glass {
+    background:
+      radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 255, 255, 0.045),
+        transparent 30%
+      ),
+      linear-gradient(
+        150deg,
+        rgba(255, 255, 255, 0.022),
+        rgba(255, 255, 255, 0.005)
+      ),
+      rgba(2, 3, 5, 0.42);
+
+    -webkit-backdrop-filter:
+      blur(26px)
+      saturate(105%);
+
+    backdrop-filter:
+      blur(26px)
+      saturate(105%);
+
+    box-shadow:
+      inset 0 1px 0
+        rgba(255, 255, 255, 0.06),
+
+      0 28px 80px
+        rgba(0, 0, 0, 0.22);
+  }
+
+  .ti-home__research
+  .ti-research-card {
+    background:
+      linear-gradient(
+        145deg,
+        rgba(255, 255, 255, 0.02),
+        rgba(255, 255, 255, 0.005)
+      ),
+      rgba(1, 2, 4, 0.34);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   RELATED RESEARCH
+   ENTER SIMULATION
+========================================================== */
+
+.ti-research-card__actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ti-research-card__experience {
+  appearance: none;
+  -webkit-appearance: none;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 0;
+
+  border: 0;
+  background: transparent;
+
+  color:
+    rgba(245, 248, 252, 0.9);
+
+  font: inherit;
+
+  font-size: 10px;
+  font-weight: 550;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.ti-research-card__experience:hover {
+  color: #ffffff;
+
+  transform:
+    translateX(3px);
+}
+
+.ti-research-card__experience:focus-visible {
+  outline:
+    1px solid
+    rgba(255, 255, 255, 0.5);
+
+  outline-offset: 4px;
+}
+
+@media (max-width: 430px) {
+  .ti-research-card__actions {
+    width: 100%;
+
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -15,10 +15,16 @@ type ChapterTarget = {
 
 const CHAPTER_TARGETS: ChapterTarget[] = [
   {
+  id: "todays-inquiry",
+  mark: "☁︎",
+  title: "INQUIRY",
+  subtitle: "Today's Inquiry",
+  },
+  {
     id: "home-hero",
     mark: "✬",
     title: "HERO",
-    subtitle: "ArcheNova",
+    subtitle: "ArcheNova Story",
   },
 
   {
@@ -39,7 +45,7 @@ const CHAPTER_TARGETS: ChapterTarget[] = [
     id: "civilization-experience",
     mark: "❅",
     title: "EXPERIENCE",
-    subtitle: "ArcheNova Inquiry",
+    subtitle: "ArcheNova Simulation",
   },
 
   {
