@@ -1,7 +1,52 @@
 {
   "ok": true,
-  "updated": "2026-08-12T13:14:10.466Z",
+  "updated": "2026-08-12T14:59:38.443Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Opinion: The Lindsay Clancy case shows the limits of postpartum psychiatry",
+      "url": "https://www.statnews.com/2026/08/12/lindsay-clancy-postpartum-psychosis-diagnosis-treatment-limits/?utm_campaign=rss",
+      "summary": "“Our understanding and treatment of postpartum psychiatric illnesses remain profoundly inadequate,” experts write.",
+      "ts": 1786546269000,
+      "publishedAt": "2026-08-12T14:51:09.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Next 10 U.S. Biopharma Clusters",
+      "url": "https://www.genengnews.com/topics/drug-discovery/next-10-u-s-biopharma-clusters/",
+      "summary": "For the first time, GEN's Alex Philippidis examines the top regions and top states just below the 10 largest regions for life sciences activity, as the field looks beyond the East and West Coasts for growth The post Next…",
+      "ts": 1786545456000,
+      "publishedAt": "2026-08-12T14:37:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "NVIDIA",
+      "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
+      "url": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026/",
+      "summary": "NVIDIA founder and CEO Jensen Huang is ranked No. 1 on Glassdoor’s Best CEOs list for 2026. In the just-released ranking, recognition is earned directly from the people who know their leadership the best — employees. Hua…",
+      "ts": 1786543200000,
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "Golden Dome creates digital hub to expand commercial participation",
+      "url": "https://spacenews.com/golden-dome-creates-digital-hub-to-expand-commercial-participation/",
+      "summary": "The Golden Dome ‘ecosystem hub’ allows companies to request information and submit ideas The post Golden Dome creates digital hub to expand commercial participation appeared first on SpaceNews.",
+      "ts": 1786543200000,
+      "publishedAt": "2026-08-12T14:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Pharmalittle: We’re reading about Lilly ‘black market’ lawsuits, pushback over Trump vaccine plan, and more",
+      "url": "https://www.statnews.com/pharmalot/2026/08/12/lilly-black-market-lawsuits-trump-vaccine-plan-pushback/?utm_campaign=rss",
+      "summary": "Eli Lilly filed six lawsuits against U.S. companies it accuses of illegally selling black-market versions of its experimental obesity drug retatrutide",
+      "ts": 1786540957000,
+      "publishedAt": "2026-08-12T13:22:37.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "SpaceNews",
       "title": "China’s iSpace raises first batch of series E funding for reusable rocketry",
@@ -55,6 +100,15 @@
       "ts": 1786536000000,
       "publishedAt": "2026-08-12T12:00:00.000Z",
       "categoryId": "space"
+    },
+    {
+      "source": "United Nations News",
+      "title": "Deadly attack on Red Sea ship adds to global supply chain uncertainty",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168121",
+      "summary": "A strike on a merchant ship off the southern coast of Yemen that reportedly killed several seafarers on Tuesday threatens to reignite deep concerns about global trade, amid the ongoing Iran-US war that has choked shippin…",
+      "ts": 1786536000000,
+      "publishedAt": "2026-08-12T12:00:00.000Z",
+      "categoryId": "global-governance"
     },
     {
       "source": "STAT",
@@ -757,60 +811,6 @@
       "ts": 1786450200000,
       "publishedAt": "2026-08-11T12:10:00.000Z",
       "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Why Golden Dome Demands a Reimagined and Revitalized Industrial Base",
-      "url": "https://spacenews.com/why-golden-dome-demands-a-reimagined-and-revitalized-industrial-base/",
-      "summary": "For most of its history, the United States has been largely insulated from foreign threats. Vast oceans made it an impractical destination for invading armies before the advent of modern […] The post Why Golden Dome Dema…",
-      "ts": 1786449768000,
-      "publishedAt": "2026-08-11T12:02:48.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Skylark Bio kicks off new gene therapy trial for deafness",
-      "url": "https://www.statnews.com/2026/08/11/skylark-bio-gjb2-otoferlin-gene-therapies-for-deafness/?utm_campaign=rss",
-      "summary": "Biotech startups in the U.S., France, and China are racing to bring new gene therapies for deafness by targeting different genetic mutations.",
-      "ts": 1786449600000,
-      "publishedAt": "2026-08-11T12:00:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "United Nations News",
-      "title": "After post-pandemic improvement, youth unemployment is rising again",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168120",
-      "summary": "Frustrated by skyrocketing youth unemployment, among other issues, tens of thousands of Gen Z activists took to the streets of Nepal last year, demanding a stake in the country’s economic growth. The protest worked and t…",
-      "ts": 1786449600000,
-      "publishedAt": "2026-08-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "South Sudan: UN mission decries deadly attacks, works to calm tensions after ‘nothing but devastation’",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168118",
-      "summary": "The UN Mission in South Sudan (UNMISS) has condemned recent armed group attacks in Warrap state which reportedly left more than 60 civilians dead and 50 others injured.",
-      "ts": 1786449600000,
-      "publishedAt": "2026-08-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Ebola deaths top 2,000 as scientists race to develop vaccine",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168117",
-      "summary": "Local officials in the DR Congo (DRC) reported on Tuesday that deaths from the Ebola virus disease have surpassed 2,000, with half of that number in the last 20 days.",
-      "ts": 1786449600000,
-      "publishedAt": "2026-08-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "World marks second warmest July on record",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168115",
-      "summary": "As multiple regions contend with unbearable heat, drought, wildfires and other extreme weather, the World Meteorological Organization (WMO) on Tuesday underlined the crucial need for stronger forecasts and early warning …",
-      "ts": 1786449600000,
-      "publishedAt": "2026-08-11T12:00:00.000Z",
-      "categoryId": "global-governance"
     }
   ],
   "categories": [

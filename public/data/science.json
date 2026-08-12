@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-08-12T13:14:07.522Z",
+  "updated": "2026-08-12T14:59:35.578Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Unfamiliar with rattlesnakes, blackbirds still avoid striking them while defending nests",
+      "url": "https://phys.org/news/2026-08-unfamiliar-rattlesnakes-blackbirds-defending.html",
+      "summary": "In a rare study of snakes as nest predators, scientists found nesting birds were loath to strike rattlesnakes even though they likely had no previous experience with vipers.",
+      "ts": 1786545603000,
+      "publishedAt": "2026-08-12T14:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Agricultural data helping develop tools for crop disease management",
+      "url": "https://phys.org/news/2026-08-agricultural-tools-crop-disease.html",
+      "summary": "The North Dakota Agricultural Weather Network—known as NDAWN—isn't just measuring precipitation amounts and temperatures across the state. It's also playing a role in developing tools for crop disease management.",
+      "ts": 1786545601000,
+      "publishedAt": "2026-08-12T14:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The internet can't get enough of cats, but cats might have had enough of the internet",
+      "url": "https://phys.org/news/2026-08-internet-cats.html",
+      "summary": "According to new research, viewers often dismiss, trivialize or even romanticize signs of cat distress during \"play\" interactions, raising concerns for cat welfare.",
+      "ts": 1786544406000,
+      "publishedAt": "2026-08-12T14:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quality control of proteins in the cellular membrane starts at the ribosome",
+      "url": "https://phys.org/news/2026-08-quality-proteins-cellular-membrane-ribosome.html",
+      "summary": "Scientists at the Center for Molecular Medicine Cologne (CMMC) and the CECAD Cluster of Excellence on Aging Research have demonstrated in a biomedical study that ribosomes, the protein factories of our cells, face an unu…",
+      "ts": 1786544404000,
+      "publishedAt": "2026-08-12T14:20:04.000Z"
+    },
+    {
+      "source": "Quanta Magazine",
+      "title": "Graduate Student Proves a Quantum Uncertainty Principle for Fractals",
+      "url": "https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/",
+      "summary": "The math, which combines chaos, quantum theory, and infinitely complex fractal structures, has been called a “foundational result.” The post Graduate Student Proves a Quantum Uncertainty Principle for Fractals first appe…",
+      "ts": 1786544082000,
+      "publishedAt": "2026-08-12T14:14:42.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Arctic cyclone clusters batter sea ice, leaving coasts more exposed to storms",
+      "url": "https://phys.org/news/2026-08-arctic-cyclone-clusters-batter-sea.html",
+      "summary": "In the Arctic, weather plays a key role in determining how much ice covers the ocean. Arctic cyclones are one weather phenomenon with a significant influence, causing unusually warm and stormy conditions that typically l…",
+      "ts": 1786543206000,
+      "publishedAt": "2026-08-12T14:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Good news, false expectations? How people assess potential returns in the stock market",
+      "url": "https://phys.org/news/2026-08-good-news-false-people-potential.html",
+      "summary": "A study involving the Cluster of Excellence ECONtribute at the Universities of Bonn and Cologne demonstrates that not only retail investors but also financial professionals often assess potential stock market returns dif…",
+      "ts": 1786543202000,
+      "publishedAt": "2026-08-12T14:00:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Three supermassive black holes discovered in a single galaxy for the first time",
+      "url": "https://phys.org/news/2026-08-supermassive-black-holes-galaxy.html",
+      "summary": "An international team of astronomers led by the Max Planck Institute for Extraterrestrial Physics has identified three actively accreting supermassive black holes in the galaxy J0148-4214. Matter is falling into the blac…",
+      "ts": 1786542014000,
+      "publishedAt": "2026-08-12T13:40:14.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "'Climate whiplash' is not simply a buzzword, but a symptom of a warming planet",
+      "url": "https://phys.org/news/2026-08-climate-whiplash-simply-buzzword-symptom.html",
+      "summary": "What flashes to mind when you hear the word \"whiplash\"?",
+      "ts": 1786542003000,
+      "publishedAt": "2026-08-12T13:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Quantum advantage reassessed: More realistic benchmarks for quantum algorithms",
+      "url": "https://phys.org/news/2026-08-quantum-advantage-reassessed-realistic-benchmarks.html",
+      "summary": "Quantum advantage refers to the point at which a quantum computer solves a clearly defined task faster or more efficiently than any classical computer—or makes it solvable in the first place. For many practical applicati…",
+      "ts": 1786540808000,
+      "publishedAt": "2026-08-12T13:20:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Why is the Amish population growing so fast in America?",
+      "url": "https://phys.org/news/2026-08-qa-amish-population-fast-america.html",
+      "summary": "The Amish, a Christian denomination and a three-century-old ethnic group of German migrants known for its strict lifestyle standards, are one of the fastest-growing minority populations in the U.S. For more than a centur…",
+      "ts": 1786540805000,
+      "publishedAt": "2026-08-12T13:20:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Why do humans use 'baby voice' when speaking to pets?",
@@ -81,6 +169,22 @@
       "summary": "A dangerous cocktail of tectonic positioning, loose earth and shoddy construction contributed to the unprecedented damage caused by Venezuela's twin earthquakes, experts say.",
       "ts": 1786532401000,
       "publishedAt": "2026-08-12T11:00:01.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Integral variable-range hopping for modeling electrical transport in disordered systems",
+      "url": "http://link.aps.org/doi/10.1103/zsnq-r7ms",
+      "summary": "Author(s): Chenxin Qin, Chenyan Wang, Mouyang Cheng, and Ji Chen The variable-range hopping (VRH) model has been widely applied to describe low-temperature electrical transport in disordered systems. However, it relies o…",
+      "ts": 1786528800000,
+      "publishedAt": "2026-08-12T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Few-MHz bandwidth tunable optical filter based on a fiber-ring resonator",
+      "url": "http://link.aps.org/doi/10.1103/yw1q-f6f4",
+      "summary": "Author(s): Gabriele Maron, Anton Bölian, Xin-Xin Hu, Luke Masters, Arno Rauschenbeutel, and Jürgen Volz We present a fiber-ring resonator that realizes an ultranarrowband, high-extinction, low-loss, tunable optical filte…",
+      "ts": 1786528800000,
+      "publishedAt": "2026-08-12T10:00:00.000Z"
     },
     {
       "source": "Phys.org",
@@ -695,110 +799,6 @@
       "title": "T1, T2, and complex permittivities of hydrogels, paramagnetic salt solutions, and oils at 0.35, 1.5, and 3 Tesla",
       "url": "https://arxiv.org/abs/2608.11117",
       "summary": "arXiv:2608.11117v1 Announce Type: new Abstract: Approach: The T1, T2, and complex permittivities of candidate MRI phantom constituents (hydrogels, paramagnetic electrolytes, and oils) were measured at different magnetic …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Work Done by Sliding Friction",
-      "url": "https://arxiv.org/abs/2608.11157",
-      "summary": "arXiv:2608.11157v1 Announce Type: new Abstract: Friction does work when two objects in contact slide past one another. This process is studied using a simple numerical model consisting of two flexible asperites, one for …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
-      "url": "https://arxiv.org/abs/2608.09949",
-      "summary": "arXiv:2608.09949v1 Announce Type: cross Abstract: This study evaluates the application of Large Language Models (LLMs) in complex biological systems, evolving from data analysis to autonomous, AI-guided experimentation. …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Exploiting Structure in the Boolean Weighted Constraint Satisfaction Problem: A Constraint Composite Graph-Based Approach",
-      "url": "https://arxiv.org/abs/2608.10005",
-      "summary": "arXiv:2608.10005v1 Announce Type: cross Abstract: What is \"structure,\" and how can we exploit it in combinatorial optimization? Reasoning tasks such as system design, state estimation, and prediction can be cast as combi…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Analytic Boundary Terms for Arbitrary Crystal Geometries and Direct-Sum Evaluation of Madelung Constants in Triclinic Lattices",
-      "url": "https://arxiv.org/abs/2608.10041",
-      "summary": "arXiv:2608.10041v1 Announce Type: cross Abstract: The direct-sum evaluation of Madelung constants is complicated by the conditional convergence of lattice sums, which gives rise to a shape-dependent boundary term. In thi…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ripple Signatures of Majorana Hybridization across a Topological Quantum Quench",
-      "url": "https://arxiv.org/abs/2608.10052",
-      "summary": "arXiv:2608.10052v1 Announce Type: cross Abstract: The crossover between topology and nonequilibrium dynamics has emerged as a rich frontier, in which quantum systems can exhibit unique dynamical phenomena that lie beyond…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Mysterious Transients in the Palomar Observatory Sky Survey (POSS-1) as profound manifestation of the Dark Matter physics",
-      "url": "https://arxiv.org/abs/2608.10061",
-      "summary": "arXiv:2608.10061v1 Announce Type: cross Abstract: Transient star-like objects of unknown origin have been identified in the first Palomar Observatory Sky Survey (POSS-1) as part of the Vanishing and Appearing Sources dur…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Reconstructing Dark Matter Mass and Discriminating Standard and Non-Standard WIMP-Nucleus Interactions with Paleo-Detectors",
-      "url": "https://arxiv.org/abs/2608.10105",
-      "summary": "arXiv:2608.10105v1 Announce Type: cross Abstract: Paleo-detectors record and retain crystal damage in ancient minerals from nuclear recoils induced by dark matter scattering over geological timescales. Previous studies h…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ollivier's Ricci Curvature on Complex-weighted Graphs",
-      "url": "https://arxiv.org/abs/2608.10132",
-      "summary": "arXiv:2608.10132v1 Announce Type: cross Abstract: Understanding the geometry of complex networks is critical for effective modeling and analysis across domains. While discrete notions of Ricci curvature have emerged as p…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Motion Artifact-Aware Self-Supervised Representation Learning for 3D Brain MRI Motion Artifact Reduction",
-      "url": "https://arxiv.org/abs/2608.10170",
-      "summary": "arXiv:2608.10170v1 Announce Type: cross Abstract: Patient motion remains a source of image degradation in brain MRI, leading to signal loss, blurring, and geometric distortion that compromise quantitative analysis. Exist…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Volumetrically Stabilized Mixed Formulation of the Finite Element Immersed Boundary Method for Fluid Structure Interaction with Fully Incompressible Hyperelastic Solids",
-      "url": "https://arxiv.org/abs/2608.10217",
-      "summary": "arXiv:2608.10217v1 Announce Type: cross Abstract: The finite element immersed boundary method (FE IBM) with a distributed Lagrange multiplier is an attractive framework for fluid structure interaction (FSI) because it co…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Unsupervised Detection of Groundwater Storage Anomalies in Ghana Using GRACE Satellite Data",
-      "url": "https://arxiv.org/abs/2608.10233",
-      "summary": "arXiv:2608.10233v1 Announce Type: cross Abstract: Groundwater variability in Ghana remains poorly characterized due to limited long-term in-situ observations. This study investigates groundwater storage anomalies using G…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Does the way we write a theory change the program an LLM builds from it? A prospective randomized study of renderer format in LLM theory-to-program translation",
-      "url": "https://arxiv.org/abs/2608.10314",
-      "summary": "arXiv:2608.10314v1 Announce Type: cross Abstract: A verbal theory does not run: translating it into an executable model requires choices about variables, interventions, and interactions. We tested whether the presentatio…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "History Matters: Damage-Mediated Amplification of Brain Deformation and Injury Risk under Repeated Head Impacts",
-      "url": "https://arxiv.org/abs/2608.10331",
-      "summary": "arXiv:2608.10331v1 Announce Type: cross Abstract: Computational head models are typically applied to isolated impacts, leaving repeated head loading largely unexplored. An Ogden-Roxburgh Mullins damage formulation was im…",
       "ts": 1786507200000,
       "publishedAt": "2026-08-12T04:00:00.000Z"
     }
