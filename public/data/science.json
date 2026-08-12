@@ -1,7 +1,71 @@
 {
   "ok": true,
-  "updated": "2026-08-12T21:49:21.180Z",
+  "updated": "2026-08-12T22:42:50.847Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Unsupervised free time increases the likelihood that adolescents will engage in violent behavior, 21-country study finds",
+      "url": "https://phys.org/news/2026-08-unsupervised-free-likelihood-adolescents-engage.html",
+      "summary": "A study involving more than 58,000 adolescents from 21 countries found that \"unstructured free time\"—defined as periods without adult supervision or activities guided by educational, cultural or athletic goals—is strongl…",
+      "ts": 1786574405000,
+      "publishedAt": "2026-08-12T22:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What it's like to discover an ancient Egyptian tomb, and the race against time to preserve it",
+      "url": "https://phys.org/news/2026-08-ancient-egyptian-tomb.html",
+      "summary": "Looking inside a newly discovered ancient tomb for the first time is both exciting and terrifying. I was fortunate to experience this recently as director of an international research team carrying out fieldwork in the T…",
+      "ts": 1786574401000,
+      "publishedAt": "2026-08-12T22:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ultrafast flash Joule heating significantly reduces MXene manufacturing time",
+      "url": "https://phys.org/news/2026-08-ultrafast-joule-significantly-mxene.html",
+      "summary": "MXenes are two-dimensional materials made of very thin layers of metals, measured on the atomic scale. They conduct electricity well and have surfaces that can easily interact with other materials, making them excellent …",
+      "ts": 1786573804000,
+      "publishedAt": "2026-08-12T22:30:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Space travel doesn't affect the strength of heart muscle cells, study finds",
+      "url": "https://phys.org/news/2026-08-space-doesnt-affect-strength-heart.html",
+      "summary": "It's common to see images of astronauts on the International Space Station exercising, running on special treadmills and pedaling cycles designed for tight quarters.",
+      "ts": 1786573203000,
+      "publishedAt": "2026-08-12T22:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Graphene nanowrinkles could reshape electricity in future ultrathin devices",
+      "url": "https://phys.org/news/2026-08-graphene-nanowrinkles-reshape-electricity-future.html",
+      "summary": "Rice University researchers have shown that tiny wrinkles in graphene can change the material's electrical properties, providing evidence for flexoelectricity, a phenomenon in which a material generates an electric charg…",
+      "ts": 1786572601000,
+      "publishedAt": "2026-08-12T22:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A dying star offers a rare glimpse of how the universe recycles its raw materials",
+      "url": "https://phys.org/news/2026-08-dying-star-rare-glimpse-universe.html",
+      "summary": "Astronomers have captured an unprecedented image of a cosmic recycling project in progress—fragments of a dying star being busted up, stripped and absorbed into interstellar space.",
+      "ts": 1786572007000,
+      "publishedAt": "2026-08-12T22:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Putting out wildfires: How peat restoration has reduced fire risk in Indonesia's tropical forests",
+      "url": "https://phys.org/news/2026-08-wildfires-peat-indonesia-tropical-forests.html",
+      "summary": "Peatland fires in Indonesia pose a major threat to habitats, wildlife and people. That risk is exacerbated by the country's periodic El Niño warming phases, which bring prolonged drought.",
+      "ts": 1786572005000,
+      "publishedAt": "2026-08-12T22:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fast-moving wildfires may prevent western forests from recovering",
+      "url": "https://phys.org/news/2026-08-fast-wildfires-western-forests-recovering.html",
+      "summary": "The severe, drought-fueled fires now burning across much of the American West and Canada may be scorching forests so thoroughly that they cannot recover to the forests they once were, new research shows. A study by Color…",
+      "ts": 1786571401000,
+      "publishedAt": "2026-08-12T21:50:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Pain isn't the point: European viper venoms may have evolved to subdue prey",
@@ -737,70 +801,6 @@
       "summary": "Author(s): Masahiro Kawamata, Maxim Avdeev, and Yusuke Nambu We report mean-field critical behavior in ${\\mathrm{Eu}}_{2}{\\text{MnSi}}_{2}{\\mathrm{O}}_{7}$, a melilite-type ferrimagnet with spin-only ${\\mathrm{Eu}}^{2+}$…",
       "ts": 1786528800000,
       "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Magnetic-Field-Tunable Repulsive Exciton-Exciton Interaction in the van der Waals Antiferromagnet ${\\mathrm{NiPS}}_{3}$",
-      "url": "http://link.aps.org/doi/10.1103/jl7j-g835",
-      "summary": "Author(s): Kaiyang Huang, Jaena Park, Zhuo Yang, Je-Geun Park, Atsuhiko Miyata, Yoshimitsu Kohama, and Yasuhiro H. Matsuda Two ultranarrow absorption peaks around 1.5 eV, which are widely believed to originate from a tra…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS Physical Review Letters",
-      "title": "Quantifying and Minimizing Dissipation in a Nonequilibrium Phase Transition",
-      "url": "http://link.aps.org/doi/10.1103/z9nd-rprp",
-      "summary": "Author(s): Yuejun Shen, Zhiqiao Jiang, Yunfan Huang, Brittany M. Cleary, Yixing Jiang, Grant M. Rotskoff, and Aaron M. Lindenberg In a finite-time continuous phase transition, topological defects emerge as the system und…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Unraveling Non-polymorphic Phase Evolution in Mg-Ag-Sb for Designing Thermally Recoverable Thermoelectrics",
-      "url": "http://link.aps.org/doi/10.1103/7nxm-t64f",
-      "summary": "Author(s): Shizhen Zhi, Xiaojing Ma, Shanghao Chen, Tianyu Zhang, Yao Xu, Jiang Chen, Sheng Ye, Chenhao Lin, Linmao Wen, Jinxuan Cheng, Rongpei Shi, Xingjun Liu, Feng Cao, Lijun Zhang, Yuhao Fu, Qian Zhang, and Jun Mao T…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS PRX",
-      "title": "Evolution of Polycrystallinity in Homogeneously Nucleated Colloidal Crystals",
-      "url": "http://link.aps.org/doi/10.1103/ht63-96gl",
-      "summary": "Author(s): Merin Jose, Nicholas H. P. Orr, Taiki Yanagishima, and Roel P. A. Dullens Direct observations of the birth and growth of polycrystalline colloidal crystals clarify the role of grain formation, a key aspect in …",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Integral variable-range hopping for modeling electrical transport in disordered systems",
-      "url": "http://link.aps.org/doi/10.1103/zsnq-r7ms",
-      "summary": "Author(s): Chenxin Qin, Chenyan Wang, Mouyang Cheng, and Ji Chen The variable-range hopping (VRH) model has been widely applied to describe low-temperature electrical transport in disordered systems. However, it relies o…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Few-MHz bandwidth tunable optical filter based on a fiber-ring resonator",
-      "url": "http://link.aps.org/doi/10.1103/yw1q-f6f4",
-      "summary": "Author(s): Gabriele Maron, Anton Bölian, Xin-Xin Hu, Luke Masters, Arno Rauschenbeutel, and Jürgen Volz We present a fiber-ring resonator that realizes an ultranarrowband, high-extinction, low-loss, tunable optical filte…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How to design a space habitat that supports its residents' mental health",
-      "url": "https://phys.org/news/2026-08-space-habitat-residents-mental-health.html",
-      "summary": "In extreme environments, habitats are built for survival. Submarines, Antarctic bases and post-disaster dwellings are designed to prioritize health and safety. This is especially the case for habitats in space, where roo…",
-      "ts": 1786525204000,
-      "publishedAt": "2026-08-12T09:00:04.000Z"
-    },
-    {
-      "source": "Science News",
-      "title": "Newborn screening for cancer risk could save lives. Should it be done?",
-      "url": "https://www.sciencenews.org/article/newborn-screening-cancer-risk-mutations",
-      "summary": "Genetic screening that identifies cancer-linked mutations in newborns could give doctors a head start on treatment, but it comes with risks.",
-      "ts": 1786525200000,
-      "publishedAt": "2026-08-12T09:00:00.000Z"
     }
   ],
   "sources": [

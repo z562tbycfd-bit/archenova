@@ -1,7 +1,16 @@
 {
   "ok": true,
-  "updated": "2026-08-12T21:49:23.656Z",
+  "updated": "2026-08-12T22:42:52.847Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "Space Command identifies capabilities it needs for the next space war",
+      "url": "https://spacenews.com/space-command-identifies-capabilities-it-needs-for-the-next-space-war/",
+      "summary": "Gen. Stephen Whiting said there is a demand for offensive capabilities and called on the industry to develop ways to disable the critical nodes of large satellite constellations The post Space Command identifies capabili…",
+      "ts": 1786572000000,
+      "publishedAt": "2026-08-12T22:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "Talks on launch of clinical trial of Ebola vaccine in DRC advance, WHO says ",
@@ -801,15 +810,6 @@
       "summary": "Stopping statins in people over 75 at low risk for heart disease didn’t increase deaths, a new study finds.",
       "ts": 1786487400000,
       "publishedAt": "2026-08-11T22:30:00.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Medicaid will stop paying for some gender-affirming care for transgender minors",
-      "url": "https://www.statnews.com/2026/08/11/medicaid-to-end-funding-gender-affirming-care-transgender-youth/?utm_campaign=rss",
-      "summary": "The Trump administration plans to end federal funding for some care for transgender minors.",
-      "ts": 1786486735000,
-      "publishedAt": "2026-08-11T22:18:55.000Z",
       "categoryId": "bio"
     }
   ],
