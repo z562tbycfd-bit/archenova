@@ -1,7 +1,39 @@
 {
   "ok": true,
-  "updated": "2026-08-12T08:19:26.896Z",
+  "updated": "2026-08-12T10:08:20.320Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How to design a space habitat that supports its residents' mental health",
+      "url": "https://phys.org/news/2026-08-space-habitat-residents-mental-health.html",
+      "summary": "In extreme environments, habitats are built for survival. Submarines, Antarctic bases and post-disaster dwellings are designed to prioritize health and safety. This is especially the case for habitats in space, where roo…",
+      "ts": 1786525204000,
+      "publishedAt": "2026-08-12T09:00:04.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Newborn screening for cancer risk could save lives. Should it be done?",
+      "url": "https://www.sciencenews.org/article/newborn-screening-cancer-risk-mutations",
+      "summary": "Genetic screening that identifies cancer-linked mutations in newborns could give doctors a head start on treatment, but it comes with risks.",
+      "ts": 1786525200000,
+      "publishedAt": "2026-08-12T09:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Total solar eclipse to spellbind Europe",
+      "url": "https://phys.org/news/2026-08-total-solar-eclipse-spellbind-europe.html",
+      "summary": "Millions of Europeans will contemplate the sky in awe on Wednesday as a rare total solar eclipse crosses part of the continent and plunges a swath of Spain into eerie daytime darkness.",
+      "ts": 1786524001000,
+      "publishedAt": "2026-08-12T08:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "UK 'on course' to record warmest summer for second year in a row",
+      "url": "https://phys.org/news/2026-08-uk-warmest-summer-year-row.html",
+      "summary": "Britain is \"on course\" to chalk up its warmest summer on record for the second year running, the UK's Met Office weather agency said Tuesday as the country braced for its fifth heat wave of the season.",
+      "ts": 1786522801000,
+      "publishedAt": "2026-08-12T08:20:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "How Britain's mapmakers track climate change",
@@ -767,38 +799,6 @@
       "title": "Helium-like ions $(Z,e,e)$ in Lagrange Mesh method, interpolating the highly-accurate energy spectra vs. Z",
       "url": "https://arxiv.org/abs/2608.10695",
       "summary": "arXiv:2608.10695v1 Announce Type: cross Abstract: Two alternative approaches for studying Helium-like atomic ions in non-relativistic quantum mechanics are proposed: (I) a numerical approach, based on the Lagrange-mesh m…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Revealing time characteristics of optical excitations in dielectric and plasmonic structures through cathodoluminescence interferometry",
-      "url": "https://arxiv.org/abs/2608.10721",
-      "summary": "arXiv:2608.10721v1 Announce Type: cross Abstract: Cathodoluminescence (CL) spectroscopy provides access to optical excitations with nanometer spatial resolution, but direct time-resolved measurements of optical resonance…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "First measurement of kaonic deuterium X-ray transitions",
-      "url": "https://arxiv.org/abs/2608.10749",
-      "summary": "arXiv:2608.10749v1 Announce Type: cross Abstract: The study of the strong interaction among hadrons at low energies remains one of the key challenges in fundamental physics because of its non-perturbative nature, which m…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Boosting self hybridized exciton polaritons with metal clad WS2 waveguides",
-      "url": "https://arxiv.org/abs/2608.10895",
-      "summary": "arXiv:2608.10895v1 Announce Type: cross Abstract: The formation of Fabry Perot and guided wave self hybridized exciton polaritons in two dimensional materials results in long range exciton energy transfer and strong exci…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Laser spectroscopy illuminates the $N=32$ shell closure",
-      "url": "https://arxiv.org/abs/2608.10943",
-      "summary": "arXiv:2608.10943v1 Announce Type: cross Abstract: Atomic nuclei are strongly correlated quantum many-body systems, and how their shell structure evolves with increasing neutron excess remains a central open question in n…",
       "ts": 1786507200000,
       "publishedAt": "2026-08-12T04:00:00.000Z"
     }
