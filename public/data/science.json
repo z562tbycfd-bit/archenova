@@ -1,7 +1,79 @@
 {
   "ok": true,
-  "updated": "2026-08-12T20:48:18.418Z",
+  "updated": "2026-08-12T21:49:21.180Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Pain isn't the point: European viper venoms may have evolved to subdue prey",
+      "url": "https://phys.org/news/2026-08-pain-isnt-european-viper-venoms.html",
+      "summary": "For many people, the fear of venomous snakes is linked to one thing: pain. Yet new research led by scientists at Bangor University suggests that, for Europe's vipers, at least, causing pain may never have been a driving …",
+      "ts": 1786570805000,
+      "publishedAt": "2026-08-12T21:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Greener processing cuts cost of novel material for water decontamination",
+      "url": "https://phys.org/news/2026-08-greener-material-decontamination.html",
+      "summary": "University of Birmingham scientists who used green chemistry to make a next-generation metal-organic framework (MOF) for capturing heavy metals from wastewater have shown that it is cheaper and more resource-efficient to…",
+      "ts": 1786570804000,
+      "publishedAt": "2026-08-12T21:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Wars between nations face persistent escalation risk, decades of conflict data suggest",
+      "url": "https://phys.org/news/2026-08-wars-nations-persistent-escalation-decades.html",
+      "summary": "Military leaders frequently underestimate how big the wars they engage in will get. Gen. Douglas MacArthur predicted U.S. troops could come home from the Korean War in time for Christmas, just months after the conflict s…",
+      "ts": 1786570201000,
+      "publishedAt": "2026-08-12T21:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Novel polymer membrane design improves high-purity hydrogen separation",
+      "url": "https://phys.org/news/2026-08-polymer-membrane-high-purity-hydrogen.html",
+      "summary": "In Nature Communications a research team led by Professor Tae-Hyun Bae of the KAIST Department of Chemical and Biomolecular Engineering introduced hydrogen-selective transport pathways at the angstrom scale inside polyme…",
+      "ts": 1786569606000,
+      "publishedAt": "2026-08-12T21:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "First supernovae may have seeded rocky planet building blocks 100 million years after the Big Bang",
+      "url": "https://phys.org/news/2026-08-supernovae-seeded-rocky-planet-blocks.html",
+      "summary": "The building blocks of rocky planets may have begun forming just 100 million years after the Big Bang—long before the first galaxies even existed—according to new research from the University of Portsmouth.",
+      "ts": 1786569603000,
+      "publishedAt": "2026-08-12T21:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Soil-dwelling myxobacteria reveal five new classes of bioactive compounds",
+      "url": "https://phys.org/news/2026-08-soil-myxobacteria-reveal-classes-bioactive.html",
+      "summary": "Most antibiotics used clinically are based on natural compounds produced by bacteria and other microorganisms. At the Helmholtz Institute for Pharmaceutical Research Saarland (HIPS), researchers are using soil-dwelling m…",
+      "ts": 1786569001000,
+      "publishedAt": "2026-08-12T21:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "A $10 soil test goes global with virtual reality training for farmers",
+      "url": "https://phys.org/news/2026-08-soil-global-virtual-reality-farmers.html",
+      "summary": "Last year, we described Agrilo, an affordable \"colorimetric\" soil-testing system developed through research at MacEwan University. Using a smartphone camera to interpret color changes, Agrilo measures soil nutrients and …",
+      "ts": 1786568406000,
+      "publishedAt": "2026-08-12T21:00:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Europe's worst medieval flood highlights risk of successive extreme events",
+      "url": "https://phys.org/news/2026-08-europe-worst-medieval-highlights-successive.html",
+      "summary": "New research involving the University of Liverpool has provided comprehensive insights into the largest flood event in Europe over the past millennium—the flood traditionally known as \"St. Mary Magdalene's Flood\" of 1342…",
+      "ts": 1786567804000,
+      "publishedAt": "2026-08-12T20:50:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "DNA research highlights the genetic vulnerability of Asian elephants",
+      "url": "https://phys.org/news/2026-08-dna-highlights-genetic-vulnerability-asian.html",
+      "summary": "The DNA of Asian elephants tells a concerning story. Although all four subspecies are under pressure, there are considerable differences in their genetic health. In an article published in the journal Genome Biology and …",
+      "ts": 1786567802000,
+      "publishedAt": "2026-08-12T20:50:02.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Severe weather now a key predictor of where bird species occur in North America",
@@ -729,78 +801,6 @@
       "summary": "Genetic screening that identifies cancer-linked mutations in newborns could give doctors a head start on treatment, but it comes with risks.",
       "ts": 1786525200000,
       "publishedAt": "2026-08-12T09:00:00.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Total solar eclipse to spellbind Europe",
-      "url": "https://phys.org/news/2026-08-total-solar-eclipse-spellbind-europe.html",
-      "summary": "Millions of Europeans will contemplate the sky in awe on Wednesday as a rare total solar eclipse crosses part of the continent and plunges a swath of Spain into eerie daytime darkness.",
-      "ts": 1786524001000,
-      "publishedAt": "2026-08-12T08:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "UK 'on course' to record warmest summer for second year in a row",
-      "url": "https://phys.org/news/2026-08-uk-warmest-summer-year-row.html",
-      "summary": "Britain is \"on course\" to chalk up its warmest summer on record for the second year running, the UK's Met Office weather agency said Tuesday as the country braced for its fifth heat wave of the season.",
-      "ts": 1786522801000,
-      "publishedAt": "2026-08-12T08:20:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "How Britain's mapmakers track climate change",
-      "url": "https://phys.org/news/2026-08-britain-mapmakers-track-climate.html",
-      "summary": "Once used to defend Britain's shores against Napoleonic France, the Ordnance Survey's detailed maps are now essential for tracking and adapting to climate change.",
-      "ts": 1786522201000,
-      "publishedAt": "2026-08-12T08:10:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Elvish, Klingon and Pig Latin: What can invented languages teach us about the human brain?",
-      "url": "https://phys.org/news/2026-08-elvish-klingon-pig-latin-languages.html",
-      "summary": "Invented languages tend to be the stuff of fantasy or science fiction worlds. But as a child, you may have made one up yourself.",
-      "ts": 1786520401000,
-      "publishedAt": "2026-08-12T07:40:01.000Z"
-    },
-    {
-      "source": "Phys.org",
-      "title": "Looking to see the solar eclipse from North America? Here's where and when to catch a sliver",
-      "url": "https://phys.org/news/2026-08-solar-eclipse-north-america-sliver.html",
-      "summary": "Sorry, North America. After winning the cosmic lottery with a pair of coast-to-coast total solar eclipses, now it's Europe's turn.",
-      "ts": 1786520235000,
-      "publishedAt": "2026-08-12T07:37:15.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "An adaptive and evolvable deep reinforcement learning framework for weather prediction",
-      "url": "https://arxiv.org/abs/2608.09948",
-      "summary": "arXiv:2608.09948v1 Announce Type: new Abstract: No single AI weather model excels at all variables, pressure levels, and lead times. Rather than building yet another architecture, we reframe the forecasting problem as on…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observation of node-dependent Rydberg molecular bound states",
-      "url": "https://arxiv.org/abs/2608.09950",
-      "summary": "arXiv:2608.09950v1 Announce Type: new Abstract: Ultralong-range Rydberg molecules, formed by the interaction between a highly excited Rydberg atom and a ground-state atom, provide a unique platform for exploring quantum …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Borey: A High-Resolution Regional Atmosphere-Ocean-Sea Ice-Wave Hindcast Dataset for the Barents and Kara Seas, 2019-2023",
-      "url": "https://arxiv.org/abs/2608.09957",
-      "summary": "arXiv:2608.09957v1 Announce Type: new Abstract: The Barents and Kara Seas require regional marine information at scales finer than those commonly resolved by global products. We present Borey, a regional atmosphere--ocea…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "AIFS-TC: A simple correction competitive with the operational frontier for tropical cyclone intensity forecasting",
-      "url": "https://arxiv.org/abs/2608.09959",
-      "summary": "arXiv:2608.09959v1 Announce Type: new Abstract: AI weather models are in the process of revolutionising weather forecasting. While these models have been shown to achieve superior performance to physics-based NWP in fore…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
     }
   ],
   "sources": [
