@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-08-11T08:38:12.706Z",
+  "current": {
+    "date": "2026-08-11",
+    "id": "models-of-wildland-fire-and-ember-spread",
+    "experienceVersion": "4D-1",
+    "title": "Models of Wildland Fire and Ember Spread",
+    "experienceTitle": "Models of Wildland Fire and Ember Spread",
+    "question": "What does this observation reveal about reality, what would make its explanation fail, and how could validated knowledge eventually alter civilization?",
+    "source": {
+      "title": "Models of Wildland Fire and Ember Spread",
+      "organization": "arXiv Physics",
+      "url": "https://arxiv.org/abs/2608.07761",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "updatedAt": "2026-08-11T08:38:12.696Z"
+    },
+    "classification": {
+      "category": "SCIENCE",
+      "signalCategory": "Reality Discovery",
+      "currentStage": "Applied Research",
+      "expectedHorizon": "10–30 Years"
+    },
+    "reality": {
+      "statement": "arXiv:2608.07761v1 Announce Type: new Abstract: In this Chapter we explore the nature and theory of ember transport using observations from controlled laboratory settings, prescribed fire, and wildland fire. Specific exa…"
+    },
+    "theory": {
+      "statement": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options.",
+      "mechanism": [
+        "Reality Discovery",
+        "Artificial Intelligence",
+        "observation",
+        "understanding",
+        "memory"
+      ]
+    },
+    "hypothesisSpace": [
+      {
+        "id": "primary",
+        "label": "PRIMARY EXPLANATION",
+        "title": "Current Causal Interpretation",
+        "statement": "This matters because it may influence how knowledge becomes capability, how capability becomes infrastructure, and how infrastructure affects future civilization options."
+      },
+      {
+        "id": "alternative",
+        "label": "ALTERNATIVE EXPLANATION",
+        "title": "Competing Mechanism",
+        "statement": "The same observation may arise from a different causal mechanism that remains empirically compatible with the currently available evidence."
+      },
+      {
+        "id": "artifact",
+        "label": "MEASUREMENT ALTERNATIVE",
+        "title": "Measurement or Interpretation Effect",
+        "statement": "The apparent signal may partly reflect measurement limitations, sampling effects, model assumptions, calibration, or interpretation rather than the proposed underlying mechanism."
+      }
+    ],
+    "predictionSpace": [
+      {
+        "id": "expected",
+        "label": "EXPECTED EFFECT",
+        "statement": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination."
+      },
+      {
+        "id": "null",
+        "label": "NO ROBUST EFFECT",
+        "statement": "Independent measurements may fail to reproduce a stable effect beyond uncertainty, noise, or methodological variation."
+      },
+      {
+        "id": "divergent",
+        "label": "DIVERGENT EFFECT",
+        "statement": "Future observations may reveal a reproducible effect whose direction or magnitude differs materially from the present explanation."
+      }
+    ],
+    "prediction": {
+      "statement": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination."
+    },
+    "evidence": {
+      "statement": "arXiv:2608.07761v1 Announce Type: new Abstract: In this Chapter we explore the nature and theory of ember transport using observations from controlled laboratory settings, prescribed fire, and wildland fire. Specific exa…",
+      "strength": "Strong",
+      "confidence": 80
+    },
+    "falsification": {
+      "statement": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+      "failureCondition": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination."
+    },
+    "engineeringReach": {
+      "validated": [
+        "May influence the transition from reality discovery knowledge to applied capability."
+      ],
+      "plausible": [
+        "Could affect institutional priorities, infrastructure investment, governance, or long-term coordination.",
+        "Requires continued observation to determine whether the signal develops into durable civilizational capability."
+      ],
+      "speculative": []
+    },
+    "civilizationMeaning": "Strategically relevant as an early monitoring signal for research prioritization, opportunity mapping, institutional awareness, and future capability development.",
+    "uncertainty": "The underlying direction is plausible, but engineering maturity, reproducibility, integration cost, safety, and institutional adoption remain uncertain.",
+    "watchpoint": "Watch whether this signal moves from observation into validation, implementation, infrastructure adoption, or institutional coordination.",
+    "memoryStatement": "This experience is preserved as ArcheNova's selected civilization signal for 2026-08-11.",
+    "selection": {
+      "finalScore": 77.4,
+      "repetitionPenalty": 0,
+      "criteria": {
+        "scientificSignificance": 72.5,
+        "empiricalStrength": 81.5,
+        "falsifiability": 76.7,
+        "engineeringReach": 55,
+        "civilizationImpact": 66,
+        "explanatoryValue": 80,
+        "theoryEvidenceCoupling": 95,
+        "fundamentalPrincipleValue": 95,
+        "crossDomainReach": 68,
+        "experienceSuitability": 95
+      }
+    },
+    "topicFingerprint": [
+      "science",
+      "reality discovery",
+      "artificial intelligence",
+      "technology",
+      "education & knowledge"
+    ]
+  },
+  "history": []
+}

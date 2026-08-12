@@ -25,31 +25,1591 @@ const DASHBOARD_FILE = path.join(
   "dashboard.json"
 );
 
+const DAILY_EXPERIENCE_OUTPUT = path.join(
+  outDir,
+  "experience",
+  "daily.json"
+);
+
+const DAILY_EXPERIENCE_HISTORY_LIMIT = 14;
+
+const DAILY_EXPERIENCE_WEIGHTS = {
+  scientificSignificance: 0.14,
+  empiricalStrength: 0.13,
+  falsifiability: 0.10,
+  engineeringReach: 0.10,
+  civilizationImpact: 0.13,
+  explanatoryValue: 0.08,
+
+  theoryEvidenceCoupling: 0.10,
+  fundamentalPrincipleValue: 0.08,
+  crossDomainReach: 0.07,
+  experienceSuitability: 0.07,
+};
+
 function readPreviousItems(fileName) {
   try {
-    const filePath = path.join(outDir, fileName);
-    if (!fs.existsSync(filePath)) return [];
+    const filePath = path.join(
+      outDir,
+      fileName
+    );
 
-    const raw = fs.readFileSync(filePath, "utf8");
+    if (!fs.existsSync(filePath)) {
+      return [];
+    }
+
+    const raw = fs.readFileSync(
+      filePath,
+      "utf8"
+    );
+
     const json = JSON.parse(raw);
 
-    return Array.isArray(json.items) ? json.items : [];
+    return Array.isArray(json.items)
+      ? json.items
+      : [];
   } catch {
     return [];
   }
 }
 
-function mergeWithPrevious(currentItems, previousItems, limit) {
-  return [...currentItems, ...previousItems]
-    .filter((x) => x.title && x.url)
-    .sort((a, b) => (b.ts || 0) - (a.ts || 0))
-    .filter((x, i, arr) => arr.findIndex((y) => y.url === x.url) === i)
-    .slice(0, limit);
+function mergeWithPrevious(
+  currentItems,
+  previousItems,
+  limit
+) {
+  return [
+    ...currentItems,
+    ...previousItems,
+  ]
+    .filter(
+      (x) =>
+        x.title &&
+        x.url
+    )
+    .sort(
+      (a, b) =>
+        (b.ts || 0) -
+        (a.ts || 0)
+    )
+    .filter(
+      (
+        x,
+        i,
+        arr
+      ) =>
+        arr.findIndex(
+          (y) =>
+            y.url === x.url
+        ) === i
+    )
+    .slice(
+      0,
+      limit
+    );
 }
 
-function clamp(text = "", max = 220) {
-  const clean = String(text).replace(/\s+/g, " ").trim();
-  return clean.length > max ? clean.slice(0, max) + "…" : clean;
+/*
+ * 既存関数。
+ * 文字列を最大文字数で切る用途。
+ * Daily Experience の数値計算には使わない。
+ */
+function clamp(
+  text = "",
+  max = 220
+) {
+  const clean = String(text)
+    .replace(
+      /\s+/g,
+      " "
+    )
+    .trim();
+
+  return clean.length > max
+    ? clean.slice(
+        0,
+        max
+      ) + "…"
+    : clean;
+}
+
+/* ==========================================================
+   PHASE 4C-1
+   DAILY CIVILIZATION EXPERIENCE
+========================================================== */
+
+function clampExperienceScore(
+  value,
+  min = 0,
+  max = 100
+) {
+  const numeric =
+    Number(value);
+
+  if (
+    !Number.isFinite(
+      numeric
+    )
+  ) {
+    return min;
+  }
+
+  return Math.min(
+    max,
+    Math.max(
+      min,
+      numeric
+    )
+  );
+}
+
+/*
+ * dashboard.score は基本 0〜10。
+ * confidence は 0〜100。
+ *
+ * 両方を Experience 内では
+ * 0〜100 に統一する。
+ */
+function normalizeExperienceMetric(
+  value
+) {
+  const numeric =
+    Number(value);
+
+  if (
+    !Number.isFinite(
+      numeric
+    )
+  ) {
+    return 0;
+  }
+
+  const normalized =
+    numeric <= 10
+      ? numeric * 10
+      : numeric;
+
+  return clampExperienceScore(
+    normalized
+  );
+}
+
+function normalizeText(
+  value
+) {
+  return typeof value ===
+    "string"
+    ? value.trim()
+    : "";
+}
+
+function normalizeArray(
+  value
+) {
+  return Array.isArray(
+    value
+  )
+    ? value.filter(
+        Boolean
+      )
+    : [];
+}
+
+function getTodayUtcDate() {
+  return new Date()
+    .toISOString()
+    .slice(
+      0,
+      10
+    );
+}
+
+function safeAverage(
+  values
+) {
+  const valid =
+    values.filter(
+      (value) =>
+        Number.isFinite(
+          value
+        )
+    );
+
+  if (
+    valid.length === 0
+  ) {
+    return 0;
+  }
+
+  return (
+    valid.reduce(
+      (
+        sum,
+        value
+      ) =>
+        sum + value,
+      0
+    ) /
+    valid.length
+  );
+}
+
+function normalizeExperienceCandidate(
+  signal,
+  fallbackCategory
+) {
+  if (
+    !signal ||
+    typeof signal !==
+      "object"
+  ) {
+    return null;
+  }
+
+  const title =
+    normalizeText(
+      signal.title
+    );
+
+  if (!title) {
+    return null;
+  }
+
+  const rawConfidence =
+    Number(
+      signal.confidence
+    );
+
+  return {
+    id:
+      normalizeText(
+        signal.id
+      ) ||
+      title
+        .toLowerCase()
+        .replace(
+          /[^a-z0-9]+/g,
+          "-"
+        )
+        .replace(
+          /^-|-$/g,
+          ""
+        ),
+
+    title,
+
+    summary:
+      normalizeText(
+        signal.summary
+      ),
+
+    category:
+      normalizeText(
+        signal.category
+      ) ||
+      fallbackCategory,
+
+    signalCategory:
+      normalizeText(
+        signal.signalCategory
+      ),
+
+    source:
+      normalizeText(
+        signal.source
+      ) ||
+      "ArcheNova Intelligence",
+
+    sourceUrl:
+      normalizeText(
+        signal.sourceUrl
+      ) ||
+      normalizeText(
+        signal.url
+      ) ||
+      null,
+
+    publishedAt:
+      normalizeText(
+        signal.publishedAt
+      ) ||
+      null,
+
+    updatedAt:
+      normalizeText(
+        signal.updatedAt
+      ) ||
+      null,
+
+    state:
+      normalizeText(
+        signal.state
+      ) ||
+      "OBSERVED",
+
+    confidence:
+      Number.isFinite(
+        rawConfidence
+      )
+        ? clampExperienceScore(
+            rawConfidence
+          )
+        : 0,
+
+    whyItMatters:
+      normalizeText(
+        signal.whyItMatters
+      ),
+
+    implications:
+      normalizeArray(
+        signal.implications
+      ),
+
+    uncertainty:
+      normalizeText(
+        signal.uncertainty
+      ),
+
+    relatedTopics:
+      normalizeArray(
+        signal.relatedTopics
+      ),
+
+    relatedOrgans:
+      normalizeArray(
+        signal.relatedOrgans
+      ),
+
+    civilizationDomains:
+      normalizeArray(
+        signal.civilizationDomains
+      ),
+
+    currentStage:
+      normalizeText(
+        signal.currentStage
+      ),
+
+    expectedHorizon:
+      normalizeText(
+        signal.expectedHorizon
+      ),
+
+    strategicRelevance:
+      normalizeText(
+        signal.strategicRelevance
+      ),
+
+    watchpoint:
+      normalizeText(
+        signal.watchpoint
+      ),
+
+    score:
+      signal.score &&
+      typeof signal.score ===
+        "object"
+        ? signal.score
+        : {},
+  };
+}
+
+function evaluateExperienceCandidate(
+  candidate
+) {
+  const score =
+    candidate.score || {};
+
+  const scientificSignificance =
+    clampExperienceScore(
+      safeAverage([
+        normalizeExperienceMetric(
+          score.realityDiscovery
+        ),
+
+        normalizeExperienceMetric(
+          score.overall
+        ),
+      ])
+    );
+
+  const empiricalStrength =
+    clampExperienceScore(
+      safeAverage([
+        normalizeExperienceMetric(
+          candidate.confidence
+        ),
+
+        normalizeExperienceMetric(
+          score.realityDiscovery
+        ),
+      ])
+    );
+
+  const falsifiability =
+    clampExperienceScore(
+      safeAverage([
+        normalizeExperienceMetric(
+          candidate.confidence
+        ),
+
+        candidate.uncertainty
+          ? 70
+          : 45,
+
+        candidate.watchpoint
+          ? 80
+          : 50,
+      ])
+    );
+
+  const engineeringReach =
+    clampExperienceScore(
+      safeAverage([
+        normalizeExperienceMetric(
+          score.capabilityExpansion
+        ),
+
+        normalizeExperienceMetric(
+          score.infrastructureImpact
+        ),
+      ])
+    );
+
+  const civilizationImpact =
+    normalizeExperienceMetric(
+      score.civilizationImpact ??
+        score.overall ??
+        0
+    );
+
+  const explanatoryValue =
+    clampExperienceScore(
+      safeAverage([
+        candidate.whyItMatters
+          ? 85
+          : 50,
+
+        candidate.implications
+          .length > 0
+          ? 80
+          : 45,
+
+        candidate.relatedTopics
+          .length > 0
+          ? 75
+          : 45,
+
+        candidate.civilizationDomains
+          .length > 0
+          ? 80
+          : 45,
+      ])
+    );
+
+  /*
+   * Phase 4C-2
+   */
+
+  const theoryEvidenceCoupling =
+    calculateTheoryEvidenceCoupling(
+      candidate
+    );
+
+  const fundamentalPrincipleValue =
+    calculateFundamentalPrincipleValue(
+      candidate
+    );
+
+  const crossDomainReach =
+    calculateCrossDomainReach(
+      candidate
+    );
+
+  const experienceSuitability =
+    calculateExperienceSuitability(
+      candidate
+    );
+
+  const weightedScore =
+    scientificSignificance *
+      DAILY_EXPERIENCE_WEIGHTS
+        .scientificSignificance +
+
+    empiricalStrength *
+      DAILY_EXPERIENCE_WEIGHTS
+        .empiricalStrength +
+
+    falsifiability *
+      DAILY_EXPERIENCE_WEIGHTS
+        .falsifiability +
+
+    engineeringReach *
+      DAILY_EXPERIENCE_WEIGHTS
+        .engineeringReach +
+
+    civilizationImpact *
+      DAILY_EXPERIENCE_WEIGHTS
+        .civilizationImpact +
+
+    explanatoryValue *
+      DAILY_EXPERIENCE_WEIGHTS
+        .explanatoryValue +
+
+    theoryEvidenceCoupling *
+      DAILY_EXPERIENCE_WEIGHTS
+        .theoryEvidenceCoupling +
+
+    fundamentalPrincipleValue *
+      DAILY_EXPERIENCE_WEIGHTS
+        .fundamentalPrincipleValue +
+
+    crossDomainReach *
+      DAILY_EXPERIENCE_WEIGHTS
+        .crossDomainReach +
+
+    experienceSuitability *
+      DAILY_EXPERIENCE_WEIGHTS
+        .experienceSuitability;
+
+  return {
+    scientificSignificance,
+
+    empiricalStrength,
+
+    falsifiability,
+
+    engineeringReach,
+
+    civilizationImpact,
+
+    explanatoryValue,
+
+    theoryEvidenceCoupling,
+
+    fundamentalPrincipleValue,
+
+    crossDomainReach,
+
+    experienceSuitability,
+
+    baseScore:
+      clampExperienceScore(
+        weightedScore
+      ),
+  };
+}
+
+function makeExperienceEvaluationText(
+  candidate
+) {
+  return [
+    candidate.title,
+    candidate.summary,
+    candidate.whyItMatters,
+    candidate.uncertainty,
+    candidate.watchpoint,
+    ...candidate.implications,
+    ...candidate.relatedTopics,
+    ...candidate.civilizationDomains,
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
+function calculateTheoryEvidenceCoupling(
+  candidate
+) {
+  const text =
+    makeExperienceEvaluationText(
+      candidate
+    );
+
+  let score = 45;
+
+  if (
+    includesAny(text, [
+      "experiment",
+      "experimental",
+      "measurement",
+      "measured",
+      "observation",
+      "observed",
+      "evidence",
+      "data",
+      "test",
+      "tested",
+      "validation",
+      "validated",
+    ])
+  ) {
+    score += 20;
+  }
+
+  if (
+    includesAny(text, [
+      "theory",
+      "theoretical",
+      "model",
+      "mechanism",
+      "prediction",
+      "predicted",
+      "principle",
+      "hypothesis",
+    ])
+  ) {
+    score += 15;
+  }
+
+  if (
+    candidate.uncertainty
+  ) {
+    score += 8;
+  }
+
+  if (
+    candidate.watchpoint
+  ) {
+    score += 7;
+  }
+
+  return clampExperienceScore(
+    score
+  );
+}
+
+function calculateFundamentalPrincipleValue(
+  candidate
+) {
+  const text =
+    makeExperienceEvaluationText(
+      candidate
+    );
+
+  let score = 40;
+
+  if (
+    includesAny(text, [
+      "physics",
+      "physical",
+      "quantum",
+      "gravity",
+      "symmetry",
+      "thermodynamic",
+      "information",
+      "causal",
+      "mechanism",
+      "fundamental",
+      "principle",
+      "law",
+      "matter",
+      "energy",
+      "space",
+      "time",
+      "biological mechanism",
+    ])
+  ) {
+    score += 25;
+  }
+
+  if (
+    includesAny(text, [
+      "first",
+      "discovery",
+      "new evidence",
+      "new mechanism",
+      "previously unknown",
+      "unexpected",
+      "novel phenomenon",
+    ])
+  ) {
+    score += 15;
+  }
+
+  if (
+    candidate.signalCategory ===
+    "Reality Discovery"
+  ) {
+    score += 15;
+  }
+
+  return clampExperienceScore(
+    score
+  );
+}
+
+function calculateCrossDomainReach(
+  candidate
+) {
+  const topicCount =
+    new Set(
+      candidate.relatedTopics
+    ).size;
+
+  const domainCount =
+    new Set(
+      candidate.civilizationDomains
+    ).size;
+
+  const organCount =
+    new Set(
+      candidate.relatedOrgans
+    ).size;
+
+  let score = 35;
+
+  score += Math.min(
+    topicCount * 6,
+    24
+  );
+
+  score += Math.min(
+    domainCount * 5,
+    20
+  );
+
+  score += Math.min(
+    organCount * 4,
+    16
+  );
+
+  return clampExperienceScore(
+    score
+  );
+}
+
+function calculateExperienceSuitability(
+  candidate
+) {
+  const text =
+    makeExperienceEvaluationText(
+      candidate
+    );
+
+  let score = 45;
+
+  /*
+   * 「観測 → 理論 → 検証 → 将来」
+   * というExperienceを構成しやすい題材を優先。
+   */
+
+  if (
+    candidate.summary
+  ) {
+    score += 8;
+  }
+
+  if (
+    candidate.whyItMatters
+  ) {
+    score += 8;
+  }
+
+  if (
+    candidate.uncertainty
+  ) {
+    score += 8;
+  }
+
+  if (
+    candidate.watchpoint
+  ) {
+    score += 8;
+  }
+
+  if (
+    candidate.implications.length >= 2
+  ) {
+    score += 8;
+  }
+
+  if (
+    includesAny(text, [
+      "experiment",
+      "evidence",
+      "observed",
+      "measurement",
+      "prediction",
+      "mechanism",
+      "discovery",
+      "demonstrated",
+      "validated",
+    ])
+  ) {
+    score += 10;
+  }
+
+  /*
+   * 単なる設備設定・局所的手順・
+   * 非常に狭い技術記述だけの記事を
+   * Daily Experienceの最上位から下げる。
+   */
+
+  if (
+    includesAny(text, [
+      "set-up",
+      "setup",
+      "characterisation",
+      "characterization",
+      "calibration",
+      "apparatus",
+      "test facility",
+      "wind tunnel",
+      "benchmark dataset",
+    ])
+  ) {
+    score -= 18;
+  }
+
+  return clampExperienceScore(
+    score
+  );
+}
+
+function getTopicFingerprint(
+  candidate
+) {
+  const topics = [
+    candidate.category,
+    candidate.signalCategory,
+    ...candidate.relatedTopics,
+    ...candidate.civilizationDomains,
+  ]
+    .filter(
+      Boolean
+    )
+    .map(
+      (value) =>
+        String(value)
+          .toLowerCase()
+    );
+
+  return [
+    ...new Set(
+      topics
+    ),
+  ];
+}
+
+function calculateRepetitionPenalty(
+  candidate,
+  history
+) {
+  if (
+    !Array.isArray(
+      history
+    ) ||
+    history.length === 0
+  ) {
+    return 0;
+  }
+
+  const candidateTopics =
+    new Set(
+      getTopicFingerprint(
+        candidate
+      )
+    );
+
+  let penalty = 0;
+
+  /*
+   * history の末尾ほど新しい前提。
+   * 最近のExperienceとの重複ほど
+   * 強く減点する。
+   */
+  history
+    .slice(
+      -DAILY_EXPERIENCE_HISTORY_LIMIT
+    )
+    .forEach(
+      (
+        previous,
+        index,
+        recentHistory
+      ) => {
+        const previousTopics =
+          new Set(
+            Array.isArray(
+              previous
+                .topicFingerprint
+            )
+              ? previous
+                  .topicFingerprint
+              : []
+          );
+
+        let overlap = 0;
+
+        candidateTopics.forEach(
+          (topic) => {
+            if (
+              previousTopics.has(
+                topic
+              )
+            ) {
+              overlap += 1;
+            }
+          }
+        );
+
+        if (
+          overlap === 0
+        ) {
+          return;
+        }
+
+        const distanceFromLatest =
+          recentHistory.length -
+          1 -
+          index;
+
+        const recencyWeight =
+          Math.max(
+            0.25,
+            1 -
+              distanceFromLatest /
+                Math.max(
+                  recentHistory.length,
+                  1
+                )
+          );
+
+        penalty +=
+          overlap *
+          4 *
+          recencyWeight;
+      }
+    );
+
+  return clampExperienceScore(
+    penalty,
+    0,
+    25
+  );
+}
+
+function selectDailyExperience(
+  candidates,
+  history = []
+) {
+  const evaluated =
+    candidates
+      .map(
+        (candidate) => {
+          const evaluation =
+            evaluateExperienceCandidate(
+              candidate
+            );
+
+          const repetitionPenalty =
+            calculateRepetitionPenalty(
+              candidate,
+              history
+            );
+
+          const finalScore =
+            clampExperienceScore(
+              evaluation.baseScore -
+                repetitionPenalty
+            );
+
+          return {
+            candidate,
+            evaluation,
+            repetitionPenalty,
+            finalScore,
+          };
+        }
+      )
+      .sort(
+        (a, b) =>
+          b.finalScore -
+          a.finalScore
+      );
+
+  return (
+    evaluated[0] ??
+    null
+  );
+}
+
+function buildDailyExperienceObject(
+  selected
+) {
+  if (!selected) {
+    return null;
+  }
+
+  const {
+    candidate,
+    evaluation,
+    repetitionPenalty,
+    finalScore,
+  } = selected;
+
+  const today =
+    getTodayUtcDate();
+
+  const theoryMechanism =
+    [
+      candidate.signalCategory,
+      ...candidate.relatedTopics,
+      ...candidate.relatedOrgans,
+    ]
+      .filter(
+        Boolean
+      )
+      .slice(
+        0,
+        5
+      );
+
+  return {
+    date: today,
+
+    id:
+      candidate.id,
+
+    experienceVersion:
+    "4D-1",
+
+    title:
+      candidate.title,
+
+    /*
+     * Phase 4C-1ではまだAIによる
+     * Experience固有タイトル生成は行わない。
+     */
+    experienceTitle:
+      candidate.title,
+
+    /*
+     * watchpoint は「問い」とは限らないため、
+     * Experienceの中心質問とは分離する。
+     */
+    question:
+      "What does this observation reveal about reality, what would make its explanation fail, and how could validated knowledge eventually alter civilization?",
+
+    source: {
+      title:
+        candidate.title,
+
+      organization:
+        candidate.source,
+
+      url:
+        candidate.sourceUrl,
+
+      publishedAt:
+        candidate.publishedAt,
+
+      updatedAt:
+        candidate.updatedAt,
+    },
+
+    classification: {
+      category:
+        candidate.category,
+
+      signalCategory:
+        candidate.signalCategory,
+
+      currentStage:
+        candidate.currentStage,
+
+      expectedHorizon:
+        candidate.expectedHorizon,
+    },
+
+    reality: {
+      statement:
+        candidate.summary ||
+        "A new empirical signal has been observed.",
+    },
+
+    theory: {
+      statement:
+        candidate.whyItMatters ||
+        "The relevant theoretical structure must explain why this observation occurs and which physical or causal constraints make it possible.",
+
+      mechanism:
+        theoryMechanism,
+    },
+
+    hypothesisSpace: [
+  {
+    id: "primary",
+    label: "PRIMARY EXPLANATION",
+    title: "Current Causal Interpretation",
+    statement:
+      candidate.whyItMatters ||
+      "The observed signal may reflect the causal mechanism currently supported by the available scientific interpretation.",
+  },
+
+  {
+    id: "alternative",
+    label: "ALTERNATIVE EXPLANATION",
+    title: "Competing Mechanism",
+    statement:
+      "The same observation may arise from a different causal mechanism that remains empirically compatible with the currently available evidence.",
+  },
+
+  {
+    id: "artifact",
+    label: "MEASUREMENT ALTERNATIVE",
+    title: "Measurement or Interpretation Effect",
+    statement:
+      "The apparent signal may partly reflect measurement limitations, sampling effects, model assumptions, calibration, or interpretation rather than the proposed underlying mechanism.",
+  },
+],
+
+predictionSpace: [
+  {
+    id: "expected",
+    label: "EXPECTED EFFECT",
+    statement:
+      candidate.watchpoint ||
+      "If the proposed explanation is correct, future measurements should reproduce the predicted effect under independently controlled conditions.",
+  },
+
+  {
+    id: "null",
+    label: "NO ROBUST EFFECT",
+    statement:
+      "Independent measurements may fail to reproduce a stable effect beyond uncertainty, noise, or methodological variation.",
+  },
+
+  {
+    id: "divergent",
+    label: "DIVERGENT EFFECT",
+    statement:
+      "Future observations may reveal a reproducible effect whose direction or magnitude differs materially from the present explanation.",
+  },
+],
+
+    prediction: {
+      statement:
+        candidate.watchpoint ||
+        "A valid explanation should generate measurable consequences that distinguish it from credible alternatives.",
+    },
+
+    evidence: {
+      statement:
+        candidate.summary ||
+        "Evidence is currently being assessed.",
+
+      strength:
+        evaluation
+          .empiricalStrength >= 80
+          ? "Strong"
+          : evaluation
+              .empiricalStrength >= 60
+            ? "Moderate"
+            : "Emerging",
+
+      confidence:
+        candidate.confidence,
+    },
+
+    falsification: {
+      statement:
+        candidate.uncertainty ||
+        "The explanation remains provisional until independent evidence can distinguish it from credible alternatives.",
+
+      failureCondition:
+        candidate.watchpoint ||
+        "Failure to reproduce the predicted effect under independent conditions would weaken the current interpretation.",
+    },
+
+    engineeringReach: {
+      validated:
+        candidate.implications
+          .slice(
+            0,
+            1
+          ),
+
+      plausible:
+        candidate.implications
+          .slice(
+            1,
+            3
+          ),
+
+      speculative:
+        candidate.implications
+          .slice(
+            3,
+            5
+          ),
+    },
+
+    civilizationMeaning:
+      candidate.strategicRelevance ||
+      candidate.whyItMatters ||
+      "The deeper significance lies in whether this knowledge can become reliable, reproducible, and socially useful capability.",
+
+    uncertainty:
+      candidate.uncertainty ||
+      "The signal remains subject to independent validation, reproducibility, and long-term assessment.",
+
+    watchpoint:
+      candidate.watchpoint ||
+      "Continue observing whether the signal survives stronger validation and produces measurable downstream consequences.",
+
+    memoryStatement:
+      `This experience is preserved as ArcheNova's selected civilization signal for ${today}.`,
+
+    selection: {
+      finalScore:
+        Math.round(
+          finalScore * 10
+        ) / 10,
+
+      repetitionPenalty:
+        Math.round(
+          repetitionPenalty * 10
+        ) / 10,
+
+      criteria: {
+        scientificSignificance:
+          Math.round(
+            evaluation
+              .scientificSignificance *
+              10
+          ) / 10,
+
+        empiricalStrength:
+          Math.round(
+            evaluation
+              .empiricalStrength *
+              10
+          ) / 10,
+
+        falsifiability:
+          Math.round(
+            evaluation
+              .falsifiability *
+              10
+          ) / 10,
+
+        engineeringReach:
+          Math.round(
+            evaluation
+              .engineeringReach *
+              10
+          ) / 10,
+
+        civilizationImpact:
+          Math.round(
+            evaluation
+              .civilizationImpact *
+              10
+          ) / 10,
+
+        explanatoryValue:
+          Math.round(
+            evaluation
+              .explanatoryValue *
+              10
+          ) / 10,
+          theoryEvidenceCoupling:
+  Math.round(
+    evaluation
+      .theoryEvidenceCoupling *
+      10
+  ) / 10,
+
+fundamentalPrincipleValue:
+  Math.round(
+    evaluation
+      .fundamentalPrincipleValue *
+      10
+  ) / 10,
+
+crossDomainReach:
+  Math.round(
+    evaluation
+      .crossDomainReach *
+      10
+  ) / 10,
+
+experienceSuitability:
+  Math.round(
+    evaluation
+      .experienceSuitability *
+      10
+  ) / 10,
+      },
+    },
+
+    topicFingerprint:
+      getTopicFingerprint(
+        candidate
+      ),
+  };
+}
+
+function readCurrentDailyExperience() {
+  try {
+    if (
+      !fs.existsSync(
+        DAILY_EXPERIENCE_OUTPUT
+      )
+    ) {
+      return null;
+    }
+
+    const raw =
+      fs.readFileSync(
+        DAILY_EXPERIENCE_OUTPUT,
+        "utf8"
+      );
+
+    return JSON.parse(
+      raw
+    );
+  } catch {
+    return null;
+  }
+}
+
+function readExperienceHistory() {
+  try {
+    const existing =
+      readCurrentDailyExperience();
+
+    if (!existing) {
+      return [];
+    }
+
+    const history =
+      Array.isArray(
+        existing.history
+      )
+        ? [
+            ...existing.history,
+          ]
+        : [];
+
+    const current =
+      existing.current;
+
+    if (
+      current?.date &&
+      current?.id
+    ) {
+      const alreadyStored =
+        history.some(
+          (item) =>
+            item.date ===
+              current.date &&
+            item.id ===
+              current.id
+        );
+
+      if (
+        !alreadyStored
+      ) {
+        history.push({
+          date:
+            current.date,
+
+          id:
+            current.id,
+
+          title:
+            current.title,
+
+          topicFingerprint:
+            current
+              .topicFingerprint ??
+            [],
+        });
+      }
+    }
+
+    return history.slice(
+      -DAILY_EXPERIENCE_HISTORY_LIMIT
+    );
+  } catch {
+    return [];
+  }
+}
+
+function shouldGenerateDailyExperience() {
+  const current =
+    readCurrentDailyExperience();
+
+  const today =
+    getTodayUtcDate();
+
+  return (
+    current?.current?.date !==
+    today
+  );
+}
+
+function collectExperienceCandidates(
+  dashboard
+) {
+  const sources = [
+    {
+      category:
+        "SCIENCE",
+
+      feed:
+        dashboard?.feeds
+          ?.science,
+    },
+
+    {
+      category:
+        "ENGINEERING",
+
+      feed:
+        dashboard?.feeds
+          ?.engineering,
+    },
+
+    {
+      category:
+        "GOVERNANCE",
+
+      feed:
+        dashboard?.feeds
+          ?.governance,
+    },
+  ];
+
+  return sources
+    .flatMap(
+      ({
+        category,
+        feed,
+      }) => {
+        const signals = [
+          feed?.latest,
+
+          ...(Array.isArray(
+            feed?.items
+          )
+            ? feed.items
+            : []),
+        ];
+
+        return signals
+          .map(
+            (signal) =>
+              normalizeExperienceCandidate(
+                signal,
+                category
+              )
+          )
+          .filter(
+            Boolean
+          );
+      }
+    )
+    .filter(
+      (
+        candidate,
+        index,
+        entries
+      ) =>
+        entries.findIndex(
+          (other) =>
+            other.id ===
+            candidate.id
+        ) === index
+    );
+}
+
+function generateDailyExperience(
+  dashboard
+) {
+  const shouldGenerate =
+    shouldGenerateDailyExperience();
+
+  if (!shouldGenerate) {
+    console.log(
+      "Daily Civilization Experience already generated for today."
+    );
+
+    return;
+  }
+
+  const candidates =
+    collectExperienceCandidates(
+      dashboard
+    );
+
+  if (
+    candidates.length === 0
+  ) {
+    console.warn(
+      "No candidates available for Daily Civilization Experience."
+    );
+
+    return;
+  }
+
+  const history =
+    readExperienceHistory();
+
+  const selected =
+    selectDailyExperience(
+      candidates,
+      history
+    );
+
+  const current =
+    buildDailyExperienceObject(
+      selected
+    );
+
+  if (!current) {
+    return;
+  }
+
+  const output = {
+    generatedAt:
+      new Date()
+        .toISOString(),
+
+    current,
+
+    history:
+      history.slice(
+        -DAILY_EXPERIENCE_HISTORY_LIMIT
+      ),
+  };
+
+  fs.mkdirSync(
+    path.dirname(
+      DAILY_EXPERIENCE_OUTPUT
+    ),
+    {
+      recursive: true,
+    }
+  );
+
+  fs.writeFileSync(
+    DAILY_EXPERIENCE_OUTPUT,
+    JSON.stringify(
+      output,
+      null,
+      2
+    ),
+    "utf8"
+  );
+
+  console.log(
+    `Generated ${DAILY_EXPERIENCE_OUTPUT}: ${current.title}`
+  );
 }
 
 function ts(item) {
@@ -2359,6 +3919,10 @@ function writeCivilizationDashboard(
  console.log(
    "Generated public/data/os/dashboard.json: " +
      `${allSignals.length} intelligence objects`
+ );
+
+ generateDailyExperience(
+   dashboard
  );
 }
 

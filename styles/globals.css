@@ -30293,3 +30293,4856 @@ line-height:1.75;
     left: 0.85rem !important;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   HOME — CIVILIZATION EXPERIENCE GATE
+========================================================== */
+
+.civilization-experience-gate-page {
+  position: relative;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      circle at 50% 46%,
+      rgba(255, 255, 255, 0.035),
+      transparent 28%
+    ),
+    #000;
+}
+
+
+/* ----------------------------------------------------------
+   SPACE BACKGROUND
+---------------------------------------------------------- */
+
+.civilization-experience-gate-background {
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(255, 255, 255, 0.025),
+      transparent 32%
+    ),
+    radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.35) 0 0.7px,
+      transparent 0.9px
+    );
+
+  background-size:
+    auto,
+    58px 58px;
+
+  opacity: 0.45;
+
+  mask-image:
+    radial-gradient(
+      ellipse at center,
+      black 10%,
+      rgba(0, 0, 0, 0.65) 52%,
+      transparent 100%
+    );
+
+  -webkit-mask-image:
+    radial-gradient(
+      ellipse at center,
+      black 10%,
+      rgba(0, 0, 0, 0.65) 52%,
+      transparent 100%
+    );
+}
+
+
+/* ----------------------------------------------------------
+   CONTAINER
+---------------------------------------------------------- */
+
+.civilization-experience-gate-container {
+  position: relative;
+
+  z-index: 1;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100%;
+}
+
+
+/* ----------------------------------------------------------
+   MAIN CONTENT
+---------------------------------------------------------- */
+
+.civilization-experience-gate {
+  width:
+    min(
+      100%,
+      940px
+    );
+
+  margin-inline: auto;
+
+  text-align: center;
+}
+
+
+/* ----------------------------------------------------------
+   EYEBROW
+---------------------------------------------------------- */
+
+.civilization-experience-gate-eyebrow {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 18px;
+
+  margin-bottom: 30px;
+}
+
+.civilization-experience-gate-eyebrow span {
+  width: 38px;
+  height: 1px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.22
+    );
+}
+
+.civilization-experience-gate-eyebrow p {
+  margin: 0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.48
+    );
+
+  font-size: 9px;
+
+  font-weight: 600;
+
+  letter-spacing: 0.24em;
+}
+
+
+/* ----------------------------------------------------------
+   TITLE
+---------------------------------------------------------- */
+
+.civilization-experience-gate h2 {
+  margin: 0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.96
+    );
+
+  font-size:
+    clamp(
+      3rem,
+      6.3vw,
+      6.7rem
+    );
+
+  font-weight: 250;
+
+  line-height: 0.98;
+
+  letter-spacing:
+    -0.055em;
+}
+
+
+/* ----------------------------------------------------------
+   DESCRIPTION
+---------------------------------------------------------- */
+
+.civilization-experience-gate-lead {
+  width:
+    min(
+      100%,
+      650px
+    );
+
+  margin:
+    32px
+    auto
+    0;
+
+  color:
+    rgba(
+      235,
+      240,
+      247,
+      0.54
+    );
+
+  font-size:
+    clamp(
+      0.9rem,
+      1.1vw,
+      1.05rem
+    );
+
+  font-weight: 350;
+
+  line-height: 1.8;
+}
+
+
+/* ----------------------------------------------------------
+   CIVILIZATION PATH
+---------------------------------------------------------- */
+
+.civilization-experience-gate-path {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width:
+    min(
+      100%,
+      720px
+    );
+
+  margin:
+    44px
+    auto
+    0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.38
+    );
+}
+
+.civilization-experience-gate-path span {
+  flex: 0 0 auto;
+
+  font-size: 8px;
+
+  font-weight: 600;
+
+  letter-spacing: 0.16em;
+}
+
+.civilization-experience-gate-path i {
+  position: relative;
+
+  flex: 1;
+
+  height: 1px;
+
+  margin-inline: 14px;
+
+  overflow: hidden;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.1
+    );
+}
+
+.civilization-experience-gate-path i::after {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+
+  width: 35%;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(
+        220,
+        240,
+        255,
+        0.72
+      ),
+      transparent
+    );
+
+  animation:
+    civilizationExperiencePathFlow
+    5s
+    linear
+    infinite;
+}
+
+
+/* ----------------------------------------------------------
+   ENTER BUTTON
+---------------------------------------------------------- */
+
+.civilization-experience-enter {
+  margin-top: 42px;
+}
+
+
+/* ==========================================================
+   CIVILIZATION EXPERIENCE
+   CINEMATIC DEDICATED BACKGROUND
+========================================================== */
+
+.civilization-experience-site-bg {
+  position: fixed;
+  inset: 0;
+
+  z-index: -2;
+
+  width: 100dvw;
+  height: 100dvh;
+
+  overflow: hidden;
+
+  background: #000;
+
+  pointer-events: none;
+
+  isolation: isolate;
+}
+
+
+/* ----------------------------------------------------------
+   MAIN HIGH-QUALITY IMAGE
+---------------------------------------------------------- */
+
+.civilization-experience-site-bg::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  background-image:
+    url("/images/civilization-experience-bg.png");
+
+  background-repeat:
+    no-repeat;
+
+  background-position:
+    center center;
+
+  /*
+   * メイン画像は無理に横へ拡大しない
+   */
+  background-size:
+    auto 100%;
+}
+
+@media (max-width: 768px) {
+  .civilization-experience-site-bg::before {
+    inset: -10%;
+
+    filter:
+      blur(24px)
+      brightness(0.34);
+
+    opacity: 0.58;
+  }
+
+  .civilization-experience-site-bg::after {
+    background-position:
+      center center;
+
+    background-size:
+      cover;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   PHASE 4C-3
+   DAILY CIVILIZATION EXPERIENCE
+========================================================= */
+
+.ce-daily {
+  position: relative;
+  z-index: 2;
+  width: min(1120px, calc(100% - 48px));
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.94);
+}
+
+.ce-daily-state {
+  position: relative;
+  z-index: 2;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+}
+
+/* HERO */
+
+.ce-daily-hero {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 150px 0 100px;
+}
+
+.ce-daily-eyebrow {
+  margin: 0 0 18px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.ce-daily-date {
+  margin: 0 0 34px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  color: rgba(255, 255, 255, 0.36);
+}
+
+.ce-daily-title {
+  width: min(920px, 100%);
+  margin: 0;
+  font-size: clamp(
+    38px,
+    6vw,
+    82px
+  );
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+  font-weight: 500;
+}
+
+.ce-daily-question {
+  width: min(700px, 100%);
+  margin: 38px auto 0;
+  font-size: clamp(
+    16px,
+    1.7vw,
+    21px
+  );
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.66);
+}
+
+.ce-daily-meta {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 34px;
+}
+
+.ce-daily-meta span,
+.ce-daily-tags span {
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  color: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(12px);
+}
+
+.ce-daily-source {
+  margin-top: 22px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.38);
+}
+
+.ce-daily-source a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ce-daily-source a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ce-daily-scroll-line {
+  width: 1px;
+  height: 70px;
+  margin-top: 54px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.55),
+    transparent
+  );
+}
+
+/* SECTIONS */
+
+.ce-daily-section {
+  min-height: 82svh;
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  align-items: center;
+  gap: 36px;
+  padding: 100px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ce-daily-section-index {
+  align-self: start;
+  padding-top: 7px;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  color: rgba(255, 255, 255, 0.28);
+}
+
+.ce-daily-section-content {
+  width: min(780px, 100%);
+}
+
+.ce-daily-label {
+  margin: 0 0 20px;
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  color: rgba(255, 255, 255, 0.42);
+}
+
+.ce-daily-section-title {
+  margin: 0;
+  font-size: clamp(
+    30px,
+    4vw,
+    56px
+  );
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  font-weight: 500;
+}
+
+.ce-daily-section-body {
+  margin-top: 32px;
+  font-size: clamp(
+    15px,
+    1.5vw,
+    18px
+  );
+  line-height: 1.85;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.ce-daily-section-body p {
+  margin: 0;
+}
+
+.ce-daily-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 26px;
+}
+
+/* EVIDENCE */
+
+.ce-daily-evidence-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.ce-daily-evidence-grid > div {
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(16px);
+}
+
+.ce-daily-evidence-grid span,
+.ce-daily-reach span,
+.ce-daily-callout span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.38);
+}
+
+.ce-daily-evidence-grid strong {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* FALSIFICATION */
+
+.ce-daily-callout {
+  margin-top: 34px;
+  padding: 24px;
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.025);
+}
+
+/* ENGINEERING */
+
+.ce-daily-reach {
+  display: grid;
+  gap: 12px;
+}
+
+.ce-daily-reach > div {
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(16px);
+}
+
+.ce-daily-reach p + p {
+  margin-top: 12px;
+}
+
+/* MEMORY */
+
+.ce-daily-memory {
+  min-height: 55svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ce-daily-memory p {
+  margin: 0 0 18px;
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.ce-daily-memory span {
+  width: min(620px, 100%);
+  font-size: 14px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* MOBILE */
+
+@media (
+  max-width: 768px
+) {
+  .ce-daily {
+    width: min(
+      100% - 32px,
+      680px
+    );
+  }
+
+  .ce-daily-hero {
+    min-height: 100svh;
+    padding:
+      120px 0
+      80px;
+  }
+
+  .ce-daily-title {
+    font-size: clamp(
+      36px,
+      11vw,
+      58px
+    );
+  }
+
+  .ce-daily-question {
+    margin-top: 28px;
+    font-size: 15px;
+  }
+
+  .ce-daily-section {
+    min-height: auto;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 90px 0;
+  }
+
+  .ce-daily-section-index {
+    padding: 0;
+  }
+
+  .ce-daily-section-title {
+    font-size: 34px;
+  }
+
+  .ce-daily-section-body {
+    margin-top: 24px;
+    font-size: 15px;
+  }
+
+  .ce-daily-evidence-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ce-daily-memory {
+    min-height: 50svh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   PHASE 4C-4
+   INTERACTIVE CIVILIZATION EXPERIENCE
+========================================================== */
+
+.ce-enter-experience,
+.ce-stage-advance {
+  border: 0;
+  outline: 0;
+
+  color: inherit;
+
+  font: inherit;
+
+  cursor: pointer;
+}
+
+
+/* ==========================================================
+   ENTER EXPERIENCE
+========================================================== */
+
+.ce-enter-experience {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  margin-top: 46px;
+
+  padding:
+    14px
+    20px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.16
+    );
+
+  border-radius:
+    999px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.82
+    );
+
+  backdrop-filter:
+    blur(18px);
+
+  -webkit-backdrop-filter:
+    blur(18px);
+
+  font-size:
+    11px;
+
+  font-weight:
+    500;
+
+  letter-spacing:
+    0.08em;
+
+  transition:
+    background
+      0.3s ease,
+    border-color
+      0.3s ease,
+    transform
+      0.3s ease,
+    color
+      0.3s ease;
+}
+
+.ce-enter-experience:hover {
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.32
+    );
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.08
+    );
+
+  color: #fff;
+
+  transform:
+    translateY(-2px);
+}
+
+.ce-enter-experience svg {
+  width: 17px;
+  height: 17px;
+}
+
+
+/* ==========================================================
+   EXPERIENCE PROGRESS
+========================================================== */
+
+.ce-experience-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  margin-top: 50px;
+}
+
+.ce-experience-progress__node {
+  position: relative;
+
+  width: 7px;
+  height: 7px;
+
+  display: block;
+
+  border-radius:
+    50%;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.13
+    );
+
+  transition:
+    transform
+      0.35s ease,
+    background
+      0.35s ease,
+    box-shadow
+      0.35s ease;
+}
+
+.ce-experience-progress__node i {
+  position:
+    absolute;
+
+  inset: 0;
+
+  border-radius:
+    inherit;
+}
+
+.ce-experience-progress__node.is-complete {
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.48
+    );
+}
+
+.ce-experience-progress__node.is-active {
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.95
+    );
+
+  transform:
+    scale(1.5);
+
+  box-shadow:
+    0 0
+    20px
+    rgba(
+      255,
+      255,
+      255,
+      0.36
+    );
+}
+
+
+/* ==========================================================
+   EXPERIENCE SEQUENCE
+========================================================== */
+
+.ce-experience-sequence {
+  position: relative;
+
+  width: 100%;
+}
+
+
+/*
+ * 中央に非常に薄い
+ * 「知識の軸」を置く。
+ */
+
+.ce-experience-sequence::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+
+  left: 44px;
+
+  width: 1px;
+
+  background:
+    linear-gradient(
+      180deg,
+      transparent,
+      rgba(
+        255,
+        255,
+        255,
+        0.12
+      )
+        5%,
+      rgba(
+        255,
+        255,
+        255,
+        0.12
+      )
+        95%,
+      transparent
+    );
+
+  pointer-events:
+    none;
+}
+
+
+/* ==========================================================
+   STAGE APPEARANCE
+========================================================== */
+
+.ce-daily-section {
+  position: relative;
+
+  opacity: 0;
+
+  transform:
+    translateY(
+      36px
+    );
+
+  animation:
+    ceStageReveal
+    0.7s
+    cubic-bezier(
+      0.22,
+      1,
+      0.36,
+      1
+    )
+    forwards;
+}
+
+.ce-daily-section.is-current {
+  opacity: 1;
+}
+
+.ce-daily-section.is-complete {
+  opacity: 0.72;
+}
+
+.ce-daily-section.is-current
+.ce-daily-section-index {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.8
+    );
+}
+
+.ce-daily-section.is-current
+.ce-daily-label {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.7
+    );
+}
+
+
+/* ==========================================================
+   CURRENT STAGE GLOW
+========================================================== */
+
+.ce-daily-section.is-current::before {
+  content: "";
+
+  position:
+    absolute;
+
+  left: -10%;
+  top: 50%;
+
+  width: 120%;
+  height: 70%;
+
+  transform:
+    translateY(
+      -50%
+    );
+
+  background:
+    radial-gradient(
+      ellipse
+        at center,
+      rgba(
+        255,
+        255,
+        255,
+        0.035
+      ),
+      transparent
+        68%
+    );
+
+  pointer-events:
+    none;
+}
+
+
+/* ==========================================================
+   ADVANCE BUTTON
+========================================================== */
+
+.ce-stage-advance {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 11px;
+
+  margin-top: 42px;
+
+  padding:
+    13px
+    18px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.13
+    );
+
+  border-radius:
+    999px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.028
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.68
+    );
+
+  backdrop-filter:
+    blur(16px);
+
+  -webkit-backdrop-filter:
+    blur(16px);
+
+  font-size:
+    10px;
+
+  letter-spacing:
+    0.08em;
+
+  transition:
+    color
+      0.25s ease,
+    background
+      0.25s ease,
+    border-color
+      0.25s ease,
+    transform
+      0.25s ease;
+}
+
+.ce-stage-advance:hover {
+  color: #fff;
+
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.28
+    );
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.065
+    );
+
+  transform:
+    translateY(-2px);
+}
+
+.ce-stage-advance svg {
+  width: 16px;
+  height: 16px;
+}
+
+
+/* ==========================================================
+   MEMORY CYCLE
+========================================================== */
+
+.ce-memory-statement {
+  font-size:
+    clamp(
+      18px,
+      2vw,
+      25px
+    ) !important;
+
+  line-height:
+    1.65 !important;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.82
+    ) !important;
+}
+
+.ce-memory-cycle {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 38px;
+}
+
+.ce-memory-cycle span {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.48
+    );
+
+  font-size:
+    9px;
+
+  letter-spacing:
+    0.14em;
+}
+
+.ce-memory-cycle i {
+  width: 20px;
+  height: 1px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.2
+    );
+}
+
+
+/* ==========================================================
+   EXPERIENCE COMPLETE
+========================================================== */
+
+.ce-experience-complete {
+  margin-top: 50px;
+
+  padding-top: 32px;
+
+  border-top:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.08
+    );
+}
+
+.ce-experience-complete span {
+  display: block;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.34
+    );
+
+  font-size:
+    9px;
+
+  letter-spacing:
+    0.24em;
+}
+
+.ce-experience-complete strong {
+  display: block;
+
+  width:
+    min(
+      620px,
+      100%
+    );
+
+  margin-top:
+    20px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.78
+    );
+
+  font-size:
+    clamp(
+      18px,
+      2.3vw,
+      27px
+    );
+
+  font-weight:
+    400;
+
+  line-height:
+    1.55;
+
+  letter-spacing:
+    -0.02em;
+}
+
+
+/* ==========================================================
+   KEYFRAME
+========================================================== */
+
+@keyframes ceStageReveal {
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(
+        36px
+      );
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(
+        0
+      );
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (
+  max-width: 768px
+) {
+  .ce-experience-progress {
+    gap: 8px;
+
+    margin-top:
+      42px;
+  }
+
+  .ce-experience-progress__node {
+    width: 6px;
+    height: 6px;
+  }
+
+  .ce-experience-sequence::before {
+    display: none;
+  }
+
+  .ce-enter-experience {
+    margin-top:
+      38px;
+  }
+
+  .ce-stage-advance {
+    width: 100%;
+
+    justify-content:
+      space-between;
+
+    margin-top:
+      34px;
+  }
+
+  .ce-memory-cycle {
+    gap: 8px;
+  }
+
+  .ce-memory-cycle i {
+    width: 12px;
+  }
+
+  .ce-experience-complete {
+    margin-top:
+      38px;
+  }
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (
+  prefers-reduced-motion:
+  reduce
+) {
+  .ce-daily-section {
+    animation: none;
+
+    opacity: 1;
+
+    transform: none;
+  }
+
+  .ce-enter-experience,
+  .ce-stage-advance,
+  .ce-experience-progress__node {
+    transition: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   PHASE 4C-5
+   PREDICTION ↔ EVIDENCE EXPERIENCE
+========================================================== */
+
+.ce-comparison-shell {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    72px
+    minmax(0, 1fr);
+
+  align-items: stretch;
+
+  gap: 0;
+
+  margin-top: 8px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.09);
+
+  border-radius: 28px;
+
+  overflow: hidden;
+
+  background:
+    rgba(255, 255, 255, 0.018);
+
+  backdrop-filter:
+    blur(18px);
+
+  -webkit-backdrop-filter:
+    blur(18px);
+}
+
+.ce-comparison-column {
+  min-height: 290px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding:
+    34px
+    32px;
+}
+
+.ce-comparison-column h3 {
+  margin: 12px 0 0;
+
+  color:
+    rgba(255, 255, 255, 0.93);
+
+  font-size:
+    clamp(
+      21px,
+      2.2vw,
+      30px
+    );
+
+  font-weight: 420;
+
+  line-height: 1.2;
+
+  letter-spacing:
+    -0.025em;
+}
+
+.ce-comparison-column p {
+  margin-top: 22px;
+
+  color:
+    rgba(255, 255, 255, 0.62);
+
+  font-size: 14px;
+
+  line-height: 1.8;
+}
+
+.ce-comparison-kicker {
+  color:
+    rgba(255, 255, 255, 0.34);
+
+  font-size: 8px;
+
+  font-weight: 600;
+
+  letter-spacing:
+    0.22em;
+}
+
+.ce-comparison-column--prediction {
+  background:
+    radial-gradient(
+      circle at 100% 50%,
+      rgba(255, 255, 255, 0.035),
+      transparent 50%
+    );
+}
+
+.ce-comparison-column--locked {
+  opacity: 0.44;
+
+  filter:
+    blur(1px);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.015),
+      rgba(255, 255, 255, 0.005)
+    );
+}
+
+.ce-comparison-column--evidence {
+  background:
+    radial-gradient(
+      circle at 0% 50%,
+      rgba(255, 255, 255, 0.05),
+      transparent 52%
+    );
+}
+
+.ce-comparison-axis {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100%;
+
+  color:
+    rgba(255, 255, 255, 0.32);
+}
+
+.ce-comparison-axis::before {
+  content: "";
+
+  position: absolute;
+
+  top: 24px;
+  bottom: 24px;
+
+  left: 50%;
+
+  width: 1px;
+
+  background:
+    linear-gradient(
+      180deg,
+      transparent,
+      rgba(255, 255, 255, 0.18),
+      transparent
+    );
+
+  transform:
+    translateX(-50%);
+}
+
+.ce-comparison-axis > span {
+  position: relative;
+
+  z-index: 1;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(255, 255, 255, 0.72);
+
+  box-shadow:
+    0 0
+    18px
+    rgba(255, 255, 255, 0.24);
+}
+
+.ce-comparison-axis > strong {
+  position: absolute;
+
+  bottom: 30px;
+
+  z-index: 2;
+
+  padding:
+    6px
+    8px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.1);
+
+  border-radius:
+    999px;
+
+  background:
+    rgba(0, 0, 0, 0.35);
+
+  color:
+    rgba(255, 255, 255, 0.45);
+
+  font-size: 8px;
+
+  font-weight: 600;
+
+  letter-spacing:
+    0.14em;
+}
+
+.ce-comparison-shell.is-revealed {
+  box-shadow:
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.06),
+    0 0
+      50px
+      rgba(255, 255, 255, 0.025);
+}
+
+
+/* ==========================================================
+   EMPIRICAL VERDICT
+========================================================== */
+
+.ce-evidence-verdict {
+  margin-top:
+    28px;
+
+  padding:
+    26px
+    28px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.1);
+
+  border-radius:
+    22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.04),
+      rgba(255, 255, 255, 0.012)
+    );
+
+  backdrop-filter:
+    blur(16px);
+
+  -webkit-backdrop-filter:
+    blur(16px);
+}
+
+.ce-evidence-verdict > span {
+  display: block;
+
+  color:
+    rgba(255, 255, 255, 0.36);
+
+  font-size: 8px;
+
+  letter-spacing:
+    0.2em;
+}
+
+.ce-evidence-verdict > strong {
+  display: block;
+
+  margin-top: 10px;
+
+  color:
+    rgba(255, 255, 255, 0.92);
+
+  font-size:
+    clamp(
+      22px,
+      2.5vw,
+      32px
+    );
+
+  font-weight: 400;
+}
+
+.ce-evidence-verdict > p {
+  margin-top: 16px;
+
+  color:
+    rgba(255, 255, 255, 0.52);
+
+  font-size: 12px;
+
+  line-height: 1.75;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (
+  max-width: 768px
+) {
+  .ce-comparison-shell {
+    grid-template-columns: 1fr;
+
+    border-radius: 22px;
+  }
+
+  .ce-comparison-column {
+    min-height: auto;
+
+    padding:
+      28px
+      22px;
+  }
+
+  .ce-comparison-column--prediction {
+    border-bottom:
+      1px solid
+      rgba(255, 255, 255, 0.07);
+  }
+
+  .ce-comparison-axis {
+    min-height: 64px;
+  }
+
+  .ce-comparison-axis::before {
+    top: 0;
+    bottom: 0;
+
+    width: 1px;
+  }
+
+  .ce-comparison-axis > strong {
+    bottom: auto;
+
+    right: 18px;
+  }
+
+  .ce-comparison-column--locked {
+    min-height: 150px;
+  }
+
+  .ce-evidence-verdict {
+    padding:
+      24px
+      21px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   PHASE 4D-1
+   THEORY CHOICE + PREDICTION LOCK-IN
+========================================================== */
+
+.ce-hypothesis-space,
+.ce-prediction-space {
+  display: grid;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.ce-hypothesis-card,
+.ce-prediction-option {
+  width: 100%;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 25px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.09);
+
+  border-radius: 22px;
+
+  background:
+    rgba(255, 255, 255, 0.022);
+
+  color: inherit;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition:
+    border-color 0.25s ease,
+    background 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.ce-hypothesis-card:hover,
+.ce-prediction-option:hover {
+  transform:
+    translateY(-2px);
+
+  border-color:
+    rgba(255, 255, 255, 0.22);
+
+  background:
+    rgba(255, 255, 255, 0.05);
+}
+
+.ce-hypothesis-card.is-selected,
+.ce-prediction-option.is-selected {
+  border-color:
+    rgba(255, 255, 255, 0.38);
+
+  background:
+    rgba(255, 255, 255, 0.075);
+
+  box-shadow:
+    0 0 35px
+    rgba(255, 255, 255, 0.04);
+}
+
+.ce-hypothesis-card small,
+.ce-prediction-option small,
+.ce-selected-hypothesis small {
+  color:
+    rgba(255, 255, 255, 0.36);
+
+  font-size: 8px;
+
+  letter-spacing: 0.2em;
+}
+
+.ce-hypothesis-card strong {
+  margin-top: 12px;
+
+  color:
+    rgba(255, 255, 255, 0.9);
+
+  font-size: 18px;
+
+  font-weight: 430;
+}
+
+.ce-hypothesis-card p,
+.ce-prediction-option p {
+  margin-top: 13px;
+
+  color:
+    rgba(255, 255, 255, 0.58);
+
+  font-size: 13px;
+
+  line-height: 1.75;
+}
+
+.ce-hypothesis-card > span,
+.ce-prediction-option > span {
+  margin-top: 18px;
+
+  color:
+    rgba(255, 255, 255, 0.38);
+
+  font-size: 8px;
+
+  font-weight: 600;
+
+  letter-spacing: 0.16em;
+}
+
+.ce-hypothesis-card.is-selected > span,
+.ce-prediction-option.is-selected > span {
+  color:
+    rgba(255, 255, 255, 0.86);
+}
+
+
+/* WORKING HYPOTHESIS */
+
+.ce-decision-hint {
+  margin-top: 24px !important;
+
+  color:
+    rgba(255, 255, 255, 0.38) !important;
+
+  font-size: 11px !important;
+}
+
+.ce-decision-lock,
+.ce-prediction-locked {
+  margin-top: 28px;
+
+  padding:
+    23px 25px;
+
+  border-left:
+    1px solid
+    rgba(255, 255, 255, 0.48);
+
+  background:
+    rgba(255, 255, 255, 0.025);
+}
+
+.ce-decision-lock > span,
+.ce-prediction-locked > span {
+  display: block;
+
+  color:
+    rgba(255, 255, 255, 0.34);
+
+  font-size: 8px;
+
+  letter-spacing: 0.2em;
+}
+
+.ce-decision-lock > strong,
+.ce-prediction-locked > strong {
+  display: block;
+
+  margin-top: 11px;
+
+  color:
+    rgba(255, 255, 255, 0.9);
+
+  font-size: 18px;
+
+  font-weight: 420;
+}
+
+.ce-decision-lock > p,
+.ce-prediction-locked > p {
+  margin-top: 10px;
+
+  color:
+    rgba(255, 255, 255, 0.5);
+
+  font-size: 11px;
+
+  line-height: 1.7;
+}
+
+
+/* PREDICTION */
+
+.ce-prediction-header > span {
+  color:
+    rgba(255, 255, 255, 0.4);
+
+  font-size: 9px;
+
+  letter-spacing: 0.22em;
+}
+
+.ce-prediction-header > p {
+  margin-top: 12px;
+
+  color:
+    rgba(255, 255, 255, 0.62);
+}
+
+.ce-selected-hypothesis {
+  margin-top: 28px;
+
+  padding:
+    18px 20px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.08);
+
+  border-radius: 18px;
+
+  background:
+    rgba(255, 255, 255, 0.02);
+}
+
+.ce-selected-hypothesis strong {
+  display: block;
+
+  margin-top: 7px;
+
+  color:
+    rgba(255, 255, 255, 0.78);
+
+  font-size: 13px;
+
+  font-weight: 430;
+}
+
+
+/* LOCK */
+
+.ce-lock-prediction {
+  margin-top: 26px;
+
+  padding:
+    13px 19px;
+
+  border:
+    1px solid
+    rgba(255, 255, 255, 0.2);
+
+  border-radius: 999px;
+
+  background:
+    rgba(255, 255, 255, 0.055);
+
+  color:
+    rgba(255, 255, 255, 0.84);
+
+  font: inherit;
+
+  font-size: 10px;
+
+  letter-spacing: 0.08em;
+
+  cursor: pointer;
+}
+
+.ce-prediction-option:disabled {
+  cursor: default;
+}
+
+.ce-prediction-option.is-locked {
+  border-color:
+    rgba(255, 255, 255, 0.46);
+
+  background:
+    rgba(255, 255, 255, 0.085);
+}
+
+
+/* USER COMMITMENT */
+
+.ce-user-commitment {
+  display: block;
+
+  margin-top: 8px;
+
+  color:
+    rgba(255, 255, 255, 0.46);
+
+  font-size: 8px;
+
+  letter-spacing: 0.18em;
+}
+
+
+/* ADVANCE GATING */
+
+.ce-stage-advance:disabled {
+  opacity: 0.28;
+
+  cursor: not-allowed;
+
+  transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   PHASE 4D-2
+   MODEL SURVIVAL ENGINE
+========================================================== */
+
+.ce-model-survival {
+  margin-top: 30px;
+
+  padding:
+    28px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.1
+    );
+
+  border-radius:
+    24px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.025
+    );
+
+  backdrop-filter:
+    blur(18px);
+
+  -webkit-backdrop-filter:
+    blur(18px);
+}
+
+.ce-model-survival__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+.ce-model-survival__header > span {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.36
+    );
+
+  font-size: 8px;
+
+  letter-spacing:
+    0.22em;
+}
+
+.ce-model-survival__header > strong {
+  padding:
+    7px
+    11px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.14
+    );
+
+  border-radius:
+    999px;
+
+  font-size:
+    9px;
+
+  font-weight:
+    600;
+
+  letter-spacing:
+    0.14em;
+}
+
+.ce-model-survival > h3 {
+  margin:
+    24px
+    0
+    0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.92
+    );
+
+  font-size:
+    clamp(
+      22px,
+      2.7vw,
+      35px
+    );
+
+  font-weight:
+    420;
+
+  line-height:
+    1.25;
+
+  letter-spacing:
+    -0.03em;
+}
+
+.ce-model-survival > p {
+  margin-top:
+    18px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.6
+    );
+
+  font-size:
+    13px;
+
+  line-height:
+    1.8;
+}
+
+.ce-model-survival > ul {
+  display: grid;
+
+  gap: 10px;
+
+  margin:
+    24px
+    0
+    0;
+
+  padding: 0;
+
+  list-style: none;
+}
+
+.ce-model-survival > ul > li {
+  position: relative;
+
+  padding-left:
+    17px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.55
+    );
+
+  font-size:
+    11px;
+
+  line-height:
+    1.7;
+}
+
+.ce-model-survival > ul > li::before {
+  content: "";
+
+  position:
+    absolute;
+
+  left: 0;
+  top: 8px;
+
+  width: 5px;
+  height: 5px;
+
+  border-radius:
+    50%;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.52
+    );
+}
+
+
+/* CONFIDENCE */
+
+.ce-model-survival__confidence {
+  display: grid;
+
+  grid-template-columns:
+    auto
+    minmax(80px, 1fr)
+    auto;
+
+  align-items:
+    center;
+
+  gap: 14px;
+
+  margin-top:
+    28px;
+}
+
+.ce-model-survival__confidence > span {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.32
+    );
+
+  font-size:
+    8px;
+
+  letter-spacing:
+    0.14em;
+}
+
+.ce-model-survival__confidence > div {
+  height: 2px;
+
+  overflow:
+    hidden;
+
+  border-radius:
+    999px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.08
+    );
+}
+
+.ce-model-survival__confidence > div > i {
+  display: block;
+
+  height: 100%;
+
+  border-radius:
+    inherit;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.72
+    );
+}
+
+.ce-model-survival__confidence > strong {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.72
+    );
+
+  font-size:
+    11px;
+
+  font-weight:
+    500;
+}
+
+.ce-model-survival > small {
+  display: block;
+
+  margin-top:
+    22px;
+
+  padding-top:
+    18px;
+
+  border-top:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.07
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.3
+    );
+
+  font-size:
+    9px;
+
+  line-height:
+    1.7;
+}
+
+
+/* MODEL STATES */
+
+.ce-model-survival.is-compatible {
+  border-color:
+    rgba(
+      170,
+      255,
+      220,
+      0.18
+    );
+
+  background:
+    radial-gradient(
+      circle
+        at
+        80%
+        10%,
+      rgba(
+        140,
+        255,
+        215,
+        0.055
+      ),
+      transparent
+        35%
+    ),
+    rgba(
+      255,
+      255,
+      255,
+      0.02
+    );
+}
+
+.ce-model-survival.is-compatible
+.ce-model-survival__header
+> strong {
+  color:
+    rgba(
+      180,
+      255,
+      225,
+      0.88
+    );
+}
+
+.ce-model-survival.is-tension {
+  border-color:
+    rgba(
+      255,
+      215,
+      160,
+      0.2
+    );
+
+  background:
+    radial-gradient(
+      circle
+        at
+        80%
+        10%,
+      rgba(
+        255,
+        195,
+        120,
+        0.06
+      ),
+      transparent
+        35%
+    ),
+    rgba(
+      255,
+      255,
+      255,
+      0.02
+    );
+}
+
+.ce-model-survival.is-tension
+.ce-model-survival__header
+> strong {
+  color:
+    rgba(
+      255,
+      220,
+      170,
+      0.88
+    );
+}
+
+.ce-model-survival.is-underdetermined {
+  border-color:
+    rgba(
+      190,
+      205,
+      255,
+      0.16
+    );
+}
+
+.ce-model-survival.is-underdetermined
+.ce-model-survival__header
+> strong {
+  color:
+    rgba(
+      205,
+      215,
+      255,
+      0.78
+    );
+}
+
+
+/* FALSIFICATION HANDOFF */
+
+.ce-falsification-status {
+  margin-bottom:
+    30px;
+
+  padding:
+    22px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.08
+    );
+
+  border-radius:
+    20px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.02
+    );
+}
+
+.ce-falsification-status > span {
+  display: block;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.32
+    );
+
+  font-size: 8px;
+
+  letter-spacing:
+    0.18em;
+}
+
+.ce-falsification-status > strong {
+  display: block;
+
+  margin-top:
+    10px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.88
+    );
+
+  font-size:
+    18px;
+
+  font-weight:
+    430;
+}
+
+.ce-falsification-status > p {
+  margin-top:
+    9px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.5
+    );
+
+  font-size:
+    11px;
+
+  line-height:
+    1.7;
+}
+
+
+/* MOBILE */
+
+@media (
+  max-width: 768px
+) {
+  .ce-model-survival {
+    padding:
+      23px
+      20px;
+  }
+
+  .ce-model-survival__header {
+    align-items:
+      flex-start;
+
+    flex-direction:
+      column;
+
+    gap: 11px;
+  }
+
+  .ce-model-survival__confidence {
+    grid-template-columns:
+      1fr
+      auto;
+  }
+
+  .ce-model-survival__confidence
+  > span {
+    grid-column:
+      1 / -1;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   CIVILIZATION EXPERIENCE — HOME PORTAL
+   FRAMELESS / DESKTOP + MOBILE
+========================================================== */
+
+.civ-experience-page {
+  position: relative;
+}
+
+/* ==========================================================
+   MAIN PORTAL
+========================================================== */
+
+.ce-home-portal {
+  position: relative;
+
+  width: min(
+    1120px,
+    calc(100% - 48px)
+  );
+
+  min-height: 620px;
+
+  margin-inline: auto;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* 完全フレームレス */
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+
+  background: transparent;
+
+  isolation: isolate;
+}
+
+
+/* ==========================================================
+   EXPERIENCE BACKGROUND
+========================================================== */
+
+.ce-home-portal__image {
+  position: absolute;
+  inset: 0;
+
+  z-index: -3;
+
+  opacity: 0.42;
+
+  transform:
+    scale(1.03);
+
+  /*
+   * 画像の端をカードのように切らず、
+   * HOMEの宇宙へ自然に溶かす
+   */
+  -webkit-mask-image:
+    radial-gradient(
+      ellipse at center,
+      black 24%,
+      rgba(0, 0, 0, 0.94) 43%,
+      rgba(0, 0, 0, 0.64) 62%,
+      transparent 86%
+    );
+
+  mask-image:
+    radial-gradient(
+      ellipse at center,
+      black 24%,
+      rgba(0, 0, 0, 0.94) 43%,
+      rgba(0, 0, 0, 0.64) 62%,
+      transparent 86%
+    );
+
+  pointer-events: none;
+}
+
+
+/* ==========================================================
+   DARK ATMOSPHERE
+========================================================== */
+
+.ce-home-portal__glass {
+  position: absolute;
+  inset: 0;
+
+  z-index: -2;
+
+  background:
+    radial-gradient(
+      circle at 50% 42%,
+      rgba(0, 0, 0, 0.04) 0%,
+      rgba(0, 0, 0, 0.16) 35%,
+      rgba(0, 0, 0, 0.4) 62%,
+      rgba(0, 0, 0, 0.78) 100%
+    );
+
+  pointer-events: none;
+}
+
+
+/* ==========================================================
+   SUBTLE LIGHT
+========================================================== */
+
+.ce-home-portal::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  z-index: -1;
+
+  background:
+    radial-gradient(
+      circle at 50% 39%,
+      rgba(255, 255, 255, 0.055),
+      transparent 32%
+    );
+
+  pointer-events: none;
+}
+
+
+/* ==========================================================
+   CONTENT
+========================================================== */
+
+.ce-home-portal__content {
+  position: relative;
+
+  z-index: 1;
+
+  width: min(
+    720px,
+    100%
+  );
+
+  padding:
+    clamp(
+      72px,
+      8vw,
+      110px
+    )
+    clamp(
+      24px,
+      7vw,
+      72px
+    );
+
+  text-align: center;
+}
+
+
+/* ==========================================================
+   EYEBROW
+========================================================== */
+
+.ce-home-portal__eyebrow {
+  display: grid;
+
+  grid-template-columns:
+    44px
+    auto
+    44px;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 14px;
+
+  margin-bottom: 28px;
+}
+
+.ce-home-portal__eyebrow span {
+  height: 1px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.2
+    );
+}
+
+.ce-home-portal__eyebrow p {
+  margin: 0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.48
+    );
+
+  font-size: 9px;
+
+  letter-spacing:
+    0.28em;
+
+  white-space: nowrap;
+}
+
+
+/* ==========================================================
+   TITLE
+========================================================== */
+
+.ce-home-portal h2 {
+  margin: 0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.96
+    );
+
+  font-size:
+    clamp(
+      42px,
+      6vw,
+      76px
+    );
+
+  font-weight: 500;
+
+  line-height: 0.98;
+
+  letter-spacing:
+    -0.045em;
+}
+
+
+/* ==========================================================
+   LEAD
+========================================================== */
+
+.ce-home-portal__lead {
+  width: min(
+    580px,
+    100%
+  );
+
+  margin:
+    30px
+    auto
+    0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.58
+    );
+
+  font-size:
+    clamp(
+      15px,
+      1.5vw,
+      18px
+    );
+
+  line-height: 1.75;
+}
+
+
+/* ==========================================================
+   TODAY'S EXPERIENCE
+========================================================== */
+
+.ce-home-portal__signal {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 7px;
+
+  margin-top: 38px;
+}
+
+.ce-home-portal__signal small {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.3
+    );
+
+  font-size: 8px;
+
+  letter-spacing:
+    0.18em;
+}
+
+.ce-home-portal__signal strong {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.82
+    );
+
+  font-size: 13px;
+
+  font-weight: 400;
+
+  line-height: 1.5;
+
+  letter-spacing:
+    0.04em;
+}
+
+.ce-home-portal__signal span {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.34
+    );
+
+  font-size: 10px;
+}
+
+
+/* ==========================================================
+   ENTER BUTTON
+========================================================== */
+
+.ce-home-portal__enter {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  margin-top: 42px;
+
+  padding:
+    13px
+    18px;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.15
+    );
+
+  border-radius:
+    999px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.035
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.84
+    );
+
+  text-decoration: none;
+
+  font-size: 11px;
+
+  letter-spacing:
+    0.04em;
+
+  -webkit-backdrop-filter:
+    blur(14px);
+
+  backdrop-filter:
+    blur(14px);
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.ce-home-portal__enter:hover {
+  transform:
+    translateY(-2px);
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.075
+    );
+
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.27
+    );
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      1
+    );
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (
+  max-width: 1024px
+) {
+  .ce-home-portal {
+    width:
+      calc(100% - 40px);
+
+    min-height:
+      590px;
+  }
+
+  .ce-home-portal__content {
+    padding:
+      82px
+      36px;
+  }
+
+  .ce-home-portal__image {
+    opacity: 0.39;
+
+    background-position:
+      center center;
+
+    transform:
+      scale(1.05);
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (
+  max-width: 768px
+) {
+  .ce-home-portal {
+    width:
+      calc(100% - 24px);
+
+    min-height:
+      560px;
+
+    margin-inline:
+      auto;
+
+    overflow:
+      visible;
+  }
+
+  .ce-home-portal__content {
+    width: 100%;
+
+    padding:
+      76px
+      18px;
+  }
+
+  /*
+   * モバイルでは縦長背景を活かしつつ、
+   * 横端を自然にHOME背景へ溶かす
+   */
+  .ce-home-portal__image {
+    inset:
+      -4%
+      -8%;
+
+    opacity:
+      0.4;
+
+    background-size:
+      cover;
+
+    background-position:
+      center center;
+
+    transform:
+      scale(1.02);
+
+    -webkit-mask-image:
+      radial-gradient(
+        ellipse
+          at
+          center,
+        black 20%,
+        rgba(
+          0,
+          0,
+          0,
+          0.92
+        )
+          42%,
+        rgba(
+          0,
+          0,
+          0,
+          0.5
+        )
+          66%,
+        transparent
+          91%
+      );
+
+    mask-image:
+      radial-gradient(
+        ellipse
+          at
+          center,
+        black 20%,
+        rgba(
+          0,
+          0,
+          0,
+          0.92
+        )
+          42%,
+        rgba(
+          0,
+          0,
+          0,
+          0.5
+        )
+          66%,
+        transparent
+          91%
+      );
+  }
+
+  .ce-home-portal__glass {
+    inset:
+      -5%
+      -8%;
+
+    background:
+      radial-gradient(
+        circle
+          at
+          50%
+          40%,
+        rgba(
+          0,
+          0,
+          0,
+          0.02
+        )
+          0%,
+        rgba(
+          0,
+          0,
+          0,
+          0.14
+        )
+          34%,
+        rgba(
+          0,
+          0,
+          0,
+          0.42
+        )
+          66%,
+        rgba(
+          0,
+          0,
+          0,
+          0.78
+        )
+          100%
+      );
+  }
+
+  .ce-home-portal::after {
+    inset:
+      -4%
+      -8%;
+  }
+
+  .ce-home-portal__eyebrow {
+    grid-template-columns:
+      25px
+      auto
+      25px;
+
+    gap: 10px;
+
+    margin-bottom:
+      24px;
+  }
+
+  .ce-home-portal__eyebrow p {
+    font-size:
+      8px;
+
+    letter-spacing:
+      0.2em;
+  }
+
+  .ce-home-portal h2 {
+    font-size:
+      clamp(
+        38px,
+        11vw,
+        54px
+      );
+
+    line-height:
+      1;
+
+    letter-spacing:
+      -0.04em;
+  }
+
+  .ce-home-portal__lead {
+    width:
+      min(
+        430px,
+        100%
+      );
+
+    margin-top:
+      25px;
+
+    font-size:
+      14px;
+
+    line-height:
+      1.72;
+  }
+
+  .ce-home-portal__signal {
+    margin-top:
+      32px;
+
+    gap: 8px;
+  }
+
+  .ce-home-portal__signal strong {
+    width:
+      min(
+        310px,
+        100%
+      );
+
+    font-size:
+      12px;
+
+    line-height:
+      1.55;
+  }
+
+  .ce-home-portal__enter {
+    margin-top:
+      35px;
+
+    min-height:
+      44px;
+
+    padding:
+      12px
+      17px;
+  }
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (
+  max-width: 430px
+) {
+  .ce-home-portal {
+    width:
+      calc(100% - 16px);
+
+    min-height:
+      530px;
+  }
+
+  .ce-home-portal__content {
+    padding:
+      68px
+      12px;
+  }
+
+  .ce-home-portal__image {
+    inset:
+      -5%
+      -10%;
+
+    opacity:
+      0.37;
+
+    background-position:
+      50%
+      50%;
+  }
+
+  .ce-home-portal__eyebrow {
+    grid-template-columns:
+      18px
+      auto
+      18px;
+
+    gap: 8px;
+  }
+
+  .ce-home-portal__eyebrow p {
+    font-size:
+      7px;
+
+    letter-spacing:
+      0.17em;
+  }
+
+  .ce-home-portal h2 {
+    font-size:
+      clamp(
+        35px,
+        11.5vw,
+        48px
+      );
+  }
+
+  .ce-home-portal__lead {
+    font-size:
+      13px;
+
+    line-height:
+      1.7;
+  }
+
+  .ce-home-portal__signal {
+    margin-top:
+      28px;
+  }
+
+  .ce-home-portal__signal small {
+    font-size:
+      7px;
+  }
+
+  .ce-home-portal__signal strong {
+    font-size:
+      11px;
+  }
+
+  .ce-home-portal__signal span {
+    font-size:
+      9px;
+  }
+
+  .ce-home-portal__enter {
+    margin-top:
+      31px;
+
+    font-size:
+      10px;
+  }
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (
+  prefers-reduced-motion:
+  reduce
+) {
+  .ce-home-portal__enter {
+    transition:
+      none;
+  }
+
+  .ce-home-portal__enter:hover {
+    transform:
+      none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   HOME HERO — INLINE ORIGIN STORY
+========================================================== */
+
+.an-origin-inline {
+  position: relative;
+
+  width: min(
+    760px,
+    calc(100% - 40px)
+  );
+
+  margin:
+    clamp(34px, 5vh, 54px)
+    auto
+    0;
+
+  padding:
+    24px
+    0
+    4px;
+
+  text-align: center;
+}
+
+
+/* ==========================================================
+   SEPARATOR
+========================================================== */
+
+.an-origin-inline__line {
+  width: min(
+    520px,
+    72%
+  );
+
+  height: 1px;
+
+  margin:
+    0
+    auto
+    24px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.16),
+      transparent
+    );
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+.an-origin-inline__header {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  margin-bottom: 24px;
+}
+
+.an-origin-inline__header > span {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.42
+    );
+
+  font-size: 8px;
+
+  font-weight: 600;
+
+  letter-spacing:
+    0.24em;
+}
+
+.an-origin-inline__header > small {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.68
+    );
+
+  font-size: 10px;
+
+  letter-spacing:
+    0.04em;
+}
+
+
+/* ==========================================================
+   STORY STAGE
+========================================================== */
+
+.an-origin-inline__stage {
+  min-height: 112px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.an-origin-inline__meta {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  margin-bottom: 14px;
+}
+
+.an-origin-inline__meta > span {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.28
+    );
+
+  font-size: 9px;
+
+  font-variant-numeric:
+    tabular-nums;
+}
+
+.an-origin-inline__meta > small {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.4
+    );
+
+  font-size: 8px;
+
+  letter-spacing:
+    0.2em;
+}
+
+.an-origin-inline__story {
+  width: min(
+    620px,
+    100%
+  );
+
+  margin: 0;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.78
+    );
+
+  font-size:
+    clamp(
+      15px,
+      1.7vw,
+      20px
+    );
+
+  font-weight: 400;
+
+  line-height: 1.65;
+
+  letter-spacing:
+    -0.012em;
+
+  animation:
+    anOriginStoryReveal
+    0.7s
+    cubic-bezier(
+      0.22,
+      1,
+      0.36,
+      1
+    )
+    both;
+}
+
+
+/* ==========================================================
+   PROGRESS
+========================================================== */
+
+.an-origin-inline__progress {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+.an-origin-inline__dot {
+  width: 18px;
+  height: 18px;
+
+  display: grid;
+
+  place-items: center;
+
+  padding: 0;
+
+  border: 0;
+
+  background: transparent;
+
+  cursor: pointer;
+}
+
+.an-origin-inline__dot > span {
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.18
+    );
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.an-origin-inline__dot.is-active > span {
+  transform:
+    scale(1.45);
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.88
+    );
+
+  box-shadow:
+    0 0
+    14px
+    rgba(
+      255,
+      255,
+      255,
+      0.3
+    );
+}
+
+
+/* ==========================================================
+   ENTER ORIGIN
+========================================================== */
+
+.an-origin-inline__enter {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  margin-top: 20px;
+
+  padding:
+    8px
+    10px;
+
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.52
+    );
+
+  font-size: 9px;
+
+  letter-spacing:
+    0.08em;
+
+  text-decoration: none;
+
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.an-origin-inline__enter:hover {
+  color:
+    rgba(
+      255,
+      255,
+      255,
+      0.94
+    );
+
+  transform:
+    translateY(-1px);
+}
+
+
+/* ==========================================================
+   REVEAL
+========================================================== */
+
+@keyframes anOriginStoryReveal {
+  from {
+    opacity: 0;
+
+    transform:
+      translateY(8px);
+
+    filter:
+      blur(5px);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translateY(0);
+
+    filter:
+      blur(0);
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (
+  max-width: 768px
+) {
+  .an-origin-inline {
+    width:
+      calc(100% - 24px);
+
+    margin-top:
+      28px;
+
+    padding-top:
+      20px;
+  }
+
+  .an-origin-inline__line {
+    width: 74%;
+
+    margin-bottom:
+      20px;
+  }
+
+  .an-origin-inline__header {
+    margin-bottom:
+      18px;
+  }
+
+  .an-origin-inline__stage {
+    min-height:
+      126px;
+  }
+
+  .an-origin-inline__story {
+    width: min(
+      440px,
+      100%
+    );
+
+    font-size:
+      14px;
+
+    line-height:
+      1.62;
+  }
+
+  .an-origin-inline__progress {
+    margin-top:
+      16px;
+  }
+
+  .an-origin-inline__enter {
+    margin-top:
+      16px;
+  }
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (
+  max-width: 430px
+) {
+  .an-origin-inline {
+    width:
+      calc(100% - 14px);
+
+    margin-top:
+      24px;
+
+    padding-top:
+      17px;
+  }
+
+  .an-origin-inline__line {
+    width: 68%;
+  }
+
+  .an-origin-inline__header {
+    gap: 8px;
+  }
+
+  .an-origin-inline__header > span {
+    font-size: 7px;
+  }
+
+  .an-origin-inline__header > small {
+    font-size: 9px;
+  }
+
+  .an-origin-inline__stage {
+    min-height:
+      132px;
+  }
+
+  .an-origin-inline__story {
+    font-size:
+      13px;
+
+    line-height:
+      1.6;
+  }
+
+  .an-origin-inline__meta > span,
+  .an-origin-inline__meta > small {
+    font-size: 7px;
+  }
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (
+  prefers-reduced-motion:
+  reduce
+) {
+  .an-origin-inline__story {
+    animation: none;
+  }
+
+  .an-origin-inline__dot > span,
+  .an-origin-inline__enter {
+    transition: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================
+   ARCHENOVA HERO CINEMATIC
+   FINAL PLAYBACK CONTROL
+========================================================== */
+
+.an-hero-cinematic {
+  position: relative !important;
+
+  width: 100% !important;
+
+  min-height: 100svh !important;
+
+  overflow: hidden !important;
+
+  background: #000 !important;
+
+  isolation: isolate !important;
+}
+
+
+/* ==========================================================
+   OPENING FILM
+========================================================== */
+
+.an-hero-cinematic__film {
+  position: absolute !important;
+
+  inset: 0 !important;
+
+  z-index: 100 !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  overflow: hidden !important;
+
+  background: #000 !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  pointer-events: none !important;
+}
+
+
+/* ==========================================================
+   VIDEO
+========================================================== */
+
+.an-hero-cinematic__video {
+  position: absolute !important;
+
+  inset: 0 !important;
+
+  z-index: 1 !important;
+
+  display: block !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+
+  object-fit: cover !important;
+
+  object-position:
+    center center !important;
+
+  background: #000 !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  transform: none !important;
+
+  filter: none !important;
+
+  mix-blend-mode:
+    normal !important;
+}
+
+
+/* ==========================================================
+   VERY LIGHT FILM SHADE
+========================================================== */
+
+.an-hero-cinematic__film-shade {
+  position: absolute !important;
+
+  inset: 0 !important;
+
+  z-index: 2 !important;
+
+  pointer-events: none !important;
+
+  background:
+    radial-gradient(
+      ellipse at center,
+      transparent 32%,
+      rgba(0, 0, 0, 0.04) 66%,
+      rgba(0, 0, 0, 0.18) 100%
+    ) !important;
+}
+
+
+/* ==========================================================
+   FILM BOTTOM FADE
+========================================================== */
+
+.an-hero-cinematic__film-fade {
+  position: absolute !important;
+
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+
+  z-index: 3 !important;
+
+  height: 14% !important;
+
+  pointer-events: none !important;
+
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.5)
+    ) !important;
+}
+
+
+/* ==========================================================
+   HERO CONTENT
+   FILM PLAYING
+========================================================== */
+
+.an-hero-cinematic__content {
+  position: relative !important;
+
+  z-index: 10 !important;
+
+  min-height: 100svh !important;
+
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  opacity: 0 !important;
+
+  visibility: hidden !important;
+
+  transform:
+    translateY(20px) !important;
+
+  filter:
+    blur(8px) !important;
+
+  pointer-events: none !important;
+
+  transition:
+    opacity 1.8s
+      cubic-bezier(
+        0.22,
+        1,
+        0.36,
+        1
+      ),
+    transform 1.8s
+      cubic-bezier(
+        0.22,
+        1,
+        0.36,
+        1
+      ),
+    filter 1.6s ease !important;
+}
+
+
+/* ==========================================================
+   HERO CONTENT
+   AFTER FILM
+========================================================== */
+
+.an-hero-cinematic.is-film-ended
+.an-hero-cinematic__content {
+  opacity: 1 !important;
+
+  visibility: visible !important;
+
+  transform:
+    translateY(0) !important;
+
+  filter:
+    blur(0) !important;
+
+  pointer-events: auto !important;
+}
+
+
+/* ==========================================================
+   AFTERGLOW
+========================================================== */
+
+.an-hero-cinematic__afterglow {
+  position: absolute !important;
+
+  inset: 0 !important;
+
+  z-index: 0 !important;
+
+  opacity: 0 !important;
+
+  background:
+    radial-gradient(
+      circle at 50% 36%,
+      rgba(255, 255, 255, 0.07),
+      transparent 30%
+    ),
+    radial-gradient(
+      ellipse at center,
+      rgba(18, 27, 48, 0.16),
+      #000 82%
+    ) !important;
+
+  transition:
+    opacity 1.8s ease !important;
+}
+
+.an-hero-cinematic.is-film-ended
+.an-hero-cinematic__afterglow {
+  opacity: 1 !important;
+}
+
+
+/* ==========================================================
+   STAR FIELD
+========================================================== */
+
+.an-hero-cinematic
+.an-hero-stars {
+  z-index: 1 !important;
+
+  opacity: 0 !important;
+
+  transition:
+    opacity 1.8s ease !important;
+}
+
+.an-hero-cinematic.is-film-ended
+.an-hero-stars {
+  opacity: 0.3 !important;
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (
+  max-width: 768px
+) {
+  .an-hero-cinematic {
+    min-height:
+      100svh !important;
+  }
+
+  .an-hero-cinematic__video {
+    width: 100% !important;
+    height: 100% !important;
+
+    object-fit:
+      cover !important;
+
+    object-position:
+      center center !important;
+  }
+
+  .an-hero-cinematic__content {
+    min-height:
+      100svh !important;
+
+    padding-top:
+      84px !important;
+
+    padding-bottom:
+      64px !important;
+  }
+
+  .an-hero-cinematic__film-fade {
+    height:
+      18% !important;
+  }
+}
+
+
+/* ==========================================================
+   SMALL MOBILE
+========================================================== */
+
+@media (
+  max-width: 430px
+) {
+  .an-hero-cinematic__video {
+    object-fit:
+      cover !important;
+
+    object-position:
+      center center !important;
+  }
+
+  .an-hero-cinematic__content {
+    padding-top:
+      76px !important;
+
+    padding-bottom:
+      54px !important;
+  }
+}
+
+
+
+/* ==========================================================
+   CINEMATIC END → HERO TRANSITION
+========================================================== */
+
+.an-hero-cinematic__content {
+  transition:
+    opacity 2.2s
+      cubic-bezier(
+        0.22,
+        1,
+        0.36,
+        1
+      ),
+    transform 2.2s
+      cubic-bezier(
+        0.22,
+        1,
+        0.36,
+        1
+      ),
+    filter 1.9s
+      ease !important;
+}
+
+.an-hero-cinematic.is-film-ended
+.an-hero-cinematic__content {
+  opacity: 1 !important;
+
+  visibility: visible !important;
+
+  transform:
+    translateY(0) !important;
+
+  filter:
+    blur(0) !important;
+}
+
+.an-hero-cinematic.is-film-ended
+.an-hero-cinematic__afterglow {
+  opacity: 1 !important;
+
+  transition:
+    opacity 2.4s ease !important;
+}
+
+.an-hero-cinematic.is-film-ended
+.an-hero-stars {
+  opacity: 0.3 !important;
+
+  transition:
+    opacity 2.8s ease !important;
+}
+
+
+
+
+
+
+
+
+/* ==========================================================
+   HOME SECTION PAGER
+   CROSS-PLATFORM STABILITY PATCH
+   WINDOWS / CHROMIUM / ANDROID
+========================================================== */
+
+/*
+ * ブラウザ標準のbutton描画差を消す
+ */
+.chapter-navigator button {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+
+  font-family: inherit !important;
+
+  font-synthesis: none !important;
+
+  margin: 0 !important;
+
+  outline: none;
+
+  box-shadow: none;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/* ==========================================================
+   NAVIGATOR
+========================================================== */
+
+.chapter-navigator {
+  box-sizing: border-box;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+  font-synthesis: none;
+
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* ==========================================================
+   ARROW BUTTON
+========================================================== */
+
+.chapter-navigator
+.chapter-nav-arrow {
+  box-sizing: border-box !important;
+
+  border: 0 !important;
+
+  outline: 0;
+
+  box-shadow: none !important;
+
+  background-clip: padding-box;
+
+  font-family: inherit !important;
+
+  font-weight: 400 !important;
+
+  line-height: 1 !important;
+
+  text-decoration: none !important;
+}
+
+
+/* ==========================================================
+   CHAPTER ITEM
+========================================================== */
+
+.chapter-navigator
+.chapter-nav-item {
+  box-sizing: border-box !important;
+
+  border: 0 !important;
+
+  outline: 0;
+
+  box-shadow: none !important;
+
+  background-clip: padding-box;
+
+  font-family: inherit !important;
+
+  font-weight: 400 !important;
+
+  line-height: normal !important;
+
+  text-decoration: none !important;
+}
+
+
+/* ==========================================================
+   SYMBOL
+========================================================== */
+
+.chapter-navigator
+.chapter-nav-mark {
+  flex-shrink: 0;
+
+  font-family:
+    "Segoe UI Symbol",
+    "Apple Symbols",
+    Arial,
+    sans-serif;
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  line-height: 1;
+
+  text-rendering: geometricPrecision;
+
+  white-space: nowrap;
+}
+
+
+/* ==========================================================
+   COPY
+========================================================== */
+
+.chapter-navigator
+.chapter-nav-copy {
+  min-width: 0;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+  font-synthesis: none;
+
+  white-space: nowrap;
+}
+
+
+/*
+ * Windowsで細い文字が潰れにくいよう
+ * 400 / 500 の標準weightへ固定
+ */
+.chapter-navigator
+.chapter-nav-copy strong {
+  font-family: inherit !important;
+
+  font-size: 9px;
+
+  font-weight: 500 !important;
+
+  line-height: 1.25 !important;
+
+  letter-spacing: 0.1em;
+
+  white-space: nowrap;
+
+  text-rendering: optimizeLegibility;
+}
+
+
+.chapter-navigator
+.chapter-nav-copy small {
+  font-family: inherit !important;
+
+  font-size: 7px;
+
+  font-weight: 400 !important;
+
+  line-height: 1.3 !important;
+
+  letter-spacing: 0.04em;
+
+  white-space: nowrap;
+
+  text-rendering: optimizeLegibility;
+}
+
+
+/* ==========================================================
+   REMOVE ACCIDENTAL BORDERS
+========================================================== */
+
+.chapter-navigator,
+.chapter-nav-list,
+.chapter-nav-copy,
+.chapter-nav-mark {
+  border: 0 !important;
+
+  outline: 0;
+
+  box-shadow: none;
+}
+
+
+/* ==========================================================
+   FOCUS
+   マウス操作時の不要な境界線を抑える
+   キーボード操作時だけ表示
+========================================================== */
+
+.chapter-navigator
+.chapter-nav-arrow:focus,
+.chapter-navigator
+.chapter-nav-item:focus {
+  outline: none;
+}
+
+
+.chapter-navigator
+.chapter-nav-arrow:focus-visible,
+.chapter-navigator
+.chapter-nav-item:focus-visible {
+  outline:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.48
+    );
+
+  outline-offset: 3px;
+}
+
+
+/* ==========================================================
+   CHROMIUM / WINDOWS
+========================================================== */
+
+@supports (
+  selector(
+    ::-webkit-scrollbar
+  )
+) {
+  .chapter-navigator
+  .chapter-nav-arrow,
+  .chapter-navigator
+  .chapter-nav-item {
+    border:
+      0 !important;
+
+    outline:
+      0;
+
+    box-shadow:
+      none !important;
+  }
+
+  .chapter-navigator
+  .chapter-nav-copy strong {
+    font-weight:
+      500 !important;
+
+    letter-spacing:
+      0.09em;
+  }
+
+  .chapter-navigator
+  .chapter-nav-copy small {
+    font-weight:
+      400 !important;
+  }
+}
+
+
+/* ==========================================================
+   ANDROID / TOUCH DEVICES
+========================================================== */
+
+@media (
+  max-width: 768px
+) {
+  .chapter-navigator
+  .chapter-nav-arrow,
+  .chapter-navigator
+  .chapter-nav-item {
+    -webkit-appearance:
+      none !important;
+
+    appearance:
+      none !important;
+
+    border:
+      0 !important;
+
+    outline:
+      0;
+
+    box-shadow:
+      none !important;
+
+    -webkit-tap-highlight-color:
+      transparent;
+  }
+
+  .chapter-navigator
+  .chapter-nav-mark {
+    font-size:
+      13px;
+
+    line-height:
+      1;
+  }
+}
+
+
+/* ==========================================================
+   COARSE POINTER
+   Android / touch Windows
+========================================================== */
+
+@media (
+  pointer: coarse
+) {
+  .chapter-navigator
+  .chapter-nav-arrow,
+  .chapter-navigator
+  .chapter-nav-item {
+    outline:
+      none;
+
+    -webkit-tap-highlight-color:
+      transparent;
+  }
+
+  .chapter-navigator
+  .chapter-nav-item:hover,
+  .chapter-navigator
+  .chapter-nav-arrow:hover {
+    transform:
+      none;
+  }
+}
+
+
+/* ==========================================================
+   WINDOWS HIGH CONTRAST
+========================================================== */
+
+@media (
+  forced-colors: active
+) {
+  .chapter-navigator
+  .chapter-nav-arrow,
+  .chapter-navigator
+  .chapter-nav-item {
+    forced-color-adjust:
+      auto;
+
+    box-shadow:
+      none !important;
+  }
+}
+
+
+
+
+
+
+
+/* ==========================================================
+   HOME MOTION DIAGNOSTIC
+   TEMPORARY TEST
+========================================================== */
+
+/*
+ * HOMEカードそのものには
+ * transform / animationを一切させない
+ */
+.archenova-twin-home
+.home-page,
+.archenova-twin-home
+.twin-page {
+  transform: none !important;
+  animation: none !important;
+}
+
+
+/*
+ * RevealのY移動も一旦停止
+ * opacityだけ残す
+ */
+.archenova-twin-home
+.reveal,
+.archenova-twin-home
+.reveal.is-visible {
+  transform: none !important;
+}
+
+
+/*
+ * transition中のtransformも停止
+ */
+.archenova-twin-home
+.reveal {
+  transition-property:
+    opacity,
+    filter !important;
+}
+
+
+/*
+ * HOMEのスナップ自体は維持
+ */
+.archenova-twin-home
+[data-home-section] {
+  scroll-snap-align:
+    start;
+}

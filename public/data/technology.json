@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updated": "2026-08-11T23:42:27.406Z",
+  "updated": "2026-08-11T22:58:26.547Z",
   "items": [
     {
       "source": "STAT",
@@ -246,6 +246,15 @@
       "categoryId": "bio"
     },
     {
+      "source": "IAEA News",
+      "title": "IAEA Trains Ukrainian Experts in Non-Destructive Testing for Civil Engineering",
+      "url": "http://www.iaea.org/newscenter/news/iaea-trains-ukrainian-experts-in-non-destructive-testing-for-civil-engineering",
+      "summary": "",
+      "ts": 1786454125000,
+      "publishedAt": "2026-08-11T13:15:25.000Z",
+      "categoryId": "energy-climate"
+    },
+    {
       "source": "NVIDIA",
       "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
       "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
@@ -406,15 +415,6 @@
       "ts": 1786449600000,
       "publishedAt": "2026-08-11T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "IAEA News",
-      "title": "IAEA Trains Ukrainian Experts in Non-Destructive Testing for Civil Engineering",
-      "url": "http://www.iaea.org/newscenter/news/iaea-trains-ukrainian-experts-in-non-destructive-testing-for-civil-engineering",
-      "summary": "",
-      "ts": 1786446925000,
-      "publishedAt": "2026-08-11T11:15:25.000Z",
-      "categoryId": "energy-climate"
     },
     {
       "source": "SpaceNews",

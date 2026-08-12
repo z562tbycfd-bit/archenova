@@ -1,5 +1,8 @@
 "use client";
 
+import CivilizationDailyExperience
+  from "@/app/components/CivilizationDailyExperience";
+
 import {
   useCallback,
   useEffect,
@@ -3128,6 +3131,52 @@ civilizationMap
 
         </div>
       </section>
+
+      {/* ==================================================
+    SCIENTIFIC EXPERIENCE
+================================================== */}
+
+<section
+  className="ci-scientific-experience"
+  aria-labelledby="ci-scientific-experience-title"
+>
+  <div className="ci-shell">
+    <header className="ci-heading">
+      <span>
+        SCIENTIFIC EXPERIENCE
+      </span>
+
+      <h2
+        id="ci-scientific-experience-title"
+      >
+        Reality Verification
+      </h2>
+
+      <p>
+        Move from observation to hypothesis,
+        prediction, evidence, falsification,
+        engineering reach, uncertainty,
+        and civilization memory.
+      </p>
+    </header>
+
+    <div className="ci-scientific-experience__workspace">
+      <div className="ci-scientific-experience__status">
+        <span>
+          EPISTEME OS
+        </span>
+
+        <i />
+
+        <strong>
+          DAILY SCIENTIFIC OBJECT
+        </strong>
+      </div>
+
+      <CivilizationDailyExperience />
+    </div>
+  </div>
+</section>
 
       <footer className="ci-footer">
         <p>
@@ -6348,6 +6397,964 @@ border-top:
   flex: 0 0 auto;
 }
 
+/* ==========================================================
+   SCIENTIFIC EXPERIENCE
+   EMBEDDED CIVILIZATION DAILY EXPERIENCE
+========================================================== */
+
+.ci-scientific-experience {
+  position: relative;
+
+  width: 100%;
+
+  padding:
+    110px
+    0
+    120px;
+}
+
+
+/* ==========================================================
+   SECTION HEADING
+========================================================== */
+
+.ci-scientific-experience
+.ci-heading {
+  max-width: 760px;
+
+  margin:
+    0
+    auto
+    58px;
+
+  text-align: center;
+}
+
+.ci-scientific-experience
+.ci-heading > span {
+  color: var(--dim);
+
+  font-size: 10px;
+
+  font-weight: 650;
+
+  letter-spacing: 0.28em;
+}
+
+.ci-scientific-experience
+.ci-heading h2 {
+  margin:
+    16px
+    0
+    0;
+
+  font-size:
+    clamp(
+      40px,
+      5.2vw,
+      68px
+    );
+
+  font-weight: 290;
+
+  line-height: 1.05;
+
+  letter-spacing: -0.05em;
+}
+
+.ci-scientific-experience
+.ci-heading p {
+  width:
+    min(
+      660px,
+      100%
+    );
+
+  margin:
+    22px
+    auto
+    0;
+
+  color: var(--muted);
+
+  font-size: 14px;
+
+  line-height: 1.8;
+}
+
+
+/* ==========================================================
+   SCIENTIFIC WORKSPACE
+========================================================== */
+
+.ci-scientific-experience__workspace {
+  position: relative;
+
+  width: 100%;
+
+  overflow: hidden;
+
+  border:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.085
+    );
+
+  border-radius: 34px;
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(
+        158,
+        223,
+        255,
+        0.075
+      ),
+      transparent 34%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(
+        255,
+        255,
+        255,
+        0.045
+      ),
+      rgba(
+        255,
+        255,
+        255,
+        0.008
+      )
+    ),
+    rgba(
+      4,
+      14,
+      28,
+      0.4
+    );
+
+  backdrop-filter:
+    saturate(135%)
+    blur(26px);
+
+  -webkit-backdrop-filter:
+    saturate(135%)
+    blur(26px);
+
+  box-shadow:
+    inset
+      0
+      1px
+      0
+      rgba(
+        255,
+        255,
+        255,
+        0.1
+      ),
+    0
+    36px
+    110px
+    rgba(
+      0,
+      0,
+      0,
+      0.18
+    );
+}
+
+
+/* ==========================================================
+   OS STATUS BAR
+========================================================== */
+
+.ci-scientific-experience__status {
+  position: relative;
+
+  z-index: 4;
+
+  min-height: 58px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+  gap: 11px;
+
+  padding:
+    0
+    26px;
+
+  border-bottom:
+    1px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.065
+    );
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.012
+    );
+}
+
+.ci-scientific-experience__status span,
+.ci-scientific-experience__status strong {
+  font-size: 8px;
+
+  font-weight: 650;
+
+  line-height: 1;
+
+  letter-spacing: 0.18em;
+
+  white-space: nowrap;
+}
+
+.ci-scientific-experience__status span {
+  color:
+    rgba(
+      220,
+      232,
+      247,
+      0.46
+    );
+}
+
+.ci-scientific-experience__status strong {
+  color:
+    rgba(
+      158,
+      223,
+      255,
+      0.76
+    );
+}
+
+.ci-scientific-experience__status i {
+  width: 5px;
+  height: 5px;
+
+  flex: 0 0 auto;
+
+  border-radius: 50%;
+
+  background:
+    var(--green);
+
+  box-shadow:
+    0
+    0
+    12px
+    rgba(
+      135,
+      241,
+      198,
+      0.72
+    );
+}
+
+
+/* ==========================================================
+   EMBEDDED EXPERIENCE ROOT
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily {
+  position: relative;
+
+  width: 100%;
+
+  max-width: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  color: var(--text);
+
+  background: transparent;
+
+  border: 0;
+
+  border-radius: 0;
+
+  box-shadow: none;
+}
+
+
+/* ==========================================================
+   EXPERIENCE HERO
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-hero {
+  position: relative;
+
+  min-height: auto;
+
+  width: 100%;
+
+  padding:
+    clamp(
+      58px,
+      7vw,
+      92px
+    )
+    clamp(
+      22px,
+      5vw,
+      70px
+    )
+    clamp(
+      54px,
+      7vw,
+      86px
+    );
+
+  background: transparent;
+}
+
+
+/* ==========================================================
+   EXPERIENCE EYEBROW / DATE
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-eyebrow {
+  color:
+    rgba(
+      158,
+      223,
+      255,
+      0.7
+    );
+
+  font-size: 9px;
+
+  font-weight: 650;
+
+  letter-spacing: 0.23em;
+}
+
+.ci-scientific-experience
+.ce-daily-date {
+  color: var(--dim);
+}
+
+
+/* ==========================================================
+   EXPERIENCE TITLE
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-title {
+  width:
+    min(
+      940px,
+      100%
+    );
+
+  margin-inline: auto;
+
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Display",
+    "Segoe UI",
+    sans-serif;
+
+  font-weight: 290;
+
+  letter-spacing: -0.045em;
+
+  text-wrap: balance;
+}
+
+
+/* ==========================================================
+   EXPERIENCE QUESTION
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-question {
+  width:
+    min(
+      720px,
+      100%
+    );
+
+  margin-inline: auto;
+
+  color:
+    rgba(
+      232,
+      240,
+      249,
+      0.7
+    );
+}
+
+
+/* ==========================================================
+   META
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-meta {
+  justify-content: center;
+}
+
+
+/* ==========================================================
+   SOURCE
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-source {
+  color: var(--dim);
+}
+
+
+/* ==========================================================
+   ENTER EXPERIENCE
+========================================================== */
+
+.ci-scientific-experience
+.ce-enter-experience {
+  border-color:
+    rgba(
+      158,
+      223,
+      255,
+      0.16
+    );
+
+  background:
+    rgba(
+      158,
+      223,
+      255,
+      0.055
+    );
+
+  color:
+    rgba(
+      240,
+      249,
+      255,
+      0.9
+    );
+}
+
+.ci-scientific-experience
+.ce-enter-experience:hover {
+  border-color:
+    rgba(
+      158,
+      223,
+      255,
+      0.3
+    );
+
+  background:
+    rgba(
+      158,
+      223,
+      255,
+      0.1
+    );
+}
+
+
+/* ==========================================================
+   EXPERIENCE PROGRESS
+========================================================== */
+
+.ci-scientific-experience
+.ce-experience-progress {
+  margin-top: 32px;
+}
+
+
+/* ==========================================================
+   EXPERIENCE SEQUENCE
+========================================================== */
+
+.ci-scientific-experience
+.ce-experience-sequence {
+  position: relative;
+
+  width: 100%;
+
+  margin: 0;
+
+  padding:
+    0
+    clamp(
+      18px,
+      4vw,
+      56px
+    )
+    clamp(
+      60px,
+      8vw,
+      100px
+    );
+}
+
+
+/* ==========================================================
+   EXPERIENCE STAGES
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-section {
+  width: 100%;
+
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.065
+    );
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(
+        255,
+        255,
+        255,
+        0.025
+      ),
+      rgba(
+        255,
+        255,
+        255,
+        0.006
+      )
+    );
+}
+
+
+/* ==========================================================
+   STAGE NUMBER
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-section-index {
+  color:
+    rgba(
+      158,
+      223,
+      255,
+      0.32
+    );
+}
+
+
+/* ==========================================================
+   STAGE LABEL
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-label {
+  color:
+    rgba(
+      158,
+      223,
+      255,
+      0.62
+    );
+}
+
+
+/* ==========================================================
+   STAGE TITLE
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-section-title {
+  color:
+    rgba(
+      248,
+      251,
+      255,
+      0.96
+    );
+}
+
+
+/* ==========================================================
+   BODY COPY
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-section-body {
+  color:
+    rgba(
+      224,
+      234,
+      246,
+      0.72
+    );
+}
+
+
+/* ==========================================================
+   HYPOTHESIS CARDS
+========================================================== */
+
+.ci-scientific-experience
+.ce-hypothesis-card,
+.ci-scientific-experience
+.ce-prediction-option {
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.075
+    );
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.02
+    );
+}
+
+.ci-scientific-experience
+.ce-hypothesis-card:hover,
+.ci-scientific-experience
+.ce-prediction-option:hover {
+  border-color:
+    rgba(
+      158,
+      223,
+      255,
+      0.22
+    );
+
+  background:
+    rgba(
+      158,
+      223,
+      255,
+      0.05
+    );
+}
+
+.ci-scientific-experience
+.ce-hypothesis-card.is-selected,
+.ci-scientific-experience
+.ce-prediction-option.is-selected {
+  border-color:
+    rgba(
+      135,
+      241,
+      198,
+      0.28
+    );
+
+  background:
+    rgba(
+      135,
+      241,
+      198,
+      0.045
+    );
+}
+
+
+/* ==========================================================
+   DECISION / PREDICTION LOCK
+========================================================== */
+
+.ci-scientific-experience
+.ce-decision-lock,
+.ci-scientific-experience
+.ce-prediction-locked {
+  border-color:
+    rgba(
+      135,
+      241,
+      198,
+      0.18
+    );
+
+  background:
+    rgba(
+      135,
+      241,
+      198,
+      0.035
+    );
+}
+
+
+/* ==========================================================
+   EVIDENCE
+========================================================== */
+
+.ci-scientific-experience
+.ce-comparison-shell,
+.ci-scientific-experience
+.ce-evidence-verdict,
+.ci-scientific-experience
+.ce-daily-evidence-grid,
+.ci-scientific-experience
+.ce-daily-callout {
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.075
+    );
+}
+
+
+/* ==========================================================
+   ENGINEERING REACH
+========================================================== */
+
+.ci-scientific-experience
+.ce-daily-reach > div {
+  border-color:
+    rgba(
+      255,
+      255,
+      255,
+      0.07
+    );
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.018
+    );
+}
+
+
+/* ==========================================================
+   ADVANCE BUTTON
+========================================================== */
+
+.ci-scientific-experience
+.ce-stage-advance,
+.ci-scientific-experience
+.ce-lock-prediction {
+  border-color:
+    rgba(
+      158,
+      223,
+      255,
+      0.16
+    );
+
+  background:
+    rgba(
+      158,
+      223,
+      255,
+      0.055
+    );
+
+  color:
+    rgba(
+      240,
+      249,
+      255,
+      0.9
+    );
+}
+
+.ci-scientific-experience
+.ce-stage-advance:hover,
+.ci-scientific-experience
+.ce-lock-prediction:hover {
+  border-color:
+    rgba(
+      158,
+      223,
+      255,
+      0.3
+    );
+
+  background:
+    rgba(
+      158,
+      223,
+      255,
+      0.1
+    );
+}
+
+
+/* ==========================================================
+   EXPERIENCE COMPLETE
+========================================================== */
+
+.ci-scientific-experience
+.ce-experience-complete {
+  border-color:
+    rgba(
+      135,
+      241,
+      198,
+      0.18
+    );
+
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(
+        135,
+        241,
+        198,
+        0.08
+      ),
+      transparent 50%
+    ),
+    rgba(
+      135,
+      241,
+      198,
+      0.025
+    );
+}
+
+
+/* ==========================================================
+   TABLET
+========================================================== */
+
+@media (max-width: 780px) {
+  .ci-scientific-experience {
+    padding:
+      86px
+      0;
+  }
+
+  .ci-scientific-experience
+  .ci-heading {
+    margin-bottom:
+      42px;
+  }
+
+  .ci-scientific-experience__workspace {
+    border-radius:
+      26px;
+  }
+
+  .ci-scientific-experience
+  .ce-daily-hero {
+    padding:
+      54px
+      22px;
+  }
+
+  .ci-scientific-experience
+  .ce-experience-sequence {
+    padding:
+      0
+      16px
+      64px;
+  }
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 540px) {
+  .ci-scientific-experience {
+    padding:
+      74px
+      0;
+  }
+
+  .ci-scientific-experience
+  .ci-heading {
+    margin-bottom:
+      34px;
+  }
+
+  .ci-scientific-experience
+  .ci-heading h2 {
+    font-size:
+      40px;
+  }
+
+  .ci-scientific-experience
+  .ci-heading p {
+    font-size:
+      13px;
+  }
+
+  .ci-scientific-experience__workspace {
+    border-radius:
+      22px;
+  }
+
+  .ci-scientific-experience__status {
+    min-height:
+      54px;
+
+    padding:
+      0
+      17px;
+
+    gap:
+      8px;
+  }
+
+  .ci-scientific-experience__status span,
+  .ci-scientific-experience__status strong {
+    font-size:
+      7px;
+
+    letter-spacing:
+      0.12em;
+  }
+
+  .ci-scientific-experience
+  .ce-daily-hero {
+    padding:
+      46px
+      16px
+      52px;
+  }
+
+  .ci-scientific-experience
+  .ce-experience-sequence {
+    padding:
+      0
+      10px
+      54px;
+  }
+}
 
         @media (max-width: 380px) {
   .ci-hero-heading h1 {
