@@ -1,7 +1,63 @@
 {
   "ok": true,
-  "updated": "2026-08-12T11:53:49.379Z",
+  "updated": "2026-08-12T13:14:07.522Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Why do humans use 'baby voice' when speaking to pets?",
+      "url": "https://phys.org/news/2026-08-humans-baby-voice-pets.html",
+      "summary": "You walk in a park. Children are playing, people are walking their dogs, and then you hear someone say, \"Who's my little sweetie?\" You turn around expecting to see a stroller. But someone is sitting beside a dog, speakin…",
+      "ts": 1786539605000,
+      "publishedAt": "2026-08-12T13:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Recyclable glue bonds underwater in seconds and holds for years",
+      "url": "https://phys.org/news/2026-08-recyclable-bonds-underwater-seconds-years.html",
+      "summary": "Most glues need a dry surface to stick properly. Bonding materials underwater is challenging because water forms a thin film on any surface, so instead of an adhesive touching a material directly, it touches a layer of w…",
+      "ts": 1786539601000,
+      "publishedAt": "2026-08-12T13:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Moonquakes could reveal buried lunar ice for future explorers",
+      "url": "https://phys.org/news/2026-08-moonquakes-reveal-lunar-ice-future.html",
+      "summary": "The surface of the moon is a bleak and forbidding place that could be hiding a lot of water ice within its dusty landscape. However, most possible ice deposits don't just stand out in an image. Scientists need specialize…",
+      "ts": 1786538405000,
+      "publishedAt": "2026-08-12T12:40:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Bumblebees can learn to associate new smells with their queen",
+      "url": "https://phys.org/news/2026-08-bumblebees-associate-queen.html",
+      "summary": "Bumblebees are able to learn to associate new odors with their colony's queen, instead of being preprogrammed to recognize the queen's pheromones from birth, according to a new study led by researchers at Penn State. For…",
+      "ts": 1786538403000,
+      "publishedAt": "2026-08-12T12:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Flesh-eating screwworms have returned. Which new technologies could stop them?",
+      "url": "https://phys.org/news/2026-08-qa-flesh-screwworms-technologies.html",
+      "summary": "They may look like any ordinary species of flies buzzing around on any given day, but the New World screwworm is quite extraordinary. Screwworm flies are highly destructive parasitic flies that feed on the tissue of warm…",
+      "ts": 1786537801000,
+      "publishedAt": "2026-08-12T12:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "The way trees sway may communicate water stress",
+      "url": "https://phys.org/news/2026-08-trees-sway-communicate-stress.html",
+      "summary": "The Western U.S. is experiencing periods of increasingly intense drought, and higher temperatures are exacerbating the issue by drawing even more moisture from plants and soils into the atmosphere. The results can be see…",
+      "ts": 1786536602000,
+      "publishedAt": "2026-08-12T12:10:02.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Long-sought Zhang-Rice singlet visualized directly in cuprate superconductor",
+      "url": "https://phys.org/news/2026-08-sought-zhang-rice-singlet-visualized.html",
+      "summary": "Superconductors are materials that conduct electricity with zero electrical resistance below specific temperatures. Most of these materials become superconducting at very low temperatures, but some also exhibit supercond…",
+      "ts": 1786536001000,
+      "publishedAt": "2026-08-12T12:00:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New wildfire research system follows ecosystems from controlled burns through long-term recovery",
@@ -743,62 +799,6 @@
       "title": "History Matters: Damage-Mediated Amplification of Brain Deformation and Injury Risk under Repeated Head Impacts",
       "url": "https://arxiv.org/abs/2608.10331",
       "summary": "arXiv:2608.10331v1 Announce Type: cross Abstract: Computational head models are typically applied to isolated impacts, leaving repeated head loading largely unexplored. An Ogden-Roxburgh Mullins damage formulation was im…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "ENCORE: Efficient Noise Context-Aware Representation for Low-Dose CT Denoising",
-      "url": "https://arxiv.org/abs/2608.10343",
-      "summary": "arXiv:2608.10343v1 Announce Type: cross Abstract: While deep learning-based denoising has become widely adopted in low-dose CT, conventional models use generic architectures designed for natural images, failing to accoun…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Equilibrium Distributions for Strongly Nonlinear Many-Body Systems",
-      "url": "https://arxiv.org/abs/2608.10352",
-      "summary": "arXiv:2608.10352v1 Announce Type: cross Abstract: Obtaining equilibrium distributions of nonlinear systems is essential for accurately computing macroscopic observables. Conventional theoretical corrections are typically…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Private Correlations Certify Sensing Capability",
-      "url": "https://arxiv.org/abs/2608.10377",
-      "summary": "arXiv:2608.10377v1 Announce Type: cross Abstract: We show that private correlations in a bipartite quantum state constitute a metrological resource for distributed sensing assisted by a possibly noisy channel from one pa…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Lesion-Aware Adaptive Fourier Neural Operator for CT-to-PSMA PET Synthesis in Prostate Cancer",
-      "url": "https://arxiv.org/abs/2608.10429",
-      "summary": "arXiv:2608.10429v1 Announce Type: cross Abstract: Deep learning models that synthesize PET from CT or MRI can reduce patient dose and scanner demand, but are typically optimized with global losses such as L1 or mean squa…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dynamics of amorphous membranes in the two-dimensional limit",
-      "url": "https://arxiv.org/abs/2608.10486",
-      "summary": "arXiv:2608.10486v1 Announce Type: cross Abstract: Atomically thin mechanical resonators have been realized predominantly in crystalline two-dimensional (2D) materials, such as graphene, where long-range crystalline order…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Link-adaptive digital twin for robust physical-layer modeling in hybrid-amplified ultra-wideband optical networks",
-      "url": "https://arxiv.org/abs/2608.10517",
-      "summary": "arXiv:2608.10517v1 Announce Type: cross Abstract: Accurate physical-layer modeling is increasingly essential for reliable ultra-wideband operation and capacity optimization, especially under the intensified inter-channel…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "How many labels can a biological oscillator carry? A quality-factor screen for proposed information carriers",
-      "url": "https://arxiv.org/abs/2608.10560",
-      "summary": "arXiv:2608.10560v1 Announce Type: cross Abstract: How many distinguishable labels can a biological oscillator carry? Proposals invoking collective vibrational modes, endogenous electromagnetic fields, microtubule excitat…",
       "ts": 1786507200000,
       "publishedAt": "2026-08-12T04:00:00.000Z"
     }

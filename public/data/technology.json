@@ -1,7 +1,61 @@
 {
   "ok": true,
-  "updated": "2026-08-12T11:53:58.173Z",
+  "updated": "2026-08-12T13:14:10.466Z",
   "items": [
+    {
+      "source": "SpaceNews",
+      "title": "China’s iSpace raises first batch of series E funding for reusable rocketry",
+      "url": "https://spacenews.com/chinas-ispace-raises-first-batch-of-series-e-funding-for-reusable-rocketry/",
+      "summary": "HELSINKI — Chinese reusable launch vehicle maker has secured a first batch of series E funding, months after a huge D++ round, with fundraising still ongoing. The funding is the […] The post China’s iSpace raises first b…",
+      "ts": 1786538896000,
+      "publishedAt": "2026-08-12T12:48:16.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "The Download: our 35 young innovators and the “censorship-industrial complex”",
+      "url": "https://www.technologyreview.com/2026/08/12/1141714/the-download-innovators-under-35-censorship-industrial-complex/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How we picked 35 of the world’s top young scientists and engineers On September 8,…",
+      "ts": 1786536600000,
+      "publishedAt": "2026-08-12T12:10:00.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: The secret AI-startup project I’ve been working on the last six months",
+      "url": "https://www.statnews.com/2026/08/12/the-secret-startup-project-ive-been-working-on-ai-prognosis/?utm_campaign=rss",
+      "summary": "In this edition of STAT's AI Prognosis: The messy reality of hastily developing and selling AI tools to clinics, and other health AI news.",
+      "ts": 1786536555000,
+      "publishedAt": "2026-08-12T12:09:15.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Definium Therapeutics says its LSD therapy eased anxiety in late-stage trial",
+      "url": "https://www.statnews.com/2026/08/12/definium-lsd-treatment-anxiety-study/?utm_campaign=rss",
+      "summary": "Definium Therapeutics said that its LSD therapy significantly helped patients with generalized anxiety disorder in the first of two large trials.",
+      "ts": 1786536076000,
+      "publishedAt": "2026-08-12T12:01:16.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "ESA",
+      "title": "Musification of the 2026 total solar eclipse",
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Musification_of_the_2026_total_solar_eclipse",
+      "summary": "Video: 00:05:08 [English] Experience a musical simulation of the 12 August 2026 total solar eclipse as seen from the Observatorio Astrofísico de Javalambre (Spain). Click here for information about ESA’s live broadcast f…",
+      "ts": 1786536000000,
+      "publishedAt": "2026-08-12T12:00:00.000Z",
+      "categoryId": "space"
+    },
+    {
+      "source": "SpaceNews",
+      "title": "One species, one planet: The moon is our ethical dress rehearsal for Mars",
+      "url": "https://spacenews.com/one-species-one-planet-the-moon-is-our-ethical-dress-rehearsal-for-mars/",
+      "summary": "Bruce Jakosky, Scott Hubbard and their colleagues have given us a masterclass in pragmatic systems engineering. Their recent SpaceNews editorial titled “Laying the groundwork for the first human mission to […] The post O…",
+      "ts": 1786536000000,
+      "publishedAt": "2026-08-12T12:00:00.000Z",
+      "categoryId": "space"
+    },
     {
       "source": "STAT",
       "title": "STAT+: Biotech company co-founded by top autoimmune researcher lays out plans with antibody therapies",
@@ -64,6 +118,15 @@
       "ts": 1786516220000,
       "publishedAt": "2026-08-12T06:30:20.000Z",
       "categoryId": "energy-climate"
+    },
+    {
+      "source": "OpenAI",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "ts": 1786514400000,
+      "publishedAt": "2026-08-12T06:00:00.000Z",
+      "categoryId": "ai-compute"
     },
     {
       "source": "NASA",
@@ -748,69 +811,6 @@
       "ts": 1786449600000,
       "publishedAt": "2026-08-11T12:00:00.000Z",
       "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Security Council LIVE: Spotlight on Israeli settler violence in West Bank",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168113",
-      "summary": "The Security Council held an open debate on Tuesday which is expected to address escalating Israeli settler violence in the occupied West Bank as attacks on Palestinians and their property continue. UN News app users can…",
-      "ts": 1786449600000,
-      "publishedAt": "2026-08-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Colombia earthquake: UN joins national response",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168112",
-      "summary": "As earthquake rescue efforts across western Colombia continued on Tuesday, UN agencies said that they stood ready to help “with everything we've got”, in coordination with national authorities.",
-      "ts": 1786449600000,
-      "publishedAt": "2026-08-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "United Nations News",
-      "title": "Myanmar: UN investigators document deliberate military attacks on civilians",
-      "url": "https://news.un.org/feed/view/en/story/2026/08/1168110",
-      "summary": "Myanmar's military has carried out a sustained campaign of deliberate attacks on civilians – including airstrikes on homes, schools and camps for displaced people, alongside arbitrary detention, torture and sexual violen…",
-      "ts": 1786449600000,
-      "publishedAt": "2026-08-11T12:00:00.000Z",
-      "categoryId": "global-governance"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "First Neutron launch may slip to 2027",
-      "url": "https://spacenews.com/first-neutron-launch-may-slip-to-2027/",
-      "summary": "Rocket Lab warned that the chances of launching its Neutron rocket for the first time before the end of the year are “narrowing” despite progress on the vehicle’s development. The post First Neutron launch may slip to 20…",
-      "ts": 1786446804000,
-      "publishedAt": "2026-08-11T11:13:24.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "OpenAI",
-      "title": "Daybreak models are now available on AWS",
-      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Proteus Space Names Maj. Gen. Kim Crider (USAF, Ret.) to Board of Directors",
-      "url": "https://spacenews.com/proteus-space-names-maj-gen-kim-crider-usaf-ret-to-board-of-directors/",
-      "summary": "LOS ANGELES, August 11th, 2026. Proteus Space, an AI-native aerospace company delivering rapid, end-to-end access to space, today announced that retired U.S. Air Force Maj. Gen. Kimberly “Kim” Crider has […] The post Pro…",
-      "ts": 1786442400000,
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "categoryId": "space"
     }
   ],
   "categories": [
