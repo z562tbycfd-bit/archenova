@@ -1,7 +1,111 @@
 {
   "ok": true,
-  "updated": "2026-08-12T17:58:10.880Z",
+  "updated": "2026-08-12T19:13:31.960Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "New frog species discovered in the Amazon's flooded forests",
+      "url": "https://phys.org/news/2026-08-frog-species-amazon-forests.html",
+      "summary": "Scientists from Brazil and other countries have discovered a new species of frog in the flooded forests of the western Amazon. They named it Adenomera varcena. This finding significantly advances our understanding of Ama…",
+      "ts": 1786561804000,
+      "publishedAt": "2026-08-12T19:10:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Satellite constellations could create spiraling space debris",
+      "url": "https://phys.org/news/2026-08-satellite-constellations-spiraling-space-debris.html",
+      "summary": "To date, close to 30,000 satellites have been launched into Earth's orbit, leading to mounting concerns over the debris created when they collide. In a new analysis posted to the preprint server arXiv, Hugh Lewis of the …",
+      "ts": 1786561208000,
+      "publishedAt": "2026-08-12T19:00:08.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Credit ratings can shape corporate financial decisions",
+      "url": "https://phys.org/news/2026-08-credit-corporate-financial-decisions.html",
+      "summary": "On the surface, credit rating agencies simply score a company's financial health. They look at a business's equity and debt and diagnose how risky it is for investors. They slap on a letter grade to show how likely it is…",
+      "ts": 1786561201000,
+      "publishedAt": "2026-08-12T19:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Skies darken as solar eclipse heads south from Arctic to Spain",
+      "url": "https://phys.org/news/2026-08-skies-darken-solar-eclipse-south.html",
+      "summary": "One of nature's greatest spectacles—a rare total solar eclipse—cast its shadow on Wednesday, briefly turning day into night in Russia's remote Arctic north and western Iceland before heading toward mainland Europe.",
+      "ts": 1786560947000,
+      "publishedAt": "2026-08-12T18:55:47.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Chemical fingerprints reveal hidden binary pasts of massive stars",
+      "url": "https://phys.org/news/2026-08-chemical-fingerprints-reveal-hidden-binary.html",
+      "summary": "More than 70% of massive stars are born in close binary systems, where gravitational tugs and mass transfer between companions dramatically alter their evolution. Yet once the interaction ends—whether through mass transf…",
+      "ts": 1786560003000,
+      "publishedAt": "2026-08-12T18:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Fertilizer made from local rocks could help feed hungry in Africa",
+      "url": "https://phys.org/news/2026-08-fertilizer-local-hungry-africa.html",
+      "summary": "Food insecurity is a major problem in many parts of the world, particularly Africa, where more than 300 million people regularly go hungry. Now, using the Canadian Light Source (CLS) at the University of Saskatchewan, re…",
+      "ts": 1786560001000,
+      "publishedAt": "2026-08-12T18:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Radiation vest tested on NASA moonshot can cut astronauts' exposure in solar storms, study suggests",
+      "url": "https://phys.org/news/2026-08-vest-nasa-moonshot-astronauts-exposure.html",
+      "summary": "A new study suggests a protective vest tested on a manikin during NASA's first Artemis moonshot could drastically cut the radiation exposure of lunar astronauts during severe solar storms.",
+      "ts": 1786559726000,
+      "publishedAt": "2026-08-12T18:35:26.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Ancient penguin fossils offer new window into Antarctica's changing climate",
+      "url": "https://phys.org/news/2026-08-ancient-penguin-fossils-window-antarctica.html",
+      "summary": "A team of paleontologists from China University of Geosciences (Beijing) studying penguin fossils from Seymour Island off the Antarctic Peninsula have demonstrated how ancient bird bones can act as chemical archives of p…",
+      "ts": 1786558803000,
+      "publishedAt": "2026-08-12T18:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New evidence helps solve how earliest birds took flight",
+      "url": "https://phys.org/news/2026-08-evidence-earliest-birds-flight.html",
+      "summary": "The first bird to inhabit Earth used its robust hind legs to make two or three powerful leaps while flapping its way to flight, according to a study by the University of Southampton published in Developmental Biology.",
+      "ts": 1786558801000,
+      "publishedAt": "2026-08-12T18:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Californians are twice as likely as Louisianans to be childfree—but demographics tell more of the story",
+      "url": "https://phys.org/news/2026-08-californians-louisianans-childfree-demographics-story.html",
+      "summary": "Across the United States, the number of people who do not have and do not want to have children is growing. While they are twice as likely to live in California as Louisiana, individual demographic characteristics are th…",
+      "ts": 1786557609000,
+      "publishedAt": "2026-08-12T18:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "What if there's a star inside a black hole?",
+      "url": "https://phys.org/news/2026-08-star-black-hole.html",
+      "summary": "There is a question that often comes up at every public talk I do, and I have never had a good answer to it—well, not an entirely confident one. What's inside a black hole? The textbook reply is a singularity. Cross the …",
+      "ts": 1786557607000,
+      "publishedAt": "2026-08-12T18:00:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Rangers and scientists map vulnerable reefs in the remote Groote Archipelago",
+      "url": "https://phys.org/news/2026-08-rangers-scientists-vulnerable-reefs-remote.html",
+      "summary": "For thousands of years, the Anindilyakwa people have lived in deep connection with the waters surrounding Groote Eylandt, a remote island in the Gulf of Carpentaria.",
+      "ts": 1786557601000,
+      "publishedAt": "2026-08-12T18:00:01.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "A vest tested on the Artemis I mission blocked some radiation exposure",
+      "url": "https://www.sciencenews.org/article/vest-artemis-mission-blocked-radiation",
+      "summary": "A 26-kilogram plastic garment, flown on a model human torso on the uncrewed Artemis I mission, may one day protect astronauts from solar storms.",
+      "ts": 1786557600000,
+      "publishedAt": "2026-08-12T18:00:00.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Hybrid bioprinter creates capillary networks narrower than 10 micrometers",
@@ -347,22 +451,6 @@
       "publishedAt": "2026-08-12T11:00:01.000Z"
     },
     {
-      "source": "APS PR Applied",
-      "title": "Integral variable-range hopping for modeling electrical transport in disordered systems",
-      "url": "http://link.aps.org/doi/10.1103/zsnq-r7ms",
-      "summary": "Author(s): Chenxin Qin, Chenyan Wang, Mouyang Cheng, and Ji Chen The variable-range hopping (VRH) model has been widely applied to describe low-temperature electrical transport in disordered systems. However, it relies o…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Few-MHz bandwidth tunable optical filter based on a fiber-ring resonator",
-      "url": "http://link.aps.org/doi/10.1103/yw1q-f6f4",
-      "summary": "Author(s): Gabriele Maron, Anton Bölian, Xin-Xin Hu, Luke Masters, Arno Rauschenbeutel, and Jürgen Volz We present a fiber-ring resonator that realizes an ultranarrowband, high-extinction, low-loss, tunable optical filte…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
       "source": "APS Physical Review Letters",
       "title": "Exponentially Accelerated Sampling of Pauli Strings for Nonstabilizerness",
       "url": "http://link.aps.org/doi/10.1103/v3f2-ldr1",
@@ -487,6 +575,22 @@
       "title": "Evolution of Polycrystallinity in Homogeneously Nucleated Colloidal Crystals",
       "url": "http://link.aps.org/doi/10.1103/ht63-96gl",
       "summary": "Author(s): Merin Jose, Nicholas H. P. Orr, Taiki Yanagishima, and Roel P. A. Dullens Direct observations of the birth and growth of polycrystalline colloidal crystals clarify the role of grain formation, a key aspect in …",
+      "ts": 1786528800000,
+      "publishedAt": "2026-08-12T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Integral variable-range hopping for modeling electrical transport in disordered systems",
+      "url": "http://link.aps.org/doi/10.1103/zsnq-r7ms",
+      "summary": "Author(s): Chenxin Qin, Chenyan Wang, Mouyang Cheng, and Ji Chen The variable-range hopping (VRH) model has been widely applied to describe low-temperature electrical transport in disordered systems. However, it relies o…",
+      "ts": 1786528800000,
+      "publishedAt": "2026-08-12T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Few-MHz bandwidth tunable optical filter based on a fiber-ring resonator",
+      "url": "http://link.aps.org/doi/10.1103/yw1q-f6f4",
+      "summary": "Author(s): Gabriele Maron, Anton Bölian, Xin-Xin Hu, Luke Masters, Arno Rauschenbeutel, and Jürgen Volz We present a fiber-ring resonator that realizes an ultranarrowband, high-extinction, low-loss, tunable optical filte…",
       "ts": 1786528800000,
       "publishedAt": "2026-08-12T10:00:00.000Z"
     },
@@ -695,110 +799,6 @@
       "title": "SABRE Hyperpolarization of Unmodified Amino Acids in Partially Aqueous Media: L-[1-13C]-Valine as a Model System",
       "url": "https://arxiv.org/abs/2608.10044",
       "summary": "arXiv:2608.10044v1 Announce Type: new Abstract: Hyperpolarization techniques enhance the sensitivity of nuclear magnetic resonance (NMR) and magnetic resonance imaging (MRI), enabling detection of low concentration metab…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Steady state, core, operational optimization of an ARC-like tokamak via plasma composition and shape",
-      "url": "https://arxiv.org/abs/2608.10124",
-      "summary": "arXiv:2608.10124v1 Announce Type: new Abstract: Impurity composition, plasma shape, and pedestal density all provide strong levers on fusion power. Here, we explore the ways in which their variation changes fusion power …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Degenerate high-order hybrid bound states in the continuum beyond diffraction limit",
-      "url": "https://arxiv.org/abs/2608.10125",
-      "summary": "arXiv:2608.10125v1 Announce Type: new Abstract: We demonstrate the existence of at-$\\Gamma$ degenerate hybrid bound-states in the continuum (BICs) with high-order topological charges and quadratic band degeneracy in peri…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Machine learning methods for spectroscopic information recovery under ultrafast photon pileup",
-      "url": "https://arxiv.org/abs/2608.10143",
-      "summary": "arXiv:2608.10143v1 Announce Type: new Abstract: We present methods for recovering spectroscopic information from multiple concurrent photon interactions that would normally be lost due to pulse pileup. In particular, we …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Practical Evaluation of FFT-Based Thickness Extraction for Thick-Film Reflectometry",
-      "url": "https://arxiv.org/abs/2608.10146",
-      "summary": "arXiv:2608.10146v1 Announce Type: new Abstract: Fast Fourier transform (FFT) is widely used for thick-film reflectometry because of its simplicity and computational efficiency. However, its performance under practical th…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Was Schr\\\"odinger ever a determinist?",
-      "url": "https://arxiv.org/abs/2608.10160",
-      "summary": "arXiv:2608.10160v1 Announce Type: new Abstract: Erwin Schr\\\"odinger is often portrayed as a reactionary who resisted the indeterminism introduced by quantum mechanics, but on closer inspection his views on determinism pr…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A micro-continuum physics-based model for cohesive sediment gravity flows across mudslide, mudflow, and turbidity current regimes",
-      "url": "https://arxiv.org/abs/2608.10192",
-      "summary": "arXiv:2608.10192v1 Announce Type: new Abstract: Gravity driven sediment flows are responsible for a major portion of sediment redistribution within oceans, reservoirs, and lakes, with important implications in coastal er…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Active Electronic Terahertz Imaging for Industrial Applications: From Hardware to the Paradigm Shift by Artificial Intelligence",
-      "url": "https://arxiv.org/abs/2608.10200",
-      "summary": "arXiv:2608.10200v1 Announce Type: new Abstract: Imaging with terahertz (THz) radiation (0.3-10 THz) benefits from a unique combination of attributes: penetration through dry, non-polar packaging materials; variations of …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A Concept of LNA with Low Input Impedance Using Common Base BJT for Low-Field MRI",
-      "url": "https://arxiv.org/abs/2608.10225",
-      "summary": "arXiv:2608.10225v1 Announce Type: new Abstract: Purpose: In magnetic resonance imaging (MRI), preamplifier decoupling is used to improve the signal-to-noise ratio of a multichannel receive coil array. In low-field and ul…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Stochastic Emulation of a Fully Coupled Preindustrial E3SMv3 Simulation",
-      "url": "https://arxiv.org/abs/2608.10277",
-      "summary": "arXiv:2608.10277v1 Announce Type: new Abstract: We present a stochastic coupled emulator of E3SM version 3, built on the SamudrACE framework, which couples an atmosphere emulator (ACE2) with a full-depth ocean emulator (…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Position Resolution of a Scintillator Hodoscope Employing Triangular Counters with Embedded Wavelength Shifting Fibers",
-      "url": "https://arxiv.org/abs/2608.10282",
-      "summary": "arXiv:2608.10282v1 Announce Type: new Abstract: Scintillator counters employing embedded wavelength-shifting fibers have been used in particle physics experiments for several decades. Such counters have been produced wit…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Ground-to-Cable Strain Transfer in Unburied DAS on Earth and the Moon",
-      "url": "https://arxiv.org/abs/2608.10287",
-      "summary": "arXiv:2608.10287v1 Announce Type: new Abstract: Distributed Acoustic Sensing (DAS) measures dynamic strain along a fiber-optic cable, offering a robust, densely-sampled alternative to traditional seismic sensors. To ensu…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SA-AI (Spalart-Allmaras with Autogenous Inception) Technical Summary",
-      "url": "https://arxiv.org/abs/2608.10303",
-      "summary": "arXiv:2608.10303v1 Announce Type: new Abstract: Natural transition from laminar to turbulent flow can be modeled by using only the Spalart-Allmaras (SA) working variable. The variable serves as its own transition indicat…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "What should a linear optical frontend compute? Assessing the role of meta-optics, nonlocality, and coherence in hybrid inference systems",
-      "url": "https://arxiv.org/abs/2608.10304",
-      "summary": "arXiv:2608.10304v1 Announce Type: new Abstract: Hybrid inference systems that pair an optical frontend with a digital backend offer a route to offload computation to the physical layer. Yet what the optics should compute…",
       "ts": 1786507200000,
       "publishedAt": "2026-08-12T04:00:00.000Z"
     }
