@@ -1,7 +1,127 @@
 {
   "ok": true,
-  "updated": "2026-08-12T19:13:31.960Z",
+  "updated": "2026-08-12T20:48:18.418Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Severe weather now a key predictor of where bird species occur in North America",
+      "url": "https://phys.org/news/2026-08-severe-weather-key-predictor-bird.html",
+      "summary": "Scorching heat waves, severe cold snaps and other extreme weather events are limiting where species can exist—and affecting biodiversity estimates—for more than 500 North American bird species, according to a new, Yale–l…",
+      "ts": 1786567206000,
+      "publishedAt": "2026-08-12T20:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "An open-source tool for automated consolidation of lipid data",
+      "url": "https://phys.org/news/2026-08-source-tool-automated-lipid.html",
+      "summary": "In collaboration with the University of Vienna, the Technical University of Munich (TUM), and Heidelberg University, researchers at the TUD Dresden University of Technology have developed an innovative tool that signific…",
+      "ts": 1786567201000,
+      "publishedAt": "2026-08-12T20:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Sugar swap simplifies production of promising targeted cancer therapies",
+      "url": "https://phys.org/news/2026-08-sugar-swap-production-cancer-therapies.html",
+      "summary": "Researchers at the University of Wisconsin–Madison have developed a simpler way to produce a fast-growing class of targeted cancer therapies, a discovery that could make the medicines easier to manufacture consistently w…",
+      "ts": 1786566601000,
+      "publishedAt": "2026-08-12T20:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Cutting traffic pollution alone could worsen Taiwan's haze",
+      "url": "https://phys.org/news/2026-08-traffic-pollution-worsen-taiwan-haze.html",
+      "summary": "Taiwan's air has gotten measurably cleaner over the past decade, yet in many towns the hazy, milky-white sky that blurs mountains and city skylines has not cleared at the same pace. A research team led by Prof. Ta-Chih H…",
+      "ts": 1786566007000,
+      "publishedAt": "2026-08-12T20:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Stellar stream beyond Milky Way offers new tool to map dark matter",
+      "url": "https://phys.org/news/2026-08-stellar-stream-milky-tool-dark.html",
+      "summary": "In the image above, a faint trail of stars can be seen stretching across the galaxy. These structures, known as globular cluster stellar streams, are coherent stellar structures that retain a record of their dynamical hi…",
+      "ts": 1786566006000,
+      "publishedAt": "2026-08-12T20:20:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Genetic switch could help tomatoes produce fruit in cold weather",
+      "url": "https://phys.org/news/2026-08-genetic-tomatoes-fruit-cold-weather.html",
+      "summary": "Every tomato begins with a flower. But before a fruit can grow, an intricate sequence of events must happen in perfect order. The flower's male and female organs must develop together, pollen must be released at exactly …",
+      "ts": 1786565401000,
+      "publishedAt": "2026-08-12T20:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Negotiation is a routine part of daily life, not a rare high-stakes event",
+      "url": "https://phys.org/news/2026-08-routine-daily-life-rare-high.html",
+      "summary": "Many people think of negotiation as something reserved for salary talks, car purchases, or business deals: infrequent, high-stake encounters most people would rather avoid. A new study shows that this assumption is misle…",
+      "ts": 1786564809000,
+      "publishedAt": "2026-08-12T20:00:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Single synthetic peptide forms electrically polarized, self-healing hydrogel",
+      "url": "https://phys.org/news/2026-08-synthetic-peptide-electrically-polarized-hydrogel.html",
+      "summary": "Researchers from the RIKEN Center for Sustainable Resource Science (CSRS) and RIKEN Pioneering Research Institute (PRI) in Japan, together with collaborators from the University of Münster, Germany, have developed a new …",
+      "ts": 1786564807000,
+      "publishedAt": "2026-08-12T20:00:07.000Z"
+    },
+    {
+      "source": "Science News",
+      "title": "Estrogen therapy is linked to fewer signs of Alzheimer’s in the brain",
+      "url": "https://www.sciencenews.org/article/estrogen-therapy-alzheimers-brain",
+      "summary": "Estrogen-only menopause therapy in older women was linked to less Alzheimer’s brain pathology at autopsy but may not prevent the disease.",
+      "ts": 1786564800000,
+      "publishedAt": "2026-08-12T20:00:00.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Claim that science is becoming less disruptive challenged after years-long publication delay",
+      "url": "https://phys.org/news/2026-08-science-disruptive-years-delay.html",
+      "summary": "A widely cited Nature cover article from 2023 claimed that scientific innovation has significantly declined in recent decades. This finding was based on a citation analysis of large sets of metadata concerning scientific…",
+      "ts": 1786564201000,
+      "publishedAt": "2026-08-12T19:50:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Microbes turn CO₂ into protein and vitamin B9 at commercially viable prices",
+      "url": "https://phys.org/news/2026-08-microbes-protein-vitamin-b9-commercially.html",
+      "summary": "Researchers are developing biotechnological processes that enable microbes to produce proteins and vitamins for human consumption using basic chemical ingredients, such as carbon dioxide, hydrogen and oxygen—entirely byp…",
+      "ts": 1786563607000,
+      "publishedAt": "2026-08-12T19:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Study demonstrates that restricting short-term rentals improves housing affordability",
+      "url": "https://phys.org/news/2026-08-restricting-short-term-rentals-housing.html",
+      "summary": "Municipal regulation of short-term rentals \"is low-hanging fruit\" that helps improve housing affordability, a new study by McGill researchers suggests. The research shows that rents were relatively lower in Canadian muni…",
+      "ts": 1786563603000,
+      "publishedAt": "2026-08-12T19:40:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "AI tool could help veterinarians track heart disease more precisely",
+      "url": "https://phys.org/news/2026-08-ai-tool-veterinarians-track-heart.html",
+      "summary": "For dogs with heart disease, a fraction of a centimeter can make a life-changing difference. Veterinarians often rely on chest radiographs to monitor subtle changes in heart size that help determine when treatment should…",
+      "ts": 1786563001000,
+      "publishedAt": "2026-08-12T19:30:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "History, not age, determines the genomic importance of ancient trees",
+      "url": "https://phys.org/news/2026-08-history-age-genomic-importance-ancient.html",
+      "summary": "Ancient trees—those that are remarkably old for their species—are declining worldwide, raising concerns about the loss of the ecological and evolutionary history they represent. Their exceptional longevity has long encou…",
+      "ts": 1786562407000,
+      "publishedAt": "2026-08-12T19:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Tourists rush to Mount Etna as Italian volcano erupts",
+      "url": "https://phys.org/news/2026-08-tourists-mount-etna-italian-volcano.html",
+      "summary": "Spectacular images of lava flowing down the slopes of erupting Mount Etna have drawn flocks of tourists to the Italian volcano—to the concern of local guides.",
+      "ts": 1786562405000,
+      "publishedAt": "2026-08-12T19:20:05.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "New frog species discovered in the Amazon's flooded forests",
@@ -679,126 +799,6 @@
       "title": "AIFS-TC: A simple correction competitive with the operational frontier for tropical cyclone intensity forecasting",
       "url": "https://arxiv.org/abs/2608.09959",
       "summary": "arXiv:2608.09959v1 Announce Type: new Abstract: AI weather models are in the process of revolutionising weather forecasting. While these models have been shown to achieve superior performance to physics-based NWP in fore…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Physics-informed genetic algorithms (PIGAs) facilitating LIBS spectral normalization with shockwave characteristics",
-      "url": "https://arxiv.org/abs/2608.09960",
-      "summary": "arXiv:2608.09960v1 Announce Type: new Abstract: Inspired by physics-informed neural networks (PINNs) inheriting both the interpretability of physical laws and the efficient integration capability of machine learning, we …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wave-induced erosion and notch development at the Fimbul Ice Shelf front",
-      "url": "https://arxiv.org/abs/2608.09965",
-      "summary": "arXiv:2608.09965v1 Announce Type: new Abstract: Ocean waves erode the waterline of Antarctic ice-shelf fronts and carve a thermo-erosional notch. The notch is hidden from satellites, yet it preconditions front collapse a…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Projected climate memory and inherited warm-tail risk in accelerated European summer warming",
-      "url": "https://arxiv.org/abs/2608.09966",
-      "summary": "arXiv:2608.09966v1 Announce Type: new Abstract: European summer warming reflects interactions among background change, persistent ocean--land--circulation states, and same-season variability. We develop an empirical redu…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Numerical modeling and simulation on nanosecond laser-target interactions",
-      "url": "https://arxiv.org/abs/2608.09969",
-      "summary": "arXiv:2608.09969v1 Announce Type: new Abstract: Nanosecond lasers are widely used in industrial applications as they are relatively inexpensive, and their compactness and robustness are an advantage. Much experimental wo…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Annually Modulated Pacific Subtropical Highs Pace the ENSO Cycle: A Hierarchical Framework from Earth Rotation to Atmosphere-Ocean Dynamics",
-      "url": "https://arxiv.org/abs/2608.09970",
-      "summary": "arXiv:2608.09970v1 Announce Type: new Abstract: The El Nino-Southern Oscillation drives Earth's dominant interannual climate signal, yet what initiates an event and what ends it remain incompletely understood. Here we sh…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Rescene: band-limited stochastic forcing turns a frozen neural weather operator into a climate emulator",
-      "url": "https://arxiv.org/abs/2608.09971",
-      "summary": "arXiv:2608.09971v1 Announce Type: new Abstract: Over the past few years, the rapid development of machine learning (ML) models for weather forecasting has produced deterministic models whose medium-range skill matches or…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Do AI weather models miss extremes?",
-      "url": "https://arxiv.org/abs/2608.09972",
-      "summary": "arXiv:2608.09972v1 Announce Type: new Abstract: First-generation AI weather models are often reported to underperform at extremes, mostly in reanalysis-based evaluations of deterministic regression systems. We verify ele…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Atmospheric Conditions, Electric Fields, and Thunderstorm Ground Enhancements at Aragats",
-      "url": "https://arxiv.org/abs/2608.09973",
-      "summary": "arXiv:2608.09973v1 Announce Type: new Abstract: The Aragats High-Altitude Research Station (3200 m a.s.l.) combines meteorological, atmospheric electric, and particle flux measurements, providing a unique setting for inv…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "A black-box-model-enhanced interaction method for water-wave scattering by large group of arbitrary-shaped ice floes in Arctic route planning",
-      "url": "https://arxiv.org/abs/2608.09975",
-      "summary": "arXiv:2608.09975v1 Announce Type: new Abstract: This study develops an enhanced interaction (EI) method for efficient prediction of the water-wave field among a large group of ice floes in Arctic route planning. A novel …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The Impact of Cut-ins on Mixed-Autonomy Traffic Flow: Bridging Microscopic Game-Theoretic Model and Macroscopic Flow Analysis",
-      "url": "https://arxiv.org/abs/2608.09987",
-      "summary": "arXiv:2608.09987v1 Announce Type: new Abstract: The transition to automated transportation introduces mixed-autonomy traffic where human drivers may strategically exploit the risk-averse behavior of Connected and Automat…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "The iSTORM Instrument for Airborne Measurements of Gamma-Ray Emissions from Thunderstorms",
-      "url": "https://arxiv.org/abs/2608.09990",
-      "summary": "arXiv:2608.09990v1 Announce Type: new Abstract: The in-Situ Thunderstorm Observer for Radiation Mechanisms (iSTORM) is a gamma-ray spectrometer to study gamma-ray transients originating from thunderstorms, such as glows …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dipole-Field Magnetic Windows for Radio-Frequency Transmission Through Hypersonic Plasma Sheaths: A Reduced-Order Scaling Model",
-      "url": "https://arxiv.org/abs/2608.10018",
-      "summary": "arXiv:2608.10018v1 Announce Type: new Abstract: Hypersonic vehicles and atmospheric-entry bodies can experience radio-frequency communication blackout when shock-heated gas surrounding the vehicle becomes sufficiently io…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Deep Learning-Based Statistical Downscaling of Sea Surface Temperature Using a Residual Corrective Neural Network",
-      "url": "https://arxiv.org/abs/2608.10022",
-      "summary": "arXiv:2608.10022v1 Announce Type: new Abstract: The large-scale oceanic and atmospheric forecasts provided by global climate models typically lack sufficient resolution to accurately capture the response of the coastal o…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Certified Misty-State Rewriting (A Question-and-Answer Guide)",
-      "url": "https://arxiv.org/abs/2608.10024",
-      "summary": "arXiv:2608.10024v1 Announce Type: new Abstract: Quantum mechanics is difficult to teach because its conceptual content and mathematical notation usually arrive together. Rudolph's misty-state language was designed to dec…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "SABRE Hyperpolarization of Unmodified Amino Acids in Partially Aqueous Media: L-[1-13C]-Valine as a Model System",
-      "url": "https://arxiv.org/abs/2608.10044",
-      "summary": "arXiv:2608.10044v1 Announce Type: new Abstract: Hyperpolarization techniques enhance the sensitivity of nuclear magnetic resonance (NMR) and magnetic resonance imaging (MRI), enabling detection of low concentration metab…",
       "ts": 1786507200000,
       "publishedAt": "2026-08-12T04:00:00.000Z"
     }

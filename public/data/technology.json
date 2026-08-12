@@ -1,7 +1,88 @@
 {
   "ok": true,
-  "updated": "2026-08-12T19:13:36.180Z",
+  "updated": "2026-08-12T20:48:20.726Z",
   "items": [
+    {
+      "source": "STAT",
+      "title": "Talks on launch of clinical trial of Ebola vaccine in DRC advance, WHO says ",
+      "url": "https://www.statnews.com/2026/08/12/ebola-who-drc-ebola-vaccine-trial/?utm_campaign=rss",
+      "summary": "Talks are underway between the Democratic Republic of the Congo and the WHO to expedite the start of a multi-armed Phase 3 clinical trial of Ebola vaccines.",
+      "ts": 1786567589000,
+      "publishedAt": "2026-08-12T20:46:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "In Vivo Protein Generation Using Nanoparticle Delivery: Emerging Platforms and CMC Strategies",
+      "url": "https://www.genengnews.com/multimedia/webinars/in-vivo-protein-generation-using-nanoparticle-delivery-emerging-platforms-and-cmc-strategies/",
+      "summary": "In this GEN webinar, our expert speaker, Tao (Tony) Li, PhD, will discuss nanoparticle delivery opportunities beyond oncology and infectious disease, compare emerging nanocarrier platforms, and examine important CMC cons…",
+      "ts": 1786567080000,
+      "publishedAt": "2026-08-12T20:38:00.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Vaping and cannabis hit record highs among young adults in 2025: Survey",
+      "url": "https://www.statnews.com/2026/08/12/vaping-cannabis-use-rates-young-adults/?utm_campaign=rss",
+      "summary": "Young adults’ use of vapes and cannabis hit all-time highs last year, according to a new survey.",
+      "ts": 1786566636000,
+      "publishedAt": "2026-08-12T20:30:36.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "STAT+: Providers notch No Surprises Act legal win that could boost their pay",
+      "url": "https://www.statnews.com/2026/08/12/texas-medical-association-no-surprises-act-lawsuit-qpa/?utm_campaign=rss",
+      "summary": "The change could boost how much health insurers, and patients, pay for some care.",
+      "ts": 1786566543000,
+      "publishedAt": "2026-08-12T20:29:03.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cancer-Fighting Abilities of NK Immune Cells May Be Disrupted by Some Omega Fatty Acids",
+      "url": "https://www.genengnews.com/topics/cancer/cancer-fighting-abilities-of-nk-immune-cells-may-be-disrupted-by-some-omega-fatty-acids/",
+      "summary": "Omega polyunsaturated fatty acids are recognized for their myriads of health benefits, but a preclinical study has found that some omega fatty acids can restrain the cancer-killing capabilities of natural killer cells by…",
+      "ts": 1786564733000,
+      "publishedAt": "2026-08-12T19:58:53.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "STAT",
+      "title": "Trump administration’s new ‘treatment-first’ addiction toolkit emphasizes faith, abstinence ",
+      "url": "https://www.statnews.com/2026/08/12/addiction-homelessness-hhs-toolkit-harm-reduction/?utm_campaign=rss",
+      "summary": "The White House nods to use of addiction medications but moves away from other harm reduction strategies.",
+      "ts": 1786563820000,
+      "publishedAt": "2026-08-12T19:43:40.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Cortical Organoids Reveal Radial Glial Progenitor Lineage Dynamics",
+      "url": "https://www.genengnews.com/topics/translational-medicine/cortical-organoids-reveal-radial-glial-progenitor-lineage-dynamics/",
+      "summary": "Researchers reveal that radial glial progenitor lineage progression in cortical organoids differs from the developing mouse brain, highlighting the importance of stem-cell niche signals for faithful cortical development.…",
+      "ts": 1786563149000,
+      "publishedAt": "2026-08-12T19:32:29.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Human Biological Datacenter to Launch to Train World Model of Human Biology",
+      "url": "https://www.genengnews.com/topics/translational-medicine/human-biological-datacenter-to-launch-to-train-world-model-of-human-biology/",
+      "summary": "Vivodyne confirms that it grows over 20 types of different human organ tissues, both healthy and with patient-linked diseases, including liver, lungs, gut, bone marrow, pancreas, kidney, eyes, and lymph nodes. The post H…",
+      "ts": 1786562833000,
+      "publishedAt": "2026-08-12T19:27:13.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "MIT Technology Review",
+      "title": "Scientists just created female clones of male mice",
+      "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
+      "summary": "Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice.…",
+      "ts": 1786561188000,
+      "publishedAt": "2026-08-12T18:59:48.000Z",
+      "categoryId": "ai-compute"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Biopharma’s Drawdown Is a Chance to Build Biotech Back Better",
@@ -729,87 +810,6 @@
       "summary": "Pentagon contractors are beginning to book Golden Dome related work, but much of it is flowing through established programs The post Golden Dome money starting to reach contractors, but long-term funding still unclear ap…",
       "ts": 1786471200000,
       "publishedAt": "2026-08-11T18:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "MIT Technology Review",
-      "title": "How the “censorship-industrial complex” is changing the internet and US policy",
-      "url": "https://www.technologyreview.com/2026/08/11/1141635/how-the-censorship-industrial-complex-is-changing-the-internet-and-us-policy/",
-      "summary": "I first heard the term “censorship-industrial complex” on April 15, 2025. That’s when I got the tip that a small office in the U.S. State Department, which focused on monitoring and countering foreign disinformation from…",
-      "ts": 1786471137000,
-      "publishedAt": "2026-08-11T17:58:57.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "NASA",
-      "title": "Lion Nebula Roars in Webb’s Sights",
-      "url": "https://www.nasa.gov/image-article/lion-nebula-roars-in-webbs-sights/",
-      "summary": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula. The nebula’s “mane” is clear and detailed in this image released on Aug. 10, 2…",
-      "ts": 1786467769000,
-      "publishedAt": "2026-08-11T17:02:49.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump is counting on the health care industry to remake vaccines. It’s pushing back instead",
-      "url": "https://www.statnews.com/2026/08/11/health-care-pharma-industry-pushes-back-trump-vaccine-policy-changes/?utm_campaign=rss",
-      "summary": "Trump wants to change how American kids are vaccinated, but doctors and the pharma industry aren't on board.",
-      "ts": 1786467454000,
-      "publishedAt": "2026-08-11T16:57:34.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Bispecific Antibody Purification’s Complexity Problem and How to Fix It",
-      "url": "https://www.genengnews.com/sponsored/bispecific-antibody-purifications-complexity-problem-and-how-to-fix-it/",
-      "summary": "Bispecific antibodies are gaining momentum, and the demands on downstream purification will continue to grow. The case studies presented here illustrate how analytical insight forms the foundation of effective process de…",
-      "ts": 1786467230000,
-      "publishedAt": "2026-08-11T16:53:50.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "Opinion: Trump says his executive order should restore trust in vaccines. It does the exact opposite",
-      "url": "https://www.statnews.com/2026/08/11/trump-executive-order-vaccines-undecided-parents-trust/?utm_campaign=rss",
-      "summary": "The White House says Trump’s recent executive order is aimed at restoring trust in vaccines. It will do the opposite, writes an epidemiologist.",
-      "ts": 1786466766000,
-      "publishedAt": "2026-08-11T16:46:06.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Telescopes Create Colorful ‘Craft’ From Nearby Nebula",
-      "url": "https://science.nasa.gov/missions/chandra/nasa-telescopes-create-colorful-craft-from-nearby-nebula/",
-      "summary": "Like a collage made of layered sheets of colored cellophane, a vibrant new image layers observations of a famous star-forming nebula from NASA space telescopes. The resulting cosmic “craft” reveals new details about the …",
-      "ts": 1786461555000,
-      "publishedAt": "2026-08-11T15:19:15.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NVIDIA",
-      "title": "Why Scaling AI Compute Performance Requires a New Power Architecture",
-      "url": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory/",
-      "summary": "Every new generation of accelerated computing demands more from the infrastructure underneath it — more compute performance, higher rack density and more efficient, scalable power distribution. The bottleneck isn’t just …",
-      "ts": 1786460406000,
-      "publishedAt": "2026-08-11T15:00:06.000Z",
-      "categoryId": "ai-compute"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "Webinar on MOSA Interoperability Standards for Space Systems – August 26, 2026",
-      "url": "https://spacenews.com/webinar-on-mosa-interoperability-standards-for-space-systems-august-26-2026/",
-      "summary": "FOR IMMEDIATE RELEASE ISTO Space Systems MOSA Interface Standards Alliance Announces Industry Webinar: “MOSA Interoperability Standards for Space Systems” August 26, 2026 | 9:00 AM – 1:00 PM PDT / […] The post Webinar on…",
-      "ts": 1786460285000,
-      "publishedAt": "2026-08-11T14:58:05.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "SpaceNews",
-      "title": "TechnoMile’s Five-Year Sustained Growth Recognized with  Place on the 2026 Inc. 5000 List",
-      "url": "https://spacenews.com/technomiles-five-year-sustained-growth-recognized-with-place-on-the-2026-inc-5000-list/",
-      "summary": "TechnoMile, the leading AI solution that unifies growth, contracts, compliance, and security workflows, today announced it has been ranked No. 4,268 on the 2026 Inc. 5000 list, the annual list […] The post TechnoMile’s F…",
-      "ts": 1786460002000,
-      "publishedAt": "2026-08-11T14:53:22.000Z",
       "categoryId": "space"
     }
   ],
