@@ -1,7 +1,31 @@
 {
   "ok": true,
-  "updated": "2026-08-12T06:15:56.813Z",
+  "updated": "2026-08-12T08:19:26.896Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "How Britain's mapmakers track climate change",
+      "url": "https://phys.org/news/2026-08-britain-mapmakers-track-climate.html",
+      "summary": "Once used to defend Britain's shores against Napoleonic France, the Ordnance Survey's detailed maps are now essential for tracking and adapting to climate change.",
+      "ts": 1786522201000,
+      "publishedAt": "2026-08-12T08:10:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Elvish, Klingon and Pig Latin: What can invented languages teach us about the human brain?",
+      "url": "https://phys.org/news/2026-08-elvish-klingon-pig-latin-languages.html",
+      "summary": "Invented languages tend to be the stuff of fantasy or science fiction worlds. But as a child, you may have made one up yourself.",
+      "ts": 1786520401000,
+      "publishedAt": "2026-08-12T07:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Looking to see the solar eclipse from North America? Here's where and when to catch a sliver",
+      "url": "https://phys.org/news/2026-08-solar-eclipse-north-america-sliver.html",
+      "summary": "Sorry, North America. After winning the cosmic lottery with a pair of coast-to-coast total solar eclipses, now it's Europe's turn.",
+      "ts": 1786520235000,
+      "publishedAt": "2026-08-12T07:37:15.000Z"
+    },
     {
       "source": "arXiv Physics",
       "title": "An adaptive and evolvable deep reinforcement learning framework for weather prediction",
@@ -775,30 +799,6 @@
       "title": "Laser spectroscopy illuminates the $N=32$ shell closure",
       "url": "https://arxiv.org/abs/2608.10943",
       "summary": "arXiv:2608.10943v1 Announce Type: cross Abstract: Atomic nuclei are strongly correlated quantum many-body systems, and how their shell structure evolves with increasing neutron excess remains a central open question in n…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Couette-Taylor instabilities in the small gap regime: the very counter-rotating case",
-      "url": "https://arxiv.org/abs/2608.10951",
-      "summary": "arXiv:2608.10951v1 Announce Type: cross Abstract: In this paper, we study the Couette-Taylor instability of a viscous fluid between two rotating cylinders in the small-gap, slow rescaled rotation rate, high Reynolds numb…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Derivative Computation in PINNs: Automatic Differentiation, Finite Differences and Beyond",
-      "url": "https://arxiv.org/abs/2608.11020",
-      "summary": "arXiv:2608.11020v1 Announce Type: cross Abstract: We systematically investigate finite-difference (FD) derivative computation in Physics-Informed Neural Networks (PINNs) as an alternative to automatic differentiation (AD…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Singularities in Soft Matter Systems",
-      "url": "https://arxiv.org/abs/2608.11060",
-      "summary": "arXiv:2608.11060v1 Announce Type: cross Abstract: When a liquid thread pinches off, its neck thins as it separates into two unconnected regions. Using continuum mechanics, we can predict that the neck reaches zero radius…",
       "ts": 1786507200000,
       "publishedAt": "2026-08-12T04:00:00.000Z"
     }
