@@ -1,7 +1,34 @@
 {
   "ok": true,
-  "updated": "2026-08-12T16:04:58.217Z",
+  "updated": "2026-08-12T17:58:13.205Z",
   "items": [
+    {
+      "source": "MIT Technology Review",
+      "title": "Scaling AI agents with trustworthy data",
+      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizat…",
+      "ts": 1786553517000,
+      "publishedAt": "2026-08-12T16:51:57.000Z",
+      "categoryId": "ai-compute"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Software Can Solve CGT’s Sectors Traceability Challenges",
+      "url": "https://www.genengnews.com/topics/bioprocessing/software-can-solve-cgts-sectors-traceability-challenges/",
+      "summary": "Cell and gene therapy developers should use software to help trace materials and data through the complex multi-stakeholder supply chains, manufacturing and distribution processes on which such products rely according to…",
+      "ts": 1786550454000,
+      "publishedAt": "2026-08-12T16:00:54.000Z",
+      "categoryId": "bio"
+    },
+    {
+      "source": "Genetic Engineering News",
+      "title": "Bioprocessing’s Green Shift Gains Momentum",
+      "url": "https://www.genengnews.com/topics/bioprocessing/bioprocessings-green-shift-gains-momentum/",
+      "summary": "Bioprocessing companies face pressure to cut emissions while maintaining production standards. CRB experts said better data collection, strategic planning, and emerging technologies are helping facilities reduce energy u…",
+      "ts": 1786550453000,
+      "publishedAt": "2026-08-12T16:00:53.000Z",
+      "categoryId": "bio"
+    },
     {
       "source": "Genetic Engineering News",
       "title": "Allogeneic CAR T Company Prepares to Widen Access to Patients",
@@ -130,12 +157,30 @@
     },
     {
       "source": "United Nations News",
+      "title": "Five years after Taliban takeover, Afghan women ‘erased from public life’",
+      "url": "https://news.un.org/feed/view/en/story/2026/08/1168123",
+      "summary": "Five years after the Taliban seized power, women and girls in Afghanistan have been systematically stripped of their rights, UN agencies said on Wednesday. De facto authorities have issued more than 100 decrees curbing e…",
+      "ts": 1786536000000,
+      "publishedAt": "2026-08-12T12:00:00.000Z",
+      "categoryId": "global-governance"
+    },
+    {
+      "source": "United Nations News",
       "title": "Deadly attack on Red Sea ship adds to global supply chain uncertainty",
       "url": "https://news.un.org/feed/view/en/story/2026/08/1168121",
       "summary": "A strike on a merchant ship off the southern coast of Yemen that reportedly killed several seafarers on Tuesday threatens to reignite deep concerns about global trade, amid the ongoing Iran-US war that has choked shippin…",
       "ts": 1786536000000,
       "publishedAt": "2026-08-12T12:00:00.000Z",
       "categoryId": "global-governance"
+    },
+    {
+      "source": "IAEA News",
+      "title": "IAEA Observes Progress in Safety at Research Reactor in the Philippines",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-observes-progress-in-safety-at-research-reactor-in-the-philippines",
+      "summary": "",
+      "ts": 1786531485000,
+      "publishedAt": "2026-08-12T10:44:45.000Z",
+      "categoryId": "energy-climate"
     },
     {
       "source": "STAT",
@@ -765,51 +810,6 @@
       "summary": "It's no mystery. History tells us that President Trump’s executive order calling for the MMR to be split into separate shots could do real harm.",
       "ts": 1786458537000,
       "publishedAt": "2026-08-11T14:28:57.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Trump’s vaccine pivot overshadows food rule",
-      "url": "https://www.statnews.com/2026/08/11/trump-vaccine-policy-pivot-overshadows-fda-gras-food-rule-dc-diagnosis/?utm_campaign=rss",
-      "summary": "Trump is turning the focus back to controversial vaccine policy, overshadowing a new move on food additives.",
-      "ts": 1786457987000,
-      "publishedAt": "2026-08-11T14:19:47.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "NASA",
-      "title": "Building the Moon Base: NASA Stories at the Ion  ",
-      "url": "https://www.nasa.gov/missions/moon-base/building-the-moon-base-nasa-stories-at-the-ion/",
-      "summary": "As NASA prepares to return astronauts to the lunar surface for longer stays and increasingly complex operations, building the Moon Base will require new ideas, advanced technologies, and expertise across many fields. Dur…",
-      "ts": 1786457805000,
-      "publishedAt": "2026-08-11T14:16:45.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "NASA",
-      "title": "NASA Shares Station Research Today Supporting Moon, Mars Tomorrow",
-      "url": "https://www.nasa.gov/missions/station/iss-research/nasa-shares-station-research-today-supporting-moon-mars-tomorrow/",
-      "summary": "The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of scientific experiments that lay the groundwork for missions to the Moon and…",
-      "ts": 1786456800000,
-      "publishedAt": "2026-08-11T14:00:00.000Z",
-      "categoryId": "space"
-    },
-    {
-      "source": "Genetic Engineering News",
-      "title": "Indiana Emerges as a Leading U.S. Biopharma Hub",
-      "url": "https://www.genengnews.com/sponsored/indiana-emerges-as-a-leading-u-s-biopharma-hub/",
-      "summary": "Indiana has spent decades becoming a national leader in life sciences and pharmaceutical exports. Its strengths extend across universities, research institutes, manufacturers, suppliers, healthcare systems, and communiti…",
-      "ts": 1786456217000,
-      "publishedAt": "2026-08-11T13:50:17.000Z",
-      "categoryId": "bio"
-    },
-    {
-      "source": "STAT",
-      "title": "STAT+: Pharmalittle: We’re reading about an FDA rejection, 340B court battles, and more",
-      "url": "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss",
-      "summary": "The FDA rejected a radiopharmaceutical therapy because of manufacturing issues, halting what would have been a competitor for Novartis",
-      "ts": 1786454840000,
-      "publishedAt": "2026-08-11T13:27:20.000Z",
       "categoryId": "bio"
     }
   ],

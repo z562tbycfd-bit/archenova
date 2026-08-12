@@ -1,7 +1,95 @@
 {
   "ok": true,
-  "updated": "2026-08-12T16:04:55.626Z",
+  "updated": "2026-08-12T17:58:10.880Z",
   "items": [
+    {
+      "source": "Phys.org",
+      "title": "Hybrid bioprinter creates capillary networks narrower than 10 micrometers",
+      "url": "https://phys.org/news/2026-08-hybrid-bioprinter-capillary-networks-narrower.html",
+      "summary": "More than 100,000 people are awaiting an organ transplant in the United States, with a new candidate added to the list every 10 minutes. Even if the transplant is carried out successfully, recipients must take immunosupp…",
+      "ts": 1786556406000,
+      "publishedAt": "2026-08-12T17:40:06.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Q&A: Deploying AI to create proteins never before seen in nature",
+      "url": "https://phys.org/news/2026-08-qa-deploying-ai-proteins-nature.html",
+      "summary": "The decades-old scientific quest to create brand-new proteins has been turbocharged in the era of artificial intelligence.",
+      "ts": 1786556404000,
+      "publishedAt": "2026-08-12T17:40:04.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Oxytocin nudges distrustful men to invest 15% more in anonymous trust game",
+      "url": "https://phys.org/news/2026-08-oxytocin-nudges-distrustful-men-invest.html",
+      "summary": "In 2005, a research team led by University of Zurich economics professor Ernst Fehr published a study in the journal Nature that provided evidence for the first time that intranasally administered oxytocin can increase t…",
+      "ts": 1786555207000,
+      "publishedAt": "2026-08-12T17:20:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Engineered lipase could improve production of higher-value specialized lipids",
+      "url": "https://phys.org/news/2026-08-lipase-production-higher-specialized-lipids.html",
+      "summary": "Food and pharmaceutical manufacturers increasingly seek lipids with carefully controlled fatty-acid compositions. However, natural oils usually contain mixtures of closely related fatty acids, and conventional enzymes of…",
+      "ts": 1786555203000,
+      "publishedAt": "2026-08-12T17:20:03.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "20-year study finds pre-K impacts a child's academic future",
+      "url": "https://phys.org/news/2026-08-year-pre-impacts-child-academic.html",
+      "summary": "Students who attended public school pre-K performed better academically through high school than those in family-based child care, according to new research from Florida International University.",
+      "ts": 1786554005000,
+      "publishedAt": "2026-08-12T17:00:05.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Light-controlled molecular switches offer exciting possibilities for future electronics, data storage",
+      "url": "https://phys.org/news/2026-08-molecular-possibilities-future-electronics-storage.html",
+      "summary": "Whether it's neurons responding to electrical signals or plants stretching toward light, nature is filled with examples of biological materials that respond to their environment. Now, researchers want to develop new resp…",
+      "ts": 1786554001000,
+      "publishedAt": "2026-08-12T17:00:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "New software tool Pixasonics turns biomedical images into sound",
+      "url": "https://phys.org/news/2026-08-software-tool-pixasonics-biomedical-images.html",
+      "summary": "Modern biomedicine increasingly relies on enormous amounts of image data. Although computers can do part of the analysis work, biologists often still need to look through the images themselves. This takes time.",
+      "ts": 1786552807000,
+      "publishedAt": "2026-08-12T16:40:07.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Famous oddball quasar isn't X-ray weak after all, astronomers say",
+      "url": "https://phys.org/news/2026-08-famous-oddball-quasar-isnt-ray.html",
+      "summary": "For more than two decades, the quasar PHL 1811 has been considered the prototype of a rare class of \"intrinsically X-ray weak\" quasars, thought to produce unusually little X-ray radiation. But in 2024, the Einstein Probe…",
+      "ts": 1786552801000,
+      "publishedAt": "2026-08-12T16:40:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Human clinicians outperform AI stethoscope in diagnosing pet heart problems",
+      "url": "https://phys.org/news/2026-08-human-clinicians-outperform-ai-stethoscope.html",
+      "summary": "Fourth-year veterinary students matched—and experienced clinicians outperformed—an AI-enabled digital stethoscope in diagnosing heart murmurs and arrhythmias in cats and dogs, according to a new study from North Carolina…",
+      "ts": 1786551609000,
+      "publishedAt": "2026-08-12T16:20:09.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Immune 'reprogramming' could protect poultry from deadly diseases without antibiotics",
+      "url": "https://phys.org/news/2026-08-immune-reprogramming-poultry-deadly-diseases.html",
+      "summary": "University of Bristol–led researchers have identified a naturally occurring gut molecule that could strengthen chickens' immune response against a wide range of bacterial infections. This development, published today, Au…",
+      "ts": 1786551601000,
+      "publishedAt": "2026-08-12T16:20:01.000Z"
+    },
+    {
+      "source": "Phys.org",
+      "title": "Online conflict may strengthen, not weaken, social movements, researchers find",
+      "url": "https://phys.org/news/2026-08-online-conflict-weaken-social-movements.html",
+      "summary": "Online conflict tends to advance social movements rather than undermine them, according to new research from McGill's Desautels Faculty of Management.",
+      "ts": 1786551001000,
+      "publishedAt": "2026-08-12T16:10:01.000Z"
+    },
     {
       "source": "Phys.org",
       "title": "Spontaneous magnons synchronize with external signals at room temperature",
@@ -259,6 +347,22 @@
       "publishedAt": "2026-08-12T11:00:01.000Z"
     },
     {
+      "source": "APS PR Applied",
+      "title": "Integral variable-range hopping for modeling electrical transport in disordered systems",
+      "url": "http://link.aps.org/doi/10.1103/zsnq-r7ms",
+      "summary": "Author(s): Chenxin Qin, Chenyan Wang, Mouyang Cheng, and Ji Chen The variable-range hopping (VRH) model has been widely applied to describe low-temperature electrical transport in disordered systems. However, it relies o…",
+      "ts": 1786528800000,
+      "publishedAt": "2026-08-12T10:00:00.000Z"
+    },
+    {
+      "source": "APS PR Applied",
+      "title": "Few-MHz bandwidth tunable optical filter based on a fiber-ring resonator",
+      "url": "http://link.aps.org/doi/10.1103/yw1q-f6f4",
+      "summary": "Author(s): Gabriele Maron, Anton Bölian, Xin-Xin Hu, Luke Masters, Arno Rauschenbeutel, and Jürgen Volz We present a fiber-ring resonator that realizes an ultranarrowband, high-extinction, low-loss, tunable optical filte…",
+      "ts": 1786528800000,
+      "publishedAt": "2026-08-12T10:00:00.000Z"
+    },
+    {
       "source": "APS Physical Review Letters",
       "title": "Exponentially Accelerated Sampling of Pauli Strings for Nonstabilizerness",
       "url": "http://link.aps.org/doi/10.1103/v3f2-ldr1",
@@ -383,22 +487,6 @@
       "title": "Evolution of Polycrystallinity in Homogeneously Nucleated Colloidal Crystals",
       "url": "http://link.aps.org/doi/10.1103/ht63-96gl",
       "summary": "Author(s): Merin Jose, Nicholas H. P. Orr, Taiki Yanagishima, and Roel P. A. Dullens Direct observations of the birth and growth of polycrystalline colloidal crystals clarify the role of grain formation, a key aspect in …",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Integral variable-range hopping for modeling electrical transport in disordered systems",
-      "url": "http://link.aps.org/doi/10.1103/zsnq-r7ms",
-      "summary": "Author(s): Chenxin Qin, Chenyan Wang, Mouyang Cheng, and Ji Chen The variable-range hopping (VRH) model has been widely applied to describe low-temperature electrical transport in disordered systems. However, it relies o…",
-      "ts": 1786528800000,
-      "publishedAt": "2026-08-12T10:00:00.000Z"
-    },
-    {
-      "source": "APS PR Applied",
-      "title": "Few-MHz bandwidth tunable optical filter based on a fiber-ring resonator",
-      "url": "http://link.aps.org/doi/10.1103/yw1q-f6f4",
-      "summary": "Author(s): Gabriele Maron, Anton Bölian, Xin-Xin Hu, Luke Masters, Arno Rauschenbeutel, and Jürgen Volz We present a fiber-ring resonator that realizes an ultranarrowband, high-extinction, low-loss, tunable optical filte…",
       "ts": 1786528800000,
       "publishedAt": "2026-08-12T10:00:00.000Z"
     },
@@ -711,94 +799,6 @@
       "title": "What should a linear optical frontend compute? Assessing the role of meta-optics, nonlocality, and coherence in hybrid inference systems",
       "url": "https://arxiv.org/abs/2608.10304",
       "summary": "arXiv:2608.10304v1 Announce Type: new Abstract: Hybrid inference systems that pair an optical frontend with a digital backend offer a route to offload computation to the physical layer. Yet what the optics should compute…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Wind-Informed Rapid Flight-Planning in Complex Urban Topologies via Machine Learning and Experimental Validation",
-      "url": "https://arxiv.org/abs/2608.10309",
-      "summary": "arXiv:2608.10309v1 Announce Type: new Abstract: Advanced air mobility operations hold the potential to enhance and expand regional transportation of both people and goods in populated areas. However, hazardous flight con…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Outdoor 100-m-scale air waveguides",
-      "url": "https://arxiv.org/abs/2608.10369",
-      "summary": "arXiv:2608.10369v1 Announce Type: new Abstract: Optical power densities for standoff spectroscopy, remote sensing, directed energy, and free-space optical communications are limited by diffraction and adverse atmospheric…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Observational Evidence Revises Presumed Large Ozone Worsening from Nitrogen Oxides Cuts",
-      "url": "https://arxiv.org/abs/2608.10399",
-      "summary": "arXiv:2608.10399v1 Announce Type: new Abstract: Many air quality models indicate that rapid reductions in nitrogen oxides (NOx), without comparable controls on volatile organic compounds, have worsened summertime ozone p…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Realizing A Hard X-Ray Storage Ring Free Electron Laser Oscillator at the APS-U",
-      "url": "https://arxiv.org/abs/2608.10419",
-      "summary": "arXiv:2608.10419v1 Announce Type: new Abstract: We show that the APS-U could support a hard X-ray storage ring free electron laser oscillator, providing a promising avenue toward high repetition rate, narrow bandwidth co…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Causality Sum Rules in Conventional Scattering Matrices",
-      "url": "https://arxiv.org/abs/2608.10427",
-      "summary": "arXiv:2608.10427v1 Announce Type: new Abstract: Scattering matrices are the standard experimental and computational description of photonic and electromagnetic devices. Passivity is explicit in the conventional incoming-…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Low-dimensional structure and online tracking of POD subspaces on the Grassmann manifold: application to flow around an airfoil",
-      "url": "https://arxiv.org/abs/2608.10498",
-      "summary": "arXiv:2608.10498v1 Announce Type: new Abstract: Representing flow states over a wide range of flow parameters and control inputs in a low-dimensional state space is a central challenge in fluid mechanics. Rather than rep…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Benchmark measurements of absolute frequencies and collisional line-shape parameters in the CO-Ar system using comb-based FTS",
-      "url": "https://arxiv.org/abs/2608.10508",
-      "summary": "arXiv:2608.10508v1 Announce Type: new Abstract: We report absolute frequency measurements of the CO fundamental band, together with high-precision Ar-induced collisional line-shape parameters using comb-based Fourier-tra…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Toward a Thermodynamic Framework for Dissipative Solitons: From Photonics to Turbulence and Bose--Einstein Condensate Analogies",
-      "url": "https://arxiv.org/abs/2608.10510",
-      "summary": "arXiv:2608.10510v1 Announce Type: new Abstract: Statistical reasoning in nonlinear optics follows three routes - wave-turbulence kinetics, multimode equilibrium thermodynamics, and mode-locking statistical mechanics -all…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "730-nm optical parametric conversion from near- to short-wave infrared band",
-      "url": "https://arxiv.org/abs/2608.10514",
-      "summary": "arXiv:2608.10514v1 Announce Type: new Abstract: A record 730 nm parametric conversion in silica fiber from the near-infrared to the short-wave infrared band is reported and analyzed. A parametric gain in excess of 30 dB …",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Development and Characterization of a Microwave Atmospheric Pressure Plasma Jet",
-      "url": "https://arxiv.org/abs/2608.10548",
-      "summary": "arXiv:2608.10548v1 Announce Type: new Abstract: Over the past decade, atmospheric pressure discharges in the microwave frequency range have gained significant attention due to their promising applications in material pro…",
-      "ts": 1786507200000,
-      "publishedAt": "2026-08-12T04:00:00.000Z"
-    },
-    {
-      "source": "arXiv Physics",
-      "title": "Dispersion Control of Chiral Exciton-Polariton Transport with Dielectric Metasurfaces",
-      "url": "https://arxiv.org/abs/2608.10558",
-      "summary": "arXiv:2608.10558v1 Announce Type: new Abstract: Exciton-polaritons provide a powerful platform for manipulating hybrid light-matter states with low effective masses and strong nonlinearities. Introducing chirality into t…",
       "ts": 1786507200000,
       "publishedAt": "2026-08-12T04:00:00.000Z"
     }
